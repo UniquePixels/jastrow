@@ -1,27 +1,28 @@
-# Setlist
+# Setlist — Jastrow Dictionary
 
-## In Progress
+## Now
+**Task:** Repository separation — extract from personal site to jastrow.app
+**Branch:** main
+**Status:** in progress — repo created, awaiting Cloudflare Pages setup
+**Context:** Moving to standalone public repo at UniquePixels/jastrow
 
-## Up Next
+## Enhancements
+- [ ] English key input to Hebrew character interpolation in search bar
+- [ ] Sage chart improvements including API data
+- [ ] BDB/Klein/Frank/HALOT cross references
+- [ ] Abbreviation tips from JSON data instead of hard coded
+- [ ] Sages and abbreviation data optimization
+- [ ] Sages graph spatial arrow-key navigation (~50 lines proximity logic)
+- [ ] LLM-powered search assistant for natural language queries
+- [ ] Social cover image — generate via Freepik AI, add to OG/Twitter meta
 
-1. **English key input to hebrew character interpolation in search bar.** (ie press a get alef, h get heh)
-
-2. **Sage chart improvements including API data** - Some of this may be covered in the admin tool
-
-3. **BDB/Klien/Frank/HALOT/??? Cross references**
-
-4. **Abbriviation tips from json data instead of hard coded.**
-
-5. **Sages, and abbriviation data optimization**
-
-6. **Sages graph spatial arrow-key navigation** — Deferred from a11y refactor. ArrowUp/Down/Left/Right moves focus to nearest node in that direction. ~50 lines of proximity logic in `sages-graph.js`.
-
-7. **LLM-Powered Search Assistant** — Future enhancement for natural language dictionary queries.
-
-8. **Investigate separating Jastrow project from personal website** — Currently lives as a subdirectory of the personal site repo. Evaluate moving to its own repo/deployment.
+## TODOs
+- [ ] Cloudflare Pages setup (manual — dashboard)
+- [ ] GitHub branch protection (manual — after CI runs once)
+- [ ] Add CodeRabbit GitHub App to repo
+- [ ] Cloudflare redirect rules (uniquepixels.xyz/talmud/* → jastrow.app/*)
+- [ ] Parent site cleanup (remove talmud/ from _config.yml, delete directory)
 
 ## Completed
-
-- [x] **Accessibility Refactor** — WCAG 2.1 AA compliance. Focus indicators, color contrast, ARIA labels, live regions, keyboard nav, skip link, touch targets, reduced motion.
-  - Spec: [2026-03-28-accessibility-refactor-spec.md](specs/2026-03-28-accessibility-refactor-spec.md)
-  - Plan: [2026-03-28-accessibility-refactor-plan.md](plans/2026-03-28-accessibility-refactor-plan.md)
+- [x] Accessibility refactor — WCAG 2.1 AA compliance
+- [x] Repository separation — spec and plan
