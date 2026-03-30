@@ -1,0 +1,51 @@
+{
+  "name": "Jastrow Dictionary - Talmudic Aramaic & Rabbinic Hebrew",
+  "short_name": "Jastrow",
+  "description": "Browse and search Marcus Jastrow's comprehensive dictionary of Talmudic Aramaic and Rabbinic Hebrew. Works offline after first visit.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "any",
+  "theme_color": "#7c3aff",
+  "background_color": "#ffffff",
+  "categories": ["education", "reference", "books"],
+  "lang": "en",
+  "dir": "ltr",
+  "icons": [
+    {
+      "src": "favicon-96x96.png",
+      "sizes": "96x96",
+      "type": "image/png"
+    },
+    {
+      "src": "apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    },
+    {
+      "src": "web-app-manifest-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "web-app-manifest-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "screenshots": [],
+  "shortcuts": [
+    {
+      "name": "Entry Guide",
+      "url": "/#guide",
+      "description": "How to read dictionary entries"
+    },
+    {
+      "name": "Abbreviations",
+      "url": "/#abbreviations",
+      "description": "Dictionary abbreviation reference"
+    }
+  ]
+}

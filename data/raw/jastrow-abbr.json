@@ -1,0 +1,994 @@
+{
+	"abbreviations": {
+		"a.": { "original": "and", "modern": "and (connects references)" },
+		"a. e.": {
+			"original": "and elsewhere",
+			"modern": "and elsewhere (in other sources)"
+		},
+		"a. fr.": {
+			"original": "and frequently",
+			"modern": "and frequently (appears often)"
+		},
+		"a. l.": { "original": "ad locum", "modern": "at that passage" },
+		"a. v. fr.": {
+			"original": "and very frequently",
+			"modern": "and very frequently (appears very often)"
+		},
+		"Ab.": {
+			"original": "Aboth (Mishnah)",
+			"modern": "Avot (Ethics of the Fathers)"
+		},
+		"Ab. d'R. N.": {
+			"original": "Aboth d'Rabbi Nathan (a late Talmudic treatise)",
+			"modern": "Avot d'Rabbi Natan (expansion of Ethics of the Fathers)"
+		},
+		"Ab. Zar.": {
+			"original": "Abodah Zarah (Talmud)",
+			"modern": "Avodah Zarah (tractate on idolatry)"
+		},
+		"abbrev.": {
+			"original": "abbreviated or abbreviation",
+			"modern": "abbreviation (shortened form)"
+		},
+		"add.": {
+			"original": "additamenta (Hosafah to Pesik. R.)",
+			"modern": "additions (Hosafah to Pesikta Rabbati)"
+		},
+		"adj.": {
+			"original": "adjective",
+			"modern": "adjective (descriptive word)"
+		},
+		"adv.": {
+			"original": "adverb",
+			"modern": "adverb (modifies verb/adjective)"
+		},
+		"Ag. Hatt.": {
+			"original": "Agadoth hat-Torah (quoted in Rabbinowicz Variæ Lectiones)",
+			"modern": "Agadot HaTorah (quoted in Dikdukei Soferim)"
+		},
+		"Alf.": {
+			"original": "Alfasi (Hilkhoth Rabbenu Alfasi)",
+			"modern": "Alfasi (Rif, halakhic digest by R. Isaac Alfasi)"
+		},
+		"Am.": { "original": "Amos", "modern": "Amos (biblical prophet)" },
+		"Ar.": {
+			"original": "Arukh (Talmudic Lexicon by R. Nathan Romi)",
+			"modern": "Arukh (medieval Talmudic dictionary by R. Natan)"
+		},
+		"Ar. Compl.": {
+			"original": "Arukh Completum ed. Alexander Kohut, Vienna 1878-85",
+			"modern": "Arukh Completum (expanded Arukh by Kohut, 1878-85)"
+		},
+		"Arakh.": {
+			"original": "Arakhin (Talmud)",
+			"modern": "Arakhin (tractate on valuations/vows)"
+		},
+		"art.": { "original": "article", "modern": "article (dictionary entry)" },
+		"B. Bath.": {
+			"original": "Baba Bathra (Talmud), v. Kel.",
+			"modern": "Bava Batra (tractate on property/inheritance)"
+		},
+		"b. h.": {
+			"original": "Biblical Hebrew",
+			"modern": "Biblical Hebrew (as opposed to Rabbinic)"
+		},
+		"B. Kam.": {
+			"original": "Baba Ḳamma (Talmud), v. Kel.",
+			"modern": "Bava Kamma (tractate on damages/torts)"
+		},
+		"B. Mets.": {
+			"original": "Baba M'tsiʿa (Talmud), v. Kel.",
+			"modern": "Bava Metzia (tractate on property/commerce)"
+		},
+		"B. N.": {
+			"original": "Beth Nathan (quoted in Rabbinowicz Variæ Lectiones)",
+			"modern": "Beit Natan (quoted in Dikdukei Soferim)"
+		},
+		"Bab.": {
+			"original": "Babli (Babylonian Talmud)",
+			"modern": "Bavli (Babylonian Talmud)"
+		},
+		"Bart.": {
+			"original": "Bartenora, Bertinora (commentary to Mishnah)",
+			"modern": "Bartenora (commentary on Mishnah by Ovadiah of Bertinoro)"
+		},
+		"beg.": {
+			"original": "beginning",
+			"modern": "beginning (start of passage)"
+		},
+		"Beitr.": {
+			"original": "Beiträge zur Sprach- und Alterthumsforschung, by Michael Sachs, Berlin 1852—54, 2 vols, v. Berl. a. Hildesh.",
+			"modern": "Sachs, Contributions to Language Research (1852-54)"
+		},
+		"Bekh.": {
+			"original": "B'khoroth (Talmud)",
+			"modern": "Bekhorot (tractate on firstborn)"
+		},
+		"Ber.": {
+			"original": "B'rakhoth (Talmud)",
+			"modern": "Berakhot (tractate on blessings and prayer)"
+		},
+		"Berl.": {
+			"original": "Berliner (editor of Targum Onkelos)",
+			"modern": "Berliner (editor of Targum Onkelos)"
+		},
+		"Berl. Beitr.": {
+			"original": "Berliner Beiträge zur Geographie und Ethnographie Babyloniens, Berlin 1884",
+			"modern": "Berliner, Geography of Babylonia (place identifications)"
+		},
+		"Bets.": {
+			"original": "Betsah (Talmud)",
+			"modern": "Beitzah (tractate on festival laws)"
+		},
+		"B'ḥuck.": {
+			"original": "B'ḥuḳḳothay (a pericope)",
+			"modern": "Bechukotai (Torah portion: Leviticus 26-27)"
+		},
+		"Bicc.": {
+			"original": "Biccurim, Bikkurim (Mishnah and Tosefta)",
+			"modern": "Bikkurim (tractate on first fruits)"
+		},
+		"bot.": {
+			"original": "bottom of page",
+			"modern": "bottom of page (in printed edition)"
+		},
+		"B'resh.": {
+			"original": "B'reshith (name of a pericope)",
+			"modern": "Bereishit (Torah portion: Genesis 1-6)"
+		},
+		"B'shall.": {
+			"original": "B'shallaḥ (name of a pericope)",
+			"modern": "Beshalach (Torah portion: Exodus 13-17)"
+		},
+		"c.": {
+			"original": "common gender",
+			"modern": "common gender (masculine or feminine)"
+		},
+		"Cant.": {
+			"original": "Canticum (Song of Songs)",
+			"modern": "Shir HaShirim (Song of Songs)"
+		},
+		"Cant. R.": {
+			"original": "Canticum Rabbah (Midrash Shir hash-Shirim or Ḥazitha)",
+			"modern": "Shir HaShirim Rabbah (Midrash on Song of Songs)"
+		},
+		"ch.": { "original": "Chaldaic", "modern": "Aramaic (Chaldaic)" },
+		"Ch.": { "original": "Chaldaic", "modern": "Aramaic (Chaldaic)" },
+		"Chron.": {
+			"original": "Chronicles, Book of",
+			"modern": "Chronicles (Divrei HaYamim)"
+		},
+		"cmp.": {
+			"original": "compare (mostly referring to association of ideas)",
+			"modern": "compare with related word"
+		},
+		"comment.": {
+			"original": "commentary or commentaries",
+			"modern": "commentary (explanatory notes on text)"
+		},
+		"comp.": {
+			"original": "compound or composed",
+			"modern": "compound word (made of multiple parts)"
+		},
+		"contr.": {
+			"original": "contracted or contraction",
+			"modern": "shortened form"
+		},
+		"contrad.": {
+			"original": "contradistinguished",
+			"modern": "distinguished by contrast from"
+		},
+		"corr.": {
+			"original": "correct",
+			"modern": "corrected text (original has error)"
+		},
+		"corr. acc.": {
+			"original": "correct accordingly",
+			"modern": "correct accordingly (apply fix throughout)"
+		},
+		"corrupt.": {
+			"original": "corruption",
+			"modern": "scribal error in the text"
+		},
+		"Curt. Griech. Etym.": {
+			"original": "Curtius Griechische Etymologie",
+			"modern": "Curtius, Greek Etymology (for Greek loanwords)"
+		},
+		"Dan.": {
+			"original": "Daniel, Book of",
+			"modern": "Daniel (biblical book)"
+		},
+		"Darkhe Mish.": {
+			"original": "Frankel, Hodegetica in Mishnam, Leipzig 1859 (Hebrew)",
+			"modern": "Frankel, Darkhei Mishnah (methodology of Mishnah)"
+		},
+		"def.": {
+			"original": "defining or definition",
+			"modern": "definition (meaning given)"
+		},
+		"Del.": {
+			"original": "Delitzsch, Friedrich",
+			"modern": "Delitzsch, Friedrich (19th c. Assyriologist)"
+		},
+		"Del. Assyr. Handw.": {
+			"original": "Delitzsch Assyrisches Handwörterbuch, Leipzig 1896",
+			"modern": "Delitzsch, Assyrian Dictionary (for Akkadian comparisons)"
+		},
+		"Del. Proleg.": {
+			"original": "Delitzsch Prolegomena eines neuen Hebräisch-Aramäischen Wörterbuchs &c.",
+			"modern": "Delitzsch, Prolegomena (Hebrew-Aramaic lexicography)"
+		},
+		"Dem.": {
+			"original": "D'mai (Mishnah, Tosefta a. Y'rushalmi)",
+			"modern": "Demai (tractate on doubtfully tithed produce)"
+		},
+		"denom.": {
+			"original": "denominative",
+			"modern": "verb derived from a noun"
+		},
+		"Der. Er.": {
+			"original": "Derekh Erets (Ethics, a late Talmudic treatise, Rabbah [the great], Zuṭa [the small])",
+			"modern": "Derekh Eretz (tractate on proper conduct)"
+		},
+		"Deut.": {
+			"original": "Deuteronomy, Book of",
+			"modern": "Deuteronomy (Devarim)"
+		},
+		"Deut. R.": {
+			"original": "Deuteronomy Rabbah (Midrash Rabbah to Deut.)",
+			"modern": "Deuteronomy Rabbah (Midrash on Deuteronomy)"
+		},
+		"diff.": {
+			"original": "different interpretation or differently interpreted",
+			"modern": "different interpretation (alternate reading)"
+		},
+		"differ.": {
+			"original": "different interpretation or differently interpreted",
+			"modern": "different interpretation (alternate view)"
+		},
+		"dimin.": {
+			"original": "diminutive",
+			"modern": "form indicating smallness"
+		},
+		"Du.": {
+			"original": "Dual",
+			"modern": "Dual (grammatical form for pairs)"
+		},
+		"ed.": {
+			"original": "edition or editions (current editions, opposed to manuscripts or especially quoted editions)",
+			"modern": "edition(s) (printed version)"
+		},
+		"Ed.": {
+			"original": "Eduyoth (Mishnah and Tosefta)",
+			"modern": "Eduyot (tractate on testimonies/traditions)"
+		},
+		"ellipt.": {
+			"original": "elliptically",
+			"modern": "word(s) omitted for brevity"
+		},
+		"Erub.": {
+			"original": "Erubin (Talmud)",
+			"modern": "Eruvin (tractate on Sabbath boundaries)"
+		},
+		"esp.": {
+			"original": "especially",
+			"modern": "especially (particularly in)"
+		},
+		"Esth.": {
+			"original": "Esther, Book of",
+			"modern": "Esther (Megillat Esther)"
+		},
+		"Esth. R.": {
+			"original": "Esther Rabbah (Midrash Rabbah to Esther)",
+			"modern": "Esther Rabbah (Midrash on Esther)"
+		},
+		"Ex.": { "original": "Exodus, Book of", "modern": "Exodus (Shemot)" },
+		"Ex. R.": {
+			"original": "Exodus Rabbah (Midrash Rabbah to Sh'moth)",
+			"modern": "Exodus Rabbah (Midrash on Exodus)"
+		},
+		"expl.": {
+			"original": "explained",
+			"modern": "explained as (interpreted to mean)"
+		},
+		"explan.": {
+			"original": "explanation",
+			"modern": "explanation (interpretive note)"
+		},
+		"Ez.": { "original": "Ezekiel, Book of", "modern": "Ezekiel (Yechezkel)" },
+		"Fl.": {
+			"original": "Fleisher, appendix to Levy's Targumic or Talmudic Lexicon",
+			"modern": "Fleischer (notes appended to Levy's dictionary)"
+		},
+		"foreg.": { "original": "foregoing", "modern": "the preceding entry" },
+		"fr.": { "original": "from", "modern": "from (derived from)" },
+		"freq.": {
+			"original": "frequently",
+			"modern": "frequently (common occurrence)"
+		},
+		"Fr.": {
+			"original": "Friedman (edition)",
+			"modern": "Friedman edition (of Pesikta Rabbati)"
+		},
+		"Frank.": {
+			"original": "Frankel, v. Darkhe, and M'bo",
+			"modern": "Frankel (scholar of Mishnah/Yerushalmi)"
+		},
+		"Gem.": {
+			"original": "G'mara",
+			"modern": "Gemara (Talmudic discussion on Mishnah)"
+		},
+		"Gen.": { "original": "Genesis, Book of", "modern": "Genesis (Bereishit)" },
+		"gen. of": { "original": "genitive of", "modern": "possessive form of" },
+		"Gen. R.": {
+			"original": "Genesis Rabbah (Midrash Rabbah to B'reshith)",
+			"modern": "Genesis Rabbah (Midrash on Genesis)"
+		},
+		"Ges. H. Dict.": {
+			"original": "Gesenius Hebrew Dictionary, 8th German edition",
+			"modern": "Gesenius, Hebrew Dictionary (standard Biblical Hebrew reference)"
+		},
+		"Gitt.": { "original": "Giṭṭin", "modern": "Gittin (tractate on divorce)" },
+		"Gloss.": {
+			"original": "Glossary",
+			"modern": "Glossary (marginal notes added by copyists)"
+		},
+		"Hab.": {
+			"original": "Habakkuk, Book of",
+			"modern": "Habakkuk (Chavakuk)"
+		},
+		"Hag.": { "original": "Haggai, Book of", "modern": "Haggai (Chaggai)" },
+		"Ḥag.": {
+			"original": "Ḥăgigah (Talmud)",
+			"modern": "Hagigah (tractate on festival offerings)"
+		},
+		"Ḥall.": {
+			"original": "Ḥallah (Mishnah, Tosefta and Y'rushalmi)",
+			"modern": "Hallah (tractate on dough offering)"
+		},
+		"Hif.": { "original": "Hifil", "modern": "Hifil (causative verb form)" },
+		"Hildesh. Beitr.": {
+			"original": "Hildesheimer Beiträge zur Geographie Palestinas, Berlin 1886",
+			"modern": "Hildesheimer, Geography of Palestine (place identifications)"
+		},
+		"Hithpa.": {
+			"original": "Hithpaël",
+			"modern": "Hitpael (reflexive verb form)"
+		},
+		"Hithpo.": {
+			"original": "Hithpolel",
+			"modern": "Hitpolel (intensive reflexive verb form)"
+		},
+		"Hor.": {
+			"original": "Horayoth (Talmud)",
+			"modern": "Horayot (tractate on erroneous rulings)"
+		},
+		"Hos.": { "original": "Hosea, Book of", "modern": "Hosea (Hoshea)" },
+		"Ḥuck.": {
+			"original": "Ḥuḳḳath (a pericope)",
+			"modern": "Chukat (Torah portion: Numbers 19-22)"
+		},
+		"Ḥull.": {
+			"original": "Ḥullin (Talmud)",
+			"modern": "Hullin (tractate on ritual slaughter)"
+		},
+		"intens.": {
+			"original": "intensive",
+			"modern": "emphatic form (stronger meaning)"
+		},
+		"introd.": {
+			"original": "introduction (פתיחתא)",
+			"modern": "introduction (petichta, opening homily)"
+		},
+		"Is.": { "original": "Isaiah, Book of", "modern": "Isaiah (Yeshayahu)" },
+		"Isp.": {
+			"original": "Ispeel",
+			"modern": "Ispeel (rare Aramaic passive form)"
+		},
+		"Ithpa.": {
+			"original": "Ithpaal",
+			"modern": "Itpaal (Aramaic reflexive/passive)"
+		},
+		"Ithpe.": { "original": "Ithpeel", "modern": "Itpeel (Aramaic passive)" },
+		"Jer.": {
+			"original": "Jeremiah, Book of",
+			"modern": "Jeremiah (Yirmiyahu)"
+		},
+		"Jon.": { "original": "Jonah", "modern": "Jonah (Yonah)" },
+		"Jos.": {
+			"original": "Josephus",
+			"modern": "Josephus (1st c. Jewish historian)"
+		},
+		"Josh.": { "original": "Joshua, Book of", "modern": "Joshua (Yehoshua)" },
+		"Jud.": {
+			"original": "Judices, Book of Judges",
+			"modern": "Judges (Shoftim)"
+		},
+		"K.A.T.": {
+			"original": "Keilinschriften und das Alte Testament by Schrader (second edition), Giessen 1883",
+			"modern": "Schrader, Cuneiform Inscriptions & OT (Assyrian comparisons)"
+		},
+		"KAT": {
+			"original": "Keilinschriften und das Alte Testament by Schrader (second edition), Giessen 1883",
+			"modern": "Schrader, Cuneiform Inscriptions & OT (Assyrian comparisons)"
+		},
+		"Kel.": {
+			"original": "Kelim (Mishnah and Tosefta, the latter divided into Baba Ḳamma, M'tsiʿa, and Bathra)",
+			"modern": "Kelim (tractate on ritual vessel purity)"
+		},
+		"Ker.": {
+			"original": "K'rithoth (Talmud)",
+			"modern": "Keritot (tractate on excision penalties)"
+		},
+		"Keth.": {
+			"original": "K'thuboth (Talmud)",
+			"modern": "Ketubot (tractate on marriage contracts)"
+		},
+		"Kidd.": {
+			"original": "Ḳiddushin (Talmud)",
+			"modern": "Kiddushin (tractate on betrothal)"
+		},
+		"Kil.": {
+			"original": "Kilayim (Mishnah, Tosefta and Talmud Y'rushalmi)",
+			"modern": "Kilayim (tractate on forbidden mixtures)"
+		},
+		"Kin.": {
+			"original": "Ḳinnim (Mishnah)",
+			"modern": "Kinnim (tractate on bird offerings)"
+		},
+		"Koh.": {
+			"original": "Koheleth, Book of Ecclesiastes",
+			"modern": "Kohelet (Ecclesiastes)"
+		},
+		"Koh. Ar. Compl.": {
+			"original": "Kohut in Aruch Completum",
+			"modern": "Kohut's notes in Arukh Completum"
+		},
+		"Koh. R.": {
+			"original": "Koheleth Rabbah (Midrash Rabbah to Ecclesiastes)",
+			"modern": "Kohelet Rabbah (Midrash on Ecclesiastes)"
+		},
+		"l. c.": {
+			"original": "loco citato or locum citatum",
+			"modern": "in the place already cited"
+		},
+		"Lam.": {
+			"original": "Lamentations, Book of",
+			"modern": "Lamentations (Eikhah)"
+		},
+		"Lam. R.": {
+			"original": "Lamentations Rabbah (Midrash Rabbah to Lam.; Ekhah Rabbathi)",
+			"modern": "Lamentations Rabbah (Midrash on Lamentations)"
+		},
+		"Lev.": {
+			"original": "Leviticus, Book of",
+			"modern": "Leviticus (Vayikra)"
+		},
+		"Lev. R.": {
+			"original": "Leviticus Rabbah (Midrash Rabbah to Leviticus, Vayyiḳra Rabbah)",
+			"modern": "Leviticus Rabbah (Midrash on Leviticus)"
+		},
+		"M. Kat.": {
+			"original": "Moʿed Ḳaṭon (Talmud)",
+			"modern": "Moed Katan (tractate on intermediate festival days)"
+		},
+		"Maas. Sh.": {
+			"original": "Maʿǎser Sheni (Mishnah, Tosefta, and Talmud Y'rushalmi)",
+			"modern": "Maaser Sheni (tractate on second tithe)"
+		},
+		"Maasr.": {
+			"original": "Maʿasroth (Mishnah, Tosefta, and Talmud Y'rushalmi)",
+			"modern": "Maasrot (tractate on tithes)"
+		},
+		"Macc.": {
+			"original": "Maccoth, Makkoth (Talmud)",
+			"modern": "Makkot (tractate on lashes/punishment)"
+		},
+		"Maim.": {
+			"original": "Maimonides",
+			"modern": "Maimonides (Rambam, 1138-1204)"
+		},
+		"Makhsh.": {
+			"original": "Makhshirin (Mishnah and Tosefta)",
+			"modern": "Makhshirin (tractate on liquid susceptibility to impurity)"
+		},
+		"Mal.": { "original": "Malachi, Book of", "modern": "Malachi (Malakhi)" },
+		"marg. vers.": {
+			"original": "marginal version",
+			"modern": "alternate reading written in manuscript margin"
+		},
+		"Mass.": {
+			"original": "Massekheth (Treatise)",
+			"modern": "Masekhet (tractate/section of Talmud)"
+		},
+		"Mat. K.": {
+			"original": "Matt'noth K'hunnah (commentary to Midrash Rabbah)",
+			"modern": "Mattenot Kehunah (commentary on Midrash Rabbah)"
+		},
+		"M'bo": {
+			"original": "Frankel, Introductio in Talmud Hierosolymitanum. Breslau 1870 (Hebrew)",
+			"modern": "Frankel, Mevo Yerushalmi (introduction to Jerusalem Talmud)"
+		},
+		"Meg.": {
+			"original": "M'gillah (Talmud)",
+			"modern": "Megillah (tractate on Purim/scroll reading)"
+		},
+		"Meil.": {
+			"original": "M'ʿilah (Talmud)",
+			"modern": "Meilah (tractate on Temple property misuse)"
+		},
+		"Mekh.": {
+			"original": "M'khilta (a Midrash to portions of Exodus)",
+			"modern": "Mekhilta (halakhic Midrash on Exodus)"
+		},
+		"Men.": {
+			"original": "M'naḥoth (Talmud)",
+			"modern": "Menahot (tractate on meal offerings)"
+		},
+		"Mic.": { "original": "Micah, Book of", "modern": "Micah (Mikhah)" },
+		"Midd.": {
+			"original": "Middoth (Mishnah)",
+			"modern": "Middot (tractate on Temple measurements)"
+		},
+		"Midr.": {
+			"original": "Midrash",
+			"modern": "Midrash (rabbinic biblical interpretation)"
+		},
+		"Midr. Sam.": {
+			"original": "Midrash Samuel",
+			"modern": "Midrash Samuel (Midrash on Samuel)"
+		},
+		"Midr. Till.": {
+			"original": "Midrash Tillim (Midrash to Psalms, Shoḥer Ṭob)",
+			"modern": "Midrash Tehillim (Midrash on Psalms)"
+		},
+		"Mikv.": {
+			"original": "Miḳvaoth (Mishnah and Tosefta)",
+			"modern": "Mikvaot (tractate on ritual baths)"
+		},
+		"Mish.": {
+			"original": "Mishnah",
+			"modern": "Mishnah (earliest rabbinic law code)"
+		},
+		"Mish. N. or Nap.": {
+			"original": "Mishnah, editio Napolis",
+			"modern": "Mishnah, Naples edition (1492, first printed)"
+		},
+		"Mish. Pes.": {
+			"original": "Mishnah, editio Pesaro",
+			"modern": "Mishnah, Pesaro edition (1515)"
+		},
+		"Mishp.": {
+			"original": "Mishpaṭim (name of a pericope)",
+			"modern": "Mishpatim (Torah portion: Exodus 21-24)"
+		},
+		"Ms.": {
+			"original": "Manuscript",
+			"modern": "Manuscript (handwritten copy of text)"
+		},
+		"Ms. F.": {
+			"original": "Manuscript Florence",
+			"modern": "Manuscript Florence (Biblioteca Medicea Laurenziana)"
+		},
+		"Ms. H.": {
+			"original": "Manuscript Hamburg",
+			"modern": "Manuscript Hamburg (Staats- und Universitätsbibliothek)"
+		},
+		"Ms. K.": {
+			"original": "Manuscript Karlsruhe",
+			"modern": "Manuscript Karlsruhe (Badische Landesbibliothek)"
+		},
+		"Ms. M.": {
+			"original": "Manuscript Munich",
+			"modern": "Manuscript Munich (Bavarian State Library)"
+		},
+		"Ms. O.": {
+			"original": "Manuscript Oxford",
+			"modern": "Manuscript Oxford (Bodleian Library)"
+		},
+		"Ms. R.": {
+			"original": "Manuscript Rome",
+			"modern": "Manuscript Rome (Vatican Library)"
+		},
+		"Mus.": {
+			"original": "Musafia (additamenta to Arukh)",
+			"modern": "Musafia (17th c. additions to the Arukh dictionary)"
+		},
+		"Nah.": { "original": "Nahum, Book of", "modern": "Nahum (Nachum)" },
+		"Naz.": {
+			"original": "Nazir (Talmud)",
+			"modern": "Nazir (tractate on Nazirite vows)"
+		},
+		"Neg.": {
+			"original": "N'gaʿim (Mishnah and Tosefta, also a subdivision in Sifra)",
+			"modern": "Negaim (tractate on skin afflictions)"
+		},
+		"Neh.": {
+			"original": "Nehemiah, Book of",
+			"modern": "Nehemiah (Nechemyah)"
+		},
+		"Neub. Géogr.": {
+			"original": "Neubauer Géographie du Talmud, Paris 1868",
+			"modern": "Neubauer, Geography of the Talmud (1868, place name reference)"
+		},
+		"Ned.": {
+			"original": "N'darim (Talmud)",
+			"modern": "Nedarim (tractate on vows)"
+		},
+		"Nidd.": {
+			"original": "Niddah (Talmud)",
+			"modern": "Niddah (tractate on menstrual purity)"
+		},
+		"Nif.": { "original": "Nifal", "modern": "Nifal (passive verb form)" },
+		"Nithpa.": {
+			"original": "Nithpaël",
+			"modern": "Nitpael (passive reflexive verb form)"
+		},
+		"Num.": {
+			"original": "Numeri, Book of (Numbers)",
+			"modern": "Numbers (Bamidbar)"
+		},
+		"Num. R.": {
+			"original": "Numeri Rabbah (Midrash Rabbah to Numbers, B'midbar Rabbah)",
+			"modern": "Numbers Rabbah (Midrash on Numbers)"
+		},
+		"Ob.": { "original": "Obadiah, Book of", "modern": "Obadiah (Ovadiah)" },
+		"Ohol.": {
+			"original": "Ohŏloth (Ahiloth, Mishnah and Tosefta)",
+			"modern": "Oholot (tractate on corpse impurity)"
+		},
+		"onomatop.": {
+			"original": "onomatopoetic",
+			"modern": "word imitating a sound"
+		},
+		"opin.": { "original": "opinion", "modern": "opinion (scholarly view)" },
+		"opp.": { "original": "opposed", "modern": "in contrast to" },
+		"Orl.": {
+			"original": "ʿOrlah (Mishnah, Tosefta and Y'rushalmi)",
+			"modern": "Orlah (tractate on fruit tree restrictions)"
+		},
+		"oth.": {
+			"original": "other, another, others",
+			"modern": "other interpretation(s)"
+		},
+		"P. Sm.": {
+			"original": "Payne Smith, Thesaurus Syriacus",
+			"modern": "Payne Smith, Syriac Dictionary (for Aramaic comparisons)"
+		},
+		"Par.": {
+			"original": "Parah (Mishnah and Tosefta) / Parashah, referring to Sifra",
+			"modern": "Parah (tractate on red heifer)"
+		},
+		"part.": {
+			"original": "participle",
+			"modern": "participle (verbal adjective)"
+		},
+		"Perl. Et. St.": {
+			"original": "Perles Etymologische Studien, Breslau 1871",
+			"modern": "Perles, Etymological Studies (word origin analysis)"
+		},
+		"pers. pron.": {
+			"original": "personal pronoun",
+			"modern": "personal pronoun (I, you, he, etc.)"
+		},
+		"Pes.": {
+			"original": "P'saḥim (Talmud)",
+			"modern": "Pesahim (tractate on Passover)"
+		},
+		"Pesik.": {
+			"original": "P'siḳta d'R. Kahăna, ed. Buber",
+			"modern": "Pesikta (collection of homilies for holidays)"
+		},
+		"Pesik. R.": {
+			"original": "P'siḳta Rabbathi (ed. Friedman)",
+			"modern": "Pesikta Rabbati (later collection of holiday homilies)"
+		},
+		"Pesik. Zutr.": {
+			"original": "P'siḳta Zuṭrathi, ed. Buber",
+			"modern": "Pesikta Zutarta (also called Lekach Tov)"
+		},
+		"Pfl.": {
+			"original": "Löw, Aramäische Pflanzennamen, Leipzig 1881",
+			"modern": "Löw, Aramaic Plant Names (botanical reference)"
+		},
+		"phraseol.": {
+			"original": "phraseology",
+			"modern": "phraseology (idiomatic expression)"
+		},
+		"Pi.": { "original": "Piël", "modern": "Piel (intensive verb form)" },
+		"pl.": { "original": "plural", "modern": "plural (more than one)" },
+		"Pl.": { "original": "plural", "modern": "Plural (more than one)" },
+		"pr. n.": {
+			"original": "proper noun",
+			"modern": "proper name (name of person/place)"
+		},
+		"pr. n. f.": {
+			"original": "proper noun of a female person",
+			"modern": "proper name (female)"
+		},
+		"pr. n. m.": {
+			"original": "proper noun of a male person",
+			"modern": "proper name (male)"
+		},
+		"pr. n. pl.": {
+			"original": "proper noun of a place",
+			"modern": "proper name (place)"
+		},
+		"preced.": { "original": "preceding", "modern": "the preceding word" },
+		"preced. art.": {
+			"original": "preceding article",
+			"modern": "preceding article (entry above)"
+		},
+		"preced. w.": {
+			"original": "preceding word",
+			"modern": "preceding word (entry above)"
+		},
+		"prep.": {
+			"original": "preposition",
+			"modern": "preposition (in, on, to, etc.)"
+		},
+		"prob.": {
+			"original": "probably",
+			"modern": "probably (uncertain reading)"
+		},
+		"pron.": {
+			"original": "pronoun",
+			"modern": "pronoun (word replacing a noun)"
+		},
+		"prop.": {
+			"original": "properly",
+			"modern": "in the strict/literal sense"
+		},
+		"prov.": {
+			"original": "a proverb",
+			"modern": "a proverb (traditional saying)"
+		},
+		"Prov.": {
+			"original": "Proverbs, Book of",
+			"modern": "Proverbs (Mishlei)"
+		},
+		"Ps.": { "original": "Psalms, Book of", "modern": "Psalms (Tehillim)" },
+		"q. v.": { "original": "quod vide", "modern": "see this entry for more" },
+		"r.": {
+			"original": "root or radix",
+			"modern": "root (base letters of word)"
+		},
+		"R.": {
+			"original": "Rab, Rabbi, or Rabbenu",
+			"modern": "Rabbi/Rav (title for sage)"
+		},
+		"R. Hash.": {
+			"original": "Rosh hash-Shanah (Talmud)",
+			"modern": "Rosh Hashanah (tractate on New Year)"
+		},
+		"R. S.": {
+			"original": "Rabbenu Shimshon (commentary to Mishnah)",
+			"modern": "R' Samson of Sens (12th c. Tosafist)"
+		},
+		"Rabb. D. S.": {
+			"original": "Rabbinowicz Diḳduḳé Sof'rim (Variæ Lectiones &c., Munich 1867-84)",
+			"modern": "Dikdukei Soferim (critical notes on Talmud text variants)"
+		},
+		"Rap.": {
+			"original": "Rapaport, ʿErekh Millin (Talmudic Cyclopedia, first and only volume)",
+			"modern": "Rapaport, Erekh Millin (Talmudic encyclopedia)"
+		},
+		"ref.": {
+			"original": "referring, reference",
+			"modern": "referring to (citation)"
+		},
+		"Ruth R.": {
+			"original": "Ruth Rabbah (Midrash Rabbah to Ruth)",
+			"modern": "Ruth Rabbah (Midrash on Ruth)"
+		},
+		"S.": {
+			"original": "Sophocles, Greek Lexicon of the Roman and Byzantine Periods, Boston 1870",
+			"modern": "Sophocles, Greek Lexicon (Byzantine Greek reference)"
+		},
+		"s.": {
+			"original": "section (Parashah)",
+			"modern": "section (parashah/chapter division)"
+		},
+		"s. v.": {
+			"original": "sub voce",
+			"modern": "see the entry for [this word]"
+		},
+		"Sabb.": {
+			"original": "Sabbath (Talmud)",
+			"modern": "Shabbat (tractate on Sabbath laws)"
+		},
+		"Sam.": { "original": "Samuel, Book of", "modern": "Samuel (Shmuel)" },
+		"Schr.": {
+			"original": "Schrader, v. KAT",
+			"modern": "Schrader (Assyriologist, cuneiform expert)"
+		},
+		"Sef. Yets": {
+			"original": "Sefer Y'tsirah (Book of Creation, a Cabalistic work)",
+			"modern": "Sefer Yetzirah (early mystical/cosmological text)"
+		},
+		"Shebi.": {
+			"original": "Sh'biith (Mishnah, Tosefta, and Y'rushalmi)",
+			"modern": "Sheviit (tractate on sabbatical year)"
+		},
+		"Shebu.": {
+			"original": "Shʾbuoth (Talmud)",
+			"modern": "Shevuot (tractate on oaths)"
+		},
+		"Shek.": {
+			"original": "Sh'ḳalim (Mishnah, Tosefta and Y'rushalmi, also a pericope in P'siḳta)",
+			"modern": "Shekalim (tractate on Temple tax)"
+		},
+		"Sm. Ant.": {
+			"original": "Smith, Dictionary of Greek and Roman Antiquities, Third American Edition, New-York 1858",
+			"modern": "Smith, Classical Antiquities Dictionary (Greco-Roman context)"
+		},
+		"S'maḥ.": {
+			"original": "S'maḥoth, Treatise (Abel Rabbathi)",
+			"modern": "Semahot (tractate on mourning rites)"
+		},
+		"Snh.": {
+			"original": "Sanhedrin (Talmud)",
+			"modern": "Sanhedrin (tractate on courts and criminal law)"
+		},
+		"Sonc.": {
+			"original": "Soncino",
+			"modern": "Soncino (early Hebrew printing family/press)"
+		},
+		"Sot.": {
+			"original": "Soṭah (Talmud)",
+			"modern": "Sotah (tractate on suspected adultery)"
+		},
+		"sub.": {
+			"original": "subaudi",
+			"modern": "indicates that a word is implied but not written in the source text"
+		},
+		"Succ.": {
+			"original": "Succah (Talmud)",
+			"modern": "Sukkah (tractate on Sukkot)"
+		},
+		"suppl.": {
+			"original": "supplement (Hosafah) to Pesikta Rabbathi",
+			"modern": "supplement (additions to Pesikta Rabbati)"
+		},
+		"Taan.": {
+			"original": "Taʿănith (Talmud)",
+			"modern": "Taanit (tractate on fast days)"
+		},
+		"Talm.": { "original": "Talmud", "modern": "Talmud (Mishnah + Gemara)" },
+		"Tam.": {
+			"original": "Tamid (Talmud)",
+			"modern": "Tamid (tractate on daily Temple service)"
+		},
+		"Tanḥ.": {
+			"original": "Midrash Tanḥuma",
+			"modern": "Midrash Tanchuma (homiletical Midrash on Torah)"
+		},
+		"Tanḥ. ed. Bub.": {
+			"original": "Midrash Tanḥuma (enlarged), edited, from manuscripts, by Buber, Wilna 1885",
+			"modern": "Midrash Tanchuma, Buber edition (expanded manuscript version)"
+		},
+		"Targ.": {
+			"original": "Targum",
+			"modern": "Targum (Aramaic translation of Bible)"
+		},
+		"Targ. O.": {
+			"original": "Targum Onkelos",
+			"modern": "Targum Onkelos (Aramaic translation of Torah)"
+		},
+		"Targ. Y.": {
+			"original": "Targum Y'rushalmi (or Jonathan)",
+			"modern": "Targum Yerushalmi (Palestinian Aramaic translation)"
+		},
+		"Targ. II": {
+			"original": "Targum Sheni (to Esther)",
+			"modern": "Targum Sheni (second Aramaic translation of Esther)"
+		},
+		"Tem.": {
+			"original": "T'murah (Talmud)",
+			"modern": "Temurah (tractate on substituted offerings)"
+		},
+		"Ter.": {
+			"original": "T'rumoth (Mishnah, Tosefta and Y'rushalmi)",
+			"modern": "Terumot (tractate on priestly tithes)"
+		},
+		"Toh.": {
+			"original": "Tohăroth (Mishnah and Tosefta)",
+			"modern": "Toharot (tractate on minor impurities)"
+		},
+		"Tosaf.": {
+			"original": "Tosafoth (Additamenta to Talmud Babli)",
+			"modern": "Tosafot (medieval commentaries on Talmud)"
+		},
+		"Tosef.": {
+			"original": "Tosefta",
+			"modern": "Tosefta (supplement to Mishnah)"
+		},
+		"Tosef. ed. Zuck.": {
+			"original": "Tosefta editio Zuckermandel, Pasewalk 1881",
+			"modern": "Tosefta, Zuckermandel edition (critical text, 1881)"
+		},
+		"Treat.": {
+			"original": "Treatise (tractatus, Massekheth, one of the appendices to Talmud Babli)",
+			"modern": "Treatise (tractate/section)"
+		},
+		"Trnsf.": {
+			"original": "Transferred",
+			"modern": "figurative/extended meaning"
+		},
+		"trnsp.": {
+			"original": "transposed or transposition",
+			"modern": "letters/words reordered from original"
+		},
+		"Ukts.": {
+			"original": "ʿUḳtsin (Mishnah and Tosefta)",
+			"modern": "Uktzin (tractate on produce stems/purity)"
+		},
+		"usu.": { "original": "usually", "modern": "usually (common usage)" },
+		"v.": { "original": "vide", "modern": "see [this entry]" },
+		"Var.": { "original": "Variant", "modern": "alternate reading" },
+		"var. lect.": {
+			"original": "variatio lectionis",
+			"modern": "alternate reading in some manuscripts"
+		},
+		"Ven.": {
+			"original": "Venice",
+			"modern": "Venice (early printing location)"
+		},
+		"vers.": { "original": "version", "modern": "version (textual reading)" },
+		"Vien.": { "original": "Vienna", "modern": "Vienna (printing location)" },
+		"w.": { "original": "word", "modern": "word (entry/term)" },
+		"Wil.": {
+			"original": "Wilna",
+			"modern": "Vilna (major printing center, now Vilnius)"
+		},
+		"ws.": { "original": "words", "modern": "words (multiple entries)" },
+		"Y.": {
+			"original": "Y'rushalmi (Palestinean Talmud)",
+			"modern": "Yerushalmi (Jerusalem/Palestinian Talmud)"
+		},
+		"Yad.": {
+			"original": "Yadayim (Mishnah and Tosefta)",
+			"modern": "Yadayim (tractate on hand washing)"
+		},
+		"Yalk.": {
+			"original": "Yalḳuṭ (Collectanea from Talmudim, Midrashim &c.)",
+			"modern": "Yalkut (anthology of Midrashic material)"
+		},
+		"Yeb.": {
+			"original": "Y'bamoth (Talmud)",
+			"modern": "Yevamot (tractate on levirate marriage)"
+		},
+		"Y'lamd.": {
+			"original": "Y'lamdenu (a lost book, corresponding to Tanḥuma, quoted in Arukh)",
+			"modern": "Yelamdenu (lost Midrash, quoted in Arukh)"
+		},
+		"Zab.": {
+			"original": "Zabim (Mishnah and Tosefta)",
+			"modern": "Zavim (tractate on genital discharges)"
+		},
+		"Zakh.": {
+			"original": "Zakhor (a pericope in P'siḳta)",
+			"modern": "Zakhor (special Torah reading before Purim)"
+		},
+		"Zeb.": {
+			"original": "Z'baḥim (Talmud)",
+			"modern": "Zevahim (tractate on animal sacrifices)"
+		},
+		"Zech.": {
+			"original": "Zechariah, Book of",
+			"modern": "Zechariah (Zekharyah)"
+		},
+		"Zeph.": {
+			"original": "Zephaniah, Book of",
+			"modern": "Zephaniah (Tzefaniah)"
+		},
+		"Zuck.": {
+			"original": "Zuckermandel, v. Tosef.",
+			"modern": "Zuckermandel (editor of Tosefta)"
+		},
+		"Zuckerm.": {
+			"original": "Zuckermann Talmudische Münzen und Gewichte, Breslau 1862",
+			"modern": "Zuckermann, 'Talmudische Münzen und Gewichte'"
+		}
+	}
+}

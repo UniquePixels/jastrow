@@ -1,0 +1,4276 @@
+{
+  "sages": [
+    {
+      "id": "hillel-the-elder",
+      "name": {
+        "en": "Hillel the Elder",
+        "he": "הלל הזקן"
+      },
+      "era": "tanna",
+      "generation": 1,
+      "dates": {
+        "born": -110,
+        "died": 10,
+        "approximate": true
+      },
+      "location": "israel",
+      "locations": [
+        "Jerusalem"
+      ],
+      "nasi": true,
+      "relationships": [],
+      "bio": "Founder of the House of Hillel and one of the most influential sages in Jewish history. Born in Babylonia, he ascended to become Nasi of the Sanhedrin, known for his patience, humility, and love of peace.",
+      "teachings": [
+        "If I am not for myself, who will be for me? And if I am only for myself, what am I? And if not now, when?",
+        "That which is hateful to you, do not do to your fellow. That is the whole Torah; the rest is commentary."
+      ],
+      "stories": [
+        "A gentile asked Hillel to teach him the entire Torah while standing on one foot; Hillel responded with the Golden Rule.",
+        "Despite extreme poverty, Hillel climbed to the roof of the study hall to listen through the skylight and was found covered in snow."
+      ],
+      "sefariaTopicSlug": "hillel"
+    },
+    {
+      "id": "shammai",
+      "name": {
+        "en": "Shammai",
+        "he": "שמאי הזקן"
+      },
+      "era": "tanna",
+      "generation": 1,
+      "dates": {
+        "born": -50,
+        "died": 30,
+        "approximate": true
+      },
+      "location": "israel",
+      "locations": [
+        "Jerusalem"
+      ],
+      "nasi": false,
+      "relationships": [],
+      "bio": "Head of the House of Shammai and Av Beit Din. Known for his strict interpretations of Jewish law, he served alongside Hillel as one of the last of the Zugot pairs.",
+      "teachings": [
+        "Make your Torah study a fixed practice; say little and do much; and receive every person with a cheerful face."
+      ],
+      "stories": [
+        "When the same gentile who approached Hillel came to Shammai asking to learn Torah on one foot, Shammai drove him away with a builder's cubit."
+      ],
+      "sefariaTopicSlug": "shammai"
+    },
+    {
+      "id": "bava-ben-buta",
+      "name": {
+        "en": "Bava ben Buta",
+        "he": "בבא בן בוטא"
+      },
+      "era": "tanna",
+      "generation": 1,
+      "dates": {
+        "born": -50,
+        "died": 20,
+        "approximate": true
+      },
+      "location": "israel",
+      "locations": [
+        "Jerusalem"
+      ],
+      "nasi": false,
+      "relationships": [
+        {
+          "type": "teacher",
+          "target": "shammai"
+        }
+      ],
+      "bio": "A student of Shammai who was known for his piety. He advised King Herod on the rebuilding of the Second Temple after Herod had blinded him.",
+      "teachings": [
+        "He would bring a voluntary offering to the Temple every day as a precaution in case he had become impure."
+      ],
+      "stories": [
+        "Despite being blinded by Herod, Bava ben Buta counseled the king to rebuild the Temple as atonement for his crimes."
+      ],
+      "sefariaTopicSlug": "bava-ben-buta"
+    },
+    {
+      "id": "rabban-shimon-ben-hillel",
+      "name": {
+        "en": "Rabban Shimon (b)",
+        "he": "רבן שמעון (ב)"
+      },
+      "era": "tanna",
+      "generation": 2,
+      "dates": {
+        "born": -70,
+        "died": 5,
+        "approximate": true
+      },
+      "location": "israel",
+      "locations": [
+        "Jerusalem"
+      ],
+      "nasi": true,
+      "relationships": [
+        {
+          "type": "father",
+          "target": "hillel-the-elder"
+        }
+      ],
+      "bio": "Son of Hillel the Elder who succeeded him as Nasi. Little is recorded of his teachings; he served as a transitional leader of the Sanhedrin.",
+      "teachings": [],
+      "stories": [],
+      "sefariaTopicSlug": "shimon-ben-hillel"
+    },
+    {
+      "id": "rabban-gamliel-hazaken",
+      "name": {
+        "en": "Rabban Gamliel HaZaken",
+        "he": "רבן גמליאל הזקן"
+      },
+      "era": "tanna",
+      "generation": 2,
+      "dates": {
+        "born": -30,
+        "died": 50,
+        "approximate": true
+      },
+      "location": "israel",
+      "locations": [
+        "Jerusalem"
+      ],
+      "nasi": true,
+      "relationships": [
+        {
+          "type": "father",
+          "target": "rabban-shimon-ben-hillel"
+        }
+      ],
+      "bio": "Grandson of Hillel and Nasi of the Sanhedrin. He enacted many important takkanot (rabbinic decrees) for the public welfare, including protections for women in divorce proceedings.",
+      "teachings": [
+        "Provide yourself with a teacher, remove yourself from doubt, and do not tithe by estimation."
+      ],
+      "stories": [
+        "He is mentioned in the Book of Acts as the Pharisee who counseled the Sanhedrin to leave the early Christians alone."
+      ],
+      "sefariaTopicSlug": "rabban-gamliel-the-elder"
+    },
+    {
+      "id": "rabban-shimon-ben-gamliel-i",
+      "name": {
+        "en": "Rabban Shimon (a)",
+        "he": "רבן שמעון (א)"
+      },
+      "era": "tanna",
+      "generation": 2,
+      "dates": {
+        "born": 10,
+        "died": 70,
+        "approximate": true
+      },
+      "location": "israel",
+      "locations": [
+        "Jerusalem"
+      ],
+      "nasi": true,
+      "relationships": [
+        {
+          "type": "father",
+          "target": "rabban-gamliel-hazaken"
+        }
+      ],
+      "bio": "Nasi of the Sanhedrin during the destruction of the Second Temple. He was one of the leaders of the Jewish revolt against Rome and was killed during the destruction.",
+      "teachings": [
+        "The world stands on three things: on justice, on truth, and on peace."
+      ],
+      "stories": [
+        "He was known for his extraordinary acrobatic feats during the Simchat Beit HaShoeva water-drawing celebration."
+      ],
+      "sefariaTopicSlug": "rabban-shimon-ben-gamliel-i"
+    },
+    {
+      "id": "yonatan-ben-uziel",
+      "name": {
+        "en": "Yonatan ben Uziel",
+        "he": "יונתן בן עוזיאל"
+      },
+      "era": "tanna",
+      "generation": 2,
+      "dates": {
+        "born": -30,
+        "died": 30,
+        "approximate": true
+      },
+      "location": "israel",
+      "locations": [
+        "Jerusalem"
+      ],
+      "nasi": false,
+      "relationships": [
+        {
+          "type": "teacher",
+          "target": "hillel-the-elder"
+        }
+      ],
+      "bio": "Greatest student of Hillel the Elder. He authored the Targum (Aramaic translation) on the Prophets, a foundational work of biblical interpretation.",
+      "teachings": [
+        "His Aramaic translation of the Prophets remains a primary reference for understanding the prophetic books."
+      ],
+      "stories": [
+        "It was said that when he studied Torah, any bird that flew over him would be consumed by fire from the intensity of his learning."
+      ],
+      "sefariaTopicSlug": "jonathan-ben-uzziel"
+    },
+    {
+      "id": "yonatan-ben-hurkanus",
+      "name": {
+        "en": "Yonatan ben Hurkanus",
+        "he": "יונתן בן הורקנוס"
+      },
+      "era": "tanna",
+      "generation": 2,
+      "dates": {
+        "born": -20,
+        "died": 40,
+        "approximate": true
+      },
+      "location": "israel",
+      "locations": [
+        "Jerusalem"
+      ],
+      "nasi": false,
+      "relationships": [],
+      "bio": "A sage of the early tannaitic period mentioned in connection with the academy in Jerusalem.",
+      "teachings": [],
+      "stories": [],
+      "sefariaTopicSlug": "yonatan-ben-hurkanus"
+    },
+    {
+      "id": "dosa-ben-harkinas",
+      "name": {
+        "en": "Dosa ben Harkinas",
+        "he": "דוסא בן הורקנוס"
+      },
+      "era": "tanna",
+      "generation": 2,
+      "dates": {
+        "born": -20,
+        "died": 80,
+        "approximate": true
+      },
+      "location": "israel",
+      "locations": [
+        "Jerusalem"
+      ],
+      "nasi": false,
+      "relationships": [],
+      "bio": "A long-lived sage who bridged the periods before and after the Temple's destruction. He was already elderly when the younger sages visited him for rulings.",
+      "teachings": [
+        "Morning sleep, midday wine, children's chatter, and sitting in the assemblies of the ignorant drive a person from the world."
+      ],
+      "stories": [
+        "When R' Yehoshua and other sages visited him in his old age, he was blind but recognized them and offered important legal opinions."
+      ],
+      "sefariaTopicSlug": "dosa-ben-harkinas"
+    },
+    {
+      "id": "rabbi-tzadok",
+      "name": {
+        "en": "R' Tzadok",
+        "he": "ר' צדוק"
+      },
+      "era": "tanna",
+      "generation": 2,
+      "dates": {
+        "born": -20,
+        "died": 80,
+        "approximate": true
+      },
+      "location": "israel",
+      "locations": [
+        "Jerusalem"
+      ],
+      "nasi": false,
+      "relationships": [],
+      "bio": "A priest (Kohen) who fasted for forty years before the destruction of the Temple, praying it would not be destroyed. After the destruction, Rabban Yochanan ben Zakkai asked Vespasian to provide physicians for him.",
+      "teachings": [
+        "Do not make the Torah a crown for self-glorification or a spade to dig with."
+      ],
+      "stories": [
+        "He fasted for forty years to avert the destruction of the Temple, becoming so emaciated that food could be seen passing through his throat."
+      ],
+      "sefariaTopicSlug": "rabbi-tzadok"
+    },
+    {
+      "id": "rabban-yochanan-ben-zakkai",
+      "name": {
+        "en": "Rabban Yochanan ben Zakkai",
+        "he": "רבן יוחנן בן זכאי"
+      },
+      "era": "tanna",
+      "generation": 2,
+      "dates": {
+        "born": -30,
+        "died": 90,
+        "approximate": true
+      },
+      "location": "israel",
+      "locations": [
+        "Jerusalem",
+        "Yavne"
+      ],
+      "nasi": true,
+      "relationships": [
+        {
+          "type": "teacher",
+          "target": "hillel-the-elder"
+        }
+      ],
+      "bio": "The youngest and most distinguished student of Hillel. He escaped besieged Jerusalem in a coffin and established the academy at Yavne, ensuring the survival of Judaism after the Temple's destruction.",
+      "teachings": [
+        "If you have a sapling in your hand and they tell you the Messiah has come, first plant the sapling and then go greet the Messiah."
+      ],
+      "stories": [
+        "He was smuggled out of besieged Jerusalem in a coffin by his students and negotiated with Vespasian to preserve the academy at Yavne.",
+        "On his deathbed he wept, saying he did not know on which path he would be led."
+      ],
+      "sefariaTopicSlug": "yochanan-ben-zakkai"
+    },
+    {
+      "id": "rabbi-eliezer-ben-yaakov-a",
+      "name": {
+        "en": "R' Eliezer ben Yaakov (A)",
+        "he": "ר' אליעזר בן יעקב (א)"
+      },
+      "era": "tanna",
+      "generation": 2,
+      "dates": {
+        "born": 0,
+        "died": 70,
+        "approximate": true
+      },
+      "location": "israel",
+      "locations": [
+        "Jerusalem"
+      ],
+      "nasi": false,
+      "relationships": [],
+      "bio": "An early tanna known for his precise and reliable traditions about the Temple. The Talmud states that his mishnah is 'small in quantity but pure.'",
+      "teachings": [
+        "His descriptions of the Temple layout are considered the most authoritative among the tannaim."
+      ],
+      "stories": [],
+      "sefariaTopicSlug": "eliezer-ben-yaakov"
+    },
+    {
+      "id": "rabbi-chanina-ben-dosa",
+      "name": {
+        "en": "R' Chanina ben Dosa",
+        "he": "ר' חנינא בן דוסא"
+      },
+      "era": "tanna",
+      "generation": 3,
+      "dates": {
+        "born": 20,
+        "died": 80,
+        "approximate": true
+      },
+      "location": "israel",
+      "locations": [
+        "Arav"
+      ],
+      "nasi": false,
+      "relationships": [
+        {
+          "type": "teacher",
+          "target": "rabban-yochanan-ben-zakkai"
+        }
+      ],
+      "bio": "A wonder-worker renowned for his piety and the efficacy of his prayers. He lived in extreme poverty but was considered one of the most righteous men of his generation.",
+      "teachings": [
+        "Anyone whose fear of sin precedes his wisdom, his wisdom will endure. Anyone whose wisdom precedes his fear of sin, his wisdom will not endure."
+      ],
+      "stories": [
+        "A poisonous lizard bit him while he was praying, but the lizard died while R' Chanina was unharmed, leading to the saying: Woe to the person who meets a lizard, but woe to the lizard that meets R' Chanina ben Dosa.",
+        "His wife would light the oven on Fridays and let smoke rise so neighbors wouldn't know they had nothing to cook."
+      ],
+      "sefariaTopicSlug": "chanina-ben-dosa"
+    },
+    {
+      "id": "rabbi-eliezer-ben-hyrcanus",
+      "name": {
+        "en": "R' Eliezer ben Hyrcanus",
+        "he": "ר' אליעזר בן הורקנוס"
+      },
+      "era": "tanna",
+      "generation": 3,
+      "dates": {
+        "born": 40,
+        "died": 110,
+        "approximate": true
+      },
+      "location": "israel",
+      "locations": [
+        "Lod"
+      ],
+      "nasi": false,
+      "relationships": [
+        {
+          "type": "teacher",
+          "target": "rabban-yochanan-ben-zakkai"
+        }
+      ],
+      "bio": "Known as 'Eliezer the Great,' he was Rabban Yochanan ben Zakkai's most prominent student. He was eventually excommunicated for refusing to accept the majority opinion, in the famous Oven of Akhnai incident.",
+      "teachings": [
+        "Let the honor of your fellow be as dear to you as your own.",
+        "Repent one day before your death — meaning every day, since one never knows when death will come."
+      ],
+      "stories": [
+        "In the Oven of Akhnai dispute, he called on miracles to prove his position — a carob tree uprooted itself, a stream reversed its flow, and a heavenly voice supported him — yet the sages ruled that Torah is not in heaven.",
+        "He began his Torah studies late in life, leaving his father's farm at age 28 to study under Rabban Yochanan ben Zakkai."
+      ],
+      "sefariaTopicSlug": "eliezer-ben-hyrcanus"
+    },
+    {
+      "id": "rabbi-yehoshua-ben-chananya",
+      "name": {
+        "en": "R' Yehoshua ben Chananya",
+        "he": "ר' יהושע בן חנניה"
+      },
+      "era": "tanna",
+      "generation": 3,
+      "dates": {
+        "born": 40,
+        "died": 120,
+        "approximate": true
+      },
+      "location": "israel",
+      "locations": [
+        "Peki'in",
+        "Yavne"
+      ],
+      "nasi": false,
+      "relationships": [
+        {
+          "type": "teacher",
+          "target": "rabban-yochanan-ben-zakkai"
+        }
+      ],
+      "bio": "A Levite who served in the Temple choir and one of the five main students of Rabban Yochanan ben Zakkai. He was a frequent disputant with R' Eliezer and generally represented the more lenient position.",
+      "teachings": [
+        "An evil eye, the evil inclination, and hatred of fellow creatures drive a person from the world."
+      ],
+      "stories": [
+        "He debated the emperor Hadrian and Athenian philosophers, besting them with wit and wisdom.",
+        "He prevented the Jews from attempting to rebuild the Temple under Hadrian by telling the parable of the lion and the crane."
+      ],
+      "sefariaTopicSlug": "yehoshua-ben-chananya"
+    },
+    {
+      "id": "rabbi-elazar-ben-arach",
+      "name": {
+        "en": "R' Elazar ben Arach",
+        "he": "ר' אלעזר בן ערך"
+      },
+      "era": "tanna",
+      "generation": 3,
+      "dates": {
+        "born": 40,
+        "died": 100,
+        "approximate": true
+      },
+      "location": "israel",
+      "locations": [
+        "Emmaus"
+      ],
+      "nasi": false,
+      "relationships": [
+        {
+          "type": "teacher",
+          "target": "rabban-yochanan-ben-zakkai"
+        }
+      ],
+      "bio": "One of the five main students of Rabban Yochanan ben Zakkai, who praised him as 'an ever-flowing spring.' He separated from the other sages and eventually forgot his learning.",
+      "teachings": [
+        "Rabban Yochanan said of him: If all the sages of Israel were on one side of the scale and Elazar ben Arach on the other, he would outweigh them all."
+      ],
+      "stories": [
+        "He moved to Emmaus for its pleasant waters and separated from his colleagues, eventually forgetting his Torah until the sages prayed for him and his learning was restored."
+      ],
+      "sefariaTopicSlug": "elazar-ben-arach"
+    },
+    {
+      "id": "rabban-gamliel-ii",
+      "name": {
+        "en": "Rabban Gamliel II",
+        "he": "רבן גמליאל"
+      },
+      "era": "tanna",
+      "generation": 3,
+      "dates": {
+        "born": 40,
+        "died": 120,
+        "approximate": true
+      },
+      "location": "israel",
+      "locations": [
+        "Yavne"
+      ],
+      "nasi": true,
+      "relationships": [
+        {
+          "type": "father",
+          "target": "rabban-shimon-ben-gamliel-i"
+        }
+      ],
+      "bio": "Nasi of the Sanhedrin at Yavne after the Temple's destruction. He sought to unify Jewish practice and strengthen the authority of the Sanhedrin, though his strict leadership led to his temporary deposition.",
+      "teachings": [
+        "Make His will your will, so that He may make your will His will."
+      ],
+      "stories": [
+        "He was temporarily deposed as Nasi for humiliating R' Yehoshua, and R' Elazar ben Azariah was appointed in his place.",
+        "He traveled by ship with other sages and used astronomical knowledge for legal decisions."
+      ],
+      "sefariaTopicSlug": "rabban-gamliel-ii"
+    },
+    {
+      "id": "rabbi-elazar-ben-azariah",
+      "name": {
+        "en": "R' Elazar ben Azariah",
+        "he": "ר' אלעזר בן עזריה"
+      },
+      "era": "tanna",
+      "generation": 3,
+      "dates": {
+        "born": 60,
+        "died": 120,
+        "approximate": true
+      },
+      "location": "israel",
+      "locations": [
+        "Yavne"
+      ],
+      "nasi": true,
+      "relationships": [],
+      "bio": "A wealthy sage of priestly descent who was appointed Nasi at age 18 (or according to some, his appearance aged miraculously) when Rabban Gamliel II was deposed. He served as co-leader afterward.",
+      "teachings": [
+        "If there is no Torah, there is no worldly occupation; if there is no worldly occupation, there is no Torah.",
+        "Anyone whose wisdom exceeds his deeds, to what is he compared? To a tree with many branches but few roots."
+      ],
+      "stories": [
+        "When appointed Nasi at a young age, eighteen rows of his hair turned white overnight so he would appear dignified enough for the position."
+      ],
+      "sefariaTopicSlug": "elazar-ben-azariah"
+    },
+    {
+      "id": "abba-shaul",
+      "name": {
+        "en": "Abba Shaul",
+        "he": "אבא שאול"
+      },
+      "era": "tanna",
+      "generation": 3,
+      "dates": {
+        "born": 50,
+        "died": 120,
+        "approximate": true
+      },
+      "location": "israel",
+      "locations": [
+        "Jerusalem"
+      ],
+      "nasi": false,
+      "relationships": [],
+      "bio": "A tanna who worked as a gravedigger and baker. He was known for his great height and for his descriptions of ancient bones and burial practices.",
+      "teachings": [
+        "Just as God is gracious and merciful, so too should you be gracious and merciful."
+      ],
+      "stories": [
+        "As a gravedigger, he once entered the thighbone of Og, King of Bashan, and ran through it for three parasangs."
+      ],
+      "sefariaTopicSlug": "abba-shaul"
+    },
+    {
+      "id": "yose-hagalili",
+      "name": {
+        "en": "Yose haGalili",
+        "he": "יוסי הגלילי"
+      },
+      "era": "tanna",
+      "generation": 3,
+      "dates": {
+        "born": 60,
+        "died": 130,
+        "approximate": true
+      },
+      "location": "israel",
+      "locations": [
+        "Galilee",
+        "Yavne"
+      ],
+      "nasi": false,
+      "relationships": [],
+      "bio": "A prominent tanna from the Galilee known for his hermeneutical rules. He formulated 32 rules for interpreting Aggadah (non-legal narrative).",
+      "teachings": [
+        "His 32 rules for interpreting Aggadah became a foundational text for midrashic exegesis."
+      ],
+      "stories": [
+        "He was mocked by his wife, and after divorcing her, she fell on hard times. Despite her cruelty, he supported her and her new husband."
+      ],
+      "sefariaTopicSlug": "yosei-haglili"
+    },
+    {
+      "id": "rabbi-akiva",
+      "name": {
+        "en": "Rabbi Akiva",
+        "he": "ר' עקיבא בן יוסף"
+      },
+      "era": "tanna",
+      "generation": 3,
+      "dates": {
+        "born": 15,
+        "died": 135,
+        "approximate": true
+      },
+      "location": "israel",
+      "locations": [
+        "Bnei Brak"
+      ],
+      "nasi": false,
+      "relationships": [
+        {
+          "type": "teacher",
+          "target": "rabbi-eliezer-ben-hyrcanus"
+        },
+        {
+          "type": "teacher",
+          "target": "rabbi-yehoshua-ben-chananya"
+        }
+      ],
+      "bio": "Perhaps the most influential tanna, he began studying Torah at age 40 as an illiterate shepherd. He developed the method of deriving laws from every mark in the Torah and was martyred by the Romans during the Bar Kokhba revolt.",
+      "teachings": [
+        "Love your neighbor as yourself — this is a great principle of the Torah.",
+        "Everything is foreseen, yet freedom of choice is given; the world is judged with goodness, and everything depends on the abundance of good deeds."
+      ],
+      "stories": [
+        "He was inspired to study Torah by watching water wear away a stone, reasoning that Torah could similarly shape his heart.",
+        "He was executed by the Romans with iron combs, and died reciting the Shema with a smile, fulfilling 'with all your soul.'"
+      ],
+      "sefariaTopicSlug": "akiva-ben-yosef"
+    },
+    {
+      "id": "rabbi-tarfon",
+      "name": {
+        "en": "R' Tarfon",
+        "he": "ר' טרפון"
+      },
+      "era": "tanna",
+      "generation": 3,
+      "dates": {
+        "born": 50,
+        "died": 130,
+        "approximate": true
+      },
+      "location": "israel",
+      "locations": [
+        "Lod"
+      ],
+      "nasi": false,
+      "relationships": [],
+      "bio": "A Kohen who remembered serving in the Temple as a child. He was a wealthy sage known for his sharp legal mind and his frequent debates with Rabbi Akiva.",
+      "teachings": [
+        "It is not your duty to finish the work, but neither are you free to neglect it.",
+        "The day is short, the task is great, the workers are lazy, the reward is much, and the Master is pressing."
+      ],
+      "stories": [
+        "He once ate terumah according to the House of Shammai and was nearly killed by bandits, leading him to regret following Shammai's opinion."
+      ],
+      "sefariaTopicSlug": "tarfon"
+    },
+    {
+      "id": "rabbi-yishmael-ben-elisha",
+      "name": {
+        "en": "R' Yishmael ben Elisha",
+        "he": "ר' ישמעאל בן אלישע"
+      },
+      "era": "tanna",
+      "generation": 3,
+      "dates": {
+        "born": 50,
+        "died": 135,
+        "approximate": true
+      },
+      "location": "israel",
+      "locations": [
+        "Yavne"
+      ],
+      "nasi": false,
+      "relationships": [],
+      "bio": "Founder of a major school of halakhic interpretation. His 13 hermeneutical rules for interpreting the Torah are recited daily in the morning prayers and form the basis of Talmudic legal reasoning.",
+      "teachings": [
+        "The Torah speaks in human language — meaning we should interpret scripture naturally rather than deriving law from every ornamental letter.",
+        "His 13 rules of interpretation remain foundational to halakhic methodology."
+      ],
+      "stories": [
+        "As a child he was taken captive to Rome, and R' Yehoshua ben Chananya redeemed him, recognizing his future greatness."
+      ],
+      "sefariaTopicSlug": "yishmael-ben-elisha"
+    },
+    {
+      "id": "rabbi-yochanan-ben-nuri",
+      "name": {
+        "en": "R' Yochanan ben Nuri",
+        "he": "ר' יוחנן בן נורי"
+      },
+      "era": "tanna",
+      "generation": 3,
+      "dates": {
+        "born": 60,
+        "died": 130,
+        "approximate": true
+      },
+      "location": "israel",
+      "locations": [
+        "Beit Shearim"
+      ],
+      "nasi": false,
+      "relationships": [],
+      "bio": "A tanna of the Yavne generation known for his disputes with Rabbi Akiva on matters of prayer and agricultural law.",
+      "teachings": [],
+      "stories": [],
+      "sefariaTopicSlug": "yochanan-ben-nuri"
+    },
+    {
+      "id": "rabbi-yochanan-ben-beroka",
+      "name": {
+        "en": "R' Yochanan ben Beroka",
+        "he": "ר' יוחנן בן ברוקא"
+      },
+      "era": "tanna",
+      "generation": 3,
+      "dates": {
+        "born": 60,
+        "died": 130,
+        "approximate": true
+      },
+      "location": "israel",
+      "locations": [],
+      "nasi": false,
+      "relationships": [],
+      "bio": "A tanna who studied alongside Rabbi Akiva. He is known for his legal opinions in matters of inheritance and Shabbat.",
+      "teachings": [
+        "Anyone who desecrates the Name of Heaven in secret will be punished in public."
+      ],
+      "stories": [],
+      "sefariaTopicSlug": "yochanan-ben-beroka"
+    },
+    {
+      "id": "elazar-hamodai",
+      "name": {
+        "en": "Elazar HaModai",
+        "he": "אלעזר המודעי"
+      },
+      "era": "tanna",
+      "generation": 3,
+      "dates": {
+        "born": 60,
+        "died": 135,
+        "approximate": true
+      },
+      "location": "israel",
+      "locations": [
+        "Modiin"
+      ],
+      "nasi": false,
+      "relationships": [],
+      "bio": "A tanna from Modi'in, expert in Aggadah. He was killed during the Bar Kokhba revolt when Bar Kokhba suspected him of treason, an act the rabbis considered a turning point in the revolt's failure.",
+      "teachings": [
+        "One who desecrates holy things, disgraces the festivals, shames his fellow in public, annuls the covenant of Abraham, or interprets the Torah contrary to halakhah has no share in the World to Come."
+      ],
+      "stories": [
+        "Bar Kokhba killed Elazar HaModai after a Samaritan falsely accused him of conspiring with Rome. The sages attributed the revolt's failure to this act."
+      ],
+      "sefariaTopicSlug": "elazar-of-modiin"
+    },
+    {
+      "id": "elazar-ben-chasma",
+      "name": {
+        "en": "Elazar ben Chasma",
+        "he": "אלעזר בן חסמא"
+      },
+      "era": "tanna",
+      "generation": 3,
+      "dates": {
+        "born": 60,
+        "died": 130,
+        "approximate": true
+      },
+      "location": "israel",
+      "locations": [],
+      "nasi": false,
+      "relationships": [],
+      "bio": "A tanna renowned for his expertise in astronomy and mathematics, which he considered ancillary to Torah wisdom.",
+      "teachings": [
+        "The laws of bird offerings and the onset of menstrual impurity are essential halakhot; astronomy and geometry are side dishes to wisdom."
+      ],
+      "stories": [],
+      "sefariaTopicSlug": "elazar-ben-chasma"
+    },
+    {
+      "id": "rabbi-chanina-ben-teradion",
+      "name": {
+        "en": "R' Chanina ben Teradion",
+        "he": "ר' חנינא בן תרדיון"
+      },
+      "era": "tanna",
+      "generation": 3,
+      "dates": {
+        "born": 60,
+        "died": 135,
+        "approximate": true
+      },
+      "location": "israel",
+      "locations": [
+        "Siknin"
+      ],
+      "nasi": false,
+      "relationships": [],
+      "bio": "One of the Ten Martyrs killed by the Romans for teaching Torah publicly. He was wrapped in a Torah scroll and burned alive.",
+      "teachings": [
+        "When two sit together and exchange words of Torah, the Divine Presence rests between them."
+      ],
+      "stories": [
+        "When he was wrapped in a Torah scroll and set aflame, his students asked what he saw. He replied: 'The parchment is burning but the letters are flying upward.'"
+      ],
+      "sefariaTopicSlug": "chanina-ben-teradion"
+    },
+    {
+      "id": "rabbi-meir",
+      "name": {
+        "en": "Rabbi Meir",
+        "he": "ר' מאיר"
+      },
+      "era": "tanna",
+      "generation": 4,
+      "dates": {
+        "born": 90,
+        "died": 150,
+        "approximate": true
+      },
+      "location": "israel",
+      "locations": [
+        "Tiberias"
+      ],
+      "nasi": false,
+      "relationships": [
+        {
+          "type": "teacher",
+          "target": "rabbi-akiva"
+        },
+        {
+          "type": "teacher",
+          "target": "rabbi-yishmael-ben-elisha"
+        },
+        {
+          "type": "wife",
+          "target": "beruriah"
+        }
+      ],
+      "bio": "One of the greatest tannaim and a primary contributor to the Mishnah. He was a student of both R' Akiva and R' Yishmael, and worked as a scribe. Unmarked mishnayot are attributed to him.",
+      "teachings": [
+        "Look not at the container but at what is in it; there are new containers full of old wine, and old containers that do not even contain new wine.",
+        "Study Torah with all your heart and all your soul to know God's ways and be diligent in the study of Torah."
+      ],
+      "stories": [
+        "His two sons died on Shabbat, and his wife Beruriah broke the news gently using a parable about returning a borrowed treasure."
+      ],
+      "sefariaTopicSlug": "meir"
+    },
+    {
+      "id": "beruriah",
+      "name": {
+        "en": "Beruriah",
+        "he": "ברוריה"
+      },
+      "era": "tanna",
+      "generation": 4,
+      "dates": {
+        "born": 100,
+        "died": 160,
+        "approximate": true
+      },
+      "location": "israel",
+      "locations": [
+        "Tiberias"
+      ],
+      "nasi": false,
+      "relationships": [
+        {
+          "type": "husband",
+          "target": "rabbi-meir"
+        },
+        {
+          "type": "father",
+          "target": "rabbi-chanina-ben-teradion"
+        }
+      ],
+      "bio": "One of the few women cited in the Talmud for her Torah scholarship. Daughter of R' Chanina ben Teradion and wife of R' Meir, she was known for her sharp intellect and legal rulings.",
+      "teachings": [
+        "She corrected R' Meir when he prayed for sinners to die, pointing out that the verse says sins should cease, not sinners."
+      ],
+      "stories": [
+        "She studied 300 halakhot from 300 teachers in a single day and was respected as a halakhic authority."
+      ],
+      "sefariaTopicSlug": "beruriah"
+    },
+    {
+      "id": "rabbi-yehuda-bar-ilai",
+      "name": {
+        "en": "R' Yehuda bar Ilai",
+        "he": "ר' יהודה בר אילעי"
+      },
+      "era": "tanna",
+      "generation": 4,
+      "dates": {
+        "born": 100,
+        "died": 170,
+        "approximate": true
+      },
+      "location": "israel",
+      "locations": [
+        "Usha"
+      ],
+      "nasi": false,
+      "relationships": [
+        {
+          "type": "teacher",
+          "target": "rabbi-akiva"
+        }
+      ],
+      "bio": "The most frequently cited tanna in the Mishnah. A student of R' Akiva, he was known as 'the first speaker on every occasion' and was particularly prominent in the Usha generation.",
+      "teachings": [
+        "A man is obligated to make his wife and children happy on the festival."
+      ],
+      "stories": [
+        "He and his wife shared a single cloak, taking turns wearing it when going to the study hall."
+      ],
+      "sefariaTopicSlug": "yehuda-bar-ilai"
+    },
+    {
+      "id": "rabbi-yose-ben-chalafta",
+      "name": {
+        "en": "R' Yose ben Chalafta",
+        "he": "ר' יוסי בן חלפתא"
+      },
+      "era": "tanna",
+      "generation": 4,
+      "dates": {
+        "born": 100,
+        "died": 160,
+        "approximate": true
+      },
+      "location": "israel",
+      "locations": [
+        "Sepphoris"
+      ],
+      "nasi": false,
+      "relationships": [
+        {
+          "type": "teacher",
+          "target": "rabbi-akiva"
+        }
+      ],
+      "bio": "A student of R' Akiva and one of the most important tannaim of the Usha generation. He is the author of Seder Olam Rabbah, the traditional Jewish chronology.",
+      "teachings": [
+        "Wherever the Mishnah cites an unattributed ruling as 'R' Yose says,' it represents his opinion."
+      ],
+      "stories": [
+        "He composed Seder Olam Rabbah, the foundational chronological work calculating dates from Creation to the Bar Kokhba revolt."
+      ],
+      "sefariaTopicSlug": "yose-ben-chalafta"
+    },
+    {
+      "id": "rabbi-shimon-bar-yochai",
+      "name": {
+        "en": "R' Shimon bar Yochai",
+        "he": "ר' שמעון בר יוחאי"
+      },
+      "era": "tanna",
+      "generation": 4,
+      "dates": {
+        "born": 90,
+        "died": 160,
+        "approximate": true
+      },
+      "location": "israel",
+      "locations": [
+        "Meron",
+        "Tekoa"
+      ],
+      "nasi": false,
+      "relationships": [
+        {
+          "type": "teacher",
+          "target": "rabbi-akiva"
+        }
+      ],
+      "bio": "A student of R' Akiva traditionally credited with authoring the Zohar, the foundational text of Kabbalah. He hid in a cave for 13 years to escape Roman persecution.",
+      "teachings": [
+        "Three things are acquired through suffering: Torah, the Land of Israel, and the World to Come."
+      ],
+      "stories": [
+        "He and his son R' Elazar hid in a cave for 13 years, sustained by a carob tree and spring of water, studying Torah continuously.",
+        "His yahrzeit on Lag BaOmer is celebrated with bonfires at his burial site in Meron."
+      ],
+      "sefariaTopicSlug": "shimon-bar-yochai"
+    },
+    {
+      "id": "rabbi-nechemia",
+      "name": {
+        "en": "R' Nechemia",
+        "he": "ר' נחמיה"
+      },
+      "era": "tanna",
+      "generation": 4,
+      "dates": {
+        "born": 100,
+        "died": 160,
+        "approximate": true
+      },
+      "location": "israel",
+      "locations": [],
+      "nasi": false,
+      "relationships": [
+        {
+          "type": "teacher",
+          "target": "rabbi-akiva"
+        }
+      ],
+      "bio": "A student of R' Akiva who specialized in distinguishing between categories in halakhah. He is frequently paired with R' Yehuda bar Ilai in Mishnaic disputes.",
+      "teachings": [],
+      "stories": [],
+      "sefariaTopicSlug": "nechemia"
+    },
+    {
+      "id": "rabbi-elazar-ben-shamua",
+      "name": {
+        "en": "R' Elazar ben Shamua",
+        "he": "ר' אלעזר בן שמוע"
+      },
+      "era": "tanna",
+      "generation": 4,
+      "dates": {
+        "born": 100,
+        "died": 170,
+        "approximate": true
+      },
+      "location": "israel",
+      "locations": [],
+      "nasi": false,
+      "relationships": [
+        {
+          "type": "teacher",
+          "target": "rabbi-akiva"
+        }
+      ],
+      "bio": "A Kohen and student of R' Akiva known for his modesty and respect for students. He lived to an advanced age and attributed his longevity to never having used a synagogue as a shortcut.",
+      "teachings": [
+        "Let the honor of your student be as dear to you as your own."
+      ],
+      "stories": [],
+      "sefariaTopicSlug": "elazar-ben-shamua"
+    },
+    {
+      "id": "rabban-shimon-ben-gamliel-ii",
+      "name": {
+        "en": "Rabban Shimon ben Gamliel II",
+        "he": "רבן שמעון בן גמליאל"
+      },
+      "era": "tanna",
+      "generation": 4,
+      "dates": {
+        "born": 100,
+        "died": 180,
+        "approximate": true
+      },
+      "location": "israel",
+      "locations": [
+        "Usha",
+        "Beit Shearim"
+      ],
+      "nasi": true,
+      "relationships": [
+        {
+          "type": "father",
+          "target": "rabban-gamliel-ii"
+        }
+      ],
+      "bio": "Nasi of the Sanhedrin at Usha. He survived the Hadrianic persecutions and led the restoration of Jewish communal life. Father of Rabbi Yehuda HaNasi.",
+      "teachings": [
+        "The world is sustained by three things: by truth, by justice, and by peace.",
+        "All my days I grew up among the sages, and I found nothing better for the body than silence."
+      ],
+      "stories": [],
+      "sefariaTopicSlug": "rabban-shimon-ben-gamliel-ii"
+    },
+    {
+      "id": "rabbi-elazar-son-of-rashbi",
+      "name": {
+        "en": "R' Elazar b'R' Shimon",
+        "he": "ר' אלעזר בר' שמעון"
+      },
+      "era": "tanna",
+      "generation": 4,
+      "dates": {
+        "born": 120,
+        "died": 180,
+        "approximate": true
+      },
+      "location": "israel",
+      "locations": [
+        "Meron"
+      ],
+      "nasi": false,
+      "relationships": [
+        {
+          "type": "father",
+          "target": "rabbi-shimon-bar-yochai"
+        }
+      ],
+      "bio": "Son of R' Shimon bar Yochai who hid with his father in the cave for 13 years. He later served as a Roman-appointed enforcer, catching thieves, which troubled the other rabbis.",
+      "teachings": [],
+      "stories": [
+        "After leaving the cave, he was so intense from his years of study that his gaze would burn whatever he looked at, until a heavenly voice told him to return to the cave for another year."
+      ],
+      "sefariaTopicSlug": "elazar-ben-shimon"
+    },
+    {
+      "id": "rabbi-yehuda-hanasi",
+      "name": {
+        "en": "R' Yehuda haNasi (Rebbi)",
+        "he": "ר' יהודה הנשיא (רבי)"
+      },
+      "era": "tanna",
+      "generation": 5,
+      "dates": {
+        "born": 135,
+        "died": 217,
+        "approximate": true
+      },
+      "location": "israel",
+      "locations": [
+        "Beit Shearim",
+        "Sepphoris"
+      ],
+      "nasi": true,
+      "relationships": [
+        {
+          "type": "father",
+          "target": "rabban-shimon-ben-gamliel-ii"
+        },
+        {
+          "type": "teacher",
+          "target": "rabbi-meir"
+        },
+        {
+          "type": "teacher",
+          "target": "rabbi-yehuda-bar-ilai"
+        },
+        {
+          "type": "teacher",
+          "target": "rabbi-shimon-bar-yochai"
+        }
+      ],
+      "bio": "Known simply as 'Rebbi,' he was the redactor of the Mishnah, the first major written compilation of Jewish oral law. He was Nasi of the Sanhedrin and enjoyed a close relationship with the Roman emperor Antoninus.",
+      "teachings": [
+        "Which is the right path that a person should choose? That which is honorable in the eyes of the one who follows it, and honorable in the eyes of others.",
+        "Be as careful with a minor mitzvah as with a major one, for you do not know the reward for each."
+      ],
+      "stories": [
+        "He was extremely wealthy and it was said that his table never lacked lettuce, radishes, or cucumbers in any season.",
+        "On his deathbed, he raised his ten fingers toward heaven and declared that he had not benefited from this world even with his little finger."
+      ],
+      "sefariaTopicSlug": "yehudah-ha-nasi"
+    },
+    {
+      "id": "rabbi-natan",
+      "name": {
+        "en": "R' Natan",
+        "he": "ר' נתן"
+      },
+      "era": "tanna",
+      "generation": 4,
+      "dates": {
+        "born": 110,
+        "died": 180,
+        "approximate": true
+      },
+      "location": "israel",
+      "locations": [],
+      "nasi": false,
+      "relationships": [],
+      "bio": "The Av Beit Din under Rabban Shimon ben Gamliel II. Of Babylonian origin, he was an expert in civil law and is credited with authoring Avot deRabbi Natan.",
+      "teachings": [],
+      "stories": [],
+      "sefariaTopicSlug": "natan"
+    },
+    {
+      "id": "rabbi-natan-habavli",
+      "name": {
+        "en": "R' Natan HaBavli",
+        "he": "ר' נתן הבבלי"
+      },
+      "era": "tanna",
+      "generation": 5,
+      "dates": {
+        "born": 130,
+        "died": 200,
+        "approximate": true
+      },
+      "location": "israel",
+      "locations": [],
+      "nasi": false,
+      "relationships": [],
+      "bio": "A Babylonian-born tanna who came to Israel and served as a prominent sage in the late tannaitic period.",
+      "teachings": [],
+      "stories": [],
+      "sefariaTopicSlug": "natan-habavli"
+    },
+    {
+      "id": "rabbi-yonatan",
+      "name": {
+        "en": "R' Yonatan",
+        "he": "ר' יונתן"
+      },
+      "era": "tanna",
+      "generation": 4,
+      "dates": {
+        "born": 100,
+        "died": 170,
+        "approximate": true
+      },
+      "location": "israel",
+      "locations": [],
+      "nasi": false,
+      "relationships": [],
+      "bio": "A tanna frequently paired with R' Yoshia in Mishnaic discussions about hermeneutical principles.",
+      "teachings": [],
+      "stories": [],
+      "sefariaTopicSlug": "yonatan"
+    },
+    {
+      "id": "rabbi-yoshia",
+      "name": {
+        "en": "R' Yoshia",
+        "he": "ר' יאשיה"
+      },
+      "era": "tanna",
+      "generation": 4,
+      "dates": {
+        "born": 100,
+        "died": 170,
+        "approximate": true
+      },
+      "location": "israel",
+      "locations": [],
+      "nasi": false,
+      "relationships": [],
+      "bio": "A tanna frequently paired with R' Yonatan in disputes about hermeneutical rules for interpreting the Torah.",
+      "teachings": [],
+      "stories": [],
+      "sefariaTopicSlug": "yoshia"
+    },
+    {
+      "id": "rabbi-yitzchak",
+      "name": {
+        "en": "R' Yitzchak",
+        "he": "ר' יצחק"
+      },
+      "era": "tanna",
+      "generation": 5,
+      "dates": {
+        "born": 130,
+        "died": 200,
+        "approximate": true
+      },
+      "location": "israel",
+      "locations": [],
+      "nasi": false,
+      "relationships": [],
+      "bio": "A transitional tanna-amora figure mentioned in both the late Mishnah and early Talmud. He is sometimes identified as the father of R' Nachman bar Yitzchak.",
+      "teachings": [],
+      "stories": [],
+      "sefariaTopicSlug": "yitzchak"
+    },
+    {
+      "id": "levi",
+      "name": {
+        "en": "Levi",
+        "he": "לוי"
+      },
+      "era": "tanna",
+      "generation": 5,
+      "dates": {
+        "born": 150,
+        "died": 220,
+        "approximate": true
+      },
+      "location": "israel",
+      "locations": [],
+      "nasi": false,
+      "relationships": [
+        {
+          "type": "teacher",
+          "target": "rabbi-yehuda-hanasi"
+        }
+      ],
+      "bio": "A student of R' Yehuda haNasi who transmitted many of Rebbi's teachings. He later traveled to Babylonia and transmitted the Mishnah there.",
+      "teachings": [],
+      "stories": [],
+      "sefariaTopicSlug": "levi-ben-sisi"
+    },
+    {
+      "id": "rabbi-pinchas-ben-yair",
+      "name": {
+        "en": "R' Pinchas ben Yair",
+        "he": "ר' פנחס בן יאיר"
+      },
+      "era": "tanna",
+      "generation": 5,
+      "dates": {
+        "born": 130,
+        "died": 200,
+        "approximate": true
+      },
+      "location": "israel",
+      "locations": [
+        "Lod"
+      ],
+      "nasi": false,
+      "relationships": [
+        {
+          "type": "son",
+          "target": "rabbi-shimon-bar-yochai"
+        }
+      ],
+      "bio": "Son-in-law of R' Shimon bar Yochai, known for his extreme piety and refusal to benefit from others. He was famous for his formulation of the path of spiritual ascent.",
+      "teachings": [
+        "Torah leads to watchfulness, watchfulness leads to zeal, zeal leads to cleanliness, cleanliness leads to asceticism, asceticism leads to purity, purity leads to piety, piety leads to humility, humility leads to fear of sin, fear of sin leads to holiness."
+      ],
+      "stories": [
+        "He refused to eat at others' tables, even Rabbi Yehuda haNasi's, due to his extreme ascetic practices."
+      ],
+      "sefariaTopicSlug": "pinchas-ben-yair"
+    },
+    {
+      "id": "rabbi-elazar-ben-yaakov-b",
+      "name": {
+        "en": "R' Elazar ben Yaakov (B)",
+        "he": "ר' אלעזר בן יעקב (ב)"
+      },
+      "era": "tanna",
+      "generation": 4,
+      "dates": {
+        "born": 100,
+        "died": 160,
+        "approximate": true
+      },
+      "location": "israel",
+      "locations": [],
+      "nasi": false,
+      "relationships": [],
+      "bio": "A second tanna of this name, distinguished from the earlier R' Eliezer ben Yaakov who knew the Temple layout.",
+      "teachings": [],
+      "stories": [],
+      "sefariaTopicSlug": "eliezer-ben-yaakov-ii"
+    },
+    {
+      "id": "rabbi-yehoshua-ben-korcha",
+      "name": {
+        "en": "R' Yehoshua ben Korcha",
+        "he": "ר' יהושע בן קרחה"
+      },
+      "era": "tanna",
+      "generation": 4,
+      "dates": {
+        "born": 100,
+        "died": 170,
+        "approximate": true
+      },
+      "location": "israel",
+      "locations": [],
+      "nasi": false,
+      "relationships": [],
+      "bio": "A tanna of the Usha generation known for his legal opinions, particularly regarding the reading of the Shema.",
+      "teachings": [],
+      "stories": [],
+      "sefariaTopicSlug": "yehoshua-ben-korcha"
+    },
+    {
+      "id": "rabban-shmuel-ben-gamliel",
+      "name": {
+        "en": "Rabban Shmuel ben Gamliel",
+        "he": "רבן שמואל בן גמליאל"
+      },
+      "era": "tanna",
+      "generation": 4,
+      "dates": {
+        "born": 110,
+        "died": 165,
+        "approximate": true
+      },
+      "location": "israel",
+      "locations": [],
+      "nasi": false,
+      "relationships": [
+        {
+          "type": "father",
+          "target": "rabban-gamliel-ii"
+        }
+      ],
+      "bio": "A member of the patriarchal family mentioned in the chart alongside other fourth-generation tannaim.",
+      "teachings": [],
+      "stories": [],
+      "sefariaTopicSlug": "shmuel-ben-gamliel"
+    },
+    {
+      "id": "rabbi-eliezer-son-of-rashbg",
+      "name": {
+        "en": "R' Eliezer his son",
+        "he": "ר' אליעזר בנו"
+      },
+      "era": "tanna",
+      "generation": 4,
+      "dates": {
+        "born": 120,
+        "died": 170,
+        "approximate": true
+      },
+      "location": "israel",
+      "locations": [],
+      "nasi": false,
+      "relationships": [
+        {
+          "type": "father",
+          "target": "rabban-shimon-ben-gamliel-ii"
+        }
+      ],
+      "bio": "Son of Rabban Shimon ben Gamliel II and brother of Rabbi Yehuda haNasi.",
+      "teachings": [],
+      "stories": [],
+      "sefariaTopicSlug": "eliezer-ben-rabban-shimon-ben-gamliel"
+    },
+    {
+      "id": "rabbi-shimon-ben-yehozadak",
+      "name": {
+        "en": "R' Shimon ben Yehozadak",
+        "he": "ר' שמעון בן יהוצדק"
+      },
+      "era": "tanna",
+      "generation": 5,
+      "dates": {
+        "born": 150,
+        "died": 220,
+        "approximate": true
+      },
+      "location": "israel",
+      "locations": [],
+      "nasi": false,
+      "relationships": [],
+      "bio": "A late tanna who straddled the tannaitic and amoraic periods.",
+      "teachings": [],
+      "stories": [],
+      "sefariaTopicSlug": "shimon-ben-yehozadak"
+    },
+    {
+      "id": "rabbi-yehoshua-ben-levi",
+      "name": {
+        "en": "R' Yehoshua ben Levi",
+        "he": "ר' יהושע בן לוי"
+      },
+      "era": "tanna",
+      "generation": 5,
+      "dates": {
+        "born": 180,
+        "died": 250,
+        "approximate": true
+      },
+      "location": "israel",
+      "locations": [
+        "Lod"
+      ],
+      "nasi": false,
+      "relationships": [],
+      "bio": "A transitional tanna/amora who led the academy at Lod. He is famous for his aggadic teachings, particularly about encountering the Angel of Death and the Messiah.",
+      "teachings": [
+        "Every day a heavenly voice goes out from Mount Horeb proclaiming: Woe to humanity for their contempt of Torah."
+      ],
+      "stories": [
+        "He visited the Garden of Eden while still alive and saw the righteous sitting with crowns on their heads.",
+        "He tricked the Angel of Death into showing him his place in the World to Come, then jumped in and refused to leave."
+      ],
+      "sefariaTopicSlug": "yehoshua-ben-levi"
+    },
+    {
+      "id": "bar-kapara",
+      "name": {
+        "en": "Bar Kapara",
+        "he": "בר כפרא"
+      },
+      "era": "tanna",
+      "generation": 5,
+      "dates": {
+        "born": 160,
+        "died": 220,
+        "approximate": true
+      },
+      "location": "israel",
+      "locations": [
+        "Caesarea"
+      ],
+      "nasi": false,
+      "relationships": [
+        {
+          "type": "teacher",
+          "target": "rabbi-yehuda-hanasi"
+        }
+      ],
+      "bio": "A student of R' Yehuda haNasi who compiled his own collection of baraitot. He was known for his wit and use of riddles and parables.",
+      "teachings": [
+        "What is a short verse upon which all essential principles of Torah depend? 'In all your ways acknowledge Him, and He will direct your paths.'"
+      ],
+      "stories": [
+        "He entertained at the wedding feast of R' Yehuda haNasi's son with witty riddles that made the guests laugh so hard they spilled their wine."
+      ],
+      "sefariaTopicSlug": "bar-kappara"
+    },
+    {
+      "id": "plimo",
+      "name": {
+        "en": "Plimo",
+        "he": "פלימו"
+      },
+      "era": "tanna",
+      "generation": 5,
+      "dates": {
+        "born": 160,
+        "died": 220,
+        "approximate": true
+      },
+      "location": "israel",
+      "locations": [],
+      "nasi": false,
+      "relationships": [],
+      "bio": "A late tanna mentioned in several Talmudic stories, particularly about confrontations with the evil inclination.",
+      "teachings": [],
+      "stories": [],
+      "sefariaTopicSlug": "plimo"
+    },
+    {
+      "id": "rabbi-oshaia",
+      "name": {
+        "en": "R' Oshaia",
+        "he": "ר' אושעיא"
+      },
+      "era": "tanna",
+      "generation": 5,
+      "dates": {
+        "born": 170,
+        "died": 230,
+        "approximate": true
+      },
+      "location": "israel",
+      "locations": [
+        "Caesarea"
+      ],
+      "nasi": false,
+      "relationships": [
+        {
+          "type": "teacher",
+          "target": "rabbi-yehuda-hanasi"
+        }
+      ],
+      "bio": "Also known as Oshaia Rabbah (the Great), he compiled an important collection of baraitot and founded an academy at Caesarea.",
+      "teachings": [],
+      "stories": [],
+      "sefariaTopicSlug": "oshaia-rabbah"
+    },
+    {
+      "id": "rabbi-chanina-bar-chama",
+      "name": {
+        "en": "R' Chanina bar Chama",
+        "he": "ר' חנינא בר חמא"
+      },
+      "era": "tanna",
+      "generation": 5,
+      "dates": {
+        "born": 160,
+        "died": 230,
+        "approximate": true
+      },
+      "location": "israel",
+      "locations": [
+        "Sepphoris"
+      ],
+      "nasi": false,
+      "relationships": [
+        {
+          "type": "teacher",
+          "target": "rabbi-yehuda-hanasi"
+        }
+      ],
+      "bio": "A transitional tanna-amora figure who studied under R' Yehuda haNasi. He headed the academy at Sepphoris and was known for his great physical strength.",
+      "teachings": [
+        "Everything is in the hands of Heaven except the fear of Heaven."
+      ],
+      "stories": [],
+      "sefariaTopicSlug": "chanina-bar-chama"
+    },
+    {
+      "id": "rabbi-chama-bar-chanina",
+      "name": {
+        "en": "R' Chama bar Chanina",
+        "he": "ר' חמא בר חנינא"
+      },
+      "era": "amorai",
+      "generation": 2,
+      "dates": {
+        "born": 180,
+        "died": 250,
+        "approximate": true
+      },
+      "location": "israel",
+      "locations": [],
+      "nasi": false,
+      "relationships": [
+        {
+          "type": "father",
+          "target": "rabbi-chanina-bar-chama"
+        }
+      ],
+      "bio": "Son of R' Chanina bar Chama who was left by his father to study Torah for many years, paralleling the story of R' Chama in aggadic literature.",
+      "teachings": [],
+      "stories": [],
+      "sefariaTopicSlug": "chama-bar-chanina"
+    },
+    {
+      "id": "rabbi-shimon-bar-menasya",
+      "name": {
+        "en": "R' Shimon bar Menasya",
+        "he": "שמעון בר מנסיא"
+      },
+      "era": "tanna",
+      "generation": 5,
+      "dates": {
+        "born": 160,
+        "died": 220,
+        "approximate": true
+      },
+      "location": "israel",
+      "locations": [],
+      "nasi": false,
+      "relationships": [],
+      "bio": "A late tanna who was part of the 'Holy Community' in Jerusalem, a group that divided their day between Torah study, prayer, and work.",
+      "teachings": [],
+      "stories": [],
+      "sefariaTopicSlug": "shimon-bar-menasya"
+    },
+    {
+      "id": "rabbi-shimon-ben-levi",
+      "name": {
+        "en": "R' Shimon ben Levi",
+        "he": "ר' שמעון בן לוי"
+      },
+      "era": "tanna",
+      "generation": 5,
+      "dates": {
+        "born": 170,
+        "died": 230,
+        "approximate": true
+      },
+      "location": "israel",
+      "locations": [],
+      "nasi": false,
+      "relationships": [],
+      "bio": "A late tanna who appears in the charts as part of the transitional generation.",
+      "teachings": [],
+      "stories": [],
+      "sefariaTopicSlug": "shimon-ben-levi"
+    },
+    {
+      "id": "rabbi-shimon-son-of-rabbi",
+      "name": {
+        "en": "R' Shimon son of Rabbi",
+        "he": "ר' שמעון"
+      },
+      "era": "tanna",
+      "generation": 5,
+      "dates": {
+        "born": 170,
+        "died": 230,
+        "approximate": true
+      },
+      "location": "israel",
+      "locations": [],
+      "nasi": false,
+      "relationships": [
+        {
+          "type": "father",
+          "target": "rabbi-yehuda-hanasi"
+        }
+      ],
+      "bio": "Son of R' Yehuda haNasi who is cited in several Talmudic passages in conversation with his father.",
+      "teachings": [],
+      "stories": [],
+      "sefariaTopicSlug": "shimon-son-of-rabbi"
+    },
+    {
+      "id": "rabban-gamliel-iii",
+      "name": {
+        "en": "Rabban Gamliel III",
+        "he": "רבן גמליאל"
+      },
+      "era": "tanna",
+      "generation": 5,
+      "dates": {
+        "born": 190,
+        "died": 250,
+        "approximate": true
+      },
+      "location": "israel",
+      "locations": [],
+      "nasi": true,
+      "relationships": [
+        {
+          "type": "father",
+          "target": "rabbi-yehuda-hanasi"
+        }
+      ],
+      "bio": "Son of R' Yehuda haNasi who succeeded him as Nasi. He led the Sanhedrin during the transition from the tannaitic to the amoraic period.",
+      "teachings": [],
+      "stories": [],
+      "sefariaTopicSlug": "rabban-gamliel-iii"
+    },
+    {
+      "id": "rabbi-chiya",
+      "name": {
+        "en": "R' Chiya",
+        "he": "ר' חייא"
+      },
+      "era": "amorai",
+      "generation": 1,
+      "dates": {
+        "born": 180,
+        "died": 230,
+        "approximate": true
+      },
+      "location": "israel",
+      "locations": [
+        "Tiberias"
+      ],
+      "nasi": false,
+      "relationships": [
+        {
+          "type": "teacher",
+          "target": "rabbi-yehuda-hanasi"
+        }
+      ],
+      "bio": "Born in Babylonia, he immigrated to Israel and became a close student of R' Yehuda haNasi. He compiled the Tosefta, a supplement to the Mishnah, and is considered a transitional figure between the tannaim and amoraim.",
+      "teachings": [
+        "He who studies Torah in private will have it proclaimed in public."
+      ],
+      "stories": [
+        "He went to great lengths to ensure Torah would not be forgotten, planting flax, making nets, trapping deer, writing scrolls, and teaching children."
+      ],
+      "sefariaTopicSlug": "chiyya-bar-abba0"
+    },
+    {
+      "id": "rabbi-oshaya",
+      "name": {
+        "en": "R' Oshaya",
+        "he": "ר' אושעיא"
+      },
+      "era": "amorai",
+      "generation": 1,
+      "dates": {
+        "born": 190,
+        "died": 250,
+        "approximate": true
+      },
+      "location": "israel",
+      "locations": [
+        "Caesarea"
+      ],
+      "nasi": false,
+      "relationships": [
+        {
+          "type": "teacher",
+          "target": "rabbi-chiya"
+        }
+      ],
+      "bio": "Head of the academy at Caesarea, known for his brilliant halakhic mind. His baraitot were considered so authoritative that any baraita not taught in his academy was considered unreliable.",
+      "teachings": [],
+      "stories": [],
+      "sefariaTopicSlug": "oshaya"
+    },
+    {
+      "id": "rabbi-yehuda-hanasi-ii",
+      "name": {
+        "en": "R' Yehuda haNasi (Rebbe)",
+        "he": "ר' יהודה הנשיא"
+      },
+      "era": "amorai",
+      "generation": 1,
+      "dates": {
+        "born": 210,
+        "died": 270,
+        "approximate": true
+      },
+      "location": "israel",
+      "locations": [
+        "Tiberias"
+      ],
+      "nasi": true,
+      "relationships": [
+        {
+          "type": "father",
+          "target": "rabban-gamliel-iii"
+        }
+      ],
+      "bio": "Grandson of Rabbi Yehuda haNasi who served as Nasi. He was a friend of R' Yochanan and continued the patriarchal dynasty.",
+      "teachings": [],
+      "stories": [],
+      "sefariaTopicSlug": "yehuda-nesia"
+    },
+    {
+      "id": "rabbi-chanina-bar-nechemia",
+      "name": {
+        "en": "R' Chanina bar Nechemia",
+        "he": "ר' חנינא בר נחמיה"
+      },
+      "era": "amorai",
+      "generation": 1,
+      "dates": {
+        "born": 200,
+        "died": 260,
+        "approximate": true
+      },
+      "location": "israel",
+      "locations": [],
+      "nasi": false,
+      "relationships": [],
+      "bio": "An early amora of Israel mentioned in the charts.",
+      "teachings": [],
+      "stories": [],
+      "sefariaTopicSlug": "chanina-bar-nechemia"
+    },
+    {
+      "id": "rabbi-yochanan",
+      "name": {
+        "en": "R' Yochanan",
+        "he": "ר' יוחנן"
+      },
+      "era": "amorai",
+      "generation": 2,
+      "dates": {
+        "born": 200,
+        "died": 279,
+        "approximate": true
+      },
+      "location": "israel",
+      "locations": [
+        "Tiberias"
+      ],
+      "nasi": false,
+      "relationships": [
+        {
+          "type": "teacher",
+          "target": "rabbi-yehuda-hanasi"
+        },
+        {
+          "type": "teacher",
+          "target": "rabbi-oshaya"
+        }
+      ],
+      "bio": "Head of the academy at Tiberias and the most prominent amora of Israel. He is the primary architect of the Jerusalem Talmud and is cited more than any other amora.",
+      "teachings": [
+        "Jerusalem was destroyed only because they judged according to strict Torah law and did not go beyond the letter of the law."
+      ],
+      "stories": [
+        "He was known for his extraordinary beauty. He would sit at the gates of the mikvah so that women emerging would see him and bear beautiful children.",
+        "He deeply mourned the death of his study partner Reish Lakish and could not be consoled by any replacement."
+      ],
+      "sefariaTopicSlug": "yochanan0"
+    },
+    {
+      "id": "reish-lakish",
+      "name": {
+        "en": "Reish Lakish",
+        "he": "ר' שמעון בן לקיש"
+      },
+      "era": "amorai",
+      "generation": 2,
+      "dates": {
+        "born": 200,
+        "died": 275,
+        "approximate": true
+      },
+      "location": "israel",
+      "locations": [
+        "Tiberias"
+      ],
+      "nasi": false,
+      "relationships": [
+        {
+          "type": "teacher",
+          "target": "rabbi-yochanan"
+        },
+        {
+          "type": "brother-in-law",
+          "target": "rabbi-yochanan"
+        }
+      ],
+      "bio": "Originally a gladiator or bandit who became one of the greatest amoraim after R' Yochanan inspired him to study Torah. He married R' Yochanan's sister and became his primary disputant.",
+      "teachings": [
+        "The words of Torah endure only in one who is willing to die for them.",
+        "Great is repentance, for through it intentional sins become like merits."
+      ],
+      "stories": [
+        "R' Yochanan saw him swimming in the Jordan and leaped in, offering his sister in marriage if Reish Lakish would devote himself to Torah. He accepted and became a great scholar.",
+        "He died after a painful dispute with R' Yochanan about when weapons become susceptible to impurity — R' Yochanan had reminded him of his bandit past."
+      ],
+      "sefariaTopicSlug": "reish-lakish"
+    },
+    {
+      "id": "rabbi-yannai",
+      "name": {
+        "en": "R' Yannai",
+        "he": "ר' ינאי"
+      },
+      "era": "amorai",
+      "generation": 1,
+      "dates": {
+        "born": 180,
+        "died": 240,
+        "approximate": true
+      },
+      "location": "israel",
+      "locations": [
+        "Sepphoris"
+      ],
+      "nasi": false,
+      "relationships": [],
+      "bio": "A wealthy first-generation amora who headed an academy in the Galilee. He was a teacher of R' Yochanan.",
+      "teachings": [
+        "We cannot explain either the tranquility of the wicked or the suffering of the righteous."
+      ],
+      "stories": [],
+      "sefariaTopicSlug": "yannai"
+    },
+    {
+      "id": "rabbi-yochanan-bar-nechemia",
+      "name": {
+        "en": "R' Yochanan bar Nechemia",
+        "he": "ר' יוחנן בר נחמיה"
+      },
+      "era": "amorai",
+      "generation": 1,
+      "dates": {
+        "born": 200,
+        "died": 260,
+        "approximate": true
+      },
+      "location": "israel",
+      "locations": [],
+      "nasi": false,
+      "relationships": [],
+      "bio": "An early amora of Israel from the transitional generation.",
+      "teachings": [],
+      "stories": [],
+      "sefariaTopicSlug": "yochanan-bar-nechemia"
+    },
+    {
+      "id": "rabbi-elazar-ben-pedat",
+      "name": {
+        "en": "R' Elazar ben Pedat",
+        "he": "ר' אלעזר"
+      },
+      "era": "amorai",
+      "generation": 2,
+      "dates": {
+        "born": 210,
+        "died": 279,
+        "approximate": true
+      },
+      "location": "israel",
+      "locations": [
+        "Tiberias"
+      ],
+      "nasi": false,
+      "relationships": [
+        {
+          "type": "teacher",
+          "target": "rabbi-yochanan"
+        }
+      ],
+      "bio": "Born in Babylonia, he came to Israel and became R' Yochanan's primary student and successor. After Reish Lakish died, R' Elazar served as R' Yochanan's study partner.",
+      "teachings": [],
+      "stories": [
+        "After Reish Lakish's death, the sages sent R' Elazar to comfort R' Yochanan, but R' Yochanan was dissatisfied because R' Elazar agreed with everything he said rather than challenging him."
+      ],
+      "sefariaTopicSlug": "elazar-ben-pedat"
+    },
+    {
+      "id": "rav",
+      "name": {
+        "en": "Rav (Abba Aricha)",
+        "he": "רב"
+      },
+      "era": "amorai",
+      "generation": 1,
+      "dates": {
+        "born": 175,
+        "died": 247,
+        "approximate": true
+      },
+      "location": "bavel",
+      "locations": [
+        "Sura"
+      ],
+      "nasi": false,
+      "relationships": [
+        {
+          "type": "teacher",
+          "target": "rabbi-yehuda-hanasi"
+        },
+        {
+          "type": "teacher",
+          "target": "rabbi-chiya"
+        }
+      ],
+      "bio": "Founder of the great academy at Sura in Babylonia. Born Abba Aricha, he studied under R' Yehuda haNasi in Israel and brought the Mishnah to Babylonia, establishing it as a major center of Torah learning.",
+      "teachings": [
+        "A person will have to give an accounting for everything his eyes saw and he did not eat.",
+        "The commandments were given only to refine humanity."
+      ],
+      "stories": [
+        "He established the academy at Sura which lasted for over 800 years and became the most important center of Jewish learning in the world."
+      ],
+      "sefariaTopicSlug": "rav"
+    },
+    {
+      "id": "shmuel",
+      "name": {
+        "en": "Shmuel (Nehardeah)",
+        "he": "שמואל"
+      },
+      "era": "amorai",
+      "generation": 1,
+      "dates": {
+        "born": 180,
+        "died": 254,
+        "approximate": true
+      },
+      "location": "bavel",
+      "locations": [
+        "Nehardea"
+      ],
+      "nasi": false,
+      "relationships": [],
+      "bio": "Head of the academy at Nehardea and Rav's primary disputant. Known as an expert in civil law and astronomy, the halakhah follows Shmuel in monetary matters.",
+      "teachings": [
+        "The law of the land is the law (dina d'malkhuta dina) — Jews must follow the civil laws of their country of residence."
+      ],
+      "stories": [
+        "He was also a physician and astronomer, claiming he knew the paths of the heavens as well as the streets of Nehardea."
+      ],
+      "sefariaTopicSlug": "shmuel"
+    },
+    {
+      "id": "abba-father-of-shmuel",
+      "name": {
+        "en": "Abba 'Father of Shmuel'",
+        "he": "אבא 'אבוה דשמואל'"
+      },
+      "era": "amorai",
+      "generation": 1,
+      "dates": {
+        "born": 160,
+        "died": 220,
+        "approximate": true
+      },
+      "location": "bavel",
+      "locations": [
+        "Nehardea"
+      ],
+      "nasi": false,
+      "relationships": [
+        {
+          "type": "son",
+          "target": "shmuel"
+        }
+      ],
+      "bio": "Father of Shmuel and a prominent sage in Nehardea. He was known for his expertise in civil law and his regulations for the protection of orphans.",
+      "teachings": [],
+      "stories": [],
+      "sefariaTopicSlug": "abba-bar-abba"
+    },
+    {
+      "id": "mar-ukva",
+      "name": {
+        "en": "Mar Ukva",
+        "he": "מר עוקבא"
+      },
+      "era": "amorai",
+      "generation": 1,
+      "dates": {
+        "born": 190,
+        "died": 250,
+        "approximate": true
+      },
+      "location": "bavel",
+      "locations": [
+        "Nehardea"
+      ],
+      "nasi": false,
+      "relationships": [
+        {
+          "type": "teacher",
+          "target": "shmuel"
+        }
+      ],
+      "bio": "Exilarch and head of the court at Nehardea. He was known for his exceptional charity, secretly leaving money at a poor man's door.",
+      "teachings": [],
+      "stories": [
+        "He would secretly leave four coins daily at a poor neighbor's door, and when the neighbor tried to discover his identity, Mar Ukva hid in a furnace rather than embarrass him."
+      ],
+      "sefariaTopicSlug": "mar-ukva"
+    },
+    {
+      "id": "karna",
+      "name": {
+        "en": "Karna",
+        "he": "קרנא"
+      },
+      "era": "amorai",
+      "generation": 1,
+      "dates": {
+        "born": 190,
+        "died": 250,
+        "approximate": true
+      },
+      "location": "bavel",
+      "locations": [],
+      "nasi": false,
+      "relationships": [],
+      "bio": "A Babylonian amora known as a judge (dayan) who examined the merit of cases.",
+      "teachings": [],
+      "stories": [],
+      "sefariaTopicSlug": "karna"
+    },
+    {
+      "id": "rav-huna",
+      "name": {
+        "en": "Rav Huna",
+        "he": "רב הונא"
+      },
+      "era": "amorai",
+      "generation": 2,
+      "dates": {
+        "born": 216,
+        "died": 297,
+        "approximate": true
+      },
+      "location": "bavel",
+      "locations": [
+        "Sura"
+      ],
+      "nasi": false,
+      "relationships": [
+        {
+          "type": "teacher",
+          "target": "rav"
+        }
+      ],
+      "bio": "Head of the academy at Sura for 40 years after Rav's death. Despite beginning in poverty, he became wealthy and was known for his generosity and the large number of students he attracted.",
+      "teachings": [],
+      "stories": [
+        "His academy grew so large that when the students stood up, their rising created a cloud of dust visible from afar.",
+        "He once tore expensive silk in front of his wife to test whether she would get angry, to teach about proper character."
+      ],
+      "sefariaTopicSlug": "rav-huna"
+    },
+    {
+      "id": "rav-yehuda",
+      "name": {
+        "en": "Rav Yehuda",
+        "he": "רב יהודה"
+      },
+      "era": "amorai",
+      "generation": 2,
+      "dates": {
+        "born": 220,
+        "died": 299,
+        "approximate": true
+      },
+      "location": "bavel",
+      "locations": [
+        "Pumbedita"
+      ],
+      "nasi": false,
+      "relationships": [
+        {
+          "type": "teacher",
+          "target": "rav"
+        },
+        {
+          "type": "teacher",
+          "target": "shmuel"
+        }
+      ],
+      "bio": "Founder of the academy at Pumbedita. He studied under both Rav and Shmuel and was known for precise transmission of their teachings.",
+      "teachings": [],
+      "stories": [],
+      "sefariaTopicSlug": "rav-yehuda"
+    },
+    {
+      "id": "rav-nachman",
+      "name": {
+        "en": "Rav Nachman",
+        "he": "רב נחמן"
+      },
+      "era": "amorai",
+      "generation": 3,
+      "dates": {
+        "born": 230,
+        "died": 320,
+        "approximate": true
+      },
+      "location": "bavel",
+      "locations": [
+        "Nehardea"
+      ],
+      "nasi": false,
+      "relationships": [
+        {
+          "type": "teacher",
+          "target": "shmuel"
+        },
+        {
+          "type": "wife",
+          "target": "yalta"
+        }
+      ],
+      "bio": "Son-in-law of the Exilarch and head of the court at Nehardea. He was the leading authority in civil and monetary law in his generation.",
+      "teachings": [],
+      "stories": [],
+      "sefariaTopicSlug": "rav-nachman"
+    },
+    {
+      "id": "yalta",
+      "name": {
+        "en": "Yalta",
+        "he": "ילתא"
+      },
+      "era": "amorai",
+      "generation": 3,
+      "dates": {
+        "born": 240,
+        "died": 310,
+        "approximate": true
+      },
+      "location": "bavel",
+      "locations": [
+        "Nehardea"
+      ],
+      "nasi": false,
+      "relationships": [
+        {
+          "type": "husband",
+          "target": "rav-nachman"
+        }
+      ],
+      "bio": "Daughter of the Exilarch and wife of Rav Nachman. She was known for her strong personality, her knowledge of halakhah, and her insistence on being treated with respect.",
+      "teachings": [],
+      "stories": [
+        "When R' Ulla refused to send her the cup of blessing, she went to the wine cellar and broke 400 barrels of wine in anger."
+      ],
+      "sefariaTopicSlug": "yalta"
+    },
+    {
+      "id": "rav-kahana",
+      "name": {
+        "en": "Rav Kahana",
+        "he": "רב כהנא"
+      },
+      "era": "amorai",
+      "generation": 2,
+      "dates": {
+        "born": 220,
+        "died": 280,
+        "approximate": true
+      },
+      "location": "bavel",
+      "locations": [
+        "Pumbedita"
+      ],
+      "nasi": false,
+      "relationships": [
+        {
+          "type": "teacher",
+          "target": "rav"
+        }
+      ],
+      "bio": "A student of Rav who later traveled to Israel and studied under R' Yochanan. He impressed R' Yochanan so greatly that R' Yochanan had to be revived after fainting when he saw Rav Kahana's brilliance.",
+      "teachings": [],
+      "stories": [
+        "When he arrived at R' Yochanan's academy in Israel, he answered so many questions brilliantly that R' Yochanan thought his own teachings were being challenged."
+      ],
+      "sefariaTopicSlug": "rav-kahana"
+    },
+    {
+      "id": "rav-yitzchak-bar-avdimi",
+      "name": {
+        "en": "R' Yitzchak bar Avdimi",
+        "he": "ר' יצחק בר אבדימי"
+      },
+      "era": "amorai",
+      "generation": 1,
+      "dates": {
+        "born": 190,
+        "died": 250,
+        "approximate": true
+      },
+      "location": "bavel",
+      "locations": [],
+      "nasi": false,
+      "relationships": [],
+      "bio": "An early Babylonian amora who is mentioned in connection with traditions from the tannaitic period.",
+      "teachings": [],
+      "stories": [],
+      "sefariaTopicSlug": "yitzchak-bar-avdimi"
+    },
+    {
+      "id": "rav-sheshet",
+      "name": {
+        "en": "Rav Sheshet",
+        "he": "רב ששת"
+      },
+      "era": "amorai",
+      "generation": 3,
+      "dates": {
+        "born": 250,
+        "died": 330,
+        "approximate": true
+      },
+      "location": "bavel",
+      "locations": [
+        "Nehardea"
+      ],
+      "nasi": false,
+      "relationships": [
+        {
+          "type": "teacher",
+          "target": "rav-huna"
+        }
+      ],
+      "bio": "A blind amora renowned for his phenomenal memory. He could recall the entire corpus of tannaitic literature and was known for his sharp wit.",
+      "teachings": [],
+      "stories": [
+        "Despite his blindness, he would stand and face the correct direction during prayers by sensing the crowd, and he once silenced a heretic who tried to trick him."
+      ],
+      "sefariaTopicSlug": "rav-sheshet"
+    },
+    {
+      "id": "rabba-bar-avuha",
+      "name": {
+        "en": "Rabba bar Avuha",
+        "he": "רבה בר אבוה"
+      },
+      "era": "amorai",
+      "generation": 2,
+      "dates": {
+        "born": 220,
+        "died": 280,
+        "approximate": true
+      },
+      "location": "bavel",
+      "locations": [
+        "Mechoza"
+      ],
+      "nasi": false,
+      "relationships": [
+        {
+          "type": "teacher",
+          "target": "rav"
+        }
+      ],
+      "bio": "A student of Rav who headed an academy in Mechoza. He was the grandfather of Rava.",
+      "teachings": [],
+      "stories": [],
+      "sefariaTopicSlug": "rabba-bar-avuha"
+    },
+    {
+      "id": "rav-chisda",
+      "name": {
+        "en": "Rav Chisda",
+        "he": "רב חסדא"
+      },
+      "era": "amorai",
+      "generation": 3,
+      "dates": {
+        "born": 230,
+        "died": 320,
+        "approximate": true
+      },
+      "location": "bavel",
+      "locations": [
+        "Sura"
+      ],
+      "nasi": false,
+      "relationships": [
+        {
+          "type": "teacher",
+          "target": "rav"
+        },
+        {
+          "type": "teacher",
+          "target": "rav-huna"
+        }
+      ],
+      "bio": "A wealthy sage who headed the academy at Sura. He was known for his sharp mind and for his generosity to students.",
+      "teachings": [],
+      "stories": [
+        "He lived to 92, attributing his longevity to never having spoken disrespectfully about another Torah scholar."
+      ],
+      "sefariaTopicSlug": "rav-chisda"
+    },
+    {
+      "id": "rabba-bar-nachmani",
+      "name": {
+        "en": "Rabba bar Nachmani",
+        "he": "רבה בר נחמני"
+      },
+      "era": "amorai",
+      "generation": 3,
+      "dates": {
+        "born": 270,
+        "died": 330,
+        "approximate": true
+      },
+      "location": "bavel",
+      "locations": [
+        "Pumbedita"
+      ],
+      "nasi": false,
+      "relationships": [
+        {
+          "type": "teacher",
+          "target": "rav-huna"
+        },
+        {
+          "type": "teacher",
+          "target": "rav-yehuda"
+        }
+      ],
+      "bio": "Known as 'the uprooter of mountains' for his analytical brilliance. He headed the academy at Pumbedita and attracted thousands of students to his lectures.",
+      "teachings": [],
+      "stories": [
+        "He died while fleeing Roman authorities, uttering 'Pure, pure!' as he expired — whereupon a heavenly voice declared him ready for the World to Come.",
+        "During his biannual public lectures (Kallah months), 12,000 students would gather."
+      ],
+      "sefariaTopicSlug": "rabba-bar-nachmani"
+    },
+    {
+      "id": "rav-yosef",
+      "name": {
+        "en": "Rav Yosef",
+        "he": "רב יוסף"
+      },
+      "era": "amorai",
+      "generation": 3,
+      "dates": {
+        "born": 270,
+        "died": 333,
+        "approximate": true
+      },
+      "location": "bavel",
+      "locations": [
+        "Pumbedita"
+      ],
+      "nasi": false,
+      "relationships": [
+        {
+          "type": "teacher",
+          "target": "rav-yehuda"
+        }
+      ],
+      "bio": "Known as 'Sinai' because of his vast knowledge of traditions. He went blind and succeeded Rabba as head of the Pumbedita academy.",
+      "teachings": [
+        "Were it not for this day (Shavuot, when the Torah was given), how many Yosefs are there in the marketplace?"
+      ],
+      "stories": [
+        "He forgot his learning after becoming blind, and his student Abaye would remind him of his own earlier teachings."
+      ],
+      "sefariaTopicSlug": "rav-yosef"
+    },
+    {
+      "id": "ulla",
+      "name": {
+        "en": "Ulla",
+        "he": "עולא"
+      },
+      "era": "amorai",
+      "generation": 3,
+      "dates": {
+        "born": 250,
+        "died": 300,
+        "approximate": true
+      },
+      "location": "israel",
+      "locations": [
+        "Tiberias"
+      ],
+      "nasi": false,
+      "relationships": [
+        {
+          "type": "teacher",
+          "target": "rabbi-yochanan"
+        }
+      ],
+      "bio": "A Palestinian amora who frequently traveled between Israel and Babylonia, serving as a primary transmitter of teachings between the two centers.",
+      "teachings": [],
+      "stories": [],
+      "sefariaTopicSlug": "ulla"
+    },
+    {
+      "id": "rav-yitzchak-bar-yosef",
+      "name": {
+        "en": "Rav Yitzchak",
+        "he": "רב יצחק"
+      },
+      "era": "amorai",
+      "generation": 3,
+      "dates": {
+        "born": 250,
+        "died": 310,
+        "approximate": true
+      },
+      "location": "bavel",
+      "locations": [],
+      "nasi": false,
+      "relationships": [],
+      "bio": "A third-generation Babylonian amora.",
+      "teachings": [],
+      "stories": [],
+      "sefariaTopicSlug": "yitzchak-bar-yosef"
+    },
+    {
+      "id": "rav-acha-bar-yaakov",
+      "name": {
+        "en": "Rav Acha bar Yaakov",
+        "he": "רב אחא בר יעקב"
+      },
+      "era": "amorai",
+      "generation": 3,
+      "dates": {
+        "born": 260,
+        "died": 330,
+        "approximate": true
+      },
+      "location": "bavel",
+      "locations": [],
+      "nasi": false,
+      "relationships": [],
+      "bio": "A Babylonian amora known for his piety and for successfully battling a demon that plagued the study hall.",
+      "teachings": [],
+      "stories": [],
+      "sefariaTopicSlug": "acha-bar-yaakov"
+    },
+    {
+      "id": "rabbi-shimon-ben-pazi",
+      "name": {
+        "en": "R' Shimon ben Pazi",
+        "he": "ר' שמעון בן פזי"
+      },
+      "era": "amorai",
+      "generation": 2,
+      "dates": {
+        "born": 220,
+        "died": 290,
+        "approximate": true
+      },
+      "location": "israel",
+      "locations": [],
+      "nasi": false,
+      "relationships": [],
+      "bio": "An amora of Israel known for his aggadic teachings.",
+      "teachings": [],
+      "stories": [],
+      "sefariaTopicSlug": "shimon-ben-pazi"
+    },
+    {
+      "id": "rabbi-avo",
+      "name": {
+        "en": "R' Avo",
+        "he": "ר' אבו"
+      },
+      "era": "amorai",
+      "generation": 2,
+      "dates": {
+        "born": 220,
+        "died": 280,
+        "approximate": true
+      },
+      "location": "israel",
+      "locations": [
+        "Tiberias"
+      ],
+      "nasi": false,
+      "relationships": [],
+      "bio": "An amora of Israel from the Tiberias academy.",
+      "teachings": [],
+      "stories": [],
+      "sefariaTopicSlug": "avo"
+    },
+    {
+      "id": "rabbi-akiva-bar-zevida",
+      "name": {
+        "en": "R' Akiva bar Zevida",
+        "he": "ר' עקיבא בר זבידא"
+      },
+      "era": "amorai",
+      "generation": 2,
+      "dates": {
+        "born": 220,
+        "died": 290,
+        "approximate": true
+      },
+      "location": "israel",
+      "locations": [],
+      "nasi": false,
+      "relationships": [],
+      "bio": "An amora of Israel mentioned in the charts alongside R' Yochanan's students.",
+      "teachings": [],
+      "stories": [],
+      "sefariaTopicSlug": "akiva-bar-zevida"
+    },
+    {
+      "id": "rabbi-yitzchak-bar-chana",
+      "name": {
+        "en": "R' Yitzchak bar Chana",
+        "he": "ר' יצחק בר חנא"
+      },
+      "era": "amorai",
+      "generation": 2,
+      "dates": {
+        "born": 220,
+        "died": 280,
+        "approximate": true
+      },
+      "location": "israel",
+      "locations": [],
+      "nasi": false,
+      "relationships": [],
+      "bio": "An amora of Israel from the second generation.",
+      "teachings": [],
+      "stories": [],
+      "sefariaTopicSlug": "yitzchak-bar-chana"
+    },
+    {
+      "id": "rabba-bar-chana",
+      "name": {
+        "en": "Rabba bar Chana",
+        "he": "רבה בר חנא"
+      },
+      "era": "amorai",
+      "generation": 2,
+      "dates": {
+        "born": 220,
+        "died": 290,
+        "approximate": true
+      },
+      "location": "bavel",
+      "locations": [],
+      "nasi": false,
+      "relationships": [
+        {
+          "type": "teacher",
+          "target": "rabbi-yochanan"
+        }
+      ],
+      "bio": "A Babylonian amora known for his fantastical travel stories, describing encounters with enormous creatures and miraculous phenomena during journeys.",
+      "teachings": [],
+      "stories": [
+        "He told tales of seeing the dead of the wilderness and the place where Korach was swallowed by the earth."
+      ],
+      "sefariaTopicSlug": "rabbah-bar-bar-chanah"
+    },
+    {
+      "id": "rav-yehuda-bar-yechezkel",
+      "name": {
+        "en": "Rav Yehuda bar Yechezkel",
+        "he": "רב יהודה בר יחזקאל"
+      },
+      "era": "amorai",
+      "generation": 2,
+      "dates": {
+        "born": 220,
+        "died": 299,
+        "approximate": true
+      },
+      "location": "bavel",
+      "locations": [
+        "Pumbedita"
+      ],
+      "nasi": false,
+      "relationships": [
+        {
+          "type": "teacher",
+          "target": "rav"
+        },
+        {
+          "type": "teacher",
+          "target": "shmuel"
+        }
+      ],
+      "bio": "Founder of the academy at Pumbedita. He studied under both Rav and Shmuel.",
+      "teachings": [],
+      "stories": [],
+      "sefariaTopicSlug": "yehuda-bar-yechezkel"
+    },
+    {
+      "id": "rabbi-shimon-ben-lakish-students",
+      "name": {
+        "en": "R' Shimon b'R' Yehuda",
+        "he": "ר' שמעון בר' יהודה"
+      },
+      "era": "amorai",
+      "generation": 2,
+      "dates": {
+        "born": 230,
+        "died": 290,
+        "approximate": true
+      },
+      "location": "israel",
+      "locations": [],
+      "nasi": false,
+      "relationships": [],
+      "bio": "A second-generation amora of Israel.",
+      "teachings": [],
+      "stories": [],
+      "sefariaTopicSlug": "shimon-bar-yehuda"
+    },
+    {
+      "id": "rav-pazi",
+      "name": {
+        "en": "R' Pazi",
+        "he": "ר' פזי"
+      },
+      "era": "amorai",
+      "generation": 2,
+      "dates": {
+        "born": 230,
+        "died": 290,
+        "approximate": true
+      },
+      "location": "israel",
+      "locations": [],
+      "nasi": false,
+      "relationships": [],
+      "bio": "A second-generation amora of Israel.",
+      "teachings": [],
+      "stories": [],
+      "sefariaTopicSlug": "pazi"
+    },
+    {
+      "id": "rav-dimi",
+      "name": {
+        "en": "Rav Dimi",
+        "he": "רב דימי"
+      },
+      "era": "amorai",
+      "generation": 3,
+      "dates": {
+        "born": 260,
+        "died": 320,
+        "approximate": true
+      },
+      "location": "israel",
+      "locations": [],
+      "nasi": false,
+      "relationships": [],
+      "bio": "A 'Nechutei' — one of the sages who traveled between Israel and Babylonia, transmitting teachings between the two centers.",
+      "teachings": [],
+      "stories": [],
+      "sefariaTopicSlug": "rav-dimi"
+    },
+    {
+      "id": "rabbi-yose-bar-chanina",
+      "name": {
+        "en": "R' Yose bar Chanina",
+        "he": "ר' יוסי בר חנינא"
+      },
+      "era": "amorai",
+      "generation": 2,
+      "dates": {
+        "born": 220,
+        "died": 290,
+        "approximate": true
+      },
+      "location": "israel",
+      "locations": [
+        "Caesarea"
+      ],
+      "nasi": false,
+      "relationships": [
+        {
+          "type": "teacher",
+          "target": "rabbi-yochanan"
+        }
+      ],
+      "bio": "A student of R' Yochanan in Tiberias, he was known for his halakhic traditions and aggadic teachings.",
+      "teachings": [],
+      "stories": [],
+      "sefariaTopicSlug": "yose-bar-chanina"
+    },
+    {
+      "id": "rabbi-abba",
+      "name": {
+        "en": "R' Abba",
+        "he": "ר' אבא"
+      },
+      "era": "amorai",
+      "generation": 3,
+      "dates": {
+        "born": 260,
+        "died": 330,
+        "approximate": true
+      },
+      "location": "israel",
+      "locations": [],
+      "nasi": false,
+      "relationships": [
+        {
+          "type": "teacher",
+          "target": "rav-huna"
+        }
+      ],
+      "bio": "A sage who traveled between Babylonia and Israel, transmitting teachings between the two centers.",
+      "teachings": [],
+      "stories": [],
+      "sefariaTopicSlug": "abba"
+    },
+    {
+      "id": "rabbi-zeira",
+      "name": {
+        "en": "R' Zeira",
+        "he": "ר' זירא"
+      },
+      "era": "amorai",
+      "generation": 3,
+      "dates": {
+        "born": 250,
+        "died": 320,
+        "approximate": true
+      },
+      "location": "israel",
+      "locations": [
+        "Tiberias"
+      ],
+      "nasi": false,
+      "relationships": [
+        {
+          "type": "teacher",
+          "target": "rav-yehuda"
+        }
+      ],
+      "bio": "Born in Babylonia, he yearned to move to Israel and fasted 100 fasts to forget the Babylonian method of study so he could learn the Israeli approach. He became one of the leading amoraim of Israel.",
+      "teachings": [],
+      "stories": [
+        "He fasted 100 fasts to forget the Babylonian Talmudic method so he could study in the style of the Land of Israel."
+      ],
+      "sefariaTopicSlug": "zeira"
+    },
+    {
+      "id": "rabbi-yose-bar-avin",
+      "name": {
+        "en": "R' Yose bar Avin",
+        "he": "ר' יוסי בר אבין"
+      },
+      "era": "amorai",
+      "generation": 3,
+      "dates": {
+        "born": 260,
+        "died": 330,
+        "approximate": true
+      },
+      "location": "israel",
+      "locations": [],
+      "nasi": false,
+      "relationships": [],
+      "bio": "A third-generation amora of Israel.",
+      "teachings": [],
+      "stories": [],
+      "sefariaTopicSlug": "yose-bar-avin"
+    },
+    {
+      "id": "rabbi-chanan",
+      "name": {
+        "en": "R' Chanan",
+        "he": "ר' חנן"
+      },
+      "era": "amorai",
+      "generation": 3,
+      "dates": {
+        "born": 260,
+        "died": 330,
+        "approximate": true
+      },
+      "location": "israel",
+      "locations": [],
+      "nasi": false,
+      "relationships": [],
+      "bio": "A third-generation amora of Israel.",
+      "teachings": [],
+      "stories": [],
+      "sefariaTopicSlug": "chanan"
+    },
+    {
+      "id": "rabbi-yose-bar-zevida",
+      "name": {
+        "en": "R' Yose bar Zevida",
+        "he": "ר' יוסי בר זבידא"
+      },
+      "era": "amorai",
+      "generation": 3,
+      "dates": {
+        "born": 260,
+        "died": 330,
+        "approximate": true
+      },
+      "location": "israel",
+      "locations": [],
+      "nasi": false,
+      "relationships": [],
+      "bio": "A third-generation amora of Israel.",
+      "teachings": [],
+      "stories": [],
+      "sefariaTopicSlug": "yose-bar-zevida"
+    },
+    {
+      "id": "rabbi-yehuda",
+      "name": {
+        "en": "R' Yehuda",
+        "he": "ר' יהודה"
+      },
+      "era": "amorai",
+      "generation": 4,
+      "dates": {
+        "born": 290,
+        "died": 360,
+        "approximate": true
+      },
+      "location": "israel",
+      "locations": [],
+      "nasi": false,
+      "relationships": [],
+      "bio": "A fourth-generation amora of Israel.",
+      "teachings": [],
+      "stories": [],
+      "sefariaTopicSlug": "yehuda-amora"
+    },
+    {
+      "id": "rabbi-yona",
+      "name": {
+        "en": "R' Yona",
+        "he": "ר' יונה"
+      },
+      "era": "amorai",
+      "generation": 4,
+      "dates": {
+        "born": 290,
+        "died": 360,
+        "approximate": true
+      },
+      "location": "israel",
+      "locations": [
+        "Tiberias"
+      ],
+      "nasi": false,
+      "relationships": [],
+      "bio": "A fourth-generation amora of Israel who contributed to the Jerusalem Talmud. He was a primary student of R' Zeira.",
+      "teachings": [],
+      "stories": [],
+      "sefariaTopicSlug": "yona"
+    },
+    {
+      "id": "rabbi-mana",
+      "name": {
+        "en": "R' Mana",
+        "he": "ר' מנא"
+      },
+      "era": "amorai",
+      "generation": 5,
+      "dates": {
+        "born": 320,
+        "died": 380,
+        "approximate": true
+      },
+      "location": "israel",
+      "locations": [
+        "Sepphoris"
+      ],
+      "nasi": false,
+      "relationships": [
+        {
+          "type": "father",
+          "target": "rabbi-yona"
+        }
+      ],
+      "bio": "Son of R' Yona, he was one of the last major amoraim of Israel and played a role in the final editing of the Jerusalem Talmud.",
+      "teachings": [],
+      "stories": [],
+      "sefariaTopicSlug": "mana"
+    },
+    {
+      "id": "rabbi-yitzchak-bar-abba",
+      "name": {
+        "en": "R' Yitzchak bar Abba",
+        "he": "ר' יצחק בר אבא"
+      },
+      "era": "amorai",
+      "generation": 2,
+      "dates": {
+        "born": 230,
+        "died": 290,
+        "approximate": true
+      },
+      "location": "israel",
+      "locations": [],
+      "nasi": false,
+      "relationships": [],
+      "bio": "A second-generation amora of Israel.",
+      "teachings": [],
+      "stories": [],
+      "sefariaTopicSlug": "yitzchak-bar-abba"
+    },
+    {
+      "id": "rebbe-abba-bar-zavda",
+      "name": {
+        "en": "Rabba bar Zavda",
+        "he": "רבה בר זבדא"
+      },
+      "era": "amorai",
+      "generation": 2,
+      "dates": {
+        "born": 230,
+        "died": 290,
+        "approximate": true
+      },
+      "location": "bavel",
+      "locations": [],
+      "nasi": false,
+      "relationships": [],
+      "bio": "A second-generation Babylonian amora.",
+      "teachings": [],
+      "stories": [],
+      "sefariaTopicSlug": "rabba-bar-zavda"
+    },
+    {
+      "id": "rav-chiya-bar-abba",
+      "name": {
+        "en": "R' Chiya bar Abba",
+        "he": "ר' חייא בר אבא"
+      },
+      "era": "amorai",
+      "generation": 2,
+      "dates": {
+        "born": 220,
+        "died": 290,
+        "approximate": true
+      },
+      "location": "israel",
+      "locations": [
+        "Tiberias"
+      ],
+      "nasi": false,
+      "relationships": [
+        {
+          "type": "teacher",
+          "target": "rabbi-yochanan"
+        }
+      ],
+      "bio": "A Babylonian-born amora who moved to Israel and became a major student of R' Yochanan. He transmitted many of R' Yochanan's teachings.",
+      "teachings": [],
+      "stories": [],
+      "sefariaTopicSlug": "chiyya-bar-abba"
+    },
+    {
+      "id": "rav-gamliel",
+      "name": {
+        "en": "R' Gamliel",
+        "he": "ר' גמליאל"
+      },
+      "era": "amorai",
+      "generation": 3,
+      "dates": {
+        "born": 260,
+        "died": 320,
+        "approximate": true
+      },
+      "location": "israel",
+      "locations": [],
+      "nasi": true,
+      "relationships": [],
+      "bio": "A later Nasi in the patriarchal line during the amoraic period.",
+      "teachings": [],
+      "stories": [],
+      "sefariaTopicSlug": "gamliel-amora"
+    },
+    {
+      "id": "abaye",
+      "name": {
+        "en": "Abaye",
+        "he": "אביי"
+      },
+      "era": "amorai",
+      "generation": 4,
+      "dates": {
+        "born": 278,
+        "died": 338,
+        "approximate": true
+      },
+      "location": "bavel",
+      "locations": [
+        "Pumbedita"
+      ],
+      "nasi": false,
+      "relationships": [
+        {
+          "type": "teacher",
+          "target": "rabba-bar-nachmani"
+        },
+        {
+          "type": "teacher",
+          "target": "rav-yosef"
+        }
+      ],
+      "bio": "An orphan raised by his uncle Rabba bar Nachmani, he headed the Pumbedita academy. His debates with Rava are among the most famous in the Talmud; the halakhah follows Rava in all but six cases.",
+      "teachings": [
+        "One should always be pleasant with people, as God's right hand is always extended to receive penitents."
+      ],
+      "stories": [
+        "He was orphaned at birth — his father died before he was born and his mother died in childbirth. He was raised by his uncle and a foster mother whose folk remedies he frequently cites."
+      ],
+      "sefariaTopicSlug": "abaye"
+    },
+    {
+      "id": "rava",
+      "name": {
+        "en": "Rava",
+        "he": "רבא"
+      },
+      "era": "amorai",
+      "generation": 4,
+      "dates": {
+        "born": 280,
+        "died": 352,
+        "approximate": true
+      },
+      "location": "bavel",
+      "locations": [
+        "Mechoza"
+      ],
+      "nasi": false,
+      "relationships": [
+        {
+          "type": "teacher",
+          "target": "rav-nachman"
+        },
+        {
+          "type": "teacher",
+          "target": "rav-yosef"
+        }
+      ],
+      "bio": "Head of the academy at Mechoza and one of the most prominent Babylonian amoraim. His disputes with Abaye form a central part of the Talmud, and the law follows Rava in all but six cases (YAL KGM).",
+      "teachings": [
+        "The beginning of a person's judgment in the World to Come is: Did you conduct your business dealings faithfully?",
+        "If one must choose between studying Torah and performing a mitzvah that can be done by others, study Torah; if the mitzvah cannot be done by others, perform the mitzvah and return to study."
+      ],
+      "stories": [
+        "He would press his fingers under his feet while studying so intensely that blood would flow from them."
+      ],
+      "sefariaTopicSlug": "rava"
+    },
+    {
+      "id": "rav-nachman-bar-yitzchak",
+      "name": {
+        "en": "Rav Nachman bar Yitzchak",
+        "he": "רב נחמן בר יצחק"
+      },
+      "era": "amorai",
+      "generation": 4,
+      "dates": {
+        "born": 290,
+        "died": 356,
+        "approximate": true
+      },
+      "location": "bavel",
+      "locations": [
+        "Pumbedita"
+      ],
+      "nasi": false,
+      "relationships": [
+        {
+          "type": "teacher",
+          "target": "rava"
+        }
+      ],
+      "bio": "He succeeded Rava as head of the Pumbedita academy. Known for his humility and for his role as a transmitter of earlier traditions.",
+      "teachings": [],
+      "stories": [],
+      "sefariaTopicSlug": "rav-nachman-bar-yitzchak"
+    },
+    {
+      "id": "rechnai",
+      "name": {
+        "en": "Rechnai",
+        "he": "רחבאי"
+      },
+      "era": "amorai",
+      "generation": 3,
+      "dates": {
+        "born": 260,
+        "died": 320,
+        "approximate": true
+      },
+      "location": "bavel",
+      "locations": [
+        "Pumbedita"
+      ],
+      "nasi": false,
+      "relationships": [],
+      "bio": "A Babylonian amora associated with the Pumbedita academy.",
+      "teachings": [],
+      "stories": [],
+      "sefariaTopicSlug": "rechnai"
+    },
+    {
+      "id": "abimi",
+      "name": {
+        "en": "Abimi",
+        "he": "אבימי"
+      },
+      "era": "amorai",
+      "generation": 3,
+      "dates": {
+        "born": 260,
+        "died": 320,
+        "approximate": true
+      },
+      "location": "bavel",
+      "locations": [],
+      "nasi": false,
+      "relationships": [],
+      "bio": "A third-generation Babylonian amora known for his exemplary honoring of his father.",
+      "teachings": [],
+      "stories": [
+        "He personally served water to his elderly father, even running to bring it."
+      ],
+      "sefariaTopicSlug": "abimi"
+    },
+    {
+      "id": "rav-pappa",
+      "name": {
+        "en": "Rav Pappa",
+        "he": "רב פפא"
+      },
+      "era": "amorai",
+      "generation": 5,
+      "dates": {
+        "born": 300,
+        "died": 375,
+        "approximate": true
+      },
+      "location": "bavel",
+      "locations": [
+        "Naresh"
+      ],
+      "nasi": false,
+      "relationships": [
+        {
+          "type": "teacher",
+          "target": "abaye"
+        },
+        {
+          "type": "teacher",
+          "target": "rava"
+        }
+      ],
+      "bio": "A wealthy brewer who founded an academy at Naresh. He studied under both Abaye and Rava and is known for frequently citing traditions in the name of his teachers.",
+      "teachings": [],
+      "stories": [
+        "He was known for his wealth and for making a feast for the sages whenever he completed a tractate of Talmud."
+      ],
+      "sefariaTopicSlug": "rav-pappa"
+    },
+    {
+      "id": "rav-huna-brei-de-rav-yehoshua",
+      "name": {
+        "en": "Rav Huna brei d'Rav Yehoshua",
+        "he": "רב הונא בריה דרב יהושע"
+      },
+      "era": "amorai",
+      "generation": 5,
+      "dates": {
+        "born": 310,
+        "died": 375,
+        "approximate": true
+      },
+      "location": "bavel",
+      "locations": [],
+      "nasi": false,
+      "relationships": [
+        {
+          "type": "teacher",
+          "target": "rava"
+        }
+      ],
+      "bio": "A student of Rava known for his sharp intellect and piety.",
+      "teachings": [],
+      "stories": [],
+      "sefariaTopicSlug": "huna-brei-de-rav-yehoshua"
+    },
+    {
+      "id": "rav-nachman-bar-chama",
+      "name": {
+        "en": "Rav Nachman bar Chama",
+        "he": "ר' נחמן בר חמא"
+      },
+      "era": "amorai",
+      "generation": 4,
+      "dates": {
+        "born": 280,
+        "died": 340,
+        "approximate": true
+      },
+      "location": "bavel",
+      "locations": [],
+      "nasi": false,
+      "relationships": [],
+      "bio": "A Babylonian amora of the fourth generation.",
+      "teachings": [],
+      "stories": [],
+      "sefariaTopicSlug": "nachman-bar-chama"
+    },
+    {
+      "id": "rav-yosef-bar-chama",
+      "name": {
+        "en": "Rav Yosef bar Chama",
+        "he": "רב יוסף בר חמא"
+      },
+      "era": "amorai",
+      "generation": 4,
+      "dates": {
+        "born": 280,
+        "died": 340,
+        "approximate": true
+      },
+      "location": "bavel",
+      "locations": [],
+      "nasi": false,
+      "relationships": [],
+      "bio": "Father of Rava and a fourth-generation Babylonian amora.",
+      "teachings": [],
+      "stories": [],
+      "sefariaTopicSlug": "yosef-bar-chama"
+    },
+    {
+      "id": "rav-ashi",
+      "name": {
+        "en": "Rav Ashi",
+        "he": "רב אשי"
+      },
+      "era": "amorai",
+      "generation": 6,
+      "dates": {
+        "born": 352,
+        "died": 427,
+        "approximate": true
+      },
+      "location": "bavel",
+      "locations": [
+        "Sura",
+        "Mata Mechasya"
+      ],
+      "nasi": false,
+      "relationships": [
+        {
+          "type": "teacher",
+          "target": "rav-kahana-ii"
+        }
+      ],
+      "bio": "The primary editor and compiler of the Babylonian Talmud. He headed the Sura academy for 60 years and systematically organized and edited the vast body of amoraic discussions.",
+      "teachings": [],
+      "stories": [
+        "He spent 30 years going through the Talmud a first time and 30 years reviewing it a second time, creating the framework of the Bavli as we know it."
+      ],
+      "sefariaTopicSlug": "rav-ashi"
+    },
+    {
+      "id": "rav-kahana-ii",
+      "name": {
+        "en": "Rav Kahana (b)",
+        "he": "רב כהנא (ב)"
+      },
+      "era": "amorai",
+      "generation": 5,
+      "dates": {
+        "born": 320,
+        "died": 380,
+        "approximate": true
+      },
+      "location": "bavel",
+      "locations": [
+        "Pumbedita"
+      ],
+      "nasi": false,
+      "relationships": [],
+      "bio": "A later Rav Kahana (several sages shared this name) who was a teacher of Rav Ashi.",
+      "teachings": [],
+      "stories": [],
+      "sefariaTopicSlug": "rav-kahana-ii"
+    },
+    {
+      "id": "ravina-i",
+      "name": {
+        "en": "Ravina (a)",
+        "he": "רבינא (א)"
+      },
+      "era": "amorai",
+      "generation": 6,
+      "dates": {
+        "born": 350,
+        "died": 420,
+        "approximate": true
+      },
+      "location": "bavel",
+      "locations": [
+        "Sura"
+      ],
+      "nasi": false,
+      "relationships": [
+        {
+          "type": "teacher",
+          "target": "rava"
+        }
+      ],
+      "bio": "A colleague of Rav Ashi who collaborated on the editing of the Babylonian Talmud. Together with Rav Ashi, he represents the end of the amoraic period.",
+      "teachings": [],
+      "stories": [],
+      "sefariaTopicSlug": "ravina"
+    },
+    {
+      "id": "ravina-ii",
+      "name": {
+        "en": "Ravina (b)",
+        "he": "רבינא (ב)"
+      },
+      "era": "amorai",
+      "generation": 7,
+      "dates": {
+        "born": 420,
+        "died": 475,
+        "approximate": true
+      },
+      "location": "bavel",
+      "locations": [
+        "Sura"
+      ],
+      "nasi": false,
+      "relationships": [],
+      "bio": "Known as Ravina bar Huna, he is considered the last of the amoraim. His death marks the traditional close of the Talmudic period and the transition to the Savoraic era.",
+      "teachings": [],
+      "stories": [],
+      "sefariaTopicSlug": "ravina-ii"
+    },
+    {
+      "id": "rav-shimi-bar-ashi",
+      "name": {
+        "en": "Rav Shimi bar Ashi",
+        "he": "רב שימי בר אשי"
+      },
+      "era": "amorai",
+      "generation": 5,
+      "dates": {
+        "born": 310,
+        "died": 375,
+        "approximate": true
+      },
+      "location": "bavel",
+      "locations": [],
+      "nasi": false,
+      "relationships": [],
+      "bio": "A Babylonian amora of the fifth generation.",
+      "teachings": [],
+      "stories": [],
+      "sefariaTopicSlug": "shimi-bar-ashi"
+    },
+    {
+      "id": "rav-zevid",
+      "name": {
+        "en": "Rav Zevid",
+        "he": "רב זביד"
+      },
+      "era": "amorai",
+      "generation": 5,
+      "dates": {
+        "born": 310,
+        "died": 377,
+        "approximate": true
+      },
+      "location": "bavel",
+      "locations": [
+        "Pumbedita"
+      ],
+      "nasi": false,
+      "relationships": [
+        {
+          "type": "teacher",
+          "target": "rava"
+        }
+      ],
+      "bio": "He briefly headed the academy at Pumbedita after Rava's death.",
+      "teachings": [],
+      "stories": [],
+      "sefariaTopicSlug": "rav-zevid"
+    },
+    {
+      "id": "rav-dimi-of-nehardea",
+      "name": {
+        "en": "Rav Dimi of Nehardea",
+        "he": "רב דימי דנהרדעא"
+      },
+      "era": "amorai",
+      "generation": 5,
+      "dates": {
+        "born": 310,
+        "died": 380,
+        "approximate": true
+      },
+      "location": "bavel",
+      "locations": [
+        "Nehardea"
+      ],
+      "nasi": false,
+      "relationships": [],
+      "bio": "A later Babylonian amora from Nehardea.",
+      "teachings": [],
+      "stories": [],
+      "sefariaTopicSlug": "dimi-of-nehardea"
+    },
+    {
+      "id": "ameimar",
+      "name": {
+        "en": "Ameimar",
+        "he": "אמימר"
+      },
+      "era": "amorai",
+      "generation": 6,
+      "dates": {
+        "born": 350,
+        "died": 420,
+        "approximate": true
+      },
+      "location": "bavel",
+      "locations": [
+        "Nehardea"
+      ],
+      "nasi": false,
+      "relationships": [],
+      "bio": "Head of the academy at Nehardea in the later amoraic period. He was a colleague of Rav Ashi.",
+      "teachings": [],
+      "stories": [],
+      "sefariaTopicSlug": "ameimar"
+    },
+    {
+      "id": "mar-zutra",
+      "name": {
+        "en": "Mar Zutra",
+        "he": "מר זוטרא"
+      },
+      "era": "amorai",
+      "generation": 6,
+      "dates": {
+        "born": 370,
+        "died": 430,
+        "approximate": true
+      },
+      "location": "bavel",
+      "locations": [],
+      "nasi": false,
+      "relationships": [],
+      "bio": "A later Babylonian amora, contemporary of Rav Ashi, known for his legal rulings.",
+      "teachings": [],
+      "stories": [],
+      "sefariaTopicSlug": "mar-zutra"
+    },
+    {
+      "id": "rav-acha-brei-de-rava",
+      "name": {
+        "en": "Rav Acha brei d'Rava",
+        "he": "רב אחא בריה דרבא"
+      },
+      "era": "amorai",
+      "generation": 6,
+      "dates": {
+        "born": 370,
+        "died": 430,
+        "approximate": true
+      },
+      "location": "bavel",
+      "locations": [],
+      "nasi": false,
+      "relationships": [],
+      "bio": "A later Babylonian amora.",
+      "teachings": [],
+      "stories": [],
+      "sefariaTopicSlug": "acha-brei-de-rava"
+    },
+    {
+      "id": "mereimar",
+      "name": {
+        "en": "Mereimar",
+        "he": "מרימר"
+      },
+      "era": "amorai",
+      "generation": 6,
+      "dates": {
+        "born": 370,
+        "died": 430,
+        "approximate": true
+      },
+      "location": "bavel",
+      "locations": [],
+      "nasi": false,
+      "relationships": [],
+      "bio": "A later Babylonian amora contemporary with Rav Ashi.",
+      "teachings": [],
+      "stories": [],
+      "sefariaTopicSlug": "mereimar"
+    },
+    {
+      "id": "rav-acha-mdifti",
+      "name": {
+        "en": "Rav Acha m'Difti",
+        "he": "רב אחא מדיפתי"
+      },
+      "era": "amorai",
+      "generation": 7,
+      "dates": {
+        "born": 420,
+        "died": 470,
+        "approximate": true
+      },
+      "location": "bavel",
+      "locations": [
+        "Difti"
+      ],
+      "nasi": false,
+      "relationships": [],
+      "bio": "One of the last amoraim in Babylonia.",
+      "teachings": [],
+      "stories": [],
+      "sefariaTopicSlug": "acha-of-difti"
+    },
+    {
+      "id": "mar-bar-rav-ashi",
+      "name": {
+        "en": "Mar bar Rav Ashi",
+        "he": "מר בר רב אשי"
+      },
+      "era": "amorai",
+      "generation": 7,
+      "dates": {
+        "born": 400,
+        "died": 468,
+        "approximate": true
+      },
+      "location": "bavel",
+      "locations": [
+        "Sura"
+      ],
+      "nasi": false,
+      "relationships": [
+        {
+          "type": "father",
+          "target": "rav-ashi"
+        }
+      ],
+      "bio": "Son of Rav Ashi who succeeded him as head of the Sura academy and continued the work of editing the Bavli.",
+      "teachings": [],
+      "stories": [],
+      "sefariaTopicSlug": "mar-bar-rav-ashi"
+    },
+    {
+      "id": "rav-acha-bar-chana",
+      "name": {
+        "en": "Rav Acha (a)",
+        "he": "רב אחא (א)"
+      },
+      "era": "amorai",
+      "generation": 5,
+      "dates": {
+        "born": 310,
+        "died": 375,
+        "approximate": true
+      },
+      "location": "bavel",
+      "locations": [],
+      "nasi": false,
+      "relationships": [],
+      "bio": "A fifth-generation Babylonian amora.",
+      "teachings": [],
+      "stories": [],
+      "sefariaTopicSlug": "acha-bar-chana"
+    },
+    {
+      "id": "rav-ika",
+      "name": {
+        "en": "Rav Ika",
+        "he": "רב איקא"
+      },
+      "era": "amorai",
+      "generation": 4,
+      "dates": {
+        "born": 280,
+        "died": 340,
+        "approximate": true
+      },
+      "location": "bavel",
+      "locations": [],
+      "nasi": false,
+      "relationships": [],
+      "bio": "A fourth-generation Babylonian amora.",
+      "teachings": [],
+      "stories": [],
+      "sefariaTopicSlug": "rav-ika"
+    },
+    {
+      "id": "ravin",
+      "name": {
+        "en": "Ravin",
+        "he": "רבין"
+      },
+      "era": "amorai",
+      "generation": 3,
+      "dates": {
+        "born": 260,
+        "died": 320,
+        "approximate": true
+      },
+      "location": "israel",
+      "locations": [],
+      "nasi": false,
+      "relationships": [],
+      "bio": "One of the 'Nechutei' who traveled between Israel and Babylonia transmitting teachings. He is one of the most frequently mentioned transmitters of R' Yochanan's teachings to Babylonia.",
+      "teachings": [],
+      "stories": [],
+      "sefariaTopicSlug": "ravin"
+    },
+    {
+      "id": "rav-yosef-bar-chiyyah",
+      "name": {
+        "en": "Rav Yosef bar Chiyyah",
+        "he": "רב יוסף בר חייא"
+      },
+      "era": "amorai",
+      "generation": 4,
+      "dates": {
+        "born": 280,
+        "died": 340,
+        "approximate": true
+      },
+      "location": "bavel",
+      "locations": [],
+      "nasi": false,
+      "relationships": [],
+      "bio": "A Babylonian amora of the fourth generation.",
+      "teachings": [],
+      "stories": [],
+      "sefariaTopicSlug": "yosef-bar-chiyyah"
+    },
+    {
+      "id": "rav-yitzchak-bar-yosef-amora",
+      "name": {
+        "en": "Rav Yitzchak bar Yosef",
+        "he": "ר' יצחק בר יוסף"
+      },
+      "era": "amorai",
+      "generation": 4,
+      "dates": {
+        "born": 280,
+        "died": 340,
+        "approximate": true
+      },
+      "location": "bavel",
+      "locations": [],
+      "nasi": false,
+      "relationships": [],
+      "bio": "A fourth-generation Babylonian amora.",
+      "teachings": [],
+      "stories": [],
+      "sefariaTopicSlug": "yitzchak-bar-yosef0"
+    },
+    {
+      "id": "rav-nachman-bar-chisda",
+      "name": {
+        "en": "Rav Nachman bar Chisda",
+        "he": "רב נחמן בר חסדא"
+      },
+      "era": "amorai",
+      "generation": 4,
+      "dates": {
+        "born": 280,
+        "died": 340,
+        "approximate": true
+      },
+      "location": "bavel",
+      "locations": [],
+      "nasi": false,
+      "relationships": [],
+      "bio": "A fourth-generation Babylonian amora, possibly connected to the family of Rav Chisda.",
+      "teachings": [],
+      "stories": [],
+      "sefariaTopicSlug": "nachman-bar-chisda"
+    },
+    {
+      "id": "rabbi-hillel",
+      "name": {
+        "en": "R' Hillel",
+        "he": "ר' הלל"
+      },
+      "era": "amorai",
+      "generation": 5,
+      "dates": {
+        "born": 320,
+        "died": 380,
+        "approximate": true
+      },
+      "location": "israel",
+      "locations": [
+        "Tiberias"
+      ],
+      "nasi": true,
+      "relationships": [],
+      "bio": "Hillel II, the Nasi who established the fixed Jewish calendar around 358/359 CE. This was a major development allowing Jewish communities worldwide to observe holidays on the same dates without relying on witnesses in Israel.",
+      "teachings": [],
+      "stories": [
+        "He established the fixed calendar that is still used today, replacing the system of witnesses testifying about the new moon."
+      ],
+      "sefariaTopicSlug": "hillel-ii"
+    },
+    {
+      "id": "rav-acha-bar-rava",
+      "name": {
+        "en": "Rav Acha bar Rava",
+        "he": "רב אחא בר רבא"
+      },
+      "era": "amorai",
+      "generation": 5,
+      "dates": {
+        "born": 320,
+        "died": 380,
+        "approximate": true
+      },
+      "location": "bavel",
+      "locations": [],
+      "nasi": false,
+      "relationships": [],
+      "bio": "A fifth-generation Babylonian amora.",
+      "teachings": [],
+      "stories": [],
+      "sefariaTopicSlug": "acha-bar-rava"
+    },
+    {
+      "id": "rav-kahana-c",
+      "name": {
+        "en": "Rav Kahana (c)",
+        "he": "רב כהנא (ג)"
+      },
+      "era": "amorai",
+      "generation": 5,
+      "dates": {
+        "born": 320,
+        "died": 380,
+        "approximate": true
+      },
+      "location": "bavel",
+      "locations": [],
+      "nasi": false,
+      "relationships": [],
+      "bio": "A later Rav Kahana, one of several sages who bore this name in the amoraic period.",
+      "teachings": [],
+      "stories": [],
+      "sefariaTopicSlug": "rav-kahana-iii"
+    },
+    {
+      "id": "rav-ashi-minor",
+      "name": {
+        "en": "Rav Ashi (minor)",
+        "he": "רב אשי"
+      },
+      "era": "amorai",
+      "generation": 5,
+      "dates": {
+        "born": 320,
+        "died": 380,
+        "approximate": true
+      },
+      "location": "bavel",
+      "locations": [],
+      "nasi": false,
+      "relationships": [],
+      "bio": "A Babylonian amora, sometimes distinguished from the more famous Rav Ashi who edited the Talmud.",
+      "teachings": [],
+      "stories": [],
+      "sefariaTopicSlug": "rav-ashi-minor"
+    },
+    {
+      "id": "rav-sama-bar-chama",
+      "name": {
+        "en": "Rav Sama bar Chama",
+        "he": "רב סמא בר חמא"
+      },
+      "era": "amorai",
+      "generation": 4,
+      "dates": {
+        "born": 290,
+        "died": 350,
+        "approximate": true
+      },
+      "location": "bavel",
+      "locations": [],
+      "nasi": false,
+      "relationships": [],
+      "bio": "A fourth-generation Babylonian amora.",
+      "teachings": [],
+      "stories": [],
+      "sefariaTopicSlug": "sama-bar-chama"
+    },
+    {
+      "id": "rav-avira",
+      "name": {
+        "en": "Rav Avira",
+        "he": "רב אבירא"
+      },
+      "era": "amorai",
+      "generation": 4,
+      "dates": {
+        "born": 290,
+        "died": 350,
+        "approximate": true
+      },
+      "location": "bavel",
+      "locations": [],
+      "nasi": false,
+      "relationships": [],
+      "bio": "A fourth-generation Babylonian amora who transmitted teachings from both R' Ami and Rava.",
+      "teachings": [],
+      "stories": [],
+      "sefariaTopicSlug": "avira"
+    },
+    {
+      "id": "rav-shmimi",
+      "name": {
+        "en": "R' Shmuel bar Yitzchak",
+        "he": "ר' שמואל בר יצחק"
+      },
+      "era": "amorai",
+      "generation": 2,
+      "dates": {
+        "born": 230,
+        "died": 300,
+        "approximate": true
+      },
+      "location": "israel",
+      "locations": [],
+      "nasi": false,
+      "relationships": [],
+      "bio": "A second-generation amora of Israel known for his piety.",
+      "teachings": [],
+      "stories": [],
+      "sefariaTopicSlug": "shmuel-bar-yitzchak"
+    },
+    {
+      "id": "rabbi-ami",
+      "name": {
+        "en": "R' Ami",
+        "he": "ר' אמי"
+      },
+      "era": "amorai",
+      "generation": 3,
+      "dates": {
+        "born": 250,
+        "died": 310,
+        "approximate": true
+      },
+      "location": "israel",
+      "locations": [
+        "Tiberias"
+      ],
+      "nasi": false,
+      "relationships": [
+        {
+          "type": "teacher",
+          "target": "rabbi-yochanan"
+        }
+      ],
+      "bio": "He and R' Asi were the last major leaders of the Tiberias academy. Together they are frequently mentioned as a pair issuing rulings.",
+      "teachings": [],
+      "stories": [],
+      "sefariaTopicSlug": "ami"
+    },
+    {
+      "id": "rav-yehoshua-ben-idi",
+      "name": {
+        "en": "R' Yehoshua ben Idi",
+        "he": "ר' יהושע בן אידי"
+      },
+      "era": "amorai",
+      "generation": 2,
+      "dates": {
+        "born": 220,
+        "died": 290,
+        "approximate": true
+      },
+      "location": "israel",
+      "locations": [],
+      "nasi": false,
+      "relationships": [],
+      "bio": "A second-generation amora of Israel.",
+      "teachings": [],
+      "stories": [],
+      "sefariaTopicSlug": "yehoshua-ben-idi"
+    },
+    {
+      "id": "rav-yosef-brei-d-rava",
+      "name": {
+        "en": "Rav Yosef brei d'Rava",
+        "he": "רב יוסף בריה דרבא"
+      },
+      "era": "amorai",
+      "generation": 5,
+      "dates": {
+        "born": 310,
+        "died": 375,
+        "approximate": true
+      },
+      "location": "bavel",
+      "locations": [],
+      "nasi": false,
+      "relationships": [
+        {
+          "type": "father",
+          "target": "rava"
+        }
+      ],
+      "bio": "Son of Rava, a fifth-generation Babylonian amora.",
+      "teachings": [],
+      "stories": [],
+      "sefariaTopicSlug": "yosef-brei-de-rava"
+    },
+    {
+      "id": "rav-acha-bar-yitzchak",
+      "name": {
+        "en": "Rav Acha bar Yitzchak",
+        "he": "רב אחא בר יצחק"
+      },
+      "era": "amorai",
+      "generation": 4,
+      "dates": {
+        "born": 290,
+        "died": 350,
+        "approximate": true
+      },
+      "location": "bavel",
+      "locations": [],
+      "nasi": false,
+      "relationships": [],
+      "bio": "A fourth-generation Babylonian amora.",
+      "teachings": [],
+      "stories": [],
+      "sefariaTopicSlug": "acha-bar-yitzchak"
+    },
+    {
+      "id": "rabbi-asi-amora",
+      "name": {
+        "en": "R' Asi",
+        "he": "ר' אסי"
+      },
+      "era": "amorai",
+      "generation": 3,
+      "dates": {
+        "born": 250,
+        "died": 310,
+        "approximate": true
+      },
+      "location": "israel",
+      "locations": [
+        "Tiberias"
+      ],
+      "nasi": false,
+      "relationships": [
+        {
+          "type": "teacher",
+          "target": "rabbi-yochanan"
+        }
+      ],
+      "bio": "Together with R' Ami, he led the Tiberias academy after R' Yochanan. The two are frequently cited as a pair.",
+      "teachings": [],
+      "stories": [],
+      "sefariaTopicSlug": "asi"
+    },
+    {
+      "id": "rav-huna-ii",
+      "name": {
+        "en": "Rav Huna (II)",
+        "he": "רב הונא"
+      },
+      "era": "amorai",
+      "generation": 3,
+      "dates": {
+        "born": 260,
+        "died": 320,
+        "approximate": true
+      },
+      "location": "bavel",
+      "locations": [
+        "Pumbedita"
+      ],
+      "nasi": false,
+      "relationships": [],
+      "bio": "A later Rav Huna, distinct from the head of Sura.",
+      "teachings": [],
+      "stories": [],
+      "sefariaTopicSlug": "huna-ii"
+    },
+    {
+      "id": "rav-chiya-bar-avin",
+      "name": {
+        "en": "Rav Chiya bar Avin",
+        "he": "רב חייא בר אבין"
+      },
+      "era": "amorai",
+      "generation": 4,
+      "dates": {
+        "born": 280,
+        "died": 350,
+        "approximate": true
+      },
+      "location": "bavel",
+      "locations": [],
+      "nasi": false,
+      "relationships": [],
+      "bio": "A Babylonian amora who transmitted teachings from Rav Chisda and Rav Huna.",
+      "teachings": [],
+      "stories": [],
+      "sefariaTopicSlug": "chiya-bar-avin"
+    },
+    {
+      "id": "rav-bar-chama-bar-gurya",
+      "name": {
+        "en": "Rav Nachman bar Gurya",
+        "he": "רב נחמן בר גוריא"
+      },
+      "era": "amorai",
+      "generation": 4,
+      "dates": {
+        "born": 280,
+        "died": 340,
+        "approximate": true
+      },
+      "location": "bavel",
+      "locations": [],
+      "nasi": false,
+      "relationships": [],
+      "bio": "A fourth-generation Babylonian amora.",
+      "teachings": [],
+      "stories": [],
+      "sefariaTopicSlug": "nachman-bar-gurya"
+    },
+    {
+      "id": "rav-avin",
+      "name": {
+        "en": "Rav Avin",
+        "he": "רב אבין"
+      },
+      "era": "amorai",
+      "generation": 4,
+      "dates": {
+        "born": 280,
+        "died": 340,
+        "approximate": true
+      },
+      "location": "bavel",
+      "locations": [],
+      "nasi": false,
+      "relationships": [],
+      "bio": "A fourth-generation Babylonian amora whose son R' Yose bar Avin also became a sage.",
+      "teachings": [],
+      "stories": [],
+      "sefariaTopicSlug": "avin"
+    },
+    {
+      "id": "rav-tivyomi",
+      "name": {
+        "en": "R' Tivyomi",
+        "he": "ר' תיבומי"
+      },
+      "era": "amorai",
+      "generation": 4,
+      "dates": {
+        "born": 290,
+        "died": 350,
+        "approximate": true
+      },
+      "location": "bavel",
+      "locations": [],
+      "nasi": false,
+      "relationships": [],
+      "bio": "A fourth-generation Babylonian amora.",
+      "teachings": [],
+      "stories": [],
+      "sefariaTopicSlug": "tivyomi"
+    }
+  ],
+  "landmarks": [
+    {
+      "year": -63,
+      "label": "Roman Conquest of Judea"
+    },
+    {
+      "year": 70,
+      "label": "Destruction of Second Temple"
+    },
+    {
+      "year": 135,
+      "label": "Bar Kokhba Revolt"
+    },
+    {
+      "year": 200,
+      "label": "Mishnah Canonized"
+    },
+    {
+      "year": 350,
+      "label": "Institution of the Calendar"
+    },
+    {
+      "year": 400,
+      "label": "Talmud Yerushalmi"
+    },
+    {
+      "year": 500,
+      "label": "Talmud Bavli"
+    }
+  ]
+}

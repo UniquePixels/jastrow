@@ -1,0 +1,645 @@
+:root {
+	--atkinson: 'Atkinson Hyperlegible Next', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+	--charter-serif: Charter, 'Bitstream Charter', 'Sitka Text', Cambria, serif;
+	--wa-font-family-sans: var(--atkinson);
+	--wa-font-family-body: var(--atkinson);
+	--wa-font-family-heading: 'Lexend', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+	font-size: 125%;
+}
+
+wa-page {
+	--menu-width: 18rem;
+}
+
+/* Banner with dismiss button */
+.banner-content {
+	display: flex;
+	align-items: center;
+	gap: var(--wa-space-s);
+}
+
+.banner-dismiss {
+	flex-shrink: 0;
+	color: rgba(255, 255, 255, 0.85);
+	font-size: 0.85rem;
+	cursor: pointer;
+	padding: 0.25rem;
+}
+
+.banner-dismiss:hover {
+	color: white;
+}
+
+wa-page[view="desktop"] {
+	[slot*="navigation"] {
+		border-inline-end: var(--wa-border-width-s) var(--wa-border-style)
+			var(--wa-color-surface-border);
+	}
+
+	/* Make the navigation slot scrollable when sidebar content overflows */
+	[slot="navigation"] {
+		overflow-y: auto;
+		max-height: calc(100vh - 200px);
+	}
+}
+
+wa-page[view="mobile"] {
+	--menu-width: auto;
+	--aside-width: auto;
+}
+
+[slot="banner"] {
+	--wa-color-text-link: var(--wa-color-neutral-on-loud);
+	color: var(--wa-color-neutral-on-loud);
+	background-color: var(--wa-color-neutral-fill-loud);
+	text-align: center;
+}
+
+[slot="header"].page-header {
+	display: block;
+	border-block-end: var(--wa-border-width-s) var(--wa-border-style)
+		var(--wa-color-surface-border);
+
+	img {
+		max-height: 50px;
+	}
+}
+
+wa-page[view="mobile"] [slot="header"].page-header img {
+	max-height: 36px;
+}
+
+.brand-group {
+	display: flex;
+	align-items: center;
+	gap: 0.35rem;
+	flex-shrink: 0;
+}
+
+.brand-link {
+	display: flex;
+	align-items: center;
+	text-decoration: none;
+	color: inherit;
+}
+
+#brand-name {
+	font-family: var(--wa-font-family-heading);
+}
+
+/* Apply Lexend to heading-type elements throughout the app */
+wa-dialog::part(title),
+wa-tab::part(base) {
+	font-family: var(--wa-font-family-heading);
+}
+
+[slot*="navigation"] .wa-heading-m {
+	font-family: var(--wa-font-family-heading);
+}
+
+[slot*="navigation"] a {
+	--wa-color-text-link: var(--wa-color-text-normal);
+}
+
+[slot="navigation-footer"] {
+	width: 100%;
+	border-block-start: var(--wa-border-width-s) var(--wa-border-style)
+		var(--wa-color-surface-border);
+	background: var(--wa-color-surface-default);
+	position: relative;
+	z-index: 10;
+
+	a {
+		text-align: center;
+	}
+
+	img {
+		max-height: 1.25em;
+	}
+}
+
+main {
+	position: relative;
+	max-inline-size: 60rem;
+	margin-inline: auto;
+	padding-top: 0.5rem;
+
+	wa-button {
+		font-size: 0.7rem;
+		font-weight: var(--wa-font-weight-bold);
+	}
+
+	wa-card {
+		width: fit-content;
+	}
+}
+
+/* Entry highlight animation */
+.entry-highlight {
+	animation: highlight-pulse 0.5s ease-in-out;
+	background-color: var(--wa-color-brand-fill-soft);
+	border-radius: var(--wa-border-radius-m);
+	padding: var(--wa-space-s);
+	margin: calc(var(--wa-space-s) * -1);
+	transition: background-color 0.3s ease-out;
+}
+
+@keyframes highlight-pulse {
+	0% {
+		background-color: transparent;
+	}
+	50% {
+		background-color: var(--wa-color-brand-fill-loud);
+	}
+	100% {
+		background-color: var(--wa-color-brand-fill-soft);
+	}
+}
+
+/* Scroll anchoring — progressive enhancement for browsers that support it.
+   Helps stabilize viewport when content is prepended above.
+   Safari does NOT support this (WebKit bug 171099), so manual
+   scrollTop adjustment in scroll-manager.js is the primary mechanism. */
+main .wa-stack {
+	overflow-anchor: auto;
+}
+
+.scroll-anchor-none {
+	overflow-anchor: none;
+}
+
+/* Loading indicator shown at top while prepending entries.
+   Sticky + height:0 keeps it in the entries flow for centering but
+   takes zero layout space — no shift on insert/remove. */
+.scroll-loading-top {
+	position: sticky;
+	top: calc(var(--wa-page-header-height, 60px) + 8px);
+	height: 0;
+	overflow: visible;
+	z-index: 100;
+	display: flex;
+	justify-content: center;
+}
+
+.scroll-loading-top-inner {
+	display: flex;
+	align-items: center;
+	gap: 0.5rem;
+	padding: 2rem 2rem;
+	color: var(--wa-color-text-normal);
+	font-size: var(--wa-font-size-l);
+	background-color: #fef9e7;
+	border-radius: 0 0 var(--wa-border-radius-m) var(--wa-border-radius-m);
+	box-shadow: var(--wa-shadow-m);
+	white-space: nowrap;
+}
+
+.scroll-loading-top wa-spinner {
+	font-size: 1.5rem;
+	vertical-align: middle;
+	margin-right: 0.5rem;
+}
+
+/* Entry content formatting */
+.language-info {
+	color: var(--wa-color-text-subtle);
+	font-style: italic;
+}
+
+.sense-group {
+	margin-bottom: var(--wa-space-xs);
+}
+
+.sense-primary {
+	margin-bottom: var(--wa-space-2xs);
+}
+
+.sense-children {
+	margin-inline-start: var(--wa-space-m);
+}
+
+.grammar-section {
+	margin-top: var(--wa-space-s);
+	margin-bottom: var(--wa-space-2xs);
+	background-color: var(--wa-color-surface-subtle);
+	border-radius: var(--wa-border-radius-s);
+	border-inline-start: 3px solid var(--wa-color-brand-fill-default);
+}
+
+.grammar-header {
+	padding: var(--wa-space-2xs) var(--wa-space-xs);
+}
+
+.grammar-senses {
+	padding: var(--wa-space-xs);
+	padding-top: 0;
+	margin-inline-start: var(--wa-space-s);
+}
+
+.verbal-stem {
+	font-weight: var(--wa-font-weight-bold);
+	color: var(--wa-color-brand-text-loud);
+	margin-inline-end: var(--wa-space-2xs);
+}
+
+.binyan-forms {
+	font-family: "SBL Hebrew", "Ezra SIL", serif;
+	font-size: var(--wa-font-size-body-m);
+	color: var(--wa-color-text-normal);
+}
+
+.sense-numbered {
+	margin-top: var(--wa-space-2xs);
+	display: flex;
+	gap: var(--wa-space-2xs);
+	align-items: flex-start;
+}
+
+.sense-number {
+	font-weight: var(--wa-font-weight-bold);
+	color: var(--wa-color-brand-text-default);
+	flex-shrink: 0;
+	min-width: 2em;
+}
+
+.sense-definition {
+	flex: 1;
+}
+
+/* Hebrew word-links need explicit RTL isolation so adjacent inline
+   Hebrew elements don't get reordered by the bidi algorithm */
+.word-link {
+	direction: rtl;
+	unicode-bidi: isolate;
+}
+
+.permalink {
+	position: relative;
+	bottom: 0.75em;
+	cursor: pointer;
+}
+
+/* Floating keyboard overlay — positioned below the page header */
+.keyboard-overlay {
+	position: fixed;
+	left: var(--wa-page-menu-width, 0px);
+	right: 0;
+	top: var(--wa-page-header-height, 60px);
+	z-index: 99;
+	background: var(--wa-color-surface-default);
+	box-shadow: var(--wa-shadow-l);
+	padding: var(--wa-space-s);
+	max-width: 600px;
+	margin-inline: auto;
+}
+
+wa-page[view="mobile"] .keyboard-overlay {
+	left: 0;
+	max-width: none;
+}
+
+/* Custom tooltips for virtualized entry elements.
+   Uses span children (.tip-box + .tip-arrow) — matches wa-tooltip exactly.
+   Values from WA inspector: bg #1d1d20, arrow 6px, distance 8px, padding 0.25em 0.5em */
+.has-tooltip {
+	position: relative;
+}
+
+/* Dotted underline for abbreviation tooltips (mimics <abbr> styling) */
+.has-tooltip.abbr-tooltip {
+	text-decoration: underline dotted;
+	text-underline-offset: 2px;
+	cursor: help;
+}
+
+.has-tooltip .tip-box {
+	visibility: hidden;
+	position: absolute;
+	bottom: 100%;
+	left: 50%;
+	transform: translateX(-50%);
+	margin-bottom: 8px;
+	padding: 0.25em 0.5em;
+	background: #1d1d20;
+	color: #fff;
+	border: 1px solid #1d1d20;
+	font-size: 0.875rem;
+	border-radius: 3px;
+	white-space: nowrap;
+	pointer-events: none;
+	z-index: 10000;
+}
+
+.has-tooltip .tip-arrow {
+	visibility: hidden;
+	position: absolute;
+	bottom: 100%;
+	left: 50%;
+	margin-left: -6px;
+	margin-bottom: 2px;
+	width: 0;
+	height: 0;
+	border-left: 6px solid transparent;
+	border-right: 6px solid transparent;
+	border-top: 6px solid #1d1d20;
+	pointer-events: none;
+	z-index: 10001;
+}
+
+.has-tooltip:hover .tip-box,
+.has-tooltip:hover .tip-arrow {
+	visibility: visible;
+}
+
+/* Prevent zoomable frame from overlapping dialog footer */
+.page-dialog wa-zoomable-frame {
+	max-height: 65vh;
+}
+
+.page-dialog::part(body) {
+	padding: 0;
+}
+
+/* Offline status indicator */
+.offline-indicator {
+	display: none;
+	color: var(--wa-color-text-quiet);
+	font-size: var(--wa-font-size-body-m);
+}
+
+.offline-indicator.is-offline {
+	display: inline;
+}
+
+/* RTL search input for Hebrew (only when rtl-input class is present) */
+wa-input.search.rtl-input::part(input) {
+	direction: rtl;
+	text-align: right;
+	unicode-bidi: isolate;
+}
+
+/* Keep placeholder left-aligned */
+wa-input.search.rtl-input::part(input)::placeholder {
+	text-align: left;
+	direction: ltr;
+}
+
+/* Autocomplete dropdown — positioned on document.body via JS */
+.autocomplete-dropdown {
+	position: fixed;
+	z-index: 10000;
+	box-sizing: border-box;
+	background: var(--wa-color-surface-base, #fff);
+	border: 1px solid var(--wa-color-border-default, #ccc);
+	border-radius: var(--wa-border-radius-m, 6px);
+	box-shadow: var(--wa-shadow-m, 0 4px 12px rgba(0,0,0,0.15));
+	max-height: 300px;
+	overflow-y: auto;
+	display: none;
+}
+
+.autocomplete-item {
+	padding: 0.5em 0.75em;
+	cursor: pointer;
+}
+
+.autocomplete-item.highlighted,
+.autocomplete-item:hover {
+	background: var(--wa-color-surface-alt);
+}
+
+.autocomplete-mode {
+	float: right;
+	color: var(--wa-color-text-subtle);
+	font-size: 0.85em;
+}
+
+/* Custom hamburger toggle — hidden on desktop, shown on mobile */
+.mobile-menu-toggle {
+	display: none;
+}
+
+wa-page[view="mobile"] .mobile-menu-toggle {
+	display: inline-flex;
+}
+
+/* Responsive header search */
+@media (max-width: 768px) {
+	#brand-name {
+		display: none;
+	}
+
+	.header-search #search-button span {
+		display: none;
+	}
+}
+
+@media (max-width: 480px) {
+	.header-search #keyboard-toggle {
+		display: none;
+	}
+}
+
+/* ===== Phase 8.3: Dialog Content Styles ===== */
+
+/* Abbreviations dialog */
+.abbr-content {
+	max-height: 70vh;
+	display: flex;
+	flex-direction: column;
+}
+
+.abbr-filter {
+	padding: 0 0 0.75rem;
+}
+
+.abbr-content wa-tab-panel::part(base) {
+	padding: 0;
+}
+
+.abbr-content wa-tab-panel {
+	max-height: 55vh;
+	overflow-y: auto;
+}
+
+/* Jastrow abbreviation grid */
+.abbr-grid {
+	display: grid;
+	grid-template-columns: auto 1fr;
+	gap: 0;
+}
+
+.abbr-row {
+	display: contents;
+}
+
+.abbr-term {
+	font-weight: 600;
+	font-family: var(--atkinson);
+	padding: 0.5rem 1rem 0.5rem 0;
+	border-bottom: 1px solid var(--wa-color-border-default, rgba(128,128,128,0.15));
+	white-space: nowrap;
+}
+
+.abbr-def {
+	padding: 0.5rem 0;
+	border-bottom: 1px solid var(--wa-color-border-default, rgba(128,128,128,0.15));
+}
+
+.abbr-modern {
+	font-size: 0.95rem;
+}
+
+.abbr-original {
+	font-size: 0.8rem;
+	color: var(--wa-color-text-subtle);
+	margin-top: 2px;
+}
+
+/* Hebrew abbreviation list */
+.hebrew-abbr-item {
+	padding: 0.4rem 0;
+	border-bottom: 1px solid var(--wa-color-border-default, rgba(128,128,128,0.15));
+	direction: rtl;
+	line-height: 1.6;
+}
+
+.hebrew-abbr-item a {
+	color: var(--wa-color-brand-default, #247BA0);
+	text-decoration: none;
+}
+
+.hebrew-abbr-item a:hover {
+	text-decoration: underline;
+}
+
+.abbr-no-results {
+	text-align: center;
+	padding: 2rem;
+	color: var(--wa-color-text-subtle);
+}
+
+.abbr-row.abbr-highlight .abbr-term,
+.abbr-row.abbr-highlight .abbr-def {
+	background: rgba(36, 123, 160, 0.08);
+}
+
+.hebrew-abbr-item.abbr-highlight {
+	background: rgba(36, 123, 160, 0.08);
+}
+
+.guide-callout[data-n="3"] { color: #333; }
+
+/* Guide dialog */
+.guide-content {
+	max-height: 70vh;
+	overflow-y: auto;
+}
+
+.guide-section-label {
+	font-family: var(--wa-font-family-heading);
+	font-size: 1rem;
+	font-weight: 600;
+	color: var(--wa-color-text-subtle);
+	margin-bottom: 0.5rem;
+}
+
+.guide-example-card {
+	background: var(--wa-color-surface-default, #fff);
+	border: 1px solid var(--wa-color-border-default, rgba(128,128,128,0.15));
+	border-radius: 8px;
+	padding: 1rem;
+	font-family: var(--atkinson);
+	margin-bottom: 1rem;
+}
+
+.guide-example-card .headword {
+	font-size: 1.3rem;
+	font-weight: 700;
+}
+
+.guide-callout {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	min-width: 18px;
+	height: 18px;
+	border-radius: 50%;
+	background: var(--wa-color-brand-default, #247BA0);
+	color: white;
+	font-size: 0.65rem;
+	font-weight: 600;
+	font-family: system-ui, sans-serif;
+	margin: 0 2px;
+	vertical-align: super;
+}
+
+.guide-callout[data-n="1"] { background: #e63946; }
+.guide-callout[data-n="2"] { background: #f4a261; }
+.guide-callout[data-n="3"] { background: #e9c46a; }
+.guide-callout[data-n="4"] { background: #2AA876; }
+.guide-callout[data-n="5"] { background: #247BA0; }
+.guide-callout[data-n="6"] { background: #3a0ca3; }
+.guide-callout[data-n="7"] { background: #AA5CF2; }
+.guide-callout[data-n="8"] { background: #6a994e; }
+
+.guide-component {
+	display: flex;
+	gap: 0.75rem;
+	align-items: flex-start;
+	padding: 0.75rem 0;
+	border-bottom: 1px solid var(--wa-color-border-default, rgba(128,128,128,0.15));
+}
+
+.guide-component-number {
+	min-width: 28px;
+	height: 28px;
+	border-radius: 50%;
+	background: var(--wa-color-brand-default, #247BA0);
+	color: white;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 0.8rem;
+	font-weight: 600;
+	flex-shrink: 0;
+}
+
+.guide-component-number[data-n="1"] { background: #e63946; }
+.guide-component-number[data-n="2"] { background: #f4a261; }
+.guide-component-number[data-n="3"] { background: #e9c46a; color: #333; }
+.guide-component-number[data-n="4"] { background: #2AA876; }
+.guide-component-number[data-n="5"] { background: #247BA0; }
+.guide-component-number[data-n="6"] { background: #3a0ca3; }
+.guide-component-number[data-n="7"] { background: #AA5CF2; }
+.guide-component-number[data-n="8"] { background: #6a994e; }
+
+.guide-component-title {
+	font-family: var(--wa-font-family-heading);
+	font-weight: 600;
+	font-size: 0.95rem;
+	margin-bottom: 2px;
+}
+
+.guide-component-desc {
+	font-size: 0.85rem;
+	color: var(--wa-color-text-subtle);
+	line-height: 1.5;
+}
+
+.guide-component-desc ul {
+	margin: 0.25rem 0 0;
+	padding-left: 1.25rem;
+}
+
+.guide-component-desc li {
+	margin-bottom: 0.15rem;
+}
+
+.guide-legend-title {
+	font-family: var(--wa-font-family-heading);
+	font-weight: 600;
+	font-size: 0.95rem;
+	margin-top: 1rem;
+	color: var(--wa-color-text-subtle);
+}

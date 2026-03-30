@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <!-- Character Encoding -->
+  <meta charset="UTF-8">
+
+  <!-- Viewport for Responsive Design -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Primary Meta Tags -->
+  <title>Jastrow Dictionary</title>
+  <meta name="title"
+    content="Jastrow Dictionary - Dictionary of the Targumim, Talmud Babli, Yerushalmi and Midrashic Literature">
+  <meta name="description"
+    content="Browse and search Marcus Jastrow's comprehensive dictionary of Talmudic Aramaic and Rabbinic Hebrew. Works offline after first visit. Includes 32,000+ entries with page scans from the 1903 print edition.">
+  <meta name="keywords"
+    content="Jastrow, Dictionary, Talmud, Aramaic, Hebrew, Rabbinic, Midrash, Targum, Klein, BDB, Gesenius">
+  <meta name="author" content="Jastrow Dictionary Project">
+
+  <!-- Language Information -->
+  <meta name="language" content="English">
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://jastrow.app/">
+  <meta property="og:title"
+    content="Jastrow Dictionary - Dictionary of the Targumim, Talmud Babli, Yerushalmi and Midrashic Literature">
+  <meta property="og:description"
+    content="Browse and search Marcus Jastrow's comprehensive dictionary of Talmudic Aramaic and Rabbinic Hebrew. Works offline after first visit. Includes 32,000+ entries with page scans from the 1903 print edition.">
+  <!-- TODO: Create og-image.png and restore this tag -->
+  <!-- <meta property="og:image" content="https://jastrow.app/og-image.png"> -->
+
+  <!-- Twitter Card -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:url" content="https://jastrow.app/">
+  <meta property="twitter:title"
+    content="Jastrow Dictionary - Dictionary of the Targumim, Talmud Babli, Yerushalmi and Midrashic Literature">
+  <meta property="twitter:description"
+    content="Browse and search Marcus Jastrow's comprehensive dictionary of Talmudic Aramaic and Rabbinic Hebrew. Works offline after first visit. Includes 32,000+ entries with page scans from the 1903 print edition.">
+  <!-- TODO: Create twitter-image.png and restore this tag -->
+  <!-- <meta property="twitter:image" content="https://jastrow.app/twitter-image.png"> -->
+
+  <!-- Canonical URL -->
+  <!-- nosemgrep: html.security.audit.missing-integrity.missing-integrity -->
+  <link rel="canonical" href="https://jastrow.app/">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="assets/images/favicon/favicon-96x96.png" sizes="96x96" />
+  <link rel="icon" type="image/svg+xml" href="assets/images/favicon/favicon.svg" />
+  <link rel="shortcut icon" href="assets/images/favicon/favicon.ico" />
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicon/apple-touch-icon.png" />
+  <link rel="manifest" href="assets/images/favicon/site.webmanifest" />
+
+  <!-- PWA Meta Tags -->
+  <meta name="application-name" content="Jastrow Dictionary">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <meta name="apple-mobile-web-app-title" content="Jastrow">
+  <meta name="mobile-web-app-capable" content="yes">
+
+  <!-- Theme Color for Mobile Browsers -->
+  <meta name="theme-color" content="#7c3aff" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#7c3aff" media="(prefers-color-scheme: dark)">
+  <meta name="msapplication-TileColor" content="#7c3aff">
+  <meta name="msapplication-navbutton-color" content="#7c3aff">
+
+  <!-- Robots Meta Tag -->
+  <meta name="robots" content="index, follow">
+
+  <!-- Web Awesome (Design System & Components) -->
+  <!-- No SRI: kit loader content changes per build; integrity hash would break on updates -->
+  <!-- nosemgrep: html.security.audit.missing-integrity.missing-integrity -->
+  <script src="https://kit.webawesome.com/7fa8c613fa47402e.js" crossorigin="anonymous"></script>
+
+  <!-- Font Awesome Pro (Icons) -->
+  <!-- No SRI: kit loader content changes per build; integrity hash would break on updates -->
+  <!-- nosemgrep: html.security.audit.missing-integrity.missing-integrity -->
+  <script src="https://kit.fontawesome.com/da01b334a9.js" crossorigin="anonymous"></script>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <!-- nosemgrep: html.security.audit.missing-integrity.missing-integrity -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Next:ital,wght@0,400;0,700;1,400;1,700&family=Lexend:wght@400;600;700&display=swap">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="https://unpkg.com/simple-keyboard@3.8.120/build/css/index.css"
+    integrity="sha384-ZbdTLlGjn0oMsLy9jD95aQePbFXvH8XRnHa4vsjjGebcusbiV9Fp2sELSsQdWfLu" crossorigin="anonymous">
+  <link rel="stylesheet" href="assets/styles/styles.css">
+  <link rel="stylesheet" href="assets/styles/sages.css">
+  <link rel="stylesheet" href="assets/styles/accessibility.css">
+
+
+  <!-- Structured Data (JSON-LD for SEO) -->
+  <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "Jastrow Dictionary",
+        "description": "Dictionary of the Targumim, Talmud Babli, Yerushalmi and Midrashic Literature",
+        "url": "https://jastrow.app/",
+        "author": {
+            "@type": "Person",
+            "name": "Marcus Jastrow"
+        },
+        "inLanguage": ["en", "he", "arc"],
+        "potentialAction": {
+            "@type": "SearchAction",
+            "target": {
+                "@type": "EntryPoint",
+                "urlTemplate": "https://jastrow.app/#{search_term_string}"
+            },
+            "query-input": "required name=search_term_string"
+        }
+    }
+    </script>
+</head>
+
+<body>
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+  <wa-page mobile-breakpoint="920">
+    <div slot="banner" class="wa-body-s banner-content">
+      <div class="wa-stack wa-gap-0" style="flex:1">
+        <span>Built with <wa-icon name="heart" family="jelly" variant="regular" label="heart"
+            style="color:#ff2680"></wa-icon> and
+          <wa-icon name="sparkles" family="jelly" variant="regular" label="sparkles" style="color:#ffd600"></wa-icon>
+          for the Queer Talmud
+          community. If you find it useful, consider <a href="https://ko-fi.com/uniquepixels">buying me a <wa-icon
+              name="cup-togo" variant="regular" label="coffee" style="color:#d9ae55"></wa-icon> coffee</a>.</span>
+        <span>Please drop me an <a href="mailto:brian@uniquepixels.xyz"><wa-icon name="envelope" family="jelly"
+              variant="regular"></wa-icon> email</a> or <a href="https://discord.com/users/1123411105289601115"><wa-icon
+              name="messages" variant="regular"></wa-icon> chat with me</a> on Discord, if you have any feedback. I
+          greatly
+          value
+          you and your studies!</span>
+      </div>
+      <wa-icon name="xmark" class="banner-dismiss" role="button" tabindex="0" aria-label="Dismiss banner"></wa-icon>
+      
+    </div>
+    <header slot="header" class="page-header">
+      <div class="wa-cluster" style="flex-wrap: nowrap; align-items: center; width: 100%;">
+        <wa-button data-toggle-nav appearance="plain" class="mobile-menu-toggle" aria-label="Menu">
+          <wa-icon name="bars" label="Menu"></wa-icon>
+        </wa-button>
+        <div class="brand-group">
+          <a href="#" class="brand-link" aria-label="Jastrow Dictionary home">
+            <img src="assets/images/jastrow-mini.svg" height="50" width="50" alt="Jastrow Dictionary">
+          </a>
+          <wa-icon name="cloud-slash" class="offline-indicator" label="Offline"></wa-icon>
+          <h1 class="wa-heading-xl brand-h1"><a href="#" id="brand-name" class="brand-link">Jastrow's Dictionary</a></h1>
+        </div>
+        <div class="wa-cluster wa-gap-xs header-search" style="flex: 1; flex-wrap: nowrap; justify-content: center;">
+          <wa-button-group label="Search mode">
+            <wa-button id="mode-word" variant="brand" size="small">Word</wa-button>
+            <wa-button id="mode-ref" size="small">Ref</wa-button>
+          </wa-button-group>
+          <wa-input class="search rtl-input" aria-label="Search dictionary" placeholder="Search Hebrew letters (אבג)" with-clear style="flex: 1; min-width: 120px; max-width: 400px;"></wa-input>
+          <wa-button id="keyboard-toggle" appearance="outlined" size="small">
+            <i class="fa-kit fa-keyboard-hebrew" aria-hidden="true" style="font-size: 1.4em; position: relative; top: 4px;"></i>
+            <span class="wa-visually-hidden">Toggle Hebrew keyboard</span>
+          </wa-button>
+          <wa-button id="search-button" variant="brand">
+            <wa-icon slot="start" name="magnifying-glass"></wa-icon>
+            Search
+          </wa-button>
+        </div>
+        <wa-dropdown id="share-dropdown" placement="bottom-end" hoist>
+          <wa-button slot="trigger" appearance="plain" variant="neutral" aria-label="Share">
+            <wa-icon name="arrow-up-from-bracket" label="Share" style="font-size: 1.25rem;"></wa-icon>
+          </wa-button>
+        </wa-dropdown>
+      </div>
+      <wa-tooltip for="keyboard-toggle">Toggle Hebrew keyboard</wa-tooltip>
+    </header>
+    <nav slot="navigation-header">
+      <wa-card class="card-basic" style="--spacing: .5em">
+        <strong style="font-family: var(--wa-font-family-heading);">Jump to page</strong>
+        <div class="wa-flank:end wa-gap-xs" style="flex-wrap: nowrap">
+          <wa-input id="page-jump-input" aria-label="Page number" without-spin-buttons style="width: 62%;" type="number"
+            placeholder="Pg. Number">
+          </wa-input>
+          <wa-button id="page-jump-button" variant="brand"><wa-icon name="arrow-right" family="jelly" variant="regular"
+              label="Go"></wa-icon></wa-button>
+        </div>
+        <p class="wa-caption-xs" style="padding-top: .3em">1903 printed edition</p>
+      </wa-card>
+
+    </nav>
+    <nav slot="navigation">
+
+      <div class="wa-flank wa-gap-s">
+        <wa-icon name="circle-info" family="jelly" variant="regular" class="wa-heading-l"
+          style="color: #ff2680;"></wa-icon>
+        <div class="wa-stack wa-gap-3xs">
+          <span class="wa-heading-m"><a href="#" id="show-guide-btn">Guide to a Jastrow entry</a></span>
+          <span class="wa-caption-xs" lang="la"><em>Understanding entry structure
+            </em></span>
+        </div>
+      </div>
+      <div class="wa-flank wa-gap-s">
+        <wa-icon name="ellipsis" family="jelly" variant="regular" class="wa-heading-l"
+          style="color: #ff8e00;"></wa-icon>
+        <div class="wa-stack wa-gap-3xs">
+          <span class="wa-heading-m"><a href="#" id="show-abbr-btn">Abbreviations reference</a></span>
+          <span class="wa-caption-xs" lang="la"><em>Dictionary & Talmudic abbreviations
+            </em></span>
+        </div>
+      </div>
+      <div class="wa-flank wa-gap-s">
+        <wa-icon name="hamsa" variant="regular" class="wa-heading-l" style="color: #ffe517;"></wa-icon>
+        <div class="wa-stack wa-gap-3xs">
+          <span class="wa-heading-m"><a href="#sages" data-drawer="close">Talmudic Sages</a></span>
+          <span class="wa-caption-xs" lang="la"><em>Interactive timeline.
+            </em></span>
+        </div>
+      </div>
+      <wa-divider style="--spacing: .15em;"></wa-divider>
+      <div class="wa-flank wa-gap-s">
+        <i class="fa-kit fa-sefaria wa-heading-l" style="color: #a3e60d;"></i>
+        <div class="wa-stack wa-gap-3xs">
+          <span class="wa-heading-m"><a href="https://sefaria.org">Sefaria</a></span>
+          <span class="wa-caption-xs" lang="la"><em>A Living Library of Torah
+            </em></span>
+        </div>
+      </div>
+      <div class="wa-flank wa-gap-s">
+        <i class="fa-kit fa-mercava wa-heading-l" style="color: #17bfff;"></i>
+        <div class="wa-stack wa-gap-3xs">
+          <span class="wa-heading-m"><a href="https://www.themercava.com/app/">Mercava</a></span>
+          <span class="wa-caption-xs" lang="la"><em>Study tools for Jewish texts.
+            </em></span>
+        </div>
+      </div>
+      <div class="wa-flank wa-gap-s">
+        <i class="fa-kit fa-svara wa-heading-l" style="color: #1826f5;"></i>
+        <div class="wa-stack wa-gap-3xs">
+          <span class="wa-heading-m"><a href="https://svara.org">Svara</a></span>
+          <span class="wa-caption-xs" lang="la"><em>A radically traditional yeshiva.
+            </em></span>
+        </div>
+      </div>
+      <div class="wa-flank wa-gap-s">
+        <wa-icon name="cassette-tape" variant="regular" class="wa-heading-l" style="color: #9673ff;"></wa-icon>
+        <div class="wa-stack wa-gap-3xs">
+          <span class="wa-heading-m"><a href="https://soundcloud.com/uniquepixels/sets/sugya-show-tell">Sugya Show &
+              Tell</a></span>
+          <span class="wa-caption-xs" lang="la"><em>Music from my learning.
+            </em></span>
+        </div>
+      </div>
+
+    </nav>
+    <nav slot="navigation-footer">
+      <div class="wa-stack wa-gap-s">
+        Made possible thanks to data provided by: <a href="https://sefaria.org"><img src="assets/images/sefarialogo.svg"
+            alt="Sefaria" loading="lazy"></a>
+      </div>
+    </nav>
+
+    <div id="keyboard-overlay" class="keyboard-overlay" hidden>
+      <div class="simple-keyboard"></div>
+    </div>
+    <main id="main-content">
+      <!-- Dictionary entries will be dynamically inserted here by app.js -->
+    </main>
+
+    <!-- Page Image Dialog -->
+    <wa-dialog label="Print edition page" light-dismiss class="page-dialog" style="--width: 90vw;">
+      <wa-button slot="header-actions" appearance="plain" class="dialog-share-btn" data-share="scan">
+        <wa-icon name="arrow-up-from-bracket" variant="regular" label="Share page scan"></wa-icon>
+      </wa-button>
+      <wa-zoomable-frame id="page-image-frame" zoom="1" zoom-levels="0.25 0.3 0.4 0.5 0.6 0.7 0.75 0.8 0.9 1"
+        title="Scanned page from the 1903 print edition"></wa-zoomable-frame>
+      <div slot="footer" class="wa-split">
+        <div class="wa-cluster wa-gap-xs">
+          <a id="page-open-btn" href="#" target="_blank" rel="noopener noreferrer">
+            <wa-button appearance="outlined">
+              <wa-icon slot="start" name="arrow-up-right-from-square"></wa-icon>
+              Open in Archive.org
+            </wa-button>
+          </a>
+        </div>
+        <div class="wa-cluster wa-gap-xs" style="align-items: center;">
+          <wa-button id="page-prev-btn" appearance="outlined">
+            <wa-icon slot="start" name="chevron-left"></wa-icon>
+            Prev
+          </wa-button>
+          <span id="current-page-display" style="font-weight: 500; min-width: 60px; text-align: center;">Page 1</span>
+          <wa-button id="page-next-btn" appearance="outlined">
+            <wa-icon slot="end" name="chevron-right"></wa-icon>
+            Next
+          </wa-button>
+        </div>
+      </div>
+    </wa-dialog>
+
+    <!-- Entry Guide Dialog -->
+    <wa-dialog label="Guide to a Jastrow Dictionary Entry" light-dismiss class="guide-dialog dialog-scrolling" style="--width: min(90vw, 750px);">
+      <wa-button slot="header-actions" appearance="plain" class="dialog-share-btn" data-share="guide">
+        <wa-icon name="arrow-up-from-bracket" variant="regular" label="Share guide"></wa-icon>
+      </wa-button>
+      <div class="guide-content"></div>
+    </wa-dialog>
+
+    <!-- Abbreviations Dialog -->
+    <wa-dialog label="Abbreviations Reference" light-dismiss class="abbr-dialog dialog-scrolling" style="--width: min(90vw, 850px);">
+      <wa-button slot="header-actions" appearance="plain" class="dialog-share-btn" data-share="abbreviations">
+        <wa-icon name="arrow-up-from-bracket" variant="regular" label="Share abbreviations"></wa-icon>
+      </wa-button>
+      <div class="abbr-content"></div>
+    </wa-dialog>
+
+  </wa-page>
+  <wa-toast></wa-toast>
+
+  <script>
+    // Close navigation drawer when clicking hash links
+    document.addEventListener('DOMContentLoaded', () => {
+      const sectionAnchors = document.querySelectorAll("[slot*='navigation'] a[href*='#']");
+      sectionAnchors.forEach(sectionAnchor => { sectionAnchor.setAttribute('data-drawer', 'close'); });
+
+      // Banner dismiss handler (moved from inline to JS)
+      const bannerDismiss = document.querySelector('.banner-dismiss');
+      if (bannerDismiss) {
+        bannerDismiss.addEventListener('click', () => bannerDismiss.closest('[slot=banner]').remove());
+        bannerDismiss.addEventListener('keydown', (e) => {
+          if (e.key === 'Enter' || e.key === ' ') {
+            e.preventDefault();
+            bannerDismiss.click();
+          }
+        });
+      }
+
+      // Handle guide and abbreviations dialogs
+      const showGuideBtn = document.getElementById('show-guide-btn');
+      const showAbbrBtn = document.getElementById('show-abbr-btn');
+      const guideDialog = document.querySelector('.guide-dialog');
+      const abbrDialog = document.querySelector('.abbr-dialog');
+      let appInitialized = false;
+      let pendingDialogOpen = null;
+      let _guideOpener = null;
+      let _abbrOpener = null;
+
+      // Function to show the guide dialog
+      const showGuide = () => {
+        if (!appInitialized) {
+          pendingDialogOpen = 'guide';
+          return;
+        }
+
+        if (guideDialog) {
+          _guideOpener = document.activeElement;
+          guideDialog.open = true;
+          if (window.location.hash !== '#guide') {
+            window.history.pushState(null, '', '#guide');
+          }
+        }
+      };
+
+      // Function to show the abbreviations dialog
+      const showAbbr = () => {
+        if (!appInitialized) {
+          pendingDialogOpen = 'abbreviations';
+          return;
+        }
+
+        if (abbrDialog) {
+          _abbrOpener = document.activeElement;
+          abbrDialog.open = true;
+          if (window.location.hash !== '#abbreviations') {
+            window.history.pushState(null, '', '#abbreviations');
+          }
+        }
+      };
+
+      // Listen for app initialization complete
+      window.addEventListener('jastrow-app-initialized', () => {
+        appInitialized = true;
+        // If dialog was requested before app was ready, show it now
+        if (pendingDialogOpen === 'guide') {
+          pendingDialogOpen = null;
+          showGuide();
+        } else if (pendingDialogOpen === 'abbreviations') {
+          pendingDialogOpen = null;
+          showAbbr();
+        }
+      });
+
+      // Check URL hash on load
+      const hash = window.location.hash;
+      if (hash === '#guide') {
+        showGuide();
+      } else if (hash === '#abbreviations') {
+        showAbbr();
+      }
+
+      // Handle click on guide button
+      if (showGuideBtn && guideDialog) {
+        showGuideBtn.addEventListener('click', (e) => {
+          e.preventDefault();
+          showGuide();
+        });
+      }
+
+      // Handle click on abbreviations button
+      if (showAbbrBtn && abbrDialog) {
+        showAbbrBtn.addEventListener('click', (e) => {
+          e.preventDefault();
+          showAbbr();
+        });
+      }
+
+      // Handle hash changes (e.g., browser back/forward)
+      window.addEventListener('hashchange', () => {
+        const hash = window.location.hash;
+        if (hash === '#guide') {
+          showGuide();
+        } else if (hash === '#abbreviations') {
+          showAbbr();
+        } else if (!hash.startsWith('#sages') && !hash.startsWith('#sage:')) {
+          // Close any open dialogs if hash doesn't match (skip sages routes — handled by app.js)
+          if (guideDialog?.open) guideDialog.open = false;
+          if (abbrDialog?.open) abbrDialog.open = false;
+          const pageDialog = document.querySelector('.page-dialog');
+          if (pageDialog?.open && !hash.startsWith('#scan:')) pageDialog.open = false;
+        }
+      });
+
+      // Close dialogs remove their hash from URL
+      if (guideDialog) {
+        guideDialog.addEventListener('wa-hide', () => {
+          if (window.location.hash === '#guide') {
+            window.history.pushState(null, '', window.location.pathname);
+          }
+          if (_guideOpener) {
+            _guideOpener.focus();
+            _guideOpener = null;
+          }
+        });
+      }
+
+      if (abbrDialog) {
+        abbrDialog.addEventListener('wa-hide', () => {
+          if (window.location.hash === '#abbreviations') {
+            window.history.pushState(null, '', window.location.pathname);
+          }
+          if (_abbrOpener) {
+            _abbrOpener.focus();
+            _abbrOpener = null;
+          }
+        });
+      }
+    });
+  </script>
+  <!-- DOMPurify for XSS protection -->
+  <script src="https://cdn.jsdelivr.net/npm/dompurify@3.0.8/dist/purify.min.js"
+    integrity="sha384-vdScihEZCfbPnBQf+lc7LgXUdJVYyhC3yWHUW5C5P5GpHRqVnaM6HJELJxT6IqwM" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/simple-keyboard@3.8.120"
+    integrity="sha384-ifquWIpPw3X9xzeVzmqWrFIq17145eSr3UIZ3QOD2nwkQeF09sojhebivRWWZc7e" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/simple-keyboard-layouts@3.4.179"
+    integrity="sha384-N4gkl9pkDlUF2PO3oKGmOVnyRNLLEGTBKPCjKLbB2r8HaVeHn0wgX89lNZQNn5GY" crossorigin="anonymous"></script>
+  <!-- D3.js for Talmudic Sages graph visualization -->
+  <!-- No SRI: D3 CDN content may change per minor version; integrity hash would break on updates -->
+  <!-- nosemgrep: html.security.audit.missing-integrity.missing-integrity -->
+  <script src="https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js" crossorigin="anonymous"></script>
+  <script src="assets/scripts/constants.js"></script>
+  <script src="assets/scripts/sanitizer.js"></script>
+  <script src="assets/scripts/keyboard.js"></script>
+  <script src="assets/scripts/data-loader.js"></script>
+  <script src="assets/scripts/scroll-manager.js"></script>
+  <script src="assets/scripts/sages-data.js"></script>
+  <script src="assets/scripts/sages-graph.js"></script>
+  <script src="assets/scripts/sages-sidebar.js"></script>
+  <script src="assets/scripts/sages.js"></script>
+  <script src="assets/scripts/announcer.js"></script>
+  <script src="assets/scripts/app.js"></script>
+
+</body>
+
+</html>
