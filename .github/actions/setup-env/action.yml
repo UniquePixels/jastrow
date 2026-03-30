@@ -1,0 +1,10 @@
+name: Setup Environment
+description: Install mise and project tools
+
+runs:
+  using: composite
+  steps:
+    - name: Install mise
+      uses: jdx/mise-action@v2
+      with:
+        install: true

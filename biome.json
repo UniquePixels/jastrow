@@ -1,0 +1,69 @@
+{
+	"$schema": "./node_modules/@biomejs/biome/configuration_schema.json",
+
+	"vcs": {
+		"enabled": true,
+		"clientKind": "git",
+		"useIgnoreFile": true
+	},
+	"files": {
+		"ignoreUnknown": true,
+		"includes": ["**/*.js", "**/*.ts", "**/*.json", "**/*.html"]
+	},
+	"assist": { "actions": { "source": { "organizeImports": "on" } } },
+	"linter": {
+		"enabled": true,
+		"rules": {
+			"recommended": true,
+			"complexity": {
+				"noExcessiveCognitiveComplexity": "on",
+				"noForEach": "on",
+				"useSimplifiedLogicExpression": "on",
+				"useWhile": "on"
+			},
+			"correctness": {
+				"noUndeclaredVariables": "on"
+			},
+			"style": {
+				"noNegationElse": "on",
+				"noNestedTernary": "on",
+				"noParameterAssign": "on",
+				"noUselessElse": "on",
+				"noYodaExpression": "on",
+				"useBlockStatements": "on",
+				"useCollapsedElseIf": "on",
+				"useCollapsedIf": "on",
+				"useConsistentBuiltinInstantiation": "on",
+				"useDefaultParameterLast": "on",
+				"useExplicitLengthCheck": "on",
+				"useForOf": "on",
+				"useSingleVarDeclarator": "on",
+				"useThrowNewError": "on",
+				"useThrowOnlyError": "on"
+			},
+			"suspicious": {
+				"noConsole": "off",
+				"noEmptyBlockStatements": "on",
+				"noVar": "on",
+				"useErrorMessage": "on"
+			}
+		}
+	},
+	"overrides": [
+		{
+			"includes": ["data/admin/**"],
+			"linter": {
+				"rules": {
+					"style": {
+						"noParameterAssign": "off"
+					}
+				}
+			}
+		}
+	],
+	"javascript": {
+		"formatter": {
+			"quoteStyle": "single"
+		}
+	}
+}

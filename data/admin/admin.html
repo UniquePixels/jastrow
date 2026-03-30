@@ -1,0 +1,5242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jastrow Data Admin</title>
+  <style>
+    /* --- Reset & Base --- */
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: system-ui, -apple-system, sans-serif;
+      background: #f5f5f5;
+      color: #333;
+      font-size: 15px;
+      line-height: 1.5;
+    }
+
+    /* --- Layout --- */
+    .app-header {
+      background: #fff;
+      border-bottom: 1px solid #ddd;
+      padding: 8px 16px;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .app-header h1 {
+      font-size: 16px;
+      font-weight: 600;
+      color: #333;
+    }
+
+    .app-header .status {
+      font-size: 12px;
+      color: #888;
+      margin-left: auto;
+    }
+
+    /* --- Tab Bar --- */
+    .tab-bar {
+      display: flex;
+      background: #fff;
+      border-bottom: 2px solid #e0e0e0;
+      padding: 0 16px;
+      gap: 0;
+    }
+
+    .tab-button {
+      padding: 10px 18px;
+      border: none;
+      background: none;
+      font-size: 13px;
+      font-weight: 500;
+      color: #666;
+      cursor: pointer;
+      border-bottom: 2px solid transparent;
+      margin-bottom: -2px;
+      transition: color 0.15s, border-color 0.15s;
+      white-space: nowrap;
+    }
+
+    .tab-button:hover {
+      color: #333;
+    }
+
+    .tab-button.active {
+      color: #2563eb;
+      border-bottom-color: #2563eb;
+    }
+
+    /* --- Tab Content --- */
+    .tab-content {
+      display: none;
+    }
+
+    .tab-content.active {
+      display: block;
+    }
+
+    .tab-placeholder {
+      padding: 48px;
+      text-align: center;
+      color: #999;
+      font-size: 15px;
+    }
+
+    /* --- Entry Editor Layout --- */
+    .entry-editor-layout {
+      display: grid;
+      grid-template-columns: 1fr 4px 1fr;
+      gap: 0;
+      padding: 16px;
+    }
+
+    .entry-editor-layout > .entry-preview-panel,
+    .entry-editor-layout > .field-editor-panel {
+      overflow-y: auto;
+      max-height: calc(100vh - 140px);
+    }
+
+    /* --- Entry Preview Panel --- */
+    .entry-preview-panel {
+      background: #fff;
+      border-radius: 6px;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+    }
+
+    .entry-header {
+      padding: 16px 20px 12px;
+      border-bottom: 1px solid #f0f0f0;
+    }
+
+    .entry-headword {
+      font-family: "SBL Hebrew", "Ezra SIL", serif;
+      font-size: 28px;
+      font-weight: 700;
+      line-height: 1.3;
+    }
+
+    .entry-rid {
+      font-size: 12px;
+      color: #999;
+      margin-top: 2px;
+      font-family: monospace;
+    }
+
+
+    .entry-meta {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      padding: 10px 20px;
+      border-bottom: 1px solid #f0f0f0;
+      flex-wrap: wrap;
+    }
+
+    .entry-page-info {
+      font-size: 12px;
+      color: #666;
+      margin-left: auto;
+    }
+
+    /* --- Badges --- */
+    .badge {
+      display: inline-block;
+      font-size: 11px;
+      font-weight: 600;
+      padding: 2px 8px;
+      border-radius: 99px;
+      line-height: 1.4;
+    }
+
+    .badge-brand {
+      background: #eff6ff;
+      color: #2563eb;
+    }
+
+    .badge-neutral {
+      background: #f3f4f6;
+      color: #4b5563;
+    }
+
+    .badge-success {
+      background: #f0fdf4;
+      color: #16a34a;
+    }
+
+    .badge-warning {
+      background: #fffbeb;
+      color: #d97706;
+    }
+
+    .badge-ref {
+      font-size: 11px;
+      font-weight: 500;
+      padding: 1px 6px;
+      border-radius: 4px;
+      border: 1px solid;
+    }
+
+    .badge-ref-t {
+      background: #eff6ff;
+      color: #2563eb;
+      border-color: #bfdbfe;
+    }
+
+    .badge-ref-b {
+      background: #f0fdf4;
+      color: #16a34a;
+      border-color: #bbf7d0;
+    }
+
+    .badge-ref-mi {
+      background: #fffbeb;
+      color: #d97706;
+      border-color: #fde68a;
+    }
+
+    .badge-ref-j {
+      background: #faf5ff;
+      color: #9333ea;
+      border-color: #e9d5ff;
+    }
+
+    .badge-ref-o {
+      background: #f3f4f6;
+      color: #4b5563;
+      border-color: #d1d5db;
+    }
+
+    /* --- Entry Content --- */
+    .entry-content {
+      padding: 16px 20px;
+    }
+
+    .language-info {
+      color: #888;
+      font-style: italic;
+    }
+
+    .sense-group {
+      margin-bottom: 8px;
+    }
+
+    .sense-primary {
+      margin-bottom: 4px;
+    }
+
+    .sense-children {
+      margin-inline-start: 20px;
+    }
+
+    .grammar-section {
+      margin-top: 10px;
+      margin-bottom: 4px;
+      background: #fafafa;
+      border-radius: 4px;
+      border-inline-start: 3px solid #2563eb;
+    }
+
+    .grammar-header {
+      padding: 4px 10px;
+    }
+
+    .grammar-senses {
+      padding: 8px;
+      padding-top: 0;
+      margin-inline-start: 12px;
+    }
+
+    .verbal-stem {
+      font-weight: 700;
+      color: #2563eb;
+      margin-inline-end: 4px;
+    }
+
+    .binyan-forms {
+      font-family: "SBL Hebrew", "Ezra SIL", serif;
+      font-size: 15px;
+      color: #333;
+    }
+
+    .sense-numbered {
+      margin-top: 4px;
+      display: flex;
+      gap: 4px;
+      align-items: flex-start;
+    }
+
+    .sense-number {
+      font-weight: 700;
+      color: #2563eb;
+      flex-shrink: 0;
+      min-width: 2em;
+    }
+
+    .sense-definition {
+      flex: 1;
+    }
+
+    .word-link {
+      direction: rtl;
+      unicode-bidi: isolate;
+    }
+
+    .sense {
+      margin-top: 2px;
+    }
+
+    /* --- References --- */
+    .entry-refs {
+      padding: 10px 20px 16px;
+      border-top: 1px solid #f0f0f0;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      align-items: center;
+    }
+
+    .entry-refs-label {
+      font-size: 12px;
+      font-weight: 600;
+      color: #666;
+      margin-right: 4px;
+    }
+
+    /* --- Loading & Error --- */
+    .loading-msg {
+      padding: 48px;
+      text-align: center;
+      color: #999;
+    }
+
+    .error-msg {
+      padding: 16px 20px;
+      color: #dc2626;
+      background: #fef2f2;
+      border-radius: 6px;
+      margin: 16px;
+    }
+
+    /* --- Field Editor Panel --- */
+    .field-editor-panel {
+      background: #fff;
+      border-radius: 6px;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+      padding: 16px;
+    }
+
+    .field-editor-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 12px;
+      padding-bottom: 8px;
+      border-bottom: 1px solid #e0e0e0;
+    }
+
+    .field-editor-header h2 {
+      font-size: 14px;
+      font-weight: 600;
+      color: #333;
+    }
+
+    .field-editor-actions {
+      display: flex;
+      gap: 8px;
+    }
+
+    .btn-save, .btn-revert {
+      padding: 4px 14px;
+      border: none;
+      border-radius: 4px;
+      font-size: 12px;
+      font-weight: 600;
+      cursor: pointer;
+      transition: opacity 0.15s;
+    }
+
+    .btn-save {
+      background: #16a34a;
+      color: #fff;
+    }
+
+    .btn-revert {
+      background: #e5e7eb;
+      color: #4b5563;
+    }
+
+    .btn-save:disabled, .btn-revert:disabled {
+      opacity: 0.4;
+      cursor: not-allowed;
+    }
+
+    .field-group {
+      margin-bottom: 10px;
+    }
+
+    .field-group label {
+      display: block;
+      font-size: 11px;
+      font-weight: 600;
+      color: #666;
+      margin-bottom: 2px;
+    }
+
+    .field-group input,
+    .field-group select,
+    .field-group textarea {
+      width: 100%;
+      font-size: 13px;
+      padding: 4px 8px;
+      border: 1px solid #d1d5db;
+      border-radius: 4px;
+      font-family: inherit;
+      line-height: 1.4;
+    }
+
+    .field-group input:focus,
+    .field-group select:focus,
+    .field-group textarea:focus {
+      outline: none;
+      border-color: #2563eb;
+      box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.15);
+    }
+
+    .field-group textarea {
+      resize: vertical;
+      min-height: 48px;
+    }
+
+    .field-group textarea.textarea-lg {
+      min-height: 80px;
+    }
+
+    .field-group textarea.textarea-xl {
+      min-height: 120px;
+    }
+
+    .field-group .readonly-value {
+      font-size: 13px;
+      color: #666;
+      font-family: monospace;
+      padding: 4px 0;
+    }
+
+    .field-editor-panel fieldset {
+      border: 1px solid #e5e7eb;
+      border-radius: 4px;
+      padding: 8px 10px;
+      margin-bottom: 10px;
+    }
+
+    .field-editor-panel fieldset legend {
+      font-size: 11px;
+      font-weight: 600;
+      color: #666;
+      padding: 0 4px;
+    }
+
+    .field-row {
+      display: flex;
+      gap: 10px;
+    }
+
+    .field-row > .field-group {
+      flex: 1;
+    }
+
+    .sense-editor-label {
+      font-size: 11px;
+      font-weight: 600;
+      color: #666;
+      margin-bottom: 2px;
+    }
+
+    .sense-editor-label.indented {
+      padding-left: 16px;
+    }
+
+    .sense-label-row {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 2px;
+    }
+
+    .sense-delete-btn {
+      border: none;
+      background: none;
+      color: #dc2626;
+      cursor: pointer;
+      font-size: 16px;
+      padding: 0 4px;
+      line-height: 1;
+      opacity: 0.5;
+    }
+
+    .sense-delete-btn:hover {
+      opacity: 1;
+    }
+
+    .btn-add-sense {
+      margin-top: 6px;
+      padding: 4px 12px;
+      border: 1px dashed #d1d5db;
+      border-radius: 4px;
+      background: none;
+      color: #666;
+      font-size: 12px;
+      cursor: pointer;
+      width: 100%;
+    }
+
+    .btn-add-sense:hover {
+      border-color: #2563eb;
+      color: #2563eb;
+    }
+
+    /* --- Navigation Bar --- */
+    .nav-bar {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      background: #fff;
+      border-bottom: 1px solid #ddd;
+      padding: 6px 16px;
+    }
+
+    .nav-bar.hidden {
+      display: none;
+    }
+
+    .nav-bar button {
+      padding: 4px 10px;
+      border: 1px solid #d1d5db;
+      border-radius: 4px;
+      background: #fff;
+      font-size: 13px;
+      cursor: pointer;
+      line-height: 1.4;
+    }
+
+    .nav-bar button:hover:not(:disabled) {
+      background: #f3f4f6;
+    }
+
+    .nav-bar button:disabled {
+      opacity: 0.4;
+      cursor: not-allowed;
+    }
+
+    .nav-bar input {
+      font-size: 13px;
+      padding: 4px 8px;
+      border: 1px solid #d1d5db;
+      border-radius: 4px;
+      line-height: 1.4;
+    }
+
+    .nav-bar input:focus {
+      outline: none;
+      border-color: #2563eb;
+      box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.15);
+    }
+
+    .nav-rid-input {
+      width: 80px;
+      font-family: monospace;
+    }
+
+    .nav-hw-wrapper {
+      position: relative;
+    }
+
+    .nav-hw-input {
+      width: 140px;
+    }
+
+    .nav-hw-dropdown {
+      position: absolute;
+      top: 100%;
+      left: 0;
+      z-index: 100;
+      background: #fff;
+      border: 1px solid #d1d5db;
+      border-radius: 4px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      max-height: 240px;
+      overflow-y: auto;
+      width: 220px;
+      display: none;
+    }
+
+    .nav-hw-dropdown.open {
+      display: block;
+    }
+
+    .nav-hw-option {
+      padding: 6px 10px;
+      cursor: pointer;
+      font-size: 13px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .nav-hw-option:hover,
+    .nav-hw-option.selected {
+      background: #eff6ff;
+    }
+
+    .nav-hw-option-hw {
+      font-family: "SBL Hebrew", "Ezra SIL", serif;
+      font-size: 15px;
+      direction: rtl;
+    }
+
+    .nav-hw-option-rid {
+      font-family: monospace;
+      font-size: 11px;
+      color: #999;
+    }
+
+    .nav-position {
+      font-size: 12px;
+      color: #666;
+      white-space: nowrap;
+    }
+
+    .nav-issue-badge {
+      font-size: 14px;
+      color: #d97706;
+      cursor: default;
+      line-height: 1;
+    }
+
+    .rid-flash {
+      animation: rid-flash-red 0.4s;
+    }
+
+    @keyframes rid-flash-red {
+      0%, 100% { border-color: #d1d5db; }
+      50% { border-color: #dc2626; box-shadow: 0 0 0 2px rgba(220, 38, 38, 0.2); }
+    }
+
+    /* --- Divider Handle --- */
+    .divider-handle {
+      background: #e0e0e0;
+      cursor: col-resize;
+      transition: background 0.15s;
+      border-radius: 2px;
+    }
+
+    .divider-handle:hover {
+      background: #bbb;
+    }
+
+    /* --- Annotations Section --- */
+    .annotations-section {
+      margin-bottom: 12px;
+      padding: 8px 0;
+    }
+
+    .annotations-section h3 {
+      font-size: 13px;
+      font-weight: 600;
+      color: #333;
+      margin-bottom: 8px;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .annotations-section h3 .ann-count {
+      font-size: 11px;
+      font-weight: 600;
+      background: #fef3c7;
+      color: #92400e;
+      padding: 1px 6px;
+      border-radius: 99px;
+    }
+
+    .annotation-row {
+      display: flex;
+      align-items: flex-start;
+      gap: 8px;
+      padding: 6px 0;
+      border-bottom: 1px solid #f0f0f0;
+      font-size: 13px;
+    }
+
+    .annotation-row:last-of-type {
+      border-bottom: none;
+    }
+
+    .ann-type-badge {
+      font-size: 10px;
+      font-weight: 700;
+      padding: 2px 6px;
+      border-radius: 4px;
+      white-space: nowrap;
+      flex-shrink: 0;
+      text-transform: uppercase;
+      letter-spacing: 0.3px;
+    }
+
+    .ann-type-data-quality { background: #fef2f2; color: #991b1b; }
+    .ann-type-needs-review { background: #fffbeb; color: #92400e; }
+    .ann-type-page-column { background: #eff6ff; color: #1e40af; }
+    .ann-type-reference { background: #f0fdf4; color: #166534; }
+    .ann-type-word-link { background: #faf5ff; color: #6b21a8; }
+    .ann-type-custom { background: #f3f4f6; color: #374151; }
+
+    .ann-note {
+      flex: 1;
+      color: #333;
+      line-height: 1.4;
+    }
+
+    .ann-date {
+      font-size: 11px;
+      color: #999;
+      white-space: nowrap;
+      flex-shrink: 0;
+    }
+
+    .ann-delete-btn {
+      border: none;
+      background: none;
+      color: #999;
+      cursor: pointer;
+      font-size: 14px;
+      padding: 0 2px;
+      line-height: 1;
+      flex-shrink: 0;
+    }
+
+    .ann-delete-btn:hover {
+      color: #dc2626;
+    }
+
+    .ann-add-form {
+      display: flex;
+      gap: 6px;
+      margin-top: 8px;
+      align-items: flex-start;
+    }
+
+    .ann-add-form select {
+      font-size: 12px;
+      padding: 4px 6px;
+      border: 1px solid #d1d5db;
+      border-radius: 4px;
+      flex-shrink: 0;
+    }
+
+    .ann-add-form textarea {
+      flex: 1;
+      font-size: 12px;
+      padding: 4px 6px;
+      border: 1px solid #d1d5db;
+      border-radius: 4px;
+      font-family: inherit;
+      resize: vertical;
+      min-height: 32px;
+    }
+
+    .ann-add-form textarea:focus,
+    .ann-add-form select:focus {
+      outline: none;
+      border-color: #2563eb;
+      box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.15);
+    }
+
+    .ann-add-btn {
+      padding: 4px 12px;
+      border: none;
+      border-radius: 4px;
+      background: #2563eb;
+      color: #fff;
+      font-size: 12px;
+      font-weight: 600;
+      cursor: pointer;
+      flex-shrink: 0;
+    }
+
+    .ann-add-btn:hover {
+      background: #1d4ed8;
+    }
+
+    .ann-empty {
+      font-size: 12px;
+      color: #999;
+      font-style: italic;
+      padding: 4px 0;
+    }
+
+    /* --- Issues Tab --- */
+    .issues-container {
+      padding: 16px;
+    }
+
+    .issues-filter-bar {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      padding: 12px 16px;
+      background: #fff;
+      border-radius: 6px;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+      margin-bottom: 12px;
+      flex-wrap: wrap;
+    }
+
+    .issues-filter-bar label {
+      display: flex;
+      align-items: center;
+      gap: 4px;
+      font-size: 12px;
+      cursor: pointer;
+      white-space: nowrap;
+    }
+
+    .issues-filter-bar label .filter-count {
+      font-size: 10px;
+      font-weight: 600;
+      background: #e5e7eb;
+      color: #4b5563;
+      padding: 0 4px;
+      border-radius: 99px;
+      min-width: 16px;
+      text-align: center;
+    }
+
+    .issues-search-input {
+      font-size: 13px;
+      padding: 4px 8px;
+      border: 1px solid #d1d5db;
+      border-radius: 4px;
+      width: 200px;
+      margin-left: auto;
+    }
+
+    .issues-search-input:focus {
+      outline: none;
+      border-color: #2563eb;
+      box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.15);
+    }
+
+    .issues-actions-bar {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      margin-bottom: 12px;
+    }
+
+    .issues-actions-bar button {
+      padding: 4px 12px;
+      border: 1px solid #d1d5db;
+      border-radius: 4px;
+      background: #fff;
+      font-size: 12px;
+      font-weight: 500;
+      cursor: pointer;
+    }
+
+    .issues-actions-bar button:hover:not(:disabled) {
+      background: #f3f4f6;
+    }
+
+    .issues-actions-bar button:disabled {
+      opacity: 0.4;
+      cursor: not-allowed;
+    }
+
+    .issues-actions-bar .btn-scan {
+      background: #2563eb;
+      color: #fff;
+      border-color: #2563eb;
+    }
+
+    .issues-actions-bar .btn-scan:hover {
+      background: #1d4ed8;
+    }
+
+    .issues-actions-bar .btn-resolve {
+      background: #dc2626;
+      color: #fff;
+      border-color: #dc2626;
+    }
+
+    .issues-actions-bar .btn-resolve:hover:not(:disabled) {
+      background: #b91c1c;
+    }
+
+    .issues-actions-bar select {
+      font-size: 12px;
+      padding: 4px 6px;
+      border: 1px solid #d1d5db;
+      border-radius: 4px;
+    }
+
+    .issues-actions-bar .selected-count {
+      font-size: 12px;
+      color: #666;
+    }
+
+    .issues-table-wrapper {
+      background: #fff;
+      border-radius: 6px;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+      overflow: hidden;
+    }
+
+    .issues-table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 13px;
+    }
+
+    .issues-table th {
+      text-align: left;
+      padding: 8px 12px;
+      background: #f9fafb;
+      font-size: 11px;
+      font-weight: 600;
+      color: #666;
+      text-transform: uppercase;
+      letter-spacing: 0.3px;
+      border-bottom: 1px solid #e5e7eb;
+    }
+
+    .issues-table th:first-child {
+      width: 32px;
+      text-align: center;
+    }
+
+    .issues-table td {
+      padding: 8px 12px;
+      border-bottom: 1px solid #f0f0f0;
+      vertical-align: top;
+    }
+
+    .issues-table td:first-child {
+      text-align: center;
+    }
+
+    .issues-table tr:last-child td {
+      border-bottom: none;
+    }
+
+    .issues-table tr:hover {
+      background: #f9fafb;
+    }
+
+    .issues-table tr.clickable {
+      cursor: pointer;
+    }
+
+    .issues-table .rid-cell {
+      font-family: monospace;
+      font-size: 12px;
+      color: #666;
+      white-space: nowrap;
+    }
+
+    .issues-table .hw-cell {
+      font-family: "SBL Hebrew", "Ezra SIL", serif;
+      font-size: 15px;
+      direction: rtl;
+    }
+
+    .issues-pagination {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 12px;
+      padding: 8px 16px;
+      font-size: 13px;
+      color: #666;
+    }
+
+    .issues-pagination button {
+      padding: 4px 10px;
+      border: 1px solid #d1d5db;
+      border-radius: 4px;
+      background: #fff;
+      cursor: pointer;
+      font-size: 12px;
+    }
+
+    .issues-pagination button:disabled {
+      opacity: 0.4;
+      cursor: not-allowed;
+    }
+
+    .issues-empty {
+      padding: 32px;
+      text-align: center;
+      color: #999;
+      font-size: 14px;
+    }
+
+    /* --- Page Mapper --- */
+    .mapper-container {
+      padding: 12px;
+      max-width: 500px;
+      display: flex;
+      flex-direction: column;
+      max-height: calc(100vh - 140px);
+    }
+
+    .mapper-header {
+      background: #fff;
+      border-radius: 6px;
+      padding: 12px 16px;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+      margin-bottom: 12px;
+    }
+
+    .mapper-header .mapper-info {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 13px;
+      margin-bottom: 8px;
+    }
+
+    .mapper-header .mapper-page {
+      font-weight: 600;
+      font-size: 15px;
+    }
+
+    .mapper-header .mapper-col {
+      font-size: 13px;
+      color: #666;
+    }
+
+    .mapper-progress {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      font-size: 12px;
+      color: #666;
+    }
+
+    .mapper-progress-bar {
+      flex: 1;
+      height: 6px;
+      background: #e5e7eb;
+      border-radius: 3px;
+      overflow: hidden;
+    }
+
+    .mapper-progress-fill {
+      height: 100%;
+      background: #2563eb;
+      border-radius: 3px;
+      transition: width 0.3s;
+    }
+
+    .mapper-word-list {
+      background: #fff;
+      border-radius: 6px;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+      overflow-y: auto;
+      margin-bottom: 12px;
+      flex: 1;
+      min-height: 0;
+    }
+
+    .mapper-word-item {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 8px 12px;
+      border-bottom: 1px solid #f0f0f0;
+      cursor: pointer;
+      font-size: 13px;
+      transition: background 0.1s;
+    }
+
+    .mapper-word-item:last-child {
+      border-bottom: none;
+    }
+
+    .mapper-word-item:hover {
+      background: #f9fafb;
+    }
+
+    .mapper-word-item.selected {
+      background: #eff6ff;
+      border-left: 3px solid #2563eb;
+    }
+
+    .mapper-word-item .hw {
+      font-family: "SBL Hebrew", "Ezra SIL", serif;
+      font-size: 30px;
+      font-weight: 700;
+      direction: rtl;
+    }
+
+    .mapper-word-item .meta {
+      display: flex;
+      gap: 8px;
+      align-items: center;
+      font-size: 11px;
+      color: #888;
+    }
+
+    .mapper-word-item .meta .rid {
+      font-family: monospace;
+    }
+
+    .mapper-word-item .meta .page-col {
+      color: #2563eb;
+      font-weight: 500;
+    }
+
+    .mapper-word-item .meta .page-col.unmapped {
+      color: #dc2626;
+    }
+
+    .mapper-controls {
+      display: flex;
+      gap: 8px;
+      flex-shrink: 0;
+      padding-top: 8px;
+      background: #f5f5f5;
+    }
+
+    .mapper-controls button {
+      padding: 8px 16px;
+      border-radius: 4px;
+      font-size: 13px;
+      font-weight: 600;
+      cursor: pointer;
+      border: 1px solid #d1d5db;
+      background: #fff;
+    }
+
+    .mapper-controls button:hover:not(:disabled) {
+      background: #f3f4f6;
+    }
+
+    .mapper-controls button:disabled {
+      opacity: 0.4;
+      cursor: not-allowed;
+    }
+
+    .mapper-controls .btn-confirm {
+      background: #2563eb;
+      color: #fff;
+      border-color: #2563eb;
+    }
+
+    .mapper-controls .btn-confirm:hover:not(:disabled) {
+      background: #1d4ed8;
+    }
+
+    .mapper-all-done {
+      padding: 48px;
+      text-align: center;
+      color: #16a34a;
+      font-size: 15px;
+      font-weight: 600;
+    }
+
+    .mapper-dialog {
+      border: none;
+      border-radius: 8px;
+      box-shadow: 0 8px 24px rgba(0,0,0,0.2);
+      padding: 24px;
+      max-width: 360px;
+    }
+
+    .mapper-dialog::backdrop {
+      background: rgba(0,0,0,0.4);
+    }
+
+    .mapper-dialog h3 {
+      margin-bottom: 8px;
+      font-size: 16px;
+    }
+
+    .mapper-dialog p {
+      margin-bottom: 12px;
+      font-size: 14px;
+      color: #555;
+    }
+
+    .mapper-dialog label {
+      display: block;
+      font-size: 13px;
+      margin-bottom: 16px;
+    }
+
+    .mapper-dialog label input {
+      display: block;
+      margin-top: 4px;
+      width: 100%;
+      padding: 6px 8px;
+      border: 1px solid #d1d5db;
+      border-radius: 4px;
+      font-size: 14px;
+    }
+
+    .mapper-dialog-actions {
+      display: flex;
+      justify-content: flex-end;
+      gap: 8px;
+    }
+
+    .mapper-dialog-actions button {
+      padding: 6px 16px;
+      border-radius: 4px;
+      font-size: 13px;
+      font-weight: 600;
+      cursor: pointer;
+    }
+
+    .btn-primary {
+      background: #2563eb;
+      color: #fff;
+      border: none;
+    }
+
+    .btn-primary:hover {
+      background: #1d4ed8;
+    }
+
+    .btn-secondary {
+      background: #fff;
+      color: #333;
+      border: 1px solid #d1d5db;
+    }
+
+    .btn-secondary:hover {
+      background: #f3f4f6;
+    }
+
+    /* --- Page Scan Dialog --- */
+    .page-scan-dialog {
+      border: none;
+      border-radius: 8px;
+      box-shadow: 0 8px 24px rgba(0,0,0,0.2);
+      padding: 0;
+      width: min(90vw, 700px);
+      max-height: 90vh;
+      overflow: hidden;
+    }
+
+    .page-scan-dialog::backdrop {
+      background: rgba(0,0,0,0.4);
+    }
+
+    .page-scan-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 12px 16px;
+      border-bottom: 1px solid #e0e0e0;
+      background: #fafafa;
+    }
+
+    .page-scan-header h3 {
+      font-size: 14px;
+      margin: 0;
+    }
+
+    .page-scan-close {
+      border: none;
+      background: none;
+      font-size: 20px;
+      cursor: pointer;
+      color: #666;
+      padding: 0 4px;
+      line-height: 1;
+    }
+
+    .page-scan-close:hover {
+      color: #333;
+    }
+
+    .page-scan-body {
+      overflow: auto;
+      max-height: calc(90vh - 100px);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: #f0f0f0;
+      min-height: 400px;
+    }
+
+    .page-scan-body img {
+      max-width: 100%;
+      height: auto;
+    }
+
+    .page-scan-footer {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 8px 16px;
+      border-top: 1px solid #e0e0e0;
+      background: #fafafa;
+      gap: 8px;
+    }
+
+    .page-scan-footer button {
+      padding: 4px 12px;
+      border: 1px solid #d1d5db;
+      border-radius: 4px;
+      background: #fff;
+      font-size: 13px;
+      cursor: pointer;
+    }
+
+    .page-scan-footer button:hover:not(:disabled) {
+      background: #f3f4f6;
+    }
+
+    .page-scan-footer button:disabled {
+      opacity: 0.4;
+      cursor: not-allowed;
+    }
+
+    .page-scan-footer a {
+      font-size: 12px;
+      color: #2563eb;
+      text-decoration: none;
+    }
+
+    .page-scan-footer a:hover {
+      text-decoration: underline;
+    }
+
+    /* --- Formatting Reference Dialog --- */
+    .format-ref-dialog {
+      border: none;
+      border-radius: 8px;
+      box-shadow: 0 8px 24px rgba(0,0,0,0.2);
+      padding: 0;
+      width: min(90vw, 600px);
+      max-height: 90vh;
+    }
+
+    .format-ref-dialog::backdrop {
+      background: rgba(0,0,0,0.4);
+    }
+
+    .format-ref-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 12px 16px;
+      border-bottom: 1px solid #e0e0e0;
+      background: #fafafa;
+    }
+
+    .format-ref-header h3 {
+      font-size: 14px;
+      margin: 0;
+    }
+
+    .format-ref-body {
+      padding: 16px;
+      overflow-y: auto;
+      max-height: calc(90vh - 60px);
+    }
+
+    .format-ref-body h4 {
+      font-size: 13px;
+      font-weight: 600;
+      color: #333;
+      margin-top: 16px;
+      margin-bottom: 6px;
+    }
+
+    .format-ref-body h4:first-child {
+      margin-top: 0;
+    }
+
+    .format-ref-body table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 12px;
+      margin-bottom: 12px;
+    }
+
+    .format-ref-body th {
+      text-align: left;
+      padding: 4px 8px;
+      background: #f3f4f6;
+      font-weight: 600;
+      border-bottom: 1px solid #e0e0e0;
+    }
+
+    .format-ref-body td {
+      padding: 4px 8px;
+      border-bottom: 1px solid #f0f0f0;
+      vertical-align: top;
+    }
+
+    .format-ref-body code {
+      background: #f3f4f6;
+      padding: 1px 4px;
+      border-radius: 3px;
+      font-size: 11px;
+      font-family: monospace;
+      word-break: break-all;
+    }
+
+    .format-ref-body .example-render {
+      font-size: 13px;
+      padding: 2px 0;
+    }
+
+    /* --- Entry Header Links --- */
+    .entry-header-links {
+      display: flex;
+      gap: 12px;
+      margin-top: 4px;
+    }
+
+    .entry-header-links a,
+    .entry-header-links button {
+      font-size: 12px;
+      color: #2563eb;
+      text-decoration: none;
+      background: none;
+      border: none;
+      cursor: pointer;
+      padding: 0;
+      font-family: inherit;
+    }
+
+    .entry-header-links a:hover,
+    .entry-header-links button:hover {
+      text-decoration: underline;
+    }
+
+    /* --- Abbreviations Editor --- */
+    .abbr-container {
+      padding: 16px;
+      max-width: 800px;
+    }
+
+    .abbr-sub-tabs {
+      display: flex;
+      gap: 0;
+      margin-bottom: 12px;
+    }
+
+    .abbr-sub-tab {
+      padding: 8px 20px;
+      border: 1px solid #d1d5db;
+      background: #fff;
+      font-size: 13px;
+      font-weight: 500;
+      cursor: pointer;
+      color: #666;
+    }
+
+    .abbr-sub-tab:first-child {
+      border-radius: 4px 0 0 4px;
+    }
+
+    .abbr-sub-tab:last-child {
+      border-radius: 0 4px 4px 0;
+      border-left: none;
+    }
+
+    .abbr-sub-tab.active {
+      background: #2563eb;
+      color: #fff;
+      border-color: #2563eb;
+    }
+
+    .abbr-sub-content {
+      display: none;
+    }
+
+    .abbr-sub-content.active {
+      display: block;
+    }
+
+    .abbr-toolbar {
+      display: flex;
+      gap: 8px;
+      align-items: center;
+      margin-bottom: 12px;
+    }
+
+    .abbr-search {
+      flex: 1;
+      padding: 6px 10px;
+      border: 1px solid #d1d5db;
+      border-radius: 4px;
+      font-size: 13px;
+    }
+
+    .abbr-search:focus {
+      outline: none;
+      border-color: #2563eb;
+      box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.15);
+    }
+
+    .abbr-list {
+      background: #fff;
+      border-radius: 6px;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+      overflow: hidden;
+    }
+
+    .abbr-row {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      padding: 6px 12px;
+      border-bottom: 1px solid #f0f0f0;
+      font-size: 13px;
+    }
+
+    .abbr-row:last-child {
+      border-bottom: none;
+    }
+
+    .abbr-row .abbr-key {
+      font-weight: 700;
+      min-width: 120px;
+      font-size: 13px;
+      flex-shrink: 0;
+      word-break: break-all;
+    }
+
+    .abbr-row input {
+      flex: 1;
+      padding: 4px 6px;
+      border: 1px solid #e5e7eb;
+      border-radius: 3px;
+      font-size: 12px;
+    }
+
+    .abbr-row input:focus {
+      outline: none;
+      border-color: #2563eb;
+    }
+
+    .abbr-row .abbr-del-btn {
+      padding: 2px 6px;
+      border: none;
+      background: none;
+      color: #dc2626;
+      cursor: pointer;
+      font-size: 14px;
+      font-weight: 700;
+      flex-shrink: 0;
+    }
+
+    .abbr-row .abbr-del-btn:hover {
+      background: #fef2f2;
+      border-radius: 3px;
+    }
+
+    .abbr-he-textarea {
+      width: 100%;
+      min-height: 500px;
+      padding: 12px;
+      border: 1px solid #d1d5db;
+      border-radius: 6px;
+      font-family: monospace;
+      font-size: 13px;
+      line-height: 1.6;
+      resize: vertical;
+    }
+
+    .abbr-he-textarea:focus {
+      outline: none;
+      border-color: #2563eb;
+      box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.15);
+    }
+
+    .abbr-empty {
+      padding: 24px;
+      text-align: center;
+      color: #999;
+      font-size: 13px;
+    }
+
+    /* --- Sages Editor --- */
+    .sages-layout {
+      display: grid;
+      grid-template-columns: 280px 1fr;
+      gap: 0;
+      height: calc(100vh - 100px);
+    }
+
+    .sages-sidebar {
+      border-right: 1px solid #e0e0e0;
+      background: #fff;
+      display: flex;
+      flex-direction: column;
+      overflow: hidden;
+    }
+
+    .sages-sidebar-header {
+      padding: 12px;
+      border-bottom: 1px solid #e0e0e0;
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+    }
+
+    .sages-sidebar-header input {
+      width: 100%;
+      padding: 6px 10px;
+      border: 1px solid #d1d5db;
+      border-radius: 4px;
+      font-size: 13px;
+    }
+
+    .sages-sidebar-header input:focus {
+      outline: none;
+      border-color: #2563eb;
+      box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.15);
+    }
+
+    .sages-list {
+      flex: 1;
+      overflow-y: auto;
+    }
+
+    .sage-list-item {
+      padding: 8px 12px;
+      border-bottom: 1px solid #f0f0f0;
+      cursor: pointer;
+      font-size: 13px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      transition: background 0.1s;
+    }
+
+    .sage-list-item:hover {
+      background: #f9fafb;
+    }
+
+    .sage-list-item.active {
+      background: #eff6ff;
+      border-left: 3px solid #2563eb;
+    }
+
+    .sage-list-item .sage-name-en {
+      font-weight: 500;
+      flex: 1;
+      min-width: 0;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+
+    .sage-list-item .sage-name-he {
+      font-family: "SBL Hebrew", "Ezra SIL", serif;
+      font-size: 14px;
+      direction: rtl;
+      color: #555;
+      flex-shrink: 0;
+    }
+
+    .sage-list-item .sage-era-badge {
+      font-size: 10px;
+      font-weight: 600;
+      padding: 1px 5px;
+      border-radius: 99px;
+      flex-shrink: 0;
+    }
+
+    .sage-era-tanna { background: #dbeafe; color: #1e40af; }
+    .sage-era-amorai { background: #fce7f3; color: #9d174d; }
+
+    .sage-list-item .sage-gen {
+      font-size: 10px;
+      color: #888;
+      flex-shrink: 0;
+    }
+
+    .sage-list-item .sage-dirty-dot {
+      width: 6px;
+      height: 6px;
+      border-radius: 50%;
+      background: #f59e0b;
+      flex-shrink: 0;
+    }
+
+    .sages-detail {
+      overflow-y: auto;
+      padding: 16px;
+    }
+
+    .sages-detail-empty {
+      padding: 48px;
+      text-align: center;
+      color: #999;
+      font-size: 15px;
+    }
+
+    .sage-detail-layout {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 16px;
+    }
+
+    .sage-card-preview {
+      background: #fff;
+      border-radius: 6px;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+      padding: 20px;
+    }
+
+    .sage-card-preview .sage-card-name-he {
+      font-family: "SBL Hebrew", "Ezra SIL", serif;
+      font-size: 24px;
+      font-weight: 700;
+      direction: rtl;
+    }
+
+    .sage-card-preview .sage-card-name-en {
+      font-size: 18px;
+      font-weight: 600;
+      color: #333;
+      margin-bottom: 8px;
+    }
+
+    .sage-card-preview .sage-card-dates {
+      font-size: 13px;
+      color: #666;
+      margin-bottom: 6px;
+    }
+
+    .sage-card-preview .sage-card-meta {
+      display: flex;
+      gap: 6px;
+      align-items: center;
+      margin-bottom: 10px;
+      flex-wrap: wrap;
+    }
+
+    .sage-card-preview .sage-card-bio {
+      font-size: 13px;
+      color: #555;
+      line-height: 1.5;
+      margin-bottom: 12px;
+    }
+
+    .sage-card-preview .sage-card-relationships {
+      border-top: 1px solid #f0f0f0;
+      padding-top: 10px;
+    }
+
+    .sage-card-preview .sage-card-relationships h4 {
+      font-size: 12px;
+      font-weight: 600;
+      color: #666;
+      margin-bottom: 6px;
+    }
+
+    .sage-card-rel-item {
+      font-size: 13px;
+      padding: 2px 0;
+    }
+
+    .sage-card-rel-item .rel-type {
+      font-weight: 600;
+      color: #555;
+      text-transform: capitalize;
+    }
+
+    .sage-card-rel-item .rel-target-link {
+      color: #2563eb;
+      cursor: pointer;
+      text-decoration: underline;
+    }
+
+    .sage-card-rel-item .rel-target-link:hover {
+      color: #1d4ed8;
+    }
+
+    .sage-edit-area {
+      background: #fff;
+      border-radius: 6px;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+      padding: 16px;
+    }
+
+    .sage-edit-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 12px;
+      padding-bottom: 8px;
+      border-bottom: 1px solid #e0e0e0;
+    }
+
+    .sage-edit-header h3 {
+      font-size: 14px;
+      font-weight: 600;
+    }
+
+    .sage-edit-actions {
+      display: flex;
+      gap: 6px;
+    }
+
+    .sage-rel-editor {
+      margin-top: 12px;
+      border-top: 1px solid #e0e0e0;
+      padding-top: 12px;
+    }
+
+    .sage-rel-editor h4 {
+      font-size: 12px;
+      font-weight: 600;
+      color: #666;
+      margin-bottom: 8px;
+    }
+
+    .sage-rel-row {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      padding: 4px 0;
+      font-size: 13px;
+    }
+
+    .sage-rel-row .rel-remove-btn {
+      border: none;
+      background: none;
+      color: #dc2626;
+      cursor: pointer;
+      font-size: 14px;
+      font-weight: 700;
+      padding: 0 4px;
+    }
+
+    .sage-rel-row .rel-remove-btn:hover {
+      background: #fef2f2;
+      border-radius: 3px;
+    }
+
+    .sage-rel-add-form {
+      display: flex;
+      gap: 6px;
+      margin-top: 8px;
+      align-items: center;
+    }
+
+    .sage-rel-add-form select,
+    .sage-rel-add-form input {
+      font-size: 12px;
+      padding: 4px 6px;
+      border: 1px solid #d1d5db;
+      border-radius: 4px;
+    }
+
+    .sage-rel-add-form input {
+      flex: 1;
+    }
+
+    .sage-rel-autocomplete {
+      position: relative;
+    }
+
+    .sage-rel-autocomplete input {
+      width: 100%;
+    }
+
+    .sage-rel-dropdown {
+      position: absolute;
+      top: 100%;
+      left: 0;
+      z-index: 200;
+      background: #fff;
+      border: 1px solid #d1d5db;
+      border-radius: 4px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      max-height: 180px;
+      overflow-y: auto;
+      width: 200px;
+      display: none;
+    }
+
+    .sage-rel-dropdown.open {
+      display: block;
+    }
+
+    .sage-rel-dropdown-item {
+      padding: 6px 10px;
+      cursor: pointer;
+      font-size: 12px;
+    }
+
+    .sage-rel-dropdown-item:hover {
+      background: #eff6ff;
+    }
+
+    .btn-danger {
+      background: #dc2626;
+      color: #fff;
+      border: none;
+      padding: 4px 14px;
+      border-radius: 4px;
+      font-size: 12px;
+      font-weight: 600;
+      cursor: pointer;
+    }
+
+    .btn-danger:hover {
+      background: #b91c1c;
+    }
+
+    /* --- Claude Research Panel --- */
+    .sage-research-panel {
+      margin-top: 16px;
+      border-top: 1px solid #e0e0e0;
+      padding-top: 12px;
+    }
+
+    .sage-research-panel .research-status {
+      font-size: 13px;
+      color: #666;
+      padding: 8px 0;
+    }
+
+    .sage-research-panel .research-status.error {
+      color: #dc2626;
+    }
+
+    .sage-research-spinner {
+      display: inline-block;
+      width: 14px;
+      height: 14px;
+      border: 2px solid #d1d5db;
+      border-top-color: #2563eb;
+      border-radius: 50%;
+      animation: spin 0.6s linear infinite;
+      vertical-align: middle;
+      margin-right: 6px;
+    }
+
+    @keyframes spin {
+      to { transform: rotate(360deg); }
+    }
+
+    .research-suggestion-card {
+      background: #f9fafb;
+      border: 1px solid #e5e7eb;
+      border-radius: 6px;
+      padding: 10px 12px;
+      margin-bottom: 8px;
+    }
+
+    .research-suggestion-card .suggestion-type {
+      font-size: 11px;
+      font-weight: 600;
+      color: #666;
+      text-transform: uppercase;
+      letter-spacing: 0.3px;
+      margin-bottom: 4px;
+    }
+
+    .research-suggestion-card .suggestion-content {
+      font-size: 13px;
+      color: #333;
+      margin-bottom: 8px;
+      line-height: 1.5;
+    }
+
+    .research-suggestion-card .suggestion-actions {
+      display: flex;
+      gap: 6px;
+    }
+
+    .research-suggestion-card .suggestion-actions button {
+      padding: 3px 10px;
+      border-radius: 4px;
+      font-size: 11px;
+      font-weight: 600;
+      cursor: pointer;
+      border: none;
+    }
+
+    .btn-accept {
+      background: #16a34a;
+      color: #fff;
+    }
+
+    .btn-accept:hover {
+      background: #15803d;
+    }
+
+    .btn-reject {
+      background: #e5e7eb;
+      color: #4b5563;
+    }
+
+    .btn-reject:hover {
+      background: #d1d5db;
+    }
+
+    /* --- Stats Dashboard --- */
+    .stats-container {
+      padding: 16px;
+    }
+
+    .stats-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+      gap: 12px;
+    }
+
+    .stat-card {
+      background: #fff;
+      border-radius: 6px;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+      padding: 16px;
+    }
+
+    .stat-card .stat-label {
+      font-size: 12px;
+      font-weight: 600;
+      color: #666;
+      text-transform: uppercase;
+      letter-spacing: 0.3px;
+      margin-bottom: 6px;
+    }
+
+    .stat-card .stat-value {
+      font-size: 28px;
+      font-weight: 700;
+      color: #333;
+      margin-bottom: 6px;
+    }
+
+    .stat-card .stat-sub {
+      font-size: 12px;
+      color: #888;
+      margin-bottom: 8px;
+    }
+
+    .stat-bar {
+      height: 8px;
+      background: #e5e7eb;
+      border-radius: 4px;
+      overflow: hidden;
+    }
+
+    .stat-bar-fill {
+      height: 100%;
+      border-radius: 4px;
+      transition: width 0.3s;
+    }
+
+    .stat-bar-fill.blue { background: #2563eb; }
+    .stat-bar-fill.green { background: #16a34a; }
+    .stat-bar-fill.amber { background: #d97706; }
+    .stat-bar-fill.purple { background: #9333ea; }
+
+    .stat-card .stat-breakdown {
+      margin-top: 8px;
+    }
+
+    .stat-card .stat-breakdown-item {
+      display: flex;
+      justify-content: space-between;
+      font-size: 12px;
+      padding: 2px 0;
+      color: #555;
+    }
+
+    .stat-card .stat-breakdown-item .breakdown-count {
+      font-weight: 600;
+    }
+
+    /* --- Toast --- */
+    .toast {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background: #1f2937;
+      color: #fff;
+      padding: 10px 18px;
+      border-radius: 6px;
+      font-size: 13px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+      z-index: 1000;
+      transition: opacity 0.3s, transform 0.3s;
+      opacity: 0;
+      transform: translateY(10px);
+    }
+
+    .toast.visible {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  </style>
+</head>
+<body>
+  <div class="app-header">
+    <h1>Jastrow Data Admin</h1>
+    <span class="status" id="load-status">Loading...</span>
+  </div>
+
+  <nav class="tab-bar" role="tablist">
+    <button class="tab-button active" role="tab" aria-selected="true" data-tab="entry-editor">Entry Editor</button>
+    <button class="tab-button" role="tab" aria-selected="false" data-tab="page-mapper">Page Mapper</button>
+    <button class="tab-button" role="tab" aria-selected="false" data-tab="issues">Issues</button>
+    <button class="tab-button" role="tab" aria-selected="false" data-tab="abbreviations">Abbreviations</button>
+    <button class="tab-button" role="tab" aria-selected="false" data-tab="sages">Sages</button>
+    <button class="tab-button" role="tab" aria-selected="false" data-tab="stats">Stats</button>
+  </nav>
+
+  <div class="nav-bar" id="nav-bar">
+    <button id="nav-prev" title="Previous entry">&larr; Prev</button>
+    <button id="nav-next" title="Next entry">Next &rarr;</button>
+    <input type="text" class="nav-rid-input" id="nav-rid" placeholder="RID" title="Jump to RID (press Enter)">
+    <div class="nav-hw-wrapper">
+      <input type="text" class="nav-hw-input" id="nav-hw-search" placeholder="Search headword">
+      <div class="nav-hw-dropdown" id="nav-hw-dropdown"></div>
+    </div>
+    <span class="nav-position" id="nav-position"></span>
+    <span class="nav-issue-badge" id="nav-issue-badge" title="Entry has annotations"></span>
+  </div>
+
+  <div id="tab-entry-editor" class="tab-content active" role="tabpanel">
+    <div class="entry-editor-layout">
+      <div class="entry-preview-panel" id="entry-preview">
+        <div class="loading-msg">Loading entries...</div>
+      </div>
+      <div class="divider-handle" id="divider-handle"></div>
+      <div class="field-editor-panel" id="field-editor">
+        <div class="loading-msg">Loading editor...</div>
+      </div>
+    </div>
+  </div>
+
+  <div id="tab-page-mapper" class="tab-content" role="tabpanel">
+    <div class="mapper-container">
+      <div class="mapper-header" id="mapper-header"></div>
+      <div class="mapper-word-list" id="mapper-word-list"></div>
+      <div class="mapper-controls" id="mapper-controls"></div>
+    </div>
+    <dialog id="mapper-letter-dialog" class="mapper-dialog">
+      <h3>Letter Boundary</h3>
+      <p id="mapper-letter-msg"></p>
+      <label>Starting page for new letter:
+        <input type="number" id="mapper-letter-page" min="1">
+      </label>
+      <div class="mapper-dialog-actions">
+        <button id="mapper-letter-cancel" class="btn-secondary">Cancel</button>
+        <button id="mapper-letter-confirm" class="btn-primary">Continue</button>
+      </div>
+    </dialog>
+  </div>
+
+  <div id="tab-issues" class="tab-content" role="tabpanel">
+    <div class="issues-container">
+      <div class="issues-filter-bar" id="issues-filter-bar"></div>
+      <div class="issues-actions-bar" id="issues-actions-bar"></div>
+      <div class="issues-table-wrapper">
+        <table class="issues-table" id="issues-table"></table>
+      </div>
+    </div>
+  </div>
+
+  <div id="tab-abbreviations" class="tab-content" role="tabpanel">
+    <div class="abbr-container">
+      <div class="abbr-sub-tabs">
+        <button class="abbr-sub-tab active" data-abbr-tab="english">English</button>
+        <button class="abbr-sub-tab" data-abbr-tab="hebrew">Hebrew</button>
+      </div>
+      <div id="abbr-english" class="abbr-sub-content active">
+        <div class="abbr-toolbar">
+          <input type="text" id="abbr-search" class="abbr-search" placeholder="Search abbreviations...">
+          <button id="abbr-add-btn" class="btn-primary">Add</button>
+          <button id="abbr-save-en-btn" class="btn-primary">Save</button>
+        </div>
+        <div class="abbr-list" id="abbr-en-list"></div>
+      </div>
+      <div id="abbr-hebrew" class="abbr-sub-content">
+        <div class="abbr-toolbar">
+          <button id="abbr-save-he-btn" class="btn-primary">Save</button>
+        </div>
+        <textarea id="abbr-he-textarea" class="abbr-he-textarea"></textarea>
+      </div>
+    </div>
+  </div>
+
+  <div id="tab-sages" class="tab-content" role="tabpanel">
+    <div class="sages-layout">
+      <div class="sages-sidebar">
+        <div class="sages-sidebar-header">
+          <input type="text" id="sages-search" placeholder="Search sages...">
+          <button id="sages-add-btn" class="btn-primary" style="width:100%">Add Sage</button>
+        </div>
+        <div class="sages-list" id="sages-list"></div>
+      </div>
+      <div class="sages-detail" id="sages-detail">
+        <div class="sages-detail-empty">Select a sage from the list</div>
+      </div>
+    </div>
+  </div>
+
+  <div id="tab-stats" class="tab-content" role="tabpanel">
+    <div class="stats-container">
+      <div class="stats-grid" id="stats-grid"></div>
+    </div>
+  </div>
+
+  <!-- Page Scan Dialog -->
+  <dialog id="page-scan-dialog" class="page-scan-dialog">
+    <div class="page-scan-header">
+      <h3 id="page-scan-title">Page Scan</h3>
+      <button class="page-scan-close" id="page-scan-close">&times;</button>
+    </div>
+    <div class="page-scan-body">
+      <img id="page-scan-img" alt="Page scan">
+    </div>
+    <div class="page-scan-footer">
+      <button id="page-scan-prev">&larr; Prev</button>
+      <span id="page-scan-page-label"></span>
+      <button id="page-scan-next">Next &rarr;</button>
+      <a id="page-scan-archive-link" href="#" target="_blank" rel="noopener noreferrer">Open in Archive.org &nearr;</a>
+    </div>
+  </dialog>
+
+  <!-- Dictionary Preview Dialog -->
+  <dialog id="dict-preview-dialog" class="page-scan-dialog">
+    <div class="page-scan-header">
+      <h3 id="dict-preview-title">Dictionary Entry</h3>
+      <button class="page-scan-close" id="dict-preview-close">&times;</button>
+    </div>
+    <div class="page-scan-body" style="min-height: 200px;">
+      <iframe id="dict-preview-frame" style="width: 100%; height: 100%; min-height: 400px; border: none; background: #fff;"></iframe>
+    </div>
+  </dialog>
+
+  <!-- Formatting Reference Dialog -->
+  <dialog id="format-ref-dialog" class="format-ref-dialog">
+    <div class="format-ref-header">
+      <h3>Entry Formatting Reference</h3>
+      <button class="page-scan-close" id="format-ref-close">&times;</button>
+    </div>
+    <div class="format-ref-body">
+      <h4>Text Formatting</h4>
+      <table>
+        <tr><th>Tag</th><th>Usage</th><th>Renders As</th></tr>
+        <tr><td><code>&lt;i&gt;text&lt;/i&gt;</code></td><td>Italic text (translations, Latin terms)</td><td class="example-render"><i>text</i></td></tr>
+        <tr><td><code>&lt;b&gt;text&lt;/b&gt;</code></td><td>Bold text (emphasis)</td><td class="example-render"><b>text</b></td></tr>
+      </table>
+
+      <h4>Hebrew / RTL Text</h4>
+      <table>
+        <tr><th>Tag</th><th>Usage</th></tr>
+        <tr><td><code>&lt;span dir="rtl"&gt;Hebrew&lt;/span&gt;</code></td><td>Inline Hebrew text without a link</td></tr>
+      </table>
+
+      <h4>Abbreviations</h4>
+      <table>
+        <tr><th>Tag</th><th>Usage</th></tr>
+        <tr><td><code>&lt;abbr title="expansion"&gt;abbr.&lt;/abbr&gt;</code></td><td>Abbreviation with tooltip showing full form</td></tr>
+      </table>
+
+      <h4>Cross-References (Internal Links)</h4>
+      <table>
+        <tr><th>Tag</th><th>Usage</th></tr>
+        <tr><td><code>&lt;a href="#rid:XXXXX" class="word-link"&gt;word&lt;/a&gt;</code></td><td>Link to another dictionary entry by RID</td></tr>
+      </table>
+
+      <h4>Textual References (External Links)</h4>
+      <table>
+        <tr><th>Tag</th><th>Usage</th></tr>
+        <tr><td><code>&lt;a href="https://www.sefaria.org/..." class="ref-link"&gt;Ref&lt;/a&gt;</code></td><td>Link to a Sefaria text reference</td></tr>
+      </table>
+
+      <h4>Combined Example</h4>
+      <table>
+        <tr><td colspan="2"><code>&lt;i&gt;Aleph&lt;/i&gt;, interchanging with &lt;a href="#rid:E00027" class="word-link"&gt;הבב&lt;/a&gt;; &lt;abbr title="compare"&gt;cmp.&lt;/abbr&gt; &lt;a href="https://www.sefaria.org/Berakhot.2a" class="ref-link"&gt;Ber. 2a&lt;/a&gt;</code></td></tr>
+      </table>
+    </div>
+  </dialog>
+
+  <script>
+    // --- State ---
+    const state = {
+      entries: [],
+      splitIndex: 0,
+      currentIndex: 0,
+      annotations: {},
+      abbreviations: {},
+      sages: [],
+      mapper: null,
+      dirty: false,
+    };
+
+    // --- Constants ---
+    const LANGUAGE_BADGES = {
+      bh: { badge: "Heb.", tooltip: "Biblical Hebrew" },
+      he: { badge: "Heb.", tooltip: "Hebrew" },
+      ar: { badge: "Aram.", tooltip: "Aramaic" },
+      "ar+he": { badge: "Aram.+Heb.", tooltip: "Aramaic + Hebrew" },
+      "ar+bh": { badge: "Aram.+BH", tooltip: "Aramaic + Biblical Hebrew" },
+      "he+ar": { badge: "Heb.+Aram.", tooltip: "Hebrew + Aramaic" },
+      ab: { badge: "Arabic", tooltip: "Arabic" },
+    };
+
+    const POS_BADGES = {
+      n: { badge: "Noun", tooltip: "Noun" },
+      v: { badge: "Verb", tooltip: "Verb" },
+      a: { badge: "Adj.", tooltip: "Adjective" },
+      av: { badge: "Adv.", tooltip: "Adverb" },
+      pt: { badge: "Part.", tooltip: "Participle" },
+      ij: { badge: "Interj.", tooltip: "Interjection" },
+      cj: { badge: "Conj.", tooltip: "Conjunction" },
+    };
+
+    const GENDER_BADGES = {
+      m: { badge: "m", tooltip: "Masculine" },
+      f: { badge: "f", tooltip: "Feminine" },
+    };
+
+    const REF_CATEGORIES = {
+      t: "Talmud",
+      b: "Bible",
+      mi: "Midrash",
+      j: "Jastrow",
+      o: "Other",
+    };
+
+    // --- Utilities ---
+    function trustedHTML(html) {
+      const template = document.createElement("template");
+      template.innerHTML = html;
+      return template.content;
+    }
+
+    // --- Tab Navigation ---
+    const tabBar = document.querySelector(".tab-bar");
+    tabBar.addEventListener("click", (e) => {
+      const button = e.target.closest(".tab-button");
+      if (!button) return;
+
+      const tabId = button.dataset.tab;
+
+      // Update buttons
+      for (const btn of tabBar.querySelectorAll(".tab-button")) {
+        const isActive = btn === button;
+        btn.classList.toggle("active", isActive);
+        btn.setAttribute("aria-selected", isActive ? "true" : "false");
+      }
+
+      // Update panels
+      for (const panel of document.querySelectorAll(".tab-content")) {
+        panel.classList.toggle("active", panel.id === `tab-${tabId}`);
+      }
+
+      // Show nav bar only on entry editor tab
+      document.getElementById('nav-bar').classList.toggle('hidden', tabId !== 'entry-editor');
+
+      // Refresh tab content when switching
+      if (tabId === 'issues') {
+        renderIssuesTab();
+      } else if (tabId === 'page-mapper') {
+        initMapper();
+      } else if (tabId === 'abbreviations') {
+        renderAbbrEnglish();
+      } else if (tabId === 'sages') {
+        renderSagesList();
+      } else if (tabId === 'stats') {
+        renderStatsTab();
+      }
+    });
+
+    // --- Data Loading ---
+    async function loadData() {
+      const statusEl = document.getElementById("load-status");
+      try {
+        const [entriesRes, annotationsRes] = await Promise.all([
+          fetch("/api/entries"),
+          fetch("/api/annotations"),
+        ]);
+
+        if (!entriesRes.ok) throw new Error(`Entries API returned ${entriesRes.status}`);
+
+        const entriesData = await entriesRes.json();
+        state.entries = entriesData.entries;
+        state.splitIndex = entriesData.splitIndex;
+
+        if (annotationsRes.ok) {
+          state.annotations = await annotationsRes.json();
+        }
+
+        const abbrRes = await fetch('/api/abbreviations');
+        if (abbrRes.ok) {
+          state.abbreviations = await abbrRes.json();
+        }
+
+        const sagesRes = await fetch('/api/sages');
+        if (sagesRes.ok) {
+          const sagesData = await sagesRes.json();
+          state.sages = sagesData.sages || [];
+        }
+
+        statusEl.textContent = `${state.entries.length} entries loaded`;
+        renderCurrentEntry();
+        if (state.entries.length > 0) {
+          loadEntryIntoEditor(state.entries[state.currentIndex]);
+        }
+        updateNavigation();
+
+        // Auto-scan for issues on load (runs in background)
+        runAutoScan().then(() => renderIssuesTab());
+      } catch (err) {
+        statusEl.textContent = "Error loading data";
+        document.getElementById("entry-preview").innerHTML =
+          `<div class="error-msg">Failed to load data: ${err.message}</div>`;
+      }
+    }
+
+    // --- Entry Rendering ---
+    function renderCurrentEntry() {
+      const panel = document.getElementById("entry-preview");
+      panel.innerHTML = "";
+
+      if (state.entries.length === 0) {
+        panel.innerHTML = '<div class="loading-msg">No entries loaded</div>';
+        return;
+      }
+
+      const entry = state.entries[state.currentIndex];
+      if (!entry) {
+        panel.innerHTML = '<div class="error-msg">Entry not found at current index</div>';
+        return;
+      }
+
+      // Header: headword + RID
+      const header = document.createElement("div");
+      header.className = "entry-header";
+
+      const headword = document.createElement("div");
+      headword.className = "entry-headword";
+      headword.setAttribute("dir", "rtl");
+      headword.textContent = entry.hw || entry.id || "";
+      header.appendChild(headword);
+
+      const rid = document.createElement("div");
+      rid.className = "entry-rid";
+      rid.textContent = entry.id || "";
+      header.appendChild(rid);
+
+      // Links row: dictionary + page scan
+      if (entry.id || entry.p) {
+        const linksRow = document.createElement("div");
+        linksRow.className = "entry-header-links";
+
+        if (entry.id) {
+          const dictLink = document.createElement("a");
+          dictLink.href = `https://jastrow.app/#rid:${entry.id}`;
+          dictLink.target = "_blank";
+          dictLink.textContent = "View in dictionary \u2197";
+          linksRow.appendChild(dictLink);
+        }
+
+        if (entry.p) {
+          const scanBtn = document.createElement("button");
+          scanBtn.textContent = "View printed page \u2197";
+          scanBtn.addEventListener("click", () => showPageScanDialog(entry.p));
+          linksRow.appendChild(scanBtn);
+        }
+
+        header.appendChild(linksRow);
+      }
+
+      panel.appendChild(header);
+
+      // Meta: badges + page info
+      const meta = document.createElement("div");
+      meta.className = "entry-meta";
+
+      const grammar = entry.g || {};
+
+      if (grammar.l && LANGUAGE_BADGES[grammar.l]) {
+        const info = LANGUAGE_BADGES[grammar.l];
+        meta.appendChild(makeBadge(info.badge, "brand", info.tooltip));
+      }
+
+      if (grammar.ps && POS_BADGES[grammar.ps]) {
+        const info = POS_BADGES[grammar.ps];
+        meta.appendChild(makeBadge(info.badge, "neutral", info.tooltip));
+      }
+
+      if (grammar.gn && GENDER_BADGES[grammar.gn]) {
+        const info = GENDER_BADGES[grammar.gn];
+        meta.appendChild(makeBadge(info.badge, "success", info.tooltip));
+      }
+
+      // Page / column
+      const pageInfo = document.createElement("span");
+      pageInfo.className = "entry-page-info";
+      const parts = [];
+      if (entry.p != null) parts.push(`p. ${entry.p}`);
+      if (entry.col) parts.push(`col. ${entry.col}`);
+      pageInfo.textContent = parts.join(", ");
+      meta.appendChild(pageInfo);
+
+      panel.appendChild(meta);
+
+      // Content: senses
+      const content = document.createElement("div");
+      content.className = "entry-content";
+
+      if (entry.c && entry.c.s) {
+        const languageInfo = entry.li || "";
+        const sensesFrag = formatSenses(entry.c.s, 0, languageInfo);
+        if (sensesFrag.hasChildNodes()) {
+          content.appendChild(sensesFrag);
+        } else {
+          content.textContent = "No definition available";
+        }
+      } else {
+        content.textContent = "No content available";
+      }
+
+      panel.appendChild(content);
+
+      // References
+      if (entry.rf) {
+        const refsDiv = renderReferences(entry.rf);
+        if (refsDiv) {
+          panel.appendChild(refsDiv);
+        }
+      }
+    }
+
+    function makeBadge(text, variant, tooltip) {
+      const span = document.createElement("span");
+      span.className = `badge badge-${variant}`;
+      span.textContent = text;
+      if (tooltip) span.title = tooltip;
+      return span;
+    }
+
+    function formatSenses(senses, level, languageInfo) {
+      const frag = document.createDocumentFragment();
+      if (!senses || senses.length === 0) return frag;
+
+      const firstSense = senses[0];
+      const hasPrimarySense = firstSense.d && !firstSense.n && !firstSense.g;
+      const hasChildren = senses.length > 1;
+
+      if (hasPrimarySense && hasChildren) {
+        const senseGroup = document.createElement("div");
+        senseGroup.className = "sense-group";
+
+        const primaryDiv = document.createElement("div");
+        primaryDiv.className = "sense sense-primary";
+        if (languageInfo) {
+          primaryDiv.appendChild(
+            trustedHTML(`<span class="language-info">${languageInfo}</span>`)
+          );
+        }
+        primaryDiv.appendChild(trustedHTML(firstSense.d));
+        senseGroup.appendChild(primaryDiv);
+
+        const childSenses = senses.slice(1);
+        const numberedSenses = childSenses.filter((s) => s.d && s.n);
+        const grammarSections = childSenses.filter((s) => s.g);
+
+        if (numberedSenses.length > 0) {
+          const childrenDiv = document.createElement("div");
+          childrenDiv.className = "sense-children";
+          childrenDiv.appendChild(formatSenses(numberedSenses, level + 1, ""));
+          senseGroup.appendChild(childrenDiv);
+        }
+
+        frag.appendChild(senseGroup);
+
+        if (grammarSections.length > 0) {
+          frag.appendChild(formatSenses(grammarSections, level, ""));
+        }
+      } else {
+        let isFirstSense = true;
+
+        if (languageInfo && senses[0]?.n) {
+          const langDiv = document.createElement("div");
+          langDiv.className = "sense";
+          langDiv.appendChild(
+            trustedHTML(`<span class="language-info">${languageInfo}</span>`)
+          );
+          frag.appendChild(langDiv);
+          languageInfo = "";
+          isFirstSense = false;
+        }
+
+        for (const sense of senses) {
+          if (sense.g) {
+            const grammarSection = document.createElement("div");
+            grammarSection.className = "grammar-section";
+
+            const grammarHeader = document.createElement("div");
+            grammarHeader.className = "grammar-header";
+
+            const stemSpan = document.createElement("span");
+            stemSpan.className = "verbal-stem";
+            stemSpan.textContent = (sense.g.vs || "") + " ";
+            grammarHeader.appendChild(stemSpan);
+
+            const binyanForms = sense.g.bf || [];
+            if (binyanForms.length > 0) {
+              const formsSpan = document.createElement("span");
+              formsSpan.className = "binyan-forms";
+              formsSpan.setAttribute("dir", "rtl");
+              formsSpan.textContent = binyanForms.join(", ");
+              grammarHeader.appendChild(formsSpan);
+            }
+            grammarSection.appendChild(grammarHeader);
+
+            if (sense.s && sense.s.length > 0) {
+              const grammarSensesDiv = document.createElement("div");
+              grammarSensesDiv.className = "grammar-senses";
+              grammarSensesDiv.appendChild(
+                formatSenses(
+                  sense.s,
+                  level + 1,
+                  isFirstSense ? languageInfo : ""
+                )
+              );
+              grammarSection.appendChild(grammarSensesDiv);
+              isFirstSense = false;
+              languageInfo = "";
+            }
+
+            frag.appendChild(grammarSection);
+          } else if (sense.d) {
+            if (sense.n) {
+              const cleanNumber = sense.n.replace(/^[—-]\s*/, "");
+              const senseDiv = document.createElement("div");
+              senseDiv.className = "sense sense-numbered";
+
+              const numSpan = document.createElement("span");
+              numSpan.className = "sense-number";
+              numSpan.textContent = cleanNumber + " ";
+              senseDiv.appendChild(numSpan);
+
+              const defSpan = document.createElement("span");
+              defSpan.className = "sense-definition";
+              if (isFirstSense && languageInfo) {
+                defSpan.appendChild(
+                  trustedHTML(`<span class="language-info">${languageInfo}</span>`)
+                );
+                isFirstSense = false;
+                languageInfo = "";
+              }
+              defSpan.appendChild(trustedHTML(sense.d));
+              senseDiv.appendChild(defSpan);
+
+              frag.appendChild(senseDiv);
+            } else {
+              const senseDiv = document.createElement("div");
+              senseDiv.className = "sense";
+              if (isFirstSense && languageInfo) {
+                senseDiv.appendChild(
+                  trustedHTML(`<span class="language-info">${languageInfo}</span>`)
+                );
+                isFirstSense = false;
+                languageInfo = "";
+              }
+              senseDiv.appendChild(trustedHTML(sense.d));
+              frag.appendChild(senseDiv);
+            }
+          }
+        }
+      }
+
+      return frag;
+    }
+
+    function renderReferences(rf) {
+      const categoryOrder = ["t", "b", "mi", "j", "o"];
+      const counts = [];
+
+      for (const cat of categoryOrder) {
+        if (rf[cat] && rf[cat].length > 0) {
+          counts.push({ cat, count: rf[cat].length });
+        }
+      }
+
+      if (counts.length === 0) return null;
+
+      const div = document.createElement("div");
+      div.className = "entry-refs";
+
+      const label = document.createElement("span");
+      label.className = "entry-refs-label";
+      label.textContent = "Refs:";
+      div.appendChild(label);
+
+      for (const { cat, count } of counts) {
+        const badge = document.createElement("span");
+        badge.className = `badge badge-ref badge-ref-${cat}`;
+        badge.textContent = `${REF_CATEGORIES[cat]} (${count})`;
+        div.appendChild(badge);
+      }
+
+      return div;
+    }
+
+    // --- Page Scan Dialog ---
+    const ARCHIVE_IMAGE_OFFSET = 15;
+    const ARCHIVE_IIIF_BASE = 'https://iiif.archive.org/image/iiif/2';
+    const ARCHIVE_IIIF_PATH = 'Jastrow%2fJastrow_jp2.zip%2fJastrow_jp2%2fJastrow_';
+    const ARCHIVE_ID = 'Jastrow';
+
+    function showPageScanDialog(page) {
+      const dialog = document.getElementById('page-scan-dialog');
+      const img = document.getElementById('page-scan-img');
+      const title = document.getElementById('page-scan-title');
+      const pageLabel = document.getElementById('page-scan-page-label');
+      const prevBtn = document.getElementById('page-scan-prev');
+      const nextBtn = document.getElementById('page-scan-next');
+      const archiveLink = document.getElementById('page-scan-archive-link');
+
+      const imageIndex = page + ARCHIVE_IMAGE_OFFSET;
+      const imageNumber = String(imageIndex).padStart(4, '0');
+      const imageUrl = `${ARCHIVE_IIIF_BASE}/${ARCHIVE_IIIF_PATH}${imageNumber}.jp2/full/pct:50/0/default.jpg`;
+
+      title.textContent = `Page ${page} — Print Edition`;
+      pageLabel.textContent = `Page ${page}`;
+      img.src = imageUrl;
+      archiveLink.href = `https://archive.org/details/${ARCHIVE_ID}/page/${page}/mode/1up`;
+
+      prevBtn.disabled = page <= 1;
+      prevBtn.onclick = () => { if (page > 1) showPageScanDialog(page - 1); };
+
+      nextBtn.disabled = page >= 1704;
+      nextBtn.onclick = () => { if (page < 1704) showPageScanDialog(page + 1); };
+
+      dialog.showModal();
+    }
+
+    document.getElementById('page-scan-close').addEventListener('click', () => {
+      document.getElementById('page-scan-dialog').close();
+    });
+
+    document.getElementById('page-scan-dialog').addEventListener('click', (e) => {
+      if (e.target === e.currentTarget) e.currentTarget.close();
+    });
+
+    // --- Dictionary Preview Dialog ---
+    document.getElementById('dict-preview-close').addEventListener('click', () => {
+      document.getElementById('dict-preview-dialog').close();
+    });
+
+    document.getElementById('dict-preview-dialog').addEventListener('click', (e) => {
+      if (e.target === e.currentTarget) e.currentTarget.close();
+    });
+
+    // --- Formatting Reference Dialog ---
+    document.getElementById('format-ref-close').addEventListener('click', () => {
+      document.getElementById('format-ref-dialog').close();
+    });
+
+    document.getElementById('format-ref-dialog').addEventListener('click', (e) => {
+      if (e.target === e.currentTarget) e.currentTarget.close();
+    });
+
+    // --- Entry Editor: Dirty Tracking & Save/Revert ---
+    let entrySnapshot = null;
+    let previewDebounceTimer = null;
+
+    function loadEntryIntoEditor(entry) {
+      entrySnapshot = JSON.parse(JSON.stringify(entry));
+      renderFieldEditor(entry);
+      state.dirty = false;
+      updateSaveRevertButtons();
+    }
+
+    function renderFieldEditor(entry) {
+      const panel = document.getElementById("field-editor");
+      panel.innerHTML = "";
+
+      // Header with save/revert
+      const header = document.createElement("div");
+      header.className = "field-editor-header";
+      header.innerHTML = `
+        <h2>Edit Entry</h2>
+        <div class="field-editor-actions">
+          <button class="btn-secondary" id="btn-format-help" title="Formatting reference">Tags ?</button>
+          <button class="btn-revert" id="btn-revert" disabled>Revert</button>
+          <button class="btn-save" id="btn-save" disabled>Save</button>
+        </div>
+      `;
+      panel.appendChild(header);
+
+      // Annotations section — at top so issues are immediately visible
+      panel.appendChild(renderAnnotationsSection(entry.id));
+
+      const form = document.createElement("div");
+      form.id = "editor-form";
+
+      // hw
+      form.appendChild(makeTextField("hw", "Headword", entry.hw || "", "rtl"));
+
+      // id (read-only)
+      const idGroup = document.createElement("div");
+      idGroup.className = "field-group";
+      idGroup.innerHTML = `<label>RID</label><div class="readonly-value">${entry.id || ""}</div>`;
+      form.appendChild(idGroup);
+
+      // Row: nh + ph
+      const navRow = document.createElement("div");
+      navRow.className = "field-row";
+      navRow.appendChild(makeTextField("nh", "Next Headword", entry.nh || "", "rtl"));
+      navRow.appendChild(makeTextField("ph", "Prev Headword", entry.ph || "", "rtl"));
+      form.appendChild(navRow);
+
+      // Row: p + col
+      const pageRow = document.createElement("div");
+      pageRow.className = "field-row";
+      pageRow.appendChild(makeNumberField("p", "Page", entry.p));
+      pageRow.appendChild(makeSelectField("col", "Column", ["a", "b", "?"], entry.col || ""));
+      form.appendChild(pageRow);
+
+      // Grammar fieldset
+      const grammar = entry.g || {};
+      const gramFieldset = document.createElement("fieldset");
+      gramFieldset.innerHTML = "<legend>Grammar</legend>";
+
+      const gramRow = document.createElement("div");
+      gramRow.className = "field-row";
+      gramRow.appendChild(makeSelectField("g.l", "Language",
+        ["(none)", "bh", "he", "ar", "ar+he", "ar+bh", "he+ar", "ab"],
+        grammar.l || "(none)"));
+      gramRow.appendChild(makeSelectField("g.ps", "Part of Speech",
+        ["(none)", "n", "v", "a", "av", "pt", "ij", "cj"],
+        grammar.ps || "(none)"));
+      gramRow.appendChild(makeSelectField("g.gn", "Gender",
+        ["(none)", "m", "f"],
+        grammar.gn || "(none)"));
+      gramFieldset.appendChild(gramRow);
+      form.appendChild(gramFieldset);
+
+      // li
+      form.appendChild(makeTextareaField("li", "Language Info", entry.li || "", 3));
+
+      // Senses
+      const senses = (entry.c && entry.c.s) ? entry.c.s : [];
+      {
+        const sensesFieldset = document.createElement("fieldset");
+        sensesFieldset.innerHTML = "<legend>Senses</legend>";
+
+        if (senses.length > 0) {
+          const flatSenses = flattenSenses(senses);
+          for (let fi = 0; fi < flatSenses.length; fi++) {
+            const { label, path, value, indented } = flatSenses[fi];
+            const group = document.createElement("div");
+            group.className = "field-group sense-field-group";
+            const labelRow = document.createElement("div");
+            labelRow.className = "sense-label-row";
+            const lbl = document.createElement("span");
+            lbl.className = "sense-editor-label" + (indented ? " indented" : "");
+            lbl.textContent = label;
+            labelRow.appendChild(lbl);
+            // Delete button for top-level senses only (path like "0.d", not nested)
+            const topIdx = parseInt(path.split('.')[0]);
+            if (!indented && !isNaN(topIdx)) {
+              const delBtn = document.createElement("button");
+              delBtn.type = "button";
+              delBtn.className = "sense-delete-btn";
+              delBtn.textContent = "\u00D7";
+              delBtn.title = "Delete this sense";
+              delBtn.addEventListener("click", () => {
+                entry.c.s.splice(topIdx, 1);
+                state.entries[state.currentIndex] = entry;
+                state.dirty = true;
+                renderFieldEditor(entry);
+                renderCurrentEntry();
+                updateSaveRevertButtons();
+              });
+              labelRow.appendChild(delBtn);
+            }
+            group.appendChild(labelRow);
+            const ta = document.createElement("textarea");
+            ta.dataset.sensePath = path;
+            ta.rows = 4;
+            ta.className = "textarea-lg";
+            ta.value = value;
+            ta.addEventListener("input", onFieldInput);
+            group.appendChild(ta);
+            sensesFieldset.appendChild(group);
+          }
+        }
+
+        // Add sense button
+        const addSenseBtn = document.createElement("button");
+        addSenseBtn.type = "button";
+        addSenseBtn.className = "btn-add-sense";
+        addSenseBtn.textContent = "+ Add Sense";
+        addSenseBtn.addEventListener("click", () => {
+          if (!entry.c) entry.c = { s: [] };
+          if (!entry.c.s) entry.c.s = [];
+          const num = entry.c.s.filter(s => s.d && !s.g).length + 1;
+          entry.c.s.push({ d: "", n: num > 1 ? `${num}) ` : undefined });
+          state.entries[state.currentIndex] = entry;
+          state.dirty = true;
+          renderFieldEditor(entry);
+          renderCurrentEntry();
+          updateSaveRevertButtons();
+        });
+        sensesFieldset.appendChild(addSenseBtn);
+
+        form.appendChild(sensesFieldset);
+      }
+
+      // References
+      const rf = entry.rf || {};
+      const refFieldset = document.createElement("fieldset");
+      refFieldset.innerHTML = "<legend>References</legend>";
+      const refLabels = { t: "Talmud Refs", b: "Bible Refs", mi: "Midrash Refs", j: "Jastrow Refs", o: "Other Refs" };
+      for (const cat of ["t", "b", "mi", "j", "o"]) {
+        const vals = rf[cat] || [];
+        refFieldset.appendChild(makeTextareaField(`rf.${cat}`, refLabels[cat], vals.join(", "), 3));
+      }
+      form.appendChild(refFieldset);
+
+      panel.appendChild(form);
+
+      // Wire up save/revert/help buttons
+      document.getElementById("btn-save").addEventListener("click", saveEntry);
+      document.getElementById("btn-revert").addEventListener("click", revertEntry);
+      document.getElementById("btn-format-help").addEventListener("click", () => {
+        document.getElementById("format-ref-dialog").showModal();
+      });
+    }
+
+    function makeTextField(name, label, value, dir) {
+      const group = document.createElement("div");
+      group.className = "field-group";
+      const lbl = document.createElement("label");
+      lbl.textContent = label;
+      group.appendChild(lbl);
+      const input = document.createElement("input");
+      input.type = "text";
+      input.name = name;
+      input.value = value;
+      if (dir) input.dir = dir;
+      input.addEventListener("input", onFieldInput);
+      group.appendChild(input);
+      return group;
+    }
+
+    function makeNumberField(name, label, value) {
+      const group = document.createElement("div");
+      group.className = "field-group";
+      const lbl = document.createElement("label");
+      lbl.textContent = label;
+      group.appendChild(lbl);
+      const input = document.createElement("input");
+      input.type = "number";
+      input.name = name;
+      input.value = value != null ? value : "";
+      input.addEventListener("input", onFieldInput);
+      group.appendChild(input);
+      return group;
+    }
+
+    function makeSelectField(name, label, options, selected) {
+      const group = document.createElement("div");
+      group.className = "field-group";
+      const lbl = document.createElement("label");
+      lbl.textContent = label;
+      group.appendChild(lbl);
+      const select = document.createElement("select");
+      select.name = name;
+      for (const opt of options) {
+        const option = document.createElement("option");
+        option.value = opt;
+        option.textContent = opt;
+        if (opt === selected) option.selected = true;
+        select.appendChild(option);
+      }
+      select.addEventListener("change", onFieldInput);
+      group.appendChild(select);
+      return group;
+    }
+
+    function makeTextareaField(name, label, value, rows) {
+      const group = document.createElement("div");
+      group.className = "field-group";
+      const lbl = document.createElement("label");
+      lbl.textContent = label;
+      group.appendChild(lbl);
+      const ta = document.createElement("textarea");
+      ta.name = name;
+      ta.rows = rows || 3;
+      ta.value = value;
+      ta.addEventListener("input", onFieldInput);
+      group.appendChild(ta);
+      return group;
+    }
+
+    function flattenSenses(senses, prefix, level) {
+      prefix = prefix || "";
+      level = level || 0;
+      const result = [];
+      let idx = 1;
+      for (let i = 0; i < senses.length; i++) {
+        const s = senses[i];
+        const path = prefix ? `${prefix}.${i}` : `${i}`;
+        if (s.g) {
+          // Grammar section: label with verbal stem
+          const label = (s.g.vs || "Grammar") + (s.g.bf ? " (" + s.g.bf.join(", ") + ")" : "");
+          if (s.s && s.s.length > 0) {
+            const sub = flattenSenses(s.s, `${path}.s`, level + 1);
+            for (const item of sub) {
+              result.push({
+                label: `${label} > ${item.label}`,
+                path: item.path,
+                value: item.value,
+                indented: true,
+              });
+            }
+          }
+        } else if (s.d != null) {
+          const numLabel = s.n ? s.n.replace(/\)\s*$/, ")").trim() : "";
+          result.push({
+            label: numLabel ? `Sense ${numLabel}` : `Sense ${idx}`,
+            path: `${path}.d`,
+            value: s.d || "",
+            indented: level > 0,
+          });
+          idx++;
+        }
+      }
+      return result;
+    }
+
+    function onFieldInput() {
+      state.dirty = true;
+      updateSaveRevertButtons();
+
+      // Debounced live preview
+      clearTimeout(previewDebounceTimer);
+      previewDebounceTimer = setTimeout(() => {
+        const updated = collectEntryFromForm();
+        state.entries[state.currentIndex] = updated;
+        renderCurrentEntry();
+      }, 150);
+    }
+
+    function updateSaveRevertButtons() {
+      const saveBtn = document.getElementById("btn-save");
+      const revertBtn = document.getElementById("btn-revert");
+      if (saveBtn) saveBtn.disabled = !state.dirty;
+      if (revertBtn) revertBtn.disabled = !state.dirty;
+    }
+
+    function collectEntryFromForm() {
+      const form = document.getElementById("editor-form");
+      if (!form) return state.entries[state.currentIndex];
+
+      const entry = JSON.parse(JSON.stringify(entrySnapshot));
+
+      // Simple text fields
+      const hw = form.querySelector('[name="hw"]');
+      if (hw) entry.hw = hw.value;
+
+      const nh = form.querySelector('[name="nh"]');
+      if (nh) entry.nh = nh.value || undefined;
+
+      const ph = form.querySelector('[name="ph"]');
+      if (ph) entry.ph = ph.value || undefined;
+
+      // Page
+      const p = form.querySelector('[name="p"]');
+      if (p) entry.p = p.value !== "" ? Number(p.value) : undefined;
+
+      // Column
+      const col = form.querySelector('[name="col"]');
+      if (col) entry.col = col.value || undefined;
+
+      // Grammar
+      const gl = form.querySelector('[name="g.l"]');
+      const gps = form.querySelector('[name="g.ps"]');
+      const ggn = form.querySelector('[name="g.gn"]');
+      const gObj = {};
+      if (gl && gl.value !== "(none)") gObj.l = gl.value;
+      if (gps && gps.value !== "(none)") gObj.ps = gps.value;
+      if (ggn && ggn.value !== "(none)") gObj.gn = ggn.value;
+      if (Object.keys(gObj).length > 0) {
+        entry.g = { ...(entry.g || {}), ...gObj };
+        // Remove keys set to (none)
+        if (gl && gl.value === "(none)") delete entry.g.l;
+        if (gps && gps.value === "(none)") delete entry.g.ps;
+        if (ggn && ggn.value === "(none)") delete entry.g.gn;
+        if (Object.keys(entry.g).length === 0) delete entry.g;
+      } else {
+        delete entry.g;
+      }
+
+      // Language info
+      const li = form.querySelector('[name="li"]');
+      if (li) {
+        entry.li = li.value || undefined;
+      }
+
+      // Senses
+      const senseTextareas = form.querySelectorAll("[data-sense-path]");
+      for (const ta of senseTextareas) {
+        const path = ta.dataset.sensePath;
+        setSenseValue(entry, path, ta.value);
+      }
+
+      // References
+      const refCats = ["t", "b", "mi", "j", "o"];
+      let hasAnyRef = false;
+      if (!entry.rf) entry.rf = {};
+      for (const cat of refCats) {
+        const refTa = form.querySelector(`[name="rf.${cat}"]`);
+        if (refTa) {
+          const val = refTa.value.trim();
+          if (val) {
+            entry.rf[cat] = val.split(",").map(s => s.trim()).filter(Boolean);
+            hasAnyRef = true;
+          } else {
+            delete entry.rf[cat];
+          }
+        }
+      }
+      if (!hasAnyRef) delete entry.rf;
+
+      // Clean up undefined values for JSON serialization
+      for (const key of ["nh", "ph", "p", "col", "li"]) {
+        if (entry[key] === undefined) delete entry[key];
+      }
+
+      return entry;
+    }
+
+    function setSenseValue(entry, path, value) {
+      // path like "0.d" or "2.s.0.d"
+      const parts = path.split(".");
+      let obj = entry.c.s;
+      for (let i = 0; i < parts.length - 1; i++) {
+        const key = parts[i];
+        if (key === "s") {
+          obj = obj.s;
+        } else if (key === "d") {
+          break;
+        } else {
+          obj = obj[Number(key)];
+        }
+      }
+      const lastKey = parts[parts.length - 1];
+      if (lastKey === "d") {
+        obj.d = value;
+      } else {
+        obj[lastKey] = value;
+      }
+    }
+
+    async function saveEntry() {
+      const updated = collectEntryFromForm();
+      try {
+        const res = await fetch(`/api/entry/${updated.id}`, {
+          method: "PUT",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify(updated),
+        });
+        if (res.ok) {
+          state.entries[state.currentIndex] = updated;
+          entrySnapshot = JSON.parse(JSON.stringify(updated));
+          state.dirty = false;
+          updateSaveRevertButtons();
+          renderCurrentEntry();
+        } else {
+          const errText = await res.text();
+          alert(`Save failed (${res.status}): ${errText}`);
+        }
+      } catch (err) {
+        alert(`Save error: ${err.message}`);
+      }
+    }
+
+    function revertEntry() {
+      state.entries[state.currentIndex] = JSON.parse(JSON.stringify(entrySnapshot));
+      loadEntryIntoEditor(state.entries[state.currentIndex]);
+      renderCurrentEntry();
+    }
+
+    // --- Entry Navigation ---
+    function navigateTo(index) {
+      if (state.dirty && !confirm('Unsaved changes. Discard?')) return;
+      state.currentIndex = Math.max(0, Math.min(index, state.entries.length - 1));
+      state.dirty = false;
+      renderCurrentEntry();
+      loadEntryIntoEditor(state.entries[state.currentIndex]);
+      updateNavigation();
+    }
+
+    function updateNavigation() {
+      const prevBtn = document.getElementById('nav-prev');
+      const nextBtn = document.getElementById('nav-next');
+      const posEl = document.getElementById('nav-position');
+      const badgeEl = document.getElementById('nav-issue-badge');
+
+      prevBtn.disabled = state.currentIndex <= 0;
+      nextBtn.disabled = state.currentIndex >= state.entries.length - 1;
+
+      posEl.textContent = state.entries.length > 0
+        ? `Entry ${state.currentIndex + 1} of ${state.entries.length.toLocaleString()}`
+        : '';
+
+      // Issue badge
+      const entry = state.entries[state.currentIndex];
+      if (entry && state.annotations[entry.id]) {
+        badgeEl.textContent = '\u26A0';
+        badgeEl.style.display = '';
+      } else {
+        badgeEl.textContent = '';
+        badgeEl.style.display = 'none';
+      }
+    }
+
+    // Prev/Next buttons
+    document.getElementById('nav-prev').addEventListener('click', () => {
+      navigateTo(state.currentIndex - 1);
+    });
+
+    document.getElementById('nav-next').addEventListener('click', () => {
+      navigateTo(state.currentIndex + 1);
+    });
+
+    // RID jump
+    document.getElementById('nav-rid').addEventListener('keydown', (e) => {
+      if (e.key !== 'Enter') return;
+      const rid = e.target.value.trim();
+      if (!rid) return;
+      const idx = state.entries.findIndex(entry => entry.id === rid);
+      if (idx >= 0) {
+        e.target.value = '';
+        navigateTo(idx);
+      } else {
+        e.target.classList.add('rid-flash');
+        setTimeout(() => e.target.classList.remove('rid-flash'), 400);
+      }
+    });
+
+    // Headword search with debounce
+    let hwSearchTimer = null;
+    const hwSearchInput = document.getElementById('nav-hw-search');
+    const hwDropdown = document.getElementById('nav-hw-dropdown');
+
+    hwSearchInput.addEventListener('input', () => {
+      clearTimeout(hwSearchTimer);
+      hwSearchTimer = setTimeout(() => {
+        const query = hwSearchInput.value.trim().toLowerCase();
+        if (!query) {
+          hwDropdown.classList.remove('open');
+          return;
+        }
+        const matches = [];
+        for (let i = 0; i < state.entries.length && matches.length < 10; i++) {
+          const entry = state.entries[i];
+          const hw = (entry.hw || '').toLowerCase();
+          if (hw.startsWith(query)) {
+            matches.push({ index: i, hw: entry.hw, id: entry.id });
+          }
+        }
+        if (matches.length === 0) {
+          hwDropdown.classList.remove('open');
+          return;
+        }
+        hwDropdown.innerHTML = '';
+        for (const match of matches) {
+          const opt = document.createElement('div');
+          opt.className = 'nav-hw-option';
+          opt.innerHTML = `<span class="nav-hw-option-hw">${match.hw}</span><span class="nav-hw-option-rid">${match.id}</span>`;
+          opt.addEventListener('mousedown', (e) => {
+            e.preventDefault();
+            hwSearchInput.value = '';
+            hwDropdown.classList.remove('open');
+            navigateTo(match.index);
+          });
+          hwDropdown.appendChild(opt);
+        }
+        hwDropdown.classList.add('open');
+      }, 200);
+    });
+
+    hwSearchInput.addEventListener('blur', () => {
+      // Delay to allow mousedown on option to fire
+      setTimeout(() => hwDropdown.classList.remove('open'), 150);
+    });
+
+    hwSearchInput.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape') {
+        hwDropdown.classList.remove('open');
+        hwSearchInput.blur();
+      }
+    });
+
+    // Keyboard navigation (Left/Right arrows when not in an input)
+    document.addEventListener('keydown', (e) => {
+      const tag = document.activeElement?.tagName;
+      if (tag === 'INPUT' || tag === 'TEXTAREA' || tag === 'SELECT') return;
+      if (e.key === 'ArrowLeft') {
+        e.preventDefault();
+        navigateTo(state.currentIndex - 1);
+      } else if (e.key === 'ArrowRight') {
+        e.preventDefault();
+        navigateTo(state.currentIndex + 1);
+      }
+    });
+
+    // --- Draggable Divider ---
+    function initDivider() {
+      const container = document.querySelector('.entry-editor-layout');
+      const handle = container.querySelector('.divider-handle');
+      let dragging = false;
+
+      handle.addEventListener('mousedown', (e) => {
+        dragging = true;
+        e.preventDefault();
+        document.body.style.cursor = 'col-resize';
+        document.body.style.userSelect = 'none';
+      });
+
+      document.addEventListener('mousemove', (e) => {
+        if (!dragging) return;
+        const rect = container.getBoundingClientRect();
+        const pct = ((e.clientX - rect.left) / rect.width) * 100;
+        const clamped = Math.max(20, Math.min(80, pct));
+        container.style.gridTemplateColumns = `${clamped}% 4px ${100 - clamped}%`;
+      });
+
+      document.addEventListener('mouseup', () => {
+        if (dragging) {
+          dragging = false;
+          document.body.style.cursor = '';
+          document.body.style.userSelect = '';
+        }
+      });
+    }
+
+    // --- Annotations ---
+    const ANNOTATION_TYPES = ['data-quality', 'needs-review', 'page-column', 'reference', 'word-link', 'custom'];
+
+    const ANNOTATION_TYPE_LABELS = {
+      'data-quality': 'Data Quality',
+      'needs-review': 'Needs Review',
+      'page-column': 'Page/Column',
+      'reference': 'Reference',
+      'word-link': 'Word Link',
+      'custom': 'Custom',
+    };
+
+    function renderAnnotationsSection(rid) {
+      const section = document.createElement('div');
+      section.className = 'annotations-section';
+      section.id = 'annotations-section';
+
+      const header = document.createElement('h3');
+      header.textContent = 'Issues';
+      const annotations = state.annotations[rid] || [];
+      if (annotations.length > 0) {
+        const countBadge = document.createElement('span');
+        countBadge.className = 'ann-count';
+        countBadge.textContent = annotations.length;
+        header.appendChild(countBadge);
+      }
+      section.appendChild(header);
+
+      // Annotation rows
+      if (annotations.length === 0) {
+        const empty = document.createElement('div');
+        empty.className = 'ann-empty';
+        empty.textContent = 'No issues for this entry.';
+        section.appendChild(empty);
+      } else {
+        for (let i = 0; i < annotations.length; i++) {
+          const ann = annotations[i];
+          const row = document.createElement('div');
+          row.className = 'annotation-row';
+
+          const typeBadge = document.createElement('span');
+          typeBadge.className = `ann-type-badge ann-type-${ann.type}`;
+          typeBadge.textContent = ANNOTATION_TYPE_LABELS[ann.type] || ann.type;
+          row.appendChild(typeBadge);
+
+          const note = document.createElement('span');
+          note.className = 'ann-note';
+          note.textContent = ann.note;
+          row.appendChild(note);
+
+          const date = document.createElement('span');
+          date.className = 'ann-date';
+          date.textContent = ann.created || '';
+          row.appendChild(date);
+
+          const delBtn = document.createElement('button');
+          delBtn.className = 'ann-delete-btn';
+          delBtn.textContent = '\u00D7';
+          delBtn.title = 'Remove annotation';
+          delBtn.addEventListener('click', () => deleteAnnotation(rid, i));
+          row.appendChild(delBtn);
+
+          section.appendChild(row);
+        }
+      }
+
+      // Add annotation form
+      const addForm = document.createElement('div');
+      addForm.className = 'ann-add-form';
+
+      const typeSelect = document.createElement('select');
+      typeSelect.id = 'ann-add-type';
+      for (const t of ANNOTATION_TYPES) {
+        const opt = document.createElement('option');
+        opt.value = t;
+        opt.textContent = ANNOTATION_TYPE_LABELS[t];
+        typeSelect.appendChild(opt);
+      }
+      addForm.appendChild(typeSelect);
+
+      const noteInput = document.createElement('textarea');
+      noteInput.id = 'ann-add-note';
+      noteInput.placeholder = 'Add a note...';
+      noteInput.rows = 1;
+      addForm.appendChild(noteInput);
+
+      const addBtn = document.createElement('button');
+      addBtn.className = 'ann-add-btn';
+      addBtn.textContent = 'Add';
+      addBtn.addEventListener('click', () => addAnnotation(rid));
+      addForm.appendChild(addBtn);
+
+      section.appendChild(addForm);
+
+      return section;
+    }
+
+    async function addAnnotation(rid) {
+      const typeSelect = document.getElementById('ann-add-type');
+      const noteInput = document.getElementById('ann-add-note');
+      const note = noteInput.value.trim();
+      if (!note) return;
+
+      const annotation = {
+        type: typeSelect.value,
+        note,
+        created: new Date().toISOString().split('T')[0],
+      };
+
+      if (!state.annotations[rid]) {
+        state.annotations[rid] = [];
+      }
+      state.annotations[rid].push(annotation);
+
+      await saveAnnotations();
+      refreshAnnotationsSection(rid);
+      updateNavigation();
+      renderIssuesTab();
+    }
+
+    async function deleteAnnotation(rid, index) {
+      const annotations = state.annotations[rid];
+      if (!annotations) return;
+      annotations.splice(index, 1);
+      if (annotations.length === 0) {
+        delete state.annotations[rid];
+      }
+
+      await saveAnnotations();
+      refreshAnnotationsSection(rid);
+      updateNavigation();
+      renderIssuesTab();
+    }
+
+    async function saveAnnotations() {
+      try {
+        await fetch('/api/annotations', {
+          method: 'PUT',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify(state.annotations),
+        });
+      } catch (err) {
+        console.error('Failed to save annotations:', err);
+      }
+    }
+
+    function refreshAnnotationsSection(rid) {
+      const existing = document.getElementById('annotations-section');
+      if (!existing) return;
+      const newSection = renderAnnotationsSection(rid);
+      existing.replaceWith(newSection);
+    }
+
+    // --- Issues Tab ---
+    let issuesSelectedSet = new Set();
+    let issuesFilterState = null; // null = all checked (default)
+
+    function getAnnotationTypeCounts() {
+      const counts = {};
+      for (const t of ANNOTATION_TYPES) counts[t] = 0;
+      for (const annotations of Object.values(state.annotations)) {
+        for (const ann of annotations) {
+          if (counts[ann.type] !== undefined) counts[ann.type]++;
+          else counts[ann.type] = 1;
+        }
+      }
+      return counts;
+    }
+
+    function getFilteredAnnotations() {
+      const filterBar = document.getElementById('issues-filter-bar');
+      const activeTypes = new Set();
+      const checkboxes = filterBar.querySelectorAll('input[type="checkbox"]');
+      for (const cb of checkboxes) {
+        if (cb.checked) activeTypes.add(cb.value);
+      }
+      const searchInput = filterBar.querySelector('.issues-search-input');
+      const searchText = searchInput ? searchInput.value.toLowerCase() : '';
+      const results = [];
+      for (const [rid, annotations] of Object.entries(state.annotations)) {
+        for (let i = 0; i < annotations.length; i++) {
+          const ann = annotations[i];
+          if (!activeTypes.has(ann.type)) continue;
+          if (searchText && !ann.note.toLowerCase().includes(searchText)) continue;
+          const entryIdx = state.entries.findIndex(e => e.id === rid);
+          const hw = entryIdx !== -1 ? state.entries[entryIdx].hw : '?';
+          results.push({ rid, hw, entryIdx, annIndex: i, ...ann });
+        }
+      }
+      return results;
+    }
+
+    function renderIssuesTab() {
+      renderIssuesFilterBar();
+      renderIssuesActionsBar();
+      renderIssuesTable();
+    }
+
+    function renderIssuesFilterBar() {
+      const bar = document.getElementById('issues-filter-bar');
+      // Preserve search text if re-rendering
+      const existingSearch = bar.querySelector('.issues-search-input');
+      const savedSearch = existingSearch ? existingSearch.value : '';
+      bar.innerHTML = '';
+      const counts = getAnnotationTypeCounts();
+
+      for (const t of ANNOTATION_TYPES) {
+        const label = document.createElement('label');
+        const cb = document.createElement('input');
+        cb.type = 'checkbox';
+        cb.value = t;
+        cb.checked = issuesFilterState ? issuesFilterState.has(t) : true;
+        cb.addEventListener('change', () => {
+          // Save filter state
+          issuesFilterState = new Set();
+          for (const checkbox of bar.querySelectorAll('input[type="checkbox"]')) {
+            if (checkbox.checked) issuesFilterState.add(checkbox.value);
+          }
+          issuesSelectedSet.clear();
+          renderIssuesActionsBar();
+          renderIssuesTable();
+        });
+        label.appendChild(cb);
+
+        const text = document.createTextNode(' ' + ANNOTATION_TYPE_LABELS[t] + ' ');
+        label.appendChild(text);
+
+        const countBadge = document.createElement('span');
+        countBadge.className = 'filter-count';
+        countBadge.textContent = counts[t];
+        label.appendChild(countBadge);
+
+        bar.appendChild(label);
+      }
+
+      const searchInput = document.createElement('input');
+      searchInput.type = 'text';
+      searchInput.className = 'issues-search-input';
+      searchInput.placeholder = 'Search notes...';
+      searchInput.value = savedSearch;
+      let searchTimer;
+      searchInput.addEventListener('input', () => {
+        clearTimeout(searchTimer);
+        searchTimer = setTimeout(() => {
+          issuesSelectedSet.clear();
+          renderIssuesActionsBar();
+          renderIssuesTable();
+        }, 200);
+      });
+      bar.appendChild(searchInput);
+    }
+
+    function renderIssuesActionsBar() {
+      const bar = document.getElementById('issues-actions-bar');
+      bar.innerHTML = '';
+
+      // Scan button
+      const scanBtn = document.createElement('button');
+      scanBtn.className = 'btn-scan';
+      scanBtn.textContent = 'Scan';
+      scanBtn.title = 'Auto-detect issues across all entries';
+      scanBtn.addEventListener('click', runAutoScan);
+      bar.appendChild(scanBtn);
+
+      // Selected count
+      const selectedCount = document.createElement('span');
+      selectedCount.className = 'selected-count';
+      selectedCount.textContent = issuesSelectedSet.size > 0
+        ? `${issuesSelectedSet.size} selected`
+        : '';
+      bar.appendChild(selectedCount);
+
+      // Resolve button
+      const resolveBtn = document.createElement('button');
+      resolveBtn.className = 'btn-resolve';
+      resolveBtn.textContent = 'Resolve Selected';
+      resolveBtn.disabled = issuesSelectedSet.size === 0;
+      resolveBtn.addEventListener('click', resolveSelectedAnnotations);
+      bar.appendChild(resolveBtn);
+
+      // Re-categorize
+      const recatSelect = document.createElement('select');
+      recatSelect.id = 'recat-select';
+      const defaultOpt = document.createElement('option');
+      defaultOpt.value = '';
+      defaultOpt.textContent = 'Re-categorize...';
+      recatSelect.appendChild(defaultOpt);
+      for (const t of ANNOTATION_TYPES) {
+        const opt = document.createElement('option');
+        opt.value = t;
+        opt.textContent = ANNOTATION_TYPE_LABELS[t];
+        recatSelect.appendChild(opt);
+      }
+      recatSelect.disabled = issuesSelectedSet.size === 0;
+      recatSelect.addEventListener('change', () => {
+        if (recatSelect.value) {
+          recategorizeSelectedAnnotations(recatSelect.value);
+          recatSelect.value = '';
+        }
+      });
+      bar.appendChild(recatSelect);
+    }
+
+    let issuesPage = 0;
+    const ISSUES_PAGE_SIZE = 100;
+
+    function renderIssuesTable() {
+      const table = document.getElementById('issues-table');
+      table.innerHTML = '';
+
+      const filtered = getFilteredAnnotations();
+      const totalPages = Math.max(1, Math.ceil(filtered.length / ISSUES_PAGE_SIZE));
+      if (issuesPage >= totalPages) issuesPage = totalPages - 1;
+      const pageStart = issuesPage * ISSUES_PAGE_SIZE;
+      const pageEnd = Math.min(pageStart + ISSUES_PAGE_SIZE, filtered.length);
+      const pageItems = filtered.slice(pageStart, pageEnd);
+
+      // Header
+      const thead = document.createElement('thead');
+      const headerRow = document.createElement('tr');
+      const thCheck = document.createElement('th');
+      const selectAllCb = document.createElement('input');
+      selectAllCb.type = 'checkbox';
+      selectAllCb.addEventListener('change', () => {
+        const keys = pageItems.map(r => `${r.rid}:${r.annIndex}`);
+        if (selectAllCb.checked) {
+          for (const k of keys) issuesSelectedSet.add(k);
+        } else {
+          for (const k of keys) issuesSelectedSet.delete(k);
+        }
+        renderIssuesActionsBar();
+        renderIssuesTable();
+      });
+      thCheck.appendChild(selectAllCb);
+      headerRow.appendChild(thCheck);
+
+      for (const label of ['RID', 'Headword', 'Type', 'Note', 'Date']) {
+        const th = document.createElement('th');
+        th.textContent = label;
+        headerRow.appendChild(th);
+      }
+      thead.appendChild(headerRow);
+      table.appendChild(thead);
+
+      // Body
+      const tbody = document.createElement('tbody');
+
+      if (filtered.length === 0) {
+        const tr = document.createElement('tr');
+        const td = document.createElement('td');
+        td.colSpan = 6;
+        td.className = 'issues-empty';
+        td.textContent = 'No issues found.';
+        tr.appendChild(td);
+        tbody.appendChild(tr);
+      } else {
+        for (const row of pageItems) {
+          const key = `${row.rid}:${row.annIndex}`;
+          const tr = document.createElement('tr');
+          tr.className = 'clickable';
+
+          // Checkbox
+          const tdCheck = document.createElement('td');
+          const cb = document.createElement('input');
+          cb.type = 'checkbox';
+          cb.checked = issuesSelectedSet.has(key);
+          cb.addEventListener('change', (e) => {
+            e.stopPropagation();
+            if (cb.checked) {
+              issuesSelectedSet.add(key);
+            } else {
+              issuesSelectedSet.delete(key);
+            }
+            renderIssuesActionsBar();
+          });
+          cb.addEventListener('click', (e) => e.stopPropagation());
+          tdCheck.appendChild(cb);
+          tr.appendChild(tdCheck);
+
+          // RID
+          const tdRid = document.createElement('td');
+          tdRid.className = 'rid-cell';
+          tdRid.textContent = row.rid;
+          tr.appendChild(tdRid);
+
+          // Headword
+          const tdHw = document.createElement('td');
+          tdHw.className = 'hw-cell';
+          tdHw.textContent = row.hw;
+          tr.appendChild(tdHw);
+
+          // Type
+          const tdType = document.createElement('td');
+          const typeBadge = document.createElement('span');
+          typeBadge.className = `ann-type-badge ann-type-${row.type}`;
+          typeBadge.textContent = ANNOTATION_TYPE_LABELS[row.type] || row.type;
+          tdType.appendChild(typeBadge);
+          tr.appendChild(tdType);
+
+          // Note
+          const tdNote = document.createElement('td');
+          tdNote.textContent = row.note;
+          tr.appendChild(tdNote);
+
+          // Date
+          const tdDate = document.createElement('td');
+          tdDate.className = 'ann-date';
+          tdDate.textContent = row.created || '';
+          tr.appendChild(tdDate);
+
+          // Click to navigate
+          tr.addEventListener('click', () => {
+            if (row.entryIdx >= 0) {
+              navigateTo(row.entryIdx);
+              switchToTab('entry-editor');
+            }
+          });
+
+          tbody.appendChild(tr);
+        }
+      }
+
+      table.appendChild(tbody);
+
+      // Pagination footer
+      if (filtered.length > ISSUES_PAGE_SIZE) {
+        const tfoot = document.createElement('tfoot');
+        const tr = document.createElement('tr');
+        const td = document.createElement('td');
+        td.colSpan = 6;
+        td.className = 'issues-pagination';
+        td.innerHTML = `
+          <button ${issuesPage === 0 ? 'disabled' : ''} id="issues-prev-page">&larr; Prev</button>
+          <span>Page ${issuesPage + 1} of ${totalPages} (${filtered.length} issues)</span>
+          <button ${issuesPage >= totalPages - 1 ? 'disabled' : ''} id="issues-next-page">Next &rarr;</button>
+        `;
+        tr.appendChild(td);
+        tfoot.appendChild(tr);
+        table.appendChild(tfoot);
+
+        document.getElementById('issues-prev-page')?.addEventListener('click', () => {
+          issuesPage = Math.max(0, issuesPage - 1);
+          renderIssuesTable();
+        });
+        document.getElementById('issues-next-page')?.addEventListener('click', () => {
+          issuesPage = Math.min(totalPages - 1, issuesPage + 1);
+          renderIssuesTable();
+        });
+      }
+    }
+
+    function switchToTab(tabId) {
+      for (const btn of document.querySelectorAll('.tab-button')) {
+        const isActive = btn.dataset.tab === tabId;
+        btn.classList.toggle('active', isActive);
+        btn.setAttribute('aria-selected', isActive ? 'true' : 'false');
+      }
+      for (const panel of document.querySelectorAll('.tab-content')) {
+        panel.classList.toggle('active', panel.id === `tab-${tabId}`);
+      }
+      document.getElementById('nav-bar').classList.toggle('hidden', tabId !== 'entry-editor');
+    }
+
+    async function runAutoScan() {
+      // Notes produced by auto-scan — clear before re-scanning so stale findings don't persist
+      const AUTO_NOTES = new Set([
+        'Column not mapped',
+        'Unresolved headword link pattern',
+        'Nested <a> tags detected in definition',
+      ]);
+      for (const rid of Object.keys(state.annotations)) {
+        state.annotations[rid] = state.annotations[rid].filter(a => !AUTO_NOTES.has(a.note));
+        if (state.annotations[rid].length === 0) delete state.annotations[rid];
+      }
+
+      let newCount = 0;
+      const today = new Date().toISOString().split('T')[0];
+
+      for (const entry of state.entries) {
+        const rid = entry.id;
+
+        function hasAnnotationType(type) {
+          return (state.annotations[rid] || []).some(a => a.type === type);
+        }
+
+        function addAnnotation(type, note) {
+          if (!state.annotations[rid]) state.annotations[rid] = [];
+          state.annotations[rid].push({ type, note, created: today });
+          newCount++;
+        }
+
+        // Check column not mapped
+        if (entry.col === '?' && !hasAnnotationType('page-column')) {
+          addAnnotation('page-column', 'Column not mapped');
+        }
+
+        // Check definitions for issues
+        if (entry.c && entry.c.s) {
+          const allDefs = collectDefinitions(entry.c.s);
+          for (const def of allDefs) {
+            // Unresolved word-link patterns
+            if (!hasAnnotationType('word-link') && def.match(/href=["'][^"']*#headword[^"']*["']/)) {
+              addAnnotation('word-link', 'Unresolved headword link pattern');
+              break;
+            }
+
+            // Nested <a> tags (ensure no </a> between two opening <a> tags)
+            if (!hasAnnotationType('data-quality') && def.match(/<a[\s>](?:[^>]*>)(?:(?!<\/a>).)*<a[\s>]/)) {
+              addAnnotation('data-quality', 'Nested <a> tags detected in definition');
+              break;
+            }
+          }
+        }
+      }
+
+      await saveAnnotations();
+      renderIssuesTab();
+      updateNavigation();
+      showToast(`Found ${newCount} new issue${newCount !== 1 ? 's' : ''}`);
+    }
+
+    function collectDefinitions(senses) {
+      const defs = [];
+      for (const s of senses) {
+        if (s.d) defs.push(s.d);
+        if (s.s) defs.push(...collectDefinitions(s.s));
+      }
+      return defs;
+    }
+
+    async function resolveSelectedAnnotations() {
+      if (issuesSelectedSet.size === 0) return;
+
+      // Group by rid and sort indices descending for safe splicing
+      const byRid = {};
+      for (const key of issuesSelectedSet) {
+        const [rid, idxStr] = key.split(':');
+        if (!byRid[rid]) byRid[rid] = [];
+        byRid[rid].push(parseInt(idxStr, 10));
+      }
+
+      for (const [rid, indices] of Object.entries(byRid)) {
+        const sorted = indices.sort((a, b) => b - a);
+        for (const idx of sorted) {
+          if (state.annotations[rid]) {
+            state.annotations[rid].splice(idx, 1);
+            if (state.annotations[rid].length === 0) {
+              delete state.annotations[rid];
+            }
+          }
+        }
+      }
+
+      issuesSelectedSet.clear();
+      await saveAnnotations();
+      renderIssuesTab();
+      updateNavigation();
+      // Refresh field editor annotations if visible
+      const entry = state.entries[state.currentIndex];
+      if (entry) refreshAnnotationsSection(entry.id);
+    }
+
+    async function recategorizeSelectedAnnotations(newType) {
+      if (issuesSelectedSet.size === 0) return;
+
+      for (const key of issuesSelectedSet) {
+        const [rid, idxStr] = key.split(':');
+        const idx = parseInt(idxStr, 10);
+        if (state.annotations[rid] && state.annotations[rid][idx]) {
+          state.annotations[rid][idx].type = newType;
+        }
+      }
+
+      issuesSelectedSet.clear();
+      await saveAnnotations();
+      renderIssuesTab();
+      // Refresh field editor annotations if visible
+      const entry = state.entries[state.currentIndex];
+      if (entry) refreshAnnotationsSection(entry.id);
+    }
+
+    // --- Abbreviations Editor ---
+    // Sub-tab switching
+    document.querySelector('.abbr-sub-tabs').addEventListener('click', (e) => {
+      const btn = e.target.closest('.abbr-sub-tab');
+      if (!btn) return;
+      const tabId = btn.dataset.abbrTab;
+      for (const b of document.querySelectorAll('.abbr-sub-tab')) {
+        b.classList.toggle('active', b === btn);
+      }
+      for (const c of document.querySelectorAll('.abbr-sub-content')) {
+        c.classList.toggle('active', c.id === `abbr-${tabId}`);
+      }
+      if (tabId === 'english') renderAbbrEnglish();
+      else renderAbbrHebrew();
+    });
+
+    function renderAbbrEnglish(filterText) {
+      const list = document.getElementById('abbr-en-list');
+      list.innerHTML = '';
+      const abbrs = state.abbreviations.english?.abbreviations;
+      if (!abbrs || Object.keys(abbrs).length === 0) {
+        list.innerHTML = '<div class="abbr-empty">No abbreviations loaded</div>';
+        return;
+      }
+
+      const filter = (filterText || '').toLowerCase();
+      const keys = Object.keys(abbrs).sort();
+
+      let visibleCount = 0;
+      for (const key of keys) {
+        const item = abbrs[key];
+        if (filter) {
+          const match = key.toLowerCase().includes(filter)
+            || (item.original || '').toLowerCase().includes(filter)
+            || (item.modern || '').toLowerCase().includes(filter);
+          if (!match) continue;
+        }
+        visibleCount++;
+
+        const row = document.createElement('div');
+        row.className = 'abbr-row';
+
+        const keySpan = document.createElement('span');
+        keySpan.className = 'abbr-key';
+        keySpan.textContent = key;
+        row.appendChild(keySpan);
+
+        const origInput = document.createElement('input');
+        origInput.type = 'text';
+        origInput.value = item.original || '';
+        origInput.placeholder = 'original';
+        origInput.dataset.key = key;
+        origInput.dataset.field = 'original';
+        origInput.addEventListener('change', (e) => {
+          abbrs[key].original = e.target.value;
+        });
+        row.appendChild(origInput);
+
+        const modInput = document.createElement('input');
+        modInput.type = 'text';
+        modInput.value = item.modern || '';
+        modInput.placeholder = 'modern';
+        modInput.dataset.key = key;
+        modInput.dataset.field = 'modern';
+        modInput.addEventListener('change', (e) => {
+          abbrs[key].modern = e.target.value;
+        });
+        row.appendChild(modInput);
+
+        const delBtn = document.createElement('button');
+        delBtn.className = 'abbr-del-btn';
+        delBtn.textContent = '\u00D7';
+        delBtn.title = 'Delete';
+        delBtn.addEventListener('click', () => {
+          if (confirm(`Delete abbreviation "${key}"?`)) {
+            delete abbrs[key];
+            renderAbbrEnglish(document.getElementById('abbr-search').value);
+          }
+        });
+        row.appendChild(delBtn);
+
+        list.appendChild(row);
+      }
+
+      if (visibleCount === 0) {
+        list.innerHTML = '<div class="abbr-empty">No matches</div>';
+      }
+    }
+
+    document.getElementById('abbr-search').addEventListener('input', (e) => {
+      renderAbbrEnglish(e.target.value);
+    });
+
+    document.getElementById('abbr-add-btn').addEventListener('click', () => {
+      const key = prompt('Enter abbreviation key:');
+      if (!key || !key.trim()) return;
+      const trimmed = key.trim();
+      const abbrs = state.abbreviations.english?.abbreviations;
+      if (!abbrs) return;
+      if (abbrs[trimmed]) {
+        showToast(`Abbreviation "${trimmed}" already exists`);
+        return;
+      }
+      abbrs[trimmed] = { original: '', modern: '' };
+      renderAbbrEnglish(document.getElementById('abbr-search').value);
+      showToast(`Added "${trimmed}"`);
+    });
+
+    document.getElementById('abbr-save-en-btn').addEventListener('click', async () => {
+      try {
+        const res = await fetch('/api/abbreviations/english', {
+          method: 'PUT',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ abbreviations: state.abbreviations.english.abbreviations }),
+        });
+        if (!res.ok) throw new Error(`Save failed: ${res.status}`);
+        showToast('English abbreviations saved');
+      } catch (err) {
+        showToast(`Error: ${err.message}`);
+      }
+    });
+
+    function renderAbbrHebrew() {
+      const ta = document.getElementById('abbr-he-textarea');
+      const versions = state.abbreviations.hebrew?.versions;
+      if (!versions || versions.length === 0) {
+        ta.value = '';
+        ta.placeholder = 'No Hebrew abbreviation data loaded';
+        return;
+      }
+      const textArr = versions[0].text || [];
+      ta.value = textArr.join('\n');
+    }
+
+    document.getElementById('abbr-save-he-btn').addEventListener('click', async () => {
+      try {
+        const ta = document.getElementById('abbr-he-textarea');
+        const lines = ta.value.split('\n');
+        // Preserve the full Sefaria structure, only update the text array
+        const hebrewData = JSON.parse(JSON.stringify(state.abbreviations.hebrew));
+        if (hebrewData.versions && hebrewData.versions.length > 0) {
+          hebrewData.versions[0].text = lines;
+        }
+        const res = await fetch('/api/abbreviations/hebrew', {
+          method: 'PUT',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify(hebrewData),
+        });
+        if (!res.ok) throw new Error(`Save failed: ${res.status}`);
+        // Update local state
+        state.abbreviations.hebrew = hebrewData;
+        showToast('Hebrew abbreviations saved');
+      } catch (err) {
+        showToast(`Error: ${err.message}`);
+      }
+    });
+
+    // --- Page Mapper ---
+    function getFirstLetter(hw) {
+      return hw.replace(/[\s\u00B2\u00B3\u2070-\u2079\u00B9²³⁴⁵⁶⁷⁸⁹]/g, '').charAt(0);
+    }
+
+    function initMapper() {
+      const firstUnmapped = state.entries.findIndex(e => e.col === '?');
+      if (firstUnmapped === -1) {
+        document.getElementById('mapper-header').innerHTML = '';
+        document.getElementById('mapper-word-list').innerHTML =
+          '<div class="mapper-all-done">All entries are mapped!</div>';
+        document.getElementById('mapper-controls').innerHTML = '';
+        return;
+      }
+      const prev = firstUnmapped > 0 ? state.entries[firstUnmapped - 1] : null;
+      state.mapper = {
+        startIndex: firstUnmapped,
+        currentPage: prev ? prev.p : 1,
+        currentColumn: prev ? (prev.col === 'a' ? 'b' : 'a') : 'a',
+        selectedIndex: null,
+        batchSize: 20,
+      };
+      if (prev && prev.col === 'b') state.mapper.currentPage = prev.p + 1;
+      renderMapperBatch();
+    }
+
+    function renderMapperHeader() {
+      const m = state.mapper;
+      const total = state.entries.length;
+      const mapped = state.entries.filter(e => e.col !== '?').length;
+      const pct = total > 0 ? ((mapped / total) * 100).toFixed(1) : 0;
+      const colLabel = m.currentColumn === 'a' ? 'Left (a)' : 'Right (b)';
+
+      document.getElementById('mapper-header').innerHTML = `
+        <div class="mapper-info">
+          <span class="mapper-page">Page ${m.currentPage}</span>
+          <span class="mapper-col">Column: ${colLabel}</span>
+        </div>
+        <div class="mapper-progress">
+          <div class="mapper-progress-bar">
+            <div class="mapper-progress-fill" style="width: ${pct}%"></div>
+          </div>
+          <span>${mapped} / ${total} (${pct}%)</span>
+        </div>
+      `;
+    }
+
+    function renderMapperBatch() {
+      const m = state.mapper;
+      renderMapperHeader();
+
+      const list = document.getElementById('mapper-word-list');
+      list.innerHTML = '';
+
+      const end = Math.min(m.startIndex + m.batchSize, state.entries.length);
+      for (let i = m.startIndex; i < end; i++) {
+        const entry = state.entries[i];
+        const item = document.createElement('div');
+        item.className = 'mapper-word-item' + (i === m.selectedIndex ? ' selected' : '');
+        item.dataset.index = i;
+
+        const pcText = entry.col === '?'
+          ? '<span class="page-col unmapped">unmapped</span>'
+          : `<span class="page-col">p.${entry.p} col.${entry.col}</span>`;
+
+        item.innerHTML = `
+          <span class="hw">${entry.hw || ''}</span>
+          <span class="meta">
+            <span class="rid">${entry.id || ''}</span>
+            ${pcText}
+          </span>
+        `;
+        item.addEventListener('click', () => {
+          m.selectedIndex = i;
+          renderMapperBatch();
+        });
+        list.appendChild(item);
+      }
+
+      const controls = document.getElementById('mapper-controls');
+      controls.innerHTML = '';
+
+      const confirmBtn = document.createElement('button');
+      confirmBtn.className = 'btn-confirm';
+      confirmBtn.textContent = 'Confirm';
+      confirmBtn.disabled = m.selectedIndex === null;
+      confirmBtn.addEventListener('click', confirmMapperSelection);
+      controls.appendChild(confirmBtn);
+
+      const loadMoreBtn = document.createElement('button');
+      loadMoreBtn.textContent = 'Load More';
+      loadMoreBtn.disabled = end >= state.entries.length;
+      loadMoreBtn.addEventListener('click', () => {
+        m.batchSize += 20;
+        renderMapperBatch();
+      });
+      controls.appendChild(loadMoreBtn);
+    }
+
+    async function confirmMapperSelection() {
+      const m = state.mapper;
+      if (m.selectedIndex === null) return;
+
+      const updates = [];
+      for (let i = m.startIndex; i <= m.selectedIndex; i++) {
+        state.entries[i].p = m.currentPage;
+        state.entries[i].col = m.currentColumn;
+        updates.push(state.entries[i]);
+      }
+
+      // Toggle column
+      const nextStartIndex = m.selectedIndex + 1;
+      if (m.currentColumn === 'a') {
+        m.currentColumn = 'b';
+      } else {
+        m.currentColumn = 'a';
+        m.currentPage++;
+      }
+      m.startIndex = nextStartIndex;
+      m.selectedIndex = null;
+      m.batchSize = 20;
+
+      // Save to server
+      try {
+        const res = await fetch('/api/save-all', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ updates }),
+        });
+        if (!res.ok) throw new Error(`Save failed: ${res.status}`);
+        showToast(`Mapped ${updates.length} entries`);
+      } catch (err) {
+        showToast(`Error saving: ${err.message}`);
+      }
+
+      // Check if all done
+      if (m.startIndex >= state.entries.length) {
+        initMapper();
+        return;
+      }
+
+      // Check letter boundary
+      const prevEntry = state.entries[m.startIndex - 1];
+      const nextEntry = state.entries[m.startIndex];
+      if (prevEntry && nextEntry) {
+        const prevLetter = getFirstLetter(prevEntry.hw || '');
+        const nextLetter = getFirstLetter(nextEntry.hw || '');
+        if (prevLetter && nextLetter && prevLetter !== nextLetter) {
+          showLetterBoundaryDialog(prevLetter, nextLetter);
+          return;
+        }
+      }
+
+      renderMapperBatch();
+    }
+
+    function showLetterBoundaryDialog(oldLetter, newLetter) {
+      const dialog = document.getElementById('mapper-letter-dialog');
+      document.getElementById('mapper-letter-msg').textContent =
+        `Letter change: ${oldLetter} \u2192 ${newLetter}`;
+      document.getElementById('mapper-letter-page').value = state.mapper.currentPage;
+      dialog.showModal();
+    }
+
+    document.getElementById('mapper-letter-confirm').addEventListener('click', () => {
+      const page = parseInt(document.getElementById('mapper-letter-page').value, 10);
+      if (!isNaN(page) && page > 0) {
+        state.mapper.currentPage = page;
+        state.mapper.currentColumn = 'a';
+      }
+      document.getElementById('mapper-letter-dialog').close();
+      renderMapperBatch();
+    });
+
+    document.getElementById('mapper-letter-cancel').addEventListener('click', () => {
+      document.getElementById('mapper-letter-dialog').close();
+      renderMapperBatch();
+    });
+
+    // --- Sages Editor ---
+    let sagesCurrentId = null;
+    let sagesDirtySet = new Set();
+    let sageSnapshot = null;
+
+    const SAGE_RELATIONSHIP_TYPES = ['teacher', 'father', 'son', 'wife', 'husband', 'brother-in-law'];
+    const SAGE_RECIPROCALS = {
+      father: 'son',
+      son: 'father',
+      husband: 'wife',
+      wife: 'husband',
+      'brother-in-law': 'brother-in-law',
+    };
+
+    function getSortedSages(filter) {
+      const eraOrder = { tanna: 0, amorai: 1 };
+      let sages = [...state.sages];
+      if (filter) {
+        const q = filter.toLowerCase();
+        sages = sages.filter(s =>
+          (s.name.en || '').toLowerCase().includes(q) ||
+          (s.name.he || '').includes(q) ||
+          s.id.toLowerCase().includes(q)
+        );
+      }
+      sages.sort((a, b) => {
+        const eaDiff = (eraOrder[a.era] || 0) - (eraOrder[b.era] || 0);
+        if (eaDiff !== 0) return eaDiff;
+        return (a.generation || 0) - (b.generation || 0);
+      });
+      return sages;
+    }
+
+    function renderSagesList(filter) {
+      const list = document.getElementById('sages-list');
+      list.innerHTML = '';
+      const sages = getSortedSages(filter);
+
+      if (sages.length === 0) {
+        list.innerHTML = '<div style="padding:24px;text-align:center;color:#999;font-size:13px">No sages found</div>';
+        return;
+      }
+
+      for (const sage of sages) {
+        const item = document.createElement('div');
+        item.className = 'sage-list-item' + (sage.id === sagesCurrentId ? ' active' : '');
+        item.dataset.id = sage.id;
+
+        const nameEn = document.createElement('span');
+        nameEn.className = 'sage-name-en';
+        nameEn.textContent = sage.name.en || sage.id;
+        item.appendChild(nameEn);
+
+        const nameHe = document.createElement('span');
+        nameHe.className = 'sage-name-he';
+        nameHe.textContent = sage.name.he || '';
+        item.appendChild(nameHe);
+
+        const eraBadge = document.createElement('span');
+        eraBadge.className = 'sage-era-badge sage-era-' + (sage.era || 'tanna');
+        eraBadge.textContent = sage.era === 'amorai' ? 'A' : 'T';
+        item.appendChild(eraBadge);
+
+        const gen = document.createElement('span');
+        gen.className = 'sage-gen';
+        gen.textContent = 'G' + (sage.generation || '?');
+        item.appendChild(gen);
+
+        if (sagesDirtySet.has(sage.id)) {
+          const dot = document.createElement('span');
+          dot.className = 'sage-dirty-dot';
+          item.appendChild(dot);
+        }
+
+        item.addEventListener('click', () => selectSage(sage.id));
+        list.appendChild(item);
+      }
+    }
+
+    function selectSage(id) {
+      if (sagesDirtySet.has(sagesCurrentId)) {
+        if (!confirm('Unsaved changes on current sage. Discard?')) return;
+        sagesDirtySet.delete(sagesCurrentId);
+      }
+      sagesCurrentId = id;
+      const sage = state.sages.find(s => s.id === id);
+      if (!sage) return;
+      sageSnapshot = JSON.parse(JSON.stringify(sage));
+      renderSagesList(document.getElementById('sages-search').value);
+      renderSageDetail(sage);
+    }
+
+    function formatSageDate(num, approximate) {
+      if (num == null) return '?';
+      const prefix = approximate ? '~' : '';
+      if (num < 0) return prefix + Math.abs(num) + ' BCE';
+      return prefix + num + ' CE';
+    }
+
+    function renderSageDetail(sage) {
+      const detail = document.getElementById('sages-detail');
+      detail.innerHTML = '';
+
+      const layout = document.createElement('div');
+      layout.className = 'sage-detail-layout';
+
+      // Left: card preview
+      const card = document.createElement('div');
+      card.className = 'sage-card-preview';
+      card.id = 'sage-card-preview';
+      renderSageCardContent(card, sage);
+      layout.appendChild(card);
+
+      // Right: edit area
+      const editArea = document.createElement('div');
+      editArea.className = 'sage-edit-area';
+      editArea.id = 'sage-edit-area';
+      renderSageEditContent(editArea, sage);
+      layout.appendChild(editArea);
+
+      detail.appendChild(layout);
+    }
+
+    function renderSageCardContent(card, sage) {
+      card.innerHTML = '';
+
+      const nameHe = document.createElement('div');
+      nameHe.className = 'sage-card-name-he';
+      nameHe.textContent = sage.name.he || '';
+      card.appendChild(nameHe);
+
+      const nameEn = document.createElement('div');
+      nameEn.className = 'sage-card-name-en';
+      nameEn.textContent = sage.name.en || '';
+      card.appendChild(nameEn);
+
+      const dates = sage.dates || {};
+      const dateStr = formatSageDate(dates.born, dates.approximate) + ' \u2013 ' + formatSageDate(dates.died, dates.approximate);
+      const datesDiv = document.createElement('div');
+      datesDiv.className = 'sage-card-dates';
+      datesDiv.textContent = dateStr;
+      card.appendChild(datesDiv);
+
+      const meta = document.createElement('div');
+      meta.className = 'sage-card-meta';
+      const eraBadge = document.createElement('span');
+      eraBadge.className = 'badge badge-' + (sage.era === 'amorai' ? 'warning' : 'brand');
+      eraBadge.textContent = sage.era === 'amorai' ? 'Amora' : 'Tanna';
+      meta.appendChild(eraBadge);
+
+      if (sage.location) {
+        const locBadge = document.createElement('span');
+        locBadge.className = 'badge badge-neutral';
+        locBadge.textContent = sage.location === 'israel' ? 'Israel' : 'Bavel';
+        meta.appendChild(locBadge);
+      }
+
+      if (sage.nasi) {
+        const nasiBadge = document.createElement('span');
+        nasiBadge.className = 'badge badge-success';
+        nasiBadge.textContent = 'Nasi';
+        meta.appendChild(nasiBadge);
+      }
+
+      const genBadge = document.createElement('span');
+      genBadge.className = 'badge badge-neutral';
+      genBadge.textContent = 'Gen ' + (sage.generation || '?');
+      meta.appendChild(genBadge);
+      card.appendChild(meta);
+
+      if (sage.bio) {
+        const bio = document.createElement('div');
+        bio.className = 'sage-card-bio';
+        bio.textContent = sage.bio.length > 200 ? sage.bio.slice(0, 200) + '...' : sage.bio;
+        card.appendChild(bio);
+      }
+
+      // Relationships
+      const rels = sage.relationships || [];
+      if (rels.length > 0) {
+        const relSection = document.createElement('div');
+        relSection.className = 'sage-card-relationships';
+        const h4 = document.createElement('h4');
+        h4.textContent = 'Relationships';
+        relSection.appendChild(h4);
+        for (const rel of rels) {
+          const targetSage = state.sages.find(s => s.id === rel.target);
+          const targetName = targetSage ? targetSage.name.en : rel.target;
+          const item = document.createElement('div');
+          item.className = 'sage-card-rel-item';
+          const typeSpan = document.createElement('span');
+          typeSpan.className = 'rel-type';
+          typeSpan.textContent = rel.type + ': ';
+          item.appendChild(typeSpan);
+          const nameLink = document.createElement('span');
+          nameLink.className = 'rel-target-link';
+          nameLink.textContent = targetName;
+          nameLink.addEventListener('click', () => selectSage(rel.target));
+          item.appendChild(nameLink);
+          relSection.appendChild(item);
+        }
+        card.appendChild(relSection);
+      }
+    }
+
+    function renderSageEditContent(editArea, sage) {
+      editArea.innerHTML = '';
+
+      // Header
+      const header = document.createElement('div');
+      header.className = 'sage-edit-header';
+      const h3 = document.createElement('h3');
+      h3.textContent = 'Edit Sage';
+      header.appendChild(h3);
+      const actions = document.createElement('div');
+      actions.className = 'sage-edit-actions';
+
+      const researchBtn = document.createElement('button');
+      researchBtn.className = 'btn-primary';
+      researchBtn.textContent = 'Research with Claude';
+      researchBtn.addEventListener('click', () => researchSage(sage.id));
+      actions.appendChild(researchBtn);
+
+      const revertBtn = document.createElement('button');
+      revertBtn.className = 'btn-revert';
+      revertBtn.id = 'sage-revert-btn';
+      revertBtn.textContent = 'Revert';
+      revertBtn.disabled = !sagesDirtySet.has(sage.id);
+      revertBtn.addEventListener('click', () => revertSage());
+      actions.appendChild(revertBtn);
+
+      const saveBtn = document.createElement('button');
+      saveBtn.className = 'btn-save';
+      saveBtn.id = 'sage-save-btn';
+      saveBtn.textContent = 'Save';
+      saveBtn.disabled = !sagesDirtySet.has(sage.id);
+      saveBtn.addEventListener('click', () => saveSage());
+      actions.appendChild(saveBtn);
+
+      const deleteBtn = document.createElement('button');
+      deleteBtn.className = 'btn-danger';
+      deleteBtn.textContent = 'Delete';
+      deleteBtn.addEventListener('click', () => deleteSage(sage.id));
+      actions.appendChild(deleteBtn);
+
+      header.appendChild(actions);
+      editArea.appendChild(header);
+
+      // Form fields
+      const form = document.createElement('div');
+      form.id = 'sage-edit-form';
+
+      const nameRow = document.createElement('div');
+      nameRow.className = 'field-row';
+      nameRow.appendChild(makeSageField('text', 'sage-name-en', 'Name (English)', sage.name.en || ''));
+      nameRow.appendChild(makeSageField('text', 'sage-name-he', 'Name (Hebrew)', sage.name.he || '', 'rtl'));
+      form.appendChild(nameRow);
+
+      const eraGenRow = document.createElement('div');
+      eraGenRow.className = 'field-row';
+      eraGenRow.appendChild(makeSageSelectField('sage-era', 'Era', ['tanna', 'amorai'], sage.era || 'tanna'));
+      eraGenRow.appendChild(makeSageField('number', 'sage-generation', 'Generation', sage.generation || ''));
+      form.appendChild(eraGenRow);
+
+      const dates = sage.dates || {};
+      const dateRow = document.createElement('div');
+      dateRow.className = 'field-row';
+      dateRow.appendChild(makeSageField('number', 'sage-born', 'Born (neg=BCE)', dates.born != null ? dates.born : ''));
+      dateRow.appendChild(makeSageField('number', 'sage-died', 'Died (neg=BCE)', dates.died != null ? dates.died : ''));
+      form.appendChild(dateRow);
+
+      const approxGroup = document.createElement('div');
+      approxGroup.className = 'field-group';
+      const approxLabel = document.createElement('label');
+      approxLabel.style.cssText = 'display:flex;align-items:center;gap:6px';
+      const approxCb = document.createElement('input');
+      approxCb.type = 'checkbox';
+      approxCb.id = 'sage-approximate';
+      approxCb.checked = dates.approximate || false;
+      approxCb.addEventListener('change', onSageFieldInput);
+      approxLabel.appendChild(approxCb);
+      approxLabel.appendChild(document.createTextNode('Approximate dates'));
+      approxGroup.appendChild(approxLabel);
+      form.appendChild(approxGroup);
+
+      const locRow = document.createElement('div');
+      locRow.className = 'field-row';
+      locRow.appendChild(makeSageSelectField('sage-location', 'Location', ['israel', 'bavel'], sage.location || 'israel'));
+      locRow.appendChild(makeSageField('text', 'sage-locations', 'Locations (comma-sep)', (sage.locations || []).join(', ')));
+      form.appendChild(locRow);
+
+      form.appendChild(makeSageTextareaField('sage-bio', 'Bio', sage.bio || '', 3));
+      form.appendChild(makeSageTextareaField('sage-teachings', 'Teachings (one per line)', (sage.teachings || []).join('\n'), 3));
+      form.appendChild(makeSageTextareaField('sage-stories', 'Stories (one per line)', (sage.stories || []).join('\n'), 3));
+      form.appendChild(makeSageField('text', 'sage-sefaria-slug', 'Sefaria Topic Slug', sage.sefariaTopicSlug || ''));
+
+      const nasiGroup = document.createElement('div');
+      nasiGroup.className = 'field-group';
+      const nasiLabel = document.createElement('label');
+      nasiLabel.style.cssText = 'display:flex;align-items:center;gap:6px';
+      const nasiCb = document.createElement('input');
+      nasiCb.type = 'checkbox';
+      nasiCb.id = 'sage-nasi';
+      nasiCb.checked = sage.nasi || false;
+      nasiCb.addEventListener('change', onSageFieldInput);
+      nasiLabel.appendChild(nasiCb);
+      nasiLabel.appendChild(document.createTextNode('Nasi'));
+      nasiGroup.appendChild(nasiLabel);
+      form.appendChild(nasiGroup);
+
+      editArea.appendChild(form);
+
+      // Relationship editor
+      renderSageRelEditor(editArea, sage);
+
+      // Research panel placeholder
+      const researchPanel = document.createElement('div');
+      researchPanel.className = 'sage-research-panel';
+      researchPanel.id = 'sage-research-panel';
+      editArea.appendChild(researchPanel);
+    }
+
+    function makeSageField(type, id, label, value, dir) {
+      const group = document.createElement('div');
+      group.className = 'field-group';
+      const lbl = document.createElement('label');
+      lbl.textContent = label;
+      group.appendChild(lbl);
+      const input = document.createElement('input');
+      input.type = type;
+      input.id = id;
+      input.value = value;
+      if (dir) input.dir = dir;
+      input.addEventListener('input', onSageFieldInput);
+      group.appendChild(input);
+      return group;
+    }
+
+    function makeSageSelectField(id, label, options, selected) {
+      const group = document.createElement('div');
+      group.className = 'field-group';
+      const lbl = document.createElement('label');
+      lbl.textContent = label;
+      group.appendChild(lbl);
+      const select = document.createElement('select');
+      select.id = id;
+      for (const opt of options) {
+        const o = document.createElement('option');
+        o.value = opt;
+        o.textContent = opt;
+        if (opt === selected) o.selected = true;
+        select.appendChild(o);
+      }
+      select.addEventListener('change', onSageFieldInput);
+      group.appendChild(select);
+      return group;
+    }
+
+    function makeSageTextareaField(id, label, value, rows) {
+      const group = document.createElement('div');
+      group.className = 'field-group';
+      const lbl = document.createElement('label');
+      lbl.textContent = label;
+      group.appendChild(lbl);
+      const ta = document.createElement('textarea');
+      ta.id = id;
+      ta.rows = rows || 3;
+      ta.value = value;
+      ta.addEventListener('input', onSageFieldInput);
+      group.appendChild(ta);
+      return group;
+    }
+
+    let sagePreviewTimer = null;
+
+    function onSageFieldInput() {
+      if (!sagesCurrentId) return;
+      sagesDirtySet.add(sagesCurrentId);
+      updateSageButtons();
+      renderSagesList(document.getElementById('sages-search').value);
+
+      clearTimeout(sagePreviewTimer);
+      sagePreviewTimer = setTimeout(() => {
+        const updated = collectSageFromForm();
+        if (updated) {
+          const card = document.getElementById('sage-card-preview');
+          if (card) renderSageCardContent(card, updated);
+        }
+      }, 150);
+    }
+
+    function updateSageButtons() {
+      const isDirty = sagesDirtySet.has(sagesCurrentId);
+      const saveBtn = document.getElementById('sage-save-btn');
+      const revertBtn = document.getElementById('sage-revert-btn');
+      if (saveBtn) saveBtn.disabled = !isDirty;
+      if (revertBtn) revertBtn.disabled = !isDirty;
+    }
+
+    function collectSageFromForm() {
+      const form = document.getElementById('sage-edit-form');
+      if (!form || !sageSnapshot) return null;
+
+      const sage = JSON.parse(JSON.stringify(sageSnapshot));
+      sage.name.en = document.getElementById('sage-name-en')?.value || '';
+      sage.name.he = document.getElementById('sage-name-he')?.value || '';
+      sage.era = document.getElementById('sage-era')?.value || 'tanna';
+      const genVal = document.getElementById('sage-generation')?.value;
+      sage.generation = genVal !== '' ? Number(genVal) : undefined;
+
+      const bornVal = document.getElementById('sage-born')?.value;
+      const diedVal = document.getElementById('sage-died')?.value;
+      sage.dates = {
+        born: bornVal !== '' ? Number(bornVal) : undefined,
+        died: diedVal !== '' ? Number(diedVal) : undefined,
+        approximate: document.getElementById('sage-approximate')?.checked || false,
+      };
+
+      sage.location = document.getElementById('sage-location')?.value || 'israel';
+      const locsVal = document.getElementById('sage-locations')?.value || '';
+      sage.locations = locsVal ? locsVal.split(',').map(s => s.trim()).filter(Boolean) : [];
+
+      sage.bio = document.getElementById('sage-bio')?.value || '';
+      const teachVal = document.getElementById('sage-teachings')?.value || '';
+      sage.teachings = teachVal ? teachVal.split('\n').filter(s => s.trim()) : [];
+      const storiesVal = document.getElementById('sage-stories')?.value || '';
+      sage.stories = storiesVal ? storiesVal.split('\n').filter(s => s.trim()) : [];
+      sage.sefariaTopicSlug = document.getElementById('sage-sefaria-slug')?.value || '';
+      sage.nasi = document.getElementById('sage-nasi')?.checked || false;
+
+      // Clean up empty values
+      if (sage.generation === undefined) delete sage.generation;
+      if (sage.dates.born === undefined) delete sage.dates.born;
+      if (sage.dates.died === undefined) delete sage.dates.died;
+      if (!sage.sefariaTopicSlug) delete sage.sefariaTopicSlug;
+
+      return sage;
+    }
+
+    async function saveSage() {
+      const sage = collectSageFromForm();
+      if (!sage) return;
+      try {
+        const res = await fetch(`/api/sage/${sage.id}`, {
+          method: 'PUT',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify(sage),
+        });
+        if (res.ok) {
+          const idx = state.sages.findIndex(s => s.id === sage.id);
+          if (idx >= 0) state.sages[idx] = sage;
+          sageSnapshot = JSON.parse(JSON.stringify(sage));
+          sagesDirtySet.delete(sage.id);
+          updateSageButtons();
+          renderSagesList(document.getElementById('sages-search').value);
+          showToast('Sage saved');
+        } else {
+          const errText = await res.text();
+          showToast(`Save failed: ${errText}`);
+        }
+      } catch (err) {
+        showToast(`Save error: ${err.message}`);
+      }
+    }
+
+    function revertSage() {
+      if (!sageSnapshot) return;
+      const idx = state.sages.findIndex(s => s.id === sagesCurrentId);
+      if (idx >= 0) state.sages[idx] = JSON.parse(JSON.stringify(sageSnapshot));
+      sagesDirtySet.delete(sagesCurrentId);
+      renderSageDetail(JSON.parse(JSON.stringify(sageSnapshot)));
+      renderSagesList(document.getElementById('sages-search').value);
+    }
+
+    async function deleteSage(id) {
+      if (!confirm(`Delete sage "${id}"? This cannot be undone.`)) return;
+      try {
+        const res = await fetch(`/api/sage/${id}`, { method: 'DELETE' });
+        if (res.ok) {
+          // Remove relationships pointing to this sage from other sages
+          for (const sage of state.sages) {
+            if (sage.relationships) {
+              sage.relationships = sage.relationships.filter(r => r.target !== id);
+            }
+          }
+          // Save each modified sage
+          for (const sage of state.sages) {
+            await fetch(`/api/sage/${sage.id}`, {
+              method: 'PUT',
+              headers: { 'Content-Type': 'application/json' },
+              body: JSON.stringify(sage),
+            });
+          }
+
+          state.sages = state.sages.filter(s => s.id !== id);
+          sagesDirtySet.delete(id);
+          sagesCurrentId = null;
+          sageSnapshot = null;
+          renderSagesList(document.getElementById('sages-search').value);
+          document.getElementById('sages-detail').innerHTML =
+            '<div class="sages-detail-empty">Select a sage from the list</div>';
+          showToast('Sage deleted');
+        } else {
+          showToast(`Delete failed: ${res.status}`);
+        }
+      } catch (err) {
+        showToast(`Delete error: ${err.message}`);
+      }
+    }
+
+    // Relationship editor
+    function renderSageRelEditor(container, sage) {
+      const section = document.createElement('div');
+      section.className = 'sage-rel-editor';
+      section.id = 'sage-rel-editor';
+
+      const h4 = document.createElement('h4');
+      h4.textContent = 'Relationships';
+      section.appendChild(h4);
+
+      const rels = sage.relationships || [];
+      if (rels.length === 0) {
+        const empty = document.createElement('div');
+        empty.style.cssText = 'font-size:12px;color:#999;font-style:italic;padding:4px 0';
+        empty.textContent = 'No relationships';
+        section.appendChild(empty);
+      }
+
+      for (let i = 0; i < rels.length; i++) {
+        const rel = rels[i];
+        const targetSage = state.sages.find(s => s.id === rel.target);
+        const targetName = targetSage ? targetSage.name.en : rel.target;
+        const row = document.createElement('div');
+        row.className = 'sage-rel-row';
+
+        const typeSpan = document.createElement('span');
+        typeSpan.className = 'badge badge-neutral';
+        typeSpan.textContent = rel.type;
+        row.appendChild(typeSpan);
+
+        const nameSpan = document.createElement('span');
+        nameSpan.textContent = targetName;
+        nameSpan.style.flex = '1';
+        row.appendChild(nameSpan);
+
+        const removeBtn = document.createElement('button');
+        removeBtn.className = 'rel-remove-btn';
+        removeBtn.textContent = '\u00D7';
+        removeBtn.title = 'Remove relationship';
+        const relIndex = i;
+        removeBtn.addEventListener('click', () => removeSageRelationship(sage.id, relIndex));
+        row.appendChild(removeBtn);
+
+        section.appendChild(row);
+      }
+
+      // Add relationship form
+      const addForm = document.createElement('div');
+      addForm.className = 'sage-rel-add-form';
+
+      const typeSelect = document.createElement('select');
+      typeSelect.id = 'sage-rel-type';
+      for (const t of SAGE_RELATIONSHIP_TYPES) {
+        const opt = document.createElement('option');
+        opt.value = t;
+        opt.textContent = t;
+        typeSelect.appendChild(opt);
+      }
+      addForm.appendChild(typeSelect);
+
+      const acWrapper = document.createElement('div');
+      acWrapper.className = 'sage-rel-autocomplete';
+      acWrapper.style.flex = '1';
+      const acInput = document.createElement('input');
+      acInput.type = 'text';
+      acInput.id = 'sage-rel-target-input';
+      acInput.placeholder = 'Search sage...';
+      acWrapper.appendChild(acInput);
+
+      const dropdown = document.createElement('div');
+      dropdown.className = 'sage-rel-dropdown';
+      dropdown.id = 'sage-rel-dropdown';
+      acWrapper.appendChild(dropdown);
+
+      let acTimer;
+      acInput.addEventListener('input', () => {
+        clearTimeout(acTimer);
+        acTimer = setTimeout(() => {
+          const q = acInput.value.trim().toLowerCase();
+          dropdown.innerHTML = '';
+          if (!q) { dropdown.classList.remove('open'); return; }
+          const matches = state.sages.filter(s =>
+            s.id !== sage.id &&
+            ((s.name.en || '').toLowerCase().includes(q) || s.id.toLowerCase().includes(q))
+          ).slice(0, 8);
+          if (matches.length === 0) { dropdown.classList.remove('open'); return; }
+          for (const m of matches) {
+            const item = document.createElement('div');
+            item.className = 'sage-rel-dropdown-item';
+            item.textContent = m.name.en + ' (' + m.id + ')';
+            item.dataset.id = m.id;
+            item.addEventListener('mousedown', (e) => {
+              e.preventDefault();
+              acInput.value = m.name.en;
+              acInput.dataset.selectedId = m.id;
+              dropdown.classList.remove('open');
+            });
+            dropdown.appendChild(item);
+          }
+          dropdown.classList.add('open');
+        }, 150);
+      });
+      acInput.addEventListener('blur', () => {
+        setTimeout(() => dropdown.classList.remove('open'), 150);
+      });
+
+      addForm.appendChild(acWrapper);
+
+      const addRelBtn = document.createElement('button');
+      addRelBtn.className = 'btn-primary';
+      addRelBtn.textContent = 'Add';
+      addRelBtn.addEventListener('click', () => addSageRelationship(sage.id));
+      addForm.appendChild(addRelBtn);
+
+      section.appendChild(addForm);
+      container.appendChild(section);
+    }
+
+    function addSageRelationship(sageId) {
+      const typeSelect = document.getElementById('sage-rel-type');
+      const targetInput = document.getElementById('sage-rel-target-input');
+      const targetId = targetInput.dataset.selectedId;
+      if (!targetId) {
+        showToast('Select a target sage');
+        return;
+      }
+      const type = typeSelect.value;
+
+      const sage = state.sages.find(s => s.id === sageId);
+      if (!sage) return;
+      if (!sage.relationships) sage.relationships = [];
+
+      // Check duplicate
+      if (sage.relationships.some(r => r.type === type && r.target === targetId)) {
+        showToast('Relationship already exists');
+        return;
+      }
+
+      sage.relationships.push({ type, target: targetId });
+
+      // Add reciprocal if applicable
+      const reciprocal = SAGE_RECIPROCALS[type];
+      if (reciprocal) {
+        const targetSage = state.sages.find(s => s.id === targetId);
+        if (targetSage) {
+          if (!targetSage.relationships) targetSage.relationships = [];
+          if (!targetSage.relationships.some(r => r.type === reciprocal && r.target === sageId)) {
+            targetSage.relationships.push({ type: reciprocal, target: sageId });
+          }
+        }
+      }
+
+      sagesDirtySet.add(sageId);
+      sageSnapshot = JSON.parse(JSON.stringify(sage));
+      renderSageDetail(sage);
+      updateSageButtons();
+      renderSagesList(document.getElementById('sages-search').value);
+    }
+
+    function removeSageRelationship(sageId, relIndex) {
+      const sage = state.sages.find(s => s.id === sageId);
+      if (!sage || !sage.relationships) return;
+
+      const removed = sage.relationships[relIndex];
+      sage.relationships.splice(relIndex, 1);
+
+      // Remove reciprocal
+      if (removed) {
+        const reciprocal = SAGE_RECIPROCALS[removed.type];
+        if (reciprocal) {
+          const targetSage = state.sages.find(s => s.id === removed.target);
+          if (targetSage && targetSage.relationships) {
+            targetSage.relationships = targetSage.relationships.filter(
+              r => !(r.type === reciprocal && r.target === sageId)
+            );
+          }
+        }
+      }
+
+      sagesDirtySet.add(sageId);
+      sageSnapshot = JSON.parse(JSON.stringify(sage));
+      renderSageDetail(sage);
+      updateSageButtons();
+      renderSagesList(document.getElementById('sages-search').value);
+    }
+
+    // Add new sage
+    document.getElementById('sages-add-btn').addEventListener('click', () => {
+      const id = prompt('Sage ID (e.g. rabbi-akiva):');
+      if (!id || !id.trim()) return;
+      const trimmedId = id.trim().toLowerCase().replace(/\s+/g, '-');
+      if (state.sages.some(s => s.id === trimmedId)) {
+        showToast('Sage ID already exists');
+        return;
+      }
+      const nameEn = prompt('English name:');
+      if (!nameEn || !nameEn.trim()) return;
+      const nameHe = prompt('Hebrew name:') || '';
+      const era = prompt('Era (tanna/amorai):', 'tanna') || 'tanna';
+      const gen = prompt('Generation (number):', '1') || '1';
+
+      const newSage = {
+        id: trimmedId,
+        name: { en: nameEn.trim(), he: nameHe.trim() },
+        era: era.trim(),
+        generation: parseInt(gen, 10) || 1,
+        dates: { approximate: true },
+        location: 'israel',
+        locations: [],
+        nasi: false,
+        relationships: [],
+        bio: '',
+        teachings: [],
+        stories: [],
+      };
+
+      (async () => {
+        try {
+          const res = await fetch('/api/sage', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify(newSage),
+          });
+          if (res.ok) {
+            state.sages.push(newSage);
+            selectSage(newSage.id);
+            showToast('Sage created');
+          } else {
+            const errText = await res.text();
+            showToast(`Create failed: ${errText}`);
+          }
+        } catch (err) {
+          showToast(`Create error: ${err.message}`);
+        }
+      })();
+    });
+
+    // Sages search
+    document.getElementById('sages-search').addEventListener('input', (e) => {
+      renderSagesList(e.target.value);
+    });
+
+    // --- Claude Research Integration ---
+    async function researchSage(sageId) {
+      const panel = document.getElementById('sage-research-panel');
+      if (!panel) return;
+
+      panel.innerHTML = '<div class="research-status"><span class="sage-research-spinner"></span> Researching...</div>';
+
+      try {
+        const res = await fetch(`/api/sage/${sageId}/research`, {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+        });
+
+        if (res.status === 501 || res.status === 503) {
+          panel.innerHTML = '<div class="research-status error">Claude CLI not available. The research endpoint is not yet implemented.</div>';
+          return;
+        }
+
+        if (!res.ok) {
+          panel.innerHTML = `<div class="research-status error">Research failed (${res.status})</div>`;
+          return;
+        }
+
+        const data = await res.json();
+        renderResearchResults(panel, data, sageId);
+      } catch (err) {
+        panel.innerHTML = `<div class="research-status error">Research error: ${err.message}</div>`;
+      }
+    }
+
+    function renderResearchResults(panel, data, sageId) {
+      panel.innerHTML = '';
+
+      const suggestions = data.suggestions || [];
+      if (suggestions.length === 0) {
+        panel.innerHTML = '<div class="research-status">No suggestions returned.</div>';
+        return;
+      }
+
+      const heading = document.createElement('h4');
+      heading.style.cssText = 'font-size:13px;font-weight:600;margin-bottom:8px';
+      heading.textContent = 'Research Suggestions';
+      panel.appendChild(heading);
+
+      for (let i = 0; i < suggestions.length; i++) {
+        const sug = suggestions[i];
+        const card = document.createElement('div');
+        card.className = 'research-suggestion-card';
+        card.id = `research-sug-${i}`;
+
+        const typeDiv = document.createElement('div');
+        typeDiv.className = 'suggestion-type';
+        typeDiv.textContent = sug.type || 'suggestion';
+        card.appendChild(typeDiv);
+
+        const contentDiv = document.createElement('div');
+        contentDiv.className = 'suggestion-content';
+        contentDiv.textContent = sug.content || '';
+        card.appendChild(contentDiv);
+
+        const actionsDiv = document.createElement('div');
+        actionsDiv.className = 'suggestion-actions';
+
+        const acceptBtn = document.createElement('button');
+        acceptBtn.className = 'btn-accept';
+        acceptBtn.textContent = 'Accept';
+        acceptBtn.addEventListener('click', () => acceptResearchSuggestion(sageId, sug, card));
+        actionsDiv.appendChild(acceptBtn);
+
+        const rejectBtn = document.createElement('button');
+        rejectBtn.className = 'btn-reject';
+        rejectBtn.textContent = 'Reject';
+        rejectBtn.addEventListener('click', () => card.remove());
+        actionsDiv.appendChild(rejectBtn);
+
+        card.appendChild(actionsDiv);
+        panel.appendChild(card);
+      }
+    }
+
+    function acceptResearchSuggestion(sageId, suggestion, card) {
+      const type = suggestion.type;
+      const content = suggestion.content;
+
+      if (type === 'bio') {
+        const bioTa = document.getElementById('sage-bio');
+        if (bioTa) {
+          bioTa.value = bioTa.value ? bioTa.value + '\n' + content : content;
+          onSageFieldInput();
+        }
+      } else if (type === 'teaching') {
+        const teachTa = document.getElementById('sage-teachings');
+        if (teachTa) {
+          teachTa.value = teachTa.value ? teachTa.value + '\n' + content : content;
+          onSageFieldInput();
+        }
+      } else if (type === 'story') {
+        const storiesTa = document.getElementById('sage-stories');
+        if (storiesTa) {
+          storiesTa.value = storiesTa.value ? storiesTa.value + '\n' + content : content;
+          onSageFieldInput();
+        }
+      } else if (type === 'relationship' && suggestion.relType && suggestion.relTarget) {
+        const sage = state.sages.find(s => s.id === sageId);
+        if (sage) {
+          if (!sage.relationships) sage.relationships = [];
+          if (!sage.relationships.some(r => r.type === suggestion.relType && r.target === suggestion.relTarget)) {
+            sage.relationships.push({ type: suggestion.relType, target: suggestion.relTarget });
+            sagesDirtySet.add(sageId);
+            sageSnapshot = JSON.parse(JSON.stringify(sage));
+            const relEditor = document.getElementById('sage-rel-editor');
+            if (relEditor) {
+              relEditor.remove();
+              const editArea = document.getElementById('sage-edit-area');
+              const researchPanel = document.getElementById('sage-research-panel');
+              if (editArea && researchPanel) {
+                renderSageRelEditor(editArea, sage);
+                editArea.appendChild(researchPanel);
+              }
+            }
+          }
+        }
+      }
+
+      card.remove();
+    }
+
+    // --- Stats Dashboard ---
+    function computeStats() {
+      const total = state.entries.length;
+      const withPos = state.entries.filter(e => e.g?.ps).length;
+      const withGender = state.entries.filter(e => e.g?.gn).length;
+      const withLanguage = state.entries.filter(e => e.g?.l).length;
+      const colMapped = state.entries.filter(e => e.col && e.col !== '?').length;
+      const withRefs = state.entries.filter(e => e.rf && Object.keys(e.rf).length > 0).length;
+
+      const annCounts = {};
+      for (const anns of Object.values(state.annotations)) {
+        for (const a of anns) {
+          annCounts[a.type] = (annCounts[a.type] || 0) + 1;
+        }
+      }
+
+      return { total, withPos, withGender, withLanguage, colMapped, withRefs, annCounts };
+    }
+
+    function renderStatsTab() {
+      const grid = document.getElementById('stats-grid');
+      grid.innerHTML = '<div class="loading-msg">Computing stats...</div>';
+      // Defer to next frame so the loading message renders
+      requestAnimationFrame(() => {
+        grid.innerHTML = '';
+        const stats = computeStats();
+        grid.appendChild(makeStatCard('Total Entries', stats.total, null, null));
+        grid.appendChild(makeStatCard('POS Coverage', stats.withPos, stats.total, 'blue'));
+        grid.appendChild(makeStatCard('Gender Coverage', stats.withGender, stats.total, 'green'));
+        grid.appendChild(makeStatCard('Language Coverage', stats.withLanguage, stats.total, 'blue'));
+        grid.appendChild(makeStatCard('Page/Column Mapped', stats.colMapped, stats.total, 'amber'));
+        grid.appendChild(makeStatCard('Reference Coverage', stats.withRefs, stats.total, 'purple'));
+        grid.appendChild(makeStatCard('Sages', state.sages.length, null, null));
+
+        const totalIssues = Object.values(stats.annCounts).reduce((a, b) => a + b, 0);
+        const issueCard = makeStatCard('Issues', totalIssues, null, null);
+        if (Object.keys(stats.annCounts).length > 0) {
+          const breakdown = document.createElement('div');
+          breakdown.className = 'stat-breakdown';
+          for (const [type, count] of Object.entries(stats.annCounts).sort((a, b) => b[1] - a[1])) {
+            const item = document.createElement('div');
+            item.className = 'stat-breakdown-item';
+            const label = ANNOTATION_TYPE_LABELS[type] || type;
+            item.innerHTML = `<span>${label}</span><span class="breakdown-count">${count}</span>`;
+            breakdown.appendChild(item);
+          }
+          issueCard.appendChild(breakdown);
+        }
+        grid.appendChild(issueCard);
+      }); // end rAF
+    }
+
+    function makeStatCard(label, value, total, barColor) {
+      const card = document.createElement('div');
+      card.className = 'stat-card';
+
+      const labelDiv = document.createElement('div');
+      labelDiv.className = 'stat-label';
+      labelDiv.textContent = label;
+      card.appendChild(labelDiv);
+
+      const valueDiv = document.createElement('div');
+      valueDiv.className = 'stat-value';
+      valueDiv.textContent = value.toLocaleString();
+      card.appendChild(valueDiv);
+
+      if (total != null && total > 0) {
+        const pct = ((value / total) * 100).toFixed(1);
+        const sub = document.createElement('div');
+        sub.className = 'stat-sub';
+        sub.textContent = `${pct}% of ${total.toLocaleString()}`;
+        card.appendChild(sub);
+
+        const bar = document.createElement('div');
+        bar.className = 'stat-bar';
+        const fill = document.createElement('div');
+        fill.className = 'stat-bar-fill ' + (barColor || 'blue');
+        fill.style.width = pct + '%';
+        bar.appendChild(fill);
+        card.appendChild(bar);
+      }
+
+      return card;
+    }
+
+    function showToast(message) {
+      let toast = document.querySelector('.toast');
+      if (!toast) {
+        toast = document.createElement('div');
+        toast.className = 'toast';
+        document.body.appendChild(toast);
+      }
+      toast.textContent = message;
+      // Force reflow before adding class
+      toast.offsetHeight;
+      toast.classList.add('visible');
+      setTimeout(() => toast.classList.remove('visible'), 3000);
+    }
+
+    // --- Init ---
+    document.addEventListener("DOMContentLoaded", () => {
+      loadData();
+      initDivider();
+      renderIssuesTab();
+    });
+  </script>
+</body>
+</html>

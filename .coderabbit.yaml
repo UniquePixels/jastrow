@@ -1,0 +1,67 @@
+# CodeRabbit Configuration
+# https://docs.coderabbit.ai/guides/configure-coderabbit
+
+language: en-US
+early_access: true
+reviews:
+  profile: assertive
+  request_changes_workflow: true
+  auto_title_instructions: |
+    Use the format: <emoji> <type>(scope): description
+    Types and emojis: new 🦄 / improve 🌈 / fix 🦠 / chore 🧺 / release 🚀 / doc 📖 / ci 🚦
+    Scope should reflect the primary area changed (e.g. ui, data, admin, ci).
+    Description must be lowercase, imperative mood, max 50 chars total.
+  review_details: true
+  fail_commit_status: true
+  suggested_labels: false
+  poem: false
+  pre_merge_checks:
+    docstrings:
+      mode: error
+
+  auto_review:
+    enabled: true
+    drafts: false
+    base_branches:
+      - main
+
+  path_instructions:
+    - path: "**"
+      instructions: |
+        General project rules:
+        - This is a vanilla JS static site PWA. No bundler, no framework, no npm packages at runtime.
+        - All JS runs in the browser unless under `data/admin/` (which uses Bun).
+        - Biome enforces lint and formatting.
+        - DOMPurify is loaded via CDN with SRI for XSS sanitization.
+
+    - path: "assets/scripts/**"
+      instructions: |
+        Browser JavaScript. Focus on:
+        - No module bundler — files loaded via `<script>` tags
+        - DOM API usage and event handling patterns
+        - Service worker lifecycle awareness
+        - Accessibility (WCAG 2.1 AA compliance)
+        - No `var` — use `const`/`let`
+
+    - path: "data/admin/**"
+      instructions: |
+        Local dev tooling that runs on Bun (not deployed). Includes:
+        - Admin server (`server.ts`) for annotating dictionary entries
+        - AI classification helper
+        - `console` and `process.env` are expected here
+
+    - path: ".github/**"
+      instructions: |
+        CI/CD configuration. Check for:
+        - Pinned action versions with hash comments
+        - Harden Runner with egress blocking on all jobs
+        - No credential or secret exposure risks
+        - Correct branch targeting (main only)
+
+issue_enrichment:
+  auto_enrich:
+    enabled: true
+  planning:
+    auto_planning:
+      labels:
+        - '!no-plan'

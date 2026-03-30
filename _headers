@@ -1,0 +1,40 @@
+# Cloudflare Pages Security Headers
+# https://developers.cloudflare.com/pages/platform/headers/
+
+# Apply security headers to all routes
+/*
+  Content-Security-Policy: default-src 'self'; script-src 'self' 'unsafe-inline' https://cdn.jsdelivr.net https://kit.webawesome.com https://kit.fontawesome.com https://unpkg.com; style-src 'self' 'unsafe-inline' https://unpkg.com; img-src 'self' data: https://ia600802.us.archive.org https://*.us.archive.org; font-src 'self' data: https://fonts.gstatic.com; connect-src 'self'; frame-src 'none'; frame-ancestors 'none'; base-uri 'self'; form-action 'self'; object-src 'none'
+  X-Frame-Options: DENY
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: strict-origin-when-cross-origin
+  Permissions-Policy: geolocation=(), microphone=(), camera=(), payment=(), usb=(), magnetometer=(), gyroscope()
+  X-XSS-Protection: 1; mode=block
+
+# Cache JSONL data files aggressively (immutable content)
+/data/jastrow-part1.jsonl
+  Cache-Control: public, max-age=31536000, immutable
+  Access-Control-Allow-Origin: *
+
+/data/jastrow-part2.jsonl
+  Cache-Control: public, max-age=31536000, immutable
+  Access-Control-Allow-Origin: *
+
+# Cache bundled JavaScript assets
+/assets/*.js
+  Cache-Control: public, max-age=31536000, immutable
+
+# Cache CSS assets
+/assets/*.css
+  Cache-Control: public, max-age=31536000, immutable
+
+# Cache images
+/assets/images/*
+  Cache-Control: public, max-age=86400
+
+# HTML files: short cache, must revalidate
+/*.html
+  Cache-Control: public, max-age=3600, must-revalidate
+
+# Root index
+/
+  Cache-Control: public, max-age=3600, must-revalidate

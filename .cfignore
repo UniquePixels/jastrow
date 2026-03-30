@@ -1,0 +1,14 @@
+data/admin/
+data/raw/
+docs/
+.claude/
+.github/
+.vscode/
+biome.json
+.commitlintrc.ts
+.editorconfig
+.mise.toml
+CODE_OF_CONDUCT.md
+CONTRIBUTING.md
+DCO
+SECURITY.md
