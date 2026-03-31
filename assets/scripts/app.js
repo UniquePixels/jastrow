@@ -898,6 +898,8 @@ class JastrowApp {
 				return;
 			}
 
+			// Remove tooltip before reading text (tooltip children pollute textContent)
+			hideTooltip();
 			const key = abbr.textContent;
 			if (!this.dataLoader.abbrMap[key]) {
 				return;
