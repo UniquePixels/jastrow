@@ -1803,10 +1803,8 @@ class JastrowApp {
 		container.append(filter, tabGroup);
 
 		// Load both data sources
-		await Promise.all([
-			this._loadJastrowAbbreviations(jastrowPanel),
-			this._loadHebrewAbbreviations(hebrewPanel),
-		]);
+		this._loadJastrowAbbreviations(jastrowPanel);
+		await this._loadHebrewAbbreviations(hebrewPanel);
 
 		// Lookup logic — scroll to and highlight the best match
 		let filterTimer = null;
@@ -1882,60 +1880,54 @@ class JastrowApp {
 	}
 
 	/**
-	 * Load and render Jastrow abbreviations into a tab panel.
+	 * Render Jastrow abbreviations into a tab panel from the shared abbrMap.
 	 */
-	async _loadJastrowAbbreviations(panel) {
-		try {
-			if (!this._abbrDataCache) {
-				const response = await fetch('data/jastrow-abbr.json');
-				if (!response.ok) {
-					throw new Error('Failed to load');
-				}
-				this._abbrDataCache = await response.json();
-			}
+	_loadJastrowAbbreviations(panel) {
+		const abbrs = this.dataLoader.abbrMap;
 
-			const grid = document.createElement('div');
-			grid.className = 'abbr-grid';
-
-			const abbrs = this._abbrDataCache.abbreviations;
-			const sorted = Object.keys(abbrs).sort((a, b) =>
-				a.localeCompare(b, undefined, { sensitivity: 'base' }),
-			);
-
-			for (const key of sorted) {
-				const def = abbrs[key];
-				const row = document.createElement('div');
-				row.className = 'abbr-row';
-				row.dataset.search =
-					`${key} ${def.original} ${def.modern}`.toLowerCase();
-
-				const term = document.createElement('div');
-				term.className = 'abbr-term';
-				term.textContent = key;
-
-				const defDiv = document.createElement('div');
-				defDiv.className = 'abbr-def';
-
-				const modern = document.createElement('div');
-				modern.className = 'abbr-modern';
-				modern.textContent = def.modern;
-
-				const original = document.createElement('div');
-				original.className = 'abbr-original';
-				original.textContent = `Originally: ${def.original}`;
-
-				defDiv.append(modern, original);
-				row.append(term, defDiv);
-				grid.appendChild(row);
-			}
-
-			panel.appendChild(grid);
-		} catch {
+		if (Object.keys(abbrs).length === 0) {
 			const err = document.createElement('div');
 			err.className = 'abbr-no-results';
-			err.textContent = 'Unable to load abbreviations. Check your connection.';
+			err.textContent = 'Abbreviation data not available.';
 			panel.appendChild(err);
+			return;
 		}
+
+		const grid = document.createElement('div');
+		grid.className = 'abbr-grid';
+
+		const sorted = Object.keys(abbrs).sort((a, b) =>
+			a.localeCompare(b, undefined, { sensitivity: 'base' }),
+		);
+
+		for (const key of sorted) {
+			const def = abbrs[key];
+			const row = document.createElement('div');
+			row.className = 'abbr-row';
+			row.dataset.search =
+				`${key} ${def.original} ${def.modern}`.toLowerCase();
+
+			const term = document.createElement('div');
+			term.className = 'abbr-term';
+			term.textContent = key;
+
+			const defDiv = document.createElement('div');
+			defDiv.className = 'abbr-def';
+
+			const modern = document.createElement('div');
+			modern.className = 'abbr-modern';
+			modern.textContent = def.modern;
+
+			const original = document.createElement('div');
+			original.className = 'abbr-original';
+			original.textContent = `Originally: ${def.original}`;
+
+			defDiv.append(modern, original);
+			row.append(term, defDiv);
+			grid.appendChild(row);
+		}
+
+		panel.appendChild(grid);
 	}
 
 	/**
