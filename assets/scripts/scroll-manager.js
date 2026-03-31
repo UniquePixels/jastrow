@@ -11,7 +11,14 @@
  * (not Safari).
  */
 class InfiniteScroll {
-	constructor({ container, createEntry, getEntries, getPageStartIndex, totalEntries, onPageChange }) {
+	constructor({
+		container,
+		createEntry,
+		getEntries,
+		getPageStartIndex,
+		totalEntries,
+		onPageChange,
+	}) {
 		this.container = container;
 		this.createEntry = createEntry;
 		this.getEntries = getEntries;
@@ -46,7 +53,9 @@ class InfiniteScroll {
 	 */
 	init() {
 		this._scrollHandler = () => {
-			if (this._rafId) return; // Already scheduled
+			if (this._rafId) {
+				return; // Already scheduled
+			}
 			this._rafId = requestAnimationFrame(() => {
 				this._rafId = null;
 				this._onScroll();
@@ -77,7 +86,9 @@ class InfiniteScroll {
 			start = scrollToEntryIndex;
 		} else {
 			start = this.getPageStartIndex(targetPage);
-			if (start < 0) return;
+			if (start < 0) {
+				return;
+			}
 		}
 
 		// Load one chunk
@@ -168,10 +179,14 @@ class InfiniteScroll {
 	 * Scroll to a specific entry by ID using ResizeObserver for timing.
 	 */
 	scrollToEntry(entryId) {
-		const entryElement = this.container.querySelector(`[data-entry-id="${CSS.escape(entryId)}"]`);
-		if (!entryElement) return;
+		const entryElement = this.container.querySelector(
+			`[data-entry-id="${CSS.escape(entryId)}"]`,
+		);
+		if (!entryElement) {
+			return;
+		}
 
-		this.container.querySelectorAll('.entry-highlight').forEach(el => {
+		this.container.querySelectorAll('.entry-highlight').forEach((el) => {
 			el.classList.remove('entry-highlight');
 		});
 		entryElement.classList.add('entry-highlight');
@@ -200,9 +215,13 @@ class InfiniteScroll {
 
 	_doScroll(element) {
 		const rect = element.getBoundingClientRect();
-		const currentScrollTop = window.pageYOffset || document.documentElement.scrollTop;
+		const currentScrollTop =
+			window.pageYOffset || document.documentElement.scrollTop;
 		const headerOffset = 100;
-		window.scrollTo({ top: currentScrollTop + rect.top - headerOffset, behavior: 'instant' });
+		window.scrollTo({
+			top: currentScrollTop + rect.top - headerOffset,
+			behavior: 'instant',
+		});
 	}
 
 	/**
@@ -225,7 +244,9 @@ class InfiniteScroll {
 		this._updateVisiblePage();
 
 		// Don't load more entries while initial render is settling
-		if (this._suppressLoading) return;
+		if (this._suppressLoading) {
+			return;
+		}
 
 		const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
 		const scrollBottom = scrollTop + window.innerHeight;
@@ -235,18 +256,29 @@ class InfiniteScroll {
 		this._lastScrollTop = scrollTop;
 
 		// Near bottom AND scrolling down — load forward
-		if (scrollingDown && docHeight - scrollBottom < window.SCROLL.LOAD_THRESHOLD && this.endIndex < this.totalEntries) {
+		if (
+			scrollingDown &&
+			docHeight - scrollBottom < window.SCROLL.LOAD_THRESHOLD &&
+			this.endIndex < this.totalEntries
+		) {
 			this._loadForward();
 		}
 
 		// Near top AND scrolling up — load backward
-		if (scrollingUp && scrollTop < window.SCROLL.LOAD_THRESHOLD && this.startIndex > 0 && !this._loadingTop) {
+		if (
+			scrollingUp &&
+			scrollTop < window.SCROLL.LOAD_THRESHOLD &&
+			this.startIndex > 0 &&
+			!this._loadingTop
+		) {
 			this._loadBackward();
 		}
 	}
 
 	_loadForward() {
-		if (this._loadingBottom) return;
+		if (this._loadingBottom) {
+			return;
+		}
 		this._loadingBottom = true;
 
 		const newEntries = this.getEntries(this.endIndex, this.CHUNK_SIZE);
@@ -273,7 +305,9 @@ class InfiniteScroll {
 	}
 
 	_loadBackward() {
-		if (this._loadingTop) return;
+		if (this._loadingTop) {
+			return;
+		}
 		this._loadingTop = true;
 		this._cancelDriftObserver();
 
@@ -377,8 +411,9 @@ class InfiniteScroll {
 		this._cancelDriftObserver();
 
 		const timers = { settle: null, safety: null };
-		const savedDocPos = anchorEl.getBoundingClientRect().top
-			+ (window.pageYOffset || document.documentElement.scrollTop);
+		const savedDocPos =
+			anchorEl.getBoundingClientRect().top +
+			(window.pageYOffset || document.documentElement.scrollTop);
 
 		const observer = new ResizeObserver(() => {
 			clearTimeout(timers.settle);
@@ -386,8 +421,9 @@ class InfiniteScroll {
 				observer.disconnect();
 				this._driftObserver = null;
 				this._driftTimers = null;
-				const currentDocPos = anchorEl.getBoundingClientRect().top
-					+ (window.pageYOffset || document.documentElement.scrollTop);
+				const currentDocPos =
+					anchorEl.getBoundingClientRect().top +
+					(window.pageYOffset || document.documentElement.scrollTop);
 				const drift = currentDocPos - savedDocPos;
 				if (window.DEBUG) {
 					console.log('[Scroll] drift settle:', {
@@ -434,7 +470,9 @@ class InfiniteScroll {
 
 	_evictTop() {
 		const entryCount = this.container.children.length;
-		if (entryCount <= window.SCROLL.DOM_CAP) return;
+		if (entryCount <= window.SCROLL.DOM_CAP) {
+			return;
+		}
 
 		const excess = entryCount - window.SCROLL.DOM_CAP;
 
@@ -457,7 +495,9 @@ class InfiniteScroll {
 
 	_evictBottom() {
 		const entryCount = this.container.children.length;
-		if (entryCount <= window.SCROLL.DOM_CAP) return;
+		if (entryCount <= window.SCROLL.DOM_CAP) {
+			return;
+		}
 
 		const excess = entryCount - window.SCROLL.DOM_CAP;
 		for (let i = 0; i < excess; i++) {
@@ -473,7 +513,7 @@ class InfiniteScroll {
 		for (const el of entries) {
 			const rect = el.getBoundingClientRect();
 			if (rect.top <= viewportMid && rect.bottom >= 0) {
-				const page = parseInt(el.dataset.dictPage);
+				const page = parseInt(el.dataset.dictPage, 10);
 				if (page !== this.currentVisiblePage) {
 					this.currentVisiblePage = page;
 					if (this.onPageChange) {
@@ -491,13 +531,17 @@ class InfiniteScroll {
 	// ---- Listener management ----
 
 	_startListening() {
-		if (this._listening || !this._scrollHandler) return;
+		if (this._listening || !this._scrollHandler) {
+			return;
+		}
 		window.addEventListener('scroll', this._scrollHandler, { passive: true });
 		this._listening = true;
 	}
 
 	_stopListening() {
-		if (!this._listening) return;
+		if (!this._listening) {
+			return;
+		}
 		window.removeEventListener('scroll', this._scrollHandler);
 		this._listening = false;
 		if (this._rafId) {

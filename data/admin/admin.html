@@ -2331,7 +2331,7 @@
     const tabBar = document.querySelector(".tab-bar");
     tabBar.addEventListener("click", (e) => {
       const button = e.target.closest(".tab-button");
-      if (!button) return;
+      if (!button) { return; }
 
       const tabId = button.dataset.tab;
 
@@ -2373,7 +2373,7 @@
           fetch("/api/annotations"),
         ]);
 
-        if (!entriesRes.ok) throw new Error(`Entries API returned ${entriesRes.status}`);
+        if (!entriesRes.ok) { throw new Error(`Entries API returned ${entriesRes.status}`); }
 
         const entriesData = await entriesRes.json();
         state.entries = entriesData.entries;
@@ -2491,8 +2491,8 @@
       const pageInfo = document.createElement("span");
       pageInfo.className = "entry-page-info";
       const parts = [];
-      if (entry.p != null) parts.push(`p. ${entry.p}`);
-      if (entry.col) parts.push(`col. ${entry.col}`);
+      if (entry.p != null) { parts.push(`p. ${entry.p}`); }
+      if (entry.col) { parts.push(`col. ${entry.col}`); }
       pageInfo.textContent = parts.join(", ");
       meta.appendChild(pageInfo);
 
@@ -2502,7 +2502,7 @@
       const content = document.createElement("div");
       content.className = "entry-content";
 
-      if (entry.c && entry.c.s) {
+      if (entry.c?.s) {
         const languageInfo = entry.li || "";
         const sensesFrag = formatSenses(entry.c.s, 0, languageInfo);
         if (sensesFrag.hasChildNodes()) {
@@ -2529,13 +2529,13 @@
       const span = document.createElement("span");
       span.className = `badge badge-${variant}`;
       span.textContent = text;
-      if (tooltip) span.title = tooltip;
+      if (tooltip) { span.title = tooltip; }
       return span;
     }
 
     function formatSenses(senses, level, languageInfo) {
       const frag = document.createDocumentFragment();
-      if (!senses || senses.length === 0) return frag;
+      if (!senses || senses.length === 0) { return frag; }
 
       const firstSense = senses[0];
       const hasPrimarySense = firstSense.d && !firstSense.n && !firstSense.g;
@@ -2595,7 +2595,7 @@
 
             const stemSpan = document.createElement("span");
             stemSpan.className = "verbal-stem";
-            stemSpan.textContent = (sense.g.vs || "") + " ";
+            stemSpan.textContent = `${sense.g.vs || ""} `;
             grammarHeader.appendChild(stemSpan);
 
             const binyanForms = sense.g.bf || [];
@@ -2632,7 +2632,7 @@
 
               const numSpan = document.createElement("span");
               numSpan.className = "sense-number";
-              numSpan.textContent = cleanNumber + " ";
+              numSpan.textContent = `${cleanNumber} `;
               senseDiv.appendChild(numSpan);
 
               const defSpan = document.createElement("span");
@@ -2678,7 +2678,7 @@
         }
       }
 
-      if (counts.length === 0) return null;
+      if (counts.length === 0) { return null; }
 
       const div = document.createElement("div");
       div.className = "entry-refs";
@@ -2723,10 +2723,10 @@
       archiveLink.href = `https://archive.org/details/${ARCHIVE_ID}/page/${page}/mode/1up`;
 
       prevBtn.disabled = page <= 1;
-      prevBtn.onclick = () => { if (page > 1) showPageScanDialog(page - 1); };
+      prevBtn.onclick = () => { if (page > 1) { showPageScanDialog(page - 1);  }};
 
       nextBtn.disabled = page >= 1704;
-      nextBtn.onclick = () => { if (page < 1704) showPageScanDialog(page + 1); };
+      nextBtn.onclick = () => { if (page < 1704) { showPageScanDialog(page + 1);  }};
 
       dialog.showModal();
     }
@@ -2736,7 +2736,7 @@
     });
 
     document.getElementById('page-scan-dialog').addEventListener('click', (e) => {
-      if (e.target === e.currentTarget) e.currentTarget.close();
+      if (e.target === e.currentTarget) { e.currentTarget.close(); }
     });
 
     // --- Dictionary Preview Dialog ---
@@ -2745,7 +2745,7 @@
     });
 
     document.getElementById('dict-preview-dialog').addEventListener('click', (e) => {
-      if (e.target === e.currentTarget) e.currentTarget.close();
+      if (e.target === e.currentTarget) { e.currentTarget.close(); }
     });
 
     // --- Formatting Reference Dialog ---
@@ -2754,7 +2754,7 @@
     });
 
     document.getElementById('format-ref-dialog').addEventListener('click', (e) => {
-      if (e.target === e.currentTarget) e.currentTarget.close();
+      if (e.target === e.currentTarget) { e.currentTarget.close(); }
     });
 
     // --- Entry Editor: Dirty Tracking & Save/Revert ---
@@ -2837,7 +2837,7 @@
       form.appendChild(makeTextareaField("li", "Language Info", entry.li || "", 3));
 
       // Senses
-      const senses = (entry.c && entry.c.s) ? entry.c.s : [];
+      const senses = (entry.c?.s) ? entry.c.s : [];
       {
         const sensesFieldset = document.createElement("fieldset");
         sensesFieldset.innerHTML = "<legend>Senses</legend>";
@@ -2851,12 +2851,12 @@
             const labelRow = document.createElement("div");
             labelRow.className = "sense-label-row";
             const lbl = document.createElement("span");
-            lbl.className = "sense-editor-label" + (indented ? " indented" : "");
+            lbl.className = `sense-editor-label${indented ? " indented" : ""}`;
             lbl.textContent = label;
             labelRow.appendChild(lbl);
             // Delete button for top-level senses only (path like "0.d", not nested)
-            const topIdx = parseInt(path.split('.')[0]);
-            if (!indented && !isNaN(topIdx)) {
+            const topIdx = parseInt(path.split('.')[0], 10);
+            if (!(indented || Number.isNaN(topIdx))) {
               const delBtn = document.createElement("button");
               delBtn.type = "button";
               delBtn.className = "sense-delete-btn";
@@ -2890,8 +2890,8 @@
         addSenseBtn.className = "btn-add-sense";
         addSenseBtn.textContent = "+ Add Sense";
         addSenseBtn.addEventListener("click", () => {
-          if (!entry.c) entry.c = { s: [] };
-          if (!entry.c.s) entry.c.s = [];
+          if (!entry.c) { entry.c = { s: [] }; }
+          if (!entry.c.s) { entry.c.s = []; }
           const num = entry.c.s.filter(s => s.d && !s.g).length + 1;
           entry.c.s.push({ d: "", n: num > 1 ? `${num}) ` : undefined });
           state.entries[state.currentIndex] = entry;
@@ -2936,7 +2936,7 @@
       input.type = "text";
       input.name = name;
       input.value = value;
-      if (dir) input.dir = dir;
+      if (dir) { input.dir = dir; }
       input.addEventListener("input", onFieldInput);
       group.appendChild(input);
       return group;
@@ -2969,7 +2969,7 @@
         const option = document.createElement("option");
         option.value = opt;
         option.textContent = opt;
-        if (opt === selected) option.selected = true;
+        if (opt === selected) { option.selected = true; }
         select.appendChild(option);
       }
       select.addEventListener("change", onFieldInput);
@@ -3002,7 +3002,7 @@
         const path = prefix ? `${prefix}.${i}` : `${i}`;
         if (s.g) {
           // Grammar section: label with verbal stem
-          const label = (s.g.vs || "Grammar") + (s.g.bf ? " (" + s.g.bf.join(", ") + ")" : "");
+          const label = (s.g.vs || "Grammar") + (s.g.bf ? ` (${s.g.bf.join(", ")})` : "");
           if (s.s && s.s.length > 0) {
             const sub = flattenSenses(s.s, `${path}.s`, level + 1);
             for (const item of sub) {
@@ -3044,49 +3044,49 @@
     function updateSaveRevertButtons() {
       const saveBtn = document.getElementById("btn-save");
       const revertBtn = document.getElementById("btn-revert");
-      if (saveBtn) saveBtn.disabled = !state.dirty;
-      if (revertBtn) revertBtn.disabled = !state.dirty;
+      if (saveBtn) { saveBtn.disabled = !state.dirty; }
+      if (revertBtn) { revertBtn.disabled = !state.dirty; }
     }
 
     function collectEntryFromForm() {
       const form = document.getElementById("editor-form");
-      if (!form) return state.entries[state.currentIndex];
+      if (!form) { return state.entries[state.currentIndex]; }
 
       const entry = JSON.parse(JSON.stringify(entrySnapshot));
 
       // Simple text fields
       const hw = form.querySelector('[name="hw"]');
-      if (hw) entry.hw = hw.value;
+      if (hw) { entry.hw = hw.value; }
 
       const nh = form.querySelector('[name="nh"]');
-      if (nh) entry.nh = nh.value || undefined;
+      if (nh) { entry.nh = nh.value || undefined; }
 
       const ph = form.querySelector('[name="ph"]');
-      if (ph) entry.ph = ph.value || undefined;
+      if (ph) { entry.ph = ph.value || undefined; }
 
       // Page
       const p = form.querySelector('[name="p"]');
-      if (p) entry.p = p.value !== "" ? Number(p.value) : undefined;
+      if (p) { entry.p = p.value !== "" ? Number(p.value) : undefined; }
 
       // Column
       const col = form.querySelector('[name="col"]');
-      if (col) entry.col = col.value || undefined;
+      if (col) { entry.col = col.value || undefined; }
 
       // Grammar
       const gl = form.querySelector('[name="g.l"]');
       const gps = form.querySelector('[name="g.ps"]');
       const ggn = form.querySelector('[name="g.gn"]');
       const gObj = {};
-      if (gl && gl.value !== "(none)") gObj.l = gl.value;
-      if (gps && gps.value !== "(none)") gObj.ps = gps.value;
-      if (ggn && ggn.value !== "(none)") gObj.gn = ggn.value;
+      if (gl && gl.value !== "(none)") { gObj.l = gl.value; }
+      if (gps && gps.value !== "(none)") { gObj.ps = gps.value; }
+      if (ggn && ggn.value !== "(none)") { gObj.gn = ggn.value; }
       if (Object.keys(gObj).length > 0) {
         entry.g = { ...(entry.g || {}), ...gObj };
         // Remove keys set to (none)
-        if (gl && gl.value === "(none)") delete entry.g.l;
-        if (gps && gps.value === "(none)") delete entry.g.ps;
-        if (ggn && ggn.value === "(none)") delete entry.g.gn;
-        if (Object.keys(entry.g).length === 0) delete entry.g;
+        if (gl && gl.value === "(none)") { delete entry.g.l; }
+        if (gps && gps.value === "(none)") { delete entry.g.ps; }
+        if (ggn && ggn.value === "(none)") { delete entry.g.gn; }
+        if (Object.keys(entry.g).length === 0) { delete entry.g; }
       } else {
         delete entry.g;
       }
@@ -3107,7 +3107,7 @@
       // References
       const refCats = ["t", "b", "mi", "j", "o"];
       let hasAnyRef = false;
-      if (!entry.rf) entry.rf = {};
+      if (!entry.rf) { entry.rf = {}; }
       for (const cat of refCats) {
         const refTa = form.querySelector(`[name="rf.${cat}"]`);
         if (refTa) {
@@ -3120,11 +3120,11 @@
           }
         }
       }
-      if (!hasAnyRef) delete entry.rf;
+      if (!hasAnyRef) { delete entry.rf; }
 
       // Clean up undefined values for JSON serialization
       for (const key of ["nh", "ph", "p", "col", "li"]) {
-        if (entry[key] === undefined) delete entry[key];
+        if (entry[key] === undefined) { delete entry[key]; }
       }
 
       return entry;
@@ -3183,7 +3183,7 @@
 
     // --- Entry Navigation ---
     function navigateTo(index) {
-      if (state.dirty && !confirm('Unsaved changes. Discard?')) return;
+      if (state.dirty && !confirm('Unsaved changes. Discard?')) { return; }
       state.currentIndex = Math.max(0, Math.min(index, state.entries.length - 1));
       state.dirty = false;
       renderCurrentEntry();
@@ -3226,9 +3226,9 @@
 
     // RID jump
     document.getElementById('nav-rid').addEventListener('keydown', (e) => {
-      if (e.key !== 'Enter') return;
+      if (e.key !== 'Enter') { return; }
       const rid = e.target.value.trim();
-      if (!rid) return;
+      if (!rid) { return; }
       const idx = state.entries.findIndex(entry => entry.id === rid);
       if (idx >= 0) {
         e.target.value = '';
@@ -3296,7 +3296,7 @@
     // Keyboard navigation (Left/Right arrows when not in an input)
     document.addEventListener('keydown', (e) => {
       const tag = document.activeElement?.tagName;
-      if (tag === 'INPUT' || tag === 'TEXTAREA' || tag === 'SELECT') return;
+      if (tag === 'INPUT' || tag === 'TEXTAREA' || tag === 'SELECT') { return; }
       if (e.key === 'ArrowLeft') {
         e.preventDefault();
         navigateTo(state.currentIndex - 1);
@@ -3320,7 +3320,7 @@
       });
 
       document.addEventListener('mousemove', (e) => {
-        if (!dragging) return;
+        if (!dragging) { return; }
         const rect = container.getBoundingClientRect();
         const pct = ((e.clientX - rect.left) / rect.width) * 100;
         const clamped = Math.max(20, Math.min(80, pct));
@@ -3437,7 +3437,7 @@
       const typeSelect = document.getElementById('ann-add-type');
       const noteInput = document.getElementById('ann-add-note');
       const note = noteInput.value.trim();
-      if (!note) return;
+      if (!note) { return; }
 
       const annotation = {
         type: typeSelect.value,
@@ -3458,7 +3458,7 @@
 
     async function deleteAnnotation(rid, index) {
       const annotations = state.annotations[rid];
-      if (!annotations) return;
+      if (!annotations) { return; }
       annotations.splice(index, 1);
       if (annotations.length === 0) {
         delete state.annotations[rid];
@@ -3484,22 +3484,22 @@
 
     function refreshAnnotationsSection(rid) {
       const existing = document.getElementById('annotations-section');
-      if (!existing) return;
+      if (!existing) { return; }
       const newSection = renderAnnotationsSection(rid);
       existing.replaceWith(newSection);
     }
 
     // --- Issues Tab ---
-    let issuesSelectedSet = new Set();
+    const issuesSelectedSet = new Set();
     let issuesFilterState = null; // null = all checked (default)
 
     function getAnnotationTypeCounts() {
       const counts = {};
-      for (const t of ANNOTATION_TYPES) counts[t] = 0;
+      for (const t of ANNOTATION_TYPES) { counts[t] = 0; }
       for (const annotations of Object.values(state.annotations)) {
         for (const ann of annotations) {
-          if (counts[ann.type] !== undefined) counts[ann.type]++;
-          else counts[ann.type] = 1;
+          if (counts[ann.type] !== undefined) { counts[ann.type]++; }
+          else { counts[ann.type] = 1; }
         }
       }
       return counts;
@@ -3510,7 +3510,7 @@
       const activeTypes = new Set();
       const checkboxes = filterBar.querySelectorAll('input[type="checkbox"]');
       for (const cb of checkboxes) {
-        if (cb.checked) activeTypes.add(cb.value);
+        if (cb.checked) { activeTypes.add(cb.value); }
       }
       const searchInput = filterBar.querySelector('.issues-search-input');
       const searchText = searchInput ? searchInput.value.toLowerCase() : '';
@@ -3518,8 +3518,8 @@
       for (const [rid, annotations] of Object.entries(state.annotations)) {
         for (let i = 0; i < annotations.length; i++) {
           const ann = annotations[i];
-          if (!activeTypes.has(ann.type)) continue;
-          if (searchText && !ann.note.toLowerCase().includes(searchText)) continue;
+          if (!activeTypes.has(ann.type)) { continue; }
+          if (searchText && !ann.note.toLowerCase().includes(searchText)) { continue; }
           const entryIdx = state.entries.findIndex(e => e.id === rid);
           const hw = entryIdx !== -1 ? state.entries[entryIdx].hw : '?';
           results.push({ rid, hw, entryIdx, annIndex: i, ...ann });
@@ -3552,7 +3552,7 @@
           // Save filter state
           issuesFilterState = new Set();
           for (const checkbox of bar.querySelectorAll('input[type="checkbox"]')) {
-            if (checkbox.checked) issuesFilterState.add(checkbox.value);
+            if (checkbox.checked) { issuesFilterState.add(checkbox.value); }
           }
           issuesSelectedSet.clear();
           renderIssuesActionsBar();
@@ -3560,7 +3560,7 @@
         });
         label.appendChild(cb);
 
-        const text = document.createTextNode(' ' + ANNOTATION_TYPE_LABELS[t] + ' ');
+        const text = document.createTextNode(` ${ANNOTATION_TYPE_LABELS[t]} `);
         label.appendChild(text);
 
         const countBadge = document.createElement('span');
@@ -3648,7 +3648,7 @@
 
       const filtered = getFilteredAnnotations();
       const totalPages = Math.max(1, Math.ceil(filtered.length / ISSUES_PAGE_SIZE));
-      if (issuesPage >= totalPages) issuesPage = totalPages - 1;
+      if (issuesPage >= totalPages) { issuesPage = totalPages - 1; }
       const pageStart = issuesPage * ISSUES_PAGE_SIZE;
       const pageEnd = Math.min(pageStart + ISSUES_PAGE_SIZE, filtered.length);
       const pageItems = filtered.slice(pageStart, pageEnd);
@@ -3662,9 +3662,9 @@
       selectAllCb.addEventListener('change', () => {
         const keys = pageItems.map(r => `${r.rid}:${r.annIndex}`);
         if (selectAllCb.checked) {
-          for (const k of keys) issuesSelectedSet.add(k);
+          for (const k of keys) { issuesSelectedSet.add(k); }
         } else {
-          for (const k of keys) issuesSelectedSet.delete(k);
+          for (const k of keys) { issuesSelectedSet.delete(k); }
         }
         renderIssuesActionsBar();
         renderIssuesTable();
@@ -3808,7 +3808,7 @@
       ]);
       for (const rid of Object.keys(state.annotations)) {
         state.annotations[rid] = state.annotations[rid].filter(a => !AUTO_NOTES.has(a.note));
-        if (state.annotations[rid].length === 0) delete state.annotations[rid];
+        if (state.annotations[rid].length === 0) { delete state.annotations[rid]; }
       }
 
       let newCount = 0;
@@ -3822,7 +3822,7 @@
         }
 
         function addAnnotation(type, note) {
-          if (!state.annotations[rid]) state.annotations[rid] = [];
+          if (!state.annotations[rid]) { state.annotations[rid] = []; }
           state.annotations[rid].push({ type, note, created: today });
           newCount++;
         }
@@ -3833,7 +3833,7 @@
         }
 
         // Check definitions for issues
-        if (entry.c && entry.c.s) {
+        if (entry.c?.s) {
           const allDefs = collectDefinitions(entry.c.s);
           for (const def of allDefs) {
             // Unresolved word-link patterns
@@ -3860,20 +3860,20 @@
     function collectDefinitions(senses) {
       const defs = [];
       for (const s of senses) {
-        if (s.d) defs.push(s.d);
-        if (s.s) defs.push(...collectDefinitions(s.s));
+        if (s.d) { defs.push(s.d); }
+        if (s.s) { defs.push(...collectDefinitions(s.s)); }
       }
       return defs;
     }
 
     async function resolveSelectedAnnotations() {
-      if (issuesSelectedSet.size === 0) return;
+      if (issuesSelectedSet.size === 0) { return; }
 
       // Group by rid and sort indices descending for safe splicing
       const byRid = {};
       for (const key of issuesSelectedSet) {
         const [rid, idxStr] = key.split(':');
-        if (!byRid[rid]) byRid[rid] = [];
+        if (!byRid[rid]) { byRid[rid] = []; }
         byRid[rid].push(parseInt(idxStr, 10));
       }
 
@@ -3895,16 +3895,16 @@
       updateNavigation();
       // Refresh field editor annotations if visible
       const entry = state.entries[state.currentIndex];
-      if (entry) refreshAnnotationsSection(entry.id);
+      if (entry) { refreshAnnotationsSection(entry.id); }
     }
 
     async function recategorizeSelectedAnnotations(newType) {
-      if (issuesSelectedSet.size === 0) return;
+      if (issuesSelectedSet.size === 0) { return; }
 
       for (const key of issuesSelectedSet) {
         const [rid, idxStr] = key.split(':');
         const idx = parseInt(idxStr, 10);
-        if (state.annotations[rid] && state.annotations[rid][idx]) {
+        if (state.annotations[rid]?.[idx]) {
           state.annotations[rid][idx].type = newType;
         }
       }
@@ -3914,14 +3914,14 @@
       renderIssuesTab();
       // Refresh field editor annotations if visible
       const entry = state.entries[state.currentIndex];
-      if (entry) refreshAnnotationsSection(entry.id);
+      if (entry) { refreshAnnotationsSection(entry.id); }
     }
 
     // --- Abbreviations Editor ---
     // Sub-tab switching
     document.querySelector('.abbr-sub-tabs').addEventListener('click', (e) => {
       const btn = e.target.closest('.abbr-sub-tab');
-      if (!btn) return;
+      if (!btn) { return; }
       const tabId = btn.dataset.abbrTab;
       for (const b of document.querySelectorAll('.abbr-sub-tab')) {
         b.classList.toggle('active', b === btn);
@@ -3929,8 +3929,8 @@
       for (const c of document.querySelectorAll('.abbr-sub-content')) {
         c.classList.toggle('active', c.id === `abbr-${tabId}`);
       }
-      if (tabId === 'english') renderAbbrEnglish();
-      else renderAbbrHebrew();
+      if (tabId === 'english') { renderAbbrEnglish(); }
+      else { renderAbbrHebrew(); }
     });
 
     function renderAbbrEnglish(filterText) {
@@ -3952,7 +3952,7 @@
           const match = key.toLowerCase().includes(filter)
             || (item.original || '').toLowerCase().includes(filter)
             || (item.modern || '').toLowerCase().includes(filter);
-          if (!match) continue;
+          if (!match) { continue; }
         }
         visibleCount++;
 
@@ -4012,10 +4012,10 @@
 
     document.getElementById('abbr-add-btn').addEventListener('click', () => {
       const key = prompt('Enter abbreviation key:');
-      if (!key || !key.trim()) return;
+      if (!(key?.trim())) { return; }
       const trimmed = key.trim();
       const abbrs = state.abbreviations.english?.abbreviations;
-      if (!abbrs) return;
+      if (!abbrs) { return; }
       if (abbrs[trimmed]) {
         showToast(`Abbreviation "${trimmed}" already exists`);
         return;
@@ -4032,7 +4032,7 @@
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify({ abbreviations: state.abbreviations.english.abbreviations }),
         });
-        if (!res.ok) throw new Error(`Save failed: ${res.status}`);
+        if (!res.ok) { throw new Error(`Save failed: ${res.status}`); }
         showToast('English abbreviations saved');
       } catch (err) {
         showToast(`Error: ${err.message}`);
@@ -4065,7 +4065,7 @@
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify(hebrewData),
         });
-        if (!res.ok) throw new Error(`Save failed: ${res.status}`);
+        if (!res.ok) { throw new Error(`Save failed: ${res.status}`); }
         // Update local state
         state.abbreviations.hebrew = hebrewData;
         showToast('Hebrew abbreviations saved');
@@ -4096,7 +4096,7 @@
         selectedIndex: null,
         batchSize: 20,
       };
-      if (prev && prev.col === 'b') state.mapper.currentPage = prev.p + 1;
+      if (prev && prev.col === 'b') { state.mapper.currentPage = prev.p + 1; }
       renderMapperBatch();
     }
 
@@ -4132,7 +4132,7 @@
       for (let i = m.startIndex; i < end; i++) {
         const entry = state.entries[i];
         const item = document.createElement('div');
-        item.className = 'mapper-word-item' + (i === m.selectedIndex ? ' selected' : '');
+        item.className = `mapper-word-item${i === m.selectedIndex ? ' selected' : ''}`;
         item.dataset.index = i;
 
         const pcText = entry.col === '?'
@@ -4175,7 +4175,7 @@
 
     async function confirmMapperSelection() {
       const m = state.mapper;
-      if (m.selectedIndex === null) return;
+      if (m.selectedIndex === null) { return; }
 
       const updates = [];
       for (let i = m.startIndex; i <= m.selectedIndex; i++) {
@@ -4203,7 +4203,7 @@
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify({ updates }),
         });
-        if (!res.ok) throw new Error(`Save failed: ${res.status}`);
+        if (!res.ok) { throw new Error(`Save failed: ${res.status}`); }
         showToast(`Mapped ${updates.length} entries`);
       } catch (err) {
         showToast(`Error saving: ${err.message}`);
@@ -4240,7 +4240,7 @@
 
     document.getElementById('mapper-letter-confirm').addEventListener('click', () => {
       const page = parseInt(document.getElementById('mapper-letter-page').value, 10);
-      if (!isNaN(page) && page > 0) {
+      if (!Number.isNaN(page) && page > 0) {
         state.mapper.currentPage = page;
         state.mapper.currentColumn = 'a';
       }
@@ -4255,7 +4255,7 @@
 
     // --- Sages Editor ---
     let sagesCurrentId = null;
-    let sagesDirtySet = new Set();
+    const sagesDirtySet = new Set();
     let sageSnapshot = null;
 
     const SAGE_RELATIONSHIP_TYPES = ['teacher', 'father', 'son', 'wife', 'husband', 'brother-in-law'];
@@ -4280,7 +4280,7 @@
       }
       sages.sort((a, b) => {
         const eaDiff = (eraOrder[a.era] || 0) - (eraOrder[b.era] || 0);
-        if (eaDiff !== 0) return eaDiff;
+        if (eaDiff !== 0) { return eaDiff; }
         return (a.generation || 0) - (b.generation || 0);
       });
       return sages;
@@ -4298,7 +4298,7 @@
 
       for (const sage of sages) {
         const item = document.createElement('div');
-        item.className = 'sage-list-item' + (sage.id === sagesCurrentId ? ' active' : '');
+        item.className = `sage-list-item${sage.id === sagesCurrentId ? ' active' : ''}`;
         item.dataset.id = sage.id;
 
         const nameEn = document.createElement('span');
@@ -4312,13 +4312,13 @@
         item.appendChild(nameHe);
 
         const eraBadge = document.createElement('span');
-        eraBadge.className = 'sage-era-badge sage-era-' + (sage.era || 'tanna');
+        eraBadge.className = `sage-era-badge sage-era-${sage.era || 'tanna'}`;
         eraBadge.textContent = sage.era === 'amorai' ? 'A' : 'T';
         item.appendChild(eraBadge);
 
         const gen = document.createElement('span');
         gen.className = 'sage-gen';
-        gen.textContent = 'G' + (sage.generation || '?');
+        gen.textContent = `G${sage.generation || '?'}`;
         item.appendChild(gen);
 
         if (sagesDirtySet.has(sage.id)) {
@@ -4334,22 +4334,22 @@
 
     function selectSage(id) {
       if (sagesDirtySet.has(sagesCurrentId)) {
-        if (!confirm('Unsaved changes on current sage. Discard?')) return;
+        if (!confirm('Unsaved changes on current sage. Discard?')) { return; }
         sagesDirtySet.delete(sagesCurrentId);
       }
       sagesCurrentId = id;
       const sage = state.sages.find(s => s.id === id);
-      if (!sage) return;
+      if (!sage) { return; }
       sageSnapshot = JSON.parse(JSON.stringify(sage));
       renderSagesList(document.getElementById('sages-search').value);
       renderSageDetail(sage);
     }
 
     function formatSageDate(num, approximate) {
-      if (num == null) return '?';
+      if (num == null) { return '?'; }
       const prefix = approximate ? '~' : '';
-      if (num < 0) return prefix + Math.abs(num) + ' BCE';
-      return prefix + num + ' CE';
+      if (num < 0) { return `${prefix + Math.abs(num)} BCE`; }
+      return `${prefix + num} CE`;
     }
 
     function renderSageDetail(sage) {
@@ -4390,7 +4390,7 @@
       card.appendChild(nameEn);
 
       const dates = sage.dates || {};
-      const dateStr = formatSageDate(dates.born, dates.approximate) + ' \u2013 ' + formatSageDate(dates.died, dates.approximate);
+      const dateStr = `${formatSageDate(dates.born, dates.approximate)} \u2013 ${formatSageDate(dates.died, dates.approximate)}`;
       const datesDiv = document.createElement('div');
       datesDiv.className = 'sage-card-dates';
       datesDiv.textContent = dateStr;
@@ -4399,7 +4399,7 @@
       const meta = document.createElement('div');
       meta.className = 'sage-card-meta';
       const eraBadge = document.createElement('span');
-      eraBadge.className = 'badge badge-' + (sage.era === 'amorai' ? 'warning' : 'brand');
+      eraBadge.className = `badge badge-${sage.era === 'amorai' ? 'warning' : 'brand'}`;
       eraBadge.textContent = sage.era === 'amorai' ? 'Amora' : 'Tanna';
       meta.appendChild(eraBadge);
 
@@ -4419,14 +4419,14 @@
 
       const genBadge = document.createElement('span');
       genBadge.className = 'badge badge-neutral';
-      genBadge.textContent = 'Gen ' + (sage.generation || '?');
+      genBadge.textContent = `Gen ${sage.generation || '?'}`;
       meta.appendChild(genBadge);
       card.appendChild(meta);
 
       if (sage.bio) {
         const bio = document.createElement('div');
         bio.className = 'sage-card-bio';
-        bio.textContent = sage.bio.length > 200 ? sage.bio.slice(0, 200) + '...' : sage.bio;
+        bio.textContent = sage.bio.length > 200 ? `${sage.bio.slice(0, 200)}...` : sage.bio;
         card.appendChild(bio);
       }
 
@@ -4445,7 +4445,7 @@
           item.className = 'sage-card-rel-item';
           const typeSpan = document.createElement('span');
           typeSpan.className = 'rel-type';
-          typeSpan.textContent = rel.type + ': ';
+          typeSpan.textContent = `${rel.type}: `;
           item.appendChild(typeSpan);
           const nameLink = document.createElement('span');
           nameLink.className = 'rel-target-link';
@@ -4531,7 +4531,7 @@
       const approxCb = document.createElement('input');
       approxCb.type = 'checkbox';
       approxCb.id = 'sage-approximate';
-      approxCb.checked = dates.approximate || false;
+      approxCb.checked = dates.approximate;
       approxCb.addEventListener('change', onSageFieldInput);
       approxLabel.appendChild(approxCb);
       approxLabel.appendChild(document.createTextNode('Approximate dates'));
@@ -4556,7 +4556,7 @@
       const nasiCb = document.createElement('input');
       nasiCb.type = 'checkbox';
       nasiCb.id = 'sage-nasi';
-      nasiCb.checked = sage.nasi || false;
+      nasiCb.checked = sage.nasi;
       nasiCb.addEventListener('change', onSageFieldInput);
       nasiLabel.appendChild(nasiCb);
       nasiLabel.appendChild(document.createTextNode('Nasi'));
@@ -4585,7 +4585,7 @@
       input.type = type;
       input.id = id;
       input.value = value;
-      if (dir) input.dir = dir;
+      if (dir) { input.dir = dir; }
       input.addEventListener('input', onSageFieldInput);
       group.appendChild(input);
       return group;
@@ -4603,7 +4603,7 @@
         const o = document.createElement('option');
         o.value = opt;
         o.textContent = opt;
-        if (opt === selected) o.selected = true;
+        if (opt === selected) { o.selected = true; }
         select.appendChild(o);
       }
       select.addEventListener('change', onSageFieldInput);
@@ -4629,7 +4629,7 @@
     let sagePreviewTimer = null;
 
     function onSageFieldInput() {
-      if (!sagesCurrentId) return;
+      if (!sagesCurrentId) { return; }
       sagesDirtySet.add(sagesCurrentId);
       updateSageButtons();
       renderSagesList(document.getElementById('sages-search').value);
@@ -4639,7 +4639,7 @@
         const updated = collectSageFromForm();
         if (updated) {
           const card = document.getElementById('sage-card-preview');
-          if (card) renderSageCardContent(card, updated);
+          if (card) { renderSageCardContent(card, updated); }
         }
       }, 150);
     }
@@ -4648,13 +4648,13 @@
       const isDirty = sagesDirtySet.has(sagesCurrentId);
       const saveBtn = document.getElementById('sage-save-btn');
       const revertBtn = document.getElementById('sage-revert-btn');
-      if (saveBtn) saveBtn.disabled = !isDirty;
-      if (revertBtn) revertBtn.disabled = !isDirty;
+      if (saveBtn) { saveBtn.disabled = !isDirty; }
+      if (revertBtn) { revertBtn.disabled = !isDirty; }
     }
 
     function collectSageFromForm() {
       const form = document.getElementById('sage-edit-form');
-      if (!form || !sageSnapshot) return null;
+      if (!(form && sageSnapshot)) { return null; }
 
       const sage = JSON.parse(JSON.stringify(sageSnapshot));
       sage.name.en = document.getElementById('sage-name-en')?.value || '';
@@ -4668,7 +4668,7 @@
       sage.dates = {
         born: bornVal !== '' ? Number(bornVal) : undefined,
         died: diedVal !== '' ? Number(diedVal) : undefined,
-        approximate: document.getElementById('sage-approximate')?.checked || false,
+        approximate: document.getElementById('sage-approximate')?.checked,
       };
 
       sage.location = document.getElementById('sage-location')?.value || 'israel';
@@ -4681,20 +4681,20 @@
       const storiesVal = document.getElementById('sage-stories')?.value || '';
       sage.stories = storiesVal ? storiesVal.split('\n').filter(s => s.trim()) : [];
       sage.sefariaTopicSlug = document.getElementById('sage-sefaria-slug')?.value || '';
-      sage.nasi = document.getElementById('sage-nasi')?.checked || false;
+      sage.nasi = document.getElementById('sage-nasi')?.checked;
 
       // Clean up empty values
-      if (sage.generation === undefined) delete sage.generation;
-      if (sage.dates.born === undefined) delete sage.dates.born;
-      if (sage.dates.died === undefined) delete sage.dates.died;
-      if (!sage.sefariaTopicSlug) delete sage.sefariaTopicSlug;
+      if (sage.generation === undefined) { delete sage.generation; }
+      if (sage.dates.born === undefined) { delete sage.dates.born; }
+      if (sage.dates.died === undefined) { delete sage.dates.died; }
+      if (!sage.sefariaTopicSlug) { delete sage.sefariaTopicSlug; }
 
       return sage;
     }
 
     async function saveSage() {
       const sage = collectSageFromForm();
-      if (!sage) return;
+      if (!sage) { return; }
       try {
         const res = await fetch(`/api/sage/${sage.id}`, {
           method: 'PUT',
@@ -4703,7 +4703,7 @@
         });
         if (res.ok) {
           const idx = state.sages.findIndex(s => s.id === sage.id);
-          if (idx >= 0) state.sages[idx] = sage;
+          if (idx >= 0) { state.sages[idx] = sage; }
           sageSnapshot = JSON.parse(JSON.stringify(sage));
           sagesDirtySet.delete(sage.id);
           updateSageButtons();
@@ -4719,16 +4719,16 @@
     }
 
     function revertSage() {
-      if (!sageSnapshot) return;
+      if (!sageSnapshot) { return; }
       const idx = state.sages.findIndex(s => s.id === sagesCurrentId);
-      if (idx >= 0) state.sages[idx] = JSON.parse(JSON.stringify(sageSnapshot));
+      if (idx >= 0) { state.sages[idx] = JSON.parse(JSON.stringify(sageSnapshot)); }
       sagesDirtySet.delete(sagesCurrentId);
       renderSageDetail(JSON.parse(JSON.stringify(sageSnapshot)));
       renderSagesList(document.getElementById('sages-search').value);
     }
 
     async function deleteSage(id) {
-      if (!confirm(`Delete sage "${id}"? This cannot be undone.`)) return;
+      if (!confirm(`Delete sage "${id}"? This cannot be undone.`)) { return; }
       try {
         const res = await fetch(`/api/sage/${id}`, { method: 'DELETE' });
         if (res.ok) {
@@ -4852,7 +4852,7 @@
           for (const m of matches) {
             const item = document.createElement('div');
             item.className = 'sage-rel-dropdown-item';
-            item.textContent = m.name.en + ' (' + m.id + ')';
+            item.textContent = `${m.name.en} (${m.id})`;
             item.dataset.id = m.id;
             item.addEventListener('mousedown', (e) => {
               e.preventDefault();
@@ -4892,8 +4892,8 @@
       const type = typeSelect.value;
 
       const sage = state.sages.find(s => s.id === sageId);
-      if (!sage) return;
-      if (!sage.relationships) sage.relationships = [];
+      if (!sage) { return; }
+      if (!sage.relationships) { sage.relationships = []; }
 
       // Check duplicate
       if (sage.relationships.some(r => r.type === type && r.target === targetId)) {
@@ -4908,7 +4908,7 @@
       if (reciprocal) {
         const targetSage = state.sages.find(s => s.id === targetId);
         if (targetSage) {
-          if (!targetSage.relationships) targetSage.relationships = [];
+          if (!targetSage.relationships) { targetSage.relationships = []; }
           if (!targetSage.relationships.some(r => r.type === reciprocal && r.target === sageId)) {
             targetSage.relationships.push({ type: reciprocal, target: sageId });
           }
@@ -4924,7 +4924,7 @@
 
     function removeSageRelationship(sageId, relIndex) {
       const sage = state.sages.find(s => s.id === sageId);
-      if (!sage || !sage.relationships) return;
+      if (!(sage?.relationships)) { return; }
 
       const removed = sage.relationships[relIndex];
       sage.relationships.splice(relIndex, 1);
@@ -4934,7 +4934,7 @@
         const reciprocal = SAGE_RECIPROCALS[removed.type];
         if (reciprocal) {
           const targetSage = state.sages.find(s => s.id === removed.target);
-          if (targetSage && targetSage.relationships) {
+          if (targetSage?.relationships) {
             targetSage.relationships = targetSage.relationships.filter(
               r => !(r.type === reciprocal && r.target === sageId)
             );
@@ -4952,14 +4952,14 @@
     // Add new sage
     document.getElementById('sages-add-btn').addEventListener('click', () => {
       const id = prompt('Sage ID (e.g. rabbi-akiva):');
-      if (!id || !id.trim()) return;
+      if (!(id?.trim())) { return; }
       const trimmedId = id.trim().toLowerCase().replace(/\s+/g, '-');
       if (state.sages.some(s => s.id === trimmedId)) {
         showToast('Sage ID already exists');
         return;
       }
       const nameEn = prompt('English name:');
-      if (!nameEn || !nameEn.trim()) return;
+      if (!(nameEn?.trim())) { return; }
       const nameHe = prompt('Hebrew name:') || '';
       const era = prompt('Era (tanna/amorai):', 'tanna') || 'tanna';
       const gen = prompt('Generation (number):', '1') || '1';
@@ -5008,7 +5008,7 @@
     // --- Claude Research Integration ---
     async function researchSage(sageId) {
       const panel = document.getElementById('sage-research-panel');
-      if (!panel) return;
+      if (!panel) { return; }
 
       panel.innerHTML = '<div class="research-status"><span class="sage-research-spinner"></span> Researching...</div>';
 
@@ -5092,25 +5092,25 @@
       if (type === 'bio') {
         const bioTa = document.getElementById('sage-bio');
         if (bioTa) {
-          bioTa.value = bioTa.value ? bioTa.value + '\n' + content : content;
+          bioTa.value = bioTa.value ? `${bioTa.value}\n${content}` : content;
           onSageFieldInput();
         }
       } else if (type === 'teaching') {
         const teachTa = document.getElementById('sage-teachings');
         if (teachTa) {
-          teachTa.value = teachTa.value ? teachTa.value + '\n' + content : content;
+          teachTa.value = teachTa.value ? `${teachTa.value}\n${content}` : content;
           onSageFieldInput();
         }
       } else if (type === 'story') {
         const storiesTa = document.getElementById('sage-stories');
         if (storiesTa) {
-          storiesTa.value = storiesTa.value ? storiesTa.value + '\n' + content : content;
+          storiesTa.value = storiesTa.value ? `${storiesTa.value}\n${content}` : content;
           onSageFieldInput();
         }
       } else if (type === 'relationship' && suggestion.relType && suggestion.relTarget) {
         const sage = state.sages.find(s => s.id === sageId);
         if (sage) {
-          if (!sage.relationships) sage.relationships = [];
+          if (!sage.relationships) { sage.relationships = []; }
           if (!sage.relationships.some(r => r.type === suggestion.relType && r.target === suggestion.relTarget)) {
             sage.relationships.push({ type: suggestion.relType, target: suggestion.relTarget });
             sagesDirtySet.add(sageId);
@@ -5208,8 +5208,8 @@
         const bar = document.createElement('div');
         bar.className = 'stat-bar';
         const fill = document.createElement('div');
-        fill.className = 'stat-bar-fill ' + (barColor || 'blue');
-        fill.style.width = pct + '%';
+        fill.className = `stat-bar-fill ${barColor || 'blue'}`;
+        fill.style.width = `${pct}%`;
         bar.appendChild(fill);
         card.appendChild(bar);
       }

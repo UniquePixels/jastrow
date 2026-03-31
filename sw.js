@@ -6,54 +6,54 @@
 
 // Update this timestamp whenever you deploy changes
 // This forces the service worker to update and clear old caches
-const CACHE_VERSION = "2026-03-25T00:00:00.000Z";
+const CACHE_VERSION = '2026-03-25T00:00:00.000Z';
 
 // Assets to cache immediately on install
 const STATIC_ASSETS = [
-	"/",
-	"/index.html",
-	"/assets/styles/styles.css",
-	"/assets/scripts/constants.js",
-	"/assets/scripts/sanitizer.js",
-	"/assets/scripts/keyboard.js",
-	"/assets/scripts/data-loader.js",
-	"/assets/scripts/app.js",
-	"/assets/images/jastrow-mini.svg",
-	"/assets/images/sefarialogo.svg",
-	"/assets/images/favicon/favicon.svg",
-	"/assets/images/favicon/favicon-96x96.png",
-	"/assets/images/favicon/favicon.ico",
-	"/assets/images/favicon/apple-touch-icon.png",
-	"/assets/images/favicon/site.webmanifest",
-	"/assets/styles/sages.css",
-	"/assets/scripts/sages-data.js",
-	"/assets/scripts/sages-graph.js",
-	"/assets/scripts/sages-sidebar.js",
-	"/assets/scripts/sages.js",
-	"/assets/scripts/scroll-manager.js",
-	"/data/sages.json",
-	"/data/jastrow-abbr.json",
-	"/data/jastrow-hebrew-abbr.json",
+	'/',
+	'/index.html',
+	'/assets/styles/styles.css',
+	'/assets/scripts/constants.js',
+	'/assets/scripts/sanitizer.js',
+	'/assets/scripts/keyboard.js',
+	'/assets/scripts/data-loader.js',
+	'/assets/scripts/app.js',
+	'/assets/images/jastrow-mini.svg',
+	'/assets/images/sefarialogo.svg',
+	'/assets/images/favicon/favicon.svg',
+	'/assets/images/favicon/favicon-96x96.png',
+	'/assets/images/favicon/favicon.ico',
+	'/assets/images/favicon/apple-touch-icon.png',
+	'/assets/images/favicon/site.webmanifest',
+	'/assets/styles/sages.css',
+	'/assets/scripts/sages-data.js',
+	'/assets/scripts/sages-graph.js',
+	'/assets/scripts/sages-sidebar.js',
+	'/assets/scripts/sages.js',
+	'/assets/scripts/scroll-manager.js',
+	'/data/sages.json',
+	'/data/jastrow-abbr.json',
+	'/data/jastrow-hebrew-abbr.json',
 ];
 
 /**
  * Install event - cache static assets
  */
-self.addEventListener("install", (event) => {
-	console.log("[Service Worker] Installing...");
+self.addEventListener('install', (event) => {
+	console.log('[Service Worker] Installing...');
 
 	event.waitUntil(
 		caches
 			.open(CACHE_VERSION)
 			.then((cache) => {
-				console.log("[Service Worker] Caching static assets");
+				console.log('[Service Worker] Caching static assets');
 				return cache.addAll(STATIC_ASSETS);
 			})
 			.then(() => {
-				console.log("[Service Worker] Static assets cached successfully");
+				console.log('[Service Worker] Static assets cached successfully');
 			})
 			.catch((error) => {
-				console.error("[Service Worker] Failed to cache static assets:", error);
+				console.error('[Service Worker] Failed to cache static assets:', error);
 			}),
 	);
 });
@@ -61,8 +61,8 @@ self.addEventListener("install", (event) => {
 /**
  * Activate event - clean up old caches
  */
-self.addEventListener("activate", (event) => {
-	console.log("[Service Worker] Activating...");
+self.addEventListener('activate', (event) => {
+	console.log('[Service Worker] Activating...');
 
 	event.waitUntil(
 		caches
@@ -71,14 +71,14 @@ self.addEventListener("activate", (event) => {
 				return Promise.all(
 					cacheNames.map((cacheName) => {
 						if (cacheName !== CACHE_VERSION) {
-							console.log("[Service Worker] Deleting old cache:", cacheName);
+							console.log('[Service Worker] Deleting old cache:', cacheName);
 							return caches.delete(cacheName);
 						}
 					}),
 				);
 			})
 			.then(() => {
-				console.log("[Service Worker] Activated successfully");
+				console.log('[Service Worker] Activated successfully');
 				// Take control of all pages immediately
 				return self.clients.claim();
 			}),
@@ -92,7 +92,7 @@ self.addEventListener("activate", (event) => {
  * - Cache-first for static assets and data
  * - Network-first for external resources
  */
-self.addEventListener("fetch", (event) => {
+self.addEventListener('fetch', (event) => {
 	const { request } = event;
 	const url = new URL(request.url);
 
@@ -102,23 +102,33 @@ self.addEventListener("fetch", (event) => {
 			fetch(request)
 				.then((networkResponse) => {
 					// Cache successful CORS responses for offline use
-					if (networkResponse && networkResponse.status === 200 && networkResponse.type === "cors") {
+					if (
+						networkResponse &&
+						networkResponse.status === 200 &&
+						networkResponse.type === 'cors'
+					) {
 						const responseClone = networkResponse.clone();
 						caches.open(CACHE_VERSION).then((cache) => {
 							cache.put(request, responseClone);
 						});
-					} else if (networkResponse && networkResponse.type === "opaque") {
-						console.warn("[Service Worker] Skipping cache for opaque response:", request.url);
+					} else if (networkResponse && networkResponse.type === 'opaque') {
+						console.warn(
+							'[Service Worker] Skipping cache for opaque response:',
+							request.url,
+						);
 					}
 					return networkResponse;
 				})
 				.catch(() => {
 					// Network failed, try cache (return 503 if not cached)
 					return caches.match(request).then((cached) => {
-						return cached || new Response("Service Unavailable", {
-							status: 503,
-							statusText: "Service Unavailable",
-						});
+						return (
+							cached ||
+							new Response('Service Unavailable', {
+								status: 503,
+								statusText: 'Service Unavailable',
+							})
+						);
 					});
 				}),
 		);
@@ -127,18 +137,21 @@ self.addEventListener("fetch", (event) => {
 
 	// Data files and version.json bypass SW cache — IDB handles data persistence
 	// Critical: version.json must never be cached by SW or update detection breaks
-	if (url.pathname.includes('/data/') && !url.pathname.endsWith('/sages.json')) {
+	if (
+		url.pathname.includes('/data/') &&
+		!url.pathname.endsWith('/sages.json')
+	) {
 		event.respondWith(fetch(request));
 		return;
 	}
 
 	// Network-first for HTML, JS, CSS to ensure users get updates quickly
 	const isAppFile =
-		url.pathname.endsWith(".html") ||
-		url.pathname.endsWith(".js") ||
-		url.pathname.endsWith(".css") ||
-		url.pathname === "/" ||
-		url.pathname === "";
+		url.pathname.endsWith('.html') ||
+		url.pathname.endsWith('.js') ||
+		url.pathname.endsWith('.css') ||
+		url.pathname === '/' ||
+		url.pathname === '';
 
 	if (isAppFile) {
 		event.respondWith(
@@ -184,7 +197,7 @@ self.addEventListener("fetch", (event) => {
 				});
 			})
 			.catch((error) => {
-				console.error("[Service Worker] Fetch failed:", error);
+				console.error('[Service Worker] Fetch failed:', error);
 				// Could return a custom offline page here
 				throw error;
 			}),
@@ -194,14 +207,14 @@ self.addEventListener("fetch", (event) => {
 /**
  * Message event - handle messages from the app
  */
-self.addEventListener("message", (event) => {
-	if (event.data && event.data.type === "SKIP_WAITING") {
-		console.log("[Service Worker] Received SKIP_WAITING message");
+self.addEventListener('message', (event) => {
+	if (event.data && event.data.type === 'SKIP_WAITING') {
+		console.log('[Service Worker] Received SKIP_WAITING message');
 		self.skipWaiting();
 	}
-	if (event.data && event.data.type === "GET_VERSION") {
+	if (event.data && event.data.type === 'GET_VERSION') {
 		event.ports[0]?.postMessage({ cacheVersion: CACHE_VERSION });
 	}
 });
 
-console.log("[Service Worker] Script loaded");
+console.log('[Service Worker] Script loaded');

@@ -418,12 +418,12 @@
           showGuide();
         } else if (hash === '#abbreviations') {
           showAbbr();
-        } else if (!hash.startsWith('#sages') && !hash.startsWith('#sage:')) {
+        } else if (!(hash.startsWith('#sages') || hash.startsWith('#sage:'))) {
           // Close any open dialogs if hash doesn't match (skip sages routes — handled by app.js)
-          if (guideDialog?.open) guideDialog.open = false;
-          if (abbrDialog?.open) abbrDialog.open = false;
+          if (guideDialog?.open) { guideDialog.open = false; }
+          if (abbrDialog?.open) { abbrDialog.open = false; }
           const pageDialog = document.querySelector('.page-dialog');
-          if (pageDialog?.open && !hash.startsWith('#scan:')) pageDialog.open = false;
+          if (pageDialog?.open && !hash.startsWith('#scan:')) { pageDialog.open = false; }
         }
       });
 

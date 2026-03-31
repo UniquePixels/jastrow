@@ -5,11 +5,15 @@
  * This file is loaded as a regular script (not ES module) and attaches functions to window object
  */
 
-(function(window) {
+((window) => {
 	// Install the DOMPurify hook once at init time — forces external links to open in new tab
 	if (window.DOMPurify) {
-		window.DOMPurify.addHook('afterSanitizeAttributes', function(node) {
-			if (node.tagName === 'A' && node.getAttribute('href') && !node.getAttribute('href').startsWith('#')) {
+		window.DOMPurify.addHook('afterSanitizeAttributes', (node) => {
+			if (
+				node.tagName === 'A' &&
+				node.getAttribute('href') &&
+				!node.getAttribute('href').startsWith('#')
+			) {
 				node.setAttribute('target', '_blank');
 				node.setAttribute('rel', 'noopener noreferrer');
 			}
@@ -22,7 +26,7 @@
 	 * @param {string[]} allowedDomains - Array of allowed domain names
 	 * @returns {boolean} - True if URL is safe, false otherwise
 	 */
-	window.sanitizeURL = function(url, allowedDomains) {
+	window.sanitizeURL = (url, allowedDomains) => {
 		allowedDomains = allowedDomains || ['sefaria.org', 'archive.org'];
 
 		if (!url || typeof url !== 'string') {
@@ -43,9 +47,10 @@
 			}
 
 			// Check if hostname contains any of the allowed domains
-			return allowedDomains.some(function(domain) {
-				return urlObj.hostname === domain || urlObj.hostname.endsWith('.' + domain);
-			});
+			return allowedDomains.some(
+				(domain) =>
+					urlObj.hostname === domain || urlObj.hostname.endsWith(`.${domain}`),
+			);
 		} catch (error) {
 			// Invalid URL
 			console.warn('Invalid URL:', url, error);
@@ -59,7 +64,7 @@
 	 * @param {number} maxLength - Maximum allowed length
 	 * @returns {Object} - { valid: boolean, query: string, error?: string }
 	 */
-	window.sanitizeSearchQuery = function(query, maxLength) {
+	window.sanitizeSearchQuery = (query, maxLength) => {
 		maxLength = maxLength || 100;
 
 		if (!query || typeof query !== 'string') {
@@ -73,12 +78,18 @@
 		}
 
 		if (trimmed.length > maxLength) {
-			return { valid: false, error: 'Query too long (max ' + maxLength + ' characters)' };
+			return {
+				valid: false,
+				error: `Query too long (max ${maxLength} characters)`,
+			};
 		}
 
 		// Strip all HTML tags, keeping only text content
 		const cleanQuery = window.DOMPurify
-			? window.DOMPurify.sanitize(trimmed, { ALLOWED_TAGS: [], ALLOWED_ATTR: [] })
+			? window.DOMPurify.sanitize(trimmed, {
+					ALLOWED_TAGS: [],
+					ALLOWED_ATTR: [],
+				})
 			: trimmed.replace(/<[^>]*>/g, '');
 
 		// Check if anything remains after stripping HTML
@@ -96,7 +107,7 @@
 	 * @param {number} max - Maximum valid page number
 	 * @returns {Object} - { valid: boolean, page?: number, error?: string }
 	 */
-	window.validatePageNumber = function(pageNumber, min, max) {
+	window.validatePageNumber = (pageNumber, min, max) => {
 		min = min || 1;
 		max = max || 1704;
 
@@ -107,10 +118,12 @@
 		}
 
 		if (parsed < min || parsed > max) {
-			return { valid: false, error: 'Page number must be between ' + min + ' and ' + max };
+			return {
+				valid: false,
+				error: `Page number must be between ${min} and ${max}`,
+			};
 		}
 
 		return { valid: true, page: parsed };
 	};
-
 })(window);

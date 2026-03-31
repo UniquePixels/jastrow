@@ -6,14 +6,14 @@
  *
  * Clear-then-set pattern ensures repeated identical messages are announced.
  */
-document.addEventListener("DOMContentLoaded", () => {
+document.addEventListener('DOMContentLoaded', () => {
 	const regions = {};
 
-	for (const priority of ["polite", "assertive"]) {
-		const el = document.createElement("div");
-		el.className = "wa-visually-hidden";
-		el.setAttribute("aria-live", priority);
-		el.setAttribute("aria-atomic", "true");
+	for (const priority of ['polite', 'assertive']) {
+		const el = document.createElement('div');
+		el.className = 'wa-visually-hidden';
+		el.setAttribute('aria-live', priority);
+		el.setAttribute('aria-atomic', 'true');
 		document.body.appendChild(el);
 		regions[priority] = el;
 	}
@@ -23,9 +23,9 @@ document.addEventListener("DOMContentLoaded", () => {
 	 * @param {string} message - The text to announce
 	 * @param {'polite'|'assertive'} [priority='polite'] - Announcement urgency
 	 */
-	window.announce = (message, priority = "polite") => {
+	window.announce = (message, priority = 'polite') => {
 		const region = regions[priority] || regions.polite;
-		region.textContent = "";
+		region.textContent = '';
 		setTimeout(() => {
 			region.textContent = message;
 		}, 50);
