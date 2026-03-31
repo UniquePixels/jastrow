@@ -67,7 +67,6 @@ class JastrowApp {
 		this._autocompleteTimer = null;
 		this._selectingOption = false; // guard against double-execution
 
-		this._abbrDataCache = null; // cached jastrow abbreviation data
 		this._hebrewAbbrCache = null; // cached hebrew abbreviation data
 		this._abbrDialogBuilt = false; // track if dialog content has been built
 		this._guideDialogBuilt = false; // track if guide content has been built
@@ -141,6 +140,9 @@ class JastrowApp {
 				onPageChange: null,
 			});
 			this.scrollManager.init();
+
+			// Delegated abbreviation tooltip + click-to-dialog listeners
+			this._setupAbbrListeners();
 
 			// Build dialog content lazily on first open
 			const abbrDialog = document.querySelector('.abbr-dialog');
@@ -822,6 +824,117 @@ class JastrowApp {
 	}
 
 	/**
+	 * Set up delegated listeners for inline <abbr> tooltip and click-to-dialog.
+	 * Uses pointerenter (capture) for hover tooltips and click for dialog nav.
+	 */
+	_setupAbbrListeners() {
+		const container = this.mainContent;
+		if (!container) {
+			return;
+		}
+
+		let activeTooltip = null;
+
+		const hideTooltip = () => {
+			if (activeTooltip) {
+				activeTooltip.remove();
+				activeTooltip = null;
+			}
+		};
+
+		// Hover → show tooltip with modern expansion
+		container.addEventListener(
+			'pointerenter',
+			(e) => {
+				const abbr = e.target.closest('abbr');
+				if (!abbr) {
+					return;
+				}
+
+				const entry = this.dataLoader.abbrMap[abbr.textContent];
+				if (!entry) {
+					return;
+				}
+
+				hideTooltip();
+
+				// Reuse the same tip-box/tip-arrow pattern as _addTooltip
+				const tip = document.createElement('span');
+				tip.className = 'has-tooltip abbr-tip-anchor';
+
+				const box = document.createElement('span');
+				box.className = 'tip-box';
+				box.style.visibility = 'visible';
+				box.textContent = entry.modern;
+
+				const arrow = document.createElement('span');
+				arrow.className = 'tip-arrow';
+				arrow.style.visibility = 'visible';
+
+				tip.append(box, arrow);
+
+				// Position relative to the <abbr>
+				abbr.style.position = 'relative';
+				abbr.appendChild(tip);
+				activeTooltip = tip;
+			},
+			{ capture: true },
+		);
+
+		container.addEventListener(
+			'pointerleave',
+			(e) => {
+				if (e.target.closest('abbr')) {
+					hideTooltip();
+				}
+			},
+			{ capture: true },
+		);
+
+		// Click → open abbreviations dialog pre-filtered
+		container.addEventListener('click', (e) => {
+			const abbr = e.target.closest('abbr');
+			if (!abbr) {
+				return;
+			}
+
+			const key = abbr.textContent;
+			if (!this.dataLoader.abbrMap[key]) {
+				return;
+			}
+
+			this._openAbbrDialog(key);
+		});
+	}
+
+	/**
+	 * Open the abbreviations dialog and pre-filter to a specific abbreviation.
+	 * @param {string} key - The abbreviation text to search for
+	 */
+	_openAbbrDialog(key) {
+		const dialog = document.querySelector('.abbr-dialog');
+		if (!dialog) {
+			return;
+		}
+
+		// Ensure dialog content is built
+		if (!this._abbrDialogBuilt) {
+			this.buildAbbreviationsDialog();
+		}
+
+		dialog.open = true;
+
+		// Wait for dialog to render, then populate filter
+		requestAnimationFrame(() => {
+			const filter = dialog.querySelector('.abbr-filter');
+			if (filter) {
+				filter.value = key;
+				filter.dispatchEvent(new Event('input'));
+			}
+		});
+	}
+
+	/**
 	 * Render reference search results as a flat list with "Show more" button.
 	 * Inserts entries before the scroll manager's bottom sentinel.
 	 */
@@ -1078,25 +1191,13 @@ class JastrowApp {
 	}
 
 	/**
-	 * Convert a trusted pre-processed HTML string to DOM nodes.
-	 * Uses an inert <template> element — scripts won't execute, resources won't load.
+	 * Parse trusted HTML (pipeline output) into a DocumentFragment.
 	 * Only for pre-processed data from the build pipeline, never user input.
 	 */
 	trustedHTML(html) {
 		const template = document.createElement('template');
 		template.innerHTML = html; // nosemgrep: javascript.browser.security.insecure-document-method.insecure-document-method
-		const frag = template.content;
-
-		// Convert <abbr title="..."> to span-based tooltips
-		for (const abbr of frag.querySelectorAll('abbr[title]')) {
-			const wrapper = document.createElement('span');
-			wrapper.className = 'abbr-tooltip';
-			wrapper.textContent = abbr.textContent;
-			this._addTooltip(wrapper, abbr.getAttribute('title'));
-			abbr.replaceWith(wrapper);
-		}
-
-		return frag;
+		return template.content;
 	}
 
 	/**
