@@ -824,8 +824,8 @@ class JastrowApp {
 	}
 
 	/**
-	 * Set up delegated listeners for inline <abbr> tooltip and click-to-dialog.
-	 * Uses pointerenter (capture) for hover tooltips and click for dialog nav.
+	 * Set up delegated listener for inline <abbr> hover tooltips.
+	 * Uses pointerenter (capture) to show modern abbreviation expansions.
 	 */
 	_setupAbbrListeners() {
 		const container = this.mainContent;
@@ -890,50 +890,6 @@ class JastrowApp {
 			},
 			{ capture: true },
 		);
-
-		// Click → open abbreviations dialog pre-filtered
-		container.addEventListener('click', (e) => {
-			const abbr = e.target.closest('abbr');
-			if (!abbr) {
-				return;
-			}
-
-			// Remove tooltip before reading text (tooltip children pollute textContent)
-			hideTooltip();
-			const key = abbr.textContent;
-			if (!this.dataLoader.abbrMap[key]) {
-				return;
-			}
-
-			this._openAbbrDialog(key);
-		});
-	}
-
-	/**
-	 * Open the abbreviations dialog and pre-filter to a specific abbreviation.
-	 * @param {string} key - The abbreviation text to search for
-	 */
-	_openAbbrDialog(key) {
-		const dialog = document.querySelector('.abbr-dialog');
-		if (!dialog) {
-			return;
-		}
-
-		// Ensure dialog content is built
-		if (!this._abbrDialogBuilt) {
-			this.buildAbbreviationsDialog();
-		}
-
-		dialog.open = true;
-
-		// Wait for dialog to render, then populate filter
-		requestAnimationFrame(() => {
-			const filter = dialog.querySelector('.abbr-filter');
-			if (filter) {
-				filter.value = key;
-				filter.dispatchEvent(new Event('input'));
-			}
-		});
 	}
 
 	/**
