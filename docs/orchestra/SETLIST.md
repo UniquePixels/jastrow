@@ -1,10 +1,7 @@
 # Setlist — Jastrow Dictionary
 
 ## Now
-**Task:** Dynamic abbreviation tooltips
-**Branch:** TBD
-**Status:** spec approved, planning next
-**Spec:** `docs/orchestra/specs/2026-03-31-dynamic-abbreviations-spec.md`
+No active task.
 
 ## Enhancements
 - [ ] English key input to Hebrew character interpolation in search bar
@@ -28,3 +25,4 @@
 - [x] Repository separation — spec and plan
 - [x] Social cover image
 - [x] Repository separation — repo created, Cloudflare Pages, TODOs done
+- [x] Dynamic abbreviation tooltips (PR #2)
