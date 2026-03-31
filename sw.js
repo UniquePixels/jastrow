@@ -6,7 +6,7 @@
 
 // Update this timestamp whenever you deploy changes
 // This forces the service worker to update and clear old caches
-const CACHE_VERSION = '2026-03-25T00:00:00.000Z';
+const CACHE_VERSION = '2026-03-31T00:00:00.000Z';
 
 // Assets to cache immediately on install
 const STATIC_ASSETS = [
@@ -96,42 +96,8 @@ self.addEventListener('fetch', (event) => {
 	const { request } = event;
 	const url = new URL(request.url);
 
-	// Handle cross-origin requests (CDN scripts, external APIs, Archive.org images)
+	// Cross-origin requests (CDN scripts, fonts, etc.) — let the browser handle directly
 	if (url.origin !== location.origin) {
-		event.respondWith(
-			fetch(request)
-				.then((networkResponse) => {
-					// Cache successful CORS responses for offline use
-					if (
-						networkResponse &&
-						networkResponse.status === 200 &&
-						networkResponse.type === 'cors'
-					) {
-						const responseClone = networkResponse.clone();
-						caches.open(CACHE_VERSION).then((cache) => {
-							cache.put(request, responseClone);
-						});
-					} else if (networkResponse && networkResponse.type === 'opaque') {
-						console.warn(
-							'[Service Worker] Skipping cache for opaque response:',
-							request.url,
-						);
-					}
-					return networkResponse;
-				})
-				.catch(() => {
-					// Network failed, try cache (return 503 if not cached)
-					return caches.match(request).then((cached) => {
-						return (
-							cached ||
-							new Response('Service Unavailable', {
-								status: 503,
-								statusText: 'Service Unavailable',
-							})
-						);
-					});
-				}),
-		);
 		return;
 	}
 
