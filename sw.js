@@ -113,8 +113,13 @@ self.addEventListener("fetch", (event) => {
 					return networkResponse;
 				})
 				.catch(() => {
-					// Network failed, try cache
-					return caches.match(request);
+					// Network failed, try cache (return 503 if not cached)
+					return caches.match(request).then((cached) => {
+						return cached || new Response("Service Unavailable", {
+							status: 503,
+							statusText: "Service Unavailable",
+						});
+					});
 				}),
 		);
 		return;
