@@ -10,13 +10,12 @@ No active task.
 - [ ] Sages and abbreviation data optimization
 - [ ] Sages graph spatial arrow-key navigation (~50 lines proximity logic)
 - [ ] LLM-powered search assistant for natural language queries
-- [ ] Investigate trustedHTML() and data structure — may be able to
-      eliminate runtime HTML processing with better JSONL structure
+- [ ] Investigate data structure — may be able to eliminate remaining
+      runtime HTML processing with better JSONL structure
 
 ## TODOs
 - [ ] Cloudflare Pages setup (manual — dashboard)
 - [ ] GitHub branch protection (manual — after CI runs once)
-- [ ] Add CodeRabbit GitHub App to repo
 - [ ] Cloudflare redirect rules (uniquepixels.xyz/talmud/* → jastrow.app/*)
 - [ ] Parent site cleanup (remove talmud/ from _config.yml, delete directory)
 
@@ -26,3 +25,5 @@ No active task.
 - [x] Social cover image
 - [x] Repository separation — repo created, Cloudflare Pages, TODOs done
 - [x] Dynamic abbreviation tooltips (PR #2)
+- [x] Strip nested refLinks from 1,212 entries (PR #3)
+- [x] Add CodeRabbit GitHub App to repo
