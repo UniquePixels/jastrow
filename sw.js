@@ -18,7 +18,7 @@ const STATIC_ASSETS = [
 	'/assets/scripts/keyboard.js',
 	'/assets/scripts/data-loader.js',
 	'/assets/scripts/app.js',
-	'/assets/images/jastrow-mini.svg',
+	'/assets/images/logo.svg',
 	'/assets/images/sefarialogo.svg',
 	'/assets/images/favicon/favicon.svg',
 	'/assets/images/favicon/favicon-96x96.png',
