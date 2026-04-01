@@ -67,7 +67,6 @@ class JastrowApp {
 		this._autocompleteTimer = null;
 		this._selectingOption = false; // guard against double-execution
 
-		this._abbrDataCache = null; // cached jastrow abbreviation data
 		this._hebrewAbbrCache = null; // cached hebrew abbreviation data
 		this._abbrDialogBuilt = false; // track if dialog content has been built
 		this._guideDialogBuilt = false; // track if guide content has been built
@@ -141,6 +140,9 @@ class JastrowApp {
 				onPageChange: null,
 			});
 			this.scrollManager.init();
+
+			// Delegated abbreviation tooltip + click-to-dialog listeners
+			this._setupAbbrListeners();
 
 			// Build dialog content lazily on first open
 			const abbrDialog = document.querySelector('.abbr-dialog');
@@ -822,6 +824,75 @@ class JastrowApp {
 	}
 
 	/**
+	 * Set up delegated listener for inline <abbr> hover tooltips.
+	 * Uses pointerenter (capture) to show modern abbreviation expansions.
+	 */
+	_setupAbbrListeners() {
+		const container = this.mainContent;
+		if (!container) {
+			return;
+		}
+
+		let activeTooltip = null;
+
+		const hideTooltip = () => {
+			if (activeTooltip) {
+				activeTooltip.remove();
+				activeTooltip = null;
+			}
+		};
+
+		// Hover → show tooltip with modern expansion
+		container.addEventListener(
+			'pointerenter',
+			(e) => {
+				const abbr = e.target.closest('abbr');
+				if (!abbr) {
+					return;
+				}
+
+				const entry = this.dataLoader.abbrMap[abbr.textContent];
+				if (!entry) {
+					return;
+				}
+
+				hideTooltip();
+
+				// Reuse the same tip-box/tip-arrow pattern as _addTooltip
+				const tip = document.createElement('span');
+				tip.className = 'has-tooltip abbr-tip-anchor';
+
+				const box = document.createElement('span');
+				box.className = 'tip-box';
+				box.style.visibility = 'visible';
+				box.textContent = entry.modern;
+
+				const arrow = document.createElement('span');
+				arrow.className = 'tip-arrow';
+				arrow.style.visibility = 'visible';
+
+				tip.append(box, arrow);
+
+				// Position relative to the <abbr>
+				abbr.style.position = 'relative';
+				abbr.appendChild(tip);
+				activeTooltip = tip;
+			},
+			{ capture: true },
+		);
+
+		container.addEventListener(
+			'pointerleave',
+			(e) => {
+				if (e.target.closest('abbr')) {
+					hideTooltip();
+				}
+			},
+			{ capture: true },
+		);
+	}
+
+	/**
 	 * Render reference search results as a flat list with "Show more" button.
 	 * Inserts entries before the scroll manager's bottom sentinel.
 	 */
@@ -1078,25 +1149,13 @@ class JastrowApp {
 	}
 
 	/**
-	 * Convert a trusted pre-processed HTML string to DOM nodes.
-	 * Uses an inert <template> element — scripts won't execute, resources won't load.
+	 * Parse trusted HTML (pipeline output) into a DocumentFragment.
 	 * Only for pre-processed data from the build pipeline, never user input.
 	 */
 	trustedHTML(html) {
 		const template = document.createElement('template');
 		template.innerHTML = html; // nosemgrep: javascript.browser.security.insecure-document-method.insecure-document-method
-		const frag = template.content;
-
-		// Convert <abbr title="..."> to span-based tooltips
-		for (const abbr of frag.querySelectorAll('abbr[title]')) {
-			const wrapper = document.createElement('span');
-			wrapper.className = 'abbr-tooltip';
-			wrapper.textContent = abbr.textContent;
-			this._addTooltip(wrapper, abbr.getAttribute('title'));
-			abbr.replaceWith(wrapper);
-		}
-
-		return frag;
+		return template.content;
 	}
 
 	/**
@@ -1702,10 +1761,8 @@ class JastrowApp {
 		container.append(filter, tabGroup);
 
 		// Load both data sources
-		await Promise.all([
-			this._loadJastrowAbbreviations(jastrowPanel),
-			this._loadHebrewAbbreviations(hebrewPanel),
-		]);
+		this._loadJastrowAbbreviations(jastrowPanel);
+		await this._loadHebrewAbbreviations(hebrewPanel);
 
 		// Lookup logic — scroll to and highlight the best match
 		let filterTimer = null;
@@ -1781,60 +1838,54 @@ class JastrowApp {
 	}
 
 	/**
-	 * Load and render Jastrow abbreviations into a tab panel.
+	 * Render Jastrow abbreviations into a tab panel from the shared abbrMap.
 	 */
-	async _loadJastrowAbbreviations(panel) {
-		try {
-			if (!this._abbrDataCache) {
-				const response = await fetch('data/jastrow-abbr.json');
-				if (!response.ok) {
-					throw new Error('Failed to load');
-				}
-				this._abbrDataCache = await response.json();
-			}
+	_loadJastrowAbbreviations(panel) {
+		const abbrs = this.dataLoader.abbrMap;
 
-			const grid = document.createElement('div');
-			grid.className = 'abbr-grid';
-
-			const abbrs = this._abbrDataCache.abbreviations;
-			const sorted = Object.keys(abbrs).sort((a, b) =>
-				a.localeCompare(b, undefined, { sensitivity: 'base' }),
-			);
-
-			for (const key of sorted) {
-				const def = abbrs[key];
-				const row = document.createElement('div');
-				row.className = 'abbr-row';
-				row.dataset.search =
-					`${key} ${def.original} ${def.modern}`.toLowerCase();
-
-				const term = document.createElement('div');
-				term.className = 'abbr-term';
-				term.textContent = key;
-
-				const defDiv = document.createElement('div');
-				defDiv.className = 'abbr-def';
-
-				const modern = document.createElement('div');
-				modern.className = 'abbr-modern';
-				modern.textContent = def.modern;
-
-				const original = document.createElement('div');
-				original.className = 'abbr-original';
-				original.textContent = `Originally: ${def.original}`;
-
-				defDiv.append(modern, original);
-				row.append(term, defDiv);
-				grid.appendChild(row);
-			}
-
-			panel.appendChild(grid);
-		} catch {
+		if (Object.keys(abbrs).length === 0) {
 			const err = document.createElement('div');
 			err.className = 'abbr-no-results';
-			err.textContent = 'Unable to load abbreviations. Check your connection.';
+			err.textContent = 'Abbreviation data not available.';
 			panel.appendChild(err);
+			return;
 		}
+
+		const grid = document.createElement('div');
+		grid.className = 'abbr-grid';
+
+		const sorted = Object.keys(abbrs).sort((a, b) =>
+			a.localeCompare(b, undefined, { sensitivity: 'base' }),
+		);
+
+		for (const key of sorted) {
+			const def = abbrs[key];
+			const row = document.createElement('div');
+			row.className = 'abbr-row';
+			row.dataset.search =
+				`${key} ${def.original} ${def.modern}`.toLowerCase();
+
+			const term = document.createElement('div');
+			term.className = 'abbr-term';
+			term.textContent = key;
+
+			const defDiv = document.createElement('div');
+			defDiv.className = 'abbr-def';
+
+			const modern = document.createElement('div');
+			modern.className = 'abbr-modern';
+			modern.textContent = def.modern;
+
+			const original = document.createElement('div');
+			original.className = 'abbr-original';
+			original.textContent = `Originally: ${def.original}`;
+
+			defDiv.append(modern, original);
+			row.append(term, defDiv);
+			grid.appendChild(row);
+		}
+
+		panel.appendChild(grid);
 	}
 
 	/**

@@ -63,9 +63,11 @@
 		DATABASE_NAME: 'jastrow-dictionary',
 		ENTRIES_STORE: 'entries',
 		METADATA_STORE: 'metadata',
-		SCHEMA_VERSION: 1,
+		ABBR_STORE: 'abbreviations',
+		SCHEMA_VERSION: 2,
 		BATCH_SIZE: 500,
 		VERSION_URL: 'data/version.json',
+		ABBR_URL: 'data/jastrow-abbr.json',
 		VERSION_TIMEOUT: 2000,
 	};
 

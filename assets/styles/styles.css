@@ -305,11 +305,20 @@ wa-page[view="mobile"] .keyboard-overlay {
 	position: relative;
 }
 
-/* Dotted underline for abbreviation tooltips (mimics <abbr> styling) */
-.has-tooltip.abbr-tooltip {
+/* Dotted underline for inline abbreviations (hover for expansion) */
+.sense abbr {
 	text-decoration: underline dotted;
 	text-underline-offset: 2px;
 	cursor: help;
+}
+
+/* Anchor for delegated abbreviation tooltip positioning */
+.abbr-tip-anchor {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	pointer-events: none;
 }
 
 .has-tooltip .tip-box {

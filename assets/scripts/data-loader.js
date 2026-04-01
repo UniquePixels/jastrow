@@ -16,6 +16,7 @@ class JastrowDataLoader {
 		this.sortedHeadwords = []; // sorted array of headwords for binary search
 		this.sortedReferences = []; // sorted array of unique reference strings
 		this.normalizedReferences = []; // parallel array of normalized forms
+		this.abbrMap = {}; // abbreviation text -> { original, modern }
 		this.isLoaded = false;
 		this.loadProgress = 0;
 	}
@@ -69,6 +70,9 @@ class JastrowDataLoader {
 				}
 				if (!db.objectStoreNames.contains(IDB.METADATA_STORE)) {
 					db.createObjectStore(IDB.METADATA_STORE, { keyPath: 'key' });
+				}
+				if (!db.objectStoreNames.contains(IDB.ABBR_STORE)) {
+					db.createObjectStore(IDB.ABBR_STORE, { keyPath: 'key' });
 				}
 			};
 			request.onsuccess = (event) => resolve(event.target.result);
@@ -219,6 +223,137 @@ class JastrowDataLoader {
 	}
 
 	/**
+	 * Read all abbreviation records from IndexedDB.
+	 * @param {IDBDatabase} db
+	 * @returns {Promise<Array>} cached records, or empty array on failure
+	 */
+	readAbbrCache(db) {
+		return new Promise((resolve) => {
+			try {
+				const tx = db.transaction(IDB.ABBR_STORE, 'readonly');
+				const store = tx.objectStore(IDB.ABBR_STORE);
+				const request = store.getAll();
+				request.onsuccess = () => resolve(request.result || []);
+				request.onerror = () => resolve([]);
+			} catch {
+				resolve([]);
+			}
+		});
+	}
+
+	/**
+	 * Write abbreviation records to IndexedDB, replacing any existing data.
+	 * @param {IDBDatabase} db
+	 * @param {Object} abbrs - key→{original, modern} map
+	 * @returns {Promise<void>}
+	 */
+	writeAbbrCache(db, abbrs) {
+		const tx = db.transaction(IDB.ABBR_STORE, 'readwrite');
+		const store = tx.objectStore(IDB.ABBR_STORE);
+		store.clear();
+		for (const [key, value] of Object.entries(abbrs)) {
+			store.put({
+				key,
+				original: value.original,
+				modern: value.modern,
+			});
+		}
+		return new Promise((resolve, reject) => {
+			tx.oncomplete = () => resolve();
+			tx.onerror = (event) => reject(event.target.error);
+		});
+	}
+
+	/**
+	 * Populate the in-memory abbrMap from an array of {key, original, modern} records.
+	 * @param {Array<{key: string, original: string, modern: string}>} records
+	 */
+	populateAbbrMap(records) {
+		for (const item of records) {
+			this.abbrMap[item.key] = {
+				original: item.original,
+				modern: item.modern,
+			};
+		}
+	}
+
+	/**
+	 * Fetch abbreviation data from the network and write to IDB.
+	 * @param {IDBDatabase} db
+	 * @returns {Promise<Object>} the abbreviations object, or null on failure
+	 */
+	async fetchAbbreviations(db) {
+		const response = await fetch(IDB.ABBR_URL);
+		if (!response.ok) {
+			throw new Error(
+				`Failed to load abbreviations: ${response.statusText}`,
+			);
+		}
+		const data = await response.json();
+		const abbrs = data.abbreviations;
+		if (!abbrs || typeof abbrs !== 'object') {
+			throw new Error('Invalid abbreviation data: missing abbreviations key');
+		}
+
+		try {
+			await this.writeAbbrCache(db, abbrs);
+		} catch (writeError) {
+			if (window.DEBUG) {
+				console.warn(
+					'[DataLoader] Failed to cache abbreviations:',
+					writeError,
+				);
+			}
+		}
+		return abbrs;
+	}
+
+	/**
+	 * Load abbreviation data from IDB cache or network.
+	 * Populates this.abbrMap for runtime tooltip lookups.
+	 * @param {IDBDatabase} db
+	 * @param {boolean} needsNetwork - true if data version changed
+	 * @returns {Promise<void>}
+	 */
+	async loadAbbreviations(db, needsNetwork) {
+		// Try IDB cache first
+		if (!needsNetwork) {
+			const cached = await this.readAbbrCache(db);
+			if (cached.length > 0) {
+				this.populateAbbrMap(cached);
+				if (window.DEBUG) {
+					console.log(
+						`[DataLoader] Loaded ${cached.length} abbreviations from IDB`,
+					);
+				}
+				return;
+			}
+		}
+
+		// Network fetch
+		try {
+			const abbrs = await this.fetchAbbreviations(db);
+			const entries = Object.entries(abbrs).map(([key, value]) => ({
+				key,
+				original: value.original,
+				modern: value.modern,
+			}));
+			this.populateAbbrMap(entries);
+
+			if (window.DEBUG) {
+				console.log(
+					`[DataLoader] Loaded ${entries.length} abbreviations from network`,
+				);
+			}
+		} catch (error) {
+			if (window.DEBUG) {
+				console.warn('[DataLoader] Abbreviation load failed:', error);
+			}
+			// Non-fatal — tooltips will silently skip
+		}
+	}
+
+	/**
 	 * Build all in-memory indexes from the entries array.
 	 * Used when loading from IndexedDB cache (since loadFile() is skipped).
 	 */
@@ -364,6 +499,14 @@ class JastrowDataLoader {
 						// App continues fine — just won't have cache next visit
 					}
 				}
+			}
+
+			// Load abbreviations — shares the entry version lifecycle.
+			// If jastrow-abbr.json is updated, version.json must also be bumped
+			// so the cache is invalidated and fresh data is fetched.
+			if (db) {
+				this.abbrMap = {};
+				await this.loadAbbreviations(db, !loadedFromCache);
 			}
 
 			if (db) {
