@@ -2400,6 +2400,7 @@
           loadEntryIntoEditor(state.entries[state.currentIndex]);
         }
         updateNavigation();
+        jumpFromHash();
 
         // Auto-scan for issues on load (runs in background)
         runAutoScan().then(() => renderIssuesTab());
@@ -3189,7 +3190,28 @@
       renderCurrentEntry();
       loadEntryIntoEditor(state.entries[state.currentIndex]);
       updateNavigation();
+      const rid = state.entries[state.currentIndex]?.id;
+      const desired = rid ? `#rid:${rid}` : '';
+      if (rid && location.hash !== desired) {
+        state._suppressHashChange = true;
+        history.replaceState(null, '', desired || location.pathname);
+      }
     }
+
+    function jumpFromHash() {
+      const m = location.hash.match(/^#rid:(.+)$/);
+      if (!m) { return; }
+      const rid = decodeURIComponent(m[1]);
+      const idx = state.entries.findIndex(e => e.id === rid);
+      if (idx >= 0 && idx !== state.currentIndex) {
+        navigateTo(idx);
+      }
+    }
+
+    window.addEventListener('hashchange', () => {
+      if (state._suppressHashChange) { state._suppressHashChange = false; return; }
+      jumpFromHash();
+    });
 
     function updateNavigation() {
       const prevBtn = document.getElementById('nav-prev');

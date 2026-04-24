@@ -279,6 +279,18 @@ main .wa-stack {
 	cursor: pointer;
 }
 
+.admin-edit-link {
+	position: relative;
+	bottom: 0.75em;
+	margin-left: 0.3em;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.admin-edit-link:hover {
+	color: var(--wa-color-brand-default);
+}
+
 /* Floating keyboard overlay — positioned below the page header */
 .keyboard-overlay {
 	position: fixed;
