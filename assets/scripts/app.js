@@ -1063,6 +1063,22 @@ class JastrowApp {
 
 		leftCluster.appendChild(permalinkButton);
 
+		// Admin edit shortcut — only when the local flag is set (see README).
+		// Opens the local Bun admin tool deep-linked to this entry's RID.
+		if (localStorage.getItem('jastrow:admin') === '1') {
+			const adminLink = document.createElement('a');
+			adminLink.href = `http://localhost:3333/#rid:${entry.id}`;
+			adminLink.target = '_blank';
+			adminLink.rel = 'noopener noreferrer';
+			adminLink.className = 'admin-edit-link wa-color-text-quiet';
+			adminLink.setAttribute('aria-label', 'Edit in admin tool');
+			const adminIcon = document.createElement('wa-icon');
+			adminIcon.setAttribute('name', 'pen-to-square');
+			adminIcon.setAttribute('variant', 'regular');
+			adminLink.appendChild(adminIcon);
+			leftCluster.appendChild(adminLink);
+		}
+
 		// Grammar badges: language (brand) → POS (neutral) → gender (success)
 		// Positioned after permalink, with pill shape and spacing
 		const grammar = entry.g || {};

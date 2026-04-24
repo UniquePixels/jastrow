@@ -42,7 +42,31 @@ Then open `http://localhost:8000` in your browser.
 ### Admin Tooling
 
 The `data/admin/` directory contains a Bun-based annotation server for
-classifying dictionary entries. See `data/admin/` for details.
+editing dictionary entries, abbreviations, sages, and annotations.
+It is local-only and never deployed.
+
+**Start it:**
+
+```bash
+bun data/admin/server.ts
+```
+
+Then open `http://localhost:3333`. Set `PORT=…` to override the port.
+
+**Edit-entry shortcut on the public site:**
+
+When the `jastrow:admin` localStorage flag is set, each entry renders
+a small pencil icon next to its permalink that opens that entry in
+the local admin tool (via `#rid:<RID>`). Toggle in the browser console:
+
+```js
+localStorage.setItem('jastrow:admin', '1'); // enable
+localStorage.removeItem('jastrow:admin');   // disable
+```
+
+The flag is per-browser; the shortcut expects the admin server to be
+running on `localhost:3333` — if it isn't, the link simply fails to
+load.
 
 ## Data Attribution
 
