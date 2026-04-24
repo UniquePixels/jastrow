@@ -31,6 +31,7 @@
   align-items: center;
   gap: var(--wa-space-s);
   flex-wrap: wrap;
+  padding-right: 2.5rem;
 }
 
 .sages-search {
@@ -196,6 +197,14 @@
   width: 20px;
   height: 0;
   flex-shrink: 0;
+}
+
+/* === Close View Button === */
+.sages-close-view {
+  position: absolute;
+  top: var(--wa-space-s);
+  right: var(--wa-space-m);
+  z-index: 30;
 }
 
 /* === Zoom Controls === */
