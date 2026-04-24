@@ -87,6 +87,7 @@
     integrity="sha384-ZbdTLlGjn0oMsLy9jD95aQePbFXvH8XRnHa4vsjjGebcusbiV9Fp2sELSsQdWfLu" crossorigin="anonymous">
   <link rel="stylesheet" href="assets/styles/styles.css">
   <link rel="stylesheet" href="assets/styles/sages.css">
+  <link rel="stylesheet" href="assets/styles/rabbinic-time.css">
   <link rel="stylesheet" href="assets/styles/accessibility.css">
 
 
@@ -198,10 +199,18 @@
       </div>
       <div class="wa-flank wa-gap-s">
         <wa-icon name="ellipsis" family="jelly" variant="regular" class="wa-heading-l"
-          style="color: #ff8e00;"></wa-icon>
+          style="color: #ff4d2e;"></wa-icon>
         <div class="wa-stack wa-gap-3xs">
           <span class="wa-heading-m"><a href="#" id="show-abbr-btn">Abbreviations reference</a></span>
           <span class="wa-caption-xs" lang="la"><em>Dictionary & Talmudic abbreviations
+            </em></span>
+        </div>
+      </div>
+      <div class="wa-flank wa-gap-s">
+        <wa-icon name="eclipse" variant="regular" class="wa-heading-l" style="color: #ff8e00;"></wa-icon>
+        <div class="wa-stack wa-gap-3xs">
+          <span class="wa-heading-m"><a href="#" id="show-rabbinic-time-btn">Rabbinic Time</a></span>
+          <span class="wa-caption-xs" lang="la"><em>Sha'ot zmaniyot &amp; zmanim
             </em></span>
         </div>
       </div>
@@ -309,6 +318,75 @@
       <div class="abbr-content"></div>
     </wa-dialog>
 
+    <!-- Rabbinic Time Dialog -->
+    <wa-dialog label="Rabbinic Time — שָׁעוֹת זְמַנִיּוֹת" light-dismiss class="rabbinic-time-dialog dialog-scrolling" style="--width: min(95vw, 900px);">
+      <div class="rabbinic-time-content">
+        <wa-tab-group class="rt-tabs">
+          <wa-tab panel="rt-timeline">Timeline &amp; Reference</wa-tab>
+          <wa-tab panel="rt-clock">24-Hour Circle Diagram</wa-tab>
+          <wa-tab panel="rt-month">Sha'ah Duration by Month</wa-tab>
+
+          <wa-tab-panel name="rt-timeline">
+            <h2 class="rt-h2">Timeline &amp; Reference</h2>
+            <div class="rt-ctrls">
+              <span class="rt-clbl">Seasons:</span>
+              <button type="button" class="rt-cbtn rt-s-summer active" id="rt-r-summer">Summer</button>
+              <button type="button" class="rt-cbtn rt-s-equinox active" id="rt-r-equinox">Equinox</button>
+              <button type="button" class="rt-cbtn rt-s-winter active" id="rt-r-winter">Winter</button>
+              <div class="rt-csep"></div>
+              <span class="rt-clbl">Show:</span>
+              <button type="button" class="rt-cbtn rt-c-db active" id="rt-r-db">Zmanim</button>
+              <button type="button" class="rt-cbtn rt-c-pr active" id="rt-r-pr">Prayer Times</button>
+              <button type="button" class="rt-cbtn rt-c-kb active" id="rt-r-kb">Korbanot</button>
+            </div>
+            <svg class="rt-diag" id="rt-ref-svg" aria-label="Rabbinic timeline diagram" role="img"><title>Rabbinic timeline diagram</title></svg>
+            <table class="rt-table">
+              <thead><tr><th>Term / Zman</th><th>When (Equinox)</th><th>Notes</th></tr></thead>
+              <tbody id="rt-ref-body"></tbody>
+            </table>
+            <div class="rt-infobox">
+              <b>Tefillah–Korban correspondence (Berachot 26b):</b>
+              Shacharit → Tamid Shachar · Mincha → Tamid Bein HaArbayim · Maariv → eivarim u'pedarim (organs left overnight).
+              Prayer windows mirror Tamid windows directly. | <b>Gra method</b> (sha'ot from sunrise to sunset). Magen Avraham uses dawn–nightfall, shifting all zmanim earlier.
+            </div>
+          </wa-tab-panel>
+
+          <wa-tab-panel name="rt-clock">
+            <h2 class="rt-h2">24-Hour Circle Diagram</h2>
+            <p class="rt-lead">Noon at top, clockwise. Sky shading = physical light level. Inner ring bands show halachic time-period windows.</p>
+            <div class="rt-ctrls">
+              <span class="rt-clbl">Season:</span>
+              <button type="button" class="rt-cbtn rt-s-summer" id="rt-c-summer">Summer</button>
+              <button type="button" class="rt-cbtn rt-s-equinox active" id="rt-c-equinox">Equinox</button>
+              <button type="button" class="rt-cbtn rt-s-winter" id="rt-c-winter">Winter</button>
+              <div class="rt-csep"></div>
+              <span class="rt-clbl">Show:</span>
+              <button type="button" class="rt-cbtn rt-c-db active" id="rt-c-db">Zmanim</button>
+              <button type="button" class="rt-cbtn rt-c-pr active" id="rt-c-pr">Prayer Times</button>
+              <button type="button" class="rt-cbtn rt-c-kb active" id="rt-c-kb">Korbanot</button>
+            </div>
+            <svg viewBox="-60 -20 700 620" id="rt-clock-svg" class="rt-clock-svg" aria-label="24-hour circle diagram" role="img"><title>24-hour circle diagram</title></svg>
+            <div class="rt-legend">
+              <b class="rt-legend-title">Color key:</b>
+              <span class="rt-lsw"><span class="rt-dot" style="background:#2563eb"></span><span style="color:#2563eb">Zmanim (time structure)</span></span>
+              <span class="rt-lsw"><span class="rt-dot" style="background:#b83232"></span><span style="color:#b83232">Prayer Times</span></span>
+              <span class="rt-lsw"><span class="rt-box" style="background:#15803d"></span><span style="color:#15803d">Korban windows</span></span>
+              <span class="rt-lsw"><span class="rt-box" style="background:#1a2848"></span><span style="color:#7a8aaa">Night watches</span></span>
+            </div>
+          </wa-tab-panel>
+
+          <wa-tab-panel name="rt-month">
+            <h2 class="rt-h2">Sha'ah Duration by Month</h2>
+            <p class="rt-lead">~40°N latitude. At equinox one sha'ah = exactly 60 min. Dashed line = equinox baseline.</p>
+            <div class="rt-chart-wrap"><canvas id="rt-month-chart" height="270"></canvas></div>
+            <div class="rt-infobox">
+              <b>Key point:</b> Summer sha'ah ≈ 75 min; winter ≈ 46 min. All 12 sha'ot always span sunrise → sunset — only their clock-length changes.
+            </div>
+          </wa-tab-panel>
+        </wa-tab-group>
+      </div>
+    </wa-dialog>
+
   </wa-page>
   <wa-toast></wa-toast>
 
@@ -333,12 +411,15 @@
       // Handle guide and abbreviations dialogs
       const showGuideBtn = document.getElementById('show-guide-btn');
       const showAbbrBtn = document.getElementById('show-abbr-btn');
+      const showRabbinicTimeBtn = document.getElementById('show-rabbinic-time-btn');
       const guideDialog = document.querySelector('.guide-dialog');
       const abbrDialog = document.querySelector('.abbr-dialog');
+      const rabbinicTimeDialog = document.querySelector('.rabbinic-time-dialog');
       let appInitialized = false;
       let pendingDialogOpen = null;
       let _guideOpener = null;
       let _abbrOpener = null;
+      let _rabbinicTimeOpener = null;
 
       // Function to show the guide dialog
       const showGuide = () => {
@@ -372,6 +453,23 @@
         }
       };
 
+      // Function to show the Rabbinic Time dialog
+      const showRabbinicTime = () => {
+        if (!appInitialized) {
+          pendingDialogOpen = 'rabbinic-time';
+          return;
+        }
+
+        if (rabbinicTimeDialog) {
+          _rabbinicTimeOpener = document.activeElement;
+          rabbinicTimeDialog.open = true;
+          if (window.location.hash !== '#rabbinic-time') {
+            window.history.pushState(null, '', '#rabbinic-time');
+          }
+          if (window.RabbinicTime) { window.RabbinicTime.init(); }
+        }
+      };
+
       // Listen for app initialization complete
       window.addEventListener('jastrow-app-initialized', () => {
         appInitialized = true;
@@ -382,6 +480,9 @@
         } else if (pendingDialogOpen === 'abbreviations') {
           pendingDialogOpen = null;
           showAbbr();
+        } else if (pendingDialogOpen === 'rabbinic-time') {
+          pendingDialogOpen = null;
+          showRabbinicTime();
         }
       });
 
@@ -391,6 +492,8 @@
         showGuide();
       } else if (hash === '#abbreviations') {
         showAbbr();
+      } else if (hash === '#rabbinic-time') {
+        showRabbinicTime();
       }
 
       // Handle click on guide button
@@ -409,6 +512,14 @@
         });
       }
 
+      // Handle click on Rabbinic Time button
+      if (showRabbinicTimeBtn && rabbinicTimeDialog) {
+        showRabbinicTimeBtn.addEventListener('click', (e) => {
+          e.preventDefault();
+          showRabbinicTime();
+        });
+      }
+
       // Handle hash changes (e.g., browser back/forward)
       window.addEventListener('hashchange', () => {
         const hash = window.location.hash;
@@ -416,10 +527,13 @@
           showGuide();
         } else if (hash === '#abbreviations') {
           showAbbr();
+        } else if (hash === '#rabbinic-time') {
+          showRabbinicTime();
         } else if (!(hash.startsWith('#sages') || hash.startsWith('#sage:'))) {
           // Close any open dialogs if hash doesn't match (skip sages routes — handled by app.js)
           if (guideDialog?.open) { guideDialog.open = false; }
           if (abbrDialog?.open) { abbrDialog.open = false; }
+          if (rabbinicTimeDialog?.open) { rabbinicTimeDialog.open = false; }
           const pageDialog = document.querySelector('.page-dialog');
           if (pageDialog?.open && !hash.startsWith('#scan:')) { pageDialog.open = false; }
         }
@@ -449,6 +563,18 @@
           }
         });
       }
+
+      if (rabbinicTimeDialog) {
+        rabbinicTimeDialog.addEventListener('wa-hide', () => {
+          if (window.location.hash === '#rabbinic-time') {
+            window.history.pushState(null, '', window.location.pathname);
+          }
+          if (_rabbinicTimeOpener) {
+            _rabbinicTimeOpener.focus();
+            _rabbinicTimeOpener = null;
+          }
+        });
+      }
     });
   </script>
   <!-- DOMPurify for XSS protection -->
@@ -462,6 +588,9 @@
   <!-- No SRI: D3 CDN content may change per minor version; integrity hash would break on updates -->
   <!-- nosemgrep: html.security.audit.missing-integrity.missing-integrity -->
   <script src="https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js" crossorigin="anonymous"></script>
+  <!-- Chart.js for Rabbinic Time monthly duration chart -->
+  <!-- nosemgrep: html.security.audit.missing-integrity.missing-integrity -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js" crossorigin="anonymous"></script>
   <script src="assets/scripts/constants.js"></script>
   <script src="assets/scripts/sanitizer.js"></script>
   <script src="assets/scripts/keyboard.js"></script>
@@ -471,6 +600,7 @@
   <script src="assets/scripts/sages-graph.js"></script>
   <script src="assets/scripts/sages-sidebar.js"></script>
   <script src="assets/scripts/sages.js"></script>
+  <script src="assets/scripts/rabbinic-time.js"></script>
   <script src="assets/scripts/announcer.js"></script>
   <script src="assets/scripts/app.js"></script>
 

@@ -459,8 +459,8 @@ class JastrowApp {
 			this._hideSagesView();
 		}
 
-		// Load initial page if no hash, or if hash is a dialog hash (guide, abbreviations)
-		if (!hash || hash === 'guide' || hash === 'abbreviations') {
+		// Load initial page if no hash, or if hash is a dialog hash (guide, abbreviations, rabbinic-time)
+		if (!hash || hash === 'guide' || hash === 'abbreviations' || hash === 'rabbinic-time') {
 			this.loadInitialPage();
 			return;
 		}
