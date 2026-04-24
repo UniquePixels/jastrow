@@ -6,7 +6,7 @@
 
 // Update this timestamp whenever you deploy changes
 // This forces the service worker to update and clear old caches
-const CACHE_VERSION = '2026-04-13T00:00:00.000Z';
+const CACHE_VERSION = '2026-04-24T00:00:00.000Z';
 
 // Assets to cache immediately on install
 const STATIC_ASSETS = [
@@ -31,6 +31,8 @@ const STATIC_ASSETS = [
 	'/assets/scripts/sages-sidebar.js',
 	'/assets/scripts/sages.js',
 	'/assets/scripts/scroll-manager.js',
+	'/assets/styles/rabbinic-time.css',
+	'/assets/scripts/rabbinic-time.js',
 	'/data/sages.json',
 	'/data/jastrow-abbr.json',
 	'/data/jastrow-hebrew-abbr.json',
