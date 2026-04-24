@@ -223,6 +223,24 @@ class TalmudSagesExplorer {
 		this._toolbarContainer.appendChild(inner);
 		this._container.appendChild(this._toolbarContainer);
 
+		const closeBtn = document.createElement('wa-button');
+		closeBtn.className = 'sages-close-view';
+		closeBtn.setAttribute('appearance', 'plain');
+		closeBtn.setAttribute('variant', 'neutral');
+		closeBtn.setAttribute('size', 'small');
+		closeBtn.setAttribute('aria-label', 'Close Talmudic Sages');
+		const closeIcon = document.createElement('wa-icon');
+		closeIcon.setAttribute('name', 'xmark');
+		closeIcon.setAttribute('label', 'Close');
+		closeBtn.appendChild(closeIcon);
+		closeBtn.addEventListener('click', () => {
+			if (location.hash.startsWith('#sage:') || location.hash === '#sages') {
+				history.pushState(null, '', location.pathname);
+				dispatchEvent(new HashChangeEvent('hashchange'));
+			}
+		});
+		this._container.appendChild(closeBtn);
+
 		// Search handler
 		let debounceTimer;
 		searchInput.addEventListener('wa-input', (e) => {
