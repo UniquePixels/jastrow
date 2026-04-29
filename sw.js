@@ -6,7 +6,7 @@
 
 // Update this timestamp whenever you deploy changes
 // This forces the service worker to update and clear old caches
-const CACHE_VERSION = '2026-04-24T00:00:00.000Z';
+const CACHE_VERSION = '2026-04-28T00:00:00.000Z';
 
 // Assets to cache immediately on install
 const STATIC_ASSETS = [

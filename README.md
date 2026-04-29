@@ -43,15 +43,44 @@ Then open `http://localhost:8000` in your browser.
 
 The `data/admin/` directory contains a Bun-based annotation server for
 editing dictionary entries, abbreviations, sages, and annotations.
-It is local-only and never deployed.
+It also hosts the **Rabbinic Time PDF builder**. It is local-only and
+never deployed.
 
-**Start it:**
+**One-time setup** (installs Playwright + Chromium and stages bundled
+assets for the PDF builder):
+
+```bash
+cd data/admin
+bun install
+```
+
+**Start the server:**
 
 ```bash
 bun data/admin/server.ts
 ```
 
 Then open `http://localhost:3333`. Set `PORT=…` to override the port.
+
+#### Building the Rabbinic Time PDF
+
+The site's Rabbinic Time dialog links a downloadable PDF at
+[`assets/pdfs/rabbinic-time.pdf`](assets/pdfs/rabbinic-time.pdf).
+Rebuild it whenever you edit `assets/scripts/rabbinic-time.js` or
+`assets/styles/rabbinic-time.css`:
+
+- **Admin UI:** open the **Builds** tab and click **Build PDF**.
+- **CLI (admin server running):**
+  `curl -X POST http://localhost:3333/api/builds/rabbinic-time-pdf`
+- **CLI (no server):**
+  `bun data/admin/pdf-builds/render-rabbinic-time.ts`
+
+All three paths write to `assets/pdfs/rabbinic-time.pdf`. The print
+HTML at `data/admin/pdf-builds/rabbinic-time.html` loads the live
+site's CSS/JS via relative path, so there is no copy step or drift.
+
+Commit the regenerated `assets/pdfs/rabbinic-time.pdf` so the deploy
+ships the updated download.
 
 **Edit-entry shortcut on the public site:**
 

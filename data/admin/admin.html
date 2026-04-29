@@ -2065,6 +2065,72 @@
       font-weight: 600;
     }
 
+    /* --- Builds --- */
+    .builds-container {
+      padding: 16px;
+    }
+
+    .build-card {
+      background: #fff;
+      border-radius: 6px;
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+      padding: 16px 20px;
+      max-width: 720px;
+    }
+
+    .build-card-head h2 {
+      font-size: 16px;
+      font-weight: 600;
+      color: #333;
+      margin-bottom: 6px;
+    }
+
+    .build-card-sub {
+      font-size: 13px;
+      color: #555;
+      line-height: 1.5;
+      margin-bottom: 12px;
+    }
+
+    .build-card-sub code {
+      background: #f3f4f6;
+      padding: 1px 5px;
+      border-radius: 3px;
+      font-size: 12px;
+    }
+
+    .build-card-actions {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .build-status {
+      font-size: 13px;
+      color: #555;
+    }
+
+    .build-status.error {
+      color: #b91c1c;
+    }
+
+    .build-status.success {
+      color: #15803d;
+    }
+
+    .build-log {
+      margin-top: 12px;
+      padding: 10px 12px;
+      background: #111827;
+      color: #f3f4f6;
+      font-size: 12px;
+      line-height: 1.5;
+      border-radius: 4px;
+      max-height: 240px;
+      overflow: auto;
+      white-space: pre-wrap;
+    }
+
     /* --- Toast --- */
     .toast {
       position: fixed;
@@ -2101,6 +2167,7 @@
     <button class="tab-button" role="tab" aria-selected="false" data-tab="abbreviations">Abbreviations</button>
     <button class="tab-button" role="tab" aria-selected="false" data-tab="sages">Sages</button>
     <button class="tab-button" role="tab" aria-selected="false" data-tab="stats">Stats</button>
+    <button type="button" class="tab-button" role="tab" aria-selected="false" data-tab="builds">Builds</button>
   </nav>
 
   <div class="nav-bar" id="nav-bar">
@@ -2197,6 +2264,29 @@
   <div id="tab-stats" class="tab-content" role="tabpanel">
     <div class="stats-container">
       <div class="stats-grid" id="stats-grid"></div>
+    </div>
+  </div>
+
+  <div id="tab-builds" class="tab-content" role="tabpanel">
+    <div class="builds-container">
+      <section class="build-card">
+        <header class="build-card-head">
+          <h2>Rabbinic Time PDF</h2>
+          <p class="build-card-sub">
+            Renders <code>data/admin/pdf-builds/rabbinic-time.html</code> →
+            <code>assets/pdfs/rabbinic-time.pdf</code> (the file linked from the
+            site's Rabbinic Time dialog). Pulls live source from
+            <code>assets/scripts/rabbinic-time.js</code> and
+            <code>assets/styles/rabbinic-time.css</code>, so any edit there
+            flows in automatically.
+          </p>
+        </header>
+        <div class="build-card-actions">
+          <button type="button" id="build-rabbinic-time-btn" class="btn-primary">Build PDF</button>
+          <span id="build-rabbinic-time-status" class="build-status"></span>
+        </div>
+        <pre id="build-rabbinic-time-log" class="build-log" hidden></pre>
+      </section>
     </div>
   </div>
 
@@ -5252,6 +5342,63 @@
       toast.classList.add('visible');
       setTimeout(() => toast.classList.remove('visible'), 3000);
     }
+
+    // --- Builds ---
+    function setBuildStatus(el, message, kind) {
+      el.textContent = message;
+      el.classList.remove('error', 'success');
+      if (kind) { el.classList.add(kind); }
+    }
+
+    async function buildRabbinicTimePdf() {
+      const btn = document.getElementById('build-rabbinic-time-btn');
+      const status = document.getElementById('build-rabbinic-time-status');
+      const log = document.getElementById('build-rabbinic-time-log');
+
+      btn.disabled = true;
+      log.hidden = true;
+      log.textContent = '';
+      setBuildStatus(status, 'Building…');
+
+      const started = Date.now();
+      try {
+        const res = await fetch('/api/builds/rabbinic-time-pdf', { method: 'POST' });
+        const data = await res.json();
+        const elapsed = Date.now() - started;
+
+        if (!data.ok) {
+          setBuildStatus(status, `Failed (${elapsed} ms)`, 'error');
+          log.hidden = false;
+          log.textContent = data.error || `HTTP ${res.status}`;
+          if (Array.isArray(data.logs) && data.logs.length > 0) {
+            log.textContent += `\n\n${data.logs.join('\n')}`;
+          }
+          showToast('PDF build failed');
+          return;
+        }
+
+        setBuildStatus(
+          status,
+          `Wrote ${data.outPath} (${data.kb} KB) in ${data.durationMs} ms`,
+          'success',
+        );
+        if (Array.isArray(data.logs) && data.logs.length > 0) {
+          log.hidden = false;
+          log.textContent = data.logs.join('\n');
+        }
+        showToast('PDF rebuilt');
+      } catch (err) {
+        setBuildStatus(status, 'Failed', 'error');
+        log.hidden = false;
+        log.textContent = String(err);
+        showToast('PDF build failed');
+      } finally {
+        btn.disabled = false;
+      }
+    }
+
+    document.getElementById('build-rabbinic-time-btn')
+      .addEventListener('click', buildRabbinicTimePdf);
 
     // --- Init ---
     document.addEventListener("DOMContentLoaded", () => {

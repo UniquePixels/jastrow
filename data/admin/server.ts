@@ -1,5 +1,6 @@
 import { existsSync, readFileSync, writeFileSync } from 'node:fs';
 import { join } from 'node:path';
+import { buildRabbinicTimePdf } from './pdf-builds/render-rabbinic-time.ts';
 
 const DATA_DIR = join(import.meta.dir, '..');
 const PORT = parseInt(process.env.PORT || '3333', 10);
@@ -181,6 +182,13 @@ function matchRoute(
 			paramNames: ['id'],
 			handler: handleSageResearch,
 		},
+		// Builds
+		{
+			method: 'POST',
+			pattern: /^\/api\/builds\/rabbinic-time-pdf$/,
+			paramNames: [],
+			handler: handleBuildRabbinicTimePdf,
+		},
 	];
 
 	for (const route of routes) {
@@ -359,6 +367,23 @@ Only include fields where you have substantive new information to add.`;
 		return jsonResponse({ suggestions });
 	} catch {
 		return jsonResponse({ error: 'Claude CLI not available' }, 503);
+	}
+}
+
+async function handleBuildRabbinicTimePdf(): Promise<Response> {
+	try {
+		const result = await buildRabbinicTimePdf();
+		return jsonResponse({
+			ok: true,
+			bytes: result.bytes,
+			kb: +(result.bytes / 1024).toFixed(1),
+			durationMs: result.durationMs,
+			outPath: 'assets/pdfs/rabbinic-time.pdf',
+			logs: result.logs,
+		});
+	} catch (err) {
+		const message = err instanceof Error ? err.message : String(err);
+		return jsonResponse({ ok: false, error: message }, 500);
 	}
 }
 
