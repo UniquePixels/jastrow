@@ -320,6 +320,16 @@
 
     <!-- Rabbinic Time Dialog -->
     <wa-dialog label="Rabbinic Time — שָׁעוֹת זְמַנִיּוֹת" light-dismiss class="rabbinic-time-dialog dialog-scrolling" style="--width: min(95vw, 900px);">
+      <a slot="header-actions" href="assets/pdfs/rabbinic-time.pdf" download="rabbinic-time.pdf" aria-label="Download Rabbinic Time PDF">
+        <wa-button id="rabbinic-time-download-btn" appearance="plain">
+          <wa-icon name="arrow-down-to-bracket" variant="regular" label="Download Rabbinic Time PDF"></wa-icon>
+        </wa-button>
+      </a>
+      <wa-button slot="header-actions" id="rabbinic-time-share-btn" appearance="plain" class="dialog-share-btn" data-share="rabbinic-time">
+        <wa-icon name="arrow-up-from-bracket" variant="regular" label="Share Rabbinic Time"></wa-icon>
+      </wa-button>
+      <wa-tooltip for="rabbinic-time-download-btn">Download as PDF</wa-tooltip>
+      <wa-tooltip for="rabbinic-time-share-btn">Share Rabbinic Time</wa-tooltip>
       <div class="rabbinic-time-content">
         <wa-tab-group class="rt-tabs">
           <wa-tab panel="rt-timeline">Timeline &amp; Reference</wa-tab>
