@@ -4188,7 +4188,7 @@
 
     // --- Page Mapper ---
     function getFirstLetter(hw) {
-      return hw.replace(/[\s\u00B2\u00B3\u2070-\u2079\u00B9²³⁴⁵⁶⁷⁸⁹]/g, '').charAt(0);
+      return hw.replace(/[\s*\u00B2\u00B3\u2070-\u2079\u00B9²³⁴⁵⁶⁷⁸⁹]/g, '').charAt(0);
     }
 
     function initMapper() {
