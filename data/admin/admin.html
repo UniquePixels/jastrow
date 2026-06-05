@@ -2161,18 +2161,18 @@
   </div>
 
   <nav class="tab-bar" role="tablist">
-    <button class="tab-button active" role="tab" aria-selected="true" data-tab="entry-editor">Entry Editor</button>
-    <button class="tab-button" role="tab" aria-selected="false" data-tab="page-mapper">Page Mapper</button>
-    <button class="tab-button" role="tab" aria-selected="false" data-tab="issues">Issues</button>
-    <button class="tab-button" role="tab" aria-selected="false" data-tab="abbreviations">Abbreviations</button>
-    <button class="tab-button" role="tab" aria-selected="false" data-tab="sages">Sages</button>
-    <button class="tab-button" role="tab" aria-selected="false" data-tab="stats">Stats</button>
+    <button type="button" class="tab-button active" role="tab" aria-selected="true" data-tab="entry-editor">Entry Editor</button>
+    <button type="button" class="tab-button" role="tab" aria-selected="false" data-tab="page-mapper">Page Mapper</button>
+    <button type="button" class="tab-button" role="tab" aria-selected="false" data-tab="issues">Issues</button>
+    <button type="button" class="tab-button" role="tab" aria-selected="false" data-tab="abbreviations">Abbreviations</button>
+    <button type="button" class="tab-button" role="tab" aria-selected="false" data-tab="sages">Sages</button>
+    <button type="button" class="tab-button" role="tab" aria-selected="false" data-tab="stats">Stats</button>
     <button type="button" class="tab-button" role="tab" aria-selected="false" data-tab="builds">Builds</button>
   </nav>
 
   <div class="nav-bar" id="nav-bar">
-    <button id="nav-prev" title="Previous entry">&larr; Prev</button>
-    <button id="nav-next" title="Next entry">Next &rarr;</button>
+    <button type="button" id="nav-prev" title="Previous entry">&larr; Prev</button>
+    <button type="button" id="nav-next" title="Next entry">Next &rarr;</button>
     <input type="text" class="nav-rid-input" id="nav-rid" placeholder="RID" title="Jump to RID (press Enter)">
     <div class="nav-hw-wrapper">
       <input type="text" class="nav-hw-input" id="nav-hw-search" placeholder="Search headword">
@@ -2207,8 +2207,8 @@
         <input type="number" id="mapper-letter-page" min="1">
       </label>
       <div class="mapper-dialog-actions">
-        <button id="mapper-letter-cancel" class="btn-secondary">Cancel</button>
-        <button id="mapper-letter-confirm" class="btn-primary">Continue</button>
+        <button type="button" id="mapper-letter-cancel" class="btn-secondary">Cancel</button>
+        <button type="button" id="mapper-letter-confirm" class="btn-primary">Continue</button>
       </div>
     </dialog>
   </div>
@@ -2226,20 +2226,20 @@
   <div id="tab-abbreviations" class="tab-content" role="tabpanel">
     <div class="abbr-container">
       <div class="abbr-sub-tabs">
-        <button class="abbr-sub-tab active" data-abbr-tab="english">English</button>
-        <button class="abbr-sub-tab" data-abbr-tab="hebrew">Hebrew</button>
+        <button type="button" class="abbr-sub-tab active" data-abbr-tab="english">English</button>
+        <button type="button" class="abbr-sub-tab" data-abbr-tab="hebrew">Hebrew</button>
       </div>
       <div id="abbr-english" class="abbr-sub-content active">
         <div class="abbr-toolbar">
           <input type="text" id="abbr-search" class="abbr-search" placeholder="Search abbreviations...">
-          <button id="abbr-add-btn" class="btn-primary">Add</button>
-          <button id="abbr-save-en-btn" class="btn-primary">Save</button>
+          <button type="button" id="abbr-add-btn" class="btn-primary">Add</button>
+          <button type="button" id="abbr-save-en-btn" class="btn-primary">Save</button>
         </div>
         <div class="abbr-list" id="abbr-en-list"></div>
       </div>
       <div id="abbr-hebrew" class="abbr-sub-content">
         <div class="abbr-toolbar">
-          <button id="abbr-save-he-btn" class="btn-primary">Save</button>
+          <button type="button" id="abbr-save-he-btn" class="btn-primary">Save</button>
         </div>
         <textarea id="abbr-he-textarea" class="abbr-he-textarea"></textarea>
       </div>
@@ -2251,7 +2251,7 @@
       <div class="sages-sidebar">
         <div class="sages-sidebar-header">
           <input type="text" id="sages-search" placeholder="Search sages...">
-          <button id="sages-add-btn" class="btn-primary" style="width:100%">Add Sage</button>
+          <button type="button" id="sages-add-btn" class="btn-primary" style="width:100%">Add Sage</button>
         </div>
         <div class="sages-list" id="sages-list"></div>
       </div>
@@ -2294,15 +2294,15 @@
   <dialog id="page-scan-dialog" class="page-scan-dialog">
     <div class="page-scan-header">
       <h3 id="page-scan-title">Page Scan</h3>
-      <button class="page-scan-close" id="page-scan-close">&times;</button>
+      <button type="button" class="page-scan-close" id="page-scan-close">&times;</button>
     </div>
     <div class="page-scan-body">
       <img id="page-scan-img" alt="Page scan">
     </div>
     <div class="page-scan-footer">
-      <button id="page-scan-prev">&larr; Prev</button>
+      <button type="button" id="page-scan-prev">&larr; Prev</button>
       <span id="page-scan-page-label"></span>
-      <button id="page-scan-next">Next &rarr;</button>
+      <button type="button" id="page-scan-next">Next &rarr;</button>
       <a id="page-scan-archive-link" href="#" target="_blank" rel="noopener noreferrer">Open in Archive.org &nearr;</a>
     </div>
   </dialog>
@@ -2311,10 +2311,10 @@
   <dialog id="dict-preview-dialog" class="page-scan-dialog">
     <div class="page-scan-header">
       <h3 id="dict-preview-title">Dictionary Entry</h3>
-      <button class="page-scan-close" id="dict-preview-close">&times;</button>
+      <button type="button" class="page-scan-close" id="dict-preview-close">&times;</button>
     </div>
     <div class="page-scan-body" style="min-height: 200px;">
-      <iframe id="dict-preview-frame" style="width: 100%; height: 100%; min-height: 400px; border: none; background: #fff;"></iframe>
+      <iframe id="dict-preview-frame" title="Dictionary entry preview" style="width: 100%; height: 100%; min-height: 400px; border: none; background: #fff;"></iframe>
     </div>
   </dialog>
 
@@ -2322,7 +2322,7 @@
   <dialog id="format-ref-dialog" class="format-ref-dialog">
     <div class="format-ref-header">
       <h3>Entry Formatting Reference</h3>
-      <button class="page-scan-close" id="format-ref-close">&times;</button>
+      <button type="button" class="page-scan-close" id="format-ref-close">&times;</button>
     </div>
     <div class="format-ref-body">
       <h4>Text Formatting</h4>
@@ -3929,15 +3929,14 @@
       for (const entry of state.entries) {
         const rid = entry.id;
 
-        function hasAnnotationType(type) {
-          return (state.annotations[rid] || []).some(a => a.type === type);
-        }
+        const hasAnnotationType = (type) =>
+          (state.annotations[rid] || []).some((a) => a.type === type);
 
-        function addAnnotation(type, note) {
+        const addAnnotation = (type, note) => {
           if (!state.annotations[rid]) { state.annotations[rid] = []; }
           state.annotations[rid].push({ type, note, created: today });
           newCount++;
-        }
+        };
 
         // Check column not mapped
         if (entry.col === '?' && !hasAnnotationType('page-column')) {

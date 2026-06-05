@@ -1,0 +1,30 @@
+{
+	"name": "jastrow",
+	"private": true,
+	"type": "module",
+	"description": "Jastrow Dictionary PWA — vanilla-JS static site, plus the local-only admin server and Rabbinic Time PDF builder under data/admin.",
+	"scripts": {
+		"qa": "bun qa:format && bun qa:lint && bun qa:test",
+		"qa:format": "biome format --write",
+		"qa:lint": "biome check --error-on-warnings",
+		"qa:ci": "biome ci --error-on-warnings ",
+		"qa:test": "bun test",
+
+		"validate:data": "bun scripts/validate-data.ts",
+		"admin": "bun data/admin/server.ts",
+		"stage": "bun data/admin/pdf-builds/stage.ts",
+		"setup:pdf": "bun data/admin/pdf-builds/stage.ts && bun x playwright install chromium"
+	},
+	"dependencies": {
+		"playwright": "^1.49.0",
+		"chart.js": "4.4.1",
+		"@fontsource/atkinson-hyperlegible-next": "^5.0.0",
+		"@fontsource/lexend": "^5.0.0",
+		"@fontsource/frank-ruhl-libre": "^5.0.0"
+	},
+	"devDependencies": {
+		"@biomejs/biome": "2.4.6",
+		"@commitlint/types": "^21.0.0"
+	},
+	"comment": "chart.js is pinned to match the CDN <script> in index.html and the @biomejs/biome pin matches .mise.toml — bump them together. Chromium for the PDF builder is NOT installed on `bun install`; run `bun run setup:pdf` for that."
+}

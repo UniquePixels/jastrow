@@ -1,14 +1,16 @@
 /**
  * Stage bundled assets out of node_modules into pdf-builds/ so headless
- * Chromium can load them via file://. Runs as `postinstall` from package.json
- * and is also exposed as `bun run stage`.
+ * Chromium can load them via file://. Exposed from the root package.json as
+ * `bun run stage` and as part of `bun run setup:pdf`.
  */
 import { copyFileSync, existsSync, mkdirSync } from 'node:fs';
 import { dirname, join } from 'node:path';
 
 const HERE = import.meta.dir;
 const ADMIN = dirname(HERE);
-const NODE_MODULES = join(ADMIN, 'node_modules');
+// Deps are consolidated at the repo root (../../node_modules), not under
+// data/admin — see the root package.json.
+const NODE_MODULES = join(ADMIN, '..', '..', 'node_modules');
 
 function copy(src: string, dst: string): void {
 	if (!existsSync(src)) {

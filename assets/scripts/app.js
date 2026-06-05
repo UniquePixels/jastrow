@@ -460,7 +460,12 @@ class JastrowApp {
 		}
 
 		// Load initial page if no hash, or if hash is a dialog hash (guide, abbreviations, rabbinic-time)
-		if (!hash || hash === 'guide' || hash === 'abbreviations' || hash === 'rabbinic-time') {
+		if (
+			!hash ||
+			hash === 'guide' ||
+			hash === 'abbreviations' ||
+			hash === 'rabbinic-time'
+		) {
 			this.loadInitialPage();
 			return;
 		}
@@ -1660,9 +1665,9 @@ class JastrowApp {
 
 		dropdown.addEventListener('wa-show', () => {
 			// Remove old dynamic items (keep trigger button)
-			dropdown
-				.querySelectorAll('wa-dropdown-item, h4')
-				.forEach((el) => el.remove());
+			for (const el of dropdown.querySelectorAll('wa-dropdown-item, h4')) {
+				el.remove();
+			}
 
 			// Header label
 			const header = document.createElement('h4');
@@ -1783,9 +1788,9 @@ class JastrowApp {
 		// Lookup logic — scroll to and highlight the best match
 		let filterTimer = null;
 		const clearHighlights = () => {
-			container
-				.querySelectorAll('.abbr-highlight')
-				.forEach((el) => el.classList.remove('abbr-highlight'));
+			for (const el of container.querySelectorAll('.abbr-highlight')) {
+				el.classList.remove('abbr-highlight');
+			}
 		};
 
 		const doLookup = () => {
@@ -1878,8 +1883,7 @@ class JastrowApp {
 			const def = abbrs[key];
 			const row = document.createElement('div');
 			row.className = 'abbr-row';
-			row.dataset.search =
-				`${key} ${def.original} ${def.modern}`.toLowerCase();
+			row.dataset.search = `${key} ${def.original} ${def.modern}`.toLowerCase();
 
 			const term = document.createElement('div');
 			term.className = 'abbr-term';

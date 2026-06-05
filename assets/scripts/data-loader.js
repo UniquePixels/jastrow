@@ -285,9 +285,7 @@ class JastrowDataLoader {
 	async fetchAbbreviations(db) {
 		const response = await fetch(IDB.ABBR_URL);
 		if (!response.ok) {
-			throw new Error(
-				`Failed to load abbreviations: ${response.statusText}`,
-			);
+			throw new Error(`Failed to load abbreviations: ${response.statusText}`);
 		}
 		const data = await response.json();
 		const abbrs = data.abbreviations;
@@ -299,10 +297,7 @@ class JastrowDataLoader {
 			await this.writeAbbrCache(db, abbrs);
 		} catch (writeError) {
 			if (window.DEBUG) {
-				console.warn(
-					'[DataLoader] Failed to cache abbreviations:',
-					writeError,
-				);
+				console.warn('[DataLoader] Failed to cache abbreviations:', writeError);
 			}
 		}
 		return abbrs;
