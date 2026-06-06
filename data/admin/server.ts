@@ -4,32 +4,57 @@ import process from 'node:process';
 import { buildRabbinicTimePdf } from './pdf-builds/render-rabbinic-time.ts';
 
 const DATA_DIR = join(import.meta.dir, '..');
-const PORT = Number.parseInt(process.env.PORT || '3333', 10);
+const PORT = Number.parseInt(process.env['PORT'] || '3333', 10);
+
+// --- Types ---
+
+interface Entry {
+	hw?: string;
+	id: string;
+	[key: string]: unknown;
+}
+
+interface SageName {
+	en: string;
+	he: string;
+}
+
+interface Sage {
+	id: string;
+	name?: SageName;
+	[key: string]: unknown;
+}
+
+interface SagesFile {
+	sages?: Sage[];
+}
 
 // --- Data Loading ---
 
-function loadJsonl(filePath: string): any[] {
+function loadJsonl(filePath: string): Entry[] {
 	const content = readFileSync(filePath, 'utf-8').trimEnd();
-	return content.split('\n').map((line) => JSON.parse(line));
+	return content.split('\n').map((line): Entry => JSON.parse(line) as Entry);
 }
 
-function readJsonSafe(filePath: string): any {
+function readJsonSafe<T = Record<string, unknown>>(filePath: string): T {
 	try {
 		if (!existsSync(filePath)) {
-			return {};
+			return {} as T;
 		}
-		return JSON.parse(readFileSync(filePath, 'utf-8'));
+		return JSON.parse(readFileSync(filePath, 'utf-8')) as T;
 	} catch {
-		return {};
+		return {} as T;
 	}
 }
 
-function writeJson(filePath: string, data: any): void {
+function writeJson(filePath: string, data: unknown): void {
 	writeFileSync(filePath, `${JSON.stringify(data, null, 2)}\n`, 'utf-8');
 }
 
-function writeJsonl(filePath: string, entries: any[]): void {
-	const content = `${entries.map((e) => JSON.stringify(e)).join('\n')}\n`;
+function writeJsonl(filePath: string, entriesToWrite: Entry[]): void {
+	const content = `${entriesToWrite
+		.map((e) => JSON.stringify(e))
+		.join('\n')}\n`;
 	writeFileSync(filePath, content, 'utf-8');
 }
 
@@ -44,8 +69,8 @@ const part1Path = join(DATA_DIR, 'jastrow-part1.jsonl');
 const part2Path = join(DATA_DIR, 'jastrow-part2.jsonl');
 const part1 = loadJsonl(part1Path);
 const part2 = loadJsonl(part2Path);
-const splitIndex = part1.length;
-const entries: any[] = [...part1, ...part2];
+const splitIndex: number = part1.length;
+const entries: Entry[] = [...part1, ...part2];
 
 // File paths
 const abbrEnglishPath = join(DATA_DIR, 'jastrow-abbr.json');
@@ -60,7 +85,7 @@ console.log(
 
 // --- Helpers ---
 
-function jsonResponse(data: any, status = 200): Response {
+function jsonResponse(data: unknown, status = 200): Response {
 	return new Response(JSON.stringify(data), {
 		status,
 		headers: {
@@ -200,7 +225,7 @@ function matchRoute(
 		if (match) {
 			const params: Record<string, string> = {};
 			route.paramNames.forEach((name, i) => {
-				params[name] = decodeURIComponent(match[i + 1]);
+				params[name] = decodeURIComponent(match[i + 1] ?? '');
 			});
 			return { handler: route.handler, params };
 		}
@@ -218,19 +243,19 @@ async function handlePutEntry(
 	req: Request,
 	params: Record<string, string>,
 ): Promise<Response> {
-	const rid = params.rid;
+	const rid = params['rid'];
 	const idx = entries.findIndex((e) => e.id === rid);
 	if (idx === -1) {
 		return jsonResponse({ error: `Entry not found: ${rid}` }, 404);
 	}
-	const body = await req.json();
+	const body = (await req.json()) as Entry;
 	entries[idx] = body;
 	saveEntriesToDisk();
 	return jsonResponse({ ok: true, entry: body });
 }
 
 async function handleSaveAll(req: Request): Promise<Response> {
-	const body = await req.json();
+	const body = (await req.json()) as { updates?: Entry[] };
 	if (Array.isArray(body.updates)) {
 		for (const update of body.updates) {
 			const idx = entries.findIndex((e) => e.id === update.id);
@@ -264,7 +289,7 @@ async function handlePutAbbreviations(
 	req: Request,
 	params: Record<string, string>,
 ): Promise<Response> {
-	const type = params.type;
+	const type = params['type'];
 	const body = await req.json();
 	if (type === 'english') {
 		writeJson(abbrEnglishPath, body);
@@ -286,27 +311,27 @@ async function handlePutSage(
 	req: Request,
 	params: Record<string, string>,
 ): Promise<Response> {
-	const id = params.id;
-	const body = await req.json();
-	const data = readJsonSafe(sagesPath);
-	const sages: any[] = data.sages || [];
+	const id = params['id'];
+	const body = (await req.json()) as Sage;
+	const data = readJsonSafe<SagesFile>(sagesPath);
+	const sages: Sage[] = data.sages ?? [];
 	const idx = sages.findIndex((s) => s.id === id);
 	if (idx === -1) {
 		return jsonResponse({ error: `Sage not found: ${id}` }, 404);
 	}
-	sages[idx] = { ...body, id };
+	sages[idx] = { ...body, id: id ?? body.id };
 	writeJson(sagesPath, { sages });
 	updateVersion();
 	return jsonResponse({ ok: true, sage: sages[idx] });
 }
 
 async function handlePostSage(req: Request): Promise<Response> {
-	const body = await req.json();
+	const body = (await req.json()) as Sage;
 	if (!body.id) {
 		return jsonResponse({ error: 'Sage must have an id' }, 400);
 	}
-	const data = readJsonSafe(sagesPath);
-	const sages: any[] = data.sages || [];
+	const data = readJsonSafe<SagesFile>(sagesPath);
+	const sages: Sage[] = data.sages ?? [];
 	if (sages.some((s) => s.id === body.id)) {
 		return jsonResponse({ error: `Sage already exists: ${body.id}` }, 409);
 	}
@@ -320,9 +345,9 @@ async function handleDeleteSage(
 	_req: Request,
 	params: Record<string, string>,
 ): Promise<Response> {
-	const id = params.id;
-	const data = readJsonSafe(sagesPath);
-	const sages: any[] = data.sages || [];
+	const id = params['id'];
+	const data = readJsonSafe<SagesFile>(sagesPath);
+	const sages: Sage[] = data.sages ?? [];
 	const idx = sages.findIndex((s) => s.id === id);
 	if (idx === -1) {
 		return jsonResponse({ error: `Sage not found: ${id}` }, 404);
@@ -337,14 +362,14 @@ async function handleSageResearch(
 	_req: Request,
 	params: Record<string, string>,
 ): Promise<Response> {
-	const id = params.id;
-	const data = readJsonSafe(sagesPath);
-	const sage = (data.sages || []).find((s: any) => s.id === id);
+	const id = params['id'];
+	const data = readJsonSafe<SagesFile>(sagesPath);
+	const sage = (data.sages ?? []).find((s) => s.id === id);
 	if (!sage) {
 		return jsonResponse({ error: 'Sage not found' }, 404);
 	}
 
-	const prompt = `You have access to the Sefaria MCP server. Research the Talmudic sage "${sage.name.en}" (${sage.name.he}).
+	const prompt = `You have access to the Sefaria MCP server. Research the Talmudic sage "${sage.name?.en}" (${sage.name?.he}).
 Current data: ${JSON.stringify(sage, null, 2)}
 Return a JSON object with suggested additions:
 { "bio": "...", "teachings": ["..."], "stories": ["..."], "relationships": [{"type": "...", "target": "...", "note": "..."}] }
@@ -406,7 +431,7 @@ function serveAdminHtml(): Response {
 
 const server = Bun.serve({
 	port: PORT,
-	fetch(req) {
+	fetch(req: Request): Response | Promise<Response> {
 		const url = new URL(req.url);
 		const pathname = url.pathname;
 		const method = req.method;

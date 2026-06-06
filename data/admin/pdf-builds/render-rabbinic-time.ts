@@ -16,7 +16,7 @@ import { dirname, join, relative } from 'node:path';
 import process from 'node:process';
 import { chromium } from 'playwright';
 
-const HERE = import.meta.dir;
+const HERE: string = import.meta.dir;
 const HTML = join(HERE, 'rabbinic-time.html');
 const REPO_ROOT = join(HERE, '..', '..', '..');
 const OUT = join(REPO_ROOT, 'assets', 'pdfs', 'rabbinic-time.pdf');

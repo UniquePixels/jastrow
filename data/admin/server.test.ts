@@ -5,6 +5,26 @@ import process from 'node:process';
 const PORT = 3334; // Use non-default port to avoid conflicts
 const BASE = `http://localhost:${PORT}`;
 
+interface TestEntry {
+	hw?: string;
+	id: string;
+	[key: string]: unknown;
+}
+
+interface EntriesResponse {
+	entries: TestEntry[];
+	splitIndex: number;
+}
+
+interface AbbreviationsResponse {
+	english: unknown;
+	hebrew: unknown;
+}
+
+interface SagesResponse {
+	sages: Array<Record<string, unknown>>;
+}
+
 let serverProcess: ReturnType<typeof Bun.spawn>;
 
 async function waitForServer(url: string, timeout = 10_000): Promise<void> {
@@ -45,7 +65,7 @@ describe('GET /api/entries', () => {
 		expect(res.status).toBe(200);
 		expect(res.headers.get('content-type')).toContain('application/json');
 
-		const data = await res.json();
+		const data = (await res.json()) as EntriesResponse;
 		expect(typeof data.splitIndex).toBe('number');
 		expect(data.splitIndex).toBeGreaterThan(0);
 		expect(Array.isArray(data.entries)).toBe(true);
@@ -61,9 +81,12 @@ describe('PUT /api/entry/:rid', () => {
 	it('updates entry and verifies change', async () => {
 		// Get the original entry
 		const getRes = await fetch(`${BASE}/api/entries`);
-		const { entries } = await getRes.json();
-		const original = entries.find((e: any) => e.id === 'A00014');
+		const { entries } = (await getRes.json()) as EntriesResponse;
+		const original = entries.find((e) => e.id === 'A00014');
 		expect(original).toBeDefined();
+		if (!original) {
+			throw new Error('Fixture entry A00014 not found');
+		}
 
 		const originalHw = original.hw;
 
@@ -79,9 +102,9 @@ describe('PUT /api/entry/:rid', () => {
 
 			// Verify the change
 			const verifyRes = await fetch(`${BASE}/api/entries`);
-			const verifyData = await verifyRes.json();
-			const updated = verifyData.entries.find((e: any) => e.id === 'A00014');
-			expect(updated.hw).toBe('__TEST_HW__');
+			const verifyData = (await verifyRes.json()) as EntriesResponse;
+			const updated = verifyData.entries.find((e) => e.id === 'A00014');
+			expect(updated?.hw).toBe('__TEST_HW__');
 		} finally {
 			// Restore original
 			const restoreRes = await fetch(`${BASE}/api/entry/A00014`, {
@@ -99,7 +122,7 @@ describe('GET /api/abbreviations', () => {
 		const res = await fetch(`${BASE}/api/abbreviations`);
 		expect(res.status).toBe(200);
 
-		const data = await res.json();
+		const data = (await res.json()) as AbbreviationsResponse;
 		expect(data).toHaveProperty('english');
 		expect(data).toHaveProperty('hebrew');
 		expect(typeof data.english).toBe('object');
@@ -112,7 +135,7 @@ describe('GET /api/sages', () => {
 		const res = await fetch(`${BASE}/api/sages`);
 		expect(res.status).toBe(200);
 
-		const data = await res.json();
+		const data = (await res.json()) as SagesResponse;
 		expect(Array.isArray(data.sages)).toBe(true);
 		expect(data.sages.length).toBeGreaterThan(0);
 		expect(data.sages[0]).toHaveProperty('id');

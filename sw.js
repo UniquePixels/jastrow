@@ -71,12 +71,12 @@ self.addEventListener('activate', (event) => {
 			.keys()
 			.then((cacheNames) =>
 				Promise.all(
-					cacheNames.map((cacheName) => {
-						if (cacheName !== CACHE_VERSION) {
+					cacheNames
+						.filter((cacheName) => cacheName !== CACHE_VERSION)
+						.map((cacheName) => {
 							console.log('[Service Worker] Deleting old cache:', cacheName);
 							return caches.delete(cacheName);
-						}
-					}),
+						}),
 				),
 			)
 			.then(() => {

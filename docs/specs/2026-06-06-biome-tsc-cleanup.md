@@ -56,4 +56,7 @@ code**; a rule is only disabled with a project-specific justification.
 
 | Rule | Decision | Justification | Audit |
 |---|---|---|---|
+| `nursery/noEqualsToNull` | Disabled (global) | All uses are the deliberate `== null` null-or-undefined idiom. `=== null` alone drops `undefined` (a bug); `x === null \|\| x === undefined` is pure verbosity. Recommended `noDoubleEquals` already permits `== null` via its `ignoreNull` default. | n/a |
+| `correctness/noUnresolvedImports` | Off for `**/*.test.ts` only | `bun:test` is a Bun *virtual* module with no on-disk file, so Biome can't resolve it (`node:` builtins resolve fine; `bun:` don't). Scoped to tests so real source still gets unresolved-import detection. | n/a |
+| `correctness/noUndeclaredDependencies` + unresolved (@anthropic-ai/sdk) | Declared as `optionalDependency` | The ai-classify script dynamically imports the SDK with a try/catch fallback. Declaring it tracks the real (optional) dependency honestly and satisfies both rules without disabling anything. | n/a |
 | `suspicious/noConsole` | TBD | (pending Batch 4) | (pending) |

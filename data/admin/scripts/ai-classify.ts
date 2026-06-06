@@ -6,7 +6,8 @@
  * "needs-review" for human verification.
  *
  * Prerequisites:
- *   bun add @anthropic-ai/sdk
+ *   @anthropic-ai/sdk (declared as an optionalDependency; present after a
+ *   default `bun install`, skipped under --no-optional)
  *   export ANTHROPIC_API_KEY=sk-ant-...
  *
  * Usage:
@@ -32,16 +33,24 @@ try {
 	process.exit(1);
 }
 
-function loadJsonl(path: string): any[] {
+interface DictEntry {
+	c?: { s?: Array<{ d?: string }> };
+	g?: { ps?: string; l?: string };
+	hw?: string;
+	id: string;
+	[key: string]: unknown;
+}
+
+function loadJsonl(path: string): DictEntry[] {
 	return readFileSync(path, 'utf-8')
 		.trim()
 		.split('\n')
-		.map((l) => JSON.parse(l));
+		.map((l): DictEntry => JSON.parse(l) as DictEntry);
 }
 
 const part1 = loadJsonl(join(DATA_DIR, 'jastrow-part1.jsonl'));
 const part2 = loadJsonl(join(DATA_DIR, 'jastrow-part2.jsonl'));
-const allEntries = [...part1, ...part2];
+const allEntries: DictEntry[] = [...part1, ...part2];
 
 // Filter to entries missing POS
 const needsClassification = allEntries.filter((e) => !e.g?.ps);
@@ -113,18 +122,17 @@ ${prompt}`,
 
 		const results = JSON.parse(jsonMatch[0]);
 		for (const r of results) {
-			if (!annotations[r.rid]) {
-				annotations[r.rid] = [];
-			}
 			const parts = [`ps=${r.ps}`];
 			if (r.gn && r.gn !== 'null') {
 				parts.push(`gn=${r.gn}`);
 			}
-			annotations[r.rid].push({
+			const existing = annotations[r.rid] ?? [];
+			existing.push({
 				type: 'needs-review',
 				note: `AI suggests: ${parts.join(', ')}`,
 				created: new Date().toISOString().split('T')[0],
 			});
+			annotations[r.rid] = existing;
 		}
 
 		// Save progress after each batch

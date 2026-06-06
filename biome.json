@@ -68,7 +68,6 @@
 				"noDuplicateEnumValues": "on",
 				"noDuplicateSelectors": "on",
 				"noEmptyObjectKeys": "on",
-				"noEqualsToNull": "on",
 				"noExcessiveClassesPerFile": "on",
 				"noExcessiveLinesPerFile": "on",
 				"noExcessiveNestedCallbacks": "on",
@@ -230,6 +229,9 @@
 			"includes": ["**/*.test.ts"],
 			"linter": {
 				"rules": {
+					"correctness": {
+						"noUnresolvedImports": "off"
+					},
 					"performance": {
 						"useTopLevelRegex": "off"
 					},

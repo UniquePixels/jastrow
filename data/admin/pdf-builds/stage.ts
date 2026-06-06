@@ -7,7 +7,7 @@ import { copyFileSync, existsSync, mkdirSync } from 'node:fs';
 import { dirname, join } from 'node:path';
 import process from 'node:process';
 
-const HERE = import.meta.dir;
+const HERE: string = import.meta.dir;
 const ADMIN = dirname(HERE);
 // Deps are consolidated at the repo root (../../node_modules), not under
 // data/admin — see the root package.json.
