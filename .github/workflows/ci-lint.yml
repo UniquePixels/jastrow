@@ -24,6 +24,8 @@ jobs:
         include:
           - name: Lint
             command: bun qa:ci
+          - name: Type Check
+            command: echo "::add-matcher::.github/matchers/tsc.json" && bun tsc --noEmit --skipLibCheck --pretty false
           - name: Test
             command: bun qa:test
     steps:

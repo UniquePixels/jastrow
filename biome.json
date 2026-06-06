@@ -1,6 +1,5 @@
 {
 	"$schema": "./node_modules/@biomejs/biome/configuration_schema.json",
-
 	"vcs": {
 		"enabled": true,
 		"clientKind": "git",
@@ -8,60 +7,150 @@
 	},
 	"files": {
 		"ignoreUnknown": false,
-		"includes": ["**"]
+		"includes": [
+			"**"
+		]
 	},
-	"assist": { "actions": { "source": { "organizeImports": "on" } } },
+	"assist": {
+		"actions": {
+			"source": {
+				"noDuplicateClasses": "on",
+				"organizeImports": "on",
+				"useSortedInterfaceMembers": "on",
+				"useSortedProperties": "on"
+			}
+		}
+	},
 	"linter": {
 		"enabled": true,
 		"rules": {
 			"recommended": true,
+			"a11y": {
+				"noNoninteractiveElementInteractions": "on"
+			},
 			"complexity": {
 				"noExcessiveCognitiveComplexity": "on",
+				"noExcessiveLinesPerFunction": "on",
 				"noExcessiveNestedTestSuites": "on",
 				"noForEach": "on",
 				"noImplicitCoercions": "on",
-				"noUselessStringConcat": "on",
-				"noVoid": "on",
-				"useSimplifiedLogicExpression": "on",
-				"useWhile": "on",
-				"useLiteralKeys": "off",
 				"noUselessCatchBinding": "on",
-				"noUselessUndefined": "on"
+				"noUselessStringConcat": "on",
+				"noUselessUndefined": "on",
+				"noVoid": "on",
+				"useLiteralKeys": "off",
+				"useMaxParams": "on",
+				"useSimplifiedLogicExpression": "on",
+				"useWhile": "on"
 			},
 			"correctness": {
 				"noGlobalDirnameFilename": "on",
+				"noNodejsModules": "on",
 				"noPrivateImports": "on",
 				"noProcessGlobal": "on",
 				"noUndeclaredDependencies": "on",
 				"noUndeclaredVariables": "on",
-				"useJsonImportAttributes": "on"
+				"noUnresolvedImports": "on",
+				"useImportExtensions": "on",
+				"useJsonImportAttributes": "on",
+				"useSingleJsDocAsterisk": "on"
 			},
 			"nursery": {
+				"noAmbiguousAnchorText": "on",
+				"noBaseToString": "on",
+				"noConditionalExpect": "on",
 				"noContinue": "on",
+				"noDeprecatedMediaType": "on",
+				"noDivRegex": "on",
+				"noDuplicateAttributes": "on",
+				"noDuplicateEnumValues": "on",
+				"noDuplicateSelectors": "on",
+				"noEmptyObjectKeys": "on",
 				"noEqualsToNull": "on",
+				"noExcessiveClassesPerFile": "on",
+				"noExcessiveLinesPerFile": "on",
+				"noExcessiveNestedCallbacks": "on",
+				"noExcessiveSelectorClasses": "on",
 				"noFloatingPromises": "on",
 				"noForIn": "on",
+				"noIdenticalTestTitle": "on",
+				"noInlineStyles": "on",
+				"noLoopFunc": "on",
+				"noMisleadingReturnType": "on",
 				"noMisusedPromises": "on",
+				"noMultiAssign": "on",
 				"noMultiStr": "on",
 				"noParametersOnlyUsedInRecursion": "on",
 				"noProto": "on",
+				"noRedundantDefaultExport": "on",
+				"noReturnAssign": "on",
+				"noScriptUrl": "on",
 				"noShadow": "on",
+				"noSyncScripts": "on",
+				"noTopLevelLiterals": "on",
+				"noUndeclaredEnvVars": "on",
 				"noUnnecessaryConditions": "on",
+				"noUnnecessaryTemplateExpression": "on",
+				"noUnsafePlusOperands": "on",
+				"noUselessReturn": "on",
+				"noUselessTypeConversion": "on",
+				"useArraySome": "on",
 				"useArraySortCompare": "on",
+				"useAwaitThenable": "on",
+				"useBaseline": "on",
+				"useConsistentEnumValueType": "on",
+				"useConsistentMethodSignatures": "on",
+				"useConsistentTestIt": "on",
+				"useDestructuring": "on",
+				"useDisposables": "on",
+				"useDomQuerySelector": "on",
+				"useErrorCause": "on",
 				"useExhaustiveSwitchCases": "on",
+				"useExpect": "on",
+				"useExplicitReturnType": "on",
+				"useExplicitType": "on",
 				"useFind": "on",
-				"useSpread": "on"
+				"useGlobalThis": "on",
+				"useIframeSandbox": "on",
+				"useImportsFirst": "on",
+				"useNamedCaptureGroup": "on",
+				"useNullishCoalescing": "on",
+				"useReduceTypeParameter": "on",
+				"useRegexpExec": "on",
+				"useRegexpTest": "on",
+				"useRequiredScripts": {
+					"level": "on",
+					"options": {
+						"requiredScripts": [
+							"qa"
+						]
+					}
+				},
+				"useSpread": "on",
+				"useStringStartsEndsWith": "on",
+				"useTestHooksInOrder": "on",
+				"useTestHooksOnTop": "on",
+				"useThisInClassMethods": "on",
+				"useUnicodeRegex": "on"
 			},
 			"performance": {
 				"noAwaitInLoops": "on",
+				"noBarrelFile": "on",
 				"noDelete": "on",
+				"noNamespaceImport": "on",
+				"noReExportAll": "on",
 				"useTopLevelRegex": "on"
+			},
+			"security": {
+				"noSecrets": "on"
 			},
 			"style": {
 				"noCommonJs": "on",
+				"noDefaultExport": "on",
 				"noDoneCallback": "on",
 				"noExportedImports": "on",
 				"noInferrableTypes": "on",
+				"noMagicNumbers": "on",
 				"noNamespace": "on",
 				"noNegationElse": "on",
 				"noNestedTernary": "on",
@@ -71,6 +160,7 @@
 				"noSubstr": "on",
 				"noUnusedTemplateLiteral": "on",
 				"noUselessElse": "on",
+				"noValueAtRule": "on",
 				"noYodaExpression": "on",
 				"useAsConstAssertion": "on",
 				"useAtIndex": "on",
@@ -78,18 +168,28 @@
 				"useCollapsedElseIf": "on",
 				"useCollapsedIf": "on",
 				"useConsistentArrayType": "on",
+				"useConsistentArrowReturn": "on",
 				"useConsistentBuiltinInstantiation": "on",
 				"useConsistentMemberAccessibility": {
 					"level": "on",
-					"options": { "accessibility": "explicit" }
+					"options": {
+						"accessibility": "explicit"
+					}
 				},
+				"useConsistentObjectDefinitions": "on",
 				"useDefaultParameterLast": "on",
 				"useDefaultSwitchClause": "off",
 				"useEnumInitializers": "on",
 				"useExplicitLengthCheck": "on",
+				"useExportsLast": "on",
 				"useFilenamingConvention": {
 					"level": "on",
-					"options": { "requireAscii": true, "filenameCases": ["kebab-case"] }
+					"options": {
+						"requireAscii": true,
+						"filenameCases": [
+							"kebab-case"
+						]
+					}
 				},
 				"useForOf": "on",
 				"useGroupedAccessorPairs": "on",
@@ -104,40 +204,49 @@
 				"useNumberNamespace": "on",
 				"useNumericSeparators": "on",
 				"useObjectSpread": "on",
+				"useReadonlyClassProperties": "on",
 				"useShorthandAssign": "on",
 				"useSingleVarDeclarator": "on",
 				"useSymbolDescription": "on",
 				"useThrowNewError": "on",
 				"useThrowOnlyError": "on",
 				"useTrimStartEnd": "on",
-				"useConsistentArrowReturn": "on"
+				"useUnifiedTypeSignatures": "on"
 			},
 			"suspicious": {
+				"noAlert": "on",
 				"noBitwiseOperators": "on",
 				"noConsole": "on",
 				"noConstantBinaryExpressions": "on",
+				"noDeprecatedImports": "on",
+				"noDuplicateDependencies": "on",
 				"noDuplicateTestHooks": "on",
 				"noEmptyBlockStatements": "on",
+				"noEmptySource": "on",
 				"noEvolvingTypes": "on",
 				"noExportsInTest": "on",
 				"noFocusedTests": "on",
+				"noImportCycles": "on",
 				"noMisplacedAssertion": "on",
 				"noSkippedTests": "on",
 				"noUnassignedVariables": "on",
+				"noUnusedExpressions": "on",
 				"noVar": "on",
 				"useAwait": "on",
+				"useDeprecatedDate": "on",
 				"useErrorMessage": "on",
 				"useGuardForIn": "on",
 				"useNumberToFixedDigitsArgument": "error",
-				"noDeprecatedImports": "on",
-				"noImportCycles": "on",
-				"noUnusedExpressions": "on"
+				"useStaticResponseMethods": "on",
+				"useStrictMode": "on"
 			}
 		}
 	},
 	"overrides": [
 		{
-			"includes": ["**/*.test.ts"],
+			"includes": [
+				"**/*.test.ts"
+			],
 			"linter": {
 				"rules": {
 					"performance": {
@@ -159,17 +268,17 @@
 			"quoteStyle": "single"
 		},
 		"globals": [
-			"DOMPurify",
-			"Chart",
-			"d3",
 			"Bun",
+			"Chart",
+			"DOMPurify",
 			"IDB",
+			"InfiniteScroll",
+			"JastrowDataLoader",
 			"SagesData",
 			"SagesGraph",
 			"SagesSidebar",
 			"TalmudSagesExplorer",
-			"JastrowDataLoader",
-			"InfiniteScroll"
+			"d3"
 		]
 	}
 }
