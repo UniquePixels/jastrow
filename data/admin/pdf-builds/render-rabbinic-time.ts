@@ -13,6 +13,7 @@
  */
 import { mkdirSync, statSync } from 'node:fs';
 import { dirname, join, relative } from 'node:path';
+import process from 'node:process';
 import { chromium } from 'playwright';
 
 const HERE = import.meta.dir;
@@ -52,7 +53,7 @@ export async function buildRabbinicTimePdf(): Promise<BuildResult> {
 		await page.goto(`file://${HTML}`, { waitUntil: 'networkidle' });
 		await page.waitForFunction(
 			() => (globalThis as PrintWindow).PRINT_READY === true,
-			{ timeout: 30000 },
+			{ timeout: 30_000 },
 		);
 
 		const err = await page.evaluate(

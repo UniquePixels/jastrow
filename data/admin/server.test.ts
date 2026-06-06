@@ -1,12 +1,13 @@
-import { afterAll, beforeAll, describe, expect, test } from 'bun:test';
+import { afterAll, beforeAll, describe, expect, it } from 'bun:test';
 import { join } from 'node:path';
+import process from 'node:process';
 
 const PORT = 3334; // Use non-default port to avoid conflicts
 const BASE = `http://localhost:${PORT}`;
 
 let serverProcess: ReturnType<typeof Bun.spawn>;
 
-async function waitForServer(url: string, timeout = 10000): Promise<void> {
+async function waitForServer(url: string, timeout = 10_000): Promise<void> {
 	const start = Date.now();
 	while (Date.now() - start < timeout) {
 		try {
@@ -39,7 +40,7 @@ afterAll(() => {
 });
 
 describe('GET /api/entries', () => {
-	test('returns array with splitIndex, entries have hw and id fields', async () => {
+	it('returns array with splitIndex, entries have hw and id fields', async () => {
 		const res = await fetch(`${BASE}/api/entries`);
 		expect(res.status).toBe(200);
 		expect(res.headers.get('content-type')).toContain('application/json');
@@ -57,7 +58,7 @@ describe('GET /api/entries', () => {
 });
 
 describe('PUT /api/entry/:rid', () => {
-	test('updates entry and verifies change', async () => {
+	it('updates entry and verifies change', async () => {
 		// Get the original entry
 		const getRes = await fetch(`${BASE}/api/entries`);
 		const { entries } = await getRes.json();
@@ -94,7 +95,7 @@ describe('PUT /api/entry/:rid', () => {
 });
 
 describe('GET /api/abbreviations', () => {
-	test('returns english and hebrew objects', async () => {
+	it('returns english and hebrew objects', async () => {
 		const res = await fetch(`${BASE}/api/abbreviations`);
 		expect(res.status).toBe(200);
 
@@ -107,7 +108,7 @@ describe('GET /api/abbreviations', () => {
 });
 
 describe('GET /api/sages', () => {
-	test('returns sages array with ids', async () => {
+	it('returns sages array with ids', async () => {
 		const res = await fetch(`${BASE}/api/sages`);
 		expect(res.status).toBe(200);
 
@@ -119,7 +120,7 @@ describe('GET /api/sages', () => {
 });
 
 describe('GET /api/annotations', () => {
-	test('returns object (possibly empty)', async () => {
+	it('returns object (possibly empty)', async () => {
 		const res = await fetch(`${BASE}/api/annotations`);
 		expect(res.status).toBe(200);
 
@@ -130,12 +131,12 @@ describe('GET /api/annotations', () => {
 });
 
 describe('CORS', () => {
-	test('OPTIONS returns CORS headers', async () => {
+	it('OPTIONS returns CORS headers', async () => {
 		const res = await fetch(`${BASE}/api/entries`, { method: 'OPTIONS' });
 		expect(res.headers.get('access-control-allow-origin')).toBe('*');
 	});
 
-	test('GET responses include CORS header', async () => {
+	it('GET responses include CORS header', async () => {
 		const res = await fetch(`${BASE}/api/entries`);
 		expect(res.headers.get('access-control-allow-origin')).toBe('*');
 	});

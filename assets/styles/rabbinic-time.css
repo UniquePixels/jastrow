@@ -16,51 +16,51 @@
 }
 
 .rabbinic-time-content .rt-h2 {
+	margin: 0 0 8px;
 	font-family: var(--wa-font-family-heading);
 	font-size: 16px;
 	font-weight: 600;
 	color: var(--rt-brand);
-	margin: 0 0 8px;
 }
 
 .rabbinic-time-content .rt-lead {
-	font-size: 12px;
-	color: var(--rt-mut);
 	margin: 0 0 11px;
+	font-size: 12px;
 	line-height: 1.5;
+	color: var(--rt-mut);
 }
 
 .rabbinic-time-content .rt-ctrls {
 	display: flex;
-	gap: 5px;
 	flex-wrap: wrap;
+	gap: 5px;
 	align-items: center;
 	margin-bottom: 10px;
 }
 
 .rabbinic-time-content .rt-clbl {
 	font-size: 11px;
-	color: var(--rt-mut);
 	font-style: italic;
+	color: var(--rt-mut);
 }
 
 .rabbinic-time-content .rt-csep {
 	width: 1px;
 	height: 20px;
-	background: var(--rt-bor);
 	margin: 0 3px;
+	background: var(--rt-bor);
 }
 
 .rabbinic-time-content .rt-cbtn {
 	padding: 4px 13px;
-	border-radius: 20px;
-	border: 1.5px solid var(--rt-bor);
-	background: var(--rt-bg);
 	font-family: var(--wa-font-family-heading);
 	font-size: 12px;
 	font-weight: 400;
-	cursor: pointer;
 	color: var(--rt-mut);
+	cursor: pointer;
+	background: var(--rt-bg);
+	border: 1.5px solid var(--rt-bor);
+	border-radius: 20px;
 	transition: all 0.15s;
 }
 
@@ -69,70 +69,70 @@
 }
 
 .rabbinic-time-content .rt-cbtn.rt-s-summer.active {
+	font-weight: 600;
+	color: #fff;
 	background: #8a5010;
 	border-color: #8a5010;
-	color: #fff;
-	font-weight: 600;
 }
 
 .rabbinic-time-content .rt-cbtn.rt-s-equinox.active {
+	font-weight: 600;
+	color: #fff;
 	background: #6b5c20;
 	border-color: #6b5c20;
-	color: #fff;
-	font-weight: 600;
 }
 
 .rabbinic-time-content .rt-cbtn.rt-s-winter.active {
+	font-weight: 600;
+	color: #fff;
 	background: #2563eb;
 	border-color: #2563eb;
-	color: #fff;
-	font-weight: 600;
 }
 
 .rabbinic-time-content .rt-cbtn.rt-c-db.active {
+	font-weight: 600;
+	color: #fff;
 	background: var(--rt-cDB);
 	border-color: var(--rt-cDB);
-	color: #fff;
-	font-weight: 600;
 }
 
 .rabbinic-time-content .rt-cbtn.rt-c-pr.active {
+	font-weight: 600;
+	color: #fff;
 	background: var(--rt-cPR);
 	border-color: var(--rt-cPR);
-	color: #fff;
-	font-weight: 600;
 }
 
 .rabbinic-time-content .rt-cbtn.rt-c-kb.active {
+	font-weight: 600;
+	color: #fff;
 	background: var(--rt-cKB);
 	border-color: var(--rt-cKB);
-	color: #fff;
-	font-weight: 600;
 }
 
 .rabbinic-time-content svg.rt-diag {
+	display: block;
 	width: 100%;
 	max-width: 800px;
 	height: auto;
-	display: block;
 }
 
 .rabbinic-time-content .rt-clock-svg {
+	display: block;
 	width: min(100%, 520px);
 	height: auto;
-	display: block;
 }
 
 .rabbinic-time-content .rt-infobox {
+	max-width: 800px;
+	padding: 10px 14px;
 	margin-top: 10px;
+	font-size: 12px;
+	line-height: 1.6;
+	color: var(--rt-mut);
 	background: var(--rt-bg2);
 	border: 1px solid var(--rt-bor);
 	border-radius: 8px;
-	padding: 10px 14px;
-	font-size: 12px;
-	color: var(--rt-mut);
-	max-width: 800px;
-	line-height: 1.6;
 }
 
 .rabbinic-time-content .rt-infobox b {
@@ -143,44 +143,44 @@
 	display: flex;
 	flex-wrap: wrap;
 	gap: 10px;
+	align-items: center;
 	max-width: 800px;
 	margin-top: 9px;
-	font-size: 11px;
-	align-items: center;
 	font-family: var(--wa-font-family-heading);
+	font-size: 11px;
 }
 
 .rabbinic-time-content .rt-legend-title {
-	color: var(--rt-ink);
 	margin-right: 2px;
+	color: var(--rt-ink);
 }
 
 .rabbinic-time-content .rt-lsw {
 	display: inline-flex;
-	align-items: center;
 	gap: 4px;
+	align-items: center;
 }
 
 .rabbinic-time-content .rt-lsw .rt-dot {
+	flex-shrink: 0;
 	width: 9px;
 	height: 9px;
 	border-radius: 50%;
-	flex-shrink: 0;
 }
 
 .rabbinic-time-content .rt-lsw .rt-box {
+	flex-shrink: 0;
 	width: 14px;
 	height: 9px;
 	border-radius: 2px;
-	flex-shrink: 0;
 }
 
 .rabbinic-time-content .rt-table {
 	width: 100%;
 	max-width: 800px;
-	border-collapse: collapse;
-	font-size: 12.5px;
 	margin-top: 13px;
+	font-size: 12.5px;
+	border-collapse: collapse;
 }
 
 .rabbinic-time-content .rt-table thead tr {
@@ -189,11 +189,11 @@
 
 .rabbinic-time-content .rt-table th {
 	padding: 8px 10px;
-	text-align: left;
-	color: var(--rt-brand);
 	font-family: var(--wa-font-family-heading);
-	font-weight: 600;
 	font-size: 12px;
+	font-weight: 600;
+	color: var(--rt-brand);
+	text-align: left;
 }
 
 .rabbinic-time-content .rt-table tbody tr:nth-child(odd) {
@@ -206,51 +206,51 @@
 
 .rabbinic-time-content .rt-table td {
 	padding: 7px 10px;
-	border-bottom: 1px solid var(--rt-bor);
 	vertical-align: top;
+	border-bottom: 1px solid var(--rt-bor);
 }
 
 .rabbinic-time-content .rt-table tr.rt-sh td {
+	padding: 10px 10px 4px;
 	font-family: var(--wa-font-family-heading);
-	font-weight: 600;
 	font-size: 10px;
+	font-weight: 600;
 	text-transform: uppercase;
 	letter-spacing: 0.08em;
-	border-bottom: 1px solid var(--rt-bor) !important;
-	padding: 10px 10px 4px;
 	background: var(--rt-bg2) !important;
+	border-bottom: 1px solid var(--rt-bor) !important;
 }
 
 .rabbinic-time-content .rt-zn {
-	font-weight: 600;
 	font-family: var(--wa-font-family-heading);
+	font-weight: 600;
 }
 
 .rabbinic-time-content .rt-hb {
-	font-size: 15px;
-	direction: rtl;
 	display: block;
 	margin-top: 2px;
 	font-family: var(--rt-f-heb);
+	font-size: 15px;
+	direction: rtl;
 }
 
 .rabbinic-time-content .rt-tr {
-	font-size: 10px;
-	color: var(--rt-mut);
-	font-style: italic;
 	display: block;
+	font-size: 10px;
+	font-style: italic;
+	color: var(--rt-mut);
 }
 
 .rabbinic-time-content .rt-tw {
+	min-width: 115px;
 	font-size: 11.5px;
 	line-height: 1.5;
-	min-width: 115px;
 }
 
 .rabbinic-time-content .rt-nt {
 	font-size: 12px;
-	color: var(--rt-mut);
 	line-height: 1.6;
+	color: var(--rt-mut);
 }
 
 .rabbinic-time-content .rt-chart-wrap {

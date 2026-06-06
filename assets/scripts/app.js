@@ -235,7 +235,7 @@ class JastrowApp {
 			const pageLink = e.target.closest('.show-page');
 			if (pageLink?.dataset.page) {
 				e.preventDefault();
-				this.showPageDialog(parseInt(pageLink.dataset.page, 10));
+				this.showPageDialog(Number.parseInt(pageLink.dataset.page, 10));
 				return;
 			}
 
@@ -372,7 +372,7 @@ class JastrowApp {
 
 		// Page jump button
 		const handlePageJump = () => {
-			const pageNum = parseInt(this.pageInput.value, 10);
+			const pageNum = Number.parseInt(this.pageInput.value, 10);
 			if (pageNum > 0 && pageNum <= DICTIONARY.TOTAL_PAGES) {
 				this.pageInput.removeAttribute('aria-invalid');
 				this.jumpToDictPage(pageNum);
@@ -481,7 +481,7 @@ class JastrowApp {
 
 		// #word=HEADWORD — navigation from Hebrew abbreviation links
 		if (hash.startsWith('word=')) {
-			const word = hash.slice(5).replace(/_/g, ' ');
+			const word = hash.slice(5).replace(/_/gu, ' ');
 			this.syncSearchMode('word');
 			this._setSearchValue(word);
 			this.handleSearch(word, true);
@@ -489,7 +489,7 @@ class JastrowApp {
 		}
 
 		if (hash.startsWith('ref:')) {
-			const ref = hash.slice(4).replace(/_/g, ' ');
+			const ref = hash.slice(4).replace(/_/gu, ' ');
 			this.syncSearchMode('reference');
 			this._setSearchValue(ref);
 			this.handleSearch(ref, true);
@@ -514,7 +514,7 @@ class JastrowApp {
 
 		// #scan:500 - Open page scan dialog
 		if (hash.startsWith('scan:')) {
-			const scanPage = parseInt(hash.slice(5), 10);
+			const scanPage = Number.parseInt(hash.slice(5), 10);
 			if (scanPage >= 1 && scanPage <= DICTIONARY.TOTAL_PAGES) {
 				this.showPageDialog(scanPage);
 			}
@@ -522,15 +522,15 @@ class JastrowApp {
 		}
 
 		// Check if it's a plain number (page number)
-		if (/^\d+$/.test(hash)) {
-			const page = parseInt(hash, 10);
+		if (/^\d+$/u.test(hash)) {
+			const page = Number.parseInt(hash, 10);
 			this.syncSearchMode('word');
 			this.scrollManager.loadInitial(page);
 			return;
 		}
 
 		// Check if it contains Hebrew characters (word search)
-		if (/[\u0590-\u05FF]/.test(hash)) {
+		if (/[\u0590-\u05FF]/u.test(hash)) {
 			this.syncSearchMode('word');
 			this._setSearchValue(hash);
 			this.handleSearch(hash, true);
@@ -1309,7 +1309,7 @@ class JastrowApp {
 					frag.appendChild(grammarSection);
 				} else if (sense.d) {
 					if (sense.n) {
-						const cleanNumber = sense.n.replace(/^[—-]\s*/, '');
+						const cleanNumber = sense.n.replace(/^[—-]\s*/u, '');
 						const senseDiv = document.createElement('div');
 						senseDiv.className = 'sense sense-numbered';
 
@@ -1362,9 +1362,9 @@ class JastrowApp {
 	 */
 	createReferencesSection(references) {
 		// Flatten non-jastrow categories, preserving category per ref
-		const CATEGORY_ORDER = ['t', 'b', 'mi', 'o'];
+		const CategoryOrder = ['t', 'b', 'mi', 'o'];
 		const displayRefs = [];
-		for (const category of CATEGORY_ORDER) {
+		for (const category of CategoryOrder) {
 			if (references[category]) {
 				for (const ref of references[category]) {
 					displayRefs.push({ ref, category });
@@ -1601,7 +1601,7 @@ class JastrowApp {
 		} else if (params.word !== undefined) {
 			hash = `#${params.word}`;
 		} else if (params.ref !== undefined) {
-			hash = `#ref:${params.ref.replace(/ /g, '_')}`;
+			hash = `#ref:${params.ref.replace(/ /gu, '_')}`;
 		} else if (params.rid !== undefined) {
 			hash = `#rid:${params.rid}`;
 		}
@@ -1695,8 +1695,8 @@ class JastrowApp {
 			// 2. Page (always — detect from scroll manager or URL hash)
 			const currentPage =
 				this.scrollManager?.currentVisiblePage ||
-				(/^\d+$/.test(window.location.hash.slice(1))
-					? parseInt(window.location.hash.slice(1), 10)
+				(/^\d+$/u.test(window.location.hash.slice(1))
+					? Number.parseInt(window.location.hash.slice(1), 10)
 					: null);
 			if (currentPage && currentPage > 0) {
 				dropdown.appendChild(
@@ -1725,7 +1725,7 @@ class JastrowApp {
 				let url;
 				if (shareType === 'scan') {
 					const pageDisplay = document.getElementById('current-page-display');
-					const pageMatch = pageDisplay?.textContent.match(/\d+/);
+					const pageMatch = pageDisplay?.textContent.match(/\d+/u);
 					url = pageMatch
 						? `${baseUrl}#scan:${pageMatch[0]}`
 						: `${baseUrl}#scan:1`;
@@ -1930,13 +1930,13 @@ class JastrowApp {
 			for (const line of lines) {
 				// Rewrite Jastrow links for inline context (no target="_parent", no index.html prefix)
 				const fixedLine = line.replace(
-					/<a([^>]*)href="\/Jastrow,_([^"]*)"([^>]*)>/g,
+					/<a([^>]*)href="\/Jastrow,_([^"]*)"([^>]*)>/gu,
 					(_match, before, jastrowPath, after) => {
 						const headword = jastrowPath
-							.replace(/^\*/, '')
-							.replace(/\.\d+$/, '');
-						const cleanBefore = before.replace(/\s*target="[^"]*"/g, '');
-						const cleanAfter = after.replace(/\s*target="[^"]*"/g, '');
+							.replace(/^\*/u, '')
+							.replace(/\.\d+$/u, '');
+						const cleanBefore = before.replace(/\s*target="[^"]*"/gu, '');
+						const cleanAfter = after.replace(/\s*target="[^"]*"/gu, '');
 						return `<a${cleanBefore}href="#word=${headword}"${cleanAfter}>`;
 					},
 				);
@@ -2166,7 +2166,7 @@ class JastrowApp {
 			}
 			if (progressEl) {
 				progressEl.textContent =
-					progress.percent != null ? `${Math.round(progress.percent)}%` : '';
+					progress.percent == null ? '' : `${Math.round(progress.percent)}%`;
 			}
 		} else {
 			// Legacy number format fallback

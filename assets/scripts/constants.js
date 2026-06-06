@@ -53,7 +53,7 @@
 	 */
 	window.TIMEOUTS = {
 		SCROLL_HIGHLIGHT_DURATION: 3000, // How long to highlight scrolled-to element
-		SW_UPDATE_INTERVAL: 3600000, // SW update check interval (1 hour)
+		SW_UPDATE_INTERVAL: 3_600_000, // SW update check interval (1 hour)
 	};
 
 	/**

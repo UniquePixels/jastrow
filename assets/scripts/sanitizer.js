@@ -90,7 +90,7 @@
 					ALLOWED_TAGS: [],
 					ALLOWED_ATTR: [],
 				})
-			: trimmed.replace(/<[^>]*>/g, '');
+			: trimmed.replace(/<[^>]*>/gu, '');
 
 		// Check if anything remains after stripping HTML
 		if (cleanQuery.length === 0) {
@@ -111,7 +111,7 @@
 		min = min || 1;
 		max = max || 1704;
 
-		const parsed = parseInt(pageNumber, 10);
+		const parsed = Number.parseInt(pageNumber, 10);
 
 		if (Number.isNaN(parsed)) {
 			return { valid: false, error: 'Invalid page number' };

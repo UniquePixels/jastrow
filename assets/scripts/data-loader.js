@@ -31,11 +31,12 @@ class JastrowDataLoader {
 			return '';
 		}
 		// Keep only Hebrew letters (Unicode range U+05D0 to U+05EA: א through ת)
-		let normalized = text.replace(/[^\u05D0-\u05EA]/g, '');
+		let normalized = text.replace(/[^\u05D0-\u05EA]/gu, '');
 		// Normalize sofit (final) letters to regular forms
 		// Each sofit letter's code point is exactly 1 less than its regular form
-		normalized = normalized.replace(/[\u05DA\u05DD\u05DF\u05E3\u05E5]/g, (ch) =>
-			String.fromCharCode(ch.charCodeAt(0) + 1),
+		normalized = normalized.replace(
+			/[\u05DA\u05DD\u05DF\u05E3\u05E5]/gu,
+			(ch) => String.fromCharCode(ch.charCodeAt(0) + 1),
 		);
 		return normalized;
 	}
@@ -48,7 +49,7 @@ class JastrowDataLoader {
 		if (!ref) {
 			return '';
 		}
-		return ref.toLowerCase().replace(/\./g, '').replace(/\s+/g, ' ').trim();
+		return ref.toLowerCase().replace(/\./gu, '').replace(/\s+/gu, ' ').trim();
 	}
 
 	/**
@@ -547,7 +548,7 @@ class JastrowDataLoader {
 		const reader = response.body.getReader();
 		const decoder = new TextDecoder();
 		let buffer = '';
-		const totalSize = parseInt(
+		const totalSize = Number.parseInt(
 			response.headers.get('content-length') || '0',
 			10,
 		);
@@ -896,7 +897,7 @@ class JastrowDataLoader {
 		}
 
 		const index = this.ridIndex.get(rid);
-		return index !== undefined ? this.entries[index] : null;
+		return index === undefined ? null : this.entries[index];
 	}
 
 	/**
@@ -908,7 +909,7 @@ class JastrowDataLoader {
 			return -1;
 		}
 		const index = this.ridIndex.get(rid);
-		return index !== undefined ? index : -1;
+		return index === undefined ? -1 : index;
 	}
 
 	/**

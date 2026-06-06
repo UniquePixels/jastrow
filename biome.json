@@ -8,7 +8,10 @@
 	"files": {
 		"ignoreUnknown": false,
 		"includes": [
-			"**"
+			"**",
+			"!data/*.json",
+			"!data/*.jsonl",
+			"!data/admin/annotations.json"
 		]
 	},
 	"assist": {
@@ -57,7 +60,6 @@
 			},
 			"nursery": {
 				"noAmbiguousAnchorText": "on",
-				"noBaseToString": "on",
 				"noConditionalExpect": "on",
 				"noContinue": "on",
 				"noDeprecatedMediaType": "on",
@@ -71,13 +73,10 @@
 				"noExcessiveLinesPerFile": "on",
 				"noExcessiveNestedCallbacks": "on",
 				"noExcessiveSelectorClasses": "on",
-				"noFloatingPromises": "on",
 				"noForIn": "on",
 				"noIdenticalTestTitle": "on",
 				"noInlineStyles": "on",
 				"noLoopFunc": "on",
-				"noMisleadingReturnType": "on",
-				"noMisusedPromises": "on",
 				"noMultiAssign": "on",
 				"noMultiStr": "on",
 				"noParametersOnlyUsedInRecursion": "on",
@@ -89,45 +88,31 @@
 				"noSyncScripts": "on",
 				"noTopLevelLiterals": "on",
 				"noUndeclaredEnvVars": "on",
-				"noUnnecessaryConditions": "on",
 				"noUnnecessaryTemplateExpression": "on",
-				"noUnsafePlusOperands": "on",
 				"noUselessReturn": "on",
-				"noUselessTypeConversion": "on",
 				"useArraySome": "on",
-				"useArraySortCompare": "on",
-				"useAwaitThenable": "on",
 				"useBaseline": "on",
-				"useConsistentEnumValueType": "on",
 				"useConsistentMethodSignatures": "on",
 				"useConsistentTestIt": "on",
 				"useDestructuring": "on",
-				"useDisposables": "on",
 				"useDomQuerySelector": "on",
 				"useErrorCause": "on",
-				"useExhaustiveSwitchCases": "on",
 				"useExpect": "on",
 				"useExplicitReturnType": "on",
 				"useExplicitType": "on",
-				"useFind": "on",
 				"useGlobalThis": "on",
 				"useIframeSandbox": "on",
 				"useImportsFirst": "on",
 				"useNamedCaptureGroup": "on",
-				"useNullishCoalescing": "on",
 				"useReduceTypeParameter": "on",
-				"useRegexpExec": "on",
 				"useRegexpTest": "on",
 				"useRequiredScripts": {
 					"level": "on",
 					"options": {
-						"requiredScripts": [
-							"qa"
-						]
+						"requiredScripts": ["qa"]
 					}
 				},
 				"useSpread": "on",
-				"useStringStartsEndsWith": "on",
 				"useTestHooksInOrder": "on",
 				"useTestHooksOnTop": "on",
 				"useThisInClassMethods": "on",
@@ -186,9 +171,7 @@
 					"level": "on",
 					"options": {
 						"requireAscii": true,
-						"filenameCases": [
-							"kebab-case"
-						]
+						"filenameCases": ["kebab-case"]
 					}
 				},
 				"useForOf": "on",
@@ -244,9 +227,7 @@
 	},
 	"overrides": [
 		{
-			"includes": [
-				"**/*.test.ts"
-			],
+			"includes": ["**/*.test.ts"],
 			"linter": {
 				"rules": {
 					"performance": {

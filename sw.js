@@ -69,17 +69,16 @@ self.addEventListener('activate', (event) => {
 	event.waitUntil(
 		caches
 			.keys()
-			.then((cacheNames) => {
-				return Promise.all(
+			.then((cacheNames) =>
+				Promise.all(
 					cacheNames.map((cacheName) => {
 						if (cacheName !== CACHE_VERSION) {
 							console.log('[Service Worker] Deleting old cache:', cacheName);
 							return caches.delete(cacheName);
 						}
-						return undefined;
 					}),
-				);
-			})
+				),
+			)
 			.then(() => {
 				console.log('[Service Worker] Activated successfully');
 				// Take control of all pages immediately

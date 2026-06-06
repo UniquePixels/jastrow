@@ -1,9 +1,10 @@
 import { existsSync, readFileSync, writeFileSync } from 'node:fs';
 import { join } from 'node:path';
+import process from 'node:process';
 import { buildRabbinicTimePdf } from './pdf-builds/render-rabbinic-time.ts';
 
 const DATA_DIR = join(import.meta.dir, '..');
-const PORT = parseInt(process.env.PORT || '3333', 10);
+const PORT = Number.parseInt(process.env.PORT || '3333', 10);
 
 // --- Data Loading ---
 
@@ -109,83 +110,83 @@ function matchRoute(
 		// Entries
 		{
 			method: 'GET',
-			pattern: /^\/api\/entries$/,
+			pattern: /^\/api\/entries$/u,
 			paramNames: [],
 			handler: handleGetEntries,
 		},
 		{
 			method: 'PUT',
-			pattern: /^\/api\/entry\/([^/]+)$/,
+			pattern: /^\/api\/entry\/([^/]+)$/u,
 			paramNames: ['rid'],
 			handler: handlePutEntry,
 		},
 		{
 			method: 'POST',
-			pattern: /^\/api\/save-all$/,
+			pattern: /^\/api\/save-all$/u,
 			paramNames: [],
 			handler: handleSaveAll,
 		},
 		// Annotations
 		{
 			method: 'GET',
-			pattern: /^\/api\/annotations$/,
+			pattern: /^\/api\/annotations$/u,
 			paramNames: [],
 			handler: handleGetAnnotations,
 		},
 		{
 			method: 'PUT',
-			pattern: /^\/api\/annotations$/,
+			pattern: /^\/api\/annotations$/u,
 			paramNames: [],
 			handler: handlePutAnnotations,
 		},
 		// Abbreviations
 		{
 			method: 'GET',
-			pattern: /^\/api\/abbreviations$/,
+			pattern: /^\/api\/abbreviations$/u,
 			paramNames: [],
 			handler: handleGetAbbreviations,
 		},
 		{
 			method: 'PUT',
-			pattern: /^\/api\/abbreviations\/([^/]+)$/,
+			pattern: /^\/api\/abbreviations\/([^/]+)$/u,
 			paramNames: ['type'],
 			handler: handlePutAbbreviations,
 		},
 		// Sages
 		{
 			method: 'GET',
-			pattern: /^\/api\/sages$/,
+			pattern: /^\/api\/sages$/u,
 			paramNames: [],
 			handler: handleGetSages,
 		},
 		{
 			method: 'PUT',
-			pattern: /^\/api\/sage\/([^/]+)$/,
+			pattern: /^\/api\/sage\/([^/]+)$/u,
 			paramNames: ['id'],
 			handler: handlePutSage,
 		},
 		{
 			method: 'POST',
-			pattern: /^\/api\/sage$/,
+			pattern: /^\/api\/sage$/u,
 			paramNames: [],
 			handler: handlePostSage,
 		},
 		{
 			method: 'DELETE',
-			pattern: /^\/api\/sage\/([^/]+)$/,
+			pattern: /^\/api\/sage\/([^/]+)$/u,
 			paramNames: ['id'],
 			handler: handleDeleteSage,
 		},
 		{
 			method: 'POST',
-			pattern: /^\/api\/sage\/([^/]+)\/research$/,
+			pattern: /^\/api\/sage\/([^/]+)\/research$/u,
 			paramNames: ['id'],
 			handler: handleSageResearch,
 		},
 		// Builds
 		{
 			method: 'POST',
-			pattern: /^\/api\/builds\/rabbinic-time-pdf$/,
+			pattern: /^\/api\/builds\/rabbinic-time-pdf$/u,
 			paramNames: [],
 			handler: handleBuildRabbinicTimePdf,
 		},
@@ -362,7 +363,7 @@ Only include fields where you have substantive new information to add.`;
 		if (exitCode !== 0) {
 			return jsonResponse({ error: 'Claude CLI failed' }, 503);
 		}
-		const jsonMatch = output.match(/\{[\s\S]*\}/);
+		const jsonMatch = output.match(/\{[\s\S]*\}/u);
 		const suggestions = jsonMatch ? JSON.parse(jsonMatch[0]) : {};
 		return jsonResponse({ suggestions });
 	} catch {

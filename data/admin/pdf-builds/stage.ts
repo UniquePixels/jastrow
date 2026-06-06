@@ -5,6 +5,7 @@
  */
 import { copyFileSync, existsSync, mkdirSync } from 'node:fs';
 import { dirname, join } from 'node:path';
+import process from 'node:process';
 
 const HERE = import.meta.dir;
 const ADMIN = dirname(HERE);

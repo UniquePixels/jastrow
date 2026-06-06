@@ -6,24 +6,24 @@
   <title>Jastrow Data Admin</title>
   <style>
     /* --- Reset & Base --- */
-    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    *, *::before, *::after { box-sizing: border-box; padding: 0; margin: 0; }
 
     body {
       font-family: system-ui, -apple-system, sans-serif;
-      background: #f5f5f5;
-      color: #333;
       font-size: 15px;
       line-height: 1.5;
+      color: #333;
+      background: #f5f5f5;
     }
 
     /* --- Layout --- */
     .app-header {
+      display: flex;
+      gap: 12px;
+      align-items: center;
+      padding: 8px 16px;
       background: #fff;
       border-bottom: 1px solid #ddd;
-      padding: 8px 16px;
-      display: flex;
-      align-items: center;
-      gap: 12px;
     }
 
     .app-header h1 {
@@ -33,32 +33,32 @@
     }
 
     .app-header .status {
+      margin-left: auto;
       font-size: 12px;
       color: #888;
-      margin-left: auto;
     }
 
     /* --- Tab Bar --- */
     .tab-bar {
       display: flex;
+      gap: 0;
+      padding: 0 16px;
       background: #fff;
       border-bottom: 2px solid #e0e0e0;
-      padding: 0 16px;
-      gap: 0;
     }
 
     .tab-button {
       padding: 10px 18px;
-      border: none;
-      background: none;
+      margin-bottom: -2px;
       font-size: 13px;
       font-weight: 500;
       color: #666;
-      cursor: pointer;
-      border-bottom: 2px solid transparent;
-      margin-bottom: -2px;
-      transition: color 0.15s, border-color 0.15s;
       white-space: nowrap;
+      cursor: pointer;
+      background: none;
+      border: none;
+      border-bottom: 2px solid transparent;
+      transition: color 0.15s, border-color 0.15s;
     }
 
     .tab-button:hover {
@@ -81,9 +81,9 @@
 
     .tab-placeholder {
       padding: 48px;
-      text-align: center;
-      color: #999;
       font-size: 15px;
+      color: #999;
+      text-align: center;
     }
 
     /* --- Entry Editor Layout --- */
@@ -96,8 +96,8 @@
 
     .entry-editor-layout > .entry-preview-panel,
     .entry-editor-layout > .field-editor-panel {
-      overflow-y: auto;
       max-height: calc(100vh - 140px);
+      overflow-y: auto;
     }
 
     /* --- Entry Preview Panel --- */
@@ -120,93 +120,93 @@
     }
 
     .entry-rid {
-      font-size: 12px;
-      color: #999;
       margin-top: 2px;
       font-family: monospace;
+      font-size: 12px;
+      color: #999;
     }
 
 
     .entry-meta {
       display: flex;
-      align-items: center;
+      flex-wrap: wrap;
       gap: 8px;
+      align-items: center;
       padding: 10px 20px;
       border-bottom: 1px solid #f0f0f0;
-      flex-wrap: wrap;
     }
 
     .entry-page-info {
+      margin-left: auto;
       font-size: 12px;
       color: #666;
-      margin-left: auto;
     }
 
     /* --- Badges --- */
     .badge {
       display: inline-block;
+      padding: 2px 8px;
       font-size: 11px;
       font-weight: 600;
-      padding: 2px 8px;
-      border-radius: 99px;
       line-height: 1.4;
+      border-radius: 99px;
     }
 
     .badge-brand {
-      background: #eff6ff;
       color: #2563eb;
+      background: #eff6ff;
     }
 
     .badge-neutral {
-      background: #f3f4f6;
       color: #4b5563;
+      background: #f3f4f6;
     }
 
     .badge-success {
-      background: #f0fdf4;
       color: #16a34a;
+      background: #f0fdf4;
     }
 
     .badge-warning {
-      background: #fffbeb;
       color: #d97706;
+      background: #fffbeb;
     }
 
     .badge-ref {
+      padding: 1px 6px;
       font-size: 11px;
       font-weight: 500;
-      padding: 1px 6px;
-      border-radius: 4px;
       border: 1px solid;
+      border-radius: 4px;
     }
 
     .badge-ref-t {
-      background: #eff6ff;
       color: #2563eb;
+      background: #eff6ff;
       border-color: #bfdbfe;
     }
 
     .badge-ref-b {
-      background: #f0fdf4;
       color: #16a34a;
+      background: #f0fdf4;
       border-color: #bbf7d0;
     }
 
     .badge-ref-mi {
-      background: #fffbeb;
       color: #d97706;
+      background: #fffbeb;
       border-color: #fde68a;
     }
 
     .badge-ref-j {
-      background: #faf5ff;
       color: #9333ea;
+      background: #faf5ff;
       border-color: #e9d5ff;
     }
 
     .badge-ref-o {
-      background: #f3f4f6;
       color: #4b5563;
+      background: #f3f4f6;
       border-color: #d1d5db;
     }
 
@@ -216,8 +216,8 @@
     }
 
     .language-info {
-      color: #888;
       font-style: italic;
+      color: #888;
     }
 
     .sense-group {
@@ -236,8 +236,8 @@
       margin-top: 10px;
       margin-bottom: 4px;
       background: #fafafa;
-      border-radius: 4px;
       border-inline-start: 3px solid #2563eb;
+      border-radius: 4px;
     }
 
     .grammar-header {
@@ -251,9 +251,9 @@
     }
 
     .verbal-stem {
+      margin-inline-end: 4px;
       font-weight: 700;
       color: #2563eb;
-      margin-inline-end: 4px;
     }
 
     .binyan-forms {
@@ -263,17 +263,17 @@
     }
 
     .sense-numbered {
-      margin-top: 4px;
       display: flex;
       gap: 4px;
       align-items: flex-start;
+      margin-top: 4px;
     }
 
     .sense-number {
-      font-weight: 700;
-      color: #2563eb;
       flex-shrink: 0;
       min-width: 2em;
+      font-weight: 700;
+      color: #2563eb;
     }
 
     .sense-definition {
@@ -291,50 +291,50 @@
 
     /* --- References --- */
     .entry-refs {
-      padding: 10px 20px 16px;
-      border-top: 1px solid #f0f0f0;
       display: flex;
       flex-wrap: wrap;
       gap: 6px;
       align-items: center;
+      padding: 10px 20px 16px;
+      border-top: 1px solid #f0f0f0;
     }
 
     .entry-refs-label {
+      margin-right: 4px;
       font-size: 12px;
       font-weight: 600;
       color: #666;
-      margin-right: 4px;
     }
 
     /* --- Loading & Error --- */
     .loading-msg {
       padding: 48px;
-      text-align: center;
       color: #999;
+      text-align: center;
     }
 
     .error-msg {
       padding: 16px 20px;
+      margin: 16px;
       color: #dc2626;
       background: #fef2f2;
       border-radius: 6px;
-      margin: 16px;
     }
 
     /* --- Field Editor Panel --- */
     .field-editor-panel {
+      padding: 16px;
       background: #fff;
       border-radius: 6px;
       box-shadow: 0 1px 3px rgba(0,0,0,0.08);
-      padding: 16px;
     }
 
     .field-editor-header {
       display: flex;
       align-items: center;
       justify-content: space-between;
-      margin-bottom: 12px;
       padding-bottom: 8px;
+      margin-bottom: 12px;
       border-bottom: 1px solid #e0e0e0;
     }
 
@@ -351,27 +351,27 @@
 
     .btn-save, .btn-revert {
       padding: 4px 14px;
-      border: none;
-      border-radius: 4px;
       font-size: 12px;
       font-weight: 600;
       cursor: pointer;
+      border: none;
+      border-radius: 4px;
       transition: opacity 0.15s;
     }
 
     .btn-save {
-      background: #16a34a;
       color: #fff;
+      background: #16a34a;
     }
 
     .btn-revert {
-      background: #e5e7eb;
       color: #4b5563;
+      background: #e5e7eb;
     }
 
     .btn-save:disabled, .btn-revert:disabled {
-      opacity: 0.4;
       cursor: not-allowed;
+      opacity: 0.4;
     }
 
     .field-group {
@@ -380,22 +380,22 @@
 
     .field-group label {
       display: block;
+      margin-bottom: 2px;
       font-size: 11px;
       font-weight: 600;
       color: #666;
-      margin-bottom: 2px;
     }
 
     .field-group input,
     .field-group select,
     .field-group textarea {
       width: 100%;
-      font-size: 13px;
       padding: 4px 8px;
+      font-family: inherit;
+      font-size: 13px;
+      line-height: 1.4;
       border: 1px solid #d1d5db;
       border-radius: 4px;
-      font-family: inherit;
-      line-height: 1.4;
     }
 
     .field-group input:focus,
@@ -407,8 +407,8 @@
     }
 
     .field-group textarea {
-      resize: vertical;
       min-height: 48px;
+      resize: vertical;
     }
 
     .field-group textarea.textarea-lg {
@@ -420,24 +420,24 @@
     }
 
     .field-group .readonly-value {
+      padding: 4px 0;
+      font-family: monospace;
       font-size: 13px;
       color: #666;
-      font-family: monospace;
-      padding: 4px 0;
     }
 
     .field-editor-panel fieldset {
-      border: 1px solid #e5e7eb;
-      border-radius: 4px;
       padding: 8px 10px;
       margin-bottom: 10px;
+      border: 1px solid #e5e7eb;
+      border-radius: 4px;
     }
 
     .field-editor-panel fieldset legend {
+      padding: 0 4px;
       font-size: 11px;
       font-weight: 600;
       color: #666;
-      padding: 0 4px;
     }
 
     .field-row {
@@ -450,10 +450,10 @@
     }
 
     .sense-editor-label {
+      margin-bottom: 2px;
       font-size: 11px;
       font-weight: 600;
       color: #666;
-      margin-bottom: 2px;
     }
 
     .sense-editor-label.indented {
@@ -468,13 +468,13 @@
     }
 
     .sense-delete-btn {
-      border: none;
-      background: none;
+      padding: 0 4px;
+      font-size: 16px;
+      line-height: 1;
       color: #dc2626;
       cursor: pointer;
-      font-size: 16px;
-      padding: 0 4px;
-      line-height: 1;
+      background: none;
+      border: none;
       opacity: 0.5;
     }
 
@@ -483,30 +483,30 @@
     }
 
     .btn-add-sense {
-      margin-top: 6px;
+      width: 100%;
       padding: 4px 12px;
+      margin-top: 6px;
+      font-size: 12px;
+      color: #666;
+      cursor: pointer;
+      background: none;
       border: 1px dashed #d1d5db;
       border-radius: 4px;
-      background: none;
-      color: #666;
-      font-size: 12px;
-      cursor: pointer;
-      width: 100%;
     }
 
     .btn-add-sense:hover {
-      border-color: #2563eb;
       color: #2563eb;
+      border-color: #2563eb;
     }
 
     /* --- Navigation Bar --- */
     .nav-bar {
       display: flex;
-      align-items: center;
       gap: 10px;
+      align-items: center;
+      padding: 6px 16px;
       background: #fff;
       border-bottom: 1px solid #ddd;
-      padding: 6px 16px;
     }
 
     .nav-bar.hidden {
@@ -515,12 +515,12 @@
 
     .nav-bar button {
       padding: 4px 10px;
+      font-size: 13px;
+      line-height: 1.4;
+      cursor: pointer;
+      background: #fff;
       border: 1px solid #d1d5db;
       border-radius: 4px;
-      background: #fff;
-      font-size: 13px;
-      cursor: pointer;
-      line-height: 1.4;
     }
 
     .nav-bar button:hover:not(:disabled) {
@@ -528,16 +528,16 @@
     }
 
     .nav-bar button:disabled {
-      opacity: 0.4;
       cursor: not-allowed;
+      opacity: 0.4;
     }
 
     .nav-bar input {
-      font-size: 13px;
       padding: 4px 8px;
+      font-size: 13px;
+      line-height: 1.4;
       border: 1px solid #d1d5db;
       border-radius: 4px;
-      line-height: 1.4;
     }
 
     .nav-bar input:focus {
@@ -564,14 +564,14 @@
       top: 100%;
       left: 0;
       z-index: 100;
+      display: none;
+      width: 220px;
+      max-height: 240px;
+      overflow-y: auto;
       background: #fff;
       border: 1px solid #d1d5db;
       border-radius: 4px;
       box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-      max-height: 240px;
-      overflow-y: auto;
-      width: 220px;
-      display: none;
     }
 
     .nav-hw-dropdown.open {
@@ -579,12 +579,12 @@
     }
 
     .nav-hw-option {
-      padding: 6px 10px;
-      cursor: pointer;
-      font-size: 13px;
       display: flex;
-      justify-content: space-between;
       align-items: center;
+      justify-content: space-between;
+      padding: 6px 10px;
+      font-size: 13px;
+      cursor: pointer;
     }
 
     .nav-hw-option:hover,
@@ -612,9 +612,9 @@
 
     .nav-issue-badge {
       font-size: 14px;
+      line-height: 1;
       color: #d97706;
       cursor: default;
-      line-height: 1;
     }
 
     .rid-flash {
@@ -628,10 +628,10 @@
 
     /* --- Divider Handle --- */
     .divider-handle {
-      background: #e0e0e0;
       cursor: col-resize;
-      transition: background 0.15s;
+      background: #e0e0e0;
       border-radius: 2px;
+      transition: background 0.15s;
     }
 
     .divider-handle:hover {
@@ -640,36 +640,36 @@
 
     /* --- Annotations Section --- */
     .annotations-section {
-      margin-bottom: 12px;
       padding: 8px 0;
+      margin-bottom: 12px;
     }
 
     .annotations-section h3 {
+      display: flex;
+      gap: 6px;
+      align-items: center;
+      margin-bottom: 8px;
       font-size: 13px;
       font-weight: 600;
       color: #333;
-      margin-bottom: 8px;
-      display: flex;
-      align-items: center;
-      gap: 6px;
     }
 
     .annotations-section h3 .ann-count {
+      padding: 1px 6px;
       font-size: 11px;
       font-weight: 600;
-      background: #fef3c7;
       color: #92400e;
-      padding: 1px 6px;
+      background: #fef3c7;
       border-radius: 99px;
     }
 
     .annotation-row {
       display: flex;
-      align-items: flex-start;
       gap: 8px;
+      align-items: flex-start;
       padding: 6px 0;
-      border-bottom: 1px solid #f0f0f0;
       font-size: 13px;
+      border-bottom: 1px solid #f0f0f0;
     }
 
     .annotation-row:last-of-type {
@@ -677,45 +677,45 @@
     }
 
     .ann-type-badge {
+      flex-shrink: 0;
+      padding: 2px 6px;
       font-size: 10px;
       font-weight: 700;
-      padding: 2px 6px;
-      border-radius: 4px;
-      white-space: nowrap;
-      flex-shrink: 0;
       text-transform: uppercase;
       letter-spacing: 0.3px;
+      white-space: nowrap;
+      border-radius: 4px;
     }
 
-    .ann-type-data-quality { background: #fef2f2; color: #991b1b; }
-    .ann-type-needs-review { background: #fffbeb; color: #92400e; }
-    .ann-type-page-column { background: #eff6ff; color: #1e40af; }
-    .ann-type-reference { background: #f0fdf4; color: #166534; }
-    .ann-type-word-link { background: #faf5ff; color: #6b21a8; }
-    .ann-type-custom { background: #f3f4f6; color: #374151; }
+    .ann-type-data-quality { color: #991b1b; background: #fef2f2; }
+    .ann-type-needs-review { color: #92400e; background: #fffbeb; }
+    .ann-type-page-column { color: #1e40af; background: #eff6ff; }
+    .ann-type-reference { color: #166534; background: #f0fdf4; }
+    .ann-type-word-link { color: #6b21a8; background: #faf5ff; }
+    .ann-type-custom { color: #374151; background: #f3f4f6; }
 
     .ann-note {
       flex: 1;
-      color: #333;
       line-height: 1.4;
+      color: #333;
     }
 
     .ann-date {
+      flex-shrink: 0;
       font-size: 11px;
       color: #999;
       white-space: nowrap;
-      flex-shrink: 0;
     }
 
     .ann-delete-btn {
-      border: none;
-      background: none;
+      flex-shrink: 0;
+      padding: 0 2px;
+      font-size: 14px;
+      line-height: 1;
       color: #999;
       cursor: pointer;
-      font-size: 14px;
-      padding: 0 2px;
-      line-height: 1;
-      flex-shrink: 0;
+      background: none;
+      border: none;
     }
 
     .ann-delete-btn:hover {
@@ -725,27 +725,27 @@
     .ann-add-form {
       display: flex;
       gap: 6px;
-      margin-top: 8px;
       align-items: flex-start;
+      margin-top: 8px;
     }
 
     .ann-add-form select {
-      font-size: 12px;
+      flex-shrink: 0;
       padding: 4px 6px;
+      font-size: 12px;
       border: 1px solid #d1d5db;
       border-radius: 4px;
-      flex-shrink: 0;
     }
 
     .ann-add-form textarea {
       flex: 1;
-      font-size: 12px;
+      min-height: 32px;
       padding: 4px 6px;
+      font-family: inherit;
+      font-size: 12px;
+      resize: vertical;
       border: 1px solid #d1d5db;
       border-radius: 4px;
-      font-family: inherit;
-      resize: vertical;
-      min-height: 32px;
     }
 
     .ann-add-form textarea:focus,
@@ -756,15 +756,15 @@
     }
 
     .ann-add-btn {
+      flex-shrink: 0;
       padding: 4px 12px;
-      border: none;
-      border-radius: 4px;
-      background: #2563eb;
-      color: #fff;
       font-size: 12px;
       font-weight: 600;
+      color: #fff;
       cursor: pointer;
-      flex-shrink: 0;
+      background: #2563eb;
+      border: none;
+      border-radius: 4px;
     }
 
     .ann-add-btn:hover {
@@ -772,10 +772,10 @@
     }
 
     .ann-empty {
-      font-size: 12px;
-      color: #999;
-      font-style: italic;
       padding: 4px 0;
+      font-size: 12px;
+      font-style: italic;
+      color: #999;
     }
 
     /* --- Issues Tab --- */
@@ -785,43 +785,43 @@
 
     .issues-filter-bar {
       display: flex;
-      align-items: center;
+      flex-wrap: wrap;
       gap: 12px;
+      align-items: center;
       padding: 12px 16px;
+      margin-bottom: 12px;
       background: #fff;
       border-radius: 6px;
       box-shadow: 0 1px 3px rgba(0,0,0,0.08);
-      margin-bottom: 12px;
-      flex-wrap: wrap;
     }
 
     .issues-filter-bar label {
       display: flex;
-      align-items: center;
       gap: 4px;
+      align-items: center;
       font-size: 12px;
-      cursor: pointer;
       white-space: nowrap;
+      cursor: pointer;
     }
 
     .issues-filter-bar label .filter-count {
+      min-width: 16px;
+      padding: 0 4px;
       font-size: 10px;
       font-weight: 600;
-      background: #e5e7eb;
       color: #4b5563;
-      padding: 0 4px;
-      border-radius: 99px;
-      min-width: 16px;
       text-align: center;
+      background: #e5e7eb;
+      border-radius: 99px;
     }
 
     .issues-search-input {
-      font-size: 13px;
+      width: 200px;
       padding: 4px 8px;
+      margin-left: auto;
+      font-size: 13px;
       border: 1px solid #d1d5db;
       border-radius: 4px;
-      width: 200px;
-      margin-left: auto;
     }
 
     .issues-search-input:focus {
@@ -832,19 +832,19 @@
 
     .issues-actions-bar {
       display: flex;
-      align-items: center;
       gap: 8px;
+      align-items: center;
       margin-bottom: 12px;
     }
 
     .issues-actions-bar button {
       padding: 4px 12px;
-      border: 1px solid #d1d5db;
-      border-radius: 4px;
-      background: #fff;
       font-size: 12px;
       font-weight: 500;
       cursor: pointer;
+      background: #fff;
+      border: 1px solid #d1d5db;
+      border-radius: 4px;
     }
 
     .issues-actions-bar button:hover:not(:disabled) {
@@ -852,13 +852,13 @@
     }
 
     .issues-actions-bar button:disabled {
-      opacity: 0.4;
       cursor: not-allowed;
+      opacity: 0.4;
     }
 
     .issues-actions-bar .btn-scan {
-      background: #2563eb;
       color: #fff;
+      background: #2563eb;
       border-color: #2563eb;
     }
 
@@ -867,8 +867,8 @@
     }
 
     .issues-actions-bar .btn-resolve {
-      background: #dc2626;
       color: #fff;
+      background: #dc2626;
       border-color: #dc2626;
     }
 
@@ -877,8 +877,8 @@
     }
 
     .issues-actions-bar select {
-      font-size: 12px;
       padding: 4px 6px;
+      font-size: 12px;
       border: 1px solid #d1d5db;
       border-radius: 4px;
     }
@@ -889,27 +889,27 @@
     }
 
     .issues-table-wrapper {
+      overflow: hidden;
       background: #fff;
       border-radius: 6px;
       box-shadow: 0 1px 3px rgba(0,0,0,0.08);
-      overflow: hidden;
     }
 
     .issues-table {
       width: 100%;
-      border-collapse: collapse;
       font-size: 13px;
+      border-collapse: collapse;
     }
 
     .issues-table th {
-      text-align: left;
       padding: 8px 12px;
-      background: #f9fafb;
       font-size: 11px;
       font-weight: 600;
       color: #666;
+      text-align: left;
       text-transform: uppercase;
       letter-spacing: 0.3px;
+      background: #f9fafb;
       border-bottom: 1px solid #e5e7eb;
     }
 
@@ -920,8 +920,8 @@
 
     .issues-table td {
       padding: 8px 12px;
-      border-bottom: 1px solid #f0f0f0;
       vertical-align: top;
+      border-bottom: 1px solid #f0f0f0;
     }
 
     .issues-table td:first-child {
@@ -955,9 +955,9 @@
 
     .issues-pagination {
       display: flex;
+      gap: 12px;
       align-items: center;
       justify-content: center;
-      gap: 12px;
       padding: 8px 16px;
       font-size: 13px;
       color: #666;
@@ -965,53 +965,53 @@
 
     .issues-pagination button {
       padding: 4px 10px;
+      font-size: 12px;
+      cursor: pointer;
+      background: #fff;
       border: 1px solid #d1d5db;
       border-radius: 4px;
-      background: #fff;
-      cursor: pointer;
-      font-size: 12px;
     }
 
     .issues-pagination button:disabled {
-      opacity: 0.4;
       cursor: not-allowed;
+      opacity: 0.4;
     }
 
     .issues-empty {
       padding: 32px;
-      text-align: center;
-      color: #999;
       font-size: 14px;
+      color: #999;
+      text-align: center;
     }
 
     /* --- Page Mapper --- */
     .mapper-container {
-      padding: 12px;
-      max-width: 500px;
       display: flex;
       flex-direction: column;
+      max-width: 500px;
       max-height: calc(100vh - 140px);
+      padding: 12px;
     }
 
     .mapper-header {
+      padding: 12px 16px;
+      margin-bottom: 12px;
       background: #fff;
       border-radius: 6px;
-      padding: 12px 16px;
       box-shadow: 0 1px 3px rgba(0,0,0,0.08);
-      margin-bottom: 12px;
     }
 
     .mapper-header .mapper-info {
       display: flex;
-      justify-content: space-between;
       align-items: center;
-      font-size: 13px;
+      justify-content: space-between;
       margin-bottom: 8px;
+      font-size: 13px;
     }
 
     .mapper-header .mapper-page {
-      font-weight: 600;
       font-size: 15px;
+      font-weight: 600;
     }
 
     .mapper-header .mapper-col {
@@ -1021,8 +1021,8 @@
 
     .mapper-progress {
       display: flex;
-      align-items: center;
       gap: 8px;
+      align-items: center;
       font-size: 12px;
       color: #666;
     }
@@ -1030,9 +1030,9 @@
     .mapper-progress-bar {
       flex: 1;
       height: 6px;
+      overflow: hidden;
       background: #e5e7eb;
       border-radius: 3px;
-      overflow: hidden;
     }
 
     .mapper-progress-fill {
@@ -1043,23 +1043,23 @@
     }
 
     .mapper-word-list {
+      flex: 1;
+      min-height: 0;
+      margin-bottom: 12px;
+      overflow-y: auto;
       background: #fff;
       border-radius: 6px;
       box-shadow: 0 1px 3px rgba(0,0,0,0.08);
-      overflow-y: auto;
-      margin-bottom: 12px;
-      flex: 1;
-      min-height: 0;
     }
 
     .mapper-word-item {
       display: flex;
-      justify-content: space-between;
       align-items: center;
+      justify-content: space-between;
       padding: 8px 12px;
-      border-bottom: 1px solid #f0f0f0;
-      cursor: pointer;
       font-size: 13px;
+      cursor: pointer;
+      border-bottom: 1px solid #f0f0f0;
       transition: background 0.1s;
     }
 
@@ -1096,8 +1096,8 @@
     }
 
     .mapper-word-item .meta .page-col {
-      color: #2563eb;
       font-weight: 500;
+      color: #2563eb;
     }
 
     .mapper-word-item .meta .page-col.unmapped {
@@ -1106,20 +1106,20 @@
 
     .mapper-controls {
       display: flex;
-      gap: 8px;
       flex-shrink: 0;
+      gap: 8px;
       padding-top: 8px;
       background: #f5f5f5;
     }
 
     .mapper-controls button {
       padding: 8px 16px;
-      border-radius: 4px;
       font-size: 13px;
       font-weight: 600;
       cursor: pointer;
-      border: 1px solid #d1d5db;
       background: #fff;
+      border: 1px solid #d1d5db;
+      border-radius: 4px;
     }
 
     .mapper-controls button:hover:not(:disabled) {
@@ -1127,13 +1127,13 @@
     }
 
     .mapper-controls button:disabled {
-      opacity: 0.4;
       cursor: not-allowed;
+      opacity: 0.4;
     }
 
     .mapper-controls .btn-confirm {
-      background: #2563eb;
       color: #fff;
+      background: #2563eb;
       border-color: #2563eb;
     }
 
@@ -1143,18 +1143,18 @@
 
     .mapper-all-done {
       padding: 48px;
-      text-align: center;
-      color: #16a34a;
       font-size: 15px;
       font-weight: 600;
+      color: #16a34a;
+      text-align: center;
     }
 
     .mapper-dialog {
+      max-width: 360px;
+      padding: 24px;
       border: none;
       border-radius: 8px;
       box-shadow: 0 8px 24px rgba(0,0,0,0.2);
-      padding: 24px;
-      max-width: 360px;
     }
 
     .mapper-dialog::backdrop {
@@ -1174,37 +1174,37 @@
 
     .mapper-dialog label {
       display: block;
-      font-size: 13px;
       margin-bottom: 16px;
+      font-size: 13px;
     }
 
     .mapper-dialog label input {
       display: block;
-      margin-top: 4px;
       width: 100%;
       padding: 6px 8px;
+      margin-top: 4px;
+      font-size: 14px;
       border: 1px solid #d1d5db;
       border-radius: 4px;
-      font-size: 14px;
     }
 
     .mapper-dialog-actions {
       display: flex;
-      justify-content: flex-end;
       gap: 8px;
+      justify-content: flex-end;
     }
 
     .mapper-dialog-actions button {
       padding: 6px 16px;
-      border-radius: 4px;
       font-size: 13px;
       font-weight: 600;
       cursor: pointer;
+      border-radius: 4px;
     }
 
     .btn-primary {
-      background: #2563eb;
       color: #fff;
+      background: #2563eb;
       border: none;
     }
 
@@ -1213,8 +1213,8 @@
     }
 
     .btn-secondary {
-      background: #fff;
       color: #333;
+      background: #fff;
       border: 1px solid #d1d5db;
     }
 
@@ -1224,13 +1224,13 @@
 
     /* --- Page Scan Dialog --- */
     .page-scan-dialog {
+      width: min(90vw, 700px);
+      max-height: 90vh;
+      padding: 0;
+      overflow: hidden;
       border: none;
       border-radius: 8px;
       box-shadow: 0 8px 24px rgba(0,0,0,0.2);
-      padding: 0;
-      width: min(90vw, 700px);
-      max-height: 90vh;
-      overflow: hidden;
     }
 
     .page-scan-dialog::backdrop {
@@ -1242,23 +1242,23 @@
       align-items: center;
       justify-content: space-between;
       padding: 12px 16px;
-      border-bottom: 1px solid #e0e0e0;
       background: #fafafa;
+      border-bottom: 1px solid #e0e0e0;
     }
 
     .page-scan-header h3 {
-      font-size: 14px;
       margin: 0;
+      font-size: 14px;
     }
 
     .page-scan-close {
-      border: none;
-      background: none;
-      font-size: 20px;
-      cursor: pointer;
-      color: #666;
       padding: 0 4px;
+      font-size: 20px;
       line-height: 1;
+      color: #666;
+      cursor: pointer;
+      background: none;
+      border: none;
     }
 
     .page-scan-close:hover {
@@ -1266,13 +1266,13 @@
     }
 
     .page-scan-body {
-      overflow: auto;
-      max-height: calc(90vh - 100px);
       display: flex;
       align-items: center;
       justify-content: center;
-      background: #f0f0f0;
       min-height: 400px;
+      max-height: calc(90vh - 100px);
+      overflow: auto;
+      background: #f0f0f0;
     }
 
     .page-scan-body img {
@@ -1282,21 +1282,21 @@
 
     .page-scan-footer {
       display: flex;
+      gap: 8px;
       align-items: center;
       justify-content: space-between;
       padding: 8px 16px;
-      border-top: 1px solid #e0e0e0;
       background: #fafafa;
-      gap: 8px;
+      border-top: 1px solid #e0e0e0;
     }
 
     .page-scan-footer button {
       padding: 4px 12px;
-      border: 1px solid #d1d5db;
-      border-radius: 4px;
-      background: #fff;
       font-size: 13px;
       cursor: pointer;
+      background: #fff;
+      border: 1px solid #d1d5db;
+      border-radius: 4px;
     }
 
     .page-scan-footer button:hover:not(:disabled) {
@@ -1304,8 +1304,8 @@
     }
 
     .page-scan-footer button:disabled {
-      opacity: 0.4;
       cursor: not-allowed;
+      opacity: 0.4;
     }
 
     .page-scan-footer a {
@@ -1320,12 +1320,12 @@
 
     /* --- Formatting Reference Dialog --- */
     .format-ref-dialog {
+      width: min(90vw, 600px);
+      max-height: 90vh;
+      padding: 0;
       border: none;
       border-radius: 8px;
       box-shadow: 0 8px 24px rgba(0,0,0,0.2);
-      padding: 0;
-      width: min(90vw, 600px);
-      max-height: 90vh;
     }
 
     .format-ref-dialog::backdrop {
@@ -1337,27 +1337,27 @@
       align-items: center;
       justify-content: space-between;
       padding: 12px 16px;
-      border-bottom: 1px solid #e0e0e0;
       background: #fafafa;
+      border-bottom: 1px solid #e0e0e0;
     }
 
     .format-ref-header h3 {
-      font-size: 14px;
       margin: 0;
+      font-size: 14px;
     }
 
     .format-ref-body {
+      max-height: calc(90vh - 60px);
       padding: 16px;
       overflow-y: auto;
-      max-height: calc(90vh - 60px);
     }
 
     .format-ref-body h4 {
+      margin-top: 16px;
+      margin-bottom: 6px;
       font-size: 13px;
       font-weight: 600;
       color: #333;
-      margin-top: 16px;
-      margin-bottom: 6px;
     }
 
     .format-ref-body h4:first-child {
@@ -1366,37 +1366,37 @@
 
     .format-ref-body table {
       width: 100%;
-      border-collapse: collapse;
-      font-size: 12px;
       margin-bottom: 12px;
+      font-size: 12px;
+      border-collapse: collapse;
     }
 
     .format-ref-body th {
-      text-align: left;
       padding: 4px 8px;
-      background: #f3f4f6;
       font-weight: 600;
+      text-align: left;
+      background: #f3f4f6;
       border-bottom: 1px solid #e0e0e0;
     }
 
     .format-ref-body td {
       padding: 4px 8px;
-      border-bottom: 1px solid #f0f0f0;
       vertical-align: top;
+      border-bottom: 1px solid #f0f0f0;
     }
 
     .format-ref-body code {
-      background: #f3f4f6;
       padding: 1px 4px;
-      border-radius: 3px;
-      font-size: 11px;
       font-family: monospace;
+      font-size: 11px;
       word-break: break-all;
+      background: #f3f4f6;
+      border-radius: 3px;
     }
 
     .format-ref-body .example-render {
-      font-size: 13px;
       padding: 2px 0;
+      font-size: 13px;
     }
 
     /* --- Entry Header Links --- */
@@ -1408,14 +1408,14 @@
 
     .entry-header-links a,
     .entry-header-links button {
+      padding: 0;
+      font-family: inherit;
       font-size: 12px;
       color: #2563eb;
       text-decoration: none;
+      cursor: pointer;
       background: none;
       border: none;
-      cursor: pointer;
-      padding: 0;
-      font-family: inherit;
     }
 
     .entry-header-links a:hover,
@@ -1425,8 +1425,8 @@
 
     /* --- Abbreviations Editor --- */
     .abbr-container {
-      padding: 16px;
       max-width: 800px;
+      padding: 16px;
     }
 
     .abbr-sub-tabs {
@@ -1437,12 +1437,12 @@
 
     .abbr-sub-tab {
       padding: 8px 20px;
-      border: 1px solid #d1d5db;
-      background: #fff;
       font-size: 13px;
       font-weight: 500;
-      cursor: pointer;
       color: #666;
+      cursor: pointer;
+      background: #fff;
+      border: 1px solid #d1d5db;
     }
 
     .abbr-sub-tab:first-child {
@@ -1450,13 +1450,13 @@
     }
 
     .abbr-sub-tab:last-child {
-      border-radius: 0 4px 4px 0;
       border-left: none;
+      border-radius: 0 4px 4px 0;
     }
 
     .abbr-sub-tab.active {
-      background: #2563eb;
       color: #fff;
+      background: #2563eb;
       border-color: #2563eb;
     }
 
@@ -1478,9 +1478,9 @@
     .abbr-search {
       flex: 1;
       padding: 6px 10px;
+      font-size: 13px;
       border: 1px solid #d1d5db;
       border-radius: 4px;
-      font-size: 13px;
     }
 
     .abbr-search:focus {
@@ -1490,19 +1490,19 @@
     }
 
     .abbr-list {
+      overflow: hidden;
       background: #fff;
       border-radius: 6px;
       box-shadow: 0 1px 3px rgba(0,0,0,0.08);
-      overflow: hidden;
     }
 
     .abbr-row {
       display: flex;
-      align-items: center;
       gap: 8px;
+      align-items: center;
       padding: 6px 12px;
-      border-bottom: 1px solid #f0f0f0;
       font-size: 13px;
+      border-bottom: 1px solid #f0f0f0;
     }
 
     .abbr-row:last-child {
@@ -1510,19 +1510,19 @@
     }
 
     .abbr-row .abbr-key {
-      font-weight: 700;
+      flex-shrink: 0;
       min-width: 120px;
       font-size: 13px;
-      flex-shrink: 0;
+      font-weight: 700;
       word-break: break-all;
     }
 
     .abbr-row input {
       flex: 1;
       padding: 4px 6px;
+      font-size: 12px;
       border: 1px solid #e5e7eb;
       border-radius: 3px;
-      font-size: 12px;
     }
 
     .abbr-row input:focus {
@@ -1531,14 +1531,14 @@
     }
 
     .abbr-row .abbr-del-btn {
+      flex-shrink: 0;
       padding: 2px 6px;
-      border: none;
-      background: none;
-      color: #dc2626;
-      cursor: pointer;
       font-size: 14px;
       font-weight: 700;
-      flex-shrink: 0;
+      color: #dc2626;
+      cursor: pointer;
+      background: none;
+      border: none;
     }
 
     .abbr-row .abbr-del-btn:hover {
@@ -1550,12 +1550,12 @@
       width: 100%;
       min-height: 500px;
       padding: 12px;
-      border: 1px solid #d1d5db;
-      border-radius: 6px;
       font-family: monospace;
       font-size: 13px;
       line-height: 1.6;
       resize: vertical;
+      border: 1px solid #d1d5db;
+      border-radius: 6px;
     }
 
     .abbr-he-textarea:focus {
@@ -1566,9 +1566,9 @@
 
     .abbr-empty {
       padding: 24px;
-      text-align: center;
-      color: #999;
       font-size: 13px;
+      color: #999;
+      text-align: center;
     }
 
     /* --- Sages Editor --- */
@@ -1580,27 +1580,27 @@
     }
 
     .sages-sidebar {
-      border-right: 1px solid #e0e0e0;
-      background: #fff;
       display: flex;
       flex-direction: column;
       overflow: hidden;
+      background: #fff;
+      border-right: 1px solid #e0e0e0;
     }
 
     .sages-sidebar-header {
-      padding: 12px;
-      border-bottom: 1px solid #e0e0e0;
       display: flex;
       flex-direction: column;
       gap: 8px;
+      padding: 12px;
+      border-bottom: 1px solid #e0e0e0;
     }
 
     .sages-sidebar-header input {
       width: 100%;
       padding: 6px 10px;
+      font-size: 13px;
       border: 1px solid #d1d5db;
       border-radius: 4px;
-      font-size: 13px;
     }
 
     .sages-sidebar-header input:focus {
@@ -1615,13 +1615,13 @@
     }
 
     .sage-list-item {
-      padding: 8px 12px;
-      border-bottom: 1px solid #f0f0f0;
-      cursor: pointer;
-      font-size: 13px;
       display: flex;
-      align-items: center;
       gap: 8px;
+      align-items: center;
+      padding: 8px 12px;
+      font-size: 13px;
+      cursor: pointer;
+      border-bottom: 1px solid #f0f0f0;
       transition: background 0.1s;
     }
 
@@ -1635,57 +1635,57 @@
     }
 
     .sage-list-item .sage-name-en {
-      font-weight: 500;
       flex: 1;
       min-width: 0;
       overflow: hidden;
       text-overflow: ellipsis;
+      font-weight: 500;
       white-space: nowrap;
     }
 
     .sage-list-item .sage-name-he {
+      flex-shrink: 0;
       font-family: "SBL Hebrew", "Ezra SIL", serif;
       font-size: 14px;
-      direction: rtl;
       color: #555;
-      flex-shrink: 0;
+      direction: rtl;
     }
 
     .sage-list-item .sage-era-badge {
+      flex-shrink: 0;
+      padding: 1px 5px;
       font-size: 10px;
       font-weight: 600;
-      padding: 1px 5px;
       border-radius: 99px;
-      flex-shrink: 0;
     }
 
-    .sage-era-tanna { background: #dbeafe; color: #1e40af; }
-    .sage-era-amorai { background: #fce7f3; color: #9d174d; }
+    .sage-era-tanna { color: #1e40af; background: #dbeafe; }
+    .sage-era-amorai { color: #9d174d; background: #fce7f3; }
 
     .sage-list-item .sage-gen {
+      flex-shrink: 0;
       font-size: 10px;
       color: #888;
-      flex-shrink: 0;
     }
 
     .sage-list-item .sage-dirty-dot {
+      flex-shrink: 0;
       width: 6px;
       height: 6px;
-      border-radius: 50%;
       background: #f59e0b;
-      flex-shrink: 0;
+      border-radius: 50%;
     }
 
     .sages-detail {
-      overflow-y: auto;
       padding: 16px;
+      overflow-y: auto;
     }
 
     .sages-detail-empty {
       padding: 48px;
-      text-align: center;
-      color: #999;
       font-size: 15px;
+      color: #999;
+      text-align: center;
     }
 
     .sage-detail-layout {
@@ -1695,10 +1695,10 @@
     }
 
     .sage-card-preview {
+      padding: 20px;
       background: #fff;
       border-radius: 6px;
       box-shadow: 0 1px 3px rgba(0,0,0,0.08);
-      padding: 20px;
     }
 
     .sage-card-preview .sage-card-name-he {
@@ -1709,48 +1709,48 @@
     }
 
     .sage-card-preview .sage-card-name-en {
+      margin-bottom: 8px;
       font-size: 18px;
       font-weight: 600;
       color: #333;
-      margin-bottom: 8px;
     }
 
     .sage-card-preview .sage-card-dates {
+      margin-bottom: 6px;
       font-size: 13px;
       color: #666;
-      margin-bottom: 6px;
     }
 
     .sage-card-preview .sage-card-meta {
       display: flex;
+      flex-wrap: wrap;
       gap: 6px;
       align-items: center;
       margin-bottom: 10px;
-      flex-wrap: wrap;
     }
 
     .sage-card-preview .sage-card-bio {
-      font-size: 13px;
-      color: #555;
-      line-height: 1.5;
       margin-bottom: 12px;
+      font-size: 13px;
+      line-height: 1.5;
+      color: #555;
     }
 
     .sage-card-preview .sage-card-relationships {
-      border-top: 1px solid #f0f0f0;
       padding-top: 10px;
+      border-top: 1px solid #f0f0f0;
     }
 
     .sage-card-preview .sage-card-relationships h4 {
+      margin-bottom: 6px;
       font-size: 12px;
       font-weight: 600;
       color: #666;
-      margin-bottom: 6px;
     }
 
     .sage-card-rel-item {
-      font-size: 13px;
       padding: 2px 0;
+      font-size: 13px;
     }
 
     .sage-card-rel-item .rel-type {
@@ -1761,8 +1761,8 @@
 
     .sage-card-rel-item .rel-target-link {
       color: #2563eb;
-      cursor: pointer;
       text-decoration: underline;
+      cursor: pointer;
     }
 
     .sage-card-rel-item .rel-target-link:hover {
@@ -1770,18 +1770,18 @@
     }
 
     .sage-edit-area {
+      padding: 16px;
       background: #fff;
       border-radius: 6px;
       box-shadow: 0 1px 3px rgba(0,0,0,0.08);
-      padding: 16px;
     }
 
     .sage-edit-header {
       display: flex;
       align-items: center;
       justify-content: space-between;
-      margin-bottom: 12px;
       padding-bottom: 8px;
+      margin-bottom: 12px;
       border-bottom: 1px solid #e0e0e0;
     }
 
@@ -1796,34 +1796,34 @@
     }
 
     .sage-rel-editor {
+      padding-top: 12px;
       margin-top: 12px;
       border-top: 1px solid #e0e0e0;
-      padding-top: 12px;
     }
 
     .sage-rel-editor h4 {
+      margin-bottom: 8px;
       font-size: 12px;
       font-weight: 600;
       color: #666;
-      margin-bottom: 8px;
     }
 
     .sage-rel-row {
       display: flex;
-      align-items: center;
       gap: 6px;
+      align-items: center;
       padding: 4px 0;
       font-size: 13px;
     }
 
     .sage-rel-row .rel-remove-btn {
-      border: none;
-      background: none;
-      color: #dc2626;
-      cursor: pointer;
+      padding: 0 4px;
       font-size: 14px;
       font-weight: 700;
-      padding: 0 4px;
+      color: #dc2626;
+      cursor: pointer;
+      background: none;
+      border: none;
     }
 
     .sage-rel-row .rel-remove-btn:hover {
@@ -1834,14 +1834,14 @@
     .sage-rel-add-form {
       display: flex;
       gap: 6px;
-      margin-top: 8px;
       align-items: center;
+      margin-top: 8px;
     }
 
     .sage-rel-add-form select,
     .sage-rel-add-form input {
-      font-size: 12px;
       padding: 4px 6px;
+      font-size: 12px;
       border: 1px solid #d1d5db;
       border-radius: 4px;
     }
@@ -1863,14 +1863,14 @@
       top: 100%;
       left: 0;
       z-index: 200;
+      display: none;
+      width: 200px;
+      max-height: 180px;
+      overflow-y: auto;
       background: #fff;
       border: 1px solid #d1d5db;
       border-radius: 4px;
       box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-      max-height: 180px;
-      overflow-y: auto;
-      width: 200px;
-      display: none;
     }
 
     .sage-rel-dropdown.open {
@@ -1879,8 +1879,8 @@
 
     .sage-rel-dropdown-item {
       padding: 6px 10px;
-      cursor: pointer;
       font-size: 12px;
+      cursor: pointer;
     }
 
     .sage-rel-dropdown-item:hover {
@@ -1888,14 +1888,14 @@
     }
 
     .btn-danger {
-      background: #dc2626;
-      color: #fff;
-      border: none;
       padding: 4px 14px;
-      border-radius: 4px;
       font-size: 12px;
       font-weight: 600;
+      color: #fff;
       cursor: pointer;
+      background: #dc2626;
+      border: none;
+      border-radius: 4px;
     }
 
     .btn-danger:hover {
@@ -1904,15 +1904,15 @@
 
     /* --- Claude Research Panel --- */
     .sage-research-panel {
+      padding-top: 12px;
       margin-top: 16px;
       border-top: 1px solid #e0e0e0;
-      padding-top: 12px;
     }
 
     .sage-research-panel .research-status {
+      padding: 8px 0;
       font-size: 13px;
       color: #666;
-      padding: 8px 0;
     }
 
     .sage-research-panel .research-status.error {
@@ -1923,12 +1923,12 @@
       display: inline-block;
       width: 14px;
       height: 14px;
+      margin-right: 6px;
+      vertical-align: middle;
       border: 2px solid #d1d5db;
       border-top-color: #2563eb;
       border-radius: 50%;
       animation: spin 0.6s linear infinite;
-      vertical-align: middle;
-      margin-right: 6px;
     }
 
     @keyframes spin {
@@ -1936,27 +1936,27 @@
     }
 
     .research-suggestion-card {
+      padding: 10px 12px;
+      margin-bottom: 8px;
       background: #f9fafb;
       border: 1px solid #e5e7eb;
       border-radius: 6px;
-      padding: 10px 12px;
-      margin-bottom: 8px;
     }
 
     .research-suggestion-card .suggestion-type {
+      margin-bottom: 4px;
       font-size: 11px;
       font-weight: 600;
       color: #666;
       text-transform: uppercase;
       letter-spacing: 0.3px;
-      margin-bottom: 4px;
     }
 
     .research-suggestion-card .suggestion-content {
-      font-size: 13px;
-      color: #333;
       margin-bottom: 8px;
+      font-size: 13px;
       line-height: 1.5;
+      color: #333;
     }
 
     .research-suggestion-card .suggestion-actions {
@@ -1966,16 +1966,16 @@
 
     .research-suggestion-card .suggestion-actions button {
       padding: 3px 10px;
-      border-radius: 4px;
       font-size: 11px;
       font-weight: 600;
       cursor: pointer;
       border: none;
+      border-radius: 4px;
     }
 
     .btn-accept {
-      background: #16a34a;
       color: #fff;
+      background: #16a34a;
     }
 
     .btn-accept:hover {
@@ -1983,8 +1983,8 @@
     }
 
     .btn-reject {
-      background: #e5e7eb;
       color: #4b5563;
+      background: #e5e7eb;
     }
 
     .btn-reject:hover {
@@ -2003,39 +2003,39 @@
     }
 
     .stat-card {
+      padding: 16px;
       background: #fff;
       border-radius: 6px;
       box-shadow: 0 1px 3px rgba(0,0,0,0.08);
-      padding: 16px;
     }
 
     .stat-card .stat-label {
+      margin-bottom: 6px;
       font-size: 12px;
       font-weight: 600;
       color: #666;
       text-transform: uppercase;
       letter-spacing: 0.3px;
-      margin-bottom: 6px;
     }
 
     .stat-card .stat-value {
+      margin-bottom: 6px;
       font-size: 28px;
       font-weight: 700;
       color: #333;
-      margin-bottom: 6px;
     }
 
     .stat-card .stat-sub {
+      margin-bottom: 8px;
       font-size: 12px;
       color: #888;
-      margin-bottom: 8px;
     }
 
     .stat-bar {
       height: 8px;
+      overflow: hidden;
       background: #e5e7eb;
       border-radius: 4px;
-      overflow: hidden;
     }
 
     .stat-bar-fill {
@@ -2056,8 +2056,8 @@
     .stat-card .stat-breakdown-item {
       display: flex;
       justify-content: space-between;
-      font-size: 12px;
       padding: 2px 0;
+      font-size: 12px;
       color: #555;
     }
 
@@ -2071,38 +2071,38 @@
     }
 
     .build-card {
+      max-width: 720px;
+      padding: 16px 20px;
       background: #fff;
       border-radius: 6px;
       box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
-      padding: 16px 20px;
-      max-width: 720px;
     }
 
     .build-card-head h2 {
+      margin-bottom: 6px;
       font-size: 16px;
       font-weight: 600;
       color: #333;
-      margin-bottom: 6px;
     }
 
     .build-card-sub {
-      font-size: 13px;
-      color: #555;
-      line-height: 1.5;
       margin-bottom: 12px;
+      font-size: 13px;
+      line-height: 1.5;
+      color: #555;
     }
 
     .build-card-sub code {
-      background: #f3f4f6;
       padding: 1px 5px;
-      border-radius: 3px;
       font-size: 12px;
+      background: #f3f4f6;
+      border-radius: 3px;
     }
 
     .build-card-actions {
       display: flex;
-      align-items: center;
       gap: 12px;
+      align-items: center;
     }
 
     .build-status {
@@ -2119,33 +2119,33 @@
     }
 
     .build-log {
-      margin-top: 12px;
+      max-height: 240px;
       padding: 10px 12px;
-      background: #111827;
-      color: #f3f4f6;
+      margin-top: 12px;
+      overflow: auto;
       font-size: 12px;
       line-height: 1.5;
-      border-radius: 4px;
-      max-height: 240px;
-      overflow: auto;
+      color: #f3f4f6;
       white-space: pre-wrap;
+      background: #111827;
+      border-radius: 4px;
     }
 
     /* --- Toast --- */
     .toast {
       position: fixed;
-      bottom: 20px;
       right: 20px;
-      background: #1f2937;
-      color: #fff;
-      padding: 10px 18px;
-      border-radius: 6px;
-      font-size: 13px;
-      box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+      bottom: 20px;
       z-index: 1000;
-      transition: opacity 0.3s, transform 0.3s;
+      padding: 10px 18px;
+      font-size: 13px;
+      color: #fff;
+      background: #1f2937;
+      border-radius: 6px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.15);
       opacity: 0;
       transform: translateY(10px);
+      transition: opacity 0.3s, transform 0.3s;
     }
 
     .toast.visible {
@@ -2363,7 +2363,7 @@
     </div>
   </dialog>
 
-  <script>
+  <script>'use strict';
     // --- State ---
     const state = {
       entries: [],
@@ -2717,7 +2717,7 @@
             frag.appendChild(grammarSection);
           } else if (sense.d) {
             if (sense.n) {
-              const cleanNumber = sense.n.replace(/^[—-]\s*/, "");
+              const cleanNumber = sense.n.replace(/^[—-]\s*/u, "");
               const senseDiv = document.createElement("div");
               senseDiv.className = "sense sense-numbered";
 
@@ -2946,7 +2946,7 @@
             lbl.textContent = label;
             labelRow.appendChild(lbl);
             // Delete button for top-level senses only (path like "0.d", not nested)
-            const topIdx = parseInt(path.split('.')[0], 10);
+            const topIdx = Number.parseInt(path.split('.')[0], 10);
             if (!(indented || Number.isNaN(topIdx))) {
               const delBtn = document.createElement("button");
               delBtn.type = "button";
@@ -3042,7 +3042,7 @@
       const input = document.createElement("input");
       input.type = "number";
       input.name = name;
-      input.value = value != null ? value : "";
+      input.value = value == null ? "" : value;
       input.addEventListener("input", onFieldInput);
       group.appendChild(input);
       return group;
@@ -3106,7 +3106,7 @@
             }
           }
         } else if (s.d != null) {
-          const numLabel = s.n ? s.n.replace(/\)\s*$/, ")").trim() : "";
+          const numLabel = s.n ? s.n.replace(/\)\s*$/u, ")").trim() : "";
           result.push({
             label: numLabel ? `Sense ${numLabel}` : `Sense ${idx}`,
             path: `${path}.d`,
@@ -3157,7 +3157,7 @@
 
       // Page
       const p = form.querySelector('[name="p"]');
-      if (p) { entry.p = p.value !== "" ? Number(p.value) : undefined; }
+      if (p) { entry.p = p.value === "" ? undefined : Number(p.value); }
 
       // Column
       const col = form.querySelector('[name="col"]');
@@ -3289,7 +3289,7 @@
     }
 
     function jumpFromHash() {
-      const m = location.hash.match(/^#rid:(.+)$/);
+      const m = location.hash.match(/^#rid:(.+)$/u);
       if (!m) { return; }
       const rid = decodeURIComponent(m[1]);
       const idx = state.entries.findIndex(e => e.id === rid);
@@ -3610,8 +3610,7 @@
       for (const t of ANNOTATION_TYPES) { counts[t] = 0; }
       for (const annotations of Object.values(state.annotations)) {
         for (const ann of annotations) {
-          if (counts[ann.type] !== undefined) { counts[ann.type]++; }
-          else { counts[ann.type] = 1; }
+          if (counts[ann.type] === undefined) { counts[ann.type] = 1; } else { counts[ann.type]++; }
         }
       }
       return counts;
@@ -3633,7 +3632,7 @@
           if (!activeTypes.has(ann.type)) { continue; }
           if (searchText && !ann.note.toLowerCase().includes(searchText)) { continue; }
           const entryIdx = state.entries.findIndex(e => e.id === rid);
-          const hw = entryIdx !== -1 ? state.entries[entryIdx].hw : '?';
+          const hw = entryIdx === -1 ? '?' : state.entries[entryIdx].hw;
           results.push({ rid, hw, entryIdx, annIndex: i, ...ann });
         }
       }
@@ -3913,13 +3912,13 @@
 
     async function runAutoScan() {
       // Notes produced by auto-scan — clear before re-scanning so stale findings don't persist
-      const AUTO_NOTES = new Set([
+      const AutoNotes = new Set([
         'Column not mapped',
         'Unresolved headword link pattern',
         'Nested <a> tags detected in definition',
       ]);
       for (const rid of Object.keys(state.annotations)) {
-        state.annotations[rid] = state.annotations[rid].filter(a => !AUTO_NOTES.has(a.note));
+        state.annotations[rid] = state.annotations[rid].filter(a => !AutoNotes.has(a.note));
         if (state.annotations[rid].length === 0) { delete state.annotations[rid]; }
       }
 
@@ -3948,13 +3947,13 @@
           const allDefs = collectDefinitions(entry.c.s);
           for (const def of allDefs) {
             // Unresolved word-link patterns
-            if (!hasAnnotationType('word-link') && def.match(/href=["'][^"']*#headword[^"']*["']/)) {
+            if (!hasAnnotationType('word-link') && def.match(/href=["'][^"']*#headword[^"']*["']/u)) {
               addAnnotation('word-link', 'Unresolved headword link pattern');
               break;
             }
 
             // Nested <a> tags (ensure no </a> between two opening <a> tags)
-            if (!hasAnnotationType('data-quality') && def.match(/<a[\s>](?:[^>]*>)(?:(?!<\/a>).)*<a[\s>]/)) {
+            if (!hasAnnotationType('data-quality') && def.match(/<a[\s>](?:[^>]*>)(?:(?!<\/a>).)*<a[\s>]/u)) {
               addAnnotation('data-quality', 'Nested <a> tags detected in definition');
               break;
             }
@@ -3965,7 +3964,7 @@
       await saveAnnotations();
       renderIssuesTab();
       updateNavigation();
-      showToast(`Found ${newCount} new issue${newCount !== 1 ? 's' : ''}`);
+      showToast(`Found ${newCount} new issue${newCount === 1 ? '' : 's'}`);
     }
 
     function collectDefinitions(senses) {
@@ -3985,7 +3984,7 @@
       for (const key of issuesSelectedSet) {
         const [rid, idxStr] = key.split(':');
         if (!byRid[rid]) { byRid[rid] = []; }
-        byRid[rid].push(parseInt(idxStr, 10));
+        byRid[rid].push(Number.parseInt(idxStr, 10));
       }
 
       for (const [rid, indices] of Object.entries(byRid)) {
@@ -4014,7 +4013,7 @@
 
       for (const key of issuesSelectedSet) {
         const [rid, idxStr] = key.split(':');
-        const idx = parseInt(idxStr, 10);
+        const idx = Number.parseInt(idxStr, 10);
         if (state.annotations[rid]?.[idx]) {
           state.annotations[rid][idx].type = newType;
         }
@@ -4187,7 +4186,7 @@
 
     // --- Page Mapper ---
     function getFirstLetter(hw) {
-      return hw.replace(/[\s*\u00B2\u00B3\u2070-\u2079\u00B9²³⁴⁵⁶⁷⁸⁹]/g, '').charAt(0);
+      return hw.replace(/[\s*\u00B2\u00B3\u2070-\u2079\u00B9²³⁴⁵⁶⁷⁸⁹]/gu, '').charAt(0);
     }
 
     function initMapper() {
@@ -4350,7 +4349,7 @@
     }
 
     document.getElementById('mapper-letter-confirm').addEventListener('click', () => {
-      const page = parseInt(document.getElementById('mapper-letter-page').value, 10);
+      const page = Number.parseInt(document.getElementById('mapper-letter-page').value, 10);
       if (!Number.isNaN(page) && page > 0) {
         state.mapper.currentPage = page;
         state.mapper.currentColumn = 'a';
@@ -4631,8 +4630,8 @@
       const dates = sage.dates || {};
       const dateRow = document.createElement('div');
       dateRow.className = 'field-row';
-      dateRow.appendChild(makeSageField('number', 'sage-born', 'Born (neg=BCE)', dates.born != null ? dates.born : ''));
-      dateRow.appendChild(makeSageField('number', 'sage-died', 'Died (neg=BCE)', dates.died != null ? dates.died : ''));
+      dateRow.appendChild(makeSageField('number', 'sage-born', 'Born (neg=BCE)', dates.born == null ? '' : dates.born));
+      dateRow.appendChild(makeSageField('number', 'sage-died', 'Died (neg=BCE)', dates.died == null ? '' : dates.died));
       form.appendChild(dateRow);
 
       const approxGroup = document.createElement('div');
@@ -4772,13 +4771,13 @@
       sage.name.he = document.getElementById('sage-name-he')?.value || '';
       sage.era = document.getElementById('sage-era')?.value || 'tanna';
       const genVal = document.getElementById('sage-generation')?.value;
-      sage.generation = genVal !== '' ? Number(genVal) : undefined;
+      sage.generation = genVal === '' ? undefined : Number(genVal);
 
       const bornVal = document.getElementById('sage-born')?.value;
       const diedVal = document.getElementById('sage-died')?.value;
       sage.dates = {
-        born: bornVal !== '' ? Number(bornVal) : undefined,
-        died: diedVal !== '' ? Number(diedVal) : undefined,
+        born: bornVal === '' ? undefined : Number(bornVal),
+        died: diedVal === '' ? undefined : Number(diedVal),
         approximate: document.getElementById('sage-approximate')?.checked,
       };
 
@@ -5064,7 +5063,7 @@
     document.getElementById('sages-add-btn').addEventListener('click', () => {
       const id = prompt('Sage ID (e.g. rabbi-akiva):');
       if (!(id?.trim())) { return; }
-      const trimmedId = id.trim().toLowerCase().replace(/\s+/g, '-');
+      const trimmedId = id.trim().toLowerCase().replace(/\s+/gu, '-');
       if (state.sages.some(s => s.id === trimmedId)) {
         showToast('Sage ID already exists');
         return;
@@ -5079,7 +5078,7 @@
         id: trimmedId,
         name: { en: nameEn.trim(), he: nameHe.trim() },
         era: era.trim(),
-        generation: parseInt(gen, 10) || 1,
+        generation: Number.parseInt(gen, 10) || 1,
         dates: { approximate: true },
         location: 'israel',
         locations: [],

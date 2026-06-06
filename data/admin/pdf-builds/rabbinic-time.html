@@ -66,22 +66,22 @@
   }
 
   html, body {
-    margin: 0;
     padding: 0;
+    margin: 0;
     font-family: var(--wa-font-family-body);
     color: var(--wa-color-text-default);
-    background: #ffffff;
     -webkit-print-color-adjust: exact;
     print-color-adjust: exact;
+    background: #ffffff;
   }
 
   /* The render-stage hosts the live JS render. Its outputs are cloned into print pages. */
   #render-stage {
     position: absolute;
-    left: -10000px;
     top: 0;
-    width: 1100px;
+    left: -10000px;
     visibility: hidden;
+    width: 1100px;
   }
 
   .page {
@@ -97,15 +97,15 @@
     display: flex;
     align-items: baseline;
     justify-content: space-between;
-    border-bottom: 2px solid #1d1d20;
     padding-bottom: 6px;
     margin-bottom: 14px;
+    border-bottom: 2px solid #1d1d20;
   }
   .page-head h1 {
-    font-family: var(--wa-font-family-heading);
-    font-weight: 700;
-    font-size: 22px;
     margin: 0;
+    font-family: var(--wa-font-family-heading);
+    font-size: 22px;
+    font-weight: 700;
     color: #1d1d20;
   }
   .page-head .heb {
@@ -118,23 +118,23 @@
     font-family: var(--wa-font-family-heading);
     font-size: 9.5px;
     color: var(--wa-color-text-subtle);
-    letter-spacing: 0.04em;
     text-transform: uppercase;
+    letter-spacing: 0.04em;
   }
 
   .page-title {
-    font-family: var(--wa-font-family-heading);
-    font-weight: 600;
-    font-size: 15px;
-    color: #247BA0;
     margin: 0 0 6px;
+    font-family: var(--wa-font-family-heading);
+    font-size: 15px;
+    font-weight: 600;
+    color: #247BA0;
   }
   .page-lead {
-    font-size: 11px;
-    color: var(--wa-color-text-subtle);
-    margin: 0 0 10px;
-    line-height: 1.5;
     max-width: 1000px;
+    margin: 0 0 10px;
+    font-size: 11px;
+    line-height: 1.5;
+    color: var(--wa-color-text-subtle);
   }
 
   /* Page 1: timeline */
@@ -143,34 +143,34 @@
     margin: 0 0 12px;
   }
   .timeline-wrap svg {
+    display: block;
     width: 100%;
     height: auto;
-    display: block;
   }
   .legend-row {
     display: flex;
     flex-wrap: wrap;
     gap: 14px;
+    margin-bottom: 8px;
     font-family: var(--wa-font-family-heading);
     font-size: 10px;
-    margin-bottom: 8px;
     color: var(--wa-color-text-default);
   }
   .legend-row .swatch-dot {
     display: inline-block;
     width: 9px;
     height: 9px;
-    border-radius: 50%;
     margin-right: 4px;
     vertical-align: middle;
+    border-radius: 50%;
   }
   .legend-row .swatch-box {
     display: inline-block;
     width: 14px;
     height: 9px;
-    border-radius: 2px;
     margin-right: 4px;
     vertical-align: middle;
+    border-radius: 2px;
   }
 
   .twocol {
@@ -179,13 +179,13 @@
     gap: 14px;
   }
   .infobox {
-    background: var(--wa-color-surface-lowered);
-    border: 1px solid var(--wa-color-border-default);
-    border-radius: 6px;
     padding: 8px 11px;
     font-size: 10.5px;
     line-height: 1.55;
     color: var(--wa-color-text-subtle);
+    background: var(--wa-color-surface-lowered);
+    border: 1px solid var(--wa-color-border-default);
+    border-radius: 6px;
   }
   .infobox b {
     color: var(--wa-color-text-default);
@@ -195,62 +195,62 @@
   /* Reference table — print version */
   .ref-table {
     width: 100%;
-    border-collapse: collapse;
     font-size: 10px;
     table-layout: fixed;
+    border-collapse: collapse;
   }
   .ref-table col.col-term { width: 22%; }
   .ref-table col.col-when { width: 22%; }
   .ref-table col.col-note { width: 56%; }
   .ref-table thead th {
-    text-align: left;
+    padding: 5px 8px;
     font-family: var(--wa-font-family-heading);
+    font-size: 9.5px;
     font-weight: 600;
     color: #247BA0;
-    font-size: 9.5px;
+    text-align: left;
     text-transform: uppercase;
     letter-spacing: 0.05em;
-    padding: 5px 8px;
     border-bottom: 1.5px solid #1d1d20;
   }
   .ref-table tbody tr.section-head td {
+    padding: 7px 8px 3px;
     font-family: var(--wa-font-family-heading);
     font-size: 9.5px;
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 0.07em;
-    padding: 7px 8px 3px;
-    border-bottom: 1px solid var(--wa-color-border-default);
     background: var(--wa-color-surface-lowered);
+    border-bottom: 1px solid var(--wa-color-border-default);
   }
   .ref-table tbody tr.entry { page-break-inside: avoid; break-inside: avoid; }
   .ref-table tbody tr.entry td {
     padding: 4px 8px;
-    border-bottom: 0.5px solid var(--wa-color-border-default);
-    vertical-align: top;
     line-height: 1.4;
+    vertical-align: top;
+    border-bottom: 0.5px solid var(--wa-color-border-default);
   }
   .ref-table .name {
-    font-family: var(--wa-font-family-heading);
-    font-weight: 600;
-    font-size: 10.5px;
     display: block;
     margin-bottom: 0px;
+    font-family: var(--wa-font-family-heading);
+    font-size: 10.5px;
+    font-weight: 600;
   }
   .ref-table .heb {
-    font-family: 'Frank Ruhl Libre', 'SBL Hebrew', 'Ezra SIL', 'Times New Roman', serif;
-    font-size: 12.5px;
-    direction: rtl;
     display: block;
     margin: 0;
+    font-family: 'Frank Ruhl Libre', 'SBL Hebrew', 'Ezra SIL', 'Times New Roman', serif;
+    font-size: 12.5px;
     line-height: 1.15;
+    direction: rtl;
   }
   .ref-table .trans {
-    font-style: italic;
-    font-size: 9px;
-    color: var(--wa-color-text-subtle);
     display: block;
+    font-size: 9px;
+    font-style: italic;
     line-height: 1.3;
+    color: var(--wa-color-text-subtle);
   }
   .ref-table .when {
     font-size: 9.5px;
@@ -258,8 +258,8 @@
   }
   .ref-table .note {
     font-size: 9.5px;
-    color: var(--wa-color-text-subtle);
     line-height: 1.45;
+    color: var(--wa-color-text-subtle);
   }
 
   /* Page 4: three clocks side by side (compact comparison) */
@@ -275,22 +275,22 @@
     break-inside: avoid;
   }
   .clock-cell h3 {
+    margin: 0 0 4px;
     font-family: var(--wa-font-family-heading);
     font-size: 13px;
-    margin: 0 0 4px;
     color: var(--wa-color-text-default);
   }
   .clock-cell .clock-meta {
-    font-size: 9.5px;
-    color: var(--wa-color-text-subtle);
     margin-bottom: 4px;
     font-family: var(--wa-font-family-heading);
+    font-size: 9.5px;
+    color: var(--wa-color-text-subtle);
   }
   .clock-cell svg {
-    width: 100%;
-    height: auto;
-    max-width: 320px;
     display: block;
+    width: 100%;
+    max-width: 320px;
+    height: auto;
     margin: 0 auto;
   }
 
@@ -307,11 +307,11 @@
     max-width: 720px;
   }
   .big-clock svg {
+    display: block;
     width: 100%;
     height: auto;
     /* Bound the height so header + lead + clock fit on one landscape Letter page */
     max-height: 5.85in;
-    display: block;
     margin: 0 auto;
   }
   .big-clock-page .page-lead {
@@ -613,7 +613,7 @@
           (once for compact 3-up page, once for the per-season big-clock page)
        5) build a print-sized monthly chart on the print canvas
      ============================================================ -->
-<script>
+<script>'use strict';
 (async () => {
   // 1. Run the existing init — this draws the timeline (all 3 seasons),
   //    the equinox clock, and (after a frame) the monthly chart.
@@ -640,7 +640,7 @@
     if (tr.classList && tr.classList.contains('rt-sh')) {
       const headTd = tr.querySelector('td');
       const headText = (headTd && headTd.textContent || '').trim();
-      if (/^Prayer Times/i.test(headText) || /^Korbanot/i.test(headText)) {
+      if (/^Prayer Times/iu.test(headText) || /^Korbanot/iu.test(headText)) {
         currentBody = bodyPrayerKorbanot;
       }
       const newTr = document.createElement('tr');
@@ -714,7 +714,7 @@
       if ((l.getAttribute('stroke') || '').includes('80,120,220')) l.remove();
     });
     compactClone.querySelectorAll('text').forEach(t => {
-      const fs = parseFloat(t.getAttribute('font-size') || '10');
+      const fs = Number.parseFloat(t.getAttribute('font-size') || '10');
       t.setAttribute('font-size', (fs * 1.4).toFixed(1));
     });
     compactClone.setAttribute('viewBox', '-30 -10 660 600');

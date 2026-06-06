@@ -513,7 +513,7 @@ class InfiniteScroll {
 		for (const el of entries) {
 			const rect = el.getBoundingClientRect();
 			if (rect.top <= viewportMid && rect.bottom >= 0) {
-				const page = parseInt(el.dataset.dictPage, 10);
+				const page = Number.parseInt(el.dataset.dictPage, 10);
 				if (page !== this.currentVisiblePage) {
 					this.currentVisiblePage = page;
 					if (this.onPageChange) {

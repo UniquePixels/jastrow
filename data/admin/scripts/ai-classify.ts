@@ -15,6 +15,7 @@
 
 import { readFileSync, writeFileSync } from 'node:fs';
 import { join } from 'node:path';
+import process from 'node:process';
 
 const DATA_DIR = join(import.meta.dir, '../..');
 const ANNOTATIONS_PATH = join(import.meta.dir, '..', 'annotations.json');
@@ -104,7 +105,7 @@ ${prompt}`,
 
 		const text =
 			response.content[0].type === 'text' ? response.content[0].text : '';
-		const jsonMatch = text.match(/\[[\s\S]*\]/);
+		const jsonMatch = text.match(/\[[\s\S]*\]/u);
 		if (!jsonMatch) {
 			console.log(`Batch ${i}: no JSON found in response`);
 			continue;

@@ -305,7 +305,7 @@ class SagesGraph {
 			(e) => filteredIds.has(e.sourceId) && filteredIds.has(e.targetId),
 		);
 
-		const REL_TYPE_MAP = {
+		const RelTypeMap = {
 			'teacher-student': new Set(['teacher', 'student']),
 			family: new Set(['father', 'son', 'wife', 'husband', 'brother-in-law']),
 			sibling: new Set(['sibling']),
@@ -313,7 +313,7 @@ class SagesGraph {
 		// Build set of allowed edge types from active relationship filters
 		const allowedTypes = new Set();
 		for (const relKey of this._activeRelTypes) {
-			const types = REL_TYPE_MAP[relKey];
+			const types = RelTypeMap[relKey];
 			if (types) {
 				for (const t of types) {
 					allowedTypes.add(t);
@@ -452,17 +452,17 @@ class SagesGraph {
 		}
 
 		// Find the bounding box of actual nodes (not the full canvas)
-		let minX = Infinity;
-		let minY = Infinity;
-		let maxX = -Infinity;
-		let maxY = -Infinity;
+		let minX = Number.POSITIVE_INFINITY;
+		let minY = Number.POSITIVE_INFINITY;
+		let maxX = Number.NEGATIVE_INFINITY;
+		let maxY = Number.NEGATIVE_INFINITY;
 		for (const [, pos] of this._positions) {
 			minX = Math.min(minX, pos.x);
 			minY = Math.min(minY, pos.y);
 			maxX = Math.max(maxX, pos.x + this.NODE_WIDTH);
 			maxY = Math.max(maxY, pos.y + this.NODE_HEIGHT);
 		}
-		if (minX === Infinity) {
+		if (minX === Number.POSITIVE_INFINITY) {
 			return; // no nodes
 		}
 
