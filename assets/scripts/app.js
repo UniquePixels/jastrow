@@ -5,14 +5,8 @@
 // Import utilities from window object (loaded via script tags in index.html)
 // Using vanilla JS pattern without build process
 const { sanitizeURL, sanitizeSearchQuery, validatePageNumber } = window;
-const {
-	PAGINATION,
-	DICTIONARY,
-	TIMEOUTS,
-	VALIDATION,
-	EXTERNAL_URLS,
-	SEARCH,
-} = window;
+const { PAGINATION, DICTIONARY, TIMEOUTS, VALIDATION, EXTERNAL_URLS, SEARCH } =
+	window;
 
 // Hoisted regexes (compiled once instead of per call).
 const NUMERIC_HASH_RE = /^\d+$/u;
@@ -1251,9 +1245,7 @@ class JastrowApp {
 			if (numberedSenses.length > 0) {
 				const childrenDiv = document.createElement('div');
 				childrenDiv.className = 'sense-children';
-				childrenDiv.appendChild(
-					this.formatSenses(numberedSenses, ''),
-				);
+				childrenDiv.appendChild(this.formatSenses(numberedSenses, ''));
 				senseGroup.appendChild(childrenDiv);
 			}
 
@@ -1305,10 +1297,7 @@ class JastrowApp {
 						const grammarSensesDiv = document.createElement('div');
 						grammarSensesDiv.className = 'grammar-senses';
 						grammarSensesDiv.appendChild(
-							this.formatSenses(
-								sense.s,
-								isFirstSense ? languageInfo : '',
-							),
+							this.formatSenses(sense.s, isFirstSense ? languageInfo : ''),
 						);
 						grammarSection.appendChild(grammarSensesDiv);
 						isFirstSense = false;

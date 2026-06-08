@@ -75,7 +75,6 @@
 				"noForIn": "on",
 				"noIdenticalTestTitle": "on",
 				"noInlineStyles": "on",
-				"noLoopFunc": "on",
 				"noMultiAssign": "on",
 				"noMultiStr": "on",
 				"noParametersOnlyUsedInRecursion": "on",
@@ -129,6 +128,7 @@
 			"style": {
 				"noCommonJs": "on",
 				"noDefaultExport": "on",
+				"noDescendingSpecificity": "off",
 				"noDoneCallback": "on",
 				"noExportedImports": "on",
 				"noInferrableTypes": "on",

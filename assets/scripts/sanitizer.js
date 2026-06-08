@@ -26,8 +26,10 @@
 	 * @param {string[]} allowedDomains - Array of allowed domain names
 	 * @returns {boolean} - True if URL is safe, false otherwise
 	 */
-	window.sanitizeURL = (url, allowedDomains = ['sefaria.org', 'archive.org']) => {
-
+	window.sanitizeURL = (
+		url,
+		allowedDomains = ['sefaria.org', 'archive.org'],
+	) => {
 		if (!url || typeof url !== 'string') {
 			return false;
 		}
@@ -64,7 +66,6 @@
 	 * @returns {Object} - { valid: boolean, query: string, error?: string }
 	 */
 	window.sanitizeSearchQuery = (query, maxLength = 100) => {
-
 		if (!query || typeof query !== 'string') {
 			return { valid: false, error: 'Empty query' };
 		}
