@@ -1677,7 +1677,7 @@ class JastrowApp {
 			if (searchValue) {
 				const displayQuery =
 					searchValue.length > 20
-						? `${searchValue.substring(0, 20)}…`
+						? `${searchValue.slice(0, 20)}…`
 						: searchValue;
 				const hashPrefix =
 					this.currentSearchMode === 'reference' ? '#ref:' : '#';
@@ -1962,7 +1962,7 @@ class JastrowApp {
 					if (abbrDialog) {
 						abbrDialog.open = false;
 					}
-					window.location.hash = link.getAttribute('href').substring(1);
+					window.location.hash = link.getAttribute('href').slice(1);
 				}
 			});
 		} catch {
