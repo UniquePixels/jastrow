@@ -1,9 +1,29 @@
 import { afterAll, beforeAll, describe, expect, it } from 'bun:test';
+import {
+	copyFileSync,
+	existsSync,
+	mkdirSync,
+	mkdtempSync,
+	rmSync,
+} from 'node:fs';
+import { tmpdir } from 'node:os';
 import { join } from 'node:path';
 import process from 'node:process';
 
 const PORT = 3334; // Use non-default port to avoid conflicts
 const BASE = `http://localhost:${PORT}`;
+
+// Data files the server reads at startup / serves; copied into an isolated
+// temp dir so the test never writes to the repo's tracked data/.
+const DATA_FILES = [
+	'jastrow-part1.jsonl',
+	'jastrow-part2.jsonl',
+	'jastrow-abbr.json',
+	'jastrow-hebrew-abbr.json',
+	'sages.json',
+];
+
+let dataDir = '';
 
 interface TestEntry {
 	hw?: string;
@@ -44,10 +64,22 @@ async function waitForServer(url: string, timeout = 10_000): Promise<void> {
 }
 
 beforeAll(async () => {
+	// Copy the live data into an isolated temp dir; the server writes there.
+	const sourceDir = join(import.meta.dir, '..');
+	dataDir = mkdtempSync(join(tmpdir(), 'jastrow-admin-test-'));
+	for (const file of DATA_FILES) {
+		const source = join(sourceDir, file);
+		if (existsSync(source)) {
+			copyFileSync(source, join(dataDir, file));
+		}
+	}
+	// handlePutAnnotations writes here; ensure the subdirectory exists.
+	mkdirSync(join(dataDir, 'admin'), { recursive: true });
+
 	serverProcess = Bun.spawn(
 		['bun', 'run', join(import.meta.dir, 'server.ts')],
 		{
-			env: { ...process.env, PORT: String(PORT) },
+			env: { ...process.env, PORT: String(PORT), JASTROW_DATA_DIR: dataDir },
 			stdout: 'pipe',
 			stderr: 'pipe',
 		},
@@ -57,6 +89,9 @@ beforeAll(async () => {
 
 afterAll(() => {
 	serverProcess.kill();
+	if (dataDir) {
+		rmSync(dataDir, { recursive: true, force: true });
+	}
 });
 
 describe('GET /api/entries', () => {

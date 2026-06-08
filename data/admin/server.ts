@@ -3,7 +3,10 @@ import { join } from 'node:path';
 import process from 'node:process';
 import { buildRabbinicTimePdf } from './pdf-builds/render-rabbinic-time.ts';
 
-const DATA_DIR = join(import.meta.dir, '..');
+// JASTROW_DATA_DIR lets tests (or alternate setups) point all data reads
+// and writes at an isolated copy instead of the repo's live data/.
+const DATA_DIR: string =
+	process.env['JASTROW_DATA_DIR'] ?? join(import.meta.dir, '..');
 const PORT = Number.parseInt(process.env['PORT'] || '3333', 10);
 
 // --- Types ---
