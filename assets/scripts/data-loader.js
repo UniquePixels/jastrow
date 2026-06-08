@@ -468,6 +468,7 @@ class JastrowDataLoader {
 				// Use existing JSONL streaming (progressCallback adapted)
 				for (let fileIndex = 0; fileIndex < this.dataUrls.length; fileIndex++) {
 					const dataUrl = this.dataUrls[fileIndex];
+					// biome-ignore lint/performance/noAwaitInLoops: files load sequentially so progress is reported in order and the merged index stays ordered
 					await this.loadFile(dataUrl, fileIndex, (percent) => {
 						if (progressCallback) {
 							progressCallback({ phase: 'download', percent });
@@ -556,6 +557,7 @@ class JastrowDataLoader {
 		const numFiles = this.dataUrls.length;
 
 		while (true) {
+			// biome-ignore lint/performance/noAwaitInLoops: stream chunks must be read sequentially
 			const { done, value } = await reader.read();
 
 			if (done) {
@@ -751,6 +753,7 @@ class JastrowDataLoader {
 		let left = 0;
 		let right = this.sortedHeadwords.length;
 		while (left < right) {
+			// biome-ignore lint/suspicious/noBitwiseOperators: unsigned right shift = floor((left+right)/2), the standard overflow-safe binary-search midpoint
 			const mid = (left + right) >>> 1;
 			if (this.sortedHeadwords[mid] < normalized) {
 				left = mid + 1;
@@ -796,6 +799,7 @@ class JastrowDataLoader {
 		let left = 0;
 		let right = this.normalizedReferences.length;
 		while (left < right) {
+			// biome-ignore lint/suspicious/noBitwiseOperators: unsigned right shift = floor((left+right)/2), the standard overflow-safe binary-search midpoint
 			const mid = (left + right) >>> 1;
 			if (this.normalizedReferences[mid] < normalized) {
 				left = mid + 1;
@@ -850,6 +854,7 @@ class JastrowDataLoader {
 		let left = 0;
 		let right = this.normalizedReferences.length;
 		while (left < right) {
+			// biome-ignore lint/suspicious/noBitwiseOperators: unsigned right shift = floor((left+right)/2), the standard overflow-safe binary-search midpoint
 			const mid = (left + right) >>> 1;
 			if (this.normalizedReferences[mid] < normalized) {
 				left = mid + 1;

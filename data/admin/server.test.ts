@@ -51,6 +51,7 @@ async function waitForServer(url: string, timeout = 10_000): Promise<void> {
 	const start = Date.now();
 	while (Date.now() - start < timeout) {
 		try {
+			// biome-ignore lint/performance/noAwaitInLoops: polling the server readiness endpoint is inherently sequential
 			const res = await fetch(url);
 			if (res.ok) {
 				return;

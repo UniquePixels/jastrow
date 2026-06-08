@@ -706,6 +706,7 @@ const KORBANOT_RE = /^Korbanot/iu;
   const liveClock = document.querySelector('#rt-clock-svg');
   for (const s of seasons) {
     document.querySelector(`#rt-c-${s}`).click();
+    // biome-ignore lint/performance/noAwaitInLoops: each clock must render frame-by-frame before the next is captured
     await new Promise(r => requestAnimationFrame(() => requestAnimationFrame(r)));
 
     // Compact-view clone: optimize for 1/3 page width

@@ -29,7 +29,9 @@ export type BuildResult = {
 };
 
 type PrintWindow = typeof globalThis & {
+	// biome-ignore lint/style/useNamingConvention: window-global signal flags polled by the Playwright build driver
 	PRINT_READY?: boolean;
+	// biome-ignore lint/style/useNamingConvention: window-global signal flags polled by the Playwright build driver
 	PRINT_ERROR?: string;
 };
 

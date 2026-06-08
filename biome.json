@@ -73,7 +73,6 @@
 				"noExcessiveSelectorClasses": "on",
 				"noForIn": "on",
 				"noIdenticalTestTitle": "on",
-				"noInlineStyles": "on",
 				"noMultiAssign": "on",
 				"noMultiStr": "on",
 				"noParametersOnlyUsedInRecursion": "on",
@@ -176,7 +175,15 @@
 					"level": "on",
 					"options": {
 						"strictCase": false,
-						"requireAscii": true
+						"requireAscii": true,
+						"conventions": [
+							{
+								"selector": {
+									"kind": "objectLiteralProperty"
+								},
+								"formats": ["camelCase", "CONSTANT_CASE"]
+							}
+						]
 					}
 				},
 				"useNodeAssertStrict": "on",

@@ -104,8 +104,10 @@ for (let i = 0; i < todo.length; i += BATCH_SIZE) {
 		.join('\n');
 
 	try {
+		// biome-ignore lint/performance/noAwaitInLoops: batches are sent sequentially to respect API rate limits (loop sleeps between batches)
 		const response = await client.messages.create({
 			model: 'claude-sonnet-4-20250514',
+			// biome-ignore lint/style/useNamingConvention: Anthropic API parameter name (snake_case)
 			max_tokens: 1024,
 			messages: [
 				{

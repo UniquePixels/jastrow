@@ -75,4 +75,11 @@ code**; a rule is only disabled with a project-specific justification.
 | `style/noMagicNumbers` | Disabled (global) | Naming every numeric literal (timeouts, pixel sizes, ranges, opacities) across UI/CSS code is heavy churn with marginal benefit. | n/a |
 | `security/noSecrets` | Disabled (global) | Static site with no client-side secrets by design; all 15 matches were CSS selectors, HTML markup, and Hebrew text (entropy false positives). | n/a |
 
-**Kept as non-gating signal (info severity, not fixed):** `noConsole` (audit), `noExcessiveCognitiveComplexity`, `noExcessiveLinesPerFunction`, `noExcessiveLinesPerFile` — flag real complexity to revisit without forcing risky refactors now.
+| `nursery/noInlineStyles` | Disabled (global) | Flagged styles are one-off decorative icon colors and layout tweaks; single-use CSS classes would be worse, not cleaner. Print build (local) uses inline styles legitimately. | n/a |
+| `nursery/noContinue` | Disabled (global) | Sites are guard clauses (`if (x) continue;`) — the clean, flat form; restructuring deepens nesting. | n/a |
+| `suspicious/noAlert`, `style/noProcessEnv`, `nursery/noSyncScripts` | Off for `data/admin/**` | Local-only admin tooling: native `alert`/`prompt`, Bun server `process.env`, and order-dependent print-build scripts. | n/a |
+| `style/useNamingConvention` | Modified + 3 suppressions | Added `objectLiteralProperty → [camelCase, CONSTANT_CASE]` so the deliberate UPPER_SNAKE config constants (and DOMPurify `ADD_TAGS` names) pass. Suppressed 3 external-protocol names (`PRINT_READY`/`PRINT_ERROR` window flags, Anthropic `max_tokens`). | inline reasons |
+| `suspicious/noBitwiseOperators`, `performance/noAwaitInLoops` | Suppressed (per-site) | Binary-search `>>> 1` midpoint; necessarily-sequential awaits (stream reads, ordered writes, rate-limited API, rAF). | inline reasons |
+| `nursery/noSyncScripts` (index.html) | Fixed (defer) | App + CDN scripts get `defer`; the two head kit loaders left synchronous (custom-element FOUC risk — needs browser check). | n/a |
+
+**Kept as non-gating signal (info severity, not fixed):** `noConsole` (audit), `noExcessiveCognitiveComplexity`, `noExcessiveLinesPerFunction`, `noExcessiveLinesPerFile`, `useBaseline` — flag real complexity / browser-compat to revisit without forcing risky changes now.

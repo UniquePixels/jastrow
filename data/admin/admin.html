@@ -4857,6 +4857,7 @@
           }
           // Save each modified sage
           for (const sage of state.sages) {
+            // biome-ignore lint/performance/noAwaitInLoops: sequential PUTs avoid racing writes to the same sages file on the local server
             await fetch(`/api/sage/${sage.id}`, {
               method: 'PUT',
               headers: { 'Content-Type': 'application/json' },
