@@ -107,7 +107,7 @@ describe('GET /api/entries', () => {
 		expect(Array.isArray(data.entries)).toBe(true);
 		expect(data.entries.length).toBeGreaterThan(0);
 
-		const first = data.entries[0];
+		const [first] = data.entries;
 		expect(first).toHaveProperty('hw');
 		expect(first).toHaveProperty('id');
 	});

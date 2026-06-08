@@ -436,8 +436,8 @@ const server = Bun.serve({
 	port: PORT,
 	fetch(req: Request): Response | Promise<Response> {
 		const url = new URL(req.url);
-		const pathname = url.pathname;
-		const method = req.method;
+		const { pathname } = url;
+		const { method } = req;
 
 		// CORS preflight
 		if (method === 'OPTIONS') {

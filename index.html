@@ -496,7 +496,7 @@
       });
 
       // Check URL hash on load
-      const hash = window.location.hash;
+      const { hash } = window.location;
       if (hash === '#guide') {
         showGuide();
       } else if (hash === '#abbreviations') {

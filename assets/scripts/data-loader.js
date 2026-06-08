@@ -412,8 +412,7 @@ class JastrowDataLoader {
 			try {
 				db = await this.openDatabase();
 				const versionCheck = await this.checkVersion(db);
-				serverVersion = versionCheck.serverVersion;
-				hadCache = versionCheck.hadCache;
+				({ serverVersion, hadCache } = versionCheck);
 
 				if (!versionCheck.needsNetwork) {
 					// Cache hit — load from IDB
@@ -524,7 +523,13 @@ class JastrowDataLoader {
 			refArray.sort((a, b) => {
 				const na = normMap.get(a);
 				const nb = normMap.get(b);
-				return na < nb ? -1 : na > nb ? 1 : 0;
+				if (na < nb) {
+					return -1;
+				}
+				if (na > nb) {
+					return 1;
+				}
+				return 0;
 			});
 			this.sortedReferences = refArray;
 			this.normalizedReferences = refArray.map((r) => normMap.get(r));

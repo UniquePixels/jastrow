@@ -2637,7 +2637,7 @@
       const frag = document.createDocumentFragment();
       if (!senses || senses.length === 0) { return frag; }
 
-      const firstSense = senses[0];
+      const [firstSense] = senses;
       const hasPrimarySense = firstSense.d && !firstSense.n && !firstSense.g;
       const hasChildren = senses.length > 1;
 
@@ -2943,8 +2943,7 @@
 
         if (senses.length > 0) {
           const flatSenses = flattenSenses(senses);
-          for (let fi = 0; fi < flatSenses.length; fi++) {
-            const { label, path, value, indented } = flatSenses[fi];
+          for (const { label, path, value, indented } of flatSenses) {
             const group = document.createElement("div");
             group.className = "field-group sense-field-group";
             const labelRow = document.createElement("div");
@@ -3929,7 +3928,7 @@
       }
 
       let newCount = 0;
-      const today = new Date().toISOString().split('T')[0];
+      const [today] = new Date().toISOString().split('T');
 
       for (const entry of state.entries) {
         const rid = entry.id;
@@ -4205,10 +4204,14 @@
         return;
       }
       const prev = firstUnmapped > 0 ? state.entries[firstUnmapped - 1] : null;
+      let currentColumn = 'a';
+      if (prev) {
+        currentColumn = prev.col === 'a' ? 'b' : 'a';
+      }
       state.mapper = {
         startIndex: firstUnmapped,
         currentPage: prev ? prev.p : 1,
-        currentColumn: prev ? (prev.col === 'a' ? 'b' : 'a') : 'a',
+        currentColumn,
         selectedIndex: null,
         batchSize: 20,
       };
@@ -5204,8 +5207,7 @@
     }
 
     function acceptResearchSuggestion(sageId, suggestion, card) {
-      const type = suggestion.type;
-      const content = suggestion.content;
+      const { type, content } = suggestion;
 
       if (type === 'bio') {
         const bioTa = document.querySelector('#sage-bio');

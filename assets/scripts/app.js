@@ -1218,7 +1218,7 @@ class JastrowApp {
 			return frag;
 		}
 
-		const firstSense = senses[0];
+		const [firstSense] = senses;
 		const hasPrimarySense = firstSense.d && !firstSense.n && !firstSense.g;
 		const hasChildren = senses.length > 1;
 
@@ -2166,11 +2166,9 @@ class JastrowApp {
 				progressEl.textContent =
 					progress.percent == null ? '' : `${Math.round(progress.percent)}%`;
 			}
-		} else {
+		} else if (progressEl) {
 			// Legacy number format fallback
-			if (progressEl) {
-				progressEl.textContent = `${Math.round(progress)}%`;
-			}
+			progressEl.textContent = `${Math.round(progress)}%`;
 		}
 	}
 

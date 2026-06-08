@@ -266,7 +266,7 @@ class TalmudSagesExplorer {
 		// Era filter handlers — multi-select toggle
 		for (const btn of this._toolbarContainer.querySelectorAll('.era-filter')) {
 			btn.addEventListener('click', () => {
-				const group = btn.dataset.group;
+				const { group } = btn.dataset;
 				if (activeGroups.has(group)) {
 					// Don't allow turning off all groups
 					if (activeGroups.size <= 1) {
@@ -287,7 +287,7 @@ class TalmudSagesExplorer {
 		// Relationship filter handlers — multi-select toggle
 		for (const btn of this._toolbarContainer.querySelectorAll('.rel-filter')) {
 			btn.addEventListener('click', () => {
-				const rel = btn.dataset.rel;
+				const { rel } = btn.dataset;
 				if (activeRelTypes.has(rel)) {
 					if (activeRelTypes.size <= 1) {
 						return;

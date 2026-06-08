@@ -21,7 +21,7 @@ const HTML = join(HERE, 'rabbinic-time.html');
 const REPO_ROOT = join(HERE, '..', '..', '..');
 const OUT = join(REPO_ROOT, 'assets', 'pdfs', 'rabbinic-time.pdf');
 
-export type BuildResult = {
+type BuildResult = {
 	bytes: number;
 	durationMs: number;
 	outPath: string;
