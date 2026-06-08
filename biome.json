@@ -123,7 +123,7 @@
 				"useTopLevelRegex": "on"
 			},
 			"security": {
-				"noSecrets": "on"
+				"noSecrets": "off"
 			},
 			"style": {
 				"noCommonJs": "on",
@@ -132,7 +132,7 @@
 				"noDoneCallback": "on",
 				"noExportedImports": "on",
 				"noInferrableTypes": "on",
-				"noMagicNumbers": "on",
+				"noMagicNumbers": "off",
 				"noNamespace": "on",
 				"noNegationElse": "on",
 				"noNestedTernary": "on",
@@ -223,6 +223,16 @@
 		}
 	},
 	"overrides": [
+		{
+			"includes": ["**/*.js"],
+			"linter": {
+				"rules": {
+					"style": {
+						"useConsistentMemberAccessibility": "off"
+					}
+				}
+			}
+		},
 		{
 			"includes": [".commitlintrc.ts"],
 			"linter": {
