@@ -61,7 +61,6 @@
 			"nursery": {
 				"noAmbiguousAnchorText": "on",
 				"noConditionalExpect": "on",
-				"noContinue": "on",
 				"noDeprecatedMediaType": "on",
 				"noDivRegex": "on",
 				"noDuplicateAttributes": "on",
@@ -250,8 +249,17 @@
 					"correctness": {
 						"noNodejsModules": "off"
 					},
+					"nursery": {
+						"noSyncScripts": "off"
+					},
 					"performance": {
 						"noDelete": "off"
+					},
+					"style": {
+						"noProcessEnv": "off"
+					},
+					"suspicious": {
+						"noAlert": "off"
 					}
 				}
 			}
