@@ -26,8 +26,7 @@
 	 * @param {string[]} allowedDomains - Array of allowed domain names
 	 * @returns {boolean} - True if URL is safe, false otherwise
 	 */
-	window.sanitizeURL = (url, allowedDomains) => {
-		allowedDomains = allowedDomains || ['sefaria.org', 'archive.org'];
+	window.sanitizeURL = (url, allowedDomains = ['sefaria.org', 'archive.org']) => {
 
 		if (!url || typeof url !== 'string') {
 			return false;
@@ -64,8 +63,7 @@
 	 * @param {number} maxLength - Maximum allowed length
 	 * @returns {Object} - { valid: boolean, query: string, error?: string }
 	 */
-	window.sanitizeSearchQuery = (query, maxLength) => {
-		maxLength = maxLength || 100;
+	window.sanitizeSearchQuery = (query, maxLength = 100) => {
 
 		if (!query || typeof query !== 'string') {
 			return { valid: false, error: 'Empty query' };
@@ -107,10 +105,7 @@
 	 * @param {number} max - Maximum valid page number
 	 * @returns {Object} - { valid: boolean, page?: number, error?: string }
 	 */
-	window.validatePageNumber = (pageNumber, min, max) => {
-		min = min || 1;
-		max = max || 1704;
-
+	window.validatePageNumber = (pageNumber, min = 1, max = 1704) => {
 		const parsed = Number.parseInt(pageNumber, 10);
 
 		if (Number.isNaN(parsed)) {

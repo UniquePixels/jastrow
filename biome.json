@@ -113,7 +113,6 @@
 				"useSpread": "on",
 				"useTestHooksInOrder": "on",
 				"useTestHooksOnTop": "on",
-				"useThisInClassMethods": "on",
 				"useUnicodeRegex": "on"
 			},
 			"performance": {

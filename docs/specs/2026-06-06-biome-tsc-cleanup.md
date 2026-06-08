@@ -66,5 +66,5 @@ code**; a rule is only disabled with a project-specific justification.
 | `style/noDefaultExport` | Off for `.commitlintrc.ts` | commitlint requires the config to be a default export. | n/a |
 | `complexity/noImportantStyles` | Suppressed (per-site) | `!important` kept only where required: `prefers-reduced-motion` a11y override and Chart.js inline-style canvas sizing. Removed where specificity already wins (rt-table header). | inline reasons |
 | `complexity/useMaxParams` | Suppressed (3 sites) | Geometry primitives `pieSeg`/`ringSeg` and a form-field factory where positional params are the natural signature. | inline reasons |
-| `nursery/useThisInClassMethods` | Fixed (made static) | Methods not using `this` converted to `static`. | n/a |
+| `nursery/useThisInClassMethods` | Disabled (global) | 11 of the flagged methods are cohesive App-class instance methods (`showError`, `updateURL`, `_shareURL`, …) called as `this.x()` throughout and likely to use `this` later. Forcing `static` rewrites every call site and hurts class cohesion for no real gain. | n/a |
 | `performance/useTopLevelRegex` | Fixed (hoisted) | Regex literals hoisted to module scope; biggest win is the per-request route table in server.ts. | n/a |

@@ -8,7 +8,6 @@ const { sanitizeURL, sanitizeSearchQuery, validatePageNumber } = window;
 const {
 	PAGINATION,
 	DICTIONARY,
-	SCROLL,
 	TIMEOUTS,
 	VALIDATION,
 	EXTERNAL_URLS,
@@ -1208,7 +1207,10 @@ class JastrowApp {
 	/**
 	 * Format senses as DOM nodes (handles nested senses with grammar)
 	 */
-	formatSenses(senses, level = 0, languageInfo = '') {
+	formatSenses(senses, level = 0, initialLanguageInfo = '') {
+		// Local copy because the language label is consumed (cleared) as we
+		// walk the senses; the parameter itself stays immutable.
+		let languageInfo = initialLanguageInfo;
 		const frag = document.createDocumentFragment();
 		if (!senses || senses.length === 0) {
 			return frag;

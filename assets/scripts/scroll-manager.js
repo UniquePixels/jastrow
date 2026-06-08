@@ -550,3 +550,6 @@ class InfiniteScroll {
 		}
 	}
 }
+
+// Exposed as a global for the other classic scripts (no bundler).
+window.InfiniteScroll = InfiniteScroll;

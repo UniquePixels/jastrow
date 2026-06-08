@@ -2624,7 +2624,10 @@
       return span;
     }
 
-    function formatSenses(senses, level, languageInfo) {
+    function formatSenses(senses, level, initialLanguageInfo) {
+      // Local copy because the language label is consumed (cleared) as we
+      // walk the senses; the parameter itself stays immutable.
+      let languageInfo = initialLanguageInfo;
       const frag = document.createDocumentFragment();
       if (!senses || senses.length === 0) { return frag; }
 
@@ -3083,9 +3086,7 @@
       return group;
     }
 
-    function flattenSenses(senses, prefix, level) {
-      prefix = prefix || "";
-      level = level || 0;
+    function flattenSenses(senses, prefix = "", level = 0) {
       const result = [];
       let idx = 1;
       for (let i = 0; i < senses.length; i++) {

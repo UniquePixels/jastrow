@@ -946,3 +946,6 @@ class JastrowDataLoader {
 		return this.entries.length;
 	}
 }
+
+// Exposed as a global for the other classic scripts (no bundler).
+window.JastrowDataLoader = JastrowDataLoader;

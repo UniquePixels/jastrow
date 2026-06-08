@@ -29,6 +29,9 @@ interface SagesFile {
 	sages?: Sage[];
 }
 
+// First top-level {...} object in a string (used to pull JSON out of CLI output).
+const JSON_OBJECT_RE = /\{[\s\S]*\}/u;
+
 // --- Data Loading ---
 
 function loadJsonl(filePath: string): Entry[] {
@@ -113,111 +116,108 @@ function saveEntriesToDisk(): void {
 
 // --- Router ---
 
-function matchRoute(
-	method: string,
-	pathname: string,
-): {
+interface Route {
 	handler: (
 		req: Request,
 		params: Record<string, string>,
 	) => Promise<Response> | Response;
-	params: Record<string, string>;
-} | null {
-	const routes: Array<{
-		method: string;
-		pattern: RegExp;
-		paramNames: string[];
-		handler: (
-			req: Request,
-			params: Record<string, string>,
-		) => Promise<Response> | Response;
-	}> = [
-		// Entries
-		{
-			method: 'GET',
-			pattern: /^\/api\/entries$/u,
-			paramNames: [],
-			handler: handleGetEntries,
-		},
-		{
-			method: 'PUT',
-			pattern: /^\/api\/entry\/([^/]+)$/u,
-			paramNames: ['rid'],
-			handler: handlePutEntry,
-		},
-		{
-			method: 'POST',
-			pattern: /^\/api\/save-all$/u,
-			paramNames: [],
-			handler: handleSaveAll,
-		},
-		// Annotations
-		{
-			method: 'GET',
-			pattern: /^\/api\/annotations$/u,
-			paramNames: [],
-			handler: handleGetAnnotations,
-		},
-		{
-			method: 'PUT',
-			pattern: /^\/api\/annotations$/u,
-			paramNames: [],
-			handler: handlePutAnnotations,
-		},
-		// Abbreviations
-		{
-			method: 'GET',
-			pattern: /^\/api\/abbreviations$/u,
-			paramNames: [],
-			handler: handleGetAbbreviations,
-		},
-		{
-			method: 'PUT',
-			pattern: /^\/api\/abbreviations\/([^/]+)$/u,
-			paramNames: ['type'],
-			handler: handlePutAbbreviations,
-		},
-		// Sages
-		{
-			method: 'GET',
-			pattern: /^\/api\/sages$/u,
-			paramNames: [],
-			handler: handleGetSages,
-		},
-		{
-			method: 'PUT',
-			pattern: /^\/api\/sage\/([^/]+)$/u,
-			paramNames: ['id'],
-			handler: handlePutSage,
-		},
-		{
-			method: 'POST',
-			pattern: /^\/api\/sage$/u,
-			paramNames: [],
-			handler: handlePostSage,
-		},
-		{
-			method: 'DELETE',
-			pattern: /^\/api\/sage\/([^/]+)$/u,
-			paramNames: ['id'],
-			handler: handleDeleteSage,
-		},
-		{
-			method: 'POST',
-			pattern: /^\/api\/sage\/([^/]+)\/research$/u,
-			paramNames: ['id'],
-			handler: handleSageResearch,
-		},
-		// Builds
-		{
-			method: 'POST',
-			pattern: /^\/api\/builds\/rabbinic-time-pdf$/u,
-			paramNames: [],
-			handler: handleBuildRabbinicTimePdf,
-		},
-	];
+	method: string;
+	paramNames: string[];
+	pattern: RegExp;
+}
 
-	for (const route of routes) {
+// Built once at module load; the patterns are stable across requests.
+const ROUTES: Route[] = [
+	// Entries
+	{
+		method: 'GET',
+		pattern: /^\/api\/entries$/u,
+		paramNames: [],
+		handler: handleGetEntries,
+	},
+	{
+		method: 'PUT',
+		pattern: /^\/api\/entry\/([^/]+)$/u,
+		paramNames: ['rid'],
+		handler: handlePutEntry,
+	},
+	{
+		method: 'POST',
+		pattern: /^\/api\/save-all$/u,
+		paramNames: [],
+		handler: handleSaveAll,
+	},
+	// Annotations
+	{
+		method: 'GET',
+		pattern: /^\/api\/annotations$/u,
+		paramNames: [],
+		handler: handleGetAnnotations,
+	},
+	{
+		method: 'PUT',
+		pattern: /^\/api\/annotations$/u,
+		paramNames: [],
+		handler: handlePutAnnotations,
+	},
+	// Abbreviations
+	{
+		method: 'GET',
+		pattern: /^\/api\/abbreviations$/u,
+		paramNames: [],
+		handler: handleGetAbbreviations,
+	},
+	{
+		method: 'PUT',
+		pattern: /^\/api\/abbreviations\/([^/]+)$/u,
+		paramNames: ['type'],
+		handler: handlePutAbbreviations,
+	},
+	// Sages
+	{
+		method: 'GET',
+		pattern: /^\/api\/sages$/u,
+		paramNames: [],
+		handler: handleGetSages,
+	},
+	{
+		method: 'PUT',
+		pattern: /^\/api\/sage\/([^/]+)$/u,
+		paramNames: ['id'],
+		handler: handlePutSage,
+	},
+	{
+		method: 'POST',
+		pattern: /^\/api\/sage$/u,
+		paramNames: [],
+		handler: handlePostSage,
+	},
+	{
+		method: 'DELETE',
+		pattern: /^\/api\/sage\/([^/]+)$/u,
+		paramNames: ['id'],
+		handler: handleDeleteSage,
+	},
+	{
+		method: 'POST',
+		pattern: /^\/api\/sage\/([^/]+)\/research$/u,
+		paramNames: ['id'],
+		handler: handleSageResearch,
+	},
+	// Builds
+	{
+		method: 'POST',
+		pattern: /^\/api\/builds\/rabbinic-time-pdf$/u,
+		paramNames: [],
+		handler: handleBuildRabbinicTimePdf,
+	},
+];
+
+function matchRoute(
+	method: string,
+	pathname: string,
+): { handler: Route['handler']; params: Record<string, string> } | null {
+	for (const route of ROUTES) {
 		if (route.method !== method) {
 			continue;
 		}
@@ -341,10 +341,10 @@ async function handlePostSage(req: Request): Promise<Response> {
 	return jsonResponse({ ok: true, sage: body }, 201);
 }
 
-async function handleDeleteSage(
+function handleDeleteSage(
 	_req: Request,
 	params: Record<string, string>,
-): Promise<Response> {
+): Response {
 	const id = params['id'];
 	const data = readJsonSafe<SagesFile>(sagesPath);
 	const sages: Sage[] = data.sages ?? [];
@@ -388,7 +388,7 @@ Only include fields where you have substantive new information to add.`;
 		if (exitCode !== 0) {
 			return jsonResponse({ error: 'Claude CLI failed' }, 503);
 		}
-		const jsonMatch = output.match(/\{[\s\S]*\}/u);
+		const jsonMatch = output.match(JSON_OBJECT_RE);
 		const suggestions = jsonMatch ? JSON.parse(jsonMatch[0]) : {};
 		return jsonResponse({ suggestions });
 	} catch {

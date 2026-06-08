@@ -22,7 +22,7 @@ const DATA_DIR = join(import.meta.dir, '../..');
 const ANNOTATIONS_PATH = join(import.meta.dir, '..', 'annotations.json');
 
 // Dynamic import so Bun doesn't hard-fail at load time if the SDK is missing
-let Anthropic: any;
+let Anthropic: typeof import('@anthropic-ai/sdk').default | undefined;
 try {
 	const mod = await import('@anthropic-ai/sdk');
 	Anthropic = mod.default;
@@ -39,6 +39,12 @@ interface DictEntry {
 	hw?: string;
 	id: string;
 	[key: string]: unknown;
+}
+
+interface Annotation {
+	created?: string;
+	note: string;
+	type: string;
 }
 
 function loadJsonl(path: string): DictEntry[] {
@@ -59,9 +65,12 @@ console.log(
 );
 
 // Load existing annotations for progress tracking
-let annotations: Record<string, any[]> = {};
+let annotations: Record<string, Annotation[]> = {};
 try {
-	annotations = JSON.parse(readFileSync(ANNOTATIONS_PATH, 'utf-8'));
+	annotations = JSON.parse(readFileSync(ANNOTATIONS_PATH, 'utf-8')) as Record<
+		string,
+		Annotation[]
+	>;
 } catch {
 	// No existing annotations file — start fresh
 }
@@ -70,7 +79,7 @@ try {
 const todo = needsClassification.filter((e) => {
 	const anns = annotations[e.id] || [];
 	return !anns.some(
-		(a: any) => a.type === 'needs-review' && a.note.startsWith('AI suggests:'),
+		(a) => a.type === 'needs-review' && a.note.startsWith('AI suggests:'),
 	);
 });
 console.log(
@@ -112,8 +121,8 @@ ${prompt}`,
 			],
 		});
 
-		const text =
-			response.content[0].type === 'text' ? response.content[0].text : '';
+		const firstBlock = response.content[0];
+		const text = firstBlock?.type === 'text' ? firstBlock.text : '';
 		const jsonMatch = text.match(/\[[\s\S]*\]/u);
 		if (!jsonMatch) {
 			console.log(`Batch ${i}: no JSON found in response`);
@@ -130,7 +139,7 @@ ${prompt}`,
 			existing.push({
 				type: 'needs-review',
 				note: `AI suggests: ${parts.join(', ')}`,
-				created: new Date().toISOString().split('T')[0],
+				created: new Date().toISOString().split('T')[0] ?? '',
 			});
 			annotations[r.rid] = existing;
 		}
@@ -140,8 +149,9 @@ ${prompt}`,
 		console.log(
 			`Batch ${i}-${i + batch.length}: classified ${results.length} entries`,
 		);
-	} catch (err: any) {
-		console.error(`Batch ${i} error: ${err.message}`);
+	} catch (err) {
+		const message = err instanceof Error ? err.message : String(err);
+		console.error(`Batch ${i} error: ${message}`);
 		// Save progress so we don't lose work
 		writeFileSync(ANNOTATIONS_PATH, JSON.stringify(annotations, null, 2));
 	}
