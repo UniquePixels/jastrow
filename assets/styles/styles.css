@@ -557,10 +557,6 @@ wa-page[view="mobile"] .mobile-menu-toggle {
 	background: rgba(36, 123, 160, 0.08);
 }
 
-.guide-callout[data-n="3"] {
-	color: #333;
-}
-
 /* Guide dialog */
 .guide-content {
 	max-height: 70vh;
@@ -613,6 +609,7 @@ wa-page[view="mobile"] .mobile-menu-toggle {
 }
 .guide-callout[data-n="3"] {
 	background: #e9c46a;
+	color: #333;
 }
 .guide-callout[data-n="4"] {
 	background: #2aa876;

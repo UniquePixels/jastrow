@@ -264,7 +264,7 @@ class TalmudSagesExplorer {
 		});
 
 		// Era filter handlers — multi-select toggle
-		this._toolbarContainer.querySelectorAll('.era-filter').forEach((btn) => {
+		for (const btn of this._toolbarContainer.querySelectorAll('.era-filter')) {
 			btn.addEventListener('click', () => {
 				const group = btn.dataset.group;
 				if (activeGroups.has(group)) {
@@ -282,10 +282,10 @@ class TalmudSagesExplorer {
 				}
 				this.graph.setFilters({ activeGroups: new Set(activeGroups) });
 			});
-		});
+		}
 
 		// Relationship filter handlers — multi-select toggle
-		this._toolbarContainer.querySelectorAll('.rel-filter').forEach((btn) => {
+		for (const btn of this._toolbarContainer.querySelectorAll('.rel-filter')) {
 			btn.addEventListener('click', () => {
 				const rel = btn.dataset.rel;
 				if (activeRelTypes.has(rel)) {
@@ -302,7 +302,7 @@ class TalmudSagesExplorer {
 				}
 				this.graph.setFilters({ activeRelTypes: new Set(activeRelTypes) });
 			});
-		});
+		}
 	}
 
 	_buildGraphContainer() {

@@ -616,6 +616,9 @@
        5) build a print-sized monthly chart on the print canvas
      ============================================================ -->
 <script>'use strict';
+// Hoisted regexes (compiled once instead of per loop iteration).
+const PRAYER_TIMES_RE = /^Prayer Times/iu;
+const KORBANOT_RE = /^Korbanot/iu;
 (async () => {
   // 1. Run the existing init — this draws the timeline (all 3 seasons),
   //    the equinox clock, and (after a frame) the monthly chart.
@@ -642,7 +645,7 @@
     if (tr.classList?.contains('rt-sh')) {
       const headTd = tr.querySelector('td');
       const headText = (headTd?.textContent || '').trim();
-      if (/^Prayer Times/iu.test(headText) || /^Korbanot/iu.test(headText)) {
+      if (PRAYER_TIMES_RE.test(headText) || KORBANOT_RE.test(headText)) {
         currentBody = bodyPrayerKorbanot;
       }
       const newTr = document.createElement('tr');
@@ -709,16 +712,16 @@
     const compactClone = liveClock.cloneNode(true);
     compactClone.removeAttribute('width');
     compactClone.removeAttribute('height');
-    compactClone.querySelectorAll('text').forEach(t => {
+    for (const t of compactClone.querySelectorAll('text')) {
       if ((t.textContent || '').trim() === 'Bein HaShmashot') { t.remove(); }
-    });
-    compactClone.querySelectorAll('line').forEach(l => {
+    }
+    for (const l of compactClone.querySelectorAll('line')) {
       if ((l.getAttribute('stroke') || '').includes('80,120,220')) { l.remove(); }
-    });
-    compactClone.querySelectorAll('text').forEach(t => {
+    }
+    for (const t of compactClone.querySelectorAll('text')) {
       const fs = Number.parseFloat(t.getAttribute('font-size') || '10');
       t.setAttribute('font-size', (fs * 1.4).toFixed(1));
-    });
+    }
     compactClone.setAttribute('viewBox', '-30 -10 660 600');
     document.getElementById('print-clock-' + s).appendChild(compactClone);
 
@@ -766,22 +769,22 @@
       },
     },
     plugins: [{
-      afterDraw({ ctx, scales:{ y, x } }) {
-        const yp = y.getPixelForValue(60);
-        ctx.save();
-        ctx.setLineDash([6,4]);
-        ctx.strokeStyle = '#b83232';
-        ctx.lineWidth = 1.5;
-        ctx.beginPath();
-        ctx.moveTo(x.left, yp);
-        ctx.lineTo(x.right, yp);
-        ctx.stroke();
-        ctx.setLineDash([]);
-        ctx.fillStyle = '#b83232';
-        ctx.font = 'bold 12px Lexend, sans-serif';
-        ctx.textAlign = 'right';
-        ctx.fillText('60 min — equinox baseline', x.right - 6, yp - 6);
-        ctx.restore();
+      afterDraw({ ctx: chartCtx, scales:{ y: yScale, x: xScale } }) {
+        const yp = yScale.getPixelForValue(60);
+        chartCtx.save();
+        chartCtx.setLineDash([6,4]);
+        chartCtx.strokeStyle = '#b83232';
+        chartCtx.lineWidth = 1.5;
+        chartCtx.beginPath();
+        chartCtx.moveTo(xScale.left, yp);
+        chartCtx.lineTo(xScale.right, yp);
+        chartCtx.stroke();
+        chartCtx.setLineDash([]);
+        chartCtx.fillStyle = '#b83232';
+        chartCtx.font = 'bold 12px Lexend, sans-serif';
+        chartCtx.textAlign = 'right';
+        chartCtx.fillText('60 min — equinox baseline', xScale.right - 6, yp - 6);
+        chartCtx.restore();
       }
     }],
   });

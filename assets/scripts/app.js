@@ -14,6 +14,14 @@ const {
 	SEARCH,
 } = window;
 
+// Hoisted regexes (compiled once instead of per call).
+const NUMERIC_HASH_RE = /^\d+$/u;
+const DIGITS_RE = /\d+/u;
+const HEBREW_CHAR_RE = /[֐-׿]/u;
+const SENSE_NUMBER_PREFIX_RE = /^[—-]\s*/u;
+const LEADING_STAR_RE = /^\*/u;
+const TRAILING_DECIMAL_RE = /\.\d+$/u;
+
 const LANGUAGE_BADGES = {
 	bh: { badge: 'Heb.', tooltip: 'Biblical Hebrew' },
 	he: { badge: 'Heb.', tooltip: 'Hebrew' },
@@ -399,7 +407,7 @@ class JastrowApp {
 		});
 
 		// Brand links — navigate back to dictionary
-		document.querySelectorAll('.brand-link').forEach((link) => {
+		for (const link of document.querySelectorAll('.brand-link')) {
 			link.addEventListener('click', (e) => {
 				e.preventDefault();
 				if (this._sagesExplorer?.isVisible) {
@@ -408,7 +416,7 @@ class JastrowApp {
 				window.history.pushState(null, '', window.location.pathname);
 				this.loadInitialPage();
 			});
-		});
+		}
 
 		// Offline detection
 		this.isOffline = !navigator.onLine;
@@ -521,7 +529,7 @@ class JastrowApp {
 		}
 
 		// Check if it's a plain number (page number)
-		if (/^\d+$/u.test(hash)) {
+		if (NUMERIC_HASH_RE.test(hash)) {
 			const page = Number.parseInt(hash, 10);
 			this.syncSearchMode('word');
 			this.scrollManager.loadInitial(page);
@@ -529,7 +537,7 @@ class JastrowApp {
 		}
 
 		// Check if it contains Hebrew characters (word search)
-		if (/[\u0590-\u05FF]/u.test(hash)) {
+		if (HEBREW_CHAR_RE.test(hash)) {
 			this.syncSearchMode('word');
 			this._setSearchValue(hash);
 			this.handleSearch(hash, true);
@@ -1191,7 +1199,7 @@ class JastrowApp {
 		}
 
 		const languageInfo = entry.li || '';
-		const frag = this.formatSenses(entry.c.s, 0, languageInfo);
+		const frag = this.formatSenses(entry.c.s, languageInfo);
 
 		if (!frag.hasChildNodes()) {
 			const p = document.createElement('p');
@@ -1207,7 +1215,7 @@ class JastrowApp {
 	/**
 	 * Format senses as DOM nodes (handles nested senses with grammar)
 	 */
-	formatSenses(senses, level = 0, initialLanguageInfo = '') {
+	formatSenses(senses, initialLanguageInfo = '') {
 		// Local copy because the language label is consumed (cleared) as we
 		// walk the senses; the parameter itself stays immutable.
 		let languageInfo = initialLanguageInfo;
@@ -1244,7 +1252,7 @@ class JastrowApp {
 				const childrenDiv = document.createElement('div');
 				childrenDiv.className = 'sense-children';
 				childrenDiv.appendChild(
-					this.formatSenses(numberedSenses, level + 1, ''),
+					this.formatSenses(numberedSenses, ''),
 				);
 				senseGroup.appendChild(childrenDiv);
 			}
@@ -1252,7 +1260,7 @@ class JastrowApp {
 			frag.appendChild(senseGroup);
 
 			if (grammarSections.length > 0) {
-				frag.appendChild(this.formatSenses(grammarSections, level, ''));
+				frag.appendChild(this.formatSenses(grammarSections, ''));
 			}
 		} else {
 			let isFirstSense = true;
@@ -1299,7 +1307,6 @@ class JastrowApp {
 						grammarSensesDiv.appendChild(
 							this.formatSenses(
 								sense.s,
-								level + 1,
 								isFirstSense ? languageInfo : '',
 							),
 						);
@@ -1311,7 +1318,7 @@ class JastrowApp {
 					frag.appendChild(grammarSection);
 				} else if (sense.d) {
 					if (sense.n) {
-						const cleanNumber = sense.n.replace(/^[—-]\s*/u, '');
+						const cleanNumber = sense.n.replace(SENSE_NUMBER_PREFIX_RE, '');
 						const senseDiv = document.createElement('div');
 						senseDiv.className = 'sense sense-numbered';
 
@@ -1697,7 +1704,7 @@ class JastrowApp {
 			// 2. Page (always — detect from scroll manager or URL hash)
 			const currentPage =
 				this.scrollManager?.currentVisiblePage ||
-				(/^\d+$/u.test(window.location.hash.slice(1))
+				(NUMERIC_HASH_RE.test(window.location.hash.slice(1))
 					? Number.parseInt(window.location.hash.slice(1), 10)
 					: null);
 			if (currentPage && currentPage > 0) {
@@ -1721,13 +1728,13 @@ class JastrowApp {
 	_setupDialogShareButtons() {
 		const baseUrl = `${window.location.origin}${window.location.pathname}`;
 
-		document.querySelectorAll('.dialog-share-btn').forEach((btn) => {
+		for (const btn of document.querySelectorAll('.dialog-share-btn')) {
 			btn.addEventListener('click', () => {
 				const shareType = btn.dataset.share;
 				let url;
 				if (shareType === 'scan') {
 					const pageDisplay = document.getElementById('current-page-display');
-					const pageMatch = pageDisplay?.textContent.match(/\d+/u);
+					const pageMatch = pageDisplay?.textContent.match(DIGITS_RE);
 					url = pageMatch
 						? `${baseUrl}#scan:${pageMatch[0]}`
 						: `${baseUrl}#scan:1`;
@@ -1736,7 +1743,7 @@ class JastrowApp {
 				}
 				this._shareURL(url);
 			});
-		});
+		}
 	}
 
 	/**
@@ -1935,8 +1942,8 @@ class JastrowApp {
 					/<a([^>]*)href="\/Jastrow,_([^"]*)"([^>]*)>/gu,
 					(_match, before, jastrowPath, after) => {
 						const headword = jastrowPath
-							.replace(/^\*/u, '')
-							.replace(/\.\d+$/u, '');
+							.replace(LEADING_STAR_RE, '')
+							.replace(TRAILING_DECIMAL_RE, '');
 						const cleanBefore = before.replace(/\s*target="[^"]*"/gu, '');
 						const cleanAfter = after.replace(/\s*target="[^"]*"/gu, '');
 						return `<a${cleanBefore}href="#word=${headword}"${cleanAfter}>`;

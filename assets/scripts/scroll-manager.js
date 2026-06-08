@@ -186,9 +186,9 @@ class InfiniteScroll {
 			return;
 		}
 
-		this.container.querySelectorAll('.entry-highlight').forEach((el) => {
+		for (const el of this.container.querySelectorAll('.entry-highlight')) {
 			el.classList.remove('entry-highlight');
-		});
+		}
 		entryElement.classList.add('entry-highlight');
 
 		let settleTimer = null;

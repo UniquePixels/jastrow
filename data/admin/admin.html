@@ -2364,6 +2364,12 @@
   </dialog>
 
   <script>'use strict';
+    // Hoisted regexes (compiled once instead of per call/loop iteration).
+    const SENSE_NUM_PREFIX_RE = /^[—-]\s*/u;
+    const TRAILING_PAREN_RE = /\)\s*$/u;
+    const RID_HASH_RE = /^#rid:(.+)$/u;
+    const HEADWORD_LINK_RE = /href=["'][^"']*#headword[^"']*["']/u;
+    const NESTED_ANCHOR_RE = /<a[\s>](?:[^>]*>)(?:(?!<\/a>).)*<a[\s>]/u;
     // --- State ---
     const state = {
       entries: [],
@@ -2595,7 +2601,7 @@
 
       if (entry.c?.s) {
         const languageInfo = entry.li || "";
-        const sensesFrag = formatSenses(entry.c.s, 0, languageInfo);
+        const sensesFrag = formatSenses(entry.c.s, languageInfo);
         if (sensesFrag.hasChildNodes()) {
           content.appendChild(sensesFrag);
         } else {
@@ -2624,7 +2630,7 @@
       return span;
     }
 
-    function formatSenses(senses, level, initialLanguageInfo) {
+    function formatSenses(senses, initialLanguageInfo) {
       // Local copy because the language label is consumed (cleared) as we
       // walk the senses; the parameter itself stays immutable.
       let languageInfo = initialLanguageInfo;
@@ -2656,14 +2662,14 @@
         if (numberedSenses.length > 0) {
           const childrenDiv = document.createElement("div");
           childrenDiv.className = "sense-children";
-          childrenDiv.appendChild(formatSenses(numberedSenses, level + 1, ""));
+          childrenDiv.appendChild(formatSenses(numberedSenses, ""));
           senseGroup.appendChild(childrenDiv);
         }
 
         frag.appendChild(senseGroup);
 
         if (grammarSections.length > 0) {
-          frag.appendChild(formatSenses(grammarSections, level, ""));
+          frag.appendChild(formatSenses(grammarSections, ""));
         }
       } else {
         let isFirstSense = true;
@@ -2708,7 +2714,6 @@
               grammarSensesDiv.appendChild(
                 formatSenses(
                   sense.s,
-                  level + 1,
                   isFirstSense ? languageInfo : ""
                 )
               );
@@ -2720,7 +2725,7 @@
             frag.appendChild(grammarSection);
           } else if (sense.d) {
             if (sense.n) {
-              const cleanNumber = sense.n.replace(/^[—-]\s*/u, "");
+              const cleanNumber = sense.n.replace(SENSE_NUM_PREFIX_RE, "");
               const senseDiv = document.createElement("div");
               senseDiv.className = "sense sense-numbered";
 
@@ -3107,7 +3112,7 @@
             }
           }
         } else if (s.d != null) {
-          const numLabel = s.n ? s.n.replace(/\)\s*$/u, ")").trim() : "";
+          const numLabel = s.n ? s.n.replace(TRAILING_PAREN_RE, ")").trim() : "";
           result.push({
             label: numLabel ? `Sense ${numLabel}` : `Sense ${idx}`,
             path: `${path}.d`,
@@ -3290,7 +3295,7 @@
     }
 
     function jumpFromHash() {
-      const m = location.hash.match(/^#rid:(.+)$/u);
+      const m = location.hash.match(RID_HASH_RE);
       if (!m) { return; }
       const rid = decodeURIComponent(m[1]);
       const idx = state.entries.findIndex(e => e.id === rid);
@@ -3932,7 +3937,7 @@
         const hasAnnotationType = (type) =>
           (state.annotations[rid] || []).some((a) => a.type === type);
 
-        const addAnnotation = (type, note) => {
+        const flagAnnotation = (type, note) => {
           if (!state.annotations[rid]) { state.annotations[rid] = []; }
           state.annotations[rid].push({ type, note, created: today });
           newCount++;
@@ -3940,7 +3945,7 @@
 
         // Check column not mapped
         if (entry.col === '?' && !hasAnnotationType('page-column')) {
-          addAnnotation('page-column', 'Column not mapped');
+          flagAnnotation('page-column', 'Column not mapped');
         }
 
         // Check definitions for issues
@@ -3948,14 +3953,14 @@
           const allDefs = collectDefinitions(entry.c.s);
           for (const def of allDefs) {
             // Unresolved word-link patterns
-            if (!hasAnnotationType('word-link') && def.match(/href=["'][^"']*#headword[^"']*["']/u)) {
-              addAnnotation('word-link', 'Unresolved headword link pattern');
+            if (!hasAnnotationType('word-link') && def.match(HEADWORD_LINK_RE)) {
+              flagAnnotation('word-link', 'Unresolved headword link pattern');
               break;
             }
 
             // Nested <a> tags (ensure no </a> between two opening <a> tags)
-            if (!hasAnnotationType('data-quality') && def.match(/<a[\s>](?:[^>]*>)(?:(?!<\/a>).)*<a[\s>]/u)) {
-              addAnnotation('data-quality', 'Nested <a> tags detected in definition');
+            if (!hasAnnotationType('data-quality') && def.match(NESTED_ANCHOR_RE)) {
+              flagAnnotation('data-quality', 'Nested <a> tags detected in definition');
               break;
             }
           }
@@ -5337,8 +5342,8 @@
         document.body.appendChild(toast);
       }
       toast.textContent = message;
-      // Force reflow before adding class
-      toast.offsetHeight;
+      // Force reflow before adding class (getBoundingClientRect triggers layout)
+      toast.getBoundingClientRect();
       toast.classList.add('visible');
       setTimeout(() => toast.classList.remove('visible'), 3000);
     }
