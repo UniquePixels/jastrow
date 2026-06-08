@@ -95,7 +95,7 @@ class JastrowApp {
 				const registration = await navigator.serviceWorker.getRegistration();
 				if (registration?.waiting) {
 					// New SW is waiting — activate it and reload to get new code
-					const messageEl = document.getElementById('load-message');
+					const messageEl = document.querySelector('#load-message');
 					if (messageEl) {
 						messageEl.textContent = 'Updating app...';
 					}
@@ -215,10 +215,10 @@ class JastrowApp {
 		this.searchInput.setAttribute('aria-controls', 'search-autocomplete-list');
 		this.searchInput.setAttribute('aria-expanded', 'false');
 		this.searchButton = document.querySelector('#search-button');
-		this.modeWordBtn = document.getElementById('mode-word');
-		this.modeRefBtn = document.getElementById('mode-ref');
-		this.keyboardToggle = document.getElementById('keyboard-toggle');
-		this.keyboardOverlay = document.getElementById('keyboard-overlay');
+		this.modeWordBtn = document.querySelector('#mode-word');
+		this.modeRefBtn = document.querySelector('#mode-ref');
+		this.keyboardToggle = document.querySelector('#keyboard-toggle');
+		this.keyboardOverlay = document.querySelector('#keyboard-overlay');
 		this.pageInput = document.querySelector('#page-jump-input');
 		this.pageJumpButton = document.querySelector('#page-jump-button');
 
@@ -1467,11 +1467,11 @@ class JastrowApp {
 
 		// Get the dialog and its elements
 		const dialog = document.querySelector('.page-dialog');
-		const imageFrame = document.getElementById('page-image-frame');
-		const prevBtn = document.getElementById('page-prev-btn');
-		const nextBtn = document.getElementById('page-next-btn');
-		const openBtn = document.getElementById('page-open-btn');
-		const pageDisplay = document.getElementById('current-page-display');
+		const imageFrame = document.querySelector('#page-image-frame');
+		const prevBtn = document.querySelector('#page-prev-btn');
+		const nextBtn = document.querySelector('#page-next-btn');
+		const openBtn = document.querySelector('#page-open-btn');
+		const pageDisplay = document.querySelector('#current-page-display');
 
 		if (!(dialog && imageFrame)) {
 			return;
@@ -1643,7 +1643,7 @@ class JastrowApp {
 	 * Build the contextual share dropdown menu. Called on wa-show to refresh items.
 	 */
 	_setupShareMenu() {
-		const dropdown = document.getElementById('share-dropdown');
+		const dropdown = document.querySelector('#share-dropdown');
 		if (!dropdown) {
 			return;
 		}
@@ -1722,7 +1722,7 @@ class JastrowApp {
 				const shareType = btn.dataset.share;
 				let url;
 				if (shareType === 'scan') {
-					const pageDisplay = document.getElementById('current-page-display');
+					const pageDisplay = document.querySelector('#current-page-display');
 					const pageMatch = pageDisplay?.textContent.match(DIGITS_RE);
 					url = pageMatch
 						? `${baseUrl}#scan:${pageMatch[0]}`
@@ -2155,8 +2155,8 @@ class JastrowApp {
 	 * Update loading progress
 	 */
 	updateLoadingProgress(progress) {
-		const messageEl = document.getElementById('load-message');
-		const progressEl = document.getElementById('load-progress');
+		const messageEl = document.querySelector('#load-message');
+		const progressEl = document.querySelector('#load-progress');
 
 		if (typeof progress === 'object') {
 			if (messageEl && progress.message) {
@@ -2284,9 +2284,9 @@ class JastrowApp {
 			// Re-render the dialog to restore image, handlers, and button state
 			this.showPageDialog(this.currentDialogPage);
 		} else {
-			const prevBtn = document.getElementById('page-prev-btn');
-			const nextBtn = document.getElementById('page-next-btn');
-			const openBtn = document.getElementById('page-open-btn');
+			const prevBtn = document.querySelector('#page-prev-btn');
+			const nextBtn = document.querySelector('#page-next-btn');
+			const openBtn = document.querySelector('#page-open-btn');
 
 			if (prevBtn) {
 				prevBtn.disabled = true;

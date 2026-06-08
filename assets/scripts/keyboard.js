@@ -40,7 +40,7 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 // Watch for keyboard overlay becoming visible to trigger lazy init
-const overlay = document.getElementById('keyboard-overlay');
+const overlay = document.querySelector('#keyboard-overlay');
 if (overlay) {
 	const observer = new MutationObserver(() => {
 		if (!overlay.hidden) {

@@ -628,17 +628,17 @@ const KORBANOT_RE = /^Korbanot/iu;
   await new Promise(r => requestAnimationFrame(() => requestAnimationFrame(r)));
 
   // 2. Move the timeline SVG into page 1.
-  const timelineSrc = document.getElementById('rt-ref-svg');
+  const timelineSrc = document.querySelector('#rt-ref-svg');
   const timelineClone = timelineSrc.cloneNode(true);
   timelineClone.removeAttribute('width');
   timelineClone.removeAttribute('height');
-  document.getElementById('print-timeline-slot').appendChild(timelineClone);
+  document.querySelector('#print-timeline-slot').appendChild(timelineClone);
 
   // 3. Re-render the table into TWO print tbodies, splitting at the
   //    Prayer Times section so each section starts on a fresh page.
-  const liveBody = document.getElementById('rt-ref-body');
-  const bodyZmanim = document.getElementById('print-ref-body-zmanim');
-  const bodyPrayerKorbanot = document.getElementById('print-ref-body-prayer-korbanot');
+  const liveBody = document.querySelector('#rt-ref-body');
+  const bodyZmanim = document.querySelector('#print-ref-body-zmanim');
+  const bodyPrayerKorbanot = document.querySelector('#print-ref-body-prayer-korbanot');
   let currentBody = bodyZmanim; // start in Zmanim section
 
   for (const tr of Array.from(liveBody.children)) {
@@ -703,9 +703,9 @@ const KORBANOT_RE = /^Korbanot/iu;
   //      - once into the compact comparison page (BHS text removed, 1.4× scale)
   //      - once into the per-season large page (no modifications — there's room)
   const seasons = ['summer', 'equinox', 'winter'];
-  const liveClock = document.getElementById('rt-clock-svg');
+  const liveClock = document.querySelector('#rt-clock-svg');
   for (const s of seasons) {
-    document.getElementById('rt-c-' + s).click();
+    document.querySelector('#rt-c-' + s).click();
     await new Promise(r => requestAnimationFrame(() => requestAnimationFrame(r)));
 
     // Compact-view clone: optimize for 1/3 page width
@@ -723,19 +723,19 @@ const KORBANOT_RE = /^Korbanot/iu;
       t.setAttribute('font-size', (fs * 1.4).toFixed(1));
     }
     compactClone.setAttribute('viewBox', '-30 -10 660 600');
-    document.getElementById('print-clock-' + s).appendChild(compactClone);
+    document.querySelector('#print-clock-' + s).appendChild(compactClone);
 
     // Large-view clone: keep native sizing — there's plenty of room for labels
     const largeClone = liveClock.cloneNode(true);
     largeClone.removeAttribute('width');
     largeClone.removeAttribute('height');
-    document.getElementById('print-clock-' + s + '-large').appendChild(largeClone);
+    document.querySelector('#print-clock-' + s + '-large').appendChild(largeClone);
   }
 
   // 5. Build the monthly chart on the print canvas.
   //    IMPORTANT: set the canvas's intrinsic size BEFORE creating the Chart,
   //    because Chart.js with responsive:false reads dimensions at construction.
-  const cv = document.getElementById('print-month-chart');
+  const cv = document.querySelector('#print-month-chart');
   cv.width = 1100;
   cv.height = 380;
   const ctx = cv.getContext('2d');

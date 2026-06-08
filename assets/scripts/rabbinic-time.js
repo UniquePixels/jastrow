@@ -553,7 +553,7 @@
 	}
 
 	function drawRefSVG() {
-		const svg = document.getElementById('rt-ref-svg');
+		const svg = document.querySelector('#rt-ref-svg');
 		if (!svg) {
 			return;
 		}
@@ -813,7 +813,7 @@
 	}
 
 	function drawRefTable() {
-		const tbody = document.getElementById('rt-ref-body');
+		const tbody = document.querySelector('#rt-ref-body');
 		if (!tbody) {
 			return;
 		}
@@ -879,7 +879,7 @@
 	}
 
 	function drawClock() {
-		const svg = document.getElementById('rt-clock-svg');
+		const svg = document.querySelector('#rt-clock-svg');
 		if (!svg) {
 			return;
 		}
@@ -1237,7 +1237,7 @@
 
 	let chartInstance = null;
 	function drawChart() {
-		const canvas = document.getElementById('rt-month-chart');
+		const canvas = document.querySelector('#rt-month-chart');
 		const ChartCtor = globalThis.Chart;
 		if (!canvas || typeof ChartCtor === 'undefined') {
 			return;

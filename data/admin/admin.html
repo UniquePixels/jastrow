@@ -2444,7 +2444,7 @@
       }
 
       // Show nav bar only on entry editor tab
-      document.getElementById('nav-bar').classList.toggle('hidden', tabId !== 'entry-editor');
+      document.querySelector('#nav-bar').classList.toggle('hidden', tabId !== 'entry-editor');
 
       // Refresh tab content when switching
       if (tabId === 'issues') {
@@ -2462,7 +2462,7 @@
 
     // --- Data Loading ---
     async function loadData() {
-      const statusEl = document.getElementById("load-status");
+      const statusEl = document.querySelector('#load-status');
       try {
         const [entriesRes, annotationsRes] = await Promise.all([
           fetch("/api/entries"),
@@ -2502,14 +2502,14 @@
         runAutoScan().then(() => renderIssuesTab());
       } catch (err) {
         statusEl.textContent = "Error loading data";
-        document.getElementById("entry-preview").innerHTML =
+        document.querySelector('#entry-preview').innerHTML =
           `<div class="error-msg">Failed to load data: ${err.message}</div>`;
       }
     }
 
     // --- Entry Rendering ---
     function renderCurrentEntry() {
-      const panel = document.getElementById("entry-preview");
+      const panel = document.querySelector('#entry-preview');
       panel.innerHTML = "";
 
       if (state.entries.length === 0) {
@@ -2804,13 +2804,13 @@
     const ARCHIVE_ID = 'Jastrow';
 
     function showPageScanDialog(page) {
-      const dialog = document.getElementById('page-scan-dialog');
-      const img = document.getElementById('page-scan-img');
-      const title = document.getElementById('page-scan-title');
-      const pageLabel = document.getElementById('page-scan-page-label');
-      const prevBtn = document.getElementById('page-scan-prev');
-      const nextBtn = document.getElementById('page-scan-next');
-      const archiveLink = document.getElementById('page-scan-archive-link');
+      const dialog = document.querySelector('#page-scan-dialog');
+      const img = document.querySelector('#page-scan-img');
+      const title = document.querySelector('#page-scan-title');
+      const pageLabel = document.querySelector('#page-scan-page-label');
+      const prevBtn = document.querySelector('#page-scan-prev');
+      const nextBtn = document.querySelector('#page-scan-next');
+      const archiveLink = document.querySelector('#page-scan-archive-link');
 
       const imageIndex = page + ARCHIVE_IMAGE_OFFSET;
       const imageNumber = String(imageIndex).padStart(4, '0');
@@ -2830,29 +2830,29 @@
       dialog.showModal();
     }
 
-    document.getElementById('page-scan-close').addEventListener('click', () => {
-      document.getElementById('page-scan-dialog').close();
+    document.querySelector('#page-scan-close').addEventListener('click', () => {
+      document.querySelector('#page-scan-dialog').close();
     });
 
-    document.getElementById('page-scan-dialog').addEventListener('click', (e) => {
+    document.querySelector('#page-scan-dialog').addEventListener('click', (e) => {
       if (e.target === e.currentTarget) { e.currentTarget.close(); }
     });
 
     // --- Dictionary Preview Dialog ---
-    document.getElementById('dict-preview-close').addEventListener('click', () => {
-      document.getElementById('dict-preview-dialog').close();
+    document.querySelector('#dict-preview-close').addEventListener('click', () => {
+      document.querySelector('#dict-preview-dialog').close();
     });
 
-    document.getElementById('dict-preview-dialog').addEventListener('click', (e) => {
+    document.querySelector('#dict-preview-dialog').addEventListener('click', (e) => {
       if (e.target === e.currentTarget) { e.currentTarget.close(); }
     });
 
     // --- Formatting Reference Dialog ---
-    document.getElementById('format-ref-close').addEventListener('click', () => {
-      document.getElementById('format-ref-dialog').close();
+    document.querySelector('#format-ref-close').addEventListener('click', () => {
+      document.querySelector('#format-ref-dialog').close();
     });
 
-    document.getElementById('format-ref-dialog').addEventListener('click', (e) => {
+    document.querySelector('#format-ref-dialog').addEventListener('click', (e) => {
       if (e.target === e.currentTarget) { e.currentTarget.close(); }
     });
 
@@ -2868,7 +2868,7 @@
     }
 
     function renderFieldEditor(entry) {
-      const panel = document.getElementById("field-editor");
+      const panel = document.querySelector('#field-editor');
       panel.innerHTML = "";
 
       // Header with save/revert
@@ -3018,10 +3018,10 @@
       panel.appendChild(form);
 
       // Wire up save/revert/help buttons
-      document.getElementById("btn-save").addEventListener("click", saveEntry);
-      document.getElementById("btn-revert").addEventListener("click", revertEntry);
-      document.getElementById("btn-format-help").addEventListener("click", () => {
-        document.getElementById("format-ref-dialog").showModal();
+      document.querySelector('#btn-save').addEventListener("click", saveEntry);
+      document.querySelector('#btn-revert').addEventListener("click", revertEntry);
+      document.querySelector('#btn-format-help').addEventListener("click", () => {
+        document.querySelector('#format-ref-dialog').showModal();
       });
     }
 
@@ -3139,14 +3139,14 @@
     }
 
     function updateSaveRevertButtons() {
-      const saveBtn = document.getElementById("btn-save");
-      const revertBtn = document.getElementById("btn-revert");
+      const saveBtn = document.querySelector('#btn-save');
+      const revertBtn = document.querySelector('#btn-revert');
       if (saveBtn) { saveBtn.disabled = !state.dirty; }
       if (revertBtn) { revertBtn.disabled = !state.dirty; }
     }
 
     function collectEntryFromForm() {
-      const form = document.getElementById("editor-form");
+      const form = document.querySelector('#editor-form');
       if (!form) { return state.entries[state.currentIndex]; }
 
       const entry = JSON.parse(JSON.stringify(entrySnapshot));
@@ -3310,10 +3310,10 @@
     });
 
     function updateNavigation() {
-      const prevBtn = document.getElementById('nav-prev');
-      const nextBtn = document.getElementById('nav-next');
-      const posEl = document.getElementById('nav-position');
-      const badgeEl = document.getElementById('nav-issue-badge');
+      const prevBtn = document.querySelector('#nav-prev');
+      const nextBtn = document.querySelector('#nav-next');
+      const posEl = document.querySelector('#nav-position');
+      const badgeEl = document.querySelector('#nav-issue-badge');
 
       prevBtn.disabled = state.currentIndex <= 0;
       nextBtn.disabled = state.currentIndex >= state.entries.length - 1;
@@ -3334,16 +3334,16 @@
     }
 
     // Prev/Next buttons
-    document.getElementById('nav-prev').addEventListener('click', () => {
+    document.querySelector('#nav-prev').addEventListener('click', () => {
       navigateTo(state.currentIndex - 1);
     });
 
-    document.getElementById('nav-next').addEventListener('click', () => {
+    document.querySelector('#nav-next').addEventListener('click', () => {
       navigateTo(state.currentIndex + 1);
     });
 
     // RID jump
-    document.getElementById('nav-rid').addEventListener('keydown', (e) => {
+    document.querySelector('#nav-rid').addEventListener('keydown', (e) => {
       if (e.key !== 'Enter') { return; }
       const rid = e.target.value.trim();
       if (!rid) { return; }
@@ -3359,8 +3359,8 @@
 
     // Headword search with debounce
     let hwSearchTimer = null;
-    const hwSearchInput = document.getElementById('nav-hw-search');
-    const hwDropdown = document.getElementById('nav-hw-dropdown');
+    const hwSearchInput = document.querySelector('#nav-hw-search');
+    const hwDropdown = document.querySelector('#nav-hw-dropdown');
 
     hwSearchInput.addEventListener('input', () => {
       clearTimeout(hwSearchTimer);
@@ -3552,8 +3552,8 @@
     }
 
     async function addAnnotation(rid) {
-      const typeSelect = document.getElementById('ann-add-type');
-      const noteInput = document.getElementById('ann-add-note');
+      const typeSelect = document.querySelector('#ann-add-type');
+      const noteInput = document.querySelector('#ann-add-note');
       const note = noteInput.value.trim();
       if (!note) { return; }
 
@@ -3601,7 +3601,7 @@
     }
 
     function refreshAnnotationsSection(rid) {
-      const existing = document.getElementById('annotations-section');
+      const existing = document.querySelector('#annotations-section');
       if (!existing) { return; }
       const newSection = renderAnnotationsSection(rid);
       existing.replaceWith(newSection);
@@ -3623,7 +3623,7 @@
     }
 
     function getFilteredAnnotations() {
-      const filterBar = document.getElementById('issues-filter-bar');
+      const filterBar = document.querySelector('#issues-filter-bar');
       const activeTypes = new Set();
       const checkboxes = filterBar.querySelectorAll('input[type="checkbox"]');
       for (const cb of checkboxes) {
@@ -3652,7 +3652,7 @@
     }
 
     function renderIssuesFilterBar() {
-      const bar = document.getElementById('issues-filter-bar');
+      const bar = document.querySelector('#issues-filter-bar');
       // Preserve search text if re-rendering
       const existingSearch = bar.querySelector('.issues-search-input');
       const savedSearch = existingSearch ? existingSearch.value : '';
@@ -3706,7 +3706,7 @@
     }
 
     function renderIssuesActionsBar() {
-      const bar = document.getElementById('issues-actions-bar');
+      const bar = document.querySelector('#issues-actions-bar');
       bar.innerHTML = '';
 
       // Scan button
@@ -3760,7 +3760,7 @@
     const ISSUES_PAGE_SIZE = 100;
 
     function renderIssuesTable() {
-      const table = document.getElementById('issues-table');
+      const table = document.querySelector('#issues-table');
       table.innerHTML = '';
 
       const filtered = getFilteredAnnotations();
@@ -3893,11 +3893,11 @@
         tfoot.appendChild(tr);
         table.appendChild(tfoot);
 
-        document.getElementById('issues-prev-page')?.addEventListener('click', () => {
+        document.querySelector('#issues-prev-page')?.addEventListener('click', () => {
           issuesPage = Math.max(0, issuesPage - 1);
           renderIssuesTable();
         });
-        document.getElementById('issues-next-page')?.addEventListener('click', () => {
+        document.querySelector('#issues-next-page')?.addEventListener('click', () => {
           issuesPage = Math.min(totalPages - 1, issuesPage + 1);
           renderIssuesTable();
         });
@@ -3913,7 +3913,7 @@
       for (const panel of document.querySelectorAll('.tab-content')) {
         panel.classList.toggle('active', panel.id === `tab-${tabId}`);
       }
-      document.getElementById('nav-bar').classList.toggle('hidden', tabId !== 'entry-editor');
+      document.querySelector('#nav-bar').classList.toggle('hidden', tabId !== 'entry-editor');
     }
 
     async function runAutoScan() {
@@ -4050,7 +4050,7 @@
     });
 
     function renderAbbrEnglish(filterText) {
-      const list = document.getElementById('abbr-en-list');
+      const list = document.querySelector('#abbr-en-list');
       list.innerHTML = '';
       const abbrs = state.abbreviations.english?.abbreviations;
       if (!abbrs || Object.keys(abbrs).length === 0) {
@@ -4109,7 +4109,7 @@
         delBtn.addEventListener('click', () => {
           if (confirm(`Delete abbreviation "${key}"?`)) {
             delete abbrs[key];
-            renderAbbrEnglish(document.getElementById('abbr-search').value);
+            renderAbbrEnglish(document.querySelector('#abbr-search').value);
           }
         });
         row.appendChild(delBtn);
@@ -4122,11 +4122,11 @@
       }
     }
 
-    document.getElementById('abbr-search').addEventListener('input', (e) => {
+    document.querySelector('#abbr-search').addEventListener('input', (e) => {
       renderAbbrEnglish(e.target.value);
     });
 
-    document.getElementById('abbr-add-btn').addEventListener('click', () => {
+    document.querySelector('#abbr-add-btn').addEventListener('click', () => {
       const key = prompt('Enter abbreviation key:');
       if (!(key?.trim())) { return; }
       const trimmed = key.trim();
@@ -4137,11 +4137,11 @@
         return;
       }
       abbrs[trimmed] = { original: '', modern: '' };
-      renderAbbrEnglish(document.getElementById('abbr-search').value);
+      renderAbbrEnglish(document.querySelector('#abbr-search').value);
       showToast(`Added "${trimmed}"`);
     });
 
-    document.getElementById('abbr-save-en-btn').addEventListener('click', async () => {
+    document.querySelector('#abbr-save-en-btn').addEventListener('click', async () => {
       try {
         const res = await fetch('/api/abbreviations/english', {
           method: 'PUT',
@@ -4156,7 +4156,7 @@
     });
 
     function renderAbbrHebrew() {
-      const ta = document.getElementById('abbr-he-textarea');
+      const ta = document.querySelector('#abbr-he-textarea');
       const versions = state.abbreviations.hebrew?.versions;
       if (!versions || versions.length === 0) {
         ta.value = '';
@@ -4167,9 +4167,9 @@
       ta.value = textArr.join('\n');
     }
 
-    document.getElementById('abbr-save-he-btn').addEventListener('click', async () => {
+    document.querySelector('#abbr-save-he-btn').addEventListener('click', async () => {
       try {
-        const ta = document.getElementById('abbr-he-textarea');
+        const ta = document.querySelector('#abbr-he-textarea');
         const lines = ta.value.split('\n');
         // Preserve the full Sefaria structure, only update the text array
         const hebrewData = JSON.parse(JSON.stringify(state.abbreviations.hebrew));
@@ -4198,10 +4198,10 @@
     function initMapper() {
       const firstUnmapped = state.entries.findIndex(e => e.col === '?');
       if (firstUnmapped === -1) {
-        document.getElementById('mapper-header').innerHTML = '';
-        document.getElementById('mapper-word-list').innerHTML =
+        document.querySelector('#mapper-header').innerHTML = '';
+        document.querySelector('#mapper-word-list').innerHTML =
           '<div class="mapper-all-done">All entries are mapped!</div>';
-        document.getElementById('mapper-controls').innerHTML = '';
+        document.querySelector('#mapper-controls').innerHTML = '';
         return;
       }
       const prev = firstUnmapped > 0 ? state.entries[firstUnmapped - 1] : null;
@@ -4223,7 +4223,7 @@
       const pct = total > 0 ? ((mapped / total) * 100).toFixed(1) : 0;
       const colLabel = m.currentColumn === 'a' ? 'Left (a)' : 'Right (b)';
 
-      document.getElementById('mapper-header').innerHTML = `
+      document.querySelector('#mapper-header').innerHTML = `
         <div class="mapper-info">
           <span class="mapper-page">Page ${m.currentPage}</span>
           <span class="mapper-col">Column: ${colLabel}</span>
@@ -4241,7 +4241,7 @@
       const m = state.mapper;
       renderMapperHeader();
 
-      const list = document.getElementById('mapper-word-list');
+      const list = document.querySelector('#mapper-word-list');
       list.innerHTML = '';
 
       const end = Math.min(m.startIndex + m.batchSize, state.entries.length);
@@ -4269,7 +4269,7 @@
         list.appendChild(item);
       }
 
-      const controls = document.getElementById('mapper-controls');
+      const controls = document.querySelector('#mapper-controls');
       controls.innerHTML = '';
 
       const confirmBtn = document.createElement('button');
@@ -4347,25 +4347,25 @@
     }
 
     function showLetterBoundaryDialog(oldLetter, newLetter) {
-      const dialog = document.getElementById('mapper-letter-dialog');
-      document.getElementById('mapper-letter-msg').textContent =
+      const dialog = document.querySelector('#mapper-letter-dialog');
+      document.querySelector('#mapper-letter-msg').textContent =
         `Letter change: ${oldLetter} \u2192 ${newLetter}`;
-      document.getElementById('mapper-letter-page').value = state.mapper.currentPage;
+      document.querySelector('#mapper-letter-page').value = state.mapper.currentPage;
       dialog.showModal();
     }
 
-    document.getElementById('mapper-letter-confirm').addEventListener('click', () => {
-      const page = Number.parseInt(document.getElementById('mapper-letter-page').value, 10);
+    document.querySelector('#mapper-letter-confirm').addEventListener('click', () => {
+      const page = Number.parseInt(document.querySelector('#mapper-letter-page').value, 10);
       if (!Number.isNaN(page) && page > 0) {
         state.mapper.currentPage = page;
         state.mapper.currentColumn = 'a';
       }
-      document.getElementById('mapper-letter-dialog').close();
+      document.querySelector('#mapper-letter-dialog').close();
       renderMapperBatch();
     });
 
-    document.getElementById('mapper-letter-cancel').addEventListener('click', () => {
-      document.getElementById('mapper-letter-dialog').close();
+    document.querySelector('#mapper-letter-cancel').addEventListener('click', () => {
+      document.querySelector('#mapper-letter-dialog').close();
       renderMapperBatch();
     });
 
@@ -4403,7 +4403,7 @@
     }
 
     function renderSagesList(filter) {
-      const list = document.getElementById('sages-list');
+      const list = document.querySelector('#sages-list');
       list.innerHTML = '';
       const sages = getSortedSages(filter);
 
@@ -4457,7 +4457,7 @@
       const sage = state.sages.find(s => s.id === id);
       if (!sage) { return; }
       sageSnapshot = JSON.parse(JSON.stringify(sage));
-      renderSagesList(document.getElementById('sages-search').value);
+      renderSagesList(document.querySelector('#sages-search').value);
       renderSageDetail(sage);
     }
 
@@ -4469,7 +4469,7 @@
     }
 
     function renderSageDetail(sage) {
-      const detail = document.getElementById('sages-detail');
+      const detail = document.querySelector('#sages-detail');
       detail.innerHTML = '';
 
       const layout = document.createElement('div');
@@ -4749,13 +4749,13 @@
       if (!sagesCurrentId) { return; }
       sagesDirtySet.add(sagesCurrentId);
       updateSageButtons();
-      renderSagesList(document.getElementById('sages-search').value);
+      renderSagesList(document.querySelector('#sages-search').value);
 
       clearTimeout(sagePreviewTimer);
       sagePreviewTimer = setTimeout(() => {
         const updated = collectSageFromForm();
         if (updated) {
-          const card = document.getElementById('sage-card-preview');
+          const card = document.querySelector('#sage-card-preview');
           if (card) { renderSageCardContent(card, updated); }
         }
       }, 150);
@@ -4763,42 +4763,42 @@
 
     function updateSageButtons() {
       const isDirty = sagesDirtySet.has(sagesCurrentId);
-      const saveBtn = document.getElementById('sage-save-btn');
-      const revertBtn = document.getElementById('sage-revert-btn');
+      const saveBtn = document.querySelector('#sage-save-btn');
+      const revertBtn = document.querySelector('#sage-revert-btn');
       if (saveBtn) { saveBtn.disabled = !isDirty; }
       if (revertBtn) { revertBtn.disabled = !isDirty; }
     }
 
     function collectSageFromForm() {
-      const form = document.getElementById('sage-edit-form');
+      const form = document.querySelector('#sage-edit-form');
       if (!(form && sageSnapshot)) { return null; }
 
       const sage = JSON.parse(JSON.stringify(sageSnapshot));
-      sage.name.en = document.getElementById('sage-name-en')?.value || '';
-      sage.name.he = document.getElementById('sage-name-he')?.value || '';
-      sage.era = document.getElementById('sage-era')?.value || 'tanna';
-      const genVal = document.getElementById('sage-generation')?.value;
+      sage.name.en = document.querySelector('#sage-name-en')?.value || '';
+      sage.name.he = document.querySelector('#sage-name-he')?.value || '';
+      sage.era = document.querySelector('#sage-era')?.value || 'tanna';
+      const genVal = document.querySelector('#sage-generation')?.value;
       sage.generation = genVal === '' ? undefined : Number(genVal);
 
-      const bornVal = document.getElementById('sage-born')?.value;
-      const diedVal = document.getElementById('sage-died')?.value;
+      const bornVal = document.querySelector('#sage-born')?.value;
+      const diedVal = document.querySelector('#sage-died')?.value;
       sage.dates = {
         born: bornVal === '' ? undefined : Number(bornVal),
         died: diedVal === '' ? undefined : Number(diedVal),
-        approximate: document.getElementById('sage-approximate')?.checked,
+        approximate: document.querySelector('#sage-approximate')?.checked,
       };
 
-      sage.location = document.getElementById('sage-location')?.value || 'israel';
-      const locsVal = document.getElementById('sage-locations')?.value || '';
+      sage.location = document.querySelector('#sage-location')?.value || 'israel';
+      const locsVal = document.querySelector('#sage-locations')?.value || '';
       sage.locations = locsVal ? locsVal.split(',').map(s => s.trim()).filter(Boolean) : [];
 
-      sage.bio = document.getElementById('sage-bio')?.value || '';
-      const teachVal = document.getElementById('sage-teachings')?.value || '';
+      sage.bio = document.querySelector('#sage-bio')?.value || '';
+      const teachVal = document.querySelector('#sage-teachings')?.value || '';
       sage.teachings = teachVal ? teachVal.split('\n').filter(s => s.trim()) : [];
-      const storiesVal = document.getElementById('sage-stories')?.value || '';
+      const storiesVal = document.querySelector('#sage-stories')?.value || '';
       sage.stories = storiesVal ? storiesVal.split('\n').filter(s => s.trim()) : [];
-      sage.sefariaTopicSlug = document.getElementById('sage-sefaria-slug')?.value || '';
-      sage.nasi = document.getElementById('sage-nasi')?.checked;
+      sage.sefariaTopicSlug = document.querySelector('#sage-sefaria-slug')?.value || '';
+      sage.nasi = document.querySelector('#sage-nasi')?.checked;
 
       // Clean up empty values
       if (sage.generation === undefined) { delete sage.generation; }
@@ -4824,7 +4824,7 @@
           sageSnapshot = JSON.parse(JSON.stringify(sage));
           sagesDirtySet.delete(sage.id);
           updateSageButtons();
-          renderSagesList(document.getElementById('sages-search').value);
+          renderSagesList(document.querySelector('#sages-search').value);
           showToast('Sage saved');
         } else {
           const errText = await res.text();
@@ -4841,7 +4841,7 @@
       if (idx >= 0) { state.sages[idx] = JSON.parse(JSON.stringify(sageSnapshot)); }
       sagesDirtySet.delete(sagesCurrentId);
       renderSageDetail(JSON.parse(JSON.stringify(sageSnapshot)));
-      renderSagesList(document.getElementById('sages-search').value);
+      renderSagesList(document.querySelector('#sages-search').value);
     }
 
     async function deleteSage(id) {
@@ -4868,8 +4868,8 @@
           sagesDirtySet.delete(id);
           sagesCurrentId = null;
           sageSnapshot = null;
-          renderSagesList(document.getElementById('sages-search').value);
-          document.getElementById('sages-detail').innerHTML =
+          renderSagesList(document.querySelector('#sages-search').value);
+          document.querySelector('#sages-detail').innerHTML =
             '<div class="sages-detail-empty">Select a sage from the list</div>';
           showToast('Sage deleted');
         } else {
@@ -4999,8 +4999,8 @@
     }
 
     function addSageRelationship(sageId) {
-      const typeSelect = document.getElementById('sage-rel-type');
-      const targetInput = document.getElementById('sage-rel-target-input');
+      const typeSelect = document.querySelector('#sage-rel-type');
+      const targetInput = document.querySelector('#sage-rel-target-input');
       const targetId = targetInput.dataset.selectedId;
       if (!targetId) {
         showToast('Select a target sage');
@@ -5036,7 +5036,7 @@
       sageSnapshot = JSON.parse(JSON.stringify(sage));
       renderSageDetail(sage);
       updateSageButtons();
-      renderSagesList(document.getElementById('sages-search').value);
+      renderSagesList(document.querySelector('#sages-search').value);
     }
 
     function removeSageRelationship(sageId, relIndex) {
@@ -5063,11 +5063,11 @@
       sageSnapshot = JSON.parse(JSON.stringify(sage));
       renderSageDetail(sage);
       updateSageButtons();
-      renderSagesList(document.getElementById('sages-search').value);
+      renderSagesList(document.querySelector('#sages-search').value);
     }
 
     // Add new sage
-    document.getElementById('sages-add-btn').addEventListener('click', () => {
+    document.querySelector('#sages-add-btn').addEventListener('click', () => {
       const id = prompt('Sage ID (e.g. rabbi-akiva):');
       if (!(id?.trim())) { return; }
       const trimmedId = id.trim().toLowerCase().replace(/\s+/gu, '-');
@@ -5118,13 +5118,13 @@
     });
 
     // Sages search
-    document.getElementById('sages-search').addEventListener('input', (e) => {
+    document.querySelector('#sages-search').addEventListener('input', (e) => {
       renderSagesList(e.target.value);
     });
 
     // --- Claude Research Integration ---
     async function researchSage(sageId) {
-      const panel = document.getElementById('sage-research-panel');
+      const panel = document.querySelector('#sage-research-panel');
       if (!panel) { return; }
 
       panel.innerHTML = '<div class="research-status"><span class="sage-research-spinner"></span> Researching...</div>';
@@ -5207,19 +5207,19 @@
       const content = suggestion.content;
 
       if (type === 'bio') {
-        const bioTa = document.getElementById('sage-bio');
+        const bioTa = document.querySelector('#sage-bio');
         if (bioTa) {
           bioTa.value = bioTa.value ? `${bioTa.value}\n${content}` : content;
           onSageFieldInput();
         }
       } else if (type === 'teaching') {
-        const teachTa = document.getElementById('sage-teachings');
+        const teachTa = document.querySelector('#sage-teachings');
         if (teachTa) {
           teachTa.value = teachTa.value ? `${teachTa.value}\n${content}` : content;
           onSageFieldInput();
         }
       } else if (type === 'story') {
-        const storiesTa = document.getElementById('sage-stories');
+        const storiesTa = document.querySelector('#sage-stories');
         if (storiesTa) {
           storiesTa.value = storiesTa.value ? `${storiesTa.value}\n${content}` : content;
           onSageFieldInput();
@@ -5232,11 +5232,11 @@
             sage.relationships.push({ type: suggestion.relType, target: suggestion.relTarget });
             sagesDirtySet.add(sageId);
             sageSnapshot = JSON.parse(JSON.stringify(sage));
-            const relEditor = document.getElementById('sage-rel-editor');
+            const relEditor = document.querySelector('#sage-rel-editor');
             if (relEditor) {
               relEditor.remove();
-              const editArea = document.getElementById('sage-edit-area');
-              const researchPanel = document.getElementById('sage-research-panel');
+              const editArea = document.querySelector('#sage-edit-area');
+              const researchPanel = document.querySelector('#sage-research-panel');
               if (editArea && researchPanel) {
                 renderSageRelEditor(editArea, sage);
                 editArea.appendChild(researchPanel);
@@ -5269,7 +5269,7 @@
     }
 
     function renderStatsTab() {
-      const grid = document.getElementById('stats-grid');
+      const grid = document.querySelector('#stats-grid');
       grid.innerHTML = '<div class="loading-msg">Computing stats...</div>';
       // Defer to next frame so the loading message renders
       requestAnimationFrame(() => {
@@ -5356,9 +5356,9 @@
     }
 
     async function buildRabbinicTimePdf() {
-      const btn = document.getElementById('build-rabbinic-time-btn');
-      const status = document.getElementById('build-rabbinic-time-status');
-      const log = document.getElementById('build-rabbinic-time-log');
+      const btn = document.querySelector('#build-rabbinic-time-btn');
+      const status = document.querySelector('#build-rabbinic-time-status');
+      const log = document.querySelector('#build-rabbinic-time-log');
 
       btn.disabled = true;
       log.hidden = true;
@@ -5402,7 +5402,7 @@
       }
     }
 
-    document.getElementById('build-rabbinic-time-btn')
+    document.querySelector('#build-rabbinic-time-btn')
       .addEventListener('click', buildRabbinicTimePdf);
 
     // --- Init ---
