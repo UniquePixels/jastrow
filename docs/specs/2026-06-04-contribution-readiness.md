@@ -235,13 +235,53 @@ Work top-to-bottom. Each task: intent + key files + verification.
   gate on PRs.
 
 ### Batch B — Data-edit safety net (Blocker 2)
-- [ ] **T6. Sanitize on admin save** — run entry/definition HTML through
-  DOMPurify (permissive allow-list) in `handlePutEntry`/`handleSaveAll`
-  (`server.ts:216-243`) before writing. *Verify:* a `<script>`-laced edit
-  is stripped on save.
-- [ ] **T7. Re-home useful pipeline checks** (D3) — port the Stage-7 HTML
-  allow-list from the archived pipeline into a shared validator used by
-  T6 and T8. *Verify:* same allow-list enforced at save and in CI.
+
+**Execution notes (T6 + T7 foundation, 2026-06-08):**
+- **Decision: reject, don't strip.** Maintainer chose to *reject* a save
+  containing disallowed HTML (HTTP 400 + violation list, nothing written)
+  over silently stripping. Rationale: a re-serializing sanitizer rewrote
+  **5,168 / 50,510** clean fields (`&c.`→`&amp;c.` entity normalization),
+  which would churn diffs and trip the D8 300-line guard on the first save.
+  Reject keeps clean saves **byte-stable** and matches the pipeline's
+  original "investigate, don't silently remove" philosophy.
+- **Allow-list corrected from §6a.** Empirical audit of the live corpus
+  (50,510 HTML fields) found the §6a narrow list (`a/span/em/strong/b/i/
+  br/sup`) would strip **176,346 `<abbr>`** tags. The **Stage-7 list** is
+  canonical: tags `a abbr b br div em i p span strong sub sup`; attrs
+  `class dir data-ref` global + `href target rel` on `a`, `title` on
+  `abbr`. Schemes: `http`/`https` only; protocol-relative (`//`) and
+  fragment-with-colon (`#rid:…`) handled correctly. Detector found **0
+  violations** across all 32,512 entries (no false positives).
+- **Detector, not sanitizer.** `htmlparser2` (replaced a brief
+  `sanitize-html` trial) parses with `decodeEntities:true` so obfuscated
+  schemes (`java&#115;cript:`) are caught. Lives in
+  `scripts/lib/entry-html.ts` — the shared validator (T7) importable by
+  the admin server (T6) and the future `validate:data` CI (T8).
+  **Why not Bun's zero-dep `HTMLRewriter`:** verified it does *not* decode
+  entities in attribute values, so `java&#115;cript:` would slip past it
+  while the browser's `innerHTML` sink *does* decode it (live XSS).
+  Matching it would require hand-rolled entity decoding — custom security
+  code we explicitly avoid. `htmlparser2` handles it correctly out of box.
+- **CI now installs deps.** `htmlparser2` is the repo's first external
+  *runtime* import, but CI's `setup-env` previously installed mise tools
+  only (no `bun install`) — tests had passed because tested code used only
+  `node:*` builtins. Added `bun install --frozen-lockfile` to
+  `setup-env/action.yml` (npm egress already allow-listed; bun skips
+  Playwright's browser download since no lifecycle scripts are trusted).
+  Sandbox note: `server.test.ts` binds a real port via `Bun.serve`, which
+  the local agent sandbox blocks (`EADDRINUSE`/errno 0); run `bun test`
+  with the sandbox disabled. CI (GitHub runner) is unaffected.
+
+- [x] **T6. Reject disallowed HTML on admin save** — `handlePutEntry` and
+  `handleSaveAll` (`server.ts`) run `findEntryViolations` over each
+  incoming entry's `c.s[].d` (recursive) + `li`; on any violation return
+  400 all-or-nothing, writing nothing. *Verified:* `<script>`-laced and
+  `javascript:`-href edits return 400 with the violation + field path; the
+  on-disk entry is unchanged (`server.test.ts`, 9 server + 10 unit tests).
+- [x] **T7. Shared validator with Stage-7 allow-list** (D3) — created
+  `scripts/lib/entry-html.ts` + unit tests; consumed by T6 at save. CI
+  half (same module imported by `validate:data`) lands with T8.
+  *Verified:* allow-list enforced at save; module ready for CI import.
 - [ ] **T8. `validate:data` script + `ci-data.yml`** — parse every JSONL
   line; assert `hw`+`id` present, `id` globally unique; JSON-Schema each
   entry; re-run the HTML allow-list. Workflow matches existing hardened

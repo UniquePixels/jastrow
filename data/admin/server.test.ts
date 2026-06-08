@@ -153,6 +153,61 @@ describe('PUT /api/entry/:rid', () => {
 	});
 });
 
+describe('PUT /api/entry/:rid sanitization', () => {
+	it('rejects a script-laced edit and writes nothing', async () => {
+		const getRes = await fetch(`${BASE}/api/entries`);
+		const { entries } = (await getRes.json()) as EntriesResponse;
+		const original = entries.find((e) => e.id === 'A00014');
+		if (!original) {
+			throw new Error('Fixture entry A00014 not found');
+		}
+
+		const malicious = {
+			...original,
+			c: { s: [{ d: 'gloss <script>alert(1)</script>' }] },
+		};
+		const putRes = await fetch(`${BASE}/api/entry/A00014`, {
+			method: 'PUT',
+			headers: { 'Content-Type': 'application/json' },
+			body: JSON.stringify(malicious),
+		});
+		expect(putRes.status).toBe(400);
+		const payload = (await putRes.json()) as {
+			violations?: { kind: string; detail: string; path: string }[];
+		};
+		expect(payload.violations).toContainEqual({
+			kind: 'tag',
+			detail: 'script',
+			path: 'c.s[0].d',
+		});
+
+		// The on-disk entry must be untouched by the rejected save.
+		const verifyRes = await fetch(`${BASE}/api/entries`);
+		const verifyData = (await verifyRes.json()) as EntriesResponse;
+		const after = verifyData.entries.find((e) => e.id === 'A00014');
+		expect(after).toEqual(original);
+	});
+
+	it('rejects a javascript: href edit', async () => {
+		const getRes = await fetch(`${BASE}/api/entries`);
+		const { entries } = (await getRes.json()) as EntriesResponse;
+		const original = entries.find((e) => e.id === 'A00014');
+		if (!original) {
+			throw new Error('Fixture entry A00014 not found');
+		}
+		const malicious = {
+			...original,
+			c: { s: [{ d: '<a href="javascript:alert(1)">x</a>' }] },
+		};
+		const putRes = await fetch(`${BASE}/api/entry/A00014`, {
+			method: 'PUT',
+			headers: { 'Content-Type': 'application/json' },
+			body: JSON.stringify(malicious),
+		});
+		expect(putRes.status).toBe(400);
+	});
+});
+
 describe('GET /api/abbreviations', () => {
 	it('returns english and hebrew objects', async () => {
 		const res = await fetch(`${BASE}/api/abbreviations`);

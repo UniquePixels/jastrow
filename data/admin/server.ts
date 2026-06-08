@@ -1,6 +1,10 @@
 import { existsSync, readFileSync, writeFileSync } from 'node:fs';
 import { join } from 'node:path';
 import process from 'node:process';
+import {
+	type EntryViolation,
+	findEntryViolations,
+} from '../../scripts/lib/entry-html.ts';
 import { buildRabbinicTimePdf } from './pdf-builds/render-rabbinic-time.ts';
 
 // JASTROW_DATA_DIR lets tests (or alternate setups) point all data reads
@@ -107,6 +111,18 @@ function corsHeaders(): Record<string, string> {
 		'Access-Control-Allow-Methods': 'GET, PUT, POST, DELETE, OPTIONS',
 		'Access-Control-Allow-Headers': 'Content-Type',
 	};
+}
+
+// Turn allow-list violations into a 400 the admin UI can show. The save is
+// rejected before any disk write, so disallowed HTML never reaches the data.
+function violationResponse(violations: EntryViolation[]): Response {
+	return jsonResponse(
+		{
+			error: 'Entry contains disallowed HTML',
+			violations,
+		},
+		400,
+	);
 }
 
 function saveEntriesToDisk(): void {
@@ -252,6 +268,10 @@ async function handlePutEntry(
 		return jsonResponse({ error: `Entry not found: ${rid}` }, 404);
 	}
 	const body = (await req.json()) as Entry;
+	const violations = findEntryViolations(body);
+	if (violations.length > 0) {
+		return violationResponse(violations);
+	}
 	entries[idx] = body;
 	saveEntriesToDisk();
 	return jsonResponse({ ok: true, entry: body });
@@ -260,6 +280,17 @@ async function handlePutEntry(
 async function handleSaveAll(req: Request): Promise<Response> {
 	const body = (await req.json()) as { updates?: Entry[] };
 	if (Array.isArray(body.updates)) {
+		// Validate the whole batch first; reject all-or-nothing so a single
+		// bad entry never lands a partial, half-saved write.
+		const violations: EntryViolation[] = body.updates.flatMap((update) =>
+			findEntryViolations(update).map((v) => ({
+				...v,
+				path: `${update.id}:${v.path}`,
+			})),
+		);
+		if (violations.length > 0) {
+			return violationResponse(violations);
+		}
 		for (const update of body.updates) {
 			const idx = entries.findIndex((e) => e.id === update.id);
 			if (idx !== -1) {
