@@ -325,7 +325,9 @@
   }
   .chart-wrap canvas {
     display: block;
+    /* biome-ignore lint/complexity/noImportantStyles: Chart.js sets canvas width/height as inline styles; !important is required to force responsive sizing */
     width: 100% !important;
+    /* biome-ignore lint/complexity/noImportantStyles: Chart.js sets canvas width/height as inline styles; !important is required to force responsive sizing */
     height: 360px !important;
   }
   .takeaways {
@@ -637,9 +639,9 @@
   let currentBody = bodyZmanim; // start in Zmanim section
 
   for (const tr of Array.from(liveBody.children)) {
-    if (tr.classList && tr.classList.contains('rt-sh')) {
+    if (tr.classList?.contains('rt-sh')) {
       const headTd = tr.querySelector('td');
-      const headText = (headTd && headTd.textContent || '').trim();
+      const headText = (headTd?.textContent || '').trim();
       if (/^Prayer Times/iu.test(headText) || /^Korbanot/iu.test(headText)) {
         currentBody = bodyPrayerKorbanot;
       }
@@ -653,9 +655,9 @@
       currentBody.appendChild(newTr);
       continue;
     }
-    if (tr.children.length === 1 && tr.children[0].colSpan === 3) continue;
+    if (tr.children.length === 1 && tr.children[0].colSpan === 3) { continue; }
     const tds = tr.querySelectorAll('td');
-    if (tds.length < 3) continue;
+    if (tds.length < 3) { continue; }
 
     const newTr = document.createElement('tr');
     newTr.className = 'entry';
@@ -677,7 +679,7 @@
     }
     const transSp = document.createElement('span');
     transSp.className = 'trans';
-    if (trEl) transSp.textContent = trEl.textContent;
+    if (trEl) { transSp.textContent = trEl.textContent; }
     td1.append(nameSp, hebSp, transSp);
 
     const td2 = document.createElement('td');
@@ -708,10 +710,10 @@
     compactClone.removeAttribute('width');
     compactClone.removeAttribute('height');
     compactClone.querySelectorAll('text').forEach(t => {
-      if ((t.textContent || '').trim() === 'Bein HaShmashot') t.remove();
+      if ((t.textContent || '').trim() === 'Bein HaShmashot') { t.remove(); }
     });
     compactClone.querySelectorAll('line').forEach(l => {
-      if ((l.getAttribute('stroke') || '').includes('80,120,220')) l.remove();
+      if ((l.getAttribute('stroke') || '').includes('80,120,220')) { l.remove(); }
     });
     compactClone.querySelectorAll('text').forEach(t => {
       const fs = Number.parseFloat(t.getAttribute('font-size') || '10');
@@ -789,7 +791,7 @@
   window.PRINT_READY = true;
 })().catch(err => {
   document.body.insertAdjacentHTML('beforeend',
-    '<pre style="color:red">' + (err && err.stack || err) + '</pre>');
+    '<pre style="color:red">' + (err?.stack || err) + '</pre>');
   window.PRINT_READY = true;
   window.PRINT_ERROR = String(err);
 });

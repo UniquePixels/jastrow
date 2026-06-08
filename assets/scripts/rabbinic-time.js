@@ -70,6 +70,7 @@
 		return e;
 	}
 
+	// biome-ignore lint/complexity/useMaxParams: geometry primitive; (cx,cy,radius,startAngle,endAngle) is the natural positional signature
 	function pieSeg(cx, cy, r, a1, a2) {
 		const end = normEnd(a1, a2);
 		if (end - a1 >= 360) {
@@ -81,6 +82,7 @@
 		return `M${cx},${cy} L${p1.x.toFixed(1)},${p1.y.toFixed(1)} A${r},${r},0,${la},1,${p2.x.toFixed(1)},${p2.y.toFixed(1)}Z`;
 	}
 
+	// biome-ignore lint/complexity/useMaxParams: geometry primitive; (cx,cy,outerR,innerR,startAngle,endAngle) is the natural positional signature
 	function ringSeg(cx, cy, ro, ri, a1, a2) {
 		const end = normEnd(a1, a2);
 		const la = end - a1 > 180 ? 1 : 0;

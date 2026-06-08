@@ -88,8 +88,11 @@ wa-tab:focus-visible::part(base) {
 	*,
 	*::before,
 	*::after {
+		/* biome-ignore lint/complexity/noImportantStyles: reduced-motion a11y override must win over every animation/transition */
 		transition-duration: 0.01ms !important;
+		/* biome-ignore lint/complexity/noImportantStyles: reduced-motion a11y override must win over every animation/transition */
 		animation-duration: 0.01ms !important;
+		/* biome-ignore lint/complexity/noImportantStyles: reduced-motion a11y override must win over every animation/transition */
 		animation-iteration-count: 1 !important;
 	}
 }

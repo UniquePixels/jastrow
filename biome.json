@@ -99,7 +99,6 @@
 				"useExpect": "on",
 				"useExplicitReturnType": "on",
 				"useExplicitType": "on",
-				"useGlobalThis": "on",
 				"useIframeSandbox": "on",
 				"useImportsFirst": "on",
 				"useNamedCaptureGroup": "on",
@@ -198,7 +197,7 @@
 			"suspicious": {
 				"noAlert": "on",
 				"noBitwiseOperators": "on",
-				"noConsole": "on",
+				"noConsole": "info",
 				"noConstantBinaryExpressions": "on",
 				"noDeprecatedImports": "on",
 				"noDuplicateDependencies": "on",
@@ -225,6 +224,29 @@
 		}
 	},
 	"overrides": [
+		{
+			"includes": [".commitlintrc.ts"],
+			"linter": {
+				"rules": {
+					"style": {
+						"noDefaultExport": "off"
+					}
+				}
+			}
+		},
+		{
+			"includes": ["data/admin/**"],
+			"linter": {
+				"rules": {
+					"correctness": {
+						"noNodejsModules": "off"
+					},
+					"performance": {
+						"noDelete": "off"
+					}
+				}
+			}
+		},
 		{
 			"includes": ["**/*.test.ts"],
 			"linter": {

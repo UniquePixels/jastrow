@@ -217,8 +217,8 @@
 	font-weight: 600;
 	text-transform: uppercase;
 	letter-spacing: 0.08em;
-	background: var(--rt-bg2) !important;
-	border-bottom: 1px solid var(--rt-bor) !important;
+	background: var(--rt-bg2);
+	border-bottom: 1px solid var(--rt-bor);
 }
 
 .rabbinic-time-content .rt-zn {

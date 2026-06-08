@@ -4685,6 +4685,7 @@
       editArea.appendChild(researchPanel);
     }
 
+    // biome-ignore lint/complexity/useMaxParams: form-field factory; the 5 attributes map directly to the field being built
     function makeSageField(type, id, label, value, dir) {
       const group = document.createElement('div');
       group.className = 'field-group';

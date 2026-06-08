@@ -946,8 +946,3 @@ class JastrowDataLoader {
 		return this.entries.length;
 	}
 }
-
-// Export for use in other modules
-if (typeof module !== 'undefined' && module.exports) {
-	module.exports = JastrowDataLoader;
-}
