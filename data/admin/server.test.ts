@@ -22,7 +22,7 @@ interface AbbreviationsResponse {
 }
 
 interface SagesResponse {
-	sages: Array<Record<string, unknown>>;
+	sages: Record<string, unknown>[];
 }
 
 let serverProcess: ReturnType<typeof Bun.spawn>;

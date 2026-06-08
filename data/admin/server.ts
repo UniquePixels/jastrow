@@ -402,7 +402,7 @@ async function handleBuildRabbinicTimePdf(): Promise<Response> {
 		return jsonResponse({
 			ok: true,
 			bytes: result.bytes,
-			kb: +(result.bytes / 1024).toFixed(1),
+			kb: Number((result.bytes / 1024).toFixed(1)),
 			durationMs: result.durationMs,
 			outPath: 'assets/pdfs/rabbinic-time.pdf',
 			logs: result.logs,

@@ -3241,7 +3241,7 @@
           obj = obj[Number(key)];
         }
       }
-      const lastKey = parts[parts.length - 1];
+      const lastKey = parts.at(-1);
       if (lastKey === "d") {
         obj.d = value;
       } else {
