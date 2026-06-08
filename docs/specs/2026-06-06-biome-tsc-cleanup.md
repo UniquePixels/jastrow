@@ -83,3 +83,12 @@ code**; a rule is only disabled with a project-specific justification.
 | `nursery/noSyncScripts` (index.html) | Fixed (defer) | App + CDN scripts get `defer`; the two head kit loaders left synchronous (custom-element FOUC risk — needs browser check). | n/a |
 
 **Kept as non-gating signal (info severity, not fixed):** `noConsole` (audit), `noExcessiveCognitiveComplexity`, `noExcessiveLinesPerFunction`, `noExcessiveLinesPerFile`, `useBaseline` — flag real complexity / browser-compat to revisit without forcing risky changes now.
+
+**Deliberately held (info, non-gating):**
+- `nursery/useNamedCaptureGroup` (11) — refactoring the regexes to named groups + updating their match-index references is fiddly with real bug risk for non-gating gain.
+- `nursery/noSyncScripts` (2) — the Web Awesome / Font Awesome head kit loaders in `index.html`; deferring them risks custom-element FOUC and needs browser verification.
+- `style/useExportsLast` (1) — `render-rabbinic-time.ts` has a `if (import.meta.main)` CLI entry block after the export; satisfying the rule means moving the 70-line function below it, which reads worse.
+
+## Open verification
+
+- The `index.html` `defer` change (body-end CDN + app scripts) should be sanity-checked in a browser: confirm the app initializes (search, sages graph, keyboard, charts). It's the one change not verified during cleanup.
