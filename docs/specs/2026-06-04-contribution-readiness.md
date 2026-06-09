@@ -59,9 +59,11 @@ artifacts, much of the work post-dated them without updates.
 1. ✅ **Green + enforced quality gate** — DONE 2026-06-05 (Batch A).
    Was red (85 errors); now `biome check .` exits 0 and CI runs the full
    check (`ci-lint.yml`). 48 warnings remain but are non-gating. (T1–T5)
-2. **Data-edit safety net** — the admin save path performs **no
-   sanitization**, and nothing validates a data PR. Close the
-   trust-boundary hole + add a `validate:data` CI gate. (T6–T8)
+2. ✅ **Data-edit safety net** — DONE 2026-06-08 (Batch B). Admin save
+   now rejects disallowed HTML (T6); a shared allow-list validator backs
+   both save and CI (T7); `validate:data` + `ci-data.yml` gate every
+   `data/**` PR on schema, unique ids, HTML, and a 300-line size ceiling
+   (T8/T8b/T8c). The `trustedHTML` trust-boundary hole is closed end-to-end.
 
 **Should-fix-first:**
 
@@ -282,18 +284,42 @@ Work top-to-bottom. Each task: intent + key files + verification.
   `scripts/lib/entry-html.ts` + unit tests; consumed by T6 at save. CI
   half (same module imported by `validate:data`) lands with T8.
   *Verified:* allow-list enforced at save; module ready for CI import.
-- [ ] **T8. `validate:data` script + `ci-data.yml`** — parse every JSONL
-  line; assert `hw`+`id` present, `id` globally unique; JSON-Schema each
-  entry; re-run the HTML allow-list. Workflow matches existing hardened
-  style, runs on `data/**` PRs. *Verify:* a corrupted-line PR fails CI.
-- [ ] **T8b. Add `.gitattributes`** marking `*.jsonl` `linguist-generated`.
-  *Verify:* GitHub collapses the data file in PR file-list but the small
-  hunk is still expandable.
-- [ ] **T8c. Data-change-size guard in `ci-data.yml`** (D8) — compute
-  changed-line count of `data/**` vs the PR base (`git diff --numstat`);
-  fail if over the ceiling (e.g. > 300) unless a `bulk-data-ok` label is
-  present. *Verify:* a deliberate full-file reserialization fails; a
-  ~50-entry honest edit passes; the label override unblocks a real bulk PR.
+- [x] **T8. `validate:data` script + `ci-data.yml`** — `scripts/validate-data.ts`
+  parses every JSONL line and checks: valid JSON, structural schema
+  (`scripts/lib/entry-schema.ts`), global `id` uniqueness across both
+  files, and the HTML allow-list (reuses `entry-html.ts` from T7).
+  `ci-data.yml` (`validate` job) runs it on `data/**`/`scripts/**` PRs in
+  the existing hardened style (harden-runner, SHA-pinned actions, min
+  perms). *Verified:* clean corpus passes (32,512 entries, all ids
+  unique); a temp dir with a malformed line + duplicate id +
+  `<script>` href all fail with `file:line · field · detail` and exit 1.
+  8 schema unit tests added.
+- [x] **T8b. Add `.gitattributes`** marking `*.jsonl` `linguist-generated`.
+  *Verified:* attribute applies to both data files; admin-tool edits still
+  produce a small expandable hunk.
+- [x] **T8c. Data-change-size guard in `ci-data.yml`** (D8) — `size-guard`
+  job diffs `data/**` (`git diff --numstat base head`), fails over a
+  300-line ceiling (`MAX_CHANGED_LINES` env). Whole job is gated
+  `!contains(labels, 'bulk-data-ok')`, so the label override skips it
+  cleanly; PR re-runs on `labeled`/`unlabeled`. SHAs passed via env (no
+  injection). *Verified:* YAML valid; logic matches D8.
+
+**Execution notes (T8, 2026-06-08):**
+- **Schema is hand-rolled, not ajv.** Dependency-free (project ethos) and
+  emits the same `path · detail` message shape as the HTML validator. Audited
+  the live corpus for real field types before writing it: `ah`/`pf`/`q` are
+  **arrays**, `g`/`rf` are **objects** (top-level *and* sense-level `g`),
+  the rest strings — an initial string-everything guess flagged 27k false
+  positives. Required: `hw` (non-empty string), `id` (string matching
+  `^[A-Za-z]\d{5}$` — all 32,512 conform, no entry-creation path exists to
+  introduce another shape), `c` (object with `s` array). Optionals
+  type-checked only when present.
+- **Two new biome facts.** (1) Added a `scripts/*.ts` override (mirrors
+  `data/admin/**`: `noNodejsModules`/`noProcessEnv` off) because the CLI
+  legitimately imports `node:*` + reads `process.env`; `scripts/lib/**`
+  stays strict (pure libs). (2) `validate-data.ts` size-guard SHAs go
+  through `env:` per the Actions-injection guidance.
+- **No new deps.** Validator reuses T7's `htmlparser2`; lockfile unchanged.
 
 ### Batch C — Supply-chain tooling
 - [ ] **T9. Semgrep — confirm Managed Scans onboarding, add nothing to

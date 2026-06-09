@@ -272,6 +272,19 @@
 			}
 		},
 		{
+			"includes": ["scripts/*.ts", "!scripts/**/*.test.ts"],
+			"linter": {
+				"rules": {
+					"correctness": {
+						"noNodejsModules": "off"
+					},
+					"style": {
+						"noProcessEnv": "off"
+					}
+				}
+			}
+		},
+		{
 			"includes": ["**/*.test.ts"],
 			"linter": {
 				"rules": {

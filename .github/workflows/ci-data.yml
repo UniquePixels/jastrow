@@ -1,0 +1,85 @@
+name: CI - Data checks
+
+on:
+  workflow_call:
+  pull_request:
+    branches:
+      - main
+    types:
+      - opened
+      - synchronize
+      - reopened
+      - labeled
+      - unlabeled
+    paths:
+      - 'data/**'
+      - 'scripts/**'
+      - '.github/workflows/ci-data.yml'
+
+permissions: {}
+
+jobs:
+  validate:
+    name: Validate data
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - name: Harden runner
+        uses: step-security/harden-runner@f808768d1510423e83855289c910610ca9b43176 # v2.17.0
+        with:
+          disable-sudo: true
+          egress-policy: block
+          allowed-endpoints: >
+            api.github.com:443
+            github.com:443
+            mise-versions.jdx.dev:443
+            mise.jdx.dev:443
+            registry.npmjs.org:443
+            release-assets.githubusercontent.com:443
+      - name: Checkout repository
+        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
+        with:
+          # Full history so the size guard can diff against the PR base.
+          fetch-depth: 0
+      - name: Setup
+        uses: ./.github/actions/setup-env
+      - name: Validate JSONL (schema · unique ids · HTML allow-list)
+        run: bun run validate:data
+
+  size-guard:
+    name: Data change size
+    runs-on: ubuntu-latest
+    if: >-
+      github.event_name == 'pull_request' &&
+      !contains(github.event.pull_request.labels.*.name, 'bulk-data-ok')
+    permissions:
+      contents: read
+    env:
+      # Fail a data PR whose changed-line count exceeds this. Set well above
+      # honest edits (one topic, ~25-50 entries) so only a mass reserialization
+      # accident trips it. Override with the `bulk-data-ok` label (see job `if`).
+      MAX_CHANGED_LINES: '300'
+      BASE_SHA: ${{ github.event.pull_request.base.sha }}
+      HEAD_SHA: ${{ github.event.pull_request.head.sha }}
+    steps:
+      - name: Harden runner
+        uses: step-security/harden-runner@f808768d1510423e83855289c910610ca9b43176 # v2.17.0
+        with:
+          disable-sudo: true
+          egress-policy: block
+          allowed-endpoints: >
+            github.com:443
+      - name: Checkout repository
+        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
+        with:
+          fetch-depth: 0
+      - name: Count changed data lines
+        run: |
+          changed=$(git diff --numstat "$BASE_SHA" "$HEAD_SHA" -- 'data/**' \
+            | awk '{ added += $1; deleted += $2 } END { print added + deleted + 0 }')
+          echo "Changed data lines: ${changed} (ceiling: ${MAX_CHANGED_LINES})"
+          if [ "$changed" -gt "$MAX_CHANGED_LINES" ]; then
+            echo "::error::Data change of ${changed} lines exceeds the ${MAX_CHANGED_LINES}-line ceiling. Split the PR (one topic, ~25-50 entries), or add the 'bulk-data-ok' label for a genuine bulk correction."
+            exit 1
+          fi
