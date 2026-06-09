@@ -48,7 +48,8 @@ artifacts, much of the work post-dated them without updates.
 | ~~O1~~ | **RESOLVED 2026-06-04.** Semgrep runs as **Managed Scans**, not CI. The two installed apps are the required pair: `semgrep-app` (public — org membership) + `Semgrep Code - UniquePixels` (private app, code-access for Managed Scans). Both needed — do not retire either. Managed Scans run a **diff-aware scan on every PR automatically** + a weekly full scan, on Semgrep's infra. → **No Semgrep Actions workflow, no `SEMGREP_APP_TOKEN`, no repo `semgrep.yml`** (Managed Scans ignore in-repo config; rulesets live in the dashboard Policies). Inline `nosemgrep` suppressions remain honored. | T9 | — resolved |
 | O2 | Confirm squash-merge stays the merge strategy. | D4 | Assume yes (global convention). |
 | ~~O3~~ | **RESOLVED 2026-06-04 → D9.** Stance: AI is a tool, the human is the author; reject slop / massive PRs / unsupervised agentic runs; AI on data only for narrow structured verifiable tasks, human-verified against source. T12 writes the CONTRIBUTING section from D9. | T12 | — resolved |
-| O4 | **Maintainer is authoring a reusable cross-repo AI statement** to drop into all repos' CONTRIBUTING. The T12 AI section should use *that* text (D9 is the interim spec / requirements it must satisfy). **REMIND the maintainer to provide the statement when T12 starts** — do not hand-write final AI-section prose without it. | T12 (AI section only) | If still unavailable at T12, draft from D9 and mark it provisional pending the official statement. |
+| ~~O4~~ | **RESOLVED 2026-06-08.** Maintainer provided the official reusable cross-repo AI statement; T12 used it verbatim + a repo-specific data paragraph. Original text below. | T12 | — resolved |
+| O4-orig | **Maintainer is authoring a reusable cross-repo AI statement** to drop into all repos' CONTRIBUTING. The T12 AI section should use *that* text (D9 is the interim spec / requirements it must satisfy). **REMIND the maintainer to provide the statement when T12 starts** — do not hand-write final AI-section prose without it. | T12 (AI section only) | If still unavailable at T12, draft from D9 and mark it provisional pending the official statement. |
 
 ---
 
@@ -68,9 +69,10 @@ artifacts, much of the work post-dated them without updates.
 **Should-fix-first:**
 
 3. ✅ Sages-graph keyboard access — DONE 2026-06-08 (Batch D, T11).
-4. Contributor docs centered on the admin-tool workflow. (T12)
+4. ✅ Contributor docs centered on the admin-tool workflow — DONE
+   2026-06-08 (Batch E, T12).
 5. PR/issue templates + CODEOWNERS. (T13)
-6. Renovate + Semgrep config. (T9–T10)
+6. ✅ Renovate + Semgrep config — DONE 2026-06-08 (T9 + T10).
 
 **Was a blocker, now not:** data sharding (D2), pipeline restoration (D3),
 manual `version.json` bumps (auto-handled by admin tool, D1).
@@ -346,7 +348,11 @@ Work top-to-bottom. Each task: intent + key files + verification.
   `Digests` keep SHA-pins updated with `# vX.Y.Z` comments preserved.
   github-actions digests + root devDep minor/patch → automerged.
 
-- [ ] **T9. Semgrep — confirm Managed Scans onboarding** (O1 resolved). In
+- [x] **T9. Semgrep — confirm Managed Scans onboarding** (O1 resolved).
+  **DONE 2026-06-08:** maintainer confirmed `jastrow` is added to Managed
+  Scans. In-repo half (d3/chart.js SRI, §6b) already done. No workflow /
+  `semgrep.yml` in repo (Managed Scans run on Semgrep infra). Original task
+  text below for reference. In
   the Semgrep dashboard: verify `jastrow` is added to Managed Scans
   (private app has access) and a JS ruleset/policy is assigned. No
   workflow, no `semgrep.yml`. *Verify:* opening a test PR triggers a
@@ -392,7 +398,29 @@ Work top-to-bottom. Each task: intent + key files + verification.
   node, Enter opens sidebar, SR announces the graph + lists sages.
 
 ### Batch E — Contributor enablement
-- [ ] **T12. Contributor docs** — CONTRIBUTING "Contributing Data"
+
+**Execution notes (T12, 2026-06-08):**
+- **Split structure** (maintainer choice): CONTRIBUTING carries the
+  workflow + data-editing guide + size policy + AI statement; three new
+  reference docs under `docs/` hold the detail —
+  `docs/architecture.md` (load order + `window`-globals contract, built
+  from `index.html` + verified `window.*` assignments),
+  `docs/data-entry-schema.md` (entry shape from `entry-schema.ts` + a real
+  sampled entry + the Stage-7 HTML allow-list), and
+  `docs/accessibility-checklist.md` (reconstructed from §5 findings —
+  `docs/orchestra` was already deleted, nothing to port from).
+- **AI statement is the maintainer's official cross-repo text (O4)**, used
+  verbatim, plus a repo-specific data paragraph: AI OK for narrow
+  verifiable data tasks (acronym tags, field normalization), **not** for
+  rewriting entry definitions; size policy still applies.
+- **README admin section was stale post-T1** — fixed: one root
+  `bun install` (light), `bun run setup:pdf` for Chromium/PDF only,
+  `bun run admin` to start (was `cd data/admin && bun install` +
+  `bun data/admin/server.ts`).
+- *Verified:* `biome check .` exit 0; all cross-doc links + referenced
+  source paths resolve; README/CONTRIBUTING anchors match.
+
+- [x] **T12. Contributor docs** — CONTRIBUTING "Contributing Data"
   section centered on the **admin tool** (setup via root install +
   `setup:pdf` only if building PDFs; edit → tool saves → commit → PR;
   emphasize *don't hand-edit JSONL*). **State the data-change-size policy
