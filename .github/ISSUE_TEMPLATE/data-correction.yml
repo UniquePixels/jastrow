@@ -1,0 +1,45 @@
+name: Data correction
+description: Report an error in a dictionary entry (typo, wrong reference, bad markup)
+labels: ["data"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Corrections must be **verifiable against the source** (Jastrow's
+        dictionary / Sefaria). Please cite it. Data is edited through the
+        admin tool — see CONTRIBUTING § Contributing Data.
+  - type: input
+    id: headword
+    attributes:
+      label: Headword
+      description: The entry's headword, and its id if you know it (e.g. `A00000`).
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: What is wrong?
+      description: Quote the current text and describe the error.
+    validations:
+      required: true
+  - type: textarea
+    id: correction
+    attributes:
+      label: Proposed correction
+      description: What should it say instead?
+    validations:
+      required: true
+  - type: textarea
+    id: source
+    attributes:
+      label: Source
+      description: Citation that confirms the correction (Jastrow page/column, Sefaria link, etc.).
+    validations:
+      required: true
+  - type: checkboxes
+    id: verified
+    attributes:
+      label: Verification
+      options:
+        - label: I have verified this correction against the cited source.
+          required: true

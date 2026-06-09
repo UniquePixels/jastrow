@@ -436,7 +436,14 @@ Work top-to-bottom. Each task: intent + key files + verification.
   short architecture/module-map (load order + `window`-globals contract).
   Port the a11y checklist out of the soon-deleted spec. *Verify:* a cold
   reader can install, edit one entry via the tool, and open a PR.
-- [ ] **T13. PR + issue templates + CODEOWNERS** —
+- [x] **T13. PR + issue templates + CODEOWNERS** — DONE 2026-06-09.
+  `PULL_REQUEST_TEMPLATE.md` (DCO, biome, a11y, data-validated checklist
+  + AI-disclosure checkbox); `ISSUE_TEMPLATE/` YAML forms (bug,
+  data-correction with required source citation + verification checkbox,
+  feature) + `config.yml` (blank issues off; security link → SECURITY.md,
+  matching its email channel — not GitHub advisories); `CODEOWNERS`
+  (`* @uniquepixels`). *Verified:* `biome check .` exit 0; all four
+  issue-form YAMLs parse. Original task text below. —
   `PULL_REQUEST_TEMPLATE.md` (DCO sign-off, `biome check` green, a11y
   check, "data validated" when `data/**` touched);
   `ISSUE_TEMPLATE/` (bug, data-correction, feature) + `config.yml`;
