@@ -67,7 +67,7 @@ artifacts, much of the work post-dated them without updates.
 
 **Should-fix-first:**
 
-3. Sages-graph keyboard access (broken flagship a11y feature). (T11)
+3. ✅ Sages-graph keyboard access — DONE 2026-06-08 (Batch D, T11).
 4. Contributor docs centered on the admin-tool workflow. (T12)
 5. PR/issue templates + CODEOWNERS. (T13)
 6. Renovate + Semgrep config. (T9–T10)
@@ -361,8 +361,31 @@ Work top-to-bottom. Each task: intent + key files + verification.
   digests, devDep minor/patch); CDN group held manual for SRI. *Verified:*
   `biome check .` exit 0; config validates clean against `renovate@latest`.
 
-### Batch D — Accessibility (flagship fix)
-- [ ] **T11. Sages graph keyboard access** — `tabindex` `-1`→`0`
+### Batch D — Accessibility (flagship fix) — ✅ DONE 2026-06-08
+
+**Execution notes (T11, 2026-06-08):**
+- **Click handler alone was unreachable by keyboard.** An SVG `<g
+  role="button">` is not natively keyboard-operable, so `tabindex="0"`
+  only got focus there — Enter/Space did nothing. Added an explicit
+  `keydown` handler (Enter + Space, `preventDefault` on Space to stop
+  page scroll) sharing one `activate()` closure with the click handler.
+- **Text alternative is non-interactive by design.** The 155 nodes are
+  now individually focusable; a second interactive surface would double
+  the tab stops. `_drawTextAlternative()` appends a `.visually-hidden`
+  `<h3>` + `<ul>` of plain-text names (en + he + dates) — a structured
+  reading order for SR users, since positioned SVG nodes have none. It
+  runs inside `render()` after `_createSVG()` so it rebuilds on every
+  filter change (node count stays in sync).
+- **`.visually-hidden` utility added** to `accessibility.css` (clip-rect
+  pattern); biome reordered `clip` last (nursery `useSortedProperties`).
+- **Verified live** (python static server + chrome-devtools): `#sages`
+  renders 59 nodes (tannaim default filter), each `tabindex="0"`
+  `role="button"` with a full aria-label; svg carries `role="group"` +
+  descriptive aria-label; hidden list has matching 59 items. Focusing a
+  node + dispatching Enter **and** Space both navigate to
+  `#sage:hillel-the-elder`. No console errors. `biome check .` exit 0.
+
+- [x] **T11. Sages graph keyboard access** — `tabindex` `-1`→`0`
   (`sages-graph.js:348`), CSS `:focus`→`:focus-visible`
   (`accessibility.css:57`), add `role="group"`+`aria-label` and a
   visually-hidden sage list as text alternative. *Verify:* Tab reaches a
