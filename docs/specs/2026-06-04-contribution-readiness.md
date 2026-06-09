@@ -168,8 +168,10 @@ rest are defensible.
   **exact-pinned** on jsdelivr → content is immutable → **SRI hashes can
   be added** (line 595 already does this for another script). The "may
   change per minor version" comment is inaccurate for an exact pin.
-  **Action (follow-up):** add `integrity` to the d3 + chart.js tags and
-  drop those two suppressions.
+  **DONE 2026-06-08 (Batch C):** added `sha384` `integrity` to both tags
+  (`index.html:597-602`), dropped both `nosemgrep` lines and the inaccurate
+  "may change per minor version" comments. Hashes computed from the live
+  exact-pinned CDN bytes. All 4 script CDN tags now carry SRI.
 
 ---
 
@@ -322,17 +324,42 @@ Work top-to-bottom. Each task: intent + key files + verification.
 - **No new deps.** Validator reuses T7's `htmlparser2`; lockfile unchanged.
 
 ### Batch C — Supply-chain tooling
-- [ ] **T9. Semgrep — confirm Managed Scans onboarding, add nothing to
-  repo** (O1 resolved). In the Semgrep dashboard: verify `jastrow` is
-  added to Managed Scans (private app has access) and a JS ruleset/policy
-  is assigned. No workflow, no `semgrep.yml`. Separately, address the
-  d3/chart.js SRI tightening (§6b). *Verify:* opening a test PR triggers a
+
+**Execution notes (T9 SRI + T10, 2026-06-08):**
+- **CDN pins live only in `index.html`, not `_headers`.** `_headers`
+  carries host-level CSP `script-src` (no versions). The regex manager
+  targets `index.html` jsdelivr pins.
+- **SRI vs. Renovate tension.** 4 of 5 CDN scripts now carry `integrity`.
+  A regex-manager version bump cannot recompute the hash, so a stale
+  `integrity` would break the page. CDN updates are therefore **grouped,
+  scheduled, and `automerge:false`** with a `needs-sri-update` label —
+  matches D7's "automerge *safe* updates" (CDN+SRI is not safe). Maintainer
+  recomputes the hash on each CDN PR.
+- **Schema field names are current-Renovate.** `customManagers` +
+  `managerFilePatterns` are v39+ (the older `regexManagers`/`fileMatch`
+  validate-fail on a stale `renovate@37`). Validated clean against
+  `renovate@latest`'s `renovate-config-validator`. **Caveat:** the
+  validator binary needs Node, not Bun — Bun segfaults loading Renovate's
+  native `re2` module; run it via `npx --package renovate@latest`.
+- **mise + actions handled natively.** Renovate's `mise` manager covers
+  `.mise.toml` (biome, bun); `github-actions` + `helpers:pinGitHubAction`
+  `Digests` keep SHA-pins updated with `# vX.Y.Z` comments preserved.
+  github-actions digests + root devDep minor/patch → automerged.
+
+- [ ] **T9. Semgrep — confirm Managed Scans onboarding** (O1 resolved). In
+  the Semgrep dashboard: verify `jastrow` is added to Managed Scans
+  (private app has access) and a JS ruleset/policy is assigned. No
+  workflow, no `semgrep.yml`. *Verify:* opening a test PR triggers a
   diff-aware Semgrep scan automatically; inline `nosemgrep` suppressions
-  honored; `.github/workflows` has no Semgrep job.
-- [ ] **T10. Renovate** (D7) — `renovate.json`: Actions digests,
-  `.mise.toml`, root `package.json`, regex manager for CDN pins in
-  `index.html`/`_headers`; grouped + scheduled + automerge safe updates.
-  *Verify:* dependency dashboard issue appears; a test update PR groups.
+  honored; `.github/workflows` has no Semgrep job. **(Dashboard step is the
+  maintainer's — not in-repo.)** The in-repo half (d3/chart.js SRI, §6b) is
+  **DONE** — see §6b.
+- [x] **T10. Renovate** (D7) — `renovate.json` at repo root: `customManager`
+  regex for jsdelivr CDN pins in `index.html`, native `mise` +
+  `github-actions` managers, root `package.json` devDeps; grouped +
+  scheduled (Mon before 6am ET) + automerge for safe updates (Actions
+  digests, devDep minor/patch); CDN group held manual for SRI. *Verified:*
+  `biome check .` exit 0; config validates clean against `renovate@latest`.
 
 ### Batch D — Accessibility (flagship fix)
 - [ ] **T11. Sages graph keyboard access** — `tabindex` `-1`→`0`
