@@ -500,10 +500,11 @@ class JastrowDataLoader {
 			// Load abbreviations — shares the entry version lifecycle.
 			// If jastrow-abbr.json is updated, version.json must also be bumped
 			// so the cache is invalidated and fresh data is fetched.
-			if (db) {
-				this.abbrMap = {};
-				await this.loadAbbreviations(db, !loadedFromCache);
-			}
+			// Load abbreviations regardless of IDB availability — without a db
+			// the network path still populates abbrMap (the cache write is a
+			// no-op), so tooltips work even when IndexedDB is unavailable.
+			this.abbrMap = {};
+			await this.loadAbbreviations(db, !db || !loadedFromCache);
 
 			if (db) {
 				db.close();

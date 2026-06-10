@@ -125,7 +125,7 @@ ${prompt}`,
 
 		const [firstBlock] = response.content;
 		const text = firstBlock?.type === 'text' ? firstBlock.text : '';
-		const jsonMatch = text.match(/\[[\s\S]*\]/u);
+		const jsonMatch = text.match(/\[[\s\S]*?\]/u);
 		if (!jsonMatch) {
 			console.log(`Batch ${i}: no JSON found in response`);
 			continue;

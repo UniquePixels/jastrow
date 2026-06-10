@@ -794,8 +794,10 @@ const KORBANOT_RE = /^Korbanot/iu;
 
   window.PRINT_READY = true;
 })().catch(err => {
-  document.body.insertAdjacentHTML('beforeend',
-    `<pre style="color:red">${err?.stack || err}</pre>`);
+  const pre = document.createElement('pre');
+  pre.style.color = 'red';
+  pre.textContent = err?.stack || String(err);
+  document.body.appendChild(pre);
   window.PRINT_READY = true;
   window.PRINT_ERROR = String(err);
 });

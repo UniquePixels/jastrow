@@ -25,6 +25,20 @@
 		return el;
 	}
 
+	// Make an SVG element activatable by keyboard as well as pointer, so the
+	// time-chart labels are reachable without a mouse.
+	function makeActivatable(el, onActivate) {
+		el.setAttribute('tabindex', '0');
+		el.setAttribute('role', 'button');
+		el.addEventListener('click', onActivate);
+		el.addEventListener('keydown', (e) => {
+			if (e.key === 'Enter' || e.key === ' ') {
+				e.preventDefault();
+				onActivate();
+			}
+		});
+	}
+
 	function clrSvg(svg) {
 		// Preserve <title> for accessibility; remove all other children
 		const title = svg.querySelector(':scope > title');
@@ -739,7 +753,7 @@
 					'font-weight': isE ? 700 : 400,
 					cursor: 'pointer',
 				});
-				lbl.addEventListener('click', () => scrollToRow(m.id));
+				makeActivatable(lbl, () => scrollToRow(m.id));
 				svg.appendChild(lbl);
 			}
 			activeZR.forEach((zrow, ri) => {
@@ -775,7 +789,7 @@
 							'font-weight': 700,
 							cursor: 'pointer',
 						});
-						zt.addEventListener('click', () => scrollToRow('bhash'));
+						makeActivatable(zt, () => scrollToRow('bhash'));
 						svg.appendChild(zt);
 					} else {
 						svg.appendChild(
@@ -801,7 +815,7 @@
 									'font-weight': 700,
 									cursor: 'pointer',
 								});
-								zt.addEventListener('click', () => scrollToRow(id));
+								makeActivatable(zt, () => scrollToRow(id));
 								svg.appendChild(zt);
 							}
 						}

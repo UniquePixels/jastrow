@@ -7,7 +7,7 @@
 		"qa": "bun qa:format && bun qa:lint; bun qa:test; bun qa:tsc",
 		"qa:format": "biome format --write",
 		"qa:lint": "biome check --error-on-warnings",
-		"qa:ci": "biome ci --error-on-warnings ",
+		"qa:ci": "biome ci --error-on-warnings",
 		"qa:test": "bun test",
 		"qa:tsc": "tsc --noEmit --skipLibCheck",
 		"validate:data": "bun scripts/validate-data.ts",

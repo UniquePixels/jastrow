@@ -2827,7 +2827,11 @@
       nextBtn.disabled = page >= 1704;
       nextBtn.onclick = () => { if (page < 1704) { showPageScanDialog(page + 1);  }};
 
-      dialog.showModal();
+      // Prev/Next re-enter this function while the dialog is already open;
+      // showModal() throws on an open dialog, so only open it when closed.
+      if (!dialog.open) {
+        dialog.showModal();
+      }
     }
 
     document.querySelector('#page-scan-close').addEventListener('click', () => {
@@ -3589,13 +3593,18 @@
 
     async function saveAnnotations() {
       try {
-        await fetch('/api/annotations', {
+        const response = await fetch('/api/annotations', {
           method: 'PUT',
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify(state.annotations),
         });
+        if (!response.ok) {
+          throw new Error(`${response.status} ${response.statusText}`);
+        }
       } catch (err) {
+        // Surface the failure — previously a failed save looked successful.
         console.error('Failed to save annotations:', err);
+        showToast('Failed to save annotations — changes may not be persisted');
       }
     }
 

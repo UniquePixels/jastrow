@@ -402,7 +402,7 @@
   <script>'use strict';
     // Close navigation drawer when clicking hash links
     document.addEventListener('DOMContentLoaded', () => {
-      const sectionAnchors = document.querySelectorAll("[slot*='navigation'] a[href*='#']");
+      const sectionAnchors = document.querySelectorAll("[slot*='navigation'] a[href^='#']");
       for (const sectionAnchor of sectionAnchors) { sectionAnchor.setAttribute('data-drawer', 'close'); }
 
       // Banner dismiss handler (moved from inline to JS)

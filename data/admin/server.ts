@@ -268,6 +268,13 @@ async function handlePutEntry(
 		return jsonResponse({ error: `Entry not found: ${rid}` }, 404);
 	}
 	const body = (await req.json()) as Entry;
+	// Guard against a silent rename: the body id must match the route id.
+	if (body.id && body.id !== rid) {
+		return jsonResponse(
+			{ error: `Entry id mismatch: body "${body.id}" != route "${rid}"` },
+			400,
+		);
+	}
 	const violations = findEntryViolations(body);
 	if (violations.length > 0) {
 		return violationResponse(violations);

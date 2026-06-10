@@ -1922,8 +1922,14 @@ class JastrowApp {
 			const list = document.createElement('div');
 			list.className = 'hebrew-abbr-list';
 
-			// Skip first two lines (title and intro)
-			const lines = this._hebrewAbbrCache.versions[0].text.slice(2);
+			// Skip first two lines (title and intro). Guard against an
+			// unexpected/malformed cache shape rather than throwing.
+			const versions = this._hebrewAbbrCache?.versions;
+			const text =
+				Array.isArray(versions) && versions.length > 0
+					? versions[0]?.text
+					: null;
+			const lines = Array.isArray(text) ? text.slice(2) : [];
 
 			for (const line of lines) {
 				// Rewrite Jastrow links for inline context (no target="_parent", no index.html prefix)

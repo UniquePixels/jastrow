@@ -106,7 +106,7 @@ self.addEventListener('fetch', (event) => {
 	// Data files and version.json bypass SW cache — IDB handles data persistence
 	// Critical: version.json must never be cached by SW or update detection breaks
 	if (
-		url.pathname.includes('/data/') &&
+		url.pathname.startsWith('/data/') &&
 		!url.pathname.endsWith('/sages.json')
 	) {
 		event.respondWith(fetch(request));
