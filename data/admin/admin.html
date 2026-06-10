@@ -4305,26 +4305,20 @@
       const m = state.mapper;
       if (m.selectedIndex === null) { return; }
 
+      // Snapshot the values this confirm will apply. Build the payload from
+      // clones so a failed save leaves state.entries and the mapper position
+      // completely untouched (the user can simply retry Confirm).
+      const page = m.currentPage;
+      const column = m.currentColumn;
+      const startIndex = m.startIndex;
+      const endIndex = m.selectedIndex;
+
       const updates = [];
-      for (let i = m.startIndex; i <= m.selectedIndex; i++) {
-        state.entries[i].p = m.currentPage;
-        state.entries[i].col = m.currentColumn;
-        updates.push(state.entries[i]);
+      for (let i = startIndex; i <= endIndex; i++) {
+        updates.push({ ...state.entries[i], p: page, col: column });
       }
 
-      // Toggle column
-      const nextStartIndex = m.selectedIndex + 1;
-      if (m.currentColumn === 'a') {
-        m.currentColumn = 'b';
-      } else {
-        m.currentColumn = 'a';
-        m.currentPage++;
-      }
-      m.startIndex = nextStartIndex;
-      m.selectedIndex = null;
-      m.batchSize = 20;
-
-      // Save to server
+      // Save to server BEFORE any in-memory mutation or mapper advance.
       try {
         const res = await fetch('/api/save-all', {
           method: 'POST',
@@ -4332,10 +4326,28 @@
           body: JSON.stringify({ updates }),
         });
         if (!res.ok) { throw new Error(`Save failed: ${res.status}`); }
-        showToast(`Mapped ${updates.length} entries`);
       } catch (err) {
         showToast(`Error saving: ${err.message}`);
+        return;
       }
+
+      // Persisted — now apply to in-memory entries and advance the mapper.
+      for (let i = startIndex; i <= endIndex; i++) {
+        state.entries[i].p = page;
+        state.entries[i].col = column;
+      }
+      showToast(`Mapped ${updates.length} entries`);
+
+      // Toggle column / advance page based on the just-saved column.
+      if (column === 'a') {
+        m.currentColumn = 'b';
+      } else {
+        m.currentColumn = 'a';
+        m.currentPage++;
+      }
+      m.startIndex = endIndex + 1;
+      m.selectedIndex = null;
+      m.batchSize = 20;
 
       // Check if all done
       if (m.startIndex >= state.entries.length) {
@@ -4384,7 +4396,43 @@
     // --- Sages Editor ---
     let sagesCurrentId = null;
     const sagesDirtySet = new Set();
-    let sageSnapshot = null;
+    // Revert baselines, keyed by sage id: a deep clone of each sage's
+    // last-persisted state, captured lazily the first time that sage is
+    // mutated. The live working copy (form fields plus relationship edits, on
+    // both sides of a reciprocal pair) lives on state.sages; these snapshots
+    // exist purely so Revert can restore every sage an edit touched. A sage is
+    // in this map iff it is dirty.
+    const sageSnapshots = new Map();
+
+    // Capture a sage's clean baseline before its first in-memory mutation.
+    // No-op if already captured, so it never clobbers an earlier baseline.
+    function snapshotSage(sage) {
+      if (sage && !sageSnapshots.has(sage.id)) {
+        sageSnapshots.set(sage.id, JSON.parse(JSON.stringify(sage)));
+      }
+    }
+
+    // Mark a sage dirty and ensure its revert baseline is captured first.
+    function markSageDirty(sage) {
+      if (!sage) { return; }
+      snapshotSage(sage);
+      sagesDirtySet.add(sage.id);
+    }
+
+    // Restore every dirty sage to its captured baseline and clear edit state.
+    // Covers reciprocal targets dirtied as a side effect of relationship edits,
+    // not just the sage being viewed.
+    function revertDirtySages() {
+      for (const id of sagesDirtySet) {
+        const snap = sageSnapshots.get(id);
+        const idx = state.sages.findIndex(s => s.id === id);
+        if (snap && idx >= 0) {
+          state.sages[idx] = JSON.parse(JSON.stringify(snap));
+        }
+      }
+      sageSnapshots.clear();
+      sagesDirtySet.clear();
+    }
 
     const SAGE_RELATIONSHIP_TYPES = ['teacher', 'father', 'son', 'wife', 'husband', 'brother-in-law'];
     const SAGE_RECIPROCALS = {
@@ -4463,12 +4511,14 @@
     function selectSage(id) {
       if (sagesDirtySet.has(sagesCurrentId)) {
         if (!confirm('Unsaved changes on current sage. Discard?')) { return; }
-        sagesDirtySet.delete(sagesCurrentId);
+        // Roll back in-memory edits (including reciprocal targets) before
+        // leaving — otherwise abandoned changes would linger on state.sages.
+        revertDirtySages();
       }
       sagesCurrentId = id;
       const sage = state.sages.find(s => s.id === id);
       if (!sage) { return; }
-      sageSnapshot = JSON.parse(JSON.stringify(sage));
+      // Baselines are captured lazily on first edit, not on select.
       renderSagesList(document.querySelector('#sages-search').value);
       renderSageDetail(sage);
     }
@@ -4759,7 +4809,7 @@
 
     function onSageFieldInput() {
       if (!sagesCurrentId) { return; }
-      sagesDirtySet.add(sagesCurrentId);
+      markSageDirty(state.sages.find(s => s.id === sagesCurrentId));
       updateSageButtons();
       renderSagesList(document.querySelector('#sages-search').value);
 
@@ -4783,9 +4833,13 @@
 
     function collectSageFromForm() {
       const form = document.querySelector('#sage-edit-form');
-      if (!(form && sageSnapshot)) { return null; }
+      // Base on the live working copy, not the revert snapshot: relationship
+      // edits are applied to state.sages (not the form), so they must survive
+      // into the save payload while form fields are overlaid on top.
+      const base = state.sages.find(s => s.id === sagesCurrentId);
+      if (!(form && base)) { return null; }
 
-      const sage = JSON.parse(JSON.stringify(sageSnapshot));
+      const sage = JSON.parse(JSON.stringify(base));
       sage.name.en = document.querySelector('#sage-name-en')?.value || '';
       sage.name.he = document.querySelector('#sage-name-he')?.value || '';
       sage.era = document.querySelector('#sage-era')?.value || 'tanna';
@@ -4822,37 +4876,58 @@
     }
 
     async function saveSage() {
-      const sage = collectSageFromForm();
-      if (!sage) { return; }
+      const current = collectSageFromForm();
+      if (!current) { return; }
+
+      // Persist every dirty sage, not just the current one: relationship edits
+      // mutate the reciprocal target in memory and mark it dirty too, so the
+      // other side would otherwise never reach disk (PUT is per-sage).
+      const toSave = [];
+      const ids = new Set(sagesDirtySet);
+      ids.add(current.id);
+      for (const id of ids) {
+        if (id === current.id) {
+          toSave.push(current);
+        } else {
+          const other = state.sages.find(s => s.id === id);
+          if (other) { toSave.push(JSON.parse(JSON.stringify(other))); }
+        }
+      }
+
       try {
-        const res = await fetch(`/api/sage/${sage.id}`, {
-          method: 'PUT',
-          headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify(sage),
-        });
-        if (res.ok) {
+        for (const sage of toSave) {
+          // biome-ignore lint/performance/noAwaitInLoops: sequential PUTs avoid racing writes to the same sages file on the local server
+          const res = await fetch(`/api/sage/${sage.id}`, {
+            method: 'PUT',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify(sage),
+          });
+          if (!res.ok) {
+            const errText = await res.text();
+            throw new Error(`${sage.id}: ${errText}`);
+          }
           const idx = state.sages.findIndex(s => s.id === sage.id);
           if (idx >= 0) { state.sages[idx] = sage; }
-          sageSnapshot = JSON.parse(JSON.stringify(sage));
+          // Persisted: this sage is now clean, so drop its dirty flag and
+          // revert baseline. A later edit re-captures a fresh baseline.
           sagesDirtySet.delete(sage.id);
-          updateSageButtons();
-          renderSagesList(document.querySelector('#sages-search').value);
-          showToast('Sage saved');
-        } else {
-          const errText = await res.text();
-          showToast(`Save failed: ${errText}`);
+          sageSnapshots.delete(sage.id);
         }
+        updateSageButtons();
+        renderSagesList(document.querySelector('#sages-search').value);
+        showToast(toSave.length > 1 ? `Saved ${toSave.length} sages` : 'Sage saved');
       } catch (err) {
-        showToast(`Save error: ${err.message}`);
+        showToast(`Save failed: ${err.message}`);
       }
     }
 
     function revertSage() {
-      if (!sageSnapshot) { return; }
-      const idx = state.sages.findIndex(s => s.id === sagesCurrentId);
-      if (idx >= 0) { state.sages[idx] = JSON.parse(JSON.stringify(sageSnapshot)); }
-      sagesDirtySet.delete(sagesCurrentId);
-      renderSageDetail(JSON.parse(JSON.stringify(sageSnapshot)));
+      if (sagesDirtySet.size === 0) { return; }
+      // Restores the current sage and any reciprocal target dirtied alongside.
+      revertDirtySages();
+      const sage = state.sages.find(s => s.id === sagesCurrentId);
+      if (sage) { renderSageDetail(sage); }
+      updateSageButtons();
       renderSagesList(document.querySelector('#sages-search').value);
     }
 
@@ -4878,9 +4953,10 @@
           }
 
           state.sages = state.sages.filter(s => s.id !== id);
-          sagesDirtySet.delete(id);
+          // All sages were just rewritten to disk above, so nothing is dirty.
+          sagesDirtySet.clear();
+          sageSnapshots.clear();
           sagesCurrentId = null;
-          sageSnapshot = null;
           renderSagesList(document.querySelector('#sages-search').value);
           document.querySelector('#sages-detail').innerHTML =
             '<div class="sages-detail-empty">Select a sage from the list</div>';
@@ -5031,6 +5107,10 @@
         return;
       }
 
+      // Capture the revert baseline BEFORE mutating the live working copy, so
+      // Revert can undo this relationship. markSageDirty no-ops if a baseline
+      // for this sage was already captured earlier in the edit session.
+      markSageDirty(sage);
       sage.relationships.push({ type, target: targetId });
 
       // Add reciprocal if applicable
@@ -5040,13 +5120,14 @@
         if (targetSage) {
           if (!targetSage.relationships) { targetSage.relationships = []; }
           if (!targetSage.relationships.some(r => r.type === reciprocal && r.target === sageId)) {
+            // Snapshot + mark the reciprocal side dirty so saveSage persists it
+            // and Revert can roll it back too.
+            markSageDirty(targetSage);
             targetSage.relationships.push({ type: reciprocal, target: sageId });
           }
         }
       }
 
-      sagesDirtySet.add(sageId);
-      sageSnapshot = JSON.parse(JSON.stringify(sage));
       renderSageDetail(sage);
       updateSageButtons();
       renderSagesList(document.querySelector('#sages-search').value);
@@ -5056,6 +5137,8 @@
       const sage = state.sages.find(s => s.id === sageId);
       if (!(sage?.relationships)) { return; }
 
+      // Capture the revert baseline before removing, so Revert can restore it.
+      markSageDirty(sage);
       const removed = sage.relationships[relIndex];
       sage.relationships.splice(relIndex, 1);
 
@@ -5065,6 +5148,9 @@
         if (reciprocal) {
           const targetSage = state.sages.find(s => s.id === removed.target);
           if (targetSage?.relationships) {
+            // Snapshot + mark the reciprocal side dirty so the removal persists
+            // and Revert can roll it back too.
+            markSageDirty(targetSage);
             targetSage.relationships = targetSage.relationships.filter(
               r => !(r.type === reciprocal && r.target === sageId)
             );
@@ -5072,8 +5158,6 @@
         }
       }
 
-      sagesDirtySet.add(sageId);
-      sageSnapshot = JSON.parse(JSON.stringify(sage));
       renderSageDetail(sage);
       updateSageButtons();
       renderSagesList(document.querySelector('#sages-search').value);
@@ -5165,10 +5249,42 @@
       }
     }
 
+    // The research endpoint returns { suggestions: { bio, teachings, stories,
+    // relationships } } (see server.ts handleSageResearch), but the card UI and
+    // acceptResearchSuggestion expect a flat array of { type, content, ... }.
+    // Normalize the object into that array. Accepts an already-flat array too.
+    function normalizeResearchSuggestions(raw) {
+      if (Array.isArray(raw)) { return raw; }
+      if (!raw || typeof raw !== 'object') { return []; }
+
+      const out = [];
+      if (typeof raw.bio === 'string' && raw.bio.trim()) {
+        out.push({ type: 'bio', content: raw.bio.trim() });
+      }
+      for (const t of Array.isArray(raw.teachings) ? raw.teachings : []) {
+        if (typeof t === 'string' && t.trim()) { out.push({ type: 'teaching', content: t.trim() }); }
+      }
+      for (const s of Array.isArray(raw.stories) ? raw.stories : []) {
+        if (typeof s === 'string' && s.trim()) { out.push({ type: 'story', content: s.trim() }); }
+      }
+      for (const r of Array.isArray(raw.relationships) ? raw.relationships : []) {
+        if (r?.type && r.target) {
+          const note = r.note ? ` — ${r.note}` : '';
+          out.push({
+            type: 'relationship',
+            content: `${r.type} → ${r.target}${note}`,
+            relType: r.type,
+            relTarget: r.target,
+          });
+        }
+      }
+      return out;
+    }
+
     function renderResearchResults(panel, data, sageId) {
       panel.innerHTML = '';
 
-      const suggestions = data.suggestions || [];
+      const suggestions = normalizeResearchSuggestions(data?.suggestions);
       if (suggestions.length === 0) {
         panel.innerHTML = '<div class="research-status">No suggestions returned.</div>';
         return;
@@ -5241,9 +5357,9 @@
         if (sage) {
           if (!sage.relationships) { sage.relationships = []; }
           if (!sage.relationships.some(r => r.type === suggestion.relType && r.target === suggestion.relTarget)) {
+            // Snapshot baseline before mutating so Revert can undo this.
+            markSageDirty(sage);
             sage.relationships.push({ type: suggestion.relType, target: suggestion.relTarget });
-            sagesDirtySet.add(sageId);
-            sageSnapshot = JSON.parse(JSON.stringify(sage));
             const relEditor = document.querySelector('#sage-rel-editor');
             if (relEditor) {
               relEditor.remove();
