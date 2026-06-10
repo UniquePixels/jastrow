@@ -12,6 +12,11 @@ import { buildRabbinicTimePdf } from './pdf-builds/render-rabbinic-time.ts';
 const DATA_DIR: string =
 	process.env['JASTROW_DATA_DIR'] ?? join(import.meta.dir, '..');
 const PORT = Number.parseInt(process.env['PORT'] || '3333', 10);
+// Restrict CORS to the local admin UI origin (same-origin requests ignore
+// this; it blocks other web pages from issuing cross-origin writes to the
+// local server). Override with ADMIN_ALLOWED_ORIGIN if served elsewhere.
+const ALLOWED_ORIGIN: string =
+	process.env['ADMIN_ALLOWED_ORIGIN'] ?? `http://localhost:${PORT}`;
 
 // --- Types ---
 
@@ -100,14 +105,14 @@ function jsonResponse(data: unknown, status = 200): Response {
 		status,
 		headers: {
 			'Content-Type': 'application/json',
-			'Access-Control-Allow-Origin': '*',
+			'Access-Control-Allow-Origin': ALLOWED_ORIGIN,
 		},
 	});
 }
 
 function corsHeaders(): Record<string, string> {
 	return {
-		'Access-Control-Allow-Origin': '*',
+		'Access-Control-Allow-Origin': ALLOWED_ORIGIN,
 		'Access-Control-Allow-Methods': 'GET, PUT, POST, DELETE, OPTIONS',
 		'Access-Control-Allow-Headers': 'Content-Type',
 	};
@@ -462,7 +467,7 @@ function serveAdminHtml(): Response {
 		return new Response(html, {
 			headers: {
 				'Content-Type': 'text/html',
-				'Access-Control-Allow-Origin': '*',
+				'Access-Control-Allow-Origin': ALLOWED_ORIGIN,
 			},
 		});
 	} catch {

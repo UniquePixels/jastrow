@@ -4,6 +4,9 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Jastrow Data Admin</title>
+  <!-- DOMPurify sanitizes dictionary HTML rendered in entry previews -->
+  <script defer src="https://cdn.jsdelivr.net/npm/dompurify@3.0.8/dist/purify.min.js"
+    integrity="sha384-vdScihEZCfbPnBQf+lc7LgXUdJVYyhC3yWHUW5C5P5GpHRqVnaM6HJELJxT6IqwM" crossorigin="anonymous"></script>
   <style>
     /* --- Reset & Base --- */
     *, *::before, *::after { box-sizing: border-box; padding: 0; margin: 0; }
@@ -2418,8 +2421,14 @@
 
     // --- Utilities ---
     function trustedHTML(html) {
+      // Sanitize before insertion. Allowlist mirrors the production app
+      // (app.js) so previews render the same tags/attrs as the live site.
+      const clean = DOMPurify.sanitize(html, {
+        ALLOWED_TAGS: ["a", "span", "b", "i", "em", "strong", "br"],
+        ALLOWED_ATTR: ["href", "class", "dir", "data-ref"],
+      });
       const template = document.createElement("template");
-      template.innerHTML = html;
+      template.innerHTML = clean;
       return template.content;
     }
 

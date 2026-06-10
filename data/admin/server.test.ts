@@ -247,11 +247,11 @@ describe('GET /api/annotations', () => {
 describe('CORS', () => {
 	it('OPTIONS returns CORS headers', async () => {
 		const res = await fetch(`${BASE}/api/entries`, { method: 'OPTIONS' });
-		expect(res.headers.get('access-control-allow-origin')).toBe('*');
+		expect(res.headers.get('access-control-allow-origin')).toBe(BASE);
 	});
 
 	it('GET responses include CORS header', async () => {
 		const res = await fetch(`${BASE}/api/entries`);
-		expect(res.headers.get('access-control-allow-origin')).toBe('*');
+		expect(res.headers.get('access-control-allow-origin')).toBe(BASE);
 	});
 });
