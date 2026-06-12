@@ -1,0 +1,5 @@
+# The dictionary data is generated/tool-edited (see data/admin/), not
+# hand-authored. Mark it linguist-generated so GitHub collapses it in PR
+# diffs and excludes it from language stats. The small real hunk from an
+# admin-tool edit stays expandable.
+*.jsonl linguist-generated=true

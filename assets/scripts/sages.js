@@ -175,7 +175,7 @@ class TalmudSagesExplorer {
 		searchIcon.setAttribute('name', 'magnifying-glass');
 		searchInput.appendChild(searchIcon);
 
-		const GROUP_CONFIG = [
+		const GroupConfig = [
 			{ key: 'tanna', label: 'Tannaim', color: '#7c3aff' },
 			{ key: 'amorai-israel', label: 'Amoraim (Israel)', color: '#2563eb' },
 			{ key: 'amorai-bavel', label: 'Amoraim (Bavel)', color: '#17a34a' },
@@ -183,7 +183,7 @@ class TalmudSagesExplorer {
 		const activeGroups = new Set(['tanna']);
 		const eraGroup = document.createElement('wa-button-group');
 		eraGroup.setAttribute('label', 'Era filter');
-		for (const { key, label, color } of GROUP_CONFIG) {
+		for (const { key, label, color } of GroupConfig) {
 			const btn = document.createElement('wa-button');
 			btn.className = 'era-filter';
 			btn.dataset.group = key;
@@ -199,15 +199,15 @@ class TalmudSagesExplorer {
 			eraGroup.appendChild(btn);
 		}
 
-		const REL_CONFIG = [
+		const RelConfig = [
 			{ key: 'teacher-student', label: 'Teacher-Student', color: '#7c3aff' },
 			{ key: 'family', label: 'Family', color: '#2563eb' },
 			{ key: 'sibling', label: 'Sibling', color: '#6b7280' },
 		];
-		const activeRelTypes = new Set(REL_CONFIG.map((r) => r.key));
+		const activeRelTypes = new Set(RelConfig.map((r) => r.key));
 		const relGroup = document.createElement('wa-button-group');
 		relGroup.setAttribute('label', 'Relationship filter');
-		for (const { key, label, color } of REL_CONFIG) {
+		for (const { key, label, color } of RelConfig) {
 			const btn = document.createElement('wa-button');
 			btn.className = 'rel-filter';
 			btn.dataset.rel = key;
@@ -264,9 +264,9 @@ class TalmudSagesExplorer {
 		});
 
 		// Era filter handlers — multi-select toggle
-		this._toolbarContainer.querySelectorAll('.era-filter').forEach((btn) => {
+		for (const btn of this._toolbarContainer.querySelectorAll('.era-filter')) {
 			btn.addEventListener('click', () => {
-				const group = btn.dataset.group;
+				const { group } = btn.dataset;
 				if (activeGroups.has(group)) {
 					// Don't allow turning off all groups
 					if (activeGroups.size <= 1) {
@@ -282,12 +282,12 @@ class TalmudSagesExplorer {
 				}
 				this.graph.setFilters({ activeGroups: new Set(activeGroups) });
 			});
-		});
+		}
 
 		// Relationship filter handlers — multi-select toggle
-		this._toolbarContainer.querySelectorAll('.rel-filter').forEach((btn) => {
+		for (const btn of this._toolbarContainer.querySelectorAll('.rel-filter')) {
 			btn.addEventListener('click', () => {
-				const rel = btn.dataset.rel;
+				const { rel } = btn.dataset;
 				if (activeRelTypes.has(rel)) {
 					if (activeRelTypes.size <= 1) {
 						return;
@@ -302,7 +302,7 @@ class TalmudSagesExplorer {
 				}
 				this.graph.setFilters({ activeRelTypes: new Set(activeRelTypes) });
 			});
-		});
+		}
 	}
 
 	_buildGraphContainer() {

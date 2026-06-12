@@ -31,11 +31,12 @@ class JastrowDataLoader {
 			return '';
 		}
 		// Keep only Hebrew letters (Unicode range U+05D0 to U+05EA: א through ת)
-		let normalized = text.replace(/[^\u05D0-\u05EA]/g, '');
+		let normalized = text.replace(/[^\u05D0-\u05EA]/gu, '');
 		// Normalize sofit (final) letters to regular forms
 		// Each sofit letter's code point is exactly 1 less than its regular form
-		normalized = normalized.replace(/[\u05DA\u05DD\u05DF\u05E3\u05E5]/g, (ch) =>
-			String.fromCharCode(ch.charCodeAt(0) + 1),
+		normalized = normalized.replace(
+			/[\u05DA\u05DD\u05DF\u05E3\u05E5]/gu,
+			(ch) => String.fromCharCode(ch.charCodeAt(0) + 1),
 		);
 		return normalized;
 	}
@@ -48,7 +49,7 @@ class JastrowDataLoader {
 		if (!ref) {
 			return '';
 		}
-		return ref.toLowerCase().replace(/\./g, '').replace(/\s+/g, ' ').trim();
+		return ref.toLowerCase().replace(/\./gu, '').replace(/\s+/gu, ' ').trim();
 	}
 
 	/**
@@ -285,9 +286,7 @@ class JastrowDataLoader {
 	async fetchAbbreviations(db) {
 		const response = await fetch(IDB.ABBR_URL);
 		if (!response.ok) {
-			throw new Error(
-				`Failed to load abbreviations: ${response.statusText}`,
-			);
+			throw new Error(`Failed to load abbreviations: ${response.statusText}`);
 		}
 		const data = await response.json();
 		const abbrs = data.abbreviations;
@@ -299,10 +298,7 @@ class JastrowDataLoader {
 			await this.writeAbbrCache(db, abbrs);
 		} catch (writeError) {
 			if (window.DEBUG) {
-				console.warn(
-					'[DataLoader] Failed to cache abbreviations:',
-					writeError,
-				);
+				console.warn('[DataLoader] Failed to cache abbreviations:', writeError);
 			}
 		}
 		return abbrs;
@@ -416,8 +412,7 @@ class JastrowDataLoader {
 			try {
 				db = await this.openDatabase();
 				const versionCheck = await this.checkVersion(db);
-				serverVersion = versionCheck.serverVersion;
-				hadCache = versionCheck.hadCache;
+				({ serverVersion, hadCache } = versionCheck);
 
 				if (!versionCheck.needsNetwork) {
 					// Cache hit — load from IDB
@@ -472,6 +467,7 @@ class JastrowDataLoader {
 				// Use existing JSONL streaming (progressCallback adapted)
 				for (let fileIndex = 0; fileIndex < this.dataUrls.length; fileIndex++) {
 					const dataUrl = this.dataUrls[fileIndex];
+					// biome-ignore lint/performance/noAwaitInLoops: files load sequentially so progress is reported in order and the merged index stays ordered
 					await this.loadFile(dataUrl, fileIndex, (percent) => {
 						if (progressCallback) {
 							progressCallback({ phase: 'download', percent });
@@ -504,10 +500,11 @@ class JastrowDataLoader {
 			// Load abbreviations — shares the entry version lifecycle.
 			// If jastrow-abbr.json is updated, version.json must also be bumped
 			// so the cache is invalidated and fresh data is fetched.
-			if (db) {
-				this.abbrMap = {};
-				await this.loadAbbreviations(db, !loadedFromCache);
-			}
+			// Load abbreviations regardless of IDB availability — without a db
+			// the network path still populates abbrMap (the cache write is a
+			// no-op), so tooltips work even when IndexedDB is unavailable.
+			this.abbrMap = {};
+			await this.loadAbbreviations(db, !db || !loadedFromCache);
 
 			if (db) {
 				db.close();
@@ -527,7 +524,13 @@ class JastrowDataLoader {
 			refArray.sort((a, b) => {
 				const na = normMap.get(a);
 				const nb = normMap.get(b);
-				return na < nb ? -1 : na > nb ? 1 : 0;
+				if (na < nb) {
+					return -1;
+				}
+				if (na > nb) {
+					return 1;
+				}
+				return 0;
 			});
 			this.sortedReferences = refArray;
 			this.normalizedReferences = refArray.map((r) => normMap.get(r));
@@ -552,7 +555,7 @@ class JastrowDataLoader {
 		const reader = response.body.getReader();
 		const decoder = new TextDecoder();
 		let buffer = '';
-		const totalSize = parseInt(
+		const totalSize = Number.parseInt(
 			response.headers.get('content-length') || '0',
 			10,
 		);
@@ -560,6 +563,7 @@ class JastrowDataLoader {
 		const numFiles = this.dataUrls.length;
 
 		while (true) {
+			// biome-ignore lint/performance/noAwaitInLoops: stream chunks must be read sequentially
 			const { done, value } = await reader.read();
 
 			if (done) {
@@ -755,6 +759,7 @@ class JastrowDataLoader {
 		let left = 0;
 		let right = this.sortedHeadwords.length;
 		while (left < right) {
+			// biome-ignore lint/suspicious/noBitwiseOperators: unsigned right shift = floor((left+right)/2), the standard overflow-safe binary-search midpoint
 			const mid = (left + right) >>> 1;
 			if (this.sortedHeadwords[mid] < normalized) {
 				left = mid + 1;
@@ -800,6 +805,7 @@ class JastrowDataLoader {
 		let left = 0;
 		let right = this.normalizedReferences.length;
 		while (left < right) {
+			// biome-ignore lint/suspicious/noBitwiseOperators: unsigned right shift = floor((left+right)/2), the standard overflow-safe binary-search midpoint
 			const mid = (left + right) >>> 1;
 			if (this.normalizedReferences[mid] < normalized) {
 				left = mid + 1;
@@ -854,6 +860,7 @@ class JastrowDataLoader {
 		let left = 0;
 		let right = this.normalizedReferences.length;
 		while (left < right) {
+			// biome-ignore lint/suspicious/noBitwiseOperators: unsigned right shift = floor((left+right)/2), the standard overflow-safe binary-search midpoint
 			const mid = (left + right) >>> 1;
 			if (this.normalizedReferences[mid] < normalized) {
 				left = mid + 1;
@@ -901,7 +908,7 @@ class JastrowDataLoader {
 		}
 
 		const index = this.ridIndex.get(rid);
-		return index !== undefined ? this.entries[index] : null;
+		return index === undefined ? null : this.entries[index];
 	}
 
 	/**
@@ -913,7 +920,7 @@ class JastrowDataLoader {
 			return -1;
 		}
 		const index = this.ridIndex.get(rid);
-		return index !== undefined ? index : -1;
+		return index === undefined ? -1 : index;
 	}
 
 	/**
@@ -951,7 +958,5 @@ class JastrowDataLoader {
 	}
 }
 
-// Export for use in other modules
-if (typeof module !== 'undefined' && module.exports) {
-	module.exports = JastrowDataLoader;
-}
+// Exposed as a global for the other classic scripts (no bundler).
+window.JastrowDataLoader = JastrowDataLoader;

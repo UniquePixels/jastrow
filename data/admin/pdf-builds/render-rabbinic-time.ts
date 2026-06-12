@@ -13,14 +13,15 @@
  */
 import { mkdirSync, statSync } from 'node:fs';
 import { dirname, join, relative } from 'node:path';
+import process from 'node:process';
 import { chromium } from 'playwright';
 
-const HERE = import.meta.dir;
+const HERE: string = import.meta.dir;
 const HTML = join(HERE, 'rabbinic-time.html');
 const REPO_ROOT = join(HERE, '..', '..', '..');
 const OUT = join(REPO_ROOT, 'assets', 'pdfs', 'rabbinic-time.pdf');
 
-export type BuildResult = {
+type BuildResult = {
 	bytes: number;
 	durationMs: number;
 	outPath: string;
@@ -28,7 +29,9 @@ export type BuildResult = {
 };
 
 type PrintWindow = typeof globalThis & {
+	// biome-ignore lint/style/useNamingConvention: window-global signal flags polled by the Playwright build driver
 	PRINT_READY?: boolean;
+	// biome-ignore lint/style/useNamingConvention: window-global signal flags polled by the Playwright build driver
 	PRINT_ERROR?: string;
 };
 
@@ -52,7 +55,7 @@ export async function buildRabbinicTimePdf(): Promise<BuildResult> {
 		await page.goto(`file://${HTML}`, { waitUntil: 'networkidle' });
 		await page.waitForFunction(
 			() => (globalThis as PrintWindow).PRINT_READY === true,
-			{ timeout: 30000 },
+			{ timeout: 30_000 },
 		);
 
 		const err = await page.evaluate(

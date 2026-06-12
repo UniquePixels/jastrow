@@ -1,0 +1,33 @@
+{
+	"$schema": "https://json.schemastore.org/tsconfig",
+	"compilerOptions": {
+		"lib": ["ESNext"],
+		// data/admin/** is local-only Bun tooling; @types/bun supplies the
+		// Bun, fetch/Response/Request, console, process and import.meta.dir
+		// globals it relies on. The browser app is plain JS and is not
+		// type-checked here.
+		"types": ["bun"],
+		"target": "ESNext",
+		"module": "ESNext",
+		"moduleDetection": "force",
+		//  Bundler mode
+		"moduleResolution": "bundler",
+		"verbatimModuleSyntax": true,
+		"allowImportingTsExtensions": true,
+		"noEmit": true,
+		// Strict code checking
+		"strict": true,
+		"allowUnusedLabels": false,
+		"allowUnreachableCode": false,
+		"exactOptionalPropertyTypes": true,
+		"noFallthroughCasesInSwitch": true,
+		"noImplicitOverride": true,
+		"noImplicitReturns": true,
+		"noPropertyAccessFromIndexSignature": true,
+		"noUncheckedIndexedAccess": true,
+		"noUnusedLocals": true,
+		"noUnusedParameters": true,
+		"noUncheckedSideEffectImports": true,
+		"paths": {}
+	}
+}

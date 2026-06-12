@@ -12,3 +12,14 @@ CODE_OF_CONDUCT.md
 CONTRIBUTING.md
 DCO
 SECURITY.md
+README.md
+LICENSE
+scripts/
+package.json
+bun.lock
+tsconfig.json
+wrangler.jsonc
+renovate.json
+.gitignore
+.gitattributes
+.cfignore

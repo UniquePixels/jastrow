@@ -40,7 +40,7 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 // Watch for keyboard overlay becoming visible to trigger lazy init
-const overlay = document.getElementById('keyboard-overlay');
+const overlay = document.querySelector('#keyboard-overlay');
 if (overlay) {
 	const observer = new MutationObserver(() => {
 		if (!overlay.hidden) {
@@ -82,12 +82,11 @@ function onKeyPress(button) {
 
 		if (start !== end) {
 			// Delete selection
-			newValue = currentValue.substring(0, start) + currentValue.substring(end);
+			newValue = currentValue.slice(0, start) + currentValue.slice(end);
 			newCursorPos = start;
 		} else if (start > 0) {
 			// Delete character before cursor
-			newValue =
-				currentValue.substring(0, start - 1) + currentValue.substring(start);
+			newValue = currentValue.slice(0, start - 1) + currentValue.slice(start);
 			newCursorPos = start - 1;
 		} else {
 			return;
@@ -108,8 +107,8 @@ function onKeyPress(button) {
 	const currentValue = actualInput.value || '';
 
 	// Insert character at cursor position, replacing selection if any
-	const before = currentValue.substring(0, start);
-	const after = currentValue.substring(end);
+	const before = currentValue.slice(0, start);
+	const after = currentValue.slice(end);
 	const newValue = before + button + after;
 	const newCursorPos = start + button.length;
 

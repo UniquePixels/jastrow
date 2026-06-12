@@ -46,18 +46,25 @@ editing dictionary entries, abbreviations, sages, and annotations.
 It also hosts the **Rabbinic Time PDF builder**. It is local-only and
 never deployed.
 
-**One-time setup** (installs Playwright + Chromium and stages bundled
-assets for the PDF builder):
+**One-time setup** — a single install at the repo root pulls in every
+dependency (admin server, Biome, validators):
 
 ```bash
-cd data/admin
 bun install
+```
+
+This install stays light: it does **not** download Chromium. Only run
+the PDF builder's extra setup if you intend to rebuild the Rabbinic Time
+PDF (installs Playwright + Chromium and stages bundled assets):
+
+```bash
+bun run setup:pdf
 ```
 
 **Start the server:**
 
 ```bash
-bun data/admin/server.ts
+bun run admin
 ```
 
 Then open `http://localhost:3333`. Set `PORT=…` to override the port.

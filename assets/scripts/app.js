@@ -5,15 +5,32 @@
 // Import utilities from window object (loaded via script tags in index.html)
 // Using vanilla JS pattern without build process
 const { sanitizeURL, sanitizeSearchQuery, validatePageNumber } = window;
-const {
-	PAGINATION,
-	DICTIONARY,
-	SCROLL,
-	TIMEOUTS,
-	VALIDATION,
-	EXTERNAL_URLS,
-	SEARCH,
-} = window;
+const { PAGINATION, DICTIONARY, TIMEOUTS, VALIDATION, EXTERNAL_URLS, SEARCH } =
+	window;
+
+// Hoisted regexes (compiled once instead of per call).
+const NUMERIC_HASH_RE = /^\d+$/u;
+const DIGITS_RE = /\d+/u;
+const HEBREW_CHAR_RE = /[֐-׿]/u;
+const SENSE_NUMBER_PREFIX_RE = /^[—-]\s*/u;
+const LEADING_STAR_RE = /^\*/u;
+const TRAILING_DECIMAL_RE = /\.\d+$/u;
+
+// Remove any target="…" attribute from an anchor's attribute fragment.
+// String scanning (no regex) avoids backtracking-prone patterns.
+function stripTargetAttr(attrs) {
+	let out = attrs;
+	for (let i = out.indexOf('target='); i !== -1; i = out.indexOf('target=')) {
+		const open = out.indexOf('"', i);
+		const close = open === -1 ? -1 : out.indexOf('"', open + 1);
+		if (open === -1 || close === -1) {
+			break;
+		}
+		const start = i > 0 && out[i - 1] === ' ' ? i - 1 : i;
+		out = out.slice(0, start) + out.slice(close + 1);
+	}
+	return out;
+}
 
 const LANGUAGE_BADGES = {
 	bh: { badge: 'Heb.', tooltip: 'Biblical Hebrew' },
@@ -94,7 +111,7 @@ class JastrowApp {
 				const registration = await navigator.serviceWorker.getRegistration();
 				if (registration?.waiting) {
 					// New SW is waiting — activate it and reload to get new code
-					const messageEl = document.getElementById('load-message');
+					const messageEl = document.querySelector('#load-message');
 					if (messageEl) {
 						messageEl.textContent = 'Updating app...';
 					}
@@ -214,10 +231,10 @@ class JastrowApp {
 		this.searchInput.setAttribute('aria-controls', 'search-autocomplete-list');
 		this.searchInput.setAttribute('aria-expanded', 'false');
 		this.searchButton = document.querySelector('#search-button');
-		this.modeWordBtn = document.getElementById('mode-word');
-		this.modeRefBtn = document.getElementById('mode-ref');
-		this.keyboardToggle = document.getElementById('keyboard-toggle');
-		this.keyboardOverlay = document.getElementById('keyboard-overlay');
+		this.modeWordBtn = document.querySelector('#mode-word');
+		this.modeRefBtn = document.querySelector('#mode-ref');
+		this.keyboardToggle = document.querySelector('#keyboard-toggle');
+		this.keyboardOverlay = document.querySelector('#keyboard-overlay');
 		this.pageInput = document.querySelector('#page-jump-input');
 		this.pageJumpButton = document.querySelector('#page-jump-button');
 
@@ -235,7 +252,7 @@ class JastrowApp {
 			const pageLink = e.target.closest('.show-page');
 			if (pageLink?.dataset.page) {
 				e.preventDefault();
-				this.showPageDialog(parseInt(pageLink.dataset.page, 10));
+				this.showPageDialog(Number.parseInt(pageLink.dataset.page, 10));
 				return;
 			}
 
@@ -372,13 +389,17 @@ class JastrowApp {
 
 		// Page jump button
 		const handlePageJump = () => {
-			const pageNum = parseInt(this.pageInput.value, 10);
-			if (pageNum > 0 && pageNum <= DICTIONARY.TOTAL_PAGES) {
+			const validation = validatePageNumber(
+				this.pageInput.value,
+				VALIDATION.PAGE_NUMBER_MIN,
+				VALIDATION.PAGE_NUMBER_MAX,
+			);
+			if (validation.valid) {
 				this.pageInput.removeAttribute('aria-invalid');
-				this.jumpToDictPage(pageNum);
+				this.jumpToDictPage(validation.page);
 			} else {
 				this.pageInput.setAttribute('aria-invalid', 'true');
-				this.showError(`Page must be between 1 and ${DICTIONARY.TOTAL_PAGES}`);
+				this.showError(validation.error);
 			}
 		};
 
@@ -400,7 +421,7 @@ class JastrowApp {
 		});
 
 		// Brand links — navigate back to dictionary
-		document.querySelectorAll('.brand-link').forEach((link) => {
+		for (const link of document.querySelectorAll('.brand-link')) {
 			link.addEventListener('click', (e) => {
 				e.preventDefault();
 				if (this._sagesExplorer?.isVisible) {
@@ -409,7 +430,7 @@ class JastrowApp {
 				window.history.pushState(null, '', window.location.pathname);
 				this.loadInitialPage();
 			});
-		});
+		}
 
 		// Offline detection
 		this.isOffline = !navigator.onLine;
@@ -460,7 +481,12 @@ class JastrowApp {
 		}
 
 		// Load initial page if no hash, or if hash is a dialog hash (guide, abbreviations, rabbinic-time)
-		if (!hash || hash === 'guide' || hash === 'abbreviations' || hash === 'rabbinic-time') {
+		if (
+			!hash ||
+			hash === 'guide' ||
+			hash === 'abbreviations' ||
+			hash === 'rabbinic-time'
+		) {
 			this.loadInitialPage();
 			return;
 		}
@@ -476,7 +502,7 @@ class JastrowApp {
 
 		// #word=HEADWORD — navigation from Hebrew abbreviation links
 		if (hash.startsWith('word=')) {
-			const word = hash.slice(5).replace(/_/g, ' ');
+			const word = hash.slice(5).replace(/_/gu, ' ');
 			this.syncSearchMode('word');
 			this._setSearchValue(word);
 			this.handleSearch(word, true);
@@ -484,7 +510,7 @@ class JastrowApp {
 		}
 
 		if (hash.startsWith('ref:')) {
-			const ref = hash.slice(4).replace(/_/g, ' ');
+			const ref = hash.slice(4).replace(/_/gu, ' ');
 			this.syncSearchMode('reference');
 			this._setSearchValue(ref);
 			this.handleSearch(ref, true);
@@ -509,23 +535,35 @@ class JastrowApp {
 
 		// #scan:500 - Open page scan dialog
 		if (hash.startsWith('scan:')) {
-			const scanPage = parseInt(hash.slice(5), 10);
-			if (scanPage >= 1 && scanPage <= DICTIONARY.TOTAL_PAGES) {
-				this.showPageDialog(scanPage);
+			const validation = validatePageNumber(
+				hash.slice(5),
+				VALIDATION.PAGE_NUMBER_MIN,
+				VALIDATION.PAGE_NUMBER_MAX,
+			);
+			if (validation.valid) {
+				this.showPageDialog(validation.page);
 			}
 			return;
 		}
 
 		// Check if it's a plain number (page number)
-		if (/^\d+$/.test(hash)) {
-			const page = parseInt(hash, 10);
+		if (NUMERIC_HASH_RE.test(hash)) {
+			const validation = validatePageNumber(
+				hash,
+				VALIDATION.PAGE_NUMBER_MIN,
+				VALIDATION.PAGE_NUMBER_MAX,
+			);
+			if (!validation.valid) {
+				this.loadInitialPage();
+				return;
+			}
 			this.syncSearchMode('word');
-			this.scrollManager.loadInitial(page);
+			this.scrollManager.loadInitial(validation.page);
 			return;
 		}
 
 		// Check if it contains Hebrew characters (word search)
-		if (/[\u0590-\u05FF]/.test(hash)) {
+		if (HEBREW_CHAR_RE.test(hash)) {
 			this.syncSearchMode('word');
 			this._setSearchValue(hash);
 			this.handleSearch(hash, true);
@@ -1187,7 +1225,7 @@ class JastrowApp {
 		}
 
 		const languageInfo = entry.li || '';
-		const frag = this.formatSenses(entry.c.s, 0, languageInfo);
+		const frag = this.formatSenses(entry.c.s, languageInfo);
 
 		if (!frag.hasChildNodes()) {
 			const p = document.createElement('p');
@@ -1203,13 +1241,16 @@ class JastrowApp {
 	/**
 	 * Format senses as DOM nodes (handles nested senses with grammar)
 	 */
-	formatSenses(senses, level = 0, languageInfo = '') {
+	formatSenses(senses, initialLanguageInfo = '') {
+		// Local copy because the language label is consumed (cleared) as we
+		// walk the senses; the parameter itself stays immutable.
+		let languageInfo = initialLanguageInfo;
 		const frag = document.createDocumentFragment();
 		if (!senses || senses.length === 0) {
 			return frag;
 		}
 
-		const firstSense = senses[0];
+		const [firstSense] = senses;
 		const hasPrimarySense = firstSense.d && !firstSense.n && !firstSense.g;
 		const hasChildren = senses.length > 1;
 
@@ -1236,16 +1277,14 @@ class JastrowApp {
 			if (numberedSenses.length > 0) {
 				const childrenDiv = document.createElement('div');
 				childrenDiv.className = 'sense-children';
-				childrenDiv.appendChild(
-					this.formatSenses(numberedSenses, level + 1, ''),
-				);
+				childrenDiv.appendChild(this.formatSenses(numberedSenses, ''));
 				senseGroup.appendChild(childrenDiv);
 			}
 
 			frag.appendChild(senseGroup);
 
 			if (grammarSections.length > 0) {
-				frag.appendChild(this.formatSenses(grammarSections, level, ''));
+				frag.appendChild(this.formatSenses(grammarSections, ''));
 			}
 		} else {
 			let isFirstSense = true;
@@ -1290,11 +1329,7 @@ class JastrowApp {
 						const grammarSensesDiv = document.createElement('div');
 						grammarSensesDiv.className = 'grammar-senses';
 						grammarSensesDiv.appendChild(
-							this.formatSenses(
-								sense.s,
-								level + 1,
-								isFirstSense ? languageInfo : '',
-							),
+							this.formatSenses(sense.s, isFirstSense ? languageInfo : ''),
 						);
 						grammarSection.appendChild(grammarSensesDiv);
 						isFirstSense = false;
@@ -1304,7 +1339,7 @@ class JastrowApp {
 					frag.appendChild(grammarSection);
 				} else if (sense.d) {
 					if (sense.n) {
-						const cleanNumber = sense.n.replace(/^[—-]\s*/, '');
+						const cleanNumber = sense.n.replace(SENSE_NUMBER_PREFIX_RE, '');
 						const senseDiv = document.createElement('div');
 						senseDiv.className = 'sense sense-numbered';
 
@@ -1357,9 +1392,9 @@ class JastrowApp {
 	 */
 	createReferencesSection(references) {
 		// Flatten non-jastrow categories, preserving category per ref
-		const CATEGORY_ORDER = ['t', 'b', 'mi', 'o'];
+		const CategoryOrder = ['t', 'b', 'mi', 'o'];
 		const displayRefs = [];
-		for (const category of CATEGORY_ORDER) {
+		for (const category of CategoryOrder) {
 			if (references[category]) {
 				for (const ref of references[category]) {
 					displayRefs.push({ ref, category });
@@ -1464,11 +1499,11 @@ class JastrowApp {
 
 		// Get the dialog and its elements
 		const dialog = document.querySelector('.page-dialog');
-		const imageFrame = document.getElementById('page-image-frame');
-		const prevBtn = document.getElementById('page-prev-btn');
-		const nextBtn = document.getElementById('page-next-btn');
-		const openBtn = document.getElementById('page-open-btn');
-		const pageDisplay = document.getElementById('current-page-display');
+		const imageFrame = document.querySelector('#page-image-frame');
+		const prevBtn = document.querySelector('#page-prev-btn');
+		const nextBtn = document.querySelector('#page-next-btn');
+		const openBtn = document.querySelector('#page-open-btn');
+		const pageDisplay = document.querySelector('#current-page-display');
 
 		if (!(dialog && imageFrame)) {
 			return;
@@ -1596,7 +1631,7 @@ class JastrowApp {
 		} else if (params.word !== undefined) {
 			hash = `#${params.word}`;
 		} else if (params.ref !== undefined) {
-			hash = `#ref:${params.ref.replace(/ /g, '_')}`;
+			hash = `#ref:${params.ref.replace(/ /gu, '_')}`;
 		} else if (params.rid !== undefined) {
 			hash = `#rid:${params.rid}`;
 		}
@@ -1640,7 +1675,7 @@ class JastrowApp {
 	 * Build the contextual share dropdown menu. Called on wa-show to refresh items.
 	 */
 	_setupShareMenu() {
-		const dropdown = document.getElementById('share-dropdown');
+		const dropdown = document.querySelector('#share-dropdown');
 		if (!dropdown) {
 			return;
 		}
@@ -1660,9 +1695,9 @@ class JastrowApp {
 
 		dropdown.addEventListener('wa-show', () => {
 			// Remove old dynamic items (keep trigger button)
-			dropdown
-				.querySelectorAll('wa-dropdown-item, h4')
-				.forEach((el) => el.remove());
+			for (const el of dropdown.querySelectorAll('wa-dropdown-item, h4')) {
+				el.remove();
+			}
 
 			// Header label
 			const header = document.createElement('h4');
@@ -1674,7 +1709,7 @@ class JastrowApp {
 			if (searchValue) {
 				const displayQuery =
 					searchValue.length > 20
-						? `${searchValue.substring(0, 20)}…`
+						? `${searchValue.slice(0, 20)}…`
 						: searchValue;
 				const hashPrefix =
 					this.currentSearchMode === 'reference' ? '#ref:' : '#';
@@ -1690,8 +1725,8 @@ class JastrowApp {
 			// 2. Page (always — detect from scroll manager or URL hash)
 			const currentPage =
 				this.scrollManager?.currentVisiblePage ||
-				(/^\d+$/.test(window.location.hash.slice(1))
-					? parseInt(window.location.hash.slice(1), 10)
+				(NUMERIC_HASH_RE.test(window.location.hash.slice(1))
+					? Number.parseInt(window.location.hash.slice(1), 10)
 					: null);
 			if (currentPage && currentPage > 0) {
 				dropdown.appendChild(
@@ -1714,13 +1749,13 @@ class JastrowApp {
 	_setupDialogShareButtons() {
 		const baseUrl = `${window.location.origin}${window.location.pathname}`;
 
-		document.querySelectorAll('.dialog-share-btn').forEach((btn) => {
+		for (const btn of document.querySelectorAll('.dialog-share-btn')) {
 			btn.addEventListener('click', () => {
 				const shareType = btn.dataset.share;
 				let url;
 				if (shareType === 'scan') {
-					const pageDisplay = document.getElementById('current-page-display');
-					const pageMatch = pageDisplay?.textContent.match(/\d+/);
+					const pageDisplay = document.querySelector('#current-page-display');
+					const pageMatch = pageDisplay?.textContent.match(DIGITS_RE);
 					url = pageMatch
 						? `${baseUrl}#scan:${pageMatch[0]}`
 						: `${baseUrl}#scan:1`;
@@ -1729,7 +1764,7 @@ class JastrowApp {
 				}
 				this._shareURL(url);
 			});
-		});
+		}
 	}
 
 	/**
@@ -1783,9 +1818,9 @@ class JastrowApp {
 		// Lookup logic — scroll to and highlight the best match
 		let filterTimer = null;
 		const clearHighlights = () => {
-			container
-				.querySelectorAll('.abbr-highlight')
-				.forEach((el) => el.classList.remove('abbr-highlight'));
+			for (const el of container.querySelectorAll('.abbr-highlight')) {
+				el.classList.remove('abbr-highlight');
+			}
 		};
 
 		const doLookup = () => {
@@ -1878,8 +1913,7 @@ class JastrowApp {
 			const def = abbrs[key];
 			const row = document.createElement('div');
 			row.className = 'abbr-row';
-			row.dataset.search =
-				`${key} ${def.original} ${def.modern}`.toLowerCase();
+			row.dataset.search = `${key} ${def.original} ${def.modern}`.toLowerCase();
 
 			const term = document.createElement('div');
 			term.className = 'abbr-term';
@@ -1920,19 +1954,25 @@ class JastrowApp {
 			const list = document.createElement('div');
 			list.className = 'hebrew-abbr-list';
 
-			// Skip first two lines (title and intro)
-			const lines = this._hebrewAbbrCache.versions[0].text.slice(2);
+			// Skip first two lines (title and intro). Guard against an
+			// unexpected/malformed cache shape rather than throwing.
+			const versions = this._hebrewAbbrCache?.versions;
+			const text =
+				Array.isArray(versions) && versions.length > 0
+					? versions[0]?.text
+					: null;
+			const lines = Array.isArray(text) ? text.slice(2) : [];
 
 			for (const line of lines) {
 				// Rewrite Jastrow links for inline context (no target="_parent", no index.html prefix)
 				const fixedLine = line.replace(
-					/<a([^>]*)href="\/Jastrow,_([^"]*)"([^>]*)>/g,
+					/<a([^>]*)href="\/Jastrow,_([^"]*)"([^>]*)>/gu,
 					(_match, before, jastrowPath, after) => {
 						const headword = jastrowPath
-							.replace(/^\*/, '')
-							.replace(/\.\d+$/, '');
-						const cleanBefore = before.replace(/\s*target="[^"]*"/g, '');
-						const cleanAfter = after.replace(/\s*target="[^"]*"/g, '');
+							.replace(LEADING_STAR_RE, '')
+							.replace(TRAILING_DECIMAL_RE, '');
+						const cleanBefore = stripTargetAttr(before);
+						const cleanAfter = stripTargetAttr(after);
 						return `<a${cleanBefore}href="#word=${headword}"${cleanAfter}>`;
 					},
 				);
@@ -1960,7 +2000,7 @@ class JastrowApp {
 					if (abbrDialog) {
 						abbrDialog.open = false;
 					}
-					window.location.hash = link.getAttribute('href').substring(1);
+					window.location.hash = link.getAttribute('href').slice(1);
 				}
 			});
 		} catch {
@@ -2153,8 +2193,8 @@ class JastrowApp {
 	 * Update loading progress
 	 */
 	updateLoadingProgress(progress) {
-		const messageEl = document.getElementById('load-message');
-		const progressEl = document.getElementById('load-progress');
+		const messageEl = document.querySelector('#load-message');
+		const progressEl = document.querySelector('#load-progress');
 
 		if (typeof progress === 'object') {
 			if (messageEl && progress.message) {
@@ -2162,13 +2202,11 @@ class JastrowApp {
 			}
 			if (progressEl) {
 				progressEl.textContent =
-					progress.percent != null ? `${Math.round(progress.percent)}%` : '';
+					progress.percent == null ? '' : `${Math.round(progress.percent)}%`;
 			}
-		} else {
+		} else if (progressEl) {
 			// Legacy number format fallback
-			if (progressEl) {
-				progressEl.textContent = `${Math.round(progress)}%`;
-			}
+			progressEl.textContent = `${Math.round(progress)}%`;
 		}
 	}
 
@@ -2282,9 +2320,9 @@ class JastrowApp {
 			// Re-render the dialog to restore image, handlers, and button state
 			this.showPageDialog(this.currentDialogPage);
 		} else {
-			const prevBtn = document.getElementById('page-prev-btn');
-			const nextBtn = document.getElementById('page-next-btn');
-			const openBtn = document.getElementById('page-open-btn');
+			const prevBtn = document.querySelector('#page-prev-btn');
+			const nextBtn = document.querySelector('#page-next-btn');
+			const openBtn = document.querySelector('#page-open-btn');
 
 			if (prevBtn) {
 				prevBtn.disabled = true;

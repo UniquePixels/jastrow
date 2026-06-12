@@ -9,10 +9,10 @@
 /* global Chart */
 
 (() => {
-	const NS = 'http://www.w3.org/2000/svg';
+	const Ns = 'http://www.w3.org/2000/svg';
 
 	function mk(tag, attrs = {}) {
-		const el = document.createElementNS(NS, tag);
+		const el = document.createElementNS(Ns, tag);
 		for (const [k, v] of Object.entries(attrs)) {
 			el.setAttribute(k, v);
 		}
@@ -23,6 +23,20 @@
 		const el = mk('text', attrs);
 		el.textContent = String(text);
 		return el;
+	}
+
+	// Make an SVG element activatable by keyboard as well as pointer, so the
+	// time-chart labels are reachable without a mouse.
+	function makeActivatable(el, onActivate) {
+		el.setAttribute('tabindex', '0');
+		el.setAttribute('role', 'button');
+		el.addEventListener('click', onActivate);
+		el.addEventListener('keydown', (e) => {
+			if (e.key === 'Enter' || e.key === ' ') {
+				e.preventDefault();
+				onActivate();
+			}
+		});
 	}
 
 	function clrSvg(svg) {
@@ -70,6 +84,7 @@
 		return e;
 	}
 
+	// biome-ignore lint/complexity/useMaxParams: geometry primitive; (cx,cy,radius,startAngle,endAngle) is the natural positional signature
 	function pieSeg(cx, cy, r, a1, a2) {
 		const end = normEnd(a1, a2);
 		if (end - a1 >= 360) {
@@ -81,6 +96,7 @@
 		return `M${cx},${cy} L${p1.x.toFixed(1)},${p1.y.toFixed(1)} A${r},${r},0,${la},1,${p2.x.toFixed(1)},${p2.y.toFixed(1)}Z`;
 	}
 
+	// biome-ignore lint/complexity/useMaxParams: geometry primitive; (cx,cy,outerR,innerR,startAngle,endAngle) is the natural positional signature
 	function ringSeg(cx, cy, ro, ri, a1, a2) {
 		const end = normEnd(a1, a2);
 		const la = end - a1 > 180 ? 1 : 0;
@@ -132,7 +148,7 @@
 		return 4;
 	}
 
-	const SEA = {
+	const Sea = {
 		summer: {
 			key: 'summer',
 			label: 'Summer',
@@ -167,7 +183,7 @@
 			tzet: 16.8,
 		},
 	};
-	const SKEYS = ['summer', 'equinox', 'winter'];
+	const Skeys = ['summer', 'equinox', 'winter'];
 
 	function chatzotLailah(s) {
 		return s.tzet + (24 - (s.shkiah - s.netz)) / 2;
@@ -220,16 +236,16 @@
 		];
 	}
 
-	const C_DB = '#2563eb';
-	const C_PR = '#b83232';
-	const C_KB = '#15803d';
+	const CDb = '#2563eb';
+	const CPr = '#b83232';
+	const CKb = '#15803d';
 
-	const MK = [
+	const Mk = [
 		{
 			id: 'alot',
 			cat: 'db',
 			lv: 0,
-			col: C_DB,
+			col: CDb,
 			getH: (s) => s.alot,
 			name: 'Alot HaShachar',
 			heb: 'עֲלוֹת הַשַּׁחַר',
@@ -241,7 +257,7 @@
 			id: 'mish',
 			cat: 'db',
 			lv: 1,
-			col: C_DB,
+			col: CDb,
 			getH: (s) => s.mish,
 			name: 'Misheyakir',
 			heb: 'מִשֶּׁיַּכִּיר',
@@ -253,7 +269,7 @@
 			id: 'netz',
 			cat: 'db',
 			lv: 0,
-			col: C_DB,
+			col: CDb,
 			getH: (s) => s.netz,
 			name: 'Netz HaChama',
 			heb: 'נֵץ הַחַמָּה',
@@ -265,7 +281,7 @@
 			id: 'shki',
 			cat: 'db',
 			lv: 1,
-			col: C_DB,
+			col: CDb,
 			getH: (s) => s.shkiah,
 			name: 'Shkiah',
 			heb: 'שְׁקִיעָה',
@@ -291,7 +307,7 @@
 			id: 'tzet',
 			cat: 'db',
 			lv: 0,
-			col: C_DB,
+			col: CDb,
 			getH: (s) => s.tzet,
 			name: 'Tzet HaKochavim',
 			heb: 'צֵאת הַכּוֹכָבִים',
@@ -304,7 +320,7 @@
 			id: 'chatzL',
 			cat: 'db',
 			lv: 0,
-			col: C_DB,
+			col: CDb,
 			noTimeline: true,
 			getH: (s) => {
 				const c = chatzotLailah(s);
@@ -348,7 +364,7 @@
 			id: 'shema',
 			cat: 'pr',
 			lv: 1,
-			col: C_PR,
+			col: CPr,
 			getH: (s) => s.netz + (3 * s.sm) / 60,
 			name: 'Sof Zman Shema',
 			heb: 'סוֹף זְמַן שְׁמַע',
@@ -360,7 +376,7 @@
 			id: 'tefil',
 			cat: 'pr',
 			lv: 0,
-			col: C_PR,
+			col: CPr,
 			getH: (s) => s.netz + (4 * s.sm) / 60,
 			name: 'Sof Tefillah',
 			heb: 'סוֹף תְּפִלָּה',
@@ -372,7 +388,7 @@
 			id: 'chatz',
 			cat: 'pr',
 			lv: 1,
-			col: C_PR,
+			col: CPr,
 			getH: (s) => s.netz + (6 * s.sm) / 60,
 			name: 'Chatzot',
 			heb: 'חֲצוֹת',
@@ -384,7 +400,7 @@
 			id: 'mged',
 			cat: 'pr',
 			lv: 0,
-			col: C_PR,
+			col: CPr,
 			getH: (s) => s.netz + (6.5 * s.sm) / 60,
 			name: 'Mincha Gedolah',
 			heb: 'מִנְחָה גְדוֹלָה',
@@ -396,7 +412,7 @@
 			id: 'mket',
 			cat: 'pr',
 			lv: 1,
-			col: C_PR,
+			col: CPr,
 			getH: (s) => s.netz + (9.5 * s.sm) / 60,
 			name: 'Mincha Ketanah',
 			heb: 'מִנְחָה קְטַנָּה',
@@ -408,7 +424,7 @@
 			id: 'plag',
 			cat: 'pr',
 			lv: 0,
-			col: C_PR,
+			col: CPr,
 			getH: (s) => s.netz + (10.75 * s.sm) / 60,
 			name: 'Plag HaMincha',
 			heb: 'פְּלַג הַמִּנְחָה',
@@ -436,7 +452,7 @@
 			id: 'tsh',
 			cat: 'kb',
 			lv: 0,
-			col: C_KB,
+			col: CKb,
 			isZone: true,
 			getH: (s) => s.netz,
 			getH2: (s) => s.netz + (4 * s.sm) / 60,
@@ -489,23 +505,23 @@
 		},
 	];
 
-	const ZROWS = [
+	const Zrows = [
 		{ ids: ['tsh', 'tba'], catReq: 'kb' },
 		{ ids: ['bharb'], catReq: 'kb' },
 		{ ids: ['bhash'], catReq: 'db' },
 	];
 
-	const RS = { summer: true, equinox: true, winter: true };
-	const RC = { db: true, pr: true, kb: true };
+	const Rs = { summer: true, equinox: true, winter: true };
+	const Rc = { db: true, pr: true, kb: true };
 	let clockSea = 'equinox';
-	const CC = { db: true, pr: true, kb: true };
+	const Cc = { db: true, pr: true, kb: true };
 
-	const XS = 2.5;
-	const XE = 21.0;
-	const XR = XE - XS;
+	const Xs = 2.5;
+	const Xe = 21.0;
+	const Xr = Xe - Xs;
 
-	function hx(h, BL, BW) {
-		return BL + ((h - XS) / XR) * BW;
+	function hx(h, Bl, Bw) {
+		return Bl + ((h - Xs) / Xr) * Bw;
 	}
 
 	function labelFor(id) {
@@ -523,7 +539,7 @@
 			tzet: 'Tzet',
 			chatzL: 'Chatzot Lailah',
 		};
-		return map[id] || MK.find((m) => m.id === id)?.name.split(' ')[0] || id;
+		return map[id] || Mk.find((m) => m.id === id)?.name.split(' ')[0] || id;
 	}
 
 	function scrollToRow(id) {
@@ -551,12 +567,12 @@
 	}
 
 	function drawRefSVG() {
-		const svg = document.getElementById('rt-ref-svg');
+		const svg = document.querySelector('#rt-ref-svg');
 		if (!svg) {
 			return;
 		}
 		clrSvg(svg);
-		const activeSea = SKEYS.filter((k) => RS[k]);
+		const activeSea = Skeys.filter((k) => Rs[k]);
 		if (activeSea.length === 0) {
 			svg.setAttribute('viewBox', '0 0 760 36');
 			svg.appendChild(
@@ -570,21 +586,21 @@
 			);
 			return;
 		}
-		const BL = 46;
-		const BR = 732;
-		const BW = BR - BL;
-		const BH = 20;
-		const ZH = 9;
-		const ZG = 1;
-		const GAP = 10;
-		const activeZR = ZROWS.filter((r) => RC[r.catReq]);
-		const zoneAreaH = activeZR.length * (ZH + ZG);
-		const ABOVE = 30;
-		const perH = ABOVE + BH + zoneAreaH;
-		const TITLE = 16;
-		const HHDR = 22;
-		const VPAD = 6;
-		const totalH = TITLE + HHDR + activeSea.length * (perH + GAP) + VPAD;
+		const Bl = 46;
+		const Br = 732;
+		const Bw = Br - Bl;
+		const Bh = 20;
+		const Zh = 9;
+		const Zg = 1;
+		const Gap = 10;
+		const activeZR = Zrows.filter((r) => Rc[r.catReq]);
+		const zoneAreaH = activeZR.length * (Zh + Zg);
+		const Above = 30;
+		const perH = Above + Bh + zoneAreaH;
+		const Title = 16;
+		const Hhdr = 22;
+		const Vpad = 6;
+		const totalH = Title + Hhdr + activeSea.length * (perH + Gap) + Vpad;
 		svg.setAttribute('viewBox', `0 0 760 ${totalH}`);
 		svg.appendChild(
 			mk('rect', {
@@ -595,7 +611,7 @@
 			}),
 		);
 		svg.appendChild(
-			tx(`Comparing: ${activeSea.map((k) => SEA[k].label).join(' · ')}`, {
+			tx(`Comparing: ${activeSea.map((k) => Sea[k].label).join(' · ')}`, {
 				x: 380,
 				y: 11,
 				'text-anchor': 'middle',
@@ -605,8 +621,8 @@
 			}),
 		);
 		for (let h = 3; h <= 21; h += 2) {
-			const x = hx(h, BL, BW);
-			if (x < BL || x > BR) {
+			const x = hx(h, Bl, Bw);
+			if (x < Bl || x > Br) {
 				continue;
 			}
 			let lbl;
@@ -620,7 +636,7 @@
 			svg.appendChild(
 				tx(lbl, {
 					x,
-					y: TITLE + 10,
+					y: Title + 10,
 					'text-anchor': 'middle',
 					'font-size': 6.5,
 					fill: '#737373',
@@ -629,23 +645,23 @@
 			svg.appendChild(
 				mk('line', {
 					x1: x,
-					y1: TITLE + HHDR,
+					y1: Title + Hhdr,
 					x2: x,
-					y2: totalH - VPAD,
+					y2: totalH - Vpad,
 					stroke: 'rgba(128,128,128,0.10)',
 					'stroke-width': 0.6,
 				}),
 			);
 		}
-		let yOff = TITLE + HHDR;
+		let yOff = Title + Hhdr;
 		for (const key of activeSea) {
-			const s = SEA[key];
-			const bandY = yOff + ABOVE;
-			const zoneBaseY = bandY + BH + ZG;
+			const s = Sea[key];
+			const bandY = yOff + Above;
+			const zoneBaseY = bandY + Bh + Zg;
 			svg.appendChild(
 				tx(s.label, {
 					x: 2,
-					y: bandY + BH / 2 + 2,
+					y: bandY + Bh / 2 + 2,
 					'font-size': 8.5,
 					'font-weight': 700,
 					fill: s.col,
@@ -654,21 +670,21 @@
 			svg.appendChild(
 				tx(`${s.sm}m`, {
 					x: 2,
-					y: bandY + BH / 2 + 12,
+					y: bandY + Bh / 2 + 12,
 					'font-size': 7,
 					fill: s.col,
 				}),
 			);
 			for (const { s: hs, e: he, c } of skyZones(s, key)) {
-				const x1 = Math.max(BL, hx(hs, BL, BW));
-				const x2 = Math.min(BR, hx(he, BL, BW));
+				const x1 = Math.max(Bl, hx(hs, Bl, Bw));
+				const x2 = Math.min(Br, hx(he, Bl, Bw));
 				if (x2 > x1) {
 					svg.appendChild(
 						mk('rect', {
 							x: x1,
 							y: bandY,
 							width: x2 - x1,
-							height: BH,
+							height: Bh,
 							fill: c,
 						}),
 					);
@@ -676,10 +692,10 @@
 			}
 			svg.appendChild(
 				mk('rect', {
-					x: BL,
+					x: Bl,
 					y: bandY,
-					width: BW,
-					height: BH,
+					width: Bw,
+					height: Bh,
 					fill: 'none',
 					stroke: 'rgba(128,128,128,0.3)',
 					'stroke-width': 0.8,
@@ -687,35 +703,34 @@
 				}),
 			);
 			for (let i = 1; i <= 11; i++) {
-				const x = hx(s.netz + (i * s.sm) / 60, BL, BW);
-				if (x > BL && x < BR) {
+				const x = hx(s.netz + (i * s.sm) / 60, Bl, Bw);
+				if (x > Bl && x < Br) {
 					svg.appendChild(
 						mk('line', {
 							x1: x,
-							y1: bandY + BH * 0.15,
+							y1: bandY + Bh * 0.15,
 							x2: x,
-							y2: bandY + BH * 0.85,
+							y2: bandY + Bh * 0.85,
 							stroke: 'rgba(0,0,0,0.45)',
 							'stroke-width': 1,
 						}),
 					);
 				}
 			}
-			const above = MK.filter(
+			const above = Mk.filter(
 				(m) =>
-					!m.isZone &&
-					!m.noTimeline &&
-					((m.cat === 'db' && RC.db) || (m.cat === 'pr' && RC.pr)),
+					!(m.isZone || m.noTimeline) &&
+					((m.cat === 'db' && Rc.db) || (m.cat === 'pr' && Rc.pr)),
 			);
-			const UY = bandY - 22;
-			const LY = bandY - 10;
+			const Uy = bandY - 22;
+			const Ly = bandY - 10;
 			for (const m of above) {
-				const x = hx(m.getH(s), BL, BW);
-				if (x < BL - 2 || x > BR + 2) {
+				const x = hx(m.getH(s), Bl, Bw);
+				if (x < Bl - 2 || x > Br + 2) {
 					continue;
 				}
 				const isE = ['netz', 'shki', 'alot', 'tzet', 'mish'].includes(m.id);
-				const y = m.lv === 1 ? UY : LY;
+				const y = m.lv === 1 ? Uy : Ly;
 				svg.appendChild(
 					mk('line', {
 						x1: x,
@@ -738,18 +753,18 @@
 					'font-weight': isE ? 700 : 400,
 					cursor: 'pointer',
 				});
-				lbl.addEventListener('click', () => scrollToRow(m.id));
+				makeActivatable(lbl, () => scrollToRow(m.id));
 				svg.appendChild(lbl);
 			}
 			activeZR.forEach((zrow, ri) => {
-				const zy = zoneBaseY + ri * (ZH + ZG);
+				const zy = zoneBaseY + ri * (Zh + Zg);
 				for (const id of zrow.ids) {
-					const zm = MK.find((m) => m.id === id);
+					const zm = Mk.find((m) => m.id === id);
 					if (!zm) {
 						continue;
 					}
-					const x1 = hx(zm.getH(s), BL, BW);
-					const x2 = hx(zm.getH2(s), BL, BW);
+					const x1 = hx(zm.getH(s), Bl, Bw);
+					const x2 = hx(zm.getH2(s), Bl, Bw);
 					if (x2 <= x1 + 1) {
 						continue;
 					}
@@ -759,7 +774,7 @@
 								x: x1,
 								y: zy,
 								width: x2 - x1,
-								height: ZH,
+								height: Zh,
 								fill: '#4a6ab8',
 								opacity: 0.32,
 								rx: 1,
@@ -767,14 +782,14 @@
 						);
 						const zt = tx('Bein HaShmashot', {
 							x: x2 + 3,
-							y: zy + ZH - 1,
+							y: zy + Zh - 1,
 							'text-anchor': 'start',
 							'font-size': 6.5,
 							fill: '#2563eb',
 							'font-weight': 700,
 							cursor: 'pointer',
 						});
-						zt.addEventListener('click', () => scrollToRow('bhash'));
+						makeActivatable(zt, () => scrollToRow('bhash'));
 						svg.appendChild(zt);
 					} else {
 						svg.appendChild(
@@ -782,7 +797,7 @@
 								x: x1,
 								y: zy,
 								width: x2 - x1,
-								height: ZH,
+								height: Zh,
 								fill: zm.col,
 								opacity: 0.42,
 								rx: 1,
@@ -793,39 +808,39 @@
 							if (lbl) {
 								const zt = tx(lbl, {
 									x: (x1 + x2) / 2,
-									y: zy + ZH - 1,
+									y: zy + Zh - 1,
 									'text-anchor': 'middle',
 									'font-size': 6.5,
 									fill: '#1d1d20',
 									'font-weight': 700,
 									cursor: 'pointer',
 								});
-								zt.addEventListener('click', () => scrollToRow(id));
+								makeActivatable(zt, () => scrollToRow(id));
 								svg.appendChild(zt);
 							}
 						}
 					}
 				}
 			});
-			yOff += perH + GAP;
+			yOff += perH + Gap;
 		}
 	}
 
 	function drawRefTable() {
-		const tbody = document.getElementById('rt-ref-body');
+		const tbody = document.querySelector('#rt-ref-body');
 		if (!tbody) {
 			return;
 		}
 		tbody.innerHTML = '';
-		const s = SEA.equinox;
+		const s = Sea.equinox;
 		const sections = [
-			{ cat: 'db', label: 'Zmanim — Structure of the Day', color: C_DB },
-			{ cat: 'pr', label: 'Prayer Times', color: C_PR },
-			{ cat: 'kb', label: 'Korbanot — Temple Offering Windows', color: C_KB },
+			{ cat: 'db', label: 'Zmanim — Structure of the Day', color: CDb },
+			{ cat: 'pr', label: 'Prayer Times', color: CPr },
+			{ cat: 'kb', label: 'Korbanot — Temple Offering Windows', color: CKb },
 		];
 		let first = true;
 		for (const { cat, label, color } of sections) {
-			if (!RC[cat]) {
+			if (!Rc[cat]) {
 				continue;
 			}
 			if (!first) {
@@ -843,7 +858,7 @@
 			hd.textContent = label;
 			h.appendChild(hd);
 			tbody.appendChild(h);
-			for (const m of MK.filter((x) => x.cat === cat)) {
+			for (const m of Mk.filter((x) => x.cat === cat)) {
 				const tr = document.createElement('tr');
 				tr.id = `rt-row-${m.id}`;
 				const td1 = document.createElement('td');
@@ -878,25 +893,25 @@
 	}
 
 	function drawClock() {
-		const svg = document.getElementById('rt-clock-svg');
+		const svg = document.querySelector('#rt-clock-svg');
 		if (!svg) {
 			return;
 		}
 		clrSvg(svg);
-		const s = SEA[clockSea];
-		const CX = 290;
-		const CY = 290;
+		const s = Sea[clockSea];
+		const Cx = 290;
+		const Cy = 290;
 		const R = 200;
 		const Ri = 70;
 		const { netz: N, alot: A, tzet: T } = s;
 		svg.appendChild(
-			mk('circle', { cx: CX, cy: CY, r: R + 10, fill: '#060e1c' }),
+			mk('circle', { cx: Cx, cy: Cy, r: R + 10, fill: '#060e1c' }),
 		);
 		for (const { s: hs, e: he, c } of skyZones(s, clockSea)) {
 			const a1 = hToA(hs);
 			const a2 = normEnd(a1, hToA(he));
 			if (a2 - a1 > 0.3) {
-				svg.appendChild(mk('path', { d: pieSeg(CX, CY, R, a1, a2), fill: c }));
+				svg.appendChild(mk('path', { d: pieSeg(Cx, Cy, R, a1, a2), fill: c }));
 			}
 		}
 		{
@@ -904,14 +919,14 @@
 			const nA2 = normEnd(nA1, hToA(A));
 			if (nA2 - nA1 > 1) {
 				svg.appendChild(
-					mk('path', { d: pieSeg(CX, CY, R, nA1, nA2), fill: '#060e1c' }),
+					mk('path', { d: pieSeg(Cx, Cy, R, nA1, nA2), fill: '#060e1c' }),
 				);
 			}
 		}
 		for (let i = 1; i <= 11; i++) {
 			const a = hToA(N + (i * s.sm) / 60);
-			const p1 = pol(a, Ri, CX, CY);
-			const p2 = pol(a, R, CX, CY);
+			const p1 = pol(a, Ri, Cx, Cy);
+			const p2 = pol(a, R, Cx, Cy);
 			svg.appendChild(
 				mk('line', {
 					x1: p1.x.toFixed(1),
@@ -927,8 +942,8 @@
 			const a = hToA(h);
 			const isMaj = h % 6 === 0;
 			const isMed = h % 3 === 0;
-			const p1 = pol(a, R, CX, CY);
-			const p2 = pol(a, R + tickSize(isMaj, isMed), CX, CY);
+			const p1 = pol(a, R, Cx, Cy);
+			const p2 = pol(a, R + tickSize(isMaj, isMed), Cx, Cy);
 			svg.appendChild(
 				mk('line', {
 					x1: p1.x.toFixed(1),
@@ -941,7 +956,7 @@
 			);
 			if (isMaj) {
 				const lbl = { 0: '12 AM', 6: '6 AM', 12: '12 PM', 18: '6 PM' }[h] || '';
-				const lp = pol(a, R + 22, CX, CY);
+				const lp = pol(a, R + 22, Cx, Cy);
 				svg.appendChild(
 					tx(lbl, {
 						x: lp.x.toFixed(1),
@@ -953,7 +968,7 @@
 				);
 			}
 		}
-		if (CC.db) {
+		if (Cc.db) {
 			const nightLen = (A < T ? A + 24 : A) - T;
 			const w = nightLen / 3;
 			const wDef = [
@@ -965,14 +980,14 @@
 				const a1 = hToA(T + i * w);
 				const a2 = normEnd(a1, hToA(T + (i + 1) * w));
 				const el = mk('path', {
-					d: ringSeg(CX, CY, R - 18, R - 36, a1, a2),
+					d: ringSeg(Cx, Cy, R - 18, R - 36, a1, a2),
 					fill: wDef[i].c,
 				});
 				el.setAttribute('opacity', '0.88');
 				svg.appendChild(el);
 				const midA = a1 + (a2 - a1) / 2;
-				const mp1 = pol(midA, R - 23, CX, CY);
-				const mp2 = pol(midA, R - 31, CX, CY);
+				const mp1 = pol(midA, R - 23, Cx, Cy);
+				const mp2 = pol(midA, R - 31, Cx, Cy);
 				svg.appendChild(
 					tx(wDef[i].heb, {
 						x: mp1.x.toFixed(1),
@@ -995,8 +1010,8 @@
 			}
 			for (let i = 1; i <= 2; i++) {
 				const a = hToA(T + (i * nightLen) / 3);
-				const p1 = pol(a, Ri, CX, CY);
-				const p2 = pol(a, R, CX, CY);
+				const p1 = pol(a, Ri, Cx, Cy);
+				const p2 = pol(a, R, Cx, Cy);
 				svg.appendChild(
 					mk('line', {
 						x1: p1.x.toFixed(1),
@@ -1027,7 +1042,7 @@
 				col: '#1e3878',
 				op: 0.85,
 			},
-			{ id: 'tsh', catReq: 'kb', ro: R - 18, ri: R - 27, col: C_KB, op: 0.78 },
+			{ id: 'tsh', catReq: 'kb', ro: R - 18, ri: R - 27, col: CKb, op: 0.78 },
 			{
 				id: 'tba',
 				catReq: 'kb',
@@ -1038,10 +1053,10 @@
 			},
 		];
 		for (const { id, catReq, ro, ri, col, op } of zoneBands) {
-			if (!CC[catReq]) {
+			if (!Cc[catReq]) {
 				continue;
 			}
-			const zm = MK.find((m) => m.id === id);
+			const zm = Mk.find((m) => m.id === id);
 			if (!zm) {
 				continue;
 			}
@@ -1052,15 +1067,15 @@
 			}
 			if (id === 'bhash') {
 				const el = mk('path', {
-					d: ringSeg(CX, CY, ro, ri, a1, a2),
+					d: ringSeg(Cx, Cy, ro, ri, a1, a2),
 					fill: '#4a6ab8',
 				});
 				el.setAttribute('opacity', '0.45');
 				svg.appendChild(el);
 				const midA = a1 + (a2 - a1) / 2;
 				const anchor = anchorForAngle(midA, false);
-				const lp = pol(midA, R - 14, CX, CY);
-				const ep = pol(midA, R + 44, CX, CY);
+				const lp = pol(midA, R - 14, Cx, Cy);
+				const ep = pol(midA, R + 44, Cx, Cy);
 				svg.appendChild(
 					mk('line', {
 						x1: lp.x.toFixed(1),
@@ -1072,7 +1087,7 @@
 						'stroke-dasharray': '2,2',
 					}),
 				);
-				const tp = pol(midA, R + 54, CX, CY);
+				const tp = pol(midA, R + 54, Cx, Cy);
 				svg.appendChild(
 					tx('Bein HaShmashot', {
 						x: tp.x.toFixed(1),
@@ -1085,14 +1100,14 @@
 				);
 			} else {
 				const el = mk('path', {
-					d: ringSeg(CX, CY, ro, ri, a1, a2),
+					d: ringSeg(Cx, Cy, ro, ri, a1, a2),
 					fill: col,
 				});
 				el.setAttribute('opacity', op);
 				svg.appendChild(el);
 				const midA = a1 + (a2 - a1) / 2;
 				if (a2 - a1 > 18) {
-					const mp = pol(midA, (ro + ri) / 2, CX, CY);
+					const mp = pol(midA, (ro + ri) / 2, Cx, Cy);
 					const lbl = zoneLabel(id);
 					if (lbl) {
 						svg.appendChild(
@@ -1111,8 +1126,8 @@
 		}
 		svg.appendChild(
 			mk('circle', {
-				cx: CX,
-				cy: CY,
+				cx: Cx,
+				cy: Cy,
 				r: Ri,
 				fill: 'var(--wa-color-surface-default)',
 				stroke: 'rgba(128,128,128,0.25)',
@@ -1121,8 +1136,8 @@
 		);
 		svg.appendChild(
 			tx('☀', {
-				x: CX,
-				y: CY - Ri + 20,
+				x: Cx,
+				y: Cy - Ri + 20,
 				'text-anchor': 'middle',
 				'font-size': 16,
 				fill: 'rgba(220,160,20,0.85)',
@@ -1130,8 +1145,8 @@
 		);
 		svg.appendChild(
 			tx('חֲצוֹת', {
-				x: CX,
-				y: CY - Ri + 33,
+				x: Cx,
+				y: Cy - Ri + 33,
 				'text-anchor': 'middle',
 				'font-size': 7.5,
 				fill: 'rgba(170,120,20,0.65)',
@@ -1139,8 +1154,8 @@
 		);
 		svg.appendChild(
 			tx('☽', {
-				x: CX,
-				y: CY + Ri - 9,
+				x: Cx,
+				y: Cy + Ri - 9,
 				'text-anchor': 'middle',
 				'font-size': 13,
 				fill: 'rgba(150,185,240,0.7)',
@@ -1148,8 +1163,8 @@
 		);
 		svg.appendChild(
 			tx(s.label, {
-				x: CX,
-				y: CY + 7,
+				x: Cx,
+				y: Cy + 7,
 				'text-anchor': 'middle',
 				'font-size': 11,
 				fill: '#6b7280',
@@ -1158,18 +1173,17 @@
 		);
 		svg.appendChild(
 			tx(`${s.sm} min/sha'ah`, {
-				x: CX,
-				y: CY + 20,
+				x: Cx,
+				y: Cy + 20,
 				'text-anchor': 'middle',
 				'font-size': 7.5,
 				fill: '#6b7280',
 			}),
 		);
-		const actM = MK.filter(
+		const actM = Mk.filter(
 			(m) =>
-				!m.noCircle &&
-				!m.isZone &&
-				((m.cat === 'db' && CC.db) || (m.cat === 'pr' && CC.pr)),
+				!(m.noCircle || m.isZone) &&
+				((m.cat === 'db' && Cc.db) || (m.cat === 'pr' && Cc.pr)),
 		);
 		const RtL = R + 34;
 		const RtH = R + 52;
@@ -1185,7 +1199,7 @@
 			const isE = ['netz', 'shki', 'alot', 'tzet', 'mish'].includes(m.id);
 			const tR = m.lv === 1 ? RtH : RtL;
 			const nR = m.lv === 1 ? RnH : RnL;
-			const dp = pol(a, R, CX, CY);
+			const dp = pol(a, R, Cx, Cy);
 			svg.appendChild(
 				mk('circle', {
 					cx: dp.x.toFixed(1),
@@ -1196,8 +1210,8 @@
 					'stroke-width': 0.8,
 				}),
 			);
-			const lp1 = pol(a, R + 5, CX, CY);
-			const lp2 = pol(a, nR - 9, CX, CY);
+			const lp1 = pol(a, R + 5, Cx, Cy);
+			const lp2 = pol(a, nR - 9, Cx, Cy);
 			svg.appendChild(
 				mk('line', {
 					x1: lp1.x.toFixed(1),
@@ -1211,7 +1225,7 @@
 				}),
 			);
 			const anchor = anchorForAngle(a, true);
-			const tp = pol(a, tR, CX, CY);
+			const tp = pol(a, tR, Cx, Cy);
 			svg.appendChild(
 				tx(fh(h), {
 					x: tp.x.toFixed(1),
@@ -1221,7 +1235,7 @@
 					fill: 'rgba(255,255,255,0.45)',
 				}),
 			);
-			const np = pol(a, nR, CX, CY);
+			const np = pol(a, nR, Cx, Cy);
 			svg.appendChild(
 				tx(labelFor(m.id), {
 					x: np.x.toFixed(1),
@@ -1237,7 +1251,7 @@
 
 	let chartInstance = null;
 	function drawChart() {
-		const canvas = document.getElementById('rt-month-chart');
+		const canvas = document.querySelector('#rt-month-chart');
 		const ChartCtor = globalThis.Chart;
 		if (!canvas || typeof ChartCtor === 'undefined') {
 			return;
@@ -1329,12 +1343,12 @@
 		if (!dialog) {
 			return;
 		}
-		for (const key of SKEYS) {
+		for (const key of Skeys) {
 			const btn = dialog.querySelector(`#rt-r-${key}`);
 			if (btn) {
 				btn.addEventListener('click', () => {
-					RS[key] = !RS[key];
-					btn.classList.toggle('active', RS[key]);
+					Rs[key] = !Rs[key];
+					btn.classList.toggle('active', Rs[key]);
 					drawRef();
 				});
 			}
@@ -1343,18 +1357,18 @@
 			const btn = dialog.querySelector(`#rt-r-${c}`);
 			if (btn) {
 				btn.addEventListener('click', () => {
-					RC[c] = !RC[c];
-					btn.classList.toggle('active', RC[c]);
+					Rc[c] = !Rc[c];
+					btn.classList.toggle('active', Rc[c]);
 					drawRef();
 				});
 			}
 		}
-		for (const key of SKEYS) {
+		for (const key of Skeys) {
 			const btn = dialog.querySelector(`#rt-c-${key}`);
 			if (btn) {
 				btn.addEventListener('click', () => {
 					clockSea = key;
-					for (const j of SKEYS) {
+					for (const j of Skeys) {
 						dialog
 							.querySelector(`#rt-c-${j}`)
 							?.classList.toggle('active', j === key);
@@ -1367,8 +1381,8 @@
 			const btn = dialog.querySelector(`#rt-c-${c}`);
 			if (btn) {
 				btn.addEventListener('click', () => {
-					CC[c] = !CC[c];
-					btn.classList.toggle('active', CC[c]);
+					Cc[c] = !Cc[c];
+					btn.classList.toggle('active', Cc[c]);
 					drawClock();
 				});
 			}

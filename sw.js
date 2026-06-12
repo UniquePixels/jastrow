@@ -69,16 +69,16 @@ self.addEventListener('activate', (event) => {
 	event.waitUntil(
 		caches
 			.keys()
-			.then((cacheNames) => {
-				return Promise.all(
-					cacheNames.map((cacheName) => {
-						if (cacheName !== CACHE_VERSION) {
+			.then((cacheNames) =>
+				Promise.all(
+					cacheNames
+						.filter((cacheName) => cacheName !== CACHE_VERSION)
+						.map((cacheName) => {
 							console.log('[Service Worker] Deleting old cache:', cacheName);
 							return caches.delete(cacheName);
-						}
-					}),
-				);
-			})
+						}),
+				),
+			)
 			.then(() => {
 				console.log('[Service Worker] Activated successfully');
 				// Take control of all pages immediately
@@ -106,7 +106,7 @@ self.addEventListener('fetch', (event) => {
 	// Data files and version.json bypass SW cache — IDB handles data persistence
 	// Critical: version.json must never be cached by SW or update detection breaks
 	if (
-		url.pathname.includes('/data/') &&
+		url.pathname.startsWith('/data/') &&
 		!url.pathname.endsWith('/sages.json')
 	) {
 		event.respondWith(fetch(request));

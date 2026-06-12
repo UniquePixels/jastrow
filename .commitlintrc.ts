@@ -4,7 +4,7 @@ import { RuleConfigSeverity } from '@commitlint/types';
 const config: UserConfig = {
 	parserPreset: {
 		parserOpts: {
-			headerPattern: /^(.+?): (.+)$/,
+			headerPattern: /^(.+?): (.+)$/u,
 			headerCorrespondence: ['type', 'subject'],
 		},
 	},

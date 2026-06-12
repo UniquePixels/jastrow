@@ -1,14 +1,12 @@
 {
-  "$schema": "node_modules/wrangler/config-schema.json",
-  "name": "jastrow",
-  "compatibility_date": "2025-09-27",
-  "observability": {
-    "enabled": true
-  },
-  "assets": {
-    "directory": "."
-  },
-  "compatibility_flags": [
-    "nodejs_compat"
-  ]
+	"$schema": "node_modules/wrangler/config-schema.json",
+	"name": "jastrow",
+	"compatibility_date": "2026-06-09",
+	"observability": {
+		"enabled": true
+	},
+	"assets": {
+		"directory": "."
+	},
+	"compatibility_flags": ["nodejs_compat"]
 }

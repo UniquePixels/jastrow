@@ -50,7 +50,31 @@ class SagesGraph {
 		this._drawLandmarks();
 		this._drawEdges();
 		this._drawNodes();
+		this._drawTextAlternative();
 		this._setupZoom();
+	}
+
+	// Screen-reader text alternative: a structured list mirroring the
+	// currently-filtered sages, since the positioned SVG graph has no
+	// inherent reading order. Visually hidden; appended as a sibling of the
+	// SVG so _createSVG's replaceChildren() rebuilds it on every render.
+	_drawTextAlternative() {
+		const sages = this._getFilteredSages();
+		const nav = document.createElement('div');
+		nav.className = 'sages-graph-text-list visually-hidden';
+
+		const heading = document.createElement('h3');
+		heading.textContent = `Sages timeline — ${sages.length} sages shown`;
+		nav.appendChild(heading);
+
+		const list = document.createElement('ul');
+		for (const sage of sages) {
+			const item = document.createElement('li');
+			item.textContent = `${sage.name.en} (${sage.name.he}), ${this._formatDates(sage.dates)}`;
+			list.appendChild(item);
+		}
+		nav.appendChild(list);
+		this.container.appendChild(nav);
 	}
 
 	_calculateLayout() {
@@ -176,7 +200,12 @@ class SagesGraph {
 			.append('svg')
 			.attr('class', 'sages-graph-svg')
 			.attr('width', '100%')
-			.attr('height', '100%');
+			.attr('height', '100%')
+			.attr('role', 'group')
+			.attr(
+				'aria-label',
+				'Timeline of Talmudic sages by generation. Press Tab to move between sages and Enter to open a sage. A full text list follows below.',
+			);
 
 		this.zoomGroup = this.svg.append('g').attr('class', 'zoom-group');
 
@@ -305,7 +334,7 @@ class SagesGraph {
 			(e) => filteredIds.has(e.sourceId) && filteredIds.has(e.targetId),
 		);
 
-		const REL_TYPE_MAP = {
+		const RelTypeMap = {
 			'teacher-student': new Set(['teacher', 'student']),
 			family: new Set(['father', 'son', 'wife', 'husband', 'brother-in-law']),
 			sibling: new Set(['sibling']),
@@ -313,7 +342,7 @@ class SagesGraph {
 		// Build set of allowed edge types from active relationship filters
 		const allowedTypes = new Set();
 		for (const relKey of this._activeRelTypes) {
-			const types = REL_TYPE_MAP[relKey];
+			const types = RelTypeMap[relKey];
 			if (types) {
 				for (const t of types) {
 					allowedTypes.add(t);
@@ -345,7 +374,7 @@ class SagesGraph {
 				.style('cursor', 'pointer');
 
 			node
-				.attr('tabindex', '-1')
+				.attr('tabindex', '0')
 				.attr('role', 'button')
 				.attr(
 					'aria-label',
@@ -390,10 +419,18 @@ class SagesGraph {
 				.attr('dir', 'rtl')
 				.text(sage.name.he);
 
-			// Click handler
-			node.on('click', () => {
+			// Click + keyboard activation (role="button" is not natively
+			// keyboard-operable on an SVG <g>, so wire Enter/Space ourselves)
+			const activate = () => {
 				if (this.onNodeClick) {
 					this.onNodeClick(sage.id);
+				}
+			};
+			node.on('click', activate);
+			node.on('keydown', (event) => {
+				if (event.key === 'Enter' || event.key === ' ') {
+					event.preventDefault();
+					activate();
 				}
 			});
 
@@ -452,17 +489,17 @@ class SagesGraph {
 		}
 
 		// Find the bounding box of actual nodes (not the full canvas)
-		let minX = Infinity;
-		let minY = Infinity;
-		let maxX = -Infinity;
-		let maxY = -Infinity;
+		let minX = Number.POSITIVE_INFINITY;
+		let minY = Number.POSITIVE_INFINITY;
+		let maxX = Number.NEGATIVE_INFINITY;
+		let maxY = Number.NEGATIVE_INFINITY;
 		for (const [, pos] of this._positions) {
 			minX = Math.min(minX, pos.x);
 			minY = Math.min(minY, pos.y);
 			maxX = Math.max(maxX, pos.x + this.NODE_WIDTH);
 			maxY = Math.max(maxY, pos.y + this.NODE_HEIGHT);
 		}
-		if (minX === Infinity) {
+		if (minX === Number.POSITIVE_INFINITY) {
 			return; // no nodes
 		}
 

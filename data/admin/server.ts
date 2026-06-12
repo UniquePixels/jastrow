@@ -1,34 +1,80 @@
 import { existsSync, readFileSync, writeFileSync } from 'node:fs';
 import { join } from 'node:path';
+import process from 'node:process';
+import {
+	type EntryViolation,
+	findEntryViolations,
+} from '../../scripts/lib/entry-html.ts';
 import { buildRabbinicTimePdf } from './pdf-builds/render-rabbinic-time.ts';
 
-const DATA_DIR = join(import.meta.dir, '..');
-const PORT = parseInt(process.env.PORT || '3333', 10);
+// JASTROW_DATA_DIR lets tests (or alternate setups) point all data reads
+// and writes at an isolated copy instead of the repo's live data/.
+const DATA_DIR: string =
+	process.env['JASTROW_DATA_DIR'] ?? join(import.meta.dir, '..');
+const PORT = Number.parseInt(process.env['PORT'] || '3333', 10);
+// Restrict CORS to the local admin UI origin (same-origin requests ignore
+// this; it blocks other web pages from issuing cross-origin writes to the
+// local server). Override with ADMIN_ALLOWED_ORIGIN if served elsewhere.
+const ALLOWED_ORIGIN: string =
+	process.env['ADMIN_ALLOWED_ORIGIN'] ?? `http://localhost:${PORT}`;
+
+// --- Types ---
+
+interface Entry {
+	hw?: string;
+	id: string;
+	[key: string]: unknown;
+}
+
+interface SageName {
+	en: string;
+	he: string;
+}
+
+interface Sage {
+	id: string;
+	name?: SageName;
+	[key: string]: unknown;
+}
+
+interface SagesFile {
+	sages?: Sage[];
+}
+
+// Extract the first-brace-to-last-brace {...} slice from a string (used to pull
+// JSON out of CLI output). String scanning avoids backtracking-prone regex.
+function extractJsonObject(text: string): string | null {
+	const start = text.indexOf('{');
+	const end = text.lastIndexOf('}');
+	return start !== -1 && end > start ? text.slice(start, end + 1) : null;
+}
 
 // --- Data Loading ---
 
-function loadJsonl(filePath: string): any[] {
+function loadJsonl(filePath: string): Entry[] {
 	const content = readFileSync(filePath, 'utf-8').trimEnd();
-	return content.split('\n').map((line) => JSON.parse(line));
+	return content.split('\n').map((line): Entry => JSON.parse(line) as Entry);
 }
 
-function readJsonSafe(filePath: string): any {
+function readJsonSafe<T = Record<string, unknown>>(filePath: string): T {
 	try {
 		if (!existsSync(filePath)) {
-			return {};
+			return {} as T;
 		}
-		return JSON.parse(readFileSync(filePath, 'utf-8'));
+		return JSON.parse(readFileSync(filePath, 'utf-8')) as T;
 	} catch {
-		return {};
+		return {} as T;
 	}
 }
 
-function writeJson(filePath: string, data: any): void {
+function writeJson(filePath: string, data: unknown): void {
 	writeFileSync(filePath, `${JSON.stringify(data, null, 2)}\n`, 'utf-8');
 }
 
-function writeJsonl(filePath: string, entries: any[]): void {
-	const content = `${entries.map((e) => JSON.stringify(e)).join('\n')}\n`;
+function writeJsonl(filePath: string, entriesToWrite: Entry[]): void {
+	const content = `${entriesToWrite
+		.map((e) => JSON.stringify(e))
+		.join('\n')}\n`;
 	writeFileSync(filePath, content, 'utf-8');
 }
 
@@ -43,8 +89,8 @@ const part1Path = join(DATA_DIR, 'jastrow-part1.jsonl');
 const part2Path = join(DATA_DIR, 'jastrow-part2.jsonl');
 const part1 = loadJsonl(part1Path);
 const part2 = loadJsonl(part2Path);
-const splitIndex = part1.length;
-const entries: any[] = [...part1, ...part2];
+const splitIndex: number = part1.length;
+const entries: Entry[] = [...part1, ...part2];
 
 // File paths
 const abbrEnglishPath = join(DATA_DIR, 'jastrow-abbr.json');
@@ -59,22 +105,34 @@ console.log(
 
 // --- Helpers ---
 
-function jsonResponse(data: any, status = 200): Response {
+function jsonResponse(data: unknown, status = 200): Response {
 	return new Response(JSON.stringify(data), {
 		status,
 		headers: {
 			'Content-Type': 'application/json',
-			'Access-Control-Allow-Origin': '*',
+			'Access-Control-Allow-Origin': ALLOWED_ORIGIN,
 		},
 	});
 }
 
 function corsHeaders(): Record<string, string> {
 	return {
-		'Access-Control-Allow-Origin': '*',
+		'Access-Control-Allow-Origin': ALLOWED_ORIGIN,
 		'Access-Control-Allow-Methods': 'GET, PUT, POST, DELETE, OPTIONS',
 		'Access-Control-Allow-Headers': 'Content-Type',
 	};
+}
+
+// Turn allow-list violations into a 400 the admin UI can show. The save is
+// rejected before any disk write, so disallowed HTML never reaches the data.
+function violationResponse(violations: EntryViolation[]): Response {
+	return jsonResponse(
+		{
+			error: 'Entry contains disallowed HTML',
+			violations,
+		},
+		400,
+	);
 }
 
 function saveEntriesToDisk(): void {
@@ -87,120 +145,126 @@ function saveEntriesToDisk(): void {
 
 // --- Router ---
 
-function matchRoute(
-	method: string,
-	pathname: string,
-): {
+interface Route {
 	handler: (
 		req: Request,
 		params: Record<string, string>,
 	) => Promise<Response> | Response;
-	params: Record<string, string>;
-} | null {
-	const routes: Array<{
-		method: string;
-		pattern: RegExp;
-		paramNames: string[];
-		handler: (
-			req: Request,
-			params: Record<string, string>,
-		) => Promise<Response> | Response;
-	}> = [
-		// Entries
-		{
-			method: 'GET',
-			pattern: /^\/api\/entries$/,
-			paramNames: [],
-			handler: handleGetEntries,
-		},
-		{
-			method: 'PUT',
-			pattern: /^\/api\/entry\/([^/]+)$/,
-			paramNames: ['rid'],
-			handler: handlePutEntry,
-		},
-		{
-			method: 'POST',
-			pattern: /^\/api\/save-all$/,
-			paramNames: [],
-			handler: handleSaveAll,
-		},
-		// Annotations
-		{
-			method: 'GET',
-			pattern: /^\/api\/annotations$/,
-			paramNames: [],
-			handler: handleGetAnnotations,
-		},
-		{
-			method: 'PUT',
-			pattern: /^\/api\/annotations$/,
-			paramNames: [],
-			handler: handlePutAnnotations,
-		},
-		// Abbreviations
-		{
-			method: 'GET',
-			pattern: /^\/api\/abbreviations$/,
-			paramNames: [],
-			handler: handleGetAbbreviations,
-		},
-		{
-			method: 'PUT',
-			pattern: /^\/api\/abbreviations\/([^/]+)$/,
-			paramNames: ['type'],
-			handler: handlePutAbbreviations,
-		},
-		// Sages
-		{
-			method: 'GET',
-			pattern: /^\/api\/sages$/,
-			paramNames: [],
-			handler: handleGetSages,
-		},
-		{
-			method: 'PUT',
-			pattern: /^\/api\/sage\/([^/]+)$/,
-			paramNames: ['id'],
-			handler: handlePutSage,
-		},
-		{
-			method: 'POST',
-			pattern: /^\/api\/sage$/,
-			paramNames: [],
-			handler: handlePostSage,
-		},
-		{
-			method: 'DELETE',
-			pattern: /^\/api\/sage\/([^/]+)$/,
-			paramNames: ['id'],
-			handler: handleDeleteSage,
-		},
-		{
-			method: 'POST',
-			pattern: /^\/api\/sage\/([^/]+)\/research$/,
-			paramNames: ['id'],
-			handler: handleSageResearch,
-		},
-		// Builds
-		{
-			method: 'POST',
-			pattern: /^\/api\/builds\/rabbinic-time-pdf$/,
-			paramNames: [],
-			handler: handleBuildRabbinicTimePdf,
-		},
-	];
+	method: string;
+	paramNames: string[];
+	pattern: RegExp;
+}
 
-	for (const route of routes) {
+// Built once at module load; the patterns are stable across requests.
+const ROUTES: Route[] = [
+	// Entries
+	{
+		method: 'GET',
+		pattern: /^\/api\/entries$/u,
+		paramNames: [],
+		handler: handleGetEntries,
+	},
+	{
+		method: 'PUT',
+		pattern: /^\/api\/entry\/([^/]+)$/u,
+		paramNames: ['rid'],
+		handler: handlePutEntry,
+	},
+	{
+		method: 'POST',
+		pattern: /^\/api\/save-all$/u,
+		paramNames: [],
+		handler: handleSaveAll,
+	},
+	// Annotations
+	{
+		method: 'GET',
+		pattern: /^\/api\/annotations$/u,
+		paramNames: [],
+		handler: handleGetAnnotations,
+	},
+	{
+		method: 'PUT',
+		pattern: /^\/api\/annotations$/u,
+		paramNames: [],
+		handler: handlePutAnnotations,
+	},
+	// Abbreviations
+	{
+		method: 'GET',
+		pattern: /^\/api\/abbreviations$/u,
+		paramNames: [],
+		handler: handleGetAbbreviations,
+	},
+	{
+		method: 'PUT',
+		pattern: /^\/api\/abbreviations\/([^/]+)$/u,
+		paramNames: ['type'],
+		handler: handlePutAbbreviations,
+	},
+	// Sages
+	{
+		method: 'GET',
+		pattern: /^\/api\/sages$/u,
+		paramNames: [],
+		handler: handleGetSages,
+	},
+	{
+		method: 'PUT',
+		pattern: /^\/api\/sage\/([^/]+)$/u,
+		paramNames: ['id'],
+		handler: handlePutSage,
+	},
+	{
+		method: 'POST',
+		pattern: /^\/api\/sage$/u,
+		paramNames: [],
+		handler: handlePostSage,
+	},
+	{
+		method: 'DELETE',
+		pattern: /^\/api\/sage\/([^/]+)$/u,
+		paramNames: ['id'],
+		handler: handleDeleteSage,
+	},
+	{
+		method: 'POST',
+		pattern: /^\/api\/sage\/([^/]+)\/research$/u,
+		paramNames: ['id'],
+		handler: handleSageResearch,
+	},
+	// Builds
+	{
+		method: 'POST',
+		pattern: /^\/api\/builds\/rabbinic-time-pdf$/u,
+		paramNames: [],
+		handler: handleBuildRabbinicTimePdf,
+	},
+];
+
+function matchRoute(
+	method: string,
+	pathname: string,
+):
+	| { handler: Route['handler']; params: Record<string, string> }
+	| { badEncoding: true }
+	| null {
+	for (const route of ROUTES) {
 		if (route.method !== method) {
 			continue;
 		}
 		const match = pathname.match(route.pattern);
 		if (match) {
 			const params: Record<string, string> = {};
-			route.paramNames.forEach((name, i) => {
-				params[name] = decodeURIComponent(match[i + 1]);
-			});
+			try {
+				route.paramNames.forEach((name, i) => {
+					params[name] = decodeURIComponent(match[i + 1] ?? '');
+				});
+			} catch {
+				// Malformed percent-encoding — signal a bad request rather than
+				// letting decodeURIComponent throw an unhandled 500.
+				return { badEncoding: true };
+			}
 			return { handler: route.handler, params };
 		}
 	}
@@ -217,20 +281,42 @@ async function handlePutEntry(
 	req: Request,
 	params: Record<string, string>,
 ): Promise<Response> {
-	const rid = params.rid;
+	const rid = params['rid'];
 	const idx = entries.findIndex((e) => e.id === rid);
 	if (idx === -1) {
 		return jsonResponse({ error: `Entry not found: ${rid}` }, 404);
 	}
-	const body = await req.json();
+	const body = (await req.json()) as Entry;
+	// Guard against a silent rename: the body id must match the route id.
+	if (body.id && body.id !== rid) {
+		return jsonResponse(
+			{ error: `Entry id mismatch: body "${body.id}" != route "${rid}"` },
+			400,
+		);
+	}
+	const violations = findEntryViolations(body);
+	if (violations.length > 0) {
+		return violationResponse(violations);
+	}
 	entries[idx] = body;
 	saveEntriesToDisk();
 	return jsonResponse({ ok: true, entry: body });
 }
 
 async function handleSaveAll(req: Request): Promise<Response> {
-	const body = await req.json();
+	const body = (await req.json()) as { updates?: Entry[] };
 	if (Array.isArray(body.updates)) {
+		// Validate the whole batch first; reject all-or-nothing so a single
+		// bad entry never lands a partial, half-saved write.
+		const violations: EntryViolation[] = body.updates.flatMap((update) =>
+			findEntryViolations(update).map((v) => ({
+				...v,
+				path: `${update.id}:${v.path}`,
+			})),
+		);
+		if (violations.length > 0) {
+			return violationResponse(violations);
+		}
 		for (const update of body.updates) {
 			const idx = entries.findIndex((e) => e.id === update.id);
 			if (idx !== -1) {
@@ -263,7 +349,7 @@ async function handlePutAbbreviations(
 	req: Request,
 	params: Record<string, string>,
 ): Promise<Response> {
-	const type = params.type;
+	const type = params['type'];
 	const body = await req.json();
 	if (type === 'english') {
 		writeJson(abbrEnglishPath, body);
@@ -285,27 +371,34 @@ async function handlePutSage(
 	req: Request,
 	params: Record<string, string>,
 ): Promise<Response> {
-	const id = params.id;
-	const body = await req.json();
-	const data = readJsonSafe(sagesPath);
-	const sages: any[] = data.sages || [];
+	const id = params['id'];
+	const body = (await req.json()) as Sage;
+	const data = readJsonSafe<SagesFile>(sagesPath);
+	const sages: Sage[] = data.sages ?? [];
 	const idx = sages.findIndex((s) => s.id === id);
 	if (idx === -1) {
 		return jsonResponse({ error: `Sage not found: ${id}` }, 404);
 	}
-	sages[idx] = { ...body, id };
+	// Guard against a silent rename: the body id must match the route id.
+	if (body.id && body.id !== id) {
+		return jsonResponse(
+			{ error: `Sage id mismatch: body "${body.id}" != route "${id}"` },
+			400,
+		);
+	}
+	sages[idx] = { ...body, id: id ?? body.id };
 	writeJson(sagesPath, { sages });
 	updateVersion();
 	return jsonResponse({ ok: true, sage: sages[idx] });
 }
 
 async function handlePostSage(req: Request): Promise<Response> {
-	const body = await req.json();
+	const body = (await req.json()) as Sage;
 	if (!body.id) {
 		return jsonResponse({ error: 'Sage must have an id' }, 400);
 	}
-	const data = readJsonSafe(sagesPath);
-	const sages: any[] = data.sages || [];
+	const data = readJsonSafe<SagesFile>(sagesPath);
+	const sages: Sage[] = data.sages ?? [];
 	if (sages.some((s) => s.id === body.id)) {
 		return jsonResponse({ error: `Sage already exists: ${body.id}` }, 409);
 	}
@@ -315,13 +408,13 @@ async function handlePostSage(req: Request): Promise<Response> {
 	return jsonResponse({ ok: true, sage: body }, 201);
 }
 
-async function handleDeleteSage(
+function handleDeleteSage(
 	_req: Request,
 	params: Record<string, string>,
-): Promise<Response> {
-	const id = params.id;
-	const data = readJsonSafe(sagesPath);
-	const sages: any[] = data.sages || [];
+): Response {
+	const id = params['id'];
+	const data = readJsonSafe<SagesFile>(sagesPath);
+	const sages: Sage[] = data.sages ?? [];
 	const idx = sages.findIndex((s) => s.id === id);
 	if (idx === -1) {
 		return jsonResponse({ error: `Sage not found: ${id}` }, 404);
@@ -336,14 +429,14 @@ async function handleSageResearch(
 	_req: Request,
 	params: Record<string, string>,
 ): Promise<Response> {
-	const id = params.id;
-	const data = readJsonSafe(sagesPath);
-	const sage = (data.sages || []).find((s: any) => s.id === id);
+	const id = params['id'];
+	const data = readJsonSafe<SagesFile>(sagesPath);
+	const sage = (data.sages ?? []).find((s) => s.id === id);
 	if (!sage) {
 		return jsonResponse({ error: 'Sage not found' }, 404);
 	}
 
-	const prompt = `You have access to the Sefaria MCP server. Research the Talmudic sage "${sage.name.en}" (${sage.name.he}).
+	const prompt = `You have access to the Sefaria MCP server. Research the Talmudic sage "${sage.name?.en}" (${sage.name?.he}).
 Current data: ${JSON.stringify(sage, null, 2)}
 Return a JSON object with suggested additions:
 { "bio": "...", "teachings": ["..."], "stories": ["..."], "relationships": [{"type": "...", "target": "...", "note": "..."}] }
@@ -362,8 +455,8 @@ Only include fields where you have substantive new information to add.`;
 		if (exitCode !== 0) {
 			return jsonResponse({ error: 'Claude CLI failed' }, 503);
 		}
-		const jsonMatch = output.match(/\{[\s\S]*\}/);
-		const suggestions = jsonMatch ? JSON.parse(jsonMatch[0]) : {};
+		const jsonSlice = extractJsonObject(output);
+		const suggestions = jsonSlice ? JSON.parse(jsonSlice) : {};
 		return jsonResponse({ suggestions });
 	} catch {
 		return jsonResponse({ error: 'Claude CLI not available' }, 503);
@@ -376,7 +469,7 @@ async function handleBuildRabbinicTimePdf(): Promise<Response> {
 		return jsonResponse({
 			ok: true,
 			bytes: result.bytes,
-			kb: +(result.bytes / 1024).toFixed(1),
+			kb: Number((result.bytes / 1024).toFixed(1)),
 			durationMs: result.durationMs,
 			outPath: 'assets/pdfs/rabbinic-time.pdf',
 			logs: result.logs,
@@ -395,7 +488,7 @@ function serveAdminHtml(): Response {
 		return new Response(html, {
 			headers: {
 				'Content-Type': 'text/html',
-				'Access-Control-Allow-Origin': '*',
+				'Access-Control-Allow-Origin': ALLOWED_ORIGIN,
 			},
 		});
 	} catch {
@@ -405,10 +498,10 @@ function serveAdminHtml(): Response {
 
 const server = Bun.serve({
 	port: PORT,
-	fetch(req) {
+	fetch(req: Request): Response | Promise<Response> {
 		const url = new URL(req.url);
-		const pathname = url.pathname;
-		const method = req.method;
+		const { pathname } = url;
+		const { method } = req;
 
 		// CORS preflight
 		if (method === 'OPTIONS') {
@@ -422,6 +515,9 @@ const server = Bun.serve({
 
 		// API routes
 		const route = matchRoute(method, pathname);
+		if (route && 'badEncoding' in route) {
+			return jsonResponse({ error: 'Malformed path encoding' }, 400);
+		}
 		if (route) {
 			return route.handler(req, route.params);
 		}

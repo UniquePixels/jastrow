@@ -31,11 +31,11 @@ wa-tab:focus-visible::part(base) {
 	position: absolute;
 	top: 0;
 	left: 0;
-	padding: 0.75rem 1.5rem;
-	background: var(--wa-color-brand-fill-loud);
-	color: var(--wa-color-brand-on-loud);
-	font-weight: 600;
 	z-index: 10000;
+	padding: 0.75rem 1.5rem;
+	font-weight: 600;
+	color: var(--wa-color-brand-on-loud);
+	background: var(--wa-color-brand-fill-loud);
 	transform: translateY(-100%);
 	transition: transform 0.2s ease;
 }
@@ -54,32 +54,49 @@ wa-tab:focus-visible::part(base) {
 
 /* --- SVG Node Focus Ring ------------------------------------------------ */
 
-.node:focus .node-bg {
+.node:focus-visible .node-bg {
+	filter: drop-shadow(0 0 4px var(--wa-color-brand-fill-loud));
 	stroke: var(--wa-color-brand-fill-loud);
 	stroke-width: 3;
-	filter: drop-shadow(0 0 4px var(--wa-color-brand-fill-loud));
 }
 
-.node:focus {
+.node:focus-visible {
 	outline: none;
+}
+
+/* --- Visually Hidden (text alternatives for screen readers) ------------- */
+
+.visually-hidden {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	padding: 0;
+	margin: -1px;
+	overflow: hidden;
+	white-space: nowrap;
+	border: 0;
+	/* Legacy `clip` kept intentionally for older screen-reader/browser support;
+	   `clip-path` is the modern equivalent. The deprecation warning is expected. */
+	clip: rect(0, 0, 0, 0);
+	clip-path: inset(50%);
 }
 
 /* --- Touch Targets ------------------------------------------------------ */
 
 .banner-dismiss {
-	min-width: 44px;
-	min-height: 44px;
 	display: inline-flex;
 	align-items: center;
 	justify-content: center;
+	min-width: 44px;
+	min-height: 44px;
 }
 
 .sages-sidebar-close {
-	min-width: 44px;
-	min-height: 44px;
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	min-width: 44px;
+	min-height: 44px;
 }
 
 /* --- Reduced Motion ----------------------------------------------------- */
@@ -88,8 +105,11 @@ wa-tab:focus-visible::part(base) {
 	*,
 	*::before,
 	*::after {
+		/* biome-ignore lint/complexity/noImportantStyles: reduced-motion a11y override must win over every animation/transition */
 		transition-duration: 0.01ms !important;
+		/* biome-ignore lint/complexity/noImportantStyles: reduced-motion a11y override must win over every animation/transition */
 		animation-duration: 0.01ms !important;
+		/* biome-ignore lint/complexity/noImportantStyles: reduced-motion a11y override must win over every animation/transition */
 		animation-iteration-count: 1 !important;
 	}
 }

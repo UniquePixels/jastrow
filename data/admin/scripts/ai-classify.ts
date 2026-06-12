@@ -6,7 +6,8 @@
  * "needs-review" for human verification.
  *
  * Prerequisites:
- *   bun add @anthropic-ai/sdk
+ *   @anthropic-ai/sdk (declared as an optionalDependency; present after a
+ *   default `bun install`, skipped under --no-optional)
  *   export ANTHROPIC_API_KEY=sk-ant-...
  *
  * Usage:
@@ -15,12 +16,13 @@
 
 import { readFileSync, writeFileSync } from 'node:fs';
 import { join } from 'node:path';
+import process from 'node:process';
 
 const DATA_DIR = join(import.meta.dir, '../..');
 const ANNOTATIONS_PATH = join(import.meta.dir, '..', 'annotations.json');
 
 // Dynamic import so Bun doesn't hard-fail at load time if the SDK is missing
-let Anthropic: any;
+let Anthropic: typeof import('@anthropic-ai/sdk').default | undefined;
 try {
 	const mod = await import('@anthropic-ai/sdk');
 	Anthropic = mod.default;
@@ -31,16 +33,30 @@ try {
 	process.exit(1);
 }
 
-function loadJsonl(path: string): any[] {
+interface DictEntry {
+	c?: { s?: Array<{ d?: string }> };
+	g?: { ps?: string; l?: string };
+	hw?: string;
+	id: string;
+	[key: string]: unknown;
+}
+
+interface Annotation {
+	created?: string;
+	note: string;
+	type: string;
+}
+
+function loadJsonl(path: string): DictEntry[] {
 	return readFileSync(path, 'utf-8')
 		.trim()
 		.split('\n')
-		.map((l) => JSON.parse(l));
+		.map((l): DictEntry => JSON.parse(l) as DictEntry);
 }
 
 const part1 = loadJsonl(join(DATA_DIR, 'jastrow-part1.jsonl'));
 const part2 = loadJsonl(join(DATA_DIR, 'jastrow-part2.jsonl'));
-const allEntries = [...part1, ...part2];
+const allEntries: DictEntry[] = [...part1, ...part2];
 
 // Filter to entries missing POS
 const needsClassification = allEntries.filter((e) => !e.g?.ps);
@@ -49,9 +65,12 @@ console.log(
 );
 
 // Load existing annotations for progress tracking
-let annotations: Record<string, any[]> = {};
+let annotations: Record<string, Annotation[]> = {};
 try {
-	annotations = JSON.parse(readFileSync(ANNOTATIONS_PATH, 'utf-8'));
+	annotations = JSON.parse(readFileSync(ANNOTATIONS_PATH, 'utf-8')) as Record<
+		string,
+		Annotation[]
+	>;
 } catch {
 	// No existing annotations file — start fresh
 }
@@ -60,7 +79,7 @@ try {
 const todo = needsClassification.filter((e) => {
 	const anns = annotations[e.id] || [];
 	return !anns.some(
-		(a: any) => a.type === 'needs-review' && a.note.startsWith('AI suggests:'),
+		(a) => a.type === 'needs-review' && a.note.startsWith('AI suggests:'),
 	);
 });
 console.log(
@@ -85,8 +104,10 @@ for (let i = 0; i < todo.length; i += BATCH_SIZE) {
 		.join('\n');
 
 	try {
+		// biome-ignore lint/performance/noAwaitInLoops: batches are sent sequentially to respect API rate limits (loop sleeps between batches)
 		const response = await client.messages.create({
 			model: 'claude-sonnet-4-20250514',
+			// biome-ignore lint/style/useNamingConvention: Anthropic API parameter name (snake_case)
 			max_tokens: 1024,
 			messages: [
 				{
@@ -102,28 +123,42 @@ ${prompt}`,
 			],
 		});
 
-		const text =
-			response.content[0].type === 'text' ? response.content[0].text : '';
-		const jsonMatch = text.match(/\[[\s\S]*\]/);
-		if (!jsonMatch) {
+		const [firstBlock] = response.content;
+		const text = firstBlock?.type === 'text' ? firstBlock.text : '';
+		// Extract the first-bracket-to-last-bracket [...] slice without a
+		// backtracking-prone regex.
+		const start = text.indexOf('[');
+		const end = text.lastIndexOf(']');
+		if (start === -1 || end <= start) {
 			console.log(`Batch ${i}: no JSON found in response`);
 			continue;
 		}
 
-		const results = JSON.parse(jsonMatch[0]);
+		const results = JSON.parse(text.slice(start, end + 1));
 		for (const r of results) {
-			if (!annotations[r.rid]) {
-				annotations[r.rid] = [];
+			// Model output is untrusted — skip malformed items rather than
+			// writing garbage keys/notes into annotations.
+			if (
+				typeof r !== 'object' ||
+				r === null ||
+				typeof r.rid !== 'string' ||
+				typeof r.ps !== 'string' ||
+				(r.gn !== undefined && r.gn !== null && typeof r.gn !== 'string')
+			) {
+				console.warn('Skipping malformed AI result:', r);
+				continue;
 			}
 			const parts = [`ps=${r.ps}`];
 			if (r.gn && r.gn !== 'null') {
 				parts.push(`gn=${r.gn}`);
 			}
-			annotations[r.rid].push({
+			const existing = annotations[r.rid] ?? [];
+			existing.push({
 				type: 'needs-review',
 				note: `AI suggests: ${parts.join(', ')}`,
-				created: new Date().toISOString().split('T')[0],
+				created: new Date().toISOString().split('T')[0] ?? '',
 			});
+			annotations[r.rid] = existing;
 		}
 
 		// Save progress after each batch
@@ -131,8 +166,9 @@ ${prompt}`,
 		console.log(
 			`Batch ${i}-${i + batch.length}: classified ${results.length} entries`,
 		);
-	} catch (err: any) {
-		console.error(`Batch ${i} error: ${err.message}`);
+	} catch (err) {
+		const message = err instanceof Error ? err.message : String(err);
+		console.error(`Batch ${i} error: ${message}`);
 		// Save progress so we don't lose work
 		writeFileSync(ANNOTATIONS_PATH, JSON.stringify(annotations, null, 2));
 	}

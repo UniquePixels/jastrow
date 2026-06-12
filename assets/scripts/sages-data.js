@@ -9,7 +9,7 @@
  */
 
 (() => {
-	const INVERSE_TYPES = {
+	const InverseTypes = {
 		teacher: 'student',
 		student: 'teacher',
 		father: 'son',
@@ -60,7 +60,7 @@
 					});
 
 					if (this._byId.has(rel.target)) {
-						const inverseType = INVERSE_TYPES[rel.type];
+						const inverseType = InverseTypes[rel.type];
 						if (inverseType) {
 							this._relationships.get(rel.target).push({
 								type: inverseType,

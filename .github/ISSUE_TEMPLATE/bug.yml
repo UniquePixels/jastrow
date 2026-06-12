@@ -1,0 +1,44 @@
+name: Bug report
+description: Something in the app is broken or behaves incorrectly
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for the report. For **wrong dictionary content**, use the
+        "Data correction" template instead. For **security issues**, see
+        SECURITY.md — do not file a public issue.
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: What did you do, what did you expect, and what happened instead?
+      placeholder: Steps to reproduce → expected → actual
+    validations:
+      required: true
+  - type: input
+    id: url
+    attributes:
+      label: Page / route
+      description: The URL or hash route where it happens (e.g. `#rid:A00000`, `#sages`).
+    validations:
+      required: false
+  - type: dropdown
+    id: environment
+    attributes:
+      label: Environment
+      description: Where did you see this?
+      multiple: true
+      options:
+        - Desktop browser
+        - Mobile browser
+        - Installed PWA (offline)
+    validations:
+      required: false
+  - type: input
+    id: browser
+    attributes:
+      label: Browser & OS
+      placeholder: e.g. Safari 18 on iOS 18 / Firefox 130 on Linux
+    validations:
+      required: false

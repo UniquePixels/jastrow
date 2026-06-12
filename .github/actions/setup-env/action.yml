@@ -1,10 +1,16 @@
 name: Setup Environment
-description: Install mise and project tools
+description: Install mise, project tools, and Bun dependencies
 
 runs:
   using: composite
   steps:
     - name: Install mise
-      uses: jdx/mise-action@v2
+      uses: jdx/mise-action@c37c93293d6b742fc901e1406b8f764f6fb19dac # v2
       with:
         install: true
+    - name: Install dependencies
+      # Frozen lockfile keeps CI deterministic. Bun does not run dependency
+      # lifecycle scripts by default, so Playwright's browser download is
+      # skipped (only registry.npmjs.org is needed — see harden-runner egress).
+      shell: bash
+      run: bun install --frozen-lockfile

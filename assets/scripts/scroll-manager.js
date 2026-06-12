@@ -73,6 +73,7 @@ class InfiniteScroll {
 		this._stopListening();
 		this._cancelSettle();
 		this._cancelDriftObserver();
+		this._cancelBackward();
 		this._suppressLoading = true;
 
 		// Set visible page immediately
@@ -87,6 +88,10 @@ class InfiniteScroll {
 		} else {
 			start = this.getPageStartIndex(targetPage);
 			if (start < 0) {
+				// Nothing to render — restore normal listening state instead of
+				// leaving the instance suppressed with listeners detached.
+				this._suppressLoading = false;
+				this._startListening();
 				return;
 			}
 		}
@@ -169,10 +174,25 @@ class InfiniteScroll {
 	 */
 	reset() {
 		this._stopListening();
+		this._cancelSettle();
+		this._cancelDriftObserver();
+		this._cancelBackward();
 		this.startIndex = 0;
 		this.endIndex = 0;
 		this.currentVisiblePage = 0;
 		this.container.replaceChildren();
+	}
+
+	/**
+	 * Cancel a pending backward-load insertion timer (e.g. on reset or
+	 * re-navigation) so stale entries aren't prepended into a new view.
+	 */
+	_cancelBackward() {
+		if (this._backwardTimer) {
+			clearTimeout(this._backwardTimer);
+			this._backwardTimer = null;
+		}
+		this._loadingTop = false;
 	}
 
 	/**
@@ -186,9 +206,9 @@ class InfiniteScroll {
 			return;
 		}
 
-		this.container.querySelectorAll('.entry-highlight').forEach((el) => {
+		for (const el of this.container.querySelectorAll('.entry-highlight')) {
 			el.classList.remove('entry-highlight');
-		});
+		}
 		entryElement.classList.add('entry-highlight');
 
 		let settleTimer = null;
@@ -231,6 +251,7 @@ class InfiniteScroll {
 		this._stopListening();
 		this._cancelSettle();
 		this._cancelDriftObserver();
+		this._cancelBackward();
 		clearTimeout(this._urlUpdateTimer);
 		if (this._rafId) {
 			cancelAnimationFrame(this._rafId);
@@ -352,7 +373,8 @@ class InfiniteScroll {
 		}
 
 		// 3. After minimum banner time, insert entries and correct scroll
-		setTimeout(() => {
+		this._backwardTimer = setTimeout(() => {
+			this._backwardTimer = null;
 			// Anchor on the first real entry (after the loader)
 			const anchorEl = loader.nextElementSibling;
 			const anchorTop = anchorEl ? anchorEl.getBoundingClientRect().top : 0;
@@ -513,7 +535,7 @@ class InfiniteScroll {
 		for (const el of entries) {
 			const rect = el.getBoundingClientRect();
 			if (rect.top <= viewportMid && rect.bottom >= 0) {
-				const page = parseInt(el.dataset.dictPage, 10);
+				const page = Number.parseInt(el.dataset.dictPage, 10);
 				if (page !== this.currentVisiblePage) {
 					this.currentVisiblePage = page;
 					if (this.onPageChange) {
@@ -550,3 +572,6 @@ class InfiniteScroll {
 		}
 	}
 }
+
+// Exposed as a global for the other classic scripts (no bundler).
+window.InfiniteScroll = InfiniteScroll;

@@ -1,61 +1,305 @@
 {
 	"$schema": "./node_modules/@biomejs/biome/configuration_schema.json",
-
 	"vcs": {
 		"enabled": true,
 		"clientKind": "git",
 		"useIgnoreFile": true
 	},
 	"files": {
-		"ignoreUnknown": true,
-		"includes": ["**/*.js", "**/*.ts", "**/*.json", "**/*.html"]
+		"ignoreUnknown": false,
+		"includes": [
+			"**",
+			"!data/*.json",
+			"!data/*.jsonl",
+			"!data/admin/annotations.json"
+		]
 	},
-	"assist": { "actions": { "source": { "organizeImports": "on" } } },
+	"assist": {
+		"actions": {
+			"source": {
+				"noDuplicateClasses": "on",
+				"organizeImports": "on",
+				"useSortedInterfaceMembers": "on",
+				"useSortedProperties": "on"
+			}
+		}
+	},
 	"linter": {
 		"enabled": true,
 		"rules": {
 			"recommended": true,
+			"a11y": {
+				"noNoninteractiveElementInteractions": "on"
+			},
 			"complexity": {
 				"noExcessiveCognitiveComplexity": "on",
+				"noExcessiveLinesPerFunction": "on",
+				"noExcessiveNestedTestSuites": "on",
 				"noForEach": "on",
+				"noImplicitCoercions": "on",
+				"noUselessCatchBinding": "on",
+				"noUselessStringConcat": "on",
+				"noUselessUndefined": "on",
+				"noVoid": "on",
+				"useLiteralKeys": "off",
+				"useMaxParams": "on",
 				"useSimplifiedLogicExpression": "on",
 				"useWhile": "on"
 			},
 			"correctness": {
-				"noUndeclaredVariables": "on"
+				"noGlobalDirnameFilename": "on",
+				"noNodejsModules": "on",
+				"noPrivateImports": "on",
+				"noProcessGlobal": "on",
+				"noUndeclaredDependencies": "on",
+				"noUndeclaredVariables": "on",
+				"noUnresolvedImports": "on",
+				"useImportExtensions": "on",
+				"useJsonImportAttributes": "on",
+				"useSingleJsDocAsterisk": "on"
+			},
+			"nursery": {
+				"noAmbiguousAnchorText": "on",
+				"noConditionalExpect": "on",
+				"noDeprecatedMediaType": "on",
+				"noDivRegex": "on",
+				"noDuplicateAttributes": "on",
+				"noDuplicateEnumValues": "on",
+				"noDuplicateSelectors": "on",
+				"noEmptyObjectKeys": "on",
+				"noExcessiveClassesPerFile": "on",
+				"noExcessiveLinesPerFile": "on",
+				"noExcessiveNestedCallbacks": "on",
+				"noExcessiveSelectorClasses": "on",
+				"noForIn": "on",
+				"noIdenticalTestTitle": "on",
+				"noMultiAssign": "on",
+				"noMultiStr": "on",
+				"noParametersOnlyUsedInRecursion": "on",
+				"noProto": "on",
+				"noRedundantDefaultExport": "on",
+				"noReturnAssign": "on",
+				"noScriptUrl": "on",
+				"noShadow": "on",
+				"noSyncScripts": "on",
+				"noTopLevelLiterals": "on",
+				"noUndeclaredEnvVars": "on",
+				"noUnnecessaryTemplateExpression": "on",
+				"noUselessReturn": "on",
+				"useArraySome": "on",
+				"useBaseline": "on",
+				"useConsistentMethodSignatures": "on",
+				"useConsistentTestIt": "on",
+				"useDestructuring": "on",
+				"useDomQuerySelector": "on",
+				"useErrorCause": "on",
+				"useExpect": "on",
+				"useExplicitReturnType": "on",
+				"useExplicitType": "on",
+				"useIframeSandbox": "on",
+				"useImportsFirst": "on",
+				"useNamedCaptureGroup": "on",
+				"useReduceTypeParameter": "on",
+				"useRegexpTest": "on",
+				"useRequiredScripts": {
+					"level": "on",
+					"options": {
+						"requiredScripts": ["qa"]
+					}
+				},
+				"useSpread": "on",
+				"useTestHooksInOrder": "on",
+				"useTestHooksOnTop": "on",
+				"useUnicodeRegex": "on"
+			},
+			"performance": {
+				"noAwaitInLoops": "on",
+				"noBarrelFile": "on",
+				"noDelete": "on",
+				"noNamespaceImport": "on",
+				"noReExportAll": "on",
+				"useTopLevelRegex": "on"
+			},
+			"security": {
+				"noSecrets": "off"
 			},
 			"style": {
+				"noCommonJs": "on",
+				"noDefaultExport": "on",
+				"noDescendingSpecificity": "off",
+				"noDoneCallback": "on",
+				"noExportedImports": "on",
+				"noInferrableTypes": "on",
+				"noMagicNumbers": "off",
+				"noNamespace": "on",
 				"noNegationElse": "on",
 				"noNestedTernary": "on",
 				"noParameterAssign": "on",
+				"noProcessEnv": "on",
+				"noShoutyConstants": "on",
+				"noSubstr": "on",
+				"noUnusedTemplateLiteral": "on",
 				"noUselessElse": "on",
+				"noValueAtRule": "on",
 				"noYodaExpression": "on",
+				"useAsConstAssertion": "on",
+				"useAtIndex": "on",
 				"useBlockStatements": "on",
 				"useCollapsedElseIf": "on",
 				"useCollapsedIf": "on",
+				"useConsistentArrayType": "on",
+				"useConsistentArrowReturn": "on",
 				"useConsistentBuiltinInstantiation": "on",
+				"useConsistentMemberAccessibility": {
+					"level": "on",
+					"options": {
+						"accessibility": "explicit"
+					}
+				},
+				"useConsistentObjectDefinitions": "on",
 				"useDefaultParameterLast": "on",
+				"useDefaultSwitchClause": "off",
+				"useEnumInitializers": "on",
 				"useExplicitLengthCheck": "on",
+				"useExportsLast": "on",
+				"useFilenamingConvention": {
+					"level": "on",
+					"options": {
+						"requireAscii": true,
+						"filenameCases": ["kebab-case"]
+					}
+				},
 				"useForOf": "on",
+				"useGroupedAccessorPairs": "on",
+				"useNamingConvention": {
+					"level": "on",
+					"options": {
+						"strictCase": false,
+						"requireAscii": true,
+						"conventions": [
+							{
+								"selector": {
+									"kind": "objectLiteralProperty"
+								},
+								"formats": ["camelCase", "CONSTANT_CASE"]
+							}
+						]
+					}
+				},
+				"useNodeAssertStrict": "on",
+				"useNumberNamespace": "on",
+				"useNumericSeparators": "on",
+				"useObjectSpread": "on",
+				"useReadonlyClassProperties": "on",
+				"useShorthandAssign": "on",
 				"useSingleVarDeclarator": "on",
+				"useSymbolDescription": "on",
 				"useThrowNewError": "on",
-				"useThrowOnlyError": "on"
+				"useThrowOnlyError": "on",
+				"useTrimStartEnd": "on",
+				"useUnifiedTypeSignatures": "on"
 			},
 			"suspicious": {
-				"noConsole": "off",
+				"noAlert": "on",
+				"noBitwiseOperators": "on",
+				"noConsole": "info",
+				"noConstantBinaryExpressions": "on",
+				"noDeprecatedImports": "on",
+				"noDuplicateDependencies": "on",
+				"noDuplicateTestHooks": "on",
 				"noEmptyBlockStatements": "on",
+				"noEmptySource": "on",
+				"noEvolvingTypes": "on",
+				"noExportsInTest": "on",
+				"noFocusedTests": "on",
+				"noImportCycles": "on",
+				"noMisplacedAssertion": "on",
+				"noSkippedTests": "on",
+				"noUnassignedVariables": "on",
+				"noUnusedExpressions": "on",
 				"noVar": "on",
-				"useErrorMessage": "on"
+				"useAwait": "on",
+				"useDeprecatedDate": "on",
+				"useErrorMessage": "on",
+				"useGuardForIn": "on",
+				"useNumberToFixedDigitsArgument": "error",
+				"useStaticResponseMethods": "on",
+				"useStrictMode": "on"
 			}
 		}
 	},
 	"overrides": [
 		{
-			"includes": ["data/admin/**"],
+			"includes": ["**/*.js"],
 			"linter": {
 				"rules": {
 					"style": {
-						"noParameterAssign": "off"
+						"useConsistentMemberAccessibility": "off"
+					}
+				}
+			}
+		},
+		{
+			"includes": [".commitlintrc.ts"],
+			"linter": {
+				"rules": {
+					"style": {
+						"noDefaultExport": "off"
+					}
+				}
+			}
+		},
+		{
+			"includes": ["data/admin/**"],
+			"linter": {
+				"rules": {
+					"correctness": {
+						"noNodejsModules": "off"
+					},
+					"nursery": {
+						"noSyncScripts": "off"
+					},
+					"performance": {
+						"noDelete": "off"
+					},
+					"style": {
+						"noProcessEnv": "off"
+					},
+					"suspicious": {
+						"noAlert": "off"
+					}
+				}
+			}
+		},
+		{
+			"includes": ["scripts/*.ts", "!scripts/**/*.test.ts"],
+			"linter": {
+				"rules": {
+					"correctness": {
+						"noNodejsModules": "off"
+					},
+					"style": {
+						"noProcessEnv": "off"
+					}
+				}
+			}
+		},
+		{
+			"includes": ["**/*.test.ts"],
+			"linter": {
+				"rules": {
+					"correctness": {
+						"noUnresolvedImports": "off"
+					},
+					"performance": {
+						"useTopLevelRegex": "off"
+					},
+					"style": {
+						"useNamingConvention": "off"
+					},
+					"suspicious": {
+						"noEmptyBlockStatements": "off",
+						"noMisplacedAssertion": "off"
 					}
 				}
 			}
@@ -64,6 +308,19 @@
 	"javascript": {
 		"formatter": {
 			"quoteStyle": "single"
-		}
+		},
+		"globals": [
+			"Bun",
+			"Chart",
+			"DOMPurify",
+			"IDB",
+			"InfiniteScroll",
+			"JastrowDataLoader",
+			"SagesData",
+			"SagesGraph",
+			"SagesSidebar",
+			"TalmudSagesExplorer",
+			"d3"
+		]
 	}
 }

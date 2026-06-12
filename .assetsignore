@@ -1,0 +1,43 @@
+# Workers static assets are collected from assets.directory ("." = repo root).
+# Unlike Pages, Workers does NOT auto-exclude node_modules/.git, and it does
+# NOT consult .cfignore (that is a Pages-only mechanism). List everything that
+# must not be uploaded/served as a public asset here.
+#
+# Keep served: index.html, sw.js, _headers, assets/**, and the data files the
+# app fetches at runtime (data/*.jsonl, data/sages.json, data/version.json,
+# data/jastrow-abbr.json, data/jastrow-hebrew-abbr.json).
+
+# Build/runtime cruft (the 53 MiB biome binary lives under node_modules)
+node_modules
+.git
+.DS_Store
+
+# Local-only tooling, source, and docs — not part of the deployed site
+data/admin
+data/raw
+docs
+scripts
+.github
+.claude
+.vscode
+.remember
+*.ts
+biome.json
+package.json
+bun.lock
+tsconfig.json
+wrangler.jsonc
+renovate.json
+.commitlintrc.ts
+.editorconfig
+.mise.toml
+.gitignore
+.gitattributes
+.cfignore
+.assetsignore
+README.md
+CONTRIBUTING.md
+CODE_OF_CONDUCT.md
+SECURITY.md
+DCO
+LICENSE

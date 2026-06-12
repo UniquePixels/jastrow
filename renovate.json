@@ -1,0 +1,55 @@
+{
+	"$schema": "https://docs.renovatebot.com/renovate-schema.json",
+	"extends": [
+		"config:recommended",
+		":dependencyDashboard",
+		":semanticCommitsDisabled",
+		"helpers:pinGitHubActionDigests"
+	],
+	"timezone": "America/New_York",
+	"schedule": ["before 6am on monday"],
+	"labels": ["dependencies"],
+	"rangeStrategy": "bump",
+	"lockFileMaintenance": { "enabled": true },
+	"customManagers": [
+		{
+			"customType": "regex",
+			"description": "jsdelivr CDN script pins in index.html",
+			"managerFilePatterns": ["/^index\\.html$/"],
+			"matchStrings": [
+				"cdn\\.jsdelivr\\.net/npm/(?<depName>[^@/\"]+)@(?<currentValue>[0-9][^/\"]+)"
+			],
+			"datasourceTemplate": "npm",
+			"versioningTemplate": "npm"
+		}
+	],
+	"packageRules": [
+		{
+			"description": "Group + automerge SHA-pinned GitHub Actions digest updates",
+			"matchManagers": ["github-actions"],
+			"groupName": "github-actions",
+			"automerge": true,
+			"automergeType": "pr"
+		},
+		{
+			"description": "Group mise toolchain (biome, bun) updates",
+			"matchManagers": ["mise"],
+			"groupName": "mise toolchain"
+		},
+		{
+			"description": "Automerge safe root devDependency minor/patch updates",
+			"matchManagers": ["npm"],
+			"matchDepTypes": ["devDependencies"],
+			"matchUpdateTypes": ["minor", "patch", "pin", "digest"],
+			"automerge": true,
+			"automergeType": "pr"
+		},
+		{
+			"description": "CDN script pins carry SRI hashes — never automerge; the integrity= attribute must be recomputed by hand on every bump",
+			"matchManagers": ["custom.regex"],
+			"groupName": "cdn scripts",
+			"automerge": false,
+			"labels": ["dependencies", "needs-sri-update"]
+		}
+	]
+}
