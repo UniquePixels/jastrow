@@ -75,7 +75,10 @@ wa-tab:focus-visible::part(base) {
 	overflow: hidden;
 	white-space: nowrap;
 	border: 0;
+	/* Legacy `clip` kept intentionally for older screen-reader/browser support;
+	   `clip-path` is the modern equivalent. The deprecation warning is expected. */
 	clip: rect(0, 0, 0, 0);
+	clip-path: inset(50%);
 }
 
 /* --- Touch Targets ------------------------------------------------------ */

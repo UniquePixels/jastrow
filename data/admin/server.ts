@@ -41,8 +41,13 @@ interface SagesFile {
 	sages?: Sage[];
 }
 
-// First top-level {...} object in a string (used to pull JSON out of CLI output).
-const JSON_OBJECT_RE = /\{[\s\S]*\}/u;
+// Extract the first-brace-to-last-brace {...} slice from a string (used to pull
+// JSON out of CLI output). String scanning avoids backtracking-prone regex.
+function extractJsonObject(text: string): string | null {
+	const start = text.indexOf('{');
+	const end = text.lastIndexOf('}');
+	return start !== -1 && end > start ? text.slice(start, end + 1) : null;
+}
 
 // --- Data Loading ---
 
@@ -240,7 +245,10 @@ const ROUTES: Route[] = [
 function matchRoute(
 	method: string,
 	pathname: string,
-): { handler: Route['handler']; params: Record<string, string> } | null {
+):
+	| { handler: Route['handler']; params: Record<string, string> }
+	| { badEncoding: true }
+	| null {
 	for (const route of ROUTES) {
 		if (route.method !== method) {
 			continue;
@@ -248,9 +256,15 @@ function matchRoute(
 		const match = pathname.match(route.pattern);
 		if (match) {
 			const params: Record<string, string> = {};
-			route.paramNames.forEach((name, i) => {
-				params[name] = decodeURIComponent(match[i + 1] ?? '');
-			});
+			try {
+				route.paramNames.forEach((name, i) => {
+					params[name] = decodeURIComponent(match[i + 1] ?? '');
+				});
+			} catch {
+				// Malformed percent-encoding — signal a bad request rather than
+				// letting decodeURIComponent throw an unhandled 500.
+				return { badEncoding: true };
+			}
 			return { handler: route.handler, params };
 		}
 	}
@@ -365,6 +379,13 @@ async function handlePutSage(
 	if (idx === -1) {
 		return jsonResponse({ error: `Sage not found: ${id}` }, 404);
 	}
+	// Guard against a silent rename: the body id must match the route id.
+	if (body.id && body.id !== id) {
+		return jsonResponse(
+			{ error: `Sage id mismatch: body "${body.id}" != route "${id}"` },
+			400,
+		);
+	}
 	sages[idx] = { ...body, id: id ?? body.id };
 	writeJson(sagesPath, { sages });
 	updateVersion();
@@ -434,8 +455,8 @@ Only include fields where you have substantive new information to add.`;
 		if (exitCode !== 0) {
 			return jsonResponse({ error: 'Claude CLI failed' }, 503);
 		}
-		const jsonMatch = output.match(JSON_OBJECT_RE);
-		const suggestions = jsonMatch ? JSON.parse(jsonMatch[0]) : {};
+		const jsonSlice = extractJsonObject(output);
+		const suggestions = jsonSlice ? JSON.parse(jsonSlice) : {};
 		return jsonResponse({ suggestions });
 	} catch {
 		return jsonResponse({ error: 'Claude CLI not available' }, 503);
@@ -494,6 +515,9 @@ const server = Bun.serve({
 
 		// API routes
 		const route = matchRoute(method, pathname);
+		if (route && 'badEncoding' in route) {
+			return jsonResponse({ error: 'Malformed path encoding' }, 400);
+		}
 		if (route) {
 			return route.handler(req, route.params);
 		}

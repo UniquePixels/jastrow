@@ -71,8 +71,9 @@ on save **and** in CI):
 - **Tags:** `a abbr b br div em i p span strong sub sup`
 - **Attributes:** `class`, `dir`, `data-ref` (global); `href target rel`
   on `<a>`; `title` on `<abbr>`
-- **Link schemes:** `http` / `https` only, plus protocol-relative
-  (`//…`) and internal fragment refs (`#rid:ID`)
+- **Link schemes:** `http` / `https` only; relative paths and internal
+  fragment refs (`#rid:ID`) carry no scheme and are allowed. Protocol-relative
+  URLs (`//host`) are **rejected** — they navigate off-site.
 
 Anything outside the allow-list (e.g. `<script>`, a `javascript:` href,
 including entity-obfuscated ones like `java&#115;cript:`) is **rejected**

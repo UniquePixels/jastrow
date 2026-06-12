@@ -125,14 +125,29 @@ ${prompt}`,
 
 		const [firstBlock] = response.content;
 		const text = firstBlock?.type === 'text' ? firstBlock.text : '';
-		const jsonMatch = text.match(/\[[\s\S]*?\]/u);
-		if (!jsonMatch) {
+		// Extract the first-bracket-to-last-bracket [...] slice without a
+		// backtracking-prone regex.
+		const start = text.indexOf('[');
+		const end = text.lastIndexOf(']');
+		if (start === -1 || end <= start) {
 			console.log(`Batch ${i}: no JSON found in response`);
 			continue;
 		}
 
-		const results = JSON.parse(jsonMatch[0]);
+		const results = JSON.parse(text.slice(start, end + 1));
 		for (const r of results) {
+			// Model output is untrusted — skip malformed items rather than
+			// writing garbage keys/notes into annotations.
+			if (
+				typeof r !== 'object' ||
+				r === null ||
+				typeof r.rid !== 'string' ||
+				typeof r.ps !== 'string' ||
+				(r.gn !== undefined && r.gn !== null && typeof r.gn !== 'string')
+			) {
+				console.warn('Skipping malformed AI result:', r);
+				continue;
+			}
 			const parts = [`ps=${r.ps}`];
 			if (r.gn && r.gn !== 'null') {
 				parts.push(`gn=${r.gn}`);

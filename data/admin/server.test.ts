@@ -208,6 +208,39 @@ describe('PUT /api/entry/:rid sanitization', () => {
 	});
 });
 
+describe('POST /api/save-all', () => {
+	it('rejects the whole batch when one update is invalid', async () => {
+		const getRes = await fetch(`${BASE}/api/entries`);
+		const { entries } = (await getRes.json()) as EntriesResponse;
+		const original = entries.find((e) => e.id === 'A00014');
+		if (!original) {
+			throw new Error('Fixture entry A00014 not found');
+		}
+
+		const res = await fetch(`${BASE}/api/save-all`, {
+			method: 'POST',
+			headers: { 'Content-Type': 'application/json' },
+			body: JSON.stringify({
+				updates: [
+					{ ...original, hw: '__BATCH_TEST__' },
+					{
+						...original,
+						id: 'A00014',
+						c: { s: [{ d: '<a href="javascript:alert(1)">x</a>' }] },
+					},
+				],
+			}),
+		});
+
+		expect(res.status).toBe(400);
+
+		// All-or-nothing: the valid update must not persist either.
+		const verifyRes = await fetch(`${BASE}/api/entries`);
+		const verifyData = (await verifyRes.json()) as EntriesResponse;
+		expect(verifyData.entries.find((e) => e.id === 'A00014')).toEqual(original);
+	});
+});
+
 describe('GET /api/abbreviations', () => {
 	it('returns english and hebrew objects', async () => {
 		const res = await fetch(`${BASE}/api/abbreviations`);

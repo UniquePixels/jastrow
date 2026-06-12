@@ -54,7 +54,7 @@ Because there is no module system, cross-file dependencies are explicit
 | Global | Defined in | Kind |
 |---|---|---|
 | `PAGINATION`, `SCROLL`, `DICTIONARY`, `SEARCH`, `TIMEOUTS`, `IDB` | `constants.js` | config objects |
-| `sanitizeURL`, `sanitizeSearchQuery` | `sanitizer.js` | functions |
+| `sanitizeURL`, `sanitizeSearchQuery`, `validatePageNumber` | `sanitizer.js` | functions |
 | `announce` | `announcer.js` | function |
 | `JastrowDataLoader` | `data-loader.js` | class |
 | `InfiniteScroll` | `scroll-manager.js` | class |

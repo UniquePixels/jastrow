@@ -89,7 +89,7 @@
 					ALLOWED_TAGS: [],
 					ALLOWED_ATTR: [],
 				})
-			: trimmed.replace(/<[^>]*>/gu, '');
+			: trimmed.replace(/[<>]/gu, '');
 
 		// Check if anything remains after stripping HTML
 		if (cleanQuery.length === 0) {

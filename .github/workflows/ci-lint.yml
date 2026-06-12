@@ -44,6 +44,8 @@ jobs:
             tuf-repo-cdn.sigstore.dev:443
       - name: Checkout repository
         uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
+        with:
+          persist-credentials: false
       - name: Setup
         uses: ./.github/actions/setup-env
       - name: ${{ matrix.name }}
@@ -69,5 +71,7 @@ jobs:
             api.deps.dev:443
       - name: Checkout repository
         uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
+        with:
+          persist-credentials: false
       - name: Dependency review
         uses: actions/dependency-review-action@2031cfc080254a8a887f58cffee85186f0e49e48 # v4.9.0

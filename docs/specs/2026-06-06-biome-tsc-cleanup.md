@@ -31,7 +31,7 @@ setup that satisfies the type-inference engine without overflowing.
 | `nursery/useDisposables` | `using` for disposables |
 | `nursery/useExhaustiveSwitchCases` | non-exhaustive switch over union |
 | `nursery/useFind` | `.filter()[0]` → `.find()` |
-| `nursery/useNullishCoalescing` | `||` → `??` where safe |
+| `nursery/useNullishCoalescing` | `\|\|` → `??` where safe |
 | `nursery/useRegexpExec` | `.match()` → `.exec()` in loops |
 | `nursery/useStringStartsEndsWith` | regex → `startsWith`/`endsWith` |
 

@@ -16,6 +16,22 @@ const SENSE_NUMBER_PREFIX_RE = /^[—-]\s*/u;
 const LEADING_STAR_RE = /^\*/u;
 const TRAILING_DECIMAL_RE = /\.\d+$/u;
 
+// Remove any target="…" attribute from an anchor's attribute fragment.
+// String scanning (no regex) avoids backtracking-prone patterns.
+function stripTargetAttr(attrs) {
+	let out = attrs;
+	for (let i = out.indexOf('target='); i !== -1; i = out.indexOf('target=')) {
+		const open = out.indexOf('"', i);
+		const close = open === -1 ? -1 : out.indexOf('"', open + 1);
+		if (open === -1 || close === -1) {
+			break;
+		}
+		const start = i > 0 && out[i - 1] === ' ' ? i - 1 : i;
+		out = out.slice(0, start) + out.slice(close + 1);
+	}
+	return out;
+}
+
 const LANGUAGE_BADGES = {
 	bh: { badge: 'Heb.', tooltip: 'Biblical Hebrew' },
 	he: { badge: 'Heb.', tooltip: 'Hebrew' },
@@ -373,13 +389,17 @@ class JastrowApp {
 
 		// Page jump button
 		const handlePageJump = () => {
-			const pageNum = Number.parseInt(this.pageInput.value, 10);
-			if (pageNum > 0 && pageNum <= DICTIONARY.TOTAL_PAGES) {
+			const validation = validatePageNumber(
+				this.pageInput.value,
+				VALIDATION.PAGE_NUMBER_MIN,
+				VALIDATION.PAGE_NUMBER_MAX,
+			);
+			if (validation.valid) {
 				this.pageInput.removeAttribute('aria-invalid');
-				this.jumpToDictPage(pageNum);
+				this.jumpToDictPage(validation.page);
 			} else {
 				this.pageInput.setAttribute('aria-invalid', 'true');
-				this.showError(`Page must be between 1 and ${DICTIONARY.TOTAL_PAGES}`);
+				this.showError(validation.error);
 			}
 		};
 
@@ -515,18 +535,30 @@ class JastrowApp {
 
 		// #scan:500 - Open page scan dialog
 		if (hash.startsWith('scan:')) {
-			const scanPage = Number.parseInt(hash.slice(5), 10);
-			if (scanPage >= 1 && scanPage <= DICTIONARY.TOTAL_PAGES) {
-				this.showPageDialog(scanPage);
+			const validation = validatePageNumber(
+				hash.slice(5),
+				VALIDATION.PAGE_NUMBER_MIN,
+				VALIDATION.PAGE_NUMBER_MAX,
+			);
+			if (validation.valid) {
+				this.showPageDialog(validation.page);
 			}
 			return;
 		}
 
 		// Check if it's a plain number (page number)
 		if (NUMERIC_HASH_RE.test(hash)) {
-			const page = Number.parseInt(hash, 10);
+			const validation = validatePageNumber(
+				hash,
+				VALIDATION.PAGE_NUMBER_MIN,
+				VALIDATION.PAGE_NUMBER_MAX,
+			);
+			if (!validation.valid) {
+				this.loadInitialPage();
+				return;
+			}
 			this.syncSearchMode('word');
-			this.scrollManager.loadInitial(page);
+			this.scrollManager.loadInitial(validation.page);
 			return;
 		}
 
@@ -1939,8 +1971,8 @@ class JastrowApp {
 						const headword = jastrowPath
 							.replace(LEADING_STAR_RE, '')
 							.replace(TRAILING_DECIMAL_RE, '');
-						const cleanBefore = before.replace(/\s*target="[^"]*"/gu, '');
-						const cleanAfter = after.replace(/\s*target="[^"]*"/gu, '');
+						const cleanBefore = stripTargetAttr(before);
+						const cleanAfter = stripTargetAttr(after);
 						return `<a${cleanBefore}href="#word=${headword}"${cleanAfter}>`;
 					},
 				);
