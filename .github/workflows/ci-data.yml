@@ -78,7 +78,10 @@ jobs:
           fetch-depth: 0
       - name: Count changed data lines
         run: |
-          changed=$(git diff --numstat "$BASE_SHA" "$HEAD_SHA" -- 'data/**' \
+          # Only the dictionary JSONL counts toward the ceiling (D8 is about
+          # mass entry reserialization); admin-tool code under data/admin is
+          # not dictionary data and must not trip this guard.
+          changed=$(git diff --numstat "$BASE_SHA" "$HEAD_SHA" -- 'data/**/*.jsonl' \
             | awk '{ added += $1; deleted += $2 } END { print added + deleted + 0 }')
           echo "Changed data lines: ${changed} (ceiling: ${MAX_CHANGED_LINES})"
           if [ "$changed" -gt "$MAX_CHANGED_LINES" ]; then
