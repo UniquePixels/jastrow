@@ -2158,6 +2158,7 @@ class JastrowApp {
 				'<li><em>cmp.</em> = compare — related words with similar meanings</li>' +
 				'<li><em>וכ׳</em> = "and so forth" — example has been shortened</li>' +
 				'<li><em>sub.</em> = subaudi — supply an implied word</li>' +
+				'<li><em>*</em> = asterisk before a headword — an unattested (reconstructed) root form Jastrow posits as the base, which does not appear in that exact form in the literature</li>' +
 				'</ul>',
 		);
 
