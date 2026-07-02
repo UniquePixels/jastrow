@@ -1271,13 +1271,17 @@ class JastrowApp {
 			senseGroup.appendChild(primaryDiv);
 
 			const childSenses = senses.slice(1);
-			const numberedSenses = childSenses.filter((s) => s.d && s.n);
+			// Keep every definitional child sense, numbered or not. Some source
+			// entries carry a sense with `d` but no `n` (a print sense-break that
+			// got flattened during OCR); filtering on `n` silently dropped that
+			// text. Grammar sections (`g`, no `d`) are handled separately below.
+			const definitionalSenses = childSenses.filter((s) => s.d && !s.g);
 			const grammarSections = childSenses.filter((s) => s.g);
 
-			if (numberedSenses.length > 0) {
+			if (definitionalSenses.length > 0) {
 				const childrenDiv = document.createElement('div');
 				childrenDiv.className = 'sense-children';
-				childrenDiv.appendChild(this.formatSenses(numberedSenses, ''));
+				childrenDiv.appendChild(this.formatSenses(definitionalSenses, ''));
 				senseGroup.appendChild(childrenDiv);
 			}
 
