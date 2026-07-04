@@ -13,4 +13,4 @@ runs:
       # lifecycle scripts by default, so Playwright's browser download is
       # skipped (only registry.npmjs.org is needed — see harden-runner egress).
       shell: bash
-      run: bun install --frozen-lockfile
+      run: bun ci
