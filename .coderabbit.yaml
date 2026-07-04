@@ -24,6 +24,7 @@ reviews:
     drafts: false
     base_branches:
       - main
+      - v2
 
   path_instructions:
     - path: "**"
@@ -56,7 +57,7 @@ reviews:
         - Pinned action versions with hash comments
         - Harden Runner with egress blocking on all jobs
         - No credential or secret exposure risks
-        - Correct branch targeting (main only)
+        - Correct branch targeting (main, plus v2 during the v2 overhaul)
 
 issue_enrichment:
   auto_enrich:
