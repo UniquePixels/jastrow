@@ -12,6 +12,7 @@
 		"qa:tsc": "tsc --noEmit --skipLibCheck"
 	},
 	"devDependencies": {
-		"@biomejs/biome": "2.5.2"
+		"@biomejs/biome": "2.5.2",
+		"typescript": "^6.0.3"
 	}
 }
