@@ -28,26 +28,21 @@ streams it: gunzip + tar parsing happen in memory and only the three
 lexicon collections are written to disk (`.cache/sefaria/`, gitignored).
 The download is cancelled as soon as all targets are captured.
 
-### Two Jastrow lexicons
+### One Jastrow lexicon (not two)
 
-Sefaria hosts **two** parent lexicons for Jastrow (see
-`LexiconEntrySubClassMapping` in Sefaria-Project
-`sefaria/model/lexicon.py`):
-
-- `Jastrow Dictionary` — the dictionary as printed.
-- `Jastrow Unabbreviated` — a variant with abbreviations expanded,
-  directly relevant to the v2 abbreviation-linking goal.
-
-Both are fetched. Which one feeds the v2 transform is a schema-spec
-decision (task 2.1, gate CP-2a).
+Sefaria's code maps a second parent lexicon, `Jastrow Unabbreviated`
+(see `LexiconEntrySubClassMapping` in Sefaria-Project
+`sefaria/model/lexicon.py`), but the deployed database does not carry
+it: the 2026-07-04 dump has no `lexicon` record and zero
+`lexicon_entry` docs under that name. Only `Jastrow Dictionary`
+(32,512 entries) exists and is emitted.
 
 ### Outputs (`data/source/`, committed)
 
 | File | Contents |
 |------|----------|
 | `jastrow-dictionary.jsonl` | `lexicon_entry` docs with `parent_lexicon: "Jastrow Dictionary"`, verbatim, dump order, relaxed extended JSON |
-| `jastrow-unabbreviated.jsonl` | Same for `Jastrow Unabbreviated` |
-| `lexicons.json` | The two lexicon registry records |
+| `lexicons.json` | The Jastrow lexicon registry record |
 | `manifest.json` | Provenance: dump URL, ETag, Last-Modified, fetch time, sha256 + entry count per output |
 
 Documents are emitted **unmodified** — no transformation happens in

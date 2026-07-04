@@ -30,13 +30,14 @@ const TARGETS = new Map([
 ]);
 
 /**
- * Sefaria hosts two Jastrow lexicons: the dictionary as printed, and a
- * variant with abbreviations expanded (see LexiconEntrySubClassMapping in
- * Sefaria-Project sefaria/model/lexicon.py).
+ * Sefaria's code also maps a 'Jastrow Unabbreviated' lexicon
+ * (LexiconEntrySubClassMapping in Sefaria-Project
+ * sefaria/model/lexicon.py), but the 2026-07-04 dump contains no such
+ * lexicon record and zero entries for it, so only the printed
+ * dictionary is emitted.
  */
 const JASTROW_LEXICONS = new Map([
 	['Jastrow Dictionary', `${OUT_DIR}/jastrow-dictionary.jsonl`],
-	['Jastrow Unabbreviated', `${OUT_DIR}/jastrow-unabbreviated.jsonl`],
 ]);
 
 interface DumpProvenance {
