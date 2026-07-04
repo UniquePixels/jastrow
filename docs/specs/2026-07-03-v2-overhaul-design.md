@@ -163,3 +163,6 @@ Rethinking a prior choice at a checkpoint is expected, not a failure.
 | Date | Change |
 |------|--------|
 | 2026-07-03 | Initial draft from brainstorm (maintainer + Claude) |
+| 2026-07-04 | **CP-0 passed.** Rails verified live: test PR #22 into `v2` ran ci-data (`Validate data`), ci-lint (`Lint`/`Test`/`Type Check`), CodeQL, and received a CodeRabbit APPROVED review; closed unmerged. Branch protection verified (`pr:true, force:false, del:false`). Subtractive start merged (PR #23). Maintainer re-asked and **reconfirmed V2, V3, V4**. |
+| 2026-07-04 | **V5 superseded at CP-0** (maintainer ratified): the subtractive start was expanded to also remove `data/` (incl. `data/raw/` and the v1 admin tool), `scripts/`, `ci-data.yml`, and all dependencies from `v2`. v1 data and validators live in git history on `main`; Phase 1 tools read raw data via `git show origin/main:…`. Phase 1 artifacts land in `data/source/` on `v2`. Known gap accepted: no data-validation/size-guard CI on `v2` until pipeline v2's suite (task 2.4). |
+| 2026-07-04 | **Data-edit freeze on `main` in effect (V8)** — Phase 1 begins. Urgent v1 data corrections must be logged for a second mining pass at cutover. |
