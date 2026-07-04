@@ -2,9 +2,9 @@ name: CI - CodeQL
 
 on:
   push:
-    branches: ["main"]
+    branches: ["main", "v2"]
   pull_request:
-    branches: ["main"]
+    branches: ["main", "v2"]
   schedule:
     - cron: '37 1 * * 2'
 
