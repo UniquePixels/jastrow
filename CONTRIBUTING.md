@@ -4,45 +4,6 @@ Thank you for your interest in contributing!
 
 ## Getting Started
 
-1. Fork the repository
-2. Install once at the repo root: `bun install` (light — no Chromium).
-   See the [README](README.md#local-development) for serving the site
-   and running the admin tool.
-3. Create a feature branch (`git checkout -b my-feature`)
-4. Make your changes
-5. Run the quality gate: `biome check .` (and `bun run validate:data` if
-   you touched `data/**`)
-6. Commit using the project's commit format (see below)
-7. Push to your fork and open a pull request
-
-New to the codebase? Start with the
-[Architecture & Module Map](docs/architecture.md) — the app is vanilla
-JS with no build step, wired together through `window` globals.
-
-## Contributing Data
-
-The dictionary text lives in two JSONL files
-(`data/jastrow-part1.jsonl`, `data/jastrow-part2.jsonl`), **one entry per
-line**.
-
-**Edit data through the admin tool — do not hand-edit the JSONL.** The
-admin tool writes a stable, compact serialization and bumps
-`data/version.json` for you. Hand-editing risks reformatting the whole
-file (a 16k-line diff from a one-word fix) and corrupting structure.
-
-Workflow:
-
-1. Start the admin server: `bun run admin`, then open
-   `http://localhost:3333` (see [README](README.md#admin-tooling)).
-2. Find and edit the entry. The tool saves to the JSONL on disk.
-3. Review the diff (`git diff data/`), commit, open a PR.
-
-The entry shape and the allowed HTML are documented in the
-[Entry Schema reference](docs/data-entry-schema.md). On save (and in CI)
-entry HTML is checked against a fixed allow-list — disallowed markup
-(e.g. `<script>`, `javascript:` hrefs) is **rejected**, nothing is
-written.
-
 ### Size policy for data PRs
 
 Each entry is one dense line of scholarship, so review is careful and
