@@ -1,3 +1,8 @@
+> **⚠️ v2 branch** — this is the v2 overhaul integration branch. The v1
+> public app has been removed here (subtractive start); the live site
+> is built from `main`. See
+> `docs/specs/2026-07-03-v2-overhaul-design.md` for the plan.
+
 # Jastrow Dictionary
 
 A progressive web app for browsing and searching Marcus Jastrow's
