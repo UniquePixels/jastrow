@@ -19,7 +19,9 @@
 			"source": {
 				"noDuplicateClasses": "on",
 				"organizeImports": "on",
+				"useSortedAttributes": "on",
 				"useSortedInterfaceMembers": "on",
+				"useSortedPackageJson": "on",
 				"useSortedProperties": "on"
 			}
 		}
@@ -27,9 +29,10 @@
 	"linter": {
 		"enabled": true,
 		"rules": {
-			"recommended": true,
+			"preset": "recommended",
 			"a11y": {
-				"noNoninteractiveElementInteractions": "on"
+				"noNoninteractiveElementInteractions": "on",
+				"noAmbiguousAnchorText": "on"
 			},
 			"complexity": {
 				"noExcessiveCognitiveComplexity": "on",
@@ -44,7 +47,10 @@
 				"useLiteralKeys": "off",
 				"useMaxParams": "on",
 				"useSimplifiedLogicExpression": "on",
-				"useWhile": "on"
+				"useWhile": "on",
+				"noDivRegex": "on",
+				"noRedundantDefaultExport": "on",
+				"noUselessReturn": "on"
 			},
 			"correctness": {
 				"noGlobalDirnameFilename": "on",
@@ -56,58 +62,38 @@
 				"noUnresolvedImports": "on",
 				"useImportExtensions": "on",
 				"useJsonImportAttributes": "on",
-				"useSingleJsDocAsterisk": "on"
+				"useSingleJsDocAsterisk": "on",
+				"noDuplicateAttributes": "on"
 			},
 			"nursery": {
-				"noAmbiguousAnchorText": "on",
 				"noConditionalExpect": "on",
-				"noDeprecatedMediaType": "on",
-				"noDivRegex": "on",
-				"noDuplicateAttributes": "on",
-				"noDuplicateEnumValues": "on",
 				"noDuplicateSelectors": "on",
 				"noEmptyObjectKeys": "on",
-				"noExcessiveClassesPerFile": "on",
-				"noExcessiveLinesPerFile": "on",
 				"noExcessiveNestedCallbacks": "on",
 				"noExcessiveSelectorClasses": "on",
-				"noForIn": "on",
 				"noIdenticalTestTitle": "on",
-				"noMultiAssign": "on",
-				"noMultiStr": "on",
-				"noParametersOnlyUsedInRecursion": "on",
-				"noProto": "on",
-				"noRedundantDefaultExport": "on",
-				"noReturnAssign": "on",
-				"noScriptUrl": "on",
-				"noShadow": "on",
-				"noSyncScripts": "on",
+				"noLoopFunc": "on",
+				"noMisleadingReturnType": "on",
+				"noRestrictedDependencies": "on",
 				"noTopLevelLiterals": "on",
-				"noUndeclaredEnvVars": "on",
+				"noUndeclaredClasses": "on",
 				"noUnnecessaryTemplateExpression": "on",
-				"noUselessReturn": "on",
+				"noUnusedClasses": "on",
 				"useArraySome": "on",
 				"useBaseline": "on",
-				"useConsistentMethodSignatures": "on",
 				"useConsistentTestIt": "on",
-				"useDestructuring": "on",
+				"useDomNodeTextContent": "on",
 				"useDomQuerySelector": "on",
-				"useErrorCause": "on",
 				"useExpect": "on",
 				"useExplicitReturnType": "on",
 				"useExplicitType": "on",
 				"useIframeSandbox": "on",
 				"useImportsFirst": "on",
+				"useIncludes": "on",
+				"useMathMinMax": "on",
 				"useNamedCaptureGroup": "on",
 				"useReduceTypeParameter": "on",
 				"useRegexpTest": "on",
-				"useRequiredScripts": {
-					"level": "on",
-					"options": {
-						"requiredScripts": ["qa"]
-					}
-				},
-				"useSpread": "on",
 				"useTestHooksInOrder": "on",
 				"useTestHooksOnTop": "on",
 				"useUnicodeRegex": "on"
@@ -118,10 +104,12 @@
 				"noDelete": "on",
 				"noNamespaceImport": "on",
 				"noReExportAll": "on",
-				"useTopLevelRegex": "on"
+				"useTopLevelRegex": "on",
+				"noSyncScripts": "on"
 			},
 			"security": {
-				"noSecrets": "off"
+				"noSecrets": "off",
+				"noScriptUrl": "on"
 			},
 			"style": {
 				"noCommonJs": "on",
@@ -197,7 +185,15 @@
 				"useThrowNewError": "on",
 				"useThrowOnlyError": "on",
 				"useTrimStartEnd": "on",
-				"useUnifiedTypeSignatures": "on"
+				"useUnifiedTypeSignatures": "on",
+				"noExcessiveClassesPerFile": "on",
+				"noExcessiveLinesPerFile": "on",
+				"noMultiAssign": "on",
+				"noMultilineString": "on",
+				"useConsistentMethodSignatures": "on",
+				"useDestructuring": "on",
+				"useErrorCause": "on",
+				"useSpreadOverApply": "on"
 			},
 			"suspicious": {
 				"noAlert": "on",
@@ -224,7 +220,21 @@
 				"useGuardForIn": "on",
 				"useNumberToFixedDigitsArgument": "error",
 				"useStaticResponseMethods": "on",
-				"useStrictMode": "on"
+				"useStrictMode": "on",
+				"noDeprecatedMediaType": "on",
+				"noDuplicateEnumValues": "on",
+				"noForIn": "on",
+				"noParametersOnlyUsedInRecursion": "on",
+				"noProto": "on",
+				"noReturnAssign": "on",
+				"noShadow": "on",
+				"noUndeclaredEnvVars": "on",
+				"useRequiredScripts": {
+					"level": "on",
+					"options": {
+						"requiredScripts": ["qa"]
+					}
+				}
 			}
 		}
 	},
@@ -256,11 +266,9 @@
 					"correctness": {
 						"noNodejsModules": "off"
 					},
-					"nursery": {
-						"noSyncScripts": "off"
-					},
 					"performance": {
-						"noDelete": "off"
+						"noDelete": "off",
+						"noSyncScripts": "off"
 					},
 					"style": {
 						"noProcessEnv": "off"

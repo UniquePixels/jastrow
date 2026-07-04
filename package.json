@@ -1,13 +1,13 @@
 {
 	"name": "jastrow",
 	"private": true,
-	"type": "module",
 	"description": "A progressive web app for browsing and searching Marcus Jastrow's *Dictionary of the Targumim, the Talmud Babli and Yerushalmi, and the Midrashic Literature* (1903).",
+	"type": "module",
 	"scripts": {
 		"qa": "bun qa:format && bun qa:lint && bun qa:test && bun qa:tsc",
+		"qa:ci": "biome ci --error-on-warnings",
 		"qa:format": "biome format --write",
 		"qa:lint": "biome check --error-on-warnings",
-		"qa:ci": "biome ci --error-on-warnings",
 		"qa:test": "bun test",
 		"qa:tsc": "tsc --noEmit --skipLibCheck"
 	},
