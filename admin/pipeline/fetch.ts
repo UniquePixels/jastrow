@@ -8,10 +8,10 @@
  * entries as JSONL plus a provenance manifest.
  *
  * Usage:
- *   bun pipeline/fetch.ts             # full fetch (download + decode)
- *   bun pipeline/fetch.ts --cached    # decode from .cache/sefaria without downloading
+ *   bun admin/pipeline/fetch.ts             # full fetch (download + decode)
+ *   bun admin/pipeline/fetch.ts --cached    # decode from .cache/sefaria without downloading
  *
- * See pipeline/README.md for the channel decision and output contract.
+ * See admin/pipeline/README.md for the channel decision and output contract.
  */
 import { mkdir } from 'node:fs/promises';
 import { type Document, EJSON } from 'bson';

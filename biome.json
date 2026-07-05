@@ -282,7 +282,7 @@
 			}
 		},
 		{
-			"includes": ["pipeline/*.ts", "!pipeline/**/*.test.ts"],
+			"includes": ["admin/pipeline/*.ts", "!admin/pipeline/**/*.test.ts"],
 			"linter": {
 				"rules": {
 					"correctness": {

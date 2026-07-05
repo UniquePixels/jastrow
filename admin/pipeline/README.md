@@ -6,8 +6,8 @@ Scripted, re-runnable data pipeline from the true Sefaria source
 ## Stage 1 — Source acquisition (`fetch.ts`)
 
 ```bash
-bun pipeline/fetch.ts           # download dump + decode + emit
-bun pipeline/fetch.ts --cached  # re-decode from .cache/sefaria (no download)
+bun admin/pipeline/fetch.ts           # download dump + decode + emit
+bun admin/pipeline/fetch.ts --cached  # re-decode from .cache/sefaria (no download)
 ```
 
 ### Channel decision (spec task 1.1)

@@ -31,7 +31,8 @@ reviews:
       instructions: |
         General project rules:
         - This is a vanilla JS static site PWA. No bundler, no framework, no npm packages at runtime.
-        - All JS runs in the browser unless under `data/admin/` (which uses Bun).
+        - All JS runs in the browser unless under `admin/` (maintainer tooling, which uses Bun).
+        - Repo layout (v2): `app/` public app, `admin/` tooling (incl. `admin/pipeline/`), `data/` data only.
         - Biome enforces lint and formatting.
         - DOMPurify is loaded via CDN with SRI for XSS sanitization.
 
@@ -44,12 +45,12 @@ reviews:
         - Accessibility (WCAG 2.1 AA compliance)
         - No `var` — use `const`/`let`
 
-    - path: "data/admin/**"
+    - path: "admin/**"
       instructions: |
-        Local dev tooling that runs on Bun (not deployed). Includes:
-        - Admin server (`server.ts`) for annotating dictionary entries
-        - AI classification helper
-        - `console` and `process.env` are expected here
+        Maintainer tooling that runs on Bun (not deployed). Includes:
+        - `admin/pipeline/` — data pipeline from the Sefaria source (fetch, transform, validate, emit)
+        - Admin tool v2 (Phase 3) will live here too
+        - `console` and sequential awaits over streams are expected here
 
     - path: ".github/**"
       instructions: |
