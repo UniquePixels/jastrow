@@ -11,7 +11,9 @@
 			"**",
 			"!data/*.json",
 			"!data/*.jsonl",
-			"!data/admin/annotations.json"
+			"!data/admin/annotations.json",
+			"!data/source/*.json",
+			"!data/source/*.jsonl"
 		]
 	},
 	"assist": {
@@ -275,6 +277,36 @@
 					},
 					"suspicious": {
 						"noAlert": "off"
+					}
+				}
+			}
+		},
+		{
+			"includes": ["admin/pipeline/*.ts", "!admin/pipeline/**/*.test.ts"],
+			"linter": {
+				"rules": {
+					"correctness": {
+						"noNodejsModules": "off"
+					},
+					"performance": {
+						"noAwaitInLoops": "off"
+					},
+					"style": {
+						"useNamingConvention": {
+							"level": "on",
+							"options": {
+								"strictCase": false,
+								"requireAscii": true,
+								"conventions": [
+									{
+										"selector": {
+											"kind": "objectLiteralProperty"
+										},
+										"formats": ["camelCase", "CONSTANT_CASE", "snake_case"]
+									}
+								]
+							}
+						}
 					}
 				}
 			}

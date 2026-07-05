@@ -53,7 +53,7 @@ is reconstructable from git and replayable onto v2 data.
 | V1 | Rebuild data from the true Sefaria source with a scripted, re-runnable, fully documented pipeline. **Supersedes D3** ("pipeline is a one-time relic, never re-run"). D3's rationale (the old pipeline is unreproducible) is exactly why v2 must replace it. |
 | V2 | `v2` is a long-lived integration branch off `main`. Feature branches PR into `v2` with the same review rigor as `main` (CI, CodeRabbit, human review, squash merges). |
 | V3 | Subtractive start: the first PRs into `v2` delete the v1 app files while keeping the rails — `.github/` workflows and templates, biome config, `package.json`, `scripts/lib/` validators, docs slated for revision, and `data/`. No orphan branch (preserves shared history and a clean final merge). |
-| V4 | New code is written at its **final paths** (`index.html`, `assets/`, `data/admin/`, …) from day one. No `v2/` subdirectory; no path rewriting at cutover. |
+| V4 | New code is written at its **final paths** from day one. No `v2/` subdirectory; no path rewriting at cutover. *Amended 2026-07-04:* final layout is three top-level roots — `app/` (public app), `admin/` (maintainer tooling, incl. `admin/pipeline/`), `data/` (data only, no code) — replacing v1's root-level app files and `data/admin/`. |
 | V5 | `data/` (current JSONL, raw files, annotations) stays on `v2` until edit-mining (1.3) and the divergence audit (1.2) are complete, then is deleted in its own PR. |
 | V6 | Schema v2 is designed in its own spec with its own review gate (task 2.1). It is the keystone decision and is not buried inside an implementation PR. |
 | V7 | Reviews and checkpoints are part of the plan, not optional: every PR is reviewed (automated + human), and no phase begins until the previous phase's checkpoint is explicitly passed by the maintainer. |
@@ -163,3 +163,4 @@ Rethinking a prior choice at a checkpoint is expected, not a failure.
 | Date | Change |
 |------|--------|
 | 2026-07-03 | Initial draft from brainstorm (maintainer + Claude) |
+| 2026-07-04 | V4 amended (maintainer): top-level `app/` / `admin/` / `data/` layout; `data/` holds no code (v1's `data/admin/` was the counterexample). Pipeline moved to `admin/pipeline/` in PR #25 |
