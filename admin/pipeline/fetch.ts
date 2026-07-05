@@ -105,6 +105,13 @@ async function emitRegistry(progress: (msg: string) => void): Promise<string> {
 			registry.push(doc);
 		}
 	}
+	if (registry.length !== JASTROW_LEXICONS.size) {
+		// Fail fast on lexicon-collection schema drift (renamed name
+		// field, renamed lexicon) instead of emitting empty outputs.
+		throw new Error(
+			`expected ${JASTROW_LEXICONS.size} lexicon record(s), found ${registry.length}`,
+		);
+	}
 	const registryPath = `${OUT_DIR}/lexicons.json`;
 	await Bun.write(
 		registryPath,
@@ -141,6 +148,11 @@ async function emitEntries(
 	}
 	for (const [lexicon, writer] of writers) {
 		await writer.end();
+		if ((counts.get(lexicon) ?? 0) === 0) {
+			// Same drift guard as the registry: a renamed parent_lexicon
+			// must not produce an empty snapshot that looks like success.
+			throw new Error(`no entries found for lexicon "${lexicon}"`);
+		}
 		progress(
 			`wrote ${JASTROW_LEXICONS.get(lexicon)} (${counts.get(lexicon)} entries)`,
 		);

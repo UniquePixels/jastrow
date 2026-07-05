@@ -98,6 +98,32 @@ function tarString(header: Uint8Array, start: number, length: number): string {
 	return new TextDecoder().decode(end === -1 ? field : field.subarray(0, end));
 }
 
+interface TarMemberHeader {
+	isFile: boolean;
+	name: string;
+	padded: number;
+	size: number;
+}
+
+function parseTarHeader(header: Uint8Array): TarMemberHeader {
+	const prefix = tarString(header, 345, 155);
+	const rawName = (prefix ? `${prefix}/` : '') + tarString(header, 0, 100);
+	const name = rawName.replace(LEADING_DOT_SLASH, '');
+	const size = Number.parseInt(tarString(header, 124, 12).trim() || '0', 8);
+	if (!Number.isFinite(size) || size < 0) {
+		// e.g. GNU base-256 size encoding (member > 8 GB); a NaN size
+		// would silently desync the reader (consume(NaN) is a no-op).
+		throw new Error(`unparseable tar size for ${name}`);
+	}
+	const { 156: typeflag } = header;
+	return {
+		name,
+		size,
+		padded: Math.ceil(size / TAR_BLOCK) * TAR_BLOCK,
+		isFile: typeflag === 0x30 || typeflag === 0, // '0' or NUL
+	};
+}
+
 /**
  * Walk a tar stream, writing target members (member path → destination
  * file) and skipping everything else. Returns the set of targets not
@@ -111,28 +137,22 @@ async function extractTargets(
 ): Promise<Set<string>> {
 	const remaining = new Set(targets.keys());
 	while (remaining.size > 0) {
-		const header = await reader.read(TAR_BLOCK);
-		if (header === null) {
+		const block = await reader.read(TAR_BLOCK);
+		if (block === null) {
 			break;
 		}
-		if (header.every((b) => b === 0)) {
+		if (block.every((b) => b === 0)) {
 			continue; // end-of-archive padding
 		}
-		const prefix = tarString(header, 345, 155);
-		const name = (prefix ? `${prefix}/` : '') + tarString(header, 0, 100);
-		const normalized = name.replace(LEADING_DOT_SLASH, '');
-		const size = Number.parseInt(tarString(header, 124, 12).trim() || '0', 8);
-		const padded = Math.ceil(size / TAR_BLOCK) * TAR_BLOCK;
-		const typeflag = header[156];
-		const isFile = typeflag === 0x30 || typeflag === 0; // '0' or NUL
-		const dest = targets.get(normalized);
-		if (isFile && dest !== undefined && remaining.has(normalized)) {
-			progress(`extracting ${normalized} (${(size / 1e6).toFixed(1)} MB)`);
+		const { name, size, padded, isFile } = parseTarHeader(block);
+		const dest = targets.get(name);
+		if (isFile && dest !== undefined && remaining.has(name)) {
+			progress(`extracting ${name} (${(size / 1e6).toFixed(1)} MB)`);
 			const writer = Bun.file(dest).writer();
 			await reader.consume(size, (chunk) => writer.write(chunk));
 			await writer.end();
 			await reader.consume(padded - size);
-			remaining.delete(normalized);
+			remaining.delete(name);
 		} else {
 			await reader.consume(padded);
 		}

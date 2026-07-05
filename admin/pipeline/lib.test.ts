@@ -15,9 +15,8 @@ beforeAll(async () => {
 });
 
 async function* chunks(parts: Uint8Array[]): AsyncGenerator<Uint8Array> {
-	for (const part of parts) {
-		yield await Promise.resolve(part);
-	}
+	await Promise.resolve();
+	yield* parts;
 }
 
 function tarHeader(name: string, size: number): Uint8Array {
@@ -92,6 +91,19 @@ describe('extractTargets', () => {
 		expect(new Uint8Array(await Bun.file(dest).arrayBuffer())).toEqual(wanted);
 	});
 
+	it('throws on an unparseable member size instead of desyncing', async () => {
+		const header = tarHeader('dump/sefaria/bad.bson', 0);
+		header[124] = 0x80; // GNU base-256 size marker — not octal
+		const archive = new Uint8Array([...header, ...new Uint8Array(1024)]);
+		const targets = new Map([
+			['dump/sefaria/keep.bson', `${TEST_DIR}/keep.bson`],
+		]);
+		const reader = new ChunkReader(chunks([archive]));
+		await expect(
+			extractTargets(reader, targets, () => undefined),
+		).rejects.toThrow('unparseable tar size');
+	});
+
 	it('reports targets missing from the archive', async () => {
 		const archive = new Uint8Array(1024);
 		const targets = new Map([
@@ -117,5 +129,24 @@ describe('bsonDocuments', () => {
 			seen.push(doc);
 		}
 		expect(seen).toMatchObject(docs);
+	});
+
+	it('throws on a truncated document', async () => {
+		const whole = BSON.serialize({ headword: 'truncated' });
+		const drain = async (path: string): Promise<number> => {
+			let count = 0;
+			for await (const _doc of bsonDocuments(path)) {
+				count += 1;
+			}
+			return count;
+		};
+		// Cut mid-document: the reader hits EOF short of the declared length.
+		const midPath = `${TEST_DIR}/truncated-mid.bson`;
+		await Bun.write(midPath, whole.subarray(0, whole.length - 5));
+		await expect(drain(midPath)).rejects.toThrow('unexpected EOF');
+		// Cut right after the length prefix: the document body is absent.
+		const prefixPath = `${TEST_DIR}/truncated-prefix.bson`;
+		await Bun.write(prefixPath, whole.subarray(0, 4));
+		await expect(drain(prefixPath)).rejects.toThrow('truncated BSON document');
 	});
 });
