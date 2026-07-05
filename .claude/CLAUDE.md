@@ -11,7 +11,7 @@ Targumim, Talmud Babli, Yerushalmi and Midrashic Literature. Deployed as a stati
 - **Runtime:** Browser
 - **Components:** 
 - **Icons:** Font Awesome Pro
-- **Fonts:** Lexend (headings), Atkinson Hyperlegible Next (body), ??? (Hebrew)
+- **Fonts:** Lexend (headings), Atkinson Hyperlegible Next (body), dyslexia-hebrew-extended (Hebrew)
 - **Data:** 
 - **Hosting:** Cloudflare
 - **Lint:** Biome
