@@ -49,3 +49,17 @@ Documents are emitted **unmodified** — no transformation happens in
 this stage, so `data/source/` is a faithful snapshot for the
 divergence audit (task 1.2). `word_form.bson` is cached for later use
 (search word forms) but not yet emitted.
+
+## Stage 2 — Divergence audit (`audit.ts`)
+
+```bash
+bun admin/pipeline/audit.ts   # needs a fetched main (reads data/raw from git)
+```
+
+Compares `data/source/jastrow-dictionary.jsonl` against the legacy
+extraction (`origin/main:data/raw/jastrow-part{1,2}.jsonl`) using the
+unit-tested comparator in `compare-entries.ts`. Writes
+`data/source/divergence-report.json`; findings and the resulting v2
+rule candidates are in
+[docs/v2/divergence-audit.md](../../docs/v2/divergence-audit.md)
+(spec task 1.2).
