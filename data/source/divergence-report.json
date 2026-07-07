@@ -1,0 +1,55 @@
+{
+	"fieldCensus": [
+		{
+			"field": "column",
+			"onlyInRaw": 32512,
+			"onlyInFresh": 0,
+			"valueDiff": 0
+		},
+		{
+			"field": "headword",
+			"onlyInRaw": 0,
+			"onlyInFresh": 0,
+			"valueDiff": 3
+		},
+		{
+			"field": "page",
+			"onlyInRaw": 32512,
+			"onlyInFresh": 0,
+			"valueDiff": 0
+		}
+	],
+	"inputs": {
+		"fresh": "data/source/jastrow-dictionary.jsonl",
+		"raw": [
+			"origin/main:data/raw/jastrow-part1.jsonl",
+			"origin/main:data/raw/jastrow-part2.jsonl"
+		]
+	},
+	"strippedBeforeCompare": [
+		"page",
+		"column"
+	],
+	"onlyInFresh": [],
+	"onlyInRaw": [],
+	"changed": [
+		{
+			"rid": "P00855",
+			"fields": [
+				"headword"
+			]
+		},
+		{
+			"rid": "P00856",
+			"fields": [
+				"headword"
+			]
+		},
+		{
+			"rid": "P00860",
+			"fields": [
+				"headword"
+			]
+		}
+	]
+}
