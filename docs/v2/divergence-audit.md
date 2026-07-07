@@ -46,7 +46,7 @@ worth carrying (source it from `data/raw` on `main` or recompute);
 `column` is 84% unresolved and should be either recomputed properly or
 dropped from the v2 schema.
 
-## Finding 2 — three headwords drifted upstream (ד → ך)
+## Finding 2 — three headwords differ; current Sefaria data is wrong
 
 | rid | Legacy (2019 dump) | Fresh (2026 dump) |
 |---|---|---|
@@ -54,16 +54,29 @@ dropped from the v2 schema.
 | P00856 | עָמַד II | עָמַך II |
 | P00860 | עֶמֶד | עֶמֶך |
 
-This is upstream Sefaria drift, not an extraction fix: even in the
-legacy data, the neighbouring entries' `next_hw`/`prev_hw` chain
-already used the ך spellings, so upstream later aligned the headwords
-to the chain. Which reading matches the 1903 print (p. 1086) is not
-settled here — P00855's definition (`= אָמַד, to estimate`)
-cross-references the ד root, which makes the ך spelling suspect.
+The origin is ambiguous from this repo alone: in the legacy data the
+`next_hw`/`prev_hw` chains still carry the ך spellings while the
+headwords read ד — the fingerprint of a headword-only correction that
+never touched the chain fields. Either upstream changed ד→ך after the
+2019 dump, or the legacy raw files were corrected ך→ד locally and the
+chains kept upstream's spelling. `data/raw` was committed in a single
+wholesale commit, so git history cannot distinguish the two.
 
-**Open question for CP-1:** verify these three headwords against the
-printed page 1086 scan; if the print reads ד, the v2 pipeline needs a
-correction rule (and ideally an upstream report to Sefaria).
+**Resolved (maintainer, 2026-07-06): the ד readings are correct** and
+the fresh Sefaria data is wrong. The entry content agrees: P00855
+equates to אָמַד, P00856 is marked `(b. h.)` (עָמַד "to stand" is the
+biblical verb; עמך is not), and P00860 cross-references עוּמָד.
+
+Two follow-ups, deliberately **not** pipeline rules — this is a data
+correction, not a schema transformation (maintainer decision,
+2026-07-06):
+
+1. Correct the three headwords in v2's manual-correction layer
+   (Phase 2, alongside the 1.3 edit-replay set), so the fix is
+   recorded with provenance instead of silently patching the source.
+2. Open an upstream issue with Sefaria to fix the three entries
+   (include the print reference, p. 1086, and the content evidence
+   above).
 
 ## Method notes
 
@@ -83,5 +96,7 @@ correction rule (and ideally an upstream report to Sefaria).
 
 The forgotten extraction changed almost nothing: no dropped or added
 entries, no content edits, one enrichment stage (R1) to re-implement
-deliberately, and three upstream headword changes to adjudicate. The
-fresh-source restart carries essentially no hidden-divergence cost.
+deliberately, and three headwords where the fresh Sefaria data is
+confirmed wrong — to be fixed in the manual-correction layer and
+reported upstream, not in the pipeline. The fresh-source restart
+carries essentially no hidden-divergence cost.
