@@ -23,13 +23,13 @@ interface CompareResult {
 
 const stable = (v: unknown): string => JSON.stringify(v ?? null);
 
-const COMPARED_FIELDS = ['headword', 'alt_headwords'] as const;
+const COMPARED_FIELDS = ['headword', 'alt_headwords', 'content'] as const;
 
 /** Entry minus the named fields, for the remainder comparison. */
 function remainder(entry: SourceEntry): Record<string, unknown> {
 	return Object.fromEntries(
 		Object.entries(entry).filter(
-			([key]) => !COMPARED_FIELDS.includes(key as never),
+			([key]) => !(COMPARED_FIELDS as readonly string[]).includes(key),
 		),
 	);
 }
@@ -42,6 +42,8 @@ function diffFields(fresh: SourceEntry, raw: SourceEntry): string[] {
 			fields.push(field);
 		}
 	}
+	// senseCount is a detail alongside the content diff, not a
+	// substitute for it: a same-count definition edit still reports.
 	const freshSenses = fresh.content?.senses?.length ?? 0;
 	const rawSenses = raw.content?.senses?.length ?? 0;
 	if (freshSenses !== rawSenses) {

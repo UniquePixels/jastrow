@@ -52,7 +52,15 @@ describe('compareEntryMaps', () => {
 			]),
 			toMap([entry({})]),
 		);
-		expect(r.changed[0]?.fields).toContain('senseCount');
+		expect(r.changed[0]?.fields).toEqual(['content', 'senseCount']);
+	});
+
+	it('reports a same-count definition edit as a content diff', () => {
+		const r = compareEntryMaps(
+			toMap([entry({ content: { senses: [{ definition: 'y' }] } })]),
+			toMap([entry({})]),
+		);
+		expect(r.changed[0]?.fields).toEqual(['content']);
 	});
 
 	it('reports named field AND remainder drift for a mixed edit', () => {

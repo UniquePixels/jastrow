@@ -20,8 +20,9 @@ output in `data/source/divergence-report.json`.
 
 Every rid matches one-to-one. Definitions, senses, refs, quotes,
 alt-headwords, and prev/next chains are byte-identical across all
-32,512 entries. The forgotten extraction made no silent *edits* — its
-one systematic change is an *enrichment* (below).
+32,512 entries; the only value differences anywhere are the three
+headwords in Finding 2. The extraction's one systematic change is an
+*enrichment* (Finding 1).
 
 ## Finding 1 — `page`/`column` are a local enrichment (v2 rule needed)
 
@@ -95,8 +96,8 @@ correction, not a schema transformation (maintainer decision,
 ## Conclusion (input to CP-1)
 
 The forgotten extraction changed almost nothing: no dropped or added
-entries, no content edits, one enrichment stage (R1) to re-implement
-deliberately, and three headwords where the fresh Sefaria data is
-confirmed wrong — to be fixed in the manual-correction layer and
-reported upstream, not in the pipeline. The fresh-source restart
-carries essentially no hidden-divergence cost.
+entries, one enrichment stage (R1) to re-implement deliberately, and
+three headwords where the fresh Sefaria data is confirmed wrong — to
+be fixed in the manual-correction layer and reported upstream, not in
+the pipeline. The fresh-source restart carries essentially no
+hidden-divergence cost.
