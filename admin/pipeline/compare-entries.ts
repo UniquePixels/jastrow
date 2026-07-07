@@ -59,8 +59,13 @@ function compareEntryMaps(
 	fresh: Map<string, SourceEntry>,
 	raw: Map<string, SourceEntry>,
 ): CompareResult {
-	const onlyInFresh = [...fresh.keys()].filter((rid) => !raw.has(rid)).sort();
-	const onlyInRaw = [...raw.keys()].filter((rid) => !fresh.has(rid)).sort();
+	const byRid = (a: string, b: string): number => a.localeCompare(b);
+	const onlyInFresh = [...fresh.keys()]
+		.filter((rid) => !raw.has(rid))
+		.sort(byRid);
+	const onlyInRaw = [...raw.keys()]
+		.filter((rid) => !fresh.has(rid))
+		.sort(byRid);
 	const changed: ChangedEntry[] = [];
 	for (const [rid, freshEntry] of fresh) {
 		const rawEntry = raw.get(rid);
