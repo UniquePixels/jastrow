@@ -13,3 +13,6 @@ node_modules/
 
 # sefaria dump cache (pipeline/fetch.ts)
 .cache/
+
+# regenerable pipeline intermediates (data-architecture spec D2)
+data/source/edit-replay.jsonl
