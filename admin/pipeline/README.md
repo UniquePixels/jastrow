@@ -63,3 +63,24 @@ unit-tested comparator in `compare-entries.ts`. Writes
 rule candidates are in
 [docs/v2/divergence-audit.md](../../docs/v2/divergence-audit.md)
 (spec task 1.2).
+
+## Stage 3 — Edit mining (`mine.ts`)
+
+```bash
+bun admin/pipeline/mine.ts   # needs a fetched main (reads history from git)
+```
+
+Walks `origin/main`'s history of the deployed JSONL
+(`data/jastrow-part{1,2}.jsonl`) oldest→newest and reconstructs every
+manual edit into `data/source/edit-replay.jsonl` (spec task 1.3).
+The first commit touching the files is the baseline import, not an
+edit, so it is skipped. Each record carries `commit`, ISO `date`, the
+entry `id`, `op` (`add` / `remove` / `modify`), and the exact
+`before`/`after` JSONL lines, parsed by the unit-tested
+`parse-jsonl-diff.ts`.
+
+The output is **not committed** (regenerable on demand — data
+architecture spec D2). Its Phase 1 finding: of 22,164 mined edits,
+22,057 were scripted transformations and only 107 were hand edits
+(page-number fixes), which migration applies directly (spec §6
+rule 6).

@@ -6,6 +6,7 @@
 	"scripts": {
 		"pipeline:audit": "bun admin/pipeline/audit.ts",
 		"pipeline:fetch": "bun admin/pipeline/fetch.ts",
+		"pipeline:mine": "bun admin/pipeline/mine.ts",
 		"qa": "bun qa:format && bun qa:lint && bun qa:test && bun qa:tsc",
 		"qa:ci": "biome ci --error-on-warnings",
 		"qa:format": "biome format --write",
