@@ -87,13 +87,14 @@ minimal):
 | `refs` | upstream, resolved + normalized | Curated by Sefaria users; accurate; kept. Internal → **rids, not headword strings**: string addressing breaks the moment a headword is edited (cleanup is on the roadmap); rids are stable identity; display strings regenerate at compile. External → canonical Sefaria ref strings. Known incomplete vs definitions (register #1) |
 | `quotes` | upstream (301 non-empty) | Triples `[·, phrase, ·]` marking compound phrases / work names (אֵבֶל רַבָּתִי, אֶבֶן הַשָּׁעוֹת). Candidate search surface (register #12) |
 
+| `senses` | upstream, recursive | Grammar nodes (4,043) preserved as structure — v1 flattened them |
+
 **Provisional rows:** `origin`, `senses`, and `quotes` above are
 drafts. They are fragments of one printed entry body that Sefaria
 segmented crudely; their final shape is designed together as the
 **entry body model** (§6.0) and this section is updated when that
 work lands. The stable parts of the schema — identity, form objects,
 slug, page, refs, pointers — are not affected.
-| `senses` | upstream, recursive | Grammar nodes (4,043) preserved as structure — v1 flattened them |
 
 Dropped: `_id` (volatile), `parent_lexicon` (constant),
 `prev_hw`/`next_hw` (validated then derived — §5), upstream headword
@@ -132,10 +133,12 @@ and the refs list share one vocabulary, "refs list is incomplete"
 becomes a mechanical per-entry lint (register #1).
 
 **D8 — No deeper-than-entry addressing (for now).** All 90,688
-internal targets in the source resolve at entry level (sense suffix is
-uniformly "1" — Sefaria URL boilerplate). `<ref>` carries no sense
-attribute; the vocabulary is additive, so one can be introduced the
-day an editor needs it.
+internal targets in the source are *addressed* at entry level (sense
+suffix is uniformly "1" — Sefaria URL boilerplate); whether a target
+string matches an existing headword is a separate question — 88 do
+not (§6 gate, register #3). `<ref>` carries no sense attribute; the
+vocabulary is additive, so one can be introduced the day an editor
+needs it.
 
 ### 2.4 Pointer entries (D9)
 
