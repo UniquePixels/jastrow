@@ -83,7 +83,7 @@ minimal):
 | `headword` | decomposed | **Form object** — `text` (clean: no `*`, no numerals; 27,613 already clean) + optional `homograph` (Roman numeral, 2,871 — Jastrow's printed index, real content), `disambiguator` (superscript, 807 — Sefaria-added technical suffix; display deferred, register #6), `reconstructed` (`*`, 1,339 — evidence flag) |
 | `altHeadwords[]` | upstream, decomposed identically (19,351 entries) | Array of the **same form-object shape** — one schema, one code path for every headword form (alts carry marks too: 529 Roman, 18 starred) |
 | `page` | v1 local enrichment + the 107 hand edits | Grouped object: printed location. Not upstream data |
-| `origin` | upstream `language_code` + `language_reference`, renamed | **Segmented print text, not metadata**: Sefaria's importer chopped the entry's opening etymology parenthesis into these fields — crudely (mid-phrase splits exist, e.g. K00664; definitions left starting with orphaned commas). **v1 dropped this text entirely** — v2 restores it (a listed golden-diff difference). Shape decided in §6.0: correct re-segmentation gated by a concatenation round-trip over all 5,842 entries, falling back to rejoining into the definition. Content passes markup translation (contains refLinks) |
+| `origin` | upstream `language_code` + `language_reference`, renamed | **Segmented print text, not metadata**: Sefaria's importer chopped the entry's opening etymology parenthesis into these fields — crudely (mid-phrase splits exist, e.g. K00664; definitions left starting with orphaned commas). **The v1 renderer never displayed this text** (the deployed data does carry it, concatenated as `li` on 5,842 entries — baseline audit) — v2 surfaces it (a listed golden-diff difference). Shape decided in §6.0: correct re-segmentation gated by a concatenation round-trip over all 5,842 entries, falling back to rejoining into the definition. Content passes markup translation (contains refLinks) |
 | `refs` | upstream, resolved + normalized | Curated by Sefaria users; accurate; kept. Internal → **rids, not headword strings**: string addressing breaks the moment a headword is edited (cleanup is on the roadmap); rids are stable identity; display strings regenerate at compile. External → canonical Sefaria ref strings. Known incomplete vs definitions (register #1) |
 | `quotes` | upstream (301 non-empty) | Triples `[·, phrase, ·]` marking compound phrases / work names (אֵבֶל רַבָּתִי, אֶבֶן הַשָּׁעוֹת). Candidate search surface (register #12) |
 
@@ -378,15 +378,16 @@ Measured 2026-07-07/08 against the 2026-07-04 snapshot:
   4,043 `{grammar, senses}` (recursive); 347 `{grammar}`; 73 empty.
 - Slug ambiguity: 25,293 distinct stripped forms; 4,406 collide
   (11,625 entries; worst 13).
-- Edit mining (main history): 22,164 modifies in 4 commits — 21,057
+- Edit mining (main history): 22,164 modifies in 4 commits — 22,057
   scripted (refLink passes, tooltips), 107 hand-made page-number
   fixes ("Data update: a few page numbers", caf242a). The replay
   problem reduces to rule 6 of §6.
 - `language_code`/`language_reference`: present on 5,842 entries
   (4,494 both / 1,343 code-only / 5 reference-only); they are crude
   segments of the printed etymology parenthesis (mid-phrase splits:
-  K00664, R00224), and **v1 dropped the text entirely** — deployed
-  definitions begin with orphaned punctuation (A00014).
+  K00664, R00224). Deployed data carries the text (concatenated as
+  `li` — baseline audit) but **the v1 renderer never displayed it**,
+  and deployed definitions begin with orphaned punctuation (A00014).
 
 ## 10. Consequences for in-flight work
 
