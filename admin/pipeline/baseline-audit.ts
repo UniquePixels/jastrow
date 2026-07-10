@@ -104,7 +104,7 @@ function diffFields(
 			fields.push(field);
 		}
 	}
-	return fields.sort();
+	return fields.sort((a, b) => a.localeCompare(b));
 }
 
 const LEXICON_PREFIX = /^Jastrow, /;
@@ -124,7 +124,7 @@ function collectStrings(value: unknown, out: string[] = []): string[] {
 			collectStrings(item, out);
 		}
 	} else if (value !== null && typeof value === 'object') {
-		for (const key of Object.keys(value).sort()) {
+		for (const key of Object.keys(value).sort((a, b) => a.localeCompare(b))) {
 			collectStrings((value as Record<string, unknown>)[key], out);
 		}
 	}

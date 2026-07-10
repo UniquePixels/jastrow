@@ -69,8 +69,8 @@ function extractLinks(html: string): Link[] {
 	const links: Link[] = [];
 	for (const m of html.matchAll(ANCHOR)) {
 		const attrs = m[1] ?? '';
-		const dataRef = attrs.match(DATA_REF_ATTR);
-		const href = attrs.match(HREF_ATTR);
+		const dataRef = DATA_REF_ATTR.exec(attrs);
+		const href = HREF_ATTR.exec(attrs);
 		links.push({
 			target: dataRef?.[1] ?? href?.[1] ?? '',
 			text: m[2] ?? '',
