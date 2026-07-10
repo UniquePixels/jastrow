@@ -1,6 +1,8 @@
 /**
- * Stage 2 — divergence audit (spec 1.2). Compares the fresh source
- * snapshot against the legacy extraction that main's data/raw carries
+ * Divergence audit (provenance investigation, spec 1.2). Question:
+ * did upstream drift between the ~2019 extraction and the fresh
+ * source? Compares the fresh source snapshot against the legacy
+ * extraction that main's data/raw carries
  * (removed from v2, so it is read from git) and writes
  * data/source/divergence-report.json.
  *

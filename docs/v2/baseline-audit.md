@@ -8,7 +8,7 @@ edits. This audit tests that assumption: it transforms
 (`baseline-transform.ts`) and diffs the prediction against the actual
 deployed `data/jastrow-part{1,2}.jsonl` at the same commit. Anything
 the model cannot explain is a candidate pre-git hand edit. Produced by
-`bun admin/pipeline/baseline-audit.ts`; machine output in
+`bun admin/pipeline/provenance/baseline-audit.ts`; machine output in
 `data/source/baseline-audit-report.json` (regenerable, not committed —
 data-architecture spec D2).
 
