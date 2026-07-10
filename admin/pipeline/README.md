@@ -84,3 +84,25 @@ architecture spec D2). Its Phase 1 finding: of 22,164 mined edits,
 22,057 were scripted transformations and only 107 were hand edits
 (page-number fixes), which migration applies directly (spec §6
 rule 6).
+
+## Stage 4 — Baseline audit (`baseline-audit.ts`)
+
+```bash
+bun admin/pipeline/baseline-audit.ts   # needs a fetched main
+```
+
+Mining (stage 3) skips the baseline import commit, assuming the
+deployed files entered git unedited. This stage tests that
+assumption: it pushes `data/raw` at the baseline commit (`8c10b59`)
+through the modeled v1 extraction transform
+(`baseline-transform.ts`, unit-tested) and diffs the prediction
+against the actual deployed files at the same commit, also verifying
+every rewritten link. Writes
+`data/source/baseline-audit-report.json` (not committed — D2);
+findings in [docs/v2/baseline-audit.md](../../docs/v2/baseline-audit.md).
+
+Its finding: the assumption missed exactly one bounded pre-git fix
+session — 182 contiguous entries (C00363–C00544, pages 221–229) with
+`column` resolved and 3 page numbers corrected, and no text edits.
+Migration rule 6 must therefore source `page`/`column` from the
+baseline deployed files, not `data/raw`.
