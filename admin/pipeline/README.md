@@ -1,40 +1,16 @@
-# Data Tools (v2)
+# Pipeline v2
 
-Two kinds of tools live in this directory, and the distinction
-matters:
+Scripted, re-runnable data pipeline from the true Sefaria source
+([design spec](../docs/specs/2026-07-03-v2-overhaul-design.md), Phase 1+).
 
-1. **The pipeline** — the auditable, reproducible path from the
-   Sefaria source to the data the app serves. A new contributor
-   should be able to read this section top to bottom and see how
-   source data is fetched, transformed, and published, as if
-   starting from scratch.
-2. **Provenance investigations** — one-time examinations of the v1
-   data. Important record, **not part of the pipeline**: their job
-   was to prove what the pipeline may rely on and to make sure no
-   existing work is lost in the rebuild.
-
-## The pipeline: source → app
-
-| Stage | Tool | Status | Runs |
-|---|---|---|---|
-| Source acquisition | `fetch.ts` | working | on demand, re-runnable |
-| Migration (source → truth) | `migrate.ts` | designed, not built | once, then retires |
-| Compile (truth → serving) | `compile.ts` | designed, not built | every deploy |
-
-Migration and compile are specified in the
-[data architecture spec](../../docs/specs/2026-07-08-v2-data-architecture-design.md)
-(§6): migration transforms the source snapshot into the per-entry
-truth layer one time and is then blessed and retired; compile builds
-the serving artifacts from truth on every deploy, forever.
-
-### Source acquisition (`fetch.ts`)
+## Stage 1 — Source acquisition (`fetch.ts`)
 
 ```bash
 bun admin/pipeline/fetch.ts           # download dump + decode + emit
 bun admin/pipeline/fetch.ts --cached  # re-decode from .cache/sefaria (no download)
 ```
 
-#### Channel decision (spec task 1.1)
+### Channel decision (spec task 1.1)
 
 The canonical channel is **Sefaria's public MongoDB dump**:
 
@@ -52,7 +28,7 @@ streams it: gunzip + tar parsing happen in memory and only the three
 lexicon collections are written to disk (`.cache/sefaria/`, gitignored).
 The download is cancelled as soon as all targets are captured.
 
-#### One Jastrow lexicon (not two)
+### One Jastrow lexicon (not two)
 
 Sefaria's code maps a second parent lexicon, `Jastrow Unabbreviated`
 (see `LexiconEntrySubClassMapping` in Sefaria-Project
@@ -61,7 +37,7 @@ it: the 2026-07-04 dump has no `lexicon` record and zero
 `lexicon_entry` docs under that name. Only `Jastrow Dictionary`
 (32,512 entries) exists and is emitted.
 
-#### Outputs (`data/source/`, committed)
+### Outputs (`data/source/`, committed)
 
 | File | Contents |
 |------|----------|
@@ -71,79 +47,62 @@ it: the 2026-07-04 dump has no `lexicon` record and zero
 
 Documents are emitted **unmodified** — no transformation happens in
 this stage, so `data/source/` is a faithful snapshot for the
-divergence audit. `word_form.bson` is cached for later use
+divergence audit (task 1.2). `word_form.bson` is cached for later use
 (search word forms) but not yet emitted.
 
-## Provenance investigations (not pipeline)
-
-One-time evidence tools. Each answered a question about the v1 data;
-their findings feed the migration rules and the preservation
-obligations below, but none of them is a step in the source → app
-path. They are kept re-runnable so their reports stay reproducible
-(intermediates are not committed — data architecture spec D2).
-
-### Divergence audit (`audit.ts`, spec 1.2)
+## Stage 2 — Divergence audit (`audit.ts`)
 
 ```bash
 bun admin/pipeline/audit.ts   # needs a fetched main (reads data/raw from git)
 ```
 
-**Question:** did the upstream data drift between the ~2019 extraction
-v1 was built from and the fresh 2026 source? Compares
-`data/source/jastrow-dictionary.jsonl` against the legacy extraction
-(`origin/main:data/raw/jastrow-part{1,2}.jsonl`) using the
+Compares `data/source/jastrow-dictionary.jsonl` against the legacy
+extraction (`origin/main:data/raw/jastrow-part{1,2}.jsonl`) using the
 unit-tested comparator in `compare-entries.ts`. Writes
 `data/source/divergence-report.json`; findings and the resulting v2
 rule candidates are in
-[docs/v2/divergence-audit.md](../../docs/v2/divergence-audit.md).
-**Answer:** 3 headword differences in 32,512 entries; everything else
-byte-identical.
+[docs/v2/divergence-audit.md](../../docs/v2/divergence-audit.md)
+(spec task 1.2).
 
-### Edit mining (`mine.ts`, spec 1.3)
+## Stage 3 — Edit mining (`mine.ts`)
 
 ```bash
 bun admin/pipeline/mine.ts   # needs a fetched main (reads history from git)
 ```
 
-**Question:** what was changed in the deployed data over v1's
-lifetime? Walks `origin/main`'s history of the deployed JSONL
+Walks `origin/main`'s history of the deployed JSONL
 (`data/jastrow-part{1,2}.jsonl`) oldest→newest and reconstructs every
-edit into `data/source/edit-replay.jsonl` (not committed —
-regenerable). The first commit touching the files is the baseline
-import, not an edit, so it is skipped. Each record carries `commit`,
-ISO `date`, the entry `id`, `op` (`add` / `remove` / `modify`), and
-the exact `before`/`after` lines, parsed by the unit-tested
+manual edit into `data/source/edit-replay.jsonl` (spec task 1.3).
+The first commit touching the files is the baseline import, not an
+edit, so it is skipped. Each record carries `commit`, ISO `date`, the
+entry `id`, `op` (`add` / `remove` / `modify`), and the exact
+`before`/`after` JSONL lines, parsed by the unit-tested
 `parse-jsonl-diff.ts`.
-**Answer:** 22,164 edits in 4 commits — 22,057 scripted
-transformations and 107 hand-made page-number fixes (caf242a).
 
-### Baseline audit (`baseline-audit.ts`)
+The output is **not committed** (regenerable on demand — data
+architecture spec D2). Its Phase 1 finding: of 22,164 mined edits,
+22,057 were scripted transformations and only 107 were hand edits
+(page-number fixes), which migration applies directly (spec §6
+rule 6).
+
+## Stage 4 — Baseline audit (`baseline-audit.ts`)
 
 ```bash
 bun admin/pipeline/baseline-audit.ts   # needs a fetched main
 ```
 
-**Question:** did the deployed files enter git already carrying
-edits that mining (which skips the baseline import) cannot see?
-Pushes `data/raw` at the baseline commit (`8c10b59`) through the
-modeled v1 extraction transform (`baseline-transform.ts`,
-unit-tested) and diffs the prediction against the actual deployed
-files at the same commit, verifying every rewritten link. Writes
-`data/source/baseline-audit-report.json` (not committed); findings
-in [docs/v2/baseline-audit.md](../../docs/v2/baseline-audit.md).
-**Answer:** yes — one bounded pre-git fix session: 182 contiguous
-entries (C00363–C00544, pages 221–229) with `column` resolved and 3
-page numbers corrected; no text edits.
+Mining (stage 3) skips the baseline import commit, assuming the
+deployed files entered git unedited. This stage tests that
+assumption: it pushes `data/raw` at the baseline commit (`8c10b59`)
+through the modeled v1 extraction transform
+(`baseline-transform.ts`, unit-tested) and diffs the prediction
+against the actual deployed files at the same commit, also verifying
+every rewritten link. Writes
+`data/source/baseline-audit-report.json` (not committed — D2);
+findings in [docs/v2/baseline-audit.md](../../docs/v2/baseline-audit.md).
 
-## Preservation obligations (informed by the investigations)
-
-Work already done in v1 that migration must carry over so it is not
-lost. These are one-time preservation tasks, **not pipeline stages**
-— the pipeline documents how data is built; this list documents what
-accumulated value rides along:
-
-- **289 print-locator corrections** (182 column + 3 page fixes made
-  before the first commit, plus 107 page fixes in caf242a): applied
-  once during migration by sourcing `page`/`column` from the
-  deployed data rather than `data/raw` and replaying the mined hand
-  edits (data architecture spec §6 rule 6).
+Its finding: the assumption missed exactly one bounded pre-git fix
+session — 182 contiguous entries (C00363–C00544, pages 221–229) with
+`column` resolved and 3 page numbers corrected, and no text edits.
+Migration rule 6 must therefore source `page`/`column` from the
+baseline deployed files, not `data/raw`.
