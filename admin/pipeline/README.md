@@ -81,6 +81,6 @@ entry `id`, `op` (`add` / `remove` / `modify`), and the exact
 
 The output is **not committed** (regenerable on demand — data
 architecture spec D2). Its Phase 1 finding: of 22,164 mined edits,
-21,057 were scripted transformations and only 107 were hand edits
+22,057 were scripted transformations and only 107 were hand edits
 (page-number fixes), which migration applies directly (spec §6
 rule 6).
