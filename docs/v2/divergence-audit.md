@@ -4,7 +4,7 @@ Compares the fresh Sefaria source (`data/source/jastrow-dictionary.jsonl`,
 dump of 2026-07-04, 32,512 entries) against the legacy extraction the v1
 app was built from (`data/raw/jastrow-part{1,2}.jsonl` on `main`,
 committed 2026-03-30 from a ~2019 Sefaria database, per the entries'
-ObjectId timestamps). Produced by `bun admin/pipeline/audit.ts`; machine
+ObjectId timestamps). Produced by `bun admin/pipeline/provenance/audit.ts`; machine
 output in `data/source/divergence-report.json`.
 
 ## Headline
@@ -81,7 +81,7 @@ correction, not a schema transformation (maintainer decision,
 
 ## Method notes
 
-- Comparator: `admin/pipeline/compare-entries.ts` (unit-tested;
+- Comparator: `admin/pipeline/provenance/compare-entries.ts` (unit-tested;
   named-field diffs plus an independent remainder check so a headword
   change cannot mask other drift).
 - A full per-field census (key-order-insensitive) runs before

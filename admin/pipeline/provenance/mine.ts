@@ -1,5 +1,6 @@
 /**
- * Stage 3 — edit mining (spec 1.3). Walks main's history of the
+ * Edit mining (provenance investigation, spec 1.3). Question: what
+ * changed in the deployed data over v1's lifetime? Walks main's history of the
  * deployed JSONL oldest→newest and reconstructs every manual edit into
  * data/source/edit-replay.jsonl, each record stamped with its commit
  * and committer date. The first commit touching the files is the

@@ -1,5 +1,6 @@
 /**
- * Baseline audit: did the deployed JSONL enter git carrying anything
+ * Baseline audit (provenance investigation). Question: did the
+ * deployed JSONL enter git carrying anything
  * beyond the documented v1 extraction transform? mine.ts (spec 1.3)
  * skips the baseline import commit on the assumption it holds no
  * edits; this tool tests that assumption by transforming the raw
