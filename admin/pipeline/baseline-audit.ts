@@ -61,6 +61,8 @@ interface BaselineReport {
 	};
 }
 
+/** JSONL entries at the baseline commit, read from git and keyed by
+ * the given id field (`rid` for raw, `id` for deployed). */
 async function loadAt(
 	paths: string[],
 	key: 'rid' | 'id',
@@ -137,6 +139,10 @@ interface LinkAuditInput {
 	rid: string;
 }
 
+/** Pair raw and deployed anchors positionally and verify each rewrite:
+ * internal refLinks must resolve to the rid whose headword matches the
+ * data-ref; external refLinks must carry the URL derived from it.
+ * Mismatches are tallied into the report's link issues. */
 function auditLinks(
 	{ rid, expected, actual }: LinkAuditInput,
 	rawEntries: Map<string, Record<string, unknown>>,

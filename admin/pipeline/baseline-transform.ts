@@ -79,6 +79,9 @@ function extractLinks(html: string): Link[] {
 	return links;
 }
 
+/** One sense in deployed shape: `definition`/`number`/`grammar`/
+ * `senses` become `d`/`n`/`g`/`s`, recursively; grammar
+ * `verbal_stem`/`binyan_form` become `vs`/`bf`. */
 function transformSense(sense: RawSense): Record<string, unknown> {
 	const out: Record<string, unknown> = {};
 	if (sense.definition !== undefined) {
@@ -107,6 +110,8 @@ function transformSense(sense: RawSense): Record<string, unknown> {
 	return out;
 }
 
+/** True for the values the extraction omitted from deployed entries:
+ * undefined, null, empty string, empty array. */
 const isEmpty = (v: unknown): boolean =>
 	v === undefined ||
 	v === null ||
