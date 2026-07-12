@@ -3,10 +3,20 @@
  * consumer stays positionally round-trip safe. Matches both href forms
  * ("/X" and the slash-less damage class, entry-body-model design §4).
  *
- * Callers must scan per-definition strings, not concatenated blobs: the
- * closing-tag search below is worst-case O(N) per open tag, so scanning a
- * blob of many definitions joined together is O(N²) on pathological
- * unclosed-anchor input (see D00478 / J00597).
+ * Contract: every refLink open tag in the text yields exactly one hit.
+ * `malformed: true` means the hit's span covers only the open tag (not a
+ * full `<a…>…</a>`) — either because the open tag itself never closed its
+ * href quote, or because no `</a>` was found before the next refLink open
+ * tag started. Callers should treat malformed hits with care: two adjacent
+ * hits with an identical href are almost always the benign nested-duplicate
+ * anchor quirk Sefaria produces (outer wraps an inner anchor with the same
+ * href/data-ref) rather than distinct citations.
+ *
+ * Callers should still scan per-definition strings, not concatenated blobs
+ * — that remains the intended usage — but this is no longer a correctness
+ * requirement: the closing-tag search measures linear in practice after the
+ * rewrite, not the O(N²) worst case an earlier version of this comment
+ * warned about.
  */
 interface CitationHit {
 	dataRef: string;
@@ -114,9 +124,12 @@ function findCitations(text: string): CitationHit[] {
 			continue;
 		}
 		// A nested open tag appeared before any close: this anchor's own
-		// close is missing from the source. Drop it silently rather than
-		// swallowing into the neighbor, and let that neighbor be scanned on
-		// its own terms next.
+		// close is missing from the source. Its open tag still carries a
+		// valid href/data-ref, so emit it rather than dropping it — flagged
+		// malformed because the span covers only the open tag, not a full
+		// `<a…>…</a>` — then resume scanning from the nested open tag so it
+		// is picked up on its own terms next.
+		hits.push({ ...hit, malformed: true });
 		OPEN_TAG.lastIndex = next.index;
 		openMatch = OPEN_TAG.exec(text);
 	}
