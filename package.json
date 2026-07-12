@@ -4,6 +4,7 @@
 	"description": "A progressive web app for browsing and searching Marcus Jastrow's *Dictionary of the Targumim, the Talmud Babli and Yerushalmi, and the Midrashic Literature* (1903).",
 	"type": "module",
 	"scripts": {
+		"body:census": "bun admin/pipeline/body/census.ts",
 		"pipeline:fetch": "bun admin/pipeline/fetch.ts",
 		"provenance:audit": "bun admin/pipeline/provenance/audit.ts",
 		"provenance:baseline": "bun admin/pipeline/provenance/baseline-audit.ts",

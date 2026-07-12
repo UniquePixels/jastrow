@@ -19,7 +19,7 @@ const J00597_MANGLED =
 // A00085 fragment (data/source/jastrow-dictionary.jsonl): an outer refLink
 // anchor whose open tag immediately wraps an inner refLink anchor with an
 // identical href/data-ref — a benign nested-duplicate quirk Sefaria
-// produces (471 of 474 corpus-wide occurrences of the "nested open tag
+// produces (475 of 478 corpus-wide occurrences of the "nested open tag
 // before any close" case are this class). Pins the fix so the outer still
 // yields a hit — malformed, span limited to its own open tag — instead of
 // vanishing, while the inner is unaffected.
@@ -34,7 +34,7 @@ const A00085_NESTED_DUP = `${A00085_OUTER_OPEN}${A00085_INNER}.</a>`;
 // missing from the source — the next thing in the text is another refLink
 // open tag (itself the outer half of a nested-duplicate pair). Before the
 // fix this anchor produced no hit and no flag at all — a genuine citation
-// loss (only 3 of 474 corpus-wide occurrences of this shape are this
+// loss (only 3 of 478 corpus-wide occurrences of this shape are this
 // class, the other two being D00478 and a second anchor within J00597
 // itself).
 const J00603_SHIR_OPEN =
