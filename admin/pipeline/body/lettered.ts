@@ -21,6 +21,9 @@ interface LetteredParts {
 	items: LetteredItem[];
 }
 
+// Shares census.ts's LETTERED caveat: the lookbehind excludes a
+// preceding '(' or letter but not a digit, so a folio-style "39a)"
+// could in principle be read as marker "a)".
 const MARKER = /(?<![(\p{L}])(?<letter>[a-z])\)/gu;
 
 /** A marker sitting inside an unclosed `<a>…</a>` anchor doesn't count

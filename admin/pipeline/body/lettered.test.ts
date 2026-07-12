@@ -35,6 +35,49 @@ function assertSplit(text: string): LetteredParts {
 	return parts;
 }
 
+interface SweepMismatch {
+	expected: string;
+	got: string;
+	rid: string;
+	senseIndex: number;
+}
+
+interface SweepResult {
+	mismatches: SweepMismatch[];
+	splitCount: number;
+}
+
+/** Runs splitLettered/joinLettered over every sense in `entries` and
+ * reports, per rid + senseIndex, any definition whose split didn't
+ * round-trip or that produced fewer than two items — so a failure
+ * names the offending entry instead of just failing on the first
+ * mismatch encountered. */
+function sweepFixtures(entries: SourceEntry[]): SweepResult {
+	const mismatches: SweepMismatch[] = [];
+	let splitCount = 0;
+	for (const entry of entries) {
+		let senseIndex = 0;
+		for (const sense of walkSenses(entry.content.senses)) {
+			const definition = sense.definition ?? '';
+			const parts = splitLettered(definition);
+			if (parts !== null) {
+				splitCount++;
+				const got = joinLettered(parts);
+				if (got !== definition || parts.items.length < 2) {
+					mismatches.push({
+						rid: entry.rid,
+						senseIndex,
+						expected: definition,
+						got,
+					});
+				}
+			}
+			senseIndex++;
+		}
+	}
+	return { mismatches, splitCount };
+}
+
 describe('splitLettered', () => {
 	it('splits a complete a)…b) run', () => {
 		const parts = assertSplit('x a) one b) two');
@@ -83,24 +126,16 @@ describe('splitLettered', () => {
 describe('fixture sweep (fixtures/lettered.jsonl)', () => {
 	it('every definition either stays whole or round-trips exactly', async () => {
 		const entries = await loadFixtures();
-		let splitCount = 0;
-		for (const entry of entries) {
-			for (const sense of walkSenses(entry.content.senses)) {
-				const definition = sense.definition ?? '';
-				const parts = splitLettered(definition);
-				if (parts === null) {
-					continue;
-				}
-				splitCount++;
-				expect(joinLettered(parts)).toBe(definition);
-				expect(parts.items.length).toBeGreaterThanOrEqual(2);
-			}
-		}
+		const { mismatches, splitCount } = sweepFixtures(entries);
+
+		expect(mismatches).toEqual([]);
+		// These counts are tied to the current 5-entry fixture set
+		// (fixtures/lettered.jsonl) — update both if fixtures are added,
+		// removed, or edited. Measured across that set (see task report
+		// for the per-entry breakdown): A01999 def#1 [a,b,c], A01873
+		// def#2 [a,b,c], C00031 def#2 [a,b,c,d], E00378 def#3 [a,b],
+		// C00009 def#2 [a,b] — 5 definitions split in total.
 		expect(entries.length).toBe(5);
-		// Measured across the 5-entry fixture set (see task report for the
-		// per-entry breakdown): A01999 def#1 [a,b,c], A01873 def#2
-		// [a,b,c], C00031 def#2 [a,b,c,d], E00378 def#3 [a,b], C00009
-		// def#2 [a,b] — 5 definitions split in total.
 		expect(splitCount).toBe(5);
 	});
 
