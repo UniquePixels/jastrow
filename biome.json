@@ -282,7 +282,7 @@
 			}
 		},
 		{
-			"includes": ["admin/pipeline/*.ts", "!admin/pipeline/**/*.test.ts"],
+			"includes": ["admin/pipeline/**/*.ts", "!admin/pipeline/**/*.test.ts"],
 			"linter": {
 				"rules": {
 					"correctness": {
@@ -301,6 +301,12 @@
 									{
 										"selector": {
 											"kind": "objectLiteralProperty"
+										},
+										"formats": ["camelCase", "CONSTANT_CASE", "snake_case"]
+									},
+									{
+										"selector": {
+											"kind": "typeProperty"
 										},
 										"formats": ["camelCase", "CONSTANT_CASE", "snake_case"]
 									}

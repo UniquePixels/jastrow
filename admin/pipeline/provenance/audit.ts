@@ -54,6 +54,7 @@ function addLines(map: Map<string, SourceEntry>, text: string): void {
 			continue;
 		}
 		const { _id, ...rest } = JSON.parse(line) as SourceEntry & {
+			// biome-ignore lint/style/useNamingConvention: upstream field name
 			_id?: unknown;
 		};
 		map.set(rest.rid, rest);
