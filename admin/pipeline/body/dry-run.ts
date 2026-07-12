@@ -217,6 +217,10 @@ interface RunContext {
 function processEntry(e: SourceEntry, index: number, ctx: RunContext): void {
 	ctx.acc.entries++;
 	const trace = buildTrace(e);
+	// trace.problems is unused on this run path by design: the report's
+	// quarantine counts come from tallyLabels/tallyGrammar's own independent
+	// tallies below, not from re-reading this trace; `problems` exists for
+	// the buildBody/migrate.ts contract instead.
 	tallyRoundTrip(ctx.acc, evaluateRoundTrip(e, trace));
 	tallyStructure(trace.body, ctx.acc);
 	tallyLabels(e, ctx.acc);

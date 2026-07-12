@@ -1,6 +1,7 @@
 import { describe, expect, it } from 'bun:test';
 import { buildBody, buildTrace } from './dry-run.ts';
 import { evaluateRoundTrip } from './dry-run-verify.ts';
+import { rejoinGlossHead, splitGlossHead } from './rejoin.ts';
 import { readSourceEntries } from './source.ts';
 import type { SourceEntry } from './types.ts';
 
@@ -126,4 +127,80 @@ describe('buildBody round-trip: byte-exact reassembly across every named fixture
 			expect(mismatches).toEqual([]);
 		});
 	}
+});
+
+describe('evaluateRoundTrip canary: units flips false on a corrupted built gloss', () => {
+	it('flips units false when a built gloss is corrupted, true on the control', async () => {
+		const entries = await loadFixture('origin-splits.jsonl');
+		const a00014 = findFixture(entries, 'A00014');
+
+		// control: the real trace round-trips clean.
+		const control = buildTrace(a00014);
+		expect(evaluateRoundTrip(a00014, control).units).toBe(true);
+
+		// corrupt one pair's built gloss (not the intro pair, to keep the
+		// blast radius to the `units` rule alone) and verify the gate flips.
+		const corrupted = buildTrace(a00014);
+		const [, pair] = corrupted.pairs;
+		if (pair === undefined) {
+			throw new Error('expected A00014 to have a second sense pair');
+		}
+		pair.built = { ...pair.built, gloss: `${pair.built.gloss}X` };
+		expect(evaluateRoundTrip(a00014, corrupted).units).toBe(false);
+	});
+});
+
+describe('evaluateRoundTrip canary: lettered flips false on a dropped child sense', () => {
+	it('flips lettered false when a built lettered child sense is dropped, true on the control', async () => {
+		const entries = await loadFixture('lettered.jsonl');
+		const a01999 = findFixture(entries, 'A01999');
+
+		// control: A01999's intro gloss splits into lettered children a/b/c
+		// and round-trips clean.
+		const control = buildTrace(a01999);
+		expect(evaluateRoundTrip(a01999, control).lettered).toBe(true);
+
+		// drop the last lettered child from the built intro sense — the
+		// letter run no longer matches what `splitLettered` finds in the
+		// original text, so `lettered` must flip.
+		const corrupted = buildTrace(a01999);
+		const [introPair] = corrupted.pairs;
+		const children = introPair?.built.senses;
+		if (introPair === undefined || children === undefined) {
+			throw new Error('expected A01999 intro sense to have lettered children');
+		}
+		introPair.built = { ...introPair.built, senses: children.slice(0, -1) };
+		expect(evaluateRoundTrip(a01999, corrupted).lettered).toBe(false);
+	});
+});
+
+// `checkRejoin` (dry-run-verify.ts, not exported) always recomputes
+// `rejoinGlossHead(e)` fresh from the same entry it verifies against, so
+// there's no seam in `e` to corrupt through `evaluateRoundTrip`'s public
+// surface — both sides of its comparison derive from the same entry and
+// stay self-consistent no matter what's mutated on `e`. The seam that
+// actually needs teeth is the join/split reconstruction itself
+// (`rejoin.ts`, exported): if the joined string ever drifted out of sync
+// with its recorded offsets, `splitGlossHead` must stop reconstructing the
+// source fields byte-for-byte. Exercise that directly, mirroring
+// `checkRejoin`'s own field-by-field comparison.
+describe('evaluateRoundTrip canary: rejoin reconstruction flips false on a stale joined string', () => {
+	it('fails to reconstruct senseHead once the joined string drifts from its offsets', async () => {
+		const entries = await loadFixture('origin-splits.jsonl');
+		const a00014 = findFixture(entries, 'A00014');
+
+		const { joined, offsets } = rejoinGlossHead(a00014);
+		const senseHead = a00014.content.senses[0]?.definition ?? '';
+
+		const control = splitGlossHead(joined, offsets);
+		expect(control.senseHead).toBe(senseHead);
+
+		// splice a stray character into the joined string inside the
+		// senseHead span while leaving the recorded offsets stale — exactly
+		// the failure mode the offsets exist to catch.
+		const spliceAt = offsets.senseHead[0] + 5;
+		const corruptedJoined = `${joined.slice(0, spliceAt)}X${joined.slice(spliceAt)}`;
+		const corrupted = splitGlossHead(corruptedJoined, offsets);
+		expect(corrupted.senseHead).not.toBe(senseHead);
+	});
 });
