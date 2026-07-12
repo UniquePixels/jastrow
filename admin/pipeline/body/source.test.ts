@@ -73,7 +73,7 @@ describe('linesOf', () => {
 		expect(lines).toEqual(['only', 'no trailing newline']);
 	});
 
-	it('skips a blank interior line, leaving it out of the results', async () => {
+	it('yields a blank interior line (readSourceEntries filters them)', async () => {
 		const bytes = new TextEncoder().encode('one\n\ntwo');
 		const chunks = chunksOf([bytes]);
 		const lines: string[] = [];

@@ -36,7 +36,8 @@ Streams `data/source/jastrow-dictionary.jsonl` (32,512 entries, ~41 MB)
 line by line — chunks are decoded and split on `\n` as they arrive, so
 the file is never held in memory whole. `parseSourceEntry()` parses a
 single JSONL line; `readSourceEntries(path?)` is the generator, path
-overridable for tests/fixtures.
+overridable for tests/fixtures. `linesOf(chunks)` is the underlying
+chunk-safe line splitter (exported for direct testing).
 
 `SourceEntry`/`SourceSense` model every upstream field the body-model
 plan touches: `morphology`, `plural_form`, `language_code`,
