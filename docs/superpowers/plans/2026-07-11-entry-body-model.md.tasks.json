@@ -4,13 +4,13 @@
   {
    "id": 1,
    "subject": "Task 1: Source reader + body types",
-   "status": "pending",
+   "status": "completed",
    "description": "**Goal:** One shared, tested way to stream source entries and the type vocabulary every later module uses.\n\n**Files:**\n- admin/pipeline/body/types.ts\n- admin/pipeline/body/source.ts\n- admin/pipeline/body/source.test.ts\n- admin/pipeline/body/README.md\n\n**Acceptance Criteria:**\n- [ ] streams 32512 entries\n- [ ] types cover all consumed upstream fields + BodyEntry targets\n- [ ] tests pass\n\n**Verify:** `bun test admin/pipeline/body/source.test.ts`\n\nFull steps: plan doc Task 1.\n\n```json:metadata\n{\"files\": [\"admin/pipeline/body/types.ts\", \"admin/pipeline/body/source.ts\", \"admin/pipeline/body/source.test.ts\", \"admin/pipeline/body/README.md\"], \"verifyCommand\": \"bun test admin/pipeline/body/source.test.ts\", \"acceptanceCriteria\": [\"streams 32512 entries\", \"types cover all consumed upstream fields + BodyEntry targets\", \"tests pass\"], \"modelTier\": \"mechanical\", \"planPath\": \"docs/superpowers/plans/2026-07-11-entry-body-model.md\"}\n```"
   },
   {
    "id": 2,
    "subject": "Task 2: Citation detector (cite.ts)",
-   "status": "pending",
+   "status": "completed",
    "description": "**Goal:** Find and classify every citation anchor in a definition string — the primitive under units, censuses, and the derived reference index.\n\n**Files:**\n- admin/pipeline/body/cite.ts\n- admin/pipeline/body/cite.test.ts\n\n**Acceptance Criteria:**\n- [ ] both href forms detected\n- [ ] internal vs external classified with dataRef + spans\n- [ ] no text rewriting\n\n**Verify:** `bun test admin/pipeline/body/cite.test.ts`\n\nFull steps: plan doc Task 2.\n\n```json:metadata\n{\"files\": [\"admin/pipeline/body/cite.ts\", \"admin/pipeline/body/cite.test.ts\"], \"verifyCommand\": \"bun test admin/pipeline/body/cite.test.ts\", \"acceptanceCriteria\": [\"both href forms detected\", \"internal vs external classified with dataRef + spans\", \"no text rewriting\"], \"modelTier\": \"standard\", \"planPath\": \"docs/superpowers/plans/2026-07-11-entry-body-model.md\"}\n```",
    "blockedBy": [
     1
@@ -19,7 +19,7 @@
   {
    "id": 3,
    "subject": "Task 3: Body census (census.ts)",
-   "status": "pending",
+   "status": "in_progress",
    "description": "**Goal:** Measure every value space and edge class the rules depend on, so fixtures and rule vocabularies are evidence, not guesses.\n\n**Files:**\n- admin/pipeline/body/census.ts\n- admin/pipeline/body/census.test.ts\n- package.json\n- .gitignore\n- docs/v2/body-census.md\n\n**Acceptance Criteria:**\n- [ ] report has all listed sections\n- [ ] classifiers unit-tested\n- [ ] doc summary with measured numbers\n\n**Verify:** `bun body:census`\n\nFull steps: plan doc Task 3.\n\n```json:metadata\n{\"files\": [\"admin/pipeline/body/census.ts\", \"admin/pipeline/body/census.test.ts\", \"package.json\", \".gitignore\", \"docs/v2/body-census.md\"], \"verifyCommand\": \"bun body:census\", \"acceptanceCriteria\": [\"report has all listed sections\", \"classifiers unit-tested\", \"doc summary with measured numbers\"], \"modelTier\": \"standard\", \"planPath\": \"docs/superpowers/plans/2026-07-11-entry-body-model.md\"}\n```",
    "blockedBy": [
     1,
@@ -124,5 +124,5 @@
    ]
   }
  ],
- "lastUpdated": "2026-07-12T16:40:00Z"
+ "lastUpdated": "2026-07-12T17:36:49Z"
 }
