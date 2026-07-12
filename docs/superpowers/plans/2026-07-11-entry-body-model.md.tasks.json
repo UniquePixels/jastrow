@@ -29,7 +29,7 @@
   {
    "id": 4,
    "subject": "Task 4: Fixture corpus",
-   "status": "pending",
+   "status": "completed",
    "description": "**Goal:** Committed, hermetic entry snapshots per edge class so every rule test runs against real data without reading the 90 MB source.\n\n**Files:**\n- admin/pipeline/body/fixtures/extract.ts\n- admin/pipeline/body/fixtures/README.md\n\n**Acceptance Criteria:**\n- [ ] all 8 classes present\n- [ ] deterministic regeneration with --check\n- [ ] README documents each class\n\n**Verify:** `bun admin/pipeline/body/fixtures/extract.ts --check`\n\nFull steps: plan doc Task 4.\n\n```json:metadata\n{\"files\": [\"admin/pipeline/body/fixtures/extract.ts\", \"admin/pipeline/body/fixtures/README.md\"], \"verifyCommand\": \"bun admin/pipeline/body/fixtures/extract.ts --check\", \"acceptanceCriteria\": [\"all 8 classes present\", \"deterministic regeneration with --check\", \"README documents each class\"], \"modelTier\": \"mechanical\", \"planPath\": \"docs/superpowers/plans/2026-07-11-entry-body-model.md\"}\n```",
    "blockedBy": [
     3
@@ -38,7 +38,7 @@
   {
    "id": 5,
    "subject": "Task 5: Gloss-head rejoin (rejoin.ts)",
-   "status": "pending",
+   "status": "completed",
    "description": "**Goal:** Rebuild the printed gloss head — morphology + language_code + language_reference + sense-1 text — with a byte round-trip by construction.\n\n**Files:**\n- admin/pipeline/body/rejoin.ts\n- admin/pipeline/body/rejoin.test.ts\n\n**Acceptance Criteria:**\n- [ ] byte round-trip via offsets\n- [ ] print order correct\n- [ ] fixture sweep passes\n\n**Verify:** `bun test admin/pipeline/body/rejoin.test.ts`\n\nFull steps: plan doc Task 5.\n\n```json:metadata\n{\"files\": [\"admin/pipeline/body/rejoin.ts\", \"admin/pipeline/body/rejoin.test.ts\"], \"verifyCommand\": \"bun test admin/pipeline/body/rejoin.test.ts\", \"acceptanceCriteria\": [\"byte round-trip via offsets\", \"print order correct\", \"fixture sweep passes\"], \"modelTier\": \"standard\", \"planPath\": \"docs/superpowers/plans/2026-07-11-entry-body-model.md\"}\n```",
    "blockedBy": [
     4
@@ -47,7 +47,7 @@
   {
    "id": 6,
    "subject": "Task 6: Gender markers (grammar.ts)",
-   "status": "pending",
+   "status": "completed",
    "description": "**Goal:** Parse the closed content.morphology marker vocabulary into the typed grammar index; anything outside the vocabulary is omitted and reported, never guessed.\n\n**Files:**\n- admin/pipeline/body/grammar.ts\n- admin/pipeline/body/grammar.test.ts\n\n**Acceptance Criteria:**\n- [ ] VOCAB covers census value space explicitly\n- [ ] unknowns reported not guessed\n- [ ] 99% coverage test passes\n\n**Verify:** `bun test admin/pipeline/body/grammar.test.ts`\n\nFull steps: plan doc Task 6.\n\n```json:metadata\n{\"files\": [\"admin/pipeline/body/grammar.ts\", \"admin/pipeline/body/grammar.test.ts\"], \"verifyCommand\": \"bun test admin/pipeline/body/grammar.test.ts\", \"acceptanceCriteria\": [\"VOCAB covers census value space explicitly\", \"unknowns reported not guessed\", \"99% coverage test passes\"], \"modelTier\": \"standard\", \"planPath\": \"docs/superpowers/plans/2026-07-11-entry-body-model.md\"}\n```",
    "blockedBy": [
     4
@@ -56,7 +56,7 @@
   {
    "id": 7,
    "subject": "Task 7: Labels (labels.ts)",
-   "status": "pending",
+   "status": "completed",
    "description": "**Goal:** Normalize sense labels and regenerate the print form byte-exactly; anything non-regenerable quarantines.\n\n**Files:**\n- admin/pipeline/body/labels.ts\n- admin/pipeline/body/labels.test.ts\n\n**Acceptance Criteria:**\n- [ ] byte-exact print regeneration\n- [ ] null on garbage\n- [ ] fixture sweep with explicit quarantines\n\n**Verify:** `bun test admin/pipeline/body/labels.test.ts`\n\nFull steps: plan doc Task 7.\n\n```json:metadata\n{\"files\": [\"admin/pipeline/body/labels.ts\", \"admin/pipeline/body/labels.test.ts\"], \"verifyCommand\": \"bun test admin/pipeline/body/labels.test.ts\", \"acceptanceCriteria\": [\"byte-exact print regeneration\", \"null on garbage\", \"fixture sweep with explicit quarantines\"], \"modelTier\": \"standard\", \"planPath\": \"docs/superpowers/plans/2026-07-11-entry-body-model.md\"}\n```",
    "blockedBy": [
     4
@@ -65,7 +65,7 @@
   {
    "id": 8,
    "subject": "Task 8: Lettered-item split (lettered.ts)",
-   "status": "pending",
+   "status": "completed",
    "description": "**Goal:** Split provable a)/b)/c) runs into child senses; anything unprovable stays untouched in the parent gloss (under-split only).\n\n**Files:**\n- admin/pipeline/body/lettered.ts\n- admin/pipeline/body/lettered.test.ts\n\n**Acceptance Criteria:**\n- [ ] ascending-run guard\n- [ ] byte round-trip\n- [ ] fixture entries split or null, never mangled\n\n**Verify:** `bun test admin/pipeline/body/lettered.test.ts`\n\nFull steps: plan doc Task 8.\n\n```json:metadata\n{\"files\": [\"admin/pipeline/body/lettered.ts\", \"admin/pipeline/body/lettered.test.ts\"], \"verifyCommand\": \"bun test admin/pipeline/body/lettered.test.ts\", \"acceptanceCriteria\": [\"ascending-run guard\", \"byte round-trip\", \"fixture entries split or null, never mangled\"], \"modelTier\": \"standard\", \"planPath\": \"docs/superpowers/plans/2026-07-11-entry-body-model.md\"}\n```",
    "blockedBy": [
     4
@@ -74,7 +74,7 @@
   {
    "id": 9,
    "subject": "Task 9: Unit segmentation (units.ts)",
-   "status": "pending",
+   "status": "completed",
    "description": "**Goal:** The conservative terminator rule (B4): break before an external citation only after period/dash/sense-start; joining units reproduces the input byte-for-byte.\n\n**Files:**\n- admin/pipeline/body/units.ts\n- admin/pipeline/body/units.test.ts\n\n**Acceptance Criteria:**\n- [ ] byte round-trip on all fixtures\n- [ ] conservative boundaries only\n- [ ] A00014 unit count asserted\n\n**Verify:** `bun test admin/pipeline/body/units.test.ts`\n\nFull steps: plan doc Task 9.\n\n```json:metadata\n{\"files\": [\"admin/pipeline/body/units.ts\", \"admin/pipeline/body/units.test.ts\"], \"verifyCommand\": \"bun test admin/pipeline/body/units.test.ts\", \"acceptanceCriteria\": [\"byte round-trip on all fixtures\", \"conservative boundaries only\", \"A00014 unit count asserted\"], \"modelTier\": \"standard\", \"planPath\": \"docs/superpowers/plans/2026-07-11-entry-body-model.md\"}\n```",
    "blockedBy": [
     2,
@@ -85,7 +85,7 @@
   {
    "id": 10,
    "subject": "Task 10: Formal JSON Schema (B11)",
-   "status": "pending",
+   "status": "completed",
    "description": "**Goal:** The machine-readable generic spec of the truth entry format, with fixture-backed validation tests. DECIDE first: validator dep (ajv recommended) vs hand-rolled — CP-2a reserves new deps to the maintainer.\n\n**Files:**\n- admin/pipeline/schema/entry.schema.json\n- admin/pipeline/schema/entry.schema.test.ts\n\n**Acceptance Criteria:**\n- [ ] schema matches design doc section 2\n- [ ] closed schema rejects unknown fields\n- [ ] validator decision made by maintainer\n\n**Verify:** `bun test admin/pipeline/schema`\n\nFull steps: plan doc Task 10.\n\n```json:metadata\n{\"files\": [\"admin/pipeline/schema/entry.schema.json\", \"admin/pipeline/schema/entry.schema.test.ts\"], \"verifyCommand\": \"bun test admin/pipeline/schema\", \"acceptanceCriteria\": [\"schema matches design doc section 2\", \"closed schema rejects unknown fields\", \"validator decision made by maintainer\"], \"modelTier\": \"standard\", \"planPath\": \"docs/superpowers/plans/2026-07-11-entry-body-model.md\"}\n```",
    "blockedBy": [
     1
@@ -94,7 +94,7 @@
   {
    "id": 11,
    "subject": "Task 11: Full-corpus dry-run (dry-run.ts)",
-   "status": "pending",
+   "status": "in_progress",
    "description": "**Goal:** Compose every rule over all 32,512 entries, read-only, and emit the 6.0 gate evidence: round-trip counts, quarantine lists, schema-validated samples.\n\n**Files:**\n- admin/pipeline/body/dry-run.ts\n- admin/pipeline/body/dry-run.test.ts\n- package.json\n- docs/v2/body-dryrun.md\n\n**Acceptance Criteria:**\n- [ ] structural round-trips 32512/32512\n- [ ] quarantine lists emitted\n- [ ] schema sample validation\n- [ ] read-only over data/\n\n**Verify:** `bun body:dry-run`\n\nFull steps: plan doc Task 11.\n\n```json:metadata\n{\"files\": [\"admin/pipeline/body/dry-run.ts\", \"admin/pipeline/body/dry-run.test.ts\", \"package.json\", \"docs/v2/body-dryrun.md\"], \"verifyCommand\": \"bun body:dry-run\", \"acceptanceCriteria\": [\"structural round-trips 32512/32512\", \"quarantine lists emitted\", \"schema sample validation\", \"read-only over data/\"], \"modelTier\": \"standard\", \"planPath\": \"docs/superpowers/plans/2026-07-11-entry-body-model.md\"}\n```",
    "blockedBy": [
     5,
@@ -124,5 +124,5 @@
    ]
   }
  ],
- "lastUpdated": "2026-07-12T17:36:49Z"
+ "lastUpdated": "2026-07-12T18:21:52Z"
 }
