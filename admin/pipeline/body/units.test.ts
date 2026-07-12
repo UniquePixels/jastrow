@@ -102,14 +102,33 @@ describe('segmentUnits fixture sweep', () => {
 			const lines = text.split('\n').filter((line) => line.trim() !== '');
 			expect(lines.length).toBeGreaterThan(0);
 
+			const mismatches: Array<{
+				rid: string;
+				senseIndex: number;
+				expected: string;
+				got: string;
+			}> = [];
+
 			for (const line of lines) {
 				const entry = JSON.parse(line);
+				let senseIndex = 0;
 				for (const sense of walkSenses(entry.content.senses)) {
 					const definition = sense.definition ?? '';
 					const { gloss, units } = segmentUnits(definition);
-					expect(`${gloss}${units.join('')}`).toBe(definition);
+					const got = `${gloss}${units.join('')}`;
+					if (got !== definition) {
+						mismatches.push({
+							rid: entry.rid,
+							senseIndex,
+							expected: definition,
+							got,
+						});
+					}
+					senseIndex++;
 				}
 			}
+
+			expect(mismatches).toEqual([]);
 		});
 	}
 });

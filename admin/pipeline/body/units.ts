@@ -38,7 +38,7 @@ function segmentUnits(text: string): UnitSplit {
 	const units = boundaries.map((start, i) =>
 		text.slice(start, boundaries[i + 1] ?? text.length),
 	);
-	return { gloss: text.slice(0, boundaries[0] ?? 0), units };
+	return { gloss: text.slice(0, boundaries[0]), units };
 }
 
 export type { UnitSplit };
