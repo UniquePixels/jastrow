@@ -20,6 +20,8 @@ interface GlossHeadParts {
 	senseHead: string;
 }
 
+// print order is defined in rejoinGlossHead's parts array, not by this
+// interface's (alphabetized) field order
 interface RejoinOffsets {
 	languageCode: [number, number];
 	languageReference: [number, number];

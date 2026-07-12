@@ -101,10 +101,13 @@ describe('rejoinGlossHead fixture sweep', () => {
 		for (const e of entries) {
 			const { joined, offsets } = rejoinGlossHead(e);
 			const split = splitGlossHead(joined, offsets);
-			expect(split.morphology).toBe(e.content.morphology ?? '');
-			expect(split.languageCode).toBe(e.language_code ?? '');
-			expect(split.languageReference).toBe(e.language_reference ?? '');
-			expect(split.senseHead).toBe(e.content.senses[0]?.definition ?? '');
+			expect({ rid: e.rid, ...split }).toEqual({
+				rid: e.rid,
+				morphology: e.content.morphology ?? '',
+				languageCode: e.language_code ?? '',
+				languageReference: e.language_reference ?? '',
+				senseHead: e.content.senses[0]?.definition ?? '',
+			});
 			joinedByRid.set(e.rid, joined);
 		}
 
