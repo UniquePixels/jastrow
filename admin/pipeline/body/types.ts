@@ -10,11 +10,8 @@
  * `admin/pipeline/provenance/baseline-transform.ts` for the sibling model
  * of the deployed v1 shape these fields fed. */
 interface SourceGrammar {
-	// biome-ignore lint/style/useNamingConvention: upstream field name
 	binyan_form?: string[];
-	// biome-ignore lint/style/useNamingConvention: upstream field name
 	language_code?: string;
-	// biome-ignore lint/style/useNamingConvention: upstream field name
 	verbal_stem?: string;
 }
 
@@ -26,15 +23,11 @@ interface SourceSense {
 }
 
 interface SourceEntry {
-	// biome-ignore lint/style/useNamingConvention: upstream field name
 	alt_headwords?: string[];
 	content: { morphology?: string; senses: SourceSense[] };
 	headword: string;
-	// biome-ignore lint/style/useNamingConvention: upstream field name
 	language_code?: string;
-	// biome-ignore lint/style/useNamingConvention: upstream field name
 	language_reference?: string;
-	// biome-ignore lint/style/useNamingConvention: upstream field name
 	plural_form?: string[];
 	quotes?: [string | null, string, string | null][];
 	refs?: string[];
