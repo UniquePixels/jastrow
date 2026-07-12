@@ -11,14 +11,14 @@ feeding Stage 2 (migration).
 |---|---|---|
 | `types.ts` | Shared upstream (`Source*`) and target (`Body*`) type vocabulary | done |
 | `source.ts` | Streaming reader for `data/source/jastrow-dictionary.jsonl` | done |
-| `cite.ts` | Citation detector | planned |
-| `census.ts` | Corpus-wide census of sense shapes/markup, to size later rules | planned |
-| `rejoin.ts` | Rejoin split/lettered sense fragments | planned |
-| `grammar.ts` | Grammar-node extraction (gender, number, stem) | planned |
-| `labels.ts` | Sense label (`number`) parsing | planned |
-| `lettered.ts` | Lettered sub-sense handling | planned |
-| `units.ts` | Body unit builder (gloss + citation units) | planned |
-| `fixtures/` | Shared golden fixtures for the above | planned |
+| `cite.ts` | Citation detector | done |
+| `census.ts` | Corpus-wide census of sense shapes/markup, to size later rules | done |
+| `rejoin.ts` | Rejoin split/lettered sense fragments | done |
+| `grammar.ts` | Grammar-node extraction (gender, number, stem) | done |
+| `labels.ts` | Sense label (`number`) parsing | done |
+| `lettered.ts` | Lettered sub-sense handling | done |
+| `units.ts` | Body unit builder (gloss + citation units) | done |
+| `fixtures/` | Shared golden fixtures for the above | done |
 | `dry-run.ts` | Full-corpus dry run report before migration commits | planned |
 | `review.ts` | Human review harness over dry-run output | planned |
 

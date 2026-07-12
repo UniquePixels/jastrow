@@ -40,11 +40,16 @@ describe('parseLabel', () => {
 		});
 	});
 
-	it('returns null for unparseable input instead of guessing', () => {
-		expect(parseLabel('II.')).toBeNull();
-		expect(parseLabel('')).toBeNull();
-		expect(parseLabel('1')).toBeNull();
-		expect(parseLabel('a')).toBeNull();
+	it('returns {unknown} for unparseable input instead of guessing', () => {
+		expect(parseLabel('II.')).toEqual({ unknown: 'II.' });
+		expect(parseLabel('')).toEqual({ unknown: '' });
+		expect(parseLabel('1')).toEqual({ unknown: '1' });
+		expect(parseLabel('a')).toEqual({ unknown: 'a' });
+	});
+
+	it('rejects uppercase letter labels (corpus letter labels are lowercase-only)', () => {
+		expect(parseLabel('A)')).toEqual({ unknown: 'A)' });
+		expect(parseLabel('—B)')).toEqual({ unknown: '—B)' });
 	});
 
 	// Measured corpus damage classes (data/source/jastrow-dictionary.jsonl):
@@ -52,8 +57,8 @@ describe('parseLabel', () => {
 	// in for the em dash. Both quarantine rather than being coerced, since
 	// coercing would break byte-exact regeneration for these source strings.
 	it('quarantines the two measured off-grammar shapes', () => {
-		expect(parseLabel('[1)')).toBeNull();
-		expect(parseLabel('-2)')).toBeNull();
+		expect(parseLabel('[1)')).toEqual({ unknown: '[1)' });
+		expect(parseLabel('-2)')).toEqual({ unknown: '-2)' });
 	});
 });
 
@@ -61,17 +66,19 @@ describe('printLabel', () => {
 	it('round-trips the case table', () => {
 		for (const raw of ['1)', '—2)', '—3)', 'a)', '—b)', '*2)', '*6)', '—10)']) {
 			const parsed = parseLabel(raw);
-			expect(parsed).not.toBeNull();
-			// biome-ignore lint/style/noNonNullAssertion: asserted above
-			expect(printLabel(parsed!)).toBe(raw);
+			if ('unknown' in parsed) {
+				throw new Error(`expected ${raw} to parse, got {unknown}`);
+			}
+			expect(printLabel(parsed)).toBe(raw);
 		}
 	});
 });
 
 // Corpus-measured off-grammar shapes (see labels.ts module comment for the
 // full value-space measurement). Each entry here is a raw sense.number
-// value that parseLabel must quarantine (return null for) — the corpus
-// sweep below asserts every OTHER distinct observed value round-trips.
+// value that parseLabel must quarantine (return {unknown} for) — the
+// corpus sweep below asserts every OTHER distinct observed value
+// round-trips.
 const EXPECTED_QUARANTINE = new Set<string>([
 	// rid D00341, first sense: a bracket where a digit belongs (upstream
 	// OCR/transcription damage) — 1 occurrence corpus-wide.
@@ -101,7 +108,7 @@ function tallyLabels(entries: Iterable<SourceEntry>): Map<string, number> {
  * the explicit quarantine list — anything else is a reportable failure. */
 function checkLabel(raw: string): string | undefined {
 	const parsed = parseLabel(raw);
-	if (parsed === null) {
+	if ('unknown' in parsed) {
 		return EXPECTED_QUARANTINE.has(raw)
 			? undefined
 			: `${raw} (unquarantined parse failure)`;
@@ -136,7 +143,7 @@ describe('parseLabel/printLabel corpus sweep', () => {
 		// in the corpus and actually fail to parse — otherwise the
 		// quarantine list has drifted from reality.
 		const quarantineDrift = [...EXPECTED_QUARANTINE].filter(
-			(raw) => !seen.has(raw) || parseLabel(raw) !== null,
+			(raw) => !(seen.has(raw) && 'unknown' in parseLabel(raw)),
 		);
 		expect(quarantineDrift).toEqual([]);
 	});
