@@ -12,28 +12,38 @@ function parseSourceEntry(line: string): SourceEntry {
 	return JSON.parse(line) as SourceEntry;
 }
 
+/** Split a stream of byte chunks into lines. Decodes UTF-8 incrementally
+ * so a multi-byte character straddling a chunk boundary is never split,
+ * and yields a final unterminated line if the stream doesn't end in
+ * `\n`. Never buffers the whole stream — only the undecoded tail of the
+ * current line is held between chunks. */
+async function* linesOf(
+	chunks: AsyncIterable<Uint8Array>,
+): AsyncGenerator<string> {
+	const decoder = new TextDecoder();
+	let tail = '';
+	for await (const chunk of chunks) {
+		tail += decoder.decode(chunk, { stream: true });
+		const lines = tail.split('\n');
+		tail = lines.pop() ?? '';
+		yield* lines;
+	}
+	if (tail !== '') {
+		yield tail;
+	}
+}
+
 /** Stream every entry from the source JSONL, one line at a time. Never
  * buffers the whole file — chunks are decoded and split on `\n` as they
  * arrive. */
 async function* readSourceEntries(
 	path: string = SOURCE_PATH,
 ): AsyncGenerator<SourceEntry> {
-	const stream = Bun.file(path).stream();
-	const decoder = new TextDecoder();
-	let tail = '';
-	for await (const chunk of stream) {
-		tail += decoder.decode(chunk, { stream: true });
-		const lines = tail.split('\n');
-		tail = lines.pop() ?? '';
-		for (const line of lines) {
-			if (line.trim() !== '') {
-				yield parseSourceEntry(line);
-			}
+	for await (const line of linesOf(Bun.file(path).stream())) {
+		if (line.trim() !== '') {
+			yield parseSourceEntry(line);
 		}
-	}
-	if (tail.trim() !== '') {
-		yield parseSourceEntry(tail);
 	}
 }
 
-export { parseSourceEntry, readSourceEntries, SOURCE_PATH };
+export { linesOf, parseSourceEntry, readSourceEntries, SOURCE_PATH };
