@@ -58,12 +58,15 @@ function labelSequence(numbers: string[]): number[] {
 		.map(Number);
 }
 
+// The lookbehind excludes a preceding '(' or letter, but not a digit —
+// so a folio-style citation like "39a)…39b)" could in principle match.
+// Accepted at current corpus counts (189 ≈ the design estimate).
 const LETTERED = /(?<![(\p{L}])a\)\s[\s\S]*?(?<![(\p{L}])b\)\s/u;
 
-/** True when plain (tag-stripped) text contains a lettered a)…b) run —
- * a candidate for lettered sub-sense handling (Task 6). */
+/** True when raw text contains a lettered a)…b) run — a candidate for
+ * lettered sub-sense handling (Task 6). Strips tags internally. */
 function letteredRun(text: string): boolean {
-	return LETTERED.test(text);
+	return LETTERED.test(stripTags(text));
 }
 
 /** Depth-first walk over a sense tree, yielding every node including
@@ -245,7 +248,7 @@ function censusEntry(entry: SourceEntry, acc: Accumulator): void {
 			acc.definitions++;
 		}
 		const definition = sense.definition ?? '';
-		if (letteredRun(stripTags(definition))) {
+		if (letteredRun(definition)) {
 			hasLettered = true;
 		}
 		const hits = findCitations(definition);
@@ -342,4 +345,10 @@ if (import.meta.main) {
 }
 
 export type { Boundary };
-export { classifyBoundary, labelSequence, letteredRun, walkSenses };
+export {
+	classifyBoundary,
+	classifyMalformed,
+	labelSequence,
+	letteredRun,
+	walkSenses,
+};
