@@ -1,0 +1,127 @@
+{
+	"$schema": "https://json-schema.org/draft/2020-12/schema",
+	"$id": "https://jastrow.app/schema/entry.schema.json",
+	"title": "Jastrow v2 truth entry",
+	"description": "Machine-readable spec of the v2 entry body model (docs/specs/2026-07-11-entry-body-model-design.md §2, decision B11). This schema is the documented generic spec of the format; examples in the design doc illustrate it, they do not define it.",
+	"type": "object",
+	"additionalProperties": false,
+	"required": ["id", "slug", "headword", "senses"],
+	"properties": {
+		"id": {
+			"type": "string",
+			"pattern": "^[A-Z]\\d{5}$"
+		},
+		"slug": {
+			"type": "string",
+			"minLength": 1
+		},
+		"headword": { "$ref": "#/$defs/formObject" },
+		"altHeadwords": {
+			"type": "array",
+			"items": { "$ref": "#/$defs/formObject" }
+		},
+		"page": {
+			"type": "object",
+			"additionalProperties": false,
+			"required": ["number"],
+			"properties": {
+				"number": {
+					"type": "integer",
+					"minimum": 1
+				},
+				"column": {
+					"type": "string",
+					"enum": ["a", "b"]
+				}
+			}
+		},
+		"grammar": {
+			"type": "object",
+			"additionalProperties": false,
+			"minProperties": 1,
+			"properties": {
+				"gender": {
+					"type": "string",
+					"enum": ["m", "f", "c"]
+				},
+				"number": {
+					"type": "string",
+					"enum": ["pl", "du"]
+				},
+				"pos": { "type": "string" }
+			}
+		},
+		"senses": {
+			"type": "array",
+			"minItems": 1,
+			"items": { "$ref": "#/$defs/sense" }
+		},
+		"stems": {
+			"type": "array",
+			"items": {
+				"type": "object",
+				"additionalProperties": false,
+				"required": ["stem", "forms", "senses"],
+				"properties": {
+					"stem": {
+						"type": "string",
+						"minLength": 1
+					},
+					"forms": {
+						"type": "array",
+						"items": {
+							"type": "string",
+							"minLength": 1
+						}
+					},
+					"senses": {
+						"type": "array",
+						"items": { "$ref": "#/$defs/sense" }
+					}
+				}
+			}
+		}
+	},
+	"$defs": {
+		"formObject": {
+			"type": "object",
+			"additionalProperties": false,
+			"required": ["text"],
+			"properties": {
+				"text": {
+					"type": "string",
+					"minLength": 1
+				},
+				"homograph": {
+					"type": "integer",
+					"minimum": 1
+				},
+				"disambiguator": {
+					"type": "integer",
+					"minimum": 1
+				},
+				"reconstructed": { "type": "boolean" }
+			}
+		},
+		"sense": {
+			"type": "object",
+			"additionalProperties": false,
+			"required": ["gloss"],
+			"properties": {
+				"label": {
+					"type": "string",
+					"minLength": 1
+				},
+				"gloss": { "type": "string" },
+				"units": {
+					"type": "array",
+					"items": { "type": "string" }
+				},
+				"senses": {
+					"type": "array",
+					"items": { "$ref": "#/$defs/sense" }
+				}
+			}
+		}
+	}
+}
