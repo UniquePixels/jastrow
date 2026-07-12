@@ -5,8 +5,9 @@
 - **Parent:** [2026-07-08-v2-data-architecture-design.md](2026-07-08-v2-data-architecture-design.md)
   §6.0 (migration prerequisite: "entry body model, the big one").
   Resolves the provisional rows of parent §2.2 (`origin`, `senses`,
-  `quotes`) and amends parent §7 (cleanup register). Decision IDs here
-  are B1–B9; the parent's D-numbers are unchanged.
+  `quotes`) and amends parent §2.3 (vocabulary) and §7 (cleanup
+  register). Decision IDs here are B1–B11; the parent's D-numbers are
+  unchanged.
 
 ## 1. Context
 
@@ -38,8 +39,22 @@ comes from index fields that annotate the text without altering it.
 
 Complete entry shape (every field shown; optional fields are omitted
 from files when empty). Inline markup uses the parent spec's closed
-vocabulary (§2.3); this design introduces no new tags — units are
-arrays, not tag soup.
+vocabulary (§2.3) with one amendment — **B10: `<ref>` and `<cite>`
+merge into a single `<cite ref="…">` tag** whose value is either a
+rid (`A00013`) or a canonical Sefaria ref (`Shabbat 104a`). The rid
+pattern (letter + five digits) cannot collide with a canonical ref,
+so validation dispatches unambiguously: rid values must resolve to an
+existing entry; everything else must parse as a canonical ref. The
+optional `k=` kind attribute carries over. Units are arrays, not tag
+soup — no other vocabulary change.
+
+**Routing requirement (maintainer, 2026-07-11):** every inline
+citation must support dual destinations at render — the primary link
+goes to the app's internal view (entry, or internal search for
+external refs, as the pill-box list does in v1), with a small
+arrow/launch icon linking out to Sefaria. Both URLs derive from the
+stored value (rid or canonical ref) at compile per D7 — no URLs are
+stored, and no extra data is needed beyond the tag value.
 
 ```json
 {
@@ -51,7 +66,7 @@ arrays, not tag soup.
 	"grammar": { "gender": "m" },
 	"senses": [
 		{
-			"gloss": "m. (b. h.; <he>אבה</he>, cmp. <ref rid=\"A01975\">אֵם</ref>), const. <ref rid=\"A00013\">אֲבִי</ref>, <ref rid=\"A00012\">אַב</ref> [embracer], <i>father, ancestor…</i>.",
+			"gloss": "m. (b. h.; <he>אבה</he>, cmp. <cite ref=\"A01975\">אֵם</cite>), const. <cite ref=\"A00013\">אֲבִי</cite>, <cite ref=\"A00012\">אַב</cite> [embracer], <i>father, ancestor…</i>.",
 			"units": [
 				"<cite ref=\"Shemot Rabbah 46:5\">Ex. R. s. 46</cite> end <he>המגדל אב</he> the educator is the real father.",
 				"<cite ref=\"Vayikra Rabbah 1:15\">Lev. R. s. 1</cite> <he>אבי החכמה וכ׳</he>, the father of all wisdom…"
@@ -113,7 +128,7 @@ source entry.
 | Sense labels | Normalize numerals/letters; regenerate print form (`1)` first, `—N)` after, `*` prefix preserved) | High | 72 broken-sequence entries (§7) quarantined to eyes-on; raw label kept where regeneration fails |
 | Lettered items (B5) | Split `a)…b)…c)` runs into child senses — runs **before** unit segmentation | Medium — ~190 entries, fixtured | Unsplit text stays in parent gloss |
 | Unit boundaries | Break before an external citation iff preceding text ends `.` or `—` (or sense start); `;`/`,` continue a citation list; mid-phrase citations never break | Medium — measured: 64.4% `.`, 13.9% `;`, 6.6% `—`, ~10% embedded | Failure mode is under-split only (two units render as one); per-entry fix later |
-| Markup, links, cites | Parent spec rules 2–3 (closed vocabulary, `<ref rid>`/`<cite ref>`) | Per parent | Per parent |
+| Markup, links, cites | Parent spec rules 2–3 (closed vocabulary), emitting the unified `<cite ref>` (B10) | Per parent | Per parent |
 
 ## 4. Unit segmentation (B4)
 
@@ -137,7 +152,7 @@ inline citation, 12.1% are same-book expansions of one, 29 items
 (0.03%) have no inline basis. The field is a stale, incomplete
 derivation of the body — 31% of inline citations are missing from it.
 Truth therefore stores no reference list. `compile` derives the
-complete per-entry index from `<cite>`/`<ref>` tags, categorized by
+complete per-entry index from the `<cite>` tags, categorized by
 corpus (Talmud/Midrash/Bible/…, regenerating what v1 shipped as the
 derived `rf` rollup) for the color-coded reference box and search.
 
@@ -145,7 +160,7 @@ The 29 orphans, audited 2026-07-11:
 
 - 21 are internal cross-references to gershayim-abbreviation
   headwords (א"ט, אלפ"א …) whose target text sits unlinked in the
-  body — fixed by wrapping the text in `<ref rid>` (hand pass, listed
+  body — fixed by wrapping the text in `<cite ref>` (hand pass, listed
   in the migration report).
 - 5 are resolved-but-unlinked **ibid** citations (`Ib. 88ᵇ`) — fixed
   the same way, with the resolution taken from the old refs value.
@@ -199,8 +214,16 @@ Until blessing, no full-corpus pass writes anything.
 
 - §2.2 provisional rows (`origin`, `senses`, `quotes`) are resolved
   by this document; `refs` row is superseded by §5 here.
-- §2.3 vocabulary: no new tags required (units are arrays; phrase
-  tag not adopted).
+- §2.3 vocabulary: `<ref rid>` and `<cite ref>` merge into one
+  `<cite ref>` tag (B10); no new tags (units are arrays; phrase tag
+  not adopted). D8 unchanged — sense-level addressing attributes
+  remain additive future options.
+- **B11 — formal schema deliverable:** the entry format ships as a
+  machine-readable schema definition (JSON Schema), enforced by the
+  pipeline `validate` stage (parent 2.4) and serving as the
+  documented generic spec of the format — examples in this document
+  illustrate it, they do not define it. Written alongside
+  `migrate.ts`, kept current thereafter.
 - Cleanup register: #1 becomes "derived-index completeness lint";
   #12 closes (quotes dropped); add "ibid linking pass" and "POS
   enrichment (seed from v1 `g.ps`)"; forms index noted as future
@@ -213,3 +236,4 @@ Until blessing, no full-corpus pass writes anything.
 | Date | Change |
 |------|--------|
 | 2026-07-11 | Initial draft from design session (maintainer + Claude): ideal-form-first method; prose collapse + grammar index; units as arrays with conservative segmentation; lettered-item parse; refs and quotes dropped from truth; census/fixture/gate plan |
+| 2026-07-11 | Review round 1 (maintainer): B10 — `<ref>`/`<cite>` merged into one `<cite ref>` tag, router/validator dispatch on the unambiguous rid pattern; dual-destination routing requirement recorded (internal primary + Sefaria arrow icon); B11 — formal JSON Schema is the documented generic spec, examples illustrate only. Visual-collab .docx samples removed |
