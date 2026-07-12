@@ -46,13 +46,34 @@ const fullEntry: Entry = {
 	],
 };
 
+const deepRecursionEntry: Entry = {
+	...minimalEntry,
+	senses: [
+		{
+			gloss: 'top',
+			senses: [
+				{
+					gloss: 'mid',
+					senses: [{ gloss: 'bottom' }],
+				},
+			],
+		},
+	],
+};
+
 describe('entry.schema.json valid entries', () => {
 	it('accepts a minimal valid entry', () => {
-		expect(validate(minimalEntry)).toBe(true);
+		expect(validate(minimalEntry), JSON.stringify(validate.errors)).toBe(true);
 	});
 
 	it('accepts a full-featured entry', () => {
-		expect(validate(fullEntry)).toBe(true);
+		expect(validate(fullEntry), JSON.stringify(validate.errors)).toBe(true);
+	});
+
+	it('accepts a sense nested two levels deep', () => {
+		expect(validate(deepRecursionEntry), JSON.stringify(validate.errors)).toBe(
+			true,
+		);
 	});
 });
 
@@ -89,6 +110,46 @@ const invalidCases: { name: string; entry: unknown; errorPath: string }[] = [
 			stems: [{ stem: 'Nif.', senses: [{ gloss: 'passive sense' }] }],
 		},
 		errorPath: '/stems/0',
+	},
+	{
+		name: 'a sense with an unknown extra property',
+		entry: { ...minimalEntry, senses: [{ gloss: 'g', bogus: 1 }] },
+		errorPath: '/senses/0',
+	},
+	{
+		name: 'a lowercase id letter',
+		entry: { ...minimalEntry, id: 'a00014' },
+		errorPath: '/id',
+	},
+	{
+		name: 'an id with an extra digit',
+		entry: { ...minimalEntry, id: 'A000144' },
+		errorPath: '/id',
+	},
+	{
+		name: 'an invalid page column',
+		entry: { ...minimalEntry, page: { number: 2, column: 'z' } },
+		errorPath: '/page/column',
+	},
+	{
+		name: 'an empty grammar object',
+		entry: { ...minimalEntry, grammar: {} },
+		errorPath: '/grammar',
+	},
+	{
+		name: 'a headword with homograph below minimum',
+		entry: { ...minimalEntry, headword: { text: 'x', homograph: 0 } },
+		errorPath: '/headword/homograph',
+	},
+	{
+		name: 'a stems forms item that is an empty string',
+		entry: {
+			...minimalEntry,
+			stems: [
+				{ stem: 'Nif.', forms: [''], senses: [{ gloss: 'passive sense' }] },
+			],
+		},
+		errorPath: '/stems/0/forms/0',
 	},
 ];
 
