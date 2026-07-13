@@ -14,7 +14,7 @@ deterministic, so re-running regenerates these files byte-for-byte.
 
 | Doc | Decision set | Items | Status |
 | --- | --- | --- | --- |
-| [01-broken-sequences.md](01-broken-sequences.md) | Broken sense-number sequences | 72 entries | awaiting review |
+| [01-broken-sequences.md](01-broken-sequences.md) | Broken sense-number sequences | 72 entries (35 crossref-chop / 1 citation-chop / 35 numbering-gap / 1 unclassified) | awaiting review |
 | [02-orphan-refs.md](02-orphan-refs.md) | Orphan `refs` items (§5 dispositions pre-annotated) | 29 items (27 entries) | awaiting review |
 | [03-quotes-stragglers.md](03-quotes-stragglers.md) | `quotes` phrases that do not locate in their body | 8 entries | awaiting review |
 | [04-label-quarantines.md](04-label-quarantines.md) | Unparseable sense labels | 6 occurrences | awaiting review |

@@ -11,7 +11,7 @@
  * docs are committed (unlike the gitignored machine reports they read):
  * they are the standing review record. Run: bun body:review
  */
-import { letteredRun, walkSenses } from './census.ts';
+import { letteredRun, type SequenceBreakClass, walkSenses } from './census.ts';
 import { buildTrace } from './dry-run.ts';
 import { readSourceEntries } from './source.ts';
 import type {
@@ -28,8 +28,15 @@ const FIXTURES_DIR = 'admin/pipeline/body/fixtures';
 const SAMPLE_STRIDE = 650;
 const BINYAN_EXAMPLE_ENTRIES = 10;
 
+interface BrokenSequenceRow {
+	class: SequenceBreakClass;
+	rid: string;
+	seq: number[];
+	tail: string;
+}
+
 interface CensusReportSlice {
-	brokenSequences: { rid: string; seq: number[] }[];
+	brokenSequences: BrokenSequenceRow[];
 }
 
 interface QuarantineEntry {
@@ -149,23 +156,103 @@ function labelsInContext(e: SourceEntry): string {
 	return parts.join('<br>');
 }
 
+const BROKEN_SEQUENCE_HEADER = [
+	'Rid',
+	'Headword',
+	'Observed sequence',
+	'Labels in context',
+	'Decision',
+];
+
+const CLASS_ORDER: SequenceBreakClass[] = [
+	'crossref-chop',
+	'citation-chop',
+	'numbering-gap',
+	'unclassified',
+];
+
+const CLASS_TITLE: Record<SequenceBreakClass, string> = {
+	'citation-chop': 'Citation-chop — phantom sense from a chopped citation',
+	'crossref-chop':
+		'Crossref-chop — phantom sense from a chopped cross-reference',
+	'numbering-gap': 'Numbering-gap — genuinely missing/odd numbering',
+	unclassified: 'Unclassified',
+};
+
+const CLASS_EXPLANATION: Record<SequenceBreakClass, string[]> = {
+	'citation-chop': [
+		"Sefaria's importer chopped a citation — e.g. `(play on X, Gen.",
+		'XLI, 2)` — at its own `N)`, splitting one printed flow into a',
+		'fake sense boundary. Proposed disposition: heal at migration by',
+		'rejoining into the preceding text.',
+	],
+	'crossref-chop': [
+		"Sefaria's importer chopped a parenthesized cross-reference —",
+		'e.g. `(v. אוֹר 2)` — at its own `N)`, splitting one printed flow',
+		'into a fake sense boundary. Proposed disposition: heal at',
+		'migration by rejoining into the preceding text.',
+	],
+	'numbering-gap': ['Genuinely missing/odd numbering — eyes-on.'],
+	unclassified: [
+		"Doesn't fit the measured phantom-sense or numbering-gap",
+		'patterns — eyes-on.',
+	],
+};
+
+function brokenSequenceRow(e: SourceEntry, seq: number[]): string[] {
+	return [e.rid, cell(e.headword), seq.join(', '), labelsInContext(e), ''];
+}
+
+function classSection(
+	cls: SequenceBreakClass,
+	rows: { entry: SourceEntry; seq: number[] }[],
+): string[] {
+	if (rows.length === 0) {
+		return [];
+	}
+	return [
+		`## ${CLASS_TITLE[cls]} (${rows.length} ${rows.length === 1 ? 'entry' : 'entries'})`,
+		'',
+		...CLASS_EXPLANATION[cls],
+		'',
+		mdTable(
+			BROKEN_SEQUENCE_HEADER,
+			rows.map(({ entry, seq }) => brokenSequenceRow(entry, seq)),
+		),
+		'',
+	];
+}
+
 function buildBrokenSequencesDoc(
 	entries: SourceEntry[],
-	seqByRid: Map<string, number[]>,
+	breaksByRid: Map<string, BrokenSequenceRow>,
 ): string {
-	const rows = entries.map((e) => [
-		e.rid,
-		cell(e.headword),
-		seqByRid.get(e.rid)?.join(', ') ?? '?',
-		labelsInContext(e),
-		'',
-	]);
+	const byClass = new Map<
+		SequenceBreakClass,
+		{ entry: SourceEntry; seq: number[] }[]
+	>(CLASS_ORDER.map((cls) => [cls, []]));
+	for (const entry of entries) {
+		const row = breaksByRid.get(entry.rid);
+		const cls = row?.class ?? 'unclassified';
+		byClass.get(cls)?.push({ entry, seq: row?.seq ?? [] });
+	}
+
+	const sections = CLASS_ORDER.flatMap((cls) =>
+		classSection(cls, byClass.get(cls) ?? []),
+	);
+	// Drop the blank line the last populated section trails.
+	if (sections.at(-1) === '') {
+		sections.pop();
+	}
+
 	return doc([
 		`# 01 — Broken sense-number sequences (${entries.length} entries)`,
 		'',
 		'**Set:** every entry whose top-level sense-number sequence is not',
 		'`1, 2, …, n` (census report `.brokenSequences`; design doc §7 —',
-		'"upstream damage (spurious/missing `N)`) — eyes-on").',
+		'"upstream damage (spurious/missing `N)`) — eyes-on"), classified by',
+		'what the break looks like (correction pass, verified finding: the 72',
+		"aren't one class — see the class sections below).",
 		'',
 		'**How to read a row:** *Observed sequence* is the leading integer of',
 		'each top-level `sense.number` token in encounter order. *Labels in',
@@ -176,10 +263,7 @@ function buildBrokenSequencesDoc(
 		'**Decision to record per row:** what migration should do with the',
 		"entry's numbering (accept as printed / hand-fix / other).",
 		'',
-		mdTable(
-			['Rid', 'Headword', 'Observed sequence', 'Labels in context', 'Decision'],
-			rows,
-		),
+		...sections,
 	]);
 }
 
@@ -653,6 +737,7 @@ interface PackageCounts {
 	binyanEntries: number;
 	binyanOccurrences: number;
 	broken: number;
+	brokenByClass: Record<SequenceBreakClass, number>;
 	grammarQuarantined: number;
 	italic: number;
 	labels: number;
@@ -662,12 +747,18 @@ interface PackageCounts {
 	samples: number;
 }
 
+function brokenClassBreakdown(
+	counts: Record<SequenceBreakClass, number>,
+): string {
+	return CLASS_ORDER.map((cls) => `${counts[cls]} ${cls}`).join(' / ');
+}
+
 function buildIndexDoc(counts: PackageCounts): string {
 	const rows = [
 		[
 			'[01-broken-sequences.md](01-broken-sequences.md)',
 			'Broken sense-number sequences',
-			`${counts.broken} entries`,
+			`${counts.broken} entries (${brokenClassBreakdown(counts.brokenByClass)})`,
 			'awaiting review',
 		],
 		[
@@ -790,6 +881,7 @@ function scanEntry(
 
 interface ReviewInputs {
 	binyan: BinyanScan;
+	breaksByRid: Map<string, BrokenSequenceRow>;
 	brokenEntries: SourceEntry[];
 	grammarQuarantined: number;
 	italic: ItalicRow[];
@@ -798,7 +890,22 @@ interface ReviewInputs {
 	quarantined: QuarantineEntry[];
 	quotesEntries: SourceEntry[];
 	samples: SampleRow[];
-	seqByRid: Map<string, number[]>;
+}
+
+function brokenByClass(
+	inputs: ReviewInputs,
+): Record<SequenceBreakClass, number> {
+	const counts: Record<SequenceBreakClass, number> = {
+		'citation-chop': 0,
+		'crossref-chop': 0,
+		'numbering-gap': 0,
+		unclassified: 0,
+	};
+	for (const e of inputs.brokenEntries) {
+		const cls = inputs.breaksByRid.get(e.rid)?.class ?? 'unclassified';
+		counts[cls]++;
+	}
+	return counts;
 }
 
 function buildCounts(
@@ -809,6 +916,7 @@ function buildCounts(
 		binyanEntries: inputs.binyan.entries,
 		binyanOccurrences: inputs.binyan.occurrences,
 		broken: inputs.brokenEntries.length,
+		brokenByClass: brokenByClass(inputs),
 		grammarQuarantined: inputs.grammarQuarantined,
 		italic: inputs.italic.length,
 		labels: inputs.quarantined.length,
@@ -827,7 +935,7 @@ function buildDocs(inputs: ReviewInputs): Record<string, string> {
 		'00-INDEX.md': buildIndexDoc(counts),
 		'01-broken-sequences.md': buildBrokenSequencesDoc(
 			inputs.brokenEntries,
-			inputs.seqByRid,
+			inputs.breaksByRid,
 		),
 		'02-orphan-refs.md': buildOrphanRefsDoc(orphans),
 		'03-quotes-stragglers.md': buildQuotesDoc(inputs.quotesEntries),
@@ -881,6 +989,7 @@ if (import.meta.main) {
 
 	const inputs: ReviewInputs = {
 		binyan: scan.binyan,
+		breaksByRid: new Map(census.brokenSequences.map((b) => [b.rid, b])),
 		brokenEntries,
 		grammarQuarantined: dryrun.grammar.quarantined.length,
 		italic: scan.italic,
@@ -889,7 +998,6 @@ if (import.meta.main) {
 		quarantined: dryrun.labels.quarantined,
 		quotesEntries,
 		samples: scan.samples,
-		seqByRid: new Map(census.brokenSequences.map((b) => [b.rid, b.seq])),
 	};
 	const docs = buildDocs(inputs);
 	await Promise.all(

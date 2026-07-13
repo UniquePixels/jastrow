@@ -68,10 +68,29 @@ is 72, matching the design doc's independent estimate exactly. Examples
 - `A01989`: `[1, 3, 4]`
 - `A03089`, `A03104`, `A03277`: `[2]`
 
-The dominant shape is "opens on 2" (a dropped first sense-number, likely
-lost to upstream markup damage rather than a real content gap) with a
-smaller "skips a number" class. Both quarantine cleanly to eyes-on review
-per the design doc's plan (§ sense labels).
+**Correction (maintainer review pass):** the 72 are not one class. Most
+of the "opens on 2" shape isn't a dropped first sense-number at all —
+it's a phantom sense: Sefaria's importer chopped a parenthesized
+cross-reference or citation (`(v. אוֹר 2)`, `(play on X, Gen. XLI, 2)`)
+at its own `N)`, splitting one printed flow into a fake sense boundary.
+`classifySequenceBreak` (`admin/pipeline/body/census.ts`) detects this
+by checking whether the tag-stripped text immediately before the bare
+(dash-less) non-1 number has an unclosed `(` — the fingerprint of the
+chop — and reports one of four classes per broken entry (measured, not
+assumed uniform):
+
+| Class | Count | What it means |
+|---|---|---|
+| `crossref-chop` | 35 | phantom sense from a chopped cross-reference (28 detected from the preceding sense text, 7 only after prepending the entry's morphology/language-code/language-reference fields, where the chopped paren opens instead) |
+| `numbering-gap` | 35 | a genuine missing/odd number (plain index gaps like `[1, 3, 4]`, plus 3 cases where a bare non-1 label turned out to be a legitimate dash-less sense — not damage — leaving the entry's real gap elsewhere) |
+| `citation-chop` | 1 | phantom sense from a chopped citation mid-sequence (`C00244`, `(play on Abigdor I Chr. IV, 4)`) |
+| `unclassified` | 1 | doesn't fit either pattern (`C01169`: an asterisk-prefixed `*2)` opening the entry with balanced preceding parens — no phantom evidence, but not a plain index gap either) |
+
+`crossref-chop` and `citation-chop` both quarantine to the same
+disposition — heal at migration by rejoining the phantom sense into the
+preceding text. `numbering-gap` and `unclassified` are genuine eyes-on
+review, no proposed automatic fix. Full breakdown and per-row evidence:
+`docs/v2/body-review/01-broken-sequences.md`.
 
 ## Finding 3 — same pitfall almost hit `totals.definitions`
 

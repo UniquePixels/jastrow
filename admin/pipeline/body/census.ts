@@ -7,6 +7,7 @@
  * architecture spec D2, not committed). Run: bun body:census
  */
 import { type CitationHit, findCitations } from './cite.ts';
+import { parseLabel } from './labels.ts';
 import { readSourceEntries } from './source.ts';
 import type { SourceEntry, SourceSense } from './types.ts';
 
@@ -56,6 +57,122 @@ function labelSequence(numbers: string[]): number[] {
 		.map((n) => SENSE_NUMBER.exec(n)?.[1])
 		.filter((n): n is string => n !== undefined)
 		.map(Number);
+}
+
+type SequenceBreakClass =
+	| 'crossref-chop'
+	| 'citation-chop'
+	| 'numbering-gap'
+	| 'unclassified';
+
+interface SequenceBreak {
+	class: SequenceBreakClass;
+	tail: string;
+}
+
+/** The entry-level fields a phantom-sense check reads when the bare
+ * number's preceding sense is `senses[0]` (or the bare number's sense
+ * *is* `senses[0]`, with nothing before it at all) — the gloss head a
+ * chopped cross-reference paren often opens in. */
+interface OriginFields {
+	languageCode?: string;
+	languageReference?: string;
+	morphology?: string;
+}
+
+const PAREN_OPEN = /\(/gu;
+const PAREN_CLOSE = /\)/gu;
+
+/** True when text has more '(' than ')' — an unclosed paren, the
+ * fingerprint of a cross-reference or citation chopped at its own
+ * `N)` (design finding: Sefaria's importer split `(v. X 2)` into a
+ * fake sense boundary at the `2)`). */
+function hasUnclosedParen(text: string): boolean {
+	const opens = text.match(PAREN_OPEN)?.length ?? 0;
+	const closes = text.match(PAREN_CLOSE)?.length ?? 0;
+	return opens > closes;
+}
+
+function tailOf(text: string, max: number): string {
+	return text.length <= max ? text : text.slice(-max);
+}
+
+function originHead(origin: OriginFields): string {
+	return [origin.morphology, origin.languageCode, origin.languageReference]
+		.filter((s): s is string => s !== undefined)
+		.map(stripTags)
+		.join(' ');
+}
+
+/** The tag-stripped text immediately preceding the sense at `idx` in
+ * `senses` — the previous sense's definition, prepended with the
+ * entry's origin fields (morphology/language code/language reference)
+ * whenever that previous sense is `senses[0]`, or *is* those origin
+ * fields alone when `idx` is 0 and there is no previous sense at all. */
+function precedingText(
+	senses: SourceSense[],
+	idx: number,
+	origin: OriginFields,
+): string {
+	const prevIdx = idx - 1;
+	if (prevIdx < 0) {
+		return originHead(origin);
+	}
+	const prevDefinition = stripTags(senses[prevIdx]?.definition ?? '');
+	if (prevIdx === 0) {
+		return `${originHead(origin)} ${prevDefinition}`;
+	}
+	return prevDefinition;
+}
+
+/** Classify a broken top-level sense-number sequence (design finding:
+ * the 72 broken sequences aren't one class). A bare (dash-less)
+ * non-1 number is either a phantom sense — Sefaria's importer chopped
+ * a parenthesized cross-reference or citation at its own `N)`, leaving
+ * an unclosed paren in the text right before it — or a legitimate
+ * label some senses simply carry without the usual em-dash. Only the
+ * first offending bare non-1 number (encounter order) is examined;
+ * the corpus has none with a second. */
+function classifySequenceBreak(
+	senses: SourceSense[],
+	origin: OriginFields,
+): SequenceBreak {
+	const numbered = senses
+		.map((sense, idx) => ({ idx, sense }))
+		.filter((entry): entry is { idx: number; sense: SourceSense } =>
+			Boolean(entry.sense.number),
+		);
+
+	for (const [position, { idx, sense }] of numbered.entries()) {
+		const parsed = parseLabel(sense.number ?? '');
+		if ('unknown' in parsed || parsed.dash) {
+			continue;
+		}
+		const value = Number(parsed.label);
+		if (!Number.isFinite(value) || value === 1) {
+			continue;
+		}
+
+		const preceding = precedingText(senses, idx, origin);
+		const tail = tailOf(preceding, 50);
+		if (hasUnclosedParen(preceding)) {
+			return {
+				class: position === 0 ? 'crossref-chop' : 'citation-chop',
+				tail,
+			};
+		}
+		// Balanced parens: this bare label is a legitimate sense without
+		// a dash, not phantom damage. Mid-sequence, the entry's break is
+		// still a genuine gap elsewhere — numbering-gap. At the first
+		// numbered position (no earlier sense to explain the gap from),
+		// it doesn't fit any measured pattern — unclassified.
+		return position > 0
+			? { class: 'numbering-gap', tail: '' }
+			: { class: 'unclassified', tail };
+	}
+
+	// No bare non-1 number at all: a plain index gap (e.g. [1, 3, 4]).
+	return { class: 'numbering-gap', tail: '' };
 }
 
 // The lookbehind excludes a preceding '(' or letter, but not a digit —
@@ -116,9 +233,16 @@ interface IbidTally {
 	unlinked: number;
 }
 
+interface BrokenSequenceRow {
+	class: SequenceBreakClass;
+	rid: string;
+	seq: number[];
+	tail: string;
+}
+
 interface Accumulator {
 	boundaries: Map<Boundary, number>;
-	brokenSequences: { rid: string; seq: number[] }[];
+	brokenSequences: BrokenSequenceRow[];
 	citations: CitationTally;
 	definitions: number;
 	entries: number;
@@ -225,13 +349,18 @@ function tallyIbid(
 
 function tallySequence(
 	rid: string,
-	numbers: string[],
-	brokenSequences: { rid: string; seq: number[] }[],
+	senses: SourceSense[],
+	origin: OriginFields,
+	brokenSequences: BrokenSequenceRow[],
 ): void {
+	const numbers = senses
+		.map((sense) => sense.number)
+		.filter((n): n is string => n !== undefined);
 	const seq = labelSequence(numbers);
 	const isClean = seq.every((n, i) => n === i + 1);
 	if (seq.length > 0 && !isClean) {
-		brokenSequences.push({ rid, seq });
+		const { class: seqClass, tail } = classifySequenceBreak(senses, origin);
+		brokenSequences.push({ class: seqClass, rid, seq, tail });
 	}
 }
 
@@ -264,10 +393,22 @@ function censusEntry(entry: SourceEntry, acc: Accumulator): void {
 	// sub-senses (e.g. under a grammar node) commonly restart their own
 	// numbering, so folding them into one flat sequence manufactures
 	// false breaks that don't exist in the source.
-	const numbers = entry.content.senses
-		.map((sense) => sense.number)
-		.filter((n): n is string => n !== undefined);
-	tallySequence(entry.rid, numbers, acc.brokenSequences);
+	tallySequence(
+		entry.rid,
+		entry.content.senses,
+		{
+			...(entry.language_code !== undefined && {
+				languageCode: entry.language_code,
+			}),
+			...(entry.language_reference !== undefined && {
+				languageReference: entry.language_reference,
+			}),
+			...(entry.content.morphology !== undefined && {
+				morphology: entry.content.morphology,
+			}),
+		},
+		acc.brokenSequences,
+	);
 
 	const opener = classifyOpener(entry.content.senses[0]?.definition ?? '');
 	acc.preambleOpeners.set(opener, (acc.preambleOpeners.get(opener) ?? 0) + 1);
@@ -275,7 +416,7 @@ function censusEntry(entry: SourceEntry, acc: Accumulator): void {
 
 interface CensusReport {
 	boundaries: Record<Boundary, number>;
-	brokenSequences: { rid: string; seq: number[] }[];
+	brokenSequences: BrokenSequenceRow[];
 	citations: CitationTally;
 	ibid: IbidTally;
 	lettered: string[];
@@ -344,10 +485,11 @@ if (import.meta.main) {
 	console.log(`report written to ${REPORT_PATH}`);
 }
 
-export type { Boundary };
+export type { Boundary, BrokenSequenceRow, OriginFields, SequenceBreakClass };
 export {
 	classifyBoundary,
 	classifyMalformed,
+	classifySequenceBreak,
 	labelSequence,
 	letteredRun,
 	walkSenses,

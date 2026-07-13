@@ -2,6 +2,7 @@ import { describe, expect, it } from 'bun:test';
 import {
 	classifyBoundary,
 	classifyMalformed,
+	classifySequenceBreak,
 	labelSequence,
 	letteredRun,
 	walkSenses,
@@ -58,6 +59,76 @@ describe('walkSenses', () => {
 		];
 		const order = [...walkSenses(senses)].map((s) => s.definition);
 		expect(order).toEqual(['a', 'a1', 'a1a', 'a2', 'b']);
+	});
+});
+
+describe('classifySequenceBreak', () => {
+	it('classifies a first-position phantom as crossref-chop (sense-text paren)', () => {
+		const senses: SourceSense[] = [
+			{ definition: ' (v. <i>אוֹר</i>' },
+			{ definition: '<i>evening, night</i>.', number: '2)' },
+		];
+		expect(classifySequenceBreak(senses, {})).toEqual({
+			class: 'crossref-chop',
+			tail: '  (v. אוֹר',
+		});
+	});
+
+	it('classifies a first-position phantom as crossref-chop when the unclosed paren only shows up after prepending origin fields', () => {
+		// The bare `2)` sense is senses[0] itself — nothing precedes it in
+		// the sense list, only the entry's morphology/language fields.
+		const senses: SourceSense[] = [{ definition: 'foo', number: '2)' }];
+		expect(classifySequenceBreak(senses, { languageCode: '(b. h.' })).toEqual({
+			class: 'crossref-chop',
+			tail: '(b. h.',
+		});
+	});
+
+	it('classifies a mid-sequence phantom as citation-chop', () => {
+		const senses: SourceSense[] = [
+			{ definition: 'First sense text.', number: '1)' },
+			{
+				definition: 'Second (play on X, Gen. XLI,',
+				number: '—2)',
+			},
+			{ definition: 'Fourth sense.', number: '4)' },
+		];
+		expect(classifySequenceBreak(senses, {})).toEqual({
+			class: 'citation-chop',
+			tail: 'Second (play on X, Gen. XLI,',
+		});
+	});
+
+	it('classifies a plain index gap with no bare non-1 number as numbering-gap', () => {
+		const senses: SourceSense[] = [
+			{ definition: 'First.', number: '1)' },
+			{ definition: 'Third.', number: '—3)' },
+		];
+		expect(classifySequenceBreak(senses, {})).toEqual({
+			class: 'numbering-gap',
+			tail: '',
+		});
+	});
+
+	it('folds a legit dash-less mid-sequence label (balanced parens) into numbering-gap', () => {
+		const senses: SourceSense[] = [
+			{ definition: 'First sense text.', number: '1)' },
+			{ definition: 'Third, balanced (foo) done.', number: '3)' },
+		];
+		expect(classifySequenceBreak(senses, {})).toEqual({
+			class: 'numbering-gap',
+			tail: '',
+		});
+	});
+
+	it('leaves a first-position dash-less label with balanced (empty) preceding text unclassified', () => {
+		const senses: SourceSense[] = [
+			{ definition: 'No gap here.', number: '2)' },
+		];
+		expect(classifySequenceBreak(senses, {})).toEqual({
+			class: 'unclassified',
+			tail: '',
+		});
 	});
 });
 
