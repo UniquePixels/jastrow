@@ -77,7 +77,7 @@ Genuinely missing/odd numbering — eyes-on.
 
 | Rid | Headword | Observed sequence | Labels in context | Decision |
 | --- | --- | --- | --- | --- |
-| A00675 | אוּלָם II | 2 | …eub. Géogr. p. 18; 261) Ulam (Porta) a place in Gilead, and one in Galilee. Y. Snh. X, 28ᵈ **—2)** |  |
+| A00675 | אוּלָם II | 2 | …eub. Géogr. p. 18; 261) Ulam (Porta) a place in Gilead, and one in Galilee. Y. Snh. X, 28ᵈ **—2)** | Add space between 6 and 1 |
 | A01350 | אִימַּר | 1, 3, 4 | (אמר, √אם, v. אמם; cmp. עמרא, חומרא, צמר) **1)**<br>…e their bandages all at once and tie them up all at once, but he attends to one at a time. **—3)**<br>fringe, border. Targ. Ps. CXXXIII, 2. Targ. Y. Ex. XXVI, 4 (Var. אֶימְרָא). V. next w. **—4)** |  |
 | A01989 | אַמָּה | 1, 3, 4 | , v. אֵם) **1)**<br>…ן) land for a creek or pond for watering cattle and washing clothes, of one cubit’s width. **—3)**<br>(= אצבע) membrum virile. Sabb. 108ᵇ. Nidd. 13ᵃ sq. B. Kam. 19ᵇ **—4)** |  |
 | A03089 | אַרְיוֹךְ | 2 | (Gen. XIV, 1) Aryokh, homiletic surname of Nebuzraddan. Lam. R. to V, 5 (allusion to ארי). **—2)** |  |
