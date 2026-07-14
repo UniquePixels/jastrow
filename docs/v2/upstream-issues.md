@@ -1,0 +1,31 @@
+# Upstream Data Issues — Sefaria Reporting Register
+
+Hand-maintained register of data problems in the upstream Jastrow
+lexicon (Sefaria MongoDB dump of 2026-07-04, `data/source/`), found
+during the v2 pipeline work. Purpose: report these to Sefaria so
+their copy can be fixed too. Append new classes as they surface;
+update Status when reported/fixed. This file is **not** generated —
+edit by hand.
+
+Where an issue says "segmentation," the fault may sit in Sefaria's
+import or in the digitization that preceded it — indistinguishable
+from this repo. The data damage is real either way.
+
+| # | Issue | Size | Examples | Evidence | Status |
+|---|---|---|---|---|---|
+| 1 | Three headwords read ך where print (p. 1086) has ד | 3 entries | P00855 (עָמַד I), P00856 (עָמַד II), P00860 (עֶמֶד) | [divergence audit](divergence-audit.md) Finding 2; content evidence in the entries themselves | to report |
+| 2 | Phantom sense boundaries: sense split at a `N)` that belongs to a parenthesized cross-reference or citation, leaving an unclosed `(` behind | 36 entries (35 cross-ref + 1 citation) | A00913 (`(v. אוֹר 2)`), A01662, C00244 | [body-review 01](body-review/01-broken-sequences.md) crossref-chop + citation-chop sections | to report |
+| 3 | Sense numbering gaps / swallowed markers (e.g. a missing space fusing a page number to the `1)` marker) | 35 entries | A00675 (`p. 18; 261)` = `26` + `1)`), A01350 (1,3,4) | [body-review 01](body-review/01-broken-sequences.md) numbering-gap section | to report |
+| 4 | Etymology parenthesis split mid-phrase across `language_code`/`language_reference`/definition; gender markers caught in the wrong field | systemic (5,842 entries carry the split; mid-phrase cases incl. straddles) | K00664 (paren never closes in field), A00014 (orphan comma), A02705, B00880 | [body-census](body-census.md); design doc §1 | to report |
+| 5 | Malformed anchor markup: `<a>` open tags whose href swallows following markup (quote never closed) | 3 entries | D00478, J00597, J00603 | cite.ts damage-class fixtures; [body-census](body-census.md) malformed decomposition | to report |
+| 6 | Duplicate nested anchors (`<a X><a X>text</a></a>`) | 475 anchors | A00085, A00115 | census `citations.malformed.nestedDuplicate` | to report |
+| 7 | refLink hrefs missing the leading slash | 7,659 anchors | `href="Jerusalem_Talmud_Nedarim.5.6.3"` (A00014) | census `citations.slashless` | to report |
+| 8 | `quotes` field corruption: token reversal vs body order, truncated third slots (`Bibl`, `Ar`), `I`→`1` substitutions; 8 phrases don't locate in their own body | 324 triples; 8 stragglers | A00202 (`רמ"ח אֵבֶר`), G00337 (`1 will gird`), stragglers in [body-review 03](body-review/03-quotes-stragglers.md) | design-session census (2026-07-11); design doc §6 | to report (note: field appears unused by Sefaria's own code) |
+| 9 | Empty-string elements in `grammar.binyan_form` arrays | 486 occurrences / 446 entries | P00791, P01091, Q02144 | [body-review 06](body-review/06-empty-binyan-forms.md); dry-run Finding 3 | to report |
+| 10 | Damaged sense-number strings: `[1)` (bracket for digit), ASCII hyphen `-2)` where the corpus convention is em-dash `—2)` | 6 occurrences | D00341 (`[1)`); M02309, O00408, S02030, U00745, U00939 (`-2)`) | [body-review 04](body-review/04-label-quarantines.md) | to report |
+| 11 | Internal refLink targets that resolve to no entry | 88 links | (see parent spec register #3) | data-architecture spec §7 #3 | to report |
+| 12 | `refs` items with no basis in the entry (possible mis-links) | 3 items | D00541 → Yoma 2a, Q00890 → Yoma 2a:3, M01355 → Rosh Hashanah 23b | [body-review 02](body-review/02-orphan-refs.md) eyes-on section | to report |
+
+Counts are as of the 2026-07-04 snapshot; regenerate the censuses
+(`bun body:census`, `bun body:dry-run`) to re-derive them against a
+newer dump before filing.
