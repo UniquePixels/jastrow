@@ -14,8 +14,9 @@
 A printed Jastrow entry is one continuous body: headword, gender
 marker, etymology parenthesis, construct/plural forms, bracketed
 archaic meanings, glosses, numbered and lettered senses, citation
-evidence, and (for verbs) binyan sections. Sefaria's importer chopped
-this flow into fragments — `language_code`/`language_reference` (the
+evidence, and (for verbs) binyan sections. The upstream ingestion
+(digitization or Sefaria import — indistinguishable from this repo)
+chopped this flow into fragments — `language_code`/`language_reference` (the
 etymology paren, sometimes split mid-phrase), `content.morphology`
 (the gender marker, 13,162 entries), `plural_form`, a sense-1
 "definition" that opens with entry-level text, `quotes`, and `refs` —

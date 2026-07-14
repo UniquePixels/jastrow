@@ -70,7 +70,7 @@ is 72, matching the design doc's independent estimate exactly. Examples
 
 **Correction (maintainer review pass):** the 72 are not one class. Most
 of the "opens on 2" shape isn't a dropped first sense-number at all —
-it's a phantom sense: Sefaria's importer chopped a parenthesized
+it's a phantom sense: the upstream sense segmentation chopped a parenthesized
 cross-reference or citation (`(v. אוֹר 2)`, `(play on X, Gen. XLI, 2)`)
 at its own `N)`, splitting one printed flow into a fake sense boundary.
 `classifySequenceBreak` (`admin/pipeline/body/census.ts`) detects this

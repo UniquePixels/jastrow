@@ -181,13 +181,13 @@ const CLASS_TITLE: Record<SequenceBreakClass, string> = {
 
 const CLASS_EXPLANATION: Record<SequenceBreakClass, string[]> = {
 	'citation-chop': [
-		"Sefaria's importer chopped a citation — e.g. `(play on X, Gen.",
+		'the upstream sense segmentation chopped a citation — e.g. `(play on X, Gen.',
 		'XLI, 2)` — at its own `N)`, splitting one printed flow into a',
 		'fake sense boundary. Proposed disposition: heal at migration by',
 		'rejoining into the preceding text.',
 	],
 	'crossref-chop': [
-		"Sefaria's importer chopped a parenthesized cross-reference —",
+		'the upstream sense segmentation chopped a parenthesized cross-reference —',
 		'e.g. `(v. אוֹר 2)` — at its own `N)`, splitting one printed flow',
 		'into a fake sense boundary. Proposed disposition: heal at',
 		'migration by rejoining into the preceding text.',
