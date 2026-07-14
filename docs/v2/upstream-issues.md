@@ -27,6 +27,7 @@ from this repo. The data damage is real either way.
 | 11 | Internal refLink targets that resolve to no entry | 88 links | (see parent spec register #3) | data-architecture spec §7 #3 | to report |
 | 12 | `refs` items with no basis in the entry (possible mis-links) | 3 items | D00541 → Yoma 2a, Q00890 → Yoma 2a:3, M01355 → Rosh Hashanah 23b | [body-review 02](body-review/02-orphan-refs.md) eyes-on section | to report |
 | 13 | Mis-targeted internal refLink: anchor text names one thing, href another | 1 known (systematic detection hard: needs text↔target comparison) | A01350 sense —4): text `כפר א׳` (K'far Imra, a place) links to `*איבּוּס` (manger, = A01126) | maintainer review 2026-07-13; present identically in v1 deployed | to report |
+| 14 | Plural sections (separate lemma sets in print) flattened into the preceding sense's definition; no structure for them in the model | all `Pl.` entries (5,484); visibly damaging in the 25 with restarted `1)…` numbering | C00062 (`—Pl. גְּבוּרוֹת 1)…2)…` inside sense —3's text) | maintainer print verification 2026-07-13 (B12); numbered-plural census | to report |
 
 Counts are as of the 2026-07-04 snapshot; regenerate the censuses
 (`bun body:census`, `bun body:dry-run`) to re-derive them against a

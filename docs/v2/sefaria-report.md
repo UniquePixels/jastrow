@@ -265,5 +265,41 @@ the printed text (displaced during digitization).
 
 ---
 
+## 14. Plural sections flattened into the preceding sense
+
+In the printed dictionary, a noun's plural — `—Pl. <form> …` — opens
+a separate lemma-level section after the singular senses, sometimes
+with its own numbered sense set restarting at `1)`. The data model
+has no structure for this: every plural section is flattened into
+the tail of the preceding sense's `definition` string. **All entries
+with `Pl.` sections are affected** (5,484 in this snapshot); in the
+25 entries where the plural section carries its own numbering, the
+flattening is visibly damaging because two independent numbering
+sequences end up interleaved in one senses array.
+
+**Example — `C00062` (גְּבוּרָה).** The end of sense `—3)`'s
+definition currently reads:
+
+```
+…from the mouth of the Lord.—Pl. גְּבוּרוֹת 1) manifestations of
+Divine power, wonders. … —2) mighty deeds…
+```
+
+The `1)` and `2)` here are not sub-points of sense 3 — they are the
+plural lemma's own senses. A faithful structure would be, in outline:
+
+```
+senses: 1) strength…  2) …  3) might of God…
+plural (גְּבוּרוֹת): 1) manifestations of Divine power…  2) mighty deeds…
+```
+
+**Detection (numbered form):** tag-stripped definition matching
+`Pl\.` followed within ~120 characters by a bare `1)` not preceded
+by `(` or a word character. The 25: C00062, A01047, B01292, D00194,
+E00789, F00066, H00587, H01537, H01784, I00598, K00876, L00489,
+M00189, M00520, M02766, and 10 more (full list on request).
+
+---
+
 *Contact: brian@uniquepixels.xyz · jastrow.app. Full rid lists for
 any class, and the detection scripts, available on request.*
