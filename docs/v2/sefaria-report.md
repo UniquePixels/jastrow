@@ -246,5 +246,24 @@ may be mis-attached links.
 
 ---
 
+## 13. Mis-targeted internal refLink (1 known)
+
+**Entry `A01350` (אִימַּר), sense `—4)`:** the anchor wraps the text
+`כפר א׳` (K'far Imra, a place name) but targets the unrelated entry
+`*איבּוּס` ("manger", itself a pointer to אָמוּס):
+
+```html
+<a dir="rtl" class="refLink" href="/Jastrow,_*איבּוּס.1" data-ref="Jastrow, *איבּוּס 1">כפר א׳</a>
+```
+
+**Fix:** the link should target the K'far Imra-related entry (or be
+unlinked). Found by eye during manual review; a systematic sweep
+would need anchor-text ↔ target-headword comparison, so there may be
+more of these. The same sense also opens with `*  pr. n. pl.` (star
+followed by a double space) — the star likely belongs elsewhere in
+the printed text (displaced during digitization).
+
+---
+
 *Contact: brian@uniquepixels.xyz · jastrow.app. Full rid lists for
 any class, and the detection scripts, available on request.*

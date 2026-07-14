@@ -25,6 +25,7 @@ from this repo. The data damage is real either way.
 | 10 | Damaged sense-number strings: `[1)` (bracket for digit), ASCII hyphen `-2)` where the corpus convention is em-dash `—2)` | 6 occurrences | D00341 (`[1)`); M02309, O00408, S02030, U00745, U00939 (`-2)`) | [body-review 04](body-review/04-label-quarantines.md) | to report |
 | 11 | Internal refLink targets that resolve to no entry | 88 links | (see parent spec register #3) | data-architecture spec §7 #3 | to report |
 | 12 | `refs` items with no basis in the entry (possible mis-links) | 3 items | D00541 → Yoma 2a, Q00890 → Yoma 2a:3, M01355 → Rosh Hashanah 23b | [body-review 02](body-review/02-orphan-refs.md) eyes-on section | to report |
+| 13 | Mis-targeted internal refLink: anchor text names one thing, href another | 1 known (systematic detection hard: needs text↔target comparison) | A01350 sense —4): text `כפר א׳` (K'far Imra, a place) links to `*איבּוּס` (manger, = A01126) | maintainer review 2026-07-13; present identically in v1 deployed | to report |
 
 Counts are as of the 2026-07-04 snapshot; regenerate the censuses
 (`bun body:census`, `bun body:dry-run`) to re-derive them against a
