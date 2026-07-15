@@ -301,5 +301,32 @@ M00189, M00520, M02766, and 10 more (full list on request).
 
 ---
 
+## 15. `refs` field is missing ~33k citations that appear inline
+
+The `refs` array tracks which texts an entry cites, but it is far
+from complete against the entry's own body: **13,841 entries carry
+at least one inline citation (a `refLink` anchor with a `data-ref`)
+that does not appear in their `refs` — 32,899 citations in total.**
+Even matching loosely (is the cited *book* present in `refs` at
+all?), 13,259 entries / 29,640 citations are missing.
+
+**Example — `A00014` (אָב II):** `refs` lists 34 items, yet the
+body's inline citations of `Mishnah Kelim 1:1`, `Mishnah Bava Kamma
+1:1`, `Mishnah Chagigah 2:2`, and `Leviticus 20:27` are absent.
+**Example — `A00013` (אָב I):** `refs` has 2 items; inline
+`Mishnah Rosh Hashanah 1:3` and `Mishnah Taanit 4:6` are missing.
+
+**Detection:** per entry, collect every `data-ref` from `refLink`
+anchors across all sense definitions plus `language_code`/
+`language_reference`, drop the `Jastrow, …` internal ones, and diff
+against the `refs` array. (The reverse direction is near-perfect:
+99.97% of existing `refs` items correspond to an inline citation —
+so `refs` behaves like an incomplete derivation of the body text.)
+
+The full 32,899-row list (rid → missing refs) is machine-generated
+and available on request — happy to attach it when filing.
+
+---
+
 *Contact: brian@uniquepixels.xyz · jastrow.app. Full rid lists for
 any class, and the detection scripts, available on request.*
