@@ -122,7 +122,13 @@
    "blockedBy": [
     12
    ]
+  },
+  {
+   "id": 14,
+   "subject": "Task 14: Plural-section split (plural.ts)",
+   "status": "completed",
+   "description": "**Goal:** Parse —Pl. <form> 1)…2)… blocks (B12) out of their host sense into a sibling sense node with child numbered senses; byte round-trip by slicing.\n\n**Outcome:** 5 genuine splits (census's 25 candidates included 20 citation-chapter false positives, hand-verified); paren-balance discriminator; dry-run 32,512/32,512 across all four structural rules.\n\n```json:metadata\n{\"files\": [\"admin/pipeline/body/plural.ts\"], \"verifyCommand\": \"bun body:dry-run\", \"acceptanceCriteria\": [\"byte round-trip\", \"plain Pl. never splits\"], \"modelTier\": \"standard\"}\n```"
   }
  ],
- "lastUpdated": "2026-07-12T19:49:23Z"
+ "lastUpdated": "2026-07-15T00:42:24Z"
 }
