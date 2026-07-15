@@ -233,14 +233,14 @@ describe('evaluateRoundTrip canary: plural flips false on a corrupted sibling la
 		// matches what `splitPlural` finds in the original text, so `plural`
 		// must flip.
 		const corrupted = buildTrace(c00062);
-		const platePair = corrupted.pairs.find(
+		const pluralPair = corrupted.pairs.find(
 			(pair) => pair.pluralSibling !== undefined,
 		);
-		const children = platePair?.pluralSibling?.senses;
+		const children = pluralPair?.pluralSibling?.senses;
 		const firstChild = children?.[0];
 		if (
-			platePair === undefined ||
-			platePair.pluralSibling === undefined ||
+			pluralPair === undefined ||
+			pluralPair.pluralSibling === undefined ||
 			children === undefined ||
 			firstChild === undefined
 		) {
@@ -248,8 +248,8 @@ describe('evaluateRoundTrip canary: plural flips false on a corrupted sibling la
 				'expected C00062 to build a plural sibling with children',
 			);
 		}
-		platePair.pluralSibling = {
-			...platePair.pluralSibling,
+		pluralPair.pluralSibling = {
+			...pluralPair.pluralSibling,
 			senses: [{ ...firstChild, label: 'X' }, ...children.slice(1)],
 		};
 		expect(evaluateRoundTrip(c00062, corrupted).plural).toBe(false);

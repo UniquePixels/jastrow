@@ -76,7 +76,7 @@ function sweepFixtures(entries: SourceEntry[]): SweepResult {
 			if (parts !== null) {
 				splitRids.add(entry.rid);
 				const got = joinPlural(parts);
-				if (got !== head || parts.items.length < 1) {
+				if (got !== head) {
 					mismatches.push({ detail: got, rid: entry.rid, senseIndex });
 				}
 			}

@@ -59,13 +59,35 @@ interface Mark {
 	start: number;
 }
 
+/** Tests whether a `)` at `i` (with `from` as the digit run's leftmost
+ * possible start, i.e. the `Pl.` anchor) is a genuine restarted-list
+ * marker: finds the digit run immediately before it and applies the
+ * exclusions — a marker can't sit immediately after `(` or a word
+ * character (the `lettered.ts` lookbehind convention, reused here for the
+ * digit run's own start), nor inside an anchor's visible text. Returns
+ * null when `i` isn't preceded by a qualifying digit run. */
+function markerAt(text: string, from: number, i: number): Mark | null {
+	let start = i;
+	while (start > from && DIGIT.test(text[start - 1] ?? '')) {
+		start--;
+	}
+	if (start === i) {
+		return null;
+	}
+	const before = text[start - 1];
+	const excluded =
+		before === '(' || (before !== undefined && WORD_CHAR.test(before));
+	if (excluded || insideAnchor(text, start)) {
+		return null;
+	}
+	return { end: i + 1, num: Number(text.slice(start, i)), start };
+}
+
 /** Bare `N)` markers from `from` onward: paren balance is tracked from
  * that point forward, so a `)` closing a paren opened after `from` is
  * recognized as a real parenthetical close (not a marker) rather than a
  * restarted-list digit — the discriminator this module exists for (see
- * header comment). A marker also can't sit immediately after `(` or a
- * word character (the `lettered.ts` lookbehind convention, reused here
- * for the digit run's own start), nor inside an anchor's visible text. */
+ * header comment). */
 function findMarkersFrom(text: string, from: number): Mark[] {
 	const marks: Mark[] = [];
 	let balance = 0;
@@ -82,18 +104,9 @@ function findMarkersFrom(text: string, from: number): Mark[] {
 			balance--;
 			continue;
 		}
-		let start = i;
-		while (start > from && DIGIT.test(text[start - 1] ?? '')) {
-			start--;
-		}
-		if (start === i) {
-			continue;
-		}
-		const before = text[start - 1];
-		const excluded =
-			before === '(' || (before !== undefined && WORD_CHAR.test(before));
-		if (!(excluded || insideAnchor(text, start))) {
-			marks.push({ end: i + 1, num: Number(text.slice(start, i)), start });
+		const mark = markerAt(text, from, i);
+		if (mark !== null) {
+			marks.push(mark);
 		}
 	}
 	return marks;
@@ -133,7 +146,7 @@ function splitPlural(text: string): PluralParts | null {
 		const host = text.slice(0, anchorStart);
 		const intro = text.slice(anchorStart, first.start);
 		const items = run.map((mark, i) => ({
-			label: String(mark.num),
+			label: text.slice(mark.start, mark.end - 1),
 			text: text.slice(mark.end, run[i + 1]?.start ?? text.length),
 		}));
 		return { host, intro, items };
