@@ -273,9 +273,10 @@ with its own numbered sense set restarting at `1)`. The data model
 has no structure for this: every plural section is flattened into
 the tail of the preceding sense's `definition` string. **All entries
 with `Pl.` sections are affected** (5,484 in this snapshot); in the
-25 entries where the plural section carries its own numbering, the
-flattening is visibly damaging because two independent numbering
-sequences end up interleaved in one senses array.
+5 entries where the plural section carries its own numbering
+(A01047, B01292, C00062, D00194, E00789), the flattening is visibly
+damaging because two independent numbering sequences end up
+interleaved in one senses array.
 
 **Example — `C00062` (גְּבוּרָה).** The end of sense `—3)`'s
 definition currently reads:
@@ -294,10 +295,12 @@ plural (גְּבוּרוֹת): 1) manifestations of Divine power…  2) mighty d
 ```
 
 **Detection (numbered form):** tag-stripped definition matching
-`Pl\.` followed within ~120 characters by a bare `1)` not preceded
-by `(` or a word character. The 25: C00062, A01047, B01292, D00194,
-E00789, F00066, H00587, H01537, H01784, I00598, K00876, L00489,
-M00189, M00520, M02766, and 10 more (full list on request).
+`Pl\.` followed within ~120 characters by a bare `1)` — but with
+paren-balance tracking from the `Pl.` marker forward: a naive match
+yields 25 candidates, of which 20 are false positives where the
+`1)` is a chapter/paragraph number closing a parenthetical citation
+(`Lam. R. introd. (R. Joḥ. 1)` style). The genuine 5 are listed
+above; each was verified by hand.
 
 ---
 
