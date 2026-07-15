@@ -86,6 +86,47 @@ describe('buildBody structure: lettered.jsonl (child senses with letters)', () =
 	});
 });
 
+describe('buildBody structure: plural.jsonl (B12 sibling sense)', () => {
+	it("appends C00062's —Pl. block as an unlabeled sibling after its host sense 3", async () => {
+		const entries = await loadFixture('plural.jsonl');
+		const c00062 = findFixture(entries, 'C00062');
+		const { body } = buildBody(c00062);
+
+		expect(body.senses.map((s) => s.label)).toEqual(['1', '3', undefined]);
+		const host = body.senses[1];
+		expect(host?.gloss).toBe('<i>high age</i>, v. infra.');
+
+		const sibling = body.senses[2];
+		expect(sibling?.gloss).toBe('—Pl. <span dir="rtl">גְּבוּרוֹת</span> ');
+		expect(sibling?.units).toEqual([]);
+		expect(sibling?.senses?.map((s) => s.label)).toEqual(['1', '2', '3']);
+	});
+
+	it('never builds a plural sibling for the other 20 census-flagged non-splitting entries', async () => {
+		const entries = await loadFixture('plural.jsonl');
+		// The 5 genuine splitters (Finding 7): everything else in this
+		// fixture is a census-flagged false positive that must stay whole.
+		const splitting = new Set([
+			'A01047',
+			'B01292',
+			'C00062',
+			'D00194',
+			'E00789',
+		]);
+		const nonSplitting = entries.filter((e) => !splitting.has(e.rid));
+		for (const e of nonSplitting) {
+			const { body } = buildBody(e);
+			// None of these fixtures carry a stem/grammar node, so a clean
+			// (no split) build has exactly one top-level sense per source
+			// sense — an extra sibling would grow this count.
+			expect(body.senses.length).toBe(e.content.senses.length);
+			for (const sense of body.senses) {
+				expect(sense.gloss.startsWith('—Pl.')).toBe(false);
+			}
+		}
+	});
+});
+
 describe('buildBody structure: units-hard.jsonl (malformed citations)', () => {
 	it("builds D00478's intro sense without throwing on its malformed citation", async () => {
 		const entries = await loadFixture('units-hard.jsonl');
@@ -103,10 +144,11 @@ describe('buildBody round-trip: byte-exact reassembly across every named fixture
 		'stems.jsonl',
 		'lettered.jsonl',
 		'units-hard.jsonl',
+		'plural.jsonl',
 	];
 
 	for (const file of fixtureFiles) {
-		it(`round-trips rejoin/units/lettered for every entry in ${file}`, async () => {
+		it(`round-trips rejoin/units/lettered/plural for every entry in ${file}`, async () => {
 			const entries = await loadFixture(file);
 			expect(entries.length).toBeGreaterThan(0);
 
@@ -122,6 +164,9 @@ describe('buildBody round-trip: byte-exact reassembly across every named fixture
 				}
 				if (!result.lettered) {
 					mismatches.push({ rid: e.rid, rule: 'lettered' });
+				}
+				if (!result.plural) {
+					mismatches.push({ rid: e.rid, rule: 'plural' });
 				}
 			}
 			expect(mismatches).toEqual([]);
@@ -171,6 +216,43 @@ describe('evaluateRoundTrip canary: lettered flips false on a dropped child sens
 		}
 		introPair.built = { ...introPair.built, senses: children.slice(0, -1) };
 		expect(evaluateRoundTrip(a01999, corrupted).lettered).toBe(false);
+	});
+});
+
+describe('evaluateRoundTrip canary: plural flips false on a corrupted sibling label', () => {
+	it('flips plural false when a plural-item label is corrupted, true on the control', async () => {
+		const entries = await loadFixture('plural.jsonl');
+		const c00062 = findFixture(entries, 'C00062');
+
+		// control: C00062's tail-of-sense-3 —Pl. block splits into a sibling
+		// sense with children 1/2/3 and round-trips clean.
+		const control = buildTrace(c00062);
+		expect(evaluateRoundTrip(c00062, control).plural).toBe(true);
+
+		// corrupt the plural sibling's first child's label — it no longer
+		// matches what `splitPlural` finds in the original text, so `plural`
+		// must flip.
+		const corrupted = buildTrace(c00062);
+		const platePair = corrupted.pairs.find(
+			(pair) => pair.pluralSibling !== undefined,
+		);
+		const children = platePair?.pluralSibling?.senses;
+		const firstChild = children?.[0];
+		if (
+			platePair === undefined ||
+			platePair.pluralSibling === undefined ||
+			children === undefined ||
+			firstChild === undefined
+		) {
+			throw new Error(
+				'expected C00062 to build a plural sibling with children',
+			);
+		}
+		platePair.pluralSibling = {
+			...platePair.pluralSibling,
+			senses: [{ ...firstChild, label: 'X' }, ...children.slice(1)],
+		};
+		expect(evaluateRoundTrip(c00062, corrupted).plural).toBe(false);
 	});
 });
 

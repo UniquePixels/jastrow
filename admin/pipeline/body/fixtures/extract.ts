@@ -16,6 +16,37 @@ const CLASSES: Record<string, string[]> = {
 	baseline: ['A00043', 'A00105', 'A00114'],
 	'origin-splits': ['A00014', 'K00664', 'A01350', 'D01096'],
 	lettered: ['A01999', 'A01873', 'C00031', 'E00378', 'C00009'],
+	// 25 rids: the design census's coarse detector (Pl. + a bare 1) within
+	// ~120 chars) — only the first 5 carry a genuine paren-clear ascending
+	// run and actually split; the other 20 are single spurious
+	// "(citation N)" matches (task report, plural.ts header comment).
+	plural: [
+		'A01047',
+		'B01292',
+		'C00062',
+		'D00194',
+		'E00789',
+		'F00066',
+		'H01537',
+		'H00587',
+		'H01784',
+		'I00598',
+		'K00876',
+		'L00489',
+		'M02766',
+		'M00189',
+		'M00520',
+		'M00596',
+		'N00128',
+		'N00597',
+		'P00499',
+		'S02271',
+		'U00063',
+		'U00380',
+		'U00478',
+		'V00080',
+		'U01494',
+	],
 	stems: ['A00030', 'A00031', 'A00417'],
 	'units-hard': [
 		'A00014',

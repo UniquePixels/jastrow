@@ -186,6 +186,28 @@ function letteredRun(text: string): boolean {
 	return LETTERED.test(stripTags(text));
 }
 
+// Coarse detector for the design census's plural-section candidate count
+// (B12, docs/specs/2026-07-11-entry-body-model-design.md §2/§3): a `Pl.`
+// marker with a bare `1)` within ~120 chars, not immediately preceded by
+// '(' or a word character. Like LETTERED above, this only checks the
+// single character before the digit — it can't tell a restarted-list
+// marker from a `1)` that merely closes an unrelated parenthetical
+// citation (e.g. "Lam. R. introd. (R. Joḥ. 1)"). `plural.ts`'s
+// `splitPlural` is the authoritative structural rule (paren-balance
+// aware) and disagrees with this detector on most of its hits — of the
+// 25 entries this pattern flags corpus-wide, only 5 carry a genuine,
+// paren-clear ascending run (task report). Mirrors the `LETTERED` /
+// `splitLettered` relationship (189 vs 116) documented above and in
+// `lettered.ts`'s header comment.
+const PLURAL_SECTION = /Pl\..{0,120}?(?<![(\w])1\)\s/su;
+
+/** True when raw text contains the coarse plural-section candidate shape
+ * — sizing only (see `PLURAL_SECTION` above); not the authoritative
+ * split rule. Strips tags internally. */
+function pluralSection(text: string): boolean {
+	return PLURAL_SECTION.test(stripTags(text));
+}
+
 /** Depth-first walk over a sense tree, yielding every node including
  * nested sub-senses. Shared with later tasks (grammar/labels/units). */
 function* walkSenses(senses: SourceSense[]): Generator<SourceSense> {
@@ -249,6 +271,7 @@ interface Accumulator {
 	ibid: IbidTally;
 	lettered: Set<string>;
 	markers: Map<string, number>;
+	pluralSections: Set<string>;
 	preambleOpeners: Map<PreambleOpener, number>;
 }
 
@@ -268,6 +291,7 @@ function createAccumulator(): Accumulator {
 		lettered: new Set(),
 		markers: new Map(),
 		preambleOpeners: new Map(),
+		pluralSections: new Set(),
 	};
 }
 
@@ -372,6 +396,7 @@ function censusEntry(entry: SourceEntry, acc: Accumulator): void {
 	}
 
 	let hasLettered = false;
+	let hasPluralSection = false;
 	for (const sense of walkSenses(entry.content.senses)) {
 		if (sense.definition !== undefined) {
 			acc.definitions++;
@@ -380,6 +405,9 @@ function censusEntry(entry: SourceEntry, acc: Accumulator): void {
 		if (letteredRun(definition)) {
 			hasLettered = true;
 		}
+		if (pluralSection(definition)) {
+			hasPluralSection = true;
+		}
 		const hits = findCitations(definition);
 		tallyCitations(hits, acc.citations);
 		tallyBoundaries(definition, hits, acc.boundaries);
@@ -387,6 +415,9 @@ function censusEntry(entry: SourceEntry, acc: Accumulator): void {
 	}
 	if (hasLettered) {
 		acc.lettered.add(entry.rid);
+	}
+	if (hasPluralSection) {
+		acc.pluralSections.add(entry.rid);
 	}
 
 	// Sequence numbering is only checked at the top level: nested
@@ -421,6 +452,7 @@ interface CensusReport {
 	ibid: IbidTally;
 	lettered: string[];
 	markers: Record<string, number>;
+	pluralSections: string[];
 	preambleOpeners: Record<PreambleOpener, number>;
 	totals: { definitions: number; entries: number };
 }
@@ -453,6 +485,7 @@ function buildReport(acc: Accumulator): CensusReport {
 		ibid: acc.ibid,
 		lettered: [...acc.lettered].sort((a, b) => a.localeCompare(b)),
 		markers,
+		pluralSections: [...acc.pluralSections].sort((a, b) => a.localeCompare(b)),
 		preambleOpeners,
 		totals: { definitions: acc.definitions, entries: acc.entries },
 	};
@@ -474,7 +507,7 @@ if (import.meta.main) {
 		`entries=${report.totals.entries} definitions=${report.totals.definitions}`,
 	);
 	console.log(
-		`brokenSequences=${report.brokenSequences.length} lettered=${report.lettered.length}`,
+		`brokenSequences=${report.brokenSequences.length} lettered=${report.lettered.length} pluralSections=${report.pluralSections.length}`,
 	);
 	console.log(
 		`citations total=${report.citations.total} wellFormed=${report.citations.wellFormed} malformed=${malformedTotal} (nestedDuplicate=${report.citations.malformed.nestedDuplicate} runawayHref=${report.citations.malformed.runawayHref} recoveredLoss=${report.citations.malformed.recoveredLoss}) slashless=${report.citations.slashless}`,
@@ -492,5 +525,6 @@ export {
 	classifySequenceBreak,
 	labelSequence,
 	letteredRun,
+	pluralSection,
 	walkSenses,
 };

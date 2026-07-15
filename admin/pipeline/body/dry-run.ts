@@ -29,6 +29,7 @@ import { evaluateRoundTrip } from './dry-run-verify.ts';
 import { parseMarker } from './grammar.ts';
 import { parseLabel } from './labels.ts';
 import { splitLettered } from './lettered.ts';
+import { splitPlural } from './plural.ts';
 import { rejoinGlossHead } from './rejoin.ts';
 import { readSourceEntries } from './source.ts';
 import type {
@@ -49,20 +50,26 @@ interface Problem {
 /** One (original source text, built sense) correspondence recorded at
  * construction time — the pairing `dry-run-report.ts`'s round-trip
  * verifier needs, since a `BodySense` alone doesn't carry back a pointer
- * to the source string it came from. */
+ * to the source string it came from. `pluralSibling` is set alongside
+ * `built` when the same text also produced a plural-section sibling
+ * sense (B12) — the round-trip verifier needs both halves to check the
+ * split reconstructs `original` byte-for-byte. */
 interface SensePair {
 	built: BodySense;
 	original: string;
+	pluralSibling?: BodySense;
 }
 
 interface Trace {
 	body: BodyEntry;
 	pairs: SensePair[];
+	pluralSiblings: Set<BodySense>;
 	problems: Problem[];
 }
 
 interface BuildAcc {
 	pairs: SensePair[];
+	pluralSiblings: Set<BodySense>;
 	problems: Problem[];
 }
 
@@ -91,33 +98,82 @@ function buildLetteredChild(item: { letter: string; text: string }): BodySense {
 	return { gloss, label: item.letter, units };
 }
 
+/** A plural-item child (design doc §2 senses row, B12) is built exactly
+ * like a lettered child (own gloss + units), just labeled by its
+ * restarted number instead of a letter. */
+function buildPluralChild(item: { label: string; text: string }): BodySense {
+	const { gloss, units } = segmentUnits(item.text);
+	return { gloss, label: item.label, units };
+}
+
 /** Splits `text` (already the right input per caller — either a plain
  * sense definition or, for the entry's intro sense, the rejoined gloss
- * head) into its lettered run (if any) and then unit-segments the head
- * and every lettered item. This is the one shared text→BodySense step
- * every sense in the tree (intro, plain, stem child) goes through. */
-function buildTextSense(text: string, label: string | undefined): BodySense {
-	const parts = splitLettered(text);
-	const head = parts ? parts.head : text;
-	const { gloss, units } = segmentUnits(head);
-	return {
+ * head) into its lettered run (if any), then — on the resulting head —
+ * its restarted plural-section run (if any, B12; design §3 table order:
+ * lettered before plural), before unit-segmenting whatever's left. When a
+ * plural block is found it becomes an unlabeled SIBLING sense (not a
+ * child of the host) appended right after the host: gloss = the `—Pl.`
+ * intro, children = the restarted numbered items, each unit-segmented
+ * like a lettered child. Returns `[host]` or `[host, plural sibling]` —
+ * this is the one shared text→BodySense[] step every sense in the tree
+ * (intro, plain, stem child) goes through. */
+function buildTextSense(text: string, label: string | undefined): BodySense[] {
+	const lettered = splitLettered(text);
+	const head = lettered ? lettered.head : text;
+	const plural = splitPlural(head);
+	const hostText = plural ? plural.host : head;
+	const { gloss, units } = segmentUnits(hostText);
+	const host: BodySense = {
 		gloss,
 		units,
 		...(label === undefined ? {} : { label }),
-		...(parts === null ? {} : { senses: parts.items.map(buildLetteredChild) }),
+		...(lettered === null
+			? {}
+			: { senses: lettered.items.map(buildLetteredChild) }),
 	};
+	if (plural === null) {
+		return [host];
+	}
+	const sibling: BodySense = {
+		gloss: plural.intro,
+		senses: plural.items.map(buildPluralChild),
+		units: [],
+	};
+	return [host, sibling];
+}
+
+/** Builds the sense(s) for one text and records their `SensePair` in one
+ * place — every `buildTextSense` call site (intro, plain top-level sense,
+ * stem child) needs this same bookkeeping, so it's shared rather than
+ * repeated. */
+function pushTextSense(
+	acc: BuildAcc,
+	text: string,
+	label: string | undefined,
+): BodySense[] {
+	const built = buildTextSense(text, label);
+	const [host, sibling] = built;
+	if (host !== undefined) {
+		acc.pairs.push({
+			built: host,
+			original: text,
+			...(sibling === undefined ? {} : { pluralSibling: sibling }),
+		});
+	}
+	if (sibling !== undefined) {
+		acc.pluralSiblings.add(sibling);
+	}
+	return built;
 }
 
 function buildStemChild(
 	rid: string,
 	child: SourceSense,
 	acc: BuildAcc,
-): BodySense {
+): BodySense[] {
 	const text = child.definition ?? '';
 	const label = resolveLabel(rid, child.number, acc);
-	const built = buildTextSense(text, label);
-	acc.pairs.push({ built, original: text });
-	return built;
+	return pushTextSense(acc, text, label);
 }
 
 /** A top-level sense carrying `.grammar` is a binyan section (design doc
@@ -128,7 +184,7 @@ function buildStem(rid: string, sense: SourceSense, acc: BuildAcc): BodyStem {
 	const { grammar } = sense;
 	return {
 		forms: grammar?.binyan_form ?? [],
-		senses: (sense.senses ?? []).map((child) =>
+		senses: (sense.senses ?? []).flatMap((child) =>
 			buildStemChild(rid, child, acc),
 		),
 		stem: grammar?.verbal_stem ?? '',
@@ -165,17 +221,16 @@ function applyGrammarIndex(
  * `content.senses[0]?.definition` regardless of what sense 0 actually
  * is) — its content is captured once, in the intro sense below. */
 function buildTrace(e: SourceEntry): Trace {
-	const acc: BuildAcc = { pairs: [], problems: [] };
+	const acc: BuildAcc = { pairs: [], pluralSiblings: new Set(), problems: [] };
 	const { joined } = rejoinGlossHead(e);
 	const [first] = e.content.senses;
 	const introLabel =
 		first !== undefined && !first.grammar
 			? resolveLabel(e.rid, first.number, acc)
 			: undefined;
-	const intro = buildTextSense(joined, introLabel);
-	acc.pairs.push({ built: intro, original: joined });
+	const introSenses = pushTextSense(acc, joined, introLabel);
 
-	const senses: BodySense[] = [intro];
+	const senses: BodySense[] = [...introSenses];
 	const stems: BodyStem[] = [];
 	for (const [index, sense] of e.content.senses.entries()) {
 		if (sense.grammar) {
@@ -187,9 +242,7 @@ function buildTrace(e: SourceEntry): Trace {
 		}
 		const text = sense.definition ?? '';
 		const label = resolveLabel(e.rid, sense.number, acc);
-		const built = buildTextSense(text, label);
-		senses.push(built);
-		acc.pairs.push({ built, original: text });
+		senses.push(...pushTextSense(acc, text, label));
 	}
 
 	const body: BodyEntry = {
@@ -198,7 +251,12 @@ function buildTrace(e: SourceEntry): Trace {
 		...(stems.length > 0 ? { stems } : {}),
 	};
 	applyGrammarIndex(e, body, acc.problems);
-	return { body, pairs: acc.pairs, problems: acc.problems };
+	return {
+		body,
+		pairs: acc.pairs,
+		pluralSiblings: acc.pluralSiblings,
+		problems: acc.problems,
+	};
 }
 
 /** Public composition contract (Task 11 step 1): every rule module wired
@@ -222,7 +280,7 @@ function processEntry(e: SourceEntry, index: number, ctx: RunContext): void {
 	// tallies below, not from re-reading this trace; `problems` exists for
 	// the buildBody/migrate.ts contract instead.
 	tallyRoundTrip(ctx.acc, evaluateRoundTrip(e, trace));
-	tallyStructure(trace.body, ctx.acc);
+	tallyStructure(trace.body, trace.pluralSiblings, ctx.acc);
 	tallyLabels(e, ctx.acc);
 	tallyGrammar(e, ctx.acc);
 	tallySchema({ body: trace.body, e, index }, ctx.validate, ctx.acc);

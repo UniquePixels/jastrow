@@ -5,6 +5,7 @@ import {
 	classifySequenceBreak,
 	labelSequence,
 	letteredRun,
+	pluralSection,
 	walkSenses,
 } from './census.ts';
 import type { CitationHit } from './cite.ts';
@@ -39,6 +40,25 @@ describe('letteredRun', () => {
 	});
 	it('strips tags internally before matching', () => {
 		expect(letteredRun('x <i>a)</i> one <i>b)</i> two')).toBe(true);
+	});
+});
+
+describe('pluralSection', () => {
+	it('detects a Pl. marker followed by a bare 1) within range', () => {
+		expect(pluralSection('a. fr.—Pl. גְּבוּרוֹת 1) manifestations…')).toBe(true);
+	});
+	it('does not flag plain Pl. prose with no numbered run', () => {
+		expect(pluralSection('a. fr.—Pl. אבות, no numbering here.')).toBe(false);
+	});
+	it('flags a 1) that merely closes a parenthetical citation too — coarse detector, not the authoritative split rule', () => {
+		// This is the exact false-positive shape plural.ts's splitPlural
+		// (paren-balance aware) rejects — see its header comment. The
+		// census detector only checks the single character before the
+		// digit, so it can't tell the difference; that's why it's a
+		// sizing detector, not the split rule.
+		expect(
+			pluralSection('—Pl. חֲצָצֵי. Lam. R. introd. (R. Joh. 1) prose after.'),
+		).toBe(true);
 	});
 });
 
