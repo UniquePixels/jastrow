@@ -265,18 +265,26 @@ the printed text (displaced during digitization).
 
 ---
 
-## 14. Plural sections flattened into the preceding sense
+## 14. Form sections flattened into the preceding sense
 
-In the printed dictionary, a noun's plural — `—Pl. <form> …` — opens
-a separate lemma-level section after the singular senses, sometimes
-with its own numbered sense set restarting at `1)`. The data model
-has no structure for this: every plural section is flattened into
-the tail of the preceding sense's `definition` string. **All entries
-with `Pl.` sections are affected** (5,484 in this snapshot); in the
-5 entries where the plural section carries its own numbering
-(A01047, B01292, C00062, D00194, E00789), the flattening is visibly
+In the printed dictionary, a related grammatical form — a noun's
+plural (`—Pl. <form> …`), or (found during a later print pass,
+2026-07-14) a verb's passive participle (`—Part. pass. <form> …`),
+feminine (`—Fem. <form> …`), or denominative (`—Denom. <form> …`) —
+opens a separate lemma-level section after the preceding senses,
+sometimes with its own numbered sense set restarting at `1)`. The
+data model has no structure for this: every such section is
+flattened into the tail of the preceding sense's `definition`
+string. **All entries carrying one of these markers are affected**
+(5,484 with `Pl.` in this snapshot, plus smaller counts for the
+other three); in the 13 entries where the section carries its own
+numbering — `Pl.` 5 (A01047, B01292, C00062, D00194, E00789),
+`Part. pass.` 6 (A02260, A03348, C00869, C00964, C01139, H01022),
+`Fem.` 1 (G00644), `Denom.` 1 (I00311) — the flattening is visibly
 damaging because two independent numbering sequences end up
-interleaved in one senses array.
+interleaved in one senses array. (D00194 carries both a `Fem.`
+section and a numbered `Pl.` section; the numbering belongs to the
+nearer `Pl.` marker, not the earlier `Fem.` one.)
 
 **Example — `C00062` (גְּבוּרָה).** The end of sense `—3)`'s
 definition currently reads:
@@ -294,13 +302,16 @@ senses: 1) strength…  2) …  3) might of God…
 plural (גְּבוּרוֹת): 1) manifestations of Divine power…  2) mighty deeds…
 ```
 
-**Detection (numbered form):** tag-stripped definition matching
-`Pl\.` followed within ~120 characters by a bare `1)` — but with
-paren-balance tracking from the `Pl.` marker forward: a naive match
-yields 25 candidates, of which 20 are false positives where the
-`1)` is a chapter/paragraph number closing a parenthetical citation
-(`Lam. R. introd. (R. Joḥ. 1)` style). The genuine 5 are listed
-above; each was verified by hand.
+**Detection (numbered form):** tag-stripped definition matching one
+of the four markers followed within ~120 characters by a bare `1)` —
+but with paren-balance tracking from the marker forward: a naive
+match yields 38 candidates across the four markers (`Pl.` 25,
+`Part. pass.` 10, `Fem.` 2, `Denom.` 1), of which 25 are false
+positives where the `1)` is a chapter/paragraph number closing a
+parenthetical citation (`Lam. R. introd. (R. Joḥ. 1)` style), or —
+for one of the two `Fem.` candidates (D00194) — a run that genuinely
+belongs to a different, later marker section. The genuine 13 are
+listed above; each was verified by hand.
 
 ---
 

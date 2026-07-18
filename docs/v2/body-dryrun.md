@@ -25,14 +25,14 @@ files only to stay under the project's per-file line budget.
 | **Rejoin round-trip** (morphology/language_code/language_reference/sense-1 text recovered from the rejoined gloss head) | **32,512 / 32,512** |
 | **Units round-trip** (`gloss + units.join('')` reconstructs every segmented text, at every level) | **32,512 / 32,512** |
 | **Lettered round-trip** (`joinLettered` reconstructs every split source text byte-for-byte) | **32,512 / 32,512** |
-| **Plural round-trip** (`joinPlural` reconstructs every B12 `—Pl. …` split byte-for-byte) | **32,512 / 32,512** |
+| **Form-section round-trip** (`joinFormSection` reconstructs every B12 marker-section split — `Pl.`/`Part. pass.`/`Fem.`/`Denom.` — byte-for-byte) | **32,512 / 32,512** |
 | Sense-label occurrences / regenerated / quarantined | 10,186 / 10,180 / **6** |
 | Quarantined label shapes | `[1)` ×1, `-2)` ×5 (2 distinct shapes) |
 | `content.morphology` occurrences / quarantined | 13,162 / **0** |
 | Entries with ≥1 structural lettered split | 116 (census's raw-text detector: 189 — see Finding 2) |
-| Entries with a structural plural-section split (B12) | **5** (census's coarse detector: 25 — see Finding 7) |
+| Entries with a structural form-section split (B12) | **13** — `Pl.` 5, `Part. pass.` 6, `Fem.` 1, `Denom.` 1 (census's coarse detector: `Pl.` 25, `Part. pass.` 10, `Fem.` 2, `Denom.` 1 — see Finding 7) |
 | Binyan/stem sections built | 4,390 (across 2,337 entries) |
-| `BodySense` unit-count distribution (0/1/2/3/4/5+) | 17,707 / 12,330 / 5,632 / 3,327 / 2,140 / 3,964 |
+| `BodySense` unit-count distribution (0/1/2/3/4/5+) | 17,718 / 12,339 / 5,637 / 3,329 / 2,138 / 3,961 |
 | Schema-validation sample | 129 validated, **3 failures** (see Finding 3) |
 
 ## Finding 1 — the three structural rules hit 32,512/32,512, exactly as designed
@@ -134,20 +134,22 @@ measured from.
 
 | Units | Count | Share |
 |---|---|---|
-| 0 | 17,707 | 39.3% |
-| 1 | 12,330 | 27.3% |
-| 2 | 5,632 | 12.5% |
-| 3 | 3,327 | 7.4% |
-| 4 | 2,140 | 4.7% |
-| 5+ | 3,964 | 8.8% |
+| 0 | 17,718 | 39.3% |
+| 1 | 12,339 | 27.3% |
+| 2 | 5,637 | 12.5% |
+| 3 | 3,329 | 7.4% |
+| 4 | 2,138 | 4.7% |
+| 5+ | 3,961 | 8.8% |
 
-Across 45,100 built `BodySense` nodes (every intro/plain/lettered-child/
-plural-item/stem-child sense in the corpus — 16 more than the count Task
-11 first reported, exactly the 5 plural-section sibling senses plus their
-11 restarted-numbered item children, B12/Finding 7), a plurality (39.3%)
-carry zero citation units at all — short cross-reference-style senses
-whose entire content is the gloss itself, consistent with the parent
-design doc's note that
+Across 45,122 built `BodySense` nodes (every intro/plain/lettered-child/
+form-section-item/stem-child sense in the corpus — 38 more than the count
+Task 11 first reported, exactly the 13 form-section sibling senses plus
+their 25 restarted-numbered item children across all four markers
+(`Pl.` 5 siblings + 11 items, `Part. pass.` 6 siblings + 10 items, `Fem.`
+1 sibling + 3 items, `Denom.` 1 sibling + 1 item — B12/Finding 7), a
+plurality (39.3%) carry zero citation units at all — short
+cross-reference-style senses whose entire content is the gloss itself,
+consistent with the parent design doc's note that
 8,592 entries are pointer-only (", v. X") bodies. The remaining 60.7%
 carry at least one evidentiary citation unit, with a real tail out past 5
 (8.8%) for heavily-cited entries (long verb roots with many binyan
@@ -155,35 +157,64 @@ sections and citations per sense). No single bucket dominates past 40%,
 consistent with the conservative (`.`/`—`/sense-start only) terminator
 rule producing a plausible, non-degenerate segmentation shape corpus-wide.
 
-## Finding 7 — plural-section split (B12): 5 structural vs. 25 census-detected, same class of divergence as Finding 2
+## Finding 7 — form-section split (B12, extended 2026-07-14): 13 structural vs. 38 census-detected, same class of divergence as Finding 2
 
-`census.ts`'s `pluralSections` is a boolean *detector* — it strips HTML
-tags and tests for a `Pl.` marker followed by a bare `1)` within ~120
-chars, sized for corpus survey, not structural correctness (exactly
-Finding 2's `letteredRun` pattern, reused for B12). `plural.ts`'s
-`splitPlural` is the *authoritative* structural rule the body composes
-with, and it disagrees with the census detector on 20 of its 25 hits.
-Diffing the two resolves every disagreement, and this time the cause is
-singular: all 20 are a bare `1)` that the coarse detector's
-single-character lookbehind can't distinguish from a `1)` that closes an
-already-open, unrelated parenthetical citation — Jastrow's extremely
-common `Lam. R. introd. (R. Joḥ. 1)`-style reference (chapter/paragraph
-number, not a restarted-list marker). `H01537` is representative: its
-only "match" is `…(R. Joh. 1) you have to walk over rocks…` — accepting
-it would slice a built sense open mid-parenthetical, with item text
-starting on a bare `)`. `splitPlural` tracks paren balance from the
-`Pl.` anchor forward and rejects a marker whenever an unmatched open
-paren precedes it, so these 20 return null and stay whole (B9's
-under-split failure mode, correctly triggered). The remaining 5 —
-`A01047`, `B01292`, `C00062`, `D00194`, `E00789` — carry a genuine,
-paren-clear ascending `1)…2)…` (`C00062` also `…3)`) run and split
-cleanly; all 5 round-trip byte-for-byte, and the extra `BodySense` nodes
-they contribute (5 sibling senses + 11 restarted-numbered items) account
-exactly for Finding 6's node-count increase over the prior report. 25 −
-20 = 5, exactly the measured count — no unexplained residual, and
-`letteredSplitEntries` (116) is unchanged by this task, confirming the
-two split kinds were kept structurally distinct rather than double-
-counted.
+Originally shipped Pl.-only (`plural.ts`); during maintainer study
+(2026-07-14) print-verification found the identical `—<marker> <form>
+1)…2)…` convention under three more headers — `Part. pass.` (passive
+participle), `Fem.` (feminine), `Denom.` (denominative) — so the module
+was generalized in place (`git mv` to `form-sections.ts`) to a
+marker-parameterized splitter over `['Pl.', 'Part. pass.', 'Fem.',
+'Denom.']`. `census.ts`'s per-marker coarse detectors are boolean —
+they strip HTML tags and test for each marker followed by a bare `1)`
+within ~120 chars, sized for corpus survey, not structural correctness
+(exactly Finding 2's `letteredRun` pattern, reused for B12): `Pl.` 25,
+`Part. pass.` 10, `Fem.` 2, `Denom.` 1 — 38 candidates. `form-sections.ts`'s
+`splitFormSection` is the *authoritative* structural rule the body
+composes with, and it disagrees with the coarse detectors on 25 of the
+38 hits.
+
+Diffing the two resolves every disagreement. For `Pl.`, the cause is
+singular: 20 of its 25 candidates are a bare `1)` that the coarse
+detector's single-character lookbehind can't distinguish from a `1)`
+that closes an already-open, unrelated parenthetical citation —
+Jastrow's extremely common `Lam. R. introd. (R. Joḥ. 1)`-style
+reference (chapter/paragraph number, not a restarted-list marker).
+`H01537` is representative: its only "match" is `…(R. Joh. 1) you have
+to walk over rocks…` — accepting it would slice a built sense open
+mid-parenthetical, with item text starting on a bare `)`.
+`splitFormSection` tracks paren balance from the marker anchor forward
+and rejects a marker whenever an unmatched open paren precedes it, so
+these 20 return null and stay whole (B9's under-split failure mode,
+correctly triggered). The remaining 5 `Pl.` candidates — `A01047`,
+`B01292`, `C00062`, `D00194`, `E00789` — carry a genuine, paren-clear
+ascending `1)…2)…` (`C00062` also `…3)`) run and split cleanly. For
+`Part. pass.`, 4 of its 10 candidates are the same citation-close false
+positive; the remaining 6 (`A02260`, `A03348`, `C00869`, `C00964`,
+`C01139`, `H01022`) are genuine — two of them (`C00869`, `H01022`)
+carry the marker with its own closing tag landing mid-phrase
+(`<i>Part. pass</i>.` rather than the literal `Part. pass.` string),
+which `buildAnchorPattern`'s tag-tolerant matching still recognizes.
+For `Fem.`, one of its 2 candidates (`D00194`) is not a false positive
+by the paren-balance test but a **nearest-marker-attribution** case:
+D00194's text carries both `—Fem. …` and, later, `—Pl. … 1)…2)…`; the
+genuine ascending run belongs to the closer `Pl.` anchor, not the
+earlier `Fem.` one, so each marker's run-search is bounded to the text
+between its own anchor and the next marker anchor of any kind (or the
+text's end) rather than left unbounded to the end of the whole text —
+without that bound, `Fem.`'s unbounded forward scan would also "see"
+`Pl.`'s run and wrongly claim it. That leaves exactly one genuine
+`Fem.` split, `G00644`. `Denom.`'s single candidate, `I00311`, is
+genuine outright.
+
+13 structural splits total — `Pl.` 5, `Part. pass.` 6, `Fem.` 1,
+`Denom.` 1 — all round-trip byte-for-byte, and the extra `BodySense`
+nodes they contribute (13 sibling senses + 25 restarted-numbered items)
+account exactly for Finding 6's node-count increase over the prior
+report. 38 − 25 = 13, exactly the measured count — no unexplained
+residual, and `letteredSplitEntries` (116) is unchanged by this task,
+confirming the split kinds were kept structurally distinct rather than
+double-counted.
 
 ## Verdict
 

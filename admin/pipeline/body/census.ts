@@ -7,6 +7,7 @@
  * architecture spec D2, not committed). Run: bun body:census
  */
 import { type CitationHit, findCitations } from './cite.ts';
+import { MARKERS } from './form-sections.ts';
 import { parseLabel } from './labels.ts';
 import { readSourceEntries } from './source.ts';
 import type { SourceEntry, SourceSense } from './types.ts';
@@ -208,6 +209,40 @@ function pluralSection(text: string): boolean {
 	return PLURAL_SECTION.test(stripTags(text));
 }
 
+// Coarse per-marker generalization of PLURAL_SECTION above (B12 extension,
+// maintainer print pass 2026-07-14): the same "marker + bare `1)` within
+// ~120 chars" shape, for every marker in `form-sections.ts`'s `MARKERS`
+// table, not just `Pl.`. Same caveat as `PLURAL_SECTION` — this is sizing
+// only (single-character lookbehind, tag-stripped), not the authoritative
+// split rule; `form-sections.ts`'s `splitFormSection` (paren-balance,
+// nearest-marker-attribution aware) disagrees with this detector on most
+// hits, the same way it does for `Pl.` alone. Kept alongside (not
+// replacing) `PLURAL_SECTION`/`pluralSection`/`pluralSections` for
+// committed-report stability — this is additive.
+const FORM_SECTION_PATTERNS = new Map(
+	MARKERS.map((marker) => [
+		marker,
+		new RegExp(
+			`${marker.replace(/[.]/gu, '\\.')}.{0,120}?(?<![(\\w])1\\)\\s`,
+			'su',
+		),
+	]),
+);
+
+/** Every marker (see `MARKERS`) whose coarse candidate shape appears in
+ * raw `text` — sizing only (see `FORM_SECTION_PATTERNS` above); not the
+ * authoritative split rule. Strips tags internally. */
+function formSectionCandidates(text: string): string[] {
+	const stripped = stripTags(text);
+	const hits: string[] = [];
+	for (const [marker, pattern] of FORM_SECTION_PATTERNS) {
+		if (pattern.test(stripped)) {
+			hits.push(marker);
+		}
+	}
+	return hits;
+}
+
 /** Depth-first walk over a sense tree, yielding every node including
  * nested sub-senses. Shared with later tasks (grammar/labels/units). */
 function* walkSenses(senses: SourceSense[]): Generator<SourceSense> {
@@ -268,6 +303,7 @@ interface Accumulator {
 	citations: CitationTally;
 	definitions: number;
 	entries: number;
+	formSections: Map<string, Set<string>>;
 	ibid: IbidTally;
 	lettered: Set<string>;
 	markers: Map<string, number>;
@@ -287,6 +323,7 @@ function createAccumulator(): Accumulator {
 		},
 		definitions: 0,
 		entries: 0,
+		formSections: new Map(MARKERS.map((marker) => [marker, new Set<string>()])),
 		ibid: { linked: 0, unlinked: 0 },
 		lettered: new Set(),
 		markers: new Map(),
@@ -397,6 +434,7 @@ function censusEntry(entry: SourceEntry, acc: Accumulator): void {
 
 	let hasLettered = false;
 	let hasPluralSection = false;
+	const hitMarkers = new Set<string>();
 	for (const sense of walkSenses(entry.content.senses)) {
 		if (sense.definition !== undefined) {
 			acc.definitions++;
@@ -408,6 +446,9 @@ function censusEntry(entry: SourceEntry, acc: Accumulator): void {
 		if (pluralSection(definition)) {
 			hasPluralSection = true;
 		}
+		for (const formMarker of formSectionCandidates(definition)) {
+			hitMarkers.add(formMarker);
+		}
 		const hits = findCitations(definition);
 		tallyCitations(hits, acc.citations);
 		tallyBoundaries(definition, hits, acc.boundaries);
@@ -418,6 +459,9 @@ function censusEntry(entry: SourceEntry, acc: Accumulator): void {
 	}
 	if (hasPluralSection) {
 		acc.pluralSections.add(entry.rid);
+	}
+	for (const formMarker of hitMarkers) {
+		acc.formSections.get(formMarker)?.add(entry.rid);
 	}
 
 	// Sequence numbering is only checked at the top level: nested
@@ -449,6 +493,7 @@ interface CensusReport {
 	boundaries: Record<Boundary, number>;
 	brokenSequences: BrokenSequenceRow[];
 	citations: CitationTally;
+	formSections: Record<string, string[]>;
 	ibid: IbidTally;
 	lettered: string[];
 	markers: Record<string, number>;
@@ -478,10 +523,20 @@ function buildReport(acc: Accumulator): CensusReport {
 		OPENER_ORDER.map((o) => [o, acc.preambleOpeners.get(o) ?? 0]),
 	) as Record<PreambleOpener, number>;
 
+	const formSections = Object.fromEntries(
+		MARKERS.map((marker) => [
+			marker,
+			[...(acc.formSections.get(marker) ?? [])].sort((a, b) =>
+				a.localeCompare(b),
+			),
+		]),
+	);
+
 	return {
 		boundaries,
 		brokenSequences: acc.brokenSequences,
 		citations: acc.citations,
+		formSections,
 		ibid: acc.ibid,
 		lettered: [...acc.lettered].sort((a, b) => a.localeCompare(b)),
 		markers,
@@ -509,6 +564,13 @@ if (import.meta.main) {
 	console.log(
 		`brokenSequences=${report.brokenSequences.length} lettered=${report.lettered.length} pluralSections=${report.pluralSections.length}`,
 	);
+	const formSectionCounts = Object.fromEntries(
+		Object.entries(report.formSections).map(([marker, rids]) => [
+			marker,
+			rids.length,
+		]),
+	);
+	console.log(`formSections (coarse) = ${JSON.stringify(formSectionCounts)}`);
 	console.log(
 		`citations total=${report.citations.total} wellFormed=${report.citations.wellFormed} malformed=${malformedTotal} (nestedDuplicate=${report.citations.malformed.nestedDuplicate} runawayHref=${report.citations.malformed.runawayHref} recoveredLoss=${report.citations.malformed.recoveredLoss}) slashless=${report.citations.slashless}`,
 	);
@@ -523,6 +585,7 @@ export {
 	classifyBoundary,
 	classifyMalformed,
 	classifySequenceBreak,
+	formSectionCandidates,
 	labelSequence,
 	letteredRun,
 	pluralSection,

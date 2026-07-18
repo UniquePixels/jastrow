@@ -102,7 +102,7 @@ describe('buildBody structure: plural.jsonl (B12 sibling sense)', () => {
 		expect(sibling?.senses?.map((s) => s.label)).toEqual(['1', '2', '3']);
 	});
 
-	it('never builds a plural sibling for the other 20 census-flagged non-splitting entries', async () => {
+	it('never builds a form-section sibling for the other 20 census-flagged non-splitting entries', async () => {
 		const entries = await loadFixture('plural.jsonl');
 		// The 5 genuine splitters (Finding 7): everything else in this
 		// fixture is a census-flagged false positive that must stay whole.
@@ -127,6 +127,45 @@ describe('buildBody structure: plural.jsonl (B12 sibling sense)', () => {
 	});
 });
 
+describe('buildBody structure: form-sections.jsonl (B12 sibling sense, non-Pl. markers)', () => {
+	it("appends A02260's —Part. pass. block as an unlabeled sibling", async () => {
+		const entries = await loadFixture('form-sections.jsonl');
+		const a02260 = findFixture(entries, 'A02260');
+		const { body } = buildBody(a02260);
+
+		const sibling = body.senses.find(
+			(s) => s.label === undefined && s.gloss.includes('Part. pass.'),
+		);
+		expect(sibling).toBeDefined();
+		expect(sibling?.units).toEqual([]);
+		expect((sibling?.senses?.length ?? 0) > 0).toBe(true);
+	});
+
+	it("appends G00644's —Fem. block as an unlabeled sibling", async () => {
+		const entries = await loadFixture('form-sections.jsonl');
+		const g00644 = findFixture(entries, 'G00644');
+		const { body } = buildBody(g00644);
+
+		const sibling = body.senses.find(
+			(s) => s.label === undefined && s.gloss.includes('Fem.'),
+		);
+		expect(sibling).toBeDefined();
+		expect(sibling?.units).toEqual([]);
+	});
+
+	it("appends I00311's —Denom. block as an unlabeled sibling", async () => {
+		const entries = await loadFixture('form-sections.jsonl');
+		const i00311 = findFixture(entries, 'I00311');
+		const { body } = buildBody(i00311);
+
+		const sibling = body.senses.find(
+			(s) => s.label === undefined && s.gloss.includes('Denom.'),
+		);
+		expect(sibling).toBeDefined();
+		expect(sibling?.units).toEqual([]);
+	});
+});
+
 describe('buildBody structure: units-hard.jsonl (malformed citations)', () => {
 	it("builds D00478's intro sense without throwing on its malformed citation", async () => {
 		const entries = await loadFixture('units-hard.jsonl');
@@ -145,10 +184,11 @@ describe('buildBody round-trip: byte-exact reassembly across every named fixture
 		'lettered.jsonl',
 		'units-hard.jsonl',
 		'plural.jsonl',
+		'form-sections.jsonl',
 	];
 
 	for (const file of fixtureFiles) {
-		it(`round-trips rejoin/units/lettered/plural for every entry in ${file}`, async () => {
+		it(`round-trips rejoin/units/lettered/formSection for every entry in ${file}`, async () => {
 			const entries = await loadFixture(file);
 			expect(entries.length).toBeGreaterThan(0);
 
@@ -165,8 +205,8 @@ describe('buildBody round-trip: byte-exact reassembly across every named fixture
 				if (!result.lettered) {
 					mismatches.push({ rid: e.rid, rule: 'lettered' });
 				}
-				if (!result.plural) {
-					mismatches.push({ rid: e.rid, rule: 'plural' });
+				if (!result.formSection) {
+					mismatches.push({ rid: e.rid, rule: 'formSection' });
 				}
 			}
 			expect(mismatches).toEqual([]);
@@ -219,40 +259,40 @@ describe('evaluateRoundTrip canary: lettered flips false on a dropped child sens
 	});
 });
 
-describe('evaluateRoundTrip canary: plural flips false on a corrupted sibling label', () => {
-	it('flips plural false when a plural-item label is corrupted, true on the control', async () => {
+describe('evaluateRoundTrip canary: formSection flips false on a corrupted sibling label', () => {
+	it('flips formSection false when a form-section item label is corrupted, true on the control', async () => {
 		const entries = await loadFixture('plural.jsonl');
 		const c00062 = findFixture(entries, 'C00062');
 
 		// control: C00062's tail-of-sense-3 —Pl. block splits into a sibling
 		// sense with children 1/2/3 and round-trips clean.
 		const control = buildTrace(c00062);
-		expect(evaluateRoundTrip(c00062, control).plural).toBe(true);
+		expect(evaluateRoundTrip(c00062, control).formSection).toBe(true);
 
-		// corrupt the plural sibling's first child's label — it no longer
-		// matches what `splitPlural` finds in the original text, so `plural`
-		// must flip.
+		// corrupt the form-section sibling's first child's label — it no
+		// longer matches what `splitFormSection` finds in the original text,
+		// so `formSection` must flip.
 		const corrupted = buildTrace(c00062);
-		const pluralPair = corrupted.pairs.find(
-			(pair) => pair.pluralSibling !== undefined,
+		const formSectionPair = corrupted.pairs.find(
+			(pair) => pair.formSectionSibling !== undefined,
 		);
-		const children = pluralPair?.pluralSibling?.senses;
+		const children = formSectionPair?.formSectionSibling?.senses;
 		const firstChild = children?.[0];
 		if (
-			pluralPair === undefined ||
-			pluralPair.pluralSibling === undefined ||
+			formSectionPair === undefined ||
+			formSectionPair.formSectionSibling === undefined ||
 			children === undefined ||
 			firstChild === undefined
 		) {
 			throw new Error(
-				'expected C00062 to build a plural sibling with children',
+				'expected C00062 to build a form-section sibling with children',
 			);
 		}
-		pluralPair.pluralSibling = {
-			...pluralPair.pluralSibling,
+		formSectionPair.formSectionSibling = {
+			...formSectionPair.formSectionSibling,
 			senses: [{ ...firstChild, label: 'X' }, ...children.slice(1)],
 		};
-		expect(evaluateRoundTrip(c00062, corrupted).plural).toBe(false);
+		expect(evaluateRoundTrip(c00062, corrupted).formSection).toBe(false);
 	});
 });
 

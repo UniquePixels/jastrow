@@ -10,6 +10,7 @@
 import type { ValidateFunction } from 'ajv';
 import { walkSenses } from './census.ts';
 import type { RoundTripResult } from './dry-run-verify.ts';
+import { MARKERS } from './form-sections.ts';
 import { parseMarker } from './grammar.ts';
 import { parseLabel, printLabel } from './labels.ts';
 import type { BodyEntry, BodySense, SourceEntry } from './types.ts';
@@ -70,12 +71,13 @@ interface SchemaFailure {
 
 interface Accumulator {
 	entries: number;
+	formSection: Tally;
+	formSectionSplits: number;
+	formSectionSplitsByMarker: Record<string, number>;
 	grammar: { quarantined: QuarantineEntry[]; total: number };
 	labels: { quarantined: QuarantineEntry[]; regenPass: number; total: number };
 	lettered: Tally;
 	letteredSplitEntries: number;
-	plural: Tally;
-	pluralSplits: number;
 	rejoin: Tally;
 	schema: { failures: SchemaFailure[]; validated: number };
 	stemsCount: number;
@@ -86,12 +88,15 @@ interface Accumulator {
 function createAccumulator(): Accumulator {
 	return {
 		entries: 0,
+		formSection: { pass: 0, total: 0 },
+		formSectionSplits: 0,
+		formSectionSplitsByMarker: Object.fromEntries(
+			MARKERS.map((marker) => [marker, 0]),
+		),
 		grammar: { quarantined: [], total: 0 },
 		labels: { quarantined: [], regenPass: 0, total: 0 },
 		lettered: { pass: 0, total: 0 },
 		letteredSplitEntries: 0,
-		plural: { pass: 0, total: 0 },
-		pluralSplits: 0,
 		rejoin: { pass: 0, total: 0 },
 		schema: { failures: [], validated: 0 },
 		stemsCount: 0,
@@ -111,9 +116,11 @@ function tallyRoundTrip(acc: Accumulator, result: RoundTripResult): void {
 	tallyPass(acc.rejoin, result.rejoin);
 	tallyPass(acc.units, result.units);
 	tallyPass(acc.lettered, result.lettered);
-	tallyPass(acc.plural, result.plural);
-	if (result.pluralSplit) {
-		acc.pluralSplits++;
+	tallyPass(acc.formSection, result.formSection);
+	if (result.formSectionMarker !== null) {
+		acc.formSectionSplits++;
+		acc.formSectionSplitsByMarker[result.formSectionMarker] =
+			(acc.formSectionSplitsByMarker[result.formSectionMarker] ?? 0) + 1;
 	}
 }
 
@@ -142,23 +149,27 @@ function* walkBodyEntry(body: BodyEntry): Generator<BodySense> {
 
 /** Tallies the unit-count distribution and lettered-split/stems census
  * over the already-built shape — independent of the round-trip check,
- * this is pure measurement of what got built. `pluralSiblings` (object
- * identity, not a shape test) excludes the B12 plural-section sibling
- * senses `dry-run.ts` appends: their own restarted-numbered children are
- * a genuine split, but a *plural* one — counting them here would silently
- * inflate `letteredSplitEntries`, which this field's name and Finding 2's
- * census-vs-structural reconciliation both promise is lettered-only.
- * `pluralSplits` (tallied separately, from `evaluateRoundTrip`) is the
- * dedicated count for this kind of split. */
+ * this is pure measurement of what got built. `formSectionSiblings`
+ * (object identity, not a shape test) excludes the B12 form-section
+ * sibling senses `dry-run.ts` appends: their own restarted-numbered
+ * children are a genuine split, but a *form-section* one — counting them
+ * here would silently inflate `letteredSplitEntries`, which this field's
+ * name and Finding 2's census-vs-structural reconciliation both promise
+ * is lettered-only. `formSectionSplits` (tallied separately, from
+ * `evaluateRoundTrip`) is the dedicated count for this kind of split. */
 function tallyStructure(
 	body: BodyEntry,
-	pluralSiblings: ReadonlySet<BodySense>,
+	formSectionSiblings: ReadonlySet<BodySense>,
 	acc: Accumulator,
 ): void {
 	let hasSplit = false;
 	for (const sense of walkBodyEntry(body)) {
 		acc.unitDistribution[unitBucket(sense.units.length)]++;
-		if (sense.senses && sense.senses.length > 0 && !pluralSiblings.has(sense)) {
+		if (
+			sense.senses &&
+			sense.senses.length > 0 &&
+			!formSectionSiblings.has(sense)
+		) {
 			hasSplit = true;
 		}
 	}
@@ -252,7 +263,7 @@ function tallySchema(
 function printSummary(acc: Accumulator): void {
 	console.log(`entries=${acc.entries}`);
 	console.log(
-		`round-trip rejoin=${acc.rejoin.pass}/${acc.rejoin.total} units=${acc.units.pass}/${acc.units.total} lettered=${acc.lettered.pass}/${acc.lettered.total} plural=${acc.plural.pass}/${acc.plural.total}`,
+		`round-trip rejoin=${acc.rejoin.pass}/${acc.rejoin.total} units=${acc.units.pass}/${acc.units.total} lettered=${acc.lettered.pass}/${acc.lettered.total} formSection=${acc.formSection.pass}/${acc.formSection.total}`,
 	);
 	console.log(
 		`labels total=${acc.labels.total} regenPass=${acc.labels.regenPass} quarantined=${acc.labels.quarantined.length}`,
@@ -261,7 +272,10 @@ function printSummary(acc: Accumulator): void {
 		`grammar total=${acc.grammar.total} quarantined=${acc.grammar.quarantined.length}`,
 	);
 	console.log(
-		`letteredSplitEntries=${acc.letteredSplitEntries} pluralSplits=${acc.pluralSplits} stems=${acc.stemsCount}`,
+		`letteredSplitEntries=${acc.letteredSplitEntries} stems=${acc.stemsCount}`,
+	);
+	console.log(
+		`formSectionSplits=${acc.formSectionSplits} byMarker=${JSON.stringify(acc.formSectionSplitsByMarker)}`,
 	);
 	console.log(`unitDistribution=${JSON.stringify(acc.unitDistribution)}`);
 	console.log(

@@ -47,6 +47,28 @@ const CLASSES: Record<string, string[]> = {
 		'V00080',
 		'U01494',
 	],
+	// Non-Pl. form-section markers (B12 extension, maintainer print pass
+	// 2026-07-14): Part. pass. (A02260, A03348, C00869, C00964, C01139,
+	// H01022 — 6 genuine paren-clear splits; C00869/H01022 carry an inline
+	// `<i>Part. pass</i>.` tag between "pass" and its period, per
+	// form-sections.ts's `buildAnchorPattern` comment), Fem. (G00644 — the
+	// only genuine Fem. split once D00194's run is attributed to its
+	// nearer Pl., not its earlier Fem.; see form-sections.ts's header
+	// comment), Denom. (I00311). D00194 is also fixtured in `plural`
+	// above (its Pl. split) — carrying it here too exercises the
+	// nearest-marker-attribution rule directly: this fixture's Fem. anchor
+	// in D00194 must NOT produce a Fem. split.
+	'form-sections': [
+		'A02260',
+		'A03348',
+		'C00869',
+		'C00964',
+		'C01139',
+		'H01022',
+		'G00644',
+		'D00194',
+		'I00311',
+	],
 	stems: ['A00030', 'A00031', 'A00417'],
 	'units-hard': [
 		'A00014',
