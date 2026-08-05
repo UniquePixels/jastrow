@@ -13,7 +13,8 @@
 			"!data/*.jsonl",
 			"!data/admin/annotations.json",
 			"!data/source/*.json",
-			"!data/source/*.jsonl"
+			"!data/source/*.jsonl",
+			"!docs/superpowers/plans/*.tasks.json"
 		]
 	},
 	"assist": {
@@ -313,6 +314,9 @@
 								]
 							}
 						}
+					},
+					"suspicious": {
+						"noConsole": "off"
 					}
 				}
 			}
