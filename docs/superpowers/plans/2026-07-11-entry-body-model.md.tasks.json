@@ -132,7 +132,7 @@
   {
    "id": 15,
    "subject": "Task 15: splitLettered italic-marker extension",
-   "status": "in_progress",
+   "status": "completed",
    "description": "**Goal:** Teach splitLettered (B5) to recognize italic-wrapped lettered markers (`<i>a</i>)`) per the 07 review decision — 75 under-split entries become structural splits.\n\n**Acceptance:** new fixtures for the italic class; census/structural reconciliation (dry-run Finding 2) reaches zero unexplained; byte round-trip gate still 32,512/32,512."
   },
   {
