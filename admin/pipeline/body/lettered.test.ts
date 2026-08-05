@@ -134,15 +134,43 @@ describe('splitLettered', () => {
 		expect(joinLettered(parts)).toBe(text);
 	});
 
-	it('splits a span-end a</i>) marker, leaving its <i> in the head', () => {
-		// Q01353's shape: the a-marker letter ends a longer italic span
-		// (`<i>section, a</i>)`), so only `a</i>)` is the marker and the
-		// span's opening tag stays with the head text it italicizes.
+	it('splits a span-end a</i>) marker, closing the head span', () => {
+		// Q01353's shape: the source lazily merged the italic gloss and
+		// the marker into one span (`<i>section, a</i>)` for `<i>section,
+		// </i><i>a</i>)`), so the split repairs the boundary it cuts —
+		// the head gets the missing `</i>` — and join strips it back off.
 		const text = '<i>section, a</i>) one <i>b</i>) two';
 		const parts = assertSplit(text);
-		expect(parts.head).toBe('<i>section, ');
+		expect(parts.head).toBe('<i>section, </i>');
 		expect(parts.items.map((i) => i.marker)).toEqual(['a</i>)', '<i>b</i>)']);
 		expect(joinLettered(parts)).toBe(text);
+	});
+
+	it('closes the previous item text at a mid-run span-end marker', () => {
+		const text = 'head a) one <i>two; b</i>) three';
+		const parts = assertSplit(text);
+		expect(parts.items[0]?.text).toBe(' one <i>two; </i>');
+		expect(parts.items[1]?.text).toBe(' three');
+		expect(joinLettered(parts)).toBe(text);
+	});
+
+	it('splits a span-start <i>a) marker, re-opening the item text', () => {
+		// Q01198's shape: one italic span covers marker AND item text
+		// (`<i>a) for appearance sake…</i>`), so the marker claims
+		// `<i>a)` and the item text is re-opened with its own `<i>`.
+		const text = 'head <i>a) one</i> b) two';
+		const parts = assertSplit(text);
+		expect(parts.items.map((i) => i.marker)).toEqual(['<i>a)', 'b)']);
+		expect(parts.items[0]?.text).toBe('<i> one</i> ');
+		expect(joinLettered(parts)).toBe(text);
+	});
+
+	it('does not count a possessive or parenthetical span-end letter', () => {
+		// `)` closing a parenthetical right after an italic span is not a
+		// marker: the span-end shape requires `.`/`,`/`;` + space before
+		// the letter (corpus-measured discriminator, see MARKER comment).
+		expect(splitLettered('(<i>in a</i>) manner b) two')).toBeNull();
+		expect(splitLettered('the (<i>camel’s</i>) neck b) two')).toBeNull();
 	});
 
 	it('mixes plain and italic markers in one run', () => {
@@ -163,16 +191,16 @@ describe('fixture sweep (fixtures/lettered.jsonl)', () => {
 		const { mismatches, splitCount } = sweepFixtures(entries);
 
 		expect(mismatches).toEqual([]);
-		// These counts are tied to the current 8-entry fixture set
+		// These counts are tied to the current 9-entry fixture set
 		// (fixtures/lettered.jsonl) — update both if fixtures are added,
 		// removed, or edited. Measured across that set (see task report
 		// for the per-entry breakdown): A01999 def#1 [a,b,c], A01873
 		// def#2 [a,b,c], C00031 def#2 [a,b,c,d], E00378 def#3 [a,b],
 		// C00009 def#2 [a,b], plus the Task 15 italic classes: O01078
-		// def#1 [a,b], P00480 def#3 [a,b,c,d], Q01353 def#7 [a,b] —
-		// 8 definitions split in total.
-		expect(entries.length).toBe(8);
-		expect(splitCount).toBe(8);
+		// def#1 [a,b], P00480 def#3 [a,b,c,d], Q01353 def#7 [a,b],
+		// Q01198 def#1 [a,b] — 9 definitions split in total.
+		expect(entries.length).toBe(9);
+		expect(splitCount).toBe(9);
 	});
 
 	it("A01999's lettered run splits into a), b), c)", async () => {
@@ -214,6 +242,17 @@ describe('fixture sweep (fixtures/lettered.jsonl)', () => {
 		const parts = assertSplit(definition);
 		expect(parts.items.map((i) => i.letter)).toEqual(['a', 'b']);
 		expect(parts.items.map((i) => i.marker)).toEqual(['a</i>)', '<i>b</i>)']);
+		expect(joinLettered(parts)).toBe(definition);
+	});
+
+	it("Q01198's span-start <i>a) run splits and re-opens its item", async () => {
+		const entries = await loadFixtures();
+		const entry = findFixture(entries, 'Q01198');
+		const definition = entry.content.senses[0]?.definition ?? '';
+		expect(definition).toContain('<i>a) for appearance');
+		const parts = assertSplit(definition);
+		expect(parts.items.map((i) => i.marker)).toEqual(['<i>a)', '<i>b</i>)']);
+		expect(parts.items[0]?.text.startsWith('<i> for appearance')).toBe(true);
 		expect(joinLettered(parts)).toBe(definition);
 	});
 

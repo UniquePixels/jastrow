@@ -15,11 +15,13 @@ const FIXTURES_DIR = 'admin/pipeline/body/fixtures';
 const CLASSES: Record<string, string[]> = {
 	baseline: ['A00043', 'A00105', 'A00114'],
 	'origin-splits': ['A00014', 'K00664', 'A01350', 'D01096'],
-	// A01999–C00009: plain a)…b) runs (Task 8). O01078/P00480/Q01353:
-	// the italic-wrapped marker classes (Task 15, §6.0 review decision
-	// 07) — full-italic `<i>a</i>)` runs of 2 (O01078) and 4 (P00480),
-	// and Q01353's mixed run whose a-marker is a span-end `a</i>)`
-	// (`<i>section, a</i>)`) followed by a full-italic `<i>b</i>)`.
+	// A01999–C00009: plain a)…b) runs (Task 8). O01078/P00480/Q01353/
+	// Q01198: the italic-wrapped marker classes (Task 15, §6.0 review
+	// decision 07) — full-italic `<i>a</i>)` runs of 2 (O01078) and 4
+	// (P00480), Q01353's mixed run whose a-marker is a span-end `a</i>)`
+	// (`<i>section, a</i>)`, lazy-merged italic; the split closes the
+	// head span), and Q01198's span-start `<i>a)` (one span across
+	// marker and item text; the split re-opens the item text).
 	lettered: [
 		'A01999',
 		'A01873',
@@ -29,6 +31,7 @@ const CLASSES: Record<string, string[]> = {
 		'O01078',
 		'P00480',
 		'Q01353',
+		'Q01198',
 	],
 	// 25 rids: the design census's coarse detector (Pl. + a bare 1) within
 	// ~120 chars) — only the first 5 carry a genuine paren-clear ascending

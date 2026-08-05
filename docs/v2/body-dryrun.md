@@ -70,14 +70,25 @@ Diffing the two full-corpus results resolves every disagreement:
   under-split failure mode (B9). The §6.0 maintainer review
   ([07-italic-lettered-markers](body-review/07-italic-lettered-markers.md),
   2026-08-05) chose **rule extension** over accepting the under-split,
-  and Task 15 taught `splitLettered`'s `MARKER` two italic marker
-  shapes: the full pair `<i>a</i>)` (75 review entries) and the
-  span-end `a</i>)`, where the letter closes a longer italic span (e.g.
-  Q01353's `<i>section, a</i>)` — the span's `<i>` stays with the head
-  text it italicizes). All 75 now split structurally, each recording
-  its raw marker shape so `joinLettered` stays byte-exact; zero
-  census-detected entries remain unsplit (recomputed full-corpus set
-  diff, this task).
+  and Task 15 taught `splitLettered`'s `MARKER` three italic marker
+  shapes beyond plain `a)`: the full pair `<i>a</i>)` (the bulk of the
+  75), and two lazy-span shapes where the source merged the marker
+  into a neighboring span instead of giving it its own — span-end
+  `a</i>)` (Q01353's `<i>section, a</i>)` for `<i>section,
+  </i><i>a</i>)`) and span-start `<i>a)` (Q01198's `<i>a) for
+  appearance sake…</i>`). Splitting at a lazy-span marker would strand
+  an unbalanced tag, so the split repairs the boundary it cuts —
+  span-end appends the missing `</i>` to the preceding segment,
+  span-start re-opens `<i>` on the item text — and `joinLettered`
+  strips exactly those additions back off (keyed by each item's
+  recorded raw marker), keeping the round-trip byte-exact. The
+  span-end shape is guarded by a corpus-measured discriminator
+  (`.`/`,`/`;` + space before the letter): of 21 raw `x</i>)` matches,
+  6 are genuine markers (all punctuation-preceded) and 15 are
+  possessive/parenthetical prose (`(<i>camel’s</i>)`, `(<i>in
+  a</i>)`) whose `)` closes a parenthetical — the guard excludes all
+  15. All 75 now split structurally; zero census-detected entries
+  remain unsplit (recomputed full-corpus set diff, this task).
 - **2 entries** (`A02705`, `B00880`) split structurally but were never
   counted by the census detector, because their `a)`/`b)` markers
   straddle two separate source fields — `B00880`'s `language_reference`

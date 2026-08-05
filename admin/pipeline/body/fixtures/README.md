@@ -17,7 +17,7 @@ Verify the committed files still match extraction with
 |---|---|---|---|
 | `baseline.jsonl` | 3 | Plain, well-formed entries with no edge-case markup — the control group every rule should leave untouched | §7 (fixture plan) |
 | `origin-splits.jsonl` | 4 | Gloss-head fragments split across `language_code`/`language_reference`/sense-1 text (paren split, mid-phrase straddle) that `rejoin.ts` must heal byte-exactly | §3 (import mapping, B2) |
-| `lettered.jsonl` | 8 | Lettered `a)…b)…` sub-sense runs the lettered-item split (Task 6) must segment correctly — incl. the Task 15 italic-marker classes (`<i>a</i>)` full-pair and `a</i>)` span-end, §6.0 review decision 07) | §7 (lettered-item shapes, ~190) |
+| `lettered.jsonl` | 9 | Lettered `a)…b)…` sub-sense runs the lettered-item split (Task 6) must segment correctly — incl. the Task 15 italic-marker classes (`<i>a</i>)` full-pair, `a</i>)` span-end, `<i>a)` span-start, §6.0 review decision 07) | §7 (lettered-item shapes, ~190) |
 | `stems.jsonl` | 3 | Verbal-stem grammar nodes (`binyan_form`/`verbal_stem`) for the grammar-node extractor (Task 5) | §3 (import mapping) |
 | `units-hard.jsonl` | 7 | Hard unit-segmentation cases: embedded citations, slash-less hrefs, parenthesized cites, and the three malformed-citation damage sites (`D00478`, `J00597`, `J00603`) that exercise the malformed-hit path | §4 (unit segmentation, B4) |
 | `orphans.jsonl` | 27 | The 27 rids carrying the 29 orphan `refs` items (`P00331` carries 3) with no inline citation basis — the disposition set audited in the design doc | §5 (references: derived, not stored, B7) |

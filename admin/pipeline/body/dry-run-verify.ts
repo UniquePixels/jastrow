@@ -129,9 +129,10 @@ function checkLettered(
 	if (!lettersMatch) {
 		return false;
 	}
-	// The marker's raw shape (`a)` vs `<i>a</i>)` vs `a</i>)`) isn't
+	// The marker's raw shape (`a)`, `<i>a</i>)`, `a</i>)`, `<i>a)`) isn't
 	// stored on the built child (its label is just the letter), so it
-	// comes from the fresh re-split of the original text instead.
+	// comes from the fresh re-split of the original text instead —
+	// joinLettered needs it to undo the lazy-span normalization.
 	const rebuilt = joinLettered({
 		head: reconstructHead(pair, formSection),
 		items: children.map((child, index) => ({
