@@ -13,7 +13,7 @@ the built body.
 
 - [ ] **Accept under-split** — the markers stay in the gloss as
   running prose (readable, per-entry hand fixes possible later).
-- [ ] **Extend the rule** — teach `splitLettered` to recognize
+- [x] **Extend the rule** — teach `splitLettered` to recognize
   italic-wrapped markers before migration (future rule work,
   re-fixtured and re-gated).
 
