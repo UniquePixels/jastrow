@@ -30,7 +30,8 @@ First 10 affected entries (one row per affected stem;
 - [ ] **Accept in schema** — relax `minLength: 1` on stem form
   strings; an empty form is arguably meaningful, marking "no
   additional attested form" in that slot.
-- [ ] **Drop at migration** — a migration step filters empty strings
+- [x] **Drop at migration** — a migration step filters empty strings
   out of `forms`; the schema stays as reviewed (B11).
 
 **Decision notes:**
+Additional correct any leading or trailing spaces.
