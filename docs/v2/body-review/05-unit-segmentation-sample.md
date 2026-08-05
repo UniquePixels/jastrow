@@ -12,6 +12,8 @@ readability; citation text kept).
 under-split (acceptable per B4 — two units render as one) / wrong
 split (flag for rule review).
 
+ALL APPROVED
+
 ### A00006 — א׳
 
 **Gloss:** as numeral letter, one, as אות א׳ = אות אחת one letter.
