@@ -1286,6 +1286,41 @@ git commit -s -m "📖 doc(specs): fold body model into architecture"
 
 ---
 
+## Task 15: splitLettered italic-marker extension (from §6.0 review, 07)
+
+**Goal:** Teach `splitLettered` (B5) to recognize italic-wrapped
+lettered markers (`<i>a</i>)`) — the 07 review decision (2026-08-05)
+chose rule extension over accepting the under-split; 75 entries.
+
+**Acceptance Criteria:**
+- [ ] New fixtures for the italic-wrapped class
+- [ ] Census/structural reconciliation (dry-run Finding 2) reaches zero unexplained
+- [ ] Byte round-trip gate still 32,512/32,512
+
+## Task 16: Migration passes from §6.0 review decisions
+
+**Goal:** Implement the migration steps approved 2026-08-05:
+crossref/citation-chop rejoins (36); implied-`1)` inserts (39,
+recorded deviations, register #16); numbering-gap marker reinserts
+per 01's per-row notes; label repairs (`-N)` → em-dash, D00341
+bracket move); empty `binyan_form` drop + whitespace trim (06);
+cite-wraps for the 21 gershayim + 5 ibid orphans; 3 baseless refs
+removed (02 — show only what Jastrow linked).
+
+**Acceptance Criteria:**
+- [ ] Each pass listed in the migration report with entry ids
+- [ ] Blessing gates pass
+- [ ] Print deviations carry the planned notes mechanism, or a TODO pointer to its spec
+
+## Task 17: Protect review-doc decisions from regeneration
+
+**Goal:** `bun body:review` regenerates `docs/v2/body-review/*`
+byte-for-byte and would wipe the hand-recorded 2026-08-05 decisions.
+Make `review.ts` preserve Decision cells/notes on regen, or
+guard/retire the script; keep 00-INDEX's determinism claim accurate.
+
+---
+
 ## Task dependencies
 
 | Task | Blocked by |
@@ -1299,3 +1334,6 @@ git commit -s -m "📖 doc(specs): fold body model into architecture"
 | 11 | 5, 6, 7, 8, 9, 10 |
 | 12 | 11 |
 | 13 | 12 (review outcome may amend wording) |
+| 15 | 12 (review decision 07) |
+| 16 | 15 (splits must precede migration passes); 12 |
+| 17 | 12 — independent of 15/16 |
