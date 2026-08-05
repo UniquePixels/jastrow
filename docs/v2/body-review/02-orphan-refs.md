@@ -16,7 +16,7 @@ resolves. *Context* shows the in-body target text in bold.
 
 | Rid | Headword | Orphan refs item | Context | Decision |
 | --- | --- | --- | --- | --- |
-| A01069 | אט"בח | Jastrow, א"ט 1 | v. **א"ט**  |  |
+| A01069 | אט"בח | Jastrow, א"ט 1 | v. **א"ט**  | ALL Approved |
 | A01940 | אַלֶּפְבֵּיתָא | Jastrow, אלפ"א 1 | m., pl. אַלֶּפְבֵּיתִין same. Koh. R. to I, 13; v. **אלפ"א**  |  |
 | B00752 | בִּית | Jastrow, בי"ת 1 | …he wanted to stay over night; a. e.—Part. בָּאֵית. Targ. Is. LVIII, 5. **same** . Erub. 73ᵃ (opp. to taking meals). to k… |  |
 | B00757 | בי"תא | Jastrow, בי"ת 1 | , v. **בי"ת**  |  |
@@ -47,7 +47,7 @@ the resolution the old refs field recorded for it.
 
 | Rid | Headword | Orphan refs item | Context | Decision |
 | --- | --- | --- | --- | --- |
-| P00331 | עוּקָה | Eruvin 88b:1 | …כ׳ a pit (in the court for receiving waste water) containing two S’ah. **Ib. 88ᵇ** ע׳ מחזיק וכ׳ (masc.). Tosef. ib. IX (VI), 18. Mikv. VI, 1 עוּקַת המערה… |  |
+| P00331 | עוּקָה | Eruvin 88b:1 | …כ׳ a pit (in the court for receiving waste water) containing two S’ah. **Ib. 88ᵇ** ע׳ מחזיק וכ׳ (masc.). Tosef. ib. IX (VI), 18. Mikv. VI, 1 עוּקַת המערה… | ALL Approved |
 | P00331 | עוּקָה | Eruvin 88b:17 | …כ׳ a pit (in the court for receiving waste water) containing two S’ah. **Ib. 88ᵇ** ע׳ מחזיק וכ׳ (masc.). Tosef. ib. IX (VI), 18. Mikv. VI, 1 עוּקַת המערה… |  |
 | P00331 | עוּקָה | Eruvin 88b:22 | …כ׳ a pit (in the court for receiving waste water) containing two S’ah. **Ib. 88ᵇ** ע׳ מחזיק וכ׳ (masc.). Tosef. ib. IX (VI), 18. Mikv. VI, 1 עוּקַת המערה… |  |
 | P01404 | עֶרֶס | Targum Jerusalem, Exodus 21:18 | ch. same. Targ. O. Deut. III, 11. Targ. O. Ex. VII, 28. Targ. Y. II **ib. XXI, 18** ; a. fr.—תשמיש (ד)ע׳ sexual connection. Targ. Y. II ib. XIX, 15 (Y. I … |  |
@@ -61,6 +61,8 @@ opening for orientation.
 
 | Rid | Headword | Orphan refs item | Context | Decision |
 | --- | --- | --- | --- | --- |
-| D00541 | דְּיוֹר | Yoma 2a | m. (דור) dwelling, esp. temporary residence, lodging. Y. Erub. V, 23ᵃ top לשם דייר as a lodging place; a. e.—Pl. דְּיוֹרִים, דְּיוֹרִין. Ib.… |  |
+| D00541 | דְּיוֹר | Yoma 2a | m. (דור) dwelling, esp. temporary residence, lodging. Y. Erub. V, 23ᵃ top לשם דייר as a lodging place; a. e.—Pl. דְּיוֹרִים, דְּיוֹרִין. Ib.… | ALL Remove |
 | M01355 | מִכְוַור | Rosh Hashanah 23b | pr. n. Mikhvar, Makhvar, a district of Peraea. [The situation of Machaerus forbids its identification with our w.] Targ. Y. I Num. XXXII, 1,… |  |
 | Q00890 | פִּיתּוּחַ | Yoma 2a:3 | m. (b. h.; פָּתַח Pi.) incision, engraving, engraved design. Y. Nidd. III, 50ᵈ פ׳ ידים ורגלים וכ׳ it (the embryo) has no incisions indicatin… |  |
+
+I believe these where added links through the Sefaria interface by a user.  There is probably some idea linkage, but for us, we are only concered with showing what Jastow linked.
