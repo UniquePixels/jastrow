@@ -198,7 +198,8 @@ function letteredRun(text: string): boolean {
 // aware) and disagrees with this detector on most of its hits — of the
 // 25 entries this pattern flags corpus-wide, only 5 carry a genuine,
 // paren-clear ascending run (task report). Mirrors the `LETTERED` /
-// `splitLettered` relationship (189 vs 116) documented above and in
+// `splitLettered` relationship (189 detected vs 191 structural since
+// Task 15's italic extension; 116 before it) documented above and in
 // `lettered.ts`'s header comment.
 const PLURAL_SECTION = /Pl\..{0,120}?(?<![(\w])1\)\s/su;
 

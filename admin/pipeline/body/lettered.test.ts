@@ -121,6 +121,40 @@ describe('splitLettered', () => {
 		const parts = assertSplit(text);
 		expect(joinLettered(parts)).toBe(text);
 	});
+
+	it('splits a full-italic <i>a</i>)…<i>b</i>) run', () => {
+		const text = 'head <i>a</i>) one <i>b</i>) two';
+		const parts = assertSplit(text);
+		expect(parts.head).toBe('head ');
+		expect(parts.items.map((i) => i.letter)).toEqual(['a', 'b']);
+		expect(parts.items.map((i) => i.marker)).toEqual([
+			'<i>a</i>)',
+			'<i>b</i>)',
+		]);
+		expect(joinLettered(parts)).toBe(text);
+	});
+
+	it('splits a span-end a</i>) marker, leaving its <i> in the head', () => {
+		// Q01353's shape: the a-marker letter ends a longer italic span
+		// (`<i>section, a</i>)`), so only `a</i>)` is the marker and the
+		// span's opening tag stays with the head text it italicizes.
+		const text = '<i>section, a</i>) one <i>b</i>) two';
+		const parts = assertSplit(text);
+		expect(parts.head).toBe('<i>section, ');
+		expect(parts.items.map((i) => i.marker)).toEqual(['a</i>)', '<i>b</i>)']);
+		expect(joinLettered(parts)).toBe(text);
+	});
+
+	it('mixes plain and italic markers in one run', () => {
+		const text = 'head a) one <i>b</i>) two';
+		const parts = assertSplit(text);
+		expect(parts.items.map((i) => i.marker)).toEqual(['a)', '<i>b</i>)']);
+		expect(joinLettered(parts)).toBe(text);
+	});
+
+	it('does not count a parenthesized italic marker', () => {
+		expect(splitLettered('see (<i>a</i>) and (<i>b</i>)')).toBeNull();
+	});
 });
 
 describe('fixture sweep (fixtures/lettered.jsonl)', () => {
@@ -129,14 +163,16 @@ describe('fixture sweep (fixtures/lettered.jsonl)', () => {
 		const { mismatches, splitCount } = sweepFixtures(entries);
 
 		expect(mismatches).toEqual([]);
-		// These counts are tied to the current 5-entry fixture set
+		// These counts are tied to the current 8-entry fixture set
 		// (fixtures/lettered.jsonl) — update both if fixtures are added,
 		// removed, or edited. Measured across that set (see task report
 		// for the per-entry breakdown): A01999 def#1 [a,b,c], A01873
 		// def#2 [a,b,c], C00031 def#2 [a,b,c,d], E00378 def#3 [a,b],
-		// C00009 def#2 [a,b] — 5 definitions split in total.
-		expect(entries.length).toBe(5);
-		expect(splitCount).toBe(5);
+		// C00009 def#2 [a,b], plus the Task 15 italic classes: O01078
+		// def#1 [a,b], P00480 def#3 [a,b,c,d], Q01353 def#7 [a,b] —
+		// 8 definitions split in total.
+		expect(entries.length).toBe(8);
+		expect(splitCount).toBe(8);
 	});
 
 	it("A01999's lettered run splits into a), b), c)", async () => {
@@ -154,6 +190,30 @@ describe('fixture sweep (fixtures/lettered.jsonl)', () => {
 		const definition = entry.content.senses[1]?.definition ?? '';
 		const parts = assertSplit(definition);
 		expect(parts.items.map((i) => i.letter)).toEqual(['a', 'b', 'c']);
+		expect(joinLettered(parts)).toBe(definition);
+	});
+
+	it("O01078's full-italic run splits into a), b)", async () => {
+		const entries = await loadFixtures();
+		const entry = findFixture(entries, 'O01078');
+		const definition = entry.content.senses[0]?.definition ?? '';
+		const parts = assertSplit(definition);
+		expect(parts.items.map((i) => i.letter)).toEqual(['a', 'b']);
+		expect(parts.items.map((i) => i.marker)).toEqual([
+			'<i>a</i>)',
+			'<i>b</i>)',
+		]);
+		expect(joinLettered(parts)).toBe(definition);
+	});
+
+	it("Q01353's mixed span-end + full-italic run splits into a), b)", async () => {
+		const entries = await loadFixtures();
+		const entry = findFixture(entries, 'Q01353');
+		const definition = entry.content.senses[6]?.definition ?? '';
+		expect(definition).toContain('<i>section, a</i>)');
+		const parts = assertSplit(definition);
+		expect(parts.items.map((i) => i.letter)).toEqual(['a', 'b']);
+		expect(parts.items.map((i) => i.marker)).toEqual(['a</i>)', '<i>b</i>)']);
 		expect(joinLettered(parts)).toBe(definition);
 	});
 

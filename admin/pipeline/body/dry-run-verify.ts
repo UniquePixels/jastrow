@@ -129,10 +129,14 @@ function checkLettered(
 	if (!lettersMatch) {
 		return false;
 	}
+	// The marker's raw shape (`a)` vs `<i>a</i>)` vs `a</i>)`) isn't
+	// stored on the built child (its label is just the letter), so it
+	// comes from the fresh re-split of the original text instead.
 	const rebuilt = joinLettered({
 		head: reconstructHead(pair, formSection),
-		items: children.map((child) => ({
+		items: children.map((child, index) => ({
 			letter: child.label ?? '',
+			marker: letteredParts.items[index]?.marker ?? '',
 			text: reconstructText(child),
 		})),
 	});

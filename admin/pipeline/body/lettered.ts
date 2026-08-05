@@ -13,6 +13,10 @@
 
 interface LetteredItem {
 	letter: string;
+	/** The raw marker text as matched — `a)`, `<i>a</i>)`, or `a</i>)` —
+	 * so `joinLettered` reproduces the source byte-for-byte without the
+	 * caller tracking which shape each marker took. */
+	marker: string;
 	text: string;
 }
 
@@ -23,8 +27,22 @@ interface LetteredParts {
 
 // Shares census.ts's LETTERED caveat: the lookbehind excludes a
 // preceding '(' or letter but not a digit, so a folio-style "39a)"
-// could in principle be read as marker "a)".
-const MARKER = /(?<![(\p{L}])(?<letter>[a-z])\)/gu;
+// could in principle be read as marker "a)". Three marker shapes, tried
+// in this order at each position (Task 15, §6.0 review decision 07):
+//   <i>a</i>)  — the whole italic pair is the marker (75-entry class);
+//   a</i>)     — the letter ends a longer italic span (e.g. Q01353's
+//                `<i>section, a</i>)`), so only letter+close+paren is
+//                the marker and the span's `<i>` stays in the head;
+//   a)         — the original plain shape.
+// The full-italic alternative sits first so the scan consumes it at the
+// `<` and the span-end alternative can't shave it to `a</i>)`. The
+// span-end lookbehind additionally excludes `>`: a letter right after a
+// tag close is the `<i>a</i>)` shape, which only the full alternative
+// (with its own paren/letter guard) may claim — otherwise a
+// parenthesized `(<i>a</i>)`, whose full match the `(` guard blocks,
+// would leak back in as a span-end match.
+const MARKER =
+	/(?:(?<![(\p{L}])<i>(?<full>[a-z])<\/i>\)|(?<![(\p{L}>])(?<close>[a-z])<\/i>\)|(?<![(\p{L}])(?<plain>[a-z])\))/gu;
 
 /** A marker sitting inside an unclosed `<a>…</a>` anchor doesn't count
  * — anchor visible text ("next w.") can itself contain a bare letter
@@ -37,6 +55,7 @@ function insideAnchor(text: string, index: number): boolean {
 interface Mark {
 	index: number;
 	letter: string;
+	marker: string;
 }
 
 /** Every candidate marker in document order, minus anchor-interior
@@ -46,9 +65,10 @@ interface Mark {
 function findMarks(text: string): Mark[] {
 	const marks: Mark[] = [];
 	for (const m of text.matchAll(MARKER)) {
-		const letter = m.groups?.['letter'];
+		const letter =
+			m.groups?.['full'] ?? m.groups?.['close'] ?? m.groups?.['plain'];
 		if (letter !== undefined && !insideAnchor(text, m.index)) {
-			marks.push({ index: m.index, letter });
+			marks.push({ index: m.index, letter, marker: m[0] });
 		}
 	}
 	return marks;
@@ -84,7 +104,11 @@ function splitLettered(text: string): LetteredParts | null {
 	const head = text.slice(0, first.index);
 	const items = run.map((mark, i) => ({
 		letter: mark.letter,
-		text: text.slice(mark.index + 2, run[i + 1]?.index ?? text.length),
+		marker: mark.marker,
+		text: text.slice(
+			mark.index + mark.marker.length,
+			run[i + 1]?.index ?? text.length,
+		),
 	}));
 	return { head, items };
 }
@@ -92,8 +116,7 @@ function splitLettered(text: string): LetteredParts | null {
 /** Inverse of `splitLettered`: reassembles the original text exactly. */
 function joinLettered(parts: LetteredParts): string {
 	return (
-		parts.head +
-		parts.items.map((item) => `${item.letter})${item.text}`).join('')
+		parts.head + parts.items.map((item) => item.marker + item.text).join('')
 	);
 }
 

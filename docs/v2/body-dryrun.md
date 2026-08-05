@@ -29,10 +29,10 @@ files only to stay under the project's per-file line budget.
 | Sense-label occurrences / regenerated / quarantined | 10,186 / 10,180 / **6** |
 | Quarantined label shapes | `[1)` ×1, `-2)` ×5 (2 distinct shapes) |
 | `content.morphology` occurrences / quarantined | 13,162 / **0** |
-| Entries with ≥1 structural lettered split | 116 (census's raw-text detector: 189 — see Finding 2) |
+| Entries with ≥1 structural lettered split | 191 (census's raw-text detector: 189 — see Finding 2) |
 | Entries with a structural form-section split (B12) | **13** — `Pl.` 5, `Part. pass.` 6, `Fem.` 1, `Denom.` 1 (census's coarse detector: `Pl.` 25, `Part. pass.` 10, `Fem.` 2, `Denom.` 1 — see Finding 7) |
 | Binyan/stem sections built | 4,390 (across 2,337 entries) |
-| `BodySense` unit-count distribution (0/1/2/3/4/5+) | 17,718 / 12,339 / 5,637 / 3,329 / 2,138 / 3,961 |
+| `BodySense` unit-count distribution (0/1/2/3/4/5+) | 17,776 / 12,424 / 5,673 / 3,342 / 2,149 / 3,951 |
 | Schema-validation sample | 129 validated, **3 failures** (see Finding 3) |
 
 ## Finding 1 — the three structural rules hit 32,512/32,512, exactly as designed
@@ -52,7 +52,7 @@ every stem child sense round-trips byte-for-byte. This is the design
 doc's blessing-gate condition for these three rules, met without
 exception.
 
-## Finding 2 — lettered-split count: 116 structural vs. 189 census-detected, fully reconciled
+## Finding 2 — lettered-split count: 191 structural vs. 189 census-detected, fully reconciled
 
 `census.ts`'s `letteredRun` is a boolean *detector* — it strips HTML tags
 and tests for an `a)…b)` run anywhere in a definition, sized for corpus
@@ -61,17 +61,23 @@ survey, not structural correctness. `lettered.ts`'s `splitLettered` is the
 header comment already flags that the two "may disagree… on edge cases."
 Diffing the two full-corpus results resolves every disagreement:
 
-- **75 entries** counted by the census detector never split
+- **75 entries** counted by the census detector originally never split
   structurally, because their `a)`/`b)` markers are wrapped in `<i>…</i>`
   tags (e.g. O01078: `<i>a</i>) tied up, hidden … <i>b</i>) blinded,
   blind`). `census.ts` strips tags before testing, so `<i>a</i>)` reads as
-  `a)`; `splitLettered` deliberately never strips tags (its `MARKER` regex
-  requires the letter immediately adjacent to `)` in the raw string), so
-  an italicized marker is invisible to it. This is the module's
-  documented under-split failure mode (B9: "an unsplit block is still
-  readable, a wrongly split one is not") working exactly as designed —
-  confirmed as the *complete* explanation for all 75 (zero residual after
-  accounting for it).
+  `a)`; `splitLettered` deliberately never stripped tags, so an
+  italicized marker was invisible to it — the module's documented
+  under-split failure mode (B9). The §6.0 maintainer review
+  ([07-italic-lettered-markers](body-review/07-italic-lettered-markers.md),
+  2026-08-05) chose **rule extension** over accepting the under-split,
+  and Task 15 taught `splitLettered`'s `MARKER` two italic marker
+  shapes: the full pair `<i>a</i>)` (75 review entries) and the
+  span-end `a</i>)`, where the letter closes a longer italic span (e.g.
+  Q01353's `<i>section, a</i>)` — the span's `<i>` stays with the head
+  text it italicizes). All 75 now split structurally, each recording
+  its raw marker shape so `joinLettered` stays byte-exact; zero
+  census-detected entries remain unsplit (recomputed full-corpus set
+  diff, this task).
 - **2 entries** (`A02705`, `B00880`) split structurally but were never
   counted by the census detector, because their `a)`/`b)` markers
   straddle two separate source fields — `B00880`'s `language_reference`
@@ -84,7 +90,9 @@ Diffing the two full-corpus results resolves every disagreement:
   This is a genuine capability the full composition has that the raw
   per-field census scan doesn't.
 
-189 − 75 + 2 = 116, exactly the measured count. No unexplained residual.
+189 + 2 = 191, exactly the measured count. No unexplained residual.
+(Before Task 15's extension this reconciliation read 189 − 75 + 2 =
+116, with the italic class accounted for as deliberate under-split.)
 
 ## Finding 3 — 3 schema-sample failures, all one root cause: empty-string binyan forms
 
@@ -212,9 +220,10 @@ genuine outright.
 nodes they contribute (13 sibling senses + 25 restarted-numbered items)
 account exactly for Finding 6's node-count increase over the prior
 report. 38 − 25 = 13, exactly the measured count — no unexplained
-residual, and `letteredSplitEntries` (116) is unchanged by this task,
-confirming the split kinds were kept structurally distinct rather than
-double-counted.
+residual, and `letteredSplitEntries` (116 at the time; 191 since
+Task 15's italic-marker extension, Finding 2) was unchanged by this
+task, confirming the split kinds were kept structurally distinct rather
+than double-counted.
 
 ## Verdict
 

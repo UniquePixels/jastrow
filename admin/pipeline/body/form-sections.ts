@@ -37,7 +37,8 @@
  * the exact discriminator between the two classes. This mirrors
  * `lettered.ts`'s "authoritative structural rule may disagree with the
  * census's coarse detector" relationship (documented there for
- * `letteredRun` vs `splitLettered`, 189 vs 116) — see this task's
+ * `letteredRun` vs `splitLettered`, 189 detected vs 191 structural
+ * since Task 15's italic extension; 116 before it) — see this task's
  * `pluralSections` (census, coarse) vs `formSectionSplits` (dry-run,
  * authoritative) counts. Failure mode is under-split (B9): anything that
  * isn't a clean, paren-clear, ascending-from-1 run returns null and the
