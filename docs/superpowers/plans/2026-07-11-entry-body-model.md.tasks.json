@@ -138,7 +138,7 @@
   {
    "id": 16,
    "subject": "Task 16: Migration passes from §6.0 review decisions",
-   "status": "pending",
+   "status": "in_progress",
    "description": "**Goal:** Implement the migration steps the 2026-08-05 review approved: crossref/citation-chop rejoins (36); implied-1) inserts (39, recorded deviations, register #16); numbering-gap marker reinserts per 01's per-row notes; label repairs (-N)→em-dash, D00341 bracket move); empty binyan_form drop + whitespace trim (06); cite-wraps for 21 gershayim + 5 ibid orphans; 3 baseless refs removed (02).\n\n**Acceptance:** each pass listed in the migration report with entry ids; blessing gates pass; deviations carry the planned notes mechanism or a TODO pointer to its spec."
   },
   {
