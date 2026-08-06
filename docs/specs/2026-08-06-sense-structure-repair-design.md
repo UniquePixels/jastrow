@@ -168,15 +168,21 @@ forgotten work:
 - Standing gate: maintainer personally reviews doc 08 and the split
   diffs before anything is blessed into truth.
 
-## 6. Open questions for maintainer review
+## 6. Resolved questions (maintainer, 2026-08-06)
 
-- **Q1 (numbering of new siblings):** keep the marker token verbatim
-  as `number` (e.g. `—3)`) matching the label vocabulary Task 7
-  normalized, or normalize on creation? Proposal: verbatim token —
-  it round-trips and the label rules already handle it.
-- **Q2 (S3 scope):** review all ~78 candidates now, or only those
-  whose absence breaks a sequence? Proposal: all — the census is
-  small and one pass closes the class.
+- **Q1 (numbering of new siblings): verbatim token.** The maintainer
+  asked what the schema and existing senses do; the architecture
+  answers it. Source-layer `sense.number` holds raw print tokens
+  (`"1)"`, `"—2)"`, `"*2)"` — all 10,186 existing labels); the B11
+  truth schema stores the normalized `label`, and `parseLabel`/
+  `printLabel` (B6, Task 7) convert with a byte-exact regeneration
+  proof. New siblings store the verbatim token (e.g. `—3)`) and flow
+  through the same machinery as every other sense — storing
+  normalized would make them the corpus's only differently-shaped
+  labels.
+- **Q2 (S3 scope): all ~78 candidates.** One eyes-on pass closes the
+  class; partial review would recreate the "acknowledged but
+  unscheduled" pattern the audit exists to end.
 
 ## 7. Changelog
 
