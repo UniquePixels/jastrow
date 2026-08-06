@@ -30,11 +30,15 @@ must deliver both.
 
 ## 2. Goal
 
-After this work, an entry whose print shows senses `1)…2)…3)…` has
-**structural** senses `1)`, `2)`, `3)` — regardless of whether
-Sefaria's segmentation swallowed a boundary — and every numbering
-recount residue is either zero or an enumerated, maintainer-signed
-exception.
+After this work, every entry in the **reviewed residue** (the 34
+`brokenTopSequences` + 8 `startsAtTwo` survivors, the in-stem cases,
+and the S3 census candidates the maintainer confirms) has
+**structural** senses matching its print numbering — and every
+numbering recount residue is either zero or an enumerated,
+maintainer-signed exception. Entries outside the reviewed sets are
+out of scope (§4): the recount detectors are the corpus-wide net,
+and anything they catch later joins a future reviewed set rather
+than being split heuristically.
 
 ## 3. Scope
 
@@ -44,15 +48,25 @@ A rid-scoped structural repair pass (in the `repairs.ts` family,
 running **after** the text passes so reinserted markers are already
 in-text):
 
-- For each listed rid, locate the sequence-gap-filling marker
-  (`—N)` / `N)`) inside the host sense's definition.
-- Cut at the marker: host keeps the text before it; a new sibling
-  sense is created with `number` = the marker token and `definition`
-  = the tail.
+- **Rid-keyed expectations, not search:** each listed rid carries the
+  literal marker token expected (`—3)`), the host sense's address,
+  and the expected occurrence count (normally exactly 1) — a wrong or
+  moved marker fails loudly, exactly like the Task 16 find-text
+  passes. The pass runs **after** the text passes as an executable
+  precondition (reinserted markers must already be in-text), asserted
+  in code, not by convention.
+- Cut at the expected marker: host keeps the text before it; a new
+  sibling sense is created with `number` = the marker token and
+  `definition` = the tail, inserted at **host index + 1** in the same
+  list (deterministic placement, not append).
 - **Round-trip proof (B9-grade):** for every split,
   `host.definition + sibling.number + sibling.definition` must
-  reconstruct the pre-split bytes exactly. Fixtured per edge shape;
-  unprovable cases quarantine to eyes-on, never silently into truth.
+  reconstruct the pre-split bytes exactly, **and** the resulting
+  sense list must now read 1..n at the host's level — byte
+  preservation alone can't vouch for structural placement, so both
+  are asserted. Fixtured per edge shape (top-level and stem-child
+  variants both); unprovable cases quarantine to eyes-on, never
+  silently into truth.
 
 Covers the ~31 non-deferred residue rids (the 01 swallowed-marker
 and reinsert classes), rid-keyed and loud on drift, like every
@@ -69,7 +83,10 @@ Hifil `—4)`, the U01787 `Af.` shape). The splitter takes the same
 The in-text census behind `upstream-issues.md` #16 (~78 candidates,
 unreviewed) becomes a generated eyes-on review doc
 (`docs/v2/body-review/08-implied-one-candidates.md`, review.ts
-conventions incl. decision-preservation). Confirmed rows get the
+conventions incl. decision-preservation). The census itself is
+**committed as a literal rid list in code**, and a test asserts doc
+08's row set equals that list exactly (count + set) — a generator
+that drops candidates cannot pass. Confirmed rows get the
 implied-`1)` insert (recorded deviation, register #16) and — where
 the `—2)` run is in-text — the S1 split. Rejected rows are recorded
 with reasons.
@@ -83,14 +100,21 @@ closes.
 
 ### 3.5 Completeness gate (S5)
 
-A committed test asserts:
+A committed test asserts, as **exact equalities** (coverage-only
+checks can be satisfied by stale or duplicated entries):
 
-- every rid in every `docs/v2/body-review/*` decision table appears
-  in exactly one code disposition (the Q00997 gap class can't
-  recur);
-- migrate-dry recounts hit their targets: `brokenTopSequences = 0`,
-  `startsAtTwo = 0`, or the exception list is literal in code with a
-  doc pointer.
+- the rid set across every `docs/v2/body-review/*` decision table
+  **equals** the union of code dispositions — no doc rid without a
+  bucket (the Q00997 gap), no code rid without a doc row, and no rid
+  in more than one bucket;
+- `DEFERRED` is empty and `CONFIRMED_NO_CHANGE` no longer exists —
+  their presence is itself a failure (S4/S6 enforced by assertion,
+  not by intention);
+- every `SIGNED_EXCEPTION` carries a non-empty reason string and a
+  doc pointer;
+- migrate-dry recounts: the observed `brokenTopSequences` and
+  `startsAtTwo` rid lists **equal** the signed-exception list
+  (target: both empty) — not merely "count below N".
 
 ### 3.6 Disposition vocabulary (S6)
 
@@ -105,14 +129,15 @@ state.
 Opened as GitHub issues so prose acknowledgment can't decay into
 forgotten work:
 
-1. Ibid linking pass — 15,421 ibid citations, 7,018 unlinked
-   (design changelog 2026-08-05 "scope the post-migration linking
-   pass").
-2. `notes` mechanism for intentional print deviations (design
-   changelog 2026-08-05 "new scope").
-3. CP-1 carryovers for `migrate.ts`: the 3 ד-headword corrections
-   (manual-correction layer) and the 289 page/column print-locator
-   fixes ("migration rule 6", baseline deployed files).
+1. **#37** — Ibid linking pass: 15,421 ibid citations, 7,018
+   unlinked (design changelog 2026-08-05 "scope the post-migration
+   linking pass").
+2. **#38** — `notes` mechanism for intentional print deviations
+   (design changelog 2026-08-05 "new scope").
+3. **#39** — CP-1 carryovers for `migrate.ts`: the 3 ד-headword
+   corrections (manual-correction layer) and the 289 page/column
+   print-locator fixes ("migration rule 6", baseline deployed
+   files).
 
 ## 4. Non-goals
 
@@ -125,14 +150,20 @@ forgotten work:
 
 ## 5. Acceptance evidence
 
-- Per-split byte round-trip: 100% of applied splits, fixture-tested
-  and full-corpus verified via migrate-dry gates (all four existing
-  round-trips stay 32,512/32,512 on the healed corpus).
-- Recounts: `brokenTopSequences` 34 → 0 (or signed exceptions),
-  `startsAtTwo` 8 → 0 (or signed exceptions), schema failures 0,
+- Per-split byte round-trip **and** structural placement (list reads
+  1..n at the host's level): 100% of applied splits, fixture-tested
+  (top-level and stem-child) and full-corpus verified via
+  migrate-dry gates (all four existing round-trips stay
+  32,512/32,512 on the healed corpus). Scope is the reviewed sets
+  (§2) — the recount detectors, not a heuristic sweep, are the
+  corpus-wide net.
+- Recounts as exact rid-list equalities (S5): observed
+  `brokenTopSequences` and `startsAtTwo` equal the signed-exception
+  list (target: both empty; today 34 and 8), schema failures 0,
   label quarantines 0.
-- Eyes-on: doc 08 generated, every row carries a maintainer
-  decision; docs 01 updated where dispositions changed.
+- Eyes-on: doc 08 generated, row set equal to the committed census
+  list (S3), every row carries a maintainer decision; docs 01
+  updated where dispositions changed.
 - S5 completeness test green in `bun qa`.
 - Standing gate: maintainer personally reviews doc 08 and the split
   diffs before anything is blessed into truth.
@@ -152,3 +183,4 @@ forgotten work:
 | Date | Change |
 |---|---|
 | 2026-08-06 | Initial draft from the PR #36 decision-audit findings |
+| 2026-08-06 | PR #41 review hardening: goal narrowed to the reviewed sets; S1 gets rid-keyed marker expectations, executable text-pass precondition, host+1 placement, and a structural (1..n) assertion beside the byte proof; S3 census committed with doc-equality check; S5 gates become exact set equalities (incl. rejecting `DEFERRED`/`CONFIRMED_NO_CHANGE` and requiring exception reasons); S7 issue ids recorded (#37–#39) |
