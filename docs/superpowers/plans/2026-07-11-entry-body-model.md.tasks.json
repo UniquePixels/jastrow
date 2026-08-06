@@ -1,0 +1,152 @@
+{
+ "planPath": "docs/superpowers/plans/2026-07-11-entry-body-model.md",
+ "tasks": [
+  {
+   "id": 1,
+   "subject": "Task 1: Source reader + body types",
+   "status": "completed",
+   "description": "**Goal:** One shared, tested way to stream source entries and the type vocabulary every later module uses.\n\n**Files:**\n- admin/pipeline/body/types.ts\n- admin/pipeline/body/source.ts\n- admin/pipeline/body/source.test.ts\n- admin/pipeline/body/README.md\n\n**Acceptance Criteria:**\n- [ ] streams 32512 entries\n- [ ] types cover all consumed upstream fields + BodyEntry targets\n- [ ] tests pass\n\n**Verify:** `bun test admin/pipeline/body/source.test.ts`\n\nFull steps: plan doc Task 1.\n\n```json:metadata\n{\"files\": [\"admin/pipeline/body/types.ts\", \"admin/pipeline/body/source.ts\", \"admin/pipeline/body/source.test.ts\", \"admin/pipeline/body/README.md\"], \"verifyCommand\": \"bun test admin/pipeline/body/source.test.ts\", \"acceptanceCriteria\": [\"streams 32512 entries\", \"types cover all consumed upstream fields + BodyEntry targets\", \"tests pass\"], \"modelTier\": \"mechanical\", \"planPath\": \"docs/superpowers/plans/2026-07-11-entry-body-model.md\"}\n```"
+  },
+  {
+   "id": 2,
+   "subject": "Task 2: Citation detector (cite.ts)",
+   "status": "completed",
+   "description": "**Goal:** Find and classify every citation anchor in a definition string — the primitive under units, censuses, and the derived reference index.\n\n**Files:**\n- admin/pipeline/body/cite.ts\n- admin/pipeline/body/cite.test.ts\n\n**Acceptance Criteria:**\n- [ ] both href forms detected\n- [ ] internal vs external classified with dataRef + spans\n- [ ] no text rewriting\n\n**Verify:** `bun test admin/pipeline/body/cite.test.ts`\n\nFull steps: plan doc Task 2.\n\n```json:metadata\n{\"files\": [\"admin/pipeline/body/cite.ts\", \"admin/pipeline/body/cite.test.ts\"], \"verifyCommand\": \"bun test admin/pipeline/body/cite.test.ts\", \"acceptanceCriteria\": [\"both href forms detected\", \"internal vs external classified with dataRef + spans\", \"no text rewriting\"], \"modelTier\": \"standard\", \"planPath\": \"docs/superpowers/plans/2026-07-11-entry-body-model.md\"}\n```",
+   "blockedBy": [
+    1
+   ]
+  },
+  {
+   "id": 3,
+   "subject": "Task 3: Body census (census.ts)",
+   "status": "completed",
+   "description": "**Goal:** Measure every value space and edge class the rules depend on, so fixtures and rule vocabularies are evidence, not guesses.\n\n**Files:**\n- admin/pipeline/body/census.ts\n- admin/pipeline/body/census.test.ts\n- package.json\n- .gitignore\n- docs/v2/body-census.md\n\n**Acceptance Criteria:**\n- [ ] report has all listed sections\n- [ ] classifiers unit-tested\n- [ ] doc summary with measured numbers\n\n**Verify:** `bun body:census`\n\nFull steps: plan doc Task 3.\n\n```json:metadata\n{\"files\": [\"admin/pipeline/body/census.ts\", \"admin/pipeline/body/census.test.ts\", \"package.json\", \".gitignore\", \"docs/v2/body-census.md\"], \"verifyCommand\": \"bun body:census\", \"acceptanceCriteria\": [\"report has all listed sections\", \"classifiers unit-tested\", \"doc summary with measured numbers\"], \"modelTier\": \"standard\", \"planPath\": \"docs/superpowers/plans/2026-07-11-entry-body-model.md\"}\n```",
+   "blockedBy": [
+    1,
+    2
+   ]
+  },
+  {
+   "id": 4,
+   "subject": "Task 4: Fixture corpus",
+   "status": "completed",
+   "description": "**Goal:** Committed, hermetic entry snapshots per edge class so every rule test runs against real data without reading the 90 MB source.\n\n**Files:**\n- admin/pipeline/body/fixtures/extract.ts\n- admin/pipeline/body/fixtures/README.md\n\n**Acceptance Criteria:**\n- [ ] all 8 classes present\n- [ ] deterministic regeneration with --check\n- [ ] README documents each class\n\n**Verify:** `bun admin/pipeline/body/fixtures/extract.ts --check`\n\nFull steps: plan doc Task 4.\n\n```json:metadata\n{\"files\": [\"admin/pipeline/body/fixtures/extract.ts\", \"admin/pipeline/body/fixtures/README.md\"], \"verifyCommand\": \"bun admin/pipeline/body/fixtures/extract.ts --check\", \"acceptanceCriteria\": [\"all 8 classes present\", \"deterministic regeneration with --check\", \"README documents each class\"], \"modelTier\": \"mechanical\", \"planPath\": \"docs/superpowers/plans/2026-07-11-entry-body-model.md\"}\n```",
+   "blockedBy": [
+    3
+   ]
+  },
+  {
+   "id": 5,
+   "subject": "Task 5: Gloss-head rejoin (rejoin.ts)",
+   "status": "completed",
+   "description": "**Goal:** Rebuild the printed gloss head — morphology + language_code + language_reference + sense-1 text — with a byte round-trip by construction.\n\n**Files:**\n- admin/pipeline/body/rejoin.ts\n- admin/pipeline/body/rejoin.test.ts\n\n**Acceptance Criteria:**\n- [ ] byte round-trip via offsets\n- [ ] print order correct\n- [ ] fixture sweep passes\n\n**Verify:** `bun test admin/pipeline/body/rejoin.test.ts`\n\nFull steps: plan doc Task 5.\n\n```json:metadata\n{\"files\": [\"admin/pipeline/body/rejoin.ts\", \"admin/pipeline/body/rejoin.test.ts\"], \"verifyCommand\": \"bun test admin/pipeline/body/rejoin.test.ts\", \"acceptanceCriteria\": [\"byte round-trip via offsets\", \"print order correct\", \"fixture sweep passes\"], \"modelTier\": \"standard\", \"planPath\": \"docs/superpowers/plans/2026-07-11-entry-body-model.md\"}\n```",
+   "blockedBy": [
+    4
+   ]
+  },
+  {
+   "id": 6,
+   "subject": "Task 6: Gender markers (grammar.ts)",
+   "status": "completed",
+   "description": "**Goal:** Parse the closed content.morphology marker vocabulary into the typed grammar index; anything outside the vocabulary is omitted and reported, never guessed.\n\n**Files:**\n- admin/pipeline/body/grammar.ts\n- admin/pipeline/body/grammar.test.ts\n\n**Acceptance Criteria:**\n- [ ] VOCAB covers census value space explicitly\n- [ ] unknowns reported not guessed\n- [ ] 99% coverage test passes\n\n**Verify:** `bun test admin/pipeline/body/grammar.test.ts`\n\nFull steps: plan doc Task 6.\n\n```json:metadata\n{\"files\": [\"admin/pipeline/body/grammar.ts\", \"admin/pipeline/body/grammar.test.ts\"], \"verifyCommand\": \"bun test admin/pipeline/body/grammar.test.ts\", \"acceptanceCriteria\": [\"VOCAB covers census value space explicitly\", \"unknowns reported not guessed\", \"99% coverage test passes\"], \"modelTier\": \"standard\", \"planPath\": \"docs/superpowers/plans/2026-07-11-entry-body-model.md\"}\n```",
+   "blockedBy": [
+    4
+   ]
+  },
+  {
+   "id": 7,
+   "subject": "Task 7: Labels (labels.ts)",
+   "status": "completed",
+   "description": "**Goal:** Normalize sense labels and regenerate the print form byte-exactly; anything non-regenerable quarantines.\n\n**Files:**\n- admin/pipeline/body/labels.ts\n- admin/pipeline/body/labels.test.ts\n\n**Acceptance Criteria:**\n- [ ] byte-exact print regeneration\n- [ ] null on garbage\n- [ ] fixture sweep with explicit quarantines\n\n**Verify:** `bun test admin/pipeline/body/labels.test.ts`\n\nFull steps: plan doc Task 7.\n\n```json:metadata\n{\"files\": [\"admin/pipeline/body/labels.ts\", \"admin/pipeline/body/labels.test.ts\"], \"verifyCommand\": \"bun test admin/pipeline/body/labels.test.ts\", \"acceptanceCriteria\": [\"byte-exact print regeneration\", \"null on garbage\", \"fixture sweep with explicit quarantines\"], \"modelTier\": \"standard\", \"planPath\": \"docs/superpowers/plans/2026-07-11-entry-body-model.md\"}\n```",
+   "blockedBy": [
+    4
+   ]
+  },
+  {
+   "id": 8,
+   "subject": "Task 8: Lettered-item split (lettered.ts)",
+   "status": "completed",
+   "description": "**Goal:** Split provable a)/b)/c) runs into child senses; anything unprovable stays untouched in the parent gloss (under-split only).\n\n**Files:**\n- admin/pipeline/body/lettered.ts\n- admin/pipeline/body/lettered.test.ts\n\n**Acceptance Criteria:**\n- [ ] ascending-run guard\n- [ ] byte round-trip\n- [ ] fixture entries split or null, never mangled\n\n**Verify:** `bun test admin/pipeline/body/lettered.test.ts`\n\nFull steps: plan doc Task 8.\n\n```json:metadata\n{\"files\": [\"admin/pipeline/body/lettered.ts\", \"admin/pipeline/body/lettered.test.ts\"], \"verifyCommand\": \"bun test admin/pipeline/body/lettered.test.ts\", \"acceptanceCriteria\": [\"ascending-run guard\", \"byte round-trip\", \"fixture entries split or null, never mangled\"], \"modelTier\": \"standard\", \"planPath\": \"docs/superpowers/plans/2026-07-11-entry-body-model.md\"}\n```",
+   "blockedBy": [
+    4
+   ]
+  },
+  {
+   "id": 9,
+   "subject": "Task 9: Unit segmentation (units.ts)",
+   "status": "completed",
+   "description": "**Goal:** The conservative terminator rule (B4): break before an external citation only after period/dash/sense-start; joining units reproduces the input byte-for-byte.\n\n**Files:**\n- admin/pipeline/body/units.ts\n- admin/pipeline/body/units.test.ts\n\n**Acceptance Criteria:**\n- [ ] byte round-trip on all fixtures\n- [ ] conservative boundaries only\n- [ ] A00014 unit count asserted\n\n**Verify:** `bun test admin/pipeline/body/units.test.ts`\n\nFull steps: plan doc Task 9.\n\n```json:metadata\n{\"files\": [\"admin/pipeline/body/units.ts\", \"admin/pipeline/body/units.test.ts\"], \"verifyCommand\": \"bun test admin/pipeline/body/units.test.ts\", \"acceptanceCriteria\": [\"byte round-trip on all fixtures\", \"conservative boundaries only\", \"A00014 unit count asserted\"], \"modelTier\": \"standard\", \"planPath\": \"docs/superpowers/plans/2026-07-11-entry-body-model.md\"}\n```",
+   "blockedBy": [
+    2,
+    3,
+    4
+   ]
+  },
+  {
+   "id": 10,
+   "subject": "Task 10: Formal JSON Schema (B11)",
+   "status": "completed",
+   "description": "**Goal:** The machine-readable generic spec of the truth entry format, with fixture-backed validation tests. DECIDE first: validator dep (ajv recommended) vs hand-rolled — CP-2a reserves new deps to the maintainer.\n\n**Files:**\n- admin/pipeline/schema/entry.schema.json\n- admin/pipeline/schema/entry.schema.test.ts\n\n**Acceptance Criteria:**\n- [ ] schema matches design doc section 2\n- [ ] closed schema rejects unknown fields\n- [ ] validator decision made by maintainer\n\n**Verify:** `bun test admin/pipeline/schema`\n\nFull steps: plan doc Task 10.\n\n```json:metadata\n{\"files\": [\"admin/pipeline/schema/entry.schema.json\", \"admin/pipeline/schema/entry.schema.test.ts\"], \"verifyCommand\": \"bun test admin/pipeline/schema\", \"acceptanceCriteria\": [\"schema matches design doc section 2\", \"closed schema rejects unknown fields\", \"validator decision made by maintainer\"], \"modelTier\": \"standard\", \"planPath\": \"docs/superpowers/plans/2026-07-11-entry-body-model.md\"}\n```",
+   "blockedBy": [
+    1
+   ]
+  },
+  {
+   "id": 11,
+   "subject": "Task 11: Full-corpus dry-run (dry-run.ts)",
+   "status": "completed",
+   "description": "**Goal:** Compose every rule over all 32,512 entries, read-only, and emit the 6.0 gate evidence: round-trip counts, quarantine lists, schema-validated samples.\n\n**Files:**\n- admin/pipeline/body/dry-run.ts\n- admin/pipeline/body/dry-run.test.ts\n- package.json\n- docs/v2/body-dryrun.md\n\n**Acceptance Criteria:**\n- [ ] structural round-trips 32512/32512\n- [ ] quarantine lists emitted\n- [ ] schema sample validation\n- [ ] read-only over data/\n\n**Verify:** `bun body:dry-run`\n\nFull steps: plan doc Task 11.\n\n```json:metadata\n{\"files\": [\"admin/pipeline/body/dry-run.ts\", \"admin/pipeline/body/dry-run.test.ts\", \"package.json\", \"docs/v2/body-dryrun.md\"], \"verifyCommand\": \"bun body:dry-run\", \"acceptanceCriteria\": [\"structural round-trips 32512/32512\", \"quarantine lists emitted\", \"schema sample validation\", \"read-only over data/\"], \"modelTier\": \"standard\", \"planPath\": \"docs/superpowers/plans/2026-07-11-entry-body-model.md\"}\n```",
+   "blockedBy": [
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+   ]
+  },
+  {
+   "id": 12,
+   "subject": "Task 12: Maintainer review package",
+   "status": "completed",
+   "description": "**Goal:** Generate the eyes-on review docs for every set the maintainer must personally clear before 6.0 is blessed.\n\n**USER-ORDERED GATE — NON-SKIPPABLE.** This task was requested by the user in the current conversation. It MUST NOT be closed by walking around it, by declaring it \"verified inline\", or by substituting a cheaper check. Close only after every item in `acceptanceCriteria` has been re-validated independently, with output captured.\n\n**Files:**\n- admin/pipeline/body/review.ts\n- package.json\n\n**Acceptance Criteria:**\n- [ ] all six review docs generated\n- [ ] maintainer decisions recorded in docs\n- [ ] design-doc changelog row committed\n\n**Verify:** `git log --oneline -1 -- docs/specs/2026-07-11-entry-body-model-design.md`\n\nFull steps: plan doc Task 12.\n\n```json:metadata\n{\"files\": [\"admin/pipeline/body/review.ts\", \"package.json\"], \"verifyCommand\": \"git log --oneline -1 -- docs/specs/2026-07-11-entry-body-model-design.md\", \"acceptanceCriteria\": [\"all six review docs generated\", \"maintainer decisions recorded in docs\", \"design-doc changelog row committed\"], \"modelTier\": \"standard\", \"planPath\": \"docs/superpowers/plans/2026-07-11-entry-body-model.md\", \"userGate\": true, \"tags\": [\"user-gate\"], \"gateScope\": \"before 6.0 blessing\"}\n```\n\n**Outcome:** All 7 docs decided 2026-08-05; outcomes in design doc §9 changelog row 2026-08-05. Spawned Tasks 15–17.",
+   "blockedBy": [
+    11
+   ]
+  },
+  {
+   "id": 13,
+   "subject": "Task 13: Parent-spec amendments",
+   "status": "completed",
+   "description": "**Goal:** Apply the design doc's section-8 consequences to the parent data-architecture spec; docs-only PR to main.\n\n**Files:**\n- docs/specs/2026-07-08-v2-data-architecture-design.md\n\n**Acceptance Criteria:**\n- [ ] four edit groups applied\n- [ ] changelog row present\n- [ ] docs-only PR to main open\n\n**Verify:** `gh pr view --json files`\n\nFull steps: plan doc Task 13.\n\n```json:metadata\n{\"files\": [\"docs/specs/2026-07-08-v2-data-architecture-design.md\"], \"verifyCommand\": \"gh pr view --json files\", \"acceptanceCriteria\": [\"four edit groups applied\", \"changelog row present\", \"docs-only PR to main open\"], \"modelTier\": \"standard\", \"planPath\": \"docs/superpowers/plans/2026-07-11-entry-body-model.md\"}\n```",
+   "blockedBy": [
+    12
+   ]
+  },
+  {
+   "id": 14,
+   "subject": "Task 14: Plural-section split (plural.ts)",
+   "status": "completed",
+   "description": "**Goal:** Parse —Pl. <form> 1)…2)… blocks (B12) out of their host sense into a sibling sense node with child numbered senses; byte round-trip by slicing.\n\n**Outcome:** 5 genuine splits (census's 25 candidates included 20 citation-chapter false positives, hand-verified); paren-balance discriminator; dry-run 32,512/32,512 across all four structural rules.\n\n```json:metadata\n{\"files\": [\"admin/pipeline/body/plural.ts\"], \"verifyCommand\": \"bun body:dry-run\", \"acceptanceCriteria\": [\"byte round-trip\", \"plain Pl. never splits\"], \"modelTier\": \"standard\"}\n```"
+  },
+  {
+   "id": 15,
+   "subject": "Task 15: splitLettered italic-marker extension",
+   "status": "completed",
+   "description": "**Goal:** Teach splitLettered (B5) to recognize italic-wrapped lettered markers (`<i>a</i>)`) per the 07 review decision — 75 under-split entries become structural splits.\n\n**Acceptance:** new fixtures for the italic class; census/structural reconciliation (dry-run Finding 2) reaches zero unexplained; byte round-trip gate still 32,512/32,512."
+  },
+  {
+   "id": 16,
+   "subject": "Task 16: Migration passes from §6.0 review decisions",
+   "status": "completed",
+   "description": "**Goal:** Implement the migration steps the 2026-08-05 review approved: crossref/citation-chop rejoins (36); implied-1) inserts (39, recorded deviations, register #16); numbering-gap marker reinserts per 01's per-row notes; label repairs (-N)→em-dash, D00341 bracket move); empty binyan_form drop + whitespace trim (06); cite-wraps for 21 gershayim + 5 ibid orphans; 3 baseless refs removed (02).\n\n**Acceptance:** each pass listed in the migration report with entry ids; blessing gates pass; deviations carry the planned notes mechanism or a TODO pointer to its spec."
+  },
+  {
+   "id": 17,
+   "subject": "Task 17: Protect review-doc decisions from regeneration",
+   "status": "completed",
+   "description": "**Goal:** bun body:review regenerates docs/v2/body-review/* byte-for-byte and would wipe the hand-recorded 2026-08-05 decisions. Make review.ts preserve Decision cells/notes on regen, or guard/retire the script; keep 00-INDEX's determinism claim accurate."
+  }
+ ],
+ "lastUpdated": "2026-08-06T01:14:41Z"
+}

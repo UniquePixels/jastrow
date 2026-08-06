@@ -17,3 +17,8 @@ node_modules/
 # regenerable pipeline intermediates (data-architecture spec D2)
 data/source/edit-replay.jsonl
 data/source/baseline-audit-report.json
+data/source/body-census-report.json
+data/source/body-dryrun-report.json
+data/source/body-migration-report.json
+.superpowers/
+~$*.docx
