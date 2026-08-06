@@ -624,4 +624,10 @@ const REPAIRED_ORPHAN_ITEMS: Record<string, string[]> = {
 };
 
 export type { PassName, RepairRecord };
-export { applyRepairs, CONFIRMED_NO_CHANGE, DEFERRED, REPAIRED_ORPHAN_ITEMS };
+export {
+	applyRepairs,
+	CONFIRMED_NO_CHANGE,
+	DEFERRED,
+	REPAIRED_ORPHAN_ITEMS,
+	walkSensesDeep,
+};

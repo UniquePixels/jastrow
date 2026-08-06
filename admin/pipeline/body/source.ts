@@ -28,6 +28,10 @@ async function* linesOf(
 		tail = lines.pop() ?? '';
 		yield* lines;
 	}
+	// Final flush: a stream ending mid-multi-byte-sequence would otherwise
+	// leave its trailing bytes inside the decoder — the tail line would be
+	// silently shortened instead of failing visibly downstream.
+	tail += decoder.decode();
 	if (tail !== '') {
 		yield tail;
 	}

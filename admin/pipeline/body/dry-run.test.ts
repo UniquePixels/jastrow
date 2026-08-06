@@ -93,10 +93,9 @@ describe('buildBody structure: plural.jsonl (B12 sibling sense)', () => {
 		const { body } = buildBody(c00062);
 
 		expect(body.senses.map((s) => s.label)).toEqual(['1', '3', undefined]);
-		const host = body.senses[1];
+		const [, host, sibling] = body.senses;
 		expect(host?.gloss).toBe('<i>high age</i>, v. infra.');
 
-		const sibling = body.senses[2];
 		expect(sibling?.gloss).toBe('—Pl. <span dir="rtl">גְּבוּרוֹת</span> ');
 		expect(sibling?.units).toEqual([]);
 		expect(sibling?.senses?.map((s) => s.label)).toEqual(['1', '2', '3']);

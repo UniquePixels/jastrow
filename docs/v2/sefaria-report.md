@@ -153,9 +153,12 @@ a neighboring valid anchor is consumed into it.
 
 ---
 
-## 6. Duplicated nested anchors (475 anchors)
+## 6. Duplicated nested anchors (475 in definitions; 1,230 corpus-wide)
 
-Identical anchors nested one inside the other.
+Identical anchors nested one inside the other. The 475 counts
+definition-field anchors only; adding the 755 `language_reference`
+occurrences gives the 1,230 all-field total the upstream register
+reports.
 
 **Example — `A00085`:**
 
@@ -297,7 +300,7 @@ Divine power, wonders. … —2) mighty deeds…
 The `1)` and `2)` here are not sub-points of sense 3 — they are the
 plural lemma's own senses. A faithful structure would be, in outline:
 
-```
+```text
 senses: 1) strength…  2) …  3) might of God…
 plural (גְּבוּרוֹת): 1) manifestations of Divine power…  2) mighty deeds…
 ```

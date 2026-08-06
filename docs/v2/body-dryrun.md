@@ -175,7 +175,7 @@ the later Task 15 italic-marker lettered extension (Finding 2, 116 →
 — short
 cross-reference-style senses whose entire content is the gloss itself,
 consistent with the parent design doc's note that
-8,592 entries are pointer-only (", v. X") bodies. The remaining 60.7%
+8,592 entries are pointer-only (", v. X") bodies. The remaining 60.8%
 carry at least one evidentiary citation unit, with a real tail out past 5
 (8.7%) for heavily-cited entries (long verb roots with many binyan
 sections and citations per sense). No single bucket dominates past 40%,

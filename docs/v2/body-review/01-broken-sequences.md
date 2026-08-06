@@ -15,6 +15,16 @@ usually hides — followed by the label token itself in bold.
 **Decision to record per row:** what migration should do with the
 entry's numbering (accept as printed / hand-fix / other).
 
+**Section decisions (maintainer review 2026-08-05, recorded in the
+design-doc changelog):** crossref-chop and citation-chop rejoins
+approved for all 36 rows (blank cells inherit the section's "ALL
+approved"); numbering-gap rows hand-verified against print — per-row
+notes below drove the `repairs.ts` dispositions (marker reinserts,
+implied-`1)` inserts, deferrals D00470/K00081/R00519). The
+no-byte-change rows are superseded 2026-08-06: the swallowed-marker
+class must be structurally split (sense-structure-repair design spec,
+follow-up branch).
+
 ## Crossref-chop — phantom sense from a chopped cross-reference (35 entries)
 
 the upstream sense segmentation chopped a parenthesized cross-reference —

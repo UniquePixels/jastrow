@@ -148,5 +148,5 @@
    "description": "**Goal:** bun body:review regenerates docs/v2/body-review/* byte-for-byte and would wipe the hand-recorded 2026-08-05 decisions. Make review.ts preserve Decision cells/notes on regen, or guard/retire the script; keep 00-INDEX's determinism claim accurate."
   }
  ],
- "lastUpdated": "2026-07-15T00:42:24Z"
+ "lastUpdated": "2026-08-06T01:14:41Z"
 }

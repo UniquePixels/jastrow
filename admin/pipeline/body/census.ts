@@ -60,14 +60,14 @@ function classifyBoundary(before: string): Boundary {
 	return 'embedded';
 }
 
-const SENSE_NUMBER = /(\d+)/u;
+const SENSE_NUMBER = /(?<digits>\d+)/u;
 
 /** Pull the leading integer out of each sense-number token ("—3)" → 3)
  * in encounter order, dropping any token with none. A clean sequence
  * is `[1, 2, ..., n]`; anything else is a broken sequence. */
 function labelSequence(numbers: string[]): number[] {
 	return numbers
-		.map((n) => SENSE_NUMBER.exec(n)?.[1])
+		.map((n) => SENSE_NUMBER.exec(n)?.groups?.['digits'])
 		.filter((n): n is string => n !== undefined)
 		.map(Number);
 }
@@ -85,7 +85,7 @@ interface SequenceBreak {
 
 /** The entry-level fields a phantom-sense check reads when the bare
  * number's preceding sense is `senses[0]` (or the bare number's sense
- * *is* `senses[0]`, with nothing before it at all) — the gloss head a
+ * is itself `senses[0]`, with nothing before it at all) — the gloss head a
  * chopped cross-reference paren often opens in. */
 interface OriginFields {
 	languageCode?: string;

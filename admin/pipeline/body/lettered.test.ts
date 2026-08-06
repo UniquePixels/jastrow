@@ -7,7 +7,7 @@ import type { SourceEntry } from './types.ts';
 
 const FIXTURES = 'admin/pipeline/body/fixtures/lettered.jsonl';
 
-/** Loads the 5-entry fixture set once per test file (tiny, so an array
+/** Loads the 9-entry fixture set once per test file (tiny, so an array
  * is simpler for callers than re-streaming per test). */
 async function loadFixtures(): Promise<SourceEntry[]> {
 	const entries: SourceEntry[] = [];

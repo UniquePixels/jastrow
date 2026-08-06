@@ -25,7 +25,7 @@ instead of silently skipping (B9).
 | **Units round-trip** (healed corpus) | **32,512 / 32,512** |
 | **Lettered round-trip** (healed corpus) | **32,512 / 32,512** |
 | **Form-section round-trip** (healed corpus) | **32,512 / 32,512** |
-| Schema validation (full corpus, not the dry run's 129-sample) | 32,512 validated, **0 failures** (was 3-in-sample / 486 latent) |
+| Schema validation (full corpus, not the dry run's 133-sample) | 32,512 validated, **0 failures** (was 4-in-sample / 486 latent) |
 | Label quarantines | **0** (was 6 — see label repairs) |
 | Empty or untrimmed binyan forms | **0** (was 486 empty + 523 untrimmed) |
 | Broken top-level sense sequences | **34** (was 72 — the 34 remaining are the reviewed swallowed-boundary rows + 3 deferred, below) |

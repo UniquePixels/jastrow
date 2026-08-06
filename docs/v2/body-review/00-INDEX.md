@@ -18,13 +18,13 @@ recorded decisions and regenerates.
 
 | Doc | Decision set | Items | Status |
 | --- | --- | --- | --- |
-| [01-broken-sequences.md](01-broken-sequences.md) | Broken sense-number sequences | 72 entries (35 crossref-chop / 1 citation-chop / 35 numbering-gap / 1 unclassified) | awaiting review |
-| [02-orphan-refs.md](02-orphan-refs.md) | Orphan `refs` items (§5 dispositions pre-annotated) | 29 items (27 entries) | awaiting review |
-| [03-quotes-stragglers.md](03-quotes-stragglers.md) | `quotes` phrases that do not locate in their body | 8 entries | awaiting review |
-| [04-label-quarantines.md](04-label-quarantines.md) | Unparseable sense labels | 6 occurrences | awaiting review |
-| [05-unit-segmentation-sample.md](05-unit-segmentation-sample.md) | Unit-segmentation spot sample | 50 entries | awaiting review |
-| [06-empty-binyan-forms.md](06-empty-binyan-forms.md) | Empty `binyan_form` strings vs. schema `minLength: 1` | 486 occurrences (446 entries) | awaiting review |
-| [07-italic-lettered-markers.md](07-italic-lettered-markers.md) | Italic-wrapped lettered markers (census/structural gap) | 75 entries | awaiting review |
+| [01-broken-sequences.md](01-broken-sequences.md) | Broken sense-number sequences | 72 entries (35 crossref-chop / 1 citation-chop / 35 numbering-gap / 1 unclassified) | reviewed 2026-08-05 |
+| [02-orphan-refs.md](02-orphan-refs.md) | Orphan `refs` items (§5 dispositions pre-annotated) | 29 items (27 entries) | reviewed 2026-08-05 |
+| [03-quotes-stragglers.md](03-quotes-stragglers.md) | `quotes` phrases that do not locate in their body | 8 entries | reviewed 2026-08-05 |
+| [04-label-quarantines.md](04-label-quarantines.md) | Unparseable sense labels | 6 occurrences | reviewed 2026-08-05 |
+| [05-unit-segmentation-sample.md](05-unit-segmentation-sample.md) | Unit-segmentation spot sample | 50 entries | reviewed 2026-08-05 |
+| [06-empty-binyan-forms.md](06-empty-binyan-forms.md) | Empty `binyan_form` strings vs. schema `minLength: 1` | 486 occurrences (446 entries) | reviewed 2026-08-05 |
+| [07-italic-lettered-markers.md](07-italic-lettered-markers.md) | Italic-wrapped lettered markers (census/structural gap) | 75 entries | reviewed 2026-08-05 |
 
 Grammar-marker quarantines: the dry run measured
 **0 quarantined** of 13,162 markers — no doc needed (0 items).

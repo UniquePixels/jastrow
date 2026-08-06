@@ -4,11 +4,12 @@ import { applyRepairs, CONFIRMED_NO_CHANGE } from './repairs.ts';
 import { readSourceEntries } from './source.ts';
 import type { SourceEntry } from './types.ts';
 
+const FIXTURES_DIR = `${import.meta.dir}/fixtures`;
 const FIXTURES = [
-	'admin/pipeline/body/fixtures/broken-sequences.jsonl',
-	'admin/pipeline/body/fixtures/label-quarantines.jsonl',
-	'admin/pipeline/body/fixtures/numbering-extras.jsonl',
-	'admin/pipeline/body/fixtures/orphans.jsonl',
+	`${FIXTURES_DIR}/broken-sequences.jsonl`,
+	`${FIXTURES_DIR}/label-quarantines.jsonl`,
+	`${FIXTURES_DIR}/numbering-extras.jsonl`,
+	`${FIXTURES_DIR}/orphans.jsonl`,
 ];
 
 /** Loads every repair-relevant fixture file once, keyed by rid. */

@@ -13,7 +13,7 @@ from this repo. The data damage is real either way.
 
 | # | Issue | Size | Examples | Evidence | Status |
 |---|---|---|---|---|---|
-| 1 | Three headwords read ך where print (p. 1086) has ד | 3 entries | P00855 (עָמַד I), P00856 (עָמַד II), P00860 (עֶמֶד) | [divergence audit](divergence-audit.md) Finding 2; content evidence in the entries themselves | to report |
+| 1 | Three headwords read ך where print (p. 1086) has ד | 3 entries | P00855 (served עָמַך I → print עָמַד I), P00856 (served עָמַך II → print עָמַד II), P00860 (served עֶמֶך → print עֶמֶד) | [divergence audit](divergence-audit.md) Finding 2; content evidence in the entries themselves | to report |
 | 2 | Phantom sense boundaries: sense split at a `N)` that belongs to a parenthesized cross-reference or citation, leaving an unclosed `(` behind | 36 entries (35 cross-ref + 1 citation) | A00913 (`(v. אוֹר 2)`), A01662, C00244 | [body-review 01](body-review/01-broken-sequences.md) crossref-chop + citation-chop sections | to report |
 | 3 | Sense numbering gaps / swallowed markers (e.g. a missing space fusing a page number to the `1)` marker) | 35 entries | A00675 (`p. 18; 261)` = `26` + `1)`), A01350 (1,3,4) | [body-review 01](body-review/01-broken-sequences.md) numbering-gap section | to report |
 | 4 | Etymology parenthesis split mid-phrase across `language_code`/`language_reference`/definition; gender markers caught in the wrong field | systemic (5,842 entries carry the split; mid-phrase cases incl. straddles) | K00664 (paren never closes in field), A00014 (orphan comma), A02705, B00880 | [body-census](body-census.md); design doc §1 | to report |

@@ -65,4 +65,4 @@ opening for orientation.
 | M01355 | מִכְוַור | Rosh Hashanah 23b | pr. n. Mikhvar, Makhvar, a district of Peraea. [The situation of Machaerus forbids its identification with our w.] Targ. Y. I Num. XXXII, 1,… |  |
 | Q00890 | פִּיתּוּחַ | Yoma 2a:3 | m. (b. h.; פָּתַח Pi.) incision, engraving, engraved design. Y. Nidd. III, 50ᵈ פ׳ ידים ורגלים וכ׳ it (the embryo) has no incisions indicatin… |  |
 
-I believe these where added links through the Sefaria interface by a user.  There is probably some idea linkage, but for us, we are only concered with showing what Jastow linked.
+I believe these were added as links through the Sefaria interface by a user.  There is probably some idea linkage, but for us, we are only concerned with showing what Jastrow linked.

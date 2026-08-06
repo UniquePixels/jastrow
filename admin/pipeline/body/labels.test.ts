@@ -131,11 +131,14 @@ function checkAllLabels(values: Iterable<string>): string[] {
 
 describe('parseLabel/printLabel corpus sweep', () => {
 	it('round-trips or quarantines every distinct sense.number value in the corpus', async () => {
-		const entries: SourceEntry[] = [];
+		// Tally while streaming — buffering all 32,512 entries would hold
+		// the ~41 MB corpus in memory against source.ts's own contract.
+		const seen = new Map<string, number>();
 		for await (const entry of readSourceEntries()) {
-			entries.push(entry);
+			for (const [raw, count] of tallyLabels([entry])) {
+				seen.set(raw, (seen.get(raw) ?? 0) + count);
+			}
 		}
-		const seen = tallyLabels(entries);
 		expect(seen.size).toBeGreaterThan(0);
 		expect(checkAllLabels(seen.keys())).toEqual([]);
 

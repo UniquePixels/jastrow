@@ -22,9 +22,10 @@ import {
 	CONFIRMED_NO_CHANGE,
 	DEFERRED,
 	REPAIRED_ORPHAN_ITEMS,
+	walkSensesDeep,
 } from './repairs.ts';
 import { readSourceEntries } from './source.ts';
-import type { SourceEntry, SourceSense } from './types.ts';
+import type { SourceEntry } from './types.ts';
 
 const REPORT_PATH = 'data/source/body-migration-report.json';
 
@@ -55,15 +56,7 @@ interface Report {
 	recordsByPass: Record<string, RepairRecord[]>;
 	recounts: Recounts;
 	repairedEntries: number;
-}
-
-function* walkSensesDeep(list: SourceSense[]): Generator<SourceSense> {
-	for (const sense of list) {
-		yield sense;
-		if (sense.senses) {
-			yield* walkSensesDeep(sense.senses);
-		}
-	}
+	repairFailures: string[];
 }
 
 /** Top-level sense-number sequence check (census .brokenSequences
@@ -136,6 +129,7 @@ function createReport(): Report {
 			startsAtTwo: [],
 			unresolvedRepairedOrphans: [],
 		},
+		repairFailures: [],
 		repairedEntries: 0,
 	};
 }
@@ -167,7 +161,19 @@ function processEntry(
 	validate: ValidateFunction,
 ): void {
 	report.entries++;
-	const { entry, records } = applyRepairs(source);
+	// Contain a drifted find-text to its own entry: record it and keep
+	// walking, so one report run lists every drift instead of aborting at
+	// the first. main() rethrows after the walk — the run stays loud.
+	let repaired: ReturnType<typeof applyRepairs>;
+	try {
+		repaired = applyRepairs(source);
+	} catch (error) {
+		report.repairFailures.push(
+			`${source.rid}: ${error instanceof Error ? error.message : String(error)}`,
+		);
+		return;
+	}
+	const { entry, records } = repaired;
 	if (records.length > 0) {
 		report.repairedEntries++;
 		for (const record of records) {
@@ -209,6 +215,7 @@ function printSummary(report: Report): void {
 		`labelQuarantines=${report.recounts.labelQuarantines.length}`,
 		`binyanEmptyOrUntrimmed=${report.recounts.emptyOrUntrimmedBinyanForms}`,
 		`schemaFailures=${report.recounts.schemaFailures.length}`,
+		`repairFailures=${report.repairFailures.length}`,
 		`unresolvedRepairedOrphans=${report.recounts.unresolvedRepairedOrphans.length}`,
 		`deferred=${Object.keys(report.deferred).length} confirmedNoChange=${report.confirmedNoChange.length}`,
 	];
@@ -225,6 +232,11 @@ if (import.meta.main) {
 	await Bun.write(REPORT_PATH, `${JSON.stringify(report, null, '\t')}\n`);
 	printSummary(report);
 	console.log(`report written to ${REPORT_PATH}`);
+	if (report.repairFailures.length > 0) {
+		throw new Error(
+			`repair drift on ${report.repairFailures.length} entr(y/ies):\n${report.repairFailures.join('\n')}`,
+		);
+	}
 }
 
 export { brokenTopSequence, startsAtTwo };

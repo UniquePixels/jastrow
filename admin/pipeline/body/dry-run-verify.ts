@@ -163,7 +163,7 @@ function checkFormSection(
 	if (sibling === undefined) {
 		return false;
 	}
-	if (sibling.units.length !== 0 || sibling.gloss !== formSection.intro) {
+	if (sibling.units.length > 0 || sibling.gloss !== formSection.intro) {
 		return false;
 	}
 	const children = sibling.senses ?? [];

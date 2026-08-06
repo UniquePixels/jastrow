@@ -175,7 +175,9 @@ larger than it functionally is.
 189 rids contain an `a)…b)` run in some definition (of 44,668, roughly
 0.4%), close to the design doc's ~190 estimate. Examples: `A00996`,
 `A01111`, `A01873`, `A01930`, `A01999`, `A02971`, `A03323`, `B00638`. Small
-enough to fixture exhaustively rather than sample (Task 4).
+enough to enumerate in full; Task 4 committed a reviewed 9-rid fixture
+sample covering every marker shape (incl. the Task 15 italic classes),
+with the full-corpus dry-run sweeping the rest.
 
 ## Verdict
 
