@@ -45,6 +45,8 @@ interface DumpProvenance {
 	lastModified: string;
 }
 
+/** Download the Sefaria dump to the cache, extracting the target BSON
+ * members and hashing everything for the provenance record. */
 async function download(
 	progress: (msg: string) => void,
 ): Promise<DumpProvenance> {
@@ -74,6 +76,8 @@ async function download(
 	return provenance;
 }
 
+/** The dump provenance — reused from the cache under `--cached`,
+ * freshly downloaded otherwise. */
 async function loadProvenance(
 	cached: boolean,
 	progress: (msg: string) => void,
@@ -96,6 +100,8 @@ async function loadProvenance(
 	return { etag: '', lastModified: '' };
 }
 
+/** Write the Jastrow lexicon-registry JSON from the dump's lexicon
+ * collection; returns the emitted path. */
 async function emitRegistry(progress: (msg: string) => void): Promise<string> {
 	const registry: Document[] = [];
 	for await (const doc of bsonDocuments(
@@ -160,6 +166,8 @@ async function emitEntries(
 	return counts;
 }
 
+/** Entry point: fetch (or reuse) the dump, emit the source JSONL and
+ * registry, and write the provenance record. */
 async function main(): Promise<void> {
 	const cached = Bun.argv.includes('--cached');
 	const progress = (msg: string): void => {

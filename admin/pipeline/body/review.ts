@@ -100,16 +100,22 @@ const stripTags = (text: string): string => {
 	} while (out !== prev);
 	return out;
 };
+/** Whitespace runs collapsed to single spaces, ends trimmed. */
 const collapse = (text: string): string => text.replace(WS, ' ').trim();
+/** Tag-stripped and whitespace-collapsed — prose ready for a doc line. */
 const clean = (text: string): string => collapse(stripTags(text));
+/** Collapsed text safe inside a markdown table cell (`|` escaped). */
 const cell = (text: string): string => collapse(text).replaceAll('|', '\\|');
+/** `text` with every regex special escaped, for literal-match patterns. */
 const escapeRegExp = (text: string): string =>
 	text.replace(REGEX_SPECIALS, '\\$&');
 
+/** The first `max` characters, with an ellipsis when truncated. */
 function headOf(text: string, max: number): string {
 	return text.length <= max ? text : `${text.slice(0, max)}…`;
 }
 
+/** The last `max` characters, with a leading ellipsis when truncated. */
 function tailOf(text: string, max: number): string {
 	return text.length <= max ? text : `…${text.slice(-max)}`;
 }
@@ -125,6 +131,7 @@ function rawEntryText(e: SourceEntry): string {
 	return parts.filter((p): p is string => p !== undefined).join(' ');
 }
 
+/** A GitHub-flavored markdown table from a header and row cells. */
 function mdTable(header: string[], rows: string[][]): string {
 	const lines = [
 		`| ${header.join(' | ')} |`,
@@ -136,8 +143,11 @@ function mdTable(header: string[], rows: string[][]): string {
 	return lines.join('\n');
 }
 
+/** Doc lines joined with a trailing newline — every builder's return. */
 const doc = (lines: string[]): string => `${lines.join('\n')}\n`;
 
+/** Parse a gitignored machine report, failing with the regen command
+ * to run when the file is absent. */
 async function readReport<T>(path: string, regen: string): Promise<T> {
 	const file = Bun.file(path);
 	if (!(await file.exists())) {
@@ -146,6 +156,7 @@ async function readReport<T>(path: string, regen: string): Promise<T> {
 	return (await file.json()) as T;
 }
 
+/** All entries of a (small, fixture-sized) JSONL file, buffered. */
 async function readJsonl(path: string): Promise<SourceEntry[]> {
 	const text = await Bun.file(path).text();
 	return text
@@ -216,10 +227,14 @@ const CLASS_EXPLANATION: Record<SequenceBreakClass, string[]> = {
 	],
 };
 
+/** One 01-table row: rid, headword, observed sequence, label contexts,
+ * and an empty Decision cell for the maintainer to fill. */
 function brokenSequenceRow(e: SourceEntry, seq: number[]): string[] {
 	return [e.rid, cell(e.headword), seq.join(', '), labelsInContext(e), ''];
 }
 
+/** One 01 section (heading, disposition prose, table) for a
+ * sequence-break class. */
 function classSection(
 	cls: SequenceBreakClass,
 	rows: { entry: SourceEntry; seq: number[] }[],
@@ -240,6 +255,7 @@ function classSection(
 	];
 }
 
+/** Doc 01 — broken sense-number sequences, grouped by break class. */
 function buildBrokenSequencesDoc(
 	entries: SourceEntry[],
 	breaksByRid: Map<string, BrokenSequenceRow>,
@@ -341,6 +357,8 @@ function snippetContext(e: SourceEntry, snippet: string): string {
 	return `${cell(before)} **${cell(snippet)}** ${cell(after)}`;
 }
 
+/** Sort one entry's orphan `refs` items into the §5 disposition
+ * groups (gershayim wrap / ibid wrap / eyes-on). */
 function classifyOrphan(e: SourceEntry, groups: OrphanGroups): void {
 	const ibids = IBID_ORPHANS[e.rid];
 	if (ibids !== undefined) {
@@ -376,6 +394,7 @@ function classifyOrphan(e: SourceEntry, groups: OrphanGroups): void {
 	});
 }
 
+/** Every orphan-refs entry classified into its disposition group. */
 function orphanRows(entries: SourceEntry[]): OrphanGroups {
 	const groups: OrphanGroups = { eyesOn: [], gershayim: [], ibid: [] };
 	for (const e of entries) {
@@ -384,6 +403,7 @@ function orphanRows(entries: SourceEntry[]): OrphanGroups {
 	return groups;
 }
 
+/** One 02-table row (empty Decision cell for the maintainer). */
 const orphanRow = (row: OrphanRow): string[] => [
 	row.rid,
 	cell(row.headword),
@@ -392,6 +412,7 @@ const orphanRow = (row: OrphanRow): string[] => [
 	'',
 ];
 
+/** Doc 02 — orphan `refs` items, one section per disposition class. */
 function buildOrphanRefsDoc(groups: OrphanGroups): string {
 	const total =
 		groups.eyesOn.length + groups.gershayim.length + groups.ibid.length;
@@ -438,6 +459,8 @@ function buildOrphanRefsDoc(groups: OrphanGroups): string {
 // 03 — quotes stragglers
 // ---------------------------------------------------------------------
 
+/** Doc 03 — the `quotes` phrases that never located in their own
+ * body, reviewed before B8 drops the field. */
 function buildQuotesDoc(entries: SourceEntry[]): string {
 	const rows = entries.map((e) => [
 		e.rid,
@@ -487,6 +510,8 @@ function findLabeledSense(
 	return null;
 }
 
+/** The surrounding sense text a quarantined label sits in, for the 04
+ * table's context column. */
 function quarantineContext(e: SourceEntry, detail: string): string {
 	const found = findLabeledSense(e.content.senses, detail);
 	if (!found) {
@@ -497,6 +522,7 @@ function quarantineContext(e: SourceEntry, detail: string): string {
 	return `${cell(before)} **${cell(detail)}** ${cell(after)}`;
 }
 
+/** Doc 04 — the sense labels the dry run quarantined as unparseable. */
 function buildLabelsDoc(
 	quarantined: QuarantineEntry[],
 	entryByRid: Map<string, SourceEntry>,
@@ -543,6 +569,7 @@ interface SampleRow {
 	units: string[];
 }
 
+/** One 05 sample entry: gloss line plus a bullet per citation unit. */
 function sampleBlock(sample: SampleRow): string {
 	return [
 		`### ${sample.rid} — ${collapse(sample.headword)}`,
@@ -556,6 +583,7 @@ function sampleBlock(sample: SampleRow): string {
 	].join('\n');
 }
 
+/** Doc 05 — the deterministic unit-segmentation spot sample. */
 function buildUnitSampleDoc(samples: SampleRow[]): string {
 	return doc([
 		`# 05 — Unit-segmentation sample (${samples.length} entries)`,
@@ -594,6 +622,8 @@ interface BinyanScan {
 	occurrences: number;
 }
 
+/** Tally one entry's empty/untrimmed `binyan_form` slots, keeping the
+ * first N as 06-table examples. */
 function scanBinyan(e: SourceEntry, scan: BinyanScan): void {
 	const affected: BinyanExample[] = [];
 	let empties = 0;
@@ -622,6 +652,7 @@ function scanBinyan(e: SourceEntry, scan: BinyanScan): void {
 	}
 }
 
+/** Doc 06 — empty `binyan_form` strings vs. the schema's minLength. */
 function buildBinyanDoc(scan: BinyanScan): string {
 	const rows = scan.examples.map((example) => [
 		example.rid,
@@ -671,6 +702,8 @@ interface ItalicRow {
 	rid: string;
 }
 
+/** Whether the census's raw-text lettered detector fires anywhere in
+ * the entry — the 07 comparison's "detected" side. */
 function censusDetectsLettered(e: SourceEntry): boolean {
 	for (const sense of walkSenses(e.content.senses)) {
 		if (letteredRun(sense.definition ?? '')) {
@@ -680,6 +713,7 @@ function censusDetectsLettered(e: SourceEntry): boolean {
 	return false;
 }
 
+/** Depth-first walk of a built `BodySense` tree. */
 function* walkBodySenses(list: BodySense[]): Generator<BodySense> {
 	for (const sense of list) {
 		yield sense;
@@ -689,6 +723,8 @@ function* walkBodySenses(list: BodySense[]): Generator<BodySense> {
 	}
 }
 
+/** Whether the composed body carries any child senses — the 07
+ * comparison's "structurally split" side. */
 function hasStructuralSplit(body: BodyEntry): boolean {
 	const lists = [body.senses, ...(body.stems ?? []).map((s) => s.senses)];
 	for (const list of lists) {
@@ -718,6 +754,8 @@ function italicMarkerExcerpt(e: SourceEntry): string {
 	return '(no `<i>letter</i>)` marker found — flag for eyes-on)';
 }
 
+/** Doc 07 — entries the census detects as lettered but the structural
+ * split misses (the italic-wrapped marker gap, review decision 07). */
 function buildItalicDoc(rows: ItalicRow[]): string {
 	return doc([
 		`# 07 — Italic-wrapped lettered markers (${rows.length} entries)`,
@@ -764,12 +802,14 @@ interface PackageCounts {
 	samples: number;
 }
 
+/** The 00-INDEX per-class breakdown string ("35 crossref-chop / …"). */
 function brokenClassBreakdown(
 	counts: Record<SequenceBreakClass, number>,
 ): string {
 	return CLASS_ORDER.map((cls) => `${counts[cls]} ${cls}`).join(' / ');
 }
 
+/** Doc 00-INDEX — the package's per-doc inventory and regen policy. */
 function buildIndexDoc(counts: PackageCounts): string {
 	const rows = [
 		[
@@ -856,6 +896,7 @@ interface CorpusScan {
 	samples: SampleRow[];
 }
 
+/** A zeroed corpus scan — the one full-corpus walk every doc shares. */
 function createScan(): CorpusScan {
 	return {
 		binyan: { entries: 0, exampleEntries: 0, examples: [], occurrences: 0 },
@@ -866,6 +907,8 @@ function createScan(): CorpusScan {
 	};
 }
 
+/** Fold one corpus entry into the scan: binyan slots, italic-marker
+ * gap rows, label-quarantine hosts, and the 05 stride sample. */
 function scanEntry(
 	e: SourceEntry,
 	index: number,
@@ -913,6 +956,7 @@ interface ReviewInputs {
 	samples: SampleRow[];
 }
 
+/** Count the 01 rows per sequence-break class for the 00-INDEX line. */
 function brokenByClass(
 	inputs: ReviewInputs,
 ): Record<SequenceBreakClass, number> {
@@ -929,6 +973,7 @@ function brokenByClass(
 	return counts;
 }
 
+/** The item counts the 00-INDEX table reports for every doc. */
 function buildCounts(
 	inputs: ReviewInputs,
 	orphans: OrphanGroups,
@@ -949,6 +994,7 @@ function buildCounts(
 	};
 }
 
+/** Every review doc regenerated from the inputs, keyed by filename. */
 function buildDocs(inputs: ReviewInputs): Record<string, string> {
 	const orphans = orphanRows(inputs.orphanEntries);
 	const counts = buildCounts(inputs, orphans);
@@ -1005,6 +1051,8 @@ function planWrites(
 	return plan;
 }
 
+/** The committed review docs that already exist on disk, by name —
+ * what planWrites diffs against to protect recorded decisions. */
 async function readExistingDocs(names: string[]): Promise<Map<string, string>> {
 	const existing = new Map<string, string>();
 	for (const name of names) {
@@ -1016,6 +1064,8 @@ async function readExistingDocs(names: string[]): Promise<Map<string, string>> {
 	return existing;
 }
 
+/** The Task 17 guard error: which docs were left untouched and why,
+ * with the `--force` escape hatch spelled out. */
 function refusalError(refused: string[]): Error {
 	const lines = [
 		`refusing to overwrite ${refused.length} review doc(s) whose content`,
@@ -1028,6 +1078,7 @@ function refusalError(refused: string[]): Error {
 	return new Error(lines.join('\n'));
 }
 
+/** The one-screen console summary of the regenerated package. */
 function printSummary(inputs: ReviewInputs): void {
 	console.log(
 		`brokenSequences=${inputs.brokenEntries.length} orphanEntries=${inputs.orphanEntries.length} quotes=${inputs.quotesEntries.length} labelQuarantines=${inputs.quarantined.length}`,

@@ -303,6 +303,7 @@ function verifyBody(cls: string, body: string): void {
 	}
 }
 
+/** The committed fixture file for a class (`<dir>/<cls>.jsonl`). */
 function fixturePath(cls: string): string {
 	return `${FIXTURES_DIR}/${cls}.jsonl`;
 }

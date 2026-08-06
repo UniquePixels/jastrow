@@ -89,6 +89,7 @@ interface Accumulator {
 	units: Tally;
 }
 
+/** A zeroed dry-run accumulator — one per full-corpus walk. */
 function createAccumulator(): Accumulator {
 	return {
 		entries: 0,
@@ -109,6 +110,7 @@ function createAccumulator(): Accumulator {
 	};
 }
 
+/** Bump a pass/total pair. */
 function tallyPass(tally: Tally, pass: boolean): void {
 	tally.total++;
 	if (pass) {
@@ -116,6 +118,8 @@ function tallyPass(tally: Tally, pass: boolean): void {
 	}
 }
 
+/** Fold one entry's four round-trip verdicts into the accumulator,
+ * plus its form-section split (by marker) when one occurred. */
 function tallyRoundTrip(acc: Accumulator, result: RoundTripResult): void {
 	tallyPass(acc.rejoin, result.rejoin);
 	tallyPass(acc.units, result.units);
@@ -128,10 +132,12 @@ function tallyRoundTrip(acc: Accumulator, result: RoundTripResult): void {
 	}
 }
 
+/** The distribution bucket a unit count lands in (0–4 literal, 5+). */
 function unitBucket(count: number): keyof UnitDistribution {
 	return count >= 5 ? '5+' : (String(count) as keyof UnitDistribution);
 }
 
+/** Depth-first walk of a built `BodySense` tree (children included). */
 function* walkBodySenseList(list: BodySense[]): Generator<BodySense> {
 	for (const sense of list) {
 		yield sense;
@@ -218,6 +224,8 @@ function tallyGrammar(e: SourceEntry, acc: Accumulator): void {
 	}
 }
 
+/** Wrap a built body in the schema's full entry shape — placeholder
+ * slug/headword, since only the body composition is under test here. */
 function toValidationEntry(
 	e: SourceEntry,
 	body: BodyEntry,
@@ -264,6 +272,8 @@ function tallySchema(
 	});
 }
 
+/** The one-screen console summary — the numbers docs/v2/body-dryrun.md
+ * transcribes. */
 function printSummary(acc: Accumulator): void {
 	console.log(`entries=${acc.entries}`);
 	console.log(

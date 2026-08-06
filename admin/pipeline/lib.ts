@@ -105,6 +105,8 @@ interface TarMemberHeader {
 	size: number;
 }
 
+/** Decode one 512-byte ustar member header (prefix-aware name, octal
+ * size), failing loudly on a malformed size field. */
 function parseTarHeader(header: Uint8Array): TarMemberHeader {
 	const prefix = tarString(header, 345, 155);
 	const rawName = (prefix ? `${prefix}/` : '') + tarString(header, 0, 100);
@@ -185,6 +187,7 @@ async function* bsonDocuments(path: string): AsyncGenerator<Document> {
 	}
 }
 
+/** The file's SHA-256 hex digest, computed streaming. */
 async function sha256(path: string): Promise<string> {
 	const hash = createHash('sha256');
 	for await (const chunk of Bun.file(path).stream()) {

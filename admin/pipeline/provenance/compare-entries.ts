@@ -21,6 +21,7 @@ interface CompareResult {
 	onlyInRaw: string[];
 }
 
+/** A null-normalized JSON string — the field-equality comparand. */
 const stable = (v: unknown): string => JSON.stringify(v ?? null);
 
 const COMPARED_FIELDS = ['headword', 'alt_headwords', 'content'] as const;
@@ -57,6 +58,8 @@ function diffFields(fresh: SourceEntry, raw: SourceEntry): string[] {
 	return fields;
 }
 
+/** Diff the fresh and raw corpora: rids only on one side, plus
+ * per-field divergences (headword/alt/content and the remainder). */
 function compareEntryMaps(
 	fresh: Map<string, SourceEntry>,
 	raw: Map<string, SourceEntry>,

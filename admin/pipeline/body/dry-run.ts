@@ -94,6 +94,8 @@ function resolveLabel(
 	return parsed.label;
 }
 
+/** A lettered a)/b)/c) child sense: its own gloss + units, labeled by
+ * the letter (design doc §2 senses row, B5). */
 function buildLetteredChild(item: { letter: string; text: string }): BodySense {
 	const { gloss, units } = segmentUnits(item.text);
 	return { gloss, label: item.letter, units };
@@ -171,6 +173,9 @@ function pushTextSense(
 	return built;
 }
 
+/** A binyan-stem child sense (its own label resolution + text
+ * composition), or several when a lettered/form-section split applies
+ * inside the stem. */
 function buildStemChild(
 	rid: string,
 	child: SourceSense,
@@ -196,6 +201,8 @@ function buildStem(rid: string, sense: SourceSense, acc: BuildAcc): BodyStem {
 	};
 }
 
+/** Attach the parsed `content.morphology` marker as the body's grammar
+ * index (B3); an unknown marker records a problem instead of guessing. */
 function applyGrammarIndex(
 	e: SourceEntry,
 	body: BodyEntry,
@@ -281,6 +288,9 @@ interface RunContext {
 	validate: ValidateFunction;
 }
 
+/** One corpus entry through the full composition + every tally: round
+ * trips, labels, grammar, units, and the strided/fixtured schema
+ * sample. */
 function processEntry(e: SourceEntry, index: number, ctx: RunContext): void {
 	ctx.acc.entries++;
 	const trace = buildTrace(e);
