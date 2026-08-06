@@ -57,17 +57,16 @@ code remain the permanent provenance record.
 		{ "text": "אבד", "reconstructed": true }
 	],
 	"page": { "number": 2, "column": "a" },
-	"origin": { "language": "b. h.", "related": "…tagged string…" },
-	"refs": {
-		"internal": ["A00085"],
-		"external": ["Shabbat 104a", "Sanhedrin 22a:10"]
-	},
-	"quotes": ["…"],
+	"grammar": { "gender": "m" },
 	"senses": [
-		{ "number": "1", "definition": "…tagged string…" },
+		{ "gloss": "m. (b. h.) <i>father</i>. …tagged intro flow…", "units": ["…"] },
+		{ "label": "2", "gloss": "…", "units": ["…", "…"] }
+	],
+	"stems": [
 		{
-			"grammar": { "verbalStem": "Nif.", "binyanForms": ["נֶאֱבַד"] },
-			"senses": [ { "definition": "…tagged string…" } ]
+			"stem": "Nif.",
+			"forms": ["נֶאֱבַד"],
+			"senses": [ { "gloss": "…", "units": [] } ]
 		}
 	]
 }
@@ -83,18 +82,23 @@ minimal):
 | `headword` | decomposed | **Form object** — `text` (clean: no `*`, no numerals; 27,613 already clean) + optional `homograph` (Roman numeral, 2,871 — Jastrow's printed index, real content), `disambiguator` (superscript, 807 — Sefaria-added technical suffix; display deferred, register #6), `reconstructed` (`*`, 1,339 — evidence flag) |
 | `altHeadwords[]` | upstream, decomposed identically (19,351 entries) | Array of the **same form-object shape** — one schema, one code path for every headword form (alts carry marks too: 529 Roman, 18 starred) |
 | `page` | v1 local enrichment + the 107 hand edits | Grouped object: printed location. Not upstream data |
-| `origin` | upstream `language_code` + `language_reference`, renamed | **Segmented print text, not metadata**: Sefaria's importer chopped the entry's opening etymology parenthesis into these fields — crudely (mid-phrase splits exist, e.g. K00664; definitions left starting with orphaned commas). **The v1 renderer never displayed this text** (the deployed data does carry it, concatenated as `li` on 5,842 entries — baseline audit) — v2 surfaces it (a listed golden-diff difference). Shape decided in §6.0: correct re-segmentation gated by a concatenation round-trip over all 5,842 entries, falling back to rejoining into the definition. Content passes markup translation (contains refLinks) |
-| `refs` | upstream, resolved + normalized | Curated by Sefaria users; accurate; kept. Internal → **rids, not headword strings**: string addressing breaks the moment a headword is edited (cleanup is on the roadmap); rids are stable identity; display strings regenerate at compile. External → canonical Sefaria ref strings. Known incomplete vs definitions (register #1) |
-| `quotes` | upstream (301 non-empty) | Triples `[·, phrase, ·]` marking compound phrases / work names (אֵבֶל רַבָּתִי, אֶבֶן הַשָּׁעוֹת). Candidate search surface (register #12) |
+| `grammar` | seeded at migration from the 13,162 visible gender markers | **Typed index (body model B3)**: `gender` (`m`/`f`/`c`); `pos` starts null — filled by post-migration enrichment (register #14). A lint checks index ↔ text agreement; the markers themselves stay in the gloss text (B2: prose is truth) |
+| `senses` | upstream, reassembled per the entry body model | Tree of `{label?, gloss, units[], senses[]}` (body model B2/B4–B6). The first sense is the entry's **intro flow** exactly as printed — the rejoined gloss head (morphology + etymology parenthesis + opening text; heals the K00664-class mid-phrase splits by construction). `label` is normalized (`"—2)"` → `"2"`); print punctuation regenerates by rule, byte-exact, else the entry is quarantined. `units[]` are citation-evidence blocks segmented by the conservative terminator rule. Lettered `a)…b)` runs and form sections (`Pl.`/`Part. pass.`/`Fem.`/`Denom.`, B12) split into child/sibling senses |
+| `stems` | upstream grammar nodes (4,043), restructured | Binyan sections: `stem` from the closed stem set, `forms` (binyan forms, cleaned at migration), own sense tree — v1 flattened these |
 
-| `senses` | upstream, recursive | Grammar nodes (4,043) preserved as structure — v1 flattened them |
-
-**Provisional rows:** `origin`, `senses`, and `quotes` above are
-drafts. They are fragments of one printed entry body that Sefaria
-segmented crudely; their final shape is designed together as the
-**entry body model** (§6.0) and this section is updated when that
-work lands. The stable parts of the schema — identity, form objects,
-slug, page, refs, pointers — are not affected.
+**Resolved (2026-08-05):** the formerly provisional `origin`, `senses`,
+and `quotes` rows are settled by the
+[entry body model design](2026-07-11-entry-body-model-design.md)
+(§6.0's prerequisite, now design-complete with its §6.0 review done):
+`origin` is not stored — the etymology parenthesis rejoins the intro
+sense's gloss (B2, byte-gated); `quotes` is dropped entirely (B8 — a
+vestigial importer artifact, unconsumed even by Sefaria's renderer;
+the phrases remain as ordinary body text); `refs` is dropped from
+truth and the complete per-entry reference index is **derived at
+compile** from `<cite>` tags (B7 — measured: the curated field is
+missing 31% of inline citations; derivation beats curation). The
+stable parts of the schema — identity, form objects, slug, page,
+pointers — were not affected.
 
 Dropped: `_id` (volatile), `parent_lexicon` (constant),
 `prev_hw`/`next_hw` (validated then derived — §5), upstream headword
@@ -119,24 +123,27 @@ refs — are exactly where Markdown is weakest). A JSON AST was rejected
 |---|---|---|---|
 | `<he>…</he>` | `span dir="rtl"` | 84k | Hebrew/Aramaic run; renderer adds direction + font |
 | `<i>…</i>` | `<i>` | 40k | Italic (glosses/emphasis); kept typographic, semantic refinement is later editor work |
-| `<ref rid="A01975" k="read">…</ref>` | refLink → `/Jastrow,_…` | 68,096 | Internal cross-reference. `k` optional: `see`, `compare`, `read`, `equals`, `plural`, `denom-of`, `from`, `ed`, `ref-to`, `sub-voce`; absent = plain mention. `k` extraction at migration is mechanical, cheap, and fully deferrable (markers stay in the text) — register #2 owns coverage either way |
-| `<cite ref="Shabbat 104a">…</cite>` | refLink → other texts | 96,711 | Citation into an external text, keyed by canonical Sefaria ref string (never full URLs — D7) |
+| `<cite ref="…">…</cite>` | refLink (both `/Jastrow,_…` and other texts) | 164,807 | **One unified citation tag (body model B10)** — internal cross-references (`ref="A01975"`, 68,096) and citations into external texts (`ref="Shabbat 104a"`, 96,711) share it; router/validator dispatch on the unambiguous rid pattern. External refs keyed by canonical Sefaria ref string (never full URLs — D7). `k` optional on internal refs: `see`, `compare`, `read`, `equals`, `plural`, `denom-of`, `from`, `ed`, `ref-to`, `sub-voce`; absent = plain mention. `k` extraction at migration is mechanical, cheap, and fully deferrable (markers stay in the text) — register #2 owns coverage either way |
 | `<sup> <sub>` | same | 281 | Real content — fractions (¹/₂₄ of a denar) and scholarly edition marks (ed. Lag. p. XII⁴, Ges. H. Dict.¹⁰). Kept |
 | `<b>` | same | 20 | Punctuation-bolding residue (`<b>,</b>` after bold refs). All 20 enumerated and resolved in migration prep (§6.0); expected to dissolve |
 | abbr override tags | new | rare | Compiler instructions only: force or suppress an abbreviation tooltip where the detector is provably wrong (§8) |
 
 **D7 — Canonical refs, never URLs.** External references are stored as
-canonical Sefaria ref strings everywhere (`refs.external` and
-`<cite ref>` use the identical form; migration normalizes Sefaria's
-two spellings). URLs are derived at compile. Because inline citations
-and the refs list share one vocabulary, "refs list is incomplete"
-becomes a mechanical per-entry lint (register #1).
+canonical Sefaria ref strings (migration normalizes Sefaria's two
+spellings). URLs are derived at compile. With `refs` dropped from
+truth (B7 — §2.2), the `<cite>` tags are the single source: the
+per-entry reference index is derived from them at compile, and
+register #1's lint checks that derivation's completeness rather than
+reconciling a curated list.
 
 **D8 — No deeper-than-entry addressing (for now).** All 90,688
-internal targets in the source are *addressed* at entry level (sense
-suffix is uniformly "1" — Sefaria URL boilerplate); whether a target
-string matches an existing headword is a separate question — 88 do
-not (§6 gate, register #3). `<ref>` carries no sense attribute; the
+internal targets in the source — the 68,096 inline refLinks counted
+above plus the 22,592 curated `refs`-field items (§9 evidence; the
+latter dropped from truth per B7, leaving the inline population as
+the data layer's) — are *addressed* at entry level (sense suffix is
+uniformly "1" — Sefaria URL boilerplate); whether a target string
+matches an existing headword is a separate question — 88 do not
+(§6 gate, register #3, measured across the full 90,688). `<cite>` carries no sense attribute; the
 vocabulary is additive, so one can be introduced the day an editor
 needs it.
 
@@ -157,7 +164,16 @@ owning entry).
 ### 2.5 Schema evolution (D10)
 
 - A JSON Schema + the tag vocabulary are committed and enforced by
-  `bun validate` in CI on every PR — no entry drifts silently.
+  `bun validate` in CI on every PR — no entry drifts silently. The
+  schema is written (body model B11:
+  `admin/pipeline/schema/entry.schema.json`, ajv-validated in the
+  pipeline; it lands with the `spec/entry-body-model` branch) and
+  serves as the documented generic spec of the entry format —
+  examples in these documents illustrate it, they do not define it.
+  Until migration produces v2 truth files, today's `bun validate:data`
+  gate keeps guarding the deployed v1 data with the legacy validator;
+  the v2 schema takes over as the CI gate when `migrate.ts` lands its
+  output.
 - Additive-first: new optional fields never break; breaking changes
   require a versioned, reviewed migration script.
 - Bulk changes to truth (cleanup passes) are first-class pipeline
@@ -181,6 +197,7 @@ size vs render cost) inside the deferred serving-shape contract.
 | Route map | slug ↔ rid, for canonicalization and permalinks |
 | Page index | page/column → ordered rids (`/p/2a` routes) |
 | `abbreviations.json` | Tooltip text stored once; markup carries only keys |
+| Reference index | Per-entry reference list **derived from `<cite>` tags** (B7 — truth stores none), categorized by corpus (Talmud/Midrash/Bible/…) for the color-coded reference box and search — regenerates what v1 shipped as the derived `rf` rollup |
 | Search artifacts | **Deferred contract** — format owned by the search overhaul; pipeline guarantees clean typed inputs |
 | Version manifest | Build id (git sha) + artifact hashes for service-worker diffing |
 
@@ -201,16 +218,21 @@ the search-artifact format. Both are compile *outputs*; truth schema
 is unaffected whichever way they land.
 
 Compile stages: **validate** (schema, vocabulary, slug uniqueness,
-ref resolution, refs↔citation lint) → **transform** (abbr detection +
-overrides, display regeneration, link expansion) → **emit** (shards,
-indexes, manifest) → **gate** (golden render diffs, abbr coverage
-report vs previous build; CI fails on any broken ref or vocabulary
+ref resolution) → **transform** (abbr detection + overrides, display
+regeneration, link expansion, reference-index derivation + corpus
+categorization) → **emit** (shards, indexes, manifest) → **gate**
+(golden render diffs, abbr coverage report vs previous build,
+derived-index completeness lint — every non-quarantined `<cite>` tag
+accounted for in the emitted index, run after derivation since the
+index is transform's output; CI fails on any broken ref not listed in
+the reviewed quarantine list (§6 blessing gates) or any vocabulary
 violation).
 
 ## 4. Addressing and routing (D12)
 
-- rid = permanent internal address. The data layer (`<ref>`, refs)
-  speaks only rids. `/A00015` permalinks work forever (redirect).
+- rid = permanent internal address. The data layer (internal
+  `<cite ref>`) speaks only rids. `/A00015` permalinks work forever
+  (redirect).
 - slug = human address, **stored in truth and frozen** (URLs are
   promises; a compile-derived slug could renumber on insertion and
   break shared links). Assigned once by migration: niqqud-stripped
@@ -260,6 +282,15 @@ tools (`fetch.ts`, `audit.ts`, `mine.ts` are kept as provenance):
 
 ### 6.0 Migration prerequisites (design-complete before `migrate.ts` is written)
 
+> **Status (2026-08-05): complete.** The entry body model is designed,
+> censused, fixtured, and gated (byte round-trips 32,512/32,512 across
+> rejoin/units/lettered/form-section rules), its maintainer review is
+> done, and the approved repair passes are implemented — see the
+> [entry body model design](2026-07-11-entry-body-model-design.md)
+> (§8 of which produced this document's 2026-08-05 amendments) and its
+> `docs/v2/body-*` evidence set. The prose below is kept as written
+> for the record.
+
 - **Entry body model (the big one).** `origin`, the sense-1 preamble
   (entry-level morphology/glosses masquerading as a definition —
   A00014's " , const. …"), `senses` internals, and `quotes` are not
@@ -291,13 +322,16 @@ evidence):
 
 1. Headword decomposition (entry + alts) with the byte-exact
    round-trip gate (§2.2).
-2. Link typing: split refLinks into `<ref rid>` (full-marked-string →
-   rid resolver) and `<cite ref>` (normalized canonical refs); `k`
-   from markers + chain inheritance, untyped where unprovable.
+2. Link typing: refLinks become the unified `<cite ref>` (B10) —
+   internal targets resolved full-marked-string → rid, external
+   targets normalized to canonical refs; `k` from markers + chain
+   inheritance, untyped where unprovable.
 3. Markup translation into the closed vocabulary (§2.3) — applied to
-   definitions **and** to `origin.related`/`quotes` content, which
-   carry refLinks too.
-4. `refs` resolution into `{internal, external}` (D7).
+   every reassembled body text (the rejoined gloss head carries
+   refLinks too).
+4. ~~`refs` resolution into `{internal, external}`~~ — superseded:
+   `refs` is dropped from truth (B7); the reference index derives at
+   compile (§3).
 5. Slug assignment, once, then frozen (D12).
 6. `page`/`column` carried from the v1 enrichment, with the 107
    hand edits from main's history applied — the one true replay.
@@ -311,6 +345,14 @@ evidence):
 - Headword round-trip 32,512/32,512; alt round-trip likewise.
 - prev/next chain ↔ rid order agreement (§5).
 - The 88 broken internal targets resolved or explicitly quarantined.
+  **Quarantine contract:** the citation tag stays in the text
+  byte-preserving (never removed), with its unresolved target recorded
+  in a committed, reviewed quarantine list (register #3). Validate
+  accepts a broken internal target only when listed; compile renders a
+  listed citation as plain text (no link) and excludes it from the
+  derived reference index; CI still fails on any broken ref *not* on
+  the list. Same loud-list pattern as every other quarantine in the
+  pipeline.
 - Maintainer review of a sampled diff.
 
 Until blessing: **no full-corpus pass runs, period.**
@@ -322,9 +364,9 @@ migration; none bundles with another.
 
 | # | Item | Size |
 |---|---|---|
-| 1 | refs ↔ inline citations reconciliation (lint ships in compile validate) | unknown until first report |
+| 1 | Derived-index completeness lint (the reference index derives from `<cite>` tags at compile — B7; lint ships in the compile gate stage, after derivation) | unknown until first report |
 | 2 | Link-kind typing beyond the mechanical floor (~25% naive coverage; chain inheritance raises it) | ~75% of internal links untyped |
-| 3 | Broken internal targets — fix or quarantine; report upstream | 88 |
+| 3 | Broken internal targets — fix or quarantine (contract in §6 blessing gates); report upstream | 88 |
 | 4 | Empty sense objects | 73 |
 | 5 | Headword divergences vs legacy extraction — report upstream to Sefaria | 3 |
 | 6 | Superscript-disambiguator display decision | 807 (Phase 4 UX call) |
@@ -332,8 +374,10 @@ migration; none bundles with another.
 | 8 | prev/next chain verification | resolved by migration gate |
 | 9 | Abbr detector false-positive review after first coverage report | unknown |
 | 10 | Alt browse rows colliding with real entries — fold-into-disambiguation rules + fixture set | 4,195 forms |
-| 11 | Additive enrichments: gender, word type (noun/verb/…), richer language semantics | future passes (§6.0 scope rule) |
-| 12 | `quotes` semantics — compound phrases/work names as a search surface? | 301 |
+| 11 | Additive enrichments: richer language semantics; a forms index (construct/plural phrasing catalogued by the preamble survey) is future additive work | future passes (§6.0 scope rule) |
+| 12 | ~~`quotes` semantics~~ — **closed**: `quotes` dropped entirely (body model B8; the 8 stragglers reviewed 2026-08-05) | — |
+| 13 | Ibid linking pass — resolve the unlinked ibid citations by chaining from the previous citation in the entry; additive tag wrapping, post-migration | 15,421 ibids, 7,018 unlinked |
+| 14 | POS enrichment — fill `grammar.pos`, seeded for review from v1's derived `g.ps` (7,611 entries) | post-migration |
 
 ## 8. Abbreviations (D15)
 
@@ -409,3 +453,4 @@ Measured 2026-07-07/08 against the 2026-07-04 snapshot:
 | 2026-07-08 | Review round 1 (maintainer): headword becomes a nested form object shared with alts; `language_*` renamed `origin` (it is the printed etymology parenthesis, passes markup translation); slug byte order pinned word-then-modifier; refs-as-rids rationale recorded; `<b>`/`quotes` enumeration added; D11 softened — client may mechanically expand, never decide; §6.0 prerequisites + migration-vs-enrichment scope rule; register #10–12 added |
 | 2026-07-08 | Review round 2: `origin` fields proven to be crudely segmented print text that **v1 dropped entirely** — v2 restores it; re-segmentation attempt + round-trip gate in §6.0, rejoin fallback; quotes examination may fold into sense census |
 | 2026-07-08 | Review round 3: §6.0 reframed around the **entry body model** — origin, sense-1 preamble, senses internals, and quotes are fragments of one printed body, reassembled together (Sefaria fields are inputs, not the model); §2.2 rows for those fields marked provisional |
+| 2026-08-05 | **Entry body model consequences folded in** ([design doc](2026-07-11-entry-body-model-design.md) §8, its §6.0 review complete): §2.2 provisional rows resolved — `origin` rejoins the intro gloss (B2), `quotes` dropped (B8), `refs` dropped with the reference index derived at compile (B7); `senses` becomes the `{label?, gloss, units[], senses[]}` tree with `stems` binyan sections and the `grammar` typed index (B3); example JSON updated to the committed schema shape. §2.3: `<ref rid>`/`<cite ref>` merged into one `<cite ref>` (B10, counts summed 164,807); D7/D8 + migration rules 2–4 reworded to match. §2.5 records the B11 schema deliverable (`admin/pipeline/schema/entry.schema.json`). §3: compile gains the derived reference index + corpus categorization (D11). Register: #1 → derived-index completeness lint; #12 closed; #13 ibid linking, #14 POS enrichment added; #11 notes the future forms index |
