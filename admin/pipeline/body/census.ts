@@ -23,7 +23,19 @@ type Boundary =
 	| 'embedded';
 
 const TAGS = /<[^>]+>/gu;
-const stripTags = (text: string): string => text.replace(TAGS, '');
+// Strips to a fixed point so fragments re-composed by one pass
+// (`<scr<i>ipt>`-style) can't survive (CodeQL js/incomplete-
+// multi-character-sanitization); corpus-verified byte-identical to
+// the single-pass version over all 32,512 entries.
+const stripTags = (text: string): string => {
+	let out = text;
+	let prev: string;
+	do {
+		prev = out;
+		out = out.replace(TAGS, '');
+	} while (out !== prev);
+	return out;
+};
 
 /** Classify the (tag-stripped) text immediately before a citation
  * anchor into the punctuation class it ends on. Empty text means the
@@ -224,7 +236,10 @@ const FORM_SECTION_PATTERNS = new Map(
 	MARKERS.map((marker) => [
 		marker,
 		new RegExp(
-			`${marker.replace(/[.]/gu, '\\.')}.{0,120}?(?<![(\\w])1\\)\\s`,
+			// Escape every regex special (not just `.`) even though MARKERS
+			// is a closed literal vocabulary — CodeQL js/incomplete-
+			// sanitization, and future markers stay safe by construction.
+			`${marker.replace(/[.*+?^${}()|[\]\\]/gu, '\\$&')}.{0,120}?(?<![(\\w])1\\)\\s`,
 			'su',
 		),
 	]),

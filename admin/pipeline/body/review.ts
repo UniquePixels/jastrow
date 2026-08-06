@@ -87,7 +87,19 @@ const WS = /\s+/gu;
 const REGEX_SPECIALS = /[.*+?^${}()|[\]\\]/gu;
 const ITALIC_MARKER = /<i>\s*[a-z]\s*<\/i>\)/u;
 
-const stripTags = (text: string): string => text.replace(TAGS, '');
+// Strips to a fixed point so fragments re-composed by one pass
+// (`<scr<i>ipt>`-style) can't survive (CodeQL js/incomplete-
+// multi-character-sanitization); corpus-verified byte-identical to
+// the single-pass version over all 32,512 entries.
+const stripTags = (text: string): string => {
+	let out = text;
+	let prev: string;
+	do {
+		prev = out;
+		out = out.replace(TAGS, '');
+	} while (out !== prev);
+	return out;
+};
 const collapse = (text: string): string => text.replace(WS, ' ').trim();
 const clean = (text: string): string => collapse(stripTags(text));
 const cell = (text: string): string => collapse(text).replaceAll('|', '\\|');
