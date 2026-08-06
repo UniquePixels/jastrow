@@ -37,6 +37,8 @@ interface RoundTripResult {
 	units: boolean;
 }
 
+/** The round-trip invariant for one sense: gloss + units re-concatenate
+ * to the exact text segmentation started from. */
 function reconstructText(sense: BodySense): string {
 	return sense.gloss + sense.units.join('');
 }

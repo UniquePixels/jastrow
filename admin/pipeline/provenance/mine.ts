@@ -23,6 +23,8 @@ interface MinedEdit extends EditRecord {
 	date: string;
 }
 
+/** Run a git command, returning stdout; throws with stderr on
+ * non-zero exit. */
 async function git(args: string[]): Promise<string> {
 	const proc = Bun.spawn(['git', ...args], { stderr: 'pipe' });
 	const text = await new Response(proc.stdout).text();
@@ -34,6 +36,8 @@ async function git(args: string[]): Promise<string> {
 	return text;
 }
 
+/** Every deployed-JSONL commit on origin/main, oldest first, with the
+ * baseline import excluded by the caller via index 0. */
 async function editCommits(): Promise<EditCommit[]> {
 	const log = await git([
 		'log',

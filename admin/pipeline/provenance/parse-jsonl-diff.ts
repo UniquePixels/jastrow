@@ -22,6 +22,9 @@ function idOf(line: string): string | null {
 	}
 }
 
+/** Turn one unified diff over JSONL into id-keyed edit records:
+ * removed+added pairs on the same id become `modify`, the rest
+ * `add`/`remove`; non-JSON lines are ignored. */
 function parseJsonlDiff(diffText: string): EditRecord[] {
 	const removed = new Map<string, string>();
 	const added = new Map<string, string>();

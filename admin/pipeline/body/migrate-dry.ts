@@ -102,6 +102,7 @@ function unresolvedOrphans(entry: SourceEntry): string[] {
 	return expected.filter((item) => !seen.has(item));
 }
 
+/** Bump a pass/total gate pair. */
 function tallyGate(tally: GateTally, ok: boolean): void {
 	tally.total++;
 	if (ok) {
@@ -109,6 +110,8 @@ function tallyGate(tally: GateTally, ok: boolean): void {
 	}
 }
 
+/** A zeroed migration report, with the disposition lists embedded so
+ * the written JSON is self-describing. */
 function createReport(): Report {
 	return {
 		confirmedNoChange: CONFIRMED_NO_CHANGE,
@@ -134,6 +137,8 @@ function createReport(): Report {
 	};
 }
 
+/** Re-measure, on the HEALED entry, every damage census the repairs
+ * target — the before/after evidence the migration report exists for. */
 function recount(entry: SourceEntry, report: Report): void {
 	const { recounts } = report;
 	if (brokenTopSequence(entry)) {
@@ -155,6 +160,8 @@ function recount(entry: SourceEntry, report: Report): void {
 	}
 }
 
+/** One corpus entry through repair → composition → gates → recounts →
+ * full schema validation. */
 function processEntry(
 	source: SourceEntry,
 	report: Report,
@@ -200,6 +207,8 @@ function processEntry(
 	);
 }
 
+/** The one-screen console summary — the numbers
+ * docs/v2/body-migration.md transcribes. */
 function printSummary(report: Report): void {
 	const lines = [
 		`entries=${report.entries} repaired=${report.repairedEntries}`,
@@ -234,7 +243,7 @@ if (import.meta.main) {
 	console.log(`report written to ${REPORT_PATH}`);
 	if (report.repairFailures.length > 0) {
 		throw new Error(
-			`repair drift on ${report.repairFailures.length} entr(y/ies):\n${report.repairFailures.join('\n')}`,
+			`repair drift on ${report.repairFailures.length} ${report.repairFailures.length === 1 ? 'entry' : 'entries'}:\n${report.repairFailures.join('\n')}`,
 		);
 	}
 }

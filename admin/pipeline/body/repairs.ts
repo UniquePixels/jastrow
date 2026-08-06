@@ -290,6 +290,8 @@ const REFS_REMOVALS: Record<string, string> = {
 // Engine
 // ---------------------------------------------------------------------
 
+/** Depth-first walk of a source-sense tree (stem children included) —
+ * the shared walker migrate-dry imports too. */
 function* walkSensesDeep(list: SourceSense[]): Generator<SourceSense> {
 	for (const sense of list) {
 		yield sense;
@@ -299,6 +301,7 @@ function* walkSensesDeep(list: SourceSense[]): Generator<SourceSense> {
 	}
 }
 
+/** How many times `find` occurs in `text` (plain substring count). */
 function countOccurrences(text: string, find: string): number {
 	return text.split(find).length - 1;
 }
@@ -403,6 +406,9 @@ function insertImpliedOne(
 	});
 }
 
+/** The 04 label repairs: `-N)` hyphens become the em dash used
+ * everywhere else, and D00341's `[1)` bracket moves into the sense
+ * text (recorded deviation). */
 function repairLabels(entry: SourceEntry, records: RepairRecord[]): void {
 	if (DASH_LABELS.has(entry.rid)) {
 		// U00745's damaged label sits in a stem-child list, so search the
@@ -511,6 +517,9 @@ function escapeCiteAttributes(
 	});
 }
 
+/** Remove one of the 3 baseless orphan `refs` items (02 review:
+ * user-added via Sefaria's interface — show only what Jastrow
+ * linked). */
 function removeBaselessRef(
 	entry: SourceEntry,
 	item: string,

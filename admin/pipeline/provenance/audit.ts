@@ -48,6 +48,8 @@ interface DivergenceReport extends CompareResult {
 	strippedBeforeCompare: readonly string[];
 }
 
+/** Parse JSONL text into the rid-keyed map, dropping Mongo `_id`s so
+ * fresh and raw entries compare on content alone. */
 function addLines(map: Map<string, SourceEntry>, text: string): void {
 	for (const line of text.split('\n')) {
 		if (!line.trim()) {
@@ -61,12 +63,15 @@ function addLines(map: Map<string, SourceEntry>, text: string): void {
 	}
 }
 
+/** The fresh Sefaria extraction, rid-keyed. */
 async function loadFresh(path: string): Promise<Map<string, SourceEntry>> {
 	const map = new Map<string, SourceEntry>();
 	addLines(map, await Bun.file(path).text());
 	return map;
 }
 
+/** The legacy raw files read via `git show` (they no longer exist in
+ * the working tree), rid-keyed. */
 async function loadRawFromGit(
 	gitPaths: string[],
 ): Promise<Map<string, SourceEntry>> {

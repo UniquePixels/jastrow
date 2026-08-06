@@ -106,10 +106,14 @@ function hasUnclosedParen(text: string): boolean {
 	return opens > closes;
 }
 
+/** The last `max` characters of `text` — context windows in report rows. */
 function tailOf(text: string, max: number): string {
 	return text.length <= max ? text : text.slice(-max);
 }
 
+/** The tag-stripped origin fields joined in gloss-head order, for the
+ * phantom-sense check to scan when `senses[0]` is (or precedes) the
+ * bare number. */
 function originHead(origin: OriginFields): string {
 	return [origin.morphology, origin.languageCode, origin.languageReference]
 		.filter((s): s is string => s !== undefined)
@@ -327,6 +331,7 @@ interface Accumulator {
 	preambleOpeners: Map<PreambleOpener, number>;
 }
 
+/** A zeroed census accumulator — one per full-corpus run. */
 function createAccumulator(): Accumulator {
 	return {
 		boundaries: new Map(),
@@ -371,6 +376,9 @@ function classifyMalformed(
 	malformed.recoveredLoss++;
 }
 
+/** Fold one definition's citation hits into the running tally —
+ * well-formed vs. the three malformed damage kinds, plus slashless
+ * external hrefs. */
 function tallyCitations(hits: CitationHit[], tally: CitationTally): void {
 	tally.total += hits.length;
 	for (const [index, hit] of hits.entries()) {
@@ -424,6 +432,9 @@ function tallyIbid(
 	}
 }
 
+/** Record a broken-sequence report row when the entry's numbered
+ * senses don't read 1..n, capturing the label-context tails the
+ * eyes-on review doc renders. */
 function tallySequence(
 	rid: string,
 	senses: SourceSense[],
@@ -441,6 +452,9 @@ function tallySequence(
 	}
 }
 
+/** Fold one entry into the accumulator: every census this report
+ * measures (markers, citations, boundaries, lettered/plural-section
+ * candidates, sequences, quotes, ibids) in a single walk. */
 function censusEntry(entry: SourceEntry, acc: Accumulator): void {
 	acc.entries++;
 	const marker = entry.content.morphology;
@@ -528,6 +542,8 @@ const BOUNDARY_ORDER: Boundary[] = [
 ];
 const OPENER_ORDER: PreambleOpener[] = ['empty', 'non-gloss', 'gloss'];
 
+/** Freeze the accumulator into the deterministic report shape:
+ * maps sorted (by count or key) so re-runs are byte-stable. */
 function buildReport(acc: Accumulator): CensusReport {
 	const markers = Object.fromEntries(
 		[...acc.markers.entries()].sort((a, b) => b[1] - a[1]),
