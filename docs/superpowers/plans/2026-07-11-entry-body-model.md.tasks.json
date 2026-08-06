@@ -19,7 +19,7 @@
   {
    "id": 3,
    "subject": "Task 3: Body census (census.ts)",
-   "status": "in_progress",
+   "status": "completed",
    "description": "**Goal:** Measure every value space and edge class the rules depend on, so fixtures and rule vocabularies are evidence, not guesses.\n\n**Files:**\n- admin/pipeline/body/census.ts\n- admin/pipeline/body/census.test.ts\n- package.json\n- .gitignore\n- docs/v2/body-census.md\n\n**Acceptance Criteria:**\n- [ ] report has all listed sections\n- [ ] classifiers unit-tested\n- [ ] doc summary with measured numbers\n\n**Verify:** `bun body:census`\n\nFull steps: plan doc Task 3.\n\n```json:metadata\n{\"files\": [\"admin/pipeline/body/census.ts\", \"admin/pipeline/body/census.test.ts\", \"package.json\", \".gitignore\", \"docs/v2/body-census.md\"], \"verifyCommand\": \"bun body:census\", \"acceptanceCriteria\": [\"report has all listed sections\", \"classifiers unit-tested\", \"doc summary with measured numbers\"], \"modelTier\": \"standard\", \"planPath\": \"docs/superpowers/plans/2026-07-11-entry-body-model.md\"}\n```",
    "blockedBy": [
     1,
