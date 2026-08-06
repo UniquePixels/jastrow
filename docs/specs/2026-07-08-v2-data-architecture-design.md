@@ -137,10 +137,13 @@ register #1's lint checks that derivation's completeness rather than
 reconciling a curated list.
 
 **D8 — No deeper-than-entry addressing (for now).** All 90,688
-internal targets in the source are *addressed* at entry level (sense
-suffix is uniformly "1" — Sefaria URL boilerplate); whether a target
-string matches an existing headword is a separate question — 88 do
-not (§6 gate, register #3). `<cite>` carries no sense attribute; the
+internal targets in the source — the 68,096 inline refLinks counted
+above plus the 22,592 curated `refs`-field items (§9 evidence; the
+latter dropped from truth per B7, leaving the inline population as
+the data layer's) — are *addressed* at entry level (sense suffix is
+uniformly "1" — Sefaria URL boilerplate); whether a target string
+matches an existing headword is a separate question — 88 do not
+(§6 gate, register #3, measured across the full 90,688). `<cite>` carries no sense attribute; the
 vocabulary is additive, so one can be introduced the day an editor
 needs it.
 
@@ -219,9 +222,11 @@ ref resolution) → **transform** (abbr detection + overrides, display
 regeneration, link expansion, reference-index derivation + corpus
 categorization) → **emit** (shards, indexes, manifest) → **gate**
 (golden render diffs, abbr coverage report vs previous build,
-derived-index completeness lint — every `<cite>` tag accounted for in
-the emitted index, run after derivation since the index is transform's
-output; CI fails on any broken ref or vocabulary violation).
+derived-index completeness lint — every non-quarantined `<cite>` tag
+accounted for in the emitted index, run after derivation since the
+index is transform's output; CI fails on any broken ref not listed in
+the reviewed quarantine list (§6 blessing gates) or any vocabulary
+violation).
 
 ## 4. Addressing and routing (D12)
 
