@@ -22,6 +22,8 @@ Verify the committed files still match extraction with
 | `units-hard.jsonl` | 7 | Hard unit-segmentation cases: embedded citations, slash-less hrefs, parenthesized cites, and the three malformed-citation damage sites (`D00478`, `J00597`, `J00603`) that exercise the malformed-hit path | §4 (unit segmentation, B4) |
 | `orphans.jsonl` | 27 | The 27 rids carrying the 29 orphan `refs` items (`P00331` carries 3) with no inline citation basis — the disposition set audited in the design doc | §5 (references: derived, not stored, B7) |
 | `broken-sequences.jsonl` | 72 | Every entry with a broken top-level sense-number sequence (spurious/missing `N)`), pasted verbatim from `data/source/body-census-report.json` `.brokenSequences[].rid` — quarantined to eyes-on review | §7 (broken sense-number sequences, 72) |
+| `label-quarantines.jsonl` | 6 | The sense-label quarantines (`[1)`, `-2)` ×5) Task 16's label-repair pass corrects per the 04 review decisions | §6.0 review (04) |
+| `numbering-extras.jsonl` | 4 | Task 16 repair rids not fixtured elsewhere: A01194 (missing `)`), D00072 (in-text implied 1), J00515 (confirmed no-change), U01787 (implied 1 in stem children) | §6.0 review (01) |
 | `quotes-stragglers.jsonl` | 8 | `quotes` phrases that don't locate in their own entry body even after abbreviation collapse — reviewed before the field is dropped | §6 (quotes: dropped, B8) |
 
 ## Sanity guarantees

@@ -18,9 +18,12 @@ feeding Stage 2 (migration).
 | `labels.ts` | Sense label (`number`) parsing | done |
 | `lettered.ts` | Lettered sub-sense handling | done |
 | `units.ts` | Body unit builder (gloss + citation units) | done |
+| `form-sections.ts` | Form-section split (B12: `Pl.`/`Part. pass.`/`Fem.`/`Denom.`) | done |
 | `fixtures/` | Shared golden fixtures for the above | done |
-| `dry-run.ts` | Full-corpus dry run report before migration commits | planned |
-| `review.ts` | Human review harness over dry-run output | planned |
+| `dry-run.ts` | Full-corpus dry run report before migration commits (+ `dry-run-verify.ts`, `dry-run-report.ts`) | done |
+| `review.ts` | Eyes-on review docs over dry-run output (`docs/v2/body-review/`) | done |
+| `repairs.ts` | Approved §6.0 migration repair passes (Task 16) | done |
+| `migrate-dry.ts` | Repairs + composition + gates over the healed corpus, migration report | done |
 
 ## Source reader (`source.ts`, `types.ts`)
 

@@ -202,6 +202,21 @@ const CLASSES: Record<string, string[]> = {
 		'V00704',
 		'V00765',
 	],
+	// The 6 sense-label quarantines (body-review 04): D00341's `[1)` and
+	// the five ASCII-hyphen `-2)` labels — Task 16's label-repair pass.
+	'label-quarantines': [
+		'D00341',
+		'M02309',
+		'O00408',
+		'S02030',
+		'U00745',
+		'U00939',
+	],
+	// Task 16 repair rids not already fixtured elsewhere: A01194 (missing
+	// `)` after b. h.), D00072 (in-text implied 1), J00515 (confirmed
+	// no-change: swallowed boundary, marker in-text), U01787 (implied 1
+	// in the Af. stem children).
+	'numbering-extras': ['A01194', 'D00072', 'J00515', 'U01787'],
 	// measured in the design session (phrases that do not locate in their
 	// own body even after abbreviation collapse)
 	'quotes-stragglers': [
