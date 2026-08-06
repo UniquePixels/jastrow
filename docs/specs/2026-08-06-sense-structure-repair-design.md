@@ -88,8 +88,9 @@ conventions incl. decision-preservation). The census itself is
 08's row set equals that list exactly (count + set) — a generator
 that drops candidates cannot pass. Confirmed rows get the
 implied-`1)` insert (recorded deviation, register #16) and — where
-the `—2)` run is in-text — the S1 split. Rejected rows are recorded
-with reasons.
+the `—2)` run is in-text — the S1 split. Rejected rows land in the
+`REJECTED` disposition bucket (S6) with their reasons, so they
+participate in the S5 doc↔code equality like every other row.
 
 ### 3.4 Deferred-row resolution (S4)
 
@@ -110,19 +111,29 @@ checks can be satisfied by stale or duplicated entries):
 - `DEFERRED` is empty and `CONFIRMED_NO_CHANGE` no longer exists —
   their presence is itself a failure (S4/S6 enforced by assertion,
   not by intention);
-- every `SIGNED_EXCEPTION` carries a non-empty reason string and a
-  doc pointer;
-- migrate-dry recounts: the observed `brokenTopSequences` and
-  `startsAtTwo` rid lists **equal** the signed-exception list
-  (target: both empty) — not merely "count below N".
+- every `SIGNED_EXCEPTION` and `REJECTED` record carries a
+  non-empty reason string, a doc pointer, **and maintainer-approval
+  metadata** (the review date and the doc row that records the
+  decision) — the acceptance test resolves the pointer and fails on
+  a dangling or decision-less row, so "signed" is checkable, not
+  honorific;
+- migrate-dry recounts: **per detector**, the observed
+  `brokenTopSequences` rid list equals that detector's own
+  signed-exception set, and likewise `startsAtTwo` (target: both
+  empty; the two residues are distinct sets — 34 and 8 today — so
+  one shared list would let an exception for one detector break the
+  other's equality).
 
 ### 3.6 Disposition vocabulary (S6)
 
 `CONFIRMED_NO_CHANGE` is retired. Replacement buckets say what they
 mean: `SPLIT` (S1/S2 rids), `SIGNED_EXCEPTION` (maintainer accepts
-the flaw, reason string required), plus the existing rid-keyed edit
-maps. "No change" without a reason is no longer a representable
-state.
+the flaw; reason + approval metadata required), `REJECTED` (an S3
+census candidate the maintainer ruled is not an implied-`1)` case;
+rejection reason required — so rejected doc-08 rows still land in
+exactly one code bucket and the S5 equality holds), plus the
+existing rid-keyed edit maps. "No change" without a reason is no
+longer a representable state.
 
 ### 3.7 Registered follow-ups (S7 — tracked, not implemented here)
 
@@ -157,16 +168,19 @@ forgotten work:
   32,512/32,512 on the healed corpus). Scope is the reviewed sets
   (§2) — the recount detectors, not a heuristic sweep, are the
   corpus-wide net.
-- Recounts as exact rid-list equalities (S5): observed
-  `brokenTopSequences` and `startsAtTwo` equal the signed-exception
-  list (target: both empty; today 34 and 8), schema failures 0,
-  label quarantines 0.
+- Recounts as exact rid-list equalities (S5), **per detector**:
+  observed `brokenTopSequences` equals its own signed-exception set,
+  observed `startsAtTwo` equals its own (target: both empty; today
+  34 and 8), schema failures 0, label quarantines 0.
 - Eyes-on: doc 08 generated, row set equal to the committed census
   list (S3), every row carries a maintainer decision; docs 01
   updated where dispositions changed.
-- S5 completeness test green in `bun qa`.
-- Standing gate: maintainer personally reviews doc 08 and the split
-  diffs before anything is blessed into truth.
+- S5 completeness test green in `bun qa`, including resolution of
+  every `SIGNED_EXCEPTION`/`REJECTED` approval pointer (S5).
+- Standing gate: maintainer personally reviews doc 08, the split
+  diffs, **and every signed-exception and rejection row** before
+  anything is blessed into truth — the approval metadata those
+  records carry is written during this review, not before it.
 
 ## 6. Resolved questions (maintainer, 2026-08-06)
 
@@ -190,3 +204,4 @@ forgotten work:
 |---|---|
 | 2026-08-06 | Initial draft from the PR #36 decision-audit findings |
 | 2026-08-06 | PR #41 review hardening: goal narrowed to the reviewed sets; S1 gets rid-keyed marker expectations, executable text-pass precondition, host+1 placement, and a structural (1..n) assertion beside the byte proof; S3 census committed with doc-equality check; S5 gates become exact set equalities (incl. rejecting `DEFERRED`/`CONFIRMED_NO_CHANGE` and requiring exception reasons); S7 issue ids recorded (#37–#39) |
+| 2026-08-06 | PR #41 review round 2: `REJECTED` disposition bucket added (S3 rejections join the S5 equality); signed exceptions and rejections carry maintainer-approval metadata resolved by the acceptance test; recount equalities become per-detector exception sets (`brokenTopSequences` vs `startsAtTwo`) |
