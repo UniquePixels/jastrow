@@ -117,7 +117,7 @@
   {
    "id": 13,
    "subject": "Task 13: Parent-spec amendments",
-   "status": "in_progress",
+   "status": "completed",
    "description": "**Goal:** Apply the design doc's section-8 consequences to the parent data-architecture spec; docs-only PR to main.\n\n**Files:**\n- docs/specs/2026-07-08-v2-data-architecture-design.md\n\n**Acceptance Criteria:**\n- [ ] four edit groups applied\n- [ ] changelog row present\n- [ ] docs-only PR to main open\n\n**Verify:** `gh pr view --json files`\n\nFull steps: plan doc Task 13.\n\n```json:metadata\n{\"files\": [\"docs/specs/2026-07-08-v2-data-architecture-design.md\"], \"verifyCommand\": \"gh pr view --json files\", \"acceptanceCriteria\": [\"four edit groups applied\", \"changelog row present\", \"docs-only PR to main open\"], \"modelTier\": \"standard\", \"planPath\": \"docs/superpowers/plans/2026-07-11-entry-body-model.md\"}\n```",
    "blockedBy": [
     12
