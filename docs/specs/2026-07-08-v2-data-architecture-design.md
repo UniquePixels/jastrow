@@ -164,9 +164,13 @@ owning entry).
   `bun validate` in CI on every PR — no entry drifts silently. The
   schema is written (body model B11:
   `admin/pipeline/schema/entry.schema.json`, ajv-validated in the
-  pipeline) and serves as the documented generic spec of the entry
-  format — examples in these documents illustrate it, they do not
-  define it.
+  pipeline; it lands with the `spec/entry-body-model` branch) and
+  serves as the documented generic spec of the entry format —
+  examples in these documents illustrate it, they do not define it.
+  Until migration produces v2 truth files, today's `bun validate:data`
+  gate keeps guarding the deployed v1 data with the legacy validator;
+  the v2 schema takes over as the CI gate when `migrate.ts` lands its
+  output.
 - Additive-first: new optional fields never break; breaking changes
   require a versioned, reviewed migration script.
 - Bulk changes to truth (cleanup passes) are first-class pipeline
@@ -211,12 +215,13 @@ the search-artifact format. Both are compile *outputs*; truth schema
 is unaffected whichever way they land.
 
 Compile stages: **validate** (schema, vocabulary, slug uniqueness,
-ref resolution, derived-index completeness lint) → **transform** (abbr
-detection + overrides, display regeneration, link expansion,
-reference-index derivation + corpus categorization) → **emit**
-(shards, indexes, manifest) → **gate** (golden render diffs, abbr
-coverage report vs previous build; CI fails on any broken ref or
-vocabulary violation).
+ref resolution) → **transform** (abbr detection + overrides, display
+regeneration, link expansion, reference-index derivation + corpus
+categorization) → **emit** (shards, indexes, manifest) → **gate**
+(golden render diffs, abbr coverage report vs previous build,
+derived-index completeness lint — every `<cite>` tag accounted for in
+the emitted index, run after derivation since the index is transform's
+output; CI fails on any broken ref or vocabulary violation).
 
 ## 4. Addressing and routing (D12)
 
@@ -335,6 +340,14 @@ evidence):
 - Headword round-trip 32,512/32,512; alt round-trip likewise.
 - prev/next chain ↔ rid order agreement (§5).
 - The 88 broken internal targets resolved or explicitly quarantined.
+  **Quarantine contract:** the citation tag stays in the text
+  byte-preserving (never removed), with its unresolved target recorded
+  in a committed, reviewed quarantine list (register #3). Validate
+  accepts a broken internal target only when listed; compile renders a
+  listed citation as plain text (no link) and excludes it from the
+  derived reference index; CI still fails on any broken ref *not* on
+  the list. Same loud-list pattern as every other quarantine in the
+  pipeline.
 - Maintainer review of a sampled diff.
 
 Until blessing: **no full-corpus pass runs, period.**
@@ -346,9 +359,9 @@ migration; none bundles with another.
 
 | # | Item | Size |
 |---|---|---|
-| 1 | Derived-index completeness lint (the reference index derives from `<cite>` tags at compile — B7; lint ships in compile validate) | unknown until first report |
+| 1 | Derived-index completeness lint (the reference index derives from `<cite>` tags at compile — B7; lint ships in the compile gate stage, after derivation) | unknown until first report |
 | 2 | Link-kind typing beyond the mechanical floor (~25% naive coverage; chain inheritance raises it) | ~75% of internal links untyped |
-| 3 | Broken internal targets — fix or quarantine; report upstream | 88 |
+| 3 | Broken internal targets — fix or quarantine (contract in §6 blessing gates); report upstream | 88 |
 | 4 | Empty sense objects | 73 |
 | 5 | Headword divergences vs legacy extraction — report upstream to Sefaria | 3 |
 | 6 | Superscript-disambiguator display decision | 807 (Phase 4 UX call) |
