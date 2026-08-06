@@ -20,6 +20,11 @@
  */
 import type { SourceEntry, SourceSense } from './types.ts';
 
+// Hoisted per lint/performance/useTopLevelRegex — no state (`g`/`y`)
+// flags, so sharing across calls is safe.
+const STEM_OPENS_AT_TWO = /^[*—]?2\)/u;
+const ORPHAN_REF_ITEM = /^Jastrow, (?<target>.+) (?<n>\d+)$/u;
+
 type PassName =
 	| 'rejoin-chopped'
 	| 'implied-one'
@@ -347,6 +352,10 @@ function rejoinChopped(
 	const previous = senses[index - 1];
 	if (index === 0) {
 		phantom.definition = token + (phantom.definition ?? '');
+		// exactOptionalPropertyTypes forbids assigning undefined to the
+		// optional `number`; the key must actually vanish so serialization
+		// matches an unnumbered sense.
+		// biome-ignore lint/performance/noDelete: see above — key must vanish
 		delete phantom.number;
 	} else if (previous === undefined || previous.grammar) {
 		throw new Error(`${entry.rid}: phantom "${token}" has no text flow`);
@@ -376,7 +385,7 @@ function insertImpliedOne(
 			: (entry.content.senses.find((s) => s.grammar?.verbal_stem === where.stem)
 					?.senses ?? []);
 	const [first, second] = list;
-	const opensAtTwo = /^[*—]?2\)/u.test(second?.number ?? '');
+	const opensAtTwo = STEM_OPENS_AT_TWO.test(second?.number ?? '');
 	if (
 		first === undefined ||
 		first.number !== undefined ||
@@ -463,7 +472,7 @@ function escapeCiteAttributes(
 	item: string,
 	records: RepairRecord[],
 ): void {
-	const match = /^Jastrow, (?<target>.+) (?<n>\d+)$/u.exec(item);
+	const match = ORPHAN_REF_ITEM.exec(item);
 	const target = match?.groups?.['target'];
 	const n = match?.groups?.['n'];
 	if (target === undefined || n === undefined || !target.includes('"')) {
@@ -479,12 +488,17 @@ function escapeCiteAttributes(
 	];
 	let total = 0;
 	for (const sense of walkSensesDeep(entry.content.senses)) {
-		let definition = sense.definition ?? '';
+		const original = sense.definition;
+		let definition = original ?? '';
 		for (const [find, replace] of pairs) {
 			total += countOccurrences(definition, find);
 			definition = definition.replaceAll(find, replace);
 		}
-		sense.definition = definition;
+		// Only write back on change — a grammar-only sense with no
+		// definition must not gain a materialized empty string.
+		if (original !== undefined && definition !== original) {
+			sense.definition = definition;
+		}
 	}
 	if (total === 0) {
 		throw new Error(`${entry.rid}: no malformed anchor found for "${item}"`);

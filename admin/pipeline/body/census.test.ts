@@ -51,8 +51,9 @@ describe('pluralSection', () => {
 		expect(pluralSection('a. fr.—Pl. אבות, no numbering here.')).toBe(false);
 	});
 	it('flags a 1) that merely closes a parenthetical citation too — coarse detector, not the authoritative split rule', () => {
-		// This is the exact false-positive shape plural.ts's splitPlural
-		// (paren-balance aware) rejects — see its header comment. The
+		// This is the exact false-positive shape form-sections.ts's
+		// splitFormSection (paren-balance aware) rejects — see its header
+		// comment. The
 		// census detector only checks the single character before the
 		// digit, so it can't tell the difference; that's why it's a
 		// sizing detector, not the split rule.

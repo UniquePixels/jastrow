@@ -33,7 +33,7 @@ files only to stay under the project's per-file line budget.
 | Entries with a structural form-section split (B12) | **13** — `Pl.` 5, `Part. pass.` 6, `Fem.` 1, `Denom.` 1 (census's coarse detector: `Pl.` 25, `Part. pass.` 10, `Fem.` 2, `Denom.` 1 — see Finding 7) |
 | Binyan/stem sections built | 4,390 (across 2,337 entries) |
 | `BodySense` unit-count distribution (0/1/2/3/4/5+) | 17,776 / 12,424 / 5,673 / 3,342 / 2,149 / 3,951 |
-| Schema-validation sample | 129 validated, **3 failures** (see Finding 3) |
+| Schema-validation sample | 133 validated, **4 failures** (see Finding 3) |
 
 ## Finding 1 — the three structural rules hit 32,512/32,512, exactly as designed
 
@@ -105,20 +105,23 @@ Diffing the two full-corpus results resolves every disagreement:
 (Before Task 15's extension this reconciliation read 189 − 75 + 2 =
 116, with the italic class accounted for as deliberate under-split.)
 
-## Finding 3 — 3 schema-sample failures, all one root cause: empty-string binyan forms
+## Finding 3 — 4 schema-sample failures, all one root cause: empty-string binyan forms
 
 The ≥100-entry schema sample (every 300th corpus entry plus every
-Task 5-9 fixture-class rid — 129 total) found 3 failures, all
-`stems[N].forms[M]` violating the schema's `minLength: 1` on form
-strings. All three (`P00791`, `P01091`, `Q02144`) come from upstream
+Task 5-9 fixture-class rid — 133 total, grown from 129 when the
+fixture-rid set caught up with Task 15's four lettered additions, which
+also sampled `O01078` and surfaced the fourth failure) found 4
+failures, all `stems[N].forms[M]` violating the schema's `minLength: 1`
+on form strings. All four (`O01078`, `P00791`, `P01091`, `Q02144`) come
+from upstream
 `binyan_form` arrays that carry a trailing empty string (e.g. A00338's
 `binyan_form: ["אִיתַּגַּר", ""]`, not one of these three but the same
 shape) — the dry-run's `buildStem` threads `binyan_form` straight through
 per this task's own composition rule (`forms: binyan_form ?? []`, no
 filtering), so an empty upstream slot becomes an empty output slot. A
-full-corpus recount (not just the 129-sample) found this trait on 486
+full-corpus recount (not just the 133-sample) found this trait on 486
 occurrences across 446 entries (1.4% of the corpus) — common enough that
-the 129-entry sample was always going to catch a few. This is a genuine
+the 133-entry sample was always going to catch a few. This is a genuine
 upstream-data / schema mismatch, not a dry-run composition bug: `forms`
 is out of §6.0's scope to alter (Task 11 is read-only measurement), and
 the schema itself is prior, reviewed work (B11). Flagged here for
@@ -153,25 +156,28 @@ measured from.
 
 | Units | Count | Share |
 |---|---|---|
-| 0 | 17,718 | 39.3% |
-| 1 | 12,339 | 27.3% |
-| 2 | 5,637 | 12.5% |
-| 3 | 3,329 | 7.4% |
-| 4 | 2,138 | 4.7% |
-| 5+ | 3,961 | 8.8% |
+| 0 | 17,776 | 39.2% |
+| 1 | 12,424 | 27.4% |
+| 2 | 5,673 | 12.5% |
+| 3 | 3,342 | 7.4% |
+| 4 | 2,149 | 4.7% |
+| 5+ | 3,951 | 8.7% |
 
-Across 45,122 built `BodySense` nodes (every intro/plain/lettered-child/
-form-section-item/stem-child sense in the corpus — 38 more than the count
-Task 11 first reported, exactly the 13 form-section sibling senses plus
-their 25 restarted-numbered item children across all four markers
-(`Pl.` 5 siblings + 11 items, `Part. pass.` 6 siblings + 10 items, `Fem.`
-1 sibling + 3 items, `Denom.` 1 sibling + 1 item — B12/Finding 7), a
-plurality (39.3%) carry zero citation units at all — short
+Across 45,315 built `BodySense` nodes (every intro/plain/lettered-child/
+form-section-item/stem-child sense in the corpus — Task 11 first
+reported 45,084; B12's 13 form-section sibling senses plus their 25
+restarted-numbered item children (`Pl.` 5 siblings + 11 items,
+`Part. pass.` 6 siblings + 10 items, `Fem.` 1 sibling + 3 items,
+`Denom.` 1 sibling + 1 item — B12/Finding 7) brought it to 45,122, and
+the later Task 15 italic-marker lettered extension (Finding 2, 116 →
+191 split entries) grew it to the current figure), a plurality
+(39.2%) carry zero citation units at all
+— short
 cross-reference-style senses whose entire content is the gloss itself,
 consistent with the parent design doc's note that
 8,592 entries are pointer-only (", v. X") bodies. The remaining 60.7%
 carry at least one evidentiary citation unit, with a real tail out past 5
-(8.8%) for heavily-cited entries (long verb roots with many binyan
+(8.7%) for heavily-cited entries (long verb roots with many binyan
 sections and citations per sense). No single bucket dominates past 40%,
 consistent with the conservative (`.`/`—`/sense-start only) terminator
 rule producing a plausible, non-degenerate segmentation shape corpus-wide.
@@ -229,8 +235,9 @@ genuine outright.
 13 structural splits total — `Pl.` 5, `Part. pass.` 6, `Fem.` 1,
 `Denom.` 1 — all round-trip byte-for-byte, and the extra `BodySense`
 nodes they contribute (13 sibling senses + 25 restarted-numbered items)
-account exactly for Finding 6's node-count increase over the prior
-report. 38 − 25 = 13, exactly the measured count — no unexplained
+account exactly for this task's node-count increase over the prior
+report (45,084 → 45,122; Finding 6 tracks the later growth to the
+current total). 38 − 25 = 13, exactly the measured count — no unexplained
 residual, and `letteredSplitEntries` (116 at the time; 191 since
 Task 15's italic-marker extension, Finding 2) was unchanged by this
 task, confirming the split kinds were kept structurally distinct rather

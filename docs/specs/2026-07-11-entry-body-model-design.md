@@ -1,7 +1,9 @@
 # Entry Body Model — §6.0 Design
 
 - **Date:** 2026-07-11
-- **Status:** Draft — pending maintainer review
+- **Status:** Reviewed — maintainer §6.0 eyes-on review completed
+  2026-08-05 (decisions recorded in `docs/v2/body-review/`); B5/B12
+  extensions and approved migration passes implemented (Tasks 14–16)
 - **Parent:** [2026-07-08-v2-data-architecture-design.md](2026-07-08-v2-data-architecture-design.md)
   §6.0 (migration prerequisite: "entry body model, the big one").
   Resolves the provisional rows of parent §2.2 (`origin`, `senses`,

@@ -193,8 +193,8 @@ function letteredRun(text: string): boolean {
 // '(' or a word character. Like LETTERED above, this only checks the
 // single character before the digit — it can't tell a restarted-list
 // marker from a `1)` that merely closes an unrelated parenthetical
-// citation (e.g. "Lam. R. introd. (R. Joḥ. 1)"). `plural.ts`'s
-// `splitPlural` is the authoritative structural rule (paren-balance
+// citation (e.g. "Lam. R. introd. (R. Joḥ. 1)"). `form-sections.ts`'s
+// `splitFormSection` is the authoritative structural rule (paren-balance
 // aware) and disagrees with this detector on most of its hits — of the
 // 25 entries this pattern flags corpus-wide, only 5 carry a genuine,
 // paren-clear ascending run (task report). Mirrors the `LETTERED` /

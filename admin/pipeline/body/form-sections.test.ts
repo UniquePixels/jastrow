@@ -274,7 +274,9 @@ describe('no collateral: every other fixture class', () => {
 	const OTHER_FIXTURES = [
 		'baseline',
 		'broken-sequences',
+		'label-quarantines',
 		'lettered',
+		'numbering-extras',
 		'origin-splits',
 		'orphans',
 		'quotes-stragglers',

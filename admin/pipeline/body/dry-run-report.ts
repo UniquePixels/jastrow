@@ -43,6 +43,10 @@ const FIXTURE_SAMPLE_RIDS = new Set([
 	'J00597',
 	'J00603',
 	'K00664',
+	'O01078',
+	'P00480',
+	'Q01198',
+	'Q01353',
 ]);
 
 interface Tally {

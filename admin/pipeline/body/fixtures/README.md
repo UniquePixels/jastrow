@@ -15,7 +15,7 @@ Verify the committed files still match extraction with
 
 | File | Entries | Exercises | Design doc |
 |---|---|---|---|
-| `baseline.jsonl` | 3 | Plain, well-formed entries with no edge-case markup — the control group every rule should leave untouched | §7 (fixture plan) |
+| `baseline.jsonl` | 3 | Plain, well-formed entries — the control group every rule should leave untouched (`A00043` does carry one slash-less href, a handled shape `cite.ts` tracks via `hadLeadingSlash`) | §7 (fixture plan) |
 | `origin-splits.jsonl` | 4 | Gloss-head fragments split across `language_code`/`language_reference`/sense-1 text (paren split, mid-phrase straddle) that `rejoin.ts` must heal byte-exactly | §3 (import mapping, B2) |
 | `lettered.jsonl` | 9 | Lettered `a)…b)…` sub-sense runs the lettered-item split (Task 6) must segment correctly — incl. the Task 15 italic-marker classes (`<i>a</i>)` full-pair, `a</i>)` span-end, `<i>a)` span-start, §6.0 review decision 07) | §7 (lettered-item shapes, ~190) |
 | `stems.jsonl` | 3 | Verbal-stem grammar nodes (`binyan_form`/`verbal_stem`) for the grammar-node extractor (Task 5) | §3 (import mapping) |
@@ -25,6 +25,8 @@ Verify the committed files still match extraction with
 | `label-quarantines.jsonl` | 6 | The sense-label quarantines (`[1)`, `-2)` ×5) Task 16's label-repair pass corrects per the 04 review decisions | §6.0 review (04) |
 | `numbering-extras.jsonl` | 4 | Task 16 repair rids not fixtured elsewhere: A01194 (missing `)`), D00072 (in-text implied 1), J00515 (confirmed no-change), U01787 (implied 1 in stem children) | §6.0 review (01) |
 | `quotes-stragglers.jsonl` | 8 | `quotes` phrases that don't locate in their own entry body even after abbreviation collapse — reviewed before the field is dropped | §6 (quotes: dropped, B8) |
+| `plural.jsonl` | 25 | The design census's coarse `Pl.` detector hits: 5 genuine paren-clear ascending runs that split plus 20 spurious `(citation N)` matches the split rule must reject | §2/§3 (B12) |
+| `form-sections.jsonl` | 9 | The B12 extension markers (`Part. pass.`, `Fem.`, `Denom.`, nearest-marker canary D00194) from the 2026-07-14 maintainer print pass | §2/§3 (B12 extension) |
 
 ## Sanity guarantees
 

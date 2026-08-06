@@ -1073,7 +1073,13 @@ if (import.meta.main) {
 		throw refusalError(plan.refused);
 	}
 	await Promise.all(
-		plan.writes.map((name) => Bun.write(`${REVIEW_DIR}/${name}`, docs[name])),
+		plan.writes.map((name) => {
+			const body = docs[name];
+			if (body === undefined) {
+				throw new Error(`planWrites named "${name}" but no doc was built`);
+			}
+			return Bun.write(`${REVIEW_DIR}/${name}`, body);
+		}),
 	);
 	printSummary(inputs);
 	console.log(

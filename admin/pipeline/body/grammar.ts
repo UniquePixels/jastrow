@@ -59,9 +59,10 @@ function parseMarker(
 	marker: string,
 ): GrammarIndex | { unknown: string } | null {
 	const trimmed = marker.trim();
-	const hit = VOCAB[trimmed];
-	if (hit !== undefined) {
-		return hit;
+	// Own-key check so inherited object members ("toString") can never
+	// masquerade as vocabulary hits.
+	if (Object.hasOwn(VOCAB, trimmed)) {
+		return VOCAB[trimmed] ?? null;
 	}
 	return { unknown: marker };
 }

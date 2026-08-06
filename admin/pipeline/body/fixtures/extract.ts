@@ -36,7 +36,7 @@ const CLASSES: Record<string, string[]> = {
 	// 25 rids: the design census's coarse detector (Pl. + a bare 1) within
 	// ~120 chars) — only the first 5 carry a genuine paren-clear ascending
 	// run and actually split; the other 20 are single spurious
-	// "(citation N)" matches (task report, plural.ts header comment).
+	// "(citation N)" matches (task report, form-sections.ts header comment).
 	plural: [
 		'A01047',
 		'B01292',
@@ -288,7 +288,15 @@ function buildClassBody(rids: string[], lines: Map<string, string>): string {
 function verifyBody(cls: string, body: string): void {
 	const lines = body.split('\n').filter((line) => line !== '');
 	for (const [index, line] of lines.entries()) {
-		const { rid } = JSON.parse(line) as Partial<SourceEntry>;
+		let parsed: Partial<SourceEntry>;
+		try {
+			parsed = JSON.parse(line) as Partial<SourceEntry>;
+		} catch (cause) {
+			throw new Error(`${cls}.jsonl line ${index + 1}: unparseable`, {
+				cause,
+			});
+		}
+		const { rid } = parsed;
 		if (typeof rid !== 'string' || rid === '') {
 			throw new Error(`${cls}.jsonl line ${index + 1}: no .rid after parse`);
 		}

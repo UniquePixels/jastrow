@@ -28,6 +28,11 @@ import type { SourceEntry, SourceSense } from './types.ts';
 
 const REPORT_PATH = 'data/source/body-migration-report.json';
 
+// Hoisted per lint/performance/useTopLevelRegex — no state (`g`/`y`)
+// flags, so sharing across calls is safe.
+const LEADING_INTEGER = /\d+/u;
+const OPENS_AT_TWO = /^\D*2\)/u;
+
 interface GateTally {
 	pass: number;
 	total: number;
@@ -66,7 +71,7 @@ function* walkSensesDeep(list: SourceSense[]): Generator<SourceSense> {
 function brokenTopSequence(entry: SourceEntry): boolean {
 	const numbers: number[] = [];
 	for (const sense of entry.content.senses) {
-		const match = /\d+/u.exec(sense.number ?? '');
+		const match = LEADING_INTEGER.exec(sense.number ?? '');
 		if (match) {
 			numbers.push(Number(match[0]));
 		}
@@ -83,7 +88,7 @@ function startsAtTwo(entry: SourceEntry): boolean {
 	];
 	return lists.some((list) => {
 		const first = list.find((s) => s.number !== undefined);
-		return /^\D*2\)/u.test(first?.number ?? '');
+		return OPENS_AT_TWO.test(first?.number ?? '');
 	});
 }
 
