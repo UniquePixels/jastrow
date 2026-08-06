@@ -104,10 +104,24 @@ closes.
 A committed test asserts, as **exact equalities** (coverage-only
 checks can be satisfied by stale or duplicated entries):
 
-- the rid set across every `docs/v2/body-review/*` decision table
-  **equals** the union of code dispositions — no doc rid without a
-  bucket (the Q00997 gap), no code rid without a doc row, and no rid
-  in more than one bucket;
+- **Migration inventory manifest:** the pre-change inventory — the
+  19 `CONFIRMED_NO_CHANGE` rids, the reinsert rids, and the 3
+  `DEFERRED` rids as they stand on `v2` **before** this work — is
+  committed as a literal manifest, and every manifest rid must map
+  **exactly once** to `SPLIT`, `SIGNED_EXCEPTION`, or an applicable
+  edit map. Without this, a rid deleted from both the doc and the
+  code would pass the doc↔code equality below unnoticed. `REJECTED`
+  is valid only for S3 census rows, never for manifest rids.
+- **Doc↔code equality, explicitly scoped:** the rid-disposition
+  tables — doc 01's broken-sequence tables and doc 08's census
+  table (rid + Decision columns) — **equal** the union of code
+  dispositions: no doc rid without a bucket (the Q00997 gap), no
+  code rid without a doc row, and no rid in more than one bucket.
+  The class-level review docs (02 orphans via the cite maps, 03
+  quotes-drop, 05 sample, 06 binyan cleanup, 07 italic splits) are
+  covered by their own existing class checks and are deliberately
+  outside this equality — sweeping them in would fail the gate on
+  unrelated, already-dispositioned work;
 - `DEFERRED` is empty and `CONFIRMED_NO_CHANGE` no longer exists —
   their presence is itself a failure (S4/S6 enforced by assertion,
   not by intention);
@@ -205,3 +219,4 @@ forgotten work:
 | 2026-08-06 | Initial draft from the PR #36 decision-audit findings |
 | 2026-08-06 | PR #41 review hardening: goal narrowed to the reviewed sets; S1 gets rid-keyed marker expectations, executable text-pass precondition, host+1 placement, and a structural (1..n) assertion beside the byte proof; S3 census committed with doc-equality check; S5 gates become exact set equalities (incl. rejecting `DEFERRED`/`CONFIRMED_NO_CHANGE` and requiring exception reasons); S7 issue ids recorded (#37–#39) |
 | 2026-08-06 | PR #41 review round 2: `REJECTED` disposition bucket added (S3 rejections join the S5 equality); signed exceptions and rejections carry maintainer-approval metadata resolved by the acceptance test; recount equalities become per-detector exception sets (`brokenTopSequences` vs `startsAtTwo`) |
+| 2026-08-06 | PR #41 review round 3 (both outside-diff comments): S5 gains the committed pre-change migration-inventory manifest with one-to-one coverage (a rid deleted from doc and code alike can no longer pass silently; `REJECTED` restricted to S3 rows), and the doc↔code equality is explicitly scoped to the rid-disposition tables (01 + 08) with the class-level docs covered by their own checks |
