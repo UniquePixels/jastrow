@@ -11,7 +11,7 @@
 		{
 			"id": 2,
 			"subject": "Task 2: Doc 08 generator",
-			"status": "pending",
+			"status": "completed",
 			"blockedBy": [
 				1
 			],
@@ -76,5 +76,5 @@
 			"description": "**Goal:** brokenTopSequences=0 and startsAtTwo=0 (or enumerated signed sets); body-migration.md and spec §7 record the measured evidence; maintainer signs the final split diffs (standing gate).\n\n```json:metadata\n{\"files\": [\"docs/v2/body-migration.md\", \"docs/v2/upstream-issues.md\", \"docs/specs/2026-08-06-sense-structure-repair-design.md\", \"docs/v2/body-review/00-INDEX.md\"], \"verifyCommand\": \"bun run body:migrate-dry && bun qa\", \"acceptanceCriteria\": [\"recounts at target or signed\", \"documented numbers match output\", \"maintainer sign-off captured\"]}\n```"
 		}
 	],
-	"lastUpdated": "2026-08-07T01:40:00Z"
+	"lastUpdated": "2026-08-07T02:05:00Z"
 }

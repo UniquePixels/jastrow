@@ -40,11 +40,19 @@ const stripTags = (text: string): string => {
 const IMPLIED_TWO = /—2\)\s/u;
 const SENSE_ONE = '1)';
 
-/** True when the entry carries the in-text implied-`1)` candidate
- * shape on any unnumbered sense: a `—2) ` run whose preceding text
- * never shows a `1)`. Numbered senses are excluded — a sense *list*
- * opening at 2 is the structural class, censused elsewhere. */
-function isImpliedOneCandidate(entry: SourceEntry): boolean {
+interface ImpliedOneHit {
+	/** Offset of the `—2)` marker in `text`. */
+	markerIndex: number;
+	/** The flagged sense's tag-stripped definition. */
+	text: string;
+}
+
+/** The first in-text implied-`1)` hit in the entry, or null: an
+ * unnumbered sense whose tag-stripped definition carries a `—2) ` run
+ * with no `1)` anywhere before it. Numbered senses are excluded — a
+ * sense *list* opening at 2 is the structural class, censused
+ * elsewhere. */
+function findImpliedOne(entry: SourceEntry): ImpliedOneHit | null {
 	for (const sense of walkSenses(entry.content.senses)) {
 		if (sense.number !== undefined) {
 			continue;
@@ -52,10 +60,15 @@ function isImpliedOneCandidate(entry: SourceEntry): boolean {
 		const text = stripTags(sense.definition ?? '');
 		const match = IMPLIED_TWO.exec(text);
 		if (match && !text.slice(0, match.index).includes(SENSE_ONE)) {
-			return true;
+			return { markerIndex: match.index, text };
 		}
 	}
-	return false;
+	return null;
+}
+
+/** Boolean face of `findImpliedOne` for census/count call sites. */
+function isImpliedOneCandidate(entry: SourceEntry): boolean {
+	return findImpliedOne(entry) !== null;
 }
 
 /** The committed census (S3/S5 anchor): every corpus rid the detector
@@ -173,4 +186,5 @@ if (import.meta.main) {
 	console.log('census matches the committed list');
 }
 
-export { IMPLIED_ONE_CENSUS, isImpliedOneCandidate, runCensus };
+export type { ImpliedOneHit };
+export { findImpliedOne, IMPLIED_ONE_CENSUS, isImpliedOneCandidate, runCensus };

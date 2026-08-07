@@ -18,6 +18,7 @@
  */
 import { letteredRun, type SequenceBreakClass, walkSenses } from './census.ts';
 import { buildTrace } from './dry-run.ts';
+import { findImpliedOne, IMPLIED_ONE_CENSUS } from './implied-one-census.ts';
 import { readSourceEntries } from './source.ts';
 import type {
 	BodyEntry,
@@ -702,6 +703,63 @@ interface ItalicRow {
 	rid: string;
 }
 
+interface ImpliedOneRow {
+	excerpt: string;
+	headword: string;
+	rid: string;
+}
+
+/** Fast membership face of the committed S3 census list. */
+const IMPLIED_ONE_SET = new Set(IMPLIED_ONE_CENSUS);
+
+/** The doc-08 context cell: the flagged sense's text around its
+ * `—2)` marker, marker bolded. */
+function impliedOneExcerpt(text: string, markerIndex: number): string {
+	const before = tailOf(text.slice(0, markerIndex), 90);
+	const after = headOf(text.slice(markerIndex + '—2)'.length), 70);
+	return cell(`${before}**—2)**${after}`);
+}
+
+/** Doc 08 — the S3 implied-`1)` candidate review. Throws unless the
+ * row set equals the committed census exactly (S3's completeness
+ * check: a generator that drops candidates must not produce a doc). */
+function buildImpliedOneDoc(rows: ImpliedOneRow[]): string {
+	const seen = new Set(rows.map((r) => r.rid));
+	const missing = IMPLIED_ONE_CENSUS.filter((rid) => !seen.has(rid));
+	const extra = rows.filter((r) => !IMPLIED_ONE_SET.has(r.rid));
+	if (missing.length > 0 || extra.length > 0 || seen.size !== rows.length) {
+		throw new Error(
+			`doc 08 rows drift from the committed census — missing: [${missing.join(
+				', ',
+			)}] extra: [${extra.map((r) => r.rid).join(', ')}]`,
+		);
+	}
+	const sorted = [...rows].sort((a, b) => a.rid.localeCompare(b.rid));
+	const header = ['Rid', 'Headword', 'Context', 'Decision'];
+	return doc([
+		`# 08 — Implied sense-\`1)\` candidates (${rows.length} entries)`,
+		'',
+		'**Set:** the in-text implied-`1)` census (spec S3, upstream-issues',
+		'register #16): an unnumbered sense whose text carries a `—2)` run',
+		'with no `1)` anywhere before it — the Note 1 convention, where',
+		'print omits the `1)` because sense 1 is only a cross-reference',
+		'after the grammatical label. Committed census:',
+		'`IMPLIED_ONE_CENSUS` (implied-one-census.ts); this doc must list',
+		'exactly that set. `D00072` is already dispositioned',
+		'(implied-one text insert) — its row is here for completeness.',
+		'',
+		'**Decision to record per row:** confirm — v2 inserts the `1)` as a',
+		'recorded deviation (and splits the in-text run where structural) —',
+		'or reject with a reason. Record the review date; rejected rows',
+		'land in the `REJECTED` disposition with that reason.',
+		'',
+		mdTable(
+			header,
+			sorted.map((r) => [r.rid, cell(r.headword), r.excerpt, '']),
+		),
+	]);
+}
+
 /** Whether the census's raw-text lettered detector fires anywhere in
  * the entry — the 07 comparison's "detected" side. */
 function censusDetectsLettered(e: SourceEntry): boolean {
@@ -794,6 +852,7 @@ interface PackageCounts {
 	broken: number;
 	brokenByClass: Record<SequenceBreakClass, number>;
 	grammarQuarantined: number;
+	impliedOne: number;
 	italic: number;
 	labels: number;
 	orphanEntries: number;
@@ -854,6 +913,12 @@ function buildIndexDoc(counts: PackageCounts): string {
 			`${counts.italic} entries`,
 			'awaiting review',
 		],
+		[
+			'[08-implied-one-candidates.md](08-implied-one-candidates.md)',
+			'Implied sense-`1)` candidates (S3, register #16)',
+			`${counts.impliedOne} entries`,
+			'awaiting review',
+		],
 	];
 	return doc([
 		'# Body-Model Maintainer Review Package (§6.0)',
@@ -890,6 +955,7 @@ function buildIndexDoc(counts: PackageCounts): string {
 
 interface CorpusScan {
 	binyan: BinyanScan;
+	impliedOne: ImpliedOneRow[];
 	italic: ItalicRow[];
 	labelEntries: Map<string, SourceEntry>;
 	nextSampleAnchor: number;
@@ -900,6 +966,7 @@ interface CorpusScan {
 function createScan(): CorpusScan {
 	return {
 		binyan: { entries: 0, exampleEntries: 0, examples: [], occurrences: 0 },
+		impliedOne: [],
 		italic: [],
 		labelEntries: new Map(),
 		nextSampleAnchor: 0,
@@ -941,6 +1008,18 @@ function scanEntry(
 			rid: e.rid,
 		});
 	}
+	if (IMPLIED_ONE_SET.has(e.rid)) {
+		const hit = findImpliedOne(e);
+		// A listed rid the detector no longer flags surfaces at
+		// buildImpliedOneDoc's census-equality check, loudly.
+		if (hit !== null) {
+			scan.impliedOne.push({
+				excerpt: impliedOneExcerpt(hit.text, hit.markerIndex),
+				headword: e.headword,
+				rid: e.rid,
+			});
+		}
+	}
 }
 
 interface ReviewInputs {
@@ -948,6 +1027,7 @@ interface ReviewInputs {
 	breaksByRid: Map<string, BrokenSequenceRow>;
 	brokenEntries: SourceEntry[];
 	grammarQuarantined: number;
+	impliedOne: ImpliedOneRow[];
 	italic: ItalicRow[];
 	labelEntries: Map<string, SourceEntry>;
 	orphanEntries: SourceEntry[];
@@ -984,6 +1064,7 @@ function buildCounts(
 		broken: inputs.brokenEntries.length,
 		brokenByClass: brokenByClass(inputs),
 		grammarQuarantined: inputs.grammarQuarantined,
+		impliedOne: inputs.impliedOne.length,
 		italic: inputs.italic.length,
 		labels: inputs.quarantined.length,
 		orphanEntries: inputs.orphanEntries.length,
@@ -1013,6 +1094,7 @@ function buildDocs(inputs: ReviewInputs): Record<string, string> {
 		'05-unit-segmentation-sample.md': buildUnitSampleDoc(inputs.samples),
 		'06-empty-binyan-forms.md': buildBinyanDoc(inputs.binyan),
 		'07-italic-lettered-markers.md': buildItalicDoc(inputs.italic),
+		'08-implied-one-candidates.md': buildImpliedOneDoc(inputs.impliedOne),
 	};
 }
 
@@ -1084,7 +1166,7 @@ function printSummary(inputs: ReviewInputs): void {
 		`brokenSequences=${inputs.brokenEntries.length} orphanEntries=${inputs.orphanEntries.length} quotes=${inputs.quotesEntries.length} labelQuarantines=${inputs.quarantined.length}`,
 	);
 	console.log(
-		`sample=${inputs.samples.length} italicLettered=${inputs.italic.length} emptyBinyanForms=${inputs.binyan.occurrences} across ${inputs.binyan.entries} entries`,
+		`sample=${inputs.samples.length} italicLettered=${inputs.italic.length} impliedOne=${inputs.impliedOne.length} emptyBinyanForms=${inputs.binyan.occurrences} across ${inputs.binyan.entries} entries`,
 	);
 	if (inputs.grammarQuarantined !== 0) {
 		console.log(
@@ -1122,6 +1204,7 @@ if (import.meta.main) {
 		breaksByRid: new Map(census.brokenSequences.map((b) => [b.rid, b])),
 		brokenEntries,
 		grammarQuarantined: dryrun.grammar.quarantined.length,
+		impliedOne: scan.impliedOne,
 		italic: scan.italic,
 		labelEntries: scan.labelEntries,
 		orphanEntries,
@@ -1132,9 +1215,8 @@ if (import.meta.main) {
 	const docs = buildDocs(inputs);
 	const existing = await readExistingDocs(Object.keys(docs));
 	const plan = planWrites(docs, existing, force);
-	if (plan.refused.length > 0) {
-		throw refusalError(plan.refused);
-	}
+	// New docs land before the refusal so adding a review doc doesn't
+	// require --force; the refusal for hand-edited docs stays loud.
 	await Promise.all(
 		plan.writes.map((name) => {
 			const body = docs[name];
@@ -1148,6 +1230,9 @@ if (import.meta.main) {
 	console.log(
 		`${REVIEW_DIR}: ${plan.writes.length} written, ${plan.unchanged.length} unchanged`,
 	);
+	if (plan.refused.length > 0) {
+		throw refusalError(plan.refused);
+	}
 }
 
-export { planWrites };
+export { buildImpliedOneDoc, planWrites };

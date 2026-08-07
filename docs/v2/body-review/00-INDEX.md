@@ -25,6 +25,7 @@ recorded decisions and regenerates.
 | [05-unit-segmentation-sample.md](05-unit-segmentation-sample.md) | Unit-segmentation spot sample | 50 entries | reviewed 2026-08-05 |
 | [06-empty-binyan-forms.md](06-empty-binyan-forms.md) | Empty `binyan_form` strings vs. schema `minLength: 1` | 486 occurrences (446 entries) | reviewed 2026-08-05 |
 | [07-italic-lettered-markers.md](07-italic-lettered-markers.md) | Italic-wrapped lettered markers (census/structural gap) | 75 entries | reviewed 2026-08-05 |
+| [08-implied-one-candidates.md](08-implied-one-candidates.md) | Implied sense-`1)` candidates (S3, register #16) | 79 entries | awaiting review |
 
 Grammar-marker quarantines: the dry run measured
 **0 quarantined** of 13,162 markers — no doc needed (0 items).
