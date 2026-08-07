@@ -1,0 +1,62 @@
+{
+	"planPath": "docs/superpowers/plans/2026-08-06-sense-structure-repair.md",
+	"tasks": [
+		{
+			"id": 1,
+			"subject": "Task 1: Implied-1 candidate census (S3 detector)",
+			"status": "pending",
+			"blockedBy": [],
+			"description": "**Goal:** Reproducible in-text implied-1 census with a committed literal rid list (~78 expected) — the S3/S5 completeness anchor.\n\n```json:metadata\n{\"files\": [\"admin/pipeline/body/implied-one-census.ts\", \"admin/pipeline/body/implied-one-census.test.ts\"], \"verifyCommand\": \"bun test admin/pipeline/body/implied-one-census.test.ts\", \"acceptanceCriteria\": [\"detector with fixture tests incl. false-positive shapes\", \"deterministic committed rid list\", \"census-vs-list equality test\"]}\n```"
+		},
+		{
+			"id": 2,
+			"subject": "Task 2: Doc 08 generator",
+			"status": "pending",
+			"blockedBy": [1],
+			"description": "**Goal:** body:review generates 08-implied-one-candidates.md with decision preservation; row set equals the committed census list; 00-INDEX row added.\n\n```json:metadata\n{\"files\": [\"admin/pipeline/body/review.ts\", \"admin/pipeline/body/review.test.ts\", \"docs/v2/body-review/08-implied-one-candidates.md\", \"docs/v2/body-review/00-INDEX.md\"], \"verifyCommand\": \"bun run body:review && bun test admin/pipeline/body/review.test.ts\", \"acceptanceCriteria\": [\"row set == committed census (count + set)\", \"regen preserves decisions and refuses drift\", \"00-INDEX inventory row\"]}\n```"
+		},
+		{
+			"id": 3,
+			"subject": "Task 3: Maintainer eyes-on review (USER GATE)",
+			"status": "pending",
+			"blockedBy": [2],
+			"description": "**Goal:** Maintainer decides every doc-08 row (all ~78, spec §6 Q2), resolves D00470/K00081/R00519, and signs exceptions with review dates — the approval metadata S5 resolves.\n\n**USER-ORDERED GATE — NON-SKIPPABLE.** Close only after every criterion is independently re-validated with captured output; never by substitution or inline declaration.\n\n```json:metadata\n{\"files\": [\"docs/v2/body-review/08-implied-one-candidates.md\", \"docs/v2/body-review/01-broken-sequences.md\"], \"verifyCommand\": \"grep -c '|  |' docs/v2/body-review/08-implied-one-candidates.md\", \"acceptanceCriteria\": [\"no empty Decision cells in 08\", \"3 deferred rows carry final decisions\", \"exception/rejection rows record review date\"], \"userGate\": true, \"tags\": [\"user-gate\"]}\n```"
+		},
+		{
+			"id": 4,
+			"subject": "Task 4: Migration-inventory manifest + disposition vocabulary (S6)",
+			"status": "pending",
+			"blockedBy": [3],
+			"description": "**Goal:** Committed pre-change manifest (19 no-change + reinserts + 3 deferred); SPLIT/SIGNED_EXCEPTION/REJECTED structures with reason + doc pointer + review date; CONFIRMED_NO_CHANGE and DEFERRED deleted.\n\n```json:metadata\n{\"files\": [\"admin/pipeline/body/repairs.ts\", \"admin/pipeline/body/repairs.test.ts\"], \"verifyCommand\": \"bun test admin/pipeline/body/repairs.test.ts\", \"acceptanceCriteria\": [\"MIGRATION_MANIFEST literal\", \"one-to-one manifest mapping test\", \"grep-clean of retired identifiers\", \"REJECTED restricted to census rids\"]}\n```"
+		},
+		{
+			"id": 5,
+			"subject": "Task 5: Swallowed-sense splitter (S1/S2)",
+			"status": "pending",
+			"blockedBy": [3, 4],
+			"description": "**Goal:** Structural repair pass: rid-keyed marker expectations (token + host address + occurrence), executable after-text-passes precondition, host+1 insertion, verbatim-token sibling, byte AND 1..n structural proofs, top-level + stem-child fixtures; corpus gates stay 32,512/32,512.\n\n```json:metadata\n{\"files\": [\"admin/pipeline/body/split.ts\", \"admin/pipeline/body/split.test.ts\", \"admin/pipeline/body/repairs.ts\", \"admin/pipeline/body/migrate-dry.ts\"], \"verifyCommand\": \"bun test admin/pipeline/body/split.test.ts && bun run body:migrate-dry\", \"acceptanceCriteria\": [\"loud rid-keyed expectations\", \"deterministic placement\", \"both proofs asserted per split\", \"fixtures for all four shapes\", \"gates 32512/32512\"]}\n```"
+		},
+		{
+			"id": 6,
+			"subject": "Task 6: Implied-1 inserts for confirmed doc-08 rows",
+			"status": "pending",
+			"blockedBy": [3, 4],
+			"description": "**Goal:** Confirmed candidates get their 1) as recorded deviations (register #16); in-text runs also split; rejected rids land in REJECTED; upstream-issues #16 counts updated.\n\n```json:metadata\n{\"files\": [\"admin/pipeline/body/repairs.ts\", \"docs/v2/upstream-issues.md\"], \"verifyCommand\": \"bun run body:migrate-dry && bun test\", \"acceptanceCriteria\": [\"every confirmed rid in exactly one insert map\", \"deviation: true on all inserts\", \"register #16 updated\"]}\n```"
+		},
+		{
+			"id": 7,
+			"subject": "Task 7: S5 completeness gate",
+			"status": "pending",
+			"blockedBy": [4, 5, 6],
+			"description": "**Goal:** Committed test of exact equalities: manifest one-to-one; doc 01+08 rids == code dispositions (class-level docs excluded); retired identifiers absent; reasons non-empty with resolving doc pointers; per-detector residue == exception sets. Runs in bun qa.\n\n```json:metadata\n{\"files\": [\"admin/pipeline/body/dispositions.test.ts\"], \"verifyCommand\": \"bun qa\", \"acceptanceCriteria\": [\"all five equality families asserted\", \"mutation of any input fails the test\", \"green in the standard suite\"]}\n```"
+		},
+		{
+			"id": 8,
+			"subject": "Task 8: Recounts + evidence docs",
+			"status": "pending",
+			"blockedBy": [7],
+			"description": "**Goal:** brokenTopSequences=0 and startsAtTwo=0 (or enumerated signed sets); body-migration.md and spec §7 record the measured evidence; maintainer signs the final split diffs (standing gate).\n\n```json:metadata\n{\"files\": [\"docs/v2/body-migration.md\", \"docs/v2/upstream-issues.md\", \"docs/specs/2026-08-06-sense-structure-repair-design.md\", \"docs/v2/body-review/00-INDEX.md\"], \"verifyCommand\": \"bun run body:migrate-dry && bun qa\", \"acceptanceCriteria\": [\"recounts at target or signed\", \"documented numbers match output\", \"maintainer sign-off captured\"]}\n```"
+		}
+	],
+	"lastUpdated": "2026-08-07T01:15:00Z"
+}
