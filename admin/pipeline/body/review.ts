@@ -735,6 +735,10 @@ function buildImpliedOneDoc(rows: ImpliedOneRow[]): string {
 		);
 	}
 	const sorted = [...rows].sort((a, b) => a.rid.localeCompare(b.rid));
+	// Rid cells link to the live v1 app so the reviewer can eyeball the
+	// rendered entry next to the print.
+	const ridLink = (rid: string): string =>
+		`[${rid}](https://jastrow.app/#rid:${rid})`;
 	const header = ['Rid', 'Headword', 'Context', 'Decision'];
 	return doc([
 		`# 08 — Implied sense-\`1)\` candidates (${rows.length} entries)`,
@@ -755,7 +759,7 @@ function buildImpliedOneDoc(rows: ImpliedOneRow[]): string {
 		'',
 		mdTable(
 			header,
-			sorted.map((r) => [r.rid, cell(r.headword), r.excerpt, '']),
+			sorted.map((r) => [ridLink(r.rid), cell(r.headword), r.excerpt, '']),
 		),
 	]);
 }

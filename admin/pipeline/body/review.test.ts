@@ -59,7 +59,7 @@ describe('buildImpliedOneDoc (doc 08, S3 census equality)', () => {
 	it('renders exactly one row per committed census rid', () => {
 		const text = buildImpliedOneDoc([...IMPLIED_ONE_CENSUS].map(rowFor));
 		for (const rid of IMPLIED_ONE_CENSUS) {
-			expect(text).toContain(`| ${rid} |`);
+			expect(text).toContain(`| [${rid}](https://jastrow.app/#rid:${rid}) |`);
 		}
 		expect(text).toContain(`(${IMPLIED_ONE_CENSUS.length} entries)`);
 	});
