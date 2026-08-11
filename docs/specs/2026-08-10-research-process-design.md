@@ -40,9 +40,9 @@ not in re-running the model.
 | Model mix | Sonnet 5 for sweep agents; Opus 5 escalation tier for entries the sweep flags as hard. Spend for quality; optimize by using the right model per tier. |
 | Chunk size | ~20–40 entries per agent, to avoid long-context quality degradation |
 | Repair constraint | Agents may **rearrange, re-tag, split, or delete existing text — never generate new words**. Any repair that would require new content is automatically `needs_print_check`. |
-| Patch format | Semantic patches keyed by rid + field with `expected_before`, not line diffs |
+| Patch format | Semantic patches keyed by rid + stable target with `expected_before`, not line diffs |
 | Print lookup | Agents never fetch/OCR print in pass 1; they log and escalate. A later tier uses page images with a vision-capable model (or maintainer + assistant on scans). |
-| Snapshot pinning | Every patch records the source snapshot hash. Sefaria offers no historical versions, but the pipeline commits each decoded snapshot to `data/source/`, so git history is our version store. |
+| Snapshot pinning | Every patch records the source snapshot hash. Sefaria does not expose historical revision snapshots through its public API, but the pipeline commits each decoded snapshot to `data/source/`, so git history is our version store. |
 
 ## 4. Research track
 
@@ -66,16 +66,26 @@ not in re-running the model.
    (e.g. the K00081 tail duplication class). New defect classes
    found here feed back into the defect catalog; affected chunks
    may be re-swept.
-6. **Verification pass**: second-opinion review (Opus 5) of all
-   low-confidence patches plus a random sample of high-confidence
-   ones, to measure the miss/error rate. A schema validator over
-   all output is the cheap floor and runs on everything.
+6. **Verification pass**: second-opinion review (Opus 5) of every
+   low- and med-confidence patch, a random sample of
+   high-confidence patches, and a random sample of `clean`
+   entries — the clean sample is what measures false negatives
+   (reviewing only patched entries cannot). The maintainer sets
+   per-tranche acceptance thresholds (sampled error and miss
+   rates); exceeding one halts promotion of the tranche, feeds
+   the failure back into the prompt/defect catalog, and re-sweeps
+   the affected chunks. The schema + no-new-text validator (§4.3)
+   is the cheap floor and runs on everything.
 7. **Script extraction loop**: examine the patch corpus for defect
    classes that generalize into deterministic scripts. Then loop:
-   write script → re-run pipeline → recompute which patches are now
-   redundant (their `expected_before` no longer matches) → retire
-   them → repeat until stable. What remains in the corpus is only
-   the one-off, infeasible-to-script residue.
+   write script → re-run pipeline → recompute which patches the
+   scripts made redundant → retire them → repeat until stable. A
+   patch is redundant only when the pipeline's current output
+   already equals the patch's post-state; a bare
+   `expected_before` mismatch proves the precondition changed,
+   nothing more, and routes to maintainer review instead. What
+   remains in the corpus is only the one-off,
+   infeasible-to-script residue.
 
 Deliverables: the deterministic script set (including final-schema
 conversion and per-entry JSON splitting) and the residual patch
@@ -101,36 +111,63 @@ prompt version produced it. It must contain:
 - **The hard constraint:** never invent text. Rearrange, re-tag,
   split, delete only. Repairs requiring new content →
   `needs_print_check`.
-- **Output contract:** the patch schema (§4.3) and disposition
-  taxonomy (§4.4), emitted as JSONL.
+- **Output contract:** the patch schema (§4.3), disposition
+  taxonomy, and entry-result manifest (§4.4), emitted as JSONL.
 
 ### 4.3 Semantic patch schema
 
-One JSONL record per patch:
+One JSONL record per patch. Example (one concrete `op` per
+record — the value below is `split`; the full set is listed
+after):
 
 ```jsonc
 {
   "id": "P000123",            // stable patch id
   "rid": "K00081",
-  "field": "body.senses[4].definition",
-  "op": "split | retag | move | delete | replace",
+  "target": "sense[—4)]:dc38a1", // stable address: marker token + content-hash anchor
+  "op": "split",
   "expected_before": "…",     // exact current content; apply fails loudly on mismatch
-  "after": "…",               // rearrangement of existing bytes only
-  "confidence": "high | med | low",
+  "payload": { "…": "…" },    // op-specific (see below)
+  "confidence": "high",       // high | med | low
   "rationale": "one-sentence why",
-  "defect_class": "implied-one | swallowed-marker | …",
+  "defect_class": "swallowed-marker",
   "snapshot": "sha256:…",     // source snapshot the patch is valid against
   "prompt_version": "v1"
 }
 ```
 
+Allowed `op` values: `split`, `retag`, `move`, `delete`,
+`replace`. Each op defines its own payload shape — a single
+`after` string cannot encode sibling creation and deterministic
+placement, which structural repairs need (cmp. the S1 splitter
+contract). The concrete payload schemas are fixed at
+implementation time and must satisfy:
+
+- **Stable targets.** Patches address senses by marker token plus
+  a content-hash anchor, never by array index — an earlier
+  `split`/`move`/`delete` must not shift a later patch's target.
+- **Ordering and conflicts.** Patches apply in committed corpus
+  order; two patches touching overlapping target regions of the
+  same rid are a corpus validation error caught at preflight, not
+  a runtime surprise.
+- **Assertions.** Each patch carries an expected occurrence count
+  for its target (normally exactly 1), and every structural apply
+  is followed by a round-trip re-parse assertion — the same
+  contract the S1 splitter uses.
+- **No-new-text validator.** For each op the validator derives
+  the permitted source bytes and rejects any patch whose applied
+  result contains bytes not drawn from them. The only synthesized
+  tokens permitted are sense-number markers from a closed grammar
+  (`N)` / `—N)`), which `retag`/`split` legitimately introduce.
+  A rejected patch re-dispositions its entry `needs_print_check`.
+
 The `expected_before` assertion is the safety mechanism: it makes
 application self-verifying, and it is what detects upstream drift
 in the maintenance track (§6).
 
-### 4.4 Disposition taxonomy
+### 4.4 Disposition taxonomy and entry-result manifest
 
-Every entry gets exactly one:
+Every entry gets exactly one disposition:
 
 | Disposition | Meaning |
 | --- | --- |
@@ -140,6 +177,15 @@ Every entry gets exactly one:
 | `needs_human_judgment` | Defect found; repair is a maintainer call, not a print question |
 
 Flag-without-repair is a first-class outcome, not a fallback.
+
+Dispositions are recorded in an **entry-result manifest** — a
+JSONL file alongside the patch corpus, keyed by rid, with exactly
+one record per input rid (the completeness check). Each record
+carries the disposition, the ids of that entry's patches, any
+escalation details, and — for `needs_*` rows — the eventual
+maintainer decision. Replay (§5.3) refuses to run while any
+`needs_*` record is unresolved; the manifest is both the
+audit trail and the gate.
 
 ### 4.5 Tranche procedure
 
@@ -153,10 +199,23 @@ Flag-without-repair is a first-class outcome, not a fallback.
 
 ## 5. Pipeline track
 
-1. Pull data from Sefaria (commit decoded snapshot; hash it).
-2. Run deterministic scripts against the data.
-3. Apply the patch corpus. Any `expected_before` mismatch aborts
-   loudly and names the patch.
+1. Pull data from Sefaria; commit the decoded snapshot and hash
+   it. The canonical hash input is the committed decoded snapshot
+   files, hashed in a fixed file order — this is the value patch
+   `snapshot` pins compare against.
+2. Run deterministic scripts per a **committed ordered phase
+   manifest**, each phase's preconditions asserted at runtime:
+   marker/text passes run before structural repairs (the existing
+   S1 contract — reinserted markers must be in-text before any
+   split), and structural repairs complete before anything
+   consumer-facing is produced. A violated ordering assertion
+   aborts the run.
+3. Apply the patch corpus — preflight first, then write. The
+   preflight checks (a) the corpus snapshot pin equals the current
+   snapshot hash, and (b) every patch's `expected_before` and
+   occurrence count, reporting **all** mismatches together before
+   aborting — never just the first. The snapshot pin changes only
+   through a reviewed maintenance rebase (§6), never silently.
 4. Run post-patch scripts if needed (final schema, split into
    per-entry JSON files).
 
@@ -174,8 +233,11 @@ files consumed by the admin tool and compiler.
    change touches a patched entry, the patch's `expected_before`
    fails to match — that loud mismatch *is* the worklist. Each
    flagged patch is updated (rebased onto the new upstream bytes)
-   or retired (upstream fixed it). The main pipeline must always
-   run clean against current Sefaria data.
+   or retired — retirement requires proof that the new upstream
+   state already equals the patch's post-state (or a
+   class-specific equivalent); the mismatch alone only proves the
+   precondition moved (§4.1 step 7). The main pipeline must
+   always run clean against current Sefaria data.
 
 Findings that are genuine Sefaria errors feed
 [upstream-issues.md](../v2/upstream-issues.md) — upstream may fix
@@ -193,9 +255,11 @@ them for free over time, at which point step 5 retires our patch.
 
 ## 8. Relationship to in-flight work
 
-The sense-structure-repair plan
-([2026-08-06](../superpowers/plans/2026-08-06-sense-structure-repair.md))
-is paused at Task 3 (doc-08 review, 26 rows undecided). Its
+The sense-structure-repair design
+([2026-08-06](2026-08-06-sense-structure-repair-design.md)) is
+paused at its plan's Task 3 (doc-08 review, 26 rows undecided;
+the plan and review docs live on the parked
+`impl/sense-structure-repair` branch). Its
 validated repairs stay in the deterministic script set. Whether the
 remaining doc-08 rows are finished manually or folded into the
 sweep (implied-one is a cataloged defect class the agents will
