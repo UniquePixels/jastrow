@@ -16,9 +16,14 @@
  *   anyway, since the marker moves from the definition into the new
  *   sibling's number field);
  * - `replace` may introduce closed-grammar tokens present in
- *   `payload.replace` (the OCR `l)` → `1)` class — the `1` byte
- *   genuinely does not exist in the damaged source);
+ *   `payload.replace` (the OCR `l)` → `1)` class);
  * - `move` and `delete` get no allowance at all.
+ *
+ * Maintainer ruling (2026-08-11): correcting an obvious OCR error is
+ * *correction*, not adding to the text — a mis-recognized glyph never
+ * was the source's content. The marker allowance on `replace` is that
+ * ruling in code, held to the closed grammar so "correction" can
+ * never widen into composition.
  *
  * Any repair needing bytes beyond that is not a repair this process
  * may make — the verdict re-dispositions the entry
