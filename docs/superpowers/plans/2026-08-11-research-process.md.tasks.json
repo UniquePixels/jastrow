@@ -4,14 +4,14 @@
 		{
 			"id": 1,
 			"subject": "Task 1: Snapshot hash + corpus pin",
-			"status": "pending",
+			"status": "completed",
 			"blockedBy": [],
 			"description": "**Goal:** Canonical sha256 over the committed decoded snapshot files in fixed order (spec §3, §5.1); committed lock value patches pin and preflight compares.\n\n```json:metadata\n{\"files\": [\"admin/pipeline/patch/snapshot.ts\", \"admin/pipeline/patch/snapshot.test.ts\", \"data/patches/snapshot.lock\"], \"verifyCommand\": \"bun test admin/pipeline/patch/snapshot.test.ts\", \"acceptanceCriteria\": [\"fixed documented file list/order, source data only\", \"deterministic hash; lock matches fresh computation in test\", \"mismatch names files and points to maintenance-track rebase\"]}\n```"
 		},
 		{
 			"id": 2,
 			"subject": "Task 2: Semantic patch schema + validators",
-			"status": "pending",
+			"status": "in_progress",
 			"blockedBy": [],
 			"description": "**Goal:** Spec §4.3 as code: five ops with payload schemas, stable targets (marker token + content-hash anchor), occurrence assertions, ordering/overlap preflight, no-new-text validator with closed marker grammar.\n\n```json:metadata\n{\"files\": [\"admin/pipeline/patch/schema.ts\", \"admin/pipeline/patch/schema.test.ts\", \"admin/pipeline/patch/no-new-text.ts\", \"admin/pipeline/patch/no-new-text.test.ts\"], \"verifyCommand\": \"bun test admin/pipeline/patch/\", \"acceptanceCriteria\": [\"5 ops parse with op-specific payloads encoding sibling creation + placement\", \"stable target resolver, never array index, loud occurrence failures\", \"overlapping-target preflight error\", \"no-new-text rejects foreign bytes; only closed-grammar markers synthesized; reject re-dispositions needs_print_check\", \"accept+reject fixture per op\"]}\n```"
 		},
