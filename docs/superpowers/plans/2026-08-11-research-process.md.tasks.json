@@ -18,7 +18,7 @@
 		{
 			"id": 3,
 			"subject": "Task 3: Entry-result manifest",
-			"status": "pending",
+			"status": "completed",
 			"blockedBy": [2],
 			"description": "**Goal:** Spec §4.4: one JSONL record per input rid, exactly one disposition, patch ids + escalation + maintainer decision slots; unresolved needs_* gate.\n\n```json:metadata\n{\"files\": [\"admin/pipeline/research/manifest.ts\", \"admin/pipeline/research/manifest.test.ts\"], \"verifyCommand\": \"bun test admin/pipeline/research/manifest.test.ts\", \"acceptanceCriteria\": [\"disposition enum clean/repaired/needs_print_check/needs_human_judgment\", \"completeness: record set == input rid set\", \"gate helper reports unresolved needs_* rows\"]}\n```"
 		},
