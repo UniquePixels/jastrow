@@ -32,7 +32,7 @@
 		{
 			"id": 5,
 			"subject": "Task 5: Chunker + tranche checkpoints",
-			"status": "pending",
+			"status": "completed",
 			"blockedBy": [],
 			"description": "**Goal:** Spec §4.1.2/§4.5: deterministic 20–40-entry chunks, 2–4K-entry tranches, rid checkpoints, resumable; failed run loses at most one chunk.\n\n```json:metadata\n{\"files\": [\"admin/pipeline/research/chunks.ts\", \"admin/pipeline/research/chunks.test.ts\"], \"verifyCommand\": \"bun test admin/pipeline/research/chunks.test.ts\", \"acceptanceCriteria\": [\"deterministic rid-ordered chunking, configurable sizes\", \"checkpoint records completed chunks; resume skips them (tested mid-tranche)\", \"chunk ids stable across runs\"]}\n```"
 		},
