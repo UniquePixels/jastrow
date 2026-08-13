@@ -25,7 +25,7 @@
 		{
 			"id": 4,
 			"subject": "Task 4: Patch apply engine + phase manifest",
-			"status": "pending",
+			"status": "completed",
 			"blockedBy": [1, 2, 3],
 			"description": "**Goal:** Spec §5: ordered phase manifest with runtime-asserted preconditions; apply engine with all-mismatches preflight, corpus-order apply, round-trip re-parse, needs_* refusal.\n\n```json:metadata\n{\"files\": [\"admin/pipeline/patch/apply.ts\", \"admin/pipeline/patch/apply.test.ts\", \"admin/pipeline/body/migrate-dry.ts\", \"package.json\"], \"verifyCommand\": \"bun test admin/pipeline/patch/apply.test.ts && bun run body:migrate-dry\", \"acceptanceCriteria\": [\"preflight: snapshot pin + every expected_before + occurrence, ALL mismatches reported together\", \"corpus-order apply with round-trip re-parse per structural apply\", \"refuses on unresolved needs_*\", \"phase manifest: text passes → structural → patch apply → consumer-facing, violated assertion aborts\", \"empty corpus keeps gates 32512/32512\"]}\n```"
 		},

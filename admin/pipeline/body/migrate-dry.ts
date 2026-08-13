@@ -10,6 +10,16 @@
  */
 import type { ValidateFunction } from 'ajv';
 import Ajv2020 from 'ajv/dist/2020';
+import {
+	applyEntryPatches,
+	corpusPreflight,
+	createPhaseTracker,
+	loadCorpus,
+	loadManifest,
+	patchesByRid,
+} from '../patch/apply.ts';
+import type { SemanticPatch } from '../patch/schema.ts';
+import { computeSnapshot } from '../patch/snapshot.ts';
 import entrySchema from '../schema/entry.schema.json' with { type: 'json' };
 import { findCitations } from './cite.ts';
 import { buildTrace } from './dry-run.ts';
@@ -48,11 +58,18 @@ interface Recounts {
 	unresolvedRepairedOrphans: string[];
 }
 
+interface PatchTally {
+	applied: number;
+	corpus: number;
+	problems: string[];
+}
+
 interface Report {
 	confirmedNoChange: string[];
 	deferred: Record<string, string>;
 	entries: number;
 	gates: Record<'formSection' | 'lettered' | 'rejoin' | 'units', GateTally>;
+	patches: PatchTally;
 	recordsByPass: Record<string, RepairRecord[]>;
 	recounts: Recounts;
 	repairedEntries: number;
@@ -123,6 +140,7 @@ function createReport(): Report {
 			rejoin: { pass: 0, total: 0 },
 			units: { pass: 0, total: 0 },
 		},
+		patches: { applied: 0, corpus: 0, problems: [] },
 		recordsByPass: {},
 		recounts: {
 			brokenTopSequences: [],
@@ -160,20 +178,25 @@ function recount(entry: SourceEntry, report: Report): void {
 	}
 }
 
-/** One corpus entry through repair → composition → gates → recounts →
- * full schema validation. */
+/** One corpus entry through the committed phase manifest (spec §5.2):
+ * text repairs → structural repairs → patch apply → consumer-facing
+ * composition + gates + recounts + full schema validation. The
+ * tracker turns a mis-ordered edit to this function into a loud
+ * `PhaseViolation` instead of silently corrupted output. */
 function processEntry(
 	source: SourceEntry,
 	report: Report,
 	validate: ValidateFunction,
+	patchGroups: Map<string, SemanticPatch[]>,
 ): void {
 	report.entries++;
+	const phases = createPhaseTracker();
 	// Contain a drifted find-text to its own entry: record it and keep
 	// walking, so one report run lists every drift instead of aborting at
 	// the first. main() rethrows after the walk — the run stays loud.
 	let repaired: ReturnType<typeof applyRepairs>;
 	try {
-		repaired = applyRepairs(source);
+		repaired = phases.run('text-repairs', () => applyRepairs(source));
 	} catch (error) {
 		report.repairFailures.push(
 			`${source.rid}: ${error instanceof Error ? error.message : String(error)}`,
@@ -189,22 +212,41 @@ function processEntry(
 			report.recordsByPass[record.pass] = bucket;
 		}
 	}
-	const trace = buildTrace(entry);
-	const gates = evaluateRoundTrip(entry, trace);
-	tallyGate(report.gates.rejoin, gates.rejoin);
-	tallyGate(report.gates.units, gates.units);
-	tallyGate(report.gates.lettered, gates.lettered);
-	tallyGate(report.gates.formSection, gates.formSection);
-	recount(entry, report);
-	// Full-corpus schema validation (the dry run samples ~129; here the
-	// binyan cleanup is exactly what the 3 sampled failures traced to, so
-	// validate everything). Placeholder slug/headword per tallySchema.
-	if (!validate(toValidationEntry(entry, trace.body))) {
-		report.recounts.schemaFailures.push(entry.rid);
-	}
-	report.recounts.unresolvedRepairedOrphans.push(
-		...unresolvedOrphans(entry).map((item) => `${entry.rid}: ${item}`),
+	// No structural pass exists yet (the S1 splitter folds into the
+	// sweep's `split` op); the phase runs empty so the ordering
+	// contract is enforced from day one.
+	phases.run('structural-repairs', () => undefined);
+	const group = patchGroups.get(entry.rid);
+	const patched = phases.run('patch-apply', () =>
+		group === undefined
+			? { entry, problems: [] }
+			: applyEntryPatches(entry, group),
 	);
+	if (group !== undefined) {
+		report.patches.applied += group.length - patched.problems.length;
+		report.patches.problems.push(
+			...patched.problems.map((p) => `${p.patchId ?? entry.rid}: ${p.reason}`),
+		);
+	}
+	phases.run('consumer-output', () => {
+		const healed = patched.entry;
+		const trace = buildTrace(healed);
+		const gates = evaluateRoundTrip(healed, trace);
+		tallyGate(report.gates.rejoin, gates.rejoin);
+		tallyGate(report.gates.units, gates.units);
+		tallyGate(report.gates.lettered, gates.lettered);
+		tallyGate(report.gates.formSection, gates.formSection);
+		recount(healed, report);
+		// Full-corpus schema validation (the dry run samples ~129; here the
+		// binyan cleanup is exactly what the 3 sampled failures traced to, so
+		// validate everything). Placeholder slug/headword per tallySchema.
+		if (!validate(toValidationEntry(healed, trace.body))) {
+			report.recounts.schemaFailures.push(healed.rid);
+		}
+		report.recounts.unresolvedRepairedOrphans.push(
+			...unresolvedOrphans(healed).map((item) => `${healed.rid}: ${item}`),
+		);
+	});
 }
 
 /** The one-screen console summary — the numbers
@@ -225,6 +267,7 @@ function printSummary(report: Report): void {
 		`binyanEmptyOrUntrimmed=${report.recounts.emptyOrUntrimmedBinyanForms}`,
 		`schemaFailures=${report.recounts.schemaFailures.length}`,
 		`repairFailures=${report.repairFailures.length}`,
+		`patchCorpus=${report.patches.corpus} patchesApplied=${report.patches.applied} patchProblems=${report.patches.problems.length}`,
 		`unresolvedRepairedOrphans=${report.recounts.unresolvedRepairedOrphans.length}`,
 		`deferred=${Object.keys(report.deferred).length} confirmedNoChange=${report.confirmedNoChange.length}`,
 	];
@@ -235,8 +278,30 @@ if (import.meta.main) {
 	const ajv = new Ajv2020({ allErrors: true, strict: true });
 	const validate = ajv.compile(entrySchema);
 	const report = createReport();
+	// Preflight first, then write (spec §5.3): the corpus-level checks
+	// run before any entry streams past, and report every problem.
+	const patches = await loadCorpus();
+	const manifestRecords = await loadManifest();
+	const pin = `sha256:${(await computeSnapshot()).combined}`;
+	const preflight = corpusPreflight(patches, manifestRecords, pin);
+	if (preflight.length > 0) {
+		throw new Error(
+			`patch-corpus preflight failed (${preflight.length} problem(s)):\n${preflight
+				.map((p) => `${p.patchId ?? p.rid ?? '(corpus)'}: ${p.reason}`)
+				.join('\n')}`,
+		);
+	}
+	report.patches.corpus = patches.length;
+	const patchGroups = patchesByRid(patches);
 	for await (const source of readSourceEntries()) {
-		processEntry(source, report, validate);
+		processEntry(source, report, validate, patchGroups);
+		patchGroups.delete(source.rid);
+	}
+	// A patch whose rid never streamed past targets a nonexistent entry.
+	for (const [rid, group] of patchGroups) {
+		report.patches.problems.push(
+			`${group[0]?.id ?? rid}: no source entry with rid ${rid}`,
+		);
 	}
 	await Bun.write(REPORT_PATH, `${JSON.stringify(report, null, '\t')}\n`);
 	printSummary(report);
@@ -244,6 +309,11 @@ if (import.meta.main) {
 	if (report.repairFailures.length > 0) {
 		throw new Error(
 			`repair drift on ${report.repairFailures.length} ${report.repairFailures.length === 1 ? 'entry' : 'entries'}:\n${report.repairFailures.join('\n')}`,
+		);
+	}
+	if (report.patches.problems.length > 0) {
+		throw new Error(
+			`patch drift on ${report.patches.problems.length} patch(es):\n${report.patches.problems.join('\n')}`,
 		);
 	}
 }
