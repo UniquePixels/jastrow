@@ -225,20 +225,23 @@ test), verifier prompt artifact. Tranche output committed under
 `data/patches/`.
 
 **Acceptance Criteria:**
-- [ ] Ingest validates every agent record against schema +
+- [x] Ingest validates every agent record against schema +
       no-new-text before it enters the corpus; rejects are logged
-      and re-dispositioned
-- [ ] Sampler selects: every low- and med-confidence patch, a
+      and re-dispositioned (1 pilot reject, auto-re-dispositioned)
+- [x] Sampler selects: every low- and med-confidence patch, a
       random sample of high-confidence patches, and a random
       sample of `clean` entries (the false-negative measure);
       sampled records go to the Opus 5 tier
-- [ ] Pilot report: sampled error rate, miss rate, escalation
-      queue size — numbers the maintainer sets thresholds against
-- [ ] Pilot output (JSONL + escalation queue + report) committed;
-      prompt/catalog feedback folded into v2 if thresholds fail
+- [x] Pilot report: sampled error rate 33.3% (1/3,
+      classification-only), miss rate 3.3% (1/30), escalation
+      queue 10 — thresholds set: error ≤5%, miss ≤2% per tranche
+- [x] Pilot output (JSONL + escalation queue + report) committed
+      under data/patches/pilot/; five feedback items recorded for
+      prompt/catalog v2 (report §Feedback)
 
 **Verify:** `bun test admin/pipeline/research/verify.test.ts` →
-pass; pilot report reviewed and accepted by maintainer.
+pass (14 tests); pilot accepted by maintainer 2026-08-13
+(report.md §Acceptance).
 
 ## Task 8: Scaled sweep tranches (USER GATE, each)
 
