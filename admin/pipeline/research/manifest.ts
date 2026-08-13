@@ -92,15 +92,15 @@ function parseEntryResult(value: unknown, context: string): EntryResult {
 	if (!isRecord(value)) {
 		throw new ManifestFormatError(context, ['record must be a JSON object']);
 	}
-	if (typeof value.rid !== 'string' || !RID.test(value.rid)) {
+	if (typeof value['rid'] !== 'string' || !RID.test(value['rid'])) {
 		reasons.push(`rid must match ${RID.source}`);
 	}
-	if (!isDisposition(value.disposition)) {
+	if (!isDisposition(value['disposition'])) {
 		reasons.push(`disposition must be one of: ${DISPOSITIONS.join(', ')}`);
 	}
 	const patches: string[] = [];
-	if (Array.isArray(value.patches)) {
-		for (const id of value.patches) {
+	if (Array.isArray(value['patches'])) {
+		for (const id of value['patches']) {
 			if (typeof id !== 'string' || !PATCH_ID.test(id)) {
 				reasons.push(`patch id "${String(id)}" must match ${PATCH_ID.source}`);
 			} else {
@@ -114,33 +114,33 @@ function parseEntryResult(value: unknown, context: string): EntryResult {
 		reasons.push('patches must be an array of patch ids');
 	}
 	const needs =
-		value.disposition === 'needs_print_check' ||
-		value.disposition === 'needs_human_judgment';
+		value['disposition'] === 'needs_print_check' ||
+		value['disposition'] === 'needs_human_judgment';
 	if (needs) {
 		if (
-			typeof value.escalation !== 'string' ||
-			value.escalation.trim() === ''
+			typeof value['escalation'] !== 'string' ||
+			value['escalation'].trim() === ''
 		) {
 			reasons.push('needs_* rows require a non-empty escalation');
 		}
-	} else if (value.escalation !== undefined) {
+	} else if (value['escalation'] !== undefined) {
 		reasons.push(
 			'escalation is only allowed on needs_* rows — an entry with an unrepaired finding is not clean/repaired',
 		);
 	}
-	if (value.resolution !== undefined) {
+	if (value['resolution'] !== undefined) {
 		if (!needs) {
 			reasons.push('resolution is only allowed on needs_* rows');
-		} else if (isRecord(value.resolution)) {
+		} else if (isRecord(value['resolution'])) {
 			if (
-				typeof value.resolution.decision !== 'string' ||
-				value.resolution.decision.trim() === ''
+				typeof value['resolution']['decision'] !== 'string' ||
+				value['resolution']['decision'].trim() === ''
 			) {
 				reasons.push('resolution.decision must be non-empty');
 			}
 			if (
-				typeof value.resolution.decided_on !== 'string' ||
-				!REVIEW_DATE.test(value.resolution.decided_on)
+				typeof value['resolution']['decided_on'] !== 'string' ||
+				!REVIEW_DATE.test(value['resolution']['decided_on'])
 			) {
 				reasons.push('resolution.decided_on must be a YYYY-MM-DD review date');
 			}
@@ -148,25 +148,25 @@ function parseEntryResult(value: unknown, context: string): EntryResult {
 			reasons.push('resolution must be an object');
 		}
 	}
-	if (value.disposition === 'clean' && patches.length > 0) {
+	if (value['disposition'] === 'clean' && patches.length > 0) {
 		reasons.push('a clean entry cannot carry patches');
 	}
-	if (value.disposition === 'repaired' && patches.length === 0) {
+	if (value['disposition'] === 'repaired' && patches.length === 0) {
 		reasons.push('a repaired entry requires at least one patch id');
 	}
 	if (reasons.length > 0) {
 		throw new ManifestFormatError(context, reasons);
 	}
 	const result: EntryResult = {
-		disposition: value.disposition as Disposition,
+		disposition: value['disposition'] as Disposition,
 		patches,
-		rid: value.rid as string,
+		rid: value['rid'] as string,
 	};
-	if (value.escalation !== undefined) {
-		result.escalation = value.escalation as string;
+	if (value['escalation'] !== undefined) {
+		result.escalation = value['escalation'] as string;
 	}
-	if (value.resolution !== undefined) {
-		result.resolution = value.resolution as unknown as MaintainerResolution;
+	if (value['resolution'] !== undefined) {
+		result.resolution = value['resolution'] as unknown as MaintainerResolution;
 	}
 	return result;
 }

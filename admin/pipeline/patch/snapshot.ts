@@ -94,7 +94,7 @@ function buildLock(pin: SnapshotPin): string {
 function parseLock(text: string): SnapshotPin {
 	const lines = text.trim().split('\n');
 	const first = lines[0]?.match(LOCK_COMBINED_LINE);
-	if (first?.groups?.hex === undefined) {
+	if (first?.groups?.['hex'] === undefined) {
 		throw new Error(
 			`malformed lock: expected "sha256:<hex>", got "${lines[0]}"`,
 		);
@@ -102,12 +102,12 @@ function parseLock(text: string): SnapshotPin {
 	const files: FileHash[] = [];
 	for (const line of lines.slice(1)) {
 		const m = line.match(LOCK_FILE_LINE);
-		if (m?.groups?.path === undefined || m.groups.hex === undefined) {
+		if (m?.groups?.['path'] === undefined || m.groups['hex'] === undefined) {
 			throw new Error(`malformed lock line: "${line}"`);
 		}
-		files.push({ path: m.groups.path, sha256: m.groups.hex });
+		files.push({ path: m.groups['path'], sha256: m.groups['hex'] });
 	}
-	return { combined: first.groups.hex, files };
+	return { combined: first.groups['hex'], files };
 }
 
 /** One per-file difference between the lock and the working tree. */

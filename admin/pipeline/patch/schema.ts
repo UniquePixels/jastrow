@@ -175,12 +175,12 @@ function senseTarget(sense: SourceSense): string {
 /** Parse a `sense[<token>]:<anchor>` address. */
 function parseTarget(target: string): PatchTarget {
 	const m = target.match(TARGET);
-	if (m?.groups?.anchor === undefined || m.groups.token === undefined) {
+	if (m?.groups?.['anchor'] === undefined || m.groups['token'] === undefined) {
 		throw new PatchFormatError(`target "${target}"`, [
 			'expected sense[<token>]:<8-hex-anchor>',
 		]);
 	}
-	return { anchor: m.groups.anchor, token: m.groups.token };
+	return { anchor: m.groups['anchor'], token: m.groups['token'] };
 }
 
 /** One position in an entry's sense tree: the sense plus the sibling
@@ -232,42 +232,42 @@ function payloadReasons(op: PatchOp, payload: unknown): string[] {
 	const p = payload as Record<string, unknown>;
 	switch (op) {
 		case 'delete': {
-			if (p.scope !== 'segment' && p.scope !== 'sense') {
+			if (p['scope'] !== 'segment' && p['scope'] !== 'sense') {
 				return ['delete payload.scope must be "segment" or "sense"'];
 			}
-			if (p.scope === 'segment' && !nonEmptyString(p.segment)) {
+			if (p['scope'] === 'segment' && !nonEmptyString(p['segment'])) {
 				return ['delete payload.segment required when scope is "segment"'];
 			}
-			if (p.scope === 'sense' && p.segment !== undefined) {
+			if (p['scope'] === 'sense' && p['segment'] !== undefined) {
 				return ['delete payload.segment must be absent when scope is "sense"'];
 			}
 			return [];
 		}
 		case 'move': {
 			const reasons: string[] = [];
-			if (!nonEmptyString(p.segment)) {
+			if (!nonEmptyString(p['segment'])) {
 				reasons.push('move payload.segment must be a non-empty string');
 			}
-			if (!nonEmptyString(p.anchor)) {
+			if (!nonEmptyString(p['anchor'])) {
 				reasons.push('move payload.anchor must be a non-empty string');
 			}
-			if (p.position !== 'before' && p.position !== 'after') {
+			if (p['position'] !== 'before' && p['position'] !== 'after') {
 				reasons.push('move payload.position must be "before" or "after"');
 			}
 			return reasons;
 		}
 		case 'replace': {
 			const reasons: string[] = [];
-			if (!nonEmptyString(p.find)) {
+			if (!nonEmptyString(p['find'])) {
 				reasons.push('replace payload.find must be a non-empty string');
 			}
-			if (typeof p.replace !== 'string') {
+			if (typeof p['replace'] !== 'string') {
 				reasons.push('replace payload.replace must be a string');
 			}
 			return reasons;
 		}
 		case 'retag': {
-			if (typeof p.number !== 'string' || !CLOSED_MARKER.test(p.number)) {
+			if (typeof p['number'] !== 'string' || !CLOSED_MARKER.test(p['number'])) {
 				return [
 					'retag payload.number must match the closed marker grammar (N) / —N))',
 				];
@@ -275,7 +275,7 @@ function payloadReasons(op: PatchOp, payload: unknown): string[] {
 			return [];
 		}
 		case 'split': {
-			if (typeof p.marker !== 'string' || !CLOSED_MARKER.test(p.marker)) {
+			if (typeof p['marker'] !== 'string' || !CLOSED_MARKER.test(p['marker'])) {
 				return [
 					'split payload.marker must match the closed marker grammar (N) / —N))',
 				];
@@ -299,25 +299,25 @@ function parsePatch(value: unknown): SemanticPatch {
 	}
 	const raw = value as Record<string, unknown>;
 	const reasons: string[] = [];
-	if (typeof raw.id !== 'string' || !PATCH_ID.test(raw.id)) {
+	if (typeof raw['id'] !== 'string' || !PATCH_ID.test(raw['id'])) {
 		reasons.push('id must match P<6 digits>');
 	}
-	if (typeof raw.rid !== 'string' || !RID.test(raw.rid)) {
+	if (typeof raw['rid'] !== 'string' || !RID.test(raw['rid'])) {
 		reasons.push('rid must match <letter><5 digits>');
 	}
 	const ops: PatchOp[] = ['delete', 'move', 'replace', 'retag', 'split'];
-	if (ops.includes(raw.op as PatchOp)) {
-		reasons.push(...payloadReasons(raw.op as PatchOp, raw.payload));
+	if (ops.includes(raw['op'] as PatchOp)) {
+		reasons.push(...payloadReasons(raw['op'] as PatchOp, raw['payload']));
 	} else {
 		reasons.push(`op must be one of ${ops.join(', ')}`);
 	}
-	if (typeof raw.expected_before !== 'string') {
+	if (typeof raw['expected_before'] !== 'string') {
 		reasons.push('expected_before must be a string');
 	}
 	let target: PatchTarget | undefined;
-	if (typeof raw.target === 'string') {
+	if (typeof raw['target'] === 'string') {
 		try {
-			target = parseTarget(raw.target);
+			target = parseTarget(raw['target']);
 		} catch (e) {
 			reasons.push((e as Error).message);
 		}
@@ -327,34 +327,37 @@ function parsePatch(value: unknown): SemanticPatch {
 	// Anchor self-consistency: the anchor is derived from the exact
 	// current content, which expected_before claims to be — an
 	// inconsistent pair is rejected before any entry is read.
-	if (target !== undefined && typeof raw.expected_before === 'string') {
-		const derived = contentAnchor(raw.expected_before);
+	if (target !== undefined && typeof raw['expected_before'] === 'string') {
+		const derived = contentAnchor(raw['expected_before']);
 		if (derived !== target.anchor) {
 			reasons.push(
 				`target anchor ${target.anchor} does not match expected_before (sha256 → ${derived})`,
 			);
 		}
 	}
-	if (!['high', 'low', 'med'].includes(raw.confidence as string)) {
+	if (!['high', 'low', 'med'].includes(raw['confidence'] as string)) {
 		reasons.push('confidence must be high, med, or low');
 	}
-	if (!nonEmptyString(raw.rationale)) {
+	if (!nonEmptyString(raw['rationale'])) {
 		reasons.push('rationale must be a non-empty string');
 	}
-	if (!nonEmptyString(raw.defect_class)) {
+	if (!nonEmptyString(raw['defect_class'])) {
 		reasons.push('defect_class must be a non-empty string');
 	}
-	if (typeof raw.snapshot !== 'string' || !SNAPSHOT_PIN.test(raw.snapshot)) {
+	if (
+		typeof raw['snapshot'] !== 'string' ||
+		!SNAPSHOT_PIN.test(raw['snapshot'])
+	) {
 		reasons.push('snapshot must match sha256:<64 hex>');
 	}
-	if (!nonEmptyString(raw.prompt_version)) {
+	if (!nonEmptyString(raw['prompt_version'])) {
 		reasons.push('prompt_version must be a non-empty string');
 	}
-	const occurrences = raw.expected_occurrences ?? 1;
+	const occurrences = raw['expected_occurrences'] ?? 1;
 	if (!Number.isInteger(occurrences) || (occurrences as number) < 1) {
 		reasons.push('expected_occurrences must be a positive integer');
 	}
-	const index = raw.occurrence_index ?? 1;
+	const index = raw['occurrence_index'] ?? 1;
 	if (
 		!Number.isInteger(index) ||
 		(index as number) < 1 ||
@@ -364,23 +367,23 @@ function parsePatch(value: unknown): SemanticPatch {
 	}
 	if (reasons.length > 0) {
 		const context =
-			typeof raw.id === 'string' ? `patch ${raw.id}` : 'patch <no id>';
+			typeof raw['id'] === 'string' ? `patch ${raw['id']}` : 'patch <no id>';
 		throw new PatchFormatError(context, reasons);
 	}
 	return {
-		confidence: raw.confidence,
-		defect_class: raw.defect_class,
-		expected_before: raw.expected_before,
+		confidence: raw['confidence'],
+		defect_class: raw['defect_class'],
+		expected_before: raw['expected_before'],
 		expected_occurrences: occurrences,
-		id: raw.id,
+		id: raw['id'],
 		occurrence_index: index,
-		op: raw.op,
-		payload: raw.payload,
-		prompt_version: raw.prompt_version,
-		rationale: raw.rationale,
-		rid: raw.rid,
-		snapshot: raw.snapshot,
-		target: raw.target,
+		op: raw['op'],
+		payload: raw['payload'],
+		prompt_version: raw['prompt_version'],
+		rationale: raw['rationale'],
+		rid: raw['rid'],
+		snapshot: raw['snapshot'],
+		target: raw['target'],
 	} as SemanticPatch;
 }
 
