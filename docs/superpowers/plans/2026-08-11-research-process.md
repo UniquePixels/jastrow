@@ -190,7 +190,7 @@ Update `docs/v2/body-review/08-implied-one-candidates.md` header
 and spec §8 with the doc-08 ruling.
 
 **Acceptance Criteria:**
-- [ ] Prompt contains all §4.2 elements: role + full target entry
+- [x] Prompt contains all §4.2 elements: role + full target entry
       schema; defect catalog with one example per class (implied-1,
       swallowed `—N)` markers, OCR `l)`/`1)`, unnumbered senses
       missing their number field, unclassified binyan/section
@@ -198,16 +198,17 @@ and spec §8 with the doc-08 ruling.
       lost parentheticals, print-error carryovers); canonical
       repair conventions; the never-invent-text constraint;
       output contract (patch schema, dispositions, manifest, JSONL)
-- [ ] Seed material carried: the 53 decided doc-08 rows and
+- [x] Seed material carried: the 53 decided doc-08 rows and
       deferred rulings appear as worked examples / pre-decided
       inputs the sweep must not contradict
-- [ ] Maintainer call recorded: whether the 26 undecided doc-08
-      rows are folded into the sweep (default) or finished
-      manually — written into the doc-08 header and spec §8
-- [ ] Prompt is versioned (`v1`); tranche outputs will record it
+- [x] Maintainer call recorded: the 26 undecided doc-08 rows are
+      folded into the sweep (2026-08-13) — written into the doc-08
+      header and spec §8
+- [x] Prompt is versioned (`v1`); tranche outputs will record it
 
-**Verify:** maintainer sign-off captured in the plan checklist and
-doc-08 header.
+**Verify:** maintainer sign-off captured 2026-08-13 in the plan
+checklist and doc-08 header ("Prompt v1 signed: maintainer,
+2026-08-13").
 
 ## Task 7: Pilot tranche + verification machinery (USER GATE)
 
