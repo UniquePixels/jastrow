@@ -39,11 +39,11 @@ interface Link {
 	text: string;
 }
 
-const ANCHOR_OPEN = /<a [^>]*>/g;
-const ABBR_TAG = /<abbr [^>]*>(.*?)<\/abbr>/g;
-const ANCHOR = /<a ([^>]*)>(.*?)<\/a>/g;
-const DATA_REF_ATTR = /data-ref="([^"]*)"/;
-const HREF_ATTR = /href="([^"]*)"/;
+const ANCHOR_OPEN = /<a [^>]*>/gu;
+const ABBR_TAG = /<abbr [^>]*>(.*?)<\/abbr>/gu;
+const ANCHOR = /<a ([^>]*)>(.*?)<\/a>/gu;
+const DATA_REF_ATTR = /data-ref="([^"]*)"/u;
+const HREF_ATTR = /href="([^"]*)"/u;
 
 /** Reduce every anchor's open tag to a bare `<a>` so raw refLinks and
  * deployed word-links compare as their visible text. */

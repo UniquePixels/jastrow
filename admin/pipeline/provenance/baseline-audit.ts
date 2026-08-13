@@ -110,9 +110,9 @@ function diffFields(
 	return fields.sort((a, b) => a.localeCompare(b));
 }
 
-const LEXICON_PREFIX = /^Jastrow, /;
-const SENSE_SUFFIX = / \d+$/;
-const RID_PREFIX = /^#rid:/;
+const LEXICON_PREFIX = /^Jastrow, /u;
+const SENSE_SUFFIX = / \d+$/u;
+const RID_PREFIX = /^#rid:/u;
 
 /** "Jastrow, אָב I 1" → "אָב I" (drop lexicon prefix + sense number). */
 const refHeadword = (dataRef: string): string =>
