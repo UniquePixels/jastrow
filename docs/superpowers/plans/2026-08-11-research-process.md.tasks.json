@@ -66,7 +66,7 @@
 		{
 			"id": 8,
 			"subject": "Task 8: Scaled sweep tranches (USER GATE each)",
-			"status": "pending",
+			"status": "in_progress",
 			"blockedBy": [
 				7
 			],
@@ -91,5 +91,5 @@
 			"description": "**Goal:** Recounts at target (brokenTopSequences=0, startsAtTwo=0) or enumerated signed sets; docs match measured output; follow-on plans (print tier, maintenance track) stubbed.\n\n**USER GATE — maintainer signs the final numbers.**\n\n```json:metadata\n{\"files\": [\"docs/v2/body-migration.md\", \"docs/v2/upstream-issues.md\", \"docs/v2/body-review/00-INDEX.md\", \"docs/specs/2026-08-10-research-process-design.md\"], \"verifyCommand\": \"bun run body:migrate-dry\", \"acceptanceCriteria\": [\"recounts at target or signed with review dates\", \"documented numbers equal captured output\", \"follow-on plans stubbed not started\"], \"userGate\": true, \"tags\": [\"user-gate\"]}\n```"
 		}
 	],
-	"lastUpdated": "2026-08-13T18:05:00Z"
+	"lastUpdated": "2026-08-13T18:16:00Z"
 }
