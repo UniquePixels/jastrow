@@ -30,6 +30,11 @@ import process from 'node:process';
  * tranche.test.ts.
  */
 import { applyRepairs } from '../body/repairs.ts';
+import {
+	type AnomalyHint,
+	buildAbbrevTable,
+	entryAnomalyHints,
+} from './anomalies.ts';
 import { readSourceEntries } from '../body/source.ts';
 import type { SourceEntry, SourceSense } from '../body/types.ts';
 import {
@@ -57,7 +62,7 @@ import {
 	selectSample,
 } from './verify.ts';
 
-const PROMPT_VERSION = 'v2';
+const PROMPT_VERSION = 'v3';
 const SNAPSHOT_LOCK = 'data/patches/snapshot.lock';
 const SOURCE = 'data/source/jastrow-dictionary.jsonl';
 const TRANCHES_DIR = 'data/patches/tranches';
@@ -196,14 +201,26 @@ async function nextWork(rids: readonly string[]): Promise<{
 async function prep(workdir: string, count: number): Promise<void> {
 	const pin = (await Bun.file(SNAPSHOT_LOCK).text()).split('\n')[0]?.trim();
 	const entries = await loadPrePatchCorpus();
+	const abbrevTable = buildAbbrevTable(entries.values());
 	const { pending, tranche } = await nextWork([...entries.keys()]);
 	const batch = pending.slice(0, count);
 	for (const chunk of batch) {
 		const chunkEntries = chunk.rids.map((rid) => entries.get(rid));
+		const hints: Record<string, AnomalyHint[]> = {};
+		for (const rid of chunk.rids) {
+			const entryHints = entryAnomalyHints(
+				entries.get(rid) as SourceEntry,
+				abbrevTable,
+			);
+			if (entryHints.length > 0) {
+				hints[rid] = entryHints;
+			}
+		}
 		await Bun.write(
 			`${workdir}/inputs/${chunk.id}.json`,
 			JSON.stringify(
 				{
+					anomaly_hints: hints,
 					chunkId: chunk.id,
 					entries: chunkEntries,
 					pin,

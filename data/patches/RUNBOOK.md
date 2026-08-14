@@ -6,9 +6,12 @@ recorded go**. Thresholds (pilot acceptance 2026-08-13): halt and
 re-sweep a batch whose sampled **error rate > 5%** or clean-sample
 **miss rate > 2%**.
 
-Prompts: sweep agents use `prompts/sweep-v2.md` (signed
-2026-08-13); verification uses `prompts/verify-v1.md`. Sweep tier
-Sonnet, verification tier Opus.
+Prompts: sweep agents use `prompts/sweep-v3.md` (signed
+2026-08-13; adds precomputed anomaly hints after the batch-01
+breach); verification uses `prompts/verify-v1.md`. Sweep tier
+Sonnet, verification tier Opus. Prep attaches `anomaly_hints`
+(deterministic corpus-frequency findings, `anomalies.ts`) to
+chunk inputs.
 
 ## Procedure
 
