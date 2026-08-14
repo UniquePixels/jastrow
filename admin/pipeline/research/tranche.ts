@@ -1,4 +1,5 @@
 #!/usr/bin/env bun
+import { existsSync } from 'node:fs';
 import process from 'node:process';
 /**
  * Tranche batch tooling (research-process plan Task 8; spec
@@ -154,9 +155,11 @@ async function jsonlLines(path: string): Promise<string[]> {
 async function committedPatchIds(): Promise<string[]> {
 	const ids: string[] = [];
 	const files = ['data/patches/pilot/patches.jsonl'];
-	const glob = new Bun.Glob('*/patches.jsonl');
-	for await (const hit of glob.scan({ cwd: TRANCHES_DIR })) {
-		files.push(`${TRANCHES_DIR}/${hit}`);
+	if (existsSync(TRANCHES_DIR)) {
+		const glob = new Bun.Glob('*/patches.jsonl');
+		for await (const hit of glob.scan({ cwd: TRANCHES_DIR })) {
+			files.push(`${TRANCHES_DIR}/${hit}`);
+		}
 	}
 	for (const path of files) {
 		for (const line of await jsonlLines(path)) {
