@@ -108,26 +108,43 @@ interface SampleConfig {
 	seed: number;
 }
 
-/** Opus-tier verdict on one sampled patch. */
+/** Opus-tier verdict on one sampled patch. `labelOnly` marks a
+ * failure whose repair is substantively correct (a metadata slip,
+ * e.g. a wrong `defect_class` token) — corrected at acceptance and
+ * tracked, but not counted against the error threshold (maintainer
+ * standard 2026-08-14, batch-01). Absent means false. */
 interface PatchVerdict {
+	labelOnly?: boolean;
 	note: string;
 	ok: boolean;
 	patchId: string;
 }
 
-/** Opus-tier verdict on one sampled `clean` entry. */
+/** Opus-tier verdict on one sampled `clean` entry. `catchable`
+ * says whether the missed defect was findable from what the sweep
+ * was given — the entry, its anomaly hints, the seed rulings, and
+ * the catalog — without corpus-wide forensics. Uncatchable misses
+ * are *discoveries*: folded into the escalation queue and tracked,
+ * but not counted against the miss threshold (maintainer standard
+ * 2026-08-14, batch-01). Absent means catchable (back-compat with
+ * pilot verdicts). */
 interface CleanVerdict {
+	catchable?: boolean;
 	missed: boolean;
 	note: string;
 	rid: string;
 }
 
-/** The pilot's measured numbers (spec §4.1.6). */
+/** The batch's measured numbers (spec §4.1.6). Threshold rates
+ * count catchable misses and substantive patch errors only;
+ * discoveries and label-only slips are reported alongside. */
 interface PilotReport {
 	cleanSampled: number;
+	discoveries: string[];
 	dispositions: Record<Disposition, number>;
 	errorRate: number;
 	escalationQueue: number;
+	labelOnlyPatches: string[];
 	missedClean: string[];
 	missRate: number;
 	patchesAccepted: number;
@@ -456,16 +473,30 @@ function buildPilotReport(
 		[...sample.lowMed, ...sample.high].map((p) => p.id),
 	);
 	const judged = patchVerdicts.filter((v) => sampledIds.has(v.patchId));
-	const wrong = judged.filter((v) => !v.ok).map((v) => v.patchId);
+	const failed = judged.filter((v) => !v.ok);
+	const wrong = failed
+		.filter((v) => v.labelOnly !== true)
+		.map((v) => v.patchId);
+	const labelOnly = failed
+		.filter((v) => v.labelOnly === true)
+		.map((v) => v.patchId);
 	const cleanJudged = cleanVerdicts.filter((v) => sample.clean.includes(v.rid));
-	const missed = cleanJudged.filter((v) => v.missed).map((v) => v.rid);
+	const found = cleanJudged.filter((v) => v.missed);
+	const missed = found
+		.filter((v) => v.catchable !== false)
+		.map((v) => v.rid);
+	const discoveries = found
+		.filter((v) => v.catchable === false)
+		.map((v) => v.rid);
 	const accepted = records.reduce((n, r) => n + r.patches.length, 0);
 	return {
 		cleanSampled: cleanJudged.length,
+		discoveries,
 		dispositions,
 		errorRate: judged.length === 0 ? 0 : wrong.length / judged.length,
 		escalationQueue:
 			dispositions.needs_human_judgment + dispositions.needs_print_check,
+		labelOnlyPatches: labelOnly,
 		missRate: cleanJudged.length === 0 ? 0 : missed.length / cleanJudged.length,
 		missedClean: missed,
 		patchesAccepted: accepted,
@@ -491,16 +522,30 @@ function renderPilotReport(report: PilotReport, title: string): string {
 		`| Patches accepted | ${report.patchesAccepted} |`,
 		`| Patches rejected at ingest | ${report.patchesRejected} |`,
 		`| Patches sampled (Opus tier) | ${report.patchesSampled} |`,
-		`| Sampled error rate | ${pct(report.errorRate)} |`,
+		`| Sampled error rate (substantive) | ${pct(report.errorRate)} |`,
+		`| Label-only patch slips | ${report.labelOnlyPatches.length} |`,
 		`| Clean entries sampled | ${report.cleanSampled} |`,
-		`| Clean-sample miss rate | ${pct(report.missRate)} |`,
+		`| Clean-sample miss rate (catchable) | ${pct(report.missRate)} |`,
+		`| Verifier discoveries (not counted) | ${report.discoveries.length} |`,
 		`| Escalation queue | ${report.escalationQueue} |`,
 	];
 	if (report.patchesWrong.length > 0) {
 		lines.push('', `Wrong patches: ${report.patchesWrong.join(', ')}`);
 	}
+	if (report.labelOnlyPatches.length > 0) {
+		lines.push(
+			'',
+			`Label-only slips (corrected, not counted): ${report.labelOnlyPatches.join(', ')}`,
+		);
+	}
 	if (report.missedClean.length > 0) {
 		lines.push('', `Missed clean entries: ${report.missedClean.join(', ')}`);
+	}
+	if (report.discoveries.length > 0) {
+		lines.push(
+			'',
+			`Discoveries (fold in as escalations; shared mechanical root cause across several forces a detector/prompt update before the next batch): ${report.discoveries.join(', ')}`,
+		);
 	}
 	lines.push('');
 	return lines.join('\n');

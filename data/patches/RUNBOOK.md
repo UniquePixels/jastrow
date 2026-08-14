@@ -2,16 +2,29 @@
 
 Per-batch procedure for the gated corpus sweep (spec §4.5; plan
 Task 8). Every batch is maintainer-gated: **no step 2 without a
-recorded go**. Thresholds (pilot acceptance 2026-08-13): halt and
-re-sweep a batch whose sampled **error rate > 5%** or clean-sample
-**miss rate > 2%**.
+recorded go**. Thresholds (maintainer standard 2026-08-14,
+batch-01): halt and re-sweep a batch whose sampled **substantive
+error rate > 5%** or **catchable clean-sample miss rate > 2%**.
+
+- A patch failure is *substantive* unless the verifier marks it
+  `labelOnly` (repair correct, metadata slip) — label slips are
+  corrected at acceptance and tracked, not counted.
+- A clean-sample miss is *catchable* unless the verifier marks it
+  `catchable: false` (finding it required corpus-wide forensics
+  beyond the entry, its `anomaly_hints`, the seed rulings, and the
+  catalog). Uncatchable misses are **discoveries**: folded into
+  the escalation queue, and when several share one mechanical root
+  cause, a detector rule or prompt update is mandatory before the
+  next batch (that rule is how batch-01's `anomalies.ts` detector
+  came to exist).
 
 Prompts: sweep agents use `prompts/sweep-v3.md` (signed
 2026-08-13; adds precomputed anomaly hints after the batch-01
-breach); verification uses `prompts/verify-v1.md`. Sweep tier
-Sonnet, verification tier Opus. Prep attaches `anomaly_hints`
-(deterministic corpus-frequency findings, `anomalies.ts`) to
-chunk inputs.
+breach); verification uses `prompts/verify-v2.md` (signed
+2026-08-14; adds the `catchable`/`labelOnly` verdict fields).
+Sweep tier Sonnet, verification tier Opus. Prep attaches
+`anomaly_hints` (deterministic corpus-frequency findings,
+`anomalies.ts`) to chunk inputs.
 
 ## Procedure
 

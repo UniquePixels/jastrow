@@ -402,4 +402,21 @@ describe('buildPilotReport', () => {
 		expect(report.errorRate).toBe(0);
 		expect(report.missRate).toBe(0);
 	});
+
+	it('excludes label-only fails and discoveries from the rates', () => {
+		const report = buildPilotReport(
+			records,
+			[],
+			sample,
+			[{ labelOnly: true, note: 'class token slip', ok: false, patchId: 'P000001' }],
+			[{ catchable: false, missed: true, note: 'corpus-forensic find', rid: 'A00001' }],
+		);
+		expect(report.errorRate).toBe(0);
+		expect(report.labelOnlyPatches).toEqual(['P000001']);
+		expect(report.missRate).toBe(0);
+		expect(report.discoveries).toEqual(['A00001']);
+		const rendered = renderPilotReport(report, 'Batch');
+		expect(rendered).toContain('Label-only slips');
+		expect(rendered).toContain('Discoveries');
+	});
 });
