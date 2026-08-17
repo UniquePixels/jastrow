@@ -67,4 +67,21 @@ Sweep tier Sonnet, verification tier Opus. Prep attaches
 - Corpus: 1,084 chunks / 11 tranches; 7 chunks done as of
   2026-08-13.
 - Maintainer decisions on accumulated `needs_*` rows happen before
-  replay (Task 10); the manifest gate enforces it.
+  replay (Task 10); the manifest gate enforces it. **Review cadence
+  (maintainer, 2026-08-15):** per-batch escalation review is waived —
+  batch-01 sampling established that queue items are genuinely
+  human-review-worthy (9 rulings reviewed, 1 false alarm). All
+  `needs_*` rows accumulate into one consolidated report at the end
+  of the sweep.
+- **Triage (maintainer, 2026-08-15):** every escalation defaults to
+  `post-go-live` — these are pre-existing source defects, not
+  pipeline regressions, so none block shipping. `blocking` is a
+  per-item override applied during the consolidated review.
+  Recorded in the resolution text (a structured `triage` field on
+  rows comes with the consolidated-report tooling).
+- **Wrong-reference handling (maintainer, 2026-08-15, A00363/A00571
+  precedents):** transcription-level errors (OCR glyphs) are fixed
+  and confidently relinked; print-level bad references are delinked
+  with an apparatus note (print reading → problem → Sefaria's
+  choice → other candidates → action); pure linker overreach is
+  delinked silently.
