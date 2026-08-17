@@ -46,7 +46,7 @@
 {"disposition":"clean","patches":[],"rid":"A00255"}
 {"disposition":"clean","patches":[],"rid":"A00256"}
 {"disposition":"clean","patches":[],"rid":"A00257"}
-{"disposition":"needs_human_judgment","patches":[],"rid":"A00258","escalation":"Sense —3) anchor displays בֵּית א׳ (\"Beth-Aguddah\") but its href/data-ref target is Jastrow, מִלְוָון 1 — a full consonantal mismatch (not a vocalization-only variant), matching the class-11 wrong-link-target signature. The correct target bytes are not present elsewhere in the entry, so no replace is possible; needs maintainer verification of the intended destination."}
+{"disposition":"needs_human_judgment","patches":[],"rid":"A00258","escalation":"Sense —3) anchor displays בֵּית א׳ (\"Beth-Aguddah\") but its href/data-ref target is Jastrow, מִלְוָון 1 — a full consonantal mismatch (not a vocalization-only variant), matching the class-11 wrong-link-target signature. The correct target bytes are not present elsewhere in the entry, so no replace is possible; needs maintainer verification of the intended destination.","resolution":"Maintainer ruling 2026-08-15: Sefaria linker error — the anchor on the compound reference is wrong (no correct target given); remove the incorrect link via admin tool / link-correction phase."}
 {"disposition":"clean","patches":[],"rid":"A00259"}
 {"disposition":"repaired","patches":["P000005"],"rid":"A00260"}
 {"disposition":"clean","patches":[],"rid":"A00261"}
@@ -99,14 +99,14 @@
 {"disposition":"needs_print_check","patches":[],"rid":"A00308","escalation":"language_code \"(b. h.;\" opens a parenthetical with no language_reference field on the entry and no closing ')' anywhere in the three senses (whole-entry paren count 5 open / 4 close, all three in-sense pairs balance on their own). The cross-field-parenthetical convention requires the paren to close in language_reference or the first sense; it does not here, so this reads as lost text (likely a dropped root/reference note) rather than convention."}
 {"disposition":"clean","patches":[],"rid":"A00309"}
 {"disposition":"clean","patches":[],"rid":"A00310"}
-{"disposition":"needs_human_judgment","patches":[],"rid":"A00311","escalation":"Second plural form \"—אַגְמֵי.\" (before \"Sabb. 77ᵇ ... grazes in meadows\") is anchored to href=\"/Jastrow,_גְּמַר II.1\" (data-ref \"Jastrow, גְּמַר II 1\"), but the entry's own root note reads \"(גום, v. אֲגַם)\" — root גמם, not גמר. Display text and link target disagree by one root consonant (ם vs ר); this matches the wrong-link-target shape but the correct headword/href bytes are not confirmed present elsewhere in the entry, so no safe replace is possible."}
+{"disposition":"needs_human_judgment","patches":[],"rid":"A00311","escalation":"Second plural form \"—אַגְמֵי.\" (before \"Sabb. 77ᵇ ... grazes in meadows\") is anchored to href=\"/Jastrow,_גְּמַר II.1\" (data-ref \"Jastrow, גְּמַר II 1\"), but the entry's own root note reads \"(גום, v. אֲגַם)\" — root גמם, not גמר. Display text and link target disagree by one root consonant (ם vs ר); this matches the wrong-link-target shape but the correct headword/href bytes are not confirmed present elsewhere in the entry, so no safe replace is possible.","resolution":"Maintainer ruling 2026-08-15: overzealous linker — the preceding a. e. (= and elsewhere) marks an outside reference, so the linked form should not be anchored at all. Remove the anchor; text stands."}
 {"disposition":"clean","patches":[],"rid":"A00312"}
 {"disposition":"clean","patches":[],"rid":"A00313"}
 {"disposition":"clean","patches":[],"rid":"A00314"}
 {"disposition":"clean","patches":[],"rid":"A00315"}
 {"disposition":"clean","patches":[],"rid":"A00316"}
 {"disposition":"clean","patches":[],"rid":"A00317"}
-{"disposition":"needs_human_judgment","patches":[],"rid":"A00318","escalation":"Verification-tier find (2026-08-14, batch-01 fold-in): class 11 wrong-link-target — plural aganei anchored to the unrelated lemma genei (aleph-stripped mis-target; 41x corpus-wide, escalatable volume)."}
+{"disposition":"needs_human_judgment","patches":[],"rid":"A00318","escalation":"Verification-tier find (2026-08-14, batch-01 fold-in): class 11 wrong-link-target — plural aganei anchored to the unrelated lemma genei (aleph-stripped mis-target; 41x corpus-wide, escalatable volume).","resolution":"Maintainer ruling 2026-08-15: same aleph-stripped linker-error shape as previously identified — the plural belongs to this entry own lemma, not the stripped-form target. Correct the mis-link per the established handling (admin tool / link-correction phase)."}
 {"disposition":"clean","patches":[],"rid":"A00319"}
 {"disposition":"clean","patches":[],"rid":"A00320"}
 {"disposition":"clean","patches":[],"rid":"A00321"}
@@ -116,7 +116,7 @@
 {"disposition":"needs_print_check","patches":[],"rid":"A00325","escalation":"Unbalanced parentheses in the plural clause: \"—Pl. אַגָּסִים, עוּגָּסִים) אַגָּסִין).\" carries two closing parens with no matching opens (whole-entry paren count 3 open / 5 close; the entry's other three parenthetical pairs all balance). Most likely a lost '(' before עוּגָּסִים, matching the entry's own \"(Var. X)\"/\"(Tosef. X)\" bracketed-variant pattern used twice earlier in the same entry; cannot place the missing byte(s) correctly without the printed page."}
 {"disposition":"clean","patches":[],"rid":"A00326"}
 {"disposition":"clean","patches":[],"rid":"A00327"}
-{"disposition":"needs_human_judgment","patches":[],"rid":"A00328","escalation":"Citation anchor displaying \"Midr. Till. to Ps. LXXXVI, 1\" targets href=\"/Midrash_Tehillim.5.4\" (data-ref \"Midrash Tehillim 5:4\") — display cites Ps. 86:1, target cites Ps. 5:4, and the refs array lists neither variant. Display text and link target disagree; cannot determine which reading is correct without the printed page, and the correct bytes are not present elsewhere in the entry."}
+{"disposition":"needs_human_judgment","patches":[],"rid":"A00328","escalation":"Citation anchor displaying \"Midr. Till. to Ps. LXXXVI, 1\" targets href=\"/Midrash_Tehillim.5.4\" (data-ref \"Midrash Tehillim 5:4\") — display cites Ps. 86:1, target cites Ps. 5:4, and the refs array lists neither variant. Display text and link target disagree; cannot determine which reading is correct without the printed page, and the correct bytes are not present elsewhere in the entry.","resolution":"Maintainer ruling 2026-08-15: NOT a defect — Midrash Tehillim is its own work, not Psalms; Midrash Tehillim 5:4 is the section discussing Ps. 86, so the reference link is correct as-is. No change needed."}
 {"disposition":"clean","patches":[],"rid":"A00329"}
 {"disposition":"clean","patches":[],"rid":"A00330"}
 {"disposition":"clean","patches":[],"rid":"A00331"}
