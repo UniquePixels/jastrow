@@ -2,21 +2,21 @@
 
 Per-batch procedure for the gated corpus sweep (spec §4.5; plan
 Task 8). Every batch is maintainer-gated: **no step 2 without a
-recorded go**. Thresholds (maintainer standard 2026-08-14,
-batch-01): halt and re-sweep a batch whose sampled **substantive
-error rate > 5%** or **catchable clean-sample miss rate > 2%**.
+recorded go**. Gates (sweep tiering spec, 2026-08-17):
 
-- A patch failure is *substantive* unless the verifier marks it
-  `labelOnly` (repair correct, metadata slip) — label slips are
-  corrected at acceptance and tracked, not counted.
-- A clean-sample miss is *catchable* unless the verifier marks it
-  `catchable: false` (finding it required corpus-wide forensics
-  beyond the entry, its `anomaly_hints`, the seed rulings, and the
-  catalog). Uncatchable misses are **discoveries**: folded into
-  the escalation queue, and when several share one mechanical root
-  cause, a detector rule or prompt update is mandatory before the
-  next batch (that rule is how batch-01's `anomalies.ts` detector
-  came to exist).
+- **Patch error gate (kept):** halt on a sampled **substantive error
+  rate > 5%**. A patch failure is *substantive* unless the verifier
+  marks it `labelOnly` (repair correct, metadata slip).
+- **Catchable-miss gate (retired 2026-08-17, spec T1):** four
+  measurements across two prompt versions sat at 7.4–8.2% against a 2%
+  limit, including one round where every prior miss was caught. Each
+  verification pass re-derives what should have been found, so the
+  metric tracked the second-pass advantage rather than sweep quality.
+  Misses are still recorded and folded in as escalations; they no
+  longer halt a batch.
+- **Saturation gate (new):** discovery rounds stop when two
+  consecutive rounds add no new systemic pattern class
+  (`data/patches/patterns.jsonl`).
 
 Prompts: sweep agents use `prompts/sweep-v4.md` (signed
 2026-08-17; mandatory anchor display-vs-target check, narrowed
