@@ -1,0 +1,69 @@
+{
+  "planPath": "docs/superpowers/plans/2026-08-17-sweep-tiering.md",
+  "tasks": [
+    {
+      "id": 0,
+      "subject": "Task 1: Accept and commit batch 02 round 2",
+      "status": "pending",
+      "description": "**Goal:** Land the uncommitted round-2 sweep under spec decision T7 and\nretire the miss-rate gate in the runbook.\n\n**Files:**\n- Modify: `data/patches/tranches/tranche-01/manifest.jsonl`\n- Create: `data/patches/tranches/tranche-01/report-batch-02.md`\n- Modify: `data/patches/RUNBOOK.md`\n- Already staged by ingest: `patches.jsonl`, `checkpoints/tranche-01.json`\n\n**Acceptance Criteria:**\n- [ ] Eight rids carry folded escalations: A01264, A01679, A01315, A00989, A01276 (catchable misses), A01123, A01019 (discoveries), A01546 (out-of-sample discovery)\n- [ ] `report-batch-02.md` records both rounds, both threshold results, and the T1 supersession\n- [ ] `RUNBOOK.md` gate text matches spec T1/T2 — saturation gate in, miss-rate gate out\n- [ ] Manifest still has exactly 750 rows for A00960–A01709\n\n**Verify:** `bun test admin/pipeline/ && python3 -c \"import json;rows=[json.loads(l) for l in open('data/patches/tranches/tranche-01/manifest.jsonl') if l.strip()];b=[r for r in rows if 'A00960'<=r['rid']<='A01709'];print(len(b),'rows'); assert len(b)==750\"` → `750 rows`\n\n```json:metadata\n{\"files\": [\"data/patches/tranches/tranche-01/manifest.jsonl\", \"data/patches/tranches/tranche-01/report-batch-02.md\", \"data/patches/RUNBOOK.md\"], \"verifyCommand\": \"bun test admin/pipeline/\", \"acceptanceCriteria\": [\"eight rids folded as escalations\", \"report records both rounds and T1 supersession\", \"RUNBOOK gate text matches T1/T2\", \"manifest still 750 rows\"], \"modelTier\": \"standard\"}\n```"
+    },
+    {
+      "id": 1,
+      "subject": "Task 2: Fix the HOMOGRAPH superscript false positive",
+      "status": "pending",
+      "description": "**Goal:** Stop `exact-headword-diverge` firing when a display uses a\nRoman homograph (`X II`) and its target uses a superscript (`X ²`).\n\n**Files:**\n- Modify: `admin/pipeline/research/link-anomalies.ts` (`HOMOGRAPH`)\n- Modify: `admin/pipeline/research/anomalies.test.ts`\n\n**Acceptance Criteria:**\n- [ ] `baseHeadword` strips superscript digits as well as Roman numerals and ASCII digits\n- [ ] A01346's shape (display `אֵימוּרִים II`, target `אֵימוּרִים ²`) produces no `exact-headword-diverge` hint\n- [ ] Existing link-rule tests still pass\n\n**Verify:** `bun test admin/pipeline/research/anomalies.test.ts` → `33 pass, 0 fail`\n\n```json:metadata\n{\"files\": [\"admin/pipeline/research/link-anomalies.ts\", \"admin/pipeline/research/anomalies.test.ts\"], \"verifyCommand\": \"bun test admin/pipeline/research/anomalies.test.ts\", \"acceptanceCriteria\": [\"baseHeadword strips superscript digits\", \"A01346 shape produces no hint\", \"33 pass 0 fail\"], \"modelTier\": \"mechanical\"}\n```"
+    },
+    {
+      "id": 2,
+      "subject": "Task 3: Extract chunk-input construction into a shared module",
+      "status": "pending",
+      "description": "**Goal:** `prep` and the new sampler build byte-identical chunk inputs\nfrom one code path, and `tranche.ts` comes down under the file-length\nlimit it currently breaches.\n\n**Files:**\n- Create: `admin/pipeline/research/corpus-inputs.ts`\n- Create: `admin/pipeline/research/corpus-inputs.test.ts`\n- Modify: `admin/pipeline/research/tranche.ts` (delete the moved code, import instead)\n\n**Acceptance Criteria:**\n- [ ] `loadPrePatchCorpus`, `senseIndex` and chunk-input writing live in `corpus-inputs.ts`\n- [ ] `bun admin/pipeline/research/tranche.ts prep <dir> 1` still writes an input identical to the current output for the same chunk\n- [ ] `tranche.ts` no longer trips `lint/style/noExcessiveLinesPerFile`\n- [ ] All existing tests pass\n\n**Verify:** `bun test admin/pipeline/ && biome check admin/pipeline/research/tranche.ts` → tests green; no `noExcessiveLinesPerFile` for `tranche.ts`\n\n```json:metadata\n{\"files\": [\"admin/pipeline/research/corpus-inputs.ts\", \"admin/pipeline/research/corpus-inputs.test.ts\", \"admin/pipeline/research/tranche.ts\"], \"verifyCommand\": \"bun test admin/pipeline/ && biome check admin/pipeline/research/tranche.ts\", \"acceptanceCriteria\": [\"shared module owns corpus load and input construction\", \"regenerated input byte-identical\", \"tranche.ts under file-length limit\", \"all tests pass\"], \"modelTier\": \"standard\"}\n```"
+    },
+    {
+      "id": 3,
+      "subject": "Task 4: Stratified round sampler",
+      "status": "pending",
+      "description": "**Goal:** Select one unswept chunk per rid letter per round,\ndeterministically, and write its input.\n\n**Files:**\n- Create: `admin/pipeline/research/sample.ts`\n- Create: `admin/pipeline/research/sample.test.ts`\n\n**Acceptance Criteria:**\n- [ ] `stratifiedRound` returns at most one chunk per rid letter\n- [ ] Same (round, corpus, completed set) always returns the same chunks\n- [ ] Chunks already in the checkpoint's `completed` list are never selected\n- [ ] Different rounds select different chunks for the same letter\n- [ ] CLI writes inputs for a round: `bun admin/pipeline/research/sample.ts <workdir> <round>`\n\n**Verify:** `bun test admin/pipeline/research/sample.test.ts` → `5 pass, 0 fail`\n\n```json:metadata\n{\"files\": [\"admin/pipeline/research/sample.ts\", \"admin/pipeline/research/sample.test.ts\"], \"verifyCommand\": \"bun test admin/pipeline/research/sample.test.ts\", \"acceptanceCriteria\": [\"one chunk per rid letter\", \"deterministic\", \"never selects completed\", \"rounds differ\", \"CLI writes inputs\"], \"modelTier\": \"standard\"}\n```",
+      "blockedBy": [
+        2
+      ]
+    },
+    {
+      "id": 4,
+      "subject": "Task 5: Pattern catalogue store",
+      "status": "pending",
+      "description": "**Goal:** Record every systemic pattern class with its corpus count, and\ncompute the saturation predicate mechanically.\n\n**Files:**\n- Create: `admin/pipeline/research/patterns.ts`\n- Create: `admin/pipeline/research/patterns.test.ts`\n- Create: `data/patches/patterns.jsonl`\n\n**Acceptance Criteria:**\n- [ ] A pattern row carries `id`, `round`, `description`, `corpusCount`, `status`\n- [ ] `status` is one of `candidate`, `scripted`, `discarded`\n- [ ] Adding a duplicate `id` throws rather than silently appending\n- [ ] `isSaturated(rows, round)` is true when the last two rounds added no rows\n- [ ] The seeded catalogue contains the eleven patterns known at plan time\n\n**Verify:** `bun test admin/pipeline/research/patterns.test.ts` → `6 pass, 0 fail`\n\n```json:metadata\n{\"files\": [\"admin/pipeline/research/patterns.ts\", \"admin/pipeline/research/patterns.test.ts\", \"data/patches/patterns.jsonl\"], \"verifyCommand\": \"bun test admin/pipeline/research/patterns.test.ts\", \"acceptanceCriteria\": [\"pattern row schema\", \"status enum\", \"duplicate id throws\", \"isSaturated correct\", \"eleven patterns totalling 48986\"], \"modelTier\": \"standard\"}\n```"
+    },
+    {
+      "id": 5,
+      "subject": "Task 6: Triage the catalogue against schema v2",
+      "status": "pending",
+      "description": "**Goal:** Establish which catalogued patterns still exist after the v2\ntransform, so Phase 2 writes rules only for patterns that survive.\n\n**Files:**\n- Modify: `data/patches/patterns.jsonl` (set `status`)\n- Create: `docs/v2/pattern-triage.md`\n\n**Acceptance Criteria:**\n- [ ] Every pattern's `status` is `candidate` or `discarded`, none left unexamined\n- [ ] Each `discarded` row has a written reason citing the v2 model\n- [ ] `docs/v2/pattern-triage.md` records the reasoning per pattern\n\n**Verify:** `bun -e 'import {parsePatterns} from \"./admin/pipeline/research/patterns.ts\"; const r=parsePatterns(await Bun.file(\"data/patches/patterns.jsonl\").text()); console.log(r.filter(x=>x.status===\"candidate\").length,\"survive,\",r.filter(x=>x.status===\"discarded\").length,\"discarded\")'` → counts sum to 11\n\n```json:metadata\n{\"files\": [\"data/patches/patterns.jsonl\", \"docs/v2/pattern-triage.md\"], \"verifyCommand\": \"bun -e 'import {parsePatterns} from \\\"./admin/pipeline/research/patterns.ts\\\"; const r=parsePatterns(await Bun.file(\\\"data/patches/patterns.jsonl\\\").text()); console.log(r.length)'\", \"acceptanceCriteria\": [\"every status resolved\", \"discarded rows carry a reason\", \"both CHECK rows resolved\", \"triage doc written\"], \"modelTier\": \"frontier\"}\n```",
+      "blockedBy": [
+        4
+      ]
+    },
+    {
+      "id": 6,
+      "subject": "Task 7: Discovery round 1",
+      "status": "pending",
+      "description": "**Goal:** Sweep 22 stratified chunks with Opus and record every new\npattern class.\n\n**Files:**\n- Modify: `data/patches/patterns.jsonl`\n- Create: `docs/v2/discovery-round-1.md`\n\n**Acceptance Criteria:**\n- [ ] 22 chunk inputs prepared by the sampler for round 1\n- [ ] Each chunk swept by one Opus agent under `sweep-v4.md`\n- [ ] Every chunk produces a manifest with exactly 30 rows\n- [ ] New pattern classes appended to the catalogue with corpus counts\n- [ ] Round report written with the new-pattern count\n\n**Verify:** `for f in <workdir>/out/*.manifest.jsonl; do test $(grep -c . $f) -eq 30 || echo \"BAD $f\"; done` → no output\n\n```json:metadata\n{\"files\": [\"data/patches/patterns.jsonl\", \"docs/v2/discovery-round-1.md\"], \"verifyCommand\": \"for f in $W/out/*.manifest.jsonl; do test $(grep -c . $f) -eq 30 || echo BAD $f; done\", \"acceptanceCriteria\": [\"22 inputs prepared\", \"22 chunks swept by Opus\", \"every manifest 30 rows\", \"patterns appended with verified counts\", \"report written\"], \"modelTier\": \"frontier\"}\n```",
+      "blockedBy": [
+        0,
+        1,
+        3,
+        4
+      ]
+    },
+    {
+      "id": 7,
+      "subject": "Task 8: Discovery round 2 and saturation decision",
+      "status": "pending",
+      "description": "**Goal:** Run the second stratified round and decide, mechanically,\nwhether discovery is saturated.\n\n**Files:**\n- Modify: `data/patches/patterns.jsonl`\n- Create: `docs/v2/discovery-round-2.md`\n\n**Acceptance Criteria:**\n- [ ] Round 2 selects different chunks from round 1\n- [ ] All 22 chunks swept and validated at 30 manifest rows\n- [ ] New patterns appended with `round: 2`\n- [ ] `isSaturated(rows, 2)` computed and recorded in the report\n- [ ] If not saturated, the report states that round 3 is required\n\n**Verify:** `bun -e 'import {parsePatterns,isSaturated} from \"./admin/pipeline/research/patterns.ts\"; const r=parsePatterns(await Bun.file(\"data/patches/patterns.jsonl\").text()); console.log(\"saturated:\", isSaturated(r,2))'` → prints a boolean matching the report\n\n```json:metadata\n{\"files\": [\"data/patches/patterns.jsonl\", \"docs/v2/discovery-round-2.md\"], \"verifyCommand\": \"bun -e 'import {parsePatterns,isSaturated} from \\\"./admin/pipeline/research/patterns.ts\\\"; const r=parsePatterns(await Bun.file(\\\"data/patches/patterns.jsonl\\\").text()); console.log(isSaturated(r,2))'\", \"acceptanceCriteria\": [\"round 2 differs from round 1\", \"22 chunks validated\", \"patterns appended round 2\", \"isSaturated recorded\", \"round 3 stated if needed\"], \"modelTier\": \"frontier\"}\n```",
+      "blockedBy": [
+        6
+      ]
+    }
+  ],
+  "lastUpdated": "2026-08-17T16:20:00-05:00"
+}
