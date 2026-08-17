@@ -6,6 +6,7 @@ import {
 	editDistanceIsOne,
 	entryAnomalyHints,
 } from './anomalies.ts';
+import { buildHeadwordIndex, type HeadwordIndex } from './link-anomalies.ts';
 
 function entry(rid: string, definition: string, headword = 'ראש'): SourceEntry {
 	return {
@@ -150,5 +151,136 @@ describe('editDistanceIsOne', () => {
 		['ab', 'abcd', false],
 	])('%s vs %s -> %p', (a, b, want) => {
 		expect(editDistanceIsOne(a, b)).toBe(want);
+	});
+});
+
+/** Anchor markup in the corpus's shape: `href` plus the `data-ref`
+ * the link rules read. */
+function anchor(target: string, display: string): string {
+	return `<a class="refLink" href="/Jastrow,_${target}.1" data-ref="Jastrow, ${target}">${display}</a>`;
+}
+
+/** Index over the headwords each link-rule test needs. */
+function headwordIndex(...headwords: string[]): HeadwordIndex {
+	return buildHeadwordIndex(
+		headwords.map((headword) => ({ headword }) as SourceEntry),
+	);
+}
+
+describe('entryAnomalyHints — link-target rules (batch-02 remediation)', () => {
+	it('flags a headword abbreviation linked elsewhere (A01486 shape)', () => {
+		const def = `, v. ${anchor('אִיסְפַּרְגּוֹס', 'אִסְפַּ׳')}`;
+		const hints = entryAnomalyHints(
+			entry('A01486', def, 'אִיסְפַּקְלַרְיָא'),
+			new Map(),
+			headwordIndex('אִיסְפַּקְלַרְיָא', 'אִיסְפַּרְגּוֹס'),
+		);
+		expect(hints.some((h) => h.kind === 'abbrev-mislink')).toBe(true);
+	});
+
+	it('leaves a headword abbreviation linked to its own entry alone', () => {
+		const def = `, v. ${anchor('אִיסְפַּקְלַרְיָא', 'אִסְפַּ׳')}`;
+		const hints = entryAnomalyHints(
+			entry('A01486', def, 'אִיסְפַּקְלַרְיָא'),
+			new Map(),
+			headwordIndex('אִיסְפַּקְלַרְיָא'),
+		);
+		expect(hints.some((h) => h.kind === 'abbrev-mislink')).toBe(false);
+	});
+
+	it('ignores generic one-letter abbreviations (ר׳ = Rabbi)', () => {
+		const def = `${anchor('רַב', 'ר׳')} said`;
+		const hints = entryAnomalyHints(
+			entry('A00018', def, 'רָבָא'),
+			new Map(),
+			headwordIndex('רָבָא', 'רַב'),
+		);
+		expect(hints.some((h) => h.kind === 'abbrev-mislink')).toBe(false);
+	});
+});
+
+describe('entryAnomalyHints — headword-identity link rules', () => {
+	it('flags a display that is itself a headword linked elsewhere (A00988)', () => {
+		const hints = entryAnomalyHints(
+			{
+				content: { senses: [{ definition: 'x' }] },
+				headword: 'אָח I',
+				language_reference: `cmp. ${anchor('אַבָּא I', 'אָב')}`,
+				rid: 'A00988',
+			} as SourceEntry,
+			new Map(),
+			headwordIndex('אָח I', 'אָב I', 'אַבָּא I'),
+		);
+		expect(hints.some((h) => h.kind === 'exact-headword-diverge')).toBe(true);
+	});
+
+	it('does not fire on plene/defective spelling of one word', () => {
+		const def = `v. ${anchor('אִבּוּל', 'אִיבּוּל')}`;
+		const hints = entryAnomalyHints(
+			entry('A00068', def, 'אַבָּל'),
+			new Map(),
+			headwordIndex('אַבָּל', 'אִבּוּל', 'אִיבּוּל'),
+		);
+		expect(hints.some((h) => h.kind === 'exact-headword-diverge')).toBe(false);
+	});
+
+	it('flags niqqud twins that are both real headwords (A01201 shape)', () => {
+		const def = `v. ${anchor('זָמַר I', 'זְמַר I')}`;
+		const hints = entryAnomalyHints(
+			entry('A01201', def, 'איזמר'),
+			new Map(),
+			headwordIndex('איזמר', 'זָמַר I', 'זְמַר I'),
+		);
+		expect(hints.some((h) => h.kind === 'niqqud-twin-target')).toBe(true);
+	});
+});
+
+describe('entryAnomalyHints — anchor-shape link rules', () => {
+	it('flags a bare Roman numeral display (A01133 shape)', () => {
+		const def =
+			'<a class="refLink" data-ref="Targum Jonathan on Genesis 1:27">I</a> ibid.';
+		const hints = entryAnomalyHints(
+			entry('A01133', def, 'אֵיבָרָא'),
+			new Map(),
+			headwordIndex('אֵיבָרָא'),
+		);
+		expect(hints.some((h) => h.kind === 'roman-numeral-display')).toBe(true);
+	});
+
+	it('skips gershayim displays, whose data-ref is truncated upstream', () => {
+		const def = `v. <a class="refLink" data-ref="Jastrow, אל">אל"ף</a>`;
+		const hints = entryAnomalyHints(
+			entry('A00009', def, 'אָלֶף'),
+			new Map(),
+			headwordIndex('אָלֶף', 'אל"ף', 'אל'),
+		);
+		expect(hints.some((h) => h.kind === 'exact-headword-diverge')).toBe(false);
+	});
+
+	it('emits no link hints when no headword index is supplied', () => {
+		const def = `, v. ${anchor('אִיסְפַּרְגּוֹס', 'אִסְפַּ׳')}`;
+		const hints = entryAnomalyHints(
+			entry('A01486', def, 'אִיסְפַּקְלַרְיָא'),
+			new Map(),
+		);
+		expect(hints).toEqual([]);
+	});
+});
+
+describe('entryAnomalyHints — citation comma rule (batch-02 remediation)', () => {
+	it('flags a Roman numeral followed by a bare number (A01008 shape)', () => {
+		const hints = entryAnomalyHints(
+			entry('A01008', 'inheritance. Y. Kidd. I 60ᶜ top; a. e.'),
+			new Map(),
+		);
+		expect(hints.some((h) => h.kind === 'truncated-formula')).toBe(true);
+	});
+
+	it('does not flag the comma-bearing corpus formula', () => {
+		const hints = entryAnomalyHints(
+			entry('X00001', 'Y. Ḥall. IV, 60ᵇ; Gen. XLI, 2'),
+			new Map(),
+		);
+		expect(hints.some((h) => h.kind === 'truncated-formula')).toBe(false);
 	});
 });

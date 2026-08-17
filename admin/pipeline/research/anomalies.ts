@@ -24,17 +24,26 @@
  * - `circular-v-ref` — 59 entries; catches A00571 (`, v. <self>`).
  * - `truncated-formula` — 5 entries; catches A00638
  *   (`D. S. a.` with no ` l.`).
+ *
+ * Link-target rules (`abbrev-mislink`, `exact-headword-diverge`,
+ * `niqqud-twin-target`, `roman-numeral-display`) live in
+ * link-anomalies.ts — batch-02 remediation, 2026-08-17.
  */
 import type { SourceEntry, SourceSense } from '../body/types.ts';
+import { type HeadwordIndex, linkHints } from './link-anomalies.ts';
 
 /** One deterministic finding attached to a chunk-input entry. */
 interface AnomalyHint {
 	detail: string;
 	kind:
+		| 'abbrev-mislink'
 		| 'bare-abbrev'
 		| 'circular-v-ref'
 		| 'comma-for-period'
+		| 'exact-headword-diverge'
+		| 'niqqud-twin-target'
 		| 'rare-dotted-variant'
+		| 'roman-numeral-display'
 		| 'truncated-formula';
 }
 
@@ -63,8 +72,14 @@ const ABBREV_THRESHOLDS = {
  * signal. Each regex matches the *defective* (truncated) form. */
 const TRUNCATED_FORMULAS: readonly { detail: string; pattern: RegExp }[] = [
 	{
-		detail: "'D. S. a.' without the ' l.' that completes the corpus formula 'Rabb. D. S. a. l.'",
+		detail:
+			"'D. S. a.' without the ' l.' that completes the corpus formula 'Rabb. D. S. a. l.'",
 		pattern: /D\. S\. a\.(?!\s*l\.)/u,
+	},
+	{
+		detail:
+			"a Roman numeral followed by a bare number where the corpus citation formula puts a comma ('I 60ᶜ' for 'I, 60ᶜ'): 18 corpus instances against 46,161 with the comma",
+		pattern: /\b(?<!\w)[IVX]{1,6}\s+\d/u,
 	},
 ];
 
@@ -217,7 +232,10 @@ function tokenHints(raw: string, table: AbbrevTable): AnomalyHint[] {
 			kind: 'bare-abbrev',
 		});
 	}
-	if (m.groups?.['punct'] === '.' && counts.dotted <= ABBREV_THRESHOLDS.maxRare) {
+	if (
+		m.groups?.['punct'] === '.' &&
+		counts.dotted <= ABBREV_THRESHOLDS.maxRare
+	) {
 		const siblings = ed1DominantSiblings(word, table);
 		if (siblings.length > 0) {
 			hints.push({
@@ -260,14 +278,26 @@ function circularHints(def: string, headword: string): AnomalyHint[] {
 function entryAnomalyHints(
 	entry: SourceEntry,
 	table: AbbrevTable,
+	index?: HeadwordIndex,
 ): AnomalyHint[] {
 	const hints: AnomalyHint[] = [];
+	const linkFields = [...definitions(entry)];
+	// The batch-02 miss A00988 sat in `language_reference`, so the
+	// link rules read the etymology field as well as the senses.
+	if (typeof entry.language_reference === 'string') {
+		linkFields.push(entry.language_reference);
+	}
 	for (const def of definitions(entry)) {
 		for (const raw of stripTags(def).split(WHITESPACE)) {
 			hints.push(...tokenHints(raw, table));
 		}
 		hints.push(...formulaHints(def));
 		hints.push(...circularHints(def, entry.headword));
+	}
+	if (index !== undefined) {
+		for (const text of linkFields) {
+			hints.push(...linkHints(text, entry.headword, index));
+		}
 	}
 	// One hint per distinct finding, however often the token recurs.
 	const seen = new Set<string>();

@@ -31,11 +31,6 @@ import process from 'node:process';
  * tranche.test.ts.
  */
 import { applyRepairs } from '../body/repairs.ts';
-import {
-	type AnomalyHint,
-	buildAbbrevTable,
-	entryAnomalyHints,
-} from './anomalies.ts';
 import { readSourceEntries } from '../body/source.ts';
 import type { SourceEntry, SourceSense } from '../body/types.ts';
 import {
@@ -43,6 +38,12 @@ import {
 	PATCH_ID,
 	type SemanticPatch,
 } from '../patch/schema.ts';
+import {
+	type AnomalyHint,
+	buildAbbrevTable,
+	entryAnomalyHints,
+} from './anomalies.ts';
+import { buildHeadwordIndex } from './link-anomalies.ts';
 import {
 	buildCheckpoint,
 	buildTranches,
@@ -63,7 +64,7 @@ import {
 	selectSample,
 } from './verify.ts';
 
-const PROMPT_VERSION = 'v3';
+const PROMPT_VERSION = 'v4';
 const SNAPSHOT_LOCK = 'data/patches/snapshot.lock';
 const SOURCE = 'data/source/jastrow-dictionary.jsonl';
 const TRANCHES_DIR = 'data/patches/tranches';
@@ -205,6 +206,7 @@ async function prep(workdir: string, count: number): Promise<void> {
 	const pin = (await Bun.file(SNAPSHOT_LOCK).text()).split('\n')[0]?.trim();
 	const entries = await loadPrePatchCorpus();
 	const abbrevTable = buildAbbrevTable(entries.values());
+	const headwordIndex = buildHeadwordIndex(entries.values());
 	const { pending, tranche } = await nextWork([...entries.keys()]);
 	const batch = pending.slice(0, count);
 	for (const chunk of batch) {
@@ -214,6 +216,7 @@ async function prep(workdir: string, count: number): Promise<void> {
 			const entryHints = entryAnomalyHints(
 				entries.get(rid) as SourceEntry,
 				abbrevTable,
+				headwordIndex,
 			);
 			if (entryHints.length > 0) {
 				hints[rid] = entryHints;
