@@ -16,7 +16,7 @@
     {
       "id": 2,
       "subject": "Task 3: Extract chunk-input construction into a shared module",
-      "status": "pending",
+      "status": "completed",
       "description": "**Goal:** `prep` and the new sampler build byte-identical chunk inputs\nfrom one code path, and `tranche.ts` comes down under the file-length\nlimit it currently breaches.\n\n**Files:**\n- Create: `admin/pipeline/research/corpus-inputs.ts`\n- Create: `admin/pipeline/research/corpus-inputs.test.ts`\n- Modify: `admin/pipeline/research/tranche.ts` (delete the moved code, import instead)\n\n**Acceptance Criteria:**\n- [ ] `loadPrePatchCorpus`, `senseIndex` and chunk-input writing live in `corpus-inputs.ts`\n- [ ] `bun admin/pipeline/research/tranche.ts prep <dir> 1` still writes an input identical to the current output for the same chunk\n- [ ] `tranche.ts` no longer trips `lint/style/noExcessiveLinesPerFile`\n- [ ] All existing tests pass\n\n**Verify:** `bun test admin/pipeline/ && biome check admin/pipeline/research/tranche.ts` → tests green; no `noExcessiveLinesPerFile` for `tranche.ts`\n\n```json:metadata\n{\"files\": [\"admin/pipeline/research/corpus-inputs.ts\", \"admin/pipeline/research/corpus-inputs.test.ts\", \"admin/pipeline/research/tranche.ts\"], \"verifyCommand\": \"bun test admin/pipeline/ && biome check admin/pipeline/research/tranche.ts\", \"acceptanceCriteria\": [\"shared module owns corpus load and input construction\", \"regenerated input byte-identical\", \"tranche.ts under file-length limit\", \"all tests pass\"], \"modelTier\": \"standard\"}\n```"
     },
     {
@@ -65,5 +65,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-08-17T20:45:00-05:00"
+  "lastUpdated": "2026-08-17T20:55:00-05:00"
 }
