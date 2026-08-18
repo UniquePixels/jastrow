@@ -63,7 +63,13 @@
       "blockedBy": [
         6
       ]
+    },
+    {
+      "id": 8,
+      "subject": "Task 9: Calibrate detector before round 2",
+      "status": "completed",
+      "description": "**Goal:** Land the six detector corrections round 1 identified.\n\nComplete — see ledger."
     }
   ],
-  "lastUpdated": "2026-08-18T09:10:00-05:00"
+  "lastUpdated": "2026-08-18T13:20:00-05:00"
 }

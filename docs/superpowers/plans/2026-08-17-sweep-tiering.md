@@ -1290,6 +1290,33 @@ git commit -s -m "🌈 improve(research): discovery round 1"
 
 ---
 
+### Task 9: Calibrate the detector before round 2
+
+**Goal:** Land the six detector corrections round 1 identified, so round 2
+measures sweep coverage rather than detector blindness.
+
+**Files:**
+- Modify: `admin/pipeline/research/link-anomalies.ts`
+- Modify: `admin/pipeline/research/anomalies.ts`
+- Modify: `admin/pipeline/research/anomalies.test.ts`
+- Create: `admin/pipeline/research/hebrew-anomalies.ts`
+- Create: `admin/pipeline/research/hebrew-anomalies.test.ts`
+- Modify: `admin/pipeline/research/prompts/sweep-v4.md` (fix the stale `v3` in the output-contract table and checklist item 7)
+
+**Acceptance Criteria:**
+- [ ] Editorial `*` prefix stripped before headword comparison; the ~1,485 anchors whose display is the de-asterisked target no longer fire `exact-headword-diverge`
+- [ ] Redirect-stub retargets suppressed: display X whose entry is a bare `, v. Y` stub linking to Y no longer fires (28 corpus-wide)
+- [ ] Geresh rule extended to prefixed forms (particle + one-letter abbrev of the host headword, 183 instances, ~99% wrong) and to abbreviations of the entry's own inflected forms (137 at ≥3 letters)
+- [ ] Niqqud carve-out narrowed so an anchor whose display is an inflection label of the host entry is flagged even when the skeleton is unique
+- [ ] Unvocalized displays reachable: a display that is not itself a headword but differs from its target by one non-final consonant is detectable (696 of 751 currently unreachable)
+- [ ] New Hebrew-side frequency rule: a Hebrew token occurring ≤2× that is one confusable-pair substitution from a token occurring ≥100× produces a hint
+- [ ] `sweep-v4.md` no longer says `v3` anywhere in its contract table or checklist
+- [ ] Every new rule reports its corpus-wide hit count, and the union of all hint kinds stays under 25% of entries
+
+**Verify:** `bun test admin/pipeline/` → all green, including new tests; plus a corpus calibration run printing per-rule hit counts
+
+---
+
 ### Task 8: Discovery round 2 and saturation decision
 
 **Goal:** Run the second stratified round and decide, mechanically,
