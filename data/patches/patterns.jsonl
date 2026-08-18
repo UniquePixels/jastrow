@@ -1,0 +1,11 @@
+{"corpusCount":20298,"description":"data-ref value absent from the entry's refs[] array","id":"dataref-not-in-refs","round":0,"status":"candidate"}
+{"corpusCount":9805,"description":"raw space before the href disambiguator (/Jastrow,_מוּר I.1)","id":"href-raw-space","round":0,"status":"candidate"}
+{"corpusCount":7679,"description":"Jerusalem Talmud href missing its leading slash","id":"jt-href-slash","round":0,"status":"candidate"}
+{"corpusCount":4900,"description":"bare RTL Hebrew in definition text with no dir=rtl wrapper","id":"bare-rtl-hebrew","round":0,"status":"candidate"}
+{"corpusCount":2572,"description":"Jastrow data-ref whose headword skeleton is absent from the corpus","id":"dataref-skeleton-absent","round":0,"status":"candidate"}
+{"corpusCount":1220,"description":"duplicate anchor wrap in non-sense fields (language_reference etc.)","id":"nonsense-dup-anchor","round":0,"status":"candidate"}
+{"corpusCount":796,"description":"unlinked v. <span dir=rtl> cross-references the linker never anchored","id":"unlinked-v-span","round":0,"status":"candidate"}
+{"corpusCount":703,"description":"empty string slot in plural_form array","id":"plural-form-empty-slot","round":0,"status":"candidate"}
+{"corpusCount":575,"description":"gender label (f., m.) left in the definition instead of a morphology field","id":"gender-in-definition","round":0,"status":"candidate"}
+{"corpusCount":312,"description":"Ib. anchors resolving to Yoma 2a regardless of context","id":"ib-yoma-2a","round":0,"status":"candidate"}
+{"corpusCount":126,"description":"missing space in )<i> and )</a><i> after a tag-adjacent paren","id":"paren-tag-no-space","round":0,"status":"candidate"}
