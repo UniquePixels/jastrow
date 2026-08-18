@@ -10,7 +10,7 @@
     {
       "id": 1,
       "subject": "Task 2: Fix the HOMOGRAPH superscript false positive",
-      "status": "pending",
+      "status": "completed",
       "description": "**Goal:** Stop `exact-headword-diverge` firing when a display uses a\nRoman homograph (`X II`) and its target uses a superscript (`X ²`).\n\n**Files:**\n- Modify: `admin/pipeline/research/link-anomalies.ts` (`HOMOGRAPH`)\n- Modify: `admin/pipeline/research/anomalies.test.ts`\n\n**Acceptance Criteria:**\n- [ ] `baseHeadword` strips superscript digits as well as Roman numerals and ASCII digits\n- [ ] A01346's shape (display `אֵימוּרִים II`, target `אֵימוּרִים ²`) produces no `exact-headword-diverge` hint\n- [ ] Existing link-rule tests still pass\n\n**Verify:** `bun test admin/pipeline/research/anomalies.test.ts` → `33 pass, 0 fail`\n\n```json:metadata\n{\"files\": [\"admin/pipeline/research/link-anomalies.ts\", \"admin/pipeline/research/anomalies.test.ts\"], \"verifyCommand\": \"bun test admin/pipeline/research/anomalies.test.ts\", \"acceptanceCriteria\": [\"baseHeadword strips superscript digits\", \"A01346 shape produces no hint\", \"33 pass 0 fail\"], \"modelTier\": \"mechanical\"}\n```"
     },
     {
@@ -65,5 +65,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-08-17T20:35:00-05:00"
+  "lastUpdated": "2026-08-17T20:45:00-05:00"
 }
