@@ -14,20 +14,28 @@
  * These are *hints*: prep attaches them to chunk inputs and the
  * sweep prompt (v4) requires each one to be judged explicitly and
  * either patched or rejected with a stated reason. Calibrated on the
- * full 32,512-entry corpus; figures below are the 2026-08-18
- * re-measurement, which folds in round 1's six corrections.
+ * full 32,512-entry corpus. The figures below are pinned to `isOwn`
+ * as actually shipped in this file; an earlier draft of this comment
+ * (caught in task-9 review, 2026-08-18) quoted a tuning iteration
+ * from *before* `isOwn` was widened to cover an entry's own
+ * inflected forms, not just its headword — reverting `isOwn` to
+ * headword-only reproduces that draft's 1,164 for `abbrev-mislink`
+ * almost exactly. The correct figures are `9bc0e32`'s own commit
+ * message:
  *
- * - `abbrev-mislink` — 1,164 entries. A geresh-abbreviated display
+ * - `abbrev-mislink` — 736 entries. A geresh-abbreviated display
  *   abbreviates one of *this* entry's own forms but links elsewhere.
- *   Catches A01486 (`אִסְפַּ׳` under אִיסְפַּקְלַרְיָא, linked to asparagus),
- *   the prefixed one-letter shape letter J measured at ~99% wrong
- *   (`מִבְ׳` under בְּעַע -> מַבַּע), and letter I's abbreviations of the
- *   entry's own inflected forms.
- * - `exact-headword-diverge` — 341 entries. The display is itself a
+ *   Catches A01486 (`אִסְפַּ׳` under אִיסְפַּקְלַרְיָא, linked to asparagus)
+ *   and D00728 (`כד׳`, the particle-prefixed shape, under דִּיר,
+ *   linked to כַּדְבָא instead). The `בְּעַע` -> `מַבַּע` case an earlier
+ *   draft of this comment cited here is not a catch: `מַבַּע` is the
+ *   entry's own participle, `isOwn` rightly suppresses it, and B01058
+ *   fires only `one-consonant-diverge`.
+ * - `exact-headword-diverge` — 338 entries. The display is itself a
  *   corpus headword, but the link targets a consonantally different
  *   one. Catches A00988 (displays אָב, targets אַבָּא I). Redirect-stub
  *   resolutions and the editorial `*` are excluded.
- * - `niqqud-twin-target` — 1,368 entries. Display and target share
+ * - `niqqud-twin-target` — 1,321 entries. Display and target share
  *   one consonantal skeleton carrying two or more headwords, so the
  *   niqqud-only carve-out cannot decide the case. Catches A01201
  *   (זְמַר vs זָמַר) and, since the calibration, the unvocalized
@@ -35,14 +43,22 @@
  * - `one-consonant-diverge` — 817 entries. The display is no corpus
  *   headword but sits one non-final consonant from its target, the
  *   letter-L shape that could never reach `exact-headword-diverge`.
- * - `inflection-escape-link` — 690 entries. The display is one of the
+ * - `inflection-escape-link` — 691 entries. The display is one of the
  *   host entry's own inflected forms yet the link leaves the entry
  *   for a word related to neither. The unique-skeleton carve-out used
  *   to license these (letters J, O, Q, R).
  * - `roman-numeral-display` — 31 entries. An anchor whose display is
  *   a bare Roman numeral, naming no citation. Catches A01133.
  *
- * Union of all hint kinds: 4,899 entries, 15.1% of the corpus.
+ * Union of all hint kinds: 4,311 entries, 13.3% of the corpus (4,339,
+ * 13.35%, with the Hebrew-side `hebrew-rare-confusable` rule in
+ * hebrew-anomalies.ts folded in).
+ *
+ * Scope note (task-9 review, 2026-08-18): `abbrev-mislink` and
+ * `inflection-escape-link` both judge a display against `ownForms` in
+ * headword-index.ts, which reads only structured inflection fields —
+ * see that function's doc comment for the ~86-hit inline-prose
+ * residual this does not reach.
  */
 import {
 	baseHeadword,

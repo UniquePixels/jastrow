@@ -136,7 +136,20 @@ function redirectTarget(entry: SourceEntry): string | undefined {
 
 /** The entry's own recorded inflections, as consonantal stems: the
  * shapes an in-entry display may legitimately take besides the
- * headword itself (letter I's `inflection-abbrev-mislink`). */
+ * headword itself (letter I's `inflection-abbrev-mislink`).
+ *
+ * Scope note (task-9 review, 2026-08-18): this reads only the three
+ * structured fields below — `plural_form`, `alt_headwords`, and
+ * `grammar.binyan_form` — reaching ~51 of the abbreviated-inflection
+ * hits round 1's estimate of 137 assumed. The gap (~86, estimated) is
+ * inflected forms stated only in definition prose (`ib. pl. X`, `cmp.
+ * Y`, &c.), which this function does not scan: distinguishing a
+ * prose-cited inflected form of *this* entry from a prose-cited form
+ * of some other word needs more context than a structured-field read
+ * gives, and getting it wrong would feed `abbrevHint`/`inflectionHint` false
+ * positives of exactly the kind task 9's Hebrew-frequency rule spent
+ * its calibration budget cutting back. Kept at structured-field scope
+ * rather than risk that; not extended to inline prose. */
 function ownForms(entry: SourceEntry): OwnForms {
 	const raw = [...(entry.plural_form ?? []), ...(entry.alt_headwords ?? [])];
 	const walk = (senses: readonly SourceSense[]): void => {
