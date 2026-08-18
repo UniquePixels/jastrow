@@ -65,8 +65,12 @@ const NIQQUD = /[֑-ׇ]/gu;
  * variation here and must not read as a consonant change. */
 const MATRES = /[יו]/gu;
 const GERESH = /[׳']/gu;
-/** A homograph suffix on a headword or link target (` I`, ` II`, ` 2`). */
-const HOMOGRAPH = /\s+(?:[IVX]+|\d+)$/u;
+/** A homograph suffix on a headword or link target. The corpus writes
+ * these three ways for the same thing — Roman (` I`), ASCII digit
+ * (` 2`) and superscript (` ²`) — so all three strip identically
+ * (batch-02 A01346 fired a false `exact-headword-diverge` when a
+ * display's Roman numeral met its target's superscript). */
+const HOMOGRAPH = /\s+(?:[IVX]+|[0-9]+|[²³¹⁰-⁹]+)$/u;
 /** Geresh marking an in-entry abbreviation of the headword. */
 const GERESH_END = /[׳']\s*$/u;
 /** Gershayim inside a display: the raw `"` truncates the `data-ref`

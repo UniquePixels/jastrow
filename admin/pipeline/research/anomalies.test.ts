@@ -233,6 +233,16 @@ describe('entryAnomalyHints — headword-identity link rules', () => {
 		);
 		expect(hints.some((h) => h.kind === 'niqqud-twin-target')).toBe(true);
 	});
+
+	it('treats a Roman homograph and a superscript as one headword', () => {
+		const def = `v. ${anchor('אֵימוּרִים ²', 'אֵימוּרִים II')}`;
+		const hints = entryAnomalyHints(
+			entry('A01346', def, 'אִימְרָא'),
+			new Map(),
+			headwordIndex('אִימְרָא', 'אֵימוּרִים ²'),
+		);
+		expect(hints.some((h) => h.kind === 'exact-headword-diverge')).toBe(false);
+	});
 });
 
 describe('entryAnomalyHints — anchor-shape link rules', () => {

@@ -4,7 +4,7 @@
     {
       "id": 0,
       "subject": "Task 1: Accept and commit batch 02 round 2",
-      "status": "pending",
+      "status": "completed",
       "description": "**Goal:** Land the uncommitted round-2 sweep under spec decision T7 and\nretire the miss-rate gate in the runbook.\n\n**Files:**\n- Modify: `data/patches/tranches/tranche-01/manifest.jsonl`\n- Create: `data/patches/tranches/tranche-01/report-batch-02.md`\n- Modify: `data/patches/RUNBOOK.md`\n- Already staged by ingest: `patches.jsonl`, `checkpoints/tranche-01.json`\n\n**Acceptance Criteria:**\n- [ ] Eight rids carry folded escalations: A01264, A01679, A01315, A00989, A01276 (catchable misses), A01123, A01019 (discoveries), A01546 (out-of-sample discovery)\n- [ ] `report-batch-02.md` records both rounds, both threshold results, and the T1 supersession\n- [ ] `RUNBOOK.md` gate text matches spec T1/T2 — saturation gate in, miss-rate gate out\n- [ ] Manifest still has exactly 750 rows for A00960–A01709\n\n**Verify:** `bun test admin/pipeline/ && python3 -c \"import json;rows=[json.loads(l) for l in open('data/patches/tranches/tranche-01/manifest.jsonl') if l.strip()];b=[r for r in rows if 'A00960'<=r['rid']<='A01709'];print(len(b),'rows'); assert len(b)==750\"` → `750 rows`\n\n```json:metadata\n{\"files\": [\"data/patches/tranches/tranche-01/manifest.jsonl\", \"data/patches/tranches/tranche-01/report-batch-02.md\", \"data/patches/RUNBOOK.md\"], \"verifyCommand\": \"bun test admin/pipeline/\", \"acceptanceCriteria\": [\"eight rids folded as escalations\", \"report records both rounds and T1 supersession\", \"RUNBOOK gate text matches T1/T2\", \"manifest still 750 rows\"], \"modelTier\": \"standard\"}\n```"
     },
     {
@@ -65,5 +65,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-08-17T16:20:00-05:00"
+  "lastUpdated": "2026-08-17T20:35:00-05:00"
 }
