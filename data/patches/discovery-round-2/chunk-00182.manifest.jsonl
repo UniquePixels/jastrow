@@ -1,0 +1,30 @@
+{"rid": "C00574", "disposition": "clean", "patches": []}
+{"rid": "C00575", "disposition": "needs_human_judgment", "patches": [], "escalation": "Class 11 wrong-link-target, two anchors. (a) The construct-state display גְּזַר (\"constr. (גזר) גְּזַר\") is an inflection of this entry's own headword גָּזָר but links to data-ref \"Jastrow, גְּזַר 1\" (C00574, the Aramaic verb גְּזַר \"to cut\"); the skeleton גזר is shared by several headwords so the niqqud carve-out cannot apply. (b) The plural display גִּיזְ׳ (\"Pl. גִּזְרֵי דינין, גִּיזְ׳\") is a geresh abbreviation of this entry's plural גִּזְרֵי but links to data-ref \"Jastrow, גִּזְבָּר 1\" (C00520, גִּזְבָּר treasurer) — an unrelated headword that merely shares opening letters. Correct destinations are a maintainer call; the needed bytes are not in the entry."}
+{"rid": "C00576", "disposition": "clean", "patches": []}
+{"rid": "C00577", "disposition": "needs_human_judgment", "patches": [], "escalation": "Class 11 wrong-link-target, two abbreviated plural anchors in sense 1). (a) גְּזִי׳ links to data-ref \"Jastrow, גְּזִים 1\" (C00550) although it abbreviates this entry's own plural גְּזִירִין/גְּזִירֵי. (b) גִּיזְ׳ links to data-ref \"Jastrow, גִּזְבָּר 1\" (C00520, treasurer), again an unrelated headword sharing only the opening letters. Both are inflected-form geresh abbreviations of the host entry whose links escape it."}
+{"rid": "C00578", "disposition": "clean", "patches": []}
+{"rid": "C00579", "disposition": "clean", "patches": []}
+{"rid": "C00580", "disposition": "repaired", "patches": ["P000001", "P000002"]}
+{"rid": "C00581", "disposition": "needs_print_check", "patches": ["P000003"], "escalation": "Repaired the class-2 swallowed —2) marker (P000003). Separately, sense —4) cites the word moădo in the Passover law as \"(<a>Num. XI, 2</a>)\" with data-ref Numbers 11:2; Num. XI, 2 contains no מועדו — the Passover verse is Num. IX, 2 (the paired daily-offering citation \"ib. XXVIII, 2\" is correct). Display and data-ref agree, so this is either an OCR transposition of IX to XI or a print error carried over; correcting it needs bytes not present in the entry. Needs the printed page to decide class 8 vs class 9."}
+{"rid": "C00582", "disposition": "clean", "patches": []}
+{"rid": "C00583", "disposition": "clean", "patches": []}
+{"rid": "C00584", "disposition": "clean", "patches": []}
+{"rid": "C00585", "disposition": "clean", "patches": []}
+{"rid": "C00586", "disposition": "clean", "patches": []}
+{"rid": "C00587", "disposition": "clean", "patches": []}
+{"rid": "C00588", "disposition": "clean", "patches": []}
+{"rid": "C00589", "disposition": "clean", "patches": []}
+{"rid": "C00590", "disposition": "needs_human_judgment", "patches": [], "escalation": "Class 11 wrong-link-target: the Pa. section's lead preamble \" <a>same</a>, \" carries data-ref \"Jastrow, גְּחִירָא 1\" (C00589), the alphabetically preceding entry, instead of resolving to this entry's Pe. (גְּחַךְ). גְּחִירָא (a redirect to גִּיחוֹרָא) is semantically unrelated to \"to laugh, jest\". The correct target is not expressible with bytes present in the entry."}
+{"rid": "C00591", "disposition": "clean", "patches": []}
+{"rid": "C00592", "disposition": "clean", "patches": []}
+{"rid": "C00593", "disposition": "clean", "patches": []}
+{"rid": "C00594", "disposition": "needs_print_check", "patches": [], "escalation": "Class 8 sub-token loss: the Arabic cognate gloss reads \"Arab.<i>ġaḥama</i>\" — the space between the language label \"Arab.\" and the italicised transliteration is missing, so the text renders \"Arab.ġaḥama\". Restoring it needs a byte not present in the entry."}
+{"rid": "C00595", "disposition": "needs_human_judgment", "patches": ["P000004"], "escalation": "Repaired the class-7 anchor boundary at \"Tosef. Sabb. XV (XVI), 5\" (P000004). Separately, class 11: the participle display \"Part. pass. גָּחוּן\" — an inflected form of this entry's headword גָּחַן — links to data-ref \"Jastrow, גָּחוֹן 1\" (C00585), which is the noun גָּחוֹן \"belly\", a different lexeme that merely shares the consonantal skeleton גחון. The link takes the reader out of the entry to the wrong word; the correct target is a maintainer call."}
+{"rid": "C00596", "disposition": "clean", "patches": []}
+{"rid": "C00597", "disposition": "clean", "patches": []}
+{"rid": "C00598", "disposition": "needs_human_judgment", "patches": [], "escalation": "Anomaly hint niqqud-twin-target accepted. The etymology \"(גטט, cmp. <a>חטט</a>)\" uses an unvocalized display חטט and links to data-ref \"Jastrow, חֲטַט I 1\" (H00608, the Aramaic verb). This Hebrew entry's bracketed gloss [engraving,] points at the Hebrew root חָטַט \"to dig, cut out, hollow out\" (H00607); חֲטָט (H00610, scab) is a third skeleton-mate. Nothing in the unvocalized display chooses among the three, so the destination is a maintainer call — class 11."}
+{"rid": "C00599", "disposition": "needs_human_judgment", "patches": [], "escalation": "Class 11 wrong-link-target under the narrowed niqqud carve-out: the manuscript-variant display \"(ed. Berl. <a>גַּט</a>)\" is a form of THIS entry (גֵּט II, the Aramaic word quoted from Targ. O. Deut. XXIV, 1) but links to data-ref \"Jastrow, גֵּט 1\" (C00598, the Hebrew homograph). Two headwords share the skeleton גט, so vocalization is the only thing distinguishing them and the carve-out cannot apply."}
+{"rid": "C00600", "disposition": "clean", "patches": []}
+{"rid": "C00601", "disposition": "clean", "patches": []}
+{"rid": "C00602", "disposition": "clean", "patches": []}
+{"rid": "C00603", "disposition": "clean", "patches": []}

@@ -1,0 +1,30 @@
+{"rid": "L00143", "disposition": "needs_print_check", "patches": [], "escalation": "Definition ends with a dangling '.—' after '(ed. מגמגם).' — an em-dash separator with nothing following it. Whether print carries further text at that break cannot be settled from the entry; no repair without the page."}
+{"rid": "L00144", "disposition": "clean", "patches": []}
+{"rid": "L00145", "disposition": "clean", "patches": []}
+{"rid": "L00146", "disposition": "clean", "patches": []}
+{"rid": "L00147", "disposition": "clean", "patches": []}
+{"rid": "L00148", "disposition": "needs_human_judgment", "patches": [], "escalation": "Class 11 wrong-link-target: the variant-reading abbreviation <a ...>נְדָ׳</a> in '(ed. Wil. נְדָ׳)' is linked to data-ref 'Jastrow, נִידּוּי 1' (N00624, excommunication). The abbreviation stands for נָדָן / לְדָנָא (sheath) — the entry links נָדָן (N00232) earlier in the same sense. Destination is wrong; href bytes for the correct target are not present in the entry."}
+{"rid": "L00149", "disposition": "clean", "patches": []}
+{"rid": "L00150", "disposition": "clean", "patches": []}
+{"rid": "L00151", "disposition": "clean", "patches": []}
+{"rid": "L00152", "disposition": "clean", "patches": []}
+{"rid": "L00153", "disposition": "clean", "patches": []}
+{"rid": "L00154", "disposition": "clean", "patches": []}
+{"rid": "L00155", "disposition": "clean", "patches": []}
+{"rid": "L00156", "disposition": "clean", "patches": []}
+{"rid": "L00157", "disposition": "clean", "patches": []}
+{"rid": "L00158", "disposition": "clean", "patches": []}
+{"rid": "L00159", "disposition": "clean", "patches": []}
+{"rid": "L00160", "disposition": "needs_human_judgment", "patches": [], "escalation": "Anomaly hint 'one-consonant-diverge' ACCEPTED. Two anchors display לְהוּטִים — the part. pass. plural of this entry's own headword לָהַט — but carry data-ref 'Jastrow, לְבוּטִים 1' (L00052), one interior consonant away (ה/ב). Both should resolve to this entry; class 11, correct bytes absent."}
+{"rid": "L00161", "disposition": "needs_human_judgment", "patches": [], "escalation": "Class 11: the Pa. stem-head form <a ...>לַהֵט</a> is this entry's own binyan form, but its data-ref is 'Jastrow, לָהַט 1' (L00160), the Hebrew twin. The skeleton להט is shared by exactly two headwords (לָהַט L00160, לְהַט L00161), so the niqqud carve-out cannot apply; the corpus convention for this construction is a self-link (cf. L00165 'Part. לָהֵי' → לְהִי). Maintainer call."}
+{"rid": "L00162", "disposition": "clean", "patches": []}
+{"rid": "L00163", "disposition": "clean", "patches": []}
+{"rid": "L00164", "disposition": "clean", "patches": []}
+{"rid": "L00165", "disposition": "needs_human_judgment", "patches": ["P000001", "P000002", "P000003"], "escalation": "Class 11: in the Af. section the anchor display 'same' carries data-ref 'Jastrow, להטמייא 1' (L00164, = לָטוֹמְיָא), which is simply the alphabetically preceding entry and is semantically unrelated; 'same' here means the Af. of this entry לְהִי. Correct href bytes are not in the entry. Structural chop (P000001–P000003) is repaired: Af. sense 1) ended with a stranded '—2) ' marker whose text sits in the next unnumbered sibling, and that sibling also swallows an in-text —3)."}
+{"rid": "L00166", "disposition": "repaired", "patches": ["P000004"]}
+{"rid": "L00167", "disposition": "needs_human_judgment", "patches": [], "escalation": "Class 11: the Hithpa. stem-head form <a ...>הִתְלַהֵם</a> — this entry's own (לָהַם) Hithpa. — carries data-ref 'Jastrow, לָחַם II 1' (L00364). לָחַם's Hithpa. would be הִתְלַחֵם; display and target agree in neither skeleton (התלהם vs לחם) nor inflection. Destination wrong; correct bytes absent."}
+{"rid": "L00168", "disposition": "clean", "patches": []}
+{"rid": "L00169", "disposition": "clean", "patches": []}
+{"rid": "L00170", "disposition": "clean", "patches": []}
+{"rid": "L00171", "disposition": "needs_print_check", "patches": [], "escalation": "Class 8 punctuation: '<a ...>Gen. R. s. 73</a>. <span dir=\"rtl\">כל דבר …' inserts a period between the citation anchor and the Hebrew quotation it introduces. Corpus frequency: 44 occurrences of citation-anchor + '. ' + quote span against 33,168 with no period. Removing the byte still needs the printed page to confirm."}
+{"rid": "L00172", "disposition": "clean", "patches": []}

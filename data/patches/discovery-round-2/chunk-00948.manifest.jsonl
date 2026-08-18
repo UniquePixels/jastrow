@@ -1,0 +1,30 @@
+{"rid":"T00313","disposition":"needs_human_judgment","patches":[],"escalation":"Class 11. Both Pl. anchors display this entry's own stored plural forms (plural_form = [\"רוּגְזָאתָא\",\"רוּגְזָתָא\"]) yet both carry data-ref \"Jastrow, רוּגְזֵיתָא 1\" (T00314), a different headword whose own entry is the bare stub \", v. preced.\" pointing back here. Judged both anomaly_hints (one-consonant-diverge, inflection-escape-link) as ACCEPTED: the display is no corpus headword and is an inflection of the host, so no documented carve-out applies (not an inflection of the target, not plene/defective, not in the target's alt_headwords, not niqqud-only). Maintainer call whether the plural of רוּגְזָא should self-link or resolve to the stub; href/data-ref bytes for the correct target are not present in the entry, so no repair is expressible. Mechanically identical to the catalogued plural-inflection-anchor-escapes-entry (2,281 corpus-wide)."}
+{"rid":"T00314","disposition":"clean","patches":[]}
+{"rid":"T00315","disposition":"clean","patches":[]}
+{"rid":"T00316","disposition":"clean","patches":[]}
+{"rid":"T00317","disposition":"clean","patches":[]}
+{"rid":"T00318","disposition":"clean","patches":[]}
+{"rid":"T00319","disposition":"clean","patches":[]}
+{"rid":"T00320","disposition":"clean","patches":[]}
+{"rid":"T00321","disposition":"needs_human_judgment","patches":[],"escalation":"Class 11. The anchor displaying ר׳ (geresh abbreviation of this entry's headword רוֹדוֹס, in \"expl. ארודי, Gen. X, 18 ר׳\") carries data-ref \"Jastrow, ר׳ 1\" = T00001, the article on Resh as the numeral two hundred. Wrong destination: the abbreviation names the host headword, not the letter-numeral article. Not repairable — the correct target bytes are absent from the entry. This is the catalogued geresh-letter-numeral-mislink shape (608 corpus-wide) and is a candidate for script extraction rather than individual repair; recorded here because it is not on the v4 script-slated do-not-escalate list."}
+{"rid":"T00322","disposition":"clean","patches":[]}
+{"rid":"T00323","disposition":"clean","patches":[]}
+{"rid":"T00324","disposition":"clean","patches":[]}
+{"rid":"T00325","disposition":"clean","patches":[]}
+{"rid":"T00326","disposition":"needs_human_judgment","patches":[],"escalation":"Class 11. Same shape as T00321: the anchor displaying ר׳ in \"Ab. V, 5, a. e. משתחוים, ר׳, v. צָפַף\" abbreviates this entry's own part.-pass. plural רְווּחִים but carries data-ref \"Jastrow, ר׳ 1\" = T00001, the letter-numeral article. Not repairable from entry bytes; catalogued geresh-letter-numeral-mislink (608 corpus-wide). Checked and CLEARED separately: display רֶוַח (\"denom. of\") and display רָוָח (\"pl. of\") both target \"Jastrow, רָוַח 1\" = T00343, whose alt_headwords are [\"רְוַח\",\"רֶוַח\"] — attested-variant carve-out, not a defect. The Hithpa. stem section carrying a binyan_form and no senses is the catalogued empty-stem-section and faithfully mirrors print's combined \"Hithpa. …, Nithpa. …\" head."}
+{"rid":"T00327","disposition":"needs_human_judgment","patches":[],"escalation":"Class 6 / segmentation debris, not repairable. Sense 1) ends with a dangling \"—[\" whose matching \"]\" closes sense 2) (\"… h. text גְּשָׁה.]\"): print reads \"—[2) to make room … .]\", so the em-dash and opening bracket belong at the head of sense 2). No patch op moves text across sense boundaries, and deleting the \"—[\" would strand the closing \"]\" and lose a printed byte. Catalogued stranded-open-bracket shape (152 corpus-wide). Cleared separately: display רוּחַ -> \"Jastrow, רִיחַ 1\" is covered by the target's alt_headwords [\"רוּחַ\"]; display רַוְוחָא -> \"Jastrow, רְוַוח ² 1\" is in that target's alt_headwords; the Ithpa. empty stem section is the catalogued empty-stem-section."}
+{"rid":"T00328","disposition":"clean","patches":[]}
+{"rid":"T00329","disposition":"needs_human_judgment","patches":[],"escalation":"Class 11, circular cross-reference. Accepted the circular-v-ref hint. In sense 1) the bracketed note \"[Targ. Y. I Deut. XXXII, 24 רווחין, read: רוּחִין, v. רְוַוח I]\" has data-ref \"Jastrow, רְוַוח ² 1\" — this entry itself. The display explicitly names the numeral I, and the intended target is T00327 רְוַוח (alt_headwords [\"רְוַח I\"]), whose Pa. 2) carries the very passage (\"Targ. Y. Deut. XXXII, 24 [read:] מְרַוְּוחֵי רוּחִין בישין\"). A see-reference that goes nowhere else, not a linker self-link on a plain mention. Correct href/data-ref bytes are absent from the entry, so no repair is expressible."}
+{"rid":"T00330","disposition":"clean","patches":[]}
+{"rid":"T00331","disposition":"clean","patches":[]}
+{"rid":"T00332","disposition":"clean","patches":[]}
+{"rid":"T00333","disposition":"clean","patches":[]}
+{"rid":"T00334","disposition":"repaired","patches":["P000001"]}
+{"rid":"T00335","disposition":"clean","patches":[]}
+{"rid":"T00336","disposition":"needs_human_judgment","patches":[],"escalation":"Array-scope defect, proposed class plural-form-not-captured. The definition declares two plurals (\"—<i>pl.</i> רְוָוקֵי, רְוָקֵי\") but the entry carries no plural_form key at all. No patch op writes entry-level arrays. Corpus-wide this is a mechanical extraction failure keyed to the plural label's rendering: 358 entries declare a plural in definition text with an empty/absent plural_form, and capture succeeds 99.6% of the time when the label is the canonical plain \"Pl. \" versus 28%-87% failure for every italic or lowercase rendering. Reported separately as a discovery candidate."}
+{"rid":"T00337","disposition":"clean","patches":[]}
+{"rid":"T00338","disposition":"clean","patches":[]}
+{"rid":"T00339","disposition":"clean","patches":[]}
+{"rid":"T00340","disposition":"clean","patches":[]}
+{"rid":"T00341","disposition":"clean","patches":[]}
+{"rid":"T00342","disposition":"clean","patches":[]}

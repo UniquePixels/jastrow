@@ -1,0 +1,30 @@
+{"rid": "G00589", "disposition": "needs_human_judgment", "patches": [], "escalation": "Structural: the Hithpalp. stem section (binyan_form הִזְדַּעְזֵעַ, content.senses[1]) carries no senses at all — print joins it to the following Nithpa. head (\"Hithpalp. …, Nithpa. … 1) to be shaken…\"), and the split left an empty section whose three numbered senses all sit under Nithpa. (sense —3) \"to cause to quake\" glosses Hithpalp. forms). No patch op writes grammar/stem structure, so this is a maintainer call. All anchors were compared display-vs-data-ref: מִזְדַּנְזִין → מִזְדַּנְדְּזִין is correct (the display is that target's own alt_headword, M00722)."}
+{"rid": "G00590", "disposition": "clean", "patches": []}
+{"rid": "G00591", "disposition": "needs_human_judgment", "patches": [], "escalation": "Class 11 wrong-link-target, hint `inflection-escape-link` ACCEPTED: the anchor displaying זַעֲטוּטִים (this entry's own plural, and the sole populated value of its plural_form) targets \"Jastrow, זַעֲטוּטָא 1\" (G00592, the Chaldean counterpart), whose alt_headwords list only זַעֲטוּטֵי — not זַעֲטוּטִים. The Pl. label belongs to this entry (זַעֲטוּט, G00591) and the link should resolve here. The neighbouring constr. זַעֲטוּטֵי and the two זעטוטי anchors escape the same way, though those forms are at least attested in G00592's alt_headwords — include them in the same ruling. href/data-ref bytes for the correct target do not exist in the entry, so no repair is expressible."}
+{"rid": "G00592", "disposition": "clean", "patches": []}
+{"rid": "G00593", "disposition": "clean", "patches": []}
+{"rid": "G00594", "disposition": "clean", "patches": []}
+{"rid": "G00595", "disposition": "clean", "patches": []}
+{"rid": "G00596", "disposition": "clean", "patches": []}
+{"rid": "G00597", "disposition": "needs_human_judgment", "patches": [], "escalation": "Structural: the Af. section (content.senses[4]) carries binyan_form [אַזְעֵיר, אַזְעֵר] but its third printed variant אַזְעַר is stranded as an unnumbered leading sense whose whole definition is \", <a…>אַזְעַר</a> \" — a stem-head form living in a text slot that no patch op can move into grammar.binyan_form. The unnumbered lead sense at content.senses[0] is a genuine etymology/inflection preamble (no gloss, no citation) followed by correct 1)/—2)/—3) numbering, so it is deliberately NOT retagged as an implied 1). Anchor check: the \"b. h. זְעֵיר\" and אַזְעַר self-links to זְעֵיר I are plain-mention/inflected-surface-form convention, not circular see-references; הִמְעִיט → מָעַט and זער → זְעֵיר I are inflected/defective spellings of their targets."}
+{"rid": "G00598", "disposition": "needs_human_judgment", "patches": [], "escalation": "Two findings. (1) Class 11 wrong-link-target, hint `one-consonant-diverge` ACCEPTED: the anchor displaying זְעִירִין — the plural of this entry's own headword זְעֵיר II, introduced by the Pl. run \"זְעִירִין, זְעֵירַיָּא\" — targets \"Jastrow, זְפִירִין 1\" (G00618), a Cyprus place name; ע/פ is a one-consonant divergence and the target is semantically unrelated. זְעִירִין is no corpus headword, so the link should resolve to this entry. (2) Field-level: alt_headwords holds זְעֵירָא twice (byte-identical) and content.morphology is \"f.\" although the headword is the masculine adjective זְעֵיר II whose feminine forms (זְעֵירְתָּא, זְעֶרְתָּא) are separate variants — the print headword line's trailing \"f.\" label was taken as the whole entry's gender and the \"m.\" label was lost. Arrays and morphology are outside sense scope, so neither is repairable here."}
+{"rid": "G00599", "disposition": "clean", "patches": []}
+{"rid": "G00600", "disposition": "clean", "patches": []}
+{"rid": "G00601", "disposition": "clean", "patches": []}
+{"rid": "G00602", "disposition": "clean", "patches": []}
+{"rid": "G00603", "disposition": "clean", "patches": []}
+{"rid": "G00604", "disposition": "clean", "patches": []}
+{"rid": "G00605", "disposition": "clean", "patches": []}
+{"rid": "G00606", "disposition": "clean", "patches": []}
+{"rid": "G00607", "disposition": "clean", "patches": []}
+{"rid": "G00608", "disposition": "clean", "patches": []}
+{"rid": "G00609", "disposition": "clean", "patches": []}
+{"rid": "G00610", "disposition": "clean", "patches": []}
+{"rid": "G00611", "disposition": "clean", "patches": []}
+{"rid": "G00612", "disposition": "clean", "patches": []}
+{"rid": "G00613", "disposition": "clean", "patches": []}
+{"rid": "G00614", "disposition": "clean", "patches": []}
+{"rid": "G00615", "disposition": "clean", "patches": []}
+{"rid": "G00616", "disposition": "clean", "patches": []}
+{"rid": "G00617", "disposition": "clean", "patches": []}
+{"rid": "G00618", "disposition": "needs_human_judgment", "patches": ["P000001"], "escalation": "Class 11 wrong-link-target (not hinted): in the variant-reading run \"…Num. R. s. 8 זיפ׳…\" the geresh-abbreviated display זיפ׳ abbreviates THIS entry's own headword variants (alt_headwords זִיפִירִין / זִיפְרִין) but its link targets \"Jastrow, זִפְלָן 1\" (G00619, \"a certain number, so and so many\"), which happens to carry זִיפְ׳ in its own alt_headwords and so acts as a sink for the abbreviation. Per v4 the abbreviation must resolve to this entry, exactly as the parallel זופ׳ in the same run does. The correct href/data-ref bytes are present elsewhere in the entry, but choosing to rewrite a link target is a maintainer call, so no patch is proposed. Repaired alongside: P000001 removes a verbatim doubled clause (class 6)."}
