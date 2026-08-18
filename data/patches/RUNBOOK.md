@@ -57,8 +57,8 @@ link-target findings from `link-anomalies.ts`.
    `<workdir>/verdicts-*.jsonl`.
 6. **Report + threshold check** — build the batch report
    (`buildPilotReport`/`renderPilotReport` from `verify.ts`) with
-   the verdicts; compare against the thresholds above. Breach →
-   batch is not committed; failure feeds the prompt/catalog and
+   the verdicts; compare against the gates above. Error-gate breach
+   → batch is not committed; failure feeds the prompt/catalog and
    the affected chunks re-sweep (reset their checkpoint entries).
 7. **Commit** — batch report + tranche JSONL + checkpoint in one
    commit before the next batch starts.
@@ -68,8 +68,8 @@ link-target findings from `link-anomalies.ts`.
 - Pilot (chunks 00001–00007, rids A00000–A00209) accepted and
   committed under `pilot/` — recorded complete in the tranche-01
   checkpoint.
-- Corpus: 1,084 chunks / 11 tranches; 32 chunks done as of
-  2026-08-17 (pilot 7 + batch-01's 25).
+- Corpus: 1,084 chunks / 11 tranches; 57 chunks done as of
+  2026-08-17 (pilot 7 + batch-01's 25 + batch-02's 25).
 - **Batch 02 round 1 (2026-08-17, not committed):** chunks
   00033–00057 passed the error threshold outright (0/15 sampled
   patches wrong, 0 label-only) but breached the miss threshold at
@@ -81,6 +81,16 @@ link-target findings from `link-anomalies.ts`.
   (4 rules, calibrated 1,910 entries / 5.9% corpus-wide), a
   Roman-numeral comma rule in `anomalies.ts` (18 instances against
   46,161), and sweep-v4. All five misses now arrive as hints.
+- **Batch 02 round 2 (2026-08-17, accepted and committed under
+  spec decision T7):** re-swept 00033–00057 under sweep-v4; every
+  round-1 miss caught, but the miss threshold breached again at
+  8.2% on five different entries across three classes with no
+  shared root cause. Accepted per the
+  [sweep tiering spec](../../docs/specs/2026-08-17-sweep-tiering-design.md)
+  — T1 retires the catchable-miss-rate gate in favour of pattern
+  saturation, T2 keeps the error gate. Eight verifier finds folded
+  in as escalations; post-fold escalation queue 128. Full record in
+  `tranches/tranche-01/report-batch-02.md`.
 - Maintainer decisions on accumulated `needs_*` rows happen before
   replay (Task 10); the manifest gate enforces it. **Review cadence
   (maintainer, 2026-08-15):** per-batch escalation review is waived —

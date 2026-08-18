@@ -54,5 +54,8 @@ batch): A01123, A01019
 - **Acceptance (2026-08-17, maintainer):** accepted under
   [sweep tiering spec](../../../../docs/specs/2026-08-17-sweep-tiering-design.md)
   decision T1 — the catchable-miss-rate gate is retired in favour of a
-  pattern-saturation gate. The eight verifier finds are folded in as
-  escalations above.
+  pattern-saturation gate. The eight verifier finds folded into the
+  manifest as escalations (A01264, A01679, A01315, A01123, A01546 →
+  needs_human_judgment; A00989, A01276, A01019 → needs_print_check).
+  Post-fold dispositions: clean 600 / repaired 22 / needs_print_check 21
+  / needs_human_judgment 107; escalation queue 128.
