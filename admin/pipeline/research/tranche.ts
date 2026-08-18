@@ -30,20 +30,13 @@ import process from 'node:process';
  * construction, corpus-unique renumbering) and are covered by
  * tranche.test.ts.
  */
-import { applyRepairs } from '../body/repairs.ts';
-import { readSourceEntries } from '../body/source.ts';
-import type { SourceEntry, SourceSense } from '../body/types.ts';
-import {
-	contentAnchor,
-	PATCH_ID,
-	type SemanticPatch,
-} from '../patch/schema.ts';
+import type { SourceEntry } from '../body/types.ts';
+import { PATCH_ID, type SemanticPatch } from '../patch/schema.ts';
 import {
 	type AnomalyHint,
 	buildAbbrevTable,
 	entryAnomalyHints,
 } from './anomalies.ts';
-import { buildHeadwordIndex } from './link-anomalies.ts';
 import {
 	buildCheckpoint,
 	buildTranches,
@@ -56,6 +49,13 @@ import {
 	saveCheckpoint,
 	type Tranche,
 } from './chunks.ts';
+import {
+	buildChunkInput,
+	loadPrePatchCorpus,
+	senseIndex,
+	writeChunkInput,
+} from './corpus-inputs.ts';
+import { buildHeadwordIndex } from './link-anomalies.ts';
 import type { EntryResult } from './manifest.ts';
 import {
 	type IngestResult,
@@ -66,7 +66,6 @@ import {
 
 const PROMPT_VERSION = 'v4';
 const SNAPSHOT_LOCK = 'data/patches/snapshot.lock';
-const SOURCE = 'data/source/jastrow-dictionary.jsonl';
 const TRANCHES_DIR = 'data/patches/tranches';
 /** Maintainer thresholds (pilot acceptance, 2026-08-13). */
 const THRESHOLDS = { errorRate: 0.05, missRate: 0.02 };
@@ -77,34 +76,6 @@ const SAMPLE_CONFIG = {
 	minHigh: 8,
 	seed: 20_260_813,
 };
-
-/** One row of the precomputed per-entry sense index the sweep
- * prompt's Input section promises. */
-interface SenseIndexRow {
-	anchor: string;
-	number: string;
-	path: string;
-}
-
-/** Document-order sense index with dotted paths ("0", "0.1", …). */
-function senseIndex(entry: SourceEntry): SenseIndexRow[] {
-	const rows: SenseIndexRow[] = [];
-	const walk = (senses: readonly SourceSense[], prefix: string): void => {
-		for (const [i, sense] of senses.entries()) {
-			const path = prefix === '' ? String(i) : `${prefix}.${i}`;
-			rows.push({
-				anchor: contentAnchor(sense.definition ?? ''),
-				number: sense.number ?? '',
-				path,
-			});
-			if (sense.senses !== undefined) {
-				walk(sense.senses, path);
-			}
-		}
-	};
-	walk(entry.content.senses, '');
-	return rows;
-}
 
 /** The next free `P<6 digits>` number given every id already in
  * use (0 when none). */
@@ -173,15 +144,6 @@ async function committedPatchIds(): Promise<string[]> {
 	return ids;
 }
 
-/** The full corpus in pre-patch state, keyed by rid. */
-async function loadPrePatchCorpus(): Promise<Map<string, SourceEntry>> {
-	const entries = new Map<string, SourceEntry>();
-	for await (const entry of readSourceEntries(SOURCE)) {
-		entries.set(entry.rid, applyRepairs(entry).entry);
-	}
-	return entries;
-}
-
 /** The first tranche with pending chunks, its checkpoint, and its
  * pending list. */
 async function nextWork(rids: readonly string[]): Promise<{
@@ -210,7 +172,6 @@ async function prep(workdir: string, count: number): Promise<void> {
 	const { pending, tranche } = await nextWork([...entries.keys()]);
 	const batch = pending.slice(0, count);
 	for (const chunk of batch) {
-		const chunkEntries = chunk.rids.map((rid) => entries.get(rid));
 		const hints: Record<string, AnomalyHint[]> = {};
 		for (const rid of chunk.rids) {
 			const entryHints = entryAnomalyHints(
@@ -222,26 +183,16 @@ async function prep(workdir: string, count: number): Promise<void> {
 				hints[rid] = entryHints;
 			}
 		}
-		await Bun.write(
-			`${workdir}/inputs/${chunk.id}.json`,
-			JSON.stringify(
-				{
-					anomaly_hints: hints,
-					chunkId: chunk.id,
-					entries: chunkEntries,
-					pin,
-					promptVersion: PROMPT_VERSION,
-					sense_index: Object.fromEntries(
-						chunk.rids.map((rid) => [
-							rid,
-							senseIndex(entries.get(rid) as SourceEntry),
-						]),
-					),
-					tranche: tranche.id,
-				},
-				null,
-				'\t',
-			),
+		await writeChunkInput(
+			workdir,
+			buildChunkInput({
+				chunk,
+				entries,
+				hints,
+				pin: pin as string,
+				promptVersion: PROMPT_VERSION,
+				tranche: tranche.id,
+			}),
 		);
 		console.log(
 			`${chunk.id} (${tranche.id}): ${chunk.rids[0]}..${chunk.rids.at(-1)}`,
