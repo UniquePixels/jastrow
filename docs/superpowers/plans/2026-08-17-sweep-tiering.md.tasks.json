@@ -37,7 +37,7 @@
     {
       "id": 5,
       "subject": "Task 6: Triage the catalogue against schema v2",
-      "status": "pending",
+      "status": "completed",
       "description": "**Goal:** Establish which catalogued patterns still exist after the v2\ntransform, so Phase 2 writes rules only for patterns that survive.\n\n**Files:**\n- Modify: `data/patches/patterns.jsonl` (set `status`)\n- Create: `docs/v2/pattern-triage.md`\n\n**Acceptance Criteria:**\n- [ ] Every pattern's `status` is `candidate` or `discarded`, none left unexamined\n- [ ] Each `discarded` row has a written reason citing the v2 model\n- [ ] `docs/v2/pattern-triage.md` records the reasoning per pattern\n\n**Verify:** `bun -e 'import {parsePatterns} from \"./admin/pipeline/research/patterns.ts\"; const r=parsePatterns(await Bun.file(\"data/patches/patterns.jsonl\").text()); console.log(r.filter(x=>x.status===\"candidate\").length,\"survive,\",r.filter(x=>x.status===\"discarded\").length,\"discarded\")'` → counts sum to 11\n\n```json:metadata\n{\"files\": [\"data/patches/patterns.jsonl\", \"docs/v2/pattern-triage.md\"], \"verifyCommand\": \"bun -e 'import {parsePatterns} from \\\"./admin/pipeline/research/patterns.ts\\\"; const r=parsePatterns(await Bun.file(\\\"data/patches/patterns.jsonl\\\").text()); console.log(r.length)'\", \"acceptanceCriteria\": [\"every status resolved\", \"discarded rows carry a reason\", \"both CHECK rows resolved\", \"triage doc written\"], \"modelTier\": \"frontier\"}\n```",
       "blockedBy": [
         4
@@ -65,5 +65,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-08-17T21:15:00-05:00"
+  "lastUpdated": "2026-08-17T21:35:00-05:00"
 }
