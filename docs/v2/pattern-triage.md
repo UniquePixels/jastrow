@@ -57,13 +57,17 @@ here: 20,232 entries have at least one in-body `data-ref` absent from
 their own `refs[]`, matching the catalogued 20,298 within the noise of
 gershayim-escaped attributes.
 
-**Conflict recorded.** The parent data-architecture spec
-(`2026-07-08`, §2.2) says of `refs`: "Curated by Sefaria users;
-accurate; kept", and D7 makes "refs list is incomplete" a per-entry
-lint (register #1). The body model supersedes that row explicitly
-(§8: "`refs` row is superseded by §5 here"), and the shipped JSON
-Schema follows the body model. The later decision governs; register
-#1 becomes the "derived-index completeness lint" per §8.
+**Parent-spec status.** The body model states that it supersedes the
+parent data-architecture spec's `refs` row (§8: "`refs` row is
+superseded by §5 here"), and register #1 becomes the "derived-index
+completeness lint". That fold-in has already happened upstream:
+`docs/specs/2026-07-08-v2-data-architecture-design.md` is not present
+on this branch, and on `main` it reads "`refs` is dropped from truth
+and the complete per-entry reference index is **derived at compile**
+from `<cite>` tags (B7)", with migration step 4 struck through as
+superseded. There is no live conflict — checked with
+`git show main:docs/specs/2026-07-08-v2-data-architecture-design.md`,
+since the file cannot be opened from this branch.
 
 The only part of the `refs` field that touched migration is
 `repairs.ts`'s `refs-removal` pass (three baseless items, review 02).
@@ -90,10 +94,19 @@ does not, on three independent grounds:
    The 112 that do not are vocalization variants (e.g. A00084
    `אֲבִזְרֵי`/`אֲבִיזְרֵי`), not lost content.
 
-Even if the field were rejoined as the design table's "Rejoined
-likewise" wording implies, an empty string contributes zero bytes and
-no separator — the empty slot would still be invisible. Re-measured:
-703 entries carry an empty slot, exactly as catalogued.
+Re-measured: 703 entries carry an empty slot, exactly as catalogued.
+
+**Condition on which this row reopens.** The determination above rests
+on the schema and on `rejoin.ts`, both of which hold today. It does
+*not* rest on the empty string being harmless: 701 of the 703
+empty-slot entries also hold non-empty values in the same array, so a
+rejoin that joined `plural_form` with any separator would emit a stray
+separator in 701 glosses. Only separator-free concatenation — what
+`rejoin.ts` does for the four fragments it handles — makes an empty
+slot invisible. If follow-up #1 is resolved by teaching the rejoin to
+append `plural_form`, **this row must be reopened**, and a
+separator-joining implementation would make it a live defect rather
+than a moot one.
 
 **Doc-vs-code note.** §2's "Dropped from truth" table says
 `content.morphology`, `plural_form` are "Rejoined likewise", but the
@@ -194,7 +207,10 @@ already escapes — so the residue is smaller still.
 
 1. **Design-table vs `rejoin.ts` on `plural_form`** (§2 says
    "Rejoined likewise"; the code rejoins morphology only). Resolve in
-   the design doc before `migrate.ts`.
+   the design doc before `migrate.ts`. If the resolution adds
+   `plural_form` to the rejoin, reopen `plural-form-empty-slot` — 701
+   of its 703 entries have sibling values, so any separator-joining
+   implementation turns the empty slot into a visible defect.
 2. **`grammar.gender` seeding coverage**: ~710 entries carry a visible
    marker with no `content.morphology`. Post-migration enrichment
    alongside `pos`, under §2's index ↔ text lint — not a Phase 2 text
