@@ -26,8 +26,8 @@ including nested `sense.senses`, which reproduces chunk-00882's
 | Chunks swept | 22 (one per rid letter A–V) |
 | Entries swept | 660 |
 | Raw candidate lines | 98, plus letter notes, detector findings, conflicts and negative results |
-| Catalogued after merge | **68 rows** — 61 `candidate`, 7 `discarded` |
-| Catalogue total | 79 rows (11 from round 0) |
+| Catalogued after merge | **69 rows** — 62 `candidate`, 7 `discarded` |
+| Catalogue total | 80 rows (11 from round 0) |
 | Conflicts recorded | 2, both settled by re-measurement |
 | Saturation | `isSaturated(rows, 1) === false` |
 
@@ -45,7 +45,7 @@ including nested `sense.senses`, which reproduces chunk-00882's
 
 ## 1. Merges
 
-98 candidate lines collapse to 68 rows. Many patterns were found
+98 candidate lines collapse to 69 rows. Many patterns were found
 independently by different letters under different names; every merge
 is recorded here.
 
@@ -69,9 +69,9 @@ measurement.
 
 | Merged row | Sources | Evidence |
 | --- | --- | --- |
-| `em-dash-section-break-in-own-italic` | E "em-dash swallowed into `<i>`" (278 occ / 270), T `spaced-em-dash-section-separator` (286 occ / 278) | the same thing. `.</i> <i>—` occurs 278 times in 270 entries, and a literal spaced em-dash (`\s—\s`) occurs **0 times corpus-wide** — T's "fully spaced" separator exists only as this tag seam |
+| `em-dash-section-break-in-own-italic` | E "em-dash swallowed into `<i>`" (278 occ / 270), T `spaced-em-dash-section-separator` (286 occ / 278), and the em-dash sub-shape of D `italic-lone-punctuation` | the same thing. `.</i> <i>—` occurs 278 times in 270 entries, and in **rendered** text a spaced em-dash occurs **230 times across 226 entries** — reproducing T's "230/226 fully spaced" exactly. (The *tagged* string `\s—\s` is 0 corpus-wide only because the `<i>` tag sits between the space and the dash; the corpus norm `.—` occurs 20,195 times.) |
 | `anchor-swallows-close-paren` | B `anchor-swallows-close-paren` (529), E `tosefta-double-chapter-anchor` (525 / 493) | one regex yields 526 occ / 494 entries, bracketing both reports |
-| `italic-lone-punctuation` | D `italic-lone-punctuation` (23) ⊃ B `italic-em-dash-separator` (230) | `<i>` wrapping one punctuation mark is 259 occ / 255 entries; the em-dash is 230 of them, then `.` 21, `?` 5, `;` 2 |
+| `italic-lone-punctuation` (restated) | D `italic-lone-punctuation` (23), B `italic-em-dash-separator` (230) | `<i>` wrapping one punctuation mark is 259 occ / 255 entries, but the em-dash sub-shape (230 / 226) is a **complete subset** of the row above — all 230 are preceded by `.</i> `. Catalogued at its full size it would double-count 230 instances and produce two Phase 2 rules for one defect, so this row is restated as its **29-occurrence non-em-dash residue** (`.` 21, `?` 5, `;` 2, `͗` 1), which also reconciles with D's original 23 |
 | `homograph-numeral-mismatch` | N `wrong-homograph-link` (340), O `homograph-numeral-mismatch` (195), P `roman-numeral-orphan-display` (104) | all three compare a display's Roman numeral against the numeral in the ref or target; one rule yields 576 anchors / 538 entries |
 
 Two further consolidations: L's `parashah-section-cite-as-bible-chapter`
@@ -83,7 +83,7 @@ one lookup table, so they become one row.
 
 ## 2. The merged catalogue
 
-61 `candidate` rows, largest first. Full text in
+62 `candidate` rows, largest first. Full text in
 `data/patches/patterns.jsonl`.
 
 ### Linking
@@ -95,7 +95,7 @@ one lookup table, so they become one row.
 | `same-anchor-positional-mislink` | 3,183 | five independent confirmations (G, I, N, K, S) |
 | `homograph-collapse-link` | 2,957 | **1,132 of 1,132** shared skeletons resolve to exactly one target; zero exceptions |
 | `plural-inflection-anchor-escapes-entry` | 2,281 | |
-| `neighbor-rid-mislink` | 655 | distance histogram over 1,531 skeleton-matched-but-diverging anchors: **701**, 87, 28, 17, 10 — an 8× spike at exactly ±1 |
+| `neighbor-rid-mislink` | 655 | distance histogram over 1,531 skeleton-matched-but-diverging anchors: **701**, 87, 28, 17, 10 — a 7–8× spike at exactly ±1. Count caveated: the spike survives every tie-break, the count does not (first-match gives 596/123/57/22/37 and 559 entries; review measured 676/84/47/29/13 and 630) |
 | `geresh-letter-numeral-mislink` | 608 | v4 deliberately does not hint these |
 | `geresh-abbrev-fixed-sink` | 572 | 63 displays with one fixed wrong target; `שִׁי׳→שִׁבְהוֹר` 39, `פִּי׳→פְּגִימִין` 27, `סִי׳→סִבְכָא` 25 |
 | `homograph-numeral-mismatch` | 538 | 537 of 576 name a numeral that is no headword |
@@ -104,6 +104,7 @@ one lookup table, so they become one row.
 | `nested-anchor-swallows-punctuation` | 465 | 475 of 475 have byte-identical outer/inner refs; 455 trap punctuation |
 | `unlinked-stub-nonexistent-target` | 451 | refines round 0's `unlinked-v-span` |
 | `targum-sheni-never-linked` | 362 | 384 of 384 unlinked, against `Targ. II Chr.` 250 of 250 linked |
+| `targum-cite-to-plain-bible` | 43 | same missing-work-mapping family; `Targum Jonathan on Habakkuk` does not exist |
 | `midrash-section-cite-as-bible-chapter` | 255 | |
 | `prefixed-geresh-abbrev-mislink` | 173 | 183 of 185 target a different entry |
 | `superscript-subsection-stranded-outside-anchor` | 160 | T 36 / U 98 / V 48, zero in A–S |
@@ -122,7 +123,8 @@ one lookup table, so they become one row.
 `ascii-quote-as-gershayim-in-body` 1,234 ·
 `italic-swallowed-terminal-period` 1,209 · `redundant-outer-rtl-span`
 529 · `em-dash-section-break-in-own-italic` 270 ·
-`italic-lone-punctuation` 255 · `open-paren-in-anchor-display` 214 ·
+`italic-lone-punctuation` 29 (restated residue; see §1) ·
+`open-paren-in-anchor-display` 214 ·
 `stranded-open-bracket` 152 · `latin-token-inside-rtl-span` 130 ·
 `trailing-em-dash-tail` 130 · `anchor-italic-no-space` 111 ·
 `doubled-space-as-text-loss-locator` 108 · `italic-close-paren-nospace`
@@ -184,7 +186,7 @@ visible gloss text.
 
 ### Counts that are judgement calls
 
-Nineteen rows carry an explicit caveat in `reason` rather than a
+Twenty rows carry an explicit caveat in `reason` rather than a
 false-precision number: `interior-consonant-mislink`,
 `unlinked-stub-nonexistent-target`, `midrash-section-cite-as-bible-chapter`,
 `inflection-abbrev-mislink`, `binyan-head-form-mislinked`,
@@ -194,18 +196,60 @@ false-precision number: `interior-consonant-mislink`,
 `etymology-head-pseudo-sense`, `preamble-stranded-lead-sense`,
 `self-numbered-intext-marker`, `citation-tail-truncation`,
 `initial-niqqud-drop`, `gloss-space-loss`, `spurious-name-period`,
-`bracket-paren-mismatch`.
+`bracket-paren-mismatch`, `neighbor-rid-mislink`.
 
-### One finding that did not reproduce
+### One finding that a first probe missed
 
 chunk-00221's `targum-cite-to-plain-bible` (41 entries, 37 of them
-Habakkuk, attributed to one missing work mapping) **does not
-reproduce**. Scanning every `Targ. …` display whose data-ref names a
-plain Hebrew-Bible work rather than a Targum work returns **one anchor
-corpus-wide**, with no Habakkuk cluster; the Targum work vocabulary is
-complete and well populated (`Targum Jonathan on …`, `Onkelos …`,
-`Aramaic Targum to …`). No row was added. It must be re-derived before
-any spend.
+Habakkuk, attributed to one missing work mapping) was **initially
+recorded here as non-reproducing. That was a probe error, and the
+chunk was right.**
+
+The first probe required the display *inside* the anchor to begin
+`Targ.`. In every instance `Targ.` sits **outside** the anchor and only
+the book and chapter are linked:
+
+```
+D00892:  Targ. <a href="/Habakkuk.2.19" data-ref="Habakkuk 2:19">Hab. II, 19</a>
+```
+
+Re-measured with pre-anchor context included — anchors preceded by a
+bare `Targ.` (optionally `Targ. O.` / `Targ. Y.`) whose data-ref names a
+non-Targum work — the class is **44 anchors / 43 entries**: Habakkuk 37,
+Judges 4, then Mishnah Chagigah, I Chronicles and I Samuel 1 each. The
+figure is stable across pre-anchor windows of 30, 60 and 100
+characters. Review measured 45 / 44; all three measurements agree on
+the Habakkuk cluster.
+
+The root cause is exactly what chunk-00221 stated — **one missing work
+mapping**. `Targum Jonathan on Habakkuk` does not appear anywhere in the
+corpus, while all eleven other minor prophets have one:
+
+| Hosea | Amos | Zech. | Micah | Nahum | Joel | Zeph. | Mal. | Jonah | Obad. | Haggai | **Habakkuk** |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 131 | 107 | 86 | 66 | 40 | 39 | 37 | 29 | 26 | 14 | 13 | **absent** |
+
+So `Targ. Hab.` — 37 occurrences, inside an anchor **0** times — links
+to `Habakkuk` itself, the plain Hebrew Bible. Catalogued as
+`targum-cite-to-plain-bible`, 43 entries, `candidate`, adjacent to
+`targum-sheni-never-linked`: both are one missing work mapping, and both
+are deterministic table-driven fixes.
+
+### The generalisation, which matters more than the row
+
+Two probes in this round tested the same family and only one was
+sound. For `targum-sheni-never-linked` the probe asked whether the text
+was **anchored at all**, and it worked. For `targum-cite-to-plain-bible`
+the probe asked what the **anchor display** said, and it failed —
+because the defining text (`Targ.`) is not in the display.
+
+**Any pattern whose defining text sits outside the anchor is invisible
+to a display-side probe.** This is a systematic hole, not a one-off
+slip: the citation *work* is frequently named in prose before the
+anchor while only the book-and-chapter reference is linked, so every
+mislink class of that shape reads as clean. Round 2 must **re-run the
+round-1 negative results with pre-anchor context included** before any
+of them is trusted as a genuine absence.
 
 ## 3. The two recorded conflicts
 
@@ -409,7 +453,7 @@ Two distinct failure modes, and they need different responses:
 The corollary for the programme is that the stratification's yield was
 not letter variation. It was **evidence that the entire prior sweep was
 under-detecting**, and that per-entry sweeping was the wrong instrument
-throughout: 61 of the 68 new rows are corpus-wide classes with a
+throughout: 62 of the 69 new rows are corpus-wide classes with a
 deterministic or table-driven fix, several of them — `homograph-collapse-link`
 at 1,132 of 1,132, `targum-sheni-never-linked` at 384 of 384,
 `prefixed-geresh-abbrev-mislink` at 183 of 185 — with no judgement
@@ -431,11 +475,11 @@ carries `round > round − 2`.
 isSaturated(rows, 1) === false
 ```
 
-False, and necessarily so: round 1 added 68 rows.
+False, and necessarily so: round 1 added 69 rows.
 
 **What round 2 must clear.** Because the predicate looks back two
 rounds, a clean round 2 is not by itself sufficient — at round 2 the
-cutoff is 0 and the 68 round-1 rows still fail it, so
+cutoff is 0 and the 69 round-1 rows still fail it, so
 `isSaturated(rows, 2)` is `false` regardless of what round 2 finds. The
 earliest saturation can be declared is **after round 3**, and it
 requires **round 2 and round 3 to each add zero new pattern rows**.
@@ -443,7 +487,7 @@ requires **round 2 and round 3 to each add zero new pattern rows**.
 Concretely, round 2 must:
 
 1. **Add nothing new** — and be broad enough that adding nothing is
-   informative. Round 1 swept 660 entries and yielded 68 rows, so round
+   informative. Round 1 swept 660 entries and yielded 69 rows, so round
    2 is not credible at round 1's breadth.
 2. **Land the detector calibrations first** (§4). Round 1's sweeps were
    structurally blind to `geresh-letter-numeral-mislink` (608 entries),
@@ -456,8 +500,10 @@ Concretely, round 2 must:
    (1,553 entries) — three chunks split on whether it is a defect or a
    print convention, and the row cannot be slated either way until that
    is settled.
-5. **Re-derive `targum-cite-to-plain-bible`**, which did not reproduce
-   (§2), or drop it.
+5. **Re-run the round-1 negative results with pre-anchor context
+   included** (§2). `targum-cite-to-plain-bible` was wrongly recorded as
+   non-reproducing by a display-side probe and is a real 43-entry class;
+   every other negative result reached the same way is unproven.
 6. **Run the new rows against the 57 already-accepted chunks** (§5) —
    as scripts, not sweeps.
 
@@ -465,4 +511,5 @@ Concretely, round 2 must:
 
 | Date | Change |
 |------|--------|
-| 2026-08-18 | Round 1 consolidated. 22 chunks / 660 entries swept; 98 candidates merged to 68 catalogue rows (61 candidate, 7 discarded); both recorded conflicts settled by re-measurement; four detector calibrations recorded; letter-behaviour finding recorded against the 57 already-accepted chunks. `isSaturated(rows, 1) === false` |
+| 2026-08-18 | Round 1 consolidated. 22 chunks / 660 entries swept; 98 candidates merged to 69 catalogue rows (62 candidate, 7 discarded); both recorded conflicts settled by re-measurement; four detector calibrations recorded; letter-behaviour finding recorded against the 57 already-accepted chunks. `isSaturated(rows, 1) === false` |
+| 2026-08-18 | Review fixes: `targum-cite-to-plain-bible` restored (43 entries) after its non-reproduction was traced to a display-side probe that could not see `Targ.` outside the anchor — generalised in §2 as a hole in every display-side negative result; `italic-lone-punctuation` restated as its 29-occurrence non-em-dash residue after its 230 em-dash instances were found to be a complete subset of `em-dash-section-break-in-own-italic`; em-dash merge rationale re-grounded on the rendered-text measurement (230/226, matching chunk-00947) rather than the tagged string; count caveat added to `neighbor-rid-mislink` |
