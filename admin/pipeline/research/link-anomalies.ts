@@ -71,6 +71,13 @@ const GERESH = /[׳']/gu;
  * (batch-02 A01346 fired a false `exact-headword-diverge` when a
  * display's Roman numeral met its target's superscript). */
 const HOMOGRAPH = /\s+(?:[IVX]+|[0-9]+|[²³¹⁰-⁹]+)$/u;
+/** Jastrow's editorial mark on a reconstructed headword. It is stored
+ * inside the headword string but is not part of the word, so an anchor
+ * displaying the de-asterisked target is a correct link (v2 carries it
+ * as the boolean `reconstructed`). Round 1 letters B and J found this
+ * independently: 1,339 `*` headwords, 1,412 anchors whose display is
+ * exactly the de-asterisked target, all correct. */
+const EDITORIAL_ASTERISK = /^\*+/u;
 /** Geresh marking an in-entry abbreviation of the headword. */
 const GERESH_END = /[׳']\s*$/u;
 /** Gershayim inside a display: the raw `"` truncates the `data-ref`
@@ -81,9 +88,10 @@ const ROMAN_NUMERAL = /^[IVXLC]{1,4}$/u;
  * the geresh forms are generic (`ר׳` = Rabbi, `ב׳` = ben). */
 const MIN_ABBREV_STEM = 2;
 
-/** Drop a homograph suffix: `זָמַר I` -> `זָמַר`. */
+/** Drop a homograph suffix and the editorial asterisk:
+ * `*זָמַר I` -> `זָמַר`. */
 function baseHeadword(s: string): string {
-	let out = s.trim();
+	let out = s.trim().replace(EDITORIAL_ASTERISK, '').trim();
 	let previous: string;
 	do {
 		previous = out;

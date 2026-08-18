@@ -234,6 +234,26 @@ describe('entryAnomalyHints — headword-identity link rules', () => {
 		expect(hints.some((h) => h.kind === 'niqqud-twin-target')).toBe(true);
 	});
 
+	it('ignores the editorial asterisk on a reconstructed target', () => {
+		const def = `v. ${anchor('*אָכוּז', 'אָכוּז')}`;
+		const hints = entryAnomalyHints(
+			entry('B00293', def, 'בְּדַל'),
+			new Map(),
+			headwordIndex('בְּדַל', '*אָכוּז', 'אָכוּז'),
+		);
+		expect(hints.some((h) => h.kind === 'exact-headword-diverge')).toBe(false);
+	});
+
+	it('still flags a de-asterisked display linked elsewhere', () => {
+		const def = `v. ${anchor('אַבָּא', 'אָכוּז')}`;
+		const hints = entryAnomalyHints(
+			entry('B00293', def, 'בְּדַל'),
+			new Map(),
+			headwordIndex('בְּדַל', '*אָכוּז', 'אַבָּא'),
+		);
+		expect(hints.some((h) => h.kind === 'exact-headword-diverge')).toBe(true);
+	});
+
 	it('treats a Roman homograph and a superscript as one headword', () => {
 		const def = `v. ${anchor('אֵימוּרִים ²', 'אֵימוּרִים II')}`;
 		const hints = entryAnomalyHints(
