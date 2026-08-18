@@ -31,7 +31,7 @@
     {
       "id": 4,
       "subject": "Task 5: Pattern catalogue store",
-      "status": "pending",
+      "status": "completed",
       "description": "**Goal:** Record every systemic pattern class with its corpus count, and\ncompute the saturation predicate mechanically.\n\n**Files:**\n- Create: `admin/pipeline/research/patterns.ts`\n- Create: `admin/pipeline/research/patterns.test.ts`\n- Create: `data/patches/patterns.jsonl`\n\n**Acceptance Criteria:**\n- [ ] A pattern row carries `id`, `round`, `description`, `corpusCount`, `status`\n- [ ] `status` is one of `candidate`, `scripted`, `discarded`\n- [ ] Adding a duplicate `id` throws rather than silently appending\n- [ ] `isSaturated(rows, round)` is true when the last two rounds added no rows\n- [ ] The seeded catalogue contains the eleven patterns known at plan time\n\n**Verify:** `bun test admin/pipeline/research/patterns.test.ts` → `6 pass, 0 fail`\n\n```json:metadata\n{\"files\": [\"admin/pipeline/research/patterns.ts\", \"admin/pipeline/research/patterns.test.ts\", \"data/patches/patterns.jsonl\"], \"verifyCommand\": \"bun test admin/pipeline/research/patterns.test.ts\", \"acceptanceCriteria\": [\"pattern row schema\", \"status enum\", \"duplicate id throws\", \"isSaturated correct\", \"eleven patterns totalling 48986\"], \"modelTier\": \"standard\"}\n```"
     },
     {
@@ -65,5 +65,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-08-17T21:05:00-05:00"
+  "lastUpdated": "2026-08-17T21:15:00-05:00"
 }
