@@ -297,6 +297,30 @@ describe('entryAnomalyHints — anchor-shape link rules', () => {
 	});
 });
 
+describe('entryAnomalyHints — Hebrew frequency rule (round-1 calibration)', () => {
+	it('flags a Hebrew rare-confusable hint when a hebrewTable is supplied', () => {
+		const hebrewTable = new Map([
+			['שהוא', 400],
+			['שחוא', 2],
+		]);
+		const hints = entryAnomalyHints(
+			entry('H01109', 'בזמן שחוא חולץ מן הגל'),
+			new Map(),
+			undefined,
+			hebrewTable,
+		);
+		expect(hints.some((h) => h.kind === 'hebrew-rare-confusable')).toBe(true);
+	});
+
+	it('emits no Hebrew hints when no hebrewTable is supplied', () => {
+		const hints = entryAnomalyHints(
+			entry('H01109', 'בזמן שחוא חולץ מן הגל'),
+			new Map(),
+		);
+		expect(hints.some((h) => h.kind === 'hebrew-rare-confusable')).toBe(false);
+	});
+});
+
 describe('entryAnomalyHints — citation comma rule (batch-02 remediation)', () => {
 	it('flags a Roman numeral followed by a bare number (A01008 shape)', () => {
 		const hints = entryAnomalyHints(

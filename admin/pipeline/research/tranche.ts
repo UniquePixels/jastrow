@@ -56,6 +56,7 @@ import {
 	writeChunkInput,
 } from './corpus-inputs.ts';
 import { buildHeadwordIndex } from './headword-index.ts';
+import { buildHebrewTable } from './hebrew-anomalies.ts';
 import type { EntryResult } from './manifest.ts';
 import {
 	type IngestResult,
@@ -169,6 +170,7 @@ async function prep(workdir: string, count: number): Promise<void> {
 	const entries = await loadPrePatchCorpus();
 	const abbrevTable = buildAbbrevTable(entries.values());
 	const headwordIndex = buildHeadwordIndex(entries.values());
+	const hebrewTable = buildHebrewTable(entries.values());
 	const { pending, tranche } = await nextWork([...entries.keys()]);
 	const batch = pending.slice(0, count);
 	for (const chunk of batch) {
@@ -178,6 +180,7 @@ async function prep(workdir: string, count: number): Promise<void> {
 				entries.get(rid) as SourceEntry,
 				abbrevTable,
 				headwordIndex,
+				hebrewTable,
 			);
 			if (entryHints.length > 0) {
 				hints[rid] = entryHints;

@@ -27,6 +27,7 @@ import {
 	writeChunkInput,
 } from './corpus-inputs.ts';
 import { buildHeadwordIndex } from './headword-index.ts';
+import { buildHebrewTable } from './hebrew-anomalies.ts';
 
 const SNAPSHOT_LOCK = 'data/patches/snapshot.lock';
 const PROMPT_VERSION = 'v4';
@@ -79,6 +80,7 @@ async function sample(workdir: string, round: number): Promise<void> {
 	const entries = await loadPrePatchCorpus();
 	const abbrevTable = buildAbbrevTable(entries.values());
 	const headwordIndex = buildHeadwordIndex(entries.values());
+	const hebrewTable = buildHebrewTable(entries.values());
 	const chunks = chunkCorpus([...entries.keys()]);
 	const checkpoint = await loadCheckpoint('tranche-01');
 	const completed = new Set(checkpoint?.completed ?? []);
@@ -90,6 +92,7 @@ async function sample(workdir: string, round: number): Promise<void> {
 				entries.get(rid) as SourceEntry,
 				abbrevTable,
 				headwordIndex,
+				hebrewTable,
 			);
 			if (entryHints.length > 0) {
 				hints[rid] = entryHints;

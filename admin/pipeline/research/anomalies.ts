@@ -28,6 +28,10 @@
  * Link-target rules (`abbrev-mislink`, `exact-headword-diverge`,
  * `niqqud-twin-target`, `roman-numeral-display`) live in
  * link-anomalies.ts — batch-02 remediation, 2026-08-17.
+ *
+ * `hebrew-rare-confusable` — the Hebrew-side analogue of the Latin
+ * frequency rules above — lives in hebrew-anomalies.ts, round-1
+ * detector calibration, 2026-08-18.
  */
 import type { SourceEntry } from '../body/types.ts';
 import {
@@ -35,6 +39,8 @@ import {
 	type HeadwordIndex,
 	ownForms,
 } from './headword-index.ts';
+import type { HebrewTable } from './hebrew-anomalies.ts';
+import { hebrewHints } from './hebrew-anomalies.ts';
 import { linkHints } from './link-anomalies.ts';
 
 /** One deterministic finding attached to a chunk-input entry. */
@@ -270,6 +276,7 @@ function entryAnomalyHints(
 	entry: SourceEntry,
 	table: AbbrevTable,
 	index?: HeadwordIndex,
+	hebrewTable?: HebrewTable,
 ): AnomalyHint[] {
 	const hints: AnomalyHint[] = [];
 	const linkFields = [...entryDefinitions(entry)];
@@ -284,6 +291,9 @@ function entryAnomalyHints(
 		}
 		hints.push(...formulaHints(def));
 		hints.push(...circularHints(def, entry.headword));
+		if (hebrewTable !== undefined) {
+			hints.push(...hebrewHints(def, hebrewTable));
+		}
 	}
 	if (index !== undefined) {
 		const own = ownForms(entry);
