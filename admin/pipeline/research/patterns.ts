@@ -18,6 +18,9 @@ interface Pattern {
 	description: string;
 	/** Stable kebab-case key. */
 	id: string;
+	/** Why the pattern was discarded, citing the v2 model. Present on
+	 * `discarded` rows only (triage: docs/v2/pattern-triage.md). */
+	reason?: string;
 	/** Discovery round that first recorded it; 0 for pre-existing. */
 	round: number;
 	status: PatternStatus;
