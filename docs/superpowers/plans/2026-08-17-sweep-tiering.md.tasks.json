@@ -22,7 +22,7 @@
     {
       "id": 3,
       "subject": "Task 4: Stratified round sampler",
-      "status": "pending",
+      "status": "completed",
       "description": "**Goal:** Select one unswept chunk per rid letter per round,\ndeterministically, and write its input.\n\n**Files:**\n- Create: `admin/pipeline/research/sample.ts`\n- Create: `admin/pipeline/research/sample.test.ts`\n\n**Acceptance Criteria:**\n- [ ] `stratifiedRound` returns at most one chunk per rid letter\n- [ ] Same (round, corpus, completed set) always returns the same chunks\n- [ ] Chunks already in the checkpoint's `completed` list are never selected\n- [ ] Different rounds select different chunks for the same letter\n- [ ] CLI writes inputs for a round: `bun admin/pipeline/research/sample.ts <workdir> <round>`\n\n**Verify:** `bun test admin/pipeline/research/sample.test.ts` → `5 pass, 0 fail`\n\n```json:metadata\n{\"files\": [\"admin/pipeline/research/sample.ts\", \"admin/pipeline/research/sample.test.ts\"], \"verifyCommand\": \"bun test admin/pipeline/research/sample.test.ts\", \"acceptanceCriteria\": [\"one chunk per rid letter\", \"deterministic\", \"never selects completed\", \"rounds differ\", \"CLI writes inputs\"], \"modelTier\": \"standard\"}\n```",
       "blockedBy": [
         2
@@ -65,5 +65,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-08-17T20:55:00-05:00"
+  "lastUpdated": "2026-08-17T21:05:00-05:00"
 }
