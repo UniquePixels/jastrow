@@ -29,8 +29,13 @@
  * `niqqud-twin-target`, `roman-numeral-display`) live in
  * link-anomalies.ts — batch-02 remediation, 2026-08-17.
  */
-import type { SourceEntry, SourceSense } from '../body/types.ts';
-import { type HeadwordIndex, linkHints } from './link-anomalies.ts';
+import type { SourceEntry } from '../body/types.ts';
+import {
+	entryDefinitions,
+	type HeadwordIndex,
+	ownForms,
+} from './headword-index.ts';
+import { linkHints } from './link-anomalies.ts';
 
 /** One deterministic finding attached to a chunk-input entry. */
 interface AnomalyHint {
@@ -41,7 +46,10 @@ interface AnomalyHint {
 		| 'circular-v-ref'
 		| 'comma-for-period'
 		| 'exact-headword-diverge'
+		| 'hebrew-rare-confusable'
+		| 'inflection-escape-link'
 		| 'niqqud-twin-target'
+		| 'one-consonant-diverge'
 		| 'rare-dotted-variant'
 		| 'roman-numeral-display'
 		| 'truncated-formula';
@@ -100,23 +108,6 @@ function stripTags(s: string): string {
 	return s.replace(TAG, ' ');
 }
 
-/** Every definition string in an entry, nested senses included. */
-function definitions(entry: SourceEntry): string[] {
-	const defs: string[] = [];
-	const walk = (senses: readonly SourceSense[]): void => {
-		for (const sense of senses) {
-			if (sense.definition !== undefined) {
-				defs.push(sense.definition);
-			}
-			if (sense.senses !== undefined) {
-				walk(sense.senses);
-			}
-		}
-	};
-	walk(entry.content.senses);
-	return defs;
-}
-
 /** Fold one raw whitespace-token into the table. */
 function countToken(table: AbbrevTable, raw: string): void {
 	const m = WORD.exec(raw);
@@ -141,7 +132,7 @@ function countToken(table: AbbrevTable, raw: string): void {
 function buildAbbrevTable(entries: Iterable<SourceEntry>): AbbrevTable {
 	const table: AbbrevTable = new Map();
 	for (const entry of entries) {
-		for (const def of definitions(entry)) {
+		for (const def of entryDefinitions(entry)) {
 			for (const raw of stripTags(def).split(WHITESPACE)) {
 				countToken(table, raw);
 			}
@@ -281,13 +272,13 @@ function entryAnomalyHints(
 	index?: HeadwordIndex,
 ): AnomalyHint[] {
 	const hints: AnomalyHint[] = [];
-	const linkFields = [...definitions(entry)];
+	const linkFields = [...entryDefinitions(entry)];
 	// The batch-02 miss A00988 sat in `language_reference`, so the
 	// link rules read the etymology field as well as the senses.
 	if (typeof entry.language_reference === 'string') {
 		linkFields.push(entry.language_reference);
 	}
-	for (const def of definitions(entry)) {
+	for (const def of entryDefinitions(entry)) {
 		for (const raw of stripTags(def).split(WHITESPACE)) {
 			hints.push(...tokenHints(raw, table));
 		}
@@ -295,8 +286,9 @@ function entryAnomalyHints(
 		hints.push(...circularHints(def, entry.headword));
 	}
 	if (index !== undefined) {
+		const own = ownForms(entry);
 		for (const text of linkFields) {
-			hints.push(...linkHints(text, entry.headword, index));
+			hints.push(...linkHints(text, own, index));
 		}
 	}
 	// One hint per distinct finding, however often the token recurs.

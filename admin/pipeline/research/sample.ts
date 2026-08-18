@@ -26,7 +26,7 @@ import {
 	loadPrePatchCorpus,
 	writeChunkInput,
 } from './corpus-inputs.ts';
-import { buildHeadwordIndex } from './link-anomalies.ts';
+import { buildHeadwordIndex } from './headword-index.ts';
 
 const SNAPSHOT_LOCK = 'data/patches/snapshot.lock';
 const PROMPT_VERSION = 'v4';

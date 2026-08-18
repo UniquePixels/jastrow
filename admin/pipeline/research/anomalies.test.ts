@@ -6,7 +6,7 @@ import {
 	editDistanceIsOne,
 	entryAnomalyHints,
 } from './anomalies.ts';
-import { buildHeadwordIndex, type HeadwordIndex } from './link-anomalies.ts';
+import { buildHeadwordIndex, type HeadwordIndex } from './headword-index.ts';
 
 function entry(rid: string, definition: string, headword = 'ראש'): SourceEntry {
 	return {

@@ -55,7 +55,7 @@ import {
 	senseIndex,
 	writeChunkInput,
 } from './corpus-inputs.ts';
-import { buildHeadwordIndex } from './link-anomalies.ts';
+import { buildHeadwordIndex } from './headword-index.ts';
 import type { EntryResult } from './manifest.ts';
 import {
 	type IngestResult,

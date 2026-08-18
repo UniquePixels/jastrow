@@ -1,6 +1,7 @@
 /**
  * Deterministic link-target anomaly rules (batch-02 breach
- * remediation, 2026-08-17; RUNBOOK step 2).
+ * remediation, 2026-08-17; round-1 detector calibration, 2026-08-18;
+ * RUNBOOK step 2).
  *
  * Batch 02 passed the patch-error threshold outright (0/15) but
  * breached the catchable-miss threshold at 7.6%. Four of the five
@@ -13,22 +14,44 @@
  * These are *hints*: prep attaches them to chunk inputs and the
  * sweep prompt (v4) requires each one to be judged explicitly and
  * either patched or rejected with a stated reason. Calibrated on the
- * full 32,512-entry corpus (2026-08-17); union 1,910 entries (5.9%).
+ * full 32,512-entry corpus; figures below are the 2026-08-18
+ * re-measurement, which folds in round 1's six corrections.
  *
- * - `abbrev-mislink` — 994 entries. A geresh-abbreviated display
- *   abbreviates *this* entry's headword but links elsewhere. Catches
- *   A01486 (`אִסְפַּ׳` under אִיסְפַּקְלַרְיָא, linked to asparagus) and A01525.
- * - `exact-headword-diverge` — 721 entries. The display is itself a
+ * - `abbrev-mislink` — 1,164 entries. A geresh-abbreviated display
+ *   abbreviates one of *this* entry's own forms but links elsewhere.
+ *   Catches A01486 (`אִסְפַּ׳` under אִיסְפַּקְלַרְיָא, linked to asparagus),
+ *   the prefixed one-letter shape letter J measured at ~99% wrong
+ *   (`מִבְ׳` under בְּעַע -> מַבַּע), and letter I's abbreviations of the
+ *   entry's own inflected forms.
+ * - `exact-headword-diverge` — 341 entries. The display is itself a
  *   corpus headword, but the link targets a consonantally different
- *   one. Catches A00988 (displays אָב, targets אַבָּא I).
- * - `niqqud-twin-target` — 204 entries. Display and target are two
- *   real headwords sharing one consonantal skeleton, so sweep-v3's
+ *   one. Catches A00988 (displays אָב, targets אַבָּא I). Redirect-stub
+ *   resolutions and the editorial `*` are excluded.
+ * - `niqqud-twin-target` — 1,368 entries. Display and target share
+ *   one consonantal skeleton carrying two or more headwords, so the
  *   niqqud-only carve-out cannot decide the case. Catches A01201
- *   (זְמַר vs זָמַר), whose verifier note prompted narrowing that rule.
+ *   (זְמַר vs זָמַר) and, since the calibration, the unvocalized
+ *   displays that carve-out silently collapsed onto one homograph.
+ * - `one-consonant-diverge` — 817 entries. The display is no corpus
+ *   headword but sits one non-final consonant from its target, the
+ *   letter-L shape that could never reach `exact-headword-diverge`.
+ * - `inflection-escape-link` — 690 entries. The display is one of the
+ *   host entry's own inflected forms yet the link leaves the entry
+ *   for a word related to neither. The unique-skeleton carve-out used
+ *   to license these (letters J, O, Q, R).
  * - `roman-numeral-display` — 31 entries. An anchor whose display is
  *   a bare Roman numeral, naming no citation. Catches A01133.
+ *
+ * Union of all hint kinds: 4,899 entries, 15.1% of the corpus.
  */
-import type { SourceEntry } from '../body/types.ts';
+import {
+	baseHeadword,
+	consonants,
+	type HeadwordIndex,
+	type OwnForms,
+	skeleton,
+	stem,
+} from './headword-index.ts';
 
 /** One deterministic link finding. Kind values are a subset of
  * `AnomalyHint['kind']` in anomalies.ts, which owns the union. */
@@ -37,17 +60,10 @@ interface LinkHint {
 	kind:
 		| 'abbrev-mislink'
 		| 'exact-headword-diverge'
+		| 'inflection-escape-link'
 		| 'niqqud-twin-target'
+		| 'one-consonant-diverge'
 		| 'roman-numeral-display';
-}
-
-/** Corpus headword index: every headword in its homograph-stripped
- * form, plus the niqqud-variant families sharing one skeleton. */
-interface HeadwordIndex {
-	/** Consonantal skeleton -> the distinct vocalized headwords. */
-	bySkeleton: Map<string, Set<string>>;
-	/** Every headword, homograph suffix (` I`, ` 2`) removed. */
-	exact: Set<string>;
 }
 
 /** Anchors into the dictionary itself, which the headword rules judge. */
@@ -59,90 +75,71 @@ const ANY_ANCHOR =
 	/<a [^>]*data-ref="(?<ref>[^"]+)"[^>]*>(?<display>.*?)<\/a>/gu;
 
 const TAG = /<[^>]*>/gu;
-/** Hebrew niqqud and cantillation. */
-const NIQQUD = /[֑-ׇ]/gu;
-/** Matres lectionis, whose plene/defective alternation is free
- * variation here and must not read as a consonant change. */
-const MATRES = /[יו]/gu;
-const GERESH = /[׳']/gu;
-/** A homograph suffix on a headword or link target. The corpus writes
- * these three ways for the same thing — Roman (` I`), ASCII digit
- * (` 2`) and superscript (` ²`) — so all three strip identically
- * (batch-02 A01346 fired a false `exact-headword-diverge` when a
- * display's Roman numeral met its target's superscript). */
-const HOMOGRAPH = /\s+(?:[IVX]+|[0-9]+|[²³¹⁰-⁹]+)$/u;
-/** Jastrow's editorial mark on a reconstructed headword. It is stored
- * inside the headword string but is not part of the word, so an anchor
- * displaying the de-asterisked target is a correct link (v2 carries it
- * as the boolean `reconstructed`). Round 1 letters B and J found this
- * independently: 1,339 `*` headwords, 1,412 anchors whose display is
- * exactly the de-asterisked target, all correct. */
-const EDITORIAL_ASTERISK = /^\*+/u;
+/** Any niqqud at all: its absence is what makes a display ambiguous
+ * between the members of a homograph family. */
+const VOCALIZED = /[֑-ׇ]/u;
 /** Geresh marking an in-entry abbreviation of the headword. */
 const GERESH_END = /[׳']\s*$/u;
 /** Gershayim inside a display: the raw `"` truncates the `data-ref`
  * attribute upstream, a systemic extraction artifact, not a mislink. */
 const GERSHAYIM = /["״]/u;
 const ROMAN_NUMERAL = /^[IVXLC]{1,4}$/u;
-/** Shortest abbreviation stem that identifies a headword; below this
- * the geresh forms are generic (`ר׳` = Rabbi, `ב׳` = ben). */
+/** The proclitic particles Aramaic writes onto the following word. A
+ * two-letter geresh form opening with one of these is not the generic
+ * `ר׳`/`ב׳` but a prefixed one-letter abbreviation of the host entry
+ * (letter J: 195 anchors, 177 entries, ~99% targeting another word). */
+const PARTICLE_PREFIX = /^[בדהוכלמש]/u;
+/** Shortest abbreviation stem that identifies a headword. Below this
+ * the *unprefixed* geresh forms are generic (`ר׳` = Rabbi, `ב׳` = ben);
+ * round 1 showed the exemption is wrong once a particle is prefixed. */
 const MIN_ABBREV_STEM = 2;
+/** Shortest display worth comparing consonant-by-consonant. */
+const MIN_DIVERGE_LEN = 3;
 
-/** Drop a homograph suffix and the editorial asterisk:
- * `*זָמַר I` -> `זָמַר`. */
-function baseHeadword(s: string): string {
-	let out = s.trim().replace(EDITORIAL_ASTERISK, '').trim();
-	let previous: string;
-	do {
-		previous = out;
-		out = out.replace(HOMOGRAPH, '').trim();
-	} while (out !== previous);
-	return out;
+/** Whether `stem` opens one of the entry's own surface forms. */
+function abbreviates(abbrev: string, own: OwnForms): boolean {
+	return (
+		consonants(own.headword).startsWith(abbrev) ||
+		own.forms.some((form) => form.startsWith(abbrev))
+	);
 }
 
-/** Consonantal skeleton: niqqud and geresh removed, matres kept. */
-function skeleton(s: string): string {
-	return s.replace(NIQQUD, '').replace(GERESH, '').trim();
+/** Whether `target` is one of the entry's own surface forms, either
+ * way round — an abbreviation may legitimately link to the entry that
+ * carries the inflected form as its own headword. */
+function isOwn(target: string, own: OwnForms): boolean {
+	const t = consonants(target);
+	return (
+		skeleton(target) === skeleton(own.headword) ||
+		own.forms.some((form) => form.startsWith(t) || t.startsWith(form))
+	);
 }
 
-/** Skeleton with matres lectionis removed too, so plene and defective
- * spellings of one word compare equal. */
-function consonants(s: string): string {
-	return skeleton(s).replace(MATRES, '');
-}
-
-/** Index the corpus headwords for the link-target rules. */
-function buildHeadwordIndex(entries: Iterable<SourceEntry>): HeadwordIndex {
-	const exact = new Set<string>();
-	const bySkeleton = new Map<string, Set<string>>();
-	for (const entry of entries) {
-		const base = baseHeadword(entry.headword);
-		exact.add(base);
-		const key = skeleton(base);
-		const family = bySkeleton.get(key) ?? new Set<string>();
-		family.add(base);
-		bySkeleton.set(key, family);
-	}
-	return { bySkeleton, exact };
-}
-
-/** A geresh abbreviation of this entry's own headword must link to
+/** A geresh abbreviation of one of this entry's own forms must link to
  * this entry, not to some other word sharing the opening letters. */
 function abbrevHint(
 	display: string,
 	target: string,
-	own: string,
+	own: OwnForms,
 ): LinkHint | undefined {
-	const stem = consonants(display);
+	const abbrev = consonants(display);
+	// A two-letter form opening with a proclitic particle whose *second*
+	// letter alone opens the headword is a prefixed one-letter
+	// abbreviation of this entry, not the generic `ר׳`/`ב׳`.
+	const prefixed =
+		skeleton(display).length === MIN_ABBREV_STEM &&
+		PARTICLE_PREFIX.test(abbrev) &&
+		!abbreviates(abbrev, own) &&
+		abbreviates(abbrev.slice(1), own);
 	if (
-		stem.length < MIN_ABBREV_STEM ||
-		!consonants(own).startsWith(stem) ||
-		skeleton(target) === skeleton(own)
+		abbrev.length < MIN_ABBREV_STEM ||
+		!(prefixed || abbreviates(abbrev, own)) ||
+		isOwn(target, own)
 	) {
 		return;
 	}
 	return {
-		detail: `'${display}' abbreviates this entry's own headword (${own}) but its link targets ${target}`,
+		detail: `'${display}' abbreviates this entry's own ${prefixed ? 'headword behind a particle prefix' : 'headword or an inflected form'} (${own.headword}) but its link targets ${target}`,
 		kind: 'abbrev-mislink',
 	};
 }
@@ -156,32 +153,116 @@ function exactHint(
 	if (!index.exact.has(base) || consonants(base) === consonants(target)) {
 		return;
 	}
+	// Display X's own entry is a bare `, v. Y` stub and the link goes
+	// to Y: the linker resolved the redirect, which is correct even
+	// though X and Y differ consonantally (the ל״ה/ל״י pairs).
+	const via = index.redirect.get(base);
+	if (via !== undefined && consonants(via) === consonants(target)) {
+		return;
+	}
 	return {
 		detail: `display '${base}' is itself a headword, but the link targets the consonantally different ${target}`,
 		kind: 'exact-headword-diverge',
 	};
 }
 
-/** Display and target are two real headwords differing only in
- * niqqud — the case sweep-v3's carve-out wrongly waved through. */
+/** Display and target share a skeleton carried by two or more
+ * headwords — the case the niqqud carve-out cannot decide. An
+ * unvocalized display is the worst of them: nothing in the string
+ * picks a family member, yet every corpus instance resolves to the
+ * same one (letter I, 1,160 of 1,160 skeletons). */
 function twinHint(
 	base: string,
 	target: string,
 	index: HeadwordIndex,
 ): LinkHint | undefined {
 	const family = index.bySkeleton.get(skeleton(base));
+	if (family === undefined || family.size < 2 || base === target) {
+		return;
+	}
+	if (!family.has(target)) {
+		return;
+	}
+	if (family.has(base)) {
+		return {
+			detail: `'${base}' and '${target}' are both headwords differing only in niqqud — the niqqud-only carve-out cannot decide this one`,
+			kind: 'niqqud-twin-target',
+		};
+	}
+	// Two-letter unvocalized displays are the function words (`לא`,
+	// `או`, `תו`): the family is real but the reading is fixed by
+	// context, so hinting them all is noise rather than signal.
+	if (VOCALIZED.test(base) || skeleton(base).length < MIN_DIVERGE_LEN) {
+		return;
+	}
+	return {
+		detail: `unvocalized display '${base}' names a skeleton carried by ${family.size} headwords (${[...family].join(', ')}); the link fixes on ${target} with nothing in the display to choose it`,
+		kind: 'niqqud-twin-target',
+	};
+}
+
+/** Equal-length strings differing at exactly one non-final position.
+ * The final position is excluded because `-ים`/`-ין` alternate freely.
+ */
+function oneNonFinalSubstitution(a: string, b: string): boolean {
+	if (a.length !== b.length || a.length < MIN_DIVERGE_LEN) {
+		return false;
+	}
+	let at = -1;
+	for (let i = 0; i < a.length; i++) {
+		if (a[i] !== b[i]) {
+			if (at >= 0) {
+				return false;
+			}
+			at = i;
+		}
+	}
+	return at >= 0 && at !== a.length - 1;
+}
+
+/** A display that is no headword at all but sits one non-final
+ * consonant from its target. `exact-headword-diverge` cannot reach
+ * these: the display is unvocalized, so it is not a headword string
+ * (letter L, 696 of 751 unreachable). */
+function divergeHint(
+	base: string,
+	target: string,
+	index: HeadwordIndex,
+): LinkHint | undefined {
 	if (
-		family === undefined ||
-		family.size < 2 ||
-		base === target ||
-		!family.has(base) ||
-		!family.has(target)
+		index.exact.has(base) ||
+		!oneNonFinalSubstitution(skeleton(base), skeleton(target))
 	) {
 		return;
 	}
 	return {
-		detail: `'${base}' and '${target}' are both headwords differing only in niqqud — the niqqud-only carve-out cannot decide this one`,
-		kind: 'niqqud-twin-target',
+		detail: `display '${base}' is no corpus headword and differs from its target ${target} by one non-final consonant`,
+		kind: 'one-consonant-diverge',
+	};
+}
+
+/** The display is one of the host entry's own inflected forms (a
+ * plural, a construct, a binyan form) but the link leaves the entry
+ * for a word related to neither the headword nor the form. The
+ * unique-skeleton carve-out used to wave these through. */
+function inflectionHint(
+	base: string,
+	target: string,
+	own: OwnForms,
+): LinkHint | undefined {
+	const form = stem(base);
+	if (
+		form.length < MIN_ABBREV_STEM ||
+		form === stem(own.headword) ||
+		!own.forms.some((f) => stem(f) === form) ||
+		stem(target) === stem(own.headword) ||
+		stem(target) === form
+	) {
+		return;
+	}
+	return {
+		detail: `display '${base}' is this entry's own inflected form of ${own.headword}, but the link targets ${target}, which matches neither`,
+		kind: 'inflection-escape-link',
 	};
 }
 
@@ -204,7 +285,7 @@ function romanHints(text: string): LinkHint[] {
 function anchorHints(
 	display: string,
 	target: string,
-	own: string,
+	own: OwnForms,
 	index: HeadwordIndex,
 ): LinkHint[] {
 	if (display === '' || ROMAN_NUMERAL.test(display)) {
@@ -220,15 +301,18 @@ function anchorHints(
 		return [];
 	}
 	const base = baseHeadword(display);
-	return [exactHint(base, target, index), twinHint(base, target, index)].filter(
-		(hint): hint is LinkHint => hint !== undefined,
-	);
+	return [
+		exactHint(base, target, index),
+		twinHint(base, target, index),
+		divergeHint(base, target, index),
+		inflectionHint(base, target, own),
+	].filter((hint): hint is LinkHint => hint !== undefined);
 }
 
 /** Headword-link hints for one text field. */
 function headwordHints(
 	text: string,
-	own: string,
+	own: OwnForms,
 	index: HeadwordIndex,
 ): LinkHint[] {
 	const hints: LinkHint[] = [];
@@ -243,14 +327,11 @@ function headwordHints(
 /** Every link-target hint in one text field. */
 function linkHints(
 	text: string,
-	headword: string,
+	own: OwnForms,
 	index: HeadwordIndex,
 ): LinkHint[] {
-	return [
-		...romanHints(text),
-		...headwordHints(text, baseHeadword(headword), index),
-	];
+	return [...romanHints(text), ...headwordHints(text, own, index)];
 }
 
-export type { HeadwordIndex, LinkHint };
-export { baseHeadword, buildHeadwordIndex, consonants, linkHints, skeleton };
+export type { LinkHint };
+export { linkHints };
