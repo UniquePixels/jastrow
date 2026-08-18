@@ -139,7 +139,7 @@ The dispatcher provides:
 | Per-entry `anomaly_hints` | Deterministic corpus-frequency findings for some entries (`{ kind, detail }` rows) — judge every one, see "Anomaly hints" below |
 | Chunk id | Stable id from the chunker; echo it back with your output |
 | Snapshot pin | `sha256:<64 hex>`; copy verbatim into every patch's `snapshot` |
-| Prompt version | `v3`; copy verbatim into every patch's `prompt_version` |
+| Prompt version | `v4`; copy verbatim into every patch's `prompt_version` |
 
 `expected_before` values must be byte-exact against the entry JSON
 **you were given** — extract them programmatically (the exact
@@ -609,8 +609,8 @@ Its `sense_index` row: `{ "path": "0", "number": "",
 patches:
 
 ```jsonl
-{"id":"P000001","rid":"X00001","target":"sense[]:56b28a8d","op":"split","expected_before":"first meaning.—2) second meaning.","expected_occurrences":1,"occurrence_index":1,"payload":{"marker":"—2)"},"confidence":"high","rationale":"In-text —2) run with no 1) before it; split the swallowed boundary.","defect_class":"implied-one","snapshot":"sha256:<pin>","prompt_version":"v3"}
-{"id":"P000002","rid":"X00001","target":"sense[]:75f7e275","op":"retag","expected_before":"first meaning.","expected_occurrences":1,"occurrence_index":1,"payload":{"number":"1)"},"confidence":"high","rationale":"Host sense is the implied 1); insert per register #16 convention.","defect_class":"implied-one","snapshot":"sha256:<pin>","prompt_version":"v3"}
+{"id":"P000001","rid":"X00001","target":"sense[]:56b28a8d","op":"split","expected_before":"first meaning.—2) second meaning.","expected_occurrences":1,"occurrence_index":1,"payload":{"marker":"—2)"},"confidence":"high","rationale":"In-text —2) run with no 1) before it; split the swallowed boundary.","defect_class":"implied-one","snapshot":"sha256:<pin>","prompt_version":"v4"}
+{"id":"P000002","rid":"X00001","target":"sense[]:75f7e275","op":"retag","expected_before":"first meaning.","expected_occurrences":1,"occurrence_index":1,"payload":{"number":"1)"},"confidence":"high","rationale":"Host sense is the implied 1); insert per register #16 convention.","defect_class":"implied-one","snapshot":"sha256:<pin>","prompt_version":"v4"}
 ```
 
 `56b28a8d` came from the input `sense_index`; `75f7e275` is the
@@ -710,7 +710,7 @@ chunk id.
 | `rationale` | One sentence: why |
 | `defect_class` | Catalog token (or your proposed name for a novel class) |
 | `snapshot` | The provided pin, verbatim |
-| `prompt_version` | `"v3"` |
+| `prompt_version` | `"v4"` |
 
 ### Payloads
 
@@ -769,7 +769,7 @@ confidence is what makes the sampling work — do not inflate.
 5. No `needs_*` row without an `escalation`; no `clean` row with
    patches; no escalations for script-slated systemic patterns.
 6. Seed rulings honored; nothing pre-decided re-litigated.
-7. `snapshot` and `prompt_version` (`v3`) on every patch.
+7. `snapshot` and `prompt_version` (`v4`) on every patch.
 8. Every `anomaly_hint` for your entries explicitly judged —
    accepted into a disposition or rejected with a reason you could
    defend to the verification tier.
