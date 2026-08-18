@@ -35,22 +35,44 @@
  * (`אתד׳`, `לחו׳`), and is excluded.
  *
  * With those fixes, only the ה/ח pair (guttural confusion — the most
- * visually similar letters in Jastrow's typeface) held up: 14
- * corpus-wide hits, all 14 read against their surrounding definition,
- * 9 true positives (`שחוא` for `שהוא` twice, `אהר` for `אחר`, `למח`
- * for `למה`, `הזח` for `הזה`, `וחוא` for `והוא`, `שהיח` for `שהיה`,
- * `חיו` for `היו`, `חמר אהד` for `חמר אחד`) against 5 false (`חיתה`
- * and `חאי`, both attested inflected/participle forms; `שחיה`, a
- * reading Jastrow's own note already marks for correction; `חוו`, an
- * entry's own cited etymological root) — 64%, just under the
- * "roughly two in three" calibration bar but the best of any pair
- * measured. The other eleven pairs
- * are not shipped: none cleared 50% and most were 0%, including the
- * pair behind round 1's own worked example (`שאיו` for `שאין`,
- * ו/ן) — a single good instance that did not generalize to its pair.
- * An omission with reasoning beats a noisy rule; this rule ships
- * narrowed to the one pair with real signal rather than the twelve
- * originally proposed.
+ * visually similar letters in Jastrow's typeface) cleared "roughly
+ * two in three": 14 corpus-wide hits, all 14 read against their
+ * surrounding definition, 9 true positives (`שחוא` for `שהוא` twice,
+ * `אהר` for `אחר`, `למח` for `למה`, `הזח` for `הזה`, `וחוא` for
+ * `והוא`, `שהיח` for `שהיה`, `חיו` for `היו`, `חמר אהד` for `חמר
+ * אחד`) against 5 false (`חיתה` and `חאי`, both attested
+ * inflected/participle forms; `שחיה`, a reading Jastrow's own note
+ * already marks for correction; `חוו`, an entry's own cited
+ * etymological root) — 64%.
+ *
+ * A first pass shipped that pair alone. Task-9 review overruled the
+ * single-pair narrowing on volume grounds: the full twelve-pair set
+ * is only 59 hinted entries corpus-wide (0.18% of the corpus), so a
+ * pair clearing under 64% still buys real, otherwise-unreachable
+ * defects at negligible absolute cost — hints are judged individually
+ * by the sweep agent, not auto-applied, so a false positive costs a
+ * rejection, not a corruption. Widened to the four next-best pairs,
+ * each read in full against its surrounding definitions:
+ *
+ * - ה/ח — 14 hits, 9 true (64%, detailed above).
+ * - ו/ן — 8 hits, 2 true (`שאיו` for `שאין`, round 1's own worked
+ *   example, previously unreached because it sits in this pair and no
+ *   other; `שהין` for the semantically-fitting `שחין`, "boil", found
+ *   via its dominant neighbour `שהיו`) — 25%.
+ * - צ/ע — 3 hits, 1 true (`צליו` for `עליו`) — 33%.
+ * - ד/ר — 3 hits, 1 true (`רלא` for `דלא`, round 1's other worked
+ *   example) — 33%.
+ * - ו/י — 11 hits, 2 true (`וכול` for `יכול`, `תירה` for `תורה`) —
+ *   18%.
+ *
+ * Combined: 39 corpus-wide hits, 15 true — 38%, well under "roughly
+ * two in three" as a blended figure, but every non-shipped pair
+ * measured at a flat 0% (ה/ת, ח/ת, ב/כ, כ/פ, ג/נ, ן/ר) and stays
+ * dropped; nothing here is guessed. The five shipped pairs are the
+ * only ones with *any* confirmed true positive in full-corpus
+ * sampling, and the reviewer's volume argument — 39 hints is 0.12%
+ * of the corpus either way — outweighs holding out for a higher
+ * blended percentage on a rule this small.
  */
 import type { SourceEntry } from '../body/types.ts';
 import { entryDefinitions } from './headword-index.ts';
@@ -66,12 +88,11 @@ interface HebrewHint {
 /** Corpus-wide occurrence counts of Hebrew consonantal skeletons. */
 type HebrewTable = Map<string, number>;
 
-/** The one glyph pair calibration confirmed: ה/ח, Jastrow's most
- * visually confusable guttural letters. The other eleven pairs round
- * 1 proposed (ד/ר, ו/י, ו/ן, ה/ת, ב/כ, ג/נ, ם/ס, כ/פ, ח/ת, ן/ר, צ/ע)
- * cleared under 50% precision on full-corpus sampling and are not
- * shipped — see the module comment. */
-const CONFUSABLE_PAIRS = ['הח'] as const;
+/** The five pairs with a confirmed true positive in full-corpus
+ * sampling — see the module comment for the per-pair breakdown. The
+ * other six pairs round 1 proposed (ה/ת, ב/כ, ג/נ, ם/ס, כ/פ, ח/ת,
+ * ן/ר) measured a flat 0% and are not shipped. */
+const CONFUSABLE_PAIRS = ['הח', 'ון', 'צע', 'דר', 'וי'] as const;
 
 /** Calibrated thresholds (2026-08-18). A token is anomalous when it
  * occurs at most MAX_RARE times corpus-wide and one confusable-pair

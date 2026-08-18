@@ -25,8 +25,6 @@ function calibratedTable(): HebrewTable {
 	return new Map([
 		['שהוא', 400],
 		['שחוא', 2],
-		['דלא', 284],
-		['רלא', 1],
 	]);
 }
 
@@ -81,10 +79,34 @@ describe('hebrewHints', () => {
 		]);
 	});
 
-	it('does not flag a pair outside the shipped ה/ח set (ד/ר calibrated out)', () => {
-		// Round 1's own ד/ר example (רלא for דלא) did not survive
-		// calibration: the pair is not shipped, so it must not fire.
-		const hints = hebrewHints('מאנין רלא חסרין', calibratedTable());
+	it('flags the ד/ר pair (H01486 shape: רלא for דלא)', () => {
+		const table = new Map([
+			['דלא', 284],
+			['רלא', 1],
+		]);
+		const hints = hebrewHints('מאנין רלא חסרין', table);
+		expect(hints.some((h) => h.detail.includes("'רלא'"))).toBe(true);
+	});
+
+	it('flags the ו/ן pair (F00066 shape: שאיו for שאין, round-1’s worked example)', () => {
+		const table = new Map([
+			['שאין', 185],
+			['שאיו', 1],
+		]);
+		const hints = hebrewHints('אשה שאיו לה וסת', table);
+		expect(hints.some((h) => h.detail.includes("'שאיו'"))).toBe(true);
+	});
+});
+
+describe('hebrewHints — thresholds and calibrated-out pairs', () => {
+	it('does not flag a pair calibrated out at 0% (ה/ת: M00022 shape אחה for אחת)', () => {
+		// אחה is a real, distinct word ("seam") in every corpus reading;
+		// ה/ת measured a flat 0% true-positive rate and is not shipped.
+		const table = new Map([
+			['אחת', 270],
+			['אחה', 2],
+		]);
+		const hints = hebrewHints('אחה לתפור יחד', table);
 		expect(hints).toEqual([]);
 	});
 
