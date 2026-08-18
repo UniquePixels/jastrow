@@ -46,7 +46,7 @@
     {
       "id": 6,
       "subject": "Task 7: Discovery round 1",
-      "status": "pending",
+      "status": "completed",
       "description": "**Goal:** Sweep 22 stratified chunks with Opus and record every new\npattern class.\n\n**Files:**\n- Modify: `data/patches/patterns.jsonl`\n- Create: `docs/v2/discovery-round-1.md`\n\n**Acceptance Criteria:**\n- [ ] 22 chunk inputs prepared by the sampler for round 1\n- [ ] Each chunk swept by one Opus agent under `sweep-v4.md`\n- [ ] Every chunk produces a manifest with exactly 30 rows\n- [ ] New pattern classes appended to the catalogue with corpus counts\n- [ ] Round report written with the new-pattern count\n\n**Verify:** `for f in <workdir>/out/*.manifest.jsonl; do test $(grep -c . $f) -eq 30 || echo \"BAD $f\"; done` → no output\n\n```json:metadata\n{\"files\": [\"data/patches/patterns.jsonl\", \"docs/v2/discovery-round-1.md\"], \"verifyCommand\": \"for f in $W/out/*.manifest.jsonl; do test $(grep -c . $f) -eq 30 || echo BAD $f; done\", \"acceptanceCriteria\": [\"22 inputs prepared\", \"22 chunks swept by Opus\", \"every manifest 30 rows\", \"patterns appended with verified counts\", \"report written\"], \"modelTier\": \"frontier\"}\n```",
       "blockedBy": [
         0,
@@ -65,5 +65,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-08-17T21:35:00-05:00"
+  "lastUpdated": "2026-08-18T09:10:00-05:00"
 }
