@@ -1466,17 +1466,21 @@ judgement call, a floor, or unmeasured (7,379 instances):** led by
 rather than copying it — the reasons are the source of truth.
 
 **Acceptance Criteria:**
-- [ ] Every Tier A row carries a `reason` recording an independent
+- [x] Every Tier A row carries a `reason` recording an independent
       re-measurement: the probe used, the figure it returned, and whether
-      the population splits by function the way `same` did
-- [ ] Any row whose measured count differs materially from its catalogued
+      the population splits by function the way `same` did — 10 of 10
+- [x] Any row whose measured count differs materially from its catalogued
       count is corrected in place, with the old figure named in `reason`
-- [ ] Tier B rows are re-measured or explicitly deferred with a stated
-      cost of deferral — no silent pass
-- [ ] No row gains `round: 3`; row rounds are unchanged
-- [ ] `docs/v2/catalogue-audit.md` records per-row verdict, and totals:
-      rows audited, rows corrected, instances added, instances removed
-- [ ] `bun test admin/pipeline/` green
+      — all 10 differed; 8 re-scoped, 1 split, 1 re-measured upward
+- [x] Tier B rows are re-measured or explicitly deferred with a stated
+      cost of deferral — **deferred**, cost recorded in
+      `docs/v2/catalogue-audit.md`, with three implicated rows named as
+      the minimum subset to run if Tier B is not run in full
+- [x] No row gains `round: 3`; row rounds are unchanged — max round 2,
+      and the split product keeps its parent's round 1
+- [x] `docs/v2/catalogue-audit.md` records per-row verdict, and totals:
+      25,768 → 12,649 instances (−13,119, −50.9%), catalogue 118 → 119
+- [x] `bun test admin/pipeline/` green — 399 pass, 0 fail
 
 **Verify:** `bun -e 'import {parsePatterns} from "./admin/pipeline/research/patterns.ts"; const r=parsePatterns(await Bun.file("data/patches/patterns.jsonl").text()); const bare=r.filter(x=>x.status==="candidate"&&!x.reason&&x.corpusCount>=1000); console.log("unaudited tier A:", bare.length, "| max round:", Math.max(...r.map(x=>x.round)))'` -> `unaudited tier A: 0 | max round: 2`
 
@@ -1486,7 +1490,7 @@ rather than copying it — the reasons are the source of truth.
 
 **Steps:**
 
-- [ ] **Step 1: Regenerate the two tiers from the file**
+- [x] **Step 1: Regenerate the two tiers from the file**
 
 ```bash
 bun -e '
@@ -1500,7 +1504,7 @@ console.log("A", a.length, a.reduce((s, r) => s + r.corpusCount, 0));
 console.log("B", b.length, b.reduce((s, r) => s + r.corpusCount, 0));'
 ```
 
-- [ ] **Step 2: Dispatch one auditor agent per Tier A row**
+- [x] **Step 2: Dispatch one auditor agent per Tier A row**
 
 Each agent gets ONE row and the corpus. Its brief is adversarial, not
 confirmatory: *state the probe you would write from this row's
@@ -1510,16 +1514,16 @@ explicitly — **does this population have more than one job?** — since
 that is the failure mode that produced the 85% error. An agent that
 confirms the count must say what would have falsified it.
 
-- [ ] **Step 3: Fold the verdicts**
+- [x] **Step 3: Fold the verdicts**
 
 Correct counts in place; record the superseded figure in `reason`. Where
 a row splits by function, either re-scope the row to the defensible
 subset (as `same-anchor-positional-mislink` was) or split it, keeping the
 original round on both halves.
 
-- [ ] **Step 4: Tier B — re-measure or defer on the record**
+- [x] **Step 4: Tier B — re-measure or defer on the record** (deferred; see the audit report)
 
-- [ ] **Step 5: Write `docs/v2/catalogue-audit.md` and commit**
+- [x] **Step 5: Write `docs/v2/catalogue-audit.md` and commit**
 
 ```bash
 git add data/patches/patterns.jsonl docs/v2/catalogue-audit.md
