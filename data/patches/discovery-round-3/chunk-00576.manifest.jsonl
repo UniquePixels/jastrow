@@ -1,0 +1,30 @@
+{"rid": "M02274", "disposition": "clean", "patches": []}
+{"rid": "M02275", "disposition": "clean", "patches": []}
+{"rid": "M02276", "disposition": "clean", "patches": []}
+{"rid": "M02277", "disposition": "needs_print_check", "patches": ["P000001"], "escalation": "Sense 1) ends \".—[\" — a bare opening bracket as the definition's last visible character, and no \"]\" occurs anywhere later in the entry (sense 2) has none). Corpus-wide this is the ONLY bare trailing \"[\" without a later closer (85 of 86 pair with an orphan \"]\" in a later sibling). Either the bracketed run or its closer was lost upstream; restoring it needs the printed page. The duplicated \"(v. (v. \" opener at the head of the same sense is repaired by P000001."}
+{"rid": "M02278", "disposition": "clean", "patches": []}
+{"rid": "M02279", "disposition": "clean", "patches": []}
+{"rid": "M02280", "disposition": "clean", "patches": []}
+{"rid": "M02281", "disposition": "clean", "patches": []}
+{"rid": "M02282", "disposition": "clean", "patches": []}
+{"rid": "M02283", "disposition": "clean", "patches": []}
+{"rid": "M02284", "disposition": "needs_human_judgment", "patches": [], "escalation": "Two class-11 wrong-link-target anchors. (a) display חובה in \"opp. חובה an obligatory offering\" targets חוּבָּא II (Aramaic emphatic, skeleton חובא); the corpus has חוֹבָה (H00242) whose own gloss is \"obligation, duty; (sub. קרבן) obligatory sacrifice, opp. נְדָבָה\" — the exact sense meant here, and the same \"(sub. קרבן)\" formula this entry uses two clauses earlier. Final ה↔א emphatic alternation. (b) display מִצְוֹת in \"Pl. מִצְוֹת, מִצְווֹת\" is this entry's own declared plural_form[0] but targets מַצּוּת (M02299, \"quarrel\"), the only headword sharing the skeleton מצות; the plural should resolve to this entry. Neither is repairable — the correct href/data-ref bytes are not present in the entry. Also noted, not repaired: an entry-level surplus \"(\" — \"(therefore a doubt ...\" never closes, its apparent closer being consumed by the mis-mirrored \"(אשם תלוי\" inside a dir=rtl span."}
+{"rid": "M02285", "disposition": "clean", "patches": []}
+{"rid": "M02286", "disposition": "clean", "patches": []}
+{"rid": "M02287", "disposition": "clean", "patches": []}
+{"rid": "M02288", "disposition": "clean", "patches": []}
+{"rid": "M02289", "disposition": "clean", "patches": []}
+{"rid": "M02290", "disposition": "clean", "patches": []}
+{"rid": "M02291", "disposition": "needs_human_judgment", "patches": [], "escalation": "language_reference anchor displays מְציּלָה I — yod+dagesh where the word is מְצוּלָה (shuruk). The link itself is right (data-ref \"Jastrow, מְצוּלָה I 1\" resolves correctly); only the rendered display text is corrupt, so the entry shows a non-word. The defect sits in language_reference, outside sense scope, so no patch op can reach it. Judged from the supplied one-consonant-diverge hint, which mislabels it as a mislink."}
+{"rid": "M02292", "disposition": "clean", "patches": []}
+{"rid": "M02293", "disposition": "needs_human_judgment", "patches": [], "escalation": "The parallel-chapter citation \"Tosef. Erub. VI (V), 13\" is split across two anchors with the boundary in the wrong place: the second anchor's display is \"V), 13\" — it swallows the closing paren and the halakha while the \"(\" sits outside the tag. Its sibling \"Tosef. Erub. VI\" then carries the chapter-only data-ref \"Tosefta Eiruvin 6\", dropping halakha 13, while the variant-chapter anchor gets the full \"Tosefta Eiruvin 5:13\". Re-tagging the boundary and restoring the halakha to the primary anchor are both maintainer calls; no byte-conserving sense op expresses either."}
+{"rid": "M02294", "disposition": "clean", "patches": []}
+{"rid": "M02295", "disposition": "clean", "patches": []}
+{"rid": "M02296", "disposition": "clean", "patches": []}
+{"rid": "M02297", "disposition": "clean", "patches": []}
+{"rid": "M02298", "disposition": "clean", "patches": []}
+{"rid": "M02299", "disposition": "needs_human_judgment", "patches": [], "escalation": "The closing note reads \"[Not to be confounded with מַצּוֹת, pl. of מַצָּה, a. מִצְוֹת, pl. of מִצְוָה.]\" — yet both מַצּוֹת and מִצְוֹת are anchored to \"Jastrow, מַצּוּת 1\", i.e. to this very entry, asserting exactly the identity the sentence denies. מַצּוֹת should resolve to מַצָּה and מִצְוֹת to מִצְוָה (both of which the same sentence links correctly two words later). Class 11; the correct target bytes are present but the repair rewrites href/data-ref attributes and needs a maintainer ruling."}
+{"rid": "M02300", "disposition": "clean", "patches": []}
+{"rid": "M02301", "disposition": "clean", "patches": []}
+{"rid": "M02302", "disposition": "clean", "patches": []}
+{"rid": "M02303", "disposition": "clean", "patches": []}

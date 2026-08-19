@@ -1,0 +1,30 @@
+{"rid": "I00543", "disposition": "clean", "patches": []}
+{"rid": "I00544", "disposition": "clean", "patches": []}
+{"rid": "I00545", "disposition": "repaired", "patches": ["P000001"]}
+{"rid": "I00546", "disposition": "clean", "patches": []}
+{"rid": "I00547", "disposition": "clean", "patches": []}
+{"rid": "I00548", "disposition": "clean", "patches": []}
+{"rid": "I00549", "disposition": "needs_print_check", "patches": [], "escalation": "Space lost at the </a><i> seam: the cross-reference renders \"v. טְמִיPa.\" where print reads \"v. טְמִי Pa.\" Sub-token loss (class 8, lost-parenthetical family); restoring it needs a byte the entry's own repair grammar cannot supply. Catalogued corpus-wide as anchor-italic-no-space (re-measured this round: 112 occurrences / 111 entries)."}
+{"rid": "I00550", "disposition": "needs_human_judgment", "patches": [], "escalation": "class 11 wrong-link-target: unvocalized display כירה glossed in place as \"cooking stove\" links to כֵירָה (K00619, \"a circle, esp. banquet\"); the stove is כִירָה II (K00621, \"a portable stove on feet\"), and כִירָה I (K00620) is a third claimant of the skeleton. niqqud-twin-target hint ACCEPTED: the display carries no niqqud, so nothing in it selects a member; the entry's own gloss does, and it contradicts the target. Correct data-ref bytes are absent from the entry, so no patch."}
+{"rid": "I00551", "disposition": "needs_human_judgment", "patches": [], "escalation": "An anchor asserts a lexical identity the text denies: \"(read של בשר ודם, abbr. של ב\"ו, for שוב)\" marks the printed שוב as a corruption of של ב\"ו, yet שוב is linked to the verb שׁוּב I. Maintainer call (catalogued corrigendum-reading-linked); re-measured this round at 424-906 anchors on the corr.-acc. cue alone plus 439 more on the \"(not X)\" cue."}
+{"rid": "I00552", "disposition": "clean", "patches": []}
+{"rid": "I00553", "disposition": "needs_print_check", "patches": [], "escalation": "Space lost at the </i>( seam: \"<i>hidden, secret;</i>(also as noun)\" renders \"secret;(also as noun)\" where print reads \"secret; (also as noun)\". Class 8 sub-token loss; the byte cannot be supplied by any op's grammar. Catalogued corpus-wide as italic-close-paren-nospace."}
+{"rid": "I00554", "disposition": "clean", "patches": []}
+{"rid": "I00555", "disposition": "needs_human_judgment", "patches": [], "escalation": "class 11 wrong-link-target: the participle-passive display טְמִימָא, declared in this entry's own \"Part. pass. טְמִים, טְמִימָא\" list, links to טְלִימָא (I00501, whose entire content is \", v. טְלוּמָא\") - an interior מ/ל substitution onto an unrelated lemma. one-consonant-diverge hint ACCEPTED. Correct target bytes absent from the entry."}
+{"rid": "I00556", "disposition": "clean", "patches": []}
+{"rid": "I00557", "disposition": "clean", "patches": []}
+{"rid": "I00558", "disposition": "clean", "patches": []}
+{"rid": "I00559", "disposition": "clean", "patches": []}
+{"rid": "I00560", "disposition": "clean", "patches": []}
+{"rid": "I00561", "disposition": "needs_human_judgment", "patches": [], "escalation": "Two findings. (a) class 11: the Af. form אַטְמַר, this entry's own inflection of טְמַר, links to טוּר I (I00214, \"to espy, to augur\") - inflection-escape-link hint ACCEPTED. (b) class 5 unclassified-binyan: the Pa. section's definition opens \", <i>Af</i>. אַטְמַר ...\", so the Af. head sits loose in definition text instead of opening its own stem section; the sibling Ithpa. block (binyan_form אִיטַּמַר) carries no senses at all, the shared-heading shape catalogued as empty-stem-section. No op writes grammar structure."}
+{"rid": "I00562", "disposition": "needs_human_judgment", "patches": [], "escalation": "Two class-11 abbreviation mislinks, both hints ACCEPTED. (a) \"(not טַמִּ׳)\" - a corrigendum reading abbreviating a form of this entry's own טְמַשׁ - links to טַמַּיָּא (I00546, itself only a \", v. טַמָּ\" stub). (b) \"(ed. Wil. מִטַ׳ Ithpa.)\" - the Ithpa. participle of this entry - links to מְטַכְסָא (M00997, Greek metaxa, \"silk\"), whose alt_headwords carry the stub \"(מִיטַ׳\": the alt-headword abbreviation is what the linker matched. The entry's Ithpa. block (אִיטַּמַּשׁ) also carries no senses (empty-stem-section). Correct target bytes absent from the entry."}
+{"rid": "I00563", "disposition": "clean", "patches": []}
+{"rid": "I00564", "disposition": "clean", "patches": []}
+{"rid": "I00565", "disposition": "clean", "patches": []}
+{"rid": "I00566", "disposition": "clean", "patches": []}
+{"rid": "I00567", "disposition": "clean", "patches": []}
+{"rid": "I00568", "disposition": "needs_print_check", "patches": [], "escalation": "class 8: \"Ar. led. טן דו)\" leaves a closing paren with no opener; print reads \"Ar. (ed. טן דו)\", the opening paren having been read as the letter l and fused to \"ed.\". The rare-dotted-variant hint on \"led.\" is ACCEPTED with this reading (\"led.\" occurs once corpus-wide). Repair needs a \"(\" byte in place of \"l\", outside every op's grammar. Secondary, not escalated as a separate defect: the display דֵּיו in \"v. דֵּיו\" is no corpus headword and the linker chose דְּיוֹ I (\"ink\") from a four-member skeleton family that includes דיו- (the Greek prefix di-, \"two\"), which the etymology \"= טְעַן דֵּו\" is asking for."}
+{"rid": "I00569", "disposition": "clean", "patches": []}
+{"rid": "I00570", "disposition": "clean", "patches": []}
+{"rid": "I00571", "disposition": "clean", "patches": []}
+{"rid": "I00572", "disposition": "clean", "patches": []}

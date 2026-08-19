@@ -1,0 +1,30 @@
+{"rid": "G00619", "disposition": "clean", "patches": []}
+{"rid": "G00620", "disposition": "clean", "patches": []}
+{"rid": "G00621", "disposition": "needs_human_judgment", "patches": [], "escalation": "Anomaly hint niqqud-twin-target ACCEPTED (class 11). Etymological 'cmp. <a data-ref=\"Jastrow, סָפַק I 1\">ספק</a>' displays an unvocalized root whose skeleton is carried by four headwords (סָפַק I/II, סְפַק, סֵפֶק); the link fixes on סָפַק I 'to strike, clap'. The entry's own third comparison, אִיסְפְּקָא, is glossed 'prop. feeder, supplier, hence vessel', and its etymology is the same (ספק), so the sense meant for a bird's crop is the supply/container root — סָפַק II 'to divide, distribute; to supply; to suffice'. Re-targeting needs bytes not in the entry and is a maintainer call."}
+{"rid": "G00622", "disposition": "needs_human_judgment", "patches": [], "escalation": "Class 11 wrong-link-target, contextual: '…Targ. Y. Deut. XIV, 11 זפק; ib. <a data-ref=\"Leviticus 11:13\">Lev. XI, 13</a>' — 'ib.' carries the Targum work (Targ. Y.), and the book changes from Deuteronomy to Leviticus, so 'ib.' cannot mean the same book; the anchor resolves to the plain Hebrew-Bible verse although 'Targum Jonathan on Leviticus' exists in the corpus (438 anchors). The defining token 'ib.' sits outside the anchor, so display-vs-data-ref comparison alone passes it. 9 occurrences / 8 entries corpus-wide."}
+{"rid": "G00623", "disposition": "clean", "patches": []}
+{"rid": "G00624", "disposition": "clean", "patches": []}
+{"rid": "G00625", "disposition": "clean", "patches": []}
+{"rid": "G00626", "disposition": "needs_print_check", "patches": [], "escalation": "Class 8 lost text: the entry's only sense ends '…(h. text דַּל, cmp. דֶּלֶת),' — a terminal comma with nothing after it and no following sense or entry that could consume it (10 such entry-final commas corpus-wide against 20,715 entry-final periods). Text after the comma appears to be lost upstream; restoration needs the printed page. Noted alongside (no repair proposed): the anchor 'דַּל' resolves to דַּל I 'imperat. of דְּלַל, lessen, deduct', while the h. text of Ps. CXLI, 3 is דַּל 'door' (whence the entry's own cmp. דֶּלֶת) — neither דַּל I nor דַּל II is that word."}
+{"rid": "G00627", "disposition": "clean", "patches": []}
+{"rid": "G00628", "disposition": "clean", "patches": []}
+{"rid": "G00629", "disposition": "needs_human_judgment", "patches": [], "escalation": "Anomaly hint niqqud-twin-target ACCEPTED (class 11). 'קימה ז׳ (<a data-ref=\"Jastrow, קוֹמָא I 1\">קומא</a>) erect stature, pride': קוֹמָא I (S00378) is the Ned. 52ᵇ milk/curd term ḳoma; the stature word is קוֹמָא II (S00379, 'pl. קוֹמִין, v. קוֹמְתָא'), with קוֹמָה (S00382) 'height, stature' as the Hebrew. The unvocalized display cannot choose, and the numeral is not in the entry's bytes; maintainer call."}
+{"rid": "G00630", "disposition": "clean", "patches": []}
+{"rid": "G00631", "disposition": "clean", "patches": []}
+{"rid": "G00632", "disposition": "clean", "patches": []}
+{"rid": "G00633", "disposition": "clean", "patches": []}
+{"rid": "G00634", "disposition": "needs_human_judgment", "patches": [], "escalation": "Both abbrev-mislink hints ACCEPTED (class 11). (a) 'Targ. I Chr. X, 10 <a data-ref=\"Jastrow, זקַת 1\">זיק׳</a>' — the geresh form abbreviates this entry's own alt_headword זִיקְפָּא, but resolves to זקַת (G00657), which declares 'זִיקְ׳' in its alt_headwords: an alt-headword collision the linker settles the wrong way. (b) 'ed. <a data-ref=\"Jastrow, בִּיזּוּעַ 1\">בז׳</a> incorr.' — particle ב + this entry's ז׳, resolved as a standalone word to בִּיזּוּעַ 'rending'; the text also marks the reading incorrect, so the link asserts an identity the text denies. Correct data-refs are not present in the entry's bytes."}
+{"rid": "G00635", "disposition": "clean", "patches": []}
+{"rid": "G00636", "disposition": "clean", "patches": []}
+{"rid": "G00637", "disposition": "clean", "patches": []}
+{"rid": "G00638", "disposition": "clean", "patches": []}
+{"rid": "G00639", "disposition": "clean", "patches": []}
+{"rid": "G00640", "disposition": "clean", "patches": []}
+{"rid": "G00641", "disposition": "clean", "patches": []}
+{"rid": "G00642", "disposition": "needs_human_judgment", "patches": ["P000001"], "escalation": "P000001 repairs the class-2 swallowed —2) in the Nithpa. section (1) … —3) becomes 1) 2) 3)). Unrepairable findings: (a) the Nif. block (binyan_form נִזְקַן, verbal_stem 'Nif.') carries no senses and no definition, while its content — Tosef. Snh. VII, 7 'נִזְקַן הדין' — sits in the Nithpa.'s —3) sense; moving text between stem sections is outside patch-op scope. (b) 'Y. Ber. IX, end 14ᶜ (ref. to prov. XXIII, 22)': the book abbreviation is lowercased where the corpus writes 'Prov.'; 2 such lowercased book abbreviations corpus-wide (this and I00684 'Targ. koh. II, 19') against 20,374 capitalised — correcting the case needs a byte the entry does not carry."}
+{"rid": "G00643", "disposition": "clean", "patches": []}
+{"rid": "G00644", "disposition": "needs_print_check", "patches": [], "escalation": "Anomaly hint bare-abbrev ACCEPTED (class 8): sense —2) reads 'Y. M Kat. III, beg. 81ᶜ' where the corpus writes 'M. Kat.' (3,938 dotted vs 5 bare); the missing period is a byte this process may not supply. Two further findings recorded without repair: (a) sense —3) carries an inline sub-enumeration under the feminine — '—Fem. זְקֵנָה, זְקֵינָה. 1) old woman … —2) grandmother, ancestress … —3) (sub. נְטִיעָה) old plantation' — which enumerates the FEMININE's senses, not the headword's; it must NOT be split as a class-2 boundary (splitting would produce 1,2,3,1,2,3). 12 such inline sub-enumerations corpus-wide. (b) the anchor 'זְקֵנָה' in that list resolves to זִקְנָה (G00646) 'old age', a different lexeme sharing the skeleton; זְקֵנָה is not a headword, so the inflected form escapes the entry."}
+{"rid": "G00645", "disposition": "clean", "patches": []}
+{"rid": "G00646", "disposition": "clean", "patches": []}
+{"rid": "G00647", "disposition": "clean", "patches": []}
+{"rid": "G00648", "disposition": "clean", "patches": []}

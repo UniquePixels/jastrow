@@ -1,0 +1,30 @@
+{"rid": "T00343", "disposition": "clean", "patches": []}
+{"rid": "T00344", "disposition": "clean", "patches": []}
+{"rid": "T00345", "disposition": "clean", "patches": []}
+{"rid": "T00346", "disposition": "needs_human_judgment", "patches": [], "escalation": "Class 11. Anchor display \"Targ. Y. I ib.\" (Targum Yerushalmi I / Pseudo-Jonathan on Deut. XXXII, 24) carries data-ref \"Onkelos Deuteronomy 32:24\", inherited byte-for-byte from the immediately preceding \"Targ. Deut. XXXII, 24\" anchor: the work qualifier in the display is discarded and the citation is routed to Onkelos. Only 5 such Targ. Y. -> Onkelos anchors exist corpus-wide (all of them the \"ib.\" form), so this is not the systemic slash/href family. Same entry, second finding: the plural cross-reference displays \"רְוַוח I\" but targets \"Jastrow, רְוַוח ² 1\" (T00329), whose own print numeral is II (alt_headword רְוַח II); the numeral I names T00327. Maintainer must pick the intended article; no repair bytes exist in the entry."}
+{"rid": "T00347", "disposition": "repaired", "patches": ["P000001"]}
+{"rid": "T00348", "disposition": "clean", "patches": []}
+{"rid": "T00349", "disposition": "clean", "patches": []}
+{"rid": "T00350", "disposition": "clean", "patches": []}
+{"rid": "T00351", "disposition": "clean", "patches": []}
+{"rid": "T00352", "disposition": "clean", "patches": []}
+{"rid": "T00353", "disposition": "clean", "patches": []}
+{"rid": "T00354", "disposition": "clean", "patches": []}
+{"rid": "T00355", "disposition": "clean", "patches": []}
+{"rid": "T00356", "disposition": "clean", "patches": []}
+{"rid": "T00357", "disposition": "clean", "patches": []}
+{"rid": "T00358", "disposition": "needs_human_judgment", "patches": [], "escalation": "Class 11. The Hif. stem section opens with an anchor whose display is \"same\" and whose data-ref is \"Jastrow, רוֹטְנָנִית 1\" — the alphabetically preceding entry (\"grumbling, discontented\"), not this entry's own base stem. In a stem section of an entry carrying no \"ch.\" marker, \"same\" can only mean the preceding stem of this same verb. The correct destination is this entry (T00358, רוי); the bytes for it are not present in the entry, so no replace is possible."}
+{"rid": "T00359", "disposition": "needs_human_judgment", "patches": ["P000002", "P000003"], "escalation": "Class 11 (patches P000002/P000003 repair a separate class-6/class-4 defect and ride along). In the Pa. section, \"Targ. Hos. VI, 3 (h. text יורה)\" anchors the unvocalized display יורה to \"Jastrow, יוֹרֶה II 1\" (J00240, the denominative of אוּר). Hos. VI, 3 יוֹרֶה is the early rain, which is J00239 יוֹרֶה I (\"a soaking rain, early rain\"). The two headwords share one vocalization and are separated only by the Roman numeral, so the linker had no vocalization signal and chose context-free. Maintainer call; the correct data-ref bytes are absent from the entry."}
+{"rid": "T00360", "disposition": "clean", "patches": []}
+{"rid": "T00361", "disposition": "clean", "patches": []}
+{"rid": "T00362", "disposition": "clean", "patches": []}
+{"rid": "T00363", "disposition": "clean", "patches": []}
+{"rid": "T00364", "disposition": "clean", "patches": []}
+{"rid": "T00365", "disposition": "clean", "patches": []}
+{"rid": "T00366", "disposition": "clean", "patches": []}
+{"rid": "T00367", "disposition": "clean", "patches": []}
+{"rid": "T00368", "disposition": "needs_human_judgment", "patches": [], "escalation": "Class 11. The whole entry is \", v. <display>\" and the display is רָכְבָּא, but the data-ref is \"Jastrow, רִכְבָּא 1\" (T00749, \"upper millstone\"). T00750 רָכְבָא (\"= h. רַכָּב, rider\") shares the consonantal skeleton רכבא and matches both the display's vocalization and this entry's own meaning (רוֹכְבָא, rider). Per the v4 niqqud carve-out the vocalization cannot be waived here because a second headword shares the skeleton. No replacement bytes exist in the entry."}
+{"rid": "T00369", "disposition": "clean", "patches": []}
+{"rid": "T00370", "disposition": "clean", "patches": []}
+{"rid": "T00371", "disposition": "clean", "patches": []}
+{"rid": "T00372", "disposition": "clean", "patches": []}

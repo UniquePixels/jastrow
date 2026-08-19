@@ -1,0 +1,30 @@
+{"rid": "P00391", "disposition": "clean", "patches": []}
+{"rid": "P00392", "disposition": "clean", "patches": []}
+{"rid": "P00393", "disposition": "clean", "patches": []}
+{"rid": "P00394", "disposition": "clean", "patches": []}
+{"rid": "P00395", "disposition": "clean", "patches": []}
+{"rid": "P00396", "disposition": "clean", "patches": []}
+{"rid": "P00397", "disposition": "clean", "patches": []}
+{"rid": "P00398", "disposition": "clean", "patches": []}
+{"rid": "P00399", "disposition": "clean", "patches": []}
+{"rid": "P00400", "disposition": "clean", "patches": []}
+{"rid": "P00401", "disposition": "clean", "patches": []}
+{"rid": "P00402", "disposition": "clean", "patches": []}
+{"rid": "P00403", "disposition": "needs_human_judgment", "patches": ["P000001"], "escalation": "Class 11 wrong-link-target left unrepaired (the corrected bytes are not in the entry): sense 3) of the Hif. cites \"Midr. Till. to Ps. CXVIII, 7\" but its data-ref is \"Midrash Tehillim 109:7\" — display says Psalm 118, target resolves Psalm 109. Maintainer call which is right (catalogued corpus-wide as midrash-tehillim-wrong-psalm, 49 occurrences). Patch P000001 repairs the separate duplicated \"(of color)\" opener and rides along."}
+{"rid": "P00404", "disposition": "clean", "patches": []}
+{"rid": "P00405", "disposition": "clean", "patches": []}
+{"rid": "P00406", "disposition": "clean", "patches": []}
+{"rid": "P00407", "disposition": "clean", "patches": []}
+{"rid": "P00408", "disposition": "clean", "patches": []}
+{"rid": "P00409", "disposition": "needs_human_judgment", "patches": [], "escalation": "Class 11 wrong-link-target (abbrev-mislink): in the plural run \"Pl. עַזִּיזִין, עֲזִ׳; constr. עֲזִיזֵי\", the geresh abbreviation עֲזִ׳ abbreviates this entry's own plural עֲזִיזִין but its data-ref is \"Jastrow, עֻזְיָא 1\" (P00406, the proper name Uzia), an unrelated word. The link must resolve to this entry; the corrected bytes are not present, so no repair is possible. Corpus context: the display עז׳ occurs 4x and splits 2 to עֻזְיָא and 2 to עִזְקָא II, i.e. a fixed sink rather than a resolution."}
+{"rid": "P00410", "disposition": "clean", "patches": []}
+{"rid": "P00411", "disposition": "clean", "patches": []}
+{"rid": "P00412", "disposition": "clean", "patches": []}
+{"rid": "P00413", "disposition": "clean", "patches": []}
+{"rid": "P00414", "disposition": "clean", "patches": []}
+{"rid": "P00415", "disposition": "clean", "patches": []}
+{"rid": "P00416", "disposition": "clean", "patches": []}
+{"rid": "P00417", "disposition": "clean", "patches": []}
+{"rid": "P00418", "disposition": "clean", "patches": []}
+{"rid": "P00419", "disposition": "clean", "patches": []}
+{"rid": "P00420", "disposition": "needs_human_judgment", "patches": [], "escalation": "Class 11 wrong-link-target (abbrev-mislink): in \"Pl. עִזְקַיָּא, עִי׳\", the geresh abbreviation עִי׳ abbreviates this entry's own plural but its data-ref is \"Jastrow, עִבְרַי 1\" (P00072, 'Hebrew'). Corpus-wide the display עִי׳ occurs 19 times across 19 distinct host entries and 17 of them sink to עִבְרַי, so this is the catalogued geresh-abbrev-fixed-sink shape, not an entry-local slip. No repair possible — the correct target bytes are absent from the entry."}

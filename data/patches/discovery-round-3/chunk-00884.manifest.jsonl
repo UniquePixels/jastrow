@@ -1,0 +1,30 @@
+{"rid": "S00692", "disposition": "clean", "patches": []}
+{"rid": "S00693", "disposition": "clean", "patches": []}
+{"rid": "S00694", "disposition": "clean", "patches": []}
+{"rid": "S00695", "disposition": "needs_print_check", "patches": [], "escalation": "Class 8 (sub-token/word-level gloss loss): the English rendering of חזייה להאי ק׳ מ׳ וכ׳ reads 'he said K. M. coming to his left side'. The Aramaic verb is 'he saw', the English as it stands is ungrammatical, and of the 10 corpus definitions containing חזייה, 9 render it 'he saw' and this is the only 'he said'. Repair needs a byte not in the entry - print check on Pes. 111b. Also class 11: the anchor whose display is ק׳ (an abbreviation of this entry's own headword קֶטֶב) carries data-ref 'Jastrow, ק׳ 1', which is S00001, the article on ק as the numeral 100; correct target bytes are not present, so no replace is possible. Anomaly hint comma-for-period ('Ab,') REJECTED: 'Ab' here is the month name written out in full, and the comma opens the relative clause 'during which Kh. M. is about', so it is sentence punctuation, not a lost abbreviation period."}
+{"rid": "S00696", "disposition": "clean", "patches": []}
+{"rid": "S00697", "disposition": "needs_human_judgment", "patches": [], "escalation": "Class 7 (anchor-boundary-markup): the anchor for Tosefta Shabbat 4:17 opens after print's '(' but its display text is 'IV), 17', so the closing paren that pairs with the outside '(' and the halakha ', 17' both sit inside the tag (print reads 'Tosef. Sabb. III (IV), 17'). The two printed tokens the data-ref combines ('IV' and '17') are not contiguous, so no byte-conserving move yields a single clean reference token; where the boundary should fall is a transform-level call, not an entry-local one, so it is flagged rather than patched. Also class 11: the anchor whose display is ק׳ (an abbreviation of this entry's own headword קָטָבוֹלְיָא) carries data-ref 'Jastrow, ק׳ 1' = S00001, the article on ק as the numeral 100."}
+{"rid": "S00698", "disposition": "clean", "patches": []}
+{"rid": "S00699", "disposition": "clean", "patches": []}
+{"rid": "S00700", "disposition": "clean", "patches": []}
+{"rid": "S00701", "disposition": "needs_print_check", "patches": [], "escalation": "Class 8 (lost text): the entry's entire definition is ', read:' - the corrected reading print supplies after 'read:' is absent from the data, leaving the entry קטבליטון with no content at all. Restoration needs bytes not present in the entry; print check on the קטבליטון line."}
+{"rid": "S00702", "disposition": "clean", "patches": []}
+{"rid": "S00703", "disposition": "clean", "patches": []}
+{"rid": "S00704", "disposition": "clean", "patches": []}
+{"rid": "S00705", "disposition": "clean", "patches": []}
+{"rid": "S00706", "disposition": "clean", "patches": []}
+{"rid": "S00707", "disposition": "clean", "patches": []}
+{"rid": "S00708", "disposition": "clean", "patches": []}
+{"rid": "S00709", "disposition": "clean", "patches": []}
+{"rid": "S00710", "disposition": "needs_human_judgment", "patches": [], "escalation": "Class 11 (wrong-link-target), two occurrences: both anchors whose display is קְ׳ - in '(ed. Wil. קְ׳, corr. acc.)' and in the plural list 'קָטוֹלִין, קָטוֹלַיָּא, קְ׳' - carry data-ref 'Jastrow, כְּרִיסְפָּא 1' (K01174), a headword that does not even begin with ק. In context קְ׳ abbreviates this entry's own headword קָטוֹל; the entry's third geresh anchor, קַטּ׳, resolves correctly to this entry, which shows the convention the other two break. The correct target bytes do not occur in the entry, so no replace can repair it."}
+{"rid": "S00711", "disposition": "clean", "patches": []}
+{"rid": "S00712", "disposition": "clean", "patches": []}
+{"rid": "S00713", "disposition": "clean", "patches": []}
+{"rid": "S00714", "disposition": "clean", "patches": []}
+{"rid": "S00715", "disposition": "clean", "patches": []}
+{"rid": "S00716", "disposition": "clean", "patches": []}
+{"rid": "S00717", "disposition": "clean", "patches": []}
+{"rid": "S00718", "disposition": "clean", "patches": []}
+{"rid": "S00719", "disposition": "clean", "patches": []}
+{"rid": "S00720", "disposition": "clean", "patches": []}
+{"rid": "S00721", "disposition": "needs_human_judgment", "patches": [], "escalation": "Class 11 (wrong-link-target); anomaly hint abbrev-mislink ACCEPTED. The entry is the redirect stub 'קִטּוּף, v. sub קִיטּ׳.' and its only anchor carries data-ref 'Jastrow, קִיטּוּל 1' (S00895). The abbreviation קִיטּ׳ must expand to the plene spelling of this entry's own headword, קִיטּוּף, which exists as S00903. S00895 and S00903 both declare the identical alt_headword קִטּ׳, so the linker had two claimants for the abbreviation and resolved to the wrong one. Correct target bytes are not present in the entry, so no replace is possible."}

@@ -303,7 +303,7 @@ for (const s of ["אֵימוּרִים II", "אֵימוּרִים ²", "זָמַ
 ```
 Expected: every value prints with its suffix removed.
 
-- [ ] **Step 6: Commit**
+- [x] **Step 6: Commit**
 
 ```bash
 bun test admin/pipeline/ && biome check admin/pipeline/research/link-anomalies.ts admin/pipeline/research/anomalies.test.ts
@@ -868,7 +868,7 @@ print(sorted(letters))"
 ```
 Expected: 22 input files; the letter list covers A–V with no duplicates.
 
-- [ ] **Step 6: Commit**
+- [x] **Step 6: Commit**
 
 ```bash
 bun test admin/pipeline/ && biome check admin/pipeline/research/
@@ -1281,7 +1281,7 @@ Create `docs/v2/discovery-round-1.md` recording: chunks swept, entries,
 disposition totals, new patterns with counts, and whether any letter
 behaved unlike letter A (the spec's stated risk).
 
-- [ ] **Step 6: Commit**
+- [x] **Step 6: Commit**
 
 ```bash
 git add data/patches/patterns.jsonl docs/v2/discovery-round-1.md
@@ -1557,17 +1557,20 @@ known-real populations the audit surfaced but could not catalogue,
 so agents corroborate rather than re-discover them.
 
 **Acceptance Criteria:**
-- [ ] Round 3 chunks differ from rounds 1 and 2 (satisfied by the
-      sampler: round 3 draws each round-2 chunk's successor)
-- [ ] All 22 chunks swept and validated at 30 manifest rows
-- [ ] New patterns appended with `round: 3`; re-measurements of existing
-      rows recorded in those rows' `reason` rather than as new rows
-- [ ] The four uncatalogued populations from the audit are folded, or
-      explicitly deferred with a reason
-- [ ] `isSaturated(rows, 3)` computed and recorded — expected `false`,
-      since round 2 added rows with `round: 2 > 1`
-- [ ] `docs/v2/discovery-round-3.md` states whether round 4 is required
-- [ ] `bun test admin/pipeline/` green
+- [x] Round 3 chunks differ from rounds 1 and 2 — zero overlap by
+      construction (each is its round-2 chunk's successor)
+- [x] All 22 chunks swept and validated at 30 manifest rows — 660 rows,
+      0 invalid, 30 patches
+- [x] New patterns appended with `round: 3` (29 rows; catalogue 120 →
+      149); re-measurements recorded in the existing rows' `reason` — 29
+      rows re-measured or flagged
+- [x] The four uncatalogued populations from the audit are folded, or
+      explicitly deferred with a reason — three folded as rows, the
+      fourth (class E) **killed at ≥97% convention** with its null model
+- [x] `isSaturated(rows, 3)` computed and recorded — **`false`**
+- [x] `docs/v2/discovery-round-3.md` states whether round 4 is required —
+      yes, and weighs the gate against the evidence
+- [x] `bun test admin/pipeline/` green — 399 pass, 0 fail
 
 **Verify:** `bun -e 'import {parsePatterns,isSaturated} from "./admin/pipeline/research/patterns.ts"; const r=parsePatterns(await Bun.file("data/patches/patterns.jsonl").text()); console.log(r.length, isSaturated(r,3))'`
 
@@ -1577,13 +1580,13 @@ so agents corroborate rather than re-discover them.
 
 **Steps:**
 
-- [ ] **Step 1: Sample** — `bun admin/pipeline/research/sample.ts <W> 3`
-- [ ] **Step 2: Dispatch 22 sweep agents** against
+- [x] **Step 1: Sample** — `bun admin/pipeline/research/sample.ts <W> 3`
+- [x] **Step 2: Dispatch 22 sweep agents** against
       `data/patches/discovery-round-3/agent-brief.md`
-- [ ] **Step 3: Validate** — every manifest has exactly 30 rows
-- [ ] **Step 4: Fold** patterns and re-measurements
-- [ ] **Step 5: Compute saturation and write the report**
-- [ ] **Step 6: Commit**
+- [x] **Step 3: Validate** — every manifest has exactly 30 rows
+- [x] **Step 4: Fold** patterns and re-measurements
+- [x] **Step 5: Compute saturation and write the report**
+- [x] **Step 6: Commit**
 
 ---
 
