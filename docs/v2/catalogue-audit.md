@@ -1,8 +1,9 @@
-# Catalogue audit — Tier A complete, Tier B deferred
+# Catalogue audit — Tier A complete, Tier B partial
 
-**Status: Tier A DONE (2026-08-18).** Ten rows audited, one auditor each,
-each writing its probe from the row's `description` alone before reading
-the rest of the catalogue. **Not one row was confirmed as catalogued.**
+**Status: Tier A DONE, Tier B PARTIAL (2026-08-18).** Thirteen rows
+audited, one auditor each, each writing its probe from the row's
+`description` alone before reading the rest of the catalogue. **Not one
+row was confirmed as catalogued.**
 
 This is an **unnumbered pass, not round 3**. No row gained `round: 3`;
 the split product keeps its parent's round. `isSaturated` counts rounds
@@ -12,15 +13,16 @@ The next real sweep is still round 3.
 
 | | |
 |---|---|
-| Rows audited | 10 of 10 Tier A |
+| Rows audited | 10 of 10 Tier A, **3 of 23 Tier B** |
 | Rows confirmed as catalogued | **0** |
-| Counts not reproducible at all | 3 |
-| Rows re-scoped | 8 |
-| Rows split | 1 |
+| Counts not reproducible at all | **6** |
+| Rows re-scoped | 11 |
+| Rows split | 2 |
 | Rows re-measured upward | 1 |
-| Catalogue size | 118 → **119** |
+| Catalogue size | 118 → **120** |
 | Tier A instances | 25,768 → **12,649** (−13,119, −50.9%) |
-| Neighbouring rows flagged | 8 |
+| Tier B audited instances | 944 → **258** (−686, −72.7%) |
+| Neighbouring rows flagged | 10 (2 withdrawn on audit) |
 
 Per-row evidence lives in `data/patches/catalogue-audit/<row-id>.md` —
 probe, job decomposition, read sample, falsification test, overlaps. The
@@ -95,11 +97,20 @@ Each carries an `AUDIT FLAG` in its `reason`.
 | `binyan-form-leading-space` (457, r2) | **may be a convention** — the same field-edge-separator question that collapsed `trailing-whitespace-definition`, never tested against "does anything consume this?" |
 | `label-period-outside-italic` (608, r2) | polarity collision, above |
 | `nested-anchor-swallows-punctuation` (465) | double count, above; 455 of its 465 trap punctuation, 10 trap nothing |
-| `inflection-abbrev-mislink` (137) | **likely ~5× under-measured** — 765 geresh-display occurrences found inside one neighbouring row alone |
-| `neighbor-rid-mislink` (655) | **same false-positive risk as `same-anchor`** — 579 adjacent-rid occurrences, many of them the *correct* stub links Jastrow prints after a base entry |
 | `superscript-subsection-stranded-outside-anchor` (160) | its 38 contradiction cases **carry their own correct answer** (printed superscript right in 9 of 12 adjudicated); deterministically fixable |
+| `bracket-paren-mismatch` (67) | own probe reproduces at **98/97**, and it already owns 49 entries currently counted inside `stranded-open-bracket` |
+| `multiword-abbrev-mislink` (22) | **possibly under-measured** — 5 members found inside a 28-occurrence population, and 236 of the same phrase-stub shape in `alt_headwords` |
 | `unnumbered-terminal-homograph` (129) | 18 families contested with `homograph-numbering-schism` |
+| `continuation-marker-em-dash-loss` (71) | **confirmed as the correct home** for the bare-`N)` residue; its size is unsettled between 19 and 44 |
 | `h-cognate-self-link` (50) | **merge candidate** — the h.-language mirror of `homograph-numbering-schism`'s re-scoped defect |
+
+**Two flags were raised in the Tier A pass and then tested in the Tier B
+pass. Both were wrong:** `inflection-abbrev-mislink` was flagged ~5×
+under-measured and is ~2.6× over-measured, and `stranded-open-bracket`
+carried a round-2 under-measurement flag and is over-measured too. Both
+withdrawals are recorded in the rows' own `reason`. A flag is a lead,
+not a finding — the two that survived contact with a probe did so
+because a probe was run.
 
 ## Two rows are review queues, not rewrite rules
 
@@ -127,36 +138,95 @@ create `round: 3` entries. **The next real sweep should fold them.**
 - **Jerusalem Talmud double-wrapped citations** — 20 occurrences / 10
   entries, no punctuation trapped, `href` missing its leading slash in
   20 of 20. Belongs with `jt-href-slash`.
+- **`neighbor-rid-mislink`'s residual class E** — 198 occurrences that
+  split between emphatic ה↔א alternations, unvocalized displays and
+  genuine one-consonant confusions. Sampled only incidentally; needs its
+  own probe.
 
-## Tier B — deferred, with the cost stated
+## Tier B — three implicated rows run, 20 still deferred
 
-23 rows, 7,379 instances, whose own `reason` already flags the count as
-a judgement call, a floor, or unmeasured: led by `unmatched-closing-paren`
-(1,604), `etymology-head-pseudo-sense` (1,553),
-`preamble-stranded-lead-sense` (676), `citation-tail-truncation` (657),
-`neighbor-rid-mislink` (655). Regenerate the full list from the file
-rather than copying it — the reasons are the source of truth.
+The deferral below was **partly reversed**: the three rows Tier A
+auditors had implicated were run.
 
-**Cost of deferring.** Tier A ran 10 for 10 misdescribed, so the base
-rate says most of Tier B is wrong too. What makes deferral defensible is
-the difference that defined the tiers: **a Tier B row's `reason` already
-warns the reader that its count is uncertain**, whereas Tier A's rows
-carried no caveat at all and read as settled measurements. The risk that
-justified this pass — a transform author trusting a figure that looks
-solid — is materially lower here.
+| Row | Was | Now | Verdict |
+|---|---:|---:|---|
+| `neighbor-rid-mislink` | 655 | **109** | RE-SCOPE, ±1 predicate retired |
+| `stranded-open-bracket` | 152 | **85** | RE-SCOPE (+ `unclosed-editorial-bracket` 18) |
+| `inflection-abbrev-mislink` | 137 | **46** | RE-SCOPE |
 
-**What deferral costs anyway:** three Tier B rows were implicated by
-Tier A auditors without being audited themselves —
-`inflection-abbrev-mislink` (possibly 5× low), `neighbor-rid-mislink`
-(possible `same`-shaped false positives), `stranded-open-bracket` (known
-under-measured). Those three are not merely imprecise; they may be wrong
-in the same way Tier A was. If Tier B is not run in full, **run those
-three.**
+**944 → 258 instances (−72.7%).** Three more counts unreproducible,
+bringing the audit total to six.
+
+### `neighbor-rid-mislink` — the ±1 predicate is retired
+
+The flag was confirmed, and the instrument that settled it was a
+**link-blind null model**: for every entry with a sibling whose skeleton
+is its own + א, **49.9% of those pairs are alphabetically adjacent by
+construction** (2,104 of 4,215 at distance 1). A fully *correct*
+emphatic-state link therefore produces a ±1 hit half the time on the
+null alone. Confirmed by direction — 449 of 518 members (86.7%) sit at
+target **+1**, and 76 of 76 under the strict variant; a resolver
+off-by-one has no reason to prefer one sign. That is Jastrow's page
+layout, not his hyperlinks.
+
+Re-scoped to the only predicate that tracked defects: the candidate
+entry cross-references the source while the resolved target does not.
+**55% of that subset sits at distance ≥3** — the defect signal is
+semantic reciprocity, and it is nearly orthogonal to adjacency.
+
+### One audit flag was wrong, and the auditor refuted it
+
+`inflection-abbrev-mislink` was flagged as ~5× under-measured, on a 765
+figure another auditor had measured inside a *different* row's
+population. Tested: the two are not the same shape — of the 366
+comparable occurrences there, **330 have only one or two letters before
+the geresh**, exactly what this row's ≥3 threshold excludes and what
+three other rows already own. Direct intersection: 11 occurrences. The
+row is ~2.6× **over**-measured. The flag is withdrawn in its `reason`.
+
+Its description is also **stale**: `abbrev-mislink` was widened per round
+1's own recommendation and now fires on 28 of 28 hits, so "outside the
+abbrev-mislink rule's scope" describes a population of 0.
+
+### `stranded-open-bracket`'s under-measurement flag is withdrawn too
+
+The row is **over**-measured. Its two opposing figures were never in
+tension — chunk-00181's "87 definitions, 85 pairing within two senses"
+was the real population all along, and the audit independently lands on
+the same 87. 152 was the over-broad outer figure. 49 of its members are
+49-of-49 members of `bracket-paren-mismatch` (double-counted today), and
+18 are a third defect now carried as `unclosed-editorial-bracket`.
+
+**Transform hazard:** Jastrow's `[...]` around a numbered sense is a live
+editorial signal marking that sense as supplied or uncertain. Deleting
+the orphan bracket characters — the obvious repair — would silently
+discard that marking on 87 senses.
+
+### The 20 rows still deferred, with the cost stated
+
+Led by `unmatched-closing-paren` (1,604), `etymology-head-pseudo-sense`
+(1,553), `preamble-stranded-lead-sense` (676), `citation-tail-truncation`
+(657). Regenerate the full list from the file rather than copying it —
+the reasons are the source of truth.
+
+**Cost of deferring.** Thirteen for thirteen misdescribed, so the base
+rate says most of the remaining 20 are wrong too. What makes deferral
+defensible is the difference that defined the tiers: **a Tier B row's
+`reason` already warns the reader that its count is uncertain**, whereas
+Tier A's rows carried no caveat and read as settled measurements. The
+risk that justified this pass — a transform author trusting a figure
+that looks solid — is materially lower.
+
+What the partial run changes: the three implicated rows are no longer
+part of that cost, and the two largest remaining rows
+(`unmatched-closing-paren`, `etymology-head-pseudo-sense`, 3,157
+instances between them) are now the largest unaudited counts in the
+catalogue.
 
 ## Next actions
 
-1. **[open — Brian's call]** Run Tier B, run the three implicated rows
-   only, or accept the deferral as recorded.
+1. **[done]** The three implicated Tier B rows were run. **[open —
+   Brian's call]** whether to run the remaining 20.
 2. **Reconcile the polarity collision** between
    `label-period-outside-italic` and `italic-swallowed-terminal-period`
    before either is transformed.

@@ -1473,13 +1473,16 @@ rather than copying it — the reasons are the source of truth.
       count is corrected in place, with the old figure named in `reason`
       — all 10 differed; 8 re-scoped, 1 split, 1 re-measured upward
 - [x] Tier B rows are re-measured or explicitly deferred with a stated
-      cost of deferral — **deferred**, cost recorded in
-      `docs/v2/catalogue-audit.md`, with three implicated rows named as
-      the minimum subset to run if Tier B is not run in full
+      cost of deferral — deferral recorded in
+      `docs/v2/catalogue-audit.md`, then partly reversed: the three
+      implicated rows were run (944 → 258 instances, −72.7%; two of the
+      flags that sent them there were refuted). The remaining 20 stay
+      deferred with the cost restated
 - [x] No row gains `round: 3`; row rounds are unchanged — max round 2,
       and the split product keeps its parent's round 1
 - [x] `docs/v2/catalogue-audit.md` records per-row verdict, and totals:
-      25,768 → 12,649 instances (−13,119, −50.9%), catalogue 118 → 119
+      Tier A 25,768 → 12,649 (−50.9%), Tier B audited 944 → 258
+      (−72.7%), catalogue 118 → 120
 - [x] `bun test admin/pipeline/` green — 399 pass, 0 fail
 
 **Verify:** `bun -e 'import {parsePatterns} from "./admin/pipeline/research/patterns.ts"; const r=parsePatterns(await Bun.file("data/patches/patterns.jsonl").text()); const bare=r.filter(x=>x.status==="candidate"&&!x.reason&&x.corpusCount>=1000); console.log("unaudited tier A:", bare.length, "| max round:", Math.max(...r.map(x=>x.round)))'` -> `unaudited tier A: 0 | max round: 2`
