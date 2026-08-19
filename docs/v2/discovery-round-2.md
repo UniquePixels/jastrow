@@ -1,7 +1,11 @@
-# Discovery round 2 — sweep complete, consolidation pending
+# Discovery round 2 — sweep and consolidation complete
 
-**Status: sweep DONE (22/22 chunks). Consolidation into `patterns.jsonl` NOT
-done.** This document is the handoff. Read it before resuming Task 8.
+**Status: DONE (2026-08-18).** Sweep 22/22 chunks; consolidation folded into
+`patterns.jsonl`, which is now **118 rows** (80 + 38). `isSaturated(rows, 2)`
+= **`false`** against the folded file, so **round 3 is required**. The only
+item still open is round 3's *shape* — see "Next actions" #5, which is
+Brian's call. This document remains the merge record: it names every merge,
+re-partition and re-measure the fold applied.
 
 | | |
 |---|---|
@@ -11,7 +15,7 @@ done.** This document is the handoff. Read it before resuming Task 8.
 | Manifest rows | 660, all JSON-valid |
 | Raw candidates | 66, recorded in `discovery-round-2-candidates.md` |
 | Detector | calibrated first (Task 9); 96 of 660 entries hinted |
-| `patterns.jsonl` | still 80 rows, max round 1 — **round 2 not folded in yet** |
+| `patterns.jsonl` | **118 rows**: 80 carried + 38 round-2 rows (34 candidate, 4 discarded) |
 
 ## Where things physically are
 
@@ -128,12 +132,15 @@ candidate rather than standing beside it:
   both add nothing new.
 
 > **Trap — do not run the saturation check before folding round 2 in.**
-> Verified against the current catalogue: with round 2 *not* yet folded,
-> `isSaturated(rows, 3)` returns **`true`**. That is a false declaration — it
+> Verified against the pre-fold catalogue: with round 2 *not* yet folded,
+> `isSaturated(rows, 3)` returned **`true`**. That is a false declaration — it
 > reads the absence of round-2 rows as "round 2 found nothing" when in fact
-> round 2 has not been recorded yet. Fold first (next action 1), then check
-> (next action 4). Confirmed by simulation: with even one `round: 2` row
-> present, `isSaturated(rows, 3)` correctly returns `false`.
+> round 2 had not been recorded yet. The fold was done first, then the check.
+>
+> **Recorded against the folded 118-row catalogue (2026-08-18):**
+> `isSaturated(rows, 2)` = **`false`** → **round 3 is required**;
+> `isSaturated(rows, 3)` = **`false`**; `isSaturated(rows, 4)` = **`true`**.
+> The arithmetic above holds exactly.
 
 So the formal gate is not close. But the *evidence* is pointing at saturation,
 and the two should be weighed together rather than one deferring to the other:
@@ -152,22 +159,49 @@ and the two should be weighed together rather than one deferring to the other:
 substantially answered. The remaining yield is in re-measuring round-1 rows,
 not in finding new ones — and the `same`-anchor result shows re-measurement is
 where the actual risk to Phase 2 lives. Consider putting round 3's budget into
-auditing the existing 80 rows rather than sweeping 22 more chunks. That is a
+auditing the existing rows rather than sweeping 22 more chunks. That is a
 judgment call for Brian, not one to make silently.
 
-## Next actions, in order
+## Next actions — 1–4 done, 5 open
 
-1. **Fold round 2 into `patterns.jsonl`** with `round: 2`, applying the merges
-   and re-partitions above. Source: `discovery-round-2-candidates.md`.
-2. **Re-measure `same-anchor-positional-mislink`** from 3,183 to 374/544. This
-   is the one item that is actively dangerous if left alone.
-3. **Re-measure the other rows round 2 corrected:** `asterisk-stem-label`
-   43 → ~69, `plural-form-empty-slot` (add the 486-slot `binyan_form` twin),
-   `stranded-open-bracket` (under-measured per 00841).
-4. **Run `isSaturated(rows, 2)`** and record the result — expected `false`, per
-   the arithmetic above. The point is the audit trail, not the answer.
-5. **Decide round 3's shape** with Brian: another 22-chunk sweep, or an audit
-   pass over the 80 existing rows.
+1. **[done] Fold round 2 into `patterns.jsonl`** with `round: 2`, applying the
+   merges and re-partitions above. 66 raw candidates resolved to **38 rows**
+   (34 `candidate`, 4 `discarded`); catalogue 80 → 118.
+2. **[done] Re-measure `same-anchor-positional-mislink`** 3,183 → **374**, with
+   the 2,882-member cognate population and the 544 loose figure recorded in the
+   row's `reason`.
+3. **[done] Re-measure the other rows round 2 corrected:**
+   `asterisk-stem-label` 43 → **69** (description widened past the literal
+   `*.`); `binyan-head-form-mislinked` 65 → **127** (chunk-00682);
+   `alt-headword-collision` 0 → **15** (chunk-00284, sizing the round-1
+   placeholder). Flagged as under-measured without changing the count, because
+   neither overlap was measured: `doubled-space-as-text-loss-locator` (92
+   markup-hidden entries beyond its 108) and `stranded-open-bracket` (00841's
+   45 bare `N)` markers). **Deviation from this list as written:** the
+   486-slot `binyan_form` twin was *not* added to `plural-form-empty-slot`.
+   The two fields have opposite v2 fates — `plural_form` has no v2 target and
+   was discarded on that ground, while `binyan_form` feeds `BodyStem.forms` —
+   so the twin is carried as its own `binyan-form-empty-slot` row (446) and
+   `plural-form-empty-slot` gained a cross-reference instead.
+4. **[done] Run `isSaturated(rows, 2)`** against the folded catalogue:
+   **`false`**. Round 3 is required. Also recorded: `(rows, 3)` = `false`,
+   `(rows, 4)` = `true`.
+5. **[OPEN — Brian's call] Decide round 3's shape:** another 22-chunk sweep, or
+   an audit pass over the existing rows. See the recommendation above.
+
+### Two fold decisions worth a second look
+
+- **The four new `plural_form`-contents rows were folded as `discarded`**
+  (`plural-form-duplicated-value` 93, `plural-form-parenthesized-variant` 22,
+  `plural-form-holds-idiom-phrase` 90, `plural-form-holds-quotation-fragment`
+  26), reusing verbatim the disposal round 1 gave the two identical debris rows
+  it found. That applies an existing ruling; it does not make a new one.
+- **`plural-label-rendering-defeats-capture` (358) was left `candidate` with
+  "TRIAGE OWED" in its `reason`.** It is the same dropped field, but the shape
+  is an *absence* rather than debris, and the plural forms remain verbatim in
+  the definition text v2 does carry — which points at a discard for a different
+  reason than the other four. That deserves a ruling rather than an
+  assumption.
 
 ## Detector calibration notes for Phase 2
 
@@ -188,8 +222,10 @@ sweep:
 
 - The 57 chunks accepted before the catalogue existed still need re-checking
   against the full pattern set.
-- `alt-headword-collision` sits at `corpusCount: 0` and needs sizing. Round 2
-  supplied a textbook instance: P00390's `בן ע׳` → `*עָקוֹשׁ I`, whose
-  `alt_headwords` holds `בֶּן ע׳`, the only occurrence of that string corpus-wide.
+- ~~`alt-headword-collision` sits at `corpusCount: 0` and needs sizing.~~
+  **Done at the fold: sized to 15** (chunk-00284, after excluding redirect-stub
+  targets; 187/162 corroborated, 1,613/1,268 broad). Round 2's textbook
+  instance is P00390's `בן ע׳` → `*עָקוֹשׁ I`, whose `alt_headwords` holds
+  `בֶּן ע׳`, the only occurrence of that string corpus-wide.
 - `etymology-head-pseudo-sense` (1,553) needs a maintainer ruling.
 - The patch / `repairs.ts` composition check is still owed before Phase 3.

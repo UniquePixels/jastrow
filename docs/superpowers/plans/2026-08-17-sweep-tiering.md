@@ -1322,22 +1322,26 @@ measures sweep coverage rather than detector blindness.
 **Goal:** Run the second stratified round and decide, mechanically,
 whether discovery is saturated.
 
-> **PARTIALLY COMPLETE — resume here (2026-08-18, commit b76b417).**
-> The sweep half is done and committed; the consolidation half is not.
-> **Read `docs/v2/discovery-round-2.md` first** — it is the handoff and
-> names every merge, re-partition and re-measure the fold requires.
-> Raw per-chunk record: `docs/v2/discovery-round-2-candidates.md`.
-> Outputs: `data/patches/discovery-round-2/` (22 manifests, 22 patch
-> files, agent brief).
+> **COMPLETE (2026-08-18).** Sweep and consolidation both landed. The
+> catalogue is at **118 rows** (80 + 38 round-2 rows) and
+> `isSaturated(rows, 2)` returns **`false`** against the folded file.
+> Handoff and merge record: `docs/v2/discovery-round-2.md`; raw
+> per-chunk evidence: `docs/v2/discovery-round-2-candidates.md`;
+> sweep outputs: `data/patches/discovery-round-2/`.
 >
-> Two things that will bite whoever resumes:
-> 1. **`same-anchor-positional-mislink` (catalogued 3,183) is ~85%
->    false positives.** 2,882 of its members are the legitimate
->    `X ch. same` cognate convention. Re-measure to 374/544 before any
->    Phase 2 transform reads that row.
-> 2. **Do not run the saturation check before folding round 2 in.**
->    Verified: with round 2 unfolded, `isSaturated(rows, 3)` returns
->    `true` — a false declaration. Fold, then check.
+> Both resume hazards were handled at the fold:
+> 1. **`same-anchor-positional-mislink` re-measured 3,183 -> 374.**
+>    2,882 of its members were the legitimate `X ch. same` cognate
+>    convention; a transform written to the old definition would have
+>    rewritten them. The row now carries the split in its `reason`.
+> 2. **The saturation check was run only after folding.** Recorded
+>    results: `isSaturated(rows, 2)` = `false`, `(rows, 3)` = `false`,
+>    `(rows, 4)` = `true` — so round 4 is the earliest possible
+>    declaration, and only if rounds 3 and 4 both add nothing.
+>
+> **One item is still open and is Brian's call:** whether round 3 is
+> another 22-chunk sweep or an audit of the existing rows. See
+> `docs/v2/discovery-round-2.md` "Next actions" #5.
 
 **Files:**
 - Modify: `data/patches/patterns.jsonl`
@@ -1347,15 +1351,14 @@ whether discovery is saturated.
 - [x] Round 2 selects different chunks from round 1 — zero overlap
 - [x] All 22 chunks swept and validated at 30 manifest rows — 660 rows,
       all JSON-valid, 20 patches
-- [ ] New patterns appended with `round: 2` — **catalogue still at 80
-      rows / max round 1; 66 raw candidates await the fold**
-- [ ] `isSaturated(rows, 2)` computed and recorded in the report —
-      arithmetic worked and documented (expected `false`), but the
-      predicate must be run against the *folded* catalogue
-- [ ] If not saturated, the report states that round 3 is required —
-      report additionally recommends round 3 be an **audit of the
-      existing 80 rows** rather than another 22-chunk sweep; that is
-      Brian's call, not a silent one
+- [x] New patterns appended with `round: 2` — 38 rows (34 candidate,
+      4 discarded) folded from 66 raw candidates; catalogue 80 -> 118
+- [x] `isSaturated(rows, 2)` computed and recorded in the report —
+      `false`, run against the folded catalogue
+- [x] If not saturated, the report states that round 3 is required —
+      stated; the report additionally recommends round 3 be an **audit
+      of the existing rows** rather than another 22-chunk sweep, which
+      remains Brian's call, not a silent one
 
 **Verify:** `bun -e 'import {parsePatterns,isSaturated} from "./admin/pipeline/research/patterns.ts"; const r=parsePatterns(await Bun.file("data/patches/patterns.jsonl").text()); console.log("saturated:", isSaturated(r,2))'` → prints a boolean matching the report
 
