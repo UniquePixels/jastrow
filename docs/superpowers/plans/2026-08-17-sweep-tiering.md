@@ -1535,6 +1535,58 @@ git commit -s -m "🌈 improve(research): audit unverified catalogue counts"
 
 ---
 
+### Task 11: Discovery round 3
+
+**Goal:** Run the third stratified sweep and re-run the saturation
+predicate. Round 2 was not saturated, so round 3 is required; the
+catalogue audit was deliberately unnumbered and consumed no round.
+
+**Files:**
+- Modify: `data/patches/patterns.jsonl`
+- Create: `docs/v2/discovery-round-3.md`
+- Create: `data/patches/discovery-round-3/` (22 manifests, 22 patch
+  files, `agent-brief.md`)
+
+**What is different about this round.** Round 2's yield was low and its
+real value was re-measurement, and the audit then found 13 of 13 rows
+misdescribed. So the brief now requires three answers per candidate —
+*does this population have more than one job*, *what is the null model*,
+*what would falsify this* — and states plainly that raising fewer,
+better candidates is the right outcome. The brief also names four
+known-real populations the audit surfaced but could not catalogue,
+so agents corroborate rather than re-discover them.
+
+**Acceptance Criteria:**
+- [ ] Round 3 chunks differ from rounds 1 and 2 (satisfied by the
+      sampler: round 3 draws each round-2 chunk's successor)
+- [ ] All 22 chunks swept and validated at 30 manifest rows
+- [ ] New patterns appended with `round: 3`; re-measurements of existing
+      rows recorded in those rows' `reason` rather than as new rows
+- [ ] The four uncatalogued populations from the audit are folded, or
+      explicitly deferred with a reason
+- [ ] `isSaturated(rows, 3)` computed and recorded — expected `false`,
+      since round 2 added rows with `round: 2 > 1`
+- [ ] `docs/v2/discovery-round-3.md` states whether round 4 is required
+- [ ] `bun test admin/pipeline/` green
+
+**Verify:** `bun -e 'import {parsePatterns,isSaturated} from "./admin/pipeline/research/patterns.ts"; const r=parsePatterns(await Bun.file("data/patches/patterns.jsonl").text()); console.log(r.length, isSaturated(r,3))'`
+
+```json:metadata
+{"files": ["data/patches/patterns.jsonl", "docs/v2/discovery-round-3.md"], "verifyCommand": "bun test admin/pipeline/", "acceptanceCriteria": ["chunks differ from rounds 1-2", "22 chunks validated at 30 rows", "patterns appended round 3", "audit populations folded or deferred", "isSaturated recorded", "round 4 requirement stated"], "modelTier": "frontier"}
+```
+
+**Steps:**
+
+- [ ] **Step 1: Sample** — `bun admin/pipeline/research/sample.ts <W> 3`
+- [ ] **Step 2: Dispatch 22 sweep agents** against
+      `data/patches/discovery-round-3/agent-brief.md`
+- [ ] **Step 3: Validate** — every manifest has exactly 30 rows
+- [ ] **Step 4: Fold** patterns and re-measurements
+- [ ] **Step 5: Compute saturation and write the report**
+- [ ] **Step 6: Commit**
+
+---
+
 ## After this plan
 
 Re-enter writing-plans for spec Phase 2 (remaining transforms, residue
