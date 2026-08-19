@@ -186,8 +186,17 @@ judgment call for Brian, not one to make silently.
 4. **[done] Run `isSaturated(rows, 2)`** against the folded catalogue:
    **`false`**. Round 3 is required. Also recorded: `(rows, 3)` = `false`,
    `(rows, 4)` = `true`.
-5. **[OPEN — Brian's call] Decide round 3's shape:** another 22-chunk sweep, or
-   an audit pass over the existing rows. See the recommendation above.
+5. **[decided 2026-08-18 — audit] Round 3's shape.** Brian took the audit.
+   It is written up as **Task 10** in the sweep-tiering plan and runs as an
+   **unnumbered pass, not round 3**: `isSaturated` counts rounds rather than
+   looking, so numbering an audit would let `isSaturated(rows, 4)` fire off a
+   single empty sweep instead of two. The next real sweep is still round 3.
+   Scope is risk-ranked, not the whole catalogue: 10 rows carrying no `reason`
+   and >=1,000 instances each (25,768 total, 53% of all candidate volume),
+   then the 23 whose own `reason` already flags the count as a judgement call,
+   a floor, or unmeasured (7,379). The 10 are catalogue-indistinguishable from
+   `same-anchor-positional-mislink` before round 2 caught it — same round,
+   same size class, no caveat, never re-measured.
 
 ### Two fold decisions worth a second look
 

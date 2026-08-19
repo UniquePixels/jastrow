@@ -1417,11 +1417,123 @@ git commit -s -m "🌈 improve(research): discovery round 2"
 
 ---
 
+### Task 10: Audit the catalogue's unverified counts
+
+**Goal:** Re-measure the catalogue rows whose counts have never been
+independently checked, before Phase 2 writes a transform against one of
+them. This is an **unnumbered pass, not round 3** — see "Why it does not
+consume a round" below.
+
+> **Why this task exists.** Round 2's most consequential result was not a
+> discovery but a correction: `same-anchor-positional-mislink` was
+> catalogued at 3,183 and measured at 374, roughly 85% false positives,
+> because 2,882 of its members were the legitimate `X ch. same` cognate
+> convention. A deterministic transform written to the old definition
+> would have rewritten 2,882 correct links.
+>
+> That row was **catalogue-indistinguishable** from ten rows still in the
+> file: same round, same size class, no `reason` field, never
+> re-measured. Those ten hold 25,768 instances — 53% of all candidate
+> volume (48,993 across 102 candidate rows). The risk is asymmetric: a
+> missing row leaves the corpus unimproved, a wrong row count corrupts it.
+
+**Why it does not consume a round.** `isSaturated` counts rounds, not
+looking. An audit adds no `round: 3` rows, so if it were numbered round 3
+then `isSaturated(rows, 4)` would return `true` off a *single* empty
+sweep instead of two — the same false-declaration shape as the round-2
+trap. Rows written by this task keep the round of the row they correct.
+The next real sweep is still round 3.
+
+**Files:**
+- Modify: `data/patches/patterns.jsonl`
+- Create: `docs/v2/catalogue-audit.md`
+
+**Tier A — 10 rows, no `reason`, never re-measured, >=1,000 each
+(25,768 instances):**
+`bare-rtl-hebrew` (4,900), `midrash-subsection-link-drift` (3,941),
+`homograph-numbering-schism` (3,421), `homograph-collapse-link` (2,957),
+`trailing-whitespace-definition` (2,340),
+`plural-inflection-anchor-escapes-entry` (2,281),
+`abbrev-in-alt-headwords` (2,265), `ascii-quote-as-gershayim-in-body`
+(1,234), `nonsense-dup-anchor` (1,220),
+`italic-swallowed-terminal-period` (1,209).
+
+**Tier B — 23 rows whose own `reason` already flags the count as a
+judgement call, a floor, or unmeasured (7,379 instances):** led by
+`unmatched-closing-paren` (1,604), `etymology-head-pseudo-sense` (1,553),
+`preamble-stranded-lead-sense` (676), `citation-tail-truncation` (657),
+`neighbor-rid-mislink` (655). Regenerate the full list from the file
+rather than copying it — the reasons are the source of truth.
+
+**Acceptance Criteria:**
+- [ ] Every Tier A row carries a `reason` recording an independent
+      re-measurement: the probe used, the figure it returned, and whether
+      the population splits by function the way `same` did
+- [ ] Any row whose measured count differs materially from its catalogued
+      count is corrected in place, with the old figure named in `reason`
+- [ ] Tier B rows are re-measured or explicitly deferred with a stated
+      cost of deferral — no silent pass
+- [ ] No row gains `round: 3`; row rounds are unchanged
+- [ ] `docs/v2/catalogue-audit.md` records per-row verdict, and totals:
+      rows audited, rows corrected, instances added, instances removed
+- [ ] `bun test admin/pipeline/` green
+
+**Verify:** `bun -e 'import {parsePatterns} from "./admin/pipeline/research/patterns.ts"; const r=parsePatterns(await Bun.file("data/patches/patterns.jsonl").text()); const bare=r.filter(x=>x.status==="candidate"&&!x.reason&&x.corpusCount>=1000); console.log("unaudited tier A:", bare.length, "| max round:", Math.max(...r.map(x=>x.round)))'` -> `unaudited tier A: 0 | max round: 2`
+
+```json:metadata
+{"files": ["data/patches/patterns.jsonl", "docs/v2/catalogue-audit.md"], "verifyCommand": "bun test admin/pipeline/", "acceptanceCriteria": ["every tier A row carries a re-measurement reason", "materially wrong counts corrected in place", "tier B re-measured or explicitly deferred", "no row gains round 3", "audit report records per-row verdict and totals"], "modelTier": "frontier"}
+```
+
+**Steps:**
+
+- [ ] **Step 1: Regenerate the two tiers from the file**
+
+```bash
+bun -e '
+import { parsePatterns } from "./admin/pipeline/research/patterns.ts";
+const rows = parsePatterns(await Bun.file("data/patches/patterns.jsonl").text());
+const cand = rows.filter((r) => r.status === "candidate");
+const flagged = /JUDGEMENT CALL|judgement call|not independently re-measured|FLOOR|not measured|unmeasured/i;
+const a = cand.filter((r) => !r.reason && r.corpusCount >= 1000);
+const b = cand.filter((r) => flagged.test(r.reason ?? ""));
+console.log("A", a.length, a.reduce((s, r) => s + r.corpusCount, 0));
+console.log("B", b.length, b.reduce((s, r) => s + r.corpusCount, 0));'
+```
+
+- [ ] **Step 2: Dispatch one auditor agent per Tier A row**
+
+Each agent gets ONE row and the corpus. Its brief is adversarial, not
+confirmatory: *state the probe you would write from this row's
+description alone, run it, and report where the population does not mean
+what the description says.* Require the `same`-anchor question
+explicitly — **does this population have more than one job?** — since
+that is the failure mode that produced the 85% error. An agent that
+confirms the count must say what would have falsified it.
+
+- [ ] **Step 3: Fold the verdicts**
+
+Correct counts in place; record the superseded figure in `reason`. Where
+a row splits by function, either re-scope the row to the defensible
+subset (as `same-anchor-positional-mislink` was) or split it, keeping the
+original round on both halves.
+
+- [ ] **Step 4: Tier B — re-measure or defer on the record**
+
+- [ ] **Step 5: Write `docs/v2/catalogue-audit.md` and commit**
+
+```bash
+git add data/patches/patterns.jsonl docs/v2/catalogue-audit.md
+git commit -s -m "🌈 improve(research): audit unverified catalogue counts"
+```
+
+---
+
 ## After this plan
 
 Re-enter writing-plans for spec Phase 2 (remaining transforms, residue
 sweep) and Phase 3 (migrate, render diff, quarantine review) once
-Task 8 records saturation. Those tasks cannot be written before the
+Task 8 records saturation and Task 10 has audited the counts those
+transforms will read. Those tasks cannot be written before the
 catalogue is closed — their content is exactly what discovery produces.
 
 The unverified risk from the spec — whether a sweep patch can collide
