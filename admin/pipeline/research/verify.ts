@@ -482,9 +482,7 @@ function buildPilotReport(
 		.map((v) => v.patchId);
 	const cleanJudged = cleanVerdicts.filter((v) => sample.clean.includes(v.rid));
 	const found = cleanJudged.filter((v) => v.missed);
-	const missed = found
-		.filter((v) => v.catchable !== false)
-		.map((v) => v.rid);
+	const missed = found.filter((v) => v.catchable !== false).map((v) => v.rid);
 	const discoveries = found
 		.filter((v) => v.catchable === false)
 		.map((v) => v.rid);
