@@ -6,6 +6,7 @@ import {
 	isSaturated,
 	type Pattern,
 	parsePatterns,
+	transformQueue,
 } from './patterns.ts';
 
 function rows(): Pattern[] {
@@ -154,5 +155,37 @@ describe('blockingWork', () => {
 
 	it('returns nothing for an untriaged catalogue', () => {
 		expect(blockingWork(rows())).toEqual([]);
+	});
+});
+
+describe('transformQueue', () => {
+	function mixed(): Pattern[] {
+		const [one, two] = rows();
+		return [
+			{ ...one, blocking: true, route: 'transform' },
+			{ ...two, blocking: false, route: 'judgment' },
+			{
+				corpusCount: 9000,
+				description: 'big non-blocking transform',
+				id: 'big-nonblocking',
+				blocking: false,
+				round: 3,
+				route: 'transform',
+				status: 'candidate',
+			},
+		];
+	}
+
+	it('keeps non-blocking transforms — blocking gates the cutover, not the work', () => {
+		expect(transformQueue(mixed()).map((r) => r.id)).toEqual([
+			'big-nonblocking',
+			'jt-href-slash',
+		]);
+	});
+
+	it('excludes judgment rows', () => {
+		expect(transformQueue(mixed()).map((r) => r.id)).not.toContain(
+			'ib-yoma-2a',
+		);
 	});
 });

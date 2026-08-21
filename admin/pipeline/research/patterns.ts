@@ -20,8 +20,11 @@ type PatternRoute = 'blocked' | 'judgment' | 'transform';
 /** One systemic pattern class. */
 interface Pattern {
 	/** Holds up the v2 cutover (sweep-tiering spec T6): breaks the
-	 * render, or would be baked in by the migration. Everything else
-	 * defers to the post-launch quality sweep. */
+	 * render, or would be baked in by the migration.
+	 *
+	 * This gates the CUTOVER, not the work. A non-blocking row may still
+	 * be fixed now — see `transformQueue` — and false is only a promise
+	 * that shipping need not wait for it. */
 	blocking?: boolean;
 	/** Entries matching corpus-wide, at the time it was catalogued. */
 	corpusCount: number;
@@ -74,6 +77,19 @@ function blockingWork(rows: readonly Pattern[]): Pattern[] {
 		.toSorted((a, b) => b.corpusCount - a.corpusCount);
 }
 
+/** Every candidate a deterministic rule can fix, largest first —
+ * blocking and non-blocking alike.
+ *
+ * `blocking` gates the cutover; it does not gate the work. A
+ * non-blocking row with a known predicate is cheaper to fix now than to
+ * carry into the post-launch sweep, so this queue deliberately does not
+ * filter on it. Use `blockingWork` for the cutover checklist. */
+function transformQueue(rows: readonly Pattern[]): Pattern[] {
+	return rows
+		.filter((r) => r.route === 'transform' && r.status === 'candidate')
+		.toSorted((a, b) => b.corpusCount - a.corpusCount);
+}
+
 /** Problems with the `entangledWith` graph: unknown ids, self-links and
  * one-sided edges. Returns every problem rather than throwing on the
  * first, because the catalogue is checked as a whole. */
@@ -114,4 +130,5 @@ export {
 	parsePatterns,
 	renderPatterns,
 	SATURATION_ROUNDS,
+	transformQueue,
 };
