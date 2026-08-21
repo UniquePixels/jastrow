@@ -1,6 +1,7 @@
 import { describe, expect, it } from 'bun:test';
 import {
 	addPattern,
+	checkEntanglement,
 	isSaturated,
 	type Pattern,
 	parsePatterns,
@@ -71,5 +72,43 @@ describe('isSaturated', () => {
 
 	it('is true when the last two rounds added nothing', () => {
 		expect(isSaturated(rows(), 3)).toBe(true);
+	});
+});
+
+describe('checkEntanglement', () => {
+	function pair(a: string[] | undefined, b: string[] | undefined): Pattern[] {
+		const [one, two] = rows();
+		return [
+			{ ...one, entangledWith: a },
+			{ ...two, entangledWith: b },
+		];
+	}
+
+	it('passes a reciprocated pair', () => {
+		expect(checkEntanglement(pair(['ib-yoma-2a'], ['jt-href-slash']))).toEqual(
+			[],
+		);
+	});
+
+	it('passes rows with no entanglement', () => {
+		expect(checkEntanglement(rows())).toEqual([]);
+	});
+
+	it('reports a one-sided edge', () => {
+		expect(checkEntanglement(pair(['ib-yoma-2a'], undefined))).toEqual([
+			'jt-href-slash -> ib-yoma-2a: not reciprocated',
+		]);
+	});
+
+	it('reports an unknown id', () => {
+		expect(checkEntanglement(pair(['no-such-row'], undefined))).toEqual([
+			'jt-href-slash: entangled with unknown id no-such-row',
+		]);
+	});
+
+	it('reports a self-link', () => {
+		expect(checkEntanglement(pair(['jt-href-slash'], undefined))).toEqual([
+			'jt-href-slash: entangled with itself',
+		]);
 	});
 });

@@ -16,6 +16,12 @@ interface Pattern {
 	/** Entries matching corpus-wide, at the time it was catalogued. */
 	corpusCount: number;
 	description: string;
+	/** Rows owning the same records, or contending over the same
+	 * objects. A transform touching one MUST account for the others or
+	 * it rewrites the same anchors twice (round 4; the catalogue had no
+	 * way to say this, which is why the entanglements went unseen).
+	 * Symmetric — see `checkEntanglement`. */
+	entangledWith?: string[];
 	/** Stable kebab-case key. */
 	id: string;
 	/** Why the pattern was discarded, citing the v2 model. Present on
@@ -48,6 +54,31 @@ function addPattern(rows: readonly Pattern[], next: Pattern): Pattern[] {
 	return [...rows, next];
 }
 
+/** Problems with the `entangledWith` graph: unknown ids, self-links and
+ * one-sided edges. Returns every problem rather than throwing on the
+ * first, because the catalogue is checked as a whole. */
+function checkEntanglement(rows: readonly Pattern[]): string[] {
+	const byId = new Map(rows.map((r) => [r.id, r]));
+	const problems: string[] = [];
+	for (const row of rows) {
+		for (const other of row.entangledWith ?? []) {
+			if (other === row.id) {
+				problems.push(`${row.id}: entangled with itself`);
+				continue;
+			}
+			const partner = byId.get(other);
+			if (partner === undefined) {
+				problems.push(`${row.id}: entangled with unknown id ${other}`);
+				continue;
+			}
+			if (!(partner.entangledWith ?? []).includes(row.id)) {
+				problems.push(`${row.id} -> ${other}: not reciprocated`);
+			}
+		}
+	}
+	return problems;
+}
+
 /** True when the last SATURATION_ROUNDS rounds added no pattern. */
 function isSaturated(rows: readonly Pattern[], round: number): boolean {
 	const cutoff = round - SATURATION_ROUNDS;
@@ -57,6 +88,7 @@ function isSaturated(rows: readonly Pattern[], round: number): boolean {
 export type { Pattern, PatternStatus };
 export {
 	addPattern,
+	checkEntanglement,
 	isSaturated,
 	parsePatterns,
 	renderPatterns,
