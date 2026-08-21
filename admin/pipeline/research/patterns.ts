@@ -11,8 +11,18 @@
 /** How a catalogued pattern will be handled. */
 type PatternStatus = 'candidate' | 'discarded' | 'scripted';
 
+/** Phase 2 routing (sweep-tiering spec T5): a pattern with a corpus
+ * count and no per-entry judgment becomes a deterministic transform,
+ * never an LLM task. `blocked` is neither until its predicate is
+ * pinned — the count is an output of the rule, not a corpus fact. */
+type PatternRoute = 'blocked' | 'judgment' | 'transform';
+
 /** One systemic pattern class. */
 interface Pattern {
+	/** Holds up the v2 cutover (sweep-tiering spec T6): breaks the
+	 * render, or would be baked in by the migration. Everything else
+	 * defers to the post-launch quality sweep. */
+	blocking?: boolean;
 	/** Entries matching corpus-wide, at the time it was catalogued. */
 	corpusCount: number;
 	description: string;
@@ -29,6 +39,8 @@ interface Pattern {
 	reason?: string;
 	/** Discovery round that first recorded it; 0 for pre-existing. */
 	round: number;
+	/** How Phase 2 resolves it. Absent until triaged. */
+	route?: PatternRoute;
 	status: PatternStatus;
 }
 
@@ -52,6 +64,14 @@ function addPattern(rows: readonly Pattern[], next: Pattern): Pattern[] {
 		throw new Error(`duplicate pattern id: ${next.id}`);
 	}
 	return [...rows, next];
+}
+
+/** Candidate rows that hold up the cutover, largest first. Discarded
+ * rows are excluded — they are resolved by definition. */
+function blockingWork(rows: readonly Pattern[]): Pattern[] {
+	return rows
+		.filter((r) => r.blocking === true && r.status === 'candidate')
+		.toSorted((a, b) => b.corpusCount - a.corpusCount);
 }
 
 /** Problems with the `entangledWith` graph: unknown ids, self-links and
@@ -85,9 +105,10 @@ function isSaturated(rows: readonly Pattern[], round: number): boolean {
 	return !rows.some((r) => r.round > cutoff);
 }
 
-export type { Pattern, PatternStatus };
+export type { Pattern, PatternRoute, PatternStatus };
 export {
 	addPattern,
+	blockingWork,
 	checkEntanglement,
 	isSaturated,
 	parsePatterns,

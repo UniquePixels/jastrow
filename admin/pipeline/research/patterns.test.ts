@@ -1,6 +1,7 @@
 import { describe, expect, it } from 'bun:test';
 import {
 	addPattern,
+	blockingWork,
 	checkEntanglement,
 	isSaturated,
 	type Pattern,
@@ -110,5 +111,48 @@ describe('checkEntanglement', () => {
 		expect(checkEntanglement(pair(['jt-href-slash'], undefined))).toEqual([
 			'jt-href-slash: entangled with itself',
 		]);
+	});
+});
+
+describe('blockingWork', () => {
+	function triaged(): Pattern[] {
+		const [one, two] = rows();
+		return [
+			{ ...one, blocking: true, route: 'transform' },
+			{ ...two, blocking: false, route: 'judgment' },
+			{
+				corpusCount: 9000,
+				description: 'big blocker',
+				id: 'big-blocker',
+				blocking: true,
+				round: 3,
+				route: 'transform',
+				status: 'candidate',
+			},
+			{
+				corpusCount: 5000,
+				description: 'already resolved',
+				id: 'resolved',
+				blocking: true,
+				round: 3,
+				route: 'transform',
+				status: 'discarded',
+			},
+		];
+	}
+
+	it('keeps only blocking candidates, largest first', () => {
+		expect(blockingWork(triaged()).map((r) => r.id)).toEqual([
+			'big-blocker',
+			'jt-href-slash',
+		]);
+	});
+
+	it('excludes discarded rows even when blocking', () => {
+		expect(blockingWork(triaged()).map((r) => r.id)).not.toContain('resolved');
+	});
+
+	it('returns nothing for an untriaged catalogue', () => {
+		expect(blockingWork(rows())).toEqual([]);
 	});
 });
