@@ -217,7 +217,7 @@ async function ingest(workdir: string): Promise<void> {
 	const rejects: RejectRecord[] = [];
 	const done = new Map<string, string[]>();
 	const glob = new Bun.Glob('chunk-*.json');
-	const inputFiles = [];
+	const inputFiles: string[] = [];
 	for await (const hit of glob.scan({ cwd: `${workdir}/inputs` })) {
 		inputFiles.push(hit);
 	}

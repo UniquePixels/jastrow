@@ -366,9 +366,15 @@ describe('buildPilotReport', () => {
 	};
 
 	it('computes rates from verdicts and counts the queue', () => {
-		const report = buildPilotReport(
+		const report = buildPilotReport({
+			cleanVerdicts: [
+				{ missed: true, note: 'swallowed marker', rid: 'A00001' },
+			],
+			patchVerdicts: [
+				{ note: 'wrong boundary', ok: false, patchId: 'P000001' },
+			],
 			records,
-			[
+			rejects: [
 				{
 					patchId: 'P000404',
 					reason: 'x',
@@ -377,9 +383,7 @@ describe('buildPilotReport', () => {
 				},
 			],
 			sample,
-			[{ note: 'wrong boundary', ok: false, patchId: 'P000001' }],
-			[{ missed: true, note: 'swallowed marker', rid: 'A00001' }],
-		);
+		});
 		expect(report.errorRate).toBe(1);
 		expect(report.missRate).toBe(1);
 		expect(report.escalationQueue).toBe(1);
@@ -392,31 +396,20 @@ describe('buildPilotReport', () => {
 	});
 
 	it('rates are zero when nothing was sampled', () => {
-		const report = buildPilotReport(
+		const report = buildPilotReport({
+			cleanVerdicts: [],
+			patchVerdicts: [],
 			records,
-			[],
-			{ clean: [], high: [], lowMed: [] },
-			[],
-			[],
-		);
+			rejects: [],
+			sample: { clean: [], high: [], lowMed: [] },
+		});
 		expect(report.errorRate).toBe(0);
 		expect(report.missRate).toBe(0);
 	});
 
 	it('excludes label-only fails and discoveries from the rates', () => {
-		const report = buildPilotReport(
-			records,
-			[],
-			sample,
-			[
-				{
-					labelOnly: true,
-					note: 'class token slip',
-					ok: false,
-					patchId: 'P000001',
-				},
-			],
-			[
+		const report = buildPilotReport({
+			cleanVerdicts: [
 				{
 					catchable: false,
 					missed: true,
@@ -424,7 +417,18 @@ describe('buildPilotReport', () => {
 					rid: 'A00001',
 				},
 			],
-		);
+			patchVerdicts: [
+				{
+					labelOnly: true,
+					note: 'class token slip',
+					ok: false,
+					patchId: 'P000001',
+				},
+			],
+			records,
+			rejects: [],
+			sample,
+		});
 		expect(report.errorRate).toBe(0);
 		expect(report.labelOnlyPatches).toEqual(['P000001']);
 		expect(report.missRate).toBe(0);

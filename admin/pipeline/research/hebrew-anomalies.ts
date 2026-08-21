@@ -92,7 +92,13 @@ type HebrewTable = Map<string, number>;
  * sampling — see the module comment for the per-pair breakdown. The
  * other six pairs round 1 proposed (ה/ת, ב/כ, ג/נ, ם/ס, כ/פ, ח/ת,
  * ן/ר) measured a flat 0% and are not shipped. */
-const CONFUSABLE_PAIRS = ['הח', 'ון', 'צע', 'דר', 'וי'] as const;
+const CONFUSABLE_PAIRS = [
+	['ה', 'ח'],
+	['ו', 'ן'],
+	['צ', 'ע'],
+	['ד', 'ר'],
+	['ו', 'י'],
+] as const;
 
 /** Calibrated thresholds (2026-08-18). A token is anomalous when it
  * occurs at most MAX_RARE times corpus-wide and one confusable-pair
@@ -122,8 +128,7 @@ const ABBREV_MARK = /^[׳'״"]/u;
 /** Each confusable letter mapped to the letters it swaps with. */
 const SWAPS = ((): Map<string, string[]> => {
 	const map = new Map<string, string[]>();
-	for (const pair of CONFUSABLE_PAIRS) {
-		const [a, b] = [pair[0], pair[1]];
+	for (const [a, b] of CONFUSABLE_PAIRS) {
 		map.set(a, [...(map.get(a) ?? []), b]);
 		map.set(b, [...(map.get(b) ?? []), a]);
 	}

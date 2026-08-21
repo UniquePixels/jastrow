@@ -452,14 +452,24 @@ function selectSample(
 	};
 }
 
+/** One batch's ingest output plus the verdicts its verification pass
+ * returned — everything `buildPilotReport` folds into the numbers. */
+interface PilotReportInput {
+	cleanVerdicts: readonly CleanVerdict[];
+	patchVerdicts: readonly PatchVerdict[];
+	records: readonly EntryResult[];
+	rejects: readonly RejectRecord[];
+	sample: VerificationSample;
+}
+
 /** Fold verdicts into the pilot's measured numbers. */
-function buildPilotReport(
-	records: readonly EntryResult[],
-	rejects: readonly RejectRecord[],
-	sample: VerificationSample,
-	patchVerdicts: readonly PatchVerdict[],
-	cleanVerdicts: readonly CleanVerdict[],
-): PilotReport {
+function buildPilotReport({
+	cleanVerdicts,
+	patchVerdicts,
+	records,
+	rejects,
+	sample,
+}: PilotReportInput): PilotReport {
 	const dispositions: Record<Disposition, number> = {
 		clean: 0,
 		needs_human_judgment: 0,
@@ -556,6 +566,7 @@ export type {
 	IngestResult,
 	PatchVerdict,
 	PilotReport,
+	PilotReportInput,
 	RejectRecord,
 	SampleConfig,
 	VerificationSample,

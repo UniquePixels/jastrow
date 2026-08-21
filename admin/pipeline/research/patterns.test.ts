@@ -9,7 +9,7 @@ import {
 	transformQueue,
 } from './patterns.ts';
 
-function rows(): Pattern[] {
+function rows(): [Pattern, Pattern] {
 	return [
 		{
 			corpusCount: 7679,
@@ -81,8 +81,8 @@ describe('checkEntanglement', () => {
 	function pair(a: string[] | undefined, b: string[] | undefined): Pattern[] {
 		const [one, two] = rows();
 		return [
-			{ ...one, entangledWith: a },
-			{ ...two, entangledWith: b },
+			{ ...one, ...(a ? { entangledWith: a } : {}) },
+			{ ...two, ...(b ? { entangledWith: b } : {}) },
 		];
 	}
 
