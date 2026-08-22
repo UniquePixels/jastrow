@@ -160,12 +160,20 @@ rearrange, re-tag, split or delete existing text, never generate new
 words. The mechanism has to change, because transforms legitimately
 rewrite markup.
 
-Two layers:
+Three layers:
 
 | Layer | Rule |
 |---|---|
 | **Markup** | free to change; separately checked for well-formedness |
 | **Text**, tags stripped | strict sub-multiset of the input — unless the rule declares an `allows` |
+| **Copies** | text duplicated from elsewhere in the same entry, declared per call (§5.1) |
+
+The gate reads every text-bearing field a rule can edit: `headword`,
+`alt_headwords`, `plural_form`, `language_reference`, `quotes`, and
+`content` (morphology, sense numbers, definitions, recursively). A field
+outside that set is a field the gate cannot see, and a rule editing it
+would pass vacuously. `refs[]` is excluded deliberately — it is dropped
+from truth (body model §5, B7) and holds machine identifiers, not text.
 
 Every non-empty `allows` is a maintainer ruling in code, cited to its
 source. Three groups are anticipated:
@@ -183,6 +191,41 @@ source. Three groups are anticipated:
 Roughly twelve rows, read from the row names rather than measured; the
 figure firms up as rules land. **A rule wanting text bytes outside a
 declared allowance is not a transform.** It reclassifies.
+
+### 5.1 Duplication is not invention
+
+A sub-multiset check counts occurrences, so a rule that *copies* text
+from one field of an entry into another fails it — the copied
+codepoints now appear twice against an input that held them once. That
+is the shape of `abbrev-in-alt-headwords`, which recovers an
+abbreviation's elided tail from the entry's own `headword`, and of
+several later rows that fuse or split headword lines.
+
+Nothing is invented there, and a static `allows` cannot express it: the
+copied tail differs per entry.
+
+So a rule may return, alongside its records, the strings it copied:
+
+```ts
+apply(entry): {
+  /** Text this call duplicated from elsewhere in the SAME entry. The
+   *  gate verifies each string occurs in the input before permitting
+   *  it — a declared copy that is not in the source is a violation,
+   *  not an allowance. */
+  copied?: readonly string[];
+  entry: SourceEntry;
+  records: TransformRecord[];
+}
+```
+
+The guarantee this preserves is the one that matters: **no bytes from
+outside the entry**. It is checked per call against that entry's own
+text, so it cannot widen into a blanket exemption the way a
+codepoint-level `allows` can.
+
+Maintainer ruling, 2026-08-22, on the question "how should the gate
+handle a rule that duplicates text from elsewhere in the same entry":
+declare what was copied, verify it against the input.
 
 ## 6. Coverage and Reclassification
 

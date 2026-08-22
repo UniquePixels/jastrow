@@ -24,6 +24,14 @@ dependencies** — the tokenizer is hand-written, not a library.
 - Text bytes (tags stripped) must be a sub-multiset of the input unless
   the rule declares `allows`. The RTL rules declare nothing — they move
   wrappers, never text.
+- The gate reads every text-bearing field a rule can edit: `headword`,
+  `alt_headwords`, `plural_form`, `language_reference`, `quotes` and
+  `content`. A rule editing a field the gate cannot see passes
+  vacuously, which is worse than failing.
+- A rule that DUPLICATES text from elsewhere in the same entry returns
+  `copied: string[]`; the gate verifies each string occurs in the input
+  before permitting its codepoints (spec §5.1). A declared copy absent
+  from the source is a violation, not an allowance.
 - Hebrew character classes are built with explicit `\u` ranges and
   guarded by a test asserting they do **not** match `—`, `ᵃ`, `'`, `(`.
   A pasted literal class decomposed `יִ` and silently produced the range
@@ -141,18 +149,29 @@ interface TransformRecord {
 	rid: string;
 }
 
+interface TransformResult {
+	/** Text this call duplicated from elsewhere in the SAME entry
+	 * (spec §5.1). The gate verifies each string occurs in the input
+	 * before permitting it — a declared copy that is not in the source
+	 * is a violation, not an allowance. */
+	copied?: readonly string[];
+	entry: SourceEntry;
+	records: TransformRecord[];
+}
+
 interface Rule {
 	/** Text codepoints this rule may introduce beyond the input's own
 	 * bytes. Absent or empty means a strict sub-multiset. Every
-	 * non-empty value is a maintainer ruling — cite it in a comment. */
+	 * non-empty value is a maintainer ruling — cite it in a comment.
+	 * A per-entry copy is NOT expressible here; use `copied`. */
 	allows?: readonly string[];
-	apply(entry: SourceEntry): { entry: SourceEntry; records: TransformRecord[] };
+	apply(entry: SourceEntry): TransformResult;
 	/** Must match an `id` in data/patches/patterns.jsonl. */
 	id: string;
 	phase: TransformPhase;
 }
 
-export type { Rule, TransformPhase, TransformRecord };
+export type { Rule, TransformPhase, TransformRecord, TransformResult };
 ```
 
 - [ ] **Step 2: Write the failing registry test**
@@ -830,7 +849,7 @@ function applyTransforms(
 		}
 		const before = entry;
 		const result = rule.apply(before);
-		const problems = checkNoNewText(before, result.entry, rule);
+		const problems = checkNoNewText(before, result.entry, rule, result.copied);
 		if (problems.length > 0) {
 			throw new Error(`${rule.id}: ${problems.join('; ')}`);
 		}
@@ -1476,8 +1495,12 @@ Expected: FAIL — `Cannot find module './headwords.ts'`
  * 16 genuine acronym lexemes on gershayim U+05F4, which are correct
  * data a transform would corrupt.
  *
- * The `allows` list is empty: the recovered tail comes from the
- * headword, which is already in the entry, so no text is invented.
+ * The `allows` list is empty, but the rule DOES duplicate text: the
+ * recovered tail is copied from this entry's own headword. A
+ * sub-multiset gate counts occurrences, so the tail must be declared
+ * via `copied` (spec §5.1) — the gate then verifies it really occurs
+ * in the input before permitting it. `allows` cannot express this,
+ * because the tail differs per entry.
  */
 import type { SourceEntry } from '../../body/types.ts';
 import type { Rule, TransformRecord } from '../types.ts';
@@ -1506,6 +1529,7 @@ function expand(stub: string, headword: string): string | undefined {
 
 const abbrevInAltHeadwords: Rule = {
 	apply: (entry: SourceEntry) => {
+		const copied: string[] = [];
 		const records: TransformRecord[] = [];
 		const next = (entry.alt_headwords ?? []).map((alt) => {
 			if (!GERESH.test(alt)) {
@@ -1515,6 +1539,9 @@ const abbrevInAltHeadwords: Rule = {
 			if (expanded === undefined || expanded === alt) {
 				return alt;
 			}
+			// The tail came from the headword — declare it so the gate can
+			// verify the copy rather than reject the duplication.
+			copied.push(expanded.slice(alt.replace(WRAPPER, '').length));
 			records.push({
 				detail: `${alt} → ${expanded}`,
 				rid: entry.rid,
@@ -1523,6 +1550,7 @@ const abbrevInAltHeadwords: Rule = {
 			return expanded;
 		});
 		return {
+			copied,
 			entry: records.length === 0 ? entry : { ...entry, alt_headwords: next },
 			records,
 		};

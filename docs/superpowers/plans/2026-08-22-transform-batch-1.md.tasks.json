@@ -10,7 +10,7 @@
     {
       "id": 1,
       "subject": "Task 1: The HTML token stream",
-      "status": "pending",
+      "status": "completed",
       "blockedBy": [
         0
       ],
@@ -38,7 +38,7 @@
     {
       "id": 4,
       "subject": "Task 4: Record the RTL entanglement",
-      "status": "pending",
+      "status": "completed",
       "blockedBy": [
         0
       ],
@@ -76,5 +76,5 @@
       "description": "**Goal:** Prove the four rules compose with `repairs.ts` and the gates still hold at 32,512/32,512.\n\n**Files:**\n- Modify: `admin/pipeline/body/migrate-dry.ts:197-218`\n- Modify: `docs/v2/body-migration.md`\n\n**Acceptance Criteria:**\n- [ ] Transforms run after `applyRepairs`, inside `text-repairs`\n- [ ] All four round-trip gates stay at 32,512/32,512\n- [ ] 0 schema failures, 0 label quarantines \u2014 unchanged from baseline\n- [ ] The tokenizer round-trip count is unchanged from Task 1\n\n**Verify:** `bun body:migrate-dry` \u2192 gates 32,512/32,512, 0 schema failures; gate-line diff against the captured baseline is empty\n\n```json:metadata\n{\"files\": [\"admin/pipeline/body/migrate-dry.ts\", \"docs/v2/body-migration.md\"], \"verifyCommand\": \"bun body:migrate-dry\", \"acceptanceCriteria\": [\"transforms run after applyRepairs in text-repairs\", \"all four round-trip gates 32512/32512\", \"0 schema failures and 0 quarantines\", \"tokenizer round-trip still lossy=0\"], \"modelTier\": \"standard\"}\n```"
     }
   ],
-  "lastUpdated": "2026-08-22T10:05:00-05:00"
+  "lastUpdated": "2026-08-22T10:30:00-05:00"
 }
