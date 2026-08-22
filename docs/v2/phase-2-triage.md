@@ -84,7 +84,7 @@ either reproduces the count or does not.
 | `parenthesized-alt-headword` | 580 | **yes** | ⚠ unaudited |
 | `stranded-stem-head` | 544 | **yes** | — |
 | `homograph-numeral-mismatch` | 538 | no | ⚠ unaudited |
-| `redundant-outer-rtl-span` | 529 | no | ⚠ unaudited |
+| `redundant-outer-rtl-span` | 529 | no | — |
 | `anchor-swallows-close-paren` | 494 | no | — |
 | `geresh-letter-numeral-mislink` | 475 | no | — |
 | `nested-anchor-swallows-punctuation` | 465 | **yes** | — |
@@ -105,7 +105,7 @@ either reproduces the count or does not.
 | `prefixed-geresh-abbrev-mislink` | 173 | no | ⚠ unaudited |
 | `v-sub-redirect-stub-mislink` | 161 | no | — |
 | `superscript-subsection-stranded-outside-anchor` | 160 | **yes** | — |
-| `latin-token-inside-rtl-span` | 130 | **yes** | ⚠ unaudited |
+| `latin-token-inside-rtl-span` | 130 | **yes** | — |
 | `trailing-em-dash-tail` | 130 | **yes** | — |
 | `paren-tag-no-space` | 126 | no | ⚠ unaudited |
 | `anchor-italic-no-space` | 111 | no | ⚠ unaudited |
@@ -172,7 +172,7 @@ either reproduces the count or does not.
 3. **Respect `entangledWith`.** Four pairs must be fixed in one edit or
    they rewrite the same records twice. `checkEntanglement()` keeps the
    graph honest; the pairs are derived in the round-4 report.
-4. **15 transform rows are unaudited.** Expect some to reclassify to
+4. **13 transform rows are unaudited.** Expect some to reclassify to
    `judgment` on contact — the routing is a reading of each row, not a
    measurement.
 

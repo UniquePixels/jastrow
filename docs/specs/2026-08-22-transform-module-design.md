@@ -157,7 +157,7 @@ rather than merely discouraged.
 Where a rule's independent count disagrees with the catalogue, the
 disagreement is recorded, not suppressed. The row's `corpusCount` and
 `reason` are corrected in `patterns.jsonl`, or the row reclassifies
-(§6). Fifteen transform rows are unaudited — they have no recorded
+(§6). Thirteen transform rows are unaudited — they have no recorded
 derivation behind their counts — and the triage expects some of them
 to reclassify on contact.
 
@@ -188,14 +188,46 @@ row from ever running. It measures two axes per field — tag balance,
 and tags written inside an attribute value — and fails only where the
 output is worse than the input.
 
-**What no layer catches, recorded rather than implied.** Text
-RELOCATION is invisible to all three: two senses swapping their
-definitions, or text moved from `headword` into a definition, leave
-both the entry's text multiset and its markup untouched. §5.1 already
-sets the precedent for naming a gate's blind spot; this is the second
-one. A rule that relocates text across fields or senses must carry its
-own positional assertions, exactly as a `copied` rule must carry its
-own orthographic ones.
+**What no layer catches, recorded rather than implied.** Four classes
+degrade well-formedness or correctness and pass every axis above.
+§5.1 already sets the precedent for naming a gate's blind spot; these
+are the rest of what it does not cover.
+
+- **Text relocation.** Two senses swapping their definitions, or text
+  moved from `headword` into a definition, leave both the entry's text
+  multiset and its markup untouched — invisible to all three layers.
+- **Crossed nesting.** `<i><span dir="rtl">x</span></i>` rewritten to
+  `<i><span dir="rtl">x</i></span>` passes, all axes 0→0, and so does
+  `<span dir="rtl">a</span> mid <i>b</i>` rewritten to
+  `<span dir="rtl">a mid <i>b</span></i>`. Balance is a name-agnostic
+  depth counter mirroring `tokenize`'s pop-the-top stack — it sees a
+  push and a pop, never which open a given close paired with — so any
+  re-nesting that preserves depth is invisible to it.
+- **Tag-name mismatch.** `<span dir="rtl">x</span>` rewritten to
+  `<span dir="rtl">x</i>` passes for the same reason: balance counts
+  opens and closes, never which name closed which.
+- **Attribute-value corruption inside an otherwise well-formed tag.**
+  `dir="rtl"` rewritten to `dir="ltr"` passes both axes, and so does an
+  `href` or `data-ref` retargeted to anything: `stripTags` drops a
+  tag's interior wholesale rather than reading it, so a value rewritten
+  in place never touches the text multiset, and the markup layer's
+  attribute axis only counts a tag token written INSIDE an attribute
+  value — never a rewrite of the value's own content. This is the same
+  corruption family the `data-ref`-injection axis exists to catch, seen
+  from the side it does not cover.
+
+None of this is hypothetical for this codebase. Every batch-1 rule
+moves wrapper boundaries, and `redundant-outer-rtl-span`
+(`admin/pipeline/transform/rules/rtl.ts:299-326`) deletes an opening
+tag together with whatever `closers()` paired it with — a name-agnostic
+stack pairing that mispairs whenever the field already carries a stray
+close tag. Crossed nesting is in that family, not a separate
+hypothetical.
+
+A rule that relocates text across fields or senses must carry its own
+positional assertions; a rule that re-nests or renames a tag, or
+rewrites an attribute value, must carry its own structural assertions —
+exactly as a `copied` rule must carry its own orthographic ones.
 
 The gate reads every text-bearing field a rule can edit: `headword`,
 `alt_headwords`, `plural_form`, `language_code`, `language_reference`,

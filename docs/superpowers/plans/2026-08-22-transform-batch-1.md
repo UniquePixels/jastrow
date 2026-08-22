@@ -3,8 +3,7 @@
 > **For agentic workers:** REQUIRED SUB-SKILL: Use superpowers-extended-cc:subagent-driven-development (recommended) or superpowers-extended-cc:executing-plans to implement this plan task-by-task. Steps use checkbox (`- [ ]`) syntax for tracking.
 
 **Goal:** Stand up `admin/pipeline/transform/` and land the RTL-wrapper
-family (3 catalogue rows, 4,848 entries) plus the resolvable subset of
-`abbrev-in-alt-headwords`, with the residue reclassified on the record.
+family (3 catalogue rows, 4,848 entries).
 
 **Architecture:** A shared HTML token stream (`html.ts`) that every one
 of the eventual 80 rules reads; a registry that proves coverage against
@@ -119,7 +118,7 @@ day one, when zero rules exist.
 
 **Acceptance Criteria:**
 - [ ] `Rule` has no field holding an expected count
-- [ ] Coverage gate lists all 81 `route: transform` rows as registered or pending
+- [ ] Coverage gate lists all 80 `route: transform` rows as registered or pending
 - [ ] A rule id absent from `patterns.jsonl` fails the gate
 - [ ] An entanglement cluster must occupy a gap-free span in registry order
 - [ ] A three-way cluster at consecutive indices passes
@@ -203,8 +202,8 @@ describe('registry coverage', () => {
 		expect(report.registered + report.pending).toBe(report.total);
 	});
 
-	test('the catalogue still holds 81 transform rows', () => {
-		expect(coverage(catalogue).total).toBe(81);
+	test('the catalogue still holds 80 transform rows', () => {
+		expect(coverage(catalogue).total).toBe(80);
 	});
 
 	test('pending ids all exist in the catalogue', () => {
@@ -248,7 +247,7 @@ Expected: FAIL — `Cannot find module './registry.ts'`
 
 - [ ] **Step 4: Write `registry.ts`**
 
-`PENDING` starts as all 81 ids and shrinks as batches land. That is what
+`PENDING` starts as all 80 ids and shrinks as batches land. That is what
 makes the gate meaningful before any rule exists: `unaccounted` is
 always empty by construction, and a new catalogue row that nobody
 registered or listed shows up immediately.
@@ -368,7 +367,7 @@ console.log(ids.map(i => `\t${JSON.stringify(i)},`).join("\n"));
 console.error(`${ids.length} ids`);'
 ```
 
-Paste the output into `PENDING`. Expect `81 ids` on stderr.
+Paste the output into `PENDING`. Expect `80 ids` on stderr.
 
 - [ ] **Step 6: Run tests, expect pass**
 
@@ -682,7 +681,7 @@ text. This one strips tags first.
 /**
  * Transform-tier no-new-text gate (spec §5).
  *
- * Two layers. Markup is free to change — that is what most of the 81
+ * Two layers. Markup is free to change — that is what most of the 80
  * rules do. TEXT, with tags stripped, must be a sub-multiset of the
  * input's text, unless the rule declares an `allows` list.
  *
@@ -881,7 +880,7 @@ Expected: 3 pass
  * would be meaningless: rule 40's count drifts because rules 1–39
  * already edited the text.
  *
- * When the snapshot moves, this SKIPS rather than reporting 81 false
+ * When the snapshot moves, this SKIPS rather than reporting 80 false
  * mismatches. Re-pinning is a deliberate re-baseline, not a break.
  * Run: bun transform:count
  */

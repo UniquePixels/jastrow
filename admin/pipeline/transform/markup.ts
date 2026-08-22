@@ -7,7 +7,7 @@
  * injected INSIDE an attribute value is stripped as a tag and the text
  * multiset comes back unchanged. That is the D00478 defect this branch
  * found and fixed by hand; it was caught only because `bare-rtl-hebrew`
- * sat on an audited row whose entry count moved by one. Fifteen of the
+ * sat on an audited row whose entry count moved by one. Thirteen of the
  * 80 transform rows are unaudited and would have no such tripwire.
  *
  * **The assertion is a DELTA, not an absolute.** The corpus contains
@@ -38,24 +38,62 @@
  * attribute — so only the few tokens in between are attribute
  * interior. J00597's never does, so the whole remainder of that one
  * field counts as interior and no rule may add markup anywhere in it.
- * That is the tokenizer's reading and a browser's alike (the
- * unterminated `href` swallows on to the next quote), and it is the
- * D00478 defect one entry over, so the constraint is intended rather
- * than tolerated. It lifts when
- * `unterminated-href-swallows-closing-tag` repairs the tag. Measured:
- * these are the only two malformed open tags in the corpus, and none
- * of the three live rules edits either field.
  *
- * **What this gate does NOT catch, stated rather than implied.** Two
- * of the four corruption classes probed against `checkNoNewText` are
- * text RELOCATION, not markup damage, and no markup measure can see
- * them: two senses swapping their definitions, and text moved from
- * `headword` into a definition (`textOf` flattens every field into one
- * multiset, so the move is invisible there too). Per-field zipping
- * narrows the second class — a move that changes a field's markup
- * shape shows up — but a plain text move does not, and this gate does
- * not claim it. Spec §5 records the residue; §5.1 sets the precedent
- * for admitting a gate's blind spot rather than papering it.
+ * **This is NOT what a browser does, and the two readings diverge
+ * sharply here.** A browser's double-quoted attribute value ends at
+ * the next `"` — inside the following `<a class="`, about 110
+ * characters later — and the tag itself then ends at the first `>`;
+ * everything after that is ordinary document text, same as always.
+ * This tokenizer clears its in-attribute state only on a `>` inside a
+ * TEXT token, and J00597's tail holds 68 tokens, 34 of them tags and
+ * 0 text tokens containing `>` — so it never recovers, all the way to
+ * the field's end. The state machine is conservative by construction
+ * (see the delta property above), and this is that conservatism
+ * costing more than it looks like on a first read, not a claim that a
+ * browser would treat the field the same way.
+ *
+ * The radius is one field, but not a small one: it is
+ * `content.senses[0].definition`, 3,573 characters, of which 1,539
+ * (43%) — spanning 34 tag tokens — are frozen. That is exactly the
+ * scope `bare-rtl-hebrew` and `redundant-outer-rtl-span` already walk
+ * via `overDefinitions`. None of the three live rules changes this
+ * field today, so the constraint trips zero times, but it is a live
+ * constraint on the next definition-scoped rule, not a dormant one. It
+ * lifts when `unterminated-href-swallows-closing-tag` repairs the tag.
+ * Measured: these are the only two malformed open tags in the corpus,
+ * and none of the three live rules edits either field.
+ *
+ * **What this gate does NOT catch, stated rather than implied.**
+ * Within its own domain — markup, not text — three classes pass both
+ * axes untouched:
+ *
+ * - **Crossed nesting.** `<i><span dir="rtl">x</span></i>` rewritten
+ *   to `<i><span dir="rtl">x</i></span>` scores 0→0 on every axis:
+ *   `damageOf` counts opens pushed and closes popped, never which open
+ *   a given close paired with, so any re-nesting that preserves depth
+ *   is invisible to it.
+ * - **Tag-name mismatch.** `<span dir="rtl">x</span>` rewritten to
+ *   `<span dir="rtl">x</i>` passes for the same reason — a close pops
+ *   the stack regardless of what name it carries.
+ * - **Attribute-value corruption inside an otherwise well-formed tag.**
+ *   `dir="rtl"` rewritten to `dir="ltr"`, or an `href`/`data-ref`
+ *   retargeted to anything, passes both axes: the attribute axis counts
+ *   a TAG token written inside an attribute value, never a rewrite of
+ *   the value's own text, and balance never looks inside a tag at all.
+ *
+ * Outside markup, text RELOCATION is invisible too — not to this gate
+ * specifically, but to all three transform-tier layers together: two
+ * senses swapping their definitions, or text moved from `headword`
+ * into a definition (`textOf` flattens every field into one multiset,
+ * so the move is invisible there too). Per-field zipping narrows that
+ * class here — a move that changes a field's markup shape shows up —
+ * but a plain text move does not, and this gate does not claim it.
+ *
+ * Spec §5 records the full residue; §5.1 sets the precedent for
+ * admitting a gate's blind spot rather than papering it. A rule that
+ * re-nests or renames a tag, or rewrites an attribute value, carries
+ * its own structural assertions — this gate will not carry them for
+ * it.
  */
 import type { SourceEntry } from '../body/types.ts';
 import { opensScope, tokenize } from './html.ts';
