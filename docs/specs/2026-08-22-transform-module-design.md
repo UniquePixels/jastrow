@@ -215,9 +215,12 @@ declared allowance is not a transform.** It reclassifies.
 A sub-multiset check counts occurrences, so a rule that *copies* text
 from one field of an entry into another fails it — the copied
 codepoints now appear twice against an input that held them once. That
-is the shape of `abbrev-in-alt-headwords`, which recovers an
-abbreviation's elided tail from the entry's own `headword`, and of
-several later rows that fuse or split headword lines.
+is the shape of the rows that fuse, split or relocate headword lines.
+
+`abbrev-in-alt-headwords` was the case that prompted this mechanism and
+is no longer one of its consumers — see §5.2. The mechanism stands: it
+is correct for relocation, and `copied` currently has no consumer in
+batch 1.
 
 Nothing is invented there, and a static `allows` cannot express it: the
 copied tail differs per entry.
@@ -244,6 +247,55 @@ codepoint-level `allows` can.
 Maintainer ruling, 2026-08-22, on the question "how should the gate
 handle a rule that duplicates text from elsewhere in the same entry":
 declare what was copied, verify it against the input.
+
+**`copied` is a weaker guarantee than `allows`, and the difference is
+structural.** An `allows` list is static, small, and reviewed once at
+merge. A `copied` array is computed per call, per entry, from the rule's
+own output — a blank cheque the rule writes to itself. Measured
+consequence: a rule that doubled a combining mark inside its declared
+copy produced malformed Hebrew in 1,148 entries and the gate flagged
+**zero** of them, because the surplus codepoint was a sub-multiset of
+the declaration. Any defect whose surplus is a sub-multiset of a
+`copied` string is invisible to the gate by construction — and the text
+a splicing rule is most likely to mis-splice is precisely the text it
+declares. A rule using `copied` must therefore carry its own
+orthographic assertions; the gate will not carry them for it.
+
+### 5.2 Inference is not transformation
+
+**Maintainer ruling, 2026-08-22.** `abbrev-in-alt-headwords` (2,035
+entries) reclassifies to `judgment`, after its transform had been
+written, tested, and matched to its catalogue count exactly.
+
+The rule recovered a geresh-abbreviated variant's elided tail from the
+entry's `headword`. Two reasons it cannot stand:
+
+- **The elided form is what the print has.** A truncated variant is the
+  source's own content, not damage. This project deviates from print
+  occasionally and deliberately, never by default.
+- **Expansion assumes the headword's remaining vowels are the
+  variant's.** A variant spelling exists *because* it differs from the
+  headword, so that transfer is an assumption the corpus cannot test.
+  Correct expansion needs per-entry research against the 1903 print.
+
+The audit's "65.5% resolvable" figure — the number that made the row
+look transformable — measures only whether the stub's final consonant is
+**unique** in the headword. It says nothing about whether the recovered
+tail is correctly pointed. A count can look like a derivation and still
+be an assumption.
+
+**The test this establishes, applied before any row is routed
+`transform`: ask what the rule INFERS as opposed to what it MOVES.**
+Relocation, re-tagging and wrapper moves are transforms. Reconstructing
+elided text by inferring vocalization from a neighbouring field is
+research, however unique the anchor.
+
+Rows to re-examine under this test before they are implemented:
+`abbrev-headword-stub` (34) reconstructs a truncated spelling the same
+way; `abbrev-fused-headword` (7) and `phrase-alt-headword-stub` (236)
+relocate or substitute whole tokens and probably survive; and the
+uncatalogued `plural_form` geresh population (1,131 occurrences) has the
+ruled row's exact shape.
 
 ## 6. Coverage and Reclassification
 
