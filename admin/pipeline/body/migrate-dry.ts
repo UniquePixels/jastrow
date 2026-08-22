@@ -21,8 +21,9 @@ import {
 import type { SemanticPatch } from '../patch/schema.ts';
 import { computeSnapshot } from '../patch/snapshot.ts';
 import entrySchema from '../schema/entry.schema.json' with { type: 'json' };
+import { RULES } from '../transform/registry.ts';
 import { applyTransforms } from '../transform/run.ts';
-import type { TransformRecord } from '../transform/types.ts';
+import type { Rule, TransformRecord } from '../transform/types.ts';
 import { findCitations } from './cite.ts';
 import { buildTrace } from './dry-run.ts';
 import { toValidationEntry } from './dry-run-report.ts';
@@ -122,6 +123,24 @@ function unresolvedOrphans(entry: SourceEntry): string[] {
 	return expected.filter((item) => !seen.has(item));
 }
 
+/** `structural-repairs` runs empty below (`processEntry`'s comment: "no
+ * structural pass exists yet") — a rule registered with that phase would
+ * therefore never execute in this dry run, silently. Batch 6 is where
+ * `structural-repairs` gets wired for real; until then, fail loudly the
+ * moment `RULES` grows one instead of letting it vanish unrun. */
+function assertNoStructuralRules(rules: readonly Rule[] = RULES): void {
+	const structural = rules.filter(
+		(rule) => rule.phase === 'structural-repairs',
+	);
+	if (structural.length > 0) {
+		throw new Error(
+			`structural-repairs rule(s) registered but migrate-dry never runs that phase (wire it — batch 6): ${structural
+				.map((rule) => rule.id)
+				.join(', ')}`,
+		);
+	}
+}
+
 /** Bump a pass/total gate pair. */
 function tallyGate(tally: GateTally, ok: boolean): void {
 	tally.total++;
@@ -185,9 +204,10 @@ function recount(entry: SourceEntry, report: Report): void {
 /** The `text-repairs` phase body: literal repairs first (on pristine
  * source, so `repairs.ts`'s exactly-once find-text assertions hold),
  * then the corpus-correction transforms second, on the healed entry
- * (spec §5.2's ordering contract). Transform records are pushed onto
- * the report directly since `RunResult` and `RepairRecord` don't share
- * a shape the caller could merge generically. */
+ * (transform spec §2 "Placement": "Rules run after `applyRepairs`,
+ * within `text-repairs`"). Transform records are pushed onto the report
+ * directly since `RunResult` and `RepairRecord` don't share a shape the
+ * caller could merge generically. */
 function healAndTransform(
 	source: SourceEntry,
 	report: Report,
@@ -198,7 +218,7 @@ function healAndTransform(
 	return { entry: transformed.entry, records: healed.records };
 }
 
-/** One corpus entry through the committed phase manifest (spec §5.2):
+/** One corpus entry through the committed phase manifest (spec §5):
  * text repairs → structural repairs → patch apply → consumer-facing
  * composition + gates + recounts + full schema validation. The
  * tracker turns a mis-ordered edit to this function into a loud
@@ -297,13 +317,19 @@ function printSummary(report: Report): void {
 	for (const record of report.transformRecords) {
 		byRule.set(record.ruleId, (byRule.get(record.ruleId) ?? 0) + 1);
 	}
+	// Iterate RULES, not byRule: a rule that stops firing entirely must
+	// still print `0`, not vanish from a data-ordered summary — that
+	// silence is the exact failure mode this line exists to catch.
 	lines.push(
-		...[...byRule].map(([id, n]) => `transform ${id}: ${n} instance(s)`),
+		...RULES.map(
+			(rule) => `transform ${rule.id}: ${byRule.get(rule.id) ?? 0} instance(s)`,
+		),
 	);
 	console.log(lines.join('\n'));
 }
 
 if (import.meta.main) {
+	assertNoStructuralRules();
 	const ajv = new Ajv2020({ allErrors: true, strict: true });
 	const validate = ajv.compile(entrySchema);
 	const report = createReport();
@@ -347,4 +373,10 @@ if (import.meta.main) {
 	}
 }
 
-export { brokenTopSequence, startsAtTwo };
+export {
+	assertNoStructuralRules,
+	brokenTopSequence,
+	createReport,
+	healAndTransform,
+	startsAtTwo,
+};
