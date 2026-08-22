@@ -37,6 +37,7 @@ import {
 	type SemanticPatch,
 	validateCorpus,
 } from '../patch/schema.ts';
+import { byCodeUnit } from './chunks.ts';
 import {
 	type Disposition,
 	type EntryResult,
@@ -435,7 +436,7 @@ function selectSample(
 	const clean = records
 		.filter((r) => r.disposition === 'clean')
 		.map((r) => r.rid)
-		.sort();
+		.sort(byCodeUnit);
 	const random = mulberry32(config.seed);
 	return {
 		clean: seededSample(

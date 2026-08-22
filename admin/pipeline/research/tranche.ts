@@ -40,6 +40,7 @@ import {
 import {
 	buildCheckpoint,
 	buildTranches,
+	byCodeUnit,
 	type Chunk,
 	chunkCorpus,
 	corpusFingerprint,
@@ -236,7 +237,7 @@ async function ingest(workdir: string): Promise<void> {
 	for await (const hit of glob.scan({ cwd: `${workdir}/inputs` })) {
 		inputFiles.push(hit);
 	}
-	for (const name of inputFiles.sort()) {
+	for (const name of inputFiles.sort(byCodeUnit)) {
 		const input = (await Bun.file(`${workdir}/inputs/${name}`).json()) as {
 			chunkId: string;
 			entries: SourceEntry[];

@@ -47,6 +47,22 @@ class ChunkError extends Error {
 	}
 }
 
+/** Sort comparator for ASCII identifiers — rids, chunk ids, filenames.
+ *
+ * Deliberately NOT `localeCompare`: every ordering in this module feeds
+ * something that must be byte-stable forever — the corpus fingerprint
+ * that gates checkpoint resume, the chunk boundaries that give chunks
+ * their ids, and the seeded verification sample. `localeCompare` without
+ * an explicit locale varies with the host's ICU data, so adopting it
+ * would make those outputs environment-dependent. This is the default
+ * `.sort()` order stated explicitly, which is what S2871 asks for. */
+function byCodeUnit(a: string, b: string): number {
+	if (a < b) {
+		return -1;
+	}
+	return a > b ? 1 : 0;
+}
+
 /** sha256 of the rid list — the identity of one exact chunking
  * input. Sorted first, so the fingerprint is order-independent in the
  * same way `chunkCorpus` is; a caller that hands over the same rid set
@@ -54,7 +70,7 @@ class ChunkError extends Error {
  * Checkpoints pin it so resume-after-corpus-change fails. */
 function corpusFingerprint(rids: readonly string[]): string {
 	return createHash('sha256')
-		.update([...rids].sort().join('\n'))
+		.update([...rids].sort(byCodeUnit).join('\n'))
 		.digest('hex');
 }
 
@@ -70,7 +86,7 @@ function chunkCorpus(
 			`chunk size must be a positive integer, got ${chunkSize}`,
 		);
 	}
-	const sorted = [...rids].sort();
+	const sorted = [...rids].sort(byCodeUnit);
 	for (let i = 1; i < sorted.length; i++) {
 		if (sorted[i] === sorted[i - 1]) {
 			throw new ChunkError(`duplicate rid in corpus: ${sorted[i]}`);
@@ -224,6 +240,7 @@ export type { Checkpoint, Chunk, Tranche };
 export {
 	buildCheckpoint,
 	buildTranches,
+	byCodeUnit,
 	CHECKPOINT_DIR,
 	CHUNK_SIZE,
 	ChunkError,
