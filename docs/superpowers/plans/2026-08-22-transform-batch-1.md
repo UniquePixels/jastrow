@@ -977,8 +977,17 @@ it will trade one for another."
 
 - [ ] **Step 2: Write the edge, preserving row order and formatting**
 
-`renderPatterns()` is the writer — use it, do not hand-edit the JSONL,
-so key ordering stays canonical.
+**Do NOT round-trip the file through `renderPatterns()`.** It emits
+compact `JSON.stringify` output (`{"a":1,"b":2}`) while the on-disk
+catalogue uses spaced separators (`{"a": 1, "b": 2}`), so a whole-file
+render reformats all 149 rows into one unreadable diff. `renderPatterns`
+has no callers anywhere in the repo; the catalogue was not written by it.
+
+Edit the three target lines surgically instead, preserving the file's
+existing format exactly: `": "` after each key, `", "` between top-level
+pairs, and **compact arrays** (`["a","b"]`, no space after the comma —
+match the `entangledWith` arrays already in the file). Keys stay in
+alphabetical order. Every other line must remain byte-identical.
 
 ```bash
 bun -e 'import {parsePatterns, renderPatterns} from "./admin/pipeline/research/patterns.ts";
@@ -1331,7 +1340,7 @@ For each of the three rows:
 |---|---|
 | 0 | nothing — the predicate reproduces the catalogue |
 | non-zero, predicate wrong | fix the rule, re-run |
-| non-zero, predicate right | update `corpusCount` **and** write a `reason` recording the derivation, via `renderPatterns()` as in Task 4 Step 2 |
+| non-zero, predicate right | update `corpusCount` **and** write a `reason` recording the derivation, by surgical line edit as in Task 4 Step 2 |
 | predicate needs per-entry judgment | set `route: 'judgment'` with a `reason`, drop the rule, leave the id out of both `RULES` and `PENDING` |
 
 `bare-rtl-hebrew` is audited and should land at or very near 4,190; a
@@ -1553,7 +1562,8 @@ outcome, not a defect.
 - [ ] **Step 7: Split the row on the record**
 
 The catalogue must stop claiming a single deterministic transform covers
-2,035 entries. Using `renderPatterns()` as in Task 4 Step 2:
+2,035 entries. Edit the lines surgically, preserving the file's format —
+see Task 4 Step 2; do not use `renderPatterns()`:
 
 1. Set `abbrev-in-alt-headwords.corpusCount` to the measured resolvable
    entry count.
