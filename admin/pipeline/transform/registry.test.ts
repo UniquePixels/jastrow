@@ -1,6 +1,7 @@
 import { describe, expect, it } from 'bun:test';
-import { parsePatterns } from '../research/patterns.ts';
-import { coverage, PENDING, RULES } from './registry.ts';
+import { type Pattern, parsePatterns } from '../research/patterns.ts';
+import { checkAdjacency, coverage, PENDING, RULES } from './registry.ts';
+import type { Rule } from './types.ts';
 
 const catalogue = parsePatterns(
 	await Bun.file('data/patches/patterns.jsonl').text(),
@@ -29,5 +30,30 @@ describe('registry coverage', () => {
 		for (const id of PENDING) {
 			expect(ids).toContain(id);
 		}
+	});
+});
+
+describe('checkAdjacency', () => {
+	// The RTL family is a 3-clique (Task 4), registered consecutively in
+	// Task 5. Under a pairwise "≤ 1 apart" rule the endpoints are 2 apart
+	// and no arrangement can pass — hence cluster contiguity.
+	const clique = (ids: string[]): Pattern[] =>
+		ids.map((id) => ({
+			corpusCount: 0,
+			description: '',
+			entangledWith: ids.filter((other) => other !== id),
+			id,
+			round: 0,
+			status: 'candidate' as const,
+		}));
+
+	it('a contiguous three-way cluster passes', () => {
+		const rules = ['a', 'b', 'c'].map((id) => ({ id }) as Rule);
+		expect(checkAdjacency(clique(['a', 'b', 'c']), rules)).toEqual([]);
+	});
+
+	it('a split cluster is reported once, not once per edge', () => {
+		const rules = ['a', 'b', 'x', 'c'].map((id) => ({ id }) as Rule);
+		expect(checkAdjacency(clique(['a', 'b', 'c']), rules)).toHaveLength(1);
 	});
 });
