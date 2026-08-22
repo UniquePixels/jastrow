@@ -55,8 +55,9 @@ const FIELD_SEP = '\u0000';
 
 /** Strip markup, keeping only text-token content. A no-op on a field
  * that never carries tags in this corpus (`headword`, `alt_headwords`,
- * `plural_form`, `grammar.binyan_form`, `grammar.verbal_stem`) — safe
- * to apply uniformly rather than special-case per field. */
+ * `plural_form`, `grammar.binyan_form`, `grammar.verbal_stem`,
+ * `grammar.language_code`) — safe to apply uniformly rather than
+ * special-case per field. */
 function stripTags(html: string): string {
 	return serialize(tokenize(html).filter((t) => t.kind === 'text'));
 }
@@ -67,18 +68,24 @@ function stripTags(html: string): string {
  * `language_code`, `language_reference`, `quotes` (each triple's
  * two-or-three strings, nulls skipped), and `content` — morphology,
  * plus every sense's `number`, `definition`, `grammar.binyan_form`
- * (each string in the array) and `grammar.verbal_stem`, recursively
- * through nested senses.
+ * (each string in the array), `grammar.verbal_stem`, and
+ * `grammar.language_code`, recursively through nested senses.
  *
- * This list is exhaustive over `SourceEntry` and `SourceSense` by
- * construction: **`refs[]` is the only exclusion**, and it is
- * deliberate — `refs` is dropped from truth (body model spec §5, B7)
- * and holds machine identifiers — Sefaria ref strings — not text a
- * rule could be said to invent or preserve. A field outside this set
- * is a field the gate cannot see, and a rule editing only that field
- * would pass vacuously (spec §5) — reported as success on unreviewed
- * output, which is worse than failing. Adding a field to either type
- * means adding it here too.
+ * `grammar.language_code` is a field distinct from the entry-level
+ * `language_code` above, despite the shared name: it lives on a
+ * sense's `grammar`, not the entry, and holds the same
+ * etymology-fragment shape (`'(b. h.;'`) at 3 occurrences
+ * corpus-wide (`admin/pipeline/provenance/baseline-transform.ts:101-103`).
+ *
+ * This list is exhaustive over `SourceEntry`, `SourceSense`, and
+ * `SourceGrammar` by construction: **`refs[]` is the only exclusion**,
+ * and it is deliberate — `refs` is dropped from truth (body model
+ * spec §5, B7) and holds machine identifiers — Sefaria ref strings —
+ * not text a rule could be said to invent or preserve. A field
+ * outside this set is a field the gate cannot see, and a rule editing
+ * only that field would pass vacuously (spec §5) — reported as
+ * success on unreviewed output, which is worse than failing. Adding a
+ * field to any of the three types means adding it here too.
  */
 function textOf(entry: SourceEntry): string {
 	const parts: string[] = [
@@ -101,6 +108,9 @@ function textOf(entry: SourceEntry): string {
 			parts.push(...(sense.grammar?.binyan_form ?? []).map(stripTags));
 			if (sense.grammar?.verbal_stem !== undefined) {
 				parts.push(stripTags(sense.grammar.verbal_stem));
+			}
+			if (sense.grammar?.language_code !== undefined) {
+				parts.push(stripTags(sense.grammar.language_code));
 			}
 			walk(sense.senses ?? []);
 		}

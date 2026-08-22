@@ -260,6 +260,25 @@ describe('textOf — fields beyond content (spec §5)', () => {
 		};
 		expect(textOf(e)).toContain('Nested-stem');
 	});
+
+	it('includes sense.grammar.language_code, distinct from entry.language_code (round-3 fix)', () => {
+		const e: SourceEntry = {
+			content: {
+				senses: [
+					{
+						definition: 'a',
+						grammar: { language_code: '(b. h.;' },
+					},
+				],
+			},
+			headword: 'x',
+			language_code: 'entry-level etymology',
+			rid: 'A00001',
+		};
+		const text = textOf(e);
+		expect(text).toContain('(b. h.;');
+		expect(text).toContain('entry-level etymology');
+	});
 });
 
 describe('checkNoNewText — the gate sees every text field (spec §5)', () => {
@@ -334,6 +353,47 @@ describe('checkNoNewText — the gate sees every text field (spec §5)', () => {
 			content: { senses: [] },
 			headword: 'x',
 			language_code: 'TOTALLY NEW TEXT',
+			rid: 'A00001',
+		};
+		expect(checkNoNewText(before, after, {})).not.toEqual([]);
+	});
+
+	it("rejects invented text in a NESTED sense's grammar.language_code (round-3 fix)", () => {
+		// The distinct sense-level field (SourceGrammar.language_code),
+		// not entry.language_code, and two levels deep — proves the gate
+		// doesn't stop at the top sense either.
+		const before: SourceEntry = {
+			content: {
+				senses: [
+					{
+						definition: 'top',
+						senses: [
+							{
+								definition: 'nested',
+								grammar: { language_code: '(b. h.;' },
+							},
+						],
+					},
+				],
+			},
+			headword: 'x',
+			rid: 'A00001',
+		};
+		const after: SourceEntry = {
+			content: {
+				senses: [
+					{
+						definition: 'top',
+						senses: [
+							{
+								definition: 'nested',
+								grammar: { language_code: '(b. h.; INVENTED' },
+							},
+						],
+					},
+				],
+			},
+			headword: 'x',
 			rid: 'A00001',
 		};
 		expect(checkNoNewText(before, after, {})).not.toEqual([]);
