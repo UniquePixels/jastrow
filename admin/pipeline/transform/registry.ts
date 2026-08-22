@@ -6,16 +6,34 @@
  * neither is a silent skip, and the gate fails on it.
  */
 import type { Pattern } from '../research/patterns.ts';
+import {
+	bareRtlHebrew,
+	latinTokenInsideRtl,
+	redundantOuterRtl,
+} from './rules/rtl.ts';
 import type { Rule } from './types.ts';
 
 /** Rules in execution order. Entangled rows MUST be adjacent — they own
  * the same records and will rewrite each other's work otherwise. */
-const RULES: readonly Rule[] = [];
+const RULES: readonly Rule[] = [
+	// The rtl wrapper family — adjacent by requirement, a 3-clique in
+	// the catalogue's entanglement graph (Task 4).
+	//
+	// UNWRAP BEFORE WRAP, and the order is measured, not aesthetic.
+	// Dropping a redundant outer span re-exposes the Hebrew it covered:
+	// that text was `rtl: true` while the wrapper stood, so
+	// `bare-rtl-hebrew` correctly skipped it, and running the unwrapper
+	// afterwards left 62 entries newly bare with nothing left to wrap
+	// them — the audit's "trade one for another" happening in the
+	// registry rather than in a predicate. Unwrapping first leaves 0.
+	redundantOuterRtl,
+	bareRtlHebrew,
+	latinTokenInsideRtl,
+];
 
 /** Catalogued transform rows with no rule yet. Shrinks batch by batch;
  * empty at the end of Phase 2. */
 const PENDING: readonly string[] = [
-	'bare-rtl-hebrew',
 	'nonsense-dup-anchor',
 	'unlinked-v-span',
 	'ib-yoma-2a',
@@ -31,11 +49,9 @@ const PENDING: readonly string[] = [
 	'trailing-whitespace-definition',
 	'ascii-quote-as-gershayim-in-body',
 	'italic-swallowed-terminal-period',
-	'redundant-outer-rtl-span',
 	'em-dash-section-break-in-own-italic',
 	'italic-lone-punctuation',
 	'open-paren-in-anchor-display',
-	'latin-token-inside-rtl-span',
 	'trailing-em-dash-tail',
 	'anchor-italic-no-space',
 	'italic-close-paren-nospace',
