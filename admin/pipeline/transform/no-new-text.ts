@@ -41,35 +41,51 @@
 import type { SourceEntry, SourceSense } from '../body/types.ts';
 import { serialize, tokenize } from './html.ts';
 
+/** Joins `textOf`'s parts. NUL cannot occur in the corpus's text, so
+ * it marks a seam between two fields (or two array elements, or two
+ * senses) that were never adjacent in the source. Without it, a
+ * `copied` string could span two unrelated fields — `headword: 'ab'`
+ * plus `alt_headwords: ['cd']` would let `'bc'` pass as a "copy" that
+ * no field ever actually contained. `multiset` strips this separator
+ * before counting, so it never shows up as a phantom codepoint in the
+ * sub-multiset comparison; only the substring check in
+ * `checkNoNewText` (over `textOf`'s raw, separator-bearing output)
+ * relies on it being present. */
+const FIELD_SEP = '\u0000';
+
 /** Strip markup, keeping only text-token content. A no-op on a field
  * that never carries tags in this corpus (`headword`, `alt_headwords`,
- * `plural_form`) — safe to apply uniformly rather than special-case
- * per field. */
+ * `plural_form`, `grammar.binyan_form`, `grammar.verbal_stem`) — safe
+ * to apply uniformly rather than special-case per field. */
 function stripTags(html: string): string {
 	return serialize(tokenize(html).filter((t) => t.kind === 'text'));
 }
 
 /**
- * Every text-bearing field a rule can edit, tags stripped and
- * concatenated: `headword`, `alt_headwords`, `plural_form`,
- * `language_reference`, `quotes` (each triple's two-or-three strings,
- * nulls skipped), and `content` (morphology, plus every sense's
- * number and definition, recursively through nested senses).
+ * Every text-bearing field a rule can edit, tags stripped and joined
+ * with `FIELD_SEP`: `headword`, `alt_headwords`, `plural_form`,
+ * `language_code`, `language_reference`, `quotes` (each triple's
+ * two-or-three strings, nulls skipped), and `content` — morphology,
+ * plus every sense's `number`, `definition`, `grammar.binyan_form`
+ * (each string in the array) and `grammar.verbal_stem`, recursively
+ * through nested senses.
  *
- * `refs[]` is deliberately excluded: it is dropped from truth (body
- * model spec §5, B7) and holds machine identifiers — Sefaria ref
- * strings — not text a rule could be said to invent or preserve.
- *
- * A field outside this set is a field the gate cannot see, and a rule
- * editing only that field would pass vacuously (spec §5) — extend
- * this function, not the call sites, if a rule needs to touch a new
- * field.
+ * This list is exhaustive over `SourceEntry` and `SourceSense` by
+ * construction: **`refs[]` is the only exclusion**, and it is
+ * deliberate — `refs` is dropped from truth (body model spec §5, B7)
+ * and holds machine identifiers — Sefaria ref strings — not text a
+ * rule could be said to invent or preserve. A field outside this set
+ * is a field the gate cannot see, and a rule editing only that field
+ * would pass vacuously (spec §5) — reported as success on unreviewed
+ * output, which is worse than failing. Adding a field to either type
+ * means adding it here too.
  */
 function textOf(entry: SourceEntry): string {
 	const parts: string[] = [
 		stripTags(entry.headword),
 		...(entry.alt_headwords ?? []).map(stripTags),
 		...(entry.plural_form ?? []).map(stripTags),
+		stripTags(entry.language_code ?? ''),
 		stripTags(entry.language_reference ?? ''),
 		...(entry.quotes ?? []).flatMap((quote) =>
 			quote.filter((s): s is string => s !== null).map(stripTags),
@@ -82,17 +98,26 @@ function textOf(entry: SourceEntry): string {
 			if (sense.definition !== undefined) {
 				parts.push(stripTags(sense.definition));
 			}
+			parts.push(...(sense.grammar?.binyan_form ?? []).map(stripTags));
+			if (sense.grammar?.verbal_stem !== undefined) {
+				parts.push(stripTags(sense.grammar.verbal_stem));
+			}
 			walk(sense.senses ?? []);
 		}
 	};
 	walk(entry.content.senses);
-	return parts.join('');
+	return parts.join(FIELD_SEP);
 }
 
-/** Codepoint → count. */
+/** Codepoint → count. Skips `FIELD_SEP` — it marks a seam `textOf`
+ * introduced between fields, not a corpus byte, so it must never
+ * enter a sub-multiset comparison as a phantom codepoint. */
 function multiset(text: string): Map<string, number> {
 	const counts = new Map<string, number>();
 	for (const ch of text) {
+		if (ch === FIELD_SEP) {
+			continue;
+		}
 		counts.set(ch, (counts.get(ch) ?? 0) + 1);
 	}
 	return counts;

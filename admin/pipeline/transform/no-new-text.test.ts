@@ -197,6 +197,69 @@ describe('textOf — fields beyond content (spec §5)', () => {
 		};
 		expect(textOf(withRefs)).toBe(textOf(withoutRefs));
 	});
+
+	it('includes language_code, tags stripped (round-2 fix)', () => {
+		const e: SourceEntry = {
+			content: { senses: [] },
+			headword: 'x',
+			language_code: 'ch. = <a dir="rtl">em</a>',
+			rid: 'A00001',
+		};
+		const text = textOf(e);
+		expect(text).toContain('ch. = ');
+		expect(text).toContain('em');
+		expect(text).not.toContain('<a');
+	});
+
+	it('includes sense.grammar.binyan_form, each string tag-stripped (round-2 fix)', () => {
+		const e: SourceEntry = {
+			content: {
+				senses: [
+					{
+						definition: 'a',
+						grammar: { binyan_form: ['אוֹבֵיד', 'second'] },
+					},
+				],
+			},
+			headword: 'x',
+			rid: 'A00001',
+		};
+		const text = textOf(e);
+		expect(text).toContain('אוֹבֵיד');
+		expect(text).toContain('second');
+	});
+
+	it('includes sense.grammar.verbal_stem (round-2 fix)', () => {
+		const e: SourceEntry = {
+			content: {
+				senses: [{ definition: 'a', grammar: { verbal_stem: 'Pi.' } }],
+			},
+			headword: 'x',
+			rid: 'A00001',
+		};
+		expect(textOf(e)).toContain('Pi.');
+	});
+
+	it('walks grammar fields inside nested senses too', () => {
+		const e: SourceEntry = {
+			content: {
+				senses: [
+					{
+						definition: 'top',
+						senses: [
+							{
+								definition: 'nested',
+								grammar: { verbal_stem: 'Nested-stem' },
+							},
+						],
+					},
+				],
+			},
+			headword: 'x',
+			rid: 'A00001',
+		};
+		expect(textOf(e)).toContain('Nested-stem');
+	});
 });
 
 describe('checkNoNewText — the gate sees every text field (spec §5)', () => {
@@ -214,6 +277,63 @@ describe('checkNoNewText — the gate sees every text field (spec §5)', () => {
 			alt_headwords: ['abcXYZ'],
 			content: { senses: [] },
 			headword: 'x',
+			rid: 'A00001',
+		};
+		expect(checkNoNewText(before, after, {})).not.toEqual([]);
+	});
+
+	// Round 2: three fields the re-review found still vacuous, verified
+	// against the reference implementation before the fix (each
+	// returned [] although the rewrite fabricated text wholesale).
+	// Reproduces the exact three cases the review cited.
+
+	it('rejects a rule that rewrites grammar.binyan_form exclusively', () => {
+		const before: SourceEntry = {
+			content: {
+				senses: [{ definition: 'a', grammar: { binyan_form: ['x'] } }],
+			},
+			headword: 'x',
+			rid: 'A00001',
+		};
+		const after: SourceEntry = {
+			content: {
+				senses: [{ definition: 'a', grammar: { binyan_form: ['xINVENTED'] } }],
+			},
+			headword: 'x',
+			rid: 'A00001',
+		};
+		expect(checkNoNewText(before, after, {})).not.toEqual([]);
+	});
+
+	it('rejects a rule that rewrites grammar.verbal_stem exclusively', () => {
+		const before: SourceEntry = {
+			content: {
+				senses: [{ definition: 'a', grammar: { verbal_stem: 'Pi.' } }],
+			},
+			headword: 'x',
+			rid: 'A00001',
+		};
+		const after: SourceEntry = {
+			content: {
+				senses: [{ definition: 'a', grammar: { verbal_stem: 'FABRICATED' } }],
+			},
+			headword: 'x',
+			rid: 'A00001',
+		};
+		expect(checkNoNewText(before, after, {})).not.toEqual([]);
+	});
+
+	it('rejects a rule that rewrites language_code exclusively', () => {
+		const before: SourceEntry = {
+			content: { senses: [] },
+			headword: 'x',
+			language_code: '(b. h.;',
+			rid: 'A00001',
+		};
+		const after: SourceEntry = {
+			content: { senses: [] },
+			headword: 'x',
+			language_code: 'TOTALLY NEW TEXT',
 			rid: 'A00001',
 		};
 		expect(checkNoNewText(before, after, {})).not.toEqual([]);
@@ -259,5 +379,23 @@ describe('checkNoNewText — copied (spec §5.1)', () => {
 		expect(checkNoNewText(entry('ab'), entry('abbb'), {}, ['b'])).not.toEqual(
 			[],
 		);
+	});
+
+	it('a declared copy cannot span a seam between two fields (round-2 fix)', () => {
+		// headword 'ab' + alt_headwords ['cd'] never contained the
+		// substring 'bc' — it only appears if the two fields are
+		// concatenated directly. FIELD_SEP between textOf's parts must
+		// block this from being accepted as a "copy", even though the
+		// entry is otherwise unchanged (isolating the seam check from
+		// any separate new-text finding).
+		const unchanged: SourceEntry = {
+			alt_headwords: ['cd'],
+			content: { senses: [] },
+			headword: 'ab',
+			rid: 'A00001',
+		};
+		expect(checkNoNewText(unchanged, unchanged, {}, ['bc'])).toEqual([
+			'A00001: declared copy "bc" does not occur in the input',
+		]);
 	});
 });
