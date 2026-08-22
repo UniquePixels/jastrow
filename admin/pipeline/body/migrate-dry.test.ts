@@ -5,6 +5,7 @@ import {
 	assertNoStructuralRules,
 	createReport,
 	healAndTransform,
+	TransformFailure,
 } from './migrate-dry.ts';
 import { applyRepairs } from './repairs.ts';
 import { readSourceEntries } from './source.ts';
@@ -46,6 +47,44 @@ describe('healAndTransform — transform-spec §2 ordering contract', () => {
 		// contract is enforced today by exactly this one entry.
 		const transformedFirst = applyTransforms(source, 'text-repairs').entry;
 		expect(() => applyRepairs(transformedFirst)).toThrow(/matched 0×/u);
+	});
+});
+
+describe('healAndTransform — a transform failure is not a repair failure', () => {
+	// A rule that trips its own gate used to land in `repairFailures`
+	// and surface as "repair drift on N entries", sending the operator
+	// into repairs.ts to look for a find-text that never drifted. The
+	// phase is now carried on the error, so migrate-dry can file it
+	// under `transformFailures` and name transform/rules/ in the throw.
+	const inventive: Rule = {
+		apply: (entry: SourceEntry) => ({
+			entry: {
+				...entry,
+				content: {
+					...entry.content,
+					senses: [{ definition: 'zzz invented' }],
+				},
+			},
+			records: [],
+		}),
+		id: 'fixture-inventive-rule',
+		phase: 'text-repairs',
+	};
+
+	it('raises TransformFailure, distinguishable from a repairs.ts drift', async () => {
+		const source = await loadFixture('C01331');
+		const report = createReport();
+		expect(() => healAndTransform(source, report, [inventive])).toThrow(
+			TransformFailure,
+		);
+	});
+
+	it('names the rule that caused it', async () => {
+		const source = await loadFixture('C01331');
+		const report = createReport();
+		expect(() => healAndTransform(source, report, [inventive])).toThrow(
+			/fixture-inventive-rule/u,
+		);
 	});
 });
 

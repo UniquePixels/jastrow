@@ -77,6 +77,7 @@ interface Report {
 	recounts: Recounts;
 	repairedEntries: number;
 	repairFailures: string[];
+	transformFailures: string[];
 	transformRecords: TransformRecord[];
 }
 
@@ -174,6 +175,7 @@ function createReport(): Report {
 		},
 		repairFailures: [],
 		repairedEntries: 0,
+		transformFailures: [],
 		transformRecords: [],
 	};
 }
@@ -201,6 +203,15 @@ function recount(entry: SourceEntry, report: Report): void {
 	}
 }
 
+/** A failure raised by the TRANSFORM half of `text-repairs`, not by
+ * `repairs.ts`. The two halves fail for unrelated reasons and are
+ * fixed in unrelated files — a drifted literal find-text is a
+ * `repairs.ts` edit, a no-new-text or markup violation is a rule bug
+ * in `transform/rules/` — so the phase that failed is carried on the
+ * error rather than left for the operator to guess from a message
+ * saying "repair drift". */
+class TransformFailure extends Error {}
+
 /** The `text-repairs` phase body: literal repairs first (on pristine
  * source, so `repairs.ts`'s exactly-once find-text assertions hold),
  * then the corpus-correction transforms second, on the healed entry
@@ -211,9 +222,17 @@ function recount(entry: SourceEntry, report: Report): void {
 function healAndTransform(
 	source: SourceEntry,
 	report: Report,
+	rules: readonly Rule[] = RULES,
 ): ReturnType<typeof applyRepairs> {
 	const healed = applyRepairs(source);
-	const transformed = applyTransforms(healed.entry, 'text-repairs');
+	let transformed: ReturnType<typeof applyTransforms>;
+	try {
+		transformed = applyTransforms(healed.entry, 'text-repairs', rules);
+	} catch (error) {
+		throw new TransformFailure(
+			error instanceof Error ? error.message : String(error),
+		);
+	}
 	report.transformRecords.push(...transformed.records);
 	return { entry: transformed.entry, records: healed.records };
 }
@@ -231,18 +250,23 @@ function processEntry(
 ): void {
 	report.entries++;
 	const phases = createPhaseTracker();
-	// Contain a drifted find-text to its own entry: record it and keep
-	// walking, so one report run lists every drift instead of aborting at
-	// the first. main() rethrows after the walk — the run stays loud.
+	// Contain a drifted find-text — or a rule that tripped its own gate —
+	// to its own entry: record it and keep walking, so one report run
+	// lists every failure instead of aborting at the first. main()
+	// rethrows after the walk — the run stays loud. The two are recorded
+	// separately because they send the operator to different files.
 	let repaired: ReturnType<typeof applyRepairs>;
 	try {
 		repaired = phases.run('text-repairs', () =>
 			healAndTransform(source, report),
 		);
 	} catch (error) {
-		report.repairFailures.push(
-			`${source.rid}: ${error instanceof Error ? error.message : String(error)}`,
-		);
+		const line = `${source.rid}: ${error instanceof Error ? error.message : String(error)}`;
+		if (error instanceof TransformFailure) {
+			report.transformFailures.push(line);
+		} else {
+			report.repairFailures.push(line);
+		}
 		return;
 	}
 	const { entry, records } = repaired;
@@ -309,6 +333,7 @@ function printSummary(report: Report): void {
 		`binyanEmptyOrUntrimmed=${report.recounts.emptyOrUntrimmedBinyanForms}`,
 		`schemaFailures=${report.recounts.schemaFailures.length}`,
 		`repairFailures=${report.repairFailures.length}`,
+		`transformFailures=${report.transformFailures.length}`,
 		`patchCorpus=${report.patches.corpus} patchesApplied=${report.patches.applied} patchProblems=${report.patches.problems.length}`,
 		`unresolvedRepairedOrphans=${report.recounts.unresolvedRepairedOrphans.length}`,
 		`deferred=${Object.keys(report.deferred).length} confirmedNoChange=${report.confirmedNoChange.length}`,
@@ -363,7 +388,12 @@ if (import.meta.main) {
 	console.log(`report written to ${REPORT_PATH}`);
 	if (report.repairFailures.length > 0) {
 		throw new Error(
-			`repair drift on ${report.repairFailures.length} ${report.repairFailures.length === 1 ? 'entry' : 'entries'}:\n${report.repairFailures.join('\n')}`,
+			`text-repairs: repair drift on ${report.repairFailures.length} ${report.repairFailures.length === 1 ? 'entry' : 'entries'}:\n${report.repairFailures.join('\n')}`,
+		);
+	}
+	if (report.transformFailures.length > 0) {
+		throw new Error(
+			`text-repairs: transform failure on ${report.transformFailures.length} ${report.transformFailures.length === 1 ? 'entry' : 'entries'} — a rule in admin/pipeline/transform/rules/, not repairs.ts:\n${report.transformFailures.join('\n')}`,
 		);
 	}
 	if (report.patches.problems.length > 0) {
@@ -379,4 +409,5 @@ export {
 	createReport,
 	healAndTransform,
 	startsAtTwo,
+	TransformFailure,
 };
