@@ -23,11 +23,36 @@ const DIR_RTL = /\bdir\s*=\s*(?<q>["']?)rtl\k<q>/u;
  * data/patches/catalogue-audit/bare-rtl-hebrew.md).
  *
  * U+0591–U+05C7 points and accents · U+05D0–U+05EA letters (final
- * forms included) · U+05F3–U+05F4 geresh and gershayim ·
- * U+FB1D–U+FB4F presentation forms.
+ * forms included) · U+05F0–U+05F4 the yod-yod/vav-yod ligatures plus
+ * geresh and gershayim · U+FB1D–U+FB4F presentation forms.
  */
-const HEBREW = '\\u0591-\\u05C7\\u05D0-\\u05EA\\u05F3-\\u05F4\\uFB1D-\\uFB4F';
-const HEBREW_RUN = new RegExp(`[${HEBREW}]+(?:[ \\u00A0][${HEBREW}]+)*`, 'gu');
+const HEBREW = '\\u0591-\\u05C7\\u05D0-\\u05EA\\u05F0-\\u05F4\\uFB1D-\\uFB4F';
+
+/**
+ * What may sit INSIDE a Hebrew run but not in `HEBREW` itself.
+ *
+ * U+0307 combining dot above is a combining mark on a Hebrew base
+ * (1,635 corpus tokens: `מנא̇ מנא̇ תקל̇ ופר̇סין̇`). It must stay inside the
+ * run — a bare dot left after a `</span>` reattaches to the wrong base.
+ * It is matched only as a SUFFIX of a Hebrew base, never as a class
+ * member in its own right: U+0307 also spells Jastrow's Latin
+ * transliterations (`haġan` is g + U+0307), and admitting it to the
+ * class opened a Hebrew run around that Latin letter's diacritic.
+ *
+ * ASCII `'` and `"` are geresh and gershayim typed as ASCII (2,024 and
+ * 27 tokens: `אל"ף`). They are interior JOINERS only, never class
+ * members, so `[HEBREW]` still rejects a bare quote per the acceptance
+ * criterion. Without them a single word splits into two runs and Task
+ * 5 would wrap each half in its own bidi span, reordering the word.
+ *
+ * A literal TAB joins Hebrew in 4 tokens and is deliberately excluded —
+ * a tab inside a wrapper span is not clearly desirable.
+ */
+const HEBREW_ATOM = `[${HEBREW}]\\u0307*`;
+const HEBREW_RUN = new RegExp(
+	`(?:${HEBREW_ATOM})+(?:[ \\u00A0'"](?:${HEBREW_ATOM})+)*`,
+	'gu',
+);
 
 interface TextToken {
 	kind: 'text';
@@ -40,18 +65,42 @@ interface TagToken {
 	close: boolean;
 	kind: 'tag';
 	name: string;
-	/** An ancestor element carries dir="rtl" (the tag's own dir does
-	 * not count — an opening rtl span is itself `false`). */
+	/** An ancestor element carries dir="rtl". The tag's own dir does not
+	 * count, so an opening `<span dir="rtl">` is itself `false`. A
+	 * CLOSING tag reports the ancestry in effect immediately before it
+	 * closes, so the `</span>` of an rtl span is `true` — the pair is
+	 * deliberately asymmetric. */
 	rtl: boolean;
 	value: string;
 }
 
 type Token = TagToken | TextToken;
 
+/** Whether an opening tag opens a scope on the stack. Self-closing
+ * forms do not. Neither does a visibly malformed tag — a `<` inside the
+ * tag body means a swallowed closing tag supplied this tag's `>`, so the
+ * element never closes and its `dir` would leak to end of input. */
+function opensScope(value: string): boolean {
+	return !(value.endsWith('/>') || value.slice(1).includes('<'));
+}
+
 /** Split markup into text and tag tokens, resolving `dir="rtl"`
- * ancestry with a tag stack. Unbalanced markup does not throw: a stray
- * close pops nothing, which keeps a damaged entry tokenizable — the
- * damage is what the rules are here to find. */
+ * ancestry with a tag stack. Unbalanced markup does not throw, which
+ * keeps a damaged entry tokenizable — the damage is what the rules are
+ * here to find. Two consequences of that tolerance are load-bearing:
+ *
+ * - A close pops the TOP of the stack whatever element it belongs to;
+ *   it is not matched by name. On an empty stack it pops nothing (0
+ *   corpus cases).
+ * - A visibly malformed open tag — one whose body contains another `<`,
+ *   because a swallowed `</a>` inside an unterminated attribute value
+ *   supplied its `>` — is NOT pushed. Pushing it would leak its
+ *   `dir="rtl"` over every later token, since nothing ever pops it.
+ *   That mislabelled 58 text tokens across D00478 and J00597 and would
+ *   have fed correct markup to the `latin-token-inside-rtl-span` rule.
+ *   The damage stays fully visible in the tag token's raw `value`, so
+ *   the catalogue row `unterminated-href-swallows-closing-tag` remains
+ *   findable. */
 function tokenize(html: string): Token[] {
 	const tokens: Token[] = [];
 	const stack: boolean[] = [];
@@ -73,7 +122,7 @@ function tokenize(html: string): Token[] {
 		tokens.push({ close, kind: 'tag', name, rtl: depth(), value });
 		if (close) {
 			stack.pop();
-		} else if (!value.endsWith('/>')) {
+		} else if (opensScope(value)) {
 			stack.push(DIR_RTL.test(value));
 		}
 		at = match.index + value.length;
