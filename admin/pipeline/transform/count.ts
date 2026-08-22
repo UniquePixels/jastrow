@@ -12,9 +12,14 @@
  *
  * `hit` below counts ENTRIES a rule touches, not instances within
  * them — a rule that fires three times inside one entry still counts
- * once. This matches the catalogue's `corpusCount`, which is an entry
- * count for the batch-1 rows (audit reports confirm `bare-rtl-hebrew`
- * is "4,472 senses / 4,190 entries" and its `corpusCount` is 4,190).
+ * once. `corpusCount` is an entry count for MOST rows — verified for
+ * `bare-rtl-hebrew` ("4,472 senses / 4,190 entries", `corpusCount`
+ * 4,190) — but not all of them: `ascii-gershayim-outside-body-text`
+ * (`corpusCount` 409) documents itself in patterns.jsonl as "COUNT IS
+ * OCCURRENCES ACROSS SEVEN FIELD SLOTS, NOT ENTRIES." A DELTA against
+ * a row like that is not a harness bug to chase — it is the designed
+ * unit-mismatch finding (spec §4.2) for whoever writes that rule to
+ * triage, not evidence this measurement is wrong.
  *
  * The corpus (32,512 entries, ~41 MB) is read into memory once up
  * front and every rule loops over that array, rather than
@@ -24,6 +29,16 @@
  * The parsed corpus fits comfortably in memory, so paying the
  * streaming cost once and looping rules over the array in memory is
  * the cheaper trade.
+ *
+ * `loadCorpus()` recursively freezes every entry after parsing.
+ * `Rule.apply` MUST treat its input as immutable (spec + `types.ts`
+ * doc on `Rule.apply`) — an in-place mutator would otherwise corrupt
+ * every later rule's measurement against this same shared array
+ * within one run, a live instance of the "composed counts are
+ * meaningless" failure this harness exists to prevent, introduced by
+ * the load-once optimization above rather than by rule chaining. The
+ * freeze turns that silent corruption into an immediate `TypeError`
+ * naming the mutating call (ESM is strict mode).
  *
  * Run: bun transform:count
  */
@@ -37,12 +52,33 @@ import type { Rule } from './types.ts';
 
 const PATTERNS_PATH = 'data/patches/patterns.jsonl';
 
+/** Recursively freezes a parsed entry (and every nested object and
+ * array it holds — `content.senses[]`, each sense's `grammar` and
+ * nested `senses[]`, `quotes[]`, `alt_headwords`, `plural_form`,
+ * `refs` — by walking own keys generically rather than naming fields,
+ * so it stays correct if a field is added) so an in-place mutation by
+ * a rule throws a `TypeError` immediately instead of silently
+ * corrupting every later rule's measurement against the same shared
+ * array (see module doc above, and the purity clause on `Rule.apply`
+ * in `types.ts`). */
+function deepFreeze<T>(value: T): T {
+	if (value === null || typeof value !== 'object' || Object.isFrozen(value)) {
+		return value;
+	}
+	Object.freeze(value);
+	for (const key of Object.keys(value)) {
+		deepFreeze((value as Record<string, unknown>)[key]);
+	}
+	return value;
+}
+
 /** Read the corpus once into memory (see module doc above) rather than
- * re-streaming `readSourceEntries()` once per rule. */
+ * re-streaming `readSourceEntries()` once per rule, freezing each
+ * entry so a mutating rule fails loudly instead of silently. */
 async function loadCorpus(): Promise<SourceEntry[]> {
 	const entries: SourceEntry[] = [];
 	for await (const entry of readSourceEntries()) {
-		entries.push(entry);
+		entries.push(deepFreeze(entry));
 	}
 	return entries;
 }

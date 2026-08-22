@@ -39,6 +39,29 @@ interface Rule {
 	 * the copied bytes differ per entry, not per rule. Declare those
 	 * through `TransformResult.copied` instead (spec §5.1). */
 	allows?: readonly string[];
+	/** MUST treat `entry` as immutable and return a NEW entry object
+	 * reflecting the change — or the same reference, unchanged, when
+	 * the rule makes no change (that is the normal case when
+	 * `records` comes back empty, and every rule already does this
+	 * when it doesn't match). An in-place mutator breaks two things
+	 * silently, both load-bearing on this contract:
+	 *
+	 * - `run.ts` gates each call by comparing `before` against
+	 *   `result.entry` by REFERENCE identity first, via
+	 *   `checkNoNewText`. A mutate-in-place rule returns the same
+	 *   object it was given, so the gate compares an object against
+	 *   itself and reports clean no matter what the rule actually
+	 *   changed — the exact violation this gate exists to catch.
+	 * - `count.ts`'s audit measures every rule alone against one
+	 *   shared in-memory corpus array (loaded once, not per rule, for
+	 *   performance). An in-place mutation from one rule corrupts
+	 *   every later rule's measurement in the same run — the
+	 *   "composed counts are meaningless" failure this architecture
+	 *   forbids, reintroduced by that load-once optimization rather
+	 *   than by rule chaining. `count.ts` recursively freezes the
+	 *   corpus specifically so a violation throws a `TypeError` naming
+	 *   the mutating call instead of silently corrupting later
+	 *   results. */
 	apply(entry: SourceEntry): TransformResult;
 	/** Must match an `id` in data/patches/patterns.jsonl. */
 	id: string;
