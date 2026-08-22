@@ -4,7 +4,7 @@
     {
       "id": 0,
       "subject": "Task 0: Rule types and the empty registry",
-      "status": "pending",
+      "status": "completed",
       "description": "**Goal:** The Rule contract and a coverage gate that is meaningful on day one, when zero rules exist.\n\n**Files:**\n- Create: `admin/pipeline/transform/types.ts`\n- Create: `admin/pipeline/transform/registry.ts`\n- Test: `admin/pipeline/transform/registry.test.ts`\n\n**Acceptance Criteria:**\n- [ ] `Rule` has no field holding an expected count\n- [ ] Coverage gate lists all 81 `route: transform` rows as registered or pending\n- [ ] A rule id absent from `patterns.jsonl` fails the gate\n- [ ] Entangled rows must be adjacent in registry order\n\n**Verify:** `bun test admin/pipeline/transform/registry.test.ts` \u2192 4 pass\n\n```json:metadata\n{\"files\": [\"admin/pipeline/transform/types.ts\", \"admin/pipeline/transform/registry.ts\", \"admin/pipeline/transform/registry.test.ts\"], \"verifyCommand\": \"bun test admin/pipeline/transform/registry.test.ts\", \"acceptanceCriteria\": [\"Rule carries no expected count\", \"coverage() accounts for all 81 transform rows\", \"unknown rule id fails the gate\", \"entangled rows adjacent\"], \"modelTier\": \"standard\"}\n```"
     },
     {
@@ -76,5 +76,5 @@
       "description": "**Goal:** Prove the four rules compose with `repairs.ts` and the gates still hold at 32,512/32,512.\n\n**Files:**\n- Modify: `admin/pipeline/body/migrate-dry.ts:197-218`\n- Modify: `docs/v2/body-migration.md`\n\n**Acceptance Criteria:**\n- [ ] Transforms run after `applyRepairs`, inside `text-repairs`\n- [ ] All four round-trip gates stay at 32,512/32,512\n- [ ] 0 schema failures, 0 label quarantines \u2014 unchanged from baseline\n- [ ] The tokenizer round-trip count is unchanged from Task 1\n\n**Verify:** `bun body:migrate-dry` \u2192 gates 32,512/32,512, 0 schema failures; gate-line diff against the captured baseline is empty\n\n```json:metadata\n{\"files\": [\"admin/pipeline/body/migrate-dry.ts\", \"docs/v2/body-migration.md\"], \"verifyCommand\": \"bun body:migrate-dry\", \"acceptanceCriteria\": [\"transforms run after applyRepairs in text-repairs\", \"all four round-trip gates 32512/32512\", \"0 schema failures and 0 quarantines\", \"tokenizer round-trip still lossy=0\"], \"modelTier\": \"standard\"}\n```"
     }
   ],
-  "lastUpdated": "2026-08-22T09:40:00-05:00"
+  "lastUpdated": "2026-08-22T10:05:00-05:00"
 }

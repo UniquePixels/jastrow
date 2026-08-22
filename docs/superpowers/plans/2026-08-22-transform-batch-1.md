@@ -562,16 +562,18 @@ few seconds. Run it once here and again in Task 7.
 bun -e 'import {readSourceEntries} from "./admin/pipeline/body/source.ts";
 import {serialize, tokenize} from "./admin/pipeline/transform/html.ts";
 let n = 0, bad = 0;
-const walk = (senses) => { for (const s of senses) {
+const walk = (senses) => { for (const s of senses ?? []) {
   if (s.definition) { n++; if (serialize(tokenize(s.definition)) !== s.definition) { bad++; console.log("LOSSY", s.definition.slice(0, 120)); } }
   if (s.senses) walk(s.senses); } };
-for (const e of await readSourceEntries()) walk(e.content.senses);
+// readSourceEntries is an async GENERATOR — `for await`, not `for … of await`.
+for await (const e of readSourceEntries()) walk(e.content.senses);
 console.log(`definitions=${n} lossy=${bad}`);'
 ```
 
-Expected: `lossy=0`. **A non-zero count blocks the batch** — fix the
-tokenizer before writing any rule. Record the definition count; Task 7
-re-runs this and it must not move.
+Expected: `definitions=44668 lossy=0`. **A non-zero count blocks the
+batch** — fix the tokenizer before writing any rule, and never narrow the
+corpus or loosen the comparison to make it pass. Task 7 re-runs this and
+both figures must be identical.
 
 - [ ] **Step 6: Commit**
 
@@ -1680,8 +1682,10 @@ removing rules from `RULES` one at a time.
 
 - [ ] **Step 5: Re-prove the tokenizer round-trip**
 
-Re-run the Task 1 Step 5 script. The definition count must match what
-Task 1 recorded; `lossy=0` still.
+Re-run the Task 1 Step 5 script verbatim (it is a `for await` over an
+async generator — do not rewrite it). Expected, unchanged from Task 1:
+`definitions=44668 lossy=0`. A moved definition count means a transform
+changed the sense tree, which nothing in batch 1 should do.
 
 - [ ] **Step 6: Update the migration report doc**
 
