@@ -6,6 +6,7 @@
  * neither is a silent skip, and the gate fails on it.
  */
 import type { Pattern } from '../research/patterns.ts';
+import { abbrevInAltHeadwords } from './rules/headwords.ts';
 import {
 	bareRtlHebrew,
 	latinTokenInsideRtl,
@@ -29,6 +30,11 @@ const RULES: readonly Rule[] = [
 	redundantOuterRtl,
 	bareRtlHebrew,
 	latinTokenInsideRtl,
+
+	// Unentangled — it edits `alt_headwords`, which no registered rule
+	// touches — so its position carries no requirement and it simply
+	// follows the trio above.
+	abbrevInAltHeadwords,
 ];
 
 /** Catalogued transform rows with no rule yet. Shrinks batch by batch;
@@ -61,7 +67,6 @@ const PENDING: readonly string[] = [
 	'sense-number-outside-closed-grammar',
 	'bracketed-gloss-lead-sense',
 	'asterisk-stem-label',
-	'abbrev-in-alt-headwords',
 	'parenthesized-alt-headword',
 	'b-h-split-across-field-boundary',
 	'mekhilta-sifra-never-linked',
