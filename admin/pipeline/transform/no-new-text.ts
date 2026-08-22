@@ -2,11 +2,13 @@
  * Transform-tier no-new-text gate (spec §5, §5.1).
  *
  * Three layers. Markup is free to change — that is what most of the
- * 81 rules do. TEXT, with tags stripped, must be a sub-multiset of
- * the input's text, unless the rule declares an `allows` list. A
- * per-call COPY of text from elsewhere in the same entry is checked
- * against that entry's own input rather than a static allowance
- * (§5.1) — see `checkNoNewText`'s `copied` parameter.
+ * 80 rules do — and is checked separately, for a well-formedness
+ * DELTA rather than for well-formedness, by `markup.ts`. TEXT, with
+ * tags stripped, must be a sub-multiset of the input's text, unless
+ * the rule declares an `allows` list. A per-call COPY of text from
+ * elsewhere in the same entry is checked against that entry's own
+ * input rather than a static allowance (§5.1) — see
+ * `checkNoNewText`'s `copied` parameter.
  *
  * The patch-tier validator (`admin/pipeline/patch/no-new-text.ts`)
  * cannot be reused here: its `flattenContent`
@@ -63,13 +65,13 @@ function stripTags(html: string): string {
 }
 
 /**
- * Every text-bearing field a rule can edit, tags stripped and joined
- * with `FIELD_SEP`: `headword`, `alt_headwords`, `plural_form`,
- * `language_code`, `language_reference`, `quotes` (each triple's
- * two-or-three strings, nulls skipped), and `content` — morphology,
- * plus every sense's `number`, `definition`, `grammar.binyan_form`
- * (each string in the array), `grammar.verbal_stem`, and
- * `grammar.language_code`, recursively through nested senses.
+ * Every text-bearing field a rule can edit, raw and in traversal
+ * order: `headword`, `alt_headwords`, `plural_form`, `language_code`,
+ * `language_reference`, `quotes` (each triple's two-or-three strings,
+ * nulls skipped), and `content` — morphology, plus every sense's
+ * `number`, `definition`, `grammar.binyan_form` (each string in the
+ * array), `grammar.verbal_stem`, and `grammar.language_code`,
+ * recursively through nested senses.
  *
  * `grammar.language_code` is a field distinct from the entry-level
  * `language_code` above, despite the shared name: it lives on a
@@ -78,45 +80,65 @@ function stripTags(html: string): string {
  * corpus-wide (`admin/pipeline/provenance/baseline-transform.ts:101-103`).
  *
  * This list is exhaustive over `SourceEntry`, `SourceSense`, and
- * `SourceGrammar` by construction: **`refs[]` is the only exclusion**,
- * and it is deliberate — `refs` is dropped from truth (body model
- * spec §5, B7) and holds machine identifiers — Sefaria ref strings —
- * not text a rule could be said to invent or preserve. A field
- * outside this set is a field the gate cannot see, and a rule editing
- * only that field would pass vacuously (spec §5) — reported as
- * success on unreviewed output, which is worse than failing. Adding a
- * field to any of the three types means adding it here too.
+ * `SourceGrammar` by construction. **Two fields are excluded, both
+ * deliberately:**
+ *
+ * - `refs[]` is dropped from truth (body model spec §5, B7) and holds
+ *   machine identifiers — Sefaria ref strings — not text a rule could
+ *   be said to invent or preserve.
+ * - `rid` is the entry's primary key. It is an identifier, not text,
+ *   and this gate is a text gate: a rule that rewrote a `rid` would
+ *   pass here, and correctly so, because what such a rule needs is an
+ *   IDENTITY assertion (the walk's rid must survive its own
+ *   transform), not a sub-multiset one. No rule rewrites `rid` today;
+ *   one that wants to must bring that assertion with it.
+ *
+ * A field outside this set is a field the gate cannot see, and a rule
+ * editing only that field would pass vacuously (spec §5) — reported
+ * as success on unreviewed output, which is worse than failing.
+ * Adding a field to any of the three types means adding it here too.
+ *
+ * Both gates read this one list: `textOf` strips its tags and
+ * compares text multisets, `markup.ts` compares its well-formedness
+ * delta. One enumeration, so a new field cannot land in one gate's
+ * view and not the other's.
  */
-function textOf(entry: SourceEntry): string {
+function fieldsOf(entry: SourceEntry): string[] {
 	const parts: string[] = [
-		stripTags(entry.headword),
-		...(entry.alt_headwords ?? []).map(stripTags),
-		...(entry.plural_form ?? []).map(stripTags),
-		stripTags(entry.language_code ?? ''),
-		stripTags(entry.language_reference ?? ''),
+		entry.headword,
+		...(entry.alt_headwords ?? []),
+		...(entry.plural_form ?? []),
+		entry.language_code ?? '',
+		entry.language_reference ?? '',
 		...(entry.quotes ?? []).flatMap((quote) =>
-			quote.filter((s): s is string => s !== null).map(stripTags),
+			quote.filter((s): s is string => s !== null),
 		),
-		stripTags(entry.content.morphology ?? ''),
+		entry.content.morphology ?? '',
 	];
 	const walk = (senses: readonly SourceSense[]): void => {
 		for (const sense of senses) {
 			parts.push(sense.number ?? '');
 			if (sense.definition !== undefined) {
-				parts.push(stripTags(sense.definition));
+				parts.push(sense.definition);
 			}
-			parts.push(...(sense.grammar?.binyan_form ?? []).map(stripTags));
+			parts.push(...(sense.grammar?.binyan_form ?? []));
 			if (sense.grammar?.verbal_stem !== undefined) {
-				parts.push(stripTags(sense.grammar.verbal_stem));
+				parts.push(sense.grammar.verbal_stem);
 			}
 			if (sense.grammar?.language_code !== undefined) {
-				parts.push(stripTags(sense.grammar.language_code));
+				parts.push(sense.grammar.language_code);
 			}
 			walk(sense.senses ?? []);
 		}
 	};
 	walk(entry.content.senses);
-	return parts.join(FIELD_SEP);
+	return parts;
+}
+
+/** `fieldsOf` with every field's tags stripped, joined with
+ * `FIELD_SEP`. The text the sub-multiset comparison counts. */
+function textOf(entry: SourceEntry): string {
+	return fieldsOf(entry).map(stripTags).join(FIELD_SEP);
 }
 
 /** Codepoint → count. Skips `FIELD_SEP` — it marks a seam `textOf`
@@ -181,4 +203,4 @@ function checkNoNewText(
 	return problems;
 }
 
-export { checkNoNewText, textOf };
+export { checkNoNewText, fieldsOf, textOf };
