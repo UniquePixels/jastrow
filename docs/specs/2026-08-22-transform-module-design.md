@@ -169,11 +169,26 @@ Three layers:
 | **Copies** | text duplicated from elsewhere in the same entry, declared per call (§5.1) |
 
 The gate reads every text-bearing field a rule can edit: `headword`,
-`alt_headwords`, `plural_form`, `language_reference`, `quotes`, and
-`content` (morphology, sense numbers, definitions, recursively). A field
-outside that set is a field the gate cannot see, and a rule editing it
-would pass vacuously. `refs[]` is excluded deliberately — it is dropped
-from truth (body model §5, B7) and holds machine identifiers, not text.
+`alt_headwords`, `plural_form`, `language_code`, `language_reference`,
+`quotes`, and `content` — morphology, and recursively each sense's
+number, definition and `grammar.binyan_form` / `grammar.verbal_stem`.
+
+A field outside that set is a field the gate cannot see, and a rule
+editing it passes vacuously — which is worse than failing, because it
+reports success on unreviewed output. The list is therefore exhaustive
+over `SourceEntry` and `SourceSense` by construction: **`refs[]` is the
+only exclusion**, and it is deliberate — `refs` is dropped from truth
+(body model §5, B7) and holds machine identifiers rather than text.
+
+The grammar and `language_code` entries are not hypothetical: five
+already-routed transform rows edit exactly those fields —
+`binyan-form-leading-space` (457, blocking), `binyan-form-empty-slot`
+(446), `asterisk-stem-label`, `empty-stem-section` (342), and
+`b-h-split-across-field-boundary`, which moves text across the
+`language_code` ↔ definition boundary and would otherwise pass
+vacuously in one direction while false-failing in the other. The corpus
+carries 5,399 `binyan_form` strings and 5,837 entries whose
+`language_code` holds an etymology fragment (`'(b. h.;'`, `' ch. = h.'`).
 
 Every non-empty `allows` is a maintainer ruling in code, cited to its
 source. Three groups are anticipated:
