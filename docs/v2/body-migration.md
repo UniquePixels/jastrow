@@ -139,3 +139,48 @@ binyan empties/spaces, orphan basis) recounts to zero; and the
 sense-sequence census falls 72 → 34, with each survivor individually
 accounted for above. Deviations from print are flagged per-record
 (`deviation: true`) pending the notes-mechanism spec.
+
+## Task 7 — Transform wiring (corpus-correction rules)
+
+Phase 2 batch 1's three corpus-correction rules
+([transform/registry.ts](../../admin/pipeline/transform/registry.ts))
+now run inside the `text-repairs` phase, **second**, on the entry
+`applyRepairs` already healed — `repairs.ts`'s exactly-once find-text
+assertions still see pristine source, since transforms run after it,
+not before. A maintainer ruling (2026-08-22) reclassified
+`abbrev-in-alt-headwords` from transform to judgment and deleted its
+rule (spec §5.2, "Inference is not transformation"); the registry holds
+exactly three rules, not four:
+
+| Rule | `bun transform:count` (entries) | `bun body:migrate-dry` (instances, composed run) |
+|---|---|---|
+| `redundant-outer-rtl-span` | 529 | 531 |
+| `bare-rtl-hebrew` | 4,189 | 4,516 |
+| `latin-token-inside-rtl-span` | 130 | 131 |
+
+The catalogue column counts matching entries in isolation
+(`transform:count`'s audit, one rule against the raw corpus); the
+migrate-dry column counts `TransformRecord`s produced in the composed,
+in-order run over the healed corpus — naturally larger where the
+unwrap-then-wrap sequencing (registry.ts's ordering comment) exposes
+additional bare-RTL text for `bare-rtl-hebrew` to catch after
+`redundant-outer-rtl-span` has already run.
+
+### Gate tallies — before and after wiring transforms
+
+| Gate | Before | After |
+|---|---|---|
+| `entries` / `repaired` | 32512 / 832 | 32512 / 832 |
+| `gate formSection` | 32512/32512 | 32512/32512 |
+| `gate lettered` | 32512/32512 | 32512/32512 |
+| `gate rejoin` | 32512/32512 | 32512/32512 |
+| `gate units` | 32512/32512 | 32512/32512 |
+| `schemaFailures` | 0 | 0 |
+| `labelQuarantines` | 0 | 0 |
+| `repairFailures` | 0 | 0 |
+
+`diff` of the gate lines between the before/after `bun body:migrate-dry`
+runs is empty. The tokenizer round-trip (Task 1 Step 5, re-run verbatim
+per its corrected `for await` form) is unchanged:
+`entries=32512 definitions=44668 lossy=0` — no rule in this batch moved
+a definition between senses.

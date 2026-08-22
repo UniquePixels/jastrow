@@ -21,6 +21,8 @@ import {
 import type { SemanticPatch } from '../patch/schema.ts';
 import { computeSnapshot } from '../patch/snapshot.ts';
 import entrySchema from '../schema/entry.schema.json' with { type: 'json' };
+import { applyTransforms } from '../transform/run.ts';
+import type { TransformRecord } from '../transform/types.ts';
 import { findCitations } from './cite.ts';
 import { buildTrace } from './dry-run.ts';
 import { toValidationEntry } from './dry-run-report.ts';
@@ -74,6 +76,7 @@ interface Report {
 	recounts: Recounts;
 	repairedEntries: number;
 	repairFailures: string[];
+	transformRecords: TransformRecord[];
 }
 
 /** Top-level sense-number sequence check (census .brokenSequences
@@ -152,6 +155,7 @@ function createReport(): Report {
 		},
 		repairFailures: [],
 		repairedEntries: 0,
+		transformRecords: [],
 	};
 }
 
@@ -178,6 +182,22 @@ function recount(entry: SourceEntry, report: Report): void {
 	}
 }
 
+/** The `text-repairs` phase body: literal repairs first (on pristine
+ * source, so `repairs.ts`'s exactly-once find-text assertions hold),
+ * then the corpus-correction transforms second, on the healed entry
+ * (spec §5.2's ordering contract). Transform records are pushed onto
+ * the report directly since `RunResult` and `RepairRecord` don't share
+ * a shape the caller could merge generically. */
+function healAndTransform(
+	source: SourceEntry,
+	report: Report,
+): ReturnType<typeof applyRepairs> {
+	const healed = applyRepairs(source);
+	const transformed = applyTransforms(healed.entry, 'text-repairs');
+	report.transformRecords.push(...transformed.records);
+	return { entry: transformed.entry, records: healed.records };
+}
+
 /** One corpus entry through the committed phase manifest (spec §5.2):
  * text repairs → structural repairs → patch apply → consumer-facing
  * composition + gates + recounts + full schema validation. The
@@ -196,7 +216,9 @@ function processEntry(
 	// the first. main() rethrows after the walk — the run stays loud.
 	let repaired: ReturnType<typeof applyRepairs>;
 	try {
-		repaired = phases.run('text-repairs', () => applyRepairs(source));
+		repaired = phases.run('text-repairs', () =>
+			healAndTransform(source, report),
+		);
 	} catch (error) {
 		report.repairFailures.push(
 			`${source.rid}: ${error instanceof Error ? error.message : String(error)}`,
@@ -271,6 +293,13 @@ function printSummary(report: Report): void {
 		`unresolvedRepairedOrphans=${report.recounts.unresolvedRepairedOrphans.length}`,
 		`deferred=${Object.keys(report.deferred).length} confirmedNoChange=${report.confirmedNoChange.length}`,
 	];
+	const byRule = new Map<string, number>();
+	for (const record of report.transformRecords) {
+		byRule.set(record.ruleId, (byRule.get(record.ruleId) ?? 0) + 1);
+	}
+	lines.push(
+		...[...byRule].map(([id, n]) => `transform ${id}: ${n} instance(s)`),
+	);
 	console.log(lines.join('\n'));
 }
 
