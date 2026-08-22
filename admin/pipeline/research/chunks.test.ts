@@ -66,6 +66,15 @@ describe('buildTranches', () => {
 	});
 });
 
+describe('corpusFingerprint', () => {
+	it('is order-independent, like chunkCorpus', () => {
+		const forward = rids(50);
+		expect(corpusFingerprint([...forward].reverse())).toBe(
+			corpusFingerprint(forward),
+		);
+	});
+});
+
 describe('checkpoints', () => {
 	const corpus = corpusFingerprint(rids(100));
 	const tranche = buildTranches(chunkCorpus(rids(100), 20), 100)[0];

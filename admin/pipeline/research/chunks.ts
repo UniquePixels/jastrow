@@ -48,9 +48,14 @@ class ChunkError extends Error {
 }
 
 /** sha256 of the rid list — the identity of one exact chunking
- * input. Checkpoints pin it so resume-after-corpus-change fails. */
+ * input. Sorted first, so the fingerprint is order-independent in the
+ * same way `chunkCorpus` is; a caller that hands over the same rid set
+ * in a different order must not invalidate its own checkpoint.
+ * Checkpoints pin it so resume-after-corpus-change fails. */
 function corpusFingerprint(rids: readonly string[]): string {
-	return createHash('sha256').update(rids.join('\n')).digest('hex');
+	return createHash('sha256')
+		.update([...rids].sort().join('\n'))
+		.digest('hex');
 }
 
 /** Split the corpus into rid-ordered chunks. Pure and deterministic:

@@ -170,10 +170,13 @@ owning entry).
   pipeline; it lands with the `spec/entry-body-model` branch) and
   serves as the documented generic spec of the entry format —
   examples in these documents illustrate it, they do not define it.
-  Until migration produces v2 truth files, today's `bun validate:data`
-  gate keeps guarding the deployed v1 data with the legacy validator;
-  the v2 schema takes over as the CI gate when `migrate.ts` lands its
-  output.
+  On `main`, `bun validate:data` still guards the deployed v1 data with
+  the legacy validator. On `v2` that gate does not exist: the CP-0
+  ratification of V5 removed `scripts/` and `ci-data.yml` along with the
+  v1 app, a gap the overhaul spec records as accepted. Until `migrate.ts`
+  lands its output and the v2 schema takes over as the CI gate, `v2` data
+  is guarded by the pipeline's own ajv validation and `bun qa`, not by CI
+  schema enforcement.
 - Additive-first: new optional fields never break; breaking changes
   require a versioned, reviewed migration script.
 - Bulk changes to truth (cleanup passes) are first-class pipeline

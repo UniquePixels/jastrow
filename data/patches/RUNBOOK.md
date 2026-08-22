@@ -53,7 +53,7 @@ link-target findings from `link-anomalies.ts`.
    `sample-patches.json` / `sample-clean.json`. Chunk-fatal
    problems print and stay pending — re-dispatch those chunks.
 5. **Verification** — Opus agents over the sample files (patch
-   reviews + clean reviews per `verify-v1.md`), verdicts to
+   reviews + clean reviews per `verify-v2.md`), verdicts to
    `<workdir>/verdicts-*.jsonl`.
 6. **Report + threshold check** — build the batch report
    (`buildPilotReport`/`renderPilotReport` from `verify.ts`) with

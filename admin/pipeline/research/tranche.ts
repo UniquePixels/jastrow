@@ -151,7 +151,7 @@ async function nextWork(rids: readonly string[]): Promise<{
 	pending: Chunk[];
 	tranche: Tranche;
 }> {
-	const fingerprint = corpusFingerprint([...rids].sort());
+	const fingerprint = corpusFingerprint(rids);
 	const tranches = buildTranches(chunkCorpus(rids));
 	for (const tranche of tranches) {
 		const checkpoint =
@@ -209,13 +209,28 @@ async function prep(workdir: string, count: number): Promise<void> {
 async function ingest(workdir: string): Promise<void> {
 	const entries = await loadPrePatchCorpus();
 	const rids = [...entries.keys()];
-	const fingerprint = corpusFingerprint([...rids].sort());
+	const fingerprint = corpusFingerprint(rids);
 	const tranches = buildTranches(chunkCorpus(rids));
 	let after = maxPatchNumber(await committedPatchIds());
 	const accepted: SemanticPatch[] = [];
 	const records: EntryResult[] = [];
 	const rejects: RejectRecord[] = [];
 	const done = new Map<string, string[]>();
+	// Chunks already marked complete must not be ingested twice: the
+	// append below is unconditional, so a second run over the same
+	// workdir would duplicate every accepted patch and manifest row.
+	const completedByTranche = new Map<string, Set<string>>();
+	const alreadyComplete = async (
+		trancheId: string,
+		chunkId: string,
+	): Promise<boolean> => {
+		let seen = completedByTranche.get(trancheId);
+		if (seen === undefined) {
+			seen = new Set((await loadCheckpoint(trancheId))?.completed ?? []);
+			completedByTranche.set(trancheId, seen);
+		}
+		return seen.has(chunkId);
+	};
 	const glob = new Bun.Glob('chunk-*.json');
 	const inputFiles: string[] = [];
 	for await (const hit of glob.scan({ cwd: `${workdir}/inputs` })) {
@@ -229,6 +244,12 @@ async function ingest(workdir: string): Promise<void> {
 			promptVersion: string;
 			tranche: string;
 		};
+		if (await alreadyComplete(input.tranche, input.chunkId)) {
+			console.log(
+				`SKIP ${input.chunkId}: already complete in ${input.tranche}`,
+			);
+			continue;
+		}
 		const patchesFile = Bun.file(
 			`${workdir}/out/${input.chunkId}.patches.jsonl`,
 		);
@@ -291,7 +312,10 @@ async function ingest(workdir: string): Promise<void> {
 			'manifest.jsonl',
 			records.filter((r) => chunkIds.some((c) => inChunk(tranches, c, r.rid))),
 		);
-		await append('rejects.jsonl', rejects);
+		await append(
+			'rejects.jsonl',
+			rejects.filter((r) => chunkIds.some((c) => inChunk(tranches, c, r.rid))),
+		);
 		const tranche = tranches.find((t) => t.id === trancheId);
 		if (tranche === undefined) {
 			throw new Error(`unknown tranche ${trancheId}`);
