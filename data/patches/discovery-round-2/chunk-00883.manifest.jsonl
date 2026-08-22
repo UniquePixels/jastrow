@@ -1,0 +1,30 @@
+{"rid": "S00662", "disposition": "clean", "patches": []}
+{"rid": "S00663", "disposition": "clean", "patches": []}
+{"rid": "S00664", "disposition": "clean", "patches": []}
+{"rid": "S00665", "disposition": "clean", "patches": []}
+{"rid": "S00666", "disposition": "clean", "patches": []}
+{"rid": "S00667", "disposition": "needs_human_judgment", "patches": [], "escalation": "Two class-11 wrong-link-target findings, both hinted. (a) sense —2) 'Nidd. 38ᵇ, opp. <a>שופי</a>' targets Jastrow שׁוֹפִי I (U00498, 'cap of the hip-bone'); the correct target is שֹׁופִי II (U00499, 'ease, comfort'), whose own entry cites this very passage ('Nidd. IV, 6 דם הש׳ ... opp. קושי'). Unvocalized display, skeleton שופי shared by exactly these two headwords, so the niqqud carve-out cannot apply. (b) sense —3) '<a>בק׳</a> by an effort, reluctantly' is בְּ+ק׳, a proclitic on this entry's own headword קוֹשִׁי, but the link targets בִיקּוֹרֶת (B00694, 'examination/punishment'), whose alt_headword is בִקּ׳ not בק׳. Both are attribute-level defects: the correct bytes are not present in the entry, so no patch op can express the repair."}
+{"rid": "S00668", "disposition": "needs_human_judgment", "patches": [], "escalation": "Class-11 wrong-link-target (hinted, inflection-escape-link): '—Pl. <a>קוּשְׁיָיתָא</a>' displays this entry's own plural (it is the sole member of plural_form) but the data-ref is 'Jastrow, קַשְׁיָיאתָא 1' (S02248), a different skeleton (קשייאתא vs קושייתא) and itself only a redirect stub ', v. קָשֵׁי, a. קַשְׁיְתָא.'. The inflected form belongs to this entry; the link leaves it for a headword the display does not match. Attribute-level, no bytes in the entry to patch with. (All other anchors checked: פִיתְקָא -> פִיתַק Q00905 is that target's recorded alt_headword, so it is within convention.)"}
+{"rid": "S00669", "disposition": "clean", "patches": []}
+{"rid": "S00670", "disposition": "needs_print_check", "patches": [], "escalation": "Class-8 sub-token loss: 'Sabb. 11ᵃ Ar. a Ms. O.' writes a bare 'a' where the corpus's citation formula is 'a.' ('a. Ms.' 103× corpus-wide vs 2× bare, 'a. Ar.' 152× vs 0, 'a. fr.' 9,818× vs 8, 'a. e.' 7,110× vs 3). Restoring the period needs a byte the entry does not contain, so needs_print_check. No anomaly hint fired on it - the bare-abbrev rule appears not to cover the conjunction 'a.'."}
+{"rid": "S00671", "disposition": "clean", "patches": []}
+{"rid": "S00672", "disposition": "clean", "patches": []}
+{"rid": "S00673", "disposition": "clean", "patches": []}
+{"rid": "S00674", "disposition": "clean", "patches": []}
+{"rid": "S00675", "disposition": "clean", "patches": []}
+{"rid": "S00676", "disposition": "clean", "patches": []}
+{"rid": "S00677", "disposition": "needs_human_judgment", "patches": [], "escalation": "Array-scope defect, proposed class plural-form-holds-idiom-phrase: plural_form is ['קוֹתְלֵי', 'ק׳ דחזירי']. Only the first is a plural; the second is the construct idiom that follows it in print (', pl. קוֹתְלֵי; ק׳ דחזירי bacon.'), captured into the plural slot. Arrays are outside sense scope, so no patch op applies. 91 such slots / 90 entries corpus-wide."}
+{"rid": "S00678", "disposition": "clean", "patches": []}
+{"rid": "S00679", "disposition": "clean", "patches": []}
+{"rid": "S00680", "disposition": "needs_print_check", "patches": [], "escalation": "Class-8 lost-parenthetical: the Pa. sub-sense (path 1.0) opens ' (<i>to mark; to calculate, settle, strike the balance</i>. ...' with an opening paren that never closes; whole-entry balance is 4 '(' to 3 ')', so the cross-field parenthetical convention does not account for it (the etymology paren in sense 0, '(cmp. קצץ, נקז)', is already closed). Whatever stood between '(' and the gloss is lost; restoring it needs new bytes."}
+{"rid": "S00681", "disposition": "clean", "patches": []}
+{"rid": "S00682", "disposition": "clean", "patches": []}
+{"rid": "S00683", "disposition": "clean", "patches": []}
+{"rid": "S00684", "disposition": "clean", "patches": []}
+{"rid": "S00685", "disposition": "needs_human_judgment", "patches": [], "escalation": "content.morphology is 'm.' on an entry whose entire content is verbal ('(= קְטַע) to cut, pluck; (cmp. קְטַף) to harvest'), with no nominal gloss anywhere and balanced parens/brackets (so this is not the etymology-gloss leakage that explains most such rows). Plausible mechanism: the label was taken from the neighbouring headword line קְטָא II m. (S00686, 'fragment, chip'). Only 11 of 2,337 entries carrying a verbal_stem also carry morphology m./f., so a nominal label here is anomalous. morphology is outside patch scope; maintainer call against print."}
+{"rid": "S00686", "disposition": "clean", "patches": []}
+{"rid": "S00687", "disposition": "clean", "patches": []}
+{"rid": "S00688", "disposition": "clean", "patches": []}
+{"rid": "S00689", "disposition": "clean", "patches": []}
+{"rid": "S00690", "disposition": "clean", "patches": []}
+{"rid": "S00691", "disposition": "clean", "patches": []}

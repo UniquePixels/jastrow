@@ -1,0 +1,66 @@
+{"rid": "A00512", "missed": false, "note": "Clean stands: single complete sense '(b. h.) Aaron ... Meg. 25ᵇ; a. fr.', balanced, no abbreviation-frequency anomaly at or below the calibrated thresholds."}
+{"rid": "A00646", "missed": false, "note": "Clean stands: standard cross-reference stub ', v. אָכְלָה' whose link resolves to a distinct entry; terminal-period absence is the documented convention."}
+{"rid": "A00473", "missed": false, "note": "Clean stands: cross-reference stub to אַרְדִּיכָל, display and data-ref agree, no defect."}
+{"rid": "A00291", "missed": false, "note": "Clean stands: cross-reference stub to אַגָּחוּתָא, display and data-ref agree, no defect."}
+{"rid": "A00517", "missed": false, "note": "Clean stands: the language_reference 'same' anchor targets אוֹ I (A00516), a different entry, so it is not a circular v-ref; text balanced and formulas ('a. e.', 'a. v. fr.') corpus-standard."}
+{"rid": "A00379", "missed": false, "note": "Clean stands: definition opening ' v. X' without the leading comma matches 415 corpus siblings, an established stub shape rather than a sub-token loss."}
+{"rid": "A00721", "missed": false, "note": "Clean stands: numbering reads 1)/—2)/—3) with the etymology-only leading unnumbered sense matching 1,532 corpus siblings; the אוּדְנָא anchor targets A00568, which carries 'אוּדְנָא I' as an alt headword, so it is not a wrong link target."}
+{"rid": "A00474", "missed": false, "note": "Clean stands: the citation formula 'v. Rabb. D. S. a. l.' is complete (not truncated) and the terse '(Ms. כין' variant shape has 18 corpus siblings, so no demonstrable byte loss."}
+{"rid": "A00823", "missed": false, "note": "Clean stands: ' read אִיצְטוֹלִין, v. אִסְטְלָא' is a complete emendation stub; link resolves and display matches target."}
+{"rid": "A00588", "missed": false, "note": "Clean stands: cross-reference stub to *אִבְרוֹסִי, no structural or sub-token anomaly."}
+{"rid": "A00576", "missed": false, "note": "Clean stands: display/target differ only in vocalization (אבגניסטי vs אֶבְגְּנִיסְטֵי), which sweep-v3 records as linker convention, not class 11."}
+{"rid": "A00707", "missed": false, "note": "Clean stands: display אֲמָנוֹס against target אֲמָנוֹן looks like a one-letter class-11 mismatch, but A02043 lists אֲמָנוֹס among its alt_headwords, so the destination is correct."}
+{"rid": "A00732", "missed": false, "note": "Clean stands: text is balanced and '(Var. X.).' matches 376 corpus siblings; the href lacking a leading slash is one of 7,679 purely mechanical Jerusalem-Talmud instances across 5,122 entries, a script-scope systemic pattern rather than a per-entry escalation."}
+{"rid": "A00579", "missed": false, "note": "Clean stands: cross-reference stub to אֲוַל, display and data-ref agree."}
+{"rid": "A00822", "missed": false, "note": "Clean stands: the unlinked ', v. <span>אָצְיָא</span>' stub matches 207 corpus siblings where the target has no entry, so the missing anchor is convention, not a defect."}
+{"rid": "A00489", "missed": false, "note": "Clean stands: cross-reference stub to אֲהָן, no anomaly at or below calibrated thresholds."}
+{"rid": "A00953", "missed": false, "note": "Clean stands: cross-reference stub to אִיזְגְּדַר, display equals target, no defect."}
+{"rid": "A00886", "missed": false, "note": "Clean stands: cross-reference stub to אוּרְזָא, display equals target, no defect."}
+{"rid": "A00847", "missed": false, "note": "Clean stands: the unclosed-looking 'ch. =' language_code resolves normally and the sense 'teaching, decision. Targ. Ez. VII, 26; a. e.' is a complete balanced flow."}
+{"rid": "A00232", "missed": false, "note": "Clean stands: cross-reference stub to אוּבְשִׁין, display equals target, no defect."}
+{"rid": "A00552", "missed": false, "note": "Clean stands: 'a knife having notches, v. אָגַר II.' is a complete stub consistent with A00337's parallel rendering; balanced and fully punctuated."}
+{"rid": "A00273", "missed": false, "note": "Clean stands: ', v. next w.' anchor resolves to *אָגוּסְטָלִי, which is this entry's next_hw, so the 'next w.' reference is correct."}
+{"rid": "A00477", "missed": false, "note": "Clean stands: parens balanced entry-wide, no in-text markers, and the '.—V. דְּרַע III.' tail matches the corpus's 704 '.—V. ' occurrences."}
+{"rid": "A00826", "missed": false, "note": "Clean stands: single unnumbered sense, balanced punctuation, both citation links resolve correctly, no sub-token formula anomalies."}
+{"rid": "A00253", "missed": false, "note": "Clean stands: lead-in + 1) + —2) numbering is complete and no anomaly hint fires; sense 1)'s citation-final 'Y. Sabb. XVI, 15ᶜ' without a period matches ~66 corpus siblings, too weak for class 8."}
+{"rid": "A00928", "missed": false, "note": "Clean stands: bare cross-reference sense, terminal period absent per the documented convention, and the target אוּשׁפִּיזָא is not this entry's headword."}
+{"rid": "A00508", "missed": false, "note": "Clean stands: '(', '[' all balanced, both בצוצריות links intentional (Jastrow compares versions), no numbering or anchor defects."}
+{"rid": "A00789", "missed": false, "note": "Clean stands: 'Ar. ed. pr.' is the corpus formula (22 occurrences), and the 'read אופיתא' link target is correct."}
+{"rid": "A00680", "missed": true, "note": "Missed class 11 wrong-link-target: the anchor displaying 'בר א׳' (= בר אולפן, since every other א׳ in the entry abbreviates the headword) points at 'Jastrow, אמוראי' — a blind string mapping the linker applies identically under nine unrelated headwords."}
+{"rid": "A00708", "missed": true, "note": "Missed lost sense marker: the entry carries a lone '1)' with no 2), and sense 1 reads 'a. fr.— <i>the workmanship</i>' — the dash-space-italic shape occurs only 12x corpus-wide and 9 of those entries have numbering gaps, so the '2)' bytes were dropped (class 8/4, needs_print_check)."}
+{"rid": "A00345", "missed": false, "note": "Clean stands: one-line cross-reference sense, no markup, no numbering, nothing in the catalog applies."}
+{"rid": "A00376", "missed": false, "note": "Clean stands: the loose 'm.' with an empty morphology field matches 445 corpus definitions of the same shape (e.g. A00080), and parens/anchors are sound."}
+{"rid": "A00390", "missed": false, "note": "Clean stands: bare 'v. אָדַר' cross-reference to a different headword, terminal-period convention applies."}
+{"rid": "A00641", "missed": true, "note": "Missed garbled quotation (class 8, needs_print_check): 'ר׳ ברכי׳ ורבנן ר׳ בני. ברכי׳ אמר' splits 'ר׳ ברכי׳' across an interpolated 'בני.' — incoherent as a reading, with no parallel rendering anywhere in the corpus."}
+{"rid": "A00838", "missed": false, "note": "Clean stands: 'read אִיקוֹנִין.' redirect entry, link target correct, nothing else present."}
+{"rid": "A00694", "missed": false, "note": "Clean stands: display אִילוֹגִין vs target אֵילוֹגִין differs only in niqqud, which v3 rules linker convention rather than class 11."}
+{"rid": "A00549", "missed": false, "note": "Clean stands: single 'read אוגדויי' redirect, link target correct, no other content."}
+{"rid": "A00476", "missed": false, "note": "Clean stands: 'Adr.' is a live-context abbreviation of Adrammelekh (rare-dotted hint would be a false positive), and structure/anchors are sound."}
+{"rid": "A00614", "missed": false, "note": "Clean stands: the '(b. h. ...)' parenthetical opens and closes inside language_reference, so the cross-field convention is not even needed; sense text is balanced."}
+{"rid": "A00741", "missed": false, "note": "Clean stands: cross-reference to אוֹנְיָא, a distinct headword from אוֹנְיָיָא; terminal-period convention applies."}
+{"rid": "A00645", "missed": false, "note": "Clean stands: lead-in + 1) + —2) sequence is complete, anchors and parens clean, no sub-token formula anomalies."}
+{"rid": "A00841", "missed": false, "note": "Clean stands: 'Part. pass.' occurs 1,375x corpus-wide so it is not a loose class-5 head, and the נָאוֹר link to אוֹר I is an inflected surface form of a different entry."}
+{"rid": "A00458", "missed": false, "note": "Clean stands: the only blemish is the linker mapping 'Tanḥ. B’resh. 7' to /Genesis.7, a uniform upstream citation-resolution artifact (47 identical instances) whose display and target do not textually conflict."}
+{"rid": "A00444", "missed": false, "note": "Clean stands: the repeated 'Bereishit Rabbah 63:5' ref backs two genuine citations ('Gen. R. s. 63' and 'Ib.'), not a class-12 duplicated block; text and parens are sound."}
+{"rid": "A00265", "missed": false, "note": "Clean stands: single complete sense, balanced parens, Greek etymology and Gen. R. citation intact, no catalog defect."}
+{"rid": "A00410", "missed": false, "note": "Clean stands: cross-reference stub ', v. אוּרְבָּא'; terminal period absent is the documented cross-ref convention."}
+{"rid": "A00674", "missed": false, "note": "Clean stands: the unclosed '(' in language_code closes inside the definition (cross-field convention), the self-link on 'conj. אוּלָם' is a plain mention, not a circular v.-reference."}
+{"rid": "A00563", "missed": true, "note": "MISS: class 8 sub-token loss — 'cmp. <a>אֲזִי</a>—Y. Shebi.' drops the period before the section em-dash (corpus writes '</a>.—<citation>' 2,267× vs 12× without), so it needed needs_print_check."}
+{"rid": "A00593", "missed": false, "note": "Clean stands: parens balance, 'Ar. ed. Koh.' (155× corpus) and 'corr. acc.' formulas intact; the abbreviated הֶוְו׳ link is the corpus-wide abbreviation-resolution artifact (1,931 instances), not the class-11 signature."}
+{"rid": "A00656", "missed": false, "note": "Clean stands: 'Esth. R. to I, 1ᵇ' is the attested locus form (8 corpus instances) and the cross-ref stub needs no terminal period."}
+{"rid": "A00781", "missed": false, "note": "Clean stands: 'Midr. Sam. ch. XI, v. אִסְטְלִי' cross-reference stub, complete and balanced."}
+{"rid": "A00288", "missed": false, "note": "Clean stands: balanced, Greek/Latin etymology and Pl. section complete, no catalog defect."}
+{"rid": "A00447", "missed": false, "note": "Clean stands: '(v. Rabb. D. S. a. l.)' is the full un-truncated formula (1,544× corpus) and all parens balance."}
+{"rid": "A00688", "missed": false, "note": "Clean stands: 'Af. אוֹמִי' sits inside the etymology parenthesis, not as a loose binyan head; the comma-less ' corr. acc.' has 59 corpus parallels, below the escalation bar."}
+{"rid": "A00362", "missed": false, "note": "Clean stands: 'cmp. Ar. h. v., a. s. v. בסיליאוס' is a coherent hoc-verbo/sub-voce contrast rather than a corrupted 'Ar. s. v.', and parens balance."}
+{"rid": "A00667", "missed": false, "note": "Clean stands: brackets balance and the אולוסתיקין link points at the corrected headword the text itself prescribes ('corr. acc.'), so no wrong-link-target."}
+{"rid": "A00522", "missed": false, "note": "Clean stands: its only findings are script-slated systemic patterns (nested duplicate anchor in language_reference, bare RTL Hebrew in the definition); superscript-numeral headwords are an 807-entry convention."}
+{"rid": "A00408", "missed": false, "note": "Clean stands: ', v. דּוּשׁ ch.' cross-reference stub, no defect."}
+{"rid": "A00484", "missed": false, "note": "Clean stands: 'ᵇᶜ' double-column citation is attested (cmp. 'ᶜᵈ' ×5) and the period-less superscript ending is the corpus norm (99 vs 2); the 'a. fr. Y.' spacing recurs in 14 entries, too common to escalate."}
+{"rid": "A00251", "missed": false, "note": "Clean stands: the self-link on the variant spelling אֶגְדִּיקָס is a plain-mention self-link, not a see-reference, and all parenthetical runs balance."}
+{"rid": "A00386", "missed": false, "note": "Clean stands: all four parentheticals balance, 'v. vers. Mat. K. a. l.' is a normal commentator formula; only unwrapped RTL Hebrew, which is script-slated."}
+{"rid": "A00443", "missed": false, "note": "Clean stands: '(b. h.,' closes across the field split, and the period-less closing citation 'R. Hash. 19ᵇ' matches the corpus's dominant ending form."}
+{"rid": "A00772", "missed": false, "note": "Clean stands: ', v. אוּנְקְלַי II' cross-reference stub, no defect."}
+{"rid": "A00318", "missed": true, "note": "MISS: class 11 wrong-link-target — the plural אַגָּנֵי is anchored to 'Jastrow, גְּנֵי' (C01132, 'to lie down, sleep'), an unrelated lemma; only 41 corpus instances of this aleph-stripped mis-target, so it is escalatable, not script-slated."}
+{"rid": "A00929", "missed": false, "note": "Clean stands: ', v. אוּשְׁפִּיזְכָנָא' cross-reference stub, no defect."}
+{"rid": "A00242", "missed": false, "note": "Clean stands: the 'same' link targets the Hebrew base entry אָגַד II (A00241), a distinct entry from this ch. headword, so no circular reference; text balances."}

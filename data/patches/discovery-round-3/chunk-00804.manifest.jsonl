@@ -1,0 +1,30 @@
+{"rid": "Q01330", "disposition": "clean", "patches": []}
+{"rid": "Q01331", "disposition": "clean", "patches": []}
+{"rid": "Q01332", "disposition": "clean", "patches": []}
+{"rid": "Q01333", "disposition": "clean", "patches": []}
+{"rid": "Q01334", "disposition": "needs_human_judgment", "patches": [], "escalation": "class 11 wrong-link-target: the anchor display 'פִּסְלוֹן' is this entry's own conjectural re-reading ('prob. to be read: פִּסְלוֹן m. (פָּסַל) a rough stone'), but data-ref='Jastrow, פִּסְיוֹן 1' sends it to פִּסְיוֹן (Q01279, 'pheasant'), which differs by one interior consonant (ל/י) and is a different word. 'פסלון' is absent from the corpus headword list, so no correct external target exists; the anchor should resolve to this entry or carry no link. Maintainer call."}
+{"rid": "Q01335", "disposition": "clean", "patches": []}
+{"rid": "Q01336", "disposition": "clean", "patches": []}
+{"rid": "Q01337", "disposition": "clean", "patches": []}
+{"rid": "Q01338", "disposition": "clean", "patches": []}
+{"rid": "Q01339", "disposition": "repaired", "patches": ["P000001", "P000002"]}
+{"rid": "Q01340", "disposition": "clean", "patches": []}
+{"rid": "Q01341", "disposition": "needs_human_judgment", "patches": [], "escalation": "class 11 wrong-link-target, twice: in the Pi. section (path 1.0) and the Hif. section (path 2.0) the display 'same' carries data-ref='Jastrow, פְּסַס 1'. This entry (פָּסַע) bears no 'ch.' marker, so a stem-section 'same' can only mean this entry's own Kal; פְּסַס is the immediately preceding headword (Q01340) and an unrelated root. Catalogued as same-anchor-positional-mislink. href/data-ref bytes for פָּסַע are not present at either site, so no byte-conserving replace is available."}
+{"rid": "Q01342", "disposition": "clean", "patches": []}
+{"rid": "Q01343", "disposition": "clean", "patches": []}
+{"rid": "Q01344", "disposition": "needs_human_judgment", "patches": [], "escalation": "class 11 wrong-link-target: display 'פַּסְפֵּס II' with data-ref='Jastrow, פִּסְפֵּס II 1'. The lemma the display names is the Aramaic פַּסְפֵּס (corpus headword 'פַּסְפֵּס ²', Q01348), whose own article opens 'ch. (apocop. פַּסֵּף …) same' and so derives from this very entry (פְּסַף); the link instead lands on the Hebrew פִּסְפֵּס II (Q01347). Display and target share one consonantal skeleton and differ only in niqqud, and both vocalizations are real headwords, so the niqqud carve-out cannot decide it. Aggravated by the corpus writing that sibling's homograph index as the superscript '²' while the display writes the Roman 'II', so no data-ref can carry the printed numeral."}
+{"rid": "Q01345", "disposition": "clean", "patches": []}
+{"rid": "Q01346", "disposition": "clean", "patches": []}
+{"rid": "Q01347", "disposition": "clean", "patches": []}
+{"rid": "Q01348", "disposition": "clean", "patches": []}
+{"rid": "Q01349", "disposition": "clean", "patches": []}
+{"rid": "Q01350", "disposition": "needs_human_judgment", "patches": [], "escalation": "(a) class 11 wrong-link-target at path 11.1: display 'קרץ' with data-ref='Jastrow, קְרַץ I 1'. The context is '(sub. בעינים, cmp. קרץ, Prov. X, 10; VI, 13) to blink' — both proof texts are Hebrew Bible (קֹרֵץ עַיִן), so the intended article is the Hebrew קָרַץ (S02141, marked b. h.), not the Aramaic קְרַץ I (S02142, 'to bite, pinch, sting'). Unvocalized display over a skeleton carried by five headwords; nothing in the display chooses the target, and the citation chooses against it. (b) sense number outside the closed grammar: path 11.1 carries the marker '*2)'. No retag can express it (retag tokens are closed-grammar), so the asterisk cannot be reproduced or removed by patch — maintainer call on whether print's asterisk survives."}
+{"rid": "Q01351", "disposition": "needs_human_judgment", "patches": [], "escalation": "class 11 wrong-link-target at path 2: display 'כִּלָּה' (the Hebrew gloss of Targ. Y. Gen. XLIV, 12) carries data-ref='Jastrow, כלי 1', which resolves to K00715, an unvocalized stub whose whole definition is the fragment ' v. כָּלַל) '. The intended article is כָּלָה (K00692). Display and target skeletons differ in the final letter (ה/י) and the target is itself debris, so this is a wrong destination, not a mater alternation."}
+{"rid": "Q01352", "disposition": "needs_human_judgment", "patches": ["P000003", "P000004"], "escalation": "class 11 wrong-link-target: display 'פִּי׳' (the geresh abbreviation of this entry's own plural פִּסְקֵי) carries data-ref='Jastrow, פְּגִימִין 1'. פְּגִימִין begins פ-ג and is unrelated to the abbreviated consonants; corpus-wide this abbreviation resolves to פְּגִימִין in 27 of 27 occurrences across 23 host entries, i.e. a fixed sink, not a contextual choice. Correct target is this entry. The implied-one repair (P000003/P000004) is unaffected and rides along."}
+{"rid": "Q01353", "disposition": "needs_human_judgment", "patches": [], "escalation": "class 11 wrong-link-target, three times: the display 'פִּי׳' at paths 0, 1 and 1 again (the entry's own plene plural, also declared in alt_headwords and plural_form) carries data-ref='Jastrow, פְּגִימִין 1' in every instance — the same fixed sink measured at 27 of 27 corpus-wide. Correct target is this entry (פִּסְקָא). Also judged and cleared: display 'פִּיתְקָא' -> פִּיתַק at path 3 is the emphatic surface form of a real headword ('פיתקא' is absent from the corpus) and is accepted as convention."}
+{"rid": "Q01354", "disposition": "clean", "patches": []}
+{"rid": "Q01355", "disposition": "needs_human_judgment", "patches": [], "escalation": "class 11 wrong-link-target at path 2: display 'פִּסְקוֹת' is this entry's own declared plural (plural_form=['פִּסְקוֹת']) and is introduced by the entry's own 'Pl.' label, but data-ref='Jastrow, פִּסְקוֹן 1' sends it to פִּסְקוֹן (Q01357), a different lemma that neither matches the display nor cross-references back to פִּסְקָה. Correct target is this entry."}
+{"rid": "Q01356", "disposition": "clean", "patches": []}
+{"rid": "Q01357", "disposition": "clean", "patches": []}
+{"rid": "Q01358", "disposition": "clean", "patches": []}
+{"rid": "Q01359", "disposition": "clean", "patches": []}

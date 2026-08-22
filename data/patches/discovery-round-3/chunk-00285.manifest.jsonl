@@ -1,0 +1,30 @@
+{"rid": "F00107", "disposition": "clean", "patches": []}
+{"rid": "F00108", "disposition": "needs_human_judgment", "patches": [], "escalation": "Class 11, two anchors. (a) '(ותק, cmp. Arab. vaṭiḳ, a. b. h. עָתֵק)': display עָתֵק is flagged 'b. h.' but data-ref is 'Jastrow, עֲתַק 1', the Aramaic entry (P01545, 'to be old, worn out'); the skeleton עתק also carries עָתַק I (P01543 'to move') and עָתַק II (P01544 'to be substantial, strong; to be old'), which is the sense this entry glosses ('enduring; trusty; strong'). Niqqud carve-out cannot apply: three headwords share the skeleton. (b) 'Sifré Num. 92; ib. Deut. 13' — the 'Deut. 13' anchor carries data-ref 'Deuteronomy 13', reading a Sifré section number as a Bible chapter; the ref should name Sifré Deuteronomy. Neither is repairable: the correct bytes are not in the entry."}
+{"rid": "F00109", "disposition": "clean", "patches": []}
+{"rid": "F00110", "disposition": "clean", "patches": []}
+{"rid": "F00111", "disposition": "clean", "patches": []}
+{"rid": "F00112", "disposition": "clean", "patches": []}
+{"rid": "F00113", "disposition": "clean", "patches": []}
+{"rid": "F00114", "disposition": "needs_human_judgment", "patches": [], "escalation": "Class 5, unclassified binyan: the single sense opens ', <i>Pa</i>. וַתֵּק (privative verb…)' — the Pa. stem head and its form sit loose in definition text with no grammar object on the sense (same shape the seed ruling records for F00116). No patch op writes grammar/stem structure. Anomaly hint 'niqqud-twin-target' (עתק → עֲתַק) REJECTED: the citation attached to the comparison is 'Targ. Lam. III, 4', and the target entry עֲתַק (P01545) cites that exact passage in its own first sense, so the Aramaic twin is the right destination."}
+{"rid": "F00115", "disposition": "needs_human_judgment", "patches": ["P000001"], "escalation": "Repaired: class 6 duplicated '(of bowels).' in the Nithpa. sense 1 (P000001). Unrepairable, class 11: (a) sense Pi. 1) 'B. Kam. 9ᵃ ו׳ he has renounced his rights' — the display ו׳ abbreviates this entry's וִיתֵּר but data-ref is 'Jastrow, ו׳ 1', which is F00001, the article for ו׳ as the numeral six; (b) two 'Ib.'/'ib.' anchors (after 'Y. Keth. IV, end, 29ᵇ' and after 'Y. Shebi. II, 33ᵈ top') both carry data-ref 'Yoma 2a', which neither context supports. Also noted, not escalated: '(not עד)' hyperlinks a reading the text marks as erroneous."}
+{"rid": "F00116", "disposition": "needs_human_judgment", "patches": ["P000002"], "escalation": "Repaired: class 3 OCR marker 'l)' → '1)' per the doc-08 seed ruling (P000002). Unrepairable, class 5 per the same ruling: the Pa. head ', <i>Pa</i>. וַותֵּר' plus its two numbered meanings sit inside sense[0]'s definition instead of a classified stem section; no patch op writes grammar. The in-text '—2)' boundary is left alone deliberately — splitting it would be text surgery around the unclassified head. Anomaly hint 'bare-abbrev' (bare 'l') ACCEPTED but resolves to that OCR marker, not to a class-8 loss."}
+{"rid": "F00117", "disposition": "clean", "patches": []}
+{"rid": "G00000", "disposition": "clean", "patches": []}
+{"rid": "G00001", "disposition": "clean", "patches": []}
+{"rid": "G00002", "disposition": "clean", "patches": []}
+{"rid": "G00003", "disposition": "clean", "patches": []}
+{"rid": "G00004", "disposition": "clean", "patches": []}
+{"rid": "G00005", "disposition": "clean", "patches": []}
+{"rid": "G00006", "disposition": "clean", "patches": []}
+{"rid": "G00007", "disposition": "clean", "patches": []}
+{"rid": "G00008", "disposition": "needs_human_judgment", "patches": [], "escalation": "Class 11, two anchors in sense —2). (a) Anomaly hint 'abbrev-mislink' ACCEPTED: 'מטמאים כז׳ (not בז׳)' — the display בז׳ is the particle ב plus a geresh abbreviation of this entry's own headword זָב, but data-ref is 'Jastrow, בִּיזּוּעַ 1'; it also hyperlinks a reading the text explicitly marks as wrong. (b) 'f. זָבוֹת' — the display is this entry's own feminine plural and data-ref names 'Jastrow, זִיבוּת 1' (G00270, 'gonorrhea'), a different lemma. Neither is repairable from bytes present in the entry."}
+{"rid": "G00009", "disposition": "clean", "patches": []}
+{"rid": "G00010", "disposition": "clean", "patches": []}
+{"rid": "G00011", "disposition": "clean", "patches": []}
+{"rid": "G00012", "disposition": "needs_human_judgment", "patches": [], "escalation": "Class 11: sense —2) reads 'Y. Ber. III, 6ᶜ bot. אבא בר זבדא. Ib. יעקב בר זבדי' — the 'Ib.' anchor carries data-ref 'Yoma 2a', which the context (Y. Ber. III) cannot support. Mechanical instance of the catalogued corpus-wide row ib-yoma-2a (312); flagged rather than repaired because the correct ref bytes are not in the entry. The unnumbered lead sense '<i>Zabday</i>, ' ahead of a correct 1)/—2) sequence is a preamble, NOT class-1 implied-one."}
+{"rid": "G00013", "disposition": "clean", "patches": []}
+{"rid": "G00014", "disposition": "clean", "patches": []}
+{"rid": "G00015", "disposition": "clean", "patches": []}
+{"rid": "G00016", "disposition": "repaired", "patches": ["P000003"]}
+{"rid": "G00017", "disposition": "clean", "patches": []}
+{"rid": "G00018", "disposition": "clean", "patches": []}

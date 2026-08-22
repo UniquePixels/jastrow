@@ -1,0 +1,30 @@
+{"rid": "R00252", "disposition": "repaired", "patches": ["P000001"]}
+{"rid": "R00253", "disposition": "clean", "patches": []}
+{"rid": "R00254", "disposition": "clean", "patches": []}
+{"rid": "R00255", "disposition": "needs_print_check", "patches": [], "escalation": "Class 8: entry-level paren imbalance (17 '(' vs 16 ')'). The parenthetical opening at 'closes all the seals of needs (all his own orifices of discharge, contrad. to ...' never closes; the following '(causes their obstruction)' is balanced on its own. Restoring the closer needs a byte the entry does not hold."}
+{"rid": "R00256", "disposition": "repaired", "patches": ["P000002"]}
+{"rid": "R00257", "disposition": "needs_human_judgment", "patches": [], "escalation": "Class 11: the reading the text explicitly rejects is hyperlinked. '(not <a data-ref=\"Jastrow, בִּיקּוֹרֶת 1\">בק׳</a>)' — the corrigendum form בק׳ in a Samaritan place-name context resolves to בִּיקּוֹרֶת ('inspection'), an unrelated lemma; a 'not X' reading should either be unlinked or resolve to the place-name variant."}
+{"rid": "R00258", "disposition": "clean", "patches": []}
+{"rid": "R00259", "disposition": "needs_human_judgment", "patches": [], "escalation": "Class 11, two anchors. (a) display 'צירעתא' (this entry's ed.-Lag. form of צוּרְעֲתָא) targets צִירְעָא (R00464, 'wasp') — a different lemma, not a spelling variant. (b) 'Targ. Y. I. Num. XII, 16 (XIII, 1)' is a Targum citation whose two anchors resolve to the plain Hebrew Bible (Numbers 12:16 / 13:1) rather than to a Targum work."}
+{"rid": "R00260", "disposition": "clean", "patches": []}
+{"rid": "R00261", "disposition": "clean", "patches": []}
+{"rid": "R00262", "disposition": "needs_human_judgment", "patches": [], "escalation": "Class 5: grammar.verbal_stem holds '*.' for the binyan_form 'צוֹתֵת' — not a binyan name; the printed stem head for the Pilpel section is lost. No patch op writes grammar, so this is a maintainer call."}
+{"rid": "R00263", "disposition": "needs_human_judgment", "patches": [], "escalation": "Hint 'exact-headword-diverge' judged: its stated premise is WRONG — 'פְּתִיחָא' is not a corpus headword (skeleton פתיחא occurs in no headword and in no alt_headwords). The link is still class 11: the display targets פְּתִיחַ (Q02160, part. pass. of פְּתַח, 'open') while the context ('as soon as he says I shall obey, we tear up the warrant, v. פְּתִיחָא') needs the Aramaic writ-of-summons noun, which has no article in this corpus. A maintainer must decide between leaving it unlinked and creating the target."}
+{"rid": "R00264", "disposition": "clean", "patches": []}
+{"rid": "R00265", "disposition": "clean", "patches": []}
+{"rid": "R00266", "disposition": "repaired", "patches": ["P000003"]}
+{"rid": "R00267", "disposition": "clean", "patches": []}
+{"rid": "R00268", "disposition": "clean", "patches": []}
+{"rid": "R00269", "disposition": "clean", "patches": []}
+{"rid": "R00270", "disposition": "clean", "patches": []}
+{"rid": "R00271", "disposition": "needs_human_judgment", "patches": [], "escalation": "Hint 'abbrev-mislink' accepted. Three anchors display 'צה׳' — the entry's own declared alt_headword (alt_headwords holds 'צָה׳', the ed.-Lag. spelling of צָחוּתָא) — and all three target צְחִי, a different lemma (the verb 'to thirst'). Class 11; the correct target is this entry."}
+{"rid": "R00272", "disposition": "needs_print_check", "patches": [], "escalation": "Citation number cannot be right and cannot be repaired from the entry: 'Targ. Ps. LXVIII, 77' / data-ref 'Aramaic Targum to Psalms 68:77'. Psalm 68 has 36 verses, and the Hebrew the entry quotes (h. text צְחִיחָה) stands at Ps. LXVIII, 7 — which R00273 cites as 'Ib. LXVIII, 7' for the same Ms. reading. Display and data-ref carry the same impossible number, so this is a transcription/print question, not a link-target one; needs the printed page. Proposed class name if it is not class 8: out-of-range-citation-number."}
+{"rid": "R00273", "disposition": "clean", "patches": []}
+{"rid": "R00274", "disposition": "needs_human_judgment", "patches": [], "escalation": "Class 11: display 'צה׳' abbreviates this entry's own parenthesised alt_headword צַהֲיָא, but targets צְחִי (the verb). The entry's two 'preced.' anchors resolve correctly to צְחִי, so the mis-target is specific to the abbreviation."}
+{"rid": "R00275", "disposition": "clean", "patches": []}
+{"rid": "R00276", "disposition": "clean", "patches": []}
+{"rid": "R00277", "disposition": "clean", "patches": []}
+{"rid": "R00278", "disposition": "needs_human_judgment", "patches": [], "escalation": "Class 7 variant in an italic run: '(b. h. <i>offensive smell,) offensive matter</i>' — the closing paren of the '(b. h. …' parenthetical sits inside the italic, so the tag seam renders the gloss boundary wrongly. A byte-conserving repair would need an extra '</i> <i>' pair, which the no-new-text allowance does not cover, so this is a maintainer call."}
+{"rid": "R00279", "disposition": "clean", "patches": []}
+{"rid": "R00280", "disposition": "needs_human_judgment", "patches": [], "escalation": "Class 11: display 'צִי׳' is the entry's own abbreviated plural (plural_form holds 'צִי׳' beside צִחְצוּחִין / צִחְצוּחֵי, and the print reads 'Pl. constr. צִחְצוּחֵי, צִי׳') but the anchor targets צִבְחַד (R00030), an unrelated lemma. The correct target is this entry."}
+{"rid": "R00281", "disposition": "needs_human_judgment", "patches": [], "escalation": "Both hints accepted, class 11 twice. (a) 'niqqud-twin-target': the h.-text display 'ברק' at Targ. Nah. III, 3 renders Hebrew בָּרָק ('lightning', B01315); the link fixes on the Aramaic verb בְּרַק I with nothing in the display to choose it. (b) 'inflection-escape-link': display 'צַחְצוּחִין' is this entry's own declared plural (plural_form) but targets צַחְצוּחִית (R00282), a separate lemma that is the next entry in rid order."}

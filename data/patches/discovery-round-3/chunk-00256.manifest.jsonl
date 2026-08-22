@@ -1,0 +1,30 @@
+{"rid": "E00197", "disposition": "clean", "patches": []}
+{"rid": "E00198", "disposition": "clean", "patches": []}
+{"rid": "E00199", "disposition": "clean", "patches": []}
+{"rid": "E00200", "disposition": "needs_print_check", "patches": [], "escalation": "Sense 0 declares 'pl. <span dir=\"rtl\">היּגְנֵסִין</span>'. The pointing is impossible: the initial ה carries no vowel and is followed by yod+dagesh, which can be neither mater nor dagesh forte. The headword is הוּגְנֵס and the same definition writes the word unpointed as 'הוגנסין' a few tokens later, so print reads הוּגְנֵסִין: a shuruk וּ was rendered as יּ. Repair needs the byte 'וּ', which is absent from the find text, so replace's closed-grammar allowance does not cover it. Corpus-wide this shape occurs 52 times (17 inside anchor displays, 35 outside); the catalogued shuruk-as-yod-display-corruption row is scoped to anchor displays only and does not reach this one."}
+{"rid": "E00201", "disposition": "clean", "patches": []}
+{"rid": "E00202", "disposition": "clean", "patches": []}
+{"rid": "E00203", "disposition": "repaired", "patches": ["P000001"]}
+{"rid": "E00204", "disposition": "clean", "patches": []}
+{"rid": "E00205", "disposition": "needs_human_judgment", "patches": [], "escalation": "wrong-link-target (class 11), confirming the niqqud-twin-target hint. The anchor displaying 'הֲדָיָא' targets Jastrow, הֶדְיָא 1 (E00113, 'presence, directness'), but הֲדָיָא is itself a headword — E00114 הֲדָיָא II, 'a bird of the hawk species' — whose sense 1) quotes the very citation this entry gives, 'Sifra Sh'mini Par. 3, ch. V'. The skeleton הדיא belongs to exactly these two headwords, so the niqqud carve-out cannot decide it and the vocalization is the only discriminator; the context makes E00114 the intended target. href/data-ref bytes for E00114 are not present in this entry, so no patch is possible. Corpus-wide all 4 anchors displaying הֲדָיָא (E00116, E00121, E00205, H00880) resolve to E00113, and all 4 contexts belong to E00114 — a uniform twin sink, not a one-off. The entry's other anchor (display הֲדָיָיא -> Jastrow, הֲדָיָיה 1) is accepted: no הֲדָיָיא headword exists and the final א/ה alternation resolves to the only skeleton-adjacent entry."}
+{"rid": "E00206", "disposition": "needs_human_judgment", "patches": [], "escalation": "Citation anchor 'Esth. R. to I, 1' resolves to data-ref 'Esther Rabbah, Petichta 11' (a proem), not to the exposition of Esther 1:1. Corpus-wide the identical display string carries four different targets: Esther Rabbah 1:1 x16, Esther Rabbah 1 x7, Esther Rabbah 1:5 x1 and Esther Rabbah, Petichta 11 x2 (E00206 and P01543) — so 24 of 26 read it as chapter 1 and this entry is on the 2-instance minority side. Petichta routing is otherwise uniform per display (Ruth R. to I, 1 -> Petichta 1 in 22 of 22; the three Lam. R. displays 2/2, 2/2, 3/3), so the Esther split is the anomaly rather than the mapping. A maintainer call: the correct bytes are not in the entry, so no patch is possible. The other three anchors in the entry check out (כּוּשׁ -> כּוּשׁ I exact; הִנְדְּיָא -> הִינְדְּיָא plene/defective yod)."}
+{"rid": "E00207", "disposition": "clean", "patches": []}
+{"rid": "E00208", "disposition": "clean", "patches": []}
+{"rid": "E00209", "disposition": "clean", "patches": []}
+{"rid": "E00210", "disposition": "clean", "patches": []}
+{"rid": "E00211", "disposition": "clean", "patches": []}
+{"rid": "E00212", "disposition": "clean", "patches": []}
+{"rid": "E00213", "disposition": "clean", "patches": []}
+{"rid": "E00214", "disposition": "clean", "patches": []}
+{"rid": "E00215", "disposition": "clean", "patches": []}
+{"rid": "E00216", "disposition": "clean", "patches": []}
+{"rid": "E00217", "disposition": "clean", "patches": []}
+{"rid": "E00218", "disposition": "needs_human_judgment", "patches": [], "escalation": "wrong-link-target (class 11), confirming the niqqud-twin-target hint though not its stated pair. The anchor displaying 'הוֹן' targets Jastrow, הַוָּן 1 (E00247, 'proper conduct'), which does list הוֹן among its alt_headwords — but הוֹן is itself a headword twice over: E00245 הוֹן I and E00246 הוֹן II. E00245 הוֹן I reads in full 'he, v. הָן' — precisely the reading this entry's own text asserts for the Ms. variant ('Ms. הוֹן, v. הָן'). The display's vocalized form being an existing headword whose article states the same cross-reference makes E00245 the intended target and the alt_headwords carve-out inapplicable. No patchable bytes in the entry. The entry's other two anchors are exact (הָן -> הָן, הוּא -> הוּא)."}
+{"rid": "E00219", "disposition": "clean", "patches": []}
+{"rid": "E00220", "disposition": "clean", "patches": []}
+{"rid": "E00221", "disposition": "clean", "patches": []}
+{"rid": "E00222", "disposition": "clean", "patches": []}
+{"rid": "E00223", "disposition": "clean", "patches": []}
+{"rid": "E00224", "disposition": "clean", "patches": []}
+{"rid": "E00225", "disposition": "clean", "patches": []}
+{"rid": "E00226", "disposition": "needs_print_check", "patches": [], "escalation": "The entry's whole content is ', <a ...>הִיזְמָא</a>.' — a cross-reference stub with no see-particle before the target. Corpus-wide, whole-definition single-sense cross-reference stubs carry a particle in every case but four: v. x6844, v. sub x196, read x29, pl. of x29, read: x16, v. sub. x12, part. of x8, fem. of x5, Pi. of x4, v, x4, constr. of x4, imper. of x3, part. pass. of x3, corr. as x2 — against exactly 4 with an empty particle slot (E00226, G00428, H00010, H00021). The particle vocabulary is rich and fully preserved elsewhere, so the empty slot is a text loss, not a convention. The lost token ('v. ' on the overwhelming balance of evidence) is not present in the entry, so no patch is possible. The anchor itself is correct: display הִיזְמָא equals the target headword exactly (E00352)."}

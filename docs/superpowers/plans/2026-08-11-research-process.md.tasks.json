@@ -1,0 +1,95 @@
+{
+	"planPath": "docs/superpowers/plans/2026-08-11-research-process.md",
+	"tasks": [
+		{
+			"id": 1,
+			"subject": "Task 1: Snapshot hash + corpus pin",
+			"status": "completed",
+			"blockedBy": [],
+			"description": "**Goal:** Canonical sha256 over the committed decoded snapshot files in fixed order (spec §3, §5.1); committed lock value patches pin and preflight compares.\n\n```json:metadata\n{\"files\": [\"admin/pipeline/patch/snapshot.ts\", \"admin/pipeline/patch/snapshot.test.ts\", \"data/patches/snapshot.lock\"], \"verifyCommand\": \"bun test admin/pipeline/patch/snapshot.test.ts\", \"acceptanceCriteria\": [\"fixed documented file list/order, source data only\", \"deterministic hash; lock matches fresh computation in test\", \"mismatch names files and points to maintenance-track rebase\"]}\n```"
+		},
+		{
+			"id": 2,
+			"subject": "Task 2: Semantic patch schema + validators",
+			"status": "completed",
+			"blockedBy": [],
+			"description": "**Goal:** Spec §4.3 as code: five ops with payload schemas, stable targets (marker token + content-hash anchor), occurrence assertions, ordering/overlap preflight, no-new-text validator with closed marker grammar.\n\n```json:metadata\n{\"files\": [\"admin/pipeline/patch/schema.ts\", \"admin/pipeline/patch/schema.test.ts\", \"admin/pipeline/patch/no-new-text.ts\", \"admin/pipeline/patch/no-new-text.test.ts\"], \"verifyCommand\": \"bun test admin/pipeline/patch/\", \"acceptanceCriteria\": [\"5 ops parse with op-specific payloads encoding sibling creation + placement\", \"stable target resolver, never array index, loud occurrence failures\", \"overlapping-target preflight error\", \"no-new-text rejects foreign bytes; only closed-grammar markers synthesized; reject re-dispositions needs_print_check\", \"accept+reject fixture per op\"]}\n```"
+		},
+		{
+			"id": 3,
+			"subject": "Task 3: Entry-result manifest",
+			"status": "completed",
+			"blockedBy": [
+				2
+			],
+			"description": "**Goal:** Spec §4.4: one JSONL record per input rid, exactly one disposition, patch ids + escalation + maintainer decision slots; unresolved needs_* gate.\n\n```json:metadata\n{\"files\": [\"admin/pipeline/research/manifest.ts\", \"admin/pipeline/research/manifest.test.ts\"], \"verifyCommand\": \"bun test admin/pipeline/research/manifest.test.ts\", \"acceptanceCriteria\": [\"disposition enum clean/repaired/needs_print_check/needs_human_judgment\", \"completeness: record set == input rid set\", \"gate helper reports unresolved needs_* rows\"]}\n```"
+		},
+		{
+			"id": 4,
+			"subject": "Task 4: Patch apply engine + phase manifest",
+			"status": "completed",
+			"blockedBy": [
+				1,
+				2,
+				3
+			],
+			"description": "**Goal:** Spec §5: ordered phase manifest with runtime-asserted preconditions; apply engine with all-mismatches preflight, corpus-order apply, round-trip re-parse, needs_* refusal.\n\n```json:metadata\n{\"files\": [\"admin/pipeline/patch/apply.ts\", \"admin/pipeline/patch/apply.test.ts\", \"admin/pipeline/body/migrate-dry.ts\", \"package.json\"], \"verifyCommand\": \"bun test admin/pipeline/patch/apply.test.ts && bun run body:migrate-dry\", \"acceptanceCriteria\": [\"preflight: snapshot pin + every expected_before + occurrence, ALL mismatches reported together\", \"corpus-order apply with round-trip re-parse per structural apply\", \"refuses on unresolved needs_*\", \"phase manifest: text passes → structural → patch apply → consumer-facing, violated assertion aborts\", \"empty corpus keeps gates 32512/32512\"]}\n```"
+		},
+		{
+			"id": 5,
+			"subject": "Task 5: Chunker + tranche checkpoints",
+			"status": "completed",
+			"blockedBy": [],
+			"description": "**Goal:** Spec §4.1.2/§4.5: deterministic 20–40-entry chunks, 2–4K-entry tranches, rid checkpoints, resumable; failed run loses at most one chunk.\n\n```json:metadata\n{\"files\": [\"admin/pipeline/research/chunks.ts\", \"admin/pipeline/research/chunks.test.ts\"], \"verifyCommand\": \"bun test admin/pipeline/research/chunks.test.ts\", \"acceptanceCriteria\": [\"deterministic rid-ordered chunking, configurable sizes\", \"checkpoint records completed chunks; resume skips them (tested mid-tranche)\", \"chunk ids stable across runs\"]}\n```"
+		},
+		{
+			"id": 6,
+			"subject": "Task 6: Sweep prompt v1 + defect catalog (USER GATE)",
+			"status": "completed",
+			"blockedBy": [
+				2,
+				3
+			],
+			"description": "**Goal:** Committed versioned prompt (spec §4.2) with full defect catalog, repair conventions, no-new-text constraint, output contract; doc-08 maintainer call recorded; 53 decided rows + deferred rulings carried as seed material.\n\n**USER GATE — maintainer signs prompt v1 before any tranche runs.**\n\n```json:metadata\n{\"files\": [\"admin/pipeline/research/prompts/sweep-v1.md\", \"docs/v2/body-review/08-implied-one-candidates.md\", \"docs/specs/2026-08-10-research-process-design.md\"], \"verifyCommand\": \"grep -c 'defect' admin/pipeline/research/prompts/sweep-v1.md\", \"acceptanceCriteria\": [\"all §4.2 elements present incl. one example per defect class\", \"seed decisions carried, not re-litigated\", \"doc-08 ruling (fold vs manual) recorded in doc-08 header + spec §8\", \"prompt versioned v1\"], \"userGate\": true, \"tags\": [\"user-gate\"]}\n```"
+		},
+		{
+			"id": 7,
+			"subject": "Task 7: Pilot tranche + verification machinery (USER GATE)",
+			"status": "completed",
+			"blockedBy": [
+				4,
+				5,
+				6
+			],
+			"description": "**Goal:** ~200-entry calibration tranche end-to-end with the §4.1.6 verification sampler (all low/med, random high sample, random clean sample → Opus tier); measured error + miss rates; committed output.\n\n**USER GATE — usage go/no-go before; maintainer sets thresholds and accepts after.**\n\n```json:metadata\n{\"files\": [\"admin/pipeline/research/verify.ts\", \"admin/pipeline/research/verify.test.ts\", \"data/patches/\"], \"verifyCommand\": \"bun test admin/pipeline/research/verify.test.ts\", \"acceptanceCriteria\": [\"ingest validates schema + no-new-text before corpus entry\", \"sampler: all low/med + random high + random clean\", \"pilot report with error rate, miss rate, escalation size\", \"output committed; failures fold into prompt v2\"], \"userGate\": true, \"tags\": [\"user-gate\"]}\n```"
+		},
+		{
+			"id": 8,
+			"subject": "Task 8: Scaled sweep tranches (USER GATE each)",
+			"status": "in_progress",
+			"blockedBy": [
+				7
+			],
+			"description": "**Goal:** Full-corpus sweep in fixed-size tranches, each manually gated on usage windows, each committed before the next; threshold breaches halt promotion and re-sweep affected chunks.\n\n**USER GATE — go/no-go per tranche, manual by design.**\n\n```json:metadata\n{\"files\": [\"data/patches/\"], \"verifyCommand\": \"bun test admin/pipeline/research/manifest.test.ts\", \"acceptanceCriteria\": [\"per tranche: go/no-go → sweep → ingest → verification within thresholds → commit\", \"breach halts promotion, feeds catalog, re-sweeps chunks\", \"final manifest complete: one record per corpus rid (32512)\"], \"userGate\": true, \"tags\": [\"user-gate\"]}\n```"
+		},
+		{
+			"id": 9,
+			"subject": "Task 9: Synthesis + script extraction loop",
+			"status": "pending",
+			"blockedBy": [
+				8
+			],
+			"description": "**Goal:** Corpus-wide synthesis (cross-entry patterns feed catalog + re-sweeps); script→re-run→recompute-redundancy→retire loop until stable; redundancy only on post-state equality, mismatch routes to review.\n\n```json:metadata\n{\"files\": [\"admin/pipeline/research/synthesis.ts\", \"admin/pipeline/patch/redundancy.ts\", \"admin/pipeline/patch/redundancy.test.ts\"], \"verifyCommand\": \"bun test admin/pipeline/patch/redundancy.test.ts\", \"acceptanceCriteria\": [\"synthesis report: class counts + cross-entry patterns\", \"redundancy rule in code: retire only on post-state equality\", \"loop stable; residue documented\"]}\n```"
+		},
+		{
+			"id": 10,
+			"subject": "Task 10: Recounts + evidence docs (USER GATE)",
+			"status": "pending",
+			"blockedBy": [
+				9
+			],
+			"description": "**Goal:** Recounts at target (brokenTopSequences=0, startsAtTwo=0) or enumerated signed sets; docs match measured output; follow-on plans (print tier, maintenance track) stubbed.\n\n**USER GATE — maintainer signs the final numbers.**\n\n```json:metadata\n{\"files\": [\"docs/v2/body-migration.md\", \"docs/v2/upstream-issues.md\", \"docs/v2/body-review/00-INDEX.md\", \"docs/specs/2026-08-10-research-process-design.md\"], \"verifyCommand\": \"bun run body:migrate-dry\", \"acceptanceCriteria\": [\"recounts at target or signed with review dates\", \"documented numbers equal captured output\", \"follow-on plans stubbed not started\"], \"userGate\": true, \"tags\": [\"user-gate\"]}\n```"
+		}
+	],
+	"lastUpdated": "2026-08-13T18:16:00Z"
+}

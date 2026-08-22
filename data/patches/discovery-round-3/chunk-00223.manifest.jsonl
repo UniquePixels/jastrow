@@ -1,0 +1,30 @@
+{"rid": "D00371", "disposition": "clean", "patches": []}
+{"rid": "D00372", "disposition": "clean", "patches": []}
+{"rid": "D00373", "disposition": "clean", "patches": []}
+{"rid": "D00374", "disposition": "clean", "patches": []}
+{"rid": "D00375", "disposition": "clean", "patches": []}
+{"rid": "D00376", "disposition": "clean", "patches": []}
+{"rid": "D00377", "disposition": "clean", "patches": []}
+{"rid": "D00378", "disposition": "clean", "patches": []}
+{"rid": "D00379", "disposition": "clean", "patches": []}
+{"rid": "D00380", "disposition": "clean", "patches": []}
+{"rid": "D00381", "disposition": "clean", "patches": []}
+{"rid": "D00382", "disposition": "clean", "patches": []}
+{"rid": "D00383", "disposition": "clean", "patches": []}
+{"rid": "D00384", "disposition": "clean", "patches": []}
+{"rid": "D00385", "disposition": "clean", "patches": []}
+{"rid": "D00386", "disposition": "clean", "patches": []}
+{"rid": "D00387", "disposition": "clean", "patches": []}
+{"rid": "D00388", "disposition": "clean", "patches": []}
+{"rid": "D00389", "disposition": "needs_print_check", "patches": [], "escalation": "grammar.binyan_form[0] of the Polel section reads דּוֹשֵׁש: the final ש has lost its shin dot (U+05C1) while every other consonant in the token is pointed; the twin entry D00390 writes the same form correctly as דּוֹשֵׁשׁ. Restoring the dot needs a byte that is absent from the entry, and no patch op writes grammar anyway. Also noted, not escalated: sense[0] is a bare preamble (\" (b. h.), part. a. perf. דָשׁ\") ahead of a complete 1)/—2) sequence — the catalogued preamble-stranded-lead-sense shape, explicitly not class-1 implied-one."}
+{"rid": "D00390", "disposition": "needs_human_judgment", "patches": [], "escalation": "class 11 wrong-link-target in the Af. section: the anchor display פרע inside \"h. text פרע\" (Targ. Prov. XV, 32) targets Jastrow, פְּרַע I (Q01944), an entry whose language_code is \" ch. \". \"h. text\" names the HEBREW original the Targum renders, and the Hebrew פָּרַע (Q01943) exists as its own article; the display is unvocalized, so nothing in it selects the Aramaic lemma. Maintainer call on the correct target. Anomaly hint niqqud-twin-target ACCEPTED as this finding. Anomaly hint comma-for-period ('supra,') REJECTED: the comma sits inside the parenthetical \"(v. supra, ed. Lag. תירשון)\" where it separates two list members, not a sentence end. Not escalated: the Polel. stem section's definition opens \"<i>Palp.</i> דַּשְׁדֵּשׁ\", the catalogued stranded-stem-head shape."}
+{"rid": "D00391", "disposition": "clean", "patches": []}
+{"rid": "D00392", "disposition": "needs_print_check", "patches": [], "escalation": "the quoted form דּוֹשְנָהּ in sense[0] has lost the shin dot (U+05C1) on its ש while carrying a sheva on the same consonant and full pointing elsewhere; the printed word is דּוֹשְׁנָהּ. Restoration needs a byte absent from the entry."}
+{"rid": "D00393", "disposition": "clean", "patches": []}
+{"rid": "D00394", "disposition": "clean", "patches": []}
+{"rid": "D00395", "disposition": "clean", "patches": []}
+{"rid": "D00396", "disposition": "needs_human_judgment", "patches": [], "escalation": "class 11 wrong-link-target: the anchor display ענק inside \"(O. פרש, h. text ענק Hif.)\" targets Jastrow, עֲנָק I (P01008), the NOUN \"giant\" — but the binyan label \"Hif.\" immediately after the closing tag names a verb, and the Hebrew verb עָנַק (P01006, \"denom. עֲנָק\") is the lemma Deut. XV, 14 הַעֲנֵיק תַּעֲנִיק belongs to. P01008's own text reads \"v. עָנַק\", i.e. the target itself points on to the right article. The deciding token sits OUTSIDE the anchor, so a display-side probe cannot see it. Anomaly hint niqqud-twin-target ACCEPTED as this finding. Not escalated: the lead \", <i>Pa</i>. \" is the catalogued label-period-outside-italic / stranded-stem-head shape."}
+{"rid": "D00397", "disposition": "clean", "patches": []}
+{"rid": "D00398", "disposition": "needs_print_check", "patches": [], "escalation": "the single sense ends \"...to be merry, wanton.—Denom.:\" — the colon promises a denominative that is absent from the entry entirely (no following sense, no further content). This is the catalogued dangling-denom-tail shape; restoring the denominative needs new bytes."}
+{"rid": "D00399", "disposition": "clean", "patches": []}
+{"rid": "D00400", "disposition": "needs_print_check", "patches": [], "escalation": "the citation reads \"Tosef. Kel. B. Mets. V, 3 kimhi (ed. Zuck. רחזינית, Var. רחזוינות)\": the token sits in the slot where the Tosefta's own reading belongs, and it is the only lower-case \"kimhi\" in the corpus — the other 46 occurrences are the capitalised editor name \"Kimḥi\" and all attach to Targum citations, never a Tosefta one. Corpus-frequency comparison says this slot lost its Hebrew reading; print check needed before anything is asserted."}

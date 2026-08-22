@@ -1,0 +1,30 @@
+{"rid":"A00081","missed":false,"note":"Single unnumbered cross-reference sense; parens/brackets balanced, no in-text markers, no OCR marker glyphs, no binyan head, no duplicated tail — clean stands."}
+{"rid":"A00072","missed":false,"note":"Single sense, balanced delimiters, no marker/OCR/binyan/duplication defects; unescaped space in an anchor href is markup hygiene, not a catalog class — clean stands."}
+{"rid":"A00017","missed":false,"note":"Long single sense but fully balanced ( ) and [ ], no in-text N) or —N) runs, no l)/1] glyphs, no loose binyan head, no repeated 20+ char segment; leading ' . ' continues the language_reference per cross-field convention — clean stands."}
+{"rid":"A00118","missed":false,"note":"Sense text balanced and marker-free; the unclosed '(b. h.,' closes inside language_reference (known cross-field convention) and the duplicated/nested anchor with ')' inside it sits in language_reference, not sense content — clean stands for senses."}
+{"rid":"A00171","missed":false,"note":"Single sense, balanced Greek parenthetical, no markers, OCR glyphs, binyan heads or duplication — clean stands."}
+{"rid":"A00057","missed":false,"note":"Single sense, no delimiters unbalanced, no marker or OCR pattern, no binyan head — clean stands."}
+{"rid":"A00074","missed":true,"note":"Class 8 (text lost upstream): sense text reads 'Y. Shebu. VI, 37ᵃ bot—V. בּוּן.' — the abbreviation period after 'bot' is dropped (every parallel run in this sample reads 'bot.—', and the capitalized 'V.' confirms a sentence break), so this should have been escalated needs_print_check rather than dispositioned clean."}
+{"rid":"A00019","missed":false,"note":"Single sense, balanced parentheses, no markers, OCR glyphs, binyan heads or duplicated tail — clean stands."}
+{"rid":"A00126","missed":false,"note":"Single sense, balanced parentheses, no in-text sense markers or OCR glyphs, no binyan head, no duplication — clean stands."}
+{"rid":"A00029","missed":false,"note":"Nine-character cross-reference sense with no delimiters, markers, or OCR patterns — clean stands."}
+{"rid":"A00200","missed":false,"note":"Clean stands: Pi. section numbers 1)/—2)/—3) run complete with no gap, no in-text markers (the ' 1)'/' 2)' hits are citation-closing parens), parens/brackets balanced, and '(b. h. Hif.)' is a parenthetical etymology note, not a loose binyan head (class 5)."}
+{"rid":"A00100","missed":false,"note":"Clean stands: single cross-reference sense, balanced delimiters, no markers or OCR tokens; the leading '—Pl.' follows the language_reference field per the known cross-field convention."}
+{"rid":"A00089","missed":false,"note":"Clean stands: one-line 'v. next w.' cross-reference sense, no markers, balanced delimiters, anchor wraps the reference token only."}
+{"rid":"A00087","missed":false,"note":"Clean stands: both bracketed addenda and all parentheticals close, no duplicated tail, no markers or binyan heads in the single sense."}
+{"rid":"A00108","missed":false,"note":"Clean stands: bare 'v. אביה' cross-reference sense with no delimiters, markers, or markup-boundary issues."}
+{"rid":"A00054","missed":false,"note":"Clean stands on the catalog: balanced parens/brackets, no markers, no duplication; the bare unwrapped 'אבו' and the parenthesized alt_headword '(אַיְיבוּ)' are sub-catalog/non-sense observations, not class 1-9 defects."}
+{"rid":"A00162","missed":false,"note":"Clean stands: single cross-reference sense, no markers, delimiters balanced, anchor boundary correct."}
+{"rid":"A00124","missed":false,"note":"Clean stands: single 'v. אַבָּיָיה' cross-reference sense with nothing to flag under any catalog class."}
+{"rid":"A00143","missed":false,"note":"Clean stands: single 'v. אֶבְקוֹלָס' cross-reference sense with nothing to flag under any catalog class."}
+{"rid":"A00132","missed":false,"note":"Clean stands: em-dash before 'M. Kat. 20ᵇ' is a citation-run separator carrying no number, parens balanced, no duplication or OCR marker."}
+{"rid":"A00161","missed":false,"note":"Single unnumbered sense; parens/brackets balanced, no in-text markers, no OCR marker glyphs, anchors wrap ref tokens only — clean stands."}
+{"rid":"A00000","missed":false,"note":"Letter-heading entry, one unnumbered sense; balanced punctuation, no sense markers or binyan heads in text — clean stands."}
+{"rid":"A00140","missed":false,"note":"One unnumbered sense; the (בוק, v. בקע; comp. אָפִיק) parenthetical opens and closes, no markers or duplicated tails — clean stands."}
+{"rid":"A00038","missed":false,"note":"One unnumbered sense; language_code '(b. h.;' closes inside language_reference (known cross-field convention), sense text balanced — clean stands."}
+{"rid":"A00173","missed":false,"note":"One unnumbered sense; both bracketed notes balanced, anchors exclude surrounding punctuation, no in-text N) markers — clean stands (the אַבְנֵי link resolving to href אַדְנֵי is an upstream ref-resolution artifact, not a catalog class)."}
+{"rid":"A00053","missed":false,"note":"Cross-reference sense ', v. מַמְצִיא'; missing terminal period matches 7,455 corpus-wide 'v.' senses, so systemic convention not per-entry loss — clean stands."}
+{"rid":"A00077","missed":false,"note":"Sequence reads 1), —2) with no gap; parens/brackets balanced in both senses, no swallowed markers, in-text '—Pl.' is running print text not a binyan head — clean stands."}
+{"rid":"A00111","missed":false,"note":"Sequence reads 1), —2) with no gap; the only ')' hits are closing parens of citations ('Gen. II, 21)'), balance clean, no OCR markers — clean stands."}
+{"rid":"A00062","missed":false,"note":"Cross-reference sense ', v. אֶבְדִּימוֹס'; balanced, no markers, terminal-period absence is the corpus-wide cross-ref convention — clean stands."}
+{"rid":"A00137","missed":false,"note":"One unnumbered sense, pr. n. entry; balanced, anchors well-bounded, no markers or duplicated tails — clean stands."}

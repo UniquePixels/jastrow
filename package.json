@@ -17,7 +17,8 @@
 		"qa:format": "biome format --write",
 		"qa:lint": "biome check --error-on-warnings",
 		"qa:test": "bun test",
-		"qa:tsc": "tsc --noEmit --skipLibCheck"
+		"qa:tsc": "tsc --noEmit --skipLibCheck",
+		"research:apply": "bun admin/pipeline/patch/apply.ts"
 	},
 	"devDependencies": {
 		"@biomejs/biome": "2.5.2",

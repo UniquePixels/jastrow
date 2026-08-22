@@ -1,0 +1,30 @@
+{"rid": "O00942", "disposition": "needs_human_judgment", "patches": [], "escalation": "Class 11 wrong-link-target, three anchors. (a) The headword line's own Pa. stem form <a>סַכַּר</a> targets 'Jastrow, סְכַר I 1' (O00941), a different homograph of this entry (סְכַר II); the consonantal skeleton סכר is shared by O00940 סָכַר, O00941 סְכַר I, O00942 (host) and O00943 סַכָּר, so the niqqud carve-out cannot apply, and the entry has no binyan_form array (the stem head is stranded in definition text), so the display is not recoverable as an own form. (b) The Po. form <a>סוֹכַר</a> targets 'Jastrow, סוֹכֵר 1' (O00308), which is the place name ʽEn Sokher, morphology 'pr. n. pl.' — a verb stem form pointed at a proper noun. (c) <a data-ref=\"Jastrow, סְבַר 1\">סְבַר</a> is immediately followed by a bare ' III' outside the anchor; סְבַר III (O00087) exists and is the entry the sentence means — the same definition links it correctly later ('interch. with סְבַר III'). Cannot repair: the correct data-ref bytes are not present in the entry for (a) and (b)."}
+{"rid": "O00943", "disposition": "clean", "patches": []}
+{"rid": "O00944", "disposition": "repaired", "patches": ["P000001"]}
+{"rid": "O00945", "disposition": "needs_human_judgment", "patches": [], "escalation": "Two findings. (1) Class 11 wrong-link-target, two anchors: 'Pl. m. סִיכֵּי, <a>סִכֵּי</a>' targets 'Jastrow, סְכֵי 1' (O00893), the verb 'to look out, to hope', although סִכֵּי is this entry's own plural (it is in plural_form[]); and 'Pl. <a>סִכָּתָא</a>, <a>סִיכָּ׳</a>' targets 'Jastrow, סִכְתָא 1' (O00946), the separate entry 'face, stamp of a coin', although the geresh form סִיכָּ׳ abbreviates this entry's own plural סִיכָּתָא (host alt_headwords carries סִי׳; O00946's abbreviation is סִיכְ׳, not סִיכָּ׳). (2) Class 8 lost-parenthetical in sense —2): 'Targ. O. Deut. XXIII, 14 (ed. Amst. סִיכְתָא; Y. סִיכָּא (not סִיכָא).' opens two parentheses and closes only one — one closing paren is missing before the terminal period; restoring it needs a byte not in the entry, so it needs the printed page. Judged and rejected as non-defects: <a>סִיכְתָא</a> -> סִיכְּתָא (O00655, whose alt_headwords is exactly סִיכְתָא — attested variant); <a>סִיכָא</a> -> סִיכָּא (niqqud-only, skeleton סיכא unique to O00639, and the 'not X' corrigendum framing is uniform linker behaviour); <a>סִכָּתָא</a> -> סִכְּתָא is this entry's own headword, a legitimate self-link on an inflected form."}
+{"rid": "O00946", "disposition": "clean", "patches": []}
+{"rid": "O00947", "disposition": "clean", "patches": []}
+{"rid": "O00948", "disposition": "clean", "patches": []}
+{"rid": "O00949", "disposition": "clean", "patches": []}
+{"rid": "O00950", "disposition": "clean", "patches": []}
+{"rid": "O00951", "disposition": "clean", "patches": []}
+{"rid": "O00952", "disposition": "clean", "patches": []}
+{"rid": "O00953", "disposition": "needs_human_judgment", "patches": [], "escalation": "Class 11 wrong-link-target: in the Y. Sabb. VI, 8ᵇ citation the geresh abbreviation <a data-ref=\"Jastrow, ס׳ 1\">ס׳</a> abbreviates this entry's own headword *סִלְבּוֹנַיָּא, but it targets O00001, the article on ס׳ as the numeral sixty. Per v4 §11 a geresh abbreviation inside an entry must resolve to that entry. This is the catalogued geresh-letter-numeral-mislink shape (patterns.jsonl, 608 corpus-wide) and is not on the prompt's script-slated exemption list, so it is escalated here; triage can batch it. No repair: the entry does not contain the bytes of a correct data-ref."}
+{"rid": "O00954", "disposition": "clean", "patches": []}
+{"rid": "O00955", "disposition": "clean", "patches": []}
+{"rid": "O00956", "disposition": "clean", "patches": []}
+{"rid": "O00957", "disposition": "clean", "patches": []}
+{"rid": "O00958", "disposition": "clean", "patches": []}
+{"rid": "O00959", "disposition": "clean", "patches": []}
+{"rid": "O00960", "disposition": "needs_human_judgment", "patches": [], "escalation": "Anomaly hint 'inflection-escape-link' ACCEPTED, plus a second anchor of the same class. In the plural list 'Pl. סִלְוַיָּא, סִלְוַו׳, סִלְוִין, סִלְוֵי, סִי׳': (a) <a>סִלְוֵי</a> targets 'Jastrow, סַלִוָון 1' (O00962), whose own content is only ', v. סְלָיו ch.' — i.e. the quail, not the thorn; סִלְוֵי is this entry's own plural (plural_form[3]) and the linker reached O00962 through its alt_headword סַלְוֵי, which shares the skeleton סלוי. (b) <a>סִי׳</a> targets 'Jastrow, סִבְכָא 1' (O00067) 'net, head-dress', again matched through that entry's alt_headword סִי׳, although סִי׳ is this entry's own abbreviation (host alt_headwords[1] and plural_form[4]). Judged and rejected: <a>סִלְוַו׳</a> -> סִלְוָא is the host itself (legitimate self-link on an inflected form); <a>סִלְוִין</a> -> סִילְוָא (O00656) is acceptable — O00656 is the plene stub for this very word and its alt_headwords are סִילְוִין / סִילְוִים. No repair possible: correct target bytes are absent from the entry."}
+{"rid": "O00961", "disposition": "clean", "patches": []}
+{"rid": "O00962", "disposition": "clean", "patches": []}
+{"rid": "O00963", "disposition": "clean", "patches": []}
+{"rid": "O00964", "disposition": "clean", "patches": []}
+{"rid": "O00965", "disposition": "clean", "patches": []}
+{"rid": "O00966", "disposition": "clean", "patches": []}
+{"rid": "O00967", "disposition": "clean", "patches": []}
+{"rid": "O00968", "disposition": "clean", "patches": []}
+{"rid": "O00969", "disposition": "clean", "patches": []}
+{"rid": "O00970", "disposition": "clean", "patches": []}
+{"rid": "O00971", "disposition": "clean", "patches": []}

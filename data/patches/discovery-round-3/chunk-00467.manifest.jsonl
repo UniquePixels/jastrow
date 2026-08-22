@@ -1,0 +1,30 @@
+{"rid": "K01118", "disposition": "clean", "patches": []}
+{"rid": "K01119", "disposition": "clean", "patches": []}
+{"rid": "K01120", "disposition": "clean", "patches": []}
+{"rid": "K01121", "disposition": "clean", "patches": []}
+{"rid": "K01122", "disposition": "clean", "patches": []}
+{"rid": "K01123", "disposition": "clean", "patches": []}
+{"rid": "K01124", "disposition": "clean", "patches": []}
+{"rid": "K01125", "disposition": "clean", "patches": []}
+{"rid": "K01126", "disposition": "clean", "patches": []}
+{"rid": "K01127", "disposition": "clean", "patches": []}
+{"rid": "K01128", "disposition": "needs_human_judgment", "patches": [], "escalation": "class 11 wrong-link-target: the cross-reference display 'קרוספדאי' (print: 'v. קרוספדאי') names no headword in the corpus — no קרוספדאי/כרוספדאי skeleton exists outside this entry — and its anchor resolves instead to data-ref 'Jastrow, קְרוּסְפָּא 1' (S01958), whose skeleton differs from the display by an interior ד and whose whole definition is itself the stub ', v. כְּרִיסְפָּא a. קְרִיסְפָּא'. Cannot repair: the correct destination (a קרוספדאי article, or a redirect to כְּרִיסְפָּא K01174, which cites 'R. Hash. 16ᵇ כרוספדאי') is a maintainer call and the bytes for it are not in this entry."}
+{"rid": "K01129", "disposition": "clean", "patches": []}
+{"rid": "K01130", "disposition": "clean", "patches": []}
+{"rid": "K01131", "disposition": "clean", "patches": []}
+{"rid": "K01132", "disposition": "clean", "patches": []}
+{"rid": "K01133", "disposition": "clean", "patches": []}
+{"rid": "K01134", "disposition": "clean", "patches": []}
+{"rid": "K01135", "disposition": "needs_human_judgment", "patches": [], "escalation": "class 11 wrong-link-target: in the Hif. stem section the display 'same' is anchored to data-ref 'Jastrow, כְּרוֹת 1' — this entry's prev_hw (K01134, root כרת 'to cut'), not this entry's own Kal כָּרַז. 'Hif. הִכְרִיז same' must refer to the entry's base stem; the positional resolution to the preceding headword is wrong here (corpus-wide: 388 'same' anchors sit in a stem section of a non-'ch.' entry and every one resolves to prev_hw). Secondary, not repairable here: the two Tanhuma anchors 'Mishp. 19' and the following 'Ib.' both carry data-ref 'Exodus 19', reading the parashah section number as a Bible chapter. Anomaly hint judged and REJECTED: the flagged rare 'safe.' is the English gloss 'man is safe.' ('as long as the angel cries out … man is safe'), not a corruption of 'same.'."}
+{"rid": "K01136", "disposition": "needs_human_judgment", "patches": [], "escalation": "class 5 unclassified-binyan: the Af. section head sits loose in the definition text — the sense opens ', <i>Af</i>. <span dir=\"rtl\">אַכְרֵיז</span> same.' — instead of opening a classified stem section (grammar.verbal_stem 'Af.', binyan_form אַכְרֵיז); no patch op writes grammar/stem structure. The italic also carries the label without its terminal period ('<i>Af</i>.')."}
+{"rid": "K01137", "disposition": "clean", "patches": []}
+{"rid": "K01138", "disposition": "clean", "patches": []}
+{"rid": "K01139", "disposition": "clean", "patches": []}
+{"rid": "K01140", "disposition": "clean", "patches": []}
+{"rid": "K01141", "disposition": "needs_human_judgment", "patches": [], "escalation": "class 11 wrong-link-target (two anchors) plus a class 8 sub-token loss. (a) Both anomaly hints ACCEPTED: the display 'כַּרְזִילִין' in sense —2) is this entry's own declared plural_form, yet its anchor targets 'Jastrow, כַּרְזִימִין 1' (K01143), whose whole definition is ', v. גַּרְזִימִי' — the target is neither this lemma nor a cross-reference this entry names, and display/target differ by an interior ל/מ. Correct destination is this entry itself. (b) The rejected reading in '(not <a>בַּ׳</a>, v. ed. Lag. II, p. XIV)' is anchored to 'Jastrow, ב׳ 1' = B00002, the numeral article ('as a numeral letter, two'); בַּ׳ here abbreviates the ב-initial variant of this entry's word, so the numeral article can never be its target. (c) class 8, needs the printed page: sense 1)'s gloss reads '<i>the shepherd’s assistantthat gathers the scattered flock</i>' — the space between 'assistant' and 'that' is lost and restoring it needs a byte this entry does not contain. (d) Minor, print-check territory: the lead sense writes '(כְּרַז, with format, ל)' where the corpus writes 'with format.' 20x against 'with format,' 2x."}
+{"rid": "K01142", "disposition": "needs_human_judgment", "patches": [], "escalation": "class 11 wrong-link-target: in '(Ms. M. כרוים, Ms. R. 2 a. Ms. K. <a>ב׳</a>, v. Rabb. D. S. a. l. note)' the manuscript variant abbreviation ב׳ — which stands for the ב-initial variant spelling of this entry's headword כַּרְזַיִם — is anchored to 'Jastrow, ב׳ 1' = B00002, the numeral article ('as a numeral letter, two'). No repair available: the intended word (בַּרְזַיִם) has no entry, and the host entry is not the right target either, since the whole point of the citation is that the witness reads a different first letter."}
+{"rid": "K01143", "disposition": "clean", "patches": []}
+{"rid": "K01144", "disposition": "clean", "patches": []}
+{"rid": "K01145", "disposition": "needs_print_check", "patches": ["P000001"], "escalation": "class 8 lost byte at the markup seam: after the class-10 collapse the sense reads '…כָּרַךְ</a>)<i>to be tied…' with no space at the ')<i>' seam; the corpus writes ') <i>' 6,145 times against 110 without, so a space was lost and restoring it needs a byte this entry does not contain. The nested duplicate anchor itself is repaired by P000001."}
+{"rid": "K01146", "disposition": "clean", "patches": []}
+{"rid": "K01147", "disposition": "clean", "patches": []}

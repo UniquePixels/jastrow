@@ -264,3 +264,11 @@ validated repairs stay in the deterministic script set. Whether the
 remaining doc-08 rows are finished manually or folded into the
 sweep (implied-one is a cataloged defect class the agents will
 detect) is a maintainer call recorded at review of this spec.
+
+**Ruling (maintainer, 2026-08-13):** folded into the sweep. The 53
+decided doc-08 rows and the deferred-row resolutions
+(D00470/K00081/R00519) carry into prompt v1
+(`admin/pipeline/research/prompts/sweep-v1.md`) as binding
+pre-decided inputs; the 26 undecided rows are decided by the sweep
+under the implied-one defect class. Recorded in the doc-08 header
+(doc carried onto this branch from `impl/sense-structure-repair`).

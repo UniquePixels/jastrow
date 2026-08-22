@@ -1,0 +1,30 @@
+{"rid": "O00972", "disposition": "clean", "patches": []}
+{"rid": "O00973", "disposition": "clean", "patches": []}
+{"rid": "O00974", "disposition": "clean", "patches": []}
+{"rid": "O00975", "disposition": "repaired", "patches": ["P000001", "P000002"]}
+{"rid": "O00976", "disposition": "clean", "patches": []}
+{"rid": "O00977", "disposition": "needs_print_check", "patches": [], "escalation": "Sense 2.0 (Pi. סִילֵּא, number '1)') opens ' [ [to make rise,]' — a surplus opening bracket with no closer anywhere in the entry (entry bracket balance 3 open / 2 close); cannot tell without the printed page whether print has a single '[to make rise,]' (surplus byte to drop) or a longer bracketed run whose text was lost at the seam, so no delete is proposed. Same entry also carries a Hif. הִסְלִיא grammar block with no senses and no definition (its content evidently shared with the following Pi. section) — structural, outside patch-op scope."}
+{"rid": "O00978", "disposition": "clean", "patches": []}
+{"rid": "O00979", "disposition": "clean", "patches": []}
+{"rid": "O00980", "disposition": "needs_human_judgment", "patches": [], "escalation": "Class 11 wrong-link-target, three anchors, none repairable (correct href bytes absent from the entry): (a) display 'ס׳' (abbreviating this entry's headword סְלָיו) targets 'Jastrow, ס׳ 1', the samekh letter article O00001; (b) display 'שׂ׳' targets סוֹכָה (O00299) — 6 of 6 corpus-wide, a fixed sink; (c) display 'שַׂ׳' targets סָהֲדָא (O00213) — 8 of 8 corpus-wide, a fixed sink. Both sinks begin with ס while the abbreviation is sin, so the resolver appears to fold שׂ to ס. Display 'סַלְוֵי' -> סַלִוָון is NOT flagged: O00962 סַלִוָון resolves back to 'סְלָיו ch.', i.e. this entry."}
+{"rid": "O00981", "disposition": "clean", "patches": []}
+{"rid": "O00982", "disposition": "needs_human_judgment", "patches": [], "escalation": "anomaly_hint abbrev-mislink ACCEPTED. Display 'סיל׳' in 'Yalk. Ps. 642 סולקוס, סיל׳ (corr. acc.)' abbreviates a variant spelling of this entry's own headword סְלֶיוְקוֹס (cf. the sibling headwords סליוקא O00981, סלייקוס O00986), but its data-ref targets סִלְסוּל (O01010, 'loftiness; curling the hair'), an unrelated word — 4 of 4 corpus-wide occurrences of 'סיל׳' go to the same sink. Class 11, not repairable from bytes present in the entry."}
+{"rid": "O00983", "disposition": "clean", "patches": []}
+{"rid": "O00984", "disposition": "clean", "patches": []}
+{"rid": "O00985", "disposition": "clean", "patches": []}
+{"rid": "O00986", "disposition": "clean", "patches": []}
+{"rid": "O00987", "disposition": "clean", "patches": []}
+{"rid": "O00988", "disposition": "clean", "patches": []}
+{"rid": "O00989", "disposition": "needs_human_judgment", "patches": [], "escalation": "Class 11 wrong-link-target: in 'Tosef. ib. IV (V), 12 ed. Zuck. (oth. ed. … <a>לָא</a>)' the anchored token is the tail of an elided variant reading of הסלו׳/סְלִילָה, but data-ref resolves it to לָא I (L00004), the Aramaic negative particle, chosen context-free from a three-member homograph family (לָא I/II/III). The variant reading cannot be the negative particle. Not repairable: correct target bytes absent."}
+{"rid": "O00990", "disposition": "clean", "patches": []}
+{"rid": "O00991", "disposition": "clean", "patches": []}
+{"rid": "O00992", "disposition": "needs_human_judgment", "patches": [], "escalation": "Class 11 wrong-link-target: 'Yoma 10ᵃ אשור זה ס׳ Ms. M. (ed. <a>סילק</a>, v. Rabb. D. S. a. l. note)' — 'סילק' is the edition's variant spelling of this entry's own headword סְלִיק, the place name Seleucia, but data-ref targets the verb סָלַק ('to ascend', O01018 family). The skeleton match is only a matres-lectionis coincidence (סילק ~ סלק); the token names a place, not the verb. Not repairable from bytes present."}
+{"rid": "O00993", "disposition": "clean", "patches": []}
+{"rid": "O00994", "disposition": "clean", "patches": []}
+{"rid": "O00995", "disposition": "clean", "patches": []}
+{"rid": "O00996", "disposition": "clean", "patches": []}
+{"rid": "O00997", "disposition": "clean", "patches": []}
+{"rid": "O00998", "disposition": "clean", "patches": []}
+{"rid": "O00999", "disposition": "clean", "patches": []}
+{"rid": "O01000", "disposition": "clean", "patches": []}
+{"rid": "O01001", "disposition": "clean", "patches": []}

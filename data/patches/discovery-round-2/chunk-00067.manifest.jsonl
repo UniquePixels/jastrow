@@ -1,0 +1,30 @@
+{"rid": "A01980", "disposition": "needs_human_judgment", "patches": [], "escalation": "Class 11: the entry's own plural anchor 'Pl. אַמְגֹּושֵׁי' (= plural_form of this entry) carries data-ref 'Jastrow, אַמְגּוּשִׁי 1' — a separate headword (A01981, 'a follower of magianism'); the inflection link escapes the host entry. Class 8: the unlinked citation 'B. Beth. 58ᵃ' — hint 'rare-dotted-variant' accepted; the magus passage is B. Bath. (Bava Batra) 58ᵃ and 'Beth.' is not a corpus tractate abbreviation; correcting it needs bytes not in the entry, so print check required."}
+{"rid": "A01981", "disposition": "clean", "patches": []}
+{"rid": "A01982", "disposition": "clean", "patches": []}
+{"rid": "A01983", "disposition": "clean", "patches": []}
+{"rid": "A01984", "disposition": "needs_human_judgment", "patches": [], "escalation": "Class 11 ×2. (a) Hif. sub-sense opens with an anchor whose display is 'same' but whose data-ref is 'Jastrow, *אַמְּגַיַּירְתֵּיה 1' — the immediately preceding rid (A01983), not this entry אָמַד, which 'same' must denote. (b) The etymology '(√מד; v. מָדַד)' links the root display 'מד' to data-ref 'Jastrow, מִדְּ־ 1', which is the proclitic-particle entry 'a prefix, = מן ד־' (M00230); the root has no entry of its own. Only 1 of the corpus's 74 √-root anchors resolves to a maqaf/prefix headword, so this is a per-entry defect, not a systemic shape."}
+{"rid": "A01985", "disposition": "clean", "patches": []}
+{"rid": "A01986", "disposition": "clean", "patches": []}
+{"rid": "A01987", "disposition": "clean", "patches": []}
+{"rid": "A01988", "disposition": "clean", "patches": []}
+{"rid": "A01989", "disposition": "needs_human_judgment", "patches": ["P000001"], "escalation": "Repaired: class 2 swallowed '—2)' (P000001). Unrepairable findings. Class 11 ×4: (a) sense 1's 'אַמַּת (בית) השחי' and sense —4)'s 'אמת (בית) השחי' both link to data-ref 'Jastrow, אֱמֶת 1' ('truth'); the display is the construct of this entry אַמָּה, same skeleton, different word. (b) niqqud-twin hint accepted — variant display 'קלון' links to קַלּוֹן (S01271, Greek 'calo, I proclaim'); the reading behind 'א׳ בית הקילון' is קִילוֹן (S00964, 'swipe and bucket for drawing water'). (c) niqqud-twin hint accepted — variant display 'סילון' links to סִילּוֹן I (O00658, 'rod, thorn'); the water-channel sense wants סִילּוֹן (O00659, 'duct, pipe, tube'). Class 8: sense —4)'s parenthesis '(from its shape; v. Grætz Monatsschr. 1880, p. 289; [emendation שית unnecessary]; v. supra.' never closes — the entry is net one open paren after the cross-field convention is accounted for; restoring ')' needs a byte this process may not add."}
+{"rid": "A01990", "disposition": "needs_human_judgment", "patches": [], "escalation": "Class 11: 'Pl. אֲמָהוֹת' (this entry's own plural_form) carries data-ref 'Jastrow, אַמְהוּת 1' — A01993, 'servitude of a maid, servile condition', a distinct headword sharing the skeleton אמהות. Inflection link escapes the host entry."}
+{"rid": "A01991", "disposition": "clean", "patches": []}
+{"rid": "A01992", "disposition": "clean", "patches": []}
+{"rid": "A01993", "disposition": "clean", "patches": []}
+{"rid": "A01994", "disposition": "clean", "patches": []}
+{"rid": "A01995", "disposition": "clean", "patches": []}
+{"rid": "A01996", "disposition": "clean", "patches": []}
+{"rid": "A01997", "disposition": "clean", "patches": []}
+{"rid": "A01998", "disposition": "clean", "patches": []}
+{"rid": "A01999", "disposition": "needs_print_check", "patches": [], "escalation": "Class 8 (sub-token): '(<i>well-covered</i>)<i>;guarded;</i>' — the space after the semicolon is lost at the markup seam; print reads '… nursed (well-covered); guarded;'. Restoring it adds a byte absent from any legal find-window, so no patch. Both hints rejected: 'bare c' is the list letter of the a)/b)/c) homiletic series, not an abbreviation; 'niqqud-twin אמן' is correct — אָמוֹן 'artist' derives from אָמַן, not from אָמֵן. The self-link 'b) = אָמוּן' → אָמוֹן I was also judged: אָמוּן is not a corpus headword, so this is the linker's conventional self-link on a related surface form, not class 11."}
+{"rid": "A02000", "disposition": "needs_print_check", "patches": [], "escalation": "Class 8: sense 1) opens '(b. h. <i>No-Amon</i> (Thebes) in Egypt.' — the closing paren of the '(b. h.' language note is lost; the entry has no language_code field, so the cross-field parenthetical convention cannot account for it and the entry is net one open paren. The '[' ending sense 1) and the ']' ending sense *2) balance across the sense boundary (segmentation artifact) and the '*2)' marker reflects print's asterisk convention; neither is escalated."}
+{"rid": "A02001", "disposition": "clean", "patches": []}
+{"rid": "A02002", "disposition": "needs_human_judgment", "patches": [], "escalation": "Headword-field defect (out of patch scope): the headword is '*כְּפַר א׳ אָמוּס', which fuses print's abbreviated phrase 'כְּפַר א׳' with the lemma אָמוּס. prev_hw/next_hw (אֱמוּנָה / אֲמוֹרָא) show the entry is alphabetized as אָמוּס, confirming the abbreviated phrase is a prefix artifact and belongs in alt_headwords, not in the headword."}
+{"rid": "A02003", "disposition": "clean", "patches": []}
+{"rid": "A02004", "disposition": "clean", "patches": []}
+{"rid": "A02005", "disposition": "needs_human_judgment", "patches": [], "escalation": "Class 11 ×2: both 'בר א׳' and 'Pl. אֱמוֹרָאֵי' carry data-ref 'Jastrow, אמוראי 1' (A02006), a stub reading ', v. אמודאי' whose alt_headwords hold 'בר א׳' — i.e. the diver word בר אמוראי (*אֲמוֹדַאי, A01996). Under this entry אֱמוֹרָאָה the abbreviation א׳ expands to 'Emorite', so both links resolve to a homograph collision rather than the intended Emorite forms."}
+{"rid": "A02006", "disposition": "clean", "patches": []}
+{"rid": "A02007", "disposition": "clean", "patches": []}
+{"rid": "A02008", "disposition": "clean", "patches": []}
+{"rid": "A02009", "disposition": "clean", "patches": []}

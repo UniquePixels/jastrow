@@ -1,0 +1,30 @@
+{"rid": "F00077", "disposition": "clean", "patches": []}
+{"rid": "F00078", "disposition": "clean", "patches": []}
+{"rid": "F00079", "disposition": "clean", "patches": []}
+{"rid": "F00080", "disposition": "clean", "patches": []}
+{"rid": "F00081", "disposition": "clean", "patches": []}
+{"rid": "F00082", "disposition": "clean", "patches": []}
+{"rid": "F00083", "disposition": "needs_human_judgment", "patches": [], "escalation": "class 11 wrong-link-target (unrepairable: correct bytes absent). Sense —2), Rashi's alternative reading: display <span>וְרָד</span> links to Jastrow, וְרַד 1 (F00084, the Aramaic 'rose'), but the surrounding text says Rashi reads the Keth. 72ᵇ word 'fr. רדד' — i.e. explicitly NOT the rose word; the skeleton ורד is carried by three headwords (*וֶרֶד I, וֶרֶד II — this entry —, וְרַד), so the niqqud carve-out cannot decide it and the display's own vocalisation (וְרָד) matches none of them. Maintainer call: either this entry (וֶרֶד II, the Hebrew word actually under discussion) or no link at all. Anomaly hint (niqqud-twin-target, display 'חרוב' → חֲרוּב I) REJECTED as a target-choice defect: among the three חרוב headwords only חֲרוּב I (carob-tree) is semantically possible in a Tosef. Shebi. V,7 tree citation (חֲרוֹב/חָרוֹב are 'dry/ruined', חֲרוּב II is a place name); note however that the text marks this very reading a corruption ('corr. acc.'), so linking it at all is the corpus-wide shape reported separately in discovery, not an entry-local defect."}
+{"rid": "F00084", "disposition": "repaired", "patches": ["P000001"]}
+{"rid": "F00085", "disposition": "clean", "patches": []}
+{"rid": "F00086", "disposition": "clean", "patches": []}
+{"rid": "F00087", "disposition": "clean", "patches": []}
+{"rid": "F00088", "disposition": "clean", "patches": []}
+{"rid": "F00089", "disposition": "clean", "patches": []}
+{"rid": "F00090", "disposition": "clean", "patches": []}
+{"rid": "F00091", "disposition": "repaired", "patches": ["P000002"]}
+{"rid": "F00092", "disposition": "clean", "patches": []}
+{"rid": "F00093", "disposition": "clean", "patches": []}
+{"rid": "F00094", "disposition": "clean", "patches": []}
+{"rid": "F00095", "disposition": "clean", "patches": []}
+{"rid": "F00096", "disposition": "needs_human_judgment", "patches": [], "escalation": "class 11 wrong-link-target (unrepairable: correct bytes absent). Sense —2) ('straits, canal', Ber. 8ᵃ Rashi loop-hole; M. Kat. end; Lev. R. s. 4; Tanḥ. Mikk. 10; ed. Bub. 15; Koh. R. to VI, 6): display <span>פִּיטוּרִין</span> links to Jastrow, פִּיטּוּרִין 1 (Q00623, 'discharge, divorce' — Targ. O. Deut. XXIV,3; Gitt. IX,3; Ned. 5ᵇ, no citation in common with this sense). The word meant is פִּיטּוּרֵי (Q00622, 'water rushing through bars'), which lists פִּיטּוּרִין among its alt_headwords and cites Ber. 8ᵃ, M. Kat. 28ᵇ, Lev. R. s. 4, Tanḥ. ed. Bub. Mikk. 15 and Koh. R. to VI — the same citation run. The neighbouring display צִיפּוּרִין → צִיפּוֹרֵי (R00413) is correct because צִיפּוֹרִין is that entry's own alt_headword; the פיטורין anchor is the one that lands on the homonym. Anomaly hint (rare-dotted-variant 'Mikk.' beside 'Mikv.') REJECTED: 'Tanḥ. Mikk. 10' is Tanḥuma Mikkets, a parashah abbreviation, not a mis-set 'Mikv.' (Mikvaot); the entry cites no Mishnaic tractate there."}
+{"rid": "F00097", "disposition": "clean", "patches": []}
+{"rid": "F00098", "disposition": "clean", "patches": []}
+{"rid": "F00099", "disposition": "clean", "patches": []}
+{"rid": "F00100", "disposition": "clean", "patches": []}
+{"rid": "F00101", "disposition": "clean", "patches": []}
+{"rid": "F00102", "disposition": "clean", "patches": []}
+{"rid": "F00103", "disposition": "clean", "patches": []}
+{"rid": "F00104", "disposition": "clean", "patches": []}
+{"rid": "F00105", "disposition": "clean", "patches": []}
+{"rid": "F00106", "disposition": "clean", "patches": []}

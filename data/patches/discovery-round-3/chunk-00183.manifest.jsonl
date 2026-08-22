@@ -1,0 +1,30 @@
+{"rid": "C00604", "disposition": "clean", "patches": []}
+{"rid": "C00605", "disposition": "clean", "patches": []}
+{"rid": "C00606", "disposition": "clean", "patches": []}
+{"rid": "C00607", "disposition": "clean", "patches": []}
+{"rid": "C00608", "disposition": "clean", "patches": []}
+{"rid": "C00609", "disposition": "needs_human_judgment", "patches": [], "escalation": "Class 5: the first (unnumbered) sense carries a loose stem head '<i>Pa.</i> גַּיֵּיב' in definition text instead of a grammar/stem section; no patch op writes grammar. Class 11: in the Af. section the anchor whose display is 'same' targets Jastrow, גיאתו 1 (C00608, a place name, the entry immediately preceding this one by rid) where the sense requires the Pa. of this same entry — 'same' here is the stem-section cognate formula, not a cross-reference to the previous headword."}
+{"rid": "C00610", "disposition": "clean", "patches": []}
+{"rid": "C00611", "disposition": "clean", "patches": []}
+{"rid": "C00612", "disposition": "clean", "patches": []}
+{"rid": "C00613", "disposition": "clean", "patches": []}
+{"rid": "C00614", "disposition": "needs_human_judgment", "patches": [], "escalation": "Class 11: display 'בר ג׳' (= bar gibbul, abbreviating this entry's own headword גּיבּוּל, glossed 'fit, designed to be kneaded') targets Jastrow, גִּיּוֹרֵי 1 (C00667, 'Bar-Giyore, son of proselytes'), which declares 'בר ג׳' in its own alt_headwords. The correct destination is this entry; href/data-ref bytes for it are not present in the entry, so no repair is expressible."}
+{"rid": "C00615", "disposition": "clean", "patches": []}
+{"rid": "C00616", "disposition": "clean", "patches": []}
+{"rid": "C00617", "disposition": "clean", "patches": []}
+{"rid": "C00618", "disposition": "repaired", "patches": ["P000001"]}
+{"rid": "C00619", "disposition": "needs_human_judgment", "patches": [], "escalation": "Class 11 (anomaly hints one-consonant-diverge + inflection-escape-link, both accepted): display 'גְּבָרָאֵי' — the Targ. Y. reading of this entry's own plural at Targ. O. Gen. XV, 20, h. text רפאים — targets Jastrow, *גְּזָרָאֵי 1 (C00579, 'persecutors', from גזר, cited only at Targ. Y. II Deut. XXXII, 33). Skeletons differ at the second consonant (ב/ז). Correct destination is this entry (גִּיבַּר). Second-opinion item, not escalated: the last anchor displays גִּבָּרָתָא (Ms. M. reading, 'important/mighty', fem. of this headword) and targets גְּבַרְתָּא (C00138, 'mistress, lady') — same consonantal skeleton, one headword only, so v4's niqqud carve-out formally allows it, but the two vocalizations are different words."}
+{"rid": "C00620", "disposition": "repaired", "patches": ["P000002"]}
+{"rid": "C00621", "disposition": "clean", "patches": []}
+{"rid": "C00622", "disposition": "clean", "patches": []}
+{"rid": "C00623", "disposition": "clean", "patches": []}
+{"rid": "C00624", "disposition": "clean", "patches": []}
+{"rid": "C00625", "disposition": "clean", "patches": []}
+{"rid": "C00626", "disposition": "needs_human_judgment", "patches": [], "escalation": "Class 11 (anomaly hints one-consonant-diverge + inflection-escape-link, both accepted): in the closing bracketed homograph note the display 'גִּידִּין' (plural of גִּידָּא II, worm-wood, declared in that entry's plural_form) targets Jastrow, גִּינִּין 1 (C00765, 'protective armor, cuirass'); skeletons differ at the third consonant (ד/נ). Judged and rejected in the same note: the anchor on 'גִּיד' resolves to this entry itself — a plain lemma mention, self-link convention, not a circular v.-reference."}
+{"rid": "C00627", "disposition": "clean", "patches": []}
+{"rid": "C00628", "disposition": "needs_human_judgment", "patches": [], "escalation": "Class 11 (anomaly hint inflection-escape-link accepted): 'Pl. גִּידֵּי' — this entry's own declared plural_form — targets Jastrow, גִּידֵּם 1 (C00645, 'one whose hand or fingers are cut off'); final consonant diverges (י/ם). Correct destination is this entry."}
+{"rid": "C00629", "disposition": "needs_human_judgment", "patches": [], "escalation": "Class 11 ×2 (anomaly hints accepted): 'גִּידֵּי' (Ar. reading of this entry's word) targets Jastrow, גִּידֵּם 1 (C00645, 'stump-handed'), and 'גִּידִּין' (this entry's own declared plural_form) targets Jastrow, גִּינִּין 1 (C00765, 'cuirass'). The two niqqud-twin hints are rejected: 'גדד' → גָּדַד I is the right one of the three skeleton-mates (the etymology is 'to cut, incise'), and 'גירא' → גֵּירָא is a reading the text itself marks 'corr. acc.'."}
+{"rid": "C00630", "disposition": "clean", "patches": []}
+{"rid": "C00631", "disposition": "clean", "patches": []}
+{"rid": "C00632", "disposition": "clean", "patches": []}
+{"rid": "C00633", "disposition": "needs_human_judgment", "patches": [], "escalation": "Novel class, proposed name gloss-head-seam-period-doubling: language_reference ends '…same</a>.' and sense[0]'s definition opens ' . *<a>Targ. Is. XXXVIII, 12</a>', so the rejoined gloss head renders 'ch. same. . *Targ. Is. XXXVIII, 12' with two sentence terminators. Corpus-wide: 1,136 entries have a language_reference ending in a period; only 15 (this one included) also open the definition with one, and 3,312 of the 3,317 entries whose language_reference lacks the period do not. One of the two periods is surplus; which side loses the byte is a maintainer call, and the language_reference side is outside sense scope, so no patch op can express the choice."}
