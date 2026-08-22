@@ -21,8 +21,14 @@ describe('registry coverage', () => {
 		expect(report.registered + report.pending).toBe(report.total);
 	});
 
-	it('the catalogue still holds 81 transform rows', () => {
-		expect(coverage(catalogue).total).toBe(81);
+	// 80, not the 81 this asserted through batch 1: abbrev-in-alt-headwords
+	// was reclassified from transform to judgment on 2026-08-22. Expanding a
+	// geresh stub needs the headword's remaining vowels to carry over to the
+	// variant, and a variant spelling exists precisely because it differs —
+	// so the transfer is an assumption the corpus cannot test, not a
+	// derivation. Maintainer ruling; see that row's reason.
+	it('the catalogue still holds 80 transform rows', () => {
+		expect(coverage(catalogue).total).toBe(80);
 	});
 
 	it('pending ids all exist in the catalogue', () => {
