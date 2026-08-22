@@ -6,15 +6,17 @@
  * would be meaningless: rule 40's count drifts because rules 1–39
  * already edited the text.
  *
- * When the snapshot moves, this SKIPS rather than reporting up to 81
+ * When the snapshot moves, this SKIPS rather than reporting up to 80
  * false mismatches. Re-pinning is a deliberate re-baseline, not a
  * break.
  *
  * `hit` below counts ENTRIES a rule touches, not instances within
  * them — a rule that fires three times inside one entry still counts
  * once. `corpusCount` is an entry count for MOST rows — verified for
- * `bare-rtl-hebrew` ("4,472 senses / 4,190 entries", `corpusCount`
- * 4,190) — but not all of them: `ascii-gershayim-outside-body-text`
+ * `bare-rtl-hebrew`, whose committed `corpusCount` is 4,189 entries
+ * (4,471 senses), CORRECTED from the audit's 4,190 when the transform
+ * was written: the old figure was a +1/−1 cancellation, not agreement
+ * — but not all of them: `ascii-gershayim-outside-body-text`
  * (`corpusCount` 409) documents itself in patterns.jsonl as "COUNT IS
  * OCCURRENCES ACROSS SEVEN FIELD SLOTS, NOT ENTRIES." A DELTA against
  * a row like that is not a harness bug to chase — it is the designed
@@ -24,8 +26,8 @@
  * The corpus (32,512 entries, ~41 MB) is read into memory once up
  * front and every rule loops over that array, rather than
  * re-streaming `readSourceEntries()` once per rule. Streaming scales
- * with rule count — file I/O and JSON parsing repeated 81 times — so
- * as the registry grows toward 81 rules that would dominate the run.
+ * with rule count — file I/O and JSON parsing repeated 80 times — so
+ * as the registry grows toward 80 rules that would dominate the run.
  * The parsed corpus fits comfortably in memory, so paying the
  * streaming cost once and looping rules over the array in memory is
  * the cheaper trade.

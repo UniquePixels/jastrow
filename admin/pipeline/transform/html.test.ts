@@ -29,8 +29,8 @@ describe('tokenize', () => {
 	});
 
 	// J00597: an unterminated href swallows a `</a>`, so the tag reads as
-	// an OPEN that never closes. Pushing its dir="rtl" leaked rtl over all
-	// 34 later text tokens, pure Latin included.
+	// an OPEN that never closes. Pushing its dir="rtl" mislabelled 56 of
+	// its later tokens — 28 of them TEXT tokens, pure Latin included.
 	it('does not push rtl from a malformed open tag', () => {
 		const tokens = tokenize(
 			'<a dir="rtl" href="/x.1</a>B. Mets. 38<span dir="rtl">א</span>',

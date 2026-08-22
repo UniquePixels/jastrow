@@ -18,7 +18,20 @@ describe('registry coverage', () => {
 	it('every transform row is registered or explicitly pending', () => {
 		const report = coverage(catalogue);
 		expect(report.unaccounted).toEqual([]);
+		// A real claim, not an identity: `pending` is counted from
+		// `PENDING` rather than as the complement of `registered`, so the
+		// sum only holds if every row belongs to exactly one list.
 		expect(report.registered + report.pending).toBe(report.total);
+	});
+
+	// The disjointness minor, deferred since the registry landed: a row
+	// cannot both have a rule and be waiting for one. Cheap to assert,
+	// and it is what stops the sum above from being satisfiable by
+	// double-counting.
+	it('RULES and PENDING are disjoint', () => {
+		expect(coverage(catalogue).duplicated).toEqual([]);
+		const registered = new Set(RULES.map((rule) => rule.id));
+		expect(PENDING.filter((id) => registered.has(id))).toEqual([]);
 	});
 
 	// 80, not the 81 this asserted through batch 1: abbrev-in-alt-headwords

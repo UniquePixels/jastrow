@@ -114,6 +114,11 @@ const PENDING: readonly string[] = [
 ];
 
 interface Coverage {
+	/** Rows claimed by BOTH `RULES` and `PENDING` — a row that has a
+	 * rule and is still listed as waiting for one. Always empty; a
+	 * non-empty value means the two lists disagree about who owns the
+	 * row, and `registered + pending` over-counts `total`. */
+	duplicated: string[];
 	pending: number;
 	registered: number;
 	total: number;
@@ -121,17 +126,34 @@ interface Coverage {
 	unaccounted: string[];
 }
 
+/**
+ * Partition the catalogue's transform rows across `RULES` and
+ * `PENDING`.
+ *
+ * `pending` is counted from `PENDING`, NOT as the complement of
+ * `registered`. The complement reading makes `registered + pending ===
+ * total` an arithmetic identity — true for any input, unable to fail,
+ * and therefore not a test. Counting each side from its own list makes
+ * the sum a real claim: it holds only if every row belongs to exactly
+ * one list, so a row in neither (also reported as `unaccounted`) or in
+ * both (`duplicated`) breaks it.
+ */
 function coverage(catalogue: readonly Pattern[]): Coverage {
 	const rows = catalogue.filter(
 		(row) => row.route === 'transform' && row.status === 'candidate',
 	);
-	const known = new Set([...RULES.map((rule) => rule.id), ...PENDING]);
 	const registered = new Set(RULES.map((rule) => rule.id));
+	const pending = new Set(PENDING);
 	return {
-		pending: rows.filter((row) => !registered.has(row.id)).length,
+		duplicated: rows
+			.filter((row) => registered.has(row.id) && pending.has(row.id))
+			.map((row) => row.id),
+		pending: rows.filter((row) => pending.has(row.id)).length,
 		registered: rows.filter((row) => registered.has(row.id)).length,
 		total: rows.length,
-		unaccounted: rows.filter((row) => !known.has(row.id)).map((row) => row.id),
+		unaccounted: rows
+			.filter((row) => !(registered.has(row.id) || pending.has(row.id)))
+			.map((row) => row.id),
 	};
 }
 

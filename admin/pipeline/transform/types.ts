@@ -46,12 +46,17 @@ interface Rule {
 	 * when it doesn't match). An in-place mutator breaks two things
 	 * silently, both load-bearing on this contract:
 	 *
-	 * - `run.ts` gates each call by comparing `before` against
-	 *   `result.entry` by REFERENCE identity first, via
-	 *   `checkNoNewText`. A mutate-in-place rule returns the same
-	 *   object it was given, so the gate compares an object against
-	 *   itself and reports clean no matter what the rule actually
-	 *   changed — the exact violation this gate exists to catch.
+	 * - `run.ts` aliases the input as `const before = entry` (`run.ts:30`)
+	 *   and then hands both `before` and `result.entry` to the gates.
+	 *   The gates compare VALUES — `checkNoNewText` compares text
+	 *   multisets, `checkMarkup` compares markup damage — and perform no
+	 *   identity comparison of their own. That is exactly why an
+	 *   in-place mutator defeats them: it returns the same object it was
+	 *   given, so `before` and `result.entry` are one object, `textOf`
+	 *   reads the ALREADY-MUTATED text on both sides, and every gate
+	 *   reports clean no matter what the rule changed — the exact
+	 *   violation they exist to catch. Nothing detects this; the
+	 *   contract is the defence.
 	 * - `count.ts`'s audit measures every rule alone against one
 	 *   shared in-memory corpus array (loaded once, not per rule, for
 	 *   performance). An in-place mutation from one rule corrupts

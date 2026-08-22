@@ -20,6 +20,7 @@
 import type { SourceEntry, SourceSense } from '../../body/types.ts';
 import type { Token } from '../html.ts';
 import {
+	DIR_RTL,
 	HEBREW,
 	hebrewRuns,
 	opensScope,
@@ -44,10 +45,6 @@ const EM_DASH_BEFORE = /—\s*$/u;
  * the em-dash, the definition start, or the italic gloss sits directly
  * against the Hebrew rather than somewhere else in the same node. */
 const ONLY_SPACE = /^\s*$/u;
-
-/** `dir="rtl"` on a tag's own attributes. Quotes optional and either
- * flavour, matching `html.ts`'s own `DIR_RTL`. */
-const DIR_RTL = /\bdir\s*=\s*(?<q>["']?)rtl\k<q>/u;
 
 /**
  * Rewrite every definition in the entry, recursing through nested
@@ -102,10 +99,13 @@ function overDefinitions(
  * The two sibling rules keep the narrower scope, also on measurement:
  * `redundant-outer-rtl-span` matches 0 `language_reference` values, so
  * the scope is moot for it, and `bare-rtl-hebrew` matches 14 — a real
- * population, but one its audit deliberately excluded (its probe reads
- * `content.senses[].definition` only, and its 4,190 reproduces exactly
- * under that scope). Widening it would break an audited derivation to
- * chase an uncatalogued 14. Recorded for a future row instead.
+ * population, but one its audit deliberately excluded: its probe reads
+ * `content.senses[].definition` only, and the committed count for that
+ * scope is 4,189. (The catalogue's earlier 4,190 is recorded there as a
+ * +1/−1 CANCELLATION rather than agreement, so "reproduces exactly" was
+ * never the right claim.) Widening the scope would break an audited
+ * derivation to chase an uncatalogued 14. Recorded for a future row
+ * instead.
  */
 function overEtymologyToo(
 	entry: SourceEntry,
@@ -158,8 +158,7 @@ interface RunContext {
  * because a sub-lemma header almost never starts its node — the header
  * follows the end of the previous sense inside a single text token
  * (`…a. e.—א׳ הַשָּׁעוֹת <i>…`). Testing `value.startsWith('—')` instead
- * matched 8 runs corpus-wide where this matches 627; testing the
- * node's start instead of the run's over-excluded 630 entries.
+ * matched 7 runs corpus-wide where this matches 627.
  */
 function isSubLemmaHeader(run: RunContext): boolean {
 	const before = run.value.slice(0, run.start);
@@ -278,9 +277,7 @@ function closers(tokens: readonly Token[]): Map<number, number> {
 			if (open !== undefined) {
 				found.set(open, at);
 			}
-		} else if (
-			!(token.value.endsWith('/>') || token.value.slice(1).includes('<'))
-		) {
+		} else if (opensScope(token.value)) {
 			stack.push(at);
 		}
 	}

@@ -13,6 +13,10 @@
 // Hoisted per lint/performance/useTopLevelRegex.
 const TAG = /<\/?[a-zA-Z][^>]*>/gu;
 const TAG_NAME = /^<\/?(?<name>[a-zA-Z][a-zA-Z0-9]*)/u;
+/** `dir="rtl"` on a tag's own attributes. Quotes optional and either
+ * flavour. Exported because every rule that moves an rtl wrapper needs
+ * the same predicate, and a second copy would be free to drift from
+ * the one the tokenizer resolves ancestry with. */
 const DIR_RTL = /\bdir\s*=\s*(?<q>["']?)rtl\k<q>/u;
 
 /**
@@ -81,10 +85,14 @@ type Token = TagToken | TextToken;
  * tag body means a swallowed closing tag supplied this tag's `>`, so the
  * element never closes and its `dir` would leak to end of input.
  *
- * Exported because a rule needs the same predicate: the text token
- * FOLLOWING a tag that opens no scope is not document text at all but
- * the tail of that tag's own attributes, and must not be rewritten
- * (see `bare-rtl-hebrew` in `rules/rtl.ts`). Keeping one definition
+ * Exported because a rule needs the same predicate — but the two arms
+ * differ and must be read apart. After the MALFORMED arm, the text
+ * token that follows is not document text at all: it is the tail of
+ * that tag's own attributes, and must not be rewritten (see
+ * `bare-rtl-hebrew` in `rules/rtl.ts`, and the markup gate in
+ * `markup.ts`). After the SELF-CLOSING arm the following text IS
+ * ordinary document text, so a caller wanting only the malformed
+ * reading must exclude `endsWith('/>')` itself. Keeping one definition
  * here means the tokenizer stays the single authority on what counts
  * as a malformed open tag. */
 function opensScope(value: string): boolean {
@@ -103,8 +111,9 @@ function opensScope(value: string): boolean {
  *   because a swallowed `</a>` inside an unterminated attribute value
  *   supplied its `>` — is NOT pushed. Pushing it would leak its
  *   `dir="rtl"` over every later token, since nothing ever pops it.
- *   That mislabelled 58 text tokens across D00478 and J00597 and would
- *   have fed correct markup to the `latin-token-inside-rtl-span` rule.
+ *   That mislabelled 58 tokens across D00478 and J00597 — 29 of them
+ *   TEXT tokens (D00478 1, J00597 28), the rest tags — and would have
+ *   fed correct markup to the `latin-token-inside-rtl-span` rule.
  *   The damage stays fully visible in the tag token's raw `value`, so
  *   the catalogue row `unterminated-href-swallows-closing-tag` remains
  *   findable. */
@@ -162,4 +171,4 @@ function hebrewRuns(value: string): { end: number; start: number }[] {
 }
 
 export type { TagToken, TextToken, Token };
-export { HEBREW, hebrewRuns, opensScope, serialize, tokenize };
+export { DIR_RTL, HEBREW, hebrewRuns, opensScope, serialize, tokenize };
