@@ -171,7 +171,10 @@ Three layers:
 The gate reads every text-bearing field a rule can edit: `headword`,
 `alt_headwords`, `plural_form`, `language_code`, `language_reference`,
 `quotes`, and `content` — morphology, and recursively each sense's
-number, definition and `grammar.binyan_form` / `grammar.verbal_stem`.
+number, definition and all three `grammar` fields (`binyan_form`,
+`verbal_stem`, and `grammar.language_code`, which is a *different*
+field from the entry-level `language_code` and carries real etymology
+text in 3 entries: B01238, D00633, U01849).
 
 A field outside that set is a field the gate cannot see, and a rule
 editing it passes vacuously — which is worse than failing, because it
