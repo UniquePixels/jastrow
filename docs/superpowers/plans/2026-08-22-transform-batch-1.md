@@ -3,11 +3,11 @@
 > **For agentic workers:** REQUIRED SUB-SKILL: Use superpowers-extended-cc:subagent-driven-development (recommended) or superpowers-extended-cc:executing-plans to implement this plan task-by-task. Steps use checkbox (`- [ ]`) syntax for tracking.
 
 **Goal:** Stand up `admin/pipeline/transform/` and land the RTL-wrapper
-family (3 catalogue rows, 4,849 entries) plus the resolvable subset of
+family (3 catalogue rows, 4,848 entries) plus the resolvable subset of
 `abbrev-in-alt-headwords`, with the residue reclassified on the record.
 
 **Architecture:** A shared HTML token stream (`html.ts`) that every one
-of the eventual 81 rules reads; a registry that proves coverage against
+of the eventual 80 rules reads; a registry that proves coverage against
 `data/patches/patterns.jsonl`; rules that carry a predicate and no
 expected count; a `transform:count` harness that audits each rule alone
 against the pinned snapshot and skips when the pin is stale.
@@ -75,14 +75,17 @@ consonant absent from the headword (ס/צ interchange), 220 are ambiguous,
 residue to `judgment` with the measurement recorded — the spec §6
 mechanism, exercised on its first real case.
 
-Batch 1 therefore covers **4 catalogue rows**, not 2.
+Batch 1 was planned as **4 catalogue rows**, not 2. It shipped **3**:
+`abbrev-in-alt-headwords` was written, tested and matched to its count,
+then WITHDRAWN to `judgment` (spec §5.2) — see the note at the head of
+Task 6.
 
-| Row | Entries | Task |
-|---|---:|---|
-| `bare-rtl-hebrew` | 4,190 | 5 |
-| `redundant-outer-rtl-span` | 529 | 5 |
-| `latin-token-inside-rtl-span` | 130 | 5 |
-| `abbrev-in-alt-headwords` | 2,035 | 6 |
+| Row | Entries | Task | Shipped |
+|---|---:|---|---|
+| `bare-rtl-hebrew` | 4,189 | 5 | yes |
+| `redundant-outer-rtl-span` | 529 | 5 | yes |
+| `latin-token-inside-rtl-span` | 130 | 5 | yes |
+| `abbrev-in-alt-headwords` | 2,035 | 6 | **withdrawn — now `judgment`** |
 
 ---
 
@@ -91,13 +94,13 @@ Batch 1 therefore covers **4 catalogue rows**, not 2.
 | File | Responsibility |
 |---|---|
 | `admin/pipeline/transform/types.ts` | `Rule`, `TransformRecord`, `TransformPhase` |
-| `admin/pipeline/transform/html.ts` | tokenizer + serializer + Hebrew class. Shared by all 81 rules |
-| `admin/pipeline/transform/no-new-text.ts` | transform-tier byte gate |
+| `admin/pipeline/transform/html.ts` | tokenizer + serializer + Hebrew class. Shared by all 80 rules |
+| `admin/pipeline/transform/no-new-text.ts` | transform-tier text gate |
+| `admin/pipeline/transform/markup.ts` | transform-tier markup gate (spec §5) |
 | `admin/pipeline/transform/registry.ts` | ordered rule list; coverage + entanglement gates |
 | `admin/pipeline/transform/run.ts` | `applyTransforms(entry, phase)` |
 | `admin/pipeline/transform/count.ts` | `bun transform:count` |
 | `admin/pipeline/transform/rules/rtl.ts` | the three RTL-wrapper rows |
-| `admin/pipeline/transform/rules/headwords.ts` | `abbrev-in-alt-headwords` |
 
 Tests are colocated (`html.test.ts` beside `html.ts`), following the
 `body/` convention.
@@ -1008,16 +1011,8 @@ pairs, and **compact arrays** (`["a","b"]`, no space after the comma —
 match the `entangledWith` arrays already in the file). Keys stay in
 alphabetical order. Every other line must remain byte-identical.
 
-```bash
-bun -e 'import {parsePatterns, renderPatterns} from "./admin/pipeline/research/patterns.ts";
-const trio = ["bare-rtl-hebrew","redundant-outer-rtl-span","latin-token-inside-rtl-span"];
-const rows = parsePatterns(await Bun.file("data/patches/patterns.jsonl").text())
-  .map(p => trio.includes(p.id) ? {...p, entangledWith: trio.filter(t => t !== p.id)} : p);
-await Bun.write("data/patches/patterns.jsonl", renderPatterns(rows));'
-git diff --stat data/patches/patterns.jsonl
-```
-
-Expected: 3 lines changed.
+Verify with `git diff --stat data/patches/patterns.jsonl`. Expected:
+3 lines changed.
 
 - [ ] **Step 3: Verify symmetry and that nothing else moved**
 
@@ -1140,7 +1135,7 @@ Expected: FAIL — `Cannot find module './rtl.ts'`
 /**
  * The dir="rtl" wrapper family — three catalogue rows written as one
  * module because they are the same decision seen from three sides:
- * a run that should be wrapped and is not (bare-rtl-hebrew, 4,190), a
+ * a run that should be wrapped and is not (bare-rtl-hebrew, 4,189), a
  * wrapper that should not be there (redundant-outer-rtl-span, 529), and
  * a wrapper that reaches too far (latin-token-inside-rtl-span, 130).
  *
@@ -1212,13 +1207,13 @@ function isSubLemmaHeader(tokens: readonly Token[], at: number): boolean {
 **The em-dash test must be applied to the RUN, not the text node.** A
 sub-lemma header commonly continues the previous sense inside a single
 text token — `…a. e.—א׳ הַשָּׁעוֹת <i>…` — so a `/^\s*—/` test on the
-node's whole value excludes only 8 runs corpus-wide where the run-level
+node's whole value excludes only 7 runs corpus-wide where the run-level
 test excludes 627. The node-level form measures 4,343 (+153 over the
-audit). At run level the rule reproduces the audit exactly: 4,190
-entries kept, 529/547/627 excluded against the audit's 527/545/625 — a
-constant ±2 offset also present with no exclusion at all, i.e. the
-tokenizer agreeing with the audit's `HTMLParser` probe to within one
-node.
+audit). At run level the rule measures 4,189 entries kept, 529/547/627
+excluded against the audit's 527/545/625 — a constant ±2 offset also
+present with no exclusion at all, i.e. the tokenizer agreeing with the
+audit's `HTMLParser` probe to within one node. The catalogue's 4,190
+was a +1/−1 CANCELLATION, not agreement; `corpusCount` is now 4,189.
 
 /** Wrap bare Hebrew runs in the slots where the corpus demonstrably
  * wraps (9.0%–20.3% bare), leaving the sub-lemma construct alone. */
@@ -1368,7 +1363,7 @@ bun test admin/pipeline/transform/registry.test.ts
 bun transform:count
 ```
 
-Expected: registry tests pass (`registered + pending === 81`, adjacency
+Expected: registry tests pass (`registered + pending === total`, adjacency
 clean). `transform:count` prints three rows. **Deltas are expected on
 the two unaudited rows** — they have no recorded derivation behind their
 counts. Record whatever it prints; Step 7 decides what to do.
@@ -1386,6 +1381,8 @@ For each of the three rows:
 
 `bare-rtl-hebrew` is audited and should land at or very near 4,190; a
 large delta there means the slot classification is wrong, not the count.
+(It landed at 4,189, and the row's `corpusCount` was corrected to
+match — see Step 7's third disposition.)
 
 - [ ] **Step 8: Commit**
 
@@ -1396,6 +1393,19 @@ bun qa && git add admin/pipeline/transform/ data/patches/patterns.jsonl && git c
 ---
 
 ### Task 6: `abbrev-in-alt-headwords` — transform what resolves, reclassify the rest
+
+> **WITHDRAWN, 2026-08-22 — do not use this task as a template.** The
+> rule described below was written, tested, and matched to its
+> catalogue count exactly, and was then withdrawn: the whole row moved
+> transform → judgment. Expanding a geresh stub INFERS the variant's
+> vocalization from the headword's, and a variant spelling exists
+> precisely because it differs from the headword, so the transfer is an
+> assumption the corpus cannot test. See spec §5.2
+> (`docs/specs/2026-08-22-transform-module-design.md`) for the ruling
+> and the test it establishes — *ask what the rule INFERS as opposed to
+> what it MOVES* — which applies before any row is routed `transform`.
+> The task is kept for its measurement work and its reclassification
+> mechanics, not its verdict.
 
 **Goal:** Expand the geresh-truncated alt-headword stubs whose tail the
 anchor rule resolves uniquely, and move the unresolvable residue to
@@ -1630,8 +1640,10 @@ noTail`, as entries).
 
 Add `abbrev-stub-unresolvable-tail` to neither `RULES` nor `PENDING`.
 The coverage gate counts `route: transform` rows only, and the new row
-is `route: judgment`, so the total stays at 81 and the gate's
-`total === 81` assertion needs no edit. Re-run
+is `route: judgment`, so a SPLIT alone leaves the transform total
+unchanged. That total is now **80**, not 81 — withdrawing
+`abbrev-in-alt-headwords` itself moved it — and `registry.test.ts`
+asserts `total === 80`. Re-run
 `bun test admin/pipeline/transform/registry.test.ts` to confirm. If the
 total moved, the new row was written with the wrong `route`.
 
@@ -1645,8 +1657,9 @@ bun qa && git add admin/pipeline/transform/ data/patches/patterns.jsonl && git c
 
 ### Task 7: Wire into the migration dry run
 
-**Goal:** Prove the four rules compose with `repairs.ts` and the gates
-still hold at 32,512/32,512.
+**Goal:** Prove the rules compose with `repairs.ts` and the gates
+still hold at 32,512/32,512. Three rules shipped, not four — Task 6's
+row was withdrawn; see the note at its head.
 
 **Files:**
 - Modify: `admin/pipeline/body/migrate-dry.ts:197-218`
@@ -1749,9 +1762,10 @@ changed the sense tree, which nothing in batch 1 should do.
 
 - [ ] **Step 6: Update the migration report doc**
 
-Add a section to `docs/v2/body-migration.md` recording: the four rules,
-their measured instance counts from Step 4, and the gate tallies
-before/after. Transcribe the numbers — do not summarize them.
+Add a section to `docs/v2/body-migration.md` recording: every rule that
+shipped (three, not four — Task 6's row was withdrawn), its measured
+instance count from Step 4, and the gate tallies before/after.
+Transcribe the numbers — do not summarize them.
 
 - [ ] **Step 7: Commit**
 

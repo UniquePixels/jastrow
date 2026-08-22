@@ -28,7 +28,7 @@
     {
       "id": 3,
       "subject": "Task 3: applyTransforms and the count harness",
-      "status": "pending",
+      "status": "completed",
       "blockedBy": [
         0,
         2
@@ -47,7 +47,7 @@
     {
       "id": 5,
       "subject": "Task 5: The RTL wrapper family",
-      "status": "pending",
+      "status": "completed",
       "blockedBy": [
         1,
         2,
@@ -59,7 +59,7 @@
     {
       "id": 6,
       "subject": "Task 6: Expand resolvable alt-headword stubs",
-      "status": "pending",
+      "status": "completed",
       "blockedBy": [
         3
       ],
@@ -68,7 +68,7 @@
     {
       "id": 7,
       "subject": "Task 7: Wire into the migration dry run",
-      "status": "pending",
+      "status": "completed",
       "blockedBy": [
         5,
         6
@@ -76,5 +76,5 @@
       "description": "**Goal:** Prove the four rules compose with `repairs.ts` and the gates still hold at 32,512/32,512.\n\n**Files:**\n- Modify: `admin/pipeline/body/migrate-dry.ts:197-218`\n- Modify: `docs/v2/body-migration.md`\n\n**Acceptance Criteria:**\n- [ ] Transforms run after `applyRepairs`, inside `text-repairs`\n- [ ] All four round-trip gates stay at 32,512/32,512\n- [ ] 0 schema failures, 0 label quarantines \u2014 unchanged from baseline\n- [ ] The tokenizer round-trip count is unchanged from Task 1\n\n**Verify:** `bun body:migrate-dry` \u2192 gates 32,512/32,512, 0 schema failures; gate-line diff against the captured baseline is empty\n\n```json:metadata\n{\"files\": [\"admin/pipeline/body/migrate-dry.ts\", \"docs/v2/body-migration.md\"], \"verifyCommand\": \"bun body:migrate-dry\", \"acceptanceCriteria\": [\"transforms run after applyRepairs in text-repairs\", \"all four round-trip gates 32512/32512\", \"0 schema failures and 0 quarantines\", \"tokenizer round-trip still lossy=0\"], \"modelTier\": \"standard\"}\n```"
     }
   ],
-  "lastUpdated": "2026-08-22T11:50:00-05:00"
+  "lastUpdated": "2026-08-22T15:55:00-05:00"
 }

@@ -208,9 +208,33 @@ dropped fix.
 | `schemaFailures` | 0 | 0 |
 | `labelQuarantines` | 0 | 0 |
 | `repairFailures` | 0 | 0 |
+| `transformFailures` | 0 | 0 |
 
 `diff` of the gate lines between the before/after `bun body:migrate-dry`
 runs is empty. The tokenizer round-trip (Task 1 Step 5, re-run verbatim
 per its corrected `for await` form) is unchanged:
-`entries=32512 definitions=44668 lossy=0` — no rule in this batch moved
-a definition between senses.
+`entries=32512 definitions=44668 lossy=0`.
+
+That re-run is a `html.ts` REGRESSION check and nothing more: its script
+reads `readSourceEntries()`, the raw corpus, so no transform output is
+ever in its path and its result is invariant under any rule change
+whatsoever. It says the tokenizer — which did change — still
+round-trips every definition losslessly. It cannot say anything about
+what the rules did.
+
+The claim that no rule moved a definition between senses needs a
+measurement that walks the TRANSFORMED corpus, so here is one. Walking
+every entry's sense tree before and after `applyTransforms(entry,
+'text-repairs')`, in order, and comparing the definition slots:
+
+```
+entries=32512 definitionsBefore=44668 definitionsAfter=44668
+senseShapeDrift=0 slotDrift=0
+```
+
+`senseShapeDrift` counts entries whose flattened sense tree changed
+length; `slotDrift` counts entries where a slot gained or lost its
+definition. Both zero: the batch's three rules rewrite definition
+strings in place and touch neither the tree nor which slots hold text.
+`bun body:migrate-dry`'s four round-trip gates are structural and
+would not have caught the difference.

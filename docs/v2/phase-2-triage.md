@@ -42,21 +42,28 @@ someone pins the predicate.
 
 | Route | Rows | Instances | What it needs |
 |---|---:|---:|---|
-| **transform** | **81** | **24,655** | deterministic code + tests |
-| judgment | 46 | 13,096 | per-entry reading (Opus pass or maintainer) |
+| **transform** | **80** | **22,619** | deterministic code + tests |
+| judgment | 47 | 15,131 | per-entry reading (Opus pass or maintainer) |
 | blocked | 5 | 4,947 | pin the predicate first |
 
-**58% of the backlog is deterministic code.** That is the most useful
+Phase 1 closed this table at 81 / 46 / 5.
+`abbrev-in-alt-headwords` (2,035) moved transform → judgment on
+2026-08-22 (spec
+[§5.2](../specs/2026-08-22-transform-module-design.md)), and
+`bare-rtl-hebrew`'s count was corrected 4,190 → 4,189 when its
+transform landed.
+
+**53% of the backlog is deterministic code.** That is the most useful
 number here — most of the catalogue does not need judgment at all.
 
 Cutover gate, cross-cut:
 
 | | Rows | Instances |
 |---|---:|---:|
-| Blocks the v2 cutover | 60 | 18,121 |
+| Blocks the v2 cutover | 60 | 18,120 |
 | Launch need not wait | 72 | 24,577 |
 
-## The transform queue — all 81 rows, largest first
+## The transform queue — all 80 rows, largest first
 
 `⚠ unaudited` marks a row with no `reason` recorded: its count has never
 been derived. That is not a reason to skip it — for a transform row,
@@ -65,8 +72,7 @@ either reproduces the count or does not.
 
 | Row | Instances | Blocks cutover | Audit |
 |---|---:|---|---|
-| `bare-rtl-hebrew` | 4,190 | **yes** | — |
-| `abbrev-in-alt-headwords` | 2,035 | **yes** | — |
+| `bare-rtl-hebrew` | 4,189 | **yes** | — |
 | `ascii-quote-as-gershayim-in-body` | 1,290 | no | — |
 | `tanhuma-never-linked` | 1,137 | no | — |
 | `italic-swallowed-terminal-period` | 1,098 | no | — |
@@ -149,9 +155,16 @@ either reproduces the count or does not.
 
 ### Sequencing advice
 
-1. **`bare-rtl-hebrew` (4,190) and `abbrev-in-alt-headwords` (2,035)**
-   are 25% of the whole transform queue, both blocking, and neither is
-   entangled with anything. Natural first two.
+1. ~~**`bare-rtl-hebrew` (4,190) and `abbrev-in-alt-headwords`
+   (2,035)** are 25% of the whole transform queue.~~ **Done and
+   superseded.** Batch 1 shipped `bare-rtl-hebrew` (4,189) with its two
+   entangled siblings `redundant-outer-rtl-span` (529) and
+   `latin-token-inside-rtl-span` (130) — the audit warns that writing
+   one of the three alone trades one defect for another.
+   `abbrev-in-alt-headwords` was written and then WITHDRAWN to
+   `judgment`: expanding a geresh stub infers the variant's
+   vocalization rather than moving text (spec
+   [§5.2](../specs/2026-08-22-transform-module-design.md)).
 2. **Then take the non-blocking audited rows on size.** There are
    36 of them (9,374 instances) and they are the cheapest
    real wins in the catalogue — predicate known, no cutover pressure, no
@@ -163,10 +176,17 @@ either reproduces the count or does not.
    `judgment` on contact — the routing is a reading of each row, not a
    measurement.
 
-## Judgment queue — 46 rows / 13,096 instances
+## Judgment queue — 47 rows / 15,131 instances
 
-23 of these block the cutover (5,793 instances). Five rows are 85% of
-that blocking subset, and four of the five are **one family** —
+`abbrev-in-alt-headwords` (2,035, blocking) is the newest member,
+reclassified out of the transform queue on 2026-08-22 — spec
+[§5.2](../specs/2026-08-22-transform-module-design.md) has the ruling
+and the test it establishes: *ask what a rule INFERS as opposed to what
+it MOVES.*
+
+24 of these block the cutover (7,828 instances), and
+`abbrev-in-alt-headwords` alone is 2,035 of them. Of the remaining
+5,793, five rows are 85%, and four of the five are **one family** —
 paren/bracket integrity and lead-sense structure. Scope them as a single
 pass, not five:
 

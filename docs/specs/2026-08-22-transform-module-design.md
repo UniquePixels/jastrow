@@ -2,8 +2,8 @@
 
 - **Status:** approved 2026-08-22 (maintainer)
 - **Parent:** [sweep tiering §4 Phase 2](2026-08-17-sweep-tiering-design.md)
-- **Worklist:** [Phase 2 triage](../v2/phase-2-triage.md) — 81 transform
-  rows, 24,655 instances
+- **Worklist:** [Phase 2 triage](../v2/phase-2-triage.md) — 80 transform
+  rows, 22,619 instances
 - **Consumes:** the entry body model
   ([§6.0](2026-07-11-entry-body-model-design.md)), the committed ordered
   phase manifest ([research process §5 step 2](2026-08-10-research-process-design.md),
@@ -12,13 +12,15 @@
 ## 1. Context & Problem
 
 Phase 1 closed with a catalogue of 132 candidate pattern classes,
-routed three ways: 81 **transform** (deterministic code), 46
+routed three ways: 80 **transform** (deterministic code), 47
 **judgment** (per-entry reading), 5 **blocked** (predicate unpinned).
-This spec covers the 81.
+This spec covers the 80. (The routing closed Phase 1 at 81/46/5;
+`abbrev-in-alt-headwords` moved transform → judgment on 2026-08-22,
+§5.2.)
 
 No spec pins where they live. The existing transform module,
 `admin/pipeline/body/repairs.ts`, holds **rid-keyed literal edits**
-hand-transcribed from review docs — `A00913: '2)'`. The 81 are
+hand-transcribed from review docs — `A00913: '2)'`. The 80 are
 **rule-based predicates over the whole corpus**. Same intent, different
 shape; 642 lines of the former should not absorb the latter.
 
@@ -97,14 +99,20 @@ interface Rule {
   /** Text codepoints this rule may introduce (§5). Empty = strict
    *  sub-multiset. Non-empty requires a docs reference to the ruling. */
   allows?: readonly string[];
-  apply(entry: SourceEntry): { entry: SourceEntry; hits: number };
+  apply(entry: SourceEntry): TransformResult;
 }
 ```
 
+`TransformResult` is `{ copied?, entry, records }` — the declared
+copies of §5.1, the rewritten entry, and one `TransformRecord` per
+instance changed. It is defined in full at §5.1; `types.ts` cites this
+section as the contract, so the two must agree.
+
 **A rule carries no expected count.** It carries a predicate, and
-reports how many instances it hit. `hits` is a record — it flows into
-the migration report and is never compared against anything at
-runtime.
+reports what it changed. `records` is a record in the bookkeeping
+sense — it flows into the migration report and is never compared
+against anything at runtime. `records.length > 0` is also how
+`transform:count` reads "this rule fired on this entry".
 
 ## 4. The Counting Model
 
@@ -131,7 +139,7 @@ the audit meaningless.
 `migrate.ts` never reads a catalogue count and never fails on one.
 
 When the source snapshot moves, `transform:count` reports **"pinned
-snapshot stale"** and skips, rather than emitting 81 false mismatches.
+snapshot stale"** and skips, rather than emitting 80 false mismatches.
 The pipeline is unaffected: rules run, the corpus gets corrected.
 
 | Scenario | Result |
@@ -162,11 +170,32 @@ rewrite markup.
 
 Three layers:
 
-| Layer | Rule |
-|---|---|
-| **Markup** | free to change; separately checked for well-formedness |
-| **Text**, tags stripped | strict sub-multiset of the input — unless the rule declares an `allows` |
-| **Copies** | text duplicated from elsewhere in the same entry, declared per call (§5.1) |
+| Layer | Rule | Implemented by |
+|---|---|---|
+| **Markup** | free to change, but no LESS well-formed than the input | `markup.ts` |
+| **Text**, tags stripped | strict sub-multiset of the input — unless the rule declares an `allows` | `no-new-text.ts` |
+| **Copies** | text duplicated from elsewhere in the same entry, declared per call (§5.1) | `no-new-text.ts` |
+
+All three run per rule, from `run.ts`, so a violation names the rule
+that caused it.
+
+The markup layer is a **delta**, not an absolute, and the reason is in
+the data: D00478 and J00597 carry a literal `</a>` inside an `href`
+value, and the pending row `unterminated-href-swallows-closing-tag`
+exists to repair exactly those. A gate demanding well-formed output
+would fail every rule that touched them, and would forbid the repair
+row from ever running. It measures two axes per field — tag balance,
+and tags written inside an attribute value — and fails only where the
+output is worse than the input.
+
+**What no layer catches, recorded rather than implied.** Text
+RELOCATION is invisible to all three: two senses swapping their
+definitions, or text moved from `headword` into a definition, leave
+both the entry's text multiset and its markup untouched. §5.1 already
+sets the precedent for naming a gate's blind spot; this is the second
+one. A rule that relocates text across fields or senses must carry its
+own positional assertions, exactly as a `copied` rule must carry its
+own orthographic ones.
 
 The gate reads every text-bearing field a rule can edit: `headword`,
 `alt_headwords`, `plural_form`, `language_code`, `language_reference`,
@@ -179,9 +208,21 @@ text in 3 entries: B01238, D00633, U01849).
 A field outside that set is a field the gate cannot see, and a rule
 editing it passes vacuously — which is worse than failing, because it
 reports success on unreviewed output. The list is therefore exhaustive
-over `SourceEntry` and `SourceSense` by construction: **`refs[]` is the
-only exclusion**, and it is deliberate — `refs` is dropped from truth
-(body model §5, B7) and holds machine identifiers rather than text.
+over `SourceEntry` and `SourceSense` by construction, with **exactly
+two exclusions**, both deliberate:
+
+- **`refs[]`** is dropped from truth (body model §5, B7) and holds
+  machine identifiers rather than text.
+- **`rid`** is the entry's primary key — an identifier, not text. A
+  rule that rewrote a `rid` would pass this gate, and correctly so:
+  what such a rule needs is an IDENTITY assertion, that the walk's rid
+  survives its own transform, not a sub-multiset one. No rule rewrites
+  `rid` today; one that wants to must bring that assertion with it.
+
+Read the claim as exhaustiveness, because that is what the next rule
+author will rely on it for. Adding a field to `SourceEntry`,
+`SourceSense` or `SourceGrammar` means adding it to `fieldsOf` in the
+same change, or the gate quietly stops seeing it.
 
 The grammar and `language_code` entries are not hypothetical: five
 already-routed transform rows edit exactly those fields —
@@ -310,9 +351,15 @@ asserts a bijection against it:
 
 When a row proves to need judgment, the rule is not quietly dropped.
 `route` is rewritten to `judgment` in `patterns.jsonl` with a
-`reason`, through the existing `renderPatterns()`. Coverage then
-follows automatically and the reclassification is a committed diff
-rather than a silence.
+`reason`. Coverage then follows automatically and the reclassification
+is a committed diff rather than a silence.
+
+**Edit the row's line surgically — never round-trip the file through
+`renderPatterns()`.** That is how §5.2's own reclassification was
+done, and the constraint is committed (`59dde00`): a re-render rewrites
+every line in the file, so the one intended change arrives buried in a
+whole-file diff that no reviewer can read, and any field the renderer
+does not round-trip is silently dropped from all 132 rows.
 
 This is how sweep-tiering §4's Phase 2.1 gate is met: *every catalogue
 row resolved* — as a rule, or as a recorded reason it cannot be one.
@@ -323,7 +370,7 @@ Seven batches, one pull request each, merging to `v2`.
 
 | # | Batch | Rows | Instances |
 |---|---|---:|---:|
-| 1 | `bare-rtl-hebrew`, `abbrev-in-alt-headwords` | 2 | 6,225 |
+| 1 | The `dir="rtl"` wrapper family | 3 | 4,848 |
 | 2 | Links & citations | ~14 | ~5,600 |
 | 3 | Italics & punctuation seams | ~16 | ~3,900 |
 | 4 | Anchors & paren integrity | ~11 | ~2,200 |
@@ -331,14 +378,21 @@ Seven batches, one pull request each, merging to `v2`.
 | 6 | Senses, stems & binyan — fills `structural-repairs` | ~16 | ~2,400 |
 | 7 | Niqqud & Hebrew orthography | ~12 | ~600 |
 
-Batch 1 is the triage's own advice: both rows are blocking, neither is
-entangled, and together they are 25% of the queue. Batches 2–5 are
-text-phase. Batch 6 lands last among the large work because it is the
-one that changes entry shape.
+Batch 1 as shipped is the `dir="rtl"` family — `bare-rtl-hebrew`
+(4,189), `redundant-outer-rtl-span` (529), `latin-token-inside-rtl-span`
+(130) — written as one module because the catalogue records them as a
+3-clique and the audit warns that writing one alone trades one defect
+for another. The triage had paired `bare-rtl-hebrew` with
+`abbrev-in-alt-headwords` instead; that row was written, tested,
+matched to its count, and then withdrawn to `judgment` (§5.2), and its
+two entangled siblings took the slot.
+
+Batches 2–5 are text-phase. Batch 6 lands last among the large work
+because it is the one that changes entry shape.
 
 Batch counts are approximate — the family split is by edited object,
 and a few rows will move between families on contact. The registry's
-coverage gate, not this table, is what proves all 81 are accounted for.
+coverage gate, not this table, is what proves all 80 are accounted for.
 
 **Precondition on batch 3:** `italic-swallowed-terminal-period` must
 shed its 123 misfiled label occurrences before its transform is
@@ -370,7 +424,8 @@ schema and runs the four round-trip gates. The bar is unchanged —
 | Unit, per rule | the predicate fires on its shape and holds off near-misses |
 | `transform:count` | the predicate reproduces the catalogue count on the pinned snapshot |
 | `no-new-text`, per rule | no text bytes beyond a declared allowance |
-| Registry | all 81 rows resolved; entangled pairs adjacent |
+| `markup`, per rule | the output is no less well-formed than the input |
+| Registry | all 80 rows resolved; entangled pairs adjacent |
 | `body:migrate-dry` | the composed corpus still passes every gate |
 
 Unit tests are colocated with their family module, following the
@@ -379,7 +434,7 @@ catalogue rows cite.
 
 ## 10. Out of Scope
 
-- The 46 judgment rows — Phase 2.3, one targeted Opus pass.
+- The 47 judgment rows — Phase 2.3, one targeted Opus pass.
 - The 5 blocked rows — their predicates need pinning first; only
   `open-paren-in-rtl-span` (89) is on the critical path.
 - The 30 round-3 patches, validated but not yet ingested.
