@@ -1209,6 +1209,17 @@ function isSubLemmaHeader(tokens: readonly Token[], at: number): boolean {
 	return next?.kind === 'tag' && next.name === 'i' && !next.close;
 }
 
+**The em-dash test must be applied to the RUN, not the text node.** A
+sub-lemma header commonly continues the previous sense inside a single
+text token — `…a. e.—א׳ הַשָּׁעוֹת <i>…` — so a `/^\s*—/` test on the
+node's whole value excludes only 8 runs corpus-wide where the run-level
+test excludes 627. The node-level form measures 4,343 (+153 over the
+audit). At run level the rule reproduces the audit exactly: 4,190
+entries kept, 529/547/627 excluded against the audit's 527/545/625 — a
+constant ±2 offset also present with no exclusion at all, i.e. the
+tokenizer agreeing with the audit's `HTMLParser` probe to within one
+node.
+
 /** Wrap bare Hebrew runs in the slots where the corpus demonstrably
  * wraps (9.0%–20.3% bare), leaving the sub-lemma construct alone. */
 const bareRtlHebrew: Rule = {
@@ -1331,11 +1342,22 @@ In `registry.ts`, import the three rules and set:
 ```ts
 const RULES: readonly Rule[] = [
 	// Adjacent by requirement — the three are entangled (Task 4).
-	bareRtlHebrew,
+	// ORDER MATTERS. Dropping a redundant outer span RE-EXPOSES the
+	// Hebrew it covered, which bareRtlHebrew had correctly skipped as
+	// already-rtl. Wrapping first leaves 62 entries newly bare — the
+	// audit's "trade one for another", landing in the registry rather
+	// than in any single predicate. Unwrap first, then wrap.
 	redundantOuterRtl,
+	bareRtlHebrew,
 	latinTokenInsideRtl,
 ];
 ```
+
+`transform:count` measures rules in isolation and **cannot see this
+class of defect** — each of the three matches its catalogue count either
+way. Only a composed pass over the corpus catches it, so lock the order
+in with regression tests asserting zero residual bare Hebrew after all
+three run.
 
 Remove those three ids from `PENDING`.
 
