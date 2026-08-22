@@ -79,7 +79,14 @@ type Token = TagToken | TextToken;
 /** Whether an opening tag opens a scope on the stack. Self-closing
  * forms do not. Neither does a visibly malformed tag — a `<` inside the
  * tag body means a swallowed closing tag supplied this tag's `>`, so the
- * element never closes and its `dir` would leak to end of input. */
+ * element never closes and its `dir` would leak to end of input.
+ *
+ * Exported because a rule needs the same predicate: the text token
+ * FOLLOWING a tag that opens no scope is not document text at all but
+ * the tail of that tag's own attributes, and must not be rewritten
+ * (see `bare-rtl-hebrew` in `rules/rtl.ts`). Keeping one definition
+ * here means the tokenizer stays the single authority on what counts
+ * as a malformed open tag. */
 function opensScope(value: string): boolean {
 	return !(value.endsWith('/>') || value.slice(1).includes('<'));
 }
@@ -155,4 +162,4 @@ function hebrewRuns(value: string): { end: number; start: number }[] {
 }
 
 export type { TagToken, TextToken, Token };
-export { HEBREW, hebrewRuns, serialize, tokenize };
+export { HEBREW, hebrewRuns, opensScope, serialize, tokenize };

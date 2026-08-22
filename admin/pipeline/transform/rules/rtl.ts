@@ -19,7 +19,13 @@
  */
 import type { SourceEntry, SourceSense } from '../../body/types.ts';
 import type { Token } from '../html.ts';
-import { HEBREW, hebrewRuns, serialize, tokenize } from '../html.ts';
+import {
+	HEBREW,
+	hebrewRuns,
+	opensScope,
+	serialize,
+	tokenize,
+} from '../html.ts';
 import type { Rule, TransformRecord, TransformResult } from '../types.ts';
 
 // Hoisted per lint/performance/useTopLevelRegex.
@@ -174,6 +180,36 @@ function isSubLemmaHeader(run: RunContext): boolean {
 	);
 }
 
+/**
+ * Whether this text token is not document text at all, but the tail of
+ * the PREVIOUS tag's own attributes.
+ *
+ * When an unterminated `href` swallows a closing tag —
+ * `<a … href="/Jastrow,_כָּלוּל.1</a>" data-ref="Jastrow, כָּלוּל 1">` — the
+ * swallowed `</a>` supplies the `>` that ends the tag token, and
+ * everything after it up to the real `>` tokenizes as text. Wrapping
+ * the Hebrew in there writes a `<span>` INSIDE a `data-ref` attribute
+ * value, corrupting a machine identifier and leaving a span embedded
+ * in the very attribute the still-pending row
+ * `unterminated-href-swallows-closing-tag` has to reconstruct.
+ *
+ * The predicate is `html.ts`'s own `opensScope`, imported rather than
+ * restated so the tokenizer stays the single authority on what counts
+ * as a malformed open tag — the same judgement that keeps such a tag
+ * off the ancestry stack. Corpus-wide this skips exactly one node in
+ * one entry (D00478; J00597 carries the same malformed tag but no bare
+ * Hebrew after it). `opensScope` is also false for a self-closing tag,
+ * whose following text IS ordinary document text — no self-closing tag
+ * occurs anywhere in the corpus (measured: 0), so the two readings
+ * cannot diverge here.
+ */
+function isAttributeTail(tokens: readonly Token[], at: number): boolean {
+	const previous = tokens[at - 1];
+	return (
+		previous?.kind === 'tag' && !previous.close && !opensScope(previous.value)
+	);
+}
+
 /** Wrap each Hebrew RUN inside one text node, leaving everything
  * around it — and every run the slot test excludes — untouched. 4,691
  * of the 5,679 bare nodes mix Hebrew and Latin, so wrapping the node
@@ -215,7 +251,7 @@ const bareRtlHebrew: Rule = {
 			const tokens = tokenize(definition);
 			return serialize(
 				tokens.map((token, at) =>
-					token.kind !== 'text' || token.rtl
+					token.kind !== 'text' || token.rtl || isAttributeTail(tokens, at)
 						? token
 						: { ...token, value: wrapRuns(tokens, at, token.value) },
 				),

@@ -73,6 +73,17 @@ describe('bareRtlHebrew', () => {
 		);
 	});
 
+	it('never writes a span into a malformed tag\u2019s attribute tail', () => {
+		// D00478: an unterminated href swallows the closing tag, so the
+		// remaining attributes tokenize as text. Wrapping the Hebrew in
+		// there would put a <span> inside the data-ref VALUE, corrupting
+		// a machine identifier and leaving a span in the attribute the
+		// pending unterminated-href-swallows-closing-tag row must rebuild.
+		const damaged =
+			'v. <a dir="rtl" class="refLink" href="/Jastrow,_\u05DB\u05B8\u05BC\u05DC\u05D5\u05BC\u05DC.1</a>" data-ref="Jastrow, \u05DB\u05B8\u05BC\u05DC\u05D5\u05BC\u05DC 1">\u05DB\u05B8\u05BC\u05DC\u05D5\u05BC\u05DC</a>.';
+		expect(out(bareRtlHebrew, damaged)).toBe(damaged);
+	});
+
 	it('leaves already-wrapped Hebrew alone', () => {
 		const wrapped = '<span dir="rtl">שָׁלוֹם</span>';
 		expect(out(bareRtlHebrew, wrapped)).toBe(wrapped);
