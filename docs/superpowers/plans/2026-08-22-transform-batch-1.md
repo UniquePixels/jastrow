@@ -110,9 +110,10 @@ day one, when zero rules exist.
 - [ ] `Rule` has no field holding an expected count
 - [ ] Coverage gate lists all 81 `route: transform` rows as registered or pending
 - [ ] A rule id absent from `patterns.jsonl` fails the gate
-- [ ] Entangled rows must be adjacent in registry order
+- [ ] An entanglement cluster must occupy a gap-free span in registry order
+- [ ] A three-way cluster at consecutive indices passes
 
-**Verify:** `bun test admin/pipeline/transform/registry.test.ts` → 4 pass
+**Verify:** `bun test admin/pipeline/transform/registry.test.ts` → 6 pass
 
 **Steps:**
 
@@ -159,7 +160,8 @@ export type { Rule, TransformPhase, TransformRecord };
 ```ts
 import { describe, expect, test } from 'bun:test';
 import { parsePatterns } from '../research/patterns.ts';
-import { coverage, PENDING, RULES } from './registry.ts';
+import { checkAdjacency, coverage, PENDING, RULES } from './registry.ts';
+import type { Rule } from './types.ts';
 
 const catalogue = parsePatterns(
 	await Bun.file('data/patches/patterns.jsonl').text(),
@@ -188,6 +190,31 @@ describe('registry coverage', () => {
 		for (const id of PENDING) {
 			expect(ids).toContain(id);
 		}
+	});
+});
+
+describe('checkAdjacency', () => {
+	// The RTL family is a 3-clique (Task 4), registered consecutively in
+	// Task 5. Under a pairwise "≤ 1 apart" rule the endpoints are 2 apart
+	// and no arrangement can pass — hence cluster contiguity.
+	const clique = (ids: string[]) =>
+		ids.map((id) => ({
+			corpusCount: 0,
+			description: '',
+			entangledWith: ids.filter((other) => other !== id),
+			id,
+			round: 0,
+			status: 'candidate' as const,
+		}));
+
+	test('a contiguous three-way cluster passes', () => {
+		const rules = ['a', 'b', 'c'].map((id) => ({ id }) as Rule);
+		expect(checkAdjacency(clique(['a', 'b', 'c']), rules)).toEqual([]);
+	});
+
+	test('a split cluster is reported once, not once per edge', () => {
+		const rules = ['a', 'b', 'x', 'c'].map((id) => ({ id }) as Rule);
+		expect(checkAdjacency(clique(['a', 'b', 'c']), rules)).toHaveLength(1);
 	});
 });
 ```
@@ -250,21 +277,56 @@ function coverage(catalogue: readonly Pattern[]): Coverage {
 	};
 }
 
-/** Entangled rows own the same records; a gap between them in
- * execution order means one rewrites the other's output. */
-function checkAdjacency(catalogue: readonly Pattern[]): string[] {
-	const index = new Map(RULES.map((rule, at) => [rule.id, at]));
+/**
+ * Entangled rows own the same records; a gap between them in execution
+ * order means one rewrites the other's output.
+ *
+ * The check is CLUSTER CONTIGUITY, not pairwise distance. Entanglement
+ * is transitive — the RTL family is a 3-clique — and in any contiguous
+ * run of three the two endpoints are 2 apart, so a pairwise "≤ 1" test
+ * can never be satisfied by a group larger than a pair. What "adjacent"
+ * means for a cluster is that its members occupy a gap-free span, in
+ * any order.
+ */
+function checkAdjacency(
+	catalogue: readonly Pattern[],
+	rules: readonly Rule[] = RULES,
+): string[] {
+	const index = new Map(rules.map((rule, at) => [rule.id, at]));
+	const partners = new Map(
+		catalogue.map((row) => [row.id, row.entangledWith ?? []]),
+	);
+	const seen = new Set<string>();
 	const problems: string[] = [];
-	for (const row of catalogue) {
-		const at = index.get(row.id);
-		if (at === undefined) {
+	for (const rule of rules) {
+		if (seen.has(rule.id)) {
 			continue;
 		}
-		for (const partner of row.entangledWith ?? []) {
-			const other = index.get(partner);
-			if (other !== undefined && Math.abs(other - at) > 1) {
-				problems.push(`${row.id} and ${partner} are ${Math.abs(other - at)} apart`);
+		// Breadth-first over the entanglement graph: one component per
+		// pass, so a cluster reports once rather than once per edge.
+		const cluster: string[] = [];
+		const queue = [rule.id];
+		while (queue.length > 0) {
+			const id = queue.pop() as string;
+			if (seen.has(id)) {
+				continue;
 			}
+			seen.add(id);
+			cluster.push(id);
+			queue.push(...(partners.get(id) ?? []).filter((p) => !seen.has(p)));
+		}
+		const at = cluster.flatMap((id) => {
+			const found = index.get(id);
+			return found === undefined ? [] : [found];
+		});
+		if (at.length < 2) {
+			continue;
+		}
+		const span = Math.max(...at) - Math.min(...at) + 1;
+		if (span !== at.length) {
+			problems.push(
+				`${cluster.join(', ')} span ${span} slots for ${at.length} registered rule(s)`,
+			);
 		}
 	}
 	return problems;
