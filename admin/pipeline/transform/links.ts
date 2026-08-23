@@ -7,9 +7,31 @@
  * closing quote absorbs the following `</a>` into the attribute value
  * (`unterminated-href-swallows-closing-tag`, 2 instances, batch 4).
  * `opensScope` from `html.ts` is the single authority on that shape;
- * this module reports it as `malformed` and both editors refuse.
+ * this module reports an anchor whose OWN opening tag fails it as
+ * `malformed`, and both editors refuse.
+ *
+ * That is not the only way an anchor's tokens can be fake. When a
+ * malformed tag's `attributeInterior` region never recovers — J00597's
+ * shape, per `html.ts`'s own docs on that function — every tag after
+ * it, however well-formed on its own, tokenizes as attribute VALUE
+ * text, not document markup. A later `<a href="/Bava_Metzia.38b">…</a>`
+ * in that tail reads as a perfectly good anchor by every local test:
+ * its own opening tag passes `opensScope`, it closes, its `href`
+ * parses. It is still not real markup — editing it would write bytes
+ * into a `data-ref` (or `href`) VALUE upstream, corrupting a field
+ * `html.ts` has already flagged as damaged. This module calls that
+ * case `interior` and refuses it exactly like `malformed`, checking the
+ * anchor's `open` and `close` token indices against
+ * `attributeInterior(tokens)`, computed once per call (`rules/rtl.ts`
+ * makes the same call for the same reason: two independent readings of
+ * where the interior ends would be free to drift, and did once).
  */
-import { opensScope, type TagToken, type Token } from './html.ts';
+import {
+	attributeInterior,
+	opensScope,
+	type TagToken,
+	type Token,
+} from './html.ts';
 
 // Hoisted per lint/performance/useTopLevelRegex. The `d` flag records
 // each group's [start, end) span so `retarget` can splice the VALUE
@@ -27,6 +49,13 @@ interface Anchor {
 	/** Display text with tags stripped. */
 	display: string;
 	href: string;
+	/** This anchor's `open` or `close` token sits inside another tag's
+	 * unrecovered `attributeInterior` region — the tokens exist only as
+	 * the tail of a DIFFERENT tag's damaged attribute value, not as
+	 * document markup, even though this anchor reads as well-formed in
+	 * isolation. Neither editor will touch it. Independent of
+	 * `malformed`, which is about this anchor's OWN opening tag. */
+	interior: boolean;
 	/** The opening tag is damaged; neither editor will touch it. */
 	malformed: boolean;
 	/** Index of the `<a …>` in the token array. */
@@ -68,13 +97,17 @@ function buildAnchor(
 	tokens: readonly Token[],
 	open: number,
 	close: number,
+	interior: ReadonlySet<number>,
 ): Anchor {
+	// Safe: every caller passes an index it just found by scanning
+	// `tokens` for a `kind: 'tag'` entry, so this is always a TagToken.
 	const tag = tokens[open] as TagToken;
 	return {
 		close,
 		dataRef: attrValue(tag.value, DATA_REF),
 		display: displayOf(tokens, open, close),
 		href: attrValue(tag.value, HREF),
+		interior: interior.has(open) || (close !== -1 && interior.has(close)),
 		malformed: !opensScope(tag.value),
 		open,
 	};
@@ -84,6 +117,10 @@ function buildAnchor(
  * Every `<a>` in the stream, one `Anchor` per opening tag, in document
  * order.
  *
+ * `attributeInterior` is computed once up front, not per anchor —
+ * walking a 180-token definition once per anchor found in it would be
+ * quadratic, and every anchor built below needs the same set.
+ *
  * A single stack pairs each open with the next `</a>` that pops it —
  * anchors do not nest in this corpus, so depth never exceeds one, but
  * the stack costs nothing and needs no such assumption. An opening tag
@@ -92,9 +129,13 @@ function buildAnchor(
  * fails `opensScope`) is reported with `malformed: true` regardless of
  * whether a later `</a>` happens to pop it — `DAMAGED` in the test file
  * is exactly that case, since its swallowed `</a>` is embedded in the
- * `href` and a real one still follows.
+ * `href` and a real one still follows. A well-formed-looking `<a>`
+ * whose `open` or `close` token sits inside an EARLIER tag's
+ * unrecovered interior region is reported with `interior: true` — see
+ * the module docstring and the `J00597` test fixture.
  */
 function anchors(tokens: readonly Token[]): Anchor[] {
+	const interior = attributeInterior(tokens);
 	const found: Anchor[] = [];
 	const stack: number[] = [];
 	for (const [at, token] of tokens.entries()) {
@@ -104,25 +145,34 @@ function anchors(tokens: readonly Token[]): Anchor[] {
 		if (token.close) {
 			const open = stack.pop();
 			if (open !== undefined) {
-				found.push(buildAnchor(tokens, open, at));
+				found.push(buildAnchor(tokens, open, at, interior));
 			}
 		} else {
 			stack.push(at);
 		}
 	}
 	for (const open of stack) {
-		found.push(buildAnchor(tokens, open, -1));
+		found.push(buildAnchor(tokens, open, -1, interior));
 	}
 	return found.sort((a, b) => a.open - b.open);
 }
 
-/** The one gate both editors share. A malformed opening tag is refused
- * before an unclosed one is even checked — when an anchor is both, one
- * refusal reason is enough, and `malformed` is the more specific of the
- * two. */
+/** The one gate both editors share. Checked in order of how specific
+ * the damage is to THIS anchor: `malformed` (this anchor's own opening
+ * tag is broken) before `interior` (this anchor is fine on its own but
+ * sits inside a DIFFERENT tag's damage) before unclosed (nothing is
+ * broken, a `</a>` is simply missing). An anchor can be more than one
+ * of these at once — the leftover-stack case in `anchors()` reports
+ * `close: -1` for a malformed open whether or not it also happens to be
+ * unclosed — and one refusal reason is enough. */
 function assertUsable(anchor: Anchor): void {
 	if (anchor.malformed) {
 		throw new Error('links: refusing to edit a malformed anchor');
+	}
+	if (anchor.interior) {
+		throw new Error(
+			'links: refusing to edit an anchor inside another tag’s damaged attribute interior',
+		);
 	}
 	if (anchor.close === -1) {
 		throw new Error('links: refusing to edit an unclosed anchor');
@@ -158,6 +208,8 @@ function retarget(
 	target: Target,
 ): Token[] {
 	assertUsable(anchor);
+	// Safe: `anchor.open` came from `anchors(tokens)` scanning this same
+	// stream for `kind: 'tag'` entries, so it always indexes a TagToken.
 	const tag = tokens[anchor.open] as TagToken;
 	const value = replaceAttrValue(
 		replaceAttrValue(tag.value, HREF, target.href),

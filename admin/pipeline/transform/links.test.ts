@@ -94,6 +94,41 @@ it('display drops nested tags but keeps their text', () => {
 	expect(anchor.display).toBe('Text');
 });
 
+/** J00597's shape: the malformed tag's `attributeInterior` region never
+ * recovers (html.ts's own docs on that function name this field), so
+ * everything after it — including a second `<a>` that is well-formed
+ * on its own, closes cleanly and has a real `href` — is actually the
+ * tail of the FIRST tag's damaged attribute value, not document markup.
+ * A view that only checked each anchor's own opening tag against
+ * `opensScope` would call this second anchor clean. */
+const J00597 =
+	'(cmp. <a dir="rtl" class="refLink" href="/Jastrow,_דִּלְדֵּל.1</a>' +
+	'<a class="refLink" href="/Bava_Metzia.38b">B. Mets. 38ᵇ</a> ' +
+	'<span dir="rtl">היוֹרֵד</span> he who takes possession.';
+
+it('refuses an anchor trapped in another tag’s unrecovered interior', () => {
+	const tokens = tokenize(J00597);
+	const list = anchors(tokens);
+	// The malformed tag itself: reported malformed, not interior — the
+	// damage is its own.
+	expect(list[0]?.malformed).toBe(true);
+	expect(list[0]?.interior).toBe(false);
+	// The trapped anchor: well-formed and fully closed by every local
+	// measure, but its tokens are inside the first tag's interior.
+	const [, trapped] = list;
+	if (trapped === undefined) {
+		throw new Error('expected a second, trapped anchor');
+	}
+	expect(trapped.malformed).toBe(false);
+	expect(trapped.close).not.toBe(-1);
+	expect(trapped.href).toBe('/Bava_Metzia.38b');
+	expect(trapped.interior).toBe(true);
+	expect(() => unlink(tokens, trapped)).toThrow('interior');
+	expect(() => retarget(tokens, trapped, { dataRef: 'x', href: '/x' })).toThrow(
+		'interior',
+	);
+});
+
 it('an anchor missing its closing tag is unclosed and refused', () => {
 	const html = 'lead <a href="/x" data-ref="y">tail, no close';
 	const tokens = tokenize(html);
