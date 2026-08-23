@@ -43,21 +43,21 @@ const RULES: readonly Rule[] = [
 	rabbiName,
 	ellipsisFragment,
 
-	// The geresh pair (batch 2, task 5): the first RETARGET rules. Both
-	// rows carry the other in `entangledWith` — they share 8 entries and
-	// 7 definitions, each re-serializing a definition the other also
-	// rewrites — so `checkAdjacency()` requires this gap-free span.
+	// The geresh pair (batch 2, task 5). Two more unlink rows, by the
+	// maintainer ruling of 2026-08-23 — briefed as retargets, but the
+	// address they would have copied is absent from 84% of their own
+	// entries (see rules/geresh.ts). Both rows carry the other in
+	// `entangledWith` — they share 8 entries and 7 definitions, each
+	// re-serializing a definition the other also rewrites — so
+	// `checkAdjacency()` requires this gap-free span.
 	//
 	// Order between them is MEASURED and free: over the whole corpus
-	// both orders produce 98 records across 92 entries with 0 entries
-	// differing by a byte, because `retarget` returns an array of the
-	// same length and neither predicate reads a byte the other writes.
-	// `gereshLetterNumeral` leads only because it is the audited row.
-	//
-	// After the unlink family, and the same argument puts them there:
-	// a retarget copies its address off a sibling anchor in the same
-	// entry, and must never adopt one from an anchor those rules go on
-	// to delete.
+	// both orders produce 655 records across 640 entries with 0 entries
+	// differing by a byte. No member of either population nests inside
+	// an anchor of the other, and `unlinkMatching` re-derives from the
+	// current text on every pass, so neither can hand the other a stale
+	// index. `gereshLetterNumeral` leads only because it is the audited
+	// row of the two.
 	gereshLetterNumeral,
 	prefixedGereshAbbrev,
 ];

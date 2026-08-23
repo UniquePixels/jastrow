@@ -178,6 +178,13 @@ function firstUsableMatch(
  * per field, so the total accumulates across every definition this
  * call touches rather than resetting per sense.
  *
+ * Exported since batch-2 task 5: `rules/geresh.ts` unlinks two rows
+ * of its own and must reuse this walk rather than restate it. The
+ * loop underneath (`unlinkMatching`) re-derives anchors before every
+ * removal because anchors nest, and a second copy of that reasoning
+ * living in another module is exactly how the bug this function's
+ * sibling docstring describes came back.
+ *
  * Neither rule built on this reaches `language_reference`: measured 0
  * Judges/Ecclesiastes/Joshua anchors there corpus-wide (task-2-report.md),
  * so the narrower scope is on the same footing as `rtl.ts`'s
@@ -444,5 +451,6 @@ export {
 	ellipsisRaw,
 	rabbiName,
 	unlinkMatching,
+	unlinkOverDefinitions,
 	unobservedConvention,
 };
