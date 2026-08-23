@@ -4,8 +4,6 @@ import { checkLinkTargets } from './link-target.ts';
 import { applyTransforms } from './run.ts';
 import type { Rule, TransformResult } from './types.ts';
 
-const rule = { id: 'test-rule', phase: 'text-repairs' } as Rule;
-
 /** One sense, one definition — the smallest entry the gate accepts.
  * `headword` is present because `fieldsOf` walks it unconditionally
  * (the brief's fixture omitted it, which crashes the shared walk, not
@@ -32,8 +30,8 @@ it('a fabricated target fails', () => {
 	const after = entry(
 		`${A('Nedarim 25a', 'Ib.')} and ${A('Shabbat 30b', 'Sabb. 30ᵇ')}`,
 	);
-	expect(checkLinkTargets(before, after, rule, result(after))).toEqual([
-		'test-rule: target "Nedarim 25a" is not in T00001\'s input',
+	expect(checkLinkTargets(before, after, result(after))).toEqual([
+		'target "Nedarim 25a" is not in T00001\'s input',
 	]);
 });
 
@@ -41,11 +39,11 @@ it('a target copied from a sibling anchor passes', () => {
 	const after = entry(
 		`${A('Shabbat 30b', 'Ib.')} and ${A('Shabbat 30b', 'Sabb. 30ᵇ')}`,
 	);
-	expect(checkLinkTargets(before, after, rule, result(after))).toEqual([]);
+	expect(checkLinkTargets(before, after, result(after))).toEqual([]);
 });
 
 it('an unchanged entry passes', () => {
-	expect(checkLinkTargets(before, before, rule, result(before))).toEqual([]);
+	expect(checkLinkTargets(before, before, result(before))).toEqual([]);
 });
 
 /** The `untouched` fast path settles an unchanged entry without
@@ -53,34 +51,34 @@ it('an unchanged entry passes', () => {
  * be reported, or a rule could claim removals it never made. */
 it('an unchanged entry with a declared unlink still fails', () => {
 	expect(
-		checkLinkTargets(before, before, rule, result(before, { unlinks: 1 })),
-	).toEqual(['test-rule: removed 0 anchors in T00001, declared 1']);
+		checkLinkTargets(before, before, result(before, { unlinks: 1 })),
+	).toEqual(['removed 0 anchors in T00001, declared 1']);
 });
 
 it('adding an anchor fails', () => {
 	const after = entry(
 		`${A('Yoma 2a', 'Ib.')} and ${A('Shabbat 30b', 'Sabb. 30ᵇ')} ${A('Yoma 2a', 'x')}`,
 	);
-	expect(checkLinkTargets(before, after, rule, result(after))).toEqual([
-		'test-rule: anchor count grew 2 → 3 in T00001',
+	expect(checkLinkTargets(before, after, result(after))).toEqual([
+		'anchor count grew 2 → 3 in T00001',
 	]);
 });
 
 it('an undeclared unlink fails and a declared one passes', () => {
 	const after = entry(`Ib. and ${A('Shabbat 30b', 'Sabb. 30ᵇ')}`);
-	expect(checkLinkTargets(before, after, rule, result(after))).toEqual([
-		'test-rule: removed 1 anchor in T00001, declared 0',
+	expect(checkLinkTargets(before, after, result(after))).toEqual([
+		'removed 1 anchor in T00001, declared 0',
 	]);
 	expect(
-		checkLinkTargets(before, after, rule, result(after, { unlinks: 1 })),
+		checkLinkTargets(before, after, result(after, { unlinks: 1 })),
 	).toEqual([]);
 });
 
 it('a declaration larger than the removal fails', () => {
 	const after = entry(`Ib. and ${A('Shabbat 30b', 'Sabb. 30ᵇ')}`);
 	expect(
-		checkLinkTargets(before, after, rule, result(after, { unlinks: 2 })),
-	).toEqual(['test-rule: removed 1 anchor in T00001, declared 2']);
+		checkLinkTargets(before, after, result(after, { unlinks: 2 })),
+	).toEqual(['removed 1 anchor in T00001, declared 2']);
 });
 
 it('unlinks are counted over the whole entry, not per field', () => {
@@ -93,12 +91,12 @@ it('unlinks are counted over the whole entry, not per field', () => {
 		A('Yoma 2a', 'Ib.'),
 	);
 	const after = spread('Ib. and Sabb. 30ᵇ', 'Ib.');
-	expect(
-		checkLinkTargets(src, after, rule, result(after, { unlinks: 3 })),
-	).toEqual([]);
-	expect(
-		checkLinkTargets(src, after, rule, result(after, { unlinks: 2 })),
-	).toEqual(['test-rule: removed 3 anchors in T00001, declared 2']);
+	expect(checkLinkTargets(src, after, result(after, { unlinks: 3 }))).toEqual(
+		[],
+	);
+	expect(checkLinkTargets(src, after, result(after, { unlinks: 2 }))).toEqual([
+		'removed 3 anchors in T00001, declared 2',
+	]);
 });
 
 it('compose passes when the locus comes from the display', () => {
@@ -110,7 +108,7 @@ it('compose passes when the locus comes from the display', () => {
 	);
 	const claim = { from: 'Shabbat 30b', target: 'Shabbat 31a' };
 	expect(
-		checkLinkTargets(src, after, rule, result(after, { composed: [claim] })),
+		checkLinkTargets(src, after, result(after, { composed: [claim] })),
 	).toEqual([]);
 });
 
@@ -121,10 +119,8 @@ it('compose fails when the locus is not in the display', () => {
 	);
 	const claim = { from: 'Shabbat 30b', target: 'Shabbat 31a' };
 	expect(
-		checkLinkTargets(src, after, rule, result(after, { composed: [claim] })),
-	).toEqual([
-		'test-rule: composed "Shabbat 31a" adds "1a" absent from display "Ib."',
-	]);
+		checkLinkTargets(src, after, result(after, { composed: [claim] })),
+	).toEqual(['composed "Shabbat 31a" adds "1a" absent from display "Ib."']);
 });
 
 it('an undeclared compose fails', () => {
@@ -134,8 +130,8 @@ it('an undeclared compose fails', () => {
 	const after = entry(
 		`${A('Shabbat 30b', 'Sabb. 30ᵇ')} ${A('Shabbat 31a', 'Ib. 31a')}`,
 	);
-	expect(checkLinkTargets(src, after, rule, result(after))).toEqual([
-		'test-rule: target "Shabbat 31a" is not in T00001\'s input',
+	expect(checkLinkTargets(src, after, result(after))).toEqual([
+		'target "Shabbat 31a" is not in T00001\'s input',
 	]);
 });
 
@@ -145,9 +141,9 @@ it('a compose copying from a target the input lacks fails', () => {
 	);
 	const claim = { from: 'Nedarim 25a', target: 'Shabbat 31a' };
 	expect(
-		checkLinkTargets(before, after, rule, result(after, { composed: [claim] })),
+		checkLinkTargets(before, after, result(after, { composed: [claim] })),
 	).toEqual([
-		'test-rule: composed "Shabbat 31a" copies from "Nedarim 25a", which is not in T00001\'s input',
+		'composed "Shabbat 31a" copies from "Nedarim 25a", which is not in T00001\'s input',
 	]);
 });
 
@@ -158,10 +154,8 @@ it('one claim must satisfy every anchor it matches', () => {
 	);
 	const claim = { from: 'Shabbat 30b', target: 'Shabbat 31a' };
 	expect(
-		checkLinkTargets(src, after, rule, result(after, { composed: [claim] })),
-	).toEqual([
-		'test-rule: composed "Shabbat 31a" adds "1a" absent from display "Ib."',
-	]);
+		checkLinkTargets(src, after, result(after, { composed: [claim] })),
+	).toEqual(['composed "Shabbat 31a" adds "1a" absent from display "Ib."']);
 });
 
 it('href and data-ref are checked independently', () => {
@@ -169,8 +163,8 @@ it('href and data-ref are checked independently', () => {
 	const after = entry(
 		'<a class="refLink" href="/Nedarim_25a" data-ref="Yoma 2a">Ib.</a>',
 	);
-	expect(checkLinkTargets(src, after, rule, result(after))).toEqual([
-		'test-rule: target "/Nedarim_25a" is not in T00001\'s input',
+	expect(checkLinkTargets(src, after, result(after))).toEqual([
+		'target "/Nedarim_25a" is not in T00001\'s input',
 	]);
 });
 
@@ -182,8 +176,8 @@ it('a fabricated target in a NESTED sense fails', () => {
 	});
 	const after = nested(A('Nedarim 25a', 'Ib.'));
 	expect(
-		checkLinkTargets(nested(A('Yoma 2a', 'Ib.')), after, rule, result(after)),
-	).toEqual(['test-rule: target "Nedarim 25a" is not in T00001\'s input']);
+		checkLinkTargets(nested(A('Yoma 2a', 'Ib.')), after, result(after)),
+	).toEqual(['target "Nedarim 25a" is not in T00001\'s input']);
 });
 
 it('a fabricated target in language_reference fails', () => {
@@ -193,8 +187,8 @@ it('a fabricated target in language_reference fails', () => {
 	});
 	const after = withRef(A('Nedarim 25a', 'Ib.'));
 	expect(
-		checkLinkTargets(withRef(A('Yoma 2a', 'Ib.')), after, rule, result(after)),
-	).toEqual(['test-rule: target "Nedarim 25a" is not in T00001\'s input']);
+		checkLinkTargets(withRef(A('Yoma 2a', 'Ib.')), after, result(after)),
+	).toEqual(['target "Nedarim 25a" is not in T00001\'s input']);
 });
 
 it('a fabricated target in a quote fails', () => {
@@ -204,8 +198,8 @@ it('a fabricated target in a quote fails', () => {
 	});
 	const after = quoted(A('Nedarim 25a', 'Ib.'));
 	expect(
-		checkLinkTargets(quoted(A('Yoma 2a', 'Ib.')), after, rule, result(after)),
-	).toEqual(['test-rule: target "Nedarim 25a" is not in T00001\'s input']);
+		checkLinkTargets(quoted(A('Yoma 2a', 'Ib.')), after, result(after)),
+	).toEqual(['target "Nedarim 25a" is not in T00001\'s input']);
 });
 
 /** D00478's shape: an unterminated `href` swallows the closing tag, so
@@ -217,7 +211,7 @@ const DAMAGED = (ref: string): string =>
 
 it('a malformed anchor left alone passes', () => {
 	const src = entry(DAMAGED('Jastrow, כָּלוּל 1'));
-	expect(checkLinkTargets(src, src, rule, result(src))).toEqual([]);
+	expect(checkLinkTargets(src, src, result(src))).toEqual([]);
 });
 
 /** Recorded, not celebrated: D00478's `href` swallowed the closing
@@ -228,7 +222,7 @@ it('a malformed anchor left alone passes', () => {
 it('a target inside D00478’s damaged tail is text, not a target', () => {
 	const src = entry(DAMAGED('Jastrow, כָּלוּל 1'));
 	const after = entry(DAMAGED('Jastrow, כָּלוּל 2'));
-	expect(checkLinkTargets(src, after, rule, result(after))).toEqual([]);
+	expect(checkLinkTargets(src, after, result(after))).toEqual([]);
 });
 
 /** J00597's shape: the trapped second anchor parses perfectly on its
@@ -244,22 +238,17 @@ const TRAPPED = (href: string): string =>
 it('an interior-trapped anchor is target-checked, not skipped', () => {
 	const after = entry(TRAPPED('/Nedarim.25a'));
 	expect(
-		checkLinkTargets(
-			entry(TRAPPED('/Bava_Metzia.38b')),
-			after,
-			rule,
-			result(after),
-		),
-	).toEqual(['test-rule: target "/Nedarim.25a" is not in T00001\'s input']);
+		checkLinkTargets(entry(TRAPPED('/Bava_Metzia.38b')), after, result(after)),
+	).toEqual(['target "/Nedarim.25a" is not in T00001\'s input']);
 });
 
 it('an unclosed anchor is target-checked, not skipped', () => {
 	const open = (ref: string): SourceEntry =>
 		entry(`lead <a class="refLink" href="/x" data-ref="${ref}">tail, no close`);
 	const after = open('Nedarim 25a');
-	expect(checkLinkTargets(open('Yoma 2a'), after, rule, result(after))).toEqual(
-		['test-rule: target "Nedarim 25a" is not in T00001\'s input'],
-	);
+	expect(checkLinkTargets(open('Yoma 2a'), after, result(after))).toEqual([
+		'target "Nedarim 25a" is not in T00001\'s input',
+	]);
 });
 
 /** Recursively freezes an entry so any in-place write by the gate
@@ -283,9 +272,7 @@ it('the gate mutates neither entry nor the result', () => {
 	const claimed = deepFreeze(
 		result(after, { composed: [{ from: 'Yoma 2a', target: 'Yoma 2a' }] }),
 	);
-	expect(checkLinkTargets(deepFreeze(before), after, rule, claimed)).toEqual(
-		[],
-	);
+	expect(checkLinkTargets(deepFreeze(before), after, claimed)).toEqual([]);
 });
 
 it('the runner enforces the gate', () => {
@@ -301,7 +288,10 @@ it('the runner enforces the gate', () => {
 		id: 'fabricator',
 		phase: 'text-repairs',
 	};
+	// The rule name appears exactly ONCE, and `run.ts` is what puts it
+	// there — the gate's own messages carry no rule prefix, matching
+	// `no-new-text.ts` and `markup.ts`.
 	expect(() => applyTransforms(before, 'text-repairs', [fabricator])).toThrow(
-		/target "Nedarim 25a" is not in T00001's input/u,
+		/^fabricator: target "Nedarim 25a" is not in T00001's input$/u,
 	);
 });

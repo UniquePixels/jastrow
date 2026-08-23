@@ -45,7 +45,7 @@ function applyTransforms(
 		const problems = [
 			...checkNoNewText(before, result.entry, rule, result.copied),
 			...checkMarkup(before, result.entry),
-			...checkLinkTargets(before, result.entry, rule, result),
+			...checkLinkTargets(before, result.entry, result),
 		];
 		if (problems.length > 0) {
 			throw new Error(`${rule.id}: ${problems.join('; ')}`);

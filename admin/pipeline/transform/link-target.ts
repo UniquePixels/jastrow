@@ -255,11 +255,19 @@ function checkValue(
  *
  * A rule that changed no walked field is settled by `untouched`
  * without tokenizing anything; every other entry is walked in full.
+ *
+ * Problems come back UNPREFIXED, like `no-new-text.ts`'s and
+ * `markup.ts`'s: `run.ts` names the offending rule once when it
+ * throws. The two siblings carry no such note because they never had
+ * a reason to; this one does, because its messages read as if they
+ * were missing the rule name until you see where it is added. There
+ * is no `rule` parameter for the same reason `checkMarkup` has none —
+ * this gate reads nothing off the rule, and a parameter kept for
+ * symmetry alone would be an unused one.
  */
 function checkLinkTargets(
 	before: SourceEntry,
 	after: SourceEntry,
-	rule: { id: string },
 	result: Pick<TransformResult, 'composed' | 'unlinks'>,
 ): string[] {
 	const sourceFields = fieldsOf(before);
@@ -294,7 +302,7 @@ function checkLinkTargets(
 			problems.push(problem);
 		}
 	}
-	return problems.map((problem) => `${rule.id}: ${problem}`);
+	return problems;
 }
 
 export { checkLinkTargets };
