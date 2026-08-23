@@ -51,9 +51,17 @@
  * Measured: apparatus 8 (catalogued 8), rabbi 41 (catalogued 41).
  */
 import { expect, it } from 'bun:test';
+import { readSourceEntries } from '../../body/source.ts';
 import type { SourceEntry } from '../../body/types.ts';
 import { applyTransforms } from '../run.ts';
-import { apparatusCite, ellipsisFragment, rabbiName } from './unlink.ts';
+import {
+	apparatusCite,
+	ELLIPSIS_CONVENTION,
+	ellipsisFragment,
+	ellipsisRaw,
+	rabbiName,
+	unobservedConvention,
+} from './unlink.ts';
 
 // `headword` is required on `SourceEntry` and `fieldsOf` (no-new-text.ts)
 // reads it unconditionally when building the gate's text multiset — an
@@ -192,27 +200,142 @@ it('unlinks an anchored elision fragment (Q00231)', () => {
 	expect(out.records).toHaveLength(1);
 });
 
-// The no-op guard this batch has already been bitten by once (Task
-// 2): a predicate that matches nothing drops no anchor, keeps the text
-// byte-identical, and passes both older gates in silence. `unlinks` is
-// only ever set when > 0 (unlinkOverDefinitions), so a no-op predicate
-// leaves it `undefined`, not `1` — this fails loudly instead.
-it('declares unlinks equal to the anchor it removed (ellipsis fragment)', () => {
-	const result = ellipsisFragment.apply(entry(Q00231, 'Q00231'));
-	expect(result.unlinks).toBe(1);
+// M01288, verbatim: an independent no-op-guard fixture (reviewer
+// minor — the old assertion just repeated the first test's
+// `records.toHaveLength(1)` on the same input). TWO ellipsis-fragment
+// anchors in one sense, "(ed. …נָן, …נַן)" — so `unlinks` (2, one per
+// anchor) and `records.length` (1, one push per sense) can actually
+// disagree, unlike a single-anchor fixture where they trivially match.
+// `unlinks` is only ever set when > 0, so a no-op predicate leaves it
+// `undefined`, not `2` — the same silent-pass Task 2 shipped once.
+const M01288 =
+	' (<a dir="rtl" class="refLink" href="/Jastrow,_מִיק.1" data-ref="Jastrow, מִיק 1">מִיק</a>; cmp. ' +
+	'<a dir="rtl" class="refLink" href="/Jastrow,_*דַּאֲבַן.1" data-ref="Jastrow, *דַּאֲבַן 1">דַּאֲבַן</a> <i>to mock</i>. ' +
+	'<a class="refLink" href="/Aramaic_Targum_to_Psalms.119.51" data-ref="Aramaic Targum to Psalms 119:51">Targ. Ps. CXIX, 51</a> ' +
+	'<span dir="rtl">מְמִיקְנִין</span> ed. Lag. (ed. … ' +
+	'<a dir="rtl" class="refLink" href="/Jastrow,_נַן.1" data-ref="Jastrow, נַן 1">נָן</a>, … ' +
+	'<a dir="rtl" class="refLink" href="/Jastrow,_נַן.1" data-ref="Jastrow, נַן 1">נַן</a>).';
+
+it('unlinks both fragments in one definition and counts each anchor (M01288)', () => {
+	const result = ellipsisFragment.apply(entry(M01288, 'M01288'));
+	expect(result.unlinks).toBe(2);
+	expect(result.records).toHaveLength(1);
 });
 
-// A02658, excerpt: one of the 6 convention members (task-3-report.md)
-// — "Ḥull. 64ᵇ …" elides quoted Talmudic text, not a word-head, and
-// דוסתאי is the complete name Dostai, glossed right after it and
-// correctly linked to its own headword. Must survive: the inverse
-// error the brief warns against, same shape as D00149 above.
+// A01030, verbatim: a second convention member — the ellipsis follows
+// a bare citation ("Targ. Hos. VI, 2 …"), not a Hebrew word being
+// corrected, and אַחֲיוּת is a sibling inflected form of this entry's
+// own headword (אַחֲיוּתָא), immediately translated "resurrection of &c."
+const A01030 =
+	' (<a dir="rtl" class="refLink" href="/Jastrow,_חיי.1" data-ref="Jastrow, חיי 1">חיי</a>) ' +
+	'<i>reanimation, resurrection</i>. <a class="refLink" href="/Targum_Jonathan_on_Hosea.6.2" data-ref="Targum Jonathan on Hosea 6:2">Targ. Hos. VI, 2</a> … ' +
+	'<a dir="rtl" class="refLink" href="/Jastrow,_אַחֲיוֹת.1" data-ref="Jastrow, אַחֲיוֹת 1">אַחֲיוּת</a> resurrection of &c.; a. e.';
+
+it('leaves a convention ellipsis before a sibling headword form alone (A01030)', () => {
+	const out = applyTransforms(entry(A01030, 'A01030'), 'text-repairs', [
+		ellipsisFragment,
+	]);
+	expect(out.entry.content.senses[0]?.definition).toBe(A01030);
+	expect(out.records).toHaveLength(0);
+});
+
+// A01111, excerpt (sense 2 of 3, trimmed to the clause carrying the
+// anchor — full sense is long enough to push this file over the line
+// budget on its own): a third convention member — the ellipsis follows
+// English prose ("if you were to say …"), and היינו is a complete
+// discourse particle ("that is"), glossed by the English that follows.
+const A01111 =
+	'—<span dir="rtl">אי אמרת בשלמא</span> (abbr. <span dir="rtl">אא"ב</span> = <span dir="rtl">בשלמא אי אמרת</span>) I grant, if you were to say … ' +
+	'<a dir="rtl" class="refLink" href="/Jastrow,_הַיְינוּ.1" data-ref="Jastrow, הַיְינוּ 1">היינו</a> then would be right what &c.';
+
+it('leaves a convention ellipsis before a glossed discourse particle alone (A01111)', () => {
+	const out = applyTransforms(entry(A01111, 'A01111'), 'text-repairs', [
+		ellipsisFragment,
+	]);
+	expect(out.entry.content.senses[0]?.definition).toBe(A01111);
+	expect(out.records).toHaveLength(0);
+});
+
+// K01049, verbatim: a fourth convention member — the ellipsis follows
+// "[In compounds: …", an English list marker, not a Hebrew word being
+// corrected, and כְּפַר is the construct-state sibling of this entry's
+// own headword (כָּפָר), a legitimate cross-reference.
+const K01049 =
+	' כפר <i>to be round</i>,  [<i>circle</i>,] <i>village, country town</i>. ' +
+	'<a class="refLink" href="/Mishnah_Megillah.1.3" data-ref="Mishnah Megillah 1:3">Meg. I, 3</a> ' +
+	'<span dir="rtl">פחות מכאן הרי זה כ׳</span> if a place has less (than ten persons of leisure), it is considered a country place, opp. ' +
+	'<span dir="rtl">עיר גדולה</span>. <a class="refLink" href="/Chagigah.13b.5" data-ref="Chagigah 13b:5">Ḥag. 13ᵇ</a> v. ' +
+	'<a dir="rtl" class="refLink" href="/Jastrow,_יְחֶזְקֵאל.1" data-ref="Jastrow, יְחֶזְקֵאל 1">יְחֶזְקְאֵל</a>. ' +
+	'<a class="refLink" href="/Mishnah_Eduyot.2.3" data-ref="Mishnah Eduyot 2:3">Eduy. II, 3</a>; a. fr.—Pl. <span dir="rtl">כְּפָרִים</span>. ' +
+	'<a class="refLink" href="/Mishnah_Megillah.1.1" data-ref="Mishnah Megillah 1:1">Meg. I, 1</a>, sq.; a. fr. [In compounds:… ' +
+	'<a dir="rtl" class="refLink" href="/Jastrow,_כְּפַר.1" data-ref="Jastrow, כְּפַר 1">כְּפַר</a> pr. n. pl., v. respective determinants.]';
+
+it('leaves a convention ellipsis before a construct-state sibling alone (K01049)', () => {
+	const out = applyTransforms(entry(K01049, 'K01049'), 'text-repairs', [
+		ellipsisFragment,
+	]);
+	expect(out.entry.content.senses[0]?.definition).toBe(K01049);
+	expect(out.records).toHaveLength(0);
+});
+
+// L00584, verbatim: a fifth convention member — the ellipsis follows
+// English prose ("why do we not say …"), and וידוי is a complete real
+// word, explicitly contrasted with "(in place of ראיון)".
+const L00584 =
+	' = <span dir="rtl">לָא אֲנָן</span>. ' +
+	'<a class="refLink" href="Jerusalem_Talmud_Peah.3.7.4" data-ref="Jerusalem Talmud Peah 3:7:4">Y. Peah III, 17ᵈ</a> top ' +
+	'<span dir="rtl">ולמה ל׳ אמרין וכ׳</span> (abbrev. <span dir="rtl">אמ׳</span>, v. R. S. to Mish. ib. III, 6) and why do we not say … ' +
+	'<a dir="rtl" class="refLink" href="/Jastrow,_וִידּוּי.1" data-ref="Jastrow, וִידּוּי 1">וידוי</a> (in place of ' +
+	'<a dir="rtl" class="refLink" href="/Jastrow,_רֵאָיוֹן.1" data-ref="Jastrow, רֵאָיוֹן 1">ראיון</a>)?';
+
+it('leaves a convention ellipsis before a complete, contrasted word alone (L00584)', () => {
+	const out = applyTransforms(entry(L00584, 'L00584'), 'text-repairs', [
+		ellipsisFragment,
+	]);
+	expect(out.entry.content.senses[0]?.definition).toBe(L00584);
+	expect(out.records).toHaveLength(0);
+});
+
+// D00702, verbatim: the sixth convention member — "(ed. …דיקלאי)" reads
+// like the apparatus-note shape most of the 82 defects share, but the
+// anchored word is immediately glossed by the English that follows it
+// ("basket-makers who brought wicker work for sale"), confirming it is
+// the edition's complete spelling, not a stem-elided fragment.
+const D00702 =
+	' (v. <a dir="rtl" class="refLink" href="/Jastrow,_דִּיקוּלָא.1" data-ref="Jastrow, דִּיקוּלָא 1">דִּיקוּלָא</a>) <i>basket maker</i>.—Pl. ' +
+	'<a dir="rtl" class="refLink" href="/Jastrow,_דִּיקוּלָא.1" data-ref="Jastrow, דִּיקוּלָא 1">דִּיקוּלָאֵי</a>. ' +
+	'<a class="refLink" href="/Bava_Batra.22a.4" data-ref="Bava Batra 22a:4">B. Bath. 22ᵃ</a> ד׳ דאייתי דיקולי Ms. M. (ed. … ' +
+	'<a dir="rtl" class="refLink" href="/Jastrow,_דיקלאי.1" data-ref="Jastrow, דיקלאי 1">דיקלאי</a>) basket-makers who brought wicker work for sale; ' +
+	'[Rashi: ‘one opinion’: <i>kettle-makers</i>, v. preced.].';
+
+it('leaves a convention ellipsis glossed by the following English alone (D00702)', () => {
+	const out = applyTransforms(entry(D00702, 'D00702'), 'text-repairs', [
+		ellipsisFragment,
+	]);
+	expect(out.entry.content.senses[0]?.definition).toBe(D00702);
+	expect(out.records).toHaveLength(0);
+});
+
+// Batch-wide drift check (maintainer ruling, 2026-08-23): every key in
+// ELLIPSIS_CONVENTION must be OBSERVED in the real, current corpus —
+// not just against the fixed strings above — or this names it and
+// fails, rather than `transform:count`'s aggregate 80 drifting mutely.
+it('observes every ellipsis-fragment convention exclusion in the corpus', async () => {
+	const unmatched = await unobservedConvention(
+		ELLIPSIS_CONVENTION,
+		readSourceEntries(),
+		ellipsisRaw,
+	);
+	expect(unmatched).toEqual([]);
+});
+
+// A02658, excerpt: one of the 6 convention members — "Ḥull. 64ᵇ …"
+// elides quoted Talmudic text, not a word-head, and דוסתאי is the
+// complete name Dostai, glossed right after and correctly linked.
 const A02658 =
 	'<i>Aftoriki</i>. <a class="refLink" href="/Bava_Metzia.5a.7" data-ref="Bava Metzia 5a:7">B. Mets. 5ᵃ</a> ' +
 	'<span dir="rtl">אבוה דר׳ א׳</span>; <a class="refLink" href="/Chullin.64b.3" data-ref="Chullin 64b:3">Ḥull. 64ᵇ</a> … ' +
-	'<a dir="rtl" class="refLink" href="/Jastrow,_דּוֹסְתַּאי.1" data-ref="Jastrow, דּוֹסְתַּאי 1">דוסתאי</a> ' +
-	'(Dostai) the father of R. A. (<a class="refLink" href="Jerusalem_Talmud_Yoma.4.4.9" data-ref="Jerusalem Talmud Yoma 4:4:9">Y. Yoma IV, 41ᵈ</a> top ' +
-	'<span dir="rtl">פטרוקי אחוה וכ׳</span> Patruki, brother of R. Darosa).';
+	'<a dir="rtl" class="refLink" href="/Jastrow,_דּוֹסְתַּאי.1" data-ref="Jastrow, דּוֹסְתַּאי 1">דוסתאי</a> (Dostai) the father of R. A.';
 
 it('leaves a convention ellipsis before a complete, correctly linked name alone (A02658)', () => {
 	const out = applyTransforms(entry(A02658, 'A02658'), 'text-repairs', [

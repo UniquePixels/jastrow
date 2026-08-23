@@ -204,6 +204,81 @@ const rabbiName: Rule = {
 };
 
 /**
+ * Batch-wide drift check (maintainer ruling, 2026-08-23): an enumerated
+ * exception may live inside a transform rule, but it must be LOUD ON
+ * DRIFT, the same standing `repairs.ts` was approved on ("pure,
+ * rid-keyed literal edits, loud on drift"). The load-bearing half is
+ * the drift behaviour, not the list.
+ *
+ * `repairs.ts`'s find/replace edits can throw from INSIDE their own
+ * pass, because the invariant they check ("this rid's text still
+ * contains the exact find-string") is local to the one entry `apply`
+ * is already holding. A convention-exclusion set can't reuse that
+ * trick: the invariant it needs to check is "this `rid|dataRef` key
+ * was matched by the rule's raw predicate SOMEWHERE in a corpus run",
+ * and `Rule.apply` only ever sees one entry at a time. It has no way
+ * to tell "this rid never came through at all this run" (the entry
+ * was renamed or deleted) from "this rid came through and the
+ * predicate matched" — both look like silence from inside a single
+ * `apply` call. So this can't be an in-rule assertion; it has to walk
+ * the corpus itself, independently of any single rule invocation.
+ *
+ * This helper only computes the unobserved keys; `unlink.test.ts` is
+ * where it actually runs, as a corpus-walking test rather than a
+ * `transform:count` check — chosen deliberately. `transform:count`
+ * already catches drift, but only as an aggregate delta on the count
+ * of 80: late (visible only on a manual run someone remembers to make)
+ * and mute (it says the total moved, never which of the six keys
+ * broke). A test runs on every `bun qa`/CI pass and, via this
+ * function's return value, names the specific dead key in its failure
+ * message — the earliest point, and the most specific one, a human is
+ * actually looking.
+ *
+ * Returns the keys from `convention` that `raw` never matched anywhere
+ * in `corpus` — empty means every exclusion is still live. Generic
+ * over the raw predicate and the corpus so later convention-exclusion
+ * rules (Tasks 5, 6, 9) can call this directly rather than re-deriving
+ * it.
+ */
+/** Recurse `senses` the same shape `unlinkOverDefinitions`'s own walk
+ * does, adding `rid|dataRef` to `seen` for every anchor `raw` matches.
+ * Split out from `unobservedConvention` as a top-level function, not a
+ * closure rebuilt on every loop iteration, to keep both readable and
+ * under the lint budget. */
+function collectObserved(
+	senses: readonly SourceSense[],
+	rid: string,
+	raw: (tokens: readonly Token[], anchor: Anchor) => boolean,
+	seen: Set<string>,
+): void {
+	for (const sense of senses) {
+		if (sense.definition !== undefined) {
+			const tokens = tokenize(sense.definition);
+			for (const anchor of anchors(tokens)) {
+				if (usable(anchor) && raw(tokens, anchor)) {
+					seen.add(`${rid}|${anchor.dataRef}`);
+				}
+			}
+		}
+		if (sense.senses !== undefined) {
+			collectObserved(sense.senses, rid, raw, seen);
+		}
+	}
+}
+
+async function unobservedConvention(
+	convention: ReadonlySet<string>,
+	corpus: AsyncIterable<SourceEntry>,
+	raw: (tokens: readonly Token[], anchor: Anchor) => boolean,
+): Promise<string[]> {
+	const seen = new Set<string>();
+	for await (const entry of corpus) {
+		collectObserved(entry.content.senses, entry.rid, raw, seen);
+	}
+	return [...convention].filter((key) => !seen.has(key));
+}
+
+/**
  * Print marks a word-head elision as "…X": the ellipsis stands for a
  * shared stem the compositor didn't re-set, X is the differing tail —
  * almost always inside a manuscript-apparatus note ("(not …X)", "(ed.
@@ -230,6 +305,21 @@ const rabbiName: Rule = {
 const ELLIPSIS_LEAD = /…\s*$/u;
 
 /**
+ * Whether the RAW defect predicate matches — before the convention
+ * exclusion is applied. Split out from `ellipsisFragment.apply` so
+ * `unobservedConvention` can ask "would this rule have fired here" for
+ * an excluded key without re-deriving the cue, and so the exclusion
+ * itself (`ELLIPSIS_CONVENTION`) is visibly a filter OVER this
+ * predicate rather than folded into it.
+ */
+function ellipsisRaw(tokens: readonly Token[], anchor: Anchor): boolean {
+	return (
+		ELLIPSIS_LEAD.test(leadOf(tokens, anchor.open)) &&
+		anchor.dataRef.startsWith('Jastrow, ')
+	);
+}
+
+/**
  * The 6 convention survivors found by reading all 94 raw
  * (task-3-report.md): sole occurrence each, in 6 distinct entries —
  * confirmed by the arithmetic, not merely asserted, since dropping
@@ -247,6 +337,18 @@ const ELLIPSIS_LEAD = /…\s*$/u;
  * `rid|dataRef`, not `rid` alone, so a future corpus edit adding a
  * genuine defect to one of these six entries is not silently swallowed
  * by the exclusion.
+ *
+ * Maintainer ruling (2026-08-23): an enumerated exception may live
+ * inside a transform rule, but it must be LOUD ON DRIFT — same standing
+ * as `repairs.ts`'s rid-keyed literal edits. Here that means every key
+ * below must be OBSERVED — matched by `ellipsisRaw` somewhere in a
+ * corpus pass — which `unlink.test.ts`'s corpus-walking test checks on
+ * every run via `unobservedConvention`, above. A key that stops being
+ * observed means the corpus moved under this exclusion, or the
+ * exclusion was wrong from the start; either way it fails loudly,
+ * naming the dead key, rather than degrading into a silent
+ * exclusion-of-nothing that only `transform:count`'s aggregate 80
+ * would (eventually, and without saying which key) catch.
  */
 const ELLIPSIS_CONVENTION: ReadonlySet<string> = new Set([
 	'A01030|Jastrow, אַחֲיוֹת 1',
@@ -263,12 +365,18 @@ const ellipsisFragment: Rule = {
 			entry,
 			'ellipsis-fragment-anchored',
 			(tokens, anchor) =>
-				ELLIPSIS_LEAD.test(leadOf(tokens, anchor.open)) &&
-				anchor.dataRef.startsWith('Jastrow, ') &&
+				ellipsisRaw(tokens, anchor) &&
 				!ELLIPSIS_CONVENTION.has(`${entry.rid}|${anchor.dataRef}`),
 		),
 	id: 'ellipsis-fragment-anchored',
 	phase: 'text-repairs',
 };
 
-export { apparatusCite, ellipsisFragment, rabbiName };
+export {
+	apparatusCite,
+	ELLIPSIS_CONVENTION,
+	ellipsisFragment,
+	ellipsisRaw,
+	rabbiName,
+	unobservedConvention,
+};
