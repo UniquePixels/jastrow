@@ -19,8 +19,21 @@ interface TransformRecord {
 	ruleId: string;
 }
 
-/** What one `Rule.apply` call returns (spec §5, §5.1). */
+/** What one `Rule.apply` call returns (spec §5, §5.1; batch-2 link
+ * spec §3.2 for `composed` and `unlinks`). */
 interface TransformResult {
+	/** Link targets this call ASSEMBLED rather than copied whole
+	 * (batch-2 link spec §3.2 case 3). `from` is a target in this
+	 * entry's INPUT that supplied the copied work; `target` is the
+	 * `data-ref` written. `link-target.ts` takes the longest common
+	 * prefix of `from` and `target` — on CODEPOINTS, with no word
+	 * boundary — as the copied part, and requires every remaining
+	 * character of `target` to occur in that anchor's own display
+	 * text. The same test runs on the `href` against the `from`
+	 * anchor's own `href`. An undeclared compose is a violation, not
+	 * an allowance: a target absent from the input and unclaimed
+	 * fails as fabricated. */
+	composed?: readonly { from: string; target: string }[];
 	/** Text this call duplicated from elsewhere in the SAME entry
 	 * (spec §5.1). The gate verifies each string occurs in the input
 	 * before permitting it — a declared copy that is not in the
@@ -28,6 +41,15 @@ interface TransformResult {
 	copied?: readonly string[];
 	entry: SourceEntry;
 	records: TransformRecord[];
+	/** How many anchors this call REMOVED from the entry, counted over
+	 * the whole entry rather than per field. The markup-delta gate
+	 * reads a dropped tag pair as an improvement and the text gate is
+	 * a SUB-multiset check that reads a deletion as legitimate, so
+	 * this count is the only thing standing between an accidental
+	 * unlink and a clean run. Absent means zero, and a mismatch in
+	 * either direction — undeclared removal, or a declaration larger
+	 * than what went missing — fails. */
+	unlinks?: number;
 }
 
 interface Rule {

@@ -4,14 +4,19 @@
  * the rule that caused it rather than surfacing as a mystery diff at
  * the end of the walk.
  *
- * Both of spec §5's checkable layers run here, per rule: the text
- * sub-multiset (`checkNoNewText`) and the markup well-formedness delta
- * (`checkMarkup`). They are separate because they answer different
- * questions and neither subsumes the other — the text gate strips tags
+ * Three gates run here, per rule, because each is blind to what the
+ * others see. The text sub-multiset (`checkNoNewText`) strips tags
  * with the same tokenizer a rule uses, so markup damage is invisible
- * to it by construction.
+ * to it by construction; the markup well-formedness delta
+ * (`checkMarkup`) never looks inside a tag, so an attribute rewrite is
+ * invisible to it; and neither reads `href` or `data-ref` at all,
+ * which is the hole `checkLinkTargets` (batch-2 link spec §3.2) closes
+ * for every rule that writes a link target. Spec §5 covers the first
+ * two; the third is that spec's blind-spot problem answered rather
+ * than recorded.
  */
 import type { SourceEntry } from '../body/types.ts';
+import { checkLinkTargets } from './link-target.ts';
 import { checkMarkup } from './markup.ts';
 import { checkNoNewText } from './no-new-text.ts';
 import { RULES } from './registry.ts';
@@ -40,6 +45,7 @@ function applyTransforms(
 		const problems = [
 			...checkNoNewText(before, result.entry, rule, result.copied),
 			...checkMarkup(before, result.entry),
+			...checkLinkTargets(before, result.entry, rule, result),
 		];
 		if (problems.length > 0) {
 			throw new Error(`${rule.id}: ${problems.join('; ')}`);
