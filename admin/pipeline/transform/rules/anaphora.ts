@@ -53,8 +53,12 @@
  * place*, so the antecedent's address copied WHOLE is the correct
  * reading, and composing a different one would be a worse reading of
  * the same bytes. This rule therefore declares no `composed` claims.
- * Case 3's first real use falls to `ib-targum-work-loss`, whose
- * displays do carry a work.
+ *
+ * The design named `ib-targum-work-loss` as case 3's first real use.
+ * Task 8 measured that and it is wrong twice over: that row cannot
+ * use case 3 at all (see the second half of this doc), and the first
+ * real use turned out to be `sifre-ib-resolves-to-yalkut` — on a
+ * single anchor.
  *
  * ## The antecedent, and the two restrictions the bytes forced
  *
@@ -123,10 +127,92 @@
  * different tractate in a different Talmud — that is a correction
  * under any reading. It is not segment-perfect, and nothing here
  * claims it is.
+ *
+ * ---
+ *
+ * # `sifre-ib-resolves-to-yalkut` (batch-2 link spec §4 row 10)
+ *
+ * Task 8's second arm, and the batch's FIRST GENUINE gate case 3.
+ * Jastrow writes `Sifré ib. N`; the linker reads the `ib. N` and
+ * reuses the section number under the work it was already in, giving
+ * `Yalkut Shimoni on Torah N`. The work label sits OUTSIDE the anchor,
+ * which is why a display probe could not see the row and why the
+ * predicate has to read the text before the tag.
+ *
+ * ## The population, and a correction to it
+ *
+ * Display trimmed is `ib. N` (or `Ib. N`) AND the text immediately
+ * before the anchor ends in `Sifré`: **6 occurrences / 6 entries**,
+ * every one of them landing on `Yalkut Shimoni on Torah` and none on
+ * a Sifré work. That last figure is the null model's refutation —
+ * had the resolver ever handled this shape, some of the 6 would
+ * already be right — and it stands against the row's own clean
+ * control, where the spelled-out form resolves correctly at scale
+ * (`Sifrei Devarim` 402 anchors, `Sifrei Bamidbar` 193).
+ *
+ * The catalogued `corpusCount` is **5** (K00811, N00892, Q01325,
+ * T00064, V00301). **E00476 is a sixth member the discovery probe
+ * missed**: all five catalogued rids are preceded by `; Sifré ` and
+ * E00476 by `.—Sifré `. It is a member by the row's own description,
+ * and it is the only one of the six that can be repaired — so the
+ * miss is not cosmetic, it is the whole of this arm's yield. Task 11
+ * owns the write-back.
+ *
+ * ## Why COMPOSE here, where `ib-yoma-2a` copies whole
+ *
+ * `Ib.` alone means *the same place*, so the antecedent's address
+ * copied whole is the right reading. `Sifré ib. 330` does not: the
+ * display carries a locus of its own that the antecedent cannot
+ * supply, which is precisely the condition §3.2 case 3 exists for.
+ * The work half is copied WHOLE off the antecedent's target
+ * (`Sifrei Devarim 309:6` minus its locus tail) and never assembled;
+ * the locus half is the number already on the display. The claim
+ * leaves the gate a `Sifrei Devarim 3` prefix and a `30` remainder,
+ * both characters of which `ib. 330` shows. Run against
+ * `checkLinkTargets` itself rather than reasoned about.
+ *
+ * ## The decline census (accounts for the row's 6)
+ *
+ * ```
+ *   6  population
+ * − 5  the entry holds no Sifré anchor at all
+ * = 1  RETARGET — 1 occurrence / 1 entry (E00476)
+ * ```
+ *
+ * The 5 all fail for one reason, and it is the same reason
+ * `ib-yoma-2a` declines 103: the antecedent exists in Jastrow's text
+ * but not as an anchor. Repairing them would mean turning the
+ * abbreviation `Sifré` plus a book read off a *Yalkut* anchor's
+ * DISPLAY (`Yalk. Deut. 874`) into the work name `Sifrei Devarim` —
+ * inventing a string no anchor in the entry supplies. That is
+ * inference rather than movement, and §1's ruling puts it with the
+ * never-linked family. Declining leaves a wrong link standing, which
+ * is worth naming plainly: the alternative considered was to UNLINK
+ * the 5, as `geresh.ts` and `misc-links.ts` did when retarget could
+ * not reach most of their members. It was not taken because the
+ * acceptance criterion for this row asks for a decline in exactly
+ * this case, and because an unlink here destroys the section number's
+ * only surviving machine-readable trace. Recorded for the maintainer
+ * rather than decided here.
+ *
+ * ## Task 8's other row is NOT in this module
+ *
+ * `ib-targum-work-loss` (9 occurrences / 8 entries) was read in full
+ * and every one confirms the defect, but it is not registered. Its
+ * correct target — the antecedent Targum work plus this anchor's OWN
+ * already-correct plain-book locus — recombines two input targets,
+ * a shape §3.2 has no case for; `checkLinkTargets` rejects all 9. The
+ * obstruction is general rather than particular to the row: Jastrow's
+ * displays are Roman-numeral abbreviations (`Deut. VI, 22`) and
+ * Sefaria's refs are Arabic (`Onkelos Deuteronomy 6:22`), so case 3's
+ * display-remainder test can never license a locus in this corpus.
+ * Even the one member whose antecedent shares its book fails, on the
+ * characters `6` and `:` alone. `task-8-report.md` carries the gate's
+ * verbatim verdicts.
  */
 import type { SourceEntry, SourceSense } from '../../body/types.ts';
 import { serialize, type Token, tokenize } from '../html.ts';
-import { type Anchor, anchors, retarget } from '../links.ts';
+import { type Anchor, anchors, retarget, type Target } from '../links.ts';
 import type { Rule, TransformRecord, TransformResult } from '../types.ts';
 
 // Hoisted per lint/performance/useTopLevelRegex.
@@ -155,6 +241,54 @@ const LEXICAL = 'Jastrow, ';
  * rather than read off `ibAnaphora.id` so the walk below does not
  * reference the rule object it is a part of. */
 const RULE_ID = 'ib-yoma-2a';
+
+/** Must match an `id` in data/patches/patterns.jsonl. */
+const SIFRE_RULE_ID = 'sifre-ib-resolves-to-yalkut';
+
+/**
+ * The Sifré work family as Sefaria spells it.
+ *
+ * A PREFIX, not an enumerated list of works, and the difference is the
+ * 2026-08-23 loud-on-drift ruling: the corpus holds exactly two
+ * (`Sifrei Devarim`, 402 anchors; `Sifrei Bamidbar`, 193) and
+ * `anaphora.test.ts` pins that EVERY `Sifr…` target in the corpus
+ * starts with this string. A third work — Sefaria spells the Torat
+ * Kohanim `Sifra, …` — appearing in a re-fetch fails that test rather
+ * than silently sitting outside an arm that would then under-fire.
+ */
+const SIFRE_WORK = 'Sifrei ';
+
+/** The work label Jastrow prints OUTSIDE the anchor, immediately
+ * before it — the whole reason a display probe could not see this row.
+ * Both spellings occur in the corpus; the acute is by far the commoner
+ * and the bare `e` is accepted so an OCR variant does not slip the
+ * arm. */
+const SIFRE_LABEL = /Sifr[eé]\s*$/u;
+
+/** A NUMBERED anaphor display: `ib. 330`. Unlike `ANAPHOR` above, the
+ * display carries a locus of its own — the section number the linker
+ * reused under the wrong work — and that number is the only part of
+ * the corrected target this arm assembles. */
+const SIFRE_ANAPHOR = /^[Ii]b\.\s+(?<number>\d+)$/u;
+
+/**
+ * A Sefaria locus tail on a `data-ref` (`… 309:6`) and on the matching
+ * `href` (`….309.6`). Stripping one off the antecedent's own target is
+ * how the work half is taken WHOLE rather than assembled — spec §3.2
+ * case 3's first constraint.
+ *
+ * The optional `-…` arm is not speculative: 5 of the corpus's 402
+ * `Sifrei Devarim` anchors carry a RANGE (`Sifrei Devarim 301:3-4`,
+ * `/Sifrei_Devarim.301.3-4`), found by the population pin in
+ * `anaphora.test.ts` failing on the narrower pattern. No member's
+ * antecedent is one today, and `repairSifreAnaphor` would have
+ * DECLINED rather than mis-stripped — but declining there would be a
+ * silent under-fire, since a range locus leaves the work half every
+ * bit as copyable. The test pins both spellings so a re-fetch that
+ * introduces a third fails loudly.
+ */
+const REF_LOCUS = /\s\d+(?::\d+)*(?:-\d+(?::\d+)*)?$/u;
+const HREF_LOCUS = /\.\d+(?:\.\d+)*(?:-\d+(?:\.\d+)*)?$/u;
 
 /**
  * A citation Jastrow printed between the antecedent anchor and the
@@ -231,6 +365,23 @@ function textBetween(
 	return text;
 }
 
+/** The default `accept`: a CITATION — a non-empty target that is not a
+ * `Jastrow, …` cross-reference. Named so the two arms' antecedent
+ * tests read as two values of one parameter rather than as two
+ * walks. */
+function isCitation(anchor: Anchor): boolean {
+	return anchor.dataRef !== '' && !anchor.dataRef.startsWith(LEXICAL);
+}
+
+/** A candidate antecedent for the Sifré arm: an anchor the linker
+ * already resolved to a Sifré work. Narrower than `isCitation` on
+ * purpose — this arm's anaphor NAMES its work in the running text, so
+ * the nearest citation of ANY work is not its antecedent and copying
+ * one would repeat the very error the row is about. */
+function isSifreCitation(anchor: Anchor): boolean {
+	return anchor.dataRef.startsWith(SIFRE_WORK);
+}
+
 /**
  * The anchor whose target this anaphor should adopt, or `undefined`
  * when the entry holds none it may lawfully copy.
@@ -238,10 +389,27 @@ function textBetween(
  * Walks backwards from the anaphor through the same definition,
  * skipping anchors `retarget` could not have produced (`usable`) and
  * anchors that are themselves spent anaphora, and takes the first
- * remaining one that is a CITATION — a non-empty target that is not a
- * `Jastrow, …` cross-reference. Returns `undefined` when the text
+ * remaining one `accept` admits. Returns `undefined` when the text
  * between that citation and the anaphor holds an unanchored citation
  * of its own, since the antecedent is then not the nearest one.
+ *
+ * `accept` is a PARAMETER rather than two copies of this walk because
+ * the arms differ only in which prior anchor counts: `ib-yoma-2a`'s
+ * bare `Ib.` names no work, so any citation will do (`isCitation`,
+ * the default, which keeps that rule's behaviour byte-identical);
+ * `sifre-ib-resolves-to-yalkut`'s `Sifré ib. N` names its work in the
+ * running text, so only a Sifré anchor will (`isSifreCitation`).
+ * Everything else here — the `usable` skip, the spent-anaphor skip,
+ * the enclosure refusal, the gap-purity decline — is shared, and was
+ * paid for once by Task 7's corpus reading.
+ *
+ * The gap test applies to BOTH arms even though the Sifré arm walks
+ * past anchors of other works to reach its antecedent. It costs that
+ * arm nothing measured (E00476's gap, which spans an intervening
+ * anchored `Yalk. ib. 542`, trips none of the four cues) and it still
+ * catches the shape that matters there: an unanchored Sifré citation
+ * printed between the anchored one and the anaphor, which would make
+ * the anchored one the wrong section to count from.
  *
  * `list` must be the anchors of `tokens`, in document order, and
  * `at` the anaphor's index within it.
@@ -261,6 +429,7 @@ function antecedentOf(
 	tokens: readonly Token[],
 	list: readonly Anchor[],
 	at: number,
+	accept: (anchor: Anchor) => boolean = isCitation,
 ): Anchor | undefined {
 	const anchor = list[at];
 	if (anchor === undefined) {
@@ -269,13 +438,7 @@ function antecedentOf(
 	const citation = list
 		.slice(0, at)
 		.reverse()
-		.find(
-			(prior) =>
-				usable(prior) &&
-				!isSpentAnaphor(prior) &&
-				prior.dataRef !== '' &&
-				!prior.dataRef.startsWith(LEXICAL),
-		);
+		.find((prior) => usable(prior) && !isSpentAnaphor(prior) && accept(prior));
 	if (citation === undefined || citation.close >= anchor.open) {
 		return;
 	}
@@ -283,9 +446,35 @@ function antecedentOf(
 	return INTERVENING_CITATION.test(gap) ? undefined : citation;
 }
 
+/** One declared composition, mirroring `TransformResult.composed`'s
+ * element shape. Declared locally rather than exported from
+ * `types.ts`, which spells it inline. */
+interface Compose {
+	from: string;
+	target: string;
+}
+
+/** What one arm wants written on one anchor: the new target, and the
+ * `composed` claim the gate needs to license it — absent when the
+ * target is copied WHOLE off an input anchor (spec §3.2 case 2), which
+ * needs no declaration and is the stronger of the two. */
+interface Repair {
+	claim?: Compose;
+	target: Target;
+}
+
+/** An arm's whole per-anchor decision: `undefined` to decline. Takes
+ * the pre-edit tokens and anchor list so it can run `antecedentOf`
+ * and read the text around the anchor. */
+type Repairer = (
+	tokens: readonly Token[],
+	list: readonly Anchor[],
+	at: number,
+) => Repair | undefined;
+
 /**
  * Retarget every repairable anaphor in one definition, returning the
- * new text and how many anchors moved.
+ * new text, how many anchors moved, and any claims the arm made.
  *
  * Anchors are derived ONCE and the indices reused across edits, which
  * is safe HERE and would not be in `rules/unlink.ts`: `retarget` maps
@@ -306,8 +495,16 @@ function antecedentOf(
  * `isSpentAnaphor` skips an unrepaired member and a repaired one
  * carries the antecedent's own target, but only the pre-edit reading
  * says so without depending on the order edits happen to run in.
+ *
+ * A `repair` that returns the anchor's own current target is treated
+ * as a decline — the arms differ in how they build a target and not in
+ * what a no-op means, so the check sits here rather than in each arm.
  */
-function retargetAnaphora(definition: string): {
+function retargetAnaphora(
+	definition: string,
+	repair: Repairer,
+): {
+	claims: Compose[];
 	moved: number;
 	text: string;
 } {
@@ -315,24 +512,26 @@ function retargetAnaphora(definition: string): {
 	const list = anchors(tokens);
 	let next: readonly Token[] = tokens;
 	let moved = 0;
+	const claims: Compose[] = [];
 	list.forEach((anchor, at) => {
-		if (!(usable(anchor) && isSinkMember(anchor))) {
+		if (!usable(anchor)) {
 			return;
 		}
-		const antecedent = antecedentOf(tokens, list, at);
+		const found = repair(tokens, list, at);
 		if (
-			antecedent === undefined ||
-			(antecedent.dataRef === anchor.dataRef && antecedent.href === anchor.href)
+			found === undefined ||
+			(found.target.dataRef === anchor.dataRef &&
+				found.target.href === anchor.href)
 		) {
 			return;
 		}
-		next = retarget(next, anchor, {
-			dataRef: antecedent.dataRef,
-			href: antecedent.href,
-		});
+		next = retarget(next, anchor, found.target);
+		if (found.claim !== undefined) {
+			claims.push(found.claim);
+		}
 		moved += 1;
 	});
-	return { moved, text: moved === 0 ? definition : serialize(next) };
+	return { claims, moved, text: moved === 0 ? definition : serialize(next) };
 }
 
 /**
@@ -344,22 +543,33 @@ function retargetAnaphora(definition: string): {
  * and the gate's count invariant passes on equality rather than on a
  * declaration.
  *
- * Nothing is declared at all, in fact. Both written values come
- * verbatim off an anchor in the same entry's input, so `link-target.ts`
- * settles them by set membership (§3.2 cases 1–2) with no `composed`
- * claim; and `no-new-text.ts` strips tags before comparing, so an
- * attribute rewrite introduces no text and needs no `copied`.
+ * `ib-yoma-2a` declares nothing at all: both its written values come
+ * verbatim off an anchor in the same entry's input, so
+ * `link-target.ts` settles them by set membership (§3.2 cases 1–2)
+ * with no `composed` claim. The Sifré arm below does declare, and
+ * `composed` is carried up from the per-definition walk — left ABSENT
+ * rather than set to `[]` when no claim was made, so a copy-whole arm
+ * reads exactly as it did before this parameter existed.
+ *
+ * `no-new-text.ts` strips tags before comparing, so an attribute
+ * rewrite introduces no text and neither arm needs `copied`.
  */
-function retargetOverDefinitions(entry: SourceEntry): TransformResult {
+function retargetOverDefinitions(
+	entry: SourceEntry,
+	ruleId: string,
+	repair: Repairer,
+): TransformResult {
 	const records: TransformRecord[] = [];
+	const composed: Compose[] = [];
 	const walk = (senses: readonly SourceSense[]): SourceSense[] =>
 		senses.map((sense) => {
 			let { definition } = sense;
 			if (definition !== undefined) {
-				const { moved, text } = retargetAnaphora(definition);
+				const { claims, moved, text } = retargetAnaphora(definition, repair);
 				if (moved > 0) {
 					definition = text;
-					records.push({ detail: text, rid: entry.rid, ruleId: RULE_ID });
+					composed.push(...claims);
+					records.push({ detail: text, rid: entry.rid, ruleId });
 				}
 			}
 			return {
@@ -370,6 +580,7 @@ function retargetOverDefinitions(entry: SourceEntry): TransformResult {
 		});
 	const rewritten = walk(entry.content.senses);
 	return {
+		...(composed.length === 0 ? {} : { composed }),
 		entry:
 			records.length === 0
 				? entry
@@ -377,6 +588,111 @@ function retargetOverDefinitions(entry: SourceEntry): TransformResult {
 		records,
 	};
 }
+
+/** `ib-yoma-2a`'s per-anchor decision: a bare `Ib.` on the sink adopts
+ * the nearest preceding citation's target WHOLE — no claim, gate case
+ * 2. */
+const repairBareAnaphor: Repairer = (
+	tokens: readonly Token[],
+	list: readonly Anchor[],
+	at: number,
+): Repair | undefined => {
+	const anchor = list[at];
+	if (anchor === undefined || !isSinkMember(anchor)) {
+		return;
+	}
+	const antecedent = antecedentOf(tokens, list, at);
+	return antecedent === undefined
+		? undefined
+		: { target: { dataRef: antecedent.dataRef, href: antecedent.href } };
+};
+
+/**
+ * Whether this anchor is a member of the Sifré row: Jastrow printed
+ * `Sifré` immediately before it, the display is a numbered anaphor
+ * (`ib. 330`), and the linker did NOT resolve it to a Sifré work.
+ *
+ * All three conditions are syntactic and re-derived from the text on
+ * every corpus pass — no rid list to go stale. Measured 2026-08-23:
+ * the first two alone select **6 occurrences / 6 entries** corpus-wide
+ * and **all 6** land on `Yalkut Shimoni on Torah`, 0 on any Sifré
+ * work. The third condition therefore removes nothing today; it is
+ * here because a member the linker gets RIGHT must not be moved, and
+ * because it states the defect rather than the sink — `ib-yoma-2a`'s
+ * fixed-address predicate is the shape this row is deliberately not
+ * copying, since the wrong target here varies with the section number.
+ *
+ * The catalogued `corpusCount` is **5**, and the sixth (E00476) is a
+ * real member the discovery probe missed: all five catalogued rids are
+ * preceded by `; Sifré ` and E00476 by `.—Sifré `. Task 11 owns the
+ * write-back.
+ */
+function isSifreMember(lead: string, anchor: Anchor): boolean {
+	return (
+		SIFRE_ANAPHOR.test(anchor.display.trim()) &&
+		SIFRE_LABEL.test(lead) &&
+		!anchor.dataRef.startsWith(SIFRE_WORK)
+	);
+}
+
+/**
+ * `sifre-ib-resolves-to-yalkut`'s per-anchor decision, and the batch's
+ * first genuine gate case 3.
+ *
+ * The work half is copied WHOLE off the antecedent's own target —
+ * `Sifrei Devarim 309:6` minus its locus tail — and the locus half is
+ * the number the display already shows. So the claim
+ * `{from: 'Sifrei Devarim 309:6', target: 'Sifrei Devarim 330'}`
+ * leaves the gate a common prefix of `Sifrei Devarim 3` and a
+ * remainder of `30`, both characters of which the display `ib. 330`
+ * supplies; the `href` reduces identically
+ * (`/Sifrei_Devarim.309.6` → `/Sifrei_Devarim.330`, remainder `30`).
+ * Verified against `checkLinkTargets` itself, not reasoned about.
+ *
+ * DECLINES when the entry holds no Sifré anchor — 5 of the 6 members.
+ * Their correct target would have to be assembled from the
+ * abbreviation `Sifré` plus a book read off a *Yalkut* anchor's
+ * DISPLAY (`Yalk. Deut. 874` → `Sifrei Devarim`), which invents a work
+ * name no anchor in the entry supplies. That is inference rather than
+ * movement, and the batch's §1 ruling puts it with the never-linked
+ * family. A decline is the measurement, not a shortfall.
+ *
+ * Also declines if the antecedent's target carries no locus tail to
+ * strip, which would mean the work half could not be taken whole. No
+ * member does that today; the guard is here so the arm fails loudly
+ * rather than composing off a shape it never read.
+ */
+const repairSifreAnaphor: Repairer = (
+	tokens: readonly Token[],
+	list: readonly Anchor[],
+	at: number,
+): Repair | undefined => {
+	const anchor = list[at];
+	if (anchor === undefined) {
+		return;
+	}
+	const number = SIFRE_ANAPHOR.exec(anchor.display.trim())?.groups?.['number'];
+	if (
+		number === undefined ||
+		!isSifreMember(textBetween(tokens, 0, anchor.open), anchor)
+	) {
+		return;
+	}
+	const antecedent = antecedentOf(tokens, list, at, isSifreCitation);
+	if (antecedent === undefined) {
+		return;
+	}
+	const work = antecedent.dataRef.replace(REF_LOCUS, '');
+	const hrefWork = antecedent.href.replace(HREF_LOCUS, '');
+	if (work === antecedent.dataRef || hrefWork === antecedent.href) {
+		return;
+	}
+	const dataRef = `${work} ${number}`;
+	return {
+		claim: { from: antecedent.dataRef, target: dataRef },
+		target: { dataRef, href: `${hrefWork}.${number}` },
+	};
+};
 
 /**
  * A bare `Ib.` retargeted from the `Yoma 2a` sink to the citation it
@@ -386,17 +702,42 @@ function retargetOverDefinitions(entry: SourceEntry): TransformResult {
  * per the module doc's census.
  */
 const ibAnaphora: Rule = {
-	apply: retargetOverDefinitions,
+	apply: (entry: SourceEntry): TransformResult =>
+		retargetOverDefinitions(entry, RULE_ID, repairBareAnaphor),
 	id: RULE_ID,
+	phase: 'text-repairs',
+};
+
+/**
+ * `Sifré ib. N` retargeted off `Yalkut Shimoni on Torah N` and onto
+ * the Sifré work the entry's own input names, composed from that
+ * work and the display's own section number (gate case 3). 1 of 6
+ * fires; the other 5 hold no Sifré anchor and decline. See
+ * `repairSifreAnaphor`.
+ */
+const sifreAnaphora: Rule = {
+	apply: (entry: SourceEntry): TransformResult =>
+		retargetOverDefinitions(entry, SIFRE_RULE_ID, repairSifreAnaphor),
+	id: SIFRE_RULE_ID,
 	phase: 'text-repairs',
 };
 
 export {
 	ANAPHOR,
 	antecedentOf,
+	HREF_LOCUS,
 	INTERVENING_CITATION,
 	ibAnaphora,
+	isCitation,
+	isSifreCitation,
+	isSifreMember,
 	isSinkMember,
 	isSpentAnaphor,
+	REF_LOCUS,
+	SIFRE_ANAPHOR,
+	SIFRE_LABEL,
+	SIFRE_WORK,
+	sifreAnaphora,
+	textBetween,
 	usable,
 };

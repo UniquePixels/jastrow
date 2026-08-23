@@ -6,7 +6,7 @@
  * neither is a silent skip, and the gate fails on it.
  */
 import type { Pattern } from '../research/patterns.ts';
-import { ibAnaphora } from './rules/anaphora.ts';
+import { ibAnaphora, sifreAnaphora } from './rules/anaphora.ts';
 import { gereshLetterNumeral, prefixedGereshAbbrev } from './rules/geresh.ts';
 import { pluralToFeminineFinalLetter } from './rules/misc-links.ts';
 import {
@@ -109,6 +109,40 @@ const RULES: readonly Rule[] = [
 	// not merely the count) before either order is called free, exactly
 	// as `gereshLetterNumeral`/`prefixedGereshAbbrev` did above.
 	ibAnaphora,
+
+	// sifre-ib-resolves-to-yalkut (batch 2, task 8) — appended BELOW
+	// `ibAnaphora` per the note directly above, which is the rule for a
+	// retarget following a retarget. That note requires the pair be
+	// MEASURED both ways at ADDRESS level before either order is called
+	// free, because `transform:count` measures rules in isolation and
+	// cannot see this class of defect. Measured over all 32,512 entries
+	// (2026-08-23):
+	//
+	//   isolated            1 record / 1 entry (E00476)
+	//   composed, shipped   1 record / 1 entry, same address, same bytes
+	//   ibAnaphora          189 records either way — unchanged by the append
+	//   both orders         6,204 records each, and 0 entries whose
+	//                       anchor addresses differ between them
+	//
+	// So the order is free, and the reason it is free is measured too:
+	// the two `ib-` rows share **0 entries** corpus-wide. Their
+	// populations are disjoint by target (`ib-yoma-2a` requires
+	// `data-ref` exactly `Yoma 2a`; this row requires a `Yalkut …`
+	// target under an abutting `Sifré` label), and neither can supply
+	// the other's antecedent — this row accepts only a `Sifrei …`
+	// anchor, which `ibAnaphora` never writes.
+	//
+	// Task 8's other row, `ib-targum-work-loss`, is NOT registered and
+	// stays in PENDING. Its 9 occurrences were all read and all confirm
+	// the defect, but the correct target — the antecedent Targum work
+	// plus this anchor's own already-correct plain-book locus — is a
+	// recombination of two input targets, which spec §3.2 has no case
+	// for and `link-target.ts` rejects on all 9. See
+	// task-8-report.md; the obstruction is general (Jastrow's displays
+	// are Roman-numeral abbreviations, Sefaria's refs are Arabic, so
+	// case 3's display-remainder test can never license a locus), not
+	// specific to this row.
+	sifreAnaphora,
 ];
 
 /** Catalogued transform rows with no rule yet. Shrinks batch by batch;
@@ -164,7 +198,6 @@ const PENDING: readonly string[] = [
 	'impossible-dagesh',
 	'binyan-form-leading-space',
 	'binyan-form-empty-slot',
-	'sifre-ib-resolves-to-yalkut',
 	'plural-label-rendering-defeats-capture',
 	'continuation-marker-em-dash-loss',
 	'phrase-alt-headword-stub',

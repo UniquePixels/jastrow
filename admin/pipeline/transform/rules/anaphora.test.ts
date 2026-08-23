@@ -24,10 +24,18 @@ import { applyTransforms } from '../run.ts';
 import {
 	ANAPHOR,
 	antecedentOf,
+	HREF_LOCUS,
 	INTERVENING_CITATION,
 	ibAnaphora,
+	isSifreCitation,
 	isSinkMember,
 	isSpentAnaphor,
+	REF_LOCUS,
+	SIFRE_ANAPHOR,
+	SIFRE_LABEL,
+	SIFRE_WORK,
+	sifreAnaphora,
+	textBetween,
 	usable,
 } from './anaphora.ts';
 
@@ -477,4 +485,302 @@ it('0 of the 312 carry a locus the display or its following text could supply', 
 	}
 	expect(members).toBe(312);
 	expect(withLocus).toBe(0);
+});
+
+// ------------------------------------------------- sifre-ib-resolves-to-yalkut
+
+/** E00476 הִיפָּטִיקוֹס, excerpt — the only member of the Sifré row the
+ * entry's own input can repair, and the one instance in this batch
+ * that exercises gate case 3. Three things have to be true at once and
+ * all three are real bytes: the anchored `Sifré Deut. 309` supplies
+ * the work, an unrelated `Yalk. ib. 542` sits BETWEEN it and the
+ * anaphor (so the arm has to walk past a nearer citation of another
+ * work), and the anaphor's own display carries the section number. */
+const E00476 =
+	'<a class="refLink" href="/Sifrei_Devarim.309.6" ' +
+	'data-ref="Sifrei Devarim 309:6">Sifré Deut. 309</a> [read:] ' +
+	'<span dir="rtl">אם היה ה׳ שגדול משניהם</span> if he were a hypaticos ' +
+	'who is higher than either of them; ' +
+	'<a class="refLink" href="/Yalkut_Shimoni_on_Torah.542" ' +
+	'data-ref="Yalkut Shimoni on Torah 542">Yalk. ib. 542</a>.—Sifré ' +
+	'<a class="refLink" href="/Yalkut_Shimoni_on_Torah.330.3" ' +
+	'data-ref="Yalkut Shimoni on Torah 330:3">ib. 330</a>.—Pl. ' +
+	'<span dir="rtl">הִיפָּטִיקִין</span>.';
+
+/** V00301 תורמין, excerpt: `Sifré ib. 218` with a Yalkut antecedent and
+ * no Sifré anchor anywhere in the entry. The work name `Sifrei
+ * Devarim` would have to be invented out of the abbreviation plus the
+ * book shown on the Yalkut anchor's DISPLAY — inference, not
+ * movement. Four of its five siblings (K00811, N00892, Q01325,
+ * T00064) are the same shape. */
+const V00301_NO_SIFRE =
+	', <a class="refLink" href="/Yalkut_Shimoni_on_Torah.929" ' +
+	'data-ref="Yalkut Shimoni on Torah 929">Yalk. Deut. 929</a>; Sifré ' +
+	'<a class="refLink" href="/Yalkut_Shimoni_on_Torah.218" ' +
+	'data-ref="Yalkut Shimoni on Torah 218">ib. 218</a> (added in ed. Fr.)';
+
+const sifre = (e: SourceEntry): { entry: SourceEntry; records: unknown[] } =>
+	applyTransforms(e, 'text-repairs', [sifreAnaphora]);
+
+it('Sifré ib. N composes the antecedent’s work with the display’s own number (gate case 3)', () => {
+	const out = sifre(entry('E00476', E00476));
+	expect(definitionOf(out)).toContain(
+		'<a class="refLink" href="/Sifrei_Devarim.330" ' +
+			'data-ref="Sifrei Devarim 330">ib. 330</a>',
+	);
+	expect(definitionOf(out)).not.toContain('Yalkut_Shimoni_on_Torah.330.3');
+	expect(out.records).toHaveLength(1);
+});
+
+it('the compose is declared, and declared with the target the gate keys on', () => {
+	const result = sifreAnaphora.apply(entry('E00476', E00476));
+	// `link-target.ts` matches a claim to an anchor by
+	// `claim.target === anchor.dataRef`, so a claim naming anything
+	// else licenses nothing and the anchor fails as fabricated.
+	expect(result.composed).toEqual([
+		{ from: 'Sifrei Devarim 309:6', target: 'Sifrei Devarim 330' },
+	]);
+	expect(result.copied).toBeUndefined();
+	expect(result.unlinks).toBeUndefined();
+});
+
+it('the compose is a pure attribute rewrite — every other byte is unchanged', () => {
+	const after = definitionOf(sifre(entry('E00476', E00476))) ?? '';
+	const undone = after.replace(
+		'href="/Sifrei_Devarim.330" data-ref="Sifrei Devarim 330">ib. 330',
+		'href="/Yalkut_Shimoni_on_Torah.330.3" ' +
+			'data-ref="Yalkut Shimoni on Torah 330:3">ib. 330',
+	);
+	expect(undone).toBe(E00476);
+});
+
+it('declines when the entry holds no Sifré antecedent', () => {
+	const out = sifre(entry('V00301', V00301_NO_SIFRE));
+	expect(out.records).toHaveLength(0);
+	expect(definitionOf(out)).toBe(V00301_NO_SIFRE);
+	expect(
+		sifreAnaphora.apply(entry('V00301', V00301_NO_SIFRE)).composed,
+	).toBeUndefined();
+});
+
+it('the nearest citation is not the antecedent — only a Sifré anchor is', () => {
+	// The arm must walk PAST `Yalk. ib. 542`, which is nearer. Copying
+	// the nearest citation is what `ib-yoma-2a` does and what this row
+	// must not do: it would rewrite one Yalkut target as another and
+	// pass the gate, since both are in the entry's input set. That is
+	// the gate's own "laundering between anchors" blind spot, so it has
+	// to be caught here.
+	const list = anchors(tokenize(E00476));
+	const at = list.length - 1;
+	expect(list[at]?.display).toBe('ib. 330');
+	expect(antecedentOf(tokenize(E00476), list, at)?.dataRef).toBe(
+		'Yalkut Shimoni on Torah 542',
+	);
+	expect(
+		antecedentOf(tokenize(E00476), list, at, isSifreCitation)?.dataRef,
+	).toBe('Sifrei Devarim 309:6');
+});
+
+it('leaves the row’s non-members alone: a bare ib., and an ib. N already on a Sifré work', () => {
+	const bare =
+		'<a class="refLink" href="/Sifrei_Devarim.309.6" ' +
+		'data-ref="Sifrei Devarim 309:6">Sifré Deut. 309</a>; Sifré ' +
+		'<a class="refLink" href="/Yalkut_Shimoni_on_Torah.330" ' +
+		'data-ref="Yalkut Shimoni on Torah 330">ib.</a>';
+	const already =
+		'<a class="refLink" href="/Sifrei_Devarim.309.6" ' +
+		'data-ref="Sifrei Devarim 309:6">Sifré Deut. 309</a>; Sifré ' +
+		'<a class="refLink" href="/Sifrei_Devarim.330" ' +
+		'data-ref="Sifrei Devarim 330">ib. 330</a>';
+	for (const text of [bare, already]) {
+		const out = sifre(entry('X00003', text));
+		expect(out.records).toHaveLength(0);
+		expect(definitionOf(out)).toBe(text);
+	}
+});
+
+it('declines when the Sifré label is not the text immediately before the anchor', () => {
+	// The label has to ABUT the anchor. A `Sifré` earlier in the
+	// sentence with other prose between it and the `ib. N` is not this
+	// construct, and adopting one would widen the arm past the six
+	// members it reproduces.
+	const distant =
+		'<a class="refLink" href="/Sifrei_Devarim.309.6" ' +
+		'data-ref="Sifrei Devarim 309:6">Sifré Deut. 309</a>; Sifré has it, ' +
+		'but the reading in Yalk. is ' +
+		'<a class="refLink" href="/Yalkut_Shimoni_on_Torah.330" ' +
+		'data-ref="Yalkut Shimoni on Torah 330">ib. 330</a>';
+	const out = sifre(entry('X00004', distant));
+	expect(out.records).toHaveLength(0);
+	expect(definitionOf(out)).toBe(distant);
+});
+
+/** The population pin. A rule that does nothing passes every gate, so
+ * the six members are counted from the corpus on every `bun qa` rather
+ * than trusted to the catalogue — which is 5, and wrong. */
+interface SifreCensus {
+	entries: Set<string>;
+	fireEntries: Set<string>;
+	fires: number;
+	occurrences: number;
+	sinks: Map<string, number>;
+}
+
+/**
+ * Every usable `Sifré ib. N` anchor in the corpus, on TWO of the
+ * arm's three conditions — the display and the abutting label, but NOT
+ * `!dataRef.startsWith(SIFRE_WORK)`.
+ *
+ * Dropping the third is deliberate and is what makes the `sinks`
+ * assertion below a real claim: measuring the population on the two
+ * conditions that describe the CONSTRUCT, then reporting what the
+ * linker did with each, is how "all 6 land on Yalkut and none on a
+ * Sifré work" can be observed at all. Folding the sink test into the
+ * population would make that assertion true by construction.
+ *
+ * Shaped like `sightings()` above for the same reason it exists: one
+ * walk, so two readings of "the same" population cannot drift.
+ */
+async function* sifreSightings(): AsyncGenerator<Sighting> {
+	for await (const e of readSourceEntries()) {
+		for (const definition of definitionsOf(e.content.senses, [])) {
+			if (!definition.includes('<a')) {
+				continue;
+			}
+			const tokens = tokenize(definition);
+			const list = anchors(tokens);
+			for (const [at, anchor] of list.entries()) {
+				if (
+					usable(anchor) &&
+					SIFRE_ANAPHOR.test(anchor.display.trim()) &&
+					SIFRE_LABEL.test(textBetween(tokens, 0, anchor.open))
+				) {
+					yield { anchor, at, list, rid: e.rid, tokens };
+				}
+			}
+		}
+	}
+}
+
+async function sifreCensus(): Promise<SifreCensus> {
+	const entries = new Set<string>();
+	const fireEntries = new Set<string>();
+	const sinks = new Map<string, number>();
+	let occurrences = 0;
+	let fires = 0;
+	for await (const s of sifreSightings()) {
+		occurrences++;
+		entries.add(s.rid);
+		const work = s.anchor.dataRef.replace(REF_LOCUS, '');
+		sinks.set(work, (sinks.get(work) ?? 0) + 1);
+		if (antecedentOf(s.tokens, s.list, s.at, isSifreCitation) !== undefined) {
+			fires++;
+			fireEntries.add(s.rid);
+		}
+	}
+	return { entries, fireEntries, fires, occurrences, sinks };
+}
+
+let sifrePending: Promise<SifreCensus> | undefined;
+function sifreCensusOnce(): Promise<SifreCensus> {
+	sifrePending ??= sifreCensus();
+	return sifrePending;
+}
+
+it('the Sifré population is 6 occurrences / 6 entries — one more than the catalogued 5', async () => {
+	const { entries, occurrences } = await sifreCensusOnce();
+	expect(occurrences).toBe(6);
+	expect(entries.size).toBe(6);
+});
+
+it('all 6 land on Yalkut and none on a Sifré work — the row’s null model, refuted', async () => {
+	// If the resolver ever handled `Sifré ib. N`, some member would
+	// already be right. None is. Against the row's clean control
+	// (`Sifrei Devarim` 402 anchors) that isolates the `ib.` form as
+	// the whole of the defect.
+	const { sinks } = await sifreCensusOnce();
+	expect([...sinks]).toEqual([['Yalkut Shimoni on Torah', 6]]);
+});
+
+it('the Sifré decline census accounts for all 6: 1 fires, 5 hold no Sifré anchor', async () => {
+	const { fireEntries, fires } = await sifreCensusOnce();
+	expect(fires).toBe(1);
+	expect(fireEntries).toEqual(new Set(['E00476']));
+});
+
+it('the rule itself moves exactly that 1 anchor over the whole corpus, adding and removing none', async () => {
+	const rids = new Set<string>();
+	let moved = 0;
+	for await (const e of readSourceEntries()) {
+		const result = sifreAnaphora.apply(e);
+		if (result.records.length === 0) {
+			continue;
+		}
+		rids.add(e.rid);
+		moved += result.composed?.length ?? 0;
+		expect(anchorsIn(result.entry)).toBe(anchorsIn(e));
+	}
+	expect(moved).toBe(1);
+	expect(rids).toEqual(new Set(['E00476']));
+});
+
+/** LOUD ON DRIFT (maintainer ruling 2026-08-23). `SIFRE_WORK` is a
+ * prefix rather than a list of works, and that is only safe while
+ * Sefaria spells every Sifré work this way. Sefaria's Torat Kohanim is
+ * `Sifra, …`, which the prefix would miss — so if a re-fetch brings
+ * one in, this fails here instead of the arm quietly under-firing. */
+it('every Sifr… target in the corpus starts with SIFRE_WORK', async () => {
+	const works = new Map<string, number>();
+	for await (const e of readSourceEntries()) {
+		for (const definition of definitionsOf(e.content.senses, [])) {
+			for (const anchor of anchors(tokenize(definition))) {
+				if (!anchor.dataRef.startsWith('Sifr')) {
+					continue;
+				}
+				const work = anchor.dataRef.replace(REF_LOCUS, '');
+				works.set(work, (works.get(work) ?? 0) + 1);
+			}
+		}
+	}
+	expect([...works.keys()].every((w) => w.startsWith(SIFRE_WORK))).toBe(true);
+	expect([...works].sort()).toEqual([
+		['Sifrei Bamidbar', 193],
+		['Sifrei Devarim', 402],
+	]);
+});
+
+/** The two locus spellings `REF_LOCUS`/`HREF_LOCUS` have to strip, both
+ * taken from real anchors. The range arm exists because the pin above
+ * FAILED on the narrower pattern — 5 of the 402 `Sifrei Devarim`
+ * anchors carry one — and a locus the strippers do not recognise makes
+ * `repairSifreAnaphor` decline rather than mis-compose, which is safe
+ * but is a silent under-fire. A third spelling fails here. */
+it('REF_LOCUS and HREF_LOCUS strip both the plain and the range locus', () => {
+	expect('Sifrei Devarim 309:6'.replace(REF_LOCUS, '')).toBe('Sifrei Devarim');
+	expect('Sifrei Devarim 301:3-4'.replace(REF_LOCUS, '')).toBe(
+		'Sifrei Devarim',
+	);
+	expect('Yalkut Shimoni on Torah 330'.replace(REF_LOCUS, '')).toBe(
+		'Yalkut Shimoni on Torah',
+	);
+	expect('/Sifrei_Devarim.309.6'.replace(HREF_LOCUS, '')).toBe(
+		'/Sifrei_Devarim',
+	);
+	expect('/Sifrei_Devarim.301.3-4'.replace(HREF_LOCUS, '')).toBe(
+		'/Sifrei_Devarim',
+	);
+});
+
+/** Every Sifré-arm claim the corpus produces is one the GATE accepts.
+ * `applyTransforms` runs `checkLinkTargets`, so this walk is the real
+ * thing rather than a re-derivation of its rules — the distinction
+ * that matters, since the arm's whole justification is that its
+ * compose is licensable and the Targum arm's is not. */
+it('every Sifré compose the corpus produces passes checkLinkTargets', async () => {
+	let fired = 0;
+	for await (const e of readSourceEntries()) {
+		const out = applyTransforms(e, 'text-repairs', [sifreAnaphora]);
+		fired += out.records.length;
+	}
+	expect(fired).toBe(1);
 });
