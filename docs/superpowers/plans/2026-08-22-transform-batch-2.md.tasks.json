@@ -28,7 +28,7 @@
   {
    "id": 3,
    "subject": "Task 3: Unlink anchored ellipsis fragments",
-   "status": "pending",
+   "status": "completed",
    "description": "**Goal:** 80 instances where print's word-head elision was resolved as if the fragment were a lemma.\n\n**Files:**\n- Modify: `admin/pipeline/transform/rules/unlink.ts`\n- Modify: `admin/pipeline/transform/rules/unlink.test.ts`\n- Modify: `admin/pipeline/transform/registry.ts`\n\n**Acceptance Criteria:**\n- [ ] The rule fires only when the anchor's display STARTS with the ellipsis character\n- [ ] The 6 convention members the audit identified are excluded by predicate and the exclusion is tested\n- [ ] Measured count is 88 occurrences across 80 entries, or the delta is recorded\n- [ ] ellipsis-fragment-anchored registered and out of PENDING\n\n**Verify:** `bun test admin/pipeline/transform/rules/unlink.test.ts` then `bun transform:count`\n\n```json:metadata\n{\"files\": [\"admin/pipeline/transform/rules/unlink.ts\", \"admin/pipeline/transform/rules/unlink.test.ts\", \"admin/pipeline/transform/registry.ts\"], \"verifyCommand\": \"bun test admin/pipeline/transform/rules/unlink.test.ts && bun transform:count\", \"acceptanceCriteria\": [\"fires only on leading ellipsis display\", \"6 convention members excluded and tested\", \"88/80 measured or delta recorded\", \"row registered\"], \"modelTier\": \"standard\"}\n```",
    "blockedBy": [
     2
@@ -109,5 +109,5 @@
    ]
   }
  ],
- "lastUpdated": "2026-08-23T08:15:00-05:00"
+ "lastUpdated": "2026-08-23T10:10:00-05:00"
 }
