@@ -7,6 +7,7 @@
  */
 import type { Pattern } from '../research/patterns.ts';
 import { gereshLetterNumeral, prefixedGereshAbbrev } from './rules/geresh.ts';
+import { pluralToFeminineFinalLetter } from './rules/misc-links.ts';
 import {
 	bareRtlHebrew,
 	latinTokenInsideRtl,
@@ -60,6 +61,15 @@ const RULES: readonly Rule[] = [
 	// row of the two.
 	gereshLetterNumeral,
 	prefixedGereshAbbrev,
+
+	// plural-to-feminine-final-letter-mislink (batch 2, task 6). A
+	// third unlink row, by the same measurement `geresh.ts` used: only
+	// 10 of 60 clean members (16.7%) carry a same-entry anchor to their
+	// own headword, so retarget would decline five members in six.
+	// Unentangled with any other registered rule — its population sits
+	// entirely inside the entry's own "Pl." construct, which no other
+	// rule here rewrites.
+	pluralToFeminineFinalLetter,
 ];
 
 /** Catalogued transform rows with no rule yet. Shrinks batch by batch;
@@ -129,7 +139,6 @@ const PENDING: readonly string[] = [
 	'midrash-petichta-unanchored',
 	'emphasis-run-edge-space',
 	'adjacent-verbatim-repetition',
-	'plural-to-feminine-final-letter-mislink',
 	'abbrev-headword-stub',
 	'containment-fallback-mislink',
 	'gloss-head-seam-period-doubling',
