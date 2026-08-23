@@ -46,7 +46,7 @@
   {
    "id": 5,
    "subject": "Task 5: The geresh pair, written together",
-   "status": "pending",
+   "status": "completed",
    "description": "**Goal:** geresh-letter-numeral-mislink (475) and prefixed-geresh-abbrev-mislink (173), written as one module because they rewrite the same anchors.\n\n**Files:**\n- Create: `admin/pipeline/transform/rules/geresh.ts`\n- Test: `admin/pipeline/transform/rules/geresh.test.ts`\n- Modify: `admin/pipeline/transform/registry.ts`\n- Modify: `data/patches/patterns.jsonl` (the entangledWith pair)\n\n**Acceptance Criteria:**\n- [ ] The overlap between the two rows is MEASURED before either rule is written\n- [ ] If the overlap is non-zero, both rows carry each other in entangledWith and checkAdjacency() keeps them adjacent\n- [ ] Strict arm only: retarget only when the geresh stub abbreviates the CONTAINING entry's headword\n- [ ] Three excluded arms each have a test: ~152 variant-reading stubs, ~20 rabbi geresh, ~19 in-numeral-article convention\n- [ ] Every retarget passes gate case 2 by copying the entry's own Jastrow target; a member whose entry holds no such anchor is DECLINED, counted and reported\n- [ ] bun transform:count reproduces 475 and 173, or the deltas are recorded for Task 11\n\n**Verify:** `bun test admin/pipeline/transform/rules/geresh.test.ts` then `bun transform:count`\n\n```json:metadata\n{\"files\": [\"admin/pipeline/transform/rules/geresh.ts\", \"admin/pipeline/transform/rules/geresh.test.ts\", \"admin/pipeline/transform/registry.ts\", \"data/patches/patterns.jsonl\"], \"verifyCommand\": \"bun test admin/pipeline/transform/rules/geresh.test.ts && bun transform:count\", \"acceptanceCriteria\": [\"overlap measured\", \"entangledWith written when real\", \"strict arm only\", \"three exclusions tested\", \"declines counted\", \"counts reproduced or deltas recorded\"], \"modelTier\": \"frontier\"}\n```",
    "blockedBy": [
     4
@@ -109,5 +109,5 @@
    ]
   }
  ],
- "lastUpdated": "2026-08-23T15:50:00-05:00"
+ "lastUpdated": "2026-08-23T16:40:00-05:00"
 }
