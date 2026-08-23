@@ -1,54 +1,10 @@
 /**
- * Discovery query behind the cues in `unlink.ts` (batch-2 task-2
- * brief). Re-run whenever a delta between the measured and catalogued
- * counts needs re-checking:
- *
- * bun -e '
- * import { readSourceEntries } from "./admin/pipeline/body/source.ts";
- * import { tokenize } from "./admin/pipeline/transform/html.ts";
- * import { anchors } from "./admin/pipeline/transform/links.ts";
- * function leadOf(tokens, open) {
- *   let text = "";
- *   for (const token of tokens.slice(0, open)) {
- *     if (token.kind === "text") text += token.value;
- *   }
- *   return text;
- * }
- * function* walk(senses, path) {
- *   for (const [i, s] of senses.entries()) {
- *     yield [path + "." + i, s];
- *     if (s.senses) yield* walk(s.senses, path + "." + i);
- *   }
- * }
- * const GRAETZ = /\bGr(?:ae|æ)tz,?\s+Gesch\.\s+d(?:\.|er)\s*$/u;
- * const ARUCH = /\bAr\.(?:\s*Compl\.)?\s*ed\.\s*$/u;
- * const RABBI = /\(R\.\s*$/u;
- * let apparatus = 0;
- * let rabbi = 0;
- * for await (const e of readSourceEntries()) {
- *   const fields = [
- *     ["lang", e.language_reference],
- *     ...[...walk(e.content.senses, "s")].map(([p, s]) => [p, s.definition]),
- *   ];
- *   for (const [, field] of fields) {
- *     if (field === undefined) continue;
- *     const t = tokenize(field);
- *     for (const a of anchors(t)) {
- *       const lead = leadOf(t, a.open);
- *       if (
- *         (GRAETZ.test(lead) && a.dataRef.startsWith("Judges ")) ||
- *         (ARUCH.test(lead) && a.dataRef.startsWith("Ecclesiastes "))
- *       ) {
- *         apparatus++;
- *       }
- *       if (RABBI.test(lead) && a.dataRef.startsWith("Joshua ")) rabbi++;
- *     }
- *   }
- * }
- * console.log("apparatus", apparatus, "rabbi", rabbi);
- * '
- *
- * Measured: apparatus 8 (catalogued 8), rabbi 41 (catalogued 41).
+ * Discovery query behind `GRAETZ_CUE`/`ARUCH_CUE`/`RABBI_CUE` (batch-2
+ * task-2 brief): walks every `definition` and `language_reference`
+ * field with `leadOf` + `anchors`, corpus-wide. task-2-report.md has
+ * the runnable script; task-3-report.md has the ellipsis-fragment
+ * equivalent. Measured: apparatus 8 (catalogued 8), rabbi 41
+ * (catalogued 41).
  */
 import { expect, it } from 'bun:test';
 import { readSourceEntries } from '../../body/source.ts';
@@ -200,14 +156,9 @@ it('unlinks an anchored elision fragment (Q00231)', () => {
 	expect(out.records).toHaveLength(1);
 });
 
-// M01288, verbatim: an independent no-op-guard fixture (reviewer
-// minor — the old assertion just repeated the first test's
-// `records.toHaveLength(1)` on the same input). TWO ellipsis-fragment
-// anchors in one sense, "(ed. …נָן, …נַן)" — so `unlinks` (2, one per
-// anchor) and `records.length` (1, one push per sense) can actually
-// disagree, unlike a single-anchor fixture where they trivially match.
-// `unlinks` is only ever set when > 0, so a no-op predicate leaves it
-// `undefined`, not `2` — the same silent-pass Task 2 shipped once.
+// M01288, verbatim: two ellipsis-fragment anchors in one sense
+// ("(ed. …נָן, …נַן)"), so unlinks (2) and records.length (1) can
+// disagree — a stronger no-op guard than a single-anchor fixture.
 const M01288 =
 	' (<a dir="rtl" class="refLink" href="/Jastrow,_מִיק.1" data-ref="Jastrow, מִיק 1">מִיק</a>; cmp. ' +
 	'<a dir="rtl" class="refLink" href="/Jastrow,_*דַּאֲבַן.1" data-ref="Jastrow, *דַּאֲבַן 1">דַּאֲבַן</a> <i>to mock</i>. ' +
@@ -222,10 +173,8 @@ it('unlinks both fragments in one definition and counts each anchor (M01288)', (
 	expect(result.records).toHaveLength(1);
 });
 
-// A01030, verbatim: a second convention member — the ellipsis follows
-// a bare citation ("Targ. Hos. VI, 2 …"), not a Hebrew word being
-// corrected, and אַחֲיוּת is a sibling inflected form of this entry's
-// own headword (אַחֲיוּתָא), immediately translated "resurrection of &c."
+// A01030, verbatim: ellipsis follows a bare citation, not a Hebrew
+// word being corrected; אַחֲיוּת is a sibling of this entry's headword.
 const A01030 =
 	' (<a dir="rtl" class="refLink" href="/Jastrow,_חיי.1" data-ref="Jastrow, חיי 1">חיי</a>) ' +
 	'<i>reanimation, resurrection</i>. <a class="refLink" href="/Targum_Jonathan_on_Hosea.6.2" data-ref="Targum Jonathan on Hosea 6:2">Targ. Hos. VI, 2</a> … ' +
@@ -239,11 +188,8 @@ it('leaves a convention ellipsis before a sibling headword form alone (A01030)',
 	expect(out.records).toHaveLength(0);
 });
 
-// A01111, excerpt (sense 2 of 3, trimmed to the clause carrying the
-// anchor — full sense is long enough to push this file over the line
-// budget on its own): a third convention member — the ellipsis follows
-// English prose ("if you were to say …"), and היינו is a complete
-// discourse particle ("that is"), glossed by the English that follows.
+// A01111, excerpt (sense 2 of 3, trimmed to the anchor's clause):
+// ellipsis follows English prose; היינו is glossed right after it.
 const A01111 =
 	'—<span dir="rtl">אי אמרת בשלמא</span> (abbr. <span dir="rtl">אא"ב</span> = <span dir="rtl">בשלמא אי אמרת</span>) I grant, if you were to say … ' +
 	'<a dir="rtl" class="refLink" href="/Jastrow,_הַיְינוּ.1" data-ref="Jastrow, הַיְינוּ 1">היינו</a> then would be right what &c.';
@@ -256,10 +202,8 @@ it('leaves a convention ellipsis before a glossed discourse particle alone (A011
 	expect(out.records).toHaveLength(0);
 });
 
-// K01049, verbatim: a fourth convention member — the ellipsis follows
-// "[In compounds: …", an English list marker, not a Hebrew word being
-// corrected, and כְּפַר is the construct-state sibling of this entry's
-// own headword (כָּפָר), a legitimate cross-reference.
+// K01049, verbatim: ellipsis follows an English list marker; כְּפַר is
+// the construct-state sibling of this entry's own headword (כָּפָר).
 const K01049 =
 	' כפר <i>to be round</i>,  [<i>circle</i>,] <i>village, country town</i>. ' +
 	'<a class="refLink" href="/Mishnah_Megillah.1.3" data-ref="Mishnah Megillah 1:3">Meg. I, 3</a> ' +
@@ -278,9 +222,8 @@ it('leaves a convention ellipsis before a construct-state sibling alone (K01049)
 	expect(out.records).toHaveLength(0);
 });
 
-// L00584, verbatim: a fifth convention member — the ellipsis follows
-// English prose ("why do we not say …"), and וידוי is a complete real
-// word, explicitly contrasted with "(in place of ראיון)".
+// L00584, verbatim: ellipsis follows English prose; וידוי is a
+// complete word, explicitly contrasted with "(in place of ראיון)".
 const L00584 =
 	' = <span dir="rtl">לָא אֲנָן</span>. ' +
 	'<a class="refLink" href="Jerusalem_Talmud_Peah.3.7.4" data-ref="Jerusalem Talmud Peah 3:7:4">Y. Peah III, 17ᵈ</a> top ' +
@@ -296,11 +239,9 @@ it('leaves a convention ellipsis before a complete, contrasted word alone (L0058
 	expect(out.records).toHaveLength(0);
 });
 
-// D00702, verbatim: the sixth convention member — "(ed. …דיקלאי)" reads
-// like the apparatus-note shape most of the 82 defects share, but the
-// anchored word is immediately glossed by the English that follows it
-// ("basket-makers who brought wicker work for sale"), confirming it is
-// the edition's complete spelling, not a stem-elided fragment.
+// D00702, verbatim: apparatus-note shape, but the anchored word is
+// glossed right after ("basket-makers who brought wicker work..."),
+// confirming a complete spelling, not a stem-elided fragment.
 const D00702 =
 	' (v. <a dir="rtl" class="refLink" href="/Jastrow,_דִּיקוּלָא.1" data-ref="Jastrow, דִּיקוּלָא 1">דִּיקוּלָא</a>) <i>basket maker</i>.—Pl. ' +
 	'<a dir="rtl" class="refLink" href="/Jastrow,_דִּיקוּלָא.1" data-ref="Jastrow, דִּיקוּלָא 1">דִּיקוּלָאֵי</a>. ' +
@@ -316,10 +257,10 @@ it('leaves a convention ellipsis glossed by the following English alone (D00702)
 	expect(out.records).toHaveLength(0);
 });
 
-// Batch-wide drift check (maintainer ruling, 2026-08-23): every key in
-// ELLIPSIS_CONVENTION must be OBSERVED in the real, current corpus —
-// not just against the fixed strings above — or this names it and
-// fails, rather than `transform:count`'s aggregate 80 drifting mutely.
+// Drift check (maintainer ruling, 2026-08-23): every key in
+// ELLIPSIS_CONVENTION must be OBSERVED in the real corpus, or this
+// names it and fails — see unlinkMatching's docstring for why an
+// in-rule check can't do this instead.
 it('observes every ellipsis-fragment convention exclusion in the corpus', async () => {
 	const unmatched = await unobservedConvention(
 		ELLIPSIS_CONVENTION,
@@ -329,9 +270,8 @@ it('observes every ellipsis-fragment convention exclusion in the corpus', async 
 	expect(unmatched).toEqual([]);
 });
 
-// A02658, excerpt: one of the 6 convention members — "Ḥull. 64ᵇ …"
-// elides quoted Talmudic text, not a word-head, and דוסתאי is the
-// complete name Dostai, glossed right after and correctly linked.
+// A02658, excerpt: ellipsis elides quoted text, not a word-head;
+// דוסתאי is the complete name Dostai, glossed right after.
 const A02658 =
 	'<i>Aftoriki</i>. <a class="refLink" href="/Bava_Metzia.5a.7" data-ref="Bava Metzia 5a:7">B. Mets. 5ᵃ</a> ' +
 	'<span dir="rtl">אבוה דר׳ א׳</span>; <a class="refLink" href="/Chullin.64b.3" data-ref="Chullin 64b:3">Ḥull. 64ᵇ</a> … ' +

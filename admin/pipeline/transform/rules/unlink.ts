@@ -81,28 +81,93 @@ function usable(anchor: Anchor): boolean {
 }
 
 /**
- * Drop every anchor in one definition that `match` selects, working
- * from the LAST anchor to the first so removing one never invalidates
- * the token index of another still to come. Safe because anchors do
- * not nest in this corpus (`links.ts`'s `anchors` docstring), so no
- * two selected anchors ever share a token.
+ * Drop every anchor in one definition that `match` selects.
+ *
+ * Bug fixed 2026-08-23 (reviewer finding on a later task): this used
+ * to compute `anchors(tokens)` ONCE against the original array, then
+ * remove the matched anchors highest-`open`-first on the theory that
+ * "anchors do not nest in this corpus, so no two selected anchors ever
+ * share a token" — a claim `links.ts`'s own docstring made and this
+ * one repeated. It is false: anchors DO nest here (477 pairs across
+ * 465 entries in `definition` text alone — see `ELLIPSIS_CONVENTION`'s
+ * neighborhood below for the query shape, and `links.ts`'s `anchors`
+ * docstring for the full corpus count). For a NESTED pair, the outer
+ * anchor's `close` index is HIGHER than the inner's `open`, so
+ * removing the inner first (its `open` sorts higher, so it went first
+ * under the old highest-open ordering) shifts every token after it —
+ * including the outer's `close` — down by 2. The outer's `close` was
+ * captured before that shift, so `unlink` then filters a STALE index:
+ * it no longer names any token in the shrunk array, so the outer's
+ * closing `</a>` is silently never removed, and only its `open` is (a
+ * still-valid index, since nothing before it moved). Net effect on a
+ * shared-`data-ref` nested pair — the exact shape a `data-ref`-keyed
+ * rule matches on both members — a stray `</a>` survives in the
+ * output, invisible to `unlinks` (which still counts 2, correctly: two
+ * anchors WERE identified as targets) and invisible to the
+ * markup-delta gate (fewer tags is still fewer tags).
+ *
+ * Fixed by re-deriving `anchors(next)` from the CURRENT array before
+ * every removal, instead of computing the target list once up front.
+ * This is the "re-derive after each removal" option the reviewer
+ * offered, chosen over "skip a contained anchor and assert loudly"
+ * because the latter would make this machinery refuse the exact
+ * workload a pending row needs it for: `nonsense-dup-anchor` (755
+ * instances, per-row nested-duplicate anchors sharing one `data-ref`)
+ * is very likely to need BOTH members of a nested pair removed in one
+ * pass, which "assert and refuse on nesting" would block outright.
+ * Re-deriving costs one extra O(anchor count) scan per removal — the
+ * same order of work `anchors()` already does once per definition, so
+ * a definition with k removable anchors costs O(k) scans instead of
+ * 1, not a complexity-class change — and it is correct regardless of
+ * nesting depth or shape, so no assumption about the corpus's anchor
+ * shape has to hold for this to stay correct. `leadOf` (the cue every
+ * shipped predicate uses) reads only text BEFORE `anchor.open`, which
+ * a later removal never touches, so re-deriving does not change which
+ * anchors any existing predicate matches — verified corpus-wide below
+ * (task-3-report.md's delta-fix section has the tag-balance check).
+ *
+ * Exported: no shipped rule's predicate happens to select both members
+ * of a nested pair (`ellipsisRaw` matches 0 of them corpus-wide), so
+ * the nested-removal path above has no coverage through `apparatusCite`
+ * /`rabbiName`/`ellipsisFragment` alone. `unlink-nesting.test.ts`'s
+ * regression test drives this function directly with a synthetic
+ * dataRef-keyed predicate against a real nested pair (A00282).
  */
 function unlinkMatching(
 	definition: string,
 	match: (tokens: readonly Token[], anchor: Anchor) => boolean,
 ): { removed: number; text: string } {
-	const tokens = tokenize(definition);
-	const targets = anchors(tokens)
-		.filter((anchor) => usable(anchor) && match(tokens, anchor))
-		.sort((a, b) => b.open - a.open);
-	let next: readonly Token[] = tokens;
-	for (const anchor of targets) {
-		next = unlink(next, anchor);
+	let next: readonly Token[] = tokenize(definition);
+	let removed = 0;
+	for (;;) {
+		const target = firstUsableMatch(next, match);
+		if (target === undefined) {
+			break;
+		}
+		next = unlink(next, target);
+		removed += 1;
 	}
 	return {
-		removed: targets.length,
-		text: targets.length === 0 ? definition : serialize(next),
+		removed,
+		text: removed === 0 ? definition : serialize(next),
 	};
+}
+
+/** The first anchor in `tokens` that is `usable` and satisfies `match`,
+ * or `undefined`. A top-level function rather than a closure declared
+ * inside `unlinkMatching`'s loop: `next` is reassigned every iteration
+ * there, and a fresh closure over a reassigned `let` on every pass is
+ * exactly the shape lint/nursery/noLoopFunc flags — harmless here
+ * (each closure is called and discarded synchronously, before `next`
+ * changes again) but not worth arguing with when hoisting it removes
+ * the question entirely. */
+function firstUsableMatch(
+	tokens: readonly Token[],
+	match: (tokens: readonly Token[], anchor: Anchor) => boolean,
+): Anchor | undefined {
+	return anchors(tokens).find(
+		(anchor) => usable(anchor) && match(tokens, anchor),
+	);
 }
 
 /**
@@ -378,5 +443,6 @@ export {
 	ellipsisFragment,
 	ellipsisRaw,
 	rabbiName,
+	unlinkMatching,
 	unobservedConvention,
 };

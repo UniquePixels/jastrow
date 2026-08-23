@@ -121,10 +121,22 @@ function buildAnchor(
  * walking a 180-token definition once per anchor found in it would be
  * quadratic, and every anchor built below needs the same set.
  *
- * A single stack pairs each open with the next `</a>` that pops it —
- * anchors do not nest in this corpus, so depth never exceeds one, but
- * the stack costs nothing and needs no such assumption. An opening tag
- * left on the stack when the walk ends has no closing tag at all and is
+ * A single stack pairs each open with the next `</a>` that pops it,
+ * which is LOAD-BEARING, not a hedge against an assumption that
+ * doesn't hold: anchors DO nest in this corpus. Corrected 2026-08-23 —
+ * this docstring used to claim the opposite ("anchors do not nest in
+ * this corpus, so depth never exceeds one"), which a reviewer's
+ * corpus-wide count disproved and which had already caused a real bug
+ * in `unlink.ts`'s `unlinkMatching` (see that function's docstring).
+ * Measured: 477 nested pairs across 465 entries in `definition` text,
+ * both members usable in every pair. `language_reference` carries 757
+ * pairs across 756 entries, 755 of them sharing one `data-ref` — the
+ * shape the pending `nonsense-dup-anchor` row (route: transform,
+ * catalogued 755) targets. The LIFO stack pairs a nested pair
+ * correctly regardless of the claim above being false: the inner
+ * `</a>` pops the most recently pushed (innermost) open before the
+ * outer `</a>` pops what's left. An opening tag left on the stack when
+ * the walk ends has no closing tag at all and is
  * reported with `close: -1`; a visibly malformed opening tag (one that
  * fails `opensScope`) is reported with `malformed: true` regardless of
  * whether a later `</a>` happens to pop it — `DAMAGED` in the test file
