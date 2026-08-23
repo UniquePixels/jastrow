@@ -86,11 +86,12 @@ type Token = TagToken | TextToken;
  * element never closes and its `dir` would leak to end of input.
  *
  * Exported because a rule needs the same predicate — but the two arms
- * differ and must be read apart. After the MALFORMED arm, the text
- * token that follows is not document text at all: it is the tail of
- * that tag's own attributes, and must not be rewritten (see
- * `bare-rtl-hebrew` in `rules/rtl.ts`, and the markup gate in
- * `markup.ts`). After the SELF-CLOSING arm the following text IS
+ * differ and must be read apart. After the MALFORMED arm, what follows
+ * is not document text at all: it is the tail of that tag's own
+ * attributes, and must not be rewritten. That tail is a REGION, not
+ * one token — `attributeInterior` below is the single authority on
+ * where it ends, and both the rule and the gate that backstops it read
+ * it from there. After the SELF-CLOSING arm the following text IS
  * ordinary document text, so a caller wanting only the malformed
  * reading must exclude `endsWith('/>')` itself. Keeping one definition
  * here means the tokenizer stays the single authority on what counts
@@ -155,6 +156,70 @@ function serialize(tokens: readonly Token[]): string {
 	return tokens.map((token) => token.value).join('');
 }
 
+/** Whether an opening tag fails to open a scope BECAUSE it is visibly
+ * malformed — its body holds another `<`, so a swallowed closing tag
+ * supplied its `>` and the attribute value it was inside runs on past
+ * the tag token.
+ *
+ * `opensScope`'s OTHER arm — a self-closing `<br/>` — opens no scope
+ * either, but a self-closing tag is well-formed and the text after it
+ * is ordinary document text, so it is excluded here explicitly.
+ * (Corpus-wide: 0 self-closing tags, so the two readings cannot
+ * diverge on today's data; the distinction is for whoever adds one.) */
+function swallowedClose(value: string): boolean {
+	return !(opensScope(value) || value.endsWith('/>'));
+}
+
+/**
+ * Which tokens sit inside an attribute VALUE rather than in the
+ * document, as indices into `tokens`.
+ *
+ * A region opens on a visibly malformed open tag — the swallowed `</a>`
+ * of `href="/Jastrow,_כָּלוּל.1</a>" data-ref="…">` supplied that tag's
+ * `>`, so the attribute value runs on past the tag token — and closes
+ * at the end of the first TEXT token carrying a `>`, which is the
+ * attribute's own terminator. That terminating token is itself
+ * interior: its head is still attribute value.
+ *
+ * This is the ONE definition of the region. `damageOf` in `markup.ts`
+ * counts the tag tokens it holds on the attribute axis, and
+ * `bare-rtl-hebrew` in `rules/rtl.ts` refuses to rewrite the text
+ * tokens it holds. Those two must agree by construction: a rule
+ * allowed to write where the gate counts damage is a rule whose only
+ * defence is the gate halting the pipeline. They disagreed once — the
+ * rule asked only whether the PREVIOUS token was the malformed tag —
+ * and the divergence was live on J00597.
+ *
+ * The reading is deliberately conservative and is NOT a browser's: a
+ * browser ends a double-quoted value at the next `"`, while this ends
+ * it only on a `>` in document text. D00478's region recovers after a
+ * few tokens; J00597's never does, so the rest of that field is
+ * interior. Being wrong in this direction only freezes markup that is
+ * already damaged.
+ *
+ * Returned as a set, computed once per token stream, because callers
+ * walk every token: recomputing the region per token would be
+ * quadratic on a 180-token definition.
+ */
+function attributeInterior(tokens: readonly Token[]): Set<number> {
+	const interior = new Set<number>();
+	let open = false;
+	for (const [at, token] of tokens.entries()) {
+		if (open) {
+			interior.add(at);
+		}
+		if (token.kind === 'text') {
+			if (open && token.value.includes('>')) {
+				open = false;
+			}
+		} else if (!token.close && swallowedClose(token.value)) {
+			// Idempotent inside an already-open region, so no `open` guard.
+			open = true;
+		}
+	}
+	return interior;
+}
+
 /** Maximal Hebrew runs within one text value, as [start, end) offsets.
  * Interior single spaces between Hebrew tokens stay inside the run;
  * 4,691 of 5,679 bare nodes mix Hebrew and Latin, so a rule must wrap
@@ -171,4 +236,12 @@ function hebrewRuns(value: string): { end: number; start: number }[] {
 }
 
 export type { TagToken, TextToken, Token };
-export { DIR_RTL, HEBREW, hebrewRuns, opensScope, serialize, tokenize };
+export {
+	attributeInterior,
+	DIR_RTL,
+	HEBREW,
+	hebrewRuns,
+	opensScope,
+	serialize,
+	tokenize,
+};

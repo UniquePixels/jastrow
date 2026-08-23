@@ -20,6 +20,7 @@
 import type { SourceEntry, SourceSense } from '../../body/types.ts';
 import type { Token } from '../html.ts';
 import {
+	attributeInterior,
 	DIR_RTL,
 	HEBREW,
 	hebrewRuns,
@@ -179,36 +180,6 @@ function isSubLemmaHeader(run: RunContext): boolean {
 	);
 }
 
-/**
- * Whether this text token is not document text at all, but the tail of
- * the PREVIOUS tag's own attributes.
- *
- * When an unterminated `href` swallows a closing tag —
- * `<a … href="/Jastrow,_כָּלוּל.1</a>" data-ref="Jastrow, כָּלוּל 1">` — the
- * swallowed `</a>` supplies the `>` that ends the tag token, and
- * everything after it up to the real `>` tokenizes as text. Wrapping
- * the Hebrew in there writes a `<span>` INSIDE a `data-ref` attribute
- * value, corrupting a machine identifier and leaving a span embedded
- * in the very attribute the still-pending row
- * `unterminated-href-swallows-closing-tag` has to reconstruct.
- *
- * The predicate is `html.ts`'s own `opensScope`, imported rather than
- * restated so the tokenizer stays the single authority on what counts
- * as a malformed open tag — the same judgement that keeps such a tag
- * off the ancestry stack. Corpus-wide this skips exactly one node in
- * one entry (D00478; J00597 carries the same malformed tag but no bare
- * Hebrew after it). `opensScope` is also false for a self-closing tag,
- * whose following text IS ordinary document text — no self-closing tag
- * occurs anywhere in the corpus (measured: 0), so the two readings
- * cannot diverge here.
- */
-function isAttributeTail(tokens: readonly Token[], at: number): boolean {
-	const previous = tokens[at - 1];
-	return (
-		previous?.kind === 'tag' && !previous.close && !opensScope(previous.value)
-	);
-}
-
 /** Wrap each Hebrew RUN inside one text node, leaving everything
  * around it — and every run the slot test excludes — untouched. 4,691
  * of the 5,679 bare nodes mix Hebrew and Latin, so wrapping the node
@@ -231,6 +202,60 @@ function wrapRuns(tokens: readonly Token[], at: number, value: string): string {
 }
 
 /**
+ * One definition rewritten: every bare Hebrew run wrapped, except in
+ * the text tokens that are not document text at all but the interior
+ * of a malformed tag's own attribute value.
+ *
+ * When an unterminated `href` swallows a closing tag —
+ * `<a … href="/Jastrow,_כָּלוּל.1</a>" data-ref="Jastrow, כָּלוּל 1">` — the
+ * swallowed `</a>` supplies the `>` that ends the tag token, and
+ * everything after it up to the real `>` tokenizes as text. Wrapping
+ * the Hebrew in there writes a `<span>` INSIDE a `data-ref` attribute
+ * value, corrupting a machine identifier and leaving a span embedded
+ * in the very attribute the still-pending row
+ * `unterminated-href-swallows-closing-tag` has to reconstruct.
+ *
+ * Where that region ENDS is `attributeInterior`'s judgement, in
+ * `html.ts`, and it is the same call `damageOf` makes for the markup
+ * gate that backstops this rule. The sharing is the point. This rule
+ * used to ask only whether the PREVIOUS token was the malformed tag,
+ * which let it rewrite deeper in a region the gate still counted as
+ * attribute interior — the rule's correctness there rested on the gate
+ * halting the pipeline, and on an unrelated exclusion coinciding.
+ *
+ * Corpus-wide the exclusion skips 29 text nodes across two entries:
+ * D00478's 1, where the attribute recovers a few tokens later, and
+ * J00597's 28, where it never does and the whole rest of the field is
+ * interior. Exactly one of the 29 — D00478's — holds a Hebrew run this
+ * rule would otherwise wrap. J00597's region DOES contain bare Hebrew,
+ * `—י׳ מנכסיו ` twelve tokens past the malformed tag, but that node is
+ * also a sub-lemma header, so `isSubLemmaHeader` excludes it
+ * independently. The two exclusions OVERLAP there and neither alone is
+ * the reason: that coincidence is exactly why the divergence went
+ * unnoticed, and it is not something to lean on again.
+ *
+ * `opensScope` is false for a self-closing tag too, whose following
+ * text IS ordinary document text; `attributeInterior` excludes that
+ * arm. No self-closing tag occurs anywhere in the corpus (measured:
+ * 0), so the two readings cannot diverge here today.
+ *
+ * The region is computed ONCE per definition and indexed into: the map
+ * below visits every token, and re-deriving the region per token would
+ * be quadratic on a 180-token definition.
+ */
+function wrapDefinition(definition: string): string {
+	const tokens = tokenize(definition);
+	const inAttribute = attributeInterior(tokens);
+	return serialize(
+		tokens.map((token, at) =>
+			token.kind !== 'text' || token.rtl || inAttribute.has(at)
+				? token
+				: { ...token, value: wrapRuns(tokens, at, token.value) },
+		),
+	);
+}
+
+/**
  * Wrap bare Hebrew runs in the slots where the corpus demonstrably
  * wraps and this instance does not — quotation after a citation anchor
  * (9.0% bare), etymology/variant parenthetical (20.3%), after an
@@ -246,16 +271,7 @@ function wrapRuns(tokens: readonly Token[], at: number, value: string): string {
  */
 const bareRtlHebrew: Rule = {
 	apply: (entry: SourceEntry): TransformResult =>
-		overDefinitions(entry, 'bare-rtl-hebrew', (definition) => {
-			const tokens = tokenize(definition);
-			return serialize(
-				tokens.map((token, at) =>
-					token.kind !== 'text' || token.rtl || isAttributeTail(tokens, at)
-						? token
-						: { ...token, value: wrapRuns(tokens, at, token.value) },
-				),
-			);
-		}),
+		overDefinitions(entry, 'bare-rtl-hebrew', wrapDefinition),
 	id: 'bare-rtl-hebrew',
 	phase: 'text-repairs',
 };

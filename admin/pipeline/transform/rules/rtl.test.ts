@@ -84,6 +84,34 @@ describe('bareRtlHebrew', () => {
 		expect(out(bareRtlHebrew, damaged)).toBe(damaged);
 	});
 
+	// J00597's shape, where the attribute NEVER recovers: no later text
+	// token carries the `>` that would end it, so the whole remainder of
+	// the field is attribute interior. A one-token lookback saw only the
+	// `</span>` immediately before the tail and would have wrapped it;
+	// the region model shared with the markup gate does not.
+	it('never writes a span deeper in an unrecovered attribute region', () => {
+		const damaged =
+			'(cmp. <a dir="rtl" class="refLink" href="/Jastrow,_דִּלְדֵּל.1</a>' +
+			'<a class="refLink" href="/Bava_Metzia.38b">B. Mets. 38ᵇ</a> ' +
+			'<span dir="rtl">היוֹרֵד</span>' +
+			' he who takes possession, cmp. דָּבָר.';
+		expect(out(bareRtlHebrew, damaged)).toBe(damaged);
+	});
+
+	it('wraps that same tail when no attribute region covers it', () => {
+		// The control for the test above: the node is left bare because of
+		// the REGION, not because of anything in its own shape — it is not
+		// a sub-lemma header and nothing else excludes it.
+		expect(
+			out(
+				bareRtlHebrew,
+				'<span dir="rtl">היוֹרֵד</span> he who takes possession, cmp. דָּבָר.',
+			),
+		).toBe(
+			'<span dir="rtl">היוֹרֵד</span> he who takes possession, cmp. <span dir="rtl">דָּבָר</span>.',
+		);
+	});
+
 	it('leaves already-wrapped Hebrew alone', () => {
 		const wrapped = '<span dir="rtl">שָׁלוֹם</span>';
 		expect(out(bareRtlHebrew, wrapped)).toBe(wrapped);

@@ -96,7 +96,7 @@
  * it.
  */
 import type { SourceEntry } from '../body/types.ts';
-import { opensScope, tokenize } from './html.ts';
+import { attributeInterior, opensScope, tokenize } from './html.ts';
 import { fieldsOf } from './no-new-text.ts';
 
 /** How ill-formed one field's markup is, on the two axes a rule can
@@ -111,50 +111,39 @@ interface Damage {
 }
 
 /**
- * Whether an opening tag fails to open a scope BECAUSE it is visibly
- * malformed — its body holds another `<`, so a swallowed closing tag
- * supplied its `>` and the attribute value it was inside runs on past
- * the tag token.
- *
- * `opensScope` is the tokenizer's own predicate and the single
- * authority on what counts as malformed, so it is used rather than
- * restated. Its OTHER arm — a self-closing `<br/>` — opens no scope
- * either, but a self-closing tag is well-formed and the text after it
- * is ordinary document text, so it is excluded here explicitly.
- * (Corpus-wide: 0 self-closing tags, so the two readings cannot
- * diverge on today's data; the distinction is for whoever adds one.)
- */
-function swallowedClose(value: string): boolean {
-	return !(opensScope(value) || value.endsWith('/>'));
-}
-
-/**
  * Measure one field's markup damage.
  *
- * Balance mirrors `tokenize`'s stack exactly — a close pops the top
- * whatever element it names, and a tag that opens no scope is never
- * pushed — so the count is the damage the tokenizer itself sees, not a
- * second opinion about it.
+ * Which tokens count as attribute interior is not decided here:
+ * `attributeInterior` in `html.ts` is the single authority, and
+ * `bare-rtl-hebrew` — the rule this axis exists to backstop — reads the
+ * same region from the same call. A gate that modelled the region one
+ * way while the rule modelled it another would be a gate whose passes
+ * mean nothing, which is what an earlier one-token lookback in that
+ * rule made it.
  *
- * The attribute-tail walk models what the tokenizer had to leave
- * behind: after a malformed open tag, everything up to the attribute
- * value's real `>` is document text as far as tokenization is
- * concerned. The tail therefore runs from that tag until a text token
- * containing a `>` closes it, and any TAG token met in between is a
- * tag written inside an attribute value.
+ * Balance mirrors `tokenize`'s stack only UP TO the first malformed
+ * open tag. From there the region takes over: every tag token inside it
+ * is counted on the attribute axis and `continue`s before reaching the
+ * depth counter, whereas `tokenize` goes on pushing and popping those
+ * same tags unconditionally. On J00597's one damaged field that is 34
+ * tag tokens the balance never sees, and `opens` reports the depth
+ * standing when the malformed tag was met rather than at end of field.
+ *
+ * That divergence is safe because the assertion is a DELTA, run with
+ * the same model on both sides (see the module doc): a rule passes only
+ * by leaving the region's tag count where it found it. It would not be
+ * safe as an absolute well-formedness claim, and none is made.
  */
 function damageOf(html: string): Damage {
 	const damage: Damage = { attribute: 0, closes: 0, opens: 0 };
+	const tokens = tokenize(html);
+	const interior = attributeInterior(tokens);
 	let depth = 0;
-	let inAttribute = false;
-	for (const token of tokenize(html)) {
+	for (const [at, token] of tokens.entries()) {
 		if (token.kind === 'text') {
-			if (inAttribute && token.value.includes('>')) {
-				inAttribute = false;
-			}
 			continue;
 		}
-		if (inAttribute) {
+		if (interior.has(at)) {
 			damage.attribute++;
 			continue;
 		}
@@ -166,8 +155,6 @@ function damageOf(html: string): Damage {
 			}
 		} else if (opensScope(token.value)) {
 			depth++;
-		} else if (swallowedClose(token.value)) {
-			inAttribute = true;
 		}
 	}
 	damage.opens = depth;

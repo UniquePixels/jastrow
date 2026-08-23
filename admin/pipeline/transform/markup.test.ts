@@ -42,6 +42,20 @@ describe('damageOf', () => {
 		// tail closes on its own `>`, so nothing is written inside it.
 		expect(damageOf(D00478).attribute).toBe(0);
 	});
+
+	it('stops mirroring the tag stack at the first malformed tag', () => {
+		// The documented divergence from `tokenize`: after the malformed
+		// tag every tag token is counted on the attribute axis and never
+		// reaches the depth counter, so an unclosed <i> in there does NOT
+		// show up as an unmatched open. Safe only because the assertion is
+		// a delta run with this same model on both sides.
+		const damaged = J00597.replace('he who', '<i>he who');
+		expect(damageOf(damaged)).toEqual({
+			attribute: 5,
+			closes: 0,
+			opens: 0,
+		});
+	});
 });
 
 describe('checkMarkup', () => {
