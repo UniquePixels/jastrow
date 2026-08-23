@@ -1,0 +1,80 @@
+{
+  "planPath": "docs/superpowers/plans/2026-08-22-transform-batch-1.md",
+  "tasks": [
+    {
+      "id": 0,
+      "subject": "Task 0: Rule types and the empty registry",
+      "status": "completed",
+      "description": "**Goal:** The Rule contract and a coverage gate that is meaningful on day one, when zero rules exist.\n\n**Files:**\n- Create: `admin/pipeline/transform/types.ts`\n- Create: `admin/pipeline/transform/registry.ts`\n- Test: `admin/pipeline/transform/registry.test.ts`\n\n**Acceptance Criteria:**\n- [ ] `Rule` has no field holding an expected count\n- [ ] Coverage gate lists all 80 `route: transform` rows as registered or pending\n- [ ] A rule id absent from `patterns.jsonl` fails the gate\n- [ ] Entangled rows must be adjacent in registry order\n\n**Verify:** `bun test admin/pipeline/transform/registry.test.ts` \u2192 4 pass\n\n```json:metadata\n{\"files\": [\"admin/pipeline/transform/types.ts\", \"admin/pipeline/transform/registry.ts\", \"admin/pipeline/transform/registry.test.ts\"], \"verifyCommand\": \"bun test admin/pipeline/transform/registry.test.ts\", \"acceptanceCriteria\": [\"Rule carries no expected count\", \"coverage() accounts for all 80 transform rows\", \"unknown rule id fails the gate\", \"entangled rows adjacent\"], \"modelTier\": \"standard\"}\n```"
+    },
+    {
+      "id": 1,
+      "subject": "Task 1: The HTML token stream",
+      "status": "completed",
+      "blockedBy": [
+        0
+      ],
+      "description": "**Goal:** A dependency-free tokenizer that every rule reads, tracking dir=\"rtl\" ancestry, round-tripping the corpus byte-for-byte.\n\n**Files:**\n- Create: `admin/pipeline/transform/html.ts`\n- Test: `admin/pipeline/transform/html.test.ts`\n\n**Acceptance Criteria:**\n- [ ] `serialize(tokenize(s)) === s` for all 44,668 corpus definitions\n- [ ] Text tokens report whether an ancestor carries `dir=\"rtl\"`\n- [ ] The Hebrew class matches Hebrew and rejects `\u2014`, `\u1d43`, `'`, `(`\n- [ ] `hebrewRuns()` finds Hebrew runs *inside* a mixed text node\n\n**Verify:** `bun test admin/pipeline/transform/html.test.ts` \u2192 6 pass, plus the corpus round-trip script reporting `lossy=0`\n\n```json:metadata\n{\"files\": [\"admin/pipeline/transform/html.ts\", \"admin/pipeline/transform/html.test.ts\"], \"verifyCommand\": \"bun test admin/pipeline/transform/html.test.ts\", \"acceptanceCriteria\": [\"corpus round-trip lossy=0\", \"rtl ancestry resolved through nesting\", \"Hebrew class rejects em-dash, superscript, apostrophe, paren\", \"hebrewRuns delimits inside mixed nodes\"], \"modelTier\": \"frontier\"}\n```"
+    },
+    {
+      "id": 2,
+      "subject": "Task 2: Transform-tier no-new-text gate",
+      "status": "completed",
+      "blockedBy": [
+        1
+      ],
+      "description": "**Goal:** Mechanically prevent a rule from inventing text, while leaving it free to rewrite markup.\n\n**Files:**\n- Create: `admin/pipeline/transform/no-new-text.ts`\n- Test: `admin/pipeline/transform/no-new-text.test.ts`\n\n**Acceptance Criteria:**\n- [ ] Adding `<span dir=\"rtl\">` around existing text passes\n- [ ] Adding the word \"foo\" fails\n- [ ] Adding a space fails without `allows`, passes with `allows: [' ']`\n- [ ] Deleting text passes\n\n**Verify:** `bun test admin/pipeline/transform/no-new-text.test.ts` \u2192 5 pass\n\n```json:metadata\n{\"files\": [\"admin/pipeline/transform/no-new-text.ts\", \"admin/pipeline/transform/no-new-text.test.ts\"], \"verifyCommand\": \"bun test admin/pipeline/transform/no-new-text.test.ts\", \"acceptanceCriteria\": [\"markup rewrite allowed\", \"invented word rejected\", \"space requires declared allowance\", \"deletion allowed\"], \"modelTier\": \"standard\"}\n```"
+    },
+    {
+      "id": 3,
+      "subject": "Task 3: applyTransforms and the count harness",
+      "status": "completed",
+      "blockedBy": [
+        0,
+        2
+      ],
+      "description": "**Goal:** The runner rules plug into, and the audit that measures each rule alone against the pinned snapshot \u2014 skipping when the pin is stale.\n\n**Files:**\n- Create: `admin/pipeline/transform/run.ts`\n- Create: `admin/pipeline/transform/count.ts`\n- Modify: `package.json` \u2014 add `\"transform:count\"`\n- Test: `admin/pipeline/transform/run.test.ts`\n\n**Acceptance Criteria:**\n- [ ] `applyTransforms` runs only the rules matching the requested phase\n- [ ] Every rule's output passes `checkNoNewText` or the run throws\n- [ ] `transform:count` compares each rule alone against `corpusCount`\n- [ ] A snapshot hash differing from `snapshot.lock` skips, exit 0\n\n**Verify:** `bun test admin/pipeline/transform/run.test.ts` \u2192 3 pass; `bun transform:count` \u2192 `0 rule(s), 0 mismatch(es).`\n\n```json:metadata\n{\"files\": [\"admin/pipeline/transform/run.ts\", \"admin/pipeline/transform/count.ts\", \"admin/pipeline/transform/run.test.ts\", \"package.json\"], \"verifyCommand\": \"bun test admin/pipeline/transform/run.test.ts && bun transform:count\", \"acceptanceCriteria\": [\"phase filtering works\", \"no-new-text violation throws naming the rule\", \"count harness measures rules independently\", \"stale snapshot skips rather than reporting false mismatches\"], \"modelTier\": \"standard\"}\n```"
+    },
+    {
+      "id": 4,
+      "subject": "Task 4: Record the RTL entanglement",
+      "status": "completed",
+      "blockedBy": [
+        0
+      ],
+      "description": "**Goal:** Move the three-way RTL entanglement out of audit prose and into the `entangledWith` field the registry gate reads.\n\n**Files:**\n- Modify: `data/patches/patterns.jsonl` (3 rows)\n\n**Acceptance Criteria:**\n- [ ] All three rows list the other two in `entangledWith`\n- [ ] `checkEntanglement()` reports the graph symmetric\n- [ ] No other field on any row changes\n\n**Verify:** `bun test admin/pipeline/research/patterns.test.ts` \u2192 all pass; `git diff --stat` \u2192 3 lines changed\n\n```json:metadata\n{\"files\": [\"data/patches/patterns.jsonl\"], \"verifyCommand\": \"bun test admin/pipeline/research/patterns.test.ts\", \"acceptanceCriteria\": [\"trio mutually entangled\", \"checkEntanglement returns []\", \"exactly 3 JSONL lines changed\"], \"modelTier\": \"mechanical\"}\n```"
+    },
+    {
+      "id": 5,
+      "subject": "Task 5: The RTL wrapper family",
+      "status": "completed",
+      "blockedBy": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "description": "**Goal:** One rule module owning every `dir=\"rtl\"` decision, so the three inverse failures cannot be traded for one another.\n\n**Files:**\n- Create: `admin/pipeline/transform/rules/rtl.ts`\n- Test: `admin/pipeline/transform/rules/rtl.test.ts`\n- Modify: `admin/pipeline/transform/registry.ts` \u2014 register 3, unpend 3\n\n**Acceptance Criteria:**\n- [ ] `bare-rtl-hebrew` wraps runs *inside* mixed text nodes, never the node\n- [ ] The sub-lemma header `\u2014<Hebrew> <i>gloss</i>` is left bare\n- [ ] `redundant-outer-rtl-span` unwraps an outer span holding inner rtl\n- [ ] `latin-token-inside-rtl-span` moves a trailing Roman numeral out\n- [ ] `bun transform:count` reports all three, every delta zero or dispositioned in patterns.jsonl\n\n**Verify:** `bun test admin/pipeline/transform/rules/rtl.test.ts` \u2192 8 pass; `bun transform:count` \u2192 3 rules listed\n\n```json:metadata\n{\"files\": [\"admin/pipeline/transform/rules/rtl.ts\", \"admin/pipeline/transform/rules/rtl.test.ts\", \"admin/pipeline/transform/registry.ts\", \"data/patches/patterns.jsonl\"], \"verifyCommand\": \"bun test admin/pipeline/transform/rules/rtl.test.ts && bun transform:count\", \"acceptanceCriteria\": [\"run-level wrapping inside mixed nodes\", \"sub-lemma header untouched (473 bare vs 0 wrapped)\", \"redundant outer span unwrapped\", \"trailing Roman numeral moved outside the span\", \"each count delta zero or recorded in patterns.jsonl\"], \"modelTier\": \"frontier\"}\n```"
+    },
+    {
+      "id": 6,
+      "subject": "Task 6: Alt-headword stubs \u2014 WITHDRAWN to judgment",
+      "status": "completed",
+      "blockedBy": [
+        3
+      ],
+      "description": "**WITHDRAWN.** The rule was written, tested and matching its catalogue count when the maintainer ruled the row gets no transform (spec \u00a75.2 \"Inference is not transformation\"): the elided form is what the print has, and expansion assumes the headword's remaining vowels are the variant's. `abbrev-in-alt-headwords` is `route: judgment` at 2,035; the rule and its tests were deleted and the abbrev split reverted.\n\nComplete \u2014 see git history at 95e913a."
+    },
+    {
+      "id": 7,
+      "subject": "Task 7: Wire into the migration dry run",
+      "status": "completed",
+      "blockedBy": [
+        5,
+        6
+      ],
+      "description": "**Goal:** Prove the three rules compose with `repairs.ts` and the gates still hold at 32,512/32,512.\n\n**Files:**\n- Modify: `admin/pipeline/body/migrate-dry.ts:197-218`\n- Modify: `docs/v2/body-migration.md`\n\n**Acceptance Criteria:**\n- [ ] Transforms run after `applyRepairs`, inside `text-repairs`\n- [ ] All four round-trip gates stay at 32,512/32,512\n- [ ] 0 schema failures, 0 label quarantines \u2014 unchanged from baseline\n- [ ] The tokenizer round-trip count is unchanged from Task 1\n\n**Verify:** `bun body:migrate-dry` \u2192 gates 32,512/32,512, 0 schema failures; gate-line diff against the captured baseline is empty\n\n```json:metadata\n{\"files\": [\"admin/pipeline/body/migrate-dry.ts\", \"docs/v2/body-migration.md\"], \"verifyCommand\": \"bun body:migrate-dry\", \"acceptanceCriteria\": [\"transforms run after applyRepairs in text-repairs\", \"all four round-trip gates 32512/32512\", \"0 schema failures and 0 quarantines\", \"tokenizer round-trip still lossy=0\"], \"modelTier\": \"standard\"}\n```"
+    }
+  ],
+  "lastUpdated": "2026-08-22T19:45:00-05:00"
+}

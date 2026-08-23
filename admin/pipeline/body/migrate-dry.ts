@@ -21,6 +21,9 @@ import {
 import type { SemanticPatch } from '../patch/schema.ts';
 import { computeSnapshot } from '../patch/snapshot.ts';
 import entrySchema from '../schema/entry.schema.json' with { type: 'json' };
+import { RULES } from '../transform/registry.ts';
+import { applyTransforms } from '../transform/run.ts';
+import type { Rule, TransformRecord } from '../transform/types.ts';
 import { findCitations } from './cite.ts';
 import { buildTrace } from './dry-run.ts';
 import { toValidationEntry } from './dry-run-report.ts';
@@ -74,6 +77,8 @@ interface Report {
 	recounts: Recounts;
 	repairedEntries: number;
 	repairFailures: string[];
+	transformFailures: string[];
+	transformRecords: TransformRecord[];
 }
 
 /** Top-level sense-number sequence check (census .brokenSequences
@@ -119,6 +124,24 @@ function unresolvedOrphans(entry: SourceEntry): string[] {
 	return expected.filter((item) => !seen.has(item));
 }
 
+/** `structural-repairs` runs empty below (`processEntry`'s comment: "no
+ * structural pass exists yet") — a rule registered with that phase would
+ * therefore never execute in this dry run, silently. Batch 6 is where
+ * `structural-repairs` gets wired for real; until then, fail loudly the
+ * moment `RULES` grows one instead of letting it vanish unrun. */
+function assertNoStructuralRules(rules: readonly Rule[] = RULES): void {
+	const structural = rules.filter(
+		(rule) => rule.phase === 'structural-repairs',
+	);
+	if (structural.length > 0) {
+		throw new Error(
+			`structural-repairs rule(s) registered but migrate-dry never runs that phase (wire it — batch 6): ${structural
+				.map((rule) => rule.id)
+				.join(', ')}`,
+		);
+	}
+}
+
 /** Bump a pass/total gate pair. */
 function tallyGate(tally: GateTally, ok: boolean): void {
 	tally.total++;
@@ -152,6 +175,8 @@ function createReport(): Report {
 		},
 		repairFailures: [],
 		repairedEntries: 0,
+		transformFailures: [],
+		transformRecords: [],
 	};
 }
 
@@ -178,7 +203,41 @@ function recount(entry: SourceEntry, report: Report): void {
 	}
 }
 
-/** One corpus entry through the committed phase manifest (spec §5.2):
+/** A failure raised by the TRANSFORM half of `text-repairs`, not by
+ * `repairs.ts`. The two halves fail for unrelated reasons and are
+ * fixed in unrelated files — a drifted literal find-text is a
+ * `repairs.ts` edit, a no-new-text or markup violation is a rule bug
+ * in `transform/rules/` — so the phase that failed is carried on the
+ * error rather than left for the operator to guess from a message
+ * saying "repair drift". */
+class TransformFailure extends Error {}
+
+/** The `text-repairs` phase body: literal repairs first (on pristine
+ * source, so `repairs.ts`'s exactly-once find-text assertions hold),
+ * then the corpus-correction transforms second, on the healed entry
+ * (transform spec §2 "Placement": "Rules run after `applyRepairs`,
+ * within `text-repairs`"). Transform records are pushed onto the report
+ * directly since `RunResult` and `RepairRecord` don't share a shape the
+ * caller could merge generically. */
+function healAndTransform(
+	source: SourceEntry,
+	report: Report,
+	rules: readonly Rule[] = RULES,
+): ReturnType<typeof applyRepairs> {
+	const healed = applyRepairs(source);
+	let transformed: ReturnType<typeof applyTransforms>;
+	try {
+		transformed = applyTransforms(healed.entry, 'text-repairs', rules);
+	} catch (error) {
+		throw new TransformFailure(
+			error instanceof Error ? error.message : String(error),
+		);
+	}
+	report.transformRecords.push(...transformed.records);
+	return { entry: transformed.entry, records: healed.records };
+}
+
+/** One corpus entry through the committed phase manifest (spec §5):
  * text repairs → structural repairs → patch apply → consumer-facing
  * composition + gates + recounts + full schema validation. The
  * tracker turns a mis-ordered edit to this function into a loud
@@ -191,16 +250,23 @@ function processEntry(
 ): void {
 	report.entries++;
 	const phases = createPhaseTracker();
-	// Contain a drifted find-text to its own entry: record it and keep
-	// walking, so one report run lists every drift instead of aborting at
-	// the first. main() rethrows after the walk — the run stays loud.
+	// Contain a drifted find-text — or a rule that tripped its own gate —
+	// to its own entry: record it and keep walking, so one report run
+	// lists every failure instead of aborting at the first. main()
+	// rethrows after the walk — the run stays loud. The two are recorded
+	// separately because they send the operator to different files.
 	let repaired: ReturnType<typeof applyRepairs>;
 	try {
-		repaired = phases.run('text-repairs', () => applyRepairs(source));
-	} catch (error) {
-		report.repairFailures.push(
-			`${source.rid}: ${error instanceof Error ? error.message : String(error)}`,
+		repaired = phases.run('text-repairs', () =>
+			healAndTransform(source, report),
 		);
+	} catch (error) {
+		const line = `${source.rid}: ${error instanceof Error ? error.message : String(error)}`;
+		if (error instanceof TransformFailure) {
+			report.transformFailures.push(line);
+		} else {
+			report.repairFailures.push(line);
+		}
 		return;
 	}
 	const { entry, records } = repaired;
@@ -267,14 +333,28 @@ function printSummary(report: Report): void {
 		`binyanEmptyOrUntrimmed=${report.recounts.emptyOrUntrimmedBinyanForms}`,
 		`schemaFailures=${report.recounts.schemaFailures.length}`,
 		`repairFailures=${report.repairFailures.length}`,
+		`transformFailures=${report.transformFailures.length}`,
 		`patchCorpus=${report.patches.corpus} patchesApplied=${report.patches.applied} patchProblems=${report.patches.problems.length}`,
 		`unresolvedRepairedOrphans=${report.recounts.unresolvedRepairedOrphans.length}`,
 		`deferred=${Object.keys(report.deferred).length} confirmedNoChange=${report.confirmedNoChange.length}`,
 	];
+	const byRule = new Map<string, number>();
+	for (const record of report.transformRecords) {
+		byRule.set(record.ruleId, (byRule.get(record.ruleId) ?? 0) + 1);
+	}
+	// Iterate RULES, not byRule: a rule that stops firing entirely must
+	// still print `0`, not vanish from a data-ordered summary — that
+	// silence is the exact failure mode this line exists to catch.
+	lines.push(
+		...RULES.map(
+			(rule) => `transform ${rule.id}: ${byRule.get(rule.id) ?? 0} instance(s)`,
+		),
+	);
 	console.log(lines.join('\n'));
 }
 
 if (import.meta.main) {
+	assertNoStructuralRules();
 	const ajv = new Ajv2020({ allErrors: true, strict: true });
 	const validate = ajv.compile(entrySchema);
 	const report = createReport();
@@ -308,7 +388,12 @@ if (import.meta.main) {
 	console.log(`report written to ${REPORT_PATH}`);
 	if (report.repairFailures.length > 0) {
 		throw new Error(
-			`repair drift on ${report.repairFailures.length} ${report.repairFailures.length === 1 ? 'entry' : 'entries'}:\n${report.repairFailures.join('\n')}`,
+			`text-repairs: repair drift on ${report.repairFailures.length} ${report.repairFailures.length === 1 ? 'entry' : 'entries'}:\n${report.repairFailures.join('\n')}`,
+		);
+	}
+	if (report.transformFailures.length > 0) {
+		throw new Error(
+			`text-repairs: transform failure on ${report.transformFailures.length} ${report.transformFailures.length === 1 ? 'entry' : 'entries'} — a rule in admin/pipeline/transform/rules/, not repairs.ts:\n${report.transformFailures.join('\n')}`,
 		);
 	}
 	if (report.patches.problems.length > 0) {
@@ -318,4 +403,11 @@ if (import.meta.main) {
 	}
 }
 
-export { brokenTopSequence, startsAtTwo };
+export {
+	assertNoStructuralRules,
+	brokenTopSequence,
+	createReport,
+	healAndTransform,
+	startsAtTwo,
+	TransformFailure,
+};

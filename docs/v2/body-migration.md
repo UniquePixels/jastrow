@@ -139,3 +139,102 @@ binyan empties/spaces, orphan basis) recounts to zero; and the
 sense-sequence census falls 72 → 34, with each survivor individually
 accounted for above. Deviations from print are flagged per-record
 (`deviation: true`) pending the notes-mechanism spec.
+
+## Phase 2 batch 1 — transform wiring
+
+Phase 2 batch 1's three corpus-correction rules
+([transform/registry.ts](../../admin/pipeline/transform/registry.ts))
+now run inside the `text-repairs` phase, **second**, on the entry
+`applyRepairs` already healed — `repairs.ts`'s exactly-once find-text
+assertions still see pristine source, since transforms run after it,
+not before. A maintainer ruling (2026-08-22) reclassified
+`abbrev-in-alt-headwords` from transform to judgment and deleted its
+rule (spec §5.2, "Inference is not transformation"); the registry holds
+exactly three rules, not four.
+
+### Catalogue vs. dry-run counts — a unit change, not "more matches"
+
+`bun transform:count` counts **entries**: one rule, run in isolation,
+against the raw corpus, one tally per matching entry. `bun
+body:migrate-dry` counts **`TransformRecord`s**: the composed, in-order
+run over the healed corpus, one record per changed *definition* — an
+entry with two changed senses contributes two records. Reading the
+529 → 531 and 4,189 → 4,516 gaps as the rules "catching more" is a
+misread; the decomposition below (measured, not estimated) accounts for
+each column:
+
+| rule | catalogue (entries) | records basis (unit change) | +composition | +repairs | dry run (records) |
+|---|---|---|---|---|---|
+| `redundant-outer-rtl-span` | 529 | 531 | +0 | 0 | 531 |
+| `bare-rtl-hebrew` | 4,189 | 4,471 | +46 | −1 | 4,516 |
+| `latin-token-inside-rtl-span` | 130 | 131 | +0 | 0 | 131 |
+
+For the two small rows the entries→records unit change (catalogue →
+"records basis") is the **entire** gap — composition and repairs
+contribute nothing. For `bare-rtl-hebrew` the unit change accounts for
+282 of the 327-wide gap (4,189 → 4,471); the remaining 46 is the
+registry's mandatory unwrap-then-wrap ordering (`redundantOuterRtl`
+before `bareRtlHebrew` — dropping a redundant outer span re-exposes
+Hebrew that was `rtl: true`, and so invisible to `bareRtlHebrew`, while
+the wrapper stood), and the final −1 is the repairs interaction below.
+
+### The repairs interaction — N00327
+
+The composed run over the **healed** corpus (`bun body:migrate-dry`)
+emits 4,516 `bare-rtl-hebrew` records; the same composed pass run over
+the **raw**, unrepaired corpus emits 4,517. The one-record difference is
+entirely N00327: `rejoin-chopped` (a `repairs.ts` pass) merges two of
+N00327's sense definitions into one before `bare-rtl-hebrew` ever runs,
+and `bare-rtl-hebrew` emits one record per changed *definition* — so the
+two records the raw-corpus pass would have emitted for N00327's two
+separate definitions fold into the one record the healed-corpus pass
+emits for its single merged definition. No Hebrew run is lost: N00327
+carries 8 bare Hebrew spans in the source, wrapped to 10 `<span
+dir="rtl">` spans on both the raw and the healed path alike — same
+wrapping outcome, one fewer bookkeeping record. This is the batch's
+first measured instance of a rid-keyed repair and a transform meeting on
+the same entry, and it is composition working as designed, not a
+dropped fix.
+
+### Gate tallies — before and after wiring transforms
+
+| Gate | Before | After |
+|---|---|---|
+| `entries` / `repaired` | 32512 / 832 | 32512 / 832 |
+| `gate formSection` | 32512/32512 | 32512/32512 |
+| `gate lettered` | 32512/32512 | 32512/32512 |
+| `gate rejoin` | 32512/32512 | 32512/32512 |
+| `gate units` | 32512/32512 | 32512/32512 |
+| `schemaFailures` | 0 | 0 |
+| `labelQuarantines` | 0 | 0 |
+| `repairFailures` | 0 | 0 |
+| `transformFailures` | 0 | 0 |
+
+`diff` of the gate lines between the before/after `bun body:migrate-dry`
+runs is empty. The tokenizer round-trip (Task 1 Step 5, re-run verbatim
+per its corrected `for await` form) is unchanged:
+`entries=32512 definitions=44668 lossy=0`.
+
+That re-run is a `html.ts` REGRESSION check and nothing more: its script
+reads `readSourceEntries()`, the raw corpus, so no transform output is
+ever in its path and its result is invariant under any rule change
+whatsoever. It says the tokenizer — which did change — still
+round-trips every definition losslessly. It cannot say anything about
+what the rules did.
+
+The claim that no rule moved a definition between senses needs a
+measurement that walks the TRANSFORMED corpus, so here is one. Walking
+every entry's sense tree before and after `applyTransforms(entry,
+'text-repairs')`, in order, and comparing the definition slots:
+
+```
+entries=32512 definitionsBefore=44668 definitionsAfter=44668
+senseShapeDrift=0 slotDrift=0
+```
+
+`senseShapeDrift` counts entries whose flattened sense tree changed
+length; `slotDrift` counts entries where a slot gained or lost its
+definition. Both zero: the batch's three rules rewrite definition
+strings in place and touch neither the tree nor which slots hold text.
+`bun body:migrate-dry`'s four round-trip gates are structural and
+would not have caught the difference.

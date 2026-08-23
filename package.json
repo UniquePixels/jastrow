@@ -18,7 +18,8 @@
 		"qa:lint": "biome check --error-on-warnings",
 		"qa:test": "bun test",
 		"qa:tsc": "tsc --noEmit --skipLibCheck",
-		"research:apply": "bun admin/pipeline/patch/apply.ts"
+		"research:apply": "bun admin/pipeline/patch/apply.ts",
+		"transform:count": "bun admin/pipeline/transform/count.ts"
 	},
 	"devDependencies": {
 		"@biomejs/biome": "2.5.2",
