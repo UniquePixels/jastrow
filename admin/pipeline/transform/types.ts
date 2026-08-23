@@ -32,7 +32,15 @@ interface TransformResult {
 	 * text. The same test runs on the `href` against the `from`
 	 * anchor's own `href`. An undeclared compose is a violation, not
 	 * an allowance: a target absent from the input and unclaimed
-	 * fails as fabricated. */
+	 * fails as fabricated.
+	 *
+	 * A claim is matched to an anchor by `target === anchor.dataRef`,
+	 * and every anchor it matches must satisfy it. Two consequences
+	 * for rule authors: a claim naming a `target` no anchor carries
+	 * licenses nothing (and is not itself reported), and a compose
+	 * that rewrites only the `href` is declared by setting `target` to
+	 * that anchor's UNCHANGED `data-ref` — the `data-ref` is the key,
+	 * not necessarily the thing that moved. */
 	composed?: readonly { from: string; target: string }[];
 	/** Text this call duplicated from elsewhere in the SAME entry
 	 * (spec §5.1). The gate verifies each string occurs in the input

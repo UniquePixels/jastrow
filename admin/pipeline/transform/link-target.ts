@@ -60,13 +60,57 @@
  * anchor a rule could not legitimately have touched is exactly the
  * one a silent skip would hide.
  *
- * §5's house style is to record a gate's blind spots rather than
- * imply coverage, so: this gate compares the entry's targets as ONE
- * set, not per field, so an anchor moved between fields passes; a
- * `composed` claim that matches no anchor grants nothing but is not
- * itself reported; and an attribute absent from a tag reads as the
- * empty string, so an empty target passes whenever any input anchor
- * also lacked that attribute.
+ * **What this gate does NOT catch.** §5's house style is to record a
+ * gate's blind spots rather than imply coverage, and a rule author
+ * reaching for `composed` or `unlinks` is the reader who needs them:
+ *
+ * - **Laundering between anchors.** Anchor A given B's target and B
+ *   given A's passes — both values are in the input's set. Inherent
+ *   in §3.2 case 2, which permits copying a sibling's target and
+ *   cannot tell a copy from a swap.
+ * - **Laundering between attributes.** `href` and `data-ref` are
+ *   pooled into ONE set, so writing a URL-shaped value into
+ *   `data-ref`, or a ref-shaped one into `href`, passes. The gate
+ *   asks whether the entry held the string, never which attribute
+ *   held it.
+ * - **Movement between fields.** That set is entry-wide, not per
+ *   field, so an anchor moved from `language_reference` into a
+ *   definition passes. §3.3 asks for entry-wide COVERAGE; entry-wide
+ *   COMPARISON is what it costs.
+ * - **Delete-one, create-one.** The count invariant is a NET count. A
+ *   rule that unlinks one anchor and wraps a new one around other
+ *   text, with a target copied from the input, nets to zero — and the
+ *   markup gate reads the added balanced pair as no change. Nor does
+ *   `unlinks` say WHICH anchor went: unlinking the wrong one and
+ *   declaring 1 passes.
+ * - **A composed target that only DROPS characters.** The remainder
+ *   test constrains what a claim adds past the common prefix, never
+ *   what it truncates, so a declared compose to any prefix of an
+ *   input target (`'Shabbat 30b'` → `'Shabbat 3'`) has an empty
+ *   remainder and passes with no display evidence at all. The prefix
+ *   is also character-level, so how much evidence a claim must show
+ *   depends on digit coincidence rather than on structure.
+ * - **Display-text laundering.** The remainder is tested against the
+ *   OUTPUT anchor's display, so a rule that rewrote the display and
+ *   then composed from it satisfies this gate; only the text gate
+ *   stands between that and invention, and it is a whole-entry
+ *   multiset.
+ * - **Empty attributes.** An absent `href` or `data-ref` reads as
+ *   `''`, which must stay in the set or every anchor lacking that
+ *   attribute would fail for being unchanged — so writing an EMPTY
+ *   target passes whenever any input anchor also lacked one.
+ * - **Damaged-tag tails.** Where a tag token ends inside an attribute
+ *   value (D00478's `href` swallowing its closing tag), the
+ *   "attributes" that follow are document TEXT to the tokenizer and
+ *   are invisible here. The text gate covers edits to them.
+ * - **Unused claims.** A `composed` entry matching no anchor grants
+ *   nothing, but is not itself reported, so a stale declaration left
+ *   in a rule will not be flagged.
+ * - **Fields outside `fieldsOf`.** `refs[]` and `rid` are excluded
+ *   from the shared walk (see `no-new-text.ts` on why), so a rule
+ *   editing only those passes here — and `refs[]` holds link targets
+ *   by definition. This gate inherits that boundary rather than
+ *   redrawing it, and the `untouched` fast path inherits it too.
  */
 import type { SourceEntry } from '../body/types.ts';
 import { tokenize } from './html.ts';
@@ -169,13 +213,16 @@ function absentFrom(remainder: string, display: string): boolean {
 
 /** The `href` values of every input anchor `from` names — by
  * `data-ref` or by `href`, since `from` may be written either way.
- * Falls back to `from` itself when no anchor matches, which only
- * happens for a `from` the caller has already reported as absent. */
+ * Never empty in practice: the only caller checks `targets.has(from)`
+ * first and `continue`s when it fails, and membership in that set
+ * means some input anchor carried the string on one attribute or the
+ * other. So no fallback value is invented here; an empty list would
+ * mean that invariant broke, and `faultOf` reporting nothing to
+ * compare against is the honest outcome. */
 function hrefsFor(from: string, source: readonly Anchor[]): string[] {
-	const found = source
+	return source
 		.filter((anchor) => anchor.dataRef === from || anchor.href === from)
 		.map((anchor) => anchor.href);
-	return found.length > 0 ? found : [from];
 }
 
 /**
@@ -185,7 +232,13 @@ function hrefsFor(from: string, source: readonly Anchor[]): string[] {
  * A claim passes on ANY source — the same address occasionally
  * appears with two `href` spellings, and "copied from the input" is
  * satisfied by one of them, not all. The reported remainder is the
- * first source's, so the message is deterministic.
+ * first source's, so the message is deterministic; with no sources at
+ * all the claim licenses nothing, which fails closed.
+ *
+ * Only what the claim ADDS past the prefix is tested. Characters it
+ * DROPS are unconstrained, so a compose to a prefix of its own source
+ * shows no display evidence and passes — see the module doc's
+ * blind-spot list, where that sits with the rest of them.
  */
 function faultOf(
 	value: string,
