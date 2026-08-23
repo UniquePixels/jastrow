@@ -73,6 +73,21 @@ it('anchors returns every <a> in document order', () => {
 	expect(list[1]?.href).toBe('/b');
 });
 
+it('sorts an unclosed anchor back into document order', () => {
+	// <a> does not nest in real markup, but the tokenizer does not
+	// enforce that: an unclosed open is found from the LEFTOVER stack
+	// after the main walk, so it lands after every closed anchor unless
+	// `anchors()` re-sorts by `open`. Nesting here forces that path:
+	// the outer <a> (open at 0) never closes, and the inner one (open
+	// at 1) does, so the naive order would list "b" before "a".
+	const html =
+		'<a href="/a" data-ref="A">outer <a href="/b" data-ref="B">inner</a>';
+	const list = anchors(tokenize(html));
+	expect(list.map((anchor) => anchor.href)).toEqual(['/a', '/b']);
+	expect(list[0]?.close).toBe(-1);
+	expect(list[1]?.close).not.toBe(-1);
+});
+
 it('display drops nested tags but keeps their text', () => {
 	const html = '<a href="/x" data-ref="y"><span dir="rtl">Text</span></a>';
 	const anchor = first(anchors(tokenize(html)));
