@@ -12,6 +12,17 @@ The row was catalogued from a display probe and has never carried a
 `reason`. This document is that `reason` (Task 11 owns the
 write-back).
 
+**Known limit, stated up front rather than at the bottom.** The repair
+is **folio-exact and segment-approximate**: it lands the reader on the
+right page in every case, and on the segment the linker itself would
+have chosen in about half. The other half is Sefaria matching quoted
+Hebrew against a text corpus this pipeline does not hold, and it
+cannot be reproduced or guessed. §3 measures the size of that gap and
+argues it is nevertheless the most faithful reading available —
+Jastrow wrote "ib." to mean the place he had just cited, so the
+antecedent's own address is arguably closer to him than the linker's
+text-match. It is recorded here as a blind spot, not implied away.
+
 Two corrections the row needs, both derived below:
 
 - **`corpusCount` 312 is an OCCURRENCE count, not an entry count.**
@@ -19,9 +30,10 @@ Two corrections the row needs, both derived below:
   entries, so the rule reports 188 against a catalogued 312; the delta
   is arithmetic, not disagreement (§7).
 - **The row's description understates its own family.** A sibling arm
-  of **52** anchors, identical in every respect except that the target
-  carries a segment (`Yoma 2a:8` and friends), is catalogued nowhere
-  (§8).
+  of **52 occurrences / 47 entries**, identical in every respect except
+  that the target carries a segment (`Yoma 2a:8` and friends), is
+  catalogued nowhere — nor are 3 more in `Ibid.`/`ibid.` spelling. §8
+  carries the executable query so Task 11 need not re-derive them.
 
 ## 1. The population, pinned
 
@@ -104,10 +116,34 @@ of its nearest preceding citation anchor:
 | Jerusalem Talmud (any tractate) | 260 | **259** | **99.6%** |
 | everything else | 1,941 | 62 | 3.2% |
 
+Reusing the shipped rule's own predicates, so this measurement and the
+rule cannot drift apart (`anaphora.test.ts` pins both halves and fails
+on a single counterexample):
+
 ```bash
-# admin/pipeline/transform/rules/anaphora.test.ts pins both halves;
-# the walk is the §1 query plus, per anchor, the nearest preceding
-# usable anchor whose data-ref is neither "Jastrow, …" nor "Yoma 2a*".
+bun -e '
+import { readSourceEntries } from "./admin/pipeline/body/source.ts";
+import { tokenize } from "./admin/pipeline/transform/html.ts";
+import { anchors } from "./admin/pipeline/transform/links.ts";
+import { ANAPHOR, isSpentAnaphor, usable } from "./admin/pipeline/transform/rules/anaphora.ts";
+const defs = (ss, out) => { for (const s of ss) { if (s.definition !== undefined) out.push(s.definition); if (s.senses) defs(s.senses, out); } return out; };
+const jt = { sink: 0, total: 0 }, rest = { sink: 0, total: 0 };
+for await (const e of readSourceEntries())
+  for (const d of defs(e.content.senses, [])) {
+    const list = anchors(tokenize(d));
+    list.forEach((a, at) => {
+      if (!(usable(a) && ANAPHOR.test(a.display.trim()))) return;
+      const prior = list.slice(0, at).reverse().find((p) =>
+        usable(p) && !isSpentAnaphor(p) && p.dataRef !== "" && !p.dataRef.startsWith("Jastrow, "));
+      if (prior === undefined) return;
+      const side = prior.dataRef.startsWith("Jerusalem Talmud") ? jt : rest;
+      side.total++;
+      if (a.dataRef.startsWith("Yoma 2a")) side.sink++;
+    });
+  }
+console.log({ jt, rest });
+'
+# → { jt: { sink: 259, total: 260 }, rest: { sink: 62, total: 1941 } }
 ```
 
 **Every bare `Ib.` standing after a Yerushalmi citation falls into the
@@ -152,7 +188,9 @@ sink and having a citation antecedent in the same definition —
 claim — *ibidem* = the place last named — validated on 1,880 cases
 nobody fitted it to.
 
-**The honest residual, stated at full size.** In 44.9% the linker
+### 3.1 KNOWN LIMIT — segment precision
+
+In 44.9% (845 of 1,880) the linker
 picks a *different segment of the same folio* (`Sanhedrin 78b:12` →
 `78b:11`), because Sefaria matched the quoted Hebrew to a specific
 segment. Copying the antecedent's target whole cannot reproduce that —
@@ -165,7 +203,14 @@ Talmud — that is a correction under any reading, and it is the most
 precise one derivable from entry-local data. It is not segment-perfect
 and this document does not claim it is.
 
-The 39 "different work" cases are mostly an artefact of the folio-
+Ruling (maintainer, 2026-08-23): **settled, no change wanted.** The
+antecedent's exact address is arguably more faithful to Jastrow than
+the linker's segment guess, since "ib." names the place he had just
+cited. The limit is recorded rather than repaired.
+
+### 3.2 The 39 "different work" cases
+
+These are mostly an artefact of the folio- are mostly an artefact of the folio-
 stripping in the query above mishandling segment RANGES
 (`Niddah 36b:59-60` vs `36b:66-67` are the same work); the residue of
 genuine work changes is a handful, and each is an `Ib.` after an
@@ -296,22 +341,66 @@ candidate`.
 
 ## 8. Found alongside, catalogued nowhere
 
-**52 bare `Ib.`/`ib.` anchors resolving to `Yoma 2a:N`** (`:8` ×30,
-`:7` ×5, `:3` ×5, `:4` ×5, `:1` ×2, `:10` ×2, `:5` ×1, `:6` ×1) are
-the identical defect with a segment attached — 38 of them are the
+**52 occurrences / 47 entries: bare `Ib.`/`ib.` anchors resolving to
+`Yoma 2a:N`** (`:8` ×30, `:7` ×5, `:3` ×5, `:4` ×5, `:10` ×3, `:1` ×2,
+`:5` ×1, `:6` ×1) are the identical defect with a segment attached —
+38 of them are the
 Yerushalmi arm of §2(c)'s 259, the same mechanism firing into a
 slightly different address. They are outside this row's catalogued
 312, outside `ib-targum-work-loss` (Targum-context, plain-book target)
 and outside `sifre-ib-resolves-to-yalkut` (explicit conflicting work
 name). Nothing in `patterns.jsonl` covers them.
 
-**3 `Ibid.`/`ibid.` anchors resolving to `Yoma 2a`** are the same
+**3 occurrences / 3 entries: `Ibid.`/`ibid.` anchors resolving to
+`Yoma 2a`** are the same
 defect in a third spelling, likewise uncatalogued. The rule here does
 not claim them: they are not in the 312, and widening a predicate past
 the number it reproduces is what §2 of this batch's lessons forbids.
 
+**The query, so Task 11 can act on these without re-deriving them.**
+It returns both arms at once, each keyed by the reading that separates
+it from the catalogued 312 — a segment on the target, or a third
+spelling of the anaphor:
+
+```bash
+bun -e '
+import { readSourceEntries } from "./admin/pipeline/body/source.ts";
+import { tokenize } from "./admin/pipeline/transform/html.ts";
+import { anchors } from "./admin/pipeline/transform/links.ts";
+const BARE = /^(?:Ib|ib)\.$/u;               // the catalogued 312 arm
+const IBID = /^(?:Ibid|ibid)\.$/u;           // the third-spelling arm
+const defs = (ss, out) => { for (const s of ss) { if (s.definition !== undefined) out.push(s.definition); if (s.senses) defs(s.senses, out); } return out; };
+const seg = { occ: 0, rids: new Set(), refs: new Map() };
+const ibid = { occ: 0, rids: new Set() };
+for await (const e of readSourceEntries())
+  for (const d of defs(e.content.senses, []))
+    for (const a of anchors(tokenize(d))) {
+      const show = a.display.trim();
+      if (BARE.test(show) && a.dataRef.startsWith("Yoma 2a:")) {
+        seg.occ++; seg.rids.add(e.rid);
+        seg.refs.set(a.dataRef, (seg.refs.get(a.dataRef) ?? 0) + 1);
+      }
+      if (IBID.test(show) && a.dataRef === "Yoma 2a") { ibid.occ++; ibid.rids.add(e.rid); }
+    }
+console.log({ segmented: { occ: seg.occ, entries: seg.rids.size, byRef: [...seg.refs].sort((x, y) => y[1] - x[1]) },
+              ibid: { occ: ibid.occ, entries: ibid.rids.size } });
+'
+# → segmented: { occ: 52, entries: 47, byRef: [["Yoma 2a:8",30], ["Yoma 2a:7",5],
+#                ["Yoma 2a:3",5], ["Yoma 2a:4",5], ["Yoma 2a:10",3],
+#                ["Yoma 2a:1",2], ["Yoma 2a:5",1], ["Yoma 2a:6",1]] }
+#   ibid:      { occ: 3, entries: 3 }
+```
+
+The shipped rule's own predicates draw the same two boundaries and can
+be reused directly: `isSinkMember` is the catalogued 312 (bare display,
+EXACT `Yoma 2a`) and `isSpentAnaphor` is the 312 plus the 52 (bare
+display, `Yoma 2a` PREFIX) — the widening is one of those two, already
+written and tested.
+
 Recommended: one new row for the 55, or a scope widening of this one,
-decided in the catalogue rather than in a rule.
+decided in the catalogue rather than in a rule. The repair machinery
+needs no change either way: `antecedentOf` reads the anchor sequence,
+not the target's shape.
 
 ## 9. What would have falsified this
 
