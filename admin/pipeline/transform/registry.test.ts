@@ -34,14 +34,26 @@ describe('registry coverage', () => {
 		expect(PENDING.filter((id) => registered.has(id))).toEqual([]);
 	});
 
-	// 80, not the 81 this asserted through batch 1: abbrev-in-alt-headwords
-	// was reclassified from transform to judgment on 2026-08-22. Expanding a
-	// geresh stub needs the headword's remaining vowels to carry over to the
-	// variant, and a variant spelling exists precisely because it differs —
-	// so the transfer is an assumption the corpus cannot test, not a
-	// derivation. Maintainer ruling; see that row's reason.
-	it('the catalogue still holds 80 transform rows', () => {
-		expect(coverage(catalogue).total).toBe(80);
+	// 79, not the 80 this asserted after batch 1, nor the 81 it asserted
+	// during it. Two withdrawals, each for its own reason, and the pair is
+	// the point: a row leaves `transform` when the audit says so, and the
+	// number here is a ledger of that, not a target.
+	//
+	// - `abbrev-in-alt-headwords`, 2026-08-22 (spec §5.2): expanding a
+	//   geresh stub needs the headword's remaining vowels to carry over to
+	//   the variant, and a variant spelling exists precisely because it
+	//   differs — an assumption the corpus cannot test. It failed on what
+	//   the rule would INFER.
+	// - `h-cognate-self-link`, batch 2 Task 4: it passes that test — an
+	//   unlink infers nothing — and fails a different one. No other article
+	//   exists for any of its 87 anchors (0 of 87 at exact pointing), so
+	//   there is no correct target the link was withheld from; and the same
+	//   linker behaviour produces 2,657 more self-links in definitions, so
+	//   the row is 3.2% of a corpus-wide habit carved out by a field
+	//   boundary. There was no defect to remove. See
+	//   data/patches/catalogue-audit/h-cognate-self-link.md.
+	it('the catalogue still holds 79 transform rows', () => {
+		expect(coverage(catalogue).total).toBe(79);
 	});
 
 	it('pending ids all exist in the catalogue', () => {

@@ -57,7 +57,10 @@ const PENDING: readonly string[] = [
 	'targum-sheni-never-linked',
 	'prefixed-geresh-abbrev-mislink',
 	'superscript-subsection-stranded-outside-anchor',
-	'h-cognate-self-link',
+	// `h-cognate-self-link` left this list in batch 2 Task 4: audited to
+	// `judgment` in `patterns.jsonl` (no other article exists for any of
+	// its 87 anchors, and the construct is 3.2% of a corpus-wide linker
+	// behaviour), so `coverage` no longer counts it and neither list may.
 	'trailing-whitespace-definition',
 	'ascii-quote-as-gershayim-in-body',
 	'italic-swallowed-terminal-period',
