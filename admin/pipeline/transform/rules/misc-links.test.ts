@@ -20,6 +20,8 @@ import {
 	pluralToFeminineFinalLetter,
 	pluralToFeminineMatch,
 	pluralToFeminineRaw,
+	skeleton,
+	targetHeadwordSkeleton,
 } from './misc-links.ts';
 
 /** `headword` and `content.senses` are load-bearing for this row —
@@ -213,27 +215,70 @@ function countClean(e: SourceEntry, senses: readonly SourceSense[]): number {
 	return count;
 }
 
-/** Count of anchors across `senses` (recursive) whose `data-ref` starts
- * `prefix` — the only thing that would license a retarget under spec
- * §3.2 case 2. */
-function countOwnTargets(
-	prefix: string,
-	senses: readonly SourceSense[],
-): number {
-	let count = 0;
-	for (const sense of senses) {
-		if (sense.definition !== undefined) {
-			for (const anchor of anchors(tokenize(sense.definition))) {
-				if (anchor.dataRef.startsWith(prefix)) {
-					count++;
-				}
-			}
+/** One entry's reachability evidence: `matched` is the count of
+ * `pluralToFeminineMatch` occurrences (mirrors `countClean`, computed
+ * in the same pass so the matched anchors are known); `ownTargets` is
+ * the count of every OTHER anchor whose TARGET-ENTRY IDENTITY
+ * (`targetHeadwordSkeleton`) equals `hostSkeleton` — the only thing
+ * that would license a retarget under spec §3.2 case 2. The matched
+ * anchor is excluded from its own entry's `ownTargets` tally by
+ * construction — `pluralToFeminineRaw`'s self-link guard already
+ * requires a matched anchor's target skeleton to differ from
+ * `hostSkeleton`, so a matched anchor can never contribute to its own
+ * evidence, and the `continue` below makes that explicit rather than
+ * relying on the guard silently. A prior version of this test compared
+ * `data-ref` by STRING PREFIX instead of by skeleton, which both
+ * over-counted (a sibling spelled `<headword>+ִית` starts with the
+ * host's own headword string, so the MISLINKED anchor counted as its
+ * own evidence) and under-counted (a homograph headword's Roman-
+ * numeral or superscript suffix rarely appears in a target string the
+ * same way) — see `misc-links.ts`'s module doc for the corrected
+ * numbers this produces. */
+type Reachability = { matched: number; ownTargets: number };
+
+/** One definition's contribution to `reachabilityOf` — split out as its
+ * own function (rather than inlined in the recursive walk below) so
+ * neither function's cognitive complexity crosses the lint budget. */
+function reachabilityInDefinition(
+	e: SourceEntry,
+	definition: string,
+	hostSkeleton: string,
+): Reachability {
+	let matched = 0;
+	let ownTargets = 0;
+	const tokens = tokenize(definition);
+	for (const anchor of anchors(tokens)) {
+		if (pluralToFeminineMatch(e, tokens, anchor)) {
+			matched++;
+			continue;
 		}
-		if (sense.senses !== undefined) {
-			count += countOwnTargets(prefix, sense.senses);
+		if (targetHeadwordSkeleton(anchor.dataRef) === hostSkeleton) {
+			ownTargets++;
 		}
 	}
-	return count;
+	return { matched, ownTargets };
+}
+
+function reachabilityOf(
+	e: SourceEntry,
+	senses: readonly SourceSense[],
+	hostSkeleton: string,
+): Reachability {
+	let matched = 0;
+	let ownTargets = 0;
+	for (const sense of senses) {
+		if (sense.definition !== undefined) {
+			const here = reachabilityInDefinition(e, sense.definition, hostSkeleton);
+			matched += here.matched;
+			ownTargets += here.ownTargets;
+		}
+		if (sense.senses !== undefined) {
+			const nested = reachabilityOf(e, sense.senses, hostSkeleton);
+			matched += nested.matched;
+			ownTargets += nested.ownTargets;
+		}
+	}
+	return { matched, ownTargets };
 }
 
 it('the raw population is 65 occurrences / 55 entries, corpus-wide', async () => {
@@ -265,26 +310,36 @@ it('the clean population (the rule’s actual firing set) is 60 occurrences / 50
 });
 
 /** Gate-case-2 reachability: of the clean population, how many
- * OCCURRENCES sit in an entry that carries SOME anchor (anywhere
- * `fieldsOf` would walk) whose `data-ref` starts `Jastrow, <this
- * entry's own headword>` — the only thing that would license a
- * retarget under spec §3.2 case 2. Measured at 10/60 (16.7%), which is
- * why this row unlinks instead of retargeting; see the module doc. */
-it('retarget is reachable for only 10 of 60 clean occurrences (16.7%)', async () => {
+ * OCCURRENCES sit in an entry that carries SOME OTHER anchor whose
+ * TARGET-ENTRY IDENTITY is the entry's own headword — the only thing
+ * that would license a retarget under spec §3.2 case 2. Measured at
+ * 17/60 (28.3%) under `targetHeadwordSkeleton` identity, corrected
+ * from an earlier, string-prefix version of this test that measured
+ * 10/60 by conflating "starts with the host's headword string" with
+ * "targets the host" (see `reachabilityOf`'s doc). The CONCLUSION does
+ * not change under the corrected test: 43/60 (71.7%) still have
+ * nowhere lawful to point, a majority under both readings, so unlink
+ * remains the right repair — see the module doc's "The repair: UNLINK,
+ * by measurement". */
+it('retarget is reachable for only 17 of 60 clean occurrences (28.3%) under target-entry identity — still a minority, so unlink is correct', async () => {
 	let total = 0;
 	let reachable = 0;
 	for await (const e of readSourceEntries()) {
-		const n = countClean(e, e.content.senses);
-		if (n === 0) {
+		const { matched, ownTargets } = reachabilityOf(
+			e,
+			e.content.senses,
+			skeleton(e.headword),
+		);
+		if (matched === 0) {
 			continue;
 		}
-		total += n;
-		if (countOwnTargets(`Jastrow, ${e.headword}`, e.content.senses) > 0) {
-			reachable += n;
+		total += matched;
+		if (ownTargets > 0) {
+			reachable += matched;
 		}
 	}
 	expect(total).toBe(60);
-	expect(reachable).toBe(10);
+	expect(reachable).toBe(17);
 });
 
 it('inCleanPlSpan is exported and agrees with the module doc’s classification', () => {

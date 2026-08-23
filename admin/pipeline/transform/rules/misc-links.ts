@@ -44,9 +44,28 @@
  * that merely share those two letters) — and whose target skeleton is
  * NOT the host's own headword skeleton (the self-link guard, below).
  * **65 occurrences / 55 entries**, corpus-wide, recursive through
- * `sense.senses`. A looser reading — the same suffix/skeleton test
- * WITHOUT the self-link guard — measures 69/58; the four occurrences
- * the guard removes are genuine self-links, not this row's shape:
+ * `sense.senses`.
+ *
+ * The full decomposition, each step independently re-runnable and
+ * none of it fitted to a target number:
+ *
+ * ```
+ * 68/57  the skeleton predicate WITHOUT the self-link guard —
+ *        reproduces the catalogued corpusCount EXACTLY, independent
+ *        confirmation that the skeleton test (not a suffix regex) is
+ *        the right reading of "differ only in the final letter"
+ * −3     self-link occurrences removed by the guard (H00796,
+ *        K00308×2) — 2 entries
+ * =65/55 pluralToFeminineRaw (this function)
+ * −5     occurrences outside a printed Pl. construct, removed by
+ *        inCleanPlSpan (A02980, K01319, Q02197, U00688, U01486) —
+ *        5 entries
+ * =60/50 pluralToFeminineMatch — what the rule actually fires on
+ * ```
+ *
+ * The two self-link occurrences the guard removes are genuine
+ * self-links, not this row's shape — a headword already ending -ית
+ * whose own plural correctly resolves to itself:
  *
  * - **H00796** — the host headword חִילְתִּית already ends -ית; its own
  *   plural חִילְתִּין correctly resolves to itself. This is the
@@ -58,18 +77,21 @@
  *   and a Yalkut citation — textual EMENDATIONS of quoted Aggadic
  *   material, referring back to this entry, not its declared plural.
  *
- * The fourth occurrence the loose reading drops falls out of the
- * skeleton test itself, not the guard: **K00357**'s display כָּפִיתִין
- * (skeleton כפיתין) and its target כָּפִית (skeleton כפית) do not
- * "differ only in the final letter" — removing each one's last letter
- * leaves כפיתי against כפי, different lengths. K00357's own plural is
- * printed unanchored (`Pl. כּוֹפְתִין`); the anchor is a SEPARATE
- * citation two sentences later, "(ed. Zuck. a. oth. כָּפִיתִין)",
- * which correctly resolves to K01023 — a redirect-stub entry whose
- * `alt_headwords` is literally `["כָּפִיתִין"]` and whose whole
- * definition is ", v. כּוֹפֶת" back to K00357. A correct link, not a
- * defect, excluded for the right reason on its own bytes rather than
- * by a carve-out.
+ * K00357 is NOT part of the 68/57 baseline at all — it fails the
+ * skeleton test itself, independent of the guard: its display
+ * כָּפִיתִין (skeleton כפיתין) and its target כָּפִית (skeleton כפית) do
+ * not "differ only in the final letter" — removing each one's last
+ * letter leaves כפיתי against כפי, different lengths. K00357's own
+ * plural is printed unanchored (`Pl. כּוֹפְתִין`); the anchor is a
+ * SEPARATE citation two sentences later, "(ed. Zuck. a. oth.
+ * כָּפִיתִין)", which correctly resolves to K01023 — a redirect-stub
+ * entry whose `alt_headwords` is literally `["כָּפִיתִין"]` and whose
+ * whole definition is ", v. כּוֹפֶת" back to K00357. A correct link,
+ * not a defect, excluded for the right reason on its own bytes rather
+ * than by a carve-out — a suffix-only reading (no skeleton check at
+ * all) would sweep K00357 in and measure 69/58, one occurrence and one
+ * entry ABOVE the catalogued figure; that is not this function's
+ * baseline.
  *
  * CLEAN (`pluralToFeminineMatch`): RAW restricted to anchors actually
  * inside the entry's own "Pl."/"pl." construct — nothing but Hebrew
@@ -112,51 +134,69 @@
  * overturned (`rules/geresh.ts`'s module doc). Spec §3.2 case 2 permits
  * writing a target only when the entry's OWN input already carries an
  * anchor to it; measuring that directly against the 60-member CLEAN
- * population: only entries whose input holds some anchor with
- * `data-ref` starting `Jastrow, <this entry's own headword>` license a
- * retarget. **10 of 60 (16.7%) do; 50 of 60 (83.3%) do not** — almost
- * the exact ratio Task 5 measured for its own row (16%). A retarget
- * rule would DECLINE five members out of every six.
+ * population means asking, per entry, whether SOME anchor's target is
+ * the entry's OWN headword — by TARGET-ENTRY IDENTITY
+ * (`skeleton(targetHeadword) === skeleton(entry.headword)`), not by a
+ * string prefix. A prefix test is unsound in both directions here: it
+ * over-counts, because the mislinked anchor's own target (the feminine
+ * sibling, e.g. `Jastrow, גַּנָּבִית 1`) STARTS WITH the host's own
+ * headword string (`גַּנָּב`) whenever the sibling is spelled
+ * `<headword>+ִית` — the exact shape every member of this row has by
+ * construction — so a naive prefix scan counts the DEFECT ITSELF as
+ * evidence a repair exists; and it under-counts on a homograph
+ * headword (`בּוּר II`, `גַּנָּב ²`), whose Roman-numeral or superscript
+ * suffix a real target's `data-ref` rarely spells the same way.
  *
- * Per the brief's own decision rule ("if most cannot [be retargeted],
- * unlink — you do not need to ask; the ruling covers it") and
- * `geresh.ts`'s precedent (which unlinked its WHOLE population rather
- * than splitting out the 16% that could have been retargeted, because
- * splitting one row's repair by an accident of what else happens to
- * sit in the entry is not a principled distinction), this rule unlinks
- * all 60 uniformly rather than retargeting the reachable tenth and
- * unlinking the rest. The semantic question the brief raised — that
- * the plural genuinely IS the host's, so a link to the host would mean
- * something a bare self-link would not — does not survive the
- * measurement: five members in six have nowhere lawful to point, so a
- * split repair would treat two members of the same defect
+ * Under target-entry identity, excluding each occurrence's own
+ * (necessarily-mismatched, by the RAW self-link guard) anchor from its
+ * own entry's evidence: **17 of 60 (28.3%) have some other anchor
+ * reaching their own headword; 43 of 60 (71.7%) do not.** A retarget
+ * rule would still DECLINE close to three members out of every four —
+ * a smaller majority than the suffix-test's spurious 83.3%, but still
+ * a majority, and the conclusion the brief asks for ("if most cannot
+ * be retargeted, unlink") does not change under the stricter test.
+ *
+ * Per the brief's own decision rule and `geresh.ts`'s precedent (which
+ * unlinked its WHOLE population rather than splitting out the fraction
+ * that could have been retargeted, because splitting one row's repair
+ * by an accident of what else happens to sit in the entry is not a
+ * principled distinction), this rule unlinks all 60 uniformly rather
+ * than retargeting the reachable minority and unlinking the rest. The
+ * semantic question the brief raised — that the plural genuinely IS
+ * the host's, so a link to the host would mean something a bare
+ * self-link would not — does not survive the measurement under EITHER
+ * reading: a majority of members have nowhere lawful to point, so a
+ * split repair would treat two occurrences of the same defect
  * differently for a reason (what else this entry happens to cite) that
  * has nothing to do with the defect itself.
  *
  * ## corpusCount, corrected
  *
  * This rule reproduces **60 occurrences / 50 entries** against the
- * catalogued 68/57. The delta has two independent sources, both
- * derived above rather than fitted to the target number:
+ * catalogued 68/57. Nothing in the delta is left unaccounted for — it
+ * is exactly the decomposition given above, restated as the write-back
+ * this task hands to Task 11:
  *
- * - The catalogue's own reason counts the "10 variant readings…
- *   overlapping corrigendum-reading-linked" as members of its 68 —
- *   they are only EXCLUDED from what a rule touches, per this task's
- *   acceptance criteria ("excluded and counted"), not from the row's
- *   population. This rule's CLEAN-span predicate performs that
- *   separation mechanically: of the 65 RAW matches, 5 fall outside a
- *   clean Pl. construct (A02980, K01319, Q02197, U00688, U01486 — see
- *   above). K00308's two occurrences are ALSO variant readings but are
- *   caught earlier, by the self-link guard.
- * - A further 4 occurrences (H00796, K00308×2, K00357) are not this
- *   row's shape at all under a skeleton-level reading of "differ only
- *   in the final letter" — three are self-links (no sibling exists;
- *   the target IS the host) and one fails the skeleton test outright.
- *   The catalogue's own null model already names the H00796 shape as
- *   "not among the 68", so at least this one exclusion is not new.
+ * ```
+ * 68/57  catalogued, reproduced EXACTLY by the skeleton predicate
+ *        (no suffix-only artefact, no self-link guard yet)
+ * −3     self-link occurrences (H00796, K00308×2) — 2 entries;
+ *        the catalogue's own null model already names the H00796
+ *        shape as "not among the 68", so at least this one is not a
+ *        new finding
+ * =65/55 pluralToFeminineRaw
+ * −5     occurrences outside a printed Pl. construct (A02980, K01319,
+ *        Q02197, U00688, U01486) — 5 entries; the catalogue's own
+ *        `reason` already names these as the "10 variant readings…
+ *        overlapping corrigendum-reading-linked" this task's
+ *        acceptance criteria ask to exclude (K00308's other 2
+ *        occurrences are ALSO variant readings, caught one step
+ *        earlier by the self-link guard rather than here)
+ * =60/50 pluralToFeminineMatch — what this rule fires on, shipped
+ * ```
  *
  * The write-back task owns moving `patterns.jsonl`'s corpusCount to
- * 60/50 and recording this derivation.
+ * 60/50 and carrying this block into the row's `reason`.
  */
 import type { SourceEntry } from '../../body/types.ts';
 import type { Token } from '../html.ts';
@@ -196,6 +236,22 @@ function skeleton(s: string): string {
  * its skeleton can be compared to the display's. */
 const TARGET_RE = /^Jastrow, (?<hw>[^0-9]+?) \d+$/u;
 
+/** The TARGET-ENTRY IDENTITY of a `data-ref` — the skeleton of the
+ * headword portion `TARGET_RE` captures, or `undefined` when the value
+ * does not parse as one of this row's addresses. Exported so a test
+ * measuring "does this entry carry an anchor to its OWN headword" (the
+ * reachability question spec §3.2 case 2 asks) can compare identity
+ * rather than a string prefix — a prefix test over-counts a sibling
+ * spelled `<headword>+ִית` (which STARTS WITH the host's own headword
+ * string) and under-counts a homograph headword whose Roman-numeral or
+ * superscript suffix a target rarely spells the same way. See the
+ * module doc's "The repair: UNLINK, by measurement" section. */
+function targetHeadwordSkeleton(dataRef: string): string | undefined {
+	const match = TARGET_RE.exec(stripPoints(dataRef));
+	const hw = match?.groups?.['hw'];
+	return hw === undefined ? undefined : skeleton(hw);
+}
+
 /** Every preceding TEXT token's value, concatenated up to `open` —
  * mirrors `rules/unlink.ts`'s private `leadOf`, restated here rather
  * than imported because that copy is not exported and this module's
@@ -217,7 +273,13 @@ function leadOf(tokens: readonly Token[], open: number): string {
  * window: what matters is not proximity but PURITY of everything after
  * the label (see `inCleanPlSpan`), so a label many characters back is
  * exactly as usable as one nearby, provided nothing non-Hebrew
- * intervenes. */
+ * intervenes. Measured over all 60 CLEAN members: the label→anchor
+ * span is min 0, median 0, max 23 characters — nothing in this
+ * population is anywhere near the range where an unbounded scan could
+ * misfire on a stray earlier "Pl." token, so the design choice above
+ * has headroom on the current corpus even though it is not itself
+ * bounded. A reuser scanning a field with much longer runs of pure
+ * Hebrew between citations should re-measure before relying on this. */
 const PL_LABEL_RE = /(?:^|[\s—])[Pp]l\.\s*/gu;
 function plLabelBoundary(lead: string): number | undefined {
 	let last: number | undefined;
@@ -281,8 +343,9 @@ function pluralToFeminineRaw(entry: SourceEntry, anchor: Anchor): boolean {
 	// resolves to itself is not a mislink to a "sibling" — there is no
 	// sibling, the target IS the host. Load-bearing, not defense in
 	// depth: H00796 and K00308 (module doc) both pass every check above
-	// and are removed ONLY here, which is what takes the loose 69/58
-	// reading down to this function's own 65/55.
+	// and are removed ONLY here, which is what takes the catalogued
+	// 68/57 reading (the skeleton predicate without this guard) down to
+	// this function's own 65/55.
 	return targetSkel !== skeleton(entry.headword);
 }
 
@@ -307,8 +370,9 @@ function pluralToFeminineMatch(
 /**
  * A printed plural anchored to the entry's feminine `-ית` sibling
  * instead of to itself — unlinked, keeping the display text, by the
- * measurement in the module doc (retarget is reachable for only 16.7%
- * of the population, so the row is repaired the way `geresh.ts`'s pair
+ * measurement in the module doc (retarget is reachable by target-entry
+ * identity for only 28.3% of the population, a minority under every
+ * reading measured, so the row is repaired the way `geresh.ts`'s pair
  * is: unlink uniformly rather than split by what else the entry
  * happens to cite).
  */
@@ -328,4 +392,6 @@ export {
 	pluralToFeminineFinalLetter,
 	pluralToFeminineMatch,
 	pluralToFeminineRaw,
+	skeleton,
+	targetHeadwordSkeleton,
 };
