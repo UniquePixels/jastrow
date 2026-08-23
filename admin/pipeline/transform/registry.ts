@@ -11,6 +11,7 @@ import {
 	latinTokenInsideRtl,
 	redundantOuterRtl,
 } from './rules/rtl.ts';
+import { apparatusCite, rabbiName } from './rules/unlink.ts';
 import type { Rule } from './types.ts';
 
 /** Rules in execution order. Entangled rows MUST be adjacent — they own
@@ -29,6 +30,16 @@ const RULES: readonly Rule[] = [
 	redundantOuterRtl,
 	bareRtlHebrew,
 	latinTokenInsideRtl,
+
+	// The unlink family (batch 2, task 2): rows whose anchor is wrong
+	// and whose correct target does not exist, so the anchor is
+	// dropped. Placed immediately after the rtl trio and BEFORE any
+	// future compose rule (Tasks 7-8): a compose rule reads the anchor
+	// sequence to build a new target, and must never adopt work from
+	// an anchor these two rules go on to delete — so unlinking has to
+	// run first, not merely somewhere earlier in the list.
+	apparatusCite,
+	rabbiName,
 ];
 
 /** Catalogued transform rows with no rule yet. Shrinks batch by batch;
@@ -83,7 +94,6 @@ const PENDING: readonly string[] = [
 	'holam-migrated-off-mater-vav',
 	'impossible-dagesh',
 	'binyan-form-leading-space',
-	'rabbi-name-linked-as-bible-book',
 	'binyan-form-empty-slot',
 	'sifre-ib-resolves-to-yalkut',
 	'plural-label-rendering-defeats-capture',
@@ -108,7 +118,6 @@ const PENDING: readonly string[] = [
 	'entry-final-comma',
 	'italic-swallows-close-paren',
 	'ib-targum-work-loss',
-	'apparatus-cite-linked-as-scripture',
 	'see-particle-lost',
 	'jt-double-wrapped-citation',
 ];
