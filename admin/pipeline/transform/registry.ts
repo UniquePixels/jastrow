@@ -92,6 +92,22 @@ const RULES: readonly Rule[] = [
 	//
 	// Unentangled: the row carries no `entangledWith` in the catalogue,
 	// and no other registered rule reads or writes a `Yoma 2a` anchor.
+	//
+	// FOR WHOEVER APPENDS THE NEXT RETARGET ROW — Task 8 adds
+	// `ib-targum-work-loss` and `sifre-ib-resolves-to-yalkut` directly
+	// below, and BOTH retarget. The argument above is about unlink
+	// rules, and it does not cover them. The rule for retarget after
+	// retarget is the mirror image and just as load-bearing: a retarget
+	// rule reading the anchor sequence must run AFTER any rule that
+	// REPAIRS an anchor it might adopt, or it will copy a target its
+	// neighbour is about to correct. The three `ib-` rows all read the
+	// same sequence, so a later one can legitimately adopt an anchor
+	// this rule already fixed — that is a repaired address, not a wrong
+	// one — but only if it sits below. Appending below is therefore the
+	// safe default, and the pair must be MEASURED both ways over the
+	// corpus (isolated vs composed, comparing the ADDRESS written and
+	// not merely the count) before either order is called free, exactly
+	// as `gereshLetterNumeral`/`prefixedGereshAbbrev` did above.
 	ibAnaphora,
 ];
 

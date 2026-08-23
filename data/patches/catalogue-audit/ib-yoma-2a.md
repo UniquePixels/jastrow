@@ -177,28 +177,65 @@ where the linker did *not* fail.
 sink and having a citation antecedent in the same definition —
 **n = 1,880**, disjoint from the members by construction.
 
-| the linker's own resolution vs the antecedent's target | n | share of 1,880 |
+Measured on a RANGE-SAFE comparison (§3.2 — an earlier stripper here
+mishandled segment ranges and understated every tier):
+
+| the linker's own resolution vs the antecedent's target | n | cumulative |
 |---|---:|---:|
 | byte-identical | 996 | **53.0%** |
-| same work and folio, different segment | 845 | 44.9% |
-| different work | 39 | 2.1% |
+| differs ONLY in the trailing segment | 870 | **99.3%** |
+| same work, different folio | 11 | **99.8%** |
+| different work | 3 | — |
 
-**97.9% of the time (1,841/1,880) the linker itself resolves a bare
-`Ib.` to the antecedent's own work and folio.** That is the semantic
+```bash
+bun -e '
+import { readSourceEntries } from "./admin/pipeline/body/source.ts";
+import { tokenize } from "./admin/pipeline/transform/html.ts";
+import { anchors } from "./admin/pipeline/transform/links.ts";
+import { ANAPHOR, isSpentAnaphor, usable } from "./admin/pipeline/transform/rules/anaphora.ts";
+const defs = (ss, out) => { for (const s of ss) { if (s.definition !== undefined) out.push(s.definition); if (s.senses) defs(s.senses, out); } return out; };
+// range-safe: strip the LAST segment group only, then the whole locus
+const passage = (r) => r.replace(/:\d+(?:-\d+)?$/u, "");
+const work = (r) => r.replace(/\s\d+[ab]?(?:[:-]\d+[ab]?)*$/u, "");
+let n = 0, exact = 0, samePassage = 0, sameWorkOnly = 0, diffWork = 0;
+for await (const e of readSourceEntries())
+  for (const d of defs(e.content.senses, [])) {
+    const list = anchors(tokenize(d));
+    list.forEach((a, at) => {
+      if (!(usable(a) && ANAPHOR.test(a.display.trim()))) return;
+      if (a.dataRef.startsWith("Yoma 2a")) return;          // the population
+      const prior = list.slice(0, at).reverse().find((p) =>
+        usable(p) && !isSpentAnaphor(p) && p.dataRef !== "" && !p.dataRef.startsWith("Jastrow, "));
+      if (prior === undefined) return;
+      n++;
+      if (a.dataRef === prior.dataRef) exact++;
+      else if (passage(a.dataRef) === passage(prior.dataRef)) samePassage++;
+      else if (work(a.dataRef) === work(prior.dataRef)) sameWorkOnly++;
+      else diffWork++;
+    });
+  }
+console.log({ n, exact, samePassage, sameWorkOnly, diffWork });
+'
+# → { n: 1880, exact: 996, samePassage: 870, sameWorkOnly: 11, diffWork: 3 }
+```
+
+**99.3% of the time (1,866/1,880) the linker itself resolves a bare
+`Ib.` to an address differing from the antecedent's by at most the
+trailing segment, and 99.8% to the same work.** That is the semantic
 claim — *ibidem* = the place last named — validated on 1,880 cases
 nobody fitted it to.
 
 ### 3.1 KNOWN LIMIT — segment precision
 
-In 44.9% (845 of 1,880) the linker
-picks a *different segment of the same folio* (`Sanhedrin 78b:12` →
-`78b:11`), because Sefaria matched the quoted Hebrew to a specific
-segment. Copying the antecedent's target whole cannot reproduce that —
+In 46.3% (870 of 1,880) the linker picks a *different trailing
+segment of the same passage* (`Sanhedrin 78b:12` → `78b:11`), because
+Sefaria matched the quoted Hebrew to a specific segment. Copying the antecedent's target whole cannot reproduce that —
 it is text matching against a corpus this pipeline does not hold, and
 inventing a segment number is exactly what §3.2 forbids. **So the
-repair is folio-exact and segment-approximate: it lands the reader on
-the right page always, on the linker's own segment about half the
-time.** Against `Yoma 2a` — a different tractate, a different
+repair is passage-exact and segment-approximate: it lands the reader
+on the antecedent's own address — which is what "ib." names — and
+differs from the linker's own answer in the trailing segment about
+half the time.** Against `Yoma 2a` — a different tractate, a different
 Talmud — that is a correction under any reading, and it is the most
 precise one derivable from entry-local data. It is not segment-perfect
 and this document does not claim it is.
@@ -208,13 +245,47 @@ antecedent's exact address is arguably more faithful to Jastrow than
 the linker's segment guess, since "ib." names the place he had just
 cited. The limit is recorded rather than repaired.
 
-### 3.2 The 39 "different work" cases
+**Inside the limit, but worth naming: 3 of the 209 firing members**
+(P00175, Q00006, S00030) have an unanchored `Ib.` carrying a POSITION
+marker in the gap — "Ib. (mid-page)", "Ib. bot." — so the `Ib.` this
+rule repairs means the same folio at a different position on it. That
+is a segment-level difference, so it sits inside the limit above
+rather than beside it, but it is a distinguishable sub-shape and the
+limit did not say so. `INTERVENING_CITATION` does not fire on these
+because a position marker carries no locus: `bot.`/`top` trip on 92 of
+the 272 gaps and are almost always the tail of the antecedent's OWN
+citation, so treating them as cues would decline a third of the
+population for evidence of the antecedent it is about to copy. The
+trade is 3 same-folio position slips against ~90 correct repairs.
 
-These are mostly an artefact of the folio- are mostly an artefact of the folio-
-stripping in the query above mishandling segment RANGES
-(`Niddah 36b:59-60` vs `36b:66-67` are the same work); the residue of
-genuine work changes is a handful, and each is an `Ib.` after an
-intervening unanchored citation — the same shape §4 declines.
+### 3.2 The "different work" cases — 3, not 39
+
+The 39 this section used to report was an artefact of a
+folio-range-naive stripper, and it is corrected here rather than left
+standing with a hedge. The old stripper —
+
+```
+r.replace(/\s*\d+[ab]?(?::\d+)*\s*$/u, "").replace(/\s*\d+(?::\d+)*\s*$/u, "").trim()
+```
+
+— cannot consume a segment RANGE, so `Niddah 36b:59-60` and
+`Niddah 36b:66-67` compared as different "works" when they are the
+same tractate and folio. Range-safe (the `passage`/`work` pair in
+§3's query above), the count is **3**:
+
+| rid | antecedent | the linker's `Ib.` | reading |
+|---|---|---|---|
+| A01334 | `Sukkah 55b:14` | `Mishnah Sukkah 1:1` | the one genuine work change — Bavli tractate vs the Mishnah of the same name |
+| O00242 | `Jerusalem Talmud Sheviit 3:7:3` | *(empty)* | no `data-ref` at all: no rival address, the linker resolved nothing |
+| S00503 | `Gittin 67a:8` | *(empty)* | same |
+
+So the genuine work-level disagreement in the whole 1,880-case control
+is **one**. Reported honestly as a discrepancy rather than smoothed
+over: the batch reviewer, using its own work extractor, measured **4**
+here (agreeing on the two empty-`data-ref` cases); the extractor above
+yields 3 and is published so the difference can be settled by running
+it rather than by argument. Either figure leaves the conclusion
+untouched — work-level disagreement is ≤0.2% of the control.
 
 ## 4. Where the repair is NOT derivable: the decline census
 
@@ -420,8 +491,9 @@ Each was looked for; none was found.
   — an empty `data-ref` — which is the mechanism failing differently,
   not succeeding.
 - **The antecedent reading failing on data it wasn't fitted to.** §3's
-  control is 1,880 anchors outside the population; 97.9% agree with
-  the antecedent at work-and-folio. Had that come back near chance,
+  control is 1,880 anchors outside the population; 99.3% agree with
+  the antecedent to within the trailing segment, 99.8% on the work.
+  Had that come back near chance,
   the row would have gone to `judgment` the way `h-cognate-self-link`
   did.
 - **Discovery skew.** The catalogue was built letter-A-first, so an

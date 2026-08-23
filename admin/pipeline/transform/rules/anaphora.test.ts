@@ -164,6 +164,31 @@ it('a locus in the display is declined, not composed', () => {
 	expect(definitionOf(result)).toBe(withLocus);
 });
 
+it('declines an antecedent that ENCLOSES the anaphor rather than preceding it', () => {
+	// Anchors nest (477 pairs in definition text). A citation anchor
+	// whose `</a>` lands after the anaphor's `<a>` wraps it, so the
+	// "text between" them is a backwards range and reads as empty —
+	// the gap check would pass vacuously on the one shape it exists to
+	// catch. Measured 0 such pairs corpus-wide (2026-08-23), so this is
+	// a guard against a shape the corpus does not currently hold.
+	const enclosing =
+		'<a class="refLink" href="/Shabbat.30b" data-ref="Shabbat 30b">Sabb. 30ᵇ ' +
+		'<a class="refLink" href="/Yoma.2a" data-ref="Yoma 2a">Ib.</a> tail</a>';
+	const list = anchors(tokenize(enclosing));
+	const at = list.findIndex(isSinkMember);
+	expect(at).toBeGreaterThan(-1);
+	const outer = list[at - 1];
+	const inner = list[at];
+	if (outer === undefined || inner === undefined) {
+		throw new Error('expected an enclosing pair');
+	}
+	expect(outer.close).toBeGreaterThan(inner.open);
+	expect(antecedentOf(tokenize(enclosing), list, at)).toBeUndefined();
+	const out = run(entry('X00002', enclosing));
+	expect(out.records).toHaveLength(0);
+	expect(definitionOf(out)).toBe(enclosing);
+});
+
 it('repairs a member inside a nested sense, recursing through sense.senses', () => {
 	const nested = {
 		content: {

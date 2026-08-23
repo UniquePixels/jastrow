@@ -102,16 +102,27 @@
  * ## What the repair does and does not achieve
  *
  * Validated against 1,880 bare anaphors OUTSIDE this population (the
- * audit's §3 control): the linker's own resolution equals the
- * antecedent's target byte-for-byte 53.0% of the time and its work and
- * folio 97.9% of the time. So copying whole is folio-exact and
- * segment-approximate — it lands the reader on the right page always
- * and on the linker's own segment about half the time, because the
- * remaining 44.9% is Sefaria matching quoted Hebrew to a segment,
- * which cannot be reproduced from entry-local data and must not be
- * guessed. Against `Yoma 2a` — a different tractate in a different
- * Talmud — that is a correction under any reading. It is not
- * segment-perfect, and nothing here claims it is.
+ * audit's §3 control), on a range-safe comparison — an earlier,
+ * folio-range-naive one understated every tier and is corrected in the
+ * audit's §3.2:
+ *
+ * ```
+ * 996  53.0%  byte-identical to the antecedent's target
+ * 870  99.3%  cumulative: differ ONLY in the trailing segment
+ *  11  99.8%  cumulative: same work, different folio
+ *   3         different work — one genuine (A01334), two with an
+ *             empty `data-ref` on the anaphor, i.e. no rival address
+ * ```
+ *
+ * So copying whole is passage-exact and segment-approximate: it lands
+ * the reader on the antecedent's own address, which is what "ib."
+ * names, and differs from the linker's own answer in the trailing
+ * segment about half the time. That remainder is Sefaria matching
+ * quoted Hebrew to a segment, which cannot be reproduced from
+ * entry-local data and must not be guessed. Against `Yoma 2a` — a
+ * different tractate in a different Talmud — that is a correction
+ * under any reading. It is not segment-perfect, and nothing here
+ * claims it is.
  */
 import type { SourceEntry, SourceSense } from '../../body/types.ts';
 import { serialize, type Token, tokenize } from '../html.ts';
@@ -234,6 +245,17 @@ function textBetween(
  *
  * `list` must be the anchors of `tokens`, in document order, and
  * `at` the anaphor's index within it.
+ *
+ * `citation.close >= anchor.open` DECLINES rather than measuring an
+ * empty gap. An earlier-opening anchor whose `</a>` lands after the
+ * anaphor's `<a>` ENCLOSES it — anchors nest in this corpus, 477 pairs
+ * in definition text — and `textBetween` over a backwards range
+ * quietly returns `''`, so the gap check would pass VACUOUSLY on the
+ * one shape it exists to catch. Measured 0 such pairs among all bare
+ * anaphors corpus-wide (2026-08-23), so this guards a case the corpus
+ * does not currently hold; it is here because a vacuous pass is worse
+ * than a decline, and because `unlinkMatching`'s docstring records
+ * what assuming anchors do not nest already cost this module once.
  */
 function antecedentOf(
 	tokens: readonly Token[],
@@ -254,7 +276,7 @@ function antecedentOf(
 				prior.dataRef !== '' &&
 				!prior.dataRef.startsWith(LEXICAL),
 		);
-	if (citation === undefined) {
+	if (citation === undefined || citation.close >= anchor.open) {
 		return;
 	}
 	const gap = textBetween(tokens, citation.close + 1, anchor.open);
