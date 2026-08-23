@@ -148,16 +148,26 @@ it('leaves a real citation of Joshua in a rabbinic context alone', () => {
 	expect(out.records).toHaveLength(0);
 });
 
-it('rabbiName does not fire on the comma-lead sibling variant (K01198)', () => {
-	// Same mislink, different lead punctuation ("introd., R. " rather
-	// than "introd. (R. ") — deliberately outside this predicate's
-	// scope. See unlink.ts's RABBI_CUE docstring.
+// Ruling (maintainer, 2026-08-23): K01198's comma-lead ("introd., R. ")
+// is the SAME defect as the open-paren lead ("introd. (R. ") — same
+// rabbinic-name context, same Book-of-Joshua target, same "introd."
+// antecedent — and the predicate must describe the defect rather than
+// stop one short of it to match the catalogue's (pre-this-rule) count
+// of 41. This test used to assert the opposite (that K01198 was
+// deliberately excluded); the ruling reverses that and this is now
+// the record of it. `bun transform:count` measures 42 against a
+// catalogued 41 as a result — the delta is a correction for Task 11's
+// write-back, the same direction batch 1's `bare-rtl-hebrew` count
+// was corrected (4,190 → 4,189).
+it('unlinks the comma-lead sibling variant (K01198)', () => {
 	const K01198 =
 		'he erected camps of siege (Lam. R. introd., R. ' +
 		'<a class="refLink" href="/Joshua.2.24" data-ref="Joshua 2:24">Josh. 2</a> טירונין).';
 	const out = applyTransforms(entry(K01198, 'K01198'), 'text-repairs', [
 		rabbiName,
 	]);
-	expect(out.entry.content.senses[0]?.definition).toBe(K01198);
-	expect(out.records).toHaveLength(0);
+	expect(out.entry.content.senses[0]?.definition).toBe(
+		'he erected camps of siege (Lam. R. introd., R. Josh. 2 טירונין).',
+	);
+	expect(out.records).toHaveLength(1);
 });

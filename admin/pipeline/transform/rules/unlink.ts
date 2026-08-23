@@ -39,18 +39,22 @@ const GRAETZ_CUE = /\bGr(?:ae|æ)tz,?\s+Gesch\.\s+d(?:\.|er)\s*$/u;
 const ARUCH_CUE = /\bAr\.(?:\s*Compl\.)?\s*ed\.\s*$/u;
 
 /**
- * A rabbi's name introduced by "(R. " — in every measured instance,
- * "R. Josh[ua]" — whose abbreviation the linker resolved to the Book
- * of Joshua instead of leaving it as a bare name. Measured 41/41
- * against the catalogue's `corpusCount`. A documented 42nd occurrence
- * (K01198: "…siege (Lam. R. introd., R. Josh. 2 …)" — a COMMA before
- * "R." rather than this cue's open paren) is the same mislink under
- * different lead punctuation; it is deliberately NOT matched here, so
- * this predicate stays at the row's own catalogued population rather
- * than the audit's disclosed-but-uncounted superset of 42. See
- * task-2-report.md, "What my predicate excludes and why".
+ * A rabbi's name introduced right after "introd." — "(R. " (the
+ * common case) or ", R. " (K01198's "…introd., R. Josh. 2…") — in
+ * every measured instance "R. Josh[ua]", whose abbreviation the
+ * linker resolved to the Book of Joshua instead of leaving it as a
+ * bare name. The open-paren and comma leads are the SAME defect: both
+ * sit immediately after "introd." (or "Ib." standing in for it), both
+ * introduce a rabbi's name, both got read as "Josh." the book. Ruling
+ * (maintainer, 2026-08-23): describe the defect, not the catalogued
+ * number — a predicate carved to stop one short of a real member,
+ * for no reason but matching a count, is not a measurement. Measured
+ * 42/42 against this cue; the catalogue's `corpusCount` (41) predates
+ * this rule and is corrected by it, the same direction batch 1's
+ * `bare-rtl-hebrew` correction ran (4,190 → 4,189) — Task 11 owns the
+ * `patterns.jsonl` write-back. See task-2-report.md.
  */
-const RABBI_CUE = /\(R\.\s*$/u;
+const RABBI_CUE = /[(,]\s*R\.\s*$/u;
 
 /**
  * Every preceding TEXT token's value, concatenated up to `open` — the
