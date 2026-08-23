@@ -60,8 +60,8 @@ Cutover gate, cross-cut:
 
 | | Rows | Instances |
 |---|---:|---:|
-| Blocks the v2 cutover | 60 | 18,120 |
-| Launch need not wait | 72 | 24,577 |
+| Blocks the v2 cutover | 59 | 16,085 |
+| Launch need not wait | 73 | 26,612 |
 
 ## The transform queue — all 80 rows, largest first
 
@@ -178,15 +178,22 @@ either reproduces the count or does not.
 
 ## Judgment queue — 47 rows / 15,131 instances
 
-`abbrev-in-alt-headwords` (2,035, blocking) is the newest member,
-reclassified out of the transform queue on 2026-08-22 — spec
+`abbrev-in-alt-headwords` (2,035) is the newest member, reclassified
+out of the transform queue on 2026-08-22 — spec
 [§5.2](../specs/2026-08-22-transform-module-design.md) has the ruling
 and the test it establishes: *ask what a rule INFERS as opposed to what
 it MOVES.*
 
-24 of these block the cutover (7,828 instances), and
-`abbrev-in-alt-headwords` alone is 2,035 of them. Of the remaining
-5,793, five rows are 85%, and four of the five are **one family** —
+**It is also `blocking: false`, decided the same day.** With no
+transform, nothing is baked in by the migration, and no entry is
+unreachable — every member carries a full geresh-free headword. What is
+lost is the variant as a *search key*, in the 1,594 members that have no
+geresh-free alt at all. Degraded search on those spellings is a
+post-launch quality item, not a cutover gate. That is the only row whose
+`blocking` flag this batch changed.
+
+23 of these block the cutover (5,793 instances). Five rows are 85% of
+that, and four of the five are **one family** —
 paren/bracket integrity and lead-sense structure. Scope them as a single
 pass, not five:
 
