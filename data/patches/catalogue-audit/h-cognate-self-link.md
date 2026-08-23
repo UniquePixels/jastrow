@@ -14,7 +14,8 @@ against. Route to `judgment`.
 
 All measurement reads the tokenizer's anchor view (`html.ts` +
 `links.ts`), not a regex over raw HTML — the corpus nests anchors in
-this field and a flat regex cannot see it (below).
+both `language_reference` (757 pairs) and `definition` (507), and a flat
+regex cannot see it (below).
 
 `data-ref` in `language_reference` is `Jastrow, <headword> <senseNumber>`
 in **5,339 of 5,339** anchors; no non-`Jastrow` target, and no headword
@@ -41,9 +42,9 @@ catalogued 85 exactly. `unusable: 0` — none of the 107 is `malformed`,
 
 ### Reconciling 107 against the catalogued 87
 
-The +20 is fully derived, not a carve. **25 entries in this field carry
-a nested duplicate anchor** — the last anchor of the etymology is
-wrapped a second time, swallowing the closing paren:
+The +20 is fully derived, not a carve. **25 of this row's 85 member
+entries carry a nested duplicate anchor** — the last anchor of the
+etymology is wrapped a second time, swallowing the closing paren:
 
 ```
 A00383  <a … data-ref="Jastrow, אֱדוֹם 1"><a … data-ref="Jastrow, אֱדוֹם 1">אֱדֹם</a>)</a>
@@ -68,11 +69,71 @@ and agree on the entry count. **All figures below are stated over the 87
 inner occurrences**, because the 20 wrappers are the same printed word
 counted twice and belong to a duplicate-anchor row, not to this one.
 
-`links.ts`'s `anchors` docstring says "anchors do not nest in this
-corpus"; `unlinkMatching` in `rules/unlink.ts` relies on that to justify
-its reverse-order deletion. **That claim holds for definitions and fails
-in `language_reference`** (25 entries). Any future rule extended to this
-field must not inherit the assumption.
+### Anchors nest in BOTH fields — corrected 2026-08-23
+
+**The first version of this audit got this wrong and the correction is
+the load-bearing part of this section.** It said `links.ts`'s "anchors
+do not nest in this corpus" *"holds for definitions and fails in
+`language_reference` (25 entries)"*. Both halves were false. The 25 is
+real but is a **subset**: it is the nested-pair count inside this row's
+own 85 member entries, not a corpus-wide figure, and it was produced by
+a query that skipped every entry without a self-link. Re-measured
+corpus-wide, over both fields, counting a pair whenever one anchor's
+`open` lies strictly inside another's span:
+
+```ts
+function pairsIn(text: string) {
+  const toks = tokenize(text);
+  const as = anchors(toks);
+  const out: Array<[Anchor, Anchor]> = [];
+  for (const x of as) {
+    const xc = x.close === -1 ? toks.length : x.close;
+    for (const y of as) {
+      if (y !== x && y.open > x.open && y.open < xc) out.push([x, y]);
+    }
+  }
+  return out;
+}
+// definitions, recursing into sense.senses:
+//   raw        → { pairs: 507, entries: 467 }
+//   bothUsable → { pairs: 477, entries: 465, sameRef: 475 }
+// language_reference:
+//   raw = bothUsable → { pairs: 757, entries: 756, sameRef: 755 }
+// within this row's 85 members → 25 pairs   ← the subset quoted above
+```
+
+| Field | Nested pairs | Entries | Both members usable | Same `data-ref` |
+|---|---|---|---|---|
+| `definition` (recursive) | 507 | 467 | **477 / 465 entries** | 475 |
+| `language_reference` | **757** | **756** | 757 | 755 |
+| — of which, inside this row's 85 members | 25 | ≤25 | 25 | 25 |
+
+**Definitions are not safe, and definitions are the field the shipped
+unlink rules actually run over.** 477 pairs across 465 entries have both
+members usable, so both are live candidates for any predicate: A00085,
+A00115, A00130, A00211, A00282, A00302, A00349, A00436 are the first
+eight by rid. The 30-pair gap between 507 and 477 is pairs with a
+`malformed`, `interior` or unclosed member, which both editors refuse
+anyway.
+
+The `language_reference` figure — **757 pairs / 756 entries, 755 sharing
+one `data-ref`** — is the population of the pending
+**`nonsense-dup-anchor`** row (`route: transform`, catalogued **755**),
+whose description is exactly this shape: *"duplicate anchor wrap in
+language_reference, the outer layer wrapping nothing but the inner
+anchor and one trailing punctuation mark"*. That row is 755, not 25, and
+nothing in this audit scopes it.
+
+**This observation exposed a real bug, since fixed.** `unlinkMatching`
+in `rules/unlink.ts` deleted matched anchors in reverse `open` order on
+the strength of the false no-nesting claim; on a nested pair the outer
+anchor's `close` index went stale and the deletion left a stray `</a>`.
+Fixed in **`6b45ec8`** by re-deriving `anchors()` before each removal,
+with an A00282 regression test and a permanent corpus-wide tag-balance
+test; `links.ts`'s docstring was corrected in the same commit and now
+carries these figures. A reader tracing the provenance of the nesting
+claim should read that commit, not the superseded sentence this section
+replaces.
 
 ## The etymology cue is in a different field than the brief assumed
 
@@ -304,10 +365,14 @@ it:
   `language_reference` seam that this row's 83 `b. h.` members sit
   across. 2,622 entries carry the cue in `language_code`; that row, not
   this one, is where the etymology parenthesis gets repaired.
-- **`nonsense-dup-anchor` (pending)** — the 25 nested duplicate anchors
-  found here (A00383, A00899, A01507, C01192, D00120, …) are a real
-  defect in this field and are **not** this row. Whichever row claims
-  them, its author needs the nesting caveat above.
+- **`nonsense-dup-anchor` (755, pending transform)** — its population is
+  the **757 nested pairs / 756 entries** in `language_reference`, 755 of
+  them same-`data-ref`, measured above. The 25 that fall inside this
+  row's 85 members (A00383, A00899, A01507, C01192, D00120, …) are a
+  3.3% slice of it and are **not** this row. Its author should read the
+  nesting section above and `6b45ec8`: definitions nest too (477 usable
+  pairs / 465 entries), and the reverse-order deletion that assumption
+  licensed was a real bug.
 - **`homograph-numbering-schism` (186, judgment)** — merge flag, above.
 - **`abbrev-in-alt-headwords` / `abbrev-headword-stub`** — O00068's
   `שְׂ׳` display is an abbreviation stub, the only member of the 87 whose
