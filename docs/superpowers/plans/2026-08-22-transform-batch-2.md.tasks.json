@@ -19,7 +19,7 @@
   {
    "id": 2,
    "subject": "Task 2: Unlink apparatus and rabbi cites",
-   "status": "pending",
+   "status": "completed",
    "description": "**Goal:** Two rows (49 instances) where the anchor points at scripture the text never cited.\n\n**Files:**\n- Create: `admin/pipeline/transform/rules/unlink.ts`\n- Test: `admin/pipeline/transform/rules/unlink.test.ts`\n- Modify: `admin/pipeline/transform/registry.ts`\n\n**Acceptance Criteria:**\n- [ ] apparatus-cite-linked-as-scripture fires on A00135 and unlinks the Judges 2:2 anchor, leaving 'Jud. II, 2' as text\n- [ ] rabbi-name-linked-as-bible-book unlinks only rabbinic-name contexts, never a real biblical citation of the same book\n- [ ] Both rules declare unlinks equal to the anchors removed\n- [ ] bun transform:count reports each rule within its catalogued count, or the delta is explained in the commit message\n- [ ] Both rows removed from PENDING and registered\n\n**Verify:** `bun test admin/pipeline/transform/rules/unlink.test.ts` then `bun transform:count`\n\n```json:metadata\n{\"files\": [\"admin/pipeline/transform/rules/unlink.ts\", \"admin/pipeline/transform/rules/unlink.test.ts\", \"admin/pipeline/transform/registry.ts\"], \"verifyCommand\": \"bun test admin/pipeline/transform/rules/unlink.test.ts && bun transform:count\", \"acceptanceCriteria\": [\"A00135 unlinked, display kept\", \"real biblical citation untouched\", \"unlinks declared\", \"counts measured against catalogue\", \"rows registered and out of PENDING\"], \"modelTier\": \"standard\"}\n```",
    "blockedBy": [
     1
@@ -109,5 +109,5 @@
    ]
   }
  ],
- "lastUpdated": "2026-08-23T07:55:00-05:00"
+ "lastUpdated": "2026-08-23T08:15:00-05:00"
 }
