@@ -4,13 +4,13 @@
   {
    "id": 0,
    "subject": "Task 0: The anchor view",
-   "status": "pending",
+   "status": "completed",
    "description": "**Goal:** One parser for anchor attributes, with two editors, that declines to touch damaged tags.\n\n**Files:**\n- Create: `admin/pipeline/transform/links.ts`\n- Test: `admin/pipeline/transform/links.test.ts`\n\n**Acceptance Criteria:**\n- [ ] anchors(tokenize(s)) returns one Anchor per <a> with href, dataRef, display and token span\n- [ ] An anchor whose opening tag fails opensScope is returned malformed: true and both editors refuse it\n- [ ] serialize(retarget(...)) and serialize(unlink(...)) round-trip every untouched byte\n- [ ] unlink removes exactly the two tag tokens and keeps every text token between them\n- [ ] No regex parses an attribute outside this file\n\n**Verify:** `bun test admin/pipeline/transform/links.test.ts` → all pass\n\n```json:metadata\n{\"files\": [\"admin/pipeline/transform/links.ts\", \"admin/pipeline/transform/links.test.ts\"], \"verifyCommand\": \"bun test admin/pipeline/transform/links.test.ts\", \"acceptanceCriteria\": [\"Anchor exposes href, dataRef, display, span\", \"malformed anchors refused by both editors\", \"byte round-trip preserved\", \"unlink keeps display text\", \"attribute parsing lives only in links.ts\"], \"modelTier\": \"standard\"}\n```"
   },
   {
    "id": 1,
    "subject": "Task 1: The link-target gate",
-   "status": "pending",
+   "status": "completed",
    "description": "**Goal:** href and data-ref stop being an ungated surface.\n\n**Files:**\n- Create: `admin/pipeline/transform/link-target.ts`\n- Test: `admin/pipeline/transform/link-target.test.ts`\n- Modify: `admin/pipeline/transform/types.ts` (add composed, unlinks)\n- Modify: `admin/pipeline/transform/run.ts:36-42` (third gate)\n\n**Acceptance Criteria:**\n- [ ] A rule writing a target absent from the entry's input fails, naming rule and target\n- [ ] A rule that adds an anchor fails\n- [ ] A rule that removes an anchor without declaring unlinks fails; a wrong count fails\n- [ ] A compose whose remainder introduces a character absent from the display fails\n- [ ] An undeclared compose fails even when the target looks plausible\n- [ ] The three landed RTL rules still pass every gate unchanged\n\n**Verify:** `bun test admin/pipeline/transform/` → all pass, including rtl.test.ts\n\n```json:metadata\n{\"files\": [\"admin/pipeline/transform/link-target.ts\", \"admin/pipeline/transform/link-target.test.ts\", \"admin/pipeline/transform/types.ts\", \"admin/pipeline/transform/run.ts\"], \"verifyCommand\": \"bun test admin/pipeline/transform/\", \"acceptanceCriteria\": [\"fabricated target fails\", \"anchor growth fails\", \"undeclared/miscounted unlink fails\", \"compose remainder must be in display\", \"undeclared compose fails\", \"RTL rules unaffected\"], \"modelTier\": \"frontier\"}\n```",
    "blockedBy": [
     0
@@ -109,5 +109,5 @@
    ]
   }
  ],
- "lastUpdated": "2026-08-22T22:55:00-05:00"
+ "lastUpdated": "2026-08-23T07:55:00-05:00"
 }
