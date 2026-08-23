@@ -5,7 +5,7 @@
       "id": 0,
       "subject": "Task 0: Rule types and the empty registry",
       "status": "completed",
-      "description": "**Goal:** The Rule contract and a coverage gate that is meaningful on day one, when zero rules exist.\n\n**Files:**\n- Create: `admin/pipeline/transform/types.ts`\n- Create: `admin/pipeline/transform/registry.ts`\n- Test: `admin/pipeline/transform/registry.test.ts`\n\n**Acceptance Criteria:**\n- [ ] `Rule` has no field holding an expected count\n- [ ] Coverage gate lists all 81 `route: transform` rows as registered or pending\n- [ ] A rule id absent from `patterns.jsonl` fails the gate\n- [ ] Entangled rows must be adjacent in registry order\n\n**Verify:** `bun test admin/pipeline/transform/registry.test.ts` \u2192 4 pass\n\n```json:metadata\n{\"files\": [\"admin/pipeline/transform/types.ts\", \"admin/pipeline/transform/registry.ts\", \"admin/pipeline/transform/registry.test.ts\"], \"verifyCommand\": \"bun test admin/pipeline/transform/registry.test.ts\", \"acceptanceCriteria\": [\"Rule carries no expected count\", \"coverage() accounts for all 81 transform rows\", \"unknown rule id fails the gate\", \"entangled rows adjacent\"], \"modelTier\": \"standard\"}\n```"
+      "description": "**Goal:** The Rule contract and a coverage gate that is meaningful on day one, when zero rules exist.\n\n**Files:**\n- Create: `admin/pipeline/transform/types.ts`\n- Create: `admin/pipeline/transform/registry.ts`\n- Test: `admin/pipeline/transform/registry.test.ts`\n\n**Acceptance Criteria:**\n- [ ] `Rule` has no field holding an expected count\n- [ ] Coverage gate lists all 80 `route: transform` rows as registered or pending\n- [ ] A rule id absent from `patterns.jsonl` fails the gate\n- [ ] Entangled rows must be adjacent in registry order\n\n**Verify:** `bun test admin/pipeline/transform/registry.test.ts` \u2192 4 pass\n\n```json:metadata\n{\"files\": [\"admin/pipeline/transform/types.ts\", \"admin/pipeline/transform/registry.ts\", \"admin/pipeline/transform/registry.test.ts\"], \"verifyCommand\": \"bun test admin/pipeline/transform/registry.test.ts\", \"acceptanceCriteria\": [\"Rule carries no expected count\", \"coverage() accounts for all 80 transform rows\", \"unknown rule id fails the gate\", \"entangled rows adjacent\"], \"modelTier\": \"standard\"}\n```"
     },
     {
       "id": 1,
@@ -58,12 +58,12 @@
     },
     {
       "id": 6,
-      "subject": "Task 6: Expand resolvable alt-headword stubs",
+      "subject": "Task 6: Alt-headword stubs \u2014 WITHDRAWN to judgment",
       "status": "completed",
       "blockedBy": [
         3
       ],
-      "description": "**Goal:** Expand the geresh-truncated alt-headword stubs whose tail the anchor rule resolves uniquely, and move the unresolvable residue to `judgment` with the measurement recorded.\n\n**Files:**\n- Create: `admin/pipeline/transform/rules/headwords.ts`\n- Test: `admin/pipeline/transform/rules/headwords.test.ts`\n- Modify: `admin/pipeline/transform/registry.ts`\n- Modify: `data/patches/patterns.jsonl`\n\n**Acceptance Criteria:**\n- [ ] A uniquely-resolvable stub expands (`\u05e8\u05b4\u05d9\u05f3` \u2192 `\u05e8\u05b4\u05d9\u05d1\u05b0\u05d3\u05b8\u05bc\u05d0`)\n- [ ] An ambiguous stub is left untouched, not guessed\n- [ ] A parenthesized stub is unwrapped before expansion (88 members)\n- [ ] Gershayim U+05F4 acronyms are never touched (16 genuine lexemes)\n- [ ] The residue is measured and split into `abbrev-stub-unresolvable-tail`\n\n**Verify:** `bun test admin/pipeline/transform/rules/headwords.test.ts` \u2192 6 pass; Step 1 probe reproduces \u224865.5% unique\n\n```json:metadata\n{\"files\": [\"admin/pipeline/transform/rules/headwords.ts\", \"admin/pipeline/transform/rules/headwords.test.ts\", \"admin/pipeline/transform/registry.ts\", \"data/patches/patterns.jsonl\"], \"verifyCommand\": \"bun test admin/pipeline/transform/rules/headwords.test.ts && bun transform:count\", \"acceptanceCriteria\": [\"unique anchor expands\", \"ambiguous stub untouched\", \"parenthesized stub unwrapped first\", \"gershayim acronyms never touched\", \"residue row committed with route judgment\"], \"modelTier\": \"frontier\"}\n```"
+      "description": "**WITHDRAWN.** The rule was written, tested and matching its catalogue count when the maintainer ruled the row gets no transform (spec \u00a75.2 \"Inference is not transformation\"): the elided form is what the print has, and expansion assumes the headword's remaining vowels are the variant's. `abbrev-in-alt-headwords` is `route: judgment` at 2,035; the rule and its tests were deleted and the abbrev split reverted.\n\nComplete \u2014 see git history at 95e913a."
     },
     {
       "id": 7,
@@ -73,8 +73,8 @@
         5,
         6
       ],
-      "description": "**Goal:** Prove the four rules compose with `repairs.ts` and the gates still hold at 32,512/32,512.\n\n**Files:**\n- Modify: `admin/pipeline/body/migrate-dry.ts:197-218`\n- Modify: `docs/v2/body-migration.md`\n\n**Acceptance Criteria:**\n- [ ] Transforms run after `applyRepairs`, inside `text-repairs`\n- [ ] All four round-trip gates stay at 32,512/32,512\n- [ ] 0 schema failures, 0 label quarantines \u2014 unchanged from baseline\n- [ ] The tokenizer round-trip count is unchanged from Task 1\n\n**Verify:** `bun body:migrate-dry` \u2192 gates 32,512/32,512, 0 schema failures; gate-line diff against the captured baseline is empty\n\n```json:metadata\n{\"files\": [\"admin/pipeline/body/migrate-dry.ts\", \"docs/v2/body-migration.md\"], \"verifyCommand\": \"bun body:migrate-dry\", \"acceptanceCriteria\": [\"transforms run after applyRepairs in text-repairs\", \"all four round-trip gates 32512/32512\", \"0 schema failures and 0 quarantines\", \"tokenizer round-trip still lossy=0\"], \"modelTier\": \"standard\"}\n```"
+      "description": "**Goal:** Prove the three rules compose with `repairs.ts` and the gates still hold at 32,512/32,512.\n\n**Files:**\n- Modify: `admin/pipeline/body/migrate-dry.ts:197-218`\n- Modify: `docs/v2/body-migration.md`\n\n**Acceptance Criteria:**\n- [ ] Transforms run after `applyRepairs`, inside `text-repairs`\n- [ ] All four round-trip gates stay at 32,512/32,512\n- [ ] 0 schema failures, 0 label quarantines \u2014 unchanged from baseline\n- [ ] The tokenizer round-trip count is unchanged from Task 1\n\n**Verify:** `bun body:migrate-dry` \u2192 gates 32,512/32,512, 0 schema failures; gate-line diff against the captured baseline is empty\n\n```json:metadata\n{\"files\": [\"admin/pipeline/body/migrate-dry.ts\", \"docs/v2/body-migration.md\"], \"verifyCommand\": \"bun body:migrate-dry\", \"acceptanceCriteria\": [\"transforms run after applyRepairs in text-repairs\", \"all four round-trip gates 32512/32512\", \"0 schema failures and 0 quarantines\", \"tokenizer round-trip still lossy=0\"], \"modelTier\": \"standard\"}\n```"
     }
   ],
-  "lastUpdated": "2026-08-22T15:55:00-05:00"
+  "lastUpdated": "2026-08-22T19:45:00-05:00"
 }

@@ -35,7 +35,10 @@ import type { Rule, TransformRecord, TransformResult } from '../types.ts';
 /** A Latin homograph numeral swallowed by the rtl span that should
  * have held only the Hebrew. The lookbehind pins the numeral to a
  * Hebrew base so a wholly-Latin span is never touched. */
-const ROMAN_TAIL = new RegExp(`(?<=[${HEBREW}])\\s+(?<roman>[IVX]+)\\s*$`, 'u');
+const ROMAN_TAIL = new RegExp(
+	String.raw`(?<=[${HEBREW}])\s+(?<roman>[IVX]+)\s*$`,
+	'u',
+);
 
 /** The sub-lemma marker immediately before a Hebrew run: U+2014, the
  * corpus's only em-dash (27,712 occurrences against 18 of U+2013, none

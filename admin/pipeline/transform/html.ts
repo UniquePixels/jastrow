@@ -30,7 +30,7 @@ const DIR_RTL = /\bdir\s*=\s*(?<q>["']?)rtl\k<q>/u;
  * forms included) · U+05F0–U+05F4 the yod-yod/vav-yod ligatures plus
  * geresh and gershayim · U+FB1D–U+FB4F presentation forms.
  */
-const HEBREW = '\\u0591-\\u05C7\\u05D0-\\u05EA\\u05F0-\\u05F4\\uFB1D-\\uFB4F';
+const HEBREW: string = String.raw`\u0591-\u05C7\u05D0-\u05EA\u05F0-\u05F4\uFB1D-\uFB4F`;
 
 /**
  * What may sit INSIDE a Hebrew run but not in `HEBREW` itself.
@@ -52,9 +52,9 @@ const HEBREW = '\\u0591-\\u05C7\\u05D0-\\u05EA\\u05F0-\\u05F4\\uFB1D-\\uFB4F';
  * A literal TAB joins Hebrew in 4 tokens and is deliberately excluded —
  * a tab inside a wrapper span is not clearly desirable.
  */
-const HEBREW_ATOM = `[${HEBREW}]\\u0307*`;
+const HEBREW_ATOM: string = String.raw`[${HEBREW}]\u0307*`;
 const HEBREW_RUN = new RegExp(
-	`(?:${HEBREW_ATOM})+(?:[ \\u00A0'"](?:${HEBREW_ATOM})+)*`,
+	String.raw`(?:${HEBREW_ATOM})+(?:[ \u00A0'"](?:${HEBREW_ATOM})+)*`,
 	'gu',
 );
 

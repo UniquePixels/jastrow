@@ -1779,11 +1779,17 @@ bun qa && git add admin/pipeline/body/migrate-dry.ts docs/v2/body-migration.md &
 Batch 1 is done when:
 
 - [ ] `bun qa` clean
-- [ ] `bun transform:count` — 4 rules, every delta zero or dispositioned
+- [ ] `bun transform:count` — 3 rules, every delta zero or dispositioned
 - [ ] `bun body:migrate-dry` — gates 32,512/32,512, 0 schema failures
-- [ ] `PENDING` is 77 ids, `RULES` is 4
-- [ ] `patterns.jsonl` records the RTL entanglement and the abbrev split
+- [ ] `PENDING` is 77 ids, `RULES` is 3
+- [ ] `patterns.jsonl` records the RTL entanglement, and
+      `abbrev-in-alt-headwords` is `route: judgment` per spec §5.2
 - [ ] PR opened against `v2`
+
+Three rules, not four: Task 6's rule was written, tested and matching its
+count before the maintainer withdrew the row (spec §5.2). The abbrev
+split it created was reverted with it — the whole row is `judgment`, so
+there is no residue row to carry.
 
 Per [feedback_pre_pr_review](memory) run the full local review battery
 before opening the PR — cloud CodeRabbit is skipped on this repo, so

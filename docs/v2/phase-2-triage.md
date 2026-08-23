@@ -232,6 +232,7 @@ Full judgment list, blocking first:
 | `contentless-entry` | 6 | **yes** |
 | `first-sense-debris-stranding-language-label` | 5 | **yes** |
 | `inflection-sublist-numbering-flattened` | 3 | **yes** |
+| `abbrev-in-alt-headwords` | 2,035 | no |
 | `homograph-numeral-blind-default` | 1,358 | no |
 | `homograph-collapse-link` | 1,253 | no |
 | `skeleton-escape-orphan` | 1,065 | no |

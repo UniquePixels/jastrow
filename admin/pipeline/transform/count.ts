@@ -105,8 +105,8 @@ function reportRow(
 	expected: number,
 ): { line: string; mismatch: boolean } {
 	const delta = hit - expected;
-	const verdict =
-		delta === 0 ? 'MATCH' : `DELTA ${delta > 0 ? '+' : ''}${delta}`;
+	const sign = delta > 0 ? '+' : '';
+	const verdict = delta === 0 ? 'MATCH' : `DELTA ${sign}${delta}`;
 	const line = `${rule.id.padEnd(38)} measured(entries)=${String(hit).padStart(5)} catalogued=${String(expected).padStart(5)}  ${verdict}`;
 	return { line, mismatch: delta !== 0 };
 }
