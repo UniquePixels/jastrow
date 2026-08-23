@@ -37,7 +37,7 @@
   {
    "id": 4,
    "subject": "Task 4: h-cognate-self-link — measure first",
-   "status": "pending",
+   "status": "completed",
    "description": "**Goal:** Decide, by measurement, whether this row is a defect or a convention — and write down which.\n\n**Files:**\n- Create: `data/patches/catalogue-audit/h-cognate-self-link.md`\n- Modify: `admin/pipeline/transform/rules/unlink.ts` (only if it stays)\n- Modify: `admin/pipeline/transform/registry.ts`\n\n**Acceptance Criteria:**\n- [ ] The language_reference locus is measured: self-links, those under a 'b. h.' etymology, and those differing from the headword only by plene/defective spelling\n- [ ] The audit report states a verdict with its number\n- [ ] Defect branch: a rule firing on the defect arm alone, convention arm excluded by predicate and tested\n- [ ] Convention branch: row reclassified to judgment in patterns.jsonl with measured count and reason, and removed from PENDING in the same commit\n- [ ] The standing merge flag with homograph-numbering-schism is recorded, not acted on\n\n**Verify:** `bun test admin/pipeline/transform/` and, when the row stays, `bun transform:count`\n\n```json:metadata\n{\"files\": [\"data/patches/catalogue-audit/h-cognate-self-link.md\", \"admin/pipeline/transform/rules/unlink.ts\", \"admin/pipeline/transform/registry.ts\", \"data/patches/patterns.jsonl\"], \"verifyCommand\": \"bun test admin/pipeline/transform/ && bun test admin/pipeline/transform/registry.test.ts\", \"acceptanceCriteria\": [\"three populations measured\", \"audit report with verdict\", \"rule or reclassification, not both\", \"coverage gate still balances\"], \"modelTier\": \"frontier\"}\n```",
    "blockedBy": [
     3
@@ -109,5 +109,5 @@
    ]
   }
  ],
- "lastUpdated": "2026-08-23T10:10:00-05:00"
+ "lastUpdated": "2026-08-23T15:50:00-05:00"
 }
