@@ -6,6 +6,7 @@
  * neither is a silent skip, and the gate fails on it.
  */
 import type { Pattern } from '../research/patterns.ts';
+import { gereshLetterNumeral, prefixedGereshAbbrev } from './rules/geresh.ts';
 import {
 	bareRtlHebrew,
 	latinTokenInsideRtl,
@@ -41,6 +42,24 @@ const RULES: readonly Rule[] = [
 	apparatusCite,
 	rabbiName,
 	ellipsisFragment,
+
+	// The geresh pair (batch 2, task 5): the first RETARGET rules. Both
+	// rows carry the other in `entangledWith` — they share 8 entries and
+	// 7 definitions, each re-serializing a definition the other also
+	// rewrites — so `checkAdjacency()` requires this gap-free span.
+	//
+	// Order between them is MEASURED and free: over the whole corpus
+	// both orders produce 98 records across 92 entries with 0 entries
+	// differing by a byte, because `retarget` returns an array of the
+	// same length and neither predicate reads a byte the other writes.
+	// `gereshLetterNumeral` leads only because it is the audited row.
+	//
+	// After the unlink family, and the same argument puts them there:
+	// a retarget copies its address off a sibling anchor in the same
+	// entry, and must never adopt one from an anchor those rules go on
+	// to delete.
+	gereshLetterNumeral,
+	prefixedGereshAbbrev,
 ];
 
 /** Catalogued transform rows with no rule yet. Shrinks batch by batch;
@@ -50,12 +69,10 @@ const PENDING: readonly string[] = [
 	'unlinked-v-span',
 	'ib-yoma-2a',
 	'paren-tag-no-space',
-	'geresh-letter-numeral-mislink',
 	'homograph-numeral-mismatch',
 	'anchor-swallows-close-paren',
 	'nested-anchor-swallows-punctuation',
 	'targum-sheni-never-linked',
-	'prefixed-geresh-abbrev-mislink',
 	'superscript-subsection-stranded-outside-anchor',
 	// `h-cognate-self-link` left this list in batch 2 Task 4: audited to
 	// `judgment` in `patterns.jsonl` (no other article exists for any of
