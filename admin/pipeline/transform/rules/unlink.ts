@@ -203,4 +203,72 @@ const rabbiName: Rule = {
 	phase: 'text-repairs',
 };
 
-export { apparatusCite, rabbiName };
+/**
+ * Print marks a word-head elision as "…X": the ellipsis stands for a
+ * shared stem the compositor didn't re-set, X is the differing tail —
+ * almost always inside a manuscript-apparatus note ("(not …X)", "(ed.
+ * …X)", "(read …X)", or a plural-declension list, "Pl. חֲתוּלִים,
+ * …לִין"). The ellipsis sits as plain TEXT immediately before an
+ * anchor, never inside one — no anchor in this corpus opens with "…"
+ * in its own display, corpus-wide (task-3-report.md; the brief's own
+ * discovery query and its first acceptance criterion assumed the
+ * opposite and were corrected by the maintainer, 2026-08-23, after
+ * that query measured zero). The linker read the printed tail as if it
+ * were the whole lemma and anchored it to a same-spelled headword —
+ * `dataRef.startsWith('Jastrow, ')` is load-bearing here, not defense
+ * in depth: it is what separates this construct from a structurally
+ * different one — ellipsis before a COMPLETE citation ("… Yoma 28ᵇ"),
+ * 36 instances, elision of quoted text before a legitimate Talmud/
+ * Mishnah/Targum reference, correctly linked and no part of this row.
+ *
+ * Measured 94 raw (`ELLIPSIS_LEAD` + internal-headword target) against
+ * the catalogue's own "88 defect occurrences / 80 entries of 94 raw" —
+ * matched independently, derived from this query rather than copied
+ * from the catalogue, which is the strongest evidence available that
+ * this is the right population (task-3-report.md).
+ */
+const ELLIPSIS_LEAD = /…\s*$/u;
+
+/**
+ * The 6 convention survivors found by reading all 94 raw
+ * (task-3-report.md): sole occurrence each, in 6 distinct entries —
+ * confirmed by the arithmetic, not merely asserted, since dropping
+ * exactly these 6 occurrences is the only way to move BOTH the
+ * occurrence count (94 → 88) AND the entry count (86 → 80) by the same
+ * 6, which requires every excluded occurrence to be the only one in
+ * its entry. In each, the ellipsis marks ordinary sentence-level
+ * elision — of a citation ("Ḥull. 64ᵇ …", "Targ. Hos. VI, 2 …") or of
+ * English discourse ("if you were to say …", "why do we not say …",
+ * "[In compounds: …") — not a word being given a manuscript-variant
+ * tail, and the anchored word is complete and contextually correct: a
+ * sibling headword form (A01030, K01049), a name or particle glossed
+ * immediately after (A01111, A02658, L00584), or a variant spelling
+ * confirmed by the English gloss that follows it (D00702). Keyed by
+ * `rid|dataRef`, not `rid` alone, so a future corpus edit adding a
+ * genuine defect to one of these six entries is not silently swallowed
+ * by the exclusion.
+ */
+const ELLIPSIS_CONVENTION: ReadonlySet<string> = new Set([
+	'A01030|Jastrow, אַחֲיוֹת 1',
+	'A01111|Jastrow, הַיְינוּ 1',
+	'A02658|Jastrow, דּוֹסְתַּאי 1',
+	'K01049|Jastrow, כְּפַר 1',
+	'L00584|Jastrow, וִידּוּי 1',
+	'D00702|Jastrow, דיקלאי 1',
+]);
+
+const ellipsisFragment: Rule = {
+	apply: (entry: SourceEntry): TransformResult =>
+		unlinkOverDefinitions(
+			entry,
+			'ellipsis-fragment-anchored',
+			(tokens, anchor) =>
+				ELLIPSIS_LEAD.test(leadOf(tokens, anchor.open)) &&
+				anchor.dataRef.startsWith('Jastrow, ') &&
+				!ELLIPSIS_CONVENTION.has(`${entry.rid}|${anchor.dataRef}`),
+		),
+	id: 'ellipsis-fragment-anchored',
+	phase: 'text-repairs',
+};
+
+export { apparatusCite, ellipsisFragment, rabbiName };

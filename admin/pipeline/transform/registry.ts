@@ -11,7 +11,7 @@ import {
 	latinTokenInsideRtl,
 	redundantOuterRtl,
 } from './rules/rtl.ts';
-import { apparatusCite, rabbiName } from './rules/unlink.ts';
+import { apparatusCite, ellipsisFragment, rabbiName } from './rules/unlink.ts';
 import type { Rule } from './types.ts';
 
 /** Rules in execution order. Entangled rows MUST be adjacent — they own
@@ -31,15 +31,16 @@ const RULES: readonly Rule[] = [
 	bareRtlHebrew,
 	latinTokenInsideRtl,
 
-	// The unlink family (batch 2, task 2): rows whose anchor is wrong
-	// and whose correct target does not exist, so the anchor is
+	// The unlink family (batch 2, tasks 2-3): rows whose anchor is
+	// wrong and whose correct target does not exist, so the anchor is
 	// dropped. Placed immediately after the rtl trio and BEFORE any
 	// future compose rule (Tasks 7-8): a compose rule reads the anchor
 	// sequence to build a new target, and must never adopt work from
-	// an anchor these two rules go on to delete — so unlinking has to
-	// run first, not merely somewhere earlier in the list.
+	// an anchor these rules go on to delete — so unlinking has to run
+	// first, not merely somewhere earlier in the list.
 	apparatusCite,
 	rabbiName,
+	ellipsisFragment,
 ];
 
 /** Catalogued transform rows with no rule yet. Shrinks batch by batch;
@@ -104,7 +105,6 @@ const PENDING: readonly string[] = [
 	'ascii-gershayim-outside-body-text',
 	'duplicated-definition-opening-run',
 	'shin-sin-dot-drop',
-	'ellipsis-fragment-anchored',
 	'v-sub-redirect-stub-mislink',
 	'midrash-petichta-unanchored',
 	'emphasis-run-edge-space',

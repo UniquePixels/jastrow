@@ -53,7 +53,7 @@
 import { expect, it } from 'bun:test';
 import type { SourceEntry } from '../../body/types.ts';
 import { applyTransforms } from '../run.ts';
-import { apparatusCite, rabbiName } from './unlink.ts';
+import { apparatusCite, ellipsisFragment, rabbiName } from './unlink.ts';
 
 // `headword` is required on `SourceEntry` and `fieldsOf` (no-new-text.ts)
 // reads it unconditionally when building the gate's text multiset — an
@@ -170,4 +170,54 @@ it('unlinks the comma-lead sibling variant (K01198)', () => {
 		'he erected camps of siege (Lam. R. introd., R. Josh. 2 טירונין).',
 	);
 	expect(out.records).toHaveLength(1);
+});
+
+// Q00231, excerpt: the audit's own example ("(ed. פלימרכים, …כוס)" ->
+// כּוֹס III "cup"), and the fixture that disproves the brief's original
+// Step 1 query — the ellipsis sits as plain text before the anchor,
+// not inside its display, per task-3-report.md.
+const Q00231 =
+	'(ed. <span dir="rtl">פלימרכים</span>, … ' +
+	'<a dir="rtl" class="refLink" href="/Jastrow,_כּוֹס III.1" data-ref="Jastrow, כּוֹס III 1">כוס</a>), v. ' +
+	'<a dir="rtl" class="refLink" href="/Jastrow,_כלירכין.1" data-ref="Jastrow, כלירכין 1">כלירכין</a>.';
+
+it('unlinks an anchored elision fragment (Q00231)', () => {
+	const out = applyTransforms(entry(Q00231, 'Q00231'), 'text-repairs', [
+		ellipsisFragment,
+	]);
+	expect(out.entry.content.senses[0]?.definition).toBe(
+		'(ed. <span dir="rtl">פלימרכים</span>, … כוס), v. ' +
+			'<a dir="rtl" class="refLink" href="/Jastrow,_כלירכין.1" data-ref="Jastrow, כלירכין 1">כלירכין</a>.',
+	);
+	expect(out.records).toHaveLength(1);
+});
+
+// The no-op guard this batch has already been bitten by once (Task
+// 2): a predicate that matches nothing drops no anchor, keeps the text
+// byte-identical, and passes both older gates in silence. `unlinks` is
+// only ever set when > 0 (unlinkOverDefinitions), so a no-op predicate
+// leaves it `undefined`, not `1` — this fails loudly instead.
+it('declares unlinks equal to the anchor it removed (ellipsis fragment)', () => {
+	const result = ellipsisFragment.apply(entry(Q00231, 'Q00231'));
+	expect(result.unlinks).toBe(1);
+});
+
+// A02658, excerpt: one of the 6 convention members (task-3-report.md)
+// — "Ḥull. 64ᵇ …" elides quoted Talmudic text, not a word-head, and
+// דוסתאי is the complete name Dostai, glossed right after it and
+// correctly linked to its own headword. Must survive: the inverse
+// error the brief warns against, same shape as D00149 above.
+const A02658 =
+	'<i>Aftoriki</i>. <a class="refLink" href="/Bava_Metzia.5a.7" data-ref="Bava Metzia 5a:7">B. Mets. 5ᵃ</a> ' +
+	'<span dir="rtl">אבוה דר׳ א׳</span>; <a class="refLink" href="/Chullin.64b.3" data-ref="Chullin 64b:3">Ḥull. 64ᵇ</a> … ' +
+	'<a dir="rtl" class="refLink" href="/Jastrow,_דּוֹסְתַּאי.1" data-ref="Jastrow, דּוֹסְתַּאי 1">דוסתאי</a> ' +
+	'(Dostai) the father of R. A. (<a class="refLink" href="Jerusalem_Talmud_Yoma.4.4.9" data-ref="Jerusalem Talmud Yoma 4:4:9">Y. Yoma IV, 41ᵈ</a> top ' +
+	'<span dir="rtl">פטרוקי אחוה וכ׳</span> Patruki, brother of R. Darosa).';
+
+it('leaves a convention ellipsis before a complete, correctly linked name alone (A02658)', () => {
+	const out = applyTransforms(entry(A02658, 'A02658'), 'text-repairs', [
+		ellipsisFragment,
+	]);
+	expect(out.entry.content.senses[0]?.definition).toBe(A02658);
+	expect(out.records).toHaveLength(0);
 });
