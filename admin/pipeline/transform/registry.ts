@@ -6,6 +6,7 @@
  * neither is a silent skip, and the gate fails on it.
  */
 import type { Pattern } from '../research/patterns.ts';
+import { ibAnaphora } from './rules/anaphora.ts';
 import { gereshLetterNumeral, prefixedGereshAbbrev } from './rules/geresh.ts';
 import { pluralToFeminineFinalLetter } from './rules/misc-links.ts';
 import {
@@ -70,6 +71,28 @@ const RULES: readonly Rule[] = [
 	// entirely inside the entry's own "Pl." construct, which no other
 	// rule here rewrites.
 	pluralToFeminineFinalLetter,
+
+	// ib-yoma-2a (batch 2, task 7) — the batch's first RETARGET, and it
+	// runs LAST for the reason the unlink block above states from the
+	// other side: this rule copies a target off the nearest preceding
+	// citation ANCHOR, so any anchor an unlink rule is going to remove
+	// must already be gone before the antecedent search runs. An
+	// antecedent that a later rule deletes is a wrong link, and adopting
+	// its target would propagate the error into 312 anchors that
+	// `transform:count` measures one rule at a time and cannot see.
+	//
+	// The cost of that ordering is MEASURED, not assumed: composed over
+	// the full registry the rule fires on 209 occurrences / 188 entries,
+	// exactly what it fires on ALONE. No shipped unlink rule removes an
+	// antecedent this rule would have used — their populations are
+	// disjoint from its 209 (`anaphora.test.ts` pins the isolated
+	// numbers; task-7-report.md has the composed run). Batch 1's RTL
+	// trio is why that is checked rather than reasoned about: there the
+	// wrong order left 62 entries unfixed with every unit test green.
+	//
+	// Unentangled: the row carries no `entangledWith` in the catalogue,
+	// and no other registered rule reads or writes a `Yoma 2a` anchor.
+	ibAnaphora,
 ];
 
 /** Catalogued transform rows with no rule yet. Shrinks batch by batch;
@@ -77,7 +100,6 @@ const RULES: readonly Rule[] = [
 const PENDING: readonly string[] = [
 	'nonsense-dup-anchor',
 	'unlinked-v-span',
-	'ib-yoma-2a',
 	'paren-tag-no-space',
 	'homograph-numeral-mismatch',
 	'anchor-swallows-close-paren',
