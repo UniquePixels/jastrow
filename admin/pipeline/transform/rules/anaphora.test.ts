@@ -28,6 +28,7 @@ import {
 	HREF_LOCUS,
 	INTERVENING_CITATION,
 	ibAnaphora,
+	isCitation,
 	isSifreCitation,
 	isSinkMember,
 	isSpentAnaphor,
@@ -583,7 +584,10 @@ it('the nearest citation is not the antecedent — only a Sifré anchor is', () 
 		'Yalkut Shimoni on Torah 542',
 	);
 	expect(
-		antecedentOf(tokenize(E00476), list, at, isSifreCitation)?.dataRef,
+		antecedentOf(tokenize(E00476), list, at, {
+			accept: isSifreCitation,
+			tolerate: () => true,
+		})?.dataRef,
 	).toBe('Sifrei Devarim 309:6');
 });
 
@@ -679,7 +683,12 @@ async function sifreCensus(): Promise<SifreCensus> {
 		entries.add(s.rid);
 		const work = s.anchor.dataRef.replace(REF_LOCUS, '');
 		sinks.set(work, (sinks.get(work) ?? 0) + 1);
-		if (antecedentOf(s.tokens, s.list, s.at, isSifreCitation) !== undefined) {
+		if (
+			antecedentOf(s.tokens, s.list, s.at, {
+				accept: isSifreCitation,
+				tolerate: () => true,
+			}) !== undefined
+		) {
 			fires++;
 			fireEntries.add(s.rid);
 		}
@@ -835,6 +844,22 @@ const C00446_CHAIN =
 const targum = (e: SourceEntry): { entry: SourceEntry; records: unknown[] } =>
 	applyTransforms(e, 'text-repairs', [targumAnaphora]);
 
+/** The antecedent search with the SAME tolerance `repairTargumAnaphor`
+ * ships — only a fellow row member may be stepped over. Restated once
+ * here rather than at each call site: a test that passed the default
+ * tolerance would be measuring a stricter rule than the one shipped,
+ * and would have reported 8 fires for a rule that produces 9. */
+const targumAntecedentOf = (
+	tokens: readonly Token[],
+	list: readonly Anchor[],
+	at: number,
+): Anchor | undefined =>
+	antecedentOf(tokens, list, at, {
+		accept: isTargumCitation,
+		tolerate: (skipped: Anchor): boolean =>
+			isTargumMember(textBetween(tokens, 0, skipped.open), skipped),
+	});
+
 it('a different-book ib. adopts the antecedent’s Targum work (gate case 4)', () => {
 	const out = targum(entry('A00589', A00589));
 	expect(definitionOf(out)).toContain(
@@ -899,7 +924,7 @@ it('the chain’s second link would decline if the gap counted its sibling’s d
 	const masked = gapBetween(tokens, list, head.close + 1, member.open);
 	expect(INTERVENING_CITATION.test(naive)).toBe(true);
 	expect(INTERVENING_CITATION.test(masked)).toBe(false);
-	expect(antecedentOf(tokens, list, at, isTargumCitation)?.dataRef).toBe(
+	expect(targumAntecedentOf(tokens, list, at)?.dataRef).toBe(
 		'Targum Jonathan on Deuteronomy 17:20',
 	);
 });
@@ -1031,7 +1056,7 @@ async function targumCensus(): Promise<TargumCensus> {
 	for await (const s of targumSightings()) {
 		occurrences++;
 		entries.add(s.rid);
-		if (antecedentOf(s.tokens, s.list, s.at, isTargumCitation) !== undefined) {
+		if (targumAntecedentOf(s.tokens, s.list, s.at) !== undefined) {
 			fires++;
 			fireEntries.add(s.rid);
 		}
@@ -1074,7 +1099,7 @@ it('8 of the 9 name a different book from their antecedent — the row’s null 
 	// differ in 8 of 9.
 	let differing = 0;
 	for await (const s of targumSightings()) {
-		const head = antecedentOf(s.tokens, s.list, s.at, isTargumCitation);
+		const head = targumAntecedentOf(s.tokens, s.list, s.at);
 		if (head === undefined) {
 			continue;
 		}
@@ -1135,4 +1160,142 @@ it('every Targum target in the corpus starts with one of TARGUM_WORKS', async ()
 	}
 	expect([...unmatched]).toEqual([]);
 	expect(works.size).toBe(45);
+});
+
+it('declines when an ANCHORED citation of another work intervenes', () => {
+	// Reviewer finding, 2026-08-24. `accept` and `gapBetween` are each
+	// sound and jointly unsafe: a skipping `accept` steps over an
+	// anchored rival and `gapBetween` then masks its text, so it is
+	// invisible to the walk AND to the cue. Here `ibidem` names
+	// `Gen. XXIV, 17` — the plain Bible — and repairing would mint
+	// `Onkelos Numbers 12:8`, which the gate cannot catch because case
+	// 4 never checks the head/tail pairing. `tolerate` catches it
+	// exactly, rather than hoping the fuzzy cue does.
+	//
+	// The corpus holds 0 instances today: 8 of the 9 members skip no
+	// anchor at all, and C00446's second link skips exactly one, its
+	// own row-member sibling, which is excused.
+	const rival =
+		'<a class="refLink" href="/Onkelos_Genesis.24.16" ' +
+		'data-ref="Onkelos Genesis 24:16">Targ. O. Gen. XXIV, 16</a> ' +
+		'<span dir="rtl">למיחזי</span> ' +
+		'<a class="refLink" href="/Genesis.24.17" ' +
+		'data-ref="Genesis 24:17">Gen. XXIV, 17</a> and so. Ib. ' +
+		'<a class="refLink" href="/Numbers.12.8" ' +
+		'data-ref="Numbers 12:8">Num. XII, 8</a>';
+	const out = targum(entry('X00009', rival));
+	expect(out.records).toHaveLength(0);
+	expect(definitionOf(out)).toBe(rival);
+	expect(
+		targumAnaphora.apply(entry('X00009', rival)).recombined,
+	).toBeUndefined();
+
+	// And the reason is the rival anchor specifically, not the cue:
+	// masking leaves the gap clean, so without `tolerate` this fires.
+	const tokens = tokenize(rival);
+	const list = anchors(tokens);
+	const at = list.length - 1;
+	const [head] = list;
+	const member = list[at];
+	if (head === undefined || member === undefined) {
+		throw new Error('expected an antecedent and a member');
+	}
+	expect(
+		INTERVENING_CITATION.test(
+			gapBetween(tokens, list, head.close + 1, member.open),
+		),
+	).toBe(false);
+	expect(
+		antecedentOf(tokens, list, at, { accept: isTargumCitation })?.dataRef,
+	).toBe(undefined);
+	expect(targumAntecedentOf(tokens, list, at)).toBeUndefined();
+});
+
+it('tolerate is vacuous for ib-yoma-2a — no member skips a usable citation', async () => {
+	// Its `accept` is `isCitation`, so every anchor it steps over
+	// already fails `usable`, fails `isCitation`, or is a spent
+	// anaphor. The new check therefore cannot fire for it, which is
+	// why 209/188 is unchanged. Proved over the corpus rather than
+	// argued from the predicate.
+	let skippedCitations = 0;
+	for await (const s of sightings()) {
+		if (!isSinkMember(s.anchor)) {
+			continue;
+		}
+		const found = s.list
+			.slice(0, s.at)
+			.map((prior, index): [Anchor, number] => [prior, index])
+			.reverse()
+			.find(([p]) => usable(p) && !isSpentAnaphor(p) && isCitation(p));
+		if (found === undefined) {
+			continue;
+		}
+		skippedCitations += s.list
+			.slice(found[1] + 1, s.at)
+			.filter((p) => usable(p) && isCitation(p) && !isSpentAnaphor(p)).length;
+	}
+	expect(skippedCitations).toBe(0);
+});
+
+it('the Targum arm skips exactly one anchor corpus-wide, and it is a row member', async () => {
+	// The measurement behind "0 live instances". 8 members skip
+	// nothing; C00446's second link skips its own sibling.
+	let skipped = 0;
+	let excused = 0;
+	for await (const s of targumSightings()) {
+		const found = s.list
+			.slice(0, s.at)
+			.map((prior, index): [Anchor, number] => [prior, index])
+			.reverse()
+			.find(([p]) => usable(p) && !isSpentAnaphor(p) && isTargumCitation(p));
+		if (found === undefined) {
+			continue;
+		}
+		for (const p of s.list.slice(found[1] + 1, s.at)) {
+			if (!(usable(p) && isCitation(p) && !isSpentAnaphor(p))) {
+				continue;
+			}
+			skipped++;
+			if (isTargumMember(textBetween(s.tokens, 0, p.open), p)) {
+				excused++;
+			}
+		}
+	}
+	expect(skipped).toBe(1);
+	expect(excused).toBe(1);
+});
+
+it('the Targum population’s 0 declines is partly definitional — 76 of 85 fall outside it', async () => {
+	// `isTargumMember` alone selects 85; requiring a preceding Targum
+	// anchor excludes 76, leaving the 9. So "9 fire, 0 decline" means
+	// every member of a Targum-context row is repairable, NOT that the
+	// walk never refuses — the commonest refusal is outside the census
+	// by construction. Pinned so the framing cannot drift from it.
+	let members = 0;
+	let withTargum = 0;
+	for await (const e of readSourceEntries()) {
+		for (const definition of definitionsOf(e.content.senses, [])) {
+			if (!definition.includes('<a')) {
+				continue;
+			}
+			const tokens = tokenize(definition);
+			const list = anchors(tokens);
+			for (const [at, anchor] of list.entries()) {
+				if (
+					!(
+						usable(anchor) &&
+						isTargumMember(textBetween(tokens, 0, anchor.open), anchor)
+					)
+				) {
+					continue;
+				}
+				members++;
+				if (list.slice(0, at).some((p) => usable(p) && isTargumCitation(p))) {
+					withTargum++;
+				}
+			}
+		}
+	}
+	expect(members).toBe(85);
+	expect(withTargum).toBe(9);
 });

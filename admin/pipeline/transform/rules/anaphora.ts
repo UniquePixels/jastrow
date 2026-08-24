@@ -257,15 +257,21 @@
  * = 9  RETARGET — 9 occurrences / 8 entries, 8 records
  * ```
  *
- * A 0-decline arm is worth a second look rather than a celebration,
- * since a rule that declines nothing may simply not be asking. It
- * asks: the four population conditions reject Jastrow
- * cross-references, Talmud folios and already-correct Targum anchors,
- * and the antecedent search can still decline for want of a Targum
- * anchor, for an enclosing one, for an unanchored citation in the gap,
- * or for an `href` that does not match its derived prefix. None of
- * those fires on today's corpus. `anaphora.test.ts` pins each refusal
- * against a fixture so the arm's silence stays a measurement.
+ * **The 0 is partly definitional, and saying so is the point.** The
+ * population above requires a Targum anchor to precede, so a member
+ * that has none falls OUTSIDE the census rather than inside it as a
+ * decline. Measured: `isTargumMember` alone selects 85 occurrences
+ * corpus-wide and the "a Targum anchor precedes" clause excludes 76
+ * of them, leaving the 9. Read the 9 as "every member of a
+ * Targum-context row is repairable", not as "the walk never refuses" —
+ * the commonest refusal is invisible here by construction.
+ *
+ * What the walk CAN still refuse, on a member inside the population:
+ * an enclosing antecedent, an unanchored citation in the gap, an
+ * anchored rival citation of another work (`tolerate`), and an `href`
+ * that does not match its derived prefix. None fires on today's
+ * corpus, and `anaphora.test.ts` pins each against a fixture so the
+ * silence stays a measurement rather than an absence of asking.
  *
  * ## Corroboration outside the entry
  *
@@ -513,6 +519,11 @@ function textBetween(
  * `antecedentOf`'s enclosure refusal already exists to prevent.
  * Masking less can only cost a decline; masking more can write a
  * wrong work.
+ *
+ * Masking is NOT on its own sufficient once an arm's `accept` skips
+ * anchors: it hides a rival anchored citation from the cue at the
+ * same moment the walk steps over it. `antecedentOf`'s `tolerate`
+ * parameter closes that, and the two must be read together.
  */
 function gapBetween(
 	tokens: readonly Token[],
@@ -566,6 +577,35 @@ function isTargumCitation(anchor: Anchor): boolean {
 	return targumWorkOf(anchor) !== undefined;
 }
 
+/** The strictest `tolerate`: no skipped citation is excused. */
+function never(): boolean {
+	return false;
+}
+
+/** The loosest `tolerate`, for an anaphor that NAMES its own work so a
+ * nearer citation of another work is not a rival reading. */
+function always(): boolean {
+	return true;
+}
+
+/**
+ * How one arm narrows the shared antecedent walk. The two predicates
+ * are a PAIR and are declared together because they have to be
+ * reasoned about together: `accept` decides which anchors the walk may
+ * step over, and `tolerate` decides which of those steps are lawful.
+ * Widening the first without widening the second is the hole the
+ * 2026-08-24 review found.
+ */
+interface AntecedentRules {
+	/** Which prior anchor may serve as the antecedent. Defaults to any
+	 * citation, which is `ib-yoma-2a`'s reading of a bare `Ib.`. */
+	accept?: (anchor: Anchor) => boolean;
+	/** Which SKIPPED usable citation is not a rival reading. Defaults
+	 * to none, the strictest choice; only an arm whose `accept` skips
+	 * citations needs to widen it, and it must say why. */
+	tolerate?: (anchor: Anchor) => boolean;
+}
+
 /**
  * The anchor whose target this anaphor should adopt, or `undefined`
  * when the entry holds none it may lawfully copy.
@@ -595,6 +635,48 @@ function isTargumCitation(anchor: Anchor): boolean {
  * printed between the anchored one and the anaphor, which would make
  * the anchored one the wrong section to count from.
  *
+ * ## `tolerate`, and the hole it closes
+ *
+ * `accept` and `gapBetween` are individually sound and jointly unsafe,
+ * which is why this parameter exists (reviewer finding, 2026-08-24).
+ * Restriction 2 exists because the nearest ANCHOR is not always the
+ * nearest CITATION. `INTERVENING_CITATION` finds the UNANCHORED ones;
+ * for `ib-yoma-2a` the anchored ones cannot arise, because its
+ * `accept` admits every citation and so never walks past one. An arm
+ * with a SKIPPING `accept` breaks that: it steps over an anchored
+ * citation of another work, and `gapBetween` then masks that anchor's
+ * text, so the rival is invisible to the walk AND to the gap test.
+ * The reviewer's case, which the corpus does not currently hold:
+ *
+ * ```
+ * Targ. O. Gen. XXIV, 16 … <a>Gen. XXIV, 17</a> … Ib. <a>Num. XII, 8</a>
+ * ```
+ *
+ * There `ibidem` names the plain Bible anchor, not the Targum, and
+ * the Targum arm would otherwise mint `Onkelos Numbers 12:8`. Case
+ * 4's blind-spot list is explicit that the gate will not catch a
+ * wrong head/tail pairing, so it has to be caught here.
+ *
+ * So a skipped anchor that is a usable CITATION and is not itself
+ * excused DECLINES outright — an exact test rather than a cue,
+ * because a rival anchor is something we can identify precisely and
+ * `INTERVENING_CITATION` is deliberately fuzzy. What each arm may
+ * excuse follows from what its anaphor MEANS:
+ *
+ * - `ib-yoma-2a` excuses nothing, and needs to: its `accept` is
+ *   `isCitation`, so every anchor it skips already fails `usable`,
+ *   `isCitation`, or is a spent anaphor. The check is vacuous for it
+ *   by construction, and measured so (209/188 unchanged).
+ * - `sifre-ib-resolves-to-yalkut` excuses everything, because its
+ *   anaphor NAMES its work in the running text (`Sifré ib. 330`).
+ *   A nearer citation of some other work is not a rival reading; the
+ *   label overrides it. Any nearer SIFRÉ anchor would have been
+ *   accepted rather than skipped.
+ * - `ib-targum-work-loss` excuses only its own row members. Its `ib.`
+ *   is BARE, so the nearest citation genuinely decides, and the only
+ *   anchor it may step over is one whose target is the very defect
+ *   being repaired — C00446's chain, and nothing else.
+ *
  * `list` must be the anchors of `tokens`, in document order, and
  * `at` the anaphor's index within it.
  *
@@ -613,17 +695,37 @@ function antecedentOf(
 	tokens: readonly Token[],
 	list: readonly Anchor[],
 	at: number,
-	accept: (anchor: Anchor) => boolean = isCitation,
+	rules: AntecedentRules = {},
 ): Anchor | undefined {
+	const { accept = isCitation, tolerate = never } = rules;
 	const anchor = list[at];
 	if (anchor === undefined) {
 		return;
 	}
-	const citation = list
+	const found = list
 		.slice(0, at)
+		.map((prior, index): [Anchor, number] => [prior, index])
 		.reverse()
-		.find((prior) => usable(prior) && !isSpentAnaphor(prior) && accept(prior));
-	if (citation === undefined || citation.close >= anchor.open) {
+		.find(
+			([prior]) => usable(prior) && !isSpentAnaphor(prior) && accept(prior),
+		);
+	if (found === undefined) {
+		return;
+	}
+	const [citation, from] = found;
+	if (citation.close >= anchor.open) {
+		return;
+	}
+	const rival = list
+		.slice(from + 1, at)
+		.find(
+			(skipped) =>
+				usable(skipped) &&
+				isCitation(skipped) &&
+				!isSpentAnaphor(skipped) &&
+				!tolerate(skipped),
+		);
+	if (rival !== undefined) {
 		return;
 	}
 	const gap = gapBetween(tokens, list, citation.close + 1, anchor.open);
@@ -891,7 +993,14 @@ const repairSifreAnaphor: Repairer = (
 	) {
 		return;
 	}
-	const antecedent = antecedentOf(tokens, list, at, isSifreCitation);
+	// Every skipped citation is excused: `Sifré ib. N` NAMES its work,
+	// so a nearer anchor of another work is not a rival reading (see
+	// `antecedentOf` on `tolerate`). E00476 skips `Yalkut Shimoni on
+	// Torah 542` for exactly this reason.
+	const antecedent = antecedentOf(tokens, list, at, {
+		accept: isSifreCitation,
+		tolerate: always,
+	});
 	if (antecedent === undefined) {
 		return;
 	}
@@ -1049,7 +1158,16 @@ const repairTargumAnaphor: Repairer = (
 	) {
 		return;
 	}
-	const antecedent = antecedentOf(tokens, list, at, isTargumCitation);
+	// A bare `ib.` means the place just cited, so the nearest citation
+	// decides and only a fellow row member may be stepped over — its
+	// target is the defect under repair, not a rival reading. Any
+	// other anchored citation in between DECLINES (`antecedentOf` on
+	// `tolerate`).
+	const antecedent = antecedentOf(tokens, list, at, {
+		accept: isTargumCitation,
+		tolerate: (skipped: Anchor): boolean =>
+			isTargumMember(textBetween(tokens, 0, skipped.open), skipped),
+	});
 	const work = antecedent === undefined ? undefined : targumWorkOf(antecedent);
 	if (antecedent === undefined || work === undefined) {
 		return;
@@ -1079,6 +1197,7 @@ const targumAnaphora: Rule = {
 	phase: 'text-repairs',
 };
 
+export type { AntecedentRules };
 export {
 	ANAPHOR,
 	antecedentOf,
