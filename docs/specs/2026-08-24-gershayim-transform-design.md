@@ -351,10 +351,21 @@ character in place and leaves the position alone.
 **The register is 55 displaced and 45 undetermined — 100, not the 83
 this spec first carried.** The audit's 49 / 34 was measured on a
 narrower population than this batch repairs: applying its own slot
-criterion to `dir="rtl"`-wrapped definition text reproduces 49 / 34 /
-1,820 exactly, which is how Task 0 identified what that scope had
+criterion to `dir="rtl"`-wrapped **body text** — nested
+`senses[].definition`, `content.morphology` and `quotes[][]` — returns
+**A 1,826 / B 49 / C 34**, reproducing all three cells of the audit's
+sub-job table, which is how Task 0 identified what that scope had
 been. Over the full in-scope text locus the same criterion returns
-55 / 45. Both sets are listed by rid in the audit file.
+55 / 45. Both sets are listed by rid in the audit file, each labelled
+with its scope.
+
+The match is stronger than three cells: the same run reproduces all
+six twin frequencies the audit names in passing (194, 19, 12, 14, 8,
+6) and its `עכ"ום` 12 against `עכו"ם` 16. Those figures are
+scope-sensitive — over the full in-scope locus they read 200, 19, 12,
+15, 9, 6 — and were not fitted to, so matching seven independent
+values is what makes this a scope identification rather than a
+coincidence.
 
 Moving the mark would source the repair from a *different token
 elsewhere in the corpus*, which is the inference shape the
