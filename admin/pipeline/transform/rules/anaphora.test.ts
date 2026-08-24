@@ -1255,7 +1255,7 @@ it('declines when an ANCHORED citation of another work intervenes', () => {
 	).toBe(false);
 	expect(
 		antecedentOf(tokens, list, at, { accept: isTargumCitation })?.dataRef,
-	).toBe(undefined);
+	).toBeUndefined();
 	expect(targumAntecedentOf(tokens, list, at)).toBeUndefined();
 });
 

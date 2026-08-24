@@ -569,7 +569,7 @@ function gapBetween(
 	let text = '';
 	for (let at = from; at < to; at++) {
 		const token = tokens[at];
-		if (token === undefined || token.kind !== 'text') {
+		if (token?.kind !== 'text') {
 			continue;
 		}
 		const inside = list.some(

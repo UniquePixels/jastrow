@@ -245,7 +245,7 @@ function skeleton(s: string): string {
 /** `Jastrow, <headword> <sense number>` — the address format every
  * member of this row's target takes. Captures the headword portion so
  * its skeleton can be compared to the display's. */
-const TARGET_RE = /^Jastrow, (?<hw>[^0-9]+?) \d+$/u;
+const TARGET_RE = /^Jastrow, (?<hw>\D+?) \d+$/u;
 
 /** The TARGET-ENTRY IDENTITY of a `data-ref` — the skeleton of the
  * headword portion `TARGET_RE` captures, or `undefined` when the value
@@ -313,7 +313,7 @@ function plLabelBoundary(lead: string): number | undefined {
  * this anchor is NOT the entry's own declared plural, whatever else it
  * looks like — see the module doc's nine excluded raw candidates, each
  * caught by exactly this test. */
-const CLEAN_SPAN_RE = new RegExp(`^[${LETTER}${POINT}\\s,]*$`, 'u');
+const CLEAN_SPAN_RE = new RegExp(String.raw`^[${LETTER}${POINT}\s,]*$`, 'u');
 function inCleanPlSpan(tokens: readonly Token[], open: number): boolean {
 	const lead = leadOf(tokens, open);
 	const boundary = plLabelBoundary(lead);

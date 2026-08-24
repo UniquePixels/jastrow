@@ -227,7 +227,7 @@ const PREFIXED_STUB = new RegExp(
  * use as a numeral, whose headword IS the stub (`א׳`). The mislink
  * target of the bare arm, in all 708 measured occurrences. */
 const NUMERAL_ARTICLE = new RegExp(
-	`^Jastrow, (?<letter>[${LETTER}])${GERESH} \\d+$`,
+	String.raw`^Jastrow, (?<letter>[${LETTER}])${GERESH} \d+$`,
 	'u',
 );
 
@@ -247,7 +247,7 @@ const FIRST_LETTER = new RegExp(`[${LETTER}]`, 'u');
  * preformatives (aleph, yod, taw and the rest); see the module doc
  * and the exception register.
  */
-const PARTICLES: ReadonlySet<string> = new Set([...'בהוכלמשד']);
+const PARTICLES: ReadonlySet<string> = new Set('בהוכלמשד');
 
 /** The containing entry's first consonant, or `''` for a headword
  * holding no Hebrew letter at all — which never equals a stub letter,
