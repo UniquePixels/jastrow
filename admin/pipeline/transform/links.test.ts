@@ -1,8 +1,6 @@
 import { expect, it } from 'bun:test';
-import { readSourceEntries } from '../body/source.ts';
 import { serialize, type Token, tokenize } from './html.ts';
 import { type Anchor, anchors, retarget, unlink } from './links.ts';
-import { fieldsOf } from './no-new-text.ts';
 
 /** `anchors()[0]` narrowed for the tests below. Every fixture here is
  * known non-empty; `noUncheckedIndexedAccess` types indexed access as
@@ -201,8 +199,8 @@ it('an anchor missing its closing tag is unclosed and refused', () => {
 /** A00016's shape, verbatim. Both attributes are present, and until
  * 2026-08-24 neither PARSED, because `ATTR`'s value class excluded the
  * apostrophe in `Tosefta Ma'asrot 1:4` — 452 anchors across 417 entries
- * were in that state. The lazy value class reads them; the corpus test
- * at the foot of this file pins that the widening only ever ADDS. */
+ * were in that state. The lazy value class reads them, and
+ * `links.corpus.test.ts` pins that the widening only ever ADDS. */
 const APOSTROPHE =
 	'<a class="refLink" href="/Tosefta_Ma\'asrot.1.4" ' +
 	'data-ref="Tosefta Ma\'asrot 1:4">Tosef. Maasr. I, 4</a>';
@@ -244,119 +242,25 @@ it('retarget refuses an anchor carrying href alone', () => {
 	);
 });
 
-/**
- * The apostrophe widening, pinned as a PROPERTY rather than a story.
- *
- * `ATTR`'s value class was `[^"']*`, which excluded both delimiters and
- * so failed outright on any value holding the other one. The corpus
- * writes 452 such values. Replacing the class could in principle have
- * done three things — gain a value, CHANGE one already read, or LOSE
- * one — and only the first is safe, so all three are measured here
- * against the old class, kept locally for exactly this comparison.
- *
- * This is the argument that the fix could not have altered any shipped
- * rule's behaviour, and it is a test rather than a paragraph because
- * the batch-2 review found four permanent records asserting things
- * their own code did not do.
- *
- * KNOWN LIMIT, recorded rather than implied: `NEW_ATTR` is a COPY of
- * the production class, not an import of it (`ATTR` is module-private
- * and its consumers need the `d` flag this comparison does not). So
- * this test pins a property of the two classes, and what ties
- * production to `NEW_ATTR` is the fixture test above — change `ATTR`
- * without changing `NEW_ATTR` and this test keeps passing while
- * measuring the wrong thing. `tags` is 170,180 rather than the
- * module's 170,182 anchors: `OPEN_TAG` cannot match the 2 whose `href`
- * swallows their own `</a>`, and neither class can read those either.
- */
-const OLD_ATTR = (name: string): RegExp =>
-	new RegExp(String.raw`\b${name}\s*=\s*(?<q>["'])(?<value>[^"']*)\k<q>`, 'u');
-const NEW_ATTR = (name: string): RegExp =>
-	new RegExp(
-		String.raw`\b${name}\s*=\s*(?<q>["'])(?<value>[\s\S]*?)\k<q>`,
-		'u',
-	);
-const OPEN_TAG = /<a\b[^<>]*>/giu;
-
-/** Every `<a …>` opening tag in the corpus, with the entry it came
- * from. Shared by the two corpus tests below so neither has to nest
- * three loops to reach a tag. */
-async function* openTags(): AsyncGenerator<{ rid: string; tag: string }> {
-	for await (const entry of readSourceEntries()) {
-		for (const field of fieldsOf(entry)) {
-			for (const [tag] of field.matchAll(OPEN_TAG)) {
-				yield { rid: entry.rid, tag };
-			}
-		}
-	}
-}
-
-it('widening the value class only ever ADDS a value — 452, none changed, none lost', async () => {
-	const gained = { 'data-ref': 0, href: 0 };
-	const changed = { 'data-ref': 0, href: 0 };
-	const lost = { 'data-ref': 0, href: 0 };
-	const rids = new Set<string>();
-	let tags = 0;
-	for await (const { rid, tag } of openTags()) {
-		tags++;
-		for (const name of ['href', 'data-ref'] as const) {
-			const before = OLD_ATTR(name).exec(tag)?.groups?.['value'];
-			const after = NEW_ATTR(name).exec(tag)?.groups?.['value'];
-			if (before === after) {
-				continue;
-			}
-			rids.add(rid);
-			if (before === undefined) {
-				gained[name]++;
-			} else if (after === undefined) {
-				lost[name]++;
-			} else {
-				changed[name]++;
-			}
-		}
-	}
-	expect(tags).toBe(170_180);
-	expect(gained).toEqual({ 'data-ref': 452, href: 452 });
-	expect(changed).toEqual({ 'data-ref': 0, href: 0 });
-	expect(lost).toEqual({ 'data-ref': 0, href: 0 });
-	expect(rids.size).toBe(417);
-});
-
-/** Why the class is lazy and not simply `[^"]*`: the corpus is entirely
- * double-quoted TODAY, so the narrower class would pass every test
- * above while silently over-running the first single-quoted tag anyone
- * adds. The count is pinned so "entirely double-quoted" stays a
- * measurement. */
-it('every attribute value in the corpus is double-quoted — 340,360 of them', async () => {
-	const quote = /\b(?:href|data-ref)\s*=\s*(?<mark>["'])/gu;
-	let double = 0;
-	let single = 0;
-	for await (const { tag } of openTags()) {
-		for (const found of tag.matchAll(quote)) {
-			if (found.groups?.['mark'] === '"') {
-				double++;
-			} else {
-				single++;
-			}
-		}
-	}
-	expect(double).toBe(340_360);
-	expect(single).toBe(0);
-});
-
+/** The widening cannot newly succeed on damaged markup. The tokenizer
+ * cuts DAMAGED's opening tag AT the swallowed `</a>`, so the tag it
+ * hands this module ends mid-value with no closing quote:
+ * `<a dir="rtl" href="/Jastrow,_כָּלוּל.1</a>`. Neither the old value
+ * class nor the new one can match an unterminated value, so both read
+ * nothing and `malformed` — which is what actually refuses this anchor
+ * — is reached by the same route. Pinned because "cannot newly
+ * succeed" is the claim, not the guess that it reads the same
+ * non-empty string. The corpus-wide counterpart is in
+ * `links.corpus.test.ts`. */
 it('the lazy class still reads a damaged tag exactly as before', () => {
-	// The tokenizer cuts DAMAGED's opening tag AT the swallowed `</a>`,
-	// so the tag it hands this module ends mid-value with no closing
-	// quote: `<a dir="rtl" href="/Jastrow,_כָּלוּל.1</a>`. Neither class
-	// can match an unterminated value, so both read nothing and
-	// `malformed` — which is what actually refuses this anchor — is
-	// reached by the same route. Pinned because "the widening cannot
-	// newly succeed on damaged markup" is the claim, not the guess that
-	// it reads the same non-empty string.
 	const [tag] = tokenize(DAMAGED);
 	const tagValue = tag?.kind === 'tag' ? tag.value : '';
-	expect(OLD_ATTR('href').exec(tagValue)).toBeNull();
-	expect(NEW_ATTR('href').exec(tagValue)).toBeNull();
+	expect(
+		/\bhref\s*=\s*(?<q>["'])(?<value>[^"']*)\k<q>/u.exec(tagValue),
+	).toBeNull();
+	expect(
+		/\bhref\s*=\s*(?<q>["'])(?<value>[\s\S]*?)\k<q>/u.exec(tagValue),
+	).toBeNull();
 	const anchor = first(anchors(tokenize(DAMAGED)));
 	expect(anchor.href).toBe('');
 	expect(anchor.malformed).toBe(true);

@@ -57,6 +57,18 @@ import {
 // single-quoted one. `[\s\S]*?` stops at whichever delimiter `\k<q>`
 // captured, so it is correct for either without assuming the corpus's.
 // `tagValue` is always one tag, so it cannot cross a `>`.
+//
+// KNOWN LIMIT, unchanged by the widening: `\b${name}` is quote-blind,
+// so in `<a title="see href='x'" href="/real">` it would read `x`.
+// Raised in review 2026-08-24 and measured rather than assumed — the
+// old and new classes return byte-identical values on every such
+// shape, and the corpus cannot produce one: an `<a>` tag here carries
+// exactly four attribute names (`class`, `href` and `data-ref`
+// 170,180 each, `dir` 62,003) and 0 tags carry a second `href` or
+// `data-ref`. Both facts are pinned in `links.test.ts`, so a later
+// stage that introduces a `title` breaks a test rather than a link.
+// Closing it properly means a stateful attribute scanner — a larger
+// change than this one, needing its own corpus measurement.
 const ATTR = (name: string): RegExp =>
 	new RegExp(
 		String.raw`\b${name}\s*=\s*(?<q>["'])(?<value>[\s\S]*?)\k<q>`,
