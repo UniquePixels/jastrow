@@ -48,6 +48,34 @@ interface TransformResult {
 	 * source is a violation, not an allowance. */
 	copied?: readonly string[];
 	entry: SourceEntry;
+	/** Link targets this call REBUILT from two other targets in this
+	 * entry's input (batch-2 link spec §3.2 case 4, ruling of
+	 * 2026-08-23). `head` supplies a leading run of the written
+	 * `target` and `tail` supplies the rest: `link-target.ts` accepts
+	 * it only if some split of `target` makes the first part a PREFIX
+	 * of `head` and the second part a SUFFIX of `tail`, with both
+	 * contributing at least one character. Nothing else is admitted —
+	 * no gap, no third source, no character from the display — so
+	 * every character of the written target is verbatim from a target
+	 * the entry already held, and both `head` and `tail` must be in
+	 * that input.
+	 *
+	 * The case exists for `ib-targum-work-loss`: an "ib." inside a
+	 * Targum run keeps its own correct verse but loses the work, and
+	 * the repair is the antecedent's work joined to this anchor's own
+	 * locus. Case 3 cannot license it — its remainder must occur in
+	 * the DISPLAY, and Jastrow writes `Deut. VI, 22` where Sefaria
+	 * writes `6:22`, so no Sefaria locus can ever clear that test.
+	 * Case 4 asks a different question (is every character verbatim
+	 * from two named input targets?) and does not subsume case 3,
+	 * which admits display evidence this case has no way to read.
+	 *
+	 * Declared, matched to anchors and reported exactly like
+	 * `composed`. What it newly permits is in `link-target.ts`'s
+	 * blind-spot list — the split point is derived rather than
+	 * declared, so a borrowed trailing character can extend the
+	 * head's own locus. */
+	recombined?: readonly { head: string; tail: string; target: string }[];
 	records: TransformRecord[];
 	/** How many anchors this call REMOVED from the entry, counted over
 	 * the whole entry rather than per field. The markup-delta gate

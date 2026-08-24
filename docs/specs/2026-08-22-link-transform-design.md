@@ -107,8 +107,8 @@ batch 2 is where it has to be closed rather than recorded.
 ### 3.2 The gate contract
 
 **A rule may only write a link target it can point at in this entry's
-own input.** `checkLinkTargets(before, after, rule, result)` fails
-unless every anchor in `after` satisfies one of:
+own input.** `checkLinkTargets(before, after, result)` fails unless
+every anchor in `after` satisfies one of:
 
 1. **Unchanged** — byte-identical `href` and `data-ref` to its
    counterpart in `before`.
@@ -120,11 +120,42 @@ unless every anchor in `after` satisfies one of:
    locus component's characters are a sub-multiset of that anchor's own
    display text. The rule declares the composition explicitly, the way
    §5.1's `copied` is declared; an undeclared compose is a violation.
+4. **Recombined** (added 2026-08-23) — the target is a PREFIX of one
+   input target joined to a SUFFIX of another, both declared as
+   `recombined: [{head, tail, target}]`, both present in the input,
+   each contributing at least one character, with no gap between the
+   halves and no character from anywhere else. An undeclared
+   recombination is a violation, exactly as for case 3.
 
-Case 3 is the loosest and the only one that could launder a wrong
-target, so it is constrained on both halves: the work is copied whole
-(never assembled character by character) and the locus may introduce no
+Case 3 is constrained on both halves: the work is copied whole (never
+assembled character by character) and the locus may introduce no
 character the display did not already show.
+
+**Why case 4 exists.** Case 3's locus evidence is the anchor's display,
+and Jastrow's displays are Roman-numeral abbreviations
+(`Deut. VI, 22`) while Sefaria's refs are Arabic (`6:22`). So case 3
+cannot license ANY Jastrow→Sefaria locus, in `ib-targum-work-loss` or
+in any future row — a general limit of the case, discovered when all
+nine of that row's occurrences failed the gate. Case 4 takes its
+evidence from a second input target instead: for `ib-targum-work-loss`
+the work comes off the antecedent Targum anchor and the locus off the
+anaphor's own current (correct-verse, wrong-work) target.
+
+Case 4 is **better evidenced than case 2**, which already permits
+copying a sibling anchor's target wholesale and cannot tell a copy from
+a swap; here every character is verbatim from a named input target and
+both sources are declared. Corroboration: 5 of the 9 refs it licenses
+already occur as anchors elsewhere in the corpus. It is nonetheless a
+widening, and the honest cost is recorded in `link-target.ts`'s
+blind-spot list rather than here: case 4 can MINT an address the entry
+never held, the head/tail pairing is not checked for relevance, and the
+split point is derived rather than declared, so a borrowed trailing
+character can extend the head's own locus.
+
+Cases 1-3 were not weakened to make room, and case 4 does not subsume
+case 3: case 3 reads evidence off the display, which case 4 cannot see,
+and case 4 reads it off a second target, which case 3 cannot name.
+`sifre-ib-resolves-to-yalkut` still needs case 3.
 
 Two counting invariants, checked on every rule:
 
@@ -258,3 +289,4 @@ tests it.
 | 2026-08-22 | Wrong link with no correct target → **unlink**, keeping the display text |
 | 2026-08-22 | Entry-local scope: `v-sub-redirect-stub-mislink` (161) and `containment-fallback-mislink` (22) deferred rather than extend `Rule.apply` with a corpus index |
 | 2026-08-22 | Gate case 3 (compose) kept, constrained to work-copied-whole plus locus ⊆ display |
+| 2026-08-23 | Gate gains **case 4, recombination** (prefix of one input target + suffix of another, both declared): case 3's display-remainder test can never license a Sefaria locus, since Jastrow's displays are Roman numerals — measured on all 9 `ib-targum-work-loss` occurrences, decisively on M00567 where the remainder is `6:22` alone. Accepted as better evidenced than case 2; cases 1-3 unchanged |

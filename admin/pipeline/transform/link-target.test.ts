@@ -295,3 +295,195 @@ it('the runner enforces the gate', () => {
 		/^fabricator: target "Nedarim 25a" is not in T00001's input$/u,
 	);
 });
+
+// ————————————————————————————————————————————————————————————————
+// Case 4: recombination (spec §3.2 case 4, ruling of 2026-08-23).
+// ————————————————————————————————————————————————————————————————
+
+/** A verbatim corpus anchor. Sefaria spells the same address two ways
+ * — `/Onkelos_Deuteronomy.13.2` and `Onkelos Deuteronomy 13:2` — so a
+ * recombination splits at a different offset on each attribute, and
+ * the `A` helper's synthetic hrefs would hide that. */
+const S = (href: string, ref: string, display: string): string =>
+	`<a class="refLink" href="${href}" data-ref="${ref}">${display}</a>`;
+
+const WORK = A('Work on Exodus 1:1', 'Ex. I, 1');
+const LOCUS = A('Leviticus 2:2', 'Lev. II, 2');
+const rejoined = entry(
+	`${WORK} and Ib. ${A('Work on Leviticus 2:2', 'Lev. II, 2')}`,
+);
+const split = { head: 'Work on Exodus 1:1', tail: 'Leviticus 2:2' };
+
+it('a declared recombination passes', () => {
+	const claim = { ...split, target: 'Work on Leviticus 2:2' };
+	expect(
+		checkLinkTargets(
+			entry(`${WORK} and Ib. ${LOCUS}`),
+			rejoined,
+			result(rejoined, { recombined: [claim] }),
+		),
+	).toEqual([]);
+});
+
+it('an undeclared recombination fails', () => {
+	expect(
+		checkLinkTargets(
+			entry(`${WORK} and Ib. ${LOCUS}`),
+			rejoined,
+			result(rejoined),
+		),
+	).toEqual(['target "Work on Leviticus 2:2" is not in T00001\'s input']);
+});
+
+it('a recombination taking a character from neither source fails', () => {
+	const after = entry(
+		`${WORK} and Ib. ${A('Work on Leviticus 2:3', 'Lev. II, 2')}`,
+	);
+	const claim = { ...split, target: 'Work on Leviticus 2:3' };
+	expect(
+		checkLinkTargets(
+			entry(`${WORK} and Ib. ${LOCUS}`),
+			after,
+			result(after, { recombined: [claim] }),
+		),
+	).toEqual([
+		'recombined "Work on Leviticus 2:3" is not a prefix of "Work on Exodus 1:1" joined to a suffix of "Leviticus 2:2"',
+	]);
+});
+
+it('a recombination from a target the input lacks fails', () => {
+	const claim = {
+		head: 'Work on Numbers 9:9',
+		tail: 'Leviticus 2:2',
+		target: 'Work on Leviticus 2:2',
+	};
+	expect(
+		checkLinkTargets(
+			entry(`${WORK} and Ib. ${LOCUS}`),
+			rejoined,
+			result(rejoined, { recombined: [claim] }),
+		),
+	).toEqual([
+		'recombined "Work on Leviticus 2:2" copies from "Work on Numbers 9:9", which is not in T00001\'s input',
+	]);
+});
+
+it('a recombination whose TAIL is not in the input fails', () => {
+	const claim = {
+		head: 'Work on Exodus 1:1',
+		tail: 'Numbers 9:9',
+		target: 'Work on Leviticus 2:2',
+	};
+	expect(
+		checkLinkTargets(
+			entry(`${WORK} and Ib. ${LOCUS}`),
+			rejoined,
+			result(rejoined, { recombined: [claim] }),
+		),
+	).toEqual([
+		'recombined "Work on Leviticus 2:2" copies from "Numbers 9:9", which is not in T00001\'s input',
+	]);
+});
+
+it('a recombination may not simply truncate its head', () => {
+	const after = entry(`${WORK} and Ib. ${A('Work on Exodus 1', 'Lev. II, 2')}`);
+	const claim = { ...split, target: 'Work on Exodus 1' };
+	expect(
+		checkLinkTargets(
+			entry(`${WORK} and Ib. ${LOCUS}`),
+			after,
+			result(after, { recombined: [claim] }),
+		),
+	).toEqual([
+		'recombined "Work on Exodus 1" is not a prefix of "Work on Exodus 1:1" joined to a suffix of "Leviticus 2:2"',
+	]);
+});
+
+/** A00589, verbatim from the corpus — the different-book member, and
+ * the shape 8 of `ib-targum-work-loss`'s 9 occurrences take. The gate
+ * change is only right if it licenses exactly this. */
+it("licenses A00589's claim", () => {
+	const anaphor = (href: string, ref: string): string =>
+		S(href, ref, 'Lev. VI, 3');
+	const definition = (locus: string): string =>
+		`${S('/Targum_Jonathan_on_Exodus.39.28', 'Targum Jonathan on Exodus 39:28', 'Targ. Y. I Ex. XXXIX, 28')} Ib. ${locus}`;
+	const after = entry(
+		definition(
+			anaphor(
+				'/Targum_Jonathan_on_Leviticus.6.3',
+				'Targum Jonathan on Leviticus 6:3',
+			),
+		),
+	);
+	const claim = {
+		head: 'Targum Jonathan on Exodus 39:28',
+		tail: 'Leviticus 6:3',
+		target: 'Targum Jonathan on Leviticus 6:3',
+	};
+	expect(
+		checkLinkTargets(
+			entry(definition(anaphor('/Leviticus.6.3', 'Leviticus 6:3'))),
+			after,
+			result(after, { recombined: [claim] }),
+		),
+	).toEqual([]);
+});
+
+/** M00567, verbatim: the same-book member, where the common prefix
+ * eats the work AND the book. Case 3 fails it on `6` and `:` alone —
+ * Jastrow writes `Deut. VI, 22`, Sefaria writes `6:22` — which is why
+ * case 4 exists at all. */
+it("licenses M00567's claim", () => {
+	const anaphor = (href: string, ref: string): string =>
+		S(href, ref, 'Deut. VI, 22');
+	const definition = (locus: string): string =>
+		`${S('/Onkelos_Deuteronomy.13.2', 'Onkelos Deuteronomy 13:2', 'Targ. O. Deut. XIII, 2')} Ib. ${locus}`;
+	const after = entry(
+		definition(
+			anaphor('/Onkelos_Deuteronomy.6.22', 'Onkelos Deuteronomy 6:22'),
+		),
+	);
+	const claim = {
+		head: 'Onkelos Deuteronomy 13:2',
+		tail: 'Deuteronomy 6:22',
+		target: 'Onkelos Deuteronomy 6:22',
+	};
+	expect(
+		checkLinkTargets(
+			entry(definition(anaphor('/Deuteronomy.6.22', 'Deuteronomy 6:22'))),
+			after,
+			result(after, { recombined: [claim] }),
+		),
+	).toEqual([]);
+});
+
+/** Pinned because it PASSES, not because it should. The split point is
+ * derived, not declared, so a trailing character of the tail can be
+ * grafted onto the HEAD's own locus: `Onkelos Deuteronomy 13:2` plus a
+ * borrowed `2` mints `…13:22`, a verse nothing in the entry cites.
+ * Documented in the module's blind-spot list; this test exists so
+ * that tightening the rule later is a deliberate act with a failing
+ * test to show for it. */
+it('lets a borrowed tail character extend the head’s own locus', () => {
+	const anaphor = (href: string, ref: string): string =>
+		S(href, ref, 'Deut. VI, 22');
+	const definition = (locus: string): string =>
+		`${S('/Onkelos_Deuteronomy.13.2', 'Onkelos Deuteronomy 13:2', 'Targ. O. Deut. XIII, 2')} Ib. ${locus}`;
+	const after = entry(
+		definition(
+			anaphor('/Onkelos_Deuteronomy.13.22', 'Onkelos Deuteronomy 13:22'),
+		),
+	);
+	const claim = {
+		head: 'Onkelos Deuteronomy 13:2',
+		tail: 'Deuteronomy 6:22',
+		target: 'Onkelos Deuteronomy 13:22',
+	};
+	expect(
+		checkLinkTargets(
+			entry(definition(anaphor('/Deuteronomy.6.22', 'Deuteronomy 6:22'))),
+			after,
+			result(after, { recombined: [claim] }),
+		),
+	).toEqual([]);
+});

@@ -15,7 +15,7 @@
  *
  * The contract is one sentence: **a rule may only write a link target
  * it can point at in this entry's own input.** Concretely, every
- * anchor in `after` must satisfy one of the spec's three cases:
+ * anchor in `after` must satisfy one of the spec's four cases:
  *
  * 1. **Unchanged** and 2. **copied** collapse into ONE membership
  *    test here. An unchanged target is trivially present in the
@@ -29,6 +29,21 @@
  *    `TransformResult.composed`. An undeclared compose is reported as
  *    a fabrication, which is what it is until a rule author says
  *    otherwise.
+ * 4. **Recombined** (ruling of 2026-08-23) — a prefix of one input
+ *    target joined to a suffix of another, both DECLARED through
+ *    `TransformResult.recombined`, with no character from anywhere
+ *    else and no gap between the halves. Case 3 cannot express this:
+ *    its remainder must appear in the anchor's DISPLAY, and Jastrow
+ *    writes `Deut. VI, 22` where Sefaria writes `6:22`, so no Sefaria
+ *    locus will ever clear that test — a general limit of case 3, not
+ *    a quirk of the nine `ib-targum-work-loss` occurrences that
+ *    forced the ruling.
+ *
+ *    The two cases do not overlap and neither subsumes the other:
+ *    case 3 reads evidence off the display, which case 4 cannot see;
+ *    case 4 reads it off a second input target, which case 3 cannot
+ *    name. Cases 1-3 are untouched — nothing was loosened to make
+ *    room.
  *
  * `href` and `data-ref` are checked INDEPENDENTLY against that one
  * set. A rule that copies both from the same source anchor therefore
@@ -103,9 +118,32 @@
  *   value (D00478's `href` swallowing its closing tag), the
  *   "attributes" that follow are document TEXT to the tokenizer and
  *   are invisible here. The text gate covers edits to them.
- * - **Unused claims.** A `composed` entry matching no anchor grants
- *   nothing, but is not itself reported, so a stale declaration left
- *   in a rule will not be flagged.
+ * - **A minted address, in case 4.** Cases 1-3 can only reuse a
+ *   target the entry held or extend one with display evidence. Case 4
+ *   SYNTHESIZES an address that may occur nowhere in the entry — or
+ *   in the corpus. Every character is verbatim, and that is a
+ *   provenance claim about characters, not a claim that the resulting
+ *   address is real. The maintainer's ruling rests on it being better
+ *   evidenced than case 2, which is true, and this is the cost side
+ *   of that trade.
+ * - **An unchecked pairing, in case 4.** Any two input targets may be
+ *   named `head` and `tail`. The gate never asks whether the head is
+ *   the antecedent the rule reasoned about, nor whether the tail is
+ *   the anchor's OWN current target — a rule that picks the wrong
+ *   antecedent (the hazard `ib-yoma-2a` already meets, and the reason
+ *   Task 8's Sifré arm carries a predicate) produces a
+ *   well-provenanced wrong address and passes.
+ * - **A derived split point, in case 4.** The offset is searched for,
+ *   not declared, because the same address splits differently on
+ *   `href` and on `data-ref`. So a trailing character borrowed from
+ *   the tail can extend the HEAD's own locus:
+ *   `Onkelos Deuteronomy 13:2` plus a `2` off `Deuteronomy 6:22`
+ *   mints `Onkelos Deuteronomy 13:22`, a verse nothing in the entry
+ *   cites. Pinned by a test in `link-target.test.ts` so that
+ *   tightening this is a deliberate act.
+ * - **Unused claims.** A `composed` or `recombined` entry matching no
+ *   anchor grants nothing, but is not itself reported, so a stale
+ *   declaration left in a rule will not be flagged.
  * - **Fields outside `fieldsOf`.** `refs[]` and `rid` are excluded
  *   from the shared walk (see `no-new-text.ts` on why), so a rule
  *   editing only those passes here — and `refs[]` holds link targets
@@ -121,11 +159,15 @@ import type { TransformResult } from './types.ts';
 /** One declared composition (`TransformResult.composed`). */
 type Compose = { from: string; target: string };
 
+/** One declared recombination (`TransformResult.recombined`). */
+type Recombine = { head: string; tail: string; target: string };
+
 /** Everything `checkValue` reads about the INPUT side, gathered once
  * per call: the entry's anchors, the target set built from them, the
  * rule's declared compositions, and the rid for the messages. */
 interface Input {
 	claims: readonly Compose[];
+	rejoins: readonly Recombine[];
 	rid: string;
 	source: readonly Anchor[];
 	targets: ReadonlySet<string>;
@@ -255,26 +297,63 @@ function faultOf(
 }
 
 /**
+ * Whether `value` is some PREFIX of `head` joined to some SUFFIX of
+ * `tail`, with both contributing at least one character — spec §3.2
+ * case 4, and the whole of it.
+ *
+ * The split point is derived rather than declared, because a rule
+ * author cannot know it: the same address splits at a different
+ * offset on each attribute (`Onkelos Deuteronomy 13:2` gives up
+ * `Onkelos ` while `/Onkelos_Deuteronomy.13.2` gives up `/Onkelos_`),
+ * so a declared offset would be wrong on one of the two. Every offset
+ * the head can support is tried instead, which is why the head cannot
+ * simply be truncated: some suffix of the tail must account for
+ * whatever the prefix does not.
+ *
+ * A prefix of `value` matches `head` exactly when it is no longer
+ * than their common prefix, so the search runs over
+ * `[value.length - tail.length, commonPrefix]`, clamped to leave one
+ * character on each side. Offsets are code units, not codepoints: the
+ * test is exact string equality on both halves, so a split inside a
+ * surrogate pair or before a combining mark can only match when the
+ * same units are genuinely present in the source, and the verbatim
+ * property holds either way.
+ */
+function rejoinsFrom(value: string, head: string, tail: string): boolean {
+	const limit = Math.min(commonPrefix(head, value).length, value.length - 1);
+	for (let at = Math.max(1, value.length - tail.length); at <= limit; at++) {
+		if (tail.endsWith(value.slice(at))) {
+			return true;
+		}
+	}
+	return false;
+}
+
+/**
  * Why this anchor's `value` (its `href` or its `data-ref`) is not one
  * the entry's input could supply, or `undefined` when it is.
  *
  * Membership in `targets` settles cases 1 and 2 outright. Otherwise
- * the value must be licensed by a declared composition, matched to
- * this anchor by `target === anchor.dataRef`: EVERY matching anchor
- * must satisfy the claim, which falls out of checking each anchor
- * against every claim that names it rather than pairing them off.
+ * the value must be licensed by a declared composition (case 3) or
+ * recombination (case 4), each matched to this anchor by
+ * `target === anchor.dataRef`: EVERY matching anchor must satisfy the
+ * claim, which falls out of checking each anchor against every claim
+ * that names it rather than pairing them off. One licence is enough —
+ * a value both kinds of claim name passes if either admits it — and
+ * the first fault is reported when none does.
  */
 function checkValue(
 	value: string,
 	anchor: Anchor,
 	input: Input,
 ): string | undefined {
-	const { claims, rid, source, targets } = input;
+	const { claims, rejoins, rid, source, targets } = input;
 	if (targets.has(value)) {
 		return;
 	}
 	const matching = claims.filter((claim) => claim.target === anchor.dataRef);
-	if (matching.length === 0) {
+	const rebuilt = rejoins.filter((claim) => claim.target === anchor.dataRef);
+	if (matching.length === 0 && rebuilt.length === 0) {
 		return `target ${JSON.stringify(value)} is not in ${rid}'s input`;
 	}
 	const faults: string[] = [];
@@ -292,6 +371,28 @@ function checkValue(
 			return;
 		}
 		faults.push(`composed ${JSON.stringify(value)} ${fault}`);
+	}
+	for (const claim of rebuilt) {
+		const absent = [claim.head, claim.tail].find((from) => !targets.has(from));
+		if (absent !== undefined) {
+			faults.push(
+				`recombined ${JSON.stringify(claim.target)} copies from ${JSON.stringify(absent)}, which is not in ${rid}'s input`,
+			);
+			continue;
+		}
+		const halves =
+			value === anchor.dataRef
+				? [[claim.head], [claim.tail]]
+				: [hrefsFor(claim.head, source), hrefsFor(claim.tail, source)];
+		const [heads = [], tails = []] = halves;
+		if (
+			heads.some((head) => tails.some((tail) => rejoinsFrom(value, head, tail)))
+		) {
+			return;
+		}
+		faults.push(
+			`recombined ${JSON.stringify(value)} is not a prefix of ${JSON.stringify(heads[0] ?? claim.head)} joined to a suffix of ${JSON.stringify(tails[0] ?? claim.tail)}`,
+		);
 	}
 	return faults[0];
 }
@@ -321,7 +422,7 @@ function checkValue(
 function checkLinkTargets(
 	before: SourceEntry,
 	after: SourceEntry,
-	result: Pick<TransformResult, 'composed' | 'unlinks'>,
+	result: Pick<TransformResult, 'composed' | 'recombined' | 'unlinks'>,
 ): string[] {
 	const sourceFields = fieldsOf(before);
 	const outputFields = fieldsOf(after);
@@ -331,6 +432,7 @@ function checkLinkTargets(
 	const { rid } = after;
 	const input: Input = {
 		claims: result.composed ?? [],
+		rejoins: result.recombined ?? [],
 		rid,
 		source,
 		targets: targetsOf(source),
