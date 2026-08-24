@@ -400,12 +400,17 @@ it('the pair is order-free against the rtl trio', async () => {
 		latinTokenInsideRtl,
 	]);
 	let differing = 0;
+	let seen = 0;
 	for await (const source of readSourceEntries()) {
+		seen += 1;
 		const rtlFirst = both(applyRtl(source));
 		const gershayimFirst = applyRtl(both(source));
 		if (JSON.stringify(rtlFirst) !== JSON.stringify(gershayimFirst)) {
 			differing += 1;
 		}
 	}
+	// Pinned like the test above: `differing === 0` is also what an
+	// empty walk reports, so the corpus size is part of the claim.
+	expect(seen).toBe(32_512);
 	expect(differing).toBe(0);
 }, 300_000);

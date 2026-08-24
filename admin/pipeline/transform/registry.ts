@@ -248,8 +248,13 @@ const RULES: readonly Rule[] = [
 	// last changes nothing any of them sees. Measured too, against the
 	// whole shipped registry rather than against the rtl trio alone —
 	// composed, the pair produces the same 1,386 and 85 entries it
-	// produces alone, so no rule above consumes an occurrence of it
-	// (task-3-report.md).
+	// produces alone, so no rule above consumes an occurrence of it,
+	// and moving the pair to the FRONT of this list leaves all 32,512
+	// entries byte-identical. The claim and its method are spec §4.2
+	// (docs/specs/2026-08-24-gershayim-transform-design.md), which is
+	// in the repository; the run itself is re-derivable from that
+	// section in a few seconds and is deliberately not cited to a
+	// working note nobody else can open.
 	gershayimInBody,
 	gershayimRefAttribute,
 ];
@@ -378,6 +383,78 @@ function coverage(catalogue: readonly Pattern[]): Coverage {
 	};
 }
 
+/** One connected component of the catalogue's entanglement graph that
+ * has at least two REGISTERED members — the only kind execution order
+ * can be wrong about. */
+interface Cluster {
+	/** Registry positions of the members that are registered, ascending. */
+	at: number[];
+	/** Every id in the component, registered or not, sorted. */
+	ids: string[];
+}
+
+/** The connected component containing `from`, marking each id seen so
+ * a component is walked once rather than once per member. */
+function componentOf(
+	from: string,
+	partners: ReadonlyMap<string, readonly string[]>,
+	seen: Set<string>,
+): string[] {
+	const cluster: string[] = [];
+	const queue = [from];
+	while (queue.length > 0) {
+		const id = queue.pop() as string;
+		if (seen.has(id)) {
+			continue;
+		}
+		seen.add(id);
+		cluster.push(id);
+		queue.push(...(partners.get(id) ?? []).filter((p) => !seen.has(p)));
+	}
+	return cluster;
+}
+
+/**
+ * Every entanglement cluster the registry can currently get wrong,
+ * DERIVED from the catalogue rather than listed anywhere.
+ *
+ * Exported because a hand-written test per cluster is a convention
+ * with nothing enforcing it: `checkAdjacency` skips a component with
+ * fewer than two registered members, so the day a pending row's rule
+ * ships, its cluster starts mattering and no existing test knows.
+ * Tests assert against THIS list, so the set of clusters under test is
+ * the set that exists.
+ */
+function entangledClusters(
+	catalogue: readonly Pattern[],
+	rules: readonly Rule[] = RULES,
+): Cluster[] {
+	const index = new Map(rules.map((rule, at) => [rule.id, at]));
+	const partners = new Map(
+		catalogue.map((row) => [row.id, row.entangledWith ?? []]),
+	);
+	const seen = new Set<string>();
+	const clusters: Cluster[] = [];
+	for (const rule of rules) {
+		if (seen.has(rule.id)) {
+			continue;
+		}
+		const ids = componentOf(rule.id, partners, seen);
+		const at = ids
+			.flatMap((id) => {
+				const found = index.get(id);
+				return found === undefined ? [] : [found];
+			})
+			.toSorted((a, b) => a - b);
+		if (at.length >= 2) {
+			clusters.push({ at, ids: ids.toSorted() });
+		}
+	}
+	return clusters.toSorted((a, b) =>
+		(a.ids[0] ?? '').localeCompare(b.ids[0] ?? ''),
+	);
+}
+
 /**
  * Entangled rows own the same records; a gap between them in execution
  * order means one rewrites the other's output.
@@ -388,50 +465,39 @@ function coverage(catalogue: readonly Pattern[]): Coverage {
  * can never be satisfied by a group larger than a pair. What "adjacent"
  * means for a cluster is that its members occupy a gap-free span, in
  * any order.
+ *
+ * ## What this gate CANNOT prove, stated rather than implied
+ *
+ * It reads the catalogue's `entangledWith` graph and nothing else, so
+ * an entanglement nobody recorded does not exist as far as it is
+ * concerned. A row carrying NO edge is invisible to it: the row's
+ * component is a singleton, `entangledClusters` drops it, and the gate
+ * returns clean whatever the registry does with that rule. 57 of the
+ * 63 rows still in `PENDING` carry no edge at all (measured
+ * 2026-08-24), so for most of the work ahead this gate is
+ * unfalsifiable BY CONSTRUCTION — not because the check is weak, but
+ * because its input is incomplete.
+ *
+ * That is a catalogue-completeness problem and it is not fixable
+ * here. What a rule author gets from a clean run is therefore: no
+ * RECORDED entanglement is split. Not: no entanglement is split. The
+ * cheapest guard remains the one batch 1 learned the hard way — run
+ * the corpus under both orders and compare bytes — which needs no
+ * edge in the catalogue to work.
  */
 function checkAdjacency(
 	catalogue: readonly Pattern[],
 	rules: readonly Rule[] = RULES,
 ): string[] {
-	const index = new Map(rules.map((rule, at) => [rule.id, at]));
-	const partners = new Map(
-		catalogue.map((row) => [row.id, row.entangledWith ?? []]),
-	);
-	const seen = new Set<string>();
-	const problems: string[] = [];
-	for (const rule of rules) {
-		if (seen.has(rule.id)) {
-			continue;
-		}
-		// Breadth-first over the entanglement graph: one component per
-		// pass, so a cluster reports once rather than once per edge.
-		const cluster: string[] = [];
-		const queue = [rule.id];
-		while (queue.length > 0) {
-			const id = queue.pop() as string;
-			if (seen.has(id)) {
-				continue;
-			}
-			seen.add(id);
-			cluster.push(id);
-			queue.push(...(partners.get(id) ?? []).filter((p) => !seen.has(p)));
-		}
-		const at = cluster.flatMap((id) => {
-			const found = index.get(id);
-			return found === undefined ? [] : [found];
-		});
-		if (at.length < 2) {
-			continue;
-		}
-		const span = Math.max(...at) - Math.min(...at) + 1;
-		if (span !== at.length) {
-			problems.push(
-				`${cluster.join(', ')} span ${span} slots for ${at.length} registered rule(s)`,
-			);
-		}
-	}
-	return problems;
+	return entangledClusters(catalogue, rules).flatMap((cluster) => {
+		const span = Math.max(...cluster.at) - Math.min(...cluster.at) + 1;
+		return span === cluster.at.length
+			? []
+			: [
+					`${cluster.ids.join(', ')} span ${span} slots for ${cluster.at.length} registered rule(s)`,
+				];
+	});
 }
 
-export type { Coverage };
-export { checkAdjacency, coverage, PENDING, RULES };
+export type { Cluster, Coverage };
+export { checkAdjacency, coverage, entangledClusters, PENDING, RULES };

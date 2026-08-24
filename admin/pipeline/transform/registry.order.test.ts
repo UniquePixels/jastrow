@@ -27,6 +27,17 @@
  *    recorded. `registry.test.ts` unit-tests `checkAdjacency` on
  *    synthetic cliques; this runs it against the real graph and the
  *    real registry.
+ *
+ *    That aggregate passes on an EMPTY graph, though — `checkAdjacency`
+ *    skips any component with fewer than two registered members — so
+ *    the clusters themselves are pinned as a set, DERIVED from the
+ *    catalogue by `entangledClusters` rather than named one by one.
+ *    Naming them one by one was tried and was not enough: it left the
+ *    rtl 3-clique pinned by nothing, and it could never cover a
+ *    cluster that becomes live when a `PENDING` row's rule ships.
+ *    What is NOT covered, and cannot be from here, is a row whose edge
+ *    was never recorded at all — see `checkAdjacency`'s own limitation
+ *    note in `registry.ts`.
  * 3. **The three `ib-` retargets keep their documented relative
  *    order.** `registry.ts`'s retarget-after-retarget note (Task 7,
  *    used by Task 8) is the mirror of rule 1: a retarget reading the
@@ -46,10 +57,21 @@
  * rather than widening a third: `gershayim-breaks-ref-attribute`
  * writes a link target without adopting one from a neighbour, which
  * is neither `RETARGET` nor `NEITHER` as those are defined.
+ *
+ * And exhaustive is not the same as earned. The corpus pass at the
+ * bottom of this file makes membership of `UNLINK`, `GLYPH` and
+ * `NEITHER` a measurement over all 32,512 entries rather than an
+ * author's claim. `RETARGET` is the one set that cannot be earned
+ * that way, and the note there says why.
  */
 import { describe, expect, it } from 'bun:test';
+import { readSourceEntries } from '../body/source.ts';
+import type { SourceEntry } from '../body/types.ts';
 import { parsePatterns } from '../research/patterns.ts';
-import { checkAdjacency, RULES } from './registry.ts';
+import { tokenize } from './html.ts';
+import { anchors } from './links.ts';
+import { fieldsOf } from './no-new-text.ts';
+import { checkAdjacency, entangledClusters, RULES } from './registry.ts';
 
 const catalogue = parsePatterns(
 	await Bun.file('data/patches/patterns.jsonl').text(),
@@ -81,8 +103,16 @@ const RETARGET = new Set([
  * says nothing about where they sit. The RTL trio rewrites wrapper
  * markup around text; `shuruk-as-yod-display-corruption` edits DISPLAY
  * text inside an anchor whose target is already correct and leaves
- * every `href`/`data-ref` byte-identical. Both were measured free of
- * position (see `registry.ts`). */
+ * every `href`/`data-ref` byte-identical; and
+ * `ascii-quote-as-gershayim-in-body` (batch 3a) repairs a glyph in
+ * document text only, every `<…>` tag coming through byte-identical —
+ * which is exactly what separates it from its own twin in `GLYPH`
+ * below. All three were measured free of position (see `registry.ts`).
+ *
+ * Membership here is EARNED rather than declared: the corpus pass at
+ * the bottom of this file checks that no rule in this set ever
+ * declares an anchor removal and that none of them changes a single
+ * `href` or `data-ref` anywhere in 32,512 entries. */
 const NEITHER = new Set([
 	'ascii-quote-as-gershayim-in-body',
 	'bare-rtl-hebrew',
@@ -142,40 +172,47 @@ describe('registry order', () => {
 		expect(checkAdjacency(catalogue, RULES)).toEqual([]);
 	});
 
-	// `checkAdjacency` skips any cluster with fewer than two REGISTERED
-	// members, so the assertion above would hold on an empty graph too.
-	// Naming each registered entanglement here makes the coverage real:
-	// drop an edge from `patterns.jsonl` and this fails, where the
-	// assertion above would quietly go back to passing on nothing.
-	it('the geresh pair is entangled in the catalogue and adjacent in the registry', () => {
-		const row = catalogue.find((r) => r.id === 'geresh-letter-numeral-mislink');
-		expect(row?.entangledWith).toEqual(['prefixed-geresh-abbrev-mislink']);
-		expect(
-			Math.abs(
-				at('geresh-letter-numeral-mislink') -
-					at('prefixed-geresh-abbrev-mislink'),
-			),
-		).toBe(1);
+	// SELF-COUNTING, and it replaces two hand-written per-cluster tests
+	// this task briefly shipped. Those pinned the geresh and gershayim
+	// pairs by name, which left the rtl 3-clique — a third registered
+	// entanglement — pinned by nothing: strip its edges from the
+	// catalogue and scatter the trio and `checkAdjacency` returns clean.
+	// A convention of "one named test per cluster" has nothing enforcing
+	// it, and the moment a PENDING row's rule ships its cluster starts
+	// mattering with no test aware of it.
+	//
+	// So the set under test is DERIVED from the catalogue by
+	// `entangledClusters` (every component with two or more registered
+	// members) and only the expectation is written here. Strip a
+	// cluster's edges and it leaves the derived set, failing this;
+	// scatter its members and it fails the span test below; register a
+	// new entangled pair and this fails until the pair is listed, which
+	// is the point at which someone has to look.
+	it('the registered entanglement clusters are exactly these', () => {
+		expect(entangledClusters(catalogue, RULES).map((c) => c.ids)).toEqual([
+			['ascii-quote-as-gershayim-in-body', 'gershayim-breaks-ref-attribute'],
+			[
+				'bare-rtl-hebrew',
+				'latin-token-inside-rtl-span',
+				'redundant-outer-rtl-span',
+			],
+			['geresh-letter-numeral-mislink', 'prefixed-geresh-abbrev-mislink'],
+		]);
 	});
 
-	// The gershayim pair (batch 3a), the second registered entanglement
-	// and the reason the comment above says "each". The edge was written
-	// into `patterns.jsonl` in the same task that registered the rules,
-	// precisely so `checkAdjacency` would have a cluster to judge rather
-	// than two singletons it skips.
-	it('the gershayim pair is entangled in the catalogue and adjacent in the registry', () => {
-		const body = catalogue.find(
-			(r) => r.id === 'ascii-quote-as-gershayim-in-body',
-		);
-		const tag = catalogue.find(
-			(r) => r.id === 'gershayim-breaks-ref-attribute',
-		);
-		expect(body?.entangledWith).toEqual(['gershayim-breaks-ref-attribute']);
-		expect(tag?.entangledWith).toEqual(['ascii-quote-as-gershayim-in-body']);
-		expect(
-			at('gershayim-breaks-ref-attribute') -
-				at('ascii-quote-as-gershayim-in-body'),
-		).toBe(1);
+	// The same clusters, now checked for contiguity one by one rather
+	// than through `checkAdjacency`'s aggregate — so a failure names the
+	// cluster and its span, and so this test cannot be satisfied by
+	// there being no clusters at all.
+	it('every derived cluster occupies a gap-free span', () => {
+		const clusters = entangledClusters(catalogue, RULES);
+		expect(clusters).toHaveLength(3);
+		for (const cluster of clusters) {
+			const span = Math.max(...cluster.at) - Math.min(...cluster.at) + 1;
+			expect(`${cluster.ids.join(', ')} span ${span}`).toBe(
+				`${cluster.ids.join(', ')} span ${cluster.at.length}`,
+			);
+		}
 	});
 
 	it('the three ib- retargets keep their documented relative order', () => {
@@ -183,5 +220,88 @@ describe('registry order', () => {
 		expect(at('sifre-ib-resolves-to-yalkut')).toBeLessThan(
 			at('ib-targum-work-loss'),
 		);
+	});
+});
+
+/**
+ * The classification above, EARNED over the corpus rather than
+ * declared in a docstring — the review's question about the two
+ * "rule 1 says nothing" buckets (`NEITHER` and `GLYPH`).
+ *
+ * One pass, shared by the three tests below, recording what each rule
+ * ever declares to the gates and whether any `NEITHER` rule ever moves
+ * an anchor's target.
+ *
+ * WHAT THIS CAN AND CANNOT EARN, measured rather than assumed.
+ * Declarations earn `UNLINK` and `GLYPH` in both directions, because
+ * a rule that removes an anchor MUST declare `unlinks` and a rule that
+ * writes a target by glyph substitution MUST declare `glyphCorrected`
+ * — `run.ts`'s gates fail otherwise. They cannot earn `RETARGET`:
+ * gate case 2 admits a target COPIED VERBATIM from another anchor in
+ * the same entry with no declaration at all, and `ib-yoma-2a` is the
+ * live proof — it retargets 188 entries and declares nothing corpus-
+ * wide. So `NEITHER`'s "writes no target" half is earned the other
+ * way, by walking every anchor's parsed `href` and `data-ref` before
+ * and after and requiring them identical.
+ */
+const DECLARED = new Map<string, Set<string>>(
+	RULES.map((rule) => [rule.id, new Set<string>()]),
+);
+const MOVED_A_TARGET = new Set<string>();
+
+/** Every anchor's parsed target pair, in walk order. */
+function targetsOf(entry: SourceEntry): string {
+	return JSON.stringify(
+		fieldsOf(entry).flatMap((field) =>
+			anchors(tokenize(field)).map((anchor) => [anchor.href, anchor.dataRef]),
+		),
+	);
+}
+
+for await (const source of readSourceEntries()) {
+	const before = targetsOf(source);
+	for (const rule of RULES) {
+		const out = rule.apply(source);
+		const kinds = DECLARED.get(rule.id) as Set<string>;
+		if ((out.unlinks ?? 0) > 0) {
+			kinds.add('unlinks');
+		}
+		if ((out.composed ?? []).length > 0) {
+			kinds.add('composed');
+		}
+		if ((out.recombined ?? []).length > 0) {
+			kinds.add('recombined');
+		}
+		if ((out.glyphCorrected ?? []).length > 0) {
+			kinds.add('glyphCorrected');
+		}
+		if (NEITHER.has(rule.id) && targetsOf(out.entry) !== before) {
+			MOVED_A_TARGET.add(rule.id);
+		}
+	}
+}
+
+/** Rules that ever declared `kind` over the whole corpus, sorted. */
+function everDeclared(kind: string): string[] {
+	return [...DECLARED]
+		.filter(([, kinds]) => kinds.has(kind))
+		.map(([id]) => id)
+		.toSorted();
+}
+
+describe('the classification is earned, not declared', () => {
+	it('exactly the UNLINK rules ever remove an anchor', () => {
+		expect(everDeclared('unlinks')).toEqual([...UNLINK].toSorted());
+	});
+
+	it('exactly the GLYPH rules ever correct a target in place', () => {
+		expect(everDeclared('glyphCorrected')).toEqual([...GLYPH].toSorted());
+	});
+
+	it('no NEITHER rule removes an anchor or moves a target', () => {
+		expect([...MOVED_A_TARGET]).toEqual([]);
+		expect(
+			[...NEITHER].filter((id) => (DECLARED.get(id)?.size ?? 0) > 0),
+		).toEqual([]);
 	});
 });

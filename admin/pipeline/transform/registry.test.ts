@@ -1,6 +1,12 @@
 import { describe, expect, it } from 'bun:test';
 import { type Pattern, parsePatterns } from '../research/patterns.ts';
-import { checkAdjacency, coverage, PENDING, RULES } from './registry.ts';
+import {
+	checkAdjacency,
+	coverage,
+	entangledClusters,
+	PENDING,
+	RULES,
+} from './registry.ts';
 import type { Rule } from './types.ts';
 
 const catalogue = parsePatterns(
@@ -75,20 +81,23 @@ describe('registry coverage', () => {
 	});
 });
 
+/** A fully-connected synthetic entanglement group, shared by the two
+ * suites below. Hoisted out of `checkAdjacency`'s block when
+ * `entangledClusters` got its own tests — same fixture, two callers. */
+const clique = (ids: string[]): Pattern[] =>
+	ids.map((id) => ({
+		corpusCount: 0,
+		description: '',
+		entangledWith: ids.filter((other) => other !== id),
+		id,
+		round: 0,
+		status: 'candidate' as const,
+	}));
+
 describe('checkAdjacency', () => {
 	// The RTL family is a 3-clique (Task 4), registered consecutively in
 	// Task 5. Under a pairwise "≤ 1 apart" rule the endpoints are 2 apart
 	// and no arrangement can pass — hence cluster contiguity.
-	const clique = (ids: string[]): Pattern[] =>
-		ids.map((id) => ({
-			corpusCount: 0,
-			description: '',
-			entangledWith: ids.filter((other) => other !== id),
-			id,
-			round: 0,
-			status: 'candidate' as const,
-		}));
-
 	it('a contiguous three-way cluster passes', () => {
 		const rules = ['a', 'b', 'c'].map((id) => ({ id }) as Rule);
 		expect(checkAdjacency(clique(['a', 'b', 'c']), rules)).toEqual([]);
@@ -97,5 +106,69 @@ describe('checkAdjacency', () => {
 	it('a split cluster is reported once, not once per edge', () => {
 		const rules = ['a', 'b', 'x', 'c'].map((id) => ({ id }) as Rule);
 		expect(checkAdjacency(clique(['a', 'b', 'c']), rules)).toHaveLength(1);
+	});
+});
+
+/**
+ * `entangledClusters` is what `registry.order.test.ts` asserts the
+ * live clusters against, so its two failure modes are unit-tested here
+ * on synthetic input rather than only exercised through the real
+ * catalogue.
+ *
+ * The two mutations are the ones the review asked for, in miniature:
+ * strip a cluster's edges and it must LEAVE the derived set (so the
+ * pinned list fails); scatter its members and it must STAY in the set
+ * with a span wider than its membership (so the span test fails).
+ * Those are different failures, and the order test needs both — a
+ * derived set alone cannot see scattering, and a span check alone
+ * cannot see a missing edge.
+ */
+describe('entangledClusters', () => {
+	const rules = (ids: string[]): Rule[] => ids.map((id) => ({ id }) as Rule);
+
+	it('derives a cluster from the catalogue, not from a list', () => {
+		const found = entangledClusters(
+			clique(['a', 'b', 'c']),
+			rules(['a', 'b', 'c']),
+		);
+		expect(found).toEqual([{ at: [0, 1, 2], ids: ['a', 'b', 'c'] }]);
+	});
+
+	// Mutation 1: the edges are gone. The component collapses to three
+	// singletons and the cluster disappears — which is exactly why
+	// `checkAdjacency` alone cannot notice, and why the order test pins
+	// the SET rather than only checking spans.
+	it('drops a cluster whose edges were stripped, and checkAdjacency then passes', () => {
+		const stripped = clique(['a', 'b', 'c']).map((row) => ({
+			...row,
+			entangledWith: [],
+		}));
+		expect(
+			entangledClusters(stripped, rules(['a', 'x', 'b', 'y', 'c'])),
+		).toEqual([]);
+		expect(checkAdjacency(stripped, rules(['a', 'x', 'b', 'y', 'c']))).toEqual(
+			[],
+		);
+	});
+
+	// Mutation 2: the edges are intact and the members are scattered.
+	// The cluster is still derived — with a span of 5 for 3 members.
+	it('keeps a scattered cluster, with a span wider than its membership', () => {
+		const found = entangledClusters(
+			clique(['a', 'b', 'c']),
+			rules(['a', 'x', 'b', 'y', 'c']),
+		);
+		expect(found).toEqual([{ at: [0, 2, 4], ids: ['a', 'b', 'c'] }]);
+		expect(
+			Math.max(...(found[0]?.at ?? [])) - Math.min(...(found[0]?.at ?? [])) + 1,
+		).toBe(5);
+	});
+
+	// A component with only one registered member cannot be got wrong by
+	// execution order, so it is not a cluster. This is the blind spot
+	// `checkAdjacency`'s limitation note names: an unregistered partner
+	// makes the edge invisible until its rule ships.
+	it('ignores a component with fewer than two registered members', () => {
+		expect(entangledClusters(clique(['a', 'b']), rules(['a']))).toEqual([]);
 	});
 });
