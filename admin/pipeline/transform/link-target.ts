@@ -133,14 +133,40 @@
  *   antecedent (the hazard `ib-yoma-2a` already meets, and the reason
  *   Task 8's Sifré arm carries a predicate) produces a
  *   well-provenanced wrong address and passes.
- * - **A derived split point, in case 4.** The offset is searched for,
- *   not declared, because the same address splits differently on
- *   `href` and on `data-ref`. So a trailing character borrowed from
- *   the tail can extend the HEAD's own locus:
- *   `Onkelos Deuteronomy 13:2` plus a `2` off `Deuteronomy 6:22`
- *   mints `Onkelos Deuteronomy 13:22`, a verse nothing in the entry
- *   cites. Pinned by a test in `link-target.test.ts` so that
- *   tightening this is a deliberate act.
+ * - **Same-work siblings, in case 4.** The tightening of 2026-08-24
+ *   requires the tail's discarded prefix to be a prefix of the head,
+ *   which closes head-extension and truncation between targets naming
+ *   DIFFERENT works. It cannot close them between two targets naming
+ *   the SAME work, because there the discarded prefix legitimately is
+ *   a head prefix: `Onkelos Deuteronomy 13:2` and
+ *   `Onkelos Deuteronomy 1:13` together license
+ *   `Onkelos Deuteronomy 13:13`, a verse nothing cites, and
+ *   `Onkelos Deuteronomy 13:2:13`, which is not a ref at all. Entries
+ *   citing one work twice are common, so this is the live residue of
+ *   the off-by-one verse family. No rule keyed on the discarded
+ *   prefix can separate it from the legitimate claim, whose whole
+ *   shape is "two targets that differ in the work" — closing it needs
+ *   evidence this gate does not have. Pinned by a passing test.
+ * - **The truncation mirror, in case 4.** Shortening a target is
+ *   rejected for every corpus-shaped pair probed, same-work included:
+ *   a truncation needs the tail to END with an interior chunk of the
+ *   head while its own discarded prefix BEGINS the head, and no
+ *   Sefaria ref does both. The gate does not forbid it in general
+ *   though — a target of that shape in some entry would license one,
+ *   and nothing here would notice.
+ * - **Cross-spelling, in case 4.** The target set pools `href` with
+ *   `data-ref`, so an href SPELLING is a legal `head` or `tail` on the
+ *   data-ref side: `/`, `_` and `.` can be assembled into a
+ *   `data-ref` that should never hold them. The pooling is older than
+ *   case 4 (see "laundering between attributes"), but cases 1-2 can
+ *   only copy a whole value across where this ASSEMBLES one. Pinned
+ *   by a passing test.
+ * - **The href cross-product, in case 4.** On the href side each
+ *   declared target is mapped through `hrefsFor`, which returns every
+ *   anchor whose `data-ref` OR `href` matches — and every head href is
+ *   tried against every tail href. Two anchors sharing a `data-ref`
+ *   but spelling their `href` differently therefore let a value be
+ *   licensed by a spelling the rule never meant to name.
  * - **Unused claims.** A `composed` or `recombined` entry matching no
  *   anchor grants nothing, but is not itself reported, so a stale
  *   declaration left in a rule will not be flagged.
@@ -318,11 +344,36 @@ function faultOf(
  * surrogate pair or before a combining mark can only match when the
  * same units are genuinely present in the source, and the verbatim
  * property holds either way.
+ *
+ * **The discarded head of the tail must itself be a prefix of `head`**
+ * (tightening of 2026-08-24). Without it a free split point licensed
+ * far more than the two-spelling problem needs, and four probes
+ * against the first cut all came back clean: truncating the head's
+ * locus (`13:22` → `13:2` — Sefaria refs end in digits, so any tail
+ * ending in the same digit serves), minting a wrong verse in the
+ * head's own work without moving the work at all, and splicing two
+ * unrelated targets mid-word (`Oeviticus 6:3`). The rule holds
+ * because the two spellings only ever differ in a short LEADING run
+ * of the tail — the `/` of an href — which is a prefix of the head's
+ * href too, whereas head-extension and truncation both need to
+ * discard a tail prefix the head does not begin with. Measured: it
+ * licenses A00589 and M00567 on both attributes and rejects probes 1,
+ * 2 and 4.
+ *
+ * It does NOT reject probe 3, `head === tail` — a string is trivially
+ * its own prefix, so a single source could still extend itself. That
+ * needs the distinctness check in `checkValue`; the review's analysis
+ * that this rule alone covers probes 1-3 does not hold. Both
+ * constraints are load-bearing and neither replaces the other.
  */
 function rejoinsFrom(value: string, head: string, tail: string): boolean {
 	const limit = Math.min(commonPrefix(head, value).length, value.length - 1);
 	for (let at = Math.max(1, value.length - tail.length); at <= limit; at++) {
-		if (tail.endsWith(value.slice(at))) {
+		const kept = value.slice(at);
+		if (!tail.endsWith(kept)) {
+			continue;
+		}
+		if (head.startsWith(tail.slice(0, tail.length - kept.length))) {
 			return true;
 		}
 	}
@@ -373,6 +424,12 @@ function checkValue(
 		faults.push(`composed ${JSON.stringify(value)} ${fault}`);
 	}
 	for (const claim of rebuilt) {
+		if (claim.head === claim.tail) {
+			faults.push(
+				`recombined ${JSON.stringify(claim.target)} names ${JSON.stringify(claim.head)} as both head and tail`,
+			);
+			continue;
+		}
 		const absent = [claim.head, claim.tail].find((from) => !targets.has(from));
 		if (absent !== undefined) {
 			faults.push(
@@ -386,7 +443,9 @@ function checkValue(
 				: [hrefsFor(claim.head, source), hrefsFor(claim.tail, source)];
 		const [heads = [], tails = []] = halves;
 		if (
-			heads.some((head) => tails.some((tail) => rejoinsFrom(value, head, tail)))
+			heads.some((head) =>
+				tails.some((tail) => tail !== head && rejoinsFrom(value, head, tail)),
+			)
 		) {
 			return;
 		}

@@ -60,6 +60,16 @@ interface TransformResult {
 	 * the entry already held, and both `head` and `tail` must be in
 	 * that input.
 	 *
+	 * Two further constraints, added 2026-08-24 after four probes
+	 * against the first cut all came back clean. **The part of `tail`
+	 * the split discards must itself be a prefix of `head`** — the two
+	 * spellings of one address differ only in a short leading run of
+	 * the tail (an href's `/`), so honest claims keep clearing it
+	 * while truncating or extending the head's own locus no longer
+	 * does. And **`head` and `tail` must differ**: a string is
+	 * trivially its own prefix, so one source could otherwise extend
+	 * itself, and §3.2's "a suffix of ANOTHER" says two.
+	 *
 	 * The case exists for `ib-targum-work-loss`: an "ib." inside a
 	 * Targum run keeps its own correct verse but loses the work, and
 	 * the repair is the antecedent's work joined to this anchor's own

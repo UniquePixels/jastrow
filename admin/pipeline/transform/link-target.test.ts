@@ -385,17 +385,98 @@ it('a recombination whose TAIL is not in the input fails', () => {
 	]);
 });
 
-it('a recombination may not simply truncate its head', () => {
-	const after = entry(`${WORK} and Ib. ${A('Work on Exodus 1', 'Lev. II, 2')}`);
-	const claim = { ...split, target: 'Work on Exodus 1' };
+/** Review probe 1, and the sharpest of the four: truncating the head's
+ * own locus. Digit-compatible on purpose — `13:2` ends in the `2` that
+ * `Deuteronomy 6:22` also ends in, so the tail really can supply that
+ * character and only the tail-prefix rule stands in the way. (The
+ * fixture this replaced ended in `1` against a tail ending in `2`, so
+ * it passed on a coincidence rather than on the property it claimed.)
+ * Off-by-one verse corruption is the likeliest real bug this gate
+ * exists to catch. */
+it('rejects a truncation of the head, even when the tail ends the same', () => {
+	const claim = {
+		head: 'Onkelos Deuteronomy 13:22',
+		tail: 'Deuteronomy 6:22',
+		target: 'Onkelos Deuteronomy 13:2',
+	};
+	const src = entry(
+		`${A('Onkelos Deuteronomy 13:22', 'Targ. O. Deut. XIII, 22')} Ib. ${A('Deuteronomy 6:22', 'Deut. VI, 22')}`,
+	);
+	const after = entry(
+		`${A('Onkelos Deuteronomy 13:22', 'Targ. O. Deut. XIII, 22')} Ib. ${A('Onkelos Deuteronomy 13:2', 'Deut. VI, 22')}`,
+	);
 	expect(
-		checkLinkTargets(
-			entry(`${WORK} and Ib. ${LOCUS}`),
-			after,
-			result(after, { recombined: [claim] }),
-		),
+		checkLinkTargets(src, after, result(after, { recombined: [claim] })),
 	).toEqual([
-		'recombined "Work on Exodus 1" is not a prefix of "Work on Exodus 1:1" joined to a suffix of "Leviticus 2:2"',
+		'recombined "Onkelos Deuteronomy 13:2" is not a prefix of "Onkelos Deuteronomy 13:22" joined to a suffix of "Deuteronomy 6:22"',
+	]);
+});
+
+/** Review probe 2: the work never moves, only the verse — the case
+ * that needs no second work at all and so has no business being a
+ * recombination. */
+it('rejects a wrong verse minted inside the head’s own work', () => {
+	const claim = {
+		head: 'Targum Jonathan on Exodus 39:28',
+		tail: 'Leviticus 6:3',
+		target: 'Targum Jonathan on Exodus 39:3',
+	};
+	const src = entry(
+		`${A('Targum Jonathan on Exodus 39:28', 'Targ. Y. I Ex. XXXIX, 28')} Ib. ${A('Leviticus 6:3', 'Lev. VI, 3')}`,
+	);
+	const after = entry(
+		`${A('Targum Jonathan on Exodus 39:28', 'Targ. Y. I Ex. XXXIX, 28')} Ib. ${A('Targum Jonathan on Exodus 39:3', 'Lev. VI, 3')}`,
+	);
+	expect(
+		checkLinkTargets(src, after, result(after, { recombined: [claim] })),
+	).toEqual([
+		'recombined "Targum Jonathan on Exodus 39:3" is not a prefix of "Targum Jonathan on Exodus 39:28" joined to a suffix of "Leviticus 6:3"',
+	]);
+});
+
+/** Review probe 4: a splice through the middle of a word. Every
+ * character is verbatim and the result is still gibberish, which is
+ * why "verbatim" was never sufficient on its own. */
+it('rejects a mid-word splice of two unrelated targets', () => {
+	const claim = {
+		head: 'Onkelos Deuteronomy 13:2',
+		tail: 'Leviticus 6:3',
+		target: 'Oeviticus 6:3',
+	};
+	const src = entry(
+		`${A('Onkelos Deuteronomy 13:2', 'Targ. O. Deut. XIII, 2')} Ib. ${A('Leviticus 6:3', 'Lev. VI, 3')}`,
+	);
+	const after = entry(
+		`${A('Onkelos Deuteronomy 13:2', 'Targ. O. Deut. XIII, 2')} Ib. ${A('Oeviticus 6:3', 'Lev. VI, 3')}`,
+	);
+	expect(
+		checkLinkTargets(src, after, result(after, { recombined: [claim] })),
+	).toEqual([
+		'recombined "Oeviticus 6:3" is not a prefix of "Onkelos Deuteronomy 13:2" joined to a suffix of "Leviticus 6:3"',
+	]);
+});
+
+/** Review probe 3, and the one the tail-prefix rule does NOT cover: a
+ * string is trivially its own prefix, so a lone source could extend
+ * itself. Rejected by the distinctness check instead — spec §3.2 says
+ * "a suffix of ANOTHER", and the "better evidenced than case 2"
+ * argument assumes two independent sources. */
+it('rejects a claim naming one target as both head and tail', () => {
+	const claim = {
+		head: 'Onkelos Deuteronomy 13:2',
+		tail: 'Onkelos Deuteronomy 13:2',
+		target: 'Onkelos Deuteronomy 13:22',
+	};
+	const src = entry(
+		`${A('Onkelos Deuteronomy 13:2', 'Targ. O. Deut. XIII, 2')}`,
+	);
+	const after = entry(
+		`${A('Onkelos Deuteronomy 13:22', 'Targ. O. Deut. XIII, 2')}`,
+	);
+	expect(
+		checkLinkTargets(src, after, result(after, { recombined: [claim] })),
+	).toEqual([
+		'recombined "Onkelos Deuteronomy 13:22" names "Onkelos Deuteronomy 13:2" as both head and tail',
 	]);
 });
 
@@ -457,14 +538,12 @@ it("licenses M00567's claim", () => {
 	).toEqual([]);
 });
 
-/** Pinned because it PASSES, not because it should. The split point is
- * derived, not declared, so a trailing character of the tail can be
- * grafted onto the HEAD's own locus: `Onkelos Deuteronomy 13:2` plus a
- * borrowed `2` mints `…13:22`, a verse nothing in the entry cites.
- * Documented in the module's blind-spot list; this test exists so
- * that tightening the rule later is a deliberate act with a failing
- * test to show for it. */
-it('lets a borrowed tail character extend the head’s own locus', () => {
+/** Was pinned as a licensed abuse when case 4 first landed; the
+ * tail-prefix tightening of 2026-08-24 rejects it, which is what that
+ * pin existed to make visible. Kept as a rejection test: extending the
+ * head's own locus with a character borrowed off the tail is the
+ * mirror of the truncation above, and both are now closed. */
+it('rejects a borrowed tail character extending the head’s locus', () => {
 	const anaphor = (href: string, ref: string): string =>
 		S(href, ref, 'Deut. VI, 22');
 	const definition = (locus: string): string =>
@@ -485,5 +564,62 @@ it('lets a borrowed tail character extend the head’s own locus', () => {
 			after,
 			result(after, { recombined: [claim] }),
 		),
+	).toEqual([
+		'recombined "Onkelos Deuteronomy 13:22" is not a prefix of "Onkelos Deuteronomy 13:2" joined to a suffix of "Deuteronomy 6:22"',
+	]);
+});
+
+// ——— what case 4 still licenses. Pinned because they PASS, so the
+// accepted surface is visible at review time instead of only to
+// someone who runs probes against it. Each has a bullet in the
+// module's blind-spot list.
+
+/** Two SAME-WORK targets in one entry — common in this corpus, since
+ * an entry often cites a work twice — still let a rule mint a third
+ * verse in that work. `Onkelos Deuteronomy 13:2` and
+ * `Onkelos Deuteronomy 1:13` license `Onkelos Deuteronomy 13:13`: the
+ * discarded tail prefix `Onkelos Deuteronomy 1` IS a prefix of the
+ * head, so the tightening cannot see it. This is the residue of the
+ * off-by-one verse family, and it survives because the legitimate
+ * claim is exactly "two targets that differ in the work" while this
+ * one is "two targets that share it" — no rule keyed on the discarded
+ * prefix separates them. */
+it('still licenses a verse minted from two same-work targets', () => {
+	const claim = {
+		head: 'Onkelos Deuteronomy 13:2',
+		tail: 'Onkelos Deuteronomy 1:13',
+		target: 'Onkelos Deuteronomy 13:13',
+	};
+	const src = entry(
+		`${A('Onkelos Deuteronomy 13:2', 'Targ. O. Deut. XIII, 2')} Ib. ${A('Onkelos Deuteronomy 1:13', 'Targ. O. Deut. I, 13')}`,
+	);
+	const after = entry(
+		`${A('Onkelos Deuteronomy 13:2', 'Targ. O. Deut. XIII, 2')} Ib. ${A('Onkelos Deuteronomy 13:13', 'Targ. O. Deut. I, 13')}`,
+	);
+	expect(
+		checkLinkTargets(src, after, result(after, { recombined: [claim] })),
+	).toEqual([]);
+});
+
+/** The target set pools `href` with `data-ref`, so an href SPELLING is
+ * a legal `head` or `tail` on the data-ref side: `/`, `_` and `.` can
+ * be written into a `data-ref` that should never hold them. Case 4
+ * inherits this from the pooled set rather than adding it, but it is
+ * the case that makes it reachable — cases 1-2 can only copy a whole
+ * value across, where this assembles one. */
+it('still licenses an href spelling written into a data-ref', () => {
+	const src = entry(
+		`${S('/Onkelos_Deuteronomy.13.2', 'Onkelos Deuteronomy 13:2', 'Targ. O. Deut. XIII, 2')} Ib. ${S('/Deuteronomy.6.22', 'Deuteronomy 6:22', 'Deut. VI, 22')}`,
+	);
+	const after = entry(
+		`${S('/Onkelos_Deuteronomy.13.2', 'Onkelos Deuteronomy 13:2', 'Targ. O. Deut. XIII, 2')} Ib. ${S('/Deuteronomy.6.22', '/Onkelos_Deuteronomy.6.22', 'Deut. VI, 22')}`,
+	);
+	const claim = {
+		head: '/Onkelos_Deuteronomy.13.2',
+		tail: '/Deuteronomy.6.22',
+		target: '/Onkelos_Deuteronomy.6.22',
+	};
+	expect(
+		checkLinkTargets(src, after, result(after, { recombined: [claim] })),
 	).toEqual([]);
 });

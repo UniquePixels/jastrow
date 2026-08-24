@@ -120,12 +120,15 @@ every anchor in `after` satisfies one of:
    locus component's characters are a sub-multiset of that anchor's own
    display text. The rule declares the composition explicitly, the way
    §5.1's `copied` is declared; an undeclared compose is a violation.
-4. **Recombined** (added 2026-08-23) — the target is a PREFIX of one
-   input target joined to a SUFFIX of another, both declared as
-   `recombined: [{head, tail, target}]`, both present in the input,
-   each contributing at least one character, with no gap between the
-   halves and no character from anywhere else. An undeclared
-   recombination is a violation, exactly as for case 3.
+4. **Recombined** (added 2026-08-23, tightened 2026-08-24) — the
+   target is a PREFIX of one input target joined to a SUFFIX of
+   another, both declared as `recombined: [{head, tail, target}]`,
+   both present in the input, each contributing at least one
+   character, with no gap between the halves and no character from
+   anywhere else. Two further constraints: the part of the tail the
+   split DISCARDS must itself be a prefix of the head, and the head
+   and tail must be different targets. An undeclared recombination is
+   a violation, exactly as for case 3.
 
 Case 3 is constrained on both halves: the work is copied whole (never
 assembled character by character) and the locus may introduce no
@@ -147,10 +150,25 @@ a swap; here every character is verbatim from a named input target and
 both sources are declared. Corroboration: 5 of the 9 refs it licenses
 already occur as anchors elsewhere in the corpus. It is nonetheless a
 widening, and the honest cost is recorded in `link-target.ts`'s
-blind-spot list rather than here: case 4 can MINT an address the entry
-never held, the head/tail pairing is not checked for relevance, and the
-split point is derived rather than declared, so a borrowed trailing
-character can extend the head's own locus.
+blind-spot list rather than here. The material items: case 4 can MINT
+an address the entry never held; the head/tail pairing is not checked
+for relevance, so a rule that picks the wrong antecedent produces a
+well-provenanced wrong address; two SAME-WORK targets still license a
+third verse in that work (`13:2` + `1:13` → `13:13`), the residue of
+the off-by-one verse family and the reason the tightening below is a
+narrowing rather than a fix; and because the target set pools `href`
+with `data-ref`, an href spelling can be assembled into a `data-ref`.
+
+**The 2026-08-24 tightening.** The first cut let the split point float
+freely, and four probes against it all came back clean: truncating the
+head's locus, minting a wrong verse inside the head's own work without
+moving the work, `head === tail` self-extension, and a mid-word splice
+of two unrelated targets. Requiring the discarded tail prefix to be a
+prefix of the head rejects the first, second and fourth while still
+licensing A00589 and M00567 on both attributes — the two spellings of
+one address differ only in a leading `/`. It does NOT reject
+`head === tail`, since a string is its own prefix; that needs the
+distinctness rule, and both constraints are load-bearing.
 
 Cases 1-3 were not weakened to make room, and case 4 does not subsume
 case 3: case 3 reads evidence off the display, which case 4 cannot see,
@@ -289,4 +307,5 @@ tests it.
 | 2026-08-22 | Wrong link with no correct target → **unlink**, keeping the display text |
 | 2026-08-22 | Entry-local scope: `v-sub-redirect-stub-mislink` (161) and `containment-fallback-mislink` (22) deferred rather than extend `Rule.apply` with a corpus index |
 | 2026-08-22 | Gate case 3 (compose) kept, constrained to work-copied-whole plus locus ⊆ display |
+| 2026-08-24 | Case 4 **tightened**: the tail's discarded prefix must itself be a prefix of the head, and head ≠ tail. Four probes against the first cut passed — locus truncation, wrong verse in the head's own work, self-extension, mid-word splice — and both constraints are needed, the prefix rule alone missing `head === tail`. Task 8's 9 fires still pass; same-work sibling mints remain licensed and are recorded |
 | 2026-08-23 | Gate gains **case 4, recombination** (prefix of one input target + suffix of another, both declared): case 3's display-remainder test can never license a Sefaria locus, since Jastrow's displays are Roman numerals — measured on all 9 `ib-targum-work-loss` occurrences, decisively on M00567 where the remainder is `6:22` alone. Accepted as better evidenced than case 2; cases 1-3 unchanged |
