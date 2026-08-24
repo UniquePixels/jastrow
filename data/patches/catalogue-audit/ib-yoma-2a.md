@@ -143,14 +143,25 @@ for await (const e of readSourceEntries())
   }
 console.log({ jt, rest });
 '
-# → { jt: { sink: 259, total: 260 }, rest: { sink: 62, total: 1941 } }
+# → { jt: { sink: 259, total: 259 }, rest: { sink: 62, total: 1942 } }
 ```
 
 **Every bare `Ib.` standing after a Yerushalmi citation falls into the
-sink** — 221 to `Yoma 2a`, 38 to `Yoma 2a:N` — with exactly one
-exception corpus-wide, and that exception is not a rival resolution:
-O00242's anchor carries **no `data-ref` at all**, so the linker
-produced no address rather than a different one.
+sink** — 221 to `Yoma 2a`, 38 to `Yoma 2a:N` — with **no exception
+corpus-wide**.
+
+> **Corrected 2026-08-24 (apostrophe parser fix).** This read
+> `259 of 260`, with the single exception explained as "O00242's anchor
+> carries no `data-ref` at all, so the linker produced no address
+> rather than a different one". The anchor carries
+> `data-ref="Avot D'Rabbi Natan 1:7"`; `links.ts`'s value class was
+> `[^"']*` and could not read a value holding an apostrophe, so it
+> surfaced as empty. Read, O00242 is not a Yerushalmi case at all — its
+> nearest citation antecedent is the `Avot D'Rabbi Natan 1:7` anchor
+> two sentences earlier — so it leaves this population for `rest`
+> (1,941 → 1,942) and the falsifier goes from one explained survivor to
+> **zero survivors**. The identification is strengthened, not weakened,
+> and the sink counts do not move.
 
 The 81% Jerusalem-Talmud concentration in the members' own antecedents
 (221 of the 272 that have a citation antecedent) is therefore not a
@@ -216,18 +227,18 @@ for await (const e of readSourceEntries())
   }
 console.log({ n, exact, samePassage, sameWorkOnly, diffWork });
 '
-# → { n: 1880, exact: 996, samePassage: 870, sameWorkOnly: 11, diffWork: 3 }
+# → { n: 1880, exact: 997, samePassage: 871, sameWorkOnly: 11, diffWork: 1 }
 ```
 
-**99.3% of the time (1,866/1,880) the linker itself resolves a bare
+**99.4% of the time (1,868/1,880) the linker itself resolves a bare
 `Ib.` to an address differing from the antecedent's by at most the
-trailing segment, and 99.8% to the same work.** That is the semantic
+trailing segment, and 99.9% to the same work.** That is the semantic
 claim — *ibidem* = the place last named — validated on 1,880 cases
 nobody fitted it to.
 
 ### 3.1 KNOWN LIMIT — segment precision
 
-In 46.3% (870 of 1,880) the linker picks a *different trailing
+In 46.3% (871 of 1,880) the linker picks a *different trailing
 segment of the same passage* (`Sanhedrin 78b:12` → `78b:11`), because
 Sefaria matched the quoted Hebrew to a specific segment. Copying the antecedent's target whole cannot reproduce that —
 it is text matching against a corpus this pipeline does not hold, and
@@ -277,7 +288,7 @@ FIRING members do.** Adding the cue would cost 133 repairs of 209
 133 correct repairs. The figure is now pinned in `anaphora.test.ts`
 rather than stated in prose, which is why it was wrong.
 
-### 3.2 The "different work" cases — 3, not 39
+### 3.2 The "different work" cases — 1, not 3 and not 39
 
 The 39 this section used to report was an artefact of a
 folio-range-naive stripper, and it is corrected here rather than left
@@ -295,16 +306,25 @@ same tractate and folio. Range-safe (the `passage`/`work` pair in
 | rid | antecedent | the linker's `Ib.` | reading |
 |---|---|---|---|
 | A01334 | `Sukkah 55b:14` | `Mishnah Sukkah 1:1` | the one genuine work change — Bavli tractate vs the Mishnah of the same name |
-| O00242 | `Jerusalem Talmud Sheviit 3:7:3` | *(empty)* | no `data-ref` at all: no rival address, the linker resolved nothing |
-| S00503 | `Gittin 67a:8` | *(empty)* | same |
+
+> **Corrected 2026-08-24 (apostrophe parser fix).** This table carried
+> two more rows, O00242 and S00503, each with the linker's `Ib.` shown
+> as *(empty)* and read as "no rival address, the linker resolved
+> nothing". Neither was empty. Both carry an `Avot D'Rabbi Natan`
+> address that `links.ts`'s old value class could not read. Read, they
+> do not belong in this table at all: O00242's anaphor and antecedent
+> are the SAME address (it moves to `exact`), and S00503's differs only
+> in the trailing segment (it moves to `samePassage`). The whole tier
+> shifts 996/870/11/**3** → 997/871/11/**1**.
 
 So the genuine work-level disagreement in the whole 1,880-case control
-is **one**. Reported honestly as a discrepancy rather than smoothed
-over: the batch reviewer, using its own work extractor, measured **4**
-here (agreeing on the two empty-`data-ref` cases); the extractor above
-yields 3 and is published so the difference can be settled by running
-it rather than by argument. Either figure leaves the conclusion
-untouched — work-level disagreement is ≤0.2% of the control.
+is **one**, and it is now one for a stronger reason than before: the
+other two were never disagreements. The batch reviewer, using its own
+work extractor, measured **4** here, agreeing on the two
+empty-`data-ref` cases — an agreement that turns out to have been two
+readings of the same parser defect rather than independent
+confirmation. The conclusion is untouched and improved: work-level
+disagreement is ≤0.1% of the control.
 
 ## 4. Where the repair is NOT derivable: the decline census
 
@@ -506,9 +526,10 @@ Each was looked for; none was found.
   are not.
 - **A Yerushalmi antecedent that resolves correctly.** One
   counterexample would break §2(c)'s mechanism. Measured across all
-  260: **zero**. The single non-sink case (O00242) resolves to nothing
-  — an empty `data-ref` — which is the mechanism failing differently,
-  not succeeding.
+  259: **zero**, with no case to set aside. (Until 2026-08-24 this
+  read "across all 260" and set aside O00242 as resolving to nothing;
+  that empty `data-ref` was the apostrophe parser defect, and read,
+  O00242 is not a Yerushalmi case — see §2c.)
 - **The antecedent reading failing on data it wasn't fitted to.** §3's
   control is 1,880 anchors outside the population; 99.3% agree with
   the antecedent to within the trailing segment, 99.8% on the work.

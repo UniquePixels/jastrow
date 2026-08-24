@@ -49,8 +49,19 @@ import {
 // each group's [start, end) span so `retarget` can splice the VALUE
 // text in place — reassembling the tag from parsed parts would drop
 // `class`, `dir` and attribute order, none of which this module reads.
+//
+// The value class is LAZY rather than a negated set. `[^"']*` excluded
+// BOTH quote characters, so a value holding an apostrophe never matched
+// at all (see below); `[^"]*` would read every value in the corpus
+// today — all 340,360 are double-quoted — but would silently over-run a
+// single-quoted one. `[\s\S]*?` stops at whichever delimiter `\k<q>`
+// captured, so it is correct for either without assuming the corpus's.
+// `tagValue` is always one tag, so it cannot cross a `>`.
 const ATTR = (name: string): RegExp =>
-	new RegExp(String.raw`\b${name}\s*=\s*(?<q>["'])(?<value>[^"']*)\k<q>`, 'du');
+	new RegExp(
+		String.raw`\b${name}\s*=\s*(?<q>["'])(?<value>[\s\S]*?)\k<q>`,
+		'du',
+	);
 const HREF = ATTR('href');
 const DATA_REF = ATTR('data-ref');
 /** The two attributes a target is written in, with the names the
@@ -241,17 +252,30 @@ function replaceAttrValue(
  * migration failure rather than a soft error, and "no rule reaches it
  * today" is the argument that preceded two latent bugs in this batch.
  *
- * A LARGER population hits the same wall: **452 anchors across 417
- * entries carry both attributes and parse as neither**, because
- * `ATTR`'s value class is `[^"']*` and their values hold an apostrophe
- * (`Tosefta Ma'asrot 1:4`, `Tosefta Shevi'it 4:11`). Every one of the
- * 452 is an apostrophe case; none is anything else. That is a parser
- * defect rather than a corpus defect, it is reported separately, and
- * it is not fixed here because widening the class changes what every
- * rule and the link-target gate SEE corpus-wide, which is a measured
- * change of its own and not a review fix. Until then these anchors
- * read as `href: ''`/`dataRef: ''`, and this guard is what stops a
- * rule rewriting one of them half-way.
+ * A LARGER population once hit the same wall and no longer does.
+ * **452 anchors across 417 entries carried both attributes and parsed
+ * as neither**, because `ATTR`'s value class was `[^"']*` and their
+ * values hold an apostrophe (`Tosefta Ma'asrot 1:4`,
+ * `Tosefta Shevi'it 4:11`). Every one of the 452 was an apostrophe
+ * case; none was anything else. That was a parser defect rather than a
+ * corpus defect, and batch 2 deferred it because widening the class
+ * changes what every rule and the link-target gate SEE corpus-wide.
+ *
+ * FIXED 2026-08-24, measured before batch 3 rather than asserted. The
+ * widening is **purely additive**: over all 170,180 anchor tags,
+ * `href` and `data-ref` each gain 452 values, **0 values change** and
+ * **0 are lost**. Both corpus gates are byte-identical across the
+ * change — `transform:count` reports the same 13 rules / 11 MATCH /
+ * `ib-yoma-2a` −124 / `sifre-ib-resolves-to-yalkut` −5, and
+ * `body:migrate-dry`'s report file diffs empty. No shipped rule fires
+ * differently; what changed is only what the parser can SEE.
+ *
+ * It did overturn a claim three records carried. O00242's bare `Ib.`
+ * was described as "carrying no `data-ref` at all"; it carries
+ * `Avot D'Rabbi Natan 1:7`, which the old class could not read, and
+ * that address matches its own nearest antecedent EXACTLY. See
+ * `rules/anaphora.ts` and `catalogue-audit/ib-yoma-2a.md` §2c/§3.2 for
+ * what the correction does to the row's evidence, which it strengthens.
  */
 function assertRetargetable(tagValue: string): void {
 	for (const [name, attr] of ATTRIBUTES) {
