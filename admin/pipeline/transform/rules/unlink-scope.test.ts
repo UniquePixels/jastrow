@@ -101,4 +101,4 @@ it('every population built on unlinkOverDefinitions lives wholly in senses[].def
 	// `misc-links.test.ts` pin from the definition side, reached here
 	// through a walk that would also have found them anywhere else.
 	expect(inside).toEqual({ bare: 517, plural: 65, prefixed: 185 });
-});
+}, 30_000);

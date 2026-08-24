@@ -349,7 +349,7 @@ it('the population is exactly 12 occurrences across 12 entries, corpus-wide', as
 		'S00833',
 		'S02233',
 	]);
-});
+}, 30_000);
 
 /**
  * Corpus-walking measurements, restated from `misc-links.ts`'s module
@@ -481,7 +481,7 @@ it('the raw population is 65 occurrences / 55 entries, corpus-wide', async () =>
 	}
 	expect(occurrences).toBe(65);
 	expect(rids.size).toBe(55);
-});
+}, 30_000);
 
 it('the clean population (the rule’s actual firing set) is 60 occurrences / 50 entries', async () => {
 	let occurrences = 0;
@@ -495,7 +495,7 @@ it('the clean population (the rule’s actual firing set) is 60 occurrences / 50
 	}
 	expect(occurrences).toBe(60);
 	expect(rids.size).toBe(50);
-});
+}, 30_000);
 
 /** Gate-case-2 reachability: of the clean population, how many
  * OCCURRENCES sit in an entry that carries SOME OTHER anchor whose
@@ -528,7 +528,7 @@ it('retarget is reachable for only 17 of 60 clean occurrences (28.3%) under targ
 	}
 	expect(total).toBe(60);
 	expect(reachable).toBe(17);
-});
+}, 30_000);
 
 it('inCleanPlSpan is exported and agrees with the module doc’s classification', () => {
 	// K00357's variant-reading anchor sits outside the clean span even

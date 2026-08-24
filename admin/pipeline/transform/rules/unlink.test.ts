@@ -269,7 +269,7 @@ it('observes every ellipsis-fragment convention exclusion in the corpus', async 
 		ellipsisRaw,
 	);
 	expect(unmatched).toEqual([]);
-});
+}, 30_000);
 
 // A02658, excerpt: ellipsis elides quoted text, not a word-head;
 // דוסתאי is the complete name Dostai, glossed right after.
