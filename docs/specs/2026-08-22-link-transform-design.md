@@ -127,8 +127,10 @@ every anchor in `after` satisfies one of:
    character, with no gap between the halves and no character from
    anywhere else. Two further constraints: the part of the tail the
    split DISCARDS must itself be a prefix of the head, and the head
-   and tail must be different targets. An undeclared recombination is
-   a violation, exactly as for case 3.
+   and tail must be different targets — enforced per PAIR, so on the
+   href side, where each declared target maps to every matching
+   anchor's `href`, a pair collapsing to one spelling is skipped too.
+   An undeclared recombination is a violation, exactly as for case 3.
 
 Case 3 is constrained on both halves: the work is copied whole (never
 assembled character by character) and the locus may introduce no
@@ -307,5 +309,5 @@ tests it.
 | 2026-08-22 | Wrong link with no correct target → **unlink**, keeping the display text |
 | 2026-08-22 | Entry-local scope: `v-sub-redirect-stub-mislink` (161) and `containment-fallback-mislink` (22) deferred rather than extend `Rule.apply` with a corpus index |
 | 2026-08-22 | Gate case 3 (compose) kept, constrained to work-copied-whole plus locus ⊆ display |
-| 2026-08-24 | Case 4 **tightened**: the tail's discarded prefix must itself be a prefix of the head, and head ≠ tail. Four probes against the first cut passed — locus truncation, wrong verse in the head's own work, self-extension, mid-word splice — and both constraints are needed, the prefix rule alone missing `head === tail`. Task 8's 9 fires still pass; same-work sibling mints remain licensed and are recorded |
 | 2026-08-23 | Gate gains **case 4, recombination** (prefix of one input target + suffix of another, both declared): case 3's display-remainder test can never license a Sefaria locus, since Jastrow's displays are Roman numerals — measured on all 9 `ib-targum-work-loss` occurrences, decisively on M00567 where the remainder is `6:22` alone. Accepted as better evidenced than case 2; cases 1-3 unchanged |
+| 2026-08-24 | Case 4 **tightened**: the tail's discarded prefix must itself be a prefix of the head, and head ≠ tail. Four probes against the first cut passed — locus truncation, wrong verse in the head's own work, self-extension, mid-word splice — and both constraints are needed, the prefix rule alone missing `head === tail`. Task 8's 9 fires still pass; same-work sibling mints remain licensed and are recorded |

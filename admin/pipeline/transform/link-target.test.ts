@@ -601,6 +601,50 @@ it('still licenses a verse minted from two same-work targets', () => {
 	).toEqual([]);
 });
 
+/** The same residue in its uglier form: `13:2:13` is not a
+ * well-formed ref at all, and is licensed for exactly the same reason
+ * as `13:13` — the discarded prefix `Onkelos Deuteronomy 1` is a
+ * prefix of the head, so the tightening cannot see it. Pinned
+ * separately because "the address is at least ref-shaped" is not a
+ * property this gate has. */
+it('still licenses a malformed splice of two same-work targets', () => {
+	const claim = {
+		head: 'Onkelos Deuteronomy 13:2',
+		tail: 'Onkelos Deuteronomy 1:13',
+		target: 'Onkelos Deuteronomy 13:2:13',
+	};
+	const src = entry(
+		`${A('Onkelos Deuteronomy 13:2', 'Targ. O. Deut. XIII, 2')} Ib. ${A('Onkelos Deuteronomy 1:13', 'Targ. O. Deut. I, 13')}`,
+	);
+	const after = entry(
+		`${A('Onkelos Deuteronomy 13:2', 'Targ. O. Deut. XIII, 2')} Ib. ${A('Onkelos Deuteronomy 13:2:13', 'Targ. O. Deut. I, 13')}`,
+	);
+	expect(
+		checkLinkTargets(src, after, result(after, { recombined: [claim] })),
+	).toEqual([]);
+});
+
+/** Distinctness is enforced per PAIR, not only on the declared
+ * strings: two different data-refs that share one `href` collapse to
+ * a single source on the href side, and the pair is skipped. A
+ * fail-closed narrowing — the data-ref half of the same claim is
+ * licensed, the href half is not — recorded because the blind-spot
+ * list has to describe the code exactly. No corpus rule has met it. */
+it('rejects an href pair that collapses to one spelling', () => {
+	const src = entry(
+		`${S('/Shared.1', 'Alpha 1', 'Al.')} Ib. ${S('/Shared.1', 'Beta 2', 'Be.')}`,
+	);
+	const after = entry(
+		`${S('/Shared.1', 'Alpha 1', 'Al.')} Ib. ${S('/Shhared.1', 'AlBeta 2', 'Be.')}`,
+	);
+	const claim = { head: 'Alpha 1', tail: 'Beta 2', target: 'AlBeta 2' };
+	expect(
+		checkLinkTargets(src, after, result(after, { recombined: [claim] })),
+	).toEqual([
+		'recombined "/Shhared.1" is not a prefix of "/Shared.1" joined to a suffix of "/Shared.1"',
+	]);
+});
+
 /** The target set pools `href` with `data-ref`, so an href SPELLING is
  * a legal `head` or `tail` on the data-ref side: `/`, `_` and `.` can
  * be written into a `data-ref` that should never hold them. Case 4

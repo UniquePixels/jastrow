@@ -153,7 +153,9 @@
  *   head while its own discarded prefix BEGINS the head, and no
  *   Sefaria ref does both. The gate does not forbid it in general
  *   though — a target of that shape in some entry would license one,
- *   and nothing here would notice.
+ *   and nothing here would notice. Narrow even then: such a tail is
+ *   essentially the truncation itself, which case 2 already licenses
+ *   outright, so case 4 adds next to nothing here.
  * - **Cross-spelling, in case 4.** The target set pools `href` with
  *   `data-ref`, so an href SPELLING is a legal `head` or `tail` on the
  *   data-ref side: `/`, `_` and `.` can be assembled into a
@@ -163,10 +165,15 @@
  *   by a passing test.
  * - **The href cross-product, in case 4.** On the href side each
  *   declared target is mapped through `hrefsFor`, which returns every
- *   anchor whose `data-ref` OR `href` matches — and every head href is
- *   tried against every tail href. Two anchors sharing a `data-ref`
- *   but spelling their `href` differently therefore let a value be
- *   licensed by a spelling the rule never meant to name.
+ *   anchor whose `data-ref` OR `href` matches, and every head href is
+ *   tried against every tail href EXCEPT pairs that resolve to the
+ *   same spelling — the distinctness rule applies per pair, not only
+ *   to the declared strings. So two anchors sharing a `data-ref` but
+ *   spelling their `href` differently can still license a value by a
+ *   spelling the rule never meant to name; and two DISTINCT
+ *   data-refs that share one href are rejected on that attribute,
+ *   since the pair collapses to a single source. The second is a
+ *   fail-closed narrowing, not a hole, and no corpus rule has met it.
  * - **Unused claims.** A `composed` or `recombined` entry matching no
  *   anchor grants nothing, but is not itself reported, so a stale
  *   declaration left in a rule will not be flagged.

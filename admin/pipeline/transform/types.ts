@@ -68,7 +68,12 @@ interface TransformResult {
 	 * while truncating or extending the head's own locus no longer
 	 * does. And **`head` and `tail` must differ**: a string is
 	 * trivially its own prefix, so one source could otherwise extend
-	 * itself, and §3.2's "a suffix of ANOTHER" says two.
+	 * itself, and §3.2's "a suffix of ANOTHER" says two. Distinctness
+	 * is enforced per PAIR, not only on the declared strings: on the
+	 * href side each declared target maps to every matching anchor's
+	 * `href`, and a pair that collapses to one spelling is skipped —
+	 * so two distinct data-refs sharing a single href cannot license
+	 * an href through this case. Fail-closed, and no rule has met it.
 	 *
 	 * The case exists for `ib-targum-work-loss`: an "ib." inside a
 	 * Targum run keeps its own correct verse but loses the work, and
