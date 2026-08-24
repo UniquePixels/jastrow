@@ -2,6 +2,7 @@ import { expect, it } from 'bun:test';
 import type { SourceEntry } from '../body/types.ts';
 import { tokenize } from './html.ts';
 import { checkLinkTargets } from './link-target.ts';
+import { anchors } from './links.ts';
 import { applyTransforms } from './run.ts';
 import type { Rule, TransformResult } from './types.ts';
 
@@ -687,7 +688,7 @@ const GERSHAYIM = '״';
  * `"`-delimited attribute. 90 corpus anchors are in this state. */
 const damaged =
 	'<a dir="rtl" class="refLink" href="/Jastrow,_אל"ף.1" data-ref="Jastrow, אל"ף 1">אלף</a>';
-const repaired = damaged.replaceAll('"ף', GERSHAYIM + 'ף');
+const repaired = damaged.replaceAll('"ף', `${GERSHAYIM}ף`);
 
 it('case 5 licenses a tag whose only change is the gershayim glyph', () => {
 	const after = entry(repaired);
@@ -711,7 +712,7 @@ it('an undeclared glyph correction is still a fabrication', () => {
 	).toBeGreaterThan(0);
 });
 
-it('case 5 refuses a claim whose from is not in the input', () => {
+it('case 5 refuses a claim whose from does not de-map from its target', () => {
 	const after = entry(repaired);
 	expect(
 		checkLinkTargets(
@@ -748,7 +749,7 @@ it('case 5 refuses a well-formed claim naming a tag no input anchor carries', ()
 			}),
 		),
 	).toEqual([
-		`glyph claim source ${JSON.stringify(openTagOf(damaged))} is not a tag in T00001's input`,
+		`glyph-corrected ${JSON.stringify('Jastrow, אל״ף 1')} is claimed from ${JSON.stringify(openTagOf(damaged))}, which is not a tag in T00001's input`,
 	]);
 });
 
@@ -771,7 +772,7 @@ it('case 5 refuses a claim that changes a non-quote character', () => {
 it('a claim does not license a different anchor', () => {
 	const other =
 		'<a dir="rtl" class="refLink" href="/Jastrow,_עכ"ום.1" data-ref="Jastrow, עכ"ום 1">עכום</a>';
-	const otherRepaired = other.replaceAll('"ו', GERSHAYIM + 'ו');
+	const otherRepaired = other.replaceAll('"ו', `${GERSHAYIM}ו`);
 	const after = entry(repaired + otherRepaired);
 	expect(
 		checkLinkTargets(
@@ -784,4 +785,129 @@ it('a claim does not license a different anchor', () => {
 			}),
 		).length,
 	).toBeGreaterThan(0);
+});
+
+// ——— the two capability leaks review found in case 5's first cut.
+// Both were licensed by "de-maps exactly and `from` is an input tag"
+// alone, and both are closed by `glyphFault`.
+
+/** F-1. Claims are matched by TAG VALUE, and tag values repeat — two
+ * corpus entries carry a damaged tag twice. So one honest claim also
+ * spoke for a SIBLING anchor that another rule had retargeted to the
+ * repaired bytes, which is a retarget case 5 has no business
+ * licensing. The cap is on multiplicity: no more output anchors than
+ * the input held anchors carrying `from`. */
+it('case 5 refuses a claim licensing more anchors than the input held', () => {
+	const sibling = `${openTagOf(repaired)}עכום</a>`;
+	const src = entry(
+		`${damaged} <a class="refLink" href="/Yoma.2a" data-ref="Yoma 2a">עכום</a>`,
+	);
+	const after = entry(`${repaired} ${sibling}`);
+	expect(
+		checkLinkTargets(
+			src,
+			after,
+			result(after, {
+				glyphCorrected: [
+					{ from: openTagOf(damaged), target: openTagOf(repaired) },
+				],
+			}),
+		),
+	).toEqual([
+		// Once per anchor: an over-subscribed claim licenses NEITHER of
+		// them, so the honest repair fails alongside the retarget it was
+		// made to cover. Fail-closed is the point.
+		`glyph-corrected ${JSON.stringify('Jastrow, אל״ף 1')} is claimed for 2 anchors, but T00001's input held 1`,
+		`glyph-corrected ${JSON.stringify('Jastrow, אל״ף 1')} is claimed for 2 anchors, but T00001's input held 1`,
+	]);
+});
+
+/** The cap is a CAP, not a ban on repeats: an entry that repeats a
+ * damaged tag verbatim — 2 entries do, worst multiplicity 2 — must
+ * still be repairable by one claim. */
+it('case 5 licenses a repeated damaged tag under one claim', () => {
+	const after = entry(`${repaired} ${repaired}`);
+	expect(
+		checkLinkTargets(
+			entry(`${damaged} ${damaged}`),
+			after,
+			result(after, {
+				glyphCorrected: [
+					{ from: openTagOf(damaged), target: openTagOf(repaired) },
+				],
+			}),
+		),
+	).toEqual([]);
+});
+
+/** F-2. Converting the quotes that DELIMIT an attribute de-maps to the
+ * input tag exactly as the honest repair does, and `from` is exactly
+ * as much an input tag — so the first cut licensed a tag whose `href`
+ * parses to NOTHING. Asserted on the parse, not on the bytes: the
+ * point of the finding is what the attributes read as afterwards. */
+const delimiterSwap = damaged.replace(
+	'href="/Jastrow,_אל"ף.1"',
+	`href=${GERSHAYIM}/Jastrow,_אל"ף.1${GERSHAYIM}`,
+);
+
+it('the honest repair leaves both attributes parsing to their full values', () => {
+	const [anchor] = anchors(tokenize(repaired));
+	expect(anchor?.dataRef).toBe('Jastrow, אל״ף 1');
+	expect(anchor?.href).toBe('/Jastrow,_אל״ף.1');
+});
+
+it('a delimiter conversion de-maps exactly yet destroys the target', () => {
+	expect(delimiterSwap.replaceAll(GERSHAYIM, '"')).toBe(damaged);
+	const [anchor] = anchors(tokenize(delimiterSwap));
+	expect(anchor?.href).toBe('');
+});
+
+it('case 5 refuses a claim that converts an attribute delimiter', () => {
+	const after = entry(delimiterSwap);
+	expect(
+		checkLinkTargets(
+			entry(damaged),
+			after,
+			result(after, {
+				glyphCorrected: [
+					{ from: openTagOf(damaged), target: openTagOf(delimiterSwap) },
+				],
+			}),
+		),
+	).toEqual([
+		'glyph-corrected "" substitutes a quote that no Hebrew letters flank',
+	]);
+});
+
+/** The same leak in the form a "is the gershayim inside a parsed
+ * value?" guard would MISS: converting both of `href`'s delimiters
+ * makes its value swallow `data-ref`, so every gershayim does sit
+ * inside a parsed value — and the anchor's `data-ref` is blanked.
+ * Hebrew-flanking refuses it because a delimiter always abuts `=` or
+ * whitespace. */
+it('case 5 refuses a delimiter conversion that swallows the next attribute', () => {
+	const swallowed = `<a href="/x${GERSHAYIM} data-ref=${GERSHAYIM}y">ש</a>`;
+	const src = entry('<a href="/x" data-ref="y">ש</a>');
+	expect(swallowed.replaceAll(GERSHAYIM, '"')).toBe(
+		'<a href="/x" data-ref="y">ש</a>',
+	);
+	const [anchor] = anchors(tokenize(swallowed));
+	expect(anchor?.dataRef).toBe('');
+	const after = entry(swallowed);
+	expect(
+		checkLinkTargets(
+			src,
+			after,
+			result(after, {
+				glyphCorrected: [
+					{
+						from: openTagOf('<a href="/x" data-ref="y">ש</a>'),
+						target: openTagOf(swallowed),
+					},
+				],
+			}),
+		),
+	).toEqual([
+		'glyph-corrected "" substitutes a quote that no Hebrew letters flank',
+	]);
 });

@@ -65,7 +65,15 @@
  *    character except the substituted quotes is pinned by length,
  *    order and codepoint, so the case cannot move a link to another
  *    entry, cannot alter a locus, and cannot recover an address the
- *    input did not spell out. Cases 1-4 are untouched.
+ *    input did not spell out. Two further conditions, both added
+ *    2026-08-24 after review found each of them licensed something the
+ *    spec's wording does not: a claim may license no MORE output
+ *    anchors than the input held anchors carrying its `from` (tag
+ *    values repeat, and §4.3 says "THAT anchor's opening tag"), and
+ *    every gershayim in the written tag must stand between two Hebrew
+ *    letters, which is what stops a claim converting the quotes that
+ *    DELIMIT an attribute instead of the one stranded inside it.
+ *    `glyphFault` carries both arguments. Cases 1-4 are untouched.
  *
  * `href` and `data-ref` are checked INDEPENDENTLY against that one
  * set. A rule that copies both from the same source anchor therefore
@@ -207,6 +215,14 @@
  *   than to a rule id. It also settles BOTH attributes of the tag at
  *   once: `checkValue` consults case 5 before judging either, since
  *   neither parses on the input side.
+ * - **Which anchor, in case 5.** The multiplicity CAP bounds how many
+ *   anchors a claim may license, not which ones. Two anchors carrying
+ *   byte-identical damaged tags are indistinguishable to this case, so
+ *   a rule that repaired one and left the other untouched while some
+ *   earlier rule wrote the repaired bytes onto a third is within the
+ *   cap and licensed. The same shape as "delete-one, create-one"
+ *   above, and the same root: this gate counts, and does not track
+ *   identity.
  * - **Unused claims.** A `composed`, `recombined` or `glyphCorrected`
  *   entry matching no anchor grants nothing, but is not itself
  *   reported, so a stale declaration left in a rule will not be
@@ -255,18 +271,63 @@ type Recombine = { head: string; tail: string; target: string };
  * one-character constants is the cheaper problem. */
 const GERSHAYIM = '״';
 
-/** Everything `checkValue` reads about the INPUT side, gathered once
- * per call: the entry's anchors, the target set built from them, the
- * set of raw opening tags case 5 compares against, the rule's declared
- * compositions, and the rid for the messages. */
+// Hoisted per lint/performance/useTopLevelRegex. Both are used only
+// through `matchAll`, which iterates a clone rather than advancing
+// `lastIndex`, so the shared global instances carry no state between
+// calls.
+const ANY_GERSHAYIM = /\u05f4/gu;
+/** A gershayim standing where the MARK actually stands: between two
+ * Hebrew letters, tolerating the combining points Jastrow sets on the
+ * left-hand letter (`ָּ` and friends — a bare lookbehind
+ * leaves one corpus occurrence unmatched, per batch-3a spec §4.1).
+ *
+ * The gate declares this itself, exactly as it declares `GERSHAYIM`,
+ * and for the same reason. It is not the rule's predicate borrowed: it
+ * is an INDEPENDENT statement about where the output may differ from
+ * the input, so a rule whose own predicate drifted wider would be
+ * caught here rather than rubber-stamped. */
+const FLANKED_GERSHAYIM =
+	/(?<=[\u05d0-\u05ea\u05ef-\u05f2][\u0591-\u05c7]*)\u05f4(?=[\u05d0-\u05ea\u05ef-\u05f2])/gu;
+
+/** Whether some gershayim in `tag` stands somewhere a gershayim cannot
+ * stand — which, in an opening tag, means it is doing a QUOTE's job
+ * rather than a mark's. See `glyphFault`. */
+function hasStrayGershayim(tag: string): boolean {
+	return (
+		[...tag.matchAll(ANY_GERSHAYIM)].length !==
+		[...tag.matchAll(FLANKED_GERSHAYIM)].length
+	);
+}
+
+/** Everything `checkValue` reads about the entry, gathered once per
+ * call: the input anchors, the target set built from them, the raw
+ * opening tags case 5 compares against, the rule's declared claims,
+ * and the rid for the messages.
+ *
+ * `tags` and `written` are TALLIES rather than sets because case 5
+ * caps a claim's reach by them: a claim may license no more output
+ * anchors than the input held anchors carrying its `from`. */
 interface Input {
 	claims: readonly Compose[];
 	glyphs: readonly GlyphCorrect[];
 	rejoins: readonly Recombine[];
 	rid: string;
 	source: readonly Anchor[];
-	tags: ReadonlySet<string>;
+	tags: ReadonlyMap<string, number>;
 	targets: ReadonlySet<string>;
+	written: ReadonlyMap<string, number>;
+}
+
+/** How many anchors carry each distinct opening tag. Duplicate tags
+ * are real — two corpus entries repeat a damaged tag verbatim — so
+ * this cannot be a set without discarding the multiplicity case 5's
+ * cap is stated in. */
+function tally(list: readonly Anchor[]): Map<string, number> {
+	const counts = new Map<string, number>();
+	for (const anchor of list) {
+		counts.set(anchor.tag, (counts.get(anchor.tag) ?? 0) + 1);
+	}
+	return counts;
 }
 
 /** Every anchor in the entry's fields, in `fieldsOf` order then
@@ -548,42 +609,94 @@ function rejoinFaults(
 }
 
 /**
+ * Why `claim` does not license this anchor, or `undefined` when it
+ * does. Four conditions, all of them on RAW TAG BYTES except the last
+ * count, and every one of them fail-closed.
+ *
+ * 1. Mapping every gershayim in the written tag back to an ASCII quote
+ *    must reproduce `from` EXACTLY — same length, same order, same
+ *    codepoints everywhere else. A corollary worth stating so nobody
+ *    later "fixes" it: a `from` that itself contains a gershayim can
+ *    never satisfy this, because the mapping leaves none behind. That
+ *    is correct. The input corpus contains no U+05F4 at all, so a
+ *    `from` carrying one did not come from the input.
+ * 2. `from` must be a tag the input actually held.
+ * 3. The claim must not license MORE output anchors than the input had
+ *    anchors carrying `from` (spec §4.3 says "THAT anchor's opening
+ *    tag"). Without the cap one honest claim also licenses a sibling
+ *    anchor that some other rule retargeted to the repaired bytes,
+ *    because claims are matched by tag value and tag values repeat.
+ *    Equal counts are the normal case, duplicates included.
+ * 4. Every gershayim in the written tag must stand between two Hebrew
+ *    letters. Conditions 1-3 all hold for a claim that converts the
+ *    quotes DELIMITING an attribute rather than the one stranded
+ *    inside it: `href=״/Jastrow,_אל"ף.1״` de-maps to the input tag
+ *    byte for byte, so it would be licensed, and it leaves an anchor
+ *    whose `href` parses to nothing at all. An attribute delimiter
+ *    always abuts `=` on its left or whitespace / `>` on its right, so
+ *    it is never Hebrew-flanked and this closes the whole family —
+ *    including the subtler form where one attribute's delimiters are
+ *    converted and its value swallows the next attribute, which a test
+ *    phrased on "is the gershayim inside a parsed value" would pass.
+ *    A stray gershayim can only ever be doing a quote's job.
+ */
+function glyphFault(
+	value: string,
+	claim: GlyphCorrect,
+	input: Input,
+): string | undefined {
+	const held = input.tags.get(claim.from) ?? 0;
+	const written = input.written.get(claim.target) ?? 0;
+	const lead = `glyph-corrected ${JSON.stringify(value)}`;
+	if (claim.target.replaceAll(GERSHAYIM, '"') !== claim.from) {
+		return `${lead} changes more than the quote`;
+	}
+	if (held === 0) {
+		return `${lead} is claimed from ${JSON.stringify(claim.from)}, which is not a tag in ${input.rid}'s input`;
+	}
+	if (written > held) {
+		return `${lead} is claimed for ${written} anchors, but ${input.rid}'s input held ${held}`;
+	}
+	return hasStrayGershayim(claim.target)
+		? `${lead} substitutes a quote that no Hebrew letters flank`
+		: undefined;
+}
+
+/**
  * Faults from the case-5 arm, with the same contract as
  * `composeFaults` and `rejoinFaults`: `undefined` means a declared
  * glyph correction licensed this anchor, an EMPTY array means no
  * claim spoke to it at all.
  *
- * The whole test is on RAW TAG BYTES. A claim is matched by
- * `target === anchor.tag`, and it licenses the tag when mapping every
- * gershayim in that tag back to an ASCII quote reproduces `from`
- * exactly — same length, same order, same codepoints everywhere else
- * — and when `from` is a tag the input actually held. Every character
- * except the substituted quotes is therefore pinned, so a claim
- * cannot move a link to another entry, alter a locus, or recover an
- * address the input never spelled out.
+ * A claim is matched by `target === anchor.tag` — the raw opening-tag
+ * bytes, because the parsed targets are truncated for exactly the
+ * anchors this case exists to license. `glyphFault` above is the whole
+ * test. Every character except the substituted quotes is pinned by it,
+ * so a licensed claim cannot move a link to another entry, alter a
+ * locus, or recover an address the input never spelled out.
  *
  * It licenses a TAG, not an ADDRESS, and takes both attributes at
  * once: the two quotes it repairs sit in `href` and `data-ref`
  * respectively, and neither parses on the input side. See the module
  * doc's blind-spot list for what that costs.
+ *
+ * Messages name the VALUE under judgement, not the claim's tag. Tag
+ * values repeat, so a message phrased on the tag alone would read as a
+ * statement about whichever anchor the rule author had in mind rather
+ * than the one actually being refused.
  */
-function glyphFaults(anchor: Anchor, input: Input): string[] | undefined {
+function glyphFaults(
+	value: string,
+	anchor: Anchor,
+	input: Input,
+): string[] | undefined {
 	const claims = input.glyphs.filter((claim) => claim.target === anchor.tag);
 	if (claims.length === 0) {
 		return [];
 	}
-	const faults: string[] = [];
-	for (const claim of claims) {
-		if (claim.target.replaceAll(GERSHAYIM, '"') !== claim.from) {
-			faults.push(
-				`glyph claim on ${JSON.stringify(claim.target)} in ${input.rid} changes more than the quote`,
-			);
-		} else if (!input.tags.has(claim.from)) {
-			faults.push(
-				`glyph claim source ${JSON.stringify(claim.from)} is not a tag in ${input.rid}'s input`,
-			);
-		}
-	}
+	const faults = claims
+		.map((claim) => glyphFault(value, claim, input))
+		.filter((fault): fault is string => fault !== undefined);
 	return faults.length === 0 ? undefined : faults;
 }
 
@@ -617,7 +730,7 @@ function checkValue(
 	if (input.targets.has(value)) {
 		return;
 	}
-	const glyphs = glyphFaults(anchor, input);
+	const glyphs = glyphFaults(value, anchor, input);
 	if (glyphs === undefined) {
 		return;
 	}
@@ -677,8 +790,9 @@ function checkLinkTargets(
 		rejoins: result.recombined ?? [],
 		rid,
 		source,
-		tags: new Set(source.map((anchor) => anchor.tag)),
+		tags: tally(source),
 		targets: targetsOf(source),
+		written: tally(output),
 	};
 	const problems: string[] = [];
 	const removed = source.length - output.length;

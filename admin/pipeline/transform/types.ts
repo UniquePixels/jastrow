@@ -64,7 +64,26 @@ interface TransformResult {
 	 *
 	 * A claim is matched to an anchor by `target === anchor.tag`, and
 	 * every anchor it matches must satisfy it. A claim naming a tag no
-	 * anchor carries licenses nothing. */
+	 * anchor carries licenses nothing.
+	 *
+	 * Three further conditions rule authors need to know about, all of
+	 * them fail-closed:
+	 *
+	 * - A `from` that itself contains a `״` can never be accepted,
+	 *   because the mapping leaves no gershayim behind for it to match.
+	 *   That is correct rather than an oversight — the input corpus
+	 *   contains no U+05F4 at all, so a `from` carrying one did not
+	 *   come from the input.
+	 * - A claim may license no MORE anchors than the input held anchors
+	 *   carrying its `from`. Tag values repeat (two corpus entries
+	 *   repeat a damaged tag verbatim), and without the cap one honest
+	 *   claim would also license a sibling anchor that another rule
+	 *   retargeted to the repaired bytes.
+	 * - Every `״` in `target` must stand between two Hebrew letters,
+	 *   combining points on the left-hand letter tolerated. Converting
+	 *   the quotes that DELIMIT an attribute de-maps just as exactly as
+	 *   converting the one stranded inside it, and would otherwise
+	 *   license a tag whose `href` parses to nothing. */
 	glyphCorrected?: readonly { from: string; target: string }[];
 	/** Link targets this call REBUILT from two other targets in this
 	 * entry's input (batch-2 link spec §3.2 case 4, ruling of
