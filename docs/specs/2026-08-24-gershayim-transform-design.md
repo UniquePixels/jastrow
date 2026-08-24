@@ -154,13 +154,29 @@ field that does not survive compile would be work with no output.
 
 ### Scale, and why the predicate carries the safety burden
 
-The in-scope fields hold **1,310,492** ASCII quotes. All but 2,305 are
-HTML attribute delimiters or ordinary punctuation. A rule that reached
-for `"` without the Hebrew-flanked test would rewrite the corpus's
-markup wholesale. Nothing downstream would catch it: the text gate
-strips tags before comparing, so attribute damage is invisible to it,
-and the markup gate compares a well-formedness delta rather than
-well-formedness.
+The fields the gates walk hold **1,349,919** ASCII quotes across
+256,432 fields. All but 2,305 are HTML attribute delimiters or
+ordinary punctuation. A rule that reached for `"` without the
+Hebrew-flanked test would rewrite the corpus's markup wholesale.
+Nothing downstream would catch it: the text gate strips tags before
+comparing, so attribute damage is invisible to it, and the markup gate
+compares a well-formedness delta rather than well-formedness.
+
+```bash
+bun -e 'const {fieldsOf}=await import("./admin/pipeline/transform/no-new-text.ts");
+const Q=String.fromCharCode(34); let q=0,f=0;
+for(const l of (await Bun.file("data/source/jastrow-dictionary.jsonl").text()).split("\n").filter(Boolean))
+  for(const s of fieldsOf(JSON.parse(l))){ f++; q+=s.split(Q).length-1; }
+console.log(q,"ASCII quotes across",f,"fields");'
+```
+
+**Corrected 2026-08-24, and the correction is itself the lesson.** This
+paragraph first read 1,310,492, which was measured on a hand-rolled
+field walk that omitted `language_reference` — the field holding 39,198
+of them, and the one this codebase has already been caught by once
+(`h-cognate-self-link`). It was published with no reproducing command,
+which is how it survived. The figure above walks `fieldsOf`, the single
+enumeration both gates read, and prints the command that produces it.
 
 ## 3. Why the two rows are one defect
 
