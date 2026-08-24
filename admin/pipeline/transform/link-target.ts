@@ -401,34 +401,24 @@ function rejoinsFrom(value: string, head: string, tail: string): boolean {
 }
 
 /**
- * Why this anchor's `value` (its `href` or its `data-ref`) is not one
- * the entry's input could supply, or `undefined` when it is.
+ * Faults from the case-3 arm — one per declared composition naming
+ * this anchor — or `undefined` as soon as one of them LICENSES the
+ * value. An empty array means no composition spoke to this anchor at
+ * all, which is not the same as a licence and is why the caller
+ * distinguishes the two.
  *
- * Membership in `targets` settles cases 1 and 2 outright. Otherwise
- * the value must be licensed by a declared composition (case 3) or
- * recombination (case 4), each matched to this anchor by
- * `target === anchor.dataRef`: EVERY matching anchor must satisfy the
- * claim, which falls out of checking each anchor against every claim
- * that names it rather than pairing them off. One licence is enough —
- * a value both kinds of claim name passes if either admits it — and
- * the first fault is reported when none does.
+ * Split out of `checkValue` for cognitive complexity (S3776); the
+ * arms are the spec's cases, so one function per case is also how
+ * they read.
  */
-function checkValue(
+function composeFaults(
 	value: string,
 	anchor: Anchor,
 	input: Input,
-): string | undefined {
-	const { claims, rejoins, rid, source, targets } = input;
-	if (targets.has(value)) {
-		return;
-	}
-	const matching = claims.filter((claim) => claim.target === anchor.dataRef);
-	const rebuilt = rejoins.filter((claim) => claim.target === anchor.dataRef);
-	if (matching.length === 0 && rebuilt.length === 0) {
-		return `target ${JSON.stringify(value)} is not in ${rid}'s input`;
-	}
+): string[] | undefined {
+	const { claims, rid, source, targets } = input;
 	const faults: string[] = [];
-	for (const claim of matching) {
+	for (const claim of claims.filter((c) => c.target === anchor.dataRef)) {
 		if (!targets.has(claim.from)) {
 			faults.push(
 				`composed ${JSON.stringify(claim.target)} copies from ${JSON.stringify(claim.from)}, which is not in ${rid}'s input`,
@@ -443,7 +433,42 @@ function checkValue(
 		}
 		faults.push(`composed ${JSON.stringify(value)} ${fault}`);
 	}
-	for (const claim of rebuilt) {
+	return faults;
+}
+
+/** The two input-side spellings a recombination is checked against:
+ * the declared strings on the `data-ref` side, every matching
+ * anchor's `href` on the href side. */
+function halvesOf(
+	value: string,
+	anchor: Anchor,
+	claim: Recombine,
+	source: readonly Anchor[],
+): [readonly string[], readonly string[]] {
+	if (value === anchor.dataRef) {
+		return [[claim.head], [claim.tail]];
+	}
+	return [hrefsFor(claim.head, source), hrefsFor(claim.tail, source)];
+}
+
+/**
+ * Faults from the case-4 arm, with the same contract as
+ * `composeFaults`: `undefined` means one declared recombination
+ * licensed the value.
+ *
+ * Distinctness is checked twice over, and deliberately: once on the
+ * declared strings, and once per PAIR below, because two different
+ * data-refs can map to a single `href` and that pair would otherwise
+ * let a source extend itself on the href side.
+ */
+function rejoinFaults(
+	value: string,
+	anchor: Anchor,
+	input: Input,
+): string[] | undefined {
+	const { rejoins, rid, source, targets } = input;
+	const faults: string[] = [];
+	for (const claim of rejoins.filter((c) => c.target === anchor.dataRef)) {
 		if (claim.head === claim.tail) {
 			faults.push(
 				`recombined ${JSON.stringify(claim.target)} names ${JSON.stringify(claim.head)} as both head and tail`,
@@ -457,11 +482,7 @@ function checkValue(
 			);
 			continue;
 		}
-		const halves =
-			value === anchor.dataRef
-				? [[claim.head], [claim.tail]]
-				: [hrefsFor(claim.head, source), hrefsFor(claim.tail, source)];
-		const [heads = [], tails = []] = halves;
+		const [heads, tails] = halvesOf(value, anchor, claim, source);
 		if (
 			heads.some((head) =>
 				tails.some((tail) => tail !== head && rejoinsFrom(value, head, tail)),
@@ -473,7 +494,45 @@ function checkValue(
 			`recombined ${JSON.stringify(value)} is not a prefix of ${JSON.stringify(heads[0] ?? claim.head)} joined to a suffix of ${JSON.stringify(tails[0] ?? claim.tail)}`,
 		);
 	}
-	return faults[0];
+	return faults;
+}
+
+/**
+ * Why this anchor's `value` (its `href` or its `data-ref`) is not one
+ * the entry's input could supply, or `undefined` when it is. The four
+ * spec cases, in order, one line each.
+ *
+ * Membership in `targets` settles cases 1 and 2 outright. Otherwise
+ * the value must be licensed by a declared composition (case 3) or
+ * recombination (case 4), each matched to this anchor by
+ * `target === anchor.dataRef`: EVERY matching anchor must satisfy the
+ * claim, which falls out of checking each anchor against every claim
+ * that names it rather than pairing them off. One licence is enough —
+ * a value both kinds of claim name passes if either admits it — and
+ * the first fault is reported when none does, cases 3 before 4. With
+ * no claim of either kind the value is simply absent from the input,
+ * which is the fabrication message and the fallback below.
+ */
+function checkValue(
+	value: string,
+	anchor: Anchor,
+	input: Input,
+): string | undefined {
+	if (input.targets.has(value)) {
+		return;
+	}
+	const composed = composeFaults(value, anchor, input);
+	if (composed === undefined) {
+		return;
+	}
+	const rejoined = rejoinFaults(value, anchor, input);
+	if (rejoined === undefined) {
+		return;
+	}
+	return (
+		[...composed, ...rejoined][0] ??
+		`target ${JSON.stringify(value)} is not in ${input.rid}'s input`
+	);
 }
 
 /**
