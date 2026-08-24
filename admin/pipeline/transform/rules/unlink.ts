@@ -118,7 +118,12 @@ function usable(anchor: Anchor): boolean {
  * Re-deriving costs one extra O(anchor count) scan per removal — the
  * same order of work `anchors()` already does once per definition, so
  * a definition with k removable anchors costs O(k) scans instead of
- * 1, not a complexity-class change — and it is correct regardless of
+ * 1. That IS a complexity-class change, and an earlier draft of this
+ * paragraph said it was not (corrected 2026-08-24, task 11, on Task
+ * 4's review finding): the walk goes from O(n) to O(k·n) in the
+ * definition's token count. It is affordable rather than free — the
+ * shipped k is 1 or 2 in almost every member and the whole corpus
+ * runs in seconds — and it is correct regardless of
  * nesting depth or shape, so no assumption about the corpus's anchor
  * shape has to hold for this to stay correct. `leadOf` (the cue every
  * shipped predicate uses) reads only text BEFORE `anchor.open`, which
@@ -185,10 +190,21 @@ function firstUsableMatch(
  * living in another module is exactly how the bug this function's
  * sibling docstring describes came back.
  *
- * Neither rule built on this reaches `language_reference`: measured 0
- * Judges/Ecclesiastes/Joshua anchors there corpus-wide (task-2-report.md),
- * so the narrower scope is on the same footing as `rtl.ts`'s
- * `redundant-outer-rtl-span` — moot rather than assumed.
+ * SCOPE. This walk reads `senses[].definition` only, recursively.
+ * That was written when two rules used it and is now SIX
+ * (`apparatusCite`, `rabbiName`, `ellipsisFragment`,
+ * `gereshLetterNumeral`, `prefixedGereshAbbrev`,
+ * `pluralToFeminineFinalLetter`), so the original sentence — "neither
+ * rule built on this reaches `language_reference`" — is stale as
+ * written and is replaced here (2026-08-24, task 11). The scope is
+ * still moot rather than assumed, and each row measured it for
+ * itself: 0 Judges/Ecclesiastes/Joshua anchors in
+ * `language_reference` corpus-wide (task-2-report.md); the geresh
+ * pair and the plural row each pinned their own populations wholly
+ * inside definitions in `geresh.test.ts` and `misc-links.test.ts`.
+ * A SEVENTH row must measure its own field spread before reusing
+ * this — the narrowing is a measured fact about six populations, not
+ * a property of the walk.
  */
 function unlinkOverDefinitions(
 	entry: SourceEntry,
@@ -199,7 +215,7 @@ function unlinkOverDefinitions(
 	let unlinks = 0;
 	const walk = (senses: readonly SourceSense[]): SourceSense[] =>
 		senses.map((sense) => {
-			let definition = sense.definition;
+			let { definition } = sense;
 			if (definition !== undefined) {
 				const { removed, text } = unlinkMatching(definition, match);
 				if (removed > 0) {

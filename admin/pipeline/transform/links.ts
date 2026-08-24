@@ -25,6 +25,18 @@
  * `attributeInterior(tokens)`, computed once per call (`rules/rtl.ts`
  * makes the same call for the same reason: two independent readings of
  * where the interior ends would be free to drift, and did once).
+ *
+ * THE WHOLE INTERIOR POPULATION, named (measured 2026-08-24, task 11;
+ * batch-2 task 0 left the composition of its `interior: 12` open, with
+ * the twelfth member's source tag unidentified). Over every field
+ * `fieldsOf` walks: 170,182 anchors, `malformed: 2`, `close === -1: 3`,
+ * `interior: 12` — and **all twelve interior anchors are in ONE entry,
+ * J00597, trapped by ONE damaged tag**, its first anchor's unterminated
+ * href `href="/Jastrow,_דִּלְדֵּל.1</a>`, which swallows the rest of the
+ * field. There is no twelfth source to find; there was only ever one.
+ * That single tag is the catalogued row
+ * `unterminated-href-swallows-closing-tag` (2, blocking, PENDING), so
+ * repairing that row retires this refusal's entire live population.
  */
 import {
 	attributeInterior,

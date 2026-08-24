@@ -145,7 +145,13 @@ question.
 
 ```ts
 const m = ONE.exec(a.display.trim()), n = NUM.exec(a.dataRef);
-if (m && n && n[1] === m[1] && head(e.headword) !== m[1] && ART.test(e.headword)) hit(e.rid);
+// `m[1] !== 'ר'` is arm 2's complement, added 2026-08-24 (task 11) so
+// the two arms are disjoint BY CONSTRUCTION and not merely today. A
+// numeral-article host whose headword does not begin with resh, citing
+// `ר׳`, satisfies both predicates as originally written; no such member
+// exists (measured: overlap 0 occurrences), and the exclusion leaves
+// this arm at 18/18 unchanged, so the decomposition still sums to 191.
+if (m && n && n[1] === m[1] && m[1] !== 'ר' && head(e.headword) !== m[1] && ART.test(e.headword)) hit(e.rid);
 ```
 
 **Examples:** A00006 (hw `א׳` → `ב׳`), B00002 (hw `ב׳` → `א׳`), C00002
