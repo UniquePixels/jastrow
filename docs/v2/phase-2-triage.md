@@ -1,7 +1,19 @@
 # Phase 2 worklist — the catalogue, routed
 
-**Status: triaged 2026-08-21.** All 132 candidate rows routed. This is
-the Phase 2 entry point: start here, not in `patterns.jsonl`.
+**Status: triaged 2026-08-21; totals recomputed from the catalogue
+2026-08-24 after transform batch 2.** All 132 candidate rows routed.
+This is the Phase 2 entry point: start here, not in `patterns.jsonl`.
+
+Every count on this page is derived from `patterns.jsonl`, never typed
+in. Reproduce the route totals and the cutover cross-cut with:
+
+```bash
+bun -e 'import {parsePatterns} from "./admin/pipeline/research/patterns.ts";
+const rows=(await parsePatterns(await Bun.file("data/patches/patterns.jsonl").text())).filter(r=>r.status==="candidate"&&r.route!==undefined);
+const sum=(rs)=>rs.reduce((a,b)=>a+b.corpusCount,0);
+for (const route of ["transform","judgment","blocked"]) { const rs=rows.filter(r=>r.route===route); console.log(route, rs.length, sum(rs)); }
+const b=rows.filter(r=>r.blocking===true); console.log("blocking", b.length, sum(b), "| rest", rows.length-b.length, sum(rows)-sum(b));'
+```
 
 ## Start here
 
@@ -42,28 +54,40 @@ someone pins the predicate.
 
 | Route | Rows | Instances | What it needs |
 |---|---:|---:|---|
-| **transform** | **80** | **22,619** | deterministic code + tests |
-| judgment | 47 | 15,131 | per-entry reading (Opus pass or maintainer) |
+| **transform** | **78** | **21,991** | deterministic code + tests |
+| judgment | 49 | 15,754 | per-entry reading (Opus pass or maintainer) |
 | blocked | 5 | 4,947 | pin the predicate first |
 
-Phase 1 closed this table at 81 / 46 / 5.
-`abbrev-in-alt-headwords` (2,035) moved transform → judgment on
-2026-08-22 (spec
-[§5.2](../specs/2026-08-22-transform-module-design.md)), and
-`bare-rtl-hebrew`'s count was corrected 4,190 → 4,189 when its
-transform landed.
+Phase 1 closed this table at 81 / 46 / 5. Every move since has been a
+transform row failing its own audit, which is the mechanism working:
 
-**53% of the backlog is deterministic code.** That is the most useful
-number here — most of the catalogue does not need judgment at all.
+- `abbrev-in-alt-headwords` (2,035) moved transform → judgment on
+  2026-08-22 (spec
+  [§5.2](../specs/2026-08-22-transform-module-design.md)), and
+  `bare-rtl-hebrew`'s count was corrected 4,190 → 4,189 when its
+  transform landed.
+- Batch 2 moved two more: `h-cognate-self-link` (85) and
+  `homograph-numeral-mismatch` (538), each with its audit published
+  under `data/patches/catalogue-audit/`. It also corrected three
+  counts to what the shipped rules reproduce —
+  `rabbi-name-linked-as-bible-book` 41 → 42,
+  `plural-to-feminine-final-letter-mislink` 57 → 50, and
+  `sifre-ib-resolves-to-yalkut` 5 → 6 — and wrote a first `reason` for
+  `prefixed-geresh-abbrev-mislink` and `ib-yoma-2a`. See
+  [transform-batch-2.md](transform-batch-2.md).
+
+**51.5% of the backlog is deterministic code** (21,991 of 42,692
+instances), 59% of it by row. That is the most useful number here —
+most of the catalogue does not need judgment at all.
 
 Cutover gate, cross-cut:
 
 | | Rows | Instances |
 |---|---:|---:|
 | Blocks the v2 cutover | 59 | 16,085 |
-| Launch need not wait | 73 | 26,612 |
+| Launch need not wait | 73 | 26,607 |
 
-## The transform queue — all 80 rows, largest first
+## The transform queue — all 78 rows, largest first
 
 `⚠ unaudited` marks a row with no `reason` recorded: its count has never
 been derived. That is not a reason to skip it — for a transform row,
@@ -83,7 +107,6 @@ either reproduces the count or does not.
 | `pesikta-drk-never-linked` | 695 | no | — |
 | `parenthesized-alt-headword` | 580 | **yes** | ⚠ unaudited |
 | `stranded-stem-head` | 544 | **yes** | — |
-| `homograph-numeral-mismatch` | 538 | no | ⚠ unaudited |
 | `redundant-outer-rtl-span` | 529 | no | — |
 | `anchor-swallows-close-paren` | 494 | no | — |
 | `geresh-letter-numeral-mislink` | 475 | no | — |
@@ -95,14 +118,14 @@ either reproduces the count or does not.
 | `targum-sheni-never-linked` | 362 | no | ⚠ unaudited |
 | `plural-label-rendering-defeats-capture` | 358 | **yes** | — |
 | `empty-stem-section` | 342 | **yes** | ⚠ unaudited |
-| `ib-yoma-2a` | 312 | no | ⚠ unaudited |
+| `ib-yoma-2a` | 312 | no | — |
 | `holam-migrated-off-mater-vav` | 308 | no | — |
 | `emphasis-run-edge-space` | 304 | no | — |
 | `midrash-petichta-unanchored` | 279 | no | — |
 | `em-dash-section-break-in-own-italic` | 270 | no | — |
 | `phrase-alt-headword-stub` | 236 | **yes** | — |
 | `open-paren-in-anchor-display` | 214 | **yes** | ⚠ unaudited |
-| `prefixed-geresh-abbrev-mislink` | 173 | no | ⚠ unaudited |
+| `prefixed-geresh-abbrev-mislink` | 173 | no | — |
 | `v-sub-redirect-stub-mislink` | 161 | no | — |
 | `superscript-subsection-stranded-outside-anchor` | 160 | **yes** | — |
 | `latin-token-inside-rtl-span` | 130 | **yes** | — |
@@ -111,7 +134,6 @@ either reproduces the count or does not.
 | `anchor-italic-no-space` | 111 | no | ⚠ unaudited |
 | `sense-number-outside-closed-grammar` | 111 | **yes** | — |
 | `italic-close-paren-nospace` | 95 | no | ⚠ unaudited |
-| `h-cognate-self-link` | 85 | no | — |
 | `gershayim-breaks-ref-attribute` | 85 | **yes** | ⚠ unaudited |
 | `duplicated-definition-opening-run` | 85 | **yes** | — |
 | `empty-lead-sense` | 84 | **yes** | — |
@@ -120,10 +142,10 @@ either reproduces the count or does not.
 | `continuation-marker-em-dash-loss` | 71 | **yes** | — |
 | `asterisk-stem-label` | 69 | **yes** | — |
 | `adjacent-verbatim-repetition` | 59 | **yes** | — |
-| `plural-to-feminine-final-letter-mislink` | 57 | no | — |
+| `plural-to-feminine-final-letter-mislink` | 50 | no | — |
 | `bracketed-gloss-lead-sense` | 49 | **yes** | — |
 | `citation-quote-seam-period` | 43 | no | — |
-| `rabbi-name-linked-as-bible-book` | 41 | no | — |
+| `rabbi-name-linked-as-bible-book` | 42 | no | — |
 | `abbrev-headword-stub` | 34 | **yes** | — |
 | `italic-lone-punctuation` | 29 | no | — |
 | `reversed-hebrew-phrase` | 27 | **yes** | — |
@@ -148,7 +170,7 @@ either reproduces the count or does not.
 | `ib-targum-work-loss` | 8 | no | — |
 | `apparatus-cite-linked-as-scripture` | 8 | no | — |
 | `abbrev-fused-headword` | 7 | **yes** | — |
-| `sifre-ib-resolves-to-yalkut` | 5 | no | — |
+| `sifre-ib-resolves-to-yalkut` | 6 | no | — |
 | `b-h-split-across-field-boundary` | 4 | **yes** | ⚠ unaudited |
 | `see-particle-lost` | 4 | **yes** | — |
 | `unterminated-href-swallows-closing-tag` | 2 | **yes** | — |
@@ -165,20 +187,69 @@ either reproduces the count or does not.
    `judgment`: expanding a geresh stub infers the variant's
    vocalization rather than moving text (spec
    [§5.2](../specs/2026-08-22-transform-module-design.md)).
-2. **Then take the non-blocking audited rows on size.** There are
-   36 of them (9,374 instances) and they are the cheapest
-   real wins in the catalogue — predicate known, no cutover pressure, no
-   judgment required.
+2. ~~**Then take the non-blocking audited rows on size.**~~ **Batch 2
+   did exactly that** — ten rows, 1,166 catalogued instances, all
+   non-blocking, all link-shaped
+   ([transform-batch-2.md](transform-batch-2.md)). There are 38 such
+   rows left (10,298 instances, ten of them already shipped) and they
+   remain the cheapest real wins in the catalogue — predicate known, no
+   cutover pressure, no judgment required.
 3. **Respect `entangledWith`.** Four pairs must be fixed in one edit or
    they rewrite the same records twice. `checkEntanglement()` keeps the
-   graph honest; the pairs are derived in the round-4 report.
-4. **13 transform rows are unaudited.** Expect some to reclassify to
-   `judgment` on contact — the routing is a reading of each row, not a
-   measurement.
+   graph honest; the pairs are derived in the round-4 report. Batch 2
+   shipped one of them, the geresh pair, and
+   `registry.order.test.ts` now asserts cluster contiguity against the
+   live graph rather than against a list.
+4. **10 transform rows are unaudited**, 5 of them blocking. Expect some
+   to reclassify to `judgment` on contact — the routing is a reading of
+   each row, not a measurement, and three rows have now done exactly
+   that.
 
-## Judgment queue — 47 rows / 15,131 instances
+## Candidates found in batch 2, recorded and NOT opened
 
-`abbrev-in-alt-headwords` (2,035) is the newest member, reclassified
+Each was measured while a batch-2 rule was being written, each is
+outside every catalogued row, and none has been added to
+`patterns.jsonl` — the catalogue is saturated and opening a row is a
+discovery decision, not a transform one. They are recorded here so the
+measurement is not lost with the task reports.
+
+| Candidate | Occ | Entries | Source, with a runnable query |
+|---|---:|---:|---|
+| bare `Ib.`/`ib.` → `Yoma 2a:N` (the 312's segmented twin) | 52 | 47 | `catalogue-audit/ib-yoma-2a.md` §8 |
+| `Ibid.`/`ibid.` → `Yoma 2a` (a third spelling) | 3 | 3 | `catalogue-audit/ib-yoma-2a.md` §8 |
+| `homograph-numeral-iv-default` — display string IS a headword, destination by string identity, all targeting a IV-numbered member | 40 | 37 | `catalogue-audit/homograph-numeral-mismatch.md` §6a |
+| geresh arm 1 — variant readings abbreviated with a geresh (`Ms. K. ב׳`) | 152 | 123 | `catalogue-audit/geresh-abbrev-arms.md` arm 1 |
+| geresh arm 5 — verbal-preformative stubs | 34 | 32 | `catalogue-audit/geresh-abbrev-arms.md` arm 5 |
+| geresh arm 2 — `ר׳` = Rabbi in a non-resh host | 20 | 19 | `catalogue-audit/geresh-abbrev-arms.md` arm 2 — sibling of `rabbi-name-linked-as-bible-book` |
+
+Two further recommendations from Task 9's audit, carried and not acted
+on, both recorded in `homograph-numeral-mismatch`'s own `reason`:
+
+- **Split `homograph-numeral-mismatch` in three.** The Roman arm
+  (195 occ / 187 entries) is the only one the description fits and
+  keeps the id; `homograph-numeral-vs-superscript` (277 / 262) belongs
+  beside `homograph-numbering-schism`; `roman-numeral-orphan-display`
+  (104 / 96) is chunk P's original id and count.
+- **Fix the entry side first.** 243 of the 345 candidate defects
+  (70.4%) name a member whose corpus headword carries no Roman numeral
+  at all. Three entry-side shapes no row owns: 6 headwords printing the
+  same numeral twice, distinguished only by a superscript (A00015,
+  B00383, B00779, B01201, C00774, O01369); 6 headwords naming two print
+  members at once, so no display numeral can ever match them (A00883,
+  A02356, B00407, D00844, E00508, G00675); and B00098's double-space
+  `"בַּד  V"`, a one-character repair that makes בַּד V addressable again.
+
+## Judgment queue — 49 rows / 15,754 instances
+
+`homograph-numeral-mismatch` (538) and `h-cognate-self-link` (85) are
+the newest members, reclassified out of the transform queue in batch 2
+on 2026-08-23 and 2026-08-24. Each failed a DIFFERENT test:
+`h-cognate-self-link` had no defect to remove (no other article exists
+for any of its 87 anchors), while `homograph-numeral-mismatch` has a
+real defect and no nameable destination. Both audits are published
+under `data/patches/catalogue-audit/`.
+
+`abbrev-in-alt-headwords` (2,035) was the first, reclassified
 out of the transform queue on 2026-08-22 — spec
 [§5.2](../specs/2026-08-22-transform-module-design.md) has the ruling
 and the test it establishes: *ask what a rule INFERS as opposed to what
@@ -238,6 +309,7 @@ Full judgment list, blocking first:
 | `skeleton-escape-orphan` | 1,065 | no |
 | `geresh-abbrev-fixed-sink` | 970 | no |
 | `corrigendum-reading-linked` | 771 | no |
+| `homograph-numeral-mismatch` | 538 | no |
 | `unlinked-stub-nonexistent-target` | 451 | no |
 | `midrash-section-cite-as-bible-chapter` | 255 | no |
 | `homograph-numbering-schism` | 186 | no |
@@ -245,6 +317,7 @@ Full judgment list, blocking first:
 | `binyan-head-form-mislinked` | 127 | no |
 | `neighbor-rid-mislink` | 109 | no |
 | `post-anchor-numeral-mismatch` | 91 | no |
+| `h-cognate-self-link` | 85 | no |
 | `initial-niqqud-drop` | 76 | no |
 | `multiword-abbrev-mislink` | 62 | no |
 | `stacked-impossible-niqqud` | 61 | no |

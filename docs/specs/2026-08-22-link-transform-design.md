@@ -44,8 +44,11 @@ pinning a derived index against `snapshot.lock`. Both rows are
 non-blocking. **They are deferred with the never-linked family**;
 batch 2 ships the twelve entry-local rows, 1,794 instances.
 
-The module spec's §7 table must be amended to record what actually
-shipped, the way batch 1's row already is.
+**As shipped: ten rows, 1,166 instances.** Two of the twelve withdrew
+to `judgment` on audit — §6 predicted both as candidates and §4's table
+below records the outcome per row. The module spec's §7 table has been
+amended accordingly. Full report:
+[docs/v2/transform-batch-2.md](../v2/transform-batch-2.md).
 
 ## 2. The unlink ruling
 
@@ -113,9 +116,15 @@ every anchor in `after` satisfies one of:
 1. **Unchanged** — byte-identical `href` and `data-ref` to its
    counterpart in `before`.
 2. **Copied** — the written target occurs verbatim as an `href` or
-   `data-ref` value elsewhere in the SAME entry's input. The geresh
-   rows copy the entry's own `Jastrow, <headword> N`; the `ib-` rows
-   copy the antecedent anchor's work.
+   `data-ref` value elsewhere in the SAME entry's input. `ib-yoma-2a`
+   copies the antecedent citation anchor's target whole, and is the
+   only shipped user of this case. (This clause was drafted naming the
+   geresh rows as its example — "copy the entry's own
+   `Jastrow, <headword> N`". That example was measured and did not
+   survive: only 81 of 517 bare members and 28 of 185 prefixed ones
+   have such an anchor in their own entry, so case 2 would decline 84%
+   of both rows, and they ship as unlinks instead. The case is
+   unchanged; the example was wrong.)
 3. **Composed** — the target's work component is copied per (2) and its
    locus component's characters are a sub-multiset of that anchor's own
    display text. The rule declares the composition explicitly, the way
@@ -201,23 +210,38 @@ the row was written from.
 Three rule shapes, which is also the build order — each shape reuses
 the gate case below it.
 
-| # | Row | Inst. | Shape | Note |
-|---|---|---:|---|---|
-| 1 | `rabbi-name-linked-as-bible-book` | 41 | unlink | the cleanest of the four |
-| 2 | `apparatus-cite-linked-as-scripture` | 8 | unlink | modern bibliography, not scripture |
-| 3 | `ellipsis-fragment-anchored` | 80 | unlink | 6 convention members excluded, per the audit |
-| 4 | `h-cognate-self-link` | 85 | unlink | withdrawal candidate — §6 |
-| 5 | `geresh-letter-numeral-mislink` | 475 | copy | strict arm only; ~152 variant-reading, ~20 "ר׳", ~19 in-article convention all excluded |
-| 6 | `prefixed-geresh-abbrev-mislink` | 173 | copy | ⚠ unaudited; overlaps #5 |
-| 7 | `plural-to-feminine-final-letter-mislink` | 57 | copy | retarget to the host entry that declares the plural |
-| 8 | `ib-yoma-2a` | 312 | compose | ⚠ unaudited; the antecedent anchor supplies the work |
-| 9 | `ib-targum-work-loss` | 8 | compose | same machine, Targum arm |
-| 10 | `sifre-ib-resolves-to-yalkut` | 5 | compose | declines when the entry holds no Sifré antecedent |
-| 11 | `homograph-numeral-mismatch` | 538 | audit first | ⚠ unaudited, and which side is authoritative is unknown — §6 |
-| 12 | `shuruk-as-yod-display-corruption` | 12 | text fix | not a target change; needs an `allows` ruling under the OCR class |
+The **Shipped** column is the outcome, filled in when the batch closed
+on 2026-08-24. Six of the twelve rows shipped as a different shape than
+this table planned, and in every case the change was forced by a
+measurement the implementer took rather than by a preference: a copy
+rule that would decline 84% of its own row is not a copy rule.
 
-Totals: 12 rows, 1,794 instances. Four unlink (214), three copy (705),
-three compose (325), two that are neither (550).
+| # | Row | Planned inst. | Planned shape | Shipped |
+|---|---|---:|---|---|
+| 1 | `rabbi-name-linked-as-bible-book` | 41 | unlink | **unlink, 42** — count corrected, K01198's comma-lead variant admitted (ruling 2026-08-23) |
+| 2 | `apparatus-cite-linked-as-scripture` | 8 | unlink | **unlink, 8** — as planned |
+| 3 | `ellipsis-fragment-anchored` | 80 | unlink | **unlink, 88 occ / 80 entries** — the ellipsis is in the LEAD TEXT, not inside the anchor as the brief had it; 6 convention members excluded as planned |
+| 4 | `h-cognate-self-link` | 85 | unlink | **WITHDRAWN to `judgment`** — 0 of 87 displays have another article, so there was no defect to remove (§6 called this) |
+| 5 | `geresh-letter-numeral-mislink` | 475 | copy | **UNLINK, 517 occ / 475 entries** — case 2 reaches 81 of 517 |
+| 6 | `prefixed-geresh-abbrev-mislink` | 173 | copy | **UNLINK, 185 occ / 173 entries** — case 2 reaches 28 of 185; audited, `reason` written |
+| 7 | `plural-to-feminine-final-letter-mislink` | 57 | copy | **UNLINK, 60 occ / 50 entries** — retarget reachable for 17 of 60; count corrected 57 → 50 |
+| 8 | `ib-yoma-2a` | 312 | compose | **RETARGET by case 2 COPY, 209 occ / 188 entries of a 312-occurrence population** — not case 3, which it cannot use; 103 declines; audited, `reason` written |
+| 9 | `ib-targum-work-loss` | 8 | compose | **retarget, 9 occ / 8 entries, gate case 4** — cases 1-3 could license none of the nine |
+| 10 | `sifre-ib-resolves-to-yalkut` | 5 | compose | **retarget by case 3, 1 fire / 5 declines**; population corrected 5 → 6 (E00476) |
+| 11 | `homograph-numeral-mismatch` | 538 | audit first | **WITHDRAWN to `judgment`** — the DISPLAY is authoritative and no rule can name the destination (§6 called this, and got the direction backwards) |
+| 12 | `shuruk-as-yod-display-corruption` | 12 | text fix | **shipped, 12/12**, under the 2026-08-11 OCR ruling with `allows: ['ו']` |
+
+Planned totals: 12 rows, 1,794 instances. Four unlink (214), three copy
+(705), three compose (325), two that are neither (550).
+
+**Shipped totals: 10 rows, 1,166 catalogued instances** — 1,131
+occurrences actually repaired, emitted as 1,045 records across 1,006
+distinct entries (a record is one per definition per rule, so an entry
+with two members of one row in one definition yields one record). Six
+unlink (900 occ), three retarget (219 occ), one display fix (12
+occ). Not one row shipped as a "copy": the three planned copies all
+became unlinks on the same measurement, and the only case-2 copy in the
+batch is #8, which was planned as a compose.
 
 **#5 and #6 rewrite the same anchors.** Both are a geresh abbreviation
 of the containing entry's headword resolved as a standalone lookup; #6
@@ -255,6 +279,24 @@ Registry order is therefore load-bearing and is asserted in a test:
 unlink rules run before compose rules, so a compose rule never adopts a
 work from an anchor a later rule would have removed.
 
+That test is `admin/pipeline/transform/registry.order.test.ts`. It
+grew a third ordering the plan did not anticipate: batch 2 shipped
+THREE retarget rules, and retarget-after-retarget needs its own rule —
+a retarget reading the anchor sequence must run AFTER any rule that
+REPAIRS an anchor it might adopt, or it copies a target its neighbour
+is about to correct. The three `ib-` rows are pinned in that order. It
+also asserts the classification is exhaustive, so a rule added to
+`RULES` and to neither set cannot satisfy the orderings vacuously.
+
+Outcome of the fourth layer, run over all 32,512 entries with every
+registered rule in registry order: **0 gate throws**, and one
+isolated-vs-composed difference in the entire registry —
+`bare-rtl-hebrew` rises from 4,471 records isolated to 4,517 composed
+(4,189 → 4,232 entries), which is batch 1's documented behaviour
+working: `redundant-outer-rtl-span` runs first and re-exposes Hebrew
+that was `rtl: true` while the wrapper stood. Every batch-2 rule
+produces byte-identical output isolated and composed.
+
 `bun qa` (format, lint, test, tsc) passes before every commit.
 
 ## 6. Expected write-backs and withdrawals
@@ -264,33 +306,51 @@ Every row leaves the batch with its catalogue entry true. Edits to
 which reformats all 149 rows and drops any field it does not
 round-trip.
 
-| Write-back | Rows |
-|---|---|
-| `reason` recorded where there was none | #6, #8, #11 |
-| `corpusCount` corrected to what the rule reproduces | any row whose measurement disagrees |
-| `entangledWith` pair added | #5 ↔ #6, if the overlap measures real |
-| `route` changed to `judgment` with the count recorded | any row that withdraws |
+| Write-back | Rows | Outcome (2026-08-24) |
+|---|---|---|
+| `reason` recorded where there was none | #6, #8, #11 | all three written — #11's under its withdrawal |
+| `corpusCount` corrected to what the rule reproduces | any row whose measurement disagrees | three moved: #1 41 → 42, #7 57 → 50, #10 5 → 6. #2, #3, #5, #6, #9 and #12 all reproduced their catalogued figure exactly and were left alone |
+| `entangledWith` pair added | #5 ↔ #6, if the overlap measures real | already present and confirmed real — 8 shared entries, 7 shared definitions, 0 shared anchors |
+| `route` changed to `judgment` with the count recorded | any row that withdraws | #4 and #11, both with a published audit |
 
-Two rows are expected to move:
+Two rows were expected to move. **Both did — and the reasoning behind
+each prediction was wrong, which is worth more than the prediction
+being right.**
 
-- **#4 `h-cognate-self-link` is a withdrawal candidate.** Its audit
-  reports 77 self-links in the etymology slot, 75 of them after
-  "b. h.", and warns that any rule matching " h." as a substring sweeps
-  in ~75 convention cases. If the measurement holds, the row is
-  convention rather than defect and goes to `judgment` with the number,
-  the way `abbrev-in-alt-headwords` did. It also carries a standing
-  merge flag with `homograph-numbering-schism`; merging is a catalogue
-  decision, not a transform, and is recorded rather than acted on here.
-- **#11 `homograph-numeral-mismatch` may produce no rule.** Its 538
-  anchors end in a Roman homograph numeral disagreeing with the numeral
-  in their own `data-ref`. Which side is authoritative has never been
-  measured. If the `data-ref` is right, the repair is a display-text
-  edit — batch 3's family, not this one — and batch 2 lands 11 rows /
-  1,256 instances.
+- **#4 `h-cognate-self-link` was called a withdrawal candidate** on the
+  grounds that "any rule matching ' h.' as a substring sweeps in ~75
+  convention cases", from an audit reporting 77 self-links in the
+  etymology slot. The row did withdraw, on a different measurement
+  entirely: **no other article exists for ANY of its 87 anchors** — 0
+  of 87 match a corpus headword at exact pointing with the homograph
+  marker stripped — so there is nothing to retarget to and nothing the
+  link is being withheld from. Its own description ("a no-op link that
+  promises a different article") is false; the anchor promises the SAME
+  article. The convention argument survives too, but as a second
+  reason: the same linker behaviour produces 2,657 further self-links
+  in definitions, of which this row is 3.2%. The standing merge flag
+  with `homograph-numbering-schism` is recorded, not acted on; both
+  rows are now `judgment`, so the merge is bookkeeping.
+- **#11 `homograph-numeral-mismatch` did produce no rule, and this
+  section had the authoritative side backwards.** It supposed that if
+  the `data-ref` were right the repair would be a display-text edit and
+  batch 3's family. It is the DISPLAY that is right: a stratified
+  hand-read of 40 found 26 defects in which the display is correct and
+  **0 in which it is wrong**. The display is Jastrow's print numbering,
+  and the 40-of-576 that name an existing headword measure the corpus's
+  own entry-side numeral loss. So batch 3 does not own it either. The
+  row withdrew on the DESTINATION instead: 40.1% of its 576 occurrences
+  already point where print says, the best available family model
+  scores 87.5% on 3,253 known-correct controls, and gate case 2 reaches
+  the replacement for 3.5% of the candidate defects. The arithmetic
+  here was also wrong — with #11 gone batch 2 would have been 11 rows /
+  1,256 instances, and it is 10 / 1,166, because #4 went too.
 
 Neither outcome is a failure. §5.2's mechanism exists because a route
 label is a reading of a row, and the transform is the first thing that
-tests it.
+tests it. What batch 2 adds is that a WITHDRAWAL PREDICTION is also
+only a reading: both calls were right about the row and wrong about the
+reason, and only the measurement separated them.
 
 ## 7. Risks
 
@@ -311,3 +371,7 @@ tests it.
 | 2026-08-22 | Gate case 3 (compose) kept, constrained to work-copied-whole plus locus ⊆ display |
 | 2026-08-23 | Gate gains **case 4, recombination** (prefix of one input target + suffix of another, both declared): case 3's display-remainder test can never license a Sefaria locus, since Jastrow's displays are Roman numerals — measured on all 9 `ib-targum-work-loss` occurrences, decisively on M00567 where the remainder is `6:22` alone. Accepted as better evidenced than case 2; cases 1-3 unchanged |
 | 2026-08-24 | Case 4 **tightened**: the tail's discarded prefix must itself be a prefix of the head, and head ≠ tail. Four probes against the first cut passed — locus truncation, wrong verse in the head's own work, self-extension, mid-word splice — and both constraints are needed, the prefix rule alone missing `head === tail`. Task 8's 9 fires still pass; same-work sibling mints remain licensed and are recorded |
+| 2026-08-23 | **The geresh pair repairs by UNLINK, not retarget** (maintainer ruling, on the measurement): §3.2 case 2 reaches 81 of 517 bare members and 28 of 185 prefixed ones, so a retarget rule declines 84% of both rows. Unlink repairs 702 occurrences across 640 entries against the 109 a retarget could reach. Every arm the predicates leave standing is registered in `data/patches/catalogue-audit/geresh-abbrev-arms.md` for later review — the ruling's own condition |
+| 2026-08-23 | **`ib-yoma-2a` is a pure case-2 copy, not case 3.** §3.2 named it as case 3's first user; compose is unreachable for the whole population (0 of 312 displays carry a locus) and unnecessary. Case 3's first and only user is `sifre-ib-resolves-to-yalkut`. Its 63 intervening-citation members DECLINE rather than copy a neighbouring anchor's different work, and the segment approximation is recorded as a known limit rather than repaired |
+| 2026-08-24 | **`plural-to-feminine-final-letter-mislink` also unlinks**, on the same test the geresh pair used: retarget is reachable for 17 of 60 clean occurrences (28.3%). Six of the batch's ten rows therefore repair by unlink and none by the planned "copy" shape |
+| 2026-08-24 | **Batch 2 closed: ten rows, 1,166 catalogued instances, 1,131 occurrences repaired**, against twelve rows / 1,794 planned. Two rows withdrew to `judgment` (#4, #11), both predicted by §6 and both for a different reason than §6 gave. Composed corpus pass: 32,512 entries, 0 gate throws; the only isolated-vs-composed difference in the whole registry is batch 1's own `bare-rtl-hebrew`, which rises 4,471 → 4,517 records because `redundant-outer-rtl-span` runs first and re-exposes the Hebrew it covered. Report: `docs/v2/transform-batch-2.md` |
