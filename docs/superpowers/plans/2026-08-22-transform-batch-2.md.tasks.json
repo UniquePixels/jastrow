@@ -64,7 +64,7 @@
   {
    "id": 7,
    "subject": "Task 7: ib-yoma-2a and the anaphora machine",
-   "status": "pending",
+   "status": "completed",
    "description": "**Goal:** 312 unaudited entries where every Ib. fell to the same fixed target; builds the compose machine Task 8 reuses.\n\n**Files:**\n- Create: `admin/pipeline/transform/rules/anaphora.ts`\n- Test: `admin/pipeline/transform/rules/anaphora.test.ts`\n- Create: `data/patches/catalogue-audit/ib-yoma-2a.md`\n- Modify: `admin/pipeline/transform/registry.ts`\n\n**Acceptance Criteria:**\n- [ ] The row's audit is written first: how many Ib. anchors resolve to Yoma 2a, how many of those entries hold a preceding citation anchor, and how many displays can supply a locus\n- [ ] The antecedent is the nearest preceding anchor in the SAME definition whose target is not itself Yoma 2a\n- [ ] A retarget copying the antecedent's target whole passes as case 2 with no declaration\n- [ ] A retarget changing the locus declares composed: [{from, target}] and passes case 3\n- [ ] The rule DECLINES with no antecedent or an unsupported locus; declines are counted and recorded\n- [ ] Fire count plus decline count account for the row's 312\n\n**Verify:** `bun test admin/pipeline/transform/rules/anaphora.test.ts` then `bun transform:count`\n\n```json:metadata\n{\"files\": [\"admin/pipeline/transform/rules/anaphora.ts\", \"admin/pipeline/transform/rules/anaphora.test.ts\", \"data/patches/catalogue-audit/ib-yoma-2a.md\", \"admin/pipeline/transform/registry.ts\"], \"verifyCommand\": \"bun test admin/pipeline/transform/rules/anaphora.test.ts && bun transform:count\", \"acceptanceCriteria\": [\"audit written with three measured numbers\", \"antecedent defined and tested\", \"case 2 copy path\", \"case 3 declared compose path\", \"declines counted\", \"312 accounted\"], \"modelTier\": \"frontier\"}\n```",
    "blockedBy": [
     2
@@ -73,7 +73,7 @@
   {
    "id": 8,
    "subject": "Task 8: Targum and Sifre ib. arms",
-   "status": "pending",
+   "status": "completed",
    "description": "**Goal:** ib-targum-work-loss (8) and sifre-ib-resolves-to-yalkut (5) — the same machine, two different wrong sinks.\n\n**Files:**\n- Modify: `admin/pipeline/transform/rules/anaphora.ts`\n- Modify: `admin/pipeline/transform/rules/anaphora.test.ts`\n- Modify: `admin/pipeline/transform/registry.ts`\n\n**Acceptance Criteria:**\n- [ ] ib-targum-work-loss retargets an ib. inside a Targum run to the Targum work its antecedent carries, never the plain Hebrew-Bible book\n- [ ] sifre-ib-resolves-to-yalkut retargets to the Sifré work its antecedent names, declining when no Sifré antecedent exists\n- [ ] Both reuse Task 7's antecedent walk rather than re-implementing it\n- [ ] All 13 instances are read by hand; each is confirmed or declined and the tally is in the commit message\n\n**Verify:** `bun test admin/pipeline/transform/rules/anaphora.test.ts` then `bun transform:count`\n\n```json:metadata\n{\"files\": [\"admin/pipeline/transform/rules/anaphora.ts\", \"admin/pipeline/transform/rules/anaphora.test.ts\", \"admin/pipeline/transform/registry.ts\"], \"verifyCommand\": \"bun test admin/pipeline/transform/rules/anaphora.test.ts && bun transform:count\", \"acceptanceCriteria\": [\"targum arm retargets to the Targum work\", \"sifre arm retargets or declines\", \"antecedent walk reused\", \"all 13 hand-read and tallied\"], \"modelTier\": \"standard\"}\n```",
    "blockedBy": [
     7
@@ -91,7 +91,7 @@
   {
    "id": 10,
    "subject": "Task 10: shuruk-as-yod display corruption",
-   "status": "pending",
+   "status": "completed",
    "description": "**Goal:** 12 anchors whose display writes yod+dagesh where the word and its correctly-resolved target both have shuruk.\n\n**Files:**\n- Modify: `admin/pipeline/transform/rules/misc-links.ts`\n- Modify: `admin/pipeline/transform/rules/misc-links.test.ts`\n- Modify: `admin/pipeline/transform/registry.ts`\n\n**Acceptance Criteria:**\n- [ ] The rule fires only when the anchor's target already resolves correctly — the display is corrupt, the link is not\n- [ ] The target is untouched, so the link-target gate sees case 1 on every anchor\n- [ ] The allows declaration names the OCR ruling of 2026-08-11 in a comment and lists only the codepoints the swap introduces\n- [ ] All 12 are listed and hand-confirmed before the rule is written\n- [ ] bun transform:count reproduces 12\n\n**Verify:** `bun test admin/pipeline/transform/rules/misc-links.test.ts` then `bun transform:count`\n\n```json:metadata\n{\"files\": [\"admin/pipeline/transform/rules/misc-links.ts\", \"admin/pipeline/transform/rules/misc-links.test.ts\", \"admin/pipeline/transform/registry.ts\"], \"verifyCommand\": \"bun test admin/pipeline/transform/rules/misc-links.test.ts && bun transform:count\", \"acceptanceCriteria\": [\"fires only where the target is already correct\", \"target untouched\", \"allows cites the OCR ruling and its blast radius\", \"12 hand-confirmed\", \"count reproduced\"], \"modelTier\": \"standard\"}\n```",
    "blockedBy": [
     9
@@ -109,5 +109,5 @@
    ]
   }
  ],
- "lastUpdated": "2026-08-23T17:35:00-05:00"
+ "lastUpdated": "2026-08-24T11:05:00-05:00"
 }
