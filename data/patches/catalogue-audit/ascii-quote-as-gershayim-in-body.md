@@ -284,10 +284,18 @@ all three being artifacts of its probe rather than population:
 count.** A rule written as a non-overlapping global replace will leave
 the second quote of `X"Y"Z` uncorrected in A00253, U01408, A00409
 (`א"תב"ש`), A01394 (`ה"דא"א`) and Q00157 (headword `פ"וגחמ"ט`). And a
-predicate written as bare `[HEBREW]"[HEBREW]` will skip M01940 —
-`html.ts` already contemplates this case, exporting
-`HEBREW_ATOM = [${HEBREW}]̇*` (`html.ts:55`); the predicate should
-be built on the atom, not on the bare class.
+predicate written as bare `[HEBREW]"[HEBREW]` will skip M01940.
+
+`html.ts` already contemplates that case internally —
+`const HEBREW_ATOM = String.raw`[${HEBREW}]̇*`` at `html.ts:55` —
+but **`HEBREW_ATOM` is module-private and is not exported.** The export
+list at `html.ts:238–247` holds `HEBREW`, `hebrewRuns`, `tokenize`,
+`serialize`, `attributeInterior`, `opensScope` and `DIR_RTL`, and no
+atom. A consumer that imports it gets `undefined` and fails at runtime.
+So a rule that wants atom semantics must either add `HEBREW_ATOM` to
+that export list or inline `[${HEBREW}]̇*` for itself — the point
+stands that the predicate should be built on the atom rather than the
+bare class, but it is not available for import as things stand.
 
 ### The falsified hypothesis stays falsified
 
@@ -317,18 +325,76 @@ wide 2302 canonical 2302 delta 0
 
 **Confirmed falsified.** The class is not where the difference lives.
 
-> **Probe defect worth recording.** The version of this test carried in
-> the batch 3a implementation plan ran its regexes over
-> `JSON.stringify(...)` output, where every `"` is escaped to `\"`, so
-> the left neighbour is always a backslash. It printed
-> `wide 0 canonical 0 delta 0` — a delta of 0 that proved nothing. The
-> command above is the corrected form and is the one that carries the
-> result.
+**Probe defect worth recording.** The version of this test carried in
+the batch 3a implementation plan ran its regexes over
+`JSON.stringify(...)` output, where every `"` is escaped to `\"`, so
+the left neighbour of every quote is a backslash and neither class can
+ever match. Run as it was written:
+
+```bash
+bun -e 'const {HEBREW}=await import("./admin/pipeline/transform/html.ts");
+const Q=String.fromCharCode(34);
+const wide=new RegExp("[֐-׿]"+Q+"[֐-׿]","gu"), canon=new RegExp("["+HEBREW+"]"+Q+"["+HEBREW+"]","gu");
+let w=0,c=0;
+for(const l of (await Bun.file("data/source/jastrow-dictionary.jsonl").text()).split("\n").filter(Boolean)){
+  const e=JSON.parse(l), s=JSON.stringify(e.content)+JSON.stringify(e.headword)+JSON.stringify(e.alt_headwords??[])+JSON.stringify(e.plural_form??[])+JSON.stringify(e.quotes??[]);
+  w+=[...s.matchAll(wide)].length; c+=[...s.matchAll(canon)].length; }
+console.log("wide",w,"canonical",c,"delta",w-c);'
+```
+
+```
+wide 0 canonical 0 delta 0
+```
+
+A delta of 0 between two zeros is not a test. The command earlier in
+this section is the corrected form and is the one that carries the
+result.
 
 ### Where the missing 8 attribute occurrences are
 
 Every defective tag carries the same gershayim twice, once in `href`
-and once in `data-ref`, so the tag locus is always an even number:
+and once in `data-ref`. **This is measured, not assumed** — the
+headline 180 is derived below as `anchors × 2`, so the distribution of
+occurrences-per-tag has to be checked before that multiplication is
+allowed:
+
+```bash
+bun -e 'const {HEBREW}=await import("./admin/pipeline/transform/html.ts");
+const Q=String.fromCharCode(34), P=new RegExp("["+HEBREW+"]"+Q+"["+HEBREW+"]","gu"), TAG=/<[^<>]*>/gu;
+const dist=new Map(); let tags=0, occ=0; const noDir=[];
+const fields=(e)=>{const o=[],p=(s)=>{typeof s==="string"&&o.push(s)};
+  p(e.headword); for(const a of e.alt_headwords??[])p(a); for(const x of e.plural_form??[])p(x);
+  const w=(s)=>{if(!s)return; p(s.definition); p(s.number); for(const n of s.senses??[])w(n)};
+  for(const s of e.content?.senses??[])w(s); p(e.content?.morphology);
+  for(const q of e.quotes??[])for(const x of q??[])p(x); return o};
+for(const l of (await Bun.file("data/source/jastrow-dictionary.jsonl").text()).split("\n").filter(Boolean)){
+ const e=JSON.parse(l);
+ for(const f of fields(e)) for(const m of f.matchAll(TAG)){
+  const n=[...m[0].matchAll(P)].length; if(!n)continue;
+  tags++; occ+=n; dist.set(n,(dist.get(n)??0)+1);
+  if(!/\bdir="rtl"/u.test(m[0])) noDir.push([e.rid,m[0]]); } }
+console.log("defective tags:",tags,"| total occurrences:",occ);
+console.log("occurrences-per-tag distribution:",JSON.stringify(Object.fromEntries([...dist].sort())));
+console.log("tags with NO dir=\"rtl\" attribute:",noDir.length);
+for(const [r,t] of noDir) console.log("   ",r,t);'
+```
+
+```
+defective tags: 90 | total occurrences: 180
+occurrences-per-tag distribution: {"2":90}
+tags with NO dir="rtl" attribute: 2
+    B00752 <a class="refLink" href="/Jastrow,_בי"ת.1" data-ref="Jastrow, בי"ת 1">
+    C01225 <a class="refLink" href="/Jastrow,_ג"ר.1" data-ref="Jastrow, ג"ר 1">
+```
+
+**Every one of the 90 defective tags carries exactly 2, with no
+exceptions in either direction** — no tag carries 1, none carries 3.
+So `anchors × 2` is a sound derivation here, the tag locus is always
+even, and `180 = 90 × 2` is a usable post-condition for the rule's
+test. The same command establishes the two `dir`-less anchors cited
+at the end of this section.
+
+The anchor split that explains the audit's 172:
 
 ```bash
 bun -e 'const {HEBREW}=await import("./admin/pipeline/transform/html.ts");
@@ -370,8 +436,9 @@ is catalogued at 85 and this audit called 86 anchors "matching their
 85". The real figure is **90 anchors / 180 occurrences / 85 entries**.
 The catalogued 85 is an *entry* count that happens to be right; the
 anchor count is 90. Two of the 90 additionally lack `dir="rtl"`
-altogether (B00752, C01225), so any repair keyed to a `dir=rtl` anchor
-will miss them.
+altogether — **B00752 and C01225, both printed by the distribution
+command above** — so any repair keyed to a `dir=rtl` anchor will miss
+them.
 
 ## Locus partition
 
@@ -467,9 +534,7 @@ for(const r of rc.sort((a,b)=>b[0]-a[0]))console.log("C",String(r[0]).padStart(3
 
 Run with `SCOPE=audit`, this returns **`A 1820 | B 49 occ / 12 types |
 C 34 occ / 29 types | total 1903`** — reproducing the riders' 49 and 34
-exactly, and pinning down what the original figures were scoped to:
-**`dir=rtl`-wrapped definition text only**. Class A also lands on
-1,820, matching this audit's sub-job table (`:61`).
+exactly.
 
 Run with `SCOPE=all` over the whole in-scope text locus (bare RTL,
 `headword`, `alt_headwords`, `plural_form`, `quotes[]` included), the
@@ -481,17 +546,261 @@ The register's token model (`[HEBREW]+"[HEBREW]+`) covers 2,119 of the
 2,125 text-locus occurrences. The 6 it cannot tokenise are the
 double-quote and combining-dot tokens already named above — A00253,
 U01408 (`יה"ש"ר`), A00409 (`א"תב"ש`), A01394 (`ה"דא"א`), Q00157
-(`פ"וגחמ"ט`), M01940 (`מ̇ס̇"ך̇`) — and they are unclassified, not lost.
+(`פ"וגחמ"ט`), M01940 (`מ̇ס̇"ך̇`) — and the `SCOPE=audit` run leaves
+them unclassified rather than losing them.
 
-> **A note on the heuristic used to reach here.** A frequency-only
-> variant of this probe — "flag every token that shares a bare skeleton
-> with a more frequent twin", with no slot test — returns 21 token
-> types / 66 occurrences and *inverts the direction* on several rows:
-> it reports the canonical `עכו"ם` as the decline because the displaced
-> `עכ"ום` happens to be more frequent. Frequency alone does not
-> identify displacement; the slot test is what does.
+### Closing the register against the sub-job table
 
-### Class B — displaced, dominant canonical twin exists (55 occ, 16 types)
+The `SCOPE=audit` run above matches B and C but its total is 1,903 and
+its A is 1,820, where the sub-job table at `:59–63` totals
+**1,826 + 49 + 34 = 1,909**. Six occurrences short, and they are all on
+the A side. Two adjustments close it exactly, and both are scope
+corrections to the probe rather than to the audit:
+
+1. **The riders' scope is `dir=rtl`-wrapped *body text*, not
+   definition text.** The body-text probe at `:15` covers
+   `senses[].definition` (incl. nested), `content.morphology` **and
+   `quotes[][]`**, and its field split at `:22` records exactly 1
+   occurrence in `quotes[]`. `SCOPE=audit` filters to `def` and drops
+   that one.
+2. **The 5 untokenisable occurrences inside that scope are class A.**
+
+```bash
+bun -e 'const {HEBREW}=await import("./admin/pipeline/transform/html.ts");
+const Q=String.fromCharCode(34), TAG=/<[^<>]*>/gu, DOT="̇";
+const H=new RegExp("^["+HEBREW+"]$","u"), LET=/^[א-ת]$/u;
+const TOK=new RegExp("["+HEBREW+"]+"+Q+"["+HEBREW+"]+","gu");
+const RTLW=/<(span|a)\b[^<>]*\bdir="rtl"[^<>]*>([\s\S]*?)<\/\1>/gu;
+const scan=(s)=>{const o=[];for(let i=0;i<s.length;i++){if(s[i]!==Q)continue;
+ let j=i-1;while(j>=0&&s[j]===DOT)j--;let k=i+1;while(k<s.length&&s[k]===DOT)k++;
+ if(j>=0&&k<s.length&&H.test(s[j])&&H.test(s[k]))o.push(i);}return o;};
+const slot=(s,p)=>{let n=0;for(let i=p+1;i<s.length;i++){const c=s[i];
+ if(LET.test(c))n++; else if(c===Q||c===DOT||H.test(c))continue; else break;} return n;};
+let pop=0, tokd=0, quotesField=0; const un=[];
+for(const l of (await Bun.file("data/source/jastrow-dictionary.jsonl").text()).split("\n").filter(Boolean)){
+ const e=JSON.parse(l);
+ const go=(k,f)=>{if(typeof f!=="string")return;
+  const mask=new Array(f.length).fill(false);
+  for(const m of f.matchAll(TAG))for(let i=m.index;i<m.index+m[0].length;i++)mask[i]=true;
+  const rtl=new Array(f.length).fill(false);
+  for(const m of f.matchAll(RTLW))for(let i=m.index+m[0].indexOf(">")+1;i<m.index+m[0].length;i++)rtl[i]=true;
+  const tq=new Set(); for(const m of f.matchAll(TOK)) tq.add(m.index+m[0].indexOf(Q));
+  for(const p of scan(f)){ if(mask[p]||!rtl[p])continue; pop++; if(k==="quotes[]")quotesField++;
+   if(tq.has(p)) tokd++; else un.push([e.rid,slot(f,p)]); }};
+ const w=(s)=>{if(!s)return; go("definition",s.definition); go("number",s.number); for(const n of s.senses??[])w(n)};
+ for(const s of e.content?.senses??[])w(s); go("morphology",e.content?.morphology);
+ for(const q of e.quotes??[])for(const x of q??[])go("quotes[]",x); }
+console.log("audit body-text population:",pop,"| tokenised:",tokd,"| untokenisable:",un.length);
+console.log("of which in quotes[] (dropped by SCOPE=audit):",quotesField);
+for(const [r,s] of un.sort()) console.log("   ",r,"letters after quote:",s,s===1?"=> penultimate => class A":"=> NOT class A");'
+```
+
+```
+audit body-text population: 1909 | tokenised: 1904 | untokenisable: 5
+of which in quotes[] (dropped by SCOPE=audit): 1
+    A00253 letters after quote: 1 => penultimate => class A
+    A00409 letters after quote: 1 => penultimate => class A
+    A01394 letters after quote: 1 => penultimate => class A
+    M01940 letters after quote: 1 => penultimate => class A
+    U01408 letters after quote: 1 => penultimate => class A
+```
+
+All five sit in the canonical penultimate slot, so 1,820 + 5 + the 1
+`quotes[]` occurrence = **1,826**, and 1,903 + 5 + 1 = **1,909**.
+
+Classifying per *occurrence* rather than per token, so nothing is
+untokenisable, over the audit's full body-text scope:
+
+```bash
+cat > "${TMPDIR:-/tmp}/subjob.ts" <<'TS'
+const {HEBREW}=await import(process.cwd()+"/admin/pipeline/transform/html.ts");
+const Q=String.fromCharCode(34), TAG=/<[^<>]*>/gu, DOT="̇";
+const H=new RegExp("^["+HEBREW+"]$","u"), LET=/^[א-ת]$/u;
+const TOK=new RegExp("["+HEBREW+"]+"+Q+"["+HEBREW+"]+","gu");
+const RTLW=/<(span|a)\b[^<>]*\bdir="rtl"[^<>]*>([\s\S]*?)<\/\1>/gu;
+const scan=(s)=>{const o=[];for(let i=0;i<s.length;i++){if(s[i]!==Q)continue;
+ let j=i-1;while(j>=0&&s[j]===DOT)j--;let k=i+1;while(k<s.length&&s[k]===DOT)k++;
+ if(j>=0&&k<s.length&&H.test(s[j])&&H.test(s[k]))o.push(i);}return o;};
+const slot=(s,p)=>{let n=0;for(let i=p+1;i<s.length;i++){const c=s[i];
+ if(LET.test(c))n++; else if(c===Q||c===DOT||H.test(c))continue; else break;} return n;};
+const freq=new Map(), where=new Map(); const occs=[];
+for(const l of (await Bun.file("data/source/jastrow-dictionary.jsonl").text()).split("\n").filter(Boolean)){
+ const e=JSON.parse(l);
+ const go=(f)=>{if(typeof f!=="string")return;
+  const mask=new Array(f.length).fill(false);
+  for(const m of f.matchAll(TAG))for(let i=m.index;i<m.index+m[0].length;i++)mask[i]=true;
+  const rtl=new Array(f.length).fill(false);
+  for(const m of f.matchAll(RTLW))for(let i=m.index+m[0].indexOf(">")+1;i<m.index+m[0].length;i++)rtl[i]=true;
+  const tq=new Map(); for(const m of f.matchAll(TOK)) tq.set(m.index+m[0].indexOf(Q), m[0]);
+  for(const p of scan(f)){ if(mask[p]||!rtl[p])continue;
+   const t=tq.get(p);
+   if(t!==undefined){ freq.set(t,(freq.get(t)??0)+1); (where.get(t)??where.set(t,new Set()).get(t)).add(e.rid); }
+   occs.push({rid:e.rid, tok:t, slot:slot(f,p)}); }};
+ const w=(s)=>{if(!s)return; go(s.definition); go(s.number); for(const n of s.senses??[])w(n)};
+ for(const s of e.content?.senses??[])w(s); go(e.content?.morphology);
+ for(const q of e.quotes??[])for(const x of q??[])go(x); }
+const pen=(t)=>[...t.slice(t.indexOf(Q)+1)].filter(c=>LET.test(c)).length===1;
+const bare=(t)=>t.split(Q).join("");
+const byBare=new Map(); for(const t of freq.keys()){const b=bare(t);(byBare.get(b)??byBare.set(b,[]).get(b)).push(t);}
+let A=0,B=0,C=0; const rb=new Map(), rc=new Map();
+for(const o of occs){
+ if(o.tok===undefined){ if(o.slot===1){A++;continue;} C++; continue; }
+ if(pen(o.tok)){A++;continue;}
+ const tw=(byBare.get(bare(o.tok))||[]).filter(x=>x!==o.tok&&pen(x)).sort((x,y)=>freq.get(y)-freq.get(x))[0];
+ if(tw&&freq.get(tw)>freq.get(o.tok)){B++; rb.set(o.tok,[freq.get(o.tok),tw,freq.get(tw),[...where.get(o.tok)]]);}
+ else {C++; rc.set(o.tok,[freq.get(o.tok),tw??"(none)",tw?freq.get(tw):0,[...where.get(o.tok)]]);} }
+console.log("A",A,"| B",B,"occ /",rb.size,"types | C",C,"occ /",rc.size,"types | total",A+B+C);
+if(process.env.LIST){
+ console.log("\n== CLASS B (49) ==");
+ for(const [t,v] of [...rb].sort((a,b)=>b[1][0]-a[1][0])) console.log("|",v[0],"| `"+t+"` | `"+v[1]+"` ("+v[2]+") |",v[3].join(" "),"|");
+ console.log("\n== CLASS C (34) ==");
+ for(const [t,v] of [...rc].sort((a,b)=>b[1][0]-a[1][0])) console.log("|",v[0],"| `"+t+"` |",v[1]==="(none)"?"—":"`"+v[1]+"` ("+v[2]+")","|",v[3].join(" "),"|");
+}
+TS
+bun "${TMPDIR:-/tmp}/subjob.ts"
+```
+
+```
+A 1826 | B 49 occ / 12 types | C 34 occ / 29 types | total 1909
+```
+
+**All three cells of the sub-job table reproduce exactly** — 1,826 /
+49 / 34, totalling 1,909, which is the 1,912 of `:21` less the 3 D00478
+artifacts of `:48`. The riders' 49 and 34 are confirmed, and their
+scope is pinned: **`dir=rtl`-wrapped body text — `senses[].definition`
+(incl. nested), `content.morphology` and `quotes[][]`.**
+
+A fourth check falls out of the same run. This audit's class-B row at
+`:62` names six twin frequencies in passing; the register reproduces
+**all six** in this scope, none of which it was fitted to:
+
+| `:62` says | Register |
+|---|---|
+| `הק"בה` 15 vs `הקב"ה` 194 | 15 vs 194 |
+| `ב"וד` 9 vs `בו"ד` 19 | 9 vs 19 |
+| `בע"הב` 2 vs 12 | 2 vs 12 |
+| `להק"בה` 2 vs 14 | 2 vs 14 |
+| `גי"מל` 1 vs 8 | 1 vs 8 |
+| `רו"הק` 1 vs 6 | 1 vs 6 |
+
+and the class-C row at `:63`'s `עכ"ום` "(12, twin `עכו"ם` 16)" comes
+back as 12 vs 16. These frequencies are scope-sensitive — over the full
+in-scope text locus the same twins read 200, 19, 12, 15, 9, 6 — so
+matching all seven is independent evidence that the scope above is the
+right one.
+
+> **Correction, recorded.** An earlier draft of this section claimed
+> `A 1820` matched the sub-job table at `:61`. It does not: `:61` reads
+> **1,826**. The 1,820 coincides with the *`<span dir=rtl>` text only*
+> figure at `:28`, which is a different scope and a coincidence, not a
+> corroboration. The argument above replaces it.
+
+### The heuristic that does *not* work, and why
+
+A frequency-only variant — "flag every token that shares a bare
+skeleton with a more frequent twin", with no slot test at all:
+
+```bash
+bun -e 'const {HEBREW}=await import("./admin/pipeline/transform/html.ts");
+const Q=String.fromCharCode(34), TOK=new RegExp("["+HEBREW+"]+"+Q+"["+HEBREW+"]+","gu");
+const freq=new Map(), where=new Map();
+const fields=(e)=>{const o=[],p=(s)=>{typeof s==="string"&&o.push(s)};
+  p(e.headword); for(const a of e.alt_headwords??[])p(a); for(const x of e.plural_form??[])p(x);
+  const w=(s)=>{if(!s)return; p(s.definition); p(s.number); for(const n of s.senses??[])w(n)};
+  for(const s of e.content?.senses??[])w(s); p(e.content?.morphology);
+  for(const q of e.quotes??[])for(const x of q??[])p(x); return o};
+const es=(await Bun.file("data/source/jastrow-dictionary.jsonl").text()).split("\n").filter(Boolean).map(l=>JSON.parse(l));
+for(const e of es) for(const f of fields(e)) for(const m of f.matchAll(TOK)){
+  freq.set(m[0],(freq.get(m[0])??0)+1); (where.get(m[0])??where.set(m[0],new Set()).get(m[0])).add(e.rid); }
+const bare=(t)=>t.split(Q).join("");
+const byBare=new Map();
+for(const t of freq.keys()){ const b=bare(t); (byBare.get(b)??byBare.set(b,[]).get(b)).push(t); }
+for(const [b,ts] of byBare){ if(ts.length<2) continue;
+  const sorted=ts.sort((x,y)=>freq.get(y)-freq.get(x));
+  for(const t of sorted.slice(1)) console.log(freq.get(t), JSON.stringify(t), "vs dominant", JSON.stringify(sorted[0]), freq.get(sorted[0]), "|", [...where.get(t)].join(" ")); }' \
+ | sort -rn | tee /dev/stderr | awk '{s+=$1; n++} END {print "rows:", n, "occurrences:", s}'
+```
+
+```
+rows: 21 occurrences: 66
+```
+
+whose first row is
+
+```
+16 "עכו\"ם" vs dominant "עכ\"ום" 24 | C00358 C00785 H00553 K00249 K00425 M00511 M00761 N00201 N00847 Q01379 P01490 T00082
+```
+
+**21 token types / 66 occurrences, and the direction is inverted.** It
+flags the *canonical* `עכו"ם` as the decline, because the displaced
+`עכ"ום` happens to be the more frequent of the pair. Frequency alone
+does not identify displacement; the slot test is what does, and that is
+why the register above tests the slot first and consults frequency only
+to rank twins.
+
+### The riders' 49 and 34, by rid — narrower scope
+
+Run the sub-job command above with `LIST=1`. These are the sets the
+riders at `:123` refer to: `dir=rtl`-wrapped body text only. The wider
+in-scope sets (55 and 45) follow in the next two subsections; **both
+are recorded, because the riders' figures are what the audit committed
+to and the wider figures are what the transform must actually handle.**
+
+**Class B — displaced, audit scope (49 occ, 12 types)**
+
+| Occ | Token | Canonical twin (occ) | rids |
+|---:|---|---|---|
+| 15 | `הק"בה` | `הקב"ה` (194) | A02325 B01335 C00049 E00668 I00749 M00957 O00478 Q00926 Q00997 P01130 P01362 Q02054 S00277 T00538 U01960 |
+| 12 | `עכ"ום` | `עכו"ם` (16) | A00692 A03169 B01347 C00901 J00631 M02983 M02997 M00273 P00026 Q00870 |
+| 9 | `ב"וד` | `בו"ד` (19) | B01371 K01339 M00607 N01108 N01113 N01118 Q00557 U00122 |
+| 2 | `בע"הב` | `בעה"ב` (12) | B01100 C00907 |
+| 2 | `שהק"בה` | `שהקב"ה` (5) | K01339 Q00380 |
+| 2 | `לעכ"ום` | `לעכו"ם` (3) | N00072 S00375 |
+| 2 | `להק"בה` | `להקב"ה` (14) | N00500 N01304 |
+| 1 | `או"הע` | `אוה"ע` (3) | A00692 |
+| 1 | `גי"מל` | `גימ"ל` (8) | C00994 |
+| 1 | `בעו"הז` | `בעוה"ז` (3) | K01280 |
+| 1 | `רו"הק` | `רוה"ק` (6) | O01233 |
+| 1 | `עי"ין` | `עיי"ן` (2) | P00000 |
+
+**Class C — undetermined, audit scope (34 occ, 29 types)**
+
+| Occ | Token | Twin, if any (occ) | rids |
+|---:|---|---|---|
+| 3 | `ש"ין` | `שי"ן` (2) | N01300 Q00883 |
+| 2 | `עו"הב` | `עוה"ב` (2) | B00007 B01368 |
+| 2 | `בי"תא` | `בית"א` (2) | B00578 B00751 |
+| 2 | `לעו"הב` | `לעוה"ב` (1) | H01114 K00762 |
+| 1 | `אברוש"די` | — | A00218 |
+| 1 | `א"תב` | — | A00409 |
+| 1 | `אוכ"טא` | — | A01208 |
+| 1 | `אפ"טא` | — | A01208 |
+| 1 | `ה"דא` | — | A01394 |
+| 1 | `אלפ"ין` | — | A01935 |
+| 1 | `דת"המ` | — | A02918 |
+| 1 | `לא"הק` | — | A03192 |
+| 1 | `וש"ין` | `ושי"ן` (1) | B00435 |
+| 1 | `העו"הב` | — | B01368 |
+| 1 | `דַּלְ"תִים` | — | D00863 |
+| 1 | `דַּלְ"תִין` | — | D00863 |
+| 1 | `הֵי"הִין` | — | E00004 |
+| 1 | `זַיְי"נִין` | — | G00338 |
+| 1 | `ט"ית` | `טי"ת` (1) | I00777 |
+| 1 | `חֵי"תִין` | — | H00897 |
+| 1 | `מעכ"ום` | — | K00464 |
+| 1 | `ח"ית` | `חי"ת` (1) | K01339 |
+| 1 | `העכ"ום` | — | N00387 |
+| 1 | `העב"ום` | — | N00403 |
+| 1 | `ע"עז` | — | P00731 |
+| 1 | `בעו"הב` | — | R00266 |
+| 1 | `לע"ין` | — | Q00141 |
+| 1 | `בב"הק` | — | S00097 |
+| 1 | `בשִׁ"ין` | — | U00243 |
+
+Every class-C example this audit names in prose at `:63` — `ש"ין`,
+`דַּלְ"תִים`, `זַיְי"נִין`, `אוכ"טא`, `ע"עז` — appears in that table.
+
+### Class B — displaced, full in-scope text locus (55 occ, 16 types)
 
 | Occ | Token | Canonical twin (occ) | rids |
 |---:|---|---|---|
@@ -521,7 +830,7 @@ history here, and 16-to-14 is not dominance.** Treat the
 `עכ"ום`/`לעכ"ום`/`מעכ"ום`/`העכ"ום` group as undetermined regardless of
 which column it lands in.
 
-### Class C — non-penultimate, no dominant canonical twin (45 occ, 33 types)
+### Class C — undetermined, full in-scope text locus (45 occ, 33 types)
 
 | Occ | Token | Twin, if any (occ) | rids |
 |---:|---|---|---|
