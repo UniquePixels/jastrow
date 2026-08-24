@@ -165,7 +165,27 @@ construction, because both sides are rewritten by the same substitution.
 
 The audit's figure of "172 inside href/data-ref values" counts `href`
 and `data-ref` separately over these same 90 tags. It is not a third
-population.
+population; the exact figure is 180, two attributes on each of 90 tags.
+
+### The locus partition, which is also the row split
+
+Each row owns one locus, and the two partition the population exactly:
+
+| Locus | Occurrences | Entries | Row |
+|---|---:|---:|---|
+| Document text | 2,122 | 1,386 | `ascii-quote-as-gershayim-in-body` |
+| Tag interior | 180 | 85 | `gershayim-breaks-ref-attribute` |
+| **Total** | **2,302** | **1,392 union** | |
+
+79 entries carry both loci; 6 carry only the tag locus. The catalogued
+85 for the attribute row is exact. The catalogued 1,290 for the text
+row is the audit's narrower body-text scope and is corrected to 1,386
+by the widening in §2 — a §6 write-back, not a discrepancy.
+
+This is what lets the two rows ship as two `Rule` objects over one
+shared predicate: `Rule.id` must name a single catalogue row, and
+`transform:count` measures each row against its own count. One
+predicate, one substitution, two loci, two ids.
 
 ## 4. Architecture
 
@@ -225,18 +245,37 @@ text, and in the input the display carries the ASCII quote too. Case 4
 cannot either; a mid-string substitution is not a prefix of one target
 joined to a suffix of another.
 
-**Case 5 — glyph correction.** A written target is accepted if it
-differs from some input target by ASCII `"` → `״` substitution and by
-nothing else: same length, same codepoints at every other position.
-Declared through a new `TransformResult.glyphCorrected` field —
-`{ from, target }`, where `from` is a target in this entry's input — so
-it is a rule author's assertion rather than a silent widening, matched
-to anchors the same way `composed` and `recombined` are.
+**Case 5 — glyph correction.** Written against the RAW OPENING TAG,
+not against the parsed target set, for a reason found while planning
+and recorded here rather than discovered in review: **all 90 damaged
+anchors parse as well-formed with silently truncated targets.**
 
-Fail-closed by construction. The case admits no address the input did
-not already hold, in any spelling other than the corrected one, and it
-cannot move a link from one entry to another — every non-quote
-character is pinned.
+```
+malformed=false  dataRef="Jastrow, אל"  href="/Jastrow,_אל"
+```
+
+The value stops at the embedded quote. `opensScope` does not object,
+because nothing about the tag is visibly malformed — this is the same
+plausible-but-wrong parser reading that [#47](https://github.com/UniquePixels/jastrow/pull/47)
+found, in the one form a parser cannot fix: a `"` inside a
+`"`-delimited value is genuinely ambiguous, so the data is the only
+place it can be repaired. It also means the input target set holds
+`Jastrow, אל`, and a case 5 phrased as *"differs from an input target
+by quote substitution"* would reject the correct output, which differs
+from that truncated value by truncation as well.
+
+So the contract is stated on bytes the parser cannot mangle: **an
+output anchor's opening tag is licensed if, mapping every `״` back to
+`"`, its token value is byte-identical to that anchor's opening tag in
+the input.** Declared through a new `TransformResult.glyphCorrected`
+field — `{ from, target }`, where `from` is the input tag value and
+`target` the written one — so it is a rule author's assertion rather
+than a silent widening, and reported like `composed` and `recombined`.
+
+Fail-closed by construction, and tighter than the target-set phrasing
+it replaces: every character except the substituted quotes is pinned,
+so the case cannot move a link from one entry to another, cannot alter
+a locus, and cannot recover an address the input did not spell out.
 
 ### 4.4 What the rule will not do
 
@@ -304,7 +343,8 @@ applies as it did for `h-cognate-self-link` in batch 2.
 | Risk | Mitigation |
 |---|---|
 | The predicate catches a real quotation mark | 92 two-quote elements already hand-read in the audit; unit tests hold off Latin-flanked and mixed-script quotes |
-| Case 5 widens the link gate too far | same-length, same-position, substitution-only; declared per call; no address enters that the input lacked |
+| Case 5 widens the link gate too far | byte-identity of the whole opening tag under `״`→`"`; declared per call; no address enters that the input lacked |
+| The truncated targets misled a shipped batch-2 rule | the 90 tags are checked against every registered rule's population before the batch closes |
 | The 6-occurrence discrepancy hides a second shape | reconciled before the rule is written, and the finding recorded either way |
 | Slot residue is read as "fixed" | recorded explicitly as residue in the audit file and in both rows' `reason` |
 
@@ -317,3 +357,5 @@ applies as it did for `h-cognate-self-link` in batch 2.
 | 2026-08-24 | `gershayim-breaks-ref-attribute` joins 3a; the two rows are one defect (90/90) |
 | 2026-08-24 | Glyph only, never slot; the 83 displaced-or-undetermined occurrences are recorded residue |
 | 2026-08-24 | Link-target gate gains case 5, glyph correction, rather than exempting the rule |
+| 2026-08-24 | Case 5 is stated on raw opening-tag bytes, not on parsed targets — the 90 damaged anchors parse well-formed with truncated targets (amended during planning) |
+| 2026-08-24 | Two `Rule` objects over one shared predicate, partitioned by locus, so each catalogue row keeps its own id and its own count |
