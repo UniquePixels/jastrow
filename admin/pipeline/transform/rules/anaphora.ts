@@ -32,11 +32,21 @@
  *
  * For an `Ib.` to legitimately mean Yoma 2a the entry would have to
  * have cited Yoma 2a immediately before. Measured: **0 of 312** do.
- * And the mechanism separates cleanly — of the 260 bare anaphors
+ * And the mechanism separates cleanly — of the 259 bare anaphors
  * corpus-wide whose nearest citation antecedent is a Jerusalem Talmud
- * ref, **259 land on `Yoma 2a*`**; the rate for every other antecedent
- * work is 3.2%. The one exception is not a rival resolution — O00242's
- * anchor carries no `data-ref` at all. Full null model, frequency
+ * ref, **all 259 land on `Yoma 2a*`**; the rate for every other
+ * antecedent work is 3.2%. There is no exception at all.
+ *
+ * That sentence used to read "260 … 259 … the one exception is not a
+ * rival resolution — O00242's anchor carries no `data-ref` at all",
+ * and the exception was an artefact of `links.ts`'s value class, not
+ * a corpus fact (corrected 2026-08-24 with the apostrophe fix).
+ * O00242's `Ib.` carries `data-ref="Avot D'Rabbi Natan 1:7"`, which
+ * the old class could not read; its own nearest antecedent is the
+ * `Avot D'Rabbi Natan 1:7` anchor two sentences earlier, so it is not
+ * a Yerushalmi case at all and the linker resolved it CORRECTLY. The
+ * identification is stronger for it: the falsifier now has zero
+ * survivors rather than one explained one. Full null model, frequency
  * argument and falsifiers: the audit's §2.
  *
  * ## Why COPY and not COMPOSE
@@ -114,12 +124,20 @@
  * audit's §3.2:
  *
  * ```
- * 996  53.0%  byte-identical to the antecedent's target
- * 870  99.3%  cumulative: differ ONLY in the trailing segment
- *  11  99.8%  cumulative: same work, different folio
- *   3         different work — one genuine (A01334), two with an
- *             empty `data-ref` on the anaphor, i.e. no rival address
+ * 997  53.0%  byte-identical to the antecedent's target
+ * 871  99.4%  cumulative: differ ONLY in the trailing segment
+ *  11  99.9%  cumulative: same work, different folio
+ *   1         different work — A01334, the one genuine case
  * ```
+ *
+ * Those figures were 996 / 870 / 11 / **3** until the apostrophe fix
+ * (2026-08-24). The two extra "different work" rows were the two whose
+ * anaphor read as an empty `data-ref`, and neither was empty: O00242
+ * and S00503 both carry `Avot D'Rabbi Natan …`, unreadable under the
+ * old value class. Read, O00242 matches its antecedent exactly and
+ * S00503 differs only in the trailing segment, so both move UP the
+ * table and the genuine work-level disagreement in the whole control
+ * is one, not three.
  *
  * So copying whole is passage-exact and segment-approximate: it lands
  * the reader on the antecedent's own address, which is what "ib."

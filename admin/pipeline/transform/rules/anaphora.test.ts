@@ -404,13 +404,20 @@ it('the rule moves exactly those 209 anchors, and adds or removes none, over the
 });
 
 /** The mechanism (audit §2c). Of every bare anaphor whose nearest
- * citation antecedent is a Jerusalem Talmud reference, all but one land
- * on the sink family; the rate for any other antecedent work is 3.2%.
- * The exception, O00242, is not a rival resolution — its anchor carries
- * NO `data-ref` at all, so the linker produced no address rather than a
- * different one. A real counterexample would break the identification,
- * so this is the row's falsifier, run on every pass. */
-it('every bare anaphor with a Jerusalem Talmud antecedent lands on Yoma 2a — 259 of 260, the exception having no data-ref at all', async () => {
+ * citation antecedent is a Jerusalem Talmud reference, ALL land on the
+ * sink family; the rate for any other antecedent work is 3.2%. A real
+ * counterexample would break the identification, so this is the row's
+ * falsifier, run on every pass — and it now has zero survivors.
+ *
+ * It read `259 of 260` until the apostrophe fix (2026-08-24), with the
+ * single exception explained as "O00242's anchor carries NO `data-ref`
+ * at all". That was `links.ts`'s value class, not the corpus. O00242's
+ * `Ib.` carries `Avot D'Rabbi Natan 1:7`, and once readable its nearest
+ * citation antecedent is the `Avot D'Rabbi Natan 1:7` anchor two
+ * sentences earlier — so it is not a Yerushalmi case at all and leaves
+ * this population for `rest`, which is why `rest.total` moves 1,941 →
+ * 1,942 while `jt.sink` does not move. */
+it('every bare anaphor with a Jerusalem Talmud antecedent lands on Yoma 2a — all 259, no exception', async () => {
 	const jt = { sink: 0, total: 0 };
 	const rest = { sink: 0, total: 0 };
 	for await (const s of sightings()) {
@@ -424,19 +431,25 @@ it('every bare anaphor with a Jerusalem Talmud antecedent lands on Yoma 2a — 2
 			side.sink++;
 		}
 	}
-	expect(jt).toEqual({ sink: 259, total: 260 });
-	expect(rest).toEqual({ sink: 62, total: 1941 });
+	expect(jt).toEqual({ sink: 259, total: 259 });
+	expect(rest).toEqual({ sink: 62, total: 1942 });
 });
 
 /** The control (audit §3): bare anaphors OUTSIDE this population with a
  * citation antecedent. The linker's own resolution agrees with the
- * antecedent's target byte-for-byte in 996 of 1,880 (53.0%) — the
+ * antecedent's target byte-for-byte in 997 of 1,880 (53.0%) — the
  * evidence that "Ib." means the antecedent, measured on data the
  * predicate was not fitted to. Had it come back near chance the row
  * would have gone to `judgment`. The antecedent here is the nearest
  * citation ANCHOR with no gap test, which is why the total differs from
- * the fire census. */
-it('the control agrees with the antecedent in 996 of 1,880 outside the population', async () => {
+ * the fire census.
+ *
+ * 996 until the apostrophe fix (2026-08-24). The extra agreement is
+ * O00242, whose anaphor and antecedent are the SAME address
+ * (`Avot D'Rabbi Natan 1:7`) and both unreadable under the old value
+ * class. The total is unchanged at 1,880: the sighting was always
+ * counted, only its comparison was blind. */
+it('the control agrees with the antecedent in 997 of 1,880 outside the population', async () => {
 	let total = 0;
 	let exact = 0;
 	for await (const s of sightings()) {
@@ -453,7 +466,7 @@ it('the control agrees with the antecedent in 996 of 1,880 outside the populatio
 		}
 	}
 	expect(total).toBe(1880);
-	expect(exact).toBe(996);
+	expect(exact).toBe(997);
 });
 
 /** The cost of the cue `INTERVENING_CITATION` deliberately omits, as a
@@ -1313,9 +1326,9 @@ it('the Targum arm skips exactly one anchor corpus-wide, and it is a row member'
 	expect(excused).toBe(1);
 });
 
-it('the Targum population’s 0 declines is partly definitional — 76 of 85 fall outside it', async () => {
-	// `isTargumMember` alone selects 85; requiring a preceding Targum
-	// anchor excludes 76, leaving the 9. So "9 fire, 0 decline" means
+it('the Targum population’s 0 declines is partly definitional — 77 of 86 fall outside it', async () => {
+	// `isTargumMember` alone selects 86; requiring a preceding Targum
+	// anchor excludes 77, leaving the 9. So "9 fire, 0 decline" means
 	// every member of a Targum-context row is repairable, NOT that the
 	// walk never refuses — the commonest refusal is outside the census
 	// by construction. Pinned so the framing cannot drift from it.
@@ -1344,6 +1357,10 @@ it('the Targum population’s 0 declines is partly definitional — 76 of 85 fal
 			}
 		}
 	}
-	expect(members).toBe(85);
+	// 85 until the apostrophe fix (2026-08-24). The 86th is U02038,
+	// whose anchor `data-ref="Tosefta Shevi'it 2:5"` was unreadable
+	// under the old value class; it joins the outside-the-census side,
+	// so `withTargum` does not move and the framing is unaffected.
+	expect(members).toBe(86);
 	expect(withTargum).toBe(9);
 });

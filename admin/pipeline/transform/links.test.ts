@@ -196,33 +196,39 @@ it('an anchor missing its closing tag is unclosed and refused', () => {
 	).toThrow();
 });
 
-/** A00016's shape, verbatim: both attributes are present, and neither
- * PARSES, because `ATTR`'s value class excludes the apostrophe in
- * `Tosefta Ma'asrot 1:4`. 452 anchors across 417 entries are in this
- * state (measured 2026-08-24). The anchor reads as usable, so nothing
- * upstream refuses it; `retarget` has to. */
+/** A00016's shape, verbatim. Both attributes are present, and until
+ * 2026-08-24 neither PARSED, because `ATTR`'s value class excluded the
+ * apostrophe in `Tosefta Ma'asrot 1:4` — 452 anchors across 417 entries
+ * were in that state. The lazy value class reads them, and
+ * `links.corpus.test.ts` pins that the widening only ever ADDS. */
 const APOSTROPHE =
 	'<a class="refLink" href="/Tosefta_Ma\'asrot.1.4" ' +
 	'data-ref="Tosefta Ma\'asrot 1:4">Tosef. Maasr. I, 4</a>';
 
-it('an apostrophe in the value defeats the attribute parser', () => {
+it('an apostrophe in the value parses', () => {
 	const anchor = first(anchors(tokenize(APOSTROPHE)));
 	expect(anchor.malformed).toBe(false);
 	expect(anchor.close).not.toBe(-1);
 	expect(anchor.display).toBe('Tosef. Maasr. I, 4');
-	// The defect, pinned rather than asserted as correct: both values
-	// come back empty although the tag carries both attributes.
-	expect(anchor.href).toBe('');
-	expect(anchor.dataRef).toBe('');
+	expect(anchor.href).toBe("/Tosefta_Ma'asrot.1.4");
+	expect(anchor.dataRef).toBe("Tosefta Ma'asrot 1:4");
 });
 
-it('retarget refuses an anchor whose attributes do not parse', () => {
+it('an apostrophe anchor is retargetable, and still unlinkable', () => {
 	const tokens = tokenize(APOSTROPHE);
 	const anchor = first(anchors(tokens));
-	expect(() => retarget(tokens, anchor, { dataRef: 'x', href: '/x' })).toThrow(
-		'links: refusing to retarget an anchor whose href does not parse',
+	const out = serialize(
+		retarget(tokens, anchor, {
+			dataRef: "Tosefta Ma'asrot 1:5",
+			href: "/Tosefta_Ma'asrot.1.5",
+		}),
 	);
-	// unlink needs neither attribute, so it stays available.
+	// The splice replaces the VALUE and nothing else: `class` and
+	// attribute order survive, and the apostrophe is written back.
+	expect(out).toBe(
+		'<a class="refLink" href="/Tosefta_Ma\'asrot.1.5" ' +
+			'data-ref="Tosefta Ma\'asrot 1:5">Tosef. Maasr. I, 4</a>',
+	);
 	expect(serialize(unlink(tokens, anchor))).toBe('Tosef. Maasr. I, 4');
 });
 
@@ -234,4 +240,28 @@ it('retarget refuses an anchor carrying href alone', () => {
 	expect(() => retarget(tokens, anchor, { dataRef: 'x', href: '/x' })).toThrow(
 		'links: refusing to retarget an anchor whose data-ref does not parse',
 	);
+});
+
+/** The widening cannot newly succeed on damaged markup. The tokenizer
+ * cuts DAMAGED's opening tag AT the swallowed `</a>`, so the tag it
+ * hands this module ends mid-value with no closing quote:
+ * `<a dir="rtl" href="/Jastrow,_כָּלוּל.1</a>`. Neither the old value
+ * class nor the new one can match an unterminated value, so both read
+ * nothing and `malformed` — which is what actually refuses this anchor
+ * — is reached by the same route. Pinned because "cannot newly
+ * succeed" is the claim, not the guess that it reads the same
+ * non-empty string. The corpus-wide counterpart is in
+ * `links.corpus.test.ts`. */
+it('the lazy class still reads a damaged tag exactly as before', () => {
+	const [tag] = tokenize(DAMAGED);
+	const tagValue = tag?.kind === 'tag' ? tag.value : '';
+	expect(
+		/\bhref\s*=\s*(?<q>["'])(?<value>[^"']*)\k<q>/u.exec(tagValue),
+	).toBeNull();
+	expect(
+		/\bhref\s*=\s*(?<q>["'])(?<value>[\s\S]*?)\k<q>/u.exec(tagValue),
+	).toBeNull();
+	const anchor = first(anchors(tokenize(DAMAGED)));
+	expect(anchor.href).toBe('');
+	expect(anchor.malformed).toBe(true);
 });
