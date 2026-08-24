@@ -525,6 +525,14 @@ opposite reason from the one it guessed: not because the `data-ref` is
 right, but because the display is right and the corpus has no
 addressable place to send it.
 
+> **Superseded, 2026-08-24.** 11 / 1,256 was the arithmetic with only
+> this row withdrawn, which is what was true when the paragraph was
+> written. `h-cognate-self-link` withdrew afterwards, so batch 2
+> landed **10 rows / 1,166 catalogued instances** (1,131 occurrences
+> repaired) — see `docs/v2/transform-batch-2.md`. Kept rather than
+> silently corrected because this file is a dated audit record; the
+> reasoning above is unaffected, only the total moved.
+
 ## 10. Delta — revision of 2026-08-24, after review
 
 The review re-derived the population independently, drew 20 members by a

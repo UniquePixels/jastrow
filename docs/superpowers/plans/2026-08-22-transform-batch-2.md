@@ -1521,8 +1521,21 @@ row true, and leave the docs matching what shipped.
       round-trip gates, 0 schema failures, 0 quarantines, 0 repair
       failures, 0 transform failures
 - [ ] Every row this batch touched has a true `reason` and a
-      `corpusCount` the rule reproduces; every reclassified row has its
-      `route` changed and is out of `PENDING`
+      `corpusCount` whose UNIT is stated, whose population corrections
+      are written back, and whose declines are documented where the
+      rule fires on fewer than it counts; every reclassified row has
+      its `route` changed and is out of `PENDING`
+      <br>*(Amended 2026-08-24, after review. It read "a `corpusCount`
+      the rule reproduces", which two shipped rows do not literally
+      satisfy and should not be made to: `ib-yoma-2a` keeps
+      `corpusCount: 312` as an OCCURRENCE count while firing on 188
+      entries, and `sifre-ib-resolves-to-yalkut` has six population
+      members with one fire and five reasoned declines. Forcing the
+      counts to match would mean either loosening a predicate to hit a
+      number — the failure this batch names in Task 3 — or deleting a
+      real population. What the batch actually did, and what the next
+      one should be held to, is documenting the unit and the
+      declines.)*
 - [ ] The module spec's §7 table records batch 2 as shipped, with the
       deferred rows named
 - [ ] `docs/v2/phase-2-triage.md`'s queue tables and totals match the
