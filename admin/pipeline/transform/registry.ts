@@ -176,7 +176,14 @@ const PENDING: readonly string[] = [
 	'nonsense-dup-anchor',
 	'unlinked-v-span',
 	'paren-tag-no-space',
-	'homograph-numeral-mismatch',
+	// `homograph-numeral-mismatch` left this list in batch 2 Task 9:
+	// audited to `judgment` in `patterns.jsonl`. Its 576 occurrences /
+	// 538 entries are three merged defects, the display (Jastrow's print
+	// numeral) is the authoritative side — so batch 3 does not own it
+	// either — and no rule can name the destination: 40.1% of the
+	// population already points where print says, the only family model
+	// available scores 87.5% on 3,253 known-correct controls, and gate
+	// case 2 reaches the replacement for 3.5% of the candidate defects.
 	'anchor-swallows-close-paren',
 	'nested-anchor-swallows-punctuation',
 	'targum-sheni-never-linked',

@@ -34,10 +34,10 @@ describe('registry coverage', () => {
 		expect(PENDING.filter((id) => registered.has(id))).toEqual([]);
 	});
 
-	// 79, not the 80 this asserted after batch 1, nor the 81 it asserted
-	// during it. Two withdrawals, each for its own reason, and the pair is
-	// the point: a row leaves `transform` when the audit says so, and the
-	// number here is a ledger of that, not a target.
+	// 78, not the 80 this asserted after batch 1, nor the 81 it asserted
+	// during it. Three withdrawals, each for its own reason, and the set
+	// is the point: a row leaves `transform` when the audit says so, and
+	// the number here is a ledger of that, not a target.
 	//
 	// - `abbrev-in-alt-headwords`, 2026-08-22 (spec §5.2): expanding a
 	//   geresh stub needs the headword's remaining vowels to carry over to
@@ -52,8 +52,19 @@ describe('registry coverage', () => {
 	//   the row is 3.2% of a corpus-wide habit carved out by a field
 	//   boundary. There was no defect to remove. See
 	//   data/patches/catalogue-audit/h-cognate-self-link.md.
-	it('the catalogue still holds 79 transform rows', () => {
-		expect(coverage(catalogue).total).toBe(79);
+	// - `homograph-numeral-mismatch`, batch 2 Task 9: there IS a defect —
+	//   the display carries Jastrow's print numeral and is the
+	//   authoritative side in 26 of 40 members read — but no rule can
+	//   name where the link should go instead. 40.1% of the 576
+	//   occurrences already point at the member print names, the only
+	//   destination model available reproduces just 87.5% of 3,253
+	//   KNOWN-CORRECT links, and gate case 2 can source the replacement
+	//   for 3.5% of the candidate defects. It failed on the DESTINATION,
+	//   where the two above failed on inference and on there being no
+	//   defect at all. See
+	//   data/patches/catalogue-audit/homograph-numeral-mismatch.md.
+	it('the catalogue still holds 78 transform rows', () => {
+		expect(coverage(catalogue).total).toBe(78);
 	});
 
 	it('pending ids all exist in the catalogue', () => {
