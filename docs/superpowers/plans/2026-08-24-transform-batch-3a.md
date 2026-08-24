@@ -3,7 +3,7 @@
 > **For agentic workers:** REQUIRED SUB-SKILL: Use superpowers-extended-cc:subagent-driven-development (recommended) or superpowers-extended-cc:executing-plans to implement this plan task-by-task. Steps use checkbox (`- [ ]`) syntax for tracking.
 
 **Goal:** Replace the ASCII `"` standing in for a gershayim with `״`
-across every surviving field and inside link attributes — 2,302
+across every surviving field and inside link attributes — 2,305
 occurrences in 1,392 entries — in one pass, so that the 90 broken link
 targets and the headwords they point at move together.
 
@@ -32,8 +32,15 @@ dependencies.
 - `Rule.apply` treats `entry` as immutable and returns a NEW object.
   `count.ts` deep-freezes the corpus; an in-place mutator throws.
 - Hebrew is `html.ts`'s exported `HEBREW` class, never a pasted
-  literal range. Measured equal to `[U+0590-U+05FF]` on this corpus at
-  2,302, so this is a correctness convention, not a count change.
+  literal range. Measured equal to `[U+0590-U+05FF]` on this corpus, so
+  this is a correctness convention, not a count change.
+- **The predicate is lookaround with the combining mark tolerated in
+  the lookbehind.** A consuming `[HEBREW]"[HEBREW]` leaves three
+  occurrences unrepaired (it skips the second quote of `X"Y"Z`); a bare
+  `(?<=[HEBREW])` lookbehind leaves one (a letter carrying U+0307).
+  In scope: 2,302 consuming, 2,304 bare lookaround, **2,305 correct**.
+- **Nothing keys on `dir="rtl"`.** Two of the 90 damaged anchors
+  (`B00752`, `C01225`) carry no `dir` attribute at all.
 - `refs[]` is OUT of scope (body model spec §5, B7 — dropped at
   compile). No task touches it.
 - Fixtures are real entries cited by rid. A hand-written string that
@@ -47,8 +54,9 @@ dependencies.
 - "Split 3a / 3b" — the gershayim family ships first and alone; the
   italic and punctuation seam rows keep the batch number and get their
   own spec.
-- "Decline; glyph only" — the 49 displaced and 34 undetermined
-  occurrences are glyph-corrected in place and never repositioned.
+- "Decline; glyph only" — the displaced and undetermined occurrences
+  (55 + 45 = 100, measured in Task 0) are glyph-corrected in place and
+  never repositioned.
   Moving a mark to match a corpus-dominant twin is inference, which
   the no-vowel-inference ruling forbids.
 
@@ -80,6 +88,20 @@ Two test files for the rules, split the way `links.test.ts` /
 ---
 
 ### Task 0: Reconcile the count and pin the population
+
+> **RESOLVED 2026-08-24 — commit `349b79f`. Read this box before the
+> section below it.** The reconciliation closed with zero residual, and
+> both prior readings were low: the true population is **2,326
+> corpus-wide / 2,305 in scope / 1,392 entries**. The section's own
+> figures (2,302; 2,122 text; 49 + 34) are the *pre-reconciliation*
+> numbers and are kept as the record of what was asked, not as values
+> to use. Later tasks use 2,305 / 2,125 / 55 + 45.
+>
+> Two of its findings changed later tasks and are now in Global
+> Constraints: the predicate must be lookaround with the combining mark
+> tolerated, and nothing may key on `dir="rtl"`. Its hypothesis for the
+> 172/180 gap was also wrong — the real cause is that the audit's probe
+> never recursed into nested sub-senses, so it saw 86 anchors of 90.
 
 **Goal:** Settle the 6-occurrence gap between this plan's 2,302 and
 the audit's 2,317 before any rule is written, and record the locus
@@ -494,6 +516,8 @@ Hebrew-flanked ASCII quote in their own locus and nothing else.
 - [ ] Both declare `allows: ['״']` with the ruling cited in a comment
 - [ ] Records carry the rid, the rule id, and a detail naming the repaired token
 - [ ] An entry with no match returns the SAME object reference
+- [ ] `B00752` and `C01225` are repaired — both are damaged anchors carrying no `dir` attribute, so a predicate keyed to RTL context would silently skip them
+- [ ] `A00253`, `U01408` (adjacent quotes in one token) and `M01940` (a Hebrew letter carrying U+0307 before the quote) are each repaired — the three occurrences a weaker predicate loses
 
 **Verify:** `bun test admin/pipeline/transform/gershayim.test.ts admin/pipeline/transform/rules/gershayim.test.ts` → all pass
 
@@ -564,7 +588,7 @@ Expected: FAIL — module not found.
  * corpus writes an ASCII `"`. The predicate is that quote with a
  * Hebrew letter on BOTH sides, which is what makes it selective
  * enough to be safe: the walked fields hold 1,310,492 ASCII quotes
- * and 2,302 of them are this defect. Almost every other one is an
+ * and 2,305 of them are this defect. Almost every other one is an
  * attribute delimiter, and a rule that reached for `"` without this
  * test would rewrite the corpus's markup wholesale — invisibly, since
  * the text gate strips tags before comparing and the markup gate
@@ -588,7 +612,7 @@ import { HEBREW } from './html.ts';
 const GERSHAYIM = '״';
 /** A `"` with a Hebrew letter either side. Lookahead rather than a
  * consuming group so adjacent occurrences in one token both match. */
-const FLANKED = new RegExp(`(?<=[${HEBREW}])"(?=[${HEBREW}])`, 'gu');
+const FLANKED = new RegExp(`(?<=[${HEBREW}]\\u0307*)"(?=[${HEBREW}])`, 'gu');
 const TAG = /<[^<>]*>/gu;
 
 /** Replace every flanked quote in `value`. */
@@ -717,7 +741,7 @@ build records as you go:
  *
  * Neither rule moves a mark. 49 occurrences sit in a minority slot
  * with a dominant twin elsewhere in the corpus and 34 more are
- * undetermined; all 83 are glyph-corrected in place and recorded in
+ * undetermined; all 100 are glyph-corrected in place and recorded in
  * the audit's decline register, because sourcing a repair from a
  * different token is the inference the no-vowel-inference ruling
  * forbids.
@@ -967,7 +991,7 @@ voice:
 
 ```ts
 	// The gershayim pair (batch 3a). ONE defect, two catalogue rows,
-	// split by locus: `gershayimInBody` takes the 2,122 occurrences in
+	// split by locus: `gershayimInBody` takes the 2,125 occurrences in
 	// document text, `gershayimRefAttribute` the 180 inside tag
 	// interiors. Adjacent by requirement — every one of the 90 damaged
 	// tags points at a headword carrying the same ASCII quote (90 of
@@ -1026,7 +1050,7 @@ exactly 90 link targets start resolving and none stop.
 - [ ] Every target that resolved before still resolves after — 0 regressions
 - [ ] The count of resolving targets rises by exactly 90
 - [ ] The 90 that newly resolve are the 90 damaged tags, matched by rid, not merely 90 of something
-- [ ] The corpus holds 0 occurrences of `״` before the pass and exactly 2,302 after
+- [ ] The corpus holds 0 occurrences of `״` before the pass and exactly 2,305 after
 - [ ] The 90 damaged tags are checked against every already-registered rule's population, and the finding is recorded either way
 
 **Verify:** `bun test admin/pipeline/transform/rules/gershayim.corpus.test.ts` → all pass
@@ -1067,7 +1091,7 @@ than of the test.
 - [ ] **Step 2: Assert the gershayim census**
 
 ```ts
-test('the corpus gains exactly 2,302 gershayim and had none', () => {
+test('the corpus gains exactly 2,305 gershayim and had none', () => {
 	let before = 0;
 	let after = 0;
 	for (const source of corpus()) {
@@ -1075,12 +1099,12 @@ test('the corpus gains exactly 2,302 gershayim and had none', () => {
 		after += count(gershayimRefAttribute.apply(gershayimInBody.apply(source).entry).entry, GERSHAYIM);
 	}
 	expect(before).toBe(0);
-	expect(after).toBe(2302);
+	expect(after).toBe(2305);
 });
 ```
 
 `count` serializes every field `fieldsOf` walks and counts the
-codepoint. If `after` is not 2,302, do not adjust the expectation —
+codepoint. If `after` is not 2,305, do not adjust the expectation —
 find out why, and record the finding.
 
 - [ ] **Step 3: Check the truncated targets against the shipped rules**

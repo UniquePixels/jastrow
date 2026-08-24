@@ -15,7 +15,7 @@ into two families that repair different kinds of damage:
 
 | Family | Rows | Instances | What is wrong |
 |---|---:|---:|---|
-| **Gershayim (3a, this spec)** | 2 | 2,302 | a wrong CHARACTER in text and in link targets |
+| **Gershayim (3a, this spec)** | 2 | 2,305 | a wrong CHARACTER in text and in link targets |
 | Italic & punctuation seams (3b) | ~15 | ~2,600 | markup boundaries around correct characters |
 
 **Ruling (2026-08-24): batch 3 splits into 3a and 3b, and 3a ships
@@ -63,34 +63,82 @@ Reproduce on the pinned snapshot
 (`data/patches/snapshot.lock`, sha256 `4c64ff03…`):
 
 ```bash
-bun -e 'const Q=String.fromCharCode(34), P=new RegExp("[֐-׿]"+Q+"[֐-׿]","gu");
-const t=new Map(), rids=new Set(); let all=0;
-const add=(k,s,rid)=>{ if(typeof s!=="string")return; all+=s.split(Q).length-1; const n=[...s.matchAll(P)].length; if(!n)return; t.set(k,(t.get(k)??0)+n); rids.add(rid); };
+bun -e 'const {HEBREW}=await import("./admin/pipeline/transform/html.ts");
+const Q=String.fromCharCode(34), P=new RegExp("(?<=["+HEBREW+"]\\u0307*)"+Q+"(?=["+HEBREW+"])","gu"), TAG=/<[^<>]*>/gu;
+const t=new Map(), rids=new Set(), tE=new Set(), gE=new Set(), tags=new Set(); let tO=0,gO=0;
+const add=(k,s,rid,scoped=true)=>{ if(typeof s!=="string")return; const mask=new Array(s.length).fill(false);
+  for(const m of s.matchAll(TAG))for(let i=m.index;i<m.index+m[0].length;i++)mask[i]=true;
+  for(const m of s.matchAll(P)){ t.set(k,(t.get(k)??0)+1); rids.add(rid); if(!scoped)continue;
+    if(mask[m.index]){gO++;gE.add(rid); const g=[...s.matchAll(TAG)].find(x=>m.index>=x.index&&m.index<x.index+x[0].length); tags.add(rid+"|"+g.index)} else {tO++;tE.add(rid)} } };
 for(const l of (await Bun.file("data/source/jastrow-dictionary.jsonl").text()).split("\n").filter(Boolean)){ const e=JSON.parse(l);
   add("headword",e.headword,e.rid); for(const a of e.alt_headwords??[])add("alt_headwords",a,e.rid);
-  for(const p of e.plural_form??[])add("plural_form",p,e.rid); for(const r of e.refs??[])add("refs[] (out, B7)",String(r),e.rid);
-  const w=(s)=>{ if(!s)return; add("senses[].definition",s.definition,e.rid); add("senses[].number",s.number,e.rid); for(const n of s.senses??[])w(n); };
+  for(const p of e.plural_form??[])add("plural_form",p,e.rid); for(const r of e.refs??[])add("refs[] (out, B7)",String(r),e.rid,false);
+  const w=(s)=>{ if(!s)return; add("senses[].definition",s.definition,e.rid); add("senses[].number",s.number,e.rid); for(const n of s.senses??[])w(n) };
   for(const s of e.content?.senses??[])w(s); add("content.morphology",e.content?.morphology,e.rid);
+  add("language_code",e.language_code,e.rid); add("language_reference",e.language_reference,e.rid);
   for(const q of e.quotes??[])for(const p of q??[])add("quotes[]",p,e.rid); }
-console.log("ASCII quotes, all fields:",all); console.log("Hebrew-flanked:",[...t.values()].reduce((a,b)=>a+b,0),"in",rids.size,"entries");
+console.log("corpus-wide",[...t.values()].reduce((a,b)=>a+b,0),"in",rids.size,"entries | in scope",tO+gO);
+console.log("text",tO,"/",tE.size,"entries | tag",gO,"/",gE.size,"entries in",tags.size,"tags");
 for(const [k,v] of [...t].sort((a,b)=>b[1]-a[1]))console.log(" ",String(v).padStart(5),k);'
+```
+
+Output:
+
+```
+corpus-wide 2326 in 1392 entries | in scope 2305
+text 2125 / 1386 entries | tag 180 / 85 entries in 90 tags
+   2205 senses[].definition
+     69 headword
+     21 refs[] (out, B7)
+     19 alt_headwords
+      8 plural_form
+      4 quotes[]
 ```
 
 | Field | Occurrences | In scope |
 |---|---:|---|
-| `senses[].definition` | 2,202 | yes — includes the 90 inside tag attributes |
+| `senses[].definition` | 2,205 | yes — includes the 180 inside tag attributes |
 | `headword` | 69 | yes |
 | `refs[]` | 21 | **no** — see below |
 | `alt_headwords` | 19 | yes |
 | `plural_form` | 8 | yes |
 | `quotes[]` | 4 | yes |
-| **Total** | **2,323 / 1,392 entries** | **2,302 in scope** |
+| **Total** | **2,326 / 1,392 entries** | **2,305 in scope** |
 
-The entry count reproduces the audit's 1,392 exactly. The occurrence
-count is 6 above the audit's 2,317; the implementation reconciles that
-difference before the rule is written, and records which reading is
-right. It is most likely a Hebrew-block boundary difference, but a
-likely explanation is not a measurement.
+The entry count reproduces the audit's 1,392 exactly. **The occurrence
+count is settled, and both earlier readings were low** — the audit's
+2,317 by 9, and this spec's own first figure of 2,323 by 3. The
+reconciliation was Task 0 of the implementation plan and closed with
+zero residual; the working is in the audit file under "Reconciliation,
+2026-08-24".
+
+Two counting traps produced the three, and both are traps a rule can
+fall into as easily as a probe:
+
+- **A consuming pattern skips alternate quotes.** `[HEBREW]"[HEBREW]`
+  with the `g` flag matches `X"Y` in `X"Y"Z` and resumes past `Y`, so
+  the second quote is never examined. Two occurrences (A00253,
+  U01408) hide there. A lookaround predicate — zero-width on both
+  sides, consuming only the quote — finds them.
+- **A Hebrew letter may carry a combining mark before the quote.** One
+  occurrence (M01940) puts U+0307 between the letter and the `"`, so a
+  bare `(?<=[HEBREW])` lookbehind misses it. The lookbehind must
+  tolerate the mark, exactly as `html.ts`'s `HEBREW_ATOM` does.
+
+Measured on the three readings, in scope: 2,302 consuming, 2,304
+lookaround, **2,305 atom-aware**. The third is correct and is the
+figure every later section uses. **The counting bug and the rewriting
+bug are the same bug**: a rule built on the consuming pattern would
+leave three occurrences uncorrected while reporting success.
+
+The audit's own 2,317 has a separate and now-known cause: its
+attribute probe recursed only into top-level `senses[].definition` and
+never entered nested sub-senses, seeing 86 anchors where the corpus
+holds 90. 86 × 2 attributes = 172, which is exactly the figure it
+published. Its 172 was internally consistent and measured on an
+incomplete walk — the failure mode this project keeps meeting, and the
+reason §5 gates on a corpus census rather than on agreement between
+two documents.
 
 **`refs[]` is out of scope by ruling, not by neglect.** The body model
 spec drops it: *"`refs` | **Dropped — derived at compile** (§5) | B7"*
@@ -102,7 +150,7 @@ field that does not survive compile would be work with no output.
 
 ### Scale, and why the predicate carries the safety burden
 
-The in-scope fields hold **1,310,492** ASCII quotes. All but 2,323 are
+The in-scope fields hold **1,310,492** ASCII quotes. All but 2,305 are
 HTML attribute delimiters or ordinary punctuation. A rule that reached
 for `"` without the Hebrew-flanked test would rewrite the corpus's
 markup wholesale. Nothing downstream would catch it: the text gate
@@ -173,9 +221,9 @@ Each row owns one locus, and the two partition the population exactly:
 
 | Locus | Occurrences | Entries | Row |
 |---|---:|---:|---|
-| Document text | 2,122 | 1,386 | `ascii-quote-as-gershayim-in-body` |
+| Document text | 2,125 | 1,386 | `ascii-quote-as-gershayim-in-body` |
 | Tag interior | 180 | 85 | `gershayim-breaks-ref-attribute` |
-| **Total** | **2,302** | **1,392 union** | |
+| **Total** | **2,305** | **1,392 union** | |
 
 79 entries carry both loci; 6 carry only the tag locus. The catalogued
 85 for the attribute row is exact. The catalogued 1,290 for the text
@@ -208,7 +256,20 @@ dissolves the audit's ordering rider:
 > 117, they migrate into this row's scope."
 
 Wrapped or bare, the codepoints are identical, so the predicate sees
-the same 2,302 either way.
+the same 2,305 either way.
+
+**And it must stay independent of `dir="rtl"`, which is not a
+free choice.** Two of the 90 damaged anchors — `B00752` and `C01225` —
+carry no `dir="rtl"` at all, so a predicate keyed to RTL context would
+silently leave two broken link targets in place and still report a
+clean run. The predicate reads codepoints only, and a unit test pins
+both rids so a later "optimisation" that scopes the walk to RTL runs
+fails a test rather than losing two repairs.
+
+The predicate must also be written as **lookaround, with the
+combining mark tolerated in the lookbehind** — `(?<=[HEBREW]̇*)"(?=[HEBREW])`.
+§2 measures what the alternatives cost: a consuming pattern leaves
+three occurrences unrepaired, a bare lookbehind leaves one.
 
 ### 4.2 Registry placement
 
@@ -279,10 +340,17 @@ a locus, and cannot recover an address the input did not spell out.
 
 ### 4.4 What the rule will not do
 
-Glyph only, never slot. The audit found 49 occurrences whose mark sits
-in a minority position (`הק"בה` 15 against `הקב"ה` 194) and 34 more
-undetermined. The rule corrects the character in place and leaves the
-position alone.
+Glyph only, never slot. Some occurrences carry the mark in a minority
+position (`הק"בה` 15 against `הקב"ה` 194); the rule corrects the
+character in place and leaves the position alone.
+
+**The register is 55 displaced and 45 undetermined — 100, not the 83
+this spec first carried.** The audit's 49 / 34 was measured on a
+narrower population than this batch repairs: applying its own slot
+criterion to `dir="rtl"`-wrapped definition text reproduces 49 / 34 /
+1,820 exactly, which is how Task 0 identified what that scope had
+been. Over the full in-scope text locus the same criterion returns
+55 / 45. Both sets are listed by rid in the audit file.
 
 Moving the mark would source the repair from a *different token
 elsewhere in the corpus*, which is the inference shape the
@@ -291,7 +359,7 @@ threshold, and it would silently rewrite `עכ"ום`, which the audit flags
 as possibly a genuine censorship-era variant rather than a defect —
 `A00692` is one of the 90 broken attributes, so the two questions meet.
 
-The 83 are recorded as residue in
+The 100 are recorded as residue in
 `data/patches/catalogue-audit/ascii-quote-as-gershayim-in-body.md` for
 the post-launch judgment pass, with a `reason` written back to both
 catalogue rows per §6 of the module spec.
@@ -327,12 +395,17 @@ and that is the point of stating it in advance.
 Per module spec §6, every catalogue row this batch touches gets a
 `reason` recorded whether or not a rule ships:
 
-- `ascii-quote-as-gershayim-in-body` — count reconciled (2,317 vs the
-  2,323 measured here), `refs[]` scoped out under B7, the 83
+- `ascii-quote-as-gershayim-in-body` — count reconciled to 2,305 in
+  scope / 2,326 corpus-wide (the audit's 2,317 and this spec's first
+  2,323 were both low; §2), `refs[]` scoped out under B7, the 100
   slot-residue occurrences recorded.
 - `gershayim-breaks-ref-attribute` — the 90/90 cross-link result, and
   the note that it is not an independent row but the attribute face of
-  its sibling.
+  its sibling. Its unit is stated explicitly: **90 anchors, 180
+  occurrences, 85 entries.** The catalogued 85 is correct as an entry
+  count and was reached by a walk that saw only 86 of the 90 anchors
+  (§2), so the row is right for the wrong reason until this reason is
+  written.
 
 No withdrawal to `judgment` is expected. If the count reconciliation
 turns up a population that is not the described defect, §6's mechanism
@@ -355,7 +428,7 @@ applies as it did for `h-cognate-self-link` in batch 2.
 | 2026-08-24 | Batch 3 splits: 3a gershayim (this spec) ships before 3b italic & punctuation seams |
 | 2026-08-24 | Gershayim widens to all surviving fields rather than body text alone; `refs[]` excluded under B7 |
 | 2026-08-24 | `gershayim-breaks-ref-attribute` joins 3a; the two rows are one defect (90/90) |
-| 2026-08-24 | Glyph only, never slot; the 83 displaced-or-undetermined occurrences are recorded residue |
+| 2026-08-24 | Glyph only, never slot; the 100 displaced-or-undetermined occurrences (55 + 45) are recorded residue |
 | 2026-08-24 | Link-target gate gains case 5, glyph correction, rather than exempting the rule |
 | 2026-08-24 | Case 5 is stated on raw opening-tag bytes, not on parsed targets — the 90 damaged anchors parse well-formed with truncated targets (amended during planning) |
 | 2026-08-24 | Two `Rule` objects over one shared predicate, partitioned by locus, so each catalogue row keeps its own id and its own count |
