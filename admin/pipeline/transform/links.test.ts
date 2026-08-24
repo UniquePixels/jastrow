@@ -48,6 +48,17 @@ it('retarget rewrites both attributes and nothing else', () => {
 });
 
 /**
+ * A00527 sense 2, verbatim: three well-formed sibling anchors in one
+ * definition. The multi-anchor fixture the length-invariance test
+ * below needs — `GRAETZ` carries exactly one, so a claim about index
+ * stability "across several anchors" cannot be made against it.
+ */
+const THREE_ANCHORS =
+	'<i>river.</i> <a class="refLink" href="/Daniel.8.2" data-ref="Daniel 8:2">Dan. VIII, 2</a>; ' +
+	'<a class="refLink" href="/Daniel.8.3" data-ref="Daniel 8:3">3</a>; ' +
+	'<a class="refLink" href="/Daniel.8.6" data-ref="Daniel 8:6">6</a>.';
+
+/**
  * `retarget` is LENGTH-PRESERVING, and that is load-bearing rather
  * than incidental. `anaphora.ts`'s `retargetAnaphora` holds indices
  * from the ORIGINAL token array while accumulating edits into a
@@ -55,24 +66,40 @@ it('retarget rewrites both attributes and nothing else', () => {
  * anchor on both sides. The removing counterpart of that assumption is
  * exactly what produced the `unlinkMatching` bug (fixed in 6b45ec8),
  * so the invariant is pinned here rather than left to `map`'s
- * signature — including across repeated edits and on a definition
- * carrying several anchors.
+ * signature.
+ *
+ * Pinned on THREE anchors in one definition, and over two passes each,
+ * because one anchor edited twice cannot detect the failure that
+ * matters: a length change shifts every LATER anchor's index, so the
+ * test needs a later anchor to shift. (The first cut of this test used
+ * the single-anchor `GRAETZ` while its docstring claimed "a definition
+ * carrying several anchors" — a claim the code did not support, caught
+ * in re-review 2026-08-24. This batch spent two days on exactly that
+ * defect class; the fixture was changed rather than the sentence.)
  */
-it('retarget never changes the token count, however many times it runs', () => {
-	const tokens = tokenize(GRAETZ);
+it('retarget never changes the token count or shifts a sibling anchor', () => {
+	const tokens = tokenize(THREE_ANCHORS);
 	const list = anchors(tokens);
+	expect(list).toHaveLength(3);
+	const places = list.map((anchor) => [anchor.open, anchor.close]);
 	let next: readonly Token[] = tokens;
 	for (const [round, anchor] of [...list, ...list].entries()) {
 		next = retarget(next, anchor, {
-			dataRef: `Judges 2:${round + 3}`,
-			href: `/Judges.2.${round + 3}`,
+			dataRef: `Daniel 8:${round + 10}`,
+			href: `/Daniel.8.${round + 10}`,
 		});
 		expect(next).toHaveLength(tokens.length);
-		// And the anchor indices still address the same tags.
-		expect(anchors(next).map((a) => [a.open, a.close])).toEqual(
-			list.map((a) => [a.open, a.close]),
-		);
+		// Every anchor — including the ones AFTER the edited tag — is
+		// still at the index the original scan gave it.
+		expect(anchors(next).map((a) => [a.open, a.close])).toEqual(places);
 	}
+	// Each of the three ended on its own second-pass value, so all three
+	// were genuinely addressed rather than one being hit six times.
+	expect(anchors(next).map((a) => a.dataRef)).toEqual([
+		'Daniel 8:13',
+		'Daniel 8:14',
+		'Daniel 8:15',
+	]);
 });
 
 /** D00478's shape: an unterminated href swallows the closing tag, so
