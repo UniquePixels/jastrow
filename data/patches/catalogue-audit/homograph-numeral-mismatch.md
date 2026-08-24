@@ -120,12 +120,19 @@ destinations, and two of them are mostly not defects.
 **Which side names an entry that actually exists?**
 
 ```ts
-// exact headword string, no normalisation
+// display/headword compared after collapsing internal whitespace:
+//   norm = (s) => s.replace(/\s+/gu, ' ').trim()
 targetIsExistingHeadword  = 576 / 576   (100%)
 displayNamesExistingEntry =  40 / 576   (6.9%,  exact pointing)
                           =  61 / 576   (10.6%, points stripped)
                           =  68 / 576   (11.8%, consonant skeleton + numeral value)
 ```
+
+**The 40 is the whitespace-normalised reading; the raw-string reading is
+39.** The one member between them is B00211's `בַּד V` against B00098's
+headword `"בַּד  V"` — the double-space defect of §8, which is exactly
+the kind of member the comparison should not lose. Both readings are
+stated wherever this figure is used below.
 
 The exact-pointing figure reproduces round 1's own one-line summary of
 this row — *"537 of 576 name a numeral that is no headword"* — to within
@@ -240,12 +247,37 @@ destination rule is "the display's numeral names the Nth member of the
 target's family, in corpus order". Scored not on the row but on the
 **control population — the 3,253 anchors whose display numeral AGREES
 with the target's Roman numeral, i.e. the links this row's own predicate
-calls correct**, where the right answer is known:
+calls correct**, where the right answer is known. The model is code, not
+prose, because a prose model is not reproducible — a review
+re-implementing this paragraph from its previous description scored
+90.2% / 56.6% rather than the figures below, and the gap was in how the
+family key was built, so here is the key:
 
-| family grouping | predicts an entry | reproduces the known target |
-|---|---:|---:|
-| consonant skeleton | 3,197 / 3,253 | **1,808 (55.6%)** |
-| pointed headword base, numeral stripped | 3,030 / 3,253 | **2,847 (87.5%)** |
+```ts
+const POINTS = /[֑-ׇ]/gu;
+const NONLETTER = /[^א-ת]/gu;
+const BASE = /(?:\s+[IVX]+|\s*[¹²³⁴⁵])\s*$/u;          // numeral or superscript
+const skel = (s) => s.replace(POINTS, '').replace(NONLETTER, '');
+const base = (s) => s.replace(BASE, '').trim();        // POINTING KEPT
+
+// families are built over every headword in corpus order, then:
+const modelA = (lemma, n) => (famSkel.get(skel(lemma)) ?? [])[n - 1];
+const modelB = (lemma, n) => (famBase.get(base(lemma)) ?? [])[n - 1];
+// scored: prediction exists && prediction.rid === the anchor's current target
+```
+
+| family grouping | predicts an entry | reproduces the known target | of those predicted |
+|---|---:|---:|---:|
+| A, consonant skeleton | 3,197 / 3,253 | **1,808 — 55.6%** of 3,253 | 56.6% |
+| B, pointed base, numeral stripped | 3,030 / 3,253 | **2,847 — 87.5%** of 3,253 | 94.0% |
+
+Both denominators are given because both are defensible and the review
+used the second for model A: a rule that DECLINES when the model
+predicts nothing errs on 12.5% of the population (model B), while the
+model itself, asked only where it will answer, errs on 6.0%. **The
+conclusion is the same under every one of the four figures** — the best
+reading still misdirects one known-correct link in seventeen, and a
+retarget rule cannot tell which seventeenth it is.
 
 The better model is wrong once in eight on links that are already
 right. A retarget rule built on it would move roughly 40 of the 345
@@ -282,6 +314,36 @@ Tasks 5 and 6 both became unlink rules on a 28.3% reachability
 measurement. This is 3.5%. Under the maintainer ruling of 2026-08-23
 that would argue for unlinking — see §6 for why that is refused too.
 
+**(e) Gate case 3 declines all 576, and the reason is the sense
+number.** The acceptance criterion says case 2 **or 3**, and case 3 —
+work copied whole from an input target, locus assembled from the
+anchor's own display — is the natural path here, since the display
+spells the numeral the repair wants. It fails on a character the display
+never carries. Run through the gate's OWN `commonPrefix` and
+`absentFrom` (copied verbatim out of `link-target.ts`), over the most
+favourable compose available to every member — source is the anchor's
+own current target, only the numeral changes, the sense number is kept:
+
+```ts
+const senseNumber = /\s(\d+)$/u.exec(a.dataRef)?.[1] ?? '1';
+const proposed = `Jastrow, ${lemma.replace(ROM, '')} ${shown} ${senseNumber}`;
+const remainder = proposed.slice(commonPrefix(a.dataRef, proposed).length);
+absentFrom(remainder, a.display);            // → true for every member
+// → { members: 576, displayHasDigit: 0, composeWouldPass: 0 }
+```
+
+**0 of 576.** The remainder always ends in the sense number (`" 1"`),
+and **0 of 576 displays contain an ASCII digit at all** — Jastrow prints
+`בַּר I`, never `בַּר I 1`, because the sense number is Sefaria's
+addressing, not print's. So the remainder is never a sub-multiset of the
+display and case 3 reports a fabrication, correctly.
+
+Case 4 does not rescue it either: recombination would need a second
+input target contributing the suffix `"I 1"`, and the tightening of
+2026-08-24 requires that tail's discarded prefix to be a prefix of the
+head — `Jastrow, אָדָא ` is not a prefix of `Jastrow, בַּר IV 1`, so any
+such pairing is rejected on the work rather than licensed.
+
 ## 6. Falsifiers, and what was tried
 
 - **"The `data-ref` is right and the display is corrupt" (the batch-3
@@ -299,13 +361,16 @@ that would argue for unlinking — see §6 for why that is refused too.
   side's shape.
 - **"The display's numeral names a DIFFERENT existing entry, so the
   retarget has a determinable destination"** (the task's second check).
-  TRUE FOR A MINORITY, and the minority is not separable: 68 of 576 by
-  skeleton + numeral value, 92 of the 195-member `roman` arm if the
-  destination is built from the TARGET's base rather than the display's.
-  For the rest the member print names exists under a headword carrying
-  no Roman numeral (§3) or does not exist at all (B01327, G00471,
-  Q01327 in the sample), and telling those two apart needs the model in
-  §5(b), which is 87.5%.
+  TRUE FOR A MINORITY. **An earlier version of this audit said that
+  minority "is not separable"; that was wrong, and a reader could
+  disprove it in one query.** It conflated two different sets. The
+  skeleton+value 68 genuinely is unseparable — skeleton matching pools
+  distinct vocalizations. But **string identity is a different and
+  perfectly crisp test**, and §6a below measures it. What remains true
+  of everything OUTSIDE that subset: the member print names exists under
+  a headword carrying no Roman numeral (§3, §8) or does not exist at all
+  (B01327, G00471, Q01327 in the sample), and separating those two needs
+  the model in §5(b).
 - **"Unlink the `roman` arm"** — the sharpest surviving option, and it
   is declined rather than overlooked. The predicate is purely syntactic
   (display Roman ≠ target Roman, no model), it covers 195 occurrences /
@@ -328,6 +393,53 @@ that would argue for unlinking — see §6 for why that is refused too.
   The `sup` arm sits on the same superscript mechanism
   `homograph-numbering-schism` audited, and 7 of the 576 are self-links,
   the shape `h-cognate-self-link` withdrew on.
+
+## 6a. The one separable subset: display string IS a headword
+
+Measured after review, because §6's "not separable" claim did not
+survive contact with the obvious query:
+
+```ts
+// the display string, whitespace-collapsed, IS some entry's headword
+const norm = (s) => s.replace(/\s+/gu, ' ').trim();
+hwIndex.has(norm(anchor.display))
+// → 40 occurrences / 37 entries   (39 / 36 on raw strings, §3)
+```
+
+**40 occurrences / 37 entries, and all 40 sit in the `roman` arm.** The
+destination needs no model at all — it is the entry whose headword the
+display already spells. Two properties make it the crispest thing in
+this row:
+
+- **It is one systematic resolver shape. All 40 target a member
+  numbered IV** — `בַּר I`→`בַּר IV` (9), `עוֹנָה I`→`עוֹנָה IV` (7),
+  `אָדָא I`→`אָדָא IV` (3), `נִיר I`→`נִיר IV` (3), `קוּץ I`→`קוּץ IV`
+  (3), `דּוּרָא I`→`*דּוּרָא IV` (2), and eleven more families the same
+  way. Whatever the resolver did here, it landed on the family's
+  IV-numbered member; two of these fell into the review's independent
+  random draw and both read as clear defects.
+- **The destinations are substantial articles, not stubs.** Definition
+  length across the 40: min 19, median 633, max 2,845 characters; 1 of
+  40 is under 40 characters. The rejection argument offered in review —
+  that B01152 `בַּר I` "has an EMPTY definition", so these retargets
+  would point at stubs — **is refuted by the bytes**: B01152 carries
+  three senses and 1,901 characters. What looks empty is its first
+  sense, `[empty, open]` — Jastrow's bracketed gloss giving the root's
+  reconstructed MEANING ("empty, open"), which is the sense `בַּר I`
+  exists to record, not an absent field.
+
+**It is still not a batch-2 rule, and the reason is the gate: 0 of 40
+are reachable under case 2** — no member's host entry holds an anchor to
+the destination anywhere in its own input — and §5(e) shows case 3
+declines all 576 on the sense number. Zero of forty, not a low fraction:
+there is nothing to write.
+
+So the disposition is neither "reject" nor "write it": **hand it to Task
+11 as a candidate row**, `homograph-numeral-iv-default`, 40 occurrences
+/ 37 entries, destination determined by string identity, blocked only by
+provenance. It is the one part of this row a future batch could repair
+mechanically the moment the gate can source a target the corpus proves
+some other way. The route of the parent row does not change.
 
 ## 7. RECOMMENDED: split the row in three
 
@@ -352,9 +464,29 @@ count either way.
 **243 of the 345 candidate defects (70.4%) name a member whose corpus
 headword carries no Roman numeral at all** — there is nothing for a
 lookup of `<base> N` to match, which is why the resolver picked a
-sibling. Repairing the entry side and re-running the resolver therefore
-fixes a large share of this row with no anchor rule at all, and it is the
-cheaper order of work. Four shapes, with counts:
+sibling. This is the figure most likely to be acted on, so here is the
+predicate that produces it, and the other defensible reading of it:
+
+```ts
+// candidates = members whose print-named destination is not already the
+// current target (345). `p` is model C: the family member whose headword
+// carries the display's Roman numeral if one exists, else the positional
+// pick from the pointed-base family of §5(b).
+if (p !== undefined && p.rid === currentRid) continue;   // already correct
+cand++;
+if (p === undefined) { destUnknown++; continue; }        // 28
+if (!/\s[IVX]+$/u.test(p.hw)) unaddressable++;           // 243
+// → { cand: 345, destKnown: 317, unaddressable: 243 (70.4% of 345),
+//     unaddressable + destUnknown: 271 (78.6%) }
+```
+
+**243 of 345 (70.4%)** counts only destinations the model could name;
+folding in the 28 whose destination it could not name — which are
+unaddressable a fortiori — gives **271 of 345 (78.6%)**, which is the
+reading a review independently arrived at (as 273). Both say the same
+thing: the entry side, not the anchor side, is where most of this row
+comes from. A stricter variant that also excludes superscript-carrying
+destinations measures 223. Four shapes, with counts:
 
 | shape | count | status |
 |---|---:|---|
@@ -377,15 +509,54 @@ catalogued anywhere.
 - `registry.ts`: the id leaves `PENDING`; `coverage().total` goes 79 →
   78 and the assertion in `registry.test.ts` moves with it, as it did
   for `h-cognate-self-link`.
-- **For Task 11, two carried recommendations, neither acted on here:**
-  the three-way split of §7, and the three unrecorded entry-side shapes
-  of §8 (6 duplicate-numeral headwords, 6 headwords naming two print
-  members, 1 double-space headword) — which want rows of their own,
-  since 243 of the 345 candidate defects here exist because the member
-  print names is unaddressable.
+- **For Task 11, three carried recommendations, none acted on here:**
+  the three-way split of §7; the candidate row of §6a
+  (`homograph-numeral-iv-default`, 40 occurrences / 37 entries, all
+  targeting a IV-numbered member, destination determined by string
+  identity, blocked only by provenance); and the three unrecorded
+  entry-side shapes of §8 (6 duplicate-numeral headwords, 6 headwords
+  naming two print members, 1 double-space headword) — which want rows
+  of their own, since 243 of the 345 candidate defects here exist
+  because the member print names is unaddressable.
 
 Batch 2 therefore lands **11 rows / 1,256 instances** rather than 12 /
 1,794 — the outcome §6 of the design doc anticipated, reached for the
 opposite reason from the one it guessed: not because the `data-ref` is
 right, but because the display is right and the corpus has no
 addressable place to send it.
+
+## 10. Delta — revision of 2026-08-24, after review
+
+The review re-derived the population independently, drew 20 members by a
+hash-ordered draw with no reference to the sample in §4, and read each in
+context: **0 of 20 has a wrong display numeral**, roman-arm defect rate
+8 of 10. The inversion in the verdict block is therefore confirmed by a
+second, differently-drawn sample. Everything else reproduced to the
+digit. Five findings, all answered here:
+
+1. **§6's "not separable" was wrong** — string identity separates 40
+   occurrences / 37 entries cleanly. Corrected in §6, measured in the new
+   **§6a**, and handed to Task 11 as a candidate row rather than written:
+   the gate reaches 0 of 40. The rejection argument offered in review —
+   B01152 `בַּר I` having an empty definition — is refuted in §6a; the
+   rejection stands on the gate instead.
+2. **Gate case 3 was never measured**, though the acceptance criterion
+   said "case 2 or 3". Now **§5(e)**, run through the gate's own
+   `commonPrefix`/`absentFrom`: 0 of 576 pass, because the remainder
+   always ends in the sense number and 0 of 576 displays contain a digit.
+   Case 4 addressed in the same place.
+3. **§8's 243 of 345 had no published query.** Added, with the second
+   defensible reading (271 of 345, 78.6% — the review's 273) and a
+   stricter variant (223).
+4. **§5(b)'s model was prose-only** and did not re-implement to the same
+   score. The family key is now inlined as code, with both denominators
+   (55.6% / 56.6% for model A, 87.5% / 94.0% for model B).
+5. **§3's 40 is the whitespace-normalised reading**; the raw-string
+   reading is 39, and the member between them is B00211/B00098, the
+   double-space headword of §8. Both stated.
+
+The pattern in 3 and 4 is worth naming rather than just fixing: **the
+two figures that did not reproduce are exactly the two that were
+described in prose instead of published as code.** Every number in this
+audit now carries the query that produces it, which is the house
+standard those two had quietly dropped.
