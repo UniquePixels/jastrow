@@ -123,7 +123,11 @@ fall into as easily as a probe:
 - **A Hebrew letter may carry a combining mark before the quote.** One
   occurrence (M01940) puts U+0307 between the letter and the `"`, so a
   bare `(?<=[HEBREW])` lookbehind misses it. The lookbehind must
-  tolerate the mark, exactly as `html.ts`'s `HEBREW_ATOM` does.
+  tolerate the mark, which is what `html.ts`'s `HEBREW_ATOM` already
+  encodes — `[${HEBREW}]̇*`. That constant is **module-private**
+  today (`html.ts:55`, absent from the export list); the rule exports
+  it rather than restating the atom, so the corpus keeps one
+  definition of "a Hebrew letter with its marks".
 
 Measured on the three readings, in scope: 2,302 consuming, 2,304
 lookaround, **2,305 atom-aware**. The third is correct and is the

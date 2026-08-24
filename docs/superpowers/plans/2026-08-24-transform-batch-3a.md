@@ -66,6 +66,7 @@ dependencies.
 
 | File | Status | Responsibility |
 |---|---|---|
+| `admin/pipeline/transform/html.ts` | modify | Export `HEBREW_ATOM` (one line — it is module-private today) |
 | `admin/pipeline/transform/gershayim.ts` | create | The predicate, the substitution, the locus partition. No rule logic, no catalogue knowledge. |
 | `admin/pipeline/transform/gershayim.test.ts` | create | Predicate and substitution unit tests |
 | `admin/pipeline/transform/links.ts` | modify | `Anchor` gains `tag` — the raw opening-tag value |
@@ -607,12 +608,27 @@ Expected: FAIL — module not found.
  * `<` or a `>` — so registry order between them is free, and
  * `rules/gershayim.corpus.test.ts` proves it rather than asserting it.
  */
-import { HEBREW } from './html.ts';
+import { HEBREW, HEBREW_ATOM } from './html.ts';
 
 const GERSHAYIM = '״';
-/** A `"` with a Hebrew letter either side. Lookahead rather than a
- * consuming group so adjacent occurrences in one token both match. */
-const FLANKED = new RegExp(`(?<=[${HEBREW}]\\u0307*)"(?=[${HEBREW}])`, 'gu');
+/**
+ * A `"` with a Hebrew letter either side, both sides zero-width.
+ *
+ * Every part of this is load-bearing and each was measured (spec §2).
+ * LOOKAROUND, not a consuming group: `[HEBREW]"[HEBREW]` with the `g`
+ * flag matches `X"Y` in `X"Y"Z` and resumes past `Y`, so the second
+ * quote is never seen — 2 occurrences (A00253, U01408). And the
+ * lookbehind uses `HEBREW_ATOM`, which carries `\u0307*`, because a
+ * Hebrew letter may hold a combining mark between itself and the
+ * quote — 1 occurrence (M01940). In scope: 2,302 with a consuming
+ * pattern, 2,304 with a bare lookbehind, 2,305 with this one.
+ *
+ * `HEBREW_ATOM` is module-private in `html.ts` today; this task
+ * exports it rather than restating `[${'{'}HEBREW${'}'}]\u0307*` here, so the
+ * corpus's one definition of "a Hebrew letter with its marks" stays
+ * in one place.
+ */
+const FLANKED = new RegExp(`(?<=${HEBREW_ATOM})"(?=[${HEBREW}])`, 'gu');
 const TAG = /<[^<>]*>/gu;
 
 /** Replace every flanked quote in `value`. */
