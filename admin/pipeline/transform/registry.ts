@@ -67,9 +67,22 @@ const RULES: readonly Rule[] = [
 	prefixedGereshAbbrev,
 
 	// plural-to-feminine-final-letter-mislink (batch 2, task 6). A
-	// third unlink row, by the same measurement `geresh.ts` used: only
-	// 10 of 60 clean members (16.7%) carry a same-entry anchor to their
-	// own headword, so retarget would decline five members in six.
+	// third unlink row, by the same measurement `geresh.ts` used:
+	// under TARGET-ENTRY IDENTITY, 17 of 60 clean occurrences (28.3%)
+	// have some other anchor reaching their own headword and 43 of 60
+	// (71.7%) do not, so a retarget rule would decline close to three
+	// members out of every four.
+	//
+	// CORRECTED 2026-08-24 (task 11). This block said "10 of 60
+	// (16.7%) … decline five members in six", which is the SUFFIX
+	// test — the reading `misc-links.ts`'s own module doc calls
+	// unsound in BOTH directions and its 83.3% "spurious", because a
+	// prefix scan counts the DEFECT ITSELF as evidence a repair
+	// exists. Every other record on the branch already carried 17/60;
+	// this one did not, and it is the load-bearing ordering rationale.
+	// The conclusion is unchanged — a majority under either reading —
+	// but the number quoted here must be the sound one.
+	//
 	// Unentangled with any other registered rule — its population sits
 	// entirely inside the entry's own "Pl." construct, which no other
 	// rule here rewrites.
@@ -91,8 +104,12 @@ const RULES: readonly Rule[] = [
 	shurukAsYodDisplayCorruption,
 
 	// ib-yoma-2a (batch 2, task 7) — the batch's first RETARGET, and it
-	// runs LAST for the reason the unlink block above states from the
-	// other side: this rule copies a target off the nearest preceding
+	// runs AFTER EVERY UNLINK RULE for the reason the unlink block
+	// above states from the other side. (It said "runs LAST" when it
+	// was written and it no longer is: task 8 appended two more
+	// retargets below it, as the note at the end of this block asked
+	// for. Reworded 2026-08-24, task 11.) This rule copies a target
+	// off the nearest preceding
 	// citation ANCHOR, so any anchor an unlink rule is going to remove
 	// must already be gone before the antecedent search runs. An
 	// antecedent that a later rule deletes is a wrong link, and adopting
@@ -142,6 +159,16 @@ const RULES: readonly Rule[] = [
 	//   both orders         6,204 records each, and 0 entries whose
 	//                       anchor addresses differ between them
 	//
+	// THE 6,204 IS A REGISTRY-WIDE TOTAL AS OF 2026-08-23 AND HAS
+	// MOVED (noted 2026-08-24, task 11). `shurukAsYodDisplayCorruption`
+	// was registered afterwards and adds 12, and `targumAnaphora` 8, so
+	// the registry now produces **6,224 records** over all 32,512
+	// entries. What the measurement above claims is INVARIANCE between
+	// the two orders, and that is unaffected: the absolute is a
+	// timestamp, not the finding. Re-derive with the composed pass in
+	// `docs/v2/transform-batch-2.md` §3 rather than trusting either
+	// number here.
+	//
 	// So the order is free, and the reason it is free is measured too:
 	// the two `ib-` rows share **0 entries** corpus-wide. Their
 	// populations are disjoint by target (`ib-yoma-2a` requires
@@ -178,6 +205,13 @@ const RULES: readonly Rule[] = [
 	//   all 6 permutations of the
 	//     three retarget rules        6,212 records each and identical
 	//                                 addresses in every one
+	//
+	// Same caveat as the block above (noted 2026-08-24, task 11): the
+	// 6,212 is the registry-wide total as of 2026-08-23, before
+	// `shurukAsYodDisplayCorruption`'s 12 were registered; the current
+	// total is **6,224**. The claim being made is that all six
+	// permutations agree with each other, which does not depend on the
+	// absolute.
 	//
 	// The three populations are pairwise disjoint — 0 entries shared by
 	// any pair — so no rule here can consume, create or destroy

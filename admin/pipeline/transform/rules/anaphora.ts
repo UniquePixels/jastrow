@@ -285,6 +285,30 @@
  * evidence, deliberately kept out of the rule — `Rule.apply` is
  * entry-local by §3.3 — and recorded here as support for the ruling
  * rather than as a test.
+ *
+ * ## DEFERRED: the split seam, named (task 8, carried 2026-08-24)
+ *
+ * This file is ~1,250 lines and three rules, and trips
+ * `noExcessiveLinesPerFile` (info). Task 8 identified a real seam and
+ * deliberately did not cut it mid-batch, because the split moves
+ * symbols three other tasks import and the docstrings — which carry
+ * the measurements — are the bulk rather than the code. It is
+ * recorded here rather than only in a task report, which is deleted
+ * when the batch closes.
+ *
+ * The seam is NOT "one file per rule". It is machinery versus arms:
+ *
+ * - **`rules/anaphora-walk.ts` (~400 lines), the shared walk** —
+ *   `usable`, `textBetween`, `gapBetween`, `AntecedentRules`,
+ *   `antecedentOf`, `Repair`/`Repairer`, `retargetAnaphora`,
+ *   `retargetOverDefinitions`. Genuinely general machinery: three arms
+ *   already drive it with different `accept`, `tolerate` and
+ *   target-building, and it is what the next retarget row imports.
+ * - **the three arms (~850 lines)**, each a predicate, a repairer and
+ *   a `Rule`, none of which reads the others.
+ *
+ * Follow-up for whoever opens batch 3's retarget work — do it BEFORE
+ * adding a fourth arm, not after.
  */
 import type { SourceEntry, SourceSense } from '../../body/types.ts';
 import { serialize, type Token, tokenize } from '../html.ts';
@@ -809,6 +833,21 @@ type Repairer = (
  * A `repair` that returns the anchor's own current target is treated
  * as a decline — the arms differ in how they build a target and not in
  * what a no-op means, so the check sits here rather than in each arm.
+ *
+ * LOAD-BEARING ASSUMPTION, PINNED (noted 2026-08-24, task 11).
+ * `anchor.open`/`anchor.close` and the position `at` all index the
+ * ORIGINAL `tokens` array, while every edit accumulates into a
+ * separate `next`. That is only sound because **`retarget` is
+ * LENGTH-PRESERVING** — it replaces one tag token's value in place and
+ * never inserts or drops a token, so index i means the same anchor in
+ * `tokens` and in `next` after any number of edits. The counterpart
+ * assumption on the REMOVING side is precisely the one that produced
+ * the `unlinkMatching` bug (`rules/unlink.ts`, fixed in 6b45ec8),
+ * where a removal shifted every later index and the loop had to be
+ * changed to re-derive anchors from the current text on every pass.
+ * If `retarget` ever grows a path that changes the token count, this
+ * loop must re-derive too, exactly as `unlinkMatching` now does.
+ * `links.test.ts` pins the length invariant on `retarget` itself.
  */
 function retargetAnaphora(
 	definition: string,

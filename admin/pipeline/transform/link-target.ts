@@ -177,6 +177,19 @@
  * - **Unused claims.** A `composed` or `recombined` entry matching no
  *   anchor grants nothing, but is not itself reported, so a stale
  *   declaration left in a rule will not be flagged.
+ * - **Provenance stops at the rule boundary.** `run.ts` gates each
+ *   rule against the entry AS OF THAT RULE'S START, not against the
+ *   phase's original input, so rule N reads the targets rule N−1
+ *   wrote. An address MINTED by case 4 is, one rule later, an
+ *   ordinary member of the input target set — a plain case-1 or case-2
+ *   source that any subsequent rule may copy or recombine with no
+ *   further evidence. Provenance is therefore per-call, and the chain
+ *   is not checked end to end: nothing here can tell a target the
+ *   ENTRY held from one the REGISTRY built two rules ago. Nothing is
+ *   wrong today — `ib-targum-work-loss` is case 4's only user and it
+ *   runs last, so no rule ever sees its output — but that is a fact
+ *   about the current registry order, not a property of the gate.
+ *   Anyone appending a rule below `targumAnaphora` inherits this.
  * - **Fields outside `fieldsOf`.** `refs[]` and `rid` are excluded
  *   from the shared walk (see `no-new-text.ts` on why), so a rule
  *   editing only those passes here — and `refs[]` holds link targets

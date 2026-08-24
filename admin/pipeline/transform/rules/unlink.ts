@@ -435,8 +435,11 @@ function ellipsisRaw(tokens: readonly Token[], anchor: Anchor): boolean {
  * observed means the corpus moved under this exclusion, or the
  * exclusion was wrong from the start; either way it fails loudly,
  * naming the dead key, rather than degrading into a silent
- * exclusion-of-nothing that only `transform:count`'s aggregate 80
- * would (eventually, and without saying which key) catch.
+ * exclusion-of-nothing that only `transform:count`'s row-count
+ * aggregate would (eventually, and without saying which key) catch.
+ * (That aggregate read 80 rows when this was written and reads 78
+ * since batch 2's two withdrawals; the argument is about the
+ * aggregate being late and unspecific, not about its size.)
  */
 const ELLIPSIS_CONVENTION: ReadonlySet<string> = new Set([
 	'A01030|Jastrow, אַחֲיוֹת 1',

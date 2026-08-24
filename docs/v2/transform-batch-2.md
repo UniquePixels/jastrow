@@ -382,7 +382,12 @@ asserts three orderings and one exhaustiveness guard.
 
 ## 8. Deferred minors, every one triaged
 
-Nothing from the ledger disappeared silently.
+Nothing from the ledger disappeared silently — **after a correction**.
+The first draft of this section claimed completeness while Task 8's
+recommended split of `anaphora.ts` (its §20, the seam named symbol by
+symbol) appeared nowhere on the branch. Whole-branch review caught it.
+It still ships deferred; what changed is that the item now exists
+outside a task report.
 
 | Minor | Origin | Disposition |
 |---|---|---|
@@ -394,6 +399,7 @@ Nothing from the ledger disappeared silently.
 | `unlink.ts:180` "neither rule built on this reaches `language_reference`" — now six rules | Task 5 | **FIXED, and pinned.** The sentence is replaced, and the scope claim it was making is now a corpus test (`rules/unlink-scope.test.ts`) over every field `fieldsOf` walks: all three raw populations that had no field-scope pin (517 bare geresh, 185 prefixed, 65 plural) are 100% inside `senses[].definition`, 0 outside. A seventh row reusing the walk must extend it. |
 | Task 7 review finding 6: the "92 of 272" figure in `anaphora.ts` and the audit is not reproducible (reviewer got 178/140/2 three ways) | Task 7 re-review — **queued to `impl-task-7` and never executed** | **FIXED.** The 92 reproduces under no reading, and the true figures make the omission MORE load-bearing, not less: **178 of the 272 gaps** carry a position marker and **133 of the 209 firing members** do, so adding `beg.`/`end.`/`top`/`bot.` as an intervening-citation cue would cost 133 repairs of 209 (64%), not "a third". Corrected in `anaphora.ts` and in `ib-yoma-2a.md`, and pinned by a new corpus test so it cannot drift back into prose. This is the only deferred minor that was a live wrong number in a permanent record. |
 | Fixtures abridge surrounding text; A01423's `-יּוֹת` regression also passes for a second, coincidental reason (it is a self-link too) | Task 6 | **DEFERRED, knowingly.** The reviewer explicitly declined both: the fixtures are real rids with verbatim anchor markup in `geresh.test.ts`'s established style, and the primary reason (final letter ת, not ם/ן) is what the test's own comment documents and what the predicate gates on first. |
+| Task 8's recommended split of `anaphora.ts` into `rules/anaphora-walk.ts` + three arms | Task 8 §20 | **DEFERRED, knowingly — and it nearly left the record.** Task 8 named the seam symbol by symbol and declined to cut it mid-batch: the split moves symbols three other tasks import, and the docstrings carrying the measurements are the bulk rather than the code. It was recorded only in `task-8-report.md`, which is deleted when the batch closes, so this table's first draft claimed a completeness it did not have. The seam is now written into `anaphora.ts`'s own module docstring — machinery (`usable`, `textBetween`, `gapBetween`, `AntecedentRules`, `antecedentOf`, `Repair`/`Repairer`, `retargetAnaphora`, `retargetOverDefinitions`, ~400 lines) versus the three arms (~850) — with the instruction to cut it BEFORE a fourth arm is added, not after. |
 | `anaphora.test.ts` trips `noExcessiveLinesPerFile` (403 lines against 300) | Task 7 §9(7) | **DEFERRED, knowingly.** Info severity, `bun qa` exits 0, and **18 files in the repository trip this rule**, including `repairs.ts` (604) and `migrate-dry.ts`. Splitting the corpus tier into its own file is a repo-wide refactor decision, not a batch-2 change. `rules/unlink-scope.test.ts` was created as a separate file rather than appended to `unlink.test.ts` partly to avoid adding a nineteenth. |
 
 **Net biome position: 105 infos, one BELOW the 106 at this task's
@@ -417,6 +423,15 @@ so the measurement outlives the task reports.
 | geresh arm 1 — variant readings (`Ms. K. ב׳`) | 152 | 123 | `catalogue-audit/geresh-abbrev-arms.md` |
 | geresh arm 5 — verbal-preformative stubs | 34 | 32 | same |
 | geresh arm 2 — `ר׳` = Rabbi in a non-resh host | 20 | 19 | same |
+
+**Residual risk, recorded (whole-branch review, 2026-08-24).** This
+placement is safe today — the triage declares itself the Phase 2 entry
+point, and every candidate here carries a count and a runnable query —
+but **nothing executable surfaces them.** `registry.ts`'s `coverage()`
+reads only `patterns.jsonl`, so when `PENDING` empties it will report
+Phase 2 closed while these six sit in prose. Parked for CP-2: either
+open them as untriaged catalogue rows, or add a gate that fails when
+this table is non-empty and `PENDING` is not.
 
 The 55 `ib.` siblings are the cheapest of these: the shipped predicates
 already draw both boundaries — `isSinkMember` is the catalogued 312 and

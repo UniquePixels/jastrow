@@ -210,10 +210,19 @@ import { unlinkOverDefinitions } from './unlink.ts';
 
 /** `html.ts`'s Hebrew point/accent range (U+0591–U+05C7), the same
  * span `rules/geresh.ts` uses — see that module's `POINT` for the
- * citation. */
-const POINT = '֑-ׇ';
-/** Hebrew consonants, final forms included. */
-const LETTER = 'א-ת';
+ * citation.
+ *
+ * WRITTEN AS ESCAPES, not literals (aligned 2026-08-24, task 11).
+ * These two constants held the identical ranges spelled as literal
+ * Hebrew characters while `rules/geresh.ts` spelled them as `\uXXXX`,
+ * so one batch shipped two conventions for one thing. `html.ts`'s own
+ * docstring gives the reason to prefer escapes and `geresh.ts` repeats
+ * it: a literal endpoint is invisible to review — a point or a final
+ * form pasted in place of the intended codepoint silently shifts the
+ * range, and nothing about `[א-ת]` says which codepoints it
+ * means. Escapes say. */
+const LETTER: string = String.raw`\u05D0-\u05EA`;
+const POINT: string = String.raw`\u0591-\u05C7`;
 
 const POINTS_RE = new RegExp(`[${POINT}]`, 'gu');
 const NON_LETTER_RE = new RegExp(`[^${LETTER}]`, 'gu');
@@ -304,7 +313,7 @@ function plLabelBoundary(lead: string): number | undefined {
  * this anchor is NOT the entry's own declared plural, whatever else it
  * looks like — see the module doc's nine excluded raw candidates, each
  * caught by exactly this test. */
-const CLEAN_SPAN_RE = /^[א-ת֑-ׇ\s,]*$/u;
+const CLEAN_SPAN_RE = new RegExp(`^[${LETTER}${POINT}\\s,]*$`, 'u');
 function inCleanPlSpan(tokens: readonly Token[], open: number): boolean {
 	const lead = leadOf(tokens, open);
 	const boundary = plLabelBoundary(lead);

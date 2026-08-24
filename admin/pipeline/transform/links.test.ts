@@ -1,5 +1,5 @@
 import { expect, it } from 'bun:test';
-import { serialize, tokenize } from './html.ts';
+import { serialize, type Token, tokenize } from './html.ts';
 import { type Anchor, anchors, retarget, unlink } from './links.ts';
 
 /** `anchors()[0]` narrowed for the tests below. Every fixture here is
@@ -45,6 +45,34 @@ it('retarget rewrites both attributes and nothing else', () => {
 	expect(out).toContain('data-ref="Judges 2:3"');
 	expect(out).toContain('class="refLink"');
 	expect(out.replace(/2\.3|2:3/gu, '')).toBe(GRAETZ.replace(/2\.2|2:2/gu, ''));
+});
+
+/**
+ * `retarget` is LENGTH-PRESERVING, and that is load-bearing rather
+ * than incidental. `anaphora.ts`'s `retargetAnaphora` holds indices
+ * from the ORIGINAL token array while accumulating edits into a
+ * separate one, which is sound only while index i means the same
+ * anchor on both sides. The removing counterpart of that assumption is
+ * exactly what produced the `unlinkMatching` bug (fixed in 6b45ec8),
+ * so the invariant is pinned here rather than left to `map`'s
+ * signature — including across repeated edits and on a definition
+ * carrying several anchors.
+ */
+it('retarget never changes the token count, however many times it runs', () => {
+	const tokens = tokenize(GRAETZ);
+	const list = anchors(tokens);
+	let next: readonly Token[] = tokens;
+	for (const [round, anchor] of [...list, ...list].entries()) {
+		next = retarget(next, anchor, {
+			dataRef: `Judges 2:${round + 3}`,
+			href: `/Judges.2.${round + 3}`,
+		});
+		expect(next).toHaveLength(tokens.length);
+		// And the anchor indices still address the same tags.
+		expect(anchors(next).map((a) => [a.open, a.close])).toEqual(
+			list.map((a) => [a.open, a.close]),
+		);
+	}
 });
 
 /** D00478's shape: an unterminated href swallows the closing tag, so
