@@ -51,6 +51,15 @@ const HEBREW: string = String.raw`\u0591-\u05C7\u05D0-\u05EA\u05F0-\u05F4\uFB1D-
  *
  * A literal TAB joins Hebrew in 4 tokens and is deliberately excluded —
  * a tab inside a wrapper span is not clearly desirable.
+ *
+ * Exported since batch 3a: the gershayim predicate
+ * (`transform/gershayim.ts`) needs "a Hebrew letter with its marks" in
+ * its LOOKBEHIND, because one corpus occurrence (M01940) puts U+0307
+ * between the letter and the ASCII quote and a bare `(?<=[HEBREW])`
+ * misses it. Exporting the atom rather than restating it there keeps
+ * that definition in one place — the two would otherwise be free to
+ * drift, and the drift would be invisible: a narrower copy repairs one
+ * occurrence fewer while reporting a clean run.
  */
 const HEBREW_ATOM: string = String.raw`[${HEBREW}]\u0307*`;
 const HEBREW_RUN = new RegExp(
@@ -240,6 +249,7 @@ export {
 	attributeInterior,
 	DIR_RTL,
 	HEBREW,
+	HEBREW_ATOM,
 	hebrewRuns,
 	opensScope,
 	serialize,
