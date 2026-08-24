@@ -1,5 +1,6 @@
 import { expect, it } from 'bun:test';
 import type { SourceEntry } from '../body/types.ts';
+import { tokenize } from './html.ts';
 import { checkLinkTargets } from './link-target.ts';
 import { applyTransforms } from './run.ts';
 import type { Rule, TransformResult } from './types.ts';
@@ -666,4 +667,121 @@ it('still licenses an href spelling written into a data-ref', () => {
 	expect(
 		checkLinkTargets(src, after, result(after, { recombined: [claim] })),
 	).toEqual([]);
+});
+
+// ————————————————————————————————————————————————————————————————
+// Case 5: glyph correction (batch-3a spec §4.3).
+// ————————————————————————————————————————————————————————————————
+
+/** The raw opening-tag token value — what `Anchor.tag` carries and
+ * what a `glyphCorrected` claim names on both sides. The claim CANNOT
+ * be phrased on parsed targets: the ASCII quote terminates its own
+ * attribute, so both damaged tags below parse `malformed: false` with
+ * a truncated `data-ref`, and a case stated against the input target
+ * set would compare the repair to `Jastrow, אל`. */
+const openTagOf = (html: string): string => tokenize(html)[0]?.value ?? '';
+
+const GERSHAYIM = '״';
+
+/** A00009, verbatim: a gershayim written as an ASCII `"` inside a
+ * `"`-delimited attribute. 90 corpus anchors are in this state. */
+const damaged =
+	'<a dir="rtl" class="refLink" href="/Jastrow,_אל"ף.1" data-ref="Jastrow, אל"ף 1">אלף</a>';
+const repaired = damaged.replaceAll('"ף', GERSHAYIM + 'ף');
+
+it('case 5 licenses a tag whose only change is the gershayim glyph', () => {
+	const after = entry(repaired);
+	expect(
+		checkLinkTargets(
+			entry(damaged),
+			after,
+			result(after, {
+				glyphCorrected: [
+					{ from: openTagOf(damaged), target: openTagOf(repaired) },
+				],
+			}),
+		),
+	).toEqual([]);
+});
+
+it('an undeclared glyph correction is still a fabrication', () => {
+	const after = entry(repaired);
+	expect(
+		checkLinkTargets(entry(damaged), after, result(after)).length,
+	).toBeGreaterThan(0);
+});
+
+it('case 5 refuses a claim whose from is not in the input', () => {
+	const after = entry(repaired);
+	expect(
+		checkLinkTargets(
+			entry(damaged),
+			after,
+			result(after, {
+				glyphCorrected: [
+					{
+						from: openTagOf(damaged).replace('אל', 'בל'),
+						target: openTagOf(repaired),
+					},
+				],
+			}),
+		).length,
+	).toBeGreaterThan(0);
+});
+
+/** The `from`-membership arm on its own. The probe above never
+ * reaches it — retargeting the `from` also breaks the substitution
+ * test, which is reported first — so the claim here de-maps EXACTLY
+ * and still names a tag this entry's input never held. */
+it('case 5 refuses a well-formed claim naming a tag no input anchor carries', () => {
+	const stranger =
+		'<a dir="rtl" class="refLink" href="/Jastrow,_בל"ם.1" data-ref="Jastrow, בל"ם 1">בלם</a>';
+	const after = entry(repaired);
+	expect(
+		checkLinkTargets(
+			entry(stranger),
+			after,
+			result(after, {
+				glyphCorrected: [
+					{ from: openTagOf(damaged), target: openTagOf(repaired) },
+				],
+			}),
+		),
+	).toEqual([
+		`glyph claim source ${JSON.stringify(openTagOf(damaged))} is not a tag in T00001's input`,
+	]);
+});
+
+it('case 5 refuses a claim that changes a non-quote character', () => {
+	const moved = repaired.replace('.1"', '.2"');
+	const after = entry(moved);
+	expect(
+		checkLinkTargets(
+			entry(damaged),
+			after,
+			result(after, {
+				glyphCorrected: [
+					{ from: openTagOf(damaged), target: openTagOf(moved) },
+				],
+			}),
+		).length,
+	).toBeGreaterThan(0);
+});
+
+it('a claim does not license a different anchor', () => {
+	const other =
+		'<a dir="rtl" class="refLink" href="/Jastrow,_עכ"ום.1" data-ref="Jastrow, עכ"ום 1">עכום</a>';
+	const otherRepaired = other.replaceAll('"ו', GERSHAYIM + 'ו');
+	const after = entry(repaired + otherRepaired);
+	expect(
+		checkLinkTargets(
+			entry(damaged + other),
+			after,
+			result(after, {
+				glyphCorrected: [
+					{ from: openTagOf(damaged), target: openTagOf(repaired) },
+				],
+			}),
+		).length,
+	).toBeGreaterThan(0);
 });

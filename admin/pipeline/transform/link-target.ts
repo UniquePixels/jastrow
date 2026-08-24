@@ -15,7 +15,7 @@
  *
  * The contract is one sentence: **a rule may only write a link target
  * it can point at in this entry's own input.** Concretely, every
- * anchor in `after` must satisfy one of the spec's four cases:
+ * anchor in `after` must satisfy one of the spec's five cases:
  *
  * 1. **Unchanged** and 2. **copied** collapse into ONE membership
  *    test here. An unchanged target is trivially present in the
@@ -44,6 +44,28 @@
  *    case 4 reads it off a second input target, which case 3 cannot
  *    name. Cases 1-3 are untouched — nothing was loosened to make
  *    room.
+ * 5. **Glyph-corrected** (batch-3a spec §4.3) — the anchor's whole
+ *    opening TAG, with every gershayim `״` mapped back to an ASCII
+ *    `"`, is byte-identical to a tag the input held, and the rule
+ *    DECLARED that pair through `TransformResult.glyphCorrected`.
+ *
+ *    Alone among the five it is stated on raw tag BYTES rather than
+ *    on parsed targets, and the defect is the reason: an ASCII quote
+ *    inside a `"`-delimited attribute terminates it, so all 90
+ *    damaged anchors parse `malformed: false` with a truncated
+ *    `data-ref` — `Jastrow, אל״ף 1` reads back as `Jastrow, אל`.
+ *    Cases 1-2 compare the repair against that truncation and reject
+ *    it; case 3's remainder must occur in the display, which carries
+ *    the same ASCII quote in the input; case 4 cannot express a
+ *    mid-string substitution at all. Phrasing case 5 on the parsed
+ *    set would reject the correction for the very truncation it
+ *    fixes, so it reads the bytes the parser cannot mangle.
+ *
+ *    Fail-closed, and tighter than any target-set phrasing: every
+ *    character except the substituted quotes is pinned by length,
+ *    order and codepoint, so the case cannot move a link to another
+ *    entry, cannot alter a locus, and cannot recover an address the
+ *    input did not spell out. Cases 1-4 are untouched.
  *
  * `href` and `data-ref` are checked INDEPENDENTLY against that one
  * set. A rule that copies both from the same source anchor therefore
@@ -174,9 +196,21 @@
  *   data-refs that share one href are rejected on that attribute,
  *   since the pair collapses to a single source. The second is a
  *   fail-closed narrowing, not a hole, and no corpus rule has met it.
- * - **Unused claims.** A `composed` or `recombined` entry matching no
- *   anchor grants nothing, but is not itself reported, so a stale
- *   declaration left in a rule will not be flagged.
+ * - **A tag, not an address, in case 5.** The case asks only whether
+ *   the bytes moved. A rule that corrected the glyph AND happened to
+ *   be pointing at the wrong entry to begin with is licensed by it,
+ *   because the wrong address is already spelled out in the input tag
+ *   and the correction leaves every character of it in place. That is
+ *   correct for a glyph rule — the repair is not what aimed the link
+ *   — and would not be for anything else, which is why the case is
+ *   keyed to a substitution that reproduces the input exactly rather
+ *   than to a rule id. It also settles BOTH attributes of the tag at
+ *   once: `checkValue` consults case 5 before judging either, since
+ *   neither parses on the input side.
+ * - **Unused claims.** A `composed`, `recombined` or `glyphCorrected`
+ *   entry matching no anchor grants nothing, but is not itself
+ *   reported, so a stale declaration left in a rule will not be
+ *   flagged.
  * - **Provenance stops at the rule boundary.** `run.ts` gates each
  *   rule against the entry AS OF THAT RULE'S START, not against the
  *   phase's original input, so rule N reads the targets rule N−1
@@ -205,17 +239,33 @@ import type { TransformResult } from './types.ts';
 /** One declared composition (`TransformResult.composed`). */
 type Compose = { from: string; target: string };
 
+/** One declared glyph correction (`TransformResult.glyphCorrected`).
+ * Both members are RAW opening-tag values, not parsed targets. */
+type GlyphCorrect = { from: string; target: string };
+
 /** One declared recombination (`TransformResult.recombined`). */
 type Recombine = { head: string; tail: string; target: string };
 
+/** The gershayim, U+05F4 — the one character case 5 may map back to an
+ * ASCII quote.
+ *
+ * Declared HERE rather than imported from the rule that writes it.
+ * A gate that took its notion of "the licensed glyph" from a rule
+ * module would be a gate a rule could widen, which is not a gate. Two
+ * one-character constants is the cheaper problem. */
+const GERSHAYIM = '״';
+
 /** Everything `checkValue` reads about the INPUT side, gathered once
  * per call: the entry's anchors, the target set built from them, the
- * rule's declared compositions, and the rid for the messages. */
+ * set of raw opening tags case 5 compares against, the rule's declared
+ * compositions, and the rid for the messages. */
 interface Input {
 	claims: readonly Compose[];
+	glyphs: readonly GlyphCorrect[];
 	rejoins: readonly Recombine[];
 	rid: string;
 	source: readonly Anchor[];
+	tags: ReadonlySet<string>;
 	targets: ReadonlySet<string>;
 }
 
@@ -498,20 +548,66 @@ function rejoinFaults(
 }
 
 /**
+ * Faults from the case-5 arm, with the same contract as
+ * `composeFaults` and `rejoinFaults`: `undefined` means a declared
+ * glyph correction licensed this anchor, an EMPTY array means no
+ * claim spoke to it at all.
+ *
+ * The whole test is on RAW TAG BYTES. A claim is matched by
+ * `target === anchor.tag`, and it licenses the tag when mapping every
+ * gershayim in that tag back to an ASCII quote reproduces `from`
+ * exactly — same length, same order, same codepoints everywhere else
+ * — and when `from` is a tag the input actually held. Every character
+ * except the substituted quotes is therefore pinned, so a claim
+ * cannot move a link to another entry, alter a locus, or recover an
+ * address the input never spelled out.
+ *
+ * It licenses a TAG, not an ADDRESS, and takes both attributes at
+ * once: the two quotes it repairs sit in `href` and `data-ref`
+ * respectively, and neither parses on the input side. See the module
+ * doc's blind-spot list for what that costs.
+ */
+function glyphFaults(anchor: Anchor, input: Input): string[] | undefined {
+	const claims = input.glyphs.filter((claim) => claim.target === anchor.tag);
+	if (claims.length === 0) {
+		return [];
+	}
+	const faults: string[] = [];
+	for (const claim of claims) {
+		if (claim.target.replaceAll(GERSHAYIM, '"') !== claim.from) {
+			faults.push(
+				`glyph claim on ${JSON.stringify(claim.target)} in ${input.rid} changes more than the quote`,
+			);
+		} else if (!input.tags.has(claim.from)) {
+			faults.push(
+				`glyph claim source ${JSON.stringify(claim.from)} is not a tag in ${input.rid}'s input`,
+			);
+		}
+	}
+	return faults.length === 0 ? undefined : faults;
+}
+
+/**
  * Why this anchor's `value` (its `href` or its `data-ref`) is not one
- * the entry's input could supply, or `undefined` when it is. The four
+ * the entry's input could supply, or `undefined` when it is. The five
  * spec cases, in order, one line each.
  *
  * Membership in `targets` settles cases 1 and 2 outright. Otherwise
- * the value must be licensed by a declared composition (case 3) or
- * recombination (case 4), each matched to this anchor by
- * `target === anchor.dataRef`: EVERY matching anchor must satisfy the
+ * the value must be licensed by a declared glyph correction (case 5),
+ * composition (case 3) or recombination (case 4). Cases 3 and 4 are
+ * matched to this anchor by `target === anchor.dataRef` and case 5 by
+ * `target === anchor.tag`: EVERY matching anchor must satisfy the
  * claim, which falls out of checking each anchor against every claim
  * that names it rather than pairing them off. One licence is enough —
- * a value both kinds of claim name passes if either admits it — and
- * the first fault is reported when none does, cases 3 before 4. With
- * no claim of either kind the value is simply absent from the input,
- * which is the fabrication message and the fallback below.
+ * a value more than one kind of claim names passes if any admits it —
+ * and the first fault is reported when none does, case 5 before 3
+ * before 4. With no claim of any kind the value is simply absent from
+ * the input, which is the fabrication message and the fallback below.
+ *
+ * Case 5 is consulted FIRST, and before either attribute is judged,
+ * because it licenses a whole opening TAG: a licensed tag settles
+ * both of its attributes at once, and neither of them parses on the
+ * input side, which is the point of stating that case on bytes.
  */
 function checkValue(
 	value: string,
@@ -519,6 +615,10 @@ function checkValue(
 	input: Input,
 ): string | undefined {
 	if (input.targets.has(value)) {
+		return;
+	}
+	const glyphs = glyphFaults(anchor, input);
+	if (glyphs === undefined) {
 		return;
 	}
 	const composed = composeFaults(value, anchor, input);
@@ -530,7 +630,7 @@ function checkValue(
 		return;
 	}
 	return (
-		[...composed, ...rejoined][0] ??
+		[...glyphs, ...composed, ...rejoined][0] ??
 		`target ${JSON.stringify(value)} is not in ${input.rid}'s input`
 	);
 }
@@ -560,7 +660,10 @@ function checkValue(
 function checkLinkTargets(
 	before: SourceEntry,
 	after: SourceEntry,
-	result: Pick<TransformResult, 'composed' | 'recombined' | 'unlinks'>,
+	result: Pick<
+		TransformResult,
+		'composed' | 'glyphCorrected' | 'recombined' | 'unlinks'
+	>,
 ): string[] {
 	const sourceFields = fieldsOf(before);
 	const outputFields = fieldsOf(after);
@@ -570,9 +673,11 @@ function checkLinkTargets(
 	const { rid } = after;
 	const input: Input = {
 		claims: result.composed ?? [],
+		glyphs: result.glyphCorrected ?? [],
 		rejoins: result.recombined ?? [],
 		rid,
 		source,
+		tags: new Set(source.map((anchor) => anchor.tag)),
 		targets: targetsOf(source),
 	};
 	const problems: string[] = [];

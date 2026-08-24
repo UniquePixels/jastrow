@@ -48,6 +48,24 @@ interface TransformResult {
 	 * source is a violation, not an allowance. */
 	copied?: readonly string[];
 	entry: SourceEntry;
+	/** Opening tags this call repaired by GLYPH SUBSTITUTION alone
+	 * (batch-3a spec §4.3). `from` is an opening tag in this entry's
+	 * INPUT; `target` is the tag written. `link-target.ts` accepts the
+	 * pair only if mapping every `״` in `target` back to `"` yields
+	 * `from` exactly — same length, same characters, same order — and
+	 * only if `from` is the tag of an anchor the input actually held.
+	 *
+	 * Stated on RAW TAG BYTES rather than on parsed targets, and the
+	 * reason is the defect itself: an ASCII quote inside a
+	 * `"`-delimited attribute terminates it, so all 90 damaged anchors
+	 * parse `malformed: false` with a truncated `data-ref`. A case
+	 * phrased against the input target set would compare the repair to
+	 * `Jastrow, אל` and reject it for the truncation it is fixing.
+	 *
+	 * A claim is matched to an anchor by `target === anchor.tag`, and
+	 * every anchor it matches must satisfy it. A claim naming a tag no
+	 * anchor carries licenses nothing. */
+	glyphCorrected?: readonly { from: string; target: string }[];
 	/** Link targets this call REBUILT from two other targets in this
 	 * entry's input (batch-2 link spec §3.2 case 4, ruling of
 	 * 2026-08-23). `head` supplies a leading run of the written
