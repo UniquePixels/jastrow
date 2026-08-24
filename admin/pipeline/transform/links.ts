@@ -53,6 +53,12 @@ const ATTR = (name: string): RegExp =>
 	new RegExp(String.raw`\b${name}\s*=\s*(?<q>["'])(?<value>[^"']*)\k<q>`, 'du');
 const HREF = ATTR('href');
 const DATA_REF = ATTR('data-ref');
+/** The two attributes a target is written in, with the names the
+ * refusal messages use. */
+const ATTRIBUTES = [
+	['href', HREF],
+	['data-ref', DATA_REF],
+] as const;
 
 interface Anchor {
 	/** Index of the `</a>` in the token array; -1 when unclosed. */
@@ -221,6 +227,43 @@ function replaceAttrValue(
 }
 
 /**
+ * Both attributes must PARSE before either is rewritten. `retarget`
+ * writes an address in two spellings, so an anchor it can only half
+ * rewrite is one it must not touch at all — and the failure should
+ * name the attribute rather than surfacing as
+ * `replaceAttrValue`'s generic throw from inside a nested call.
+ *
+ * Measured 2026-08-24 over all 170,182 corpus anchors, by substring so
+ * the parser's own limits do not colour the count: **170,180 carry
+ * both `href` and `data-ref`, 2 carry `href` alone, 0 carry `data-ref`
+ * alone.** No shipped rule reaches those 2 — a composed pass over all
+ * 32,512 entries throws 0 times — but a throw inside a rule is a
+ * migration failure rather than a soft error, and "no rule reaches it
+ * today" is the argument that preceded two latent bugs in this batch.
+ *
+ * A LARGER population hits the same wall: **452 anchors across 417
+ * entries carry both attributes and parse as neither**, because
+ * `ATTR`'s value class is `[^"']*` and their values hold an apostrophe
+ * (`Tosefta Ma'asrot 1:4`, `Tosefta Shevi'it 4:11`). Every one of the
+ * 452 is an apostrophe case; none is anything else. That is a parser
+ * defect rather than a corpus defect, it is reported separately, and
+ * it is not fixed here because widening the class changes what every
+ * rule and the link-target gate SEE corpus-wide, which is a measured
+ * change of its own and not a review fix. Until then these anchors
+ * read as `href: ''`/`dataRef: ''`, and this guard is what stops a
+ * rule rewriting one of them half-way.
+ */
+function assertRetargetable(tagValue: string): void {
+	for (const [name, attr] of ATTRIBUTES) {
+		if (attr.exec(tagValue) === null) {
+			throw new Error(
+				`links: refusing to retarget an anchor whose ${name} does not parse`,
+			);
+		}
+	}
+}
+
+/**
  * Rewrite an anchor's `href` and `data-ref` to `target`, leaving every
  * other byte of the opening tag — and every other token — untouched.
  * Returns a new token array; the input is never mutated (`count.ts`
@@ -235,6 +278,7 @@ function retarget(
 	// Safe: `anchor.open` came from `anchors(tokens)` scanning this same
 	// stream for `kind: 'tag'` entries, so it always indexes a TagToken.
 	const tag = tokens[anchor.open] as TagToken;
+	assertRetargetable(tag.value);
 	const value = replaceAttrValue(
 		replaceAttrValue(tag.value, HREF, target.href),
 		DATA_REF,

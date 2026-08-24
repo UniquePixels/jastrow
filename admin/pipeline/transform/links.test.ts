@@ -195,3 +195,43 @@ it('an anchor missing its closing tag is unclosed and refused', () => {
 		retarget(tokens, anchor, { dataRef: 'x', href: '/x' }),
 	).toThrow();
 });
+
+/** A00016's shape, verbatim: both attributes are present, and neither
+ * PARSES, because `ATTR`'s value class excludes the apostrophe in
+ * `Tosefta Ma'asrot 1:4`. 452 anchors across 417 entries are in this
+ * state (measured 2026-08-24). The anchor reads as usable, so nothing
+ * upstream refuses it; `retarget` has to. */
+const APOSTROPHE =
+	'<a class="refLink" href="/Tosefta_Ma\'asrot.1.4" ' +
+	'data-ref="Tosefta Ma\'asrot 1:4">Tosef. Maasr. I, 4</a>';
+
+it('an apostrophe in the value defeats the attribute parser', () => {
+	const anchor = first(anchors(tokenize(APOSTROPHE)));
+	expect(anchor.malformed).toBe(false);
+	expect(anchor.close).not.toBe(-1);
+	expect(anchor.display).toBe('Tosef. Maasr. I, 4');
+	// The defect, pinned rather than asserted as correct: both values
+	// come back empty although the tag carries both attributes.
+	expect(anchor.href).toBe('');
+	expect(anchor.dataRef).toBe('');
+});
+
+it('retarget refuses an anchor whose attributes do not parse', () => {
+	const tokens = tokenize(APOSTROPHE);
+	const anchor = first(anchors(tokens));
+	expect(() => retarget(tokens, anchor, { dataRef: 'x', href: '/x' })).toThrow(
+		'links: refusing to retarget an anchor whose href does not parse',
+	);
+	// unlink needs neither attribute, so it stays available.
+	expect(serialize(unlink(tokens, anchor))).toBe('Tosef. Maasr. I, 4');
+});
+
+/** The 2 anchors that carry `href` and no `data-ref` at all. Same
+ * refusal, naming the attribute that is actually missing. */
+it('retarget refuses an anchor carrying href alone', () => {
+	const tokens = tokenize('<a class="refLink" href="/Yoma.2a">Ib.</a>');
+	const anchor = first(anchors(tokens));
+	expect(() => retarget(tokens, anchor, { dataRef: 'x', href: '/x' })).toThrow(
+		'links: refusing to retarget an anchor whose data-ref does not parse',
+	);
+});
