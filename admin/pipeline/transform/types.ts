@@ -19,15 +19,88 @@ interface TransformRecord {
 	ruleId: string;
 }
 
-/** What one `Rule.apply` call returns (spec §5, §5.1). */
+/** What one `Rule.apply` call returns (spec §5, §5.1; batch-2 link
+ * spec §3.2 for `composed` and `unlinks`). */
 interface TransformResult {
+	/** Link targets this call ASSEMBLED rather than copied whole
+	 * (batch-2 link spec §3.2 case 3). `from` is a target in this
+	 * entry's INPUT that supplied the copied work; `target` is the
+	 * `data-ref` written. `link-target.ts` takes the longest common
+	 * prefix of `from` and `target` — on CODEPOINTS, with no word
+	 * boundary — as the copied part, and requires every remaining
+	 * character of `target` to occur in that anchor's own display
+	 * text. The same test runs on the `href` against the `from`
+	 * anchor's own `href`. An undeclared compose is a violation, not
+	 * an allowance: a target absent from the input and unclaimed
+	 * fails as fabricated.
+	 *
+	 * A claim is matched to an anchor by `target === anchor.dataRef`,
+	 * and every anchor it matches must satisfy it. Two consequences
+	 * for rule authors: a claim naming a `target` no anchor carries
+	 * licenses nothing (and is not itself reported), and a compose
+	 * that rewrites only the `href` is declared by setting `target` to
+	 * that anchor's UNCHANGED `data-ref` — the `data-ref` is the key,
+	 * not necessarily the thing that moved. */
+	composed?: readonly { from: string; target: string }[];
 	/** Text this call duplicated from elsewhere in the SAME entry
 	 * (spec §5.1). The gate verifies each string occurs in the input
 	 * before permitting it — a declared copy that is not in the
 	 * source is a violation, not an allowance. */
 	copied?: readonly string[];
 	entry: SourceEntry;
+	/** Link targets this call REBUILT from two other targets in this
+	 * entry's input (batch-2 link spec §3.2 case 4, ruling of
+	 * 2026-08-23). `head` supplies a leading run of the written
+	 * `target` and `tail` supplies the rest: `link-target.ts` accepts
+	 * it only if some split of `target` makes the first part a PREFIX
+	 * of `head` and the second part a SUFFIX of `tail`, with both
+	 * contributing at least one character. Nothing else is admitted —
+	 * no gap, no third source, no character from the display — so
+	 * every character of the written target is verbatim from a target
+	 * the entry already held, and both `head` and `tail` must be in
+	 * that input.
+	 *
+	 * Two further constraints, added 2026-08-24 after four probes
+	 * against the first cut all came back clean. **The part of `tail`
+	 * the split discards must itself be a prefix of `head`** — the two
+	 * spellings of one address differ only in a short leading run of
+	 * the tail (an href's `/`), so honest claims keep clearing it
+	 * while truncating or extending the head's own locus no longer
+	 * does. And **`head` and `tail` must differ**: a string is
+	 * trivially its own prefix, so one source could otherwise extend
+	 * itself, and §3.2's "a suffix of ANOTHER" says two. Distinctness
+	 * is enforced per PAIR, not only on the declared strings: on the
+	 * href side each declared target maps to every matching anchor's
+	 * `href`, and a pair that collapses to one spelling is skipped —
+	 * so two distinct data-refs sharing a single href cannot license
+	 * an href through this case. Fail-closed, and no rule has met it.
+	 *
+	 * The case exists for `ib-targum-work-loss`: an "ib." inside a
+	 * Targum run keeps its own correct verse but loses the work, and
+	 * the repair is the antecedent's work joined to this anchor's own
+	 * locus. Case 3 cannot license it — its remainder must occur in
+	 * the DISPLAY, and Jastrow writes `Deut. VI, 22` where Sefaria
+	 * writes `6:22`, so no Sefaria locus can ever clear that test.
+	 * Case 4 asks a different question (is every character verbatim
+	 * from two named input targets?) and does not subsume case 3,
+	 * which admits display evidence this case has no way to read.
+	 *
+	 * Declared, matched to anchors and reported exactly like
+	 * `composed`. What it newly permits is in `link-target.ts`'s
+	 * blind-spot list — the split point is derived rather than
+	 * declared, so a borrowed trailing character can extend the
+	 * head's own locus. */
+	recombined?: readonly { head: string; tail: string; target: string }[];
 	records: TransformRecord[];
+	/** How many anchors this call REMOVED from the entry, counted over
+	 * the whole entry rather than per field. The markup-delta gate
+	 * reads a dropped tag pair as an improvement and the text gate is
+	 * a SUB-multiset check that reads a deletion as legitimate, so
+	 * this count is the only thing standing between an accidental
+	 * unlink and a clean run. Absent means zero, and a mismatch in
+	 * either direction — undeclared removal, or a declaration larger
+	 * than what went missing — fails. */
+	unlinks?: number;
 }
 
 interface Rule {

@@ -7,8 +7,11 @@
  * injected INSIDE an attribute value is stripped as a tag and the text
  * multiset comes back unchanged. That is the D00478 defect this branch
  * found and fixed by hand; it was caught only because `bare-rtl-hebrew`
- * sat on an audited row whose entry count moved by one. Thirteen of the
- * 80 transform rows are unaudited and would have no such tripwire.
+ * sat on an audited row whose entry count moved by one. Ten of the 78
+ * transform rows are still unaudited (13 of 80 when this was written;
+ * batch 2 audited three and withdrew two — see
+ * `docs/v2/phase-2-triage.md`, which derives both figures from the
+ * catalogue) and would have no such tripwire.
  *
  * **The assertion is a DELTA, not an absolute.** The corpus contains
  * genuinely malformed markup that must survive untouched — D00478 and

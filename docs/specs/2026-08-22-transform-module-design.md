@@ -403,7 +403,7 @@ Seven batches, one pull request each, merging to `v2`.
 | # | Batch | Rows | Instances |
 |---|---|---:|---:|
 | 1 | The `dir="rtl"` wrapper family | 3 | 4,848 |
-| 2 | Links & citations | ~14 | ~5,600 |
+| 2 | Links & citations | 10 | 1,166 |
 | 3 | Italics & punctuation seams | ~16 | ~3,900 |
 | 4 | Anchors & paren integrity | ~11 | ~2,200 |
 | 5 | Headwords & alt-headwords | ~10 | ~1,300 |
@@ -418,6 +418,45 @@ for another. The triage had paired `bare-rtl-hebrew` with
 `abbrev-in-alt-headwords` instead; that row was written, tested,
 matched to its count, and then withdrawn to `judgment` (§5.2), and its
 two entangled siblings took the slot.
+
+Batch 2 as shipped is ten rows / 1,166 catalogued instances, against
+the ~14 / ~5,600 planned — the row count held roughly and the instance
+count did not, because the family's two largest members left. The rows
+are `geresh-letter-numeral-mislink` (475),
+`prefixed-geresh-abbrev-mislink` (173), `ib-yoma-2a` (312),
+`ellipsis-fragment-anchored` (80), `plural-to-feminine-final-letter-mislink`
+(50, corrected from 57), `rabbi-name-linked-as-bible-book` (42,
+corrected from 41), `shuruk-as-yod-display-corruption` (12),
+`apparatus-cite-linked-as-scripture` (8), `ib-targum-work-loss` (8) and
+`sifre-ib-resolves-to-yalkut` (6, corrected from 5). Six repair by
+UNLINK, three by retarget, one by a display-text edit; the batch
+creates no links. Full report:
+[docs/v2/transform-batch-2.md](../v2/transform-batch-2.md).
+
+**What batch 2 did NOT take, and why each is deferred rather than
+missed:**
+
+- **The never-linked family — 6 rows / 4,192 instances**
+  (`tanhuma-never-linked` 1,137, `mekhilta-sifra-never-linked` 923,
+  `unlinked-v-span` 796, `pesikta-drk-never-linked` 695,
+  `targum-sheni-never-linked` 362, `midrash-petichta-unanchored` 279).
+  Deferred to its own spec by the ruling of 2026-08-22: creating a link
+  means
+  parsing Jastrow's printed citation into a Sefaria address, which is
+  inference, not movement, and it must settle the Sefaria-index
+  question and the linker-coverage ruling together. Batch 2 met this
+  family again from the other side — every one of `ib-yoma-2a`'s 103
+  declines is a citation Jastrow printed and nobody anchored.
+- **`v-sub-redirect-stub-mislink` (161) and `containment-fallback-mislink`
+  (22), 183 instances.** Deferred on entry-local scope: both need a
+  corpus-wide index to name the correct target, and `Rule.apply` sees
+  one entry. Extending the interface is a bigger decision than either
+  row is worth.
+- **Two rows withdrew to `judgment` on audit** — `h-cognate-self-link`
+  (85, no defect to remove) and `homograph-numeral-mismatch` (538, a
+  real defect with no nameable destination) — the §6 mechanism working
+  as designed, and the reason the batch's instance count is 1,166
+  rather than ~1,800.
 
 Batches 2–5 are text-phase. Batch 6 lands last among the large work
 because it is the one that changes entry shape.
