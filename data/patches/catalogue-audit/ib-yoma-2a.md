@@ -304,7 +304,9 @@ r.replace(/\s*\d+[ab]?(?::\d+)*\s*$/u, "").replace(/\s*\d+(?::\d+)*\s*$/u, "").t
 — cannot consume a segment RANGE, so `Niddah 36b:59-60` and
 `Niddah 36b:66-67` compared as different "works" when they are the
 same tractate and folio. Range-safe (the `passage`/`work` pair in
-§3's query above), the count is **3**:
+§3's query above), the count was **3** — and with the apostrophe
+parser fixed it is **1**, for the separate reason recorded under the
+table:
 
 | rid | antecedent | the linker's `Ib.` | reading |
 |---|---|---|---|
