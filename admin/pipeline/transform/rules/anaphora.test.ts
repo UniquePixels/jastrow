@@ -220,8 +220,9 @@ it('repairs a member inside a nested sense, recursing through sense.senses', () 
 });
 
 it('INTERVENING_CITATION reads the four cues and ignores the antecedent’s own tail', () => {
-	// "bot."/"top" trip 92 of the 272 gaps and are almost always the
-	// tail of the antecedent's OWN citation, so they are not cues.
+	// "bot."/"top" are almost always the tail of the antecedent's OWN
+	// citation, so they are not cues. The corpus cost of adding them is
+	// measured below, in `POSITION_MARKER`'s own test.
 	expect(INTERVENING_CITATION.test(' bot. חֲמָרְתִּי my ass. ')).toBe(false);
 	expect(INTERVENING_CITATION.test(' top ולא מ׳. Ib. יש לו מ׳ ')).toBe(false);
 	expect(INTERVENING_CITATION.test('.—Y. Yoma VI, 43ᵈ wait a while. ')).toBe(
@@ -453,6 +454,53 @@ it('the control agrees with the antecedent in 996 of 1,880 outside the populatio
 	}
 	expect(total).toBe(1880);
 	expect(exact).toBe(996);
+});
+
+/** The cost of the cue `INTERVENING_CITATION` deliberately omits, as a
+ * number rather than a hedge.
+ *
+ * Task 7's docstring and audit both said `beg.`/`end.`/`top`/`bot.`
+ * "trip on 92 of the 272 gaps" and that adding them would "decline a
+ * third of the population". Review could not reproduce 92 under any
+ * reading, and the correction (task 11, 2026-08-24) goes the other way:
+ * 178 of 272, and 133 of the 209 members that actually FIRE — 64% of
+ * the repairs, not a third of anything. The omission is more
+ * load-bearing than it was described as being.
+ *
+ * Pinned here rather than restated in prose, because a figure that
+ * lives only in a comment is exactly the one that was wrong. */
+const POSITION_MARKER = /\bbeg\.|\bend\.|\btop\b|\bbot\./u;
+
+it('the omitted position-marker cue would trip 178 of the 272 gaps and cost 133 of the 209 fires', async () => {
+	let gaps = 0;
+	let fires = 0;
+	let marked = 0;
+	let markedFires = 0;
+	for await (const s of sightings()) {
+		if (!isSinkMember(s.anchor)) {
+			continue;
+		}
+		const prior = citationBefore(s);
+		if (prior === undefined) {
+			continue;
+		}
+		gaps++;
+		const gap = gapBetween(s.tokens, s.list, prior.close + 1, s.anchor.open);
+		const marker = POSITION_MARKER.test(gap);
+		if (marker) {
+			marked++;
+		}
+		if (!INTERVENING_CITATION.test(gap)) {
+			fires++;
+			if (marker) {
+				markedFires++;
+			}
+		}
+	}
+	expect(gaps).toBe(272);
+	expect(fires).toBe(209);
+	expect(marked).toBe(178);
+	expect(markedFires).toBe(133);
 });
 
 /** Compose is unreachable (audit §6): no member's display carries a

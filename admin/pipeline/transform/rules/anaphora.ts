@@ -427,12 +427,23 @@ const HREF_LOCUS = /\.\d+(?:\.\d+)*(?:-\d+(?:\.\d+)*)?$/u;
  * point: a false positive costs one decline, a false negative writes
  * a wrong work past a gate that cannot see it.
  *
- * NOT among the cues: `beg.`/`end.`/`top`/`bot.`, which trip on 92 of
- * the 272 gaps and are almost always the TAIL of the antecedent's own
- * citation ("Y. Ter. VIII, 46ᵃ bot.", where `bot.` sits after the
- * anchor's own `</a>`). Treating them as intervening citations would
- * decline a third of the population for evidence of the antecedent
- * this rule is about to copy.
+ * NOT among the cues: `beg.`/`end.`/`top`/`bot.`. They are almost
+ * always the TAIL of the antecedent's own citation
+ * ("Y. Ter. VIII, 46ᵃ bot.", where `bot.` sits after the anchor's own
+ * `</a>`), so treating them as intervening citations would decline
+ * members for evidence of the antecedent this rule is about to copy.
+ *
+ * CORRECTED 2026-08-24 (task 11). This paragraph said "92 of the 272
+ * gaps" and "a third of the population"; neither reproduces, and both
+ * UNDERSTATE the case. Measured over the same 272 gaps the census
+ * uses, with `/\bbeg\.|\bend\.|\btop\b|\bbot\./u`:
+ *
+ *   178 of 272 gaps carry a position marker
+ *   133 of the 209 FIRING members carry one
+ *   → adding the cue would cost 133 repairs of 209 (64%), keeping 76
+ *
+ * `anaphora.test.ts` pins all three on every `bun qa`, so the figure
+ * cannot drift back into prose.
  */
 const INTERVENING_CITATION = /[ᵃᵇᶜᵈ]|\b[IVXLC]+,|\bl\.\s?c\.|\bs\.\s*\d/u;
 

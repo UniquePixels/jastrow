@@ -252,11 +252,30 @@ rule repairs means the same folio at a different position on it. That
 is a segment-level difference, so it sits inside the limit above
 rather than beside it, but it is a distinguishable sub-shape and the
 limit did not say so. `INTERVENING_CITATION` does not fire on these
-because a position marker carries no locus: `bot.`/`top` trip on 92 of
-the 272 gaps and are almost always the tail of the antecedent's OWN
-citation, so treating them as cues would decline a third of the
-population for evidence of the antecedent it is about to copy. The
-trade is 3 same-folio position slips against ~90 correct repairs.
+because a position marker carries no locus: `beg.`/`end.`/`top`/`bot.`
+are almost always the tail of the antecedent's OWN citation, so
+treating them as cues would decline members for evidence of the
+antecedent this rule is about to copy.
+
+**Corrected 2026-08-24 (task 11).** This paragraph said those markers
+"trip on 92 of the 272 gaps" and that using them would "decline a
+third of the population", and closed with "3 same-folio position slips
+against ~90 correct repairs". The 92 does not reproduce under any
+reading, and the true numbers make the omission MORE load-bearing, not
+less:
+
+```bash
+# over the same 272 gaps the census uses, with gapBetween's masking
+bun test admin/pipeline/transform/rules/anaphora.test.ts \
+  -t 'the omitted position-marker cue'
+# → gaps 272, fires 209, marked 178, markedFires 133
+```
+
+**178 of the 272 gaps carry a position marker, and 133 of the 209
+FIRING members do.** Adding the cue would cost 133 repairs of 209
+(64%) and keep 76. So the trade is 3 same-folio position slips against
+133 correct repairs. The figure is now pinned in `anaphora.test.ts`
+rather than stated in prose, which is why it was wrong.
 
 ### 3.2 The "different work" cases — 3, not 39
 
