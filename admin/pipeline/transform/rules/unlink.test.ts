@@ -3,8 +3,9 @@
  * task-2 brief): walks every `definition` and `language_reference`
  * field with `leadOf` + `anchors`, corpus-wide. task-2-report.md has
  * the runnable script; task-3-report.md has the ellipsis-fragment
- * equivalent. Measured: apparatus 8 (catalogued 8), rabbi 41
- * (catalogued 41).
+ * equivalent. Measured: apparatus 8 (catalogued 8), rabbi 42
+ * (catalogued 41 until task 11 corrected it — the widened predicate
+ * admits K01198's comma-lead variant per the ruling of 2026-08-23).
  */
 import { expect, it } from 'bun:test';
 import { readSourceEntries } from '../../body/source.ts';
