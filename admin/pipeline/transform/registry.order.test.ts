@@ -40,9 +40,12 @@
  *    re-fetch.
  *
  * The classification below is asserted EXHAUSTIVE. Without that, a
- * rule added to `RULES` and to neither set would satisfy every
+ * rule added to `RULES` and to none of the sets would satisfy every
  * ordering above vacuously, and this file would go quietly blind at
- * exactly the moment it is most needed.
+ * exactly the moment it is most needed. Batch 3a added a fourth set
+ * rather than widening a third: `gershayim-breaks-ref-attribute`
+ * writes a link target without adopting one from a neighbour, which
+ * is neither `RETARGET` nor `NEITHER` as those are defined.
  */
 import { describe, expect, it } from 'bun:test';
 import { parsePatterns } from '../research/patterns.ts';
@@ -81,27 +84,49 @@ const RETARGET = new Set([
  * every `href`/`data-ref` byte-identical. Both were measured free of
  * position (see `registry.ts`). */
 const NEITHER = new Set([
+	'ascii-quote-as-gershayim-in-body',
 	'bare-rtl-hebrew',
 	'latin-token-inside-rtl-span',
 	'redundant-outer-rtl-span',
 	'shuruk-as-yod-display-corruption',
 ]);
 
+/** Rules that rewrite a link target IN PLACE, by glyph substitution
+ * on the anchor's OWN bytes — gate case 5, and a fourth class rather
+ * than a corner of `NEITHER` because these rules DO write a target.
+ *
+ * Rule 1 still says nothing about where they sit, and the reason is
+ * the source of the target rather than the fact of writing one: a
+ * retarget adopts a NEIGHBOURING anchor, which an unlink rule may be
+ * about to delete, while a glyph correction reads only the anchor it
+ * is repairing. There is no antecedent to be handed a wrong address
+ * by. The registry appends the pair last anyway (see `registry.ts`),
+ * and that placement is measured free — moving the pair to the front
+ * of `RULES` leaves all 32,512 entries byte-identical, and the pair
+ * fires on the same 1,386 / 85 entries composed as it does alone. */
+const GLYPH = new Set(['gershayim-breaks-ref-attribute']);
+
 const ids = RULES.map((rule) => rule.id);
 const at = (id: string): number => ids.indexOf(id);
 
 describe('registry order', () => {
-	// Guards the three tests below against going vacuous: a new rule in
-	// none of the sets is unclassified, and the orderings would then say
-	// nothing about it while still passing.
+	// Guards the orderings below against going vacuous: a new rule in
+	// none of the sets is unclassified, and they would then say nothing
+	// about it while still passing.
 	it('every registered rule is classified', () => {
 		const unclassified = ids.filter(
-			(id) => !(UNLINK.has(id) || RETARGET.has(id) || NEITHER.has(id)),
+			(id) =>
+				!(
+					UNLINK.has(id) ||
+					RETARGET.has(id) ||
+					NEITHER.has(id) ||
+					GLYPH.has(id)
+				),
 		);
 		expect(unclassified).toEqual([]);
 		// And the other direction — a set naming a rule that no longer
 		// exists is a stale classification, not a passing test.
-		const missing = [...UNLINK, ...RETARGET, ...NEITHER].filter(
+		const missing = [...UNLINK, ...RETARGET, ...NEITHER, ...GLYPH].filter(
 			(id) => !ids.includes(id),
 		);
 		expect(missing).toEqual([]);
@@ -117,10 +142,11 @@ describe('registry order', () => {
 		expect(checkAdjacency(catalogue, RULES)).toEqual([]);
 	});
 
-	// The geresh pair is the batch's only registered entanglement, so
-	// the assertion above would hold on an empty graph too. Naming it
-	// here makes the coverage real: if the edge is ever dropped from
-	// `patterns.jsonl`, this fails rather than passing vacuously.
+	// `checkAdjacency` skips any cluster with fewer than two REGISTERED
+	// members, so the assertion above would hold on an empty graph too.
+	// Naming each registered entanglement here makes the coverage real:
+	// drop an edge from `patterns.jsonl` and this fails, where the
+	// assertion above would quietly go back to passing on nothing.
 	it('the geresh pair is entangled in the catalogue and adjacent in the registry', () => {
 		const row = catalogue.find((r) => r.id === 'geresh-letter-numeral-mislink');
 		expect(row?.entangledWith).toEqual(['prefixed-geresh-abbrev-mislink']);
@@ -129,6 +155,26 @@ describe('registry order', () => {
 				at('geresh-letter-numeral-mislink') -
 					at('prefixed-geresh-abbrev-mislink'),
 			),
+		).toBe(1);
+	});
+
+	// The gershayim pair (batch 3a), the second registered entanglement
+	// and the reason the comment above says "each". The edge was written
+	// into `patterns.jsonl` in the same task that registered the rules,
+	// precisely so `checkAdjacency` would have a cluster to judge rather
+	// than two singletons it skips.
+	it('the gershayim pair is entangled in the catalogue and adjacent in the registry', () => {
+		const body = catalogue.find(
+			(r) => r.id === 'ascii-quote-as-gershayim-in-body',
+		);
+		const tag = catalogue.find(
+			(r) => r.id === 'gershayim-breaks-ref-attribute',
+		);
+		expect(body?.entangledWith).toEqual(['gershayim-breaks-ref-attribute']);
+		expect(tag?.entangledWith).toEqual(['ascii-quote-as-gershayim-in-body']);
+		expect(
+			at('gershayim-breaks-ref-attribute') -
+				at('ascii-quote-as-gershayim-in-body'),
 		).toBe(1);
 	});
 

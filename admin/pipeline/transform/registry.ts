@@ -8,6 +8,7 @@
 import type { Pattern } from '../research/patterns.ts';
 import { ibAnaphora, sifreAnaphora, targumAnaphora } from './rules/anaphora.ts';
 import { gereshLetterNumeral, prefixedGereshAbbrev } from './rules/geresh.ts';
+import { gershayimInBody, gershayimRefAttribute } from './rules/gershayim.ts';
 import {
 	pluralToFeminineFinalLetter,
 	shurukAsYodDisplayCorruption,
@@ -220,6 +221,37 @@ const RULES: readonly Rule[] = [
 	// since the disjointness is a fact about today's corpus and the
 	// ordering rule is what keeps a re-fetch safe.
 	targumAnaphora,
+
+	// The gershayim pair (batch 3a). ONE defect, two catalogue rows,
+	// split by locus: `gershayimInBody` takes the 2,125 occurrences in
+	// document text, `gershayimRefAttribute` the 180 inside tag
+	// interiors. Adjacent by requirement — every one of the 90 damaged
+	// tags points at a headword carrying the same ASCII quote (90 of
+	// 90, 0 unresolved), so repairing either side alone breaks all 90
+	// cross-links by string identity.
+	//
+	// Order between them is MEASURED and free, like the geresh pair's:
+	// the substitution never introduces or removes a `<` or a `>`, so
+	// neither can move an occurrence into or out of the other's locus,
+	// and over the whole corpus both orders produce 0 entries
+	// differing by a byte. The pair is also order-free against the rtl
+	// trio, which matters because the audit warned that wrapping bare
+	// Hebrew would migrate 117 occurrences into scope — it does not,
+	// because the predicate reads codepoints and not markup context.
+	// Both measurements are `rules/gershayim.test.ts`'s corpus tier,
+	// re-run on every `bun qa` rather than recorded here once.
+	//
+	// Appended at the END of the list, which the measurements above
+	// say is free but do not by themselves say is RIGHT. It is the
+	// safe default for the same reason the retarget note gives: every
+	// rule above reads today's targets, truncation and all, so running
+	// last changes nothing any of them sees. Measured too, against the
+	// whole shipped registry rather than against the rtl trio alone —
+	// composed, the pair produces the same 1,386 and 85 entries it
+	// produces alone, so no rule above consumes an occurrence of it
+	// (task-3-report.md).
+	gershayimInBody,
+	gershayimRefAttribute,
 ];
 
 /** Catalogued transform rows with no rule yet. Shrinks batch by batch;
@@ -245,7 +277,6 @@ const PENDING: readonly string[] = [
 	// its 87 anchors, and the construct is 3.2% of a corpus-wide linker
 	// behaviour), so `coverage` no longer counts it and neither list may.
 	'trailing-whitespace-definition',
-	'ascii-quote-as-gershayim-in-body',
 	'italic-swallowed-terminal-period',
 	'em-dash-section-break-in-own-italic',
 	'italic-lone-punctuation',
@@ -253,7 +284,6 @@ const PENDING: readonly string[] = [
 	'trailing-em-dash-tail',
 	'anchor-italic-no-space',
 	'italic-close-paren-nospace',
-	'gershayim-breaks-ref-attribute',
 	'stranded-stem-head',
 	'empty-stem-section',
 	'sense-number-outside-closed-grammar',

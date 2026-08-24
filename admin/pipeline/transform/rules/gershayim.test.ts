@@ -17,6 +17,14 @@
  * judge the real output. A narrowed predicate or a corpus edit fails
  * here, on every `bun qa`, rather than only on a `transform:count`
  * someone remembers to run.
+ *
+ * The last two tests are the registry's order-freedom claim (spec
+ * §4.2, task 3): the pair against itself and against the rtl trio,
+ * over every entry rather than over the ones it touches. They live
+ * with the rules rather than in `registry.order.test.ts` because what
+ * they measure is a property of these predicates — that neither reads
+ * markup context — and it is the predicates a later edit would
+ * narrow.
  */
 import { expect, it } from 'bun:test';
 import { readSourceEntries } from '../../body/source.ts';
@@ -28,6 +36,11 @@ import { fieldsOf } from '../no-new-text.ts';
 import { applyTransforms } from '../run.ts';
 import type { Rule } from '../types.ts';
 import { gershayimInBody, gershayimRefAttribute } from './gershayim.ts';
+import {
+	bareRtlHebrew,
+	latinTokenInsideRtl,
+	redundantOuterRtl,
+} from './rtl.ts';
 
 const Q = String.fromCharCode(34);
 const TAG = /<[^<>]*>/gu;
@@ -323,4 +336,76 @@ it('the input corpus holds no gershayim of its own', async () => {
 		found += marks(source);
 	}
 	expect(found).toBe(0);
+}, 300_000);
+
+/**
+ * Registry order-freedom, batch-3a spec §4.2 — the claim
+ * `registry.ts`'s gershayim block makes, measured here rather than
+ * asserted there.
+ *
+ * The test above already compares the two orders on every entry the
+ * pair TOUCHES. This one compares them on every entry in the corpus,
+ * because "the loci are disjoint" and "the pair is order-free" are
+ * different claims: the second one also has to hold where neither
+ * rule fires, and a rule that fired only under one order would show
+ * up here and nowhere else.
+ */
+it('the pair is order-free against itself, over the whole corpus', async () => {
+	let differing = 0;
+	let seen = 0;
+	for await (const source of readSourceEntries()) {
+		seen += 1;
+		const ab = gershayimRefAttribute.apply(
+			gershayimInBody.apply(source).entry,
+		).entry;
+		const ba = gershayimInBody.apply(
+			gershayimRefAttribute.apply(source).entry,
+		).entry;
+		if (JSON.stringify(ab) !== JSON.stringify(ba)) {
+			differing += 1;
+		}
+	}
+	expect(seen).toBe(32_512);
+	expect(differing).toBe(0);
+}, 300_000);
+
+/**
+ * The rtl trio, which is the one ordering rider the catalogue audit
+ * actually named:
+ *
+ * > "Ordering dependency: if bare-rtl-hebrew runs first and wraps its
+ * > 117, they migrate into this row's scope."
+ *
+ * They do not, and this is why the predicate reads codepoints instead
+ * of markup context (spec §4.1): wrapping a bare Hebrew run in a
+ * `<span dir="rtl">` moves no quote across the boundary between
+ * document text and tag interior, because the quote's own neighbours
+ * are unchanged. Run the trio before the pair and after it and the
+ * corpus comes out byte-identical.
+ *
+ * Raw `apply` rather than `applyTransforms` on purpose: what is under
+ * test is the composition, and routing it through the gates would
+ * make a gate failure in some other rule read as an ordering defect
+ * here. The gates judge this pair's output in the corpus test above.
+ */
+it('the pair is order-free against the rtl trio', async () => {
+	const chain =
+		(rules: readonly Rule[]) =>
+		(source: SourceEntry): SourceEntry =>
+			rules.reduce((carried, rule) => rule.apply(carried).entry, source);
+	const both = chain(PAIR);
+	const applyRtl = chain([
+		redundantOuterRtl,
+		bareRtlHebrew,
+		latinTokenInsideRtl,
+	]);
+	let differing = 0;
+	for await (const source of readSourceEntries()) {
+		const rtlFirst = both(applyRtl(source));
+		const gershayimFirst = applyRtl(both(source));
+		if (JSON.stringify(rtlFirst) !== JSON.stringify(gershayimFirst)) {
+			differing += 1;
+		}
+	}
+	expect(differing).toBe(0);
 }, 300_000);
