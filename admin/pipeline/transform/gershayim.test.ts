@@ -3,8 +3,10 @@
  *
  * Every case here is a property of the substitution rather than a
  * story about one string: it is in place, it is idempotent, it never
- * changes length, and it holds off the 1,310,492 ASCII quotes in the
- * walked fields that are attribute delimiters or ordinary punctuation.
+ * changes length, and it holds off all but 2,305 of the 1,349,919
+ * ASCII quotes across the 256,432 walked fields — every other one is
+ * an attribute delimiter or ordinary punctuation.
+ *
  * The corpus tier — the counts, the locus partition and the gates —
  * lives in `rules/gershayim.test.ts`, which has entries to run rules
  * over.

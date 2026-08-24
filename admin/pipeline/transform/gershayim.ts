@@ -4,12 +4,12 @@
  * Jastrow's print sets Hebrew abbreviations with `״` (U+05F4). The
  * corpus writes an ASCII `"`. The predicate is that quote with a
  * Hebrew letter on BOTH sides, which is what makes it selective enough
- * to be safe: the walked fields hold 1,310,492 ASCII quotes and 2,305
- * of them are this defect. Almost every other one is an attribute
- * delimiter, and a rule that reached for `"` without this test would
- * rewrite the corpus's markup wholesale — invisibly, since the text
- * gate strips tags before comparing and the markup gate compares a
- * well-formedness delta rather than well-formedness.
+ * to be safe: the 256,432 walked fields hold 1,349,919 ASCII quotes
+ * and 2,305 of them are this defect. Almost every other one is an
+ * attribute delimiter, and a rule that reached for `"` without this
+ * test would rewrite the corpus's markup wholesale — invisibly, since
+ * the text gate strips tags before comparing and the markup gate
+ * compares a well-formedness delta rather than well-formedness.
  *
  * The substitution is IN PLACE and nothing else happens: no character
  * is inserted, deleted or moved, so output length always equals input

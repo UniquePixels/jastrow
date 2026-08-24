@@ -911,3 +911,54 @@ it('case 5 refuses a delimiter conversion that swallows the next attribute', () 
 		'glyph-corrected "" substitutes a quote that no Hebrew letters flank',
 	]);
 });
+
+/** The tolerance class carries U+0307 as well as the Hebrew points.
+ * M01940's `מ̇ס̇"ך̇` is the corpus shape: the combining dot sits
+ * between the letter and the mark. That occurrence is in the text
+ * locus, so 0 of the 180 tag-locus marks needed this — the case is
+ * here for the re-fetch that moves one into an attribute, which would
+ * otherwise be refused as a stray gershayim on an honest repair. */
+it('case 5 licenses a repair behind a combining dot', () => {
+	const dotted =
+		'<a class="refLink" href="/x" data-ref="Jastrow, מ̇ס̇"ך 1">ש</a>';
+	const healed = dotted.replace(`̇"ך`, `̇${GERSHAYIM}ך`);
+	expect(healed.replaceAll(GERSHAYIM, '"')).toBe(dotted);
+	const after = entry(healed);
+	expect(
+		checkLinkTargets(
+			entry(dotted),
+			after,
+			result(after, {
+				glyphCorrected: [
+					{ from: openTagOf(dotted), target: openTagOf(healed) },
+				],
+			}),
+		),
+	).toEqual([]);
+});
+
+/** …and the class stays strictly NARROWER than the rule's predicate,
+ * which is the whole reason the gate declares its own. The rule admits
+ * `html.ts`'s `HEBREW`, presentation forms included; this refuses a
+ * mark flanked by one. Pinned so the next person to notice the
+ * divergence widens it on a measurement, as U+0307 was widened, rather
+ * than by importing `HEBREW_ATOM` and turning the gate into an echo of
+ * the rule. */
+it('case 5 still refuses a flank the gate does not admit', () => {
+	const src =
+		'<a class="refLink" href="/x" data-ref="Jastrow, \ufb2a"ב 1">ש</a>';
+	const wide = src.replace(`\ufb2a"`, `\ufb2a${GERSHAYIM}`);
+	expect(wide.replaceAll(GERSHAYIM, '"')).toBe(src);
+	const after = entry(wide);
+	expect(
+		checkLinkTargets(
+			entry(src),
+			after,
+			result(after, {
+				glyphCorrected: [{ from: openTagOf(src), target: openTagOf(wide) }],
+			}),
+		),
+	).toEqual([
+		`glyph-corrected ${JSON.stringify(`Jastrow, \ufb2a${GERSHAYIM}ב 1`)} substitutes a quote that no Hebrew letters flank`,
+	]);
+});

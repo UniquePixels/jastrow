@@ -277,17 +277,37 @@ const GERSHAYIM = '״';
 // calls.
 const ANY_GERSHAYIM = /\u05f4/gu;
 /** A gershayim standing where the MARK actually stands: between two
- * Hebrew letters, tolerating the combining points Jastrow sets on the
+ * Hebrew letters, tolerating the combining marks Jastrow sets on the
  * left-hand letter (`ָּ` and friends — a bare lookbehind
  * leaves one corpus occurrence unmatched, per batch-3a spec §4.1).
+ *
+ * The tolerance admits U+0307 alongside the Hebrew points
+ * U+0591–U+05C7 — as an ALTERNATION rather than one class, because
+ * `noMisleadingCharacterClass` refuses a class mixing a combining
+ * character with a range that is not wholly combining. Widened
+ * 2026-08-24, on a measurement rather than on symmetry: 1 of the 2,305 marks the batch writes (M01940's
+ * `מ̇ס̇״ך̇`) sets the combining dot between the letter and the
+ * mark. That one is in the TEXT locus, where case 5 never runs, so 0
+ * of the 180 tag-locus marks failed here — the widening buys nothing
+ * on today's data and everything on a re-fetch that moves such an
+ * occurrence into an attribute, which would otherwise halt the
+ * pipeline on an honest repair.
  *
  * The gate declares this itself, exactly as it declares `GERSHAYIM`,
  * and for the same reason. It is not the rule's predicate borrowed: it
  * is an INDEPENDENT statement about where the output may differ from
  * the input, so a rule whose own predicate drifted wider would be
- * caught here rather than rubber-stamped. */
+ * caught here rather than rubber-stamped. That is why the widening is
+ * confined to the TOLERANCE class and why this must NOT import
+ * `HEBREW_ATOM` from `html.ts`, architecturally legal though that
+ * would be: a gate whose predicate is the rule's predicate can no
+ * longer catch a rule that widened its own, and would silently follow
+ * any future widening of the tokenizer's Hebrew class. The three
+ * remaining divergences are deliberate and stay — the rule admits
+ * presentation forms (U+FB1D–U+FB4F), `׳`/`״` themselves and bare
+ * points as FLANKS; this gate admits none of them. */
 const FLANKED_GERSHAYIM =
-	/(?<=[\u05d0-\u05ea\u05ef-\u05f2][\u0591-\u05c7]*)\u05f4(?=[\u05d0-\u05ea\u05ef-\u05f2])/gu;
+	/(?<=[\u05d0-\u05ea\u05ef-\u05f2](?:[\u0591-\u05c7]|\u0307)*)\u05f4(?=[\u05d0-\u05ea\u05ef-\u05f2])/gu;
 
 /** Whether some gershayim in `tag` stands somewhere a gershayim cannot
  * stand — which, in an opening tag, means it is doing a QUOTE's job
