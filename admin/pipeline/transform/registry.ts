@@ -6,7 +6,7 @@
  * neither is a silent skip, and the gate fails on it.
  */
 import type { Pattern } from '../research/patterns.ts';
-import { ibAnaphora, sifreAnaphora } from './rules/anaphora.ts';
+import { ibAnaphora, sifreAnaphora, targumAnaphora } from './rules/anaphora.ts';
 import { gereshLetterNumeral, prefixedGereshAbbrev } from './rules/geresh.ts';
 import { pluralToFeminineFinalLetter } from './rules/misc-links.ts';
 import {
@@ -132,17 +132,42 @@ const RULES: readonly Rule[] = [
 	// the other's antecedent — this row accepts only a `Sifrei …`
 	// anchor, which `ibAnaphora` never writes.
 	//
-	// Task 8's other row, `ib-targum-work-loss`, is NOT registered and
-	// stays in PENDING. Its 9 occurrences were all read and all confirm
-	// the defect, but the correct target — the antecedent Targum work
-	// plus this anchor's own already-correct plain-book locus — is a
-	// recombination of two input targets, which spec §3.2 has no case
-	// for and `link-target.ts` rejects on all 9. See
-	// task-8-report.md; the obstruction is general (Jastrow's displays
-	// are Roman-numeral abbreviations, Sefaria's refs are Arabic, so
-	// case 3's display-remainder test can never license a locus), not
-	// specific to this row.
 	sifreAnaphora,
+
+	// ib-targum-work-loss (batch 2, task 8) — the THIRD retarget, and
+	// gate case 4's first user. It was briefed to run here and it must:
+	// appended below both `ib-` rows per the retarget-after-retarget
+	// rule stated above, so it reads an anchor sequence those two have
+	// already finished correcting rather than one they are about to.
+	//
+	// The case-4 ruling of 2026-08-23 is what let this row ship at all.
+	// Its repair joins the antecedent Targum anchor's WORK to this
+	// anchor's own already-correct verse, and cases 1-3 cannot license
+	// that: case 3's remainder must appear in the DISPLAY, and Jastrow
+	// writes `Deut. VI, 22` where Sefaria writes `6:22`. All 9
+	// occurrences failed the gate before the amendment.
+	//
+	// Measured over all 32,512 entries, at ADDRESS level and in every
+	// order, not by count:
+	//
+	//   isolated                      9 occurrences / 8 entries
+	//                                 (8 records — C00446 holds two
+	//                                 members in one definition)
+	//   composed, shipped order       same 9, same addresses, byte
+	//                                 for byte
+	//   ibAnaphora / sifreAnaphora    189 / 1 records, both unchanged
+	//                                 by the append
+	//   all 6 permutations of the
+	//     three retarget rules        6,212 records each and identical
+	//                                 addresses in every one
+	//
+	// The three populations are pairwise disjoint — 0 entries shared by
+	// any pair — so no rule here can consume, create or destroy
+	// another's antecedent. That is measured rather than argued, and it
+	// is why the order is free; it is NOT a reason to reorder them,
+	// since the disjointness is a fact about today's corpus and the
+	// ordering rule is what keeps a re-fetch safe.
+	targumAnaphora,
 ];
 
 /** Catalogued transform rows with no rule yet. Shrinks batch by batch;
@@ -217,7 +242,6 @@ const PENDING: readonly string[] = [
 	'section-break-terminator-loss',
 	'entry-final-comma',
 	'italic-swallows-close-paren',
-	'ib-targum-work-loss',
 	'see-particle-lost',
 	'jt-double-wrapped-citation',
 ];

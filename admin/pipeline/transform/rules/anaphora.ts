@@ -83,7 +83,10 @@
  *    `INTERVENING_CITATION` is that check — syntactic, re-derived from
  *    the text on every corpus pass, with no rid list to go stale, and
  *    deliberately conservative: a Roman numeral in prose costs a
- *    decline, never a mislink.
+ *    decline, never a mislink. The span it reads is `gapBetween`,
+ *    which masks text inside anchors; that was corrected in Task 8 and
+ *    changes nothing here (272 of 272 gaps agree, 209 fire either
+ *    way), but see its docstring for why the correction was needed.
  *
  * ## The decline census (accounts for the row's 312)
  *
@@ -195,20 +198,87 @@
  * only surviving machine-readable trace. Recorded for the maintainer
  * rather than decided here.
  *
- * ## Task 8's other row is NOT in this module
+ * ---
  *
- * `ib-targum-work-loss` (9 occurrences / 8 entries) was read in full
- * and every one confirms the defect, but it is not registered. Its
- * correct target — the antecedent Targum work plus this anchor's OWN
- * already-correct plain-book locus — recombines two input targets,
- * a shape §3.2 has no case for; `checkLinkTargets` rejects all 9. The
- * obstruction is general rather than particular to the row: Jastrow's
- * displays are Roman-numeral abbreviations (`Deut. VI, 22`) and
- * Sefaria's refs are Arabic (`Onkelos Deuteronomy 6:22`), so case 3's
- * display-remainder test can never license a locus in this corpus.
- * Even the one member whose antecedent shares its book fails, on the
- * characters `6` and `:` alone. `task-8-report.md` carries the gate's
- * verbatim verdicts.
+ * # `ib-targum-work-loss` (batch-2 link spec §4 row 9)
+ *
+ * Task 8's third arm, and gate case 4's FIRST USER. Jastrow cites a
+ * Targum, then continues `Ib. Lev. IX, 7`; the linker reads the verse
+ * correctly and loses the work, landing on the plain Hebrew-Bible book
+ * instead of the Targum's rendering of it. Both `Targ.` and `ib.` sit
+ * outside the anchor, which is why the row is display-probe-invisible
+ * and why the brief's own Step 1 query — which tests the DISPLAY —
+ * finds none of the nine.
+ *
+ * ## The population
+ *
+ * An anchor whose target is a bare `Book chapter:verse` carrying no
+ * work, immediately preceded by text ending in `ib.`, with a Targum
+ * anchor before it in the same definition: **9 occurrences / 8
+ * entries**, the catalogued figure reproduced to the occurrence.
+ * C00446 holds two, in one definition, as a chain.
+ *
+ * The row's null model — "`ib.` means the same BOOK, so the plain
+ * verse is right" — is refuted on my own read of all nine: **8 of 9
+ * name a DIFFERENT book from the antecedent** (Ex→Lev, Gen→Num,
+ * Num→Ex, Deut→Lev, Gen→Deut, Gen→Num, Deut→Lev), so `ib.` can only
+ * be carrying the work. M00567 is the one that repeats the book, and
+ * it is repaired on the same reading as the other eight.
+ *
+ * ## The repair, and why it needed a new gate case
+ *
+ * The anaphor already carries the right verse. So the correct target
+ * is the antecedent's WORK PREFIX joined to the anchor's OWN existing
+ * target — every character verbatim from one of two input targets:
+ *
+ * ```
+ * head  Targum Jonathan on Deuteronomy 17:20  → 'Targum Jonathan on '
+ * tail  Leviticus 9:7                         → whole
+ * new   Targum Jonathan on Leviticus 9:7
+ * ```
+ *
+ * Cases 1–3 cannot license that, and the limit is general rather than
+ * particular to this row: case 3's remainder must occur in the
+ * anchor's DISPLAY, and Jastrow's displays are Roman-numeral
+ * abbreviations (`Deut. VI, 22`) where Sefaria's refs are Arabic
+ * (`6:22`). All 9 were run through `checkLinkTargets` and all 9
+ * failed, M00567 decisively: it is the SAME-book member, so the common
+ * prefix eats work and book alike and the remainder is `6:22` alone —
+ * which still fails, on the characters `6` and `:`. That measurement
+ * is what carried the 2026-08-23 ruling adding **case 4,
+ * recombination**. See `repairTargumAnaphor` for why this arm cannot
+ * reach the abuses that case's blind-spot list records.
+ *
+ * ## The census (accounts for the row's 9)
+ *
+ * ```
+ *   9  population
+ * − 0  declines
+ * = 9  RETARGET — 9 occurrences / 8 entries, 8 records
+ * ```
+ *
+ * A 0-decline arm is worth a second look rather than a celebration,
+ * since a rule that declines nothing may simply not be asking. It
+ * asks: the four population conditions reject Jastrow
+ * cross-references, Talmud folios and already-correct Targum anchors,
+ * and the antecedent search can still decline for want of a Targum
+ * anchor, for an enclosing one, for an unanchored citation in the gap,
+ * or for an `href` that does not match its derived prefix. None of
+ * those fires on today's corpus. `anaphora.test.ts` pins each refusal
+ * against a fixture so the arm's silence stays a measurement.
+ *
+ * ## Corroboration outside the entry
+ *
+ * Case 4 is a provenance claim about characters, not a promise that
+ * the assembled address exists — its own blind-spot list says so. As a
+ * check the pipeline is not otherwise able to make: **5 of the 9
+ * targets this arm writes already occur as anchors elsewhere in the
+ * corpus** (`Targum Jonathan on Leviticus 9:7`, `… Exodus 28:39`,
+ * `… Deuteronomy 23:22`, `… Leviticus 11:13`, `Onkelos Numbers 12:8`).
+ * The other 4 are verses no other entry happens to cite. Corpus-level
+ * evidence, deliberately kept out of the rule — `Rule.apply` is
+ * entry-local by §3.3 — and recorded here as support for the ruling
+ * rather than as a test.
  */
 import type { SourceEntry, SourceSense } from '../../body/types.ts';
 import { serialize, type Token, tokenize } from '../html.ts';
@@ -244,6 +314,51 @@ const RULE_ID = 'ib-yoma-2a';
 
 /** Must match an `id` in data/patches/patterns.jsonl. */
 const SIFRE_RULE_ID = 'sifre-ib-resolves-to-yalkut';
+
+/** Must match an `id` in data/patches/patterns.jsonl. */
+const TARGUM_RULE_ID = 'ib-targum-work-loss';
+
+/**
+ * Every work prefix Sefaria uses for a Targum, as it appears at the
+ * head of a `data-ref` — the string this arm copies and the ONLY
+ * thing it takes from the antecedent.
+ *
+ * This is an enumerated list, so it is LOUD ON DRIFT per the
+ * maintainer's 2026-08-23 ruling: `anaphora.test.ts` pins that every
+ * one of the corpus's 45 distinct Targum work-and-book combinations
+ * begins with one of these five, so a sixth spelling in a re-fetch
+ * fails the suite instead of quietly shrinking the arm.
+ *
+ * A syntactic predicate was tried first and rejected. "A Targum
+ * target is one whose leading words are not a Hebrew-Bible book"
+ * needs a book list, which is 39 entries instead of 5 and drifts the
+ * same way; "…is one containing the word Targum" misses `Onkelos …`,
+ * which is 3,660 anchors and two of this row's nine. Five prefixes
+ * measured off the corpus is the smaller and more honest list.
+ *
+ * None is a prefix of another, so match order cannot change the
+ * answer; they are longest-first for reading only.
+ */
+const TARGUM_WORKS: readonly string[] = [
+	'Targum Jonathan on ',
+	'Aramaic Targum to ',
+	'Targum Jerusalem, ',
+	'Targum of ',
+	'Onkelos ',
+];
+
+/** An `ib.` continuation Jastrow printed OUTSIDE the anchor, abutting
+ * it — `Targ. Y. Deut. XVII, 20. Ib. <a>Lev. IX, 7</a>`. The row's
+ * `reason` calls itself "display-probe-invisible" for exactly this
+ * reason, and the brief's own Step 1 query tests the DISPLAY and so
+ * finds none of the nine. */
+const IB_CONTINUATION = /\bib\.[\s,;]*$/iu;
+
+/** A bare scriptural address: a book name carrying no work, then a
+ * chapter and verse — `Leviticus 6:3`, `I Samuel 2:8`. Shape rather
+ * than a list of the 39 books, so nothing has to be maintained as
+ * Sefaria's naming moves. It is the TAIL this arm copies whole. */
+const BOOK_LOCUS = /^[^\d]+\s\d+:\d+$/u;
 
 /**
  * The Sifré work family as Sefaria spells it.
@@ -365,6 +480,62 @@ function textBetween(
 	return text;
 }
 
+/**
+ * The same span, minus every character that sits INSIDE an anchor —
+ * the text `INTERVENING_CITATION` should actually be reading.
+ *
+ * That cue exists to find a citation Jastrow printed which the linker
+ * never ANCHORED (see its docstring). Text inside an anchor is by
+ * definition an anchored citation, so feeding it to the cue asks the
+ * wrong question. `textBetween` did exactly that, and it went
+ * unnoticed while `ib-yoma-2a` was the only caller: its `accept`
+ * admits any citation, so its antecedent is nearly always the nearest
+ * anchor and its gaps hold no anchored display to trip on.
+ *
+ * An arm whose `accept` SKIPS anchors meets it immediately.
+ * `ib-targum-work-loss` walks past non-Targum anchors by design, and
+ * C00446's second `Ib.` sits behind its own defective sibling
+ * `Lev. IX, 7` — whose `IX,` trips the Roman-numeral cue. Declining
+ * there would be a false negative produced by the arm's own skipped
+ * anchor, not by anything Jastrow left unanchored.
+ *
+ * Measured before changing it (2026-08-23): over `ib-yoma-2a`'s 312
+ * members and all 272 gaps it measures, this and `textBetween` return
+ * the SAME verdict in 272 of 272, and the fire count is 209 either
+ * way. So the correction is free for the shipped rule and the code now
+ * matches what its own docstring claims.
+ *
+ * Only `usable` anchors mask text — closed, well-formed, not inside
+ * another tag's damaged interior. The conservative direction on
+ * purpose: an unclosed anchor's "display" runs to the end of the
+ * stream (`links.ts`'s `displayOf`), so honouring one would blank the
+ * whole gap and pass VACUOUSLY, which is the failure mode
+ * `antecedentOf`'s enclosure refusal already exists to prevent.
+ * Masking less can only cost a decline; masking more can write a
+ * wrong work.
+ */
+function gapBetween(
+	tokens: readonly Token[],
+	list: readonly Anchor[],
+	from: number,
+	to: number,
+): string {
+	let text = '';
+	for (let at = from; at < to; at++) {
+		const token = tokens[at];
+		if (token === undefined || token.kind !== 'text') {
+			continue;
+		}
+		const inside = list.some(
+			(anchor) => usable(anchor) && anchor.open < at && anchor.close > at,
+		);
+		if (!inside) {
+			text += token.value;
+		}
+	}
+	return text;
+}
+
 /** The default `accept`: a CITATION — a non-empty target that is not a
  * `Jastrow, …` cross-reference. Named so the two arms' antecedent
  * tests read as two values of one parameter rather than as two
@@ -380,6 +551,19 @@ function isCitation(anchor: Anchor): boolean {
  * one would repeat the very error the row is about. */
 function isSifreCitation(anchor: Anchor): boolean {
 	return anchor.dataRef.startsWith(SIFRE_WORK);
+}
+
+/** The Targum work prefix this anchor's target carries, or `undefined`
+ * when it carries none. Doubles as the `accept` predicate for
+ * `ib-targum-work-loss`'s antecedent search and as the test for "this
+ * anchor is already correct, leave it alone". */
+function targumWorkOf(anchor: Anchor): string | undefined {
+	return TARGUM_WORKS.find((work) => anchor.dataRef.startsWith(work));
+}
+
+/** A candidate antecedent for the Targum arm. */
+function isTargumCitation(anchor: Anchor): boolean {
+	return targumWorkOf(anchor) !== undefined;
 }
 
 /**
@@ -442,7 +626,7 @@ function antecedentOf(
 	if (citation === undefined || citation.close >= anchor.open) {
 		return;
 	}
-	const gap = textBetween(tokens, citation.close + 1, anchor.open);
+	const gap = gapBetween(tokens, list, citation.close + 1, anchor.open);
 	return INTERVENING_CITATION.test(gap) ? undefined : citation;
 }
 
@@ -454,12 +638,25 @@ interface Compose {
 	target: string;
 }
 
+/** One declared recombination, mirroring `TransformResult.recombined`'s
+ * element shape (spec §3.2 case 4, ruling of 2026-08-23). */
+interface Recombine {
+	head: string;
+	tail: string;
+	target: string;
+}
+
 /** What one arm wants written on one anchor: the new target, and the
  * `composed` claim the gate needs to license it — absent when the
  * target is copied WHOLE off an input anchor (spec §3.2 case 2), which
  * needs no declaration and is the stronger of the two. */
 interface Repair {
 	claim?: Compose;
+	/** A case 4 declaration. Mutually exclusive with `claim` in
+	 * practice — the two cases answer different questions and no arm
+	 * here needs both on one anchor — but nothing enforces that,
+	 * because `link-target.ts` accepts an anchor licensed by either. */
+	rejoin?: Recombine;
 	target: Target;
 }
 
@@ -506,6 +703,7 @@ function retargetAnaphora(
 ): {
 	claims: Compose[];
 	moved: number;
+	rejoins: Recombine[];
 	text: string;
 } {
 	const tokens = tokenize(definition);
@@ -513,6 +711,7 @@ function retargetAnaphora(
 	let next: readonly Token[] = tokens;
 	let moved = 0;
 	const claims: Compose[] = [];
+	const rejoins: Recombine[] = [];
 	list.forEach((anchor, at) => {
 		if (!usable(anchor)) {
 			return;
@@ -529,9 +728,17 @@ function retargetAnaphora(
 		if (found.claim !== undefined) {
 			claims.push(found.claim);
 		}
+		if (found.rejoin !== undefined) {
+			rejoins.push(found.rejoin);
+		}
 		moved += 1;
 	});
-	return { claims, moved, text: moved === 0 ? definition : serialize(next) };
+	return {
+		claims,
+		moved,
+		rejoins,
+		text: moved === 0 ? definition : serialize(next),
+	};
 }
 
 /**
@@ -561,14 +768,19 @@ function retargetOverDefinitions(
 ): TransformResult {
 	const records: TransformRecord[] = [];
 	const composed: Compose[] = [];
+	const recombined: Recombine[] = [];
 	const walk = (senses: readonly SourceSense[]): SourceSense[] =>
 		senses.map((sense) => {
 			let { definition } = sense;
 			if (definition !== undefined) {
-				const { claims, moved, text } = retargetAnaphora(definition, repair);
+				const { claims, moved, rejoins, text } = retargetAnaphora(
+					definition,
+					repair,
+				);
 				if (moved > 0) {
 					definition = text;
 					composed.push(...claims);
+					recombined.push(...rejoins);
 					records.push({ detail: text, rid: entry.rid, ruleId });
 				}
 			}
@@ -581,6 +793,7 @@ function retargetOverDefinitions(
 	const rewritten = walk(entry.content.senses);
 	return {
 		...(composed.length === 0 ? {} : { composed }),
+		...(recombined.length === 0 ? {} : { recombined }),
 		entry:
 			records.length === 0
 				? entry
@@ -722,9 +935,155 @@ const sifreAnaphora: Rule = {
 	phase: 'text-repairs',
 };
 
+/**
+ * Whether this anchor is a member of the Targum row: Jastrow printed
+ * an `ib.` continuation immediately before it, and the linker resolved
+ * it to a bare scriptural address carrying no work at all.
+ *
+ * Four conditions, all syntactic, none of them a list of rids or
+ * books. Measured 2026-08-23: they select **9 occurrences / 8
+ * entries** corpus-wide — the catalogued figure reproduced to the
+ * occurrence, from the row's `description` read literally.
+ *
+ * `BOOK_LOCUS` is what keeps the arm off everything else an `ib.` can
+ * precede. Without it the predicate also selects Jastrow
+ * cross-references (A03251's `Targ. O. ib. <a>אַנְתּוּסָאֵי</a>`, where
+ * prepending a work would be nonsense) and Talmud folios, neither of
+ * which a Targum work may govern. `LEXICAL` is belt-and-braces behind
+ * it — `Jastrow, פ 1` fails `BOOK_LOCUS` anyway — and is kept because
+ * the two exclusions state different things and the cheaper one going
+ * quiet should not silently remove the other.
+ *
+ * `targumWorkOf(anchor) === undefined` excludes the members the
+ * resolver already got RIGHT. The row's `reason` counts 2 of them, and
+ * they are the evidence the defect is a resolver miss rather than a
+ * missing work in the mapping — so moving them would destroy the row's
+ * own control.
+ */
+function isTargumMember(lead: string, anchor: Anchor): boolean {
+	return (
+		BOOK_LOCUS.test(anchor.dataRef) &&
+		!anchor.dataRef.startsWith(LEXICAL) &&
+		targumWorkOf(anchor) === undefined &&
+		IB_CONTINUATION.test(lead)
+	);
+}
+
+/**
+ * `ib-targum-work-loss`'s per-anchor decision, and gate case 4's first
+ * user.
+ *
+ * The anaphor already carries the RIGHT VERSE and the wrong work: the
+ * linker read `Lev. IX, 7` correctly and simply did not know the `Ib.`
+ * before it was still inside a Targum run. So the repair is the
+ * antecedent's work joined to this anchor's own existing target, and
+ * both halves are verbatim from the entry's input:
+ *
+ * ```
+ * head  Targum Jonathan on Deuteronomy 17:20   → prefix 'Targum Jonathan on '
+ * tail  Leviticus 9:7                          → whole
+ * new   Targum Jonathan on Leviticus 9:7
+ * ```
+ *
+ * ## Why this cannot mint the address case 4's blind-spot list warns of
+ *
+ * That list records that the split offset is DERIVED, so a borrowed
+ * trailing character can extend the head's own locus —
+ * `Onkelos Deuteronomy 13:2` plus a `2` giving `13:22`, a verse
+ * nothing cites. The gate will not catch that; the predicate has to.
+ * Two properties here make it unreachable rather than merely unlikely:
+ *
+ * 1. **The head contributes exactly a work prefix**, which ends in a
+ *    space (or `_` in the `href`) and so terminates before any digit
+ *    of the head's locus. There is no offset at which a digit of
+ *    `13:2` can enter the written target.
+ * 2. **The tail is always THIS anchor's own target, contributed
+ *    whole** — never a sibling's, and never partially. So the wrong-
+ *    pairing hazard the list describes has no way in: there is only
+ *    ever one candidate tail, and it is the one the anchor already
+ *    points at.
+ *
+ * `anaphora.test.ts` pins both as invariants over every fire
+ * (`written === work + tail` and `head.startsWith(work)`), not as
+ * prose.
+ *
+ * ## The `href`, derived and then CHECKED
+ *
+ * The `href` prefix is spelled from the work by Sefaria's own
+ * convention (`Targum Jonathan on ` → `/Targum_Jonathan_on_`), which
+ * is an assumption about URLs rather than something the entry states.
+ * So it is verified rather than trusted: the antecedent's real `href`
+ * must actually start with the derived prefix, and the anchor's own
+ * `href` must be rooted, or the arm DECLINES. All 9 satisfy both;
+ * a re-fetch that respells either one declines instead of minting.
+ *
+ * ## C00446's chain
+ *
+ * Its second `Ib.` sits behind the first, which is itself a member.
+ * The head is the **antecedent Targum anchor reached by walking past
+ * the unrepaired first member**, not the first member's repaired
+ * target. Both give `Targum Jonathan on ` here, so the readings are
+ * indistinguishable by result and must be settled on principle:
+ *
+ * - the repaired target is not in the entry's INPUT, so declaring it
+ *   as `head` would fail the gate outright — case 4 requires both
+ *   sources to be present in `before`;
+ * - `retargetAnaphora` runs every arm against the PRE-EDIT anchor
+ *   list by design (see its docstring), so no arm can read another
+ *   member's fresh output even within one definition;
+ * - and `ibidem` means the work last NAMED, which the run's opening
+ *   Targum citation named and the intervening member merely inherited.
+ *
+ * The pre-edit reading is therefore the implemented one, and it is the
+ * only one that is lawful as well as correct.
+ */
+const repairTargumAnaphor: Repairer = (
+	tokens: readonly Token[],
+	list: readonly Anchor[],
+	at: number,
+): Repair | undefined => {
+	const anchor = list[at];
+	if (
+		anchor === undefined ||
+		!isTargumMember(textBetween(tokens, 0, anchor.open), anchor)
+	) {
+		return;
+	}
+	const antecedent = antecedentOf(tokens, list, at, isTargumCitation);
+	const work = antecedent === undefined ? undefined : targumWorkOf(antecedent);
+	if (antecedent === undefined || work === undefined) {
+		return;
+	}
+	const hrefWork = `/${work.replaceAll(' ', '_')}`;
+	if (!(antecedent.href.startsWith(hrefWork) && anchor.href.startsWith('/'))) {
+		return;
+	}
+	const dataRef = work + anchor.dataRef;
+	return {
+		rejoin: { head: antecedent.dataRef, tail: anchor.dataRef, target: dataRef },
+		target: { dataRef, href: hrefWork + anchor.href.slice(1) },
+	};
+};
+
+/**
+ * An `ib.` continuation inside a Targum run, retargeted off the plain
+ * Hebrew-Bible book and onto the Targum work its antecedent carries —
+ * the antecedent's work joined to the anchor's own already-correct
+ * verse (gate case 4). All 9 occurrences fire, in 8 entries; there is
+ * no decline arm. See `repairTargumAnaphor`.
+ */
+const targumAnaphora: Rule = {
+	apply: (entry: SourceEntry): TransformResult =>
+		retargetOverDefinitions(entry, TARGUM_RULE_ID, repairTargumAnaphor),
+	id: TARGUM_RULE_ID,
+	phase: 'text-repairs',
+};
+
 export {
 	ANAPHOR,
 	antecedentOf,
+	BOOK_LOCUS,
+	gapBetween,
 	HREF_LOCUS,
 	INTERVENING_CITATION,
 	ibAnaphora,
@@ -733,11 +1092,16 @@ export {
 	isSifreMember,
 	isSinkMember,
 	isSpentAnaphor,
+	isTargumCitation,
+	isTargumMember,
 	REF_LOCUS,
 	SIFRE_ANAPHOR,
 	SIFRE_LABEL,
 	SIFRE_WORK,
 	sifreAnaphora,
+	TARGUM_WORKS,
+	targumAnaphora,
+	targumWorkOf,
 	textBetween,
 	usable,
 };

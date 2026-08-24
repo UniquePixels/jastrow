@@ -24,17 +24,23 @@ import { applyTransforms } from '../run.ts';
 import {
 	ANAPHOR,
 	antecedentOf,
+	gapBetween,
 	HREF_LOCUS,
 	INTERVENING_CITATION,
 	ibAnaphora,
 	isSifreCitation,
 	isSinkMember,
 	isSpentAnaphor,
+	isTargumCitation,
+	isTargumMember,
 	REF_LOCUS,
 	SIFRE_ANAPHOR,
 	SIFRE_LABEL,
 	SIFRE_WORK,
 	sifreAnaphora,
+	TARGUM_WORKS,
+	targumAnaphora,
+	targumWorkOf,
 	textBetween,
 	usable,
 } from './anaphora.ts';
@@ -783,4 +789,350 @@ it('every Sifré compose the corpus produces passes checkLinkTargets', async () 
 		fired += out.records.length;
 	}
 	expect(fired).toBe(1);
+});
+
+// ------------------------------------------------------ ib-targum-work-loss
+
+/** A00589 *אַוְורַקְסִין, excerpt — the plain different-book shape, and the
+ * commonest of the nine. `Targ. Y. I Ex. XXXIX, 28` then `Ib.` then a
+ * Leviticus verse: the work carries over, the book does not. */
+const A00589 =
+	'<i>trowsers</i>. <a class="refLink" ' +
+	'href="/Targum_Jonathan_on_Exodus.39.28" ' +
+	'data-ref="Targum Jonathan on Exodus 39:28">Targ. Y. I Ex. XXXIX, 28</a> ' +
+	'<span dir="rtl">אוורקסי</span>. Ib. ' +
+	'<a class="refLink" href="/Leviticus.6.3" ' +
+	'data-ref="Leviticus 6:3">Lev. VI, 3</a> (ed. Vien.).';
+
+/** M00567 מוֹפֵת ², excerpt — the SAME-book member, and the one that
+ * settled the ruling. Its common prefix with the head eats the work
+ * AND the book, leaving `6:22`, which case 3 still could not license
+ * because the display writes `VI`. */
+const M00567 =
+	'<a class="refLink" href="/Onkelos_Deuteronomy.13.2" ' +
+	'data-ref="Onkelos Deuteronomy 13:2">Targ. O. Deut. XIII, 2</a>; a. e.—Pl. ' +
+	'<span dir="rtl">מוֹפְתִין</span>. Ib. ' +
+	'<a class="refLink" href="/Deuteronomy.6.22" ' +
+	'data-ref="Deuteronomy 6:22">Deut. VI, 22</a>. ' +
+	'<a class="refLink" href="/Onkelos_Exodus.4.21" ' +
+	'data-ref="Onkelos Exodus 4:21">Targ. O. Ex. IV, 21</a>; a. fr.';
+
+/** C00446 גּוּס, excerpt — the CHAIN. The second `Ib.`'s nearest anchor
+ * is the first member, which is itself defective, so the arm must walk
+ * past it to the Targum anchor. Its display `Lev. IX, 7` also carries
+ * the Roman numeral that `INTERVENING_CITATION` looks for, which is
+ * why `gapBetween` has to mask text inside anchors. */
+const C00446_CHAIN =
+	' as h. Hif.—<a class="refLink" ' +
+	'href="/Targum_Jonathan_on_Deuteronomy.17.20" ' +
+	'data-ref="Targum Jonathan on Deuteronomy 17:20">Targ. Y. Deut. XVII, 20</a>' +
+	'. Ib. <a class="refLink" href="/Leviticus.9.7" ' +
+	'data-ref="Leviticus 9:7">Lev. IX, 7</a> ' +
+	'<span dir="rtl">א׳ מנדעך</span> take courage. Ib. ' +
+	'<a class="refLink" href="/Exodus.28.39" ' +
+	'data-ref="Exodus 28:39">Ex. XXVIII, 39</a> the haughty.';
+
+const targum = (e: SourceEntry): { entry: SourceEntry; records: unknown[] } =>
+	applyTransforms(e, 'text-repairs', [targumAnaphora]);
+
+it('a different-book ib. adopts the antecedent’s Targum work (gate case 4)', () => {
+	const out = targum(entry('A00589', A00589));
+	expect(definitionOf(out)).toContain(
+		'<a class="refLink" href="/Targum_Jonathan_on_Leviticus.6.3" ' +
+			'data-ref="Targum Jonathan on Leviticus 6:3">Lev. VI, 3</a>',
+	);
+	expect(out.records).toHaveLength(1);
+});
+
+it('the same-book member is repaired too — M00567, the one that carried the ruling', () => {
+	const out = targum(entry('M00567', M00567));
+	expect(definitionOf(out)).toContain(
+		'<a class="refLink" href="/Onkelos_Deuteronomy.6.22" ' +
+			'data-ref="Onkelos Deuteronomy 6:22">Deut. VI, 22</a>',
+	);
+	// The antecedent itself must NOT move: it is the head, not a member.
+	expect(definitionOf(out)).toContain(
+		'data-ref="Onkelos Deuteronomy 13:2">Targ. O. Deut. XIII, 2</a>',
+	);
+	expect(out.records).toHaveLength(1);
+});
+
+it('the C00446 chain repairs BOTH links, and both take the run’s opening work', () => {
+	const result = targumAnaphora.apply(entry('C00446', C00446_CHAIN));
+	// Both heads are the INPUT Targum anchor — never the first member's
+	// repaired target, which is not in the input and could not be
+	// declared. See `repairTargumAnaphor` on why that is the lawful
+	// reading as well as the correct one.
+	expect(result.recombined).toEqual([
+		{
+			head: 'Targum Jonathan on Deuteronomy 17:20',
+			tail: 'Leviticus 9:7',
+			target: 'Targum Jonathan on Leviticus 9:7',
+		},
+		{
+			head: 'Targum Jonathan on Deuteronomy 17:20',
+			tail: 'Exodus 28:39',
+			target: 'Targum Jonathan on Exodus 28:39',
+		},
+	]);
+	const after = definitionOf(result) ?? '';
+	expect(after).toContain('data-ref="Targum Jonathan on Leviticus 9:7"');
+	expect(after).toContain('data-ref="Targum Jonathan on Exodus 28:39"');
+});
+
+it('the chain’s second link would decline if the gap counted its sibling’s display', () => {
+	// The regression this pins: `Lev. IX, 7` holds `IX,`, which is one
+	// of INTERVENING_CITATION's four cues. Measuring the gap with
+	// `textBetween` (anchor display included) declines the second link;
+	// `gapBetween` masks text inside anchors and it fires. Neither
+	// reading changes `ib-yoma-2a` — 272 of 272 gaps agree, 209 either
+	// way — so this is the only place the difference is observable.
+	const tokens = tokenize(C00446_CHAIN);
+	const list = anchors(tokens);
+	const at = list.length - 1;
+	const [head] = list;
+	const member = list[at];
+	if (head === undefined || member === undefined) {
+		throw new Error('expected a Targum antecedent and a chained member');
+	}
+	const naive = textBetween(tokens, head.close + 1, member.open);
+	const masked = gapBetween(tokens, list, head.close + 1, member.open);
+	expect(INTERVENING_CITATION.test(naive)).toBe(true);
+	expect(INTERVENING_CITATION.test(masked)).toBe(false);
+	expect(antecedentOf(tokens, list, at, isTargumCitation)?.dataRef).toBe(
+		'Targum Jonathan on Deuteronomy 17:20',
+	);
+});
+
+it('the written target is the work joined to the anchor’s WHOLE own target', () => {
+	// The invariant that puts case 4's derived-split abuse out of
+	// reach. The head contributes a prefix ending in a separator, so no
+	// digit of its own locus can enter; the tail is contributed whole,
+	// so no sibling can be paired in. Checked on every fire below.
+	for (const [rid, text] of [
+		['A00589', A00589],
+		['M00567', M00567],
+		['C00446', C00446_CHAIN],
+	] as const) {
+		for (const claim of targumAnaphora.apply(entry(rid, text)).recombined ??
+			[]) {
+			const work = TARGUM_WORKS.find((w) => claim.target.startsWith(w));
+			expect(work).toBeDefined();
+			expect(claim.target).toBe(`${work ?? ''}${claim.tail}`);
+			expect(claim.head.startsWith(work ?? '')).toBe(true);
+		}
+	}
+});
+
+it('declines when no Targum anchor precedes the ib.', () => {
+	const noTargum =
+		'<a class="refLink" href="/Chullin.139a" ' +
+		'data-ref="Chullin 139a">Ḥull. 139ᵃ</a>. Ib. ' +
+		'<a class="refLink" href="/Leviticus.6.3" ' +
+		'data-ref="Leviticus 6:3">Lev. VI, 3</a>';
+	const out = targum(entry('X00005', noTargum));
+	expect(out.records).toHaveLength(0);
+	expect(definitionOf(out)).toBe(noTargum);
+	expect(
+		targumAnaphora.apply(entry('X00005', noTargum)).recombined,
+	).toBeUndefined();
+});
+
+it('declines when an UNANCHORED citation intervenes — the guard gapBetween keeps', () => {
+	// Masking anchor text must not disarm restriction 2. Here the
+	// Yerushalmi citation between the Targum anchor and the `Ib.` is
+	// bare text, so it still trips the cue and the arm declines.
+	const intervening =
+		'<a class="refLink" href="/Onkelos_Genesis.24.16" ' +
+		'data-ref="Onkelos Genesis 24:16">Targ. O. Gen. XXIV, 16</a>' +
+		'.—Y. Yoma VI, 43ᵈ <span dir="rtl">אורכין</span> wait a while. Ib. ' +
+		'<a class="refLink" href="/Numbers.12.8" ' +
+		'data-ref="Numbers 12:8">Num. XII, 8</a>';
+	const out = targum(entry('X00006', intervening));
+	expect(out.records).toHaveLength(0);
+	expect(definitionOf(out)).toBe(intervening);
+});
+
+it('leaves non-members alone: a lexical target, a folio, and an already-correct Targum ref', () => {
+	const cases = [
+		// A03251's shape — `Targ. O. ib.` before a Jastrow cross-reference.
+		// Prepending a work to a headword would be nonsense.
+		'<a class="refLink" href="/Genesis.10.17" ' +
+			'data-ref="Genesis 10:17">Gen. X, 17</a>; Targ. O. ib. ' +
+			'<a dir="rtl" class="refLink" href="/Jastrow,_אַנְתּוּסָאֵי.1" ' +
+			'data-ref="Jastrow, אַנְתּוּסָאֵי 1">אַנְתּוּסָאֵי</a>',
+		// A Talmud folio is not a book:chapter:verse and no work governs it.
+		'<a class="refLink" href="/Onkelos_Genesis.24.16" ' +
+			'data-ref="Onkelos Genesis 24:16">Targ. O. Gen. XXIV, 16</a>. Ib. ' +
+			'<a class="refLink" href="/Chullin.139a" ' +
+			'data-ref="Chullin 139a">Ḥull. 139ᵃ</a>',
+		// The row's own control: the resolver got this one right.
+		'<a class="refLink" href="/Onkelos_Genesis.24.16" ' +
+			'data-ref="Onkelos Genesis 24:16">Targ. O. Gen. XXIV, 16</a>. Ib. ' +
+			'<a class="refLink" href="/Onkelos_Numbers.12.8" ' +
+			'data-ref="Onkelos Numbers 12:8">Targ. Num. XII, 8</a>',
+	];
+	for (const text of cases) {
+		const out = targum(entry('X00007', text));
+		expect(out.records).toHaveLength(0);
+		expect(definitionOf(out)).toBe(text);
+	}
+});
+
+it('declines when the antecedent’s href does not match the derived prefix', () => {
+	// The `href` work prefix is spelled from the `data-ref` work by
+	// Sefaria's URL convention, which is an assumption about URLs. It
+	// is verified against the antecedent's real href rather than
+	// trusted, so a respelling declines instead of minting.
+	const oddHref =
+		'<a class="refLink" href="/tj-deut.17.20" ' +
+		'data-ref="Targum Jonathan on Deuteronomy 17:20">Targ. Y. Deut. XVII, 20</a>' +
+		'. Ib. <a class="refLink" href="/Leviticus.9.7" ' +
+		'data-ref="Leviticus 9:7">Lev. IX, 7</a>';
+	const out = targum(entry('X00008', oddHref));
+	expect(out.records).toHaveLength(0);
+	expect(definitionOf(out)).toBe(oddHref);
+});
+
+/** The population pin. */
+interface TargumCensus {
+	entries: Set<string>;
+	fireEntries: Set<string>;
+	fires: number;
+	occurrences: number;
+}
+
+async function* targumSightings(): AsyncGenerator<Sighting> {
+	for await (const e of readSourceEntries()) {
+		for (const definition of definitionsOf(e.content.senses, [])) {
+			if (!definition.includes('<a')) {
+				continue;
+			}
+			const tokens = tokenize(definition);
+			const list = anchors(tokens);
+			for (const [at, anchor] of list.entries()) {
+				if (
+					usable(anchor) &&
+					isTargumMember(textBetween(tokens, 0, anchor.open), anchor) &&
+					list.slice(0, at).some((p) => usable(p) && isTargumCitation(p))
+				) {
+					yield { anchor, at, list, rid: e.rid, tokens };
+				}
+			}
+		}
+	}
+}
+
+async function targumCensus(): Promise<TargumCensus> {
+	const entries = new Set<string>();
+	const fireEntries = new Set<string>();
+	let occurrences = 0;
+	let fires = 0;
+	for await (const s of targumSightings()) {
+		occurrences++;
+		entries.add(s.rid);
+		if (antecedentOf(s.tokens, s.list, s.at, isTargumCitation) !== undefined) {
+			fires++;
+			fireEntries.add(s.rid);
+		}
+	}
+	return { entries, fireEntries, fires, occurrences };
+}
+
+let targumPending: Promise<TargumCensus> | undefined;
+function targumCensusOnce(): Promise<TargumCensus> {
+	targumPending ??= targumCensus();
+	return targumPending;
+}
+
+it('the Targum population is 9 occurrences / 8 entries, reproducing the catalogued count', async () => {
+	const { entries, occurrences } = await targumCensusOnce();
+	expect(occurrences).toBe(9);
+	expect(entries.size).toBe(8);
+});
+
+it('the Targum census accounts for all 9: 9 fire, 0 decline', async () => {
+	const { fireEntries, fires } = await targumCensusOnce();
+	expect(fires).toBe(9);
+	expect(fireEntries).toEqual(
+		new Set([
+			'A00589',
+			'A02457',
+			'A02461',
+			'C00446',
+			'E00776',
+			'G00622',
+			'H00506',
+			'M00567',
+		]),
+	);
+});
+
+it('8 of the 9 name a different book from their antecedent — the row’s null model', async () => {
+	// "ib. means the same BOOK, so the plain verse is right" would make
+	// the row noise. It cannot hold where the books differ, and they
+	// differ in 8 of 9.
+	let differing = 0;
+	for await (const s of targumSightings()) {
+		const head = antecedentOf(s.tokens, s.list, s.at, isTargumCitation);
+		if (head === undefined) {
+			continue;
+		}
+		const work = targumWorkOf(head) ?? '';
+		const headBook = head.dataRef.slice(work.length).replace(REF_LOCUS, '');
+		if (headBook !== s.anchor.dataRef.replace(REF_LOCUS, '')) {
+			differing++;
+		}
+	}
+	expect(differing).toBe(8);
+});
+
+it('the rule moves exactly those 9 anchors corpus-wide, adding and removing none', async () => {
+	const rids = new Set<string>();
+	let moved = 0;
+	for await (const e of readSourceEntries()) {
+		const result = targumAnaphora.apply(e);
+		if (result.records.length === 0) {
+			continue;
+		}
+		rids.add(e.rid);
+		moved += result.recombined?.length ?? 0;
+		expect(anchorsIn(result.entry)).toBe(anchorsIn(e));
+	}
+	expect(moved).toBe(9);
+	expect(rids.size).toBe(8);
+});
+
+it('every Targum recombination the corpus produces passes checkLinkTargets', async () => {
+	let fired = 0;
+	for await (const e of readSourceEntries()) {
+		fired += applyTransforms(e, 'text-repairs', [targumAnaphora]).records
+			.length;
+	}
+	expect(fired).toBe(8);
+});
+
+/** LOUD ON DRIFT. `TARGUM_WORKS` is the one enumerated list in this
+ * module, so a sixth Sefaria spelling must fail here rather than
+ * quietly shrink the arm. */
+it('every Targum target in the corpus starts with one of TARGUM_WORKS', async () => {
+	const unmatched = new Set<string>();
+	const works = new Set<string>();
+	for await (const e of readSourceEntries()) {
+		for (const definition of definitionsOf(e.content.senses, [])) {
+			for (const anchor of anchors(tokenize(definition))) {
+				if (!/Targum|Onkelos/u.test(anchor.dataRef)) {
+					continue;
+				}
+				const work = targumWorkOf(anchor);
+				if (work === undefined) {
+					unmatched.add(anchor.dataRef);
+				} else {
+					works.add(anchor.dataRef.replace(REF_LOCUS, ''));
+				}
+			}
+		}
+	}
+	expect([...unmatched]).toEqual([]);
+	expect(works.size).toBe(45);
 });
