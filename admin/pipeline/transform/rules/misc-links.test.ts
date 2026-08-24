@@ -20,6 +20,8 @@ import {
 	pluralToFeminineFinalLetter,
 	pluralToFeminineMatch,
 	pluralToFeminineRaw,
+	shurukAsYodDisplayCorruption,
+	shurukAsYodMatch,
 	skeleton,
 	targetHeadwordSkeleton,
 } from './misc-links.ts';
@@ -161,6 +163,192 @@ it('a no-op entry produces no records and no unlinks', () => {
 	);
 	expect(result.records).toHaveLength(0);
 	expect(result.unlinks).toBeUndefined();
+});
+
+/**
+ * `shuruk-as-yod-display-corruption` (batch-2 task 10). Fixtures below
+ * are real entries cited by rid, per `misc-links.ts`'s module doc.
+ */
+
+/** E00186 הוֹבִיר, full definition: the display splits across a nested
+ * `<span dir="rtl">בּיּר</span>` plus trailing text (" I") still inside
+ * the anchor — the shape that exercises `rewriteShurukDefinition`'s
+ * token-scoped rewrite rather than a naive whole-definition regex. */
+const E00186_NESTED_SPAN =
+	', <i>Hif.</i> of <a class="refLink" href="/Jastrow,_בּוּר I.1" ' +
+	'data-ref="Jastrow, בּוּר I 1"><span dir="rtl">בּיּר</span> I</a>.';
+
+/** S02233 קַשְׁטָן, full definition: a plain (non-nested) corrupt
+ * display, the common shape 11 of the 12 members take. */
+const S02233_PLAIN =
+	', v. <a dir="rtl" class="refLink" href="/Jastrow,_קוּשְׁטָן.1" ' +
+	'data-ref="Jastrow, קוּשְׁטָן 1">קיּשְׁטָן</a>';
+
+/** S01462 *קָמֵט, full definition: the SAME href/data-ref
+ * (`Jastrow, קוּץ IV 1`) is anchored twice. The first occurrence is
+ * already correctly spelled (קוּץ, no corruption). The second carries
+ * the display corruption (קיּץ) — but swapping it still yields "קוּץ I",
+ * not "קוּץ IV": the printed homograph numeral (I) disagrees with the
+ * target's (IV), a co-located but DIFFERENT defect
+ * (`homograph-numeral-mismatch`, batch 2 Task 9, `PENDING`). Neither
+ * occurrence should fire — the first because it is not corrupt, the
+ * second because the swap does not fully resolve it. */
+const S01462_HOMOGRAPH_MISMATCH =
+	' (<a class="refLink" href="/Jastrow,_קְמַט.1" ' +
+	'data-ref="Jastrow, קְמַט 1">preced.</a>; cmp. ' +
+	'<a class="refLink" href="/Jastrow,_קוּץ IV.1" ' +
+	'data-ref="Jastrow, קוּץ IV 1"><span dir="rtl">קוּץ</span> I</a>) ' +
+	'[<i>shrinking</i>,] <i>feeling aversion</i>. ' +
+	'<a class="refLink" href="/Yalkut_Shimoni_on_Torah.626" ' +
+	'data-ref="Yalkut Shimoni on Torah 626">Yalk. Lev. 626</a>, v. ' +
+	'<a class="refLink" href="/Jastrow,_קוּץ IV.1" ' +
+	'data-ref="Jastrow, קוּץ IV 1"><span dir="rtl">קיּץ</span> I</a>.';
+
+/** N00423 נוּשְׁקְתָא, full definition: the entry's own plural is
+ * correctly self-linked first (נוּשְׁקָאתָא, no corruption). A SECOND
+ * occurrence of the same href, an editorial-variant citation
+ * "(ed. Wil. ניּשְׁקָתָא)", carries the display corruption AND a
+ * genuine vowel difference from the target (קָ vs the target's קְ) —
+ * swapping יּ→וּ yields "נוּשְׁקָתָא", still not "נוּשְׁקְתָא". Must not
+ * fire: the corruption alone is not this anchor's only divergence
+ * from its target. */
+const N00423_VOWEL_VARIANT =
+	' (<a dir="rtl" class="refLink" href="/Jastrow,_נְשַׁק.1" ' +
+	'data-ref="Jastrow, נְשַׁק 1">נְשַׁק</a>) <i>kiss</i>.—Pl. ' +
+	'<a dir="rtl" class="refLink" href="/Jastrow,_נוּשְׁקְתָא.1" ' +
+	'data-ref="Jastrow, נוּשְׁקְתָא 1">נוּשְׁקָאתָא</a>. ' +
+	'<a class="refLink" href="/Aramaic_Targum_to_Proverbs.27.6" ' +
+	'data-ref="Aramaic Targum to Proverbs 27:6">Targ. Prov. XXVII, 6</a> ' +
+	'(ed. Wil. <a dir="rtl" class="refLink" ' +
+	'href="/Jastrow,_נוּשְׁקְתָא.1" data-ref="Jastrow, נוּשְׁקְתָא 1">' +
+	'ניּשְׁקָתָא</a>).';
+
+it('rewrites the corrupt display inside a nested <span dir="rtl">, leaving the target alone', () => {
+	const out = applyTransforms(
+		entry('E00186', 'הוֹבִיר', E00186_NESTED_SPAN),
+		'text-repairs',
+		[shurukAsYodDisplayCorruption],
+	);
+	expect(definitionOf(out)).toBe(
+		', <i>Hif.</i> of <a class="refLink" href="/Jastrow,_בּוּר I.1" ' +
+			'data-ref="Jastrow, בּוּר I 1"><span dir="rtl">בּוּר</span> I</a>.',
+	);
+	expect(out.records).toHaveLength(1);
+});
+
+it('rewrites a plain (non-nested) corrupt display', () => {
+	const out = applyTransforms(
+		entry('S02233', 'קַשְׁטָן', S02233_PLAIN),
+		'text-repairs',
+		[shurukAsYodDisplayCorruption],
+	);
+	expect(definitionOf(out)).toBe(
+		', v. <a dir="rtl" class="refLink" href="/Jastrow,_קוּשְׁטָן.1" ' +
+			'data-ref="Jastrow, קוּשְׁטָן 1">קוּשְׁטָן</a>',
+	);
+});
+
+it('leaves the target byte-identical — the link-target gate sees case 1', () => {
+	const before = entry('E00186', 'הוֹבִיר', E00186_NESTED_SPAN);
+	const beforeDataRef = anchors(tokenize(E00186_NESTED_SPAN))[0]?.dataRef;
+	const out = applyTransforms(before, 'text-repairs', [
+		shurukAsYodDisplayCorruption,
+	]);
+	const afterDataRef = anchors(tokenize(definitionOf(out) ?? ''))[0]?.dataRef;
+	expect(beforeDataRef).toBe('Jastrow, בּוּר I 1');
+	expect(afterDataRef).toBe(beforeDataRef);
+});
+
+it('skips a corrupt display whose swap still disagrees with the target (a co-located homograph-numeral defect, not this row)', () => {
+	const out = applyTransforms(
+		entry('S01462', '*קָמֵט', S01462_HOMOGRAPH_MISMATCH),
+		'text-repairs',
+		[shurukAsYodDisplayCorruption],
+	);
+	expect(out.records).toHaveLength(0);
+	expect(definitionOf(out)).toBe(S01462_HOMOGRAPH_MISMATCH);
+});
+
+it('skips a corrupt display whose swap still disagrees with the target (a genuine vowel variant, not this row)', () => {
+	const out = applyTransforms(
+		entry('N00423', 'נוּשְׁקְתָא', N00423_VOWEL_VARIANT),
+		'text-repairs',
+		[shurukAsYodDisplayCorruption],
+	);
+	expect(out.records).toHaveLength(0);
+	expect(definitionOf(out)).toBe(N00423_VOWEL_VARIANT);
+});
+
+it('shurukAsYodMatch rejects an anchor with no corrupted glyph at all', () => {
+	const [anchor] = anchors(
+		tokenize('<a data-ref="Jastrow, בּוּר I 1" href="x">already correct</a>'),
+	);
+	if (anchor === undefined) {
+		throw new Error('expected a fixture anchor');
+	}
+	expect(shurukAsYodMatch(anchor)).toBe(false);
+});
+
+it('a no-op entry returns the same entry reference and produces no records', () => {
+	const before = entry(
+		'Z99997',
+		'זְמַן',
+		' an ordinary entry with no shuruk-as-yod anchor at all.',
+	);
+	const result = shurukAsYodDisplayCorruption.apply(before);
+	expect(result.records).toHaveLength(0);
+	expect(result.entry).toBe(before);
+});
+
+/** Count of `shurukAsYodMatch` matches across `senses`, recursive
+ * through `sense.senses` (senses nest). Restated from
+ * `misc-links.ts`'s module doc so a corpus edit or a narrowed
+ * predicate fails here, on every `bun qa`, rather than only on a
+ * manually-run `bun transform:count`. A top-level recursive function,
+ * never a closure declared inside the `for await` loop below — see
+ * the note above `countRaw` for why. */
+function countShurukMatches(senses: readonly SourceSense[]): number {
+	let count = 0;
+	for (const sense of senses) {
+		if (sense.definition !== undefined) {
+			for (const anchor of anchors(tokenize(sense.definition))) {
+				if (shurukAsYodMatch(anchor)) {
+					count += 1;
+				}
+			}
+		}
+		if (sense.senses !== undefined) {
+			count += countShurukMatches(sense.senses);
+		}
+	}
+	return count;
+}
+
+it('the population is exactly 12 occurrences across 12 entries, corpus-wide', async () => {
+	let occurrences = 0;
+	const rids = new Set<string>();
+	for await (const e of readSourceEntries()) {
+		const n = countShurukMatches(e.content.senses);
+		occurrences += n;
+		if (n > 0) {
+			rids.add(e.rid);
+		}
+	}
+	expect(occurrences).toBe(12);
+	expect([...rids].sort()).toEqual([
+		'B01185',
+		'D00325',
+		'E00186',
+		'H00006',
+		'H01302',
+		'O01237',
+		'P00932',
+		'P01181',
+		'Q01699',
+		'Q01705',
+		'S00833',
+		'S02233',
+	]);
 });
 
 /**

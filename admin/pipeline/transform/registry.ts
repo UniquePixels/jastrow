@@ -8,7 +8,10 @@
 import type { Pattern } from '../research/patterns.ts';
 import { ibAnaphora, sifreAnaphora, targumAnaphora } from './rules/anaphora.ts';
 import { gereshLetterNumeral, prefixedGereshAbbrev } from './rules/geresh.ts';
-import { pluralToFeminineFinalLetter } from './rules/misc-links.ts';
+import {
+	pluralToFeminineFinalLetter,
+	shurukAsYodDisplayCorruption,
+} from './rules/misc-links.ts';
 import {
 	bareRtlHebrew,
 	latinTokenInsideRtl,
@@ -71,6 +74,21 @@ const RULES: readonly Rule[] = [
 	// entirely inside the entry's own "Pl." construct, which no other
 	// rule here rewrites.
 	pluralToFeminineFinalLetter,
+
+	// shuruk-as-yod-display-corruption (batch 2, task 10). Not an
+	// unlink and not a retarget — the only rule in the batch that edits
+	// DISPLAY text while leaving the target untouched (the link was
+	// already correct; only the rendered glyph was OCR-corrupted).
+	// Unentangled with any other registered rule: it never writes a
+	// `data-ref`/`href`, so it cannot conflict with a retarget or
+	// compose rule, and its 12 anchors all resolve to a correct target
+	// already, so no unlink rule (which fires on a WRONG target) can
+	// claim the same anchor. Placement here, rather than at either end
+	// of the list, is free — measured with it run first and last in the
+	// registry, both orders produce the identical 12 records byte-for-
+	// byte, because no other rule's predicate reads or writes anything
+	// inside this rule's matched anchors.
+	shurukAsYodDisplayCorruption,
 
 	// ib-yoma-2a (batch 2, task 7) — the batch's first RETARGET, and it
 	// runs LAST for the reason the unlink block above states from the
@@ -217,7 +235,6 @@ const PENDING: readonly string[] = [
 	'reversed-hebrew-phrase',
 	'empty-lead-sense',
 	'abbrev-fused-headword',
-	'shuruk-as-yod-display-corruption',
 	'unterminated-href-swallows-closing-tag',
 	'stem-head-marker-chop',
 	'citation-quote-seam-period',
