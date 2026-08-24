@@ -18,6 +18,12 @@
  * here, on every `bun qa`, rather than only on a `transform:count`
  * someone remembers to run.
  *
+ * Then the link-integrity census (spec §5) — the batch's headline
+ * claim, that exactly 90 link targets start resolving and none stop —
+ * measured by resolving every `data-ref` in the corpus against the
+ * entry headwords, before the pass and after it. It carries the
+ * gershayim total (0 in, 2,305 out) on the same walk.
+ *
  * The last two tests are the registry's order-freedom claim (spec
  * §4.2, task 3): the pair against itself and against the rtl trio,
  * over every entry rather than over the ones it touches. They live
@@ -31,7 +37,7 @@ import { readSourceEntries } from '../../body/source.ts';
 import type { SourceEntry } from '../../body/types.ts';
 import { GERSHAYIM } from '../gershayim.ts';
 import { tokenize } from '../html.ts';
-import { anchors } from '../links.ts';
+import { type Anchor, anchors } from '../links.ts';
 import { fieldsOf } from '../no-new-text.ts';
 import { applyTransforms } from '../run.ts';
 import type { Rule } from '../types.ts';
@@ -85,11 +91,18 @@ function tagsOf(source: SourceEntry): string[] {
 	);
 }
 
+/**
+ * Every anchor, in `fieldsOf` order then `anchors` order — the SAME
+ * walk `rules/gershayim.ts` pairs its `glyphCorrected` claims on, so
+ * index i names the same anchor before and after the pair runs.
+ */
+function anchorsOf(source: SourceEntry): Anchor[] {
+	return fieldsOf(source).flatMap((field) => anchors(tokenize(field)));
+}
+
 /** Every anchor's parsed `data-ref`, in walk order. */
 function dataRefsOf(source: SourceEntry): string[] {
-	return fieldsOf(source).flatMap((field) =>
-		anchors(tokenize(field)).map((anchor) => anchor.dataRef),
-	);
+	return anchorsOf(source).map((anchor) => anchor.dataRef);
 }
 
 /** How many `״` the walked fields hold. */
@@ -336,6 +349,146 @@ it('the input corpus holds no gershayim of its own', async () => {
 		found += marks(source);
 	}
 	expect(found).toBe(0);
+}, 300_000);
+
+/** The Jastrow address shape: `Jastrow, ` then the headword VERBATIM,
+ * then the sense number. Greedy on purpose — see the census below. */
+const JASTROW_REF = /^Jastrow, (.+) (\d+)$/u;
+
+/** The headword a `data-ref` names, or `undefined` when it names none
+ * — a Sefaria citation, or a target truncated at an embedded quote
+ * (`Jastrow, אל`), which is this batch's defect. */
+function targetHeadword(dataRef: string): string | undefined {
+	return JASTROW_REF.exec(dataRef)?.[1];
+}
+
+/**
+ * THE LINK-INTEGRITY CENSUS (batch-3a spec §5) — the batch's headline
+ * number, measured over all 170,182 anchors rather than argued.
+ *
+ * ## What "resolves" means, and why the reading is greedy
+ *
+ * A `data-ref` is one of two things: a Sefaria citation
+ * (`Bereishit Rabbah 53:13` — 96,714 of them) or a Jastrow address
+ * (`Jastrow, חָבַב I 1` — 73,468). Only the second names a headword, so
+ * only the second is counted. Folding the citations in would add
+ * 96,714 constant non-matches to both sides of a difference and hide
+ * nothing they could catch: they resolve against a corpus this
+ * repository does not hold.
+ *
+ * A Jastrow address is the headword string with the sense number
+ * appended, so the target is read GREEDILY — everything between
+ * `Jastrow, ` and the final space-delimited number. That is
+ * load-bearing: 2,871 headwords END in a roman numeral (`אָמוֹן I`) and
+ * 805 in a superscript, both part of the headword itself. The lazy
+ * `\s(?:[IVXL]+\s)?\d+` reading of spec §3's probe strips the numeral
+ * — correct there, because that probe runs on RAW TAG BYTES and never
+ * sees a parsed value, and wrong here: it resolves 65,817 addresses
+ * against these same headwords, losing 7,536 honest links.
+ *
+ * Before any repair the greedy rule resolves 73,353 of 73,468 — 99.84%.
+ * The 115 that do not are the 90 truncations this batch repairs plus
+ * 25 addresses naming a headword the corpus does not hold at all,
+ * which no rule in this batch touches and which stay unresolved on
+ * both sides.
+ *
+ * ## Why `after` is scored against the HEALED headwords
+ *
+ * Both ends of every damaged link move in the same pass: `mapEntry`
+ * repairs `headword` alongside the definitions, so the denominator on
+ * the `after` side is the healed headword set. Scoring repaired
+ * targets against the INPUT headwords reports 0 newly-resolving links
+ * and reads as a broken rule rather than a broken measurement. That
+ * is why the census takes two passes — the healed headword set is not
+ * known until the whole corpus has been read.
+ *
+ * ## What the numbers have to be
+ *
+ * `lost` empty is the safety half: every address that resolved before
+ * still resolves. `gained: 90` is the headline. `rewritten` is the
+ * anchors whose OPENING TAG the pair changed, and the two empty
+ * cross-difference lists are what make the 90 the right 90 — not
+ * merely 90 of something, but exactly the anchors this batch repaired,
+ * matched by rid and walk position. Every damaged anchor lands: none
+ * of the 90 points at a headword that is still missing after repair.
+ *
+ * The gershayim total rides along on the second pass rather than
+ * taking a third of its own. It is the same walk, and it is what makes
+ * the link numbers checkable — `״` does not occur once in the input,
+ * so every one in the output is this pair's own work.
+ */
+it('exactly 90 link targets start resolving, and none stop', async () => {
+	const healed = (source: SourceEntry): SourceEntry =>
+		gershayimRefAttribute.apply(gershayimInBody.apply(source).entry).entry;
+	const resolves = (dataRef: string, against: ReadonlySet<string>): boolean => {
+		const target = targetHeadword(dataRef);
+		return target !== undefined && against.has(target);
+	};
+	const headwords = new Set<string>();
+	const healedHeadwords = new Set<string>();
+	for await (const source of readSourceEntries()) {
+		headwords.add(source.headword);
+		healedHeadwords.add(healed(source).headword);
+	}
+	const before = new Set<string>();
+	const after = new Set<string>();
+	const rewritten = new Set<string>();
+	const seen = {
+		anchorDrift: 0,
+		anchors: 0,
+		gershayimAfter: 0,
+		gershayimBefore: 0,
+	};
+	for await (const source of readSourceEntries()) {
+		const fixed = healed(source);
+		seen.gershayimBefore += marks(source);
+		seen.gershayimAfter += marks(fixed);
+		const was = anchorsOf(source);
+		const now = anchorsOf(fixed);
+		if (was.length !== now.length) {
+			seen.anchorDrift += 1;
+		}
+		seen.anchors += was.length;
+		for (const [at, anchor] of was.entries()) {
+			const key = `${source.rid}|${at}`;
+			const repaired = now[at];
+			if (resolves(anchor.dataRef, headwords)) {
+				before.add(key);
+			}
+			if (repaired === undefined) {
+				continue;
+			}
+			if (resolves(repaired.dataRef, healedHeadwords)) {
+				after.add(key);
+			}
+			if (repaired.tag !== anchor.tag) {
+				rewritten.add(key);
+			}
+		}
+	}
+	const gained = [...after].filter((key) => !before.has(key));
+	expect({
+		...seen,
+		after: after.size,
+		before: before.size,
+		gained: gained.length,
+		gainedNotRewritten: gained.filter((key) => !rewritten.has(key)),
+		lost: [...before].filter((key) => !after.has(key)),
+		rewritten: rewritten.size,
+		rewrittenNotGained: [...rewritten].filter((key) => !gained.includes(key)),
+	}).toEqual({
+		after: 73_443,
+		anchorDrift: 0,
+		anchors: 170_182,
+		before: 73_353,
+		gained: 90,
+		gainedNotRewritten: [],
+		gershayimAfter: 2305,
+		gershayimBefore: 0,
+		lost: [],
+		rewritten: 90,
+		rewrittenNotGained: [],
+	});
 }, 300_000);
 
 /**
