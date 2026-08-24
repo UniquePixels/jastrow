@@ -258,6 +258,16 @@ it('retarget refuses an anchor carrying href alone', () => {
  * rule's behaviour, and it is a test rather than a paragraph because
  * the batch-2 review found four permanent records asserting things
  * their own code did not do.
+ *
+ * KNOWN LIMIT, recorded rather than implied: `NEW_ATTR` is a COPY of
+ * the production class, not an import of it (`ATTR` is module-private
+ * and its consumers need the `d` flag this comparison does not). So
+ * this test pins a property of the two classes, and what ties
+ * production to `NEW_ATTR` is the fixture test above — change `ATTR`
+ * without changing `NEW_ATTR` and this test keeps passing while
+ * measuring the wrong thing. `tags` is 170,180 rather than the
+ * module's 170,182 anchors: `OPEN_TAG` cannot match the 2 whose `href`
+ * swallows their own `</a>`, and neither class can read those either.
  */
 const OLD_ATTR = (name: string): RegExp =>
 	new RegExp(String.raw`\b${name}\s*=\s*(?<q>["'])(?<value>[^"']*)\k<q>`, 'u');

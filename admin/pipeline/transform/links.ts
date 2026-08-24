@@ -262,9 +262,11 @@ function replaceAttrValue(
  * changes what every rule and the link-target gate SEE corpus-wide.
  *
  * FIXED 2026-08-24, measured before batch 3 rather than asserted. The
- * widening is **purely additive**: over all 170,180 anchor tags,
- * `href` and `data-ref` each gain 452 values, **0 values change** and
- * **0 are lost**. Both corpus gates are byte-identical across the
+ * widening is **purely additive**: over the 170,180 opening tags that
+ * are well-formed enough to scan — the corpus's 170,182 anchors less
+ * the 2 whose `href` swallows their own `</a>`, which no value class
+ * can read — `href` and `data-ref` each gain 452 values, **0 values
+ * change** and **0 are lost**. Both corpus gates are byte-identical across the
  * change — `transform:count` reports the same 13 rules / 11 MATCH /
  * `ib-yoma-2a` −124 / `sifre-ib-resolves-to-yalkut` −5, and
  * `body:migrate-dry`'s report file diffs empty. No shipped rule fires

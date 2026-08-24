@@ -193,10 +193,13 @@ mishandled segment ranges and understated every tier):
 
 | the linker's own resolution vs the antecedent's target | n | cumulative |
 |---|---:|---:|
-| byte-identical | 996 | **53.0%** |
-| differs ONLY in the trailing segment | 870 | **99.3%** |
-| same work, different folio | 11 | **99.8%** |
-| different work | 3 | — |
+| byte-identical | 997 | **53.0%** |
+| differs ONLY in the trailing segment | 871 | **99.4%** |
+| same work, different folio | 11 | **99.9%** |
+| different work | 1 | — |
+
+*(996 / 870 / 11 / 3 until the apostrophe parser fix of 2026-08-24 —
+§3.2 has what moved and why.)*
 
 ```bash
 bun -e '
@@ -318,13 +321,14 @@ same tractate and folio. Range-safe (the `passage`/`work` pair in
 > shifts 996/870/11/**3** → 997/871/11/**1**.
 
 So the genuine work-level disagreement in the whole 1,880-case control
-is **one**, and it is now one for a stronger reason than before: the
-other two were never disagreements. The batch reviewer, using its own
-work extractor, measured **4** here, agreeing on the two
-empty-`data-ref` cases — an agreement that turns out to have been two
-readings of the same parser defect rather than independent
-confirmation. The conclusion is untouched and improved: work-level
-disagreement is ≤0.1% of the control.
+is **one** — 1 of 1,880, 0.05% — and it is one for a stronger reason
+than before: the other two were never disagreements. The batch
+reviewer, using its own work extractor, measured **4** here, agreeing
+on the two empty-`data-ref` cases; that agreement turns out to have
+been two readings of the same parser defect rather than independent
+confirmation. Its remaining two rows have not been re-run against the
+fixed parser, so the honest bound across both extractors is **at most
+2 of 1,880 (0.11%)**. Either figure leaves the conclusion untouched.
 
 ## 4. Where the repair is NOT derivable: the decline census
 
@@ -531,8 +535,9 @@ Each was looked for; none was found.
   that empty `data-ref` was the apostrophe parser defect, and read,
   O00242 is not a Yerushalmi case — see §2c.)
 - **The antecedent reading failing on data it wasn't fitted to.** §3's
-  control is 1,880 anchors outside the population; 99.3% agree with
-  the antecedent to within the trailing segment, 99.8% on the work.
+  control is 1,880 anchors outside the population; 99.4% agree with
+  the antecedent to within the trailing segment, 99.9% on the work
+  (99.3% / 99.8% before the apostrophe parser fix).
   Had that come back near chance,
   the row would have gone to `judgment` the way `h-cognate-self-link`
   did.
