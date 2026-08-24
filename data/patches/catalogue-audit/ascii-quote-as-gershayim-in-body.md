@@ -185,3 +185,399 @@ flagged undetermined rather than assumed.
   apostrophes sit in `dir=rtl` body text and are not in this population;
   B00435's `בגי׳ 'מל` shows one abbreviation corrupted across both
   families at once.
+
+---
+
+## Reconciliation, 2026-08-24
+
+Written during Phase 2 batch 3a implementation (Task 0), before any
+transform rule was written. **Every figure in this section and the two
+that follow is produced by the command printed beside it.** Nothing is
+carried in from the design spec or the implementation plan; where a
+command disagreed with them, the command won and the disagreement is
+recorded as a finding.
+
+Snapshot: `data/source/jastrow-dictionary.jsonl`, pinned by
+`data/patches/snapshot.lock`. Hebrew character classes come from
+`HEBREW` as exported by `admin/pipeline/transform/html.ts`, never a
+pasted literal range.
+
+### The gap, and its exact decomposition
+
+The batch 3a design spec measured **2,323** occurrences corpus-wide
+(2,302 in scope) against this audit's **2,317**. The two differ by 6.
+**The reconciliation closes exactly, with zero residual.** Both
+readings were low, in different places and for unrelated reasons, and
+the true corpus-wide figure is **2,326 / 2,305 in scope**.
+
+The canonical measurement — a per-character scan (so overlapping
+matches are not lost) whose neighbour test tolerates a combining dot
+above, split by locus and by the same line items this audit used:
+
+```bash
+bun -e 'const {HEBREW}=await import("./admin/pipeline/transform/html.ts");
+const Q=String.fromCharCode(34), TAG=/<[^<>]*>/gu, DOT="̇";
+const H=new RegExp("^["+HEBREW+"]$","u");
+const RTLW=/<(span|a)\b[^<>]*\bdir="rtl"[^<>]*>([\s\S]*?)<\/\1>/gu;
+const scan=(s)=>{const o=[];for(let i=0;i<s.length;i++){if(s[i]!==Q)continue;
+ let j=i-1;while(j>=0&&s[j]===DOT)j--;let k=i+1;while(k<s.length&&s[k]===DOT)k++;
+ if(j>=0&&k<s.length&&H.test(s[j])&&H.test(s[k]))o.push(i);}return o;};
+const acc={};const bump=(k,rid)=>{(acc[k]??=({n:0,e:new Set()})).n++;acc[k].e.add(rid);};
+for(const l of (await Bun.file("data/source/jastrow-dictionary.jsonl").text()).split("\n").filter(Boolean)){
+ const e=JSON.parse(l);
+ const go=(k,f)=>{if(typeof f!=="string")return;
+  const mask=new Array(f.length).fill(false);
+  for(const m of f.matchAll(TAG))for(let i=m.index;i<m.index+m[0].length;i++)mask[i]=true;
+  const rtl=new Array(f.length).fill(false);
+  for(const m of f.matchAll(RTLW))for(let i=m.index+m[0].indexOf(">")+1;i<m.index+m[0].length;i++)rtl[i]=true;
+  for(const p of scan(f)) bump(mask[p]?k+" [TAG attr]":(k==="senses[].definition"?(rtl[p]?"senses[].definition (in dir=rtl wrapper)":"senses[].definition (bare RTL)"):k), e.rid);};
+ go("headword",e.headword); for(const a of e.alt_headwords??[])go("alt_headwords",a);
+ for(const x of e.plural_form??[])go("plural_form",x); for(const r of e.refs??[])go("refs[] OUT OF SCOPE",String(r));
+ const w=(s)=>{if(!s)return; go("senses[].definition",s.definition); go("senses[].number",s.number); for(const n of s.senses??[])w(n)};
+ for(const s of e.content?.senses??[])w(s); go("content.morphology",e.content?.morphology);
+ for(const q of e.quotes??[])for(const x of q??[])go("quotes[]",x); }
+let tot=0,ins=0;
+for(const [k,v] of Object.entries(acc).sort((a,b)=>b[1].n-a[1].n)){ tot+=v.n; if(!k.startsWith("refs["))ins+=v.n;
+ console.log(String(v.n).padStart(5),"/",String(v.e.size).padStart(4),"entries  ",k); }
+console.log("TOTAL",tot,"| IN SCOPE",ins);'
+```
+
+```
+ 1908 / 1290 entries   senses[].definition (in dir=rtl wrapper)
+  180 /   85 entries   senses[].definition [TAG attr]
+  117 /  109 entries   senses[].definition (bare RTL)
+   69 /   68 entries   headword
+   21 /   21 entries   refs[] OUT OF SCOPE
+   19 /   14 entries   alt_headwords
+    8 /    6 entries   plural_form
+    4 /    4 entries   quotes[]
+TOTAL 2326 | IN SCOPE 2305
+```
+
+Against this audit's own rider (`:129`), line for line:
+
+| Line item | This audit | Measured | Δ | Why |
+|---|---:|---:|---:|---|
+| `dir=rtl` definition text | 1,907 | **1,908** | +1 | the rider quoted the `html.parser` figure (`:35`); this audit's *own* disposition (`:111`) says 1,908, and 1,908 / 1,290 entries reproduces exactly. The audit was internally inconsistent by 1; the disposition figure is the right one |
+| `href`/`data-ref` attributes | 172 | **180** | +8 | the attribute probe recursed only into top-level `content.senses[].definition`; 4 anchors live in nested sub-senses. See below |
+| bare RTL definition text | 117 | 117 | 0 | exact, entries too (109) |
+| `headword` | 69 | 69 | 0 | exact |
+| `refs[]` — **out of scope** | 21 | 21 | 0 | exact; dropped at compile (body model spec §5, B7) |
+| `alt_headwords` | 19 | 19 | 0 | exact |
+| `plural_form` | 8 | 8 | 0 | exact |
+| `quotes[]` | 4 | 4 | 0 | exact |
+| **Total** | **2,317** | **2,326** | **+9** | |
+| **In scope** (−`refs[]`) | **2,296** | **2,305** | **+9** | |
+
+And against the design spec's 2,302 in scope, the spec is **3 low**,
+all three being artifacts of its probe rather than population:
+
+| rid | field | text | Why the spec's probe missed it |
+|---|---|---|---|
+| A00253 | `senses[].definition` | `יה"ש"ר` | two Hebrew-flanked quotes share the `ש`; `matchAll` is non-overlapping, so the second is consumed away |
+| U01408 | `senses[].definition` | `יה"ש"ר` | same |
+| M01940 | `senses[].definition` | `מ̇ס̇"ך̇` | U+0307 combining dot above sits between the `ס` and the quote; bare `[HEBREW]` excludes U+0307 |
+
+2,302 + 3 = **2,305**. The entry count is unaffected: 1,392 either way.
+
+**Both artifacts are actionable for the rule author, not just for the
+count.** A rule written as a non-overlapping global replace will leave
+the second quote of `X"Y"Z` uncorrected in A00253, U01408, A00409
+(`א"תב"ש`), A01394 (`ה"דא"א`) and Q00157 (headword `פ"וגחמ"ט`). And a
+predicate written as bare `[HEBREW]"[HEBREW]` will skip M01940 —
+`html.ts` already contemplates this case, exporting
+`HEBREW_ATOM = [${HEBREW}]̇*` (`html.ts:55`); the predicate should
+be built on the atom, not on the bare class.
+
+### The falsified hypothesis stays falsified
+
+The design spec's cheap explanation was a Hebrew-block boundary
+difference between the wide `[U+0590-U+05FF]` and `html.ts`'s canonical
+`HEBREW`. Re-tested on the real field strings:
+
+```bash
+bun -e 'const {HEBREW}=await import("./admin/pipeline/transform/html.ts");
+const Q=String.fromCharCode(34);
+const wide=new RegExp("[֐-׿]"+Q+"[֐-׿]","gu"), canon=new RegExp("["+HEBREW+"]"+Q+"["+HEBREW+"]","gu");
+const fields=(e)=>{const o=[],p=(s)=>{typeof s==="string"&&o.push(s)};
+  p(e.headword); for(const a of e.alt_headwords??[])p(a); for(const x of e.plural_form??[])p(x);
+  const w=(s)=>{if(!s)return; p(s.definition); p(s.number); for(const n of s.senses??[])w(n)};
+  for(const s of e.content?.senses??[])w(s); p(e.content?.morphology);
+  for(const q of e.quotes??[])for(const x of q??[])p(x); return o};
+let w=0,c=0;
+for(const l of (await Bun.file("data/source/jastrow-dictionary.jsonl").text()).split("\n").filter(Boolean)){
+  const e=JSON.parse(l);
+  for(const f of fields(e)){ w+=[...f.matchAll(wide)].length; c+=[...f.matchAll(canon)].length; } }
+console.log("wide",w,"canonical",c,"delta",w-c);'
+```
+
+```
+wide 2302 canonical 2302 delta 0
+```
+
+**Confirmed falsified.** The class is not where the difference lives.
+
+> **Probe defect worth recording.** The version of this test carried in
+> the batch 3a implementation plan ran its regexes over
+> `JSON.stringify(...)` output, where every `"` is escaped to `\"`, so
+> the left neighbour is always a backslash. It printed
+> `wide 0 canonical 0 delta 0` — a delta of 0 that proved nothing. The
+> command above is the corrected form and is the one that carries the
+> result.
+
+### Where the missing 8 attribute occurrences are
+
+Every defective tag carries the same gershayim twice, once in `href`
+and once in `data-ref`, so the tag locus is always an even number:
+
+```bash
+bun -e 'const {HEBREW}=await import("./admin/pipeline/transform/html.ts");
+const Q=String.fromCharCode(34), P=new RegExp("["+HEBREW+"]"+Q+"["+HEBREW+"]","u"), TAG=/<[^<>]*>/gu;
+const top=[],nested=[];
+for(const l of (await Bun.file("data/source/jastrow-dictionary.jsonl").text()).split("\n").filter(Boolean)){
+ const e=JSON.parse(l);
+ const w=(s,d)=>{if(!s)return; if(typeof s.definition==="string")
+   for(const m of s.definition.matchAll(TAG)) if(P.test(m[0])) (d===0?top:nested).push([e.rid,m[0]]);
+  for(const n of s.senses??[])w(n,d+1)};
+ for(const s of e.content?.senses??[])w(s,0); }
+const E=(a)=>new Set(a.map(x=>x[0])).size;
+console.log("top-level definitions only:",top.length,"anchors,",top.length*2,"occ,",E(top),"entries");
+console.log("nested sub-senses only    :",nested.length,"anchors,",nested.length*2,"occ,",E(nested),"entries");
+console.log("both                      :",top.length+nested.length,"anchors,",(top.length+nested.length)*2,"occ,",E([...top,...nested]),"entries");
+for(const [r,t] of nested) console.log("   missed:",r,t);'
+```
+
+```
+top-level definitions only: 86 anchors, 172 occ, 81 entries
+nested sub-senses only    : 4 anchors, 8 occ, 4 entries
+both                      : 90 anchors, 180 occ, 85 entries
+   missed: B00752 <a class="refLink" href="/Jastrow,_בי"ת.1" data-ref="Jastrow, בי"ת 1">
+   missed: M01801 <a dir="rtl" class="refLink" href="/Jastrow,_ה"א.1" data-ref="Jastrow, ה"א 1">
+   missed: J00552 <a dir="rtl" class="refLink" href="/Jastrow,_א"ת.1" data-ref="Jastrow, א"ת 1">
+   missed: V00773 <a dir="rtl" class="refLink" href="/Jastrow,_א"ת.1" data-ref="Jastrow, א"ת 1">
+```
+
+**86 anchors / 172 occurrences / 81 entries reproduces this audit's
+"172 … (81 entries), ~86 distinct anchors" (`:130`, `:165`) to the
+occurrence, the anchor and the entry.** The attribute probe descended
+only into top-level `content.senses[].definition`. Four anchors sit in
+nested sub-senses, and none of their four entries has a top-level
+defective anchor, so all four entries were lost too — hence 81 rather
+than 85.
+
+**Correction to the sibling row.** `gershayim-breaks-ref-attribute`
+is catalogued at 85 and this audit called 86 anchors "matching their
+85". The real figure is **90 anchors / 180 occurrences / 85 entries**.
+The catalogued 85 is an *entry* count that happens to be right; the
+anchor count is 90. Two of the 90 additionally lack `dir="rtl"`
+altogether (B00752, C01225), so any repair keyed to a `dir=rtl` anchor
+will miss them.
+
+## Locus partition
+
+The population splits into a **text locus** (repair the character) and
+a **tag locus** (repair the character *inside an attribute value*,
+where the ASCII quote also terminates the attribute). The rule needs
+both, and needs to know which is which.
+
+```bash
+bun -e 'const {HEBREW}=await import("./admin/pipeline/transform/html.ts");
+const Q=String.fromCharCode(34), P=new RegExp("["+HEBREW+"]"+Q+"["+HEBREW+"]","gu"), TAG=/<[^<>]*>/gu;
+const textE=new Set(), tagE=new Set(); let textO=0, tagO=0;
+const fields=(e)=>{const o=[],p=(s)=>{typeof s==="string"&&o.push(s)};
+  p(e.headword); for(const a of e.alt_headwords??[])p(a); for(const x of e.plural_form??[])p(x);
+  const w=(s)=>{if(!s)return; p(s.definition); p(s.number); for(const n of s.senses??[])w(n)};
+  for(const s of e.content?.senses??[])w(s); p(e.content?.morphology);
+  for(const q of e.quotes??[])for(const x of q??[])p(x); return o};
+for(const l of (await Bun.file("data/source/jastrow-dictionary.jsonl").text()).split("\n").filter(Boolean)){
+  const e=JSON.parse(l);
+  for(const f of fields(e)){ const mask=new Array(f.length).fill(false);
+    for(const m of f.matchAll(TAG))for(let i=m.index;i<m.index+m[0].length;i++)mask[i]=true;
+    for(const m of f.matchAll(P)){ if(mask[m.index+1]){tagO++;tagE.add(e.rid)} else {textO++;textE.add(e.rid)} } } }
+console.log("text",textO,"occ /",textE.size,"entries");
+console.log("tag ",tagO,"occ /",tagE.size,"entries");
+console.log("union",new Set([...textE,...tagE]).size,"| total",textO+tagO);'
+```
+
+```
+text 2122 occ / 1386 entries
+tag  180 occ / 85 entries
+union 1392 | total 2302
+```
+
+| Locus | Occurrences | Entries | Note |
+|---|---:|---:|---|
+| Text | 2,122 | 1,386 | **2,125** under the overlap- and U+0307-tolerant scan above; the +3 are A00253, U01408, M01940 |
+| Tag attribute | 180 | 85 | 90 anchors × 2 attributes (`href`, `data-ref`); exactly even, always |
+| **Union** | **2,302** *(true 2,305)* | **1,392** | entry count identical under both scans |
+
+`refs[]` (21 occurrences / 21 entries) is **excluded from every figure
+above**. It is dropped at compile — body model spec §5, B7 — and
+`admin/pipeline/transform/no-new-text.ts` already gates it out.
+
+## Decline register
+
+The two riders at `:123` name **49 displaced** (class B) and **34
+undetermined** (class C). Both are reproduced here, by rid, so the
+post-launch judgement pass can find them without re-deriving the set.
+
+### Method, and what the audit's scope turned out to be
+
+Class assignment is by **gershayim slot**: canonical is immediately
+before the final Hebrew letter. A token whose quote is not in that slot
+is *displaced* (class B) if a same-skeleton twin with the quote in the
+canonical slot occurs more often, and *undetermined* (class C)
+otherwise.
+
+```bash
+bun -e 'const {HEBREW}=await import("./admin/pipeline/transform/html.ts");
+const Q=String.fromCharCode(34), TAG=/<[^<>]*>/gu, LET=/^[א-ת]$/u;
+const TOK=new RegExp("["+HEBREW+"]+"+Q+"["+HEBREW+"]+","gu");
+const RTLW=/<(span|a)\b[^<>]*\bdir="rtl"[^<>]*>([\s\S]*?)<\/\1>/gu;
+const SCOPE=process.env.SCOPE??"all";   // "all" = whole in-scope text locus; "audit" = dir=rtl wrapped definition text
+const freq=new Map(), where=new Map();
+const fields=(e)=>{const o=[],p=(k,s)=>{typeof s==="string"&&o.push([k,s])};
+  p("headword",e.headword); for(const a of e.alt_headwords??[])p("alt",a); for(const x of e.plural_form??[])p("plural",x);
+  const w=(s)=>{if(!s)return; p("def",s.definition); p("num",s.number); for(const n of s.senses??[])w(n)};
+  for(const s of e.content?.senses??[])w(s); p("morph",e.content?.morphology);
+  for(const q of e.quotes??[])for(const x of q??[])p("quotes",x); return o};
+for(const l of (await Bun.file("data/source/jastrow-dictionary.jsonl").text()).split("\n").filter(Boolean)){
+ const e=JSON.parse(l);
+ for(const [k,f] of fields(e)){
+  if(SCOPE==="audit"&&k!=="def")continue;
+  const mask=new Array(f.length).fill(false);
+  for(const m of f.matchAll(TAG))for(let i=m.index;i<m.index+m[0].length;i++)mask[i]=true;
+  const rtl=new Array(f.length).fill(false);
+  for(const m of f.matchAll(RTLW))for(let i=m.index+m[0].indexOf(">")+1;i<m.index+m[0].length;i++)rtl[i]=true;
+  for(const m of f.matchAll(TOK)){ const p=m.index+m[0].indexOf(Q);
+   if(mask[p]) continue; if(SCOPE==="audit"&&!rtl[p]) continue;
+   freq.set(m[0],(freq.get(m[0])??0)+1); (where.get(m[0])??where.set(m[0],new Set()).get(m[0])).add(e.rid); } } }
+const pen=(t)=>[...t.slice(t.indexOf(Q)+1)].filter(c=>LET.test(c)).length===1;
+const bare=(t)=>t.split(Q).join("");
+const byBare=new Map(); for(const t of freq.keys()){const b=bare(t);(byBare.get(b)??byBare.set(b,[]).get(b)).push(t);}
+let A=0,B=0,C=0; const rb=[],rc=[];
+for(const [t,n] of freq){ if(pen(t)){A+=n;continue;}
+  const tw=(byBare.get(bare(t))||[]).filter(x=>x!==t&&pen(x)).sort((x,y)=>freq.get(y)-freq.get(x))[0];
+  if(tw&&freq.get(tw)>n){B+=n;rb.push([n,t,tw,freq.get(tw),[...where.get(t)]]);}
+  else {C+=n;rc.push([n,t,tw??"(none)",tw?freq.get(tw):0,[...where.get(t)]]);} }
+console.log("A",A,"| B",B,"occ /",rb.length,"types | C",C,"occ /",rc.length,"types | total",A+B+C);
+for(const r of rb.sort((a,b)=>b[0]-a[0]))console.log("B",String(r[0]).padStart(3),r[1],"-> twin",r[2],"("+r[3]+")","|",r[4].join(" "));
+for(const r of rc.sort((a,b)=>b[0]-a[0]))console.log("C",String(r[0]).padStart(3),r[1],"| twin",r[2],"("+r[3]+")","|",r[4].join(" "));'
+```
+
+Run with `SCOPE=audit`, this returns **`A 1820 | B 49 occ / 12 types |
+C 34 occ / 29 types | total 1903`** — reproducing the riders' 49 and 34
+exactly, and pinning down what the original figures were scoped to:
+**`dir=rtl`-wrapped definition text only**. Class A also lands on
+1,820, matching this audit's sub-job table (`:61`).
+
+Run with `SCOPE=all` over the whole in-scope text locus (bare RTL,
+`headword`, `alt_headwords`, `plural_form`, `quotes[]` included), the
+register is larger: **`A 2019 | B 55 occ / 16 types | C 45 occ / 33
+types | total 2119`**. The riders' 49/34 are a subset; the figures the
+transform author must plan for are **55 and 45**.
+
+The register's token model (`[HEBREW]+"[HEBREW]+`) covers 2,119 of the
+2,125 text-locus occurrences. The 6 it cannot tokenise are the
+double-quote and combining-dot tokens already named above — A00253,
+U01408 (`יה"ש"ר`), A00409 (`א"תב"ש`), A01394 (`ה"דא"א`), Q00157
+(`פ"וגחמ"ט`), M01940 (`מ̇ס̇"ך̇`) — and they are unclassified, not lost.
+
+> **A note on the heuristic used to reach here.** A frequency-only
+> variant of this probe — "flag every token that shares a bare skeleton
+> with a more frequent twin", with no slot test — returns 21 token
+> types / 66 occurrences and *inverts the direction* on several rows:
+> it reports the canonical `עכו"ם` as the decline because the displaced
+> `עכ"ום` happens to be more frequent. Frequency alone does not
+> identify displacement; the slot test is what does.
+
+### Class B — displaced, dominant canonical twin exists (55 occ, 16 types)
+
+| Occ | Token | Canonical twin (occ) | rids |
+|---:|---|---|---|
+| 15 | `הק"בה` | `הקב"ה` (200) | A02325 B01335 C00049 E00668 I00749 M00957 O00478 Q00926 Q00997 P01130 P01362 Q02054 S00277 T00538 U01960 |
+| 14 | `עכ"ום` | `עכו"ם` (16) | A00692 A03169 B01347 C00901 H01214 J00631 M02983 M02997 M00273 P00026 P00731 Q00870 |
+| 9 | `ב"וד` | `בו"ד` (19) | B01371 K01339 M00607 N01108 N01113 N01118 Q00557 U00122 |
+| 2 | `בע"הב` | `בעה"ב` (12) | B01100 C00907 |
+| 2 | `שהק"בה` | `שהקב"ה` (6) | K01339 Q00380 |
+| 2 | `לעכ"ום` | `לעכו"ם` (3) | N00072 S00375 |
+| 2 | `להק"בה` | `להקב"ה` (15) | N00500 N01304 |
+| 1 | `או"הע` | `אוה"ע` (3) | A00692 |
+| 1 | `אט"בח` | `אטב"ח` (2) | A01069 |
+| 1 | `א"הר` | `אה"ר` (3) | B00074 |
+| 1 | `גי"מל` | `גימ"ל` (9) | C00994 |
+| 1 | `ט"ית` | `טי"ת` (3) | I00777 |
+| 1 | `בעו"הז` | `בעוה"ז` (3) | K01280 |
+| 1 | `ח"ית` | `חי"ת` (2) | K01339 |
+| 1 | `רו"הק` | `רוה"ק` (6) | O01233 |
+| 1 | `עי"ין` | `עיי"ן` (3) | P00000 |
+
+The `עכ"ום` family is the one to watch: this audit flagged it at `:63`
+as a **genuine censorship-era print variant**, not a scribal slip, and
+placed it in class C on that ground. The mechanical slot test puts it
+in class B because a canonical twin does exist and is (barely) more
+frequent — 16 against 14. **The slot test is not adjudicating the
+history here, and 16-to-14 is not dominance.** Treat the
+`עכ"ום`/`לעכ"ום`/`מעכ"ום`/`העכ"ום` group as undetermined regardless of
+which column it lands in.
+
+### Class C — non-penultimate, no dominant canonical twin (45 occ, 33 types)
+
+| Occ | Token | Twin, if any (occ) | rids |
+|---:|---|---|---|
+| 3 | `בי"תא` | `בית"א` (2) | B00578 B00751 B00757 |
+| 3 | `ש"ין` | `שי"ן` (3) | N01300 Q00883 |
+| 2 | `אלפ"ין` | — | A01935 |
+| 2 | `עו"הב` | `עוה"ב` (2) | B00007 B01368 |
+| 2 | `דַּלְ"תִים` | — | D00863 |
+| 2 | `דַּלְ"תִין` | — | D00863 |
+| 2 | `הֵי"הִין` | — | E00004 |
+| 2 | `זַיְי"נִין` | — | G00338 |
+| 2 | `חֵי"תִין` | — | H00897 |
+| 2 | `לעו"הב` | `לעוה"ב` (1) | H01114 K00762 |
+| 1 | `אברוש"די` | — | A00218 |
+| 1 | `א"תב` | — | A00409 |
+| 1 | `אוכ"טא` | — | A01208 |
+| 1 | `אפ"טא` | — | A01208 |
+| 1 | `ה"דא` | — | A01394 |
+| 1 | `דת"המ` | — | A02918 |
+| 1 | `לא"הק` | — | A03192 |
+| 1 | `באת"בש` | — | A03391 |
+| 1 | `וש"ין` | `ושי"ן` (1) | B00435 |
+| 1 | `בס"גר` | — | B00974 |
+| 1 | `העו"הב` | — | B01368 |
+| 1 | `הז"יו` | — | E00295 |
+| 1 | `זַיִ"ין` | — | G00338 |
+| 1 | `מעכ"ום` | — | K00464 |
+| 1 | `מ"ים` | — | M01200 |
+| 1 | `העכ"ום` | — | N00387 |
+| 1 | `העב"ום` | — | N00403 |
+| 1 | `ע"עז` | — | P00731 |
+| 1 | `בעו"הב` | — | R00266 |
+| 1 | `לע"ין` | — | Q00141 |
+| 1 | `פ"וגחמ` | — | Q00157 |
+| 1 | `בב"הק` | — | S00097 |
+| 1 | `בשִׁ"ין` | — | U00243 |
+
+### Ruling
+
+**Every member of both classes is glyph-corrected in place and never
+moved.** The transform replaces the ASCII `"` with `״` at the position
+it already occupies. It does not reposition the mark, and it does not
+reorder letters, for any of the 100 occurrences above.
+
+The reasons are the ones this audit already gave, now with the set
+pinned. Repositioning would be text invention rather than glyph
+correction: for class C the 1903 print was never inspected and
+displacement cannot be told from print variant (`:157`), and for class
+B a "dominant twin" as thin as 16-to-14 is a frequency observation, not
+evidence about what the page says. Moving a mark also changes the token
+identity, which would silently break the `data-ref` ↔ `headword`
+string-identity match that `:136` warns about.
+
+What the rule *does* owe them: the ASCII quote is a wrong character
+wherever it stands, so all 100 are in the population and all 100 get
+`״`. They leave the transform correctly glyphed and still displaced,
+which is a strictly smaller defect than the one they carry now, and
+they are listed here by rid so a later judgement pass — with the print
+in hand — can find them.
