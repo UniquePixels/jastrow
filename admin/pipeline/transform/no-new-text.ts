@@ -203,4 +203,4 @@ function checkNoNewText(
 	return problems;
 }
 
-export { checkNoNewText, fieldsOf, textOf };
+export { checkNoNewText, fieldsOf, stripTags, textOf };
