@@ -521,7 +521,7 @@ a downstream stage reads an escape is a corpus with two spellings of
 one address, whichever number you quote.
 
 Both readings, and the citation for the decode, are among the
-unreproducible figures listed below — the `migrate-dry` line they rest
+unreproducible figures listed above — the `migrate-dry` line they rest
 on was deleted by this same change.
 
 ### The ruling
@@ -886,10 +886,12 @@ population, in either order.
    ```
    repaired entries: 812 | rules: 15 | interactions: 1
    N00327 bare-rtl-hebrew 2->1
-   ``` Note what that means about the method: the
-   gershayim collision **would** have shown in this sweep as 85 → 65, so
-   it is a direct detector rather than a proxy for one. It is also 15
-   rules of ~80, so it is a snapshot, not a guarantee.
+   ```
+
+   Note what that means about the method: the gershayim collision
+   **would** have shown in this sweep as 85 → 65, so it is a direct
+   detector rather than a proxy for one. It is also 15 rules of ~80, so
+   it is a snapshot, not a guarantee.
 
    **CP-2 item, with the recipe, so nobody has to rediscover it:**
    promote that ~20-line probe to a corpus test — for every entry, run

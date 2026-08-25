@@ -24,7 +24,6 @@ below resolves today. This section is the audit record of what was
 found, not a description of the live corpus. See
 `docs/v2/body-migration.md` and `docs/v2/transform-batch-3a.md` §7.
 
-
 | Rid | Headword | Orphan refs item | Context | Decision |
 | --- | --- | --- | --- | --- |
 | A01069 | אט"בח | Jastrow, א"ט 1 | v. **א"ט**  | ALL Approved |
