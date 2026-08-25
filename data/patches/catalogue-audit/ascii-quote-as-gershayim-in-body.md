@@ -160,6 +160,15 @@ skipping U+0591–U+05C7 and U+0307, matching `[א-ת]`.
   dir=rtl body-text runs — span and anchor display text alike — where
   print has ״.*
 
+  **Superseded, 2026-08-25.** That wording named the audit's `dir=rtl`
+  scope, which the batch then widened, so it contradicted the
+  `corpusCount` and `reason` shipped beside it. The row now reads:
+  *ASCII double quote used as gershayim in DOCUMENT TEXT — every field
+  `fieldsOf` walks, outside `<…>` tag interiors, span and anchor
+  display text alike — where print has ״.* The locus half is what
+  separates it from `gershayim-breaks-ref-attribute`, which owns the
+  tag interiors.
+
   The proposal as first drafted ended *"; U+05F4 occurs 0 times in the
   corpus"*. **That clause is struck, and does not appear in the shipped
   description.** It is true of the pinned snapshot and false under

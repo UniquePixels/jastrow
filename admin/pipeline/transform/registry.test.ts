@@ -183,4 +183,53 @@ describe('entangledClusters', () => {
 	it('ignores a component with fewer than two registered members', () => {
 		expect(entangledClusters(clique(['a', 'b']), rules(['a']))).toEqual([]);
 	});
+
+	/**
+	 * A ONE-SIDED edge, walked from the side that does not record it.
+	 *
+	 * `checkEntanglement` reports an unreciprocated edge as a catalogue
+	 * problem, and all 18 live edges are symmetric — but this function
+	 * must not DEPEND on that. It is the code that makes the adjacency
+	 * gate falsifiable; resting it on a property of the catalogue is the
+	 * same shape of error the gate exists to catch.
+	 *
+	 * Registry order starts with `b`, the side holding no edge. Under a
+	 * DIRECTED graph `b`'s component is a singleton, it enters `seen`
+	 * first, and the later walk from `a` skips it as already seen — so
+	 * the split cluster vanishes and `checkAdjacency` passes on it.
+	 * Built undirected, `b` reaches `a` and the split is reported.
+	 */
+	const oneSided = (): Pattern[] => [
+		{
+			corpusCount: 0,
+			description: '',
+			entangledWith: ['b'],
+			id: 'a',
+			round: 0,
+			status: 'candidate' as const,
+		},
+		{
+			corpusCount: 0,
+			description: '',
+			id: 'b',
+			round: 0,
+			status: 'candidate' as const,
+		},
+	];
+
+	it('derives a one-sided edge walked from the side without it', () => {
+		expect(entangledClusters(oneSided(), rules(['b', 'x', 'a']))).toEqual([
+			{ at: [0, 2], ids: ['a', 'b'] },
+		]);
+	});
+
+	it('checkAdjacency reports a split one-sided cluster', () => {
+		expect(checkAdjacency(oneSided(), rules(['b', 'x', 'a']))).toHaveLength(1);
+	});
+
+	// The contiguous arrangement of the same one-sided pair must still
+	// pass, so the fix above cannot be satisfied by reporting everything.
+	it('a contiguous one-sided pair passes', () => {
+		expect(checkAdjacency(oneSided(), rules(['b', 'a']))).toEqual([]);
+	});
 });

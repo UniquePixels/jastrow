@@ -163,10 +163,13 @@ fall into as easily as a probe:
   occurrence (M01940) puts U+0307 between the letter and the `"`, so a
   bare `(?<=[HEBREW])` lookbehind misses it. The lookbehind must
   tolerate the mark, which is what `html.ts`'s `HEBREW_ATOM` already
-  encodes — `[${HEBREW}]̇*`. That constant is **module-private**
-  today (`html.ts:55`, absent from the export list); the rule exports
-  it rather than restating the atom, so the corpus keeps one
-  definition of "a Hebrew letter with its marks".
+  encodes — `[${HEBREW}]\u0307*`. **The final contract:** `html.ts`
+  EXPORTS that constant (`html.ts:64`, exported at `:252`) and
+  `gershayim.ts` imports it rather than restating the atom, so the
+  corpus keeps one definition of "a Hebrew letter with its marks". It
+  was module-private when this paragraph was drafted; Task 2 exported
+  it, and this sentence was re-tensed on 2026-08-25 after describing
+  the pre-batch state for a batch that had already changed it.
 
 Measured on the three readings, in scope: 2,302 consuming, 2,304
 lookaround, **2,305 atom-aware**. The third is correct and is the
@@ -277,9 +280,13 @@ This is the same defect class as the apostrophe-in-attribute parser
 bug fixed in [#47](https://github.com/UniquePixels/jastrow/pull/47),
 approached from the data side rather than the parser side.
 
-Measured: **90 occurrences across 85 entries** carry a Hebrew-flanked
+Measured: **90 anchors across 85 entries** carry a Hebrew-flanked
 quote inside a tag, which reproduces `gershayim-breaks-ref-attribute`'s
-catalogued 85 exactly.
+catalogued 85 exactly. ANCHORS, not occurrences — each of the 90
+carries the defect in both its `href` and its `data-ref`, so the
+occurrence count for the same population is **180** (§1). Keeping the
+two units apart matters here because the row's write-back states all
+three: 90 anchors / 180 occurrences / 85 entries.
 
 **And every one of them points at a headword that carries the same
 defect — 90 of 90, with 0 unresolved.** Extract each broken

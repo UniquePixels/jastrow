@@ -392,6 +392,51 @@ interface Cluster {
 	ids: string[];
 }
 
+/**
+ * The `entangledWith` graph as an UNDIRECTED adjacency map: every edge
+ * is stored on both endpoints, whichever side of it the catalogue
+ * actually recorded.
+ *
+ * Reading `row.id -> row.entangledWith` alone builds a DIRECTED graph,
+ * and `componentOf` traverses in that one direction only. A one-sided
+ * edge — `a` names `b`, `b` does not name `a` — is then invisible from
+ * `b`: if `b` sits earlier in `RULES` it is walked first, enters
+ * `seen` as a singleton, and the later walk from `a` skips it. The
+ * component never forms, so `checkAdjacency` passes on a SPLIT
+ * recorded entanglement. Adding the reverse edge makes the traversal
+ * find it from either end.
+ *
+ * `checkEntanglement` reports an unreciprocated edge as a catalogue
+ * problem, and today every edge is reciprocated — 18 recorded entries,
+ * 9 undirected edges, 0 one-sided, 0 dangling — so nothing in the
+ * corpus reaches this. That is exactly why it is worth building
+ * correctly rather than leaving: this is the code Task 3 added to make
+ * the adjacency gate FALSIFIABLE, and a gate whose correctness rests
+ * on a property of its own input is the failure mode it exists to
+ * catch. Pinned by `registry.test.ts`, walked from the side holding no
+ * edge.
+ *
+ * Edges to ids the catalogue does not hold are kept, as they were
+ * before: they contribute no registry position, so they widen no span.
+ * `checkEntanglement` is what names them.
+ */
+function undirectedGraph(catalogue: readonly Pattern[]): Map<string, string[]> {
+	const edges = new Map<string, Set<string>>();
+	const of = (id: string): Set<string> => {
+		const found = edges.get(id) ?? new Set<string>();
+		edges.set(id, found);
+		return found;
+	};
+	for (const row of catalogue) {
+		of(row.id);
+		for (const other of row.entangledWith ?? []) {
+			of(row.id).add(other);
+			of(other).add(row.id);
+		}
+	}
+	return new Map([...edges].map(([id, set]) => [id, [...set]]));
+}
+
 /** The connected component containing `from`, marking each id seen so
  * a component is walked once rather than once per member. */
 function componentOf(
@@ -429,9 +474,7 @@ function entangledClusters(
 	rules: readonly Rule[] = RULES,
 ): Cluster[] {
 	const index = new Map(rules.map((rule, at) => [rule.id, at]));
-	const partners = new Map(
-		catalogue.map((row) => [row.id, row.entangledWith ?? []]),
-	);
+	const partners = undirectedGraph(catalogue);
 	const seen = new Set<string>();
 	const clusters: Cluster[] = [];
 	for (const rule of rules) {
