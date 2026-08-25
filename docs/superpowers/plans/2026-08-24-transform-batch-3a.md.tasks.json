@@ -10,7 +10,7 @@
     {
       "id": 1,
       "subject": "Task 1: Anchor.tag, glyphCorrected, link-target case 5",
-      "status": "pending",
+      "status": "completed",
       "blockedBy": [
         0
       ],
@@ -19,7 +19,7 @@
     {
       "id": 2,
       "subject": "Task 2: The predicate, substitution, and two rules",
-      "status": "pending",
+      "status": "completed",
       "blockedBy": [
         1
       ],
@@ -28,7 +28,7 @@
     {
       "id": 3,
       "subject": "Task 3: Register the pair and prove the order is free",
-      "status": "pending",
+      "status": "completed",
       "blockedBy": [
         2
       ],
@@ -37,7 +37,7 @@
     {
       "id": 4,
       "subject": "Task 4: The link-integrity census",
-      "status": "pending",
+      "status": "completed",
       "blockedBy": [
         3
       ],
@@ -46,12 +46,12 @@
     {
       "id": 5,
       "subject": "Task 5: Corpus run, write-backs, batch report",
-      "status": "pending",
+      "status": "completed",
       "blockedBy": [
         4
       ],
       "description": "**Goal:** Close the batch — counts reconciled against the catalogue, both rows' reason written, the full pipeline green, and the report written.\n\n**Files:**\n- Modify: `data/patches/patterns.jsonl`\n- Modify: `data/patches/catalogue-audit/ascii-quote-as-gershayim-in-body.md`\n- Create: `docs/v2/transform-batch-3a.md`\n- Modify: `docs/v2/phase-2-triage.md`\n\n**Acceptance Criteria:**\n- [ ] bun transform:count runs clean or reports only the expected delta on ascii-quote-as-gershayim-in-body\n- [ ] That row's corpusCount is corrected 1,290 → the measured entry count, with the reason recording that the widening is what moved it\n- [ ] gershayim-breaks-ref-attribute's count is confirmed at 85 or corrected with evidence\n- [ ] bun body:migrate-dry reports 32,512/32,512, 0 schema failures, 0 quarantines\n- [ ] docs/v2/transform-batch-3a.md records what shipped, the 90/90 result, the link-integrity number, the decline register, and Task 4 Step 3's finding\n- [ ] docs/v2/phase-2-triage.md's route table is recomputed from the catalogue, never typed\n- [ ] Every claim in the report is reproducible by a command printed beside it\n\n**Verify:** `bun transform:count && bun body:migrate-dry && bun qa`\n\n```json:metadata\n{\"files\":[\"data/patches/patterns.jsonl\",\"data/patches/catalogue-audit/ascii-quote-as-gershayim-in-body.md\",\"docs/v2/transform-batch-3a.md\",\"docs/v2/phase-2-triage.md\"],\"verifyCommand\":\"bun transform:count && bun body:migrate-dry && bun qa\",\"acceptanceCriteria\":[\"bun transform:count runs clean or reports only the expected delta on ascii-quote-as-gershayim-in-body\",\"That row's corpusCount is corrected 1,290 → the measured entry count, with the reason recording that the widening is what moved it\",\"gershayim-breaks-ref-attribute's count is confirmed at 85 or corrected with evidence\",\"bun body:migrate-dry reports 32,512/32,512, 0 schema failures, 0 quarantines\",\"docs/v2/transform-batch-3a.md records what shipped, the 90/90 result, the link-integrity number, the decline register, and Task 4 Step 3's finding\",\"docs/v2/phase-2-triage.md's route table is recomputed from the catalogue, never typed\",\"Every claim in the report is reproducible by a command printed beside it\"],\"modelTier\":\"standard\"}\n```"
     }
   ],
-  "lastUpdated": "2026-08-24T21:05:00.000Z"
+  "lastUpdated": "2026-08-25T02:20:00.000Z"
 }
