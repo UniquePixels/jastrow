@@ -99,30 +99,34 @@ with the other fourteen.
 
 | Class | Rows | Instances | What the text multiset does |
 |---|---|---:|---|
-| **A. Seam move** | 6 | 2,395 | unchanged — a byte crosses a tag boundary |
-| **B. Space insertion** | 5 | 369 | **gains** one U+0020 per instance |
-| **C. Deletion** | 5 | 358 | loses a codepoint (sub-multiset, always safe) |
+| **A. Seam move** | 4 | 2,342 | unchanged — a byte crosses a tag boundary |
+| **B. Space insertion** | 6 | 379 | **gains** one U+0020 per instance |
+| **C. Deletion** | 6 | 401 | loses a codepoint (sub-multiset, always safe) |
 
 **Class A** — `italic-swallowed-terminal-period` (1,098),
 `label-period-outside-italic` (945), `em-dash-section-break-in-own-italic`
-(270), `italic-lone-punctuation` (29), `citation-quote-seam-period` (43,
-by deletion in some members — see §7), `italic-swallows-close-paren`
-(10). `stripTags` maps `<i>Af</i>.` and `<i>Af.</i>` to the same
-`Af.`, so `checkNoNewText` sees nothing at all. **The whole safety
-burden falls on `checkMarkup`'s delta and on the rule's own tests.**
+(270), `italic-lone-punctuation` (29). `stripTags` maps `<i>Af</i>.` and
+`<i>Af.</i>` to the same `Af.`, so `checkNoNewText` sees nothing at
+all. **The whole safety burden falls on `checkMarkup`'s delta and on
+the rule's own tests.**
 
 **Class B** — `paren-tag-no-space` (126), `anchor-italic-no-space`
-(111), `italic-close-paren-nospace` (95), `translit-italic-space-loss`
-(15), `geresh-abbrev-space-loss` (22). These add text. §5 is about
-them.
+(111), `italic-close-paren-nospace` (95), `geresh-abbrev-space-loss`
+(22), `translit-italic-space-loss` (15), `italic-swallows-close-paren`
+(10). These add text. §5 is about them.
+
+`italic-swallows-close-paren` is in this class rather than in A on its
+own audit's wording: the repair is `</i> <i>`, which splits the run
+rather than moving a byte across its edge, and that inserted space is
+exactly what its audit means by *"not byte-conservingly repairable"*.
 
 **Class C** — `emphasis-run-edge-space` (304),
-`orphan-gloss-seam-period` (19), `gloss-head-seam-period-doubling`
-(15), `trailing-whitespace-definition` (10), `entry-final-comma` (10).
-Deletion passes the sub-multiset gate by construction, which means
-**the gate cannot tell a correct deletion from deleting the wrong
-byte**. Three of these five are flagged by their own audits as not
-safely deletable (§7).
+`citation-quote-seam-period` (43), `orphan-gloss-seam-period` (19),
+`gloss-head-seam-period-doubling` (15), `trailing-whitespace-definition`
+(10), `entry-final-comma` (10). Deletion passes the sub-multiset gate
+by construction, which means **the gate cannot tell a correct deletion
+from deleting the wrong byte**. Three of these six are flagged by their
+own audits as not safely deletable (§7).
 
 ## 4. The two largest rows are one predicate with two polarities
 
