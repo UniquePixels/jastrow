@@ -235,7 +235,11 @@
  * - **Unused claims.** A `composed`, `recombined` or `glyphCorrected`
  *   entry matching no anchor grants nothing, but is not itself
  *   reported, so a stale declaration left in a rule will not be
- *   flagged.
+ *   flagged. A claim that DOES match diverges by case: cases 3 and 4
+ *   are ANY-claim, so a faulty claim beside an honest one on the same
+ *   value is ignored; case 5 is ALL-claim, so it refuses the anchor.
+ *   `glyphFaults` argues why — for case 5 a second claim on the same
+ *   tag can only be a false provenance, never an alternative source.
  * - **Provenance stops at the rule boundary.** `run.ts` gates each
  *   rule against the entry AS OF THAT RULE'S START, not against the
  *   phase's original input, so rule N reads the targets rule N−1
@@ -723,10 +727,40 @@ function glyphFault(
 }
 
 /**
- * Faults from the case-5 arm, with the same contract as
- * `composeFaults` and `rejoinFaults`: `undefined` means a declared
- * glyph correction licensed this anchor, an EMPTY array means no
- * claim spoke to it at all.
+ * Faults from the case-5 arm. It shares `composeFaults`'s and
+ * `rejoinFaults`'s RETURN protocol — `undefined` means a declared
+ * claim licensed this anchor, an EMPTY array means no claim spoke to
+ * it at all — but NOT their quantifier, and the difference is
+ * deliberate rather than an oversight.
+ *
+ * `composeFaults` is ANY-claim: it returns as soon as one matching
+ * claim is fault-free, so a second, faulty claim on the same value
+ * cannot block an honest one. This arm is ALL-claim: every matching
+ * claim must be fault-free. Two reasons.
+ *
+ * - ANY-claim buys case 5 nothing. `glyphFault`'s condition 1 is a
+ *   FUNCTION of the target — `target` de-mapped must equal `from` —
+ *   so for a given `target` at most ONE `from` can ever be licensed,
+ *   and conditions 3 and 4 read the target alone. Two claims naming
+ *   the same `anchor.tag` can therefore only disagree when they
+ *   differ in `from`, and then exactly one of them is asserting a
+ *   provenance the bytes contradict. Compose has real multiplicity to
+ *   accommodate (`hrefsFor` yields several candidate spellings for one
+ *   value); this has none.
+ * - So a second claim here is not noise a rule left lying around. It
+ *   names a tag the rule DID write and states something false about
+ *   where those bytes came from — a rule bug, and the declaration
+ *   audit is what case 5 exists to be. Under ANY-claim a rule could
+ *   declare one true claim plus any amount of garbage against the same
+ *   tag and the gate would say nothing.
+ *
+ * The module doc's "Unused claims" blind spot is unaffected and means
+ * what it says: a claim MATCHING NO ANCHOR grants nothing and is not
+ * reported, and one matching an anchor whose value is already in
+ * `input.targets` is never consulted either, because `checkValue`
+ * settles cases 1 and 2 first. What a claim naming a genuinely
+ * repaired tag cannot do is sit alongside an honest one and be
+ * ignored — see that bullet, which records the divergence.
  *
  * A claim is matched by `target === anchor.tag` — the raw opening-tag
  * bytes, because the parsed targets are truncated for exactly the

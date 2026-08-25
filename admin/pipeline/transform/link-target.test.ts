@@ -753,6 +753,65 @@ it('case 5 refuses a well-formed claim naming a tag no input anchor carries', ()
 	]);
 });
 
+/** The corollary `glyphFault`'s condition 1 states and calls
+ * fail-closed under composition: a `from` that ALREADY carries a
+ * gershayim can never satisfy it, because de-mapping the target
+ * leaves none behind. Nothing exercised it — the nearest cases
+ * retarget `from` or move a non-quote character, and fail for their
+ * own reasons.
+ *
+ * Set up so condition 2 would pass, which is what isolates the
+ * corollary as the reason for the refusal: the input already carries
+ * the repaired tag — the state composition leaves it in once an
+ * earlier rule has written a mark — so `from` IS a tag this entry
+ * held. The anchor needing a licence is a DIFFERENT one, because a
+ * claim whose target is already in the input target set is settled by
+ * case 1 and never consulted at all. */
+it('case 5 refuses a claim whose from already holds a gershayim', () => {
+	const other =
+		'<a dir="rtl" class="refLink" href="/Jastrow,_עכ"ום.1" data-ref="Jastrow, עכ"ום 1">עכום</a>';
+	const otherRepaired = other.replaceAll('"ו', `${GERSHAYIM}ו`);
+	const after = entry(`${repaired} ${otherRepaired}`);
+	expect(
+		checkLinkTargets(
+			entry(`${repaired} ${other}`),
+			after,
+			result(after, {
+				glyphCorrected: [
+					{ from: openTagOf(repaired), target: openTagOf(otherRepaired) },
+				],
+			}),
+		),
+	).toEqual([
+		`glyph-corrected ${JSON.stringify('Jastrow, עכ״ום 1')} changes more than the quote`,
+	]);
+});
+
+/** Case 5 is ALL-claim where cases 3 and 4 are ANY-claim, and the
+ * divergence is deliberate — see `glyphFaults`. One honest claim plus
+ * one claim stating a false provenance for the SAME repaired tag
+ * refuses the anchor rather than letting the honest one carry it. */
+it('case 5 refuses an honest claim beside a false one on the same tag', () => {
+	const after = entry(repaired);
+	expect(
+		checkLinkTargets(
+			entry(damaged),
+			after,
+			result(after, {
+				glyphCorrected: [
+					{ from: openTagOf(damaged), target: openTagOf(repaired) },
+					{
+						from: openTagOf(damaged).replace('אל', 'בל'),
+						target: openTagOf(repaired),
+					},
+				],
+			}),
+		),
+	).toEqual([
+		`glyph-corrected ${JSON.stringify('Jastrow, אל״ף 1')} changes more than the quote`,
+	]);
+});
+
 it('case 5 refuses a claim that changes a non-quote character', () => {
 	const moved = repaired.replace('.1"', '.2"');
 	const after = entry(moved);
