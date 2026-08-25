@@ -416,37 +416,65 @@ against the pre-retirement code:
 That last line is the whole of the `65 instance(s)` that `migrate-dry`
 reported and the isolated measurement did not.
 
-**Those six figures are the one thing in this report that cannot be
-reproduced against the current tree**, because the code that produced
-them is gone. They reproduce against this commit's parent — copy
-`repairs.ts` out of it and point the probe at the copy:
+**These are the only claims in this report that cannot be reproduced
+against the current tree** — the six rows above plus the `gained 68 /
+lost 22` pair and the `migrate-dry.ts` decode they cite, because the
+code that produced all of them is gone. They do NOT depend on git
+history: the retired pass was 21 rid-keyed substitutions, so the probe
+below carries the table inline and reconstructs it on top of today's
+`applyRepairs`.
 
 ```bash
-git show HEAD~1:admin/pipeline/body/repairs.ts > /tmp/repairs-old.ts
-cp /tmp/repairs-old.ts admin/pipeline/body/repairs-old-probe.ts
 bun -e '
-const {applyRepairs}=await import("./admin/pipeline/body/repairs-old-probe.ts");
+// The retired class-1 escape, reconstructed inline so this probe needs no
+// git history. Table and substitution are verbatim from the pass that was
+// removed in `repairs.ts` (see docs/v2/body-migration.md).
+const Q = String.fromCharCode(34);
+const CLASS1 = {A01069:"א״ט",A01940:"אלפ״א",B00752:"בי״ת",B00757:"בי״ת",
+ C00473:"ג״ר",C01036:"גימ״ל",C01224:"א״ת",C01225:"ג״ר",D00791:"אח״ס",
+ E00326:"ה״א",E00686:"ה״א",J00083:"יג״ל",M01200:"מ״ם",M01490:"דל״ה",
+ M01690:"אאלר״ן",N00910:"אאלר״ן",P00169:"דצ״ך",P00600:"עיי״ן",
+ Q00002:"פ״ה",U02063:"א״ת",V00042:"תבש״ט"};
 const {readSourceEntries}=await import("./admin/pipeline/body/source.ts");
+const {applyRepairs,walkSensesDeep}=await import("./admin/pipeline/body/repairs.ts");
 const {fieldsOf}=await import("./admin/pipeline/transform/no-new-text.ts");
 const {tokenize}=await import("./admin/pipeline/transform/html.ts");
 const {anchors}=await import("./admin/pipeline/transform/links.ts");
 const {repairTags}=await import("./admin/pipeline/transform/gershayim.ts");
-let entities=0, tagged=0, escaped=0, before=0, after=0;
-for await (const e of readSourceEntries()){ const r=applyRepairs(e);
-  if(r.records.some(x=>x.pass==="cite-escape"))escaped++;
-  for(const f of fieldsOf(e)) before+=anchors(tokenize(f)).filter(a=>repairTags(a.tag)!==a.tag).length;
-  for(const f of fieldsOf(r.entry)){ entities+=f.split("&quot;").length-1;
-    after+=anchors(tokenize(f)).filter(a=>repairTags(a.tag)!==a.tag).length;
+const escape1=(entry,target)=>{ const esc=target.split(Q).join("&quot;"); let n=0;
+  const pairs=[["/Jastrow,_"+target+".1"+Q,"/Jastrow,_"+esc+".1"+Q],
+               [Q+"Jastrow, "+target+" 1"+Q,Q+"Jastrow, "+esc+" 1"+Q]];
+  for(const s of walkSensesDeep(entry.content.senses)){ let d=s.definition; if(d===undefined)continue;
+    for(const [f,r] of pairs){ n+=d.split(f).length-1; d=d.split(f).join(r); }
+    if(d!==s.definition)s.definition=d; }
+  return n; };
+const dmg=(e)=>fieldsOf(e).flatMap(f=>anchors(tokenize(f))).filter(a=>repairTags(a.tag)!==a.tag).length;
+let escaped=0,entities=0,tagged=0,before=0,after=0;
+for await (const e of readSourceEntries()){
+  const healed=applyRepairs(e).entry; before+=dmg(healed);
+  const target=CLASS1[e.rid];
+  if(target!==undefined){ const n=escape1(healed,target.split("״").join(Q));
+    if(n===0)throw new Error(e.rid+": no malformed anchor found"); escaped++; }
+  after+=dmg(healed);
+  for(const f of fieldsOf(healed)){ entities+=f.split("&quot;").length-1;
     tagged+=anchors(tokenize(f)).filter(a=>a.tag.includes("&quot;")).length; } }
 console.log({escapedEntries:escaped, entitiesWritten:entities, tagsCarryingAnEntity:tagged,
-  damagedBefore:before, damagedAfterRepairs:after});'
-rm admin/pipeline/body/repairs-old-probe.ts
+  damagedBeforeTheEscape:before, damagedAfterTheEscape:after});'
 ```
 
 ```
 { escapedEntries: 21, entitiesWritten: 44, tagsCarryingAnEntity: 22,
-  damagedBefore: 90, damagedAfterRepairs: 68 }
+  damagedBeforeTheEscape: 90, damagedAfterTheEscape: 68 }
 ```
+
+**It throws rather than reporting zeros if the reconstruction stops
+matching the corpus** — `escape1` returning 0 for any rid is the same
+assertion the retired pass made. An earlier draft of this block restored
+the old file with `git show HEAD~1`, and that had already rotted by
+review: a later commit moved `HEAD~1` past the retirement, so the probe
+ran clean and printed every figure as 0 or 90. A probe that fails by
+returning plausible wrong numbers is worse than no probe, and the squash
+merge into `v2` would have destroyed the referenced commits anyway.
 
 The "23 damaged tags inside the 21 entries" row does reproduce today,
 and it is what reconciles 22 with 23 — `C01224` holds a second damaged
@@ -470,14 +498,31 @@ console.log("former class-1 rids:",RIDS.size,"| damaged tags inside them:",n);'
 former class-1 rids: 21 | damaged tags inside them: 23
 ```
 
-**And it was not merely reduced coverage.** `&quot;` encodes an ASCII
-quote — the pipeline said so itself, in `migrate-dry.ts`'s orphan
-recount, which read values back with `.split('&quot;').join('"')`. So
-those 22 targets still meant a quote while
-`ascii-quote-as-gershayim-in-body` had corrected their target headwords
-to a gershayim: **one address, two spellings.** Measured through the
-real pipeline with and without the pair, the batch as first written
-gained 68 cross-links and **lost 22**.
+**And it was not merely reduced coverage — under one reading of the
+entity, though not under both.** `&quot;` encodes an ASCII quote, and
+the pipeline said so itself: `migrate-dry`'s orphan recount read values
+back with `.split('&quot;').join('"')` before this batch removed the
+line, and `escapeCiteAttributes`'s own comment called the entity the
+form of "the headword's own gershayim". Under that reading those 22
+targets still meant a quote while `ascii-quote-as-gershayim-in-body`
+had corrected their target headwords to a gershayim — **one address,
+two spellings** — and the batch as first written gained 68 cross-links
+and **lost 22**.
+
+**The caveat belongs beside the number.** Scored WITHOUT decoding the
+entity, the same census reads `gained 68 | lost 0`, because the raw
+`Jastrow, א&quot;ט 1` matched no headword under either reading. So the
+22 is a loss against the pipeline's own stated semantics for the
+entity, not against a naive string comparison. Which one a consumer
+would have experienced depended on whether `compile` — still unwritten
+— decoded it. **That ambiguity is itself the argument for the ruling:**
+a corpus in which the answer to "does this link resolve" depends on how
+a downstream stage reads an escape is a corpus with two spellings of
+one address, whichever number you quote.
+
+Both readings, and the citation for the decode, are among the
+unreproducible figures listed below — the `migrate-dry` line they rest
+on was deleted by this same change.
 
 ### The ruling
 
@@ -545,9 +590,25 @@ counts records and never scores links. **Nothing in the suite ran the
 two layers in sequence and asked whether links still resolved**, so a
 repair and a transform could disagree about the same bytes with every
 test green. The gap — not the incident — is what
-`admin/pipeline/body/pipeline-links.test.ts` closes: any future rule or
-repair that moves a link target, or moves a headword out from under
-one, fails there, whichever layer it lives in.
+`admin/pipeline/body/pipeline-links.test.ts` closes, and it is worth
+being exact about how far it reaches rather than claiming the layer.
+
+**The `gained`/`lost` arms are DIFFERENTIAL.** Both run `applyRepairs`
+and every non-gershayim rule, so a change elsewhere in either layer
+appears on both sides and cancels. What they catch is anything that
+*interferes with the withheld pair* — another layer consuming its
+population, moving its targets, or moving the headwords those targets
+point at. That is precisely this collision, and it is a narrow window.
+
+**The absolute pin is what widens it.** The same test asserts that the
+post-pipeline corpus holds exactly **72,593** resolving Jastrow targets
+(`before` is 72,503). Any change in any layer that moves the
+corpus-wide total fails there instead, at no extra runtime. A new
+unlink rule will move it legitimately; the number is updated with the
+measurement that justifies it, never to turn a red test green.
+
+The two together still do not cover everything — §9.2 records the
+sweep that would, and the recipe for it.
 
 It costs two full pipeline passes (~45s). That is deliberate. The
 cheaper measurement is the one that missed this.
@@ -801,12 +862,45 @@ population, in either order.
 2. **A repair and a transform can own the same defect, and nothing
    declares it.** `patterns.jsonl` routes catalogue rows; `repairs.ts`
    carries rid-keyed decisions from the body-model work; neither knows
-   about the other. Batch 3a found the overlap by accident. Someone
-   should sweep `repairs.ts`'s remaining rid-keyed tables against the
-   catalogue before the next batch that touches text — `cite-wrap`
-   (3 entries) and `refs-removal` (3) are the ones left in the 02
-   family, and the 01/04/06 families are larger. Recorded for CP-2, not
-   opened here.
+   about the other. Batch 3a found the overlap by accident.
+
+   **The sweep was run rather than estimated, and it found exactly one
+   interaction, benign** — `bare-rtl-hebrew` on **N00327**, 2 records →
+   1, because `rejoin-chopped` merges two chopped senses so one wrap
+   covers both. No second collision exists in today's registry.
+
+   ```bash
+   bun -e '
+   const {readSourceEntries}=await import("./admin/pipeline/body/source.ts");
+   const {applyRepairs}=await import("./admin/pipeline/body/repairs.ts");
+   const {RULES}=await import("./admin/pipeline/transform/registry.ts");
+   let repaired=0; const delta=[];
+   for await (const e of readSourceEntries()){ const r=applyRepairs(e);
+     if(r.records.length===0)continue; repaired++;
+     for(const rule of RULES){ const a=rule.apply(e).records.length, b=rule.apply(r.entry).records.length;
+       if(a!==b)delta.push(e.rid+" "+rule.id+" "+a+"->"+b); } }
+   console.log("repaired entries:",repaired,"| rules:",RULES.length,"| interactions:",delta.length);
+   console.log(delta.join("\n"));'
+   ```
+
+   ```
+   repaired entries: 812 | rules: 15 | interactions: 1
+   N00327 bare-rtl-hebrew 2->1
+   ``` Note what that means about the method: the
+   gershayim collision **would** have shown in this sweep as 85 → 65, so
+   it is a direct detector rather than a proxy for one. It is also 15
+   rules of ~80, so it is a snapshot, not a guarantee.
+
+   **CP-2 item, with the recipe, so nobody has to rediscover it:**
+   promote that ~20-line probe to a corpus test — for every entry, run
+   each rule on the pristine entry and on `applyRepairs(entry).entry`,
+   collect the rules whose record count differs, and assert the
+   resulting delta set equals a checked-in allowlist. Today that
+   allowlist is one row, `bare-rtl-hebrew` on N00327, carrying its
+   reason. Roughly 40s, one file, no new infrastructure, and it fails
+   the moment a repair and a rule start disagreeing about the same
+   bytes. `pipeline-links.test.ts` only sees such a disagreement when it
+   moves a LINK; this sees it whenever it moves a RECORD.
 3. **Retiring a repair changes `repaired=` and that is not drift.**
    `migrate-dry` reports 812 repaired entries where every prior record
    says 832. The 20-entry difference is exactly the retired escapes

@@ -15,9 +15,21 @@
  * report at batch close. That escape is now retired (maintainer ruling
  * 2026-08-24) and this file is what would have caught it.
  *
- * The gap, not the incident, is what this closes. Any future rule or
- * repair that moves a link target — or moves a HEADWORD out from under
- * one — fails here, whichever layer it lives in.
+ * What this DOES and does NOT cover, stated rather than implied,
+ * because overclaiming a gate is the same error class as the one above.
+ * The gained/lost arms are DIFFERENTIAL: both run `applyRepairs` and
+ * every non-gershayim rule, so a change elsewhere in either layer
+ * appears on both sides and CANCELS. What the differential catches is
+ * anything that interferes with the withheld pair — another layer
+ * consuming its population, moving its targets, or moving the headwords
+ * its targets point at. That is exactly the collision above, and it is
+ * a narrow window.
+ *
+ * The ABSOLUTE pin below is what widens it: `after` must hold exactly
+ * 72,593 resolving Jastrow targets. Any change in any layer that moves
+ * the corpus-wide total fails there instead, at no extra runtime. A new
+ * unlink rule will move it legitimately — update the number WITH the
+ * measurement that justifies it, never to make a red test green.
  *
  * Cost: two full pipeline passes (`applyRepairs` + the whole registry)
  * over 32,512 entries. That is expensive and it is deliberate; the
@@ -122,6 +134,9 @@ describe('the pipeline preserves and repairs link targets', () => {
 			lost: lost.slice(0, 5),
 			lostCount: lost.length,
 		}).toEqual({ entries: 32_512, gained: 90, lost: [], lostCount: 0 });
+		// Absolute, not differential — see the module docstring. Measured
+		// on this tree; `before` is 72,503.
+		expect(now.size).toBe(72_593);
 	}, 180_000);
 
 	it('leaves no escaped quote in the corpus, and one spelling per address', async () => {

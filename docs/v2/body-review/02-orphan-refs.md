@@ -8,11 +8,22 @@ records maintainer confirmation (or override) of each.
 ## Class 1 — unlinked gershayim cross-refs (21 items)
 
 §5 disposition: internal cross-references to gershayim-abbreviation
-headwords whose target text sits unlinked in the body — **fixed by
-wrapping the text in `<cite ref>`** (hand pass, listed in the
-migration report). The source anchors exist, but the gershayim `"`
-inside `href`/`data-ref` breaks the attribute, so the link never
-resolves. *Context* shows the in-body target text in bold.
+headwords whose target text sits unlinked in the body. The source
+anchors exist, but the ASCII `"` inside `href`/`data-ref` terminates
+the attribute, so at audit the link did not resolve. *Context* shows
+the in-body target text in bold.
+
+**Status: FIXED, and not the way this disposition proposed.** The
+§5 plan was a hand pass wrapping the text; what shipped was a
+rid-keyed repair escaping the quote as `&quot;` (2026-07-11), and
+that was RETIRED on 2026-08-24 in favour of correcting the
+character itself — the corpus writes `"` where Jastrow prints the
+gershayim `״` (U+05F4). Transform batch 3a repairs all 90 damaged
+anchors and the headwords they point at in one pass, so every item
+below resolves today. This section is the audit record of what was
+found, not a description of the live corpus. See
+`docs/v2/body-migration.md` and `docs/v2/transform-batch-3a.md` §7.
+
 
 | Rid | Headword | Orphan refs item | Context | Decision |
 | --- | --- | --- | --- | --- |
