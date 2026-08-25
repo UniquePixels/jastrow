@@ -321,7 +321,6 @@ const PENDING: readonly string[] = [
 	'phrase-alt-headword-stub',
 	'tanhuma-never-linked',
 	'pesikta-drk-never-linked',
-	'ascii-gershayim-outside-body-text',
 	'duplicated-definition-opening-run',
 	'shin-sin-dot-drop',
 	'v-sub-redirect-stub-mislink',
@@ -472,9 +471,9 @@ function entangledClusters(
  * an entanglement nobody recorded does not exist as far as it is
  * concerned. A row carrying NO edge is invisible to it: the row's
  * component is a singleton, `entangledClusters` drops it, and the gate
- * returns clean whatever the registry does with that rule. 57 of the
- * 63 rows still in `PENDING` carry no edge at all (measured
- * 2026-08-24), so for most of the work ahead this gate is
+ * returns clean whatever the registry does with that rule. 56 of the
+ * 62 rows still in `PENDING` carry no edge at all (measured
+ * 2026-08-25), so for most of the work ahead this gate is
  * unfalsifiable BY CONSTRUCTION — not because the check is weak, but
  * because its input is incomplete.
  *

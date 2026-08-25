@@ -40,8 +40,8 @@ describe('registry coverage', () => {
 		expect(PENDING.filter((id) => registered.has(id))).toEqual([]);
 	});
 
-	// 78, not the 80 this asserted after batch 1, nor the 81 it asserted
-	// during it. Three withdrawals, each for its own reason, and the set
+	// 77, not the 80 this asserted after batch 1, nor the 81 it asserted
+	// during it. Four withdrawals, each for its own reason, and the set
 	// is the point: a row leaves `transform` when the audit says so, and
 	// the number here is a ledger of that, not a target.
 	//
@@ -69,8 +69,20 @@ describe('registry coverage', () => {
 	//   where the two above failed on inference and on there being no
 	//   defect at all. See
 	//   data/patches/catalogue-audit/homograph-numeral-mismatch.md.
-	it('the catalogue still holds 78 transform rows', () => {
-		expect(coverage(catalogue).total).toBe(78);
+	// - `ascii-gershayim-outside-body-text`, batch 3a pre-PR review: the
+	//   fourth failed none of those tests — it had nothing left to fail
+	//   them with. Batch 3a widened `ascii-quote-as-gershayim-in-body` to
+	//   every field `fieldsOf` walks and split the tag locus into
+	//   `gershayim-breaks-ref-attribute`, and those two rules between
+	//   them repair six of this row's seven slots. The seventh is
+	//   `refs[]`, dropped at compile (B7). An exhaustive walk over the
+	//   raw JSON puts the unowned surviving population at ZERO, so the
+	//   row was discarded rather than narrowed: left on `transform` it
+	//   would have been a second owner of records these rules already
+	//   repair, which is the failure the batch existed to fix. Its
+	//   `reason` carries the partition and the command.
+	it('the catalogue still holds 77 transform rows', () => {
+		expect(coverage(catalogue).total).toBe(77);
 	});
 
 	it('pending ids all exist in the catalogue', () => {

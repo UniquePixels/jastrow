@@ -1,7 +1,8 @@
 # Phase 2 worklist — the catalogue, routed
 
 **Status: triaged 2026-08-21; totals recomputed from the catalogue
-2026-08-24 after transform batch 3a.** All 132 candidate rows routed.
+2026-08-25 after transform batch 3a and its pre-PR review.** All 131
+candidate rows routed.
 This is the Phase 2 entry point: start here, not in `patterns.jsonl`.
 
 Every count on this page is derived from `patterns.jsonl`, never typed
@@ -19,7 +20,7 @@ const b=rows.filter(r=>r.blocking===true); console.log("blocking", b.length, sum
 
 | | |
 |---|---|
-| Catalogue | `data/patches/patterns.jsonl` — 149 rows, 132 candidate |
+| Catalogue | `data/patches/patterns.jsonl` — 149 rows, 131 candidate |
 | Queue helpers | `admin/pipeline/research/patterns.ts` — `transformQueue()`, `blockingWork()`, `checkEntanglement()` |
 | Phase spec | `docs/specs/2026-08-17-sweep-tiering-design.md` §4 |
 | Round 4 reconcile | `docs/v2/discovery-round-4.md` |
@@ -54,12 +55,14 @@ someone pins the predicate.
 
 | Route | Rows | Instances | What it needs |
 |---|---:|---:|---|
-| **transform** | **78** | **22,087** | deterministic code + tests |
+| **transform** | **77** | **21,678** | deterministic code + tests |
 | judgment | 49 | 15,754 | per-entry reading (Opus pass or maintainer) |
 | blocked | 5 | 4,947 | pin the predicate first |
 
 Phase 1 closed this table at 81 / 46 / 5. Every move since has been a
-transform row failing its own audit, which is the mechanism working:
+transform row failing its own audit — or, once, a row whose whole
+population turned out to be owned elsewhere. Either way the mechanism
+is working:
 
 - `abbrev-in-alt-headwords` (2,035) moved transform → judgment on
   2026-08-22 (spec
@@ -75,13 +78,20 @@ transform row failing its own audit, which is the mechanism working:
   `sifre-ib-resolves-to-yalkut` 5 → 6 — and wrote a first `reason` for
   `prefixed-geresh-abbrev-mislink` and `ib-yoma-2a`. See
   [transform-batch-2.md](transform-batch-2.md).
-- Batch 3a moved no row between routes. It corrected one count —
-  `ascii-quote-as-gershayim-in-body` 1,290 → 1,386, the whole of the
-  transform route's +96 — and wrote a first `reason` for
+- Batch 3a corrected one count — `ascii-quote-as-gershayim-in-body`
+  1,290 → 1,386 — and wrote a first `reason` for
   `gershayim-breaks-ref-attribute`, whose catalogued 85 reproduced
-  exactly. See [transform-batch-3a.md](transform-batch-3a.md).
+  exactly. Its pre-PR review then moved a fourth row out:
+  **`ascii-gershayim-outside-body-text` (409) is discarded**, and it
+  is the first withdrawal not caused by a rule failing its audit. Its
+  seven slots ARE the gershayim defect, seen outside the audit's
+  `dir=rtl` scope; the two shipped rules repair six of them and
+  `refs[]` is dropped at compile (B7), so an exhaustive walk over the
+  raw JSON puts its unowned surviving population at **zero**. Left on
+  `transform` it would have been a second owner of records those rules
+  already repair. See [transform-batch-3a.md](transform-batch-3a.md).
 
-**51.6% of the backlog is deterministic code** (22,087 of 42,788
+**51.2% of the backlog is deterministic code** (21,678 of 42,379
 instances), 59% of it by row. That is the most useful number here —
 most of the catalogue does not need judgment at all.
 
@@ -89,10 +99,10 @@ Cutover gate, cross-cut:
 
 | | Rows | Instances |
 |---|---:|---:|
-| Blocks the v2 cutover | 59 | 16,085 |
+| Blocks the v2 cutover | 58 | 15,676 |
 | Launch need not wait | 73 | 26,703 |
 
-## The transform queue — all 78 rows, largest first
+## The transform queue — all 77 rows, largest first
 
 `⚠ unaudited` marks a row with no `reason` recorded: its count has never
 been derived. That is not a reason to skip it — for a transform row,
@@ -118,7 +128,6 @@ either reproduces the count or does not.
 | `nested-anchor-swallows-punctuation` | 465 | **yes** | — |
 | `binyan-form-leading-space` | 457 | **yes** | — |
 | `binyan-form-empty-slot` | 446 | **yes** | — |
-| `ascii-gershayim-outside-body-text` | 409 | **yes** | — |
 | `tosefta-variant-chapter-halakha-loss` | 388 | no | — |
 | `targum-sheni-never-linked` | 362 | no | ⚠ unaudited |
 | `plural-label-rendering-defeats-capture` | 358 | **yes** | — |
@@ -209,7 +218,7 @@ either reproduces the count or does not.
 
    **Open, and it is catalogue work rather than transform work:** the
    adjacency gate reads `entangledWith` and nothing else, so a row
-   carrying no edge is a singleton it cannot judge. **57 of the 63
+   carrying no edge is a singleton it cannot judge. **56 of the 62
    rows in `PENDING` carry no edge at all**, which makes the gate
    unfalsifiable by construction for most of the queue — a clean run
    means "no RECORDED entanglement is split", never "no entanglement is
@@ -224,9 +233,9 @@ either reproduces the count or does not.
    console.log("PENDING:",PENDING.length,"| no edge:",noEdge.length);'
    ```
 4. **9 transform rows are unaudited**, 4 of them blocking. Expect some
-   to reclassify to `judgment` on contact — the routing is a reading of
-   each row, not a measurement, and three rows have now done exactly
-   that.
+   to reclassify on contact — the routing is a reading of each row, not
+   a measurement, and four rows have now moved: three to `judgment`,
+   and `ascii-gershayim-outside-body-text` discarded outright.
 
 ## Candidates found in batch 2, recorded and NOT opened
 
@@ -377,8 +386,18 @@ after launch unless something else forces the issue.
   transform" was arguable — lost-text rows especially — the row was
   marked blocking. Wrong that way costs pre-launch effort; wrong the
   other way ships a baked-in defect.
-- **The 8 unaudited blocking rows carry the least confidence**, having no
-  recorded derivation behind their counts.
+- **4 of the 9 unaudited transform rows block the cutover, and they
+  carry the least confidence**, having no recorded derivation behind
+  their counts. Recomputed 2026-08-25 rather than typed — the figure
+  here read 8 until this review, a Phase-1 snapshot that three route
+  changes had left behind:
+
+  ```bash
+  bun -e 'import {parsePatterns} from "./admin/pipeline/research/patterns.ts";
+  const t=(await parsePatterns(await Bun.file("data/patches/patterns.jsonl").text()))
+    .filter(r=>r.route==="transform"&&r.status==="candidate"&&r.reason===undefined);
+  console.log("unaudited transform:",t.length,"| blocking:",t.filter(r=>r.blocking===true).length);'
+  ```
 
 ## Still open, not part of Phase 2
 

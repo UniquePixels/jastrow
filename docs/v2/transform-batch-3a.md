@@ -427,6 +427,42 @@ which is why that walk also reported 81 entries rather than 85. The
 unit is now stated on the row: **90 anchors / 180 occurrences / 85
 entries.**
 
+### A third row, discarded: `ascii-gershayim-outside-body-text` (409)
+
+**Found in the pre-PR review, and it is the write-back that mattered
+most.** That row is `blocking: true`, `route: transform`, and its
+`reason` enumerates our population verbatim — *"href/data-ref 172,
+bare RTL text 117, headword 69, refs[] 21, alt_headwords 19,
+plural_form 8, quotes[] 4"*. It was catalogued in round 3 as the
+same defect seen OUTSIDE the audit's `dir=rtl` window, at a time when
+`ascii-quote-as-gershayim-in-body` was scoped to that window. Widening
+that row to every field `fieldsOf` walks, as this batch did, moved six
+of the seven slots under a shipped rule and left the row as a second
+owner of records those rules already repair — exactly the failure this
+batch existed to fix.
+
+Whether anything survived was MEASURED, not argued, with §1's census:
+
+| Slot | Occ | Now owned by |
+|---|---:|---|
+| `href`/`data-ref` | 172 (measured 180) | `gershayim-breaks-ref-attribute` |
+| bare RTL text | 117 | `ascii-quote-as-gershayim-in-body` |
+| `headword` | 69 | same |
+| `alt_headwords` | 19 | same |
+| `plural_form` | 8 | same |
+| `quotes[]` | 4 | same |
+| `refs[]` | 21 | nobody — dropped at compile, B7 |
+
+The unowned surviving population is **zero**, so the row is discarded
+rather than narrowed. The cascade, all of it recomputed from the
+catalogue rather than edited by hand: `PENDING` 63 → 62 ids (56 of
+them edgeless, was 57), `coverage().total` 78 → 77 with
+`registry.test.ts` asserting the new figure and carrying the reason,
+the transform route 78 rows / 22,087 instances → 77 / 21,678, the
+cutover cross-cut 59 / 16,085 → 58 / 15,676, and the candidate count
+132 → 131. `count.ts`'s module doc lost its unit-mismatch example with
+it and names two live rows instead.
+
 ## 7. The collision: the same defect was already being repaired, differently
 
 **Found at batch close, escalated rather than patched, ruled on, and
