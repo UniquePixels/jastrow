@@ -6,6 +6,7 @@ import {
 	entangledClusters,
 	PENDING,
 	RULES,
+	unaccountedEdges,
 } from './registry.ts';
 import type { Rule } from './types.ts';
 
@@ -143,7 +144,7 @@ describe('entangledClusters', () => {
 			clique(['a', 'b', 'c']),
 			rules(['a', 'b', 'c']),
 		);
-		expect(found).toEqual([{ at: [0, 1, 2], ids: ['a', 'b', 'c'] }]);
+		expect(found).toEqual([{ at: [0, 1, 2], ids: ['a', 'b', 'c'], stale: [] }]);
 	});
 
 	// Mutation 1: the edges are gone. The component collapses to three
@@ -170,7 +171,7 @@ describe('entangledClusters', () => {
 			clique(['a', 'b', 'c']),
 			rules(['a', 'x', 'b', 'y', 'c']),
 		);
-		expect(found).toEqual([{ at: [0, 2, 4], ids: ['a', 'b', 'c'] }]);
+		expect(found).toEqual([{ at: [0, 2, 4], ids: ['a', 'b', 'c'], stale: [] }]);
 		expect(
 			Math.max(...(found[0]?.at ?? [])) - Math.min(...(found[0]?.at ?? [])) + 1,
 		).toBe(5);
@@ -219,7 +220,7 @@ describe('entangledClusters', () => {
 
 	it('derives a one-sided edge walked from the side without it', () => {
 		expect(entangledClusters(oneSided(), rules(['b', 'x', 'a']))).toEqual([
-			{ at: [0, 2], ids: ['a', 'b'] },
+			{ at: [0, 2], ids: ['a', 'b'], stale: [] },
 		]);
 	});
 
@@ -231,5 +232,114 @@ describe('entangledClusters', () => {
 	// pass, so the fix above cannot be satisfied by reporting everything.
 	it('a contiguous one-sided pair passes', () => {
 		expect(checkAdjacency(oneSided(), rules(['b', 'a']))).toEqual([]);
+	});
+
+	/**
+	 * A DANGLING endpoint: `a` is registered and records an edge to an
+	 * id NO catalogue row holds.
+	 *
+	 * The component is `{a, ghost}`; `ghost` matches no rule, so it
+	 * contributes no registry position and the component held one
+	 * registered member. Under the `at.length >= 2` retention rule
+	 * alone it was dropped whole, and `checkAdjacency` returned clean
+	 * on a broken record — the third appearance on this branch of one
+	 * failure shape, a recorded entanglement leaving the gate's view
+	 * without a word. Only `checkEntanglement`, walking the catalogue
+	 * from the other side, said anything.
+	 *
+	 * The two assertions below FAILED with `Received length: 0` before
+	 * `Cluster.stale` existed. A stale endpoint is not an ordering
+	 * defect — nothing can be scheduled next to a rule that does not
+	 * exist — so it is reported as what it is, and the cluster is kept
+	 * so that there is something to report it on.
+	 */
+	const dangling = (): Pattern[] => [
+		{
+			corpusCount: 0,
+			description: '',
+			entangledWith: ['ghost'],
+			id: 'a',
+			round: 0,
+			status: 'candidate' as const,
+		},
+	];
+
+	it('keeps a component whose endpoint is not a catalogue row', () => {
+		expect(entangledClusters(dangling(), rules(['a']))).toEqual([
+			{ at: [0], ids: ['a', 'ghost'], stale: ['ghost'] },
+		]);
+	});
+
+	it('checkAdjacency reports a stale endpoint rather than going quiet', () => {
+		const problems = checkAdjacency(dangling(), rules(['a']));
+		expect(problems).toHaveLength(1);
+		expect(problems[0]).toContain('ghost');
+	});
+
+	// And the fix is not "report everything": an unregistered partner
+	// that IS a catalogue row is the deferred case — its rule has not
+	// shipped, execution order cannot be wrong about it yet, and the
+	// gate stays quiet. That distinction is the whole content of
+	// `stale`.
+	it('an unregistered partner the catalogue holds stays quiet', () => {
+		expect(entangledClusters(clique(['a', 'b']), rules(['a']))).toEqual([]);
+		expect(checkAdjacency(clique(['a', 'b']), rules(['a']))).toEqual([]);
+	});
+});
+
+/**
+ * The invariant behind all three fixes, asserted directly: a recorded
+ * entanglement touching the registry must produce a validated cluster
+ * or a reported problem, never silence.
+ *
+ * `registry.order.test.ts` runs this against the live catalogue, where
+ * it is currently empty. These four cases are what make that empty
+ * result mean something.
+ */
+describe('unaccountedEdges', () => {
+	const rules = (ids: string[]): Rule[] => ids.map((id) => ({ id }) as Rule);
+
+	it('a fully registered cluster accounts for every edge in it', () => {
+		expect(
+			unaccountedEdges(clique(['a', 'b', 'c']), rules(['a', 'b', 'c'])),
+		).toEqual([]);
+		// Scattered, so `checkAdjacency` reports it — still accounted
+		// for, because REPORTED is one of the two acceptable outcomes.
+		expect(
+			unaccountedEdges(
+				clique(['a', 'b', 'c']),
+				rules(['a', 'x', 'b', 'y', 'c']),
+			),
+		).toEqual([]);
+	});
+
+	// The deferred case, and the one place the gate is allowed to be
+	// quiet — but not unnoticed. Naming it here is what forces a look
+	// the day a registered rule acquires a pending partner.
+	it('names an edge whose partner has no rule yet', () => {
+		expect(unaccountedEdges(clique(['a', 'b']), rules(['a']))).toHaveLength(1);
+	});
+
+	it('says nothing about an edge between two unregistered rows', () => {
+		expect(unaccountedEdges(clique(['a', 'b']), rules(['x']))).toEqual([]);
+	});
+
+	// The dangling endpoint again, from the invariant's side: before
+	// `Cluster.stale` this returned the edge as unaccounted, because
+	// the component was dropped and nothing reported it. It is
+	// accounted for now precisely because `checkAdjacency` speaks up.
+	it('a dangling endpoint is accounted for once it is reported', () => {
+		const catalogueWithGhost: Pattern[] = [
+			{
+				corpusCount: 0,
+				description: '',
+				entangledWith: ['ghost'],
+				id: 'a',
+				round: 0,
+				status: 'candidate' as const,
+			},
+		];
+		expect(unaccountedEdges(catalogueWithGhost, rules(['a']))).toEqual([]);
+		expect(checkAdjacency(catalogueWithGhost, rules(['a']))).toHaveLength(1);
 	});
 });

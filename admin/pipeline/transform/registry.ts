@@ -383,13 +383,27 @@ function coverage(catalogue: readonly Pattern[]): Coverage {
 }
 
 /** One connected component of the catalogue's entanglement graph that
- * has at least two REGISTERED members — the only kind execution order
- * can be wrong about. */
+ * the registry can get wrong: either it has at least two REGISTERED
+ * members, so execution order can split it, or it names an endpoint
+ * the catalogue does not hold, so the record itself is broken. */
 interface Cluster {
 	/** Registry positions of the members that are registered, ascending. */
 	at: number[];
 	/** Every id in the component, registered or not, sorted. */
 	ids: string[];
+	/** Ids in the component that exist ONLY as an `entangledWith`
+	 * endpoint — no catalogue row and no rule holds them — sorted.
+	 * Empty for a healthy component.
+	 *
+	 * A stale or misspelt endpoint, in other words. An id the registry
+	 * holds but the catalogue does not is NOT this: it contributes a
+	 * position, so the span check still sees it, and
+	 * `registry.test.ts`'s coverage suite is what names it.
+	 * `checkEntanglement` names these from the catalogue's side; they
+	 * are carried here so the adjacency gate does not fall silent when
+	 * one of them shrinks a component below the two registered members
+	 * it needs. */
+	stale: string[];
 }
 
 /**
@@ -416,9 +430,12 @@ interface Cluster {
  * catch. Pinned by `registry.test.ts`, walked from the side holding no
  * edge.
  *
- * Edges to ids the catalogue does not hold are kept, as they were
- * before: they contribute no registry position, so they widen no span.
- * `checkEntanglement` is what names them.
+ * Edges to ids the catalogue does not hold are kept: they contribute
+ * no registry position, so they widen no span, but they are what
+ * `Cluster.stale` reports — a dangling endpoint used to shrink a
+ * component below two registered members and take the whole component
+ * out of the gate's view with it. `checkEntanglement` names them from
+ * the catalogue's side; `checkAdjacency` now names them from this one.
  */
 function undirectedGraph(catalogue: readonly Pattern[]): Map<string, string[]> {
 	const edges = new Map<string, Set<string>>();
@@ -474,6 +491,7 @@ function entangledClusters(
 	rules: readonly Rule[] = RULES,
 ): Cluster[] {
 	const index = new Map(rules.map((rule, at) => [rule.id, at]));
+	const known = new Set(catalogue.map((row) => row.id));
 	const partners = undirectedGraph(catalogue);
 	const seen = new Set<string>();
 	const clusters: Cluster[] = [];
@@ -488,10 +506,19 @@ function entangledClusters(
 				return found === undefined ? [] : [found];
 			})
 			.toSorted((a, b) => a - b);
-		if (at.length >= 2) {
+		const stale = ids
+			.filter((id) => !(known.has(id) || index.has(id)))
+			.toSorted((a, b) => a.localeCompare(b));
+		// The walk starts from a registered id, so `at` always holds at
+		// least one position and `Math.max` below is never called on an
+		// empty list. Two registered members is the ORDER question; a
+		// stale endpoint is a RECORD question, and a component can raise
+		// the second while falling short of the first.
+		if (at.length >= 2 || stale.length > 0) {
 			clusters.push({
 				at,
 				ids: ids.toSorted((a, b) => a.localeCompare(b)),
+				stale,
 			});
 		}
 	}
@@ -535,14 +562,94 @@ function checkAdjacency(
 	rules: readonly Rule[] = RULES,
 ): string[] {
 	return entangledClusters(catalogue, rules).flatMap((cluster) => {
+		const problems: string[] = [];
+		if (cluster.stale.length > 0) {
+			problems.push(
+				`${cluster.ids.join(', ')} names unknown id(s): ${cluster.stale.join(', ')}`,
+			);
+		}
 		const span = Math.max(...cluster.at) - Math.min(...cluster.at) + 1;
-		return span === cluster.at.length
-			? []
-			: [
-					`${cluster.ids.join(', ')} span ${span} slots for ${cluster.at.length} registered rule(s)`,
-				];
+		if (span !== cluster.at.length) {
+			problems.push(
+				`${cluster.ids.join(', ')} span ${span} slots for ${cluster.at.length} registered rule(s)`,
+			);
+		}
+		return problems;
 	});
 }
 
+/**
+ * Recorded entanglements the adjacency gate says NOTHING about —
+ * neither validated inside a cluster nor reported as a problem.
+ *
+ * THE INVARIANT, stated once rather than as a third spot-fix: a
+ * recorded entanglement touching the registry must produce a validated
+ * cluster or a reported problem, never silence. Three separate ways of
+ * breaking it have now been found on this branch, and each one closed
+ * a hole while leaving the shape intact:
+ *
+ * 1. The graph was built DIRECTED, so a one-sided edge put its two
+ *    endpoints in different components and neither reached two
+ *    registered members (`undirectedGraph`, pre-PR wave).
+ * 2. A component with fewer than two registered members is dropped,
+ *    which is correct for ORDER and left the rtl 3-clique pinned by
+ *    nothing (Task 3; the derived-set assertion in
+ *    `registry.order.test.ts` is what closed it).
+ * 3. A DANGLING endpoint — an id no catalogue row holds — shrinks a
+ *    component below two registered members and dropped it silently
+ *    (CodeRabbit round 2; `Cluster.stale` above).
+ *
+ * This function is the conservation law behind all three: walk the
+ * edges the catalogue actually records and require each one that
+ * touches a registered rule to land inside a derived cluster. It would
+ * have failed on 1 and on 3, and it fails on a FOURTH way of losing an
+ * edge that nobody has thought of yet — which is the point, given that
+ * three have turned up already.
+ *
+ * What it does NOT replace is the derived-set assertion. An edge
+ * DELETED from the catalogue is not a recorded edge, so this walks
+ * past it; only pinning the cluster set notices. Two complementary
+ * claims, not one — see `registry.order.test.ts`.
+ *
+ * Edges between two unregistered rows are excluded rather than
+ * missing: execution order cannot be wrong about a rule that does not
+ * run. 4 of the catalogue's 9 undirected edges are of that kind today.
+ * Self-edges are excluded too — `checkEntanglement` owns those, and a
+ * component cannot be split from itself.
+ */
+function unaccountedEdges(
+	catalogue: readonly Pattern[],
+	rules: readonly Rule[] = RULES,
+): string[] {
+	const registered = new Set(rules.map((rule) => rule.id));
+	const clusters = entangledClusters(catalogue, rules);
+	const found = new Set<string>();
+	for (const row of catalogue) {
+		for (const other of row.entangledWith ?? []) {
+			if (
+				other === row.id ||
+				!(registered.has(row.id) || registered.has(other)) ||
+				clusters.some(
+					(cluster) =>
+						cluster.ids.includes(row.id) && cluster.ids.includes(other),
+				)
+			) {
+				continue;
+			}
+			found.add(
+				`${[row.id, other].toSorted((a, b) => a.localeCompare(b)).join(' ~ ')}: recorded entanglement is invisible to the adjacency gate`,
+			);
+		}
+	}
+	return [...found].toSorted((a, b) => a.localeCompare(b));
+}
+
 export type { Cluster, Coverage };
-export { checkAdjacency, coverage, entangledClusters, PENDING, RULES };
+export {
+	checkAdjacency,
+	coverage,
+	entangledClusters,
+	PENDING,
+	RULES,
+	unaccountedEdges,
+};

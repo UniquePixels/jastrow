@@ -842,6 +842,64 @@ scattering fails. The two mutations fail *different* assertions, which
 is why both exist; both were mutation-proved against the live catalogue
 and registry.
 
+**The same shape then appeared twice more, and the third time it was
+named.** The pre-PR wave found the graph built DIRECTED, so a one-sided
+edge put its endpoints in different components and neither reached two
+registered members. CodeRabbit round 2 found a DANGLING endpoint — an
+`entangledWith` id no catalogue row holds — shrinking a component below
+two registered members, so `entangledClusters()` dropped it whole and
+`checkAdjacency()` returned clean on a broken record; only
+`checkEntanglement()`, walking from the catalogue's side, said
+anything. Three defects, one shape: a recorded entanglement leaving the
+gate's view without a word.
+
+So the third fix is two things rather than one. `Cluster.stale` carries
+the ids that exist ONLY as an endpoint, and `checkAdjacency()` reports
+them instead of falling silent — a stale endpoint is a record defect,
+not an ordering defect, and it is reported as what it is. And
+`unaccountedEdges()` states the invariant the three were each a corner
+of: **a recorded entanglement touching the registry must produce a
+validated cluster or a reported problem, never silence.** It walks the
+edges the catalogue records and requires each one touching a registered
+rule to land inside a derived cluster, which is then either validated
+or reported. `registry.order.test.ts` asserts it empty against the live
+catalogue.
+
+It does NOT replace the derived-set pin above. An edge DELETED from the
+catalogue is not a recorded edge, so `unaccountedEdges()` walks past it
+and only the pinned cluster set notices. Two complementary claims —
+"is what the gate sees correct?" and "does it see everything?" — and
+the three defects all slipped through the second one.
+
+The dangling case is LATENT, not live, and the number is the reason to
+fix it anyway rather than to defer it:
+
+```bash
+bun -e 'import {parsePatterns} from "./admin/pipeline/research/patterns.ts";
+const rows=parsePatterns(await Bun.file("data/patches/patterns.jsonl").text());
+const ids=new Set(rows.map(r=>r.id)); const edges=new Set();
+let directed=0,oneSided=0,dangling=0,self=0;
+for(const r of rows) for(const o of r.entangledWith??[]){ directed++;
+  if(o===r.id) self++;
+  if(!ids.has(o)) dangling++;
+  else if(!((rows.find(x=>x.id===o)?.entangledWith)??[]).includes(r.id)) oneSided++;
+  edges.add([r.id,o].toSorted((a,b)=>a.localeCompare(b)).join(" ~ ")); }
+console.log({directedEntries:directed,undirectedEdges:edges.size,
+  oneSided,dangling,self});'
+```
+
+```text
+{ directedEntries: 18, undirectedEdges: 9, oneSided: 0, dangling: 0, self: 0 }
+```
+
+Nothing in the corpus reaches either the directed-graph bug or the
+dangling-endpoint bug. That is precisely why they were worth building
+out of: this is the code that makes the adjacency gate falsifiable, and
+a gate whose correctness rests on a property of its own input is the
+failure mode it exists to catch. Of the 9 undirected edges, 5 have both
+endpoints registered — the three clusters pinned above — and 4 have
+neither, which execution order cannot be wrong about.
+
 **What remains open, and it is catalogue work rather than transform
 work:** the gate reads `entangledWith` and nothing else, so a row
 carrying no edge is a singleton it cannot judge.
@@ -901,10 +959,18 @@ console.log({jastrowAnchors:jas, greedyResolves:g, lazyResolves:l, resolveUnderB
   resolveUnderBoth: 65817, andToDifferentHeadwords: 1131 }
 ```
 
-It does not merely lose 7,536 honest links: **1,131 addresses resolve
-under both reads and to DIFFERENT headwords**, so a lazy general rule
-mis-points them silently. The census therefore uses the greedy read,
-and the greedy read is measured to be unambiguous here:
+It does not merely lose 7,536 honest links: **1,131 anchors resolve
+under both reads and to DIFFERENT headwords** (288 distinct addresses,
+counted below), so a lazy general rule mis-points them silently. The census therefore uses the greedy read.
+
+The greedy read is unambiguous **in its own grammar**, and the wider
+grammar the lazy read accepts is ambiguous on exactly the addresses
+those 1,131 anchors carry. One walker measures both, parameterised by
+the suffix grammar rather than hand-rolled twice — the CodeRabbit
+round-2 finding was that a second hand-rolled walker accepted only a
+literal space and bare digits while the `LAZY` regex above also accepts
+an optional roman numeral and any `\s`, so it could not have seen an
+alternate split even if one existed:
 
 ```bash
 bun -e '
@@ -917,28 +983,69 @@ const hw=new Set(es.map(e=>e.headword));
 const addrs=new Set();
 for(const e of es) for(const f of fieldsOf(e)) for(const a of anchors(tokenize(f)))
   if(a.dataRef.startsWith("Jastrow, ")) addrs.add(a.dataRef);
-let multi=0;
-for(const v of addrs){ const body=v.slice(9); let n=0;
-  for(let i=0;i<body.length;i++)
-    if(body[i]===" "&&/^\d+$/u.test(body.slice(i+1))&&hw.has(body.slice(0,i))) n++;
-  if(n>1) multi++; }
+// ONE walker for both counts, parameterised by the SUFFIX GRAMMAR so
+// the two cannot drift apart: roman widens the tail to the LAZY read
+// (?:[IVXL]+\s)?\d+, ws widens the split character from " " to \s.
+const splits=(body,roman,ws)=>{
+  const tail=roman?/^(?:[IVXL]+\s)?\d+$/u:/^\d+$/u; const out=[];
+  for(let i=0;i<body.length;i++){ const c=body[i];
+    if(ws?!/\s/u.test(c):c!==" ") continue;
+    if(tail.test(body.slice(i+1))&&hw.has(body.slice(0,i))) out.push(body.slice(0,i)); }
+  return out; };
+const multi=(roman,ws)=>[...addrs].filter(v=>splits(v.slice(9),roman,ws).length>1).length;
+const GREEDY=/^Jastrow, (.+) (\d+)$/u, LAZY=/^Jastrow,\s([\s\S]*?)\s(?:[IVXL]+\s)?\d+$/u;
+let diff=0,ambDiff=0; const diffAddrs=new Set();
+for(const e of es) for(const f of fieldsOf(e)) for(const a of anchors(tokenize(f))){
+  const v=a.dataRef; if(!v.startsWith("Jastrow, "))continue;
+  const m=GREEDY.exec(v), n=LAZY.exec(v);
+  const gh=m&&hw.has(m[1])?m[1]:null, lh=n&&hw.has(n[1])?n[1]:null;
+  if(gh&&lh&&gh!==lh){ diff++; diffAddrs.add(v);
+    if(splits(v.slice(9),true,true).length>1) ambDiff++; } }
 console.log({headwords:es.length, romanEnding:es.filter(e=>/\s[IVXL]+$/u.test(e.headword)).length,
   superscript:es.filter(e=>/[²³¹⁰-⁹]/u.test(e.headword)).length,
   endsInDigit:es.filter(e=>/\d$/u.test(e.headword)).length,
-  distinctJastrowAddresses:addrs.size, addressesWithMoreThanOneValidSplit:multi});'
+  distinctJastrowAddresses:addrs.size,
+  multiSplitUnderGreedyGrammar:multi(false,false),
+  multiSplitUnderLazyGrammar:multi(true,true),
+  multiSplitFromWhitespaceAlone:multi(false,true),
+  divergentAnchors:diff, distinctDivergentAddresses:diffAddrs.size,
+  divergentAnchorsThatAreMultiSplit:ambDiff});'
 ```
 
 ```text
 { headwords: 32512, romanEnding: 2871, superscript: 807, endsInDigit: 0,
-  distinctJastrowAddresses: 22906, addressesWithMoreThanOneValidSplit: 0 }
+  distinctJastrowAddresses: 22906,
+  multiSplitUnderGreedyGrammar: 0, multiSplitUnderLazyGrammar: 288,
+  multiSplitFromWhitespaceAlone: 0,
+  divergentAnchors: 1131, distinctDivergentAddresses: 288,
+  divergentAnchorsThatAreMultiSplit: 1131 }
 ```
 
-Of 22,906 distinct Jastrow addresses, **0** admit more than one valid
-headword split, and **0** headwords end in a digit — so the greedy read
-has exactly one candidate everywhere it resolves. The design carries a
-note saying the probe is
-scope-local; this is the number behind it, and the census docstring
-records both readings so they do not get "unified" later.
+**The corrected probe changes the figure and strengthens the claim.**
+The published number — `addressesWithMoreThanOneValidSplit: 0` — held
+only under the greedy grammar the old walker mirrored, and was reported
+as though it covered the lazy read as well. Under the grammar `LAZY`
+actually accepts, **288 of 22,906** distinct addresses admit a second
+valid split. The widening is entirely the roman group;
+`multiSplitFromWhitespaceAlone` is **0**, so the literal-space-versus-
+`\s` half of the finding is real in the code and empty in this corpus.
+
+Those 288 are not a new hazard, they are the old one counted at the
+address level: they are **exactly** the addresses of the 1,131
+divergent anchors above, all 1,131 of which are multi-split under the
+lazy grammar. `Jastrow, בַּר II 1` is the shape — `בַּר` and `בַּר II` are
+both headwords, so a reader that may skip a roman numeral has two
+candidates, while a reader that may not has one.
+
+So the conclusion survives, on better evidence than before. Under the
+greedy grammar, **0** of 22,906 addresses admit more than one valid
+split and **0** headwords end in a digit, so the greedy read has
+exactly one candidate everywhere it resolves and cannot mis-resolve.
+It is the LAZY read that is ambiguous, on 288 addresses, and it
+resolves 1,131 anchors to the wrong homograph — which is the reason
+the census does not use it. The design carries a note saying the probe
+is scope-local; these are the numbers behind it, and the census
+docstring records both readings so they do not get "unified" later.
 
 ### 8.4 The shipped-rule scan closes negative, under composition as well as in isolation
 
@@ -1145,9 +1252,10 @@ bun test admin/pipeline/body/repairs.test.ts                  # the inverted esc
 ```
 
 The `bun qa` line pins **exit 0 and 0 failures**, deliberately not a
-pass COUNT. The count moved 724 → 726 → 729 across this branch alone
-and goes stale on the next test anyone adds, so a figure here would
-read as a claim about the suite while actually being a claim about the
-day it was typed. Dated for the record rather than as an expectation:
-the batch-close run on **2026-08-25** reported 729 passing, 0 failing,
-4,306 assertions across 51 files.
+pass COUNT. The count moved 724 → 726 → 729 → 737 across this branch
+alone — the last step is CodeRabbit round 2, whose eight new registry
+tests are exactly the "next test anyone adds" this paragraph predicted
+— so a figure here would read as a claim about the suite while
+actually being a claim about the day it was typed. Dated for the
+record rather than as an expectation: the round-2 run on **2026-08-25**
+reported 737 passing, 0 failing, 4,318 assertions across 51 files.

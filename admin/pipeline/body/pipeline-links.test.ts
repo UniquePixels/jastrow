@@ -47,8 +47,8 @@ import type { SourceEntry } from './types.ts';
 /** A Jastrow address is the headword string VERBATIM followed by the
  * sense number, so the headword is read GREEDILY. A lazy read that
  * strips a trailing roman numeral loses 7,536 honest links and — worse
- * — resolves 1,131 addresses to a DIFFERENT headword than the greedy
- * read does. See `transform/rules/gershayim.test.ts` and
+ * — resolves 1,131 anchors, across 288 distinct addresses, to a
+ * DIFFERENT headword than the greedy read does. See `transform/rules/gershayim.test.ts` and
  * `docs/v2/transform-batch-3a.md` §8.3. */
 const JASTROW_REF = /^Jastrow, (?<headword>.+) (?<sense>\d+)$/u;
 

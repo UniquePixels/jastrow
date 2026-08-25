@@ -323,11 +323,18 @@ truncated. Corpus-wide it is a different story: 2,871 headwords end in
 a roman numeral and 807 in a superscript, both part of the headword,
 and the lazy read resolves 65,817 of 73,468 Jastrow addresses against
 a greedy read's 73,353. It does not merely lose 7,536 links — **1,131
-addresses resolve under both reads and to DIFFERENT headwords**, so a
+anchors resolve under both reads and to DIFFERENT headwords**, so a
 lazy general rule mis-points them silently. Task 4's census uses the
 greedy read, and measured that it cannot mis-resolve here: of 22,906
-distinct Jastrow addresses, 0 admit more than one valid headword
-split, and 0 headwords end in a digit.
+distinct Jastrow addresses, 0 admit more than one valid headword split
+under the greedy read's own grammar, and 0 headwords end in a digit.
+
+The ambiguity is on the LAZY side, and it was under-counted until
+CodeRabbit round 2: under the wider grammar that read accepts — an
+optional roman numeral before the sense number — **288** of the 22,906
+admit a second valid split, and those 288 are exactly the addresses
+the 1,131 divergent anchors carry. Recounted and restated in
+`docs/v2/transform-batch-3a.md` §8.3.
 
 This is the measurement the whole batch rests on, and it converts the
 audit's warning —

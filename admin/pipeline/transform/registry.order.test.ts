@@ -38,6 +38,17 @@
  *    What is NOT covered, and cannot be from here, is a row whose edge
  *    was never recorded at all — see `checkAdjacency`'s own limitation
  *    note in `registry.ts`.
+ *
+ *    Both of those ask whether what the gate SEES is correct. A third
+ *    assertion asks whether it sees everything: `unaccountedEdges`
+ *    walks the edges the catalogue records and requires each one
+ *    touching a registered rule to land inside a derived cluster,
+ *    which is either validated or reported. Three separate defects on
+ *    this branch were all the same shape — an edge leaving the gate's
+ *    view without a word — and that is the conservation law they were
+ *    each a corner of. It does not subsume the derived-set pin: an
+ *    edge DELETED from the catalogue is not a recorded edge, so only
+ *    the pinned set notices that.
  * 3. **The three `ib-` retargets keep their documented relative
  *    order.** `registry.ts`'s retarget-after-retarget note (Task 7,
  *    used by Task 8) is the mirror of rule 1: a retarget reading the
@@ -71,7 +82,12 @@ import { parsePatterns } from '../research/patterns.ts';
 import { tokenize } from './html.ts';
 import { anchors } from './links.ts';
 import { fieldsOf } from './no-new-text.ts';
-import { checkAdjacency, entangledClusters, RULES } from './registry.ts';
+import {
+	checkAdjacency,
+	entangledClusters,
+	RULES,
+	unaccountedEdges,
+} from './registry.ts';
 
 const catalogue = parsePatterns(
 	await Bun.file('data/patches/patterns.jsonl').text(),
@@ -213,6 +229,23 @@ describe('registry order', () => {
 				`${cluster.ids.join(', ')} span ${cluster.at.length}`,
 			);
 		}
+	});
+
+	// The invariant the three adjacency fixes were each a corner of: a
+	// recorded entanglement touching the registry must produce a
+	// validated cluster or a reported problem, never silence. Both of
+	// the tests above answer "is what the gate sees correct?"; this one
+	// answers "does the gate see everything it should?", which is the
+	// question all three defects slipped through.
+	//
+	// Empty today over 18 recorded entries / 9 undirected edges: 5 have
+	// both endpoints registered and sit inside the three clusters
+	// above, and 4 have neither endpoint registered, which execution
+	// order cannot be wrong about. It is NOT a restatement of
+	// `checkAdjacency` returning clean — a dropped component leaves
+	// that clean and lands here.
+	it('every recorded edge touching the registry is validated or reported', () => {
+		expect(unaccountedEdges(catalogue, RULES)).toEqual([]);
 	});
 
 	it('the three ib- retargets keep their documented relative order', () => {
