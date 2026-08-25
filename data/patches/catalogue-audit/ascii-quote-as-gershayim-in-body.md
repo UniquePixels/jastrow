@@ -11,7 +11,7 @@ larger than this row anyway. This audit re-measured its own scope to
 > figure above it.** 1,908 / 1,290 reproduces exactly, but only for the
 > `dir=rtl` wrapper locus. Phase 2 batch 3a widened the scope to every
 > field `fieldsOf` walks and split the tag-interior locus into its own
-> row, so the population is **2,305 in scope / 2,326 corpus-wide /
+> row, so the population is **2,305 in scope / 2,464 corpus-wide /
 > 1,392 entries**, decomposed line by line in **§Reconciliation,
 > 2026-08-24** below — every figure there produced by a command printed
 > beside it. What shipped is two rows, counted in ENTRIES:
@@ -144,7 +144,7 @@ skipping U+0591–U+05C7 and U+0307, matching `[א-ת]`.
 > **Superseded, 2026-08-24.** This disposition is the 2026-06 proposal,
 > kept as the record of what was decided then. It was NOT applied as
 > written. §Reconciliation below re-measures the population to **2,305
-> in scope / 2,326 corpus-wide / 1,392 entries** and Phase 2 batch 3a
+> in scope / 2,464 corpus-wide / 1,392 entries** and Phase 2 batch 3a
 > shipped it as two rows counted in ENTRIES —
 > `ascii-quote-as-gershayim-in-body` at **1,386** (2,125 occurrences,
 > document text) and `gershayim-breaks-ref-attribute` at **85** (180
@@ -186,11 +186,13 @@ skipping U+0591–U+05C7 and U+0307, matching `[א-ת]`.
    `href`/`data-ref` attribute values (81 entries), 117 in bare RTL
    definition text with no wrapper (109 entries), 69 in `headword`, 21
    in `refs[]`, 19 in `alt_headwords`, 8 in `plural_form`, 4 in
-   `quotes[]`. **Superseded, 2026-08-24:** the true figures are **2,326
+   `quotes[]`. **Superseded, 2026-08-24:** the true figures are **2,464
    corpus-wide / 2,305 in scope**, with **1,908** in the `dir=rtl`
    wrapper and **180 across 85 entries** in attributes; the entry count
    is unchanged at 1,392. §Reconciliation decomposes all nine of the
-   differences line by line, with the command. Because `refs[]`
+   differences line by line, with the command, and adds the two slots
+   this list never named — `next_hw` and `prev_hw`, 69 each, both out
+   of scope. Because `refs[]`
    and `data-ref` carry the same abbreviations (`Jastrow, א"ת 1`),
    **fixing body text without fixing headwords, `refs[]` and `data-ref`
    in the same pass will break cross-links that currently match by
@@ -275,21 +277,30 @@ The batch 3a design spec measured **2,323** occurrences corpus-wide
 (2,302 in scope) against this audit's **2,317**. The two differ by 6.
 **The reconciliation closes exactly, with zero residual.** Both
 readings were low, in different places and for unrelated reasons, and
-the true corpus-wide figure is **2,326 / 2,305 in scope**.
+**2,305 in scope** is the settled figure.
 
 The canonical measurement — a per-character scan (so overlapping
 matches are not lost) whose neighbour test tolerates a combining dot
-above, split by locus and by the same line items this audit used:
+above, split by locus and by the same line items this audit used.
+Every field `fieldsOf` walks is now a line item here, `grammar.*` and
+the two `language_*` fields included even though they hold 0, and the
+in-scope total is recomputed from `fieldsOf` itself and required to
+agree — a labelled walk cannot otherwise prove it enumerated
+everything the rules touch, which is the failure this whole section
+exists to close:
 
 ```bash
 bun -e 'const {HEBREW}=await import("./admin/pipeline/transform/html.ts");
+const {fieldsOf}=await import("./admin/pipeline/transform/no-new-text.ts");
 const Q=String.fromCharCode(34), TAG=/<[^<>]*>/gu, DOT="̇";
 const H=new RegExp("^["+HEBREW+"]$","u");
 const RTLW=/<(span|a)\b[^<>]*\bdir="rtl"[^<>]*>([\s\S]*?)<\/\1>/gu;
 const scan=(s)=>{const o=[];for(let i=0;i<s.length;i++){if(s[i]!==Q)continue;
  let j=i-1;while(j>=0&&s[j]===DOT)j--;let k=i+1;while(k<s.length&&s[k]===DOT)k++;
  if(j>=0&&k<s.length&&H.test(s[j])&&H.test(s[k]))o.push(i);}return o;};
+const OUT=(k)=>k.endsWith("OUT OF SCOPE");
 const acc={};const bump=(k,rid)=>{(acc[k]??=({n:0,e:new Set()})).n++;acc[k].e.add(rid);};
+let walked=0;
 for(const l of (await Bun.file("data/source/jastrow-dictionary.jsonl").text()).split("\n").filter(Boolean)){
  const e=JSON.parse(l);
  const go=(k,f)=>{if(typeof f!=="string")return;
@@ -299,26 +310,35 @@ for(const l of (await Bun.file("data/source/jastrow-dictionary.jsonl").text()).s
   for(const m of f.matchAll(RTLW))for(let i=m.index+m[0].indexOf(">")+1;i<m.index+m[0].length;i++)rtl[i]=true;
   for(const p of scan(f)) bump(mask[p]?k+" [TAG attr]":(k==="senses[].definition"?(rtl[p]?"senses[].definition (in dir=rtl wrapper)":"senses[].definition (bare RTL)"):k), e.rid);};
  go("headword",e.headword); for(const a of e.alt_headwords??[])go("alt_headwords",a);
- for(const x of e.plural_form??[])go("plural_form",x); for(const r of e.refs??[])go("refs[] OUT OF SCOPE",String(r));
- const w=(s)=>{if(!s)return; go("senses[].definition",s.definition); go("senses[].number",s.number); for(const n of s.senses??[])w(n)};
+ for(const x of e.plural_form??[])go("plural_form",x);
+ go("language_code",e.language_code); go("language_reference",e.language_reference);
+ for(const r of e.refs??[])go("refs[] OUT OF SCOPE",String(r));
+ go("next_hw OUT OF SCOPE",e.next_hw); go("prev_hw OUT OF SCOPE",e.prev_hw);
+ const w=(s)=>{if(!s)return; go("senses[].definition",s.definition); go("senses[].number",s.number);
+  for(const b of s.grammar?.binyan_form??[])go("senses[].grammar.binyan_form",b);
+  go("senses[].grammar.verbal_stem",s.grammar?.verbal_stem); go("senses[].grammar.language_code",s.grammar?.language_code);
+  for(const n of s.senses??[])w(n)};
  for(const s of e.content?.senses??[])w(s); go("content.morphology",e.content?.morphology);
- for(const q of e.quotes??[])for(const x of q??[])go("quotes[]",x); }
+ for(const q of e.quotes??[])for(const x of q??[])go("quotes[]",x);
+ for(const f of fieldsOf(e))walked+=scan(f).length; }
 let tot=0,ins=0;
-for(const [k,v] of Object.entries(acc).sort((a,b)=>b[1].n-a[1].n)){ tot+=v.n; if(!k.startsWith("refs["))ins+=v.n;
+for(const [k,v] of Object.entries(acc).sort((a,b)=>b[1].n-a[1].n)){ tot+=v.n; if(!OUT(k))ins+=v.n;
  console.log(String(v.n).padStart(5),"/",String(v.e.size).padStart(4),"entries  ",k); }
-console.log("TOTAL",tot,"| IN SCOPE",ins);'
+console.log("TOTAL",tot,"| IN SCOPE",ins,"| fieldsOf agrees:",walked===ins);'
 ```
 
 ```
  1908 / 1290 entries   senses[].definition (in dir=rtl wrapper)
   180 /   85 entries   senses[].definition [TAG attr]
   117 /  109 entries   senses[].definition (bare RTL)
+   69 /   68 entries   next_hw OUT OF SCOPE
    69 /   68 entries   headword
+   69 /   68 entries   prev_hw OUT OF SCOPE
    21 /   21 entries   refs[] OUT OF SCOPE
    19 /   14 entries   alt_headwords
     8 /    6 entries   plural_form
     4 /    4 entries   quotes[]
-TOTAL 2326 | IN SCOPE 2305
+TOTAL 2464 | IN SCOPE 2305 | fieldsOf agrees: true
 ```
 
 Against this audit's own rider (`:183`), line for line:
@@ -333,8 +353,11 @@ Against this audit's own rider (`:183`), line for line:
 | `alt_headwords` | 19 | 19 | 0 | exact |
 | `plural_form` | 8 | 8 | 0 | exact |
 | `quotes[]` | 4 | 4 | 0 | exact |
-| **Total** | **2,317** | **2,326** | **+9** | |
-| **In scope** (−`refs[]`) | **2,296** | **2,305** | **+9** | |
+| **Subtotal, the rider's line items** | **2,317** | **2,326** | **+9** | |
+| `next_hw` — **out of scope** | — | **69** | new | never named by the rider, nor by `ascii-gershayim-outside-body-text`'s seven slots. Dropped, validated then derived (data architecture §2.2, §5) |
+| `prev_hw` — **out of scope** | — | **69** | new | same |
+| **Corpus-wide** | — | **2,464** | | |
+| **In scope** (−`refs[]`, −pointers) | **2,296** | **2,305** | **+9** | |
 
 And against the design spec's 2,302 in scope, the spec is **3 low**,
 all three being artifacts of its probe rather than population:

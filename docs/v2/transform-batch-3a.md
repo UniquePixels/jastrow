@@ -42,28 +42,72 @@ audit's narrower `dir=rtl` body-text scope, corrected by this batch's
 widening (§6).
 
 ```bash
-bun -e 'const {HEBREW}=await import("./admin/pipeline/transform/html.ts");
-const Q=String.fromCharCode(34), P=new RegExp("(?<=["+HEBREW+"]\\u0307*)"+Q+"(?=["+HEBREW+"])","gu"), TAG=/<[^<>]*>/gu;
-const t=new Map(), rids=new Set(), tE=new Set(), gE=new Set(), tags=new Set(); let tO=0,gO=0;
-const add=(k,s,rid,scoped=true)=>{ if(typeof s!=="string")return; const mask=new Array(s.length).fill(false);
-  for(const m of s.matchAll(TAG))for(let i=m.index;i<m.index+m[0].length;i++)mask[i]=true;
-  for(const m of s.matchAll(P)){ t.set(k,(t.get(k)??0)+1); rids.add(rid); if(!scoped)continue;
-    if(mask[m.index]){gO++;gE.add(rid); const g=[...s.matchAll(TAG)].find(x=>m.index>=x.index&&m.index<x.index+x[0].length); tags.add(rid+"|"+g.index)} else {tO++;tE.add(rid)} } };
-for(const l of (await Bun.file("data/source/jastrow-dictionary.jsonl").text()).split("\n").filter(Boolean)){ const e=JSON.parse(l);
-  add("headword",e.headword,e.rid); for(const a of e.alt_headwords??[])add("alt_headwords",a,e.rid);
-  for(const p of e.plural_form??[])add("plural_form",p,e.rid); for(const r of e.refs??[])add("refs[] (out, B7)",String(r),e.rid,false);
-  const w=(s)=>{ if(!s)return; add("senses[].definition",s.definition,e.rid); add("senses[].number",s.number,e.rid); for(const n of s.senses??[])w(n) };
-  for(const s of e.content?.senses??[])w(s); add("content.morphology",e.content?.morphology,e.rid);
-  add("language_code",e.language_code,e.rid); add("language_reference",e.language_reference,e.rid);
-  for(const q of e.quotes??[])for(const p of q??[])add("quotes[]",p,e.rid); }
-console.log("corpus-wide",[...t.values()].reduce((a,b)=>a+b,0),"in",rids.size,"entries | in scope",tO+gO);
+bun -e '
+const {HEBREW,HEBREW_ATOM}=await import("./admin/pipeline/transform/html.ts");
+const {fieldsOf}=await import("./admin/pipeline/transform/no-new-text.ts");
+const Q=String.fromCharCode(34), P=new RegExp("(?<="+HEBREW_ATOM+")"+Q+"(?=["+HEBREW+"])","gu"), TAG=/<[^<>]*>/gu;
+const OUT=new Set(["refs[]","next_hw","prev_hw"]);
+const n=(s)=>(s.match(P)??[]).length;
+const split=(s)=>{ let text=0,tag=0,at=0,m; TAG.lastIndex=0;
+  while((m=TAG.exec(s))!==null){ text+=n(s.slice(at,m.index)); tag+=n(m[0]); at=m.index+m[0].length; }
+  return {tag,text:text+n(s.slice(at))}; };
+const by=new Map(), tE=new Set(), gE=new Set(), tags=new Set(); let tO=0,gO=0,walked=0;
+const bump=(path,s,rid)=>{ const {tag,text}=split(s); if(tag+text===0)return;
+  const r=by.get(path)??{e:new Set(),n:0}; r.n+=tag+text; r.e.add(rid); by.set(path,r);
+  if(OUT.has(path))return; tO+=text; gO+=tag; if(text)tE.add(rid);
+  if(tag){ gE.add(rid); for(const m of s.matchAll(TAG)) if(n(m[0])) tags.add(rid+"|"+m.index); } };
+const walk=(v,path,rid)=>{ if(typeof v==="string")return bump(path,v,rid);
+  if(Array.isArray(v))return v.forEach(x=>walk(x,path+"[]",rid));
+  if(v&&typeof v==="object")for(const [k,x] of Object.entries(v))walk(x,path===""?k:path+"."+k,rid); };
+for(const l of (await Bun.file("data/source/jastrow-dictionary.jsonl").text()).split("\n").filter(Boolean)){
+  const e=JSON.parse(l); walk(e,"",e.rid);
+  for(const f of fieldsOf(e)){ const {tag,text}=split(f); walked+=tag+text; } }
+let total=0;
+for(const [p,r] of [...by].sort((a,b)=>b[1].n-a[1].n)){ total+=r.n;
+  console.log(String(r.n).padStart(5),"/",String(r.e.size).padStart(4),"entries  ",p,OUT.has(p)?"  OUT OF SCOPE":""); }
+console.log("corpus-wide",total,"| in scope",tO+gO,"/",new Set([...tE,...gE]).size,"entries | fieldsOf agrees:",walked===tO+gO);
 console.log("text",tO,"/",tE.size,"entries | tag",gO,"/",gE.size,"entries in",tags.size,"tags");'
 ```
 
 ```
-corpus-wide 2326 in 1392 entries | in scope 2305
+ 1852 / 1156 entries   content.senses[].definition
+  353 /  256 entries   content.senses[].senses[].definition
+   69 /   68 entries   next_hw   OUT OF SCOPE
+   69 /   68 entries   headword
+   69 /   68 entries   prev_hw   OUT OF SCOPE
+   21 /   21 entries   refs[]   OUT OF SCOPE
+   19 /   14 entries   alt_headwords[]
+    8 /    6 entries   plural_form[]
+    4 /    4 entries   quotes[][]
+corpus-wide 2464 | in scope 2305 / 1392 entries | fieldsOf agrees: true
 text 2125 / 1386 entries | tag 180 / 85 entries in 90 tags
 ```
+
+**The command walks the corpus twice and the two legs check each
+other.** The per-field breakdown is a generic recursion over the raw
+JSON keyed by path — no hand-written field list, so it cannot omit a
+field. The in-scope total is recomputed from `fieldsOf`, the
+production walker `rules/gershayim.ts` maps, and `fieldsOf agrees`
+reports whether they match. The census this replaced hand-rolled a
+sense walk that visited `definition`, `number` and nested `senses` and
+never any `grammar` field, while the report beside it claimed coverage
+of each sense's `grammar.*`. The published 2,305 was right — those
+fields hold 0 and Task 2 covered them in the mapper — but a command
+that cannot validate the claim beside it is not a reproduction, and
+this is the same defect class as the 1,310,492 figure the design spec
+§2 corrects, where a hand-rolled walk omitted `language_reference`.
+
+That second walk also corrects "corpus-wide". It is **2,464**, not the
+2,326 published here at close: `next_hw` and `prev_hw` hold 69 each,
+mirroring the same headword occurrences from the neighbouring rows,
+and no enumeration of this defect — the audit's seven slots, the
+catalogue row's seven, this report's own table — had ever named them.
+Both are dropped from truth (data architecture §2.2, "validated then
+derived"), so nothing in scope moves. The design spec records the one
+consequence worth carrying: whoever writes `migrate.ts` must walk the
+`prev_hw`/`next_hw` chain gate on the SOURCE, because this batch
+repairs `headword` and leaves the pointers, so for 68 entries the two
+stop matching as strings.
 
 ### The shape of the change
 
