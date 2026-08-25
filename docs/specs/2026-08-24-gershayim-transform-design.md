@@ -435,6 +435,33 @@ before and after the pass:
 Measured, not predicted. If the number is not 90 the rule is wrong,
 and that is the point of stating it in advance.
 
+**And it must be measured on the PIPELINE, not on the rules.** This
+section originally said only the above, and that was the gap this
+batch nearly shipped through. The rules applied to pristine source
+give +90 / −0. The pipeline gave **+68 / −22**, because
+`repairs.ts`'s rid-keyed `cite-escape` pass had already repaired 21 of
+the same entries a different way — escaping the quote to `&quot;` —
+and runs BEFORE transforms, so the headword moved to `״` while the
+escaped target did not.
+
+Nothing in the suite would have caught it. The census ran on pristine
+source; `body:migrate-dry` counts records and never scores links. The
+one arrangement that actually ships was the one nothing measured.
+
+So the gate is now `admin/pipeline/body/pipeline-links.test.ts`:
+`applyRepairs` plus the whole registry over all 32,512 entries, the
+pair withheld and then applied, asserting gained 90 / lost 0, plus 0
+`&quot;` and 2,305 `״` in the output — one spelling per address.
+
+**Ruling (Brian, 2026-08-24): the transform owns the gershayim
+defect; cite-escape class 1 is retired.** The escape was correct for
+its time — a workaround for a parser that could not read a quote
+inside a quoted attribute. [#47](https://github.com/UniquePixels/jastrow/pull/47)
+and this batch remove that limitation, so the workaround became the
+only thing keeping two spellings of one address in the corpus. Its 21
+`REPAIRED_ORPHAN_ITEMS` obligations survive, respelled: the escape
+retired, the obligation did not.
+
 ## 6. Expected write-backs
 
 Per module spec §6, every catalogue row this batch touches gets a
@@ -477,3 +504,5 @@ applies as it did for `h-cognate-self-link` in batch 2.
 | 2026-08-24 | Link-target gate gains case 5, glyph correction, rather than exempting the rule |
 | 2026-08-24 | Case 5 is stated on raw opening-tag bytes, not on parsed targets — the 90 damaged anchors parse well-formed with truncated targets (amended during planning) |
 | 2026-08-24 | Two `Rule` objects over one shared predicate, partitioned by locus, so each catalogue row keeps its own id and its own count |
+| 2026-08-24 | **The transform owns the gershayim defect; `repairs.ts`'s cite-escape class 1 is retired** (Brian). Two mechanisms had repaired it differently and collided in the pipeline: +90/−0 on the rules, +68/−22 composed |
+| 2026-08-24 | The link-integrity gate moves from the rules to the PIPELINE — `applyRepairs` plus the whole registry — because the composed arrangement was the one nothing measured |
