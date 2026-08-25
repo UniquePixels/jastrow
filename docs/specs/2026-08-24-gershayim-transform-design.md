@@ -188,8 +188,23 @@ spec drops it: *"`refs` | **Dropped — derived at compile** (§5) | B7"*
 ([entry-body-model-design.md:115](2026-07-11-entry-body-model-design.md)).
 The transform gate already excludes it for the same reason — *"`refs[]`
 is dropped from truth (body model spec §5, B7) and holds machine
-identifiers"* (`admin/pipeline/transform/no-new-text.ts`). Repairing a
-field that does not survive compile would be work with no output.
+identifiers"* (`admin/pipeline/transform/no-new-text.ts`). Either
+reason alone is sufficient: a text gate has nothing to say about
+machine identifiers, and a field dropped at compile has no output to
+repair.
+
+**"Survives compile" is NOT this batch's scope test, and must not be
+read as one.** The scope is **every field `fieldsOf` walks** — every
+text-bearing field of `SourceEntry`, `SourceSense` and `SourceGrammar`
+— which is a different set. `plural_form` and `quotes` are also
+dropped from v2 truth (B2, B8) — eight discarded catalogue rows rest
+on the first ground and two on the second — and the rules repair them
+anyway, because `fieldsOf` walks them. That is over-coverage, and it
+is the cheap direction of the trade. The expensive direction is the one
+`fieldsOf` exists to prevent: a rule editing a field outside the walk
+is invisible to both text gates and passes VACUOUSLY, reporting
+unreviewed output as success (§5). So the rule's field set is pinned
+to `fieldsOf`'s, not to what compile keeps.
 
 ### The `next_hw` / `prev_hw` mirror
 
@@ -587,7 +602,8 @@ applies as it did for `h-cognate-self-link` in batch 2.
 | Date | Decision |
 |---|---|
 | 2026-08-24 | Batch 3 splits: 3a gershayim (this spec) ships before 3b italic & punctuation seams |
-| 2026-08-24 | Gershayim widens to all surviving fields rather than body text alone; `refs[]` excluded under B7 |
+| 2026-08-24 | Gershayim widens to every field `fieldsOf` walks rather than body text alone; `refs[]` excluded — outside `fieldsOf`, and dropped under B7 |
+| 2026-08-25 | That row read "all surviving fields", which is not the same set: `plural_form` and `quotes` drop at compile (B2, B8) and are repaired regardless. Scope is `fieldsOf`, so the gates can see the work (§2) |
 | 2026-08-24 | `gershayim-breaks-ref-attribute` joins 3a; the two rows are one defect (90/90) |
 | 2026-08-24 | Glyph only, never slot; the 100 displaced-or-undetermined occurrences (55 + 45) are recorded residue |
 | 2026-08-24 | Link-target gate gains case 5, glyph correction, rather than exempting the rule |

@@ -280,10 +280,13 @@ possible censorship-era variant, and `A00692` is one of the 90 broken
 attributes, so the two questions meet.
 
 **`refs[]` is out of scope by ruling, not by neglect.** Its 21
-occurrences are measured and excluded: the body model spec drops
-`refs[]` at compile (§5, B7), and the transform gate already excludes
-it for the same reason. Repairing a field that does not survive compile
-would be work with no output.
+occurrences are measured and excluded, and `fieldsOf` is where the
+exclusion lives: that walk omits `refs[]` because it holds machine
+identifiers rather than text, and B7 drops it at compile besides, so
+repairing it would produce no output either. Note which of those is
+the rule's scope test — it is the first. "Survives compile" is not the
+boundary: `plural_form` and `quotes` do not survive it and are
+repaired, because `fieldsOf` walks them (§6).
 
 ## 4. `bun transform:count`
 
@@ -410,12 +413,46 @@ rules were registered, for the reason in §8.2.
 **`ascii-quote-as-gershayim-in-body` 1,290 → 1,386 is a SCOPE
 correction, not population growth.** The audit measured entries with at
 least one Hebrew-flanked quote in `dir=rtl` body text. This batch
-repairs every field that survives compile — `headword`,
+repairs **every field `fieldsOf` walks** — `headword`,
 `alt_headwords[]`, `plural_form[]`, `language_code`,
 `language_reference`, `quotes[][]`, `content.morphology`, and each
 sense's `definition`, `number` and `grammar.*`, nested sub-senses
-included — minus `refs[]` under B7. The +96 entries are ones whose only
-gershayim lives outside the audit's window.
+included. The +96 entries are ones whose only gershayim lives outside
+the audit's window.
+
+**Not "every field that survives compile", which is what this
+paragraph claimed until 2026-08-25 and is not true.** `plural_form`
+and `quotes` are both dropped from v2 truth — B2 and B8, the ground on
+which the catalogue discards **eight** rows and **two** respectively
+(counted below, not eight-ish: seven `plural-form-*` plus
+`geresh-abbrev-in-plural-form`) — and the rule repairs them anyway,
+because `fieldsOf` walks them. The rule follows `fieldsOf` deliberately, and that is the
+clause worth keeping: `fieldsOf` is every TEXT-BEARING field of
+`SourceEntry`, `SourceSense` and `SourceGrammar`, and it is the single
+enumeration both text gates read, so a rule editing a field outside it
+would pass VACUOUSLY — unreviewed output reported as success. Covering
+a field that later drops costs a few instructions; missing one costs
+the gate. `refs[]` is outside `fieldsOf` on its own footing: it holds
+machine identifiers rather than text (§3).
+
+```bash
+bun -e 'import {parsePatterns} from "./admin/pipeline/research/patterns.ts";
+const rows=await parsePatterns(await Bun.file("data/patches/patterns.jsonl").text());
+const on=(p)=>rows.filter(r=>r.status==="discarded"&&(r.reason??"").startsWith(p));
+console.log("discarded on plural_form:",on("plural_form is not a v2 field").length,
+            "| on quotes:",on("quotes is dropped entirely").length);
+const {fieldsOf}=await import("./admin/pipeline/transform/no-new-text.ts");
+const e={content:{morphology:"M",senses:[]},headword:"H",plural_form:["P"],
+         quotes:[[null,"Q",null]],refs:["R"],rid:"X"};
+const walked=fieldsOf(e);
+console.log("fieldsOf walks plural_form:",walked.includes("P"),
+            "| quotes:",walked.includes("Q"),"| refs:",walked.includes("R"));'
+```
+
+```
+discarded on plural_form: 8 | on quotes: 2
+fieldsOf walks plural_form: true | quotes: true | refs: false
+```
 
 `gershayim-breaks-ref-attribute` stays at 85 and the row is now right
 for the right reason. The catalogued 85 was reached by a walk that
