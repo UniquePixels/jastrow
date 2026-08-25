@@ -252,6 +252,52 @@ the character in place and leaves the position alone.
 | **C — undetermined**: no dominant canonical twin | **45** | 33 |
 | total tokenised, in-scope text locus | 2,119 | |
 
+**2,119, not the 2,125 §1 reports for this locus, and the six are
+named.** The register classifies by token, and its token model
+`[HEBREW]+"[HEBREW]+` is a CONSUMING pattern over bare Hebrew, so it
+cannot reach six occurrences the repair predicate does. Five are the
+second quote of a two-quote token, which the greedy first match
+consumes past — A00253 and U01408 (`יה"ש"ר`), A00409 (`א"תב"ש`),
+A01394 (`ה"דא"א`), Q00157 (`פ"וגחמ"ט`) — and one carries a
+combining dot between the letter and the quote, M01940 (`מ̇ס̇"ך̇`),
+which a bare `[HEBREW]` excludes.
+
+These six SUBSUME the three the predicate section names, and the extra
+three are the same trap one notch worse. §2's consuming variant reads
+`[HEBREW]"[HEBREW]`, one letter each side, so after `א"ת` it resumes at
+`ב"ש` and still catches the second quote — of the five two-quote
+tokens it loses only A00253 and U01408. The register's `+` runs are
+greedy, so after `א"תב` it resumes at `"ש` and loses those three as
+well. M01940 is the separate combining-dot case and is lost by both.
+Measured on the text locus: 2,122 consuming, 2,124 bare lookbehind,
+2,125 atom-aware — the same deltas §2 reports in scope. Each is listed by rid in the audit
+file, and the `SCOPE=audit` run leaves them unclassified rather than
+losing them. All six are REPAIRED — only their slot classification
+is unavailable — so the residue stays an auditable **100**, not 106.
+
+```bash
+bun -e '
+const {HEBREW,HEBREW_ATOM}=await import("./admin/pipeline/transform/html.ts");
+const {fieldsOf}=await import("./admin/pipeline/transform/no-new-text.ts");
+const Q=String.fromCharCode(34);
+const P=new RegExp("(?<="+HEBREW_ATOM+")"+Q+"(?=["+HEBREW+"])","gu");
+const TOKEN=new RegExp("["+HEBREW+"]+"+Q+"["+HEBREW+"]+","gu"), TAG=/<[^<>]*>/gu;
+const textOf=(s)=>{let o="",at=0,m;TAG.lastIndex=0;
+  while((m=TAG.exec(s))!==null){o+=s.slice(at,m.index)+" ";at=m.index+m[0].length;}
+  return o+s.slice(at);};
+let occ=0,tok=0; const short=[];
+for(const l of (await Bun.file("data/source/jastrow-dictionary.jsonl").text()).split("\n").filter(Boolean)){
+  const e=JSON.parse(l); let a=0,b=0;
+  for(const f of fieldsOf(e)){ const t=textOf(f); a+=(t.match(P)??[]).length;
+    for(const m of t.match(TOKEN)??[]) b+=(m.match(P)??[]).length; }
+  occ+=a; tok+=b; if(a!==b)short.push(e.rid); }
+console.log("text locus",occ,"| tokenised",tok,"| gap",occ-tok,"|",short.join(", "));'
+```
+
+```
+text locus 2125 | tokenised 2119 | gap 6 | A00253, A00409, A01394, M01940, Q00157, U01408
+```
+
 **100 occurrences are left with the mark in the wrong slot**, and they
 are recorded as residue rather than counted as coverage. Reproduce with
 the `SCOPE`-switched register printed in
