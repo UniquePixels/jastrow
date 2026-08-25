@@ -1,9 +1,36 @@
 # Audit — `ascii-quote-as-gershayim-in-body` (catalogued 1,234)
 
-**Verdict: RE-MEASURE to 1,908 occurrences / 1,290 entries.** The
-description's *interpretation* is confirmed — these really are gershayim,
-not quotation marks — but the count is scoped narrower than the
-description says, and the defect is 55% larger than this row anyway.
+**Verdict: RE-MEASURE.** The description's *interpretation* is
+confirmed — these really are gershayim, not quotation marks — but the
+count is scoped narrower than the description says, and the defect is
+larger than this row anyway. This audit re-measured its own scope to
+**1,908 occurrences / 1,290 entries**; that figure was right about
+`dir=rtl` definition text and is **not** what shipped.
+
+> **Superseded, 2026-08-24 — read §Reconciliation before quoting any
+> figure above it.** 1,908 / 1,290 reproduces exactly, but only for the
+> `dir=rtl` wrapper locus. Phase 2 batch 3a widened the scope to every
+> field `fieldsOf` walks and split the tag-interior locus into its own
+> row, so the population is **2,305 in scope / 2,326 corpus-wide /
+> 1,392 entries**, decomposed line by line in **§Reconciliation,
+> 2026-08-24** below — every figure there produced by a command printed
+> beside it. What shipped is two rows, counted in ENTRIES:
+> `ascii-quote-as-gershayim-in-body` at 1,386 (2,125 occurrences,
+> document text) and `gershayim-breaks-ref-attribute` at 85 (180
+> occurrences, tag interiors).
+>
+> ```bash
+> bun -e '
+> const {parsePatterns}=await import("./admin/pipeline/research/patterns.ts");
+> const c=parsePatterns(await Bun.file("data/patches/patterns.jsonl").text());
+> for (const r of c) if (r.id==="ascii-quote-as-gershayim-in-body"
+>   || r.id==="gershayim-breaks-ref-attribute") console.log(r.id, r.corpusCount);'
+> ```
+>
+> ```
+> ascii-quote-as-gershayim-in-body 1386
+> gershayim-breaks-ref-attribute 85
+> ```
 
 ## Probe and raw figure
 
@@ -108,17 +135,44 @@ Under-represented ~1.6×, not absent; the range across 22 letters is
 
 ## Disposition
 
-**RE-MEASURE to 1,908 occurrences / 1,290 entries**, recording
-occurrences as the primary figure. Probe: as above, restricted to
+**RE-MEASURE to 1,908 occurrences / 1,290 entries** *(2026-06
+proposal; superseded — see the note below)*, recording occurrences as
+the primary figure. Probe: as above, restricted to
 Hebrew-flanked quotes (drops the 3 D00478 artifacts) — both neighbours,
 skipping U+0591–U+05C7 and U+0307, matching `[א-ת]`.
+
+> **Superseded, 2026-08-24.** This disposition is the 2026-06 proposal,
+> kept as the record of what was decided then. It was NOT applied as
+> written. §Reconciliation below re-measures the population to **2,305
+> in scope / 2,326 corpus-wide / 1,392 entries** and Phase 2 batch 3a
+> shipped it as two rows counted in ENTRIES —
+> `ascii-quote-as-gershayim-in-body` at **1,386** (2,125 occurrences,
+> document text) and `gershayim-breaks-ref-attribute` at **85** (180
+> occurrences, tag interiors) — with the description below amended as
+> noted. Reproduce both counts with the command at the top of this file.
 
 - `corpusCount: 1234` → **1908**, entry count 1,290 recorded alongside.
   The +56 entries are ones whose only body-text gershayim lives in
   `<a dir="rtl">` display text (Q00002, A00009, A01065 …).
+  **Superseded:** the row ships `corpusCount: 1386`, in entries, over
+  the wider walked-field scope.
 - New description: *ASCII double quote (U+0022) used as gershayim inside
   dir=rtl body-text runs — span and anchor display text alike — where
-  print has ״; U+05F4 occurs 0 times in the corpus.*
+  print has ״.*
+
+  The proposal as first drafted ended *"; U+05F4 occurs 0 times in the
+  corpus"*. **That clause is struck, and does not appear in the shipped
+  description.** It is true of the pinned snapshot and false under
+  composition: `run.ts` hands each rule the previous rule's output, so
+  once `gershayimInBody` has run, the second rule's input holds 2,125 of
+  them. The argument that survives is about the SUBSTITUTION, not about
+  the corpus — `admin/pipeline/transform/gershayim.ts` only ever writes
+  a `״` where it removed a `"`, in place, one for one, so every `״`
+  in the output is one that call put there whatever the input already
+  held. The corpus fact is still worth having, because it is what makes
+  the count checkable; it is just not what makes the repair safe. See
+  `admin/pipeline/transform/rules/gershayim.ts`'s module doc,
+  `link-target.ts`'s case-5 condition 1, and batch report §9.4.
 
 ### Two riders the transform author needs
 
@@ -126,12 +180,17 @@ skipping U+0591–U+05C7 and U+0307, matching `[א-ת]`.
    substitution glyph-corrects them while leaving the mark in the wrong
    slot. They need a reposition rule keyed to the dominant penultimate
    twin, or explicit deferral. Another 34 (class C) are undetermined.
-2. **The same defect is 55% larger than this row's scope.** Corpus-wide,
-   ASCII-quote-as-gershayim occurs **2,317 times across 1,392 entries**:
-   1,907 in `dir=rtl` definition text, 172 inside `href`/`data-ref`
-   attribute values (81 entries), 117 in bare RTL definition text with
-   no wrapper (109 entries), 69 in `headword`, 21 in `refs[]`, 19 in
-   `alt_headwords`, 8 in `plural_form`, 4 in `quotes[]`. Because `refs[]`
+2. **The same defect is much larger than this row's scope.**
+   Corpus-wide, ASCII-quote-as-gershayim occurs **2,317 times across
+   1,392 entries**: 1,907 in `dir=rtl` definition text, 172 inside
+   `href`/`data-ref` attribute values (81 entries), 117 in bare RTL
+   definition text with no wrapper (109 entries), 69 in `headword`, 21
+   in `refs[]`, 19 in `alt_headwords`, 8 in `plural_form`, 4 in
+   `quotes[]`. **Superseded, 2026-08-24:** the true figures are **2,326
+   corpus-wide / 2,305 in scope**, with **1,908** in the `dir=rtl`
+   wrapper and **180 across 85 entries** in attributes; the entry count
+   is unchanged at 1,392. §Reconciliation decomposes all nine of the
+   differences line by line, with the command. Because `refs[]`
    and `data-ref` carry the same abbreviations (`Jastrow, א"ת 1`),
    **fixing body text without fixing headwords, `refs[]` and `data-ref`
    in the same pass will break cross-links that currently match by
@@ -150,9 +209,13 @@ for:
   them. **Found: 0 of 1,912.** All 92 two-quote elements re-read
   manually; all are multiple abbreviations.
 - **Any real U+05F4 already present**, which would mean the corpus
-  distinguishes the two. **Found: 0 in the entire raw file**, against
-  64,000+ U+05F3 — including geresh and ASCII-gershayim coexisting in
-  single strings (H00365, E00298, M02939).
+  distinguishes the two. **Found: 0 in the entire raw file** — of the
+  PINNED SNAPSHOT, as an input measurement — against 64,000+ U+05F3,
+  including geresh and ASCII-gershayim coexisting in single strings
+  (H00365, E00298, M02939). This is what makes the count checkable and
+  nothing more: it does not survive composition, and must not be
+  reached for as a safety argument. See the struck clause under
+  §Disposition.
 
 **Not falsifiable here:** the clause "where print has ״". The 1903 print
 was never inspected. For the 1,826 canonical-slot members the inference
@@ -164,7 +227,11 @@ flagged undetermined rather than assumed.
 
 - **`gershayim-breaks-ref-attribute` (85)** — direct sibling. 172
   `href`/`data-ref` early-terminations across 81 entries (~86 distinct
-  anchors, matching their 85) measured independently. The 56 entries
+  anchors, matching their 85) measured independently. **Superseded,
+  2026-08-24:** **180 occurrences across 85 entries on 90 anchors**,
+  exactly 2 per anchor; the attribute probe behind the 172 recursed
+  only into top-level `content.senses[].definition` and missed 4
+  anchors in nested sub-senses. §Reconciliation carries the command. The 56 entries
   this row gains over 1,234 are the **display-text** side of those same
   anchors, which that row does not cover. **The two rows leave a
   56-entry gap between them and must be transformed together, or link
@@ -254,11 +321,11 @@ console.log("TOTAL",tot,"| IN SCOPE",ins);'
 TOTAL 2326 | IN SCOPE 2305
 ```
 
-Against this audit's own rider (`:129`), line for line:
+Against this audit's own rider (`:183`), line for line:
 
 | Line item | This audit | Measured | Δ | Why |
 |---|---:|---:|---:|---|
-| `dir=rtl` definition text | 1,907 | **1,908** | +1 | the rider quoted the `html.parser` figure (`:35`); this audit's *own* disposition (`:111`) says 1,908, and 1,908 / 1,290 entries reproduces exactly. The audit was internally inconsistent by 1; the disposition figure is the right one |
+| `dir=rtl` definition text | 1,907 | **1,908** | +1 | the rider quoted the `html.parser` figure (`:62`); this audit's *own* disposition (`:138`) says 1,908, and 1,908 / 1,290 entries reproduces exactly. The audit was internally inconsistent by 1; the disposition figure is the right one |
 | `href`/`data-ref` attributes | 172 | **180** | +8 | the attribute probe recursed only into top-level `content.senses[].definition`; 4 anchors live in nested sub-senses. See below |
 | bare RTL definition text | 117 | 117 | 0 | exact, entries too (109) |
 | `headword` | 69 | 69 | 0 | exact |
@@ -290,7 +357,7 @@ predicate written as bare `[HEBREW]"[HEBREW]` will skip M01940.
 `const HEBREW_ATOM = String.raw`[${HEBREW}]̇*`` at `html.ts:55` —
 but **`HEBREW_ATOM` was module-private and unexported when this was
 written.** The export list — `html.ts:239–247` in the pre-batch file,
-as was the `:55` above — held `HEBREW`, `hebrewRuns`, `tokenize`,
+as was the `html.ts:55` above — held `HEBREW`, `hebrewRuns`, `tokenize`,
 `serialize`, `attributeInterior`, `opensScope` and `DIR_RTL`, and no
 atom. A consumer that imported it got `undefined` and failed at
 runtime. So a rule that wants atom semantics must either add
@@ -435,7 +502,7 @@ both                      : 90 anchors, 180 occ, 85 entries
 ```
 
 **86 anchors / 172 occurrences / 81 entries reproduces this audit's
-"172 … (81 entries), ~86 distinct anchors" (`:130`, `:165`) to the
+"172 … (81 entries), ~86 distinct anchors" (`:184`, `:228`) to the
 occurrence, the anchor and the entry.** The attribute probe descended
 only into top-level `content.senses[].definition`. Four anchors sit in
 nested sub-senses, and none of their four entries has a top-level
@@ -495,7 +562,7 @@ above**. It is dropped at compile — body model spec §5, B7 — and
 
 ## Decline register
 
-The two riders at `:123` name **49 displaced** (class B) and **34
+The two riders at `:177` name **49 displaced** (class B) and **34
 undetermined** (class C). Both are reproduced here, by rid, so the
 post-launch judgement pass can find them without re-deriving the set.
 
@@ -563,15 +630,15 @@ them unclassified rather than losing them.
 ### Closing the register against the sub-job table
 
 The `SCOPE=audit` run above matches B and C but its total is 1,903 and
-its A is 1,820, where the sub-job table at `:59–63` totals
+its A is 1,820, where the sub-job table at `:86–90` totals
 **1,826 + 49 + 34 = 1,909**. Six occurrences short, and they are all on
 the A side. Two adjustments close it exactly, and both are scope
 corrections to the probe rather than to the audit:
 
 1. **The riders' scope is `dir=rtl`-wrapped *body text*, not
-   definition text.** The body-text probe at `:15` covers
+   definition text.** The body-text probe at `:42` covers
    `senses[].definition` (incl. nested), `content.morphology` **and
-   `quotes[][]`**, and its field split at `:22` records exactly 1
+   `quotes[][]`**, and its field split at `:49` records exactly 1
    occurrence in `quotes[]`. `SCOPE=audit` filters to `def` and drops
    that one.
 2. **The 5 untokenisable occurrences inside that scope are class A.**
@@ -676,16 +743,16 @@ A 1826 | B 49 occ / 12 types | C 34 occ / 29 types | total 1909
 ```
 
 **All three cells of the sub-job table reproduce exactly** — 1,826 /
-49 / 34, totalling 1,909, which is the 1,912 of `:21` less the 3 D00478
-artifacts of `:48`. The riders' 49 and 34 are confirmed, and their
+49 / 34, totalling 1,909, which is the 1,912 of `:48` less the 3 D00478
+artifacts of `:75`. The riders' 49 and 34 are confirmed, and their
 scope is pinned: **`dir=rtl`-wrapped body text — `senses[].definition`
 (incl. nested), `content.morphology` and `quotes[][]`.**
 
 A fourth check falls out of the same run. This audit's class-B row at
-`:62` names six twin frequencies in passing; the register reproduces
+`:89` names six twin frequencies in passing; the register reproduces
 **all six** in this scope, none of which it was fitted to:
 
-| `:62` says | Register |
+| `:89` says | Register |
 |---|---|
 | `הק"בה` 15 vs `הקב"ה` 194 | 15 vs 194 |
 | `ב"וד` 9 vs `בו"ד` 19 | 9 vs 19 |
@@ -694,16 +761,16 @@ A fourth check falls out of the same run. This audit's class-B row at
 | `גי"מל` 1 vs 8 | 1 vs 8 |
 | `רו"הק` 1 vs 6 | 1 vs 6 |
 
-and the class-C row at `:63`'s `עכ"ום` "(12, twin `עכו"ם` 16)" comes
+and the class-C row at `:90`'s `עכ"ום` "(12, twin `עכו"ם` 16)" comes
 back as 12 vs 16. These frequencies are scope-sensitive — over the full
 in-scope text locus the same twins read 200, 19, 12, 15, 9, 6 — so
 matching all seven is independent evidence that the scope above is the
 right one.
 
 > **Correction, recorded.** An earlier draft of this section claimed
-> `A 1820` matched the sub-job table at `:61`. It does not: `:61` reads
+> `A 1820` matched the sub-job table at `:88`. It does not: `:88` reads
 > **1,826**. The 1,820 coincides with the *`<span dir=rtl>` text only*
-> figure at `:28`, which is a different scope and a coincidence, not a
+> figure at `:55`, which is a different scope and a coincidence, not a
 > corroboration. The argument above replaces it.
 
 ### The heuristic that does *not* work, and why
@@ -752,7 +819,7 @@ to rank twins.
 ### The riders' 49 and 34, by rid — narrower scope
 
 Run the sub-job command above with `LIST=1`. These are the sets the
-riders at `:123` refer to: `dir=rtl`-wrapped body text only. The wider
+riders at `:177` refer to: `dir=rtl`-wrapped body text only. The wider
 in-scope sets (55 and 45) follow in the next two subsections; **both
 are recorded, because the riders' figures are what the audit committed
 to and the wider figures are what the transform must actually handle.**
@@ -808,7 +875,7 @@ to and the wider figures are what the transform must actually handle.**
 | 1 | `בב"הק` | — | S00097 |
 | 1 | `בשִׁ"ין` | — | U00243 |
 
-Every class-C example this audit names in prose at `:63` — `ש"ין`,
+Every class-C example this audit names in prose at `:90` — `ש"ין`,
 `דַּלְ"תִים`, `זַיְי"נִין`, `אוכ"טא`, `ע"עז` — appears in that table.
 
 ### Class B — displaced, full in-scope text locus (55 occ, 16 types)
@@ -832,7 +899,7 @@ Every class-C example this audit names in prose at `:63` — `ש"ין`,
 | 1 | `רו"הק` | `רוה"ק` (6) | O01233 |
 | 1 | `עי"ין` | `עיי"ן` (3) | P00000 |
 
-The `עכ"ום` family is the one to watch: this audit flagged it at `:63`
+The `עכ"ום` family is the one to watch: this audit flagged it at `:90`
 as a **genuine censorship-era print variant**, not a scribal slip, and
 placed it in class C on that ground. The mechanical slot test puts it
 in class B because a canonical twin does exist and is (barely) more
@@ -889,11 +956,11 @@ reorder letters, for any of the 100 occurrences above.
 The reasons are the ones this audit already gave, now with the set
 pinned. Repositioning would be text invention rather than glyph
 correction: for class C the 1903 print was never inspected and
-displacement cannot be told from print variant (`:157`), and for class
+displacement cannot be told from print variant (`:220`), and for class
 B a "dominant twin" as thin as 16-to-14 is a frequency observation, not
 evidence about what the page says. Moving a mark also changes the token
 identity, which would silently break the `data-ref` ↔ `headword`
-string-identity match that `:136` warns about.
+string-identity match that `:195` warns about.
 
 What the rule *does* owe them: the ASCII quote is a wrong character
 wherever it stands, so all 100 are in the population and all 100 get
