@@ -35,10 +35,17 @@ renumber.
 
 ### The two rows
 
-| Row | Catalogued | Blocking |
+| Row | Catalogued when this spec was written | Blocking |
 |---|---:|---|
 | `ascii-quote-as-gershayim-in-body` | 1,290 entries | no |
 | `gershayim-breaks-ref-attribute` | 85 entries | **yes** |
+
+**The 1,290 is historical and is left as written.** It is the figure
+this spec was drafted against; `patterns.jsonl` now records **1,386**,
+which the batch wrote back as a SCOPE correction rather than
+population growth — the audit measured the `dir=rtl` window and this
+batch repairs every field `fieldsOf` walks (§2). Every later section
+uses 1,386. The 85 was and remains exact.
 
 They ship together. §3 shows they are one defect seen from two sides.
 
@@ -393,10 +400,25 @@ statement in the registry comment, not an aesthetic one.
 
 The `allows` blast radius is stated rather than discovered: per
 `no-new-text.ts`, a declared allowance permits that codepoint
-*anywhere* in the rule's diff. `״` is a good citizen for this — it does
-not occur once in the input corpus, so any occurrence in the output is
-this rule's own work and the rule's unit tests can assert the exact
-count.
+*anywhere* in the rule's diff. What bounds it here is the
+SUBSTITUTION, not the corpus: `gershayim.ts` only ever writes a `״`
+where it removed a `"`, in place, one for one, so every `״` in the
+output is one this call put there whatever its input already held.
+The blast radius is therefore bounded by the predicate.
+
+**The corpus phrasing of this does not survive composition, and must
+not be used.** "U+05F4 occurs 0 times in the input corpus, so any
+occurrence in the output is this rule's own work" is true of the
+SNAPSHOT and false of the second rule to run: `run.ts` hands each rule
+the previous rule's output, so once `gershayimInBody` has run,
+`gershayimRefAttribute`'s input holds 2,125 marks in document text. A
+safety argument that only holds for whichever of a pair runs first is
+not a safety argument for the pair. The corpus fact is still worth
+having and the corpus tier still asserts it — it is what makes the
+count checkable — but it is not what makes the allowance safe. The
+same correction was made in `rules/gershayim.ts`, `types.ts`,
+`link-target.ts` and the audit file; this paragraph was the last place
+it stood.
 
 **The link-target gate rejects a corrected target as a fabrication,
 and is right to under its current cases.** Its contract is *"a rule may

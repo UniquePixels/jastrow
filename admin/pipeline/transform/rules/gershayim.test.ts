@@ -413,9 +413,15 @@ function targetHeadword(dataRef: string): string | undefined {
  * of the 90 points at a headword that is still missing after repair.
  *
  * The gershayim total rides along on the second pass rather than
- * taking a third of its own. It is the same walk, and it is what makes
- * the link numbers checkable — `״` does not occur once in the input,
- * so every one in the output is this pair's own work.
+ * taking a third of its own. It is the same walk, and `gershayimBefore`
+ * is measured here rather than assumed: this tier runs the pair on
+ * PRISTINE source, so 0 in and 2,305 out attributes every mark to the
+ * pair over exactly the input it was measured on. That is what makes
+ * the count checkable and nothing more — the `allows` allowance is
+ * safe because the substitution is one-for-one and in place, an
+ * argument about the rule rather than about the corpus, which is why
+ * it survives composition where a corpus-zero argument would not
+ * (`rules/gershayim.ts` docstring).
  */
 it('exactly 90 link targets start resolving, and none stop', async () => {
 	const healed = (source: SourceEntry): SourceEntry =>
