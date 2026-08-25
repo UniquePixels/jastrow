@@ -422,7 +422,7 @@ after launch unless something else forces the issue.
    repair and a transform own the same defect, and a repair and a rule
    that quietly agree on the same bytes without moving a record count
    still slip past it. And it covers only what the registry holds when
-   it runs — **15 of the 78 catalogued transform rows** today, 63
+   it runs — **15 of the 77 catalogued transform rows** today, 62
    pending:
 
    ```bash
@@ -436,5 +436,9 @@ after launch unless something else forces the issue.
 
    ```
    15 rule(s), 2 mismatch(es).
-   { total: 78, registered: 15, pending: 63 }
+   {
+     total: 77,
+     registered: 15,
+     pending: 62,
+   }
    ```

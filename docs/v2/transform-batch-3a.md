@@ -13,9 +13,11 @@ Both loci are repaired by **one predicate in one pass**, which is what
 preserves the `data-ref` ↔ `headword` string identity the catalogue
 audit warned about.
 
-The registry now holds fifteen rules. `coverage()` accounts for all 78
-catalogued transform rows: 15 registered, 63 pending, 0 unaccounted, 0
-duplicated.
+The registry now holds fifteen rules. `coverage()` accounts for all 77
+catalogued transform rows: 15 registered, 62 pending, 0 unaccounted, 0
+duplicated. It read 78 / 63 when the rules landed; the pre-PR review
+discarded `ascii-gershayim-outside-body-text`, whose whole population
+these two rules already repair (§6).
 
 **§7 is the part to read.** Closing the batch turned up a pre-existing
 repair fixing 22 of the same 90 anchors a different way, which cost 22
@@ -775,7 +777,7 @@ its own disposition said 1,908) and the design spec's first 2,323 by 3
 (the two traps above). Full working in the audit file under
 "Reconciliation, 2026-08-24".
 
-### 8.2 `checkAdjacency()` could pass vacuously, and for 57 pending rows it still can
+### 8.2 `checkAdjacency()` could pass vacuously, and for 56 pending rows it still can
 
 `checkAdjacency()` builds each rule's entanglement cluster from the
 catalogue's `entangledWith` graph and skipped any cluster with fewer
@@ -808,10 +810,10 @@ console.log("PENDING:",PENDING.length,"| no edge:",noEdge.length);'
 ```
 
 ```
-PENDING: 63 | no edge: 57
+PENDING: 62 | no edge: 56
 ```
 
-**57 of the 63 pending rows carry no edge at all**, so for most of the
+**56 of the 62 pending rows carry no edge at all**, so for most of the
 work ahead the gate is unfalsifiable by construction. A clean run means
 "no RECORDED entanglement is split", never "no entanglement is split".
 Carried into

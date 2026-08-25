@@ -13,7 +13,11 @@ authors.
 
 The registry now holds thirteen rules. `coverage()` accounts for all 78
 catalogued transform rows: 13 registered, 65 pending, 0 unaccounted, 0
-duplicated.
+duplicated. **Those three are a snapshot at this batch's close, not
+live figures** — batch 3a registered two more rules and discarded a
+row, so `coverage()` today reads 77 / 15 / 62. Reproduce the live
+values with the command in
+[phase-2-triage.md](phase-2-triage.md#still-open-not-part-of-phase-2).
 
 ---
 

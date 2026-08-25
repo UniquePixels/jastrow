@@ -3,9 +3,36 @@
 > **For agentic workers:** REQUIRED SUB-SKILL: Use superpowers-extended-cc:subagent-driven-development (recommended) or superpowers-extended-cc:executing-plans to implement this plan task-by-task. Steps use checkbox (`- [ ]`) syntax for tracking.
 
 **Goal:** Replace the ASCII `"` standing in for a gershayim with `״`
-across every surviving field and inside link attributes — 2,305
-occurrences in 1,392 entries — in one pass, so that the 90 broken link
-targets and the headwords they point at move together.
+across every field `fieldsOf` walks and inside link attributes —
+2,305 occurrences in 1,392 entries, of 2,464 corpus-wide — in one
+pass, so that the 90 broken link targets and the headwords they point
+at move together.
+
+> **This plan is a historical artefact, and until 2026-08-25 it was
+> INVISIBLE TO `grep`.** A stray NUL byte at line 1083 (`?? '\0'` in a
+> draft snippet, meant to be `?? ''`) made every tool treat the file as
+> binary, so five review waves swept the branch without ever reading
+> it. The byte is removed. Its headline figures and the acceptance
+> criteria of completed tasks have been reconciled with what shipped;
+> the DRAFT CODE inside the task bodies has not, and three things in it
+> were superseded and must not be copied:
+>
+> - The `allows: ['״']` safety argument appears twice as *"U+05F4
+>   occurs 0 times in the input corpus"* (Task 1's draft docstring and
+>   Task 2's draft comment). **That does not survive composition** —
+>   `run.ts` hands each rule the previous rule's output. The argument
+>   that holds is the one-for-one, in-place `"` → `״` substitution.
+>   See `rules/gershayim.ts` and the design spec §8.
+> - The quote-scale figure reads **1,310,492**; it is **1,349,919**.
+>   The draft was measured on a hand-rolled walk that omitted
+>   `language_reference`. Design spec §2 has the corrected figure and
+>   the command.
+> - Task 0's own pre-reconciliation numbers are kept deliberately — see
+>   the box on that task.
+>
+> Everything the plan *produced* is in
+> [the batch report](../../v2/transform-batch-3a.md), which is the
+> document to read.
 
 **Architecture:** One predicate (an ASCII `"` with a Hebrew letter on
 both sides) and one substitution, in a shared module. Two `Rule`
@@ -50,7 +77,10 @@ dependencies.
 
 **User decisions (already made):**
 - "Widen to all fields" — the batch takes the whole defect across
-  every surviving field plus link attributes, not body text alone.
+  every field `fieldsOf` walks plus link attributes, not body text
+  alone. (Written here as "every surviving field"; corrected
+  2026-08-25 — `plural_form` and `quotes` do not survive compile and
+  are repaired regardless, because `fieldsOf` walks them.)
 - "Split 3a / 3b" — the gershayim family ships first and alone; the
   italic and punctuation seam rows keep the batch number and get their
   own spec.
@@ -92,8 +122,10 @@ Two test files for the rules, split the way `links.test.ts` /
 
 > **RESOLVED 2026-08-24 — commit `349b79f`. Read this box before the
 > section below it.** The reconciliation closed with zero residual, and
-> both prior readings were low: the true population is **2,326
-> corpus-wide / 2,305 in scope / 1,392 entries**. The section's own
+> both prior readings were low: the true population is **2,305 in
+> scope / 1,392 entries**, of **2,464 corpus-wide** (this box read
+> 2,326 until 2026-08-25; that figure omitted `next_hw`/`prev_hw`, 69
+> each, both out of scope). The section's own
 > figures (2,302; 2,122 text; 49 + 34) are the *pre-reconciliation*
 > numbers and are kept as the record of what was asked, not as values
 > to use. Later tasks use 2,305 / 2,125 / 55 + 45.
@@ -943,7 +975,7 @@ with the order-freedom claim measured rather than asserted.
 - Modify: `data/patches/patterns.jsonl`
 
 **Acceptance Criteria:**
-- [ ] `coverage()` reports 15 rules registered, 63 pending, 0 unaccounted, 0 duplicated
+- [ ] `coverage()` reports 15 rules registered, 63 pending, 0 unaccounted, 0 duplicated — held when this task landed; the live figures are 15 / 62 since `ascii-gershayim-outside-body-text` was discarded in the pre-PR review
 - [ ] Both ids are removed from `PENDING` and neither is claimed twice
 - [ ] The two rules are adjacent in `RULES`
 - [ ] Each row's `entangledWith` names the other, written back to `patterns.jsonl` with a `reason` recording the 90/90 measurement
@@ -1041,7 +1073,9 @@ round-trip the file through it.
 bun test admin/pipeline/transform/registry.test.ts admin/pipeline/transform/registry.order.test.ts admin/pipeline/transform/rules/gershayim.corpus.test.ts
 ```
 
-Expected: PASS, with `coverage()` at 15 registered / 63 pending.
+Expected: PASS, with `coverage()` at 15 registered / 63 pending — as
+of this task. Live today: 15 / 62, one row having left the transform
+route since (see the batch report §6).
 
 - [ ] **Step 6: Commit**
 
@@ -1080,7 +1114,7 @@ test('exactly 90 link targets start resolving and none stop', () => {
 	const entries = [...corpus()];
 	const headwords = new Set(entries.map((e) => e.headword));
 	const resolves = (target: string) =>
-		headwords.has(targetHeadword(target) ?? ' ');
+		headwords.has(targetHeadword(target) ?? '');
 	const before = new Set<string>();
 	const after = new Set<string>();
 	for (const source of entries) {
@@ -1196,7 +1230,7 @@ bun transform:count
 (exact) and `ascii-quote-as-gershayim-in-body` at 1,386 against a
 catalogued 1,290 — the designed unit-mismatch finding of module spec
 §4.2, caused by this batch widening the row from body text to every
-surviving field.
+field `fieldsOf` walks.
 
 - [ ] **Step 2: Write back both rows**
 
