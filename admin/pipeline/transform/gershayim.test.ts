@@ -68,8 +68,8 @@ it('returns the input string itself when nothing matches', () => {
 
 it('never changes codepoint length', () => {
 	const input = `אל${Q}ף and הקב${Q}ה <a data-ref=${Q}Jastrow, אל${Q}ף 1${Q}>x</a>`;
-	expect([...repairText(input)].length).toBe([...input].length);
-	expect([...repairTags(input)].length).toBe([...input].length);
+	expect([...repairText(input)]).toHaveLength([...input].length);
+	expect([...repairTags(input)]).toHaveLength([...input].length);
 });
 
 it('repairText leaves tag interiors alone and repairTags takes them', () => {

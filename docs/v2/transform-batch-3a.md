@@ -71,7 +71,7 @@ console.log("corpus-wide",total,"| in scope",tO+gO,"/",new Set([...tE,...gE]).si
 console.log("text",tO,"/",tE.size,"entries | tag",gO,"/",gE.size,"entries in",tags.size,"tags");'
 ```
 
-```
+```text
  1852 / 1156 entries   content.senses[].definition
   353 /  256 entries   content.senses[].senses[].definition
    69 /   68 entries   next_hw   OUT OF SCOPE
@@ -163,7 +163,7 @@ for await (const e of readSourceEntries()){
 console.log({perEntryDistinctTags:claims, marksInThoseTags:marks, worstMultiplicity:worst, entriesWithADuplicateTag:dup});'
 ```
 
-```
+```text
 { perEntryDistinctTags: 88, marksInThoseTags: 176,
   worstMultiplicity: 2, entriesWithADuplicateTag: 2 }
 ```
@@ -181,7 +181,7 @@ narrowed predicate fails `bun qa` rather than a report.
 bun test admin/pipeline/transform/rules/gershayim.test.ts
 ```
 
-```
+```text
 18 pass
 0 fail
 2839 expect() calls
@@ -189,7 +189,7 @@ bun test admin/pipeline/transform/rules/gershayim.test.ts
 
 The census test asserts one object:
 
-```
+```text
 after:               73,443
 anchorDrift:              0
 anchors:            170,182
@@ -221,7 +221,7 @@ no sense number — which is a third arrival at the same population.
 **All 90 parse `malformed: false`.** That is why case 5 is written on
 bytes:
 
-```
+```text
 malformed=false  dataRef="Jastrow, אל"  href="/Jastrow,_אל"
 ```
 
@@ -294,7 +294,7 @@ for(const l of (await Bun.file("data/source/jastrow-dictionary.jsonl").text()).s
 console.log("text locus",occ,"| tokenised",tok,"| gap",occ-tok,"|",short.join(", "));'
 ```
 
-```
+```text
 text locus 2125 | tokenised 2119 | gap 6 | A00253, A00409, A01394, M01940, Q00157, U01408
 ```
 
@@ -304,7 +304,7 @@ the `SCOPE`-switched register printed in
 [`catalogue-audit/ascii-quote-as-gershayim-in-body.md`](../../data/patches/catalogue-audit/ascii-quote-as-gershayim-in-body.md)
 ("The decline register"):
 
-```
+```text
 SCOPE=all     A 2019 | B 55 occ / 16 types | C 45 occ / 33 types | total 2119
 SCOPE=audit   A 1820 | B 49 occ / 12 types | C 34 occ / 29 types | total 1903
 ```
@@ -340,7 +340,7 @@ repaired, because `fieldsOf` walks them (§6).
 
 Before this task's write-backs — the evidence they were made from:
 
-```
+```text
 ascii-quote-as-gershayim-in-body       measured(entries)= 1386 catalogued= 1290  DELTA +96
 gershayim-breaks-ref-attribute         measured(entries)=   85 catalogued=   85  MATCH
 
@@ -350,7 +350,7 @@ gershayim-breaks-ref-attribute         measured(entries)=   85 catalogued=   85 
 After them, **15 rules, 13 MATCH, 2 findings, and both findings are
 batch 2's**:
 
-```
+```text
 $ bun transform:count
 redundant-outer-rtl-span               measured(entries)=  529 catalogued=  529  MATCH
 bare-rtl-hebrew                        measured(entries)= 4189 catalogued= 4189  MATCH
@@ -379,7 +379,7 @@ mean this batch moved something it should not have.
 
 ## 5. `bun body:migrate-dry`
 
-```
+```text
 entries=32512 repaired=812
 binyan-cleanup: 938 record(s) across 751 entries
 marker-reinsert: 14 record(s) across 14 entries
@@ -443,7 +443,7 @@ target lines byte for byte before any edit, and the diff is two lines:
 git diff --stat -- data/patches/patterns.jsonl
 ```
 
-```
+```text
  data/patches/patterns.jsonl | 4 ++--
  1 file changed, 2 insertions(+), 2 deletions(-)
 ```
@@ -497,7 +497,7 @@ console.log("fieldsOf walks plural_form:",walked.includes("P"),
             "| quotes:",walked.includes("Q"),"| refs:",walked.includes("R"));'
 ```
 
-```
+```text
 discarded on plural_form: 8 | on quotes: 2
 fieldsOf walks plural_form: true | quotes: true | refs: false
 ```
@@ -627,7 +627,7 @@ console.log({escapedEntries:escaped, entitiesWritten:entities, tagsCarryingAnEnt
   damagedBeforeTheEscape:before, damagedAfterTheEscape:after});'
 ```
 
-```
+```text
 { escapedEntries: 21, entitiesWritten: 44, tagsCarryingAnEntity: 22,
   damagedBeforeTheEscape: 90, damagedAfterTheEscape: 68 }
 ```
@@ -659,7 +659,7 @@ let n=0; for await (const e of readSourceEntries()){ if(!RIDS.has(e.rid))continu
 console.log("former class-1 rids:",RIDS.size,"| damaged tags inside them:",n);'
 ```
 
-```
+```text
 former class-1 rids: 21 | damaged tags inside them: 23
 ```
 
@@ -723,7 +723,7 @@ time. Nothing about them was wrong; a better mechanism arrived.
 bun test admin/pipeline/body/pipeline-links.test.ts
 ```
 
-```
+```text
 3 pass
 0 fail
 Ran 3 tests across 1 file. [44.89s]
@@ -733,7 +733,7 @@ The first of the three asserts, over `applyRepairs` + the whole
 registry on all 32,512 entries, with the pair withheld and then
 applied:
 
-```
+```text
 { entries: 32512, gained: 90, lost: [], lostCount: 0 }
 ```
 
@@ -798,7 +798,7 @@ for await (const e of readSourceEntries()) for(const f of fieldsOf(e)){
 console.log("consuming",c,"| bare lookbehind",b,"| atom-aware",a);'
 ```
 
-```
+```text
 consuming 2302 | bare lookbehind 2304 | atom-aware 2305
 ```
 
@@ -855,7 +855,7 @@ const noEdge=[...PENDING].filter(id=>(by.get(id)?.entangledWith??[]).length===0)
 console.log("PENDING:",PENDING.length,"| no edge:",noEdge.length);'
 ```
 
-```
+```text
 PENDING: 62 | no edge: 56
 ```
 
@@ -896,7 +896,7 @@ for(const e of es) for(const f of fieldsOf(e)) for(const a of anchors(tokenize(f
 console.log({jastrowAnchors:jas, greedyResolves:g, lazyResolves:l, resolveUnderBoth:both, andToDifferentHeadwords:diff});'
 ```
 
-```
+```text
 { jastrowAnchors: 73468, greedyResolves: 73353, lazyResolves: 65817,
   resolveUnderBoth: 65817, andToDifferentHeadwords: 1131 }
 ```
@@ -928,7 +928,7 @@ console.log({headwords:es.length, romanEnding:es.filter(e=>/\s[IVXL]+$/u.test(e.
   distinctJastrowAddresses:addrs.size, addressesWithMoreThanOneValidSplit:multi});'
 ```
 
-```
+```text
 { headwords: 32512, romanEnding: 2871, superscript: 807, endsInDigit: 0,
   distinctJastrowAddresses: 22906, addressesWithMoreThanOneValidSplit: 0 }
 ```
@@ -971,7 +971,7 @@ for(const e of dmg){ const b=bad(e); const o=applyTransforms(e,"text-repairs",OL
 console.log("COMPOSED (whole pre-existing registry in sequence): damaged tags changed in",composed,"of",dmg.length,"entries");'
 ```
 
-```
+```text
 damaged entries: 85 | damaged tags: 90
   redundant-outer-rtl-span records: 2 | damaged tags changed: 0
   bare-rtl-hebrew records: 12 | damaged tags changed: 0
@@ -1048,7 +1048,7 @@ population, in either order.
    console.log(delta.join("\n"));'
    ```
 
-   ```
+   ```text
    repaired entries: 812 | rules: 15 | interactions: 1
    N00327 bare-rtl-hebrew 2->1
    ```
@@ -1108,7 +1108,7 @@ population, in either order.
    console.log({u05efInWalkedFields:n});'
    ```
 
-   ```
+   ```text
    { u05efInWalkedFields: 0 }
    ```
 6. **Case 5 licenses a TAG, not an ADDRESS.** A rule that corrected the
@@ -1134,7 +1134,7 @@ population, in either order.
 ## Verification, reproducible
 
 ```bash
-bun qa                  # format, lint, test, tsc — exit 0, 724 pass
+bun qa                  # format, lint, test, tsc — exit 0, 0 fail
 bun transform:count     # 15 rules; the two surviving deltas are batch 2's — §4
 bun body:migrate-dry    # §5 — 32,512/32,512 ×4, 0 failures, 0 quarantines
 bun test admin/pipeline/body/pipeline-links.test.ts           # the PIPELINE census — §7
@@ -1143,3 +1143,11 @@ bun test admin/pipeline/transform/registry.order.test.ts      # cluster derivati
 bun test admin/pipeline/transform/link-target.test.ts         # gate case 5
 bun test admin/pipeline/body/repairs.test.ts                  # the inverted escape test — §7
 ```
+
+The `bun qa` line pins **exit 0 and 0 failures**, deliberately not a
+pass COUNT. The count moved 724 → 726 → 729 across this branch alone
+and goes stale on the next test anyone adds, so a figure here would
+read as a claim about the suite while actually being a claim about the
+day it was typed. Dated for the record rather than as an expectation:
+the batch-close run on **2026-08-25** reported 729 passing, 0 failing,
+4,306 assertions across 51 files.

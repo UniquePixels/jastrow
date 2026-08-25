@@ -27,7 +27,7 @@ larger than this row anyway. This audit re-measured its own scope to
 >   || r.id==="gershayim-breaks-ref-attribute") console.log(r.id, r.corpusCount);'
 > ```
 >
-> ```
+> ```text
 > ascii-quote-as-gershayim-in-body 1386
 > gershayim-breaks-ref-attribute 85
 > ```
@@ -336,7 +336,7 @@ for(const [k,v] of Object.entries(acc).sort((a,b)=>b[1].n-a[1].n)){ tot+=v.n; if
 console.log("TOTAL",tot,"| IN SCOPE",ins,"| fieldsOf agrees:",walked===ins);'
 ```
 
-```
+```text
  1908 / 1290 entries   senses[].definition (in dir=rtl wrapper)
   180 /   85 entries   senses[].definition [TAG attr]
   117 /  109 entries   senses[].definition (bare RTL)
@@ -429,7 +429,7 @@ for(const l of (await Bun.file("data/source/jastrow-dictionary.jsonl").text()).s
 console.log("wide",w,"canonical",c,"delta",w-c);'
 ```
 
-```
+```text
 wide 2302 canonical 2302 delta 0
 ```
 
@@ -452,7 +452,7 @@ for(const l of (await Bun.file("data/source/jastrow-dictionary.jsonl").text()).s
 console.log("wide",w,"canonical",c,"delta",w-c);'
 ```
 
-```
+```text
 wide 0 canonical 0 delta 0
 ```
 
@@ -489,7 +489,7 @@ console.log("tags with NO dir=\"rtl\" attribute:",noDir.length);
 for(const [r,t] of noDir) console.log("   ",r,t);'
 ```
 
-```
+```text
 defective tags: 90 | total occurrences: 180
 occurrences-per-tag distribution: {"2":90}
 tags with NO dir="rtl" attribute: 2
@@ -523,7 +523,7 @@ console.log("both                      :",top.length+nested.length,"anchors,",(t
 for(const [r,t] of nested) console.log("   missed:",r,t);'
 ```
 
-```
+```text
 top-level definitions only: 86 anchors, 172 occ, 81 entries
 nested sub-senses only    : 4 anchors, 8 occ, 4 entries
 both                      : 90 anchors, 180 occ, 85 entries
@@ -576,7 +576,7 @@ console.log("tag ",tagO,"occ /",tagE.size,"entries");
 console.log("union",new Set([...textE,...tagE]).size,"| total",textO+tagO);'
 ```
 
-```
+```text
 text 2122 occ / 1386 entries
 tag  180 occ / 85 entries
 union 1392 | total 2302
@@ -705,7 +705,7 @@ console.log("of which in quotes[] (dropped by SCOPE=audit):",quotesField);
 for(const [r,s] of un.sort()) console.log("   ",r,"letters after quote:",s,s===1?"=> penultimate => class A":"=> NOT class A");'
 ```
 
-```
+```text
 audit body-text population: 1909 | tokenised: 1904 | untokenisable: 5
 of which in quotes[] (dropped by SCOPE=audit): 1
     A00253 letters after quote: 1 => penultimate => class A
@@ -770,7 +770,7 @@ TS
 bun "${TMPDIR:-/tmp}/subjob.ts"
 ```
 
-```
+```text
 A 1826 | B 49 occ / 12 types | C 34 occ / 29 types | total 1909
 ```
 
@@ -831,13 +831,13 @@ for(const [b,ts] of byBare){ if(ts.length<2) continue;
  | sort -rn | tee /dev/stderr | awk '{s+=$1; n++} END {print "rows:", n, "occurrences:", s}'
 ```
 
-```
+```text
 rows: 21 occurrences: 66
 ```
 
 whose first row is
 
-```
+```text
 16 "עכו\"ם" vs dominant "עכ\"ום" 24 | C00358 C00785 H00553 K00249 K00425 M00511 M00761 N00201 N00847 Q01379 P01490 T00082
 ```
 

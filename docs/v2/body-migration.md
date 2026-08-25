@@ -253,7 +253,7 @@ measurement that walks the TRANSFORMED corpus, so here is one. Walking
 every entry's sense tree before and after `applyTransforms(entry,
 'text-repairs')`, in order, and comparing the definition slots:
 
-```
+```text
 entries=32512 definitionsBefore=44668 definitionsAfter=44668
 senseShapeDrift=0 slotDrift=0
 ```

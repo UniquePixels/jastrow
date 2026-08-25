@@ -434,7 +434,7 @@ after launch unless something else forces the issue.
    console.log({total:r.total, registered:r.registered, pending:r.pending});'
    ```
 
-   ```
+   ```text
    15 rule(s), 2 mismatch(es).
    {
      total: 77,

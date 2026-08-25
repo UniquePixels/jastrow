@@ -489,7 +489,10 @@ function entangledClusters(
 			})
 			.toSorted((a, b) => a - b);
 		if (at.length >= 2) {
-			clusters.push({ at, ids: ids.toSorted() });
+			clusters.push({
+				at,
+				ids: ids.toSorted((a, b) => a.localeCompare(b)),
+			});
 		}
 	}
 	return clusters.toSorted((a, b) =>

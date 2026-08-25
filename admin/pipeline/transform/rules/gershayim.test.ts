@@ -36,7 +36,7 @@ import { expect, it } from 'bun:test';
 import { readSourceEntries } from '../../body/source.ts';
 import type { SourceEntry } from '../../body/types.ts';
 import { GERSHAYIM } from '../gershayim.ts';
-import { tokenize } from '../html.ts';
+import { serialize, tokenize } from '../html.ts';
 import { type Anchor, anchors } from '../links.ts';
 import { fieldsOf } from '../no-new-text.ts';
 import { applyTransforms } from '../run.ts';
@@ -49,7 +49,6 @@ import {
 } from './rtl.ts';
 
 const Q = String.fromCharCode(34);
-const TAG = /<[^<>]*>/gu;
 const PAIR: Rule[] = [gershayimInBody, gershayimRefAttribute];
 
 const WANTED = new Set([
@@ -84,10 +83,17 @@ function entry(rid: string): SourceEntry {
 	return found;
 }
 
-/** Every `<…>` tag in every walked field, in walk order. */
+/** Every tag in every walked field, in walk order — split by
+ * `html.ts`'s tokenizer rather than by a regex of this file's own, so
+ * "tag" and "text run" mean here exactly what they mean to the
+ * `no-new-text` gate that judges the same output
+ * (`no-new-text.ts`'s `stripTags`). A hand-rolled strip would be a
+ * second parser free to drift from the one under test. */
 function tagsOf(source: SourceEntry): string[] {
 	return fieldsOf(source).flatMap((field) =>
-		[...field.matchAll(TAG)].map(([tag]) => tag),
+		tokenize(field)
+			.filter((token) => token.kind === 'tag')
+			.map((token) => token.value),
 	);
 }
 
@@ -117,7 +123,7 @@ function marks(source: SourceEntry): number {
 it('gershayimInBody repairs body text and declares no link work', () => {
 	const before = entry('A00009');
 	const result = gershayimInBody.apply(before);
-	expect(result.records.length).toBe(1);
+	expect(result.records).toHaveLength(1);
 	expect(result.records[0]?.ruleId).toBe('ascii-quote-as-gershayim-in-body');
 	expect(result.records[0]?.rid).toBe('A00009');
 	expect(result.records[0]?.detail).toContain(`אל${GERSHAYIM}ף`);
@@ -145,7 +151,9 @@ it('gershayimRefAttribute leaves every text run byte-identical', () => {
 	const before = entry('A00009');
 	const after = gershayimRefAttribute.apply(before).entry;
 	const stripped = (source: SourceEntry): string[] =>
-		fieldsOf(source).map((field) => field.replaceAll(TAG, ''));
+		fieldsOf(source).map((field) =>
+			serialize(tokenize(field).filter((token) => token.kind === 'text')),
+		);
 	expect(stripped(after)).toEqual(stripped(before));
 });
 
@@ -261,12 +269,14 @@ it('the mapper walks every field the gate walks, and no other', () => {
 		refs: [`r ${token}`],
 		rid: 'Z99999',
 	};
-	expect(fieldsOf(before).filter((field) => field.includes(Q)).length).toBe(18);
+	expect(fieldsOf(before).filter((field) => field.includes(Q))).toHaveLength(
+		18,
+	);
 	const after = gershayimInBody.apply(before).entry;
 	expect(fieldsOf(after).filter((field) => field.includes(Q))).toEqual([]);
 	expect(
-		fieldsOf(after).filter((field) => field.includes(GERSHAYIM)).length,
-	).toBe(18);
+		fieldsOf(after).filter((field) => field.includes(GERSHAYIM)),
+	).toHaveLength(18);
 	expect(after.refs).toEqual([`r ${token}`]);
 });
 

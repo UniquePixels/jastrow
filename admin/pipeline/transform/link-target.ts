@@ -295,9 +295,19 @@ const ANY_GERSHAYIM = /\u05f4/gu;
  * leaves one corpus occurrence unmatched, per batch-3a spec §4.1).
  *
  * The tolerance admits U+0307 alongside the Hebrew points
- * U+0591–U+05C7 — as an ALTERNATION rather than one class, because
- * `noMisleadingCharacterClass` refuses a class mixing a combining
- * character with a range that is not wholly combining. Widened
+ * U+0591–U+05C7, as ONE character class with U+0307 written FIRST.
+ * The position is load-bearing and the two linters are why. Biome's
+ * `noMisleadingCharacterClass` reads a class as a sequence and
+ * objects to a combining character standing AFTER another element,
+ * which the natural `[U+0591-U+05C7, U+0307]` order does — the range
+ * is not wholly combining (U+05BE, U+05C0, U+05C3 and U+05C6 are
+ * punctuation), so the pair reads as base-plus-mark. Leading, the
+ * same set passes. The obvious alternative, an alternation
+ * `(?:[points]|U+0307)*`, satisfies Biome but draws
+ * `typescript:S8786`: a quantified alternation is a backtracking
+ * shape, where a quantified class is one deterministic step. Class
+ * membership is order-independent, so all three forms match exactly
+ * the same strings; only this one satisfies both linters. Widened
  * 2026-08-24, on a measurement rather than on symmetry: 1 of the 2,305 marks the batch writes (M01940's
  * `מ̇ס̇״ך̇`) sets the combining dot between the letter and the
  * mark. That one is in the TEXT locus, where case 5 never runs, so 0
@@ -333,7 +343,7 @@ const ANY_GERSHAYIM = /\u05f4/gu;
  * than quietly narrowed so nobody restores the off-by-one for the
  * U+05F0–U+05F2 ligatures. */
 const FLANKED_GERSHAYIM =
-	/(?<=[\u05d0-\u05ea\u05f0-\u05f2](?:[\u0591-\u05c7]|\u0307)*)\u05f4(?=[\u05d0-\u05ea\u05f0-\u05f2])/gu;
+	/(?<=[\u05d0-\u05ea\u05f0-\u05f2][\u0307\u0591-\u05c7]*)\u05f4(?=[\u05d0-\u05ea\u05f0-\u05f2])/gu;
 
 /** Whether some gershayim in `tag` stands somewhere a gershayim cannot
  * stand — which, in an opening tag, means it is doing a QUOTE's job

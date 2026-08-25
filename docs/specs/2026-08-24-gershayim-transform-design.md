@@ -99,7 +99,7 @@ console.log("text",tO,"/",tE.size,"entries | tag",gO,"/",gE.size,"entries in",ta
 
 Output:
 
-```
+```text
  1852 / 1156 entries   content.senses[].definition
   353 /  256 entries   content.senses[].senses[].definition
    69 /   68 entries   next_hw   OUT OF SCOPE
@@ -272,7 +272,7 @@ An ASCII `"` inside a `"`-delimited attribute value terminates the
 attribute. So a gershayim in a link target does not merely look wrong;
 it makes the tag unparseable:
 
-```
+```text
 A00009  <a dir="rtl" class="refLink" href="/Jastrow,_אל"ף.1" data-ref="Jastrow, אל"ף 1">
 ```
 
@@ -456,7 +456,7 @@ not against the parsed target set, for a reason found while planning
 and recorded here rather than discovered in review: **all 90 damaged
 anchors parse as well-formed with silently truncated targets.**
 
-```
+```text
 malformed=false  dataRef="Jastrow, אל"  href="/Jastrow,_אל"
 ```
 

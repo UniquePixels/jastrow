@@ -297,23 +297,29 @@ function scan(): Promise<void> {
 	return scanned;
 }
 
+/** Explicit rather than `toSorted()`'s implicit UTF-16 order
+ * (`typescript:S2871`), and the SAME comparator on both sides of every
+ * comparison below — two orderings would make an equal pair of sets
+ * read as unequal. */
+const byId = (a: string, b: string): number => a.localeCompare(b);
+
 /** Rules that ever declared `kind` over the whole corpus, sorted. */
 function everDeclared(kind: string): string[] {
 	return [...DECLARED]
 		.filter(([, kinds]) => kinds.has(kind))
 		.map(([id]) => id)
-		.toSorted();
+		.toSorted(byId);
 }
 
 describe('the classification is earned, not declared', () => {
 	it('exactly the UNLINK rules ever remove an anchor', async () => {
 		await scan();
-		expect(everDeclared('unlinks')).toEqual([...UNLINK].toSorted());
+		expect(everDeclared('unlinks')).toEqual([...UNLINK].toSorted(byId));
 	}, 180_000);
 
 	it('exactly the GLYPH rules ever correct a target in place', async () => {
 		await scan();
-		expect(everDeclared('glyphCorrected')).toEqual([...GLYPH].toSorted());
+		expect(everDeclared('glyphCorrected')).toEqual([...GLYPH].toSorted(byId));
 	}, 180_000);
 
 	it('no NEITHER rule removes an anchor or moves a target', async () => {
