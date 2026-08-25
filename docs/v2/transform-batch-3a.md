@@ -922,7 +922,30 @@ population, in either order.
    today is 0 of 180. If a future corpus puts one of those inside a
    tag, the pipeline fails **closed** at the gate rather than
    mis-repairing, and the fix is a measurement plus a test, never an
-   import of `HEBREW_ATOM`.
+   import of `HEBREW_ATOM`. **All three run that one way, and the
+   enumeration is a claim rather than a description.** Final review
+   found a fourth point where the class ran the OTHER way: the flank
+   ranges read `ׯ-ײ`, admitting U+05EF HEBREW YOD
+   TRIANGLE, which `HEBREW` does not hold. The class was narrowed to
+   `װ-ײ` rather than the divergence documented — a
+   gate wider than the rule rubber-stamps a rule that widened its own
+   predicate, which is the one thing this class exists to catch. Cost
+   was zero and stays zero: U+05EF occurs 0 times in the walked fields,
+   and `bun qa` and `bun body:migrate-dry` report identical counts
+   before and after.
+
+   ```bash
+   bun -e '
+   const {readSourceEntries}=await import("./admin/pipeline/body/source.ts");
+   const {fieldsOf}=await import("./admin/pipeline/transform/no-new-text.ts");
+   let n=0; for await (const e of readSourceEntries()) {
+     for (const f of fieldsOf(e)) { n += [...f.matchAll(/\u05ef/gu)].length; } }
+   console.log({u05efInWalkedFields:n});'
+   ```
+
+   ```
+   { u05efInWalkedFields: 0 }
+   ```
 6. **Case 5 licenses a TAG, not an ADDRESS.** A rule that corrected the
    glyph while also pointing at the wrong entry would be licensed,
    because the case asks only whether the bytes moved. Correct for a

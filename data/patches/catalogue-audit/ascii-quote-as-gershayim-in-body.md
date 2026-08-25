@@ -288,14 +288,25 @@ predicate written as bare `[HEBREW]"[HEBREW]` will skip M01940.
 
 `html.ts` already contemplates that case internally —
 `const HEBREW_ATOM = String.raw`[${HEBREW}]̇*`` at `html.ts:55` —
-but **`HEBREW_ATOM` is module-private and is not exported.** The export
-list at `html.ts:238–247` holds `HEBREW`, `hebrewRuns`, `tokenize`,
+but **`HEBREW_ATOM` was module-private and unexported when this was
+written.** The export list — `html.ts:239–247` in the pre-batch file,
+as was the `:55` above — held `HEBREW`, `hebrewRuns`, `tokenize`,
 `serialize`, `attributeInterior`, `opensScope` and `DIR_RTL`, and no
-atom. A consumer that imports it gets `undefined` and fails at runtime.
-So a rule that wants atom semantics must either add `HEBREW_ATOM` to
-that export list or inline `[${HEBREW}]̇*` for itself — the point
-stands that the predicate should be built on the atom rather than the
-bare class, but it is not available for import as things stand.
+atom. A consumer that imported it got `undefined` and failed at
+runtime. So a rule that wants atom semantics must either add
+`HEBREW_ATOM` to that export list or inline `[${HEBREW}]̇*` for
+itself — the point stands that the predicate should be built on the
+atom rather than the bare class.
+
+> **Discharged by batch 3a (2026-08-24).** The first arm was taken:
+> `HEBREW_ATOM` is now **exported**, at `html.ts:252`, and is defined at
+> `html.ts:64` — the export block runs `html.ts:248–257` and holds
+> `attributeInterior`, `DIR_RTL`, `HEBREW`, `HEBREW_ATOM`, `hebrewRuns`,
+> `opensScope`, `serialize`, `tokenize`. `transform/gershayim.ts` builds
+> its predicate on the imported atom rather than restating it, so the
+> paragraph above is a record of the pre-batch state, not of this tree.
+> Reproduce: `grep -n 'HEBREW_ATOM' admin/pipeline/transform/html.ts
+> admin/pipeline/transform/gershayim.ts`.
 
 ### The falsified hypothesis stays falsified
 

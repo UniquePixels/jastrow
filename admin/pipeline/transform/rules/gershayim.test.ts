@@ -380,7 +380,7 @@ function targetHeadword(dataRef: string): string | undefined {
  * appended, so the target is read GREEDILY — everything between
  * `Jastrow, ` and the final space-delimited number. That is
  * load-bearing: 2,871 headwords END in a roman numeral (`אָמוֹן I`) and
- * 805 in a superscript, both part of the headword itself. The lazy
+ * 807 in a superscript, both part of the headword itself. The lazy
  * `\s(?:[IVXL]+\s)?\d+` reading of spec §3's probe strips the numeral
  * — correct there, because that probe runs on RAW TAG BYTES and never
  * sees a parsed value, and wrong here: it resolves 65,817 addresses

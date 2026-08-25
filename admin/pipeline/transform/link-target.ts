@@ -223,6 +223,15 @@
  *   cap and licensed. The same shape as "delete-one, create-one"
  *   above, and the same root: this gate counts, and does not track
  *   identity.
+ * - **A Hebrew-flanked DELIMITER, in case 5.** Condition 4 rejects a
+ *   claim that converted an attribute's delimiters rather than the
+ *   quote stranded inside it, because a delimiter abuts `=`,
+ *   whitespace or `>`. A CLOSING delimiter followed directly by an
+ *   attribute whose name begins with a Hebrew letter would be flanked
+ *   on both sides and would pass. That is measured 0 in this corpus —
+ *   four attribute names in use, none Hebrew-initial — so condition 4
+ *   is closed by the INPUT rather than by the shape of HTML, and a
+ *   re-fetch that introduced such an attribute would reopen it.
  * - **Unused claims.** A `composed`, `recombined` or `glyphCorrected`
  *   entry matching no anchor grants nothing, but is not itself
  *   reported, so a stale declaration left in a rule will not be
@@ -305,9 +314,22 @@ const ANY_GERSHAYIM = /\u05f4/gu;
  * any future widening of the tokenizer's Hebrew class. The three
  * remaining divergences are deliberate and stay — the rule admits
  * presentation forms (U+FB1D–U+FB4F), `׳`/`״` themselves and bare
- * points as FLANKS; this gate admits none of them. */
+ * points as FLANKS; this gate admits none of them.
+ *
+ * All three run ONE WAY — narrower than the rule, never wider. That
+ * direction is the whole point: a gate wider than the predicate it
+ * checks rubber-stamps a rule that widened its own. The letter ranges
+ * below are therefore held inside `HEBREW`'s own — U+05D0–U+05EA
+ * and U+05F0–U+05F2. Corrected 2026-08-24, having read
+ * U+05EF–U+05F2 and so admitted U+05EF HEBREW YOD TRIANGLE — which
+ * `HEBREW` does NOT hold — as a flank the rule can never produce.
+ * Cost of the error was zero (U+05EF occurs 0 times in the walked
+ * fields of the pinned corpus, and every corpus count is unmoved by
+ * the correction), and the correction is fail-closed. Recorded rather
+ * than quietly narrowed so nobody restores the off-by-one for the
+ * U+05F0–U+05F2 ligatures. */
 const FLANKED_GERSHAYIM =
-	/(?<=[\u05d0-\u05ea\u05ef-\u05f2](?:[\u0591-\u05c7]|\u0307)*)\u05f4(?=[\u05d0-\u05ea\u05ef-\u05f2])/gu;
+	/(?<=[\u05d0-\u05ea\u05f0-\u05f2](?:[\u0591-\u05c7]|\u0307)*)\u05f4(?=[\u05d0-\u05ea\u05f0-\u05f2])/gu;
 
 /** Whether some gershayim in `tag` stands somewhere a gershayim cannot
  * stand — which, in an opening tag, means it is doing a QUOTE's job
@@ -638,8 +660,20 @@ function rejoinFaults(
  *    codepoints everywhere else. A corollary worth stating so nobody
  *    later "fixes" it: a `from` that itself contains a gershayim can
  *    never satisfy this, because the mapping leaves none behind. That
- *    is correct. The input corpus contains no U+05F4 at all, so a
- *    `from` carrying one did not come from the input.
+ *    is correct, and it is correct BY CONSTRUCTION rather than by a
+ *    corpus fact. "The input holds no U+05F4" is true of the snapshot
+ *    and FALSE UNDER COMPOSITION — `run.ts` hands each rule the
+ *    previous rule's output, so `gershayimInBody` puts 2,125 marks
+ *    into the document text before `gershayimRefAttribute` ever runs
+ *    (asserted at `rules/gershayim.test.ts:333`; see that rule's
+ *    module doc and batch report §9.4). What holds instead is about
+ *    the substitution: `from` is an OPENING TAG, the only writer of
+ *    U+05F4 in the registry is `gershayim.ts`, and its `repairText`
+ *    leaves every `<…>` run byte-identical while its `repairTags`
+ *    writes into `target`, never into a later rule's `from`. So no
+ *    tag in any rule's input carries a gershayim however many the
+ *    text around it now does — and were some future rule to write
+ *    one, this stays fail-closed: the claim is refused, not licensed.
  * 2. `from` must be a tag the input actually held.
  * 3. The claim must not license MORE output anchors than the input had
  *    anchors carrying `from` (spec §4.3 says "THAT anchor's opening
@@ -652,13 +686,19 @@ function rejoinFaults(
  *    quotes DELIMITING an attribute rather than the one stranded
  *    inside it: `href=״/Jastrow,_אל"ף.1״` de-maps to the input tag
  *    byte for byte, so it would be licensed, and it leaves an anchor
- *    whose `href` parses to nothing at all. An attribute delimiter
- *    always abuts `=` on its left or whitespace / `>` on its right, so
- *    it is never Hebrew-flanked and this closes the whole family —
- *    including the subtler form where one attribute's delimiters are
- *    converted and its value swallows the next attribute, which a test
- *    phrased on "is the gershayim inside a parsed value" would pass.
- *    A stray gershayim can only ever be doing a quote's job.
+ *    whose `href` parses to nothing at all. An OPENING delimiter abuts
+ *    `=` on its left and so can never be Hebrew-flanked; a CLOSING one
+ *    normally abuts whitespace or `>` on its right, which is why this
+ *    catches the family in practice — including the subtler form where
+ *    one attribute's delimiters are converted and its value swallows
+ *    the next attribute, which a test phrased on "is the gershayim
+ *    inside a parsed value" would pass. That second half is a fact
+ *    about THIS CORPUS, not about HTML: a closing delimiter followed
+ *    immediately by an attribute whose NAME begins with a Hebrew
+ *    letter would be Hebrew on both sides. Measured 0 — the corpus
+ *    uses four attribute names (`class`, `data-ref`, `dir`, `href`),
+ *    none Hebrew-initial, and all 180 Hebrew-flanked in-tag quotes are
+ *    the known strays. See the blind-spot list above.
  */
 function glyphFault(
 	value: string,

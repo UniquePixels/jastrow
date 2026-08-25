@@ -71,9 +71,15 @@ interface TransformResult {
 	 *
 	 * - A `from` that itself contains a `״` can never be accepted,
 	 *   because the mapping leaves no gershayim behind for it to match.
-	 *   That is correct rather than an oversight — the input corpus
-	 *   contains no U+05F4 at all, so a `from` carrying one did not
-	 *   come from the input.
+	 *   That is correct rather than an oversight, and by construction
+	 *   rather than by a corpus fact: "the input holds no U+05F4" is
+	 *   true of the snapshot and false under composition, since
+	 *   `run.ts` feeds each rule the previous rule's output (batch
+	 *   report §9.4). `from` is an OPENING TAG, and the registry's only
+	 *   writer of `״` is `gershayim.ts`, whose `repairText` leaves
+	 *   every `<…>` run byte-identical and whose `repairTags` writes
+	 *   into `target`. No tag in a rule's input can carry one; if one
+	 *   ever did, the claim would be refused rather than licensed.
 	 * - A claim may license no MORE anchors than the input held anchors
 	 *   carrying its `from`. Tag values repeat (two corpus entries
 	 *   repeat a damaged tag verbatim), and without the cap one honest

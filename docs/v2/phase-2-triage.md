@@ -393,3 +393,29 @@ after launch unless something else forces the issue.
    the wrong way.
 4. **Round 5** would clear the saturation gate only if it adds nothing.
    Rounds 3 and 4 both found re-measurement worth more than discovery.
+5. **The repair/transform overlap sweep** — recipe, runnable probe and
+   pinned output in `docs/v2/transform-batch-3a.md` §9.2, parked for
+   **CP-2**. Run each rule on the pristine entry and on
+   `applyRepairs(entry).entry`, and assert that the set of rules whose
+   record count differs equals a checked-in allowlist (today one row:
+   `bare-rtl-hebrew` on N00327). Two caveats travel with it. It is a
+   **detector, not a declaration** — nothing in the repo yet says that a
+   repair and a transform own the same defect, and a repair and a rule
+   that quietly agree on the same bytes without moving a record count
+   still slip past it. And it covers only what the registry holds when
+   it runs — **15 of the 78 catalogued transform rows** today, 63
+   pending:
+
+   ```bash
+   bun transform:count | grep 'rule(s)'
+   bun -e '
+   const {parsePatterns}=await import("./admin/pipeline/research/patterns.ts");
+   const {coverage}=await import("./admin/pipeline/transform/registry.ts");
+   const r=coverage(parsePatterns(await Bun.file("data/patches/patterns.jsonl").text()));
+   console.log({total:r.total, registered:r.registered, pending:r.pending});'
+   ```
+
+   ```
+   15 rule(s), 2 mismatch(es).
+   { total: 78, registered: 15, pending: 63 }
+   ```
