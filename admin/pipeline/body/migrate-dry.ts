@@ -108,8 +108,18 @@ function startsAtTwo(entry: SourceEntry): boolean {
 }
 
 /** The repaired orphan refs items must now have an in-body citation
- * basis: some detected anchor's data-ref, with `&quot;` read back as the
- * gershayim it encodes, equals the item. Returns unmatched items. */
+ * basis: some detected anchor's data-ref equals the item. Returns
+ * unmatched items.
+ *
+ * This used to read `&quot;` back as the character it encodes, because
+ * `repairs.ts`'s class-1 escape wrote the entity into 21 entries'
+ * href/data-ref values. That escape is retired (see the 02 block in
+ * `repairs.ts`): the gershayim transforms now correct the character
+ * itself, no pass writes an entity, and the input corpus holds zero
+ * `&quot;` of its own — so the decode had nothing left to decode and
+ * was removed rather than left as a mechanism nothing reaches. The
+ * items in `REPAIRED_ORPHAN_ITEMS` are spelled with the gershayim to
+ * match what the transform writes. */
 function unresolvedOrphans(entry: SourceEntry): string[] {
 	const expected = REPAIRED_ORPHAN_ITEMS[entry.rid];
 	if (expected === undefined) {
@@ -118,7 +128,7 @@ function unresolvedOrphans(entry: SourceEntry): string[] {
 	const seen = new Set<string>();
 	for (const sense of walkSensesDeep(entry.content.senses)) {
 		for (const hit of findCitations(sense.definition ?? '')) {
-			seen.add(hit.dataRef.split('&quot;').join('"'));
+			seen.add(hit.dataRef);
 		}
 	}
 	return expected.filter((item) => !seen.has(item));
