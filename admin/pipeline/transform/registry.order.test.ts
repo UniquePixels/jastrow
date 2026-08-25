@@ -232,6 +232,14 @@ describe('registry order', () => {
  * ever declares to the gates and whether any `NEITHER` rule ever moves
  * an anchor's target.
  *
+ * Behind a lazily-awaited cached promise, on `body/pipeline-links.
+ * test.ts`'s shape, rather than at module scope. Module evaluation is
+ * covered by NO test timeout, so a slow corpus there fails the suite
+ * with nothing naming the cause; and the cost — 32,512 entries times
+ * every rule — is paid on every import of this file, including a
+ * filtered run of the cheap registry-order tests above, which need
+ * none of it.
+ *
  * WHAT THIS CAN AND CANNOT EARN, measured rather than assumed.
  * Declarations earn `UNLINK` and `GLYPH` in both directions, because
  * a rule that removes an anchor MUST declare `unlinks` and a rule that
@@ -258,27 +266,35 @@ function targetsOf(entry: SourceEntry): string {
 	);
 }
 
-for await (const source of readSourceEntries()) {
-	const before = targetsOf(source);
-	for (const rule of RULES) {
-		const out = rule.apply(source);
-		const kinds = DECLARED.get(rule.id) as Set<string>;
-		if ((out.unlinks ?? 0) > 0) {
-			kinds.add('unlinks');
+let scanned: Promise<void> | null = null;
+
+/** The corpus pass itself, run once however many tests await it. */
+function scan(): Promise<void> {
+	scanned ??= (async (): Promise<void> => {
+		for await (const source of readSourceEntries()) {
+			const before = targetsOf(source);
+			for (const rule of RULES) {
+				const out = rule.apply(source);
+				const kinds = DECLARED.get(rule.id) as Set<string>;
+				if ((out.unlinks ?? 0) > 0) {
+					kinds.add('unlinks');
+				}
+				if ((out.composed ?? []).length > 0) {
+					kinds.add('composed');
+				}
+				if ((out.recombined ?? []).length > 0) {
+					kinds.add('recombined');
+				}
+				if ((out.glyphCorrected ?? []).length > 0) {
+					kinds.add('glyphCorrected');
+				}
+				if (NEITHER.has(rule.id) && targetsOf(out.entry) !== before) {
+					MOVED_A_TARGET.add(rule.id);
+				}
+			}
 		}
-		if ((out.composed ?? []).length > 0) {
-			kinds.add('composed');
-		}
-		if ((out.recombined ?? []).length > 0) {
-			kinds.add('recombined');
-		}
-		if ((out.glyphCorrected ?? []).length > 0) {
-			kinds.add('glyphCorrected');
-		}
-		if (NEITHER.has(rule.id) && targetsOf(out.entry) !== before) {
-			MOVED_A_TARGET.add(rule.id);
-		}
-	}
+	})();
+	return scanned;
 }
 
 /** Rules that ever declared `kind` over the whole corpus, sorted. */
@@ -290,18 +306,21 @@ function everDeclared(kind: string): string[] {
 }
 
 describe('the classification is earned, not declared', () => {
-	it('exactly the UNLINK rules ever remove an anchor', () => {
+	it('exactly the UNLINK rules ever remove an anchor', async () => {
+		await scan();
 		expect(everDeclared('unlinks')).toEqual([...UNLINK].toSorted());
-	});
+	}, 180_000);
 
-	it('exactly the GLYPH rules ever correct a target in place', () => {
+	it('exactly the GLYPH rules ever correct a target in place', async () => {
+		await scan();
 		expect(everDeclared('glyphCorrected')).toEqual([...GLYPH].toSorted());
-	});
+	}, 180_000);
 
-	it('no NEITHER rule removes an anchor or moves a target', () => {
+	it('no NEITHER rule removes an anchor or moves a target', async () => {
+		await scan();
 		expect([...MOVED_A_TARGET]).toEqual([]);
 		expect(
 			[...NEITHER].filter((id) => (DECLARED.get(id)?.size ?? 0) > 0),
 		).toEqual([]);
-	});
+	}, 180_000);
 });

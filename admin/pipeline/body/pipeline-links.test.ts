@@ -140,9 +140,15 @@ describe('the pipeline preserves and repairs link targets', () => {
 	}, 180_000);
 
 	it('leaves no escaped quote in the corpus, and one spelling per address', async () => {
-		const { after } = await state();
+		const { after, source } = await state();
 		let entities = 0;
 		let marks = 0;
+		let sourceMarks = 0;
+		for (const entry of source) {
+			for (const field of fieldsOf(entry)) {
+				sourceMarks += field.split(GERSHAYIM).length - 1;
+			}
+		}
 		for (const entry of after) {
 			for (const field of fieldsOf(entry)) {
 				entities += field.split('&quot;').length - 1;
@@ -157,6 +163,13 @@ describe('the pipeline preserves and repairs link targets', () => {
 			entities: 0,
 			entries: 32_512,
 		});
+		// `marks` counts EVERY gershayim in the output, so pinning it to
+		// the batch's 2,305 writes is only a statement about this batch
+		// while the source contributes none of its own. That assumption
+		// is asserted rather than left in a comment: a re-fetch carrying
+		// a real gershayim would otherwise fail the line below with no
+		// hint that the corpus, not the transform, had moved.
+		expect(sourceMarks).toBe(0);
 		expect(marks).toBe(2305);
 	}, 180_000);
 
