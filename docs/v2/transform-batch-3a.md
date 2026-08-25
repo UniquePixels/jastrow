@@ -17,11 +17,14 @@ The registry now holds fifteen rules. `coverage()` accounts for all 78
 catalogued transform rows: 15 registered, 63 pending, 0 unaccounted, 0
 duplicated.
 
-**Read §7 before quoting the headline number.** Every census figure in
-§2 is measured on **pristine source**; the shipped pipeline runs
-transforms on the entry *after* `applyRepairs`, and a pre-existing
-rid-keyed repair collides with the attribute row there. §7 is the
-batch's one unresolved finding and it needs a maintainer ruling.
+**§7 is the part to read.** Closing the batch turned up a pre-existing
+repair fixing 22 of the same 90 anchors a different way, which cost 22
+cross-links through the real pipeline while every per-rule measurement
+stayed green. It was escalated rather than patched, ruled on, and
+retired. **Through the pipeline — `applyRepairs` then the whole
+registry — the batch now gains exactly 90 resolving link targets and
+loses 0**, and that is asserted as a test rather than reported as a
+number.
 
 ---
 
@@ -184,8 +187,11 @@ repaired. It also means the input target set holds the truncated
 correct output — which differs from that value by truncation as well as
 by substitution.
 
-**These figures are measured on pristine source. See §7 for what the
-shipped pipeline does instead.**
+These figures are measured on **pristine source**, which is the right
+way to measure a rule and the wrong way to describe a pipeline. §7 is
+what happened when the two were finally compared, and
+`admin/pipeline/body/pipeline-links.test.ts` is the pipeline-level
+version that now runs beside this one.
 
 ## 3. What it declined — residue, not coverage
 
@@ -279,11 +285,10 @@ mean this batch moved something it should not have.
 ## 5. `bun body:migrate-dry`
 
 ```
-entries=32512 repaired=832
+entries=32512 repaired=812
 binyan-cleanup: 938 record(s) across 751 entries
 marker-reinsert: 14 record(s) across 14 entries
 rejoin-chopped: 36 record(s) across 36 entries
-cite-escape: 21 record(s) across 21 entries
 implied-one: 4 record(s) across 4 entries
 label-repair: 6 record(s) across 6 entries
 refs-removal: 3 record(s) across 3 entries
@@ -316,16 +321,21 @@ transform ib-yoma-2a: 189 instance(s)
 transform sifre-ib-resolves-to-yalkut: 1 instance(s)
 transform ib-targum-work-loss: 8 instance(s)
 transform ascii-quote-as-gershayim-in-body: 1386 instance(s)
-transform gershayim-breaks-ref-attribute: 65 instance(s)
+transform gershayim-breaks-ref-attribute: 85 instance(s)
 ```
 
 **32,512/32,512 on all four round-trip gates; 0 schema failures, 0
 quarantines, 0 repair failures, 0 transform failures, 0 unresolved
 repaired orphans.** Every batch-2 instance count is unchanged.
 
-**One line disagrees with §1 and it is not cosmetic:**
-`gershayim-breaks-ref-attribute` reads **65** here against the 85 the
-rule fires on in isolation. That is §7.
+`gershayim-breaks-ref-attribute` reads **85** here, matching the count
+the rule fires on in isolation. It read **65** before §7's retirement,
+and `repaired` was 832 rather than 812 — the 20 entries whose only
+repair record was the now-retired escape (the 21st, `C00473`, still has
+a `binyan-cleanup` record and stays in the count).
+
+`brokenTopSequences=34` and `startsAtTwo=8` are pre-existing
+observations belonging to other rows, not gate failures.
 
 ## 6. Catalogue write-backs
 
@@ -373,130 +383,174 @@ which is why that walk also reported 81 entries rather than 85. The
 unit is now stated on the row: **90 anchors / 180 occurrences / 85
 entries.**
 
-## 7. The collision, found at batch close and NOT resolved
+## 7. The collision: the same defect was already being repaired, differently
 
-**`repairs.ts` already repairs 22 of the 90 damaged anchors, by a
-different mechanism, and the two mechanisms disagree about what the
-repaired byte should be.**
+**Found at batch close, escalated rather than patched, ruled on, and
+fixed.** This is the batch's most useful result and it is a process
+finding as much as a data one.
+
+### What was wrong
 
 `migrate-dry` runs `applyRepairs` first and transforms on the **healed**
-entry (transform spec §2, "Placement"). Among those repairs is
-`cite-escape` — a pre-existing, rid-keyed pass under "02 — orphan refs,
-class 1" (`repairs.ts`, `CITE_ESCAPES`, 21 entries) whose docstring
-reads: *"Escape the gershayim `"` inside the malformed anchor's
-href/data-ref attribute values as `&quot;` so both attributes parse to
-the full ref."* It is the same defect, found earlier, fixed by
-escaping rather than by correcting.
+entry (transform spec §2, "Placement"). Among those repairs was
+`cite-escape` — a rid-keyed pass under "02 — orphan refs, class 1"
+(`repairs.ts`, `CITE_ESCAPES`, 21 entries) whose docstring read:
+*"Escape the gershayim `"` inside the malformed anchor's href/data-ref
+attribute values as `&quot;` so both attributes parse to the full ref."*
+The same 90-anchor population, found a year earlier in the body-model
+work, repaired by **escaping** rather than by **correcting**.
 
-By the time `gershayim-breaks-ref-attribute` runs, those anchors carry
-no ASCII quote at all — they carry `&quot;` — so the predicate does not
-see them.
+By the time `gershayim-breaks-ref-attribute` ran, those anchors carried
+no ASCII quote at all, so the predicate did not see them. Measured
+against the pre-retirement code:
+
+| | |
+|---|---:|
+| entries carrying a class-1 escape | 21 |
+| damaged tags inside those 21 entries | 23 |
+| damaged tags the escape neutralised | **22** |
+| `&quot;` entities it wrote (2 attributes × 22 tags) | 44 |
+| damaged anchors surviving to the transform | 90 → **68** |
+| entries the attribute rule fired on | 85 → **65** |
+
+That last line is the whole of the `65 instance(s)` that `migrate-dry`
+reported and the isolated measurement did not.
+
+**Those six figures are the one thing in this report that cannot be
+reproduced against the current tree**, because the code that produced
+them is gone. They reproduce against this commit's parent — copy
+`repairs.ts` out of it and point the probe at the copy:
 
 ```bash
+git show HEAD~1:admin/pipeline/body/repairs.ts > /tmp/repairs-old.ts
+cp /tmp/repairs-old.ts admin/pipeline/body/repairs-old-probe.ts
 bun -e '
+const {applyRepairs}=await import("./admin/pipeline/body/repairs-old-probe.ts");
 const {readSourceEntries}=await import("./admin/pipeline/body/source.ts");
-const {applyRepairs}=await import("./admin/pipeline/body/repairs.ts");
 const {fieldsOf}=await import("./admin/pipeline/transform/no-new-text.ts");
 const {tokenize}=await import("./admin/pipeline/transform/html.ts");
 const {anchors}=await import("./admin/pipeline/transform/links.ts");
 const {repairTags}=await import("./admin/pipeline/transform/gershayim.ts");
-const dmg=(x)=>fieldsOf(x).flatMap(f=>anchors(tokenize(f)).map(a=>a.tag)).filter(t=>repairTags(t)!==t);
-let p=0,h=0,pe=0,he=0;
-for await (const e of readSourceEntries()){ const a=dmg(e).length, b=dmg(applyRepairs(e).entry).length;
-  p+=a; h+=b; if(a>0)pe++; if(b>0)he++; }
-console.log("damaged anchors: pristine",p,"| after applyRepairs",h,"|| entries:",pe,"->",he);'
+let entities=0, tagged=0, escaped=0, before=0, after=0;
+for await (const e of readSourceEntries()){ const r=applyRepairs(e);
+  if(r.records.some(x=>x.pass==="cite-escape"))escaped++;
+  for(const f of fieldsOf(e)) before+=anchors(tokenize(f)).filter(a=>repairTags(a.tag)!==a.tag).length;
+  for(const f of fieldsOf(r.entry)){ entities+=f.split("&quot;").length-1;
+    after+=anchors(tokenize(f)).filter(a=>repairTags(a.tag)!==a.tag).length;
+    tagged+=anchors(tokenize(f)).filter(a=>a.tag.includes("&quot;")).length; } }
+console.log({escapedEntries:escaped, entitiesWritten:entities, tagsCarryingAnEntity:tagged,
+  damagedBefore:before, damagedAfterRepairs:after});'
+rm admin/pipeline/body/repairs-old-probe.ts
 ```
 
 ```
-damaged anchors: pristine 90 | after applyRepairs 68 || entries: 85 -> 65
+{ escapedEntries: 21, entitiesWritten: 44, tagsCarryingAnEntity: 22,
+  damagedBefore: 90, damagedAfterRepairs: 68 }
 ```
 
-**22 anchors across 21 entries** are neutralised (one entry, `C01224`,
-keeps a second damaged anchor, which is why the rule's entry count
-falls to 65 rather than 64). That is the whole of the `65 instance(s)`
-line in §5.
-
-### The part that matters
-
-`&quot;` is not a gershayim; it is an escaped ASCII quote, and the
-pipeline itself says so — `migrate-dry.ts:121` reads `data-ref` values
-back with `.split('&quot;').join('"')` when checking that the repaired
-orphan refs still have an in-body citation basis. Under the pipeline's
-own reading, those 22 targets still decode to a **quote**, while
-`ascii-quote-as-gershayim-in-body` has corrected their target
-headwords to a **gershayim**. Measured through the real pipeline
-(`applyRepairs` then the full registry), with and without the two new
-rules, decoding `&quot;` as the pipeline does:
+The "23 damaged tags inside the 21 entries" row does reproduce today,
+and it is what reconciles 22 with 23 — `C01224` holds a second damaged
+anchor that the rid-keyed escape never targeted:
 
 ```bash
 bun -e '
 const {readSourceEntries}=await import("./admin/pipeline/body/source.ts");
-const {applyRepairs}=await import("./admin/pipeline/body/repairs.ts");
-const {applyTransforms}=await import("./admin/pipeline/transform/run.ts");
-const {RULES}=await import("./admin/pipeline/transform/registry.ts");
+const {REPAIRED_ORPHAN_ITEMS}=await import("./admin/pipeline/body/repairs.ts");
 const {fieldsOf}=await import("./admin/pipeline/transform/no-new-text.ts");
 const {tokenize}=await import("./admin/pipeline/transform/html.ts");
 const {anchors}=await import("./admin/pipeline/transform/links.ts");
-const NEW=new Set(["ascii-quote-as-gershayim-in-body","gershayim-breaks-ref-attribute"]);
-const OLD=RULES.filter(r=>!NEW.has(r.id));
-const REF=/^Jastrow, (.+) (\d+)$/u;
-const es=[]; for await (const e of readSourceEntries()) es.push(e);
-const run=(rules)=>es.map(e=>applyTransforms(applyRepairs(e).entry,"text-repairs",rules).entry);
-const score=(corp)=>{const hw=new Set(corp.map(e=>e.headword)); const keys=new Set(); let i=0;
-  for(const e of corp) for(const f of fieldsOf(e)) for(const a of anchors(tokenize(f))){
-    const v=a.dataRef.split("&quot;").join(String.fromCharCode(34));
-    if(!v.startsWith("Jastrow, "))continue; const k=e.rid+"|"+(i++);
-    const m=REF.exec(v); if(m&&hw.has(m[1]))keys.add(k); }
-  return keys;};
-const b=score(run(OLD)), a=score(run(RULES));
-console.log("before",b.size,"| after",a.size,
-  "| gained",[...a].filter(k=>!b.has(k)).length,"| LOST",[...b].filter(k=>!a.has(k)).length);'
+const {repairTags}=await import("./admin/pipeline/transform/gershayim.ts");
+const RIDS=new Set(Object.keys(REPAIRED_ORPHAN_ITEMS).filter(r=>!["P00331","P01404","S01230"].includes(r)));
+let n=0; for await (const e of readSourceEntries()){ if(!RIDS.has(e.rid))continue;
+  for(const f of fieldsOf(e)) n+=anchors(tokenize(f)).filter(a=>repairTags(a.tag)!==a.tag).length; }
+console.log("former class-1 rids:",RIDS.size,"| damaged tags inside them:",n);'
 ```
 
 ```
-before 72525 | after 72571 | gained 68 | LOST 22
+former class-1 rids: 21 | damaged tags inside them: 23
 ```
 
-**Through the shipped pipeline the batch gains 68 cross-links and loses
-22, not "gains 90 and loses 0".** The 22 resolved before this batch —
-`cite-escape` had made them whole — and do not resolve after it,
-because their headword moved and their target did not. This is exactly
-the failure the audit warned about, reached by a path nobody looked at:
-the repairs layer.
+**And it was not merely reduced coverage.** `&quot;` encodes an ASCII
+quote — the pipeline said so itself, in `migrate-dry.ts`'s orphan
+recount, which read values back with `.split('&quot;').join('"')`. So
+those 22 targets still meant a quote while
+`ascii-quote-as-gershayim-in-body` had corrected their target headwords
+to a gershayim: **one address, two spellings.** Measured through the
+real pipeline with and without the pair, the batch as first written
+gained 68 cross-links and **lost 22**.
 
-Read without decoding the entity, the same census reports
-`gained 68 | lost 0`, because the raw `Jastrow, א&quot;ט 1` matched no
-headword under either reading. Which of the two is the truth depends on
-whether the still-unwritten `compile` decodes the entity. The pipeline's
-one existing statement on the question decodes it.
+### The ruling
 
-### Why the census could not see this
+**Maintainer ruling, 2026-08-24 (Brian): retire the class-1 escape; the
+transform owns the gershayim defect, and all 90 damaged anchors are
+corrected to `״`.**
 
-`rules/gershayim.test.ts`'s census applies the rules to **pristine
-source**, which is right for measuring a rule and wrong for describing
-a pipeline. Both figures are true of what they measure. The gap between
-them is the finding.
+The rationale, recorded because it generalises: it is the only option
+that leaves **one spelling of the address in the corpus**, and it
+follows two standing rulings — that the pipeline must **correct** data
+rather than preserve it, and that an OCR glyph fix is a correction
+rather than an invention. The escape was a workaround for a parser
+limitation; [#47](https://github.com/UniquePixels/jastrow/pull/47) and
+this batch remove the limitation, so the workaround now costs more than
+it buys.
 
-### What is NOT being done here, and why
+**Superseded, not withdrawn.** The 21 repairs were correct for their
+time. Nothing about them was wrong; a better mechanism arrived.
 
-Three fixes are available and all three are maintainer decisions, not
-batch-close decisions:
+### What changed
 
-1. **Retire `cite-escape` class 1** and let the general rule own all
-   90. But `unresolvedRepairedOrphans` is gated on
-   `REPAIRED_ORPHAN_ITEMS`, whose literal items carry the ASCII quote,
-   so retiring the pass without rewriting that table fails the gate.
-2. **Widen the rule's predicate to `&quot;` between Hebrew letters.**
-   Same gate problem, from the other side: the repaired items would
-   then read `Jastrow, א״ט 1` and stop matching the table.
-3. **Decide that `&quot;` is the intended encoding** and correct the
-   *headwords* to match — which contradicts the whole batch.
+| File | Change |
+|---|---|
+| `repairs.ts` | `CITE_ESCAPES`, `escapeCiteAttributes`, its `ORPHAN_REF_ITEM` regex and the `'cite-escape'` pass name all removed — the code path went dead with the table, so it went with it rather than staying as a mechanism nothing reaches. The 02 comment block now records the supersession and why. |
+| `repairs.ts` | `REPAIRED_ORPHAN_ITEMS` rewritten: the 21 rids stay, respelled with the gershayim, because **the escape retired and the obligation did not**. If the transform ever stops reaching one of those anchors the recount says so instead of the item quietly going orphan again. |
+| `migrate-dry.ts` | the `&quot;` read-back removed. The corpus holds **zero** `&quot;` of its own and no pass writes one now, so the decode had nothing left to decode. The docstring records that it existed and why it went. |
+| `repairs.test.ts` | the escape's test is **inverted, not deleted** — `applyRepairs` must now leave A01069's anchor byte-identical, carry no `&quot;`, and leave the target truncated for the transform to fix. A re-introduced escape fails it. |
+| `docs/v2/body-migration.md` | the permanent record of those 21 repairs now carries the retirement, the rationale, and the fact that nothing was dropped. |
 
-Either of the first two also raises the question of whether a rid-keyed
-repair should survive at all once a general rule covers its population.
-That is the same "which mechanism owns this defect" question the
-catalogue exists to answer, and it is recorded on both rows'
-`reason` and here rather than settled by whoever closed the batch.
+### The result, measured through the pipeline
+
+```bash
+bun test admin/pipeline/body/pipeline-links.test.ts
+```
+
+```
+3 pass
+0 fail
+Ran 3 tests across 1 file. [44.89s]
+```
+
+The first of the three asserts, over `applyRepairs` + the whole
+registry on all 32,512 entries, with the pair withheld and then
+applied:
+
+```
+{ entries: 32512, gained: 90, lost: [], lostCount: 0 }
+```
+
+**Gained exactly 90, lost 0 — through the pipeline, not on pristine
+source.** The other two assert that the corpus ends with **0** escaped
+quotes and 2,305 gershayim, and that every item in
+`REPAIRED_ORPHAN_ITEMS` — the 21 retired-escape rids included — still
+has an in-body citation basis, which is `migrate-dry`'s
+`unresolvedRepairedOrphans` recount asserted at test time.
+
+`migrate-dry` agrees: `gershayim-breaks-ref-attribute` now reports **85
+instance(s)**, matching the isolated count exactly, and
+`unresolvedRepairedOrphans=0` (§5).
+
+### Why nothing caught it earlier, and what now does
+
+The per-rule census applies rules to pristine source. `migrate-dry`
+counts records and never scores links. **Nothing in the suite ran the
+two layers in sequence and asked whether links still resolved**, so a
+repair and a transform could disagree about the same bytes with every
+test green. The gap — not the incident — is what
+`admin/pipeline/body/pipeline-links.test.ts` closes: any future rule or
+repair that moves a link target, or moves a headword out from under
+one, fails there, whichever layer it lives in.
+
+It costs two full pipeline passes (~45s). That is deliberate. The
+cheaper measurement is the one that missed this.
 
 ## 8. Findings that must outlive the task reports
 
@@ -737,20 +791,27 @@ population, in either order.
 
 ## 9. Concerns
 
-1. **§7 is unresolved and it is the batch's headline caveat.** The
-   pipeline gains 68 and loses 22 where the census says +90 / −0. It
-   needs a maintainer ruling on which mechanism owns the defect. Until
-   then, quoting "+90" without §7 beside it overstates what ships.
-2. **The census measures rules, not the pipeline, and nothing in the
-   suite measures the pipeline.** `migrate-dry` counts records and
-   never scores link resolution, so the collision surfaced only because
-   one instance count was read against the isolated figure. A
-   pipeline-level link census — `applyRepairs` then transforms — would
-   have caught it at Task 4 and would catch the next one. Recommended
-   for CP-2, not opened here.
-3. **`gershayim-breaks-ref-attribute` is `blocking: true` and its
-   pipeline coverage is 65 of 85 entries.** If the cutover gate is read
-   as "this row is fixed", that reading is wrong until §7 is settled.
+1. **The batch was one report line away from shipping a 22-link
+   regression with every test green** (§7). It was caught by reading
+   `migrate-dry`'s instance count against the isolated one, which is
+   not a control — it is a person noticing. The control that now exists
+   is `pipeline-links.test.ts`; the habit that produced it is the one
+   worth keeping, which is treating a number that disagrees with
+   another number as a question rather than as noise.
+2. **A repair and a transform can own the same defect, and nothing
+   declares it.** `patterns.jsonl` routes catalogue rows; `repairs.ts`
+   carries rid-keyed decisions from the body-model work; neither knows
+   about the other. Batch 3a found the overlap by accident. Someone
+   should sweep `repairs.ts`'s remaining rid-keyed tables against the
+   catalogue before the next batch that touches text — `cite-wrap`
+   (3 entries) and `refs-removal` (3) are the ones left in the 02
+   family, and the 01/04/06 families are larger. Recorded for CP-2, not
+   opened here.
+3. **Retiring a repair changes `repaired=` and that is not drift.**
+   `migrate-dry` reports 812 repaired entries where every prior record
+   says 832. The 20-entry difference is exactly the retired escapes
+   (21 entries, less `C00473` which keeps a `binyan-cleanup` record).
+   `docs/v2/body-migration.md` carries the new figure and the reason.
 4. **The `allows: ['״']` blast radius is bounded by the predicate, not
    by the corpus.** The reasoning that "U+05F4 occurs 0 times in the
    input" is false under composition — once `gershayimInBody` has run,
@@ -789,10 +850,12 @@ population, in either order.
 ## Verification, reproducible
 
 ```bash
-bun qa                  # format, lint, test, tsc — exit 0
+bun qa                  # format, lint, test, tsc — exit 0, 724 pass
 bun transform:count     # 15 rules; the two surviving deltas are batch 2's — §4
-bun body:migrate-dry    # §5 — and the 65-instance line that opens §7
-bun test admin/pipeline/transform/rules/gershayim.test.ts     # the census — §2
+bun body:migrate-dry    # §5 — 32,512/32,512 ×4, 0 failures, 0 quarantines
+bun test admin/pipeline/body/pipeline-links.test.ts           # the PIPELINE census — §7
+bun test admin/pipeline/transform/rules/gershayim.test.ts     # the per-rule census — §2
 bun test admin/pipeline/transform/registry.order.test.ts      # cluster derivation — §8.2
 bun test admin/pipeline/transform/link-target.test.ts         # gate case 5
+bun test admin/pipeline/body/repairs.test.ts                  # the inverted escape test — §7
 ```

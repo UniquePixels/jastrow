@@ -20,7 +20,7 @@ instead of silently skipping (B9).
 
 | Measure | Result |
 |---|---|
-| Entries processed / repaired | 32,512 / 832 |
+| Entries processed / repaired | 32,512 / **812** (was 832 — see the class-1 retirement below) |
 | **Rejoin round-trip** (healed corpus) | **32,512 / 32,512** |
 | **Units round-trip** (healed corpus) | **32,512 / 32,512** |
 | **Lettered round-trip** (healed corpus) | **32,512 / 32,512** |
@@ -40,7 +40,7 @@ instead of silently skipping (B9).
 | `marker-reinsert` | 14 | 14 | 01 per-row "source missing" notes |
 | `label-repair` | 6 | 6 | [04](body-review/04-label-quarantines.md) — `-2)` → `—2)` (5), D00341 bracket move |
 | `binyan-cleanup` | 938 | 751 | [06](body-review/06-empty-binyan-forms.md) — 486 empties dropped, 523 forms trimmed |
-| `cite-escape` | 21 | 21 | [02](body-review/02-orphan-refs.md) class 1 — gershayim attribute repair |
+| ~~`cite-escape`~~ | ~~21~~ | ~~21~~ | **RETIRED 2026-08-24 — superseded, not withdrawn.** See below. |
 | `cite-wrap` | 3 | 3 | 02 class 2 — 5 refs items resolved by 3 wraps |
 | `refs-removal` | 3 | 3 | 02 class 3 — "ALL Remove" |
 
@@ -85,10 +85,36 @@ Q02162, S00490, U01556, V00704, V00765.
 - **21 gershayim cross-refs**: the source anchors exist, but the raw
   `"` inside `href="/Jastrow,_א"ט.1"` truncates the attribute at parse
   time, so the ref never resolved (the orphan cause). The repair
-  escapes the gershayim as `&quot;` inside href/data-ref values only —
-  rendered text keeps the raw `"`. Consumers matching data-refs against
-  Sefaria-style refs must HTML-decode the entity (the report's
-  resolution recount does).
+  escaped the gershayim as `&quot;` inside href/data-ref values only —
+  rendered text kept the raw `"` — and consumers had to HTML-decode the
+  entity.
+
+  **This pass is RETIRED as of 2026-08-24 (maintainer ruling), and it
+  was superseded rather than withdrawn.** It was correct for its time:
+  the embedded quote genuinely broke the attribute, and escaping it was
+  the only repair available without touching the parser. Two things
+  then changed. [#47](https://github.com/UniquePixels/jastrow/pull/47)
+  fixed the parser side of the same family, and
+  [transform batch 3a](transform-batch-3a.md) corrects the **character**
+  — the corpus writes `"` where Jastrow's print has `״` (U+05F4) —
+  across all 90 damaged anchors *and* the headwords they point at, in
+  one pass.
+
+  Keeping both would have left the same address with two spellings: the
+  escape writes an ASCII quote in entity form, the transform writes a
+  gershayim, and 22 cross-links stopped matching as a result. Retiring
+  the escape leaves one spelling in the corpus, and it follows the
+  standing rulings that the pipeline **corrects** data rather than
+  preserving it and that an OCR glyph fix is a correction rather than an
+  invention.
+
+  **Nothing was dropped.** All 21 rids remain in
+  `REPAIRED_ORPHAN_ITEMS`, respelled with the gershayim, so the
+  `unresolvedRepairedOrphans` recount still gates every one of them —
+  the escape retired, the obligation did not. The recount stays at
+  **0**, and a new corpus test
+  (`admin/pipeline/body/pipeline-links.test.ts`) asserts the whole
+  pipeline gains exactly 90 resolving link targets and loses none.
 - **5 ibid items / 3 wraps**: bare resolved-but-unlinked texts wrapped
   in standard refLink anchors — P00331's `Ib. 88ᵇ` (as Eruvin 88b:1;
   its 88b:17/88b:22 refs items are the same-page citation, absorbed),
