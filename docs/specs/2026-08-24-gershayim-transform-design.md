@@ -219,6 +219,20 @@ console.log(bad.slice(0,3).join("\n"));'
 (69 occurrences across 68 distinct headword strings — one headword
 carries two.)
 
+**This probe's lazy read is scope-local. Do not reuse it as a general
+resolution rule.** `([\s\S]*?)` stops at the first candidate split,
+which is right here — the 68 quote-bearing headwords include **0**
+ending in a roman numeral or a superscript, so nothing can be
+truncated. Corpus-wide it is a different story: 2,871 headwords end in
+a roman numeral and 807 in a superscript, both part of the headword,
+and the lazy read resolves 65,817 of 73,468 Jastrow addresses against
+a greedy read's 73,353. It does not merely lose 7,536 links — **1,131
+addresses resolve under both reads and to DIFFERENT headwords**, so a
+lazy general rule mis-points them silently. Task 4's census uses the
+greedy read, and measured that it cannot mis-resolve here: of 22,906
+distinct Jastrow addresses, 0 admit more than one valid headword
+split, and 0 headwords end in a digit.
+
 This is the measurement the whole batch rests on, and it converts the
 audit's warning —
 
