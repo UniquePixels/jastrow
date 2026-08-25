@@ -1,7 +1,7 @@
 # Phase 2 worklist — the catalogue, routed
 
 **Status: triaged 2026-08-21; totals recomputed from the catalogue
-2026-08-24 after transform batch 2.** All 132 candidate rows routed.
+2026-08-24 after transform batch 3a.** All 132 candidate rows routed.
 This is the Phase 2 entry point: start here, not in `patterns.jsonl`.
 
 Every count on this page is derived from `patterns.jsonl`, never typed
@@ -54,7 +54,7 @@ someone pins the predicate.
 
 | Route | Rows | Instances | What it needs |
 |---|---:|---:|---|
-| **transform** | **78** | **21,991** | deterministic code + tests |
+| **transform** | **78** | **22,087** | deterministic code + tests |
 | judgment | 49 | 15,754 | per-entry reading (Opus pass or maintainer) |
 | blocked | 5 | 4,947 | pin the predicate first |
 
@@ -75,8 +75,13 @@ transform row failing its own audit, which is the mechanism working:
   `sifre-ib-resolves-to-yalkut` 5 → 6 — and wrote a first `reason` for
   `prefixed-geresh-abbrev-mislink` and `ib-yoma-2a`. See
   [transform-batch-2.md](transform-batch-2.md).
+- Batch 3a moved no row between routes. It corrected one count —
+  `ascii-quote-as-gershayim-in-body` 1,290 → 1,386, the whole of the
+  transform route's +96 — and wrote a first `reason` for
+  `gershayim-breaks-ref-attribute`, whose catalogued 85 reproduced
+  exactly. See [transform-batch-3a.md](transform-batch-3a.md).
 
-**51.5% of the backlog is deterministic code** (21,991 of 42,692
+**51.6% of the backlog is deterministic code** (22,087 of 42,788
 instances), 59% of it by row. That is the most useful number here —
 most of the catalogue does not need judgment at all.
 
@@ -85,7 +90,7 @@ Cutover gate, cross-cut:
 | | Rows | Instances |
 |---|---:|---:|
 | Blocks the v2 cutover | 59 | 16,085 |
-| Launch need not wait | 73 | 26,607 |
+| Launch need not wait | 73 | 26,703 |
 
 ## The transform queue — all 78 rows, largest first
 
@@ -97,7 +102,7 @@ either reproduces the count or does not.
 | Row | Instances | Blocks cutover | Audit |
 |---|---:|---|---|
 | `bare-rtl-hebrew` | 4,189 | **yes** | — |
-| `ascii-quote-as-gershayim-in-body` | 1,290 | no | — |
+| `ascii-quote-as-gershayim-in-body` | 1,386 | no | — |
 | `tanhuma-never-linked` | 1,137 | no | — |
 | `italic-swallowed-terminal-period` | 1,098 | no | — |
 | `label-period-outside-italic` | 945 | no | — |
@@ -134,7 +139,7 @@ either reproduces the count or does not.
 | `anchor-italic-no-space` | 111 | no | ⚠ unaudited |
 | `sense-number-outside-closed-grammar` | 111 | **yes** | — |
 | `italic-close-paren-nospace` | 95 | no | ⚠ unaudited |
-| `gershayim-breaks-ref-attribute` | 85 | **yes** | ⚠ unaudited |
+| `gershayim-breaks-ref-attribute` | 85 | **yes** | — |
 | `duplicated-definition-opening-run` | 85 | **yes** | — |
 | `empty-lead-sense` | 84 | **yes** | — |
 | `ellipsis-fragment-anchored` | 80 | no | — |
@@ -191,16 +196,34 @@ either reproduces the count or does not.
    did exactly that** — ten rows, 1,166 catalogued instances, all
    non-blocking, all link-shaped
    ([transform-batch-2.md](transform-batch-2.md)). There are 38 such
-   rows left (10,298 instances, ten of them already shipped) and they
+   rows left (10,394 instances, twelve of them already shipped) and they
    remain the cheapest real wins in the catalogue — predicate known, no
    cutover pressure, no judgment required.
 3. **Respect `entangledWith`.** Four pairs must be fixed in one edit or
    they rewrite the same records twice. `checkEntanglement()` keeps the
    graph honest; the pairs are derived in the round-4 report. Batch 2
-   shipped one of them, the geresh pair, and
-   `registry.order.test.ts` now asserts cluster contiguity against the
-   live graph rather than against a list.
-4. **10 transform rows are unaudited**, 5 of them blocking. Expect some
+   shipped one of them, the geresh pair; batch 3a shipped the gershayim
+   pair, recording the edge in `patterns.jsonl` *before* registering the
+   rules. `registry.order.test.ts` now asserts cluster contiguity
+   against the live graph rather than against a list.
+
+   **Open, and it is catalogue work rather than transform work:** the
+   adjacency gate reads `entangledWith` and nothing else, so a row
+   carrying no edge is a singleton it cannot judge. **57 of the 63
+   rows in `PENDING` carry no edge at all**, which makes the gate
+   unfalsifiable by construction for most of the queue — a clean run
+   means "no RECORDED entanglement is split", never "no entanglement is
+   split". Reproduce:
+
+   ```bash
+   bun -e 'import {parsePatterns} from "./admin/pipeline/research/patterns.ts";
+   import {PENDING} from "./admin/pipeline/transform/registry.ts";
+   const rows=await parsePatterns(await Bun.file("data/patches/patterns.jsonl").text());
+   const by=new Map(rows.map(r=>[r.id,r]));
+   const noEdge=[...PENDING].filter(id=>(by.get(id)?.entangledWith??[]).length===0);
+   console.log("PENDING:",PENDING.length,"| no edge:",noEdge.length);'
+   ```
+4. **9 transform rows are unaudited**, 4 of them blocking. Expect some
    to reclassify to `judgment` on contact — the routing is a reading of
    each row, not a measurement, and three rows have now done exactly
    that.
