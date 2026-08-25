@@ -15,7 +15,7 @@
  *
  * The contract is one sentence: **a rule may only write a link target
  * it can point at in this entry's own input.** Concretely, every
- * anchor in `after` must satisfy one of the spec's four cases:
+ * anchor in `after` must satisfy one of the spec's five cases:
  *
  * 1. **Unchanged** and 2. **copied** collapse into ONE membership
  *    test here. An unchanged target is trivially present in the
@@ -44,6 +44,36 @@
  *    case 4 reads it off a second input target, which case 3 cannot
  *    name. Cases 1-3 are untouched — nothing was loosened to make
  *    room.
+ * 5. **Glyph-corrected** (batch-3a spec §4.3) — the anchor's whole
+ *    opening TAG, with every gershayim `״` mapped back to an ASCII
+ *    `"`, is byte-identical to a tag the input held, and the rule
+ *    DECLARED that pair through `TransformResult.glyphCorrected`.
+ *
+ *    Alone among the five it is stated on raw tag BYTES rather than
+ *    on parsed targets, and the defect is the reason: an ASCII quote
+ *    inside a `"`-delimited attribute terminates it, so all 90
+ *    damaged anchors parse `malformed: false` with a truncated
+ *    `data-ref` — `Jastrow, אל״ף 1` reads back as `Jastrow, אל`.
+ *    Cases 1-2 compare the repair against that truncation and reject
+ *    it; case 3's remainder must occur in the display, which carries
+ *    the same ASCII quote in the input; case 4 cannot express a
+ *    mid-string substitution at all. Phrasing case 5 on the parsed
+ *    set would reject the correction for the very truncation it
+ *    fixes, so it reads the bytes the parser cannot mangle.
+ *
+ *    Fail-closed, and tighter than any target-set phrasing: every
+ *    character except the substituted quotes is pinned by length,
+ *    order and codepoint, so the case cannot move a link to another
+ *    entry, cannot alter a locus, and cannot recover an address the
+ *    input did not spell out. Two further conditions, both added
+ *    2026-08-24 after review found each of them licensed something the
+ *    spec's wording does not: a claim may license no MORE output
+ *    anchors than the input held anchors carrying its `from` (tag
+ *    values repeat, and §4.3 says "THAT anchor's opening tag"), and
+ *    every gershayim in the written tag must stand between two Hebrew
+ *    letters, which is what stops a claim converting the quotes that
+ *    DELIMIT an attribute instead of the one stranded inside it.
+ *    `glyphFault` carries both arguments. Cases 1-4 are untouched.
  *
  * `href` and `data-ref` are checked INDEPENDENTLY against that one
  * set. A rule that copies both from the same source anchor therefore
@@ -174,9 +204,42 @@
  *   data-refs that share one href are rejected on that attribute,
  *   since the pair collapses to a single source. The second is a
  *   fail-closed narrowing, not a hole, and no corpus rule has met it.
- * - **Unused claims.** A `composed` or `recombined` entry matching no
- *   anchor grants nothing, but is not itself reported, so a stale
- *   declaration left in a rule will not be flagged.
+ * - **A tag, not an address, in case 5.** The case asks only whether
+ *   the bytes moved. A rule that corrected the glyph AND happened to
+ *   be pointing at the wrong entry to begin with is licensed by it,
+ *   because the wrong address is already spelled out in the input tag
+ *   and the correction leaves every character of it in place. That is
+ *   correct for a glyph rule — the repair is not what aimed the link
+ *   — and would not be for anything else, which is why the case is
+ *   keyed to a substitution that reproduces the input exactly rather
+ *   than to a rule id. It also settles BOTH attributes of the tag at
+ *   once: `checkValue` consults case 5 before judging either, since
+ *   neither parses on the input side.
+ * - **Which anchor, in case 5.** The multiplicity CAP bounds how many
+ *   anchors a claim may license, not which ones. Two anchors carrying
+ *   byte-identical damaged tags are indistinguishable to this case, so
+ *   a rule that repaired one and left the other untouched while some
+ *   earlier rule wrote the repaired bytes onto a third is within the
+ *   cap and licensed. The same shape as "delete-one, create-one"
+ *   above, and the same root: this gate counts, and does not track
+ *   identity.
+ * - **A Hebrew-flanked DELIMITER, in case 5.** Condition 4 rejects a
+ *   claim that converted an attribute's delimiters rather than the
+ *   quote stranded inside it, because a delimiter abuts `=`,
+ *   whitespace or `>`. A CLOSING delimiter followed directly by an
+ *   attribute whose name begins with a Hebrew letter would be flanked
+ *   on both sides and would pass. That is measured 0 in this corpus —
+ *   four attribute names in use, none Hebrew-initial — so condition 4
+ *   is closed by the INPUT rather than by the shape of HTML, and a
+ *   re-fetch that introduced such an attribute would reopen it.
+ * - **Unused claims.** A `composed`, `recombined` or `glyphCorrected`
+ *   entry matching no anchor grants nothing, but is not itself
+ *   reported, so a stale declaration left in a rule will not be
+ *   flagged. A claim that DOES match diverges by case: cases 3 and 4
+ *   are ANY-claim, so a faulty claim beside an honest one on the same
+ *   value is ignored; case 5 is ALL-claim, so it refuses the anchor.
+ *   `glyphFaults` argues why — for case 5 a second claim on the same
+ *   tag can only be a false provenance, never an alternative source.
  * - **Provenance stops at the rule boundary.** `run.ts` gates each
  *   rule against the entry AS OF THAT RULE'S START, not against the
  *   phase's original input, so rule N reads the targets rule N−1
@@ -205,18 +268,122 @@ import type { TransformResult } from './types.ts';
 /** One declared composition (`TransformResult.composed`). */
 type Compose = { from: string; target: string };
 
+/** One declared glyph correction (`TransformResult.glyphCorrected`).
+ * Both members are RAW opening-tag values, not parsed targets. */
+type GlyphCorrect = { from: string; target: string };
+
 /** One declared recombination (`TransformResult.recombined`). */
 type Recombine = { head: string; tail: string; target: string };
 
-/** Everything `checkValue` reads about the INPUT side, gathered once
- * per call: the entry's anchors, the target set built from them, the
- * rule's declared compositions, and the rid for the messages. */
+/** The gershayim, U+05F4 — the one character case 5 may map back to an
+ * ASCII quote.
+ *
+ * Declared HERE rather than imported from the rule that writes it.
+ * A gate that took its notion of "the licensed glyph" from a rule
+ * module would be a gate a rule could widen, which is not a gate. Two
+ * one-character constants is the cheaper problem. */
+const GERSHAYIM = '״';
+
+// Hoisted per lint/performance/useTopLevelRegex. Both are used only
+// through `matchAll`, which iterates a clone rather than advancing
+// `lastIndex`, so the shared global instances carry no state between
+// calls.
+const ANY_GERSHAYIM = /\u05f4/gu;
+/** A gershayim standing where the MARK actually stands: between two
+ * Hebrew letters, tolerating the combining marks Jastrow sets on the
+ * left-hand letter (`ָּ` and friends — a bare lookbehind
+ * leaves one corpus occurrence unmatched, per batch-3a spec §4.1).
+ *
+ * The tolerance admits U+0307 alongside the Hebrew points
+ * U+0591–U+05C7, as ONE character class with U+0307 written FIRST.
+ * The position is load-bearing and the two linters are why. Biome's
+ * `noMisleadingCharacterClass` reads a class as a sequence and
+ * objects to a combining character standing AFTER another element,
+ * which the natural `[U+0591-U+05C7, U+0307]` order does — the range
+ * is not wholly combining (U+05BE, U+05C0, U+05C3 and U+05C6 are
+ * punctuation), so the pair reads as base-plus-mark. Leading, the
+ * same set passes. The obvious alternative, an alternation
+ * `(?:[points]|U+0307)*`, satisfies Biome but draws
+ * `typescript:S8786`: a quantified alternation is a backtracking
+ * shape, where a quantified class is one deterministic step. Class
+ * membership is order-independent, so all three forms match exactly
+ * the same strings; only this one satisfies both linters. Widened
+ * 2026-08-24, on a measurement rather than on symmetry: 1 of the 2,305 marks the batch writes (M01940's
+ * `מ̇ס̇״ך̇`) sets the combining dot between the letter and the
+ * mark. That one is in the TEXT locus, where case 5 never runs, so 0
+ * of the 180 tag-locus marks failed here — the widening buys nothing
+ * on today's data and everything on a re-fetch that moves such an
+ * occurrence into an attribute, which would otherwise halt the
+ * pipeline on an honest repair.
+ *
+ * The gate declares this itself, exactly as it declares `GERSHAYIM`,
+ * and for the same reason. It is not the rule's predicate borrowed: it
+ * is an INDEPENDENT statement about where the output may differ from
+ * the input, so a rule whose own predicate drifted wider would be
+ * caught here rather than rubber-stamped. That is why the widening is
+ * confined to the TOLERANCE class and why this must NOT import
+ * `HEBREW_ATOM` from `html.ts`, architecturally legal though that
+ * would be: a gate whose predicate is the rule's predicate can no
+ * longer catch a rule that widened its own, and would silently follow
+ * any future widening of the tokenizer's Hebrew class. The three
+ * remaining divergences are deliberate and stay — the rule admits
+ * presentation forms (U+FB1D–U+FB4F), `׳`/`״` themselves and bare
+ * points as FLANKS; this gate admits none of them.
+ *
+ * All three run ONE WAY — narrower than the rule, never wider. That
+ * direction is the whole point: a gate wider than the predicate it
+ * checks rubber-stamps a rule that widened its own. The letter ranges
+ * below are therefore held inside `HEBREW`'s own — U+05D0–U+05EA
+ * and U+05F0–U+05F2. Corrected 2026-08-24, having read
+ * U+05EF–U+05F2 and so admitted U+05EF HEBREW YOD TRIANGLE — which
+ * `HEBREW` does NOT hold — as a flank the rule can never produce.
+ * Cost of the error was zero (U+05EF occurs 0 times in the walked
+ * fields of the pinned corpus, and every corpus count is unmoved by
+ * the correction), and the correction is fail-closed. Recorded rather
+ * than quietly narrowed so nobody restores the off-by-one for the
+ * U+05F0–U+05F2 ligatures. */
+const FLANKED_GERSHAYIM =
+	/(?<=[\u05d0-\u05ea\u05f0-\u05f2][\u0307\u0591-\u05c7]*)\u05f4(?=[\u05d0-\u05ea\u05f0-\u05f2])/gu;
+
+/** Whether some gershayim in `tag` stands somewhere a gershayim cannot
+ * stand — which, in an opening tag, means it is doing a QUOTE's job
+ * rather than a mark's. See `glyphFault`. */
+function hasStrayGershayim(tag: string): boolean {
+	return (
+		[...tag.matchAll(ANY_GERSHAYIM)].length !==
+		[...tag.matchAll(FLANKED_GERSHAYIM)].length
+	);
+}
+
+/** Everything `checkValue` reads about the entry, gathered once per
+ * call: the input anchors, the target set built from them, the raw
+ * opening tags case 5 compares against, the rule's declared claims,
+ * and the rid for the messages.
+ *
+ * `tags` and `written` are TALLIES rather than sets because case 5
+ * caps a claim's reach by them: a claim may license no more output
+ * anchors than the input held anchors carrying its `from`. */
 interface Input {
 	claims: readonly Compose[];
+	glyphs: readonly GlyphCorrect[];
 	rejoins: readonly Recombine[];
 	rid: string;
 	source: readonly Anchor[];
+	tags: ReadonlyMap<string, number>;
 	targets: ReadonlySet<string>;
+	written: ReadonlyMap<string, number>;
+}
+
+/** How many anchors carry each distinct opening tag. Duplicate tags
+ * are real — two corpus entries repeat a damaged tag verbatim — so
+ * this cannot be a set without discarding the multiplicity case 5's
+ * cap is stated in. */
+function tally(list: readonly Anchor[]): Map<string, number> {
+	const counts = new Map<string, number>();
+	for (const anchor of list) {
+		counts.set(anchor.tag, (counts.get(anchor.tag) ?? 0) + 1);
+	}
+	return counts;
 }
 
 /** Every anchor in the entry's fields, in `fieldsOf` order then
@@ -498,20 +665,166 @@ function rejoinFaults(
 }
 
 /**
+ * Why `claim` does not license this anchor, or `undefined` when it
+ * does. Four conditions, all of them on RAW TAG BYTES except the last
+ * count, and every one of them fail-closed.
+ *
+ * 1. Mapping every gershayim in the written tag back to an ASCII quote
+ *    must reproduce `from` EXACTLY — same length, same order, same
+ *    codepoints everywhere else. A corollary worth stating so nobody
+ *    later "fixes" it: a `from` that itself contains a gershayim can
+ *    never satisfy this, because the mapping leaves none behind. That
+ *    is correct, and it is correct BY CONSTRUCTION rather than by a
+ *    corpus fact. "The input holds no U+05F4" is true of the snapshot
+ *    and FALSE UNDER COMPOSITION — `run.ts` hands each rule the
+ *    previous rule's output, so `gershayimInBody` puts 2,125 marks
+ *    into the document text before `gershayimRefAttribute` ever runs
+ *    (asserted at `rules/gershayim.test.ts:333`; see that rule's
+ *    module doc and batch report §9.4). What holds instead is about
+ *    the substitution: `from` is an OPENING TAG, the only writer of
+ *    U+05F4 in the registry is `gershayim.ts`, and its `repairText`
+ *    leaves every `<…>` run byte-identical while its `repairTags`
+ *    writes into `target`, never into a later rule's `from`. So no
+ *    tag in any rule's input carries a gershayim however many the
+ *    text around it now does — and were some future rule to write
+ *    one, this stays fail-closed: the claim is refused, not licensed.
+ * 2. `from` must be a tag the input actually held.
+ * 3. The claim must not license MORE output anchors than the input had
+ *    anchors carrying `from` (spec §4.3 says "THAT anchor's opening
+ *    tag"). Without the cap one honest claim also licenses a sibling
+ *    anchor that some other rule retargeted to the repaired bytes,
+ *    because claims are matched by tag value and tag values repeat.
+ *    Equal counts are the normal case, duplicates included.
+ * 4. Every gershayim in the written tag must stand between two Hebrew
+ *    letters. Conditions 1-3 all hold for a claim that converts the
+ *    quotes DELIMITING an attribute rather than the one stranded
+ *    inside it: `href=״/Jastrow,_אל"ף.1״` de-maps to the input tag
+ *    byte for byte, so it would be licensed, and it leaves an anchor
+ *    whose `href` parses to nothing at all. An OPENING delimiter abuts
+ *    `=` on its left and so can never be Hebrew-flanked; a CLOSING one
+ *    normally abuts whitespace or `>` on its right, which is why this
+ *    catches the family in practice — including the subtler form where
+ *    one attribute's delimiters are converted and its value swallows
+ *    the next attribute, which a test phrased on "is the gershayim
+ *    inside a parsed value" would pass. That second half is a fact
+ *    about THIS CORPUS, not about HTML: a closing delimiter followed
+ *    immediately by an attribute whose NAME begins with a Hebrew
+ *    letter would be Hebrew on both sides. Measured 0 — the corpus
+ *    uses four attribute names (`class`, `data-ref`, `dir`, `href`),
+ *    none Hebrew-initial, and all 180 Hebrew-flanked in-tag quotes are
+ *    the known strays. See the blind-spot list above.
+ */
+function glyphFault(
+	value: string,
+	claim: GlyphCorrect,
+	input: Input,
+): string | undefined {
+	const held = input.tags.get(claim.from) ?? 0;
+	const written = input.written.get(claim.target) ?? 0;
+	const lead = `glyph-corrected ${JSON.stringify(value)}`;
+	if (claim.target.replaceAll(GERSHAYIM, '"') !== claim.from) {
+		return `${lead} changes more than the quote`;
+	}
+	if (held === 0) {
+		return `${lead} is claimed from ${JSON.stringify(claim.from)}, which is not a tag in ${input.rid}'s input`;
+	}
+	if (written > held) {
+		return `${lead} is claimed for ${written} anchors, but ${input.rid}'s input held ${held}`;
+	}
+	return hasStrayGershayim(claim.target)
+		? `${lead} substitutes a quote that no Hebrew letters flank`
+		: undefined;
+}
+
+/**
+ * Faults from the case-5 arm. It shares `composeFaults`'s and
+ * `rejoinFaults`'s RETURN protocol — `undefined` means a declared
+ * claim licensed this anchor, an EMPTY array means no claim spoke to
+ * it at all — but NOT their quantifier, and the difference is
+ * deliberate rather than an oversight.
+ *
+ * `composeFaults` is ANY-claim: it returns as soon as one matching
+ * claim is fault-free, so a second, faulty claim on the same value
+ * cannot block an honest one. This arm is ALL-claim: every matching
+ * claim must be fault-free. Two reasons.
+ *
+ * - ANY-claim buys case 5 nothing. `glyphFault`'s condition 1 is a
+ *   FUNCTION of the target — `target` de-mapped must equal `from` —
+ *   so for a given `target` at most ONE `from` can ever be licensed,
+ *   and conditions 3 and 4 read the target alone. Two claims naming
+ *   the same `anchor.tag` can therefore only disagree when they
+ *   differ in `from`, and then exactly one of them is asserting a
+ *   provenance the bytes contradict. Compose has real multiplicity to
+ *   accommodate (`hrefsFor` yields several candidate spellings for one
+ *   value); this has none.
+ * - So a second claim here is not noise a rule left lying around. It
+ *   names a tag the rule DID write and states something false about
+ *   where those bytes came from — a rule bug, and the declaration
+ *   audit is what case 5 exists to be. Under ANY-claim a rule could
+ *   declare one true claim plus any amount of garbage against the same
+ *   tag and the gate would say nothing.
+ *
+ * The module doc's "Unused claims" blind spot is unaffected and means
+ * what it says: a claim MATCHING NO ANCHOR grants nothing and is not
+ * reported, and one matching an anchor whose value is already in
+ * `input.targets` is never consulted either, because `checkValue`
+ * settles cases 1 and 2 first. What a claim naming a genuinely
+ * repaired tag cannot do is sit alongside an honest one and be
+ * ignored — see that bullet, which records the divergence.
+ *
+ * A claim is matched by `target === anchor.tag` — the raw opening-tag
+ * bytes, because the parsed targets are truncated for exactly the
+ * anchors this case exists to license. `glyphFault` above is the whole
+ * test. Every character except the substituted quotes is pinned by it,
+ * so a licensed claim cannot move a link to another entry, alter a
+ * locus, or recover an address the input never spelled out.
+ *
+ * It licenses a TAG, not an ADDRESS, and takes both attributes at
+ * once: the two quotes it repairs sit in `href` and `data-ref`
+ * respectively, and neither parses on the input side. See the module
+ * doc's blind-spot list for what that costs.
+ *
+ * Messages name the VALUE under judgement, not the claim's tag. Tag
+ * values repeat, so a message phrased on the tag alone would read as a
+ * statement about whichever anchor the rule author had in mind rather
+ * than the one actually being refused.
+ */
+function glyphFaults(
+	value: string,
+	anchor: Anchor,
+	input: Input,
+): string[] | undefined {
+	const claims = input.glyphs.filter((claim) => claim.target === anchor.tag);
+	if (claims.length === 0) {
+		return [];
+	}
+	const faults = claims
+		.map((claim) => glyphFault(value, claim, input))
+		.filter((fault): fault is string => fault !== undefined);
+	return faults.length === 0 ? undefined : faults;
+}
+
+/**
  * Why this anchor's `value` (its `href` or its `data-ref`) is not one
- * the entry's input could supply, or `undefined` when it is. The four
+ * the entry's input could supply, or `undefined` when it is. The five
  * spec cases, in order, one line each.
  *
  * Membership in `targets` settles cases 1 and 2 outright. Otherwise
- * the value must be licensed by a declared composition (case 3) or
- * recombination (case 4), each matched to this anchor by
- * `target === anchor.dataRef`: EVERY matching anchor must satisfy the
+ * the value must be licensed by a declared glyph correction (case 5),
+ * composition (case 3) or recombination (case 4). Cases 3 and 4 are
+ * matched to this anchor by `target === anchor.dataRef` and case 5 by
+ * `target === anchor.tag`: EVERY matching anchor must satisfy the
  * claim, which falls out of checking each anchor against every claim
  * that names it rather than pairing them off. One licence is enough —
- * a value both kinds of claim name passes if either admits it — and
- * the first fault is reported when none does, cases 3 before 4. With
- * no claim of either kind the value is simply absent from the input,
- * which is the fabrication message and the fallback below.
+ * a value more than one kind of claim names passes if any admits it —
+ * and the first fault is reported when none does, case 5 before 3
+ * before 4. With no claim of any kind the value is simply absent from
+ * the input, which is the fabrication message and the fallback below.
+ *
+ * Case 5 is consulted FIRST, and before either attribute is judged,
+ * because it licenses a whole opening TAG: a licensed tag settles
+ * both of its attributes at once, and neither of them parses on the
+ * input side, which is the point of stating that case on bytes.
  */
 function checkValue(
 	value: string,
@@ -519,6 +832,10 @@ function checkValue(
 	input: Input,
 ): string | undefined {
 	if (input.targets.has(value)) {
+		return;
+	}
+	const glyphs = glyphFaults(value, anchor, input);
+	if (glyphs === undefined) {
 		return;
 	}
 	const composed = composeFaults(value, anchor, input);
@@ -530,7 +847,7 @@ function checkValue(
 		return;
 	}
 	return (
-		[...composed, ...rejoined][0] ??
+		[...glyphs, ...composed, ...rejoined][0] ??
 		`target ${JSON.stringify(value)} is not in ${input.rid}'s input`
 	);
 }
@@ -560,7 +877,10 @@ function checkValue(
 function checkLinkTargets(
 	before: SourceEntry,
 	after: SourceEntry,
-	result: Pick<TransformResult, 'composed' | 'recombined' | 'unlinks'>,
+	result: Pick<
+		TransformResult,
+		'composed' | 'glyphCorrected' | 'recombined' | 'unlinks'
+	>,
 ): string[] {
 	const sourceFields = fieldsOf(before);
 	const outputFields = fieldsOf(after);
@@ -570,10 +890,13 @@ function checkLinkTargets(
 	const { rid } = after;
 	const input: Input = {
 		claims: result.composed ?? [],
+		glyphs: result.glyphCorrected ?? [],
 		rejoins: result.recombined ?? [],
 		rid,
 		source,
+		tags: tally(source),
 		targets: targetsOf(source),
+		written: tally(output),
 	};
 	const problems: string[] = [];
 	const removed = source.length - output.length;

@@ -101,6 +101,17 @@ interface Anchor {
 	malformed: boolean;
 	/** Index of the `<a …>` in the token array. */
 	open: number;
+	/** The opening tag's RAW token value, `<a …>` inclusive.
+	 *
+	 * `dataRef` and `href` are what `attrValue` could read, which is
+	 * not always what the tag says: a gershayim written as an ASCII
+	 * quote terminates its own attribute, so `data-ref="Jastrow, אל״ף 1"`
+	 * reads back as `Jastrow, אל` with `malformed: false` — nothing
+	 * about the tag is visibly wrong. 90 anchors are in that state.
+	 * A gate that must compare what a rule wrote against what the
+	 * input held cannot use a value the parser silently truncated, so
+	 * `link-target.ts` case 5 compares these bytes instead. */
+	tag: string;
 }
 
 interface Target {
@@ -151,6 +162,7 @@ function buildAnchor(
 		interior: interior.has(open) || (close !== -1 && interior.has(close)),
 		malformed: !opensScope(tag.value),
 		open,
+		tag: tag.value,
 	};
 }
 

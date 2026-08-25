@@ -13,7 +13,11 @@ authors.
 
 The registry now holds thirteen rules. `coverage()` accounts for all 78
 catalogued transform rows: 13 registered, 65 pending, 0 unaccounted, 0
-duplicated.
+duplicated. **Those three are a snapshot at this batch's close, not
+live figures** — batch 3a registered two more rules and discarded a
+row, so `coverage()` today reads 77 / 15 / 62. Reproduce the live
+values with the command in
+[phase-2-triage.md](phase-2-triage.md#still-open-not-part-of-phase-2).
 
 ---
 
@@ -150,7 +154,7 @@ why the ordering is asserted rather than reasoned about.
 
 ### `bun transform:count` — 13 rules, 4 findings
 
-```
+```text
 redundant-outer-rtl-span               measured(entries)=  529 catalogued=  529  MATCH
 bare-rtl-hebrew                        measured(entries)= 4189 catalogued= 4189  MATCH
 latin-token-inside-rtl-span            measured(entries)=  130 catalogued=  130  MATCH
@@ -170,7 +174,7 @@ That output is the state BEFORE this task's write-backs — the
 evidence they were made from. **After them: 13 rules, 11 MATCH, 2
 findings**, both by design and both explained in their own rows:
 
-```
+```text
 rabbi-name-linked-as-bible-book        measured(entries)=   42 catalogued=   42  MATCH
 plural-to-feminine-final-letter-mislink measured(entries)=   50 catalogued=   50  MATCH
 ib-yoma-2a                             measured(entries)=  188 catalogued=  312  DELTA -124
@@ -190,7 +194,7 @@ sifre-ib-resolves-to-yalkut            measured(entries)=    1 catalogued=    6 
 
 ## 4. `bun body:migrate-dry`
 
-```
+```text
 entries=32512 repaired=832
 gate formSection=32512/32512
 gate lettered=32512/32512
@@ -330,7 +334,7 @@ rule fires on 42 occurrences / 42 entries; K01198 is among them.
 The delta decomposes exactly, with no residue, and every tier
 reproduces:
 
-```
+```text
 68/57  catalogued, reproduced EXACTLY by the skeleton predicate alone
 −3     self-link occurrences (H00796, K00308×2) — 2 entries
 =65/55 pluralToFeminineRaw          (pinned in misc-links.test.ts)
@@ -438,7 +442,7 @@ already draw both boundaries — `isSinkMember` is the catalogued 312 and
 `isSpentAnaphor` is the 312 plus the 52 — so widening is one line on an
 already-tested predicate. Verified in this task:
 
-```
+```text
 segmented: 52 occ / 47 entries — Yoma 2a:8 ×30, :7 ×5, :3 ×5, :4 ×5,
                                  :10 ×3, :1 ×2, :5 ×1, :6 ×1
 ibid:       3 occ /  3 entries

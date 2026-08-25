@@ -1,6 +1,8 @@
 import { expect, it } from 'bun:test';
 import type { SourceEntry } from '../body/types.ts';
+import { tokenize } from './html.ts';
 import { checkLinkTargets } from './link-target.ts';
+import { anchors } from './links.ts';
 import { applyTransforms } from './run.ts';
 import type { Rule, TransformResult } from './types.ts';
 
@@ -666,4 +668,356 @@ it('still licenses an href spelling written into a data-ref', () => {
 	expect(
 		checkLinkTargets(src, after, result(after, { recombined: [claim] })),
 	).toEqual([]);
+});
+
+// ————————————————————————————————————————————————————————————————
+// Case 5: glyph correction (batch-3a spec §4.3).
+// ————————————————————————————————————————————————————————————————
+
+/** The raw opening-tag token value — what `Anchor.tag` carries and
+ * what a `glyphCorrected` claim names on both sides. The claim CANNOT
+ * be phrased on parsed targets: the ASCII quote terminates its own
+ * attribute, so both damaged tags below parse `malformed: false` with
+ * a truncated `data-ref`, and a case stated against the input target
+ * set would compare the repair to `Jastrow, אל`. */
+const openTagOf = (html: string): string => tokenize(html)[0]?.value ?? '';
+
+const GERSHAYIM = '״';
+
+/** A00009, verbatim: a gershayim written as an ASCII `"` inside a
+ * `"`-delimited attribute. 90 corpus anchors are in this state. */
+const damaged =
+	'<a dir="rtl" class="refLink" href="/Jastrow,_אל"ף.1" data-ref="Jastrow, אל"ף 1">אלף</a>';
+const repaired = damaged.replaceAll('"ף', `${GERSHAYIM}ף`);
+
+it('case 5 licenses a tag whose only change is the gershayim glyph', () => {
+	const after = entry(repaired);
+	expect(
+		checkLinkTargets(
+			entry(damaged),
+			after,
+			result(after, {
+				glyphCorrected: [
+					{ from: openTagOf(damaged), target: openTagOf(repaired) },
+				],
+			}),
+		),
+	).toEqual([]);
+});
+
+it('an undeclared glyph correction is still a fabrication', () => {
+	const after = entry(repaired);
+	expect(
+		checkLinkTargets(entry(damaged), after, result(after)).length,
+	).toBeGreaterThan(0);
+});
+
+it('case 5 refuses a claim whose from does not de-map from its target', () => {
+	const after = entry(repaired);
+	expect(
+		checkLinkTargets(
+			entry(damaged),
+			after,
+			result(after, {
+				glyphCorrected: [
+					{
+						from: openTagOf(damaged).replace('אל', 'בל'),
+						target: openTagOf(repaired),
+					},
+				],
+			}),
+		).length,
+	).toBeGreaterThan(0);
+});
+
+/** The `from`-membership arm on its own. The probe above never
+ * reaches it — retargeting the `from` also breaks the substitution
+ * test, which is reported first — so the claim here de-maps EXACTLY
+ * and still names a tag this entry's input never held. */
+it('case 5 refuses a well-formed claim naming a tag no input anchor carries', () => {
+	const stranger =
+		'<a dir="rtl" class="refLink" href="/Jastrow,_בל"ם.1" data-ref="Jastrow, בל"ם 1">בלם</a>';
+	const after = entry(repaired);
+	expect(
+		checkLinkTargets(
+			entry(stranger),
+			after,
+			result(after, {
+				glyphCorrected: [
+					{ from: openTagOf(damaged), target: openTagOf(repaired) },
+				],
+			}),
+		),
+	).toEqual([
+		`glyph-corrected ${JSON.stringify('Jastrow, אל״ף 1')} is claimed from ${JSON.stringify(openTagOf(damaged))}, which is not a tag in T00001's input`,
+	]);
+});
+
+/** The corollary `glyphFault`'s condition 1 states and calls
+ * fail-closed under composition: a `from` that ALREADY carries a
+ * gershayim can never satisfy it, because de-mapping the target
+ * leaves none behind. Nothing exercised it — the nearest cases
+ * retarget `from` or move a non-quote character, and fail for their
+ * own reasons.
+ *
+ * Set up so condition 2 would pass, which is what isolates the
+ * corollary as the reason for the refusal: the input already carries
+ * the repaired tag — the state composition leaves it in once an
+ * earlier rule has written a mark — so `from` IS a tag this entry
+ * held. The anchor needing a licence is a DIFFERENT one, because a
+ * claim whose target is already in the input target set is settled by
+ * case 1 and never consulted at all. */
+it('case 5 refuses a claim whose from already holds a gershayim', () => {
+	const other =
+		'<a dir="rtl" class="refLink" href="/Jastrow,_עכ"ום.1" data-ref="Jastrow, עכ"ום 1">עכום</a>';
+	const otherRepaired = other.replaceAll('"ו', `${GERSHAYIM}ו`);
+	const after = entry(`${repaired} ${otherRepaired}`);
+	expect(
+		checkLinkTargets(
+			entry(`${repaired} ${other}`),
+			after,
+			result(after, {
+				glyphCorrected: [
+					{ from: openTagOf(repaired), target: openTagOf(otherRepaired) },
+				],
+			}),
+		),
+	).toEqual([
+		`glyph-corrected ${JSON.stringify('Jastrow, עכ״ום 1')} changes more than the quote`,
+	]);
+});
+
+/** Case 5 is ALL-claim where cases 3 and 4 are ANY-claim, and the
+ * divergence is deliberate — see `glyphFaults`. One honest claim plus
+ * one claim stating a false provenance for the SAME repaired tag
+ * refuses the anchor rather than letting the honest one carry it. */
+it('case 5 refuses an honest claim beside a false one on the same tag', () => {
+	const after = entry(repaired);
+	expect(
+		checkLinkTargets(
+			entry(damaged),
+			after,
+			result(after, {
+				glyphCorrected: [
+					{ from: openTagOf(damaged), target: openTagOf(repaired) },
+					{
+						from: openTagOf(damaged).replace('אל', 'בל'),
+						target: openTagOf(repaired),
+					},
+				],
+			}),
+		),
+	).toEqual([
+		`glyph-corrected ${JSON.stringify('Jastrow, אל״ף 1')} changes more than the quote`,
+	]);
+});
+
+it('case 5 refuses a claim that changes a non-quote character', () => {
+	const moved = repaired.replace('.1"', '.2"');
+	const after = entry(moved);
+	expect(
+		checkLinkTargets(
+			entry(damaged),
+			after,
+			result(after, {
+				glyphCorrected: [
+					{ from: openTagOf(damaged), target: openTagOf(moved) },
+				],
+			}),
+		).length,
+	).toBeGreaterThan(0);
+});
+
+it('a claim does not license a different anchor', () => {
+	const other =
+		'<a dir="rtl" class="refLink" href="/Jastrow,_עכ"ום.1" data-ref="Jastrow, עכ"ום 1">עכום</a>';
+	const otherRepaired = other.replaceAll('"ו', `${GERSHAYIM}ו`);
+	const after = entry(repaired + otherRepaired);
+	expect(
+		checkLinkTargets(
+			entry(damaged + other),
+			after,
+			result(after, {
+				glyphCorrected: [
+					{ from: openTagOf(damaged), target: openTagOf(repaired) },
+				],
+			}),
+		).length,
+	).toBeGreaterThan(0);
+});
+
+// ——— the two capability leaks review found in case 5's first cut.
+// Both were licensed by "de-maps exactly and `from` is an input tag"
+// alone, and both are closed by `glyphFault`.
+
+/** F-1. Claims are matched by TAG VALUE, and tag values repeat — two
+ * corpus entries carry a damaged tag twice. So one honest claim also
+ * spoke for a SIBLING anchor that another rule had retargeted to the
+ * repaired bytes, which is a retarget case 5 has no business
+ * licensing. The cap is on multiplicity: no more output anchors than
+ * the input held anchors carrying `from`. */
+it('case 5 refuses a claim licensing more anchors than the input held', () => {
+	const sibling = `${openTagOf(repaired)}עכום</a>`;
+	const src = entry(
+		`${damaged} <a class="refLink" href="/Yoma.2a" data-ref="Yoma 2a">עכום</a>`,
+	);
+	const after = entry(`${repaired} ${sibling}`);
+	expect(
+		checkLinkTargets(
+			src,
+			after,
+			result(after, {
+				glyphCorrected: [
+					{ from: openTagOf(damaged), target: openTagOf(repaired) },
+				],
+			}),
+		),
+	).toEqual([
+		// Once per anchor: an over-subscribed claim licenses NEITHER of
+		// them, so the honest repair fails alongside the retarget it was
+		// made to cover. Fail-closed is the point.
+		`glyph-corrected ${JSON.stringify('Jastrow, אל״ף 1')} is claimed for 2 anchors, but T00001's input held 1`,
+		`glyph-corrected ${JSON.stringify('Jastrow, אל״ף 1')} is claimed for 2 anchors, but T00001's input held 1`,
+	]);
+});
+
+/** The cap is a CAP, not a ban on repeats: an entry that repeats a
+ * damaged tag verbatim — 2 entries do, worst multiplicity 2 — must
+ * still be repairable by one claim. */
+it('case 5 licenses a repeated damaged tag under one claim', () => {
+	const after = entry(`${repaired} ${repaired}`);
+	expect(
+		checkLinkTargets(
+			entry(`${damaged} ${damaged}`),
+			after,
+			result(after, {
+				glyphCorrected: [
+					{ from: openTagOf(damaged), target: openTagOf(repaired) },
+				],
+			}),
+		),
+	).toEqual([]);
+});
+
+/** F-2. Converting the quotes that DELIMIT an attribute de-maps to the
+ * input tag exactly as the honest repair does, and `from` is exactly
+ * as much an input tag — so the first cut licensed a tag whose `href`
+ * parses to NOTHING. Asserted on the parse, not on the bytes: the
+ * point of the finding is what the attributes read as afterwards. */
+const delimiterSwap = damaged.replace(
+	'href="/Jastrow,_אל"ף.1"',
+	`href=${GERSHAYIM}/Jastrow,_אל"ף.1${GERSHAYIM}`,
+);
+
+it('the honest repair leaves both attributes parsing to their full values', () => {
+	const [anchor] = anchors(tokenize(repaired));
+	expect(anchor?.dataRef).toBe('Jastrow, אל״ף 1');
+	expect(anchor?.href).toBe('/Jastrow,_אל״ף.1');
+});
+
+it('a delimiter conversion de-maps exactly yet destroys the target', () => {
+	expect(delimiterSwap.replaceAll(GERSHAYIM, '"')).toBe(damaged);
+	const [anchor] = anchors(tokenize(delimiterSwap));
+	expect(anchor?.href).toBe('');
+});
+
+it('case 5 refuses a claim that converts an attribute delimiter', () => {
+	const after = entry(delimiterSwap);
+	expect(
+		checkLinkTargets(
+			entry(damaged),
+			after,
+			result(after, {
+				glyphCorrected: [
+					{ from: openTagOf(damaged), target: openTagOf(delimiterSwap) },
+				],
+			}),
+		),
+	).toEqual([
+		'glyph-corrected "" substitutes a quote that no Hebrew letters flank',
+	]);
+});
+
+/** The same leak in the form a "is the gershayim inside a parsed
+ * value?" guard would MISS: converting both of `href`'s delimiters
+ * makes its value swallow `data-ref`, so every gershayim does sit
+ * inside a parsed value — and the anchor's `data-ref` is blanked.
+ * Hebrew-flanking refuses it because a delimiter always abuts `=` or
+ * whitespace. */
+it('case 5 refuses a delimiter conversion that swallows the next attribute', () => {
+	const swallowed = `<a href="/x${GERSHAYIM} data-ref=${GERSHAYIM}y">ש</a>`;
+	const src = entry('<a href="/x" data-ref="y">ש</a>');
+	expect(swallowed.replaceAll(GERSHAYIM, '"')).toBe(
+		'<a href="/x" data-ref="y">ש</a>',
+	);
+	const [anchor] = anchors(tokenize(swallowed));
+	expect(anchor?.dataRef).toBe('');
+	const after = entry(swallowed);
+	expect(
+		checkLinkTargets(
+			src,
+			after,
+			result(after, {
+				glyphCorrected: [
+					{
+						from: openTagOf('<a href="/x" data-ref="y">ש</a>'),
+						target: openTagOf(swallowed),
+					},
+				],
+			}),
+		),
+	).toEqual([
+		'glyph-corrected "" substitutes a quote that no Hebrew letters flank',
+	]);
+});
+
+/** The tolerance class carries U+0307 as well as the Hebrew points.
+ * M01940's `מ̇ס̇"ך̇` is the corpus shape: the combining dot sits
+ * between the letter and the mark. That occurrence is in the text
+ * locus, so 0 of the 180 tag-locus marks needed this — the case is
+ * here for the re-fetch that moves one into an attribute, which would
+ * otherwise be refused as a stray gershayim on an honest repair. */
+it('case 5 licenses a repair behind a combining dot', () => {
+	const dotted =
+		'<a class="refLink" href="/x" data-ref="Jastrow, מ̇ס̇"ך 1">ש</a>';
+	const healed = dotted.replace(`̇"ך`, `̇${GERSHAYIM}ך`);
+	expect(healed.replaceAll(GERSHAYIM, '"')).toBe(dotted);
+	const after = entry(healed);
+	expect(
+		checkLinkTargets(
+			entry(dotted),
+			after,
+			result(after, {
+				glyphCorrected: [
+					{ from: openTagOf(dotted), target: openTagOf(healed) },
+				],
+			}),
+		),
+	).toEqual([]);
+});
+
+/** …and the class stays strictly NARROWER than the rule's predicate,
+ * which is the whole reason the gate declares its own. The rule admits
+ * `html.ts`'s `HEBREW`, presentation forms included; this refuses a
+ * mark flanked by one. Pinned so the next person to notice the
+ * divergence widens it on a measurement, as U+0307 was widened, rather
+ * than by importing `HEBREW_ATOM` and turning the gate into an echo of
+ * the rule. */
+it('case 5 still refuses a flank the gate does not admit', () => {
+	const src =
+		'<a class="refLink" href="/x" data-ref="Jastrow, \ufb2a"ב 1">ש</a>';
+	const wide = src.replace(`\ufb2a"`, `\ufb2a${GERSHAYIM}`);
+	expect(wide.replaceAll(GERSHAYIM, '"')).toBe(src);
+	const after = entry(wide);
+	expect(
+		checkLinkTargets(
+			entry(src),
+			after,
+			result(after, {
+				glyphCorrected: [{ from: openTagOf(src), target: openTagOf(wide) }],
+			}),
+		),
+	).toEqual([
+		`glyph-corrected ${JSON.stringify(`Jastrow, \ufb2a${GERSHAYIM}ב 1`)} substitutes a quote that no Hebrew letters flank`,
+	]);
 });

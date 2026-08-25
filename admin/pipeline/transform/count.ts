@@ -16,12 +16,20 @@
  * `bare-rtl-hebrew`, whose committed `corpusCount` is 4,189 entries
  * (4,471 senses), CORRECTED from the audit's 4,190 when the transform
  * was written: the old figure was a +1/−1 cancellation, not agreement
- * — but not all of them: `ascii-gershayim-outside-body-text`
- * (`corpusCount` 409) documents itself in patterns.jsonl as "COUNT IS
- * OCCURRENCES ACROSS SEVEN FIELD SLOTS, NOT ENTRIES." A DELTA against
- * a row like that is not a harness bug to chase — it is the designed
- * unit-mismatch finding (spec §4.2) for whoever writes that rule to
- * triage, not evidence this measurement is wrong.
+ * — but not all of them. Some rows count OCCURRENCES, and say so:
+ * `unmatched-closing-paren` (1,604) and `ascii-quote-as-gershayim-in-
+ * body` (whose `reason` records 2,305 occurrences against 1,386
+ * entries) are both live examples. A DELTA against a row like that is
+ * not a harness bug to chase — it is the designed unit-mismatch
+ * finding (spec §4.2) for whoever writes that rule to triage, not
+ * evidence this measurement is wrong.
+ *
+ * The example this paragraph used to give,
+ * `ascii-gershayim-outside-body-text` (409 occurrences across seven
+ * field slots), was discarded in batch 3a's pre-PR review: the two
+ * gershayim rules repair six of its slots and `refs[]` is dropped at
+ * compile, leaving nothing. It will therefore never reach this
+ * harness.
  *
  * The corpus (32,512 entries, ~41 MB) is read into memory once up
  * front and every rule loops over that array, rather than

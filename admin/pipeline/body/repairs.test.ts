@@ -140,15 +140,28 @@ describe('applyRepairs', () => {
 		]);
 	});
 
-	it('escapes the gershayim anchor so the full ref parses (A01069)', async () => {
+	// Was: "escapes the gershayim anchor so the full ref parses
+	// (A01069)". The class-1 escape is retired (maintainer ruling
+	// 2026-08-24) and the gershayim transforms correct the character
+	// instead, so `applyRepairs` must now leave the anchor exactly as the
+	// corpus wrote it. The assertion is inverted rather than deleted: a
+	// re-introduced escape would put an entity back into the corpus and
+	// silently give the same address two spellings again.
+	it('leaves the gershayim anchor to the transform (A01069)', async () => {
 		const entries = await loadFixtures();
-		const { entry } = applyRepairs(fixture(entries, 'A01069'));
+		const source = fixture(entries, 'A01069');
+		const before = source.content.senses[0]?.definition ?? '';
+		const { entry, records } = applyRepairs(source);
 		const definition = entry.content.senses[0]?.definition ?? '';
-		expect(definition).toContain('data-ref="Jastrow, א&quot;ט 1"');
+		expect(definition).toBe(before);
+		expect(definition).not.toContain('&quot;');
+		expect(records.some((r) => r.detail.includes('escaped gershayim'))).toBe(
+			false,
+		);
+		// Still truncated at this point — repairing it is the transform's
+		// job, and the pipeline-level census pins that it happens.
 		const [hit] = findCitations(definition);
-		expect(hit?.malformed).toBe(false);
-		expect(hit?.dataRef).toBe('Jastrow, א&quot;ט 1');
-		expect(hit?.kind).toBe('internal');
+		expect(hit?.dataRef).toBe('Jastrow, א');
 	});
 
 	it("wraps P00331's bare ibid citation with its refs resolution", async () => {

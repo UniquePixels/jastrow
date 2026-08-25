@@ -8,6 +8,7 @@
 import type { Pattern } from '../research/patterns.ts';
 import { ibAnaphora, sifreAnaphora, targumAnaphora } from './rules/anaphora.ts';
 import { gereshLetterNumeral, prefixedGereshAbbrev } from './rules/geresh.ts';
+import { gershayimInBody, gershayimRefAttribute } from './rules/gershayim.ts';
 import {
 	pluralToFeminineFinalLetter,
 	shurukAsYodDisplayCorruption,
@@ -220,6 +221,42 @@ const RULES: readonly Rule[] = [
 	// since the disjointness is a fact about today's corpus and the
 	// ordering rule is what keeps a re-fetch safe.
 	targumAnaphora,
+
+	// The gershayim pair (batch 3a). ONE defect, two catalogue rows,
+	// split by locus: `gershayimInBody` takes the 2,125 occurrences in
+	// document text, `gershayimRefAttribute` the 180 inside tag
+	// interiors. Adjacent by requirement — every one of the 90 damaged
+	// tags points at a headword carrying the same ASCII quote (90 of
+	// 90, 0 unresolved), so repairing either side alone breaks all 90
+	// cross-links by string identity.
+	//
+	// Order between them is MEASURED and free, like the geresh pair's:
+	// the substitution never introduces or removes a `<` or a `>`, so
+	// neither can move an occurrence into or out of the other's locus,
+	// and over the whole corpus both orders produce 0 entries
+	// differing by a byte. The pair is also order-free against the rtl
+	// trio, which matters because the audit warned that wrapping bare
+	// Hebrew would migrate 117 occurrences into scope — it does not,
+	// because the predicate reads codepoints and not markup context.
+	// Both measurements are `rules/gershayim.test.ts`'s corpus tier,
+	// re-run on every `bun qa` rather than recorded here once.
+	//
+	// Appended at the END of the list, which the measurements above
+	// say is free but do not by themselves say is RIGHT. It is the
+	// safe default for the same reason the retarget note gives: every
+	// rule above reads today's targets, truncation and all, so running
+	// last changes nothing any of them sees. Measured too, against the
+	// whole shipped registry rather than against the rtl trio alone —
+	// composed, the pair produces the same 1,386 and 85 entries it
+	// produces alone, so no rule above consumes an occurrence of it,
+	// and moving the pair to the FRONT of this list leaves all 32,512
+	// entries byte-identical. The claim and its method are spec §4.2
+	// (docs/specs/2026-08-24-gershayim-transform-design.md), which is
+	// in the repository; the run itself is re-derivable from that
+	// section in a few seconds and is deliberately not cited to a
+	// working note nobody else can open.
+	gershayimInBody,
+	gershayimRefAttribute,
 ];
 
 /** Catalogued transform rows with no rule yet. Shrinks batch by batch;
@@ -245,7 +282,6 @@ const PENDING: readonly string[] = [
 	// its 87 anchors, and the construct is 3.2% of a corpus-wide linker
 	// behaviour), so `coverage` no longer counts it and neither list may.
 	'trailing-whitespace-definition',
-	'ascii-quote-as-gershayim-in-body',
 	'italic-swallowed-terminal-period',
 	'em-dash-section-break-in-own-italic',
 	'italic-lone-punctuation',
@@ -253,7 +289,6 @@ const PENDING: readonly string[] = [
 	'trailing-em-dash-tail',
 	'anchor-italic-no-space',
 	'italic-close-paren-nospace',
-	'gershayim-breaks-ref-attribute',
 	'stranded-stem-head',
 	'empty-stem-section',
 	'sense-number-outside-closed-grammar',
@@ -286,7 +321,6 @@ const PENDING: readonly string[] = [
 	'phrase-alt-headword-stub',
 	'tanhuma-never-linked',
 	'pesikta-drk-never-linked',
-	'ascii-gershayim-outside-body-text',
 	'duplicated-definition-opening-run',
 	'shin-sin-dot-drop',
 	'v-sub-redirect-stub-mislink',
@@ -348,6 +382,151 @@ function coverage(catalogue: readonly Pattern[]): Coverage {
 	};
 }
 
+/** One connected component of the catalogue's entanglement graph that
+ * the registry can get wrong: either it has at least two REGISTERED
+ * members, so execution order can split it, or it names an endpoint
+ * the catalogue does not hold, so the record itself is broken. */
+interface Cluster {
+	/** Registry positions of the members that are registered, ascending. */
+	at: number[];
+	/** Every id in the component, registered or not, sorted. */
+	ids: string[];
+	/** Ids in the component that exist ONLY as an `entangledWith`
+	 * endpoint — no catalogue row and no rule holds them — sorted.
+	 * Empty for a healthy component.
+	 *
+	 * A stale or misspelt endpoint, in other words. An id the registry
+	 * holds but the catalogue does not is NOT this: it contributes a
+	 * position, so the span check still sees it, and
+	 * `registry.test.ts`'s coverage suite is what names it.
+	 * `checkEntanglement` names these from the catalogue's side; they
+	 * are carried here so the adjacency gate does not fall silent when
+	 * one of them shrinks a component below the two registered members
+	 * it needs. */
+	stale: string[];
+}
+
+/**
+ * The `entangledWith` graph as an UNDIRECTED adjacency map: every edge
+ * is stored on both endpoints, whichever side of it the catalogue
+ * actually recorded.
+ *
+ * Reading `row.id -> row.entangledWith` alone builds a DIRECTED graph,
+ * and `componentOf` traverses in that one direction only. A one-sided
+ * edge — `a` names `b`, `b` does not name `a` — is then invisible from
+ * `b`: if `b` sits earlier in `RULES` it is walked first, enters
+ * `seen` as a singleton, and the later walk from `a` skips it. The
+ * component never forms, so `checkAdjacency` passes on a SPLIT
+ * recorded entanglement. Adding the reverse edge makes the traversal
+ * find it from either end.
+ *
+ * `checkEntanglement` reports an unreciprocated edge as a catalogue
+ * problem, and today every edge is reciprocated — 18 recorded entries,
+ * 9 undirected edges, 0 one-sided, 0 dangling — so nothing in the
+ * corpus reaches this. That is exactly why it is worth building
+ * correctly rather than leaving: this is the code Task 3 added to make
+ * the adjacency gate FALSIFIABLE, and a gate whose correctness rests
+ * on a property of its own input is the failure mode it exists to
+ * catch. Pinned by `registry.test.ts`, walked from the side holding no
+ * edge.
+ *
+ * Edges to ids the catalogue does not hold are kept: they contribute
+ * no registry position, so they widen no span, but they are what
+ * `Cluster.stale` reports — a dangling endpoint used to shrink a
+ * component below two registered members and take the whole component
+ * out of the gate's view with it. `checkEntanglement` names them from
+ * the catalogue's side; `checkAdjacency` now names them from this one.
+ */
+function undirectedGraph(catalogue: readonly Pattern[]): Map<string, string[]> {
+	const edges = new Map<string, Set<string>>();
+	const of = (id: string): Set<string> => {
+		const found = edges.get(id) ?? new Set<string>();
+		edges.set(id, found);
+		return found;
+	};
+	for (const row of catalogue) {
+		of(row.id);
+		for (const other of row.entangledWith ?? []) {
+			of(row.id).add(other);
+			of(other).add(row.id);
+		}
+	}
+	return new Map([...edges].map(([id, set]) => [id, [...set]]));
+}
+
+/** The connected component containing `from`, marking each id seen so
+ * a component is walked once rather than once per member. */
+function componentOf(
+	from: string,
+	partners: ReadonlyMap<string, readonly string[]>,
+	seen: Set<string>,
+): string[] {
+	const cluster: string[] = [];
+	const queue = [from];
+	while (queue.length > 0) {
+		const id = queue.pop() as string;
+		if (seen.has(id)) {
+			continue;
+		}
+		seen.add(id);
+		cluster.push(id);
+		queue.push(...(partners.get(id) ?? []).filter((p) => !seen.has(p)));
+	}
+	return cluster;
+}
+
+/**
+ * Every entanglement cluster the registry can currently get wrong,
+ * DERIVED from the catalogue rather than listed anywhere.
+ *
+ * Exported because a hand-written test per cluster is a convention
+ * with nothing enforcing it: `checkAdjacency` skips a component with
+ * fewer than two registered members, so the day a pending row's rule
+ * ships, its cluster starts mattering and no existing test knows.
+ * Tests assert against THIS list, so the set of clusters under test is
+ * the set that exists.
+ */
+function entangledClusters(
+	catalogue: readonly Pattern[],
+	rules: readonly Rule[] = RULES,
+): Cluster[] {
+	const index = new Map(rules.map((rule, at) => [rule.id, at]));
+	const known = new Set(catalogue.map((row) => row.id));
+	const partners = undirectedGraph(catalogue);
+	const seen = new Set<string>();
+	const clusters: Cluster[] = [];
+	for (const rule of rules) {
+		if (seen.has(rule.id)) {
+			continue;
+		}
+		const ids = componentOf(rule.id, partners, seen);
+		const at = ids
+			.flatMap((id) => {
+				const found = index.get(id);
+				return found === undefined ? [] : [found];
+			})
+			.toSorted((a, b) => a - b);
+		const stale = ids
+			.filter((id) => !(known.has(id) || index.has(id)))
+			.toSorted((a, b) => a.localeCompare(b));
+		// The walk starts from a registered id, so `at` always holds at
+		// least one position and `Math.max` below is never called on an
+		// empty list. Two registered members is the ORDER question; a
+		// stale endpoint is a RECORD question, and a component can raise
+		// the second while falling short of the first.
+		if (at.length >= 2 || stale.length > 0) {
+			clusters.push({
+				at,
+				ids: ids.toSorted((a, b) => a.localeCompare(b)),
+				stale,
+			});
+		}
+	}
+	return clusters.toSorted((a, b) =>
+		(a.ids[0] ?? '').localeCompare(b.ids[0] ?? ''),
+	);
+}
+
 /**
  * Entangled rows own the same records; a gap between them in execution
  * order means one rewrites the other's output.
@@ -358,50 +537,119 @@ function coverage(catalogue: readonly Pattern[]): Coverage {
  * can never be satisfied by a group larger than a pair. What "adjacent"
  * means for a cluster is that its members occupy a gap-free span, in
  * any order.
+ *
+ * ## What this gate CANNOT prove, stated rather than implied
+ *
+ * It reads the catalogue's `entangledWith` graph and nothing else, so
+ * an entanglement nobody recorded does not exist as far as it is
+ * concerned. A row carrying NO edge is invisible to it: the row's
+ * component is a singleton, `entangledClusters` drops it, and the gate
+ * returns clean whatever the registry does with that rule. 56 of the
+ * 62 rows still in `PENDING` carry no edge at all (measured
+ * 2026-08-25), so for most of the work ahead this gate is
+ * unfalsifiable BY CONSTRUCTION — not because the check is weak, but
+ * because its input is incomplete.
+ *
+ * That is a catalogue-completeness problem and it is not fixable
+ * here. What a rule author gets from a clean run is therefore: no
+ * RECORDED entanglement is split. Not: no entanglement is split. The
+ * cheapest guard remains the one batch 1 learned the hard way — run
+ * the corpus under both orders and compare bytes — which needs no
+ * edge in the catalogue to work.
  */
 function checkAdjacency(
 	catalogue: readonly Pattern[],
 	rules: readonly Rule[] = RULES,
 ): string[] {
-	const index = new Map(rules.map((rule, at) => [rule.id, at]));
-	const partners = new Map(
-		catalogue.map((row) => [row.id, row.entangledWith ?? []]),
-	);
-	const seen = new Set<string>();
-	const problems: string[] = [];
-	for (const rule of rules) {
-		if (seen.has(rule.id)) {
-			continue;
+	return entangledClusters(catalogue, rules).flatMap((cluster) => {
+		const problems: string[] = [];
+		if (cluster.stale.length > 0) {
+			problems.push(
+				`${cluster.ids.join(', ')} names unknown id(s): ${cluster.stale.join(', ')}`,
+			);
 		}
-		// Breadth-first over the entanglement graph: one component per
-		// pass, so a cluster reports once rather than once per edge.
-		const cluster: string[] = [];
-		const queue = [rule.id];
-		while (queue.length > 0) {
-			const id = queue.pop() as string;
-			if (seen.has(id)) {
+		const span = Math.max(...cluster.at) - Math.min(...cluster.at) + 1;
+		if (span !== cluster.at.length) {
+			problems.push(
+				`${cluster.ids.join(', ')} span ${span} slots for ${cluster.at.length} registered rule(s)`,
+			);
+		}
+		return problems;
+	});
+}
+
+/**
+ * Recorded entanglements the adjacency gate says NOTHING about —
+ * neither validated inside a cluster nor reported as a problem.
+ *
+ * THE INVARIANT, stated once rather than as a third spot-fix: a
+ * recorded entanglement touching the registry must produce a validated
+ * cluster or a reported problem, never silence. Three separate ways of
+ * breaking it have now been found on this branch, and each one closed
+ * a hole while leaving the shape intact:
+ *
+ * 1. The graph was built DIRECTED, so a one-sided edge put its two
+ *    endpoints in different components and neither reached two
+ *    registered members (`undirectedGraph`, pre-PR wave).
+ * 2. A component with fewer than two registered members is dropped,
+ *    which is correct for ORDER and left the rtl 3-clique pinned by
+ *    nothing (Task 3; the derived-set assertion in
+ *    `registry.order.test.ts` is what closed it).
+ * 3. A DANGLING endpoint — an id no catalogue row holds — shrinks a
+ *    component below two registered members and dropped it silently
+ *    (CodeRabbit round 2; `Cluster.stale` above).
+ *
+ * This function is the conservation law behind all three: walk the
+ * edges the catalogue actually records and require each one that
+ * touches a registered rule to land inside a derived cluster. It would
+ * have failed on 1 and on 3, and it fails on a FOURTH way of losing an
+ * edge that nobody has thought of yet — which is the point, given that
+ * three have turned up already.
+ *
+ * What it does NOT replace is the derived-set assertion. An edge
+ * DELETED from the catalogue is not a recorded edge, so this walks
+ * past it; only pinning the cluster set notices. Two complementary
+ * claims, not one — see `registry.order.test.ts`.
+ *
+ * Edges between two unregistered rows are excluded rather than
+ * missing: execution order cannot be wrong about a rule that does not
+ * run. 4 of the catalogue's 9 undirected edges are of that kind today.
+ * Self-edges are excluded too — `checkEntanglement` owns those, and a
+ * component cannot be split from itself.
+ */
+function unaccountedEdges(
+	catalogue: readonly Pattern[],
+	rules: readonly Rule[] = RULES,
+): string[] {
+	const registered = new Set(rules.map((rule) => rule.id));
+	const clusters = entangledClusters(catalogue, rules);
+	const found = new Set<string>();
+	for (const row of catalogue) {
+		for (const other of row.entangledWith ?? []) {
+			if (
+				other === row.id ||
+				!(registered.has(row.id) || registered.has(other)) ||
+				clusters.some(
+					(cluster) =>
+						cluster.ids.includes(row.id) && cluster.ids.includes(other),
+				)
+			) {
 				continue;
 			}
-			seen.add(id);
-			cluster.push(id);
-			queue.push(...(partners.get(id) ?? []).filter((p) => !seen.has(p)));
-		}
-		const at = cluster.flatMap((id) => {
-			const found = index.get(id);
-			return found === undefined ? [] : [found];
-		});
-		if (at.length < 2) {
-			continue;
-		}
-		const span = Math.max(...at) - Math.min(...at) + 1;
-		if (span !== at.length) {
-			problems.push(
-				`${cluster.join(', ')} span ${span} slots for ${at.length} registered rule(s)`,
+			found.add(
+				`${[row.id, other].toSorted((a, b) => a.localeCompare(b)).join(' ~ ')}: recorded entanglement is invisible to the adjacency gate`,
 			);
 		}
 	}
-	return problems;
+	return [...found].toSorted((a, b) => a.localeCompare(b));
 }
 
-export type { Coverage };
-export { checkAdjacency, coverage, PENDING, RULES };
+export type { Cluster, Coverage };
+export {
+	checkAdjacency,
+	coverage,
+	entangledClusters,
+	PENDING,
+	RULES,
+	unaccountedEdges,
+};

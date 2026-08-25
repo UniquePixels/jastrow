@@ -23,7 +23,6 @@ import type { SourceEntry, SourceSense } from './types.ts';
 // Hoisted per lint/performance/useTopLevelRegex — no state (`g`/`y`)
 // flags, so sharing across calls is safe.
 const STEM_OPENS_AT_TWO = /^[*—]?2\)/u;
-const ORPHAN_REF_ITEM = /^Jastrow, (?<target>.+) (?<n>\d+)$/u;
 
 type PassName =
 	| 'rejoin-chopped'
@@ -31,7 +30,6 @@ type PassName =
 	| 'marker-reinsert'
 	| 'label-repair'
 	| 'binyan-cleanup'
-	| 'cite-escape'
 	| 'cite-wrap'
 	| 'refs-removal';
 
@@ -223,38 +221,33 @@ const REINSERTS: TextEdit[] = [
 const DASH_LABELS = new Set(['M02309', 'O00408', 'S02030', 'U00745', 'U00939']);
 
 // ---------------------------------------------------------------------
-// 02 — orphan refs. Class 1 (21 items): the source anchors exist but a
-// raw gershayim `"` inside href/data-ref truncates the attribute; escape
-// it as `&quot;` so the citation detector recovers the full ref. rid →
-// orphan refs item. Class 2 (5 items / 3 texts): wrap the bare ibid text
-// in a refLink anchor carrying the old refs value (P00331's three refs
-// items are all covered by its one `Ib. 88ᵇ` citation). Class 3
+// 02 — orphan refs. Class 2 (5 items / 3 texts): wrap the bare ibid
+// text in a refLink anchor carrying the old refs value (P00331's three
+// refs items are all covered by its one `Ib. 88ᵇ` citation). Class 3
 // (3 items): remove — judged user-added via Sefaria's interface; show
 // only what Jastrow linked.
+//
+// CLASS 1 IS RETIRED, AND IT WAS SUPERSEDED RATHER THAN WITHDRAWN
+// (maintainer ruling, 2026-08-24). It held 21 rid-keyed entries that
+// escaped the gershayim `"` truncating an href/data-ref as `&quot;`,
+// so the citation detector recovered the full ref. That was correct
+// for its time: the quote broke the attribute, and escaping it was the
+// only repair available without touching the parser. Two things then
+// changed. #47 fixed the parser side of the same family, and transform
+// batch 3a corrects the CHARACTER — the corpus writes `"` where print
+// has `״` (U+05F4) — across all 90 damaged anchors and the headwords
+// they point at, in one pass. The escape and the transform were the
+// same defect repaired twice and disagreeing about the byte: the
+// escape leaves an ASCII quote in entity form while the transform
+// writes a gershayim, so the two spellings of the same address stopped
+// matching. Retiring the escape leaves ONE spelling in the corpus, and
+// it matches the standing rulings that the pipeline CORRECTS data
+// rather than preserves it and that an OCR glyph fix is a correction
+// rather than an invention. The 21 rids and their now-repaired items
+// live on in REPAIRED_ORPHAN_ITEMS below, which still gates them.
+// Design: docs/specs/2026-08-24-gershayim-transform-design.md;
+// batch report: docs/v2/transform-batch-3a.md §7.
 // ---------------------------------------------------------------------
-const CITE_ESCAPES: Record<string, string> = {
-	A01069: 'Jastrow, א"ט 1',
-	A01940: 'Jastrow, אלפ"א 1',
-	B00752: 'Jastrow, בי"ת 1',
-	B00757: 'Jastrow, בי"ת 1',
-	C00473: 'Jastrow, ג"ר 1',
-	C01036: 'Jastrow, גימ"ל 1',
-	C01224: 'Jastrow, א"ת 1',
-	C01225: 'Jastrow, ג"ר 1',
-	D00791: 'Jastrow, אח"ס 1',
-	E00326: 'Jastrow, ה"א 1',
-	E00686: 'Jastrow, ה"א 1',
-	J00083: 'Jastrow, יג"ל 1',
-	M01200: 'Jastrow, מ"ם 1',
-	M01490: 'Jastrow, דל"ה 1',
-	M01690: 'Jastrow, אאלר"ן 1',
-	N00910: 'Jastrow, אאלר"ן 1',
-	P00169: 'Jastrow, דצ"ך 1',
-	P00600: 'Jastrow, עיי"ן 1',
-	Q00002: 'Jastrow, פ"ה 1',
-	U02063: 'Jastrow, א"ת 1',
-	V00042: 'Jastrow, תבש"ט 1',
-};
 
 const CITE_WRAPS: TextEdit[] = [
 	{
@@ -471,52 +464,6 @@ function cleanBinyanForms(entry: SourceEntry, records: RepairRecord[]): void {
 	}
 }
 
-/** Escape the gershayim `"` inside the malformed anchor's href/data-ref
- * attribute values as `&quot;` so both attributes parse to the full ref. */
-function escapeCiteAttributes(
-	entry: SourceEntry,
-	item: string,
-	records: RepairRecord[],
-): void {
-	const match = ORPHAN_REF_ITEM.exec(item);
-	const target = match?.groups?.['target'];
-	const n = match?.groups?.['n'];
-	if (target === undefined || n === undefined || !target.includes('"')) {
-		throw new Error(`${entry.rid}: unexpected orphan refs item "${item}"`);
-	}
-	// Not input sanitization: a byte-level repair of a known, reviewed
-	// attribute value (the headword's own gershayim), swapping the one
-	// character that truncates the attribute for its entity form.
-	const escaped = target.split('"').join('&quot;');
-	const pairs: [string, string][] = [
-		[`/Jastrow,_${target}.${n}"`, `/Jastrow,_${escaped}.${n}"`],
-		[`"Jastrow, ${target} ${n}"`, `"Jastrow, ${escaped} ${n}"`],
-	];
-	let total = 0;
-	for (const sense of walkSensesDeep(entry.content.senses)) {
-		const original = sense.definition;
-		let definition = original ?? '';
-		for (const [find, replace] of pairs) {
-			total += countOccurrences(definition, find);
-			definition = definition.replaceAll(find, replace);
-		}
-		// Only write back on change — a grammar-only sense with no
-		// definition must not gain a materialized empty string.
-		if (original !== undefined && definition !== original) {
-			sense.definition = definition;
-		}
-	}
-	if (total === 0) {
-		throw new Error(`${entry.rid}: no malformed anchor found for "${item}"`);
-	}
-	records.push({
-		detail: `escaped gershayim in ${total} attribute value(s) for "${item}"`,
-		deviation: false,
-		pass: 'cite-escape',
-		rid: entry.rid,
-	});
-}
-
 /** Remove one of the 3 baseless orphan `refs` items (02 review:
  * user-added via Sefaria's interface — show only what Jastrow
  * linked). */
@@ -567,10 +514,6 @@ function applyRepairs(source: SourceEntry): {
 	}
 	repairLabels(entry, records);
 	cleanBinyanForms(entry, records);
-	const escapeItem = CITE_ESCAPES[rid];
-	if (escapeItem !== undefined) {
-		escapeCiteAttributes(entry, escapeItem, records);
-	}
 	for (const edit of CITE_WRAPS) {
 		if (edit.rid === rid) {
 			applyTextEdit(entry, edit, 'cite-wrap', records);
@@ -622,11 +565,39 @@ const CONFIRMED_NO_CHANGE = [
  * inline citation basis for (migrate-dry's resolution recount). P00331's
  * two finer-grained refs items (Eruvin 88b:17, 88b:22) are absorbed by
  * the one `Ib. 88ᵇ` wrap — same page citation — and are not expected to
- * match an anchor of their own. */
+ * match an anchor of their own.
+ *
+ * The first 21 are the retired class-1 escapes (see the 02 block
+ * above). They are written out with the GERSHAYIM `״` rather than the
+ * ASCII `"` their `refs[]` items carry, because the basis is now
+ * supplied by `ascii-quote-as-gershayim-in-body` /
+ * `gershayim-breaks-ref-attribute` rather than by an escape, and the
+ * recount runs on the transformed entry. Keeping them listed is the
+ * point: the escape retired, the OBLIGATION did not, so if the
+ * transform ever stops reaching one of these anchors this gate says so
+ * instead of the item quietly going orphan again. */
 const REPAIRED_ORPHAN_ITEMS: Record<string, string[]> = {
-	...Object.fromEntries(
-		Object.entries(CITE_ESCAPES).map(([rid, item]) => [rid, [item]]),
-	),
+	A01069: ['Jastrow, א״ט 1'],
+	A01940: ['Jastrow, אלפ״א 1'],
+	B00752: ['Jastrow, בי״ת 1'],
+	B00757: ['Jastrow, בי״ת 1'],
+	C00473: ['Jastrow, ג״ר 1'],
+	C01036: ['Jastrow, גימ״ל 1'],
+	C01224: ['Jastrow, א״ת 1'],
+	C01225: ['Jastrow, ג״ר 1'],
+	D00791: ['Jastrow, אח״ס 1'],
+	E00326: ['Jastrow, ה״א 1'],
+	E00686: ['Jastrow, ה״א 1'],
+	J00083: ['Jastrow, יג״ל 1'],
+	M01200: ['Jastrow, מ״ם 1'],
+	M01490: ['Jastrow, דל״ה 1'],
+	M01690: ['Jastrow, אאלר״ן 1'],
+	N00910: ['Jastrow, אאלר״ן 1'],
+	P00169: ['Jastrow, דצ״ך 1'],
+	P00600: ['Jastrow, עיי״ן 1'],
+	Q00002: ['Jastrow, פ״ה 1'],
+	U02063: ['Jastrow, א״ת 1'],
+	V00042: ['Jastrow, תבש״ט 1'],
 	P00331: ['Eruvin 88b:1'],
 	P01404: ['Targum Jerusalem, Exodus 21:18'],
 	S01230: ['Yoma 85b:14'],

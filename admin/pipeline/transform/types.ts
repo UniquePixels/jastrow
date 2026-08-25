@@ -48,6 +48,49 @@ interface TransformResult {
 	 * source is a violation, not an allowance. */
 	copied?: readonly string[];
 	entry: SourceEntry;
+	/** Opening tags this call repaired by GLYPH SUBSTITUTION alone
+	 * (batch-3a spec §4.3). `from` is an opening tag in this entry's
+	 * INPUT; `target` is the tag written. `link-target.ts` accepts the
+	 * pair only if mapping every `״` in `target` back to `"` yields
+	 * `from` exactly — same length, same characters, same order — and
+	 * only if `from` is the tag of an anchor the input actually held.
+	 *
+	 * Stated on RAW TAG BYTES rather than on parsed targets, and the
+	 * reason is the defect itself: an ASCII quote inside a
+	 * `"`-delimited attribute terminates it, so all 90 damaged anchors
+	 * parse `malformed: false` with a truncated `data-ref`. A case
+	 * phrased against the input target set would compare the repair to
+	 * `Jastrow, אל` and reject it for the truncation it is fixing.
+	 *
+	 * A claim is matched to an anchor by `target === anchor.tag`, and
+	 * every anchor it matches must satisfy it. A claim naming a tag no
+	 * anchor carries licenses nothing.
+	 *
+	 * Three further conditions rule authors need to know about, all of
+	 * them fail-closed:
+	 *
+	 * - A `from` that itself contains a `״` can never be accepted,
+	 *   because the mapping leaves no gershayim behind for it to match.
+	 *   That is correct rather than an oversight, and by construction
+	 *   rather than by a corpus fact: "the input holds no U+05F4" is
+	 *   true of the snapshot and false under composition, since
+	 *   `run.ts` feeds each rule the previous rule's output (batch
+	 *   report §9.4). `from` is an OPENING TAG, and the registry's only
+	 *   writer of `״` is `gershayim.ts`, whose `repairText` leaves
+	 *   every `<…>` run byte-identical and whose `repairTags` writes
+	 *   into `target`. No tag in a rule's input can carry one; if one
+	 *   ever did, the claim would be refused rather than licensed.
+	 * - A claim may license no MORE anchors than the input held anchors
+	 *   carrying its `from`. Tag values repeat (two corpus entries
+	 *   repeat a damaged tag verbatim), and without the cap one honest
+	 *   claim would also license a sibling anchor that another rule
+	 *   retargeted to the repaired bytes.
+	 * - Every `״` in `target` must stand between two Hebrew letters,
+	 *   combining points on the left-hand letter tolerated. Converting
+	 *   the quotes that DELIMIT an attribute de-maps just as exactly as
+	 *   converting the one stranded inside it, and would otherwise
+	 *   license a tag whose `href` parses to nothing. */
+	glyphCorrected?: readonly { from: string; target: string }[];
 	/** Link targets this call REBUILT from two other targets in this
 	 * entry's input (batch-2 link spec §3.2 case 4, ruling of
 	 * 2026-08-23). `head` supplies a leading run of the written
