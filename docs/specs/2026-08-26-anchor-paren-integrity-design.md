@@ -175,20 +175,52 @@ mode as `anchor-swallows-close-paren`'s missing `reason`, one level up.
 edited surgically (module design §6). Once it exists the registry's
 adjacency gate enforces what the prose has been asserting alone.
 
-### 3.3 The detector should ship
+### 3.3 What ships is a commutation gate, not this detector
 
-It is ~60 lines, it runs in one corpus pass, it needs no rule to exist,
-and it answers the question 3b could not: *does this predicate claim
-bytes another row already owns?* It found one undeclared containment on
-its first run over ten rows. It belongs in the transform module as a
-test-tier gate alongside `transform:count`, not in a scratch file.
-Proposed as a task in this batch's plan; the cost is one file.
+The byte-span detector above is a **design-time** instrument. It works
+because I wrote the ten predicates by hand, as free-standing regexes
+and anchor walks that can report offsets. `Rule` reports no offsets —
+`apply` returns a rewritten entry and a `TransformRecord` per instance
+— so the detector cannot be pointed at the registry, and a gate that
+only works on predicates written twice is a gate nobody will maintain.
 
-**It does not close the whole gap.** 46 rows are `PENDING` with no
-predicate to test against, so a rule claiming a row that has *no rule
-yet* stays untestable by construction — the detector only compares
-predicates that exist. What it makes cheap is the check at the moment a
-new predicate is written, which is when the collision is introduced.
+The shipped gate asks the same question through the interface that
+does exist. **Two rules contend for the same bytes exactly when their
+composition is order-dependent**, so for every unordered pair of
+registered rules:
+
+> `A ∘ B ≡ B ∘ A` on every entry — unless the pair is declared
+> `entangledWith` in the catalogue.
+
+Non-commutation is not a bug on its own; it is the *definition* of the
+entanglement the catalogue already models, and `checkAdjacency()`
+already requires entangled rules to sit gap-free in the registry. What
+has been missing is the other direction: **nothing checks that a pair
+which behaves as entangled is declared as entangled.** That is the
+undeclared containment of §3.2, and it is 3b's four near-misses —
+`italicGlossPeriodOutside` destroying `italic-lone-punctuation`'s
+catalogued periods is precisely a pair whose two orders disagree.
+
+It is affordable because the candidate set is tiny. `count.ts` already
+runs each rule alone over the pinned snapshot; recording the set of
+`rid`s each rule fired on turns 561 pairs into the handful whose rid
+sets intersect at all. Only those pairs pay for the two-order
+comparison, and only on the entries in the intersection.
+
+Three properties worth stating rather than discovering:
+
+- **It generalises past this batch.** The gate covers all 34 rules the
+  registry will hold after batch 4, not the 10 rows measured here.
+- **It is not a superset of the design-time detector.** Two rules can
+  claim overlapping bytes and still commute — if each is idempotent on
+  the other's output the orders agree and the gate stays silent. The
+  span detector remains the sharper instrument at spec time, and this
+  document is where batch 4's spans were compared.
+- **It cannot see a `PENDING` row.** 46 rows have no rule, so a
+  predicate claiming a population that has no predicate yet stays
+  untestable by construction — 3b's finding, undiminished. What the
+  gate makes cheap is the check at the moment a second rule is
+  written, which is when the contention is introduced.
 
 ## 4. Two rows say in their own audits that they may not be transformable
 
@@ -277,7 +309,7 @@ Unchanged from module design §9, plus one addition:
 | `no-new-text`, per rule | empty `allows` throughout; no rule here writes text |
 | `markup`, per rule | output no less well-formed than input — the load-bearing gate for nine boundary moves |
 | Registry | coverage + `checkAdjacency` over the two entangled pairs |
-| **Span collision (new)** | no two predicates claim the same bytes, except where `entangledWith` declares it |
+| **Commutation (new)** | every unordered rule pair commutes, except where `entangledWith` declares it — §3.3 |
 | `pipeline-links.test.ts` | `applyRepairs` + registry over 32,512 entries — **the gate 3a added; nine of nine rules here edit anchors, so it is the one that matters most** |
 | `body:migrate-dry` | 32,512/32,512, 0 schema failures, 0 quarantines |
 
@@ -301,8 +333,9 @@ links **+90 / −0** unchanged, plus whatever this batch adds.
    boundary and file the 38-instance target disagreement as its own
    row, or hold the whole row.
 5. **§5 rule 3 — decide how two catalogue rows register as one rule.**
-6. **§3.3 — confirm the span-collision detector ships** as a test-tier
-   gate in this batch rather than as a follow-up.
+6. **§3.3 — confirm the commutation gate ships** in this batch rather
+   than as a follow-up. It covers all 34 rules the registry will hold,
+   not just this batch's rows.
 
 ## 8. Expected write-backs to `patterns.jsonl`
 
