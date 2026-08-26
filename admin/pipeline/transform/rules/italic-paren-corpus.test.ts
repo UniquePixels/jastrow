@@ -36,7 +36,6 @@ import { italicSwallowsCloseParen } from './italic-paren.ts';
  * walk the rule uses, restated here so a change to the rule's own
  * constant cannot silently move the measurement with it. */
 const RUN = /<i>(?:(?!<\/?i>)[\s\S])*<\/i>/gu;
-const TAG = /<[^>]*>/gu;
 const OPEN_PAREN = /\(/gu;
 const CLOSE_PAREN = /\)/gu;
 
@@ -67,7 +66,14 @@ interface Balance {
 function tally(entry: SourceEntry, into: Balance): void {
 	for (const field of fieldsOf(entry)) {
 		for (const run of field.matchAll(RUN)) {
-			const body = run[0].replace(TAG, '');
+			// `stripTags`, not a regex pass. A single `<[^>]*>` sweep can
+			// leave a tag the sweep itself assembled from the remainder,
+			// which is what CodeQL's incomplete-multi-character-sanitization
+			// alert names. The tokenizer cannot: it classifies each token
+			// once. Nothing here is a sanitizer — this is a measurement —
+			// but the repo already exports the correct tool (Task 0) and
+			// the counts below prove the two agree.
+			const body = stripTags(run[0]);
 			const open = (body.match(OPEN_PAREN) ?? []).length;
 			const close = (body.match(CLOSE_PAREN) ?? []).length;
 			into.runs += 1;
