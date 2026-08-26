@@ -15,7 +15,7 @@ The row was catalogued at "44 occurrences / 43 entries" with no probe
 published. The naive reading of its description — a period between a
 closing anchor and an opening `dir="rtl"` span — gives:
 
-```
+```text
 </a>. <span dir="rtl">                          54 occurrences / 53 entries
   … anchor is a CITATION (data-ref not "Jastrow, …")   44 / 43   <- catalogued
   … anchor is a Jastrow cross-reference                10 / 10

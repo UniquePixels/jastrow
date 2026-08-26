@@ -222,20 +222,6 @@ function auditEntry(
 	return true;
 }
 
-describe('corpus tier: italicLonePunctuation is still Class A', () => {
-	it('changes no field’s text on any entry it touches', async () => {
-		const problems: string[] = [];
-		let touched = 0;
-		for await (const entry of readSourceEntries()) {
-			touched += auditEntry(italicLonePunctuation, entry, problems) ? 1 : 0;
-		}
-		expect(problems).toEqual([]);
-		// Vacuity guard: a predicate narrowed to nothing would satisfy
-		// an empty-population invariant too.
-		expect(touched).toBeGreaterThan(0);
-	});
-});
-
 /** The spaced section-break defect, read the way the row's own
  * `reason` counts it: through `stripTags`, since the space never sits
  * next to the dash in the raw markup (a tag always separates them).
@@ -252,69 +238,94 @@ const SPACED_DEFECT = /\. —/gu;
 const TIGHT_THEN_SPACE = /\.— /gu;
 
 function countMatches(entry: SourceEntry, pattern: RegExp): number {
-	let count = 0;
-	for (const field of fieldsOf(entry)) {
-		count += (stripTags(field).match(pattern) ?? []).length;
-	}
-	return count;
+	return fieldsOf(entry).reduce(
+		(total, field) => total + (stripTags(field).match(pattern) ?? []).length,
+		0,
+	);
 }
 
-interface DefectDelta {
-	after: number;
-	before: number;
-	touched: number;
-}
-
-/** Runs `emDashSectionBreak` over the full corpus once, measuring
- * `pattern`'s occurrence count before and after on every entry the
- * rule touches. Shared by both defect-count assertions below so
- * neither `it` needs its own corpus walk. */
-async function measureDefectDelta(pattern: RegExp): Promise<DefectDelta> {
-	let before = 0;
-	let after = 0;
-	let touched = 0;
-	for await (const entry of readSourceEntries()) {
-		const out = emDashSectionBreak.apply(entry);
-		if (out.records.length === 0) {
-			continue;
-		}
-		touched += 1;
-		before += countMatches(entry, pattern);
-		after += countMatches(out.entry, pattern);
-	}
-	return { after, before, touched };
-}
-
-/** At ENTRY granularity, how many of `emDashSectionBreak`'s touched
- * entries `italicGlossPeriodOutside` still fires on afterward, at a
- * different, unrelated locus in the same body. */
-async function countEntryLevelRetouches(): Promise<{
+interface CorpusScan {
+	/** Of `emDashSectionBreak`'s touched entries, how many
+	 * `italicGlossPeriodOutside` still fires on afterward, at a
+	 * different, unrelated locus in the same body. */
 	alsoTouchedElsewhere: number;
+	/** Entries whose text `italicLonePunctuation` changed. Class A, so
+	 * this must be empty. */
+	loneProblems: string[];
+	/** Entries `italicLonePunctuation` touched — its vacuity guard. */
+	loneTouched: number;
+	/** Entries `emDashSectionBreak` touched: the vacuity guard BOTH
+	 * defect deltas below share, and the 270 the entry-granularity
+	 * assertion pins. */
 	seamTouched: number;
-}> {
-	let seamTouched = 0;
-	let alsoTouchedElsewhere = 0;
-	for await (const entry of readSourceEntries()) {
-		const merged = emDashSectionBreak.apply(entry);
-		if (merged.records.length === 0) {
-			continue;
-		}
-		seamTouched += 1;
-		if (italicGlossPeriodOutside.apply(merged.entry).records.length > 0) {
-			alsoTouchedElsewhere += 1;
-		}
-	}
-	return { alsoTouchedElsewhere, seamTouched };
+	/** `SPACED_DEFECT`'s occurrence count before and after, summed over
+	 * the touched entries. */
+	spaced: { after: number; before: number };
+	/** `TIGHT_THEN_SPACE`'s, over the same entries. */
+	tight: { after: number; before: number };
 }
+
+let scanned: Promise<CorpusScan> | null = null;
+
+/** ONE pass over the corpus for every corpus-tier assertion in this
+ * file, behind a lazily-awaited cached promise. Both defect patterns
+ * are measured in the SAME walk rather than one walk each — cheaper,
+ * and it guarantees the two are read off the same set of touched
+ * entries, which is the pairing round 1 lacked when it measured only
+ * the 230-member shape and so could not see the new shape its own
+ * repair created. Lazy rather than at module scope, on
+ * `seam-space-corpus.test.ts`'s shape: module evaluation is covered by
+ * no test timeout, so a slow corpus there fails the suite with nothing
+ * naming the cause. */
+function scanCorpus(): Promise<CorpusScan> {
+	scanned ??= (async (): Promise<CorpusScan> => {
+		const scan: CorpusScan = {
+			alsoTouchedElsewhere: 0,
+			loneProblems: [],
+			loneTouched: 0,
+			seamTouched: 0,
+			spaced: { after: 0, before: 0 },
+			tight: { after: 0, before: 0 },
+		};
+		for await (const entry of readSourceEntries()) {
+			if (auditEntry(italicLonePunctuation, entry, scan.loneProblems)) {
+				scan.loneTouched += 1;
+			}
+			const out = emDashSectionBreak.apply(entry);
+			if (out.records.length === 0) {
+				continue;
+			}
+			scan.seamTouched += 1;
+			scan.spaced.before += countMatches(entry, SPACED_DEFECT);
+			scan.spaced.after += countMatches(out.entry, SPACED_DEFECT);
+			scan.tight.before += countMatches(entry, TIGHT_THEN_SPACE);
+			scan.tight.after += countMatches(out.entry, TIGHT_THEN_SPACE);
+			scan.alsoTouchedElsewhere +=
+				italicGlossPeriodOutside.apply(out.entry).records.length > 0 ? 1 : 0;
+		}
+		return scan;
+	})();
+	return scanned;
+}
+
+describe('corpus tier: italicLonePunctuation is still Class A', () => {
+	it('changes no field’s text on any entry it touches', async () => {
+		const { loneProblems, loneTouched } = await scanCorpus();
+		expect(loneProblems).toEqual([]);
+		// Vacuity guard: a predicate narrowed to nothing would satisfy
+		// an empty-population invariant too.
+		expect(loneTouched).toBeGreaterThan(0);
+	}, 180_000);
+});
 
 describe('corpus tier: emDashSectionBreak is Class C — a defect-count delta, not an invariant', () => {
 	it('the rendered spaced em-dash population (both shapes) goes 278 before to 0 after', async () => {
-		const { after, before, touched } = await measureDefectDelta(SPACED_DEFECT);
+		const { seamTouched, spaced } = await scanCorpus();
 		// Vacuity guard: the rule must actually have fired.
-		expect(touched).toBeGreaterThan(0);
-		expect(before).toBe(278);
-		expect(after).toBe(0);
-	});
+		expect(seamTouched).toBeGreaterThan(0);
+		expect(spaced.before).toBe(278);
+		expect(spaced.after).toBe(0);
+	}, 180_000);
 
 	// The metric that would have caught fix round 1's gap: round 1's
 	// repair left the empty-label shape reading ".— Pl." — tight dash,
@@ -326,16 +337,15 @@ describe('corpus tier: emDashSectionBreak is Class C — a defect-count delta, n
 	// absolute-zero assertion would fail on legitimate text. The delta
 	// isolates what THIS RULE creates, which must be nothing.
 	it('creates zero new instances of the tight-dash-then-space shape', async () => {
-		const { after, before, touched } =
-			await measureDefectDelta(TIGHT_THEN_SPACE);
-		expect(touched).toBeGreaterThan(0);
-		expect(after - before).toBe(0);
+		const { seamTouched, tight } = await scanCorpus();
+		expect(seamTouched).toBeGreaterThan(0);
+		expect(tight.after - tight.before).toBe(0);
 		// Pinned absolute values too, so a future change that shifts
 		// which entries carry the pre-existing instances is visible
 		// rather than silently absorbed by the delta check alone.
-		expect(before).toBe(2);
-		expect(after).toBe(2);
-	});
+		expect(tight.before).toBe(2);
+		expect(tight.after).toBe(2);
+	}, 180_000);
 
 	// The granularity distinction fix round 1's docstring drew but did
 	// not pin: at the SEAM this rule owns, nothing downstream re-touches
@@ -344,9 +354,8 @@ describe('corpus tier: emDashSectionBreak is Class C — a defect-count delta, n
 	// minority — a different, unrelated period elsewhere in the same
 	// body — which is expected and not this rule's defect to prevent.
 	it('at entry granularity, 23 of 270 still get touched elsewhere by italicGlossPeriodOutside', async () => {
-		const { alsoTouchedElsewhere, seamTouched } =
-			await countEntryLevelRetouches();
+		const { alsoTouchedElsewhere, seamTouched } = await scanCorpus();
 		expect(seamTouched).toBe(270);
 		expect(alsoTouchedElsewhere).toBe(23);
-	});
+	}, 180_000);
 });

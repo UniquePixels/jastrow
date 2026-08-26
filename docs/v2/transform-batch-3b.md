@@ -251,7 +251,7 @@ have arrived at by reasoning.
 `anchorItalicSpace` and `parenTagSpace` inserted their space in front of
 an italic run OPENING with a left-attaching punctuation mark:
 
-```
+```text
 (<i>well-covered</i>)<i>;guarded;</i>   →   ) <i>;guarded;</i>
                                         renders  well-covered) ;guarded;
 
@@ -319,7 +319,7 @@ guard the two rules own 57 and 53. Re-derive with:
 `)</a><i>` = 53. The section's point is unaffected — the link check is
 warranted at either number — but 165 was never a count of anything.
 
-```
+```text
 resolving link targets   72,593     gained 90     LOST 0
 ```
 
@@ -337,7 +337,7 @@ EARNED over 32,512 entries rather than declared.
 
 Record count **unchanged from `v2`**:
 
-```
+```text
 entries=32512 repaired=812
 binyan-cleanup: 938   marker-reinsert: 14   rejoin-chopped: 36
 implied-one: 4        label-repair: 6       refs-removal: 3
@@ -364,7 +364,7 @@ in situ. Both are correct and they are not the same number.
 27 rules, 3 mismatches — two inherited (`ib-yoma-2a` −124,
 `sifre-ib-resolves-to-yalkut` −5) and one new:
 
-```
+```text
 paren-tag-no-space   measured(entries)=108  catalogued=115  DELTA -7
 ```
 
@@ -412,7 +412,7 @@ twelve match exactly.
 ## Verification, reproducible
 
 ```bash
-bun test                                     # 861 pass, 0 fail
+bun test                                     # 862 pass, 0 fail
 biome check .                                # 116 infos, 0 errors
 bun transform:count                          # 27 rules, 3 mismatches
 bun body:migrate-dry                         # entries=32512 repaired=812

@@ -135,7 +135,7 @@ function empty(): Balance {
 	return { balanced: 0, runs: 0, surplusClose: 0, surplusOpen: 0 };
 }
 
-async function measure(): Promise<Measurement> {
+async function walk(): Promise<Measurement> {
 	const m: Measurement = {
 		after: empty(),
 		before: empty(),
@@ -176,6 +176,20 @@ async function measure(): Promise<Measurement> {
 	return m;
 }
 
+let measured: Promise<Measurement> | null = null;
+
+/** ONE pass over the corpus, shared by all six assertions below.
+ * Behind a lazily-awaited cached promise on
+ * `seam-space-corpus.test.ts`'s shape rather than at module scope:
+ * module evaluation is covered by no test timeout, so a slow corpus
+ * there fails the suite with nothing naming the cause. Every caller
+ * gets the same frozen-by-convention `Measurement`; nothing below
+ * mutates it. */
+function measure(): Promise<Measurement> {
+	measured ??= walk();
+	return measured;
+}
+
 describe('corpus tier: italicSwallowsCloseParen is a defect-count delta', () => {
 	it('reproduces the catalogued 10 and takes the shipped 8 to zero', async () => {
 		const m = await measure();
@@ -189,7 +203,7 @@ describe('corpus tier: italicSwallowsCloseParen is a defect-count delta', () => 
 		// Vacuity guard. A rule that stopped firing would leave 10 above
 		// and 0 here, so the two cannot both be satisfied by a no-op.
 		expect(m.touched).toHaveLength(8);
-	});
+	}, 180_000);
 
 	it('leaves exactly the two lettered sub-sense markers standing', async () => {
 		const m = await measure();
@@ -198,7 +212,7 @@ describe('corpus tier: italicSwallowsCloseParen is a defect-count delta', () => 
 		// mid-run, which is why the marker guard is not anchored to a
 		// run's head.
 		expect(m.survivors).toEqual(['Q01198', 'S02102']);
-	});
+	}, 180_000);
 });
 
 describe('corpus tier: the row’s own falsifier', () => {
@@ -214,7 +228,7 @@ describe('corpus tier: the row’s own falsifier', () => {
 		expect(m.before.balanced).toBe(47_063);
 		expect(m.before.surplusOpen).toBe(0);
 		expect(m.after.surplusOpen).toBe(0);
-	});
+	}, 180_000);
 });
 
 describe('corpus tier: the three populations this rule must NOT change', () => {
@@ -228,7 +242,7 @@ describe('corpus tier: the three populations this rule must NOT change', () => {
 		const m = await measure();
 		expect(m.textChanged).toBe(0);
 		expect(m.touched).toHaveLength(8);
-	});
+	}, 180_000);
 
 	// The standing check, measured. `emphasis-run-edge-space` (304)
 	// owns the space captured just inside a run's boundary; the
@@ -238,7 +252,7 @@ describe('corpus tier: the three populations this rule must NOT change', () => {
 		const m = await measure();
 		expect(m.edgeBefore).toBe(1);
 		expect(m.edgeAfter).toBe(1);
-	});
+	}, 180_000);
 
 	// The rule's one remaining fail-open, pinned rather than argued.
 	// `moveParenOut` reopens the tail as `<i>head</i>)${space}<i>rest`,
@@ -257,5 +271,5 @@ describe('corpus tier: the three populations this rule must NOT change', () => {
 		// rule really did reopen 6 tails, and every one of them carried
 		// the space that keeps the seam out of the other row.
 		expect(m.splits).toBe(6);
-	});
+	}, 180_000);
 });

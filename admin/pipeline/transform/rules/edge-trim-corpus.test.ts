@@ -71,36 +71,82 @@ function collapsed(entry: SourceEntry): string[] {
 	return fieldsOf(entry).map((field) => stripTags(field).replaceAll(RUN, ' '));
 }
 
+const trailing = (text: string | undefined): boolean =>
+	text !== undefined && text !== '' && /\s$/u.test(text);
+
+function anySenseTrailing(senses: readonly SourceSense[]): boolean {
+	return senses.some(
+		(sense) =>
+			trailing(sense.definition) || anySenseTrailing(sense.senses ?? []),
+	);
+}
+
+function flatLastTrailing(entry: SourceEntry): boolean {
+	return trailing(entry.content.senses.at(-1)?.definition);
+}
+
+/** Every figure this file pins, gathered in ONE corpus walk. The
+ * five `emphasisRunEdgeSpace` fields are measured on the entries that
+ * rule touches; the `order*` and `shipped`/`flat`/`corpusWide` fields
+ * are measured on EVERY entry, so they are accumulated above the
+ * touched-only guard in the loop below. */
 interface EdgeMeasurement {
+	corpusWide: number;
 	entries: number;
+	flat: number;
 	leadAfter: number;
 	leadBefore: number;
 	literalAfter: number;
 	literalBefore: number;
 	occurrences: number;
+	orderAfter: number;
+	orderBefore: number;
 	renderedAfter: number;
 	renderedBefore: number;
+	shipped: number;
 	tailAfter: number;
 	tailBefore: number;
 	welded: number;
 }
 
-async function measureEdge(): Promise<EdgeMeasurement> {
+async function walkEdge(): Promise<EdgeMeasurement> {
 	const m: EdgeMeasurement = {
 		welded: 0,
+		corpusWide: 0,
 		entries: 0,
+		flat: 0,
 		leadAfter: 0,
 		leadBefore: 0,
 		literalAfter: 0,
 		literalBefore: 0,
 		occurrences: 0,
+		orderAfter: 0,
+		orderBefore: 0,
 		renderedAfter: 0,
 		renderedBefore: 0,
+		shipped: 0,
 		tailAfter: 0,
 		tailBefore: 0,
 	};
 	for await (const entry of readSourceEntries()) {
 		const out = emphasisRunEdgeSpace.apply(entry);
+		// Whole-corpus figures, accumulated BEFORE the touched-only
+		// guard below. `out.entry` is the caller's own object when the
+		// rule declines, so this is the same `edged` the standalone
+		// walk used to build.
+		m.orderBefore +=
+			italicGlossPeriodOutside.apply(entry).records.length > 0 ? 1 : 0;
+		m.orderAfter +=
+			italicGlossPeriodOutside.apply(out.entry).records.length > 0 ? 1 : 0;
+		if (trailingWhitespaceDefinition.apply(entry).records.length > 0) {
+			m.shipped += 1;
+		}
+		if (flatLastTrailing(entry)) {
+			m.flat += 1;
+		}
+		if (anySenseTrailing(entry.content.senses)) {
+			m.corpusWide += 1;
+		}
 		if (out.records.length === 0) {
 			continue;
 		}
@@ -122,6 +168,19 @@ async function measureEdge(): Promise<EdgeMeasurement> {
 	return m;
 }
 
+let measured: Promise<EdgeMeasurement> | null = null;
+
+/** The walk above, behind a lazily-awaited cached promise so all
+ * seven assertions in this file share ONE pass. Lazy rather than at
+ * module scope on `seam-space-corpus.test.ts`'s shape: module
+ * evaluation is covered by no test timeout, so a slow corpus there
+ * fails the suite with nothing naming the cause. Callers read the
+ * shared `EdgeMeasurement`; none mutates it. */
+function measureEdge(): Promise<EdgeMeasurement> {
+	measured ??= walkEdge();
+	return measured;
+}
+
 describe('corpus tier: emphasisRunEdgeSpace is Class C — a defect-count delta', () => {
 	it('reproduces the catalogued population and collapses 176 of 179 rendered doubled spaces', async () => {
 		const m = await measureEdge();
@@ -134,7 +193,7 @@ describe('corpus tier: emphasisRunEdgeSpace is Class C — a defect-count delta'
 		// doubled-space-as-text-loss-locator's audit hands to this row.
 		expect(m.renderedBefore).toBe(179);
 		expect(m.renderedAfter).toBe(3);
-	});
+	}, 180_000);
 
 	// The decline, measured rather than asserted in prose: the 3 that
 	// survive are literal doubled spaces with no tag between them
@@ -146,7 +205,7 @@ describe('corpus tier: emphasisRunEdgeSpace is Class C — a defect-count delta'
 		const m = await measureEdge();
 		expect(m.literalBefore).toBe(3);
 		expect(m.literalAfter).toBe(3);
-	});
+	}, 180_000);
 });
 
 describe('corpus tier: the two field edges emphasisRunEdgeSpace touches', () => {
@@ -159,7 +218,7 @@ describe('corpus tier: the two field edges emphasisRunEdgeSpace touches', () => 
 		const m = await measureEdge();
 		expect(m.tailBefore).toBe(95);
 		expect(m.tailAfter).toBe(95);
-	});
+	}, 180_000);
 
 	// The OTHER edge, and the one the rule does move. 20 of the 238
 	// `<i>␣` occurrences open their field, so the move writes a raw
@@ -175,7 +234,7 @@ describe('corpus tier: the two field edges emphasisRunEdgeSpace touches', () => 
 		const m = await measureEdge();
 		expect(m.leadBefore).toBe(356);
 		expect(m.leadAfter).toBe(376);
-	});
+	}, 180_000);
 
 	// The safety property the whole hybrid rests on, and the strongest
 	// evidence in this file: with runs of spaces collapsed, the
@@ -192,22 +251,8 @@ describe('corpus tier: the two field edges emphasisRunEdgeSpace touches', () => 
 		// no-op fails, so the two cannot both be satisfied by a rule
 		// that does nothing.
 		expect(m.entries).toBe(304);
-	});
+	}, 180_000);
 });
-
-const trailing = (text: string | undefined): boolean =>
-	text !== undefined && text !== '' && /\s$/u.test(text);
-
-function anySenseTrailing(senses: readonly SourceSense[]): boolean {
-	return senses.some(
-		(sense) =>
-			trailing(sense.definition) || anySenseTrailing(sense.senses ?? []),
-	);
-}
-
-function flatLastTrailing(entry: SourceEntry): boolean {
-	return trailing(entry.content.senses.at(-1)?.definition);
-}
 
 describe('corpus tier: the ordering fact Task 7 must act on', () => {
 	// Running this rule first hands `italic-swallowed-terminal-period`
@@ -217,42 +262,22 @@ describe('corpus tier: the ordering fact Task 7 must act on', () => {
 	// population, not a new one. Registered the other way round, those
 	// 11 periods stay inside their runs with nothing left to move them.
 	it('hands italicGlossPeriodOutside 11 entries it could not previously see', async () => {
-		let before = 0;
-		let after = 0;
-		for await (const entry of readSourceEntries()) {
-			before +=
-				italicGlossPeriodOutside.apply(entry).records.length > 0 ? 1 : 0;
-			const edged = emphasisRunEdgeSpace.apply(entry).entry;
-			after += italicGlossPeriodOutside.apply(edged).records.length > 0 ? 1 : 0;
-		}
-		expect(before).toBe(1567);
-		expect(after).toBe(1578);
-	});
+		const m = await measureEdge();
+		expect(m.orderBefore).toBe(1567);
+		expect(m.orderAfter).toBe(1578);
+	}, 180_000);
 });
 
 describe('corpus tier: trailingWhitespaceDefinition is the position filter', () => {
 	it('reports 10 entries — not the flat walk’s 8, and not the audit’s forbidden 2,352', async () => {
-		let shipped = 0;
-		let flat = 0;
-		let corpusWide = 0;
-		for await (const entry of readSourceEntries()) {
-			if (trailingWhitespaceDefinition.apply(entry).records.length > 0) {
-				shipped += 1;
-			}
-			if (flatLastTrailing(entry)) {
-				flat += 1;
-			}
-			if (anySenseTrailing(entry.content.senses)) {
-				corpusWide += 1;
-			}
-		}
+		const m = await measureEdge();
 		// The catalogued figure, and the proof that the walk is the
 		// NESTED one: `content.senses` alone finds only 8 of the 10.
-		expect(shipped).toBe(10);
-		expect(flat).toBe(8);
+		expect(m.shipped).toBe(10);
+		expect(m.flat).toBe(8);
 		// What the audit forbids in capital letters: a corpus-wide
 		// trimEnd() on `definition` would weld a gloss head onto its
 		// sense label in this many entries.
-		expect(corpusWide).toBe(2352);
-	});
+		expect(m.corpusWide).toBe(2352);
+	}, 180_000);
 });

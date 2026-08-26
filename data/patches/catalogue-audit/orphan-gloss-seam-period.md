@@ -27,7 +27,7 @@ MARKS dropped text rather than being stray debris"):
 The brief's script windows ±60 characters around each `. . ` and calls
 a member MARKED when the window matches `/\(h\.|\(ch\.|h\.$/`:
 
-```
+```text
 { clean: 29, marked: 27 }
 ```
 
@@ -76,7 +76,7 @@ for await (const entry of readSourceEntries()) {
 console.log({ clean, marked });
 ```
 
-```
+```text
 { clean: 20, marked: 36 }
 ```
 
@@ -94,7 +94,7 @@ catalogue never published, and the published one is off by ten.
 The stated test looks for ONE loss signature, the `(h.` marker. There
 is a second, and it is live:
 
-```
+```text
 </i>. <span dir="rtl">HEBREW</span>. <a class="refLink"     41 occurrences
 ```
 
@@ -111,7 +111,7 @@ could have been dropped between the two periods — occurs 175 times.
 **P01106** is inside the "clean" 19 and carries the sibling family's
 signature in its own field:
 
-```
+```text
 (b h.;<i>strong, mighty</i>. . <a>Lam. R. to III, 4</a>
 ```
 

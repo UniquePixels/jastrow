@@ -186,10 +186,21 @@ const FROZEN: readonly string[] = [
 	'‘U',
 ];
 
-/** `ReadonlySet` is what actually forbids `add`/`delete` here — a
- * `Set`'s contents live in internal slots that `Object.freeze` does
- * not reach. The freeze still blocks property tacking, and the
- * re-derivation test is the guard that matters. */
+/** Two guards, neither of them absolute, and the distinction matters:
+ * `ReadonlySet` forbids `add`/`delete` at COMPILE TIME only — it is a
+ * type, erased before anything runs — and `Object.freeze` cannot make
+ * up the difference, because a `Set`'s contents live in internal slots
+ * the freeze does not reach. What the freeze does buy is a block on
+ * property tacking at runtime. The residual is therefore real but
+ * narrow: a caller that casts the type away could still mutate the
+ * contents. Nothing in the tree does, and `abbrev-vocab.test.ts`'s
+ * re-derivation check — the whole set rebuilt from the corpus and
+ * compared member for member — is the guard that would catch it.
+ *
+ * The set stays EXPORTED rather than hidden behind membership
+ * functions because it is read as a collection, not just queried:
+ * `seam-space.ts` calls `.has` on a period-stripped token, and the
+ * re-derivation test reads `.size` and iterates it. */
 const ABBREVIATIONS: ReadonlySet<string> = Object.freeze(new Set(FROZEN));
 
 /** One italic run's body, as the corpus writes it. */
