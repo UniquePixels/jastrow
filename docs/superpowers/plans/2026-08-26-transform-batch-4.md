@@ -9,10 +9,10 @@
 **Tech Stack:** Bun, TypeScript, Biome. Existing transform module (`admin/pipeline/transform/`), `patterns.jsonl` catalogue, pinned snapshot `data/source/jastrow-dictionary.jsonl` (sha256 `4c64ff03…`).
 
 **Global Constraints:**
-- Branch `impl/phase-2-batch-4`, off `v2` @ `a37a9c7`. Never commit to `main` or `v2`.
+- Branch `impl/phase-2-batch-4`, off `v2` @ `45d50a4` (rebased 2026-08-26 after the precondition merged as PR #50). Never commit to `main` or `v2`.
 - Every commit signed off (`git commit -s`), subject ≤ 50 chars, format `<emoji> <type>(<scope>): <description>`.
-- `bunx biome check .` before every commit. Branch baseline is **116 infos, 0 errors** — a new error is a regression.
-- Baseline test count on `a37a9c7` is **862 pass / 0 fail**. Every task ends with a strictly larger pass count and 0 fail.
+- `bunx biome check .` before every commit. Branch baseline is **117 infos, 0 errors** — a new error is a regression. (116 before #50; `registry.order.test.ts` now trips `noExcessiveLinesPerFile` at 332 counted lines against a 300 soft max. `bun qa:lint` runs `--error-on-warnings` and still exits 0.)
+- Baseline test count on `45d50a4` is **876 pass / 0 fail**. Every task ends with a strictly larger pass count and 0 fail.
 - `Rule.apply` MUST treat `entry` as immutable and return a new object, or the same reference unchanged. `count.ts` recursively freezes the corpus, so an in-place write is a `TypeError`.
 - **No rule in this batch may set `allows`.** Seven boundary moves; every output byte is an input byte. A non-empty `allows` here is a design error, not a ruling.
 - Every rule that writes a `data-ref` or `href` must satisfy a `link-target.ts` case and DECLARE it. Only Task 3's tosefta rule writes a target; it uses **case 4 (`recombined`)**.
@@ -21,6 +21,9 @@
 - Every count written into a `reason` states its unit (occurrences or entries) — batch 3b spec §2.1.
 - Any predicate that says "first" or "last" sense walks `sense.senses` recursively — batch 3b spec §2.2.
 - **Classify rows by what the READER sees, not by what the markup does** — batch 3b's headline finding.
+- **A green commutation gate is NOT evidence that a rule's registry placement is free.** The gate closes two-rule exposure only; if rule C produces the state on which A and B disagree it is silent. Task 7 places seven rules into a 34-deep pipeline — the instrument for that is composing the whole registry both ways, not the pair gate.
+- **Whenever a registry position changes, grep the moved rule's id across `patterns.jsonl` and the transform module's comments.** #50's reorder falsified four claims; three survived two fix rounds and a full external review, and one was in a catalogue row nothing in the diff pointed at. Retract in place with the quote-the-old-claim idiom — never append a paragraph that leaves the old sentence standing.
+- **`sonar list issues -p UniquePixels_jastrow --pull-request <N> --statuses OPEN,CONFIRMED` is part of the pre-PR battery.** The binary is `sonar`, it needs the sandbox override, its bare `total` counts CLOSED issues, and a green "SonarCloud Code Analysis" check is not zero issues — #50 passed the gate with an open MAJOR.
 
 **User decisions (already made):**
 - 2026-08-25 (Brian): batch 4 is anchors and parens *swallowing content*, which is structural; the seam-spacing rows that merely lose a space next to the same tags shipped in 3b.
@@ -40,8 +43,8 @@
 
 | File | Responsibility | Task |
 |---|---|---|
-| `admin/pipeline/transform/commutation.ts` | rid-set intersection + two-order comparison for every rule pair | 0 |
-| `admin/pipeline/transform/commutation.test.ts` | the gate itself, over the live registry and the pinned snapshot | 0 |
+| ~~`admin/pipeline/transform/commutation.ts`~~ | the commutation gate — **shipped in PR #50**, inherited not written | — |
+| ~~`admin/pipeline/transform/commutation.test.ts`~~ | ditto | — |
 | `data/patches/patterns.jsonl` | count, `reason`, `entangledWith` and `route` write-backs | 1, 6 |
 | `admin/pipeline/transform/rules/nested-anchor.ts` | the two nested-layer removals (755, 465 incl. the JT 10) | 2 |
 | `admin/pipeline/transform/rules/paren-boundary.ts` | the tosefta re-split pair + `open-paren-in-anchor-display` | 3 |
@@ -52,264 +55,63 @@
 | `admin/pipeline/transform/registry.ts` | register 7 rules, shrink `PENDING` by 10 | 7 |
 | `docs/v2/transform-batch-4.md` | the batch report | 7 |
 
-Each rules module holds rules that fail the same way, so a reviewer reading one file holds one gate story at a time. Task 0 ships before any rule so that every later task inherits its check.
+Each rules module holds rules that fail the same way, so a reviewer reading one file holds one gate story at a time. The commutation gate is already in `v2`, so every task below inherits its check from the first commit.
 
 ---
 
-### Task 0: The commutation gate
+### Task 0: The commutation gate — SHIPPED IN PR #50, DO NOT IMPLEMENT
 
-**Goal:** Assert that any two registered rules whose two composition orders disagree are declared `entangledWith` in the catalogue — closing the direction `checkAdjacency()` does not cover, for all rules rather than for this batch's rows.
+**Status: done, outside this batch.** Merged into `v2` as `45d50a4` on
+2026-08-26. This section is kept as the record of what changed and why,
+because the task as originally written contained a defect that later tasks
+must not reintroduce. **Skip to Task 1.**
 
-**Files:**
-- Create: `admin/pipeline/transform/commutation.ts`
-- Create: `admin/pipeline/transform/commutation.test.ts`
-- Read for reference: `admin/pipeline/transform/count.ts` (the load-once-and-freeze corpus pattern), `admin/pipeline/transform/registry.ts:46` (`RULES`), `admin/pipeline/research/patterns.ts` (`parsePatterns`)
+**What happened.** Task 0 was implemented first, and its corpus-tier test
+failed on its first run over the 27 shipped rules: **eight non-commuting
+pairs, one declared, seven not.** Four of the seven were a single live defect
+— `bare-rtl-hebrew` was registered at position 2, *before* the unlink rules
+that expose the Hebrew it is supposed to wrap, so **765 entries were losing
+rtl wrappers**. Brian ruled (2026-08-26) that this ships as its own PR before
+batch 4, the same shape as the apostrophe-parser precondition that became
+PR #47. The gate went with it, because batch 4 cannot land a gate that fails
+and the precondition needs the gate green as its proof.
 
-**Acceptance Criteria:**
-- [ ] `firingRids(rule, corpus)` returns the set of `rid`s on which `rule.apply` produced at least one record.
-- [ ] `nonCommutingPairs(rules, corpus)` returns one entry per unordered pair whose two orders produce a different entry on at least one shared `rid`, carrying the pair's ids and a sample rid.
-- [ ] Pairs whose firing-rid sets do not intersect are never composed — the optimisation is what makes the gate affordable, and the test asserts the skip actually happens.
-- [ ] The gate test fails when a non-commuting pair is NOT mutually declared `entangledWith`, and passes when it is.
-- [ ] The gate runs against the live `RULES` and the pinned snapshot, not a fixture.
-- [ ] Comparison is on serialized entry equality, not on record counts — a rule pair can produce the same number of records and different bytes.
+**The defect in this plan's original Task 0, stated so it is not repeated.**
+The code written here restricted each pair to the **intersection** of the two
+rules' firing-rid sets, and justified it as exact: *"a pair cannot disagree on
+an entry where at least one of them changes nothing."* **That is false.** The
+premise is evaluated on the RAW entry, so if `b` does not fire on `e` but
+fires on `a(e)`, the two orders differ on an entry the skip already discarded
+— which is the very exposure mechanism the precondition repairs. Measured, it
+discarded ~70% of the differing entries per pair and caught the 50-entry
+`plural-to-feminine` pair on the strength of 7 entries, by luck. Worse, a unit
+test in this plan pinned the unsound behaviour as *desired*.
 
-**Verify:** `bun test admin/pipeline/transform/commutation.test.ts` → PASS, and the whole suite `bun test` → 862 + new, 0 fail.
+The shipped gate uses the **union**, whose premise does hold: if neither rule
+changes `e`, both orders are `e`. 27 rules / 351 pairs / ~35s against a
+180,000 ms timeout, same 8 pairs, same sample rids.
 
-**Steps:**
+**What batch 4 inherits.** `admin/pipeline/transform/commutation.ts` exports
+`changingRids`, `nonCommutingPairs` and `PairStats`. `PairStats.inertRules`
+names rules that changed no entry — an inert rule satisfies the declaration
+invariant vacuously, so a pair count alone would miss it. The companion pin in
+`registry.order.test.ts` is rule 4, *every unlink rule precedes the rtl wrap
+trio*; both `UNLINK` and `WRAP` are earned over the corpus rather than id
+literals, and `WRAP`'s coverage signature is position-sensitive.
 
-- [ ] **Step 1: Write the failing unit test for `firingRids` and `nonCommutingPairs`**
+**Three things the gate cannot see** — Task 7 must not read a green gate as
+coverage:
 
-Two synthetic rules over a two-entry fixture corpus. `dotToBang` and `killLastChar` do not commute on any entry ending in `.`; `dotToBang` and `upperHead` do.
+1. **Three-rule exposure.** If rule C produces the state on which A and B
+   disagree, the gate is silent.
+2. A rule that moved a wrapper **and** edited text in one pass evades `WRAP`'s
+   second half. No shipped rule does both.
+3. `PENDING` rows have no predicate, so a rule claiming a population that has
+   no rule yet stays untestable by construction — 3b's finding, undiminished.
 
-```ts
-// admin/pipeline/transform/commutation.test.ts
-import { describe, expect, test } from 'bun:test';
-import { firingRids, nonCommutingPairs } from './commutation.ts';
-import type { Rule } from './types.ts';
-import type { SourceEntry } from '../body/types.ts';
-
-const entryOf = (rid: string, definition: string): SourceEntry => ({
-	content: { senses: [{ definition }] },
-	headword: 'x',
-	rid,
-});
-
-const editDef = (id: string, fn: (s: string) => string): Rule => ({
-	apply(entry) {
-		const sense = entry.content.senses[0];
-		const before = sense?.definition ?? '';
-		const after = fn(before);
-		if (after === before) return { entry, records: [] };
-		return {
-			entry: { ...entry, content: { ...entry.content, senses: [{ ...sense, definition: after }] } },
-			records: [{ detail: after, rid: entry.rid, ruleId: id }],
-		};
-	},
-	id,
-	phase: 'text-repairs',
-});
-
-const dotToBang = editDef('dot-to-bang', (s) => s.replace(/\.$/, '!'));
-const killLastChar = editDef('kill-last-char', (s) => (s === '' ? s : s.slice(0, -1)));
-const upperHead = editDef('upper-head', (s) => s.toUpperCase());
-
-describe('firingRids', () => {
-	test('reports only the rids where the rule produced a record', () => {
-		const corpus = [entryOf('A1', 'ends with a dot.'), entryOf('A2', 'ends without one')];
-		expect([...firingRids(dotToBang, corpus)]).toEqual(['A1']);
-	});
-});
-
-describe('nonCommutingPairs', () => {
-	test('flags a pair whose two orders disagree on a shared rid', () => {
-		const corpus = [entryOf('A1', 'ends with a dot.')];
-		const found = nonCommutingPairs([dotToBang, killLastChar], corpus);
-		expect(found).toHaveLength(1);
-		expect(found[0]?.ids.sort()).toEqual(['dot-to-bang', 'kill-last-char']);
-		expect(found[0]?.sampleRid).toBe('A1');
-	});
-
-	test('does not flag a pair whose two orders agree', () => {
-		const corpus = [entryOf('A1', 'ends with a dot.')];
-		expect(nonCommutingPairs([dotToBang, upperHead], corpus)).toEqual([]);
-	});
-
-	test('never composes a pair whose firing rids do not intersect', () => {
-		// `killLastChar` fires on A2, `dotToBang` does not. The pair has an
-		// empty intersection, so it must be skipped WITHOUT composing —
-		// asserted by counting apply calls, since composing anyway would
-		// still return [] here and hide the missing optimisation.
-		let calls = 0;
-		const counted: Rule = { ...dotToBang, apply: (e) => { calls++; return dotToBang.apply(e); } };
-		const corpus = [entryOf('A2', 'no trailing dot')];
-		nonCommutingPairs([counted, killLastChar], corpus);
-		expect(calls).toBe(1); // the firingRids pass only; no composition pass
-	});
-});
-```
-
-- [ ] **Step 2: Run to verify it fails**
-
-Run: `bun test admin/pipeline/transform/commutation.test.ts`
-Expected: FAIL — `Cannot find module './commutation.ts'`
-
-- [ ] **Step 3: Implement `commutation.ts`**
-
-```ts
-/**
- * The commutation gate (batch-4 spec §3.3).
- *
- * `checkAdjacency()` enforces one direction — a pair the catalogue
- * DECLARES entangled must sit gap-free in the registry. Nothing
- * enforced the other: a pair that BEHAVES as entangled must be
- * declared. That gap is what let batch 3b write four rules which
- * could have claimed another catalogue row's members, three of which
- * would have shipped that way; all four were caught by a human
- * reading a sibling row's `reason`.
- *
- * Two rules contend for the same bytes exactly when their composition
- * is order-dependent, so the invariant is:
- *
- *   A ∘ B ≡ B ∘ A on every entry, unless the pair is entangled.
- *
- * Non-commutation is not itself a defect — it is the DEFINITION of
- * the entanglement the catalogue already models, and the rtl trio is
- * order-dependent by measurement and declared as a 3-clique. What is
- * a defect is non-commutation nobody wrote down.
- *
- * ## Why the rid-set intersection is load-bearing, not a micro-optimisation
- *
- * 34 rules is 561 pairs; composing every pair over 32,512 entries is
- * ~36M `apply` calls. Restricting each pair to the entries where BOTH
- * rules actually fire is exact — a pair cannot disagree on an entry
- * where at least one of them changes nothing, because then one order
- * is the other with an identity step spliced in — and it collapses
- * the work to the handful of pairs whose populations touch at all.
- *
- * ## What this gate does NOT see
- *
- * - **A `PENDING` row.** 46 catalogue rows have no rule, so a
- *   predicate claiming a population that has no predicate yet stays
- *   untestable by construction. This gate compares rules that exist.
- * - **Commuting overlap.** Two rules can claim the same bytes and
- *   still commute, if each is idempotent on the other's output. The
- *   design-time byte-span comparison in the spec is the sharper
- *   instrument; this one is the maintainable one.
- */
-import type { SourceEntry } from '../body/types.ts';
-import type { Rule } from './types.ts';
-
-/** One pair whose two composition orders disagree. */
-interface NonCommuting {
-	ids: [string, string];
-	sampleRid: string;
-}
-
-/** Rids on which `rule` produced at least one record. */
-function firingRids(
-	rule: Rule,
-	corpus: readonly SourceEntry[],
-): ReadonlySet<string> {
-	const rids = new Set<string>();
-	for (const entry of corpus) {
-		if (rule.apply(entry).records.length > 0) {
-			rids.add(entry.rid);
-		}
-	}
-	return rids;
-}
-
-/** `b(a(entry))`, discarding records — only the bytes are compared. */
-function compose(a: Rule, b: Rule, entry: SourceEntry): string {
-	return JSON.stringify(b.apply(a.apply(entry).entry).entry);
-}
-
-/**
- * Every unordered pair of `rules` whose two orders produce different
- * bytes on some entry both of them fire on. Pairs with a disjoint
- * firing set are skipped without composing.
- */
-function nonCommutingPairs(
-	rules: readonly Rule[],
-	corpus: readonly SourceEntry[],
-): NonCommuting[] {
-	const firing = new Map(rules.map((r) => [r.id, firingRids(r, corpus)]));
-	const byRid = new Map(corpus.map((e) => [e.rid, e]));
-	const found: NonCommuting[] = [];
-	for (let i = 0; i < rules.length; i++) {
-		for (let j = i + 1; j < rules.length; j++) {
-			const a = rules[i] as Rule;
-			const b = rules[j] as Rule;
-			const shared = [...(firing.get(a.id) ?? [])].filter((rid) =>
-				firing.get(b.id)?.has(rid),
-			);
-			if (shared.length === 0) {
-				continue;
-			}
-			for (const rid of shared) {
-				const entry = byRid.get(rid) as SourceEntry;
-				if (compose(a, b, entry) !== compose(b, a, entry)) {
-					found.push({ ids: [a.id, b.id], sampleRid: rid });
-					break;
-				}
-			}
-		}
-	}
-	return found;
-}
-
-export type { NonCommuting };
-export { firingRids, nonCommutingPairs };
-```
-
-- [ ] **Step 4: Run the unit tests**
-
-Run: `bun test admin/pipeline/transform/commutation.test.ts`
-Expected: PASS, 4 tests.
-
-- [ ] **Step 5: Add the corpus-tier gate to the same test file**
-
-Append. This is the gate proper; the unit tests above prove the machinery.
-
-```ts
-import { readSourceEntries } from '../body/source.ts';
-import { parsePatterns } from '../research/patterns.ts';
-import { RULES } from './registry.ts';
-
-describe('the registry commutes except where the catalogue says otherwise', () => {
-	test('every non-commuting pair is mutually declared entangledWith', async () => {
-		const corpus: SourceEntry[] = [];
-		for await (const entry of readSourceEntries()) corpus.push(entry);
-
-		const rows = await parsePatterns(
-			await Bun.file('data/patches/patterns.jsonl').text(),
-		);
-		const edges = new Map(rows.map((r) => [r.id, new Set(r.entangledWith ?? [])]));
-		const declared = (x: string, y: string): boolean =>
-			(edges.get(x)?.has(y) ?? false) && (edges.get(y)?.has(x) ?? false);
-
-		const undeclared = nonCommutingPairs(RULES, corpus).filter(
-			(p) => !declared(p.ids[0], p.ids[1]),
-		);
-		expect(
-			undeclared.map((p) => `${p.ids[0]} × ${p.ids[1]} @ ${p.sampleRid}`),
-		).toEqual([]);
-	});
-});
-```
-
-- [ ] **Step 6: Run the gate against the current 27 rules**
-
-Run: `bun test admin/pipeline/transform/commutation.test.ts`
-Expected: PASS. If it FAILS, the failure names a pre-existing undeclared entanglement among batches 1–3b — **do not weaken the gate**. Record the pair, and either add the `entangledWith` edge with a measured `reason` (if the pair genuinely contends) or open it as a finding in the batch report. Report the outcome before continuing to Task 1.
-
-- [ ] **Step 7: Commit**
-
-```bash
-bunx biome check .
-git add admin/pipeline/transform/commutation.ts admin/pipeline/transform/commutation.test.ts
-git commit -s -m "🦄 new(transform): commutation gate for rule pairs"
-```
+**Consequence for the batch's own numbers.** The registry is now 27 rules deep
+and the baseline is 876 pass / 0 fail, 117 biome infos. Task 7 registers seven
+rules on top of that, not on top of `a37a9c7`.
 
 ---
 
@@ -1238,7 +1040,7 @@ git commit -s -m "📖 doc(catalogue): audit batch 4's two judgment rows"
 - [ ] `coverage()` reports **0 unaccounted, 0 duplicated**, and the registered count rises 27 → 34 minus any withdrawal.
 - [ ] `checkAdjacency()` passes: the two Tosefta rules gap-free adjacent, and the nested/JT pair satisfied by the single rule that owns both rows.
 - [ ] `unaccountedEdges()` passes — and if the JT row registers no rule of its own, the deferral is RECORDED, since that function fails the day a rule ships ahead of a still-`PENDING` partner.
-- [ ] Task 0's commutation gate passes over all 34 rules.
+- [ ] The commutation gate (inherited from PR #50) passes over all 34 rules, and any new non-commuting pair is DECLARED rather than reordered around. **A green gate is not coverage** — it closes two-rule exposure only, so state in the report which placements were argued from a whole-registry both-ways composition and which rest on the pair gate alone.
 - [ ] `bun transform:count` → every batch-4 row MATCH.
 - [ ] `bun body:migrate-dry` → 32,512/32,512, 0 schema failures, 0 quarantines.
 - [ ] `admin/pipeline/body/pipeline-links.test.ts` passes — the composed `applyRepairs` + registry gate 3a added. **Nine of nine rules here edit anchors, so this is the run that matters.** Link accounting reported as a delta against the +90 / −0 the branch carries.
@@ -1262,6 +1064,18 @@ Ordering constraints, each of which belongs in a comment beside the rules it gov
 2. **`toseftaCloseParen` and `toseftaPrimaryHalakha` gap-free adjacent.** They are declared entangled, they do not commute, and Task 0's gate will say so.
 3. **`nestedAnchorDuplicate` before `toseftaCloseParen`?** Measure it. Run the corpus both ways and compare bytes; if the orders agree, say so and pick on readability. If they disagree, the pair needs an `entangledWith` edge and the measurement goes in the comment. **Do not assert an order is free without running it** — the geresh pair's comment is the model.
 4. `superscriptInsideAnchor` and `truncatedCitationDigit` touch anchor tails only; expect them to commute with everything. Confirm, don't assume.
+
+- [ ] **Step 1b: If any existing rule's position moved, grep its id**
+
+Registering seven rules may push existing rules to new positions. #50's reorder falsified four claims and three were found only by a deliberate sweep — one in a catalogue row nothing in the diff pointed at.
+
+```bash
+for id in <every rule id whose index changed>; do
+  echo "== $id"; grep -n "$id" data/patches/patterns.jsonl admin/pipeline/transform/*.ts admin/pipeline/transform/rules/*.ts
+done
+```
+
+Read every hit. Retract a falsified sentence in place — `CORRECTED <date> (<branch>): this read "..."` — never by appending a paragraph that leaves the old claim standing.
 
 - [ ] **Step 2: Shrink `PENDING`**
 
@@ -1324,8 +1138,16 @@ Run the full local review battery. **Cloud CodeRabbit is SKIPPED on this reposit
 ```bash
 git fetch --all --prune                       # session snapshots go stale
 git diff --stat origin/v2...HEAD
-bun test && bunx tsc --noEmit && bunx biome check .
+bun test && bun qa:tsc && bun qa:lint
 ```
+
+Then SonarQube — **it was missed before #50 and a MAJOR sat open behind a green check.** The binary is `sonar`, not `sonar-scanner` or `sonarqube-cli`, and it needs the sandbox override:
+
+```bash
+sonar list issues -p UniquePixels_jastrow --pull-request <N> --statuses OPEN,CONFIRMED
+```
+
+Without `--statuses` the `total` counts CLOSED issues and reads as a failure that is already fixed.
 
 Then the local CodeRabbit pass, and a SonarQube review over the changed files. Expect **Workers Builds to fail** — `wrangler.jsonc:9` points `assets.directory` at `./app`, which arrives in Phase 4; #44–#49 all merged with it red. CodeRabbit posting `CHANGES_REQUESTED` and later clearing itself is normal here; wait or nudge with a `@coderabbitai review` comment rather than dismissing.
 

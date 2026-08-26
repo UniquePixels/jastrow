@@ -1,6 +1,6 @@
 # Anchor & paren integrity — Phase 2 batch 4 design
 
-**Status:** DRAFT 2026-08-26, awaiting approval. Extends
+**Status:** APPROVED 2026-08-26 (scope ruled by Brian; §7.6 settled by PR #50, merged as `45d50a4`). §3.3 corrected after its first draft's exactness claim was disproved. Extends
 [the transform module design](2026-08-22-transform-module-design.md);
 that spec's §3 contract, §5 gates and §6 write-back mechanism hold here
 unchanged unless this document says otherwise. The batch boundary that
@@ -175,52 +175,54 @@ mode as `anchor-swallows-close-paren`'s missing `reason`, one level up.
 edited surgically (module design §6). Once it exists the registry's
 adjacency gate enforces what the prose has been asserting alone.
 
-### 3.3 What ships is a commutation gate, not this detector
+### 3.3 The commutation gate — shipped in PR #50, ahead of this batch
 
-The byte-span detector above is a **design-time** instrument. It works
-because I wrote the ten predicates by hand, as free-standing regexes
-and anchor walks that can report offsets. `Rule` reports no offsets —
-`apply` returns a rewritten entry and a `TransformRecord` per instance
-— so the detector cannot be pointed at the registry, and a gate that
-only works on predicates written twice is a gate nobody will maintain.
+The byte-span detector above is a **design-time** instrument. It works because
+the ten predicates here were written by hand as free-standing regexes and
+anchor walks that can report offsets. `Rule` reports no offsets, so the
+detector cannot be pointed at the registry, and a gate that only works on
+predicates written twice is a gate nobody will maintain.
 
-The shipped gate asks the same question through the interface that
-does exist. **Two rules contend for the same bytes exactly when their
-composition is order-dependent**, so for every unordered pair of
-registered rules:
+The shipped gate asks the same question through the interface that does exist:
+**two rules contend for the same bytes exactly when their composition is
+order-dependent**, so for every unordered pair of registered rules,
+`A ∘ B ≡ B ∘ A` on every entry — unless the pair is declared `entangledWith`.
+`checkAdjacency()` already enforced the converse; what was missing was that a
+pair which *behaves* as entangled must be *declared* as one.
 
-> `A ∘ B ≡ B ∘ A` on every entry — unless the pair is declared
-> `entangledWith` in the catalogue.
+**It did not survive contact with this batch's schedule.** Its first run over
+the 27 shipped rules found **eight non-commuting pairs, one declared, seven
+not**, and four of the seven were one live defect: `bare-rtl-hebrew` ran before
+the unlink rules that expose the Hebrew it wraps, so 765 entries were losing
+rtl wrappers. Brian ruled on 2026-08-26 that this ships as its own PR before
+batch 4 — the shape of PR #47 — and the gate went with it, since batch 4 could
+not land a gate that fails and the precondition needed it green as proof.
+Merged as `45d50a4` (PR #50).
 
-Non-commutation is not a bug on its own; it is the *definition* of the
-entanglement the catalogue already models, and `checkAdjacency()`
-already requires entangled rules to sit gap-free in the registry. What
-has been missing is the other direction: **nothing checks that a pair
-which behaves as entangled is declared as entangled.** That is the
-undeclared containment of §3.2, and it is 3b's four near-misses —
-`italicGlossPeriodOutside` destroying `italic-lone-punctuation`'s
-catalogued periods is precisely a pair whose two orders disagree.
+**The restriction is the UNION of the two rules' changing-rid sets, not the
+intersection.** This document's first draft argued the intersection was exact:
+*"a pair cannot disagree on an entry where at least one of them changes
+nothing."* CORRECTED 2026-08-26 — that premise is evaluated on the RAW entry,
+so if `b` does not fire on `e` but fires on `a(e)`, the orders differ on an
+entry the skip already discarded, which is precisely the exposure mechanism
+PR #50 repairs. Measured, the intersection discarded ~70% of the differing
+entries per pair and caught the 50-entry `plural-to-feminine` pair on 7
+entries. The union's premise does hold: if neither rule changes `e`, both
+orders are `e`. 351 pairs, ~35s, against a 180,000 ms timeout.
 
-It is affordable because the candidate set is tiny. `count.ts` already
-runs each rule alone over the pinned snapshot; recording the set of
-`rid`s each rule fired on turns 561 pairs into the handful whose rid
-sets intersect at all. Only those pairs pay for the two-order
-comparison, and only on the entries in the intersection.
+Three properties this batch must hold onto:
 
-Three properties worth stating rather than discovering:
-
-- **It generalises past this batch.** The gate covers all 34 rules the
-  registry will hold after batch 4, not the 10 rows measured here.
-- **It is not a superset of the design-time detector.** Two rules can
-  claim overlapping bytes and still commute — if each is idempotent on
-  the other's output the orders agree and the gate stays silent. The
-  span detector remains the sharper instrument at spec time, and this
-  document is where batch 4's spans were compared.
-- **It cannot see a `PENDING` row.** 46 rows have no rule, so a
-  predicate claiming a population that has no predicate yet stays
-  untestable by construction — 3b's finding, undiminished. What the
-  gate makes cheap is the check at the moment a second rule is
-  written, which is when the contention is introduced.
+- **It generalises past this batch** — all 34 rules the registry will hold
+  after batch 4, not the 10 rows measured here.
+- **It is not a superset of the design-time detector.** Two rules can claim
+  overlapping bytes and still commute if each is idempotent on the other's
+  output. The span comparison stays the sharper instrument at spec time, and
+  §3.2 is where batch 4's spans were compared.
+- **It closes TWO-rule exposure only.** If rule C produces the state on which
+  A and B disagree, the gate is silent, and it cannot see a `PENDING` row at
+  all. **A green gate is not evidence that a new rule's placement in a 34-deep
+  pipeline is free** — the instrument for that is composing the whole registry
+  both ways, which is what §6 asks of the batch report.
 
 ## 4. Two rows say in their own audits that they may not be transformable
 
@@ -309,7 +311,7 @@ Unchanged from module design §9, plus one addition:
 | `no-new-text`, per rule | empty `allows` throughout; no rule here writes text |
 | `markup`, per rule | output no less well-formed than input — the load-bearing gate for nine boundary moves |
 | Registry | coverage + `checkAdjacency` over the two entangled pairs |
-| **Commutation (new)** | every unordered rule pair commutes, except where `entangledWith` declares it — §3.3 |
+| **Commutation** (inherited, PR #50) | every unordered rule pair commutes, except where `entangledWith` declares it — §3.3. Two-rule exposure only; report which placements rest on it alone |
 | `pipeline-links.test.ts` | `applyRepairs` + registry over 32,512 entries — **the gate 3a added; nine of nine rules here edit anchors, so it is the one that matters most** |
 | `body:migrate-dry` | 32,512/32,512, 0 schema failures, 0 quarantines |
 
@@ -333,9 +335,9 @@ links **+90 / −0** unchanged, plus whatever this batch adds.
    boundary and file the 38-instance target disagreement as its own
    row, or hold the whole row.
 5. **§5 rule 3 — decide how two catalogue rows register as one rule.**
-6. **§3.3 — confirm the commutation gate ships** in this batch rather
-   than as a follow-up. It covers all 34 rules the registry will hold,
-   not just this batch's rows.
+6. ~~**§3.3 — confirm the commutation gate ships** in this batch.~~
+   **SETTLED 2026-08-26:** it shipped ahead of the batch, in PR #50, with
+   the ordering defect it found. Batch 4 inherits it.
 
 ## 8. Expected write-backs to `patterns.jsonl`
 
