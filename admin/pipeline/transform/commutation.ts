@@ -141,9 +141,30 @@ function changingRids(
 	return rids;
 }
 
-/** `b(a(entry))`, discarding records — only the bytes are compared. */
-function compose(a: Rule, b: Rule, entry: SourceEntry): string {
-	return JSON.stringify(b.apply(a.apply(entry).entry).entry);
+/**
+ * `second(first(entry))`, discarding records — only the bytes are
+ * compared.
+ *
+ * The parameters are named for their ROLE IN THE COMPOSITION rather
+ * than for the rules of the pair, and that is deliberate. This function
+ * is called twice in a row with its two rule arguments REVERSED, which
+ * is the whole content of a commutation check — and it is exactly the
+ * line where a real argument transposition would hide, because a gate
+ * that compared one order against itself would report 0 non-commuting
+ * pairs and look indistinguishable from success. No test can catch
+ * that: the failure mode is silence.
+ *
+ * With the parameters called `a` and `b`, the reversed call read
+ * `compose(b, a, entry)` against `compose(a: Rule, b: Rule, …)` — a
+ * shape SonarQube flags as `typescript:S2234` ("arguments have the same
+ * names but not the same order as the parameters"), and it was right to
+ * on the shape even though the intent was correct. Names that cannot
+ * correspond to the caller's are the fix; suppressing the rule on the
+ * one line where transposition is both plausible and invisible would
+ * have been the wrong trade.
+ */
+function compose(first: Rule, second: Rule, entry: SourceEntry): string {
+	return JSON.stringify(second.apply(first.apply(entry).entry).entry);
 }
 
 /**
@@ -204,7 +225,16 @@ function firstDisagreement(
 ): string | undefined {
 	return candidates.find((rid) => {
 		const entry = byRid.get(rid);
-		return entry !== undefined && compose(a, b, entry) !== compose(b, a, entry);
+		if (entry === undefined) {
+			return false;
+		}
+		// Named rather than inlined so the REVERSAL is visible as an
+		// intention. Inlined, the two calls differ by one transposed
+		// argument and read as a typo either way round; named, the
+		// comparison says what it is.
+		const aThenB = compose(a, b, entry);
+		const bThenA = compose(b, a, entry);
+		return aThenB !== bThenA;
 	});
 }
 
