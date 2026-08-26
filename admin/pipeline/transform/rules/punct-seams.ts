@@ -18,11 +18,12 @@
  * That population is **20,420** by direct occurrence count
  * (`fieldsOf`/`stripTags` over every text field, matching how this
  * gate itself reads text) — not the 20,195 first cited here, which
- * came from a `grep`-based count over the raw JSONL file rather than
- * this gate's own field scope and undercounts by 225. 20,420 is the
- * figure a re-run of the corpus-tier test below actually returns. A
- * rule that keeps the space repairs nothing regardless of which of
- * the two figures it is measured against.
+ * came from a `grep`-based OCCURRENCE count over the raw JSONL file
+ * (`grep -o`: 20,195; the LINE count is 9,799) rather than this gate's
+ * own field scope, and undercounts by 225. 20,420 is the figure a
+ * re-run of the corpus-tier test below actually returns. A rule that
+ * keeps the space repairs nothing regardless of which of the two
+ * figures it is measured against.
  *
  * The ruling: repair it as a DELETION. The row is Class C. This needs
  * no `allows` — deleting a character is a sub-multiset SHRINK, which
@@ -35,14 +36,16 @@
  * Round 1's deletion only removed the space BETWEEN the two `<i>`
  * runs, leaving the space AFTER the merged run's `</i>` untouched —
  * `<i>noble.—</i> Pl.`, which reads `.— Pl.` in rendered text. That is
- * still off-norm: measured corpus-wide, tight `.—` is followed by a
- * space only 59 times out of 20,420 (0.29%) and by a non-space 20,361
- * times (99.71%). Round 1's own cited 19-occurrence precedent for
- * `.—</i> Pl.` is itself inside that 59-count tail, not a second
- * convention — 19 real instances is not nothing, but it is the same
- * minority the row's `reason` field is measuring when it calls `.—`
- * the norm, not an exception to it. The row's norm, stated literally,
- * is `gloss.—Pl.`: zero space, anywhere.
+ * still off-norm: measured corpus-wide, `.—` is followed by a space
+ * only 59 times out of 20,420 (0.29%) and is tight 20,361 times
+ * (99.71%) — of which 20,242 are followed by a non-space character
+ * and 119 end their field with nothing after them at all. Round 1's
+ * own cited 19-occurrence precedent for `.—</i> Pl.` is itself inside
+ * that 59-count tail, not a second convention — 19 real instances is
+ * not nothing, but it is the same minority the row's `reason` field
+ * is measuring when it calls `.—` the norm, not an exception to it.
+ * The row's norm, stated literally, is `gloss.—Pl.`: zero space,
+ * anywhere.
  *
  * One substitution still handles both shapes the catalogued 278
  * cover, but the empty-label branch now also consumes the TRAILING

@@ -106,13 +106,16 @@ reproduces. **The one-entry gap is unexplained and is a live concern.**
 | Row | Test failed | The finding |
 |---|---|---|
 | `orphan-gloss-seam-period` (19) | no repair exists | The brief's own script returns `{clean: 29, marked: 27}`, not the catalogued 19/37 — its regex misses the `(b. h.` form. A corrected test gives 36/20, and 37/19 counting `A00505`. The stated decision rule then pointed at `transform`; it was declined because the test is under-powered — it looks for one loss signature and a second is live. |
-| `citation-quote-seam-period` (43) | one load-bearing member routes the row | `A00714`'s period separates a plural-form VARIANT LIST from a citation; deleting it welds a form heading onto `Gen. R. s. 61`. `B01377`, `M00701`, `M02503` are ambiguous the same way. A second reading survives for all seven: the corpus writes `.—Pl. ` **496** times at this seam. **Handed forward, not written:** the 37 translated members are a mechanical predicate and would carry a narrower row — re-scoping a row until a shippable subset falls out is a maintainer call, and it is escalated, not taken. |
+| `citation-quote-seam-period` (43) | no repair exists for the row as catalogued | `A00714`'s period separates a plural-form VARIANT LIST from a citation; deleting it welds a form heading onto `Gen. R. s. 61`. `B01377`, `M00701`, `M02503` are ambiguous the same way. A second reading survives for all seven: the corpus writes `.—Pl. ` **496** times at this seam. **Handed forward, not written:** the 37 translated members are a mechanical predicate and would carry a narrower row — re-scoping a row until a shippable subset falls out is a maintainer call, and it is escalated, not taken. |
 | `gloss-head-seam-period-doubling` (15) | no repair exists | Its own audit: *"which of the two bytes is surplus is unknowable from the entry, and one of them lives outside sense scope."* |
 | `entry-final-comma` (10) | no repair exists | Two jobs with different repairs — 7 cross-reference stubs, 3 definitions cut mid-flow — *"could not be separated without the printed page."* |
 
-The last two failed the same test `homograph-numeral-mismatch` failed in
-batch 2, and not the destination test. No members were re-read and no
-measurements were run: both audits had already read their members, and
+All four failed the SAME test — no repair exists, the one
+`homograph-numeral-mismatch` failed in batch 2 — and none failed the
+destination test. The two audits differ in how much work reaching it
+took, not in which test it was: the first two were measured and read in
+full, while for the last two no members were re-read and no
+measurements were run — both audits had already read their members, and
 re-reading cannot produce information only the printed page holds.
 
 ### The accepted cost, stated in the report and not only in the spec
