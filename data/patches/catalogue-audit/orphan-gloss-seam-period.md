@@ -144,10 +144,12 @@ object with a different character.
 
 ## Which test this row failed
 
-**No nameable repair.** A deletion is writable and would fix the
-rendered text; it is not defensible, because the byte it deletes is
-the marker. Same test `homograph-numeral-mismatch` failed in batch 2 —
-a real defect whose repair cannot be named from the data.
+**No repair exists** — one of the two tests named in
+`batch-3b-withdrawals.md`, and the same test
+`homograph-numeral-mismatch` failed in batch 2: a real defect whose
+repair cannot be named from the data. A deletion is writable and would
+fix the rendered text; it is not defensible, because the byte it
+deletes is the marker.
 
 ## What a re-run will find
 

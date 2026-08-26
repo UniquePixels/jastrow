@@ -1,7 +1,7 @@
 # Transform batch 3b — italic & punctuation seams
 
 **Status: shipped 2026-08-26.** Twelve rules across five modules, four
-catalogue rows withdrawn to `judgment`, six counts corrected. The
+catalogue rows withdrawn to `judgment`, seven counts corrected. The
 registry now holds 27 rules and `PENDING` 46, against 73 transform-route
 rows.
 
@@ -87,7 +87,7 @@ rule reproduces.
 | `gloss-head-seam-period-doubling` | 15 | not measured | entries | WITHDRAWN, no code |
 | `entry-final-comma` | 10 | not measured | entries | WITHDRAWN, no code |
 
-Six corrections. Two of them — `anchor-italic-no-space` and
+Seven corrections. Two of them — `anchor-italic-no-space` and
 `paren-tag-no-space` — were corrected TWICE, once for the shared
 population and once for the defect in §4.
 
@@ -105,7 +105,7 @@ reproduces. **The one-entry gap is unexplained and is a live concern.**
 
 | Row | Test failed | The finding |
 |---|---|---|
-| `orphan-gloss-seam-period` (19) | the separator does not reproduce | The brief's own script returns `{clean: 29, marked: 27}`, not the catalogued 19/37 — its regex misses the `(b. h.` form. A corrected test gives 36/20, and 37/19 counting `A00505`. The stated decision rule then pointed at `transform`; it was declined because the test is under-powered — it looks for one loss signature and a second is live. |
+| `orphan-gloss-seam-period` (19) | no repair exists | The brief's own script returns `{clean: 29, marked: 27}`, not the catalogued 19/37 — its regex misses the `(b. h.` form. A corrected test gives 36/20, and 37/19 counting `A00505`. The stated decision rule then pointed at `transform`; it was declined because the test is under-powered — it looks for one loss signature and a second is live. |
 | `citation-quote-seam-period` (43) | one load-bearing member routes the row | `A00714`'s period separates a plural-form VARIANT LIST from a citation; deleting it welds a form heading onto `Gen. R. s. 61`. `B01377`, `M00701`, `M02503` are ambiguous the same way. A second reading survives for all seven: the corpus writes `.—Pl. ` **496** times at this seam. **Handed forward, not written:** the 37 translated members are a mechanical predicate and would carry a narrower row — re-scoping a row until a shippable subset falls out is a maintainer call, and it is escalated, not taken. |
 | `gloss-head-seam-period-doubling` (15) | no repair exists | Its own audit: *"which of the two bytes is surplus is unknowable from the entry, and one of them lives outside sense scope."* |
 | `entry-final-comma` (10) | no repair exists | Two jobs with different repairs — 7 cross-reference stubs, 3 definitions cut mid-flow — *"could not be separated without the printed page."* |

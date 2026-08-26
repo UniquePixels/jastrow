@@ -17,11 +17,21 @@
  * it is ORDER-SENSITIVE, so a period landing on the wrong side of the
  * wrong tag fails it even though every codepoint count still balances.
  *
- * It runs unconditionally rather than under `it.skipIf(stale)`,
- * unlike `abbrev-vocab.test.ts`'s re-derivation: what it asserts is a
- * property of the rules, not a count of today's corpus, so a source
- * re-fetch changes how many entries it inspects and never whether it
- * should hold.
+ * The `stripTags` equality runs unconditionally rather than under
+ * `it.skipIf(stale)`, unlike `abbrev-vocab.test.ts`'s re-derivation:
+ * what it asserts is a property of the rules, not a count of today's
+ * corpus, so a source re-fetch changes how many entries it inspects
+ * and never whether it should hold.
+ *
+ * The two POPULATION figures pinned alongside it — 1,567 and 979
+ * entries, this batch's two largest catalogue corrections — ARE
+ * counts of today's corpus, and are pinned here for the reason
+ * `seam-space-corpus.test.ts` pins its five: they are the numbers
+ * written back to `patterns.jsonl`, and nothing else in the tree
+ * re-measures them, so an uncorrected drift would otherwise be a
+ * discovery rather than a test failure. After a source re-fetch a
+ * failure there is a stale baseline, not a defect — re-measure and
+ * write the row and the test back together.
  */
 import { describe, expect, it } from 'bun:test';
 import { readSourceEntries } from '../../body/source.ts';
@@ -277,10 +287,16 @@ describe('corpus tier: the Class A invariant', () => {
 			}
 		}
 		expect(problems).toEqual([]);
-		// And the invariant must not be passing vacuously: a predicate
-		// narrowed to nothing would satisfy it on an empty population.
-		for (const count of touched.values()) {
-			expect(count).toBeGreaterThan(0);
-		}
+		// The invariant must not pass vacuously — a predicate narrowed
+		// to nothing satisfies it on an empty population — and the
+		// guard is stated as the EXACT written-back population of each
+		// rule rather than as `> 0`, in the unit `patterns.jsonl`
+		// writes: ENTRIES. These are the batch's two largest
+		// corrections (1,098 -> 1,567 and 945 -> 979) and this is the
+		// only place either is re-measured.
+		expect(Object.fromEntries(touched)).toEqual({
+			'italic-swallowed-terminal-period': 1567,
+			'label-period-outside-italic': 979,
+		});
 	});
 });

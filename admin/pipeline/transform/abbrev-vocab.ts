@@ -39,21 +39,39 @@
  * of what it recognised. Requiring the continuation above removes all
  * 14 and costs nothing the audit named.
  *
- * WIDENING 2: 10 of the 20 labels the round-4 audit names — Ithpa,
- * Ithpe, Nif, Part. pass, Pe, Hithpa, Du, sing, m, ḳ — never occur
- * mid-run at all; the corpus only ever writes them run-final
+ * WIDENING 2: 11 of the 20 labels the round-4 audit names — Ithpa,
+ * Ithpe, Part. pass, Fem, Pe, Hithpa, Du, sing, m, ḳ, Saf — never
+ * occur mid-run at all; the corpus only ever writes them run-final
  * (`<i>—Ithpe.</i> of …`). Their proof therefore has to come from the
  * text AFTER the run, under the same continuation test. Mid-run
  * evidence names a token; run-final evidence names the whole body
  * minus its period, which is also what carries the multi-word labels
- * (`Part. pass`, `ts. k`).
+ * (`Part. pass`, `ts. k`) — `Part. pass` cannot have mid-run evidence
+ * at all, since a `MID_RUN` token is space-free by construction.
+ *
+ * The other 9 of the 20 DO occur mid-run — Hif 4, Pl 9, Pi 2, Nif 1,
+ * Pa 3, Af 2, pl 8, Nithpa 1, Part 346, counted 2026-08-26 through
+ * `fieldsOf` on the pinned snapshot — the scope `deriveAbbreviations`
+ * itself reads, and the scope every figure in this docstring is in.
+ * Two of them rest on a single occurrence (`Nif` on `<i>Nif., to
+ * collect, call to account; …</i>`), so this 9/11 split is a
+ * measurement, not a property of the label set: re-derive it with
+ * `MID_RUN` after any re-fetch rather than trusting this sentence.
  *
  * WIDENINGS REJECTED, both measured rather than argued:
  * - Accepting any token before a run-final period unconditionally (the
- *   obvious reading of "widen to a closing tag") gives 1,444 members
- *   and admits `locusts`. It is not a widening but the removal of the
- *   discriminator: nearly every italic gloss ends in a period, so
- *   nearly every gloss would become a label.
+ *   obvious reading of "widen to a closing tag") gives 1,443 members
+ *   and admits `locusts`. The predicate, stated so the number is
+ *   re-runnable: drop the `CONTINUES` test, and for every run whose
+ *   trimmed body ends in `.` add the LAST space-free token of that
+ *   body minus the period, unioned with the mid-run evidence.
+ *   (Measured 2026-08-26 on the pinned snapshot. The 1,444 first
+ *   recorded here named no predicate and no reading of it reproduces:
+ *   the same widening taking the WHOLE body rather than its last
+ *   token gives 1,745 and does not admit `locusts` at all.) It is not
+ *   a widening but the removal of the discriminator: nearly every
+ *   italic gloss ends in a period, so nearly every gloss would become
+ *   a label.
  * - Accepting a Hebrew-script continuation after the run (`<i>Du.</i>
  *   <span dir="rtl">…`) reaches 122 members but admits gloss bodies —
  *   `reed, bulrush`, `brightness, v`, `firm, irrefutable` — because a

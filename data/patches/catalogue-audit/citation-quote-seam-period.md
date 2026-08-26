@@ -95,10 +95,11 @@ three tasks correcting. Proposed id if a maintainer wants it:
 
 ## Which test this row failed
 
-**No nameable repair for the row as catalogued.** Not "no defect" and
-not "no writable rule" — a rule is writable for 37 of 44; what is
-missing is a reason to believe the period is surplus in the other
-seven, and the row is one row.
+**No repair exists for the row as catalogued** — the same one of the
+two tests named in `batch-3b-withdrawals.md` that row's summary
+records. Not "no defect" and not "no writable rule" — a rule is
+writable for 37 of 44; what is missing is a reason to believe the
+period is surplus in the other seven, and the row is one row.
 
 ## What a re-run will find
 

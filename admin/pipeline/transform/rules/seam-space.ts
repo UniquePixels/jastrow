@@ -296,7 +296,7 @@ const anchorItalicSpace: Rule = buildSimpleSeam({
 const parenTagSpace: Rule = buildSimpleSeam({
 	id: 'paren-tag-no-space',
 	pattern: PAREN_SEAM,
-	what: "a tag-adjacent close paren before <i> ()<i> and )</a><i>, this rule's whole locus)",
+	what: "a tag-adjacent close paren before <i> — both )<i> and )</a><i>, this rule's whole locus",
 });
 
 /** The mirror seam: close italic directly before an opening paren. */

@@ -18,7 +18,13 @@
  *   before AND after;
  * - `emphasis-run-edge-space`'s population inside the touched entries
  *   is unchanged, which the literal reading of the task-6 brief would
- *   have broken by six.
+ *   have broken by six;
+ * - `paren-tag-no-space`'s population inside them is unchanged too —
+ *   the one fail-open this rule keeps. A split whose tail carries no
+ *   leading space emits `<i>head</i>)<i>rest</i>`, which IS that
+ *   row's seam, and `parenTagSpace` runs EARLIER in the registry, so
+ *   such a member would ship unrepaired. All 6 splits carry the space
+ *   today; nothing but this assertion says they will tomorrow.
  */
 import { describe, expect, it } from 'bun:test';
 import { readSourceEntries } from '../../body/source.ts';
@@ -38,6 +44,18 @@ const CLOSE_PAREN = /\)/gu;
  * just inside an italic run's boundary. Pinned before and after
  * because the brief's literal repair would have created six. */
 const EDGE = /<i> | <\/i>/gu;
+
+/** `paren-tag-no-space`'s locus (115 occurrences), restated from
+ * `seam-space.ts`'s `PAREN_SEAM` for the reason `RUN` is restated
+ * above: a close paren, optionally through an anchor's close tag,
+ * directly before `<i>`. This rule's split can emit exactly that
+ * shape — see the fail-open in the docstring above. */
+const PAREN_TAG_SEAM = /\)(?:<\/a>)?<i>(?![.,;:?!])/gu;
+
+/** The split this rule emits when it reopens the tail, WITH the space
+ * the tail carried. Counted in the output so the seam assertion below
+ * cannot be satisfied by a rule that simply stopped splitting. */
+const SPACED_SPLIT = /<\/i>\) <i>/gu;
 
 interface Balance {
 	balanced: number;
@@ -72,6 +90,22 @@ function edges(entry: SourceEntry): number {
 	return count;
 }
 
+function parenSeams(entry: SourceEntry): number {
+	let count = 0;
+	for (const field of fieldsOf(entry)) {
+		count += (field.match(PAREN_TAG_SEAM) ?? []).length;
+	}
+	return count;
+}
+
+function spacedSplits(entry: SourceEntry): number {
+	let count = 0;
+	for (const field of fieldsOf(entry)) {
+		count += (field.match(SPACED_SPLIT) ?? []).length;
+	}
+	return count;
+}
+
 /** Every field's rendered text, joined on the same separator
  * `no-new-text.ts` uses for the same reason: NUL cannot occur in the
  * corpus's text, so a difference can never be an artefact of two
@@ -89,6 +123,9 @@ interface Measurement {
 	before: Balance;
 	edgeAfter: number;
 	edgeBefore: number;
+	seamAfter: number;
+	seamBefore: number;
+	splits: number;
 	survivors: string[];
 	textChanged: number;
 	touched: string[];
@@ -104,6 +141,9 @@ async function measure(): Promise<Measurement> {
 		before: empty(),
 		edgeAfter: 0,
 		edgeBefore: 0,
+		seamAfter: 0,
+		seamBefore: 0,
+		splits: 0,
 		survivors: [],
 		textChanged: 0,
 		touched: [],
@@ -126,6 +166,9 @@ async function measure(): Promise<Measurement> {
 		m.touched.push(entry.rid);
 		m.edgeBefore += edges(entry);
 		m.edgeAfter += edges(out.entry);
+		m.seamBefore += parenSeams(entry);
+		m.seamAfter += parenSeams(out.entry);
+		m.splits += spacedSplits(out.entry);
 		if (renderedText(entry) !== renderedText(out.entry)) {
 			m.textChanged += 1;
 		}
@@ -174,7 +217,7 @@ describe('corpus tier: the row’s own falsifier', () => {
 	});
 });
 
-describe('corpus tier: the two populations this rule must NOT change', () => {
+describe('corpus tier: the three populations this rule must NOT change', () => {
 	// The text gate strips tags, so this rule's text multiset is
 	// identical by construction and needs no `copied` declaration. The
 	// assertion is here rather than in prose because the alternative
@@ -195,5 +238,24 @@ describe('corpus tier: the two populations this rule must NOT change', () => {
 		const m = await measure();
 		expect(m.edgeBefore).toBe(1);
 		expect(m.edgeAfter).toBe(1);
+	});
+
+	// The rule's one remaining fail-open, pinned rather than argued.
+	// `moveParenOut` reopens the tail as `<i>head</i>)${space}<i>rest`,
+	// and `space` is whatever the tail carried — empty for a tail that
+	// starts on a letter, which would emit `)<i>` and hand
+	// `paren-tag-no-space` a member. That rule runs EARLIER in the
+	// registry (`registry.ts` order), so it would ship unrepaired.
+	// Zero of the 8 do it today; this fails the day one does.
+	it('creates no new paren-tag-no-space seam', async () => {
+		const m = await measure();
+		// Neither before nor after: the 8 touched entries hold no `)<i>`
+		// of their own, and the rule adds none.
+		expect(m.seamBefore).toBe(0);
+		expect(m.seamAfter).toBe(0);
+		// The pairing that stops 0 === 0 from passing vacuously: the
+		// rule really did reopen 6 tails, and every one of them carried
+		// the space that keeps the seam out of the other row.
+		expect(m.splits).toBe(6);
 	});
 });

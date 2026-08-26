@@ -93,26 +93,28 @@ is working:
   `orphan-gloss-seam-period` (19), `gloss-head-seam-period-doubling`
   (15) and `entry-final-comma` (10), transform → judgment, working in
   `data/patches/catalogue-audit/batch-3b-withdrawals.md`. It shipped
-  twelve rules and corrected SIX counts, four of them downward and two
-  of them twice: `italic-swallowed-terminal-period` 1,098 → 1,567,
+  twelve rules and corrected SEVEN counts, four of them downward and
+  two of them twice: `italic-swallowed-terminal-period` 1,098 → 1,567,
   `label-period-outside-italic` 945 → 979, `anchor-italic-no-space`
   111 → 56, `paren-tag-no-space` 126 → 115 (OCCURRENCES),
   `italic-lone-punctuation` 29 → 28, `geresh-abbrev-space-loss`
-  22 → 23. `anchor-italic-no-space`'s catalogued 111 was counting 53
-  seams that `paren-tag-no-space` was also counting — the first
+  22 → 23, `italic-swallows-close-paren` 10 → 8.
+  `anchor-italic-no-space`'s catalogued 111 was counting 53 seams
+  that `paren-tag-no-space` was also counting — the first
   measured instance of two rows owning one population — and both were
   corrected a second time when the composed run found them
   manufacturing a rendered defect on 13 entries. See
   [transform-batch-3b.md](transform-batch-3b.md).
 
-**51.5% of the backlog is deterministic code** (22,026 of 42,814
+**51.4% of the backlog is deterministic code** (22,026 of 42,814
 instances), 55.7% of it by row. That is the most useful number here —
 most of the catalogue does not need judgment at all.
 
 The instance total ROSE while four rows left, which looks wrong and is
-not: batch 3b corrected six counts, and `italic-swallowed-terminal-period`
-alone went 1,098 → 1,567 when its rule was written. A transform row's
-count is a claim nobody has checked until someone writes the rule.
+not: batch 3b corrected seven counts, and
+`italic-swallowed-terminal-period` alone went 1,098 → 1,567 when its
+rule was written. A transform row's count is a claim nobody has
+checked until someone writes the rule.
 
 Cutover gate, cross-cut:
 
