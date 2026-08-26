@@ -107,8 +107,19 @@
  * the separator, is trimmed — and "last" is found by walking
  * `sense.senses` recursively, because senses nest: the flat top-level
  * read gives 8 rather than the catalogued 10. The corpus-tier test
- * asserts all three figures at once (10 shipped, 8 flat, 2,352
- * corpus-wide) so the filter cannot be removed silently.
+ * asserts three figures at once — 10 shipped, 8 for the flat walk,
+ * 2,352 for a definition-wide sweep — so the filter cannot be removed
+ * silently: `expect(shipped).toBe(10)` fails under BOTH the flat-walk
+ * mutation and the widen-to-any-sense one.
+ *
+ * Read that 2,352 precisely, because it is not this rule's own
+ * counterfactual. It is the catalogue's pre-audit figure ("2,352
+ * entries with a trailing-whitespace definition"), reproduced by the
+ * TEST's own `trailing` predicate, which has no whitespace-only guard.
+ * Widening the SHIPPED rule to every sense gives **2,340** — the same
+ * 12 the audit subtracts in the very next clause, since `strippable`
+ * already declines them. The two numbers reconcile exactly, and 2,340
+ * is still 234 times the population this row is allowed to touch.
  *
  * Two declines. A definition that is WHITESPACE AND NOTHING ELSE is
  * left alone: the audit's own arithmetic subtracts those before it
@@ -123,12 +134,26 @@
  *
  * The standing check for this row: no other catalogued row claims
  * trailing whitespace on `definition`. `binyan-form-leading-space`
- * (457) is a different field and the opposite edge. The only rule that
- * could hand this one a new member is `emphasisRunEdgeSpace` above,
- * by pushing a space past a run that closes a field — measured, no
- * ` </i>` in the corpus ends its field or is followed only by tags, so
- * it never does, and the corpus-tier test pins that the count of
- * space-terminated fields is identical before and after.
+ * (457) is `grammar.binyan_form` — a different field, and the opposite
+ * edge. The only rule that could hand this one a new member is
+ * `emphasisRunEdgeSpace` above, and BOTH of that rule's edges are
+ * pinned in the corpus tier, because it demonstrably moves one of
+ * them:
+ *
+ * - TRAILING, this row's own locus: measured, no `␣</i>` in the corpus
+ *   ends its field or is followed only by tags, so the count of
+ *   space-TERMINATED fields is identical before and after — 95 → 95.
+ * - LEADING, the edge the rule does move: 20 of the 238 `<i>␣`
+ *   occurrences open their field, so the move writes a raw leading
+ *   space onto 20 fields — 356 → 376, every one of them a
+ *   `definition`, with no `headword`, `plural_form` or `quotes`
+ *   touched. That lands in no catalogued row's locus either (again,
+ *   `binyan-form-leading-space` is a different field), and it is
+ *   rendered-neutral: those fields already began with that space once
+ *   tags are stripped. It is asserted rather than merely reported
+ *   because a measured side-effect that lives only in a report is how
+ *   this branch's three population-claiming rules got as far as they
+ *   did.
  */
 import type { SourceEntry, SourceSense } from '../../body/types.ts';
 import { mapFields } from '../fields.ts';

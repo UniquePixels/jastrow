@@ -1,24 +1,18 @@
 /**
- * The two Class C deletion rows, fixture tier and corpus tier.
+ * The two Class C deletion rows, FIXTURE TIER. The corpus tier lives
+ * in `edge-trim-corpus.test.ts` — split for the same reason
+ * `unlink.test.ts` is split across three files, to keep each under the
+ * repo's 300-line ceiling.
  *
  * Both rows are DELETIONS, so neither gets a `stripTags`-equality
  * invariant: the text gate passes any sub-multiset shrink by
  * construction and an equality invariant passes a no-op, which is the
- * failure `punct-seams.test.ts` documents at length. Each corpus-tier
- * test below therefore asserts a DEFECT-COUNT DELTA or a POPULATION
- * FIGURE, never "nothing changed".
- *
- * - `emphasisRunEdgeSpace`: the rendered doubled-space population in
- *   its own touched entries goes 179 -> 3, and the 3 that remain are
- *   the OTHER row's (see below).
- * - `trailingWhitespaceDefinition`: the entry count is 10, against 8
- *   for the flat walk the position filter must not be, and 2,352 for
- *   the corpus-wide `trimEnd()` its audit forbids in capital letters.
+ * failure `punct-seams.test.ts` documents at length. Every corpus-tier
+ * assertion in the sibling file is therefore a DEFECT-COUNT DELTA or a
+ * POPULATION FIGURE, never "nothing changed".
  */
 import { describe, expect, it } from 'bun:test';
-import { readSourceEntries } from '../../body/source.ts';
-import type { SourceEntry, SourceSense } from '../../body/types.ts';
-import { fieldsOf, stripTags } from '../no-new-text.ts';
+import type { SourceEntry } from '../../body/types.ts';
 import {
 	emphasisRunEdgeSpace,
 	trailingWhitespaceDefinition,
@@ -239,170 +233,5 @@ describe('trailingWhitespaceDefinition declines what the audit excluded', () => 
 
 	it('declares no allowance — it only deletes', () => {
 		expect(trailingWhitespaceDefinition.allows).toBeUndefined();
-	});
-});
-
-/** Rendered doubled space — the harm `emphasis-run-edge-space`'s
- * `description` names. Read through `stripTags`, since the two spaces
- * never sit next to each other in the raw markup (the tag is between
- * them). */
-const RENDERED_DOUBLE = / {2}/gu;
-
-/** A LITERAL doubled space, both spaces in the raw field with no tag
- * between: `doubled-space-as-text-loss-locator`'s population, not this
- * one's. Counted on the raw field precisely so the tag-hidden variant
- * cannot be mistaken for it. */
-const LITERAL_DOUBLE = / {2}/gu;
-
-const EDGE = /<i> | <\/i>/gu;
-
-function countIn(entry: SourceEntry, pattern: RegExp, strip: boolean): number {
-	let count = 0;
-	for (const field of fieldsOf(entry)) {
-		const text = strip ? stripTags(field) : field;
-		count += (text.match(pattern) ?? []).length;
-	}
-	return count;
-}
-
-function fieldsEndingInSpace(entry: SourceEntry): number {
-	return fieldsOf(entry).filter((field) => /\s$/u.test(field)).length;
-}
-
-interface EdgeMeasurement {
-	entries: number;
-	literalAfter: number;
-	literalBefore: number;
-	occurrences: number;
-	renderedAfter: number;
-	renderedBefore: number;
-	tailAfter: number;
-	tailBefore: number;
-}
-
-async function measureEdge(): Promise<EdgeMeasurement> {
-	const m: EdgeMeasurement = {
-		entries: 0,
-		literalAfter: 0,
-		literalBefore: 0,
-		occurrences: 0,
-		renderedAfter: 0,
-		renderedBefore: 0,
-		tailAfter: 0,
-		tailBefore: 0,
-	};
-	for await (const entry of readSourceEntries()) {
-		const out = emphasisRunEdgeSpace.apply(entry);
-		if (out.records.length === 0) {
-			continue;
-		}
-		m.entries += 1;
-		m.occurrences += countIn(entry, EDGE, false);
-		m.renderedBefore += countIn(entry, RENDERED_DOUBLE, true);
-		m.renderedAfter += countIn(out.entry, RENDERED_DOUBLE, true);
-		m.literalBefore += countIn(entry, LITERAL_DOUBLE, false);
-		m.literalAfter += countIn(out.entry, LITERAL_DOUBLE, false);
-		m.tailBefore += fieldsEndingInSpace(entry);
-		m.tailAfter += fieldsEndingInSpace(out.entry);
-	}
-	return m;
-}
-
-describe('corpus tier: emphasisRunEdgeSpace is Class C — a defect-count delta', () => {
-	it('reproduces the catalogued population and collapses 176 of 179 rendered doubled spaces', async () => {
-		const m = await measureEdge();
-		// The catalogued row, to the unit: 238 + 150 = 388 occurrences
-		// across 304 entries.
-		expect(m.occurrences).toBe(388);
-		expect(m.entries).toBe(304);
-		// The defect the row's `description` names. 176 = 92 leading +
-		// 84 trailing, exactly the split
-		// doubled-space-as-text-loss-locator's audit hands to this row.
-		expect(m.renderedBefore).toBe(179);
-		expect(m.renderedAfter).toBe(3);
-	});
-
-	// The decline, measured rather than asserted in prose: the 3 that
-	// survive are literal doubled spaces with no tag between them
-	// (C00779 "(Ar.␣␣a defective", K00980 "(b. h.;␣␣[something",
-	// T00907 "(b.␣␣h.)"), which belong to the BLOCKING judgment row
-	// doubled-space-as-text-loss-locator. This rule leaves that
-	// population's count exactly where it found it.
-	it('leaves the literal doubled-space population untouched', async () => {
-		const m = await measureEdge();
-		expect(m.literalBefore).toBe(3);
-		expect(m.literalAfter).toBe(3);
-	});
-
-	// The overlap with this file's OTHER rule: pushing a space out of a
-	// closing run could in principle land it at a field's end, which is
-	// trailing-whitespace-definition's locus. Measured, it never does —
-	// no ` </i>` in the corpus ends its field or is followed only by
-	// tags.
-	it('creates no new field-trailing whitespace for the other rule to find', async () => {
-		const m = await measureEdge();
-		expect(m.tailAfter).toBe(m.tailBefore);
-	});
-});
-
-const trailing = (text: string | undefined): boolean =>
-	text !== undefined && text !== '' && /\s$/u.test(text);
-
-function anySenseTrailing(senses: readonly SourceSense[]): boolean {
-	return senses.some(
-		(sense) =>
-			trailing(sense.definition) || anySenseTrailing(sense.senses ?? []),
-	);
-}
-
-function flatLastTrailing(entry: SourceEntry): boolean {
-	return trailing(entry.content.senses.at(-1)?.definition);
-}
-
-describe('corpus tier: the ordering fact Task 7 must act on', () => {
-	// Running this rule first hands `italic-swallowed-terminal-period`
-	// 11 entries it could not previously see, all of them ordinary
-	// word-final gloss runs (A00740, A01190, A02252, A02901, C00200,
-	// C00399, C00772, C00872, C00964, C01379, E00196) — that row's own
-	// population, not a new one. Registered the other way round, those
-	// 11 periods stay inside their runs with nothing left to move them.
-	it('hands italicGlossPeriodOutside 11 entries it could not previously see', async () => {
-		let before = 0;
-		let after = 0;
-		for await (const entry of readSourceEntries()) {
-			before +=
-				italicGlossPeriodOutside.apply(entry).records.length > 0 ? 1 : 0;
-			const edged = emphasisRunEdgeSpace.apply(entry).entry;
-			after += italicGlossPeriodOutside.apply(edged).records.length > 0 ? 1 : 0;
-		}
-		expect(before).toBe(1567);
-		expect(after).toBe(1578);
-	});
-});
-
-describe('corpus tier: trailingWhitespaceDefinition is the position filter', () => {
-	it('reports 10 entries — not the flat walk’s 8, and not the audit’s forbidden 2,352', async () => {
-		let shipped = 0;
-		let flat = 0;
-		let corpusWide = 0;
-		for await (const entry of readSourceEntries()) {
-			if (trailingWhitespaceDefinition.apply(entry).records.length > 0) {
-				shipped += 1;
-			}
-			if (flatLastTrailing(entry)) {
-				flat += 1;
-			}
-			if (anySenseTrailing(entry.content.senses)) {
-				corpusWide += 1;
-			}
-		}
-		// The catalogued figure, and the proof that the walk is the
-		// NESTED one: `content.senses` alone finds only 8 of the 10.
-		expect(shipped).toBe(10);
-		expect(flat).toBe(8);
-		// What the audit forbids in capital letters: a corpus-wide
-		// trimEnd() on `definition` would weld a gloss head onto its
-		// sense label in this many entries.
-		expect(corpusWide).toBe(2352);
 	});
 });
