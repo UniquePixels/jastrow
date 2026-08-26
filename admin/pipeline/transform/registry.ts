@@ -842,9 +842,13 @@ function entangledClusters(
  * an entanglement nobody recorded does not exist as far as it is
  * concerned. A row carrying NO edge is invisible to it: the row's
  * component is a singleton, `entangledClusters` drops it, and the gate
- * returns clean whatever the registry does with that rule. 56 of the
- * 62 rows still in `PENDING` carry no edge at all (measured
- * 2026-08-25), so for most of the work ahead this gate is
+ * returns clean whatever the registry does with that rule. 42 of the
+ * 46 rows still in `PENDING` carry no edge at all (measured
+ * 2026-08-26; this read "56 of the 62" and went stale one commit
+ * earlier, at batch 3b, which took 16 rows off `PENDING` — 12 rules
+ * shipped and 4 rows withdrawn — rather than on this branch, which
+ * changed no `PENDING` row's edges. The ratio moved; the claim the
+ * sentence makes did not), so for most of the work ahead this gate is
  * unfalsifiable BY CONSTRUCTION — not because the check is weak, but
  * because its input is incomplete.
  *
@@ -911,7 +915,18 @@ function checkAdjacency(
  *
  * Edges between two unregistered rows are excluded rather than
  * missing: execution order cannot be wrong about a rule that does not
- * run. 4 of the catalogue's 9 undirected edges are of that kind today.
+ * run. 3 of the catalogue's 16 undirected edges are of that kind
+ * today.
+ *
+ * CORRECTED 2026-08-26 (fix/rtl-unlink-order). This read "4 of the
+ * catalogue's 9". The 9 became 16 when this branch declared seven more
+ * edges, but the 4 was wrong before the branch touched it — recomputed
+ * on v2 the split is 6 both-registered and 3 neither, never 5 and 4 —
+ * and every edge declared here joins two REGISTERED rules, which
+ * cannot move the neither-registered count at all. Same stale split as
+ * `registry.order.test.ts`'s `unaccountedEdges` block, corrected in
+ * the same pass and by the same measurement.
+ *
  * Self-edges are excluded too — `checkEntanglement` owns those, and a
  * component cannot be split from itself.
  */
