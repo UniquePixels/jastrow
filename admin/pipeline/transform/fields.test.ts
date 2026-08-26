@@ -57,6 +57,11 @@ describe('mapFields', () => {
 	});
 });
 
+/** Recursively `Object.freeze`s a value, so the no-mutation case
+ * above fails loudly instead of passing quietly. These files are ESM
+ * and therefore strict, so an in-place write to a frozen entry
+ * throws; without the freeze, a `mapFields` that mutated its input
+ * would still satisfy every other assertion here. */
 function deepFreeze(value: unknown): void {
 	if (typeof value !== 'object' || value === null) {
 		return;

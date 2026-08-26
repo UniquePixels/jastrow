@@ -46,6 +46,13 @@ const RUN = / {2,}/gu;
 const LEADING_WS = /^\s/u;
 const TRAILING_WS = /\s$/u;
 
+/** Occurrences of `pattern` across every field `fieldsOf` reads,
+ * optionally through `stripTags`. The `strip` flag is the whole
+ * reason this is one helper and not two: `RENDERED_DOUBLE` and
+ * `LITERAL_DOUBLE` are the SAME pattern, and only the rendering
+ * separates this row's population (a tag between the two spaces) from
+ * `doubled-space-as-text-loss-locator`'s (both spaces raw, a row
+ * routed to judgment whose evidence this rule must not destroy). */
 function countIn(entry: SourceEntry, pattern: RegExp, strip: boolean): number {
 	let count = 0;
 	for (const field of fieldsOf(entry)) {
@@ -55,10 +62,23 @@ function countIn(entry: SourceEntry, pattern: RegExp, strip: boolean): number {
 	return count;
 }
 
+/** Fields whose RAW text ends in whitespace — the sibling row
+ * `trailingWhitespaceDefinition` owns this locus. Counted across
+ * `emphasisRunEdgeSpace`'s touched entries to show that rule hands it
+ * no new member: 95 → 95, because no `␣</i>` in the corpus ends its
+ * field or is followed only by tags. */
 function fieldsEndingInSpace(entry: SourceEntry): number {
 	return fieldsOf(entry).filter((field) => TRAILING_WS.test(field)).length;
 }
 
+/** The opposite edge, and the side-effect `emphasisRunEdgeSpace`
+ * demonstrably DOES have: 20 of its 238 leading-edge occurrences open
+ * their field, so moving the space outside the run writes a raw
+ * leading space onto 20 definitions — 356 → 376. Rendered-neutral,
+ * in no catalogued row's locus, and asserted rather than merely
+ * reported, because a measured side-effect that lives only in a
+ * report is how this branch's population-claiming rules got as far as
+ * they did. */
 function fieldsStartingInSpace(entry: SourceEntry): number {
 	return fieldsOf(entry).filter((field) => LEADING_WS.test(field)).length;
 }
@@ -71,9 +91,20 @@ function collapsed(entry: SourceEntry): string[] {
 	return fieldsOf(entry).map((field) => stripTags(field).replaceAll(RUN, ' '));
 }
 
+/** Trailing whitespace on a non-empty definition. Deliberately WITHOUT
+ * the shipped rule's whitespace-only guard: this is the predicate that
+ * reproduces the catalogue's pre-audit figure of 2,352 entries, and
+ * adding the guard here would quietly redefine the number the two
+ * counterfactuals below are measured against. */
 const trailing = (text: string | undefined): boolean =>
 	text !== undefined && text !== '' && /\s$/u.test(text);
 
+/** Whether ANY sense in the tree, at any depth, carries a trailing
+ * space — the definition-wide sweep the row's audit forbids. Its
+ * corpus figure, 2,352 entries, is the ceiling the shipped 10 is
+ * asserted against: 2,430 of those occurrences are the field-split
+ * separator convention, the only thing standing between a gloss head
+ * and the "1)" that follows it. */
 function anySenseTrailing(senses: readonly SourceSense[]): boolean {
 	return senses.some(
 		(sense) =>
@@ -81,6 +112,11 @@ function anySenseTrailing(senses: readonly SourceSense[]): boolean {
 	);
 }
 
+/** The same question asked of the LAST TOP-LEVEL sense only — the
+ * flat walk `trimAt` must not be. It finds 8 against the shipped
+ * rule's 10, so pinning both is what turns "replace the recursive
+ * `lastPath` with a flat one" into a test failure rather than a
+ * silent two-entry loss. */
 function flatLastTrailing(entry: SourceEntry): boolean {
 	return trailing(entry.content.senses.at(-1)?.definition);
 }
@@ -109,6 +145,18 @@ interface EdgeMeasurement {
 	welded: number;
 }
 
+/** The one corpus pass every figure in this file is read off.
+ *
+ * Both rules and the ordering probe run against the SAME entry, so no
+ * two numbers here can drift apart across separate walks. Each rule
+ * is applied ALONE — no registry, no siblings — so every count is
+ * that rule's own rather than a composition artefact.
+ *
+ * `orderBefore`/`orderAfter` are the ordering constraint Task 7 needs
+ * and the only one in this module that is NOT free: 29 trailing-edge
+ * occurrences read `<i>gloss.␣</i>`, whose period is hidden from
+ * `italicGlossPeriodOutside` by the captured space, and
+ * `emphasisRunEdgeSpace` uncovers it. */
 async function walkEdge(): Promise<EdgeMeasurement> {
 	const m: EdgeMeasurement = {
 		welded: 0,

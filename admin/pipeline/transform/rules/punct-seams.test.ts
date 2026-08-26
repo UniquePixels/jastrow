@@ -42,6 +42,8 @@ import {
 } from './italic-period.ts';
 import { emDashSectionBreak, italicLonePunctuation } from './punct-seams.ts';
 
+/** A minimal single-sense entry: both rules read `definition` and
+ * nothing else. */
 function entryWith(definition: string): SourceEntry {
 	return {
 		content: { senses: [{ definition }] },
@@ -50,6 +52,7 @@ function entryWith(definition: string): SourceEntry {
 	} as SourceEntry;
 }
 
+/** The one definition back out. */
 const defOf = (e: SourceEntry): string => e.content.senses[0]?.definition ?? '';
 
 describe('emDashSectionBreak', () => {
@@ -237,6 +240,16 @@ const SPACED_DEFECT = /\. —/gu;
  * measured this shape at all. */
 const TIGHT_THEN_SPACE = /\.— /gu;
 
+/** Occurrences of `pattern` in RENDERED text across every field.
+ *
+ * Both patterns it serves have to be read through `stripTags`: a tag
+ * always sits between the dash and the space, so the raw field never
+ * shows the two adjacent. Shared by `SPACED_DEFECT` (the defect the
+ * row repairs, 278 → 0 in touched entries) and `TIGHT_THEN_SPACE`
+ * (the off-norm shape fix round 1's own repair created 230 times) so
+ * the two are read off the same walk — the pairing round 1 lacked,
+ * which is precisely why it could measure its repair and still not
+ * see what the repair left behind. */
 function countMatches(entry: SourceEntry, pattern: RegExp): number {
 	return fieldsOf(entry).reduce(
 		(total, field) => total + (stripTags(field).match(pattern) ?? []).length,

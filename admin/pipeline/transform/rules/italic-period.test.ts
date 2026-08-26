@@ -45,6 +45,8 @@ import {
 
 const PAIR: readonly Rule[] = [labelPeriodInside, italicGlossPeriodOutside];
 
+/** A minimal single-sense entry: both rules read `definition` and
+ * nothing else. */
 function entryWith(definition: string): SourceEntry {
 	return {
 		content: { senses: [{ definition }] },
@@ -53,6 +55,7 @@ function entryWith(definition: string): SourceEntry {
 	} as SourceEntry;
 }
 
+/** The one definition back out. */
 function defOf(entry: SourceEntry): string {
 	return entry.content.senses[0]?.definition ?? '';
 }

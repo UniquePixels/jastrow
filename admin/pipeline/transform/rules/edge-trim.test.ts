@@ -20,6 +20,10 @@ import {
 import { italicGlossPeriodOutside } from './italic-period.ts';
 import { parenTagSpace } from './seam-space.ts';
 
+/** A minimal entry whose top-level senses carry just the given
+ * definitions. Variadic because `trailingWhitespaceDefinition`'s
+ * position filter only means something with more than one sense to
+ * choose between. */
 function entryWith(...definitions: string[]): SourceEntry {
 	return {
 		content: { senses: definitions.map((definition) => ({ definition })) },
@@ -28,9 +32,12 @@ function entryWith(...definitions: string[]): SourceEntry {
 	} as SourceEntry;
 }
 
+/** Every top-level sense's definition, in order — for the cases that
+ * assert WHICH sense was trimmed. */
 const defsOf = (e: SourceEntry): string[] =>
 	e.content.senses.map((s) => s.definition ?? '');
 
+/** The first definition, for the single-sense cases. */
 const defOf = (e: SourceEntry): string => defsOf(e)[0] ?? '';
 
 describe('emphasisRunEdgeSpace deletes the space when it is redundant', () => {

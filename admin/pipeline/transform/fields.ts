@@ -23,6 +23,13 @@ interface Moved {
 
 type Mapper = (text: string) => string;
 
+/** Applies `map` to one field and records on `moved` that something
+ * changed. The flag is threaded through every helper below rather
+ * than recovered by comparing the two entries at the end, because
+ * `mapFields` has to be able to return `undefined` for an unchanged
+ * entry — that is what lets a `Rule.apply` hand the caller back its
+ * own object, as its contract requires — and a deep structural
+ * comparison would cost more than the mapping it followed. */
 function one(text: string, map: Mapper, moved: Moved): string {
 	const out = map(text);
 	if (out !== text) {
@@ -31,6 +38,12 @@ function one(text: string, map: Mapper, moved: Moved): string {
 	return out;
 }
 
+/** A copy of `grammar` with every text-bearing field mapped:
+ * `binyan_form` (each string in the array), `language_code` and
+ * `verbal_stem`. Those three and no others, because they are exactly
+ * what `fieldsOf` reads off a `SourceGrammar` — a fourth written here
+ * and not read there would be a field the text gate cannot see, which
+ * is the drift the module doc names. */
 function mapGrammar(
 	grammar: SourceGrammar,
 	map: Mapper,
@@ -49,6 +62,12 @@ function mapGrammar(
 	return out;
 }
 
+/** A copy of `sense` with `definition`, `number` and `grammar`
+ * mapped, recursing through `senses`. The recursion is the part that
+ * is easy to leave out and impossible to notice missing: senses NEST,
+ * and a walk stopping at the top level would leave every nested
+ * definition both unmapped and outside the gate's view. `fieldsOf`
+ * recurses the same way, for the same reason. */
 function mapSense(sense: SourceSense, map: Mapper, moved: Moved): SourceSense {
 	const out: SourceSense = { ...sense };
 	if (sense.definition !== undefined) {
@@ -66,6 +85,10 @@ function mapSense(sense: SourceSense, map: Mapper, moved: Moved): SourceSense {
 	return out;
 }
 
+/** A copy of `content` with `morphology` mapped and every top-level
+ * sense handed to `mapSense`. `senses` is always present and
+ * `morphology` is optional — the same two-field shape `fieldsOf`
+ * reads off `content`. */
 function mapContent(
 	content: SourceEntry['content'],
 	map: Mapper,
@@ -81,6 +104,12 @@ function mapContent(
 	return out;
 }
 
+/** A quote triple with each string mapped and each `null` left where
+ * it was. Position carries meaning in a triple — the middle element
+ * is always a string, the outer two may be absent — so a null is
+ * never dropped and never coerced to `''`, which would both change
+ * the triple's shape and add a phantom field to `fieldsOf`'s read.
+ * The cast restores the tuple type `Array.map` widens away. */
 function mapQuote(
 	triple: readonly (string | null)[],
 	map: Mapper,

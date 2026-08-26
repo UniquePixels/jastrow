@@ -139,18 +139,39 @@ function isEmpty(body: string): boolean {
 	return body.trim() === '';
 }
 
+/** The LABEL polarity of the house-style ruling: `<i>Af</i>.` →
+ * `<i>Af.</i>`. Rewrites only where `isLabel` claims the whole run
+ * body, leaving every ordinary gloss where it is. See the module
+ * doc's GRANULARITY section for why the predicate is asked about the
+ * whole body and never its final token — the token reading adds 87
+ * occurrences here, 25 of them plain glosses — and `isEmpty` for the
+ * run that belongs to `italic-lone-punctuation` instead. */
 function moveInside(text: string): string {
 	return text.replaceAll(OUTSIDE, (whole, body: string) =>
 		!isEmpty(body) && isLabel(body) ? `<i>${body}.</i>` : whole,
 	);
 }
 
+/** The GLOSS polarity, and the exact complement of `moveInside`:
+ * `<i>destruction.</i>` → `<i>destruction</i>.`, declining whatever
+ * `isLabel` claims. One predicate, opposite directions — which is why
+ * the catalogue records the two rows as entangled and why they are
+ * written and shipped together rather than reasoned about apart. */
 function moveOutside(text: string): string {
 	return text.replaceAll(INSIDE, (whole, body: string) =>
 		isEmpty(body) || isLabel(body) ? whole : `<i>${body}</i>.`,
 	);
 }
 
+/** Wraps whichever mover it is handed in the `Rule` shape, so the two
+ * polarities differ in exactly one function and one id.
+ *
+ * Neither declares an `allows`: both move a single byte across a tag
+ * boundary, so the text multiset is unchanged by construction and
+ * there is nothing to declare — and, for the same reason, nothing for
+ * `checkNoNewText` to see. The corpus-tier `stripTags` invariant in
+ * `italic-period.test.ts` is the only gate that can, and is part of
+ * the rule rather than a check on it. */
 function build(id: string, move: (text: string) => string): Rule {
 	return {
 		apply(entry: SourceEntry): TransformResult {

@@ -63,6 +63,12 @@ interface Tally {
 	occurrences: number;
 }
 
+/** Rendered space-before-punctuation occurrences in `entry` — the
+ * defect `parenTagSpace` and `anchorItalicSpace` shipped with, at 13
+ * entries, and the harm the `(?![.,;:?!])` decline now prevents.
+ * Read as a per-entry before/after DELTA rather than an absolute,
+ * because the corpus holds such spaces of its own that are none of
+ * these rules' business. */
 function renderedDefects(entry: SourceEntry): number {
 	let count = 0;
 	for (const field of fieldsOf(entry)) {
@@ -71,6 +77,12 @@ function renderedDefects(entry: SourceEntry): number {
 	return count;
 }
 
+/** Total raw length of every field `fieldsOf` reads. Each rule here
+ * inserts exactly one space per repair and changes nothing else, so
+ * the length delta IS the occurrence count — and it stays honest
+ * where re-matching the rule's own pattern in the output could not,
+ * since a successful repair destroys the very seam that pattern
+ * matches. */
 function rawLength(entry: SourceEntry): number {
 	return fieldsOf(entry).reduce((total, field) => total + field.length, 0);
 }

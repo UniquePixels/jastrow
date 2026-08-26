@@ -187,6 +187,17 @@ const SECTION_BREAK = /\.<\/i> <i>—<\/i> |\.<\/i> <i>—(?<label>[^<]+)<\/i>/g
  * construction". */
 const LONE_PUNCTUATION = /<i>(?<mark>[.?;])<\/i>/gu;
 
+/** Wraps one text repair in the `Rule` shape, for this module's two
+ * rows.
+ *
+ * Both are pure DELETIONS inside a single field — a stray tag split
+ * and the spaces it straddled for `emDashSectionBreak`, a tag pair
+ * for `italicLonePunctuation` — so neither declares `allows` or
+ * `copied`: the sub-multiset gate passes any shrink by construction.
+ * That is also why neither can be tested by an equality invariant;
+ * see `punct-seams.test.ts` for the defect-count deltas that replace
+ * one. `mapFields` returning `undefined` is what lets a declining
+ * call hand back the caller's own entry, as `Rule.apply` requires. */
 function build(
 	id: string,
 	repair: (text: string) => string,

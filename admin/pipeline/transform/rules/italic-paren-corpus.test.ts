@@ -63,6 +63,21 @@ interface Balance {
 	surplusOpen: number;
 }
 
+/** Classifies every italic run in `entry` by its own paren balance,
+ * accumulating into `into`.
+ *
+ * `surplusClose` — a run holding a `)` whose `(` sits outside it — IS
+ * this row's defect population: the 10 the catalogue records and, in
+ * the output, the 2 convention members the row's audit excludes. That
+ * 10 → 2 delta is what the first assertion below reads off this
+ * function, and it is the only evidence available, since the rendered
+ * characters are identical before and after.
+ *
+ * `surplusOpen` is the row's own falsifier, and the reason both
+ * polarities are counted rather than just the defect: a print
+ * convention would leave a tail in BOTH directions, a boundary drift
+ * only in this one. It is 0 across all 47,073 runs, before and
+ * after. */
 function tally(entry: SourceEntry, into: Balance): void {
 	for (const field of fieldsOf(entry)) {
 		for (const run of field.matchAll(RUN)) {
@@ -88,6 +103,10 @@ function tally(entry: SourceEntry, into: Balance): void {
 	}
 }
 
+/** `emphasis-run-edge-space`'s locus, per entry. The standing check
+ * this row must not disturb, measured on both sides: the task-6
+ * brief's literal repair would have handed that row six new members,
+ * one per split, and this construction hands it none (1 → 1). */
 function edges(entry: SourceEntry): number {
 	let count = 0;
 	for (const field of fieldsOf(entry)) {
@@ -96,6 +115,12 @@ function edges(entry: SourceEntry): number {
 	return count;
 }
 
+/** `paren-tag-no-space`'s locus, per entry — the rule's one remaining
+ * fail-open. A split whose tail starts on a letter reopens as `)<i>`,
+ * which IS that row's seam, and `parenTagSpace` runs EARLIER in the
+ * registry, so such a member would ship unrepaired. All 8 touched
+ * entries hold 0 before and after; this is what fails the day one
+ * does not. */
 function parenSeams(entry: SourceEntry): number {
 	let count = 0;
 	for (const field of fieldsOf(entry)) {
@@ -104,6 +129,10 @@ function parenSeams(entry: SourceEntry): number {
 	return count;
 }
 
+/** Splits the rule emitted with the tail's own space carried out
+ * with the paren — `</i>) <i>`. The pairing that stops the seam
+ * assertion above from passing vacuously: 0 new seams proves nothing
+ * unless the rule really did reopen 6 tails. */
 function spacedSplits(entry: SourceEntry): number {
 	let count = 0;
 	for (const field of fieldsOf(entry)) {
@@ -120,6 +149,11 @@ function spacedSplits(entry: SourceEntry): number {
  * the file as binary, so it stops diffing and stops matching grep. */
 const FIELD_SEP = '\u0000';
 
+/** Every field's rendered text, joined on `FIELD_SEP`. Equality on
+ * this is how the 8 touched entries are shown to read identically
+ * before and after — the alternative construction the task-6 brief
+ * describes, keeping the tail's space inside the reopened run and
+ * adding a second one outside, would change all 8. */
 function renderedText(entry: SourceEntry): string {
 	return fieldsOf(entry).map(stripTags).join(FIELD_SEP);
 }
@@ -137,10 +171,24 @@ interface Measurement {
 	touched: string[];
 }
 
+/** A zeroed `Balance`. A function rather than a shared constant
+ * because `walk` needs a fresh one per entry for the after-tally and
+ * folds it into the running total by hand. */
 function empty(): Balance {
 	return { balanced: 0, runs: 0, surplusClose: 0, surplusOpen: 0 };
 }
 
+/** The one corpus pass behind all six assertions, running the rule
+ * ALONE so every figure is its own rather than a composition
+ * artefact.
+ *
+ * Two scopes, deliberately. The balance tally accumulates for EVERY
+ * entry: `surplusClose` is a corpus population (the catalogued 10)
+ * and `runs` is the 47,073-run denominator the falsifier's 0 is a
+ * fraction of. The edge, seam, split and rendered-text measures are
+ * gathered only where the rule fired, because each is a claim about
+ * its 8 touched entries — a corpus-wide reading would drown the
+ * delta in unrelated instances. */
 async function walk(): Promise<Measurement> {
 	const m: Measurement = {
 		after: empty(),

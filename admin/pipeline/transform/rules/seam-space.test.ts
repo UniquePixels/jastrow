@@ -9,6 +9,9 @@ import {
 	translitItalicSpace,
 } from './seam-space.ts';
 
+/** A minimal single-sense entry: every rule here reads `definition`
+ * and nothing else. Fixture tier — the corpus tier lives in
+ * `seam-space-corpus.test.ts`. */
 function entryWith(definition: string): SourceEntry {
 	return {
 		content: { senses: [{ definition }] },
@@ -17,6 +20,7 @@ function entryWith(definition: string): SourceEntry {
 	} as SourceEntry;
 }
 
+/** The one definition back out. */
 const defOf = (e: SourceEntry): string => e.content.senses[0]?.definition ?? '';
 
 describe('seam-space rules', () => {

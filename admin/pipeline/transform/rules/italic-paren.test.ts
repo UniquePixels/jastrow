@@ -12,6 +12,8 @@ import type { SourceEntry } from '../../body/types.ts';
 import { checkNoNewText } from '../no-new-text.ts';
 import { italicSwallowsCloseParen } from './italic-paren.ts';
 
+/** A minimal single-sense entry: the rule reads `definition` and
+ * nothing else. */
 function entryWith(definition: string): SourceEntry {
 	return {
 		content: { senses: [{ definition }] },
@@ -20,6 +22,7 @@ function entryWith(definition: string): SourceEntry {
 	} as SourceEntry;
 }
 
+/** The one definition back out — what every assertion below reads. */
 const defOf = (e: SourceEntry): string => e.content.senses[0]?.definition ?? '';
 
 // Task 6, the one row of the four escalation rows that turned out
