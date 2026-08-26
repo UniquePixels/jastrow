@@ -44,29 +44,70 @@ import type { Rule } from './types.ts';
 /** Rules in execution order. Entangled rows MUST be adjacent — they own
  * the same records and will rewrite each other's work otherwise. */
 const RULES: readonly Rule[] = [
-	// The rtl wrapper family — adjacent by requirement, a 3-clique in
-	// the catalogue's entanglement graph (Task 4).
+	// ======== UNLINK BEFORE WRAP ========
 	//
-	// UNWRAP BEFORE WRAP, and the order is measured, not aesthetic.
-	// Dropping a redundant outer span re-exposes the Hebrew it covered:
-	// that text was `rtl: true` while the wrapper stood, so
-	// `bare-rtl-hebrew` correctly skipped it, and running the unwrapper
-	// afterwards left 62 entries newly bare with nothing left to wrap
-	// them — the audit's "trade one for another" happening in the
-	// registry rather than in a predicate. Unwrapping first leaves 0.
-	redundantOuterRtl,
-	bareRtlHebrew,
-	latinTokenInsideRtl,
+	// REORDERED 2026-08-26 (fix/rtl-unlink-order). The rtl trio used to
+	// lead this list and the unlink family followed it, which is the
+	// SAME defect batch 1 shipped inside the trio, one level up. An
+	// unlink rule drops an anchor and re-exposes the Hebrew that anchor
+	// covered: while the anchor stood that text was already inside a
+	// link, so `bare-rtl-hebrew` correctly declined it, and with the
+	// unlinks running afterwards nothing ever wrapped it. `commutation.
+	// ts` is what found it — over all 32,512 entries, in ENTRIES whose
+	// final bytes differ between the two orders:
+	//
+	//   bare-rtl-hebrew × geresh-letter-numeral-mislink            441
+	//   bare-rtl-hebrew × prefixed-geresh-abbrev-mislink           170
+	//   bare-rtl-hebrew × ellipsis-fragment-anchored                80
+	//   bare-rtl-hebrew × plural-to-feminine-final-letter-mislink   50
+	//
+	// Unlink-first is the higher-yield order in all four, and the
+	// difference is rtl wrappers ADDED rather than text moved. All four
+	// pairs are now declared `entangledWith` in `patterns.jsonl`, which
+	// is what puts them under `checkAdjacency()` — see the component
+	// note below.
+	//
+	// The doctrine was already stated twice in this file and simply
+	// never applied here: "UNWRAP BEFORE WRAP" for the trio, and
+	// `ibAnaphora`'s requirement to run after every unlink rule. It is
+	// one doctrine — a rule that DELETES markup runs before a rule that
+	// reads the text that markup was hiding.
 
-	// The unlink family (batch 2, tasks 2-3): rows whose anchor is
-	// wrong and whose correct target does not exist, so the anchor is
-	// dropped. Placed immediately after the rtl trio and BEFORE any
-	// future compose rule (Tasks 7-8): a compose rule reads the anchor
-	// sequence to build a new target, and must never adopt work from
-	// an anchor these rules go on to delete — so unlinking has to run
-	// first, not merely somewhere earlier in the list.
+	// `apparatusCite` and `rabbiName` (batch 2, tasks 2-3): unlink rows
+	// whose anchor is wrong and whose correct target does not exist, so
+	// the anchor is dropped. They are NOT members of the entangled
+	// component below — measured 0 entries differing against
+	// `bareRtlHebrew` in either order, because the display they re-expose
+	// is a Latin apparatus citation or a rabbinic name, never Hebrew —
+	// so `checkAdjacency()` requires them OUTSIDE its span, and they
+	// lead.
+	//
+	// Leading is not merely permitted, it is the doctrine above applied
+	// fail-closed: these two unlink, so they belong on the unlink side
+	// of the wrap rules whether or not today's corpus can tell. Their
+	// old placement (immediately after the trio) was the arrangement
+	// that hid the defect in their four siblings.
+	//
+	// They must also stay BEFORE any compose rule (Tasks 7-8): a compose
+	// rule reads the anchor sequence to build a new target, and must
+	// never adopt work from an anchor these rules go on to delete — so
+	// unlinking has to run first, not merely somewhere earlier in the
+	// list. Pinned by `registry.order.test.ts`'s unlink-before-retarget
+	// assertion, which reads the whole `UNLINK` set.
 	apparatusCite,
 	rabbiName,
+
+	// ---- The unlink/wrap component: SEVEN rules, gap-free ----
+	//
+	// One connected component of the catalogue's entanglement graph as
+	// of 2026-08-26: the rtl 3-clique, the geresh pair, and the four
+	// `bare-rtl-hebrew` edges declared by this branch. `checkAdjacency()`
+	// requires all seven to occupy a gap-free span, which is why
+	// `apparatusCite`/`rabbiName` had to move out of the middle of it.
+	//
+	// Within the span: every UNLINK first, then the wrap trio.
+
+	// ellipsis-fragment-anchored (batch 2, task 3).
 	ellipsisFragment,
 
 	// The geresh pair (batch 2, task 5). Two more unlink rows, by the
@@ -104,10 +145,33 @@ const RULES: readonly Rule[] = [
 	// The conclusion is unchanged — a majority under either reading —
 	// but the number quoted here must be the sound one.
 	//
-	// Unentangled with any other registered rule — its population sits
-	// entirely inside the entry's own "Pl." construct, which no other
-	// rule here rewrites.
+	// CORRECTED 2026-08-26 (fix/rtl-unlink-order). This block said
+	// "Unentangled with any other registered rule — its population sits
+	// entirely inside the entry's own 'Pl.' construct, which no other
+	// rule here rewrites." That is FALSE and it is exactly the claim
+	// `commutation.ts` exists to falsify: unlinking inside the "Pl."
+	// construct re-exposes the Hebrew the anchor was covering, and
+	// `bareRtlHebrew` then wraps it — 50 entries differ between the two
+	// orders. The row is entangled with `bare-rtl-hebrew` and now says
+	// so in the catalogue.
 	pluralToFeminineFinalLetter,
+
+	// The rtl wrapper family — a 3-clique in the catalogue's
+	// entanglement graph (Task 4), and now four edges wider.
+	//
+	// UNWRAP BEFORE WRAP, and the order is measured, not aesthetic.
+	// Dropping a redundant outer span re-exposes the Hebrew it covered:
+	// that text was `rtl: true` while the wrapper stood, so
+	// `bare-rtl-hebrew` correctly skipped it, and running the unwrapper
+	// afterwards left 62 entries newly bare with nothing left to wrap
+	// them — the audit's "trade one for another" happening in the
+	// registry rather than in a predicate. Unwrapping first leaves 0.
+	// (`commutation.ts` re-derives that 62 as the trio's one DECLARED
+	// non-commuting pair, and it is the only one of the eight the
+	// catalogue already knew about.)
+	redundantOuterRtl,
+	bareRtlHebrew,
+	latinTokenInsideRtl,
 
 	// shuruk-as-yod-display-corruption (batch 2, task 10). Not an
 	// unlink and not a retarget — the only rule in the batch that edits
@@ -343,6 +407,58 @@ const RULES: readonly Rule[] = [
 	// its 8 entries, so it hands that row nothing in either order.
 	italicSwallowsCloseParen,
 
+	// `italicLonePunctuation` is the residue row: of 259 single-
+	// character non-alphanumeric italic runs corpus-wide, 230 are
+	// `<i>—</i>` (`emDashSectionBreak`'s, below) and 28 are `[.?;]`
+	// (this row's). The 259th is I00129's U+0357 combining mark, which
+	// is not punctuation at all.
+	//
+	// Measured 0 / 0 — FREE, as the predicate says it must be:
+	// `LONE_PUNCTUATION`'s class is `[.?;]` and has no way to match an
+	// em-dash in any order, against any corpus.
+	//
+	// MOVED 2026-08-26 (fix/rtl-unlink-order), from between
+	// `emDashSectionBreak` and `labelPeriodInside`. It sat there for
+	// READABILITY — a reader checking the 230/28 split wants both rows
+	// in view — and the block said in as many words that this was "a
+	// presentation choice, not a constraint". It has now become one:
+	// the four-rule italic component below (`emphasisRunEdgeSpace`,
+	// `emDashSectionBreak`, `labelPeriodInside`,
+	// `italicGlossPeriodOutside`) is declared entangled as of this
+	// branch, and `checkAdjacency()` requires it gap-free — this row was
+	// the gap. It moves UP rather than down because that leaves it two
+	// slots from `emDashSectionBreak` instead of three — as close as
+	// the span allows, and the readability was the only reason to care.
+	// Nothing about the placement is measured differently: 0 / 0 still.
+	// Spec §8's original claim that the old adjacency prevented a
+	// 230-instance double-count is retracted; nothing prevents it except
+	// the character class.
+	italicLonePunctuation,
+
+	// ---- The italic component: FOUR rules, gap-free ----
+	//
+	// DECLARED 2026-08-26 (fix/rtl-unlink-order). Three of the batch's
+	// measured ordering constraints — the two stated in the blocks
+	// below and `emDashSectionBreak` against `labelPeriodInside` — are
+	// non-commutation, and `commutation.ts` measures them as such over
+	// all 32,512 entries, in ENTRIES whose final bytes differ between
+	// the two orders:
+	//
+	//   em-dash-section-break-in-own-italic × italic-swallowed-…-period  270
+	//   emphasis-run-edge-space × italic-swallowed-terminal-period         13
+	//   em-dash-section-break-in-own-italic × label-period-outside-italic   4
+	//
+	// Each was already argued in a block comment here and pinned in
+	// `registry.order.test.ts`; none was ever written into
+	// `entangledWith`, so `checkAdjacency()` was blind to all three and
+	// this file was the only thing holding them. They are edges now, and
+	// with the pre-existing period-pair edge the four rules form one
+	// component that must occupy a gap-free span.
+	//
+	// NO ORDER CHANGES HERE. The three constraints were correct as
+	// shipped; what was missing was the declaration. The only movement
+	// is `italicLonePunctuation` out of the span, above.
+
 	// ---- `emphasisRunEdgeSpace` BEFORE the period rules ----
 	//
 	// Measured 0 / 13 — CONSTRAINED. It must not run last, and this is
@@ -391,40 +507,29 @@ const RULES: readonly Rule[] = [
 	// body ending `—`, which `INSIDE` cannot match, so this rule TAKES
 	// 247 entries out of `italicGlossPeriodOutside`'s reach (1,567 alone
 	// → 1,331 composed, the balance being the 11 the edge rule adds).
-	// It also takes 4 out of `labelPeriodInside`'s (979 → 975): the
+	// It also takes 4 out of `labelPeriodInside`'s (979 entries → 975;
+	// the row fires once per entry, so its record count moves the same
+	// 979 → 975): the
 	// labelled shape `.</i> <i>—Pl</i>.` merges into `<i>gloss.—Pl</i>.`
 	// and `isLabel` correctly declines that body, so the period stays
 	// outside. Both are the whole-body granularity ruling (R1) doing
 	// what it was ruled to do, not a rule failing.
 	//
-	// Neither constraint is an `entangledWith` edge, so
-	// `checkAdjacency()` cannot see either one — the blind spot that
-	// rule's own docstring and spec §8 both name. It lives here, in
+	// CORRECTED 2026-08-26 (fix/rtl-unlink-order). This block ended
+	// "Neither constraint is an `entangledWith` edge, so
+	// `checkAdjacency()` cannot see either one … It lives here, in
 	// `registry.order.test.ts`'s explicit pin, and in the corpus-tier
-	// tests; nowhere else.
+	// tests; nowhere else." Both ARE edges now, and so is this rule's
+	// pairing with `labelPeriodInside` — see the component block above.
+	// `checkAdjacency()` still cannot see WHICH WAY ROUND any of them
+	// goes, only that they are adjacent; the direction remains this
+	// block, the order test's pin, and `commutation.ts`'s 270.
 	emDashSectionBreak,
-
-	// `italicLonePunctuation` is the residue row: of 259 single-
-	// character non-alphanumeric italic runs corpus-wide, 230 are
-	// `<i>—</i>` (already the row above's) and 28 are `[.?;]` (this
-	// row's). The 259th is I00129's U+0357 combining mark, which is not
-	// punctuation at all.
-	//
-	// Measured 0 / 0 — FREE, as the predicate says it must be:
-	// `LONE_PUNCTUATION`'s class is `[.?;]` and has no way to match an
-	// em-dash in any order, against any corpus. Kept adjacent to
-	// `emDashSectionBreak` for READABILITY — a reader checking the
-	// 230/28 split needs both rows in view — and that is a presentation
-	// choice, not a constraint. Spec §8's original claim that this
-	// adjacency prevented a 230-instance double-count is retracted;
-	// nothing prevents it except the character class.
-	italicLonePunctuation,
 
 	// ---- The label pair, gap-free adjacent ----
 	//
-	// The batch's only recorded entanglement edge, so `checkAdjacency()`
-	// requires this gap-free span — the one ordering constraint in the
-	// batch a gate can actually see.
+	// The batch's only recorded entanglement edge when it shipped, and
+	// now one of four inside the component above.
 	//
 	// `labelPeriodInside` measures 0 / 0: on today's corpus the pair's
 	// INTERNAL order is FREE, and the brief's claim that it is
@@ -611,8 +716,11 @@ interface Cluster {
  * find it from either end.
  *
  * `checkEntanglement` reports an unreciprocated edge as a catalogue
- * problem, and today every edge is reciprocated — 18 recorded entries,
- * 9 undirected edges, 0 one-sided, 0 dangling — so nothing in the
+ * problem, and today every edge is reciprocated — 32 recorded entries,
+ * 16 undirected edges, 0 one-sided, 0 dangling (2026-08-26: was 18 / 9
+ * before `fix/rtl-unlink-order` declared seven more; see
+ * `registry.order.test.ts` for a stale SPLIT of those totals corrected
+ * at the same time) — so nothing in the
  * corpus reaches this. That is exactly why it is worth building
  * correctly rather than leaving: this is the code Task 3 added to make
  * the adjacency gate FALSIFIABLE, and a gate whose correctness rests
@@ -734,9 +842,13 @@ function entangledClusters(
  * an entanglement nobody recorded does not exist as far as it is
  * concerned. A row carrying NO edge is invisible to it: the row's
  * component is a singleton, `entangledClusters` drops it, and the gate
- * returns clean whatever the registry does with that rule. 56 of the
- * 62 rows still in `PENDING` carry no edge at all (measured
- * 2026-08-25), so for most of the work ahead this gate is
+ * returns clean whatever the registry does with that rule. 42 of the
+ * 46 rows still in `PENDING` carry no edge at all (measured
+ * 2026-08-26; this read "56 of the 62" and went stale one commit
+ * earlier, at batch 3b, which took 16 rows off `PENDING` — 12 rules
+ * shipped and 4 rows withdrawn — rather than on this branch, which
+ * changed no `PENDING` row's edges. The ratio moved; the claim the
+ * sentence makes did not), so for most of the work ahead this gate is
  * unfalsifiable BY CONSTRUCTION — not because the check is weak, but
  * because its input is incomplete.
  *
@@ -803,7 +915,18 @@ function checkAdjacency(
  *
  * Edges between two unregistered rows are excluded rather than
  * missing: execution order cannot be wrong about a rule that does not
- * run. 4 of the catalogue's 9 undirected edges are of that kind today.
+ * run. 3 of the catalogue's 16 undirected edges are of that kind
+ * today.
+ *
+ * CORRECTED 2026-08-26 (fix/rtl-unlink-order). This read "4 of the
+ * catalogue's 9". The 9 became 16 when this branch declared seven more
+ * edges, but the 4 was wrong before the branch touched it — recomputed
+ * on v2 the split is 6 both-registered and 3 neither, never 5 and 4 —
+ * and every edge declared here joins two REGISTERED rules, which
+ * cannot move the neither-registered count at all. Same stale split as
+ * `registry.order.test.ts`'s `unaccountedEdges` block, corrected in
+ * the same pass and by the same measurement.
+ *
  * Self-edges are excluded too — `checkEntanglement` owns those, and a
  * component cannot be split from itself.
  */
