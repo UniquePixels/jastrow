@@ -198,13 +198,24 @@ const NEITHER = new Set([
  *       scope, AND
  *   (b) never changes the tag-stripped text, in any entry.
  *
- * Both halves are load-bearing. (a) alone admits
- * `geresh-abbrev-space-loss`, which inserts a space that sometimes
- * lands inside an rtl span — a length artefact, not wrapper work. (b)
- * alone admits every unlink rule. Together they measure exactly the
- * trio, and they measure the PROPERTY rather than the names: a fourth
- * rule that moves rtl wrappers joins this set or fails the corpus test
- * below. `dir="rtl"` on an ANCHOR is deliberately not counted — an
+ * Both halves are load-bearing, and (b) carries MORE of the weight
+ * since round 4 made (a) position-sensitive. Measured over the corpus:
+ * under the old character-count signature (a) alone admitted the trio
+ * plus `geresh-abbrev-space-loss`; under the position signature it
+ * admits the trio plus SEVEN — every seam rule that inserts or deletes
+ * a space, because shifting the stripped text shifts every rtl offset
+ * after it. All seven are excluded by (b), and the set is unchanged,
+ * but a future weakening of (b) would now over-collect badly rather
+ * than by one. (b) alone, meanwhile, admits every unlink rule.
+ *
+ * Together they measure exactly the trio, and they measure the
+ * PROPERTY rather than the names: a fourth rule that moves rtl
+ * wrappers joins this set or fails the corpus test below. The
+ * conjunction's own blind spot, stated rather than left to be found: a
+ * rule that moves a wrapper AND edits text in the same pass fails (b)
+ * and would be missed. No shipped rule does both, and the two classes
+ * have stayed disjoint through four batches, but that is a fact about
+ * today's rules and not a property of the measurement. `dir="rtl"` on an ANCHOR is deliberately not counted — an
  * unlink rule removing `<a dir="rtl">` changes rtl coverage without
  * being a wrap rule, and rule 4 is about the two classes being
  * distinct. */
@@ -478,35 +489,93 @@ const MOVED_A_TARGET = new Set<string>();
 const MOVED_A_WRAPPER = new Set<string>();
 const MOVED_TEXT = new Set<string>();
 
-/** How many characters sit under a `<span dir="rtl">` scope, per
- * field — the measurable half of "moves an rtl wrapper".
+/** An opening tag that puts text into rtl.
  *
- * Scopes are tracked here rather than read off `Token.rtl`, which
- * reports ANY rtl ancestor and so counts `<a dir="rtl">` too. Counting
- * anchors would put every unlink rule in `WRAP`, which is precisely the
- * distinction rule 4 rests on. */
+ * `<span dir="rtl">` only. Scopes are tracked by hand rather than read
+ * off `Token.rtl`, which reports ANY rtl ancestor and so counts
+ * `<a dir="rtl">` too — counting anchors would put every unlink rule in
+ * `WRAP`, which is precisely the distinction rule 4 rests on. */
 function opensRtlSpan(token: TagToken): boolean {
 	return token.name === 'span' && DIR_RTL.test(token.value);
 }
 
-/** Characters under a `<span dir="rtl">` scope in one field. */
-function coveredCharsIn(field: string): number {
+/** Append `[from, to)` to `runs`, extending the previous run instead
+ * when the two abut. The merge is not cosmetic: without it, inserting
+ * or removing a NON-span tag inside an rtl span splits one run into
+ * several and the rule reads as a wrapper move. `italicLonePunctuation`
+ * unwrapping `<i>.</i>` is the live case. */
+function extend(runs: number[][], from: number, to: number): void {
+	const last = runs.at(-1);
+	if (last?.[1] === from) {
+		last[1] = to;
+		return;
+	}
+	runs.push([from, to]);
+}
+
+/**
+ * WHERE the `<span dir="rtl">` wrappers sit in one field: how many
+ * there are, and which offset ranges of the TAG-STRIPPED text they
+ * cover, contiguous runs merged.
+ *
+ * POSITION-SENSITIVE, and it has to be. This was a single character
+ * COUNT per field until review round 4, which meant a rule that MOVED
+ * a wrapper without changing how much text it covers — `covers 4
+ * characters from offset 0` becoming `covers 4 characters from offset
+ * 7` — produced the same count and the same stripped text, satisfied
+ * NEITHER half of the `WRAP` conjunction, and landed in `NEITHER`
+ * where rule 4 could not see it. The same evasion the 3-id literal
+ * had, one level down.
+ *
+ * WHAT THE SIGNATURE DISTINGUISHES, since the next reader needs the
+ * boundary rather than the intent:
+ *
+ * - a wrapper appearing or disappearing (the count moves);
+ * - a wrapper growing, shrinking, or SLIDING along the text (the
+ *   ranges move) — this is what round 4 added;
+ * - a wrapper whose text is edited underneath it, only insofar as the
+ *   edit changes lengths. Text edits are the OTHER half of the
+ *   conjunction and are caught there, by `textOf`.
+ *
+ * WHAT IT DOES NOT DISTINGUISH:
+ *
+ * - splitting one rtl span into two that abut and cover exactly the
+ *   same characters, or the reverse. The merge makes those identical
+ *   ranges — but not identical COUNTS, so the span tally catches it.
+ *   Both halves are needed; neither is sufficient.
+ * - which span covers which range, when two spans swap identical
+ *   ranges. No rule can do this without moving text, which `textOf`
+ *   catches.
+ * - anything about `<a dir="rtl">`, deliberately — see
+ *   `opensRtlSpan`.
+ */
+function coverageSignatureIn(field: string): [number, number[][]] {
 	const scopes: boolean[] = [];
-	let covered = 0;
+	const runs: number[][] = [];
+	let opens = 0;
+	// `offset`, not `at` — the module's `at(id)` is the registry-position
+	// helper every ordering assertion runs through, and shadowing it here
+	// is a `noShadow` warning that `qa:lint --error-on-warnings` fails on.
+	let offset = 0;
 	for (const token of tokenize(field)) {
 		if (token.kind === 'text') {
-			covered += scopes.includes(true) ? token.value.length : 0;
+			if (scopes.includes(true) && token.value.length > 0) {
+				extend(runs, offset, offset + token.value.length);
+			}
+			offset += token.value.length;
 		} else if (token.close) {
 			scopes.pop();
 		} else if (opensScope(token.value)) {
-			scopes.push(opensRtlSpan(token));
+			const rtl = opensRtlSpan(token);
+			opens += rtl ? 1 : 0;
+			scopes.push(rtl);
 		}
 	}
-	return covered;
+	return [opens, runs];
 }
 
 function rtlSpanCoverageOf(entry: SourceEntry): string {
-	return JSON.stringify(fieldsOf(entry).map(coveredCharsIn));
+	return JSON.stringify(fieldsOf(entry).map(coverageSignatureIn));
 }
 
 /** Every anchor's parsed target pair, in walk order. */
@@ -575,6 +644,65 @@ function everDeclared(kind: string): string[] {
 		.map(([id]) => id)
 		.toSorted(byId);
 }
+
+/** One entry differing from another only in its lone definition — the
+ * two-argument fixture the signature tests below compare. */
+function defOnly(definition: string): SourceEntry {
+	return { content: { senses: [{ definition }] }, headword: 'x', rid: 'A1' };
+}
+
+/**
+ * The signature earning its own claim, which round 2's `inertRules`
+ * lesson says it has to: a hardening whose effectiveness is unasserted
+ * is indistinguishable from one that does nothing.
+ *
+ * These are unit cases, not corpus cases. `exactly the WRAP rules ever
+ * move an rtl wrapper` below proves what the signature says about
+ * TODAY'S rules; it cannot prove what it would say about a rule none
+ * of them is, and that is the whole point of the round-4 change.
+ */
+describe('the rtl coverage signature', () => {
+	// THE EVASION ROUND 4 CLOSED. Same wrapper, same four covered
+	// characters, same tag-stripped text — only the position moves. The
+	// character-count signature this replaced returned 2 for both and
+	// saw nothing, so a rule doing only this satisfied neither half of
+	// the WRAP conjunction and landed in NEITHER, out of rule 4's reach.
+	it('distinguishes a wrapper that slides along unchanged text', () => {
+		const before = defOnly('<span dir="rtl">אב</span>גד');
+		const after = defOnly('אב<span dir="rtl">גד</span>');
+		expect(textOf(before)).toBe(textOf(after));
+		expect(rtlSpanCoverageOf(before)).not.toBe(rtlSpanCoverageOf(after));
+	});
+
+	// THE FALSE POSITIVE THE MERGE PREVENTS, and the reason `extend`
+	// exists. Unwrapping a non-span tag INSIDE an rtl span leaves the
+	// same wrapper over the same characters; without merging contiguous
+	// runs it would split one run into three and read as wrapper work,
+	// pulling `italicLonePunctuation` and its neighbours into WRAP.
+	it('ignores a non-span tag removed from inside a wrapper', () => {
+		const before = defOnly('<span dir="rtl">א<i>ב</i>גד</span>');
+		const after = defOnly('<span dir="rtl">אבגד</span>');
+		expect(textOf(before)).toBe(textOf(after));
+		expect(rtlSpanCoverageOf(before)).toBe(rtlSpanCoverageOf(after));
+	});
+
+	// The span TALLY, which the merge above makes necessary: two abutting
+	// wrappers cover exactly the ranges one does, so ranges alone cannot
+	// tell them apart. Neither half of the signature is sufficient.
+	it('distinguishes one wrapper from two that abut', () => {
+		const before = defOnly('<span dir="rtl">אבגד</span>');
+		const after = defOnly('<span dir="rtl">אב</span><span dir="rtl">גד</span>');
+		expect(rtlSpanCoverageOf(before)).not.toBe(rtlSpanCoverageOf(after));
+	});
+
+	// Anchor-borne dir="rtl" is not wrapper markup for this purpose, and
+	// that exclusion is what keeps every unlink rule out of WRAP.
+	it('ignores dir="rtl" on an anchor', () => {
+		const plain = defOnly('אבגד');
+		const linked = defOnly('<a dir="rtl" href="/x">אבגד</a>');
+		expect(rtlSpanCoverageOf(plain)).toBe(rtlSpanCoverageOf(linked));
+	});
+});
 
 describe('the classification is earned, not declared', () => {
 	it('exactly the UNLINK rules ever remove an anchor', async () => {
