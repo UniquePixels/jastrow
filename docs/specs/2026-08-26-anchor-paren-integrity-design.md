@@ -12,8 +12,9 @@ the same tags shipped in 3b.
 
 ## 1. What this batch is
 
-**Scope, ruled 2026-08-26 (Brian): 10 rows / 2,513 catalogued
-instances.** The set is **entanglement-closed** — no `entangledWith`
+**Scope, ruled 2026-08-26 (Brian): 10 rows / 2,515 catalogued
+instances** (2,513 when ruled; Task 1's count corrections moved it +2 —
+`anchor-swallows-close-paren` −1, `tosefta-variant` +3). The set is **entanglement-closed** — no `entangledWith`
 edge leaves it and none enters it — so it ships as one pull request
 without leaving `unaccountedEdges()` with a dangling endpoint.
 
@@ -40,8 +41,12 @@ both cases — **split by predicate, not by adjacency**:
   defect, but it edits `alt_headwords`, which is batch 5's object.
   Pulling it forward would take batch 5's largest row.
 
-**2,513 is a catalogue figure, and §3 shows why the batch's real
-population is 2,122 and its rule count is 9, not 10.**
+**2,515 is a catalogue figure, and §3 shows why the batch's real
+population is 2,114 and its rule count is 7, not 10.** CORRECTED
+2026-08-26: this read *"2,122 … 9, not 10"*. It subtracted the tosefta
+containment and not the JT one, although §3.2 is entirely about the JT
+containment — and the rule count was the row count minus one
+containment rather than the seven rules §5 actually lists.
 
 ## 2. Measured scope
 
@@ -120,9 +125,14 @@ that. Every predicate above emits **byte spans** — `(rid, field,
 start, end)` over the same field strings — and any two rows whose spans
 intersect are claiming the same bytes.
 
-Over all 45 pairs, **two collide and 43 are clean**:
+Over all 45 pairs, **two collide and 43 are clean**. The comparison is on
+BYTE SPANS, and Task 1's re-run showed why that matters rather than
+rid-level comparison: **9 entries carry both `anchor-swallows-close-paren`
+and `open-paren-in-anchor-display` at different offsets**, so a rid-level
+test would report a collision between two rows whose shapes are opposite
+polarities and never touch.
 
-| Rows | Overlap | Declared? |
+| Rows | Overlap (byte spans) | Declared? |
 |---|---|---|
 | `anchor-swallows-close-paren` × `tosefta-variant-chapter-halakha-loss` | 414 occ / 391 ent | **yes** — `entangledWith`, both `reason`s |
 | `jt-double-wrapped-citation` × `nested-anchor-swallows-punctuation` | 20 occ / 10 ent | **no** |
@@ -136,9 +146,10 @@ BOTH**.* The detector reproduces the containment as a byte fact — every
 one of the 391 chapter-only primaries lies inside a
 `anchor-swallows-close-paren` span.
 
-The consequence for this batch's headline is arithmetic:
-**2,513 catalogued instances describe 2,122 distinct populations**, and
-**10 rows ship as 9 rules**. Re-splitting the boundary so the `)` falls
+The consequence for this batch's headline is arithmetic: with §3.2's
+containment counted too, **2,515 catalogued instances describe 2,114
+distinct populations** (2,515 − 391 − 10), and **10 rows ship as 7
+rules**. Re-splitting the boundary so the `)` falls
 outside the variant anchor, and letting the print halakha reach the
 primary, is one edit at one site.
 
@@ -165,10 +176,24 @@ The 20 that trap nothing are exactly the 10 JT entries — `A00722`,
 slash, reproducing that row's `reason` to the occurrence.
 
 **The nested row's own `reason` knows.** It reads *"455 of the 465 trap
-punctuation, while 10 (the Jerusalem Talmud …)"*. 465 − 10 = 455. The
-fact was written down in prose and never written into the field that
-`checkAdjacency()` reads, so no gate could see it — the same failure
-mode as `anchor-swallows-close-paren`'s missing `reason`, one level up.
+punctuation, while 10 (the Jerusalem Talmud double-wraps, href missing
+its leading slash in 20 of 20 occurrences) trap nothing."* 465 − 10 =
+455. The fact was written down in prose and never written into the
+field that `checkAdjacency()` reads, so no gate could see it — the same
+failure mode as `anchor-swallows-close-paren`'s missing `reason`, one
+level up.
+
+> **CORRECTED 2026-08-26 (Task 1).** This paragraph read *"…while 10
+> (the Jerusalem Talmud …)"* and the §8 write-back table asked for the
+> row's *"`reason` completed"*. **The `reason` was never truncated** —
+> it is 687 characters and ends cleanly at "trap nothing". The ellipsis
+> was an artefact of the `.slice(0, 600)` in the script that first
+> dumped these rows for this spec, and it was then written up as a
+> property of the data. Nothing needed completing; the row needed only
+> its `entangledWith` edge. A display limit read back as a corpus fact
+> is the same shape as the parser defect batch 2 recorded — when a
+> measurement reports something missing, ask what could make it *look*
+> missing besides absence.
 
 **Write-back owed:** a mutual `entangledWith` edge between
 `jt-double-wrapped-citation` and `nested-anchor-swallows-punctuation`,
@@ -347,7 +372,7 @@ Edited surgically, never through `renderPatterns()` (module design §6).
 |---|---|
 | `anchor-swallows-close-paren` | `corpusCount` 494 → 493; `reason` sentence corrected |
 | `tosefta-variant-chapter-halakha-loss` | `corpusCount` 388 → 391, pending §7.1 |
-| `nested-anchor-swallows-punctuation` | `entangledWith` += `jt-double-wrapped-citation`; `reason` completed |
+| `nested-anchor-swallows-punctuation` | `entangledWith` += `jt-double-wrapped-citation`. (This row asked for the `reason` to be "completed"; it was never truncated — see §3.2's correction.) |
 | `jt-double-wrapped-citation` | `entangledWith` += `nested-anchor-swallows-punctuation` |
 | `open-paren-in-anchor-display` | first `reason`, from §2.2 |
 | `post-anchor-numeral-duplication` | `route` → `judgment` + `reason`, pending §7.3 |

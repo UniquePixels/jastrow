@@ -127,7 +127,7 @@ rules on top of that, not on top of `a37a9c7`.
 - [ ] `anchor-swallows-close-paren`: `corpusCount` 494 → 493, and the sentence claiming "the catalogued 494 entries reproduces" corrected.
 - [ ] `tosefta-variant-chapter-halakha-loss`: `corpusCount` 388 → whatever the pinned predicate returns, with its unit stated.
 - [ ] `open-paren-in-anchor-display` gains a first `reason` carrying: the predicate, 225 occ / 214 ent, and that it is the opposite polarity of `anchor-swallows-close-paren`.
-- [ ] `nested-anchor-swallows-punctuation` and `jt-double-wrapped-citation` each carry the other in `entangledWith`, and the nested row's truncated `reason` sentence is completed.
+- [x] `nested-anchor-swallows-punctuation` and `jt-double-wrapped-citation` each carry the other in `entangledWith`. (This criterion also asked for the nested row's "truncated" `reason` to be completed — it was never truncated; see spec §3.2's correction.)
 - [ ] Route totals recomputed and reported; five lines changed, no others.
 
 **Verify:**
