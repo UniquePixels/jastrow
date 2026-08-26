@@ -123,18 +123,47 @@ const RETARGET = new Set([
  * `ascii-quote-as-gershayim-in-body` (batch 3a) repairs a glyph in
  * document text only, every `<…>` tag coming through byte-identical —
  * which is exactly what separates it from its own twin in `GLYPH`
- * below. All three were measured free of position (see `registry.ts`).
+ * below.
+ *
+ * BATCH 3b ADDS TWELVE, and they are the set's first real test rather
+ * than a bulk append. 110 of their seams sit directly against an
+ * anchor's closing tag — 57 `</a><i>` and 53 `)</a><i>` (CORRECTED
+ * 2026-08-26 from 165, the pre-decline arithmetic 112 + 53, written
+ * before both patterns gained the `(?![.,;:?!])` guard) — so "does not
+ * move a
+ * target" is a claim about markup they demonstrably edit ADJACENT to,
+ * not one they are trivially incapable of breaking. Batch 3a's
+ * headline finding was a link regression that every per-rule
+ * measurement missed. The corpus pass below and
+ * `body/pipeline-links.test.ts` are the two things that can see it.
+ *
+ * Rule 1 says nothing about where any of the twelve sit, but plenty
+ * else does: four measured constraints order them among THEMSELVES,
+ * and those live in `registry.ts`'s own block comments because they
+ * are not about unlinks and retargets at all.
  *
  * Membership here is EARNED rather than declared: the corpus pass at
  * the bottom of this file checks that no rule in this set ever
  * declares an anchor removal and that none of them changes a single
  * `href` or `data-ref` anywhere in 32,512 entries. */
 const NEITHER = new Set([
+	'anchor-italic-no-space',
 	'ascii-quote-as-gershayim-in-body',
 	'bare-rtl-hebrew',
+	'em-dash-section-break-in-own-italic',
+	'emphasis-run-edge-space',
+	'geresh-abbrev-space-loss',
+	'italic-close-paren-nospace',
+	'italic-lone-punctuation',
+	'italic-swallowed-terminal-period',
+	'italic-swallows-close-paren',
+	'label-period-outside-italic',
 	'latin-token-inside-rtl-span',
+	'paren-tag-no-space',
 	'redundant-outer-rtl-span',
 	'shuruk-as-yod-display-corruption',
+	'trailing-whitespace-definition',
+	'translit-italic-space-loss',
 ]);
 
 /** Rules that rewrite a link target IN PLACE, by glyph substitution
@@ -152,30 +181,39 @@ const NEITHER = new Set([
  * fires on the same 1,386 / 85 entries composed as it does alone. */
 const GLYPH = new Set(['gershayim-breaks-ref-attribute']);
 
+/** The four classifications, named ONCE. Both halves of the
+ * classification test read this, so a fifth class added to one half
+ * and forgotten in the other is not a thing that can happen. */
+const CLASSES: ReadonlySet<string>[] = [UNLINK, RETARGET, NEITHER, GLYPH];
+
 const ids = RULES.map((rule) => rule.id);
-const at = (id: string): number => ids.indexOf(id);
+
+/** A registered rule's position, THROWING on an unregistered id:
+ * `indexOf`'s -1 is less than every real position, so an ordering
+ * constraint whose subject was renamed or dropped would PASS while
+ * asserting nothing. */
+function at(id: string): number {
+	const index = ids.indexOf(id);
+	if (index < 0) {
+		throw new Error(`registry order: no rule registered as '${id}'`);
+	}
+	return index;
+}
 
 describe('registry order', () => {
 	// Guards the orderings below against going vacuous: a new rule in
 	// none of the sets is unclassified, and they would then say nothing
 	// about it while still passing.
 	it('every registered rule is classified', () => {
-		const unclassified = ids.filter(
-			(id) =>
-				!(
-					UNLINK.has(id) ||
-					RETARGET.has(id) ||
-					NEITHER.has(id) ||
-					GLYPH.has(id)
-				),
-		);
+		const unclassified = ids.filter((id) => !CLASSES.some((c) => c.has(id)));
 		expect(unclassified).toEqual([]);
 		// And the other direction — a set naming a rule that no longer
 		// exists is a stale classification, not a passing test.
-		const missing = [...UNLINK, ...RETARGET, ...NEITHER, ...GLYPH].filter(
-			(id) => !ids.includes(id),
-		);
-		expect(missing).toEqual([]);
+		const claimed = CLASSES.flatMap((c) => [...c]);
+		expect(claimed.filter((id) => !ids.includes(id))).toEqual([]);
+		// Same guard, for the instrument every ordering assertion below
+		// runs through — pinned so it cannot revert to a bare `indexOf`.
+		expect(() => at('no-such-rule')).toThrow(/no rule registered/u);
 	});
 
 	it('every unlink rule precedes every retarget rule', () => {
@@ -213,6 +251,7 @@ describe('registry order', () => {
 				'redundant-outer-rtl-span',
 			],
 			['geresh-letter-numeral-mislink', 'prefixed-geresh-abbrev-mislink'],
+			['italic-swallowed-terminal-period', 'label-period-outside-italic'],
 		]);
 	});
 
@@ -222,7 +261,7 @@ describe('registry order', () => {
 	// there being no clusters at all.
 	it('every derived cluster occupies a gap-free span', () => {
 		const clusters = entangledClusters(catalogue, RULES);
-		expect(clusters).toHaveLength(3);
+		expect(clusters).toHaveLength(4);
 		for (const cluster of clusters) {
 			const span = Math.max(...cluster.at) - Math.min(...cluster.at) + 1;
 			expect(`${cluster.ids.join(', ')} span ${span}`).toBe(
@@ -246,6 +285,61 @@ describe('registry order', () => {
 	// that clean and lands here.
 	it('every recorded edge touching the registry is validated or reported', () => {
 		expect(unaccountedEdges(catalogue, RULES)).toEqual([]);
+	});
+
+	// Batch 3b's two MEASURED ordering constraints, neither of which is
+	// an `entangledWith` edge, so `checkAdjacency` above is blind to
+	// both. Each cost is a corpus measurement, not a judgement:
+	// running `italic-swallowed-terminal-period` before the em-dash rule
+	// leaves that rule 0 of its 270 entries, and before
+	// `emphasis-run-edge-space` it never sees the 29 seams whose
+	// terminal period a captured space is hiding (11 entries, 1,567 →
+	// 1,578 composed). See `registry.ts`'s batch 3b block.
+	it('the two rules feeding italic-swallowed-terminal-period precede it', () => {
+		expect(at('em-dash-section-break-in-own-italic')).toBeLessThan(
+			at('italic-swallowed-terminal-period'),
+		);
+		expect(at('emphasis-run-edge-space')).toBeLessThan(
+			at('italic-swallowed-terminal-period'),
+		);
+	});
+
+	// The label pair's INTERNAL order. `checkAdjacency` sees the edge
+	// and so requires the two to be adjacent, but it is indifferent to
+	// which comes first, and which comes first is the whole point:
+	// `labelPeriodInside` removes labels from the population the gloss
+	// rule then reads, so that rule's exclusion clause is an assertion
+	// that already holds rather than a filter it must get right.
+	it('labelPeriodInside leads the label pair', () => {
+		expect(at('label-period-outside-italic')).toBeLessThan(
+			at('italic-swallowed-terminal-period'),
+		);
+	});
+
+	// Class B seam repair before the label predicate reads the run
+	// body: a missing space at `</a><i>` or `)<i>` changes what that
+	// body IS. Asserted over the whole Class B set rather than a
+	// representative, so adding a sixth seam rule outside the block
+	// fails here.
+	it('every space-inserting seam rule precedes the label pair', () => {
+		const seams = [
+			'anchor-italic-no-space',
+			'geresh-abbrev-space-loss',
+			'italic-close-paren-nospace',
+			'paren-tag-no-space',
+			'translit-italic-space-loss',
+		];
+		const lastSeam = Math.max(...seams.map(at));
+		expect(lastSeam).toBeLessThan(at('label-period-outside-italic'));
+	});
+
+	// `trailingWhitespaceDefinition` trims the entry's deepest-last
+	// sense and must see it as every other rule leaves it.
+	// `emphasis-run-edge-space` is the only rule that could hand it a
+	// member; running last is what makes the measured 0 the whole
+	// answer rather than a claim about one pair.
+	it('trailingWhitespaceDefinition runs last', () => {
+		expect(at('trailing-whitespace-definition')).toBe(RULES.length - 1);
 	});
 
 	it('the three ib- retargets keep their documented relative order', () => {

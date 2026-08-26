@@ -48,21 +48,19 @@
  *
  * ## The field walk
  *
- * `mapEntry` covers every field `fieldsOf` walks and no other, which
- * is the condition under which the gates can see this rule's work at
- * all: a field outside that set is one the gate cannot read, and a
- * rule editing only such a field passes vacuously. `refs[]` is absent
- * from both by the same ruling (body model spec §5, B7 — dropped at
- * compile). The two lists were compared field by field when this was
- * written, `grammar` included: `sense.grammar`'s three strings hold 0
- * occurrences in the pinned snapshot but ARE walked by `fieldsOf`, so
- * they are mapped here rather than left for a re-fetch to expose.
+ * `mapFields` (`../fields.ts`) covers every field `fieldsOf` walks
+ * and no other, which is the condition under which the gates can see
+ * this rule's work at all: a field outside that set is one the gate
+ * cannot read, and a rule editing only such a field passes vacuously.
+ * `refs[]` is absent from both by the same ruling (body model spec
+ * §5, B7 — dropped at compile). The two lists were compared field by
+ * field when this walk was written, `grammar` included:
+ * `sense.grammar`'s three strings hold 0 occurrences in the pinned
+ * snapshot but ARE walked by `fieldsOf`, so they are mapped too
+ * rather than left for a re-fetch to expose.
  */
-import type {
-	SourceEntry,
-	SourceGrammar,
-	SourceSense,
-} from '../../body/types.ts';
+import type { SourceEntry } from '../../body/types.ts';
+import { mapFields } from '../fields.ts';
 import { GERSHAYIM, repairTags, repairText } from '../gershayim.ts';
 import { HEBREW, tokenize } from '../html.ts';
 import { anchors } from '../links.ts';
@@ -72,138 +70,11 @@ import type { Rule, TransformRecord, TransformResult } from '../types.ts';
 /** One of `gershayim.ts`'s two locus-scoped substitutions. */
 type Repair = (value: string) => string;
 
-/** Threaded through the walk rather than compared at the end, so the
- * rule can hand back the caller's OWN entry object when nothing
- * matched — required by `Rule.apply`'s contract and by `count.ts`,
- * which deep-freezes the corpus. */
-interface Moved {
-	any: boolean;
-}
-
 /** A character that belongs to the abbreviation the mark sits in:
  * Hebrew (U+05F4 included, so a repaired token reads whole) plus the
  * combining dot `html.ts` admits as a suffix. Used only to name the
  * repaired token in a record. */
 const TOKEN_CHAR = new RegExp(String.raw`[${HEBREW}\u0307]`, 'u');
-
-/** Repair one string, reporting through `moved` whether it changed. */
-function repairOne(value: string, repair: Repair, moved: Moved): string {
-	const out = repair(value);
-	if (out !== value) {
-		moved.any = true;
-	}
-	return out;
-}
-
-/**
- * Each mapper below copies its input and then rewrites only the keys
- * that were PRESENT, so an entry without `language_reference` does not
- * gain one — a rule that handed `body:migrate-dry` a field holding
- * `undefined` would be inventing a field, not repairing a glyph.
- *
- * Written as guarded assignment rather than as `key: mapText(...)`
- * because `exactOptionalPropertyTypes` is on: assigning `undefined` to
- * an optional field is a type error here, so the compiler enforces
- * this rather than the convention having to be remembered.
- */
-function mapGrammar(
-	grammar: SourceGrammar,
-	repair: Repair,
-	moved: Moved,
-): SourceGrammar {
-	const out: SourceGrammar = { ...grammar };
-	if (grammar.binyan_form !== undefined) {
-		out.binyan_form = grammar.binyan_form.map((value) =>
-			repairOne(value, repair, moved),
-		);
-	}
-	if (grammar.language_code !== undefined) {
-		out.language_code = repairOne(grammar.language_code, repair, moved);
-	}
-	if (grammar.verbal_stem !== undefined) {
-		out.verbal_stem = repairOne(grammar.verbal_stem, repair, moved);
-	}
-	return out;
-}
-
-function mapSense(
-	sense: SourceSense,
-	repair: Repair,
-	moved: Moved,
-): SourceSense {
-	const out: SourceSense = { ...sense };
-	if (sense.definition !== undefined) {
-		out.definition = repairOne(sense.definition, repair, moved);
-	}
-	if (sense.grammar !== undefined) {
-		out.grammar = mapGrammar(sense.grammar, repair, moved);
-	}
-	if (sense.number !== undefined) {
-		out.number = repairOne(sense.number, repair, moved);
-	}
-	if (sense.senses !== undefined) {
-		out.senses = sense.senses.map((child) => mapSense(child, repair, moved));
-	}
-	return out;
-}
-
-function mapContent(
-	content: SourceEntry['content'],
-	repair: Repair,
-	moved: Moved,
-): SourceEntry['content'] {
-	const out: SourceEntry['content'] = {
-		...content,
-		senses: content.senses.map((sense) => mapSense(sense, repair, moved)),
-	};
-	if (content.morphology !== undefined) {
-		out.morphology = repairOne(content.morphology, repair, moved);
-	}
-	return out;
-}
-
-/** One `quotes` triple, nulls preserved in place. */
-function mapQuote(
-	triple: readonly (string | null)[],
-	repair: Repair,
-	moved: Moved,
-): [string | null, string, string | null] {
-	return triple.map((part) =>
-		part === null ? null : repairOne(part, repair, moved),
-	) as [string | null, string, string | null];
-}
-
-/** A new entry with every walked field repaired, or `undefined` when
- * the repair changed nothing — which is what lets `apply` hand back
- * the caller's own object, as `Rule.apply`'s contract requires. */
-function mapEntry(entry: SourceEntry, repair: Repair): SourceEntry | undefined {
-	const moved: Moved = { any: false };
-	const out: SourceEntry = {
-		...entry,
-		content: mapContent(entry.content, repair, moved),
-		headword: repairOne(entry.headword, repair, moved),
-	};
-	if (entry.alt_headwords !== undefined) {
-		out.alt_headwords = entry.alt_headwords.map((value) =>
-			repairOne(value, repair, moved),
-		);
-	}
-	if (entry.plural_form !== undefined) {
-		out.plural_form = entry.plural_form.map((value) =>
-			repairOne(value, repair, moved),
-		);
-	}
-	if (entry.language_code !== undefined) {
-		out.language_code = repairOne(entry.language_code, repair, moved);
-	}
-	if (entry.language_reference !== undefined) {
-		out.language_reference = repairOne(entry.language_reference, repair, moved);
-	}
-	if (entry.quotes !== undefined) {
-		out.quotes = entry.quotes.map((triple) => mapQuote(triple, repair, moved));
-	}
-	return moved.any ? out : undefined;
-}
 
 /** The abbreviation surrounding the mark at `at`, for a record's
  * detail. Bounded by `TOKEN_CHAR`, so it stops at the space or `=`
@@ -322,7 +193,7 @@ function build(id: string, repair: Repair, declare: boolean): Rule {
 		// call's own work.
 		allows: [GERSHAYIM],
 		apply(entry: SourceEntry): TransformResult {
-			const healed = mapEntry(entry, repair);
+			const healed = mapFields(entry, (text) => repair(text));
 			if (healed === undefined) {
 				return { entry, records: [] };
 			}

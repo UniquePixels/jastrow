@@ -7,17 +7,37 @@
  */
 import type { Pattern } from '../research/patterns.ts';
 import { ibAnaphora, sifreAnaphora, targumAnaphora } from './rules/anaphora.ts';
+import {
+	emphasisRunEdgeSpace,
+	trailingWhitespaceDefinition,
+} from './rules/edge-trim.ts';
 import { gereshLetterNumeral, prefixedGereshAbbrev } from './rules/geresh.ts';
 import { gershayimInBody, gershayimRefAttribute } from './rules/gershayim.ts';
+import { italicSwallowsCloseParen } from './rules/italic-paren.ts';
+import {
+	italicGlossPeriodOutside,
+	labelPeriodInside,
+} from './rules/italic-period.ts';
 import {
 	pluralToFeminineFinalLetter,
 	shurukAsYodDisplayCorruption,
 } from './rules/misc-links.ts';
 import {
+	emDashSectionBreak,
+	italicLonePunctuation,
+} from './rules/punct-seams.ts';
+import {
 	bareRtlHebrew,
 	latinTokenInsideRtl,
 	redundantOuterRtl,
 } from './rules/rtl.ts';
+import {
+	anchorItalicSpace,
+	gereshAbbrevSpace,
+	italicParenSpace,
+	parenTagSpace,
+	translitItalicSpace,
+} from './rules/seam-space.ts';
 import { apparatusCite, ellipsisFragment, rabbiName } from './rules/unlink.ts';
 import type { Rule } from './types.ts';
 
@@ -257,6 +277,181 @@ const RULES: readonly Rule[] = [
 	// working note nobody else can open.
 	gershayimInBody,
 	gershayimRefAttribute,
+
+	// ======== Batch 3b: italic & punctuation seams ========
+	//
+	// TWELVE rules, five modules. EVERY ordering claim below was
+	// measured against THIS registry, by moving the rule to the front
+	// and to the back of `RULES` and comparing all 32,512 entries byte
+	// for byte. The result is quoted per rule as `front / back`, and it
+	// is the number of ENTRIES whose final bytes differ from the shipped
+	// order. Two of the twelve are constrained; ten are free.
+	//
+	// This is not ceremony. The batch's own brief proposed an order that
+	// violated two of the constraints, and a rule's placement being
+	// ARGUED rather than measured is how batch 1 shipped the RTL trio
+	// backwards with every unit test green. Where the argument and the
+	// measurement disagree below, both are stated and the measurement
+	// wins.
+
+	// ---- Class B, the space-inserting seam rules, FIRST ----
+	//
+	// Measured 0 / 0, all five: their placement is FREE on today's
+	// corpus, and the reason they lead is an argument rather than a
+	// measurement. Stated as such. A missing space at `</a><i>` or
+	// `)<i>` changes what "the italic run body" is for the label
+	// predicate further down — with the seam closed, `<i>Pi.</i>` reads
+	// as a run whose body is a label; with it open, the preceding token
+	// has run into the tag. Repairing the seam first makes that
+	// predicate read the string a human reads. Today no entry needs it,
+	// so this is a fail-closed default against a re-fetch, not a live
+	// dependency, and nobody should later "discover" it was free and
+	// move them.
+	//
+	// The five are mutually order-free BY CONSTRUCTION, not by
+	// measurement alone: `parenTagSpace` owns both `)<i>` and `)</a><i>`
+	// and `anchorItalicSpace` carries a negative lookbehind declining
+	// every seam whose anchor display ends in `)`, so the 53 shared
+	// occurrences have ONE owner in either order (rules/seam-space.ts,
+	// "Two owners, one seam"). Before that lookbehind existed, which row
+	// owned those 53 depended on registry position — and the catalogue's
+	// own 111 for `anchor-italic-no-space` was double-counting them.
+	//
+	// THE PROBE THAT MEASURES THIS FREEDOM ALSO FOUND A DEFECT IN TWO OF
+	// THEM. Before Task 7, `anchorItalicSpace` and `parenTagSpace` read
+	// 0 / 2 and 0 / 1: they were inserting a space in front of a run
+	// OPENING with punctuation, rendering `well-covered) ;guarded;`, and
+	// `italicLonePunctuation` later unwrapping the run left the stray
+	// space loose in the text. 13 entries corpus-wide, 3 of them
+	// order-dependent and 10 wrong in every order. Both rules now
+	// decline that shape and both read 0 / 0. See
+	// rules/seam-space.ts, "The run that opens with punctuation".
+	anchorItalicSpace,
+	parenTagSpace,
+	italicParenSpace,
+	translitItalicSpace,
+	gereshAbbrevSpace,
+
+	// `italic-swallows-close-paren` (Task 6) — Class A, not Class B as
+	// the spec's §3 table had it: the split inserts no space, the tail's
+	// own leading space moves out with the paren.
+	//
+	// Measured 0 / 0 — free. It matches a paren INSIDE a run body with
+	// text on both sides; the seam rules above match a paren ADJACENT to
+	// a tag from outside, and `emphasisRunEdgeSpace` below matches a
+	// space at a run's edge. It creates 0 new `<i>␣`/`␣</i>` edges over
+	// its 8 entries, so it hands that row nothing in either order.
+	italicSwallowsCloseParen,
+
+	// ---- `emphasisRunEdgeSpace` BEFORE the period rules ----
+	//
+	// Measured 0 / 13 — CONSTRAINED. It must not run last, and this is
+	// the constraint the brief got backwards by putting this rule at the
+	// end of the batch.
+	//
+	// 29 trailing-edge occurrences read `<i>gloss.␣</i>`, where the
+	// captured space hides the terminal period from
+	// `italicGlossPeriodOutside`'s `INSIDE` pattern, which requires the
+	// period to abut `</i>`. Running this rule first uncovers it. At
+	// ENTRY granularity the gloss rule newly fires on 11 entries (A00740
+	// A01190 A02252 A02901 C00200 C00399 C00772 C00872 C00964 C01379
+	// E00196), which is the figure Task 5 and its reviewer measured. The
+	// BYTE comparison finds 13, and the extra two (C00805, J00106) are
+	// why the byte figure is the one quoted here: in both, the gloss
+	// rule already fires at ANOTHER locus in the same entry, so an
+	// entry-level count cannot see that this locus was also repaired.
+	// `<i>froth, foam. </i> Pl.` closes to `<i>froth, foam</i>. Pl.`
+	// here and stays `<i>froth, foam.</i> Pl.` with this rule last.
+	//
+	// Order against the five seam rules above is FREE and measured both
+	// ways: the seam rule inserts a space this rule then absorbs, or
+	// this rule moves one the seam rule then declines, and the two
+	// orders CONVERGE on the same bytes. Only the per-rule record counts
+	// differ, which is a fact about attribution, not about output.
+	emphasisRunEdgeSpace,
+
+	// ---- `emDashSectionBreak` BEFORE `italicGlossPeriodOutside` ----
+	//
+	// Measured 0 / 270 — CONSTRAINED, and the second constraint the
+	// brief inverted. `SECTION_BREAK` needs its input's first run to
+	// still read `<i>gloss.</i>` — period INSIDE, abutting `</i>` —
+	// which is exactly the shape `italicGlossPeriodOutside` hunts and
+	// rewrites. With the gloss rule first this rule survives on 0 of its
+	// 270 entries. Zero. Measured on the full corpus by Task 4, again by
+	// its reviewer, and again here.
+	//
+	// It does NOT need to precede `labelPeriodInside`, and only the
+	// measured half is stated: with that rule first, all 270 survive,
+	// because its pattern needs a period already sitting AFTER `</i>`,
+	// which this raw seam never presents. Fix round 1 claimed the wider
+	// constraint unmeasured and retracted it.
+	//
+	// THE COST OF THIS ORDER, since it is real and belongs next to the
+	// constraint rather than in a report: merging the two runs leaves a
+	// body ending `—`, which `INSIDE` cannot match, so this rule TAKES
+	// 247 entries out of `italicGlossPeriodOutside`'s reach (1,567 alone
+	// → 1,331 composed, the balance being the 11 the edge rule adds).
+	// It also takes 4 out of `labelPeriodInside`'s (979 → 975): the
+	// labelled shape `.</i> <i>—Pl</i>.` merges into `<i>gloss.—Pl</i>.`
+	// and `isLabel` correctly declines that body, so the period stays
+	// outside. Both are the whole-body granularity ruling (R1) doing
+	// what it was ruled to do, not a rule failing.
+	//
+	// Neither constraint is an `entangledWith` edge, so
+	// `checkAdjacency()` cannot see either one — the blind spot that
+	// rule's own docstring and spec §8 both name. It lives here, in
+	// `registry.order.test.ts`'s explicit pin, and in the corpus-tier
+	// tests; nowhere else.
+	emDashSectionBreak,
+
+	// `italicLonePunctuation` is the residue row: of 259 single-
+	// character non-alphanumeric italic runs corpus-wide, 230 are
+	// `<i>—</i>` (already the row above's) and 28 are `[.?;]` (this
+	// row's). The 259th is I00129's U+0357 combining mark, which is not
+	// punctuation at all.
+	//
+	// Measured 0 / 0 — FREE, as the predicate says it must be:
+	// `LONE_PUNCTUATION`'s class is `[.?;]` and has no way to match an
+	// em-dash in any order, against any corpus. Kept adjacent to
+	// `emDashSectionBreak` for READABILITY — a reader checking the
+	// 230/28 split needs both rows in view — and that is a presentation
+	// choice, not a constraint. Spec §8's original claim that this
+	// adjacency prevented a 230-instance double-count is retracted;
+	// nothing prevents it except the character class.
+	italicLonePunctuation,
+
+	// ---- The label pair, gap-free adjacent ----
+	//
+	// The batch's only recorded entanglement edge, so `checkAdjacency()`
+	// requires this gap-free span — the one ordering constraint in the
+	// batch a gate can actually see.
+	//
+	// `labelPeriodInside` measures 0 / 0: on today's corpus the pair's
+	// INTERNAL order is FREE, and the brief's claim that it is
+	// load-bearing is not what the corpus says. It leads anyway, and the
+	// reason is robustness rather than output: it moves every label's
+	// period inside, removing those runs from the `<i>….</i>` population
+	// `italicGlossPeriodOutside` then reads, so that rule's exclusion
+	// clause is an assertion that already holds. Run the other way
+	// round, the same clause becomes a filter that must get every label
+	// right one at a time — `isLabel` gets all of them right today,
+	// which is exactly why the measurement is 0, and is not a property
+	// to rely on after a vocabulary change or a re-fetch.
+	labelPeriodInside,
+	italicGlossPeriodOutside,
+
+	// ---- `trailingWhitespaceDefinition` LAST ----
+	//
+	// Measured 0 / 0 — free, and last by argument. It trims the entry's
+	// deepest-last sense, so it must see that sense as every earlier
+	// rule leaves it. `emphasisRunEdgeSpace` is the one rule that could
+	// hand it a new member, by pushing a space past a run that closes a
+	// field — measured at 0 occurrences corpus-wide (no `␣</i>` ends its
+	// field or is followed only by tags), and `edge-trim.test.ts` pins
+	// the count of space-terminated fields as identical before and
+	// after. That 0 is why the measurement here is 0; running last is
+	// what keeps it the whole answer rather than a claim about one pair.
+	trailingWhitespaceDefinition,
 ];
 
 /** Catalogued transform rows with no rule yet. Shrinks batch by batch;
@@ -264,7 +459,6 @@ const RULES: readonly Rule[] = [
 const PENDING: readonly string[] = [
 	'nonsense-dup-anchor',
 	'unlinked-v-span',
-	'paren-tag-no-space',
 	// `homograph-numeral-mismatch` left this list in batch 2 Task 9:
 	// audited to `judgment` in `patterns.jsonl`. Its 576 occurrences /
 	// 538 entries are three merged defects, the display (Jastrow's print
@@ -281,14 +475,8 @@ const PENDING: readonly string[] = [
 	// `judgment` in `patterns.jsonl` (no other article exists for any of
 	// its 87 anchors, and the construct is 3.2% of a corpus-wide linker
 	// behaviour), so `coverage` no longer counts it and neither list may.
-	'trailing-whitespace-definition',
-	'italic-swallowed-terminal-period',
-	'em-dash-section-break-in-own-italic',
-	'italic-lone-punctuation',
 	'open-paren-in-anchor-display',
 	'trailing-em-dash-tail',
-	'anchor-italic-no-space',
-	'italic-close-paren-nospace',
 	'stranded-stem-head',
 	'empty-stem-section',
 	'sense-number-outside-closed-grammar',
@@ -297,20 +485,15 @@ const PENDING: readonly string[] = [
 	'parenthesized-alt-headword',
 	'b-h-split-across-field-boundary',
 	'mekhilta-sifra-never-linked',
-	'label-period-outside-italic',
 	'gender-pair-headword-line-collapse',
-	'translit-italic-space-loss',
-	'orphan-gloss-seam-period',
 	'reversed-hebrew-phrase',
 	'empty-lead-sense',
 	'abbrev-fused-headword',
 	'unterminated-href-swallows-closing-tag',
 	'stem-head-marker-chop',
-	'citation-quote-seam-period',
 	'vkh-geresh-loss',
 	'tosefta-variant-chapter-halakha-loss',
 	'citation-number-truncated-outside-anchor',
-	'geresh-abbrev-space-loss',
 	'homograph-roman-stranded-in-definition',
 	'holam-migrated-off-mater-vav',
 	'impossible-dagesh',
@@ -325,17 +508,24 @@ const PENDING: readonly string[] = [
 	'shin-sin-dot-drop',
 	'v-sub-redirect-stub-mislink',
 	'midrash-petichta-unanchored',
-	'emphasis-run-edge-space',
 	'adjacent-verbatim-repetition',
 	'abbrev-headword-stub',
 	'containment-fallback-mislink',
-	'gloss-head-seam-period-doubling',
 	'post-anchor-numeral-duplication',
 	'section-break-terminator-loss',
-	'entry-final-comma',
-	'italic-swallows-close-paren',
 	'see-particle-lost',
 	'jt-double-wrapped-citation',
+	// FOUR MORE left this list in batch 3b Task 6, each audited to
+	// `judgment` in `patterns.jsonl` for its own reason — the working is
+	// in data/patches/catalogue-audit/batch-3b-withdrawals.md:
+	// `orphan-gloss-seam-period` (19) and `citation-quote-seam-period`
+	// (43), whose separators do not reproduce against any pinned
+	// predicate; `gloss-head-seam-period-doubling` (15) and
+	// `entry-final-comma` (10), where no repair names a destination.
+	// A withdrawn row must appear in NEITHER list — `coverage()` filters
+	// to `route === 'transform'`, so leaving one here fails nothing
+	// today, but a `PENDING` entry is a standing claim that a row is
+	// still owed a rule, and for these four it is not.
 ];
 
 interface Coverage {

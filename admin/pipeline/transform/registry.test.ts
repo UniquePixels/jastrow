@@ -82,8 +82,16 @@ describe('registry coverage', () => {
 	//   would have been a second owner of records these rules already
 	//   repair, which is the failure the batch existed to fix. Its
 	//   `reason` carries the partition and the command.
-	it('the catalogue still holds 77 transform rows', () => {
-		expect(coverage(catalogue).total).toBe(77);
+	// - FOUR MORE, batch 3b Task 6 — 77 down to 73, every one failing the
+	//   NO REPAIR EXISTS test rather than the destination one:
+	//   `gloss-head-seam-period-doubling` (15) and `entry-final-comma`
+	//   (10) on their own recorded audits, `orphan-gloss-seam-period`
+	//   (19) and `citation-quote-seam-period` (43) on new measurements.
+	//   That task's fifth row, `italic-swallows-close-paren`, failed
+	//   neither and shipped at 10 -> 8. See
+	//   data/patches/catalogue-audit/batch-3b-withdrawals.md.
+	it('the catalogue still holds 73 transform rows', () => {
+		expect(coverage(catalogue).total).toBe(73);
 	});
 
 	it('pending ids all exist in the catalogue', () => {
