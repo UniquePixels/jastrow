@@ -114,7 +114,7 @@ import type { Rule, TransformRecord, TransformResult } from '../types.ts';
  * paren and the `<i>`. Owns BOTH shapes; see the module doc, "Two
  * owners, one seam" — `anchorItalicSpace` declines every instance this
  * pattern claims. */
-const PAREN_SEAM = /(\)(?:<\/a>)?)(<i>)/gu;
+const PAREN_SEAM = /(?<paren>\)(?:<\/a>)?)(?<tag><i>)/gu;
 
 /** `</a><i>` — but only when the anchor's own display does not itself
  * end in `)`. The negative lookbehind is what makes this disjoint from
@@ -123,21 +123,21 @@ const PAREN_SEAM = /(\)(?:<\/a>)?)(<i>)/gu;
  * order, because that rule owns every paren-adjacent instance of this
  * defect regardless of what tag sits between the paren and the
  * italic. */
-const ANCHOR_SEAM = /(?<!\))(<\/a>)(<i>)/gu;
+const ANCHOR_SEAM = /(?<!\))(?<anchor><\/a>)(?<tag><i>)/gu;
 
 /** `</i>(` — the mirror seam, close italic directly before an opening
  * paren. Runs the opposite direction from `PAREN_SEAM`/`ANCHOR_SEAM`
  * (close-italic-then-open-paren, not close-paren-then-open-italic), so
  * no single character can ever serve as both boundaries and no
  * resolution is needed against either. */
-const ITALIC_PAREN_SEAM = /(<\/i>)(\()/gu;
+const ITALIC_PAREN_SEAM = /(?<tag><\/i>)(?<paren>\()/gu;
 
 /** A Latin letter — optionally an abbreviation's own trailing period —
  * then an opening italic, capturing the run's own leading text as
  * group 3 so `looksTransliterated` can judge it without a second pass
  * over the string. Firing is gated on that group, not on this pattern
  * alone: see `looksTransliterated` and the module doc. */
-const TRANSLIT_SEAM = /([A-Za-zÀ-ɏ]\.?)(<i>)([^<]*)/gu;
+const TRANSLIT_SEAM = /(?<letter>[A-Za-zÀ-ɏ]\.?)(?<tag><i>)(?<run>[^<]*)/gu;
 
 /** The first token of an italic run's body: everything up to
  * whitespace or seam-adjacent punctuation, with one trailing
@@ -154,7 +154,7 @@ const TRAILING_PERIOD = /\.$/u;
  * only rewrites `rtl` text tokens), never by widening this pattern, so
  * "geresh then letter" stays legible as the whole predicate on its
  * own. */
-const GERESH_SEAM = /(׳)([א-ת])/gu;
+const GERESH_SEAM = /(?<geresh>׳)(?<letter>[א-ת])/gu;
 
 /** Whether `token` holds a codepoint outside the ASCII range. The
  * corpus's transliteration diacritics — ġ ḥ ṭ ḳ š â and their kin —

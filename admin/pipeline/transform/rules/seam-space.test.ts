@@ -69,6 +69,32 @@ describe('seam-space rules', () => {
 	});
 });
 
+// Fix round 1: pins the three narrowings that carry this whole task.
+// Without these, deleting `(?<!\))` from `ANCHOR_SEAM`, deleting the
+// `looksTransliterated` guard, or dropping the `!token.rtl` check all
+// leave every existing test green while silently re-admitting a
+// population this module deliberately declines (see the module doc's
+// "Two owners, one seam", the translit narrowing, and the geresh
+// `dir="rtl"` scoping). Each pin uses the repo's identity-return idiom
+// (`italic-period.test.ts`, `gershayim.test.ts`, `misc-links.test.ts`):
+// a rule that declines a case must hand back the caller's own object.
+describe('the three narrowings decline their boundary cases', () => {
+	it('anchorItalicSpace declines a paren-adjacent </a><i> seam', () => {
+		const entry = entryWith('<a href="/x">(a)</a><i>b</i>');
+		expect(anchorItalicSpace.apply(entry).entry).toBe(entry);
+	});
+
+	it('translitItalicSpace declines an ordinary gloss italic', () => {
+		const entry = entryWith('or<i> town</i>');
+		expect(translitItalicSpace.apply(entry).entry).toBe(entry);
+	});
+
+	it('gereshAbbrevSpace declines a geresh outside dir="rtl" text', () => {
+		const entry = entryWith('נ׳היא');
+		expect(gereshAbbrevSpace.apply(entry).entry).toBe(entry);
+	});
+});
+
 describe('the space budget is exact, not blanket', () => {
 	it('no rule sets allows', () => {
 		for (const rule of [
