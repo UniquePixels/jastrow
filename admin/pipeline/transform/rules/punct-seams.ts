@@ -14,9 +14,15 @@
  * tag split — *"section em-dash carried into its own italic run, so
  * the tag seam renders 'gloss. — Pl.' where the corpus norm is
  * 'gloss.—Pl.'"* — and quantify it: 230 spaced occurrences across 226
- * entries, against 20,195 tight (`.—`) elsewhere — 98.9% of the
- * corpus already writes it closed. A rule that keeps the space
- * repairs nothing.
+ * entries, against a tight (`.—`) population elsewhere in the corpus.
+ * That population is **20,420** by direct occurrence count
+ * (`fieldsOf`/`stripTags` over every text field, matching how this
+ * gate itself reads text) — not the 20,195 first cited here, which
+ * came from a `grep`-based count over the raw JSONL file rather than
+ * this gate's own field scope and undercounts by 225. 20,420 is the
+ * figure a re-run of the corpus-tier test below actually returns. A
+ * rule that keeps the space repairs nothing regardless of which of
+ * the two figures it is measured against.
  *
  * The ruling: repair it as a DELETION. The row is Class C. This needs
  * no `allows` — deleting a character is a sub-multiset SHRINK, which
@@ -24,40 +30,68 @@
  * this module's fix-round-1 self-review named and then, under the
  * wrong classification, correctly declined to use.
  *
- * One substitution now handles both shapes the catalogued 278 cover,
- * without branching, deleting the redundant `</i> <i>` split AND the
- * space it straddled in the same motion:
+ * ## Fix round 2: the first deletion consumed the WRONG space
+ *
+ * Round 1's deletion only removed the space BETWEEN the two `<i>`
+ * runs, leaving the space AFTER the merged run's `</i>` untouched —
+ * `<i>noble.—</i> Pl.`, which reads `.— Pl.` in rendered text. That is
+ * still off-norm: measured corpus-wide, tight `.—` is followed by a
+ * space only 59 times out of 20,420 (0.29%) and by a non-space 20,361
+ * times (99.71%). Round 1's own cited 19-occurrence precedent for
+ * `.—</i> Pl.` is itself inside that 59-count tail, not a second
+ * convention — 19 real instances is not nothing, but it is the same
+ * minority the row's `reason` field is measuring when it calls `.—`
+ * the norm, not an exception to it. The row's norm, stated literally,
+ * is `gloss.—Pl.`: zero space, anywhere.
+ *
+ * One substitution still handles both shapes the catalogued 278
+ * cover, but the empty-label branch now also consumes the TRAILING
+ * space (the labelled branch never had one — see below):
  *
  * ```
  * BEFORE: <i>noble.</i> <i>—</i> Pl. <span dir="rtl">…
- * AFTER:  <i>noble.—</i> Pl. <span dir="rtl">…
+ * AFTER:  <i>noble.—</i>Pl. <span dir="rtl">…
  * ```
  *
  * Real corpus strings, found before writing the replacement:
  *
  * - The 230/278 empty-label shape (`A00144`, `A00667`, …): `.</i>
- *   <i>—</i> Pl.` → `.—</i> Pl.` — and this exact tight-dash,
- *   plain-label shape already has direct precedent corpus-wide
- *   (`<i>at last, in the end.—</i> Pl.`, `<i>Atad.—</i> Pl.`, 19
- *   occurrences), confirming the merge lands on an existing
- *   convention rather than inventing one.
+ *   <i>—</i> Pl.` → `.—</i>Pl.`, zero space on either side of the
+ *   dash. This exact tight, no-trailing-space shape has direct (if
+ *   rare) precedent corpus-wide (`<i>…wine vessel.—</i>Pl.`), and
+ *   matches the corpus-wide norm measured above.
  * - The 48/278 labelled shape (`A02503`, `B00012`, …): `.</i>
  *   <i>—Pl</i>` → `.—Pl</i>`, gloss and label merged into one run
- *   with no separating space. This shape ALSO has direct corpus
- *   precedent (`<i>the hereafter.—Pl.</i>`, `<i>vagina.—Fem</i>`,
- *   `<i>to extend.—Part. pass.</i>`, `<i>detached part.—Pl.</i>`, 8
- *   occurrences) — Jastrow writes both the merged-run and the
- *   separate-run label conventions, and the merged one requires no
- *   branching in the replacement, so it is what this rule produces.
+ *   with no separating space — unchanged from round 1, since this
+ *   shape never had a trailing space to begin with (the label sits
+ *   INSIDE the merged run, immediately before its own `</i>`). This
+ *   shape has direct corpus precedent (`<i>the hereafter.—Pl.</i>`,
+ *   `<i>vagina.—Fem</i>`, `<i>to extend.—Part. pass.</i>`,
+ *   `<i>detached part.—Pl.</i>`, and 7 more — 11 occurrences total,
+ *   corrected from round 1's undercount of 8, see below) — Jastrow
+ *   writes both the merged-run and the separate-run label
+ *   conventions, and the merged one requires no branching in the
+ *   replacement, so it is what this rule produces.
  *
- * Measured on the full corpus: the spaced `. — ` population (read
- * through `stripTags`, matching how the row's own `reason` counts it)
- * in the 270 touched entries goes **230 before → 0 after**. 278
- * occurrences / 270 entries fire, matching the catalogue exactly.
- * `punct-seams.test.ts`'s corpus-tier test asserts this delta
- * directly rather than an invariant that a no-op rule would also
- * satisfy — see that test's own docstring for why a touch-count
- * vacuity guard alone cannot tell a repair from a reshuffle.
+ * Measured on the full corpus: the spaced `. —` defect (either shape,
+ * read through `stripTags`) in the 270 touched entries goes **278
+ * before → 0 after** (widened from round 1's 230, which counted only
+ * the empty-label shape). The NEW off-norm shape this round fixes,
+ * tight-dash-then-space (`.— `), is unchanged by this rule at **2
+ * before → 2 after** — those 2 are `Q01352` and `U00925`'s own
+ * PRE-EXISTING, correctly-formed `.—</i> Pl.` text elsewhere in the
+ * same entries (one of round 1's own 19-occurrence precedent group),
+ * untouched by this rule's edit at a different locus in the same
+ * body; the rule creates zero NEW instances of it. `run.ts`'s own
+ * gates, re-run directly over all 270 firing entries: `checkNoNewText`
+ * 0 problems, `checkMarkup` 0 problems, codepoint multiset delta
+ * exactly `{" ": −508}` (230 empty-label occurrences × 2 spaces each,
+ * plus 48 labelled × 1 space each = 460 + 48 = 508) and nothing else
+ * moves. `punct-seams.test.ts`'s corpus-tier test asserts the 278→0
+ * delta and the 2-before/2-after non-creation check directly, rather
+ * than an invariant that a no-op rule would also satisfy — see that
+ * test's own docstring for why a touch-count vacuity guard alone
+ * cannot tell a repair from a reshuffle.
  *
  * ## `italicLonePunctuation` excludes the em-dash by construction,
  * not by running second
@@ -134,12 +168,16 @@ import type { SourceEntry } from '../../body/types.ts';
 import { mapFields } from '../fields.ts';
 import type { Rule, TransformResult } from '../types.ts';
 
-/** `.</i> <i>—LABEL</i>` — a section-break dash (with an optional
- * label glued to it) split into a sibling italic run instead of
- * continuing the gloss's own, with a stray space at the split. `label`
- * rides through unchanged; see the module doc for the corpus
- * precedent behind dropping both the split and the space. */
-const SECTION_BREAK = /\.<\/i> <i>—(?<label>[^<]*)<\/i>/gu;
+/** `.</i> <i>—</i> ` (empty label, WITH its trailing space — the
+ * space that survived round 1) or `.</i> <i>—LABEL</i>` (a label
+ * glued to the dash, no trailing space of its own) — a section-break
+ * dash split into a sibling italic run instead of continuing the
+ * gloss's own. Two alternatives rather than one optional group because
+ * the two shapes need different amounts of trailing text consumed;
+ * `label` is `undefined` when the first alternative matches. See the
+ * module doc, "fix round 2", for why the trailing space in the first
+ * alternative must be consumed too. */
+const SECTION_BREAK = /\.<\/i> <i>—<\/i> |\.<\/i> <i>—(?<label>[^<]+)<\/i>/gu;
 
 /** A lone punctuation mark — never an em-dash — wrapped in its own
  * italic run. See the module doc, "excludes the em-dash by
@@ -163,16 +201,20 @@ function build(
 	};
 }
 
-/** Deletes the section break's stray tag split AND the space it
- * straddled, closing the gloss's own italic run on the tight `.—`
- * the corpus otherwise writes 20,195 times — see the module doc,
- * "Class C, not Class A", for the ruling that authorised the
- * deletion and the corpus precedent behind the merged-label shape. */
+/** Deletes the section break's stray tag split AND every space it
+ * straddled — both the middle one and, for the empty-label shape, the
+ * trailing one round 1 missed — closing the gloss's own italic run on
+ * the tight `.—` the corpus otherwise writes 20,420 times. See the
+ * module doc, "Class C, not Class A" and "fix round 2", for the ruling
+ * that authorised the deletion and the corpus precedent behind both
+ * shapes. */
 const emDashSectionBreak: Rule = build(
 	'em-dash-section-break-in-own-italic',
 	(text) =>
-		text.replaceAll(SECTION_BREAK, (_whole, label: string) => `.—${label}</i>`),
-	'section-break dash closed to the corpus norm ".—", tag split removed',
+		text.replaceAll(SECTION_BREAK, (_whole, label: string | undefined) =>
+			label === undefined ? '.—</i>' : `.—${label}</i>`,
+		),
+	'section-break dash closed to the corpus norm ".—", tag split and space removed',
 );
 
 /** Unwraps an italic run holding nothing but one punctuation mark —

@@ -17,10 +17,19 @@
  *   `stripTags`-equality test on this rule would pass on a no-op —
  *   which is exactly what fix round 1 shipped and what the review
  *   caught — so this tier instead asserts a DEFECT-COUNT delta: the
- *   spaced `. — ` population in touched entries, read through
- *   `stripTags` the same way the row's own `reason` counts it, must
- *   go 230 → 0. A touch-count vacuity guard alone cannot tell a
- *   repair from a reshuffle; a defect count can.
+ *   spaced `. —` population (both shapes — the 230 empty-label and the
+ *   48 labelled, matched with no trailing-space requirement so both
+ *   are caught in one assertion) in touched entries must go 278 → 0.
+ *   Fix round 1 pinned only the 230-member shape (`/\. — /gu`, a
+ *   trailing space required) and so could not see that its own
+ *   repair left a NEW off-norm shape behind — tight-dash-then-space,
+ *   `.— ` — which is why a second assertion below checks that shape
+ *   too, as a before/after DELTA rather than an absolute count (two
+ *   pre-existing, correctly-formed instances of it exist elsewhere in
+ *   the touched entries, unrelated to this rule; the delta, not the
+ *   raw count, is what proves the rule creates no new ones). A
+ *   touch-count vacuity guard alone cannot tell a repair from a
+ *   reshuffle; a defect count can.
  */
 import { describe, expect, it } from 'bun:test';
 import { readSourceEntries } from '../../body/source.ts';
@@ -45,18 +54,21 @@ const defOf = (e: SourceEntry): string => e.content.senses[0]?.definition ?? '';
 
 describe('emDashSectionBreak', () => {
 	// A00144's real text: the empty-label shape, 230/278 of the
-	// catalogued row. Closes to the corpus norm ".—" — no space.
-	it('closes the empty-label section break to the corpus norm ".—"', () => {
+	// catalogued row. Closes to the corpus norm ".—" — zero space on
+	// EITHER side of the dash (fix round 2: round 1 left the trailing
+	// space before "Pl." in place, which is itself an off-norm shape
+	// — see the module doc, "fix round 2").
+	it('closes the empty-label section break to the corpus norm ".—", zero space', () => {
 		const out = emDashSectionBreak.apply(
 			entryWith('<i>noble.</i> <i>—</i> Pl. <span dir="rtl">x</span>'),
 		);
-		expect(defOf(out.entry)).toBe(
-			'<i>noble.—</i> Pl. <span dir="rtl">x</span>',
-		);
+		expect(defOf(out.entry)).toBe('<i>noble.—</i>Pl. <span dir="rtl">x</span>');
 	});
 
 	// A02503's real text: the labelled shape, the other 48/278 — the
 	// label rides through the replacement, merged into the same run.
+	// Unchanged by fix round 2: this shape never had a trailing space
+	// (the label sits inside the merged run, before its own `</i>`).
 	it('merges a labelled section break, dropping the space entirely', () => {
 		const out = emDashSectionBreak.apply(
 			entryWith('<i>Spaniard.</i> <i>—Pl</i> good'),
@@ -226,35 +238,103 @@ describe('corpus tier: italicLonePunctuation is still Class A', () => {
 
 /** The spaced section-break defect, read the way the row's own
  * `reason` counts it: through `stripTags`, since the space never sits
- * next to the dash in the raw markup (a tag always separates them). */
-const SPACED_DEFECT = /\. — /gu;
+ * next to the dash in the raw markup (a tag always separates them).
+ * No trailing-space requirement — unlike fix round 1's `/\. — /gu`,
+ * which pinned only the 230-member empty-label shape, this catches
+ * BOTH shapes (a labelled occurrence strips to `. —Label`, which this
+ * still matches on the `. —` prefix). */
+const SPACED_DEFECT = /\. —/gu;
 
-function spacedDefectCount(entry: SourceEntry): number {
+/** The shape fix round 2 exists to close: a tight dash immediately
+ * followed by a space. Round 1's own repair created this 230 times
+ * and round 1's corpus test could not see it, because it never
+ * measured this shape at all. */
+const TIGHT_THEN_SPACE = /\.— /gu;
+
+function countMatches(entry: SourceEntry, pattern: RegExp): number {
 	let count = 0;
 	for (const field of fieldsOf(entry)) {
-		count += (stripTags(field).match(SPACED_DEFECT) ?? []).length;
+		count += (stripTags(field).match(pattern) ?? []).length;
 	}
 	return count;
 }
 
-describe('corpus tier: emDashSectionBreak is Class C — a defect-count delta, not an invariant', () => {
-	it('the rendered spaced em-dash population goes 230 before to 0 after', async () => {
-		let before = 0;
-		let after = 0;
-		let touched = 0;
-		for await (const entry of readSourceEntries()) {
-			const out = emDashSectionBreak.apply(entry);
-			if (out.records.length === 0) {
-				continue;
-			}
-			touched += 1;
-			before += spacedDefectCount(entry);
-			after += spacedDefectCount(out.entry);
+interface DefectDelta {
+	after: number;
+	before: number;
+	touched: number;
+}
+
+/** Runs `emDashSectionBreak` over the full corpus once, measuring
+ * `pattern`'s occurrence count before and after on every entry the
+ * rule touches. Shared by both defect-count assertions below so
+ * neither `it` needs its own corpus walk. */
+async function measureDefectDelta(pattern: RegExp): Promise<DefectDelta> {
+	let before = 0;
+	let after = 0;
+	let touched = 0;
+	for await (const entry of readSourceEntries()) {
+		const out = emDashSectionBreak.apply(entry);
+		if (out.records.length === 0) {
+			continue;
 		}
+		touched += 1;
+		before += countMatches(entry, pattern);
+		after += countMatches(out.entry, pattern);
+	}
+	return { after, before, touched };
+}
+
+/** At ENTRY granularity, how many of `emDashSectionBreak`'s touched
+ * entries `italicGlossPeriodOutside` still fires on afterward, at a
+ * different, unrelated locus in the same body. */
+async function countEntryLevelRetouches(): Promise<{
+	alsoTouchedElsewhere: number;
+	seamTouched: number;
+}> {
+	let seamTouched = 0;
+	let alsoTouchedElsewhere = 0;
+	for await (const entry of readSourceEntries()) {
+		const merged = emDashSectionBreak.apply(entry);
+		if (merged.records.length === 0) {
+			continue;
+		}
+		seamTouched += 1;
+		if (italicGlossPeriodOutside.apply(merged.entry).records.length > 0) {
+			alsoTouchedElsewhere += 1;
+		}
+	}
+	return { alsoTouchedElsewhere, seamTouched };
+}
+
+describe('corpus tier: emDashSectionBreak is Class C — a defect-count delta, not an invariant', () => {
+	it('the rendered spaced em-dash population (both shapes) goes 278 before to 0 after', async () => {
+		const { after, before, touched } = await measureDefectDelta(SPACED_DEFECT);
 		// Vacuity guard: the rule must actually have fired.
 		expect(touched).toBeGreaterThan(0);
-		expect(before).toBe(230);
+		expect(before).toBe(278);
 		expect(after).toBe(0);
+	});
+
+	// The metric that would have caught fix round 1's gap: round 1's
+	// repair left the empty-label shape reading ".— Pl." — tight dash,
+	// then a space — which is itself off-norm (59/20,420 corpus-wide,
+	// 0.29%). Asserted as a BEFORE/AFTER delta rather than an absolute
+	// zero: two pre-existing, correctly-formed instances of this exact
+	// shape exist elsewhere in the touched entries (Q01352, U00925 —
+	// see the module doc), unrelated to this rule's own edit, so an
+	// absolute-zero assertion would fail on legitimate text. The delta
+	// isolates what THIS RULE creates, which must be nothing.
+	it('creates zero new instances of the tight-dash-then-space shape', async () => {
+		const { after, before, touched } =
+			await measureDefectDelta(TIGHT_THEN_SPACE);
+		expect(touched).toBeGreaterThan(0);
+		expect(after - before).toBe(0);
+		// Pinned absolute values too, so a future change that shifts
+		// which entries carry the pre-existing instances is visible
+		// rather than silently absorbed by the delta check alone.
+		expect(before).toBe(2);
+		expect(after).toBe(2);
 	});
 
 	// The granularity distinction fix round 1's docstring drew but did
@@ -264,18 +344,8 @@ describe('corpus tier: emDashSectionBreak is Class C — a defect-count delta, n
 	// minority — a different, unrelated period elsewhere in the same
 	// body — which is expected and not this rule's defect to prevent.
 	it('at entry granularity, 23 of 270 still get touched elsewhere by italicGlossPeriodOutside', async () => {
-		let seamTouched = 0;
-		let alsoTouchedElsewhere = 0;
-		for await (const entry of readSourceEntries()) {
-			const merged = emDashSectionBreak.apply(entry);
-			if (merged.records.length === 0) {
-				continue;
-			}
-			seamTouched += 1;
-			if (italicGlossPeriodOutside.apply(merged.entry).records.length > 0) {
-				alsoTouchedElsewhere += 1;
-			}
-		}
+		const { alsoTouchedElsewhere, seamTouched } =
+			await countEntryLevelRetouches();
 		expect(seamTouched).toBe(270);
 		expect(alsoTouchedElsewhere).toBe(23);
 	});
