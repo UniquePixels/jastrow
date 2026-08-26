@@ -126,8 +126,11 @@ const RETARGET = new Set([
  * below.
  *
  * BATCH 3b ADDS TWELVE, and they are the set's first real test rather
- * than a bulk append. 165 of their seams sit directly against an
- * anchor's closing tag — `</a><i>`, `)</a><i>` — so "does not move a
+ * than a bulk append. 110 of their seams sit directly against an
+ * anchor's closing tag — 57 `</a><i>` and 53 `)</a><i>` (CORRECTED
+ * 2026-08-26 from 165, the pre-decline arithmetic 112 + 53, written
+ * before both patterns gained the `(?![.,;:?!])` guard) — so "does not
+ * move a
  * target" is a claim about markup they demonstrably edit ADJACENT to,
  * not one they are trivially incapable of breaking. Batch 3a's
  * headline finding was a link regression that every per-rule
@@ -178,30 +181,39 @@ const NEITHER = new Set([
  * fires on the same 1,386 / 85 entries composed as it does alone. */
 const GLYPH = new Set(['gershayim-breaks-ref-attribute']);
 
+/** The four classifications, named ONCE. Both halves of the
+ * classification test read this, so a fifth class added to one half
+ * and forgotten in the other is not a thing that can happen. */
+const CLASSES: ReadonlySet<string>[] = [UNLINK, RETARGET, NEITHER, GLYPH];
+
 const ids = RULES.map((rule) => rule.id);
-const at = (id: string): number => ids.indexOf(id);
+
+/** A registered rule's position, THROWING on an unregistered id:
+ * `indexOf`'s -1 is less than every real position, so an ordering
+ * constraint whose subject was renamed or dropped would PASS while
+ * asserting nothing. */
+function at(id: string): number {
+	const index = ids.indexOf(id);
+	if (index < 0) {
+		throw new Error(`registry order: no rule registered as '${id}'`);
+	}
+	return index;
+}
 
 describe('registry order', () => {
 	// Guards the orderings below against going vacuous: a new rule in
 	// none of the sets is unclassified, and they would then say nothing
 	// about it while still passing.
 	it('every registered rule is classified', () => {
-		const unclassified = ids.filter(
-			(id) =>
-				!(
-					UNLINK.has(id) ||
-					RETARGET.has(id) ||
-					NEITHER.has(id) ||
-					GLYPH.has(id)
-				),
-		);
+		const unclassified = ids.filter((id) => !CLASSES.some((c) => c.has(id)));
 		expect(unclassified).toEqual([]);
 		// And the other direction — a set naming a rule that no longer
 		// exists is a stale classification, not a passing test.
-		const missing = [...UNLINK, ...RETARGET, ...NEITHER, ...GLYPH].filter(
-			(id) => !ids.includes(id),
-		);
-		expect(missing).toEqual([]);
+		const claimed = CLASSES.flatMap((c) => [...c]);
+		expect(claimed.filter((id) => !ids.includes(id))).toEqual([]);
+		// Same guard, for the instrument every ordering assertion below
+		// runs through — pinned so it cannot revert to a bare `indexOf`.
+		expect(() => at('no-such-rule')).toThrow(/no rule registered/u);
 	});
 
 	it('every unlink rule precedes every retarget rule', () => {

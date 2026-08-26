@@ -298,5 +298,10 @@ describe('corpus tier: the Class A invariant', () => {
 			'italic-swallowed-terminal-period': 1567,
 			'label-period-outside-italic': 979,
 		});
-	});
+		// 180s, matching every other corpus-tier test in the batch
+		// (`seam-space-corpus.test.ts`, `registry.order.test.ts`). This
+		// walks all 32,512 entries twice over; under bun's 5s default it
+		// would fail on a cold page cache with a timeout naming nothing,
+		// and a timeout here reads as a broken invariant.
+	}, 180_000);
 });

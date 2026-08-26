@@ -475,8 +475,11 @@ Per the module spec §5, plus:
 | `pipeline-links.test.ts` link totals unchanged | corpus |
 
 The last one matters more than it looks. 3b touches `</a><i>` and
-`)</a><i>` seams — **165 of them sit directly against an anchor's
-closing tag.** Batch 3a's headline finding was a link regression that
+`)</a><i>` seams — **110 of them sit directly against an anchor's
+closing tag** (57 + 53). CORRECTED 2026-08-26: this said **165**, which
+was the pre-decline arithmetic (112 + 53), written before both patterns
+gained the `(?![.,;:?!])` guard. See `docs/v2/transform-batch-3b.md` §5.
+Batch 3a's headline finding was a link regression that
 every per-rule measurement missed. `pipeline-links.test.ts` exists
 because of it, and this batch is the first to run against it as an
 inherited guard rather than a new one.

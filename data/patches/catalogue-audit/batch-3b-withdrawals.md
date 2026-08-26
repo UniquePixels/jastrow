@@ -1,10 +1,10 @@
 # Batch 3b — rows withdrawn from `transform` to `judgment`
 
-Task 6 audited the four catalogue rows whose own `reason` fields say no
-deterministic repair exists. One turned out repairable and shipped;
-four were withdrawn. This file states, for every withdrawn row, WHICH
-TEST it failed, following batch 2's precedent
-(`homograph-numeral-mismatch.md`).
+Task 6 audited the five catalogue rows whose own `reason` fields say no
+deterministic repair exists. One turned out repairable and shipped
+(`italic-swallows-close-paren`); four were withdrawn. This file states,
+for every withdrawn row, WHICH TEST it failed, following batch 2's
+precedent (`homograph-numeral-mismatch.md`).
 
 The transform route total moves **77 → 73**, exactly the four
 withdrawals. `coverage()` reports 0 unaccounted and 0 duplicated after

@@ -305,10 +305,19 @@ representative.
 
 ## 5. Link integrity — the check batch 3a did not have until it needed one
 
-**165 of this batch's seams sit directly against an anchor's closing
-tag.** Batch 3a's headline finding was a link regression that every
-per-rule measurement missed, and `body/pipeline-links.test.ts` exists
-because of it.
+**110 of this batch's seams sit directly against an anchor's closing
+tag** — 57 `</a><i>` and 53 `)</a><i>`. Batch 3a's headline finding was
+a link regression that every per-rule measurement missed, and
+`body/pipeline-links.test.ts` exists because of it.
+
+CORRECTED 2026-08-26: this read **165** at first publication, which was
+the PRE-DECLINE arithmetic (112 + 53) handed to Task 7 before commit
+`11f0914` added the `(?![.,;:?!])` guard to both patterns. The corpus
+holds 112 raw `</a><i>` seams, of which 53 are `)</a><i>`; after the
+guard the two rules own 57 and 53. Re-derive with:
+`</a><i>` not preceded by `)` and not followed by `[.,;:?!]` = 57;
+`)</a><i>` = 53. The section's point is unaffected — the link check is
+warranted at either number — but 165 was never a count of anything.
 
 ```
 resolving link targets   72,593     gained 90     LOST 0

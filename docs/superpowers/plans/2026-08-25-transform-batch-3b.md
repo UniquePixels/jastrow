@@ -1580,7 +1580,7 @@ git commit -s -m "🦄 new(transform): route the four escalation rows"
 - [ ] `emDashSectionBreak` runs before `italicLonePunctuation`, with the double-count reason in a comment
 - [ ] Order freedom is MEASURED for every rule whose placement is claimed free — run it first and last in the registry and assert byte-identical output, as batch 2 did for `shurukAsYodDisplayCorruption`
 - [ ] `bun body:migrate-dry` record count is unchanged from `v2`
-- [ ] `pipeline-links.test.ts` link totals are UNCHANGED — 165 of this batch's seams sit against an anchor's closing tag, and batch 3a's headline was a link regression every per-rule measurement missed
+- [ ] `pipeline-links.test.ts` link totals are UNCHANGED — 110 of this batch's seams sit against an anchor's closing tag (57 `</a><i>` + 53 `)</a><i>`; CORRECTED 2026-08-26 from **165**, the pre-decline arithmetic 112 + 53 written before both patterns gained the `(?![.,;:?!])` guard), and batch 3a's headline was a link regression every per-rule measurement missed
 - [ ] `unaccountedEdges()` reports no dangling endpoint
 - [ ] The batch report states, for every row, the catalogued count, the measured count, and which one the rule reproduces
 
@@ -1591,6 +1591,70 @@ git commit -s -m "🦄 new(transform): route the four escalation rows"
 - [ ] **Step 1: Register the rules**
 
 In `registry.ts`, import from the four new modules and append to `RULES` in this order, each block carrying its reason as a comment:
+
+> *** ORDER SUPERSEDED (2026-08-26) — THE BLOCK BELOW IS THE BRIEF'S
+> PROPOSAL, AND MEASUREMENT INVERTED TWO OF ITS PLACEMENTS. *** It is
+> kept verbatim because the batch report's §2 is a claim ABOUT it ("the
+> batch brief proposed an order that violated two of them"), and because
+> the same mistake is the one batch 1 made with the RTL trio. Do not
+> copy it into `registry.ts`.
+>
+> **The shipped order**, in `RULES`:
+>
+> 1. `anchorItalicSpace`
+> 2. `parenTagSpace`
+> 3. `italicParenSpace`
+> 4. `translitItalicSpace`
+> 5. `gereshAbbrevSpace`
+> 6. `italicSwallowsCloseParen`
+> 7. `emphasisRunEdgeSpace`
+> 8. `emDashSectionBreak`
+> 9. `italicLonePunctuation`
+> 10. `labelPeriodInside`
+> 11. `italicGlossPeriodOutside`
+> 12. `trailingWhitespaceDefinition`
+>
+> **What the block below gets wrong.** It puts the label pair at
+> positions 7-8, ahead of `emDashSectionBreak`, and files
+> `emphasisRunEdgeSpace` under "Class C deletions, last". Both are
+> inverted by measurement — `front / back` being the number of the
+> 32,512 entries whose final bytes differ from the shipped order when
+> the rule is moved to the front, and to the back, of `RULES`:
+>
+> - **`emDashSectionBreak` must precede `italicGlossPeriodOutside`
+>   (0 / 270).** `SECTION_BREAK` needs its input's first run to still
+>   read `<i>gloss.</i>`, period abutting `</i>` — exactly the seam the
+>   gloss rule hunts and rewrites. With the gloss rule first the em-dash
+>   rule survives on **0 of its 270 entries**. Measured in Task 4, by
+>   its reviewer, and again in Task 7.
+> - **`emphasisRunEdgeSpace` must precede `italicGlossPeriodOutside`
+>   (0 / 13).** 29 trailing-edge occurrences read `<i>gloss.␣</i>`,
+>   where the captured space hides the terminal period from the gloss
+>   rule's `INSIDE` pattern. Running the edge rule first uncovers it:
+>   **11 entries** newly fire at entry granularity, **13** by byte
+>   comparison. So it must NOT run last, which is where "Class C
+>   deletions, last" would put it.
+>
+> `italicGlossPeriodOutside` reads **283 / 0**, and 283 = 270 + 13 —
+> moving it to the front breaks exactly the union of the two constraints
+> and nothing else.
+>
+> The rest of the block's claims survive: Class B before the label pair,
+> `labelPeriodInside` leading the pair, and `trailingWhitespaceDefinition`
+> last are all correct as shipped — though the first two measure 0 / 0
+> and are kept as fail-closed ARGUMENTS rather than the load-bearing
+> constraints this block calls them. The block's "belt and braces" reason
+> for `emDashSectionBreak` before `italicLonePunctuation` is retracted
+> outright: `LONE_PUNCTUATION`'s class is `[.?;]` and cannot match an
+> em-dash in any order.
+>
+> **Where the measurements live:** `docs/v2/transform-batch-3b.md` §2
+> (the twelve-row `front / back` table and both constraint write-ups);
+> `admin/pipeline/transform/registry.ts`, batch 3b block (per-rule, at
+> the rule); and `admin/pipeline/transform/registry.order.test.ts`, "the
+> two rules feeding italic-swallowed-terminal-period precede it", which
+> is where the two constraints are pinned — neither is an
+> `entangledWith` edge, so `checkAdjacency()` is blind to both.
 
 ```ts
 	// ---- Batch 3b: italic & punctuation seams ----

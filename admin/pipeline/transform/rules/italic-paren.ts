@@ -1,5 +1,6 @@
 import type { SourceEntry } from '../../body/types.ts';
 import { mapFields } from '../fields.ts';
+import { stripTags } from '../no-new-text.ts';
 import type { Rule, TransformResult } from '../types.ts';
 
 /**
@@ -137,7 +138,26 @@ const SUBSENSE_MARKER = /(?:^|[\s;,.:—])[A-Za-z]$/u;
 
 /** Whether a remainder is gloss text rather than trailing
  * punctuation. A punctuation-only remainder gets no run of its own —
- * `<i>.—</i>` would be a new `italic-lone-punctuation` member. */
+ * `<i>.—</i>` would be a new `italic-lone-punctuation` member.
+ *
+ * Applied to `stripTags(rest)`, never to raw `rest`. `ITALIC_RUN`'s
+ * body class excludes only `<i>`/`</i>`, so a run body — and therefore
+ * a remainder — may legitimately carry an anchor or an rtl span
+ * (`swallowedParenAt`'s docstring says so, and U01849 is the live
+ * case). Against raw bytes a letter in a tag NAME or an ATTRIBUTE
+ * would read as gloss text: `</a>` alone would score, and
+ * `<span dir="rtl"></span>` would make an empty remainder look
+ * glossed, reopening a run around nothing.
+ *
+ * MEASURED, so the guard is not mistaken for a live repair: of the 8
+ * members that reach this test corpus-wide, **0** carry any markup in
+ * the remainder at all, and **0** decide differently raw vs stripped.
+ * The whole-corpus output is byte-identical with the strip and without
+ * it, alone and composed through the registry. This is fail-closed
+ * hardening against a re-fetch, in the same spirit as the
+ * `(?![.,;:?!])` declines in `seam-space.ts` — resolve by
+ * construction, so the answer does not depend on what today's corpus
+ * happens not to contain. */
 const HAS_LETTER = /\p{L}/u;
 
 /** The remainder's own leading whitespace, which moves outside the
@@ -212,7 +232,7 @@ function moveParenOut(whole: string, body: string): string {
 	const tail = body.slice(at + 1);
 	const space = LEADING_SPACE.exec(tail)?.[0] ?? '';
 	const rest = tail.slice(space.length);
-	return HAS_LETTER.test(rest)
+	return HAS_LETTER.test(stripTags(rest))
 		? `<i>${head}</i>)${space}<i>${rest}</i>`
 		: `<i>${head}</i>)${tail}`;
 }
