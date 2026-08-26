@@ -82,7 +82,7 @@ console.log({ clean, marked });
 
 One member separates 36/20 from the catalogued 37/19: **A00505**,
 whose `. . ` follows `)` but whose own parenthesis reads
-`(prob. in b. h. , perfumes)` — the Hebrew dropped, a comma left
+`(prob. in b. h. , <i>perfumes</i>)` — the Hebrew dropped, a comma left
 dangling, which is `lost-hebrew-after-h-marker`'s catalogued shape
 exactly. Counting it marked reproduces **37 / 19** to the unit.
 
