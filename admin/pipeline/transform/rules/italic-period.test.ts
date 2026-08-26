@@ -180,6 +180,31 @@ describe('short members are abbreviations, not a false-positive class', () => {
 	});
 });
 
+/**
+ * `italic-lone-punctuation`'s population, declined.
+ *
+ * The fixture is `B00957`'s real text, not a synthetic one, because
+ * what makes this case wrong is not the empty tag on its own — it is
+ * that the period being moved is `esp.`'s ABBREVIATION DOT, and only
+ * the surrounding run shows that. Rewriting it to `<i></i>.` clears
+ * every gate this repo has: multiset-blind text gate, balanced-tag
+ * markup gate, and even the corpus-tier invariant below, whose
+ * stripped text would be unchanged.
+ */
+describe('an empty run body belongs to italic-lone-punctuation', () => {
+	it('declines `<i>.</i>` rather than leaving `<i></i>.` behind', () => {
+		const entry = entryWith(
+			'<i>favor, grant, </i>esp<i>.</i> <i> the rights</i>',
+		);
+		expect(italicGlossPeriodOutside.apply(entry).entry).toBe(entry);
+	});
+
+	it('declines a whitespace-only body on the label side too', () => {
+		const entry = entryWith('foo <i> </i>. bar');
+		expect(labelPeriodInside.apply(entry).entry).toBe(entry);
+	});
+});
+
 describe('the pair', () => {
 	it('is a fixed point of itself — neither rule re-fires on its own output', () => {
 		for (const [rule, definition] of [

@@ -82,6 +82,30 @@
  * both ways five words apart. That is the inconsistency this pair
  * exists to remove, not a distinction it should preserve.
  *
+ * ## AN EMPTY RUN BODY BELONGS TO `italic-lone-punctuation`
+ *
+ * `<i>.</i>` — an italic wrapping nothing but the period itself —
+ * matches `INSIDE` with an empty body, and `isLabel('')` is false, so
+ * without a guard `moveOutside` would classify it an ordinary gloss
+ * and rewrite it to `<i></i>.`: empty-tag debris, and a period taken
+ * off the abbreviation it belongs to (`B00957` writes
+ * `<i>favor, grant, </i>esp<i>.</i>`, where that period is `esp.`'s
+ * abbreviation dot — the very thing this row's description says it
+ * excludes).
+ *
+ * All 21 corpus occurrences are the live catalogue row
+ * `italic-lone-punctuation`'s own population (29 occurrences,
+ * `. x21, ? x5, ; x2`), which batch 3b Task 4 ships. Claiming them
+ * here would put two rules on one population — the failure batch 3a
+ * was built to prevent — and destroy the other row's evidence on the
+ * way past.
+ *
+ * NOTHING ELSE WOULD HAVE CAUGHT IT, which is why the guard is stated
+ * rather than assumed: `checkNoNewText` is multiset-blind, `markup.ts`
+ * counts unbalanced opens and closes and `<i></i>.` is balanced, and
+ * this file's own `stripTags` invariant passes because the stripped
+ * text really is unchanged.
+ *
  * ## Edge whitespace belongs to another row
  *
  * `INSIDE` requires the period to abut `</i>`, and `OUTSIDE` requires
@@ -107,15 +131,23 @@ const OUTSIDE = /<i>(?<body>[^<>]*)<\/i>\./gu;
 /** `<i>BODY.</i>` — period inside. */
 const INSIDE = /<i>(?<body>[^<>]*)\.<\/i>/gu;
 
+/** A run with nothing but whitespace in it belongs to
+ * `italic-lone-punctuation`, not to this pair (see the module doc).
+ * Both movers decline it, and `moveInside` declines it for symmetry
+ * rather than because the corpus holds one — it holds 0. */
+function isEmpty(body: string): boolean {
+	return body.trim() === '';
+}
+
 function moveInside(text: string): string {
 	return text.replaceAll(OUTSIDE, (whole, body: string) =>
-		isLabel(body) ? `<i>${body}.</i>` : whole,
+		!isEmpty(body) && isLabel(body) ? `<i>${body}.</i>` : whole,
 	);
 }
 
 function moveOutside(text: string): string {
 	return text.replaceAll(INSIDE, (whole, body: string) =>
-		isLabel(body) ? whole : `<i>${body}</i>.`,
+		isEmpty(body) || isLabel(body) ? whole : `<i>${body}</i>.`,
 	);
 }
 
