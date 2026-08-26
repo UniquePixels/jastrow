@@ -19,14 +19,54 @@
  * order-dependent by measurement and declared as a 3-clique. What is
  * a defect is non-commutation nobody wrote down.
  *
- * ## Why the rid-set intersection is load-bearing, not a micro-optimisation
+ * ## The rid-set skip is a UNION, and the first version of it was wrong
  *
- * 34 rules is 561 pairs; composing every pair over 32,512 entries is
- * ~36M `apply` calls. Restricting each pair to the entries where BOTH
- * rules actually fire is exact — a pair cannot disagree on an entry
- * where at least one of them changes nothing, because then one order
- * is the other with an identity step spliced in — and it collapses
- * the work to the handful of pairs whose populations touch at all.
+ * CORRECTED 2026-08-26 (fix/rtl-unlink-order, review round 1). This
+ * section used to be headed "Why the rid-set intersection is
+ * load-bearing, not a micro-optimisation" and it claimed:
+ *
+ *   "Restricting each pair to the entries where BOTH rules actually
+ *    fire is exact — a pair cannot disagree on an entry where at
+ *    least one of them changes nothing, because then one order is
+ *    the other with an identity step spliced in."
+ *
+ * **Neither half is true.** The premise is evaluated on the RAW
+ * entry. If `b` does not change `e` but DOES change `a(e)`, then `b`
+ * is not an identity step in the `a`-first order, the two orders
+ * disagree, and the intersection has already discarded `e`. That is
+ * not a corner case: it is the exact mechanism this branch exists to
+ * repair — an unlink rule drops an anchor and exposes text a wrap
+ * rule then claims.
+ *
+ * Measured over all 32,512 entries, for the four pairs this branch
+ * declares, in ENTRIES whose two orders disagree:
+ *
+ *   pair                                             total  seen  lost
+ *   bare-rtl-hebrew × geresh-letter-numeral-mislink    441   132   309
+ *   bare-rtl-hebrew × prefixed-geresh-abbrev-mislink   170    41   129
+ *   bare-rtl-hebrew × ellipsis-fragment-anchored        80    24    56
+ *   bare-rtl-hebrew × plural-to-feminine-…-mislink      50     7    43
+ *
+ * ~70% of the evidence was thrown away before the comparison ran, and
+ * the 50-entry pair was caught on the strength of seven entries —
+ * entries where `bare-rtl-hebrew` happened to fire somewhere ELSE in
+ * the same entry for an unrelated reason. This gate found the defect
+ * it was written to find; it did not have to.
+ *
+ * The UNION is the sound restriction, and its justification does
+ * hold: if NEITHER rule changes `e`, then `a(e) = b(e) = e` and both
+ * orders land on `e`. So a pair can only be skipped on entries no
+ * rule touches at all.
+ *
+ * ## What the union costs, stated rather than argued
+ *
+ * 27 rules is 351 unordered pairs. Under the union every pair has a
+ * non-empty candidate set, so all 351 are composed, over 277,488
+ * entry-visits, in ~34 seconds — against this test's own 180,000 ms
+ * timeout. It finds the identical 8 pairs and the identical sample
+ * rids the unsound version reported. The skip is therefore an
+ * ordinary optimisation and is described as one: it buys the entries
+ * no rule touches, which on this corpus is most of them.
  *
  * ## What this gate does NOT see
  *
@@ -37,6 +77,22 @@
  *   still commute, if each is idempotent on the other's output. The
  *   design-time byte-span comparison in the spec is the sharper
  *   instrument; this one is the maintainable one.
+ * - **Order-dependence that only a THIRD rule exposes.** Every pair
+ *   is composed from the RAW entry, and the registry runs 27 rules
+ *   deep. If `c` produces the state on which `a` and `b` disagree,
+ *   this gate is blind to it — the same shape as the defect above,
+ *   one level further out. The union fixes the two-rule case
+ *   completely and says nothing about the three-rule one. Batch 1's
+ *   remedy is still the backstop: compose the whole registry over the
+ *   corpus in both candidate orders and compare bytes.
+ * - **Attribution.** `compose()` discards records and compares only
+ *   the resulting entry, so a pair whose orders agree on the OUTPUT
+ *   while disagreeing about which rule gets credit reads as
+ *   commuting. That is deliberate and matches `registry.ts`'s own
+ *   ruling on `emphasisRunEdgeSpace` against the seam rules — "only
+ *   the per-rule record counts differ, which is a fact about
+ *   attribution, not about output" — but a reader consulting this
+ *   list should not have to infer it from `compose()`'s docstring.
  */
 import type { SourceEntry } from '../body/types.ts';
 import type { Rule } from './types.ts';
@@ -47,14 +103,38 @@ interface NonCommuting {
 	sampleRid: string;
 }
 
-/** Rids on which `rule` produced at least one record. */
-function firingRids(
+/**
+ * Rids on which `rule` may have changed the entry.
+ *
+ * DELIBERATELY OVER-INCLUSIVE, and that is what makes the union skip
+ * sound rather than merely plausible. The skip needs one direction
+ * only — a rid this set omits for BOTH rules must be one where
+ * neither rule changed anything — so a false positive here costs a
+ * composition and a false negative costs correctness.
+ *
+ * Two independent signals are OR-ed, so neither has to be exact:
+ *
+ * - `entry !== result.entry`. `Rule.apply`'s contract in `types.ts`
+ *   is explicit that a rule returns a NEW entry object when it
+ *   changes anything and the SAME reference when it does not, and
+ *   that an in-place mutator is a contract violation nothing else
+ *   detects either. A rule that allocates a fresh but identical
+ *   entry is a false positive, which is free.
+ * - `records.length > 0`. The previous version of this function
+ *   rested on this ALONE, unstated — "produced a record" standing in
+ *   for "changed the entry" with nothing requiring the two to agree.
+ *   It is kept as the second signal rather than the only one, so a
+ *   rule that reports a record without returning a new object is
+ *   still caught.
+ */
+function changingRids(
 	rule: Rule,
 	corpus: readonly SourceEntry[],
 ): ReadonlySet<string> {
 	const rids = new Set<string>();
 	for (const entry of corpus) {
-		if (rule.apply(entry).records.length > 0) {
+		const result = rule.apply(entry);
+		if (result.entry !== entry || result.records.length > 0) {
 			rids.add(entry.rid);
 		}
 	}
@@ -67,36 +147,48 @@ function compose(a: Rule, b: Rule, entry: SourceEntry): string {
 }
 
 /** Counts from one `nonCommutingPairs` run, for the corpus-tier gate's
- * log line — proof the rid-set-intersection optimisation is doing its
- * job rather than a claim taken on faith. `totalPairs` is every
- * unordered pair `rules` has; `composedPairs` is the (usually much
- * smaller) subset whose firing-rid sets actually intersected and so
- * were composed at all. */
+ * log line. `totalPairs` is every unordered pair `rules` has;
+ * `composedPairs` is the subset whose candidate rid set was non-empty
+ * and so was composed at all. Under the union rule these are usually
+ * equal — every registered rule changes SOMETHING — and the honest
+ * number on stdout is the point: the previous intersection rule made
+ * this read 146 of 351 and that gap was the defect, not the win. */
 interface PairStats {
 	composedPairs: number;
 	totalPairs: number;
 }
 
-/** Rids both `a` and `b` fire on, per the precomputed `firing` map. */
-function sharedFiringRids(
+/**
+ * Rids where `a` or `b` changed the entry, in corpus order.
+ *
+ * The UNION, not the intersection — see the module doc. Corpus order
+ * rather than set-insertion order so that `sampleRid` names the
+ * FIRST disagreeing entry in the file and is stable across runs.
+ */
+function candidateRids(
 	a: Rule,
 	b: Rule,
-	firing: ReadonlyMap<string, ReadonlySet<string>>,
+	changing: ReadonlyMap<string, ReadonlySet<string>>,
+	orderOf: ReadonlyMap<string, number>,
 ): string[] {
-	return [...(firing.get(a.id) ?? [])].filter((rid) =>
-		firing.get(b.id)?.has(rid),
+	const union = new Set([
+		...(changing.get(a.id) ?? []),
+		...(changing.get(b.id) ?? []),
+	]);
+	return [...union].toSorted(
+		(x, y) => (orderOf.get(x) ?? 0) - (orderOf.get(y) ?? 0),
 	);
 }
 
-/** The first shared rid on which `a` then `b` disagrees with `b` then
- * `a`, or `undefined` if the two orders agree on every shared rid. */
+/** The first candidate rid on which `a` then `b` disagrees with `b`
+ * then `a`, or `undefined` if the two orders agree on every one. */
 function firstDisagreement(
 	a: Rule,
 	b: Rule,
-	sharedRids: readonly string[],
+	candidates: readonly string[],
 	byRid: ReadonlyMap<string, SourceEntry>,
 ): string | undefined {
-	return sharedRids.find((rid) => {
+	return candidates.find((rid) => {
 		const entry = byRid.get(rid);
 		return entry !== undefined && compose(a, b, entry) !== compose(b, a, entry);
 	});
@@ -104,8 +196,8 @@ function firstDisagreement(
 
 /**
  * Every unordered pair of `rules` whose two orders produce different
- * bytes on some entry both of them fire on. Pairs with a disjoint
- * firing set are skipped without composing.
+ * bytes on some entry at least one of them changes. Pairs whose
+ * candidate set is empty are skipped without composing.
  *
  * When `stats` is passed, it is filled in with the pair counts (see
  * `PairStats`) — an optional out-param rather than a second return
@@ -117,8 +209,9 @@ function nonCommutingPairs(
 	corpus: readonly SourceEntry[],
 	stats?: PairStats,
 ): NonCommuting[] {
-	const firing = new Map(rules.map((r) => [r.id, firingRids(r, corpus)]));
+	const changing = new Map(rules.map((r) => [r.id, changingRids(r, corpus)]));
 	const byRid = new Map(corpus.map((e) => [e.rid, e]));
+	const orderOf = new Map(corpus.map((e, at) => [e.rid, at]));
 	const found: NonCommuting[] = [];
 	let totalPairs = 0;
 	let composedPairs = 0;
@@ -130,12 +223,12 @@ function nonCommutingPairs(
 				continue;
 			}
 			totalPairs++;
-			const shared = sharedFiringRids(a, b, firing);
-			if (shared.length === 0) {
+			const candidates = candidateRids(a, b, changing, orderOf);
+			if (candidates.length === 0) {
 				continue;
 			}
 			composedPairs++;
-			const sampleRid = firstDisagreement(a, b, shared, byRid);
+			const sampleRid = firstDisagreement(a, b, candidates, byRid);
 			if (sampleRid !== undefined) {
 				found.push({ ids: [a.id, b.id], sampleRid });
 			}
@@ -149,4 +242,4 @@ function nonCommutingPairs(
 }
 
 export type { NonCommuting, PairStats };
-export { firingRids, nonCommutingPairs };
+export { changingRids, nonCommutingPairs };

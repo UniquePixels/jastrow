@@ -507,7 +507,9 @@ const RULES: readonly Rule[] = [
 	// body ending `—`, which `INSIDE` cannot match, so this rule TAKES
 	// 247 entries out of `italicGlossPeriodOutside`'s reach (1,567 alone
 	// → 1,331 composed, the balance being the 11 the edge rule adds).
-	// It also takes 4 out of `labelPeriodInside`'s (979 → 975): the
+	// It also takes 4 out of `labelPeriodInside`'s (979 entries → 975;
+	// the row fires once per entry, so its record count moves the same
+	// 979 → 975): the
 	// labelled shape `.</i> <i>—Pl</i>.` merges into `<i>gloss.—Pl</i>.`
 	// and `isLabel` correctly declines that body, so the period stays
 	// outside. Both are the whole-body granularity ruling (R1) doing
@@ -716,7 +718,9 @@ interface Cluster {
  * `checkEntanglement` reports an unreciprocated edge as a catalogue
  * problem, and today every edge is reciprocated — 32 recorded entries,
  * 16 undirected edges, 0 one-sided, 0 dangling (2026-08-26: was 18 / 9
- * before this branch declared seven more) — so nothing in the
+ * before `fix/rtl-unlink-order` declared seven more; see
+ * `registry.order.test.ts` for a stale SPLIT of those totals corrected
+ * at the same time) — so nothing in the
  * corpus reaches this. That is exactly why it is worth building
  * correctly rather than leaving: this is the code Task 3 added to make
  * the adjacency gate FALSIFIABLE, and a gate whose correctness rests

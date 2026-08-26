@@ -12,7 +12,7 @@
  * re-exposes the Hebrew it covered, and `bare-rtl-hebrew` had already
  * run by then. The composed corpus pass found it; nothing else could.
  *
- * Three orderings are asserted, each stating a behavioural rule rather
+ * Four orderings are asserted, each stating a behavioural rule rather
  * than pinning today's arrangement:
  *
  * 1. **Unlink before retarget.** A retarget rule copies a target off a
@@ -60,6 +60,24 @@
  *    identical addresses), so the order is currently free — which is a
  *    fact about this corpus, not a licence to reorder them after a
  *    re-fetch.
+ * 4. **Unlink before wrap.** Added 2026-08-26 by
+ *    `fix/rtl-unlink-order`, and it is rule 1 one level up: an unlink
+ *    rule drops an anchor and RE-EXPOSES the text that anchor covered.
+ *    A wrap rule declines text that is already inside a link — that is
+ *    the correct predicate, not a bug — so with the unlinks running
+ *    afterwards the exposed text is never wrapped by anyone. Four of
+ *    the six unlink rows are entangled with `bare-rtl-hebrew` by
+ *    measurement (441 / 170 / 80 / 50 entries), which puts them under
+ *    `checkAdjacency` — but adjacency is DIRECTION-BLIND, and which
+ *    side of the wrap rules they sit on is the entire defect. Nothing
+ *    else in the tree holds that direction.
+ *
+ *    Both sides of this one are earned sets rather than literals. The
+ *    first draft wrote the wrap side as three hardcoded ids, which
+ *    left a fourth rtl wrap rule free to classify into `NEITHER`,
+ *    satisfy the exhaustiveness assertion below, and leave this
+ *    assertion silently passing above the unlinks — the exact vacuity
+ *    the next paragraph warns about.
  *
  * The classification below is asserted EXHAUSTIVE. Without that, a
  * rule added to `RULES` and to none of the sets would satisfy every
@@ -70,8 +88,8 @@
  * is neither `RETARGET` nor `NEITHER` as those are defined.
  *
  * And exhaustive is not the same as earned. The corpus pass at the
- * bottom of this file makes membership of `UNLINK`, `GLYPH` and
- * `NEITHER` a measurement over all 32,512 entries rather than an
+ * bottom of this file makes membership of `UNLINK`, `WRAP`, `GLYPH`
+ * and `NEITHER` a measurement over all 32,512 entries rather than an
  * author's claim. `RETARGET` is the one set that cannot be earned
  * that way, and the note there says why.
  */
@@ -79,9 +97,10 @@ import { describe, expect, it } from 'bun:test';
 import { readSourceEntries } from '../body/source.ts';
 import type { SourceEntry } from '../body/types.ts';
 import { parsePatterns } from '../research/patterns.ts';
-import { tokenize } from './html.ts';
+import type { TagToken } from './html.ts';
+import { DIR_RTL, opensScope, tokenize } from './html.ts';
 import { anchors } from './links.ts';
-import { fieldsOf } from './no-new-text.ts';
+import { fieldsOf, textOf } from './no-new-text.ts';
 import {
 	checkAdjacency,
 	entangledClusters,
@@ -116,8 +135,10 @@ const RETARGET = new Set([
 ]);
 
 /** Rules that neither remove an anchor nor write a target, so rule 1
- * says nothing about where they sit. The RTL trio rewrites wrapper
- * markup around text; `shuruk-as-yod-display-corruption` edits DISPLAY
+ * says nothing about where they sit. The RTL trio used to live here —
+ * it moved to `WRAP` on 2026-08-26, because rule 4 DOES say where it
+ * sits and a set nothing pins is a set a fourth wrap rule can dodge;
+ * `shuruk-as-yod-display-corruption` edits DISPLAY
  * text inside an anchor whose target is already correct and leaves
  * every `href`/`data-ref` byte-identical; and
  * `ascii-quote-as-gershayim-in-body` (batch 3a) repairs a glyph in
@@ -149,7 +170,6 @@ const RETARGET = new Set([
 const NEITHER = new Set([
 	'anchor-italic-no-space',
 	'ascii-quote-as-gershayim-in-body',
-	'bare-rtl-hebrew',
 	'em-dash-section-break-in-own-italic',
 	'emphasis-run-edge-space',
 	'geresh-abbrev-space-loss',
@@ -158,12 +178,40 @@ const NEITHER = new Set([
 	'italic-swallowed-terminal-period',
 	'italic-swallows-close-paren',
 	'label-period-outside-italic',
-	'latin-token-inside-rtl-span',
 	'paren-tag-no-space',
-	'redundant-outer-rtl-span',
 	'shuruk-as-yod-display-corruption',
 	'trailing-whitespace-definition',
 	'translit-italic-space-loss',
+]);
+
+/** Rules that MOVE `dir="rtl"` wrapper markup — the subject of rule 4's
+ * second half, and a set rather than a literal so that a fourth wrap
+ * rule cannot land in `NEITHER`, satisfy the exhaustiveness assertion
+ * and leave rule 4 passing vacuously above the unlinks.
+ *
+ * Like `UNLINK`, membership is EARNED over all 32,512 entries, and by
+ * the conjunction the rtl module already claims for itself: "They move
+ * wrappers; the text bytes are untouched" (`rules/rtl.ts`). So a WRAP
+ * rule is one that, somewhere in the corpus,
+ *
+ *   (a) changes how many characters sit under a `<span dir="rtl">`
+ *       scope, AND
+ *   (b) never changes the tag-stripped text, in any entry.
+ *
+ * Both halves are load-bearing. (a) alone admits
+ * `geresh-abbrev-space-loss`, which inserts a space that sometimes
+ * lands inside an rtl span — a length artefact, not wrapper work. (b)
+ * alone admits every unlink rule. Together they measure exactly the
+ * trio, and they measure the PROPERTY rather than the names: a fourth
+ * rule that moves rtl wrappers joins this set or fails the corpus test
+ * below. `dir="rtl"` on an ANCHOR is deliberately not counted — an
+ * unlink rule removing `<a dir="rtl">` changes rtl coverage without
+ * being a wrap rule, and rule 4 is about the two classes being
+ * distinct. */
+const WRAP = new Set([
+	'bare-rtl-hebrew',
+	'latin-token-inside-rtl-span',
+	'redundant-outer-rtl-span',
 ]);
 
 /** Rules that rewrite a link target IN PLACE, by glyph substitution
@@ -181,10 +229,10 @@ const NEITHER = new Set([
  * fires on the same 1,386 / 85 entries composed as it does alone. */
 const GLYPH = new Set(['gershayim-breaks-ref-attribute']);
 
-/** The four classifications, named ONCE. Both halves of the
- * classification test read this, so a fifth class added to one half
+/** The five classifications, named ONCE. Both halves of the
+ * classification test read this, so a sixth class added to one half
  * and forgotten in the other is not a thing that can happen. */
-const CLASSES: ReadonlySet<string>[] = [UNLINK, RETARGET, NEITHER, GLYPH];
+const CLASSES: ReadonlySet<string>[] = [UNLINK, RETARGET, NEITHER, GLYPH, WRAP];
 
 const ids = RULES.map((rule) => rule.id);
 
@@ -222,17 +270,16 @@ describe('registry order', () => {
 		expect(lastUnlink).toBeLessThan(firstRetarget);
 	});
 
-	// Rule 4, UNLINK BEFORE WRAP — see the header. `checkAdjacency`
-	// keeps the four measured pairs next to `bare-rtl-hebrew` but is
-	// direction-blind, and which side they sit on is the whole defect.
-	// Asserted over the WHOLE `UNLINK` set, not the four.
-	it('every unlink rule precedes the rtl wrap trio', () => {
+	// Rule 4, UNLINK BEFORE WRAP — see the header for why. Asserted
+	// over the whole of BOTH sets, never over the ids that happen to be
+	// in them today: `at()` throws on an unregistered id, `CLASSES`
+	// requires every registered rule to be in some set, and the corpus
+	// pass below requires `UNLINK` and `WRAP` to be exactly the rules
+	// that behave that way. A new rule on either side therefore fails
+	// something loudly rather than widening a gap this test cannot see.
+	it('every unlink rule precedes every rtl wrap rule', () => {
 		const lastUnlink = Math.max(...[...UNLINK].map(at));
-		const firstWrap = Math.min(
-			at('redundant-outer-rtl-span'),
-			at('bare-rtl-hebrew'),
-			at('latin-token-inside-rtl-span'),
-		);
+		const firstWrap = Math.min(...[...WRAP].map(at));
 		expect(lastUnlink).toBeLessThan(firstWrap);
 	});
 
@@ -308,11 +355,24 @@ describe('registry order', () => {
 	// answers "does the gate see everything it should?", which is the
 	// question all three defects slipped through.
 	//
-	// Empty today over 32 recorded entries / 16 undirected edges
-	// (2026-08-26; was 18 / 9 before this branch declared seven more):
-	// 13 have both endpoints registered and sit inside the three
-	// clusters above, and 3 have neither endpoint registered, which
-	// execution order cannot be wrong about. It is NOT a restatement of
+	// Empty today over 32 recorded entries / 16 undirected edges: 13
+	// have both endpoints registered and sit inside the three clusters
+	// above, and 3 have neither endpoint registered, which execution
+	// order cannot be wrong about.
+	//
+	// CORRECTED 2026-08-26 (fix/rtl-unlink-order). This block said "18
+	// recorded entries / 9 undirected edges: 5 have both endpoints
+	// registered … and 4 have neither endpoint registered". The totals
+	// were right for v2 and this branch's seven declarations move them
+	// to 32 / 16 — but the SPLIT was already wrong before this branch
+	// touched it: recomputed on v2 it is 6 both-registered and 3
+	// neither, not 5 and 4. Declaring seven edges between registered
+	// rules cannot move the neither-registered count at all, so the 3
+	// below is not a change, it is the number that should always have
+	// been there. Recorded rather than quietly overwritten, on this
+	// branch's own rule for a stale claim.
+	//
+	// It is NOT a restatement of
 	// `checkAdjacency` returning clean — a dropped component leaves
 	// that clean and lands here.
 	it('every recorded edge touching the registry is validated or reported', () => {
@@ -415,6 +475,39 @@ const DECLARED = new Map<string, Set<string>>(
 	RULES.map((rule) => [rule.id, new Set<string>()]),
 );
 const MOVED_A_TARGET = new Set<string>();
+const MOVED_A_WRAPPER = new Set<string>();
+const MOVED_TEXT = new Set<string>();
+
+/** How many characters sit under a `<span dir="rtl">` scope, per
+ * field — the measurable half of "moves an rtl wrapper".
+ *
+ * Scopes are tracked here rather than read off `Token.rtl`, which
+ * reports ANY rtl ancestor and so counts `<a dir="rtl">` too. Counting
+ * anchors would put every unlink rule in `WRAP`, which is precisely the
+ * distinction rule 4 rests on. */
+function opensRtlSpan(token: TagToken): boolean {
+	return token.name === 'span' && DIR_RTL.test(token.value);
+}
+
+/** Characters under a `<span dir="rtl">` scope in one field. */
+function coveredCharsIn(field: string): number {
+	const scopes: boolean[] = [];
+	let covered = 0;
+	for (const token of tokenize(field)) {
+		if (token.kind === 'text') {
+			covered += scopes.includes(true) ? token.value.length : 0;
+		} else if (token.close) {
+			scopes.pop();
+		} else if (opensScope(token.value)) {
+			scopes.push(opensRtlSpan(token));
+		}
+	}
+	return covered;
+}
+
+function rtlSpanCoverageOf(entry: SourceEntry): string {
+	return JSON.stringify(fieldsOf(entry).map(coveredCharsIn));
+}
 
 /** Every anchor's parsed target pair, in walk order. */
 function targetsOf(entry: SourceEntry): string {
@@ -432,8 +525,18 @@ function scan(): Promise<void> {
 	scanned ??= (async (): Promise<void> => {
 		for await (const source of readSourceEntries()) {
 			const before = targetsOf(source);
+			const coverage = rtlSpanCoverageOf(source);
+			const text = textOf(source);
 			for (const rule of RULES) {
 				const out = rule.apply(source);
+				if (out.entry !== source) {
+					if (rtlSpanCoverageOf(out.entry) !== coverage) {
+						MOVED_A_WRAPPER.add(rule.id);
+					}
+					if (textOf(out.entry) !== text) {
+						MOVED_TEXT.add(rule.id);
+					}
+				}
 				const kinds = DECLARED.get(rule.id) as Set<string>;
 				if ((out.unlinks ?? 0) > 0) {
 					kinds.add('unlinks');
@@ -447,7 +550,10 @@ function scan(): Promise<void> {
 				if ((out.glyphCorrected ?? []).length > 0) {
 					kinds.add('glyphCorrected');
 				}
-				if (NEITHER.has(rule.id) && targetsOf(out.entry) !== before) {
+				if (
+					(NEITHER.has(rule.id) || WRAP.has(rule.id)) &&
+					targetsOf(out.entry) !== before
+				) {
 					MOVED_A_TARGET.add(rule.id);
 				}
 			}
@@ -481,11 +587,31 @@ describe('the classification is earned, not declared', () => {
 		expect(everDeclared('glyphCorrected')).toEqual([...GLYPH].toSorted(byId));
 	}, 180_000);
 
-	it('no NEITHER rule removes an anchor or moves a target', async () => {
+	it('no NEITHER or WRAP rule removes an anchor or moves a target', async () => {
 		await scan();
 		expect([...MOVED_A_TARGET]).toEqual([]);
 		expect(
-			[...NEITHER].filter((id) => (DECLARED.get(id)?.size ?? 0) > 0),
+			[...NEITHER, ...WRAP].filter((id) => (DECLARED.get(id)?.size ?? 0) > 0),
 		).toEqual([]);
+	}, 180_000);
+
+	// `WRAP` earned, and the reason rule 4's second side is a set. The
+	// conjunction is the rtl module's own claim about itself: it moves
+	// wrappers (a) and leaves the text bytes alone (b). Measured:
+	// `geresh-abbrev-space-loss` satisfies (a) alone — its inserted
+	// space sometimes lands inside an rtl span — and is excluded by
+	// (b); every unlink rule satisfies (b) alone and is excluded by
+	// (a), because anchor-borne `dir="rtl"` is not counted.
+	//
+	// A fourth rtl wrap rule therefore cannot ship quietly: it fails
+	// HERE until it is added to `WRAP`, and adding it to `WRAP` puts it
+	// under rule 4. That is the hole the first draft of rule 4 left,
+	// which wrote the wrap side as three hardcoded ids.
+	it('exactly the WRAP rules ever move an rtl wrapper', async () => {
+		await scan();
+		const moversOnly = [...MOVED_A_WRAPPER]
+			.filter((id) => !MOVED_TEXT.has(id))
+			.toSorted(byId);
+		expect(moversOnly).toEqual([...WRAP].toSorted(byId));
 	}, 180_000);
 });
