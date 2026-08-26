@@ -1,8 +1,7 @@
 # Phase 2 worklist — the catalogue, routed
 
 **Status: triaged 2026-08-21; totals recomputed from the catalogue
-2026-08-25 after transform batch 3a and its pre-PR review.** All 131
-candidate rows routed.
+2026-08-26 after transform batch 3b.** All 131 candidate rows routed.
 This is the Phase 2 entry point: start here, not in `patterns.jsonl`.
 
 Every count on this page is derived from `patterns.jsonl`, never typed
@@ -55,8 +54,8 @@ someone pins the predicate.
 
 | Route | Rows | Instances | What it needs |
 |---|---:|---:|---|
-| **transform** | **77** | **21,678** | deterministic code + tests |
-| judgment | 49 | 15,754 | per-entry reading (Opus pass or maintainer) |
+| **transform** | **73** | **22,026** | deterministic code + tests |
+| judgment | 53 | 15,841 | per-entry reading (Opus pass or maintainer) |
 | blocked | 5 | 4,947 | pin the predicate first |
 
 Phase 1 closed this table at 81 / 46 / 5. Every move since has been a
@@ -90,19 +89,39 @@ is working:
   raw JSON puts its unowned surviving population at **zero**. Left on
   `transform` it would have been a second owner of records those rules
   already repair. See [transform-batch-3a.md](transform-batch-3a.md).
+- Batch 3b moved FOUR more out — `citation-quote-seam-period` (43),
+  `orphan-gloss-seam-period` (19), `gloss-head-seam-period-doubling`
+  (15) and `entry-final-comma` (10), transform → judgment, working in
+  `data/patches/catalogue-audit/batch-3b-withdrawals.md`. It shipped
+  twelve rules and corrected SIX counts, four of them downward and two
+  of them twice: `italic-swallowed-terminal-period` 1,098 → 1,567,
+  `label-period-outside-italic` 945 → 979, `anchor-italic-no-space`
+  111 → 56, `paren-tag-no-space` 126 → 115 (OCCURRENCES),
+  `italic-lone-punctuation` 29 → 28, `geresh-abbrev-space-loss`
+  22 → 23. `anchor-italic-no-space`'s catalogued 111 was counting 53
+  seams that `paren-tag-no-space` was also counting — the first
+  measured instance of two rows owning one population — and both were
+  corrected a second time when the composed run found them
+  manufacturing a rendered defect on 13 entries. See
+  [transform-batch-3b.md](transform-batch-3b.md).
 
-**51.2% of the backlog is deterministic code** (21,678 of 42,379
-instances), 59% of it by row. That is the most useful number here —
+**51.5% of the backlog is deterministic code** (22,026 of 42,814
+instances), 55.7% of it by row. That is the most useful number here —
 most of the catalogue does not need judgment at all.
+
+The instance total ROSE while four rows left, which looks wrong and is
+not: batch 3b corrected six counts, and `italic-swallowed-terminal-period`
+alone went 1,098 → 1,567 when its rule was written. A transform row's
+count is a claim nobody has checked until someone writes the rule.
 
 Cutover gate, cross-cut:
 
 | | Rows | Instances |
 |---|---:|---:|
 | Blocks the v2 cutover | 58 | 15,676 |
-| Launch need not wait | 73 | 26,703 |
+| Launch need not wait | 73 | 27,138 |
 
-## The transform queue — all 77 rows, largest first
+## The transform queue — all 73 rows, largest first
 
 `⚠ unaudited` marks a row with no `reason` recorded: its count has never
 been derived. That is not a reason to skip it — for a transform row,
@@ -112,10 +131,10 @@ either reproduces the count or does not.
 | Row | Instances | Blocks cutover | Audit |
 |---|---:|---|---|
 | `bare-rtl-hebrew` | 4,189 | **yes** | — |
+| `italic-swallowed-terminal-period` | 1,567 | no | — |
 | `ascii-quote-as-gershayim-in-body` | 1,386 | no | — |
 | `tanhuma-never-linked` | 1,137 | no | — |
-| `italic-swallowed-terminal-period` | 1,098 | no | — |
-| `label-period-outside-italic` | 945 | no | — |
+| `label-period-outside-italic` | 979 | no | — |
 | `mekhilta-sifra-never-linked` | 923 | no | — |
 | `unlinked-v-span` | 796 | no | ⚠ unaudited |
 | `nonsense-dup-anchor` | 755 | **yes** | — |
@@ -144,45 +163,41 @@ either reproduces the count or does not.
 | `superscript-subsection-stranded-outside-anchor` | 160 | **yes** | — |
 | `latin-token-inside-rtl-span` | 130 | **yes** | — |
 | `trailing-em-dash-tail` | 130 | **yes** | — |
-| `paren-tag-no-space` | 126 | no | ⚠ unaudited |
-| `anchor-italic-no-space` | 111 | no | ⚠ unaudited |
+| `paren-tag-no-space` | 115 | no | — |
 | `sense-number-outside-closed-grammar` | 111 | **yes** | — |
-| `italic-close-paren-nospace` | 95 | no | ⚠ unaudited |
-| `gershayim-breaks-ref-attribute` | 85 | **yes** | — |
+| `italic-close-paren-nospace` | 95 | no | — |
 | `duplicated-definition-opening-run` | 85 | **yes** | — |
+| `gershayim-breaks-ref-attribute` | 85 | **yes** | — |
 | `empty-lead-sense` | 84 | **yes** | — |
 | `ellipsis-fragment-anchored` | 80 | no | — |
 | `shin-sin-dot-drop` | 77 | no | — |
 | `continuation-marker-em-dash-loss` | 71 | **yes** | — |
 | `asterisk-stem-label` | 69 | **yes** | — |
 | `adjacent-verbatim-repetition` | 59 | **yes** | — |
+| `anchor-italic-no-space` | 56 | no | — |
 | `plural-to-feminine-final-letter-mislink` | 50 | no | — |
 | `bracketed-gloss-lead-sense` | 49 | **yes** | — |
-| `citation-quote-seam-period` | 43 | no | — |
 | `rabbi-name-linked-as-bible-book` | 42 | no | — |
 | `abbrev-headword-stub` | 34 | **yes** | — |
-| `italic-lone-punctuation` | 29 | no | — |
+| `italic-lone-punctuation` | 28 | no | — |
 | `reversed-hebrew-phrase` | 27 | **yes** | — |
+| `geresh-abbrev-space-loss` | 23 | no | — |
 | `homograph-roman-stranded-in-definition` | 23 | **yes** | — |
-| `gender-pair-headword-line-collapse` | 22 | **yes** | — |
-| `geresh-abbrev-space-loss` | 22 | no | — |
 | `containment-fallback-mislink` | 22 | no | — |
-| `orphan-gloss-seam-period` | 19 | no | — |
+| `gender-pair-headword-line-collapse` | 22 | **yes** | — |
 | `stem-head-marker-chop` | 18 | **yes** | — |
 | `impossible-dagesh` | 17 | no | — |
 | `translit-italic-space-loss` | 15 | no | — |
-| `gloss-head-seam-period-doubling` | 15 | no | — |
 | `citation-number-truncated-outside-anchor` | 14 | **yes** | — |
 | `shuruk-as-yod-display-corruption` | 12 | no | — |
-| `vkh-geresh-loss` | 11 | no | — |
 | `post-anchor-numeral-duplication` | 11 | no | — |
-| `trailing-whitespace-definition` | 10 | no | — |
-| `section-break-terminator-loss` | 10 | **yes** | — |
-| `entry-final-comma` | 10 | no | — |
-| `italic-swallows-close-paren` | 10 | no | — |
+| `vkh-geresh-loss` | 11 | no | — |
 | `jt-double-wrapped-citation` | 10 | **yes** | — |
-| `ib-targum-work-loss` | 8 | no | — |
+| `section-break-terminator-loss` | 10 | **yes** | — |
+| `trailing-whitespace-definition` | 10 | no | — |
 | `apparatus-cite-linked-as-scripture` | 8 | no | — |
+| `ib-targum-work-loss` | 8 | no | — |
+| `italic-swallows-close-paren` | 8 | no | — |
 | `abbrev-fused-headword` | 7 | **yes** | — |
 | `sifre-ib-resolves-to-yalkut` | 6 | no | — |
 | `b-h-split-across-field-boundary` | 4 | **yes** | ⚠ unaudited |
@@ -204,10 +219,10 @@ either reproduces the count or does not.
 2. ~~**Then take the non-blocking audited rows on size.**~~ **Batch 2
    did exactly that** — ten rows, 1,166 catalogued instances, all
    non-blocking, all link-shaped
-   ([transform-batch-2.md](transform-batch-2.md)). There are 38 such
-   rows left (10,394 instances, twelve of them already shipped) and they
-   remain the cheapest real wins in the catalogue — predicate known, no
-   cutover pressure, no judgment required.
+   ([transform-batch-2.md](transform-batch-2.md)). There are 37 such
+   rows left (11,074 instances, twenty-four of them already shipped)
+   and they remain the cheapest real wins in the catalogue — predicate
+   known, no cutover pressure, no judgment required.
 3. **Respect `entangledWith`.** Four pairs must be fixed in one edit or
    they rewrite the same records twice. `checkEntanglement()` keeps the
    graph honest; the pairs are derived in the round-4 report. Batch 2

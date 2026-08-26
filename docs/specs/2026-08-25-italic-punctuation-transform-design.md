@@ -97,36 +97,91 @@ typographic normalisation"*. **That is true of 6 rows of 16.** The
 claim was made from two rows' audit notes and does not survive contact
 with the other fourteen.
 
+> **CORRECTED 2026-08-26 (Task 7), in two rows, and the correction is
+> the batch's single most consequential finding.** The table below
+> originally classified rows by what the MARKUP does. The catalogue
+> classifies them by what the READER sees, and where the two disagree
+> the spec was wrong and a rule built on it repaired nothing. See §3.1.
+> Every number here is now RECOMPUTED from the shipped rules and the
+> current catalogue, not adjusted by hand from the figures this table
+> first carried.
+
 | Class | Rows | Instances | What the text multiset does |
 |---|---|---:|---|
-| **A. Seam move** | 4 | 2,342 | unchanged — a byte crosses a tag boundary |
-| **B. Space insertion** | 6 | 379 | **gains** one U+0020 per instance |
-| **C. Deletion** | 6 | 401 | loses a codepoint (sub-multiset, always safe) |
+| **A. Seam move** | 4 | 2,582 | unchanged — a byte crosses a tag boundary |
+| **B. Space insertion** | 5 | 304 | **gains** one U+0020 per instance |
+| **C. Deletion** | 7 | 671 | loses a codepoint (sub-multiset, always safe) |
 
-**Class A** — `italic-swallowed-terminal-period` (1,098),
-`label-period-outside-italic` (945), `em-dash-section-break-in-own-italic`
-(270), `italic-lone-punctuation` (29). `stripTags` maps `<i>Af</i>.` and
+The instance column sums `corpusCount`, which **has no consistent
+unit** — §2.1 is about exactly that, and the sum is therefore an order
+of magnitude and not a measurement. Each row's own unit is now stated
+in its `reason` field in `patterns.jsonl`; four of the sixteen changed
+during this batch.
+
+**Class A** — `italic-swallowed-terminal-period` (1,567),
+`label-period-outside-italic` (979), `italic-lone-punctuation` (28),
+`italic-swallows-close-paren` (8). `stripTags` maps `<i>Af</i>.` and
 `<i>Af.</i>` to the same `Af.`, so `checkNoNewText` sees nothing at
 all. **The whole safety burden falls on `checkMarkup`'s delta and on
 the rule's own tests.**
 
-**Class B** — `paren-tag-no-space` (126), `anchor-italic-no-space`
-(111), `italic-close-paren-nospace` (95), `geresh-abbrev-space-loss`
-(22), `translit-italic-space-loss` (15), `italic-swallows-close-paren`
-(10). These add text. §5 is about them.
+`italic-swallows-close-paren` MOVED HERE FROM CLASS B (Task 6). The
+original placement rested on its audit's *"not byte-conservingly
+repairable"*, read as meaning the split inserts a space. It does not:
+the space between the moved `)` and the reopened run is the TAIL'S OWN
+leading space, lifted from inside the run to outside it, and where a
+tail carries none, none is created. The shipped rule's text multiset is
+identical before and after in all 8 members, so declaring
+`copied: [' ']` would have been a claim about bytes the rule never
+writes.
 
-`italic-swallows-close-paren` is in this class rather than in A on its
-own audit's wording: the repair is `</i> <i>`, which splits the run
-rather than moving a byte across its edge, and that inserted space is
-exactly what its audit means by *"not byte-conservingly repairable"*.
+**Class B** — `paren-tag-no-space` (115), `anchor-italic-no-space`
+(56), `italic-close-paren-nospace` (95), `geresh-abbrev-space-loss`
+(23), `translit-italic-space-loss` (15). These add text. §5 is about
+them.
 
 **Class C** — `emphasis-run-edge-space` (304),
+`em-dash-section-break-in-own-italic` (270),
 `citation-quote-seam-period` (43), `orphan-gloss-seam-period` (19),
-`gloss-head-seam-period-doubling` (15), `trailing-whitespace-definition`
-(10), `entry-final-comma` (10). Deletion passes the sub-multiset gate
-by construction, which means **the gate cannot tell a correct deletion
-from deleting the wrong byte**. Three of these six are flagged by their
-own audits as not safely deletable (§7).
+`gloss-head-seam-period-doubling` (15),
+`trailing-whitespace-definition` (10), `entry-final-comma` (10).
+Deletion passes the sub-multiset gate by construction, which means
+**the gate cannot tell a correct deletion from deleting the wrong
+byte**. Four of these seven were withdrawn to `judgment` by Task 6
+(§7 named three of them; the fourth, `entry-final-comma`, joined them
+on the same test).
+
+`em-dash-section-break-in-own-italic` MOVED HERE FROM CLASS A (RULING,
+Brian, 2026-08-25). Its harm is rendered spacing — its own
+`description` says the seam *renders* `gloss. — Pl.` where the corpus
+norm is `gloss.—Pl.` — so the repair must DELETE the space, not carry
+it across a tag. See §3.1.
+
+### 3.1 The error this table made, and the standing rule that came out of it
+
+Three rows in this batch were specified as repairs that repaired
+nothing, and all three trace to one mistake: **classifying a row by
+what the MARKUP does when the catalogue classifies it by what the
+READER sees.**
+
+- `em-dash-section-break-in-own-italic` shipped a Class A rule that
+  fired **278 times and left the rendered output byte-identical** — 0
+  of 270 entries changed — with a corpus test asserting the very
+  `stripTags` invariant that certified the defect had survived.
+- `emphasis-run-edge-space`'s planned implementation had the same
+  defect: a pure MOVE across the tag boundary leaves the two spaces
+  just as adjacent, measured at 179 rendered doubled spaces before and
+  179 after. It was caught by measurement before dispatch rather than
+  after.
+- `italic-swallows-close-paren` is the inverse and the control: its
+  harm really IS in the markup — a `)` set in italic while its `(` is
+  roman — so its text output is *correctly* unchanged. A reviewer who
+  conflates the two rejects it for the wrong reason.
+
+**THE STANDING RULE, for every batch after this one: when a row's
+stated harm is in the rendered output, the repair must fix the rendered
+output, and the test must assert a DEFECT-COUNT DELTA rather than an
+invariant.** An invariant is satisfied by a no-op. A delta is not.
 
 ## 4. The two largest rows are one predicate with two polarities
 
@@ -345,30 +400,65 @@ transform is the audit.
 
 ## 8. Registry placement
 
-Order is load-bearing (`registry.order.test.ts` asserts cluster
-contiguity against the live entanglement graph). Three constraints:
+> **REWRITTEN 2026-08-26 (Task 7).** Constraint 3 below was wrong and
+> is retracted; two constraints the original list did not contain turn
+> out to be the load-bearing ones. Every constraint here is now stated
+> with the corpus measurement that establishes it, and every FREEDOM
+> claim was re-measured by running the rule first and last in the
+> shipped registry and comparing all 32,512 entries byte for byte.
 
-1. **The label pair is one contiguous cluster** — its recorded edge
-   requires it. `label-period-outside-italic` runs **first**: it
-   removes labels from the `<i>…</i>.` population, so
-   `italic-swallowed-terminal-period` then sees only gloss runs and its
-   exclusion clause becomes an assertion rather than a filter.
-2. **Class B space insertions run before Class A seam moves.** A
-   missing space at `</a><i>` changes what "the run body" is for the
-   label predicate; repairing the seam first makes the label predicate
-   read the same string a human reads.
-3. **`em-dash-section-break-in-own-italic` runs before
-   `italic-lone-punctuation`.** The latter is *defined* as the residue
-   of the former (258 lone-punctuation runs − 230 em-dash = 28). Run in
-   the other order, the residue row would consume 230 instances the
-   em-dash row is meant to own — the double-count the catalogue
-   deliberately avoided.
+Order is load-bearing, and `registry.order.test.ts` can only see one of
+these four: it asserts cluster contiguity against the live
+`entangledWith` graph, and three of the four constraints are not
+recorded as edges. They are pinned by explicit assertions in that file
+instead.
 
-Constraint 3 is not recorded as an `entangledWith` edge and should be.
-`checkAdjacency()` reads `entangledWith` and nothing else, so today it
-cannot see this dependency at all — one more instance of the
-"56 of 62 pending rows carry no edge" blind spot recorded in
-`phase-2-triage.md` §3.
+1. **`em-dash-section-break-in-own-italic` runs before
+   `italic-swallowed-terminal-period`.** `SECTION_BREAK` needs its
+   input's first run to still read `<i>gloss.</i>` — period INSIDE,
+   abutting `</i>` — which is exactly the shape the gloss rule hunts
+   and rewrites. Measured twice, independently: with the gloss rule
+   first, the em-dash rule survives on **0 of 270 entries**. It does
+   **not** need to precede `label-period-outside-italic` (measured: all
+   270 survive), and only the measured half is stated.
+2. **`emphasis-run-edge-space` runs before
+   `italic-swallowed-terminal-period`.** 29 trailing-edge occurrences
+   read `<i>gloss.␣</i>`, where the captured space hides the terminal
+   period from the gloss rule's predicate. Running the edge rule first
+   uncovers **11 entries**, taking the gloss row's COMPOSED count from
+   1,567 to 1,578 while its rule-alone count stays 1,567.
+3. **The label pair is one contiguous cluster, `label-period-outside-italic`
+   first.** Its recorded edge requires the contiguity; the internal
+   order is the substantive part. That rule moves every label's period
+   inside, removing those runs from the `<i>….</i>` population
+   `italic-swallowed-terminal-period` then reads, so the gloss rule's
+   exclusion clause becomes an assertion that already holds rather than
+   a filter it must get right.
+4. **Class B space insertions run before the label pair.** A missing
+   space at `</a><i>` or `)<i>` changes what "the italic run body" is
+   for the label predicate; repairing the seam first makes that
+   predicate read the string a human reads.
+
+**RETRACTED — the original constraint 3.** It claimed
+`em-dash-section-break-in-own-italic` must run before
+`italic-lone-punctuation` or the residue row would consume 230
+instances the em-dash row owns. It cannot: `LONE_PUNCTUATION`'s
+character class is `[.?;]` and has no way to match an em-dash in any
+registration order, against any corpus. The exclusion lives in the
+predicate, which is where a disjointness the gates cannot see belongs.
+The registry keeps the two adjacent anyway, for a reader checking the
+230/28 split — a readability choice, stated as one.
+
+The blind spot the original section named is real and is worse than it
+said: **three** of the four constraints above carry no `entangledWith`
+edge, so `checkAdjacency()` is silent on all three. That is the
+"56 of 62 pending rows carry no edge" problem in
+`phase-2-triage.md` §3, met in practice. What actually caught a defect
+here was neither the adjacency gate nor any per-rule count, but the
+byte-comparison probe: run each rule first and last over the whole
+corpus and diff. It needs no edge in the catalogue to work, and it is
+the only technique in this batch that found something nobody was
+looking for.
 
 ## 9. Verification
 
@@ -433,12 +523,15 @@ Edit `patterns.jsonl` **surgically** — `renderPatterns()` reformats all
 
 ## 12. Rulings needed before implementation
 
-| # | Question | Recommendation |
-|---|---|---|
-| **R1** | How does `isLabel()` see a corpus-wide fact from an entry-local rule? | Freeze a snapshot-derived vocabulary with a re-derivation test (§4.2) |
-| **R2** | How is an inserted space licensed — `allows: [' ']`, `copied: [' ']`, or a new `inserts` field? | `copied` (bounded, no contract change), with a docstring sentence naming this batch (§5) |
-| **R3** | Should the vocabulary re-derivation be a test (breaks the suite on re-fetch) or an audit-tier check? | Test tier, accepting the tension with the module spec's re-fetch rule (§11.3) |
-| **R4** | Do the four §7 rows get written and withdrawn, or routed on their recorded audits without writing code? | Write `italic-swallows-close-paren` and `orphan-gloss-seam-period`; route the other two on their audits — the reasons already state no repair exists |
+**All four were taken. The "as taken" column is what shipped; where it
+differs from the recommendation, the difference is the finding.**
+
+| # | Question | Recommendation | AS TAKEN |
+|---|---|---|---|
+| **R1** | How does `isLabel()` see a corpus-wide fact from an entry-local rule? | Freeze a snapshot-derived vocabulary with a re-derivation test (§4.2) | **As recommended.** Plus a granularity ruling the recommendation did not anticipate: the predicate reads the WHOLE run body, never its final token — measured, the token reading adds 87 occurrences to one row of which 25 are ordinary glosses, and removes 32 from the other of which 13 are. Both mistakes manufacture the sibling row's defect. Accepted cost: 62 genuine label occurrences the vocabulary holds only token-granularly are declined. |
+| **R2** | How is an inserted space licensed — `allows: [' ']`, `copied: [' ']`, or a new `inserts` field? | `copied` (bounded, no contract change), with a docstring sentence naming this batch (§5) | **As recommended.** `allows` is a SET, not a budget: one declaration would license any number of spaces in any entry forever. `copied` is credited as a MULTISET and verified against the input, so one declaration buys exactly one space and an off-by-one fails the gate. Knowingly a semantic stretch — a space is not elided text — taken over a `types.ts` change affecting all fifteen then-shipped rules. **What neither instrument can see is WHERE the space lands: see §3.1 and the 13-entry defect in `anchor-italic-no-space` / `paren-tag-no-space`.** |
+| **R3** | Should the vocabulary re-derivation be a test (breaks the suite on re-fetch) or an audit-tier check? | Test tier, accepting the tension with the module spec's re-fetch rule (§11.3) | **As recommended**, test tier. |
+| **R4** | Do the four §7 rows get written and withdrawn, or routed on their recorded audits without writing code? | Write `italic-swallows-close-paren` and `orphan-gloss-seam-period`; route the other two on their audits — the reasons already state no repair exists | **DIFFERS, and the split fell the other way.** `italic-swallows-close-paren` was written and SHIPPED (8 of 10 raw occurrences; 2 are lettered sub-sense markers, convention not damage). `orphan-gloss-seam-period` was written and WITHDRAWN — its separator does not reproduce against any pinned predicate. `gloss-head-seam-period-doubling` and `entry-final-comma` were routed on their audits as recommended, and `citation-quote-seam-period` — not among the original four — failed the same test and joined them. Four withdrawals, one ship. |
 
 ## 13. Decision log
 
@@ -446,3 +539,12 @@ Edit `patterns.jsonl` **surgically** — `renderPatterns()` reformats all
 |---|---|
 | 2026-08-24 | Batch 3 splits: 3a gershayim ships first, 3b keeps the number |
 | 2026-08-25 | 3b scope = 16 rows / 3,122, entanglement-closed; the four paren/anchor seam rows stay in 3b (Brian) |
+| 2026-08-25 | **R2 taken:** an inserted space is licensed by `copied`, never by `allows` — a set is not a budget (§5, §12) |
+| 2026-08-25 | **R1 taken:** frozen snapshot vocabulary, re-derivation at test tier, and `isLabel` reads the WHOLE run body (§4.2, §12) |
+| 2026-08-25 | **`em-dash-section-break-in-own-italic` reclassified Class A → Class C** (Brian). Its harm is rendered spacing, so the repair deletes. The Class A rule fired 278 times and changed 0 of 270 entries' rendered text (§3, §3.1) |
+| 2026-08-25 | **THE STANDING RULE:** when a row's stated harm is in the rendered output, the repair must fix the rendered output, and the test must assert a defect-count DELTA, never an invariant (§3.1) |
+| 2026-08-25 | **R4 taken, and it fell the other way** than recommended: `italic-swallows-close-paren` ships, `orphan-gloss-seam-period` withdraws (§12) |
+| 2026-08-26 | **`italic-swallows-close-paren` reclassified Class B → Class A.** Its split inserts no space — the tail's own leading space moves out — so it declares no `copied` (§3) |
+| 2026-08-26 | **Four rows withdrawn to `judgment`** by Task 6: `orphan-gloss-seam-period` (19), `citation-quote-seam-period` (43), `gloss-head-seam-period-doubling` (15), `entry-final-comma` (10). Transform-route rows 77 → 73. Working in `data/patches/catalogue-audit/batch-3b-withdrawals.md` |
+| 2026-08-26 | **Two shipped seam rules were manufacturing a rendered defect** on 13 entries by inserting a space before a run OPENING with punctuation. Closed by predicate, not by order; counts corrected a second time. Found by Task 7's order-freedom probe, invisible to every gate (§3.1, and `rules/seam-space.ts`) |
+| 2026-08-26 | **Registry order derived from four measured constraints**, two of which invert the batch brief's proposed order. `emDashSectionBreak` and `emphasisRunEdgeSpace` both precede `italicGlossPeriodOutside`; the label pair leads with `labelPeriodInside` (§8, `registry.ts`) |

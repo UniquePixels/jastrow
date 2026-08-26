@@ -4,13 +4,13 @@
     {
       "id": 0,
       "subject": "Task 0: The shared field writer",
-      "status": "pending",
+      "status": "completed",
       "description": "**Goal:** Extract `rules/gershayim.ts`'s private `mapEntry` into a shared `mapFields(entry, fn)` so 3b's twelve rules write the exact field set `fieldsOf` reads, and prove the reader and writer agree.\n\n**Files:**\n- Create: `admin/pipeline/transform/fields.ts`\n- Create: `admin/pipeline/transform/fields.test.ts`\n- Modify: `admin/pipeline/transform/rules/gershayim.ts:110-205` — delete `mapGrammar`, `mapSense`, `mapContent`, `mapQuote`, `mapEntry`; call `mapFields`\n- Modify: `admin/pipeline/transform/no-new-text.ts:206` — export `stripTags`\n\n**Acceptance Criteria:**\n- [ ] `mapFields(entry, fn)` returns a NEW entry with `fn` applied to every field `fieldsOf` reads, or `undefined` when `fn` changed nothing\n- [ ] The input entry is not mutated — asserted on a deeply frozen entry\n- [ ] `fields.test.ts` proves reader/writer parity: for an `fn` that appends a sentinel to every field, `fieldsOf(mapFields(e, fn))` differs from `fieldsOf(e)` at EVERY index, none skipped\n- [ ] `stripTags` is exported from `no-new-text.ts`\n- [ ] `gershayim.ts` uses `mapFields` and its own tests pass unchanged\n- [ ] `bun transform:count` reports the SAME two gershayim rows as before this task — this is a refactor with no behaviour change\n\n**Verify:** `bun test admin/pipeline/transform/ && bun transform:count` → 737 pass / 0 fail; both gershayim rows MATCH\n\n```json:metadata\n{\"files\": [\"admin/pipeline/transform/fields.ts\", \"admin/pipeline/transform/fields.test.ts\", \"admin/pipeline/transform/no-new-text.ts\", \"admin/pipeline/transform/rules/gershayim.ts\"], \"verifyCommand\": \"bun test admin/pipeline/transform/ && bun transform:count\", \"modelTier\": \"standard\", \"acceptanceCriteria\": [\"`mapFields(entry, fn)` returns a NEW entry with `fn` applied to every field `fieldsOf` reads, or `undefined` when `fn` changed nothing\", \"The input entry is not mutated \\u2014 asserted on a deeply frozen entry\", \"`fields.test.ts` proves reader/writer parity: for an `fn` that appends a sentinel to every field, `fieldsOf(mapFields(e, fn))` differs from `fieldsOf(e)` at EVERY index, none skipped\", \"`stripTags` is exported from `no-new-text.ts`\", \"`gershayim.ts` uses `mapFields` and its own tests pass unchanged\", \"`bun transform:count` reports the SAME two gershayim rows as before this task \\u2014 this is a refactor with no behaviour change\"]}\n```"
     },
     {
       "id": 1,
       "subject": "Task 1: The frozen abbreviation vocabulary",
-      "status": "pending",
+      "status": "completed",
       "blockedBy": [
         0
       ],
@@ -19,7 +19,7 @@
     {
       "id": 2,
       "subject": "Task 2: The entangled label pair",
-      "status": "pending",
+      "status": "completed",
       "blockedBy": [
         1
       ],
@@ -28,7 +28,7 @@
     {
       "id": 3,
       "subject": "Task 3: Class B — the five seam-space rules",
-      "status": "pending",
+      "status": "completed",
       "blockedBy": [
         2
       ],
@@ -37,7 +37,7 @@
     {
       "id": 4,
       "subject": "Task 4: Class A — the em-dash and lone-punctuation pair",
-      "status": "pending",
+      "status": "completed",
       "blockedBy": [
         3
       ],
@@ -46,7 +46,7 @@
     {
       "id": 5,
       "subject": "Task 5: Class C — the deletions that survive audit",
-      "status": "pending",
+      "status": "completed",
       "blockedBy": [
         4
       ],
@@ -55,7 +55,7 @@
     {
       "id": 6,
       "subject": "Task 6: Route the four escalation-only rows",
-      "status": "pending",
+      "status": "completed",
       "blockedBy": [
         5
       ],
@@ -71,5 +71,5 @@
       "description": "**Goal:** Put every shipped rule in the registry in a defensible order, prove the composed run gains no defect the isolated runs hid, and publish the batch report.\n\n**Files:**\n- Modify: `admin/pipeline/transform/registry.ts` — add the new rules, remove their ids from `PENDING`\n- Modify: `admin/pipeline/transform/registry.order.test.ts` if the cluster assertion needs the new pair\n- Create: `docs/v2/transform-batch-3b.md`\n- Modify: `docs/v2/phase-2-triage.md` — route totals recomputed\n- Modify: `docs/specs/2026-08-25-italic-punctuation-transform-design.md` — decision log closed\n\n**Acceptance Criteria:**\n- [ ] `coverage()` reports 0 unaccounted and 0 duplicated; registered + pending = the live transform-route row count\n- [ ] The label pair is gap-free adjacent, `labelPeriodInside` FIRST — it removes labels from the population `italicGlossPeriodOutside` then reads\n- [ ] Class B space rules run BEFORE Class A seam moves, with the reason in a registry comment: a missing space at `</a><i>` changes what \"the run body\" is for the label predicate\n- [ ] `emDashSectionBreak` runs before `italicLonePunctuation`, with the double-count reason in a comment\n- [ ] Order freedom is MEASURED for every rule whose placement is claimed free — run it first and last in the registry and assert byte-identical output, as batch 2 did for `shurukAsYodDisplayCorruption`\n- [ ] `bun body:migrate-dry` record count is unchanged from `v2`\n- [ ] `pipeline-links.test.ts` link totals are UNCHANGED — 165 of this batch's seams sit against an anchor's closing tag, and batch 3a's headline was a link regression every per-rule measurement missed\n- [ ] `unaccountedEdges()` reports no dangling endpoint\n- [ ] The batch report states, for every row, the catalogued count, the measured count, and which one the rule reproduces\n\n**Verify:** `bun test && bun transform:count && bun body:migrate-dry` → all pass; link totals identical to `v2`\n\n```json:metadata\n{\"files\": [\"admin/pipeline/transform/registry.ts\", \"admin/pipeline/transform/registry.order.test.ts\", \"docs/v2/transform-batch-3b.md\", \"docs/v2/phase-2-triage.md\", \"docs/specs/2026-08-25-italic-punctuation-transform-design.md\"], \"verifyCommand\": \"bun test && bun transform:count && bun body:migrate-dry\", \"modelTier\": \"frontier\", \"acceptanceCriteria\": [\"`coverage()` reports 0 unaccounted and 0 duplicated; registered + pending = the live transform-route row count\", \"The label pair is gap-free adjacent, `labelPeriodInside` FIRST \\u2014 it removes labels from the population `italicGlossPeriodOutside` then reads\", \"Class B space rules run BEFORE Class A seam moves, with the reason in a registry comment: a missing space at `</a><i>` changes what \\\"the run body\\\" is for the label predicate\", \"`emDashSectionBreak` runs before `italicLonePunctuation`, with the double-count reason in a comment\", \"Order freedom is MEASURED for every rule whose placement is claimed free \\u2014 run it first and last in the registry and assert byte-identical output, as batch 2 did for `shurukAsYodDisplayCorruption`\", \"`bun body:migrate-dry` record count is unchanged from `v2`\", \"`pipeline-links.test.ts` link totals are UNCHANGED \\u2014 165 of this batch's seams sit against an anchor's closing tag, and batch 3a's headline was a link regression every per-rule measurement missed\", \"`unaccountedEdges()` reports no dangling endpoint\", \"The batch report states, for every row, the catalogued count, the measured count, and which one the rule reproduces\"]}\n```"
     }
   ],
-  "lastUpdated": "2026-08-25T18:00:00.000Z"
+  "lastUpdated": "2026-08-26T07:30:00.000Z"
 }
