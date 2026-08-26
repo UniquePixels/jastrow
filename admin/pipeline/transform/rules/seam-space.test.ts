@@ -95,6 +95,40 @@ describe('the three narrowings decline their boundary cases', () => {
 	});
 });
 
+// Task 7, found by the registry order-freedom probe: both seam rules
+// shipped without a punctuation decline and MANUFACTURED a rendered
+// defect on 13 entries — `(<i>x</i>)<i>;gloss</i>` became
+// `(<i>x</i>) <i>;gloss</i>`, which renders `x) ;gloss`. The mark
+// attaches to the token on its left; no space is wanted at the seam at
+// all. See the module doc, "The run that opens with punctuation".
+//
+// Pinned per mark rather than by one representative, because the
+// decline is a character class and a class is exactly the thing a
+// later edit narrows one member at a time. Deleting `(?![.,;:?!])`
+// from either pattern leaves every other test in this file green.
+describe('both seam rules decline a run opening with punctuation', () => {
+	for (const mark of ['.', ',', ';', ':', '?', '!']) {
+		it(`parenTagSpace declines )<i>${mark}`, () => {
+			const entry = entryWith(`(a)<i>${mark}gloss</i>`);
+			expect(parenTagSpace.apply(entry).entry).toBe(entry);
+		});
+
+		it(`anchorItalicSpace declines </a><i>${mark}`, () => {
+			const entry = entryWith(`<a href="/x">w</a><i>${mark}gloss</i>`);
+			expect(anchorItalicSpace.apply(entry).entry).toBe(entry);
+		});
+	}
+
+	// The live shape from D00932: an anchor, then a run holding nothing
+	// but the period. Three of the 13 are this, and they are the three
+	// that made the order probe diverge — `italicLonePunctuation` later
+	// unwraps the run, so the stray space ends up loose in the text.
+	it('anchorItalicSpace declines a lone-punctuation run', () => {
+		const entry = entryWith('<a href="/x">דִּינָאטוֹס</a><i>.</i>]');
+		expect(anchorItalicSpace.apply(entry).entry).toBe(entry);
+	});
+});
+
 describe('the space budget is exact, not blanket', () => {
 	it('no rule sets allows', () => {
 		for (const rule of [

@@ -56,6 +56,50 @@
  * close-italic, never close-paren before open-italic — so it shares
  * no character with either of the above and needs no resolution.
  *
+ * ## The run that opens with punctuation — 13 seams both rules must
+ * DECLINE, found by Task 7's composed run
+ *
+ * `anchorItalicSpace` and `parenTagSpace` shipped without this
+ * decline, and both MANUFACTURED a rendered defect with it missing.
+ * Where the italic run following the seam opens with a LEFT-ATTACHING
+ * punctuation mark, no space is wanted at all: the mark belongs
+ * against the token on its left, and inserting a space renders
+ * `well-covered) ;guarded;` where the source reads
+ * `well-covered);guarded;`.
+ *
+ * Measured in ISOLATION — one rule, no registry, rendered text through
+ * `stripTags`, counting new occurrences of `\s[.,;:?!]` over all
+ * 32,512 entries — the two rules created **13 rendered defects across
+ * 13 entries**: `parenTagSpace` 11 (A01999 A02061 C01033 D00109 D00678
+ * H01112 M01104 O00374 P00158 P00879 U00311) and `anchorItalicSpace` 2
+ * (D00932 H01388). The other three rules in this module create 0, and
+ * `italicParenSpace` cannot: its seam runs the other direction, and
+ * `</i> (` puts the space before an OPENING paren, which is where the
+ * corpus wants one.
+ *
+ * NOTHING WOULD HAVE CAUGHT IT. `checkNoNewText` credits the space as
+ * `copied` and compares a multiset, so a space in the wrong place is
+ * a space; `checkMarkup` is a delta gate and no tag moved; and each
+ * rule's own fixture tests pass, because none of them fixtures a run
+ * that opens with punctuation. What exposed it was the registry
+ * order-freedom probe: 3 of the 13 sit in front of an `<i>.</i>` that
+ * `italicLonePunctuation` later unwraps, so those three entries came
+ * out with DIFFERENT bytes depending on which rule ran first, and the
+ * byte comparison had no choice but to report it. The other 10 are
+ * order-invariant and were wrong in both orders — the probe was the
+ * tripwire, not the measurement.
+ *
+ * Declining is the whole of the repair. The `)<i>;gloss</i>` shape
+ * these 11 share — a semicolon captured inside the following run — may
+ * well be a defect of its own, but it is not this row's, no catalogue
+ * row holds it today, and repairing it here would be the
+ * population-claiming this module already refuses once above.
+ *
+ * The cost is two more corrections to counts already corrected once:
+ * `paren-tag-no-space` 126 → 115 OCCURRENCES, `anchor-italic-no-space`
+ * 59 → 57 occurrences / 58 → 56 ENTRIES. Both are written back with
+ * the unit stated.
+ *
  * ## `translitItalicSpace`: narrowed from a Latin-letter seam to a
  * transliteration-opening one
  *
@@ -113,8 +157,11 @@ import type { Rule, TransformRecord, TransformResult } from '../types.ts';
  * before an opening italic, whatever tag (if any) sits between the
  * paren and the `<i>`. Owns BOTH shapes; see the module doc, "Two
  * owners, one seam" — `anchorItalicSpace` declines every instance this
- * pattern claims. */
-const PAREN_SEAM = /(?<paren>\)(?:<\/a>)?)(?<tag><i>)/gu;
+ * pattern claims.
+ *
+ * The trailing `(?![.,;:?!])` declines a run OPENING with punctuation
+ * — see the module doc, "The run that opens with punctuation". */
+const PAREN_SEAM = /(?<paren>\)(?:<\/a>)?)(?<tag><i>)(?![.,;:?!])/gu;
 
 /** `</a><i>` — but only when the anchor's own display does not itself
  * end in `)`. The negative lookbehind is what makes this disjoint from
@@ -122,8 +169,10 @@ const PAREN_SEAM = /(?<paren>\)(?:<\/a>)?)(?<tag><i>)/gu;
  * a `)</a><i>` seam belongs to `parenTagSpace` in every registration
  * order, because that rule owns every paren-adjacent instance of this
  * defect regardless of what tag sits between the paren and the
- * italic. */
-const ANCHOR_SEAM = /(?<!\))(?<anchor><\/a>)(?<tag><i>)/gu;
+ * italic.
+ *
+ * Carries the same trailing punctuation decline as `PAREN_SEAM`. */
+const ANCHOR_SEAM = /(?<!\))(?<anchor><\/a>)(?<tag><i>)(?![.,;:?!])/gu;
 
 /** `</i>(` — the mirror seam, close italic directly before an opening
  * paren. Runs the opposite direction from `PAREN_SEAM`/`ANCHOR_SEAM`
