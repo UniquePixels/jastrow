@@ -92,6 +92,24 @@ describe('changingRids', () => {
 			'A1',
 		]);
 	});
+
+	// The corpus-tier gate asserts `stats.inertRules` is empty, so the
+	// field has to be able to come back non-empty — pinned here rather
+	// than trusted, since an out-param that is never written reads
+	// exactly like an invariant that always holds.
+	it('names a rule that changes no entry, through PairStats', () => {
+		const stats: PairStats = {
+			composedPairs: 0,
+			inertRules: [],
+			totalPairs: 0,
+		};
+		nonCommutingPairs(
+			[dotToBang, killLastChar],
+			[entryOf('A1', 'no dot')],
+			stats,
+		);
+		expect(stats.inertRules).toEqual(['dot-to-bang']);
+	});
 });
 
 describe('nonCommutingPairs', () => {
@@ -161,6 +179,29 @@ describe('the union skip', () => {
 	});
 });
 
+/**
+ * TWO invariants, and the second was prose until review round 2.
+ *
+ * 1. Every non-commuting pair is declared `entangledWith`, mutually.
+ * 2. Every registered rule changes SOMETHING, so no pair has an empty
+ *    candidate set and `composedPairs === totalPairs`.
+ *
+ * The comment beside the log line asserted (2) in words while the test
+ * only PRINTED both numbers, so a rule that fires on no entry at all
+ * would have passed here in silence: it is trivially order-free with
+ * every partner, and it satisfies (1) vacuously. That is
+ * `registry.ts`'s own recurring lesson — a rule which does nothing
+ * satisfies every gate, and the measurement is the only safety net —
+ * landing on the gate written to embody it.
+ *
+ * The CAUSE is asserted first and it names the culprit. A pair count
+ * can report only that some pair was skipped, never which rule made it
+ * empty; `PairStats.inertRules` carries the rule ids, for free, off the
+ * changing-rid sets the run already builds. `composedPairs ===
+ * totalPairs` follows from an empty `inertRules` and is asserted
+ * anyway, because it is the literal claim a reader checks against
+ * stdout.
+ */
 describe('the registry commutes except where the catalogue says otherwise', () => {
 	it('every non-commuting pair is mutually declared entangledWith', async () => {
 		const corpus: SourceEntry[] = [];
@@ -177,7 +218,11 @@ describe('the registry commutes except where the catalogue says otherwise', () =
 		const declared = (x: string, y: string): boolean =>
 			(edges.get(x)?.has(y) ?? false) && (edges.get(y)?.has(x) ?? false);
 
-		const stats: PairStats = { composedPairs: 0, totalPairs: 0 };
+		const stats: PairStats = {
+			composedPairs: 0,
+			inertRules: [],
+			totalPairs: 0,
+		};
 		const start = performance.now();
 		const pairs = nonCommutingPairs(RULES, corpus, stats);
 		const elapsedMs = performance.now() - start;
@@ -200,5 +245,10 @@ describe('the registry commutes except where the catalogue says otherwise', () =
 		expect(
 			undeclared.map((p) => `${p.ids[0]} × ${p.ids[1]} @ ${p.sampleRid}`),
 		).toEqual([]);
+
+		// The second invariant — see this suite's docstring. Cause first,
+		// then the symptom it implies.
+		expect(stats.inertRules).toEqual([]);
+		expect(stats.composedPairs).toBe(stats.totalPairs);
 	}, 180_000);
 });

@@ -146,15 +146,29 @@ function compose(a: Rule, b: Rule, entry: SourceEntry): string {
 	return JSON.stringify(b.apply(a.apply(entry).entry).entry);
 }
 
-/** Counts from one `nonCommutingPairs` run, for the corpus-tier gate's
- * log line. `totalPairs` is every unordered pair `rules` has;
- * `composedPairs` is the subset whose candidate rid set was non-empty
- * and so was composed at all. Under the union rule these are usually
- * equal — every registered rule changes SOMETHING — and the honest
- * number on stdout is the point: the previous intersection rule made
- * this read 146 of 351 and that gap was the defect, not the win. */
+/**
+ * Counts from one `nonCommutingPairs` run, for the corpus-tier gate's
+ * log line AND for its assertions. `totalPairs` is every unordered
+ * pair `rules` has; `composedPairs` is the subset whose candidate rid
+ * set was non-empty and so was composed at all. Under the union rule
+ * these are equal — every registered rule changes SOMETHING — and the
+ * honest number on stdout is the point: the previous intersection rule
+ * made this read 146 of 351, and that gap was the defect, not the win.
+ *
+ * `inertRules` is the CAUSE behind any gap between the two, reported
+ * separately because a pair count cannot name a culprit. A rule that
+ * changes no entry in the whole corpus has an empty candidate set with
+ * every partner, so it is trivially order-free with all of them and
+ * this gate passes it in silence — the repo's own recurring hazard,
+ * stated in `registry.ts`: a rule that does nothing satisfies every
+ * gate, and the measurement is the only safety net. Costs nothing
+ * extra: the changing-rid sets are already built.
+ */
 interface PairStats {
 	composedPairs: number;
+	/** Ids of rules that changed no entry in the corpus, sorted. Empty
+	 * is the only healthy value. */
+	inertRules: string[];
 	totalPairs: number;
 }
 
@@ -237,6 +251,10 @@ function nonCommutingPairs(
 	if (stats !== undefined) {
 		stats.totalPairs = totalPairs;
 		stats.composedPairs = composedPairs;
+		stats.inertRules = [...changing]
+			.filter(([, rids]) => rids.size === 0)
+			.map(([id]) => id)
+			.toSorted((x, y) => x.localeCompare(y));
 	}
 	return found;
 }
