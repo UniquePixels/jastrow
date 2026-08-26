@@ -222,6 +222,20 @@ describe('registry order', () => {
 		expect(lastUnlink).toBeLessThan(firstRetarget);
 	});
 
+	// Rule 4, UNLINK BEFORE WRAP — see the header. `checkAdjacency`
+	// keeps the four measured pairs next to `bare-rtl-hebrew` but is
+	// direction-blind, and which side they sit on is the whole defect.
+	// Asserted over the WHOLE `UNLINK` set, not the four.
+	it('every unlink rule precedes the rtl wrap trio', () => {
+		const lastUnlink = Math.max(...[...UNLINK].map(at));
+		const firstWrap = Math.min(
+			at('redundant-outer-rtl-span'),
+			at('bare-rtl-hebrew'),
+			at('latin-token-inside-rtl-span'),
+		);
+		expect(lastUnlink).toBeLessThan(firstWrap);
+	});
+
 	it('the live catalogue’s entangled clusters occupy a gap-free span', () => {
 		expect(checkAdjacency(catalogue, RULES)).toEqual([]);
 	});
@@ -245,13 +259,30 @@ describe('registry order', () => {
 	it('the registered entanglement clusters are exactly these', () => {
 		expect(entangledClusters(catalogue, RULES).map((c) => c.ids)).toEqual([
 			['ascii-quote-as-gershayim-in-body', 'gershayim-breaks-ref-attribute'],
+			// FOUR clusters became THREE on 2026-08-26
+			// (fix/rtl-unlink-order), and the merges are the point rather
+			// than bookkeeping. `commutation.ts` measured seven
+			// non-commuting pairs the catalogue had never recorded;
+			// declaring them joined the rtl 3-clique to the geresh pair and
+			// to two more unlink rows (one 7-rule component), and joined the
+			// period pair to the em-dash and edge-space rules (one 4-rule
+			// component). Both components are now under the span test below,
+			// which is what the declaration buys.
 			[
 				'bare-rtl-hebrew',
+				'ellipsis-fragment-anchored',
+				'geresh-letter-numeral-mislink',
 				'latin-token-inside-rtl-span',
+				'plural-to-feminine-final-letter-mislink',
+				'prefixed-geresh-abbrev-mislink',
 				'redundant-outer-rtl-span',
 			],
-			['geresh-letter-numeral-mislink', 'prefixed-geresh-abbrev-mislink'],
-			['italic-swallowed-terminal-period', 'label-period-outside-italic'],
+			[
+				'em-dash-section-break-in-own-italic',
+				'emphasis-run-edge-space',
+				'italic-swallowed-terminal-period',
+				'label-period-outside-italic',
+			],
 		]);
 	});
 
@@ -261,7 +292,7 @@ describe('registry order', () => {
 	// there being no clusters at all.
 	it('every derived cluster occupies a gap-free span', () => {
 		const clusters = entangledClusters(catalogue, RULES);
-		expect(clusters).toHaveLength(4);
+		expect(clusters).toHaveLength(3);
 		for (const cluster of clusters) {
 			const span = Math.max(...cluster.at) - Math.min(...cluster.at) + 1;
 			expect(`${cluster.ids.join(', ')} span ${span}`).toBe(
@@ -277,10 +308,11 @@ describe('registry order', () => {
 	// answers "does the gate see everything it should?", which is the
 	// question all three defects slipped through.
 	//
-	// Empty today over 18 recorded entries / 9 undirected edges: 5 have
-	// both endpoints registered and sit inside the three clusters
-	// above, and 4 have neither endpoint registered, which execution
-	// order cannot be wrong about. It is NOT a restatement of
+	// Empty today over 32 recorded entries / 16 undirected edges
+	// (2026-08-26; was 18 / 9 before this branch declared seven more):
+	// 13 have both endpoints registered and sit inside the three
+	// clusters above, and 3 have neither endpoint registered, which
+	// execution order cannot be wrong about. It is NOT a restatement of
 	// `checkAdjacency` returning clean — a dropped component leaves
 	// that clean and lands here.
 	it('every recorded edge touching the registry is validated or reported', () => {
