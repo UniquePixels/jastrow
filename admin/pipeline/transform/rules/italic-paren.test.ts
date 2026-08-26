@@ -71,41 +71,50 @@ describe('italicSwallowsCloseParen moves the swallowed paren out', () => {
 
 // The standing check, pinned. Each decline names the catalogued row
 // the case belongs to; delete the guard and the test fails.
+//
+// Parameterized on `typescript:S5976` (SonarCloud, PR #49). Table rows,
+// not a merged assertion: `it.each` registers one test PER ROW, so each
+// still runs on its own, reports under its own name, and fails on its
+// own — the mutation counts in this file's header are unchanged, and
+// were re-measured against this form: removing `SUBSENSE_MARKER` fails
+// rows 1 and 2 here and 4 in the corpus tier, disabling the paren-depth
+// count fails row 3, inverting the polarity fails row 4, dropping the
+// anchor decline fails row 5, and dropping the empty-head guard fails
+// row 6 — each by name, and each alone.
 describe('italicSwallowsCloseParen declines every neighbouring row', () => {
-	it('declines a lettered sub-sense marker at the run’s head — CONVENTION', () => {
-		const entry = entryWith('<i>a) first</i>');
-		expect(italicSwallowsCloseParen.apply(entry).entry).toBe(entry);
-	});
+	const declines = [
+		{
+			name: 'a lettered sub-sense marker at the run’s head — CONVENTION',
+			text: '<i>a) first</i>',
+		},
+		{
+			name: 'a lettered sub-sense marker mid-run — S02102’s real shape',
+			text: '<i>any projection, point; a) beam, ray.</i>',
+		},
+		{
+			name: 'a run whose parens balance — the paren is the run’s own',
+			text: '<i>(a) foo</i>',
+		},
+		{
+			name: 'the OPEN polarity — open-paren-in-anchor-display, open-paren-in-rtl-span',
+			text: '<i>(foo</i>) and <i>(<span dir="rtl">א</span></i>)',
+		},
+		{
+			name: 'a paren swallowed by an ANCHOR — anchor-swallows-close-paren',
+			text: '(<i><a href="/x" data-ref="Tosefta 1">VI), 13</a></i>',
+		},
+		{
+			// Fail-closed against composition rather than a live
+			// population: no corpus run opens on its own swallowed paren,
+			// but a rule running earlier could make one, and `<i></i>` is
+			// not a repair.
+			name: 'a run the repair would leave empty',
+			text: '(x <i>) foo</i>',
+		},
+	];
 
-	it('declines a lettered sub-sense marker mid-run — S02102’s real shape', () => {
-		const entry = entryWith('<i>any projection, point; a) beam, ray.</i>');
-		expect(italicSwallowsCloseParen.apply(entry).entry).toBe(entry);
-	});
-
-	it('declines a run whose parens balance — the paren is the run’s own', () => {
-		const entry = entryWith('<i>(a) foo</i>');
-		expect(italicSwallowsCloseParen.apply(entry).entry).toBe(entry);
-	});
-
-	it('declines the OPEN polarity — open-paren-in-anchor-display, open-paren-in-rtl-span', () => {
-		const entry = entryWith(
-			'<i>(foo</i>) and <i>(<span dir="rtl">א</span></i>)',
-		);
-		expect(italicSwallowsCloseParen.apply(entry).entry).toBe(entry);
-	});
-
-	it('declines a paren swallowed by an ANCHOR — anchor-swallows-close-paren', () => {
-		const entry = entryWith(
-			'(<i><a href="/x" data-ref="Tosefta 1">VI), 13</a></i>',
-		);
-		expect(italicSwallowsCloseParen.apply(entry).entry).toBe(entry);
-	});
-
-	it('declines a run the repair would leave empty', () => {
-		// Fail-closed against composition rather than a live population:
-		// no corpus run opens on its own swallowed paren, but a rule
-		// running earlier could make one, and `<i></i>` is not a repair.
-		const entry = entryWith('(x <i>) foo</i>');
+	it.each(declines)('declines $name', ({ text }) => {
+		const entry = entryWith(text);
 		expect(italicSwallowsCloseParen.apply(entry).entry).toBe(entry);
 	});
 

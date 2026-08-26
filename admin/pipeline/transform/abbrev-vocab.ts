@@ -205,10 +205,45 @@ const ABBREVIATIONS: ReadonlySet<string> = Object.freeze(new Set(FROZEN));
 
 /** One italic run's body, as the corpus writes it. */
 const RUN = /<i>(?<body>[^<>]*)<\/i>/gu;
-/** A token inside a run whose period is followed by a continuation no
+/**
+ * A token inside a run whose period is followed by a continuation no
  * sentence-ending period can take — the proof the corpus treats it as
- * an abbreviation (module doc, WHAT THE EVIDENCE IS). */
-const MID_RUN = /(?<token>[^\s.]+)\.\s*(?=[,;)]|\p{Ll})/gu;
+ * an abbreviation (module doc, WHAT THE EVIDENCE IS).
+ *
+ * The leading `(?<![^\s.])` is not a predicate change. It pins the
+ * token to the START of its own non-space non-period run, and it is
+ * here on `typescript:S8786` (SonarCloud, PR #49).
+ *
+ * The tempting reading of that finding is that it is a false positive:
+ * `[^\s.]+` excludes `.`, so the token can never eat the period the
+ * pattern goes on to require, and the match itself is therefore
+ * unambiguous. That is true and it is not the point. The give-backs
+ * are FUTILE, not absent — the engine still performs one per consumed
+ * character before failing, and `matchAll` then restarts the whole
+ * futile scan one character further into the same run. Measured on
+ * JavaScriptCore over `'a'.repeat(n)` for n = 4k/8k/16k/32k:
+ * **11.9 / 45.6 / 185.1 / 732.5 ms** without the lookbehind — a clean
+ * quadrupling per doubling — against **0.11 / 0.16 / 0.34 / 0.63 ms**
+ * with it. Sonar is right; the exclusion buys correctness, not time.
+ *
+ * The lookbehind is what makes it linear: a start offset inside a run
+ * is rejected in one step instead of rescanning the run, so the total
+ * work is the sum of the run lengths rather than of their squares.
+ *
+ * INERT, by construction and by measurement. A start offset the old
+ * pattern could match from is always one this one can too: `matchAll`
+ * reaches an offset either at 0, or after a match (which ends past a
+ * `.` or the whitespace following it), or by stepping one character on
+ * from a FAILED offset — and a failure inside a run implies failure at
+ * every later offset in that run, since both see the same period and
+ * the same continuation. Checked exhaustively against the old pattern
+ * over all 960,800 strings of length <= 7 in the alphabet
+ * `a A . ␣ , ; )` — every class boundary the pattern can see —
+ * comparing offset, whole match AND captured token: 0 disagreements.
+ * `abbrev-vocab.test.ts` re-derives the vocabulary from the corpus and
+ * requires it to equal `FROZEN` member for member; it does, at 93.
+ */
+const MID_RUN = /(?<![^\s.])(?<token>[^\s.]+)\.\s*(?=[,;)]|\p{Ll})/gu;
 /** The same continuation test applied to the field text following a
  * run's closing tag (module doc, WIDENING 2). Deliberately un-`g`:
  * `test` on a global regex carries `lastIndex` between calls. */

@@ -88,28 +88,37 @@ describe('emphasisRunEdgeSpace moves the space when deleting it would weld two w
  * rule owns and which it declines, and these pin the declines in the
  * repo's identity-return form.
  */
+// Parameterized on `typescript:S5976` (SonarCloud, PR #49). Table rows,
+// not a merged assertion: `it.each` registers one test PER ROW, so each
+// still runs on its own, reports under its own name, and fails on its
+// own the moment the pattern it pins is widened to reach it.
 describe('emphasisRunEdgeSpace declines the three neighbouring rows', () => {
-	// doubled-space-as-text-loss-locator (108, route: judgment,
-	// BLOCKING): a literal doubled space with NO tag between. Its own
-	// audit hands this rule the 92 + 84 markup-seam cases and says "DO
-	// NOT WIDEN THIS ROW" of the literal ones.
-	it('never touches a literal doubled space with no tag between it', () => {
-		const entry = entryWith('(b. h.;  [something arched');
-		expect(emphasisRunEdgeSpace.apply(entry).entry).toBe(entry);
-	});
+	const declines = [
+		{
+			// doubled-space-as-text-loss-locator (108, route: judgment,
+			// BLOCKING): a literal doubled space with NO tag between. Its
+			// own audit hands this rule the 92 + 84 markup-seam cases and
+			// says "DO NOT WIDEN THIS ROW" of the literal ones.
+			name: 'a literal doubled space with no tag between it',
+			text: '(b. h.;  [something arched',
+		},
+		{
+			// em-dash-section-break-in-own-italic (punct-seams.ts): its
+			// seam is `.</i> <i>—</i> `, whose spaces sit OUTSIDE both
+			// tags. Neither pattern here can reach one.
+			name: 'the em-dash section-break seam',
+			text: '<i>noble.</i> <i>—</i> Pl.',
+		},
+		{
+			// italic-lone-punctuation (punct-seams.ts): `<i>.</i>` carries
+			// no space at either edge.
+			name: 'a lone-punctuation italic run',
+			text: 'a<i>.</i>b',
+		},
+	];
 
-	// em-dash-section-break-in-own-italic (punct-seams.ts): its seam is
-	// `.</i> <i>—</i> `, whose spaces sit OUTSIDE both tags. Neither
-	// pattern here can reach one.
-	it('never touches the em-dash section-break seam', () => {
-		const entry = entryWith('<i>noble.</i> <i>—</i> Pl.');
-		expect(emphasisRunEdgeSpace.apply(entry).entry).toBe(entry);
-	});
-
-	// italic-lone-punctuation (punct-seams.ts): `<i>.</i>` carries no
-	// space at either edge.
-	it('never touches a lone-punctuation italic run', () => {
-		const entry = entryWith('a<i>.</i>b');
+	it.each(declines)('never touches $name', ({ text }) => {
+		const entry = entryWith(text);
 		expect(emphasisRunEdgeSpace.apply(entry).entry).toBe(entry);
 	});
 });

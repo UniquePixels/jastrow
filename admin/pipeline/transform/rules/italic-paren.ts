@@ -123,10 +123,6 @@ import type { Rule, TransformResult } from '../types.ts';
  * anchor or an rtl span but never a nested run. */
 const ITALIC_RUN = /<i>(?<body>(?:(?!<\/?i>)[\s\S])*)<\/i>/gu;
 
-/** Tags and text in order, so paren depth is counted over TEXT only:
- * an attribute value may hold a paren and must never close one. */
-const SEGMENT = /<[^>]*>|[^<]+/gu;
-
 /** An opening anchor tag, for the `anchor-swallows-close-paren`
  * decline. */
 const ANCHOR_OPEN = /^<a\b/u;
@@ -172,6 +168,74 @@ interface ParenScan {
 	depth: number;
 }
 
+/** One chunk of a run body: a whole tag, or the text between two of
+ * them. `index` is the chunk's offset in the body, which the paren
+ * walk reports as the repair site. */
+interface Segment {
+	chunk: string;
+	index: number;
+}
+
+/**
+ * Tags and text in order, so paren depth is counted over TEXT only: an
+ * attribute value may hold a paren and must never close one.
+ *
+ * A SCANNER rather than the `/<[^>]*>|[^<]+/gu` it replaces, on
+ * `typescript:S8786` (SonarCloud, PR #49). That regex is QUADRATIC on
+ * a `<` with no `>` after it: `[^>]*` runs to the end of the body,
+ * fails to find the `>`, and gives back one character at a time —
+ * every give-back futile, since a class excluding `>` never consumed
+ * one — and then `matchAll` repeats the whole futile scan one
+ * character further on. Measured on JavaScriptCore over `'<'.repeat(n)`
+ * for n = 4k/8k/16k/32k: **6.7 / 28.2 / 108.3 / 433.1 ms**, a clean
+ * quadrupling per doubling, against **0.01 / 0.01 / 0.03 / 0.06 ms**
+ * here. Sonar is right, and it is right about this line rather than
+ * about `ITALIC_RUN` above, whose tempered dot the same measurement
+ * clears at 0.08 / 0.02 / 0.04 / 0.30 ms.
+ *
+ * Identical to that regex BY CONSTRUCTION, not merely on today's
+ * corpus — the standard this module already holds `HAS_LETTER` to:
+ *
+ * - `<[^>]*>` matches a `<` through the FIRST `>` after it, because
+ *   the class excludes `>` and so cannot run past one. `indexOf` finds
+ *   exactly that offset.
+ * - `[^<]+` matches a maximal non-empty run up to the next `<`, which
+ *   is the `slice` to `indexOf('<')`.
+ * - A `<` with no `>` anywhere after it matches NEITHER alternative,
+ *   so the regex emits nothing for it and `lastIndex` steps one
+ *   character on. That is the `at += 1` branch — the `<` is dropped,
+ *   not re-read as text.
+ * - `tagsAhead` latches that last case, and is what keeps the scanner
+ *   linear where a bare `indexOf` would repeat the failed search per
+ *   `<`: once no `>` remains at or after an offset, none remains at
+ *   any later offset either.
+ *
+ * Checked exhaustively against the regex over all 97,656 strings of
+ * length <= 7 in the alphabet `< > a ( )` — every class boundary the
+ * pattern can see — comparing chunk text AND offset: 0 disagreements.
+ */
+function* segmentsOf(text: string): Generator<Segment> {
+	let at = 0;
+	let tagsAhead = true;
+	while (at < text.length) {
+		if (text[at] === '<') {
+			const close = tagsAhead ? text.indexOf('>', at) : -1;
+			if (close < 0) {
+				tagsAhead = false;
+				at += 1;
+				continue;
+			}
+			yield { chunk: text.slice(at, close + 1), index: at };
+			at = close + 1;
+			continue;
+		}
+		const next = text.indexOf('<', at);
+		const end = next < 0 ? text.length : next;
+		yield { chunk: text.slice(at, end), index: at };
+		at = end;
+	}
+}
+
 /** Anchor nesting, tracked so a surplus paren inside an anchor display
  * can be declined to `anchor-swallows-close-paren`. */
 function scanTag(chunk: string, scan: ParenScan): void {
@@ -206,11 +270,10 @@ function scanText(chunk: string, base: number, scan: ParenScan): boolean {
  */
 function swallowedParenAt(body: string): number {
 	const scan: ParenScan = { anchors: 0, at: -1, depth: 0 };
-	for (const segment of body.matchAll(SEGMENT)) {
-		const [chunk] = segment;
+	for (const { chunk, index } of segmentsOf(body)) {
 		if (chunk.startsWith('<')) {
 			scanTag(chunk, scan);
-		} else if (scanText(chunk, segment.index ?? 0, scan)) {
+		} else if (scanText(chunk, index, scan)) {
 			return scan.at;
 		}
 	}
