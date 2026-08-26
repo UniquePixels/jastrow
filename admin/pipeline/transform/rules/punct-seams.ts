@@ -1,116 +1,134 @@
 /**
- * Class A (batch-3b spec §3, §6) — the em-dash section break and the
- * lone-punctuation residue it leaves behind.
+ * `em-dash-section-break-in-own-italic` and its residue,
+ * `italic-lone-punctuation`.
  *
- * ## `emDashSectionBreak`: a merge, not a move — the brief's literal
- * replacement does not survive contact with the corpus
+ * ## `emDashSectionBreak` is Class C, not Class A — RULING (Brian,
+ * 2026-08-25) reclassified it after fix round 1
  *
- * The brief proposed `.—</i>` as the replacement for
- * `.</i> <i>—</i> `, written before anyone had read a real
- * occurrence. It does not survive contact with one: every one of the
- * 278 occurrences carries a REAL text space between `</i>` and the
- * second `<i>` — `stripTags` on `<i>noble.</i> <i>—</i> Pl.` is
- * `"noble. — Pl."`, not `"noble.— Pl."` — so a replacement that drops
- * that space changes the STRIPPED text, which a Class A rule may
- * never do (spec §6 measure (1); `italic-period.ts`'s module doc
- * states the same invariant for its own pair). The corpus does write
- * the tight, spaceless `.—` form 20,195 times elsewhere, and that is
- * exactly what makes the brief's guess look plausible, but that form
- * belongs to entries that never carried this space to begin with.
- * Deleting it here would be curing one defect by introducing a
- * second, smaller one — and `checkNoNewText`'s sub-multiset gate
- * would even let it through, because a deletion always passes a
- * sub-multiset check. This rule's own `stripTags` invariant test,
- * below in `punct-seams.test.ts`, is the only thing that would have
- * caught it.
+ * The first version of this rule preserved `stripTags` byte-for-byte,
+ * on the belief (inherited from the batch spec's class table and the
+ * brief) that this row was Class A — move markup, never touch text.
+ * It was measured, and it does nothing a reader can see: 0 of 270
+ * entries change their rendered text, because the row's own
+ * `description` and `reason` define the defect as the SPACE, not the
+ * tag split — *"section em-dash carried into its own italic run, so
+ * the tag seam renders 'gloss. — Pl.' where the corpus norm is
+ * 'gloss.—Pl.'"* — and quantify it: 230 spaced occurrences across 226
+ * entries, against 20,195 tight (`.—`) elsewhere — 98.9% of the
+ * corpus already writes it closed. A rule that keeps the space
+ * repairs nothing.
  *
- * The actual defect is simpler than either replacement assumes: one
- * continuous italic run — the gloss, its terminal period, the
- * section-break dash, and (sometimes) a trailing label — was split
- * into two ADJACENT sibling runs at the space, for no reason the text
- * itself needs. The repair removes that split: delete the closing
- * `</i>` and the following `<i>`, and keep every character between
- * them exactly where it was, so the run's original opening tag simply
- * keeps running until the dash's own close tag. Nothing is added,
- * nothing is deleted, nothing changes order —
- * `stripTags(before) === stripTags(after)` on the nose, verified
- * below across all 278 occurrences with zero mismatches
- * (task-4-report.md has the full measurement).
+ * The ruling: repair it as a DELETION. The row is Class C. This needs
+ * no `allows` — deleting a character is a sub-multiset SHRINK, which
+ * `checkNoNewText` permits by construction, the same escape hatch
+ * this module's fix-round-1 self-review named and then, under the
+ * wrong classification, correctly declined to use.
  *
- * One substitution handles both shapes the catalogued 278 cover,
- * without branching: the 230/226 that close immediately (`<i>—</i>`,
- * label empty) and the 48 where the run instead carries a trailing
- * label glued to the dash with no space of its own (`—Pl.`,
- * `—Part. pass`, `—Hif.`, …) — the label, whatever it holds, rides
- * through the named group unchanged.
+ * One substitution now handles both shapes the catalogued 278 cover,
+ * without branching, deleting the redundant `</i> <i>` split AND the
+ * space it straddled in the same motion:
+ *
+ * ```
+ * BEFORE: <i>noble.</i> <i>—</i> Pl. <span dir="rtl">…
+ * AFTER:  <i>noble.—</i> Pl. <span dir="rtl">…
+ * ```
+ *
+ * Real corpus strings, found before writing the replacement:
+ *
+ * - The 230/278 empty-label shape (`A00144`, `A00667`, …): `.</i>
+ *   <i>—</i> Pl.` → `.—</i> Pl.` — and this exact tight-dash,
+ *   plain-label shape already has direct precedent corpus-wide
+ *   (`<i>at last, in the end.—</i> Pl.`, `<i>Atad.—</i> Pl.`, 19
+ *   occurrences), confirming the merge lands on an existing
+ *   convention rather than inventing one.
+ * - The 48/278 labelled shape (`A02503`, `B00012`, …): `.</i>
+ *   <i>—Pl</i>` → `.—Pl</i>`, gloss and label merged into one run
+ *   with no separating space. This shape ALSO has direct corpus
+ *   precedent (`<i>the hereafter.—Pl.</i>`, `<i>vagina.—Fem</i>`,
+ *   `<i>to extend.—Part. pass.</i>`, `<i>detached part.—Pl.</i>`, 8
+ *   occurrences) — Jastrow writes both the merged-run and the
+ *   separate-run label conventions, and the merged one requires no
+ *   branching in the replacement, so it is what this rule produces.
+ *
+ * Measured on the full corpus: the spaced `. — ` population (read
+ * through `stripTags`, matching how the row's own `reason` counts it)
+ * in the 270 touched entries goes **230 before → 0 after**. 278
+ * occurrences / 270 entries fire, matching the catalogue exactly.
+ * `punct-seams.test.ts`'s corpus-tier test asserts this delta
+ * directly rather than an invariant that a no-op rule would also
+ * satisfy — see that test's own docstring for why a touch-count
+ * vacuity guard alone cannot tell a repair from a reshuffle.
  *
  * ## `italicLonePunctuation` excludes the em-dash by construction,
  * not by running second
  *
  * `italic-lone-punctuation` is catalogued as the RESIDUE of this row:
- * of 258 lone-punctuation runs corpus-wide, 230 are `<i>—</i>` and
- * every one of those 230 is already `emDashSectionBreak`'s (preceded
- * by `.</i> `). Cataloguing both rows at full size would double-count
- * those 230. `LONE_PUNCTUATION`'s character class is `[.?;]` — it has
- * no way to match an em-dash at all, in either registration order, so
- * the exclusion holds even if this rule ran alone, or first, or
- * against a corpus this file has never seen. `checkAdjacency()` only
- * reads `entangledWith` and this pair carries no such edge (spec §8),
- * so the disjointness has to live in the predicate, not in registry
- * position or in a comment promising it does.
+ * of 259 single-character non-alphanumeric italic runs corpus-wide,
+ * 230 are `<i>—</i>` (already `emDashSectionBreak`'s, each preceded
+ * by `.</i> `) and 28 are `[.?;]` (this row's). The 259th is
+ * `I00129`'s `<i>͗</i>` — U+0357 COMBINING RIGHT HALF RING ABOVE, a
+ * diacritic mid-transliteration (`ṭ` + `ûz` + `͗` + `i.ṭuśi`), not
+ * punctuation at all. The catalogue's own residue arithmetic (258 − 230
+ * = 28) undercounted by one lone-punctuation-looking non-match; its
+ * `corpusCount` of 29 is one more than its own `reason` field's stated
+ * breakdown (`. x21, ? x5, ; x2` sums to 28). 28 is correct; see
+ * task-4-report.md for the full reconciliation Task 7 should write
+ * back.
  *
- * Measured on the raw corpus, independent of `emDashSectionBreak` (as
- * the batch's own measurement method requires): 28 occurrences — 21
- * periods, 5 question marks, 2 semicolons — against a catalogued 29;
- * task-4-report.md has the one-instance reconciliation.
+ * `LONE_PUNCTUATION`'s character class is `[.?;]` — it has no way to
+ * match an em-dash, or a combining mark, at all, in either
+ * registration order, so the exclusion holds even if this rule ran
+ * alone, or first, or against a corpus this file has never seen.
+ * `checkAdjacency()` only reads `entangledWith` and this pair carries
+ * no such edge (spec §8), so the disjointness has to live in the
+ * predicate, not in registry position or in a comment promising it
+ * does.
  *
- * One of those 21 periods is `B00957`'s `esp<i>.</i>` — the exact
- * case `rules/italic-period.ts`'s empty-body guard declines rather
- * than claims, because unwrapping it is this row's job, not
+ * One of the 21 periods is `B00957`'s `esp<i>.</i>` — the exact case
+ * `rules/italic-period.ts`'s empty-body guard declines rather than
+ * claims, because unwrapping it is this row's job, not
  * `italicGlossPeriodOutside`'s. This rule performs exactly that
  * unwrap: `esp<i>.</i>` → `esp.`, restoring the abbreviation's own dot
  * to plain text beside the word it belongs to.
  *
- * ## UNRECORDED REGISTRY-ORDER HAZARD: `emDashSectionBreak` MUST run
- * before `label-period-outside-italic` / `italic-swallowed-terminal-period`
+ * ## REGISTRY-ORDER HAZARD, measured: `emDashSectionBreak` must run
+ * before `italic-swallowed-terminal-period` — NOT before
+ * `label-period-outside-italic`, which never touches this seam
  *
  * `SECTION_BREAK` needs its input's first run to still read
  * `<i>gloss.</i>` — period INSIDE, immediately before `</i>`. That is
  * exactly the shape `italic-period.ts`'s `italicGlossPeriodOutside`
  * hunts (its `INSIDE` pattern), and for every gloss that is not
- * itself a label it REWRITES that run to `<i>gloss</i>.` before this
+ * itself a label it rewrites that run to `<i>gloss</i>.` before this
  * rule ever gets a chance to run — moving the period outside the tag
- * and destroying the `.</i>` seam `SECTION_BREAK` requires. Measured
- * on the full corpus: running `italicGlossPeriodOutside` first costs
- * `emDashSectionBreak` **all 270 of its 270 entries — zero survive**,
- * because none of the sampled glosses (`noble`, `all silk`, `enigma`,
- * `Spaniard`, …) are abbreviation labels, so `isLabel` never declines
- * them. `labelPeriodInside` cannot rescue the loss either: it only
- * fires on a period already outside the tag, which is precisely the
- * damaged shape `italicGlossPeriodOutside` just produced, and it
- * declines every one of these bodies for the same reason (none is a
- * label). Run in the required order instead, `italicGlossPeriodOutside`
- * finds nothing left to move afterward — `SECTION_BREAK`'s merge
- * leaves the run ending in `—`, never `.` — so nothing downstream
- * re-touches it.
+ * and destroying the seam. Measured on the full corpus: running
+ * `italicGlossPeriodOutside` first costs `emDashSectionBreak` **all
+ * 270 of its 270 entries — zero survive**. Run in the required order
+ * instead, and at SEAM granularity nothing downstream re-touches the
+ * merged run — 278 of 278 merged seams survive intact, because the
+ * merge leaves each run ending in `—`, never `.`, which `INSIDE`
+ * cannot match. **At ENTRY granularity `italicGlossPeriodOutside`
+ * still fires on 23 of the 270 afterward**, at OTHER, unrelated
+ * periods elsewhere in the same entry's body — a distinct locus, not
+ * a re-opening of this row's own seam, and not a problem this rule
+ * needs to prevent.
  *
- * `italicLonePunctuation` carries no version of this hazard.
- * `italicGlossPeriodOutside`'s `INSIDE` pattern can only ever reach a
- * `?` or `;` body through a literal `.` its regex requires and these
- * bodies do not have, and for a `.` body specifically (`<i>.</i>`)
- * `isEmpty` — Task 2's own guard, kept precisely so this row would
- * have something to unwrap — declines it outright. `labelPeriodInside`'s
- * `OUTSIDE` pattern needs a period already sitting after `</i>`, which
- * none of these three raw shapes ever present. So its placement
- * relative to that pair is free either way.
+ * `labelPeriodInside` is NOT part of this hazard — measured
+ * separately, running it first leaves **270 of 270 entries
+ * surviving**, unchanged: its own pattern needs a period already
+ * sitting after `</i>`, which the raw seam never presents, so it
+ * never touches this row's population in either order. The claim in
+ * fix round 1 that this rule must also precede `labelPeriodInside`
+ * was unmeasured and wrong; only the `italicGlossPeriodOutside` half
+ * is load-bearing.
  *
- * This is not recorded as an `entangledWith` edge — `checkAdjacency`
- * cannot see it, the same blind spot the batch's own spec names in
- * §8 for the sibling ordering constraint between this row and
- * `italicLonePunctuation`. Task 7 must place `emDashSectionBreak`
- * **before** `label-period-outside-italic` and
- * `italic-swallowed-terminal-period` in registry order, not merely
- * before `italic-lone-punctuation`.
+ * This ordering constraint is not recorded as an `entangledWith`
+ * edge — `checkAdjacency` cannot see it, the same blind spot the
+ * batch's own spec names in §8 for the sibling ordering constraint
+ * between this row and `italicLonePunctuation`. Task 7 must place
+ * `emDashSectionBreak` **before** `italic-swallowed-terminal-period`
+ * in registry order, in addition to (not instead of) the already-known
+ * constraint that it precede `italic-lone-punctuation`.
  */
 import type { SourceEntry } from '../../body/types.ts';
 import { mapFields } from '../fields.ts';
@@ -118,8 +136,9 @@ import type { Rule, TransformResult } from '../types.ts';
 
 /** `.</i> <i>—LABEL</i>` — a section-break dash (with an optional
  * label glued to it) split into a sibling italic run instead of
- * continuing the gloss's own. `label` rides through unchanged; see
- * the module doc for why the replacement never inspects it. */
+ * continuing the gloss's own, with a stray space at the split. `label`
+ * rides through unchanged; see the module doc for the corpus
+ * precedent behind dropping both the split and the space. */
 const SECTION_BREAK = /\.<\/i> <i>—(?<label>[^<]*)<\/i>/gu;
 
 /** A lone punctuation mark — never an em-dash — wrapped in its own
@@ -144,17 +163,16 @@ function build(
 	};
 }
 
-/** Merges the gloss run and the section-break dash's sibling run back
- * into one — see the module doc for why this is a merge rather than
- * the brief's originally guessed tight-dash replacement. */
+/** Deletes the section break's stray tag split AND the space it
+ * straddled, closing the gloss's own italic run on the tight `.—`
+ * the corpus otherwise writes 20,195 times — see the module doc,
+ * "Class C, not Class A", for the ruling that authorised the
+ * deletion and the corpus precedent behind the merged-label shape. */
 const emDashSectionBreak: Rule = build(
 	'em-dash-section-break-in-own-italic',
 	(text) =>
-		text.replaceAll(
-			SECTION_BREAK,
-			(_whole, label: string) => `. —${label}</i>`,
-		),
-	'section-break dash merged back into its gloss’s own italic run',
+		text.replaceAll(SECTION_BREAK, (_whole, label: string) => `.—${label}</i>`),
+	'section-break dash closed to the corpus norm ".—", tag split removed',
 );
 
 /** Unwraps an italic run holding nothing but one punctuation mark —
