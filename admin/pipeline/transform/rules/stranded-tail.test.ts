@@ -34,6 +34,26 @@ function anchorCount(entry: SourceEntry): number {
 	);
 }
 
+/** Every anchor's own raw opening-tag bytes, across every field a rule
+ * can edit, sorted so two entries can be compared as a MULTISET rather
+ * than by position — position can shift (the superscript move re-nests
+ * without adding or removing an anchor) while the tag bytes themselves
+ * must not. This is AC3, "neither rule writes a `data-ref` or an
+ * `href`", made checkable rather than left to a `toContain` on one
+ * fixture's own surviving target. */
+function anchorTags(entry: SourceEntry): string[] {
+	return fieldsOf(entry)
+		.flatMap((field) => anchors(tokenize(field)).map((a) => a.tag))
+		.sort();
+}
+
+/** Whether two sorted tag lists are the same multiset, position for
+ * position — `anchorTags` already sorts both sides, so this is a plain
+ * elementwise compare. */
+function sameTags(a: readonly string[], b: readonly string[]): boolean {
+	return a.length === b.length && a.every((tag, i) => tag === b[i]);
+}
+
 describe('superscriptInsideAnchor', () => {
 	it('moves the superscript inside, target untouched', () => {
 		const out = superscriptInsideAnchor.apply(
@@ -80,8 +100,11 @@ describe('superscriptInsideAnchor', () => {
 		expect(anchorCount(out.entry)).toBe(anchorCount(before));
 	});
 
-	it('sets no allows and writes no href/data-ref', () => {
+	it('sets no allows and leaves every anchor tag byte-identical', () => {
+		const before = def(`${M}Gen. R. s. 7</a><sup>7</sup>`);
+		const out = superscriptInsideAnchor.apply(before);
 		expect(superscriptInsideAnchor.allows).toBeUndefined();
+		expect(anchorTags(out.entry)).toEqual(anchorTags(before));
 	});
 });
 
@@ -133,24 +156,36 @@ describe('truncatedCitationDigit', () => {
 		expect(anchorCount(out.entry)).toBe(anchorCount(before));
 	});
 
-	it('sets no allows', () => {
+	it('sets no allows and leaves every anchor tag byte-identical', () => {
+		const before = def(`ib. ${B}B. Kam. XI, 2</a>8`, 'H00054');
+		const out = truncatedCitationDigit.apply(before);
 		expect(truncatedCitationDigit.allows).toBeUndefined();
+		expect(anchorTags(out.entry)).toEqual(anchorTags(before));
 	});
 });
 
 /** One rule's running total over the corpus walk: occurrences, entries
- * touched, and the two invariants asserted once at the end rather than
- * inside the loop (lint/nursery/noConditionalExpect) — any
- * `checkMarkup` problem, and any rid whose anchor count drifted. */
+ * touched, and the three invariants asserted once at the end rather
+ * than inside the loop (lint/nursery/noConditionalExpect) — any
+ * `checkMarkup` problem, any rid whose anchor count drifted, and any
+ * rid whose anchor tag bytes (AC3: no `href`/`data-ref` written)
+ * drifted. */
 interface Tally {
 	drift: string[];
 	entries: Set<string>;
 	occurrences: number;
 	problems: string[];
+	tagDrift: string[];
 }
 
 function freshTally(): Tally {
-	return { drift: [], entries: new Set(), occurrences: 0, problems: [] };
+	return {
+		drift: [],
+		entries: new Set(),
+		occurrences: 0,
+		problems: [],
+		tagDrift: [],
+	};
 }
 
 /** Apply `rule` to `entry` and fold the result into `tally` — the body
@@ -159,6 +194,7 @@ function freshTally(): Tally {
  * lint/complexity/noExcessiveCognitiveComplexity. */
 function tallyOne(entry: SourceEntry, rule: Rule, tally: Tally): void {
 	const before = anchorCount(entry);
+	const beforeTags = anchorTags(entry);
 	const result = rule.apply(entry);
 	if (result.records.length === 0) {
 		return;
@@ -169,10 +205,13 @@ function tallyOne(entry: SourceEntry, rule: Rule, tally: Tally): void {
 	if (anchorCount(result.entry) !== before) {
 		tally.drift.push(entry.rid);
 	}
+	if (!sameTags(beforeTags, anchorTags(result.entry))) {
+		tally.tagDrift.push(entry.rid);
+	}
 }
 
 describe('corpus tier', () => {
-	it('both rows reproduce; the superscript row is T/U/V only, and neither regresses markup or anchor count', async () => {
+	it('both rows reproduce; the superscript row is T/U/V only, and neither regresses markup, anchor count, or anchor tag bytes', async () => {
 		const sup = freshTally();
 		const dig = freshTally();
 		for await (const entry of readSourceEntries()) {
@@ -181,6 +220,7 @@ describe('corpus tier', () => {
 		}
 		expect([...sup.problems, ...dig.problems]).toEqual([]);
 		expect([...sup.drift, ...dig.drift]).toEqual([]);
+		expect([...sup.tagDrift, ...dig.tagDrift]).toEqual([]);
 		expect(sup.occurrences).toBe(182);
 		expect(sup.entries.size).toBe(160);
 		expect([...new Set([...sup.entries].map((r) => r[0]))].sort()).toEqual([
@@ -189,6 +229,24 @@ describe('corpus tier', () => {
 			'V',
 		]);
 		expect(dig.occurrences).toBe(14);
-		expect(dig.entries.size).toBe(14);
+		// AC2 names the fourteen rids explicitly — pinned by IDENTITY, not
+		// only by count, so a predicate that swapped one rid for another
+		// fails here (fix round 1, finding I1).
+		expect([...dig.entries].sort()).toEqual([
+			'D00989',
+			'G00065',
+			'H00054',
+			'H00504',
+			'H01172',
+			'H01271',
+			'M01467',
+			'N00044',
+			'N01108',
+			'O01097',
+			'O01464',
+			'Q01590',
+			'R00351',
+			'S01753',
+		]);
 	}, 120_000);
 });

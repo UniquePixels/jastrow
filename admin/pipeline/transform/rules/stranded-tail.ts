@@ -51,9 +51,30 @@
  * corpus scan found runs of 1 and 2 stranded digits (`8`, `19`, `56`),
  * so the leading run is taken to its full length rather than one
  * character, and the text token is SPLIT: the leading digit run moves
- * inside the anchor, any remainder (11 of 14 occurrences have one —
- * more text follows the stranded digits) stays outside exactly where
- * it was, now immediately after the anchor's `</a>`.
+ * inside the anchor, and any remainder stays outside exactly where it
+ * was, now immediately after the anchor's `</a>`.
+ *
+ * **Correction (fix round 1):** an earlier draft of this paragraph
+ * claimed "11 of 14 occurrences have [a remainder] — more text
+ * follows the stranded digits". Measured over all 14: **14 of 14 carry
+ * a non-empty remainder**, not 11 — there is no empty-remainder
+ * minority in this corpus. The `remainder.length > 0 ? […] : []` arm
+ * in `digitMoveAt` below is therefore DEFENSIVE, not a documented
+ * corpus case: it is exercised only by this file's synthetic fixture
+ * (`ib. …2</a>8` with nothing after the `8`), never by a real
+ * occurrence, and should be read that way rather than as evidence of a
+ * 3-occurrence slice that does not exist.
+ *
+ * **One of the 14 is only partially repaired: O01464.** Its text reads
+ * `… Ned. 5</a>5ᵇ, [read as:] …` — a folio-side superscript `ᵇ`
+ * immediately follows the stranded digit. `digitMoveAt` moves the
+ * leading digit run (`5`) and stops, so the result is
+ * `Ned. 55</a>ᵇ, …`: the number is now correct but `ᵇ` — which was
+ * already outside the anchor before this rule ran — is left stranded
+ * exactly where it was. That is plan-consistent (this rule's shape is
+ * digits only, per the brief), not a regression, and not a new defect
+ * this rule introduces; it is recorded here so the residue is a known
+ * limit of this row's repair rather than a surprise on a later read.
  *
  * **Deliberately leaves `data-ref` reading the truncated number.** The
  * correctly-resolved address is a Sefaria lookup on the REPAIRED
@@ -90,10 +111,16 @@
  * closure, and the digit move touches no tag at all.
  *
  * `TransformResult.records` carries one record per OCCURRENCE moved,
- * not one per definition touched — a definition holding two stranded
- * tails (14 corpus entries do, for the superscript row) produces two
- * records — because the corpus tier below sums `records.length` as the
- * occurrence count the catalogue rows are stated in.
+ * not one per definition touched — a DEFINITION holding two stranded
+ * tails produces two records, and for the superscript row 14
+ * DEFINITIONS do (154 hold exactly one) — because the corpus tier
+ * below sums `records.length` as the occurrence count the catalogue
+ * rows are stated in. Stated at the ENTRY level instead (the unit
+ * `corpusCount` uses), the superscript row's 160 entries split 140
+ * with 1 occurrence, 18 with 2, and 2 with 3 — 140 + 36 + 6 = 182,
+ * matching the occurrence total above. (Corrected in fix round 1: an
+ * earlier draft named "14 corpus entries" here, which mixed the
+ * definition-level and entry-level counts under one unit.)
  */
 import type { SourceEntry, SourceSense } from '../../body/types.ts';
 import type { Token } from '../html.ts';
