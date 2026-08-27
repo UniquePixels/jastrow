@@ -323,6 +323,12 @@ function moveMatching(
  * separate parameters so neither function trips
  * lint/style/useMaxParams. */
 interface MoveContext {
+	/** The record's `detail` — a fixed, short description of what this
+	 * rule did, the shape `paren-boundary.ts`'s `applyBoundary` already
+	 * threads through. It is NOT the rewritten text: passing that
+	 * repeated an entire definition into the migration manifest once per
+	 * occurrence. */
+	detail: string;
 	moveAt: (tokens: readonly Token[], anchor: Anchor) => Token[] | undefined;
 	records: TransformRecord[];
 	rid: string;
@@ -334,13 +340,9 @@ interface MoveContext {
  * how many times it moved — which is what lets the corpus tier sum
  * `records.length` as an occurrence count rather than a
  * definitions-touched count (see `moveMatching`'s doc). */
-function pushOccurrenceRecords(
-	ctx: MoveContext,
-	detail: string,
-	moves: number,
-): void {
+function pushOccurrenceRecords(ctx: MoveContext, moves: number): void {
 	for (let i = 0; i < moves; i += 1) {
-		ctx.records.push({ detail, rid: ctx.rid, ruleId: ctx.ruleId });
+		ctx.records.push({ detail: ctx.detail, rid: ctx.rid, ruleId: ctx.ruleId });
 	}
 }
 
@@ -357,7 +359,7 @@ function moveSense(sense: SourceSense, ctx: MoveContext): SourceSense {
 		const { moves, text } = moveMatching(definition, ctx.moveAt);
 		if (moves > 0) {
 			definition = text;
-			pushOccurrenceRecords(ctx, text, moves);
+			pushOccurrenceRecords(ctx, moves);
 		}
 	}
 	return {
@@ -391,10 +393,12 @@ function moveSenses(
 function moveOverDefinitions(
 	entry: SourceEntry,
 	ruleId: string,
+	detail: string,
 	moveAt: (tokens: readonly Token[], anchor: Anchor) => Token[] | undefined,
 ): TransformResult {
 	const records: TransformRecord[] = [];
 	const rewritten = moveSenses(entry.content.senses, {
+		detail,
 		moveAt,
 		records,
 		rid: entry.rid,
@@ -421,6 +425,7 @@ const superscriptInsideAnchor: Rule = {
 		moveOverDefinitions(
 			entry,
 			'superscript-subsection-stranded-outside-anchor',
+			'stranded sub-section superscript moved inside its anchor',
 			superscriptMoveAt,
 		),
 	id: 'superscript-subsection-stranded-outside-anchor',
@@ -439,6 +444,7 @@ const truncatedCitationDigit: Rule = {
 		moveOverDefinitions(
 			entry,
 			'citation-number-truncated-outside-anchor',
+			'truncated citation digit moved inside its anchor',
 			digitMoveAt,
 		),
 	id: 'citation-number-truncated-outside-anchor',
