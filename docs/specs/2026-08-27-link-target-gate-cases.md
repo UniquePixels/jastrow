@@ -81,18 +81,65 @@ Cases 1–3 and 5 cannot mint; case 4 can, which is why it was tightened.
 Case 7 buys the ability back on a narrower warrant: two independent
 witnesses in the entry's own input for the same digits.
 
-### 3.1 The blast radius is measured, not argued
+### 3.1 The blast radius, corrected
+
+> **CORRECTED 2026-08-27, before any code was written.** This section
+> read *"All other adjacent same-work chapter-only pairs in the corpus:
+> **0 of 69**"*, and concluded that case 7 licenses none of the shape
+> case 4's blind-spot note warns about. **That was wrong, and it was my
+> measurement error, not a change in the design.** The comparison
+> population was built with a stem function that stripped a different
+> amount from `Work C` than from `Work C:V`, so it was nearly empty and
+> measured zero trivially. The implementer refused to build on it and
+> re-measured. Recorded here rather than silently replaced, because the
+> ruling of 2026-08-27 was taken on the wrong number.
 
 | Population | Licensed by case 7 |
 |---|---:|
-| Tosefta variant pairs (the intended target) | **414 of 414** |
-| All other adjacent same-work chapter-only pairs in the corpus | **0 of 69** |
+| Tosefta variant pairs (the intended target) | **414 of 414** — reproduces exactly, on both the `data-ref` and `href` sides |
+| Structurally analogous same-work pairs, tosefta excluded | 96 found, **68 actually mint, 29 of those 68 licensed** |
 
-The 69 are the shape case 4's own blind-spot note warns about —
-*"`Onkelos Deuteronomy 13:2` and `Onkelos Deuteronomy 1:13` together
-license `Onkelos Deuteronomy 13:13`, a verse nothing cites"*. **Case 7
-licenses none of them**, because the corroboration clause has no witness
-there. That is the whole argument for clause 4, and it is a measurement.
+**The counter-example, verified end to end.** `S00188` holds two
+adjacent anchors — `data-ref="Exodus 24"` (display `B'shall. 24`) and
+`data-ref="Exodus 15:25"` (display `Ex. XV, 25`). The claim
+`{from: "Exodus 15:25", head: "Exodus 24", tail: ":25", target: "Exodus 24:25"}`
+clears all four clauses, and the `href` side clears identically.
+**Exodus 24 has 18 verses; `Exodus 24:25` is not a verse.** Twenty-eight
+more share the shape.
+
+**Why clause 4 cannot separate the families.** Jastrow routinely renders
+a Sefaria `Work C:V` anchor as `Abbr. <roman chapter>, <arabic verse>`,
+and that arabic verse *is* the tail's digit run. So the corroborating
+witness is present **by default** across the whole same-work family, not
+only in the tosefta shape. `XVII), 6` and `Ex. XV, 25` are
+indistinguishable to a digits-only test. What actually separates them is
+semantic — in `Tosef. Sabb. XVI (XVII), 6` the halakha is shared by both
+recensions, so it belongs to the primary — and §3.2 already concedes the
+gate cannot see that.
+
+No structure-free strengthening of clause 4 reaches zero: standalone-token
+digits, "no other digit run in the display", and "head display carrying no
+arabic digits" were each tried and each still licenses `Exodus 24:25`. The
+only predicate that separates the families is `VARIANT_DISPLAY`, which is
+the rule's own — and a gate whose predicate is the rule's can no longer
+catch a rule that widened its own.
+
+### 3.1.1 Why it ships anyway — ruled 2026-08-27 (Brian)
+
+**Live exposure today is zero.** A gate case is a LICENCE, not an
+instruction: nothing is minted unless a rule declares it. Only
+`toseftaPrimaryHalakha` declares case 7, and its own predicate never
+fires on any of the 68. The cost is latent, and it is the same kind of
+cost case 4's blind-spot list already documents and accepts —
+*"Entries citing one work twice are common, so this is the live residue
+of the off-by-one verse family… closing it needs evidence this gate does
+not have."*
+
+The honest statement of what case 7 buys is therefore narrower than §3
+first claimed: it does not make minting safe in general. It makes minting
+**attributable** — every minted target must name the two input targets and
+the witnessing display it came from, so a wrong mint is a wrong claim
+with a rule's name on it rather than an anonymous fabrication.
 
 ### 3.2 What case 7 still cannot see
 
@@ -148,4 +195,5 @@ the refusal must be retracted in place rather than removed.
 | Date | Who | Decision |
 |---|---|---|
 | 2026-08-26 | Brian | both repairs deferred; gate work becomes its own PR |
-| 2026-08-27 | Brian | build both cases; case 7's minting accepted on the measured 414/414 and 0/69 |
+| 2026-08-27 | Brian | build both cases; case 7's minting accepted on a measured 414/414 and a **wrong** 0/69 |
+| 2026-08-27 | Brian | re-ruled after §3.1's correction to 29/68: ship anyway — live exposure is zero, and the case makes minting attributable rather than safe |
