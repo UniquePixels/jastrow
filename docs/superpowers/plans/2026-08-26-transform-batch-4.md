@@ -8,8 +8,11 @@
 > The batch report is the record of what actually shipped:
 > [`docs/v2/transform-batch-4.md`](../../v2/transform-batch-4.md).
 >
-> **DELIVERED SCOPE: six rules over nine rows** — not the seven rules over ten
-> rows this plan was written for. Two rules were deferred mid-batch behind ONE
+> **DELIVERED SCOPE: six registered `Rule` objects, disposing of eight of the
+> ten catalogue rows** — not the seven rules over ten rows this plan was
+> written for. (This read *"six rules over nine rows"* until 2026-08-27;
+> nine counted the spec §5 table's numbered ENTRIES, not rows disposed of.
+> Measured: `PENDING` 46 → 38, so eight rows left it.) Two rules were deferred mid-batch behind ONE
 > SHARED `link-target.ts` gate ruling (Brian, 2026-08-26), which becomes its own
 > follow-up PR:
 >
@@ -1051,7 +1054,11 @@ Record the open problem exactly as the row states it: all 11 duplicates are nume
 
 - [ ] **Step 2: Measure the superscript row's 38 and write the audit**
 
-The flag's 105 / 67 / 38 split was measured during the `midrash-subsection-link-drift` audit, on Midrash Rabbah anchors. This row's own measured population is 182 occ / 160 ent across T/U/V. **Those are different populations and the audit must say so.** Measure directly: of this row's 182 occurrences, how many have a `<sup>` value agreeing with the `data-ref`'s sub-section, and how many contradict it?
+The flag's 105 / 67 / 38 split was measured during the `midrash-subsection-link-drift` audit, on Midrash Rabbah anchors. This row's own measured population is 182 occ / 160 ent across T/U/V.
+
+> **RETRACTED 2026-08-27 (PR #51 review).** This step read *"Those are different populations and the audit must say so."* **They are not different — they NEST**, which Task 6 measured and the spec records at §4.2: all 182 occurrences ARE Midrash Rabbah anchors, the flag's 105 is exactly this row's sub-bearing slice, and 67 agreeing + 38 contradicting + **77 carrying no sub-section at all** = 182. This step's brief was written on the opposite premise and was wrong. The correction landed in the spec and in Task 6's acceptance criterion on 2026-08-26; the step prose below was missed, which is the same partial retraction this branch has now hit five times. The measurement it asks for was made and its answer is the nesting above.
+
+Measure directly: of this row's 182 occurrences, how many have a `<sup>` value agreeing with the `data-ref`'s sub-section, and how many contradict it?
 
 The load-bearing question for Task 4 is narrow: **is moving the `<sup>` inside the anchor correct regardless of which side of the disagreement wins?** Argue it explicitly. If yes, the boundary rule ships and the disagreement becomes a new catalogue row. If no, Task 4's superscript rule must be withdrawn and the whole row held.
 
@@ -1077,6 +1084,8 @@ git commit -s -m "📖 doc(catalogue): audit batch 4's two judgment rows"
 
 **Goal (DELIVERED AS SIX RULES / `PENDING` BY EIGHT — see STATUS):** Put the seven rules into the registry in an order the entanglement gate accepts, shrink `PENDING` by ten, prove the composed corpus still passes every gate, and write the batch report.
 
+> **NON-AUTHORITATIVE BELOW, AND NOW RECONCILED (PR #51 review, 2026-08-27).** The goal and acceptance criteria in this task are the plan AS WRITTEN, before the two deferrals. Every stale figure is struck through and followed by the DELIVERED figure. The delivered numbers, all re-derived from the registry: **6 registered `Rule` objects** (`RULES.length` 27 → **33**), **8 ids removed from `PENDING`** (46 → 38), `coverage().registered` **34 rows** — one above the rule count because `jt-double-wrapped-citation` sits in `COVERED` — and a real population of **2,114 distinct entries**. Where this block and `docs/v2/transform-batch-4.md` differ, the batch report governs.
+
 **Files:**
 - Modify: `admin/pipeline/transform/registry.ts:46` (`RULES`), `:459` (`PENDING`)
 - Create: `docs/v2/transform-batch-4.md`
@@ -1084,18 +1093,18 @@ git commit -s -m "📖 doc(catalogue): audit batch 4's two judgment rows"
 
 **Acceptance Criteria:**
 - [x] ~~All seven rules registered; `PENDING` loses all ten batch-4 row ids~~ — **SIX registered; `PENDING` loses eight**, keeping `tosefta-variant-chapter-halakha-loss` and `unterminated-href-swallows-closing-tag`, both still owed a REGISTERED rule (STATUS). A withdrawn row leaves both lists.
-- [ ] `coverage()` reports **0 unaccounted, 0 duplicated**, and the registered count rises 27 → 34 minus any withdrawal.
+- [x] `coverage()` reports **0 unaccounted, 0 duplicated**, and ~~the registered count rises 27 → 34 minus any withdrawal~~ — **`RULES.length` rises 27 → 33 rules, and `coverage().registered` reads 34 ROWS.** Two units, one row apart; see the STATUS note above.
 - [ ] `checkAdjacency()` passes: the two Tosefta rules gap-free adjacent, and the nested/JT pair satisfied by the single rule that owns both rows.
 - [ ] `unaccountedEdges()` passes — and if the JT row registers no rule of its own, the deferral is RECORDED, since that function fails the day a rule ships ahead of a still-`PENDING` partner.
-- [ ] The commutation gate (inherited from PR #50) passes over all 34 rules, and any new non-commuting pair is DECLARED rather than reordered around. **A green gate is not coverage** — it closes two-rule exposure only, so state in the report which placements were argued from a whole-registry both-ways composition and which rest on the pair gate alone.
+- [x] The commutation gate (inherited from PR #50) passes over ~~all 34 rules~~ **all 33 rules**, and any new non-commuting pair is DECLARED rather than reordered around. **A green gate is not coverage** — it closes two-rule exposure only, so state in the report which placements were argued from a whole-registry both-ways composition and which rest on the pair gate alone.
 - [ ] `bun transform:count` → every batch-4 row MATCH.
 - [ ] `bun body:migrate-dry` → 32,512/32,512, 0 schema failures, 0 quarantines.
 - [ ] `admin/pipeline/body/pipeline-links.test.ts` passes — the composed `applyRepairs` + registry gate 3a added. **Every rule here edits anchors (six of six as shipped), so this is the run that matters.** Link accounting reported as a delta against the +90 / −0 the branch carries.
-- [ ] The report states the batch's real population (2,122 distinct, not 2,513 catalogued) and why.
+- [x] The report states the batch's real population — ~~2,122 distinct, not 2,513 catalogued~~ **2,114 distinct, not 2,515 catalogued** (2,122 and 2,513 are both pre-correction figures the spec §1 retracts) — and why.
 
 **Verify:**
 ```bash
-bun test                                     # 862 + new, 0 fail
+bun test                                     # 946 pass, 0 fail (as delivered)
 bun transform:count
 bun body:migrate-dry
 bunx biome check .                           # 116 infos, 0 errors

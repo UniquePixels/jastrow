@@ -71,9 +71,14 @@ the ten plus one new row split off a member — and disposed of **NINE**.
 | `tosefta-variant-chapter-halakha-loss` | 391 | **DEFERRED** — gate wall, §6 |
 | `unterminated-href-swallows-closing-tag` | 2 | **DEFERRED** — gate wall, §6; rule written, 19 tests, unregistered |
 
-**Six rules over nine rows.** The two deferrals stay in `PENDING`
-because they are still owed a REGISTERED rule; neither is idle — one
-has a written rule and the other a pinned population.
+**Six registered `Rule` objects, disposing of eight of the spec's ten
+catalogue rows** — the six rules' own rows, plus
+`jt-double-wrapped-citation` (repaired under rule #2's id and recorded
+in `COVERED`), plus `post-anchor-numeral-duplication` (re-routed to
+`judgment`). The units are not interchangeable: rules, rows disposed,
+and table rows are three different counts. The two deferrals stay in
+`PENDING` because they are still owed a REGISTERED rule; neither is
+idle — one has a written rule and the other a pinned population.
 
 ### The batch's real population: 2,515 catalogued, 2,114 distinct
 
@@ -126,11 +131,14 @@ it said seven rules where six shipped, the seventh being
 had presented as an implemented rule and that was in fact never
 written.
 
-### Catalogued vs measured, the nine rows the batch disposed of
+### Catalogued vs measured, the nine rows that stayed transform rows
 
 Every figure below is measured on the pinned snapshot
 (`data/source/jastrow-dictionary.jsonl`, sha256 `4c64ff03…`). It is
-**nine rows, not the eleven the batch touched**: the two absent from
+**nine rows, not the eleven the batch touched, and not the eight it
+disposed of** — this is a table-membership count, a third unit again:
+two of these nine (`tosefta-variant-chapter-halakha-loss`,
+`unterminated-href-swallows-closing-tag`) are still `PENDING`. The two absent from
 the table are the two that left the transform route — `post-anchor-
 numeral-duplication` (11 catalogued, measured 11 occ / 11 ent, spec
 §2) withdrawn to `judgment`, and `superscript-subsection-contradicts-

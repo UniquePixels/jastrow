@@ -42,13 +42,27 @@ both cases — **split by predicate, not by adjacency**:
   Pulling it forward would take batch 5's largest row.
 
 **2,515 is a catalogue figure, and §3 shows why the batch's real
-population is 2,114 distinct entries.** The ten ROWS were designed to
-ship as **7 rules**, two rows folding into another row's rule. SHIPPED
-2026-08-26 AS **SIX** RULES over nine rows: `unterminatedHref` is
-written and tested but NOT registered, because `checkLinkTargets`
-refuses D00478 and `run.ts` would halt the migration on it. That
-deferral and `tosefta-variant-chapter-halakha-loss`'s fold into one
-follow-up gate PR. See
+population is 2,114 distinct entries** (unit: distinct corpus entries).
+Three units are in play throughout this document and each count below
+names its own:
+
+- **catalogue rows** — ids in `data/patches/patterns.jsonl`;
+- **designed rules** — repair mechanisms this design specified;
+- **registered `Rule` objects** — members of `RULES` in
+  `admin/pipeline/transform/registry.ts`.
+
+**Ten catalogue rows** were ruled on here. They were designed to ship
+as **seven rules**, one row folding into another row's rule. SHIPPED
+2026-08-26 as **six registered `Rule` objects**, disposing of **eight
+of the ten rows** — the six rules' own rows, plus
+`jt-double-wrapped-citation` (repaired by
+`nested-anchor-swallows-punctuation` and recorded in `COVERED`), plus
+`post-anchor-numeral-duplication` (re-routed to `judgment`, so it is no
+longer a transform row at all). **Two rows remain in `PENDING`**:
+`unterminated-href-swallows-closing-tag`, written and tested but NOT
+registered because `checkLinkTargets` refuses D00478 and `run.ts` would
+halt the migration on it, and `tosefta-variant-chapter-halakha-loss`,
+never written. Both fold into one follow-up gate PR. See
 [../v2/transform-batch-4.md](../v2/transform-batch-4.md).
 
 > **CORRECTED 2026-08-26 (impl/phase-2-batch-4).** This read *"the
@@ -59,8 +73,19 @@ follow-up gate PR. See
 > one containment presented as a RULE count, rather than the seven
 > rules §5 actually lists. A first pass replaced the 9 with a 7 and
 > left the two counts still reading as one series; they are separate
-> series and this paragraph now says which is which — **10 rows / 7
-> designed rules / 6 shipped rules over 9 rows.**
+> series and this paragraph now says which is which — **10 catalogue
+> rows / 7 designed rules / 6 registered `Rule` objects.**
+>
+> **CORRECTED AGAIN 2026-08-27 (PR #51 review).** The wording above
+> settled on *"6 shipped rules over nine rows"*, and **nine was wrong
+> in the same unit-mixing way it was written to fix**: it counted the
+> §5 table's nine numbered ENTRIES, which cover ten rows because entry
+> 3 splits into 3a and 3b. Measured against the registry — the eight
+> ids this branch removes from `PENDING` (base `45d50a4`: 46 → 38) —
+> the six rules dispose of **eight** rows, not nine, and two rows
+> (`tosefta-variant-chapter-halakha-loss`,
+> `unterminated-href-swallows-closing-tag`) stay `PENDING`. Every
+> count in this document now carries its unit.
 
 ## 2. Measured scope
 
@@ -171,7 +196,8 @@ distinct populations** (2,515 − 391 − 10).
 > the `)` falls outside the variant anchor, and letting the print
 > halakha reach the primary, is one edit at one site."* **IT IS ONE
 > WALK, NOT ONE EDIT, AND ONLY THE BOUNDARY HALF SHIPPED.** Batch 4
-> shipped **six rules over nine rows**. `toseftaCloseParen` moves the
+> shipped **six registered `Rule` objects, disposing of eight of the
+> ten catalogue rows**. `toseftaCloseParen` moves the
 > `)` and writes no target, closing `anchor-swallows-close-paren`
 > alone; **the halakha carry was never written**, because
 > `link-target.ts` case 4's 2026-08-24 tightening requires the tail's
@@ -367,7 +393,8 @@ measurement this document has not made — flagged in §7.
 > row 3 as a single rule `anchor-boundary-tosefta-split` doing *"move
 > the `)` outside the variant anchor **and carry the print halakha to
 > the primary `data-ref`**"*, and row 8 listed without qualification.
-> **Six rules over nine rows shipped**; two are deferred behind one
+> **Six registered `Rule` objects shipped, disposing of eight of the
+> ten catalogue rows**; the remaining two are deferred behind one
 > shared `link-target.ts` gate ruling (Brian, 2026-08-26 — its own PR),
 > and the table below now marks them. **NOTHING HERE LICENSES WRITING A
 > TOSEFTA PRIMARY `data-ref`.** Read row 3's target half as a
@@ -376,23 +403,40 @@ measurement this document has not made — flagged in §7.
 > rather than repair anything. See
 > [../v2/transform-batch-4.md](../v2/transform-batch-4.md).
 
-Nine rules were designed. Every one is a **markup boundary move or a
-duplicate-layer removal**; none writes text, so `no-new-text` runs with
-an empty `allows` throughout and `checkMarkup`'s well-formedness delta
-is the gate that matters (module design §5, §5.1).
+**Seven rules were designed** (unit: repair mechanisms). Every one is a
+**markup boundary move or a duplicate-layer removal**; none writes
+text, so `no-new-text` runs with an empty `allows` throughout and
+`checkMarkup`'s well-formedness delta is the gate that matters (module
+design §5, §5.1).
 
-| # | Rule | Rows | Edit |
+The table below is a **row disposition table, not a rule list**: its
+nine numbered entries cover **ten catalogue rows** (entry 3 splits into
+3a and 3b), and only the entries marked SHIPPED are registered `Rule`
+objects. Reading its nine numbers as nine rules is the exact mistake
+§1's second correction note records. By unit:
+
+- **6** rows carry a registered `Rule` of their own: 1, 2, 3a, 4, 5, 6.
+- **1** row is repaired under another row's rule id and recorded in
+  `registry.ts`'s `COVERED`: 7 (by entry 2). This is why
+  `coverage().registered` reads **34** rows while `RULES.length` reads
+  **33** rules — the two figures differ by exactly this row, and are
+  measurements of different units rather than a discrepancy.
+- **1** row left the transform population entirely: 9, re-routed to
+  `route: judgment`.
+- **2** rows remain in `PENDING`, owed a rule: 3b and 8.
+
+| # | Catalogue row | Rows | Disposition |
 |---|---|---|---|
-| 1 | `nonsense-dup-anchor` | 755 | drop the outer layer of a same-`href` nested pair in `language_reference`, keeping the trapped mark |
-| 2 | `nested-anchor-swallows-punctuation` | 465 (incl. JT 10) | drop the outer layer of a same-`data-ref` nested pair in `definition` |
+| 1 | `nonsense-dup-anchor` | 755 | **SHIPPED** — drop the outer layer of a same-`href` nested pair in `language_reference`, keeping the trapped mark |
+| 2 | `nested-anchor-swallows-punctuation` | 465 (incl. JT 10) | **SHIPPED** — drop the outer layer of a same-`data-ref` nested pair in `definition` |
 | 3a | `toseftaCloseParen` (`anchor-swallows-close-paren`) | 493 | **SHIPPED** — move the `)` outside the variant anchor; writes no target |
 | 3b | ~~`toseftaPrimaryHalakha`~~ (`tosefta-variant-chapter-halakha-loss`) | 391 | **DEFERRED, NEVER WRITTEN** — carrying the print halakha to the primary `data-ref` is refused by `link-target.ts` case 4 (and case 3); needs a gate ruling, §3.1 |
-| 4 | `open-paren-in-anchor-display` | 214 | move the opening `(` outside the anchor |
-| 5 | `superscript-subsection-stranded-outside-anchor` | 160 | move `<sup>N</sup>` inside the anchor |
-| 6 | `citation-number-truncated-outside-anchor` | 14 | extend the anchor over the stranded digit; `data-ref` is a §4.2-class question, **not** in this rule |
-| 7 | `jt-double-wrapped-citation` | (in #2) | folded into #2 — the slash half belongs to the discarded `jt-href-slash` |
+| 4 | `open-paren-in-anchor-display` | 214 | **SHIPPED** — move the opening `(` outside the anchor |
+| 5 | `superscript-subsection-stranded-outside-anchor` | 160 | **SHIPPED** — move `<sup>N</sup>` inside the anchor |
+| 6 | `citation-number-truncated-outside-anchor` | 14 | **SHIPPED** — extend the anchor over the stranded digit; `data-ref` is a §4.2-class question, **not** in this rule |
+| 7 | `jt-double-wrapped-citation` | (in #2) | **DISPOSED, NO RULE OF ITS OWN** — folded into #2 and recorded in `registry.ts`'s `COVERED`, which is the one row that puts `coverage().registered` (34 rows) one above `RULES.length` (33 rules); the slash half belongs to the discarded `jt-href-slash` |
 | 8 | `unterminated-href-swallows-closing-tag` | 2 | **WRITTEN AND TESTED, DELIBERATELY UNREGISTERED** — terminate the `href`, restore the swallowed `</a>`; `checkLinkTargets` refuses D00478 because the repair's evidence lives in raw tag bytes that do not parse |
-| 9 | `post-anchor-numeral-duplication` | 11 | **§4.1 — no edit proposed; expected to withdraw** |
+| 9 | `post-anchor-numeral-duplication` | 11 | **DISPOSED, NO EDIT EVER PROPOSED** — §4.1; re-routed to `route: judgment`, so it is no longer a transform row and no longer `PENDING` |
 
 Rule 3 was designed to replace two catalogue rows with one registered
 rule id, which `coverage()` must be taught explicitly — a rule id must
@@ -412,7 +456,7 @@ Unchanged from module design §9, plus one addition:
 | Unit, per rule | the predicate fires on its shape and holds off near-misses |
 | `transform:count` | each predicate reproduces its **corrected** catalogue count |
 | `no-new-text`, per rule | empty `allows` throughout; no rule here writes text |
-| `markup`, per rule | output no less well-formed than input — the load-bearing gate for the nine boundary moves designed here, six of them as shipped |
+| `markup`, per rule | output no less well-formed than input — the load-bearing gate for the **seven** boundary moves designed here (unit: repair mechanisms), **six** of them registered as shipped |
 | Registry | coverage + `checkAdjacency` over the two entangled pairs |
 | **Commutation** (inherited, PR #50) | every unordered rule pair commutes, except where `entangledWith` declares it — §3.3. Two-rule exposure only; report which placements rest on it alone |
 | `pipeline-links.test.ts` | `applyRepairs` + registry over 32,512 entries — **the gate 3a added; every rule here edits anchors (six of six as shipped), so it is the one that matters most** |
