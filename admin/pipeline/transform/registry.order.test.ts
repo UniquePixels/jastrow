@@ -85,13 +85,17 @@
  * exactly the moment it is most needed. Batch 3a added a fourth set
  * rather than widening a third: `gershayim-breaks-ref-attribute`
  * writes a link target without adopting one from a neighbour, which
- * is neither `RETARGET` nor `NEITHER` as those are defined.
+ * is neither `RETARGET` nor `NEITHER` as those are defined. The gate's
+ * case 6 added a FIFTH on the same reasoning (2026-08-27) — `RESTORE`,
+ * for a rule that writes a target by relocating bytes inside the
+ * anchor's OWN damaged tag — rather than stretching `GLYPH` to cover a
+ * second, differently-shaped declaration.
  *
  * And exhaustive is not the same as earned. The corpus pass at the
- * bottom of this file makes membership of `UNLINK`, `WRAP`, `GLYPH`
- * and `NEITHER` a measurement over all 32,512 entries rather than an
- * author's claim. `RETARGET` is the one set that cannot be earned
- * that way, and the note there says why.
+ * bottom of this file makes membership of `UNLINK`, `WRAP`, `GLYPH`,
+ * `RESTORE` and `NEITHER` a measurement over all 32,512 entries rather
+ * than an author's claim. `RETARGET` is the one set that cannot be
+ * earned that way, and the note there says why.
  */
 import { describe, expect, it } from 'bun:test';
 import { readSourceEntries } from '../body/source.ts';
@@ -274,10 +278,38 @@ const WRAP = new Set([
  * fires on the same 1,386 / 85 entries composed as it does alone. */
 const GLYPH = new Set(['gershayim-breaks-ref-attribute']);
 
-/** The five classifications, named ONCE. Both halves of the
- * classification test read this, so a sixth class added to one half
+/** Rules that RESTORE a link target by relocating bytes inside the
+ * anchor's own damaged tag — gate case 6, and a fifth class on exactly
+ * the reasoning that made `GLYPH` a fourth. These rules DO write a
+ * target, so `NEITHER` is false of them; they adopt it from no
+ * neighbour, so `RETARGET` is false too.
+ *
+ * Rule 1 says nothing about where they sit, for `GLYPH`'s reason — a
+ * restoration reads only the anchor it is repairing, so there is no
+ * antecedent an unlink rule could destroy underneath it. Something
+ * else does: `unterminatedHref` runs FIRST in `RULES`, because the
+ * damage it repairs makes the tokenizer read every following anchor as
+ * `interior` and both editors refuse those. That is a placement
+ * argument about the PARSER rather than about targets, so it lives in
+ * `registry.ts`'s own block and not in one of the four rules here.
+ *
+ * Membership is EARNED exactly as `GLYPH`'s is, and by the same
+ * mechanism: a rule that writes a target this way MUST declare
+ * `restored` or `run.ts`'s gate refuses it, so the corpus pass below
+ * asserts this literal set equals the rules that ever declare one. */
+const RESTORE = new Set(['unterminated-href-swallows-closing-tag']);
+
+/** The six classifications, named ONCE. Both halves of the
+ * classification test read this, so a seventh class added to one half
  * and forgotten in the other is not a thing that can happen. */
-const CLASSES: ReadonlySet<string>[] = [UNLINK, RETARGET, NEITHER, GLYPH, WRAP];
+const CLASSES: ReadonlySet<string>[] = [
+	UNLINK,
+	RETARGET,
+	NEITHER,
+	GLYPH,
+	RESTORE,
+	WRAP,
+];
 
 const ids = RULES.map((rule) => rule.id);
 
@@ -550,10 +582,12 @@ describe('registry order', () => {
  * none of it.
  *
  * WHAT THIS CAN AND CANNOT EARN, measured rather than assumed.
- * Declarations earn `UNLINK` and `GLYPH` in both directions, because
- * a rule that removes an anchor MUST declare `unlinks` and a rule that
- * writes a target by glyph substitution MUST declare `glyphCorrected`
- * — `run.ts`'s gates fail otherwise. They cannot earn `RETARGET`:
+ * Declarations earn `UNLINK`, `GLYPH` and `RESTORE` in both
+ * directions, because a rule that removes an anchor MUST declare
+ * `unlinks`, a rule that writes a target by glyph substitution MUST
+ * declare `glyphCorrected`, and a rule that restores one out of a
+ * damaged tag MUST declare `restored` — `run.ts`'s gates fail
+ * otherwise. They cannot earn `RETARGET`:
  * gate case 2 admits a target COPIED VERBATIM from another anchor in
  * the same entry with no declaration at all, and `ib-yoma-2a` is the
  * live proof — it retargets 188 entries and declares nothing corpus-
@@ -698,6 +732,9 @@ function scan(): Promise<void> {
 				if ((out.glyphCorrected ?? []).length > 0) {
 					kinds.add('glyphCorrected');
 				}
+				if ((out.restored ?? []).length > 0) {
+					kinds.add('restored');
+				}
 				if (
 					(NEITHER.has(rule.id) || WRAP.has(rule.id)) &&
 					targetsOf(out.entry) !== before
@@ -792,6 +829,17 @@ describe('the classification is earned, not declared', () => {
 	it('exactly the GLYPH rules ever correct a target in place', async () => {
 		await scan();
 		expect(everDeclared('glyphCorrected')).toEqual([...GLYPH].toSorted(byId));
+	}, 180_000);
+
+	// `RESTORE` earned on `GLYPH`'s mechanism: gate case 6 licenses a
+	// target only against a `restored` declaration, so a rule that
+	// restores one and does not declare it is refused by `run.ts` rather
+	// than quietly classified here. Both directions, like `GLYPH`: a
+	// rule declaring `restored` and missing from this set fails, and a
+	// name in this set that never declares one fails too.
+	it('exactly the RESTORE rules ever restore a target from damaged bytes', async () => {
+		await scan();
+		expect(everDeclared('restored')).toEqual([...RESTORE].toSorted(byId));
 	}, 180_000);
 
 	it('no NEITHER or WRAP rule removes an anchor or moves a target', async () => {

@@ -11,21 +11,17 @@
  * between the two is corpus reality and a different (declined)
  * catalogue row.
  *
- * The corpus tier below pins the population by RID IDENTITY, not by
- * size — a count alone would let a widened predicate swap one member
- * for another and pass — and pins `checkLinkTargets`'s verdict on
- * both real entries, which is a MEASUREMENT and not an aspiration:
- * D00478's repair is not licensed by any of the gate's five cases,
- * for the reason set out in `malformed-href.ts`'s docstring.
+ * The CORPUS tier lives in `malformed-href-corpus.test.ts`, on the
+ * house split (`italic-paren-corpus.test.ts` and friends): it pins the
+ * population by rid identity and pins `checkLinkTargets`'s verdict on
+ * both real entries. Split out 2026-08-27 (fix/link-target-gate-cases)
+ * when case 6's assertions pushed this file past its line budget.
  */
-import { beforeAll, describe, expect, it } from 'bun:test';
-import { readSourceEntries } from '../../body/source.ts';
+import { describe, expect, it } from 'bun:test';
 import type { SourceEntry } from '../../body/types.ts';
 import { tokenize } from '../html.ts';
-import { checkLinkTargets } from '../link-target.ts';
 import { type Anchor, anchors } from '../links.ts';
-import { checkMarkup } from '../markup.ts';
-import { checkNoNewText, fieldsOf, textOf } from '../no-new-text.ts';
+import { textOf } from '../no-new-text.ts';
 import { unterminatedHref } from './malformed-href.ts';
 
 // Verbatim from D00478's sense definition.
@@ -136,11 +132,16 @@ describe('unterminatedHref', () => {
 		expect(unterminatedHref.apply(entry).entry).toBe(entry);
 	});
 
+	// …and a declined instance carries no case-6 claim either. A claim
+	// describing bytes the rule did not ship would be false, and the
+	// gate would judge it against an entry that never contains the tag.
 	it('declines a surviving tail with no anchor open to receive the close', () => {
 		const stray =
 			'<a dir="rtl" class="refLink" href="/Jastrow,_ז.1</a>" data-ref="Jastrow, ז 1">ז</a>';
 		const entry = def(stray, 'Z00002');
-		expect(unterminatedHref.apply(entry).entry).toBe(entry);
+		const result = unterminatedHref.apply(entry);
+		expect(result.entry).toBe(entry);
+		expect(result.restored).toBeUndefined();
 	});
 
 	it('treats the entry as immutable', () => {
@@ -152,7 +153,11 @@ describe('unterminatedHref', () => {
 		expect(() => unterminatedHref.apply(entry)).not.toThrow();
 	});
 
-	it('declares no allows, no copied, no unlinks and no target claim', () => {
+	// One declaration, and only one. `restored` is case 6 and the
+	// reordering arm earns it; every other kind stays absent, because
+	// this rule adds no text, removes no anchor and assembles no target
+	// out of anything.
+	it('declares no allows, no copied, no unlinks and no other target claim', () => {
 		expect(unterminatedHref.allows).toBeUndefined();
 		const result = unterminatedHref.apply(def(J_BAD, 'J00597'));
 		expect(result.copied).toBeUndefined();
@@ -160,111 +165,14 @@ describe('unterminatedHref', () => {
 		expect(result.composed).toBeUndefined();
 		expect(result.recombined).toBeUndefined();
 		expect(result.glyphCorrected).toBeUndefined();
+		// The reconstruction arm relocates nothing, so it claims nothing.
+		// The reordering arm's claim is asserted in full over the real
+		// entry, in `malformed-href-corpus.test.ts`.
+		expect(result.restored).toBeUndefined();
 	});
 
 	it('is registered under the catalogue row id', () => {
 		expect(unterminatedHref.id).toBe('unterminated-href-swallows-closing-tag');
 		expect(unterminatedHref.phase).toBe('text-repairs');
-	});
-});
-
-/** The two entries every assertion in this tier is about. */
-const BOTH = ['D00478', 'J00597'] as const;
-
-describe('unterminatedHref over the corpus', () => {
-	// ONE corpus walk, not four. Reading all 32,512 entries dominates
-	// this tier's cost, and the walk that pins the population by identity
-	// is already holding the two entries the other three assertions want,
-	// so it keeps them. `Rule.apply` MUST treat `entry` as immutable
-	// (`transform/types.ts`), so the captured references are still the
-	// source bytes after the population walk has applied the rule to them.
-	const fired: string[] = [];
-	const kept = new Map<string, SourceEntry>();
-
-	beforeAll(async () => {
-		for await (const entry of readSourceEntries()) {
-			if (unterminatedHref.apply(entry).records.length > 0) {
-				fired.push(entry.rid);
-			}
-			if (entry.rid === BOTH[0] || entry.rid === BOTH[1]) {
-				kept.set(entry.rid, entry);
-			}
-		}
-	}, 600_000);
-
-	/** Throws rather than returning `undefined`, so a capture that
-	 * silently missed fails loudly instead of emptying a loop body and
-	 * letting the assertions inside it pass vacuously. */
-	const captured = (rid: string): SourceEntry => {
-		const entry = kept.get(rid);
-		if (entry === undefined) {
-			throw new Error(`${rid} was never captured from the corpus`);
-		}
-		return entry;
-	};
-
-	it('fires on exactly D00478 and J00597, and on no other entry', () => {
-		expect(fired.sort()).toEqual(['D00478', 'J00597']);
-	});
-
-	// Over EVERY field `fieldsOf` walks, not just the first definition:
-	// a rewrite that landed somewhere else would otherwise go unseen.
-	//
-	// The `close === -1` residue is pinned by IDENTITY and is not a
-	// shortfall of this rule. `/Shir_HaShirim_Rabbah.1` in J00597 has
-	// no `</a>` anywhere in the source — it is one of the corpus's three
-	// unclosed anchors and a different catalogue row. This rule
-	// relocates a closing tag that EXISTS; minting one is not its job,
-	// and the assertion says so out loud rather than quietly relaxing
-	// to `<= 1`.
-	it('clears both entries of malformed and interior anchors', () => {
-		const unclosed = new Map<string, string[]>();
-		for (const rid of BOTH) {
-			const entry = captured(rid);
-			const after = unterminatedHref.apply(entry).entry;
-			const all = fieldsOf(after).flatMap((f) => anchors(tokenize(f)));
-			for (const anchor of all) {
-				expect(anchor.malformed).toBe(false);
-				expect(anchor.interior).toBe(false);
-			}
-			unclosed.set(
-				entry.rid,
-				all.filter((a) => a.close === -1).map((a) => a.href),
-			);
-		}
-		expect(unclosed.get('D00478')).toEqual([]);
-		expect(unclosed.get('J00597')).toEqual(['/Shir_HaShirim_Rabbah.1']);
-	});
-
-	it('passes the text and markup gates on both entries with no allowance', () => {
-		for (const rid of BOTH) {
-			const entry = captured(rid);
-			const result = unterminatedHref.apply(entry);
-			expect(
-				checkNoNewText(entry, result.entry, unterminatedHref, result.copied),
-			).toEqual([]);
-			expect(checkMarkup(entry, result.entry)).toEqual([]);
-		}
-	});
-
-	// MEASURED, not aspirational. J00597's repair is licensed by case
-	// 1/2 — its intact twin puts both spellings in the input's parsed
-	// target set. D00478's is NOT licensed by any of the five cases:
-	// the damaged tag parses to `href: ''` / `data-ref: ''`, so the
-	// bytes that prove the repair are invisible to a gate that reads
-	// PARSED targets. Closing that needs a new gate case, which is a
-	// maintainer ruling. This test pins the gap so registration does
-	// not discover it by throwing.
-	it('is licensed by the link-target gate on J00597 but not on D00478', () => {
-		const verdict = new Map<string, string[]>();
-		for (const rid of BOTH) {
-			const entry = captured(rid);
-			const result = unterminatedHref.apply(entry);
-			verdict.set(entry.rid, checkLinkTargets(entry, result.entry, result));
-		}
-		expect(verdict.get('J00597')).toEqual([]);
-		expect(verdict.get('D00478')).toEqual([
-			`target "Jastrow, כָּלוּל 1" is not in D00478's input`,
-		]);
 	});
 });

@@ -18,6 +18,7 @@ import {
 	italicGlossPeriodOutside,
 	labelPeriodInside,
 } from './rules/italic-period.ts';
+import { unterminatedHref } from './rules/malformed-href.ts';
 import {
 	pluralToFeminineFinalLetter,
 	shurukAsYodDisplayCorruption,
@@ -56,6 +57,46 @@ import type { Rule } from './types.ts';
 /** Rules in execution order. Entangled rows MUST be adjacent — they own
  * the same records and will rewrite each other's work otherwise. */
 const RULES: readonly Rule[] = [
+	// ======== REPAIR THE PARSER'S VIEW FIRST ========
+	//
+	// `unterminated-href-swallows-closing-tag` (batch 4 task 5, gated
+	// 2026-08-27 by `fix/link-target-gate-cases`). 2 occurrences, D00478
+	// and J00597, and it leads `RULES` on its own module's argument
+	// rather than on the doctrine below.
+	//
+	// An `href` that swallowed its own `</a>` leaves everything after it
+	// inside an unrecovered `attributeInterior` region, and `links.ts`
+	// marks every anchor trapped in one `interior: true`. BOTH editors
+	// refuse those outright. In J00597 that is twelve anchors — the
+	// ENTIRE corpus-wide `interior` population, all in that one entry,
+	// all behind this one tag — so until this rule runs, no other rule
+	// in this list can reach them, and each of them would decline for a
+	// reason that is an artefact of the damage rather than a fact about
+	// the text. That is the "unwrap before wrap" doctrine below in its
+	// most literal form: a rule that repairs what the TOKENIZER can see
+	// runs before every rule that reads the tokens.
+	//
+	// It shares the `text-repairs` phase with every other rule
+	// (`structural-repairs` runs AFTER `text-repairs` per
+	// `admin/pipeline/patch/apply.ts:56-57`, which is the wrong side of
+	// every rule that edits an anchor this one frees), so position in
+	// this list is the only thing that sequences it.
+	//
+	// It was written in batch 4 and deliberately left UNREGISTERED: the
+	// link-target gate refused D00478, and `run.ts` throws on a gate
+	// problem, so registering it would have halted the migration on the
+	// first pass over that entry. Case 6 (spec
+	// docs/specs/2026-08-27-link-target-gate-cases.md §2) licenses the
+	// repair from the tag's own damaged bytes, the rule DECLARES the
+	// pair through `restored`, and the row leaves `PENDING` below.
+	//
+	// It is neither an unlink nor a retarget nor a wrap: it declares no
+	// `unlinks`, and it writes a target only by relocating the bytes
+	// that already spelled it. `registry.order.test.ts` classifies it in
+	// its own `RESTORE` set, EARNED over the corpus from the `restored`
+	// declaration exactly as `GLYPH` is earned from `glyphCorrected`.
+	unterminatedHref,
+
 	// ======== UNLINK BEFORE WRAP ========
 	//
 	// REORDERED 2026-08-26 (fix/rtl-unlink-order). The rtl trio used to
@@ -844,7 +885,10 @@ const PENDING: readonly string[] = [
 	'reversed-hebrew-phrase',
 	'empty-lead-sense',
 	'abbrev-fused-headword',
-	'unterminated-href-swallows-closing-tag',
+	// `unterminated-href-swallows-closing-tag` left this list on
+	// 2026-08-27 (fix/link-target-gate-cases): `unterminatedHref` is
+	// registered FIRST in `RULES` above, now that link-target case 6
+	// licenses D00478's repair. See the block at the head of `RULES`.
 	'stem-head-marker-chop',
 	'vkh-geresh-loss',
 	'tosefta-variant-chapter-halakha-loss',
@@ -907,11 +951,11 @@ const PENDING: readonly string[] = [
 	// row's rule, which is neither "registered" nor "still owed a rule"
 	// and had no way to be said here.
 	//
-	// TWO of batch 4's ten rows are still here and both are BLOCKED on
-	// a shared-gate ruling rather than on a missing predicate. Neither
-	// is idle: a rule exists for one and a population is pinned for the
-	// other, so what a `PENDING` entry claims for these two is that the
-	// row is owed a REGISTERED rule, which it is.
+	// TWO of batch 4's ten rows were left here BLOCKED on a shared-gate
+	// ruling rather than on a missing predicate. Neither was idle: a
+	// rule existed for one and a population was pinned for the other, so
+	// what a `PENDING` entry claimed for those two is that the row is
+	// owed a REGISTERED rule, which it was.
 	//
 	// - `unterminated-href-swallows-closing-tag` (2 occurrences, D00478
 	//   and J00597) HAS a written, tested rule on this branch —
@@ -929,6 +973,16 @@ const PENDING: readonly string[] = [
 	// Both fold into one follow-up gate PR (Brian, 2026-08-26), on the
 	// shape PR #50 took: a ruling on a SHARED gate is not an
 	// implementation choice inside one rule module.
+	//
+	// CORRECTED 2026-08-27 (fix/link-target-gate-cases). That PR is this
+	// branch, and the first of the two bullets above is now HISTORY: the
+	// gate grew case 6, `unterminatedHref` declares `restored`, and the
+	// row is registered at the head of `RULES`. The bullet is quoted
+	// rather than deleted because it is the record of what the deferral
+	// claimed, and the claim was exactly right — the target WAS absent
+	// from the parsed set, which is why the case that licenses it reads
+	// raw FIELD bytes instead. The tosefta bullet still stands and its
+	// marked slot is still empty.
 ];
 
 /**

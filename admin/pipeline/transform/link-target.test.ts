@@ -1021,3 +1021,243 @@ it('case 5 still refuses a flank the gate does not admit', () => {
 		`glyph-corrected ${JSON.stringify(`Jastrow, \ufb2a${GERSHAYIM}ב 1`)} substitutes a quote that no Hebrew letters flank`,
 	]);
 });
+
+// ————————————————————————————————————————————————————————————————
+// CASE 6 — restored from the tag's own damaged bytes.
+//
+// Spec docs/specs/2026-08-27-link-target-gate-cases.md §2. Three
+// clauses, and each one gets a test that FAILS when the clause is
+// removed: an assertion that cannot fail is indistinguishable from one
+// that always holds.
+//
+// The fixtures below are D00478's shape, reassembled from the tag and
+// the offset rather than pasted, so the reader can see the defect: the
+// swallowed `</a>` sits at offset 54 of an otherwise intact opening
+// tag. `rules/malformed-href.test.ts` holds the verbatim corpus slice
+// and the corpus-tier pin; this file tests the GATE.
+
+/** The opening tag D00478's repair emits — `written` in the claim. */
+const D_TAG =
+	'<a dir="rtl" class="refLink" href="/Jastrow,_כָּלוּל.1" data-ref="Jastrow, כָּלוּל 1">';
+
+/** The one insertion offset the input corroborates, measured. */
+const D_AT = 54;
+
+/** The same tag as the input actually holds it: the `</a>` that should
+ * have followed the tag supplying the tag's own `>` instead. */
+const D_DAMAGED = `${D_TAG.slice(0, D_AT)}</a>${D_TAG.slice(D_AT)}`;
+
+const D_LEAD =
+	'<a class="refLink" href="/Mekhilta_d\'Rabbi_Yishmael.1" data-ref="Mekhilta d\'Rabbi Yishmael 1">Mekh. I. c., v. ';
+
+const D_BAD = `${D_LEAD}${D_DAMAGED}כָּלוּל</a>.`;
+const D_GOOD = `${D_LEAD}</a>${D_TAG}כָּלוּל</a>.`;
+
+/** One case-6 claim, shaped by the result contract rather than
+ * inferred, so a change to the declaration is a type error here. */
+type Restore = NonNullable<TransformResult['restored']>[number];
+
+const restore: Restore = { removed: '</a>', written: D_TAG };
+
+/** Both of the repaired anchor's targets, and the reason case 1/2
+ * cannot be what licenses the repair: the damaged tag parses to
+ * `href: ''` / `data-ref: ''`, so neither spelling is in the input's
+ * parsed target set even though both are in its BYTES. Asserted rather
+ * than asserted-about, because "case 6 licensed it" is only meaningful
+ * if no earlier case could have. */
+it('neither restored target is in the input’s parsed target set', () => {
+	const parsed = anchors(tokenize(D_BAD)).flatMap((a) => [a.href, a.dataRef]);
+	expect(parsed).not.toContain('/Jastrow,_כָּלוּל.1');
+	expect(parsed).not.toContain('Jastrow, כָּלוּל 1');
+	// …and the bytes ARE there, which is the whole warrant.
+	expect(D_BAD).toContain(D_DAMAGED);
+});
+
+it('case 6 licenses a tag restored from its own damaged bytes', () => {
+	const after = entry(D_GOOD);
+	expect(
+		checkLinkTargets(
+			entry(D_BAD),
+			after,
+			result(after, { restored: [restore] }),
+		),
+	).toEqual([]);
+});
+
+it('an undeclared restoration is still a fabrication', () => {
+	const after = entry(D_GOOD);
+	expect(checkLinkTargets(entry(D_BAD), after, result(after))).toEqual([
+		`target "Jastrow, כָּלוּל 1" is not in T00001's input`,
+	]);
+});
+
+/** Case 6 settles a whole opening TAG, so one claim answers for both
+ * attributes. The test above shows it reaching `data-ref`, which is
+ * judged first and would mask an `href` the case could not license;
+ * this one puts the `data-ref` beyond doubt — it is unchanged, so
+ * case 1/2 settles it — and leaves `href` as the only value that can
+ * reach case 6. Refused without the claim, licensed with it. */
+it('case 6 reaches the href as well as the data-ref', () => {
+	const src = entry('<a href="/ba" data-ref="r">x</a>');
+	const after = entry('<a href="/a" data-ref="r">x</a>');
+	const claim = { removed: 'b', written: '<a href="/a" data-ref="r">' };
+	expect(checkLinkTargets(src, after, result(after))).toEqual([
+		`target "/a" is not in T00001's input`,
+	]);
+	expect(
+		checkLinkTargets(src, after, result(after, { restored: [claim] })),
+	).toEqual([]);
+});
+
+/** CLAUSE 1, and the only way it can bite from outside: a claim is
+ * matched to an anchor by `written === anchor.tag`, so a claim naming
+ * bytes the rule did not emit as a tag licenses nothing at all. Here
+ * `written` is the honest tag minus its final `>` — close enough that
+ * a match on "starts with" or "is contained in" would let it through,
+ * and not the tag any anchor carries. */
+it('case 6 refuses a claim that does not name the emitted tag', () => {
+	const after = entry(D_GOOD);
+	expect(
+		checkLinkTargets(
+			entry(D_BAD),
+			after,
+			result(after, {
+				restored: [{ removed: '</a>', written: D_TAG.slice(0, -1) }],
+			}),
+		),
+	).toEqual([`target "Jastrow, כָּלוּל 1" is not in T00001's input`]);
+});
+
+/** CLAUSE 2. Same tag, same offsets tried, a run the input never
+ * held — so re-insertion reproduces nothing and the claim is refused
+ * rather than believed. */
+it('case 6 refuses a run the input cannot corroborate', () => {
+	const after = entry(D_GOOD);
+	expect(
+		checkLinkTargets(
+			entry(D_BAD),
+			after,
+			result(after, { restored: [{ removed: '</b>', written: D_TAG }] }),
+		),
+	).toEqual([
+		`restored "Jastrow, כָּלוּל 1" re-inserting "</b>" matches nothing in T00001's input`,
+	]);
+});
+
+/** CLAUSE 2 again, from the other direction: the corroboration must
+ * come from THIS entry's input, not from the output the rule handed
+ * back. An input that never held the damaged bytes refuses the same
+ * claim that D00478's input licenses. */
+it('case 6 reads the input’s bytes, not the output’s', () => {
+	const after = entry(D_GOOD);
+	expect(
+		checkLinkTargets(
+			entry(`${A('Yoma 2a', 'Ib.')} and ${A('Shabbat 30b', 'Sabb.')}`),
+			after,
+			result(after, { restored: [restore] }),
+		),
+	).toContain(
+		`restored "Jastrow, כָּלוּל 1" re-inserting "</a>" matches nothing in T00001's input`,
+	);
+});
+
+/** An empty `removed` needs no clause of its own — every offset then
+ * yields `written` itself, so a tag the input does not hold verbatim
+ * scores zero offsets and one it does hold scores `written.length + 1`.
+ * Only the zero branch is reachable through the gate: a `written` the
+ * input holds verbatim parses there too, which puts both its
+ * attributes in the target set and settles the anchor under case 1/2
+ * before case 6 is consulted. */
+it('case 6 refuses a claim that removed nothing', () => {
+	const after = entry(D_GOOD);
+	expect(
+		checkLinkTargets(
+			entry(D_BAD),
+			after,
+			result(after, { restored: [{ removed: '', written: D_TAG }] }),
+		),
+	).toEqual([
+		`restored "Jastrow, כָּלוּל 1" re-inserting "" matches nothing in T00001's input`,
+	]);
+});
+
+/** ALL-claim, on `glyphFaults`'s argument one case out: a rule lifted
+ * ONE run out of ONE tag, so a second claim naming the same `written`
+ * with a different `removed` is a false account of that deletion, and
+ * an honest claim beside it must not launder it. */
+it('case 6 refuses an honest claim standing beside a false one', () => {
+	const after = entry(D_GOOD);
+	expect(
+		checkLinkTargets(
+			entry(D_BAD),
+			after,
+			result(after, {
+				restored: [restore, { removed: '</b>', written: D_TAG }],
+			}),
+		),
+	).toEqual([
+		`restored "Jastrow, כָּלוּל 1" re-inserting "</b>" matches nothing in T00001's input`,
+	]);
+});
+
+// ---- CLAUSE 3: ambiguity is a refusal, not a choice ----
+//
+// The pair below is the clause on its own. Claim, output and removed
+// run are IDENTICAL in both tests; the only difference is a second
+// witness in the input. One witness licenses, two refuse — so the
+// refusal is attributable to the ambiguity and to nothing else, which
+// is what a clause-3 test has to show.
+//
+// `/a` is the value under judgement in both: the anchors carry no
+// `data-ref`, and `''` is in the input target set (every input anchor
+// lacks one too), so case 1/2 settles `data-ref` and `href` is what
+// reaches case 6.
+
+const ONE_WITNESS = '<a href="/ba">x</a>';
+const TWO_WITNESSES = '<a href="/ba">x</a><a href="/ab">y</a>';
+const SHORT = '<a href="/a">';
+const clipped: Restore = { removed: 'b', written: SHORT };
+
+it('case 6 licenses a restore the input corroborates at one offset', () => {
+	const after = entry(`${SHORT}x</a>`);
+	expect(
+		checkLinkTargets(
+			entry(ONE_WITNESS),
+			after,
+			result(after, { restored: [clipped] }),
+		),
+	).toEqual([]);
+});
+
+it('case 6 refuses the same restore when two offsets corroborate it', () => {
+	const after = entry(`${SHORT}x</a><a href="/ab">y</a>`);
+	expect(
+		checkLinkTargets(
+			entry(TWO_WITNESSES),
+			after,
+			result(after, { restored: [clipped] }),
+		),
+	).toEqual([
+		`restored "/a" re-inserting "b" matches T00001's input at 2 offsets (10, 11)`,
+	]);
+});
+
+/** The other flavour of ambiguity, and the reason offsets are counted
+ * rather than candidate strings: a repeated character beside the
+ * insertion point makes several offsets produce the SAME bytes. The
+ * gate cannot tell which `a` was lifted out and declines to pick, even
+ * though every candidate is the same string. */
+it('case 6 refuses an insertion point a repeated character blurs', () => {
+	const after = entry('<a href="/aa">x</a>');
+	expect(
+		checkLinkTargets(
+			entry('<a href="/aaa">x</a>'),
+			after,
+			result(after, {
+				restored: [{ removed: 'a', written: '<a href="/aa">' }],
+			}),
+		),
+	).toEqual([
+		`restored "/aa" re-inserting "a" matches T00001's input at 3 offsets (10, 11, 12)`,
+	]);
+});

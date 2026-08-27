@@ -15,7 +15,7 @@
  *
  * The contract is one sentence: **a rule may only write a link target
  * it can point at in this entry's own input.** Concretely, every
- * anchor in `after` must satisfy one of the spec's five cases:
+ * anchor in `after` must satisfy one of the spec's six cases:
  *
  * 1. **Unchanged** and 2. **copied** collapse into ONE membership
  *    test here. An unchanged target is trivially present in the
@@ -74,6 +74,39 @@
  *    letters, which is what stops a claim converting the quotes that
  *    DELIMIT an attribute instead of the one stranded inside it.
  *    `glyphFault` carries both arguments. Cases 1-4 are untouched.
+ * 6. **Restored** (gate-cases spec of 2026-08-27 §2) — a rule repaired
+ *    an opening tag by DELETING a run that never belonged inside it,
+ *    and DECLARED the pair through `TransformResult.restored`. The
+ *    gate re-inserts the run and requires the result to be a
+ *    byte-exact SUBSTRING of some field in this entry's own input, at
+ *    EXACTLY ONE insertion offset. Ambiguity is a refusal, not a
+ *    choice.
+ *
+ *    It is case 5's lesson one level further out, and the extra level
+ *    is the whole reason it exists. Case 5 reads raw tag bytes but
+ *    compares them against the input anchors' `.tag` values, which
+ *    works for gershayim because a stranded ASCII quote still leaves a
+ *    tag the tokenizer accepts. A tag whose `href` swallowed the
+ *    `</a>` that should have followed it does not parse as a tag at
+ *    all — `opensScope` is false, and everything after it reads as
+ *    that attribute's value — so it appears in NO anchor's `.tag` and
+ *    a case phrased on parsed tags refuses the repair for exactly the
+ *    damage it undoes. This case therefore compares against
+ *    `fieldsOf(input)`: the raw bytes, before anything parses them.
+ *    Measured on D00478, the entry that forced it: re-inserting `</a>`
+ *    into the written tag recovers an input substring at ONE offset
+ *    (54) and nowhere else.
+ *
+ *    Safe by construction rather than by population, on case 5's
+ *    argument: every character of `written` except the deleted run is
+ *    pinned by input bytes, in order, contiguously, at a unique
+ *    offset. The case cannot move a link to another entry, cannot
+ *    alter a locus, and cannot recover an address the input did not
+ *    spell out — it can only delete a declared run from bytes the
+ *    input already contains. Like case 5 it licenses a whole opening
+ *    TAG and so settles both attributes at once, and like case 5 it is
+ *    ALL-claim. Cases 1-5 are untouched; nothing was loosened to make
+ *    room.
  *
  * `href` and `data-ref` are checked INDEPENDENTLY against that one
  * set. A rule that copies both from the same source anchor therefore
@@ -232,14 +265,46 @@
  *   four attribute names in use, none Hebrew-initial — so condition 4
  *   is closed by the INPUT rather than by the shape of HTML, and a
  *   re-fetch that introduced such an attribute would reopen it.
- * - **Unused claims.** A `composed`, `recombined` or `glyphCorrected`
- *   entry matching no anchor grants nothing, but is not itself
- *   reported, so a stale declaration left in a rule will not be
+ * - **A tag, not an address, in case 6.** Case 5's bullet above, word
+ *   for word, and for the same reason: the case asks only whether the
+ *   bytes were in the input minus one declared run. A link that
+ *   pointed at the wrong entry BEFORE its tag was damaged still points
+ *   there after the damage is undone, and case 6 licenses that,
+ *   because the wrong address is spelled out in the input bytes the
+ *   repair reassembles. Correct for a rule that relocates markup — the
+ *   repair is not what aimed the link — and wrong for anything else.
+ * - **Which bytes, in case 6.** The comparison is against whole FIELD
+ *   bytes, not against the input's tags, so the run `written`
+ *   reproduces need not have been a TAG in the input: document text
+ *   that happens to spell one licenses a claim just as well. That is
+ *   deliberate and it is the point — the defect makes the tag
+ *   unparseable, so there is no input tag to compare against — but it
+ *   is a genuinely wider warrant than case 5's, and the width is here
+ *   rather than in the case's own note so it sits with the rest of
+ *   them.
+ * - **Which run, in case 6.** The gate never asks WHAT `removed` is,
+ *   only that re-inserting it lands. Nothing restricts it to markup: a
+ *   claim deleting a run of display text from inside a tag clears the
+ *   same three clauses. Every byte is still the input's, so this
+ *   cannot fabricate an address; it can rearrange one the input holds.
+ * - **Which anchor, in case 6.** There is no multiplicity cap like
+ *   case 5's, and none is available. Case 5 bounds a claim by how many
+ *   input anchors carried its `from` TAG; case 6's `written` is by
+ *   construction a tag the input never held AS A TAG — that is the
+ *   defect — so the same cap reads 0 for every honest claim and would
+ *   refuse them all. Two output anchors carrying byte-identical
+ *   repaired tags are therefore both licensed by one claim. The same
+ *   shape as "which anchor, in case 5" and the same root: this gate
+ *   counts, and does not track identity.
+ * - **Unused claims.** A `composed`, `recombined`, `glyphCorrected` or
+ *   `restored` entry matching no anchor grants nothing, but is not
+ *   itself reported, so a stale declaration left in a rule will not be
  *   flagged. A claim that DOES match diverges by case: cases 3 and 4
  *   are ANY-claim, so a faulty claim beside an honest one on the same
- *   value is ignored; case 5 is ALL-claim, so it refuses the anchor.
- *   `glyphFaults` argues why — for case 5 a second claim on the same
- *   tag can only be a false provenance, never an alternative source.
+ *   value is ignored; cases 5 and 6 are ALL-claim, so they refuse the
+ *   anchor. `glyphFaults` argues why — for case 5 a second claim on
+ *   the same tag can only be a false provenance, never an alternative
+ *   source — and `restoreFaults` inherits the argument.
  * - **Provenance stops at the rule boundary.** `run.ts` gates each
  *   rule against the entry AS OF THAT RULE'S START, not against the
  *   phase's original input, so rule N reads the targets rule N−1
@@ -274,6 +339,11 @@ type GlyphCorrect = { from: string; target: string };
 
 /** One declared recombination (`TransformResult.recombined`). */
 type Recombine = { head: string; tail: string; target: string };
+
+/** One declared restoration (`TransformResult.restored`). `written` is
+ * a RAW opening tag, like `GlyphCorrect`'s members; `removed` is the
+ * run the rule lifted out of it, and is not a target of any kind. */
+type Restore = { removed: string; written: string };
 
 /** The gershayim, U+05F4 — the one character case 5 may map back to an
  * ASCII quote.
@@ -357,16 +427,25 @@ function hasStrayGershayim(tag: string): boolean {
 
 /** Everything `checkValue` reads about the entry, gathered once per
  * call: the input anchors, the target set built from them, the raw
- * opening tags case 5 compares against, the rule's declared claims,
- * and the rid for the messages.
+ * opening tags case 5 compares against, the raw FIELD bytes case 6
+ * compares against, the rule's declared claims, and the rid for the
+ * messages.
  *
  * `tags` and `written` are TALLIES rather than sets because case 5
  * caps a claim's reach by them: a claim may license no more output
- * anchors than the input held anchors carrying its `from`. */
+ * anchors than the input held anchors carrying its `from`.
+ *
+ * `fields` is the input's raw field strings, unparsed. Case 6 needs
+ * them because the tag it licenses does not tokenize as a tag on the
+ * input side — see that case in the module doc — so there is nothing
+ * in `tags` for it to compare against. It is the SOURCE side only:
+ * comparing a repair against the output would license anything. */
 interface Input {
 	claims: readonly Compose[];
+	fields: readonly string[];
 	glyphs: readonly GlyphCorrect[];
 	rejoins: readonly Recombine[];
+	restores: readonly Restore[];
 	rid: string;
 	source: readonly Anchor[];
 	tags: ReadonlyMap<string, number>;
@@ -805,26 +884,144 @@ function glyphFaults(
 }
 
 /**
+ * Every offset at which re-inserting `claim.removed` into
+ * `claim.written` reproduces a byte-exact substring of one of the
+ * entry's own input fields — spec §2 clause 2, and the raw material
+ * clause 3 counts.
+ *
+ * Offsets run `0 … written.length` inclusive, so a run lifted from
+ * either end of the tag is expressible. They are CODE UNITS, not
+ * codepoints, and that is safe in the direction that matters: the test
+ * is exact substring equality, so a split inside a surrogate pair or
+ * before a combining mark can only match when the same units are
+ * genuinely present in the input. It can make two offsets produce the
+ * SAME candidate string — a repeated character next to the insertion
+ * point does it — and both are counted, which refuses the claim under
+ * clause 3. That is the intended reading: the gate cannot tell which
+ * of two identical positions the rule meant, and declines to pick.
+ *
+ * Quadratic in the tag length by construction (one substring search
+ * per offset). Tags are short and claims are rare — the corpus holds
+ * two — so the honest loop is cheaper than an index that would have to
+ * be justified.
+ */
+function restoreOffsets(claim: Restore, fields: readonly string[]): number[] {
+	const { removed, written } = claim;
+	const found: number[] = [];
+	for (let at = 0; at <= written.length; at++) {
+		const candidate = written.slice(0, at) + removed + written.slice(at);
+		if (fields.some((field) => field.includes(candidate))) {
+			found.push(at);
+		}
+	}
+	return found;
+}
+
+/**
+ * Why `claim` does not license this tag, or `undefined` when it does.
+ * The spec's three clauses, and every one of them fail-closed.
+ *
+ * 1. `written` is the raw opening tag the rule emitted. That is not
+ *    tested here but in the CALLER, which matches a claim to an anchor
+ *    by `written === anchor.tag` — the same shape as case 5's
+ *    `target === anchor.tag`, and for the same reason: the parsed
+ *    attributes of this tag are exactly what the defect destroyed.
+ * 2. Re-inserting `removed` into `written` must reproduce a byte-exact
+ *    substring of some field in this entry's OWN input. Every
+ *    character of `written` is then pinned by input bytes, in order
+ *    and contiguously, except across the one deleted run.
+ * 3. EXACTLY ONE insertion offset may satisfy (2). Two offsets mean
+ *    the input does not say which run was lifted, and a gate that
+ *    picked one would be asserting a provenance it cannot read. Zero
+ *    means the bytes are not the input's at all.
+ *
+ * An empty `removed` needs no clause of its own: every offset then
+ * yields `written` itself, so a `written` the input holds verbatim
+ * gives `written.length + 1` offsets and one it does not hold gives
+ * none. Both are refused by (3), which is why this does not carry a
+ * fourth condition to say so.
+ *
+ * Messages name the VALUE under judgement rather than the tag, on
+ * `glyphFault`'s reasoning: tag values repeat, and a message phrased
+ * on the tag alone would read as a statement about whichever anchor
+ * the rule author had in mind rather than the one being refused.
+ */
+function restoreFault(
+	value: string,
+	claim: Restore,
+	input: Input,
+): string | undefined {
+	const offsets = restoreOffsets(claim, input.fields);
+	const lead = `restored ${JSON.stringify(value)}`;
+	if (offsets.length === 0) {
+		return `${lead} re-inserting ${JSON.stringify(claim.removed)} matches nothing in ${input.rid}'s input`;
+	}
+	return offsets.length === 1
+		? undefined
+		: `${lead} re-inserting ${JSON.stringify(claim.removed)} matches ${input.rid}'s input at ${offsets.length} offsets (${offsets.join(', ')})`;
+}
+
+/**
+ * Faults from the case-6 arm, sharing `glyphFaults`'s protocol exactly
+ * — `undefined` means a declared claim licensed this anchor, an EMPTY
+ * array means no claim spoke to it at all — and its ALL-claim
+ * quantifier for the same argument, one case out.
+ *
+ * `glyphFaults` is ALL-claim because at most one `from` can ever
+ * de-map from a given `target`, so a second claim on the same tag can
+ * only assert a provenance the bytes contradict. Here the equivalent
+ * holds a step later: a rule lifted ONE run out of ONE tag, so two
+ * claims naming the same `written` with different `removed` are two
+ * accounts of one deletion and at least one of them is false. Under
+ * ANY-claim a rule could declare the true pair alongside any amount of
+ * garbage and this gate — whose whole job is the declaration audit —
+ * would say nothing about it.
+ *
+ * A claim is matched by `written === anchor.tag`, which is clause 1.
+ * Nothing else here reads the anchor: like case 5 this licenses a TAG
+ * and settles both of its attributes at once, and it has to, because
+ * neither of them parses on the input side.
+ */
+function restoreFaults(
+	value: string,
+	anchor: Anchor,
+	input: Input,
+): string[] | undefined {
+	const claims = input.restores.filter((claim) => claim.written === anchor.tag);
+	if (claims.length === 0) {
+		return [];
+	}
+	const faults = claims
+		.map((claim) => restoreFault(value, claim, input))
+		.filter((fault): fault is string => fault !== undefined);
+	return faults.length === 0 ? undefined : faults;
+}
+
+/**
  * Why this anchor's `value` (its `href` or its `data-ref`) is not one
- * the entry's input could supply, or `undefined` when it is. The five
+ * the entry's input could supply, or `undefined` when it is. The six
  * spec cases, in order, one line each.
  *
  * Membership in `targets` settles cases 1 and 2 outright. Otherwise
  * the value must be licensed by a declared glyph correction (case 5),
- * composition (case 3) or recombination (case 4). Cases 3 and 4 are
- * matched to this anchor by `target === anchor.dataRef` and case 5 by
- * `target === anchor.tag`: EVERY matching anchor must satisfy the
- * claim, which falls out of checking each anchor against every claim
- * that names it rather than pairing them off. One licence is enough —
- * a value more than one kind of claim names passes if any admits it —
- * and the first fault is reported when none does, case 5 before 3
- * before 4. With no claim of any kind the value is simply absent from
- * the input, which is the fabrication message and the fallback below.
+ * restoration (case 6), composition (case 3) or recombination
+ * (case 4). Cases 3 and 4 are matched to this anchor by
+ * `target === anchor.dataRef`, case 5 by `target === anchor.tag` and
+ * case 6 by `written === anchor.tag`: EVERY matching anchor must
+ * satisfy the claim, which falls out of checking each anchor against
+ * every claim that names it rather than pairing them off. One licence
+ * is enough — a value more than one kind of claim names passes if any
+ * admits it — and the first fault is reported when none does, case 5
+ * before 6 before 3 before 4. With no claim of any kind the value is
+ * simply absent from the input, which is the fabrication message and
+ * the fallback below.
  *
- * Case 5 is consulted FIRST, and before either attribute is judged,
- * because it licenses a whole opening TAG: a licensed tag settles
- * both of its attributes at once, and neither of them parses on the
- * input side, which is the point of stating that case on bytes.
+ * The two TAG cases are consulted FIRST, and before either attribute
+ * is judged, because each licenses a whole opening TAG: a licensed tag
+ * settles both of its attributes at once, and neither of them parses
+ * on the input side, which is the point of stating those cases on
+ * bytes. Case 5 leads case 6 only because it is older; they are keyed
+ * to different declarations and cannot both speak to one claim.
  */
 function checkValue(
 	value: string,
@@ -838,6 +1035,10 @@ function checkValue(
 	if (glyphs === undefined) {
 		return;
 	}
+	const restores = restoreFaults(value, anchor, input);
+	if (restores === undefined) {
+		return;
+	}
 	const composed = composeFaults(value, anchor, input);
 	if (composed === undefined) {
 		return;
@@ -847,7 +1048,7 @@ function checkValue(
 		return;
 	}
 	return (
-		[...glyphs, ...composed, ...rejoined][0] ??
+		[...glyphs, ...restores, ...composed, ...rejoined][0] ??
 		`target ${JSON.stringify(value)} is not in ${input.rid}'s input`
 	);
 }
@@ -879,7 +1080,7 @@ function checkLinkTargets(
 	after: SourceEntry,
 	result: Pick<
 		TransformResult,
-		'composed' | 'glyphCorrected' | 'recombined' | 'unlinks'
+		'composed' | 'glyphCorrected' | 'recombined' | 'restored' | 'unlinks'
 	>,
 ): string[] {
 	const sourceFields = fieldsOf(before);
@@ -890,8 +1091,10 @@ function checkLinkTargets(
 	const { rid } = after;
 	const input: Input = {
 		claims: result.composed ?? [],
+		fields: sourceFields,
 		glyphs: result.glyphCorrected ?? [],
 		rejoins: result.recombined ?? [],
+		restores: result.restored ?? [],
 		rid,
 		source,
 		tags: tally(source),

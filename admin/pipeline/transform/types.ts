@@ -135,6 +135,42 @@ interface TransformResult {
 	 * head's own locus. */
 	recombined?: readonly { head: string; tail: string; target: string }[];
 	records: TransformRecord[];
+	/** Opening tags this call repaired by DELETING a run that never
+	 * belonged inside them (link-target gate case 6, spec
+	 * docs/specs/2026-08-27-link-target-gate-cases.md §2). `written` is
+	 * the raw opening tag the rule emitted; `removed` is the run it
+	 * lifted out. `link-target.ts` accepts the pair only if re-inserting
+	 * `removed` into `written` reproduces a byte-exact SUBSTRING of some
+	 * field in this entry's own input, and only if EXACTLY ONE insertion
+	 * offset does so — ambiguity is a refusal, not a choice.
+	 *
+	 * Stated on RAW FIELD BYTES rather than on parsed targets, and one
+	 * level further out than case 5's raw tag bytes. Case 5 compares
+	 * against the input anchors' `.tag` values, which works because a
+	 * stranded ASCII quote still leaves a parseable tag. A tag whose
+	 * `href` swallowed the following `</a>` does not parse as a tag at
+	 * all — `html.ts` reads it as malformed and everything after it as
+	 * that attribute's value — so it appears in NO anchor's `.tag`, and
+	 * a case phrased against the parsed tag set would refuse the repair
+	 * for exactly the damage it undoes.
+	 *
+	 * A claim is matched to an anchor by `written === anchor.tag`, and
+	 * every anchor it matches must satisfy EVERY claim naming it. It
+	 * settles both attributes of that tag at once, like case 5, because
+	 * neither of them parses on the input side.
+	 *
+	 * Two consequences rule authors need, both fail-closed:
+	 *
+	 * - A repair that ADDS bytes cannot be declared this way. Case 6
+	 *   only ever deletes a declared run from bytes the input already
+	 *   holds, so a reconstruction that writes an attribute copied from
+	 *   a witness elsewhere in the entry must clear cases 1-2 on its own
+	 *   (which it does, the witness being in the parsed target set).
+	 * - An empty `removed` licenses nothing: every offset then yields
+	 *   `written` itself, so a `written` the input holds verbatim
+	 *   produces `written.length + 1` satisfying offsets and one it does
+	 *   not hold produces none. Neither is one. */
+	restored?: readonly { removed: string; written: string }[];
 	/** How many anchors this call REMOVED from the entry, counted over
 	 * the whole entry rather than per field. The markup-delta gate
 	 * reads a dropped tag pair as an improvement and the text gate is

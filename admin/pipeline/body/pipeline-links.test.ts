@@ -26,7 +26,7 @@
  * a narrow window.
  *
  * The ABSOLUTE pin below is what widens it: `after` must hold exactly
- * 71,383 resolving Jastrow targets. Any change in any layer that moves
+ * 71,385 resolving Jastrow targets. Any change in any layer that moves
  * the corpus-wide total fails there instead, at no extra runtime. A new
  * unlink rule will move it legitimately — update the number WITH the
  * measurement that justifies it, never to make a red test green.
@@ -42,7 +42,27 @@
  *   resolving Jastrow targets       72,593 ->  71,383   (-1,210)
  *   DISTINCT (rid, data-ref) pairs 160,239 -> 160,239   (       0)
  *
- * The third line is the one that says nothing was lost: every removed
+ * MOVED AGAIN 2026-08-27 (fix/link-target-gate-cases), 71,383 ->
+ * 71,385, and this time UPWARD: registering `unterminatedHref` — held
+ * back through batch 4 because `checkLinkTargets` refused D00478, now
+ * licensed by the gate's case 6 — recovers the two cross-references an
+ * unterminated `href` had swallowed. Measured the same way, withholding
+ * that one rule and nothing else:
+ *
+ *   anchors corpus-wide            168,055 -> 168,055   (       0)
+ *   resolving Jastrow targets       71,385 ->  71,383   (      -2)
+ *   DISTINCT (rid, data-ref) pairs 160,238 -> 160,239   (      +1)
+ *
+ * The third line reads BACKWARDS here and says exactly what it should.
+ * The pairs LOST by registering the rule are `D00478 ""` and
+ * `J00597 ""` — the empty `data-ref` a damaged tag parses to, which is
+ * the defect and not an address — and the one GAINED is
+ * `D00478 "Jastrow, כָּלוּל 1"`. J00597's recovered address adds no
+ * distinct pair because its intact twin already carried it, which is
+ * the same witness the repair reads. So: 2 addresses restored, 2
+ * non-addresses retired, 0 lost.
+ *
+ * The batch-4 third line is the one that says nothing was lost: every removed
  * layer duplicated a target its inner twin still carries, so not one
  * address left the corpus. The 20 removals that were not resolving
  * Jastrow targets are the `jt-double-wrapped-citation` pairs — 2 each
@@ -120,7 +140,7 @@ function resolvingTargets(corpus: readonly SourceEntry[]): Set<string> {
  * the whole registry is expensive and none of the three needs its own.
  *
  * MEASURED 2026-08-27 on an arm64 macOS dev machine under Bun 1.3.14,
- * against a 33-rule registry: ~48s per pass, so the corpus read plus
+ * against a 34-rule registry: ~48s per pass, so the corpus read plus
  * both passes puts this whole file at ~100s locally. The FIRST `it`
  * bears all of it — the other two await a resolved promise. CI runs
  * this roughly 2× slower (the first `it` was observed at 187s there),
@@ -165,10 +185,14 @@ describe('the pipeline preserves and repairs link targets', () => {
 			lostCount: lost.length,
 		}).toEqual({ entries: 32_512, gained: 90, lost: [], lostCount: 0 });
 		// Absolute, not differential — see the module docstring. Measured
-		// on this tree; `before` is 71,293. Both figures moved by the
-		// same 1,210 when batch 4's two unlink rules registered, and the
-		// docstring carries the measurement.
-		expect(now.size).toBe(71_383);
+		// on this tree; `before` is 71,295. Both figures moved by the
+		// same 1,210 when batch 4's two unlink rules registered, and by
+		// the same 2 when `unterminatedHref` registered on 2026-08-27
+		// (`unterminatedHref` runs in BOTH passes here, so its gain lands
+		// on both sides and cancels out of the differential above — which
+		// is exactly why the absolute pin exists). The docstring carries
+		// both measurements.
+		expect(now.size).toBe(71_385);
 	}, 600_000);
 
 	it('leaves no escaped quote in the corpus, and one spelling per address', async () => {

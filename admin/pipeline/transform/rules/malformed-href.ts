@@ -38,6 +38,14 @@
  * `tosefta-variant-chapter-halakha-loss`, which is blocked on the same
  * kind of refusal in the same gate.
  *
+ * CORRECTED 2026-08-27 (fix/link-target-gate-cases). The day came.
+ * `link-target.ts` case 6 licenses the D00478 repair from the tag's
+ * own damaged bytes, this rule DECLARES the pair through
+ * `TransformResult.restored`, and it is registered FIRST in `RULES` on
+ * the argument the section above makes and has always made. The
+ * paragraph above is kept because it records what a deferral looked
+ * like from the inside; it no longer describes this module.
+ *
  * ## Two shapes, one defect
  *
  * The damage is the same missing quote in both entries; what differs
@@ -93,33 +101,57 @@
  * count alone would let a widened predicate swap one member for
  * another and still pass.
  *
- * ## The link-target gate does NOT license D00478 — measured, not assumed
+ * ## The link-target gate licenses D00478 under case 6 — measured, not assumed
  *
- * `link-target.ts` builds its input target set from the input's PARSED
- * anchors, and the whole nature of this defect is that the damaged
- * tag's attributes do not parse: D00478's malformed anchor reads
- * `href: ''`, `data-ref: ''`. So `/Jastrow,_כָּלוּל.1` and
- * `Jastrow, כָּלוּל 1` — which are present in the input as raw BYTES,
- * inside the damaged tag and in the text token behind it — are absent
- * from the set case 1/2 tests membership against, and the repair is
- * reported as a fabrication. Cases 3 and 4 cannot rescue it either:
- * the nearest input target is `Jastrow, כָּלָה 1`, whose common prefix
- * leaves a remainder (`וּל 1`) holding a space and a `1` that the
- * anchor's display (`כָּלוּל`) does not, and no input target ends in that
- * remainder. Case 5 is gershayim-only. This rule therefore DECLARES
- * NOTHING — a false claim would be worse than an honest failure — and
- * `malformed-href.test.ts` PINS the gate's verdict on both entries so
- * the gap is a recorded measurement rather than a surprise at
- * registration time.
+ * CORRECTED 2026-08-27 (fix/link-target-gate-cases): this section read
+ * "**The link-target gate does NOT license D00478 — measured, not
+ * assumed**", and said of the five cases then in force:
+ *
+ * > `link-target.ts` builds its input target set from the input's
+ * > PARSED anchors, and the whole nature of this defect is that the
+ * > damaged tag's attributes do not parse: D00478's malformed anchor
+ * > reads `href: ''`, `data-ref: ''`. So `/Jastrow,_כָּלוּל.1` and
+ * > `Jastrow, כָּלוּל 1` — which are present in the input as raw BYTES,
+ * > inside the damaged tag and in the text token behind it — are
+ * > absent from the set case 1/2 tests membership against, and the
+ * > repair is reported as a fabrication. Cases 3 and 4 cannot rescue
+ * > it either: the nearest input target is `Jastrow, כָּלָה 1`, whose
+ * > common prefix leaves a remainder (`וּל 1`) holding a space and a `1`
+ * > that the anchor's display (`כָּלוּל`) does not, and no input target
+ * > ends in that remainder. Case 5 is gershayim-only. This rule
+ * > therefore DECLARES NOTHING — a false claim would be worse than an
+ * > honest failure — and `malformed-href.test.ts` PINS the gate's
+ * > verdict on both entries so the gap is a recorded measurement
+ * > rather than a surprise at registration time.
+ *
+ * Every measurement in it still holds of cases 1-5, and it is quoted
+ * rather than deleted because it is the reason case 6 exists. Its last
+ * paragraph — "structurally the same gap case 5 was invented to close
+ * … closing it needs a gate case, which is a maintainer ruling and not
+ * this task's to make" — was answered by Brian on 2026-08-27 and built
+ * as **case 6**, spec docs/specs/2026-08-27-link-target-gate-cases.md
+ * §2.
+ *
+ * What changed is one clause of the gate, not one byte of the repair.
+ * Case 6 reads RAW FIELD BYTES rather than parsed targets: the rule
+ * declares `{ removed: '</a>', written: <the tag it emitted> }`, and
+ * the gate re-inserts the run and requires the result to be a
+ * byte-exact substring of a field in this entry's own input at exactly
+ * one offset. On D00478 that offset is 54 and there is no other, so
+ * every character of the written tag is pinned by input bytes and the
+ * repair is licensed on evidence rather than on trust. The rule now
+ * DECLARES that pair, and only from the reordering arm — see
+ * `repairOne`.
+ *
+ * `malformed-href.test.ts` still PINS the gate's verdict on both
+ * entries. It pins the LICENCE now, and it pins the refusal that
+ * returns the moment the declaration is withheld, so the licence is
+ * attributable to the claim rather than to the gate having gone quiet.
  *
  * J00597 is clean by contrast, and for the reason the witness exists:
  * its intact twin puts both spellings in the input's parsed target
- * set, so case 1/2 licenses the repair outright.
- *
- * This is structurally the same gap case 5 was invented to close — a
- * repair whose evidence lives in raw tag bytes the parser cannot read
- * — and closing it needs a gate case, which is a maintainer ruling and
- * not this task's to make.
+ * set, so case 1/2 licenses the repair outright and it needs no
+ * declaration at all.
  */
 import type { SourceEntry } from '../../body/types.ts';
 import { mapFields } from '../fields.ts';
@@ -129,6 +161,11 @@ import { fieldsOf } from '../no-new-text.ts';
 import type { Rule, TransformResult } from '../types.ts';
 
 const RULE_ID = 'unterminated-href-swallows-closing-tag';
+
+/** One link-target case-6 claim. Derived from the result contract
+ * rather than restated, so a change to the gate's declaration shape is
+ * a type error here instead of a silently divergent literal. */
+type Restore = NonNullable<TransformResult['restored']>[number];
 
 /**
  * An opening `<a>` tag whose `href` value runs straight into the
@@ -252,8 +289,9 @@ function improves(before: string, after: string): boolean {
 }
 
 /**
- * The bytes that replace one `DAMAGED` match, or `undefined` when the
- * instance cannot be repaired from the evidence available.
+ * The bytes that replace one `DAMAGED` match, plus the gate claim the
+ * replacement earns — or `undefined` when the instance cannot be
+ * repaired from the evidence available.
  *
  * `head` is the match with its swallowed `</a>` removed — an opening
  * tag truncated mid-attribute. The two arms differ only in what has
@@ -262,48 +300,68 @@ function improves(before: string, after: string): boolean {
  * the J00597 arm has to write the closing quote, the witness
  * `data-ref` and the `>`, then park the same `</a>` immediately after
  * so the anchor closes with an empty display.
+ *
+ * ONLY the D00478 arm returns a `restored` claim, and the asymmetry is
+ * the case's own boundary rather than an omission. Case 6 licenses a
+ * tag the input holds MINUS a declared run; that arm deletes `</a>`
+ * from bytes the input already carries and nothing else, so the claim
+ * is exactly true. The J00597 arm ADDS a witness `data-ref` the
+ * damaged tag never held, so re-inserting `</a>` into what it wrote
+ * reproduces no input substring — the claim would be false and the
+ * gate would refuse it. That arm needs no claim: its witness puts both
+ * spellings in the input's parsed target set, so cases 1 and 2 license
+ * it outright.
  */
 function repairOne(
 	html: string,
 	match: RegExpExecArray,
 	witness: ReadonlyMap<string, string>,
-): string | undefined {
+): { restored?: Restore; text: string } | undefined {
 	const [whole] = match;
 	const head = whole.slice(0, whole.length - CLOSE.length);
 	const rest = html.slice(match.index + whole.length);
-	if (TAG_TAIL.test(rest)) {
-		return anchorDepthAt(html, match.index) > 0 ? CLOSE + head : undefined;
+	const tail = TAG_TAIL.exec(rest)?.[0];
+	if (tail !== undefined) {
+		return anchorDepthAt(html, match.index) > 0
+			? {
+					restored: { removed: CLOSE, written: head + tail },
+					text: CLOSE + head,
+				}
+			: undefined;
 	}
 	const url = match.groups?.['url'] ?? '';
 	const ref = witness.get(url);
 	if (ref === undefined || UNWRITABLE.test(ref)) {
 		return;
 	}
-	return `${head}" data-ref="${ref}">${CLOSE}`;
+	return { text: `${head}" data-ref="${ref}">${CLOSE}` };
 }
 
 /**
  * One field with every repairable instance rewritten, plus a detail
- * line per instance.
+ * line per instance and the case-6 claims the rewrite earns.
  *
  * Returns the input string by reference when nothing was repaired, so
  * `mapFields` can report the entry unchanged and `apply` can hand
  * back the caller's own object. The whole-field `improves` check runs
  * last and discards the rewrite wholesale if it failed, which keeps
  * the fail-closed guarantee at the level a partial repair could
- * otherwise slip past.
+ * otherwise slip past — and it discards the CLAIMS with it, since a
+ * claim describing bytes this rule did not ship is a false claim.
  */
 function repairField(
 	html: string,
 	witness: ReadonlyMap<string, string>,
 ): {
 	details: string[];
+	restored: Restore[];
 	text: string;
 } {
 	if (!html.includes(CLOSE)) {
-		return { details: [], text: html };
+		return { details: [], restored: [], text: html };
 	}
 	const details: string[] = [];
+	const restored: Restore[] = [];
 	let out = '';
 	let at = 0;
 	DAMAGED.lastIndex = 0;
@@ -311,17 +369,22 @@ function repairField(
 	while (match !== null) {
 		const repaired = repairOne(html, match, witness);
 		if (repaired !== undefined) {
-			out += html.slice(at, match.index) + repaired;
+			out += html.slice(at, match.index) + repaired.text;
 			at = match.index + match[0].length;
 			details.push(`href ${JSON.stringify(match.groups?.['url'] ?? '')}`);
+			if (repaired.restored !== undefined) {
+				restored.push(repaired.restored);
+			}
 		}
 		match = DAMAGED.exec(html);
 	}
 	if (details.length === 0) {
-		return { details: [], text: html };
+		return { details: [], restored: [], text: html };
 	}
 	const text = out + html.slice(at);
-	return improves(html, text) ? { details, text } : { details: [], text: html };
+	return improves(html, text)
+		? { details, restored, text }
+		: { details: [], restored: [], text: html };
 }
 
 /**
@@ -335,19 +398,22 @@ function repairField(
  * senses; a hand-rolled walk that stopped at the top level would be
  * both unmapped and unseen.
  *
- * No `allows`, no `copied`, no `unlinks` and no target claim of any
- * kind: every byte written is markup, no anchor is removed, and the
- * one target the gate does refuse (D00478's) is refused because the
- * gate cannot read the input bytes that prove it — see the module
- * docstring.
+ * No `allows`, no `copied` and no `unlinks`: every byte written is
+ * markup and no anchor is removed. The one gate declaration it does
+ * make is `restored` — link-target case 6 — and only from the
+ * reordering arm, whose repair deletes a run from bytes the input
+ * already holds. See `repairOne` for why the reconstruction arm
+ * declares nothing and needs nothing.
  */
 const unterminatedHref: Rule = {
 	apply(entry: SourceEntry): TransformResult {
 		const witness = witnessesOf(entry);
 		const details: string[] = [];
+		const restored: Restore[] = [];
 		const out = mapFields(entry, (html) => {
 			const repaired = repairField(html, witness);
 			details.push(...repaired.details);
+			restored.push(...repaired.restored);
 			return repaired.text;
 		});
 		if (out === undefined || details.length === 0) {
@@ -360,6 +426,7 @@ const unterminatedHref: Rule = {
 				rid: entry.rid,
 				ruleId: RULE_ID,
 			})),
+			...(restored.length > 0 ? { restored } : {}),
 		};
 	},
 	id: RULE_ID,
