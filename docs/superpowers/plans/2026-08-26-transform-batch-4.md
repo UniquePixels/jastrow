@@ -64,7 +64,7 @@
 - `bunx biome check .` before every commit. Branch baseline is **117 infos, 0 errors** — a new error is a regression. (116 before #50; `registry.order.test.ts` now trips `noExcessiveLinesPerFile` at 332 counted lines against a 300 soft max. `bun qa:lint` runs `--error-on-warnings` and still exits 0.)
 - Baseline test count on `45d50a4` is **876 pass / 0 fail**. Every task ends with a strictly larger pass count and 0 fail.
 - `Rule.apply` MUST treat `entry` as immutable and return a new object, or the same reference unchanged. `count.ts` recursively freezes the corpus, so an in-place write is a `TypeError`.
-- **No rule in this batch may set `allows`.** Seven boundary moves; every output byte is an input byte. A non-empty `allows` here is a design error, not a ruling.
+- **No rule in this batch may set `allows`.** Seven markup-repair mechanisms — boundary moves *and* duplicate-layer removals; every output byte is an input byte. A non-empty `allows` here is a design error, not a ruling.
 - Every rule that writes a `data-ref` or `href` must satisfy a `link-target.ts` case and DECLARE it. Only Task 3's tosefta rule writes a target; it uses **case 4 (`recombined`)**. **CORRECTED 2026-08-26: case 4 REFUSED it** (see STATUS) — `toseftaPrimaryHalakha` was never written, and **NO SHIPPED RULE IN THIS BATCH WRITES A TARGET AT ALL.**
 - Registry order is load-bearing. Entangled rows must be gap-free adjacent; the existing order test asserts it against the live graph.
 - Edit `patterns.jsonl` **surgically**, one line at a time — `renderPatterns()` reformats all 149 rows.

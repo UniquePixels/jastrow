@@ -456,7 +456,7 @@ Unchanged from module design §9, plus one addition:
 | Unit, per rule | the predicate fires on its shape and holds off near-misses |
 | `transform:count` | each predicate reproduces its **corrected** catalogue count |
 | `no-new-text`, per rule | empty `allows` throughout; no rule here writes text |
-| `markup`, per rule | output no less well-formed than input — the load-bearing gate for the **seven** boundary moves designed here (unit: repair mechanisms), **six** of them registered as shipped |
+| `markup`, per rule | output no less well-formed than input — the load-bearing gate for the **seven** markup-repair mechanisms designed here (unit: repair mechanisms; boundary moves *and* duplicate-layer removals, per §5), **six** of them registered as shipped |
 | Registry | coverage + `checkAdjacency` over the two entangled pairs |
 | **Commutation** (inherited, PR #50) | every unordered rule pair commutes, except where `entangledWith` declares it — §3.3. Two-rule exposure only; report which placements rest on it alone |
 | `pipeline-links.test.ts` | `applyRepairs` + registry over 32,512 entries — **the gate 3a added; every rule here edits anchors (six of six as shipped), so it is the one that matters most** |
