@@ -27,7 +27,15 @@ case 7 mints.** Only case 7 is a policy change.
 belonged inside it. It declares the pair; the gate re-inserts the run
 and requires the result to be byte-identical to a run the input held.
 
-**Declared as** `TransformResult.restored: { removed: string; written: string }[]`.
+**Declared as** `TransformResult.restored: { field: string; offset: number; removed: string; written: string }[]`.
+
+> **CORRECTED 2026-08-27 (fix/link-target-gate-cases).** This line read
+> `{ removed: string; written: string }[]`, which is the shape before the
+> witness binding and is no longer what `types.ts` declares. `field` and
+> `offset` are the witness: without them clause 2 accepted a byte-exact
+> match in *some* field, so a run appearing in a different field could
+> license a repair made elsewhere. A cross-field fixture now pins the
+> refusal.
 
 **The test, and every clause is load-bearing:**
 
@@ -79,7 +87,16 @@ parsed target set, so case 1/2 already licenses it.
 tail taken from a SIBLING anchor, where the sibling's own display text
 independently witnesses the tail.
 
-**Declared as** `TransformResult.corroborated: { from: string; head: string; tail: string; target: string }[]`.
+**Declared as** `TransformResult.corroborated: { field: string; from: string; head: string; open: number; tail: string; target: string }[]`.
+
+> **CORRECTED 2026-08-27 (fix/link-target-gate-cases).** This line read
+> `{ from, head, tail, target }[]`, the shape before the witness binding.
+> `field` and `open` cite the ONE anchor whose display does the
+> witnessing — `open` being its opening-tag token index, unique within a
+> field. Without them clause 4 accepted *any* anchor carrying `from`, so
+> §3.1.1's claim that a minted target names the display it came from was
+> false of the built gate. Reverting clause 4 to the old reading was
+> measured to license a fixture the bound version refuses.
 
 **The test:**
 
