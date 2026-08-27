@@ -47,6 +47,50 @@ interface TransformResult {
 	 * before permitting it — a declared copy that is not in the
 	 * source is a violation, not an allowance. */
 	copied?: readonly string[];
+	/** Link targets this call MINTED from a head it already held and a
+	 * tail taken from a SIBLING anchor whose own display witnesses that
+	 * tail (link-target gate case 7, spec
+	 * docs/specs/2026-08-27-link-target-gate-cases.md §3). `head` is a
+	 * target in this entry's input that supplies the leading run;
+	 * `from` is a second input target, of which `tail` is a literal
+	 * SUFFIX; `target` is the `data-ref` written, and must be exactly
+	 * `head + tail` — no gap, no third source, no character from
+	 * anywhere else.
+	 *
+	 * `link-target.ts` accepts it only when, in addition, the DIGITS of
+	 * `tail` occur in the display text of an input anchor carrying
+	 * `from`. That is the corroboration the case is named for and the
+	 * one thing case 4 cannot ask: the halakha reaches the primary only
+	 * because the variant PRINTS it as well as addressing it.
+	 *
+	 * Declared, matched to anchors (`target === anchor.dataRef`) and
+	 * reported exactly like `composed` and `recombined`, ANY-claim like
+	 * both. On the `href` side each declared string is mapped through
+	 * every anchor carrying it, the tail is re-derived per spelling
+	 * (`:6` on the `data-ref`, `.6` on the `href`), and the same four
+	 * clauses are re-tested against that spelling.
+	 *
+	 * **THIS CASE MINTS, AND CLAUSE 4 DOES NOT MAKE MINTING SAFE.**
+	 * `Tosefta Shabbat 16:6` occurs nowhere in the input. Measured
+	 * corpus-wide before the case shipped (spec §3.1): it licenses 414
+	 * of 414 tosefta variant pairs, and also 29 of the 68 structurally
+	 * analogous same-work pairs that would MINT — including
+	 * `Exodus 24` + `Exodus 15:25` giving `Exodus 24:25`, a verse that
+	 * does not exist. Jastrow renders a Sefaria `Work C:V` anchor as
+	 * `Abbr. <roman chapter>, <arabic verse>`, so the digit witness is
+	 * present by DEFAULT across that whole family. What the case buys
+	 * is not safety but ATTRIBUTION: a minted target must name the two
+	 * input targets and the display it came from, so a wrong mint is a
+	 * wrong claim with a rule's name on it rather than an anonymous
+	 * fabrication. A rule declaring this is asserting a population
+	 * argument of its own; the gate audits the claim, it does not
+	 * supply the argument. */
+	corroborated?: readonly {
+		from: string;
+		head: string;
+		tail: string;
+		target: string;
+	}[];
 	entry: SourceEntry;
 	/** Opening tags this call repaired by GLYPH SUBSTITUTION alone
 	 * (batch-3a spec §4.3). `from` is an opening tag in this entry's

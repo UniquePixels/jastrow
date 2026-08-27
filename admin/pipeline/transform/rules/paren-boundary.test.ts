@@ -14,6 +14,7 @@ import { fieldsOf } from '../no-new-text.ts';
 import {
 	openParenInAnchorDisplay,
 	toseftaCloseParen,
+	toseftaPrimaryHalakha,
 } from './paren-boundary.ts';
 
 const PRIMARY =
@@ -205,25 +206,36 @@ describe('the two rules are disjoint', () => {
 });
 
 /**
- * The blocked third row, pinned rather than shipped.
+ * The third row, SHIPPED — and the tripwire that guarded it, flipped.
  *
- * `tosefta-variant-chapter-halakha-loss` would carry the variant's own
- * halakha onto the primary through spec §3.2 case 4. The gate refuses
- * it, and this test is the proof — kept green ON THE REFUSAL so that
- * the day `link-target.ts` is widened by a ruling, this test FAILS and
- * whoever made the ruling is sent straight here.
+ * CORRECTED 2026-08-27 (fix/link-target-gate-cases). This block was
+ * titled `tosefta-variant-chapter-halakha-loss (blocked)` and held one
+ * test, `case 4 refuses the halakha recombination`, kept green ON THE
+ * REFUSAL "so that the day `link-target.ts` is widened by a ruling,
+ * this test FAILS and whoever made the ruling is sent straight here".
+ *
+ * The day came, the test failed, and this is whoever made the ruling
+ * arriving. It is FLIPPED rather than deleted, and it is flipped into
+ * a PAIR, because two separate things are worth holding:
+ *
+ * - Case 4 still refuses the `recombined` phrasing, word for word. The
+ *   original assertion is intact below. Nothing about case 4 was
+ *   loosened to make room for case 7, and a future widening of case 4
+ *   would still break a test right here.
+ * - Case 7 licenses the `corroborated` phrasing of the same repair. The
+ *   two claims describe the same bytes and differ only in what
+ *   provenance they assert, which is exactly the point: the repair was
+ *   never the problem, the DECLARATION available for it was.
  */
-describe('tosefta-variant-chapter-halakha-loss (blocked)', () => {
-	it('case 4 refuses the halakha recombination', () => {
-		const src = def(SPLIT);
-		const after = def(
-			SPLIT.replace('Tosefta_Shabbat.16"', 'Tosefta_Shabbat.16.6"').replace(
-				'data-ref="Tosefta Shabbat 16"',
-				'data-ref="Tosefta Shabbat 16:6"',
-			),
-		);
+describe('tosefta-variant-chapter-halakha-loss (shipped)', () => {
+	const REPAIRED = SPLIT.replace(
+		'Tosefta_Shabbat.16"',
+		'Tosefta_Shabbat.16.6"',
+	).replace('data-ref="Tosefta Shabbat 16"', 'data-ref="Tosefta Shabbat 16:6"');
+
+	it('case 4 still refuses the halakha recombination', () => {
 		expect(
-			checkLinkTargets(src, after, {
+			checkLinkTargets(def(SPLIT), def(REPAIRED), {
 				recombined: [
 					{
 						head: 'Tosefta Shabbat 16',
@@ -235,5 +247,180 @@ describe('tosefta-variant-chapter-halakha-loss (blocked)', () => {
 		).toEqual([
 			'recombined "Tosefta Shabbat 16:6" is not a prefix of "Tosefta Shabbat 16" joined to a suffix of "Tosefta Shabbat 17:6"',
 		]);
+	});
+
+	it('case 7 licenses the same repair, declared as a corroboration', () => {
+		expect(
+			checkLinkTargets(def(SPLIT), def(REPAIRED), {
+				corroborated: [
+					{
+						from: 'Tosefta Shabbat 17:6',
+						head: 'Tosefta Shabbat 16',
+						tail: ':6',
+						target: 'Tosefta Shabbat 16:6',
+					},
+				],
+			}),
+		).toEqual([]);
+	});
+});
+
+describe('toseftaPrimaryHalakha', () => {
+	it('writes the variant’s halakha onto the primary, both attributes', () => {
+		const out = toseftaPrimaryHalakha.apply(def(SPLIT));
+		expect(definitionOf(out.entry)).toBe(
+			SPLIT.replace('Tosefta_Shabbat.16"', 'Tosefta_Shabbat.16.6"').replace(
+				'data-ref="Tosefta Shabbat 16"',
+				'data-ref="Tosefta Shabbat 16:6"',
+			),
+		);
+		expect(out.records).toHaveLength(1);
+	});
+
+	// The rule's output must clear the REAL gate, not a fixture of one.
+	// This is the assertion that would have caught the deferral from the
+	// other side, and it is why the rule declares at all.
+	it('its own output passes the real link-target gate', () => {
+		const src = def(SPLIT);
+		const out = toseftaPrimaryHalakha.apply(src);
+		expect(checkLinkTargets(src, out.entry, out)).toEqual([]);
+	});
+
+	// WITHHOLD THE DECLARATION AND THE REFUSAL COMES BACK. Case 7 is a
+	// licence attached to a CLAIM, so the pass above must be
+	// attributable to what the rule declared rather than to the gate
+	// having gone quiet about minted targets in general.
+	it('the same output is a fabrication when the claim is withheld', () => {
+		const src = def(SPLIT);
+		const out = toseftaPrimaryHalakha.apply(src);
+		expect(checkLinkTargets(src, out.entry, {})).toEqual([
+			`target "Tosefta Shabbat 16:6" is not in A00196's input`,
+		]);
+	});
+
+	it('declares exactly one corroboration, naming both input targets', () => {
+		const out = toseftaPrimaryHalakha.apply(def(SPLIT));
+		expect(out.corroborated).toEqual([
+			{
+				from: 'Tosefta Shabbat 17:6',
+				head: 'Tosefta Shabbat 16',
+				tail: ':6',
+				target: 'Tosefta Shabbat 16:6',
+			},
+		]);
+	});
+
+	// The 111 pairs whose primary ALREADY carries a halakha are a
+	// different row with a different repair — the primary disagrees with
+	// print rather than lacking a number — and this rule must not touch
+	// them. Condition 1 of `halakhaRepair`.
+	it('declines a primary that already carries a halakha', () => {
+		const already = def(SPLIT.replaceAll('Shabbat 16"', 'Shabbat 16:2"'));
+		expect(toseftaPrimaryHalakha.apply(already).entry).toBe(already);
+	});
+
+	// Condition 3, and the rule's own statement of case 7's two-witness
+	// warrant: print and the address must say the same thing. The gate
+	// alone would license this — `7` is in the display of an anchor
+	// carrying `from` — so the refusal is the RULE's, not the gate's,
+	// which is the division of labour the module docstring argues for.
+	it('declines a variant whose printed halakha contradicts its ref', () => {
+		const disagrees = def(SPLIT.replace('XVII), 6', 'XVII), 7'));
+		expect(toseftaPrimaryHalakha.apply(disagrees).entry).toBe(disagrees);
+	});
+
+	// Condition 2. A pair naming two different works is a different
+	// citation, not a recension variant.
+	it('declines a pair naming two different works', () => {
+		const other = def(
+			SPLIT.replaceAll('Tosefta_Shabbat.17', 'Tosefta_Eiruvin.17').replaceAll(
+				'Tosefta Shabbat 17',
+				'Tosefta Eiruvin 17',
+			),
+		);
+		expect(toseftaPrimaryHalakha.apply(other).entry).toBe(other);
+	});
+
+	// Condition 4. An href that does not end where the halakha is
+	// appended would be handed a suffix belonging nowhere, and the gate
+	// would REFUSE the result — which, since `run.ts` throws on a gate
+	// problem, halts the migration rather than skipping an entry.
+	it('declines a primary whose href does not end in its chapter', () => {
+		const odd = def(
+			SPLIT.replace('/Tosefta_Shabbat.16', '/Tosefta_Shabbat.16a'),
+		);
+		expect(toseftaPrimaryHalakha.apply(odd).entry).toBe(odd);
+	});
+
+	it('declines a variant with no preceding anchor', () => {
+		const orphan = def(`Tosef. Sabb. (${VARIANT}XVII), 6</a>`);
+		expect(toseftaPrimaryHalakha.apply(orphan).entry).toBe(orphan);
+	});
+
+	it('repairs both pairs when one field holds two', () => {
+		const out = toseftaPrimaryHalakha.apply(def(`${SPLIT} and ${SPLIT}`));
+		expect(out.records).toHaveLength(2);
+		expect(out.corroborated).toHaveLength(2);
+	});
+
+	it('recurses into nested senses', () => {
+		const nested: SourceEntry = {
+			content: { senses: [{ senses: [{ definition: SPLIT }] }] },
+			headword: 'h',
+			rid: 'A00196',
+		};
+		const out = toseftaPrimaryHalakha.apply(nested);
+		expect(out.records).toHaveLength(1);
+		expect(out.entry.content.senses[0]?.senses?.[0]?.definition).toContain(
+			'data-ref="Tosefta Shabbat 16:6"',
+		);
+	});
+
+	it('moves no text and no anchor', () => {
+		const out = toseftaPrimaryHalakha.apply(def(SPLIT));
+		const anchorsOf = (html: string): number => anchors(tokenize(html)).length;
+		expect(anchorsOf(definitionOf(out.entry) ?? '')).toBe(anchorsOf(SPLIT));
+		expect(out.unlinks).toBeUndefined();
+		expect(toseftaPrimaryHalakha.allows).toBeUndefined();
+	});
+
+	it('treats the entry as immutable', () => {
+		const src = frozen(SPLIT);
+		expect(() => toseftaPrimaryHalakha.apply(src)).not.toThrow();
+		expect(definitionOf(src)).toBe(SPLIT);
+	});
+});
+
+/**
+ * THE ORDER, demonstrated rather than only asserted in
+ * `registry.order.test.ts`. Running `toseftaCloseParen` first destroys
+ * `VARIANT_DISPLAY`'s match and the halakha rule then repairs NOTHING,
+ * silently — no throw, no record, an entry returned by reference. This
+ * is the failure the registry comment describes, reproduced in two
+ * lines so nobody has to take it on trust.
+ */
+describe('the two tosefta rules do not commute', () => {
+	it('halakha-first repairs both halves', () => {
+		const first = toseftaPrimaryHalakha.apply(def(SPLIT));
+		expect(first.records).toHaveLength(1);
+		const second = toseftaCloseParen.apply(first.entry);
+		expect(second.records).toHaveLength(1);
+		expect(definitionOf(second.entry)).toContain(
+			'data-ref="Tosefta Shabbat 16:6"',
+		);
+		expect(definitionOf(second.entry)).toContain('XVII</a>), 6');
+	});
+
+	it('close-paren-first silently repairs only one', () => {
+		const first = toseftaCloseParen.apply(def(SPLIT));
+		expect(first.records).toHaveLength(1);
+		const second = toseftaPrimaryHalakha.apply(first.entry);
+		// No throw, no record, the same object back — the "green
+		// everywhere, nothing done" shape.
+		expect(second.entry).toBe(first.entry);
+		expect(second.records).toEqual([]);
+		expect(definitionOf(second.entry)).toContain(
+			'data-ref="Tosefta Shabbat 16"',
+		);
 	});
 });

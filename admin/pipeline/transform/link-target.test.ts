@@ -1261,3 +1261,288 @@ it('case 6 refuses an insertion point a repeated character blurs', () => {
 		`restored "/aa" re-inserting "a" matches T00001's input at 3 offsets (10, 11, 12)`,
 	]);
 });
+
+// ————————————————————————————————————————————————————————————————
+// CASE 7 — a locus corroborated by a sibling's display.
+//
+// Spec docs/specs/2026-08-27-link-target-gate-cases.md §3. Four
+// clauses, and each one gets a test that FAILS when the clause is
+// removed, on case 6's discipline: an assertion that cannot fail is
+// indistinguishable from one that always holds. The pair that matters
+// most is `licenses the tosefta mint` beside `is a fabrication with the
+// declaration withheld` — same bytes, same entry, one difference — so
+// the licence is attributable to the CLAIM and not to the gate having
+// gone quiet about minted targets.
+//
+// This case MINTS. §3.1's measured cost is pinned at the bottom of this
+// block, as an ACCEPT rather than a refusal, because that is what the
+// gate does.
+
+const T_HEAD_TAG =
+	'<a class="refLink" href="/Tosefta_Shabbat.16" data-ref="Tosefta Shabbat 16">';
+const T_FROM_TAG =
+	'<a class="refLink" href="/Tosefta_Shabbat.17.6" data-ref="Tosefta Shabbat 17:6">';
+
+/** `Tosef. Sabb. XVI (XVII), 6` as Sefaria marks it up: the halakha
+ * reaches the variant's address and the variant's print, and never the
+ * primary's address. */
+const T_IN = `${T_HEAD_TAG}Tosef. Sabb. XVI</a> (${T_FROM_TAG}XVII), 6</a>`;
+
+/** The same field with the primary's two attributes repaired. */
+const T_OUT = T_IN.replace(
+	'/Tosefta_Shabbat.16"',
+	'/Tosefta_Shabbat.16.6"',
+).replace('data-ref="Tosefta Shabbat 16"', 'data-ref="Tosefta Shabbat 16:6"');
+
+/** One case-7 claim, shaped by the result contract rather than
+ * inferred, so a change to the declaration is a type error here. */
+type Corroborate = NonNullable<TransformResult['corroborated']>[number];
+
+const corroborate: Corroborate = {
+	from: 'Tosefta Shabbat 17:6',
+	head: 'Tosefta Shabbat 16',
+	tail: ':6',
+	target: 'Tosefta Shabbat 16:6',
+};
+
+/** Run the gate over the tosefta pair with one mutated claim. */
+const withClaim = (claim: Corroborate, out = T_OUT): string[] =>
+	checkLinkTargets(entry(T_IN), entry(out), {
+		corroborated: [claim],
+	});
+
+/** The address case 7 mints occurs NOWHERE in the input — not on
+ * either attribute of either anchor. Asserted rather than asserted
+ * about, because "case 7 licensed it" is only meaningful if no earlier
+ * case could have. */
+it('case 7’s minted target is in no input target set', () => {
+	const parsed = anchors(tokenize(T_IN)).flatMap((a) => [a.href, a.dataRef]);
+	expect(parsed).not.toContain('Tosefta Shabbat 16:6');
+	expect(parsed).not.toContain('/Tosefta_Shabbat.16.6');
+	// …and case 4, the case that could otherwise reach it, refuses —
+	// pinned word for word in `rules/paren-boundary.test.ts` too.
+	expect(
+		checkLinkTargets(entry(T_IN), entry(T_OUT), {
+			recombined: [
+				{
+					head: 'Tosefta Shabbat 16',
+					tail: 'Tosefta Shabbat 17:6',
+					target: 'Tosefta Shabbat 16:6',
+				},
+			],
+		}),
+	).toEqual([
+		'recombined "Tosefta Shabbat 16:6" is not a prefix of "Tosefta Shabbat 16" joined to a suffix of "Tosefta Shabbat 17:6"',
+	]);
+});
+
+it('case 7 licenses the tosefta mint, on both attributes', () => {
+	expect(withClaim(corroborate)).toEqual([]);
+});
+
+/** THE ATTRIBUTION TEST. Identical bytes, identical entry; the only
+ * difference is whether the rule said where the address came from. */
+it('the same mint is a fabrication with the declaration withheld', () => {
+	const after = entry(T_OUT);
+	expect(checkLinkTargets(entry(T_IN), after, result(after))).toEqual([
+		`target "Tosefta Shabbat 16:6" is not in T00001's input`,
+	]);
+});
+
+/** CLAUSE 1. `head + tail` must BE the target — no gap, no character
+ * from anywhere else. Checked on the declaration, where the rule
+ * author's arithmetic lives. */
+it('case 7 refuses a claim whose head and tail do not make its target', () => {
+	expect(withClaim({ ...corroborate, tail: ':7' })).toEqual([
+		'corroborated "Tosefta Shabbat 16:6" is not "Tosefta Shabbat 16" joined to ":7"',
+	]);
+});
+
+/** CLAUSE 2. The head must be a target the input holds — otherwise the
+ * leading run is as invented as the locus. */
+it('case 7 refuses a head the input does not hold', () => {
+	const out = T_OUT.replace('Tosefta Shabbat 16:6', 'Tosefta Shabbat 99:6');
+	expect(
+		withClaim(
+			{
+				from: 'Tosefta Shabbat 17:6',
+				head: 'Tosefta Shabbat 99',
+				tail: ':6',
+				target: 'Tosefta Shabbat 99:6',
+			},
+			out,
+		),
+	).toEqual([
+		`corroborated "Tosefta Shabbat 99:6" copies from "Tosefta Shabbat 99", which is not in T00001's input`,
+	]);
+});
+
+/** CLAUSE 3, first half: `from` must be a target the input holds. */
+it('case 7 refuses a source the input does not hold', () => {
+	expect(withClaim({ ...corroborate, from: 'Tosefta Shabbat 99:6' })).toEqual([
+		`corroborated "Tosefta Shabbat 16:6" copies from "Tosefta Shabbat 99:6", which is not in T00001's input`,
+	]);
+});
+
+/** CLAUSE 3, second half: the tail must be a LITERAL suffix of `from`.
+ * `:7` is a plausible-looking locus that the sibling does not address,
+ * and that is exactly the claim this refuses. */
+it('case 7 refuses a tail that is not a suffix of its source', () => {
+	const out = T_OUT.replace('Tosefta Shabbat 16:6', 'Tosefta Shabbat 16:7');
+	expect(
+		withClaim(
+			{ ...corroborate, tail: ':7', target: 'Tosefta Shabbat 16:7' },
+			out,
+		),
+	).toEqual([
+		'corroborated "Tosefta Shabbat 16:7" takes ":7", which is not a suffix of "Tosefta Shabbat 17:6"',
+	]);
+});
+
+/** CLAUSE 4, the corroboration itself — and the ONLY clause that reads
+ * the display. Same claim, same bytes, same four input targets; the
+ * one difference is that the variant no longer PRINTS the halakha it
+ * addresses. That is the whole of what case 7 adds to case 4. */
+it('case 7 refuses a tail no display of its source witnesses', () => {
+	const silent = T_IN.replace('XVII), 6</a>', 'XVII)</a>');
+	const out = silent
+		.replace('/Tosefta_Shabbat.16"', '/Tosefta_Shabbat.16.6"')
+		.replace(
+			'data-ref="Tosefta Shabbat 16"',
+			'data-ref="Tosefta Shabbat 16:6"',
+		);
+	expect(
+		checkLinkTargets(entry(silent), entry(out), {
+			corroborated: [corroborate],
+		}),
+	).toEqual([
+		'corroborated "Tosefta Shabbat 16:6" takes ":6", whose digits "6" are in no display of "Tosefta Shabbat 17:6"',
+	]);
+});
+
+/** DISTINCTNESS. A string is trivially its own suffix, so one source
+ * could otherwise extend itself indefinitely — `X 17:6` giving
+ * `X 17:6:6`, and again. Case 4 learned the same lesson as its own
+ * `head === tail` check. */
+it('case 7 refuses a claim naming one target as both head and source', () => {
+	const out = T_OUT.replace(
+		'data-ref="Tosefta Shabbat 16:6"',
+		'data-ref="Tosefta Shabbat 17:6:6"',
+	);
+	expect(
+		withClaim(
+			{
+				from: 'Tosefta Shabbat 17:6',
+				head: 'Tosefta Shabbat 17:6',
+				tail: ':6',
+				target: 'Tosefta Shabbat 17:6:6',
+			},
+			out,
+		),
+	).toEqual([
+		'corroborated "Tosefta Shabbat 17:6:6" names "Tosefta Shabbat 17:6" as both head and source',
+	]);
+});
+
+/** THE EMPTY HEAD, and it is not hypothetical: `''` joins the target
+ * set whenever any input anchor lacks an attribute — here the second
+ * one has no `data-ref`. Without the non-empty requirement a claim
+ * naming `head: ''` would license ANY suffix of ANY input target as a
+ * whole target, which is the widest hole this case could have had. */
+it('case 7 refuses an empty head, which the target set always holds', () => {
+	const src = '<a href="/a" data-ref="W 1:6">x 6</a><a href="/b">y</a>';
+	const out =
+		'<a href="/a" data-ref="W 1:6">x 6</a><a href="/b" data-ref="1:6">y</a>';
+	expect(
+		checkLinkTargets(entry(src), entry(out), {
+			corroborated: [{ from: 'W 1:6', head: '', tail: '1:6', target: '1:6' }],
+		}),
+	).toEqual(['corroborated "1:6" is not "" joined to a suffix of "W 1:6"']);
+});
+
+/** A TAIL WITH NO DIGITS would be corroborated VACUOUSLY — every
+ * display contains the empty string — so an empty digit run is refused
+ * outright rather than allowed to satisfy `includes('')`. */
+it('case 7 refuses a tail holding no digit at all', () => {
+	const src =
+		'<a href="/a" data-ref="W 1">d</a><a href="/b" data-ref="W 2b">2b</a>';
+	const out =
+		'<a href="/a" data-ref="W 1b">d</a><a href="/b" data-ref="W 2b">2b</a>';
+	expect(
+		checkLinkTargets(entry(src), entry(out), {
+			corroborated: [{ from: 'W 2b', head: 'W 1', tail: 'b', target: 'W 1b' }],
+		}),
+	).toEqual([
+		'corroborated "W 1b" takes "b", which holds no digit to corroborate',
+	]);
+});
+
+/** THE HREF IS JUDGED SEPARATELY, and the tail is RE-DERIVED for it —
+ * `:6` on the `data-ref` becomes `.6` on the `href`. Here the
+ * `data-ref` is licensed and the `href` is not, so the anchor still
+ * fails: a declared offset would have been wrong on one of the two
+ * spellings, which is why nothing declares one. */
+it('case 7 re-derives the tail per spelling and refuses a bad href', () => {
+	const out = T_OUT.replace('/Tosefta_Shabbat.16.6"', '/Tosefta_Shabbat.16.9"');
+	expect(withClaim(corroborate, out)).toEqual([
+		'corroborated "/Tosefta_Shabbat.16.9" is not "/Tosefta_Shabbat.16" joined to a suffix of "/Tosefta_Shabbat.17.6"',
+	]);
+});
+
+/** ANY-claim, with cases 3 and 4 rather than 5 and 6: `hrefsFor` yields
+ * several candidate spellings for one declared string, so real
+ * multiplicity exists and a second claim naming a different source may
+ * be an alternative rather than a false provenance. */
+it('case 7 licenses an honest claim standing beside a faulty one', () => {
+	expect(
+		checkLinkTargets(entry(T_IN), entry(T_OUT), {
+			corroborated: [
+				{ ...corroborate, from: 'Tosefta Shabbat 99:6' },
+				corroborate,
+			],
+		}),
+	).toEqual([]);
+});
+
+/**
+ * THE MEASURED COST, PINNED AS AN ACCEPT.
+ *
+ * This asserts that the gate LICENSES an address that does not exist,
+ * and it is correct for it to do so — spec §3.1, corrected 2026-08-27
+ * before any code was written. `S00188` carries these two adjacent
+ * anchors verbatim. Clause 4 does not separate them from the tosefta
+ * shape, because Jastrow prints a Sefaria `Work C:V` anchor as
+ * `Abbr. <roman chapter>, <arabic verse>` and that arabic verse IS the
+ * tail's digit run. Measured: 29 of the 68 analogous same-work pairs
+ * that would mint are licensed, this among them, and **Exodus 24 has
+ * 18 verses**.
+ *
+ * A test asserting a REFUSAL here would be false, and would break the
+ * day someone read the spec and believed it. What keeps the corpus safe
+ * is not this clause but `toseftaPrimaryHalakha`'s own
+ * `VARIANT_DISPLAY` predicate, which fires on none of the 68 — a gate
+ * case is a LICENCE and not an instruction. See the module docstring's
+ * blind-spot list, where this sits with the rest of them.
+ */
+it('case 7 licenses Exodus 24:25, which is not a verse — the measured cost', () => {
+	const head =
+		'<a class="refLink" href="/Exodus.24" data-ref="Exodus 24">B’shall. 24</a>';
+	const from =
+		'<a class="refLink" href="/Exodus.15.25" data-ref="Exodus 15:25">Ex. XV, 25</a>';
+	const src = `${head} … ${from}`;
+	const out = src
+		.replace('/Exodus.24"', '/Exodus.24.25"')
+		.replace('data-ref="Exodus 24"', 'data-ref="Exodus 24:25"');
+	expect(
+		checkLinkTargets(entry(src), entry(out), {
+			corroborated: [
+				{
+					from: 'Exodus 15:25',
+					head: 'Exodus 24',
+					tail: ':25',
+					target: 'Exodus 24:25',
+				},
+			],
+		}),
+	).toEqual([]);
+});
