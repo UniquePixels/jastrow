@@ -80,9 +80,26 @@ function usable(anchor: Anchor): boolean {
 	return !(anchor.malformed || anchor.interior) && anchor.close !== -1;
 }
 
-/** Whether `inner` sits strictly inside `outer`'s token span. */
+/** Whether `inner` sits strictly inside `outer`'s token span.
+ *
+ * The `close !== -1` test is what makes that true as stated rather
+ * than true by luck. `anchors()` reports an UNCLOSED anchor with
+ * `close: -1`, and `-1` is less than every real `outer.close`, so
+ * without it an unclosed inner would read as "strictly inside" — the
+ * docstring would be false, and the helper would be correct only
+ * because its one call site happens to evaluate `usable(candidate)`
+ * first and `&&` short-circuits. Reordering that predicate for
+ * readability, or calling `within` from anywhere else, would then
+ * silently admit an unclosed inner. The guard is redundant with
+ * `usable` today and kept anyway, so the helper stands on its own.
+ *
+ * The mirror case needs no guard: an unclosed OUTER has
+ * `outer.close === -1`, and no anchor's `close` is less than `-1`, so
+ * `inner.close < outer.close` already rejects every candidate. */
 function within(inner: Anchor, outer: Anchor): boolean {
-	return inner.open > outer.open && inner.close < outer.close;
+	return (
+		inner.open > outer.open && inner.close !== -1 && inner.close < outer.close
+	);
 }
 
 interface Pair {
@@ -102,13 +119,9 @@ interface Pair {
  * in the corpus that carry an `href` and no `data-ref` would otherwise
  * pair with each other on a shared `''`.
  *
- * One accumulator and one exit rather than an early `return` inside
- * the loop: `tsc`'s `noImplicitReturns` wants every path to return a
- * value and biome's `noUselessUndefined` forbids writing the trailing
- * `return undefined` that would satisfy it, so the two lint gates have
- * no shape in common that ends with a bare fall-through. `break` keeps
- * the search lazy — a pair found on the first outer anchor never
- * scans the rest.
+ * One accumulator and one lazy `break` rather than an early `return`,
+ * because TS7030 (`noImplicitReturns`) and biome's
+ * `noUselessUndefined` between them forbid a bare fall-through.
  */
 function firstDuplicatePair(
 	found: readonly Anchor[],
@@ -139,12 +152,23 @@ function firstDuplicatePair(
  *
  * Carried onto `TransformRecord.detail` so the trapped-mark census is
  * read straight off the records rather than re-derived by whoever
- * reads the migration report. That census is the assertion that the
- * removal loses nothing a reader sees: `)` 702 / `.` 52 / `,` 1 in
+ * reads the migration report: `)` 702 / `.` 52 / `,` 1 in
  * `language_reference`, `.` 387 / `)` 68 / nothing 20 in `definition`,
  * pinned in `nested-anchor.test.ts`. The empty arm is the 20 JT
  * pairs, and it is `''` rather than absent for the same reason —
  * "trapped nothing" is a census bucket, not a missing measurement.
+ *
+ * READ THIS BEFORE TREATING THE CENSUS AS A SAFETY CHECK. It is
+ * measured HERE, on the input stream, before `unlink` runs — so on its
+ * own it is a description of what went in, and would read exactly the
+ * same if the rule started eating the punctuation on the way out. What
+ * makes the census an assertion about the OUTPUT is a separate check
+ * in the corpus tier: `textOf` byte equality across every entry either
+ * rule touches. That is strictly stronger and subsumes this — no text
+ * byte moves, so every mark counted here is still there afterwards, in
+ * the same quantity. An earlier version of this comment claimed the
+ * census carried that weight by itself; it did not, and the equality
+ * check was added in review.
  */
 function trappedText(tokens: readonly Token[], pair: Pair): string {
 	let text = '';
@@ -273,9 +297,28 @@ function overDefinitions(entry: SourceEntry): {
  *
  * This row owns ALL 465 entries, the 10 `jt-double-wrapped-citation`
  * ones included — that row is exactly this one's empty-trapped-text
- * arm and registers no rule of its own, which `coverage()` is told
- * through the mutual `entangledWith` edge rather than through this
- * comment alone.
+ * arm and registers no rule of its own.
+ *
+ * NO GATE KNOWS THAT, and an earlier version of this comment claimed
+ * one did. The mutual `entangledWith` edge in `patterns.jsonl` is
+ * real, but it is documentary in both directions: `coverage()`
+ * (`registry.ts`) filters the catalogue to `route === 'transform' &&
+ * status === 'candidate'` and partitions it across `RULES` and
+ * `PENDING` — it never reads `entangledWith` at all — and
+ * `entangledClusters` keeps a component only when it has at least two
+ * REGISTERED members or names a stale endpoint, which this one will
+ * have neither of once this rule is the component's only rule. So the
+ * edge records the entanglement for a human and changes what no check
+ * sees.
+ *
+ * What that leaves open is a real, currently-false claim, not a
+ * cosmetic one: `jt-double-wrapped-citation` is still in
+ * `registry.ts`'s `PENDING` list, and that file's own comment defines
+ * a `PENDING` entry as "a standing claim that a row is still owed a
+ * rule". Shipping this rule makes that claim false. TASK 7 MUST
+ * RESOLVE IT — by withdrawing the row to `judgment` or otherwise
+ * accounting for it — and no gate will fail until it does, because a
+ * row in `PENDING` is exactly what `coverage()` expects to find.
  */
 const nestedAnchorDuplicate: Rule = {
 	apply(entry: SourceEntry): TransformResult {

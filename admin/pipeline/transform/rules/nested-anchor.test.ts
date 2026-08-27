@@ -19,7 +19,7 @@ import { readSourceEntries } from '../../body/source.ts';
 import type { SourceEntry } from '../../body/types.ts';
 import { tokenize } from '../html.ts';
 import { anchors } from '../links.ts';
-import { fieldsOf } from '../no-new-text.ts';
+import { fieldsOf, textOf } from '../no-new-text.ts';
 import { applyTransforms } from '../run.ts';
 import {
 	dupAnchorLanguageRef,
@@ -171,8 +171,21 @@ describe('corpus tier', () => {
 		// asserted once at the end rather than expected per entry, so a
 		// failure names every offender instead of only the first.
 		const miscounted: string[] = [];
+		// Entries whose TEXT layer is not byte-identical after the edit.
+		// This is what makes the census below an assertion about the
+		// OUTPUT: the buckets are computed from `TransformRecord.detail`,
+		// which `trappedText` reads off the INPUT stream before `unlink`
+		// runs, so on their own they could not detect the rule eating the
+		// punctuation it is supposed to strand. `checkNoNewText` cannot
+		// close that gap either — it is a SUB-multiset check and reads a
+		// deletion as legitimate. Byte equality of `textOf` is strictly
+		// stronger than the census and subsumes it: if no text byte moved,
+		// then every trapped mark counted on the way in is still there on
+		// the way out, in the same quantity.
+		const lost: string[] = [];
 		for await (const entry of readSourceEntries()) {
 			const before = anchorCount(entry);
+			const text = textOf(entry);
 			const a = dupAnchorLanguageRef.apply(entry);
 			if (a.records.length > 0) {
 				langOcc += a.records.length;
@@ -180,6 +193,9 @@ describe('corpus tier', () => {
 			}
 			if (anchorCount(a.entry) !== before - a.records.length) {
 				miscounted.push(`${entry.rid} (language_reference)`);
+			}
+			if (textOf(a.entry) !== text) {
+				lost.push(`${entry.rid} (language_reference)`);
 			}
 			for (const r of a.records) {
 				langTrapped.set(r.detail, (langTrapped.get(r.detail) ?? 0) + 1);
@@ -191,6 +207,9 @@ describe('corpus tier', () => {
 			}
 			if (anchorCount(b.entry) !== before - b.records.length) {
 				miscounted.push(`${entry.rid} (definition)`);
+			}
+			if (textOf(b.entry) !== text) {
+				lost.push(`${entry.rid} (definition)`);
 			}
 			for (const r of b.records) {
 				defTrapped.set(r.detail, (defTrapped.get(r.detail) ?? 0) + 1);
@@ -204,6 +223,11 @@ describe('corpus tier', () => {
 		// `checkLinkTargets`, measured here on every entry rather than
 		// only on the ones the gate test below re-runs.
 		expect(miscounted).toEqual([]);
+		// Every output byte is an input byte: not one text codepoint moved
+		// anywhere in the corpus, for either rule. Both are pure tag-pair
+		// deletions, so this is equality rather than the sub-multiset the
+		// gate settles for, and it is what the census below rests on.
+		expect(lost).toEqual([]);
 		expect(langOcc).toBe(755);
 		expect(langEnt.size).toBe(755);
 		expect(defOcc).toBe(475);
@@ -218,14 +242,14 @@ describe('corpus tier', () => {
 			')': 68,
 			'.': 387,
 		});
-		// The `jt-double-wrapped-citation` row's 10 entries, which this
-		// rule owns and which register no rule of their own.
 		// DISJOINT, measured not assumed: no entry is a member of both
 		// rows. 755 + 465 = 1,220 reproduces `nonsense-dup-anchor`'s
 		// PRE-RE-SCOPE catalogued figure to the digit, which is the
 		// audit's decomposition (1,220 = 755 language_reference + 465
 		// sense-side) confirmed from the opposite direction.
 		expect([...langEnt].filter((rid) => defEnt.has(rid))).toEqual([]);
+		// The `jt-double-wrapped-citation` row's 10 entries, which this
+		// rule owns and which register no rule of their own.
 		expect([...jt].sort()).toEqual([
 			'A00722',
 			'C01048',
