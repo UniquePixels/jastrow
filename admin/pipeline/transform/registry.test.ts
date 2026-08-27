@@ -90,8 +90,10 @@ describe('registry coverage', () => {
 	//   That task's fifth row, `italic-swallows-close-paren`, failed
 	//   neither and shipped at 10 -> 8. See
 	//   data/patches/catalogue-audit/batch-3b-withdrawals.md.
-	it('the catalogue still holds 73 transform rows', () => {
-		expect(coverage(catalogue).total).toBe(73);
+	// - `post-anchor-numeral-duplication` (11 occ / 11 ent), batch 4 Task 6
+	//   — 73 to 72, NO REPAIR EXISTS; working in registry.ts's `PENDING`.
+	it('the catalogue still holds 72 transform rows', () => {
+		expect(coverage(catalogue).total).toBe(72);
 	});
 
 	it('pending ids all exist in the catalogue', () => {

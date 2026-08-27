@@ -1,5 +1,14 @@
 # Audit — `post-anchor-numeral-duplication` (catalogued 11)
 
+**RULED 2026-08-26 (Brian): WITHDRAWN to `route: judgment`,** 11
+occurrences / 11 entries, on the reasoning below — the 681 : 1
+attestation settles the *direction*, but a transform must know *why* it
+is deleting, and the all-`I` skew at p = 5.9 × 10⁻⁵ says something is
+happening that neither candidate mechanism explains. Written back to
+`patterns.jsonl`, and the row removed from `PENDING` in
+`admin/pipeline/transform/registry.ts` so it appears in neither `RULES`
+nor `PENDING`.
+
 **Which copy is the intruder?** The row's own record says nobody
 established one, and therefore proposed no delete. **This audit does not
 overturn that, but it narrows it.** Measurement supplies two facts the
@@ -24,12 +33,12 @@ candidate mechanism predicts that skew (see "The open problem"). A
 transform that deletes bytes on an unexplained mechanism is the thing
 this batch's own standard forbids.
 
-**Recommendation: withdraw to `judgment` (11 occurrences / 11 entries),
-with this audit published and the 681 : 1 asymmetry recorded in the
-row** so a maintainer ruling naming the bare copy as the intruder is a
+**Recommendation, TAKEN: withdraw to `judgment` (11 occurrences / 11
+entries), with this audit published and the 681 : 1 asymmetry recorded
+in the row** so a later ruling naming the bare copy as the intruder is a
 one-sentence decision rather than a fresh investigation.
 
-**The alternative, stated:** rule now that the bare trailing copy is the
+**The alternative, declined:** rule now that the bare trailing copy is the
 intruder and ship a delete rule for all 11 occurrences. It is defensible
 on the two facts above in a way it was not when the row was written, and
 it is cheap to reverse — 11 entries, on a pinned snapshot. What it costs
@@ -212,13 +221,15 @@ the question is what the *page* says.
 
 ## Verdict
 
-`route: judgment`, 11 occurrences / 11 entries, pending a maintainer
-ruling that names the intruder. **The ruling is not written into
-`patterns.jsonl` by this audit** — it is Brian's to make, and a `route`
-change ahead of it would be exactly the silence module design §6 forbids.
+**`route: judgment`, 11 occurrences / 11 entries — ruled and written.**
+The row's `reason` now carries the 681 : 1 asymmetry and the `²`-in-ref
+proof, so the next reader inherits a *settled direction and an open
+mechanism* rather than the row's original "could not determine which
+copy is the intruder". The `PENDING` entry is gone, so the row appears
+in neither `RULES` nor `PENDING` and `coverage()` no longer counts it.
 
-Count corrections owed to the row's `reason` if the ruling lands, none
-of which change `corpusCount` (11 is exact on both axes):
+Count corrections, written into the row's `reason` in the same pass,
+none of which change `corpusCount` (11 is exact on both axes):
 
 - the raw family is **88 occ / 86 ent** under the predicate that yields
   the spec's semicolon arm, not 87;
@@ -227,3 +238,15 @@ of which change `corpusCount` (11 is exact on both axes):
 - the clean `I` count is **281**, the `I`–`IV` base **681**;
 - the unrelated terminal-`I` residue is **3**, not 5 — with **684** and
   **1.6%** unchanged.
+
+## Adjacent, catalogued nowhere: `B00883`
+
+`B00883`'s **entire definition is the string `" I."`** — a Roman numeral
+and a period, with no headword text, no gloss and no citation. It
+surfaced here as one of the 3 unrelated terminal-`I` residues in the
+null model, and it is **not** this row's defect: there is no anchor, no
+span, and nothing duplicated. No catalogue row I could find covers it.
+Recorded here because this is the nearest place a reader would look, and
+because an entry whose whole definition is a numeral is either an
+extraction failure or a print artefact — and in either case wants a row
+of its own.

@@ -616,7 +616,24 @@ const PENDING: readonly string[] = [
 	'adjacent-verbatim-repetition',
 	'abbrev-headword-stub',
 	'containment-fallback-mislink',
-	'post-anchor-numeral-duplication',
+	// `post-anchor-numeral-duplication` left this list in batch 4 Task 6:
+	// audited to `judgment` in `patterns.jsonl` (Brian's ruling
+	// 2026-08-26), so `coverage` no longer counts its 11 occurrences / 11
+	// entries and neither list may hold it. The audit —
+	// data/patches/catalogue-audit/post-anchor-numeral-duplication.md —
+	// SETTLES THE DIRECTION and leaves only the mechanism open: deleting
+	// the bare trailing copy yields a shape attested 681 occurrences
+	// corpus-wide against 1 for the alternative, and in 2 of the 11 the
+	// `data-ref` carries `²` where the display carries `I`, so the display
+	// numeral is print text rather than a copy of the ref. What blocks a
+	// rule is that neither candidate mechanism survives — all 11
+	// duplicates are `I` at p = 5.9e-5 — and a transform must know why it
+	// is deleting. The same task's other ruling ADDED a row —
+	// `superscript-subsection-contradicts-link-sub-section`, 38
+	// occurrences / 33 entries split off
+	// `superscript-subsection-stranded-outside-anchor` — but it is
+	// `judgment` from birth, so it enters neither this list nor
+	// `coverage`'s total, and does not offset the withdrawal: 73 -> 72.
 	'section-break-terminator-loss',
 	'see-particle-lost',
 	'jt-double-wrapped-citation',

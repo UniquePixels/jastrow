@@ -1,5 +1,14 @@
 # Audit — `superscript-subsection-stranded-outside-anchor` (catalogued 160)
 
+**RULED 2026-08-26 (Brian): SHIP the boundary rule, SPLIT the 38.** The
+recommendation below was taken on the evidence in §§1–5. The 38
+occurrences / 33 entries are now their own row,
+`superscript-subsection-contradicts-link-sub-section` (`route:
+judgment`, `corpusCount` 33 **entries**), its predicate written against
+the **post-transform** shape. The 77 no-sub occurrences are disposed of
+by an explicit sentence in the parent row's `reason` — see "A third
+disposition" below.
+
 **Verdict: the boundary repair is correct on both sides of the
 disagreement, and it stands.** Moving `</a><sup>N</sup>` to
 `<sup>N</sup></a>` relocates three tokens and touches no `href`, no
@@ -8,7 +17,8 @@ the link's sub-section turns out to be right is a question about the
 *value* in `data-ref`; which element encloses the printed glyph is not
 that question, and no answer to it changes the move.
 
-**Recommendation: ship the boundary rule (182 occurrences / 160 entries,
+**Recommendation, TAKEN: ship the boundary rule (182 occurrences / 160
+entries,
 already shipped as `superscriptInsideAnchor` in
 `admin/pipeline/transform/rules/stranded-tail.ts`) and split the
 38-occurrence target disagreement out as its own catalogue row with
@@ -16,7 +26,7 @@ already shipped as `superscriptInsideAnchor` in
 this pipeline does not hold; they are `judgment` by definition and
 cannot ride inside a row whose repair is a byte move.
 
-**The alternative, stated:** withdraw `superscriptInsideAnchor` and hold
+**The alternative, declined:** withdraw `superscriptInsideAnchor` and hold
 the whole row — all 182 occurrences / 160 entries — as `judgment` until
 the 38 are adjudicated. What that buys is that no batch-4 rule touches
 markup on any occurrence whose target is disputed. What it costs is 144
@@ -183,21 +193,54 @@ information in the record, so appending it destroys nothing."*
 rule does that.** `superscriptInsideAnchor` moves markup and deliberately
 leaves every target alone.
 
-So the row currently advertises a repair the batch does not perform, and
-the 77 will read as "handled" once the boundary rule ships. That is a
-third thing needing a disposition, and it is deliberately **not**
-proposed here: writing a sub-section into a `data-ref` is a target edit
-that would have to clear `link-target.ts`, and it is out of this audit's
-scope. Flagged so it is a decision rather than a silence.
+So the row advertises a repair the batch does not perform, and the 77
+would read as "handled" once the boundary rule ships.
+
+**Disposed 2026-08-26: an explicit sentence in the parent row's
+`reason`, not a row of their own.** They get a sentence rather than a
+row because *nothing about them has been established as a defect*. A
+`data-ref` reading `Bamidbar Rabbah 16` where print supplies a
+sub-section is **less precise than print, not wrong** — and the
+`midrash-subsection-link-drift` audit found that sub-section precision
+is Sefaria's segment addressing working correctly, not drift. Opening a
+catalogue row would assert a defect no audit has measured as harm; what
+has been measured is an **enrichment opportunity** (77 occurrences / 70
+entries), which is a different claim and does not belong in a
+defect catalogue on this evidence.
+
+The parent row's `reason` now states, in terms: that the 77 are
+untouched and unclaimed; that **no shipped rule performs the enrichment
+its own prose advertises**, so once `superscriptInsideAnchor` ships they
+will *read* as handled while nothing has been written; and that what
+would dispose of them is a ruling on whether a print-supplied
+sub-section may be written into a `data-ref` — a **target** edit that
+must clear `link-target.ts`, out of batch 4's scope. Their being
+untouched is now a decision on the record rather than a silence.
 
 ## Verdict
 
-- **Boundary repair: survives.** Correct on both sides of the 38 by §§1–4
-  above; ships as `superscriptInsideAnchor`, unchanged.
-- **The 38 (33 entries): a new catalogue row, `route: judgment`**, its
-  predicate written against the post-transform shape.
-- **The 77 target-enrichment candidates: undisposed**, flagged above.
+- **Boundary repair: survives, and ships.** Correct on both sides of the
+  38 by §§1–4 above; `superscriptInsideAnchor` stands unchanged and the
+  parent row keeps `route: transform`.
+- **The 38 occurrences / 33 entries: split out** as
+  `superscript-subsection-contradicts-link-sub-section`,
+  `route: judgment`, `corpusCount` 33 **entries**, predicate written
+  against the post-transform shape `<sup>N</sup></a>`, with the −17…+20
+  delta spread and the modal −1 at 9 of 38 occurrences recorded so
+  nobody mistakes it for mechanically recoverable.
+- **The 77 target-enrichment candidates: disposed** by an explicit
+  sentence in the parent row's `reason`, per the section above.
 
-**No `route` change is written into `patterns.jsonl` by this audit.**
-The split is Brian's ruling to make; a `route` rewritten ahead of it
-would be exactly the silence module design §6 forbids.
+**No `entangledWith` edge joins the two rows, and the omission is
+deliberate and measured.** They do own the same records — the parent's
+rule moves the superscript of all 38 — but with the edge recorded,
+`unaccountedEdges(catalogue, [...RULES, superscriptInsideAnchor])`
+returns *"recorded entanglement is invisible to the adjacency gate"* the
+moment Task 7 registers the parent's rule, because `entangledClusters`
+emits no component with fewer than two **registered** members. The
+gate's own rationale — *"execution order cannot be wrong about a rule
+that does not run"* — applies exactly here, since a `judgment` row will
+never have a rule; the gate simply has no way to say "this endpoint is
+permanently unregistered". The containment is recorded in prose on both
+rows instead, each naming the other by id. **If the 38-row is ever
+re-routed to `transform`, add the edge on both sides first.**
