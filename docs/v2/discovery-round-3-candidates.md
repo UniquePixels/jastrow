@@ -2091,9 +2091,13 @@ Re-measurements:
   (522 Tosefta, 4 Mishnah). **415 of the 526 leave the primary chapter
   anchor with no halakha** while the second anchor carries
   chapter+halakha. **The halakha row is catalogued at 32; under the
-  two-anchor reading the same loss is 415, ~13× larger. The boundary fix
-  and the halakha fix are the same edit** — reconcile the two rows before
-  sizing either. *(chunk-00576 reached ~558/520 on the same shape from
+  two-anchor reading the same loss is 415, ~13× larger. ~~The boundary fix
+  and the halakha fix are the same edit~~ — reconcile the two rows before
+  sizing either. *(**Retracted 2026-08-26, impl/phase-2-batch-4:** they
+  are one WALK, not one edit. Round 4 measured the relation as
+  containment, and batch 4 shipped the boundary half only — the halakha
+  carry is refused by `link-target.ts` and was never written. See
+  `discovery-round-4.md` §2 and `docs/v2/transform-batch-4.md`.)* *(chunk-00576 reached ~558/520 on the same shape from
   the other side.)*
 - **`geresh-letter-numeral-mislink` (608) — the count is
   reading-dependent and the population does three jobs.** Strict (the

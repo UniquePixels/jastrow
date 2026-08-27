@@ -185,6 +185,8 @@ looked for and absent:
   unterminated-href cases.
 - **Adjacent, non-overlapping family** (same anchor-boundary-vs-
   punctuation failure mode, single-anchor variants): `anchor-swallows-
-  close-paren` (494), `open-paren-in-anchor-display` (214),
+  close-paren` (493 — **corrected 2026-08-26 from 494**, which was
+  arithmetic rather than measurement; batch 4 re-measured the row at
+  525 occ / 493 ent), `open-paren-in-anchor-display` (214),
   `open-paren-in-rtl-span` (89). Worth grouping for transform design; no
   member overlap.

@@ -70,7 +70,8 @@
  *
  * ## What this gate does NOT see
  *
- * - **A `PENDING` row.** 46 catalogue rows have no rule, so a
+ * - **A `PENDING` row.** 38 catalogue rows have no rule (measured
+ *   2026-08-26 after batch 4; this read 46), so a
  *   predicate claiming a population that has no predicate yet stays
  *   untestable by construction. This gate compares rules that exist.
  * - **Commuting overlap.** Two rules can claim the same bytes and

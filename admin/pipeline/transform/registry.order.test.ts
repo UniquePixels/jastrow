@@ -119,6 +119,22 @@ const UNLINK = new Set([
 	'apparatus-cite-linked-as-scripture',
 	'ellipsis-fragment-anchored',
 	'geresh-letter-numeral-mislink',
+	// Batch 4's two doubled-anchor rows. Both drop the OUTER layer of a
+	// pair sharing one target, so both declare `unlinks` — and rules 1
+	// and 4 then require them above every retarget and every wrap rule,
+	// which is why they are registered where they are and not beside
+	// the rest of their batch.
+	//
+	// Listing them here is a CLAIM, not an exemption: the corpus pass
+	// at the bottom of this file asserts this literal set equals the
+	// rules that ever declare an anchor removal across all 32,512
+	// entries, so a name that does not belong — or one missing — fails
+	// there. (CORRECTED 2026-08-26, impl/phase-2-batch-4: this said the
+	// two were "earned into this set by the corpus pass below rather
+	// than by being listed here", while listing them. The corpus pass
+	// FALSIFIES the list; it does not build it.)
+	'nested-anchor-swallows-punctuation',
+	'nonsense-dup-anchor',
 	'plural-to-feminine-final-letter-mislink',
 	'prefixed-geresh-abbrev-mislink',
 	'rabbi-name-linked-as-bible-book',
@@ -169,7 +185,23 @@ const RETARGET = new Set([
  * `href` or `data-ref` anywhere in 32,512 entries. */
 const NEITHER = new Set([
 	'anchor-italic-no-space',
+	// BATCH 4 ADDS FOUR, and they are the set's second real test after
+	// batch 3b's twelve. These four move one of the anchor's own tags
+	// across the text beside it — `</a>` across a `)`, a `<sup>` run or
+	// a digit, and in `open-paren-in-anchor-display` the OPENING tag
+	// across a `(` (CORRECTED 2026-08-26, impl/phase-2-batch-4: this
+	// said all four move "the anchor's own closing tag", which is true
+	// of three of them; the open-paren rule is the opposite polarity in
+	// the opposite tag) — so "removes no anchor and writes no target"
+	// is a claim about markup they demonstrably rewrite INSIDE, not one
+	// they are incapable of breaking. The corpus pass below earns it:
+	// every anchor's parsed
+	// `href`/`data-ref` pair is compared before and after over all
+	// 32,512 entries, and `stranded-tail.test.ts` compares the whole
+	// opening-tag multiset besides.
+	'anchor-swallows-close-paren',
 	'ascii-quote-as-gershayim-in-body',
+	'citation-number-truncated-outside-anchor',
 	'em-dash-section-break-in-own-italic',
 	'emphasis-run-edge-space',
 	'geresh-abbrev-space-loss',
@@ -178,8 +210,10 @@ const NEITHER = new Set([
 	'italic-swallowed-terminal-period',
 	'italic-swallows-close-paren',
 	'label-period-outside-italic',
+	'open-paren-in-anchor-display',
 	'paren-tag-no-space',
 	'shuruk-as-yod-display-corruption',
+	'superscript-subsection-stranded-outside-anchor',
 	'trailing-whitespace-definition',
 	'translit-italic-space-loss',
 ]);
@@ -366,10 +400,19 @@ describe('registry order', () => {
 	// answers "does the gate see everything it should?", which is the
 	// question all three defects slipped through.
 	//
-	// Empty today over 32 recorded entries / 16 undirected edges: 13
-	// have both endpoints registered and sit inside the three clusters
-	// above, and 3 have neither endpoint registered, which execution
-	// order cannot be wrong about.
+	// Over 34 recorded entries / 17 undirected edges (measured
+	// 2026-08-26, batch 4): 13 have both endpoints registered and sit
+	// inside the three clusters above, 2 have neither endpoint
+	// registered — which execution order cannot be wrong about — and 2
+	// have exactly ONE registered endpoint. Those last two are the
+	// deferrals pinned below, and they are why this no longer reads
+	// empty.
+	//
+	// CORRECTED 2026-08-26 (batch 4). This read "Empty today over 32
+	// recorded entries / 16 undirected edges: 13 … and 3 have neither
+	// endpoint registered". The 16 became 17 with batch 4's mutual
+	// JT/nested edge, and one of the 3 neither-registered edges became
+	// a one-registered edge the moment `nestedAnchorDuplicate` shipped.
 	//
 	// CORRECTED 2026-08-26 (fix/rtl-unlink-order). This block said "18
 	// recorded entries / 9 undirected edges: 5 have both endpoints
@@ -386,8 +429,44 @@ describe('registry order', () => {
 	// It is NOT a restatement of
 	// `checkAdjacency` returning clean — a dropped component leaves
 	// that clean and lands here.
+	//
+	// NO LONGER EMPTY, as of batch 4 (2026-08-26), and this is the day
+	// `registry.ts`'s own note said would come: "it fails the day a rule
+	// ships ahead of a still-`PENDING` partner". It ships TWICE at once,
+	// and the two lines below are the RECORD of those deferrals rather
+	// than a relaxation of the gate. The function is untouched; what is
+	// pinned is its exact output, so a THIRD unaccounted edge, or either
+	// of these two changing, fails here and sends the next reader to
+	// this comment.
+	//
+	// Both have a registered endpoint and a `PENDING` one, and in both
+	// the deferral is a SHARED-GATE ruling rather than a missing
+	// predicate:
+	//
+	// - `anchor-swallows-close-paren` shipped as `toseftaCloseParen`;
+	//   `tosefta-variant-chapter-halakha-loss` (414 occ / 391 ent) is
+	//   refused by `link-target.ts` case 4, whose 2026-08-24 tightening
+	//   requires the discarded part of `tail` to be a prefix of `head`
+	//   — and `Tosefta Shabbat 17` is not a prefix of
+	//   `Tosefta Shabbat 16`. Its slot in `RULES` is marked, STRICTLY
+	//   BEFORE `toseftaCloseParen`, and the direction is load-bearing.
+	// - `nested-anchor-swallows-punctuation` shipped as
+	//   `nestedAnchorDuplicate`; `jt-double-wrapped-citation` will never
+	//   have a rule at all, because that rule already repairs all 10 of
+	//   its entries. It is named in `registry.ts`'s `COVERED` and
+	//   `coverage()` counts it as owned — but `unaccountedEdges` asks a
+	//   different question, about EXECUTION ORDER, and a row with no
+	//   rule of its own has no position to be ordered against. Reporting
+	//   it is correct.
+	//
+	// The line either resolves to `[]` when the halakha rule ships, or
+	// keeps one entry for as long as the JT row stays a catalogue row
+	// with no rule. Whichever happens, it happens here, in the open.
 	it('every recorded edge touching the registry is validated or reported', () => {
-		expect(unaccountedEdges(catalogue, RULES)).toEqual([]);
+		expect(unaccountedEdges(catalogue, RULES)).toEqual([
+			'anchor-swallows-close-paren ~ tosefta-variant-chapter-halakha-loss: recorded entanglement is invisible to the adjacency gate',
+			'jt-double-wrapped-citation ~ nested-anchor-swallows-punctuation: recorded entanglement is invisible to the adjacency gate',
+		]);
 	});
 
 	// Batch 3b's two MEASURED ordering constraints, neither of which is

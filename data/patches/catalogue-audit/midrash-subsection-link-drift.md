@@ -174,6 +174,24 @@ never shows it" is false at the data layer for those regardless.
   right and the link's sub wrong in 9, the reverse in 2, both plausible
   in 1** — so that row's members carry their own correct answer and are
   deterministically fixable.
+
+  > **RETRACTED 2026-08-26 (impl/phase-2-batch-4).** The conclusion
+  > drawn above — *"that row's members carry their own correct answer
+  > and are deterministically fixable"* — **does not follow from this
+  > audit's own figures and is withdrawn.** 12 of the 38 occurrences
+  > were adjudicated, not 38, so 26 carry an answer nobody read; and
+  > within the 12 the print was wrong in 2 and undecidable in 1, so even
+  > the read slice is not self-answering. Measured across all 38: the
+  > deltas between the printed superscript and the ref's sub-section
+  > spread −17 to +20, modal −1 at 9 of 38 occurrences (24%), 26 below
+  > and 12 above — no constant offset and no dominant direction.
+  > Brian ruled on 2026-08-26 that the 38 occ / 33 ent become their own
+  > row, `superscript-subsection-contradicts-link-sub-section`, **route
+  > `judgment`**. The parent row keeps a BOUNDARY MOVE that touches no
+  > `href` and no `data-ref`; **no shipped rule writes a sub-section
+  > into a `data-ref`**, which would be a target edit needing a
+  > `link-target.ts` case and a maintainer ruling. See
+  > `data/patches/catalogue-audit/superscript-subsection-stranded.md`.
 - **`citation-number-truncated-outside-anchor` (14, r2)** — owns the
   single bare-digit member R00351 (`>Gen. R. s. 1</a>8`, ref Bereishit
   Rabbah 18:1).

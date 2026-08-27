@@ -1,7 +1,7 @@
 # Phase 2 worklist — the catalogue, routed
 
 **Status: triaged 2026-08-21; totals recomputed from the catalogue
-2026-08-26 after transform batch 3b.** All 131 candidate rows routed.
+2026-08-26 after transform batch 4.** All 132 candidate rows routed.
 This is the Phase 2 entry point: start here, not in `patterns.jsonl`.
 
 Every count on this page is derived from `patterns.jsonl`, never typed
@@ -19,7 +19,7 @@ const b=rows.filter(r=>r.blocking===true); console.log("blocking", b.length, sum
 
 | | |
 |---|---|
-| Catalogue | `data/patches/patterns.jsonl` — 149 rows, 131 candidate |
+| Catalogue | `data/patches/patterns.jsonl` — 150 rows, 132 candidate |
 | Queue helpers | `admin/pipeline/research/patterns.ts` — `transformQueue()`, `blockingWork()`, `checkEntanglement()` |
 | Phase spec | `docs/specs/2026-08-17-sweep-tiering-design.md` §4 |
 | Round 4 reconcile | `docs/v2/discovery-round-4.md` |
@@ -54,8 +54,8 @@ someone pins the predicate.
 
 | Route | Rows | Instances | What it needs |
 |---|---:|---:|---|
-| **transform** | **73** | **22,026** | deterministic code + tests |
-| judgment | 53 | 15,841 | per-entry reading (Opus pass or maintainer) |
+| **transform** | **72** | **22,017** | deterministic code + tests |
+| judgment | 55 | 15,885 | per-entry reading (Opus pass or maintainer) |
 | blocked | 5 | 4,947 | pin the predicate first |
 
 Phase 1 closed this table at 81 / 46 / 5. Every move since has been a
@@ -105,9 +105,30 @@ is working:
   corrected a second time when the composed run found them
   manufacturing a rendered defect on 13 entries. See
   [transform-batch-3b.md](transform-batch-3b.md).
+- Batch 4 moved one row out and added one that was never a transform:
+  `post-anchor-numeral-duplication` (11) went transform → judgment —
+  the direction of the duplication is now settled (681 attestations
+  against 1, and 2 of the 11 prove the display numeral is print text)
+  but no candidate MECHANISM survives its own members, and a transform
+  must know why it is deleting — while
+  `superscript-subsection-contradicts-link-sub-section` (33) was split
+  off `superscript-subsection-stranded-outside-anchor` as `judgment`
+  from birth, so it never entered the transform total. Both audits are
+  under `data/patches/catalogue-audit/`. The batch also corrected two
+  counts: `anchor-swallows-close-paren` 494 → 493 and
+  `tosefta-variant-chapter-halakha-loss` 388 → 391. Ruled over TEN
+  rows, it shipped SIX rules and touched ELEVEN (the ten plus the new
+  judgment row), disposing of NINE: six registered, one
+  (`jt-double-wrapped-citation`) repaired in full by another row's rule
+  and recorded in `registry.ts`'s `COVERED` rather than given one of
+  its own, one withdrawn, one born `judgment`. The two left —
+  `tosefta-variant-chapter-halakha-loss` and
+  `unterminated-href-swallows-closing-tag` — are blocked on one
+  `link-target.ts` ruling, not on a missing predicate. See
+  [transform-batch-4.md](transform-batch-4.md).
 
-**51.4% of the backlog is deterministic code** (22,026 of 42,814
-instances), 55.7% of it by row. That is the most useful number here —
+**51.4% of the backlog is deterministic code** (22,017 of 42,849
+instances), 54.5% of it by row. That is the most useful number here —
 most of the catalogue does not need judgment at all.
 
 The instance total ROSE while four rows left, which looks wrong and is
@@ -120,10 +141,10 @@ Cutover gate, cross-cut:
 
 | | Rows | Instances |
 |---|---:|---:|
-| Blocks the v2 cutover | 58 | 15,676 |
-| Launch need not wait | 73 | 27,138 |
+| Blocks the v2 cutover | 59 | 15,709 |
+| Launch need not wait | 73 | 27,140 |
 
-## The transform queue — all 73 rows, largest first
+## The transform queue — all 72 rows, largest first
 
 `⚠ unaudited` marks a row with no `reason` recorded: its count has never
 been derived. That is not a reason to skip it — for a transform row,
@@ -144,12 +165,12 @@ either reproduces the count or does not.
 | `parenthesized-alt-headword` | 580 | **yes** | ⚠ unaudited |
 | `stranded-stem-head` | 544 | **yes** | — |
 | `redundant-outer-rtl-span` | 529 | no | — |
-| `anchor-swallows-close-paren` | 494 | no | — |
+| `anchor-swallows-close-paren` | 493 | no | — |
 | `geresh-letter-numeral-mislink` | 475 | no | — |
 | `nested-anchor-swallows-punctuation` | 465 | **yes** | — |
 | `binyan-form-leading-space` | 457 | **yes** | — |
 | `binyan-form-empty-slot` | 446 | **yes** | — |
-| `tosefta-variant-chapter-halakha-loss` | 388 | no | — |
+| `tosefta-variant-chapter-halakha-loss` | 391 | no | — |
 | `targum-sheni-never-linked` | 362 | no | ⚠ unaudited |
 | `plural-label-rendering-defeats-capture` | 358 | **yes** | — |
 | `empty-stem-section` | 342 | **yes** | ⚠ unaudited |
@@ -159,7 +180,7 @@ either reproduces the count or does not.
 | `midrash-petichta-unanchored` | 279 | no | — |
 | `em-dash-section-break-in-own-italic` | 270 | no | — |
 | `phrase-alt-headword-stub` | 236 | **yes** | — |
-| `open-paren-in-anchor-display` | 214 | **yes** | ⚠ unaudited |
+| `open-paren-in-anchor-display` | 214 | **yes** | — |
 | `prefixed-geresh-abbrev-mislink` | 173 | no | — |
 | `v-sub-redirect-stub-mislink` | 161 | no | — |
 | `superscript-subsection-stranded-outside-anchor` | 160 | **yes** | — |
@@ -192,7 +213,6 @@ either reproduces the count or does not.
 | `translit-italic-space-loss` | 15 | no | — |
 | `citation-number-truncated-outside-anchor` | 14 | **yes** | — |
 | `shuruk-as-yod-display-corruption` | 12 | no | — |
-| `post-anchor-numeral-duplication` | 11 | no | — |
 | `vkh-geresh-loss` | 11 | no | — |
 | `jt-double-wrapped-citation` | 10 | **yes** | — |
 | `section-break-terminator-loss` | 10 | **yes** | — |
@@ -235,8 +255,10 @@ either reproduces the count or does not.
 
    **Open, and it is catalogue work rather than transform work:** the
    adjacency gate reads `entangledWith` and nothing else, so a row
-   carrying no edge is a singleton it cannot judge. **56 of the 62
-   rows in `PENDING` carry no edge at all**, which makes the gate
+   carrying no edge is a singleton it cannot judge. **35 of the 38
+   rows in `PENDING` carry no edge at all** (measured 2026-08-26 after
+   batch 4; this read "56 of the 62", the figure at batch 2's close,
+   and 42 of 46 earlier the same day), which makes the gate
    unfalsifiable by construction for most of the queue — a clean run
    means "no RECORDED entanglement is split", never "no entanglement is
    split". Reproduce:
@@ -249,10 +271,27 @@ either reproduces the count or does not.
    const noEdge=[...PENDING].filter(id=>(by.get(id)?.entangledWith??[]).length===0);
    console.log("PENDING:",PENDING.length,"| no edge:",noEdge.length);'
    ```
-4. **9 transform rows are unaudited**, 4 of them blocking. Expect some
-   to reclassify on contact — the routing is a reading of each row, not
-   a measurement, and four rows have now moved: three to `judgment`,
-   and `ascii-gershayim-outside-body-text` discarded outright.
+4. **5 transform rows are unaudited**, 3 of them blocking (measured
+   2026-08-26 after batch 4; this read "9 … 4 of them blocking").
+   **CORRECTED 2026-08-26 (impl/phase-2-batch-4): this cited "the query
+   above",** which is the `entangledWith` no-edge query in item 3 and
+   measures nothing about auditing. `⚠ unaudited` is a row with no
+   `reason` recorded (see the queue heading above), so the query is:
+
+   ```bash
+   bun -e 'import {parsePatterns} from "./admin/pipeline/research/patterns.ts";
+   const t=parsePatterns(await Bun.file("data/patches/patterns.jsonl").text())
+     .filter(r=>r.route==="transform"&&r.status==="candidate"&&r.reason===undefined);
+   console.log("unaudited transform:",t.length,"| blocking:",t.filter(r=>r.blocking===true).length);'
+   ```
+
+   The five are `unlinked-v-span` and `targum-sheni-never-linked`
+   (non-blocking), and `empty-stem-section`,
+   `parenthesized-alt-headword` and `b-h-split-across-field-boundary`
+   (blocking). Expect some to reclassify on contact — the routing
+   is a reading of each row, not a measurement, and nine rows have now
+   moved: eight to `judgment` and `ascii-gershayim-outside-body-text`
+   discarded outright.
 
 ## Candidates found in batch 2, recorded and NOT opened
 
@@ -403,11 +442,19 @@ after launch unless something else forces the issue.
   transform" was arguable — lost-text rows especially — the row was
   marked blocking. Wrong that way costs pre-launch effort; wrong the
   other way ships a baked-in defect.
-- **4 of the 9 unaudited transform rows block the cutover, and they
+- **3 of the 5 unaudited transform rows block the cutover, and they
   carry the least confidence**, having no recorded derivation behind
-  their counts. Recomputed 2026-08-25 rather than typed — the figure
-  here read 8 until this review, a Phase-1 snapshot that three route
-  changes had left behind:
+  their counts. Recomputed rather than typed:
+
+  > **CORRECTED 2026-08-26 (impl/phase-2-batch-4).** This read *"4 of
+  > the 9"*, recomputed 2026-08-25 (itself replacing a Phase-1 "8" that
+  > three route changes had left behind) and stale twice over since:
+  > the set stood at **6 unaudited / 4 blocking** at this branch's
+  > point, and batch 4 wrote a `reason` onto
+  > `open-paren-in-anchor-display` — the largest unreasoned row in the
+  > catalogue, spec §2.2 — leaving **5 unaudited, 3 of them blocking**.
+  > Same figures as item 4 of "Ordering and open questions", from this
+  > same query.
 
   ```bash
   bun -e 'import {parsePatterns} from "./admin/pipeline/research/patterns.ts";
