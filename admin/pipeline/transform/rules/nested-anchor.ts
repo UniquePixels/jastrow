@@ -311,14 +311,28 @@ function overDefinitions(entry: SourceEntry): {
  * edge records the entanglement for a human and changes what no check
  * sees.
  *
- * What that leaves open is a real, currently-false claim, not a
- * cosmetic one: `jt-double-wrapped-citation` is still in
- * `registry.ts`'s `PENDING` list, and that file's own comment defines
- * a `PENDING` entry as "a standing claim that a row is still owed a
- * rule". Shipping this rule makes that claim false. TASK 7 MUST
- * RESOLVE IT — by withdrawing the row to `judgment` or otherwise
- * accounting for it — and no gate will fail until it does, because a
- * row in `PENDING` is exactly what `coverage()` expects to find.
+ * What that left open was a real, currently-false claim, not a
+ * cosmetic one: `jt-double-wrapped-citation` sat in `registry.ts`'s
+ * `PENDING` list, and that file's own comment defines a `PENDING`
+ * entry as "a standing claim that a row is still owed a rule".
+ * Shipping this rule made that claim false, with no gate failing —
+ * because a row in `PENDING` is exactly what `coverage()` expects to
+ * find.
+ *
+ * RESOLVED 2026-08-26 (batch 4 task 7), and not by withdrawing the row
+ * to `judgment`: it is not a judgment call, it is repaired. The
+ * registry gained a third list, `COVERED`, for exactly this state — a
+ * row with no rule of its own and none owed, because another row's
+ * rule repairs it. `coverage()` counts such a row as owned ONLY while
+ * the rule named alongside it is registered, so unregistering this
+ * rule now drops `jt-double-wrapped-citation` into `unaccounted` and
+ * fails `registry.test.ts`, and naming it in both lists is reported as
+ * `duplicated`. The claim is falsifiable where it was silent.
+ *
+ * `unaccountedEdges` still REPORTS the mutual edge, and correctly: it
+ * asks about execution order, and a row with no rule has no position
+ * to be ordered against. That report is pinned in
+ * `registry.order.test.ts` alongside its reason.
  */
 const nestedAnchorDuplicate: Rule = {
 	apply(entry: SourceEntry): TransformResult {

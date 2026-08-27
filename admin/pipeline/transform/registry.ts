@@ -23,6 +23,14 @@ import {
 	shurukAsYodDisplayCorruption,
 } from './rules/misc-links.ts';
 import {
+	dupAnchorLanguageRef,
+	nestedAnchorDuplicate,
+} from './rules/nested-anchor.ts';
+import {
+	openParenInAnchorDisplay,
+	toseftaCloseParen,
+} from './rules/paren-boundary.ts';
+import {
 	emDashSectionBreak,
 	italicLonePunctuation,
 } from './rules/punct-seams.ts';
@@ -38,6 +46,10 @@ import {
 	parenTagSpace,
 	translitItalicSpace,
 } from './rules/seam-space.ts';
+import {
+	superscriptInsideAnchor,
+	truncatedCitationDigit,
+} from './rules/stranded-tail.ts';
 import { apparatusCite, ellipsisFragment, rabbiName } from './rules/unlink.ts';
 import type { Rule } from './types.ts';
 
@@ -96,6 +108,51 @@ const RULES: readonly Rule[] = [
 	// assertion, which reads the whole `UNLINK` set.
 	apparatusCite,
 	rabbiName,
+
+	// ---- Batch 4's two UNLINK rows, and why they are not next to the
+	// rest of their batch ----
+	//
+	// `nonsense-dup-anchor` (755 occ / 755 ent, `language_reference`)
+	// and `nested-anchor-swallows-punctuation` (475 occ / 465 ent,
+	// `definition`) drop the OUTER layer of a doubled anchor whose two
+	// layers share a target. Both declare `unlinks`, so
+	// `registry.order.test.ts` earns them into `UNLINK` from the corpus
+	// rather than from this comment, and rules 1 and 4 then place them:
+	// before every retarget rule, and before every rtl wrap rule. The
+	// batch's other four rules carry no such requirement and sit
+	// together further down, after the wrap component — batch 4 is
+	// SPLIT across two blocks for that reason and no other. The batch's
+	// PHASE ruling — why all six are `text-repairs` and why
+	// `structural-repairs` is the wrong side rather than merely an
+	// empty one — is stated once, at the head of that second block.
+	//
+	// They lead the component below rather than joining it: neither row
+	// carries an `entangledWith` edge to any member of it, and putting
+	// them inside would break the gap-free span `checkAdjacency()`
+	// requires of those seven.
+	//
+	// Order between the two is MEASURED and free, and so is their order
+	// against every rule already here. The two populations are DISJOINT
+	// — 0 entries in both, asserted corpus-wide in
+	// `rules/nested-anchor.test.ts`'s corpus tier, where 755 + 465 = 1,220
+	// reproduces the pre-re-scope catalogued figure — and they are
+	// separated by locus besides, one walking `language_reference` and
+	// the other `definition`. The whole-registry check is what the
+	// placement actually rests on: moving each rule to the front and to
+	// the back of `RULES` and comparing all 32,512 entries byte for
+	// byte reads 0 / 0 for both (batch-4 report §2).
+	//
+	// The one interaction worth naming, since it is the reason they sit
+	// AFTER the three unlink rows above rather than before them: an
+	// unlink rule that deletes an anchor can change which anchor is
+	// "the outer layer" of a pair. It does not happen here — the
+	// populations are disjoint and the 0 / 0 measurement says so from
+	// the other side — but the doctrine at the top of this list wants
+	// the deletions to have happened before a rule reads the anchor
+	// sequence they leave behind, and that is a property to keep after
+	// a re-fetch rather than a fact about today's corpus.
+	dupAnchorLanguageRef,
+	nestedAnchorDuplicate,
 
 	// ---- The unlink/wrap component: SEVEN rules, gap-free ----
 	//
@@ -173,6 +230,175 @@ const RULES: readonly Rule[] = [
 	bareRtlHebrew,
 	latinTokenInsideRtl,
 
+	// ======== Batch 4: the anchor-boundary rules ========
+	//
+	// ---- THE PHASE RULING, for all six of batch 4's rules ----
+	//
+	// Two reviewers asked whether the batch's structural removals — the
+	// two rules that DELETE an anchor layer — belong in
+	// `structural-repairs` rather than `text-repairs`. RULED
+	// 2026-08-26: all six stay `text-repairs`, matching all 27 rules
+	// shipped before them, and the reason is not conservatism.
+	//
+	// `structural-repairs` is the WRONG SIDE, not merely an empty one.
+	// The committed phase manifest (`patch/apply.ts:56-57`) runs it
+	// AFTER `text-repairs` in full, so an unlink rule moved there would
+	// run after every wrap rule and every retarget rule in this list —
+	// the exact inversion `fix/rtl-unlink-order` was written to undo,
+	// and one that rules 1 and 4 in `registry.order.test.ts` exist to
+	// forbid. The phase is also unwired: `migrate-dry.ts:294` runs it
+	// as a no-op and `migrate-dry.ts:144` throws the moment any rule
+	// declares it ("wire it — batch 6"), so a rule placed there today
+	// halts the migration instead of running late.
+	//
+	// And the name does not describe these rules anyway. What
+	// `structural-repairs` is reserved for is a pass that changes an
+	// entry's SHAPE — splitting a sense, moving a field — which is why
+	// `markup.ts:168` reasons about a field COUNT changing under it.
+	// Dropping a redundant anchor layer changes markup inside one
+	// field and leaves the sense tree exactly as it was. That is a text
+	// repair by the manifest's own division.
+	//
+	// FOUR rules that move an anchor's own closing tag across the text
+	// beside it. None removes an anchor, none writes a target, and none
+	// changes a single byte of tag-stripped text: each is a pure
+	// relocation of `</a>`, which is why `registry.order.test.ts` earns
+	// all four into `NEITHER` and why rules 1 and 4 say nothing about
+	// where they sit.
+	//
+	// Plenty else does. They sit HERE — after the unlink/wrap component
+	// and before every retarget rule — for the two reasons this file
+	// already states in both directions:
+	//
+	// - A rule that REPAIRS an anchor runs before a rule that READS
+	//   one. That is `ibAnaphora`'s own retarget-after-retarget note
+	//   turned around: a retarget adopts a neighbouring anchor's target
+	//   and, under gate case 3, its DISPLAY. `toseftaCloseParen`
+	//   rewrites a display (`XVII), 6` becomes `XVII`) and the other
+	//   three move a closing tag past text a display test would read.
+	//   The three `ib-` populations are disjoint from all four of these
+	//   today — measured, see below — so this is a fail-closed default
+	//   against a re-fetch rather than a live dependency.
+	// - They must see the anchor sequence the UNLINK rules leave
+	//   behind. `toseftaSplits` defines a variant's primary as the
+	//   anchor immediately preceding it in document order, so a deleted
+	//   anchor can move a primary — or leave a variant orphaned, which
+	//   the walk then drops. What is measured is that none of that
+	//   happens: composed over this registry `toseftaCloseParen` fires
+	//   on the same 525 occurrences / 493 entries it fires on alone, so
+	//   no pair is lost to an earlier deletion. The ordering is what
+	//   keeps that true rather than lucky.
+	//
+	// EVERY placement claim below is measured the way batch 3b's block
+	// measures its own: the rule is moved to the FRONT and to the BACK
+	// of `RULES`, the whole registry is composed over all 32,512
+	// entries, and the figure quoted is the number of ENTRIES whose
+	// final bytes differ from the shipped order. `front / back`.
+	//
+	// ALL FOUR READ 0 / 0, and so do the batch's two unlink rows above:
+	// every batch-4 placement is FREE on today's corpus at
+	// whole-registry granularity, and the arguments above are what make
+	// them right rather than merely permitted. The commutation gate
+	// agrees from the pairwise side — 33 rules, 528 pairs, 8
+	// non-commuting, 0 undeclared — but a green pair gate is NOT
+	// coverage, since it can say nothing about a state some third rule
+	// produces. The 0 / 0 figures are the whole-registry answer; the
+	// gate is the cheap continuous one.
+
+	// ---- THE SLOT: `toseftaPrimaryHalakha` REGISTERS HERE ----
+	//
+	// The deferred halakha rule for `tosefta-variant-chapter-halakha-
+	// loss` (414 occ / 391 ent, measured and pinned in
+	// `paren-boundary.test.ts`) MUST be registered on THIS line —
+	// STRICTLY BEFORE `toseftaCloseParen`, not merely adjacent to it.
+	// The direction is the whole requirement and getting it backwards
+	// is SILENT.
+	//
+	// `toseftaCloseParen` destroys `toseftaSplits`'s own predicate: a
+	// variant's display reads `XVII), 6` before the boundary move and
+	// `XVII` after it, `VARIANT_DISPLAY` is anchored at both ends, and
+	// `run.ts` feeds each rule the previous rule's output. A halakha
+	// rule registered below this line sees 0 splits and repairs 0
+	// primaries — while `bun transform:count`, which measures every
+	// rule ALONE against the pinned snapshot, keeps reporting 414
+	// MATCH. Green everywhere, nothing done. The full argument is
+	// `rules/paren-boundary.ts`'s REGISTRATION ORDER section, and the
+	// corpus tier there measures the destruction directly
+	// (`survivingSwallows` 525 -> 0, computed from the output).
+	//
+	// The two rows are declared `entangledWith` each other, so once
+	// that rule ships `checkAdjacency()` will require the pair to
+	// occupy a gap-free span — which this slot satisfies — and the
+	// commutation gate will report them non-commuting, which is
+	// expected and correct. Neither gate can say which order is right;
+	// this comment is the answer.
+	//
+	// Why the row is deferred rather than dropped:
+	// `link-target.ts` case 4 refuses the repair. `rejoinsFrom`'s
+	// 2026-08-24 tightening requires the part of `tail` the split
+	// discards to be a prefix of `head`, and `Tosefta Shabbat 17` is
+	// not a prefix of `Tosefta Shabbat 16`. The evidence for the repair
+	// is stronger than case 4 asks for — the halakha is witnessed twice
+	// in the entry's own input, in the variant's `data-ref` and again
+	// in its display — so the gap is in the gate, not in the repair.
+	// Brian ruled 2026-08-26 that widening a SHARED gate is its own PR.
+	toseftaCloseParen,
+
+	// `open-paren-in-anchor-display` (225 occ / 214 ent) — the opposite
+	// polarity in the same tag, `<a>(TEXT</a>)`, with the `(` carried
+	// out to the left of the opening tag.
+	//
+	// Adjacent to `toseftaCloseParen` by choice, not by requirement:
+	// the catalogue records no edge between the two rows, and the byte-
+	// SPAN comparison behind that is the batch's headline check — 0
+	// intersections, although 9 entries carry both shapes at different
+	// offsets, so a rid-level test would have reported a false
+	// collision. `paren-boundary-corpus.test.ts` composes the pair in
+	// both orders over the whole corpus and asserts 0 order-dependent
+	// entries, 0 induced close-paren sites and 0 induced open-paren
+	// sites, so the pair's freedom is a shipped assertion rather than a
+	// one-off run.
+	openParenInAnchorDisplay,
+
+	// The stranded tails (`superscript-subsection-stranded-outside-
+	// anchor`, 182 occ / 160 ent, confined to letters T/U/V; and
+	// `citation-number-truncated-outside-anchor`, 14 occ / 14 ent).
+	// Both pull a fragment left outside the anchor back inside it by
+	// moving `</a>`, and neither touches `href` or `data-ref` — the
+	// opening-tag multiset is asserted byte-identical over the whole
+	// corpus in `stranded-tail.test.ts` (`tagDrift`).
+	//
+	// `truncatedCitationDigit` deliberately leaves `data-ref` reading
+	// the truncated number: resolving the correct Sefaria address is
+	// inference, not relocation. And `superscriptInsideAnchor` performs
+	// none of the target ENRICHMENT its own catalogue row's prose
+	// advertises for the 77 no-sub-section occurrences — see that row's
+	// `reason`, which now says so.
+	//
+	// COMPOSED, `truncatedCitationDigit` FIRES 12 TIMES, NOT 14, and
+	// the two figures are both correct. `bun transform:count` runs
+	// every rule alone against the raw snapshot and reports 14 MATCH;
+	// composed over this registry the count is 12, because
+	// `apparatusCite` — six slots above — DELETES the whole anchor in
+	// G00065 and H00504. Both are `Koh. III, p. 3NN` apparatus
+	// citations wrongly linked to Ecclesiastes, and an unlink takes the
+	// defect away with the link that carried it. Nothing is lost and
+	// the orders converge: unlinking keeps the display text, so
+	// composing the two rules either way round leaves those entries
+	// byte-identical, which is what the 0 / 0 above is reporting.
+	//
+	// This rule also carries a refusal added at registration, for a
+	// case only the PIPELINE can produce: `applyRepairs` runs before
+	// every transform, `rejoin-chopped` folds a phantom `2)` into the
+	// flow directly behind `<a … data-ref="Genesis 4:2">Gen. IV, 2</a>`
+	// in S01040, and the rule read that sense number as a citation tail
+	// and rendered `Gen. IV, 22`. A 15th member of a 14-member
+	// population, manufactured downstream of the snapshot every
+	// measurement here is taken on. See `rules/stranded-tail.ts`,
+	// "THE SENSE-MARKER REFUSAL".
+	superscriptInsideAnchor,
+	truncatedCitationDigit,
+
 	// shuruk-as-yod-display-corruption (batch 2, task 10). Not an
 	// unlink and not a retarget — the only rule in the batch that edits
 	// DISPLAY text while leaving the target untouched (the link was
@@ -247,8 +473,12 @@ const RULES: readonly Rule[] = [
 	// THE 6,204 IS A REGISTRY-WIDE TOTAL AS OF 2026-08-23 AND HAS
 	// MOVED (noted 2026-08-24, task 11). `shurukAsYodDisplayCorruption`
 	// was registered afterwards and adds 12, and `targumAnaphora` 8, so
-	// the registry now produces **6,224 records** over all 32,512
-	// entries. What the measurement above claims is INVARIANCE between
+	// the registry produced 6,224 records over all 32,512 entries.
+	// CORRECTED 2026-08-26 (batch 4): that read "the registry now
+	// produces **6,224 records**", which went stale at batch 3b's
+	// twelve rules and again here. Measured on the composed registry as
+	// it stands, over all 32,512 entries: **13,696 records**. What the
+	// measurement above claims is INVARIANCE between
 	// the two orders, and that is unaffected: the absolute is a
 	// timestamp, not the finding. Re-derive with the composed pass in
 	// `docs/v2/transform-batch-2.md` §3 rather than trusting either
@@ -293,8 +523,10 @@ const RULES: readonly Rule[] = [
 	//
 	// Same caveat as the block above (noted 2026-08-24, task 11): the
 	// 6,212 is the registry-wide total as of 2026-08-23, before
-	// `shurukAsYodDisplayCorruption`'s 12 were registered; the current
-	// total is **6,224**. The claim being made is that all six
+	// `shurukAsYodDisplayCorruption`'s 12 were registered. CORRECTED
+	// 2026-08-26 (batch 4): this read "the current total is **6,224**";
+	// it is **13,696** measured on today's registry. The claim being
+	// made is that all six
 	// permutations agree with each other, which does not depend on the
 	// absolute.
 	//
@@ -325,8 +557,13 @@ const RULES: readonly Rule[] = [
 	// Both measurements are `rules/gershayim.test.ts`'s corpus tier,
 	// re-run on every `bun qa` rather than recorded here once.
 	//
-	// Appended at the END of the list, which the measurements above
-	// say is free but do not by themselves say is RIGHT. It is the
+	// Appended at the END of the list when batch 3a shipped it, which
+	// the measurements above say is free but do not by themselves say
+	// is RIGHT. (CORRECTED 2026-08-26, batch 4: the pair is NOT last
+	// any more and has not been since batch 3b appended twelve rules
+	// below it. The sentence was a claim about where it went, and it
+	// is kept as that with the tense fixed; the freedom it rests on is
+	// re-measured every run by the corpus tier named above.) It is the
 	// safe default for the same reason the retarget note gives: every
 	// rule above reads today's targets, truncation and all, so running
 	// last changes nothing any of them sees. Measured too, against the
@@ -562,7 +799,8 @@ const RULES: readonly Rule[] = [
 /** Catalogued transform rows with no rule yet. Shrinks batch by batch;
  * empty at the end of Phase 2. */
 const PENDING: readonly string[] = [
-	'nonsense-dup-anchor',
+	// `nonsense-dup-anchor` and `nested-anchor-swallows-punctuation`
+	// left this list in batch 4 Task 7: both are registered above.
 	'unlinked-v-span',
 	// `homograph-numeral-mismatch` left this list in batch 2 Task 9:
 	// audited to `judgment` in `patterns.jsonl`. Its 576 occurrences /
@@ -572,15 +810,11 @@ const PENDING: readonly string[] = [
 	// population already points where print says, the only family model
 	// available scores 87.5% on 3,253 known-correct controls, and gate
 	// case 2 reaches the replacement for 3.5% of the candidate defects.
-	'anchor-swallows-close-paren',
-	'nested-anchor-swallows-punctuation',
 	'targum-sheni-never-linked',
-	'superscript-subsection-stranded-outside-anchor',
 	// `h-cognate-self-link` left this list in batch 2 Task 4: audited to
 	// `judgment` in `patterns.jsonl` (no other article exists for any of
 	// its 87 anchors, and the construct is 3.2% of a corpus-wide linker
 	// behaviour), so `coverage` no longer counts it and neither list may.
-	'open-paren-in-anchor-display',
 	'trailing-em-dash-tail',
 	'stranded-stem-head',
 	'empty-stem-section',
@@ -598,7 +832,6 @@ const PENDING: readonly string[] = [
 	'stem-head-marker-chop',
 	'vkh-geresh-loss',
 	'tosefta-variant-chapter-halakha-loss',
-	'citation-number-truncated-outside-anchor',
 	'homograph-roman-stranded-in-definition',
 	'holam-migrated-off-mater-vav',
 	'impossible-dagesh',
@@ -636,7 +869,6 @@ const PENDING: readonly string[] = [
 	// `coverage`'s total, and does not offset the withdrawal: 73 -> 72.
 	'section-break-terminator-loss',
 	'see-particle-lost',
-	'jt-double-wrapped-citation',
 	// FOUR MORE left this list in batch 3b Task 6, each audited to
 	// `judgment` in `patterns.jsonl` for its own reason — the working is
 	// in data/patches/catalogue-audit/batch-3b-withdrawals.md:
@@ -648,24 +880,106 @@ const PENDING: readonly string[] = [
 	// to `route === 'transform'`, so leaving one here fails nothing
 	// today, but a `PENDING` entry is a standing claim that a row is
 	// still owed a rule, and for these four it is not.
+	//
+	// SIX MORE left this list in batch 4 Task 7 by being REGISTERED —
+	// `nonsense-dup-anchor`, `nested-anchor-swallows-punctuation`,
+	// `anchor-swallows-close-paren`, `open-paren-in-anchor-display`,
+	// `superscript-subsection-stranded-outside-anchor` and
+	// `citation-number-truncated-outside-anchor` — and a SEVENTH,
+	// `jt-double-wrapped-citation`, left it without a rule of its own.
+	// See `COVERED` directly below: it is repaired in full by another
+	// row's rule, which is neither "registered" nor "still owed a rule"
+	// and had no way to be said here.
+	//
+	// TWO of batch 4's ten rows are still here and both are BLOCKED on
+	// a shared-gate ruling rather than on a missing predicate. Neither
+	// is idle: a rule exists for one and a population is pinned for the
+	// other, so what a `PENDING` entry claims for these two is that the
+	// row is owed a REGISTERED rule, which it is.
+	//
+	// - `unterminated-href-swallows-closing-tag` (2 occurrences, D00478
+	//   and J00597) HAS a written, tested rule on this branch —
+	//   `rules/malformed-href.ts`, 19 tests — and it is deliberately not
+	//   imported above. `checkLinkTargets` refuses D00478: the repair's
+	//   evidence lives in RAW TAG BYTES that do not parse, so the target
+	//   it restores is absent from the input's parsed target set and no
+	//   case licenses it. `run.ts` throws on a gate problem, so
+	//   registering it would HALT the migration on the first pass over
+	//   that entry rather than repair anything.
+	// - `tosefta-variant-chapter-halakha-loss` (414 occ / 391 ent) is
+	//   refused by case 4's 2026-08-24 tightening. Its slot in `RULES`
+	//   is marked, and the direction is load-bearing.
+	//
+	// Both fold into one follow-up gate PR (Brian, 2026-08-26), on the
+	// shape PR #50 took: a ruling on a SHARED gate is not an
+	// implementation choice inside one rule module.
+];
+
+/**
+ * Catalogued transform rows with NO rule of their own and no rule
+ * owed: every one of their records is repaired by a rule registered
+ * for ANOTHER row.
+ *
+ * The third state, and the registry had no way to say it until batch 4
+ * shipped `nestedAnchorDuplicate`. `PENDING` is a standing claim that a
+ * row is still owed a rule; `RULES` says a rule carries the row's own
+ * id. `jt-double-wrapped-citation` is neither — it is exactly the
+ * empty-trapped-text arm of `nested-anchor-swallows-punctuation`, its
+ * 10 entries are inside that rule's 465, and no rule will ever carry
+ * its id. Left in `PENDING` it was a false claim NO GATE COULD SEE,
+ * because a row sitting in `PENDING` is precisely what `coverage()`
+ * expects to find; removed from `PENDING` and named nowhere it becomes
+ * `unaccounted`, which is the same silence from the other side.
+ *
+ * What this list buys is falsifiability, through `coverage()` below:
+ * a row here counts as owned only while the rule named by `by` is
+ * actually registered, so unregistering `nestedAnchorDuplicate` drops
+ * `jt-double-wrapped-citation` straight into `unaccounted` and fails
+ * `registry.test.ts`. And a row named here AND in `PENDING` is
+ * reported as `duplicated`, so the two claims cannot both stand.
+ *
+ * What it does NOT establish is that the repair is real — no more than
+ * a `PENDING` entry establishes that a row still needs one. The
+ * evidence for this row is measured and lives elsewhere:
+ * `rules/nested-anchor.test.ts` asserts the 20 empty-trapped-text
+ * records resolve to exactly the 10 rids the catalogue names, as a
+ * sorted list.
+ */
+const COVERED: readonly { by: string; row: string }[] = [
+	{
+		by: 'nested-anchor-swallows-punctuation',
+		row: 'jt-double-wrapped-citation',
+	},
 ];
 
 interface Coverage {
-	/** Rows claimed by BOTH `RULES` and `PENDING` — a row that has a
-	 * rule and is still listed as waiting for one. Always empty; a
-	 * non-empty value means the two lists disagree about who owns the
-	 * row, and `registered + pending` over-counts `total`. */
+	/** Rows named by `COVERED` whose owning rule is registered — no
+	 * rule of their own, and none owed. Counted inside `registered`,
+	 * because they ARE owned; listed separately because a row nobody
+	 * can find by searching `RULES` for its id is exactly the kind of
+	 * claim this file exists to keep visible. */
+	covered: string[];
+	/** Rows claimed by BOTH `PENDING` and one of the owning lists — a
+	 * row that has a rule and is still listed as waiting for one.
+	 * Always empty; a non-empty value means the lists disagree about
+	 * who owns the row, and `registered + pending` over-counts
+	 * `total`. */
 	duplicated: string[];
 	pending: number;
+	/** Rows a registered rule owns: by carrying the row's id, or by
+	 * repairing it under another row's id (`COVERED`). */
 	registered: number;
 	total: number;
-	/** Transform rows that are neither registered nor pending. */
+	/** Transform rows that are neither registered nor pending. A
+	 * `COVERED` row whose owning rule is NOT registered lands here,
+	 * which is what stops that list from being a self-granted
+	 * exemption. */
 	unaccounted: string[];
 }
 
 /**
- * Partition the catalogue's transform rows across `RULES` and
- * `PENDING`.
+ * Partition the catalogue's transform rows across `RULES`, `COVERED`
+ * and `PENDING`.
  *
  * `pending` is counted from `PENDING`, NOT as the complement of
  * `registered`. The complement reading makes `registered + pending ===
@@ -679,9 +993,19 @@ function coverage(catalogue: readonly Pattern[]): Coverage {
 	const rows = catalogue.filter(
 		(row) => row.route === 'transform' && row.status === 'candidate',
 	);
-	const registered = new Set(RULES.map((rule) => rule.id));
+	const rules = new Set(RULES.map((rule) => rule.id));
+	// A `COVERED` row is owned by the rule that repairs it, so the claim
+	// is only as good as that rule's registration — check it here rather
+	// than trusting the list.
+	const registered = new Set([
+		...rules,
+		...COVERED.filter((c) => rules.has(c.by)).map((c) => c.row),
+	]);
 	const pending = new Set(PENDING);
 	return {
+		covered: rows
+			.filter((row) => registered.has(row.id) && !rules.has(row.id))
+			.map((row) => row.id),
 		duplicated: rows
 			.filter((row) => registered.has(row.id) && pending.has(row.id))
 			.map((row) => row.id),
@@ -733,9 +1057,11 @@ interface Cluster {
  * find it from either end.
  *
  * `checkEntanglement` reports an unreciprocated edge as a catalogue
- * problem, and today every edge is reciprocated — 32 recorded entries,
- * 16 undirected edges, 0 one-sided, 0 dangling (2026-08-26: was 18 / 9
- * before `fix/rtl-unlink-order` declared seven more; see
+ * problem, and today every edge is reciprocated — 34 recorded entries,
+ * 17 undirected edges, 0 one-sided, 0 dangling (2026-08-26, batch 4;
+ * this read 32 / 16 the same day, before batch 4's own catalogue
+ * write-back added the mutual JT/nested edge, and 18 / 9 before
+ * `fix/rtl-unlink-order` declared seven more; see
  * `registry.order.test.ts` for a stale SPLIT of those totals corrected
  * at the same time) — so nothing in the
  * corpus reaches this. That is exactly why it is worth building
@@ -859,9 +1185,11 @@ function entangledClusters(
  * an entanglement nobody recorded does not exist as far as it is
  * concerned. A row carrying NO edge is invisible to it: the row's
  * component is a singleton, `entangledClusters` drops it, and the gate
- * returns clean whatever the registry does with that rule. 42 of the
- * 46 rows still in `PENDING` carry no edge at all (measured
- * 2026-08-26; this read "56 of the 62" and went stale one commit
+ * returns clean whatever the registry does with that rule. 35 of the
+ * 38 rows still in `PENDING` carry no edge at all (measured
+ * 2026-08-26 after batch 4 registered six rows and recorded a seventh
+ * in `COVERED`; this read "42 of the 46" earlier the same day and
+ * "56 of the 62" one commit
  * earlier, at batch 3b, which took 16 rows off `PENDING` — 12 rules
  * shipped and 4 rows withdrawn — rather than on this branch, which
  * changed no `PENDING` row's edges. The ratio moved; the claim the
@@ -932,8 +1260,12 @@ function checkAdjacency(
  *
  * Edges between two unregistered rows are excluded rather than
  * missing: execution order cannot be wrong about a rule that does not
- * run. 3 of the catalogue's 16 undirected edges are of that kind
- * today.
+ * run. 2 of the catalogue's 17 undirected edges are of that kind
+ * today (2026-08-26, batch 4; this read "3 of the catalogue's 16" —
+ * the 16 became 17 with the JT/nested edge, and the third
+ * neither-registered edge became a ONE-registered edge when
+ * `nestedAnchorDuplicate` shipped, which is why it now reports rather
+ * than being excluded).
  *
  * CORRECTED 2026-08-26 (fix/rtl-unlink-order). This read "4 of the
  * catalogue's 9". The 9 became 16 when this branch declared seven more
@@ -976,6 +1308,7 @@ function unaccountedEdges(
 
 export type { Cluster, Coverage };
 export {
+	COVERED,
 	checkAdjacency,
 	coverage,
 	entangledClusters,

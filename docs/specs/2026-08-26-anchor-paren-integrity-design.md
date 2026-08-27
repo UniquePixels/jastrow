@@ -42,7 +42,13 @@ both cases — **split by predicate, not by adjacency**:
   Pulling it forward would take batch 5's largest row.
 
 **2,515 is a catalogue figure, and §3 shows why the batch's real
-population is 2,114 and its rule count is 7, not 10.** CORRECTED
+population is 2,114 and its rule count is 7, not 10.** SHIPPED
+2026-08-26 AS **SIX** RULES over nine rows: `unterminatedHref` is
+written and tested but NOT registered, because `checkLinkTargets`
+refuses D00478 and `run.ts` would halt the migration on it. That
+deferral and `tosefta-variant-chapter-halakha-loss`'s fold into one
+follow-up gate PR. See
+[../v2/transform-batch-4.md](../v2/transform-batch-4.md). CORRECTED
 2026-08-26: this read *"2,122 … 9, not 10"*. It subtracted the tosefta
 containment and not the JT one, although §3.2 is entirely about the JT
 containment — and the rule count was the row count minus one

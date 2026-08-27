@@ -26,10 +26,31 @@
  * a narrow window.
  *
  * The ABSOLUTE pin below is what widens it: `after` must hold exactly
- * 72,593 resolving Jastrow targets. Any change in any layer that moves
+ * 71,383 resolving Jastrow targets. Any change in any layer that moves
  * the corpus-wide total fails there instead, at no extra runtime. A new
  * unlink rule will move it legitimately — update the number WITH the
  * measurement that justifies it, never to make a red test green.
+ *
+ * MOVED 2026-08-26 (batch 4), 72,593 -> 71,383, and this is that
+ * clause being used for the first time. Batch 4 registered two unlink
+ * rules — `nonsense-dup-anchor` and
+ * `nested-anchor-swallows-punctuation` — which drop the OUTER layer of
+ * a doubled anchor whose two layers share one target. Measured on the
+ * pipeline, withholding those two rules and nothing else:
+ *
+ *   anchors corpus-wide            169,285 -> 168,055   (-1,230)
+ *   resolving Jastrow targets       72,593 ->  71,383   (-1,210)
+ *   DISTINCT (rid, data-ref) pairs 160,239 -> 160,239   (       0)
+ *
+ * The third line is the one that says nothing was lost: every removed
+ * layer duplicated a target its inner twin still carries, so not one
+ * address left the corpus. The 20 removals that were not resolving
+ * Jastrow targets are the `jt-double-wrapped-citation` pairs — 2 each
+ * across the 10 rids the catalogue names — which is that row's
+ * population re-derived here, from the pipeline, by subtraction.
+ *
+ * Batch 4's other four rules move NO anchor and NO target: withholding
+ * all six gives the same 72,593 as withholding the unlink pair alone.
  *
  * Cost: two full pipeline passes (`applyRepairs` + the whole registry)
  * over 32,512 entries. That is expensive and it is deliberate; the
@@ -135,8 +156,10 @@ describe('the pipeline preserves and repairs link targets', () => {
 			lostCount: lost.length,
 		}).toEqual({ entries: 32_512, gained: 90, lost: [], lostCount: 0 });
 		// Absolute, not differential — see the module docstring. Measured
-		// on this tree; `before` is 72,503.
-		expect(now.size).toBe(72_593);
+		// on this tree; `before` is 71,293. Both figures moved by the
+		// same 1,210 when batch 4's two unlink rules registered, and the
+		// docstring carries the measurement.
+		expect(now.size).toBe(71_383);
 	}, 180_000);
 
 	it('leaves no escaped quote in the corpus, and one spelling per address', async () => {

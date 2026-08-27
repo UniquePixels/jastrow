@@ -18,12 +18,25 @@
  * refuse those outright. In J00597 that is twelve anchors — the
  * entire corpus-wide `interior` population, all of them in that one
  * entry, all of them behind this one tag. No other rule can reach
- * them until this one runs. TASK 7 MUST PLACE THIS RULE FIRST in
- * `registry.ts`'s `RULES`: it shares the `text-repairs` phase with
- * every other rule (`structural-repairs` runs AFTER `text-repairs`
- * per `admin/pipeline/patch/apply.ts:56-57`, which is the wrong side
- * of every rule that edits an anchor this one frees), so ordering
- * within the phase is the only thing that sequences it.
+ * them until this one runs. WHOEVER REGISTERS THIS RULE MUST PLACE IT
+ * FIRST in `registry.ts`'s `RULES`: it shares the `text-repairs` phase
+ * with every other rule (`structural-repairs` runs AFTER
+ * `text-repairs` per `admin/pipeline/patch/apply.ts:56-57`, which is
+ * the wrong side of every rule that edits an anchor this one frees),
+ * so ordering within the phase is the only thing that sequences it.
+ *
+ * CORRECTED 2026-08-26 (batch 4 task 7). This read "TASK 7 MUST PLACE
+ * THIS RULE FIRST", and task 7 did not: **this rule is deliberately
+ * NOT registered.** Nothing about the placement argument changed — it
+ * still runs first on the day it runs — but the day is not today.
+ * `checkLinkTargets` refuses D00478 (see the BLOCKING FINDING section
+ * below), `run.ts` throws on a gate problem, and registering it would
+ * halt the migration on the first pass over that entry rather than
+ * repair anything. The row stays in `PENDING`, this module stays on
+ * the branch with its tests green, and the gate ruling is its own PR
+ * (Brian, 2026-08-26) — folded together with
+ * `tosefta-variant-chapter-halakha-loss`, which is blocked on the same
+ * kind of refusal in the same gate.
  *
  * ## Two shapes, one defect
  *
