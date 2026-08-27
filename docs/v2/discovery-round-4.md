@@ -68,17 +68,30 @@ Repair is **rejoin, not trim**, and it must fix both sides at once.
 Round 3 called these "two rows viewing one citation from opposite ends".
 Measurement says the relation is **containment**:
 
-- 525 anchors / 493 entries match `(<a>ROMAN), N</a>` — the catalogued
-  494 reproduces.
+- 525 anchors / 493 entries match `(<a>ROMAN), N</a>`.
+
+  > **CORRECTED 2026-08-26 (impl/phase-2-batch-4).** This bullet read
+  > *"525 anchors / 493 entries match `(<a>ROMAN), N</a>` — the
+  > catalogued 494 reproduces."* **493 is not 494.** The predicate is
+  > exact and reproduces to the anchor; the arithmetic in the sentence
+  > did not. Batch 4 corrected `anchor-swallows-close-paren`'s
+  > `corpusCount` 494 → 493 and rewrote the same sentence where it also
+  > stood in the row's own `reason`; this copy was missed at the time.
+  > See the spec's §2.1.
 - **525 of 525 (100%) are the second half of a two-anchor split.** There
   is no single-anchor form of this defect.
 - Primaries: 521 Tosefta, 4 Mishnah.
 - The variant anchor's halakha matches print **525 of 525**; its boundary
   swallows the `)` **525 of 525**.
-- The primary is the broken end: 414 chapter-only, 111 with a halakha of
-  which **only 7 agree with print**. 514 of 521 Tosefta primaries wrong.
+- The primary is the broken end: of the 525 pairs, **414 occurrences**
+  have a chapter-only primary and **111** a primary carrying a halakha,
+  of which **only 7 agree with print**. 514 of 521 Tosefta primaries
+  wrong. Both figures are OCCURRENCES; by ENTRY the two arms are 391
+  and 107, and they are not additive — 5 entries carry both, so
+  391 + 107 − 5 = 493.
 
 So the halakha-loss row has **no members outside** the close-paren row.
+The containment is strict: 391 of the 493 entries, never all of them.
 
 > **CORRECTED 2026-08-26 (impl/phase-2-batch-4).** This verdict closed
 > *"Re-splitting the boundary so `)` falls outside and the print halakha

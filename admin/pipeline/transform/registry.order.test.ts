@@ -120,11 +120,19 @@ const UNLINK = new Set([
 	'ellipsis-fragment-anchored',
 	'geresh-letter-numeral-mislink',
 	// Batch 4's two doubled-anchor rows. Both drop the OUTER layer of a
-	// pair sharing one target, so both declare `unlinks` and are earned
-	// into this set by the corpus pass below rather than by being listed
-	// here — and rules 1 and 4 then require them above every retarget
-	// and every wrap rule, which is why they are registered where they
-	// are and not beside the rest of their batch.
+	// pair sharing one target, so both declare `unlinks` — and rules 1
+	// and 4 then require them above every retarget and every wrap rule,
+	// which is why they are registered where they are and not beside
+	// the rest of their batch.
+	//
+	// Listing them here is a CLAIM, not an exemption: the corpus pass
+	// at the bottom of this file asserts this literal set equals the
+	// rules that ever declare an anchor removal across all 32,512
+	// entries, so a name that does not belong — or one missing — fails
+	// there. (CORRECTED 2026-08-26, impl/phase-2-batch-4: this said the
+	// two were "earned into this set by the corpus pass below rather
+	// than by being listed here", while listing them. The corpus pass
+	// FALSIFIES the list; it does not build it.)
 	'nested-anchor-swallows-punctuation',
 	'nonsense-dup-anchor',
 	'plural-to-feminine-final-letter-mislink',
@@ -178,11 +186,16 @@ const RETARGET = new Set([
 const NEITHER = new Set([
 	'anchor-italic-no-space',
 	// BATCH 4 ADDS FOUR, and they are the set's second real test after
-	// batch 3b's twelve. These four edit the anchor's own closing tag —
-	// `</a>` moves across a `)`, a `(`, a `<sup>` run or a digit — so
-	// "removes no anchor and writes no target" is a claim about markup
-	// they demonstrably rewrite INSIDE, not one they are incapable of
-	// breaking. The corpus pass below earns it: every anchor's parsed
+	// batch 3b's twelve. These four move one of the anchor's own tags
+	// across the text beside it — `</a>` across a `)`, a `<sup>` run or
+	// a digit, and in `open-paren-in-anchor-display` the OPENING tag
+	// across a `(` (CORRECTED 2026-08-26, impl/phase-2-batch-4: this
+	// said all four move "the anchor's own closing tag", which is true
+	// of three of them; the open-paren rule is the opposite polarity in
+	// the opposite tag) — so "removes no anchor and writes no target"
+	// is a claim about markup they demonstrably rewrite INSIDE, not one
+	// they are incapable of breaking. The corpus pass below earns it:
+	// every anchor's parsed
 	// `href`/`data-ref` pair is compared before and after over all
 	// 32,512 entries, and `stranded-tail.test.ts` compares the whole
 	// opening-tag multiset besides.

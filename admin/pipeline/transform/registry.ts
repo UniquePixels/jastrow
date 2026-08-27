@@ -259,12 +259,22 @@ const RULES: readonly Rule[] = [
 	// field and leaves the sense tree exactly as it was. That is a text
 	// repair by the manifest's own division.
 	//
-	// FOUR rules that move an anchor's own closing tag across the text
+	// FOUR rules that move one of an anchor's own tags across the text
 	// beside it. None removes an anchor, none writes a target, and none
 	// changes a single byte of tag-stripped text: each is a pure
-	// relocation of `</a>`, which is why `registry.order.test.ts` earns
-	// all four into `NEITHER` and why rules 1 and 4 say nothing about
-	// where they sit.
+	// relocation of an anchor tag, which is why `registry.order.test.ts`
+	// earns all four into `NEITHER` and why rules 1 and 4 say nothing
+	// about where they sit.
+	//
+	// CORRECTED 2026-08-26 (impl/phase-2-batch-4). This said the four
+	// "move an anchor's own CLOSING tag" and that "each is a pure
+	// relocation of `</a>`". THREE of the four are: `toseftaCloseParen`,
+	// `superscriptInsideAnchor` and `truncatedCitationDigit`.
+	// `openParenInAnchorDisplay` is the exception and the whole point of
+	// it — it carries the `(` out past the OPENING tag, which is the
+	// opposite polarity in the opposite tag. The class claim (no
+	// removal, no target, no text) holds for all four; the tag named did
+	// not.
 	//
 	// Plenty else does. They sit HERE — after the unlink/wrap component
 	// and before every retarget rule — for the two reasons this file
@@ -273,9 +283,15 @@ const RULES: readonly Rule[] = [
 	// - A rule that REPAIRS an anchor runs before a rule that READS
 	//   one. That is `ibAnaphora`'s own retarget-after-retarget note
 	//   turned around: a retarget adopts a neighbouring anchor's target
-	//   and, under gate case 3, its DISPLAY. `toseftaCloseParen`
-	//   rewrites a display (`XVII), 6` becomes `XVII`) and the other
-	//   three move a closing tag past text a display test would read.
+	//   and, under gate case 3, its DISPLAY. TWO of the four rewrite a
+	//   display outright — `toseftaCloseParen` (`XVII), 6` becomes
+	//   `XVII`) and `openParenInAnchorDisplay` (`(ס` becomes `ס`, by
+	//   moving the OPENING tag rather than the closing one) — and the
+	//   other two move `</a>` past text a display test would read.
+	//   (CORRECTED 2026-08-26, impl/phase-2-batch-4: this read
+	//   "`toseftaCloseParen` rewrites a display … and the other three
+	//   move a closing tag". The open-paren rule does both halves
+	//   differently from the description it was given.)
 	//   The three `ib-` populations are disjoint from all four of these
 	//   today — measured, see below — so this is a fail-closed default
 	//   against a re-fetch rather than a live dependency.

@@ -38,6 +38,16 @@
 > deferred and why is the module docstrings of
 > `admin/pipeline/transform/rules/paren-boundary.ts` and
 > `admin/pipeline/transform/rules/malformed-href.ts`.
+>
+> The same applies to every other counted figure below, which is what
+> this plan ASKED for rather than what was measured. In particular:
+> Task 7's checklist says the report must state **2,122** distinct —
+> that figure subtracted the tosefta containment and not the JT one and
+> was corrected to **2,114** during the batch (spec §1, §3.1;
+> `.tasks.json` already carries the corrected criterion). The
+> verification baselines below (**862 pass**, **116 infos**) are the
+> branch-point figures; as shipped the branch reads **946 pass / 0
+> fail** and **122 infos / 0 errors**.
 
 **Goal (AS PLANNED; see STATUS above for what shipped):** Ship the ten-row anchor-and-paren-integrity family as seven deterministic transforms, close the undeclared containment the spec found, and add the commutation gate that makes population collision checkable for every rule in the registry rather than for this batch alone. **Delivered: six of the seven transforms over nine of the ten rows; the containment closed; the gate inherited from PR #50.**
 

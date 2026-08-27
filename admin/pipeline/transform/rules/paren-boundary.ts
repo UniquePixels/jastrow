@@ -183,9 +183,12 @@ import type { Rule, TransformRecord, TransformResult } from '../types.ts';
  * `^[IVXLC]+\),\s*\d+$`; its PRIMARY is the anchor immediately
  * preceding it in document order within the same field. Measured over
  * `fieldsOf` on the pinned snapshot, reproducing the catalogue write-
- * back to the digit: **525 pairs / 493 entries**, of which **414 / 391**
- * have a chapter-only primary and **111** a disagreeing one
- * (414 + 111 = 525). Corroborating figures, all reproduced: **0
+ * back to the digit: **525 pairs / 493 entries**, of which **414 occ /
+ * 391 ent** have a chapter-only primary and **111 occ / 107 ent** a
+ * disagreeing one. The OCCURRENCE split is additive (414 + 111 = 525);
+ * the ENTRY split is not, because 5 entries carry both arms
+ * (391 + 107 − 5 = 493). So the halakha row is a STRICT SUBSET of this
+ * one — 391 of 493 entries — never an equal population. Corroborating figures, all reproduced: **0
  * orphan variants** (every variant has a preceding anchor), **0
  * unusable** anchors in either role (no malformed, interior or
  * unclosed member), **0 variants carrying inner markup**, **0 variants
@@ -420,8 +423,16 @@ function moveCloseParenOut(text: string): { moved: number; out: string } {
  * Measured on the pinned snapshot it reproduces the row exactly —
  * **225 occurrences / 214 entries** — with **0 members carrying inner
  * markup**, **0 unusable**, and **0 whose display is left unbalanced
- * once the leading `(` is discounted**, so the repair never strands a
- * `)` inside a link.
+ * once the leading `(` is discounted**.
+ *
+ * CORRECTED 2026-08-26 (impl/phase-2-batch-4): this closed *"so the
+ * repair never strands a `)` inside a link"*, and that clause was a
+ * measurement being read as a guarantee — nothing in the code
+ * enforced it. `keepsParensBalanced` below now does, in the same
+ * fail-closed spirit as `usable` and `tagFree`: measured over all
+ * 32,512 entries the guard declines 0 members and the row still
+ * reproduces at 225 / 214, so it is hardening against a re-fetch
+ * rather than a live repair.
  *
  * Changes no target at all, so it declares nothing: the opening tag is
  * copied through byte for byte and only its POSITION relative to one
@@ -451,8 +462,48 @@ function moveOpenParenOut(text: string): { moved: number; out: string } {
 	return { moved, out: serialize(rebuild(tokens, emit, new Set())) };
 }
 
+/**
+ * Whether carrying the leading `(` out of this display would leave a
+ * `)` behind with nothing inside the anchor to match it.
+ *
+ * THE HARM IS INVISIBLE TO EVERY GATE, which is why it is a guard
+ * rather than a note. Moving one `(` past one tag changes no
+ * tag-stripped text (`checkNoNewText` sees an identical multiset), no
+ * target (`checkLinkTargets` sees an unchanged pair), no anchor count
+ * and no well-formedness delta (`checkMarkup`) — so `<a>(XVII)</a>)`
+ * becoming `(<a>XVII)</a>)` would ship a `)` rendered as part of a
+ * link, which is the very defect `toseftaCloseParen` above exists to
+ * remove. The same blind spot as the empty-display case the module
+ * docstring names.
+ *
+ * The test is a depth scan over the display MINUS its leading `(`,
+ * refusing any `)` that would go negative. An unmatched `(` left
+ * behind is not this row's harm and is not refused: nothing is
+ * stranded by it.
+ *
+ * Live population 0, both under this reading and under the stricter
+ * "ends at depth 0" one — measured corpus-wide, and the row still
+ * reproduces at 225 occ / 214 ent with the guard in place. Fail-closed
+ * against a re-fetch, exactly like `usable` and `tagFree`.
+ */
+function keepsParensBalanced(display: string): boolean {
+	let depth = 0;
+	for (const char of display.slice(1)) {
+		if (char === '(') {
+			depth += 1;
+		} else if (char === ')') {
+			depth -= 1;
+			if (depth < 0) {
+				return false;
+			}
+		}
+	}
+	return true;
+}
+
 /** `open-paren-in-anchor-display`'s catalogued predicate, read off
- * `anchors()` rather than off the raw HTML. */
+ * `anchors()` rather than off the raw HTML, plus the balance guard
+ * `moveOpenParenOut`'s docstring claims — see `keepsParensBalanced`. */
 function strandsOpenParen(tokens: readonly Token[], anchor: Anchor): boolean {
 	const after = tokens[anchor.close + 1];
 	return (
@@ -460,7 +511,8 @@ function strandsOpenParen(tokens: readonly Token[], anchor: Anchor): boolean {
 		anchor.display.startsWith('(') &&
 		after?.kind === 'text' &&
 		after.value.startsWith(')') &&
-		tagFree(tokens, anchor)
+		tagFree(tokens, anchor) &&
+		keepsParensBalanced(anchor.display)
 	);
 }
 

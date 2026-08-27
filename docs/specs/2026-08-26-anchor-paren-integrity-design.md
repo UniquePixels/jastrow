@@ -42,17 +42,25 @@ both cases — **split by predicate, not by adjacency**:
   Pulling it forward would take batch 5's largest row.
 
 **2,515 is a catalogue figure, and §3 shows why the batch's real
-population is 2,114 and its rule count is 7, not 10.** SHIPPED
+population is 2,114 distinct entries.** The ten ROWS were designed to
+ship as **7 rules**, two rows folding into another row's rule. SHIPPED
 2026-08-26 AS **SIX** RULES over nine rows: `unterminatedHref` is
 written and tested but NOT registered, because `checkLinkTargets`
 refuses D00478 and `run.ts` would halt the migration on it. That
 deferral and `tosefta-variant-chapter-halakha-loss`'s fold into one
 follow-up gate PR. See
-[../v2/transform-batch-4.md](../v2/transform-batch-4.md). CORRECTED
-2026-08-26: this read *"2,122 … 9, not 10"*. It subtracted the tosefta
-containment and not the JT one, although §3.2 is entirely about the JT
-containment — and the rule count was the row count minus one
-containment rather than the seven rules §5 actually lists.
+[../v2/transform-batch-4.md](../v2/transform-batch-4.md).
+
+> **CORRECTED 2026-08-26 (impl/phase-2-batch-4).** This read *"the
+> batch's real population is 2,122 and its rule count is 9, not 10"*.
+> Two faults, one arithmetic and one of unit. 2,122 subtracted the
+> tosefta containment and not the JT one, although §3.2 is entirely
+> about the JT containment; and *"9, not 10"* was the ROW count minus
+> one containment presented as a RULE count, rather than the seven
+> rules §5 actually lists. A first pass replaced the 9 with a 7 and
+> left the two counts still reading as one series; they are separate
+> series and this paragraph now says which is which — **10 rows / 7
+> designed rules / 6 shipped rules over 9 rows.**
 
 ## 2. Measured scope
 
@@ -271,8 +279,11 @@ Three properties this batch must hold onto:
   §3.2 is where batch 4's spans were compared.
 - **It closes TWO-rule exposure only.** If rule C produces the state on which
   A and B disagree, the gate is silent, and it cannot see a `PENDING` row at
-  all. **A green gate is not evidence that a new rule's placement in a 34-deep
-  pipeline is free** — the instrument for that is composing the whole registry
+  all. **A green gate is not evidence that a new rule's placement in a 33-deep
+  pipeline is free** (**corrected 2026-08-26 from *"34-deep"***, the same
+  deferred-seventh-rule staleness as the bullet two above; `RULES.length` is
+  33, and 34 is the number of transform-route ROWS those 33 rules cover)
+  — the instrument for that is composing the whole registry
   both ways, which is what §6 asks of the batch report.
 
 ## 4. Two rows say in their own audits that they may not be transformable
@@ -401,7 +412,7 @@ Unchanged from module design §9, plus one addition:
 | Unit, per rule | the predicate fires on its shape and holds off near-misses |
 | `transform:count` | each predicate reproduces its **corrected** catalogue count |
 | `no-new-text`, per rule | empty `allows` throughout; no rule here writes text |
-| `markup`, per rule | output no less well-formed than input — the load-bearing gate for nine boundary moves |
+| `markup`, per rule | output no less well-formed than input — the load-bearing gate for the nine boundary moves designed here, six of them as shipped |
 | Registry | coverage + `checkAdjacency` over the two entangled pairs |
 | **Commutation** (inherited, PR #50) | every unordered rule pair commutes, except where `entangledWith` declares it — §3.3. Two-rule exposure only; report which placements rest on it alone |
 | `pipeline-links.test.ts` | `applyRepairs` + registry over 32,512 entries — **the gate 3a added; every rule here edits anchors (six of six as shipped), so it is the one that matters most** |
@@ -409,8 +420,11 @@ Unchanged from module design §9, plus one addition:
 
 **Link accounting is the headline measurement, and it is measured on
 the pipeline, not on the rules** — 3a's finding, and this batch edits
-anchor boundaries on 2,122 populations. The bar carried forward is
-links **+90 / −0** unchanged, plus whatever this batch adds.
+anchor boundaries across **2,114** distinct entries (**corrected
+2026-08-26 from *"2,122 populations"***: 2,122 is the pre-correction
+derived figure §1 already retracts, and the unit is entries, not
+populations). The bar carried forward is links **+90 / −0** unchanged,
+plus whatever this batch adds.
 
 ## 7. Rulings and open items before implementation
 

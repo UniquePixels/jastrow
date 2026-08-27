@@ -133,6 +133,10 @@ const fieldsKey = (entry: SourceEntry): string =>
 /** Everything one entry contributes, so the corpus loop stays a loop
  * and not a function `noExcessiveLinesPerFunction` has to forgive. */
 interface Totals {
+	/** Entries carrying BOTH arms of the shared walk. Non-zero, which is
+	 * why the two arms' ENTRY counts do not sum to 493 the way their
+	 * occurrence counts sum to 525. */
+	bothArms: number;
 	disagree: number;
 	inducedClose: number;
 	inducedOpen: number;
@@ -143,6 +147,7 @@ interface Totals {
 }
 
 const ZERO: Totals = {
+	bothArms: 0,
 	disagree: 0,
 	inducedClose: 0,
 	inducedOpen: 0,
@@ -184,6 +189,7 @@ function composeBothWays(
  * forgive; the assertions read better on their own anyway. */
 async function sweep(): Promise<{
 	close: Tally;
+	disagree: Tally;
 	halakha: Tally;
 	pairs: Tally;
 	paren: Tally;
@@ -193,6 +199,7 @@ async function sweep(): Promise<{
 	const paren = tally();
 	const pairs = tally();
 	const halakha = tally();
+	const disagree = tally();
 	let sum: Totals = ZERO;
 	for await (const entry of readSourceEntries()) {
 		const c = toseftaCloseParen.apply(entry);
@@ -206,8 +213,10 @@ async function sweep(): Promise<{
 		const arms = splitArms(entry);
 		add(pairs, entry.rid, arms.disagree + arms.lost);
 		add(halakha, entry.rid, arms.lost);
+		add(disagree, entry.rid, arms.disagree);
 		const composed = composeBothWays(entry, c, p);
 		sum = {
+			bothArms: sum.bothArms + (arms.lost > 0 && arms.disagree > 0 ? 1 : 0),
 			disagree: sum.disagree + arms.disagree,
 			inducedClose: sum.inducedClose + composed.inducedClose,
 			inducedOpen: sum.inducedOpen + composed.inducedOpen,
@@ -217,12 +226,12 @@ async function sweep(): Promise<{
 			splitsAfter: sum.splitsAfter + splitsIn(c.entry),
 		};
 	}
-	return { close, halakha, pairs, paren, sum };
+	return { close, disagree, halakha, pairs, paren, sum };
 }
 
 describe('corpus tier', () => {
 	it('all three rows reproduce, and no link is lost', async () => {
-		const { close, halakha, pairs, paren, sum } = await sweep();
+		const { close, disagree, halakha, pairs, paren, sum } = await sweep();
 		// anchor-swallows-close-paren, catalogued 493 ENTRIES.
 		expect(close.occurrences).toBe(525);
 		expect(close.entries.size).toBe(493);
@@ -236,6 +245,12 @@ describe('corpus tier', () => {
 		expect(sum.lost).toBe(414);
 		expect(halakha.occurrences).toBe(414);
 		expect(halakha.entries.size).toBe(391);
+		// STRICT SUBSET, not an equal population, and the entry counts
+		// are not additive the way the occurrence counts are:
+		// 414 + 111 = 525 but 391 + 107 - 5 = 493.
+		expect(disagree.occurrences).toBe(111);
+		expect(disagree.entries.size).toBe(107);
+		expect(sum.bothArms).toBe(5);
 		// open-paren-in-anchor-display, catalogued 214 ENTRIES.
 		expect(paren.occurrences).toBe(225);
 		expect(paren.entries.size).toBe(214);

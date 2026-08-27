@@ -163,6 +163,29 @@ describe('openParenInAnchorDisplay', () => {
 	});
 });
 
+/**
+ * `keepsParensBalanced`, in its own block because the harm it refuses
+ * is invisible to all four gates: moving one `(` past one tag changes
+ * no text multiset, no target, no anchor count and no markup delta, so
+ * a stranded `)` would ship green. Live population is 0 corpus-wide
+ * under either reading of "balanced", which is why both members below
+ * are constructed.
+ */
+describe('openParenInAnchorDisplay — the balance guard', () => {
+	const B = '<a class="refLink" href="/x.1" data-ref="x 1">';
+
+	it('declines a display that would strand a ")" inside the link', () => {
+		const stranding = def(`${B}(XVII)</a>)`);
+		expect(openParenInAnchorDisplay.apply(stranding).entry).toBe(stranding);
+	});
+
+	it('still fires when the display balances its own inner parens', () => {
+		const out = openParenInAnchorDisplay.apply(def(`${B}(a (b) c</a>)`));
+		expect(definitionOf(out.entry)).toBe(`(${B}a (b) c</a>)`);
+		expect(out.records).toHaveLength(1);
+	});
+});
+
 describe('the two rules are disjoint', () => {
 	it('neither rule declares an allowance', () => {
 		expect(toseftaCloseParen.allows).toBeUndefined();

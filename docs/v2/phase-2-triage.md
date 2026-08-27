@@ -272,8 +272,23 @@ either reproduces the count or does not.
    console.log("PENDING:",PENDING.length,"| no edge:",noEdge.length);'
    ```
 4. **5 transform rows are unaudited**, 3 of them blocking (measured
-   2026-08-26 after batch 4 with the query above; this read "9 … 4 of
-   them blocking"). Expect some to reclassify on contact — the routing
+   2026-08-26 after batch 4; this read "9 … 4 of them blocking").
+   **CORRECTED 2026-08-26 (impl/phase-2-batch-4): this cited "the query
+   above",** which is the `entangledWith` no-edge query in item 3 and
+   measures nothing about auditing. `⚠ unaudited` is a row with no
+   `reason` recorded (see the queue heading above), so the query is:
+
+   ```bash
+   bun -e 'import {parsePatterns} from "./admin/pipeline/research/patterns.ts";
+   const t=parsePatterns(await Bun.file("data/patches/patterns.jsonl").text())
+     .filter(r=>r.route==="transform"&&r.status==="candidate"&&r.reason===undefined);
+   console.log("unaudited transform:",t.length,"| blocking:",t.filter(r=>r.blocking===true).length);'
+   ```
+
+   The five are `unlinked-v-span` and `targum-sheni-never-linked`
+   (non-blocking), and `empty-stem-section`,
+   `parenthesized-alt-headword` and `b-h-split-across-field-boundary`
+   (blocking). Expect some to reclassify on contact — the routing
    is a reading of each row, not a measurement, and nine rows have now
    moved: eight to `judgment` and `ascii-gershayim-outside-body-text`
    discarded outright.
@@ -427,11 +442,19 @@ after launch unless something else forces the issue.
   transform" was arguable — lost-text rows especially — the row was
   marked blocking. Wrong that way costs pre-launch effort; wrong the
   other way ships a baked-in defect.
-- **4 of the 9 unaudited transform rows block the cutover, and they
+- **3 of the 5 unaudited transform rows block the cutover, and they
   carry the least confidence**, having no recorded derivation behind
-  their counts. Recomputed 2026-08-25 rather than typed — the figure
-  here read 8 until this review, a Phase-1 snapshot that three route
-  changes had left behind:
+  their counts. Recomputed rather than typed:
+
+  > **CORRECTED 2026-08-26 (impl/phase-2-batch-4).** This read *"4 of
+  > the 9"*, recomputed 2026-08-25 (itself replacing a Phase-1 "8" that
+  > three route changes had left behind) and stale twice over since:
+  > the set stood at **6 unaudited / 4 blocking** at this branch's
+  > point, and batch 4 wrote a `reason` onto
+  > `open-paren-in-anchor-display` — the largest unreasoned row in the
+  > catalogue, spec §2.2 — leaving **5 unaudited, 3 of them blocking**.
+  > Same figures as item 4 of "Ordering and open questions", from this
+  > same query.
 
   ```bash
   bun -e 'import {parsePatterns} from "./admin/pipeline/research/patterns.ts";

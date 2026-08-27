@@ -3,10 +3,12 @@
 **Status: shipped 2026-08-26.** Six rules across three modules, one
 catalogue row withdrawn to `judgment`, one new `judgment` row split off
 a transform row, two counts corrected, and **two rows left unrepaired
-behind one shared gate**. The registry now holds **33 rules**;
-`PENDING` holds **38**, against **72** transform-route rows, with a
-third list — `COVERED` — holding the one row that has a repair but will
-never have a rule.
+behind one shared gate**. The registry now holds **33 rules**, and they
+COVER **34** of the **72** transform-route rows — the two counts differ
+by one and are not interchangeable. `PENDING` holds the other **38**
+(34 + 38 = 72). The extra covered row is `jt-double-wrapped-citation`,
+held by a third list — `COVERED` — because it has a repair but will
+never have a rule of its own.
 
 Spec: [`2026-08-26-anchor-paren-integrity-design.md`](../specs/2026-08-26-anchor-paren-integrity-design.md).
 Withdrawal working: `data/patches/catalogue-audit/post-anchor-numeral-duplication.md`
@@ -82,10 +84,28 @@ argued:
 
 - `tosefta-variant-chapter-halakha-loss` (391) is the chapter-only arm
   of `anchor-swallows-close-paren`'s 493. The shared walk in
-  `rules/paren-boundary.ts` returns the same 525 occ / 493 ent for both,
-  splitting 414 + 111 by whether the primary's `data-ref` carries a
-  halakha. The containment is an equality of populations, not an
-  assertion.
+  `rules/paren-boundary.ts` enumerates **525 occ / 493 ent** — that is
+  the close-paren row — and splits it by whether the primary's
+  `data-ref` carries a halakha: **414 occ / 391 ent** chapter-only, and
+  **111 occ / 107 ent** disagreeing. The occurrence split is additive
+  (414 + 111 = 525); the ENTRY split is not, because 5 entries carry
+  both arms (391 + 107 − 5 = 493). So the containment is a STRICT
+  subset — 391 of 493 entries — measured rather than asserted, and 391
+  is what the arithmetic below subtracts. All five figures are pinned
+  in `paren-boundary-corpus.test.ts`, the disagreeing arm's entry count
+  and the both-arms overlap added there in this branch's last fix wave
+  so that no later reader has to re-derive them from prose.
+
+  > **CORRECTED 2026-08-26 (impl/phase-2-batch-4).** This bullet read
+  > *"The shared walk … returns the same 525 occ / 493 ent for both,
+  > splitting 414 + 111 … The containment is an equality of
+  > populations, not an assertion."* Both cardinalities were wrong in
+  > the same way: 525 / 493 is the WALK and the close-paren row, never
+  > the halakha row, which is 414 / 391; and a subset of 391 inside 493
+  > is not an equality. The spec has carried the correct reading since
+  > §3.1's own retraction (*"414 occ / 391 ent inside 525 occ / 493
+  > ent"*). Nothing downstream moves — 391 was already the figure
+  > subtracted.
 - `jt-double-wrapped-citation` (10) is the empty-trapped-text arm of
   `nested-anchor-swallows-punctuation`'s 465. Asserted as a sorted rid
   list in `rules/nested-anchor.test.ts`, and re-derived independently
@@ -106,12 +126,22 @@ it said seven rules where six shipped, the seventh being
 had presented as an implemented rule and that was in fact never
 written.
 
-### Catalogued vs measured, every row the batch touched
+### Catalogued vs measured, the nine rows the batch disposed of
 
 Every figure below is measured on the pinned snapshot
-(`data/source/jastrow-dictionary.jsonl`, sha256 `4c64ff03…`).
+(`data/source/jastrow-dictionary.jsonl`, sha256 `4c64ff03…`). It is
+**nine rows, not the eleven the batch touched**: the two absent from
+the table are the two that left the transform route — `post-anchor-
+numeral-duplication` (11 catalogued, measured 11 occ / 11 ent, spec
+§2) withdrawn to `judgment`, and `superscript-subsection-contradicts-
+link-sub-section` (33), which was born a `judgment` row and so has no
+catalogued-versus-measured verdict to record.
 
-| Row | Catalogued | Measured occ | Measured ent | Verdict |
+**"Catalogued" is the figure the row carried WHEN THE BATCH WAS RULED**,
+not what `patterns.jsonl` holds now — the two rows marked **corrected**
+were written back during the batch and read 493 and 391 today.
+
+| Row | Catalogued, as ruled | Measured occ | Measured ent | Verdict |
 |---|---:|---:|---:|---|
 | `nonsense-dup-anchor` | 755 ent | 755 | 755 | MATCH |
 | `nested-anchor-swallows-punctuation` | 465 ent | 475 | 465 | MATCH (occ ≠ ent, recorded in the row) |
@@ -141,7 +171,7 @@ two blocks**:
 
 | Position | Rules | Why there |
 |---|---|---|
-| 2–3, in the unlink block | `dupAnchorLanguageRef`, `nestedAnchorDuplicate` | they declare `unlinks`, so `registry.order.test.ts` earns them into `UNLINK` from the corpus, and rules 1 and 4 then require them above every retarget and every rtl wrap rule |
+| 3–4, in the unlink block | `dupAnchorLanguageRef`, `nestedAnchorDuplicate` | they declare `unlinks`, so `registry.order.test.ts` earns them into `UNLINK` from the corpus, and rules 1 and 4 then require them above every retarget and every rtl wrap rule (**corrected 2026-08-26 from "2–3"**: `apparatusCite` and `rabbiName` hold 1–2) |
 | 12–15, after the wrap component, before the retargets | `toseftaCloseParen`, `openParenInAnchorDisplay`, `superscriptInsideAnchor`, `truncatedCitationDigit` | they REPAIR anchors that the retargets READ, and they must see the anchor sequence the unlinks leave behind |
 
 The two unlink rows could not join the four: inserting them into the
@@ -462,6 +492,18 @@ invariant across every edit** — with a fixture demonstrating the hole
 directly (the rule fires on `<a>(</a>)`, every gate passes, the hollow
 count goes 0 → 1).
 
+The same blind spot has a SIBLING, and it is now closed in code rather
+than in prose. `<a>(XVII)</a>)` would have had its `(` carried out and
+left a `)` inside the link — the very defect `toseftaCloseParen`
+removes — with every gate silent for the same four reasons.
+`moveOpenParenOut`'s docstring already asserted this could not happen
+("0 whose display is left unbalanced once the leading `(` is
+discounted"), but that was a MEASUREMENT being read as a guarantee and
+nothing enforced it. `keepsParensBalanced` now does, fail-closed beside
+`usable` and `tagFree`. It declines **0** members: the row still
+measures **225 occ / 214 ent** with the guard in place, under both the
+"no unmatched `)`" and the stricter "ends at depth 0" readings.
+
 **No gate knows what a catalogue row OWNS.** Batch 3b's finding stands
 unaddressed: two rows can describe the same characters without either
 audit noticing. This batch met it twice — the tosefta containment and
@@ -539,7 +581,7 @@ Batch 4's instances: `nonsense-dup-anchor` 755,
 ## Verification, reproducible
 
 ```bash
-bun test                                             # 944 pass, 0 fail
+bun test                                             # 946 pass, 0 fail
 bunx biome check .                                   # 122 infos, 0 errors
 bun qa:tsc                                           # exit 0
 bun transform:count                                  # 33 rules, 3 mismatches
