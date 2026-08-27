@@ -1131,7 +1131,7 @@ function claimFault(
 	const heads = own ? [claim.head] : hrefsFor(claim.head, input.source);
 	const from = own ? claim.from : witness.href;
 	const reasons = heads.map((head) => pairFault(value, head, from, witness));
-	if (reasons.some((reason) => reason === undefined)) {
+	if (reasons.includes(undefined)) {
 		return;
 	}
 	return `${corroborateLead(value)} ${
@@ -1254,7 +1254,7 @@ function corroborateFaults(
 	const faults = matched.map((claim) =>
 		claimFault(value, anchor, claim, input),
 	);
-	return faults.some((fault) => fault === undefined)
+	return faults.includes(undefined)
 		? undefined
 		: faults.filter((fault): fault is string => fault !== undefined);
 }
