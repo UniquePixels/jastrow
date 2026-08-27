@@ -18,7 +18,7 @@
  * D00478's repair is not licensed by any of the gate's five cases,
  * for the reason set out in `malformed-href.ts`'s docstring.
  */
-import { describe, expect, it } from 'bun:test';
+import { beforeAll, describe, expect, it } from 'bun:test';
 import { readSourceEntries } from '../../body/source.ts';
 import type { SourceEntry } from '../../body/types.ts';
 import { tokenize } from '../html.ts';
@@ -168,16 +168,44 @@ describe('unterminatedHref', () => {
 	});
 });
 
+/** The two entries every assertion in this tier is about. */
+const BOTH = ['D00478', 'J00597'] as const;
+
 describe('unterminatedHref over the corpus', () => {
-	it('fires on exactly D00478 and J00597, and on no other entry', async () => {
-		const fired: string[] = [];
+	// ONE corpus walk, not four. Reading all 32,512 entries dominates
+	// this tier's cost, and the walk that pins the population by identity
+	// is already holding the two entries the other three assertions want,
+	// so it keeps them. `Rule.apply` MUST treat `entry` as immutable
+	// (`transform/types.ts`), so the captured references are still the
+	// source bytes after the population walk has applied the rule to them.
+	const fired: string[] = [];
+	const kept = new Map<string, SourceEntry>();
+
+	beforeAll(async () => {
 		for await (const entry of readSourceEntries()) {
 			if (unterminatedHref.apply(entry).records.length > 0) {
 				fired.push(entry.rid);
 			}
+			if (entry.rid === BOTH[0] || entry.rid === BOTH[1]) {
+				kept.set(entry.rid, entry);
+			}
 		}
+	}, 600_000);
+
+	/** Throws rather than returning `undefined`, so a capture that
+	 * silently missed fails loudly instead of emptying a loop body and
+	 * letting the assertions inside it pass vacuously. */
+	const captured = (rid: string): SourceEntry => {
+		const entry = kept.get(rid);
+		if (entry === undefined) {
+			throw new Error(`${rid} was never captured from the corpus`);
+		}
+		return entry;
+	};
+
+	it('fires on exactly D00478 and J00597, and on no other entry', () => {
 		expect(fired.sort()).toEqual(['D00478', 'J00597']);
-	}, 180_000);
+	});
 
 	// Over EVERY field `fieldsOf` walks, not just the first definition:
 	// a rewrite that landed somewhere else would otherwise go unseen.
@@ -189,12 +217,10 @@ describe('unterminatedHref over the corpus', () => {
 	// relocates a closing tag that EXISTS; minting one is not its job,
 	// and the assertion says so out loud rather than quietly relaxing
 	// to `<= 1`.
-	it('clears both entries of malformed and interior anchors', async () => {
+	it('clears both entries of malformed and interior anchors', () => {
 		const unclosed = new Map<string, string[]>();
-		for await (const entry of readSourceEntries()) {
-			if (entry.rid !== 'D00478' && entry.rid !== 'J00597') {
-				continue;
-			}
+		for (const rid of BOTH) {
+			const entry = captured(rid);
 			const after = unterminatedHref.apply(entry).entry;
 			const all = fieldsOf(after).flatMap((f) => anchors(tokenize(f)));
 			for (const anchor of all) {
@@ -208,20 +234,18 @@ describe('unterminatedHref over the corpus', () => {
 		}
 		expect(unclosed.get('D00478')).toEqual([]);
 		expect(unclosed.get('J00597')).toEqual(['/Shir_HaShirim_Rabbah.1']);
-	}, 180_000);
+	});
 
-	it('passes the text and markup gates on both entries with no allowance', async () => {
-		for await (const entry of readSourceEntries()) {
-			if (entry.rid !== 'D00478' && entry.rid !== 'J00597') {
-				continue;
-			}
+	it('passes the text and markup gates on both entries with no allowance', () => {
+		for (const rid of BOTH) {
+			const entry = captured(rid);
 			const result = unterminatedHref.apply(entry);
 			expect(
 				checkNoNewText(entry, result.entry, unterminatedHref, result.copied),
 			).toEqual([]);
 			expect(checkMarkup(entry, result.entry)).toEqual([]);
 		}
-	}, 180_000);
+	});
 
 	// MEASURED, not aspirational. J00597's repair is licensed by case
 	// 1/2 — its intact twin puts both spellings in the input's parsed
@@ -231,12 +255,10 @@ describe('unterminatedHref over the corpus', () => {
 	// PARSED targets. Closing that needs a new gate case, which is a
 	// maintainer ruling. This test pins the gap so registration does
 	// not discover it by throwing.
-	it('is licensed by the link-target gate on J00597 but not on D00478', async () => {
+	it('is licensed by the link-target gate on J00597 but not on D00478', () => {
 		const verdict = new Map<string, string[]>();
-		for await (const entry of readSourceEntries()) {
-			if (entry.rid !== 'D00478' && entry.rid !== 'J00597') {
-				continue;
-			}
+		for (const rid of BOTH) {
+			const entry = captured(rid);
 			const result = unterminatedHref.apply(entry);
 			verdict.set(entry.rid, checkLinkTargets(entry, result.entry, result));
 		}
@@ -244,5 +266,5 @@ describe('unterminatedHref over the corpus', () => {
 		expect(verdict.get('D00478')).toEqual([
 			`target "Jastrow, כָּלוּל 1" is not in D00478's input`,
 		]);
-	}, 180_000);
+	});
 });

@@ -47,14 +47,31 @@ const add = (into: Tally, rid: string, by: number): void => {
 const anchorsOf = (entry: SourceEntry): ReturnType<typeof anchors> =>
 	fieldsOf(entry).flatMap((text) => anchors(tokenize(text)));
 
-const anchorCount = (entry: SourceEntry): number => anchorsOf(entry).length;
+/** One entry's anchor figures.
+ *
+ * `hollow` counts anchors whose DISPLAY is empty — a link with nothing
+ * to click. It is here because an invariant anchor count does NOT
+ * establish "no link lost": `<a>(</a>)` clears the count and all four
+ * gates while being a hollowed-out link. See the rule module's
+ * docstring. */
+interface Baseline {
+	hollow: number;
+	links: number;
+}
 
-/** Anchors whose DISPLAY is empty — a link with nothing to click.
- * Counted because an invariant anchor count does NOT establish "no
- * link lost": `<a>(</a>)` clears the count and all four gates while
- * being a hollowed-out link. See the rule module's docstring. */
-const hollowAnchors = (entry: SourceEntry): number =>
-	anchorsOf(entry).filter((anchor) => anchor.display === '').length;
+/** Both figures off ONE `anchorsOf` walk. They used to be two
+ * functions each doing their own walk, called on the same input entry
+ * by both `sweep` and `composeBothWays` — four redundant tokenizations
+ * of every one of the 32,512 entries. Computing the input side once
+ * per entry and passing it down is the whole of that saving; no
+ * assertion changes. */
+const baselineOf = (entry: SourceEntry): Baseline => {
+	const found = anchorsOf(entry);
+	return {
+		hollow: found.filter((anchor) => anchor.display === '').length,
+		links: found.length,
+	};
+};
 
 /**
  * Every gate a registered rule would face, run per entry so a
@@ -68,16 +85,15 @@ const hollowAnchors = (entry: SourceEntry): number =>
  */
 function assertClean(
 	entry: SourceEntry,
+	base: Baseline,
 	pairs: readonly [Rule, TransformResult][],
 ): void {
-	const links = anchorCount(entry);
-	const hollow = hollowAnchors(entry);
+	const { hollow, links } = base;
 	for (const [rule, result] of pairs) {
 		const at = `${entry.rid} under ${rule.id}`;
-		expect(`${anchorCount(result.entry)} anchors at ${at}`).toBe(
-			`${links} anchors at ${at}`,
-		);
-		expect(`${hollowAnchors(result.entry)} empty displays at ${at}`).toBe(
+		const got = baselineOf(result.entry);
+		expect(`${got.links} anchors at ${at}`).toBe(`${links} anchors at ${at}`);
+		expect(`${got.hollow} empty displays at ${at}`).toBe(
 			`${hollow} empty displays at ${at}`,
 		);
 		expect(checkLinkTargets(entry, result.entry, result)).toEqual([]);
@@ -167,12 +183,13 @@ const ZERO: Totals = {
  */
 function composeBothWays(
 	entry: SourceEntry,
+	base: Baseline,
 	c: TransformResult,
 	p: TransformResult,
 ): Pick<Totals, 'inducedClose' | 'inducedOpen' | 'orderDependent'> {
 	const closeThenOpen = openParenInAnchorDisplay.apply(c.entry);
 	const openThenClose = toseftaCloseParen.apply(p.entry);
-	assertClean(entry, [
+	assertClean(entry, base, [
 		[openParenInAnchorDisplay, closeThenOpen],
 		[toseftaCloseParen, openThenClose],
 	]);
@@ -202,11 +219,12 @@ async function sweep(): Promise<{
 	const disagree = tally();
 	let sum: Totals = ZERO;
 	for await (const entry of readSourceEntries()) {
+		const base = baselineOf(entry);
 		const c = toseftaCloseParen.apply(entry);
 		const p = openParenInAnchorDisplay.apply(entry);
 		add(close, entry.rid, c.records.length);
 		add(paren, entry.rid, p.records.length);
-		assertClean(entry, [
+		assertClean(entry, base, [
 			[toseftaCloseParen, c],
 			[openParenInAnchorDisplay, p],
 		]);
@@ -214,7 +232,7 @@ async function sweep(): Promise<{
 		add(pairs, entry.rid, arms.disagree + arms.lost);
 		add(halakha, entry.rid, arms.lost);
 		add(disagree, entry.rid, arms.disagree);
-		const composed = composeBothWays(entry, c, p);
+		const composed = composeBothWays(entry, base, c, p);
 		sum = {
 			bothArms: sum.bothArms + (arms.lost > 0 && arms.disagree > 0 ? 1 : 0),
 			disagree: sum.disagree + arms.disagree,

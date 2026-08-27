@@ -214,12 +214,18 @@ function freshTally(): Tally {
  * callback so that callback stays under
  * lint/complexity/noExcessiveCognitiveComplexity. */
 function tallyOne(entry: SourceEntry, rule: Rule, tally: Tally): void {
-	const before = anchorCount(entry);
-	const beforeTags = anchorTags(entry);
 	const result = rule.apply(entry);
 	if (result.records.length === 0) {
 		return;
 	}
+	// Measured AFTER the apply, and only on the entries that actually
+	// fired. `Rule.apply` MUST treat `entry` as immutable
+	// (`transform/types.ts`), so these read the same source bytes they
+	// would have before the call — but almost every one of the 32,512
+	// entries returns above, and computing them first tokenized the
+	// whole corpus twice per rule to throw the answer away.
+	const before = anchorCount(entry);
+	const beforeTags = anchorTags(entry);
 	tally.occurrences += result.records.length;
 	tally.entries.add(entry.rid);
 	tally.problems.push(...checkMarkup(entry, result.entry));
