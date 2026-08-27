@@ -143,21 +143,39 @@ polarities and never touch.
 | `anchor-swallows-close-paren` × `tosefta-variant-chapter-halakha-loss` | 414 occ / 391 ent | **yes** — `entangledWith`, both `reason`s |
 | `jt-double-wrapped-citation` × `nested-anchor-swallows-punctuation` | 20 occ / 10 ent | **no** |
 
-### 3.1 The declared one collapses two rows into one rule
+### 3.1 The declared one collapses two rows into one walk
 
-Round 4 already established this and both `reason`s say so: *525 of 525
-close-paren-swallowing anchors are two-anchor splits, so
-[`tosefta-variant`] has NO members outside that row … **ONE EDIT FIXES
-BOTH**.* The detector reproduces the containment as a byte fact — every
-one of the 391 chapter-only primaries lies inside a
-`anchor-swallows-close-paren` span.
+Round 4 established the containment and both `reason`s say so: *525 of
+525 close-paren-swallowing anchors are two-anchor splits, so
+[`tosefta-variant`] has NO members outside that row.* The detector
+reproduces the containment as a byte fact — every one of the 391
+chapter-only primaries lies inside an `anchor-swallows-close-paren`
+span.
 
 The consequence for this batch's headline is arithmetic: with §3.2's
 containment counted too, **2,515 catalogued instances describe 2,114
-distinct populations** (2,515 − 391 − 10), and **10 rows ship as 7
-rules**. Re-splitting the boundary so the `)` falls
-outside the variant anchor, and letting the print halakha reach the
-primary, is one edit at one site.
+distinct populations** (2,515 − 391 − 10).
+
+> **CORRECTED 2026-08-26 (impl/phase-2-batch-4).** This section's
+> heading read *"collapses two rows into one rule"*; it quoted round 4
+> as *"…NO members outside that row … **ONE EDIT FIXES BOTH**"*; and it
+> closed *"**10 rows ship as 7 rules**. Re-splitting the boundary so
+> the `)` falls outside the variant anchor, and letting the print
+> halakha reach the primary, is one edit at one site."* **IT IS ONE
+> WALK, NOT ONE EDIT, AND ONLY THE BOUNDARY HALF SHIPPED.** Batch 4
+> shipped **six rules over nine rows**. `toseftaCloseParen` moves the
+> `)` and writes no target, closing `anchor-swallows-close-paren`
+> alone; **the halakha carry was never written**, because
+> `link-target.ts` case 4's 2026-08-24 tightening requires the tail's
+> discarded prefix to be a prefix of the head and `Tosefta Shabbat 17`
+> is not a prefix of `Tosefta Shabbat 16`, while case 3's remainder
+> `:6` must occur in the primary's display, which reads `Tosef. Sabb.
+> XVI`. The **containment is untouched by this** — it is a measurement,
+> 414 occ / 391 ent inside 525 occ / 493 ent — and so is the 2,114
+> arithmetic. What does not hold is that one edit discharges both rows.
+> The same retraction stands on both catalogue rows and in
+> `rules/paren-boundary.ts`. Ruled by Brian 2026-08-26: the gate ruling
+> is its own PR.
 
 ### 3.2 The undeclared one is the finding
 
@@ -243,8 +261,10 @@ orders are `e`. 351 pairs, ~35s, against a 180,000 ms timeout.
 
 Three properties this batch must hold onto:
 
-- **It generalises past this batch** — all 34 rules the registry will hold
-  after batch 4, not the 10 rows measured here.
+- **It generalises past this batch** — every rule the registry holds after
+  batch 4, not the 10 rows measured here. (Written as *"all 34 rules"*;
+  **corrected 2026-08-26 to 33**, because the seventh rule was deferred —
+  §3.1, §5.)
 - **It is not a superset of the design-time detector.** Two rules can claim
   overlapping bytes and still commute if each is idempotent on the other's
   output. The span comparison stays the sharper instrument at spec time, and
@@ -331,27 +351,46 @@ measurement this document has not made — flagged in §7.
 
 ## 5. What each rule does
 
-Nine rules. Every one is a **markup boundary move or a duplicate-layer
-removal**; none writes text, so `no-new-text` runs with an empty
-`allows` throughout and `checkMarkup`'s well-formedness delta is the
-gate that matters (module design §5, §5.1).
+> **CORRECTED 2026-08-26 (impl/phase-2-batch-4).** This inventory was
+> written for the pre-deferral scope and read *"Nine rules"*, with
+> row 3 as a single rule `anchor-boundary-tosefta-split` doing *"move
+> the `)` outside the variant anchor **and carry the print halakha to
+> the primary `data-ref`**"*, and row 8 listed without qualification.
+> **Six rules over nine rows shipped**; two are deferred behind one
+> shared `link-target.ts` gate ruling (Brian, 2026-08-26 — its own PR),
+> and the table below now marks them. **NOTHING HERE LICENSES WRITING A
+> TOSEFTA PRIMARY `data-ref`.** Read row 3's target half as a
+> DESCRIPTION OF A REFUSED EDIT: `checkLinkTargets` rejects it, `run.ts`
+> throws on a gate problem, and registering it would halt the migration
+> rather than repair anything. See
+> [../v2/transform-batch-4.md](../v2/transform-batch-4.md).
+
+Nine rules were designed. Every one is a **markup boundary move or a
+duplicate-layer removal**; none writes text, so `no-new-text` runs with
+an empty `allows` throughout and `checkMarkup`'s well-formedness delta
+is the gate that matters (module design §5, §5.1).
 
 | # | Rule | Rows | Edit |
 |---|---|---|---|
 | 1 | `nonsense-dup-anchor` | 755 | drop the outer layer of a same-`href` nested pair in `language_reference`, keeping the trapped mark |
 | 2 | `nested-anchor-swallows-punctuation` | 465 (incl. JT 10) | drop the outer layer of a same-`data-ref` nested pair in `definition` |
-| 3 | `anchor-boundary-tosefta-split` | 493 + 391 | move the `)` outside the variant anchor and carry the print halakha to the primary `data-ref` |
+| 3a | `toseftaCloseParen` (`anchor-swallows-close-paren`) | 493 | **SHIPPED** — move the `)` outside the variant anchor; writes no target |
+| 3b | ~~`toseftaPrimaryHalakha`~~ (`tosefta-variant-chapter-halakha-loss`) | 391 | **DEFERRED, NEVER WRITTEN** — carrying the print halakha to the primary `data-ref` is refused by `link-target.ts` case 4 (and case 3); needs a gate ruling, §3.1 |
 | 4 | `open-paren-in-anchor-display` | 214 | move the opening `(` outside the anchor |
 | 5 | `superscript-subsection-stranded-outside-anchor` | 160 | move `<sup>N</sup>` inside the anchor |
 | 6 | `citation-number-truncated-outside-anchor` | 14 | extend the anchor over the stranded digit; `data-ref` is a §4.2-class question, **not** in this rule |
 | 7 | `jt-double-wrapped-citation` | (in #2) | folded into #2 — the slash half belongs to the discarded `jt-href-slash` |
-| 8 | `unterminated-href-swallows-closing-tag` | 2 | terminate the `href`, restore the swallowed `</a>` |
+| 8 | `unterminated-href-swallows-closing-tag` | 2 | **WRITTEN AND TESTED, DELIBERATELY UNREGISTERED** — terminate the `href`, restore the swallowed `</a>`; `checkLinkTargets` refuses D00478 because the repair's evidence lives in raw tag bytes that do not parse |
 | 9 | `post-anchor-numeral-duplication` | 11 | **§4.1 — no edit proposed; expected to withdraw** |
 
-Rule 3 replaces two catalogue rows with one registered rule id, which
-`coverage()` must be taught explicitly — a rule id must match a
-catalogue row, so the two rows each need a rule, or the pair needs the
-mechanism 3a used for its split-by-locus pair. Resolved in the plan.
+Rule 3 was designed to replace two catalogue rows with one registered
+rule id, which `coverage()` must be taught explicitly — a rule id must
+match a catalogue row, so the two rows each need a rule, or the pair
+needs the mechanism batch 3a used for its split-by-locus pair. **As
+shipped the question did not arise:** only `toseftaCloseParen`
+registered, carrying its own row's id, and
+`tosefta-variant-chapter-halakha-loss` stayed in `PENDING` still owed a
+rule.
 
 ## 6. Verification
 
@@ -365,7 +404,7 @@ Unchanged from module design §9, plus one addition:
 | `markup`, per rule | output no less well-formed than input — the load-bearing gate for nine boundary moves |
 | Registry | coverage + `checkAdjacency` over the two entangled pairs |
 | **Commutation** (inherited, PR #50) | every unordered rule pair commutes, except where `entangledWith` declares it — §3.3. Two-rule exposure only; report which placements rest on it alone |
-| `pipeline-links.test.ts` | `applyRepairs` + registry over 32,512 entries — **the gate 3a added; nine of nine rules here edit anchors, so it is the one that matters most** |
+| `pipeline-links.test.ts` | `applyRepairs` + registry over 32,512 entries — **the gate 3a added; every rule here edits anchors (six of six as shipped), so it is the one that matters most** |
 | `body:migrate-dry` | 32,512/32,512, 0 schema failures, 0 quarantines |
 
 **Link accounting is the headline measurement, and it is measured on

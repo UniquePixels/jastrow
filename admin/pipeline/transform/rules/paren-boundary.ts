@@ -41,9 +41,12 @@ import type { Rule, TransformRecord, TransformResult } from '../types.ts';
  * entries), which is its primary-anchor arm seen from the other end:
  * the same 525 pairs, of which 414 leave the PRIMARY with a
  * chapter-only `data-ref` (`Tosefta Shabbat 16`, halakha dropped) and
- * 111 give it a halakha disagreeing with print. The catalogue calls
- * the two fixes one edit, and `toseftaSplits` below is the one walk
- * both would consume.
+ * 111 give it a halakha disagreeing with print. The catalogue CALLED
+ * the two fixes one edit; that claim was retracted on both rows on
+ * 2026-08-26 (`ONE EDIT FIXES BOTH` and `THE BOUNDARY FIX AND THE
+ * HALAKHA FIX ARE THE SAME EDIT`, quoted where they stood), and what
+ * survives is one WALK — `toseftaSplits` below — that both repairs
+ * would consume.
  *
  * **The halakha half is NOT shipped, and the reason is the gate.**
  * The repair would write `Tosefta Shabbat 16:6` onto the primary,

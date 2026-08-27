@@ -2,9 +2,46 @@
 
 > **For agentic workers:** REQUIRED SUB-SKILL: Use superpowers-extended-cc:subagent-driven-development (recommended) or superpowers-extended-cc:executing-plans to implement this plan task-by-task. Steps use checkbox (`- [ ]`) syntax for tracking.
 
-**Goal:** Ship the ten-row anchor-and-paren-integrity family as seven deterministic transforms, close the undeclared containment the spec found, and add the commutation gate that makes population collision checkable for every rule in the registry rather than for this batch alone.
+> ## STATUS: EXECUTED AND CLOSED — 2026-08-26, branch `impl/phase-2-batch-4`
+>
+> **This plan is HISTORICAL. Every task below is completed; do not re-run one.**
+> The batch report is the record of what actually shipped:
+> [`docs/v2/transform-batch-4.md`](../../v2/transform-batch-4.md).
+>
+> **DELIVERED SCOPE: six rules over nine rows** — not the seven rules over ten
+> rows this plan was written for. Two rules were deferred mid-batch behind ONE
+> SHARED `link-target.ts` gate ruling (Brian, 2026-08-26), which becomes its own
+> follow-up PR:
+>
+> - **`toseftaPrimaryHalakha` (Task 3) WAS NEVER WRITTEN, AND NOTHING IN THIS
+>   PLAN LICENSES WRITING IT.** Carrying the print halakha to the primary
+>   `data-ref` is REFUSED by `link-target.ts`: case 4's 2026-08-24 tightening
+>   requires the tail's discarded prefix to be a prefix of the head, and
+>   `Tosefta Shabbat 17` is not a prefix of `Tosefta Shabbat 16`; case 3 fails
+>   too, its remainder `:6` having to occur in the primary's display, which
+>   reads `Tosef. Sabb. XVI`. `run.ts` throws on a gate problem, so registering
+>   such a rule would halt the migration rather than repair anything. Task 3's
+>   goal line, checklist, code sketches and test skeletons below all still name
+>   `toseftaPrimaryHalakha`; **read every one of them as describing a REFUSED
+>   edit.** `tosefta-variant-chapter-halakha-loss` stays in `PENDING`.
+> - **`unterminatedHref` (Task 5) IS WRITTEN AND TESTED BUT DELIBERATELY
+>   UNREGISTERED.** `admin/pipeline/transform/rules/malformed-href.ts` ships on
+>   this branch with its tests green; `checkLinkTargets` refuses `D00478`
+>   because the gate reads PARSED targets and the damaged tag parses to an empty
+>   `href`/`data-ref`. `unterminated-href-swallows-closing-tag` stays in
+>   `PENDING`.
+>
+> Consequently: **Task 7 registered SIX rules, not seven**, and `PENDING` shrank
+> by eight row ids, not ten. The registry holds **33 rules**; `coverage()` reads
+> 34 registered / 38 pending / 72 total. Every counted claim below that says
+> "seven" or "ten" predates the deferrals — the source of truth for what was
+> deferred and why is the module docstrings of
+> `admin/pipeline/transform/rules/paren-boundary.ts` and
+> `admin/pipeline/transform/rules/malformed-href.ts`.
 
-**Architecture:** Every rule here is a **markup boundary move or a duplicate-layer removal** — none writes text — so all seven run with an empty `allows` and `checkMarkup`'s well-formedness delta is the gate that matters. Rules land in four modules by repair mechanism (nested-layer removal, paren boundary, stranded tail, malformed href) because the mechanism determines which gate can see the change. One new test-tier gate, `commutation.ts`, asserts that any two registered rules whose two composition orders disagree are declared `entangledWith` — the check 3b's report said did not exist.
+**Goal (AS PLANNED; see STATUS above for what shipped):** Ship the ten-row anchor-and-paren-integrity family as seven deterministic transforms, close the undeclared containment the spec found, and add the commutation gate that makes population collision checkable for every rule in the registry rather than for this batch alone. **Delivered: six of the seven transforms over nine of the ten rows; the containment closed; the gate inherited from PR #50.**
+
+**Architecture:** Every rule here is a **markup boundary move or a duplicate-layer removal** — none writes text — so all seven (six as shipped) run with an empty `allows` and `checkMarkup`'s well-formedness delta is the gate that matters. Rules land in four modules by repair mechanism (nested-layer removal, paren boundary, stranded tail, malformed href) because the mechanism determines which gate can see the change. One new test-tier gate, `commutation.ts`, asserts that any two registered rules whose two composition orders disagree are declared `entangledWith` — the check 3b's report said did not exist.
 
 **Tech Stack:** Bun, TypeScript, Biome. Existing transform module (`admin/pipeline/transform/`), `patterns.jsonl` catalogue, pinned snapshot `data/source/jastrow-dictionary.jsonl` (sha256 `4c64ff03…`).
 
@@ -15,7 +52,7 @@
 - Baseline test count on `45d50a4` is **876 pass / 0 fail**. Every task ends with a strictly larger pass count and 0 fail.
 - `Rule.apply` MUST treat `entry` as immutable and return a new object, or the same reference unchanged. `count.ts` recursively freezes the corpus, so an in-place write is a `TypeError`.
 - **No rule in this batch may set `allows`.** Seven boundary moves; every output byte is an input byte. A non-empty `allows` here is a design error, not a ruling.
-- Every rule that writes a `data-ref` or `href` must satisfy a `link-target.ts` case and DECLARE it. Only Task 3's tosefta rule writes a target; it uses **case 4 (`recombined`)**.
+- Every rule that writes a `data-ref` or `href` must satisfy a `link-target.ts` case and DECLARE it. Only Task 3's tosefta rule writes a target; it uses **case 4 (`recombined`)**. **CORRECTED 2026-08-26: case 4 REFUSED it** (see STATUS) — `toseftaPrimaryHalakha` was never written, and **NO SHIPPED RULE IN THIS BATCH WRITES A TARGET AT ALL.**
 - Registry order is load-bearing. Entangled rows must be gap-free adjacent; the existing order test asserts it against the live graph.
 - Edit `patterns.jsonl` **surgically**, one line at a time — `renderPatterns()` reformats all 149 rows.
 - Every count written into a `reason` states its unit (occurrences or entries) — batch 3b spec §2.1.
@@ -52,7 +89,7 @@
 | `admin/pipeline/transform/rules/malformed-href.ts` | the two-instance unterminated-`href` repair | 5 |
 | `data/patches/catalogue-audit/post-anchor-numeral-duplication.md` | the §4.1 audit | 6 |
 | `data/patches/catalogue-audit/superscript-subsection-stranded.md` | the §4.2 split audit | 6 |
-| `admin/pipeline/transform/registry.ts` | register 7 rules, shrink `PENDING` by 10 | 7 |
+| `admin/pipeline/transform/registry.ts` | register 7 rules, shrink `PENDING` by 10 — **as shipped: 6 rules, `PENDING` by 8** (STATUS) | 7 |
 | `docs/v2/transform-batch-4.md` | the batch report | 7 |
 
 Each rules module holds rules that fail the same way, so a reviewer reading one file holds one gate story at a time. The commutation gate is already in `v2`, so every task below inherits its check from the first commit.
@@ -524,7 +561,7 @@ git commit -s -m "🦄 new(transform): drop duplicate anchor layers"
 
 ### Task 3: The paren-boundary rules
 
-**Goal:** Re-split the Tosefta two-anchor citation so the `)` falls outside the variant anchor and the print halakha reaches the primary `data-ref` — one edit satisfying two catalogue rows — and move the stray opening paren out of `open-paren-in-anchor-display`'s 214 anchors.
+**Goal (PARTLY REFUSED — see STATUS; the halakha half was never written):** Re-split the Tosefta two-anchor citation so the `)` falls outside the variant anchor and the print halakha reaches the primary `data-ref` — one edit satisfying two catalogue rows — and move the stray opening paren out of `open-paren-in-anchor-display`'s 214 anchors.
 
 **Files:**
 - Create: `admin/pipeline/transform/rules/paren-boundary.ts`
@@ -532,7 +569,7 @@ git commit -s -m "🦄 new(transform): drop duplicate anchor layers"
 - Read for reference: `admin/pipeline/transform/link-target.ts` (case 4, `recombined`), `admin/pipeline/transform/types.ts:24` (`TransformResult.recombined`)
 
 **Acceptance Criteria:**
-- [ ] `toseftaCloseParen` reproduces **525 occurrences / 493 entries** and `toseftaPrimaryHalakha` the figure Task 1 pinned; both are registered rule ids over ONE shared predicate walk, so `coverage()` sees two rows resolved.
+- [x] `toseftaCloseParen` reproduces **525 occurrences / 493 entries**; it is the ONLY registered rule id here. ~~and `toseftaPrimaryHalakha` the figure Task 1 pinned; both are registered rule ids over ONE shared predicate~~ **— REFUSED BY THE GATE, NEVER WRITTEN (STATUS).** walk, so `coverage()` sees two rows resolved.
 - [ ] The primary's new `data-ref` is declared through `TransformResult.recombined` — `head` from the primary's own input target, `tail` from the variant's — and `link-target.ts` accepts it under case 4 with **no** loosening of the gate.
 - [ ] `Tosefta Shabbat 16` + variant `Tosefta Shabbat 17:6` → primary `Tosefta Shabbat 16:6`, with no gap between the halves and no character from anywhere else.
 - [ ] The primary anchor's `href` is recombined the same way or left unchanged — never left pointing at a locus its `data-ref` no longer names.
@@ -803,7 +840,7 @@ git commit -s -m "🦄 new(transform): pull stranded citation tails in"
 
 ### Task 5: The unterminated href
 
-**Goal:** Repair the two anchors whose unclosed `href` quote swallowed the following `</a>` — `D00478` and `J00597` — restoring the cross-reference the parser cannot currently see.
+**Goal (WRITTEN AND TESTED, DELIBERATELY UNREGISTERED — see STATUS):** Repair the two anchors whose unclosed `href` quote swallowed the following `</a>` — `D00478` and `J00597` — restoring the cross-reference the parser cannot currently see.
 
 **Files:**
 - Create: `admin/pipeline/transform/rules/malformed-href.ts`
@@ -1028,7 +1065,7 @@ git commit -s -m "📖 doc(catalogue): audit batch 4's two judgment rows"
 
 ### Task 7: Register, prove the order, run the corpus, write the report
 
-**Goal:** Put the seven rules into the registry in an order the entanglement gate accepts, shrink `PENDING` by ten, prove the composed corpus still passes every gate, and write the batch report.
+**Goal (DELIVERED AS SIX RULES / `PENDING` BY EIGHT — see STATUS):** Put the seven rules into the registry in an order the entanglement gate accepts, shrink `PENDING` by ten, prove the composed corpus still passes every gate, and write the batch report.
 
 **Files:**
 - Modify: `admin/pipeline/transform/registry.ts:46` (`RULES`), `:459` (`PENDING`)
@@ -1036,14 +1073,14 @@ git commit -s -m "📖 doc(catalogue): audit batch 4's two judgment rows"
 - Modify: `docs/v2/phase-2-triage.md` (route totals and the batch-4 bullet)
 
 **Acceptance Criteria:**
-- [ ] All seven rules registered; `PENDING` loses all ten batch-4 row ids (a withdrawn row leaves both lists).
+- [x] ~~All seven rules registered; `PENDING` loses all ten batch-4 row ids~~ — **SIX registered; `PENDING` loses eight**, keeping `tosefta-variant-chapter-halakha-loss` and `unterminated-href-swallows-closing-tag`, both still owed a REGISTERED rule (STATUS). A withdrawn row leaves both lists.
 - [ ] `coverage()` reports **0 unaccounted, 0 duplicated**, and the registered count rises 27 → 34 minus any withdrawal.
 - [ ] `checkAdjacency()` passes: the two Tosefta rules gap-free adjacent, and the nested/JT pair satisfied by the single rule that owns both rows.
 - [ ] `unaccountedEdges()` passes — and if the JT row registers no rule of its own, the deferral is RECORDED, since that function fails the day a rule ships ahead of a still-`PENDING` partner.
 - [ ] The commutation gate (inherited from PR #50) passes over all 34 rules, and any new non-commuting pair is DECLARED rather than reordered around. **A green gate is not coverage** — it closes two-rule exposure only, so state in the report which placements were argued from a whole-registry both-ways composition and which rest on the pair gate alone.
 - [ ] `bun transform:count` → every batch-4 row MATCH.
 - [ ] `bun body:migrate-dry` → 32,512/32,512, 0 schema failures, 0 quarantines.
-- [ ] `admin/pipeline/body/pipeline-links.test.ts` passes — the composed `applyRepairs` + registry gate 3a added. **Nine of nine rules here edit anchors, so this is the run that matters.** Link accounting reported as a delta against the +90 / −0 the branch carries.
+- [ ] `admin/pipeline/body/pipeline-links.test.ts` passes — the composed `applyRepairs` + registry gate 3a added. **Every rule here edits anchors (six of six as shipped), so this is the run that matters.** Link accounting reported as a delta against the +90 / −0 the branch carries.
 - [ ] The report states the batch's real population (2,122 distinct, not 2,513 catalogued) and why.
 
 **Verify:**

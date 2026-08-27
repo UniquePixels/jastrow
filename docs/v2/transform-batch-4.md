@@ -99,9 +99,12 @@ Both figures were wrong when the batch was ruled and both were
 corrected in the spec during it: the headline read 2,513 before this
 batch's two count corrections (`494 → 493`, `388 → 391`, net +2), and
 the derived population read 2,122 because it subtracted the tosefta
-containment and not the JT one. The spec's remaining stale claim is its
-rule count — **it says seven rules and six shipped**, the seventh being
-`unterminatedHref`, deferred in §6.
+containment and not the JT one. The spec's rule count was stale too —
+it said seven rules where six shipped, the seventh being
+`unterminatedHref`, deferred in §6. **Corrected in the spec 2026-08-26**
+(§3.1, §5), together with the tosefta halakha carry that §5's inventory
+had presented as an implemented rule and that was in fact never
+written.
 
 ### Catalogued vs measured, every row the batch touched
 

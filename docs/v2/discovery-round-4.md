@@ -79,8 +79,22 @@ Measurement says the relation is **containment**:
   which **only 7 agree with print**. 514 of 521 Tosefta primaries wrong.
 
 So the halakha-loss row has **no members outside** the close-paren row.
-Re-splitting the boundary so `)` falls outside and the print halakha
-reaches the primary is **one edit** and fixes both.
+
+> **CORRECTED 2026-08-26 (impl/phase-2-batch-4).** This verdict closed
+> *"Re-splitting the boundary so `)` falls outside and the print halakha
+> reaches the primary is **one edit** and fixes both."* **It is one
+> WALK, not one edit, and only the boundary half shipped.** Batch 4
+> registered `toseftaCloseParen`, which moves the `)` and writes no
+> target; the halakha carry was never written, because `link-target.ts`
+> case 4's 2026-08-24 tightening requires the tail's discarded prefix to
+> be a prefix of the head and `Tosefta Shabbat 17` is not a prefix of
+> `Tosefta Shabbat 16` — case 3 fails too, its remainder `:6` not
+> occurring in the primary's display `Tosef. Sabb. XVI`. **The
+> containment measured above is untouched**; what does not hold is that
+> one edit discharges both rows. `tosefta-variant-chapter-halakha-loss`
+> stays in `PENDING`, and the gate ruling is its own PR (Brian,
+> 2026-08-26). The same retraction stands on both catalogue rows and in
+> `admin/pipeline/transform/rules/paren-boundary.ts`.
 
 **`anchor-swallows-close-paren` had no `reason` at all** — see §5.
 
