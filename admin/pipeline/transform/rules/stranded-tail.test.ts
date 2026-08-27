@@ -108,6 +108,22 @@ describe('superscriptInsideAnchor', () => {
 	});
 });
 
+/**
+ * THE COMPOSED-PIPELINE CASE is `declines a sense marker` below, and it
+ * is the reason `digitMoveAt` has a refusal at all. `applyRepairs` runs
+ * before every transform, and `rejoin-chopped` folds a phantom sense
+ * number back into the preceding flow — in S01040 landing `2)`
+ * immediately behind `<a … data-ref="Genesis 4:2">Gen. IV, 2</a>`.
+ * Without the refusal this rule read that `2` as a truncated citation
+ * tail and produced a link displaying `Gen. IV, 22`: a verse the entry
+ * does not cite. The raw snapshot holds no such shape at all — 14 of 14
+ * remainders begin with a space, `,`, `.`, `;` or `ᵇ` — so
+ * `bun transform:count` could never have shown it.
+ *
+ * (This note sits outside the block rather than beside its test:
+ * `noExcessiveLinesPerFunction` counts comment lines, and the block is
+ * at the ceiling.)
+ */
 describe('truncatedCitationDigit', () => {
 	const B =
 		'<a class="refLink" href="/Bava_Kamma.11a" data-ref="Bava Kamma 11a">';
@@ -138,6 +154,11 @@ describe('truncatedCitationDigit', () => {
 	it('leaves an anchor whose display does not end in a digit alone', () => {
 		const notDigit = def(`${B}B. Kam. XI, end</a>8`, 'H00054');
 		expect(truncatedCitationDigit.apply(notDigit).entry).toBe(notDigit);
+	});
+
+	it('declines a sense marker: a digit run closed by a paren', () => {
+		const marker = def(`${B}Gen. IV, 2</a>2)<i>artist</i>`, 'S01040');
+		expect(truncatedCitationDigit.apply(marker).entry).toBe(marker);
 	});
 
 	it('splits a multi-digit run, leaving any remainder outside', () => {

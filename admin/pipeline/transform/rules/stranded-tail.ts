@@ -65,6 +65,15 @@
  * occurrence, and should be read that way rather than as evidence of a
  * 3-occurrence slice that does not exist.
  *
+ * **It declines a sense marker.** A stranded run closed by `)` —
+ * `</a>2)` — is Jastrow's printed sense number and not a citation
+ * tail, and moving it inside would write a citation the source never
+ * printed. Added at registration (batch 4 task 7) against a live case
+ * the composed pipeline manufactures and this rule alone never sees:
+ * `digitMoveAt`'s own docstring carries the entry, the census that
+ * says the refusal costs nothing on the 14, and the fail-closed
+ * trade-off it accepts.
+ *
  * **One of the 14 is only partially repaired: O01464.** Its text reads
  * `… Ned. 5</a>5ᵇ, [read as:] …` — a folio-side superscript `ᵇ`
  * immediately follows the stranded digit. `digitMoveAt` moves the
@@ -132,6 +141,9 @@ import type { Rule, TransformRecord, TransformResult } from '../types.ts';
 // Hoisted per lint/performance/useTopLevelRegex.
 const LEADING_DIGITS_RE = /^(?<digits>\d+)/u;
 const DISPLAY_ENDS_DIGIT_RE = /\d$/u;
+/** A stranded digit run closed by `)` is a SENSE MARKER, not a
+ * citation tail — see `digitMoveAt`'s refusal. */
+const SENSE_MARKER_RE = /^\)/u;
 
 /** The same three refusals `links.ts`'s `assertUsable` throws on,
  * checked here (as `unlink.ts`'s private `usable` does) so a rule's
@@ -183,6 +195,36 @@ function superscriptMoveAt(
  * digits. Returns the token stream with the leading digit run spliced
  * inside the anchor and any remainder of that text token left in place
  * immediately after it, or `undefined` when the shape does not match.
+ *
+ * ## THE SENSE-MARKER REFUSAL, added at registration (batch 4 task 7)
+ *
+ * A digit run closed by `)` — `</a>2)` — is declined. It is Jastrow's
+ * printed SENSE NUMBER, not the tail of the citation before it, and
+ * swallowing it writes a citation the source never printed.
+ *
+ * This is not a hypothetical. The rule measures 14 occurrences on the
+ * pinned snapshot and the migration composes it AFTER `applyRepairs`,
+ * where `rejoin-chopped` folds a phantom `2)` back into the preceding
+ * flow — and in S01040 it lands immediately behind
+ * `<a … data-ref="Genesis 4:2">Gen. IV, 2</a>`. Without this refusal
+ * the pipeline (never `bun transform:count`, which runs every rule
+ * alone against the raw snapshot) produced
+ * `<a … data-ref="Genesis 4:2">Gen. IV, 22</a>)`: a link whose display
+ * reads a verse the entry does not cite, pointing at the verse it
+ * does. A 15th member of this population, MANUFACTURED by an earlier
+ * pass, and the only one the reader would have been misled by.
+ *
+ * The refusal costs nothing measurable and the census is why it is
+ * phrased this narrowly. Over all 32,512 raw entries the remainder
+ * after the digit run is ` ` (4), ` (`, ` I`, ` t`, ` נ`, `, `, `.]`,
+ * `.—`, `; ` (2) and `ᵇ,` — 14 of 14, and NOT ONE begins with `)`. The
+ * single `)` in the corpus is S01040's, and only after repairs.
+ *
+ * FAIL-CLOSED, deliberately, and the cost is stated rather than
+ * hidden: a genuine `(cmp. B. Kam. XI, 2</a>8)` would be declined too,
+ * and this corpus holds none. Declining leaves the defect exactly as
+ * it was; moving wrongly invents a citation. Those are not
+ * symmetrical, so the tie goes to declining.
  */
 function digitMoveAt(
 	tokens: readonly Token[],
@@ -201,6 +243,9 @@ function digitMoveAt(
 		return;
 	}
 	const remainder = tail.value.slice(digits.length);
+	if (SENSE_MARKER_RE.test(remainder)) {
+		return;
+	}
 	const lead: Token = { kind: 'text', rtl: tail.rtl, value: digits };
 	const rest: Token[] =
 		remainder.length > 0
