@@ -173,24 +173,43 @@ describe('unterminatedHref over the corpus', () => {
 		const emitted = fieldsOf(result.entry)
 			.flatMap((f) => anchors(tokenize(f)))
 			.map((a) => a.tag);
-		expect(result.restored).toEqual([
-			{
-				removed: '</a>',
-				written:
-					'<a dir="rtl" class="refLink" href="/Jastrow,_כָּלוּל.1" data-ref="Jastrow, כָּלוּל 1">',
-			},
-		]);
-		expect(emitted).toContain(result.restored?.[0]?.written ?? '');
+		const claim = result.restored?.[0];
+		expect(result.restored).toHaveLength(1);
+		expect(claim?.removed).toBe('</a>');
+		expect(claim?.written).toBe(
+			'<a dir="rtl" class="refLink" href="/Jastrow,_כָּלוּל.1" data-ref="Jastrow, כָּלוּל 1">',
+		);
+		expect(emitted).toContain(claim?.written ?? '');
 		// Clause 3's measurement, spelled out: ONE offset, and it is 54.
+		expect(offsetsIn(fieldsOf(entry), claim?.written ?? '', '</a>')).toEqual([
+			54,
+		]);
+		// CLAUSE 4's witness, measured the same way rather than restated
+		// from the rule: the cited field is one of THIS entry's own, and
+		// the bytes clause 2 recovers sit at the cited offset in it —
+		// nowhere else in that field, and not in any other field.
+		const recovered = `${claim?.written.slice(0, 54)}</a>${claim?.written.slice(54)}`;
+		expect(fieldsOf(entry)).toContain(claim?.field ?? '');
+		expect(claim?.field.indexOf(recovered)).toBe(claim?.offset);
 		expect(
-			offsetsIn(fieldsOf(entry), result.restored?.[0]?.written ?? '', '</a>'),
-		).toEqual([54]);
+			fieldsOf(entry).filter((field) => field.includes(recovered)),
+		).toEqual([claim?.field ?? '']);
 		// `restored` OMITTED, not set to `undefined`:
 		// `exactOptionalPropertyTypes` distinguishes the two, and the
 		// undeclared case is the absent key.
 		const { restored: _withheld, ...silent } = result;
 		expect(checkLinkTargets(entry, result.entry, silent)).toEqual([
 			`target "Jastrow, כָּלוּל 1" is not in D00478's input`,
+		]);
+		// The WITNESS carries its own share of the licence. The same
+		// claim, one byte along the same field, is refused — so clause 4
+		// is doing work on the real entry and not only on fixtures.
+		const moved =
+			claim === undefined ? [] : [{ ...claim, offset: claim.offset + 1 }];
+		expect(
+			checkLinkTargets(entry, result.entry, { ...result, restored: moved }),
+		).toEqual([
+			`restored "Jastrow, כָּלוּל 1" re-inserting "</a>" is not at offset ${(claim?.offset ?? 0) + 1} of the cited field in D00478`,
 		]);
 	});
 

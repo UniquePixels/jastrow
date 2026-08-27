@@ -33,6 +33,17 @@ const def = (html: string): SourceEntry => ({
 const definitionOf = (entry: SourceEntry): string | undefined =>
 	entry.content.senses[0]?.definition;
 
+/** The opening-tag token index of the `at`-th anchor of `html` — half
+ * of the witness a case-7 claim names, the other half being `html`
+ * itself. Read off `links.ts` rather than counted by hand, so the
+ * fixtures cannot drift from the gate's own reading. */
+const openOf = (html: string, at: number): number =>
+	anchors(tokenize(html))[at]?.open ?? -1;
+
+/** The variant anchor of `SPLIT` — the one whose display prints the
+ * halakha, and so the one every case-7 claim here cites. */
+const VARIANT_OPEN = openOf(SPLIT, 1);
+
 /** Anchors whose DISPLAY is empty — a link with nothing to click.
  * Counted because an invariant anchor count does NOT establish "no
  * link lost": `<a>(</a>)` clears the count and all four gates while
@@ -254,14 +265,40 @@ describe('tosefta-variant-chapter-halakha-loss (shipped)', () => {
 			checkLinkTargets(def(SPLIT), def(REPAIRED), {
 				corroborated: [
 					{
+						field: SPLIT,
 						from: 'Tosefta Shabbat 17:6',
 						head: 'Tosefta Shabbat 16',
+						open: VARIANT_OPEN,
 						tail: ':6',
 						target: 'Tosefta Shabbat 16:6',
 					},
 				],
 			}),
 		).toEqual([]);
+	});
+
+	// The witness is the VARIANT anchor, and naming the other one is a
+	// refusal rather than a technicality: the primary's display
+	// (`Tosef. Sabb. XVI`) does not carry the address the claim copies
+	// its tail from, so the anchor cited cannot be the one that
+	// corroborated anything. Added 2026-08-27 with the witness itself.
+	it('case 7 refuses the same repair citing the primary anchor', () => {
+		expect(
+			checkLinkTargets(def(SPLIT), def(REPAIRED), {
+				corroborated: [
+					{
+						field: SPLIT,
+						from: 'Tosefta Shabbat 17:6',
+						head: 'Tosefta Shabbat 16',
+						open: openOf(SPLIT, 0),
+						tail: ':6',
+						target: 'Tosefta Shabbat 16:6',
+					},
+				],
+			}),
+		).toEqual([
+			'corroborated "Tosefta Shabbat 16:6" cites an anchor that does not carry "Tosefta Shabbat 17:6"',
+		]);
 	});
 });
 
@@ -298,16 +335,25 @@ describe('toseftaPrimaryHalakha', () => {
 		]);
 	});
 
-	it('declares exactly one corroboration, naming both input targets', () => {
+	it('declares one corroboration, naming both targets and the witness', () => {
 		const out = toseftaPrimaryHalakha.apply(def(SPLIT));
 		expect(out.corroborated).toEqual([
 			{
+				field: SPLIT,
 				from: 'Tosefta Shabbat 17:6',
 				head: 'Tosefta Shabbat 16',
+				open: VARIANT_OPEN,
 				tail: ':6',
 				target: 'Tosefta Shabbat 16:6',
 			},
 		]);
+		// …and the anchor those two members name is the variant: the one
+		// carrying `from`, and the one whose display prints the halakha.
+		const cited = anchors(tokenize(SPLIT)).find(
+			(anchor) => anchor.open === VARIANT_OPEN,
+		);
+		expect(cited?.dataRef).toBe('Tosefta Shabbat 17:6');
+		expect(cited?.display).toBe('XVII), 6');
 	});
 
 	// The 111 pairs whose primary ALREADY carries a halakha are a

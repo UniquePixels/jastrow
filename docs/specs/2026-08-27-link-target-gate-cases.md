@@ -36,6 +36,19 @@ and requires the result to be byte-identical to a run the input held.
    some field in this entry's own input.
 3. **Exactly one insertion offset satisfies (2).** Ambiguity is a
    refusal, not a choice.
+4. **The recovered run sits where the claim says it does** — added
+   2026-08-27 (`fix/link-target-gate-cases`), and the declaration
+   gained `field` and `offset` to say so. Clause 2 as written above
+   accepts a match in *some* field, so a run recovered from the
+   headword licensed a repair made in a definition, and clause 3's
+   offset was an offset into nothing in particular. The claim now
+   cites the input field the repair happened in, verbatim, and the
+   offset in it where the run begins; the gate requires the bytes to
+   be exactly there, and requires the cited field to be the input
+   counterpart of the field the repaired anchor came out of. Clauses 2
+   and 3 are kept as they stand — every claim clause 4 admits they
+   admit too, and clause 3 is the only statement that the gate
+   declines to choose between two readings of one deletion.
 
 **Why it is safe, argued by construction rather than by population.**
 Every character of `written` except the deleted run is pinned by input
@@ -75,6 +88,17 @@ independently witnesses the tail.
 3. `tail` is a literal SUFFIX of `from`, a second target the input holds.
 4. **The digits of `tail` occur in the display of an anchor carrying
    `from`.** This is the corroboration, and it is what case 4 lacks.
+
+**CORRECTED 2026-08-27 (`fix/link-target-gate-cases`)**, in clause 4 and
+in the declaration above it. Clause 4 as written says *an* anchor, and
+the declaration named no anchor at all, which made §3.1.1's attribution
+claim untrue of the built gate. `corroborated` now carries
+`{ field: string; from: string; head: string; open: number; tail: string; target: string }`:
+`field` is the input field the rule read, verbatim, and `open` is the
+opening-tag token index within it of the anchor whose display the rule
+read. Clause 4 becomes: **the cited anchor carries `from`, and the digits
+of `tail` occur in THAT anchor's display.** §3.1.1 states what this does
+and does not buy.
 
 **This case MINTS.** `Tosefta Shabbat 16:6` occurs nowhere in the input.
 Cases 1–3 and 5 cannot mint; case 4 can, which is why it was tightened.
@@ -137,9 +161,46 @@ not have."*
 
 The honest statement of what case 7 buys is therefore narrower than §3
 first claimed: it does not make minting safe in general. It makes minting
-**attributable** — every minted target must name the two input targets and
-the witnessing display it came from, so a wrong mint is a wrong claim
-with a rule's name on it rather than an anonymous fabrication.
+**attributable**.
+
+> **CORRECTED 2026-08-27 (fix/link-target-gate-cases): this read
+> *"every minted target must name the two input targets and the
+> witnessing display it came from, so a wrong mint is a wrong claim
+> with a rule's name on it rather than an anonymous fabrication."***
+> That was false as built, and it is the sentence the ruling above was
+> taken on. `TransformResult.corroborated` carried
+> `{from, head, tail, target}` — four strings and no anchor — so a
+> claim named a target STRING, never a display; and clause 4 accepted
+> the tail's digits from ANY input anchor carrying `from`. In an entry
+> citing one address twice, the digits could come from a sibling the
+> rule never read, and the declaration recorded nothing that would say
+> so afterwards. Recorded rather than silently replaced, because the
+> gap is the reason the declaration changed.
+
+**What the declaration pins now.** `corroborated` carries
+`{field, from, head, open, tail, target}`, and a minted target must name:
+
+- `head` and `from`, both targets the entry's own input holds, with
+  `head + tail === target` exactly and `tail` a literal suffix of `from`;
+- **one input anchor**, cited by the bytes of the field it was read from
+  and its opening-tag token index within that field. Token indices are
+  unique per anchor, so the pair resolves to exactly one anchor, and the
+  field must be one this entry's input actually holds;
+- that anchor must **carry `from`**, and it is **that anchor's display**
+  — not any other anchor's — whose digits must witness the tail. On the
+  `href` side `from`'s spelling is read off the cited anchor too.
+
+**What it still does not pin, said plainly.** The gate cannot ask whether
+the cited anchor is the sibling the rule *should* have read: a rule that
+consistently cites the wrong neighbour produces a well-corroborated wrong
+address, and §3.2's first bullet stands unchanged. `head` is still
+uncited — its `href` spellings are gathered from every anchor carrying it
+— so the same limit applies to the head half of every claim. Clause 4
+still compares digit runs rather than structure, so `Exodus 24:25` is
+licensed exactly as §3.1 measures. What changed is not the reach of the
+case but the accountability of a claim: the witness is now a NAMED anchor
+rather than an unnamed one, so a wrong mint is a wrong claim with a
+rule's name and a specific anchor on it.
 
 ### 3.2 What case 7 still cannot see
 

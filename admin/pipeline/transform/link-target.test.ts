@@ -3,6 +3,7 @@ import type { SourceEntry } from '../body/types.ts';
 import { tokenize } from './html.ts';
 import { checkLinkTargets } from './link-target.ts';
 import { anchors } from './links.ts';
+import { fieldsOf } from './no-new-text.ts';
 import { applyTransforms } from './run.ts';
 import type { Rule, TransformResult } from './types.ts';
 
@@ -1057,7 +1058,12 @@ const D_GOOD = `${D_LEAD}</a>${D_TAG}כָּלוּל</a>.`;
  * inferred, so a change to the declaration is a type error here. */
 type Restore = NonNullable<TransformResult['restored']>[number];
 
-const restore: Restore = { removed: '</a>', written: D_TAG };
+const restore: Restore = {
+	field: D_BAD,
+	offset: D_LEAD.length,
+	removed: '</a>',
+	written: D_TAG,
+};
 
 /** Both of the repaired anchor's targets, and the reason case 1/2
  * cannot be what licenses the repair: the damaged tag parses to
@@ -1100,7 +1106,12 @@ it('an undeclared restoration is still a fabrication', () => {
 it('case 6 reaches the href as well as the data-ref', () => {
 	const src = entry('<a href="/ba" data-ref="r">x</a>');
 	const after = entry('<a href="/a" data-ref="r">x</a>');
-	const claim = { removed: 'b', written: '<a href="/a" data-ref="r">' };
+	const claim = {
+		field: '<a href="/ba" data-ref="r">x</a>',
+		offset: 0,
+		removed: 'b',
+		written: '<a href="/a" data-ref="r">',
+	};
 	expect(checkLinkTargets(src, after, result(after))).toEqual([
 		`target "/a" is not in T00001's input`,
 	]);
@@ -1122,7 +1133,14 @@ it('case 6 refuses a claim that does not name the emitted tag', () => {
 			entry(D_BAD),
 			after,
 			result(after, {
-				restored: [{ removed: '</a>', written: D_TAG.slice(0, -1) }],
+				restored: [
+					{
+						field: D_BAD,
+						offset: D_LEAD.length,
+						removed: '</a>',
+						written: D_TAG.slice(0, -1),
+					},
+				],
 			}),
 		),
 	).toEqual([`target "Jastrow, כָּלוּל 1" is not in T00001's input`]);
@@ -1137,7 +1155,9 @@ it('case 6 refuses a run the input cannot corroborate', () => {
 		checkLinkTargets(
 			entry(D_BAD),
 			after,
-			result(after, { restored: [{ removed: '</b>', written: D_TAG }] }),
+			result(after, {
+				restored: [{ ...restore, removed: '</b>' }],
+			}),
 		),
 	).toEqual([
 		`restored "Jastrow, כָּלוּל 1" re-inserting "</b>" matches nothing in T00001's input`,
@@ -1174,7 +1194,9 @@ it('case 6 refuses a claim that removed nothing', () => {
 		checkLinkTargets(
 			entry(D_BAD),
 			after,
-			result(after, { restored: [{ removed: '', written: D_TAG }] }),
+			result(after, {
+				restored: [{ ...restore, removed: '' }],
+			}),
 		),
 	).toEqual([
 		`restored "Jastrow, כָּלוּל 1" re-inserting "" matches nothing in T00001's input`,
@@ -1192,7 +1214,7 @@ it('case 6 refuses an honest claim standing beside a false one', () => {
 			entry(D_BAD),
 			after,
 			result(after, {
-				restored: [restore, { removed: '</b>', written: D_TAG }],
+				restored: [restore, { ...restore, removed: '</b>' }],
 			}),
 		),
 	).toEqual([
@@ -1216,7 +1238,12 @@ it('case 6 refuses an honest claim standing beside a false one', () => {
 const ONE_WITNESS = '<a href="/ba">x</a>';
 const TWO_WITNESSES = '<a href="/ba">x</a><a href="/ab">y</a>';
 const SHORT = '<a href="/a">';
-const clipped: Restore = { removed: 'b', written: SHORT };
+const clipped: Restore = {
+	field: ONE_WITNESS,
+	offset: 0,
+	removed: 'b',
+	written: SHORT,
+};
 
 it('case 6 licenses a restore the input corroborates at one offset', () => {
 	const after = entry(`${SHORT}x</a>`);
@@ -1254,11 +1281,119 @@ it('case 6 refuses an insertion point a repeated character blurs', () => {
 			entry('<a href="/aaa">x</a>'),
 			after,
 			result(after, {
-				restored: [{ removed: 'a', written: '<a href="/aa">' }],
+				restored: [
+					{
+						field: '<a href="/aaa">x</a>',
+						offset: 0,
+						removed: 'a',
+						written: '<a href="/aa">',
+					},
+				],
 			}),
 		),
 	).toEqual([
 		`restored "/aa" re-inserting "a" matches T00001's input at 3 offsets (10, 11, 12)`,
+	]);
+});
+
+// ---- CLAUSE 4: the bytes must sit WHERE THE CLAIM SAYS ----
+//
+// Added 2026-08-27. Clauses 2 and 3 ask only that the recovered run be
+// somewhere in the entry at exactly one insertion offset, so a run
+// found in the HEADWORD licensed a repair made in a DEFINITION, and a
+// declared offset had no field to be an offset into. The three tests
+// below hold the clause on its own; the first two are the cross-field
+// case, from both of the directions a rule could declare it.
+
+/** Two walked fields. `fieldsOf` reads `headword` before any sense, so
+ * these are input fields 0 and 1 and the gate can tell them apart. */
+const twoFields = (headword: string, definition: string): SourceEntry => ({
+	content: { senses: [{ definition }] },
+	headword,
+	rid: 'T00001',
+});
+
+/** The damaged run lives in the HEADWORD; the repair lands in the
+ * DEFINITION. Every clause the gate had before 2026-08-27 is satisfied
+ * — asserted here rather than asserted about — so the refusals below
+ * are attributable to the witness and to nothing else. */
+const CROSS_SRC = twoFields('<a href="/ba">x</a>', '<a href="/c">y</a>');
+const CROSS_OUT = twoFields('<a href="/ba">x</a>', '<a href="/a">y</a>');
+const CROSS: Restore = {
+	field: '<a href="/c">y</a>',
+	offset: 0,
+	removed: 'b',
+	written: '<a href="/a">',
+};
+
+it('the cross-field restore satisfies every clause but the witness', () => {
+	// Clause 2: the recovered run IS in this entry's input …
+	expect(fieldsOf(CROSS_SRC)).toContain('<a href="/ba">x</a>');
+	// … clause 3: at exactly one insertion offset …
+	const offsets = Array.from(
+		{ length: CROSS.written.length + 1 },
+		(_, at) => at,
+	).filter((at) =>
+		fieldsOf(CROSS_SRC).some((field) =>
+			field.includes(
+				CROSS.written.slice(0, at) + CROSS.removed + CROSS.written.slice(at),
+			),
+		),
+	);
+	expect(offsets).toEqual([10]);
+	// … and clause 1: the claim names the tag the rule emitted.
+	expect(
+		fieldsOf(CROSS_OUT).flatMap((f) => anchors(tokenize(f)).map((a) => a.tag)),
+	).toContain(CROSS.written);
+});
+
+/** Citing the field the BYTES are in. The repair landed in the
+ * definition and the run is in the headword, so the claim describes a
+ * field that is not the one it repaired — which is exactly the reading
+ * "some field of this entry" used to license. */
+it('case 6 refuses a run recovered from a field it did not repair', () => {
+	expect(
+		checkLinkTargets(
+			CROSS_SRC,
+			CROSS_OUT,
+			result(CROSS_OUT, {
+				restored: [{ ...CROSS, field: '<a href="/ba">x</a>' }],
+			}),
+		),
+	).toEqual([
+		`restored "/a" re-inserting "b" cites a field that is not the one it repaired in T00001`,
+	]);
+});
+
+/** Citing the field the REPAIR is in — the honest half of the same
+ * claim — and it fails on the other half: those bytes are not at that
+ * offset of that field, nor anywhere in it. There is no way to declare
+ * this repair that the gate accepts, which is the point. */
+it('case 6 refuses a run that is not in the field it repaired', () => {
+	expect(
+		checkLinkTargets(
+			CROSS_SRC,
+			CROSS_OUT,
+			result(CROSS_OUT, { restored: [CROSS] }),
+		),
+	).toEqual([
+		`restored "/a" re-inserting "b" is not at offset 0 of the cited field in T00001`,
+	]);
+});
+
+/** Same field, wrong offset. The bytes are in the cited field and the
+ * insertion offset is unique; only the PLACE is misdeclared, and the
+ * gate reads the place rather than trusting it. */
+it('case 6 refuses a witness offset the bytes do not sit at', () => {
+	const after = entry(D_GOOD);
+	expect(
+		checkLinkTargets(
+			entry(D_BAD),
+			after,
+			result(after, { restored: [{ ...restore, offset: D_LEAD.length + 1 }] }),
+		),
+	).toEqual([
+		`restored "Jastrow, כָּלוּל 1" re-inserting "</a>" is not at offset ${D_LEAD.length + 1} of the cited field in T00001`,
 	]);
 });
 
@@ -1298,9 +1433,18 @@ const T_OUT = T_IN.replace(
  * inferred, so a change to the declaration is a type error here. */
 type Corroborate = NonNullable<TransformResult['corroborated']>[number];
 
+/** The opening-tag token index of the `at`-th anchor of `html` — half
+ * of the witness a case-7 claim names, the other half being `html`
+ * itself. Read off `links.ts` rather than counted by hand, so a
+ * fixture cannot drift from the gate's own reading. */
+const openOf = (html: string, at: number): number =>
+	anchors(tokenize(html))[at]?.open ?? -1;
+
 const corroborate: Corroborate = {
+	field: T_IN,
 	from: 'Tosefta Shabbat 17:6',
 	head: 'Tosefta Shabbat 16',
+	open: openOf(T_IN, 1),
 	tail: ':6',
 	target: 'Tosefta Shabbat 16:6',
 };
@@ -1365,9 +1509,8 @@ it('case 7 refuses a head the input does not hold', () => {
 	expect(
 		withClaim(
 			{
-				from: 'Tosefta Shabbat 17:6',
+				...corroborate,
 				head: 'Tosefta Shabbat 99',
-				tail: ':6',
 				target: 'Tosefta Shabbat 99:6',
 			},
 			out,
@@ -1403,7 +1546,7 @@ it('case 7 refuses a tail that is not a suffix of its source', () => {
  * the display. Same claim, same bytes, same four input targets; the
  * one difference is that the variant no longer PRINTS the halakha it
  * addresses. That is the whole of what case 7 adds to case 4. */
-it('case 7 refuses a tail no display of its source witnesses', () => {
+it('case 7 refuses a tail the cited display does not witness', () => {
 	const silent = T_IN.replace('XVII), 6</a>', 'XVII)</a>');
 	const out = silent
 		.replace('/Tosefta_Shabbat.16"', '/Tosefta_Shabbat.16.6"')
@@ -1413,11 +1556,87 @@ it('case 7 refuses a tail no display of its source witnesses', () => {
 		);
 	expect(
 		checkLinkTargets(entry(silent), entry(out), {
-			corroborated: [corroborate],
+			corroborated: [
+				{ ...corroborate, field: silent, open: openOf(silent, 1) },
+			],
 		}),
 	).toEqual([
-		'corroborated "Tosefta Shabbat 16:6" takes ":6", whose digits "6" are in no display of "Tosefta Shabbat 17:6"',
+		'corroborated "Tosefta Shabbat 16:6" takes ":6", whose digits "6" are absent from the witnessing display "XVII)"',
 	]);
+});
+
+// ---- CLAUSE 4's WITNESS: which anchor, not which target ----
+//
+// Added 2026-08-27. Until then the claim named a target string and the
+// gate accepted the digits from ANY input anchor carrying it, so the
+// spec's attribution claim — that a minted target names the display it
+// came from — was false as built. The three tests below are the clause
+// on its own: the cited field must be the entry's, the cited token must
+// be an anchor carrying `from`, and it is THAT anchor's display that
+// has to print the digits.
+
+/** The field is half the witness, and it must be a field of THIS
+ * entry's input. Bytes the rule supplies from anywhere else name no
+ * anchor the gate walked, and a claim licensed by them would be a
+ * claim corroborated by its own author. */
+it('case 7 refuses a claim citing a field the entry does not hold', () => {
+	expect(withClaim({ ...corroborate, field: `${T_IN} ` })).toEqual([
+		`corroborated "Tosefta Shabbat 16:6" cites no anchor of T00001's input at token ${openOf(T_IN, 1)} of the declared field`,
+	]);
+});
+
+/** The token index is the other half, and it must land on an anchor
+ * that carries `from`. Token 0 of `T_IN` is the PRIMARY's opening tag —
+ * a real anchor of a real field of this entry, and the wrong one. */
+it('case 7 refuses a claim citing an anchor that lacks its source', () => {
+	expect(withClaim({ ...corroborate, open: openOf(T_IN, 0) })).toEqual([
+		'corroborated "Tosefta Shabbat 16:6" cites an anchor that does not carry "Tosefta Shabbat 17:6"',
+	]);
+});
+
+/**
+ * THE WITNESS TEST, and the one the tightening exists for.
+ *
+ * Two input anchors carry `W 17:6`. One PRINTS the halakha (`, 6`) and
+ * one does not (`XVII)`). The mint is identical in both runs and so is
+ * every other clause; the only difference is WHICH anchor the claim
+ * cites. Citing the silent one is refused — and until 2026-08-27 it was
+ * licensed, because clause 4 asked only whether some anchor carrying
+ * `from` printed the digits, and the talkative sibling always did.
+ *
+ * `W 16:6` occurs nowhere in the input, so this is a MINT under both
+ * readings: the pair separates attribution, not fabrication.
+ */
+it('case 7 refuses the sibling’s witness on behalf of the cited anchor', () => {
+	const src =
+		'<a href="/W.16" data-ref="W 16">XVI</a>' +
+		'<a href="/W.17.6" data-ref="W 17:6">XVII)</a>' +
+		'<a href="/W.17.6" data-ref="W 17:6">, 6</a>';
+	const out = src.replace(
+		'"/W.16" data-ref="W 16"',
+		'"/W.16.6" data-ref="W 16:6"',
+	);
+	const claim: Corroborate = {
+		field: src,
+		from: 'W 17:6',
+		head: 'W 16',
+		open: openOf(src, 1),
+		tail: ':6',
+		target: 'W 16:6',
+	};
+	expect(anchors(tokenize(src)).map((a) => a.dataRef)).not.toContain('W 16:6');
+	expect(
+		checkLinkTargets(entry(src), entry(out), { corroborated: [claim] }),
+	).toEqual([
+		'corroborated "W 16:6" takes ":6", whose digits "6" are absent from the witnessing display "XVII)"',
+	]);
+	// The SAME mint, licensed the moment the claim cites the anchor that
+	// actually printed the halakha. Nothing else moves.
+	expect(
+		checkLinkTargets(entry(src), entry(out), {
+			corroborated: [{ ...claim, open: openOf(src, 2) }],
+		}),
+	).toEqual([]);
 });
 
 /** DISTINCTNESS. A string is trivially its own suffix, so one source
@@ -1432,9 +1651,8 @@ it('case 7 refuses a claim naming one target as both head and source', () => {
 	expect(
 		withClaim(
 			{
-				from: 'Tosefta Shabbat 17:6',
+				...corroborate,
 				head: 'Tosefta Shabbat 17:6',
-				tail: ':6',
 				target: 'Tosefta Shabbat 17:6:6',
 			},
 			out,
@@ -1455,7 +1673,16 @@ it('case 7 refuses an empty head, which the target set always holds', () => {
 		'<a href="/a" data-ref="W 1:6">x 6</a><a href="/b" data-ref="1:6">y</a>';
 	expect(
 		checkLinkTargets(entry(src), entry(out), {
-			corroborated: [{ from: 'W 1:6', head: '', tail: '1:6', target: '1:6' }],
+			corroborated: [
+				{
+					field: src,
+					from: 'W 1:6',
+					head: '',
+					open: openOf(src, 0),
+					tail: '1:6',
+					target: '1:6',
+				},
+			],
 		}),
 	).toEqual(['corroborated "1:6" is not "" joined to a suffix of "W 1:6"']);
 });
@@ -1470,7 +1697,16 @@ it('case 7 refuses a tail holding no digit at all', () => {
 		'<a href="/a" data-ref="W 1b">d</a><a href="/b" data-ref="W 2b">2b</a>';
 	expect(
 		checkLinkTargets(entry(src), entry(out), {
-			corroborated: [{ from: 'W 2b', head: 'W 1', tail: 'b', target: 'W 1b' }],
+			corroborated: [
+				{
+					field: src,
+					from: 'W 2b',
+					head: 'W 1',
+					open: openOf(src, 1),
+					tail: 'b',
+					target: 'W 1b',
+				},
+			],
 		}),
 	).toEqual([
 		'corroborated "W 1b" takes "b", which holds no digit to corroborate',
@@ -1537,8 +1773,10 @@ it('case 7 licenses Exodus 24:25, which is not a verse — the measured cost', (
 		checkLinkTargets(entry(src), entry(out), {
 			corroborated: [
 				{
+					field: src,
 					from: 'Exodus 15:25',
 					head: 'Exodus 24',
+					open: openOf(src, 1),
 					tail: ':25',
 					target: 'Exodus 24:25',
 				},

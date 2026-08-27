@@ -80,7 +80,13 @@
  *    gate re-inserts the run and requires the result to be a
  *    byte-exact SUBSTRING of some field in this entry's own input, at
  *    EXACTLY ONE insertion offset. Ambiguity is a refusal, not a
- *    choice.
+ *    choice. Since 2026-08-27 the claim also NAMES THE PLACE — the
+ *    input field the repair happened in, verbatim, and the offset in
+ *    it where the recovered run begins — and the gate requires the
+ *    bytes to sit exactly there, in the input counterpart of the field
+ *    the repaired anchor came out of. "Somewhere in this entry" was
+ *    the whole of the old test, so a run recovered from the headword
+ *    licensed a repair made in a definition.
  *
  *    It is case 5's lesson one level further out, and the extra level
  *    is the whole reason it exists. Case 5 reads raw tag bytes but
@@ -100,7 +106,8 @@
  *    Safe by construction rather than by population, on case 5's
  *    argument: every character of `written` except the deleted run is
  *    pinned by input bytes, in order, contiguously, at a unique
- *    offset. The case cannot move a link to another entry, cannot
+ *    offset OF A NAMED FIELD. The case cannot move a link to another
+ *    entry, cannot move one between an entry's own fields, cannot
  *    alter a locus, and cannot recover an address the input did not
  *    spell out — it can only delete a declared run from bytes the
  *    input already contains. Like case 5 it licenses a whole opening
@@ -111,8 +118,15 @@
  *    assembled from a `head` the input holds and a `tail` that is a
  *    literal SUFFIX of `from`, a second target the input holds, with
  *    `head + tail === target` exactly and the DIGITS of `tail`
- *    occurring in the display of an input anchor carrying `from`. All
- *    four are DECLARED through `TransformResult.corroborated`.
+ *    occurring in the display of ONE NAMED input anchor, which must
+ *    carry `from`. All of it is DECLARED through
+ *    `TransformResult.corroborated`, the witness included: the claim
+ *    cites the input field it read and the opening-tag token index of
+ *    the anchor within it, which together identify exactly one anchor.
+ *    Before 2026-08-27 the claim named only the target string and any
+ *    anchor carrying it could supply the digits, so an entry citing
+ *    one address twice had its mint corroborated by a sibling the rule
+ *    never read.
  *
  *    It exists because case 4's tightening of 2026-08-24 refuses a
  *    repair the entry evidences twice over. `Tosef. Sabb. XVI (XVII),
@@ -153,10 +167,14 @@
  *    nothing is minted unless a rule declares it, only
  *    `toseftaPrimaryHalakha` declares this one, and its own predicate
  *    fires on none of the 68. Every minted target must name the two
- *    input targets and the witnessing display it came from, so a wrong
- *    mint is a wrong claim with a rule's name on it rather than an
- *    anonymous fabrication. Ruled on exactly those terms, 2026-08-27,
- *    after the correction. Cases 1-6 are untouched.
+ *    input targets and ONE input anchor — cited by field and token
+ *    index — that carries `from` and whose display prints the tail's
+ *    digits, so a wrong mint is a wrong claim with a rule's name on it
+ *    rather than an anonymous fabrication. Ruled on those terms
+ *    2026-08-27 after the correction; the witness was made a named
+ *    anchor the same day, because the ruling's own sentence was not
+ *    true of a declaration that named a target string. Cases 1-6 are
+ *    untouched.
  *
  * `href` and `data-ref` are checked INDEPENDENTLY against that one
  * set. A rule that copies both from the same source anchor therefore
@@ -331,7 +349,9 @@
  *   unparseable, so there is no input tag to compare against — but it
  *   is a genuinely wider warrant than case 5's, and the width is here
  *   rather than in the case's own note so it sits with the rest of
- *   them.
+ *   them. Narrowed 2026-08-27 in ONE respect only: the bytes must be
+ *   in the field the repair happened in, at the offset the claim
+ *   names. What they were in that field is still not asked.
  * - **Which run, in case 6.** The gate never asks WHAT `removed` is,
  *   only that re-inserting it lands. Nothing restricts it to markup: a
  *   claim deleting a run of display text from inside a tag clears the
@@ -343,9 +363,12 @@
  *   construction a tag the input never held AS A TAG — that is the
  *   defect — so the same cap reads 0 for every honest claim and would
  *   refuse them all. Two output anchors carrying byte-identical
- *   repaired tags are therefore both licensed by one claim. The same
- *   shape as "which anchor, in case 5" and the same root: this gate
- *   counts, and does not track identity.
+ *   repaired tags are therefore both licensed by one claim, PROVIDED
+ *   both are in the field the claim cites: since 2026-08-27 the same
+ *   tag repaired in a second field is refused there, so the residue is
+ *   per-field rather than per-entry. Within one field this gate still
+ *   counts and does not track identity, which is the same shape as
+ *   "which anchor, in case 5" and the same root.
  * - **A minted address, in case 7, and a MEASURED one.** The bullet
  *   above says case 4 synthesizes an address that may occur nowhere in
  *   the corpus. Case 7 does the same on a different warrant, and the
@@ -359,10 +382,18 @@
  *   than a defect in it, and pinned by a PASSING test in
  *   `link-target.test.ts` — one that asserts the ACCEPT, since
  *   asserting a refusal there would be false.
- * - **Which display, in case 7.** The witness need only be SOME input
- *   anchor carrying `from`, not the sibling the rule reasoned about
- *   and not the anchor being repaired. Case 4 carries the same limit
- *   for `head`; this one extends it to the corroboration itself.
+ * - **Which display, in case 7 — NARROWED 2026-08-27, and what is
+ *   left.** This read: "the witness need only be SOME input anchor
+ *   carrying `from`, not the sibling the rule reasoned about". The
+ *   claim now CITES its witness by field bytes and token index, and
+ *   the gate reads the digits off that one anchor, so a rule can no
+ *   longer be corroborated by a sibling it never looked at. What the
+ *   gate still cannot ask is whether the cited anchor is the one the
+ *   rule SHOULD have read — a rule may cite the wrong sibling with
+ *   perfect internal consistency, and this gate will agree with it.
+ *   That is the limit case 4 carries for `head`, which is still
+ *   uncited: `head`'s href spellings are gathered from every anchor
+ *   carrying it, exactly as before.
  * - **Digits, not structure, in case 7.** Clause 4 compares digit
  *   RUNS, concatenated and stripped of everything else, so a display
  *   witnessing `6` licenses a tail of `:6` whether print meant halakha
@@ -413,13 +444,24 @@ import type { TransformResult } from './types.ts';
 /** One declared composition (`TransformResult.composed`). */
 type Compose = { from: string; target: string };
 
-/** One declared corroboration (`TransformResult.corroborated`). All
- * four members are TARGETS or runs of targets, never raw tag bytes:
- * unlike cases 5 and 6, the anchors case 7 speaks for parse perfectly
- * well — what they lack is the address, not the markup. */
+/** One declared corroboration (`TransformResult.corroborated`). Four
+ * of its six members are TARGETS or runs of targets, never raw tag
+ * bytes: unlike cases 5 and 6, the anchors case 7 speaks for parse
+ * perfectly well — what they lack is the address, not the markup.
+ *
+ * `field` and `open` are the WITNESS, added 2026-08-27: the input
+ * field the rule read, verbatim, and the index of the opening tag
+ * token, inside that field's own tokenization, of the anchor whose
+ * DISPLAY corroborated the tail. Token indices are unique within a
+ * field, so the pair names exactly one input anchor. Before it the
+ * declaration named a target string and clause 4 accepted any anchor
+ * carrying it, which made "the witnessing display it came from"
+ * unstatable — see `witnessOf`. */
 type Corroborate = {
+	field: string;
 	from: string;
 	head: string;
+	open: number;
 	tail: string;
 	target: string;
 };
@@ -433,8 +475,20 @@ type Recombine = { head: string; tail: string; target: string };
 
 /** One declared restoration (`TransformResult.restored`). `written` is
  * a RAW opening tag, like `GlyphCorrect`'s members; `removed` is the
- * run the rule lifted out of it, and is not a target of any kind. */
-type Restore = { removed: string; written: string };
+ * run the rule lifted out of it, and is not a target of any kind.
+ *
+ * `field` and `offset` are the WITNESS, added 2026-08-27: the input
+ * field the repair happened in, verbatim, and the offset within it at
+ * which the damaged bytes begin. Before them clause 2 asked only that
+ * the recovered run match SOME field of the entry, so bytes found in
+ * one field could license a repair made in another and an offset had
+ * no field to be an offset into — see `restoreFault`. */
+type Restore = {
+	field: string;
+	offset: number;
+	removed: string;
+	written: string;
+};
 
 /** The gershayim, U+05F4 — the one character case 5 may map back to an
  * ASCII quote.
@@ -563,6 +617,32 @@ function tally(list: readonly Anchor[]): Map<string, number> {
  * skipping them would hide the one case worth seeing. */
 function anchorsIn(fields: readonly string[]): Anchor[] {
 	return fields.flatMap((field) => anchors(tokenize(field)));
+}
+
+/** One OUTPUT anchor with the index of the field it was read out of.
+ *
+ * Every other case reads the entry as one pool of anchors and one pool
+ * of bytes, which is why `anchorsIn` flattens. Case 6's witness is
+ * stated per FIELD, so the anchor under judgement has to carry the
+ * field it came from or the gate cannot tell a repair made HERE from
+ * bytes recovered THERE. */
+interface Placed {
+	anchor: Anchor;
+	field: number;
+}
+
+/** `anchorsIn` keeping each anchor's field index — same walk, same
+ * order, one number kept. Indices are into the caller's field list,
+ * and `checkLinkTargets` reads them against the INPUT list: `fieldsOf`
+ * enumerates a fixed structure, so field `i` of the output is field
+ * `i` of the input for every rule that edits text rather than shape. A
+ * rule that changed the shape misaligns them, and case 6's witness
+ * fails closed when it does — the declared field will not be the input
+ * field at that index. */
+function placedIn(fields: readonly string[]): Placed[] {
+	return fields.flatMap((text, field) =>
+		anchors(tokenize(text)).map((anchor) => ({ anchor, field })),
+	);
 }
 
 /**
@@ -854,27 +934,45 @@ function digitsOf(text: string): string {
 }
 
 /**
- * Whether some INPUT anchor carrying `from` prints `digits` in its
- * display — spec §3 clause 4, and the whole of the corroboration.
+ * The ONE input anchor a corroboration's `field` and `open` name, or
+ * `undefined` when they name none — spec §3 clause 4's witness, made
+ * nameable 2026-08-27.
  *
- * "Carrying" is by either attribute, matching `hrefsFor`: the target
- * set pools `href` with `data-ref`, so a `from` naming one spelling
- * must be able to find the anchor that spells it the other way.
+ * The declared field must be one of THIS entry's own input fields,
+ * byte for byte: bytes from anywhere else name no anchor this gate
+ * walked, and accepting them would let a rule supply its own witness.
+ * `open` is then a token index into that field's tokenization, which
+ * is unique per anchor by construction, so the pair resolves to
+ * exactly one anchor and to one drawn from the same population
+ * `anchorsIn` builds `targets` from.
  *
- * SOME anchor, not the sibling the rule reasoned about — the gate has
- * no way to know which that was, and the blind-spot list says so
- * rather than implying otherwise.
+ * Returns the ANCHOR rather than a verdict, and deliberately: clause 4
+ * is the clause most likely to be narrowed next (§3.1.1's ruling is
+ * explicitly provisional), and every narrowing that needs something
+ * else about the witnessing anchor — its tag, its position, the shape
+ * of its display — reads it off this value instead of re-plumbing the
+ * case.
+ *
+ * Re-tokenizes the declared field rather than indexing the flat
+ * `source` walk, because `anchorsIn` discards the field boundaries the
+ * index is relative to. Claims are rare (414 corpus-wide, none outside
+ * `toseftaPrimaryHalakha`) and fields are short, so the honest
+ * re-parse is cheaper than a second walk kept in step with the first.
  */
-function witnesses(
-	from: string,
-	digits: string,
-	source: readonly Anchor[],
-): boolean {
-	return source.some(
-		(anchor) =>
-			(anchor.dataRef === from || anchor.href === from) &&
-			anchor.display.includes(digits),
+function witnessOf(claim: Corroborate, input: Input): Anchor | undefined {
+	if (!input.fields.includes(claim.field)) {
+		return;
+	}
+	return anchors(tokenize(claim.field)).find(
+		(anchor) => anchor.open === claim.open,
 	);
+}
+
+/** Whether `anchor` carries `target` on either attribute — the same
+ * "carrying" `hrefsFor` means, since the target set pools `href` with
+ * `data-ref` and a declared string may be written either way. */
+function carries(anchor: Anchor, target: string): boolean {
+	return anchor.dataRef === target || anchor.href === target;
 }
 
 /**
@@ -893,12 +991,19 @@ function witnesses(
  * the target set whenever any input anchor lacks an attribute, so
  * without this a claim naming `head: ''` would license any suffix of
  * any input target as a whole target.
+ *
+ * The corroboration is read off `witness` — the ONE anchor the claim
+ * named, resolved by `witnessOf` and already checked to carry `from` —
+ * rather than off whichever anchor of the entry happens to print the
+ * digits. That is the 2026-08-27 tightening, and it is the difference
+ * between "these digits are printed somewhere near this address" and
+ * "this display, on this anchor, printed them".
  */
 function pairFault(
 	value: string,
 	head: string,
 	from: string,
-	source: readonly Anchor[],
+	witness: Anchor,
 ): string | undefined {
 	const tail = value.startsWith(head) ? value.slice(head.length) : '';
 	if (head === '' || head === from || tail === '' || !from.endsWith(tail)) {
@@ -908,9 +1013,9 @@ function pairFault(
 	if (digits === '') {
 		return `takes ${JSON.stringify(tail)}, which holds no digit to corroborate`;
 	}
-	return witnesses(from, digits, source)
+	return witness.display.includes(digits)
 		? undefined
-		: `takes ${JSON.stringify(tail)}, whose digits ${JSON.stringify(digits)} are in no display of ${JSON.stringify(from)}`;
+		: `takes ${JSON.stringify(tail)}, whose digits ${JSON.stringify(digits)} are absent from the witnessing display ${JSON.stringify(witness.display)}`;
 }
 
 /**
@@ -929,12 +1034,15 @@ function pairFault(
  * which case 4 learned to state: a string is trivially its own suffix,
  * so one source could otherwise extend itself indefinitely
  * (`X 1:2` + `:2` = `X 1:2:2`, and again).
+ *
+ * The WITNESS clauses are not here but in `claimFault`, because they
+ * read the entry's anchors rather than the declared strings alone.
  */
 function corroborateFault(
 	claim: Corroborate,
 	input: Input,
 ): string | undefined {
-	const lead = `corroborated ${JSON.stringify(claim.target)}`;
+	const lead = corroborateLead(claim.target);
 	if (claim.head === claim.from) {
 		return `${lead} names ${JSON.stringify(claim.head)} as both head and source`;
 	}
@@ -952,6 +1060,64 @@ function corroborateFault(
 		: `${lead} takes ${JSON.stringify(claim.tail)}, which is not a suffix of ${JSON.stringify(claim.from)}`;
 }
 
+/** The opening of every case-7 refusal, so the declaration clauses and
+ * the witness clauses cannot drift apart in how they name the value
+ * under judgement. */
+function corroborateLead(value: string): string {
+	return `corroborated ${JSON.stringify(value)}`;
+}
+
+/**
+ * Why one declared corroboration does not license `value`, or
+ * `undefined` when it does — the declaration clauses, then the two
+ * WITNESS clauses, then the per-spelling arithmetic.
+ *
+ * The witness clauses are the 2026-08-27 tightening and they run in
+ * this order for a reason. First the claim must NAME an anchor of this
+ * entry's input (`witnessOf`); then that anchor must CARRY `from`, so
+ * a rule cannot point at the display it liked and the target it needed
+ * on two different anchors. Only then is the display consulted, in
+ * `pairFault`, and only that anchor's.
+ *
+ * The `href` spelling of `from` is now the WITNESS's own href rather
+ * than every href in `hrefsFor(claim.from)`. That is the same
+ * tightening one level down: the anchor is named, so the spelling to
+ * test against is its own, not that of whichever sibling shares its
+ * `data-ref`. `head` keeps the `hrefsFor` treatment — the claim does
+ * not name the head's anchor, and case 4 carries the same limit for
+ * the same reason (see the blind-spot list).
+ */
+function claimFault(
+	value: string,
+	anchor: Anchor,
+	claim: Corroborate,
+	input: Input,
+): string | undefined {
+	const declared = corroborateFault(claim, input);
+	if (declared !== undefined) {
+		return declared;
+	}
+	const lead = corroborateLead(claim.target);
+	const witness = witnessOf(claim, input);
+	if (witness === undefined) {
+		return `${lead} cites no anchor of ${input.rid}'s input at token ${claim.open} of the declared field`;
+	}
+	if (!carries(witness, claim.from)) {
+		return `${lead} cites an anchor that does not carry ${JSON.stringify(claim.from)}`;
+	}
+	const own = value === anchor.dataRef;
+	const heads = own ? [claim.head] : hrefsFor(claim.head, input.source);
+	const from = own ? claim.from : witness.href;
+	const reasons = heads.map((head) => pairFault(value, head, from, witness));
+	if (reasons.some((reason) => reason === undefined)) {
+		return;
+	}
+	return `${corroborateLead(value)} ${
+		reasons[0] ??
+		`is not ${JSON.stringify(claim.head)} joined to a suffix of ${JSON.stringify(claim.from)}`
+	}`;
+}
+
 /**
  * Faults from the case-7 arm, with `composeFaults`'s contract exactly:
  * `undefined` means one declared corroboration licensed the value, an
@@ -959,47 +1125,26 @@ function corroborateFault(
  *
  * ANY-claim, with cases 3 and 4 and for their reason rather than cases
  * 5 and 6's: `hrefsFor` yields several candidate spellings for one
- * declared string, so real multiplicity exists here and a second claim
+ * declared `head`, so real multiplicity exists here and a second claim
  * naming a different `from` may be an alternative source rather than a
  * false provenance.
  *
  * The two spellings are handled the way `halvesOf` handles case 4's —
- * declared strings on the `data-ref` side, every matching anchor's
- * `href` on the href side — and the tail is re-derived for each pair,
- * because it differs between them.
+ * declared strings on the `data-ref` side, anchors' `href` values on
+ * the href side — and the tail is re-derived for each pair, because it
+ * differs between them.
  */
 function corroborateFaults(
 	value: string,
 	anchor: Anchor,
 	input: Input,
 ): string[] | undefined {
-	const { corroborations, source } = input;
-	const faults: string[] = [];
-	for (const claim of corroborations.filter(
-		(c) => c.target === anchor.dataRef,
-	)) {
-		const fault = corroborateFault(claim, input);
-		if (fault !== undefined) {
-			faults.push(fault);
-			continue;
-		}
-		const own = value === anchor.dataRef;
-		const heads = own ? [claim.head] : hrefsFor(claim.head, source);
-		const froms = own ? [claim.from] : hrefsFor(claim.from, source);
-		const reasons = heads.flatMap((head) =>
-			froms.map((from) => pairFault(value, head, from, source)),
-		);
-		if (reasons.some((reason) => reason === undefined)) {
-			return;
-		}
-		faults.push(
-			`corroborated ${JSON.stringify(value)} ${
-				reasons[0] ??
-				`is not ${JSON.stringify(claim.head)} joined to a suffix of ${JSON.stringify(claim.from)}`
-			}`,
-		);
-	}
-	return faults;
+	const faults = input.corroborations
+		.filter((claim) => claim.target === anchor.dataRef)
+		.map((claim) => claimFault(value, anchor, claim, input));
+	return faults.some((fault) => fault === undefined)
+		? undefined
+		: faults.filter((fault): fault is string => fault !== undefined);
 }
 
 /**
@@ -1165,15 +1310,22 @@ function glyphFaults(
  * be justified.
  */
 function restoreOffsets(claim: Restore, fields: readonly string[]): number[] {
-	const { removed, written } = claim;
 	const found: number[] = [];
-	for (let at = 0; at <= written.length; at++) {
-		const candidate = written.slice(0, at) + removed + written.slice(at);
+	for (let at = 0; at <= claim.written.length; at++) {
+		const candidate = recoveredAt(claim, at);
 		if (fields.some((field) => field.includes(candidate))) {
 			found.push(at);
 		}
 	}
 	return found;
+}
+
+/** `claim.written` with `claim.removed` put back at `at` — the bytes
+ * clause 2 says the input must hold, assembled in one place so the
+ * offset search and the placement test cannot disagree about what they
+ * are looking for. */
+function recoveredAt(claim: Restore, at: number): string {
+	return claim.written.slice(0, at) + claim.removed + claim.written.slice(at);
 }
 
 /**
@@ -1193,12 +1345,29 @@ function restoreOffsets(claim: Restore, fields: readonly string[]): number[] {
  *    the input does not say which run was lifted, and a gate that
  *    picked one would be asserting a provenance it cannot read. Zero
  *    means the bytes are not the input's at all.
+ * 4. **The recovered run must sit WHERE THE CLAIM SAYS IT DOES**
+ *    (2026-08-27): in the input counterpart of the field this anchor
+ *    was repaired in, at the declared offset. Clauses 2 and 3 alone
+ *    ask only that the bytes be somewhere in the entry, so a run
+ *    recovered from the headword licensed a repair made in a
+ *    definition, and an offset with no field to be an offset into
+ *    named nothing. `indexOf(recovered, offset) === offset` is the
+ *    whole test and it is exact in both directions: a negative or
+ *    fractional offset cannot equal an index, and bytes elsewhere in
+ *    the field do not answer for bytes here.
+ *
+ * Clauses 2 and 3 are KEPT rather than folded into 4, though 4 makes
+ * the entry-wide search redundant for an honest claim. Narrowing is
+ * free — every claim 4 admits, 2 and 3 admit too — it costs the corpus
+ * nothing (D00478's single offset is 54 either way), and dropping 3
+ * would silently retire the one clause that says the gate declines to
+ * pick between two readings of the same deletion.
  *
  * An empty `removed` needs no clause of its own: every offset then
  * yields `written` itself, so a `written` the input holds verbatim
  * gives `written.length + 1` offsets and one it does not hold gives
  * none. Both are refused by (3), which is why this does not carry a
- * fourth condition to say so.
+ * fifth condition to say so.
  *
  * Messages name the VALUE under judgement rather than the tag, on
  * `glyphFault`'s reasoning: tag values repeat, and a message phrased
@@ -1209,15 +1378,23 @@ function restoreFault(
 	value: string,
 	claim: Restore,
 	input: Input,
+	field: number,
 ): string | undefined {
 	const offsets = restoreOffsets(claim, input.fields);
-	const lead = `restored ${JSON.stringify(value)}`;
+	const lead = `restored ${JSON.stringify(value)} re-inserting ${JSON.stringify(claim.removed)}`;
 	if (offsets.length === 0) {
-		return `${lead} re-inserting ${JSON.stringify(claim.removed)} matches nothing in ${input.rid}'s input`;
+		return `${lead} matches nothing in ${input.rid}'s input`;
 	}
-	return offsets.length === 1
+	if (offsets.length > 1) {
+		return `${lead} matches ${input.rid}'s input at ${offsets.length} offsets (${offsets.join(', ')})`;
+	}
+	if (input.fields[field] !== claim.field) {
+		return `${lead} cites a field that is not the one it repaired in ${input.rid}`;
+	}
+	const recovered = recoveredAt(claim, offsets[0] ?? 0);
+	return claim.field.indexOf(recovered, claim.offset) === claim.offset
 		? undefined
-		: `${lead} re-inserting ${JSON.stringify(claim.removed)} matches ${input.rid}'s input at ${offsets.length} offsets (${offsets.join(', ')})`;
+		: `${lead} is not at offset ${claim.offset} of the cited field in ${input.rid}`;
 }
 
 /**
@@ -1245,13 +1422,14 @@ function restoreFaults(
 	value: string,
 	anchor: Anchor,
 	input: Input,
+	field: number,
 ): string[] | undefined {
 	const claims = input.restores.filter((claim) => claim.written === anchor.tag);
 	if (claims.length === 0) {
 		return [];
 	}
 	const faults = claims
-		.map((claim) => restoreFault(value, claim, input))
+		.map((claim) => restoreFault(value, claim, input, field))
 		.filter((fault): fault is string => fault !== undefined);
 	return faults.length === 0 ? undefined : faults;
 }
@@ -1293,6 +1471,7 @@ function checkValue(
 	value: string,
 	anchor: Anchor,
 	input: Input,
+	field: number,
 ): string | undefined {
 	if (input.targets.has(value)) {
 		return;
@@ -1301,7 +1480,7 @@ function checkValue(
 	if (glyphs === undefined) {
 		return;
 	}
-	const restores = restoreFaults(value, anchor, input);
+	const restores = restoreFaults(value, anchor, input, field);
 	if (restores === undefined) {
 		return;
 	}
@@ -1334,7 +1513,7 @@ function checkValue(
 function inputOf(
 	rid: string,
 	fields: readonly string[],
-	walked: { output: readonly Anchor[]; source: readonly Anchor[] },
+	walked: { output: readonly Placed[]; source: readonly Anchor[] },
 	result: Pick<
 		TransformResult,
 		'composed' | 'corroborated' | 'glyphCorrected' | 'recombined' | 'restored'
@@ -1352,7 +1531,7 @@ function inputOf(
 		source,
 		tags: tally(source),
 		targets: targetsOf(source),
-		written: tally(output),
+		written: tally(output.map((placed) => placed.anchor)),
 	};
 }
 
@@ -1395,7 +1574,7 @@ function checkLinkTargets(
 	const outputFields = fieldsOf(after);
 	const changed = !untouched(sourceFields, outputFields);
 	const source = changed ? anchorsIn(sourceFields) : [];
-	const output = changed ? anchorsIn(outputFields) : [];
+	const output = changed ? placedIn(outputFields) : [];
 	const { rid } = after;
 	const input = inputOf(rid, sourceFields, { output, source }, result);
 	const problems: string[] = [];
@@ -1410,10 +1589,10 @@ function checkLinkTargets(
 			`removed ${removed} anchor${removed === 1 ? '' : 's'} in ${rid}, declared ${declared}`,
 		);
 	}
-	for (const anchor of output) {
+	for (const { anchor, field } of output) {
 		const problem =
-			checkValue(anchor.dataRef, anchor, input) ??
-			checkValue(anchor.href, anchor, input);
+			checkValue(anchor.dataRef, anchor, input, field) ??
+			checkValue(anchor.href, anchor, input, field);
 		if (problem !== undefined) {
 			problems.push(problem);
 		}

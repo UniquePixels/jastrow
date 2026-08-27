@@ -664,9 +664,19 @@ type Corroborate = NonNullable<TransformResult['corroborated']>[number];
  * Condition 4 also proves both attributes parse and are non-empty,
  * which is what `links.ts`'s `retarget` demands before it will rewrite
  * either: `''` cannot end in `.<digits>`.
+ *
+ * The claim NAMES THE WITNESS as well as the two targets: `field` is
+ * the input field this pair was read out of, verbatim, and `open` is
+ * the variant anchor's own opening-tag token index within it. Those
+ * two are what let the gate test condition 3's display — `XVII), 6` —
+ * on the anchor this function actually read, rather than on whichever
+ * anchor of the entry happens to carry the same `data-ref`. Passing
+ * `field` in is why this takes it: `split` carries anchors, and an
+ * anchor does not know which field it came from.
  */
 function halakhaRepair(
 	split: Split,
+	field: string,
 ): { claim: Corroborate; href: string; ref: string } | undefined {
 	const { primary, variant } = split;
 	const head = CHAPTER_ONLY.exec(primary.dataRef);
@@ -686,8 +696,10 @@ function halakhaRepair(
 	const ref = `${primary.dataRef}:${halakha}`;
 	return {
 		claim: {
+			field,
 			from: variant.dataRef,
 			head: primary.dataRef,
+			open: variant.open,
 			tail: `:${halakha}`,
 			target: ref,
 		},
@@ -706,6 +718,11 @@ function halakhaRepair(
  * repaired in one pass. Nothing else moves: no token is added or
  * removed, no display is touched, and the anchor count is invariant by
  * construction rather than by check.
+ *
+ * That index stability is also what makes the claim's `open` sound:
+ * the gate re-tokenizes the declared INPUT field and looks the witness
+ * up by token index, and `text` here IS that input field, tokenized
+ * the same way before any rewrite.
  */
 function writePrimaryHalakha(text: string): {
 	claims: Corroborate[];
@@ -715,7 +732,7 @@ function writePrimaryHalakha(text: string): {
 	let tokens = tokenize(text);
 	const claims: Corroborate[] = [];
 	for (const split of toseftaSplits(tokens)) {
-		const repair = halakhaRepair(split);
+		const repair = halakhaRepair(split, text);
 		if (repair === undefined) {
 			continue;
 		}
@@ -750,9 +767,11 @@ function writePrimaryHalakha(text: string): {
  * registry's only user of that case. No `allows`, no `copied`, no
  * `unlinks`: every byte written is an attribute value, no text moves
  * and no anchor is removed. The claim names the primary's own input
- * target as `head`, the variant's as `from`, and `:<halakha>` as the
- * tail; the gate re-derives that tail per spelling and re-tests all
- * four clauses on the `href` as well.
+ * target as `head`, the variant's as `from`, `:<halakha>` as the tail,
+ * and the VARIANT ANCHOR ITSELF as the witness — its field's bytes and
+ * its opening-tag token index. The gate re-derives the tail per
+ * spelling and re-tests every clause on the `href` as well, reading
+ * the display off that one named anchor.
  *
  * MUST RUN BEFORE `toseftaCloseParen`. See this module's REGISTRATION
  * ORDER section — the reverse order repairs 0 while every isolated

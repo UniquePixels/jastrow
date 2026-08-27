@@ -134,14 +134,17 @@
  *
  * What changed is one clause of the gate, not one byte of the repair.
  * Case 6 reads RAW FIELD BYTES rather than parsed targets: the rule
- * declares `{ removed: '</a>', written: <the tag it emitted> }`, and
- * the gate re-inserts the run and requires the result to be a
- * byte-exact substring of a field in this entry's own input at exactly
- * one offset. On D00478 that offset is 54 and there is no other, so
- * every character of the written tag is pinned by input bytes and the
- * repair is licensed on evidence rather than on trust. The rule now
- * DECLARES that pair, and only from the reordering arm — see
- * `repairOne`.
+ * declares `{ field, offset, removed: '</a>', written: <the tag it
+ * emitted> }`, and the gate re-inserts the run and requires the result
+ * to be a byte-exact substring of a field in this entry's own input at
+ * exactly one insertion offset — and, since 2026-08-27, to sit at the
+ * DECLARED offset of the DECLARED field, which must be the input
+ * counterpart of the field the repaired anchor came out of. On D00478
+ * that insertion offset is 54 and there is no other, so every
+ * character of the written tag is pinned by input bytes, at a place
+ * the claim names, and the repair is licensed on evidence rather than
+ * on trust. The rule now DECLARES that tuple, and only from the
+ * reordering arm — see `repairOne`.
  *
  * `malformed-href.test.ts` still PINS the gate's verdict on both
  * entries. It pins the LICENCE now, and it pins the refusal that
@@ -305,7 +308,11 @@ function improves(before: string, after: string): boolean {
  * the case's own boundary rather than an omission. Case 6 licenses a
  * tag the input holds MINUS a declared run; that arm deletes `</a>`
  * from bytes the input already carries and nothing else, so the claim
- * is exactly true. The J00597 arm ADDS a witness `data-ref` the
+ * is exactly true. It declares WHERE as well as WHAT — `field` is the
+ * input field being repaired and `offset` is `match.index`, the byte
+ * the damaged run starts at, which is the same run `written` recovers
+ * once `</a>` goes back in. The gate refuses bytes that are anywhere
+ * else, this field included. The J00597 arm ADDS a witness `data-ref` the
  * damaged tag never held, so re-inserting `</a>` into what it wrote
  * reproduces no input substring — the claim would be false and the
  * gate would refuse it. That arm needs no claim: its witness puts both
@@ -324,7 +331,12 @@ function repairOne(
 	if (tail !== undefined) {
 		return anchorDepthAt(html, match.index) > 0
 			? {
-					restored: { removed: CLOSE, written: head + tail },
+					restored: {
+						field: html,
+						offset: match.index,
+						removed: CLOSE,
+						written: head + tail,
+					},
 					text: CLOSE + head,
 				}
 			: undefined;
