@@ -117,7 +117,16 @@ function resolvingTargets(corpus: readonly SourceEntry[]): Set<string> {
  * assertions below. They are separate `it`s because they fail for
  * different reasons and the message should say which; they are one
  * walk because a pass over 32,512 entries through `applyRepairs` plus
- * the whole registry costs ~20s and none of the three needs its own. */
+ * the whole registry is expensive and none of the three needs its own.
+ *
+ * MEASURED 2026-08-27 on an arm64 macOS dev machine under Bun 1.3.14,
+ * against a 33-rule registry: ~48s per pass, so the corpus read plus
+ * both passes puts this whole file at ~100s locally. The FIRST `it`
+ * bears all of it — the other two await a resolved promise. CI runs
+ * this roughly 2× slower (the first `it` was observed at 187s there),
+ * which is why the timeout below is 600s and not a round 2× of the
+ * local figure. Re-measure this number when rules are added: a stale
+ * cost estimate here is what set the old timeout too low. */
 interface PipelineState {
 	after: readonly SourceEntry[];
 	before: readonly SourceEntry[];
@@ -160,7 +169,7 @@ describe('the pipeline preserves and repairs link targets', () => {
 		// same 1,210 when batch 4's two unlink rules registered, and the
 		// docstring carries the measurement.
 		expect(now.size).toBe(71_383);
-	}, 180_000);
+	}, 600_000);
 
 	it('leaves no escaped quote in the corpus, and one spelling per address', async () => {
 		const { after, source } = await state();
@@ -194,7 +203,7 @@ describe('the pipeline preserves and repairs link targets', () => {
 		// hint that the corpus, not the transform, had moved.
 		expect(sourceMarks).toBe(0);
 		expect(marks).toBe(2305);
-	}, 180_000);
+	}, 600_000);
 
 	it('gives every repaired orphan refs item an in-body basis', async () => {
 		const { after } = await state();
@@ -220,5 +229,5 @@ describe('the pipeline preserves and repairs link targets', () => {
 		// TRANSFORM's output now that the escape is retired, so a
 		// narrowed predicate re-orphans them loudly.
 		expect(unresolved).toEqual([]);
-	}, 180_000);
+	}, 600_000);
 });
