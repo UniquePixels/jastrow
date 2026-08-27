@@ -73,7 +73,7 @@ as a tag at all, so it appears in no anchor's `.tag`. Measured on
 `D00478`: re-inserting `</a>` recovers an input substring at **exactly
 one offset (54)** and nowhere else.
 
-```
+```text
 written : <a dir="rtl" class="refLink" href="/Jastrow,_כָּלוּל.1" data-ref="Jastrow, כָּלוּל 1">
 input   : <a dir="rtl" class="refLink" href="/Jastrow,_כָּלוּל.1</a>" data-ref="Jastrow, כָּלוּל 1">
 ```
@@ -267,11 +267,23 @@ rule's name and a specific anchor on it.
 
 ### 3.2 What case 7 still cannot see
 
-- **Which sibling.** The gate does not ask whether `from` is the anchor
-  the rule REASONED about, only that some anchor carrying `from`
-  witnesses the tail. A rule picking the wrong sibling produces a
-  well-corroborated wrong address — the same limit case 4 carries for
-  `head`, recorded rather than closed.
+- **Which sibling.** The gate resolves the ONE anchor the claim cites
+  (`field` + `open`), requires THAT anchor to carry `from`, and reads
+  the tail's digits off THAT anchor's display and no other. What it
+  still cannot ask is whether the cited anchor is the sibling the rule
+  *should* have read: a rule that consistently cites the wrong neighbour
+  produces a well-corroborated wrong address — the same limit case 4
+  carries for `head`, which stays uncited, recorded rather than closed.
+
+  > **CORRECTED 2026-08-27 (fix/link-target-gate-cases): this read
+  > *"The gate does not ask whether `from` is the anchor the rule
+  > REASONED about, only that some anchor carrying `from` witnesses the
+  > tail."*** True of the shape this spec first declared; false of the
+  > gate that shipped. `witnessOf` resolves the single anchor named by
+  > `field` and `open`, `claimFault` refuses a claim whose cited anchor
+  > does not carry `from`, and only that anchor's display reaches
+  > `pairFault`. The limit that survives is narrower and is stated
+  > above; §3.1.1's closing paragraph states it too.
 - **Digits, not structure.** Clause 4 compares digit runs, so a display
   witnessing `6` licenses `:6` whether print meant halakha 6 or
   something else numbered 6. The tosefta shape pins that by its own

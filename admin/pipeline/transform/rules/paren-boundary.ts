@@ -127,7 +127,8 @@ import type { Rule, TransformRecord, TransformResult } from '../types.ts';
  * docs/specs/2026-08-27-link-target-gate-cases.md §3. It licenses a
  * target assembled from a `head` the input holds and a `tail` that is
  * a literal suffix of `from`, a second input target, when the DIGITS
- * of that tail occur in the display of an input anchor carrying
+ * of that tail occur in the display of the ONE input anchor the claim
+ * CITES by field bytes and token index, which must itself carry
  * `from`. The section above named exactly that evidence — the halakha
  * witnessed twice, in the variant's `data-ref` and again in its
  * printed `XVII), 6` — and the case is that evidence turned into a
@@ -648,9 +649,9 @@ type Corroborate = NonNullable<TransformResult['corroborated']>[number];
  *    display's captured `\d+` equals the `data-ref`'s. This is the
  *    rule's own statement of the two-witness warrant `link-target.ts`
  *    case 7 audits, and it is deliberately stated HERE as well as
- *    there: the gate asks only that the digits appear SOMEWHERE in a
- *    display of `from`, while this asks that print and address say the
- *    same thing about the same slot. The catalogue measured the
+ *    there: the gate asks only that the digits appear SOMEWHERE in the
+ *    CITED anchor's display, while this asks that print and address
+ *    say the same thing about the same slot. The catalogue measured the
  *    agreement at 525 of 525 and it reproduces at 414 of 414 on this
  *    arm, so the condition declines nothing today.
  * 4. Both spellings must actually END where the halakha is appended —
