@@ -1,16 +1,19 @@
+/**
+ * Fixture tier for `rules/paren-boundary.ts`. The corpus tier — the
+ * catalogued populations, the per-entry gate stack and the
+ * both-orders composition — lives in `paren-boundary-corpus.test.ts`,
+ * following this module's convention for a tier that reads all 32,512
+ * entries.
+ */
 import { describe, expect, it } from 'bun:test';
-import { readSourceEntries } from '../../body/source.ts';
 import type { SourceEntry } from '../../body/types.ts';
 import { tokenize } from '../html.ts';
 import { checkLinkTargets } from '../link-target.ts';
 import { anchors } from '../links.ts';
-import { checkMarkup } from '../markup.ts';
-import { checkNoNewText, fieldsOf } from '../no-new-text.ts';
-import type { Rule, TransformResult } from '../types.ts';
+import { fieldsOf } from '../no-new-text.ts';
 import {
 	openParenInAnchorDisplay,
 	toseftaCloseParen,
-	toseftaSplits,
 } from './paren-boundary.ts';
 
 const PRIMARY =
@@ -29,12 +32,24 @@ const def = (html: string): SourceEntry => ({
 const definitionOf = (entry: SourceEntry): string | undefined =>
 	entry.content.senses[0]?.definition;
 
-const anchorCount = (entry: SourceEntry): number => {
-	let count = 0;
-	for (const text of fieldsOf(entry)) {
-		count += anchors(tokenize(text)).length;
-	}
-	return count;
+/** Anchors whose DISPLAY is empty — a link with nothing to click.
+ * Counted because an invariant anchor count does NOT establish "no
+ * link lost": `<a>(</a>)` clears the count and all four gates while
+ * being a hollowed-out link. See the rule module's docstring. */
+const hollowAnchors = (entry: SourceEntry): number =>
+	fieldsOf(entry)
+		.flatMap((text) => anchors(tokenize(text)))
+		.filter((anchor) => anchor.display === '').length;
+
+/** Freeze an entry all the way down to `senses[0]`, where `definition`
+ * actually lives — a shallow freeze to `content` leaves the one object
+ * a mutating rule would write to unprotected, so it proves nothing. */
+const frozen = (html: string): SourceEntry => {
+	const entry = def(html);
+	Object.freeze(entry.content.senses[0]);
+	Object.freeze(entry.content.senses);
+	Object.freeze(entry.content);
+	return Object.freeze(entry);
 };
 
 describe('toseftaCloseParen', () => {
@@ -84,11 +99,16 @@ describe('toseftaCloseParen', () => {
 	});
 
 	it('treats the entry as immutable', () => {
-		const src = def(SPLIT);
-		Object.freeze(src);
-		Object.freeze(src.content);
+		const src = frozen(SPLIT);
 		expect(() => toseftaCloseParen.apply(src)).not.toThrow();
 		expect(definitionOf(src)).toBe(SPLIT);
+	});
+
+	it('declines a variant carrying inner markup, which would cross', () => {
+		const crossed = def(
+			`${PRIMARY}Tosef. Sabb. XVI</a> (${VARIANT}<i>XVII), 6</i></a>`,
+		);
+		expect(toseftaCloseParen.apply(crossed).entry).toBe(crossed);
 	});
 });
 
@@ -124,6 +144,22 @@ describe('openParenInAnchorDisplay', () => {
 	it('declines the opposite polarity, which is the other row', () => {
 		const split = def(SPLIT);
 		expect(openParenInAnchorDisplay.apply(split).entry).toBe(split);
+	});
+
+	it('treats the entry as immutable', () => {
+		const src = frozen(`${A}(ס</a>)`);
+		expect(() => openParenInAnchorDisplay.apply(src)).not.toThrow();
+		expect(definitionOf(src)).toBe(`${A}(ס</a>)`);
+	});
+
+	it('would hollow out a one-character display, which is why the corpus tier counts empty displays', () => {
+		// Not a repair and not a decline: the rule DOES fire here, and
+		// every gate passes. The live population is 0, and the corpus
+		// tier's empty-display invariant is what keeps it that way.
+		const out = openParenInAnchorDisplay.apply(def(`${A}(</a>)`));
+		expect(definitionOf(out.entry)).toBe(`(${A}</a>)`);
+		expect(hollowAnchors(out.entry)).toBe(1);
+		expect(hollowAnchors(def(`${A}(</a>)`))).toBe(0);
 	});
 });
 
@@ -177,106 +213,4 @@ describe('tosefta-variant-chapter-halakha-loss (blocked)', () => {
 			'recombined "Tosefta Shabbat 16:6" is not a prefix of "Tosefta Shabbat 16" joined to a suffix of "Tosefta Shabbat 17:6"',
 		]);
 	});
-});
-
-/** One row's running totals: occurrences, and the entries they fall
- * in. `count.ts` measures ENTRIES; the catalogue reasons quote both. */
-interface Tally {
-	entries: Set<string>;
-	occurrences: number;
-}
-
-const tally = (): Tally => ({ entries: new Set<string>(), occurrences: 0 });
-
-const add = (into: Tally, rid: string, by: number): void => {
-	if (by > 0) {
-		into.occurrences += by;
-		into.entries.add(rid);
-	}
-};
-
-/** Every gate a registered rule would face, run per entry so a
- * violation names the entry that caused it rather than a total. The
- * anchor-count invariant is the crude one and the important one: both
- * rules move bytes across tag boundaries, and that is the way it goes
- * wrong. */
-function assertClean(
-	entry: SourceEntry,
-	pairs: readonly [Rule, TransformResult][],
-): void {
-	const was = anchorCount(entry);
-	for (const [rule, result] of pairs) {
-		expect(anchorCount(result.entry)).toBe(was);
-		expect(checkLinkTargets(entry, result.entry, result)).toEqual([]);
-		expect(checkNoNewText(entry, result.entry, rule)).toEqual([]);
-		expect(checkMarkup(entry, result.entry)).toEqual([]);
-	}
-}
-
-/** The shared walk's two arms over one entry: a primary whose
- * `data-ref` has no `:` lost its halakha, one that has a `:` carries a
- * halakha disagreeing with print. */
-function splitArms(entry: SourceEntry): { disagree: number; lost: number } {
-	let disagree = 0;
-	let lost = 0;
-	for (const text of fieldsOf(entry)) {
-		for (const { primary } of toseftaSplits(tokenize(text))) {
-			if (primary.dataRef.includes(':')) {
-				disagree += 1;
-			} else {
-				lost += 1;
-			}
-		}
-	}
-	return { disagree, lost };
-}
-
-function splitsIn(entry: SourceEntry): number {
-	let found = 0;
-	for (const text of fieldsOf(entry)) {
-		found += toseftaSplits(tokenize(text)).length;
-	}
-	return found;
-}
-
-describe('corpus tier', () => {
-	it('all three rows reproduce, and no link is lost', async () => {
-		const close = tally();
-		const paren = tally();
-		const pairs = tally();
-		const halakha = tally();
-		let disagreeOcc = 0;
-		let survivingSwallows = 0;
-		for await (const entry of readSourceEntries()) {
-			const c = toseftaCloseParen.apply(entry);
-			const p = openParenInAnchorDisplay.apply(entry);
-			add(close, entry.rid, c.records.length);
-			add(paren, entry.rid, p.records.length);
-			assertClean(entry, [
-				[toseftaCloseParen, c],
-				[openParenInAnchorDisplay, p],
-			]);
-			const arms = splitArms(entry);
-			add(pairs, entry.rid, arms.disagree + arms.lost);
-			add(halakha, entry.rid, arms.lost);
-			disagreeOcc += arms.disagree;
-			survivingSwallows += splitsIn(c.entry);
-		}
-		// anchor-swallows-close-paren, catalogued 493 ENTRIES.
-		expect(close.occurrences).toBe(525);
-		expect(close.entries.size).toBe(493);
-		// The population the shared walk sees, and its two arms.
-		expect(pairs.occurrences).toBe(525);
-		expect(pairs.entries.size).toBe(493);
-		expect(disagreeOcc).toBe(111);
-		// tosefta-variant-chapter-halakha-loss, catalogued 391 ENTRIES.
-		// Pinned, NOT repaired — see the blocked describe above.
-		expect(halakha.occurrences).toBe(414);
-		expect(halakha.entries.size).toBe(391);
-		// The defect count as a DELTA, measured on the markup.
-		expect(survivingSwallows).toBe(0);
-		// open-paren-in-anchor-display, catalogued 214 ENTRIES.
-		expect(paren.occurrences).toBe(225);
-		expect(paren.entries.size).toBe(214);
-	}, 600_000);
 });

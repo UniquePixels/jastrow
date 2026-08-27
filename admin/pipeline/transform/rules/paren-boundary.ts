@@ -122,10 +122,57 @@ import type { Rule, TransformRecord, TransformResult } from '../types.ts';
  * regresses: the rendered display becomes right — the paren stops
  * being drawn as part of the link — and the primary's `data-ref`
  * stays exactly as wrong as it already was, neither repaired nor
- * damaged further. The two halves are independent in that direction;
- * they are entangled only in that they share this walk and, once the
- * gate is widened, must be registered adjacently (Task 0's gate will
- * report them as non-commuting, which is expected and declared).
+ * damaged further. The two halves are independent in that direction.
+ *
+ * ## REGISTRATION ORDER, FOR WHOEVER SHIPS THE HALAKHA RULE
+ *
+ * **THE DEFERRED `toseftaPrimaryHalakha` MUST BE REGISTERED STRICTLY
+ * BEFORE `toseftaCloseParen`, NOT MERELY ADJACENT TO IT.** The
+ * direction is the whole of the requirement, and getting it backwards
+ * is silent.
+ *
+ * `toseftaCloseParen` DESTROYS `toseftaSplits`'s own predicate. A
+ * variant's display is `XVII), 6` before the boundary move and `XVII`
+ * after it, and `VARIANT_DISPLAY` is anchored at both ends, so a
+ * repaired pair is no longer a pair. `run.ts` feeds each rule the
+ * PREVIOUS rule's output, so a halakha rule registered after this one
+ * would see 0 splits and repair 0 primaries.
+ *
+ * That failure is invisible to every check this module has.
+ * `count.ts` measures each rule ALONE against the pinned snapshot, so
+ * it would keep reporting 414 while the composed migration repaired
+ * nothing — green everywhere, nothing done, which is the worst shape
+ * a defect can take here. Task 0's commutation gate will report the
+ * pair as non-commuting, which is expected and must be declared; what
+ * it will NOT tell you is which order is the correct one. This
+ * paragraph is that answer.
+ *
+ * The corpus tier asserts the destruction directly
+ * (`survivingSwallows` goes 525 → 0, computed from the OUTPUT), so
+ * the fact this paragraph rests on is measured rather than asserted.
+ *
+ * ## WHAT THE ANCHOR-COUNT INVARIANT DOES AND DOES NOT ESTABLISH
+ *
+ * Both rules are checked for an invariant anchor count across every
+ * edit, and that check is load-bearing — these rules move bytes across
+ * tag boundaries and dropping an `</a>` is exactly how they would go
+ * wrong. But it is worth being blunt about its reach, because it is
+ * easy to read as more than it is:
+ *
+ * **An invariant anchor count is NOT "no link lost", and neither is
+ * the four-gate stack.** `<a>(</a>)` is a well-formed anchor with an
+ * EMPTY display — a link with nothing to click — and it clears the
+ * anchor count, `checkMarkup`, `checkNoNewText` and `checkLinkTargets`
+ * alike. `openParenInAnchorDisplay` would produce exactly that from a
+ * one-character display, and nothing in the stack would object.
+ *
+ * The live population of such displays is 0, and the guard is
+ * therefore fail-closed rather than a live repair — but the CLAIM has
+ * to be sized to the evidence. What the corpus tier asserts instead is
+ * the stronger property the invariant does not give: the number of
+ * anchors with an EMPTY DISPLAY is itself invariant across every edit,
+ * so no anchor is hollowed out. "0 links lost" rests on that pair of
+ * assertions together, never on the count alone.
  *
  * ## The selection, re-measured here rather than inherited
  *
@@ -168,6 +215,39 @@ function usable(anchor: Anchor): boolean {
 }
 
 /**
+ * Whether an anchor's display is built from text alone, with no tag
+ * token between its `open` and its `close`.
+ *
+ * REQUIRED BY BOTH BOUNDARY MOVES, and the reason is crossed nesting
+ * rather than tidiness. Each rule relocates one of the anchor's own
+ * tags past a text character; if a DIFFERENT element opens inside the
+ * anchor and closes inside it too, the moved tag can land between that
+ * element's open and its close:
+ *
+ *     <a V><i>XVII), 6</i></a>  →  <a V><i>XVII</a>), 6</i>
+ *
+ * That output is crossed, not merely ugly, and it is invisible to
+ * every gate a registered rule faces — `checkMarkup` compares a
+ * well-formedness DELTA and reads both sides as equally damaged,
+ * `checkNoNewText` sees an identical multiset, `checkLinkTargets` sees
+ * an unchanged target, and the anchor count is unmoved. Nothing would
+ * catch it.
+ *
+ * `strandsOpenParen` carried this guard from the start (it is the
+ * catalogue predicate's own `[^<]*`); `toseftaSplits` did not, and a
+ * reviewer's constructed `<i>` variant walked straight through all
+ * four checks. Live population is 0 — measured 0 variants carrying
+ * inner markup corpus-wide — so this is fail-closed hardening against
+ * a re-fetch or against composition, in the same spirit as `usable`
+ * above, not a repair of anything shipped.
+ */
+function tagFree(tokens: readonly Token[], anchor: Anchor): boolean {
+	return !tokens
+		.slice(anchor.open + 1, anchor.close)
+		.some((inner) => inner.kind === 'tag');
+}
+
+/**
  * Every `{ primary, variant }` pair in this token stream.
  *
  * The ONE predicate walk both entangled rows consume, so they cannot
@@ -193,7 +273,13 @@ function toseftaSplits(tokens: readonly Token[]): Split[] {
 		if (
 			primary === undefined ||
 			!VARIANT_DISPLAY.test(variant.display) ||
-			!(usable(primary) && usable(variant))
+			!(usable(primary) && usable(variant)) ||
+			// The variant is the anchor whose boundary moves, so it is
+			// the one that can be crossed — see `tagFree`. The primary
+			// is never re-split (the deferred halakha rule rewrites its
+			// ATTRIBUTES, which cannot cross anything), so it carries no
+			// such requirement and none is imposed on it.
+			!tagFree(tokens, variant)
 		) {
 			continue;
 		}
@@ -371,9 +457,7 @@ function strandsOpenParen(tokens: readonly Token[], anchor: Anchor): boolean {
 		anchor.display.startsWith('(') &&
 		after?.kind === 'text' &&
 		after.value.startsWith(')') &&
-		!tokens
-			.slice(anchor.open + 1, anchor.close)
-			.some((inner) => inner.kind === 'tag')
+		tagFree(tokens, anchor)
 	);
 }
 
