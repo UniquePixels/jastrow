@@ -982,7 +982,7 @@ git commit -s -m "🦠 fix(transform): repair unterminated href tags"
 **Acceptance Criteria:**
 - [ ] The `post-anchor-numeral-duplication` audit reproduces all four of the row's own claims and names the eleven rids: the ten `</a>` cases (`H00085`, `I00619`, `H01073`, `H01370`, `M02691`, `O01416`, `N00957`, `O00123`, `R00702`, `U01778`) and the one `</span>` case (`P01496`).
 - [ ] It states the separator census it reproduces (`,` 56 / empty 16 / `.` 11 / `;` 2) and the reason no edit follows: the two candidate deletions render and link differently, and the audit that found the row proposed none.
-- [ ] The superscript audit measures the 38 contradicting occurrences directly — the row's flag cites a figure taken during a different audit — and states whether the boundary repair of Task 4 is correct on both sides of the disagreement.
+- [x] The superscript audit measures the 38 contradicting occurrences directly and states whether Task 4's boundary repair is correct on both sides. (This criterion asserted the flag's 105 was a DIFFERENT population from this row's 182. It is not — they nest: 67 agree + 38 contradict + 77 no-sub = 182, all Midrash Rabbah. See spec §4.2's correction.)
 - [ ] Both rulings are put to Brian with the recommendation stated and the alternative stated, not just the recommendation.
 - [ ] Whichever way each ruling goes, `patterns.jsonl` records it as a committed diff with a `reason`, and `coverage()` follows automatically.
 

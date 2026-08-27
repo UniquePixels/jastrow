@@ -301,6 +301,28 @@ boundary, and split the 38-instance target disagreement out as its own
 row** rather than carrying it inside this one. The split needs a
 measurement this document has not made — flagged in §7.
 
+> **MEASURED 2026-08-26 (Task 6); RULED: ship the rule, split the 38.**
+> Three corrections to the framing above. **(a) The two populations are
+> not different — they NEST.** All 182 occurrences are Midrash Rabbah
+> anchors; the flag's 105 is exactly this row's sub-bearing slice, and
+> 67 agree + 38 contradict + **77 carrying no sub-section at all** =
+> 182. Task 6's brief was written on the opposite premise and is wrong.
+> **(b) The separability argument is stronger than stated here.** 182
+> of 182 have a display `s. N` equal to the ref's CHAPTER — zero misses
+> — so only the sub-section is ever in dispute, and `superscriptMoveAt`
+> never references the opening tag. The printed marker is that
+> citation's sub-section marker whether its value is right or wrong.
+> **(c) The 38 are 38 occ / 33 ent**, deltas spread −17…+20 with modal
+> −1 at 9 of 38 — no mechanical recovery, so deferring them costs
+> nothing. Their new row's predicate must be written against the
+> POST-transform shape `<sup>N</sup></a>`, or it measures zero the day
+> the rule ships.
+>
+> **The 77 are the residue nobody counted.** This row's `reason`
+> advertises a `data-ref` enrichment that no shipped rule performs, so
+> once the boundary rule lands they read as handled while nothing has
+> touched them. Task 6 owns saying so explicitly.
+
 ## 5. What each rule does
 
 Nine rules. Every one is a **markup boundary move or a duplicate-layer
