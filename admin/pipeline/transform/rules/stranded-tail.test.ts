@@ -90,7 +90,7 @@ describe('superscriptInsideAnchor', () => {
 			rid: 'T00001',
 		};
 		const out = superscriptInsideAnchor.apply(twice);
-		expect(out.records.length).toBe(2);
+		expect(out.records).toHaveLength(2);
 	});
 
 	it('passes checkMarkup with a non-positive delta and keeps the anchor count', () => {

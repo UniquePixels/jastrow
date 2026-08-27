@@ -317,7 +317,7 @@ function siteOf(
 		at++
 	) {
 		const token = tokens[at];
-		if (token === undefined || token.kind !== 'text') {
+		if (token?.kind !== 'text') {
 			continue;
 		}
 		if (seen + token.value.length > offset) {

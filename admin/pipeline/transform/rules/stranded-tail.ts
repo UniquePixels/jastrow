@@ -141,9 +141,6 @@ import type { Rule, TransformRecord, TransformResult } from '../types.ts';
 // Hoisted per lint/performance/useTopLevelRegex.
 const LEADING_DIGITS_RE = /^(?<digits>\d+)/u;
 const DISPLAY_ENDS_DIGIT_RE = /\d$/u;
-/** A stranded digit run closed by `)` is a SENSE MARKER, not a
- * citation tail — see `digitMoveAt`'s refusal. */
-const SENSE_MARKER_RE = /^\)/u;
 
 /** The same three refusals `links.ts`'s `assertUsable` throws on,
  * checked here (as `unlink.ts`'s private `usable` does) so a rule's
@@ -243,7 +240,9 @@ function digitMoveAt(
 		return;
 	}
 	const remainder = tail.value.slice(digits.length);
-	if (SENSE_MARKER_RE.test(remainder)) {
+	// A stranded digit run closed by `)` is a SENSE MARKER, not a
+	// citation tail — see this function's own doc.
+	if (remainder.startsWith(')')) {
 		return;
 	}
 	const lead: Token = { kind: 'text', rtl: tail.rtl, value: digits };
