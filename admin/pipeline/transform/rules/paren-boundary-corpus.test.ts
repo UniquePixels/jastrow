@@ -96,7 +96,7 @@ function assertClean(
 		expect(`${got.hollow} empty displays at ${at}`).toBe(
 			`${hollow} empty displays at ${at}`,
 		);
-		expect(checkLinkTargets(entry, result.entry, result)).toEqual([]);
+		expect(checkLinkTargets(entry, result.entry, result, rule.id)).toEqual([]);
 		expect(checkNoNewText(entry, result.entry, rule)).toEqual([]);
 		expect(checkMarkup(entry, result.entry)).toEqual([]);
 	}

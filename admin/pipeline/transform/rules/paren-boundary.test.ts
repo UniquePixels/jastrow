@@ -11,6 +11,7 @@ import { tokenize } from '../html.ts';
 import { checkLinkTargets } from '../link-target.ts';
 import { anchors } from '../links.ts';
 import { fieldsOf } from '../no-new-text.ts';
+import type { TransformResult } from '../types.ts';
 import {
 	openParenInAnchorDisplay,
 	toseftaCloseParen,
@@ -238,12 +239,42 @@ describe('the two rules are disjoint', () => {
  *   provenance they assert, which is exactly the point: the repair was
  *   never the problem, the DECLARATION available for it was.
  */
-describe('tosefta-variant-chapter-halakha-loss (shipped)', () => {
-	const REPAIRED = SPLIT.replace(
-		'Tosefta_Shabbat.16"',
-		'Tosefta_Shabbat.16.6"',
-	).replace('data-ref="Tosefta Shabbat 16"', 'data-ref="Tosefta Shabbat 16:6"');
+/** `SPLIT` with the primary's two attributes repaired: the bytes case 4
+ * refuses and case 7 licenses, and the ones the declarer allowlist
+ * decides who may write. Shared by both blocks below so all three
+ * questions are asked of one repair. */
+const REPAIRED = SPLIT.replace(
+	'Tosefta_Shabbat.16"',
+	'Tosefta_Shabbat.16.6"',
+).replace('data-ref="Tosefta Shabbat 16"', 'data-ref="Tosefta Shabbat 16:6"');
 
+/** One case-7 claim, shaped by the result contract rather than
+ * inferred, so a change to the declaration is a type error here. */
+type Corroborate = NonNullable<TransformResult['corroborated']>[number];
+
+/** The corroboration `toseftaPrimaryHalakha` declares for that repair,
+ * witness included: the VARIANT anchor, cited by its field's bytes and
+ * its opening-tag token index. */
+const CORROBORATION: Corroborate = {
+	field: SPLIT,
+	from: 'Tosefta Shabbat 17:6',
+	head: 'Tosefta Shabbat 16',
+	open: VARIANT_OPEN,
+	tail: ':6',
+	target: 'Tosefta Shabbat 16:6',
+};
+
+/** The real gate over the repaired pair: one claim, declared by one
+ * rule id, the way `run.ts` presents them. */
+const gate = (claim: Corroborate, ruleId: string): string[] =>
+	checkLinkTargets(
+		def(SPLIT),
+		def(REPAIRED),
+		{ corroborated: [claim] },
+		ruleId,
+	);
+
+describe('tosefta-variant-chapter-halakha-loss (shipped)', () => {
 	it('case 4 still refuses the halakha recombination', () => {
 		expect(
 			checkLinkTargets(def(SPLIT), def(REPAIRED), {
@@ -261,20 +292,7 @@ describe('tosefta-variant-chapter-halakha-loss (shipped)', () => {
 	});
 
 	it('case 7 licenses the same repair, declared as a corroboration', () => {
-		expect(
-			checkLinkTargets(def(SPLIT), def(REPAIRED), {
-				corroborated: [
-					{
-						field: SPLIT,
-						from: 'Tosefta Shabbat 17:6',
-						head: 'Tosefta Shabbat 16',
-						open: VARIANT_OPEN,
-						tail: ':6',
-						target: 'Tosefta Shabbat 16:6',
-					},
-				],
-			}),
-		).toEqual([]);
+		expect(gate(CORROBORATION, toseftaPrimaryHalakha.id)).toEqual([]);
 	});
 
 	// The witness is the VARIANT anchor, and naming the other one is a
@@ -284,20 +302,36 @@ describe('tosefta-variant-chapter-halakha-loss (shipped)', () => {
 	// corroborated anything. Added 2026-08-27 with the witness itself.
 	it('case 7 refuses the same repair citing the primary anchor', () => {
 		expect(
-			checkLinkTargets(def(SPLIT), def(REPAIRED), {
-				corroborated: [
-					{
-						field: SPLIT,
-						from: 'Tosefta Shabbat 17:6',
-						head: 'Tosefta Shabbat 16',
-						open: openOf(SPLIT, 0),
-						tail: ':6',
-						target: 'Tosefta Shabbat 16:6',
-					},
-				],
-			}),
+			gate(
+				{ ...CORROBORATION, open: openOf(SPLIT, 0) },
+				toseftaPrimaryHalakha.id,
+			),
 		).toEqual([
 			'corroborated "Tosefta Shabbat 16:6" cites an anchor that does not carry "Tosefta Shabbat 17:6"',
+		]);
+	});
+});
+
+/**
+ * …AND THE LICENCE IS ONLY THIS RULE'S. Ruled 2026-08-27 (Brian), on a
+ * review finding that "nothing else declares case 7 today" describes a
+ * registry rather than a gate: the case is bound to an allowlist of
+ * declaring rule ids (`CORROBORATION_DECLARERS` in `link-target.ts`),
+ * and the identical claim from any other id is refused.
+ *
+ * The pair below is the point — same entry, same bytes, same claim,
+ * same witness, and the only difference is who declared it. The second
+ * name is this module's own neighbour, which is the rule most likely to
+ * reach for the case next and the one this test exists to stop.
+ */
+describe('case 7’s declarer allowlist', () => {
+	it('licenses the mint for the rule on the list', () => {
+		expect(gate(CORROBORATION, toseftaPrimaryHalakha.id)).toEqual([]);
+	});
+
+	it('refuses the same claim declared by another rule', () => {
+		expect(gate(CORROBORATION, 'anchor-swallows-close-paren')).toEqual([
+			`corroborated "Tosefta Shabbat 16:6" is declared by "anchor-swallows-close-paren", which case 7's declarer allowlist does not admit`,
 		]);
 	});
 });
@@ -316,11 +350,15 @@ describe('toseftaPrimaryHalakha', () => {
 
 	// The rule's output must clear the REAL gate, not a fixture of one.
 	// This is the assertion that would have caught the deferral from the
-	// other side, and it is why the rule declares at all.
+	// other side, and it is why the rule declares at all. The id is
+	// passed the way `run.ts` passes it — case 7 reads it against its
+	// declarer allowlist, and withholding it here would fail.
 	it('its own output passes the real link-target gate', () => {
 		const src = def(SPLIT);
 		const out = toseftaPrimaryHalakha.apply(src);
-		expect(checkLinkTargets(src, out.entry, out)).toEqual([]);
+		expect(
+			checkLinkTargets(src, out.entry, out, toseftaPrimaryHalakha.id),
+		).toEqual([]);
 	});
 
 	// WITHHOLD THE DECLARATION AND THE REFUSAL COMES BACK. Case 7 is a

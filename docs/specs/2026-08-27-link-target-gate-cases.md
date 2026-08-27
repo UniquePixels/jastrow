@@ -89,6 +89,14 @@ independently witnesses the tail.
 4. **The digits of `tail` occur in the display of an anchor carrying
    `from`.** This is the corroboration, and it is what case 4 lacks.
 
+**And, since 2026-08-27, a clause about the DECLARER rather than the
+declaration:** the rule that declared the claim must be on the gate's
+`CORROBORATION_DECLARERS` allowlist, which holds
+`tosefta-variant-chapter-halakha-loss` alone. It is checked first and
+reported instead of the four, because a claim from an unlisted rule is
+not a claim to be fixed. §3.1.1 states why the case has this and no
+other case does.
+
 **CORRECTED 2026-08-27 (`fix/link-target-gate-cases`)**, in clause 4 and
 in the declaration above it. Clause 4 as written says *an* anchor, and
 the declaration named no anchor at all, which made §3.1.1's attribution
@@ -150,18 +158,56 @@ catch a rule that widened its own.
 
 ### 3.1.1 Why it ships anyway — ruled 2026-08-27 (Brian)
 
-**Live exposure today is zero.** A gate case is a LICENCE, not an
-instruction: nothing is minted unless a rule declares it. Only
-`toseftaPrimaryHalakha` declares case 7, and its own predicate never
-fires on any of the 68. The cost is latent, and it is the same kind of
-cost case 4's blind-spot list already documents and accepts —
-*"Entries citing one work twice are common, so this is the live residue
-of the off-by-one verse family… closing it needs evidence this gate does
-not have."*
+> **CORRECTED 2026-08-27 (`fix/link-target-gate-cases`): this read
+> *"**Live exposure today is zero.** A gate case is a LICENCE, not an
+> instruction: nothing is minted unless a rule declares it. Only
+> `toseftaPrimaryHalakha` declares case 7, and its own predicate never
+> fires on any of the 68. The cost is latent, and it is the same kind
+> of cost case 4's blind-spot list already documents and accepts."***
+> Every sentence of that is still true of 27 August 2026 and none of it
+> is a property of the GATE. A local CodeRabbit review, rated Major,
+> put it exactly: *"Live exposure today is zero" only describes August
+> 27, 2026. It does not protect future rule declarations or changes to
+> `toseftaPrimaryHalakha`. Restrict Case 7 to the measured rule and
+> population, or add a semantic invariant that rejects `S00188`.
+> **Attribution does not replace correctness.*** That is correct. A
+> registry fact was doing a gate's work: any rule added below could
+> declare case 7 and reach all 29, and nothing would have said so.
+> Recorded rather than silently replaced, because the argument that was
+> ruled on is not the argument that ships.
 
-The honest statement of what case 7 buys is therefore narrower than §3
-first claimed: it does not make minting safe in general. It makes minting
-**attributable**.
+**What holds the residue at zero now: an allowlist of declaring rule
+ids.** Two implementers searched for a structure-free clause that
+rejects `S00188` and neither found one — §3.1 lists the three that were
+tried — so the gate cannot separate the families on evidence. Ruled
+2026-08-27 (Brian): bind case 7 to the rule ids measured against the
+population instead. `CORROBORATION_DECLARERS` in `link-target.ts` holds
+one id today, `tosefta-variant-chapter-halakha-loss`; a `corroborated`
+claim from any other rule is REFUSED before a single clause of it is
+read, however perfect the claim. Adding an id is a deliberate edit to a
+documented constant, which is exactly the review moment that was
+missing: the reviewer's instruction, stated beside it, is to measure the
+new rule's OWN predicate against the same 68-pair population first.
+
+The residue is therefore zero, and stays zero without depending on what
+the registry happens to hold. The cost is stated where it is paid: **case
+7 is the only case in the gate that knows a rule's name**, and every
+other case is stated purely on evidence the entry holds. What would let
+the allowlist go is a clause that discriminates on STRUCTURE rather than
+on digit runs, measured at 0 of the 68.
+
+**What the allowlist does NOT do.** It bounds who may reach the licence,
+not what the clauses license. Inside the list the measurement stands
+unchanged: `toseftaPrimaryHalakha` is held off the 29 by its own
+`VARIANT_DISPLAY` predicate and by nothing in this gate, so widening that
+predicate onto the same-work family would still be agreed with. That is
+why the `Exodus 24:25` fixture still asserts an ACCEPT, now declared by
+the allowlisted rule.
+
+The honest statement of what case 7's four clauses buy is therefore
+narrower than §3 first claimed: they do not make minting safe in general.
+They make minting **attributable**. Bounding the case to a measured
+declarer is what makes it safe, and the two are different mechanisms.
 
 > **CORRECTED 2026-08-27 (fix/link-target-gate-cases): this read
 > *"every minted target must name the two input targets and the
@@ -214,7 +260,10 @@ rule's name and a specific anchor on it.
   something else numbered 6. The tosefta shape pins that by its own
   predicate; the gate does not.
 - Both are why case 7 is a licence for a rule that already argued its
-  population, never a substitute for that argument.
+  population, never a substitute for that argument — and since
+  2026-08-27 that is enforced rather than advised: the declarer
+  allowlist admits only rules whose population has been argued and
+  measured (§3.1.1).
 
 ## 4. What ships with the cases
 
@@ -244,6 +293,7 @@ the refusal must be retracted in place rather than removed.
 | Gate | Bar |
 |---|---|
 | Unit, per case | each clause refuses when violated — including case 6's uniqueness clause and case 7's corroboration clause |
+| Case 7's allowlist | an otherwise-perfect claim (four clauses satisfied, witness correctly cited) from a rule not on `CORROBORATION_DECLARERS` is REFUSED, and refused on the licence rather than on a clause; mutation-tested — deleting the check makes that fixture pass |
 | `transform:count` | `unterminated-href…` 2, `tosefta-variant…` **391 entries**; the six batch-4 rows unmoved |
 | Registry | `toseftaPrimaryHalakha` strictly before `toseftaCloseParen`, pinned |
 | `unaccountedEdges` | the `anchor-swallows-close-paren ~ tosefta-variant` deferral RESOLVES; its pinned output shrinks and the pin must be updated, not relaxed |
@@ -258,3 +308,5 @@ the refusal must be retracted in place rather than removed.
 | 2026-08-26 | Brian | both repairs deferred; gate work becomes its own PR |
 | 2026-08-27 | Brian | build both cases; case 7's minting accepted on a measured 414/414 and a **wrong** 0/69 |
 | 2026-08-27 | Brian | re-ruled after §3.1's correction to 29/68: ship anyway — live exposure is zero, and the case makes minting attributable rather than safe |
+| 2026-08-27 | CodeRabbit (local), Major | *"Live exposure today is zero" only describes August 27, 2026. It does not protect future rule declarations or changes to `toseftaPrimaryHalakha`. Restrict Case 7 to the measured rule and population, or add a semantic invariant that rejects `S00188`. **Attribution does not replace correctness.*** Accepted: the row above rests on a registry fact, not on a property of the gate |
+| 2026-08-27 | Brian | bind case 7 to an ALLOWLIST OF DECLARING RULE IDS — today `tosefta-variant-chapter-halakha-loss` alone. A `corroborated` claim from any other rule is refused until someone adds that id deliberately, which is the review moment that was missing. Residue zero, and it stays zero. Accepted cost, stated in the code: case 7 is the only case that knows a rule's name; a structure-discriminating clause measured at 0 of 68 would remove it |

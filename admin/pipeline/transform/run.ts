@@ -14,6 +14,12 @@
  * for every rule that writes a link target. Spec §5 covers the first
  * two; the third is that spec's blind-spot problem answered rather
  * than recorded.
+ *
+ * `rule.id` reaches the link gate as well as the text one, since
+ * 2026-08-27: link-target case 7 licenses a MINTED address only for
+ * rules on its own allowlist, so it needs the identity of the rule it
+ * is gating. This loop is where a rule and its `TransformResult` are
+ * associated, and so the only place that identity is knowable.
  */
 import type { SourceEntry } from '../body/types.ts';
 import { checkLinkTargets } from './link-target.ts';
@@ -45,7 +51,7 @@ function applyTransforms(
 		const problems = [
 			...checkNoNewText(before, result.entry, rule, result.copied),
 			...checkMarkup(before, result.entry),
-			...checkLinkTargets(before, result.entry, result),
+			...checkLinkTargets(before, result.entry, result, rule.id),
 		];
 		if (problems.length > 0) {
 			throw new Error(`${rule.id}: ${problems.join('; ')}`);

@@ -126,7 +126,10 @@
  *    Before 2026-08-27 the claim named only the target string and any
  *    anchor carrying it could supply the digits, so an entry citing
  *    one address twice had its mint corroborated by a sibling the rule
- *    never read.
+ *    never read. And the DECLARING RULE must be one of
+ *    `CORROBORATION_DECLARERS`: alone among the seven, this case
+ *    licenses named rules rather than evidence, for the measured
+ *    reason that constant records.
  *
  *    It exists because case 4's tightening of 2026-08-24 refuses a
  *    repair the entry evidences twice over. `Tosef. Sabb. XVI (XVII),
@@ -162,19 +165,24 @@
  *    predicate is the rule's can no longer catch a rule that widened
  *    its own (see `FLANKED_GERSHAYIM`).
  *
- *    So what case 7 buys is not safety but ATTRIBUTION. Live exposure
- *    is zero because a gate case is a LICENCE and not an instruction:
- *    nothing is minted unless a rule declares it, only
- *    `toseftaPrimaryHalakha` declares this one, and its own predicate
- *    fires on none of the 68. Every minted target must name the two
- *    input targets and ONE input anchor — cited by field and token
- *    index — that carries `from` and whose display prints the tail's
- *    digits, so a wrong mint is a wrong claim with a rule's name on it
- *    rather than an anonymous fabrication. Ruled on those terms
- *    2026-08-27 after the correction; the witness was made a named
- *    anchor the same day, because the ruling's own sentence was not
- *    true of a declaration that named a target string. Cases 1-6 are
- *    untouched.
+ *    So what the four clauses buy is not safety but ATTRIBUTION: every
+ *    minted target must name the two input targets and ONE input
+ *    anchor — cited by field and token index — that carries `from` and
+ *    whose display prints the tail's digits, so a wrong mint is a
+ *    wrong claim with a rule's name on it rather than an anonymous
+ *    fabrication. That was the whole of the case as first ruled in on
+ *    2026-08-27, on the argument that live exposure was zero: a gate
+ *    case is a LICENCE and not an instruction, only
+ *    `toseftaPrimaryHalakha` declared this one, and its own predicate
+ *    fires on none of the 68. **Re-ruled the same day, because that is
+ *    a property of one day's REGISTRY and not of this gate** — it
+ *    protects neither a future rule declaring the case nor a widening
+ *    of `toseftaPrimaryHalakha`'s own predicate. Case 7 is therefore
+ *    bound to an ALLOWLIST OF DECLARING RULE IDS, and this is the only
+ *    case here that knows a rule's name; `CORROBORATION_DECLARERS`
+ *    states that cost, what a reviewer must measure before adding an
+ *    id, and what would let the allowlist be removed again. Cases 1-6
+ *    are untouched.
  *
  * `href` and `data-ref` are checked INDEPENDENTLY against that one
  * set. A rule that copies both from the same source anchor therefore
@@ -381,7 +389,14 @@
  *   IS the tail's digit run. Recorded as a cost of the case rather
  *   than a defect in it, and pinned by a PASSING test in
  *   `link-target.test.ts` — one that asserts the ACCEPT, since
- *   asserting a refusal there would be false.
+ *   asserting a refusal there would be false. What the clauses license
+ *   is unchanged by `CORROBORATION_DECLARERS`; the allowlist bounds
+ *   WHO MAY REACH the licence, so the residue is 29 pairs wide for the
+ *   one rule on the list and zero for everyone else. Were
+ *   `toseftaPrimaryHalakha`'s own predicate widened onto that family,
+ *   this gate would still agree with it — which is why the reviewer's
+ *   instruction beside the constant is to re-measure the PREDICATE,
+ *   not just to weigh the name.
  * - **Which display, in case 7 — NARROWED 2026-08-27, and what is
  *   left.** This read: "the witness need only be SOME input anchor
  *   carrying `from`, not the sibling the rule reasoned about". The
@@ -584,7 +599,13 @@ function hasStrayGershayim(tag: string): boolean {
  * them because the tag it licenses does not tokenize as a tag on the
  * input side — see that case in the module doc — so there is nothing
  * in `tags` for it to compare against. It is the SOURCE side only:
- * comparing a repair against the output would license anything. */
+ * comparing a repair against the output would license anything.
+ *
+ * `ruleId` is the ONE member that is not about the entry, and the only
+ * thing any case here reads about the rule: case 7's declarer
+ * allowlist (`CORROBORATION_DECLARERS`) needs the identity of the rule
+ * whose claims these are. `undefined` when the caller named none, which
+ * refuses case 7 and touches nothing else. */
 interface Input {
 	claims: readonly Compose[];
 	corroborations: readonly Corroborate[];
@@ -593,6 +614,7 @@ interface Input {
 	rejoins: readonly Recombine[];
 	restores: readonly Restore[];
 	rid: string;
+	ruleId: string | undefined;
 	source: readonly Anchor[];
 	tags: ReadonlyMap<string, number>;
 	targets: ReadonlySet<string>;
@@ -1119,6 +1141,81 @@ function claimFault(
 }
 
 /**
+ * The rule ids licensed to declare a case-7 corroboration. **This is
+ * the only place in this gate where a case knows a RULE'S NAME.** Every
+ * other case is stated purely on evidence the entry itself holds, and
+ * that asymmetry is a cost this case pays deliberately, recorded here
+ * rather than buried: a gate that consults a registry id is a gate that
+ * can be wrong about a rule for reasons the entry cannot show it.
+ *
+ * WHY THE EXCEPTION WAS MADE. Clause 4 licenses **29 of the 68**
+ * structurally analogous same-work pairs that would mint (spec §3.1,
+ * measured). `S00188` holds `data-ref="Exodus 24"` beside
+ * `data-ref="Exodus 15:25"`; the claim `Exodus 24` + `:25` clears all
+ * four clauses on both attributes, and **Exodus 24 has 18 verses**.
+ * `Exodus 24:25` is not a verse. No structure-free strengthening of
+ * clause 4 rejects it — standalone-token digits, "no other digit run in
+ * the display", and "head display carrying no arabic digits" were each
+ * tried and each still licenses it — because Jastrow prints a Sefaria
+ * `Work C:V` anchor as `Abbr. <roman chapter>, <arabic verse>`, so the
+ * arabic verse IS the tail's digit run and the corroborating witness is
+ * present BY DEFAULT across that whole family. The only predicate that
+ * separates the families is `VARIANT_DISPLAY`, which is the RULE's own,
+ * and a gate whose predicate is the rule's can no longer catch a rule
+ * that widened its own. The case shipped on 2026-08-27 on the argument
+ * that live exposure was zero; that was a property of ONE DAY'S
+ * REGISTRY and not of the gate, so Brian ruled the same day that the
+ * case be bound to its measured declarer instead. The residue is zero
+ * and stays zero.
+ *
+ * BEFORE ADDING AN ID HERE, a reviewer must have MEASURED the new
+ * rule's own predicate against the same 68-pair population that
+ * produced `Exodus 24:25`, and found it fires on none of them — the
+ * measurement `toseftaPrimaryHalakha` passed. Adding a name grants a
+ * licence to MINT addresses the corpus may not hold; it is a decision
+ * to be argued in the PR that makes it, never a list kept mechanically
+ * in step with the registry. A `corroborated` claim from any other rule
+ * is refused however perfect its four clauses are.
+ *
+ * WHAT WOULD LET THIS GO. A clause that discriminates on STRUCTURE
+ * rather than on digit runs — one that can see that `XVII), 6` prints a
+ * halakha both recensions share while `Ex. XV, 25` prints a verse of
+ * another chapter. Measure that clause at 0 of the 68 and this
+ * constant, `declarerFault` and the `ruleId` plumbing all come out with
+ * it, and case 7 goes back to being stated on evidence alone.
+ */
+const CORROBORATION_DECLARERS: ReadonlySet<string> = new Set([
+	// Measured 414 of 414 tosefta variant pairs, and 0 of the 68.
+	'tosefta-variant-chapter-halakha-loss',
+]);
+
+/**
+ * Why the rule that produced these claims may not declare case 7 at
+ * all, or `undefined` when it may — the allowlist clause of the ruling
+ * of 2026-08-27.
+ *
+ * Checked BEFORE any claim's own clauses, and reported instead of them:
+ * this is a fact about the DECLARER, so a claim from an unlisted rule
+ * is refused whether or not its arithmetic and its witness are perfect.
+ * A refusal that quoted a clause fault would send the reader to fix the
+ * claim, when the thing to fix is the licence.
+ *
+ * A call naming NO rule is refused with the rest. `run.ts` names the
+ * rule it is gating, so an unnamed declaration is one no registered
+ * rule made, and case 7 fails closed there as everywhere else.
+ */
+function declarerFault(
+	target: string,
+	ruleId: string | undefined,
+): string | undefined {
+	if (ruleId !== undefined && CORROBORATION_DECLARERS.has(ruleId)) {
+		return;
+	}
+	const named = ruleId === undefined ? 'no named rule' : JSON.stringify(ruleId);
+	return `${corroborateLead(target)} is declared by ${named}, which case 7's declarer allowlist does not admit`;
+}
+
+/**
  * Faults from the case-7 arm, with `composeFaults`'s contract exactly:
  * `undefined` means one declared corroboration licensed the value, an
  * EMPTY array means none spoke to this anchor at all.
@@ -1133,15 +1230,30 @@ function claimFault(
  * declared strings on the `data-ref` side, anchors' `href` values on
  * the href side — and the tail is re-derived for each pair, because it
  * differs between them.
+ *
+ * The DECLARER is judged first, once, for the whole arm
+ * (`declarerFault`): an unlisted rule's claims are refused as a group,
+ * before a single clause of any of them is read.
  */
 function corroborateFaults(
 	value: string,
 	anchor: Anchor,
 	input: Input,
 ): string[] | undefined {
-	const faults = input.corroborations
-		.filter((claim) => claim.target === anchor.dataRef)
-		.map((claim) => claimFault(value, anchor, claim, input));
+	const matched = input.corroborations.filter(
+		(claim) => claim.target === anchor.dataRef,
+	);
+	const [first] = matched;
+	if (first === undefined) {
+		return [];
+	}
+	const unlicensed = declarerFault(first.target, input.ruleId);
+	if (unlicensed !== undefined) {
+		return [unlicensed];
+	}
+	const faults = matched.map((claim) =>
+		claimFault(value, anchor, claim, input),
+	);
 	return faults.some((fault) => fault === undefined)
 		? undefined
 		: faults.filter((fault): fault is string => fault !== undefined);
@@ -1509,9 +1621,15 @@ function checkValue(
  * (`noExcessiveCognitiveComplexity`, and case 7's was the sixth that
  * tipped it), while being one flat statement to a reader. The counting
  * and reporting logic that remains in the caller is what the limit is
- * there to protect. */
+ * there to protect.
+ *
+ * `ids` groups the entry's rid with the declaring rule's id because
+ * they arrive together and neither is walked: two names for the thing
+ * under judgement, one for the messages and one for case 7's declarer
+ * allowlist. Grouped rather than passed flat to stay inside
+ * `useMaxParams`. */
 function inputOf(
-	rid: string,
+	ids: { rid: string; ruleId: string | undefined },
 	fields: readonly string[],
 	walked: { output: readonly Placed[]; source: readonly Anchor[] },
 	result: Pick<
@@ -1520,6 +1638,7 @@ function inputOf(
 	>,
 ): Input {
 	const { output, source } = walked;
+	const { rid, ruleId } = ids;
 	return {
 		claims: result.composed ?? [],
 		corroborations: result.corroborated ?? [],
@@ -1528,6 +1647,7 @@ function inputOf(
 		rejoins: result.recombined ?? [],
 		restores: result.restored ?? [],
 		rid,
+		ruleId,
 		source,
 		tags: tally(source),
 		targets: targetsOf(source),
@@ -1552,10 +1672,22 @@ function inputOf(
  * `markup.ts`'s: `run.ts` names the offending rule once when it
  * throws. The two siblings carry no such note because they never had
  * a reason to; this one does, because its messages read as if they
- * were missing the rule name until you see where it is added. There
- * is no `rule` parameter for the same reason `checkMarkup` has none —
- * this gate reads nothing off the rule, and a parameter kept for
- * symmetry alone would be an unused one.
+ * were missing the rule name until you see where it is added.
+ *
+ * **CORRECTED 2026-08-27 (`fix/link-target-gate-cases`)**: this read
+ * "There is no `rule` parameter for the same reason `checkMarkup` has
+ * none — this gate reads nothing off the rule, and a parameter kept
+ * for symmetry alone would be an unused one." True of every case up
+ * to 6 and still true of them; case 7 broke it, and deliberately.
+ * `ruleId` is what `CORROBORATION_DECLARERS` is checked against, and
+ * that constant's docstring carries the whole cost of the exception.
+ *
+ * It is OPTIONAL and fail-closed rather than required. Omitting it
+ * refuses case 7 and changes nothing else, so a caller that forgets it
+ * gets a stricter gate and never a laxer one, and the fifty-odd
+ * fixtures here that declare no corroboration stay callable as they
+ * were. `run.ts`, the only caller that gates a real rule, always names
+ * one.
  */
 function checkLinkTargets(
 	before: SourceEntry,
@@ -1569,6 +1701,7 @@ function checkLinkTargets(
 		| 'restored'
 		| 'unlinks'
 	>,
+	ruleId?: string,
 ): string[] {
 	const sourceFields = fieldsOf(before);
 	const outputFields = fieldsOf(after);
@@ -1576,7 +1709,12 @@ function checkLinkTargets(
 	const source = changed ? anchorsIn(sourceFields) : [];
 	const output = changed ? placedIn(outputFields) : [];
 	const { rid } = after;
-	const input = inputOf(rid, sourceFields, { output, source }, result);
+	const input = inputOf(
+		{ rid, ruleId },
+		sourceFields,
+		{ output, source },
+		result,
+	);
 	const problems: string[] = [];
 	const removed = source.length - output.length;
 	const declared = result.unlinks ?? 0;

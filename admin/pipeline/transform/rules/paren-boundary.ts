@@ -773,6 +773,16 @@ function writePrimaryHalakha(text: string): {
  * spelling and re-tests every clause on the `href` as well, reading
  * the display off that one named anchor.
  *
+ * Its id is the only member of the gate's `CORROBORATION_DECLARERS`
+ * allowlist, ruled 2026-08-27: case 7 licenses a mint to THIS RULE and
+ * refuses every other declarer outright. That is not a courtesy to this
+ * rule — the clauses license 29 of the 68 analogous same-work pairs
+ * (`Exodus 24:25`, which is not a verse), and what keeps the live
+ * residue at zero inside the allowlist is `VARIANT_DISPLAY`, this
+ * rule's OWN predicate. Widen that predicate and the gate will agree
+ * with the widening; see `CORROBORATION_DECLARERS` for what a reviewer
+ * must re-measure.
+ *
  * MUST RUN BEFORE `toseftaCloseParen`. See this module's REGISTRATION
  * ORDER section — the reverse order repairs 0 while every isolated
  * measurement stays green.

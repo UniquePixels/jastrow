@@ -1412,6 +1412,17 @@ it('case 6 refuses a witness offset the bytes do not sit at', () => {
 // This case MINTS. §3.1's measured cost is pinned at the bottom of this
 // block, as an ACCEPT rather than a refusal, because that is what the
 // gate does.
+//
+// Every call below names a DECLARING RULE, and the case is refused to
+// any rule not on `CORROBORATION_DECLARERS` — the ruling of 2026-08-27.
+// The four clauses are unchanged by it, which is why the clause tests
+// all pass `DECLARER`: each still has to fail for its own reason and
+// not because the declarer was withheld.
+
+/** The one rule id case 7 is open to. Spelled here rather than
+ * imported, so the allowlist and the tests that exercise it cannot be
+ * changed in one edit. */
+const DECLARER = 'tosefta-variant-chapter-halakha-loss';
 
 const T_HEAD_TAG =
 	'<a class="refLink" href="/Tosefta_Shabbat.16" data-ref="Tosefta Shabbat 16">';
@@ -1449,11 +1460,15 @@ const corroborate: Corroborate = {
 	target: 'Tosefta Shabbat 16:6',
 };
 
-/** Run the gate over the tosefta pair with one mutated claim. */
+/** Run the gate over the tosefta pair with one mutated claim, declared
+ * by the one rule the allowlist admits. */
 const withClaim = (claim: Corroborate, out = T_OUT): string[] =>
-	checkLinkTargets(entry(T_IN), entry(out), {
-		corroborated: [claim],
-	});
+	checkLinkTargets(
+		entry(T_IN),
+		entry(out),
+		{ corroborated: [claim] },
+		DECLARER,
+	);
 
 /** The address case 7 mints occurs NOWHERE in the input — not on
  * either attribute of either anchor. Asserted rather than asserted
@@ -1555,11 +1570,16 @@ it('case 7 refuses a tail the cited display does not witness', () => {
 			'data-ref="Tosefta Shabbat 16:6"',
 		);
 	expect(
-		checkLinkTargets(entry(silent), entry(out), {
-			corroborated: [
-				{ ...corroborate, field: silent, open: openOf(silent, 1) },
-			],
-		}),
+		checkLinkTargets(
+			entry(silent),
+			entry(out),
+			{
+				corroborated: [
+					{ ...corroborate, field: silent, open: openOf(silent, 1) },
+				],
+			},
+			DECLARER,
+		),
 	).toEqual([
 		'corroborated "Tosefta Shabbat 16:6" takes ":6", whose digits "6" are absent from the witnessing display "XVII)"',
 	]);
@@ -1626,16 +1646,24 @@ it('case 7 refuses the sibling’s witness on behalf of the cited anchor', () =>
 	};
 	expect(anchors(tokenize(src)).map((a) => a.dataRef)).not.toContain('W 16:6');
 	expect(
-		checkLinkTargets(entry(src), entry(out), { corroborated: [claim] }),
+		checkLinkTargets(
+			entry(src),
+			entry(out),
+			{ corroborated: [claim] },
+			DECLARER,
+		),
 	).toEqual([
 		'corroborated "W 16:6" takes ":6", whose digits "6" are absent from the witnessing display "XVII)"',
 	]);
 	// The SAME mint, licensed the moment the claim cites the anchor that
 	// actually printed the halakha. Nothing else moves.
 	expect(
-		checkLinkTargets(entry(src), entry(out), {
-			corroborated: [{ ...claim, open: openOf(src, 2) }],
-		}),
+		checkLinkTargets(
+			entry(src),
+			entry(out),
+			{ corroborated: [{ ...claim, open: openOf(src, 2) }] },
+			DECLARER,
+		),
 	).toEqual([]);
 });
 
@@ -1672,18 +1700,23 @@ it('case 7 refuses an empty head, which the target set always holds', () => {
 	const out =
 		'<a href="/a" data-ref="W 1:6">x 6</a><a href="/b" data-ref="1:6">y</a>';
 	expect(
-		checkLinkTargets(entry(src), entry(out), {
-			corroborated: [
-				{
-					field: src,
-					from: 'W 1:6',
-					head: '',
-					open: openOf(src, 0),
-					tail: '1:6',
-					target: '1:6',
-				},
-			],
-		}),
+		checkLinkTargets(
+			entry(src),
+			entry(out),
+			{
+				corroborated: [
+					{
+						field: src,
+						from: 'W 1:6',
+						head: '',
+						open: openOf(src, 0),
+						tail: '1:6',
+						target: '1:6',
+					},
+				],
+			},
+			DECLARER,
+		),
 	).toEqual(['corroborated "1:6" is not "" joined to a suffix of "W 1:6"']);
 });
 
@@ -1696,18 +1729,23 @@ it('case 7 refuses a tail holding no digit at all', () => {
 	const out =
 		'<a href="/a" data-ref="W 1b">d</a><a href="/b" data-ref="W 2b">2b</a>';
 	expect(
-		checkLinkTargets(entry(src), entry(out), {
-			corroborated: [
-				{
-					field: src,
-					from: 'W 2b',
-					head: 'W 1',
-					open: openOf(src, 1),
-					tail: 'b',
-					target: 'W 1b',
-				},
-			],
-		}),
+		checkLinkTargets(
+			entry(src),
+			entry(out),
+			{
+				corroborated: [
+					{
+						field: src,
+						from: 'W 2b',
+						head: 'W 1',
+						open: openOf(src, 1),
+						tail: 'b',
+						target: 'W 1b',
+					},
+				],
+			},
+			DECLARER,
+		),
 	).toEqual([
 		'corroborated "W 1b" takes "b", which holds no digit to corroborate',
 	]);
@@ -1731,12 +1769,17 @@ it('case 7 re-derives the tail per spelling and refuses a bad href', () => {
  * be an alternative rather than a false provenance. */
 it('case 7 licenses an honest claim standing beside a faulty one', () => {
 	expect(
-		checkLinkTargets(entry(T_IN), entry(T_OUT), {
-			corroborated: [
-				{ ...corroborate, from: 'Tosefta Shabbat 99:6' },
-				corroborate,
-			],
-		}),
+		checkLinkTargets(
+			entry(T_IN),
+			entry(T_OUT),
+			{
+				corroborated: [
+					{ ...corroborate, from: 'Tosefta Shabbat 99:6' },
+					corroborate,
+				],
+			},
+			DECLARER,
+		),
 	).toEqual([]);
 });
 
@@ -1754,11 +1797,18 @@ it('case 7 licenses an honest claim standing beside a faulty one', () => {
  * 18 verses**.
  *
  * A test asserting a REFUSAL here would be false, and would break the
- * day someone read the spec and believed it. What keeps the corpus safe
- * is not this clause but `toseftaPrimaryHalakha`'s own
- * `VARIANT_DISPLAY` predicate, which fires on none of the 68 — a gate
- * case is a LICENCE and not an instruction. See the module docstring's
- * blind-spot list, where this sits with the rest of them.
+ * day someone read the spec and believed it. It is declared BY THE ONE
+ * ALLOWLISTED RULE, which is the only way to reach the clauses at all
+ * since 2026-08-27 — and that is the point of leaving the ACCEPT
+ * standing. The allowlist bounds WHO may reach this licence, not what
+ * the clauses license, so the residue survives inside the list exactly
+ * as measured: were `toseftaPrimaryHalakha`'s own `VARIANT_DISPLAY`
+ * predicate widened onto this family tomorrow, the gate would agree
+ * with it, and this test is the record of that. What holds the live
+ * residue at zero is now two things and not one — that predicate,
+ * which fires on none of the 68, and the allowlist, which refuses
+ * every other rule outright. See the module docstring's blind-spot
+ * list, where this sits with the rest of them.
  */
 it('case 7 licenses Exodus 24:25, which is not a verse — the measured cost', () => {
 	const head =
@@ -1770,17 +1820,89 @@ it('case 7 licenses Exodus 24:25, which is not a verse — the measured cost', (
 		.replace('/Exodus.24"', '/Exodus.24.25"')
 		.replace('data-ref="Exodus 24"', 'data-ref="Exodus 24:25"');
 	expect(
-		checkLinkTargets(entry(src), entry(out), {
-			corroborated: [
-				{
-					field: src,
-					from: 'Exodus 15:25',
-					head: 'Exodus 24',
-					open: openOf(src, 1),
-					tail: ':25',
-					target: 'Exodus 24:25',
-				},
-			],
-		}),
+		checkLinkTargets(
+			entry(src),
+			entry(out),
+			{
+				corroborated: [
+					{
+						field: src,
+						from: 'Exodus 15:25',
+						head: 'Exodus 24',
+						open: openOf(src, 1),
+						tail: ':25',
+						target: 'Exodus 24:25',
+					},
+				],
+			},
+			DECLARER,
+		),
 	).toEqual([]);
+});
+
+/**
+ * THE ALLOWLIST, AND THE REFUSAL IT BUYS — ruled 2026-08-27 (Brian),
+ * answering a review finding that "live exposure today is zero"
+ * describes one day's registry and protects neither a future rule
+ * declaring case 7 nor a widening of `toseftaPrimaryHalakha`'s own
+ * predicate.
+ *
+ * The claim below is the tosefta claim, unmodified: all four clauses
+ * satisfied, the witness correctly cited, the same bytes the test
+ * eleven above licenses. The ONE difference is the name of the rule
+ * that declared it, and the gate refuses on that alone — it does not
+ * reach a clause, which is why the message names the licence rather
+ * than the claim.
+ *
+ * Removing the `CORROBORATION_DECLARERS` check from
+ * `corroborateFaults` makes this test pass its claim and fail its
+ * assertion. That mutation was run.
+ */
+it('case 7 refuses a perfect claim from a rule not on the allowlist', () => {
+	expect(
+		checkLinkTargets(
+			entry(T_IN),
+			entry(T_OUT),
+			{ corroborated: [corroborate] },
+			'some-later-rule',
+		),
+	).toEqual([
+		`corroborated "Tosefta Shabbat 16:6" is declared by "some-later-rule", which case 7's declarer allowlist does not admit`,
+	]);
+});
+
+/** The same claim with NO rule named — the gate fails closed rather
+ * than treating an unnamed caller as an unrestricted one. `run.ts`
+ * always names the rule it is gating, so this is the shape a future
+ * caller that forgot would take. */
+it('case 7 refuses a claim no rule is named for', () => {
+	expect(
+		checkLinkTargets(entry(T_IN), entry(T_OUT), {
+			corroborated: [corroborate],
+		}),
+	).toEqual([
+		`corroborated "Tosefta Shabbat 16:6" is declared by no named rule, which case 7's declarer allowlist does not admit`,
+	]);
+});
+
+/** The refusal is about the DECLARER and reaches every claim, so it
+ * cannot be worked around by declaring the same mint twice — the
+ * ANY-claim rule that licenses an honest claim beside a faulty one
+ * never runs. */
+it('case 7’s allowlist refusal is not escaped by a second claim', () => {
+	expect(
+		checkLinkTargets(
+			entry(T_IN),
+			entry(T_OUT),
+			{
+				corroborated: [
+					{ ...corroborate, from: 'Tosefta Shabbat 99:6' },
+					corroborate,
+				],
+			},
+			'some-later-rule',
+		),
+	).toEqual([
+		`corroborated "Tosefta Shabbat 16:6" is declared by "some-later-rule", which case 7's declarer allowlist does not admit`,
+	]);
 });

@@ -961,6 +961,12 @@ describe('the classification is earned, not declared', () => {
 	// claim honest. That claim rests on exactly one rule declaring the
 	// case; a second one appearing corpus-wide fails HERE, and whoever
 	// added it has to come and read why the count mattered.
+	//
+	// Since 2026-08-27 it is no longer the only thing that fails. The
+	// gate itself refuses a `corroborated` claim from any rule not on
+	// `CORROBORATION_DECLARERS` (link-target.ts), so a second declarer
+	// throws in `run.ts` before this set is ever compared — this
+	// assertion now names the drift, and the allowlist stops it.
 	it('exactly the CORROBORATE rules ever mint a corroborated target', async () => {
 		await scan();
 		expect(everDeclared('corroborated')).toEqual(
