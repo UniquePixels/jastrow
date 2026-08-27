@@ -51,7 +51,19 @@
  *
  *   anchors corpus-wide            168,055 -> 168,055   (       0)
  *   resolving Jastrow targets       71,385 ->  71,383   (      -2)
- *   DISTINCT (rid, data-ref) pairs 160,238 -> 160,239   (      +1)
+ *   DISTINCT (rid, data-ref) pairs 160,241 -> 160,242   (      +1)
+ *
+ * RESTATED 2026-08-27, same branch, and worth saying why rather than
+ * just correcting the digit. The pairs line first read
+ * `160,238 -> 160,239`, measured before `toseftaPrimaryHalakha`
+ * registered later in this same branch — so it described a 34-rule
+ * tree while the line below it described a 35-rule one, and the two
+ * tables disagreed by 3 about the SAME full registry. Re-derived on
+ * the current tree (35 rules, three withheld-rule passes in one run):
+ * full 160,241, this rule withheld 160,242. The DELTA is unchanged at
+ * +1 — the 3 is `toseftaPrimaryHalakha`'s own net, which the table
+ * below accounts for — and the two figures below are unchanged too,
+ * because the halakha rule moves neither.
  *
  * The third line reads BACKWARDS here and says exactly what it should.
  * The pairs LOST by registering the rule are `D00478 ""` and
