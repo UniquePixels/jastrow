@@ -252,7 +252,10 @@ allowance.
 - [ ] Docstring records spec §4.1: the row's `reason` claim *"in all 7
       … the SECOND token"* is **false for A02002**, with the
       `prev_hw`/`next_hw` evidence.
-- [ ] Corpus test: 6 repaired, 1 refused.
+- [ ] Corpus test: 6 repaired, 1 refused. **AS SHIPPED: 4 repaired, 3
+      refused** — A02002 by shape, plus `K00107` and `P00137`, whose old
+      headword strings are named by an anchor in another entry. See the
+      spec's §5.3 retraction.
 
 **4b — `genderPairAltDuplicate`.** Delete the duplicated
 `alt_headwords` string, keeping first-occurrence order.

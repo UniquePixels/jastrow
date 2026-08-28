@@ -356,7 +356,32 @@ Move the leading geresh abbreviation out of `headword` and into
 `alt_headwords`, leaving the lemma as the headword. A pure move within
 the entry: `fieldsOf` enumerates `headword` and `alt_headwords` into
 the same multiset, so the text is neither invented nor lost and no
-allowance is needed. Ships for 6; A02002 per §7.2.
+allowance is needed.
+
+> **CORRECTED 2026-08-28 (impl/phase-2-batch-5, Task 5).** This read
+> *"Ships for 6; A02002 per §7.2."* It ships for **FOUR**. A02002 is
+> refused by shape as planned, and TWO MORE are refused for a reason
+> this document did not anticipate: **rewriting a headword invalidates
+> every anchor whose `data-ref` names the old string**, and two do —
+> `K00108` names `'Jastrow, כִּדְ׳ כַּדְבוּבָא 1'`, `P00132` names
+> `'Jastrow, עָ׳ עַדְיָא 1'`. `body/pipeline-links.test.ts`'s ABSOLUTE pin
+> fell 71,385 → 71,383 while its differential assertion ("gains 90,
+> loses none") stayed green, the rule sitting on both sides of that
+> comparison.
+>
+> A dead link is worse for a reader than an awkward headword, so both
+> are declined through a `LINKED_HEADWORDS` allowlist asserted equal to
+> exactly the fused-shape headwords the corpus targets. The full repair
+> — headword rewrite plus retarget — is gate work and therefore its own
+> PR, per Brian's ruling of 2026-08-26.
+>
+> **The generalisation this document should have carried: a rule that
+> rewrites `headword` is a LINK rule whether or not it touches an
+> anchor,** because the corpus addresses entries by headword string.
+> §6's gate table calls `link-target.ts` a no-op for this batch; that is
+> true of the gate and false of the exposure.
+>
+> Downstream: the chain hazard below is **8** stale pointers, not 12.
 
 ### 5.4 `genderPairAltDuplicate` — `gender-pair-headword-line-collapse` (22)
 
