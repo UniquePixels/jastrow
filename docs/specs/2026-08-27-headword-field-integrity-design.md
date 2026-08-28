@@ -408,8 +408,16 @@ delimiters from the wrong 654 items would pass all six.
    standing (wrong but untouched), clear it, or rule an `allows: ['m.']`.
    Default if unruled: **leave it and record a new `judgment` row**, so
    the batch invents no text.
-4. **EXPECTED — `abbrev-headword-stub` withdraws to `judgment`** (§4.2).
-   Task 1 decides; both outcomes are planned for.
+4. **SETTLED 2026-08-28 (Brian): `abbrev-headword-stub` WITHDRAWN to
+   `judgment`** (§4.2), on the Task 1 audit
+   [`abbrev-headword-stub.md`](../../data/patches/catalogue-audit/abbrev-headword-stub.md).
+   At most 4 of 34 hold any source for the elided tail against the
+   parent row's 65.5%, and the shortfall is structural: the stub IS the
+   headword, so no fuller spelling of the lexeme exists in the entry by
+   construction. **Batch 5 therefore ships four rules over four rows.**
+   The audit also confirms the row's two self-linkers as LIVE
+   definition anchors — a rendered defect no row owns, not repaired
+   here, raised when the link family is next opened.
 
 ## 8. Expected write-backs to `patterns.jsonl`
 

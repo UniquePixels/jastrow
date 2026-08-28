@@ -1,7 +1,7 @@
 # Audit — `abbrev-headword-stub` (catalogued 34)
 
-**PROPOSED: WITHDRAW to `route: judgment`,** 34 entries, on the
-measurement below. The row asks for an expansion the entries do not
+**RULED 2026-08-28 (Brian): WITHDRAWN to `route: judgment`,** 34
+entries, on the measurement below. The row asks for an expansion the entries do not
 contain: **at most 4 of 34 (11.8%)** hold anything that could supply the
 elided tail, and the parent row this one is modelled on was itself
 withdrawn from `transform` at 65.5%.
@@ -156,3 +156,7 @@ link family is next opened.
 - `coverage().total` 72 → 71; the id leaves `PENDING` and is named in
   neither `RULES` nor `PENDING`.
 - Batch 5 ships **four** rules over **four** rows, not five over five.
+
+The self-link defect recorded above was NOT given a row of its own in
+the same ruling; it stays recorded here and is raised when the link
+family is next opened.
