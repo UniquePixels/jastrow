@@ -255,26 +255,26 @@ function expandStub(
 ): { copied: string; written: string } | undefined {
 	const tokens = item.trim().split(WHITESPACE_SPLIT);
 	if (tokens.filter((t) => !ROMAN_MARK.test(t)).length < 2) {
-		return undefined;
+		return;
 	}
 	const stubs = tokens.filter((t) => t.includes(GERESH));
 	if (stubs.length !== 1) {
-		return undefined;
+		return;
 	}
 	const stub = stubs[0] ?? '';
 	const cut = stub.indexOf(GERESH);
 	if (stub.slice(cut + 1) !== '') {
-		return undefined;
+		return;
 	}
 	const head = stub.slice(0, cut);
 	const at = lastLetterIndex(head);
 	const lemma = headwordToken(headword);
 	if (at < 0 || head.charAt(at) !== lemma.charAt(0)) {
-		return undefined;
+		return;
 	}
 	const onStub = head.slice(at + 1);
 	if (onStub !== '' && onStub !== leadingMarks(lemma)) {
-		return undefined;
+		return;
 	}
 	const written = `${head.slice(0, at)}${lemma}`;
 	return {
@@ -337,8 +337,143 @@ const phraseAltHeadwordStub: Rule = {
 	phase: 'text-repairs',
 };
 
+// ---------------------------------------------------------------- rule 3
+
+/**
+ * `abbrev-fused-headword` — 7 corpus-wide, 6 repaired.
+ *
+ * Print sets a lemma and its abbreviated second form on one headword
+ * line; the abbreviation was hoisted AHEAD of the lemma into `headword`
+ * instead of into `alt_headwords`, so the field reads
+ * `'מִי׳ מִנְטַר'` and sorts nowhere near where a reader would look. The
+ * rule moves the abbreviation to `alt_headwords` and leaves the lemma —
+ * and any homograph mark travelling with it, `'רִי׳ רִכְסָא I'` becoming
+ * `'רִכְסָא I'` — as the headword.
+ *
+ * A PURE MOVE inside the entry. `fieldsOf` enumerates `headword` and
+ * `alt_headwords` into one multiset, so nothing is invented and nothing
+ * lost; the separating space is deleted, which only shrinks the
+ * multiset. No `allows`, no `copied`.
+ *
+ * **THE ROW'S OWN `reason` IS FALSE FOR ONE OF ITS SEVEN, AND THAT ONE
+ * IS REFUSED.** It claims *"In all 7, prev_hw/next_hw alphabetize by
+ * the SECOND token, proving the abbreviation is prefix debris."*
+ * `A02002` is `'*כְּפַר א׳ אָמוּס'`, sitting between `אֱמוּנָה` and
+ * `אֲמוֹרָא` — it alphabetizes by `אָמוּס`, its THIRD token. Its shape is
+ * not a hoisted abbreviation at all but the toponym *Kfar Ammus* with
+ * its INTERIOR token stubbed: `phrase-alt-headword-stub`'s shape
+ * appearing in the `headword` field. The predicate below requires the
+ * geresh token to come FIRST, which refuses it by shape; the corpus
+ * test asserts that shape selects exactly that rid.
+ *
+ * **FORWARD HAZARD, and it compounds one batch 3a already recorded:**
+ * the data architecture's §5 gate walks the `prev_hw`/`next_hw` chain
+ * and compares against `headword` AS A STRING. Batch 3a left 68
+ * entries diverging that way; this rule rewrites 6 more headwords and
+ * leaves every neighbour's pointer untouched. Whoever writes
+ * `migrate.ts` must walk the SOURCE chain or de-map both sides. The
+ * exact divergence count is asserted in `headword.corpus.test.ts`.
+ */
+const abbrevFusedHeadword: Rule = {
+	apply: (entry: SourceEntry): TransformResult => {
+		const trimmed = entry.headword.trim();
+		const star = trimmed.startsWith('*') ? '*' : '';
+		const tokens = trimmed.replace(LEADING_STAR, '').split(WHITESPACE_SPLIT);
+		const [first, ...rest] = tokens;
+		if (
+			first === undefined ||
+			rest.length === 0 ||
+			!first.includes(GERESH) ||
+			rest.some((t) => t.includes(GERESH))
+		) {
+			return { entry, records: [] };
+		}
+		const headword = `${star}${rest.join(' ')}`;
+		return {
+			entry: {
+				...entry,
+				alt_headwords: [...(entry.alt_headwords ?? []), first],
+				headword,
+			},
+			records: [
+				{
+					detail: `${entry.headword} → ${headword} + alt ${first}`,
+					rid: entry.rid,
+					ruleId: 'abbrev-fused-headword',
+				},
+			],
+		};
+	},
+	id: 'abbrev-fused-headword',
+	phase: 'text-repairs',
+};
+
+// ---------------------------------------------------------------- rule 4
+
+/**
+ * `gender-pair-headword-line-collapse` — 22 entries.
+ *
+ * Print reads `'X, Xָא m., Xְתָּא f.'`. The extractor stored the masculine
+ * emphatic TWICE in `alt_headwords` and wrote the trailing feminine
+ * label into `content.morphology`, so the entry is a masculine
+ * adjective labelled `f.` with the `m.` lost. One operation covers both
+ * sub-shapes — 17 adjacent duplicates and 5 `'abbrev, full, abbrev'`
+ * repetitions at a distance — because it keys on the value, not the
+ * position:
+ *
+ * ```
+ * A00648  ['אוּכָּמָא', 'אוּכָּמָא', 'אוּכַּמְתָּא']  → ['אוּכָּמָא', 'אוּכַּמְתָּא']
+ * H00875  ['חֵר׳', 'חֵירוּפִין', 'חֵר׳']        → ['חֵר׳', 'חֵירוּפִין']
+ * ```
+ *
+ * **`content.morphology` IS DELIBERATELY NOT REPAIRED, AND THE REASON
+ * IS THE GATE.** 21 of the 22 carry `'f.'`, which is wrong about the
+ * headword. Writing `'m.'` is text the entry does not hold: it would
+ * need `allows: ['m.']`, every non-empty `allows` is a maintainer
+ * ruling in code, and `allows` flattens to CODEPOINTS — that
+ * declaration would permit unlimited `m` and `.` anywhere in this
+ * rule's diff, for a two-character token. Clearing the field instead
+ * would delete a label print actually sets. **Nothing is lost by
+ * repairing the array alone:** the feminine form the label describes is
+ * already present as a sibling `alt_headwords` item in every member.
+ * Carried to a `judgment` row instead (spec §7.3).
+ */
+const genderPairAltDuplicate: Rule = {
+	apply: (entry: SourceEntry): TransformResult => {
+		const items = entry.alt_headwords;
+		if (items === undefined) {
+			return { entry, records: [] };
+		}
+		const seen = new Set<string>();
+		const kept = items.filter((item) => {
+			if (seen.has(item)) {
+				return false;
+			}
+			seen.add(item);
+			return true;
+		});
+		if (kept.length === items.length) {
+			return { entry, records: [] };
+		}
+		return {
+			entry: { ...entry, alt_headwords: kept },
+			records: [
+				{
+					detail: `${items.join(', ')} → ${kept.join(', ')}`,
+					rid: entry.rid,
+					ruleId: 'gender-pair-headword-line-collapse',
+				},
+			],
+		};
+	},
+	id: 'gender-pair-headword-line-collapse',
+	phase: 'text-repairs',
+};
+
 export {
+	abbrevFusedHeadword,
 	expandStub,
+	genderPairAltDuplicate,
 	headwordToken,
 	overAltHeadwords,
 	parenAltHeadword,

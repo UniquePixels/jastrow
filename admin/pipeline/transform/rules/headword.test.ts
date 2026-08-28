@@ -3,6 +3,8 @@ import type { SourceEntry } from '../../body/types.ts';
 import { applyTransforms } from '../run.ts';
 import type { Rule, TransformResult } from '../types.ts';
 import {
+	abbrevFusedHeadword,
+	genderPairAltDuplicate,
 	parenAltHeadword,
 	phraseAltHeadwordStub,
 	refusesStrip,
@@ -284,4 +286,104 @@ it('accepts the honest declaration for every substitution', () => {
 	});
 	expect(result.copied).toEqual(['אַבְיוּ', 'אַבְיוּ']);
 	expect(result.records).toHaveLength(2);
+});
+
+// -------------------------------------------- abbrev-fused-headword
+
+const fused = (headword: string, alt?: string[]): SourceEntry =>
+	applyTransforms(
+		{
+			...(alt === undefined ? {} : { alt_headwords: alt }),
+			content: { senses: [{ definition: 'stub' }] },
+			headword,
+			rid: 'X00006',
+		},
+		'text-repairs',
+		[abbrevFusedHeadword],
+	).entry;
+
+it('moves a hoisted abbreviation into alt_headwords', () => {
+	const out = fused('מִי׳ מִנְטַר');
+	expect(out.headword).toBe('מִנְטַר');
+	expect(out.alt_headwords).toEqual(['מִי׳']);
+});
+
+/** A homograph numeral belongs to the lemma and travels with it. */
+it('keeps a homograph mark on the lemma', () => {
+	expect(fused('רִי׳ רִכְסָא I').headword).toBe('רִכְסָא I');
+});
+
+it('appends to an existing alt_headwords rather than replacing it', () => {
+	expect(fused('עָ׳ עַדְיָא', ['עָדִיתָא']).alt_headwords).toEqual(['עָדִיתָא', 'עָ׳']);
+});
+
+/**
+ * `A02002`. The row's `reason` claims all seven alphabetize by their
+ * SECOND token; this one alphabetizes by its THIRD (`אָמוּס`, between
+ * `אֱמוּנָה` and `אֲמוֹרָא`) and is the toponym *Kfar Ammus* with its
+ * INTERIOR token stubbed — a phrase stub in the headword field, not a
+ * hoisted abbreviation. Refused by requiring the geresh token first.
+ */
+it('refuses a stub that is not the first token', () => {
+	expect(fused('*כְּפַר א׳ אָמוּס').headword).toBe('*כְּפַר א׳ אָמוּס');
+});
+
+it('leaves a single-token headword by identity', () => {
+	const source: SourceEntry = {
+		content: { senses: [{ definition: 'stub' }] },
+		headword: 'מִנְטַר',
+		rid: 'X00007',
+	};
+	expect(abbrevFusedHeadword.apply(source).entry).toBe(source);
+});
+
+// ------------------------------ gender-pair-headword-line-collapse
+
+const deduped = (alt: string[], morphology?: string): SourceEntry =>
+	applyTransforms(
+		{
+			alt_headwords: alt,
+			content: {
+				senses: [{ definition: 'stub' }],
+				...(morphology === undefined ? {} : { morphology }),
+			},
+			headword: 'אוּכָּם',
+			rid: 'X00008',
+		},
+		'text-repairs',
+		[genderPairAltDuplicate],
+	).entry;
+
+it('drops an adjacent duplicate, keeping first-occurrence order', () => {
+	expect(deduped(['אוּכָּמָא', 'אוּכָּמָא', 'אוּכַּמְתָּא']).alt_headwords).toEqual([
+		'אוּכָּמָא',
+		'אוּכַּמְתָּא',
+	]);
+});
+
+it('drops a duplicate at a distance', () => {
+	expect(deduped(['חֵר׳', 'חֵירוּפִין', 'חֵר׳']).alt_headwords).toEqual([
+		'חֵר׳',
+		'חֵירוּפִין',
+	]);
+});
+
+/**
+ * The morphology half is NOT repaired, and this test is the guard on
+ * that decision rather than a description of it. `'f.'` is wrong about
+ * a masculine headword, but `'m.'` is text the entry does not hold and
+ * `allows` flattens to codepoints — see the rule's docstring.
+ */
+it('leaves content.morphology untouched', () => {
+	expect(deduped(['אוּכָּמָא', 'אוּכָּמָא'], 'f.').content.morphology).toBe('f.');
+});
+
+it('leaves a duplicate-free array by identity', () => {
+	const source: SourceEntry = {
+		alt_headwords: ['אוּכָּמָא', 'אוּכַּמְתָּא'],
+		content: { senses: [{ definition: 'stub' }] },
+		headword: 'אוּכָּם',
+		rid: 'X00009',
+	};
+	expect(genderPairAltDuplicate.apply(source).entry).toBe(source);
 });

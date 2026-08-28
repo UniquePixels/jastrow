@@ -1,7 +1,12 @@
 import { expect, it } from 'bun:test';
 import { readSourceEntries } from '../../body/source.ts';
 import { applyTransforms } from '../run.ts';
-import { parenAltHeadword, phraseAltHeadwordStub } from './headword.ts';
+import {
+	abbrevFusedHeadword,
+	genderPairAltDuplicate,
+	parenAltHeadword,
+	phraseAltHeadwordStub,
+} from './headword.ts';
 import { census } from './headword-census.ts';
 
 /** Hoisted per `lint/performance/useTopLevelRegex`; no `g`, so the
@@ -418,4 +423,92 @@ it('the paren rule must run first, and the orders disagree', async () => {
 	expect(first).toEqual({ paren: 652, phrase: 236 });
 	expect(second).toEqual({ paren: 652, phrase: 235 });
 	expect(first.phrase).toBeGreaterThan(second.phrase);
+}, 180_000);
+
+/**
+ * The two small rules over the corpus, through the gates. Both counts
+ * reproduce their catalogued figures exactly — 6 of `abbrev-fused-
+ * headword`'s 7 plus the one refusal, and all 22 of the duplicate row.
+ *
+ * `morphologyChanged: 0` is the guard on a decision, not a
+ * description of one: 21 of the 22 carry a `'f.'` that is wrong about
+ * the headword, and the rule leaves it because `'m.'` is text the entry
+ * does not hold (spec §5.4, §7.3).
+ */
+it('repairs 6 fused headwords and 22 duplicate arrays', async () => {
+	let fusedRecords = 0;
+	let duplicateRecords = 0;
+	let morphologyChanged = 0;
+	const fusedLeft: string[] = [];
+	for await (const source of readSourceEntries()) {
+		const out = applyTransforms(source, 'text-repairs', [
+			abbrevFusedHeadword,
+			genderPairAltDuplicate,
+		]);
+		for (const record of out.records) {
+			if (record.ruleId === 'abbrev-fused-headword') {
+				fusedRecords += 1;
+			} else {
+				duplicateRecords += 1;
+			}
+		}
+		if (out.entry.content.morphology !== source.content.morphology) {
+			morphologyChanged += 1;
+		}
+		const headword = out.entry.headword.trim();
+		if (headword.includes(GERESH) && WHITESPACE_SPLIT.test(headword)) {
+			fusedLeft.push(source.rid);
+		}
+	}
+	expect({
+		duplicateRecords,
+		fusedLeft,
+		fusedRecords,
+		morphologyChanged,
+	}).toEqual({
+		duplicateRecords: 22,
+		fusedLeft: ['A02002'],
+		fusedRecords: 6,
+		morphologyChanged: 0,
+	});
+}, 180_000);
+
+/**
+ * **FORWARD HAZARD, MEASURED.** The data architecture's §5 gate walks
+ * the `prev_hw`/`next_hw` chain and compares against `headword` AS A
+ * STRING. `abbrevFusedHeadword` rewrites 6 headwords and touches no
+ * neighbour's pointer, so 12 pointers — one on each side of each
+ * repaired entry, perfectly uniform — now name a string no entry
+ * carries. Batch 3a left 68 entries diverging the same way; this is
+ * additive to that, not a repeat of it.
+ *
+ * Whoever writes `migrate.ts` must walk the SOURCE chain or de-map both
+ * sides. Asserted rather than described so the number cannot rot.
+ */
+it('leaves exactly 12 stale prev_hw/next_hw pointers', async () => {
+	// `SourceEntry` does not model the headword chain: `prev_hw` and
+	// `next_hw` are in the JSONL and survive `readSourceEntries`, but the
+	// TYPE the migration reads has no such properties. Read them through
+	// a narrow structural type rather than widening a production type to
+	// serve a test — and note that this absence is part of why the hazard
+	// is easy to miss, since nothing in the type system points at the
+	// chain the architecture's §5 gate walks.
+	type Chained = { next_hw?: string; prev_hw?: string };
+	const rewritten = new Map<string, string>();
+	const pointers: string[] = [];
+	for await (const source of readSourceEntries()) {
+		const after = applyTransforms(source, 'text-repairs', [abbrevFusedHeadword])
+			.entry.headword;
+		if (after !== source.headword) {
+			rewritten.set(source.headword, after);
+		}
+		const chained = source as Chained;
+		for (const pointer of [chained.prev_hw, chained.next_hw]) {
+			if (pointer !== undefined) {
+				pointers.push(pointer);
+			}
+		}
+	}
+	expect(rewritten.size).toBe(6);
+	expect(pointers.filter((p) => rewritten.has(p))).toHaveLength(12);
 }, 180_000);
