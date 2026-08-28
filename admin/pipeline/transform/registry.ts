@@ -54,6 +54,8 @@ import {
 	parenTagSpace,
 	translitItalicSpace,
 } from './rules/seam-space.ts';
+import { stemHeadMarkerChop } from './rules/stem-head.ts';
+import { asteriskStemStrayPeriod } from './rules/stem-label.ts';
 import {
 	superscriptInsideAnchor,
 	truncatedCitationDigit,
@@ -906,6 +908,21 @@ const RULES: readonly Rule[] = [
 	abbrevFusedHeadword,
 	genderPairAltDuplicate,
 
+	// ---- batch 6b: the stray-period stem label ----
+	//
+	// `asteriskStemStrayPeriod` rewrites `grammar.verbal_stem` and
+	// touches nothing else. No rule here reads that field — measured,
+	// not assumed: the commutation gate composes it against all 40, and
+	// its 3 members are values no other rule can construct, since the
+	// only other writer of a grammar field in this registry is the
+	// structural rule below, which runs in a LATER PHASE.
+	//
+	// Position is therefore free, and it sits BEFORE
+	// `trailingWhitespaceDefinition` only to keep that rule's "runs last
+	// among text-repairs" constraint literally true. It could not hand
+	// that rule a member in any case: it never touches a `definition`.
+	asteriskStemStrayPeriod,
+
 	// ---- `trailingWhitespaceDefinition` LAST ----
 	//
 	// Measured 0 / 0 — free, and last by argument. It trims the entry's
@@ -918,6 +935,22 @@ const RULES: readonly Rule[] = [
 	// after. That 0 is why the measurement here is 0; running last is
 	// what keeps it the whole answer rather than a claim about one pair.
 	trailingWhitespaceDefinition,
+
+	// ---- THE FIRST `structural-repairs` RULE ----
+	//
+	// `stemHeadMarkerChop` runs in a DIFFERENT PHASE from every rule
+	// above it, so its position in this list is not what sequences it:
+	// `applyTransforms` filters by phase, and `structural-repairs` runs
+	// only after the whole `text-repairs` pass has finished (phase
+	// manifest, `patch/apply.ts:56-57`). It is last here so the list
+	// reads in execution order.
+	//
+	// It is also the only rule in this registry that the loss gate
+	// judges (`no-lost-text.ts`), because gating is phase-scoped — the
+	// 10 `text-repairs` rules that delete text are pinned by count in
+	// `body/deletion-baseline.corpus.test.ts` instead. Batch-6b spec
+	// §2.3 carries that argument.
+	stemHeadMarkerChop,
 ];
 
 /** Catalogued transform rows with no rule yet. Shrinks batch by batch;
@@ -944,7 +977,6 @@ const PENDING: readonly string[] = [
 	'empty-stem-section',
 	'sense-number-outside-closed-grammar',
 	'bracketed-gloss-lead-sense',
-	'asterisk-stem-label',
 	// `parenthesized-alt-headword` and `phrase-alt-headword-stub` left
 	// this list in batch 5: both are registered above, adjacent and
 	// entangled.
@@ -965,13 +997,28 @@ const PENDING: readonly string[] = [
 	// 2026-08-27 (fix/link-target-gate-cases): `unterminatedHref` is
 	// registered FIRST in `RULES` above, now that link-target case 6
 	// licenses D00478's repair. See the block at the head of `RULES`.
-	'stem-head-marker-chop',
+	// `stem-head-marker-chop` left this list in batch 6b: it is
+	// registered above, and is the first rule the `structural-repairs`
+	// phase has ever run. 18 of the row's 28 — the members whose marker
+	// has an EMPTY residue. The other 10 are refused by the predicate,
+	// 3 of them because they hold the real opening of sense 2 and a
+	// delete-the-marker rule would destroy it; the row's `reason`
+	// carries that split.
 	'vkh-geresh-loss',
 	// `tosefta-variant-chapter-halakha-loss` left this list on
 	// 2026-08-27 (fix/link-target-gate-cases): `toseftaPrimaryHalakha`
 	// is registered above, STRICTLY BEFORE `toseftaCloseParen`, now that
 	// link-target case 7 licenses the halakha the variant both addresses
 	// and prints. See THE SLOT block in `RULES`.
+	// `asterisk-stem-label` left this list in batch 6b: it is registered
+	// above at its RE-SCOPED size of 3 (the stray-period sub-shape).
+	// The other 66 became `stem-label-not-a-binyan-name`, a new
+	// `judgment` row — the batch-4 precedent, where
+	// `superscript-subsection-contradicts-link-sub-section` was split
+	// off as `judgment` from birth. Splitting rather than registering
+	// the whole row is what keeps 66 live defects ON the queue: a row
+	// reads `registered` the moment any rule claims its id, so a
+	// 3-of-69 rule would have retired the other 66 into silence.
 	'homograph-roman-stranded-in-definition',
 	'holam-migrated-off-mater-vav',
 	'impossible-dagesh',
