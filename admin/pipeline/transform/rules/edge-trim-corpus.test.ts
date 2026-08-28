@@ -272,7 +272,9 @@ describe('corpus tier: the two field edges emphasisRunEdgeSpace touches', () => 
 	// `<i>␣` occurrences open their field, so the move writes a raw
 	// leading space onto 20 of them — all `definition`, none of them
 	// `headword`, `plural_form` or `quotes`, and in no catalogued row's
-	// locus (`binyan-form-leading-space` is `grammar.binyan_form`). It
+	// locus (`binyan-form-leading-space` was `grammar.binyan_form`, and
+	// is `discarded` since batch 6a — `repairs.ts`'s `cleanBinyanForms`
+	// already owns that field). It
 	// is rendered-neutral, since those fields already began with that
 	// space once tags were stripped — but a measured side-effect
 	// recorded only in a report is how this branch's three

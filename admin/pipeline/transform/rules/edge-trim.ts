@@ -134,8 +134,12 @@
  *
  * The standing check for this row: no other catalogued row claims
  * trailing whitespace on `definition`. `binyan-form-leading-space`
- * (457) is `grammar.binyan_form` — a different field, and the opposite
- * edge. The only rule that could hand this one a new member is
+ * (523 occ / 457 ent) was `grammar.binyan_form` — a different field,
+ * and the opposite edge — and it is `discarded` since batch 6a, since
+ * `repairs.ts`'s `cleanBinyanForms` already trims that field upstream
+ * of every rule here. So the check now holds for a second reason: no
+ * catalogued row claims whitespace on ANY field but this one. The only
+ * rule that could hand this one a new member is
  * `emphasisRunEdgeSpace` above, and BOTH of that rule's edges are
  * pinned in the corpus tier, because it demonstrably moves one of
  * them:
@@ -148,7 +152,8 @@
  *   space onto 20 fields — 356 → 376, every one of them a
  *   `definition`, with no `headword`, `plural_form` or `quotes`
  *   touched. That lands in no catalogued row's locus either (again,
- *   `binyan-form-leading-space` is a different field), and it is
+ *   `binyan-form-leading-space` was a different field, and is now
+ *   discarded), and it is
  *   rendered-neutral: those fields already began with that space once
  *   tags are stripped. It is asserted rather than merely reported
  *   because a measured side-effect that lives only in a report is how

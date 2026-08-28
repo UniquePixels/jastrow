@@ -126,25 +126,45 @@ is working:
   `unterminated-href-swallows-closing-tag` — are blocked on one
   `link-target.ts` ruling, not on a missing predicate. See
   [transform-batch-4.md](transform-batch-4.md).
+- Batch 5 moved one out: `abbrev-headword-stub` (34), transform →
+  judgment, on the audit at
+  `data/patches/catalogue-audit/abbrev-headword-stub.md` — an expansion
+  source exists for 4 of its 34 members (11.8%) against the 65.5% that
+  withdrew the parent row it was modelled on. Four rules shipped over
+  five ruled rows, 914 instances repaired; every one of the batch's
+  five counts reproduced on first measurement, a first for this
+  programme. See [transform-batch-5.md](transform-batch-5.md).
+- Batch 6a DISCARDED two — `binyan-form-leading-space` (523 occ / 457
+  ent) and `binyan-form-empty-slot` (486 slots / 446 ent), 71 → 69 rows
+  and −903 instances. Not withdrawn to `judgment` for want of a
+  mechanism: `repairs.ts:445 cleanBinyanForms` already trims both edges
+  and drops empty slots corpus-wide inside `applyRepairs`, upstream of
+  every transform, so both populations measure 523 → 0 and 486 → 0
+  across the 32,512 entries. A rule for either would have repaired
+  nothing while its row claimed hundreds. Working in
+  `data/patches/catalogue-audit/binyan-form-cleanup.md`, gated by
+  `admin/pipeline/body/binyan-cleanup.corpus.test.ts`. See
+  [transform-batch-6a.md](transform-batch-6a.md).
 
-**51.4% of the backlog is deterministic code** (22,017 of 42,849
-instances), 54.5% of it by row. That is the most useful number here —
+**50.3% of the backlog is deterministic code** (21,080 of 41,946
+instances), 53.1% of it by row. That is the most useful number here —
 most of the catalogue does not need judgment at all.
 
-The instance total ROSE while four rows left, which looks wrong and is
-not: batch 3b corrected seven counts, and
-`italic-swallowed-terminal-period` alone went 1,098 → 1,567 when its
-rule was written. A transform row's count is a claim nobody has
-checked until someone writes the rule.
+The instance total is now FALLING, and both directions have the same
+cause: a row's count is a claim nobody has checked until someone works
+it. Batch 3b corrected seven counts upward — `italic-swallowed-terminal-period`
+alone went 1,098 → 1,567 when its rule was written — and batch 6a took
+903 instances out at a stroke by measuring two rows' populations *after*
+`applyRepairs` instead of on raw source.
 
 Cutover gate, cross-cut:
 
 | | Rows | Instances |
 |---|---:|---:|
-| Blocks the v2 cutover | 59 | 15,709 |
-| Launch need not wait | 73 | 27,140 |
+| Blocks the v2 cutover | 56 | 14,772 |
+| Launch need not wait | 74 | 27,174 |
 
-## The transform queue — all 72 rows, largest first
+## The transform queue — all 69 rows, largest first
 
 `⚠ unaudited` marks a row with no `reason` recorded: its count has never
 been derived. That is not a reason to skip it — for a transform row,
@@ -168,8 +188,6 @@ either reproduces the count or does not.
 | `anchor-swallows-close-paren` | 493 | no | — |
 | `geresh-letter-numeral-mislink` | 475 | no | — |
 | `nested-anchor-swallows-punctuation` | 465 | **yes** | — |
-| `binyan-form-leading-space` | 457 | **yes** | — |
-| `binyan-form-empty-slot` | 446 | **yes** | — |
 | `tosefta-variant-chapter-halakha-loss` | 391 | no | — |
 | `targum-sheni-never-linked` | 362 | no | ⚠ unaudited |
 | `plural-label-rendering-defeats-capture` | 358 | **yes** | — |
@@ -201,7 +219,6 @@ either reproduces the count or does not.
 | `plural-to-feminine-final-letter-mislink` | 50 | no | — |
 | `bracketed-gloss-lead-sense` | 49 | **yes** | — |
 | `rabbi-name-linked-as-bible-book` | 42 | no | — |
-| `abbrev-headword-stub` | 34 | **yes** | — |
 | `italic-lone-punctuation` | 28 | no | — |
 | `reversed-hebrew-phrase` | 27 | **yes** | — |
 | `geresh-abbrev-space-loss` | 23 | no | — |
@@ -271,8 +288,9 @@ either reproduces the count or does not.
    const noEdge=[...PENDING].filter(id=>(by.get(id)?.entangledWith??[]).length===0);
    console.log("PENDING:",PENDING.length,"| no edge:",noEdge.length);'
    ```
-4. **5 transform rows are unaudited**, 3 of them blocking (measured
-   2026-08-26 after batch 4; this read "9 … 4 of them blocking").
+4. **4 transform rows are unaudited**, 2 of them blocking (measured
+   2026-08-28 after batch 6a; this read "5 … 3 of them blocking" after
+   batch 4, and "9 … 4 of them blocking" before it).
    **CORRECTED 2026-08-26 (impl/phase-2-batch-4): this cited "the query
    above",** which is the `entangledWith` no-edge query in item 3 and
    measures nothing about auditing. `⚠ unaudited` is a row with no
@@ -285,10 +303,11 @@ either reproduces the count or does not.
    console.log("unaudited transform:",t.length,"| blocking:",t.filter(r=>r.blocking===true).length);'
    ```
 
-   The five are `unlinked-v-span` and `targum-sheni-never-linked`
-   (non-blocking), and `empty-stem-section`,
-   `parenthesized-alt-headword` and `b-h-split-across-field-boundary`
-   (blocking). Expect some to reclassify on contact — the routing
+   The four are `unlinked-v-span` and `targum-sheni-never-linked`
+   (non-blocking), and `empty-stem-section` and
+   `b-h-split-across-field-boundary` (blocking).
+   `parenthesized-alt-headword` left the list in batch 5, which wrote
+   its rule and its `reason` together. Expect some to reclassify on contact — the routing
    is a reading of each row, not a measurement, and nine rows have now
    moved: eight to `judgment` and `ascii-gershayim-outside-body-text`
    discarded outright.
