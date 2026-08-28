@@ -1,4 +1,5 @@
 import { readSourceEntries } from '../../body/source.ts';
+import { strip } from './headword.ts';
 
 /**
  * The measurement basis for Phase 2 batch 5 (plan Task 0, spec
@@ -29,24 +30,21 @@ const CLOSE_PAREN = /\)/gu;
 const WRAPPED_THEN_MARK = /\)\s*[IVXLC]+$/u;
 const WHITESPACE = /\s/u;
 const WHITESPACE_RUN = /\s+/u;
-const STRIP_PARENS = /[()]/gu;
-const STRIP_WHITESPACE = /\s+/gu;
 
 /**
- * The blanket strip rule 1 will perform, spelled here so the safety
- * negatives are measured against the ACTUAL operation rather than a
- * description of it. Deleting a delimiter can leave a doubled space
- * (`'(פַּנְיָה ) I'`), so the collapse is part of the operation.
+ * The safety negatives below are measured against `parenAltHeadword`'s
+ * ACTUAL strip, imported rather than copied. Task 0 shipped a copy
+ * because this module preceded the rule by one commit; Task 2 replaced
+ * it with this import, closing the drift hazard
+ * `links.corpus.test.ts` records for `NEW_ATTR` — where a production
+ * change and a test copy diverge and the test keeps passing while
+ * measuring the wrong thing.
  *
- * KNOWN LIMIT: a COPY of that operation, not an import, because this
- * module ships one commit AHEAD of the rule — the point of Task 0.
- * Until Task 2 exports the real strip and this is replaced by that
- * import, the two can drift and these negatives keep passing while
- * measuring what production no longer does. Same hazard
- * `links.corpus.test.ts` records for `NEW_ATTR`.
+ * NOTE the asymmetry, which is deliberate: the census applies the strip
+ * to EVERY item, while the rule refuses two of them (spec §3.4). The
+ * negatives are therefore an UPPER BOUND — if a blanket strip creates
+ * no duplicate and empties no item, the refusing version cannot either.
  */
-const strip = (item: string): string =>
-	item.replace(STRIP_PARENS, '').replace(STRIP_WHITESPACE, ' ').trim();
 
 interface Census {
 	altEntries: number;

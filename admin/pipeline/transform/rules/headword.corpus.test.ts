@@ -1,5 +1,12 @@
 import { expect, it } from 'bun:test';
+import { readSourceEntries } from '../../body/source.ts';
+import { applyTransforms } from '../run.ts';
+import { parenAltHeadword } from './headword.ts';
 import { census } from './headword-census.ts';
+
+/** Hoisted per `lint/performance/useTopLevelRegex`; no `g`, so the
+ * shared literal keeps no `lastIndex` between `.test()` calls. */
+const PAREN = /[()]/u;
 
 /**
  * Phase 2 batch 5's populations, asserted BEFORE any rule that repairs
@@ -200,3 +207,107 @@ it('every starred alt-headword also carries parens, all 18', async () => {
 	}).toEqual({ entries: 18, occurrences: 18, withParen: 18 });
 	expect(c.starredWithParen).toBe(c.starredWrapped);
 });
+
+// ------------------------------------------- the rule against the corpus
+
+/**
+ * `parenAltHeadword` over all 32,512 entries, THROUGH THE GATES.
+ * `applyTransforms` runs `checkNoNewText` on every call and throws on a
+ * problem, so this walk is the real thing rather than a re-derivation
+ * of the rule's own logic — the distinction that matters, because the
+ * rule's whole safety argument is that it only ever deletes.
+ *
+ * 652 of the 654 occurrences repaired and 2 refused. The refusals are
+ * asserted BY RID here while the rule selects them BY SHAPE, so a
+ * predicate that crept wider or narrower fails this test rather than
+ * silently changing what ships.
+ *
+ * **THE ENTRY COUNT IS 579, AGAINST A CATALOGUED 580, AND BOTH ARE
+ * RIGHT.** The row's population is 580 entries carrying the shape; the
+ * rule fires on 579 because `A01480`'s ONLY paren occurrence is one of
+ * the two refusals, so that entry produces no record. `A01394` still
+ * counts — one of its items is refused and another is repaired.
+ *
+ * `bun transform:count` measures entries with a non-empty `records` and
+ * will therefore report `DELTA -1` for this row, permanently. That is a
+ * FINDING carried in the row's `reason`, not a number to suppress: the
+ * alternative — writing 579 into `corpusCount` — would assert that only
+ * 579 entries carry the defect, and the 580th carries it just as
+ * visibly (a lookup key rendering as `אִיסְפְּלָנִית(א)`). It needs a
+ * different operation, not a different count. Same shape as batch 4's
+ * `citation-number-truncated-outside-anchor`, where the audit harness
+ * and the migration disagreed and neither was wrong.
+ */
+it('repairs 652 paren occurrences and refuses exactly two', async () => {
+	let repaired = 0;
+	let entries = 0;
+	const survivors: string[] = [];
+	for await (const source of readSourceEntries()) {
+		const out = applyTransforms(source, 'text-repairs', [parenAltHeadword]);
+		if (out.records.length > 0) {
+			entries += 1;
+			repaired += out.records.length;
+		}
+		for (const item of out.entry.alt_headwords ?? []) {
+			if (PAREN.test(item)) {
+				survivors.push(source.rid);
+			}
+		}
+	}
+	expect({ entries, repaired, survivors }).toEqual({
+		entries: 579,
+		repaired: 652,
+		survivors: ['A01394', 'A01480'],
+	});
+}, 180_000);
+
+/**
+ * The two safety negatives of spec §3.5, re-measured on the RULE's
+ * output rather than on the census's blanket strip. The census figure
+ * is an upper bound; this is the thing that actually ships.
+ *
+ * A duplicate created here would manufacture members of
+ * `gender-pair-headword-line-collapse`'s population — the collision
+ * batch 3b found four times and gated zero times. An emptied item would
+ * migrate into a `formObject` whose `text` is `minLength: 1`.
+ */
+const tallyOutput = (
+	before: readonly string[],
+	after: readonly string[],
+): { bare: number; emptied: number; newDuplicate: number } => ({
+	bare: after.filter((item) => item.startsWith('*') && !PAREN.test(item))
+		.length,
+	emptied: after.some((item) => item.length === 0) ? 1 : 0,
+	newDuplicate:
+		new Set(after).size !== after.length &&
+		new Set(before).size === before.length
+			? 1
+			: 0,
+});
+
+it('creates no duplicate and empties no item, on the rule output', async () => {
+	let newDuplicates = 0;
+	let emptied = 0;
+	let starredBare = 0;
+	for await (const source of readSourceEntries()) {
+		const before = source.alt_headwords ?? [];
+		if (before.length === 0) {
+			continue;
+		}
+		const after =
+			applyTransforms(source, 'text-repairs', [parenAltHeadword]).entry
+				.alt_headwords ?? [];
+		const tally = tallyOutput(before, after);
+		emptied += tally.emptied;
+		newDuplicates += tally.newDuplicate;
+		starredBare += tally.bare;
+	}
+	// `starredBare` is the §3.3 forward hazard closing: 0 bare `*X` alts
+	// exist in the source and 18 exist after this rule, which is the
+	// shape `migrate.ts`'s reconstructed-mark decomposer will meet.
+	expect({ emptied, newDuplicates, starredBare }).toEqual({
+		emptied: 0,
+		newDuplicates: 0,
+		starredBare: 18,
+	});
+}, 180_000);
