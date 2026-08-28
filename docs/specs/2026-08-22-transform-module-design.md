@@ -256,10 +256,9 @@ author will rely on it for. Adding a field to `SourceEntry`,
 `SourceSense` or `SourceGrammar` means adding it to `fieldsOf` in the
 same change, or the gate quietly stops seeing it.
 
-The grammar and `language_code` entries are not hypothetical: five
+The grammar and `language_code` entries are not hypothetical: three
 already-routed transform rows edit exactly those fields —
-`binyan-form-leading-space` (457, blocking), `binyan-form-empty-slot`
-(446), `asterisk-stem-label`, `empty-stem-section` (342), and
+`asterisk-stem-label` (69), `empty-stem-section` (342), and
 `b-h-split-across-field-boundary`, which moves text across the
 `language_code` ↔ definition boundary and would otherwise pass
 vacuously in one direction while false-failing in the other. The corpus

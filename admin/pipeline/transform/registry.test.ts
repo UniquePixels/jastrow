@@ -41,8 +41,8 @@ describe('registry coverage', () => {
 		expect(PENDING.filter((id) => registered.has(id))).toEqual([]);
 	});
 
-	// 77, not the 80 this asserted after batch 1, nor the 81 it asserted
-	// during it. Four withdrawals, each for its own reason, and the set
+	// 69, not the 80 this asserted after batch 1, nor the 81 it asserted
+	// during it. Twelve departures, each for its own reason, and the set
 	// is the point: a row leaves `transform` when the audit says so, and
 	// the number here is a ledger of that, not a target.
 	//
@@ -103,8 +103,21 @@ describe('registry coverage', () => {
 	//   withdrew the parent, and for 26 the refs name the redirect TARGET,
 	//   a different lemma. Ruled by Brian 2026-08-28. See
 	//   data/patches/catalogue-audit/abbrev-headword-stub.md.
-	it('the catalogue still holds 71 transform rows', () => {
-		expect(coverage(catalogue).total).toBe(71);
+	// - `binyan-form-leading-space` (523 occ / 457 ent) and
+	//   `binyan-form-empty-slot` (486 slots / 446 ent), batch 6a — 71 to
+	//   69, and they are the SECOND and THIRD rows to leave the way
+	//   `ascii-gershayim-outside-body-text` did: not withdrawn to
+	//   `judgment` for want of a mechanism but DISCARDED because a
+	//   mechanism already owns them. `repairs.ts:445 cleanBinyanForms`
+	//   trims both edges and drops empty slots corpus-wide inside
+	//   `applyRepairs`, upstream of every rule here, and it has done so
+	//   since the 06 decision. Measured over all 32,512 entries: 523 → 0
+	//   and 486 → 0. A rule for either would have repaired nothing while
+	//   its row claimed hundreds. Ruled by Brian 2026-08-28. See
+	//   data/patches/catalogue-audit/binyan-form-cleanup.md, and
+	//   `body/binyan-cleanup.corpus.test.ts` for the standing gate.
+	it('the catalogue still holds 69 transform rows', () => {
+		expect(coverage(catalogue).total).toBe(69);
 	});
 
 	it('pending ids all exist in the catalogue', () => {
