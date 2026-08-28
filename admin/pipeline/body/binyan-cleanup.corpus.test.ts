@@ -12,7 +12,8 @@ import type { SourceSense } from './types.ts';
  * `applyRepairs`, which is upstream of every transform. A discard on
  * that ground is only as durable as the pass it names — delete or
  * narrow `cleanBinyanForms` and 523 leading spaces and 486 empty slots
- * return with no row left in the catalogue to describe them, and no
+ * return with no ACTIVE catalogue row left to describe them — both rows
+ * survive as `status: discarded` records, which route no work — and no
  * other test in the suite counts either shape.
  *
  * So the audit's arithmetic is asserted here rather than only
@@ -60,6 +61,9 @@ interface Census {
 const LEADING = /^\s/u;
 const TRAILING = /\s$/u;
 
+/** Depth-first over one entry's sense tree, visiting every node. Senses
+ * NEST (`sense.senses`), and a `grammar` block can sit at any depth, so
+ * a top-level-only walk would under-count both populations. */
 function walk(
 	senses: readonly SourceSense[],
 	visit: (sense: SourceSense) => void,
@@ -84,6 +88,8 @@ function itemsOf(senses: readonly SourceSense[]): [number, string][] {
 	return items;
 }
 
+/** A census with every counter at 0 — one object per run, mutated by
+ * the folds below. */
 function zero(): Census {
 	return {
 		corpusEntries: 0,
@@ -156,6 +162,11 @@ function censusPost(c: Census, senses: readonly SourceSense[]): void {
 	}
 }
 
+/** The single corpus pass: for each of the 32,512 entries, count the
+ * raw shapes, run `applyRepairs`, and count the same shapes again on
+ * the repaired entry. Both sides in ONE walk — measuring them in
+ * separate passes is what let raw-source figures stand unchallenged
+ * long enough for two rows to be catalogued as unrepaired. */
 async function build(): Promise<Census> {
 	const c = zero();
 	for await (const source of readSourceEntries()) {
