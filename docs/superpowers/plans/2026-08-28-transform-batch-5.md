@@ -92,9 +92,13 @@ only defence is a population asserted before the rule is written.
       and the excluded Roman-mark shapes are `I` 92, `II` 77, `III` 5,
       `IV` 1. A future reader who deletes the mark exclusion must fail a
       test that names why it is there.
-- [ ] Assert spec §3.1's paren taxonomy: 464 wrapped-whole, 18 starred,
-      84 open-only, 81 close-only; **69 opens pair** (52 adjacent, 17
-      non-adjacent), **28 orphans** (15 open, 12 close, 1 exotic).
+- [ ] Assert spec §3.1's paren taxonomy as a **partition**: 464
+      wrapped-whole, 18 starred, 5 mark-carrying, 84 open-only, 81
+      close-only, 1 interior, 1 stray close — seven buckets summing to
+      654, with an `unbucketed` list asserted empty so an unanticipated
+      shape fails rather than falling into a default branch. Then the
+      pairing: **69 opens pair** (52 adjacent, 17 non-adjacent), **28
+      orphans** (15 open, 12 close, 1 stray).
 - [ ] Assert spec §3.5's three negatives over all 8,673
       `alt_headwords`-carrying entries: `dupBefore: 22`,
       `dupAfterStripOnly_NEW: 0`, `emptyAfterStrip: 0`.
@@ -159,6 +163,12 @@ gate differs; split by object when it does not.
 - [ ] Create `rules/headword.ts` with a shared, immutable
       `alt_headwords` walk — map to a new array, return the SAME entry
       reference when nothing changed.
+- [ ] **Export the strip and have Task 0's corpus test import it.**
+      That test currently spells its own copy so the safety negatives
+      could be measured before any rule existed; leaving the copy in
+      place reproduces `links.corpus.test.ts`'s recorded limit, where a
+      production change and a test copy drift apart and the test keeps
+      passing while measuring the wrong thing.
 - [ ] Implement the blanket strip: delete every `(` and `)`, collapse
       whitespace runs the deletion creates, trim.
 - [ ] Implement the two refusals **by shape, not by rid** — an interior

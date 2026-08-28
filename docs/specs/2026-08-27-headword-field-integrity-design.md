@@ -126,8 +126,26 @@ Measured over the 654 occurrences:
 |---|---:|---|
 | **A** wrapped-whole | 464 | `(X)` — one form, both delimiters |
 | **A′** wrapped-whole behind `*` | 18 | `*(X)` — see §3.3 |
-| **B** group members | 69 groups | an open-only item pairing with a later close-only item |
-| **C** orphans | 28 | 15 unmatched opens, 12 unmatched closes, 1 exotic (§3.4) |
+| **A″** wrapped, homograph mark outside | 5 | `(אַפְרִיקָא) I` |
+| **B** open-only | 84 | starts `(`, no close — 69 of them pair (below) |
+| **B′** close-only | 81 | ends `)`, no open — the same 69 pairings seen from the other side |
+| **C** interior optional-letter | 1 | `אִיסְפְּלָנִית(א)` — REFUSED, §3.4 |
+| **C′** stray close | 1 | `אֵינָשׁ) אִינְשָׁא` — REFUSED, §3.4 |
+
+> **CORRECTED 2026-08-28 (impl/phase-2-batch-5, Task 0).** This table
+> read *"A 464 · A′ 18 · B 69 groups · C 28 orphans"*, which is four
+> buckets summing to nothing: it counted B in GROUPS while the other
+> rows counted occurrences, and it omitted the 5 mark-carrying wrapped
+> items and the interior-paren item entirely. The seven buckets above
+> sum to **654** exactly and are asserted to partition the population —
+> `unbucketed` is empty in
+> `rules/headword.corpus.test.ts`. Nothing downstream moves: the
+> refusals were already 2 and the pairing figures already 69 / 28.
+
+The 84 open-only items resolve as **69 paired** (52 adjacent, 17
+non-adjacent) and **15 orphaned**; the 81 close-only items as the same
+69 plus **12 orphaned**. Orphans total 28 with the two refusals: 15 + 12
++ 1 stray close. Every figure here is a test, not a paragraph.
 
 The 69 groups split **52 adjacent** (`b+1 === c`) and **17
 non-adjacent**, the latter spanning one or two intervening items that
