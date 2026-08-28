@@ -183,68 +183,134 @@ const phrase = (alt: string[], headword: string): string[] =>
 		[phraseAltHeadwordStub],
 	).entry.alt_headwords ?? [];
 
-it('substitutes the headword for a stubbed token', () => {
-	expect(phrase(['בַּר א׳'], 'אַבְיוּ')).toEqual(['בַּר אַבְיוּ']);
-	expect(phrase(['א׳ הַשָּׂדֶה'], 'אַדְנֵי')).toEqual(['אַדְנֵי הַשָּׂדֶה']);
-});
-
-/** The stub may carry a prefix particle — `ד` (of), `ה` (the) — ahead of
- * the initial. It is text the field already holds and is carried
- * through verbatim; inventing a vowel for it would be exactly what the
- * 2026-08-22 ruling forbids. */
-it('carries a prefix particle through the substitution', () => {
-	expect(phrase(['דינא דג׳'], 'גְּרָמֵי')).toEqual(['דינא דגְּרָמֵי']);
-});
-
-/** v2's marks live on the form object, not in the text: `*` is
- * `reconstructed` and a Roman numeral is `homograph`. Neither belongs
- * inside a toponym. */
-it('strips the headword marks before substituting', () => {
-	expect(phrase(['מֶלַח דְּזַ׳'], '*זַרְוַאי')).toEqual(['מֶלַח דְּזַרְוַאי']);
-	expect(phrase(['בֵּי מְ׳'], 'מְקוֹשֵׁשׁ II')).toEqual(['בֵּי מְקוֹשֵׁשׁ']);
-});
-
-/** A homograph numeral on the ITEM is part of that lemma's identity and
- * survives; it is also the token the predicate must ignore when
- * deciding whether the item is a phrase at all. */
-it('leaves a Roman mark on the item in place', () => {
-	expect(phrase(['בֵּית ז׳ II'], 'זַבְדִּין')).toEqual(['בֵּית זַבְדִּין II']);
-});
-
-/** A single-word stub carrying only a homograph numeral is the parent
- * row's job 1, for which no deterministic expansion exists. The
- * predicate must not reach it. */
-it('does not touch a single-word stub with a homograph mark', () => {
-	expect(phrase(['אֲמוּ׳ II'], 'אֵימוּרִים')).toEqual(['אֲמוּ׳ II']);
-});
-
-// ------------------------------------------- rule 2's four refusals
-
 /**
- * THE POINTING CONFLICT, and the reason it is refused rather than
- * resolved. Brian's ruling of 2026-08-22 killed a rule that assumed the
- * headword's vowels were the variant's. Here the stub writes a sheva
- * and the headword a hiriq, in the same entry; substituting would pick
- * one. Six corpus occurrences, all refused.
+ * Rule 2's cases as a TABLE, expansions and refusals in one list.
+ *
+ * Written this way for a reason beyond brevity: the interesting property
+ * of this rule is the BOUNDARY between what it expands and what it
+ * declines, and a table puts the two a line apart instead of in separate
+ * blocks a reader has to hold in their head. Seven near-identical `it`
+ * bodies also read to a duplication detector as exactly that — SonarCloud
+ * measured this file at 17.3% duplicated lines and failed the gate on it.
+ *
+ * `why` is not decoration: an unexplained refusal is indistinguishable
+ * from a rule that quietly stopped working.
  */
-it('refuses a stub whose pointing disagrees with the headword', () => {
-	expect(phrase(['פּוּנְדְּקָא רְ׳'], 'רִטִיבְתָּא')).toEqual(['פּוּנְדְּקָא רְ׳']);
-	expect(phrase(['הַר הַמּ׳'], 'מוֹרִיָּה')).toEqual(['הַר הַמּ׳']);
-});
+const CASES: readonly {
+	alt: string;
+	expected: string;
+	headword: string;
+	why: string;
+}[] = [
+	{
+		alt: 'בַּר א׳',
+		expected: 'בַּר אַבְיוּ',
+		headword: 'אַבְיוּ',
+		why: 'the plain substitution',
+	},
+	{
+		alt: 'א׳ הַשָּׂדֶה',
+		expected: 'אַדְנֵי הַשָּׂדֶה',
+		headword: 'אַדְנֵי',
+		why: 'the stub leads the phrase rather than following it',
+	},
+	{
+		alt: 'דינא דג׳',
+		expected: 'דינא דגְּרָמֵי',
+		headword: 'גְּרָמֵי',
+		// A prefix particle — ד (of), ה (the) — sits ahead of the initial.
+		// It is text the field already holds and is carried through
+		// verbatim; inventing a vowel for it is what the 2026-08-22 ruling
+		// forbids.
+		why: 'a prefix particle rides through the substitution',
+	},
+	{
+		alt: 'מֶלַח דְּזַ׳',
+		expected: 'מֶלַח דְּזַרְוַאי',
+		headword: '*זַרְוַאי',
+		// v2's marks live on the form object, not in the text: `*` is
+		// `reconstructed`. It does not belong inside a toponym.
+		why: 'the reconstruction mark is stripped before substituting',
+	},
+	{
+		alt: 'בֵּי מְ׳',
+		expected: 'בֵּי מְקוֹשֵׁשׁ',
+		headword: 'מְקוֹשֵׁשׁ II',
+		why: 'the homograph mark is stripped before substituting',
+	},
+	{
+		alt: 'בֵּית ז׳ II',
+		expected: 'בֵּית זַבְדִּין II',
+		headword: 'זַבְדִּין',
+		// A homograph numeral on the ITEM is part of that lemma's identity
+		// and survives; it is also the token the predicate must ignore when
+		// deciding whether the item is a phrase at all.
+		why: 'a Roman mark on the ITEM stays where it is',
+	},
+	{
+		alt: 'בֵּי בְּ׳',
+		expected: 'בֵּי בְּלִיעֵי',
+		headword: 'בְּלִיעֵי',
+		// 52 of the 58 pointed stubs agree with the headword exactly, so
+		// nothing is chosen for them.
+		why: 'a pointed stub that AGREES with the headword expands',
+	},
+	{
+		alt: 'אֲמוּ׳ II',
+		expected: 'אֲמוּ׳ II',
+		headword: 'אֵימוּרִים',
+		// The parent row's job 1, for which no deterministic expansion
+		// exists. The predicate must not reach it.
+		why: 'REFUSED: a single-word stub carrying only a homograph mark',
+	},
+	{
+		alt: 'פּוּנְדְּקָא רְ׳',
+		expected: 'פּוּנְדְּקָא רְ׳',
+		headword: 'רִטִיבְתָּא',
+		// THE POINTING CONFLICT. Brian's ruling of 2026-08-22 killed a rule
+		// that assumed the headword's vowels were the variant's. Here the
+		// stub writes a sheva and the headword a hiriq in the same entry;
+		// substituting would pick one. Six corpus occurrences.
+		why: "REFUSED: the stub's pointing disagrees with the headword",
+	},
+	{
+		alt: 'הַר הַמּ׳',
+		expected: 'הַר הַמּ׳',
+		headword: 'מוֹרִיָּה',
+		why: 'REFUSED: a dagesh the lemma does not carry',
+	},
+	{
+		alt: 'בַּר׳ ח׳',
+		expected: 'בַּר׳ ח׳',
+		headword: 'חוּבָּץ I',
+		// `H00247`: which of the two geresh tokens is the headword's is
+		// undetermined.
+		why: 'REFUSED: two geresh tokens',
+	},
+	{
+		alt: 'אסת׳ )',
+		expected: 'אסת׳ )',
+		headword: 'אַסְטְרוֹלוֹגְיָא',
+		// `A02403`: a three-consonant truncation whose final letter is not
+		// the headword's first, so it is not an initial stub at all.
+		why: 'REFUSED: a non-initial truncation',
+	},
+];
 
-/** 52 of the 58 pointed stubs agree with the headword exactly, so
- * nothing is chosen for them and they expand normally. */
-it('expands a pointed stub that agrees with the headword', () => {
-	expect(phrase(['בֵּי בְּ׳'], 'בְּלִיעֵי')).toEqual(['בֵּי בְּלִיעֵי']);
-});
+for (const { alt, expected, headword, why } of CASES) {
+	it(`${why} (${alt})`, () => {
+		expect(phrase([alt], headword)).toEqual([expected]);
+	});
+}
 
-/** `H00247`: two geresh tokens, so which one is the headword's is
- * undetermined. `A02403`: a three-consonant truncation whose final
- * letter is not the headword's first, so it is not an initial stub at
- * all. */
-it('refuses an ambiguous or non-initial stub', () => {
-	expect(phrase(['בַּר׳ ח׳'], 'חוּבָּץ I')).toEqual(['בַּר׳ ח׳']);
-	expect(phrase(['אסת׳ )'], 'אַסְטְרוֹלוֹגְיָא')).toEqual(['אסת׳ )']);
+/** The table must keep testing BOTH sides of the boundary. A refactor
+ * that dropped every refusal would leave a green suite asserting only
+ * that the rule fires, which is the failure mode a rule that does
+ * nothing already passes. */
+it('the case table covers expansions and refusals alike', () => {
+	const refused = CASES.filter((c) => c.alt === c.expected);
+	expect(refused.length).toBeGreaterThanOrEqual(5);
+	expect(CASES.length - refused.length).toBeGreaterThanOrEqual(5);
 });
 
 // ------------------------------------------------ the `copied` gate
