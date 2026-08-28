@@ -194,6 +194,25 @@ interface TransformResult {
 	 * head's own locus. */
 	recombined?: readonly { head: string; tail: string; target: string }[];
 	records: TransformRecord[];
+	/** Text this call DELETED on purpose (batch-6b spec
+	 * `docs/specs/2026-08-28-structural-repairs-design.md` §2.2) — the
+	 * exact mirror of `copied`, read by `no-lost-text.ts`. Each string
+	 * is verified to occur in this entry's INPUT first, and credited as
+	 * a MULTISET, so declaring one deletion permits exactly one.
+	 *
+	 * Per-call rather than a static `Rule` field, and the reason is the
+	 * blast radius `allows` documents: what a structural rule deletes
+	 * is a per-entry run — one marker's trailing space, one stray label
+	 * period — and a static list would license that codepoint anywhere
+	 * in the rule's diff, over every entry it touches.
+	 *
+	 * Only `structural-repairs` rules are gated on it today (spec
+	 * §2.3): 10 of the 39 rules already in `RULES` delete text, 4,504
+	 * codepoints between them, and a global gate would mean retrofitting
+	 * ten declarations in the PR that introduced the gate. Those ten are
+	 * pinned at their measured counts instead. A `text-repairs` rule may
+	 * still declare `removes`; nothing reads it there. */
+	removes?: readonly string[];
 	/** Opening tags this call repaired by DELETING a run that never
 	 * belonged inside them (link-target gate case 6, spec
 	 * docs/specs/2026-08-27-link-target-gate-cases.md §2). `written` is

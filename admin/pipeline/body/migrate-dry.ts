@@ -134,20 +134,25 @@ function unresolvedOrphans(entry: SourceEntry): string[] {
 	return expected.filter((item) => !seen.has(item));
 }
 
-/** `structural-repairs` runs empty below (`processEntry`'s comment: "no
- * structural pass exists yet") — a rule registered with that phase would
- * therefore never execute in this dry run, silently. Batch 6 is where
- * `structural-repairs` gets wired for real; until then, fail loudly the
- * moment `RULES` grows one instead of letting it vanish unrun. */
-function assertNoStructuralRules(rules: readonly Rule[] = RULES): void {
+/** The inverse of the assertion this replaced. Until batch 6b the
+ * phase ran as `() => undefined`, so a rule registered for it would
+ * have vanished unrun — and the guard here threw the moment `RULES`
+ * grew one. `processEntry` now runs the phase for real, so the failure
+ * mode flips: the danger is no longer a rule with no phase but a phase
+ * with no rule, which would pass every test in the suite while
+ * quietly reverting the wiring.
+ *
+ * So this asserts the phase HAS work to do. It is a claim about this
+ * repository's state, not about the design: the day a batch withdraws
+ * `stem-head-marker-chop` and registers nothing in its place, this
+ * throws and whoever did it must say so here. */
+function assertStructuralPhaseWired(rules: readonly Rule[] = RULES): void {
 	const structural = rules.filter(
 		(rule) => rule.phase === 'structural-repairs',
 	);
-	if (structural.length > 0) {
+	if (structural.length === 0) {
 		throw new Error(
-			`structural-repairs rule(s) registered but migrate-dry never runs that phase (wire it — batch 6): ${structural
-				.map((rule) => rule.id)
-				.join(', ')}`,
+			'no structural-repairs rule is registered, but migrate-dry runs that phase (batch 6b wired it) — remove this assertion deliberately, or restore the rule',
 		);
 	}
 }
@@ -288,20 +293,40 @@ function processEntry(
 			report.recordsByPass[record.pass] = bucket;
 		}
 	}
-	// No structural pass exists yet (the S1 splitter folds into the
-	// sweep's `split` op); the phase runs empty so the ordering
-	// contract is enforced from day one.
-	phases.run('structural-repairs', () => undefined);
-	const group = patchGroups.get(entry.rid);
+	// Wired in batch 6b. The phase ran empty from Phase 1 to enforce the
+	// ordering contract from day one; it now runs the registry's
+	// `structural-repairs` rules over the text-repaired entry, with the
+	// same per-entry containment the `text-repairs` half has, so one
+	// rule tripping its own gate is reported and walked past rather
+	// than aborting the corpus.
+	let structural: ReturnType<typeof applyTransforms>;
+	try {
+		structural = phases.run('structural-repairs', () =>
+			applyTransforms(entry, 'structural-repairs'),
+		);
+	} catch (error) {
+		report.transformFailures.push(
+			`${entry.rid}: ${error instanceof Error ? error.message : String(error)}`,
+		);
+		return;
+	}
+	report.transformRecords.push(...structural.records);
+	// Everything downstream reads the STRUCTURAL output, not the
+	// text-repaired entry it was built from — the one line that makes
+	// the phase load-bearing rather than decorative.
+	const repairedEntry = structural.entry;
+	const group = patchGroups.get(repairedEntry.rid);
 	const patched = phases.run('patch-apply', () =>
 		group === undefined
-			? { entry, problems: [] }
-			: applyEntryPatches(entry, group),
+			? { entry: repairedEntry, problems: [] }
+			: applyEntryPatches(repairedEntry, group),
 	);
 	if (group !== undefined) {
 		report.patches.applied += group.length - patched.problems.length;
 		report.patches.problems.push(
-			...patched.problems.map((p) => `${p.patchId ?? entry.rid}: ${p.reason}`),
+			...patched.problems.map(
+				(p) => `${p.patchId ?? repairedEntry.rid}: ${p.reason}`,
+			),
 		);
 	}
 	phases.run('consumer-output', () => {
@@ -364,7 +389,7 @@ function printSummary(report: Report): void {
 }
 
 if (import.meta.main) {
-	assertNoStructuralRules();
+	assertStructuralPhaseWired();
 	const ajv = new Ajv2020({ allErrors: true, strict: true });
 	const validate = ajv.compile(entrySchema);
 	const report = createReport();
@@ -414,7 +439,7 @@ if (import.meta.main) {
 }
 
 export {
-	assertNoStructuralRules,
+	assertStructuralPhaseWired,
 	brokenTopSequence,
 	createReport,
 	healAndTransform,
