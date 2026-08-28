@@ -1,9 +1,13 @@
 import { expect, it } from 'bun:test';
 import { readSourceEntries } from '../../body/source.ts';
+import { tokenize } from '../html.ts';
+import { anchors } from '../links.ts';
+import { fieldsOf } from '../no-new-text.ts';
 import { applyTransforms } from '../run.ts';
 import {
 	abbrevFusedHeadword,
 	genderPairAltDuplicate,
+	LINKED_HEADWORDS,
 	parenAltHeadword,
 	phraseAltHeadwordStub,
 } from './headword.ts';
@@ -15,6 +19,9 @@ const PAREN = /[()]/u;
 const GERESH = '׳';
 const ROMAN_MARK = /^[IVXLC]+$/u;
 const WHITESPACE_SPLIT = /\s+/u;
+/** `Jastrow, <headword>[ <sense>]`, the only target shape that names an
+ * entry in this corpus. */
+const JASTROW_REF = /^Jastrow, (?<headword>.+?)(?: \d+)?$/u;
 
 /** The phrase row's predicate, spelled independently of the rule so the
  * "what did it refuse" assertions measure the POPULATION rather than
@@ -435,7 +442,7 @@ it('the paren rule must run first, and the orders disagree', async () => {
  * the headword, and the rule leaves it because `'m.'` is text the entry
  * does not hold (spec §5.4, §7.3).
  */
-it('repairs 6 fused headwords and 22 duplicate arrays', async () => {
+it('repairs 4 fused headwords and 22 duplicate arrays', async () => {
 	let fusedRecords = 0;
 	let duplicateRecords = 0;
 	let morphologyChanged = 0;
@@ -467,8 +474,11 @@ it('repairs 6 fused headwords and 22 duplicate arrays', async () => {
 		morphologyChanged,
 	}).toEqual({
 		duplicateRecords: 22,
-		fusedLeft: ['A02002'],
-		fusedRecords: 6,
+		// A02002 is refused by shape (its geresh token is not first);
+		// K00107 and P00137 are refused because another entry's anchor
+		// names their old headword string — see the rule's docstring.
+		fusedLeft: ['A02002', 'K00107', 'P00137'],
+		fusedRecords: 4,
 		morphologyChanged: 0,
 	});
 }, 180_000);
@@ -485,7 +495,7 @@ it('repairs 6 fused headwords and 22 duplicate arrays', async () => {
  * Whoever writes `migrate.ts` must walk the SOURCE chain or de-map both
  * sides. Asserted rather than described so the number cannot rot.
  */
-it('leaves exactly 12 stale prev_hw/next_hw pointers', async () => {
+it('leaves exactly 8 stale prev_hw/next_hw pointers', async () => {
 	// `SourceEntry` does not model the headword chain: `prev_hw` and
 	// `next_hw` are in the JSONL and survive `readSourceEntries`, but the
 	// TYPE the migration reads has no such properties. Read them through
@@ -509,6 +519,40 @@ it('leaves exactly 12 stale prev_hw/next_hw pointers', async () => {
 			}
 		}
 	}
-	expect(rewritten.size).toBe(6);
-	expect(pointers.filter((p) => rewritten.has(p))).toHaveLength(12);
+	expect(rewritten.size).toBe(4);
+	expect(pointers.filter((p) => rewritten.has(p))).toHaveLength(8);
+}, 180_000);
+
+/**
+ * **THE ALLOWLIST, LOUD ON DRIFT.** `LINKED_HEADWORDS` is an enumerated
+ * exception, and the ruling of 2026-08-23 is that such a list may live
+ * in a rule only if it shouts when the corpus moves under it. This
+ * asserts it equals EXACTLY the fused-shape headwords that some anchor
+ * in the corpus targets — so a re-fetch that adds a pointing anchor, or
+ * removes one, fails here rather than silently changing what ships.
+ *
+ * The rule cannot compute this itself: `Rule.apply` sees one entry and
+ * the property is corpus-wide.
+ */
+it('the linked-headword allowlist is exactly what the corpus targets', async () => {
+	const targeted = new Set<string>();
+	const fusedShape: string[] = [];
+	for await (const source of readSourceEntries()) {
+		const headword = source.headword.trim();
+		if (headword.includes(GERESH) && WHITESPACE_SPLIT.test(headword)) {
+			fusedShape.push(headword);
+		}
+		for (const field of fieldsOf(source)) {
+			for (const anchor of anchors(tokenize(field))) {
+				const named = JASTROW_REF.exec(anchor.dataRef)?.groups?.['headword'];
+				if (named !== undefined) {
+					targeted.add(named);
+				}
+			}
+		}
+	}
+	expect(fusedShape).toHaveLength(7);
+	expect(fusedShape.filter((h) => targeted.has(h)).toSorted()).toEqual(
+		[...LINKED_HEADWORDS].toSorted(),
+	);
 }, 180_000);

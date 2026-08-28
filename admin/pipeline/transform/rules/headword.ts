@@ -366,6 +366,35 @@ const phraseAltHeadwordStub: Rule = {
  * geresh token to come FIRST, which refuses it by shape; the corpus
  * test asserts that shape selects exactly that rid.
  *
+ * **TWO OF THE SIX ARE REFUSED BECAUSE ANOTHER ENTRY LINKS TO THEM,
+ * AND THAT IS THIS RULE'S SHARPEST FINDING.** Rewriting a headword
+ * silently invalidates every anchor whose `data-ref` names the OLD
+ * string, and two do:
+ *
+ * ```
+ * K00108 anchor  data-ref="Jastrow, כִּדְ׳ כַּדְבוּבָא 1"   → K00107
+ * P00132 anchor  data-ref="Jastrow, עָ׳ עַדְיָא 1"       → P00137
+ * ```
+ *
+ * Found by `body/pipeline-links.test.ts`, whose absolute pin fell from
+ * 71,385 to 71,383 while its DIFFERENTIAL assertion — "gains 90, loses
+ * none" — stayed green, because the rule sits on both sides of that
+ * comparison. The differential could not see it; the absolute pin
+ * could, which is exactly why it exists.
+ *
+ * A dead link is worse for a reader than an awkward headword, so these
+ * two are declined. The full repair is a headword rewrite AND a retarget
+ * of the pointing anchor, which crosses into `link-target.ts` territory
+ * — and gate work is its own PR here, Brian's ruling of 2026-08-26.
+ * Carried as an open item.
+ *
+ * `LINKED_HEADWORDS` is an enumerated exception and therefore MUST BE
+ * LOUD ON DRIFT (`rules/unlink.ts`'s `unobservedConvention`, the ruling
+ * of 2026-08-23). The corpus test asserts it equals EXACTLY the fused
+ * headwords some anchor targets, so a re-fetch that adds or removes a
+ * pointing anchor fails a test rather than silently changing what
+ * ships.
+ *
  * **FORWARD HAZARD, and it compounds one batch 3a already recorded:**
  * the data architecture's §5 gate walks the `prev_hw`/`next_hw` chain
  * and compares against `headword` AS A STRING. Batch 3a left 68
@@ -374,9 +403,21 @@ const phraseAltHeadwordStub: Rule = {
  * `migrate.ts` must walk the SOURCE chain or de-map both sides. The
  * exact divergence count is asserted in `headword.corpus.test.ts`.
  */
+/** Fused headwords some other entry's anchor points at by their OLD
+ * string. Rewriting them would break a live link, so they are declined.
+ * Asserted EXACTLY equal to the measured set in the corpus test — an
+ * enumerated exception that is loud on drift, never a quiet skip. */
+const LINKED_HEADWORDS: ReadonlySet<string> = new Set([
+	'כִּדְ׳ כַּדְבוּבָא',
+	'עָ׳ עַדְיָא',
+]);
+
 const abbrevFusedHeadword: Rule = {
 	apply: (entry: SourceEntry): TransformResult => {
 		const trimmed = entry.headword.trim();
+		if (LINKED_HEADWORDS.has(trimmed)) {
+			return { entry, records: [] };
+		}
 		const star = trimmed.startsWith('*') ? '*' : '';
 		const tokens = trimmed.replace(LEADING_STAR, '').split(WHITESPACE_SPLIT);
 		const [first, ...rest] = tokens;
@@ -475,6 +516,7 @@ export {
 	expandStub,
 	genderPairAltDuplicate,
 	headwordToken,
+	LINKED_HEADWORDS,
 	overAltHeadwords,
 	parenAltHeadword,
 	phraseAltHeadwordStub,

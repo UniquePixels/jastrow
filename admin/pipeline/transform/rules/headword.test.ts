@@ -314,7 +314,21 @@ it('keeps a homograph mark on the lemma', () => {
 });
 
 it('appends to an existing alt_headwords rather than replacing it', () => {
-	expect(fused('עָ׳ עַדְיָא', ['עָדִיתָא']).alt_headwords).toEqual(['עָדִיתָא', 'עָ׳']);
+	expect(fused('שִׁי׳ שִׁגְדָּא', ['שְׁגָדָא']).alt_headwords).toEqual(['שְׁגָדָא', 'שִׁי׳']);
+});
+
+/**
+ * Two of the six are declined because ANOTHER entry's anchor names the
+ * old headword string — `K00108` points at `'Jastrow, כִּדְ׳ כַּדְבוּבָא 1'`
+ * and `P00132` at `'Jastrow, עָ׳ עַדְיָא 1'`. Rewriting the headword
+ * would leave both dangling, and a dead link is worse for a reader than
+ * an awkward headword. `body/pipeline-links.test.ts`'s ABSOLUTE pin is
+ * what caught it: its differential assertion stayed green because the
+ * rule sits on both sides of that comparison.
+ */
+it('refuses a headword another entry links to', () => {
+	expect(fused('כִּדְ׳ כַּדְבוּבָא').headword).toBe('כִּדְ׳ כַּדְבוּבָא');
+	expect(fused('עָ׳ עַדְיָא').headword).toBe('עָ׳ עַדְיָא');
 });
 
 /**

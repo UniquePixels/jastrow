@@ -342,14 +342,49 @@ const RESTORE = new Set(['unterminated-href-swallows-closing-tag']);
  * the rules that ever declare one. */
 const CORROBORATE = new Set(['tosefta-variant-chapter-halakha-loss']);
 
-/** The seven classifications, named ONCE. Both halves of the
- * classification test read this, so an eighth class added to one half
+/**
+ * Rules whose object is a FIELD THAT NEVER CARRIES MARKUP — batch 5's
+ * headword family, and a seventh class rather than four more members of
+ * `NEITHER`.
+ *
+ * The distinction is not bookkeeping. `NEITHER`'s docstring is careful
+ * that its members *"demonstrably edit ADJACENT to"* anchors and so
+ * earn "removes no anchor and writes no target" as a real claim rather
+ * than *"one they are trivially incapable of breaking"*. These four are
+ * exactly the trivial case: they edit `headword` and `alt_headwords`,
+ * which hold no tag anywhere in the corpus, so the anchor question
+ * cannot arise for them. Filing them under `NEITHER` would dilute the
+ * one set whose whole value is that its members COULD have broken a
+ * link and measurably did not.
+ *
+ * Rule 1 says nothing about where they sit, and neither does anything
+ * else outside the class: no other registered rule reads or writes
+ * either field. What IS ordered is their order among THEMSELVES —
+ * `parenthesized-alt-headword` strictly before `phrase-alt-headword-
+ * stub`, an entangled pair that does not commute — and that constraint
+ * lives in `registry.ts`'s own block with its measurement.
+ *
+ * Membership is EARNED, by the assertion at the bottom of this file:
+ * over all 32,512 entries, no field these rules change ever contains a
+ * `<`. A future member that edited a definition would fail there rather
+ * than inheriting an exemption.
+ */
+const FIELD = new Set([
+	'abbrev-fused-headword',
+	'gender-pair-headword-line-collapse',
+	'parenthesized-alt-headword',
+	'phrase-alt-headword-stub',
+]);
+
+/** The eight classifications, named ONCE. Both halves of the
+ * classification test read this, so a ninth class added to one half
  * and forgotten in the other is not a thing that can happen. */
 const CLASSES: ReadonlySet<string>[] = [
 	UNLINK,
 	RETARGET,
 	CORROBORATE,
 	NEITHER,
+	FIELD,
 	GLYPH,
 	RESTORE,
 	WRAP,
@@ -496,6 +531,29 @@ describe('registry order', () => {
 				'italic-swallowed-terminal-period',
 				'label-period-outside-italic',
 			],
+			// FOUR clusters became FIVE on 2026-08-28 (batch 5), and this
+			// one is the first entanglement in this registry between two
+			// rules that touch NO MARKUP AT ALL. Its spec had argued the
+			// batch would add no edge, reasoning about the rules already
+			// registered and never checking its own pair; the commutation
+			// gate of PR #50 is what caught it.
+			//
+			// The pair does not commute by one occurrence in each
+			// direction. `B00780` holds `'(עֵין ב׳)'`, whose stub token is
+			// `'ב׳)'` — `expandStub` refuses anything following the geresh,
+			// so phrase-first cannot see it, while paren-first strips the
+			// delimiters and it expands. `A02403`'s `'אסת׳ )'` moves the
+			// other way, becoming a single token that leaves the phrase
+			// population. Composed paren-first the phrase rule fires 236
+			// times; phrase-first, 235.
+			//
+			// Its span is 2 and the two are adjacent, which the span test
+			// below checks. As with the tosefta pair, what that does NOT
+			// check is the DIRECTION, and here the direction is the whole
+			// requirement — pinned in `rules/headword.corpus.test.ts` in
+			// the shape of the disagreement rather than as the winning
+			// order, so a reorder fails with the reason attached.
+			['parenthesized-alt-headword', 'phrase-alt-headword-stub'],
 		]);
 	});
 
@@ -505,7 +563,7 @@ describe('registry order', () => {
 	// there being no clusters at all.
 	it('every derived cluster occupies a gap-free span', () => {
 		const clusters = entangledClusters(catalogue, RULES);
-		expect(clusters).toHaveLength(4);
+		expect(clusters).toHaveLength(5);
 		for (const cluster of clusters) {
 			const span = Math.max(...cluster.at) - Math.min(...cluster.at) + 1;
 			expect(`${cluster.ids.join(', ')} span ${span}`).toBe(
@@ -1000,5 +1058,42 @@ describe('the classification is earned, not declared', () => {
 			.filter((id) => !MOVED_TEXT.has(id))
 			.toSorted(byId);
 		expect(moversOnly).toEqual([...WRAP].toSorted(byId));
+	}, 180_000);
+
+	/**
+	 * `FIELD` earned. Its exemption from every anchor question rests on
+	 * one claim — that the fields these rules edit never carry markup —
+	 * and this is that claim rather than a restatement of it.
+	 *
+	 * The walk compares `headword` and `alt_headwords` before and after
+	 * each `FIELD` rule and asserts that no value on EITHER side ever
+	 * contains a `<`. Both sides matter: an input containing one would
+	 * mean the class's premise is false about the corpus, and an output
+	 * containing one would mean a rule had introduced markup into a
+	 * field that holds none.
+	 *
+	 * A future member that edited a definition fails here rather than
+	 * inheriting the exemption, which is the hole a hardcoded set would
+	 * have left.
+	 */
+	it('no FIELD rule reads or writes a field carrying markup', async () => {
+		const rules = RULES.filter((rule) => FIELD.has(rule.id));
+		expect(rules).toHaveLength(FIELD.size);
+		let checked = 0;
+		for await (const source of readSourceEntries()) {
+			for (const rule of rules) {
+				const after = rule.apply(source).entry;
+				for (const value of [
+					source.headword,
+					after.headword,
+					...(source.alt_headwords ?? []),
+					...(after.alt_headwords ?? []),
+				]) {
+					expect(value.includes('<')).toBe(false);
+					checked += 1;
+				}
+			}
+		}
+		expect(checked).toBeGreaterThan(32_512 * FIELD.size);
 	}, 180_000);
 });

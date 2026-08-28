@@ -92,8 +92,19 @@ describe('registry coverage', () => {
 	//   data/patches/catalogue-audit/batch-3b-withdrawals.md.
 	// - `post-anchor-numeral-duplication` (11 occ / 11 ent), batch 4 Task 6
 	//   — 73 to 72, NO REPAIR EXISTS; working in registry.ts's `PENDING`.
-	it('the catalogue still holds 72 transform rows', () => {
-		expect(coverage(catalogue).total).toBe(72);
+	// - `abbrev-headword-stub` (34), batch 5 Task 1 — 72 to 71, NO REPAIR
+	//   EXISTS, and the row said so itself: its `reason` ended "RAISE ONLY
+	//   IF THAT ROW'S DISPOSITION IS UPHELD", naming
+	//   `abbrev-in-alt-headwords`, whose disposition was NOT upheld. The
+	//   field-side row is structurally worse off than the parent it was
+	//   modelled on — the stub IS the headword, so no fuller spelling of
+	//   the lexeme exists in the entry by construction. Measured: an
+	//   expansion source exists for 4 of 34 (11.8%) against the 65.5% that
+	//   withdrew the parent, and for 26 the refs name the redirect TARGET,
+	//   a different lemma. Ruled by Brian 2026-08-28. See
+	//   data/patches/catalogue-audit/abbrev-headword-stub.md.
+	it('the catalogue still holds 71 transform rows', () => {
+		expect(coverage(catalogue).total).toBe(71);
 	});
 
 	it('pending ids all exist in the catalogue', () => {
