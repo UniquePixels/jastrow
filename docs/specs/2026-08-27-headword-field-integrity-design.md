@@ -26,6 +26,31 @@ The set is **entanglement-closed** — no `entangledWith` edge leaves it
 and none enters it — so it ships as one pull request without leaving
 `unaccountedEdges()` with a dangling endpoint.
 
+> **CORRECTED 2026-08-28 (impl/phase-2-batch-5, Task 3).** Closure at
+> the batch BOUNDARY is what that sentence measures, and it still holds.
+> But this document also claimed, in the constraints it handed the
+> implementation plan, that the batch adds **no** `entangledWith` edge
+> at all. **That is false, and it was never measured — the reasoning was
+> about other rules and never checked the batch's own pair.**
+> `parenthesized-alt-headword` and `phrase-alt-headword-stub` DO NOT
+> COMMUTE, by one occurrence in each direction:
+>
+> - `B00780` holds `'(עֵין ב׳)'`. Phrase-first cannot see it — the stub
+>   token is `'ב׳)'` and `expandStub` refuses anything following the
+>   geresh. Paren-first strips the delimiters and the item then expands.
+> - `A02403` holds `'אסת׳ )'`. The strip leaves a single token, so it
+>   LEAVES the phrase population rather than entering it.
+>
+> Composed paren-first the phrase rule fires **236** times; phrase-first,
+> **235**. `parenthesized-alt-headword` therefore registers STRICTLY
+> BEFORE `phrase-alt-headword-stub`, the edge is declared on both rows,
+> and `checkAdjacency()` holds them gap-free. Pinned in
+> `headword.corpus.test.ts` in the shape of the disagreement rather than
+> as the winning order, so a later reorder fails with the reason
+> attached. **This is what the commutation gate of PR #50 exists to
+> catch, and it caught it — in a batch whose spec had argued it could
+> not happen.**
+
 ```bash
 bun -e 'import {parsePatterns} from "./admin/pipeline/research/patterns.ts";
 const rows=(await parsePatterns(await Bun.file("data/patches/patterns.jsonl").text())).filter(r=>r.status==="candidate"&&r.route!==undefined);
@@ -444,3 +469,6 @@ report.
 | 2026-08-27 | Scope ruled: the 5-row headword family, 879 instances, entanglement-closed |
 | 2026-08-27 | Parens stripped, no new form-object mark, no schema change |
 | 2026-08-27 | Stem/grammar family (1,876) deferred to batch 6 — different field object |
+| 2026-08-28 | `abbrev-headword-stub` withdrawn to `judgment`; batch ships 4 rules over 4 rows |
+| 2026-08-28 | The batch's own two rules do not commute; paren-first pinned, edge declared |
+| 2026-08-28 | Six pointing-conflict stubs REFUSED rather than resolved, under the 2026-08-22 no-vowel-inference ruling |

@@ -168,4 +168,181 @@ const parenAltHeadword: Rule = {
 	phase: 'text-repairs',
 };
 
-export { overAltHeadwords, parenAltHeadword, refusesStrip, strip };
+// ---------------------------------------------------------------- rule 2
+
+const GERESH = '׳';
+const HEBREW_LETTER = /[א-ת]/u;
+const ROMAN_MARK = /^[IVXLC]+$/u;
+const SUPERSCRIPT = /[¹²³⁰-₟]/u;
+const LEADING_STAR = /^\*/u;
+const WHITESPACE_SPLIT = /\s+/u;
+
+/** The headword as a lookup token: the reconstruction mark and the
+ * homograph/disambiguator marks removed, leaving the spelling itself.
+ * Substituting `*כְּפַר` would file a reconstruction mark into the middle
+ * of a phrase, and `מְקוֹשֵׁשׁ II` would carry a homograph numeral into a
+ * toponym. */
+function headwordToken(headword: string): string {
+	return headword
+		.trim()
+		.replace(LEADING_STAR, '')
+		.split(WHITESPACE_SPLIT)
+		.filter((t) => !(ROMAN_MARK.test(t) || SUPERSCRIPT.test(t)))
+		.join(' ')
+		.trim();
+}
+
+/** Index of the last Hebrew letter in `text`, or −1. Points are not
+ * letters, so this finds the consonant the geresh truncates. */
+function lastLetterIndex(text: string): number {
+	let found = -1;
+	for (let i = 0; i < text.length; i++) {
+		if (HEBREW_LETTER.test(text.charAt(i))) {
+			found = i;
+		}
+	}
+	return found;
+}
+
+/** The run of points sitting on `text`'s FIRST Hebrew letter. */
+function leadingMarks(text: string): string {
+	let i = 1;
+	while (i < text.length && !HEBREW_LETTER.test(text.charAt(i))) {
+		i++;
+	}
+	return text.slice(1, i);
+}
+
+/**
+ * Expand one geresh-stubbed token against the entry's headword, or
+ * return `undefined` to refuse.
+ *
+ * **WHAT THIS INFERS, WHICH IS THE ONLY QUESTION THAT MATTERS HERE.**
+ * Brian's ruling of 2026-08-22 killed `abbrev-in-alt-headwords`'s
+ * already-written rule because expansion there *"assumes the headword's
+ * remaining vowels are the variant's"* — a variant spelling exists
+ * BECAUSE it differs, so the transfer is untestable. That ruling names
+ * this row as *"probably survives — substitutes a whole headword token,
+ * no vowel inference"*, and the distinction is real: these stubs are
+ * not variant spellings OF the headword, they are the headword itself
+ * standing inside a phrase lemma, so restoring it infers nothing.
+ *
+ * **BUT THE MEASUREMENT FOUND AN EDGE THE RULING DID NOT ANTICIPATE.**
+ * 58 of the 244 stubs carry points on their final letter, and in 6 of
+ * those the stub's own pointing DISAGREES with the headword's —
+ * `T00566` writes `רְ׳` where the headword reads `רִטִיבְתָּא`, sheva
+ * against hiriq. Substituting would override a vowel the source
+ * explicitly wrote in this very field with a different one from
+ * another field, which is the ruling's own half 2 applied to one
+ * letter. **Those six are REFUSED**, fail-closed: where the source's
+ * two fields disagree about a vowel, this rule declines rather than
+ * picks. The other 52 agree exactly, so nothing is chosen there.
+ *
+ * Four further refusals by shape, all of them ambiguity rather than
+ * damage:
+ *
+ * - more than one geresh token in the item (`H00247`, `'בַּר׳ ח׳'` —
+ *   which token is the headword's?);
+ * - a stub whose final letter is not the headword's first (`A02403`,
+ *   `'אסת׳'` against `אַסְטְרוֹלוֹגְיָא`, a three-consonant truncation
+ *   rather than an initial);
+ * - anything following the geresh inside the token;
+ * - no Hebrew letter before the geresh at all.
+ */
+function expandStub(
+	item: string,
+	headword: string,
+): { copied: string; written: string } | undefined {
+	const tokens = item.trim().split(WHITESPACE_SPLIT);
+	if (tokens.filter((t) => !ROMAN_MARK.test(t)).length < 2) {
+		return undefined;
+	}
+	const stubs = tokens.filter((t) => t.includes(GERESH));
+	if (stubs.length !== 1) {
+		return undefined;
+	}
+	const stub = stubs[0] ?? '';
+	const cut = stub.indexOf(GERESH);
+	if (stub.slice(cut + 1) !== '') {
+		return undefined;
+	}
+	const head = stub.slice(0, cut);
+	const at = lastLetterIndex(head);
+	const lemma = headwordToken(headword);
+	if (at < 0 || head.charAt(at) !== lemma.charAt(0)) {
+		return undefined;
+	}
+	const onStub = head.slice(at + 1);
+	if (onStub !== '' && onStub !== leadingMarks(lemma)) {
+		return undefined;
+	}
+	const written = `${head.slice(0, at)}${lemma}`;
+	return {
+		copied: lemma,
+		written: tokens.map((t) => (t === stub ? written : t)).join(' '),
+	};
+}
+
+/**
+ * `phrase-alt-headword-stub` — 244 occurrences / 236 entries.
+ *
+ * A complete multi-word lemma — usually a toponym or a compound —
+ * whose headword token print abbreviated to an initial plus geresh:
+ * `בֵּית ז׳` (Beth Zabdin), `נְהַר פּ׳` (Nehar Papa), `כְּפַר א׳`. The row was
+ * CARVED OUT of `abbrev-in-alt-headwords` by that row's audit precisely
+ * because a transform written to the parent's description *"would file
+ * 236 phrases into the alt-spelling index as spellings"* of the
+ * headword, which they are not.
+ *
+ * **THE PREDICATE MUST DELETE ROMAN HOMOGRAPH MARKS BEFORE COUNTING
+ * TOKENS.** The naive reading — a geresh and a space — selects 410
+ * entries / 419 occurrences, and the 175 extra are single-word stubs
+ * carrying a homograph numeral (`'אֲמוּ׳ II'`) that belong to the
+ * parent's job 1, for which no deterministic expansion exists. A rule
+ * that expanded those would be inventing spellings. Pinned in
+ * `headword.corpus.test.ts` in the shape of the mistake.
+ *
+ * **THE REGISTRY'S FIRST `copied` USER.** This is the only rule in
+ * batch 5 that adds text, and `types.ts` names this exact case on
+ * `allows`: *"A copy of existing per-entry text (the tail of a headword
+ * recovered into an alt-headword, say) cannot be expressed here — the
+ * copied bytes differ per entry, not per rule. Declare those through
+ * `TransformResult.copied` instead."* One declaration per substitution,
+ * credited as a multiset, each verified against the entry's own input
+ * before it is allowed.
+ *
+ * What `expandStub` refuses, and why, is on that function.
+ */
+const phraseAltHeadwordStub: Rule = {
+	apply: (entry: SourceEntry): TransformResult => {
+		const copied: string[] = [];
+		const { entry: next, records } = overAltHeadwords(
+			entry,
+			'phrase-alt-headword-stub',
+			(item) => {
+				if (!item.includes(GERESH)) {
+					return item;
+				}
+				const done = expandStub(item, entry.headword);
+				if (done === undefined) {
+					return item;
+				}
+				copied.push(done.copied);
+				return done.written;
+			},
+		);
+		return { copied, entry: next, records };
+	},
+	id: 'phrase-alt-headword-stub',
+	phase: 'text-repairs',
+};
+
+export {
+	expandStub,
+	headwordToken,
+	overAltHeadwords,
+	parenAltHeadword,
+	phraseAltHeadwordStub,
+	refusesStrip,
+	strip,
+};

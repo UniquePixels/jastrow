@@ -1,7 +1,13 @@
 import { expect, it } from 'bun:test';
 import type { SourceEntry } from '../../body/types.ts';
 import { applyTransforms } from '../run.ts';
-import { parenAltHeadword, refusesStrip, strip } from './headword.ts';
+import type { Rule, TransformResult } from '../types.ts';
+import {
+	parenAltHeadword,
+	phraseAltHeadwordStub,
+	refusesStrip,
+	strip,
+} from './headword.ts';
 
 /**
  * Fixture tier for the headword-field rules (spec
@@ -158,4 +164,124 @@ it('records one entry per changed item', () => {
 
 it('strips nothing from an item that has no delimiter', () => {
 	expect(strip('אָב')).toBe('אָב');
+});
+
+// ----------------------------------------- phrase-alt-headword-stub
+
+const phrase = (alt: string[], headword: string): string[] =>
+	applyTransforms(
+		{
+			alt_headwords: alt,
+			content: { senses: [{ definition: 'stub' }] },
+			headword,
+			rid: 'X00003',
+		},
+		'text-repairs',
+		[phraseAltHeadwordStub],
+	).entry.alt_headwords ?? [];
+
+it('substitutes the headword for a stubbed token', () => {
+	expect(phrase(['בַּר א׳'], 'אַבְיוּ')).toEqual(['בַּר אַבְיוּ']);
+	expect(phrase(['א׳ הַשָּׂדֶה'], 'אַדְנֵי')).toEqual(['אַדְנֵי הַשָּׂדֶה']);
+});
+
+/** The stub may carry a prefix particle — `ד` (of), `ה` (the) — ahead of
+ * the initial. It is text the field already holds and is carried
+ * through verbatim; inventing a vowel for it would be exactly what the
+ * 2026-08-22 ruling forbids. */
+it('carries a prefix particle through the substitution', () => {
+	expect(phrase(['דינא דג׳'], 'גְּרָמֵי')).toEqual(['דינא דגְּרָמֵי']);
+});
+
+/** v2's marks live on the form object, not in the text: `*` is
+ * `reconstructed` and a Roman numeral is `homograph`. Neither belongs
+ * inside a toponym. */
+it('strips the headword marks before substituting', () => {
+	expect(phrase(['מֶלַח דְּזַ׳'], '*זַרְוַאי')).toEqual(['מֶלַח דְּזַרְוַאי']);
+	expect(phrase(['בֵּי מְ׳'], 'מְקוֹשֵׁשׁ II')).toEqual(['בֵּי מְקוֹשֵׁשׁ']);
+});
+
+/** A homograph numeral on the ITEM is part of that lemma's identity and
+ * survives; it is also the token the predicate must ignore when
+ * deciding whether the item is a phrase at all. */
+it('leaves a Roman mark on the item in place', () => {
+	expect(phrase(['בֵּית ז׳ II'], 'זַבְדִּין')).toEqual(['בֵּית זַבְדִּין II']);
+});
+
+/** A single-word stub carrying only a homograph numeral is the parent
+ * row's job 1, for which no deterministic expansion exists. The
+ * predicate must not reach it. */
+it('does not touch a single-word stub with a homograph mark', () => {
+	expect(phrase(['אֲמוּ׳ II'], 'אֵימוּרִים')).toEqual(['אֲמוּ׳ II']);
+});
+
+// ------------------------------------------- rule 2's four refusals
+
+/**
+ * THE POINTING CONFLICT, and the reason it is refused rather than
+ * resolved. Brian's ruling of 2026-08-22 killed a rule that assumed the
+ * headword's vowels were the variant's. Here the stub writes a sheva
+ * and the headword a hiriq, in the same entry; substituting would pick
+ * one. Six corpus occurrences, all refused.
+ */
+it('refuses a stub whose pointing disagrees with the headword', () => {
+	expect(phrase(['פּוּנְדְּקָא רְ׳'], 'רִטִיבְתָּא')).toEqual(['פּוּנְדְּקָא רְ׳']);
+	expect(phrase(['הַר הַמּ׳'], 'מוֹרִיָּה')).toEqual(['הַר הַמּ׳']);
+});
+
+/** 52 of the 58 pointed stubs agree with the headword exactly, so
+ * nothing is chosen for them and they expand normally. */
+it('expands a pointed stub that agrees with the headword', () => {
+	expect(phrase(['בֵּי בְּ׳'], 'בְּלִיעֵי')).toEqual(['בֵּי בְּלִיעֵי']);
+});
+
+/** `H00247`: two geresh tokens, so which one is the headword's is
+ * undetermined. `A02403`: a three-consonant truncation whose final
+ * letter is not the headword's first, so it is not an initial stub at
+ * all. */
+it('refuses an ambiguous or non-initial stub', () => {
+	expect(phrase(['בַּר׳ ח׳'], 'חוּבָּץ I')).toEqual(['בַּר׳ ח׳']);
+	expect(phrase(['אסת׳ )'], 'אַסְטְרוֹלוֹגְיָא')).toEqual(['אסת׳ )']);
+});
+
+// ------------------------------------------------ the `copied` gate
+
+/**
+ * THE GATE MUST BE LIVE, not merely quiet. `checkNoNewText` verifies
+ * each declared `copied` string against the entry's own input before
+ * crediting it, so a declaration naming text the entry does not hold is
+ * a violation rather than an allowance. Without this test the batch
+ * could only claim the gate did not complain.
+ */
+it('reports a copied declaration the entry does not contain', () => {
+	const liar: Rule = {
+		apply: (source: SourceEntry): TransformResult => ({
+			copied: ['לֹאקַייָם'],
+			entry: {
+				...source,
+				alt_headwords: ['בַּר לֹאקַייָם'],
+			},
+			records: [
+				{ detail: 'fabricated', rid: source.rid, ruleId: 'phrase-liar' },
+			],
+		}),
+		id: 'phrase-liar',
+		phase: 'text-repairs',
+	};
+	expect(() =>
+		applyTransforms(entry(['בַּר א׳'], 'X00004'), 'text-repairs', [liar]),
+	).toThrow(/phrase-liar/u);
+});
+
+/** And the honest declaration passes the same gate — the pair is what
+ * makes the negative meaningful. */
+it('accepts the honest declaration for every substitution', () => {
+	const result = phraseAltHeadwordStub.apply({
+		alt_headwords: ['בַּר א׳', 'בֵּי א׳'],
+		content: { senses: [{ definition: 'stub' }] },
+		headword: 'אַבְיוּ',
+		rid: 'X00005',
+	});
+	expect(result.copied).toEqual(['אַבְיוּ', 'אַבְיוּ']);
+	expect(result.records).toHaveLength(2);
 });

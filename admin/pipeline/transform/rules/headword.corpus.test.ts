@@ -1,12 +1,27 @@
 import { expect, it } from 'bun:test';
 import { readSourceEntries } from '../../body/source.ts';
 import { applyTransforms } from '../run.ts';
-import { parenAltHeadword } from './headword.ts';
+import { parenAltHeadword, phraseAltHeadwordStub } from './headword.ts';
 import { census } from './headword-census.ts';
 
 /** Hoisted per `lint/performance/useTopLevelRegex`; no `g`, so the
  * shared literal keeps no `lastIndex` between `.test()` calls. */
 const PAREN = /[()]/u;
+const GERESH = '׳';
+const ROMAN_MARK = /^[IVXLC]+$/u;
+const WHITESPACE_SPLIT = /\s+/u;
+
+/** The phrase row's predicate, spelled independently of the rule so the
+ * "what did it refuse" assertions measure the POPULATION rather than
+ * the rule's own opinion of it. */
+const isPhraseStub = (item: string): boolean => {
+	const trimmed = item.trim();
+	return (
+		trimmed.includes(GERESH) &&
+		trimmed.split(WHITESPACE_SPLIT).filter((t) => !ROMAN_MARK.test(t)).length >=
+			2
+	);
+};
 
 /**
  * Phase 2 batch 5's populations, asserted BEFORE any rule that repairs
@@ -310,4 +325,97 @@ it('creates no duplicate and empties no item, on the rule output', async () => {
 		newDuplicates: 0,
 		starredBare: 18,
 	});
+}, 180_000);
+
+/**
+ * `phraseAltHeadwordStub` over the corpus, THROUGH THE GATES —
+ * `applyTransforms` runs `checkNoNewText` on every call, so all 235
+ * `copied` declarations are verified against their own entry's input
+ * here rather than merely declared.
+ *
+ * **235 OCCURRENCES / 228 ENTRIES AGAINST A CATALOGUED 244 / 236, AND
+ * THE SHORTFALL IS THE POINT.** The row's population is 244; the rule
+ * repairs what it can lawfully repair and refuses 9. Seven of the nine
+ * are the pointing conflicts and ambiguities on `expandStub`; the other
+ * two need the paren rule to run first (below). `bun transform:count`
+ * measures rules ALONE and will therefore report `DELTA -8` on entries
+ * for this row, permanently and by design.
+ */
+it('expands 235 phrase stubs alone, refusing nine', async () => {
+	let entries = 0;
+	let occurrences = 0;
+	const refused: string[] = [];
+	for await (const source of readSourceEntries()) {
+		const out = applyTransforms(source, 'text-repairs', [
+			phraseAltHeadwordStub,
+		]);
+		if (out.records.length > 0) {
+			entries += 1;
+			occurrences += out.records.length;
+		}
+		for (const item of out.entry.alt_headwords ?? []) {
+			if (isPhraseStub(item)) {
+				refused.push(source.rid);
+			}
+		}
+	}
+	expect({ entries, occurrences, refused }).toEqual({
+		entries: 228,
+		occurrences: 235,
+		refused: [
+			'A02403',
+			'B00780',
+			'D01080',
+			'H00247',
+			'M00643',
+			'Q01399',
+			'T00566',
+			'U01905',
+			'V00924',
+		],
+	});
+}, 180_000);
+
+/**
+ * **THE TWO RULES DO NOT COMMUTE, AND THE SPEC SAID THEY WOULD.**
+ * §1 claimed this batch adds no `entangledWith` edge, on the reasoning
+ * that its rules touch fields no shipped rule touches. That reasoning
+ * was about OTHER rules and never checked the batch's own pair.
+ *
+ * `B00780` carries `'(עֵין ב׳)'`. Phrase-first cannot see it: the stub
+ * token is `'ב׳)'`, and `expandStub` refuses anything following the
+ * geresh. Paren-first strips the delimiters, and the same item then
+ * expands normally. `A02403`'s `'אסת׳ )'` moves the other way — the
+ * strip leaves a single token, so it LEAVES the phrase population
+ * rather than entering it.
+ *
+ * So `parenthesized-alt-headword` must register STRICTLY BEFORE
+ * `phrase-alt-headword-stub`, the edge is declared in the catalogue,
+ * and `checkAdjacency()` holds them gap-free. Pinned here in the shape
+ * of the disagreement, not just as the winning order — a later reorder
+ * fails with the reason attached.
+ */
+it('the paren rule must run first, and the orders disagree', async () => {
+	const tally = async (
+		rules: readonly [typeof parenAltHeadword, typeof parenAltHeadword],
+	): Promise<{ paren: number; phrase: number }> => {
+		let paren = 0;
+		let phrase = 0;
+		for await (const source of readSourceEntries()) {
+			for (const record of applyTransforms(source, 'text-repairs', rules)
+				.records) {
+				if (record.ruleId === 'phrase-alt-headword-stub') {
+					phrase += 1;
+				} else {
+					paren += 1;
+				}
+			}
+		}
+		return { paren, phrase };
+	};
+	const first = await tally([parenAltHeadword, phraseAltHeadwordStub]);
+	const second = await tally([phraseAltHeadwordStub, parenAltHeadword]);
+	expect(first).toEqual({ paren: 652, phrase: 236 });
+	expect(second).toEqual({ paren: 652, phrase: 235 });
+	expect(first.phrase).toBeGreaterThan(second.phrase);
 }, 180_000);
