@@ -137,7 +137,7 @@ and 654 paren occurrences live in 580 entries.
 | `PENDING` | 36 | **31** |
 | `coverage().total` | 72 | **71** |
 | unaccounted / duplicated | 0 / 0 | **0 / 0** |
-| suite | 1,007 pass / 0 fail | **1,055 pass / 0 fail** |
+| suite | 1,007 pass / 0 fail | **1,062 pass / 0 fail** |
 | commutation gate | 35 rules, 9 non-commuting | **39 rules, 10 non-commuting, 0 undeclared** |
 | entanglement clusters | 4 | **5** |
 | `unaccountedEdges()` | 1 line | 1 line (unchanged) |
@@ -404,6 +404,8 @@ which decline wherever the data is ambiguous rather than choosing.
    are a live rendered defect owned by no catalogue row.
 3. **`A01480`'s optional-letter paren** wants an operation this batch
    does not have — arguably two index entries rather than one.
+4. **`A02002`** is a phrase stub in the `headword` field; one member is
+   not a population, and it is refused rather than expanded.
 5. **`K00107` and `P00137`** need their headword repaired AND the
    anchor that names them retargeted, as one unit. Gate work, so its
    own PR.
@@ -414,5 +416,3 @@ which decline wherever the data is ambiguous rather than choosing.
    the composed pipeline can see it, which is batch 3a's finding
    recurring in the direction it predicted. All four are
    `copied`-declared and verified.
-4. **`A02002`** is a phrase stub in the `headword` field; one member is
-   not a population, and it is refused rather than expanded.

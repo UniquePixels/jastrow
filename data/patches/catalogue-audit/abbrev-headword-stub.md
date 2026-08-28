@@ -89,7 +89,7 @@ would rewrite 22 headwords into the lemma next door.
 The four live candidates, in full, so a later reader can re-derive
 rather than trust:
 
-```
+```text
 D00957  דפוסיו׳  → alt ["דפוסיות"]
 G00401  זִיפְתּ׳   → alt ["זִיפְתָא"]
 V00228  תומיי׳   → alt ["תומיין"]
@@ -114,7 +114,7 @@ own truncated headword, so the redirect terminates on itself."*
 rather than `refs[]` entries — so this is something a reader hits, not
 only something a compiler drops:
 
-```
+```text
 D00826  hw דִּלָט׳         def ", v. <a … data-ref="Jastrow, דִּלָט׳ 1">דִּילָט׳</a>"
 S00462  hw קוּסְטַאנְטִינ׳   def ", v. <a … data-ref="Jastrow, קוּסְטַאנְטִינ׳ 1">קוּסְטַנְטִינ׳</a>"
 ```
