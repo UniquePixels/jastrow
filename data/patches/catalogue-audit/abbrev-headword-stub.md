@@ -68,7 +68,7 @@ Four candidate sources, all of them checked over all 34.
 | An `alt_headwords` item extending the stem | **4** | the only live candidate |
 | An `alt_headwords` item that does NOT extend the stem | 4 | supplies a different word, not a tail |
 | No `alt_headwords` and no `refs` at all | 4 | nothing to read |
-| `refs` / definition anchors | 26 | **names the redirect TARGET, a different lemma** |
+| `refs` / definition anchors | 22 | **names the redirect TARGET, a different lemma** |
 
 The fourth row is the one that settles it. A redirect stub's own
 `data-ref` points at *the article it sends you to*, not at a longer
@@ -76,7 +76,15 @@ spelling of *itself*. `V00841 תפני׳` refs `Jastrow, תַּפְנִית 1` a
 definition reads *", v. next w."* — `תַּפְנִית` is the destination, and
 `תפני׳` expands to `תפניס`, which is in this entry's `alt_headwords` and
 is a different string from the ref. Reading the ref as the expansion
-would rewrite 26 headwords into the lemma next door.
+would rewrite 22 headwords into the lemma next door.
+
+> **CORRECTED 2026-08-28 (local review round 2).** This table's last row
+> read **26**, and the four rows then summed to 38 over a 34-member
+> population while the prose called that row *"the remaining"* — which
+> asserts a partition it did not have. Re-measured: the four buckets are
+> disjoint and sum exactly, **4 + 4 + 4 + 22 = 34**. Nothing downstream
+> moves: the deciding figure was always the 4 (11.8%) against the parent
+> row's 65.5%, and no entry appears in two rows.
 
 The four live candidates, in full, so a later reader can re-derive
 rather than trust:

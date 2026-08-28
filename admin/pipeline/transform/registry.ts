@@ -860,9 +860,26 @@ const RULES: readonly Rule[] = [
 	//
 	// The first rules in this registry whose object is a FIELD rather
 	// than markup. They touch `headword`, `alt_headwords` and nothing
-	// else, so no rule above can reach their input and their placement
-	// relative to those rules is free. What is NOT free is their order
-	// relative to each other.
+	// else.
+	//
+	// **ONE RULE ABOVE DOES REACH THAT INPUT, and an earlier draft of
+	// this block asserted otherwise while this branch was measuring the
+	// interaction.** `gershayimInBody` is scoped to every field
+	// `fieldsOf` walks — its own row records `headword` 69 and
+	// `alt_headwords` 19 — and it composes with `phraseAltHeadwordStub`
+	// in a way `body/pipeline-links.test.ts` pins: it repairs an ASCII
+	// quote in a HEADWORD, the phrase rule then copies that repaired
+	// headword into `alt_headwords`, and the corpus gershayim count
+	// moves 2,305 → 2,309.
+	//
+	// The placement is nevertheless free, and that is MEASURED rather
+	// than assumed: both orders give 92 marks across these two fields
+	// and 235 phrase records, because `gershayimInBody` walks every
+	// field and so repairs the copy too if it runs second. The pair
+	// converges; it is not isolated. The commutation gate agrees —
+	// 0 undeclared.
+	//
+	// What is NOT free is their order relative to each other.
 	//
 	// `parenAltHeadword` MUST precede `phraseAltHeadwordStub`, and the
 	// pair is `entangledWith` on both rows so `checkAdjacency()` holds
