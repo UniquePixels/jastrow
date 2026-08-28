@@ -238,7 +238,6 @@ either reproduces the count or does not.
 | `containment-fallback-mislink` | 22 | no | — |
 | `gender-pair-headword-line-collapse` | 22 | **yes** | — |
 | `stem-head-marker-chop` | 18 | **yes** | — |
-| `asterisk-stem-label` | 3 | **yes** | — |
 | `impossible-dagesh` | 17 | no | — |
 | `translit-italic-space-loss` | 15 | no | — |
 | `citation-number-truncated-outside-anchor` | 14 | **yes** | — |
@@ -254,6 +253,7 @@ either reproduces the count or does not.
 | `sifre-ib-resolves-to-yalkut` | 6 | no | — |
 | `b-h-split-across-field-boundary` | 4 | **yes** | ⚠ unaudited |
 | `see-particle-lost` | 4 | **yes** | — |
+| `asterisk-stem-label` | 3 | **yes** | — |
 | `unterminated-href-swallows-closing-tag` | 2 | **yes** | — |
 
 ### Sequencing advice

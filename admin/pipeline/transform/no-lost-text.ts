@@ -22,14 +22,18 @@
  *
  * **Scope, and it is deliberate.** `run.ts` enforces this gate for
  * `structural-repairs` rules only. Measured over all 32,512 entries,
- * 10 of the 39 rules already registered delete text — 4,504
- * codepoints between them, most of it substitution the multiset reads
- * as a deletion plus an addition (`"` → `״` alone is 2,125). Turning
- * the gate on globally would mean retrofitting a declaration onto ten
- * shipped rules in the PR that introduces it. Those ten are pinned by
- * their counts in `deletion-baseline.corpus.test.ts` instead, so an
- * eleventh deleting rule fails a test rather than passing unremarked.
- * Spec §2.3 carries the table and the argument.
+ * **11 registered `text-repairs` rules delete text — 4,510 codepoints
+ * between them**: ten that predate this batch (4,504, most of it
+ * substitution the multiset reads as a deletion plus an addition, `"`
+ * → `״` alone being 2,125), plus batch 6b's own
+ * `asterisk-stem-label`, which drops ` .` from three stem labels and
+ * declares it although nothing in that phase reads the declaration.
+ * Turning the gate on globally would have meant retrofitting a
+ * declaration onto ten shipped rules in the PR that introduces it.
+ * All eleven are pinned at their exact counts in
+ * `deletion-baseline.corpus.test.ts` instead, so a TWELFTH deleting
+ * rule fails a test rather than passing unremarked. Spec §2.3 carries
+ * the table and the argument.
  */
 import type { SourceEntry } from '../body/types.ts';
 import { textOf } from './no-new-text.ts';

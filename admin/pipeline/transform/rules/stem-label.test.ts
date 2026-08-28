@@ -34,11 +34,14 @@ describe('asteriskStemStrayPeriod', () => {
 		expect(result.records).toEqual([]);
 	});
 
-	// The four sub-shapes this rule must NOT touch. Each is a live
-	// member of `stem-label-not-a-binyan-name` (66) whose repair is a
-	// model ruling or a per-entry reading, and each would be silently
-	// mangled by a looser predicate: `"Pa., part. pass."` is a print
-	// section head, not a label with debris.
+	// The rule's refusals. The first six are one value from each of the
+	// four sub-shapes of `stem-label-not-a-binyan-name` (66), whose
+	// repair is a model ruling or a per-entry reading; the seventh,
+	// `"Hithpa. a. Nithpa."`, is in NO catalogue row — it is a
+	// legitimate multi-stem heading the corpus spells 7 times, included
+	// here as a guard because a looser predicate would eat it. So is
+	// `"Pa., part. pass."`, which is a print section head rather than a
+	// label with debris.
 	const refused: [string, string][] = [
 		['siglum alone', '*.'],
 		['siglum with a space', '* .'],

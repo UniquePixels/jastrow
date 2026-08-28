@@ -69,12 +69,17 @@ interface Census {
 	choppedResidueAfter: number;
 	chopRecords: number;
 	corpusEntries: number;
+	/** Senses carrying `—2)` before the structural pass and after it.
+	 * The rule's yield is the DIFFERENCE: asserting the total would
+	 * pin a figure this batch does not own, and an upstream rule that
+	 * changed a sense number would then fail here for the wrong
+	 * reason. */
+	markersAfter: number;
+	markersBefore: number;
 	nonBinyanAfter: number;
 	/** `verbal_stem` values that are not binyan names, before and
 	 * after the text-repairs pass, and the stray-period sub-shape. */
 	nonBinyanBefore: number;
-	/** Siblings carrying `—2)` that the rule wrote. */
-	renumbered: number;
 	strayAfter: number;
 	strayBefore: number;
 }
@@ -141,9 +146,10 @@ async function build(): Promise<Census> {
 		choppedResidue: 0,
 		choppedResidueAfter: 0,
 		corpusEntries: 0,
+		markersAfter: 0,
+		markersBefore: 0,
 		nonBinyanAfter: 0,
 		nonBinyanBefore: 0,
-		renumbered: 0,
 		strayAfter: 0,
 		strayBefore: 0,
 	};
@@ -161,6 +167,11 @@ async function build(): Promise<Census> {
 		const pre = chopCounts(texted);
 		c.choppedEmpty += pre.empty;
 		c.choppedResidue += pre.residue;
+		walk(texted.content.senses, (sense) => {
+			if (sense.number === '—2)') {
+				c.markersBefore++;
+			}
+		});
 
 		const run = applyTransforms(texted, 'structural-repairs');
 		c.chopRecords += run.records.length;
@@ -172,7 +183,7 @@ async function build(): Promise<Census> {
 		c.choppedResidueAfter += post.residue;
 		walk(run.entry.content.senses, (sense) => {
 			if (sense.number === '—2)') {
-				c.renumbered++;
+				c.markersAfter++;
 			}
 		});
 	}
@@ -210,13 +221,15 @@ it('leaves every residue-bearing member exactly as it found it', async () => {
 	expect(c.choppedResidueAfter).toBe(c.choppedResidue);
 });
 
-// 3,985 `number` fields already read `—2)`, so the 18 the rule writes
-// land in a population three orders of magnitude larger. Asserted as a
-// delta against the input rather than as a total, since the total is
-// not this batch's to own.
+// `—2)` is the corpus's own spelling of a second sense marker, and the
+// population it joins is three orders of magnitude larger — 3,985 at
+// the time of writing. The assertion is the DELTA, not the total: the
+// total is not this batch's to own, and pinning it would fail here the
+// day an unrelated rule touched a sense number.
 it('adds exactly 18 sense markers, and writes them nowhere else', async () => {
 	const c = await census();
-	expect(c.renumbered).toBe(3985 + 18);
+	expect(c.markersAfter - c.markersBefore).toBe(18);
+	expect(c.markersBefore).toBeGreaterThan(3000);
 });
 
 it('repairs the three stray-period stem labels', async () => {

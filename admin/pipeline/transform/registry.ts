@@ -999,11 +999,20 @@ const PENDING: readonly string[] = [
 	// licenses D00478's repair. See the block at the head of `RULES`.
 	// `stem-head-marker-chop` left this list in batch 6b: it is
 	// registered above, and is the first rule the `structural-repairs`
-	// phase has ever run. 18 of the row's 28 — the members whose marker
-	// has an EMPTY residue. The other 10 are refused by the predicate,
-	// 3 of them because they hold the real opening of sense 2 and a
-	// delete-the-marker rule would destroy it; the row's `reason`
-	// carries that split.
+	// phase has ever run. It repairs **18** — the members whose marker
+	// has an EMPTY residue — of the **28** the row's round-3 flag
+	// measured on RAW source. The other 10 are refused by the
+	// predicate, 3 of them because they hold the real opening of sense
+	// 2 and a delete-the-marker rule would destroy it; they are now
+	// their own row, `chopped-marker-with-residue`.
+	//
+	// The corpus census counts **9**, not 10, of those refusals, and the
+	// difference is not a disagreement: it measures the entry as this
+	// phase receives it — after `applyRepairs` and the whole
+	// `text-repairs` pass — where one member no longer presents the
+	// shape at all. 18 + 9 = 27 there against 18 + 10 = 28 raw. The row
+	// keeps the raw figure, because that is what it was catalogued from;
+	// `rules/stem-corpus.test.ts` asserts the composed one.
 	'vkh-geresh-loss',
 	// `tosefta-variant-chapter-halakha-loss` left this list on
 	// 2026-08-27 (fix/link-target-gate-cases): `toseftaPrimaryHalakha`

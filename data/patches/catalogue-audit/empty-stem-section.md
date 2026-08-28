@@ -94,13 +94,21 @@ grouping.
 
 ```bash
 bun -e 'import {readSourceEntries} from "./admin/pipeline/body/source.ts";
-let n=0,e=0,slot=0;
-const walk=(s,f)=>{for(const x of s){f(x);walk(x.senses??[],f);}};
-for await (const y of readSourceEntries()){let hit=false;
-  walk(y.content.senses,(s)=>{const g=s.grammar; if(!g) return;
-    const has=(g.binyan_form?.length??0)>0||g.verbal_stem!==undefined;
+let sections=0,entries=0,slot=0,nextIsStem=0;
+for await (const e of readSourceEntries()){let hit=false;
+  // TOP LEVEL ONLY — the audit measures `content.senses`, not the tree.
+  e.content.senses.forEach((s,i)=>{const g=s.grammar; if(g===undefined) return;
+    const has=(g.binyan_form??[]).length>0||g.verbal_stem!==undefined;
     const content=(s.definition!==undefined&&s.definition!=="")||(s.senses??[]).length>0;
-    if(has&&!content){n++;hit=true;if((g.binyan_form??[]).at(-1)==="")slot++;}});
-  if(hit)e++;}
-console.log({sections:n,entries:e,trailingEmptySlot:slot});'
+    if(!has||content) return;
+    sections++; hit=true;
+    if((g.binyan_form??[]).at(-1)==="") slot++;
+    if(e.content.senses[i+1]?.grammar!==undefined) nextIsStem++;});
+  if(hit) entries++;}
+console.log({sections,entries,trailingEmptySlot:slot,nextIsStem});'
 ```
+
+    { sections: 347, entries: 342, trailingEmptySlot: 347, nextIsStem: 347 }
+
+The three 347s are the audit: every section carries the split residue,
+and every one is followed by another stem block.

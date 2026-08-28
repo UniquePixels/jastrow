@@ -230,8 +230,8 @@ several. Expressing the sharing structurally needs a model that has a
 way to say "these stems share a gloss", which `entry.schema.json` does
 not have.
 
-**Recommendation: withdraw to `judgment`** with this audit published —
-the `abbrev-headword-stub` shape — because the open question is a
+**Recommendation: withdraw to `judgment`** with this audit published,
+in the shape of batch 5's `abbrev-headword-stub` withdrawal — because the open question is a
 model question and a per-entry reading, not a missing predicate. The
 alternative is `discarded`, which would claim there is no defect at
 all; that is not established, since a reader meeting a bare `Pa.
