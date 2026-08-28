@@ -26,9 +26,12 @@ is one line.** This is batch 3a's two-owner collision recurring for the
 fourth time; 3a found its own by accident at the last task of the batch,
 after the rule had shipped. The difference here is only *where the
 population was counted*: in `applyRepairs(entry).entry`, not in `entry`.
-**`transform:count` and every census in the suite measure raw source**,
-so raw-source measurement cannot distinguish "no rule owns this" from
-"a rule already owns this and you are about to write a second one".
+**`transform:count` and every census that predates this batch measure
+raw source**, and raw-source measurement cannot distinguish "no rule
+owns this" from "a rule already owns this and you are about to write a
+second one". The gate this PR adds is the first that counts both sides
+— `censusRaw` on the source entry and `censusPost` on
+`applyRepairs(entry).entry`, in one walk.
 
 **3. `stranded-stem-head` is over-measured by 31, and the discovery
 predicate is not recorded anywhere.** The row claims 544 entries. The
@@ -101,8 +104,10 @@ ROW, not the finding.
 
 **A discard grounded in another module needs a gate, or it is a
 promise.** Deleting `cleanBinyanForms` would restore 523 leading spaces
-and 486 empty slots with no catalogue row left to describe them, and no
-other test in the suite counted either shape.
+and 486 empty slots with no ACTIVE catalogue row left to describe them —
+both rows survive as `status: discarded` records of what was repaired
+and why, which is not the same as a row anything routes work from — and
+no other test in the suite counted either shape.
 `binyan-cleanup.corpus.test.ts` asserts the raw figures, both zeroes,
 the index-0 evidence (0 — the row's own argument for a split site), the
 empty trailing population, and the pass's record count (938 records /
@@ -113,7 +118,7 @@ empty trailing population, and the pass's record count (938 records /
 The row's predicate was never written down, so "reproduce the count" has
 no exact target. Reconstruction, over `definition` at every sense depth:
 
-```
+```text
 ^[\s,;.=]*<i>\s*STEM\.(\s*[/,]\s*STEM\.)*\s*</i>
 ```
 
@@ -143,7 +148,7 @@ measured: **every one carries no `definition` at all** (69 of 69 —
 | punctuation-only debris `"[."` ×6, `"[[."`, `"(."`, `",."`, `"."` | 10 | a delimiter torn off the block's own text |
 | print section heads `"Compounds: ."`, `"Fem."`, `"Part. Hof."`, … | 9 | the block is not a stem section |
 | `"*Pa."`, `"*Nif."`, `"*Ithpe."` | 3 | siglum retained WITH a valid label |
-| stray period `"Pa. ."` ×2, `"Af. ."` | 3 | trim ` .` — the only mechanical one |
+| stray period `"Pa. ."` ×2, `"Af. ."` | 3 | drop the trailing space-period — the only mechanical one |
 
 **The 69th is `S01317`, and it is in two rows at once.** It is the one
 member with no child senses and no definition — which is

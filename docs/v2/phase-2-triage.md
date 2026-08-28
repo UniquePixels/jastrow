@@ -54,8 +54,8 @@ someone pins the predicate.
 
 | Route | Rows | Instances | What it needs |
 |---|---:|---:|---|
-| **transform** | **72** | **22,017** | deterministic code + tests |
-| judgment | 55 | 15,885 | per-entry reading (Opus pass or maintainer) |
+| **transform** | **69** | **21,080** | deterministic code + tests |
+| judgment | 56 | 15,919 | per-entry reading (Opus pass or maintainer) |
 | blocked | 5 | 4,947 | pin the predicate first |
 
 Phase 1 closed this table at 81 / 46 / 5. Every move since has been a
@@ -182,7 +182,7 @@ either reproduces the count or does not.
 | `unlinked-v-span` | 796 | no | ⚠ unaudited |
 | `nonsense-dup-anchor` | 755 | **yes** | — |
 | `pesikta-drk-never-linked` | 695 | no | — |
-| `parenthesized-alt-headword` | 580 | **yes** | ⚠ unaudited |
+| `parenthesized-alt-headword` | 580 | **yes** | — |
 | `stranded-stem-head` | 544 | **yes** | — |
 | `redundant-outer-rtl-span` | 529 | no | — |
 | `anchor-swallows-close-paren` | 493 | no | — |
@@ -461,19 +461,18 @@ after launch unless something else forces the issue.
   transform" was arguable — lost-text rows especially — the row was
   marked blocking. Wrong that way costs pre-launch effort; wrong the
   other way ships a baked-in defect.
-- **3 of the 5 unaudited transform rows block the cutover, and they
+- **2 of the 4 unaudited transform rows block the cutover, and they
   carry the least confidence**, having no recorded derivation behind
   their counts. Recomputed rather than typed:
 
-  > **CORRECTED 2026-08-26 (impl/phase-2-batch-4).** This read *"4 of
-  > the 9"*, recomputed 2026-08-25 (itself replacing a Phase-1 "8" that
-  > three route changes had left behind) and stale twice over since:
-  > the set stood at **6 unaudited / 4 blocking** at this branch's
-  > point, and batch 4 wrote a `reason` onto
-  > `open-paren-in-anchor-display` — the largest unreasoned row in the
-  > catalogue, spec §2.2 — leaving **5 unaudited, 3 of them blocking**.
-  > Same figures as item 4 of "Ordering and open questions", from this
-  > same query.
+  > **CORRECTED 2026-08-28 (impl/phase-2-batch-6).** This read *"3 of
+  > the 5"*, itself a 2026-08-26 correction of *"4 of the 9"* (which had
+  > replaced a Phase-1 "8" that three route changes left behind). Batch
+  > 5 wrote a `reason` onto `parenthesized-alt-headword` while writing
+  > its rule, leaving **4 unaudited, 2 of them blocking**. Same figures
+  > as item 4 of "Ordering and open questions", from this same query —
+  > and the reason this note keeps needing a correction is that both
+  > copies are typed rather than generated.
 
   ```bash
   bun -e 'import {parsePatterns} from "./admin/pipeline/research/patterns.ts";

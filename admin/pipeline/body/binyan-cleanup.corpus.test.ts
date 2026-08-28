@@ -27,8 +27,11 @@ import type { SourceSense } from './types.ts';
 
 interface Census {
 	corpusEntries: number;
-	/** The same three counts after `applyRepairs`. Every one is the
-	 * discard's premise and must be 0. */
+	/** The same three shapes after `applyRepairs`. Every one is the
+	 * discard's premise and must be 0. Wider than the raw pair on one
+	 * axis deliberately: the leading count here takes ANY index, so a
+	 * repair that moved a defect to index 0 would fail rather than
+	 * vanish between the two questions. */
 	postEmptySlots: number;
 	postLeadOccurrences: number;
 	postTrailOccurrences: number;
@@ -67,16 +70,18 @@ function walk(
 	}
 }
 
-/** Every `binyan_form` array in one entry, senses nested to any depth. */
-function formsOf(senses: readonly SourceSense[]): string[][] {
-	const arrays: string[][] = [];
+/** Every `binyan_form` item in one entry, senses nested to any depth,
+ * paired with its index in its OWN array. The index is load-bearing:
+ * the row's whole evidence for a split site is that index 0 never
+ * carries the defect. */
+function itemsOf(senses: readonly SourceSense[]): [number, string][] {
+	const items: [number, string][] = [];
 	walk(senses, (sense) => {
-		const forms = sense.grammar?.binyan_form;
-		if (forms !== undefined) {
-			arrays.push(forms);
+		for (const pair of sense.grammar?.binyan_form?.entries() ?? []) {
+			items.push(pair);
 		}
 	});
-	return arrays;
+	return items;
 }
 
 function zero(): Census {
@@ -96,6 +101,24 @@ function zero(): Census {
 	};
 }
 
+/** Which of the four raw shapes one `binyan_form` item is, at its own
+ * index. An empty slot is only that — it carries no edge to test — and
+ * a leading space is either the row's defect or the index-0 shape the
+ * row says does not exist, never both. */
+function classify(
+	value: string,
+	index: number,
+): { empty: boolean; lead: boolean; leadAtZero: boolean; trail: boolean } {
+	const empty = value === '';
+	const leading = !empty && LEADING.test(value);
+	return {
+		empty,
+		lead: leading && index > 0,
+		leadAtZero: leading && index === 0,
+		trail: !empty && TRAILING.test(value),
+	};
+}
+
 /** One entry's raw figures, folded in. Returns per-entry presence so
  * the caller can tally ENTRIES as well as occurrences — the catalogue
  * states both, and only the pair distinguishes 523 items from 457
@@ -103,23 +126,12 @@ function zero(): Census {
 function censusRaw(c: Census, senses: readonly SourceSense[]): void {
 	let empty = 0;
 	let lead = 0;
-	for (const forms of formsOf(senses)) {
-		for (const [index, value] of forms.entries()) {
-			if (value === '') {
-				empty++;
-				continue;
-			}
-			if (LEADING.test(value)) {
-				if (index === 0) {
-					c.rawLeadAtZero++;
-				} else {
-					lead++;
-				}
-			}
-			if (TRAILING.test(value)) {
-				c.rawTrailOccurrences++;
-			}
-		}
+	for (const [index, value] of itemsOf(senses)) {
+		const shape = classify(value, index);
+		empty += Number(shape.empty);
+		lead += Number(shape.lead);
+		c.rawLeadAtZero += Number(shape.leadAtZero);
+		c.rawTrailOccurrences += Number(shape.trail);
 	}
 	c.rawEmptySlots += empty;
 	c.rawLeadOccurrences += lead;
@@ -131,22 +143,16 @@ function censusRaw(c: Census, senses: readonly SourceSense[]): void {
 	}
 }
 
-/** The same three shapes, counted on the REPAIRED entry. Each must
+/** The same shapes, counted on the REPAIRED entry through the same
+ * `classify` — one predicate, both sides, so a post figure of 0 cannot
+ * be an artefact of the two sides asking different questions. Each must
  * total 0 corpus-wide; that is the discard's whole premise. */
 function censusPost(c: Census, senses: readonly SourceSense[]): void {
-	for (const forms of formsOf(senses)) {
-		for (const [index, value] of forms.entries()) {
-			if (value === '') {
-				c.postEmptySlots++;
-				continue;
-			}
-			if (index > 0 && LEADING.test(value)) {
-				c.postLeadOccurrences++;
-			}
-			if (TRAILING.test(value)) {
-				c.postTrailOccurrences++;
-			}
-		}
+	for (const [index, value] of itemsOf(senses)) {
+		const shape = classify(value, index);
+		c.postEmptySlots += Number(shape.empty);
+		c.postLeadOccurrences += Number(shape.lead || shape.leadAtZero);
+		c.postTrailOccurrences += Number(shape.trail);
 	}
 }
 

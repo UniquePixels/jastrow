@@ -138,8 +138,10 @@
  * and the opposite edge — and it is `discarded` since batch 6a, since
  * `repairs.ts`'s `cleanBinyanForms` already trims that field upstream
  * of every rule here. So the check now holds for a second reason: no
- * catalogued row claims whitespace on ANY field but this one. The only
- * rule that could hand this one a new member is
+ * ACTIVE catalogued row claims whitespace on ANY field but this one —
+ * the discarded pair survives in `patterns.jsonl` as a record of what
+ * was repaired and why, which routes no work. The only rule that could
+ * hand this one a new member is
  * `emphasisRunEdgeSpace` above, and BOTH of that rule's edges are
  * pinned in the corpus tier, because it demonstrably moves one of
  * them:

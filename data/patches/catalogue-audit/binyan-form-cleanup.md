@@ -85,8 +85,11 @@ and the repair is in the right place.
 
 A discard whose ground is "another module repairs it" is only as durable
 as that module. Deleting or narrowing `cleanBinyanForms` would restore
-523 leading spaces and 486 empty slots with **no catalogue row left to
-describe them**, and no other test in the suite counts either shape.
+523 leading spaces and 486 empty slots with **no ACTIVE catalogue row
+left to describe them** — both rows survive in `patterns.jsonl` as
+`status: discarded` records of what was repaired and why, which is a
+different thing from a row anything routes work from — and no other
+test in the suite counts either shape.
 
 `admin/pipeline/body/binyan-cleanup.corpus.test.ts` closes that: it
 asserts the raw figures, the two zeroes, the index-0 evidence, the empty
@@ -99,9 +102,10 @@ The three shipped batches that met a two-owner collision each found it
 *after* writing the rule — 3a found the gershayim one at the last task
 of the batch, by accident. This one was found before the rule existed,
 by measuring the row's population **after `applyRepairs`** rather than
-on raw source. `transform:count` and every census in the suite measure
-raw source, which is precisely the blind spot 3a recorded and
-`docs/v2/transform-batch-3a.md` §9.2 proposed a sweep for.
+on raw source. `transform:count` and every census that predates this
+audit measure raw source, which is precisely the blind spot 3a recorded
+and `docs/v2/transform-batch-3a.md` §9.2 proposed a sweep for; the gate
+this audit adds is the first that counts both sides in one walk.
 
 **The generalisable step is one line of probe:** before writing a rule,
 count its population in `applyRepairs(entry).entry`, not in `entry`. Two
