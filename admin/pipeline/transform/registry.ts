@@ -975,8 +975,20 @@ const PENDING: readonly string[] = [
 	'homograph-roman-stranded-in-definition',
 	'holam-migrated-off-mater-vav',
 	'impossible-dagesh',
-	'binyan-form-leading-space',
-	'binyan-form-empty-slot',
+	// `binyan-form-leading-space` (523 occ / 457 ent) and
+	// `binyan-form-empty-slot` (486 slots / 446 ent) left this list in
+	// batch 6a: both are `status: discarded` in `patterns.jsonl` (Brian's
+	// ruling 2026-08-28), so `coverage()` no longer counts them and
+	// neither list may hold them. NOT withdrawn for want of a mechanism —
+	// `repairs.ts:445 cleanBinyanForms` already performs exactly the
+	// repair each row asks for, corpus-wide, inside `applyRepairs` and so
+	// UPSTREAM of every rule here. Measured: 523 → 0 and 486 → 0 across
+	// all 32,512 entries. A rule registered for either would have matched
+	// nothing while its row claimed hundreds — the batch-3a two-owners
+	// failure, caught this time before the rule existed rather than at
+	// the last task. The premise is pinned corpus-wide by
+	// `body/binyan-cleanup.corpus.test.ts`; the audit is
+	// `data/patches/catalogue-audit/binyan-form-cleanup.md`.
 	'plural-label-rendering-defeats-capture',
 	'continuation-marker-em-dash-loss',
 	'tanhuma-never-linked',
