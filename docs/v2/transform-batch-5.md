@@ -32,7 +32,10 @@ headword אַבְזָקַת   alt_headwords ['(אַבְזָקָא', 'אַבְז�
 
 **69 of the 84 open-only items pair with a later close-only item in the
 same array** — 52 adjacent, 17 spanning intervening items that are
-inside the parentheses too. Only 28 are genuinely orphaned. This is an
+inside the parentheses too. That leaves **15 unmatched opens and 12
+unmatched closes**, and one further item whose close sits mid-string
+with its open in a different item: **28 items carrying an unmatched
+delimiter, 27 of them inside the two one-sided buckets.** This is an
 upstream **split-site** defect of the same family as
 `binyan-form-leading-space`, whose own `reason` calls a 100% rate *"the
 signature of a split-on-delimiter that never strips"*. §3.

@@ -5,6 +5,7 @@ import type { Rule, TransformResult } from '../types.ts';
 import {
 	abbrevFusedHeadword,
 	genderPairAltDuplicate,
+	headwordToken,
 	parenAltHeadword,
 	phraseAltHeadwordStub,
 	refusesStrip,
@@ -400,4 +401,27 @@ it('leaves a duplicate-free array by identity', () => {
 		rid: 'X00009',
 	};
 	expect(genderPairAltDuplicate.apply(source).entry).toBe(source);
+});
+
+/**
+ * `headwordToken` drops mark TOKENS, and `SUPERSCRIPT` is a bare
+ * character class rather than an anchored one — so a token like `'אב²'`
+ * would be dropped entirely, losing its letters into a substitution that
+ * still looked plausible. Measured at ZERO in this corpus, but the
+ * pipeline re-fetches, so the guard returns `''` and `expandStub` reads
+ * that as a refusal.
+ *
+ * The shapes that DO occur must be unaffected, which is the second half
+ * of this test: a space-separated superscript and a Roman numeral are
+ * still dropped cleanly.
+ */
+it('refuses a headword whose mark is fused to its letters', () => {
+	expect(headwordToken('אב²')).toBe('');
+	expect(phrase(['בֵּי א׳'], 'אב²')).toEqual(['בֵּי א׳']);
+});
+
+it('still drops a separated superscript or Roman numeral', () => {
+	expect(headwordToken('אַבָּא ²')).toBe('אַבָּא');
+	expect(headwordToken('מְקוֹשֵׁשׁ II')).toBe('מְקוֹשֵׁשׁ');
+	expect(headwordToken('*זַרְוַאי')).toBe('זַרְוַאי');
 });

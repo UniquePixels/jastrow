@@ -856,8 +856,6 @@ const RULES: readonly Rule[] = [
 	labelPeriodInside,
 	italicGlossPeriodOutside,
 
-	// ---- `trailingWhitespaceDefinition` LAST ----
-	//
 	// ---- batch 5, the headword-field family -------------------------
 	//
 	// The first rules in this registry whose object is a FIELD rather
@@ -890,6 +888,9 @@ const RULES: readonly Rule[] = [
 	// — the commutation gate composes them against all 37.
 	abbrevFusedHeadword,
 	genderPairAltDuplicate,
+
+	// ---- `trailingWhitespaceDefinition` LAST ----
+	//
 	// Measured 0 / 0 — free, and last by argument. It trims the entry's
 	// deepest-last sense, so it must see that sense as every earlier
 	// rule leaves it. `emphasisRunEdgeSpace` is the one rule that could

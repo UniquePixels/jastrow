@@ -433,9 +433,11 @@ it('the paren rule must run first, and the orders disagree', async () => {
 }, 180_000);
 
 /**
- * The two small rules over the corpus, through the gates. Both counts
- * reproduce their catalogued figures exactly — 6 of `abbrev-fused-
- * headword`'s 7 plus the one refusal, and all 22 of the duplicate row.
+ * The two small rules over the corpus, through the gates.
+ * `abbrev-fused-headword` repairs 4 of its 7 and REFUSES 3 — `A02002` by
+ * shape, `K00107` and `P00137` because another entry's anchor names
+ * their old headword string. `gender-pair-headword-line-collapse`
+ * reproduces its catalogued 22 exactly.
  *
  * `morphologyChanged: 0` is the guard on a decision, not a
  * description of one: 21 of the 22 carry a `'f.'` that is wrong about
@@ -486,8 +488,8 @@ it('repairs 4 fused headwords and 22 duplicate arrays', async () => {
 /**
  * **FORWARD HAZARD, MEASURED.** The data architecture's §5 gate walks
  * the `prev_hw`/`next_hw` chain and compares against `headword` AS A
- * STRING. `abbrevFusedHeadword` rewrites 6 headwords and touches no
- * neighbour's pointer, so 12 pointers — one on each side of each
+ * STRING. `abbrevFusedHeadword` rewrites 4 headwords and touches no
+ * neighbour's pointer, so 8 pointers — one on each side of each
  * repaired entry, perfectly uniform — now name a string no entry
  * carries. Batch 3a left 68 entries diverging the same way; this is
  * additive to that, not a repeat of it.

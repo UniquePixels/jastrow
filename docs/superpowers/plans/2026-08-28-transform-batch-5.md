@@ -47,7 +47,13 @@ measurement wins and the disagreement is the finding**.
 - Edit `patterns.jsonl` **surgically**, one line at a time —
   `renderPatterns()` reformats all 150 rows.
 - Registry order is load-bearing; the order test asserts it against the
-  live graph. This batch adds **no** `entangledWith` edges (spec §1).
+  live graph. This batch adds **no** `entangledWith` edges (spec §1). **AS SHIPPED:
+  that claim is RETRACTED.** The batch's own two rules do not commute —
+  paren-first the phrase rule fires 236 times, phrase-first 235 — so
+  `parenthesized-alt-headword` and `phrase-alt-headword-stub` declare an
+  edge on both rows and the derived cluster count moves 4 → 5. The spec's
+  §1 argued about the rules ALREADY registered and generalised silently
+  to the two the batch was adding.
 
 ## File structure
 
@@ -223,7 +229,11 @@ instead."*
       carrying a Roman mark that must survive, and a member whose
       headword carries `*`.
 - [ ] Corpus test: 244 occ / 236 ent, and **0 items containing a geresh
-      remain among them** after the rule.
+      remain among them** after the rule. **AS SHIPPED: 235 occ / 228 ent
+      measured ALONE, 9 refused** — six pointing conflicts plus `H00247`,
+      `A02403` and `B00780`; composed paren-first the count is 236.
+      Geresh-bearing items DO remain, and every refusal is asserted by
+      rid.
 - [ ] `biome check .`; full suite green.
 - [ ] Commit: `🦄 new(transform): expand phrase headword stubs`
 

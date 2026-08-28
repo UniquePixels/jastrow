@@ -181,12 +181,34 @@ const WHITESPACE_SPLIT = /\s+/u;
  * homograph/disambiguator marks removed, leaving the spelling itself.
  * Substituting `*כְּפַר` would file a reconstruction mark into the middle
  * of a phrase, and `מְקוֹשֵׁשׁ II` would carry a homograph numeral into a
- * toponym. */
+ * toponym.
+ *
+ * **FAIL-CLOSED ON A MARK THIS DOES NOT KNOW HOW TO SEPARATE.**
+ * `ROMAN_MARK` is anchored and so only ever drops a whole token, but
+ * `SUPERSCRIPT` is a bare character class: a token like `'אב²'` would be
+ * dropped ENTIRELY, silently losing its letters into a substitution that
+ * still looks plausible. Measured at ZERO in this corpus — no headword
+ * token carries a superscript attached to letters — but that is a fact
+ * about today's snapshot, and this pipeline re-fetches. So a dropped
+ * token that carried a Hebrew letter returns `''` instead, which
+ * `expandStub` reads as a refusal.
+ *
+ * The alternative, stripping the mark out of the token, would invent a
+ * spelling decision the source did not make. Declining is the same
+ * answer this family gives everywhere else it cannot see the whole
+ * picture. */
 function headwordToken(headword: string): string {
-	return headword
+	const tokens = headword
 		.trim()
 		.replace(LEADING_STAR, '')
-		.split(WHITESPACE_SPLIT)
+		.split(WHITESPACE_SPLIT);
+	const dropped = tokens.filter(
+		(t) => ROMAN_MARK.test(t) || SUPERSCRIPT.test(t),
+	);
+	if (dropped.some((t) => HEBREW_LETTER.test(t))) {
+		return '';
+	}
+	return tokens
 		.filter((t) => !(ROMAN_MARK.test(t) || SUPERSCRIPT.test(t)))
 		.join(' ')
 		.trim();
@@ -339,8 +361,17 @@ const phraseAltHeadwordStub: Rule = {
 
 // ---------------------------------------------------------------- rule 3
 
+/** Fused headwords some other entry's anchor points at by their OLD
+ * string. Rewriting them would break a live link, so they are declined.
+ * Asserted EXACTLY equal to the measured set in the corpus test — an
+ * enumerated exception that is loud on drift, never a quiet skip. */
+const LINKED_HEADWORDS: ReadonlySet<string> = new Set([
+	'כִּדְ׳ כַּדְבוּבָא',
+	'עָ׳ עַדְיָא',
+]);
+
 /**
- * `abbrev-fused-headword` — 7 corpus-wide, 6 repaired.
+ * `abbrev-fused-headword` — 7 corpus-wide, 4 repaired, 3 refused.
  *
  * Print sets a lemma and its abbreviated second form on one headword
  * line; the abbreviation was hoisted AHEAD of the lemma into `headword`
@@ -366,7 +397,7 @@ const phraseAltHeadwordStub: Rule = {
  * geresh token to come FIRST, which refuses it by shape; the corpus
  * test asserts that shape selects exactly that rid.
  *
- * **TWO OF THE SIX ARE REFUSED BECAUSE ANOTHER ENTRY LINKS TO THEM,
+ * **TWO MORE ARE REFUSED BECAUSE ANOTHER ENTRY LINKS TO THEM,
  * AND THAT IS THIS RULE'S SHARPEST FINDING.** Rewriting a headword
  * silently invalidates every anchor whose `data-ref` names the OLD
  * string, and two do:
@@ -398,20 +429,11 @@ const phraseAltHeadwordStub: Rule = {
  * **FORWARD HAZARD, and it compounds one batch 3a already recorded:**
  * the data architecture's §5 gate walks the `prev_hw`/`next_hw` chain
  * and compares against `headword` AS A STRING. Batch 3a left 68
- * entries diverging that way; this rule rewrites 6 more headwords and
+ * entries diverging that way; this rule rewrites 4 more headwords and
  * leaves every neighbour's pointer untouched. Whoever writes
  * `migrate.ts` must walk the SOURCE chain or de-map both sides. The
  * exact divergence count is asserted in `headword.corpus.test.ts`.
  */
-/** Fused headwords some other entry's anchor points at by their OLD
- * string. Rewriting them would break a live link, so they are declined.
- * Asserted EXACTLY equal to the measured set in the corpus test — an
- * enumerated exception that is loud on drift, never a quiet skip. */
-const LINKED_HEADWORDS: ReadonlySet<string> = new Set([
-	'כִּדְ׳ כַּדְבוּבָא',
-	'עָ׳ עַדְיָא',
-]);
-
 const abbrevFusedHeadword: Rule = {
 	apply: (entry: SourceEntry): TransformResult => {
 		const trimmed = entry.headword.trim();
