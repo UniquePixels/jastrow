@@ -13,6 +13,12 @@ import {
 } from './rules/edge-trim.ts';
 import { gereshLetterNumeral, prefixedGereshAbbrev } from './rules/geresh.ts';
 import { gershayimInBody, gershayimRefAttribute } from './rules/gershayim.ts';
+import {
+	abbrevFusedHeadword,
+	genderPairAltDuplicate,
+	parenAltHeadword,
+	phraseAltHeadwordStub,
+} from './rules/headword.ts';
 import { italicSwallowsCloseParen } from './rules/italic-paren.ts';
 import {
 	italicGlossPeriodOutside,
@@ -850,6 +856,56 @@ const RULES: readonly Rule[] = [
 	labelPeriodInside,
 	italicGlossPeriodOutside,
 
+	// ---- batch 5, the headword-field family -------------------------
+	//
+	// The first rules in this registry whose object is a FIELD rather
+	// than markup. They touch `headword`, `alt_headwords` and nothing
+	// else.
+	//
+	// **ONE RULE ABOVE DOES REACH THAT INPUT, and an earlier draft of
+	// this block asserted otherwise while this branch was measuring the
+	// interaction.** `gershayimInBody` is scoped to every field
+	// `fieldsOf` walks — its own row records `headword` 69 and
+	// `alt_headwords` 19 — and it composes with `phraseAltHeadwordStub`
+	// in a way `body/pipeline-links.test.ts` pins: it repairs an ASCII
+	// quote in a HEADWORD, the phrase rule then copies that repaired
+	// headword into `alt_headwords`, and the corpus gershayim count
+	// moves 2,305 → 2,309.
+	//
+	// The placement is nevertheless free, and that is MEASURED rather
+	// than assumed: both orders give 92 marks across these two fields
+	// and 235 phrase records, because `gershayimInBody` walks every
+	// field and so repairs the copy too if it runs second. The pair
+	// converges; it is not isolated. The commutation gate agrees —
+	// 0 undeclared.
+	//
+	// What is NOT free is their order relative to each other.
+	//
+	// `parenAltHeadword` MUST precede `phraseAltHeadwordStub`, and the
+	// pair is `entangledWith` on both rows so `checkAdjacency()` holds
+	// them gap-free. They do not commute, by one occurrence in each
+	// direction: `B00780` holds `'(עֵין ב׳)'`, whose stub token is
+	// `'ב׳)'` — `expandStub` refuses anything following the geresh, so
+	// phrase-first cannot see it, while paren-first strips the
+	// delimiters and it expands normally. `A02403` moves the other way,
+	// its `'אסת׳ )'` becoming a single token that leaves the phrase
+	// population altogether. Composed paren-first the phrase rule fires
+	// 236 times; phrase-first, 235. Pinned in
+	// `rules/headword.corpus.test.ts` in the shape of the disagreement.
+	//
+	// The batch's spec argued this batch would add no entanglement at
+	// all, reasoning about OTHER rules and never checking its own pair.
+	// The commutation gate of PR #50 is what caught it.
+	parenAltHeadword,
+	phraseAltHeadwordStub,
+	// The other two share the family's object but interact with nothing:
+	// `abbrevFusedHeadword` is the only rule in the registry that
+	// rewrites `headword`, and `genderPairAltDuplicate` keys on whole
+	// array values that no other rule constructs. Measured, not assumed
+	// — the commutation gate composes them against all 37.
+	abbrevFusedHeadword,
+	genderPairAltDuplicate,
+
 	// ---- `trailingWhitespaceDefinition` LAST ----
 	//
 	// Measured 0 / 0 — free, and last by argument. It trims the entry's
@@ -889,13 +945,22 @@ const PENDING: readonly string[] = [
 	'sense-number-outside-closed-grammar',
 	'bracketed-gloss-lead-sense',
 	'asterisk-stem-label',
-	'parenthesized-alt-headword',
+	// `parenthesized-alt-headword` and `phrase-alt-headword-stub` left
+	// this list in batch 5: both are registered above, adjacent and
+	// entangled.
 	'b-h-split-across-field-boundary',
 	'mekhilta-sifra-never-linked',
-	'gender-pair-headword-line-collapse',
 	'reversed-hebrew-phrase',
 	'empty-lead-sense',
-	'abbrev-fused-headword',
+	// `abbrev-headword-stub` left this list in batch 5 Task 1: AUDITED
+	// TO `judgment` in `patterns.jsonl` (audit
+	// `data/patches/catalogue-audit/abbrev-headword-stub.md`, ruled by
+	// Brian 2026-08-28), so `coverage` no longer counts it and neither
+	// list may. At most 4 of its 34 entries hold anything that could
+	// supply the elided tail, against the 65.5% that already withdrew
+	// its parent row, and the shortfall is structural: the stub IS the
+	// headword, so no fuller spelling of the lexeme exists in the entry
+	// by construction.
 	// `unterminated-href-swallows-closing-tag` left this list on
 	// 2026-08-27 (fix/link-target-gate-cases): `unterminatedHref` is
 	// registered FIRST in `RULES` above, now that link-target case 6
@@ -914,7 +979,6 @@ const PENDING: readonly string[] = [
 	'binyan-form-empty-slot',
 	'plural-label-rendering-defeats-capture',
 	'continuation-marker-em-dash-loss',
-	'phrase-alt-headword-stub',
 	'tanhuma-never-linked',
 	'pesikta-drk-never-linked',
 	'duplicated-definition-opening-run',
@@ -922,7 +986,6 @@ const PENDING: readonly string[] = [
 	'v-sub-redirect-stub-mislink',
 	'midrash-petichta-unanchored',
 	'adjacent-verbatim-repetition',
-	'abbrev-headword-stub',
 	'containment-fallback-mislink',
 	// `post-anchor-numeral-duplication` left this list in batch 4 Task 6:
 	// audited to `judgment` in `patterns.jsonl` (Brian's ruling

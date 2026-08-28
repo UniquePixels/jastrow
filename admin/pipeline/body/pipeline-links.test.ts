@@ -304,7 +304,20 @@ describe('the pipeline preserves and repairs link targets', () => {
 		// a real gershayim would otherwise fail the line below with no
 		// hint that the corpus, not the transform, had moved.
 		expect(sourceMarks).toBe(0);
-		expect(marks).toBe(2305);
+		// 2,305 became 2,309 on 2026-08-28 (batch 5), and the four are
+		// COMPOSITION rather than new writes. `gershayimInBody` converts
+		// the ASCII quote in a HEADWORD to `״`, and
+		// `phraseAltHeadwordStub` — registered after it — then copies that
+		// repaired headword into `alt_headwords`, duplicating the mark.
+		// Measured: the phrase rule run alone against raw source adds
+		// ZERO, because the headword it copies still holds an ASCII quote
+		// there. Only the composed pipeline can see this, which is batch
+		// 3a's finding recurring in the direction it predicted.
+		//
+		// Every one of the four is `copied`-declared and verified against
+		// its own entry's post-repair input by `checkNoNewText`, so this
+		// is duplicated text, not invented text.
+		expect(marks).toBe(2309);
 	}, 600_000);
 
 	/**
