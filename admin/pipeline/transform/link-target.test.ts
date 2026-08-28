@@ -3,6 +3,7 @@ import type { SourceEntry } from '../body/types.ts';
 import { tokenize } from './html.ts';
 import { checkLinkTargets } from './link-target.ts';
 import { anchors } from './links.ts';
+import { fieldsOf } from './no-new-text.ts';
 import { applyTransforms } from './run.ts';
 import type { Rule, TransformResult } from './types.ts';
 
@@ -1019,5 +1020,889 @@ it('case 5 still refuses a flank the gate does not admit', () => {
 		),
 	).toEqual([
 		`glyph-corrected ${JSON.stringify(`Jastrow, \ufb2a${GERSHAYIM}ב 1`)} substitutes a quote that no Hebrew letters flank`,
+	]);
+});
+
+// ————————————————————————————————————————————————————————————————
+// CASE 6 — restored from the tag's own damaged bytes.
+//
+// Spec docs/specs/2026-08-27-link-target-gate-cases.md §2. Three
+// clauses, and each one gets a test that FAILS when the clause is
+// removed: an assertion that cannot fail is indistinguishable from one
+// that always holds.
+//
+// The fixtures below are D00478's shape, reassembled from the tag and
+// the offset rather than pasted, so the reader can see the defect: the
+// swallowed `</a>` sits at offset 54 of an otherwise intact opening
+// tag. `rules/malformed-href.test.ts` holds the verbatim corpus slice
+// and the corpus-tier pin; this file tests the GATE.
+
+/** The opening tag D00478's repair emits — `written` in the claim. */
+const D_TAG =
+	'<a dir="rtl" class="refLink" href="/Jastrow,_כָּלוּל.1" data-ref="Jastrow, כָּלוּל 1">';
+
+/** The one insertion offset the input corroborates, measured. */
+const D_AT = 54;
+
+/** The same tag as the input actually holds it: the `</a>` that should
+ * have followed the tag supplying the tag's own `>` instead. */
+const D_DAMAGED = `${D_TAG.slice(0, D_AT)}</a>${D_TAG.slice(D_AT)}`;
+
+const D_LEAD =
+	'<a class="refLink" href="/Mekhilta_d\'Rabbi_Yishmael.1" data-ref="Mekhilta d\'Rabbi Yishmael 1">Mekh. I. c., v. ';
+
+const D_BAD = `${D_LEAD}${D_DAMAGED}כָּלוּל</a>.`;
+const D_GOOD = `${D_LEAD}</a>${D_TAG}כָּלוּל</a>.`;
+
+/** One case-6 claim, shaped by the result contract rather than
+ * inferred, so a change to the declaration is a type error here. */
+type Restore = NonNullable<TransformResult['restored']>[number];
+
+const restore: Restore = {
+	field: D_BAD,
+	offset: D_LEAD.length,
+	removed: '</a>',
+	written: D_TAG,
+};
+
+/** Both of the repaired anchor's targets, and the reason case 1/2
+ * cannot be what licenses the repair: the damaged tag parses to
+ * `href: ''` / `data-ref: ''`, so neither spelling is in the input's
+ * parsed target set even though both are in its BYTES. Asserted rather
+ * than asserted-about, because "case 6 licensed it" is only meaningful
+ * if no earlier case could have. */
+it('neither restored target is in the input’s parsed target set', () => {
+	const parsed = anchors(tokenize(D_BAD)).flatMap((a) => [a.href, a.dataRef]);
+	expect(parsed).not.toContain('/Jastrow,_כָּלוּל.1');
+	expect(parsed).not.toContain('Jastrow, כָּלוּל 1');
+	// …and the bytes ARE there, which is the whole warrant.
+	expect(D_BAD).toContain(D_DAMAGED);
+});
+
+it('case 6 licenses a tag restored from its own damaged bytes', () => {
+	const after = entry(D_GOOD);
+	expect(
+		checkLinkTargets(
+			entry(D_BAD),
+			after,
+			result(after, { restored: [restore] }),
+		),
+	).toEqual([]);
+});
+
+it('an undeclared restoration is still a fabrication', () => {
+	const after = entry(D_GOOD);
+	expect(checkLinkTargets(entry(D_BAD), after, result(after))).toEqual([
+		`target "Jastrow, כָּלוּל 1" is not in T00001's input`,
+	]);
+});
+
+/** Case 6 settles a whole opening TAG, so one claim answers for both
+ * attributes. The test above shows it reaching `data-ref`, which is
+ * judged first and would mask an `href` the case could not license;
+ * this one puts the `data-ref` beyond doubt — it is unchanged, so
+ * case 1/2 settles it — and leaves `href` as the only value that can
+ * reach case 6. Refused without the claim, licensed with it. */
+it('case 6 reaches the href as well as the data-ref', () => {
+	const src = entry('<a href="/ba" data-ref="r">x</a>');
+	const after = entry('<a href="/a" data-ref="r">x</a>');
+	const claim = {
+		field: '<a href="/ba" data-ref="r">x</a>',
+		offset: 0,
+		removed: 'b',
+		written: '<a href="/a" data-ref="r">',
+	};
+	expect(checkLinkTargets(src, after, result(after))).toEqual([
+		`target "/a" is not in T00001's input`,
+	]);
+	expect(
+		checkLinkTargets(src, after, result(after, { restored: [claim] })),
+	).toEqual([]);
+});
+
+/** CLAUSE 1, and the only way it can bite from outside: a claim is
+ * matched to an anchor by `written === anchor.tag`, so a claim naming
+ * bytes the rule did not emit as a tag licenses nothing at all. Here
+ * `written` is the honest tag minus its final `>` — close enough that
+ * a match on "starts with" or "is contained in" would let it through,
+ * and not the tag any anchor carries. */
+it('case 6 refuses a claim that does not name the emitted tag', () => {
+	const after = entry(D_GOOD);
+	expect(
+		checkLinkTargets(
+			entry(D_BAD),
+			after,
+			result(after, {
+				restored: [
+					{
+						field: D_BAD,
+						offset: D_LEAD.length,
+						removed: '</a>',
+						written: D_TAG.slice(0, -1),
+					},
+				],
+			}),
+		),
+	).toEqual([`target "Jastrow, כָּלוּל 1" is not in T00001's input`]);
+});
+
+/** CLAUSE 2. Same tag, same offsets tried, a run the input never
+ * held — so re-insertion reproduces nothing and the claim is refused
+ * rather than believed. */
+it('case 6 refuses a run the input cannot corroborate', () => {
+	const after = entry(D_GOOD);
+	expect(
+		checkLinkTargets(
+			entry(D_BAD),
+			after,
+			result(after, {
+				restored: [{ ...restore, removed: '</b>' }],
+			}),
+		),
+	).toEqual([
+		`restored "Jastrow, כָּלוּל 1" re-inserting "</b>" matches nothing in T00001's input`,
+	]);
+});
+
+/** CLAUSE 2 again, from the other direction: the corroboration must
+ * come from THIS entry's input, not from the output the rule handed
+ * back. An input that never held the damaged bytes refuses the same
+ * claim that D00478's input licenses. */
+it('case 6 reads the input’s bytes, not the output’s', () => {
+	const after = entry(D_GOOD);
+	expect(
+		checkLinkTargets(
+			entry(`${A('Yoma 2a', 'Ib.')} and ${A('Shabbat 30b', 'Sabb.')}`),
+			after,
+			result(after, { restored: [restore] }),
+		),
+	).toContain(
+		`restored "Jastrow, כָּלוּל 1" re-inserting "</a>" matches nothing in T00001's input`,
+	);
+});
+
+/** An empty `removed` needs no clause of its own — every offset then
+ * yields `written` itself, so a tag the input does not hold verbatim
+ * scores zero offsets and one it does hold scores `written.length + 1`.
+ * Only the zero branch is reachable through the gate: a `written` the
+ * input holds verbatim parses there too, which puts both its
+ * attributes in the target set and settles the anchor under case 1/2
+ * before case 6 is consulted. */
+it('case 6 refuses a claim that removed nothing', () => {
+	const after = entry(D_GOOD);
+	expect(
+		checkLinkTargets(
+			entry(D_BAD),
+			after,
+			result(after, {
+				restored: [{ ...restore, removed: '' }],
+			}),
+		),
+	).toEqual([
+		`restored "Jastrow, כָּלוּל 1" re-inserting "" matches nothing in T00001's input`,
+	]);
+});
+
+/** ALL-claim, on `glyphFaults`'s argument one case out: a rule lifted
+ * ONE run out of ONE tag, so a second claim naming the same `written`
+ * with a different `removed` is a false account of that deletion, and
+ * an honest claim beside it must not launder it. */
+it('case 6 refuses an honest claim standing beside a false one', () => {
+	const after = entry(D_GOOD);
+	expect(
+		checkLinkTargets(
+			entry(D_BAD),
+			after,
+			result(after, {
+				restored: [restore, { ...restore, removed: '</b>' }],
+			}),
+		),
+	).toEqual([
+		`restored "Jastrow, כָּלוּל 1" re-inserting "</b>" matches nothing in T00001's input`,
+	]);
+});
+
+// ---- CLAUSE 3: ambiguity is a refusal, not a choice ----
+//
+// The pair below is the clause on its own. Claim, output and removed
+// run are IDENTICAL in both tests; the only difference is a second
+// witness in the input. One witness licenses, two refuse — so the
+// refusal is attributable to the ambiguity and to nothing else, which
+// is what a clause-3 test has to show.
+//
+// `/a` is the value under judgement in both: the anchors carry no
+// `data-ref`, and `''` is in the input target set (every input anchor
+// lacks one too), so case 1/2 settles `data-ref` and `href` is what
+// reaches case 6.
+
+const ONE_WITNESS = '<a href="/ba">x</a>';
+const TWO_WITNESSES = '<a href="/ba">x</a><a href="/ab">y</a>';
+const SHORT = '<a href="/a">';
+const clipped: Restore = {
+	field: ONE_WITNESS,
+	offset: 0,
+	removed: 'b',
+	written: SHORT,
+};
+
+it('case 6 licenses a restore the input corroborates at one offset', () => {
+	const after = entry(`${SHORT}x</a>`);
+	expect(
+		checkLinkTargets(
+			entry(ONE_WITNESS),
+			after,
+			result(after, { restored: [clipped] }),
+		),
+	).toEqual([]);
+});
+
+it('case 6 refuses the same restore when two offsets corroborate it', () => {
+	const after = entry(`${SHORT}x</a><a href="/ab">y</a>`);
+	expect(
+		checkLinkTargets(
+			entry(TWO_WITNESSES),
+			after,
+			result(after, { restored: [clipped] }),
+		),
+	).toEqual([
+		`restored "/a" re-inserting "b" matches T00001's input at 2 offsets (10, 11)`,
+	]);
+});
+
+/** The other flavour of ambiguity, and the reason offsets are counted
+ * rather than candidate strings: a repeated character beside the
+ * insertion point makes several offsets produce the SAME bytes. The
+ * gate cannot tell which `a` was lifted out and declines to pick, even
+ * though every candidate is the same string. */
+it('case 6 refuses an insertion point a repeated character blurs', () => {
+	const after = entry('<a href="/aa">x</a>');
+	expect(
+		checkLinkTargets(
+			entry('<a href="/aaa">x</a>'),
+			after,
+			result(after, {
+				restored: [
+					{
+						field: '<a href="/aaa">x</a>',
+						offset: 0,
+						removed: 'a',
+						written: '<a href="/aa">',
+					},
+				],
+			}),
+		),
+	).toEqual([
+		`restored "/aa" re-inserting "a" matches T00001's input at 3 offsets (10, 11, 12)`,
+	]);
+});
+
+// ---- CLAUSE 4: the bytes must sit WHERE THE CLAIM SAYS ----
+//
+// Added 2026-08-27. Clauses 2 and 3 ask only that the recovered run be
+// somewhere in the entry at exactly one insertion offset, so a run
+// found in the HEADWORD licensed a repair made in a DEFINITION, and a
+// declared offset had no field to be an offset into. The three tests
+// below hold the clause on its own; the first two are the cross-field
+// case, from both of the directions a rule could declare it.
+
+/** Two walked fields. `fieldsOf` reads `headword` before any sense, so
+ * these are input fields 0 and 1 and the gate can tell them apart. */
+const twoFields = (headword: string, definition: string): SourceEntry => ({
+	content: { senses: [{ definition }] },
+	headword,
+	rid: 'T00001',
+});
+
+/** The damaged run lives in the HEADWORD; the repair lands in the
+ * DEFINITION. Every clause the gate had before 2026-08-27 is satisfied
+ * — asserted here rather than asserted about — so the refusals below
+ * are attributable to the witness and to nothing else. */
+const CROSS_SRC = twoFields('<a href="/ba">x</a>', '<a href="/c">y</a>');
+const CROSS_OUT = twoFields('<a href="/ba">x</a>', '<a href="/a">y</a>');
+const CROSS: Restore = {
+	field: '<a href="/c">y</a>',
+	offset: 0,
+	removed: 'b',
+	written: '<a href="/a">',
+};
+
+it('the cross-field restore satisfies every clause but the witness', () => {
+	// Clause 2: the recovered run IS in this entry's input …
+	expect(fieldsOf(CROSS_SRC)).toContain('<a href="/ba">x</a>');
+	// … clause 3: at exactly one insertion offset …
+	const offsets = Array.from(
+		{ length: CROSS.written.length + 1 },
+		(_, at) => at,
+	).filter((at) =>
+		fieldsOf(CROSS_SRC).some((field) =>
+			field.includes(
+				CROSS.written.slice(0, at) + CROSS.removed + CROSS.written.slice(at),
+			),
+		),
+	);
+	expect(offsets).toEqual([10]);
+	// … and clause 1: the claim names the tag the rule emitted.
+	expect(
+		fieldsOf(CROSS_OUT).flatMap((f) => anchors(tokenize(f)).map((a) => a.tag)),
+	).toContain(CROSS.written);
+});
+
+/** Citing the field the BYTES are in. The repair landed in the
+ * definition and the run is in the headword, so the claim describes a
+ * field that is not the one it repaired — which is exactly the reading
+ * "some field of this entry" used to license. */
+it('case 6 refuses a run recovered from a field it did not repair', () => {
+	expect(
+		checkLinkTargets(
+			CROSS_SRC,
+			CROSS_OUT,
+			result(CROSS_OUT, {
+				restored: [{ ...CROSS, field: '<a href="/ba">x</a>' }],
+			}),
+		),
+	).toEqual([
+		`restored "/a" re-inserting "b" cites a field that is not the one it repaired in T00001`,
+	]);
+});
+
+/** Citing the field the REPAIR is in — the honest half of the same
+ * claim — and it fails on the other half: those bytes are not at that
+ * offset of that field, nor anywhere in it. There is no way to declare
+ * this repair that the gate accepts, which is the point. */
+it('case 6 refuses a run that is not in the field it repaired', () => {
+	expect(
+		checkLinkTargets(
+			CROSS_SRC,
+			CROSS_OUT,
+			result(CROSS_OUT, { restored: [CROSS] }),
+		),
+	).toEqual([
+		`restored "/a" re-inserting "b" is not at offset 0 of the cited field in T00001`,
+	]);
+});
+
+/** Same field, wrong offset. The bytes are in the cited field and the
+ * insertion offset is unique; only the PLACE is misdeclared, and the
+ * gate reads the place rather than trusting it. */
+it('case 6 refuses a witness offset the bytes do not sit at', () => {
+	const after = entry(D_GOOD);
+	expect(
+		checkLinkTargets(
+			entry(D_BAD),
+			after,
+			result(after, { restored: [{ ...restore, offset: D_LEAD.length + 1 }] }),
+		),
+	).toEqual([
+		`restored "Jastrow, כָּלוּל 1" re-inserting "</a>" is not at offset ${D_LEAD.length + 1} of the cited field in T00001`,
+	]);
+});
+
+// ————————————————————————————————————————————————————————————————
+// CASE 7 — a locus corroborated by a sibling's display.
+//
+// Spec docs/specs/2026-08-27-link-target-gate-cases.md §3. Four
+// clauses, and each one gets a test that FAILS when the clause is
+// removed, on case 6's discipline: an assertion that cannot fail is
+// indistinguishable from one that always holds. The pair that matters
+// most is `licenses the tosefta mint` beside `is a fabrication with the
+// declaration withheld` — same bytes, same entry, one difference — so
+// the licence is attributable to the CLAIM and not to the gate having
+// gone quiet about minted targets.
+//
+// This case MINTS. §3.1's measured cost is pinned at the bottom of this
+// block, as an ACCEPT rather than a refusal, because that is what the
+// gate does.
+//
+// Every call below names a DECLARING RULE, and the case is refused to
+// any rule not on `CORROBORATION_DECLARERS` — the ruling of 2026-08-27.
+// The four clauses are unchanged by it, which is why the clause tests
+// all pass `DECLARER`: each still has to fail for its own reason and
+// not because the declarer was withheld.
+
+/** The one rule id case 7 is open to. Spelled here rather than
+ * imported, so the allowlist and the tests that exercise it cannot be
+ * changed in one edit. */
+const DECLARER = 'tosefta-variant-chapter-halakha-loss';
+
+const T_HEAD_TAG =
+	'<a class="refLink" href="/Tosefta_Shabbat.16" data-ref="Tosefta Shabbat 16">';
+const T_FROM_TAG =
+	'<a class="refLink" href="/Tosefta_Shabbat.17.6" data-ref="Tosefta Shabbat 17:6">';
+
+/** `Tosef. Sabb. XVI (XVII), 6` as Sefaria marks it up: the halakha
+ * reaches the variant's address and the variant's print, and never the
+ * primary's address. */
+const T_IN = `${T_HEAD_TAG}Tosef. Sabb. XVI</a> (${T_FROM_TAG}XVII), 6</a>`;
+
+/** The same field with the primary's two attributes repaired. */
+const T_OUT = T_IN.replace(
+	'/Tosefta_Shabbat.16"',
+	'/Tosefta_Shabbat.16.6"',
+).replace('data-ref="Tosefta Shabbat 16"', 'data-ref="Tosefta Shabbat 16:6"');
+
+/** One case-7 claim, shaped by the result contract rather than
+ * inferred, so a change to the declaration is a type error here. */
+type Corroborate = NonNullable<TransformResult['corroborated']>[number];
+
+/** The opening-tag token index of the `at`-th anchor of `html` — half
+ * of the witness a case-7 claim names, the other half being `html`
+ * itself. Read off `links.ts` rather than counted by hand, so a
+ * fixture cannot drift from the gate's own reading. */
+const openOf = (html: string, at: number): number =>
+	anchors(tokenize(html))[at]?.open ?? -1;
+
+const corroborate: Corroborate = {
+	field: T_IN,
+	from: 'Tosefta Shabbat 17:6',
+	head: 'Tosefta Shabbat 16',
+	open: openOf(T_IN, 1),
+	tail: ':6',
+	target: 'Tosefta Shabbat 16:6',
+};
+
+/** Run the gate over the tosefta pair with one mutated claim, declared
+ * by the one rule the allowlist admits. */
+const withClaim = (claim: Corroborate, out = T_OUT): string[] =>
+	checkLinkTargets(
+		entry(T_IN),
+		entry(out),
+		{ corroborated: [claim] },
+		DECLARER,
+	);
+
+/** The address case 7 mints occurs NOWHERE in the input — not on
+ * either attribute of either anchor. Asserted rather than asserted
+ * about, because "case 7 licensed it" is only meaningful if no earlier
+ * case could have. */
+it('case 7’s minted target is in no input target set', () => {
+	const parsed = anchors(tokenize(T_IN)).flatMap((a) => [a.href, a.dataRef]);
+	expect(parsed).not.toContain('Tosefta Shabbat 16:6');
+	expect(parsed).not.toContain('/Tosefta_Shabbat.16.6');
+	// …and case 4, the case that could otherwise reach it, refuses —
+	// pinned word for word in `rules/paren-boundary.test.ts` too.
+	expect(
+		checkLinkTargets(entry(T_IN), entry(T_OUT), {
+			recombined: [
+				{
+					head: 'Tosefta Shabbat 16',
+					tail: 'Tosefta Shabbat 17:6',
+					target: 'Tosefta Shabbat 16:6',
+				},
+			],
+		}),
+	).toEqual([
+		'recombined "Tosefta Shabbat 16:6" is not a prefix of "Tosefta Shabbat 16" joined to a suffix of "Tosefta Shabbat 17:6"',
+	]);
+});
+
+it('case 7 licenses the tosefta mint, on both attributes', () => {
+	expect(withClaim(corroborate)).toEqual([]);
+});
+
+/** THE ATTRIBUTION TEST. Identical bytes, identical entry; the only
+ * difference is whether the rule said where the address came from. */
+it('the same mint is a fabrication with the declaration withheld', () => {
+	const after = entry(T_OUT);
+	expect(checkLinkTargets(entry(T_IN), after, result(after))).toEqual([
+		`target "Tosefta Shabbat 16:6" is not in T00001's input`,
+	]);
+});
+
+/** CLAUSE 1. `head + tail` must BE the target — no gap, no character
+ * from anywhere else. Checked on the declaration, where the rule
+ * author's arithmetic lives. */
+it('case 7 refuses a claim whose head and tail do not make its target', () => {
+	expect(withClaim({ ...corroborate, tail: ':7' })).toEqual([
+		'corroborated "Tosefta Shabbat 16:6" is not "Tosefta Shabbat 16" joined to ":7"',
+	]);
+});
+
+/** CLAUSE 2. The head must be a target the input holds — otherwise the
+ * leading run is as invented as the locus. */
+it('case 7 refuses a head the input does not hold', () => {
+	const out = T_OUT.replace('Tosefta Shabbat 16:6', 'Tosefta Shabbat 99:6');
+	expect(
+		withClaim(
+			{
+				...corroborate,
+				head: 'Tosefta Shabbat 99',
+				target: 'Tosefta Shabbat 99:6',
+			},
+			out,
+		),
+	).toEqual([
+		`corroborated "Tosefta Shabbat 99:6" copies from "Tosefta Shabbat 99", which is not in T00001's input`,
+	]);
+});
+
+/** CLAUSE 3, first half: `from` must be a target the input holds. */
+it('case 7 refuses a source the input does not hold', () => {
+	expect(withClaim({ ...corroborate, from: 'Tosefta Shabbat 99:6' })).toEqual([
+		`corroborated "Tosefta Shabbat 16:6" copies from "Tosefta Shabbat 99:6", which is not in T00001's input`,
+	]);
+});
+
+/** CLAUSE 3, second half: the tail must be a LITERAL suffix of `from`.
+ * `:7` is a plausible-looking locus that the sibling does not address,
+ * and that is exactly the claim this refuses. */
+it('case 7 refuses a tail that is not a suffix of its source', () => {
+	const out = T_OUT.replace('Tosefta Shabbat 16:6', 'Tosefta Shabbat 16:7');
+	expect(
+		withClaim(
+			{ ...corroborate, tail: ':7', target: 'Tosefta Shabbat 16:7' },
+			out,
+		),
+	).toEqual([
+		'corroborated "Tosefta Shabbat 16:7" takes ":7", which is not a suffix of "Tosefta Shabbat 17:6"',
+	]);
+});
+
+/** CLAUSE 4, the corroboration itself — and the ONLY clause that reads
+ * the display. Same claim, same bytes, same four input targets; the
+ * one difference is that the variant no longer PRINTS the halakha it
+ * addresses. That is the whole of what case 7 adds to case 4. */
+it('case 7 refuses a tail the cited display does not witness', () => {
+	const silent = T_IN.replace('XVII), 6</a>', 'XVII)</a>');
+	const out = silent
+		.replace('/Tosefta_Shabbat.16"', '/Tosefta_Shabbat.16.6"')
+		.replace(
+			'data-ref="Tosefta Shabbat 16"',
+			'data-ref="Tosefta Shabbat 16:6"',
+		);
+	expect(
+		checkLinkTargets(
+			entry(silent),
+			entry(out),
+			{
+				corroborated: [
+					{ ...corroborate, field: silent, open: openOf(silent, 1) },
+				],
+			},
+			DECLARER,
+		),
+	).toEqual([
+		'corroborated "Tosefta Shabbat 16:6" takes ":6", whose digits "6" are absent from the witnessing display "XVII)"',
+	]);
+});
+
+// ---- CLAUSE 4's WITNESS: which anchor, not which target ----
+//
+// Added 2026-08-27. Until then the claim named a target string and the
+// gate accepted the digits from ANY input anchor carrying it, so the
+// spec's attribution claim — that a minted target names the display it
+// came from — was false as built. The three tests below are the clause
+// on its own: the cited field must be the entry's, the cited token must
+// be an anchor carrying `from`, and it is THAT anchor's display that
+// has to print the digits.
+
+/** The field is half the witness, and it must be a field of THIS
+ * entry's input. Bytes the rule supplies from anywhere else name no
+ * anchor the gate walked, and a claim licensed by them would be a
+ * claim corroborated by its own author. */
+it('case 7 refuses a claim citing a field the entry does not hold', () => {
+	expect(withClaim({ ...corroborate, field: `${T_IN} ` })).toEqual([
+		`corroborated "Tosefta Shabbat 16:6" cites no anchor of T00001's input at token ${openOf(T_IN, 1)} of the declared field`,
+	]);
+});
+
+/** The token index is the other half, and it must land on an anchor
+ * that carries `from`. Token 0 of `T_IN` is the PRIMARY's opening tag —
+ * a real anchor of a real field of this entry, and the wrong one. */
+it('case 7 refuses a claim citing an anchor that lacks its source', () => {
+	expect(withClaim({ ...corroborate, open: openOf(T_IN, 0) })).toEqual([
+		'corroborated "Tosefta Shabbat 16:6" cites an anchor that does not carry "Tosefta Shabbat 17:6"',
+	]);
+});
+
+/**
+ * THE WITNESS TEST, and the one the tightening exists for.
+ *
+ * Two input anchors carry `W 17:6`. One PRINTS the halakha (`, 6`) and
+ * one does not (`XVII)`). The mint is identical in both runs and so is
+ * every other clause; the only difference is WHICH anchor the claim
+ * cites. Citing the silent one is refused — and until 2026-08-27 it was
+ * licensed, because clause 4 asked only whether some anchor carrying
+ * `from` printed the digits, and the talkative sibling always did.
+ *
+ * `W 16:6` occurs nowhere in the input, so this is a MINT under both
+ * readings: the pair separates attribution, not fabrication.
+ */
+it('case 7 refuses the sibling’s witness on behalf of the cited anchor', () => {
+	const src =
+		'<a href="/W.16" data-ref="W 16">XVI</a>' +
+		'<a href="/W.17.6" data-ref="W 17:6">XVII)</a>' +
+		'<a href="/W.17.6" data-ref="W 17:6">, 6</a>';
+	const out = src.replace(
+		'"/W.16" data-ref="W 16"',
+		'"/W.16.6" data-ref="W 16:6"',
+	);
+	const claim: Corroborate = {
+		field: src,
+		from: 'W 17:6',
+		head: 'W 16',
+		open: openOf(src, 1),
+		tail: ':6',
+		target: 'W 16:6',
+	};
+	expect(anchors(tokenize(src)).map((a) => a.dataRef)).not.toContain('W 16:6');
+	expect(
+		checkLinkTargets(
+			entry(src),
+			entry(out),
+			{ corroborated: [claim] },
+			DECLARER,
+		),
+	).toEqual([
+		'corroborated "W 16:6" takes ":6", whose digits "6" are absent from the witnessing display "XVII)"',
+	]);
+	// The SAME mint, licensed the moment the claim cites the anchor that
+	// actually printed the halakha. Nothing else moves.
+	expect(
+		checkLinkTargets(
+			entry(src),
+			entry(out),
+			{ corroborated: [{ ...claim, open: openOf(src, 2) }] },
+			DECLARER,
+		),
+	).toEqual([]);
+});
+
+/** DISTINCTNESS. A string is trivially its own suffix, so one source
+ * could otherwise extend itself indefinitely — `X 17:6` giving
+ * `X 17:6:6`, and again. Case 4 learned the same lesson as its own
+ * `head === tail` check. */
+it('case 7 refuses a claim naming one target as both head and source', () => {
+	const out = T_OUT.replace(
+		'data-ref="Tosefta Shabbat 16:6"',
+		'data-ref="Tosefta Shabbat 17:6:6"',
+	);
+	expect(
+		withClaim(
+			{
+				...corroborate,
+				head: 'Tosefta Shabbat 17:6',
+				target: 'Tosefta Shabbat 17:6:6',
+			},
+			out,
+		),
+	).toEqual([
+		'corroborated "Tosefta Shabbat 17:6:6" names "Tosefta Shabbat 17:6" as both head and source',
+	]);
+});
+
+/** THE EMPTY HEAD, and it is not hypothetical: `''` joins the target
+ * set whenever any input anchor lacks an attribute — here the second
+ * one has no `data-ref`. Without the non-empty requirement a claim
+ * naming `head: ''` would license ANY suffix of ANY input target as a
+ * whole target, which is the widest hole this case could have had. */
+it('case 7 refuses an empty head, which the target set always holds', () => {
+	const src = '<a href="/a" data-ref="W 1:6">x 6</a><a href="/b">y</a>';
+	const out =
+		'<a href="/a" data-ref="W 1:6">x 6</a><a href="/b" data-ref="1:6">y</a>';
+	expect(
+		checkLinkTargets(
+			entry(src),
+			entry(out),
+			{
+				corroborated: [
+					{
+						field: src,
+						from: 'W 1:6',
+						head: '',
+						open: openOf(src, 0),
+						tail: '1:6',
+						target: '1:6',
+					},
+				],
+			},
+			DECLARER,
+		),
+	).toEqual(['corroborated "1:6" is not "" joined to a suffix of "W 1:6"']);
+});
+
+/** A TAIL WITH NO DIGITS would be corroborated VACUOUSLY — every
+ * display contains the empty string — so an empty digit run is refused
+ * outright rather than allowed to satisfy `includes('')`. */
+it('case 7 refuses a tail holding no digit at all', () => {
+	const src =
+		'<a href="/a" data-ref="W 1">d</a><a href="/b" data-ref="W 2b">2b</a>';
+	const out =
+		'<a href="/a" data-ref="W 1b">d</a><a href="/b" data-ref="W 2b">2b</a>';
+	expect(
+		checkLinkTargets(
+			entry(src),
+			entry(out),
+			{
+				corroborated: [
+					{
+						field: src,
+						from: 'W 2b',
+						head: 'W 1',
+						open: openOf(src, 1),
+						tail: 'b',
+						target: 'W 1b',
+					},
+				],
+			},
+			DECLARER,
+		),
+	).toEqual([
+		'corroborated "W 1b" takes "b", which holds no digit to corroborate',
+	]);
+});
+
+/** THE HREF IS JUDGED SEPARATELY, and the tail is RE-DERIVED for it —
+ * `:6` on the `data-ref` becomes `.6` on the `href`. Here the
+ * `data-ref` is licensed and the `href` is not, so the anchor still
+ * fails: a declared offset would have been wrong on one of the two
+ * spellings, which is why nothing declares one. */
+it('case 7 re-derives the tail per spelling and refuses a bad href', () => {
+	const out = T_OUT.replace('/Tosefta_Shabbat.16.6"', '/Tosefta_Shabbat.16.9"');
+	expect(withClaim(corroborate, out)).toEqual([
+		'corroborated "/Tosefta_Shabbat.16.9" is not "/Tosefta_Shabbat.16" joined to a suffix of "/Tosefta_Shabbat.17.6"',
+	]);
+});
+
+/** ANY-claim, with cases 3 and 4 rather than 5 and 6: `hrefsFor` yields
+ * several candidate spellings for one declared string, so real
+ * multiplicity exists and a second claim naming a different source may
+ * be an alternative rather than a false provenance. */
+it('case 7 licenses an honest claim standing beside a faulty one', () => {
+	expect(
+		checkLinkTargets(
+			entry(T_IN),
+			entry(T_OUT),
+			{
+				corroborated: [
+					{ ...corroborate, from: 'Tosefta Shabbat 99:6' },
+					corroborate,
+				],
+			},
+			DECLARER,
+		),
+	).toEqual([]);
+});
+
+/**
+ * THE MEASURED COST, PINNED AS AN ACCEPT.
+ *
+ * This asserts that the gate LICENSES an address that does not exist,
+ * and it is correct for it to do so — spec §3.1, corrected 2026-08-27
+ * before any code was written. `S00188` carries these two adjacent
+ * anchors verbatim. Clause 4 does not separate them from the tosefta
+ * shape, because Jastrow prints a Sefaria `Work C:V` anchor as
+ * `Abbr. <roman chapter>, <arabic verse>` and that arabic verse IS the
+ * tail's digit run. Measured: 29 of the 68 analogous same-work pairs
+ * that would mint are licensed, this among them, and **Exodus 24 has
+ * 18 verses**.
+ *
+ * A test asserting a REFUSAL here would be false, and would break the
+ * day someone read the spec and believed it. It is declared BY THE ONE
+ * ALLOWLISTED RULE, which is the only way to reach the clauses at all
+ * since 2026-08-27 — and that is the point of leaving the ACCEPT
+ * standing. The allowlist bounds WHO may reach this licence, not what
+ * the clauses license, so the residue survives inside the list exactly
+ * as measured: were `toseftaPrimaryHalakha`'s own `VARIANT_DISPLAY`
+ * predicate widened onto this family tomorrow, the gate would agree
+ * with it, and this test is the record of that. What holds the live
+ * residue at zero is now two things and not one — that predicate,
+ * which fires on none of the 68, and the allowlist, which refuses
+ * every other rule outright. See the module docstring's blind-spot
+ * list, where this sits with the rest of them.
+ */
+it('case 7 licenses Exodus 24:25, which is not a verse — the measured cost', () => {
+	const head =
+		'<a class="refLink" href="/Exodus.24" data-ref="Exodus 24">B’shall. 24</a>';
+	const from =
+		'<a class="refLink" href="/Exodus.15.25" data-ref="Exodus 15:25">Ex. XV, 25</a>';
+	const src = `${head} … ${from}`;
+	const out = src
+		.replace('/Exodus.24"', '/Exodus.24.25"')
+		.replace('data-ref="Exodus 24"', 'data-ref="Exodus 24:25"');
+	expect(
+		checkLinkTargets(
+			entry(src),
+			entry(out),
+			{
+				corroborated: [
+					{
+						field: src,
+						from: 'Exodus 15:25',
+						head: 'Exodus 24',
+						open: openOf(src, 1),
+						tail: ':25',
+						target: 'Exodus 24:25',
+					},
+				],
+			},
+			DECLARER,
+		),
+	).toEqual([]);
+});
+
+/**
+ * THE ALLOWLIST, AND THE REFUSAL IT BUYS — ruled 2026-08-27 (Brian),
+ * answering a review finding that "live exposure today is zero"
+ * describes one day's registry and protects neither a future rule
+ * declaring case 7 nor a widening of `toseftaPrimaryHalakha`'s own
+ * predicate.
+ *
+ * The claim below is the tosefta claim, unmodified: all four clauses
+ * satisfied, the witness correctly cited, the same bytes the test
+ * eleven above licenses. The ONE difference is the name of the rule
+ * that declared it, and the gate refuses on that alone — it does not
+ * reach a clause, which is why the message names the licence rather
+ * than the claim.
+ *
+ * Removing the `CORROBORATION_DECLARERS` check from
+ * `corroborateFaults` makes this test pass its claim and fail its
+ * assertion. That mutation was run.
+ */
+it('case 7 refuses a perfect claim from a rule not on the allowlist', () => {
+	expect(
+		checkLinkTargets(
+			entry(T_IN),
+			entry(T_OUT),
+			{ corroborated: [corroborate] },
+			'some-later-rule',
+		),
+	).toEqual([
+		`corroborated "Tosefta Shabbat 16:6" is declared by "some-later-rule", which case 7's declarer allowlist does not admit`,
+	]);
+});
+
+/** The same claim with NO rule named — the gate fails closed rather
+ * than treating an unnamed caller as an unrestricted one. `run.ts`
+ * always names the rule it is gating, so this is the shape a future
+ * caller that forgot would take. */
+it('case 7 refuses a claim no rule is named for', () => {
+	expect(
+		checkLinkTargets(entry(T_IN), entry(T_OUT), {
+			corroborated: [corroborate],
+		}),
+	).toEqual([
+		`corroborated "Tosefta Shabbat 16:6" is declared by no named rule, which case 7's declarer allowlist does not admit`,
+	]);
+});
+
+/** The refusal is about the DECLARER and reaches every claim, so it
+ * cannot be worked around by declaring the same mint twice — the
+ * ANY-claim rule that licenses an honest claim beside a faulty one
+ * never runs. */
+it('case 7’s allowlist refusal is not escaped by a second claim', () => {
+	expect(
+		checkLinkTargets(
+			entry(T_IN),
+			entry(T_OUT),
+			{
+				corroborated: [
+					{ ...corroborate, from: 'Tosefta Shabbat 99:6' },
+					corroborate,
+				],
+			},
+			'some-later-rule',
+		),
+	).toEqual([
+		`corroborated "Tosefta Shabbat 16:6" is declared by "some-later-rule", which case 7's declarer allowlist does not admit`,
 	]);
 });

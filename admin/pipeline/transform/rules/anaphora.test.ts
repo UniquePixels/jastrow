@@ -357,7 +357,7 @@ it('the population is 312 occurrences / 274 entries, reproducing the catalogued 
 	const { entries, occurrences } = await censusOnce();
 	expect(occurrences).toBe(312);
 	expect(entries.size).toBe(274);
-});
+}, 180_000);
 
 it('the decline census accounts for all 312: 209 fire, 103 decline (23 + 2 + 15 + 63)', async () => {
 	const { dispositions, fireEntries } = await censusOnce();
@@ -401,7 +401,7 @@ it('the rule moves exactly those 209 anchors, and adds or removes none, over the
 	expect(moved).toBe(209);
 	expect(rids.size).toBe(188);
 	expect(unchangedCounts).toBe(188);
-});
+}, 180_000);
 
 /** The mechanism (audit §2c). Of every bare anaphor whose nearest
  * citation antecedent is a Jerusalem Talmud reference, ALL land on the
@@ -767,7 +767,7 @@ it('the Sifré population is 6 occurrences / 6 entries — one more than the cat
 	const { entries, occurrences } = await sifreCensusOnce();
 	expect(occurrences).toBe(6);
 	expect(entries.size).toBe(6);
-});
+}, 180_000);
 
 it('all 6 land on Yalkut and none on a Sifré work — the row’s null model, refuted', async () => {
 	// If the resolver ever handled `Sifré ib. N`, some member would
@@ -798,7 +798,7 @@ it('the rule itself moves exactly that 1 anchor over the whole corpus, adding an
 	}
 	expect(moved).toBe(1);
 	expect(rids).toEqual(new Set(['E00476']));
-});
+}, 180_000);
 
 /** LOUD ON DRIFT (maintainer ruling 2026-08-23). `SIFRE_WORK` is a
  * prefix rather than a list of works, and that is only safe while
@@ -823,7 +823,7 @@ it('every Sifr… target in the corpus starts with SIFRE_WORK', async () => {
 		['Sifrei Bamidbar', 193],
 		['Sifrei Devarim', 402],
 	]);
-});
+}, 180_000);
 
 /** The two locus spellings `REF_LOCUS`/`HREF_LOCUS` have to strip, both
  * taken from real anchors. The range arm exists because the pin above
@@ -847,6 +847,22 @@ it('REF_LOCUS and HREF_LOCUS strip both the plain and the range locus', () => {
 	);
 });
 
+/**
+ * EVERY CORPUS WALK IN THIS FILE CARRIES AN EXPLICIT 180s TIMEOUT, added
+ * 2026-08-27 (fix/link-target-gate-cases). Eleven `it`s here read all
+ * 32,512 entries and ran on bun's 5,000ms DEFAULT, several of them
+ * within a few hundred milliseconds of it. Which one lost the race
+ * depended on machine load, so the suite failed intermittently with a
+ * timeout on a different test each run — a FALSE red, and one that
+ * trains a reader to re-run rather than look.
+ *
+ * It is a timeout, not an assertion: nothing here is weakened, and the
+ * figure matches the convention `registry.order.test.ts` already uses
+ * for a corpus pass. Found while measuring case 7, where the extra
+ * ~17% suite time made it fire more often; it reproduces on this branch
+ * point without any of that work.
+ */
+
 /** Every Sifré-arm claim the corpus produces is one the GATE accepts.
  * `applyTransforms` runs `checkLinkTargets`, so this walk is the real
  * thing rather than a re-derivation of its rules — the distinction
@@ -859,7 +875,7 @@ it('every Sifré compose the corpus produces passes checkLinkTargets', async () 
 		fired += out.records.length;
 	}
 	expect(fired).toBe(1);
-});
+}, 180_000);
 
 // ------------------------------------------------------ ib-targum-work-loss
 
@@ -1135,7 +1151,7 @@ it('the Targum population is 9 occurrences / 8 entries, reproducing the catalogu
 	const { entries, occurrences } = await targumCensusOnce();
 	expect(occurrences).toBe(9);
 	expect(entries.size).toBe(8);
-});
+}, 180_000);
 
 it('the Targum census accounts for all 9: 9 fire, 0 decline', async () => {
 	const { fireEntries, fires } = await targumCensusOnce();
@@ -1187,7 +1203,7 @@ it('the rule moves exactly those 9 anchors corpus-wide, adding and removing none
 	}
 	expect(moved).toBe(9);
 	expect(rids.size).toBe(8);
-});
+}, 180_000);
 
 it('every Targum recombination the corpus produces passes checkLinkTargets', async () => {
 	let fired = 0;
@@ -1196,7 +1212,7 @@ it('every Targum recombination the corpus produces passes checkLinkTargets', asy
 			.length;
 	}
 	expect(fired).toBe(8);
-});
+}, 180_000);
 
 /** LOUD ON DRIFT. `TARGUM_WORKS` is the one enumerated list in this
  * module, so a sixth Sefaria spelling must fail here rather than
@@ -1221,7 +1237,7 @@ it('every Targum target in the corpus starts with one of TARGUM_WORKS', async ()
 	}
 	expect([...unmatched]).toEqual([]);
 	expect(works.size).toBe(45);
-});
+}, 180_000);
 
 it('declines when an ANCHORED citation of another work intervenes', () => {
 	// Reviewer finding, 2026-08-24. `accept` and `gapBetween` are each
@@ -1363,4 +1379,4 @@ it('the Targum population’s 0 declines is partly definitional — 77 of 86 fal
 	// so `withTargum` does not move and the framing is unaffected.
 	expect(members).toBe(86);
 	expect(withTargum).toBe(9);
-});
+}, 180_000);

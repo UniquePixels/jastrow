@@ -1,7 +1,7 @@
 import type { SourceEntry } from '../../body/types.ts';
 import { mapFields } from '../fields.ts';
 import { serialize, type TextToken, type Token, tokenize } from '../html.ts';
-import { type Anchor, anchors } from '../links.ts';
+import { type Anchor, anchors, retarget } from '../links.ts';
 import type { Rule, TransformRecord, TransformResult } from '../types.ts';
 
 /**
@@ -48,8 +48,17 @@ import type { Rule, TransformRecord, TransformResult } from '../types.ts';
  * survives is one WALK — `toseftaSplits` below — that both repairs
  * would consume.
  *
- * **The halakha half is NOT shipped, and the reason is the gate.**
- * The repair would write `Tosefta Shabbat 16:6` onto the primary,
+ * CORRECTED 2026-08-27 (fix/link-target-gate-cases): this section
+ * opened *"**The halakha half is NOT shipped, and the reason is the
+ * gate.**"*, and the rest of it described a live refusal. **The
+ * halakha half now ships**, as `toseftaPrimaryHalakha` at the foot of
+ * this module, declaring the repair through
+ * `TransformResult.corroborated`. Every measurement below still holds
+ * of cases 1-5 and the whole passage is kept rather than deleted,
+ * because it is the reason case 7 exists — read it in the past tense,
+ * and see the CASE 7 section that follows it for what changed.
+ *
+ * The repair writes `Tosefta Shabbat 16:6` onto the primary,
  * `Tosefta Shabbat 16` being the primary's own input target and `:6`
  * the suffix of the variant's own `Tosefta Shabbat 17:6` — spec §3.2
  * case 4, declared through `TransformResult.recombined`. Probed
@@ -111,6 +120,52 @@ import type { Rule, TransformRecord, TransformResult } from '../types.ts';
  * population is pinned in `paren-boundary.test.ts` so the figure
  * survives the wait.
  *
+ * ## CASE 7 — what changed on 2026-08-27, and what it does not buy
+ *
+ * That branch is `fix/link-target-gate-cases` and the case is
+ * `link-target.ts`'s **case 7**, spec
+ * docs/specs/2026-08-27-link-target-gate-cases.md §3. It licenses a
+ * target assembled from a `head` the input holds and a `tail` that is
+ * a literal suffix of `from`, a second input target, when the DIGITS
+ * of that tail occur in the display of the ONE input anchor the claim
+ * CITES by field bytes and token index, which must itself carry
+ * `from`. The section above named exactly that evidence — the halakha
+ * witnessed twice, in the variant's `data-ref` and again in its
+ * printed `XVII), 6` — and the case is that evidence turned into a
+ * clause. `toseftaPrimaryHalakha` declares it.
+ *
+ * THE TRIPWIRE FIRED, WHICH IS IT WORKING. The probe kept green ON THE
+ * REFUSAL in `paren-boundary.test.ts` failed the moment case 7
+ * shipped, and it is FLIPPED to pin the new licence rather than
+ * deleted, so the pair of tests now reads: case 4 still refuses the
+ * `recombined` phrasing word for word, and case 7 licenses the
+ * `corroborated` one. Both halves matter — the case-4 refusal is not
+ * loosened by any of this, and a future widening of case 4 would still
+ * break a test here.
+ *
+ * **CASE 7 DOES NOT MAKE THE MINT SAFE, AND NOBODY SHOULD READ IT
+ * THAT WAY.** It was very nearly ruled in on the belief that its
+ * corroboration clause excluded the same-work family case 4's
+ * blind-spot note warns about — the spec's first cut claimed 0 of 69.
+ * Re-measured before any code was written, it licenses **29 of the 68**
+ * structurally analogous same-work pairs that would mint, `Exodus 24`
+ * beside `Exodus 15:25` yielding the non-existent `Exodus 24:25` among
+ * them. Jastrow prints a Sefaria `Work C:V` anchor as
+ * `Abbr. <roman chapter>, <arabic verse>`, so the digit witness is
+ * there by DEFAULT across that whole family and `XVII), 6` is
+ * indistinguishable from `Ex. XV, 25` to a digits-only test.
+ *
+ * What separates them is THIS RULE'S PREDICATE and nothing in the
+ * gate: `VARIANT_DISPLAY` is anchored at both ends, so it fires only
+ * where print set a roman chapter, a swallowed `)` and a halakha in
+ * one display — and it fires on none of the 68. That is why the
+ * population argument below is the rule's own job and why the gate is
+ * an audit of the claim rather than a substitute for the argument.
+ * What case 7 buys is ATTRIBUTION: this rule must name the two input
+ * targets and the display it read the digits from, so a wrong mint
+ * here is a wrong claim with this rule's id on it rather than an
+ * anonymous fabrication.
+ *
  * ## What shipping half the edit does, and what it does not
  *
  * `anchor-swallows-close-paren`'s own `reason` says "Re-splitting the
@@ -127,12 +182,24 @@ import type { Rule, TransformRecord, TransformResult } from '../types.ts';
  * stays exactly as wrong as it already was, neither repaired nor
  * damaged further. The two halves are independent in that direction.
  *
- * ## REGISTRATION ORDER, FOR WHOEVER SHIPS THE HALAKHA RULE
+ * CORRECTED 2026-08-27 (fix/link-target-gate-cases): the claim above
+ * that *"one edit fixes one row"* is retired too, though not because
+ * the catalogue's original wording was right. TWO edits fix two rows —
+ * `toseftaPrimaryHalakha` rewrites the primary's attributes and
+ * `toseftaCloseParen` moves the variant's boundary, and they are
+ * separate rules over one shared WALK, exactly as the section above
+ * this one says. The independence recorded in the paragraph above is
+ * what lets them be two, and it is also why the ORDER below is the
+ * only thing tying them together.
  *
- * **THE DEFERRED `toseftaPrimaryHalakha` MUST BE REGISTERED STRICTLY
- * BEFORE `toseftaCloseParen`, NOT MERELY ADJACENT TO IT.** The
- * direction is the whole of the requirement, and getting it backwards
- * is silent.
+ * ## REGISTRATION ORDER, LOAD-BEARING AND SILENT WHEN WRONG
+ *
+ * **`toseftaPrimaryHalakha` MUST BE REGISTERED STRICTLY BEFORE
+ * `toseftaCloseParen`, NOT MERELY ADJACENT TO IT.** The direction is
+ * the whole of the requirement, and getting it backwards is silent.
+ * `registry.order.test.ts` pins the DIRECTION, not the adjacency —
+ * `checkAdjacency` sees the entangled pair and would be satisfied by
+ * either arrangement.
  *
  * `toseftaCloseParen` DESTROYS `toseftaSplits`'s own predicate. A
  * variant's display is `XVII), 6` before the boundary move and `XVII`
@@ -202,8 +269,23 @@ import type { Rule, TransformRecord, TransformResult } from '../types.ts';
 
 /** A variant anchor's display: a roman chapter, the swallowed `)`,
  * then the print halakha — `XVII), 6`. Anchored at both ends, so a
- * display carrying anything else is not this row. */
-const VARIANT_DISPLAY = /^[IVXLC]+\),\s*\d+$/u;
+ * display carrying anything else is not this row.
+ *
+ * The halakha is CAPTURED rather than merely matched, so
+ * `toseftaPrimaryHalakha` can read print's own number off the one
+ * predicate `toseftaSplits` already selects on. A second regex for the
+ * same digits would be a second predicate free to drift from this one,
+ * which is the failure this module's shared walk exists to prevent.
+ * `.test()` is unaffected by the group. */
+const VARIANT_DISPLAY = /^[IVXLC]+\),\s*(?<halakha>\d+)$/u;
+
+/** A chapter-only Sefaria address — `Tosefta Shabbat 16`. The absence
+ * of a `:` IS the defect `tosefta-variant-chapter-halakha-loss`
+ * records, so this is the row's own predicate rather than a filter. */
+const CHAPTER_ONLY = /^(?<work>.+) (?<chapter>\d+)$/u;
+
+/** A variant's own address — work, chapter, halakha. */
+const CHAPTER_HALAKHA = /^(?<work>.+) \d+:(?<halakha>\d+)$/u;
 
 /** One two-anchor Tosefta citation, in document order. */
 interface Split {
@@ -541,6 +623,196 @@ function applyBoundary(
 	return { entry: healed, records };
 }
 
+/** One declared link-target case-7 claim. Derived from the result
+ * contract rather than restated, so a change to the gate's declaration
+ * shape is a type error here instead of a silently divergent literal —
+ * `rules/malformed-href.ts` takes its case-6 claim the same way. */
+type Corroborate = NonNullable<TransformResult['corroborated']>[number];
+
+/**
+ * The primary's repaired address, and the gate claim it earns — or
+ * `undefined` when this pair does not evidence one.
+ *
+ * FOUR CONDITIONS, and each of them declines 0 members of the live
+ * population while being fail-closed against a re-fetch. Measured over
+ * all 32,512 entries: of `toseftaSplits`'s 525 pairs, **414 have a
+ * chapter-only primary** (the row), and all 414 clear the other three.
+ *
+ * 1. The primary's `data-ref` is CHAPTER-ONLY. This is the row itself:
+ *    the other 111 pairs give the primary a halakha that disagrees
+ *    with print, which is a different defect with a different repair
+ *    and is not touched here.
+ * 2. The variant's `data-ref` is `work chapter:halakha` and names the
+ *    SAME WORK as the primary. 414 of 414; a pair naming two works
+ *    would be a different citation, not a recension variant.
+ * 3. **The print halakha and the addressed halakha AGREE** — the
+ *    display's captured `\d+` equals the `data-ref`'s. This is the
+ *    rule's own statement of the two-witness warrant `link-target.ts`
+ *    case 7 audits, and it is deliberately stated HERE as well as
+ *    there: the gate asks only that the digits appear SOMEWHERE in the
+ *    CITED anchor's display, while this asks that print and address
+ *    say the same thing about the same slot. The catalogue measured the
+ *    agreement at 525 of 525 and it reproduces at 414 of 414 on this
+ *    arm, so the condition declines nothing today.
+ * 4. Both spellings must actually END where the halakha is appended —
+ *    the primary's `href` in `.<chapter>` and the variant's in
+ *    `.<halakha>`. 414 of 414. Without it a differently-shaped href
+ *    would be handed a suffix that belongs nowhere, and the gate would
+ *    refuse the result — which, since `run.ts` THROWS on a gate
+ *    problem, halts the migration rather than skipping one entry. Every
+ *    guard in this module is written that way round for that reason.
+ *
+ * Condition 4 also proves both attributes parse and are non-empty,
+ * which is what `links.ts`'s `retarget` demands before it will rewrite
+ * either: `''` cannot end in `.<digits>`.
+ *
+ * The claim NAMES THE WITNESS as well as the two targets: `field` is
+ * the input field this pair was read out of, verbatim, and `open` is
+ * the variant anchor's own opening-tag token index within it. Those
+ * two are what let the gate test condition 3's display — `XVII), 6` —
+ * on the anchor this function actually read, rather than on whichever
+ * anchor of the entry happens to carry the same `data-ref`. Passing
+ * `field` in is why this takes it: `split` carries anchors, and an
+ * anchor does not know which field it came from.
+ */
+function halakhaRepair(
+	split: Split,
+	field: string,
+): { claim: Corroborate; href: string; ref: string } | undefined {
+	const { primary, variant } = split;
+	const head = CHAPTER_ONLY.exec(primary.dataRef);
+	const from = CHAPTER_HALAKHA.exec(variant.dataRef);
+	const printed = VARIANT_DISPLAY.exec(variant.display);
+	const halakha = from?.groups?.['halakha'];
+	if (
+		head === null ||
+		halakha === undefined ||
+		halakha !== printed?.groups?.['halakha'] ||
+		head.groups?.['work'] !== from?.groups?.['work'] ||
+		!primary.href.endsWith(`.${head.groups?.['chapter']}`) ||
+		!variant.href.endsWith(`.${halakha}`)
+	) {
+		return;
+	}
+	const ref = `${primary.dataRef}:${halakha}`;
+	return {
+		claim: {
+			field,
+			from: variant.dataRef,
+			head: primary.dataRef,
+			open: variant.open,
+			tail: `:${halakha}`,
+			target: ref,
+		},
+		href: `${primary.href}.${halakha}`,
+		ref,
+	};
+}
+
+/**
+ * Write each variant's halakha onto its primary — both attributes —
+ * and return the case-7 claims the rewrites earn.
+ *
+ * `retarget` replaces the tag token at `anchor.open` and leaves every
+ * index alone, so the `Anchor` objects read out of the ORIGINAL stream
+ * stay valid across successive rewrites and the whole field can be
+ * repaired in one pass. Nothing else moves: no token is added or
+ * removed, no display is touched, and the anchor count is invariant by
+ * construction rather than by check.
+ *
+ * That index stability is also what makes the claim's `open` sound:
+ * the gate re-tokenizes the declared INPUT field and looks the witness
+ * up by token index, and `text` here IS that input field, tokenized
+ * the same way before any rewrite.
+ */
+function writePrimaryHalakha(text: string): {
+	claims: Corroborate[];
+	moved: number;
+	out: string;
+} {
+	let tokens = tokenize(text);
+	const claims: Corroborate[] = [];
+	for (const split of toseftaSplits(tokens)) {
+		const repair = halakhaRepair(split, text);
+		if (repair === undefined) {
+			continue;
+		}
+		tokens = retarget(tokens, split.primary, {
+			dataRef: repair.ref,
+			href: repair.href,
+		});
+		claims.push(repair.claim);
+	}
+	if (claims.length === 0) {
+		return { claims, moved: 0, out: text };
+	}
+	return { claims, moved: claims.length, out: serialize(tokens) };
+}
+
+/**
+ * `tosefta-variant-chapter-halakha-loss` — 414 occurrences / 391
+ * entries, a STRICT SUBSET of `anchor-swallows-close-paren`'s 493.
+ *
+ * Print reads `Tosef. Sabb. XVI (XVII), 6`: one citation, two recension
+ * chapters, one halakha that belongs to both. Sefaria's markup gives
+ * the halakha to the variant alone and leaves the primary addressing a
+ * whole chapter, so the reader who follows the first link lands on
+ * `Tosefta Shabbat 16` instead of `Tosefta Shabbat 16:6`.
+ *
+ * It cannot use `applyBoundary` like its two neighbours: they map field
+ * TEXT and declare nothing, while this one writes TARGETS and must
+ * carry its claims back out to the gate. It shares the WALK, which is
+ * the part that had to be shared.
+ *
+ * DECLARES `corroborated` — link-target case 7 — and it is the
+ * registry's only user of that case. No `allows`, no `copied`, no
+ * `unlinks`: every byte written is an attribute value, no text moves
+ * and no anchor is removed. The claim names the primary's own input
+ * target as `head`, the variant's as `from`, `:<halakha>` as the tail,
+ * and the VARIANT ANCHOR ITSELF as the witness — its field's bytes and
+ * its opening-tag token index. The gate re-derives the tail per
+ * spelling and re-tests every clause on the `href` as well, reading
+ * the display off that one named anchor.
+ *
+ * Its id is the only member of the gate's `CORROBORATION_DECLARERS`
+ * allowlist, ruled 2026-08-27: case 7 licenses a mint to THIS RULE and
+ * refuses every other declarer outright. That is not a courtesy to this
+ * rule — the clauses license 29 of the 68 analogous same-work pairs
+ * (`Exodus 24:25`, which is not a verse), and what keeps the live
+ * residue at zero inside the allowlist is `VARIANT_DISPLAY`, this
+ * rule's OWN predicate. Widen that predicate and the gate will agree
+ * with the widening; see `CORROBORATION_DECLARERS` for what a reviewer
+ * must re-measure.
+ *
+ * MUST RUN BEFORE `toseftaCloseParen`. See this module's REGISTRATION
+ * ORDER section — the reverse order repairs 0 while every isolated
+ * measurement stays green.
+ */
+const toseftaPrimaryHalakha: Rule = {
+	apply(entry: SourceEntry): TransformResult {
+		const records: TransformRecord[] = [];
+		const corroborated: Corroborate[] = [];
+		const healed = mapFields(entry, (text) => {
+			const { claims, moved, out } = writePrimaryHalakha(text);
+			corroborated.push(...claims);
+			for (let at = 0; at < moved; at++) {
+				records.push({
+					detail: `primary gains halakha ${JSON.stringify(claims[at]?.target ?? '')}`,
+					rid: entry.rid,
+					ruleId: 'tosefta-variant-chapter-halakha-loss',
+				});
+			}
+			return out;
+		});
+		if (healed === undefined || records.length === 0) {
+			return { entry, records: [] };
+		}
+		return { corroborated, entry: healed, records };
+	},
+	id: 'tosefta-variant-chapter-halakha-loss',
+	phase: 'text-repairs',
+};
+
 /** `anchor-swallows-close-paren` — 525 occurrences / 493 entries. */
 const toseftaCloseParen: Rule = {
 	apply(entry: SourceEntry): TransformResult {
@@ -569,4 +841,9 @@ const openParenInAnchorDisplay: Rule = {
 	phase: 'text-repairs',
 };
 
-export { openParenInAnchorDisplay, toseftaCloseParen, toseftaSplits };
+export {
+	openParenInAnchorDisplay,
+	toseftaCloseParen,
+	toseftaPrimaryHalakha,
+	toseftaSplits,
+};

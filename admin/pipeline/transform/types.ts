@@ -47,6 +47,65 @@ interface TransformResult {
 	 * before permitting it — a declared copy that is not in the
 	 * source is a violation, not an allowance. */
 	copied?: readonly string[];
+	/** Link targets this call MINTED from a head it already held and a
+	 * tail taken from a SIBLING anchor whose own display witnesses that
+	 * tail (link-target gate case 7, spec
+	 * docs/specs/2026-08-27-link-target-gate-cases.md §3). `head` is a
+	 * target in this entry's input that supplies the leading run;
+	 * `from` is a second input target, of which `tail` is a literal
+	 * SUFFIX; `target` is the `data-ref` written, and must be exactly
+	 * `head + tail` — no gap, no third source, no character from
+	 * anywhere else.
+	 *
+	 * `field` and `open` NAME THE WITNESS: `field` is one of this
+	 * entry's own input fields, verbatim, and `open` is the index of
+	 * the opening-tag token, in that field's own tokenization, of the
+	 * anchor whose display the rule read. Token indices are unique
+	 * within a field, so the pair identifies exactly one input anchor.
+	 *
+	 * `link-target.ts` accepts the claim only when, in addition, that
+	 * anchor CARRIES `from` and the DIGITS of `tail` occur in ITS
+	 * display. That is the corroboration the case is named for and the
+	 * one thing case 4 cannot ask: the halakha reaches the primary only
+	 * because the variant PRINTS it as well as addressing it.
+	 *
+	 * The witness became a named anchor on 2026-08-27. Until then the
+	 * claim carried no anchor identity and the gate accepted the digits
+	 * from ANY input anchor carrying `from`, so an entry citing one
+	 * address twice could have its mint corroborated by the sibling the
+	 * rule never read.
+	 *
+	 * Declared, matched to anchors (`target === anchor.dataRef`) and
+	 * reported exactly like `composed` and `recombined`, ANY-claim like
+	 * both. On the `href` side `head` is mapped through every anchor
+	 * carrying it and `from` through the WITNESS's own href, the tail
+	 * is re-derived per spelling (`:6` on the `data-ref`, `.6` on the
+	 * `href`), and the same clauses are re-tested against that
+	 * spelling.
+	 *
+	 * **THIS CASE MINTS, AND CLAUSE 4 DOES NOT MAKE MINTING SAFE.**
+	 * `Tosefta Shabbat 16:6` occurs nowhere in the input. Measured
+	 * corpus-wide before the case shipped (spec §3.1): it licenses 414
+	 * of 414 tosefta variant pairs, and also 29 of the 68 structurally
+	 * analogous same-work pairs that would MINT — including
+	 * `Exodus 24` + `Exodus 15:25` giving `Exodus 24:25`, a verse that
+	 * does not exist. Jastrow renders a Sefaria `Work C:V` anchor as
+	 * `Abbr. <roman chapter>, <arabic verse>`, so the digit witness is
+	 * present by DEFAULT across that whole family. What the case buys
+	 * is not safety but ATTRIBUTION: a minted target must name the two
+	 * input targets AND the one input anchor whose display witnessed
+	 * the tail, so a wrong mint is a wrong claim with a rule's name on
+	 * it rather than an anonymous fabrication. A rule declaring this is
+	 * asserting a population argument of its own; the gate audits the
+	 * claim, it does not supply the argument. */
+	corroborated?: readonly {
+		field: string;
+		from: string;
+		head: string;
+		open: number;
+		tail: string;
+		target: string;
+	}[];
 	entry: SourceEntry;
 	/** Opening tags this call repaired by GLYPH SUBSTITUTION alone
 	 * (batch-3a spec §4.3). `from` is an opening tag in this entry's
@@ -135,6 +194,56 @@ interface TransformResult {
 	 * head's own locus. */
 	recombined?: readonly { head: string; tail: string; target: string }[];
 	records: TransformRecord[];
+	/** Opening tags this call repaired by DELETING a run that never
+	 * belonged inside them (link-target gate case 6, spec
+	 * docs/specs/2026-08-27-link-target-gate-cases.md §2). `written` is
+	 * the raw opening tag the rule emitted; `removed` is the run it
+	 * lifted out. `link-target.ts` accepts the pair only if re-inserting
+	 * `removed` into `written` reproduces a byte-exact SUBSTRING of some
+	 * field in this entry's own input, and only if EXACTLY ONE insertion
+	 * offset does so — ambiguity is a refusal, not a choice.
+	 *
+	 * `field` and `offset` NAME THE PLACE: `field` is the input field
+	 * the repair happened in, verbatim, and `offset` is where in it the
+	 * recovered run begins. The gate requires the run to sit exactly
+	 * there, and requires `field` to be the input counterpart of the
+	 * field the repaired anchor came out of. Added 2026-08-27: without
+	 * it a run recovered from the headword licensed a repair made in a
+	 * definition, since "some field of this entry" was the whole of the
+	 * test.
+	 *
+	 * Stated on RAW FIELD BYTES rather than on parsed targets, and one
+	 * level further out than case 5's raw tag bytes. Case 5 compares
+	 * against the input anchors' `.tag` values, which works because a
+	 * stranded ASCII quote still leaves a parseable tag. A tag whose
+	 * `href` swallowed the following `</a>` does not parse as a tag at
+	 * all — `html.ts` reads it as malformed and everything after it as
+	 * that attribute's value — so it appears in NO anchor's `.tag`, and
+	 * a case phrased against the parsed tag set would refuse the repair
+	 * for exactly the damage it undoes.
+	 *
+	 * A claim is matched to an anchor by `written === anchor.tag`, and
+	 * every anchor it matches must satisfy EVERY claim naming it. It
+	 * settles both attributes of that tag at once, like case 5, because
+	 * neither of them parses on the input side.
+	 *
+	 * Two consequences rule authors need, both fail-closed:
+	 *
+	 * - A repair that ADDS bytes cannot be declared this way. Case 6
+	 *   only ever deletes a declared run from bytes the input already
+	 *   holds, so a reconstruction that writes an attribute copied from
+	 *   a witness elsewhere in the entry must clear cases 1-2 on its own
+	 *   (which it does, the witness being in the parsed target set).
+	 * - An empty `removed` licenses nothing: every offset then yields
+	 *   `written` itself, so a `written` the input holds verbatim
+	 *   produces `written.length + 1` satisfying offsets and one it does
+	 *   not hold produces none. Neither is one. */
+	restored?: readonly {
+		field: string;
+		offset: number;
+		removed: string;
+		written: string;
+	}[];
 	/** How many anchors this call REMOVED from the entry, counted over
 	 * the whole entry rather than per field. The markup-delta gate
 	 * reads a dropped tag pair as an improvement and the text gate is

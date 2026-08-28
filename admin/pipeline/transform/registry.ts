@@ -18,6 +18,7 @@ import {
 	italicGlossPeriodOutside,
 	labelPeriodInside,
 } from './rules/italic-period.ts';
+import { unterminatedHref } from './rules/malformed-href.ts';
 import {
 	pluralToFeminineFinalLetter,
 	shurukAsYodDisplayCorruption,
@@ -29,6 +30,7 @@ import {
 import {
 	openParenInAnchorDisplay,
 	toseftaCloseParen,
+	toseftaPrimaryHalakha,
 } from './rules/paren-boundary.ts';
 import {
 	emDashSectionBreak,
@@ -56,6 +58,46 @@ import type { Rule } from './types.ts';
 /** Rules in execution order. Entangled rows MUST be adjacent — they own
  * the same records and will rewrite each other's work otherwise. */
 const RULES: readonly Rule[] = [
+	// ======== REPAIR THE PARSER'S VIEW FIRST ========
+	//
+	// `unterminated-href-swallows-closing-tag` (batch 4 task 5, gated
+	// 2026-08-27 by `fix/link-target-gate-cases`). 2 occurrences, D00478
+	// and J00597, and it leads `RULES` on its own module's argument
+	// rather than on the doctrine below.
+	//
+	// An `href` that swallowed its own `</a>` leaves everything after it
+	// inside an unrecovered `attributeInterior` region, and `links.ts`
+	// marks every anchor trapped in one `interior: true`. BOTH editors
+	// refuse those outright. In J00597 that is twelve anchors — the
+	// ENTIRE corpus-wide `interior` population, all in that one entry,
+	// all behind this one tag — so until this rule runs, no other rule
+	// in this list can reach them, and each of them would decline for a
+	// reason that is an artefact of the damage rather than a fact about
+	// the text. That is the "unwrap before wrap" doctrine below in its
+	// most literal form: a rule that repairs what the TOKENIZER can see
+	// runs before every rule that reads the tokens.
+	//
+	// It shares the `text-repairs` phase with every other rule
+	// (`structural-repairs` runs AFTER `text-repairs` per
+	// `admin/pipeline/patch/apply.ts:56-57`, which is the wrong side of
+	// every rule that edits an anchor this one frees), so position in
+	// this list is the only thing that sequences it.
+	//
+	// It was written in batch 4 and deliberately left UNREGISTERED: the
+	// link-target gate refused D00478, and `run.ts` throws on a gate
+	// problem, so registering it would have halted the migration on the
+	// first pass over that entry. Case 6 (spec
+	// docs/specs/2026-08-27-link-target-gate-cases.md §2) licenses the
+	// repair from the tag's own damaged bytes, the rule DECLARES the
+	// pair through `restored`, and the row leaves `PENDING` below.
+	//
+	// It is neither an unlink nor a retarget nor a wrap: it declares no
+	// `unlinks`, and it writes a target only by relocating the bytes
+	// that already spelled it. `registry.order.test.ts` classifies it in
+	// its own `RESTORE` set, EARNED over the corpus from the `restored`
+	// declaration exactly as `GLYPH` is earned from `glyphCorrected`.
+	unterminatedHref,
+
 	// ======== UNLINK BEFORE WRAP ========
 	//
 	// REORDERED 2026-08-26 (fix/rtl-unlink-order). The rtl trio used to
@@ -321,14 +363,15 @@ const RULES: readonly Rule[] = [
 	// produces. The 0 / 0 figures are the whole-registry answer; the
 	// gate is the cheap continuous one.
 
-	// ---- THE SLOT: `toseftaPrimaryHalakha` REGISTERS HERE ----
+	// ---- THE SLOT, NOW FILLED: `toseftaPrimaryHalakha` ----
 	//
-	// The deferred halakha rule for `tosefta-variant-chapter-halakha-
-	// loss` (414 occ / 391 ent, measured and pinned in
-	// `paren-boundary.test.ts`) MUST be registered on THIS line —
-	// STRICTLY BEFORE `toseftaCloseParen`, not merely adjacent to it.
-	// The direction is the whole requirement and getting it backwards
-	// is SILENT.
+	// `tosefta-variant-chapter-halakha-loss` (414 occ / 391 ent,
+	// measured and pinned in `paren-boundary.test.ts`) is registered on
+	// THIS line — STRICTLY BEFORE `toseftaCloseParen`, not merely
+	// adjacent to it. The direction is the whole requirement and getting
+	// it backwards is SILENT. `registry.order.test.ts` pins the
+	// DIRECTION rather than the adjacency, because `checkAdjacency` sees
+	// the entangled pair and is satisfied by either arrangement.
 	//
 	// `toseftaCloseParen` destroys `toseftaSplits`'s own predicate: a
 	// variant's display reads `XVII), 6` before the boundary move and
@@ -342,22 +385,31 @@ const RULES: readonly Rule[] = [
 	// corpus tier there measures the destruction directly
 	// (`survivingSwallows` 525 -> 0, computed from the output).
 	//
-	// The two rows are declared `entangledWith` each other, so once
-	// that rule ships `checkAdjacency()` will require the pair to
-	// occupy a gap-free span — which this slot satisfies — and the
-	// commutation gate will report them non-commuting, which is
-	// expected and correct. Neither gate can say which order is right;
-	// this comment is the answer.
+	// The two rows are declared `entangledWith` each other, so
+	// `checkAdjacency()` requires the pair to occupy a gap-free span —
+	// which this slot satisfies — and the commutation gate reports them
+	// non-commuting, which is expected and declared. Neither gate can
+	// say which order is right; this comment is the answer.
 	//
-	// Why the row is deferred rather than dropped:
-	// `link-target.ts` case 4 refuses the repair. `rejoinsFrom`'s
-	// 2026-08-24 tightening requires the part of `tail` the split
-	// discards to be a prefix of `head`, and `Tosefta Shabbat 17` is
-	// not a prefix of `Tosefta Shabbat 16`. The evidence for the repair
-	// is stronger than case 4 asks for — the halakha is witnessed twice
-	// in the entry's own input, in the variant's `data-ref` and again
-	// in its display — so the gap is in the gate, not in the repair.
-	// Brian ruled 2026-08-26 that widening a SHARED gate is its own PR.
+	// CORRECTED 2026-08-27 (fix/link-target-gate-cases). This block
+	// closed with "Why the row is deferred rather than dropped:
+	// `link-target.ts` case 4 refuses the repair", and that was true of
+	// the five cases then in force — `rejoinsFrom`'s 2026-08-24
+	// tightening requires the part of `tail` the split discards to be a
+	// prefix of `head`, and `Tosefta Shabbat 17` is not a prefix of
+	// `Tosefta Shabbat 16`. The deferral also named the way out
+	// correctly: "the halakha is witnessed twice in the entry's own
+	// input, in the variant's `data-ref` and again in its display — so
+	// the gap is in the gate, not in the repair." Case 7 is that second
+	// witness made into a clause, the rule DECLARES the pair through
+	// `corroborated`, and the row leaves `PENDING` below.
+	//
+	// What the case does NOT do is make the mint safe: measured, it also
+	// licenses 29 of the 68 analogous same-work pairs corpus-wide, and
+	// only this rule's own `VARIANT_DISPLAY` predicate keeps them out.
+	// See `rules/paren-boundary.ts`'s CASE 7 section.
+	toseftaPrimaryHalakha,
+
 	toseftaCloseParen,
 
 	// `open-paren-in-anchor-display` (225 occ / 214 ent) — the opposite
@@ -844,10 +896,17 @@ const PENDING: readonly string[] = [
 	'reversed-hebrew-phrase',
 	'empty-lead-sense',
 	'abbrev-fused-headword',
-	'unterminated-href-swallows-closing-tag',
+	// `unterminated-href-swallows-closing-tag` left this list on
+	// 2026-08-27 (fix/link-target-gate-cases): `unterminatedHref` is
+	// registered FIRST in `RULES` above, now that link-target case 6
+	// licenses D00478's repair. See the block at the head of `RULES`.
 	'stem-head-marker-chop',
 	'vkh-geresh-loss',
-	'tosefta-variant-chapter-halakha-loss',
+	// `tosefta-variant-chapter-halakha-loss` left this list on
+	// 2026-08-27 (fix/link-target-gate-cases): `toseftaPrimaryHalakha`
+	// is registered above, STRICTLY BEFORE `toseftaCloseParen`, now that
+	// link-target case 7 licenses the halakha the variant both addresses
+	// and prints. See THE SLOT block in `RULES`.
 	'homograph-roman-stranded-in-definition',
 	'holam-migrated-off-mater-vav',
 	'impossible-dagesh',
@@ -907,11 +966,11 @@ const PENDING: readonly string[] = [
 	// row's rule, which is neither "registered" nor "still owed a rule"
 	// and had no way to be said here.
 	//
-	// TWO of batch 4's ten rows are still here and both are BLOCKED on
-	// a shared-gate ruling rather than on a missing predicate. Neither
-	// is idle: a rule exists for one and a population is pinned for the
-	// other, so what a `PENDING` entry claims for these two is that the
-	// row is owed a REGISTERED rule, which it is.
+	// TWO of batch 4's ten rows were left here BLOCKED on a shared-gate
+	// ruling rather than on a missing predicate. Neither was idle: a
+	// rule existed for one and a population was pinned for the other, so
+	// what a `PENDING` entry claimed for those two is that the row is
+	// owed a REGISTERED rule, which it was.
 	//
 	// - `unterminated-href-swallows-closing-tag` (2 occurrences, D00478
 	//   and J00597) HAS a written, tested rule on this branch —
@@ -929,6 +988,31 @@ const PENDING: readonly string[] = [
 	// Both fold into one follow-up gate PR (Brian, 2026-08-26), on the
 	// shape PR #50 took: a ruling on a SHARED gate is not an
 	// implementation choice inside one rule module.
+	//
+	// CORRECTED 2026-08-27 (fix/link-target-gate-cases). That PR is this
+	// branch, and BOTH of the two bullets above are now HISTORY. They
+	// are quoted rather than deleted because they record what each
+	// deferral claimed, and both claims were exactly right:
+	//
+	// - The first said `unterminated-href-swallows-closing-tag`'s target
+	//   was absent from the input's PARSED target set. It was, which is
+	//   why case 6 reads raw FIELD bytes instead. `unterminatedHref` is
+	//   registered at the head of `RULES`.
+	// - The second said `tosefta-variant-chapter-halakha-loss` was
+	//   refused by case 4's tightening, and that the evidence was
+	//   stronger than case 4 asks for. Both true: case 7 is that surplus
+	//   evidence — the halakha printed in the variant's display as well
+	//   as addressed in its `data-ref` — turned into a clause.
+	//   `toseftaPrimaryHalakha` fills its marked slot, and the slot is
+	//   no longer empty.
+	//
+	// What the second bullet did NOT anticipate is how much else case 7
+	// licenses. Its corroboration clause was ruled in on a measurement
+	// of 0 of 69 analogous same-work pairs that turned out to be an
+	// arithmetic error; re-measured it is 29 of 68, and Brian re-ruled
+	// on 2026-08-27 to ship anyway. Live exposure is zero because a
+	// gate case is a LICENCE and not an instruction — nothing mints
+	// unless a rule declares it, and no other rule declares case 7.
 ];
 
 /**

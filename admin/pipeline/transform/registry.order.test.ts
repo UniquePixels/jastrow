@@ -20,7 +20,19 @@
  *    anchor, the target it carries is a wrong link, and adopting it
  *    propagates the error instead of removing it. So every anchor an
  *    unlink rule will remove must already be gone before any
- *    antecedent search runs.
+ *    antecedent search runs. WIDENED 2026-08-27 to cover `CORROBORATE`
+ *    as well as `RETARGET`: `toseftaPrimaryHalakha` does not adopt a
+ *    neighbour's target, it assembles one from a neighbour's suffix and
+ *    a neighbour's printed digits, which is the same dependency on the
+ *    neighbour still being there.
+ *
+ *    A FIFTH ordering rides alongside it and is asserted separately,
+ *    because it is about one pair rather than two classes:
+ *    `toseftaPrimaryHalakha` STRICTLY BEFORE `toseftaCloseParen`. The
+ *    two rows are entangled, so rule 2 already requires them adjacent;
+ *    adjacency is direction-blind and the direction is the whole
+ *    requirement, since the close-paren rule destroys the display
+ *    predicate the halakha rule selects on.
  * 2. **Entangled rows occupy a gap-free span.** Read off the live
  *    catalogue's `entangledWith` graph rather than a list here, so a
  *    new edge in `patterns.jsonl` is enforced the moment it is
@@ -85,13 +97,25 @@
  * exactly the moment it is most needed. Batch 3a added a fourth set
  * rather than widening a third: `gershayim-breaks-ref-attribute`
  * writes a link target without adopting one from a neighbour, which
- * is neither `RETARGET` nor `NEITHER` as those are defined.
+ * is neither `RETARGET` nor `NEITHER` as those are defined. The gate's
+ * case 6 added a FIFTH on the same reasoning (2026-08-27) — `RESTORE`,
+ * for a rule that writes a target by relocating bytes inside the
+ * anchor's OWN damaged tag — rather than stretching `GLYPH` to cover a
+ * second, differently-shaped declaration. Case 7 added a SIXTH the same
+ * day — `CORROBORATE`, for a rule that MINTS a target from two the
+ * input holds plus a sibling's printed digits. It is not `RETARGET`
+ * either, and the distinction is worth stating because it is the
+ * closest call of the six: a retarget ADOPTS a neighbour's whole
+ * target, where this assembles a target no anchor carries. Rule 1's
+ * hazard — an unlink rule deleting the antecedent — applies to both, so
+ * `CORROBORATE` is placed under rule 1 alongside `RETARGET` rather than
+ * exempted from it.
  *
  * And exhaustive is not the same as earned. The corpus pass at the
- * bottom of this file makes membership of `UNLINK`, `WRAP`, `GLYPH`
- * and `NEITHER` a measurement over all 32,512 entries rather than an
- * author's claim. `RETARGET` is the one set that cannot be earned
- * that way, and the note there says why.
+ * bottom of this file makes membership of `UNLINK`, `WRAP`, `GLYPH`,
+ * `RESTORE`, `CORROBORATE` and `NEITHER` a measurement over all 32,512
+ * entries rather than an author's claim. `RETARGET` is the one set that
+ * cannot be earned that way, and the note there says why.
  */
 import { describe, expect, it } from 'bun:test';
 import { readSourceEntries } from '../body/source.ts';
@@ -274,10 +298,62 @@ const WRAP = new Set([
  * fires on the same 1,386 / 85 entries composed as it does alone. */
 const GLYPH = new Set(['gershayim-breaks-ref-attribute']);
 
-/** The five classifications, named ONCE. Both halves of the
- * classification test read this, so a sixth class added to one half
+/** Rules that RESTORE a link target by relocating bytes inside the
+ * anchor's own damaged tag — gate case 6, and a fifth class on exactly
+ * the reasoning that made `GLYPH` a fourth. These rules DO write a
+ * target, so `NEITHER` is false of them; they adopt it from no
+ * neighbour, so `RETARGET` is false too.
+ *
+ * Rule 1 says nothing about where they sit, for `GLYPH`'s reason — a
+ * restoration reads only the anchor it is repairing, so there is no
+ * antecedent an unlink rule could destroy underneath it. Something
+ * else does: `unterminatedHref` runs FIRST in `RULES`, because the
+ * damage it repairs makes the tokenizer read every following anchor as
+ * `interior` and both editors refuse those. That is a placement
+ * argument about the PARSER rather than about targets, so it lives in
+ * `registry.ts`'s own block and not in one of the four rules here.
+ *
+ * Membership is EARNED exactly as `GLYPH`'s is, and by the same
+ * mechanism: a rule that writes a target this way MUST declare
+ * `restored` or `run.ts`'s gate refuses it, so the corpus pass below
+ * asserts this literal set equals the rules that ever declare one. */
+const RESTORE = new Set(['unterminated-href-swallows-closing-tag']);
+
+/** Rules that MINT a link target from two the entry's input holds,
+ * corroborated by a sibling anchor's printed digits — gate case 7, and
+ * a sixth class on the reasoning that made `GLYPH` a fourth and
+ * `RESTORE` a fifth.
+ *
+ * `NEITHER` is false of these: they write a target, and a target the
+ * entry never held at that. `RETARGET` is false too, and this is the
+ * closest of the six calls. A retarget ADOPTS a neighbouring anchor's
+ * whole target; `toseftaPrimaryHalakha` assembles one — the primary's
+ * own chapter plus the variant's halakha — that no anchor in the entry
+ * carries. Rule 1's hazard nevertheless applies in full: the
+ * corroborating sibling is a NEIGHBOUR, and an unlink rule that deleted
+ * it would leave this rule reading a different anchor as the variant.
+ * So this set sits under rule 1 beside `RETARGET` rather than being
+ * exempted the way `GLYPH` and `RESTORE` are, and the assertion below
+ * asserts it over both sets.
+ *
+ * Membership is EARNED exactly as `GLYPH`'s and `RESTORE`'s are: a rule
+ * that mints this way MUST declare `corroborated` or `run.ts`'s gate
+ * refuses it, so the corpus pass below asserts this literal set equals
+ * the rules that ever declare one. */
+const CORROBORATE = new Set(['tosefta-variant-chapter-halakha-loss']);
+
+/** The seven classifications, named ONCE. Both halves of the
+ * classification test read this, so an eighth class added to one half
  * and forgotten in the other is not a thing that can happen. */
-const CLASSES: ReadonlySet<string>[] = [UNLINK, RETARGET, NEITHER, GLYPH, WRAP];
+const CLASSES: ReadonlySet<string>[] = [
+	UNLINK,
+	RETARGET,
+	CORROBORATE,
+	NEITHER,
+	GLYPH,
+	RESTORE,
+	WRAP,
+];
 
 const ids = RULES.map((rule) => rule.id);
 
@@ -309,10 +385,38 @@ describe('registry order', () => {
 		expect(() => at('no-such-rule')).toThrow(/no rule registered/u);
 	});
 
-	it('every unlink rule precedes every retarget rule', () => {
+	// Rule 1, asserted over `RETARGET` AND `CORROBORATE` together. The
+	// corroborating rule reads a NEIGHBOURING anchor for its tail and
+	// its digits, so an unlink rule that deletes that neighbour changes
+	// what it reads — the same hazard, whether the target is adopted
+	// whole or assembled.
+	it('every unlink rule precedes every rule that sources a target from a neighbour', () => {
 		const lastUnlink = Math.max(...[...UNLINK].map(at));
-		const firstRetarget = Math.min(...[...RETARGET].map(at));
-		expect(lastUnlink).toBeLessThan(firstRetarget);
+		const firstReader = Math.min(...[...RETARGET, ...CORROBORATE].map(at));
+		expect(lastUnlink).toBeLessThan(firstReader);
+	});
+
+	// THE DIRECTION, AND THE FAILURE IT PREVENTS IS SILENT.
+	// `toseftaCloseParen` rewrites a variant's display from `XVII), 6`
+	// to `XVII`, and `VARIANT_DISPLAY` is anchored at both ends, so it
+	// DESTROYS the predicate `toseftaSplits` selects on. `run.ts` feeds
+	// each rule the previous rule's output, so the reverse order leaves
+	// `toseftaPrimaryHalakha` seeing 0 splits and repairing 0 primaries
+	// — while `bun transform:count`, which runs every rule ALONE against
+	// the pinned snapshot, keeps reporting 391 MATCH. Green everywhere,
+	// nothing done.
+	//
+	// `checkAdjacency` cannot hold this. The two rows ARE declared
+	// `entangledWith` each other, so it requires them to occupy a
+	// gap-free span — and it is DIRECTION-BLIND, so it is satisfied by
+	// either arrangement. The commutation gate reports the pair
+	// non-commuting, which is expected and declared, and it does not say
+	// which order is right either. This assertion is the only thing in
+	// the tree that does.
+	it('toseftaPrimaryHalakha runs STRICTLY BEFORE toseftaCloseParen', () => {
+		expect(at('tosefta-variant-chapter-halakha-loss')).toBeLessThan(
+			at('anchor-swallows-close-paren'),
+		);
 	});
 
 	// Rule 4, UNLINK BEFORE WRAP — see the header for why. Asserted
@@ -350,6 +454,23 @@ describe('registry order', () => {
 	// is the point at which someone has to look.
 	it('the registered entanglement clusters are exactly these', () => {
 		expect(entangledClusters(catalogue, RULES).map((c) => c.ids)).toEqual([
+			// THREE clusters became FOUR on 2026-08-27
+			// (fix/link-target-gate-cases), and this one is the arrival the
+			// comment above anticipated: "it could never cover a cluster
+			// that becomes live when a `PENDING` row's rule ships". The
+			// tosefta pair's edge was always recorded; until
+			// `toseftaPrimaryHalakha` shipped, only one endpoint was
+			// registered, so `entangledClusters` skipped the component and
+			// `unaccountedEdges` reported it instead. Both changed in the
+			// same commit, and the two pins moved in opposite directions —
+			// this one grew by a cluster, that one shrank by a line.
+			//
+			// Its span is 2 and the two rules are adjacent, which the span
+			// test below checks. What NEITHER checks is the DIRECTION, and
+			// the direction is the whole requirement here — see
+			// `toseftaPrimaryHalakha runs STRICTLY BEFORE
+			// toseftaCloseParen` above.
+			['anchor-swallows-close-paren', 'tosefta-variant-chapter-halakha-loss'],
 			['ascii-quote-as-gershayim-in-body', 'gershayim-breaks-ref-attribute'],
 			// FOUR clusters became THREE on 2026-08-26
 			// (fix/rtl-unlink-order), and the merges are the point rather
@@ -384,7 +505,7 @@ describe('registry order', () => {
 	// there being no clusters at all.
 	it('every derived cluster occupies a gap-free span', () => {
 		const clusters = entangledClusters(catalogue, RULES);
-		expect(clusters).toHaveLength(3);
+		expect(clusters).toHaveLength(4);
 		for (const cluster of clusters) {
 			const span = Math.max(...cluster.at) - Math.min(...cluster.at) + 1;
 			expect(`${cluster.ids.join(', ')} span ${span}`).toBe(
@@ -462,9 +583,24 @@ describe('registry order', () => {
 	// The line either resolves to `[]` when the halakha rule ships, or
 	// keeps one entry for as long as the JT row stays a catalogue row
 	// with no rule. Whichever happens, it happens here, in the open.
+	//
+	// RESOLVED IN PART, 2026-08-27 (fix/link-target-gate-cases), and
+	// this is the sentence above coming true. `toseftaPrimaryHalakha`
+	// shipped, so the tosefta edge now has BOTH endpoints registered and
+	// lands inside a derived cluster instead of being reported: the
+	// pinned output SHRINKS from two lines to one. The pin is updated,
+	// not relaxed — the surviving line is still asserted exactly, so a
+	// third unaccounted edge, or the JT line changing, still fails here.
+	//
+	// The one that remains is the one that has no rule to be ordered
+	// against at all: `jt-double-wrapped-citation` is repaired in full
+	// by `nestedAnchorDuplicate` and is named in `registry.ts`'s
+	// `COVERED`, so `coverage()` counts it as owned — but a row with no
+	// rule of its own has no position, and `unaccountedEdges` asks about
+	// EXECUTION ORDER. Reporting it is correct, and it will keep being
+	// reported for as long as that stays true.
 	it('every recorded edge touching the registry is validated or reported', () => {
 		expect(unaccountedEdges(catalogue, RULES)).toEqual([
-			'anchor-swallows-close-paren ~ tosefta-variant-chapter-halakha-loss: recorded entanglement is invisible to the adjacency gate',
 			'jt-double-wrapped-citation ~ nested-anchor-swallows-punctuation: recorded entanglement is invisible to the adjacency gate',
 		]);
 	});
@@ -550,10 +686,12 @@ describe('registry order', () => {
  * none of it.
  *
  * WHAT THIS CAN AND CANNOT EARN, measured rather than assumed.
- * Declarations earn `UNLINK` and `GLYPH` in both directions, because
- * a rule that removes an anchor MUST declare `unlinks` and a rule that
- * writes a target by glyph substitution MUST declare `glyphCorrected`
- * — `run.ts`'s gates fail otherwise. They cannot earn `RETARGET`:
+ * Declarations earn `UNLINK`, `GLYPH` and `RESTORE` in both
+ * directions, because a rule that removes an anchor MUST declare
+ * `unlinks`, a rule that writes a target by glyph substitution MUST
+ * declare `glyphCorrected`, and a rule that restores one out of a
+ * damaged tag MUST declare `restored` — `run.ts`'s gates fail
+ * otherwise. They cannot earn `RETARGET`:
  * gate case 2 admits a target COPIED VERBATIM from another anchor in
  * the same entry with no declaration at all, and `ib-yoma-2a` is the
  * live proof — it retargets 188 entries and declares nothing corpus-
@@ -698,6 +836,12 @@ function scan(): Promise<void> {
 				if ((out.glyphCorrected ?? []).length > 0) {
 					kinds.add('glyphCorrected');
 				}
+				if ((out.restored ?? []).length > 0) {
+					kinds.add('restored');
+				}
+				if ((out.corroborated ?? []).length > 0) {
+					kinds.add('corroborated');
+				}
 				if (
 					(NEITHER.has(rule.id) || WRAP.has(rule.id)) &&
 					targetsOf(out.entry) !== before
@@ -792,6 +936,42 @@ describe('the classification is earned, not declared', () => {
 	it('exactly the GLYPH rules ever correct a target in place', async () => {
 		await scan();
 		expect(everDeclared('glyphCorrected')).toEqual([...GLYPH].toSorted(byId));
+	}, 180_000);
+
+	// `RESTORE` earned on `GLYPH`'s mechanism: gate case 6 licenses a
+	// target only against a `restored` declaration, so a rule that
+	// restores one and does not declare it is refused by `run.ts` rather
+	// than quietly classified here. Both directions, like `GLYPH`: a
+	// rule declaring `restored` and missing from this set fails, and a
+	// name in this set that never declares one fails too.
+	it('exactly the RESTORE rules ever restore a target from damaged bytes', async () => {
+		await scan();
+		expect(everDeclared('restored')).toEqual([...RESTORE].toSorted(byId));
+	}, 180_000);
+
+	// `CORROBORATE` earned on the same mechanism as `GLYPH` and
+	// `RESTORE`: gate case 7 licenses a minted target only against a
+	// `corroborated` declaration, so a rule that mints one and does not
+	// declare it is refused by `run.ts` rather than quietly classified
+	// here. Both directions — a rule declaring `corroborated` and
+	// missing from this set fails, and a name in this set that never
+	// declares one fails too.
+	//
+	// This is the assertion that keeps case 7's "live exposure is zero"
+	// claim honest. That claim rests on exactly one rule declaring the
+	// case; a second one appearing corpus-wide fails HERE, and whoever
+	// added it has to come and read why the count mattered.
+	//
+	// Since 2026-08-27 it is no longer the only thing that fails. The
+	// gate itself refuses a `corroborated` claim from any rule not on
+	// `CORROBORATION_DECLARERS` (link-target.ts), so a second declarer
+	// throws in `run.ts` before this set is ever compared — this
+	// assertion now names the drift, and the allowlist stops it.
+	it('exactly the CORROBORATE rules ever mint a corroborated target', async () => {
+		await scan();
+		expect(everDeclared('corroborated')).toEqual(
+			[...CORROBORATE].toSorted(byId),
+		);
 	}, 180_000);
 
 	it('no NEITHER or WRAP rule removes an anchor or moves a target', async () => {
