@@ -107,23 +107,30 @@ grouping.
 
 ```bash
 bun -e 'import {readSourceEntries} from "./admin/pipeline/body/source.ts";
-let sections=0,entries=0,slot=0,nextIsStem=0;
+const isEmptyStem=(s)=>{const g=s?.grammar; if(g===undefined) return false;
+  const has=(g.binyan_form??[]).length>0||g.verbal_stem!==undefined;
+  const content=(s?.definition!==undefined&&s.definition!=="")||(s?.senses??[]).length>0;
+  return has&&!content;};
+let sections=0,entries=0,slot=0,nextIsStem=0,adjacent=0;
 for await (const e of readSourceEntries()){let hit=false;
   // TOP LEVEL ONLY — the audit measures `content.senses`, not the tree.
-  e.content.senses.forEach((s,i)=>{const g=s.grammar; if(g===undefined) return;
-    const has=(g.binyan_form??[]).length>0||g.verbal_stem!==undefined;
-    const content=(s.definition!==undefined&&s.definition!=="")||(s.senses??[]).length>0;
-    if(!has||content) return;
+  e.content.senses.forEach((s,i)=>{if(!isEmptyStem(s)) return;
     sections++; hit=true;
-    if((g.binyan_form??[]).at(-1)==="") slot++;
-    if(e.content.senses[i+1]?.grammar!==undefined) nextIsStem++;});
+    if((s.grammar?.binyan_form??[]).at(-1)==="") slot++;
+    const next=e.content.senses[i+1];
+    if(next?.grammar!==undefined) nextIsStem++;
+    if(isEmptyStem(next)) adjacent++;});
   if(hit) entries++;}
-console.log({sections,entries,trailingEmptySlot:slot,nextIsStem});'
+console.log({sections,entries,trailingEmptySlot:slot,nextIsStem,adjacent});'
 ```
 
 ```text
-{ sections: 347, entries: 342, trailingEmptySlot: 347, nextIsStem: 347 }
+{ sections: 347, entries: 342, trailingEmptySlot: 347, nextIsStem: 347, adjacent: 0 }
 ```
 
 The three 347s are the audit: every section carries the split residue,
-and every one is followed by another stem block.
+and every one is followed by another stem block. **`adjacent` is the
+separate claim** — the follower is always a stem block with CONTENT,
+never another empty section, so each split heading names exactly two
+stems and the gloss always has somewhere to be. `nextIsStem` alone
+cannot show that; it asks only whether a `grammar` block follows.

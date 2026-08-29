@@ -176,7 +176,7 @@ One row left `transform` — `empty-stem-section`, on the ruling above.
 The two rows this batch SPLIT stayed: `asterisk-stem-label` is still
 there, re-scoped 69 → 3, with its 66 alongside it in `judgment`.
 
-Tests: **1,107 pass / 0 fail** (1,067 before). Commutation gate: 41
+Tests: **1,109 pass / 0 fail** (1,067 before). Commutation gate: 41
 rules, 820 pairs, 10 non-commuting, 0 undeclared.
 
 ## 6. What none of this can see
