@@ -3,13 +3,13 @@
 **Status: shipped 2026-08-28.** The `structural-repairs` phase runs for
 the first time since the phase manifest was written in Phase 1; a
 fourth gate joined the three that run per rule; two rules shipped, one
-in each phase; one unaudited row gained an audit and a recommendation;
-and two new `judgment` rows were opened so that partial rules could not
-take their rows' remainders off the queue.
+in each phase; the largest unaudited row gained an audit and then left
+the queue on a ruling; and two new `judgment` rows were opened so that
+partial rules could not take their rows' remainders off the queue.
 
 The registry holds **41 rules**; `coverage()` reads **0 unaccounted / 0
-duplicated** over a transform route of **69 rows / 21,014 instances**.
-`PENDING` 29 → **27**.
+duplicated** over a transform route of **68 rows / 20,672 instances**.
+`PENDING` 29 → **26**.
 
 Spec: [`2026-08-28-structural-repairs-design.md`](../specs/2026-08-28-structural-repairs-design.md).
 Audit: `data/patches/catalogue-audit/empty-stem-section.md`.
@@ -50,13 +50,15 @@ defects into silence. Both were split instead — the batch-4 precedent —
 and the two new rows are `judgment`, because in both cases what blocks
 a rule is a ruling, not a predicate.
 
-**5. Two of batch 6's rows turn out to be questions about
-`entry.schema.json`, not about predicates.** `empty-stem-section`
-(347 sections / 342 entries) needs a way to say that consecutive stem
-blocks share one gloss; `stem-label-not-a-binyan-name` (66) needs
-`stems[].forms` to carry the reconstruction siglum the way
-`formObject.reconstructed` already does for headwords. Neither is a
-transform anybody has failed to write.
+**5. Two of batch 6's rows turn out not to be transform work at all,
+and they fail in different places.** `stem-label-not-a-binyan-name`
+(66) needs `stems[].forms` to carry the reconstruction siglum the way
+`formObject.reconstructed` already does for headwords — a SCHEMA
+question. `empty-stem-section` (347 sections / 342 entries) needs no
+data change whatever: nothing is missing, and showing consecutive
+senseless stem blocks as one run is a PHASE 4 RENDERING decision. It
+left the transform queue on that distinction (§4), the first row to do
+so.
 
 ## 1. The phase
 
@@ -94,8 +96,8 @@ MOVES the marker into that sibling's `number`:
 | after | `… v. supra.` | `number: "—2)"`, `to grow strong…` |
 
 `—2)` is the corpus's own spelling — **3,985 `number` fields already
-hold that exact string**, and the corpus test asserts the total moves
-to 3,985 + 18 rather than asserting a bare figure. The one deletion is
+hold that exact string** — and the corpus test asserts the DELTA, +18,
+rather than that total, which is not this batch's to own. The one deletion is
 the marker's trailing space, declared through `removes: [' ']`;
 leaving it would have handed `trailing-whitespace-definition` (10, still
 `PENDING`) eighteen new members.
@@ -134,11 +136,19 @@ may already belong to `stranded-open-bracket`, whose audit partitions
 152 into 87 / 49 / 18 — **the collision must be checked before either
 rule is written.**
 
-## 4. `empty-stem-section` — audited, not repaired
+## 4. `empty-stem-section` — audited, and withdrawn
 
-The row had no `reason`. It has one now, and a published audit; the
-disposition is a maintainer ruling and the row is left `transform`
-until it is made. Recommendation: **withdraw to `judgment`**.
+The row had no `reason`. It has one now, a published audit, and a
+ruling: **WITHDRAWN to `judgment` (Brian, 2026-08-28)**, on the
+distinction that decides it — **a display concern, not a data one.**
+
+That is a fourth way for a row to leave `transform`, and worth naming
+alongside the three the registry ledger already records. The eight
+`judgment` withdrawals failed on INFERENCE, on DESTINATION, or on
+there being no defect; the three discards failed because another
+mechanism already owned the defect. This row fails none of those: the
+data is complete, and the fix is a rendering decision that changes no
+bytes.
 
 Uniformity is total: 347 sections, all top level, all carrying a real
 label and form, all followed immediately by another stem block, and
@@ -158,13 +168,13 @@ the grouping.
 | `RULES` | 39 | **41** |
 | `PENDING` | 29 | **27** |
 | `coverage()` | 69 total, 0/0 | **69 total, 0/0** |
-| transform route | 69 / 21,080 | **69 / 21,014** |
-| judgment route | 56 / 15,919 | **58 / 15,995** |
+| transform route | 69 / 21,080 | **68 / 20,672** |
+| judgment route | 56 / 15,919 | **59 / 16,337** |
 | unaudited transform rows | 4 (2 blocking) | **3 (1 blocking)** |
 
-The transform row count is unchanged because the two rows this batch
-took off the queue were replaced by nothing: `asterisk-stem-label`
-stayed, re-scoped, and its 66 went to `judgment`.
+One row left `transform` — `empty-stem-section`, on the ruling above.
+The two rows this batch SPLIT stayed: `asterisk-stem-label` is still
+there, re-scoped 69 → 3, with its 66 alongside it in `judgment`.
 
 Tests: **1,107 pass / 0 fail** (1,067 before). Commutation gate: 41
 rules, 820 pairs, 10 non-commuting, 0 undeclared.

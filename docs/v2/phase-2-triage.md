@@ -54,8 +54,8 @@ someone pins the predicate.
 
 | Route | Rows | Instances | What it needs |
 |---|---:|---:|---|
-| **transform** | **69** | **21,014** | deterministic code + tests |
-| judgment | 58 | 15,995 | per-entry reading (Opus pass or maintainer) |
+| **transform** | **68** | **20,672** | deterministic code + tests |
+| judgment | 59 | 16,337 | per-entry reading (Opus pass or maintainer) |
 | blocked | 5 | 4,947 | pin the predicate first |
 
 Phase 1 closed this table at 81 / 46 / 5. Every move since has been a
@@ -155,12 +155,16 @@ is working:
   `chopped-marker-with-residue` (judgment). Both splits obey one rule —
   `coverage()` reads a row as registered the moment any rule claims its
   id, so a partial rule must not take its row's remainder off the
-  queue. `empty-stem-section` gained the audit it never had, with a
-  recommendation to withdraw. See
+  queue. `empty-stem-section` (347 sections / 342 entries) gained the
+  audit it never had and then LEFT the queue on Brian's ruling — the
+  first row to go on a data-versus-display distinction rather than on
+  inference, destination or there being no defect. Nothing is missing
+  from it; what remains is a Phase 4 rendering item, showing
+  consecutive senseless stem blocks as one run. See
   [transform-batch-6b.md](transform-batch-6b.md).
 
-**50.1% of the backlog is deterministic code** (21,014 of 41,956
-instances), 52.3% of it by row. That is the most useful number here —
+**49.3% of the backlog is deterministic code** (20,672 of 41,956
+instances), 51.5% of it by row. That is the most useful number here —
 most of the catalogue does not need judgment at all.
 
 The instance total is now FALLING, and both directions have the same
@@ -177,7 +181,7 @@ Cutover gate, cross-cut:
 | Blocks the v2 cutover | 58 | 14,782 |
 | Launch need not wait | 74 | 27,174 |
 
-## The transform queue — all 69 rows, largest first
+## The transform queue — all 68 rows, largest first
 
 `⚠ unaudited` marks a row with no `reason` recorded: its count has never
 been derived. That is not a reason to skip it — for a transform row,
@@ -204,7 +208,6 @@ either reproduces the count or does not.
 | `tosefta-variant-chapter-halakha-loss` | 391 | no | — |
 | `targum-sheni-never-linked` | 362 | no | ⚠ unaudited |
 | `plural-label-rendering-defeats-capture` | 358 | **yes** | — |
-| `empty-stem-section` | 342 | **yes** | — |
 | `ib-yoma-2a` | 312 | no | — |
 | `holam-migrated-off-mater-vav` | 308 | no | — |
 | `emphasis-run-edge-space` | 304 | no | — |

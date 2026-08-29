@@ -1,9 +1,22 @@
 # Audit — `empty-stem-section` (catalogued 342)
 
-**Verdict: the count reproduces, the mechanism is settled, and NO
-REPAIR IS AVAILABLE that does not invent. Recommendation: withdraw to
-`route: judgment`.** Written in batch 6b; the row is one of four that
-had no `reason` at all, and the largest of them.
+**RULED 2026-08-28 (Brian): WITHDRAWN to `route: judgment`,** on the
+distinction that decides the whole row — **this is a DISPLAY concern,
+not a data one.** The count reproduces, the mechanism is settled, and
+no repair is available that does not invent. Written in batch 6b; the
+row was one of four that had no `reason` at all, and the largest of
+them. Transform route **69 → 68 rows**, 21,014 → **20,672** instances;
+`PENDING` 27 → **26**.
+
+Nothing is missing and nothing is malformed. The label and the form
+both reach `BodyStem`, the schema permits an empty `senses` array, and
+the shape mirrors the print heading it came from. The one piece of
+debris the row ever carried — the trailing empty `binyan_form` slot —
+is dropped by `cleanBinyanForms` before any rule runs (batch 6a).
+**What is left is a Phase 4 rendering item:** show consecutive stem
+blocks where all but the last are senseless as one run. Leaving the row
+on the transform queue as `blocking` asserted that a rule was owed
+before cutover, and none is.
 
 Not a recommendation to `discard`: that would claim there is no defect,
 and a reader meeting a bare `Pa. בַּהַית` with no gloss under it cannot

@@ -41,8 +41,8 @@ describe('registry coverage', () => {
 		expect(PENDING.filter((id) => registered.has(id))).toEqual([]);
 	});
 
-	// 69, not the 80 this asserted after batch 1, nor the 81 it asserted
-	// during it. Twelve departures, each for its own reason, and the set
+	// 68, not the 80 this asserted after batch 1, nor the 81 it asserted
+	// during it. Thirteen departures, each for its own reason, and the set
 	// is the point: a row leaves `transform` when the audit says so, and
 	// the number here is a ledger of that, not a target.
 	//
@@ -116,8 +116,19 @@ describe('registry coverage', () => {
 	//   its row claimed hundreds. Ruled by Brian 2026-08-28. See
 	//   data/patches/catalogue-audit/binyan-form-cleanup.md, and
 	//   `body/binyan-cleanup.corpus.test.ts` for the standing gate.
-	it('the catalogue still holds 69 transform rows', () => {
-		expect(coverage(catalogue).total).toBe(69);
+	// - `empty-stem-section` (347 sections / 342 ent), batch 6b — 69 to
+	//   68, and it failed none of the three tests above. It failed a
+	//   fourth: there is nothing to repair. The label and the form both
+	//   reach `BodyStem`, the schema permits `senses: []`, and the shape
+	//   mirrors the print heading it came from; the one piece of debris
+	//   was the trailing empty `binyan_form` slot, dropped upstream by
+	//   `cleanBinyanForms`. What remains is a Phase 4 RENDERING item —
+	//   show consecutive senseless stem blocks as one run — so the row
+	//   was asserting that a rule was owed before cutover when none is.
+	//   Ruled by Brian 2026-08-28 on that distinction, data vs display.
+	//   See data/patches/catalogue-audit/empty-stem-section.md.
+	it('the catalogue still holds 68 transform rows', () => {
+		expect(coverage(catalogue).total).toBe(68);
 	});
 
 	it('pending ids all exist in the catalogue', () => {

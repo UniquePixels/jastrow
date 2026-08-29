@@ -230,8 +230,11 @@ several. Expressing the sharing structurally needs a model that has a
 way to say "these stems share a gloss", which `entry.schema.json` does
 not have.
 
-**Recommendation: withdraw to `judgment`** with this audit published,
-in the shape of batch 5's `abbrev-headword-stub` withdrawal — because the open question is a
+**RULED: withdrawn to `judgment`** (Brian, 2026-08-28) with this audit
+published, in the shape of batch 5's `abbrev-headword-stub` withdrawal
+— and on a ground none of the earlier withdrawals used: the data is
+complete, and what is left is a Phase 4 rendering decision. Not
+`discard` — because the open question is a
 model question and a per-entry reading, not a missing predicate. The
 alternative is `discarded`, which would claim there is no defect at
 all; that is not established, since a reader meeting a bare `Pa.

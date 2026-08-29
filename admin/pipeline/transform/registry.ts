@@ -974,7 +974,19 @@ const PENDING: readonly string[] = [
 	// behaviour), so `coverage` no longer counts it and neither list may.
 	'trailing-em-dash-tail',
 	'stranded-stem-head',
-	'empty-stem-section',
+	// `empty-stem-section` (347 sections / 342 entries) left this list on
+	// 2026-08-28 (batch 6b): audited to `judgment` in `patterns.jsonl`
+	// on Brian's ruling, so `coverage` no longer counts it and neither
+	// list may hold it. THE RULING TURNED ON DATA vs DISPLAY. Nothing is
+	// missing — `dry-run.ts:193 buildStem` keeps the label and the form,
+	// the schema permits `senses: []`, and the shape mirrors the print
+	// heading it came from. The only debris the row carried was the
+	// trailing empty `binyan_form` slot, and `repairs.ts`'s
+	// `cleanBinyanForms` drops that before any rule here runs. What is
+	// left is a Phase 4 rendering item — show consecutive senseless stem
+	// blocks as one run — needing no data change, so leaving the row on
+	// this list asserted a rule was owed before cutover when none is.
+	// Audit: data/patches/catalogue-audit/empty-stem-section.md.
 	'sense-number-outside-closed-grammar',
 	'bracketed-gloss-lead-sense',
 	// `parenthesized-alt-headword` and `phrase-alt-headword-stub` left
