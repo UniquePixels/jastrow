@@ -85,11 +85,12 @@ function repairFor(
 	if (left.number !== '1)' || left.definition === undefined) {
 		return null;
 	}
-	if (
-		right === undefined ||
-		right.definition === undefined ||
-		(right.number !== undefined && right.number !== null)
-	) {
+	// `right.number != null` is the one loose comparison in this file and
+	// it is deliberate: the corpus stores an unnumbered sense as JSON
+	// `null`, which `SourceSense['number']` types as `string |
+	// undefined`, so both spellings occur at runtime and only the loose
+	// test rejects a sibling that already carries a number either way.
+	if (right?.definition === undefined || right.number != null) {
 		return null;
 	}
 	const match = CHOPPED_TAIL.exec(left.definition);

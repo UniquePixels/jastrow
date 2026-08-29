@@ -36,7 +36,7 @@ describe('checkNoLostText', () => {
 	// definition is a sub-multiset of its input and so passes
 	// `checkNoNewText` without a murmur.
 	it('reports every codepoint of an emptied definition', () => {
-		expect(checkNoLostText(one('abc'), one('')).length).toBe(3);
+		expect(checkNoLostText(one('abc'), one(''))).toHaveLength(3);
 	});
 
 	it('permits exactly what `removes` declares', () => {
@@ -62,7 +62,7 @@ describe('checkNoLostText', () => {
 	// through the text they carry.
 	it('ignores markup, and sees the text inside it', () => {
 		expect(checkNoLostText(one('<i>x</i>'), one('x'))).toEqual([]);
-		expect(checkNoLostText(one('<i>x</i>'), one('<i></i>')).length).toBe(1);
+		expect(checkNoLostText(one('<i>x</i>'), one('<i></i>'))).toHaveLength(1);
 	});
 
 	// Every field `fieldsOf` walks is in scope, not `definition` alone.
