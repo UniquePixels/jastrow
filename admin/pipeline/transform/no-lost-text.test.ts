@@ -2,12 +2,16 @@ import { describe, expect, it } from 'bun:test';
 import type { SourceEntry } from '../body/types.ts';
 import { checkNoLostText } from './no-lost-text.ts';
 
+/** A minimal entry carrying only the senses under test. The gate
+ * walks every field `fieldsOf` reaches, so the headword is real text
+ * and counts toward both multisets. */
 const entry = (senses: SourceEntry['content']['senses']): SourceEntry => ({
 	content: { senses },
 	headword: 'אָהַב',
 	rid: 'T00001',
 });
 
+/** One sense, one definition — the shape most of these cases need. */
 const one = (definition: string): SourceEntry => entry([{ definition }]);
 
 describe('checkNoLostText', () => {

@@ -57,6 +57,7 @@ interface Tally {
 	entries: number;
 }
 
+/** Codepoint → count, the same basis `no-lost-text.ts` compares on. */
 function multiset(text: string): Map<string, number> {
 	const counts = new Map<string, number>();
 	for (const ch of text) {
@@ -75,6 +76,9 @@ function lostCount(before: string, after: string): number {
 	return total;
 }
 
+/** One composed pass over the corpus, tallying per rule how much text
+ * it deleted GIVEN everything before it — which is how the rules run,
+ * and not what measuring each in isolation would report. */
 async function build(): Promise<Map<string, Tally>> {
 	const report = new Map<string, Tally>();
 	for await (const source of readSourceEntries()) {
@@ -107,6 +111,7 @@ async function build(): Promise<Map<string, Tally>> {
 }
 
 let pending: Promise<Map<string, Tally>> | undefined;
+/** Memoised so the pass runs once per process. */
 const measured = (): Promise<Map<string, Tally>> => {
 	pending ??= build();
 	return pending;

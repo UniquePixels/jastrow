@@ -84,6 +84,9 @@ interface Census {
 	strayBefore: number;
 }
 
+/** Depth-first over one entry's senses, handing each node its NEXT
+ * SIBLING — the pair both populations are defined on, and the reason
+ * this walk is not `fieldsOf`'s. */
 function walk(
 	senses: readonly SourceSense[],
 	visit: (sense: SourceSense, next: SourceSense | undefined) => void,
@@ -137,6 +140,10 @@ function stemCounts(entry: SourceEntry): { stray: number; other: number } {
 	return { other, stray };
 }
 
+/** The single pass: for each entry, `applyRepairs`, then the whole
+ * `text-repairs` registry, then the structural phase — counting the
+ * populations at each seam so "before" means before THIS phase rather
+ * than before the pipeline. */
 async function build(): Promise<Census> {
 	const c: Census = {
 		chopEntries: 0,

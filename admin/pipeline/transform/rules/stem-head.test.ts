@@ -3,6 +3,7 @@ import type { SourceEntry, SourceSense } from '../../body/types.ts';
 import { applyTransforms } from '../run.ts';
 import { stemHeadMarkerChop } from './stem-head.ts';
 
+/** A minimal entry around the senses under test. */
 const entry = (senses: SourceSense[]): SourceEntry => ({
 	content: { senses },
 	headword: 'חֲבַק',
@@ -15,6 +16,8 @@ const entry = (senses: SourceSense[]): SourceEntry => ({
 const chopped = (tail = 'v. supra.—2) ', next = 'to associate'): SourceEntry =>
 	entry([{ definition: tail, number: '1)' }, { definition: next }]);
 
+/** One top-level sense by position, cast because the fixtures always
+ * hold the index they ask for. */
 const senseAt = (result: SourceEntry, index: number): SourceSense =>
 	result.content.senses[index] as SourceSense;
 

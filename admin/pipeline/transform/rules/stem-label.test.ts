@@ -3,6 +3,8 @@ import type { SourceEntry, SourceSense } from '../../body/types.ts';
 import { applyTransforms } from '../run.ts';
 import { asteriskStemStrayPeriod } from './stem-label.ts';
 
+/** A stem block carrying the label under test, with a real form and a
+ * child sense — the shape all 69 members share. */
 const withStem = (verbal_stem: string): SourceEntry => ({
 	content: {
 		senses: [
@@ -16,6 +18,7 @@ const withStem = (verbal_stem: string): SourceEntry => ({
 	rid: 'T00001',
 });
 
+/** The label the rule left behind. */
 const stemOf = (entry: SourceEntry): string | undefined =>
 	(entry.content.senses[0] as SourceSense).grammar?.verbal_stem;
 
