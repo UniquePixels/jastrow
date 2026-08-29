@@ -27,13 +27,25 @@ import { LABELS, strandedStemHead } from './stem-section.ts';
  * `stem-corpus.test.ts` records.
  */
 
-/** The row's own predicate, stated once. The label alternation is
- * built from the rule's exported vocabulary so the two cannot drift.
- * Wider than the RULE's `HEAD` on purpose: it admits the leading `=`,
- * multi-label runs and inner whitespace, so the slices the rule
- * refuses are counted here rather than being invisible. */
+/** The row's own predicate, VERBATIM as `patterns.jsonl`, the spec and
+ * the audit state it, with the label alternation built from the rule's
+ * exported vocabulary so the two cannot drift.
+ *
+ * Wider than the RULE's `HEAD` on purpose — it admits the leading `=`,
+ * multi-label runs and inner whitespace, so the slices the rule refuses
+ * are counted here rather than being invisible. It is NOT wider than
+ * the published predicate, and the difference is not academic: a first
+ * cut spelled the multi-label continuation `[/,]\s*[^<]*`, which
+ * accepts a label followed by a comma and any prose at all. It measures
+ * the same 561 on this snapshot — the corpus happens to hold no such
+ * definition — so every assertion below would have passed while pinning
+ * a number for a predicate no document states. A re-fetch could split
+ * the two silently. */
+const ALTERNATION = LABELS.map((l) =>
+	l.replace(/[.*+?^${}()|[\]\\]/gu, '\\$&'),
+).join('|');
 const OPEN = new RegExp(
-	`^(?<pre>[\\s,;.=]*)<i>\\s*(?<run>(?:${LABELS.map((l) => l.replace(/[.*+?^${}()|[\]\\]/gu, '\\$&')).join('|')})(?:\\s*[/,]\\s*[^<]*)?)\\s*</i>(?<rest>[\\s\\S]*)$`,
+	`^(?<pre>[\\s,;.=]*)<i>\\s*(?<run>(?:${ALTERNATION})(?:\\s*[/,]\\s*(?:${ALTERNATION}))*)\\s*</i>(?<rest>[\\s\\S]*)$`,
 	'u',
 );
 
@@ -52,6 +64,15 @@ interface Census {
 	/** Entries `OPEN` matches, composed. */
 	entComposed: number;
 	entRaw: number;
+	/** How the repaired members' child text OPENS: an rtl anchor, an
+	 * rtl span, or something else. The anchor figure is the argument
+	 * for leaving `binyan_form` empty, so it is pinned rather than
+	 * quoted — a first draft of the rule's docstring quoted 267, which
+	 * is the anchor count over the whole 561-member POPULATION and not
+	 * over the 436 that ship. */
+	formAnchor: number;
+	formOther: number;
+	formSpan: number;
 	/** Codepoints the rendered body gains. Must be 0. */
 	gained: number;
 	/** Codepoints the rendered body loses, all seam. */
@@ -76,6 +97,12 @@ interface Census {
 	/** Entries this rule changed, and the stem blocks they gained. */
 	ruleEntries: number;
 	stemsGained: number;
+	/** `OPEN` matches whose sense ALREADY carries a grammar object.
+	 * Must be 0 — it is the row's strongest uniformity claim, and
+	 * `tallyRefusals` silently depends on it, since that walk skips a
+	 * grammar-bearing sense while `opens` counts it. Were one to
+	 * appear, the partition sum would fail without naming the cause. */
+	withGrammar: number;
 }
 
 function walk(
@@ -122,6 +149,10 @@ function multiset(text: string): Map<string, number> {
 	}
 	return counts;
 }
+
+/** How a repaired member's child text opens. */
+const RTL_ANCHOR = /^<a\b[^>]*dir="rtl"/u;
+const RTL_SPAN = /^<span dir="rtl">/u;
 
 /** Codepoints `x` holds beyond `y`. */
 function excess(
@@ -174,6 +205,9 @@ async function build(): Promise<Census> {
 		duplicateStem: 0,
 		entComposed: 0,
 		entRaw: 0,
+		formAnchor: 0,
+		formOther: 0,
+		formSpan: 0,
 		gained: 0,
 		lost: 0,
 		occComposed: 0,
@@ -185,6 +219,7 @@ async function build(): Promise<Census> {
 		refusedShape: 0,
 		ruleEntries: 0,
 		stemsGained: 0,
+		withGrammar: 0,
 	};
 	for await (const source of readSourceEntries()) {
 		c.corpusEntries++;
@@ -209,6 +244,15 @@ async function build(): Promise<Census> {
 				c.orphanEntries++;
 			}
 		}
+		walk(texted.content.senses, (sense) => {
+			if (
+				sense.grammar !== undefined &&
+				typeof sense.definition === 'string' &&
+				OPEN.test(sense.definition)
+			) {
+				c.withGrammar++;
+			}
+		});
 		tallyRefusals(texted, c);
 
 		const run = strandedStemHead.apply(texted);
@@ -216,6 +260,14 @@ async function build(): Promise<Census> {
 			continue;
 		}
 		c.ruleEntries++;
+		const body = run.entry.content.senses[0]?.senses?.[0]?.definition ?? '';
+		if (RTL_ANCHOR.test(body)) {
+			c.formAnchor++;
+		} else if (RTL_SPAN.test(body)) {
+			c.formSpan++;
+		} else {
+			c.formOther++;
+		}
 		const minted = run.entry.content.senses[0]?.grammar?.verbal_stem;
 		if (
 			texted.content.senses
@@ -293,6 +345,9 @@ it('reproduces the population raw, repaired and composed', async () => {
 	expect(c.occComposed).toBe(561);
 	expect(c.entComposed).toBe(555);
 	expect(c.orphanEntries).toBe(340);
+	// EVERY match sits on a sense with no grammar object at all. The
+	// row's uniformity claim, and the premise `tallyRefusals` rests on.
+	expect(c.withGrammar).toBe(0);
 }, 600_000);
 
 // THE ATTRIBUTION, measured rather than argued. A predicate about what
@@ -342,6 +397,18 @@ it('repairs 436 of the 561 and refuses the rest by the predicate', async () => {
 it('mints no stem name the entry already carries', async () => {
 	const c = await census();
 	expect(c.duplicateStem).toBe(0);
+});
+
+// The argument for `binyan_form: []`, pinned rather than quoted. Every
+// anchor figure in the docs is about ONE of two populations and they
+// differ: 230 of the 436 that ship, 267 across the whole 561-member
+// row.
+it('leaves an anchor-borne form in the prose for 230 of the 436', async () => {
+	const c = await census();
+	expect(c.formAnchor).toBe(230);
+	expect(c.formSpan).toBe(199);
+	expect(c.formOther).toBe(7);
+	expect(c.formAnchor + c.formSpan + c.formOther).toBe(c.ruleEntries);
 });
 
 // What `fieldsOf` cannot see. `buildStem` DROPS `sense.definition`, so

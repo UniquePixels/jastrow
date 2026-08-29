@@ -137,10 +137,13 @@ children follow the new text child in order.
 A parsed block carries the Hebrew forms in `binyan_form`. This rule
 writes none.
 
-**267 of the forms are `<a dir="rtl">` anchors**, and `binyan_form`
-items are plain strings in both the source shape and
+**230 of the rule's 436 members open with an `<a dir="rtl">` anchor
+form** (199 with an rtl span, 7 with a parenthetical), and
+`binyan_form` items are plain strings in both the source shape and
 `entry.schema.json`. Lifting one would strip the anchor and discard a
-link target — precisely what `checkLinkTargets` exists to defend. The
+link target — precisely what `checkLinkTargets` exists to defend.
+(Across the whole 561-member population the anchor count is 267; that
+figure is about the row, not about what ships.) The
 form stays in the child's prose, where the reader sees it either way;
 what the entry gains is the stem's NAME, which is the thing that was
 missing. `BodyStem.forms` comes out `[]`, which the schema permits

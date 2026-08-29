@@ -135,10 +135,13 @@ other's members; neither is written here.
 
 ## 9. What this audit does not settle
 
-- **The 267 anchor-borne forms are left in prose**, so `BodyStem.forms`
-  is `[]` for all 436. Not a loss — the reader sees them either way —
-  but not a capture. `binyan_form` items are plain strings, so lifting
-  one discards a link target.
+- **The anchor-borne forms are left in prose**, so `BodyStem.forms` is
+  `[]` for all 436. 230 of the 436 open with an `<a dir="rtl">` anchor
+  form, 199 with an rtl span, 7 with a parenthetical. Not a loss — the
+  reader sees them either way — but not a capture. `binyan_form` items
+  are plain strings, so lifting one discards a link target. (The 267
+  quoted elsewhere is the anchor count over the whole 561-member
+  population, not over the 436.)
 - **That a top-level sense 0 opening with a stem label is always a
   section head.** Confirmed by a sibling block in 112 entries and by the
   vocabulary being the parser's own; not proved for the 317 with no

@@ -80,9 +80,12 @@
  *
  * A parsed block carries the Hebrew forms in `binyan_form`. This rule
  * writes none, and leaves them in the child's prose where they
- * already are. **267 of the forms are `<a dir="rtl">` anchors**, and
- * `binyan_form` items are plain strings — lifting one would discard a
- * link target that `checkLinkTargets` is right to defend. The reader
+ * already are. **230 of the 436 open with an `<a dir="rtl">` anchor
+ * form** — 199 with an rtl span, 7 with a parenthetical — and
+ * `binyan_form` items are plain strings, so lifting one would discard
+ * a link target that `checkLinkTargets` is right to defend. (267 is
+ * the anchor count over the whole 561-member population, not over the
+ * rule's members; the two are not interchangeable.) The reader
  * loses nothing: the form renders in the stem's first child either
  * way. What the entry gains is the stem's NAME, which is the thing
  * that was missing.

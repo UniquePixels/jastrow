@@ -954,13 +954,24 @@ const RULES: readonly Rule[] = [
 	stemHeadMarkerChop,
 	// The second `structural-repairs` rule, and the first to CREATE a
 	// grammar block. It runs after `stemHeadMarkerChop` only because
-	// that one shipped first: the two cannot meet. `stemHeadMarkerChop`
-	// reads a numbered sense whose sibling has no number, and this one
-	// reads `content.senses[0]` with no `grammar` — and `senses[0]`
-	// carrying `number: '1)'` with an unnumbered sibling is a shape
-	// neither predicate admits, since this rule's own `HEAD` requires
-	// the definition to OPEN with an italic label run and a chopped
-	// marker sits at the END. The commutation gate carries the pair.
+	// that one shipped first.
+	//
+	// THE TWO DO NOT MEET, AND THAT IS A MEASUREMENT RATHER THAN A
+	// PROPERTY OF THE PREDICATES. `stemHeadMarkerChop` needs a sense
+	// with `number: '1)'`; **0 of this rule's 436 members carry a
+	// number on `content.senses[0]` at all** (measured 2026-08-29 on
+	// the composed corpus). What this comment must NOT say — a first
+	// draft did — is that a numbered `senses[0]` is a shape this
+	// predicate rejects: `blockFor` handles `sense.number` explicitly,
+	// moving it onto the new child, and `stem-section.test.ts` pins
+	// that path. The exclusion is corpus-shaped, so a re-fetch could
+	// end it, and then the ORDER would start to matter: chop runs
+	// first and trims the marker, and this rule would restructure the
+	// trimmed definition afterwards.
+	//
+	// Both rules are in the same phase, so the commutation gate does
+	// compose the pair — unlike a cross-phase pair, which it now skips
+	// and counts (`PairStats.crossPhasePairs`, batch 6c).
 	strandedStemHead,
 ];
 
@@ -997,11 +1008,19 @@ const PENDING: readonly string[] = [
 	// CHILD sense, and `buildTrace` (`dry-run.ts:252`) tests `.grammar`
 	// on `content.senses` only — 0 entries in the corpus carry a
 	// grammar object below top level, so a rule writing one there
-	// would mint a shape nothing reads. The remaining 25 are not the
-	// defect at all (14 `Label of X` glosses, 7 etymology-paren
-	// remnants, 2 `= Label` cross-references) or need a shape this
-	// rule does not take (2). Splitting rather than registering the
-	// whole row is the batch-6b step that keeps them ON the queue.
+	// would mint a shape nothing reads.
+	//
+	// The remaining 25 split two ways, and the batch report keeps them
+	// apart: **16 are not the defect at all** — 14 `Label of X`
+	// glosses, where the headword IS that stem of another article, and
+	// 2 `= Label` cross-references to a stem the entry already carries
+	// — and they are part of why the catalogued 544 was too high. The
+	// other **9 are the defect** and are refused on shape: 7
+	// etymology-paren remnants and 2 heads (`I00696`, `O01115`) whose
+	// form this rule does not take. Those 9 stay on THIS row.
+	//
+	// Splitting rather than registering the whole row is the batch-6b
+	// step that keeps all 125 ON the queue.
 	// `empty-stem-section` (347 sections / 342 entries) left this list on
 	// 2026-08-28 (batch 6b): audited to `judgment` in `patterns.jsonl`
 	// on Brian's ruling, so `coverage` no longer counts it and neither

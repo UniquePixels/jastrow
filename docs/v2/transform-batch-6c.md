@@ -16,7 +16,7 @@ Ancestor: [`transform-batch-6b.md`](transform-batch-6b.md).
 | transform route | 68 rows / 20,672 | **68 rows / 20,424** |
 | judgment route | 59 rows / 16,337 | **60 rows / 16,437** |
 | blocked route | 5 / 4,947 | 5 / 4,947 |
-| suite | 1,109 pass | **1,137 pass** |
+| suite | 1,109 pass | **1,138 pass** |
 
 `migrate-dry` gates 32,512/32,512 with `schemaFailures=0` and
 `transformFailures=0`; `brokenTopSequences=34` / `startsAtTwo=8`
@@ -79,9 +79,11 @@ where the definition is still sitting. Same shape as batch 3a's
 two-owners failure and batch 4's `rejoin-chopped` collision: a defect
 that exists only in the composition.
 
-**`binyan_form` is left empty on purpose.** 267 of the forms are
-`<a dir="rtl">` anchors and `binyan_form` items are plain strings, so
-lifting one discards a link target. The form stays in the child's prose
+**`binyan_form` is left empty on purpose.** 230 of the rule's 436
+members open with an `<a dir="rtl">` anchor form (199 an rtl span, 7 a
+parenthetical) and `binyan_form` items are plain strings, so lifting
+one discards a link target. (267 is the anchor count over the whole
+561, not over what ships.) The form stays in the child's prose
 where the reader sees it either way; what the entry gains is the stem's
 NAME. `BodyStem.forms` comes out `[]`, which the schema permits. A
 deliberate partial repair, recorded as one.
