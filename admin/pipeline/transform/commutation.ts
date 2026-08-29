@@ -316,52 +316,95 @@ function verdictFor(a: Rule, b: Rule, ctx: PairContext): PairVerdict {
  * value, so the two-argument call every other caller and both unit
  * tests use is unaffected.
  */
+/** Every unordered pair of `rules`, in registry order. A generator so
+ * the enumeration is separable from the decision — see `tallyPair`. */
+function* unorderedPairs(rules: readonly Rule[]): Generator<[Rule, Rule]> {
+	for (let i = 0; i < rules.length; i++) {
+		for (let j = i + 1; j < rules.length; j++) {
+			const a = rules[i];
+			const b = rules[j];
+			if (a !== undefined && b !== undefined) {
+				yield [a, b];
+			}
+		}
+	}
+}
+
+/** The running counts one `nonCommutingPairs` call accumulates. */
+interface Tally {
+	composedPairs: number;
+	crossPhasePairs: number;
+	found: NonCommuting[];
+	totalPairs: number;
+}
+
+/** Fold one pair into the tally.
+ *
+ * Split out of `nonCommutingPairs` along with `unorderedPairs` and
+ * `verdictFor` because SonarQube's `typescript:S3776` measured the
+ * merged version at 16 against a budget of 15 once batch 6c's
+ * cross-phase branch landed. Three named steps — enumerate, decide,
+ * tally — rather than a suppression. */
+function tallyPair(a: Rule, b: Rule, ctx: PairContext, tally: Tally): void {
+	tally.totalPairs++;
+	// See `oneOrderOnly`: a cross-phase pair has ONE order, so it is
+	// skipped and COUNTED rather than compared.
+	const verdict = verdictFor(a, b, ctx);
+	if (verdict.kind === 'crossPhase') {
+		tally.crossPhasePairs++;
+		return;
+	}
+	if (verdict.kind === 'noCandidates') {
+		return;
+	}
+	tally.composedPairs++;
+	if (verdict.sampleRid !== undefined) {
+		tally.found.push({ ids: [a.id, b.id], sampleRid: verdict.sampleRid });
+	}
+}
+
+/**
+ * Every unordered pair of `rules` whose two orders produce different
+ * bytes on some entry at least one of them changes. Pairs whose
+ * candidate set is empty are skipped without composing, and so are
+ * pairs whose rules run in different PHASES — see `oneOrderOnly`, and
+ * `PairStats.crossPhasePairs`, which counts them.
+ *
+ * When `stats` is passed, it is filled in with the pair counts (see
+ * `PairStats`) — an optional out-param rather than a second return
+ * value, so the two-argument call every other caller and both unit
+ * tests use is unaffected.
+ */
 function nonCommutingPairs(
 	rules: readonly Rule[],
 	corpus: readonly SourceEntry[],
 	stats?: PairStats,
 ): NonCommuting[] {
 	const changing = new Map(rules.map((r) => [r.id, changingRids(r, corpus)]));
-	const byRid = new Map(corpus.map((e) => [e.rid, e]));
-	const orderOf = new Map(corpus.map((e, at) => [e.rid, at]));
-	const found: NonCommuting[] = [];
-	let totalPairs = 0;
-	let composedPairs = 0;
-	let crossPhasePairs = 0;
-	for (let i = 0; i < rules.length; i++) {
-		for (let j = i + 1; j < rules.length; j++) {
-			const a = rules[i];
-			const b = rules[j];
-			if (a === undefined || b === undefined) {
-				continue;
-			}
-			totalPairs++;
-			// See `oneOrderOnly`: a cross-phase pair has ONE order, so
-			// it is skipped and COUNTED rather than compared.
-			const verdict = verdictFor(a, b, { byRid, changing, orderOf });
-			if (verdict.kind === 'crossPhase') {
-				crossPhasePairs++;
-				continue;
-			}
-			if (verdict.kind === 'noCandidates') {
-				continue;
-			}
-			composedPairs++;
-			if (verdict.sampleRid !== undefined) {
-				found.push({ ids: [a.id, b.id], sampleRid: verdict.sampleRid });
-			}
-		}
+	const ctx: PairContext = {
+		byRid: new Map(corpus.map((e) => [e.rid, e])),
+		changing,
+		orderOf: new Map(corpus.map((e, at) => [e.rid, at])),
+	};
+	const tally: Tally = {
+		composedPairs: 0,
+		crossPhasePairs: 0,
+		found: [],
+		totalPairs: 0,
+	};
+	for (const [a, b] of unorderedPairs(rules)) {
+		tallyPair(a, b, ctx, tally);
 	}
 	if (stats !== undefined) {
-		stats.totalPairs = totalPairs;
-		stats.composedPairs = composedPairs;
-		stats.crossPhasePairs = crossPhasePairs;
+		stats.totalPairs = tally.totalPairs;
+		stats.composedPairs = tally.composedPairs;
+		stats.crossPhasePairs = tally.crossPhasePairs;
 		stats.inertRules = [...changing]
 			.filter(([, rids]) => rids.size === 0)
 			.map(([id]) => id)
 			.toSorted((x, y) => x.localeCompare(y));
 	}
-	return found;
+	return tally.found;
 }
 
 export type { NonCommuting, PairStats };
