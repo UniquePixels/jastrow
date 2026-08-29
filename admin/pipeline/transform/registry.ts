@@ -56,6 +56,7 @@ import {
 } from './rules/seam-space.ts';
 import { stemHeadMarkerChop } from './rules/stem-head.ts';
 import { asteriskStemStrayPeriod } from './rules/stem-label.ts';
+import { strandedStemHead } from './rules/stem-section.ts';
 import {
 	superscriptInsideAnchor,
 	truncatedCitationDigit,
@@ -951,6 +952,16 @@ const RULES: readonly Rule[] = [
 	// `body/deletion-baseline.corpus.test.ts` instead. Batch-6b spec
 	// §2.3 carries that argument.
 	stemHeadMarkerChop,
+	// The second `structural-repairs` rule, and the first to CREATE a
+	// grammar block. It runs after `stemHeadMarkerChop` only because
+	// that one shipped first: the two cannot meet. `stemHeadMarkerChop`
+	// reads a numbered sense whose sibling has no number, and this one
+	// reads `content.senses[0]` with no `grammar` — and `senses[0]`
+	// carrying `number: '1)'` with an unnumbered sibling is a shape
+	// neither predicate admits, since this rule's own `HEAD` requires
+	// the definition to OPEN with an italic label run and a chopped
+	// marker sits at the END. The commutation gate carries the pair.
+	strandedStemHead,
 ];
 
 /** Catalogued transform rows with no rule yet. Shrinks batch by batch;
@@ -973,7 +984,24 @@ const PENDING: readonly string[] = [
 	// its 87 anchors, and the construct is 3.2% of a corpus-wide linker
 	// behaviour), so `coverage` no longer counts it and neither list may.
 	'trailing-em-dash-tail',
-	'stranded-stem-head',
+	// `stranded-stem-head` left this list in batch 6c: it is registered
+	// above at its RE-MEASURED size. The row was catalogued at 544
+	// entries with NO predicate recorded anywhere; under the predicate
+	// `rules/stem-section.ts` now states it is 561 occurrences / 555
+	// entries, measured where a structural rule stands. The rule takes
+	// **436** of them — `content.senses[0]`, no `grammar`, a
+	// single-label italic run, a space and then something.
+	//
+	// The other 125 are refused by the predicate. 100 of them are the
+	// new `judgment` row `stem-head-in-child-sense`: they sit in a
+	// CHILD sense, and `buildTrace` (`dry-run.ts:252`) tests `.grammar`
+	// on `content.senses` only — 0 entries in the corpus carry a
+	// grammar object below top level, so a rule writing one there
+	// would mint a shape nothing reads. The remaining 25 are not the
+	// defect at all (14 `Label of X` glosses, 7 etymology-paren
+	// remnants, 2 `= Label` cross-references) or need a shape this
+	// rule does not take (2). Splitting rather than registering the
+	// whole row is the batch-6b step that keeps them ON the queue.
 	// `empty-stem-section` (347 sections / 342 entries) left this list on
 	// 2026-08-28 (batch 6b): audited to `judgment` in `patterns.jsonl`
 	// on Brian's ruling, so `coverage` no longer counts it and neither

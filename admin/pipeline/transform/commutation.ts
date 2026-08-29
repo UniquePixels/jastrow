@@ -188,6 +188,11 @@ function compose(first: Rule, second: Rule, entry: SourceEntry): string {
  */
 interface PairStats {
 	composedPairs: number;
+	/** Pairs skipped because their rules run in DIFFERENT PHASES, and
+	 * so have only one possible order. Reported rather than silently
+	 * dropped: a skip nobody counts is the "silence mistaken for
+	 * coverage" failure `link-target.ts` names. Zero until batch 6c. */
+	crossPhasePairs: number;
 	/** Ids of rules that changed no entry in the corpus, sorted. Empty
 	 * is the only healthy value. */
 	inertRules: string[];
@@ -242,7 +247,9 @@ function firstDisagreement(
 /**
  * Every unordered pair of `rules` whose two orders produce different
  * bytes on some entry at least one of them changes. Pairs whose
- * candidate set is empty are skipped without composing.
+ * candidate set is empty are skipped without composing, and so are
+ * pairs whose rules run in different PHASES — see the comment on that
+ * branch, and `PairStats.crossPhasePairs`, which counts them.
  *
  * When `stats` is passed, it is filled in with the pair counts (see
  * `PairStats`) — an optional out-param rather than a second return
@@ -260,6 +267,7 @@ function nonCommutingPairs(
 	const found: NonCommuting[] = [];
 	let totalPairs = 0;
 	let composedPairs = 0;
+	let crossPhasePairs = 0;
 	for (let i = 0; i < rules.length; i++) {
 		for (let j = i + 1; j < rules.length; j++) {
 			const a = rules[i];
@@ -268,6 +276,30 @@ function nonCommutingPairs(
 				continue;
 			}
 			totalPairs++;
+			// A CROSS-PHASE PAIR HAS ONE ORDER, NOT TWO. `apply.ts`'s
+			// committed phase manifest runs `text-repairs` to completion
+			// and only then `structural-repairs`, so `structural ∘ text`
+			// is the only composition the pipeline can produce and
+			// `text ∘ structural` is not an alternative the registry
+			// could be reordered into. Comparing them asks whether a
+			// counterfactual the manifest forbids agrees with the real
+			// one; a disagreement there is the phase boundary WORKING,
+			// not an undeclared entanglement.
+			//
+			// Batch 6c is where this surfaced: `stranded-stem-head`
+			// reported four such pairs, one of them
+			// `label-period-outside-italic`, whose output the structural
+			// rule's population DEPENDS on (360 → 562 occurrences). That
+			// dependency is real and is pinned by measurement in
+			// `rules/stem-section-corpus.test.ts`; what it is not is a
+			// registry-adjacency constraint, which is the only thing
+			// `entangledWith` can express. Batch 6b's single structural
+			// rule did not reveal the gap because it happened to commute
+			// with all 40.
+			if (a.phase !== b.phase) {
+				crossPhasePairs++;
+				continue;
+			}
 			const candidates = candidateRids(a, b, changing, orderOf);
 			if (candidates.length === 0) {
 				continue;
@@ -282,6 +314,7 @@ function nonCommutingPairs(
 	if (stats !== undefined) {
 		stats.totalPairs = totalPairs;
 		stats.composedPairs = composedPairs;
+		stats.crossPhasePairs = crossPhasePairs;
 		stats.inertRules = [...changing]
 			.filter(([, rids]) => rids.size === 0)
 			.map(([id]) => id)

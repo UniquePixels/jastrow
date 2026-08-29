@@ -215,6 +215,14 @@ const NEITHER = new Set([
 	// asserts and the corpus pass below earns. It is also the only
 	// member that runs in a different PHASE from the rest.
 	'stem-head-marker-chop',
+	// Batch 6c's structural rule, and the second member from that
+	// phase. It moves a definition's opening label into
+	// `grammar.verbal_stem` and the rest into a child sense — the
+	// anchors inside that text move WITH it, none is removed, and no
+	// `href` or `data-ref` is rewritten, which is what the corpus pass
+	// below earns. `FIELD` is not open to it for the same reason as its
+	// phase-mate: the field it edits is full of tags.
+	'stranded-stem-head',
 	// BATCH 4 ADDS FOUR, and they are the set's second real test after
 	// batch 3b's twelve. These four move one of the anchor's own tags
 	// across the text beside it — `</a>` across a `)`, a `<sup>` run or

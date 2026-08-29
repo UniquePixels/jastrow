@@ -163,9 +163,28 @@ is working:
   from it; what remains is a Phase 4 rendering item, showing
   consecutive senseless stem blocks as one run. See
   [transform-batch-6b.md](transform-batch-6b.md).
+- Batch 6c shipped `stranded-stem-head`, the second `structural-repairs`
+  rule and the first to MINT a grammar block — the label moves into
+  `grammar.verbal_stem`, the rest of the definition into a child sense,
+  because `buildStem` reads `sense.senses` and drops `sense.definition`
+  entirely. The row was catalogued at 544 with NO PREDICATE RECORDED
+  ANYWHERE; the rule states one, and the count lands in three places
+  depending on where you stand: 296 alone on raw source (what
+  `transform:count` reads and what `corpusCount` now holds), 561
+  occurrences / 555 entries for the predicate after the whole
+  `text-repairs` pass, and 436 repaired. The gap between the first two
+  is ONE upstream rule — `label-period-outside-italic` takes the
+  population 360 → 562 in a single step — which is 6a's lesson running
+  the other way. 100 of the refusals became
+  `stem-head-in-child-sense` (judgment): `buildTrace` tests `.grammar`
+  on top-level senses only, and 0 entries in the corpus carry one below
+  top level. The batch also found the commutation gate PHASE-BLIND —
+  cross-phase pairs have one order, not two, and are now skipped and
+  counted rather than read as undeclared entanglements. See
+  [transform-batch-6c.md](transform-batch-6c.md).
 
-**49.3% of the backlog is deterministic code** (20,672 of 41,956
-instances), 51.5% of it by row. That is the most useful number here —
+**48.9% of the backlog is deterministic code** (20,424 of 41,808
+instances), 51.1% of it by row. That is the most useful number here —
 most of the catalogue does not need judgment at all.
 
 The instance total is now FALLING, and both directions have the same
@@ -179,7 +198,7 @@ Cutover gate, cross-cut:
 
 | | Rows | Instances |
 |---|---:|---:|
-| Blocks the v2 cutover | 58 | 14,782 |
+| Blocks the v2 cutover | 59 | 14,634 |
 | Launch need not wait | 74 | 27,174 |
 
 ## The transform queue — all 68 rows, largest first
@@ -201,7 +220,6 @@ either reproduces the count or does not.
 | `nonsense-dup-anchor` | 755 | **yes** | — |
 | `pesikta-drk-never-linked` | 695 | no | — |
 | `parenthesized-alt-headword` | 580 | **yes** | — |
-| `stranded-stem-head` | 544 | **yes** | — |
 | `redundant-outer-rtl-span` | 529 | no | — |
 | `anchor-swallows-close-paren` | 493 | no | — |
 | `geresh-letter-numeral-mislink` | 475 | no | — |
@@ -212,6 +230,7 @@ either reproduces the count or does not.
 | `ib-yoma-2a` | 312 | no | — |
 | `holam-migrated-off-mater-vav` | 308 | no | — |
 | `emphasis-run-edge-space` | 304 | no | — |
+| `stranded-stem-head` | 296 | **yes** | — |
 | `midrash-petichta-unanchored` | 279 | no | — |
 | `em-dash-section-break-in-own-italic` | 270 | no | — |
 | `phrase-alt-headword-stub` | 236 | **yes** | — |
@@ -364,7 +383,11 @@ on, both recorded in `homograph-numeral-mismatch`'s own `reason`:
   A02356, B00407, D00844, E00508, G00675); and B00098's double-space
   `"בַּד  V"`, a one-character repair that makes בַּד V addressable again.
 
-## Judgment queue — 49 rows / 15,754 instances
+## Judgment queue — 60 rows / 16,437 instances
+
+(Heading CORRECTED 2026-08-29: it read "49 rows / 15,754" while the
+catalogue held 60 and 16,437. The table below was current; only the
+count in the heading had gone stale, across batches 4-6b.)
 
 `homograph-numeral-mismatch` (538) and `h-cognate-self-link` (85) are
 the newest members, reclassified out of the transform queue in batch 2
@@ -441,6 +464,7 @@ Full judgment list, blocking first:
 | `midrash-subsection-link-drift` | 179 | no |
 | `binyan-head-form-mislinked` | 127 | no |
 | `neighbor-rid-mislink` | 109 | no |
+| `stem-head-in-child-sense` | 100 | **yes** |
 | `post-anchor-numeral-mismatch` | 91 | no |
 | `h-cognate-self-link` | 85 | no |
 | `initial-niqqud-drop` | 76 | no |
