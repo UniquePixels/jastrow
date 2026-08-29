@@ -200,11 +200,12 @@ without claiming the other's members; neither is written here.
 
 ## 7. What this batch cannot see
 
-- **The 267 anchor-borne forms are neither lost nor captured.**
-  `BodyStem.forms` is `[]` for all 436 and nothing asserts that a stem
-  block should carry forms, so a later lifting rule contradicts nothing
-  here — but a reader consulting `stems[].forms` will not learn that
-  these 436 keep theirs one level down in prose.
+- **The 230 anchor-borne form links survive in child prose and are not
+  captured in `BodyStem.forms`.** That field is `[]` for all 436 and
+  nothing asserts that a stem block should carry forms, so a later
+  lifting rule contradicts nothing here — but a reader consulting
+  `stems[].forms` will not learn that these 436 keep their forms one
+  level down.
 - **Whether sense 0 opening with a stem label is ALWAYS a section
   head.** Confirmed by a sibling block in 112 entries and by the
   vocabulary being the parser's own; not proved for the 317 entries with

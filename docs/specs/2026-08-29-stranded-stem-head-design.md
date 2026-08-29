@@ -311,12 +311,12 @@ batches will take them.
 
 ## 9. What none of this can see
 
-- **The 267 discarded form-links are not discarded, but they are not
-  captured either.** `BodyStem.forms` is `[]` for all 436. Nothing in
-  the suite asserts that a stem block SHOULD carry forms, so a later
-  rule that lifted them would not be contradicting anything here — but
-  neither would a reader consulting `stems[].forms` learn that these
-  436 have their forms one level down in prose. Recorded here and in
+- **The 230 anchor-borne form links survive in child prose and are not
+  captured in `BodyStem.forms`.** That field is `[]` for all 436.
+  Nothing in the suite asserts that a stem block SHOULD carry forms, so
+  a later rule that lifted them would not be contradicting anything
+  here — but neither would a reader consulting `stems[].forms` learn
+  that these 436 keep their forms one level down. Recorded here and in
   the row.
 - **Whether a top-level sense 0 opening with a stem label is always a
   stem section.** The falsifier in §6 rules out duplication and the two
