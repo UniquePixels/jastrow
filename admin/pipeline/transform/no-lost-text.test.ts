@@ -48,6 +48,21 @@ describe('checkNoLostText', () => {
 		expect(problems).toEqual(['T00001: dropped " " (U+0020)']);
 	});
 
+	// Declarations draw on ONE budget. Checked per declaration, this
+	// passed: each `'a'` occurs in the input, so both were credited and
+	// an emptied field looked accounted for.
+	it('refuses two declarations of a codepoint the input holds once', () => {
+		const problems = checkNoLostText(one('a'), one(''), ['a', 'a']);
+		expect(problems).toEqual([
+			'T00001: declared removal "a" does not occur in the input',
+		]);
+	});
+
+	// The same shape where the input CAN afford both.
+	it('permits two declarations when the input holds two', () => {
+		expect(checkNoLostText(one('aa'), one(''), ['a', 'a'])).toEqual([]);
+	});
+
 	// A rule that cannot say what it deleted has not shown that it
 	// knows — so an unfounded claim fails rather than being ignored.
 	it('rejects a declared removal absent from the input', () => {

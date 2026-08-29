@@ -121,7 +121,9 @@ for await (const e of readSourceEntries()){let hit=false;
 console.log({sections,entries,trailingEmptySlot:slot,nextIsStem});'
 ```
 
-    { sections: 347, entries: 342, trailingEmptySlot: 347, nextIsStem: 347 }
+```text
+{ sections: 347, entries: 342, trailingEmptySlot: 347, nextIsStem: 347 }
+```
 
 The three 347s are the audit: every section carries the split residue,
 and every one is followed by another stem block.

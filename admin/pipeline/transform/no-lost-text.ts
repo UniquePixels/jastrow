@@ -63,6 +63,14 @@ function multiset(text: string): Map<string, number> {
  * because a rule that cannot say what it deleted has not shown that
  * it knows.
  *
+ * The declarations share ONE budget drawn from the input, and that is
+ * where the mirror stops being exact. `removes: ['a', 'a']` against an
+ * input holding a single `a` is refused: an entry cannot lose more of
+ * a codepoint than it had. `copied` must NOT work that way — each
+ * declaration there licenses one duplication of text the input holds
+ * once, which is the whole point of a copy. Deleting the same
+ * character twice is not an operation; copying it twice is.
+ *
  * Deliberately NOT expressed through a static `Rule.allows`-style
  * list: what a structural rule deletes is per-entry (one marker's
  * trailing space here, a stray label period there), and a static list
@@ -76,16 +84,29 @@ function checkNoLostText(
 	removes?: readonly string[],
 ): string[] {
 	const inputText = textOf(before);
+	const available = multiset(inputText);
 	const remaining = multiset(textOf(after));
 	const problems: string[] = [];
+	// Declarations are credited against a shared budget, not checked one
+	// at a time. `removes: ['a', 'a']` over an input holding one `a`
+	// must fail: you cannot delete more of a codepoint than the entry
+	// had. THIS IS THE OPPOSITE OF `copied` in `no-new-text.ts`, where
+	// each declaration legitimately licenses one DUPLICATION of text the
+	// input holds once — copying a headword tail twice is a real
+	// operation, deleting a character twice is not.
 	for (const removed of removes ?? []) {
-		if (!inputText.includes(removed)) {
+		const claim = multiset(removed);
+		const short = [...claim.entries()].some(
+			([ch, count]) => count > (available.get(ch) ?? 0),
+		);
+		if (short || !inputText.includes(removed)) {
 			problems.push(
 				`${after.rid}: declared removal ${JSON.stringify(removed)} does not occur in the input`,
 			);
 			continue;
 		}
-		for (const [ch, count] of multiset(removed)) {
+		for (const [ch, count] of claim) {
+			available.set(ch, (available.get(ch) ?? 0) - count);
 			remaining.set(ch, (remaining.get(ch) ?? 0) + count);
 		}
 	}

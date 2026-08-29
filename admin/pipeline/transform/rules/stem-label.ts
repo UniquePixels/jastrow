@@ -16,11 +16,15 @@
  * | `"*Pa."`, `"*Nif."`, `"*Ithpe."` | 3 | siglum retained WITH a valid label; reads correctly as it stands |
  * | **stray period `"Pa. ."` ×2, `"Af. ."`** | **3** | **this rule** |
  *
- * So the row stays `PENDING` at 69 after this ships. That is a
- * deliberate intermediate state, not an oversight: `coverage()` counts
- * a row as pending until a rule claims the row's id, and this rule
- * claims it while repairing 3 of 69, so the catalogue's `reason`
- * carries the split and the batch report states it.
+ * So the row is RE-SCOPED rather than claimed whole: `asterisk-stem-label`
+ * is now 3, this rule is registered against it, and the other 66 are a
+ * new `judgment` row, `stem-label-not-a-binyan-name`. The alternative
+ * was cheaper and wrong — `coverage()` reads a row as registered the
+ * moment any rule claims its id, so a 3-of-69 rule left against the
+ * whole row would have retired 66 live defects into silence. The
+ * precedent is batch 4's
+ * `superscript-subsection-contradicts-link-sub-section`, split off as
+ * `judgment` from birth.
  *
  * ## What it deletes
  *

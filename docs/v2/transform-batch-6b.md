@@ -166,7 +166,7 @@ the grouping.
 | | before | after |
 |---|---|---|
 | `RULES` | 39 | **41** |
-| `PENDING` | 29 | **27** |
+| `PENDING` | 29 | **26** |
 | `coverage()` | 69 total, 0/0 | **69 total, 0/0** |
 | transform route | 69 / 21,080 | **68 / 20,672** |
 | judgment route | 56 / 15,919 | **59 / 16,337** |

@@ -148,7 +148,8 @@ is working:
 - Batch 6b wired the `structural-repairs` phase, which had run empty
   since Phase 1, and added the fourth gate — `no-lost-text.ts`, which
   sees what the other three cannot: a deletion. Two rules shipped, one
-  per phase. It moved no row out of `transform` but SPLIT two:
+  per phase. The two rules moved no complete row out of `transform`
+  but SPLIT two:
   `asterisk-stem-label` re-scoped 69 → 3 with its other 66 becoming
   `stem-label-not-a-binyan-name` (judgment), and
   `stem-head-marker-chop`'s ten residue-bearing members becoming
