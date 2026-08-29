@@ -16,7 +16,7 @@ Ancestor: [`transform-batch-6b.md`](transform-batch-6b.md).
 | transform route | 68 rows / 20,672 | **68 rows / 20,424** |
 | judgment route | 59 rows / 16,337 | **60 rows / 16,437** |
 | blocked route | 5 / 4,947 | 5 / 4,947 |
-| suite | 1,109 pass | **1,138 pass** |
+| suite | 1,109 pass | **1,140 pass** |
 
 `migrate-dry` gates 32,512/32,512 with `schemaFailures=0` and
 `transformFailures=0`; `brokenTopSequences=34` / `startsAtTwo=8`
@@ -93,10 +93,14 @@ codepoints invented, 1,065 lost — 755 spaces, 283 commas, 27 semicolons,
 which is exactly the seam prefix plus one space per repair, both
 declared through `removes`.
 
-**The falsifier came back empty.** A rule that MINTS a stem section must
-not mint one the entry already has, and no gate can see a duplicate. In
-**0 of 436** does the entry carry another top-level block with the same
-`verbal_stem` (112 carry a different one, 317 carry none).
+**The falsifier came back empty, and is a guard anyway.** A rule that
+MINTS a stem section must not mint one the entry already has, and no
+gate can see a duplicate — the label is text the input held, so both
+text gates are satisfied. In **0 of 436** does the entry carry another
+top-level block with the same `verbal_stem` (112 carry a different one,
+317 carry none). `alreadyHasStem` refuses the case regardless: "no
+member does this" is a fact about one snapshot, not a property of the
+rule.
 
 ## 3. The row is re-scoped, not retired whole
 

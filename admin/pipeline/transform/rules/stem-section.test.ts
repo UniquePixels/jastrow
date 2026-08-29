@@ -114,6 +114,32 @@ describe('strandedStemHead', () => {
 		});
 	}
 
+	// THE DUPLICATE GUARD. No gate in `run.ts` can see a minted stem
+	// section that the entry already has — the label is text the input
+	// held, so both text gates are satisfied — so this is refused in
+	// the rule rather than left to the corpus census, which can only
+	// report it after the fact.
+	it('refuses when a later top-level sense carries the same stem', () => {
+		const input = withHead(`, <i>Pi.</i> ${TAIL}`, [
+			{ grammar: { verbal_stem: 'Pi.' }, senses: [{ definition: 'same.' }] },
+		]);
+		const result = strandedStemHead.apply(input);
+		expect(result.entry).toBe(input);
+		expect(result.records).toEqual([]);
+	});
+
+	it('repairs when the later block carries a DIFFERENT stem', () => {
+		const input = withHead(`, <i>Pi.</i> ${TAIL}`, [
+			{
+				grammar: { verbal_stem: 'Hithpa.' },
+				senses: [{ definition: 'same.' }],
+			},
+		]);
+		const result = strandedStemHead.apply(input);
+		expect(result.records).toHaveLength(1);
+		expect(blockOf(result.entry).grammar).toEqual({ verbal_stem: 'Pi.' });
+	});
+
 	it('refuses a sense that already carries a grammar block', () => {
 		const input: SourceEntry = {
 			content: {

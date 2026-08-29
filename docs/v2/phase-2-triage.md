@@ -54,8 +54,8 @@ someone pins the predicate.
 
 | Route | Rows | Instances | What it needs |
 |---|---:|---:|---|
-| **transform** | **68** | **20,672** | deterministic code + tests |
-| judgment | 59 | 16,337 | per-entry reading (Opus pass or maintainer) |
+| **transform** | **68** | **20,424** | deterministic code + tests |
+| judgment | 60 | 16,437 | per-entry reading (Opus pass or maintainer) |
 | blocked | 5 | 4,947 | pin the predicate first |
 
 Phase 1 closed this table at 81 / 46 / 5. Every move since has been a

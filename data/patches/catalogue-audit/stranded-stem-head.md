@@ -108,6 +108,10 @@ the entry already held.
 **0 of 436** carry another top-level block with the same `verbal_stem`.
 112 carry a block with a different name; 317 carry none at all.
 
+The rule does not rest on that. `alreadyHasStem` refuses the repair
+when a later top-level sense carries the stem already, so the row is
+safe against a source update that ends the coincidence.
+
 ## 7. Text accounting, measured through the builder
 
 Over all 436, comparing the RENDERED body before and after (`buildTrace`,

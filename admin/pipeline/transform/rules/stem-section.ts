@@ -102,11 +102,18 @@
  * ## The falsifier that had to come back empty
  *
  * A rule that mints a stem section must not mint one the entry
- * already has. **In 0 of the 436 does the entry carry another
- * top-level block with the same `verbal_stem`** — 112 of them carry a
- * block with a DIFFERENT stem name, 317 carry none at all. Had that
- * count been non-zero the rule would be manufacturing duplicate
- * sections, which no gate here reads.
+ * already has, and NO GATE IN `run.ts` CAN SEE A DUPLICATE: the label
+ * is text the entry already held, so `checkNoNewText` is satisfied and
+ * `checkNoLostText` has nothing to say.
+ *
+ * **In 0 of the 436 does the entry carry another top-level block with
+ * the same `verbal_stem`** — 112 carry a block with a DIFFERENT stem
+ * name, 317 carry none at all.
+ *
+ * That measurement is not the defence, though: `alreadyHasStem`
+ * refuses the repair outright, so the rule is fail-closed against a
+ * source update that ends the coincidence rather than merely lucky in
+ * this snapshot.
  */
 import type { SourceEntry, SourceSense } from '../../body/types.ts';
 import type { Rule, TransformRecord, TransformResult } from '../types.ts';
@@ -267,11 +274,33 @@ function blockFor(sense: SourceSense, repair: Repair): SourceSense {
 	};
 }
 
+/** Whether a LATER top-level sense already carries this stem name.
+ *
+ * The rule MINTS a stem section, and no gate in `run.ts` can see a
+ * duplicate one: the label is text the entry already held, so
+ * `checkNoNewText` is satisfied and `checkNoLostText` has nothing to
+ * say. Minting a second `Pa.` beside an existing `Pa.` would therefore
+ * ship green.
+ *
+ * 0 of the 436 members trip this today — the corpus test asserts it —
+ * which is exactly why it is a GUARD and not a comment. "No member
+ * does this" is a fact about one snapshot; a re-fetch could end it,
+ * and the failure it would then permit is invisible to everything
+ * else. Fail-closed, in the shape `link-target.ts` established. */
+function alreadyHasStem(entry: SourceEntry, stem: string): boolean {
+	return entry.content.senses
+		.slice(1)
+		.some((sense) => sense.grammar?.verbal_stem === stem);
+}
+
 const strandedStemHead: Rule = {
 	apply: (entry: SourceEntry): TransformResult => {
 		const [first] = entry.content.senses;
 		const repair = first === undefined ? null : repairFor(first);
 		if (first === undefined || repair === null) {
+			return { entry, records: [] };
+		}
+		if (alreadyHasStem(entry, repair.stem)) {
 			return { entry, records: [] };
 		}
 		const records: TransformRecord[] = [

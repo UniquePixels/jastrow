@@ -1,10 +1,18 @@
 # The stranded stem head — a predicate, a corrected count, and the first minted grammar block
 
 **Status: design, 2026-08-29.** Phase 2 batch 6c. Scope ruled by Brian
-the same day: the rule takes the top-level slice and the parenthetical
-slice; the child-sense slice becomes a `judgment` row; the two
-cross-reference slices are recorded as false positives that over-measured
-the row rather than as rows of their own.
+the same day: the rule takes every top-level sense-0 head whose run is
+followed by a space and then something — whether a Hebrew form follows
+or a parenthetical etymology, since the rule writes no `binyan_form`
+and so never needs the form; the child-sense slice becomes a `judgment`
+row; the two cross-reference slices are recorded as false positives
+that over-measured the row rather than as rows of their own.
+
+Two paren shapes appear below and they are NOT the same thing. A
+parenthetical FOLLOWING the run (`<i>Pi.</i> (denom. of X) to …`, 7
+members) is a head and ships. Paren RESIDUE at the run's own edge
+(`<i>Pi.</i>) …`, `<i>Nif.</i>), <i>Pi.</i> …`, 9 members) is the tail
+of an enclosing etymology bracket and is refused. §5.
 
 Batch 6b's report is the immediate ancestor:
 [`transform-batch-6b.md`](../v2/transform-batch-6b.md), and its spec —
@@ -228,12 +236,18 @@ declare no edge either.
 
 A rule that MINTS a stem section must not mint one the entry already
 has, and no gate in `run.ts` can see a duplicate — `checkNoNewText` is
-satisfied because the label is text the entry already held.
+satisfied because the label is text the entry already held, and
+`checkNoLostText` has nothing to say.
 
 **In 0 of the 436 does the entry carry another top-level block with the
 same `verbal_stem`.** 112 carry a block with a different stem name; 317
-carry none at all. Asserted in the corpus test, where a future widening
-that started duplicating fails rather than shipping.
+carry none at all. Asserted in the corpus test.
+
+**That measurement is not the defence.** `alreadyHasStem` refuses the
+repair outright, added in review: "no member does this" is a fact about
+one snapshot, and the failure a re-fetch would then permit is invisible
+to everything else in the stack. Fail-closed, in the shape
+`link-target.ts` established for its own cases.
 
 ## 7. The commutation gate was phase-blind
 
