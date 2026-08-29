@@ -97,9 +97,36 @@ describe('changingRids', () => {
 	// field has to be able to come back non-empty — pinned here rather
 	// than trusted, since an out-param that is never written reads
 	// exactly like an invariant that always holds.
+	// THE CROSS-PHASE SKIP, pinned in miniature. `dotToBang` and
+	// `killLastChar` are the pair this file already proves does NOT
+	// commute; moving one of them into the other phase must silence it,
+	// because the manifest then admits only one order. Written this way
+	// round on purpose: a skip tested on a commuting pair would pass
+	// whether the branch existed or not.
+	it('skips a non-commuting pair whose rules are in different phases', () => {
+		const structural: Rule = { ...killLastChar, phase: 'structural-repairs' };
+		const stats: PairStats = {
+			composedPairs: 0,
+			crossPhasePairs: 0,
+			inertRules: [],
+			totalPairs: 0,
+		};
+		const corpus = [entryOf('A1', 'two dots..')];
+		expect(nonCommutingPairs([dotToBang, killLastChar], corpus)).toHaveLength(
+			1,
+		);
+		expect(nonCommutingPairs([dotToBang, structural], corpus, stats)).toEqual(
+			[],
+		);
+		expect(stats.crossPhasePairs).toBe(1);
+		expect(stats.composedPairs).toBe(0);
+		expect(stats.totalPairs).toBe(1);
+	});
+
 	it('names a rule that changes no entry, through PairStats', () => {
 		const stats: PairStats = {
 			composedPairs: 0,
+			crossPhasePairs: 0,
 			inertRules: [],
 			totalPairs: 0,
 		};
@@ -220,6 +247,7 @@ describe('the registry commutes except where the catalogue says otherwise', () =
 
 		const stats: PairStats = {
 			composedPairs: 0,
+			crossPhasePairs: 0,
 			inertRules: [],
 			totalPairs: 0,
 		};
@@ -239,6 +267,7 @@ describe('the registry commutes except where the catalogue says otherwise', () =
 		console.log(
 			`commutation gate: ${RULES.length} rules, ${stats.totalPairs} unordered pair(s), ` +
 				`${stats.composedPairs} composed (union of changing rids nonempty), ` +
+				`${stats.crossPhasePairs} cross-phase (one order only), ` +
 				`${pairs.length} non-commuting, ${undeclared.length} undeclared, ${elapsedMs.toFixed(0)}ms`,
 		);
 
@@ -249,6 +278,12 @@ describe('the registry commutes except where the catalogue says otherwise', () =
 		// The second invariant — see this suite's docstring. Cause first,
 		// then the symptom it implies.
 		expect(stats.inertRules).toEqual([]);
-		expect(stats.composedPairs).toBe(stats.totalPairs);
+		// Every pair is either composed or skipped for the ONE reason
+		// this gate accepts. `crossPhasePairs` is the count `apply.ts`'s
+		// manifest forces — 40 `text-repairs` rules against the 2
+		// `structural-repairs` ones — asserted here so the skip cannot
+		// quietly widen into same-phase pairs it has no licence for.
+		expect(stats.composedPairs + stats.crossPhasePairs).toBe(stats.totalPairs);
+		expect(stats.crossPhasePairs).toBe(80);
 	}, 180_000);
 });

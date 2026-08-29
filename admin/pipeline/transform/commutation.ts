@@ -188,6 +188,11 @@ function compose(first: Rule, second: Rule, entry: SourceEntry): string {
  */
 interface PairStats {
 	composedPairs: number;
+	/** Pairs skipped because their rules run in DIFFERENT PHASES, and
+	 * so have only one possible order. Reported rather than silently
+	 * dropped: a skip nobody counts is the "silence mistaken for
+	 * coverage" failure `link-target.ts` names. Zero until batch 6c. */
+	crossPhasePairs: number;
 	/** Ids of rules that changed no entry in the corpus, sorted. Empty
 	 * is the only healthy value. */
 	inertRules: string[];
@@ -240,9 +245,130 @@ function firstDisagreement(
 }
 
 /**
+ * Whether this pair has only ONE possible order, and so nothing for a
+ * commutation check to compare.
+ *
+ * `apply.ts`'s committed phase manifest runs `text-repairs` to
+ * completion and only then `structural-repairs`, so `structural ∘
+ * text` is the only composition the pipeline can produce and `text ∘
+ * structural` is not an alternative the registry could be reordered
+ * into. Comparing them asks whether a counterfactual the manifest
+ * forbids agrees with the real one; a disagreement there is the phase
+ * boundary WORKING, not an undeclared entanglement.
+ *
+ * Batch 6c is where this surfaced: `stranded-stem-head` reported four
+ * such pairs, one of them `label-period-outside-italic`, whose output
+ * the structural rule's population DEPENDS on (360 → 562 occurrences).
+ * That dependency is real and is pinned by measurement in
+ * `rules/stem-section-corpus.test.ts`; what it is not is a
+ * registry-adjacency constraint, which is the only thing
+ * `entangledWith` can express. Batch 6b's single structural rule did
+ * not reveal the gap because it happened to commute with all 40.
+ */
+function oneOrderOnly(a: Rule, b: Rule): boolean {
+	return a.phase !== b.phase;
+}
+
+/** What one pair resolves to: skipped for having a single order,
+ * skipped for an empty candidate set, or composed — with the rid of
+ * the first disagreement when the two orders differ. */
+type PairVerdict =
+	| { kind: 'composed'; sampleRid: string | undefined }
+	| { kind: 'crossPhase' }
+	| { kind: 'noCandidates' };
+
+/** The three lookups every pair needs, built once per run. Passed as
+ * one object rather than three parameters so `verdictFor` stays inside
+ * biome's `useMaxParams`. */
+interface PairContext {
+	byRid: ReadonlyMap<string, SourceEntry>;
+	changing: ReadonlyMap<string, ReadonlySet<string>>;
+	orderOf: ReadonlyMap<string, number>;
+}
+
+/** One pair's verdict. Extracted from `nonCommutingPairs` so the loop
+ * there stays a tally rather than a decision procedure — SonarQube's
+ * `typescript:S3776` flagged the merged version at 16 against a budget
+ * of 15, and the split is the honest fix rather than a suppression. */
+function verdictFor(a: Rule, b: Rule, ctx: PairContext): PairVerdict {
+	if (oneOrderOnly(a, b)) {
+		return { kind: 'crossPhase' };
+	}
+	const candidates = candidateRids(a, b, ctx.changing, ctx.orderOf);
+	if (candidates.length === 0) {
+		return { kind: 'noCandidates' };
+	}
+	return {
+		kind: 'composed',
+		sampleRid: firstDisagreement(a, b, candidates, ctx.byRid),
+	};
+}
+
+/**
  * Every unordered pair of `rules` whose two orders produce different
  * bytes on some entry at least one of them changes. Pairs whose
- * candidate set is empty are skipped without composing.
+ * candidate set is empty are skipped without composing, and so are
+ * pairs whose rules run in different PHASES — see the comment on that
+ * branch, and `PairStats.crossPhasePairs`, which counts them.
+ *
+ * When `stats` is passed, it is filled in with the pair counts (see
+ * `PairStats`) — an optional out-param rather than a second return
+ * value, so the two-argument call every other caller and both unit
+ * tests use is unaffected.
+ */
+/** Every unordered pair of `rules`, in registry order. A generator so
+ * the enumeration is separable from the decision — see `tallyPair`. */
+function* unorderedPairs(rules: readonly Rule[]): Generator<[Rule, Rule]> {
+	for (let i = 0; i < rules.length; i++) {
+		for (let j = i + 1; j < rules.length; j++) {
+			const a = rules[i];
+			const b = rules[j];
+			if (a !== undefined && b !== undefined) {
+				yield [a, b];
+			}
+		}
+	}
+}
+
+/** The running counts one `nonCommutingPairs` call accumulates. */
+interface Tally {
+	composedPairs: number;
+	crossPhasePairs: number;
+	found: NonCommuting[];
+	totalPairs: number;
+}
+
+/** Fold one pair into the tally.
+ *
+ * Split out of `nonCommutingPairs` along with `unorderedPairs` and
+ * `verdictFor` because SonarQube's `typescript:S3776` measured the
+ * merged version at 16 against a budget of 15 once batch 6c's
+ * cross-phase branch landed. Three named steps — enumerate, decide,
+ * tally — rather than a suppression. */
+function tallyPair(a: Rule, b: Rule, ctx: PairContext, tally: Tally): void {
+	tally.totalPairs++;
+	// See `oneOrderOnly`: a cross-phase pair has ONE order, so it is
+	// skipped and COUNTED rather than compared.
+	const verdict = verdictFor(a, b, ctx);
+	if (verdict.kind === 'crossPhase') {
+		tally.crossPhasePairs++;
+		return;
+	}
+	if (verdict.kind === 'noCandidates') {
+		return;
+	}
+	tally.composedPairs++;
+	if (verdict.sampleRid !== undefined) {
+		tally.found.push({ ids: [a.id, b.id], sampleRid: verdict.sampleRid });
+	}
+}
+
+/**
+ * Every unordered pair of `rules` whose two orders produce different
+ * bytes on some entry at least one of them changes. Pairs whose
+ * candidate set is empty are skipped without composing, and so are
+ * pairs whose rules run in different PHASES — see `oneOrderOnly`, and
+ * `PairStats.crossPhasePairs`, which counts them.
  *
  * When `stats` is passed, it is filled in with the pair counts (see
  * `PairStats`) — an optional out-param rather than a second return
@@ -255,39 +381,30 @@ function nonCommutingPairs(
 	stats?: PairStats,
 ): NonCommuting[] {
 	const changing = new Map(rules.map((r) => [r.id, changingRids(r, corpus)]));
-	const byRid = new Map(corpus.map((e) => [e.rid, e]));
-	const orderOf = new Map(corpus.map((e, at) => [e.rid, at]));
-	const found: NonCommuting[] = [];
-	let totalPairs = 0;
-	let composedPairs = 0;
-	for (let i = 0; i < rules.length; i++) {
-		for (let j = i + 1; j < rules.length; j++) {
-			const a = rules[i];
-			const b = rules[j];
-			if (a === undefined || b === undefined) {
-				continue;
-			}
-			totalPairs++;
-			const candidates = candidateRids(a, b, changing, orderOf);
-			if (candidates.length === 0) {
-				continue;
-			}
-			composedPairs++;
-			const sampleRid = firstDisagreement(a, b, candidates, byRid);
-			if (sampleRid !== undefined) {
-				found.push({ ids: [a.id, b.id], sampleRid });
-			}
-		}
+	const ctx: PairContext = {
+		byRid: new Map(corpus.map((e) => [e.rid, e])),
+		changing,
+		orderOf: new Map(corpus.map((e, at) => [e.rid, at])),
+	};
+	const tally: Tally = {
+		composedPairs: 0,
+		crossPhasePairs: 0,
+		found: [],
+		totalPairs: 0,
+	};
+	for (const [a, b] of unorderedPairs(rules)) {
+		tallyPair(a, b, ctx, tally);
 	}
 	if (stats !== undefined) {
-		stats.totalPairs = totalPairs;
-		stats.composedPairs = composedPairs;
+		stats.totalPairs = tally.totalPairs;
+		stats.composedPairs = tally.composedPairs;
+		stats.crossPhasePairs = tally.crossPhasePairs;
 		stats.inertRules = [...changing]
 			.filter(([, rids]) => rids.size === 0)
 			.map(([id]) => id)
 			.toSorted((x, y) => x.localeCompare(y));
 	}
-	return found;
+	return tally.found;
 }
 
 export type { NonCommuting, PairStats };

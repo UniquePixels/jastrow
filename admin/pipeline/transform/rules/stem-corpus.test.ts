@@ -180,9 +180,17 @@ async function build(): Promise<Census> {
 			}
 		});
 
+		// The whole phase runs, because that is what the pipeline does —
+		// but only THIS rule's records are counted. Batch 6c registered a
+		// second structural rule (`stranded-stem-head`, 436 entries), and
+		// an unfiltered `records.length` here would read its work as this
+		// rule's and fail for the wrong reason.
 		const run = applyTransforms(texted, 'structural-repairs');
-		c.chopRecords += run.records.length;
-		if (run.records.length > 0) {
+		const mine = run.records.filter(
+			(record) => record.ruleId === 'stem-head-marker-chop',
+		);
+		c.chopRecords += mine.length;
+		if (mine.length > 0) {
 			c.chopEntries++;
 		}
 		const post = chopCounts(run.entry);
