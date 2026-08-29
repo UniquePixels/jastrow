@@ -54,8 +54,8 @@ someone pins the predicate.
 
 | Route | Rows | Instances | What it needs |
 |---|---:|---:|---|
-| **transform** | **69** | **21,080** | deterministic code + tests |
-| judgment | 56 | 15,919 | per-entry reading (Opus pass or maintainer) |
+| **transform** | **68** | **20,672** | deterministic code + tests |
+| judgment | 59 | 16,337 | per-entry reading (Opus pass or maintainer) |
 | blocked | 5 | 4,947 | pin the predicate first |
 
 Phase 1 closed this table at 81 / 46 / 5. Every move since has been a
@@ -145,9 +145,27 @@ is working:
   `data/patches/catalogue-audit/binyan-form-cleanup.md`, gated by
   `admin/pipeline/body/binyan-cleanup.corpus.test.ts`. See
   [transform-batch-6a.md](transform-batch-6a.md).
+- Batch 6b wired the `structural-repairs` phase, which had run empty
+  since Phase 1, and added the fourth gate — `no-lost-text.ts`, which
+  sees what the other three cannot: a deletion. Two rules shipped, one
+  per phase. The two rules moved no complete row out of `transform`
+  but SPLIT two:
+  `asterisk-stem-label` re-scoped 69 → 3 with its other 66 becoming
+  `stem-label-not-a-binyan-name` (judgment), and
+  `stem-head-marker-chop`'s ten residue-bearing members becoming
+  `chopped-marker-with-residue` (judgment). Both splits obey one rule —
+  `coverage()` reads a row as registered the moment any rule claims its
+  id, so a partial rule must not take its row's remainder off the
+  queue. `empty-stem-section` (347 sections / 342 entries) gained the
+  audit it never had and then LEFT the queue on Brian's ruling — the
+  first row to go on a data-versus-display distinction rather than on
+  inference, destination or there being no defect. Nothing is missing
+  from it; what remains is a Phase 4 rendering item, showing
+  consecutive senseless stem blocks as one run. See
+  [transform-batch-6b.md](transform-batch-6b.md).
 
-**50.3% of the backlog is deterministic code** (21,080 of 41,946
-instances), 53.1% of it by row. That is the most useful number here —
+**49.3% of the backlog is deterministic code** (20,672 of 41,956
+instances), 51.5% of it by row. That is the most useful number here —
 most of the catalogue does not need judgment at all.
 
 The instance total is now FALLING, and both directions have the same
@@ -161,10 +179,10 @@ Cutover gate, cross-cut:
 
 | | Rows | Instances |
 |---|---:|---:|
-| Blocks the v2 cutover | 56 | 14,772 |
+| Blocks the v2 cutover | 58 | 14,782 |
 | Launch need not wait | 74 | 27,174 |
 
-## The transform queue — all 69 rows, largest first
+## The transform queue — all 68 rows, largest first
 
 `⚠ unaudited` marks a row with no `reason` recorded: its count has never
 been derived. That is not a reason to skip it — for a transform row,
@@ -191,7 +209,6 @@ either reproduces the count or does not.
 | `tosefta-variant-chapter-halakha-loss` | 391 | no | — |
 | `targum-sheni-never-linked` | 362 | no | ⚠ unaudited |
 | `plural-label-rendering-defeats-capture` | 358 | **yes** | — |
-| `empty-stem-section` | 342 | **yes** | ⚠ unaudited |
 | `ib-yoma-2a` | 312 | no | — |
 | `holam-migrated-off-mater-vav` | 308 | no | — |
 | `emphasis-run-edge-space` | 304 | no | — |
@@ -213,7 +230,6 @@ either reproduces the count or does not.
 | `ellipsis-fragment-anchored` | 80 | no | — |
 | `shin-sin-dot-drop` | 77 | no | — |
 | `continuation-marker-em-dash-loss` | 71 | **yes** | — |
-| `asterisk-stem-label` | 69 | **yes** | — |
 | `adjacent-verbatim-repetition` | 59 | **yes** | — |
 | `anchor-italic-no-space` | 56 | no | — |
 | `plural-to-feminine-final-letter-mislink` | 50 | no | — |
@@ -241,6 +257,7 @@ either reproduces the count or does not.
 | `sifre-ib-resolves-to-yalkut` | 6 | no | — |
 | `b-h-split-across-field-boundary` | 4 | **yes** | ⚠ unaudited |
 | `see-particle-lost` | 4 | **yes** | — |
+| `asterisk-stem-label` | 3 | **yes** | — |
 | `unterminated-href-swallows-closing-tag` | 2 | **yes** | — |
 
 ### Sequencing advice
@@ -288,9 +305,9 @@ either reproduces the count or does not.
    const noEdge=[...PENDING].filter(id=>(by.get(id)?.entangledWith??[]).length===0);
    console.log("PENDING:",PENDING.length,"| no edge:",noEdge.length);'
    ```
-4. **4 transform rows are unaudited**, 2 of them blocking (measured
-   2026-08-28 after batch 6a; this read "5 … 3 of them blocking" after
-   batch 4, and "9 … 4 of them blocking" before it).
+4. **3 transform rows are unaudited**, 1 of them blocking (measured
+   2026-08-28 after batch 6b; this read "4 … 2 of them blocking" after
+   6a, "5 … 3" after batch 4, and "9 … 4" before it).
    **CORRECTED 2026-08-26 (impl/phase-2-batch-4): this cited "the query
    above",** which is the `entangledWith` no-edge query in item 3 and
    measures nothing about auditing. `⚠ unaudited` is a row with no
@@ -303,9 +320,10 @@ either reproduces the count or does not.
    console.log("unaudited transform:",t.length,"| blocking:",t.filter(r=>r.blocking===true).length);'
    ```
 
-   The four are `unlinked-v-span` and `targum-sheni-never-linked`
-   (non-blocking), and `empty-stem-section` and
-   `b-h-split-across-field-boundary` (blocking).
+   The three are `unlinked-v-span` and `targum-sheni-never-linked`
+   (non-blocking), and `b-h-split-across-field-boundary` (blocking).
+   `empty-stem-section` left the list in batch 6b, which derived its
+   audit and recommended withdrawal.
    `parenthesized-alt-headword` left the list in batch 5, which wrote
    its rule and its `reason` together. Expect some to reclassify on contact — the routing
    is a reading of each row, not a measurement, and nine rows have now
@@ -461,7 +479,7 @@ after launch unless something else forces the issue.
   transform" was arguable — lost-text rows especially — the row was
   marked blocking. Wrong that way costs pre-launch effort; wrong the
   other way ships a baked-in defect.
-- **2 of the 4 unaudited transform rows block the cutover, and they
+- **1 of the 3 unaudited transform rows blocks the cutover, and they
   carry the least confidence**, having no recorded derivation behind
   their counts. Recomputed rather than typed:
 

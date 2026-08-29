@@ -209,6 +209,12 @@ const RETARGET = new Set([
  * `href` or `data-ref` anywhere in 32,512 entries. */
 const NEITHER = new Set([
 	'anchor-italic-no-space',
+	// Batch 6b's structural rule. It edits a `definition` — so `FIELD`,
+	// whose members' fields never hold a tag, is not open to it — and it
+	// removes no anchor and writes no target, which is what this set
+	// asserts and the corpus pass below earns. It is also the only
+	// member that runs in a different PHASE from the rest.
+	'stem-head-marker-chop',
 	// BATCH 4 ADDS FOUR, and they are the set's second real test after
 	// batch 3b's twelve. These four move one of the anchor's own tags
 	// across the text beside it — `</a>` across a `)`, a `<sup>` run or
@@ -381,6 +387,10 @@ const CORROBORATE = new Set(['tosefta-variant-chapter-halakha-loss']);
  */
 const FIELD = new Set([
 	'abbrev-fused-headword',
+	// Batch 6b. `asteriskStemStrayPeriod` rewrites `grammar.verbal_stem`,
+	// a field that holds no tag anywhere in the corpus, so it earns the
+	// class's membership test the same way the other four do.
+	'asterisk-stem-label',
 	'gender-pair-headword-line-collapse',
 	'parenthesized-alt-headword',
 	'phrase-alt-headword-stub',
@@ -724,8 +734,29 @@ describe('registry order', () => {
 	// `emphasis-run-edge-space` is the only rule that could hand it a
 	// member; running last is what makes the measured 0 the whole
 	// answer rather than a claim about one pair.
-	it('trailingWhitespaceDefinition runs last', () => {
-		expect(at('trailing-whitespace-definition')).toBe(RULES.length - 1);
+	//
+	// RESTATED IN BATCH 6b, when the registry stopped being a single
+	// phase: "last" now means last among `text-repairs` rules, since
+	// `applyTransforms` filters by phase and a `structural-repairs` rule
+	// cannot hand this one anything — it runs in a pass that has not
+	// started when this rule finishes. Asserted as the last text-repairs
+	// POSITION rather than as `RULES.length - 1`, so a structural rule
+	// appended after it does not quietly retire the constraint.
+	it('trailingWhitespaceDefinition runs last among text-repairs', () => {
+		const textIds = RULES.filter((rule) => rule.phase === 'text-repairs').map(
+			(rule) => rule.id,
+		);
+		expect(at('trailing-whitespace-definition')).toBe(
+			ids.indexOf(textIds[textIds.length - 1] as string),
+		);
+		// And the structural rules really are after it, so the phase
+		// filter is not doing the work of an ordering nobody checked.
+		const structural = RULES.filter(
+			(rule) => rule.phase === 'structural-repairs',
+		);
+		for (const rule of structural) {
+			expect(at(rule.id)).toBeGreaterThan(at('trailing-whitespace-definition'));
+		}
 	});
 
 	it('the three ib- retargets keep their documented relative order', () => {

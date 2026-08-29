@@ -2,7 +2,7 @@ import { describe, expect, it } from 'bun:test';
 import { applyTransforms } from '../transform/run.ts';
 import type { Rule } from '../transform/types.ts';
 import {
-	assertNoStructuralRules,
+	assertStructuralPhaseWired,
 	createReport,
 	healAndTransform,
 	TransformFailure,
@@ -88,19 +88,23 @@ describe('healAndTransform — a transform failure is not a repair failure', () 
 	});
 });
 
-describe('assertNoStructuralRules', () => {
-	it('passes for the committed RULES (all text-repairs today)', () => {
-		expect(() => assertNoStructuralRules()).not.toThrow();
+// Inverted in batch 6b, when the phase stopped running empty. The
+// guard used to catch a rule with no phase to run in; it now catches a
+// phase with no rule — a state that would pass every other test in the
+// suite while silently reverting the wiring.
+describe('assertStructuralPhaseWired', () => {
+	it('passes for the committed RULES', () => {
+		expect(() => assertStructuralPhaseWired()).not.toThrow();
 	});
 
-	it('throws loudly the moment a rule targets structural-repairs', () => {
-		const structural: Rule = {
+	it('throws when no rule targets structural-repairs', () => {
+		const textOnly: Rule = {
 			apply: (entry: SourceEntry) => ({ entry, records: [] }),
-			id: 'fixture-structural-rule',
-			phase: 'structural-repairs',
+			id: 'fixture-text-rule',
+			phase: 'text-repairs',
 		};
-		expect(() => assertNoStructuralRules([structural])).toThrow(
-			/structural-repairs rule\(s\) registered/u,
+		expect(() => assertStructuralPhaseWired([textOnly])).toThrow(
+			/no structural-repairs rule is registered/u,
 		);
 	});
 });
