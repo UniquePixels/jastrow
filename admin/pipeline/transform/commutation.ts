@@ -245,6 +245,66 @@ function firstDisagreement(
 }
 
 /**
+ * Whether this pair has only ONE possible order, and so nothing for a
+ * commutation check to compare.
+ *
+ * `apply.ts`'s committed phase manifest runs `text-repairs` to
+ * completion and only then `structural-repairs`, so `structural ∘
+ * text` is the only composition the pipeline can produce and `text ∘
+ * structural` is not an alternative the registry could be reordered
+ * into. Comparing them asks whether a counterfactual the manifest
+ * forbids agrees with the real one; a disagreement there is the phase
+ * boundary WORKING, not an undeclared entanglement.
+ *
+ * Batch 6c is where this surfaced: `stranded-stem-head` reported four
+ * such pairs, one of them `label-period-outside-italic`, whose output
+ * the structural rule's population DEPENDS on (360 → 562 occurrences).
+ * That dependency is real and is pinned by measurement in
+ * `rules/stem-section-corpus.test.ts`; what it is not is a
+ * registry-adjacency constraint, which is the only thing
+ * `entangledWith` can express. Batch 6b's single structural rule did
+ * not reveal the gap because it happened to commute with all 40.
+ */
+function oneOrderOnly(a: Rule, b: Rule): boolean {
+	return a.phase !== b.phase;
+}
+
+/** What one pair resolves to: skipped for having a single order,
+ * skipped for an empty candidate set, or composed — with the rid of
+ * the first disagreement when the two orders differ. */
+type PairVerdict =
+	| { kind: 'composed'; sampleRid: string | undefined }
+	| { kind: 'crossPhase' }
+	| { kind: 'noCandidates' };
+
+/** The three lookups every pair needs, built once per run. Passed as
+ * one object rather than three parameters so `verdictFor` stays inside
+ * biome's `useMaxParams`. */
+interface PairContext {
+	byRid: ReadonlyMap<string, SourceEntry>;
+	changing: ReadonlyMap<string, ReadonlySet<string>>;
+	orderOf: ReadonlyMap<string, number>;
+}
+
+/** One pair's verdict. Extracted from `nonCommutingPairs` so the loop
+ * there stays a tally rather than a decision procedure — SonarQube's
+ * `typescript:S3776` flagged the merged version at 16 against a budget
+ * of 15, and the split is the honest fix rather than a suppression. */
+function verdictFor(a: Rule, b: Rule, ctx: PairContext): PairVerdict {
+	if (oneOrderOnly(a, b)) {
+		return { kind: 'crossPhase' };
+	}
+	const candidates = candidateRids(a, b, ctx.changing, ctx.orderOf);
+	if (candidates.length === 0) {
+		return { kind: 'noCandidates' };
+	}
+	return {
+		kind: 'composed',
+		sampleRid: firstDisagreement(a, b, candidates, ctx.byRid),
+	};
+}
+
+/**
  * Every unordered pair of `rules` whose two orders produce different
  * bytes on some entry at least one of them changes. Pairs whose
  * candidate set is empty are skipped without composing, and so are
@@ -276,38 +336,19 @@ function nonCommutingPairs(
 				continue;
 			}
 			totalPairs++;
-			// A CROSS-PHASE PAIR HAS ONE ORDER, NOT TWO. `apply.ts`'s
-			// committed phase manifest runs `text-repairs` to completion
-			// and only then `structural-repairs`, so `structural ∘ text`
-			// is the only composition the pipeline can produce and
-			// `text ∘ structural` is not an alternative the registry
-			// could be reordered into. Comparing them asks whether a
-			// counterfactual the manifest forbids agrees with the real
-			// one; a disagreement there is the phase boundary WORKING,
-			// not an undeclared entanglement.
-			//
-			// Batch 6c is where this surfaced: `stranded-stem-head`
-			// reported four such pairs, one of them
-			// `label-period-outside-italic`, whose output the structural
-			// rule's population DEPENDS on (360 → 562 occurrences). That
-			// dependency is real and is pinned by measurement in
-			// `rules/stem-section-corpus.test.ts`; what it is not is a
-			// registry-adjacency constraint, which is the only thing
-			// `entangledWith` can express. Batch 6b's single structural
-			// rule did not reveal the gap because it happened to commute
-			// with all 40.
-			if (a.phase !== b.phase) {
+			// See `oneOrderOnly`: a cross-phase pair has ONE order, so
+			// it is skipped and COUNTED rather than compared.
+			const verdict = verdictFor(a, b, { byRid, changing, orderOf });
+			if (verdict.kind === 'crossPhase') {
 				crossPhasePairs++;
 				continue;
 			}
-			const candidates = candidateRids(a, b, changing, orderOf);
-			if (candidates.length === 0) {
+			if (verdict.kind === 'noCandidates') {
 				continue;
 			}
 			composedPairs++;
-			const sampleRid = firstDisagreement(a, b, candidates, byRid);
-			if (sampleRid !== undefined) {
-				found.push({ ids: [a.id, b.id], sampleRid });
+			if (verdict.sampleRid !== undefined) {
+				found.push({ ids: [a.id, b.id], sampleRid: verdict.sampleRid });
 			}
 		}
 	}

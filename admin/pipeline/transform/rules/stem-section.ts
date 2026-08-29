@@ -193,7 +193,7 @@ const LABELS: readonly string[] = [
  * a metacharacter, so this is not decoration. Not called `escape`:
  * that is a restricted global name. */
 function escapeLabel(label: string): string {
-	return label.replace(/[.*+?^${}()|[\]\\]/gu, '\\$&');
+	return label.replace(/[.*+?^${}()|[\]\\]/gu, String.raw`\$&`);
 }
 
 /**
@@ -212,7 +212,7 @@ function escapeLabel(label: string): string {
  *   rather than the space before a form.
  */
 const HEAD = new RegExp(
-	`^(?<pre>[\\s,;]*)<i>(?<run>(?:${LABELS.map(escapeLabel).join('|')}))</i>(?<rest>\\s\\S[\\s\\S]*)$`,
+	String.raw`^(?<pre>[\s,;]*)<i>(?<run>(?:${LABELS.map(escapeLabel).join('|')}))</i>(?<rest>\s\S[\s\S]*)$`,
 	'u',
 );
 

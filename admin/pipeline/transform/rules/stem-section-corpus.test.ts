@@ -8,6 +8,7 @@ import type {
 	SourceEntry,
 	SourceSense,
 } from '../../body/types.ts';
+import { stripTags } from '../no-new-text.ts';
 import { RULES } from '../registry.ts';
 import { applyTransforms } from '../run.ts';
 import { LABELS, strandedStemHead } from './stem-section.ts';
@@ -42,10 +43,10 @@ import { LABELS, strandedStemHead } from './stem-section.ts';
  * a number for a predicate no document states. A re-fetch could split
  * the two silently. */
 const ALTERNATION = LABELS.map((l) =>
-	l.replace(/[.*+?^${}()|[\]\\]/gu, '\\$&'),
+	l.replace(/[.*+?^${}()|[\]\\]/gu, String.raw`\$&`),
 ).join('|');
 const OPEN = new RegExp(
-	`^(?<pre>[\\s,;.=]*)<i>\\s*(?<run>(?:${ALTERNATION})(?:\\s*[/,]\\s*(?:${ALTERNATION}))*)\\s*</i>(?<rest>[\\s\\S]*)$`,
+	String.raw`^(?<pre>[\s,;.=]*)<i>\s*(?<run>(?:${ALTERNATION})(?:\s*[/,]\s*(?:${ALTERNATION}))*)\s*</i>(?<rest>[\s\S]*)$`,
 	'u',
 );
 
@@ -135,12 +136,19 @@ const sensesText = (senses: readonly BodySense[]): string =>
 		.map((s) => s.gloss + s.units.join('') + sensesText(s.senses ?? []))
 		.join('');
 const bodyText = (body: BodyEntry): string =>
-	(
+	// `stripTags` rather than a `/<[^>]*>/g` of our own: the regex is
+	// what CodeQL's `js/incomplete-multi-character-sanitization` flags,
+	// and it is right on the shape even though nothing here sanitises —
+	// `<scr<script>ipt>` survives one pass of it. The registry's own
+	// tokenizer is both the correct instrument and the one every gate
+	// already measures text with, so this comparison now strips exactly
+	// the way `checkNoNewText` does.
+	stripTags(
 		sensesText(body.senses) +
-		(body.stems ?? [])
-			.map((s) => s.stem + s.forms.join('') + sensesText(s.senses))
-			.join('')
-	).replace(/<[^>]*>/gu, '');
+			(body.stems ?? [])
+				.map((s) => s.stem + s.forms.join('') + sensesText(s.senses))
+				.join(''),
+	);
 
 function multiset(text: string): Map<string, number> {
 	const counts = new Map<string, number>();
