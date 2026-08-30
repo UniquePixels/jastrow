@@ -232,12 +232,17 @@ it(
 	TIMEOUT,
 );
 
-// §4 — THE SHAPE OF THE ABSENCE. The row records "90 entries have no
-// plural_form key at all and 268 have [], none a blank-string slot" as
-// its overlap argument against `plural-form-empty-slot` (703). The
-// proportions are the row's; the totals are this file's own measurement.
+// §4 — THE SHAPE OF THE ABSENCE, and it corrects the row by one.
+//
+// The row records "90 entries have no plural_form key at all and 268
+// have [], **none a blank-string slot**" as its overlap argument against
+// `plural-form-empty-slot` (703). Measured over the wider 523, that
+// last clause is off by one: there IS a single blank-string slot. The
+// overlap argument survives — 1 of 523 is not an overlap — but the
+// claim as written is false, so the shape is pinned as measured rather
+// than as recorded.
 it(
-	'is an absent or empty array, never a blank-string slot',
+	'is an absent or empty array, and a blank-string slot exactly once',
 	async () => {
 		const { shape } = await measured();
 		expect(shape['blank'] ?? 0).toBe(1);

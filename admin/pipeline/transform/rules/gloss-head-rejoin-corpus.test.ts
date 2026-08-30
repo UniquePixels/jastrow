@@ -54,20 +54,25 @@ const strip = (s: string): string => s.replace(/<[^>]*>/gu, '');
 /** The four the catalogue names, measured rather than assumed. */
 const CATALOGUED = ['C00090', 'M00231', 'M00395', 'R00196'];
 
-function bodyText(body: BodyEntry): string {
-	const parts: string[] = [];
-	const push = (senses: readonly BodySense[] | undefined): void => {
-		for (const sense of senses ?? []) {
-			parts.push(sense.gloss, sense.label ?? '', ...sense.units);
-			push(sense.senses);
-		}
-	};
-	push(body.senses);
-	for (const stem of body.stems ?? []) {
-		parts.push(stem.stem, ...stem.forms);
-		push(stem.senses);
+/**
+ * The strings of the body's INTRO sense, each on its own.
+ *
+ * NOT joined. `buildBody` folds the rejoined gloss head into the entry's
+ * intro sense (`dry-run.ts:247`, `pushTextSense(acc, joined, …)`), so
+ * that is where `b. h.` must appear — and it must appear inside ONE
+ * string. Joining the whole body with a separator, which is what an
+ * earlier version of this file did, inserts a space between every field
+ * and makes `HEALED` match even when `buildBody` has put `b.` at the end
+ * of one field and `h.` at the start of the next. That is precisely the
+ * regression this gate exists to catch, so the join would have let it
+ * through.
+ */
+function introStrings(body: BodyEntry): string[] {
+	const intro: BodySense | undefined = body.senses[0];
+	if (intro === undefined) {
+		return [];
 	}
-	return strip(parts.join(' '));
+	return [intro.gloss, ...intro.units].map(strip);
 }
 
 interface Census {
@@ -97,7 +102,7 @@ function census(entries: readonly SourceEntry[]): Census {
 		if (HEALED.test(strip(rejoinGlossHead(entry).joined))) {
 			out.rejoined.push(entry.rid);
 		}
-		if (HEALED.test(bodyText(buildBody(entry).body))) {
+		if (introStrings(buildBody(entry).body).some((text) => HEALED.test(text))) {
 			out.built.push(entry.rid);
 		}
 	}
@@ -122,7 +127,9 @@ it(
 );
 
 // §2 — THE PREMISE OF THE DISCARD, asserted where the reader is: the
-// built body, not the rejoin helper.
+// built body, not the rejoin helper — and within a SINGLE intro-sense
+// string, so a builder that re-split the two halves across fields fails
+// here instead of being papered over by a join separator.
 it(
 	'reads "b. h." contiguously in the BUILT body, all four',
 	async () => {

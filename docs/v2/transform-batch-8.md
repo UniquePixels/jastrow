@@ -274,6 +274,10 @@ definition — the particle slot is populated **7,270** times and empty
 "Pi. of"  4  "v,"  4        "constr. of"  4  "imper. of"  3
 ```
 
+**These twelve are the head of the distribution, not the whole of it** —
+they account for 7,154 of the 7,270, with the remaining 116 spread over
+a long tail of rarer particles.
+
 **The vocabulary is the argument, not the ratio.** A slot whose fillers
 were being normalised away would show a SINGLE surviving value; this one
 retains a dozen distinct particles, several themselves damaged (`v,` ×4,
@@ -348,7 +352,64 @@ declaring `structural-repairs` instead would have made it 40 × 8 = 320 —
 so the next reader can check the growth was in the phase they expected
 rather than taking 287 on trust.
 
-## 9. What this batch has not done
+## 9. Review: six findings, five real, one fabricated
+
+One local CodeRabbit round over the whole 17-file diff. **Five of the
+six were real and all five are fixed; the one Major was false.**
+
+**The false one was the Major.** It reported that
+`reversed-hebrew-phrase` had lost its `blocking` flag while its two
+sibling withdrawals kept theirs, and warned this "can produce an
+incorrect cutover decision". The row carries `"blocking": true` at the
+line it names. The disposition script strips `blocking` only for
+DISCARDS, and this is a withdrawal. Checking the finding against the
+file cost a minute; acting on it would have been a wrong edit to the
+catalogue. [[feedback_listen_first]].
+
+**The two that mattered were both gates that could pass on the
+regression they exist to catch.**
+
+`gloss-head-rejoin-corpus.test.ts` joined the whole built body with a
+space separator before testing for `b. h.`. **That separator would have
+supplied the space itself** — a `buildBody` that re-split the two halves
+across adjacent fields would still have matched, which is exactly the
+failure the gate is for. It now asserts within a SINGLE intro-sense
+string. It still passes, so the property is real and was merely being
+tested vacuously.
+
+`see-particle-corpus.test.ts` §5 was titled "the repair, end to end" and
+called the bare `restoreParticle` function. It would have passed with
+the rule mis-registered, in the wrong phase, or absent from `RULES`
+entirely. It now pulls the rule from `RULES` by id and runs it through
+`applyTransforms`, asserting the record and the pure-insertion property
+besides.
+
+The other three were documentation defects of one kind — **a stated
+figure contradicting a measured one**:
+
+- The plural gate's §4 was named "never a blank-string slot" and
+  asserted that exactly one exists. The row claims none; the measurement
+  finds one. Renamed, and the row's error recorded rather than papered
+  over.
+- The particle census block sums to 7,154 against a stated 7,270. It is
+  the head of the distribution; 116 more sit in the tail. Labelled in
+  all three places it appears.
+- `phase-2-triage.md`'s downstream tables still summed to 133 rows and
+  41,808 instances against the 131 / 41,299 this batch left. **The
+  transform-queue table said "all 68 rows" and held 68 — it had been
+  stale since batch 7.** Worse, the judgment table held 50 rows under a
+  heading that said 60, and a note dated 2026-08-29 asserted "the table
+  below was current" when it was ten rows short. Both tables are now
+  GENERATED from `patterns.jsonl` instead of hand-maintained, and the
+  false note is corrected in place. All three sections agree: 61 + 65 +
+  5 = 131 rows, 19,726 + 16,626 + 4,947 = 41,299 instances.
+
+A self-review pass before the round found one more, which review did not
+raise: the rule emitted `",v. <a"` on a `",<a"` input, a particle fused
+to the comma. The predicate now requires the separating space and the
+corpus gate confirms the population is unchanged at 4.
+
+## 10. What this batch has not done
 
 - **Nothing here reads the two dash-loss candidates against print.**
   `A00510` and `M00591` are withdrawn on the absence of a corpus

@@ -29,6 +29,10 @@
  *     "read:"  16  "v. sub."  12   "part. of"  8  "fem. of"  5
  *     "Pi. of"  4  "v,"  4        "constr. of"  4  "imper. of"  3
  *
+ * Those twelve are the HEAD of the distribution, not the whole of it:
+ * they account for 7,154 of the 7,270, with 116 more spread over a tail
+ * of rarer particles.
+ *
  * That vocabulary is the argument. A slot whose fillers were being
  * normalised away would show a SINGLE surviving value; this one retains
  * a dozen distinct particles, several of them themselves damaged

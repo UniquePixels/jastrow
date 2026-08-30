@@ -939,10 +939,12 @@ const RULES: readonly Rule[] = [
 	// model, not the size: the particle slot in a whole-definition
 	// redirect stub is populated 7,270 times and empty 4, and it is
 	// populated with a RETAINED VOCABULARY — `v.` 6,844, `v. sub` 196,
-	// `read` 29, `pl. of` 29, and eight more, several themselves damaged
-	// (`v,` ×4). A slot being normalised away leaves ONE surviving
-	// value; this one kept a dozen, so the four empties are loss rather
-	// than convention. Ruling: Brian, 2026-08-30.
+	// `read` 29, `pl. of` 29, eight more that bring the head of the
+	// distribution to 7,154, and a tail of 116 rarer particles, several
+	// themselves damaged (`v,` ×4). A slot being normalised away leaves
+	// ONE surviving value; this one kept a dozen and a tail, so the four
+	// empties are loss rather than convention. Ruling: Brian,
+	// 2026-08-30.
 	//
 	// IT CANNOT MEET ANY RULE ABOVE IT, and the exclusion is structural
 	// rather than argued. It fires only when the entry's whole content

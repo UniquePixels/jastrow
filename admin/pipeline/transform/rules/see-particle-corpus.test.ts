@@ -3,7 +3,7 @@ import type { SourceEntry, SourceSense } from '../../body/types.ts';
 import { RULES } from '../registry.ts';
 import { applyTransforms } from '../run.ts';
 import { repairedEntries } from './corpus-fixture.ts';
-import { isWholeEntryStub, restoreParticle, STUB } from './see-particle.ts';
+import { isWholeEntryStub, STUB } from './see-particle.ts';
 
 /**
  * `see-particle-lost`, measured where the rule stands.
@@ -166,19 +166,35 @@ it(
 	TIMEOUT,
 );
 
-// §5 — THE REPAIR, end to end on every member.
+/** The rule AS REGISTERED, pulled from `RULES` by id rather than
+ * imported from its module. What §5 has to prove is that the thing the
+ * pipeline runs repairs these four — a bare call to `restoreParticle`
+ * would pass with the rule mis-registered, in the wrong phase, or
+ * absent from `RULES` altogether. */
+const AS_REGISTERED = RULES.filter((rule) => rule.id === 'see-particle-lost');
+
+// §5 — THE REPAIR, end to end on every member, through the registry.
 it(
 	'writes the particle outside the anchor on all four',
 	async () => {
-		const entries = await stage();
-		const byRid = new Map(entries.map((e) => [e.rid, e]));
+		expect(AS_REGISTERED).toHaveLength(1);
+		const byRid = new Map((await stage()).map((e) => [e.rid, e]));
 		for (const rid of CATALOGUED) {
-			const entry = byRid.get(rid) as SourceEntry;
-			const repaired = restoreParticle(
-				entry.content.senses[0]?.definition ?? '',
-			) as string;
-			expect(repaired.startsWith(', v. <a')).toBe(true);
-			expect(repaired).not.toContain('>v.');
+			const before = byRid.get(rid) as SourceEntry;
+			const run = applyTransforms(before, 'text-repairs', AS_REGISTERED);
+			expect(run.records.map((record) => record.ruleId)).toEqual([
+				'see-particle-lost',
+			]);
+			const after = run.entry.content.senses[0]?.definition ?? '';
+			expect(after.startsWith(', v. <a')).toBe(true);
+			// The particle is OUTSIDE the anchor: nothing was written into
+			// the display, where it would render inside a `dir="rtl"` run.
+			expect(after).not.toContain('>v.');
+			// And it is an insertion, not a rewrite — the whole input
+			// survives once the mint is taken back out.
+			expect(after.replace('v. ', '')).toBe(
+				before.content.senses[0]?.definition ?? '',
+			);
 		}
 	},
 	TIMEOUT,
