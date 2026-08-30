@@ -5,13 +5,13 @@
  * rationale; this file is where they are asserted.
  */
 import { describe, expect, it } from 'bun:test';
-import { readSourceEntries } from '../../body/source.ts';
 import type { SourceEntry } from '../../body/types.ts';
 import { tokenize } from '../html.ts';
 import { anchors } from '../links.ts';
 import { checkMarkup } from '../markup.ts';
 import { fieldsOf } from '../no-new-text.ts';
 import type { Rule } from '../types.ts';
+import { sourceEntries } from './corpus-fixture.ts';
 import {
 	superscriptInsideAnchor,
 	truncatedCitationDigit,
@@ -241,7 +241,7 @@ describe('corpus tier', () => {
 	it('both rows reproduce; the superscript row is T/U/V only, and neither regresses markup, anchor count, or anchor tag bytes', async () => {
 		const sup = freshTally();
 		const dig = freshTally();
-		for await (const entry of readSourceEntries()) {
+		for (const entry of await sourceEntries()) {
 			tallyOne(entry, superscriptInsideAnchor, sup);
 			tallyOne(entry, truncatedCitationDigit, dig);
 		}

@@ -10,11 +10,11 @@
  * run.
  */
 import { expect, it } from 'bun:test';
-import { readSourceEntries } from '../../body/source.ts';
 import type { SourceEntry, SourceSense } from '../../body/types.ts';
 import { tokenize } from '../html.ts';
 import { anchors } from '../links.ts';
 import { applyTransforms } from '../run.ts';
+import { sourceEntries } from './corpus-fixture.ts';
 import {
 	inCleanPlSpan,
 	pluralToFeminineFinalLetter,
@@ -327,7 +327,7 @@ function countShurukMatches(senses: readonly SourceSense[]): number {
 it('the population is exactly 12 occurrences across 12 entries, corpus-wide', async () => {
 	let occurrences = 0;
 	const rids = new Set<string>();
-	for await (const e of readSourceEntries()) {
+	for (const e of await sourceEntries()) {
 		const n = countShurukMatches(e.content.senses);
 		occurrences += n;
 		if (n > 0) {
@@ -472,7 +472,7 @@ function reachabilityOf(
 it('the raw population is 65 occurrences / 55 entries, corpus-wide', async () => {
 	let occurrences = 0;
 	const rids = new Set<string>();
-	for await (const e of readSourceEntries()) {
+	for (const e of await sourceEntries()) {
 		const n = countRaw(e, e.content.senses);
 		occurrences += n;
 		if (n > 0) {
@@ -486,7 +486,7 @@ it('the raw population is 65 occurrences / 55 entries, corpus-wide', async () =>
 it('the clean population (the rule’s actual firing set) is 60 occurrences / 50 entries', async () => {
 	let occurrences = 0;
 	const rids = new Set<string>();
-	for await (const e of readSourceEntries()) {
+	for (const e of await sourceEntries()) {
 		const n = countClean(e, e.content.senses);
 		occurrences += n;
 		if (n > 0) {
@@ -512,7 +512,7 @@ it('the clean population (the rule’s actual firing set) is 60 occurrences / 50
 it('retarget is reachable for only 17 of 60 clean occurrences (28.3%) under target-entry identity — still a minority, so unlink is correct', async () => {
 	let total = 0;
 	let reachable = 0;
-	for await (const e of readSourceEntries()) {
+	for (const e of await sourceEntries()) {
 		const { matched, ownTargets } = reachabilityOf(
 			e,
 			e.content.senses,

@@ -173,9 +173,16 @@ and the detector has to encode it. Only one of the two then reproduced.
 verbatim inside one definition", and then, separately, "Distinct from
 `duplicated-definition-opening-run`, which is anchored at offset 0." A
 detector that reads only the first sentence returns **71**. Excluding
-the match that *is* the opening run gives an overlap with
-`duplicated-definition-opening-run` of **0 entries**, which is the
-disjointness the two rows claim and now a measured fact.
+the match that *is* the opening run makes the two rows disjoint BY
+POSITION: no single run can be claimed by both, because one matches only
+at offset 0 and the other only away from it.
+
+That is not entry-level disjointness, and saying "0 entries" — as an
+earlier draft here did, measured while the opening rule was still at
+`k = 8` — would be false. At the shipped thresholds the two share
+exactly one entry, `I00509`, which holds a member of each at different
+offsets; `duplication-corpus.test.ts` asserts that single shared entry
+by name, and that the two runs differ.
 
 **It also returned 59, the catalogued figure, and that agreement was an
 accident of two matching length caps.** The true count under the same

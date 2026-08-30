@@ -8,9 +8,9 @@
  * was already at the file's line budget before these two tests.
  */
 import { expect, it } from 'bun:test';
-import { readSourceEntries } from '../../body/source.ts';
 import type { SourceSense } from '../../body/types.ts';
 import { applyTransforms } from '../run.ts';
+import { sourceEntries } from './corpus-fixture.ts';
 import {
 	apparatusCite,
 	ellipsisFragment,
@@ -74,7 +74,7 @@ it('keeps every rewritten definition tag-balanced corpus-wide', async () => {
 	// 32k+ entries read from disk and tokenized; bun's 5s default test
 	// timeout is too tight for a full corpus pass.
 	const broken: string[] = [];
-	for await (const source of readSourceEntries()) {
+	for (const source of await sourceEntries()) {
 		const { entry: out, records } = applyTransforms(source, 'text-repairs', [
 			apparatusCite,
 			rabbiName,

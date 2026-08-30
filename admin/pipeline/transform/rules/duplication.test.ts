@@ -92,9 +92,9 @@ describe('duplicatedOpeningRun', () => {
 			{ definition: 'head', senses: [{ definition: `${RUN}${RUN}inner` }] },
 		]);
 		const after = duplicatedOpeningRun.apply(input).entry;
-		expect(
-			(after.content.senses[0]?.senses as SourceSense[])[0]?.definition,
-		).toBe(`${RUN}inner`);
+		expect(after.content.senses[0]?.senses?.[0]?.definition).toBe(
+			`${RUN}inner`,
+		);
 	});
 
 	it('treats the input as immutable', () => {

@@ -1,9 +1,9 @@
 import { expect, it } from 'bun:test';
-import { readSourceEntries } from '../../body/source.ts';
 import { tokenize } from '../html.ts';
 import { anchors } from '../links.ts';
 import { fieldsOf } from '../no-new-text.ts';
 import { applyTransforms } from '../run.ts';
+import { sourceEntries } from './corpus-fixture.ts';
 import {
 	abbrevFusedHeadword,
 	genderPairAltDuplicate,
@@ -269,7 +269,7 @@ it('repairs 652 paren occurrences and refuses exactly two', async () => {
 	let repaired = 0;
 	let entries = 0;
 	const survivors: string[] = [];
-	for await (const source of readSourceEntries()) {
+	for (const source of await sourceEntries()) {
 		const out = applyTransforms(source, 'text-repairs', [parenAltHeadword]);
 		if (out.records.length > 0) {
 			entries += 1;
@@ -316,7 +316,7 @@ it('creates no duplicate and empties no item, on the rule output', async () => {
 	let newDuplicates = 0;
 	let emptied = 0;
 	let starredBare = 0;
-	for await (const source of readSourceEntries()) {
+	for (const source of await sourceEntries()) {
 		const before = source.alt_headwords ?? [];
 		if (before.length === 0) {
 			continue;
@@ -357,7 +357,7 @@ it('expands 235 phrase stubs alone, refusing nine', async () => {
 	let entries = 0;
 	let occurrences = 0;
 	const refused: string[] = [];
-	for await (const source of readSourceEntries()) {
+	for (const source of await sourceEntries()) {
 		const out = applyTransforms(source, 'text-repairs', [
 			phraseAltHeadwordStub,
 		]);
@@ -413,7 +413,7 @@ it('the paren rule must run first, and the orders disagree', async () => {
 	): Promise<{ paren: number; phrase: number }> => {
 		let paren = 0;
 		let phrase = 0;
-		for await (const source of readSourceEntries()) {
+		for (const source of await sourceEntries()) {
 			for (const record of applyTransforms(source, 'text-repairs', rules)
 				.records) {
 				if (record.ruleId === 'phrase-alt-headword-stub') {
@@ -449,7 +449,7 @@ it('repairs 4 fused headwords and 22 duplicate arrays', async () => {
 	let duplicateRecords = 0;
 	let morphologyChanged = 0;
 	const fusedLeft: string[] = [];
-	for await (const source of readSourceEntries()) {
+	for (const source of await sourceEntries()) {
 		const out = applyTransforms(source, 'text-repairs', [
 			abbrevFusedHeadword,
 			genderPairAltDuplicate,
@@ -508,7 +508,7 @@ it('leaves exactly 8 stale prev_hw/next_hw pointers', async () => {
 	type Chained = { next_hw?: string; prev_hw?: string };
 	const rewritten = new Map<string, string>();
 	const pointers: string[] = [];
-	for await (const source of readSourceEntries()) {
+	for (const source of await sourceEntries()) {
 		const after = applyTransforms(source, 'text-repairs', [abbrevFusedHeadword])
 			.entry.headword;
 		if (after !== source.headword) {
@@ -539,7 +539,7 @@ it('leaves exactly 8 stale prev_hw/next_hw pointers', async () => {
 it('the linked-headword allowlist is exactly what the corpus targets', async () => {
 	const targeted = new Set<string>();
 	const fusedShape: string[] = [];
-	for await (const source of readSourceEntries()) {
+	for (const source of await sourceEntries()) {
 		const headword = source.headword.trim();
 		if (headword.includes(GERESH) && WHITESPACE_SPLIT.test(headword)) {
 			fusedShape.push(headword);

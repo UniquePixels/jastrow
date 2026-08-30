@@ -39,7 +39,7 @@ not describe.
 So an unnumbered bracketed lead is not a stray sense that escaped
 numbering. It is the entry's lead, and it renders as one:
 
-```
+```text
 B01152  בַּר I
   senses[0].definition   " [<i>empty, open</i>] "
   morphology             "m."

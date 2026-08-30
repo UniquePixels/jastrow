@@ -49,7 +49,7 @@ Measured by building the body both ways for all 73:
 
 `A00644`, in full:
 
-```
+```text
 BEFORE  senses[0].gloss = " ch. "                    labels [—, 1, 2, 3]   4 senses
 AFTER   senses[0].gloss = " ch.  <a …>same</a>. "    labels [1, 2, 3]      3 senses
 ```

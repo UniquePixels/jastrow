@@ -16,7 +16,6 @@
  * hold would throw here rather than pass quietly.
  */
 import { expect, it } from 'bun:test';
-import { readSourceEntries } from '../../body/source.ts';
 import type { SourceEntry, SourceSense } from '../../body/types.ts';
 import { type Token, tokenize } from '../html.ts';
 import { type Anchor, anchors } from '../links.ts';
@@ -45,6 +44,7 @@ import {
 	textBetween,
 	usable,
 } from './anaphora.ts';
+import { sourceEntries } from './corpus-fixture.ts';
 
 const SINK = 'Yoma 2a';
 const LEXICAL = 'Jastrow, ';
@@ -263,7 +263,7 @@ function definitionsOf(
  * predicate, and duplicating them is how two readings of "the same"
  * population drift apart. */
 async function* sightings(): AsyncGenerator<Sighting> {
-	for await (const e of readSourceEntries()) {
+	for (const e of await sourceEntries()) {
 		for (const definition of definitionsOf(e.content.senses, [])) {
 			if (!definition.includes('<a')) {
 				continue;
@@ -387,7 +387,7 @@ it('the rule moves exactly those 209 anchors, and adds or removes none, over the
 	let moved = 0;
 	let unchangedCounts = 0;
 	const rids = new Set<string>();
-	for await (const e of readSourceEntries()) {
+	for (const e of await sourceEntries()) {
 		const result = ibAnaphora.apply(e);
 		if (result.records.length === 0) {
 			continue;
@@ -713,7 +713,7 @@ interface SifreCensus {
  * walk, so two readings of "the same" population cannot drift.
  */
 async function* sifreSightings(): AsyncGenerator<Sighting> {
-	for await (const e of readSourceEntries()) {
+	for (const e of await sourceEntries()) {
 		for (const definition of definitionsOf(e.content.senses, [])) {
 			if (!definition.includes('<a')) {
 				continue;
@@ -787,7 +787,7 @@ it('the Sifré decline census accounts for all 6: 1 fires, 5 hold no Sifré anch
 it('the rule itself moves exactly that 1 anchor over the whole corpus, adding and removing none', async () => {
 	const rids = new Set<string>();
 	let moved = 0;
-	for await (const e of readSourceEntries()) {
+	for (const e of await sourceEntries()) {
 		const result = sifreAnaphora.apply(e);
 		if (result.records.length === 0) {
 			continue;
@@ -807,7 +807,7 @@ it('the rule itself moves exactly that 1 anchor over the whole corpus, adding an
  * one in, this fails here instead of the arm quietly under-firing. */
 it('every Sifr… target in the corpus starts with SIFRE_WORK', async () => {
 	const works = new Map<string, number>();
-	for await (const e of readSourceEntries()) {
+	for (const e of await sourceEntries()) {
 		for (const definition of definitionsOf(e.content.senses, [])) {
 			for (const anchor of anchors(tokenize(definition))) {
 				if (!anchor.dataRef.startsWith('Sifr')) {
@@ -870,7 +870,7 @@ it('REF_LOCUS and HREF_LOCUS strip both the plain and the range locus', () => {
  * compose is licensable and the Targum arm's is not. */
 it('every Sifré compose the corpus produces passes checkLinkTargets', async () => {
 	let fired = 0;
-	for await (const e of readSourceEntries()) {
+	for (const e of await sourceEntries()) {
 		const out = applyTransforms(e, 'text-repairs', [sifreAnaphora]);
 		fired += out.records.length;
 	}
@@ -1105,7 +1105,7 @@ interface TargumCensus {
 }
 
 async function* targumSightings(): AsyncGenerator<Sighting> {
-	for await (const e of readSourceEntries()) {
+	for (const e of await sourceEntries()) {
 		for (const definition of definitionsOf(e.content.senses, [])) {
 			if (!definition.includes('<a')) {
 				continue;
@@ -1192,7 +1192,7 @@ it('8 of the 9 name a different book from their antecedent — the row’s null 
 it('the rule moves exactly those 9 anchors corpus-wide, adding and removing none', async () => {
 	const rids = new Set<string>();
 	let moved = 0;
-	for await (const e of readSourceEntries()) {
+	for (const e of await sourceEntries()) {
 		const result = targumAnaphora.apply(e);
 		if (result.records.length === 0) {
 			continue;
@@ -1207,7 +1207,7 @@ it('the rule moves exactly those 9 anchors corpus-wide, adding and removing none
 
 it('every Targum recombination the corpus produces passes checkLinkTargets', async () => {
 	let fired = 0;
-	for await (const e of readSourceEntries()) {
+	for (const e of await sourceEntries()) {
 		fired += applyTransforms(e, 'text-repairs', [targumAnaphora]).records
 			.length;
 	}
@@ -1220,7 +1220,7 @@ it('every Targum recombination the corpus produces passes checkLinkTargets', asy
 it('every Targum target in the corpus starts with one of TARGUM_WORKS', async () => {
 	const unmatched = new Set<string>();
 	const works = new Set<string>();
-	for await (const e of readSourceEntries()) {
+	for (const e of await sourceEntries()) {
 		for (const definition of definitionsOf(e.content.senses, [])) {
 			for (const anchor of anchors(tokenize(definition))) {
 				if (!/Targum|Onkelos/u.test(anchor.dataRef)) {
@@ -1350,7 +1350,7 @@ it('the Targum population’s 0 declines is partly definitional — 77 of 86 fal
 	// by construction. Pinned so the framing cannot drift from it.
 	let members = 0;
 	let withTargum = 0;
-	for await (const e of readSourceEntries()) {
+	for (const e of await sourceEntries()) {
 		for (const definition of definitionsOf(e.content.senses, [])) {
 			if (!definition.includes('<a')) {
 				continue;

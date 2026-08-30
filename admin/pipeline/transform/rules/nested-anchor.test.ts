@@ -15,12 +15,12 @@
  * wrong text still fails.
  */
 import { describe, expect, it } from 'bun:test';
-import { readSourceEntries } from '../../body/source.ts';
 import type { SourceEntry } from '../../body/types.ts';
 import { tokenize } from '../html.ts';
 import { anchors } from '../links.ts';
 import { fieldsOf, textOf } from '../no-new-text.ts';
 import { applyTransforms } from '../run.ts';
+import { sourceEntries } from './corpus-fixture.ts';
 import {
 	dupAnchorLanguageRef,
 	nestedAnchorDuplicate,
@@ -183,7 +183,7 @@ describe('corpus tier', () => {
 		// then every trapped mark counted on the way in is still there on
 		// the way out, in the same quantity.
 		const lost: string[] = [];
-		for await (const entry of readSourceEntries()) {
+		for (const entry of await sourceEntries()) {
 			const before = anchorCount(entry);
 			const text = textOf(entry);
 			const a = dupAnchorLanguageRef.apply(entry);
@@ -273,7 +273,7 @@ describe('corpus tier', () => {
 	 */
 	it('passes all three gates on every entry either rule touches', async () => {
 		let gated = 0;
-		for await (const entry of readSourceEntries()) {
+		for (const entry of await sourceEntries()) {
 			if (
 				dupAnchorLanguageRef.apply(entry).records.length === 0 &&
 				nestedAnchorDuplicate.apply(entry).records.length === 0

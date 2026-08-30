@@ -33,7 +33,6 @@
  * narrow.
  */
 import { expect, it } from 'bun:test';
-import { readSourceEntries } from '../../body/source.ts';
 import type { SourceEntry } from '../../body/types.ts';
 import { GERSHAYIM } from '../gershayim.ts';
 import { serialize, tokenize } from '../html.ts';
@@ -41,6 +40,7 @@ import { type Anchor, anchors } from '../links.ts';
 import { fieldsOf } from '../no-new-text.ts';
 import { applyTransforms } from '../run.ts';
 import type { Rule } from '../types.ts';
+import { sourceEntries } from './corpus-fixture.ts';
 import { gershayimInBody, gershayimRefAttribute } from './gershayim.ts';
 import {
 	bareRtlHebrew,
@@ -63,7 +63,7 @@ const WANTED = new Set([
 ]);
 
 const FIXTURES = new Map<string, SourceEntry>();
-for await (const source of readSourceEntries()) {
+for (const source of await sourceEntries()) {
 	if (WANTED.has(source.rid)) {
 		FIXTURES.set(source.rid, source);
 	}
@@ -313,7 +313,7 @@ it('every fixture clears all three gates, in both orders', () => {
 it('the corpus splits exactly as the spec measures it', async () => {
 	const seen = { body: 0, bodyRids: 0, tag: 0, tagRids: 0, tags: 0 };
 	const union = new Set<string>();
-	for await (const source of readSourceEntries()) {
+	for (const source of await sourceEntries()) {
 		const body = gershayimInBody.apply(source);
 		const tag = gershayimRefAttribute.apply(source);
 		const bodyCount = marks(body.entry) - marks(source);
@@ -355,7 +355,7 @@ it('the corpus splits exactly as the spec measures it', async () => {
  * (`rules/gershayim.ts` docstring). */
 it('the input corpus holds no gershayim of its own', async () => {
 	let found = 0;
-	for await (const source of readSourceEntries()) {
+	for (const source of await sourceEntries()) {
 		found += marks(source);
 	}
 	expect(found).toBe(0);
@@ -442,7 +442,7 @@ it('exactly 90 link targets start resolving, and none stop', async () => {
 	};
 	const headwords = new Set<string>();
 	const healedHeadwords = new Set<string>();
-	for await (const source of readSourceEntries()) {
+	for (const source of await sourceEntries()) {
 		headwords.add(source.headword);
 		healedHeadwords.add(healed(source).headword);
 	}
@@ -455,7 +455,7 @@ it('exactly 90 link targets start resolving, and none stop', async () => {
 		gershayimAfter: 0,
 		gershayimBefore: 0,
 	};
-	for await (const source of readSourceEntries()) {
+	for (const source of await sourceEntries()) {
 		const fixed = healed(source);
 		seen.gershayimBefore += marks(source);
 		seen.gershayimAfter += marks(fixed);
@@ -522,7 +522,7 @@ it('exactly 90 link targets start resolving, and none stop', async () => {
 it('the pair is order-free against itself, over the whole corpus', async () => {
 	let differing = 0;
 	let seen = 0;
-	for await (const source of readSourceEntries()) {
+	for (const source of await sourceEntries()) {
 		seen += 1;
 		const ab = gershayimRefAttribute.apply(
 			gershayimInBody.apply(source).entry,
@@ -570,7 +570,7 @@ it('the pair is order-free against the rtl trio', async () => {
 	]);
 	let differing = 0;
 	let seen = 0;
-	for await (const source of readSourceEntries()) {
+	for (const source of await sourceEntries()) {
 		seen += 1;
 		const rtlFirst = both(applyRtl(source));
 		const gershayimFirst = applyRtl(both(source));
