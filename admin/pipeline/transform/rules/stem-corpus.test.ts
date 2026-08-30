@@ -2,6 +2,7 @@ import { expect, it } from 'bun:test';
 import { applyRepairs } from '../../body/repairs.ts';
 import { readSourceEntries } from '../../body/source.ts';
 import type { SourceEntry, SourceSense } from '../../body/types.ts';
+import { RULES } from '../registry.ts';
 import { applyTransforms } from '../run.ts';
 
 /**
@@ -196,7 +197,16 @@ async function build(): Promise<Census> {
 		const post = chopCounts(run.entry);
 		c.choppedEmptyAfter += post.empty;
 		c.choppedResidueAfter += post.residue;
-		walk(run.entry.content.senses, (sense) => {
+		// MARKERS ARE COUNTED ON THIS RULE ALONE, not on the phase.
+		// The comment on the assertion below predicted the day "an
+		// unrelated rule touched a sense number", and batch 7 was it:
+		// `continuationMarkerDash` restores the dash on five bare `2)`
+		// markers, so the phase delta reads 23 where this rule wrote 18.
+		// A delta over a growing phase is the same implicit-subject
+		// defect 6c fixed for `records.length` two paragraphs up — fixed
+		// here the same way, by naming the subject.
+		const alone = applyTransforms(texted, 'structural-repairs', ONLY_CHOP);
+		walk(alone.entry.content.senses, (sense) => {
 			if (sense.number === '—2)') {
 				c.markersAfter++;
 			}
@@ -204,6 +214,9 @@ async function build(): Promise<Census> {
 	}
 	return c;
 }
+
+/** This rule by itself, for the marker count. */
+const ONLY_CHOP = RULES.filter((rule) => rule.id === 'stem-head-marker-chop');
 
 let pending: Promise<Census> | undefined;
 /** Memoised so the composed corpus pass runs once per process. */
@@ -243,6 +256,8 @@ it('leaves every residue-bearing member exactly as it found it', async () => {
 // day an unrelated rule touched a sense number.
 it('adds exactly 18 sense markers, and writes them nowhere else', async () => {
 	const c = await census();
+	// Measured on this rule ALONE — see the census. Over the whole phase
+	// the delta is 23, five of them `continuationMarkerDash`'s.
 	expect(c.markersAfter - c.markersBefore).toBe(18);
 	expect(c.markersBefore).toBeGreaterThan(3000);
 });

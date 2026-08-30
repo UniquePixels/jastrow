@@ -287,13 +287,19 @@ it('records the deleted entanglement edge as deleted', async () => {
 	const rows = parsePatterns(
 		await Bun.file('data/patches/patterns.jsonl').text(),
 	);
-	for (const id of [
-		'trailing-em-dash-tail',
+	const edges = (id: string): readonly string[] =>
+		rows.find((row) => row.id === id)?.entangledWith ?? [];
+	// THE ASSERTION IS THE ABSENCE OF THIS EDGE, not the absence of all
+	// edges. A first version pinned `entangledWith` as `undefined` on
+	// both rows, which was stronger than the fact it protects — and the
+	// same batch falsified it, when the commutation gate found
+	// `trailing-em-dash-tail × continuation-marker-em-dash-loss` and that
+	// row correctly gained an edge. Pinning more than the claim needs is
+	// how a gate starts failing for reasons it was never about.
+	expect(edges('trailing-em-dash-tail')).not.toContain(
 		'sense-number-outside-closed-grammar',
-	]) {
-		const row = rows.find((r) => r.id === id);
-		expect(row?.entangledWith).toBeUndefined();
-	}
+	);
+	expect(edges('sense-number-outside-closed-grammar')).toEqual([]);
 }, 30_000);
 
 it('leaves the two rows’ remainders disjoint, at 0 shared entries', () => {

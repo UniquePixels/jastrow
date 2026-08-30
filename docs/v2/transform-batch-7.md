@@ -1,9 +1,10 @@
 # Phase 2 batch 7 — the sense and definition structure family
 
-**Status: in progress 2026-08-29.** **Three rules shipped**, one row
-re-scoped and two withdrawn on Brian's rulings, one entanglement edge
-deleted and **one added**, two gates made phase-aware, two catalogued
-counts corrected. Two of the eight rows are still open. Scope
+**Status: complete 2026-08-29, pending review.** **Five rules
+shipped**, **two rows re-scoped** and two withdrawn on Brian's rulings,
+one entanglement edge deleted and **one added**, two gates made
+phase-aware, four catalogued counts corrected. **All eight rows are
+disposed.** Scope
 ruled by Brian on the batch-7 opening question: the eight blocking rows
 that describe sense and definition structure, 599 catalogued instances.
 It is the second batch to run against the `structural-repairs` phase
@@ -27,10 +28,10 @@ time in three batches it changed an answer.
 | `sense-number-outside-closed-grammar` | 111 ent / 113 tokens | **0** | **re-scoped to 6** — §2 |
 | `duplicated-definition-opening-run` | 85 | **85 @ k=4** | **89 shipped** — §3, §14 |
 | `empty-lead-sense` | 84 | **73 `{}` + 11 ws = 84** | exact — **withdrawn**, §9 |
-| `continuation-marker-em-dash-loss` | 71 | 38 | unsettled — §4 |
+| `continuation-marker-em-dash-loss` | 71 | **36** | **14 shipped**, re-scoped to 22 — §4, §17 |
 | `adjacent-verbatim-repetition` | 59 | **65** | **65 shipped** — §5, §10 |
 | `bracketed-gloss-lead-sense` | 49 | **49** | exact — **withdrawn**, §13 |
-| `section-break-terminator-loss` | 10 | 11 | §6 |
+| `section-break-terminator-loss` | 10 | **11** | **11 shipped** — §6, §16 |
 
 **Four of eight reproduce their catalogued count.** One of those four
 (`bracketed-gloss-lead-sense`) reproduced only once a boundary condition
@@ -136,13 +137,30 @@ total 5,728 · with em-dash 5,445 · without 283
    └─ CLEAN, no residue at all                 38   ← the row
 ```
 
+Those figures are measured BEFORE the structural phase. Measured after
+it — where a rule for this row actually stands — the first arm has
+mostly gone:
+
+```
+   ├─ em-dash stranded on previous sibling     8   (was 109)
+   ├─ "[" stranded on previous sibling        79
+   ├─ previous ends ";" or "," — print run    56   (convention)
+   └─ CLEAN, no residue at all                36   ← the row
+```
+
+**The row's largest belongs-to-another-row arm was repaired by this
+batch's own rules.** `strandedDashStarMarker` and `stemHeadMarkerChop`
+rejoined 101 of the 109, which is why 109 becomes 8. Asserting the
+pre-phase figure would pin a number nothing in the pipeline ever sees,
+and §17 pins the post-phase one instead.
+
 The row is catalogued at 71. Its own audit flag already records the
 figure as **unsettled between 19 and 44**, from two reconstructions that
-disagreed (round 2: 45/26/19; the `stranded-open-bracket` audit: 73/29/44).
-**38 lands inside that band**, which neither settles the row nor
-contradicts it. The 56-member `;`/`,` arm is the catalogue's own
-"real finding that kills the naive version of this candidate", and it
-reproduces.
+disagreed (round 2: 45/26/19; the `stranded-open-bracket` audit:
+73/29/44). **36 is a fourth reconstruction agreeing with none of them**,
+which is why only the witnessed core ships — §17. The 56-member `;`/`,`
+arm is the catalogue's own "real finding that kills the naive version of
+this candidate", and it reproduces exactly.
 
 ## 5. Two rows needed a prose boundary made executable — one of them twice
 
@@ -463,13 +481,130 @@ over all 32,512 entries, every anchor they remove leaves a surviving
 copy of its `data-ref` — 30 of 30 and 11 of 11, **0 orphaned** — and
 that is asserted in the corpus pass rather than argued in a comment.
 
+## 16. The only rule in the registry that mints a byte
+
+`sectionBreakTerminator` ships all **11** on Brian's ruling
+2026-08-29, declaring `allows: ['.']` — one period per member,
+inserted immediately before the em dash.
+
+**The null model is the whole argument**, which is why it is asserted in
+`rules/section-break-corpus.test.ts` rather than quoted in a docstring:
+the `—<label>` boundary occurs **7,532** times corpus-wide and **7,250**
+already carry their period. The four legitimate non-period enders are
+refused by the predecessor class, not by an exception list — and so are
+the row's own two false-positive families, which are visible in the same
+census as the 3 closing quotes and 2 ellipses that cut its first pass
+from 15 candidates to 10.
+
+It is a CORRECTION rather than composition: the period is print's,
+dropped in transcription, under the standing OCR ruling.
+
+**A unit test caught the one thing that would have made it harmful.** A
+first draft inserted the period straight after the letter, which for
+`height, <i>hill</i>—<i>Pl.</i>` writes `<i>hill.</i>` — a fresh member
+of `italic-swallowed-terminal-period` (1,331, registered). A rule
+MANUFACTURING population for a sibling row is the failure batch 3b found
+by hand and `stem-head.ts` names in its own deletion note. The period
+now goes outside the closing tags, and the corpus test asserts over the
+real members that no repaired definition ever gains a period immediately
+before a closing tag.
+
+## 17. The last row ships only what its own entries witness
+
+Brian ruled the **high-confidence core** and nothing else. Of the 36
+clean markers, **14 sit in a MIXED sibling list** — one whose other
+members carry `—N)` — and those ship as `continuationMarkerDash`. The
+other **22** are unmixed and the row is re-scoped 71 → **22**.
+
+**The declaration is `copied`, not `allows`, and that is the whole
+safety argument.** An `allows: ['—']` would license an em dash anywhere
+in the rule's diff, corpus-wide, on a maintainer's word. `copied: ['—']`
+is verified by the gate against THIS ENTRY'S input before it is
+credited — and the mixed-list predicate is precisely what guarantees the
+witness exists. Drop the requirement and the declaration stops being
+checkable, so the predicate is load-bearing rather than decorative.
+
+**Why 14 and not the catalogued 16.** The row names six example rids for
+its core; two of them, `B00411` and `C01321`, have their bare marker
+preceded by a definition ending in `[`, so they belong to
+`stranded-open-bracket` under that row's own later audit ("29 explained
+by a preceding definition ending in `[`"). The catalogue's 16 predates
+that split, and the two rows are — in its own words — complements. The
+other four reproduce, and the corpus test asserts all six by name in
+both directions.
+
+**The corpus test was self-erasing on its first run.** Measuring after
+the whole structural phase meant the 14 already carried their dash by
+census time, landing in `withDash`, so every assertion read 0 and passed
+for the wrong reason. It now runs the phase with this rule HELD OUT.
+That is 6c's `stem-corpus.test.ts` defect — a test whose subject became
+implicit once the world grew — recurring within one batch of being
+named.
+
+## 18. The gate found a SECOND edge the catalogue never held
+
+Registering the last rule produced one more undeclared non-commuting
+pair: **`trailing-em-dash-tail` × `continuation-marker-em-dash-loss` @
+`A00337`.**
+
+The mechanism is the batch's own two rules meeting.
+`strandedDashStarMarker` rejoins a stranded dash onto a `*N)` marker,
+writing `—*3)` into a sibling list — and that **CREATES the
+dashed-sibling witness** `continuationMarkerDash` requires before it
+will restore a dash of its own. Reversed, `A00337`'s bare `2)` has no
+witness and is never repaired, while every per-rule count still reads
+normal.
+
+So batch 7 deleted one entanglement edge and added **two**, and neither
+addition was in the catalogue to be read. Both were reported by the
+commutation gate before the rules shipped. The registry was reordered so
+both new pairs occupy gap-free spans — `strandedStemHead` →
+`duplicatedOpeningRun`, and `strandedDashStarMarker` →
+`continuationMarkerDash` — with each direction pinned separately,
+because `checkAdjacency` is direction-blind. The cluster set goes 5 → 6
+→ **7**.
+
+## 19. A test predicted its own failure, and the prediction came true
+
+`stem-corpus.test.ts` asserts that `stemHeadMarkerChop` adds 18 `—2)`
+markers, and its comment reads:
+
+> The assertion is the DELTA, not the total: the total is not this
+> batch's to own, and pinning it would fail here the day an unrelated
+> rule touched a sense number.
+
+Batch 7 was that day. `continuationMarkerDash` restores the dash on
+five bare `2)` markers, so the phase delta reads **23** where the rule
+wrote 18 — and a delta over a growing phase turns out to be no more
+robust than a total. It is the same implicit-subject defect 6c fixed in
+that very file for `records.length`, two paragraphs above the assertion
+that failed. Fixed the same way: the marker count now runs the phase
+with `stemHeadMarkerChop` ALONE.
+
+## 20. A pin of mine failed for a reason it was never about
+
+§8's deletion pin asserted that both rows carry no `entangledWith` at
+all. That is **stronger than the claim it protects**, which is only that
+those two rows are not entangled *with each other* — and the same batch
+falsified it, when the commutation gate found
+`trailing-em-dash-tail × continuation-marker-em-dash-loss` and that row
+correctly gained an edge.
+
+Narrowed to the actual claim. Worth recording next to §19: within one
+batch, two assertions failed for reasons they were not about — one
+because its subject was implicit over a growing phase, one because it
+pinned more than it meant. Neither was a defect in a rule.
+
 ## 12. What this batch has not done yet
 
-- **Two rows remain open**: `continuation-marker-em-dash-loss` (38
-  measured against a catalogued 71, and its own audit already records
-  the figure as unsettled between 19 and 44) and
-  `section-break-terminator-loss` (11 candidates, needing eyes-on before
-  a rule inserts a byte).
+- **No row is left undisposed.** What stays on the queue is the
+  measured remainder of three of them: 31 tails on
+  `trailing-em-dash-tail`, 6 markers on
+  `sense-number-outside-closed-grammar`, 22 on
+  `continuation-marker-em-dash-loss`.
+- Nothing here reads the 22 unwitnessed markers, or the 31 tails, or the
+  9 stem heads 6c left. They are populations with no rule owed *yet*,
+  not populations shown to need none.
 - The 6 residual `*N)` markers of §2 and the 31 residual tails of §7
   stay on their rows with no rule owed yet.
 - *k* for §3 is not ruled.

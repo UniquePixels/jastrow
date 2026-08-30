@@ -7,6 +7,7 @@
  */
 import type { Pattern } from '../research/patterns.ts';
 import { ibAnaphora, sifreAnaphora, targumAnaphora } from './rules/anaphora.ts';
+import { continuationMarkerDash } from './rules/continuation-marker.ts';
 import {
 	adjacentVerbatimRepeat,
 	duplicatedOpeningRun,
@@ -58,6 +59,7 @@ import {
 	parenTagSpace,
 	translitItalicSpace,
 } from './rules/seam-space.ts';
+import { sectionBreakTerminator } from './rules/section-break.ts';
 import { strandedDashStarMarker } from './rules/sense-marker.ts';
 import { stemHeadMarkerChop } from './rules/stem-head.ts';
 import { asteriskStemStrayPeriod } from './rules/stem-label.ts';
@@ -957,31 +959,6 @@ const RULES: readonly Rule[] = [
 	// `body/deletion-baseline.corpus.test.ts` instead. Batch-6b spec
 	// §2.3 carries that argument.
 	stemHeadMarkerChop,
-	// The second `structural-repairs` rule to be registered, and the
-	// one that closes the only entanglement edge left in `PENDING`:
-	// `trailing-em-dash-tail` and `sense-number-outside-closed-grammar`
-	// are one upstream event counted twice, and the catalogue on both
-	// rows says they must be transformed in ONE step.
-	//
-	// IT SITS HERE, ABOVE `strandedStemHead`, BECAUSE THE PAIR BELOW
-	// MUST BE ADJACENT. `stranded-stem-head` and
-	// `duplicated-definition-opening-run` are entangled by
-	// measurement (see their block), and `checkAdjacency` requires an
-	// entangled component to occupy a gap-free span — which this rule
-	// would break if it stayed between them. It commutes with both,
-	// so moving it costs nothing.
-	// transformed in ONE step.
-	//
-	// IT MEETS NEITHER RULE ABOVE IT, AND BOTH EXCLUSIONS ARE MEASURED
-	// RATHER THAN ARGUED. `stemHeadMarkerChop` needs a definition
-	// ending in `—N) ` — a dash, digits, paren and space — where this
-	// one needs a definition ending in the dash itself, so no string
-	// satisfies both. `strandedStemHead` needs `content.senses[0]` with
-	// no `grammar` and an opening italic label run; this rule never
-	// touches `senses[0]`'s own text except to trim a trailing dash,
-	// and never writes an italic run. Same phase, so the commutation
-	// gate composes both pairs rather than skipping them.
-	strandedDashStarMarker,
 	// The second `structural-repairs` rule, and the first to CREATE a
 	// grammar block. It runs after `stemHeadMarkerChop` only because
 	// that one shipped first.
@@ -1025,6 +1002,70 @@ const RULES: readonly Rule[] = [
 	// the same entry in either order.
 	duplicatedOpeningRun,
 	adjacentVerbatimRepeat,
+	// Batch 7's last rule, and THE ONLY RULE IN THIS REGISTRY THAT MINTS
+	// A BYTE INTO THE TEXT — one period per member, declared through
+	// `allows: ['.']` on Brian's ruling 2026-08-29.
+	//
+	// It runs LAST in the phase because it is the only member that adds,
+	// and reading the list in execution order then puts every deletion
+	// and every move ahead of the one insertion. Nothing depends on that
+	// position: its predicate is a `—<label>` boundary, which no rule
+	// above writes or removes, and the commutation gate composes it
+	// against all four phase-mates.
+	//
+	// What licenses the `allows` is the null model, not the size: the
+	// boundary occurs 7,532 times corpus-wide with 7,250 already carrying
+	// their period, and the four legitimate non-period enders (`]` 241,
+	// `?` 54, `)` 17, `!` 4) are refused by the predecessor class rather
+	// than by an exception list — as are the row's two false-positive
+	// families, the 3 closing quotes and 2 ellipses that cut its first
+	// pass from 15 candidates to 10.
+	sectionBreakTerminator,
+	// `trailing-em-dash-tail`, which closes the only entanglement edge
+	// batch 7 found already recorded in `PENDING`:
+	// `sense-number-outside-closed-grammar` and this row are one
+	// upstream event counted twice, and the catalogue on both says
+	// they must be transformed in ONE step.
+	//
+	// IT SITS HERE, DIRECTLY ABOVE `continuationMarkerDash`, BECAUSE
+	// THE TWO ARE ENTANGLED AND THE EDGE WAS FOUND BY THE COMMUTATION
+	// GATE, not by reading — `trailing-em-dash-tail ×
+	// continuation-marker-em-dash-loss @ A00337`. Writing `—*3)` onto
+	// a sibling CREATES the witness `continuationMarkerDash` requires,
+	// so this rule must run FIRST or that repair never happens. The
+	// direction is pinned in `registry.order.test.ts`.
+	// transformed in ONE step.
+	//
+	// IT MEETS NEITHER RULE ABOVE IT, AND BOTH EXCLUSIONS ARE MEASURED
+	// RATHER THAN ARGUED. `stemHeadMarkerChop` needs a definition
+	// ending in `—N) ` — a dash, digits, paren and space — where this
+	// one needs a definition ending in the dash itself, so no string
+	// satisfies both. `strandedStemHead` needs `content.senses[0]` with
+	// no `grammar` and an opening italic label run; this rule never
+	// touches `senses[0]`'s own text except to trim a trailing dash,
+	// and never writes an italic run. Same phase, so the commutation
+	// gate composes both pairs rather than skipping them.
+	strandedDashStarMarker,
+	// Batch 7's last rule, shipped for its HIGH-CONFIDENCE CORE only
+	// (Brian's ruling 2026-08-29): the 14 dashless continuation markers
+	// that sit in a MIXED sibling list, one whose other members carry
+	// `—N)`.
+	//
+	// IT DECLARES `copied`, NOT `allows`, AND THAT IS THE SAFETY
+	// ARGUMENT. An `allows: ['—']` would license an em dash anywhere in
+	// the rule's diff, corpus-wide, on a maintainer's word; `copied` is
+	// verified by the gate against THIS ENTRY'S input before it is
+	// credited, and the mixed-list predicate is exactly what guarantees
+	// the witness is there. Drop that requirement and the declaration
+	// stops being checkable — the predicate is load-bearing, not
+	// decorative.
+	//
+	// It runs after `sectionBreakTerminator` and touches a different
+	// field: that one writes into a `definition`, this one into a
+	// `number`. Nothing above it writes a `number` except
+	// `stemHeadMarkerChop` and `strandedDashStarMarker`, and both leave
+	// a DASHED marker, which this rule's predicate refuses.
+	continuationMarkerDash,
 ];
 
 /** Catalogued transform rows with no rule yet. Shrinks batch by batch;
@@ -1245,7 +1286,23 @@ const PENDING: readonly string[] = [
 	// `body/binyan-cleanup.corpus.test.ts`; the audit is
 	// `data/patches/catalogue-audit/binyan-form-cleanup.md`.
 	'plural-label-rendering-defeats-capture',
-	'continuation-marker-em-dash-loss',
+	// `continuation-marker-em-dash-loss` left this list in batch 7: it is
+	// registered above for its WITNESSED CORE of 14, and the row is
+	// re-scoped 71 -> **22** in `patterns.jsonl`. The 22 are the dashless
+	// markers whose sibling list holds no dashed member, so nothing in
+	// the entry witnesses the convention and no declaration this gate
+	// can check is available.
+	//
+	// The remainder is recorded on the row rather than by a second entry
+	// here, for the reason `trailing-em-dash-tail`'s block gives: a row
+	// named in `RULES` AND in this list is `duplicated`, which
+	// `registry.test.ts` forbids.
+	//
+	// The row's count has now been reconstructed four times and never
+	// twice the same (round 2: 19; the stranded-open-bracket audit: 44;
+	// the catalogue: 71; this batch: 36 clean of 283 dashless markers).
+	// Splitting it rather than emptying it keeps the 22 on the queue and
+	// keeps the row's unsettled status honest.
 	'tanhuma-never-linked',
 	'pesikta-drk-never-linked',
 	// `duplicated-definition-opening-run` left this list in batch 7: it
@@ -1287,7 +1344,10 @@ const PENDING: readonly string[] = [
 	// `superscript-subsection-stranded-outside-anchor` — but it is
 	// `judgment` from birth, so it enters neither this list nor
 	// `coverage`'s total, and does not offset the withdrawal: 73 -> 72.
-	'section-break-terminator-loss',
+	// `section-break-terminator-loss` left this list in batch 7: it is
+	// registered above at its CORRECTED size, 11 rather than the
+	// catalogued 10, under a stated predicate — a letter or digit,
+	// optional tags, an em dash, optional tags, a section label.
 	'see-particle-lost',
 	// FOUR MORE left this list in batch 3b Task 6, each audited to
 	// `judgment` in `patterns.jsonl` for its own reason — the working is

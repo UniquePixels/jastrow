@@ -239,6 +239,18 @@ const NEITHER = new Set([
 	// corpus pass below earns. `FIELD` is not open to it for the same
 	// reason as both phase-mates: the field it trims is full of tags.
 	'trailing-em-dash-tail',
+	// Batch 7's minting rule, and the fourth member from the structural
+	// phase. It writes ONE period before a section head and touches
+	// nothing else — no anchor removed, no `href` or `data-ref` written,
+	// which is what this set asserts and the corpus pass below earns.
+	// `FIELD` is not open to it for the same reason as its phase-mates:
+	// the field it edits is full of tags.
+	'section-break-terminator-loss',
+	// Batch 7's last rule, and the fifth from the structural phase. It
+	// writes an em dash into a sense `number` — a field holding no
+	// markup at all — so no anchor is touched, none removed and no
+	// target written, which the corpus pass below earns.
+	'continuation-marker-em-dash-loss',
 	// BATCH 4 ADDS FOUR, and they are the set's second real test after
 	// batch 3b's twelve. These four move one of the anchor's own tags
 	// across the text beside it — `</a>` across a `)`, a `<sup>` run or
@@ -586,6 +598,22 @@ describe('registry order', () => {
 		);
 	});
 
+	// THE THIRD DIRECTION PIN, and the second the commutation gate found
+	// before anything shipped. `strandedDashStarMarker` writes `—*3)`
+	// onto a sibling, which CREATES the dashed-sibling witness
+	// `continuationMarkerDash` requires — so reversed, `A00337`'s bare
+	// `2)` has no witness and is never repaired, while every per-rule
+	// count still reads normal.
+	//
+	// The pair is declared `entangledWith`, so rule 2 requires them
+	// adjacent, and adjacency is direction-blind. This is what holds the
+	// direction.
+	it('strandedDashStarMarker runs STRICTLY BEFORE continuationMarkerDash', () => {
+		expect(at('trailing-em-dash-tail')).toBeLessThan(
+			at('continuation-marker-em-dash-loss'),
+		);
+	});
+
 	// Rule 4, UNLINK BEFORE WRAP — see the header for why. Asserted
 	// over the whole of BOTH sets, never over the ids that happen to be
 	// in them today: `at()` throws on an unregistered id, `CLASSES`
@@ -660,6 +688,14 @@ describe('registry order', () => {
 				'prefixed-geresh-abbrev-mislink',
 				'redundant-outer-rtl-span',
 			],
+			// SIX became SEVEN, and the second of the two arrived the same
+			// way as the first — reported by the commutation gate as
+			// `trailing-em-dash-tail × continuation-marker-em-dash-loss @
+			// A00337`, never recorded in the catalogue. Writing `—*3)`
+			// onto a sibling CREATES the dashed-sibling witness the
+			// continuation rule requires, so the direction is load-bearing
+			// and is pinned separately above.
+			['continuation-marker-em-dash-loss', 'trailing-em-dash-tail'],
 			// FIVE clusters became SIX at batch 7, and this one arrived by a
 			// route none of the others did: the edge was NEVER IN THE
 			// CATALOGUE. `checkAdjacency`'s limitation note names exactly
@@ -713,7 +749,7 @@ describe('registry order', () => {
 	// there being no clusters at all.
 	it('every derived cluster occupies a gap-free span', () => {
 		const clusters = entangledClusters(catalogue, RULES);
-		expect(clusters).toHaveLength(6);
+		expect(clusters).toHaveLength(7);
 		for (const cluster of clusters) {
 			const span = Math.max(...cluster.at) - Math.min(...cluster.at) + 1;
 			expect(`${cluster.ids.join(', ')} span ${span}`).toBe(
