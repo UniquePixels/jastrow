@@ -55,8 +55,8 @@ someone pins the predicate.
 
 | Route | Rows | Instances | What it needs |
 |---|---:|---:|---|
-| **transform** | **66** | **20,144** | deterministic code + tests |
-| judgment | 62 | 16,570 | per-entry reading (Opus pass or maintainer) |
+| **transform** | **61** | **19,726** | deterministic code + tests |
+| judgment | 65 | 16,626 | per-entry reading (Opus pass or maintainer) |
 | blocked | 5 | 4,947 | pin the predicate first |
 
 Phase 1 closed this table at 81 / 46 / 5. Every move since has been a
@@ -206,9 +206,21 @@ is working:
   label out of `senses[0]`, so the opening rule repairs 88 alone and 89
   composed. See [transform-batch-7.md](transform-batch-7.md).
 
-**48.4% of the backlog is deterministic code** (20,144 of 41,661
-instances), 49.6% of it by row. That is the most useful number here —
+**47.8% of the backlog is deterministic code** (19,726 of 41,299
+instances), 46.6% of it by row. That is the most useful number here —
 about half the catalogue does not need judgment at all.
+
+**Batch 8 moved five rows at once, the largest single drop, and it
+also cleared the last BLOCKING row from the transform queue.** Every
+row still marked `blocking` on that route now has a rule; the 12 that
+remain pending are all non-blocking. Two of the five were discarded
+because something upstream already owns them — `plural_form` is not a
+v2 field and `rejoinGlossHead` heals the `b. h.` straddle by
+construction — and three were withdrawn to `judgment`, one for having
+no defect left to name, one for a falsified mechanism, and one because
+its repair would dangle 37 live anchors that the counterpart row, on
+the `judgment` route, will never retarget. See
+[transform-batch-8.md](transform-batch-8.md).
 
 The instance total is now FALLING, and both directions have the same
 cause: a row's count is a claim nobody has checked until someone works

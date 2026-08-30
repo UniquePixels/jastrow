@@ -157,8 +157,39 @@ describe('registry coverage', () => {
 	//   wrong. Both ruled by Brian 2026-08-29. See
 	//   data/patches/catalogue-audit/empty-lead-sense.md and
 	//   bracketed-gloss-lead-sense.md.
-	it('the catalogue still holds 66 transform rows', () => {
-		expect(coverage(catalogue).total).toBe(66);
+	// - FIVE AT ONCE IN BATCH 8 — 66 to 61, the largest single drop, and
+	//   the batch that leaves NO BLOCKING ROW on the transform route.
+	//   Two discarded, three withdrawn, each for a reason of its own and
+	//   all ruled by Brian 2026-08-30.
+	//
+	//   `plural-label-rendering-defeats-capture` (358) is the tenth
+	//   `plural_form` row to go and the only one whose disposition
+	//   needed a measurement rather than the shared field argument: it
+	//   was held open because its shape is an ABSENCE and it claimed the
+	//   plurals survive in the definition text v2 keeps. Measured
+	//   through `buildBody`, 523 of 523. `b-h-split-across-field-boundary`
+	//   (4) heals by construction — `rejoinGlossHead` concatenates in
+	//   print order and invents no separator — and 4 of 4 read "b. h."
+	//   in the built body. Both are DISCARDS rather than withdrawals for
+	//   `binyan-form-*`'s reason: something upstream already owns them.
+	//
+	//   The three withdrawals each fail a different test.
+	//   `sense-number-outside-closed-grammar` (6) has no defect left to
+	//   name: three members are first-in-run where no dash is owed, one
+	//   belongs to `stranded-open-bracket`, and of the last two only one
+	//   has a witness. `reversed-hebrew-phrase` (27 -> 18) has its
+	//   MECHANISM falsified — the damage is rotation, not the reversal
+	//   the row is named for — and 17 of its 18 repairs would rest on
+	//   an aggregate convention with no witness of their own.
+	//   `homograph-roman-stranded-in-definition` (23) reproduces exactly
+	//   and still cannot ship: its destination is the `headword`, 17 of
+	//   the 23 rewrites would dangle 37 live anchors, and the anchor-side
+	//   row that would retarget them is itself `judgment`.
+	//   See data/patches/catalogue-audit/plural-label-capture.md,
+	//   b-h-field-split.md, reversed-hebrew-phrase.md,
+	//   homograph-roman-stranded.md and sense-number-closed-grammar.md.
+	it('the catalogue still holds 61 transform rows', () => {
+		expect(coverage(catalogue).total).toBe(61);
 	});
 
 	it('pending ids all exist in the catalogue', () => {
