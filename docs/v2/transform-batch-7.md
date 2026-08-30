@@ -96,9 +96,32 @@ repeated immediately at offset 0":
 | 4 | 84 | 82 | 81 |
 | 8 | 60 | 60 | 58 |
 
-The null model reproduces within 2–7 at every threshold, so the
-detector agrees with the catalogue's; what is missing is a ruling on
-*k*. The batch must state one and correct the count.
+Those three figures carried the same 120-character cap §10 exposes, so
+they are wrong for the same reason. **Uncapped**, over all 32,512
+entries:
+
+| minlen | occurrences | entries | codepoints |
+|---:|---:|---:|---:|
+| 2 | 103 | 98 | 3,393 |
+| 3 | 94 | 90 | 3,375 |
+| **4** | **88** | **85** | **3,357** |
+| 6 | 81 | 79 | 3,327 |
+| 8 | 64 | 64 | 3,224 |
+| 12 | 47 | 47 | 3,051 |
+
+***k* = 4 reproduces the catalogued 85 exactly, on entries.** That is
+the best evidence available for what the round-3 detector actually did,
+since the row records no predicate — and it is worth more than the
+"middle of M 91 / Q 85 / P 79" the row offers, which is an argument
+about three letter filters rather than a threshold.
+
+The population is genuinely a text defect, unlike §9 and §13: measured
+by position, **65 of the 88 sit in NESTED senses** (stem-section first
+senses) and 23 at top-level index 0, with **0 at a later top-level
+sense**. So it is not an index-0 artefact — most of it is nowhere near
+the gloss head.
+
+## 3a. `bracketed-gloss-lead-sense` renders correctly today — see §13
 
 ## 4. `continuation-marker-em-dash-loss` is unsettled, and its own row says so
 
@@ -282,6 +305,41 @@ judgment 61 / 16,521 · blocked 5 / 4,947** — the transform route loses
 189 instances, which is this row's 84 plus the 105 that
 `sense-number-outside-closed-grammar`'s re-scope gave up, and judgment
 gains exactly 84.
+
+## 13. THE INDEX-0 ROWS DESCRIBE A SENSE THAT IS NOT A SENSE
+
+Three of the eight rows are about `content.senses[0]`, and two of them
+dissolve for the same reason. **The body model does not treat index 0 as
+a sense.** `rejoin.ts:44` folds `content.senses[0]?.definition` into the
+gloss head, and `dry-run.ts:257` then SKIPS index 0 in the sense loop,
+because its content was already captured in the intro sense. The rows
+were catalogued against the SOURCE shape, where index 0 looks like a
+stray or malformed sense; in the model it is the entry's lead.
+
+`empty-lead-sense` is §9 — withdrawn, because the repair consumes a
+sense in 72 of 73.
+
+**`bracketed-gloss-lead-sense` (49) renders correctly today.** Its
+bracketed etymological gloss is already folded into the entry's lead,
+exactly where print puts it, ahead of the numbered senses:
+
+```
+B01152  בַּר I
+  senses[0].definition  " [<i>empty, open</i>] "
+  gloss head            "m.(b. h.; ברר) [<i>empty, open</i>] "
+  built sense labels    [—, 1, 2]
+```
+
+Of the 49: **42 carry a `language_code`, 15 a `morphology`**, and only
+**7** have a gloss head that is the bracket alone. In every case the
+bracket lands in the lead and the numbered senses follow, unlabelled
+intro first — which is the printed shape. Nothing here states what a
+repair would even change, and this batch could not find a defect to
+describe.
+
+`duplicated-definition-opening-run` is the one index-0-adjacent row that
+is NOT this: 65 of its 88 members sit in nested senses, nowhere near the
+gloss head. See §3.
 
 ## 10. `adjacent-verbatim-repetition` is 65, and the catalogued 59 is a cap artifact
 
