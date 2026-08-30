@@ -1,7 +1,8 @@
 # Phase 2 worklist — the catalogue, routed
 
 **Status: triaged 2026-08-21; totals recomputed from the catalogue
-2026-08-26 after transform batch 4.** All 132 candidate rows routed.
+2026-08-26 after transform batch 4, and again 2026-08-29 after batch
+7.** All 133 candidate rows routed.
 This is the Phase 2 entry point: start here, not in `patterns.jsonl`.
 
 Every count on this page is derived from `patterns.jsonl`, never typed
@@ -19,7 +20,7 @@ const b=rows.filter(r=>r.blocking===true); console.log("blocking", b.length, sum
 
 | | |
 |---|---|
-| Catalogue | `data/patches/patterns.jsonl` — 150 rows, 132 candidate |
+| Catalogue | `data/patches/patterns.jsonl` — 153 rows, 133 candidate (20 discarded) |
 | Queue helpers | `admin/pipeline/research/patterns.ts` — `transformQueue()`, `blockingWork()`, `checkEntanglement()` |
 | Phase spec | `docs/specs/2026-08-17-sweep-tiering-design.md` §4 |
 | Round 4 reconcile | `docs/v2/discovery-round-4.md` |
@@ -54,8 +55,8 @@ someone pins the predicate.
 
 | Route | Rows | Instances | What it needs |
 |---|---:|---:|---|
-| **transform** | **68** | **20,424** | deterministic code + tests |
-| judgment | 60 | 16,437 | per-entry reading (Opus pass or maintainer) |
+| **transform** | **66** | **20,186** | deterministic code + tests |
+| judgment | 62 | 16,570 | per-entry reading (Opus pass or maintainer) |
 | blocked | 5 | 4,947 | pin the predicate first |
 
 Phase 1 closed this table at 81 / 46 / 5. Every move since has been a
@@ -182,10 +183,23 @@ is working:
   cross-phase pairs have one order, not two, and are now skipped and
   counted rather than read as undeclared entanglements. See
   [transform-batch-6c.md](transform-batch-6c.md).
+- Batch 7 took the table 68 → **66** and is the first batch where the
+  finding was the CATALOGUE rather than the corpus. Three of its eight
+  rows describe `content.senses[0]`, and index 0 is not a sense:
+  `rejoin.ts:44` folds its definition into the gloss head and
+  `dry-run.ts:257` skips it in the sense loop. `empty-lead-sense` (84)
+  and `bracketed-gloss-lead-sense` (49) both moved transform →
+  judgment on that, the first because its presumed repair CONSUMES a
+  sense in 72 of 73 entries. `sense-number-outside-closed-grammar` was
+  re-scoped 111 → **6** — 107 of its tokens were never outside the
+  grammar and 6 are repaired by `applyRepairs` — and
+  `adjacent-verbatim-repetition` corrected 59 → **65**, where the
+  agreement at 59 was two length caps matching rather than two
+  measurements. See [transform-batch-7.md](transform-batch-7.md).
 
-**48.9% of the backlog is deterministic code** (20,424 of 41,808
-instances), 51.1% of it by row. That is the most useful number here —
-most of the catalogue does not need judgment at all.
+**48.4% of the backlog is deterministic code** (20,186 of 41,703
+instances), 49.6% of it by row. That is the most useful number here —
+about half the catalogue does not need judgment at all.
 
 The instance total is now FALLING, and both directions have the same
 cause: a row's count is a claim nobody has checked until someone works

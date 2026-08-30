@@ -127,8 +127,38 @@ describe('registry coverage', () => {
 	//   was asserting that a rule was owed before cutover when none is.
 	//   Ruled by Brian 2026-08-28 on that distinction, data vs display.
 	//   See data/patches/catalogue-audit/empty-stem-section.md.
-	it('the catalogue still holds 68 transform rows', () => {
-		expect(coverage(catalogue).total).toBe(68);
+	// - `empty-lead-sense` (73 `{}` + 11 whitespace = 84) and
+	//   `bracketed-gloss-lead-sense` (49), batch 7 — 68 to 66, and they
+	//   are ONE finding counted twice. Both describe
+	//   `content.senses[0]`, and **index 0 is not a sense**:
+	//   `rejoin.ts:44` folds `content.senses[0]?.definition` into the
+	//   gloss head, and `dry-run.ts:257` then SKIPS index 0 in the sense
+	//   loop, because its content was already captured in the intro
+	//   sense. Both rows were catalogued against the SOURCE shape, where
+	//   index 0 looks like a stray or malformed sense.
+	//
+	//   `empty-lead-sense` goes further than `empty-stem-section` did:
+	//   its presumed repair is not merely unnecessary but HARMFUL.
+	//   Dropping the empty lead promotes `senses[1]` to index 0, where
+	//   it is folded into the gloss head by the first line and skipped
+	//   by the second — consumed, not moved. Built both ways over all
+	//   73: 1 identical, 72 changed, `A00644` going from 4 senses
+	//   labelled [—,1,2,3] to 3 labelled [1,2,3]. Neither text gate can
+	//   see it: nothing invented, nothing lost, text moved between
+	//   fields.
+	//
+	//   `bracketed-gloss-lead-sense` renders correctly today — `B01152`
+	//   builds gloss head "m.(b. h.; ברר) [empty, open] " with labels
+	//   [—,1,2], the printed order — and 42 of its 49 carry a
+	//   `language_code`, so the bracket is usually one fragment of a
+	//   multi-part lead. `judgment` rather than a discard because
+	//   asserting no defect EXISTS would need the 49 read against print,
+	//   and the 7 bracket-alone leads are the shape that could still be
+	//   wrong. Both ruled by Brian 2026-08-29. See
+	//   data/patches/catalogue-audit/empty-lead-sense.md and
+	//   bracketed-gloss-lead-sense.md.
+	it('the catalogue still holds 66 transform rows', () => {
+		expect(coverage(catalogue).total).toBe(66);
 	});
 
 	it('pending ids all exist in the catalogue', () => {
