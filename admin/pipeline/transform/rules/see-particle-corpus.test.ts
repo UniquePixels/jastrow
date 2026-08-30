@@ -2,7 +2,7 @@ import { expect, it } from 'bun:test';
 import type { SourceEntry, SourceSense } from '../../body/types.ts';
 import { RULES } from '../registry.ts';
 import { applyTransforms } from '../run.ts';
-import { repairedEntries } from './corpus-fixture.ts';
+import { composedEntries, repairedEntries } from './corpus-fixture.ts';
 import { isEmptySlot, isWholeEntryStub, stubSlot } from './see-particle.ts';
 
 /**
@@ -37,14 +37,60 @@ const WITHOUT_SEE_PARTICLE = RULES.filter(
 	(rule) => rule.id !== 'see-particle-lost',
 );
 
-/** The corpus as this rule receives it: repaired, then run through the
- * `text-repairs` phase with itself held out. */
-let stageMemo: readonly SourceEntry[] | undefined;
-async function stage(): Promise<readonly SourceEntry[]> {
-	stageMemo ??= (await repairedEntries()).map(
-		(entry) =>
-			applyTransforms(entry, 'text-repairs', WITHOUT_SEE_PARTICLE).entry,
-	);
+/** Does any sense of `entry`, at any depth, have the stub shape? */
+function anyStubShaped(entry: SourceEntry): boolean {
+	for (const { sense } of walk(entry.content.senses)) {
+		if (stubSlot(sense.definition ?? '') !== null) {
+			return true;
+		}
+	}
+	return false;
+}
+
+/**
+ * The corpus as this rule receives it — repaired, then run through
+ * `text-repairs` with itself held out — **for the entries that can
+ * matter, and only those**.
+ *
+ * ## Why it is filtered, and why the filter is sound
+ *
+ * Running the held-out phase over all 32,512 entries is a SECOND full
+ * transform pass, and the transform passes are the whole cost of this
+ * tier: it measured ~49s locally on top of the shared fixture, which is
+ * ~90s on CI. The `Test` job was killed by CI's fixed ~20-minute wall
+ * midway through this very file on PR #58 — batch 7's failure exactly,
+ * and for the same reason, a corpus file that rebuilds something
+ * expensive.
+ *
+ * The filter is `anyStubShaped` evaluated on `composedEntries()`, which
+ * is free. It is sound because **this rule can neither create nor
+ * destroy the stub shape**: it fires only on a definition that already
+ * matches `STUB`, and it inserts the particle INTO that definition's
+ * slot, so the result still matches `STUB`. Nothing else in the entry
+ * is touched. Therefore the set of stub-shaped entries after the rule
+ * is exactly the set before it, and an entry that is not stub-shaped in
+ * the composed corpus was not stub-shaped at this rule's input either.
+ *
+ * §6 pins that argument rather than leaving it as prose.
+ */
+let stageMemo: Map<string, SourceEntry> | undefined;
+async function stage(): Promise<Map<string, SourceEntry>> {
+	if (stageMemo === undefined) {
+		const composed = await composedEntries();
+		const repaired = await repairedEntries();
+		const out = new Map<string, SourceEntry>();
+		for (const [index, entry] of composed.entries()) {
+			if (!anyStubShaped(entry)) {
+				continue;
+			}
+			const source = repaired[index] as SourceEntry;
+			out.set(
+				source.rid,
+				applyTransforms(source, 'text-repairs', WITHOUT_SEE_PARTICLE).entry,
+			);
+		}
+		stageMemo = out;
+	}
 	return stageMemo;
 }
 
@@ -117,7 +163,7 @@ function census(entries: readonly SourceEntry[]): Census {
 
 let memo: Census | undefined;
 async function measured(): Promise<Census> {
-	memo ??= census(await stage());
+	memo ??= census([...(await stage()).values()]);
 	return memo;
 }
 
@@ -184,7 +230,7 @@ it(
 	'writes the particle outside the anchor on all four',
 	async () => {
 		expect(AS_REGISTERED).toHaveLength(1);
-		const byRid = new Map((await stage()).map((e) => [e.rid, e]));
+		const byRid = await stage();
 		for (const rid of CATALOGUED) {
 			const before = byRid.get(rid) as SourceEntry;
 			const run = applyTransforms(before, 'text-repairs', AS_REGISTERED);
@@ -201,6 +247,38 @@ it(
 			expect(after.replace('v. ', '')).toBe(
 				before.content.senses[0]?.definition ?? '',
 			);
+		}
+	},
+	TIMEOUT,
+);
+
+// §6 — THE FILTER'S OWN ARGUMENT, pinned rather than left as prose.
+//
+// `stage()` runs the held-out phase only for entries that are
+// stub-shaped in the COMPOSED corpus, which is what keeps this file
+// off CI's ~20-minute wall. The argument is that the rule can neither
+// create nor destroy the stub shape, so the two sets are the same set.
+//
+// The half that could go wrong is CREATION — if the rule's output
+// stopped matching `STUB`, a member would be stub-shaped before the
+// rule and not after, so `stage()` would skip the very entries it
+// exists to measure and §1 would report an empty population while
+// passing every other assertion. Asserted directly on all four: the
+// repaired definition still matches, and its slot is no longer empty.
+it(
+	'leaves its own output stub-shaped, which is what makes the filter sound',
+	async () => {
+		const byRid = await stage();
+		for (const rid of CATALOGUED) {
+			const before = byRid.get(rid) as SourceEntry;
+			const after = applyTransforms(
+				before,
+				'text-repairs',
+				AS_REGISTERED,
+			).entry;
+			const stub = stubSlot(after.content.senses[0]?.definition ?? '');
+			expect(stub).not.toBeNull();
+			expect(isEmptySlot((stub as { raw: string }).raw)).toBe(false);
 		}
 	},
 	TIMEOUT,
