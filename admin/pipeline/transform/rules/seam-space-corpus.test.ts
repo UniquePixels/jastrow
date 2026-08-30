@@ -25,10 +25,10 @@
  *    next correction a test failure rather than a discovery.
  */
 import { describe, expect, it } from 'bun:test';
-import { readSourceEntries } from '../../body/source.ts';
 import type { SourceEntry } from '../../body/types.ts';
 import { fieldsOf, stripTags } from '../no-new-text.ts';
 import type { Rule } from '../types.ts';
+import { sourceEntries } from './corpus-fixture.ts';
 import {
 	anchorItalicSpace,
 	gereshAbbrevSpace,
@@ -102,7 +102,7 @@ function scan(): Promise<Map<string, Tally>> {
 				{ created: 0, entries: 0, occurrences: 0 },
 			]),
 		);
-		for await (const entry of readSourceEntries()) {
+		for (const entry of await sourceEntries()) {
 			const before = renderedDefects(entry);
 			const length = rawLength(entry);
 			for (const rule of RULES) {

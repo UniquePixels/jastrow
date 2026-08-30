@@ -27,9 +27,9 @@
  *   today; nothing but this assertion says they will tomorrow.
  */
 import { describe, expect, it } from 'bun:test';
-import { readSourceEntries } from '../../body/source.ts';
 import type { SourceEntry } from '../../body/types.ts';
 import { fieldsOf, stripTags } from '../no-new-text.ts';
+import { sourceEntries } from './corpus-fixture.ts';
 import { italicSwallowsCloseParen } from './italic-paren.ts';
 
 /** An italic run and its whole body, inner markup included — the same
@@ -202,7 +202,7 @@ async function walk(): Promise<Measurement> {
 		textChanged: 0,
 		touched: [],
 	};
-	for await (const entry of readSourceEntries()) {
+	for (const entry of await sourceEntries()) {
 		const out = italicSwallowsCloseParen.apply(entry);
 		tally(entry, m.before);
 		const after = empty();

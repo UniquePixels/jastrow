@@ -7,6 +7,11 @@
  */
 import type { Pattern } from '../research/patterns.ts';
 import { ibAnaphora, sifreAnaphora, targumAnaphora } from './rules/anaphora.ts';
+import { continuationMarkerDash } from './rules/continuation-marker.ts';
+import {
+	adjacentVerbatimRepeat,
+	duplicatedOpeningRun,
+} from './rules/duplication.ts';
 import {
 	emphasisRunEdgeSpace,
 	trailingWhitespaceDefinition,
@@ -54,6 +59,8 @@ import {
 	parenTagSpace,
 	translitItalicSpace,
 } from './rules/seam-space.ts';
+import { sectionBreakTerminator } from './rules/section-break.ts';
+import { strandedDashStarMarker } from './rules/sense-marker.ts';
 import { stemHeadMarkerChop } from './rules/stem-head.ts';
 import { asteriskStemStrayPeriod } from './rules/stem-label.ts';
 import { strandedStemHead } from './rules/stem-section.ts';
@@ -973,6 +980,100 @@ const RULES: readonly Rule[] = [
 	// compose the pair — unlike a cross-phase pair, which it now skips
 	// and counts (`PairStats.crossPhasePairs`, batch 6c).
 	strandedStemHead,
+	// Batch 7's two DUPLICATION rules, and the first rules in this
+	// registry to declare `unlinks` alongside `removes`. Both delete a
+	// verbatim duplicate; a duplicated run can contain an anchor, and
+	// 26 of the 88 opening runs hold 30 between them against 9 of the 65
+	// adjacent runs holding 11.
+	//
+	// THEY RUN HERE, NOT IN `text-repairs`, ON BRIAN'S RULING
+	// 2026-08-29. The loss gate is phase-scoped, so this is the only
+	// phase in which a deletion is judged PER CALL; in `text-repairs`
+	// the two would instead be defended by
+	// `body/deletion-baseline.corpus.test.ts`'s pinned total.
+	//
+	// The argument is the per-call gate, NOT the size — an earlier
+	// version of this note compared their 6,128 RAW codepoints against
+	// that baseline's 4,510 and called it larger, which is a raw figure
+	// against a stripped one. On the baseline's own basis (`textOf`,
+	// tags stripped) the two rules delete **2,738**, comfortably below
+	// 4,510. The comparison never supported the ruling; the gating
+	// difference does.
+	//
+	// THEIR DISJOINTNESS IS POSITIONAL AND IS WHAT DEFINES THEM.
+	// `duplicatedOpeningRun` matches only at offset 0 and
+	// `adjacentVerbatimRepeat` only away from it, so no single run can
+	// be claimed by both — asserted in `duplication.test.ts` and
+	// measured in `duplication-corpus.test.ts`. ONE ENTRY (`I00509`)
+	// holds one of each, at different offsets, and the two compose to
+	// the same entry in either order.
+	duplicatedOpeningRun,
+	adjacentVerbatimRepeat,
+	// THE ONLY RULE IN THIS REGISTRY THAT MINTS A BYTE INTO THE TEXT —
+	// one period per member, declared through `allows: ['.']` on Brian's
+	// ruling 2026-08-29.
+	//
+	// It runs after both deletion rules because it is the only member
+	// that ADDS, so every deletion precedes the one insertion. The two
+	// marker rules below it move text and sit there for their own
+	// reason — they are an entangled pair and must be adjacent. Nothing
+	// depends on this rule's position: its predicate is a `—<label>`
+	// boundary, which no rule
+	// above writes or removes, and the commutation gate composes it
+	// against all four phase-mates.
+	//
+	// What licenses the `allows` is the null model, not the size: the
+	// boundary occurs 7,532 times corpus-wide with 7,250 already carrying
+	// their period, and the four legitimate non-period enders (`]` 241,
+	// `?` 54, `)` 17, `!` 4) are refused by the predecessor class rather
+	// than by an exception list — as are the row's two false-positive
+	// families, the 3 closing quotes and 2 ellipses that cut its first
+	// pass from 15 candidates to 10.
+	sectionBreakTerminator,
+	// `trailing-em-dash-tail`, which closes the only entanglement edge
+	// batch 7 found already recorded in `PENDING`:
+	// `sense-number-outside-closed-grammar` and this row are one
+	// upstream event counted twice, and the catalogue on both says
+	// they must be transformed in ONE step.
+	//
+	// IT SITS HERE, DIRECTLY ABOVE `continuationMarkerDash`, BECAUSE
+	// THE TWO ARE ENTANGLED AND THE EDGE WAS FOUND BY THE COMMUTATION
+	// GATE, not by reading — `trailing-em-dash-tail ×
+	// continuation-marker-em-dash-loss @ A00337`. Writing `—*3)` onto
+	// a sibling CREATES the witness `continuationMarkerDash` requires,
+	// so this rule must run FIRST or that repair never happens. The
+	// direction is pinned in `registry.order.test.ts`.
+	//
+	// IT MEETS NEITHER RULE ABOVE IT, AND BOTH EXCLUSIONS ARE MEASURED
+	// RATHER THAN ARGUED. `stemHeadMarkerChop` needs a definition
+	// ending in `—N) ` — a dash, digits, paren and space — where this
+	// one needs a definition ending in the dash itself, so no string
+	// satisfies both. `strandedStemHead` needs `content.senses[0]` with
+	// no `grammar` and an opening italic label run; this rule never
+	// touches `senses[0]`'s own text except to trim a trailing dash,
+	// and never writes an italic run. Same phase, so the commutation
+	// gate composes both pairs rather than skipping them.
+	strandedDashStarMarker,
+	// Batch 7's last rule, shipped for its HIGH-CONFIDENCE CORE only
+	// (Brian's ruling 2026-08-29): the 14 dashless continuation markers
+	// that sit in a MIXED sibling list, one whose other members carry
+	// `—N)`.
+	//
+	// IT DECLARES `copied`, NOT `allows`, AND THAT IS THE SAFETY
+	// ARGUMENT. An `allows: ['—']` would license an em dash anywhere in
+	// the rule's diff, corpus-wide, on a maintainer's word; `copied` is
+	// verified by the gate against THIS ENTRY'S input before it is
+	// credited, and the mixed-list predicate is exactly what guarantees
+	// the witness is there. Drop that requirement and the declaration
+	// stops being checkable — the predicate is load-bearing, not
+	// decorative.
+	//
+	// It runs after `sectionBreakTerminator` and touches a different
+	// field: that one writes into a `definition`, this one into a
+	// `number`. Nothing above it writes a `number` except
+	// `stemHeadMarkerChop` and `strandedDashStarMarker`, and both leave
+	// a DASHED marker, which this rule's predicate refuses.
+	continuationMarkerDash,
 ];
 
 /** Catalogued transform rows with no rule yet. Shrinks batch by batch;
@@ -994,7 +1095,22 @@ const PENDING: readonly string[] = [
 	// `judgment` in `patterns.jsonl` (no other article exists for any of
 	// its 87 anchors, and the construct is 3.2% of a corpus-wide linker
 	// behaviour), so `coverage` no longer counts it and neither list may.
-	'trailing-em-dash-tail',
+	// `trailing-em-dash-tail` left this list in batch 7: it is
+	// registered above at 101 of its 132 stranded dashes — every one
+	// whose next sibling carries a `*N)` marker. The other 31 STAY ON
+	// THE ROW (16 entry-final, 7 next-sibling-unnumbered, 8
+	// next-sibling-bare), because the row's own reading is that the
+	// dash is the following marker's SEPARATOR rather than debris, and
+	// for those 31 there is no marker to rejoin it to.
+	//
+	// Splitting rather than registering the whole row is batch 6b's
+	// step: `coverage()` reads a row as registered the moment any rule
+	// claims its id, so a partial rule that took the row off this list
+	// would take its remainder off the queue with it. So the remainder is
+	// recorded in `patterns.jsonl` and in
+	// `docs/v2/transform-batch-7.md` §1 rather than by a second entry
+	// here: a row named in `RULES` AND in this list is `duplicated`,
+	// which `registry.test.ts` forbids.
 	// `stranded-stem-head` left this list in batch 6c: it is registered
 	// above at its RE-MEASURED size. The row was catalogued at 544
 	// entries with NO predicate recorded anywhere; under the predicate
@@ -1034,15 +1150,93 @@ const PENDING: readonly string[] = [
 	// blocks as one run — needing no data change, so leaving the row on
 	// this list asserted a rule was owed before cutover when none is.
 	// Audit: data/patches/catalogue-audit/empty-stem-section.md.
+	// `sense-number-outside-closed-grammar` STAYS on this list, but it
+	// is RE-SCOPED from 111 entries to **6** — Brian's ruling
+	// 2026-08-29, audit
+	// `data/patches/catalogue-audit/sense-number-closed-grammar.md`.
+	// The row's name has been false since before Phase 2 opened, and
+	// its 113 catalogued tokens PARTITION as 101 + 6 + 6, with nothing
+	// left for a rule of its own to do. (The two sixes are DIFFERENT
+	// sets that happen to share a size — see below. An earlier version
+	// of this note listed 107, 6 and 101 as the three parts, which sum
+	// to 214 because the 101 are a subset of the 107.)
+	//
+	// - **107 of the 113 were never outside the grammar.**
+	//   `body/labels.ts`'s `LABEL` takes the star as a parsed FIELD, not
+	//   a quarantine trigger; all 107 `*N)` markers parse and round-trip
+	//   through `printLabel` byte-exactly. Those 107 split into the 101
+	//   of the third bullet and the 6 named at the end of this note.
+	// - **The other 6 of the 113 are repaired before any transform
+	//   runs**, and they are NOT `*N)` markers at all. `repairs.ts`'s
+	//   "04 — sense-label quarantine repairs" turns the five `-2)`
+	//   ASCII hyphens into `—2)` and moves D00341's `[1)` bracket into
+	//   the sense text. Tokens quarantining to `{unknown}`: 6 raw → **0
+	//   post-`applyRepairs`**, measured over all 32,512 entries. This
+	//   is batch 6a's `binyan-form-*` shape for the third time.
+	// - **101 are repaired by its entangled partner's rule** —
+	//   `strandedDashStarMarker` above, which is exactly the claim both
+	//   rows make about each other.
+	//
+	// What is LEFT is the 6 `*N)` markers with no stranded dash before
+	// them: `A00510`, `A02000`, `B00005`, `M00591`, `N01131`,
+	// `P01184`. They reconcile the catalogued token census to the digit
+	// (`*2)` 74 − 72, `*3)` 19 − 18, `*1)` 3 − 0), and `A02000`'s
+	// predecessor ends `—[`, which is `stranded-open-bracket`'s shape.
+	// A row re-scoped to its true size is the fifth way a row has moved
+	// on this queue, and the reason it is not simply discarded is that
+	// discarding it would leave those 6 surfaced by nothing executable.
 	'sense-number-outside-closed-grammar',
-	'bracketed-gloss-lead-sense',
+	// `bracketed-gloss-lead-sense` (49) left this list in batch 7:
+	// WITHDRAWN to `judgment` in `patterns.jsonl` on Brian's ruling
+	// 2026-08-29 (audit
+	// `data/patches/catalogue-audit/bracketed-gloss-lead-sense.md`), so
+	// `coverage` no longer counts it and neither list may hold it.
+	//
+	// SECOND INDEX-0 ROW TO GO IN THIS BATCH, AND FOR THE SAME REASON.
+	// `content.senses[0]` is not a sense in the body model —
+	// `rejoin.ts:44` folds its `definition` into the gloss head and
+	// `dry-run.ts:257` skips index 0 in the sense loop. So an unnumbered
+	// bracketed lead is not a sense that escaped numbering; it is the
+	// entry's LEAD, and it renders as one. `B01152` builds a gloss head
+	// `"m.(b. h.; ברר) [empty, open] "` with sense labels `[—, 1, 2]`,
+	// which is the printed order. 42 of the 49 carry a `language_code`
+	// and 15 a `morphology`, so the bracket is usually one fragment of a
+	// multi-part lead rather than a lead on its own.
+	//
+	// `judgment` rather than a discard: no repair can be stated, which
+	// takes it off the transform queue, but asserting no defect exists
+	// would need the 49 read against print — and the 7 members whose
+	// gloss head is the bracket ALONE are the shape that could still be
+	// wrong.
 	// `parenthesized-alt-headword` and `phrase-alt-headword-stub` left
 	// this list in batch 5: both are registered above, adjacent and
 	// entangled.
 	'b-h-split-across-field-boundary',
 	'mekhilta-sifra-never-linked',
 	'reversed-hebrew-phrase',
-	'empty-lead-sense',
+	// `empty-lead-sense` (73 `{}` + 11 whitespace-only = 84) left this
+	// list in batch 7: WITHDRAWN to `judgment` in `patterns.jsonl` on
+	// Brian's ruling 2026-08-29 (audit
+	// `data/patches/catalogue-audit/empty-lead-sense.md`), so `coverage`
+	// no longer counts it and neither list may hold it.
+	//
+	// THE RULING TURNED ON THE REPAIR BEING HARMFUL, not merely
+	// unnecessary — which is where it goes beyond `empty-stem-section`'s
+	// data-vs-display withdrawal in 6b. Two lines of the body model
+	// point the same way: `rejoin.ts:44` reads
+	// `content.senses[0]?.definition ?? ''` into the gloss head, and
+	// `dry-run.ts:257` SKIPS index 0 in the sense loop because sense 0
+	// is already captured in the intro sense. So an empty lead
+	// contributes an empty string and is then skipped — it costs the
+	// reader nothing. Drop it, and `senses[1]` becomes index 0: folded
+	// into the gloss head by the first line and skipped by the second.
+	// The sense is not moved, it is CONSUMED. Built both ways over all
+	// 73: **1 identical, 72 changed** — `A00644` loses a sense and gains
+	// its text inside an unlabelled intro gloss.
+	//
+	// Neither text gate can see that: nothing invented, nothing lost,
+	// text moved between fields. Same blind spot batch 4 found when
+	// `applyRepairs` composed with `truncatedCitationDigit`.
 	// `abbrev-headword-stub` left this list in batch 5 Task 1: AUDITED
 	// TO `judgment` in `patterns.jsonl` (audit
 	// `data/patches/catalogue-audit/abbrev-headword-stub.md`, ruled by
@@ -1105,14 +1299,45 @@ const PENDING: readonly string[] = [
 	// `body/binyan-cleanup.corpus.test.ts`; the audit is
 	// `data/patches/catalogue-audit/binyan-form-cleanup.md`.
 	'plural-label-rendering-defeats-capture',
-	'continuation-marker-em-dash-loss',
+	// `continuation-marker-em-dash-loss` left this list in batch 7: it is
+	// registered above for its WITNESSED CORE of 14, and the row is
+	// re-scoped 71 -> **22** in `patterns.jsonl`. The 22 are the dashless
+	// markers whose sibling list holds no dashed member, so nothing in
+	// the entry witnesses the convention and no declaration this gate
+	// can check is available.
+	//
+	// The remainder is recorded on the row rather than by a second entry
+	// here, for the reason `trailing-em-dash-tail`'s block gives: a row
+	// named in `RULES` AND in this list is `duplicated`, which
+	// `registry.test.ts` forbids.
+	//
+	// The row's count has now been reconstructed four times and never
+	// twice the same (round 2: 19; the stranded-open-bracket audit: 44;
+	// the catalogue: 71; this batch: 36 clean of 283 dashless markers).
+	// Splitting it rather than emptying it keeps the 22 on the queue and
+	// keeps the row's unsettled status honest.
 	'tanhuma-never-linked',
 	'pesikta-drk-never-linked',
-	'duplicated-definition-opening-run',
+	// `duplicated-definition-opening-run` left this list in batch 7: it
+	// is registered above at 88 occurrences / 85 entries. THE ROW
+	// RECORDED NO PREDICATE, only "the middle and best-argued figure" of
+	// three letter filters (M 91, Q 85, P 79), so batch 7 had to state
+	// one: a definition whose opening run of >= 4 characters repeats
+	// immediately at offset 0. `k = 4` reproduces the catalogued 85
+	// entries exactly, which is the only evidence available for what the
+	// round-3 detector did; uncapped the thresholds run 2 -> 98 entries,
+	// 3 -> 90, 4 -> 85, 6 -> 79, 8 -> 64, 12 -> 47.
 	'shin-sin-dot-drop',
 	'v-sub-redirect-stub-mislink',
 	'midrash-petichta-unanchored',
-	'adjacent-verbatim-repetition',
+	// `adjacent-verbatim-repetition` left this list in batch 7: it is
+	// registered above at its CORRECTED size, 65 rather than the
+	// catalogued 59. The 59 was not a measurement agreeing with the
+	// catalogue but two length caps matching — for an adjacent repeat
+	// only the FULL run repeats immediately, since a proper suffix of
+	// the first copy is followed by the second copy's PREFIX, so a
+	// bounded search loses long members rather than shortening them.
+	// The split is exact: 59 members at <= 120 characters, 6 above.
 	'containment-fallback-mislink',
 	// `post-anchor-numeral-duplication` left this list in batch 4 Task 6:
 	// audited to `judgment` in `patterns.jsonl` (Brian's ruling
@@ -1132,7 +1357,10 @@ const PENDING: readonly string[] = [
 	// `superscript-subsection-stranded-outside-anchor` — but it is
 	// `judgment` from birth, so it enters neither this list nor
 	// `coverage`'s total, and does not offset the withdrawal: 73 -> 72.
-	'section-break-terminator-loss',
+	// `section-break-terminator-loss` left this list in batch 7: it is
+	// registered above at its CORRECTED size, 11 rather than the
+	// catalogued 10, under a stated predicate — a letter or digit,
+	// optional tags, an em dash, optional tags, a section label.
 	'see-particle-lost',
 	// FOUR MORE left this list in batch 3b Task 6, each audited to
 	// `judgment` in `patterns.jsonl` for its own reason — the working is
@@ -1545,8 +1773,26 @@ function checkAdjacency(
  *
  * What it does NOT replace is the derived-set assertion. An edge
  * DELETED from the catalogue is not a recorded edge, so this walks
- * past it; only pinning the cluster set notices. Two complementary
- * claims, not one — see `registry.order.test.ts`.
+ * past it; pinning the cluster set notices — SOMETIMES. Two
+ * complementary claims, not one — see `registry.order.test.ts`.
+ *
+ * CORRECTED 2026-08-29 (batch 7). "Only pinning the cluster set
+ * notices" is false for one class of edge, and batch 7 deleted one of
+ * that class. `entangledClusters` derives over REGISTERED rules, so an
+ * edge whose endpoints are BOTH unregistered never enters a cluster in
+ * the first place — measured directly on the catalogue before and
+ * after the deletion of the `trailing-em-dash-tail` ~
+ * `sense-number-outside-closed-grammar` edge, and the pinned cluster
+ * list is 5 clusters both times, with neither row in any of them. So
+ * for a both-unregistered edge NEITHER gate witnesses a deletion:
+ * this function excludes it by design (see the next paragraph) and the
+ * cluster pin cannot see it either. The protection begins only once
+ * one endpoint is registered, which is why batch 7 registered its rule
+ * FIRST and deleted the edge second — with the rule in place, this
+ * function did report the surviving half-edge, and would report a
+ * re-addition. What pins the deletion itself is neither gate but a
+ * direct catalogue assertion in
+ * `rules/sense-marker-corpus.test.ts` §7.
  *
  * Edges between two unregistered rows are excluded rather than
  * missing: execution order cannot be wrong about a rule that does not

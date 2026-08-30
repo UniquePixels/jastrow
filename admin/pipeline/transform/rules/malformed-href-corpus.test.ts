@@ -21,13 +21,13 @@
  * plus the refusal that returns when the declaration is withheld.
  */
 import { beforeAll, describe, expect, it } from 'bun:test';
-import { readSourceEntries } from '../../body/source.ts';
 import type { SourceEntry } from '../../body/types.ts';
 import { tokenize } from '../html.ts';
 import { checkLinkTargets } from '../link-target.ts';
 import { anchors } from '../links.ts';
 import { checkMarkup } from '../markup.ts';
 import { checkNoNewText, fieldsOf } from '../no-new-text.ts';
+import { sourceEntries } from './corpus-fixture.ts';
 import { unterminatedHref } from './malformed-href.ts';
 
 /** Every offset at which re-inserting `run` into `tag` reproduces a
@@ -75,7 +75,7 @@ describe('unterminatedHref over the corpus', () => {
 	const kept = new Map<string, SourceEntry>();
 
 	beforeAll(async () => {
-		for await (const entry of readSourceEntries()) {
+		for (const entry of await sourceEntries()) {
 			if (unterminatedHref.apply(entry).records.length > 0) {
 				fired.push(entry.rid);
 			}

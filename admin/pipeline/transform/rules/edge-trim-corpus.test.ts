@@ -17,9 +17,9 @@
  *   the definition-wide sweep its audit forbids in capital letters.
  */
 import { describe, expect, it } from 'bun:test';
-import { readSourceEntries } from '../../body/source.ts';
 import type { SourceEntry, SourceSense } from '../../body/types.ts';
 import { fieldsOf, stripTags } from '../no-new-text.ts';
+import { sourceEntries } from './corpus-fixture.ts';
 import {
 	emphasisRunEdgeSpace,
 	trailingWhitespaceDefinition,
@@ -176,7 +176,7 @@ async function walkEdge(): Promise<EdgeMeasurement> {
 		tailAfter: 0,
 		tailBefore: 0,
 	};
-	for await (const entry of readSourceEntries()) {
+	for (const entry of await sourceEntries()) {
 		const out = emphasisRunEdgeSpace.apply(entry);
 		// Whole-corpus figures, accumulated BEFORE the touched-only
 		// guard below. `out.entry` is the caller's own object when the

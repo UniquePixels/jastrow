@@ -14,7 +14,6 @@
  * data instead of being left as prose.
  */
 import { describe, expect, it } from 'bun:test';
-import { readSourceEntries } from '../../body/source.ts';
 import type { SourceEntry } from '../../body/types.ts';
 import { tokenize } from '../html.ts';
 import { checkLinkTargets } from '../link-target.ts';
@@ -22,6 +21,7 @@ import { anchors } from '../links.ts';
 import { checkMarkup } from '../markup.ts';
 import { checkNoNewText, fieldsOf } from '../no-new-text.ts';
 import type { Rule, TransformResult } from '../types.ts';
+import { sourceEntries } from './corpus-fixture.ts';
 import {
 	openParenInAnchorDisplay,
 	toseftaCloseParen,
@@ -218,7 +218,7 @@ async function sweep(): Promise<{
 	const halakha = tally();
 	const disagree = tally();
 	let sum: Totals = ZERO;
-	for await (const entry of readSourceEntries()) {
+	for (const entry of await sourceEntries()) {
 		const base = baselineOf(entry);
 		const c = toseftaCloseParen.apply(entry);
 		const p = openParenInAnchorDisplay.apply(entry);

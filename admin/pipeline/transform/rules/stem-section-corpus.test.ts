@@ -1,7 +1,5 @@
 import { expect, it } from 'bun:test';
 import { buildTrace } from '../../body/dry-run.ts';
-import { applyRepairs } from '../../body/repairs.ts';
-import { readSourceEntries } from '../../body/source.ts';
 import type {
 	BodyEntry,
 	BodySense,
@@ -11,6 +9,11 @@ import type {
 import { stripTags } from '../no-new-text.ts';
 import { RULES } from '../registry.ts';
 import { applyTransforms } from '../run.ts';
+import {
+	composedEntries,
+	repairedEntries,
+	sourceEntries,
+} from './corpus-fixture.ts';
 import { LABELS, strandedStemHead } from './stem-section.ts';
 
 /**
@@ -229,17 +232,22 @@ async function build(): Promise<Census> {
 		stemsGained: 0,
 		withGrammar: 0,
 	};
-	for await (const source of readSourceEntries()) {
+	// All three stages come from `corpus-fixture.ts`, memoised across
+	// every corpus file in the run — see that module for why.
+	const sources = await sourceEntries();
+	const repaired = await repairedEntries();
+	const composedAll = await composedEntries();
+	for (const [index, source] of sources.entries()) {
 		c.corpusEntries++;
 		const raw = opens(source);
 		c.occRaw += raw;
 		if (raw > 0) {
 			c.entRaw++;
 		}
-		const healed = applyRepairs(source).entry;
+		const healed = repaired[index] as SourceEntry;
 		c.occRepaired += opens(healed);
 
-		const texted = applyTransforms(healed, 'text-repairs').entry;
+		const texted = composedAll[index] as SourceEntry;
 		const composed = opens(texted);
 		c.occComposed += composed;
 		if (composed > 0) {
@@ -314,7 +322,7 @@ const census = (): Promise<Census> => {
 // must fail here rather than silently move the population.
 it('derives its 45 labels from the corpus verbal_stem field', async () => {
 	const values = new Set<string>();
-	for await (const entry of readSourceEntries()) {
+	for (const entry of await sourceEntries()) {
 		walk(entry.content.senses, (sense) => {
 			const stem = sense.grammar?.verbal_stem;
 			if (stem !== undefined) {
@@ -366,8 +374,7 @@ it('attributes the whole raw-to-composed gap to label-period-outside-italic', as
 	let after = 0;
 	const only = RULES.filter((r) => r.id === 'label-period-outside-italic');
 	expect(only).toHaveLength(1);
-	for await (const source of readSourceEntries()) {
-		const healed = applyRepairs(source).entry;
+	for (const healed of await repairedEntries()) {
 		before += opens(healed);
 		after += opens(applyTransforms(healed, 'text-repairs', only).entry);
 	}

@@ -593,8 +593,7 @@ function rewriteShurukDefinition(definition: string): string {
 	const spans = anchors(tokens)
 		.filter(
 			(anchor) =>
-				!anchor.malformed &&
-				!anchor.interior &&
+				!(anchor.malformed || anchor.interior) &&
 				anchor.close !== -1 &&
 				shurukAsYodMatch(anchor),
 		)

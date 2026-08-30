@@ -280,10 +280,17 @@ describe('the registry commutes except where the catalogue says otherwise', () =
 		expect(stats.inertRules).toEqual([]);
 		// Every pair is either composed or skipped for the ONE reason
 		// this gate accepts. `crossPhasePairs` is the count `apply.ts`'s
-		// manifest forces — 40 `text-repairs` rules against the 2
+		// manifest forces — 40 `text-repairs` rules against the 7
 		// `structural-repairs` ones — asserted here so the skip cannot
 		// quietly widen into same-phase pairs it has no licence for.
+		// 80 → 280 across batch 7, which registered five structural
+		// rules. The figure is a PRODUCT, so it moves whenever either
+		// phase grows, and re-deriving it is how a reader checks that
+		// the growth was in the phase they expected: one of the five
+		// silently declared `text-repairs` would make it 41 × 6 = 246,
+		// not 280. (An earlier version of this note said 287, which is
+		// 41 × 7 — a 48th rule, not a mis-declared phase.)
 		expect(stats.composedPairs + stats.crossPhasePairs).toBe(stats.totalPairs);
-		expect(stats.crossPhasePairs).toBe(80);
+		expect(stats.crossPhasePairs).toBe(280);
 	}, 180_000);
 });

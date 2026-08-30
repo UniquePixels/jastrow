@@ -6,7 +6,7 @@
  * `anchors(tokenize(definition))` for the anchors:
  *
  * ```ts
- * for await (const entry of readSourceEntries()) {
+ * for (const entry of await sourceEntries()) {
  *   for (const definition of definitionsOf(entry)) {
  *     for (const anchor of anchors(tokenize(definition))) {
  *       if (bareStubRaw(entry, anchor)) { … }
@@ -25,11 +25,11 @@
  * remembers to run.
  */
 import { expect, it } from 'bun:test';
-import { readSourceEntries } from '../../body/source.ts';
 import type { SourceEntry } from '../../body/types.ts';
 import { tokenize } from '../html.ts';
 import { anchors } from '../links.ts';
 import { applyTransforms } from '../run.ts';
+import { sourceEntries } from './corpus-fixture.ts';
 import {
 	bareStubRaw,
 	gereshLetterNumeral,
@@ -282,7 +282,7 @@ function* definitionsOf(source: SourceEntry): Generator<string> {
 it('matches the measured corpus population, both arms', async () => {
 	const tally = { bare: 0, prefixed: 0 };
 	const entries = { bare: new Set<string>(), prefixed: new Set<string>() };
-	for await (const source of readSourceEntries()) {
+	for (const source of await sourceEntries()) {
 		tallyArms(source, tally, entries);
 	}
 	expect({ entries: entries.bare.size, occurrences: tally.bare }).toEqual({
@@ -304,7 +304,7 @@ it('matches the measured corpus population, both arms', async () => {
 it('unlinks every member of both populations', async () => {
 	const removed = { bare: 0, prefixed: 0 };
 	const entries = { bare: 0, prefixed: 0 };
-	for await (const source of readSourceEntries()) {
+	for (const source of await sourceEntries()) {
 		const bare = gereshLetterNumeral.apply(source);
 		const prefixed = prefixedGereshAbbrev.apply(source);
 		removed.bare += bare.unlinks ?? 0;

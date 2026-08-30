@@ -118,6 +118,7 @@
  * cannot be earned that way, and the note there says why.
  */
 import { describe, expect, it } from 'bun:test';
+import { applyRepairs } from '../body/repairs.ts';
 import { readSourceEntries } from '../body/source.ts';
 import type { SourceEntry } from '../body/types.ts';
 import { parsePatterns } from '../research/patterns.ts';
@@ -131,6 +132,7 @@ import {
 	RULES,
 	unaccountedEdges,
 } from './registry.ts';
+import { applyTransforms } from './run.ts';
 
 const catalogue = parsePatterns(
 	await Bun.file('data/patches/patterns.jsonl').text(),
@@ -162,6 +164,13 @@ const UNLINK = new Set([
 	'plural-to-feminine-final-letter-mislink',
 	'prefixed-geresh-abbrev-mislink',
 	'rabbi-name-linked-as-bible-book',
+	// Batch 7's two duplication rules. They are in this set because the
+	// corpus pass below FALSIFIES the list — they declare `unlinks`, so
+	// they must be named here — but they are not unlinks in the sense
+	// the docstring above describes: they do not keep the display text,
+	// they delete the whole duplicated run and the anchor inside it.
+	'adjacent-verbatim-repetition',
+	'duplicated-definition-opening-run',
 ]);
 
 /** Rules that WRITE a link target sourced from another anchor in the
@@ -223,6 +232,25 @@ const NEITHER = new Set([
 	// below earns. `FIELD` is not open to it for the same reason as its
 	// phase-mate: the field it edits is full of tags.
 	'stranded-stem-head',
+	// Batch 7's structural rule, and the third from that phase. It
+	// moves ONE em dash from the end of a definition into the next
+	// sibling's `number` — a field that holds no markup at all — so no
+	// anchor is touched, none removed and no target written, which the
+	// corpus pass below earns. `FIELD` is not open to it for the same
+	// reason as both phase-mates: the field it trims is full of tags.
+	'trailing-em-dash-tail',
+	// Batch 7's minting rule, and the fourth member from the structural
+	// phase. It writes ONE period before a section head and touches
+	// nothing else — no anchor removed, no `href` or `data-ref` written,
+	// which is what this set asserts and the corpus pass below earns.
+	// `FIELD` is not open to it for the same reason as its phase-mates:
+	// the field it edits is full of tags.
+	'section-break-terminator-loss',
+	// Batch 7's last rule, and the fifth from the structural phase. It
+	// writes an em dash into a sense `number` — a field holding no
+	// markup at all — so no anchor is touched, none removed and no
+	// target written, which the corpus pass below earns.
+	'continuation-marker-em-dash-loss',
 	// BATCH 4 ADDS FOUR, and they are the set's second real test after
 	// batch 3b's twelve. These four move one of the anchor's own tags
 	// across the text beside it — `</a>` across a `)`, a `<sup>` run or
@@ -432,6 +460,80 @@ function at(id: string): number {
 	return index;
 }
 
+/** A registered rule's phase, throwing for the same reason `at` does. */
+function phaseOf(id: string): string {
+	const rule = RULES.find((r) => r.id === id);
+	if (rule === undefined) {
+		throw new Error(`registry order: no rule registered as '${id}'`);
+	}
+	return rule.phase;
+}
+
+/**
+ * INDEX IS NOT EXECUTION ORDER ACROSS PHASES, and rules 1 and 4 below
+ * are index comparisons.
+ *
+ * `applyTransforms` filters by phase and `patch/apply.ts`'s manifest
+ * runs `text-repairs` to completion before `structural-repairs` starts,
+ * so a structural rule runs after EVERY text rule whatever its index.
+ * An index assertion over a cross-phase pair is therefore not merely
+ * violated by such a rule — it is UNSATISFIABLE by one, and could only
+ * be "satisfied" by registering the rule early in a list whose own
+ * comment says structural rules sit last so it reads in execution
+ * order.
+ *
+ * This is batch 6c's phase-blindness in a second gate. The commutation
+ * gate had the mirror of it — a cross-phase pair has ONE order, so
+ * composing it both ways read as an undeclared entanglement — and the
+ * fix there is the fix here: SKIP, and COUNT, so the exemption is
+ * visible rather than silent.
+ *
+ * What makes the skip legitimate is not the phase name. Rule 1 guards
+ * against a retarget adopting a target off an anchor that an unlink
+ * will later DELETE; batch 7's two duplication rules remove an anchor
+ * from a duplicated run, so the twin survives and the antecedent does
+ * not go away. That is earned at the bottom of this file over all
+ * 32,512 entries — every anchor they remove leaves a surviving copy of
+ * the same target in the same entry — 42 of 42 as composed, and
+ * asserted at the bottom of this file rather than here.
+ */
+function crossPhasePairs(
+	left: ReadonlySet<string>,
+	right: readonly string[],
+): number {
+	let skipped = 0;
+	for (const l of left) {
+		for (const r of right) {
+			if (phaseOf(l) !== phaseOf(r)) {
+				skipped++;
+			}
+		}
+	}
+	return skipped;
+}
+
+/** The largest index among `left` members sharing a phase with some
+ * `right` member — the only comparison an index can honestly make. */
+function lastWithin(
+	left: ReadonlySet<string>,
+	right: readonly string[],
+): number {
+	const phases = new Set(right.map(phaseOf));
+	const same = [...left].filter((id) => phases.has(phaseOf(id)));
+	// `Math.max(...[])` is -Infinity, which is less than every index — so
+	// an empty intersection would make rules 1 and 4 pass while comparing
+	// NOTHING, leaving the counted skip as the only evidence they ran.
+	// That is precisely the "silence mistaken for coverage" failure the
+	// surrounding comments name, so it throws instead. Hardening: the
+	// intersection is non-empty today.
+	if (same.length === 0) {
+		throw new Error(
+			'registry order: no same-phase member to compare — the assertion would pass vacuously',
+		);
+	}
+	return Math.max(...same.map(at));
+}
+
 describe('registry order', () => {
 	// Guards the orderings below against going vacuous: a new rule in
 	// none of the sets is unclassified, and they would then say nothing
@@ -454,9 +556,16 @@ describe('registry order', () => {
 	// what it reads — the same hazard, whether the target is adopted
 	// whole or assembled.
 	it('every unlink rule precedes every rule that sources a target from a neighbour', () => {
-		const lastUnlink = Math.max(...[...UNLINK].map(at));
-		const firstReader = Math.min(...[...RETARGET, ...CORROBORATE].map(at));
-		expect(lastUnlink).toBeLessThan(firstReader);
+		const readers = [...RETARGET, ...CORROBORATE];
+		const firstReader = Math.min(...readers.map(at));
+		expect(lastWithin(UNLINK, readers)).toBeLessThan(firstReader);
+		// The skip is COUNTED, never silent. A skip nobody counts is the
+		// "silence mistaken for coverage" failure `link-target.ts` names.
+		// The figure is a PRODUCT — 2 structural unlink rules × 4
+		// text-phase readers (3 `RETARGET` + 1 `CORROBORATE`) — so it
+		// moves whenever either side grows, and re-deriving it is how a
+		// reader checks the growth was where they expected.
+		expect(crossPhasePairs(UNLINK, readers)).toBe(8);
 	});
 
 	// THE DIRECTION, AND THE FAILURE IT PREVENTS IS SILENT.
@@ -482,6 +591,41 @@ describe('registry order', () => {
 		);
 	});
 
+	// THE SECOND DIRECTION PIN, and it was found the way the first one
+	// should have been — by the commutation gate, before anything
+	// shipped. `strandedStemHead` moves a stem label out of
+	// `content.senses[0]` and the remainder into a child sense, which
+	// brings a duplicated run to OFFSET 0 where `duplicatedOpeningRun`
+	// can see it. On `R00223` that is the whole difference: the opening
+	// rule repairs 88 alone and 89 composed after the stem rule.
+	//
+	// The two rows are declared `entangledWith` each other, so rule 2
+	// requires them adjacent — and adjacency is DIRECTION-BLIND, which
+	// is exactly the gap the tosefta pin exists to fill. Reversed, the
+	// duplicate at `R00223` is never exposed and never repaired, while
+	// every per-rule count still reports what it always did.
+	it('strandedStemHead runs STRICTLY BEFORE duplicatedOpeningRun', () => {
+		expect(at('stranded-stem-head')).toBeLessThan(
+			at('duplicated-definition-opening-run'),
+		);
+	});
+
+	// THE THIRD DIRECTION PIN, and the second the commutation gate found
+	// before anything shipped. `strandedDashStarMarker` writes `—*3)`
+	// onto a sibling, which CREATES the dashed-sibling witness
+	// `continuationMarkerDash` requires — so reversed, `A00337`'s bare
+	// `2)` has no witness and is never repaired, while every per-rule
+	// count still reads normal.
+	//
+	// The pair is declared `entangledWith`, so rule 2 requires them
+	// adjacent, and adjacency is direction-blind. This is what holds the
+	// direction.
+	it('strandedDashStarMarker runs STRICTLY BEFORE continuationMarkerDash', () => {
+		expect(at('trailing-em-dash-tail')).toBeLessThan(
+			at('continuation-marker-em-dash-loss'),
+		);
+	});
+
 	// Rule 4, UNLINK BEFORE WRAP — see the header for why. Asserted
 	// over the whole of BOTH sets, never over the ids that happen to be
 	// in them today: `at()` throws on an unregistered id, `CLASSES`
@@ -490,9 +634,12 @@ describe('registry order', () => {
 	// that behave that way. A new rule on either side therefore fails
 	// something loudly rather than widening a gap this test cannot see.
 	it('every unlink rule precedes every rtl wrap rule', () => {
-		const lastUnlink = Math.max(...[...UNLINK].map(at));
-		const firstWrap = Math.min(...[...WRAP].map(at));
-		expect(lastUnlink).toBeLessThan(firstWrap);
+		const wraps = [...WRAP];
+		const firstWrap = Math.min(...wraps.map(at));
+		expect(lastWithin(UNLINK, wraps)).toBeLessThan(firstWrap);
+		// Counted for the same reason as rule 1, and also a product:
+		// 2 structural unlink rules × 3 text-phase wrap rules.
+		expect(crossPhasePairs(UNLINK, wraps)).toBe(6);
 	});
 
 	it('the live catalogue’s entangled clusters occupy a gap-free span', () => {
@@ -553,6 +700,30 @@ describe('registry order', () => {
 				'prefixed-geresh-abbrev-mislink',
 				'redundant-outer-rtl-span',
 			],
+			// SIX became SEVEN, and the second of the two arrived the same
+			// way as the first — reported by the commutation gate as
+			// `trailing-em-dash-tail × continuation-marker-em-dash-loss @
+			// A00337`, never recorded in the catalogue. Writing `—*3)`
+			// onto a sibling CREATES the dashed-sibling witness the
+			// continuation rule requires, so the direction is load-bearing
+			// and is pinned separately above.
+			['continuation-marker-em-dash-loss', 'trailing-em-dash-tail'],
+			// FIVE clusters became SEVEN at batch 7 — this one and the pair
+			// above it — and both arrived by a
+			// route none of the others did: the edge was NEVER IN THE
+			// CATALOGUE. `checkAdjacency`'s limitation note names exactly
+			// this case — "a row whose edge was never recorded at all" — and
+			// the commutation gate is what recorded it, reporting
+			// `stranded-stem-head × duplicated-definition-opening-run @
+			// R00223` as an undeclared non-commuting pair before either
+			// rule's PR existed.
+			//
+			// Its direction is load-bearing and is pinned separately above,
+			// for the same reason the tosefta pair's is: the stem rule
+			// EXPOSES the duplicate by moving a label out of `senses[0]`,
+			// so reversed the repair at `R00223` never happens and every
+			// per-rule count still reads normal.
+			['duplicated-definition-opening-run', 'stranded-stem-head'],
 			[
 				'em-dash-section-break-in-own-italic',
 				'emphasis-run-edge-space',
@@ -591,7 +762,7 @@ describe('registry order', () => {
 	// there being no clusters at all.
 	it('every derived cluster occupies a gap-free span', () => {
 		const clusters = entangledClusters(catalogue, RULES);
-		expect(clusters).toHaveLength(5);
+		expect(clusters).toHaveLength(7);
 		for (const cluster of clusters) {
 			const span = Math.max(...cluster.at) - Math.min(...cluster.at) + 1;
 			expect(`${cluster.ids.join(', ')} span ${span}`).toBe(
@@ -1039,6 +1210,95 @@ describe('the classification is earned, not declared', () => {
 		await scan();
 		expect(everDeclared('unlinks')).toEqual([...UNLINK].toSorted(byId));
 	}, 180_000);
+
+	// WHAT EARNS THE CROSS-PHASE SKIP IN RULES 1 AND 4. Those two
+	// assertions can no longer compare a structural unlink rule against
+	// a text-phase reader, because index is not execution order across
+	// phases — so the guarantee has to come from somewhere, and the
+	// phase name is not a guarantee.
+	//
+	// Rule 1's hazard is a retarget adopting a target off an anchor that
+	// an unlink will later DELETE. Batch 7's two duplication rules
+	// remove an anchor from a run that is a verbatim DUPLICATE, so the
+	// twin carrying the same target survives in the same entry and the
+	// antecedent does not go away. Measured over all 32,512 entries,
+	// every anchor they remove leaves a surviving copy of its
+	// `data-ref`: measured ALONE, 30 of 30 for the opening rule and
+	// 11 of 11 for the adjacent one; measured COMPOSED, 42 of 42.
+	// 0 fully orphaned in either reading.
+	//
+	// THE TOTAL IS 42 HERE, NOT THE 30 + 11 = 41 THAT
+	// `duplication-corpus.test.ts` reports, and the difference is the
+	// composition. That file measures each rule alone on the entry after
+	// `text-repairs`; this one measures after the preceding
+	// `structural-repairs` rules, where `strandedStemHead` exposes the
+	// duplicate at `R00223` and `duplicatedOpeningRun` repairs 89 rather
+	// than 88. The 89th run carries one anchor. 30 + 1 + 11 = 42.
+	//
+	// Asserted here rather than argued in a comment, because an argument
+	// would keep passing after a re-fetch changed the corpus.
+	it('the cross-phase unlink rules orphan no target', async () => {
+		// Named apart from the file's own `targetsOf`, which returns a
+		// JSON signature of href/data-ref PAIRS for the classification
+		// scan. This one needs the bare `data-ref` list, because the
+		// question here is multiset survival of one target, not whether an
+		// anchor's pair changed.
+		const refsOf = (subject: SourceEntry): string[] =>
+			fieldsOf(subject).flatMap((field) =>
+				anchors(tokenize(field))
+					.map((anchor) => anchor.dataRef)
+					.filter((ref): ref is string => ref !== undefined && ref !== ''),
+			);
+		const structural = RULES.filter(
+			(rule) => UNLINK.has(rule.id) && rule.phase === 'structural-repairs',
+		);
+		expect(structural).toHaveLength(2);
+		const orphaned: string[] = [];
+		let removed = 0;
+		// THE STATE THE RULES ACTUALLY RECEIVE, not the state before the
+		// phase. A first version stopped after `text-repairs`, which
+		// measured 88 of `duplicatedOpeningRun`'s repairs and missed the
+		// 89th — the one `strandedStemHead` EXPOSES at `R00223`, whose
+		// run carries an anchor. The claim below says "over all 32,512
+		// entries", so it has to be measured where the rules stand or it
+		// is a claim with a hole exactly at this batch's own new
+		// dependency.
+		const earlier = RULES.slice(
+			0,
+			RULES.findIndex(
+				(rule) => rule.id === 'duplicated-definition-opening-run',
+			),
+		).filter((rule) => rule.phase === 'structural-repairs');
+		for await (const source of readSourceEntries()) {
+			const text = applyTransforms(
+				applyRepairs(source).entry,
+				'text-repairs',
+			).entry;
+			const input = applyTransforms(text, 'structural-repairs', earlier).entry;
+			for (const rule of structural) {
+				const result = rule.apply(input);
+				if (result.records.length === 0) {
+					continue;
+				}
+				const before = refsOf(input);
+				const after = refsOf(result.entry);
+				for (const target of new Set(before)) {
+					const lost =
+						before.filter((t) => t === target).length -
+						after.filter((t) => t === target).length;
+					if (lost <= 0) {
+						continue;
+					}
+					removed += lost;
+					if (!after.includes(target)) {
+						orphaned.push(`${source.rid} ${rule.id} ${target}`);
+					}
+				}
+			}
+		}
+		expect(orphaned).toEqual([]);
+		expect(removed).toBe(42);
+	}, 300_000);
 
 	it('exactly the GLYPH rules ever correct a target in place', async () => {
 		await scan();
