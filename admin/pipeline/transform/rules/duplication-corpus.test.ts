@@ -1,9 +1,8 @@
 import { expect, it } from 'bun:test';
-import { applyRepairs } from '../../body/repairs.ts';
-import { readSourceEntries } from '../../body/source.ts';
 import type { SourceEntry, SourceSense } from '../../body/types.ts';
 import { RULES } from '../registry.ts';
 import { applyTransforms } from '../run.ts';
+import { composedEntries } from './corpus-fixture.ts';
 import {
 	adjacentRepeat,
 	adjacentVerbatimRepeat,
@@ -30,13 +29,7 @@ import {
  * Explicit timeouts throughout, per `anaphora.test.ts`'s lesson.
  */
 
-const source: SourceEntry[] = [];
-for await (const entry of readSourceEntries()) {
-	source.push(entry);
-}
-const composed = source.map(
-	(entry) => applyTransforms(applyRepairs(entry).entry, 'text-repairs').entry,
-);
+const composed: readonly SourceEntry[] = await composedEntries();
 
 interface Tally {
 	codepoints: number;
@@ -179,7 +172,7 @@ it('accounts for the catalogued 59 as the members under a 120-char cap', () => {
 	// a re-fetch that introduced one fails here rather than moving the
 	// split without saying so.
 	for (const run of [...raw.adjacent, ...raw.opening]) {
-		expect(run.length).toBe([...run].length);
+		expect(run).toHaveLength([...run].length);
 	}
 	const short = raw.adjacent.filter((run) => run.length <= 120).length;
 	const long = raw.adjacent.filter((run) => run.length > 120).length;

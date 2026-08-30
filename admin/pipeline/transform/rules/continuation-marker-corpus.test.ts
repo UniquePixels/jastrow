@@ -1,7 +1,5 @@
 import { expect, it } from 'bun:test';
-import { applyRepairs } from '../../body/repairs.ts';
-import { readSourceEntries } from '../../body/source.ts';
-import type { SourceEntry, SourceSense } from '../../body/types.ts';
+import type { SourceSense } from '../../body/types.ts';
 import { stripTags } from '../no-new-text.ts';
 import { RULES } from '../registry.ts';
 import { applyTransforms } from '../run.ts';
@@ -12,6 +10,7 @@ import {
 	hasWitness,
 	NOT_OURS,
 } from './continuation-marker.ts';
+import { composedEntries } from './corpus-fixture.ts';
 
 /** The rule's own exclusion predicate, asserted here so the arm tests
  * below cannot drift from what the rule actually refuses. */
@@ -52,16 +51,9 @@ function* levels(
 const OTHERS = RULES.filter(
 	(rule) => rule.id !== 'continuation-marker-em-dash-loss',
 );
-const composed: SourceEntry[] = [];
-for await (const entry of readSourceEntries()) {
-	composed.push(
-		applyTransforms(
-			applyTransforms(applyRepairs(entry).entry, 'text-repairs').entry,
-			'structural-repairs',
-			OTHERS,
-		).entry,
-	);
-}
+const composed = (await composedEntries()).map(
+	(entry) => applyTransforms(entry, 'structural-repairs', OTHERS).entry,
+);
 
 const arms = { dash: 0, bracket: 0, mixed: 0, run: 0, unmixed: 0, withDash: 0 };
 let refusalAgrees = true;

@@ -1,11 +1,10 @@
 import { expect, it } from 'bun:test';
 import { parseLabel } from '../../body/labels.ts';
-import { applyRepairs } from '../../body/repairs.ts';
-import { readSourceEntries } from '../../body/source.ts';
 import type { SourceEntry, SourceSense } from '../../body/types.ts';
 import { parsePatterns } from '../../research/patterns.ts';
 import { RULES } from '../registry.ts';
 import { applyTransforms } from '../run.ts';
+import { composedEntries, sourceEntries } from './corpus-fixture.ts';
 import { strandedDashStarMarker } from './sense-marker.ts';
 
 /**
@@ -28,7 +27,7 @@ import { strandedDashStarMarker } from './sense-marker.ts';
 
 /** The row's PUBLISHED predicate — a definition ending in an em dash,
  * with trailing horizontal whitespace allowed. Wider than the RULE's
- * `STRANDED_DASH`, on purpose: the spaced members are counted here
+ * `endsInStrandedDash`, on purpose: the spaced members are counted here
  * rather than being invisible, and §6 below turns the difference
  * between the two into an assertion. */
 const PUBLISHED_TAIL = /—[ \t]*$/u;
@@ -168,14 +167,9 @@ function censusOf(entries: readonly SourceEntry[]): Census {
 	return c;
 }
 
-const source: SourceEntry[] = [];
-for await (const entry of readSourceEntries()) {
-	source.push(entry);
-}
+const source: readonly SourceEntry[] = await sourceEntries();
 /** What the `structural-repairs` phase receives. */
-const composed = source.map(
-	(entry) => applyTransforms(applyRepairs(entry).entry, 'text-repairs').entry,
-);
+const composed: readonly SourceEntry[] = await composedEntries();
 const raw = censusOf(source);
 const pre = censusOf(composed);
 /** After this rule alone, and after the whole phase — §7 needs both. */

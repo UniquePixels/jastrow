@@ -37,7 +37,7 @@ describe('squarePrefix', () => {
 	// 200 characters, past the 120 a first pass used.
 	it('finds a run longer than any plausible cap', () => {
 		const long = `${'ab'.repeat(99)}c.`;
-		expect(long.length).toBe(200);
+		expect(long).toHaveLength(200);
 		expect(squarePrefix(`${long}${long}`)).toBe(200);
 	});
 });

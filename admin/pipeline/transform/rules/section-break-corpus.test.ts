@@ -1,8 +1,6 @@
 import { expect, it } from 'bun:test';
-import { applyRepairs } from '../../body/repairs.ts';
-import { readSourceEntries } from '../../body/source.ts';
 import type { SourceEntry, SourceSense } from '../../body/types.ts';
-import { applyTransforms } from '../run.ts';
+import { composedEntries } from './corpus-fixture.ts';
 import { LABELS, sectionBreakTerminator } from './section-break.ts';
 
 /**
@@ -34,12 +32,7 @@ function* walk(
 	}
 }
 
-const composed: SourceEntry[] = [];
-for await (const entry of readSourceEntries()) {
-	composed.push(
-		applyTransforms(applyRepairs(entry).entry, 'text-repairs').entry,
-	);
-}
+const composed: readonly SourceEntry[] = await composedEntries();
 
 const predecessors = new Map<string, number>();
 const defective: string[] = [];

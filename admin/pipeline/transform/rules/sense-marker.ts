@@ -72,21 +72,27 @@
 import type { SourceEntry, SourceSense } from '../../body/types.ts';
 import type { Rule, TransformRecord, TransformResult } from '../types.ts';
 
-/** A definition ending in a bare em dash. Anchored with no whitespace
- * allowance because all 101 members end in the dash itself — admitting
- * trailing space would silently take in a shape nothing has measured
- * and would hand `trailing-whitespace-definition` (10, still `PENDING`)
- * new members, the sibling-row growth batch 3b found by hand. */
-const STRANDED_DASH = /—$/u;
-
-/** The starred continuation marker, exactly as the upstream split left
- * it: star, digits, close paren, nothing else. */
-const STAR_MARKER = /^\*\d+\)$/u;
-
 /** The dash that moves. Not deleted anywhere — written into `number` in
  * the same step — so it is declared through neither `removes` nor
  * `allows`. */
 const DASH = '—';
+/** A definition ending in a bare em dash, as `endsWith(DASH)`.
+ *
+ * NO WHITESPACE ALLOWANCE, and that is the point: all 101 members end
+ * in the dash itself, so admitting trailing space would silently take
+ * in a shape nothing has measured and would hand
+ * `trailing-whitespace-definition` (10, still `PENDING`) new members —
+ * the sibling-row growth batch 3b found by hand. The row's PUBLISHED
+ * predicate is wider (`/—[ \t]*$/u`), and
+ * `sense-marker-corpus.test.ts` measures both so the 8 spaced members
+ * are counted rather than invisible. */
+function endsInStrandedDash(definition: string): boolean {
+	return definition.endsWith(DASH);
+}
+
+/** The starred continuation marker, exactly as the upstream split left
+ * it: star, digits, close paren, nothing else. */
+const STAR_MARKER = /^\*\d+\)$/u;
 
 /** The repair this pair licenses, or `null`. `left` must end in a
  * stranded dash; `right` must carry a starred marker and text of its
@@ -95,7 +101,7 @@ function repairFor(
 	left: SourceSense,
 	right: SourceSense | undefined,
 ): { marker: string; trimmed: string } | null {
-	if (left.definition === undefined || !STRANDED_DASH.test(left.definition)) {
+	if (left.definition === undefined || !endsInStrandedDash(left.definition)) {
 		return null;
 	}
 	if (right?.number === undefined || !STAR_MARKER.test(right.number)) {
@@ -161,4 +167,4 @@ const strandedDashStarMarker: Rule = {
 	phase: 'structural-repairs',
 };
 
-export { DASH, STAR_MARKER, STRANDED_DASH, strandedDashStarMarker };
+export { DASH, endsInStrandedDash, STAR_MARKER, strandedDashStarMarker };
