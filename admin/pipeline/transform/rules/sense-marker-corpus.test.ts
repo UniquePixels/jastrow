@@ -3,6 +3,7 @@ import { parseLabel } from '../../body/labels.ts';
 import { applyRepairs } from '../../body/repairs.ts';
 import { readSourceEntries } from '../../body/source.ts';
 import type { SourceEntry, SourceSense } from '../../body/types.ts';
+import { parsePatterns } from '../../research/patterns.ts';
 import { RULES } from '../registry.ts';
 import { applyTransforms } from '../run.ts';
 import { strandedDashStarMarker } from './sense-marker.ts';
@@ -272,6 +273,28 @@ it('splits the two spellings exactly by successor', () => {
 }, 30_000);
 
 // ---- 7. the entanglement edge does not survive the rule ----
+
+// THE DELETION IS PINNED HERE BECAUSE NEITHER GATE CAN WITNESS IT.
+// `entangledClusters` derives over REGISTERED rules, so an edge whose
+// endpoints are both unregistered — which this one was for the whole of
+// Phase 2 until batch 7 — never enters a cluster, and the pinned cluster
+// list reads 5 clusters with neither row in any of them BOTH before and
+// after the deletion. `unaccountedEdges` excludes both-unregistered
+// edges by design. So `registry.ts`'s "only pinning the cluster set
+// notices" does not hold for this class, and the assertion below is the
+// one thing standing between a measured deletion and a silent one.
+it('records the deleted entanglement edge as deleted', async () => {
+	const rows = parsePatterns(
+		await Bun.file('data/patches/patterns.jsonl').text(),
+	);
+	for (const id of [
+		'trailing-em-dash-tail',
+		'sense-number-outside-closed-grammar',
+	]) {
+		const row = rows.find((r) => r.id === id);
+		expect(row?.entangledWith).toBeUndefined();
+	}
+}, 30_000);
 
 it('leaves the two rows’ remainders disjoint, at 0 shared entries', () => {
 	const dashes = new Set<string>();

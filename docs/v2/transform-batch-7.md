@@ -1,6 +1,8 @@
 # Phase 2 batch 7 — the sense and definition structure family
 
-**Status: discovery complete 2026-08-29; no rule written yet.** Scope
+**Status: in progress 2026-08-29.** One rule shipped, one row
+re-scoped on Brian's ruling, one entanglement edge deleted, one gate
+docstring corrected. Six of the eight rows are still open. Scope
 ruled by Brian on the batch-7 opening question: the eight blocking rows
 that describe sense and definition structure, 599 catalogued instances.
 It is the second batch to run against the `structural-repairs` phase
@@ -20,8 +22,8 @@ time in three batches it changed an answer.
 
 | Row | Catalogued | Measured post-repairs | |
 |---|---:|---:|---|
-| `trailing-em-dash-tail` | 130 ent / 132 senses | **130 / 132** | exact |
-| `sense-number-outside-closed-grammar` | 111 ent / 113 tokens | **0** | dissolves — §2 |
+| `trailing-em-dash-tail` | 130 ent / 132 senses | **130 / 132** | exact — **101 shipped**, §7 |
+| `sense-number-outside-closed-grammar` | 111 ent / 113 tokens | **0** | **re-scoped to 6** — §2 |
 | `duplicated-definition-opening-run` | 85 | 60 / 82 / 95 | no predicate — §3 |
 | `empty-lead-sense` | 84 | **73 `{}` + 11 ws = 84** | exact |
 | `continuation-marker-em-dash-loss` | 71 | 38 | unsettled — §4 |
@@ -163,9 +165,73 @@ catalogued 10: `A00519`, `C00193`, `C00952`, `G00323`, `H00068`,
 is the row's own published example. All 11 need eyes-on before a rule
 inserts a byte.
 
-## 7. What this batch has not done yet
+## 7. What shipped so far
 
-- No rule is written. No registry entry, no test, no gate.
-- The 6 residual `*N)` markers of §2 have no home.
+**`strandedDashStarMarker`** (`rules/sense-marker.ts`, id
+`trailing-em-dash-tail`, `structural-repairs`) — the third rule in that
+phase, repairing **101** of the row's 132 tails. The em dash MOVES from
+the end of the definition into the next sibling's `number`, so the rule
+deletes nothing and declares neither `removes` nor `allows`;
+`fieldsOf` walks both fields, and the move is text-neutral to
+`checkNoNewText` and `no-lost-text` alike.
+
+What it writes is **unattested but not ungrammatical**, and that is the
+one place it is weaker than its phase-mate. `stemHeadMarkerChop` could
+argue `—2)` is the corpus's own spelling, 3,985 `number` fields deep;
+`—*N)` occurs **0 times corpus-wide**. What licenses it is the MODEL —
+`labels.ts`'s `LABEL` takes dash and star as independent fields in that
+order, and `printLabel` regenerates `—*2)` byte-exactly — and the
+reason the combination is unattested is precisely the upstream split
+being repaired.
+
+Verified on the branch: `migrate-dry` gates **32,512/32,512** on all
+four, `schemaFailures` 0, `transformFailures` 0,
+`brokenTopSequences` **34** and `startsAtTwo` **8** unchanged from
+`v2`, `labelQuarantines` 0, and `transform trailing-em-dash-tail: 101
+instance(s)`.
+
+## 8. A gate blind spot, found by deleting an edge
+
+Brian ruled the row **re-scoped to its 6 residuals**, not discarded,
+and ruled the now-dead entanglement edge **deleted with the cluster set
+pinned**. The second half of that could not be carried out as written,
+and finding out why is this batch's second real finding.
+
+After the rule ships, each row's remainder is defined by the ABSENCE of
+what the other needs — 31 stranded dashes with no starred successor, 6
+starred markers with no stranded dash — and measured after the whole
+`structural-repairs` phase the two remainders share **0 entries**. The
+edge is dead. But **neither entanglement gate can witness its
+deletion**:
+
+- `unaccountedEdges` excludes both-unregistered edges by design —
+  execution order cannot be wrong about a rule that does not run.
+- `entangledClusters` derives over REGISTERED rules, so this edge was
+  never in a cluster to begin with. Measured directly, before and
+  after: **5 clusters both times, with neither row in any of them.**
+
+`registry.ts`'s standing claim — *"An edge DELETED from the catalogue
+is not a recorded edge, so this walks past it; only pinning the cluster
+set notices"* — is therefore **false for edges between two unregistered
+rows**, which this one was for the whole of Phase 2. It is corrected in
+place rather than left standing, and the deletion is pinned by a direct
+catalogue assertion in `rules/sense-marker-corpus.test.ts` §7 instead.
+
+The ORDER of operations turned out to matter and is worth keeping: the
+rule was registered FIRST and the edge deleted SECOND, so
+`unaccountedEdges` reported the surviving half-edge in the open before
+it was removed. Had the edge been deleted first, nothing anywhere would
+have said a word.
+
+## 9. What this batch has not done yet
+
+- Six rows are untouched: `duplicated-definition-opening-run`,
+  `empty-lead-sense`, `continuation-marker-em-dash-loss`,
+  `adjacent-verbatim-repetition`, `bracketed-gloss-lead-sense`,
+  `section-break-terminator-loss`.
 - *k* for §3 is not ruled.
 - The 11 of §6 are not read.
+- Nothing here measures what the 31 residual tails of
+  `trailing-em-dash-tail` need. The 8 spaced ones point at
+  `continuation-marker-em-dash-loss`; the 16 entry-final and 7
+  next-unnumbered point at nothing yet.

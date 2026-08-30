@@ -1607,8 +1607,26 @@ function checkAdjacency(
  *
  * What it does NOT replace is the derived-set assertion. An edge
  * DELETED from the catalogue is not a recorded edge, so this walks
- * past it; only pinning the cluster set notices. Two complementary
- * claims, not one — see `registry.order.test.ts`.
+ * past it; pinning the cluster set notices — SOMETIMES. Two
+ * complementary claims, not one — see `registry.order.test.ts`.
+ *
+ * CORRECTED 2026-08-29 (batch 7). "Only pinning the cluster set
+ * notices" is false for one class of edge, and batch 7 deleted one of
+ * that class. `entangledClusters` derives over REGISTERED rules, so an
+ * edge whose endpoints are BOTH unregistered never enters a cluster in
+ * the first place — measured directly on the catalogue before and
+ * after the deletion of the `trailing-em-dash-tail` ~
+ * `sense-number-outside-closed-grammar` edge, and the pinned cluster
+ * list is 5 clusters both times, with neither row in any of them. So
+ * for a both-unregistered edge NEITHER gate witnesses a deletion:
+ * this function excludes it by design (see the next paragraph) and the
+ * cluster pin cannot see it either. The protection begins only once
+ * one endpoint is registered, which is why batch 7 registered its rule
+ * FIRST and deleted the edge second — with the rule in place, this
+ * function did report the surviving half-edge, and would report a
+ * re-addition. What pins the deletion itself is neither gate but a
+ * direct catalogue assertion in
+ * `rules/sense-marker-corpus.test.ts` §7.
  *
  * Edges between two unregistered rows are excluded rather than
  * missing: execution order cannot be wrong about a rule that does not
