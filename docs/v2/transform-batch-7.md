@@ -223,7 +223,31 @@ rule was registered FIRST and the edge deleted SECOND, so
 it was removed. Had the edge been deleted first, nothing anywhere would
 have said a word.
 
-## 9. What this batch has not done yet
+## 9. `empty-lead-sense`'s presumed repair is wrong for 72 of its 73
+
+The row reproduces exactly — 73 `{}` lead senses plus 11 whitespace-only
+ones, 84 — and its catalogue entry names one caveat: `rejoinGlossHead`
+concatenates `senses[0].definition`, so in the 11 whitespace cases that
+space is the print separator and "the presumable repair (drop the lead
+sense) WOULD DESTROY A BYTE IN 11 OF 84".
+
+**The larger objection runs the other way, and it is 72 of 73.**
+`rejoin.ts:44` reads `e.content.senses[0]?.definition ?? ''`. Dropping
+an empty lead PROMOTES `senses[1]` into that slot — and 72 of the 73
+empties have a numbered sibling holding real text. Measured on five of
+them, the gloss head goes from `" ch. "` to `" ch.  <a class="refLink"
+href="/Jastrow,_אוֹכֶל.1" …` — the whole of sense 1 pulled into the
+entry's lead.
+
+**Both text gates are blind to it.** Nothing is invented and nothing is
+lost; text moves between fields, which is the same class as batch 4's
+`applyRepairs` collision and the reason that one needed registration to
+surface. So the row's repair is not "drop the lead sense" for 72 of 73
+members, and what it actually needs is a ruling, not a rule — plausibly
+the same data-vs-display question batch 6b's `empty-stem-section` turned
+on.
+
+## 10. What this batch has not done yet
 
 - Six rows are untouched: `duplicated-definition-opening-run`,
   `empty-lead-sense`, `continuation-marker-em-dash-loss`,
