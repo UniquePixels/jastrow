@@ -3,7 +3,7 @@ import type { SourceEntry, SourceSense } from '../../body/types.ts';
 import { RULES } from '../registry.ts';
 import { applyTransforms } from '../run.ts';
 import { repairedEntries } from './corpus-fixture.ts';
-import { isWholeEntryStub, STUB } from './see-particle.ts';
+import { isEmptySlot, isWholeEntryStub, stubSlot } from './see-particle.ts';
 
 /**
  * `see-particle-lost`, measured where the rule stands.
@@ -83,8 +83,8 @@ function census(entries: readonly SourceEntry[]): Census {
 	for (const entry of entries) {
 		const senses = entry.content.senses;
 		for (const { depth, sense } of walk(senses)) {
-			const match = STUB.exec(sense.definition ?? '');
-			if (match === null || (match.groups?.['slot'] ?? '').trim() !== '') {
+			const stub = stubSlot(sense.definition ?? '');
+			if (stub === null || !isEmptySlot(stub.raw)) {
 				continue;
 			}
 			if (depth > 0 || !isWholeEntryStub(senses)) {
@@ -94,16 +94,22 @@ function census(entries: readonly SourceEntry[]): Census {
 		if (!isWholeEntryStub(senses)) {
 			continue;
 		}
-		const match = STUB.exec(senses[0]?.definition ?? '');
-		if (match === null) {
+		const stub = stubSlot(senses[0]?.definition ?? '');
+		if (stub === null) {
 			continue;
 		}
 		out.stubs++;
-		const slot = (match.groups?.['slot'] ?? '').trim();
-		if (slot === '') {
+		// THE RULE'S OWN PREDICATE, not a second copy of it. `isEmptySlot`
+		// is what `restoreParticle` calls, so a slot this file counts as
+		// empty is exactly a slot the rule repairs — the two cannot drift
+		// into counting different populations.
+		if (isEmptySlot(stub.raw)) {
 			out.empty.push(entry.rid);
 		} else {
-			out.filled.set(slot, (out.filled.get(slot) ?? 0) + 1);
+			out.filled.set(
+				stub.raw.trim(),
+				(out.filled.get(stub.raw.trim()) ?? 0) + 1,
+			);
 		}
 	}
 	return out;

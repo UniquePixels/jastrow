@@ -75,24 +75,61 @@ import type { Rule, TransformRecord, TransformResult } from '../types.ts';
 const PARTICLE = 'v.';
 
 /**
- * A whole-definition redirect stub with an EMPTY particle slot: a
- * leading comma, optional horizontal space, then the anchor and nothing
- * after it but an optional terminating period.
+ * A whole-definition redirect stub: a leading comma, the particle slot,
+ * then the anchor and nothing after it but an optional terminating
+ * period.
  *
- * `[^<]*` between the comma and the tag is what reads the slot, and
- * anchoring both ends is what refuses the 87 second-form headword lines
- * — those carry gloss text the anchor does not exhaust.
+ * `slot` is the RAW run between the comma and the tag — leading
+ * whitespace included — and anchoring both ends is what refuses the 87
+ * second-form headword lines, which carry gloss text the anchor does not
+ * exhaust.
  *
- * THE SEPARATING SPACE IS REQUIRED (`[ \t]+`, not `*`), which is
- * fail-closed rather than strict for its own sake. All four members read
- * `", <a"`, so the space is part of the shape; admitting `",<a"` would
- * have the rule emit `",v. <a"`, a particle fused to the comma and a
- * spelling the corpus holds nowhere. The population is pinned at 4 in
- * the corpus gate, so a shape this refuses that ought to be repaired
- * fails a test rather than passing silently.
+ * **EVERY QUANTIFIER HERE IS UNAMBIGUOUS, and that is deliberate.** An
+ * earlier form wrote the separator as `[ \t]*,[ \t]+` before `slot`'s
+ * `[^<]*`, and closed with `[ \t]*\.?[ \t]*$`. Both are polynomial
+ * backtracking sites — `[ \t]+` and `[^<]*` can each take a space from a
+ * run, and so can the two `[ \t]*` around the optional period — so a
+ * long non-matching input costs quadratic time in each. SonarCloud
+ * `typescript:S8786` flagged it on PR #58. The fix is not a cap or a
+ * timeout: `,` is outside `[ \t]`, `<` is outside `[^<]`, and the period
+ * now sits INSIDE its own optional group, so at every position exactly
+ * one branch can match and there is nothing to backtrack over.
  */
 const STUB =
-	/^(?<head>[ \t]*,[ \t]+)(?<slot>[^<]*)<a\b[^>]*>[^<]*<\/a>[ \t]*\.?[ \t]*$/u;
+	/^(?<head>[ \t]*,)(?<slot>[^<]*)<a\b[^>]*>[^<]*<\/a>[ \t]*(?:\.[ \t]*)?$/u;
+
+/** What a stub-shaped definition holds: the raw particle slot and the
+ * offset the particle would be spliced at. `null` when the definition is
+ * not stub-shaped at all.
+ *
+ * ONE PREDICATE, TWO CALLERS. The rule reads it to decide whether to
+ * repair; `see-particle-corpus.test.ts` reads it to census the 7,270
+ * filled slots and the 4 empty ones. Two copies would let the gate
+ * count a population the rule does not act on — which is exactly what
+ * the required separating space below would have caused. */
+function stubSlot(definition: string): { at: number; raw: string } | null {
+	const match = STUB.exec(definition);
+	if (match === null) {
+		return null;
+	}
+	const head = match.groups?.['head'] ?? '';
+	const raw = match.groups?.['slot'] ?? '';
+	return { at: head.length + raw.length, raw };
+}
+
+/** Is this stub's particle slot EMPTY — whitespace and nothing else,
+ * but not nothing at all?
+ *
+ * THE SEPARATING SPACE IS REQUIRED, and `raw !== ''` is what requires
+ * it. All four members read `", <a"`, so the space is part of the shape;
+ * admitting `",<a"` would have the rule emit `",v. <a"`, a particle
+ * fused to the comma and a spelling the corpus holds nowhere. Fail-closed
+ * rather than strict for its own sake: the population is pinned at 4 in
+ * the corpus gate, so a shape this refuses that ought to be repaired
+ * fails a test rather than passing silently. */
+function isEmptySlot(raw: string): boolean {
+	return raw !== '' && raw.trim() === '';
+}
 
 /**
  * `definition` with the see-particle restored, or `null` when this is
@@ -107,14 +144,11 @@ const STUB =
  * saying so.
  */
 function restoreParticle(definition: string): string | null {
-	const match = STUB.exec(definition);
-	if (match === null || (match.groups?.['slot'] ?? '').trim() !== '') {
+	const stub = stubSlot(definition);
+	if (stub === null || !isEmptySlot(stub.raw)) {
 		return null;
 	}
-	const at =
-		(match.groups?.['head'] ?? '').length +
-		(match.groups?.['slot'] ?? '').length;
-	return `${definition.slice(0, at)}${PARTICLE} ${definition.slice(at)}`;
+	return `${definition.slice(0, stub.at)}${PARTICLE} ${definition.slice(stub.at)}`;
 }
 
 /** Is this entry's content nothing but one childless sense? The
@@ -162,9 +196,10 @@ const seeParticleRestore: Rule = {
 };
 
 export {
+	isEmptySlot,
 	isWholeEntryStub,
 	PARTICLE,
 	restoreParticle,
-	STUB,
 	seeParticleRestore,
+	stubSlot,
 };
