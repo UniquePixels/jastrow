@@ -170,6 +170,17 @@ it('repairs 89 composed, one more than it can find alone', () => {
 it('accounts for the catalogued 59 as the members under a 120-char cap', () => {
 	// Measured on the RAW run, which is what a cap over the definition
 	// string would have truncated — not on the stripped declaration.
+	//
+	// `.length` is UTF-16 CODE UNITS, deliberately: a cap written in JS
+	// counts what `.length` counts. The rest of this file counts
+	// CODEPOINTS (`[...r].length`), and the 59/6 split is the evidence
+	// that identifies the cap, so the two units must not silently
+	// disagree. Today no run holds a surrogate pair — asserted below, so
+	// a re-fetch that introduced one fails here rather than moving the
+	// split without saying so.
+	for (const run of [...raw.adjacent, ...raw.opening]) {
+		expect(run.length).toBe([...run].length);
+	}
 	const short = raw.adjacent.filter((run) => run.length <= 120).length;
 	const long = raw.adjacent.filter((run) => run.length > 120).length;
 	expect(short).toBe(59);

@@ -93,6 +93,19 @@ describe('continuationMarkerDash', () => {
 		expect(continuationMarkerDash.apply(input).entry).toBe(input);
 	});
 
+	// The `index === 0` guard, exercised on its own. No other fixture
+	// reaches it: they all put a dashed marker at index 1, so `isDefect`
+	// returns on the BARE test long before the index is read. A bare
+	// marker greater than 1 sitting FIRST is the only shape that gets
+	// there.
+	it('refuses a bare marker that is first in its list', () => {
+		const input = entry([
+			{ definition: 'first.', number: '2)' },
+			{ definition: 'x.', number: '—3)' },
+		]);
+		expect(continuationMarkerDash.apply(input).entry).toBe(input);
+	});
+
 	// The `N > 1` guard, exercised on its own. The fixture above cannot
 	// reach it — index 1 there already carries `—2)`, so `isDefect`
 	// returns on the BARE test long before the number is read. This one

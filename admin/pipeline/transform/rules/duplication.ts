@@ -40,9 +40,15 @@
  * ## What they delete, and what that costs them
  *
  * Both run in `structural-repairs` (Brian's ruling 2026-08-29) so the
- * loss gate judges them per call, rather than in `text-repairs` where
- * they would be defended only by a pinned total — 6,128 newly deleted
- * codepoints is more than the whole existing baseline of 4,510.
+ * loss gate judges them PER CALL, rather than in `text-repairs` where
+ * they would be defended only by a pinned total.
+ *
+ * The argument is the gating, not the size. An earlier version of this
+ * note set their 6,128 RAW deleted codepoints against
+ * `deletion-baseline.corpus.test.ts`'s 4,510 and called it larger —
+ * comparing a raw figure to a stripped one. On the baseline's own basis
+ * (`textOf`, tags stripped) these two delete **2,738**, well under
+ * 4,510. Both figures are pinned in `duplication-corpus.test.ts`.
  *
  * Both also REMOVE ANCHORS, because a duplicated run can contain one:
  * 26 of the 88 opening runs hold 30 anchors between them, and 9 of the
@@ -106,7 +112,14 @@ function squarePrefix(s: string): number {
 
 /** The first adjacent repeat that ends in a period and does NOT start at
  * offset 0, longest run first. Offset 0 is `duplicatedOpeningRun`'s, and
- * excluding it here is what keeps the two populations disjoint. */
+ * excluding it here is what keeps the two populations disjoint.
+ *
+ * COST: O(periods × n²) per definition in the worst case, against the
+ * O(n) `zArray` path the opening rule uses. That is acceptable today —
+ * the corpus pass runs well inside its pinned timeout — but it is the
+ * one place in this file where a longer corpus would be felt. The fix
+ * is NOT a length cap, for the reason the module docstring gives; a
+ * Z-array formulation would give the same answer in linear time. */
 function adjacentRepeat(s: string): { at: number; run: string } | null {
 	for (let i = 0; i < s.length; i++) {
 		if (s[i] !== '.') {

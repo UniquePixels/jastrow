@@ -988,10 +988,17 @@ const RULES: readonly Rule[] = [
 	//
 	// THEY RUN HERE, NOT IN `text-repairs`, ON BRIAN'S RULING
 	// 2026-08-29. The loss gate is phase-scoped, so this is the only
-	// phase in which a deletion is judged per call; in `text-repairs`
+	// phase in which a deletion is judged PER CALL; in `text-repairs`
 	// the two would instead be defended by
-	// `body/deletion-baseline.corpus.test.ts`'s pinned total, and their
-	// 6,128 codepoints are more than that whole baseline of 4,510.
+	// `body/deletion-baseline.corpus.test.ts`'s pinned total.
+	//
+	// The argument is the per-call gate, NOT the size — an earlier
+	// version of this note compared their 6,128 RAW codepoints against
+	// that baseline's 4,510 and called it larger, which is a raw figure
+	// against a stripped one. On the baseline's own basis (`textOf`,
+	// tags stripped) the two rules delete **2,738**, comfortably below
+	// 4,510. The comparison never supported the ruling; the gating
+	// difference does.
 	//
 	// THEIR DISJOINTNESS IS POSITIONAL AND IS WHAT DEFINES THEM.
 	// `duplicatedOpeningRun` matches only at offset 0 and
@@ -1148,14 +1155,19 @@ const PENDING: readonly string[] = [
 	// 2026-08-29, audit
 	// `data/patches/catalogue-audit/sense-number-closed-grammar.md`.
 	// The row's name has been false since before Phase 2 opened, and
-	// its 113 catalogued tokens partition three ways with nothing left
-	// for a rule of its own to do:
+	// its 113 catalogued tokens PARTITION as 101 + 6 + 6, with nothing
+	// left for a rule of its own to do. (The two sixes are DIFFERENT
+	// sets that happen to share a size — see below. An earlier version
+	// of this note listed 107, 6 and 101 as the three parts, which sum
+	// to 214 because the 101 are a subset of the 107.)
 	//
-	// - **107 were never outside the grammar.** `body/labels.ts`'s
-	//   `LABEL` takes the star as a parsed FIELD, not a quarantine
-	//   trigger; all 107 `*N)` markers parse and round-trip through
-	//   `printLabel` byte-exactly.
-	// - **6 are repaired before any transform runs.** `repairs.ts`'s
+	// - **107 of the 113 were never outside the grammar.**
+	//   `body/labels.ts`'s `LABEL` takes the star as a parsed FIELD, not
+	//   a quarantine trigger; all 107 `*N)` markers parse and round-trip
+	//   through `printLabel` byte-exactly. Those 107 split into the 101
+	//   of the third bullet and the 6 named at the end of this note.
+	// - **The other 6 of the 113 are repaired before any transform
+	//   runs**, and they are NOT `*N)` markers at all. `repairs.ts`'s
 	//   "04 — sense-label quarantine repairs" turns the five `-2)`
 	//   ASCII hyphens into `—2)` and moves D00341's `[1)` bracket into
 	//   the sense text. Tokens quarantining to `{unknown}`: 6 raw → **0

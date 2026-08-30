@@ -59,6 +59,13 @@ describe('restoreStops', () => {
 	// THE TWO FALSE-POSITIVE FAMILIES the row's first pass caught, which
 	// is why it was cut from 15 candidates to 10. Excluded by the
 	// predecessor class rather than by an exception list.
+	// A SPACE IS NOT A LETTER OR DIGIT, so the corpus census does not
+	// count it and the rule must not repair it. The census records 2 of
+	// these; nothing else in this file pinned the behaviour.
+	it('refuses a whitespace predecessor', () => {
+		expect(restoreStops('gloss —Pl. x')).toBeNull();
+	});
+
 	it('refuses a closing quote and an ellipsis', () => {
 		expect(restoreStops('the words’—Pl. x')).toBeNull();
 		expect(restoreStops('trailing off…—Pl. x')).toBeNull();

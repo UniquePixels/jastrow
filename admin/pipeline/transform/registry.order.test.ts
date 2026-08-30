@@ -494,7 +494,8 @@ function phaseOf(id: string): string {
  * from a duplicated run, so the twin survives and the antecedent does
  * not go away. That is earned at the bottom of this file over all
  * 32,512 entries — every anchor they remove leaves a surviving copy of
- * the same target in the same entry, 41 of 41 — not asserted here.
+ * the same target in the same entry — 42 of 42 as composed, and
+ * asserted at the bottom of this file rather than here.
  */
 function crossPhasePairs(
 	left: ReadonlySet<string>,
@@ -707,7 +708,8 @@ describe('registry order', () => {
 			// continuation rule requires, so the direction is load-bearing
 			// and is pinned separately above.
 			['continuation-marker-em-dash-loss', 'trailing-em-dash-tail'],
-			// FIVE clusters became SIX at batch 7, and this one arrived by a
+			// FIVE clusters became SEVEN at batch 7 — this one and the pair
+			// above it — and both arrived by a
 			// route none of the others did: the edge was NEVER IN THE
 			// CATALOGUE. `checkAdjacency`'s limitation note names exactly
 			// this case — "a row whose edge was never recorded at all" — and
@@ -1221,8 +1223,17 @@ describe('the classification is earned, not declared', () => {
 	// twin carrying the same target survives in the same entry and the
 	// antecedent does not go away. Measured over all 32,512 entries,
 	// every anchor they remove leaves a surviving copy of its
-	// `data-ref`: 30 of 30 for the opening rule, 11 of 11 for the
-	// adjacent one, 0 fully orphaned either way.
+	// `data-ref`: measured ALONE, 30 of 30 for the opening rule and
+	// 11 of 11 for the adjacent one; measured COMPOSED, 42 of 42.
+	// 0 fully orphaned in either reading.
+	//
+	// THE TOTAL IS 42 HERE, NOT THE 30 + 11 = 41 THAT
+	// `duplication-corpus.test.ts` reports, and the difference is the
+	// composition. That file measures each rule alone on the entry after
+	// `text-repairs`; this one measures after the preceding
+	// `structural-repairs` rules, where `strandedStemHead` exposes the
+	// duplicate at `R00223` and `duplicatedOpeningRun` repairs 89 rather
+	// than 88. The 89th run carries one anchor. 30 + 1 + 11 = 42.
 	//
 	// Asserted here rather than argued in a comment, because an argument
 	// would keep passing after a re-fetch changed the corpus.
