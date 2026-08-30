@@ -78,9 +78,17 @@ const PARTICLE = 'v.';
  * `[^<]*` between the comma and the tag is what reads the slot, and
  * anchoring both ends is what refuses the 87 second-form headword lines
  * — those carry gloss text the anchor does not exhaust.
+ *
+ * THE SEPARATING SPACE IS REQUIRED (`[ \t]+`, not `*`), which is
+ * fail-closed rather than strict for its own sake. All four members read
+ * `", <a"`, so the space is part of the shape; admitting `",<a"` would
+ * have the rule emit `",v. <a"`, a particle fused to the comma and a
+ * spelling the corpus holds nowhere. The population is pinned at 4 in
+ * the corpus gate, so a shape this refuses that ought to be repaired
+ * fails a test rather than passing silently.
  */
 const STUB =
-	/^(?<head>[ \t]*,[ \t]*)(?<slot>[^<]*)<a\b[^>]*>[^<]*<\/a>[ \t]*\.?[ \t]*$/u;
+	/^(?<head>[ \t]*,[ \t]+)(?<slot>[^<]*)<a\b[^>]*>[^<]*<\/a>[ \t]*\.?[ \t]*$/u;
 
 /**
  * `definition` with the see-particle restored, or `null` when this is

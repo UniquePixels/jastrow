@@ -216,10 +216,10 @@ other**; both are `[]`.
 
 Nothing in the gates could have surfaced it. `checkAdjacency` reads
 declared edges. The commutation gate composes registered RULES, and
-neither row has one. This is the fourth entanglement this program has
-found by reading rather than by gate, and the second where both
-endpoints were unregistered — the condition batch 7 already showed
-`unaccountedEdges` is blind to by construction.
+neither row has one. Both endpoints are unregistered, which is exactly
+the condition batch 7 showed `unaccountedEdges` is blind to by
+construction — so this edge was found by reading, and nothing in the
+suite could have found it otherwise.
 
 ### The `²` question, raised and not settled
 
@@ -320,12 +320,13 @@ rule's own repairs: `v.` came back **6,848** rather than 6,844, and §5's
 end-to-end check got `null` from a `restoreParticle` whose input was
 already repaired.
 
-This is batch 7's implicit-subject defect for the third time —
-`continuation-marker-corpus.test.ts` hit it on its first run and
-`stem-corpus.test.ts` had it fixed for `records.length` in 6c. The
-difference is the direction of the failure. In batch 7 it made every
-assertion read 0 and **pass**; here it made two of five **fail**, on the
-exact numbers that moved.
+This is batch 7's implicit-subject defect again —
+`continuation-marker-corpus.test.ts` hit it on its first run,
+`stem-corpus.test.ts` had it fixed for `records.length` in 6c and then
+hit it again in 7 on a phase delta. The difference here is the
+DIRECTION of the failure. In batch 7 it made every assertion read 0 and
+**pass**; here it made two of five **fail**, on the exact numbers that
+moved.
 
 Worth keeping: a census that includes its own rule fails safely when the
 rule ADDS to a population it counts, and fails silently when the rule

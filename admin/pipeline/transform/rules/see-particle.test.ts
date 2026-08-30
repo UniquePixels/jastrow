@@ -54,6 +54,16 @@ describe('restoreParticle', () => {
 		expect(restoreParticle(', הִיזְמָא.')).toBeNull();
 	});
 
+	// FAIL-CLOSED ON A COMMA WITH NOTHING AFTER IT. All four members read
+	// `", <a"`, so the separating space is part of the shape rather than
+	// an accident of it. Admitting `",<a"` would have the rule emit
+	// `",v. <a"` — a particle fused to the comma, which is not a spelling
+	// the corpus holds anywhere. Refusing is the choice `restored`'s
+	// "ambiguity is a refusal, not a choice" makes for the same reason.
+	it('refuses a comma the anchor follows with no space', () => {
+		expect(restoreParticle(',<a href="x">y</a>.')).toBeNull();
+	});
+
 	// A PURE INSERTION, and nothing else. Deleting the edge whitespace on
 	// the way past would be an undeclared deletion in a `text-repairs`
 	// rule — invisible to `checkNoNewText`, which is a sub-multiset test
