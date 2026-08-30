@@ -26,12 +26,12 @@ time in three batches it changed an answer.
 |---|---:|---:|---|
 | `trailing-em-dash-tail` | 130 ent / 132 senses | **130 / 132** | exact — **101 shipped**, §7 |
 | `sense-number-outside-closed-grammar` | 111 ent / 113 tokens | **0** | **re-scoped to 6** — §2 |
-| `duplicated-definition-opening-run` | 85 | **85 @ k=4** | **89 shipped** — §3, §14 |
+| `duplicated-definition-opening-run` | 85 | **85 @ k=4** | **89 shipped** — §3, §13 |
 | `empty-lead-sense` | 84 | **73 `{}` + 11 ws = 84** | exact — **withdrawn**, §9 |
-| `continuation-marker-em-dash-loss` | 71 | **36** | **14 shipped**, re-scoped to 22 — §4, §17 |
-| `adjacent-verbatim-repetition` | 59 | **65** | **65 shipped** — §5, §10 |
-| `bracketed-gloss-lead-sense` | 49 | **49** | exact — **withdrawn**, §13 |
-| `section-break-terminator-loss` | 10 | **11** | **11 shipped** — §6, §16 |
+| `continuation-marker-em-dash-loss` | 71 | **36** | **14 shipped**, re-scoped to 22 — §4, §16 |
+| `adjacent-verbatim-repetition` | 59 | **65** | **65 shipped** — §5, §11 |
+| `bracketed-gloss-lead-sense` | 49 | **49** | exact — **withdrawn**, §10 |
+| `section-break-terminator-loss` | 10 | **11** | **11 shipped** — §6, §15 |
 
 **Four of eight reproduce their catalogued count.** One of those four
 (`bracketed-gloss-lead-sense`) reproduced only once a boundary condition
@@ -39,7 +39,7 @@ the catalogue states in prose was made executable — see §5.
 
 `adjacent-verbatim-repetition` briefly looked like a fifth, at 59, and
 is the batch's sharpest lesson so far: the agreement was two length caps
-matching, not two measurements agreeing, and the count is **65**. §10
+matching, not two measurements agreeing, and the count is **65**. §11
 carries it. A number that reproduces is evidence about the predicate
 only when the predicate is stated; this one was not.
 
@@ -97,7 +97,7 @@ repeated immediately at offset 0":
 | 4 | 84 | 82 | 81 |
 | 8 | 60 | 60 | 58 |
 
-Those three figures carried the same 120-character cap §10 exposes, so
+Those three figures carried the same 120-character cap §11 exposes, so
 they are wrong for the same reason. **Uncapped**, over all 32,512
 entries:
 
@@ -116,7 +116,7 @@ since the row records no predicate — and it is worth more than the
 "middle of M 91 / Q 85 / P 79" the row offers, which is an argument
 about three letter filters rather than a threshold.
 
-The population is genuinely a text defect, unlike §9 and §13: measured
+The population is genuinely a text defect, unlike §9 and §10: measured
 by position, **65 of the 88 sit in NESTED senses** (stem-section first
 senses) and 23 at top-level index 0, with **0 at a later top-level
 sense**. So it is not an index-0 artefact — most of it is nowhere near
@@ -152,13 +152,13 @@ mostly gone:
 batch's own rules.** `strandedDashStarMarker` and `stemHeadMarkerChop`
 rejoined 101 of the 109, which is why 109 becomes 8. Asserting the
 pre-phase figure would pin a number nothing in the pipeline ever sees,
-and §17 pins the post-phase one instead.
+and §16 pins the post-phase one instead.
 
 The row is catalogued at 71. Its own audit flag already records the
 figure as **unsettled between 19 and 44**, from two reconstructions that
 disagreed (round 2: 45/26/19; the `stranded-open-bracket` audit:
 73/29/44). **36 is a fourth reconstruction agreeing with none of them**,
-which is why only the witnessed core ships — §17. The 56-member `;`/`,`
+which is why only the witnessed core ships — §16. The 56-member `;`/`,`
 arm is the catalogue's own "real finding that kills the naive version of
 this candidate", and it reproduces exactly.
 
@@ -179,7 +179,7 @@ disjointness the two rows claim and now a measured fact.
 
 **It also returned 59, the catalogued figure, and that agreement was an
 accident of two matching length caps.** The true count under the same
-predicate is **65** — §10, which is the finding, and the reason this
+predicate is **65** — §11, which is the finding, and the reason this
 section says "one of the two" reproduced rather than both.
 
 **`bracketed-gloss-lead-sense` — 63, then 49.** The row reads
@@ -214,7 +214,7 @@ catalogued 10: `A00519`, `C00193`, `C00952`, `G00323`, `H00068`,
 is the row's own published example. All 11 need eyes-on before a rule
 inserts a byte.
 
-## 7. What shipped so far
+## 7. What shipped
 
 **`strandedDashStarMarker`** (`rules/sense-marker.ts`, id
 `trailing-em-dash-tail`, `structural-repairs`) — the third rule in that
@@ -324,7 +324,7 @@ judgment 61 / 16,521 · blocked 5 / 4,947** — the transform route loses
 `sense-number-outside-closed-grammar`'s re-scope gave up, and judgment
 gains exactly 84.
 
-## 13. THE INDEX-0 ROWS DESCRIBE A SENSE THAT IS NOT A SENSE
+## 10. THE INDEX-0 ROWS DESCRIBE A SENSE THAT IS NOT A SENSE
 
 Three of the eight rows are about `content.senses[0]`, and two of them
 dissolve for the same reason. **The body model does not treat index 0 as
@@ -371,7 +371,7 @@ judgment 62 / 16,570 · blocked 5 / 4,947**.
 is NOT this: 65 of its 88 members sit in nested senses, nowhere near the
 gloss head. See §3.
 
-## 10. `adjacent-verbatim-repetition` is 65, and the catalogued 59 is a cap artifact
+## 11. `adjacent-verbatim-repetition` is 65, and the catalogued 59 is a cap artifact
 
 The row reads "a run of ≥ 8 characters ending in a period, repeated
 immediately and verbatim inside one definition", plus the separate
@@ -399,7 +399,7 @@ merely fitting it:
 The six are `B01153` (128), `L00466` (126), `C00674` (131), `I00509`
 (134), `K00081` (164), `U00540` (325). All six are anchor-bearing.
 
-## 11. A rule here would delete anchors, which changes what it must declare
+## 12. A rule here would delete anchors, which changes what it must declare
 
 Of the 65 runs, **9 contain a full anchor and 11 anchors would be
 deleted** — `B01003`, `B01153`, `C00674`, `I00105`, `I00410`, `I00509`,
@@ -418,7 +418,7 @@ consequences the row does not mention:
 That is a design decision for the row, not a detail of writing it, and
 nothing is written here.
 
-## 14. THE COMMUTATION GATE FOUND AN EDGE THE CATALOGUE NEVER HELD
+## 13. THE COMMUTATION GATE FOUND AN EDGE THE CATALOGUE NEVER HELD
 
 Registering the two duplication rules made the gate report one
 undeclared non-commuting pair: **`stranded-stem-head` ×
@@ -450,7 +450,7 @@ Consequences, all pinned:
   simply never happens while every per-rule count still reads normal;
 - the pinned cluster set goes 5 → **6**.
 
-## 15. Two more things the gates caught, not the reading
+## 14. Two more things the gates caught, not the reading
 
 **`removes` must be STRIPPED text.** `checkNoLostText` compares
 `textOf(entry)`, which is `fieldsOf(...).map(stripTags)`, so a
@@ -481,7 +481,7 @@ over all 32,512 entries, every anchor they remove leaves a surviving
 copy of its `data-ref` — 30 of 30 and 11 of 11, **0 orphaned** — and
 that is asserted in the corpus pass rather than argued in a comment.
 
-## 16. The only rule in the registry that mints a byte
+## 15. The only rule in the registry that mints a byte
 
 `sectionBreakTerminator` ships all **11** on Brian's ruling
 2026-08-29, declaring `allows: ['.']` — one period per member,
@@ -509,7 +509,7 @@ now goes outside the closing tags, and the corpus test asserts over the
 real members that no repaired definition ever gains a period immediately
 before a closing tag.
 
-## 17. The last row ships only what its own entries witness
+## 16. The last row ships only what its own entries witness
 
 Brian ruled the **high-confidence core** and nothing else. Of the 36
 clean markers, **14 sit in a MIXED sibling list** — one whose other
@@ -541,7 +541,7 @@ That is 6c's `stem-corpus.test.ts` defect — a test whose subject became
 implicit once the world grew — recurring within one batch of being
 named.
 
-## 18. The gate found a SECOND edge the catalogue never held
+## 17. The gate found a SECOND edge the catalogue never held
 
 Registering the last rule produced one more undeclared non-commuting
 pair: **`trailing-em-dash-tail` × `continuation-marker-em-dash-loss` @
@@ -564,7 +564,7 @@ both new pairs occupy gap-free spans — `strandedStemHead` →
 because `checkAdjacency` is direction-blind. The cluster set goes 5 → 6
 → **7**.
 
-## 19. A test predicted its own failure, and the prediction came true
+## 18. A test predicted its own failure, and the prediction came true
 
 `stem-corpus.test.ts` asserts that `stemHeadMarkerChop` adds 18 `—2)`
 markers, and its comment reads:
@@ -581,7 +581,7 @@ that very file for `records.length`, two paragraphs above the assertion
 that failed. Fixed the same way: the marker count now runs the phase
 with `stemHeadMarkerChop` ALONE.
 
-## 20. A pin of mine failed for a reason it was never about
+## 19. A pin of mine failed for a reason it was never about
 
 §8's deletion pin asserted that both rows carry no `entangledWith` at
 all. That is **stronger than the claim it protects**, which is only that
@@ -590,12 +590,12 @@ falsified it, when the commutation gate found
 `trailing-em-dash-tail × continuation-marker-em-dash-loss` and that row
 correctly gained an edge.
 
-Narrowed to the actual claim. Worth recording next to §19: within one
+Narrowed to the actual claim. Worth recording next to §18: within one
 batch, two assertions failed for reasons they were not about — one
 because its subject was implicit over a growing phase, one because it
 pinned more than it meant. Neither was a defect in a rule.
 
-## 12. What this batch has not done yet
+## 20. What this batch has not done yet
 
 - **No row is left undisposed.** What stays on the queue is the
   measured remainder of three of them: 31 tails on

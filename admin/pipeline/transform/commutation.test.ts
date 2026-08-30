@@ -286,8 +286,10 @@ describe('the registry commutes except where the catalogue says otherwise', () =
 		// 80 → 280 across batch 7, which registered five structural
 		// rules. The figure is a PRODUCT, so it moves whenever either
 		// phase grows, and re-deriving it is how a reader checks that
-		// the growth was in the phase they expected: a rule silently
-		// declared `text-repairs` would push it to 287, not 280.
+		// the growth was in the phase they expected: one of the five
+		// silently declared `text-repairs` would make it 41 × 6 = 246,
+		// not 280. (An earlier version of this note said 287, which is
+		// 41 × 7 — a 48th rule, not a mis-declared phase.)
 		expect(stats.composedPairs + stats.crossPhasePairs).toBe(stats.totalPairs);
 		expect(stats.crossPhasePairs).toBe(280);
 	}, 180_000);

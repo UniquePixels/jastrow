@@ -1099,11 +1099,11 @@ const PENDING: readonly string[] = [
 	// Splitting rather than registering the whole row is batch 6b's
 	// step: `coverage()` reads a row as registered the moment any rule
 	// claims its id, so a partial rule that took the row off this list
-	// would take its remainder off the queue with it. The row keeps its
-	// id here — it is claimed above AND still owed 31 — which is the
-	// one shape `registry.test.ts` forbids, so the remainder is
+	// would take its remainder off the queue with it. So the remainder is
 	// recorded in `patterns.jsonl` and in
-	// `docs/v2/transform-batch-7.md` §1 instead of by a second entry.
+	// `docs/v2/transform-batch-7.md` §1 rather than by a second entry
+	// here: a row named in `RULES` AND in this list is `duplicated`,
+	// which `registry.test.ts` forbids.
 	// `stranded-stem-head` left this list in batch 6c: it is registered
 	// above at its RE-MEASURED size. The row was catalogued at 544
 	// entries with NO predicate recorded anywhere; under the predicate

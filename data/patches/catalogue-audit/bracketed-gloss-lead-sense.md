@@ -4,7 +4,7 @@
 `judgment`, `blocking` dropped with the route. The count (49) is
 correct and is kept.
 
-Batch report: `docs/v2/transform-batch-7.md` §13.
+Batch report: `docs/v2/transform-batch-7.md` §10.
 Sibling rulings: `empty-lead-sense.md` (same batch, same cause),
 `empty-stem-section.md` (batch 6b, the original data-vs-display
 question).

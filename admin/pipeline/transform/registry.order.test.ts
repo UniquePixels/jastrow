@@ -1244,11 +1244,26 @@ describe('the classification is earned, not declared', () => {
 		expect(structural).toHaveLength(2);
 		const orphaned: string[] = [];
 		let removed = 0;
+		// THE STATE THE RULES ACTUALLY RECEIVE, not the state before the
+		// phase. A first version stopped after `text-repairs`, which
+		// measured 88 of `duplicatedOpeningRun`'s repairs and missed the
+		// 89th — the one `strandedStemHead` EXPOSES at `R00223`, whose
+		// run carries an anchor. The claim below says "over all 32,512
+		// entries", so it has to be measured where the rules stand or it
+		// is a claim with a hole exactly at this batch's own new
+		// dependency.
+		const earlier = RULES.slice(
+			0,
+			RULES.findIndex(
+				(rule) => rule.id === 'duplicated-definition-opening-run',
+			),
+		).filter((rule) => rule.phase === 'structural-repairs');
 		for await (const source of readSourceEntries()) {
-			const input = applyTransforms(
+			const text = applyTransforms(
 				applyRepairs(source).entry,
 				'text-repairs',
 			).entry;
+			const input = applyTransforms(text, 'structural-repairs', earlier).entry;
 			for (const rule of structural) {
 				const result = rule.apply(input);
 				if (result.records.length === 0) {
@@ -1271,7 +1286,7 @@ describe('the classification is earned, not declared', () => {
 			}
 		}
 		expect(orphaned).toEqual([]);
-		expect(removed).toBe(41);
+		expect(removed).toBe(42);
 	}, 300_000);
 
 	it('exactly the GLYPH rules ever correct a target in place', async () => {

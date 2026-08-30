@@ -85,10 +85,23 @@ describe('continuationMarkerDash', () => {
 		}
 	});
 
-	it('refuses the first sibling and refuses "1)"', () => {
+	it('refuses the first sibling, whatever its number', () => {
 		const input = entry([
 			{ definition: 'first.', number: '1)' },
 			{ definition: 'x.', number: '—2)' },
+		]);
+		expect(continuationMarkerDash.apply(input).entry).toBe(input);
+	});
+
+	// The `N > 1` guard, exercised on its own. The fixture above cannot
+	// reach it — index 1 there already carries `—2)`, so `isDefect`
+	// returns on the BARE test long before the number is read. This one
+	// puts a bare `1)` at a non-first position, which only the numeric
+	// guard refuses.
+	it('refuses a bare "1)" that is not first', () => {
+		const input = entry([
+			{ definition: 'first.', number: '—2)' },
+			{ definition: 'x.', number: '1)' },
 		]);
 		expect(continuationMarkerDash.apply(input).entry).toBe(input);
 	});

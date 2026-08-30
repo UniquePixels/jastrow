@@ -1,6 +1,6 @@
 /**
  * `continuation-marker-em-dash-loss` (batch 7,
- * `docs/v2/transform-batch-7.md` §4, §17) — shipped for its
+ * `docs/v2/transform-batch-7.md` §4, §16) — shipped for its
  * HIGH-CONFIDENCE CORE only, on Brian's ruling 2026-08-29.
  *
  * ## The row, and why it could not ship whole
@@ -12,16 +12,26 @@
  * A third reconstruction here lands inside that band and settles
  * nothing on its own.
  *
- * Measured after the whole `structural-repairs` phase, over all 32,512
- * entries, the 283 dashless continuation markers decompose four ways:
+ * Over all 32,512 entries the dashless continuation markers decompose
+ * four ways, and only the fourth is this row. The figures depend on
+ * WHERE they are taken, so both are given:
  *
- *     109  the dash is stranded on the previous sibling
- *            → `trailing-em-dash-tail`
- *      80  a "[" is stranded on the previous sibling
- *            → `stranded-open-bracket`
- *      56  the previous sibling ends ";" or "," — a print RUN, and the
- *          catalogue's own "real finding that kills the naive version"
- *      36  no residue at all  ← this row
+ *                                            before   after
+ *     the dash is stranded on the previous
+ *       sibling → `trailing-em-dash-tail`       109       8
+ *     a "[" is stranded on the previous
+ *       sibling → `stranded-open-bracket`        80      79
+ *     previous ends ";" or "," — a print RUN,
+ *       the catalogue's own "real finding that
+ *       kills the naive version"                 56      56
+ *     no residue at all  ← this row              36      36
+ *
+ * "After" is the whole `structural-repairs` phase with this rule held
+ * out, which is what this rule actually receives and what
+ * `continuation-marker-corpus.test.ts` asserts. **The first arm
+ * collapses because this same batch repaired it**:
+ * `strandedDashStarMarker` and `stemHeadMarkerChop` rejoined 101 of the
+ * 109. This row's own population is unaffected either way.
  *
  * ## What ships: the entry's own witness
  *

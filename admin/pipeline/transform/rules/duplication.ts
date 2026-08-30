@@ -1,6 +1,6 @@
 /**
  * The two duplication rules of batch 7 (`docs/v2/transform-batch-7.md`
- * §3, §10), kept in one file because **their disjointness is the thing
+ * §3, §11), kept in one file because **their disjointness is the thing
  * that defines them** and it is easier to keep true side by side than
  * across two.
  *
@@ -136,10 +136,8 @@ interface Deletion {
 	unlinks: number;
 }
 
-/** Walk every sense, applying `repair` to each definition and collecting
- * what it deleted. Recurses, because senses NEST — 65 of the 88 opening
- * runs sit in a nested (stem-section) sense, so a non-recursive walk
- * would miss three quarters of that population. */
+/** One rule's pass over an entry: what it deletes, what it records,
+ * and the repair it applies. */
 interface Pass {
 	deletions: Deletion[];
 	records: TransformRecord[];
