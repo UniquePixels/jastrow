@@ -61,15 +61,50 @@ built body.
 
 ## The count does NOT reproduce, and that is recorded rather than fixed
 
-The row measures **358**. The same six buckets measured across all
-senses read **523**:
+The row measures **358**. All six buckets measured across all senses, at
+the stage a transform would stand:
 
-| Label rendering | declaring | missing |
-|---|---:|---:|
-| `Pl. ` | 5,588 | 26 |
-| `pl. ` | 1,212 | 388 |
-| `<i>Pl.</i>` | 137 | 89 |
-| `<i>pl.</i>` | 32 | 23 |
+| Label rendering | declaring | missing | |
+|---|---:|---:|---|
+| `Pl. ` | 5,588 | 26 | 0.5% |
+| `pl. ` | 1,212 | 388 | 32.0% |
+| `<i>Pl.</i>` | 137 | 89 | 65.0% |
+| `<i>pl.</i>` | 32 | 23 | 71.9% |
+| `<i>Pl</i>.` | 0 | 0 | — |
+| `<i>pl</i>.` | 0 | 0 | — |
+| **entries** | | **523** | |
+
+**These are OCCURRENCE counts and they overlap; 523 is the count of
+distinct ENTRIES.** The `missing` column sums to 526, three more than
+523, because three entries declare a plural under two different label
+renderings. The gate pins the entry count.
+
+**Two of the six buckets are empty here and are not empty in the
+source.** On raw source `<i>Pl</i>.` reads 18 declaring / 16 missing and
+`<i>pl</i>.` reads 23 / 16; both are 0 by the time a transform runs.
+
+The cause is `label-period-outside-italic` (registered, 975 instances),
+and it is established by differential rather than by inspection.
+Counting `<i>Pl</i>.` and `<i>pl</i>.` occurrences over all 32,512
+entries after `applyRepairs`:
+
+| Phase composition | occurrences |
+|---|---:|
+| no transforms | 45 |
+| that rule ALONE | **0** |
+| the whole phase WITHOUT it | **46** |
+| the whole phase | 0 |
+
+The rule alone accounts for the entire collapse, and holding it out
+leaves the population intact — at 46 rather than 45, so some other rule
+in the phase CREATES one member of this shape that this rule then takes
+away.
+
+Their populations have not vanished; they have moved into the
+`<i>Pl.</i>` bucket, which is why that bucket reads 137/89 here against
+118/73 raw. This is [[feedback_measure_post_repairs]] once more: a
+bucket census taken on raw source would attribute those members to
+renderings that no longer exist at the point of repair.
 
 The row's own by-label proportions are reproduced in shape — the
 capitalised bucket loses well under 1% while the italic buckets lose
