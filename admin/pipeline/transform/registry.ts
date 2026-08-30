@@ -60,6 +60,7 @@ import {
 	translitItalicSpace,
 } from './rules/seam-space.ts';
 import { sectionBreakTerminator } from './rules/section-break.ts';
+import { seeParticleRestore } from './rules/see-particle.ts';
 import { strandedDashStarMarker } from './rules/sense-marker.ts';
 import { stemHeadMarkerChop } from './rules/stem-head.ts';
 import { asteriskStemStrayPeriod } from './rules/stem-label.ts';
@@ -931,6 +932,38 @@ const RULES: readonly Rule[] = [
 	// that rule a member in any case: it never touches a `definition`.
 	asteriskStemStrayPeriod,
 
+	// ---- batch 8: the lost see-particle ----
+	//
+	// `seeParticleRestore` is the SECOND rule in this registry to mint
+	// text and the FIRST to mint a word. What licenses it is the null
+	// model, not the size: the particle slot in a whole-definition
+	// redirect stub is populated 7,270 times and empty 4, and it is
+	// populated with a RETAINED VOCABULARY — `v.` 6,844, `v. sub` 196,
+	// `read` 29, `pl. of` 29, and eight more, several themselves damaged
+	// (`v,` ×4). A slot being normalised away leaves ONE surviving
+	// value; this one kept a dozen, so the four empties are loss rather
+	// than convention. Ruling: Brian, 2026-08-30.
+	//
+	// IT CANNOT MEET ANY RULE ABOVE IT, and the exclusion is structural
+	// rather than argued. It fires only when the entry's whole content
+	// is ONE CHILDLESS SENSE whose definition is nothing but a leading
+	// comma and an anchor — no gloss text at all. Every rule above that
+	// rewrites a `definition` needs something this shape does not hold:
+	// `sectionBreakTerminator` a section label, the anaphora rules a
+	// citation run, the paren rules a parenthesis, the geresh and
+	// gershayim rules a Hebrew abbreviation mark in body text. The one
+	// rule that could touch the same bytes is `trailingWhitespaceDefinition`
+	// below, which is why this sits above it.
+	//
+	// IT IS A PURE INSERTION. The particle is spliced at the anchor's own
+	// offset and every other byte is carried through, edge whitespace
+	// included — so it hands `trailingWhitespaceDefinition` (10, still
+	// `PENDING`) neither a new member nor a lost one. The three minted
+	// codepoints are declared in `allows`; the second `.` needs an
+	// allowance of its own because the input's only period is the stub's
+	// terminator and `checkNoNewText` is a multiset test.
+	seeParticleRestore,
+
 	// ---- `trailingWhitespaceDefinition` LAST ----
 	//
 	// Measured 0 / 0 — free, and last by argument. It trims the entry's
@@ -1361,7 +1394,12 @@ const PENDING: readonly string[] = [
 	// registered above at its CORRECTED size, 11 rather than the
 	// catalogued 10, under a stated predicate — a letter or digit,
 	// optional tags, an em dash, optional tags, a section label.
-	'see-particle-lost',
+	// `see-particle-lost` left this list in batch 8: it is registered
+	// above at the catalogued 4, which REPRODUCED EXACTLY — and only
+	// under the row's own restriction that the anchor be the whole
+	// definition AND the stub be the whole entry. Walking child senses
+	// as well reads 18, and the 14 extra are ordinary cross-reference
+	// sub-senses of large articles rather than damage.
 	// FOUR MORE left this list in batch 3b Task 6, each audited to
 	// `judgment` in `patterns.jsonl` for its own reason — the working is
 	// in data/patches/catalogue-audit/batch-3b-withdrawals.md:

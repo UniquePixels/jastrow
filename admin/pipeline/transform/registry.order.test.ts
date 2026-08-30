@@ -251,6 +251,14 @@ const NEITHER = new Set([
 	// markup at all — so no anchor is touched, none removed and no
 	// target written, which the corpus pass below earns.
 	'continuation-marker-em-dash-loss',
+	// Batch 8's minting rule. It splices `v. ` into a `definition`
+	// immediately BEFORE an anchor's opening tag and carries every other
+	// byte through untouched, so the anchor is neither removed nor
+	// retargeted and no `href` or `data-ref` is written — which is what
+	// this set asserts and the corpus pass below earns. `FIELD` is not
+	// open to it: the field it edits is, by the rule's own predicate,
+	// one that holds a tag.
+	'see-particle-lost',
 	// BATCH 4 ADDS FOUR, and they are the set's second real test after
 	// batch 3b's twelve. These four move one of the anchor's own tags
 	// across the text beside it — `</a>` across a `)`, a `<sup>` run or
