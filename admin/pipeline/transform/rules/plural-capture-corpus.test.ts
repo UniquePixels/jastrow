@@ -6,6 +6,7 @@ import type {
 	SourceEntry,
 	SourceSense,
 } from '../../body/types.ts';
+import { stripTags } from '../no-new-text.ts';
 import { composedEntries } from './corpus-fixture.ts';
 
 /**
@@ -110,10 +111,11 @@ function bodyText(body: BodyEntry): string {
 		parts.push(stem.stem, ...stem.forms);
 		push(stem.senses);
 	}
-	return parts
-		.join(' ')
-		.replace(/<[^>]*>/gu, '')
-		.replace(BIDI, '');
+	// `stripTags` rather than a `<[^>]*>` replace: the pipeline's own
+	// tokenizer-backed strip, which is also what keeps CodeQL's
+	// `js/incomplete-multi-character-sanitization` (high) quiet — it
+	// flagged the regex form of this line on PR #58.
+	return stripTags(parts.join(' ')).replace(BIDI, '');
 }
 
 interface Census {

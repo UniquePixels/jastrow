@@ -2,6 +2,7 @@ import { expect, it } from 'bun:test';
 import { buildBody } from '../../body/dry-run.ts';
 import { rejoinGlossHead } from '../../body/rejoin.ts';
 import type { BodyEntry, BodySense, SourceEntry } from '../../body/types.ts';
+import { stripTags } from '../no-new-text.ts';
 import { composedEntries } from './corpus-fixture.ts';
 
 /**
@@ -49,7 +50,16 @@ const DEFINITION_OPENS_H = /^\s*h\.\s/u;
 /** What the two fragments must read as once rejoined. */
 const HEALED = /b\.\s*h\./u;
 
-const strip = (s: string): string => s.replace(/<[^>]*>/gu, '');
+/** The repo's own tag strip — `serialize(tokenize(html).filter(text))`,
+ * a real tokenizer rather than a single-pass regex.
+ *
+ * Not a style preference. `s.replace(/<[^>]*>/gu, '')` is CodeQL's
+ * `js/incomplete-multi-character-sanitization` (high): one pass over a
+ * crafted input can leave a `<script` behind, and it flagged exactly
+ * this line on PR #58. Nothing here is rendered, so the alert is not a
+ * live vulnerability — but the pipeline already has a correct strip and
+ * there is no reason for a gate to carry a weaker one. */
+const strip = stripTags;
 
 /** The four the catalogue names, measured rather than assumed. */
 const CATALOGUED = ['C00090', 'M00231', 'M00395', 'R00196'];
