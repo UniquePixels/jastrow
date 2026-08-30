@@ -1,8 +1,9 @@
 # Phase 2 batch 7 — the sense and definition structure family
 
 **Status: in progress 2026-08-29.** One rule shipped, one row
-re-scoped on Brian's ruling, one entanglement edge deleted, one gate
-docstring corrected. Six of the eight rows are still open. Scope
+re-scoped and one withdrawn on Brian's rulings, one entanglement edge
+deleted, one gate docstring corrected, one catalogued count corrected.
+Five of the eight rows are still open. Scope
 ruled by Brian on the batch-7 opening question: the eight blocking rows
 that describe sense and definition structure, 599 catalogued instances.
 It is the second batch to run against the `structural-repairs` phase
@@ -25,7 +26,7 @@ time in three batches it changed an answer.
 | `trailing-em-dash-tail` | 130 ent / 132 senses | **130 / 132** | exact — **101 shipped**, §7 |
 | `sense-number-outside-closed-grammar` | 111 ent / 113 tokens | **0** | **re-scoped to 6** — §2 |
 | `duplicated-definition-opening-run` | 85 | 60 / 82 / 95 | no predicate — §3 |
-| `empty-lead-sense` | 84 | **73 `{}` + 11 ws = 84** | exact |
+| `empty-lead-sense` | 84 | **73 `{}` + 11 ws = 84** | exact — **withdrawn**, §9 |
 | `continuation-marker-em-dash-loss` | 71 | 38 | unsettled — §4 |
 | `adjacent-verbatim-repetition` | 59 | **65** | §5 boundary, §10 count |
 | `bracketed-gloss-lead-sense` | 49 | **49** | exact — §5 |
@@ -248,11 +249,39 @@ entry's lead.
 
 **Both text gates are blind to it.** Nothing is invented and nothing is
 lost; text moves between fields, which is the same class as batch 4's
-`applyRepairs` collision and the reason that one needed registration to
-surface. So the row's repair is not "drop the lead sense" for 72 of 73
-members, and what it actually needs is a ruling, not a rule — plausibly
-the same data-vs-display question batch 6b's `empty-stem-section` turned
-on.
+`applyRepairs` collision.
+
+**Measured at the rendered level, the repair is worse than a promotion:
+it CONSUMES a sense.** `dry-run.ts:257` skips index 0 in the sense loop,
+because sense 0's content is already captured in the intro sense built
+from the gloss head. So the empty lead contributes an empty string and
+is then skipped — it costs the reader nothing — while `senses[1]`
+promoted into index 0 is folded into the gloss head by `rejoin.ts:44`
+AND skipped by `dry-run.ts:257`. Building the body both ways for all 73:
+
+| | |
+|---|---:|
+| built body IDENTICAL after dropping the lead | **1** |
+| built body CHANGED | **72** |
+
+```
+A00644  BEFORE  gloss " ch. "                  labels [—, 1, 2, 3]   4 senses
+        AFTER   gloss " ch.  <a …>same</a>. "  labels [1, 2, 3]      3 senses
+```
+
+**Brian's ruling 2026-08-29: WITHDRAWN to `judgment`**, audit
+`data/patches/catalogue-audit/empty-lead-sense.md`. It shares batch 6b's
+`empty-stem-section` shape and goes one degree past it — that row
+withdrew because the repair was unnecessary; this one because the repair
+is **harmful**. `blocking` drops with the route, since sitting on the
+transform queue as blocking asserted a rule was owed before cutover.
+
+Post-ruling: `coverage()` **44 registered / 23 pending / 67 total**, 0
+unaccounted / 0 duplicated. Route totals **transform 67 / 20,235 ·
+judgment 61 / 16,521 · blocked 5 / 4,947** — the transform route loses
+189 instances, which is this row's 84 plus the 105 that
+`sense-number-outside-closed-grammar`'s re-scope gave up, and judgment
+gains exactly 84.
 
 ## 10. `adjacent-verbatim-repetition` is 65, and the catalogued 59 is a cap artifact
 

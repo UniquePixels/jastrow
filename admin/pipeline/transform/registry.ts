@@ -1104,7 +1104,29 @@ const PENDING: readonly string[] = [
 	'b-h-split-across-field-boundary',
 	'mekhilta-sifra-never-linked',
 	'reversed-hebrew-phrase',
-	'empty-lead-sense',
+	// `empty-lead-sense` (73 `{}` + 11 whitespace-only = 84) left this
+	// list in batch 7: WITHDRAWN to `judgment` in `patterns.jsonl` on
+	// Brian's ruling 2026-08-29 (audit
+	// `data/patches/catalogue-audit/empty-lead-sense.md`), so `coverage`
+	// no longer counts it and neither list may hold it.
+	//
+	// THE RULING TURNED ON THE REPAIR BEING HARMFUL, not merely
+	// unnecessary — which is where it goes beyond `empty-stem-section`'s
+	// data-vs-display withdrawal in 6b. Two lines of the body model
+	// point the same way: `rejoin.ts:44` reads
+	// `content.senses[0]?.definition ?? ''` into the gloss head, and
+	// `dry-run.ts:257` SKIPS index 0 in the sense loop because sense 0
+	// is already captured in the intro sense. So an empty lead
+	// contributes an empty string and is then skipped — it costs the
+	// reader nothing. Drop it, and `senses[1]` becomes index 0: folded
+	// into the gloss head by the first line and skipped by the second.
+	// The sense is not moved, it is CONSUMED. Built both ways over all
+	// 73: **1 identical, 72 changed** — `A00644` loses a sense and gains
+	// its text inside an unlabelled intro gloss.
+	//
+	// Neither text gate can see that: nothing invented, nothing lost,
+	// text moved between fields. Same blind spot batch 4 found when
+	// `applyRepairs` composed with `truncatedCitationDigit`.
 	// `abbrev-headword-stub` left this list in batch 5 Task 1: AUDITED
 	// TO `judgment` in `patterns.jsonl` (audit
 	// `data/patches/catalogue-audit/abbrev-headword-stub.md`, ruled by
