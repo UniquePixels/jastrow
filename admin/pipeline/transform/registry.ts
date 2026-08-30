@@ -1097,7 +1097,28 @@ const PENDING: readonly string[] = [
 	// on this queue, and the reason it is not simply discarded is that
 	// discarding it would leave those 6 surfaced by nothing executable.
 	'sense-number-outside-closed-grammar',
-	'bracketed-gloss-lead-sense',
+	// `bracketed-gloss-lead-sense` (49) left this list in batch 7:
+	// WITHDRAWN to `judgment` in `patterns.jsonl` on Brian's ruling
+	// 2026-08-29 (audit
+	// `data/patches/catalogue-audit/bracketed-gloss-lead-sense.md`), so
+	// `coverage` no longer counts it and neither list may hold it.
+	//
+	// SECOND INDEX-0 ROW TO GO IN THIS BATCH, AND FOR THE SAME REASON.
+	// `content.senses[0]` is not a sense in the body model —
+	// `rejoin.ts:44` folds its `definition` into the gloss head and
+	// `dry-run.ts:257` skips index 0 in the sense loop. So an unnumbered
+	// bracketed lead is not a sense that escaped numbering; it is the
+	// entry's LEAD, and it renders as one. `B01152` builds a gloss head
+	// `"m.(b. h.; ברר) [empty, open] "` with sense labels `[—, 1, 2]`,
+	// which is the printed order. 42 of the 49 carry a `language_code`
+	// and 15 a `morphology`, so the bracket is usually one fragment of a
+	// multi-part lead rather than a lead on its own.
+	//
+	// `judgment` rather than a discard: no repair can be stated, which
+	// takes it off the transform queue, but asserting no defect exists
+	// would need the 49 read against print — and the 7 members whose
+	// gloss head is the bracket ALONE are the shape that could still be
+	// wrong.
 	// `parenthesized-alt-headword` and `phrase-alt-headword-stub` left
 	// this list in batch 5: both are registered above, adjacent and
 	// entangled.

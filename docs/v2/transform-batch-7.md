@@ -1,9 +1,9 @@
 # Phase 2 batch 7 — the sense and definition structure family
 
 **Status: in progress 2026-08-29.** One rule shipped, one row
-re-scoped and one withdrawn on Brian's rulings, one entanglement edge
-deleted, one gate docstring corrected, one catalogued count corrected.
-Five of the eight rows are still open. Scope
+re-scoped and **two withdrawn** on Brian's rulings, one entanglement
+edge deleted, one gate docstring corrected, two catalogued counts
+corrected. Four of the eight rows are still open. Scope
 ruled by Brian on the batch-7 opening question: the eight blocking rows
 that describe sense and definition structure, 599 catalogued instances.
 It is the second batch to run against the `structural-repairs` phase
@@ -29,7 +29,7 @@ time in three batches it changed an answer.
 | `empty-lead-sense` | 84 | **73 `{}` + 11 ws = 84** | exact — **withdrawn**, §9 |
 | `continuation-marker-em-dash-loss` | 71 | 38 | unsettled — §4 |
 | `adjacent-verbatim-repetition` | 59 | **65** | §5 boundary, §10 count |
-| `bracketed-gloss-lead-sense` | 49 | **49** | exact — §5 |
+| `bracketed-gloss-lead-sense` | 49 | **49** | exact — **withdrawn**, §13 |
 | `section-break-terminator-loss` | 10 | 11 | §6 |
 
 **Four of eight reproduce their catalogued count.** One of those four
@@ -121,7 +121,7 @@ senses) and 23 at top-level index 0, with **0 at a later top-level
 sense**. So it is not an index-0 artefact — most of it is nowhere near
 the gloss head.
 
-## 3a. `bracketed-gloss-lead-sense` renders correctly today — see §13
+
 
 ## 4. `continuation-marker-em-dash-loss` is unsettled, and its own row says so
 
@@ -319,7 +319,9 @@ stray or malformed sense; in the model it is the entry's lead.
 `empty-lead-sense` is §9 — withdrawn, because the repair consumes a
 sense in 72 of 73.
 
-**`bracketed-gloss-lead-sense` (49) renders correctly today.** Its
+**`bracketed-gloss-lead-sense` (49) renders correctly today, and is
+WITHDRAWN to `judgment` on Brian's ruling** (audit
+`data/patches/catalogue-audit/bracketed-gloss-lead-sense.md`). Its
 bracketed etymological gloss is already folded into the entry's lead,
 exactly where print puts it, ahead of the numbered senses:
 
@@ -336,6 +338,16 @@ bracket lands in the lead and the numbered senses follow, unlabelled
 intro first — which is the printed shape. Nothing here states what a
 repair would even change, and this batch could not find a defect to
 describe.
+
+`judgment` rather than a discard, deliberately: no repair can be
+stated, which takes the row off the transform queue, but asserting no
+defect EXISTS would need the 49 read against print — and the 7
+bracket-alone leads, with no morphology or language code to anchor the
+bracket to, are the shape that could still be wrong.
+
+Post-ruling: `coverage()` **44 registered / 22 pending / 66 total**, 0
+unaccounted / 0 duplicated. Route totals **transform 66 / 20,186 ·
+judgment 62 / 16,570 · blocked 5 / 4,947**.
 
 `duplicated-definition-opening-run` is the one index-0-adjacent row that
 is NOT this: 65 of its 88 members sit in nested senses, nowhere near the
