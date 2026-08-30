@@ -1,9 +1,9 @@
 # Phase 2 batch 7 — the sense and definition structure family
 
-**Status: in progress 2026-08-29.** One rule shipped, one row
-re-scoped and **two withdrawn** on Brian's rulings, one entanglement
-edge deleted, one gate docstring corrected, two catalogued counts
-corrected. Four of the eight rows are still open. Scope
+**Status: in progress 2026-08-29.** **Three rules shipped**, one row
+re-scoped and two withdrawn on Brian's rulings, one entanglement edge
+deleted and **one added**, two gates made phase-aware, two catalogued
+counts corrected. Two of the eight rows are still open. Scope
 ruled by Brian on the batch-7 opening question: the eight blocking rows
 that describe sense and definition structure, 599 catalogued instances.
 It is the second batch to run against the `structural-repairs` phase
@@ -25,10 +25,10 @@ time in three batches it changed an answer.
 |---|---:|---:|---|
 | `trailing-em-dash-tail` | 130 ent / 132 senses | **130 / 132** | exact — **101 shipped**, §7 |
 | `sense-number-outside-closed-grammar` | 111 ent / 113 tokens | **0** | **re-scoped to 6** — §2 |
-| `duplicated-definition-opening-run` | 85 | 60 / 82 / 95 | no predicate — §3 |
+| `duplicated-definition-opening-run` | 85 | **85 @ k=4** | **89 shipped** — §3, §14 |
 | `empty-lead-sense` | 84 | **73 `{}` + 11 ws = 84** | exact — **withdrawn**, §9 |
 | `continuation-marker-em-dash-loss` | 71 | 38 | unsettled — §4 |
-| `adjacent-verbatim-repetition` | 59 | **65** | §5 boundary, §10 count |
+| `adjacent-verbatim-repetition` | 59 | **65** | **65 shipped** — §5, §10 |
 | `bracketed-gloss-lead-sense` | 49 | **49** | exact — **withdrawn**, §13 |
 | `section-break-terminator-loss` | 10 | 11 | §6 |
 
@@ -400,17 +400,78 @@ consequences the row does not mention:
 That is a design decision for the row, not a detail of writing it, and
 nothing is written here.
 
+## 14. THE COMMUTATION GATE FOUND AN EDGE THE CATALOGUE NEVER HELD
+
+Registering the two duplication rules made the gate report one
+undeclared non-commuting pair: **`stranded-stem-head` ×
+`duplicated-definition-opening-run` @ `R00223`.**
+
+It is real, and the mechanism is exact. `R00223`'s definition opens
+`<i>Pa.</i> ` and then repeats an anchor-bearing run — but that repeat
+is NOT at offset 0, because the label precedes it, so
+`duplicatedOpeningRun` alone finds nothing. `strandedStemHead` moves the
+label into `grammar.verbal_stem` and the remainder into a child sense,
+and the duplicate is then at offset 0 of that child. Measured: the
+opening rule repairs **88 alone and 89 composed**, and the two orders
+produce different entries.
+
+**This is the edge class `checkAdjacency`'s own limitation note names** —
+"a row whose edge was never recorded at all". It could not have been
+found by reading the catalogue, because the catalogue never held it.
+The batch that deleted a dead edge (§8) added a live one by
+measurement, and the two arrived by opposite routes.
+
+Consequences, all pinned:
+
+- the edge is declared in `patterns.jsonl` on both rows;
+- `strandedDashStarMarker` moved ABOVE `strandedStemHead` so the
+  entangled pair occupies a gap-free span (it commutes with both, so the
+  move costs nothing);
+- the DIRECTION is pinned separately, the way the tosefta pair's is —
+  adjacency is direction-blind, and reversed the repair at `R00223`
+  simply never happens while every per-rule count still reads normal;
+- the pinned cluster set goes 5 → **6**.
+
+## 15. Two more things the gates caught, not the reading
+
+**`removes` must be STRIPPED text.** `checkNoLostText` compares
+`textOf(entry)`, which is `fieldsOf(...).map(stripTags)`, so a
+declaration carrying tag bytes does not occur in the input the gate
+sees — it is refused, and every codepoint the rule actually dropped is
+then reported unexplained. The composed corpus run found this on
+`B01003`, whose duplicated run holds a whole anchor. Both figures are
+now pinned, because they mean different things: **2,771 raw codepoints
+deleted, 1,799 stripped ones declared** for the adjacent rule; 3,357 and
+939 for the opening one.
+
+**Rules 1 and 4 of `registry.order.test.ts` were phase-blind.** They
+assert unlink-before-retarget and unlink-before-wrap by comparing
+registry INDEX, and index is not execution order across phases — a
+`structural-repairs` rule runs after every `text-repairs` rule whatever
+its index. So for a structural unlink rule those assertions are not
+merely violated but **unsatisfiable**, and could only be "satisfied" by
+registering the rule early in a list whose own comment says structural
+rules sit last so it reads in execution order. This is batch 6c's
+phase-blindness in a second gate, and it takes 6c's fix: SKIP, and
+COUNT — 8 pairs for rule 1 (2 structural unlinks × 4 readers), 6 for
+rule 4 (× 3 wrap rules).
+
+**What earns the skip is not the phase name.** Rule 1 guards against a
+retarget adopting a target off an anchor an unlink will later delete.
+These rules delete a verbatim DUPLICATE, so the twin survives: measured
+over all 32,512 entries, every anchor they remove leaves a surviving
+copy of its `data-ref` — 30 of 30 and 11 of 11, **0 orphaned** — and
+that is asserted in the corpus pass rather than argued in a comment.
+
 ## 12. What this batch has not done yet
 
-- Six rows are untouched by any rule:
-  `duplicated-definition-opening-run`, `empty-lead-sense`,
-  `continuation-marker-em-dash-loss`, `adjacent-verbatim-repetition`,
-  `bracketed-gloss-lead-sense`, `section-break-terminator-loss`. Three
-  of the six now have a measured objection to their presumed repair
-  (§9, §10, §11) and need a ruling before code.
-- `bracketed-gloss-lead-sense` reproduces at 49 but NOTHING here states
-  what its repair would be. That is the next thing to measure, not the
-  next thing to write.
+- **Two rows remain open**: `continuation-marker-em-dash-loss` (38
+  measured against a catalogued 71, and its own audit already records
+  the figure as unsettled between 19 and 44) and
+  `section-break-terminator-loss` (11 candidates, needing eyes-on before
+  a rule inserts a byte).
+- The 6 residual `*N)` markers of §2 and the 31 residual tails of §7
+  stay on their rows with no rule owed yet.
 - *k* for §3 is not ruled.
 - The 11 of §6 are not read.
 - Nothing here measures what the 31 residual tails of

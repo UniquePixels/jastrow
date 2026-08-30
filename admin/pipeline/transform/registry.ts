@@ -8,6 +8,10 @@
 import type { Pattern } from '../research/patterns.ts';
 import { ibAnaphora, sifreAnaphora, targumAnaphora } from './rules/anaphora.ts';
 import {
+	adjacentVerbatimRepeat,
+	duplicatedOpeningRun,
+} from './rules/duplication.ts';
+import {
 	emphasisRunEdgeSpace,
 	trailingWhitespaceDefinition,
 } from './rules/edge-trim.ts';
@@ -953,6 +957,31 @@ const RULES: readonly Rule[] = [
 	// `body/deletion-baseline.corpus.test.ts` instead. Batch-6b spec
 	// §2.3 carries that argument.
 	stemHeadMarkerChop,
+	// The second `structural-repairs` rule to be registered, and the
+	// one that closes the only entanglement edge left in `PENDING`:
+	// `trailing-em-dash-tail` and `sense-number-outside-closed-grammar`
+	// are one upstream event counted twice, and the catalogue on both
+	// rows says they must be transformed in ONE step.
+	//
+	// IT SITS HERE, ABOVE `strandedStemHead`, BECAUSE THE PAIR BELOW
+	// MUST BE ADJACENT. `stranded-stem-head` and
+	// `duplicated-definition-opening-run` are entangled by
+	// measurement (see their block), and `checkAdjacency` requires an
+	// entangled component to occupy a gap-free span — which this rule
+	// would break if it stayed between them. It commutes with both,
+	// so moving it costs nothing.
+	// transformed in ONE step.
+	//
+	// IT MEETS NEITHER RULE ABOVE IT, AND BOTH EXCLUSIONS ARE MEASURED
+	// RATHER THAN ARGUED. `stemHeadMarkerChop` needs a definition
+	// ending in `—N) ` — a dash, digits, paren and space — where this
+	// one needs a definition ending in the dash itself, so no string
+	// satisfies both. `strandedStemHead` needs `content.senses[0]` with
+	// no `grammar` and an opening italic label run; this rule never
+	// touches `senses[0]`'s own text except to trim a trailing dash,
+	// and never writes an italic run. Same phase, so the commutation
+	// gate composes both pairs rather than skipping them.
+	strandedDashStarMarker,
 	// The second `structural-repairs` rule, and the first to CREATE a
 	// grammar block. It runs after `stemHeadMarkerChop` only because
 	// that one shipped first.
@@ -974,22 +1003,28 @@ const RULES: readonly Rule[] = [
 	// compose the pair — unlike a cross-phase pair, which it now skips
 	// and counts (`PairStats.crossPhasePairs`, batch 6c).
 	strandedStemHead,
-	// The third `structural-repairs` rule, and the one that closes the
-	// only entanglement edge left in `PENDING`: `trailing-em-dash-tail`
-	// and `sense-number-outside-closed-grammar` are one upstream event
-	// counted twice, and the catalogue on both rows says they must be
-	// transformed in ONE step.
+	// Batch 7's two DUPLICATION rules, and the first rules in this
+	// registry to declare `unlinks` alongside `removes`. Both delete a
+	// verbatim duplicate; a duplicated run can contain an anchor, and
+	// 26 of the 88 opening runs hold 30 between them against 9 of the 65
+	// adjacent runs holding 11.
 	//
-	// IT MEETS NEITHER RULE ABOVE IT, AND BOTH EXCLUSIONS ARE MEASURED
-	// RATHER THAN ARGUED. `stemHeadMarkerChop` needs a definition
-	// ending in `—N) ` — a dash, digits, paren and space — where this
-	// one needs a definition ending in the dash itself, so no string
-	// satisfies both. `strandedStemHead` needs `content.senses[0]` with
-	// no `grammar` and an opening italic label run; this rule never
-	// touches `senses[0]`'s own text except to trim a trailing dash,
-	// and never writes an italic run. Same phase, so the commutation
-	// gate composes both pairs rather than skipping them.
-	strandedDashStarMarker,
+	// THEY RUN HERE, NOT IN `text-repairs`, ON BRIAN'S RULING
+	// 2026-08-29. The loss gate is phase-scoped, so this is the only
+	// phase in which a deletion is judged per call; in `text-repairs`
+	// the two would instead be defended by
+	// `body/deletion-baseline.corpus.test.ts`'s pinned total, and their
+	// 6,128 codepoints are more than that whole baseline of 4,510.
+	//
+	// THEIR DISJOINTNESS IS POSITIONAL AND IS WHAT DEFINES THEM.
+	// `duplicatedOpeningRun` matches only at offset 0 and
+	// `adjacentVerbatimRepeat` only away from it, so no single run can
+	// be claimed by both — asserted in `duplication.test.ts` and
+	// measured in `duplication-corpus.test.ts`. ONE ENTRY (`I00509`)
+	// holds one of each, at different offsets, and the two compose to
+	// the same entry in either order.
+	duplicatedOpeningRun,
+	adjacentVerbatimRepeat,
 ];
 
 /** Catalogued transform rows with no rule yet. Shrinks batch by batch;
@@ -1213,11 +1248,26 @@ const PENDING: readonly string[] = [
 	'continuation-marker-em-dash-loss',
 	'tanhuma-never-linked',
 	'pesikta-drk-never-linked',
-	'duplicated-definition-opening-run',
+	// `duplicated-definition-opening-run` left this list in batch 7: it
+	// is registered above at 88 occurrences / 85 entries. THE ROW
+	// RECORDED NO PREDICATE, only "the middle and best-argued figure" of
+	// three letter filters (M 91, Q 85, P 79), so batch 7 had to state
+	// one: a definition whose opening run of >= 4 characters repeats
+	// immediately at offset 0. `k = 4` reproduces the catalogued 85
+	// entries exactly, which is the only evidence available for what the
+	// round-3 detector did; uncapped the thresholds run 2 -> 98 entries,
+	// 3 -> 90, 4 -> 85, 6 -> 79, 8 -> 64, 12 -> 47.
 	'shin-sin-dot-drop',
 	'v-sub-redirect-stub-mislink',
 	'midrash-petichta-unanchored',
-	'adjacent-verbatim-repetition',
+	// `adjacent-verbatim-repetition` left this list in batch 7: it is
+	// registered above at its CORRECTED size, 65 rather than the
+	// catalogued 59. The 59 was not a measurement agreeing with the
+	// catalogue but two length caps matching — for an adjacent repeat
+	// only the FULL run repeats immediately, since a proper suffix of
+	// the first copy is followed by the second copy's PREFIX, so a
+	// bounded search loses long members rather than shortening them.
+	// The split is exact: 59 members at <= 120 characters, 6 above.
 	'containment-fallback-mislink',
 	// `post-anchor-numeral-duplication` left this list in batch 4 Task 6:
 	// audited to `judgment` in `patterns.jsonl` (Brian's ruling

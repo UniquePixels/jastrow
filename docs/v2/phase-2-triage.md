@@ -55,7 +55,7 @@ someone pins the predicate.
 
 | Route | Rows | Instances | What it needs |
 |---|---:|---:|---|
-| **transform** | **66** | **20,186** | deterministic code + tests |
+| **transform** | **66** | **20,192** | deterministic code + tests |
 | judgment | 62 | 16,570 | per-entry reading (Opus pass or maintainer) |
 | blocked | 5 | 4,947 | pin the predicate first |
 
@@ -195,9 +195,14 @@ is working:
   grammar and 6 are repaired by `applyRepairs` — and
   `adjacent-verbatim-repetition` corrected 59 → **65**, where the
   agreement at 59 was two length caps matching rather than two
-  measurements. See [transform-batch-7.md](transform-batch-7.md).
+  measurements. Three rules shipped (`trailing-em-dash-tail` 101,
+  `duplicated-definition-opening-run` 89, `adjacent-verbatim-repetition`
+  65), and the commutation gate found an entanglement edge THE CATALOGUE
+  HAD NEVER HELD — `stranded-stem-head` exposes a duplicate by moving a
+  label out of `senses[0]`, so the opening rule repairs 88 alone and 89
+  composed. See [transform-batch-7.md](transform-batch-7.md).
 
-**48.4% of the backlog is deterministic code** (20,186 of 41,703
+**48.4% of the backlog is deterministic code** (20,192 of 41,709
 instances), 49.6% of it by row. That is the most useful number here —
 about half the catalogue does not need judgment at all.
 
