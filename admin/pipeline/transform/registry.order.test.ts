@@ -223,6 +223,13 @@ const NEITHER = new Set([
 	// below earns. `FIELD` is not open to it for the same reason as its
 	// phase-mate: the field it edits is full of tags.
 	'stranded-stem-head',
+	// Batch 7's structural rule, and the third from that phase. It
+	// moves ONE em dash from the end of a definition into the next
+	// sibling's `number` — a field that holds no markup at all — so no
+	// anchor is touched, none removed and no target written, which the
+	// corpus pass below earns. `FIELD` is not open to it for the same
+	// reason as both phase-mates: the field it trims is full of tags.
+	'trailing-em-dash-tail',
 	// BATCH 4 ADDS FOUR, and they are the set's second real test after
 	// batch 3b's twelve. These four move one of the anchor's own tags
 	// across the text beside it — `</a>` across a `)`, a `<sup>` run or

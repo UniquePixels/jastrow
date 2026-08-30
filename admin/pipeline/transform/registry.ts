@@ -54,6 +54,7 @@ import {
 	parenTagSpace,
 	translitItalicSpace,
 } from './rules/seam-space.ts';
+import { strandedDashStarMarker } from './rules/sense-marker.ts';
 import { stemHeadMarkerChop } from './rules/stem-head.ts';
 import { asteriskStemStrayPeriod } from './rules/stem-label.ts';
 import { strandedStemHead } from './rules/stem-section.ts';
@@ -973,6 +974,22 @@ const RULES: readonly Rule[] = [
 	// compose the pair — unlike a cross-phase pair, which it now skips
 	// and counts (`PairStats.crossPhasePairs`, batch 6c).
 	strandedStemHead,
+	// The third `structural-repairs` rule, and the one that closes the
+	// only entanglement edge left in `PENDING`: `trailing-em-dash-tail`
+	// and `sense-number-outside-closed-grammar` are one upstream event
+	// counted twice, and the catalogue on both rows says they must be
+	// transformed in ONE step.
+	//
+	// IT MEETS NEITHER RULE ABOVE IT, AND BOTH EXCLUSIONS ARE MEASURED
+	// RATHER THAN ARGUED. `stemHeadMarkerChop` needs a definition
+	// ending in `—N) ` — a dash, digits, paren and space — where this
+	// one needs a definition ending in the dash itself, so no string
+	// satisfies both. `strandedStemHead` needs `content.senses[0]` with
+	// no `grammar` and an opening italic label run; this rule never
+	// touches `senses[0]`'s own text except to trim a trailing dash,
+	// and never writes an italic run. Same phase, so the commutation
+	// gate composes both pairs rather than skipping them.
+	strandedDashStarMarker,
 ];
 
 /** Catalogued transform rows with no rule yet. Shrinks batch by batch;
@@ -994,7 +1011,22 @@ const PENDING: readonly string[] = [
 	// `judgment` in `patterns.jsonl` (no other article exists for any of
 	// its 87 anchors, and the construct is 3.2% of a corpus-wide linker
 	// behaviour), so `coverage` no longer counts it and neither list may.
-	'trailing-em-dash-tail',
+	// `trailing-em-dash-tail` left this list in batch 7: it is
+	// registered above at 101 of its 132 stranded dashes — every one
+	// whose next sibling carries a `*N)` marker. The other 31 STAY ON
+	// THE ROW (16 entry-final, 7 next-sibling-unnumbered, 8
+	// next-sibling-bare), because the row's own reading is that the
+	// dash is the following marker's SEPARATOR rather than debris, and
+	// for those 31 there is no marker to rejoin it to.
+	//
+	// Splitting rather than registering the whole row is batch 6b's
+	// step: `coverage()` reads a row as registered the moment any rule
+	// claims its id, so a partial rule that took the row off this list
+	// would take its remainder off the queue with it. The row keeps its
+	// id here — it is claimed above AND still owed 31 — which is the
+	// one shape `registry.test.ts` forbids, so the remainder is
+	// recorded in `patterns.jsonl` and in
+	// `docs/v2/transform-batch-7.md` §1 instead of by a second entry.
 	// `stranded-stem-head` left this list in batch 6c: it is registered
 	// above at its RE-MEASURED size. The row was catalogued at 544
 	// entries with NO predicate recorded anywhere; under the predicate
@@ -1034,6 +1066,36 @@ const PENDING: readonly string[] = [
 	// blocks as one run — needing no data change, so leaving the row on
 	// this list asserted a rule was owed before cutover when none is.
 	// Audit: data/patches/catalogue-audit/empty-stem-section.md.
+	// `sense-number-outside-closed-grammar` STAYS on this list, but it
+	// is RE-SCOPED from 111 entries to **6** — Brian's ruling
+	// 2026-08-29, audit
+	// `data/patches/catalogue-audit/sense-number-closed-grammar.md`.
+	// The row's name has been false since before Phase 2 opened, and
+	// its 113 catalogued tokens partition three ways with nothing left
+	// for a rule of its own to do:
+	//
+	// - **107 were never outside the grammar.** `body/labels.ts`'s
+	//   `LABEL` takes the star as a parsed FIELD, not a quarantine
+	//   trigger; all 107 `*N)` markers parse and round-trip through
+	//   `printLabel` byte-exactly.
+	// - **6 are repaired before any transform runs.** `repairs.ts`'s
+	//   "04 — sense-label quarantine repairs" turns the five `-2)`
+	//   ASCII hyphens into `—2)` and moves D00341's `[1)` bracket into
+	//   the sense text. Tokens quarantining to `{unknown}`: 6 raw → **0
+	//   post-`applyRepairs`**, measured over all 32,512 entries. This
+	//   is batch 6a's `binyan-form-*` shape for the third time.
+	// - **101 are repaired by its entangled partner's rule** —
+	//   `strandedDashStarMarker` above, which is exactly the claim both
+	//   rows make about each other.
+	//
+	// What is LEFT is the 6 `*N)` markers with no stranded dash before
+	// them: `A00510`, `A02000`, `B00005`, `M00591`, `N01131`,
+	// `P01184`. They reconcile the catalogued token census to the digit
+	// (`*2)` 74 − 72, `*3)` 19 − 18, `*1)` 3 − 0), and `A02000`'s
+	// predecessor ends `—[`, which is `stranded-open-bracket`'s shape.
+	// A row re-scoped to its true size is the fifth way a row has moved
+	// on this queue, and the reason it is not simply discarded is that
+	// discarding it would leave those 6 surfaced by nothing executable.
 	'sense-number-outside-closed-grammar',
 	'bracketed-gloss-lead-sense',
 	// `parenthesized-alt-headword` and `phrase-alt-headword-stub` left
