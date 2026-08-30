@@ -31,11 +31,15 @@ time in three batches it changed an answer.
 | `bracketed-gloss-lead-sense` | 49 | **49** | exact — §5 |
 | `section-break-terminator-loss` | 10 | 11 | §6 |
 
-Five of eight reproduce their catalogued count on first measurement.
-Two of those five (`adjacent-verbatim-repetition`,
-`bracketed-gloss-lead-sense`) reproduced only once a boundary condition
-the catalogue states in prose was made executable — see §5, which is the
-transferable part of this section.
+**Four of eight reproduce their catalogued count.** One of those four
+(`bracketed-gloss-lead-sense`) reproduced only once a boundary condition
+the catalogue states in prose was made executable — see §5.
+
+`adjacent-verbatim-repetition` briefly looked like a fifth, at 59, and
+is the batch's sharpest lesson so far: the agreement was two length caps
+matching, not two measurements agreeing, and the count is **65**. §10
+carries it. A number that reproduces is evidence about the predicate
+only when the predicate is stated; this one was not.
 
 `trailing-em-dash-tail` reproduces including its whole decomposition:
 101 of 132 tails precede a `*N)` sibling, and the residual splits
@@ -116,22 +120,25 @@ contradicts it. The 56-member `;`/`,` arm is the catalogue's own
 "real finding that kills the naive version of this candidate", and it
 reproduces.
 
-## 5. Two rows reproduced only after a prose boundary was made executable
+## 5. Two rows needed a prose boundary made executable — one of them twice
 
-Both of these were "wrong" on first measurement and correct on second,
-and the correction was the same move each time: the catalogue states a
-boundary in a sentence, and the detector has to encode it.
+Both of these were "wrong" on first measurement, and the correction was
+the same move each time: the catalogue states a boundary in a sentence,
+and the detector has to encode it. Only one of the two then reproduced.
 
-**`adjacent-verbatim-repetition` — 71, then 59.** The row reads "a run
-of ≥ 8 characters ending in a period, repeated immediately and verbatim
-inside one definition", and then, separately, "Distinct from
+**`adjacent-verbatim-repetition` — 71, then 59, then 65.** The row reads
+"a run of ≥ 8 characters ending in a period, repeated immediately and
+verbatim inside one definition", and then, separately, "Distinct from
 `duplicated-definition-opening-run`, which is anchored at offset 0." A
-detector that reads only the first sentence returns **71** and the row
-is catalogued at **59**. Excluding the match that *is* the opening run
-returns **59 occurrences / 59 entries** and an overlap with
-`duplicated-definition-opening-run` of **0 entries**. The two rows
-partition their union of 119 exactly, and the disjointness is now a
-measured fact rather than a claim.
+detector that reads only the first sentence returns **71**. Excluding
+the match that *is* the opening run gives an overlap with
+`duplicated-definition-opening-run` of **0 entries**, which is the
+disjointness the two rows claim and now a measured fact.
+
+**It also returned 59, the catalogued figure, and that agreement was an
+accident of two matching length caps.** The true count under the same
+predicate is **65** — §10, which is the finding, and the reason this
+section says "one of the two" reproduced rather than both.
 
 **`bracketed-gloss-lead-sense` — 63, then 49.** The row reads
 "unnumbered first sense whose entire definition is a bracketed
