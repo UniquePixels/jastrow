@@ -27,7 +27,7 @@ time in three batches it changed an answer.
 | `duplicated-definition-opening-run` | 85 | 60 / 82 / 95 | no predicate — §3 |
 | `empty-lead-sense` | 84 | **73 `{}` + 11 ws = 84** | exact |
 | `continuation-marker-em-dash-loss` | 71 | 38 | unsettled — §4 |
-| `adjacent-verbatim-repetition` | 59 | **59 / 59** | exact — §5 |
+| `adjacent-verbatim-repetition` | 59 | **65** | §5 boundary, §10 count |
 | `bracketed-gloss-lead-sense` | 49 | **49** | exact — §5 |
 | `section-break-terminator-loss` | 10 | 11 | §6 |
 
@@ -247,12 +247,64 @@ members, and what it actually needs is a ruling, not a rule — plausibly
 the same data-vs-display question batch 6b's `empty-stem-section` turned
 on.
 
-## 10. What this batch has not done yet
+## 10. `adjacent-verbatim-repetition` is 65, and the catalogued 59 is a cap artifact
 
-- Six rows are untouched: `duplicated-definition-opening-run`,
-  `empty-lead-sense`, `continuation-marker-em-dash-loss`,
-  `adjacent-verbatim-repetition`, `bracketed-gloss-lead-sense`,
-  `section-break-terminator-loss`.
+The row reads "a run of ≥ 8 characters ending in a period, repeated
+immediately and verbatim inside one definition", plus the separate
+sentence that makes it disjoint from
+`duplicated-definition-opening-run`: that row "is anchored at offset 0".
+Encode both and the population is **65 occurrences / 65 entries**,
+2,771 codepoints — not the catalogued 59.
+
+**The 59 is what a length-capped detector can see, and the cap is not
+harmless the way it looks.** A first pass here bounded the candidate run
+at 120 characters, reasoning that a long duplicated run contains a short
+one. It does not: the repeat is `run + run`, and a proper suffix of the
+first copy is followed by the second copy's PREFIX, not by itself. Only
+the FULL run repeats immediately. So a capped detector does not
+under-report the run length — it misses the member entirely.
+
+The split is exact, which is what identifies the cause rather than
+merely fitting it:
+
+| run length | members |
+|---|---:|
+| ≤ 120 chars | **59** |
+| > 120 chars | **6** |
+
+The six are `B01153` (128), `L00466` (126), `C00674` (131), `I00509`
+(134), `K00081` (164), `U00540` (325). All six are anchor-bearing.
+
+## 11. A rule here would delete anchors, which changes what it must declare
+
+Of the 65 runs, **9 contain a full anchor and 11 anchors would be
+deleted** — `B01003`, `B01153`, `C00674`, `I00105`, `I00410`, `I00509`,
+`K00081`, `L00466`, and `U00540` with three of its own. Every one of the
+65 runs is markup-BALANCED (measured: 0 unbalanced), so deleting the
+second copy never breaks a tag — but it does remove links, and that has
+consequences the row does not mention:
+
+- the rule needs an `unlinks` declaration, not just a deletion;
+- it cannot join `NEITHER` in `registry.order.test.ts`, whose membership
+  is EARNED by a corpus pass asserting the rule removes no anchor;
+- `K00081` is already on `migrate-dry`'s `deferred` list ("print sense 5
+  label missing and note is unresolved — eyes-on"), so one of the 65 is
+  a member of an open question.
+
+That is a design decision for the row, not a detail of writing it, and
+nothing is written here.
+
+## 12. What this batch has not done yet
+
+- Six rows are untouched by any rule:
+  `duplicated-definition-opening-run`, `empty-lead-sense`,
+  `continuation-marker-em-dash-loss`, `adjacent-verbatim-repetition`,
+  `bracketed-gloss-lead-sense`, `section-break-terminator-loss`. Three
+  of the six now have a measured objection to their presumed repair
+  (§9, §10, §11) and need a ruling before code.
+- `bracketed-gloss-lead-sense` reproduces at 49 but NOTHING here states
+  what its repair would be. That is the next thing to measure, not the
+  next thing to write.
 - *k* for §3 is not ruled.
 - The 11 of §6 are not read.
 - Nothing here measures what the 31 residual tails of
