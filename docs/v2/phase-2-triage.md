@@ -195,7 +195,7 @@ is working:
   grammar and 6 are repaired by `applyRepairs` — and
   `adjacent-verbatim-repetition` corrected 59 → **65**, where the
   agreement at 59 was two length caps matching rather than two
-  measurements. Four rules shipped (`trailing-em-dash-tail` 101,
+  measurements. Five rules shipped (`trailing-em-dash-tail` 101,
   `duplicated-definition-opening-run` 89, `adjacent-verbatim-repetition`
   65, `section-break-terminator-loss` 11 — the only rule in the
   registry that MINTS a byte, `allows: ['.']` — and

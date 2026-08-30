@@ -519,6 +519,17 @@ function lastWithin(
 ): number {
 	const phases = new Set(right.map(phaseOf));
 	const same = [...left].filter((id) => phases.has(phaseOf(id)));
+	// `Math.max(...[])` is -Infinity, which is less than every index — so
+	// an empty intersection would make rules 1 and 4 pass while comparing
+	// NOTHING, leaving the counted skip as the only evidence they ran.
+	// That is precisely the "silence mistaken for coverage" failure the
+	// surrounding comments name, so it throws instead. Hardening: the
+	// intersection is non-empty today.
+	if (same.length === 0) {
+		throw new Error(
+			'registry order: no same-phase member to compare — the assertion would pass vacuously',
+		);
+	}
 	return Math.max(...same.map(at));
 }
 

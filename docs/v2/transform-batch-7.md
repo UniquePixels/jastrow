@@ -2,7 +2,7 @@
 
 **Status: complete 2026-08-29, pending review.** **Five rules
 shipped**, **two rows re-scoped** and two withdrawn on Brian's rulings,
-one entanglement edge deleted and **one added**, two gates made
+one entanglement edge deleted and **two added**, two gates made
 phase-aware, four catalogued counts corrected. **All eight rows are
 disposed.** Scope
 ruled by Brian on the batch-7 opening question: the eight blocking rows

@@ -116,8 +116,22 @@ it('never writes the period inside a tag', () => {
 		if (result.records.length === 0) {
 			continue;
 		}
-		for (const sense of walk(result.entry.content.senses)) {
-			expect(sense.definition ?? '').not.toMatch(/\.<\/[a-z]+>—/u);
+		// ONLY the definitions this rule CHANGED. Asserting over every
+		// sense of a repaired entry would fail on a pre-existing
+		// `.</i>—Pl.` in a sense the rule correctly refused — the
+		// predecessor there is already a period — and that failure would
+		// be about the corpus, not about what the rule wrote.
+		const before = [...walk(entry.content.senses)].map(
+			(sense) => sense.definition ?? '',
+		);
+		const after = [...walk(result.entry.content.senses)].map(
+			(sense) => sense.definition ?? '',
+		);
+		for (const [index, written] of after.entries()) {
+			if (written === before[index]) {
+				continue;
+			}
+			expect(written).not.toMatch(/\.<\/[a-z]+>—/u);
 		}
 	}
 }, 120_000);

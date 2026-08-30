@@ -1002,14 +1002,16 @@ const RULES: readonly Rule[] = [
 	// the same entry in either order.
 	duplicatedOpeningRun,
 	adjacentVerbatimRepeat,
-	// Batch 7's last rule, and THE ONLY RULE IN THIS REGISTRY THAT MINTS
-	// A BYTE INTO THE TEXT — one period per member, declared through
-	// `allows: ['.']` on Brian's ruling 2026-08-29.
+	// THE ONLY RULE IN THIS REGISTRY THAT MINTS A BYTE INTO THE TEXT —
+	// one period per member, declared through `allows: ['.']` on Brian's
+	// ruling 2026-08-29.
 	//
-	// It runs LAST in the phase because it is the only member that adds,
-	// and reading the list in execution order then puts every deletion
-	// and every move ahead of the one insertion. Nothing depends on that
-	// position: its predicate is a `—<label>` boundary, which no rule
+	// It runs after both deletion rules because it is the only member
+	// that ADDS, so every deletion precedes the one insertion. The two
+	// marker rules below it move text and sit there for their own
+	// reason — they are an entangled pair and must be adjacent. Nothing
+	// depends on this rule's position: its predicate is a `—<label>`
+	// boundary, which no rule
 	// above writes or removes, and the commutation gate composes it
 	// against all four phase-mates.
 	//
@@ -1034,7 +1036,6 @@ const RULES: readonly Rule[] = [
 	// a sibling CREATES the witness `continuationMarkerDash` requires,
 	// so this rule must run FIRST or that repair never happens. The
 	// direction is pinned in `registry.order.test.ts`.
-	// transformed in ONE step.
 	//
 	// IT MEETS NEITHER RULE ABOVE IT, AND BOTH EXCLUSIONS ARE MEASURED
 	// RATHER THAN ARGUED. `stemHeadMarkerChop` needs a definition
