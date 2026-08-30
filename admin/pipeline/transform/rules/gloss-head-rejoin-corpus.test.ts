@@ -38,6 +38,18 @@ import { composedEntries } from './corpus-fixture.ts';
  * ending in a bare `b.` — is stated here and is what reproduces the
  * catalogued count.
  *
+ * ## Why `stripTags` rather than a regex
+ *
+ * `stripTags` is the pipeline's own strip —
+ * `serialize(tokenize(html).filter(text))`, a real tokenizer. A
+ * single-pass `s.replace(/<[^>]*>/gu, '')` is CodeQL's
+ * `js/incomplete-multi-character-sanitization` (high), because one pass
+ * over a crafted input can leave a `<script` behind; it flagged exactly
+ * that form here on PR #58. Nothing in this file is rendered, so the
+ * alert was not a live vulnerability — but the pipeline already has a
+ * correct strip and there is no reason for a gate to carry a weaker one
+ * than the code it guards.
+ *
  * Audit: `data/patches/catalogue-audit/b-h-field-split.md`.
  */
 
@@ -49,17 +61,6 @@ const CODE_ENDS_B = /\bb\.\s*$/u;
 const DEFINITION_OPENS_H = /^\s*h\.\s/u;
 /** What the two fragments must read as once rejoined. */
 const HEALED = /b\.\s*h\./u;
-
-/** The repo's own tag strip — `serialize(tokenize(html).filter(text))`,
- * a real tokenizer rather than a single-pass regex.
- *
- * Not a style preference. `s.replace(/<[^>]*>/gu, '')` is CodeQL's
- * `js/incomplete-multi-character-sanitization` (high): one pass over a
- * crafted input can leave a `<script` behind, and it flagged exactly
- * this line on PR #58. Nothing here is rendered, so the alert is not a
- * live vulnerability — but the pipeline already has a correct strip and
- * there is no reason for a gate to carry a weaker one. */
-const strip = stripTags;
 
 /** The four the catalogue names, measured rather than assumed. */
 const CATALOGUED = ['C00090', 'M00231', 'M00395', 'R00196'];
@@ -82,7 +83,7 @@ function introStrings(body: BodyEntry): string[] {
 	if (intro === undefined) {
 		return [];
 	}
-	return [intro.gloss, ...intro.units].map(strip);
+	return [intro.gloss, ...intro.units].map((text) => stripTags(text));
 }
 
 interface Census {
@@ -101,7 +102,7 @@ function census(entries: readonly SourceEntry[]): Census {
 	const out: Census = { built: [], exact: [], rejoined: [], split: [] };
 	for (const entry of entries) {
 		const code = entry.language_code ?? '';
-		const first = strip(entry.content.senses[0]?.definition ?? '');
+		const first = stripTags(entry.content.senses[0]?.definition ?? '');
 		if (!(CODE_ENDS_B.test(code) && DEFINITION_OPENS_H.test(first))) {
 			continue;
 		}
@@ -109,7 +110,7 @@ function census(entries: readonly SourceEntry[]): Census {
 		if (/[=]\s*b\.\s*$/u.test(code)) {
 			out.exact.push(entry.rid);
 		}
-		if (HEALED.test(strip(rejoinGlossHead(entry).joined))) {
+		if (HEALED.test(stripTags(rejoinGlossHead(entry).joined))) {
 			out.rejoined.push(entry.rid);
 		}
 		if (introStrings(buildBody(entry).body).some((text) => HEALED.test(text))) {
