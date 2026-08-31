@@ -444,10 +444,16 @@ geresh-free alt at all. Degraded search on those spellings is a
 post-launch quality item, not a cutover gate. That is the only row whose
 `blocking` flag this batch changed.
 
-23 of these block the cutover (5,793 instances). Five rows are 85% of
-that, and four of the five are **one family** —
-paren/bracket integrity and lead-sense structure. Scope them as a single
-pass, not five:
+**31 of these block the cutover (6,400 instances)** — batch 8 moved
+three rows onto this route, `homograph-roman-stranded-in-definition`,
+`reversed-hebrew-phrase` and `sense-number-outside-closed-grammar`, all
+of them blocking. Five rows are 77% of that, and four of the five fall
+into two families — paren/bracket integrity
+(`unmatched-closing-paren` 1,604, `unmatched-opening-paren` 452) and
+lead-sense structure (`etymology-head-pseudo-sense` 1,553,
+`preamble-stranded-lead-sense` 676); the fifth,
+`citation-tail-truncation` (657), is neither. Scope the four as one
+pass rather than four:
 
 | Row | Instances |
 |---|---:|
@@ -551,18 +557,25 @@ after launch unless something else forces the issue.
   transform" was arguable — lost-text rows especially — the row was
   marked blocking. Wrong that way costs pre-launch effort; wrong the
   other way ships a baked-in defect.
-- **1 of the 3 unaudited transform rows blocks the cutover, and they
-  carry the least confidence**, having no recorded derivation behind
-  their counts. Recomputed rather than typed:
+- **0 of the 2 unaudited transform rows block the cutover.** They still
+  carry the least confidence, having no recorded derivation behind their
+  counts — `unlinked-v-span` (796) and `targum-sheni-never-linked`
+  (362) — but neither is on the critical path. Recomputed rather than
+  typed:
 
-  > **CORRECTED 2026-08-28 (impl/phase-2-batch-6).** This read *"3 of
-  > the 5"*, itself a 2026-08-26 correction of *"4 of the 9"* (which had
-  > replaced a Phase-1 "8" that three route changes left behind). Batch
-  > 5 wrote a `reason` onto `parenthesized-alt-headword` while writing
-  > its rule, leaving **4 unaudited, 2 of them blocking**. Same figures
-  > as item 4 of "Ordering and open questions", from this same query —
-  > and the reason this note keeps needing a correction is that both
-  > copies are typed rather than generated.
+  > **CORRECTED 2026-08-30 (batch 8)** from *"1 of the 3 … blocks"*.
+  > `b-h-split-across-field-boundary` was the third, and the blocking
+  > one; batch 8 discarded it, so the count falls to 2 and the blocking
+  > count to 0.
+  >
+  > That correction is itself the fourth on this line — 2026-08-28 read
+  > *"3 of the 5"*, a 2026-08-26 correction of *"4 of the 9"*, which had
+  > replaced a Phase-1 "8" that three route changes left behind. **The
+  > reason this line keeps needing correcting is that it is typed rather
+  > than generated**, which is exactly why batch 8 switched the two
+  > queue tables above to being generated from `patterns.jsonl`. This
+  > sentence is the last hand-maintained tally in the document, and it
+  > should go the same way the next time it is wrong.
 
   ```bash
   bun -e 'import {parsePatterns} from "./admin/pipeline/research/patterns.ts";

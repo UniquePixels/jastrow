@@ -47,7 +47,7 @@ exactly, once both false positives the row itself names are refused.
 The two that did not, did not fail the same way.
 
 **`plural-label-rendering-defeats-capture` reads 523 where the row says
-358.** The by-label *proportions* reproduce — the capitalised `Pl. `
+358.** The by-label *proportions* reproduce — the capitalised `"Pl. "`
 bucket loses well under 1% while the italic buckets lose most of theirs,
 which is the internal control the row's whole argument rests on, and it
 holds. Only the totals differ. The disposition does not turn on it (523
@@ -132,7 +132,7 @@ and the next word**; those were never one phrase.
 **The mechanism is rotation, and the row is named for reversal.** Full
 reversal produces word salad:
 
-```
+```text
 stored     וכ׳ אין מודדין אלא בח׳
 reversed   בח׳ אלא מודדין אין וכ׳      <- not Hebrew
 rotated    אין מודדין אלא בח׳ וכ׳
@@ -251,8 +251,8 @@ survives:
 |---|---|---|
 | `B00005`, `N01131`, `P01184` (`*1)`) | first numbered sibling of the run | **No** — the convention never puts one there, and each has a following `—2)` |
 | `A02000` (`*2)`) | predecessor ends `—[` | Already `stranded-open-bracket`'s, per batch 7 |
-| `A00510` (`*3)`) | predecessor ends `. `; **has** a dashed sibling | Witnessable via `copied` |
-| `M00591` (`*2)`) | predecessor ends `. `; **no** dashed sibling | Only via `allows` — refused |
+| `A00510` (`*3)`) | predecessor ends `". "`; **has** a dashed sibling | Witnessable via `copied` |
+| `M00591` (`*2)`) | predecessor ends `". "`; **no** dashed sibling | Only via `allows` — refused |
 
 A rule for `A00510` alone repairs one entry and leaves five on a
 blocking row. Withdrawn.
@@ -268,7 +268,7 @@ stubs — one top-level sense, no children, the anchor the entire
 definition — the particle slot is populated **7,270** times and empty
 **4**:
 
-```
+```text
 "v."  6844   "v. sub"  196   "read"  29   "pl. of"  29
 "read:"  16  "v. sub."  12   "part. of"  8  "fem. of"  5
 "Pi. of"  4  "v,"  4        "constr. of"  4  "imper. of"  3

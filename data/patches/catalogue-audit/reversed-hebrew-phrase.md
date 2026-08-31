@@ -54,7 +54,7 @@ artifact)", and its arm (a) is built on that: two-word runs whose
 
 For the 18, full reversal produces word salad. `H00087`:
 
-```
+```text
 stored     וכ׳ אין מודדין אלא בח׳
 reversed   בח׳ אלא מודדין אין וכ׳     <- not Hebrew
 rotated    אין מודדין אלא בח׳ וכ׳

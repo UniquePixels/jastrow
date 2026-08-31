@@ -26,7 +26,7 @@ are accounted for:
   implies but does not state: a Roman numeral immediately before a
   CAPITALISED Latin abbreviation is a book number. Every one of the 23
   true members is followed by `.`, `,`, `)`, `=` or a lower-case
-  abbreviation (` ch.`, ` f.,`, ` v. `, ` (or`); none is followed by a
+  abbreviation (`" ch."`, `" f.,"`, `" v. "`, `" (or"`); none is followed by a
   capital.
 
 With both clauses, **23 exactly**, the catalogued rids to the letter.
@@ -113,8 +113,10 @@ This was the last one on `transform`.
 entries and **neither carries an `entangledWith` naming the other** —
 both have `entangledWith: []`. Nothing in the gates could have found it:
 `checkAdjacency` reads declared edges, and the commutation gate composes
-registered RULES, of which neither row has one. This is the fourth
-entanglement this program has found by reading rather than by gate.
+registered RULES, of which neither row has one. Both endpoints are
+unregistered, which is the condition batch 7 showed `unaccountedEdges`
+is blind to by construction — so this edge was found by reading, and
+nothing in the suite could have found it.
 
 **The `²` question, unsettled.** Six of the 23 already carry a `²` in
 the headword — `תְּאֵב ²`, `שִׁיעֲתָא ²`, `שִׁיפָה ²`, `שלי ²`,

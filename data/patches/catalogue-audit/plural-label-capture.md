@@ -66,13 +66,19 @@ the stage a transform would stand:
 
 | Label rendering | declaring | missing | |
 |---|---:|---:|---|
-| `Pl. ` | 5,588 | 26 | 0.5% |
-| `pl. ` | 1,212 | 388 | 32.0% |
-| `<i>Pl.</i>` | 137 | 89 | 65.0% |
-| `<i>pl.</i>` | 32 | 23 | 71.9% |
-| `<i>Pl</i>.` | 0 | 0 | — |
-| `<i>pl</i>.` | 0 | 0 | — |
+| `"Pl. "` | 5,588 | 26 | 0.5% |
+| `"pl. "` | 1,212 | 388 | 32.0% |
+| `"<i>Pl.</i>"` | 137 | 89 | 65.0% |
+| `"<i>pl.</i>"` | 32 | 23 | 71.9% |
+| `"<i>Pl</i>."` | 0 | 0 | — |
+| `"<i>pl</i>."` | 0 | 0 | — |
 | **entries** | | **523** | |
+
+The two plain renderings are quoted because **their trailing space is
+part of the rendering**, not typography around it: `"Pl. "` is a
+different bucket from `"<i>Pl.</i>"`, and a predicate that dropped the
+space would take in `Pl.` at the end of a sentence. Every value here is
+quoted for consistency, and the quotes are not in the corpus.
 
 **These are OCCURRENCE counts and they overlap; 523 is the count of
 distinct ENTRIES.** The `missing` column sums to 526, three more than

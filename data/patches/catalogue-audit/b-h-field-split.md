@@ -43,7 +43,7 @@ about a different instance of it:
 `b. h.` is the same straddle with a different pair of fragments. For
 `M00395`:
 
-```
+```text
 language_code   " ch. = b."
 senses[0].def   " h. מוּג, to melt."
 rejoined        " ch. = b. h. מוּג, to melt."

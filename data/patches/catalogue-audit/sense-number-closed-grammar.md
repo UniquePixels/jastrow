@@ -144,8 +144,8 @@ asserting that an em dash is MISSING, and writing one.
 | `N01131` | `*1)` | `number: ""` | first numbered sibling of its run |
 | `P01184` | `*1)` | `number: ""` | first numbered sibling of its run |
 | `A02000` | `*2)` | ends `—[` | `stranded-open-bracket`'s shape |
-| `A00510` | `*3)` | ends `. ` | dash lost; has a dashed sibling |
-| `M00591` | `*2)` | ends `. ` | dash lost; **no** dashed sibling |
+| `A00510` | `*3)` | ends `". "` | dash lost; has a dashed sibling |
+| `M00591` | `*2)` | ends `". "` | dash lost; **no** dashed sibling |
 
 **Three are first-in-run.** The corpus convention puts the em dash on
 continuation markers, not on the first — `B00005`, `N01131` and
