@@ -1,6 +1,6 @@
 import { expect, it } from 'bun:test';
+import { sourceEntries } from '../transform/rules/corpus-fixture.ts';
 import { applyRepairs } from './repairs.ts';
-import { readSourceEntries } from './source.ts';
 import type { SourceSense } from './types.ts';
 
 /**
@@ -169,7 +169,7 @@ function censusPost(c: Census, senses: readonly SourceSense[]): void {
  * long enough for two rows to be catalogued as unrepaired. */
 async function build(): Promise<Census> {
 	const c = zero();
-	for await (const source of readSourceEntries()) {
+	for (const source of await sourceEntries()) {
 		c.corpusEntries++;
 		censusRaw(c, source.content.senses);
 		const { entry, records } = applyRepairs(source);

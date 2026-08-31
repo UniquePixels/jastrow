@@ -1,8 +1,7 @@
 import { describe, expect, it } from 'bun:test';
-import { readSourceEntries } from '../body/source.ts';
-import type { SourceEntry } from '../body/types.ts';
 import { computeSnapshot, LOCK_PATH, parseLock } from '../patch/snapshot.ts';
 import { ABBREVIATIONS, deriveAbbreviations, isLabel } from './abbrev-vocab.ts';
+import { sourceEntries } from './rules/corpus-fixture.ts';
 
 /** The 20 labels `label-period-outside-italic`'s round-4 audit names —
  * 7 cross-letter-unanimous conventions plus the 13 it proved to be
@@ -56,10 +55,7 @@ describe('abbreviation vocabulary', () => {
 	it.skipIf(!onPinnedSnapshot)(
 		're-derives from the pinned snapshot unchanged',
 		async () => {
-			const entries: SourceEntry[] = [];
-			for await (const entry of readSourceEntries()) {
-				entries.push(entry);
-			}
+			const entries = await sourceEntries();
 			const derived = deriveAbbreviations(entries);
 			// biome-ignore lint/suspicious/noConsole: the derived size on stdout is this test's evidence it measured the corpus rather than skipping
 			console.log(

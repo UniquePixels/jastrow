@@ -134,7 +134,7 @@ function usable(anchor: Anchor): boolean {
  * Exported: no shipped rule's predicate happens to select both members
  * of a nested pair (`ellipsisRaw` matches 0 of them corpus-wide), so
  * the nested-removal path above has no coverage through `apparatusCite`
- * /`rabbiName`/`ellipsisFragment` alone. `unlink-nesting.test.ts`'s
+ * /`rabbiName`/`ellipsisFragment` alone. `unlink-nesting.corpus.test.ts`'s
  * regression test drives this function directly with a synthetic
  * dataRef-keyed predicate against a real nested pair (A00282).
  */
@@ -201,7 +201,8 @@ function firstUsableMatch(
  * itself: 0 Judges/Ecclesiastes/Joshua anchors in
  * `language_reference` corpus-wide (task-2-report.md); the geresh
  * pair and the plural row each pinned their own populations wholly
- * inside definitions in `geresh.test.ts` and `misc-links.test.ts`.
+ * inside definitions in `geresh.corpus.test.ts` and
+ * `misc-links.corpus.test.ts`.
  * A SEVENTH row must measure its own field spread before reusing
  * this — the narrowing is a measured fact about six populations, not
  * a property of the walk.
@@ -311,7 +312,7 @@ const rabbiName: Rule = {
  * `apply` call. So this can't be an in-rule assertion; it has to walk
  * the corpus itself, independently of any single rule invocation.
  *
- * This helper only computes the unobserved keys; `unlink.test.ts` is
+ * This helper only computes the unobserved keys; `unlink.corpus.test.ts` is
  * where it actually runs, as a corpus-walking test rather than a
  * `transform:count` check — chosen deliberately. `transform:count`
  * already catches drift, but only as an aggregate delta on the count
@@ -356,7 +357,7 @@ function collectObserved(
 
 async function unobservedConvention(
 	convention: ReadonlySet<string>,
-	corpus: AsyncIterable<SourceEntry>,
+	corpus: AsyncIterable<SourceEntry> | Iterable<SourceEntry>,
 	raw: (tokens: readonly Token[], anchor: Anchor) => boolean,
 ): Promise<string[]> {
 	const seen = new Set<string>();
@@ -430,8 +431,9 @@ function ellipsisRaw(tokens: readonly Token[], anchor: Anchor): boolean {
  * inside a transform rule, but it must be LOUD ON DRIFT — same standing
  * as `repairs.ts`'s rid-keyed literal edits. Here that means every key
  * below must be OBSERVED — matched by `ellipsisRaw` somewhere in a
- * corpus pass — which `unlink.test.ts`'s corpus-walking test checks on
- * every run via `unobservedConvention`, above. A key that stops being
+ * corpus pass — which `unlink.corpus.test.ts`'s corpus-walking test
+ * checks on every run via `unobservedConvention`, above. A key that
+ * stops being
  * observed means the corpus moved under this exclusion, or the
  * exclusion was wrong from the start; either way it fails loudly,
  * naming the dead key, rather than degrading into a silent

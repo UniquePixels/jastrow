@@ -1,5 +1,4 @@
 import { describe, expect, it } from 'bun:test';
-import { readSourceEntries } from '../body/source.ts';
 import type { SourceEntry } from '../body/types.ts';
 import { parsePatterns } from '../research/patterns.ts';
 import {
@@ -8,6 +7,7 @@ import {
 	type PairStats,
 } from './commutation.ts';
 import { RULES } from './registry.ts';
+import { sourceEntries } from './rules/corpus-fixture.ts';
 import type { Rule, TransformResult } from './types.ts';
 
 const entryOf = (rid: string, definition: string): SourceEntry => ({
@@ -231,10 +231,11 @@ describe('the union skip', () => {
  */
 describe('the registry commutes except where the catalogue says otherwise', () => {
 	it('every non-commuting pair is mutually declared entangledWith', async () => {
-		const corpus: SourceEntry[] = [];
-		for await (const entry of readSourceEntries()) {
-			corpus.push(entry);
-		}
+		// The RAW snapshot, shared: this gate measures rules against the
+		// unrepaired entry, and `sourceEntries()` is that array built once
+		// for the whole run. `nonCommutingPairs` takes it `readonly` and
+		// never writes to it, which is the fixture's contract.
+		const corpus = await sourceEntries();
 
 		const rows = await parsePatterns(
 			await Bun.file('data/patches/patterns.jsonl').text(),

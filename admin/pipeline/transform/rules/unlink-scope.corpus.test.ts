@@ -21,16 +21,16 @@
  *
  * A SEVENTH row reusing the walk should extend this rather than
  * assume it. Its own file rather than an addition to
- * `unlink.test.ts`, following `unlink-nesting.test.ts`: the shared
- * walk's properties are tested beside the walk, not inside one row's
+ * `unlink.corpus.test.ts`, following `unlink-nesting.corpus.test.ts`:
+ * the shared walk's properties are tested beside the walk, not inside one row's
  * fixtures.
  */
 import { expect, it } from 'bun:test';
-import { readSourceEntries } from '../../body/source.ts';
 import type { SourceEntry, SourceSense } from '../../body/types.ts';
 import { tokenize } from '../html.ts';
 import { anchors } from '../links.ts';
 import { fieldsOf } from '../no-new-text.ts';
+import { sourceEntries } from './corpus-fixture.ts';
 import { bareStubRaw, prefixedStubRaw } from './geresh.ts';
 import { pluralToFeminineRaw } from './misc-links.ts';
 
@@ -91,14 +91,14 @@ function* linkedFields(
 it('every population built on unlinkOverDefinitions lives wholly in senses[].definition', async () => {
 	const inside: Tally = { bare: 0, plural: 0, prefixed: 0 };
 	const outside: Tally = { bare: 0, plural: 0, prefixed: 0 };
-	for await (const source of readSourceEntries()) {
+	for (const source of await sourceEntries()) {
 		for (const { isDefinition, text } of linkedFields(source)) {
 			add(isDefinition ? inside : outside, tally(source, text));
 		}
 	}
 	expect(outside).toEqual({ bare: 0, plural: 0, prefixed: 0 });
-	// The same three raw populations `geresh.test.ts` and
-	// `misc-links.test.ts` pin from the definition side, reached here
+	// The same three raw populations `geresh.corpus.test.ts` and
+	// `misc-links.corpus.test.ts` pin from the definition side, reached here
 	// through a walk that would also have found them anywhere else.
 	expect(inside).toEqual({ bare: 517, plural: 65, prefixed: 185 });
 }, 30_000);

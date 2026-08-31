@@ -2,7 +2,7 @@
  *
  * Why this file exists, stated plainly because it is the lesson rather
  * than the code. Batch 3a's own census
- * (`transform/rules/gershayim.test.ts`) applies the rules to PRISTINE
+ * (`transform/rules/gershayim.corpus.test.ts`) applies the rules to PRISTINE
  * source, which is the right way to measure a rule and the wrong way to
  * describe a pipeline: `migrate-dry` runs `applyRepairs` FIRST and
  * transforms on the healed entry. `migrate-dry` itself counts records
@@ -110,24 +110,31 @@
  * Batch 4's other four rules move NO anchor and NO target: withholding
  * all six gives the same 72,593 as withholding the unlink pair alone.
  *
- * Cost: two full pipeline passes (`applyRepairs` + the whole registry)
- * over 32,512 entries. That is expensive and it is deliberate; the
- * cheaper per-rule measurement is the one that missed this. */
+ * Cost: three withheld-rule pipelines over 32,512 entries. That is
+ * expensive and it is deliberate; the cheaper per-rule measurement is
+ * the one that missed this. Two of the three are built here; the third,
+ * the full-registry `after`, is `composedEntries()` and costs nothing —
+ * see `state()`. */
 import { describe, expect, it } from 'bun:test';
 import { tokenize } from '../transform/html.ts';
 import { anchors } from '../transform/links.ts';
 import { fieldsOf } from '../transform/no-new-text.ts';
 import { RULES } from '../transform/registry.ts';
+import {
+	composedEntries,
+	repairedEntries,
+	sourceEntries,
+} from '../transform/rules/corpus-fixture.ts';
 import { applyTransforms } from '../transform/run.ts';
-import { applyRepairs, REPAIRED_ORPHAN_ITEMS } from './repairs.ts';
-import { readSourceEntries } from './source.ts';
+import { REPAIRED_ORPHAN_ITEMS } from './repairs.ts';
 import type { SourceEntry } from './types.ts';
 
 /** A Jastrow address is the headword string VERBATIM followed by the
  * sense number, so the headword is read GREEDILY. A lazy read that
  * strips a trailing roman numeral loses 7,536 honest links and — worse
  * — resolves 1,131 anchors, across 288 distinct addresses, to a
- * DIFFERENT headword than the greedy read does. See `transform/rules/gershayim.test.ts` and
+ * DIFFERENT headword than the greedy read does. See
+ * `transform/rules/gershayim.corpus.test.ts` and
  * `docs/v2/transform-batch-3a.md` §8.3. */
 const JASTROW_REF = /^Jastrow, (?<headword>.+) (?<sense>\d+)$/u;
 
@@ -175,12 +182,15 @@ function anchorCount(corpus: readonly SourceEntry[]): number {
 	);
 }
 
-function pipeline(
-	source: SourceEntry,
+/** The `text-repairs` phase over an ALREADY-REPAIRED entry, with some
+ * rules withheld. The `applyRepairs` step is not repeated here because
+ * `repairedEntries()` has already paid for it once for the whole run —
+ * see `state()`. */
+function withheld(
+	repaired: SourceEntry,
 	rules: readonly (typeof RULES)[number][],
 ): SourceEntry {
-	return applyTransforms(applyRepairs(source).entry, 'text-repairs', rules)
-		.entry;
+	return applyTransforms(repaired, 'text-repairs', rules).entry;
 }
 
 /** Every anchor in the corpus, keyed by `rid|walk-position`. Keying on
@@ -206,22 +216,41 @@ function resolvingTargets(corpus: readonly SourceEntry[]): Set<string> {
 	return resolving;
 }
 
-/** Two full pipeline passes, computed ONCE and shared by the three
- * assertions below. They are separate `it`s because they fail for
- * different reasons and the message should say which; they are one
- * walk because a pass over 32,512 entries through `applyRepairs` plus
- * the whole registry is expensive and none of the three needs its own.
+/** The four corpus stages this file compares, computed ONCE and shared
+ * by the assertions below. They are separate `it`s because they fail for
+ * different reasons and the message should say which; they are one walk
+ * because a pass over 32,512 entries through the whole registry is
+ * expensive and none of the four needs its own.
  *
- * MEASURED 2026-08-27 on an arm64 macOS dev machine under Bun 1.3.14,
- * against a 35-rule registry: ~48s per pass. THREE passes now, not two
- * — `toseftaPrimaryHalakha`'s delta is invisible to every existing
- * counter, so seeing it at all costs a third withheld-rule pipeline —
- * which puts the corpus read plus the passes at ~150s locally. The
- * FIRST `it` bears all of it; the other three await a resolved promise.
- * CI runs this roughly 2× slower (the first `it` was observed at 187s
- * there against two passes), which is why the timeout below is 600s.
- * Re-measure this number when rules are added: a stale cost estimate
- * here is what set the old timeout too low. */
+ * ## Three of the four come from the shared fixture
+ *
+ * `source`, `repaired` and the full-registry `after` are exactly
+ * `corpus-fixture.ts`'s three stages, so this file takes them rather
+ * than rebuilding them: `after` IS `composedEntries()` by construction
+ * (`applyTransforms` defaults its `rules` to `RULES`), and the two
+ * withheld-rule pipelines start from `repairedEntries()` instead of
+ * repeating `applyRepairs` twice more. Only `before` and
+ * `withoutHalakha` are built here.
+ *
+ * ## What that costs and what it buys, both measured
+ *
+ * MEASURED 2026-08-31 on an arm64 macOS dev machine under Bun 1.3.14,
+ * against a 48-rule registry. Run ALONE this file got SLOWER, 178s ->
+ * 218s: nothing else consumes the fixture, so its three retained stages
+ * are pure overhead here. Run as part of the corpus tier — which is how
+ * CI runs it — the tier went 534s -> 452s, because the 21 other files
+ * that import the fixture now find it already built. The counterfactual
+ * is the measurement that settles it: the same tier with only this
+ * file's conversion reverted is 534s.
+ *
+ * Read those two numbers together before "optimising" this file again.
+ * A per-file timing taken from a shared-memo run is NOT attributable —
+ * the build lands on whichever file calls first, and that is this one.
+ *
+ * The FIRST `it` bears the whole cost; the others await a resolved
+ * promise. CI runs roughly 2x slower, which is why the timeout below is
+ * 600s. Re-measure when rules are added: a stale cost estimate here is
+ * what set the old timeout too low. */
 interface PipelineState {
 	after: readonly SourceEntry[];
 	before: readonly SourceEntry[];
@@ -233,17 +262,15 @@ let cached: Promise<PipelineState> | null = null;
 
 function state(): Promise<PipelineState> {
 	cached ??= (async (): Promise<PipelineState> => {
-		const source: SourceEntry[] = [];
-		for await (const entry of readSourceEntries()) {
-			source.push(entry);
-		}
+		const source = await sourceEntries();
+		const repaired = await repairedEntries();
 		const withoutPair = RULES.filter((rule) => !GERSHAYIM_RULES.has(rule.id));
 		const withoutOne = RULES.filter((rule) => rule.id !== HALAKHA_RULE);
 		return {
-			after: source.map((entry) => pipeline(entry, RULES)),
-			before: source.map((entry) => pipeline(entry, withoutPair)),
+			after: await composedEntries(),
+			before: repaired.map((entry) => withheld(entry, withoutPair)),
 			source,
-			withoutHalakha: source.map((entry) => pipeline(entry, withoutOne)),
+			withoutHalakha: repaired.map((entry) => withheld(entry, withoutOne)),
 		};
 	})();
 	return cached;
