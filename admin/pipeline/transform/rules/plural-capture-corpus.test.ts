@@ -67,6 +67,9 @@ const LABELS: readonly [string, RegExp][] = [
 	['pl. ', /(?<!<i>)\bpl\.\s/gu],
 ];
 
+/** Every sense of an entry, depth-first. The row's own predicate reads
+ * ALL senses, not just the top level, which is where its 358 and this
+ * file's 523 diverge. */
 function* walk(s: readonly SourceSense[] | undefined): Generator<SourceSense> {
 	for (const x of s ?? []) {
 		yield x;
@@ -100,6 +103,7 @@ function declaredRuns(text: string, at: number): string[] {
 /** Every string a reader can be shown, joined. */
 function bodyText(body: BodyEntry): string {
 	const parts: string[] = [];
+	/** Collect one sense's reader-visible strings, then recurse. */
 	const push = (senses: readonly BodySense[] | undefined): void => {
 		for (const sense of senses ?? []) {
 			parts.push(sense.gloss, sense.label ?? '', ...sense.units);
@@ -130,6 +134,10 @@ interface Census {
 	survived: number;
 }
 
+/** How this entry's `plural_form` is empty — `absent`, `empty` or
+ * `blank` — or `undefined` when it actually holds a value. The three
+ * shapes are kept apart because §4 pins them separately: the row claims
+ * no blank-string slot exists and the measurement finds exactly one. */
 function isMissing(entry: SourceEntry): string | undefined {
 	const value = entry.plural_form;
 	if (value === undefined) {
@@ -141,6 +149,10 @@ function isMissing(entry: SourceEntry): string | undefined {
 	return value.every((item) => item.trim() === '') ? 'blank' : undefined;
 }
 
+/** One walk over the corpus: flag every entry that declares a plural
+ * while `plural_form` is empty, then ask whether each declared Hebrew
+ * run survives into the built body. The survival ratio is the whole
+ * discard, so it is computed here rather than per assertion. */
 function census(entries: readonly SourceEntry[]): Census {
 	const out: Census = { flagged: 0, lost: [], shape: {}, survived: 0 };
 	for (const entry of entries) {
@@ -183,7 +195,10 @@ function census(entries: readonly SourceEntry[]): Census {
 	return out;
 }
 
+/** The census, computed once and shared by every assertion below. */
 let memo: Census | undefined;
+
+/** The census, built on first use. */
 async function measured(): Promise<Census> {
 	memo ??= census(await composedEntries());
 	return memo;

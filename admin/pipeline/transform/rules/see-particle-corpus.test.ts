@@ -47,6 +47,9 @@ function anyStubShaped(entry: SourceEntry): boolean {
 	return false;
 }
 
+/** Built once per `bun test` run, keyed by rid. */
+let stageMemo: Map<string, SourceEntry> | undefined;
+
 /**
  * The corpus as this rule receives it — repaired, then run through
  * `text-repairs` with itself held out — **for the entries that can
@@ -73,7 +76,6 @@ function anyStubShaped(entry: SourceEntry): boolean {
  *
  * §6 pins that argument rather than leaving it as prose.
  */
-let stageMemo: Map<string, SourceEntry> | undefined;
 async function stage(): Promise<Map<string, SourceEntry>> {
 	if (stageMemo === undefined) {
 		const composed = await composedEntries();
@@ -109,6 +111,9 @@ interface Census {
 	stubs: number;
 }
 
+/** Every sense of an entry, depth-first, paired with its nesting depth.
+ * Depth is what §4 needs: the rule reaches top-level senses only, and
+ * the 14 refused look-alikes all sit below one. */
 function* walk(
 	senses: readonly SourceSense[] | undefined,
 	depth = 0,
@@ -119,6 +124,10 @@ function* walk(
 	}
 }
 
+/** Walk the staged entries once and count everything the assertions
+ * below need: the empty slots, the filled ones by particle, and the
+ * stub-shaped child senses the entry-level restriction refuses. One
+ * pass, because the stage it reads is the expensive part. */
 function census(entries: readonly SourceEntry[]): Census {
 	const out: Census = {
 		childShaped: 0,
@@ -161,7 +170,10 @@ function census(entries: readonly SourceEntry[]): Census {
 	return out;
 }
 
+/** The census, computed once and shared by every assertion below. */
 let memo: Census | undefined;
+
+/** The census, built on first use. */
 async function measured(): Promise<Census> {
 	memo ??= census([...(await stage()).values()]);
 	return memo;

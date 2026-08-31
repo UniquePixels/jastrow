@@ -10,11 +10,15 @@ import {
 const E00226 =
 	', <a dir="rtl" class="refLink" href="/Jastrow,_הִיזְמָא.1" data-ref="Jastrow, הִיזְמָא 1">הִיזְמָא</a>.';
 
+/** A minimal entry whose whole content is one childless sense holding
+ * `definition` — the shape the rule requires before it will fire. */
 const stub = (definition: string): SourceEntry => ({
 	content: { senses: [{ definition }] },
 	headword: 'הוּזְמָא',
 	rid: 'E00226',
 });
+/** The definition of an entry's first sense, which for a stub is its
+ * only text. */
 const defOf = (e: SourceEntry): string | undefined =>
 	e.content.senses[0]?.definition;
 

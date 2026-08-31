@@ -98,6 +98,10 @@ interface Census {
 	split: string[];
 }
 
+/** One walk over the corpus, collecting all four figures the
+ * assertions need: the rows matching the widened predicate, those
+ * reading `b. h.` after the rejoin, those reading it in the BUILT body,
+ * and those the row's own narrower `"= b."` phrasing would have found. */
 function census(entries: readonly SourceEntry[]): Census {
 	const out: Census = { built: [], exact: [], rejoined: [], split: [] };
 	for (const entry of entries) {
@@ -120,7 +124,10 @@ function census(entries: readonly SourceEntry[]): Census {
 	return out;
 }
 
+/** The census, computed once and shared by every assertion below. */
 let memo: Census | undefined;
+
+/** The census, built on first use. */
 async function measured(): Promise<Census> {
 	memo ??= census(await composedEntries());
 	return memo;
