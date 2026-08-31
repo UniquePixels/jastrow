@@ -459,7 +459,7 @@ Unchanged from module design §9, plus one addition:
 | `markup`, per rule | output no less well-formed than input — the load-bearing gate for the **seven** markup-repair mechanisms designed here (unit: repair mechanisms; boundary moves *and* duplicate-layer removals, per §5), **six** of them registered as shipped |
 | Registry | coverage + `checkAdjacency` over the two entangled pairs |
 | **Commutation** (inherited, PR #50) | every unordered rule pair commutes, except where `entangledWith` declares it — §3.3. Two-rule exposure only; report which placements rest on it alone |
-| `pipeline-links.test.ts` | `applyRepairs` + registry over 32,512 entries — **the gate 3a added; every rule here edits anchors (six of six as shipped), so it is the one that matters most** |
+| `pipeline-links.corpus.test.ts` | `applyRepairs` + registry over 32,512 entries — **the gate 3a added; every rule here edits anchors (six of six as shipped), so it is the one that matters most** |
 | `body:migrate-dry` | 32,512/32,512, 0 schema failures, 0 quarantines |
 
 **Link accounting is the headline measurement, and it is measured on

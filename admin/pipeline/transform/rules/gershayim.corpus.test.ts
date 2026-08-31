@@ -27,7 +27,7 @@
  * The last two tests are the registry's order-freedom claim (spec
  * §4.2, task 3): the pair against itself and against the rtl trio,
  * over every entry rather than over the ones it touches. They live
- * with the rules rather than in `registry.order.test.ts` because what
+ * with the rules rather than in `registry.order.corpus.test.ts` because what
  * they measure is a property of these predicates — that neither reads
  * markup context — and it is the predicates a later edit would
  * narrow.

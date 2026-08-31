@@ -335,7 +335,7 @@ it('appends to an existing alt_headwords rather than replacing it', () => {
  * old headword string — `K00108` points at `'Jastrow, כִּדְ׳ כַּדְבוּבָא 1'`
  * and `P00132` at `'Jastrow, עָ׳ עַדְיָא 1'`. Rewriting the headword
  * would leave both dangling, and a dead link is worse for a reader than
- * an awkward headword. `body/pipeline-links.test.ts`'s ABSOLUTE pin is
+ * an awkward headword. `body/pipeline-links.corpus.test.ts`'s ABSOLUTE pin is
  * what caught it: its differential assertion stayed green because the
  * rule sits on both sides of that comparison.
  */

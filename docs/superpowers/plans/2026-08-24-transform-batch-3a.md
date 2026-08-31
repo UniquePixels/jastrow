@@ -104,7 +104,7 @@ dependencies.
 | `admin/pipeline/transform/link-target.ts` | modify | Case 5 |
 | `admin/pipeline/transform/link-target.test.ts` | modify | Case 5 accepts the correction, rejects everything near it |
 | `admin/pipeline/transform/rules/gershayim.ts` | create | The two `Rule` objects |
-| `admin/pipeline/transform/rules/gershayim.test.ts` | create | Rule unit tests on real entries |
+| `admin/pipeline/transform/rules/gershayim.corpus.test.ts` | create | Rule unit tests on real entries |
 | `admin/pipeline/transform/rules/gershayim.corpus.test.ts` | create | Corpus tier: locus partition, order freedom, link integrity |
 | `admin/pipeline/transform/registry.ts` | modify | Register both, adjacent; drop both from `PENDING` |
 | `data/patches/patterns.jsonl` | modify | §6 write-backs on both rows |
@@ -537,7 +537,7 @@ Hebrew-flanked ASCII quote in their own locus and nothing else.
 - Create: `admin/pipeline/transform/gershayim.ts`
 - Create: `admin/pipeline/transform/gershayim.test.ts`
 - Create: `admin/pipeline/transform/rules/gershayim.ts`
-- Create: `admin/pipeline/transform/rules/gershayim.test.ts`
+- Create: `admin/pipeline/transform/rules/gershayim.corpus.test.ts`
 
 **Acceptance Criteria:**
 - [ ] `repairText` and `repairTags` each return the input string unchanged when nothing matches, and are pure
@@ -552,7 +552,7 @@ Hebrew-flanked ASCII quote in their own locus and nothing else.
 - [ ] `B00752` and `C01225` are repaired — both are damaged anchors carrying no `dir` attribute, so a predicate keyed to RTL context would silently skip them
 - [ ] `A00253`, `U01408` (adjacent quotes in one token) and `M01940` (a Hebrew letter carrying U+0307 before the quote) are each repaired — the three occurrences a weaker predicate loses
 
-**Verify:** `bun test admin/pipeline/transform/gershayim.test.ts admin/pipeline/transform/rules/gershayim.test.ts` → all pass
+**Verify:** `bun test admin/pipeline/transform/gershayim.test.ts admin/pipeline/transform/rules/gershayim.corpus.test.ts` → all pass
 
 **Steps:**
 
@@ -700,7 +700,7 @@ Expected: PASS.
 
 - [ ] **Step 5: Write the failing rule tests**
 
-`admin/pipeline/transform/rules/gershayim.test.ts`. Use real entries:
+`admin/pipeline/transform/rules/gershayim.corpus.test.ts`. Use real entries:
 `A00009` (`אל״ף`, tag locus), `A00692` (`עכ״ום`, tag locus and on the
 decline register), and any entry from Task 0's text-locus list.
 
@@ -756,7 +756,7 @@ field and collect tag values / parsed `data-ref`s.
 - [ ] **Step 6: Run and watch them fail**
 
 ```bash
-bun test admin/pipeline/transform/rules/gershayim.test.ts
+bun test admin/pipeline/transform/rules/gershayim.corpus.test.ts
 ```
 
 Expected: FAIL — module not found.
@@ -949,7 +949,7 @@ and by `count.ts`'s frozen corpus.
 - [ ] **Step 8: Run the rule tests**
 
 ```bash
-bun test admin/pipeline/transform/rules/gershayim.test.ts
+bun test admin/pipeline/transform/rules/gershayim.corpus.test.ts
 ```
 
 Expected: PASS.
@@ -958,7 +958,7 @@ Expected: PASS.
 
 ```bash
 bun qa
-git add admin/pipeline/transform/gershayim.ts admin/pipeline/transform/gershayim.test.ts admin/pipeline/transform/rules/gershayim.ts admin/pipeline/transform/rules/gershayim.test.ts
+git add admin/pipeline/transform/gershayim.ts admin/pipeline/transform/gershayim.test.ts admin/pipeline/transform/rules/gershayim.ts admin/pipeline/transform/rules/gershayim.corpus.test.ts
 git commit -s -m "🦄 new(transform): the gershayim pair"
 ```
 
@@ -983,7 +983,7 @@ with the order-freedom claim measured rather than asserted.
 - [ ] A corpus test proves both orders of the pair produce byte-identical corpora, and that the pair is order-free against the three rtl rules
 - [ ] The registry comment states the measurement, not a preference
 
-**Verify:** `bun test admin/pipeline/transform/registry.test.ts admin/pipeline/transform/registry.order.test.ts admin/pipeline/transform/rules/gershayim.corpus.test.ts` → all pass
+**Verify:** `bun test admin/pipeline/transform/registry.test.ts admin/pipeline/transform/registry.order.corpus.test.ts admin/pipeline/transform/rules/gershayim.corpus.test.ts` → all pass
 
 **Steps:**
 
@@ -1070,7 +1070,7 @@ round-trip the file through it.
 - [ ] **Step 5: Run the gates**
 
 ```bash
-bun test admin/pipeline/transform/registry.test.ts admin/pipeline/transform/registry.order.test.ts admin/pipeline/transform/rules/gershayim.corpus.test.ts
+bun test admin/pipeline/transform/registry.test.ts admin/pipeline/transform/registry.order.corpus.test.ts admin/pipeline/transform/rules/gershayim.corpus.test.ts
 ```
 
 Expected: PASS, with `coverage()` at 15 registered / 63 pending — as

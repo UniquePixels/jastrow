@@ -62,7 +62,7 @@ import type { Rule, TransformResult } from '../types.ts';
  * So the defect count is measured where the defect lives, on the
  * MARKUP: italic runs holding a surplus `)` go **10 → 2** corpus-wide
  * (the 2 survivors being the convention members below) and the
- * shipped population goes **8 → 0**. `italic-paren-corpus.test.ts`
+ * shipped population goes **8 → 0**. `italic-paren.corpus.test.ts`
  * asserts that as a DELTA, never as an invariant, and pairs the
  * text-equality assertion with `touched.toHaveLength(8)` so a no-op
  * cannot satisfy both — the equality is there to discriminate this

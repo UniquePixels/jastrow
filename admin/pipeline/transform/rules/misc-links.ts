@@ -324,7 +324,7 @@ function inCleanPlSpan(tokens: readonly Token[], open: number): boolean {
  * The RAW defect predicate, before the CLEAN-span restriction: display
  * ends ם/ן, target parses as `Jastrow, <hw> N` with `<hw>` ending ת,
  * the two skeletons agree everywhere except that final letter, and the
- * target is not a self-link. Exported so `misc-links.test.ts` can
+ * target is not a self-link. Exported so `misc-links.corpus.test.ts` can
  * measure the raw population (65/55) independently of the clean
  * restriction, the way `rules/geresh.ts`'s `bareStubRaw` separates
  * "does the shape match" from "does the rule fire".
@@ -485,7 +485,7 @@ const pluralToFeminineFinalLetter: Rule = {
  *   on the same anchor. Firing here would correct one defect while
  *   leaving a second, unrelated one exactly as broken — worse, it
  *   would make the anchor look fully repaired when it is not. The
- *   rule skips it; `misc-links.test.ts` pins this as a fixture.
+ *   rule skips it; `misc-links.corpus.test.ts` pins this as a fixture.
  * - **N00423** נוּשְׁקְתָא: the entry's own plural is correctly
  *   self-linked twice; the SECOND occurrence, an editorial-variant
  *   citation "(ed. Wil. ניּשְׁקָתָא)", carries the יּ/וּ defect but ALSO

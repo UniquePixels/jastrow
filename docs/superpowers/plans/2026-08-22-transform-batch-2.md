@@ -482,7 +482,7 @@ that the text never cited.
 
 **Files:**
 - Create: `admin/pipeline/transform/rules/unlink.ts`
-- Test: `admin/pipeline/transform/rules/unlink.test.ts`
+- Test: `admin/pipeline/transform/rules/unlink.corpus.test.ts`
 - Modify: `admin/pipeline/transform/registry.ts`
 
 **Acceptance Criteria:**
@@ -496,7 +496,7 @@ that the text never cited.
       count, or the delta is explained in the commit message
 - [ ] Both rows removed from `PENDING` and registered
 
-**Verify:** `bun test admin/pipeline/transform/rules/unlink.test.ts`
+**Verify:** `bun test admin/pipeline/transform/rules/unlink.corpus.test.ts`
 then `bun transform:count`
 
 **Steps:**
@@ -534,7 +534,7 @@ before writing the rule, and record what you measured.
 - [ ] **Step 2: Write the failing tests**
 
 ```ts
-// admin/pipeline/transform/rules/unlink.test.ts
+// admin/pipeline/transform/rules/unlink.corpus.test.ts
 import { expect, test } from 'bun:test';
 import type { SourceEntry } from '../../body/types.ts';
 import { applyTransforms } from '../run.ts';
@@ -567,7 +567,7 @@ test('leaves a real biblical citation of the same book alone', () => {
 
 - [ ] **Step 3: Run and watch them fail**
 
-Run: `bun test admin/pipeline/transform/rules/unlink.test.ts`
+Run: `bun test admin/pipeline/transform/rules/unlink.corpus.test.ts`
 Expected: FAIL — `Cannot find module './unlink.ts'`
 
 - [ ] **Step 4: Implement both rules**
@@ -616,7 +616,7 @@ predicate.
 
 ```bash
 bun qa
-git add admin/pipeline/transform/rules/unlink.ts admin/pipeline/transform/rules/unlink.test.ts admin/pipeline/transform/registry.ts
+git add admin/pipeline/transform/rules/unlink.ts admin/pipeline/transform/rules/unlink.corpus.test.ts admin/pipeline/transform/registry.ts
 git commit -s -m "🦄 new(transform): unlink apparatus and rabbi cites"
 ```
 
@@ -629,7 +629,7 @@ resolved as if the fragment were a lemma.
 
 **Files:**
 - Modify: `admin/pipeline/transform/rules/unlink.ts`
-- Modify: `admin/pipeline/transform/rules/unlink.test.ts`
+- Modify: `admin/pipeline/transform/rules/unlink.corpus.test.ts`
 - Modify: `admin/pipeline/transform/registry.ts`
 
 **Acceptance Criteria:**
@@ -641,7 +641,7 @@ resolved as if the fragment were a lemma.
       is recorded
 - [ ] `ellipsis-fragment-anchored` registered and out of `PENDING`
 
-**Verify:** `bun test admin/pipeline/transform/rules/unlink.test.ts`
+**Verify:** `bun test admin/pipeline/transform/rules/unlink.corpus.test.ts`
 then `bun transform:count`
 
 **Steps:**
@@ -698,7 +698,7 @@ must be the entry the fixture came from.
 
 - [ ] **Step 3: Run and watch it fail**
 
-Run: `bun test admin/pipeline/transform/rules/unlink.test.ts`
+Run: `bun test admin/pipeline/transform/rules/unlink.corpus.test.ts`
 Expected: FAIL — `ellipsisFragment is not exported`
 
 - [ ] **Step 4: Implement, register, measure**
@@ -713,7 +713,7 @@ Run: `bun transform:count` → the rule within its 80.
 
 ```bash
 bun qa
-git add admin/pipeline/transform/rules/unlink.ts admin/pipeline/transform/rules/unlink.test.ts admin/pipeline/transform/registry.ts
+git add admin/pipeline/transform/rules/unlink.ts admin/pipeline/transform/rules/unlink.corpus.test.ts admin/pipeline/transform/registry.ts
 git commit -s -m "🦄 new(transform): unlink elision fragments"
 ```
 
@@ -829,7 +829,7 @@ they rewrite the same anchors.
 
 **Files:**
 - Create: `admin/pipeline/transform/rules/geresh.ts`
-- Test: `admin/pipeline/transform/rules/geresh.test.ts`
+- Test: `admin/pipeline/transform/rules/geresh.corpus.test.ts`
 - Modify: `admin/pipeline/transform/registry.ts`
 - Modify: `data/patches/patterns.jsonl` (the `entangledWith` pair)
 
@@ -851,7 +851,7 @@ they rewrite the same anchors.
 - [ ] `bun transform:count` reproduces 475 and 173, or the deltas are
       recorded for Task 11
 
-**Verify:** `bun test admin/pipeline/transform/rules/geresh.test.ts`
+**Verify:** `bun test admin/pipeline/transform/rules/geresh.corpus.test.ts`
 then `bun transform:count`
 
 **Steps:**
@@ -889,7 +889,7 @@ prose and absent from the field the registry gate reads, and
 - [ ] **Step 2: Write the failing tests**
 
 ```ts
-// admin/pipeline/transform/rules/geresh.test.ts
+// admin/pipeline/transform/rules/geresh.corpus.test.ts
 import { expect, test } from 'bun:test';
 import type { SourceEntry } from '../../body/types.ts';
 import { applyTransforms } from '../run.ts';
@@ -962,7 +962,7 @@ the corpus.
 
 - [ ] **Step 3: Run and watch them fail**
 
-Run: `bun test admin/pipeline/transform/rules/geresh.test.ts`
+Run: `bun test admin/pipeline/transform/rules/geresh.corpus.test.ts`
 Expected: FAIL — `Cannot find module './geresh.ts'`
 
 - [ ] **Step 4: Implement both rules**
@@ -1003,7 +1003,7 @@ Run: `bun transform:count` → 475 and 173, or a recorded delta.
 
 ```bash
 bun qa
-git add admin/pipeline/transform/rules/geresh.ts admin/pipeline/transform/rules/geresh.test.ts admin/pipeline/transform/registry.ts data/patches/patterns.jsonl
+git add admin/pipeline/transform/rules/geresh.ts admin/pipeline/transform/rules/geresh.corpus.test.ts admin/pipeline/transform/registry.ts data/patches/patterns.jsonl
 git commit -s -m "🦄 new(transform): the geresh abbrev pair"
 ```
 
@@ -1016,7 +1016,7 @@ sibling instead of to themselves.
 
 **Files:**
 - Create: `admin/pipeline/transform/rules/misc-links.ts`
-- Test: `admin/pipeline/transform/rules/misc-links.test.ts`
+- Test: `admin/pipeline/transform/rules/misc-links.corpus.test.ts`
 - Modify: `admin/pipeline/transform/registry.ts`
 
 **Acceptance Criteria:**
@@ -1030,7 +1030,7 @@ sibling instead of to themselves.
       overlap `corrigendum-reading-linked` are excluded and counted
 - [ ] `bun transform:count` reproduces 57, or the delta is recorded
 
-**Verify:** `bun test admin/pipeline/transform/rules/misc-links.test.ts`
+**Verify:** `bun test admin/pipeline/transform/rules/misc-links.corpus.test.ts`
 then `bun transform:count`
 
 **Steps:**
@@ -1080,14 +1080,14 @@ snapshot rows at the top of the test file, in the shape Task 2 uses.
 
 - [ ] **Step 3: Run, implement, measure**
 
-Run: `bun test admin/pipeline/transform/rules/misc-links.test.ts` →
+Run: `bun test admin/pipeline/transform/rules/misc-links.corpus.test.ts` →
 FAIL, then implement until PASS, then `bun transform:count`.
 
 - [ ] **Step 4: Commit**
 
 ```bash
 bun qa
-git add admin/pipeline/transform/rules/misc-links.ts admin/pipeline/transform/rules/misc-links.test.ts admin/pipeline/transform/registry.ts
+git add admin/pipeline/transform/rules/misc-links.ts admin/pipeline/transform/rules/misc-links.corpus.test.ts admin/pipeline/transform/registry.ts
 git commit -s -m "🦄 new(transform): plural retarget off feminine"
 ```
 
@@ -1101,7 +1101,7 @@ reuses.
 
 **Files:**
 - Create: `admin/pipeline/transform/rules/anaphora.ts`
-- Test: `admin/pipeline/transform/rules/anaphora.test.ts`
+- Test: `admin/pipeline/transform/rules/anaphora.corpus.test.ts`
 - Create: `data/patches/catalogue-audit/ib-yoma-2a.md`
 - Modify: `admin/pipeline/transform/registry.ts`
 
@@ -1122,7 +1122,7 @@ reuses.
 - [ ] The measured fire count and the decline count together account
       for the row's 312
 
-**Verify:** `bun test admin/pipeline/transform/rules/anaphora.test.ts`
+**Verify:** `bun test admin/pipeline/transform/rules/anaphora.corpus.test.ts`
 then `bun transform:count`
 
 **Steps:**
@@ -1164,7 +1164,7 @@ antecedent is one anchor above, in the same definition.
 - [ ] **Step 2: Write the failing tests**
 
 ```ts
-// admin/pipeline/transform/rules/anaphora.test.ts
+// admin/pipeline/transform/rules/anaphora.corpus.test.ts
 import { expect, test } from 'bun:test';
 import type { SourceEntry } from '../../body/types.ts';
 import { applyTransforms } from '../run.ts';
@@ -1199,7 +1199,7 @@ test('a locus the display does not carry is declined, not composed', () => {
 
 - [ ] **Step 3: Run and watch them fail**
 
-Run: `bun test admin/pipeline/transform/rules/anaphora.test.ts`
+Run: `bun test admin/pipeline/transform/rules/anaphora.corpus.test.ts`
 Expected: FAIL — `Cannot find module './anaphora.ts'`
 
 - [ ] **Step 4: Implement**
@@ -1237,7 +1237,7 @@ Run: `bun transform:count` → fires + declines account for 312.
 
 ```bash
 bun qa
-git add admin/pipeline/transform/rules/anaphora.ts admin/pipeline/transform/rules/anaphora.test.ts admin/pipeline/transform/registry.ts data/patches/catalogue-audit/ib-yoma-2a.md
+git add admin/pipeline/transform/rules/anaphora.ts admin/pipeline/transform/rules/anaphora.corpus.test.ts admin/pipeline/transform/registry.ts data/patches/catalogue-audit/ib-yoma-2a.md
 git commit -s -m "🦄 new(transform): resolve ib. to its antecedent"
 ```
 
@@ -1250,7 +1250,7 @@ git commit -s -m "🦄 new(transform): resolve ib. to its antecedent"
 
 **Files:**
 - Modify: `admin/pipeline/transform/rules/anaphora.ts`
-- Modify: `admin/pipeline/transform/rules/anaphora.test.ts`
+- Modify: `admin/pipeline/transform/rules/anaphora.corpus.test.ts`
 - Modify: `admin/pipeline/transform/registry.ts`
 
 **Acceptance Criteria:**
@@ -1265,7 +1265,7 @@ git commit -s -m "🦄 new(transform): resolve ib. to its antecedent"
 - [ ] All 13 instances are read by hand and each is confirmed or
       declined; the tally is in the commit message
 
-**Verify:** `bun test admin/pipeline/transform/rules/anaphora.test.ts`
+**Verify:** `bun test admin/pipeline/transform/rules/anaphora.corpus.test.ts`
 then `bun transform:count`
 
 **Steps:**
@@ -1310,7 +1310,7 @@ Run: `bun transform:count` → 8 and 5, or a recorded delta.
 
 ```bash
 bun qa
-git add admin/pipeline/transform/rules/anaphora.ts admin/pipeline/transform/rules/anaphora.test.ts admin/pipeline/transform/registry.ts
+git add admin/pipeline/transform/rules/anaphora.ts admin/pipeline/transform/rules/anaphora.corpus.test.ts admin/pipeline/transform/registry.ts
 git commit -s -m "🦄 new(transform): targum and sifre ib. arms"
 ```
 
@@ -1417,7 +1417,7 @@ word and its correctly-resolved target both have `וּ` (shuruk).
 
 **Files:**
 - Modify: `admin/pipeline/transform/rules/misc-links.ts`
-- Modify: `admin/pipeline/transform/rules/misc-links.test.ts`
+- Modify: `admin/pipeline/transform/rules/misc-links.corpus.test.ts`
 - Modify: `admin/pipeline/transform/registry.ts`
 
 **Acceptance Criteria:**
@@ -1431,7 +1431,7 @@ word and its correctly-resolved target both have `וּ` (shuruk).
       is written
 - [ ] `bun transform:count` reproduces 12
 
-**Verify:** `bun test admin/pipeline/transform/rules/misc-links.test.ts`
+**Verify:** `bun test admin/pipeline/transform/rules/misc-links.corpus.test.ts`
 then `bun transform:count`
 
 **Steps:**
@@ -1491,7 +1491,7 @@ Run: `bun transform:count` → 12.
 
 ```bash
 bun qa
-git add admin/pipeline/transform/rules/misc-links.ts admin/pipeline/transform/rules/misc-links.test.ts admin/pipeline/transform/registry.ts
+git add admin/pipeline/transform/rules/misc-links.ts admin/pipeline/transform/rules/misc-links.corpus.test.ts admin/pipeline/transform/registry.ts
 git commit -s -m "🦄 new(transform): shuruk display corruption"
 ```
 
@@ -1503,7 +1503,7 @@ git commit -s -m "🦄 new(transform): shuruk display corruption"
 row true, and leave the docs matching what shipped.
 
 **Files:**
-- Create: `admin/pipeline/transform/registry.order.test.ts`
+- Create: `admin/pipeline/transform/registry.order.corpus.test.ts`
 - Modify: `data/patches/patterns.jsonl`
 - Modify: `docs/specs/2026-08-22-transform-module-design.md` (§7 table)
 - Modify: `docs/v2/phase-2-triage.md`
@@ -1515,7 +1515,7 @@ row true, and leave the docs matching what shipped.
 - [ ] Per-rule fire counts from the composed pass are compared against
       the isolated counts from `bun transform:count`; every difference
       is explained in the batch report, not averaged away
-- [ ] `registry.order.test.ts` asserts unlink rules precede compose
+- [ ] `registry.order.corpus.test.ts` asserts unlink rules precede compose
       rules, and that entangled rows are adjacent
 - [ ] `bun body:migrate-dry` reports 32,512/32,512 on all four
       round-trip gates, 0 schema failures, 0 quarantines, 0 repair
@@ -1583,7 +1583,7 @@ a rounding detail.
 - [ ] **Step 3: Write the order test**
 
 ```ts
-// admin/pipeline/transform/registry.order.test.ts
+// admin/pipeline/transform/registry.order.corpus.test.ts
 import { expect, test } from 'bun:test';
 import { RULES } from './registry.ts';
 

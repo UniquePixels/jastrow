@@ -3,7 +3,7 @@
  * tier.
  *
  * The fixture tier is hand-written rather than rid-loaded, unlike
- * `gershayim.test.ts`: what is being tested here is a STRUCTURAL
+ * `gershayim.corpus.test.ts`: what is being tested here is a STRUCTURAL
  * predicate (one anchor strictly inside another, sharing a target)
  * plus a byte-exact removal, and every property that matters — the
  * nesting, the shared target, the trapped mark, the two-pairs-in-one-

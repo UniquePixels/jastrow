@@ -320,6 +320,6 @@ the strict 517 — so the decomposition is complete, not a sample.
 Measured against the pinned corpus (`data/source/jastrow-dictionary.jsonl`,
 32,512 entries) during batch 2 task 5. The rule module is
 `admin/pipeline/transform/rules/geresh.ts`; its corpus-walking tests in
-`geresh.test.ts` pin the two repaired populations (517/475 and
+`geresh.corpus.test.ts` pin the two repaired populations (517/475 and
 185/173) on every `bun qa`, so a corpus edit that moves an arm shows up
 as a test failure and this document can be re-derived.

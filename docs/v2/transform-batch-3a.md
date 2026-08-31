@@ -174,11 +174,11 @@ console.log({perEntryDistinctTags:claims, marksInThoseTags:marks, worstMultiplic
 The design's §5 gate is the number the batch rests on: resolve every
 `data-ref` against the set of entry headwords, before and after the
 pass. It ships as a test rather than a probe
-(`admin/pipeline/transform/rules/gershayim.test.ts`, corpus tier), so a
+(`admin/pipeline/transform/rules/gershayim.corpus.test.ts`, corpus tier), so a
 narrowed predicate fails `bun qa` rather than a report.
 
 ```bash
-bun test admin/pipeline/transform/rules/gershayim.test.ts
+bun test admin/pipeline/transform/rules/gershayim.corpus.test.ts
 ```
 
 ```text
@@ -236,7 +236,7 @@ by substitution.
 These figures are measured on **pristine source**, which is the right
 way to measure a rule and the wrong way to describe a pipeline. §7 is
 what happened when the two were finally compared, and
-`admin/pipeline/body/pipeline-links.test.ts` is the pipeline-level
+`admin/pipeline/body/pipeline-links.corpus.test.ts` is the pipeline-level
 version that now runs beside this one.
 
 ## 3. What it declined — residue, not coverage
@@ -720,7 +720,7 @@ time. Nothing about them was wrong; a better mechanism arrived.
 ### The result, measured through the pipeline
 
 ```bash
-bun test admin/pipeline/body/pipeline-links.test.ts
+bun test admin/pipeline/body/pipeline-links.corpus.test.ts
 ```
 
 ```text
@@ -755,7 +755,7 @@ counts records and never scores links. **Nothing in the suite ran the
 two layers in sequence and asked whether links still resolved**, so a
 repair and a transform could disagree about the same bytes with every
 test green. The gap — not the incident — is what
-`admin/pipeline/body/pipeline-links.test.ts` closes, and it is worth
+`admin/pipeline/body/pipeline-links.corpus.test.ts` closes, and it is worth
 being exact about how far it reaches rather than claiming the layer.
 
 **The `gained`/`lost` arms are DIFFERENTIAL.** Both run `applyRepairs`
@@ -835,7 +835,7 @@ a hypothetical.
 
 The fix makes it falsifiable rather than merely correct: a derived
 `entangledClusters(catalogue, rules)` is exported and used by both the
-production gate and the tests, and `registry.order.test.ts` now asserts
+production gate and the tests, and `registry.order.corpus.test.ts` now asserts
 (1) the derived cluster set equals a pinned list of three, so stripping
 an edge fails, and (2) each cluster occupies a gap-free span, so
 scattering fails. The two mutations fail *different* assertions, which
@@ -862,7 +862,7 @@ of: **a recorded entanglement touching the registry must produce a
 validated cluster or a reported problem, never silence.** It walks the
 edges the catalogue records and requires each one touching a registered
 rule to land inside a derived cluster, which is then either validated
-or reported. `registry.order.test.ts` asserts it empty against the live
+or reported. `registry.order.corpus.test.ts` asserts it empty against the live
 catalogue.
 
 It does NOT replace the derived-set pin above. An edge DELETED from the
@@ -1107,7 +1107,7 @@ answers "four rules fire", which sounds alarming and is not.
 | rtl trio → pair vs. pair → rtl trio | **0** of 32,512 |
 | whole registry with the pair last vs. the pair first | **0** of 32,512 |
 
-The first two are tests in `rules/gershayim.test.ts` and run on every
+The first two are tests in `rules/gershayim.corpus.test.ts` and run on every
 `bun qa`; the third was a throwaway four-pass run recorded in the design
 §4.2. This answers the audit's ordering rider — *"if bare-rtl-hebrew
 runs first and wraps its 117, they migrate into this row's scope"* —
@@ -1128,7 +1128,7 @@ population, in either order.
    regression with every test green** (§7). It was caught by reading
    `migrate-dry`'s instance count against the isolated one, which is
    not a control — it is a person noticing. The control that now exists
-   is `pipeline-links.test.ts`; the habit that produced it is the one
+   is `pipeline-links.corpus.test.ts`; the habit that produced it is the one
    worth keeping, which is treating a number that disagrees with
    another number as a question rather than as noise.
 2. **A repair and a transform can own the same defect, and nothing
@@ -1173,7 +1173,7 @@ population, in either order.
    allowlist is one row, `bare-rtl-hebrew` on N00327, carrying its
    reason. Roughly 40s, one file, no new infrastructure, and it fails
    the moment a repair and a rule start disagreeing about the same
-   bytes. `pipeline-links.test.ts` only sees such a disagreement when it
+   bytes. `pipeline-links.corpus.test.ts` only sees such a disagreement when it
    moves a LINK; this sees it whenever it moves a RECORD.
 3. **Retiring a repair changes `repaired=` and that is not drift.**
    `migrate-dry` reports 812 repaired entries where every prior record
@@ -1230,7 +1230,7 @@ population, in either order.
    That was reasoned, not measured, and it is **false**: `bun test`
    exits 1 on a missing file in both filter and path form. The brief
    did name a nonexistent file (`rules/gershayim.corpus.test.ts`; the
-   corpus tier lives in `rules/gershayim.test.ts`), but it fails
+   corpus tier lives in `rules/gershayim.corpus.test.ts`), but it fails
    closed.
 8. **`brokenTopSequences=34` and `startsAtTwo=8`** are unchanged
    pre-existing `migrate-dry` observations, not gate failures, and
@@ -1244,9 +1244,9 @@ population, in either order.
 bun qa                  # format, lint, test, tsc — exit 0, 0 fail
 bun transform:count     # 15 rules; the two surviving deltas are batch 2's — §4
 bun body:migrate-dry    # §5 — 32,512/32,512 ×4, 0 failures, 0 quarantines
-bun test admin/pipeline/body/pipeline-links.test.ts           # the PIPELINE census — §7
-bun test admin/pipeline/transform/rules/gershayim.test.ts     # the per-rule census — §2
-bun test admin/pipeline/transform/registry.order.test.ts      # cluster derivation — §8.2
+bun test admin/pipeline/body/pipeline-links.corpus.test.ts           # the PIPELINE census — §7
+bun test admin/pipeline/transform/rules/gershayim.corpus.test.ts     # the per-rule census — §2
+bun test admin/pipeline/transform/registry.order.corpus.test.ts      # cluster derivation — §8.2
 bun test admin/pipeline/transform/link-target.test.ts         # gate case 5
 bun test admin/pipeline/body/repairs.test.ts                  # the inverted escape test — §7
 ```

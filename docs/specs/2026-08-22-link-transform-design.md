@@ -279,7 +279,7 @@ Registry order is therefore load-bearing and is asserted in a test:
 unlink rules run before compose rules, so a compose rule never adopts a
 work from an anchor a later rule would have removed.
 
-That test is `admin/pipeline/transform/registry.order.test.ts`. It
+That test is `admin/pipeline/transform/registry.order.corpus.test.ts`. It
 grew a third ordering the plan did not anticipate: batch 2 shipped
 THREE retarget rules, and retarget-after-retarget needs its own rule —
 a retarget reading the anchor sequence must run AFTER any rule that

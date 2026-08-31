@@ -1274,7 +1274,7 @@ function corroborateFaults(
  *    and FALSE UNDER COMPOSITION — `run.ts` hands each rule the
  *    previous rule's output, so `gershayimInBody` puts 2,125 marks
  *    into the document text before `gershayimRefAttribute` ever runs
- *    (asserted at `rules/gershayim.test.ts:333`; see that rule's
+ *    (asserted at `rules/gershayim.corpus.test.ts:333`; see that rule's
  *    module doc and batch report §9.4). What holds instead is about
  *    the substitution: `from` is an OPENING TAG, the only writer of
  *    U+05F4 in the registry is `gershayim.ts`, and its `repairText`

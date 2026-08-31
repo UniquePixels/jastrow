@@ -857,7 +857,7 @@ it('REF_LOCUS and HREF_LOCUS strip both the plain and the range locus', () => {
  * trains a reader to re-run rather than look.
  *
  * It is a timeout, not an assertion: nothing here is weakened, and the
- * figure matches the convention `registry.order.test.ts` already uses
+ * figure matches the convention `registry.order.corpus.test.ts` already uses
  * for a corpus pass. Found while measuring case 7, where the extra
  * ~17% suite time made it fire more often; it reproduces on this branch
  * point without any of that work.

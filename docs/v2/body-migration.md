@@ -113,7 +113,7 @@ Q02162, S00490, U01556, V00704, V00765.
   `unresolvedRepairedOrphans` recount still gates every one of them —
   the escape retired, the obligation did not. The recount stays at
   **0**, and a new corpus test
-  (`admin/pipeline/body/pipeline-links.test.ts`) asserts the whole
+  (`admin/pipeline/body/pipeline-links.corpus.test.ts`) asserts the whole
   pipeline gains exactly 90 resolving link targets and loses none.
 - **5 ibid items / 3 wraps**: bare resolved-but-unlinked texts wrapped
   in standard refLink anchors — P00331's `Ib. 88ᵇ` (as Eruvin 88b:1;

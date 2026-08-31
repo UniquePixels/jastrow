@@ -1,6 +1,6 @@
 /**
  * `italicSwallowsCloseParen`, FIXTURE TIER. Corpus tier in
- * `italic-paren-corpus.test.ts`.
+ * `italic-paren.corpus.test.ts`.
  *
  * Every decline below names the catalogued row the case belongs to,
  * and each was mutation-checked: removing the sub-sense-marker guard

@@ -8,7 +8,7 @@ This audit exists because the row was catalogued at **544 entries with
 no predicate recorded anywhere**, so nothing could reproduce it, confirm
 it, or say what it excluded. Everything below is measured on the pinned
 snapshot (32,512 entries) and asserted in
-`admin/pipeline/transform/rules/stem-section-corpus.test.ts`.
+`admin/pipeline/transform/rules/stem-section.corpus.test.ts`.
 
 ## 1. The predicate
 

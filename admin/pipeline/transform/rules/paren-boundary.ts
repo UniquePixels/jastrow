@@ -197,7 +197,7 @@ import type { Rule, TransformRecord, TransformResult } from '../types.ts';
  * **`toseftaPrimaryHalakha` MUST BE REGISTERED STRICTLY BEFORE
  * `toseftaCloseParen`, NOT MERELY ADJACENT TO IT.** The direction is
  * the whole of the requirement, and getting it backwards is silent.
- * `registry.order.test.ts` pins the DIRECTION, not the adjacency —
+ * `registry.order.corpus.test.ts` pins the DIRECTION, not the adjacency —
  * `checkAdjacency` sees the entangled pair and would be satisfied by
  * either arrangement.
  *

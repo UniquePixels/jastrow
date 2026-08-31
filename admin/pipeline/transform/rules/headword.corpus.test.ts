@@ -43,7 +43,7 @@ const isPhraseStub = (item: string): boolean => {
  * The walk itself is in `headword-census.ts` and runs once; everything
  * here is arithmetic over its result. EXPLICIT TIMEOUT on the first
  * `it`, which is the one that pays for the walk — the convention
- * `anaphora.test.ts` records, where a corpus pass on bun's 5,000ms
+ * `anaphora.corpus.test.ts` records, where a corpus pass on bun's 5,000ms
  * default failed intermittently on whichever test lost the race, a
  * false red that trains a reader to re-run rather than look.
  */

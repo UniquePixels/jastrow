@@ -170,17 +170,17 @@ reason on the first — and it is worth asking, at each of the remaining
 structural rows, which gate has only ever been exercised one way.
 
 The dependency the gate was gesturing at is real and is pinned by
-measurement instead, in `rules/stem-section-corpus.test.ts`: the
+measurement instead, in `rules/stem-section.corpus.test.ts`: the
 raw-to-composed attribution of §1 is an assertion, not a note.
 
 ## 5. Two smaller things, both caught by tests rather than by reading
 
-- **`stem-corpus.test.ts` counted the whole structural phase.** It read
+- **`stem.corpus.test.ts` counted the whole structural phase.** It read
   `run.records.length` after `applyTransforms(…, 'structural-repairs')`
   and asserted 18. With a second structural rule registered it saw 454.
   Now filtered by `ruleId`. The class of defect is batch 4's: a test
   whose subject was implicit and became wrong when the world grew.
-- **`registry.order.test.ts` refused the rule until it was classified.**
+- **`registry.order.corpus.test.ts` refused the rule until it was classified.**
   Working as designed — `stranded-stem-head` joins `NEITHER`, whose
   membership is EARNED by the corpus pass at the bottom of that file
   (removes no anchor, writes no `href` or `data-ref` in 32,512 entries),

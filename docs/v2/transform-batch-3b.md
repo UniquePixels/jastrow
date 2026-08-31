@@ -200,7 +200,7 @@ and that is now stated as a presentation choice.
 
 **Three of the four constraints carry no `entangledWith` edge**, so
 `checkAdjacency()` is silent on all three. They are pinned by explicit
-assertions in `registry.order.test.ts` instead.
+assertions in `registry.order.corpus.test.ts` instead.
 
 ## 3. Composed vs isolated
 
@@ -297,7 +297,7 @@ not depend on registry position. Counts corrected a second time:
 defect of its own, but no catalogue row holds it, and declining leaves
 it for whoever catalogues it rather than claiming it here.
 
-New: `rules/seam-space-corpus.test.ts` asserts the created-defect count
+New: `rules/seam-space.corpus.test.ts` asserts the created-defect count
 is 0 corpus-wide as a DELTA, paired with each rule's population so a
 rule that stopped firing cannot satisfy it, and `seam-space.test.ts`
 pins the decline once per punctuation mark rather than by one
@@ -308,7 +308,7 @@ representative.
 **110 of this batch's seams sit directly against an anchor's closing
 tag** — 57 `</a><i>` and 53 `)</a><i>`. Batch 3a's headline finding was
 a link regression that every per-rule measurement missed, and
-`body/pipeline-links.test.ts` exists because of it.
+`body/pipeline-links.corpus.test.ts` exists because of it.
 
 CORRECTED 2026-08-26: this read **165** at first publication, which was
 the PRE-DECLINE arithmetic (112 + 53) handed to Task 7 before commit
@@ -327,7 +327,7 @@ Identical to `v2`, with all twelve rules registered. The test asserts
 the absolute, not a delta — `expect(now.size).toBe(72_593)` — so a rule
 that broke one link and repaired another would fail it.
 
-Corroborated from a second direction: `registry.order.test.ts`'s
+Corroborated from a second direction: `registry.order.corpus.test.ts`'s
 corpus-earned classification walks every anchor's parsed `href` and
 `data-ref` before and after all 27 rules and requires them identical.
 All twelve new rules are in `NEITHER`, and that membership is now
@@ -416,5 +416,5 @@ bun test                                     # 862 pass, 0 fail
 biome check .                                # 116 infos, 0 errors
 bun transform:count                          # 27 rules, 3 mismatches
 bun body:migrate-dry                         # entries=32512 repaired=812
-bun test admin/pipeline/body/pipeline-links.test.ts   # 72,593 / +90 / −0
+bun test admin/pipeline/body/pipeline-links.corpus.test.ts   # 72,593 / +90 / −0
 ```

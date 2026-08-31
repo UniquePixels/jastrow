@@ -328,7 +328,7 @@ the refusal must be retracted in place rather than removed.
 | `unaccountedEdges` | the `anchor-swallows-close-paren ~ tosefta-variant` deferral RESOLVES; its pinned output shrinks and the pin must be updated, not relaxed |
 | Commutation | 35 rules; every non-commuting pair still declared |
 | `body:migrate-dry` | 32,512/32,512, 0 schema failures, 0 quarantines |
-| `pipeline-links.test.ts` | link accounting reported as a delta; **391 primaries gain a halakha, 0 addresses lost** |
+| `pipeline-links.corpus.test.ts` | link accounting reported as a delta; **391 primaries gain a halakha, 0 addresses lost** |
 
 ## 6. Decision log
 

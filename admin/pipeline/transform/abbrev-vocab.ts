@@ -11,7 +11,7 @@
  *
  * Rather than widen the rule interface (rejected in batch 2 as bigger
  * than the rows are worth), the fact is computed once and pinned. The
- * pinning is falsifiable: `abbrev-vocab.test.ts` re-derives from the
+ * pinning is falsifiable: `abbrev-vocab.corpus.test.ts` re-derives from the
  * snapshot and requires an exact match, so the list cannot silently
  * drift away from the corpus it claims to describe.
  *
@@ -193,7 +193,7 @@ const FROZEN: readonly string[] = [
  * the freeze does not reach. What the freeze does buy is a block on
  * property tacking at runtime. The residual is therefore real but
  * narrow: a caller that casts the type away could still mutate the
- * contents. Nothing in the tree does, and `abbrev-vocab.test.ts`'s
+ * contents. Nothing in the tree does, and `abbrev-vocab.corpus.test.ts`'s
  * re-derivation check — the whole set rebuilt from the corpus and
  * compared member for member — is the guard that would catch it.
  *
@@ -240,7 +240,7 @@ const RUN = /<i>(?<body>[^<>]*)<\/i>/gu;
  * over all 960,800 strings of length <= 7 in the alphabet
  * `a A . ␣ , ; )` — every class boundary the pattern can see —
  * comparing offset, whole match AND captured token: 0 disagreements.
- * `abbrev-vocab.test.ts` re-derives the vocabulary from the corpus and
+ * `abbrev-vocab.corpus.test.ts` re-derives the vocabulary from the corpus and
  * requires it to equal `FROZEN` member for member; it does, at 93.
  */
 const MID_RUN = /(?<![^\s.])(?<token>[^\s.]+)\.\s*(?=[,;)]|\p{Ll})/gu;

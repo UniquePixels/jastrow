@@ -31,7 +31,7 @@ And, for contrast, the row that did NOT fail:
 
 | Row | Count | Disposition |
 |---|---|---|
-| `italic-swallows-close-paren` | 10 → **8 entries** (8 occ) | SHIPPED as `rules/italic-paren.ts` `italicSwallowsCloseParen` (tests: `rules/italic-paren.test.ts`, `rules/italic-paren-corpus.test.ts`) |
+| `italic-swallows-close-paren` | 10 → **8 entries** (8 occ) | SHIPPED as `rules/italic-paren.ts` `italicSwallowsCloseParen` (tests: `rules/italic-paren.test.ts`, `rules/italic-paren.corpus.test.ts`) |
 
 ---
 

@@ -24,7 +24,7 @@
  * Their populations are disjoint and neither can create or destroy the
  * other's, because the substitution never introduces or removes a `<`
  * or a `>` — so composing them in either order gives the same string,
- * and `rules/gershayim.test.ts` measures that over all 32,512 entries
+ * and `rules/gershayim.corpus.test.ts` measures that over all 32,512 entries
  * rather than asserting it.
  *
  * `TAG` here is `<[^<>]*>`, which is deliberately NOT `html.ts`'s

@@ -5,7 +5,7 @@ and `blocking` removed, and the id taken out of `PENDING` in
 `admin/pipeline/transform/registry.ts`.
 
 Standing gate:
-`admin/pipeline/transform/rules/gloss-head-rejoin-corpus.test.ts`.
+`admin/pipeline/transform/rules/gloss-head-rejoin.corpus.test.ts`.
 
 ## The row
 

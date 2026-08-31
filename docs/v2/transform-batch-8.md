@@ -94,8 +94,8 @@ definition of the gloss head.
 ### The gates assert the premise, not the helper
 
 Both discards are pinned:
-`rules/plural-capture-corpus.test.ts` and
-`rules/gloss-head-rejoin-corpus.test.ts`. Both measure through
+`rules/plural-capture.corpus.test.ts` and
+`rules/gloss-head-rejoin.corpus.test.ts`. Both measure through
 `buildBody`, which calls `rejoinGlossHead` at `dry-run.ts:241`, rather
 than through the helper alone — **a discard resting on the helper would
 survive a builder that stopped calling it**, and all four `b-h` defects
@@ -325,8 +325,8 @@ end-to-end check got `null` from a `restoreParticle` whose input was
 already repaired.
 
 This is batch 7's implicit-subject defect again —
-`continuation-marker-corpus.test.ts` hit it on its first run,
-`stem-corpus.test.ts` had it fixed for `records.length` in 6c and then
+`continuation-marker.corpus.test.ts` hit it on its first run,
+`stem.corpus.test.ts` had it fixed for `records.length` in 6c and then
 hit it again in 7 on a phase delta. The difference here is the
 DIRECTION of the failure. In batch 7 it made every assertion read 0 and
 **pass**; here it made two of five **fail**, on the exact numbers that
@@ -369,7 +369,7 @@ catalogue. [[feedback_listen_first]].
 **The two that mattered were both gates that could pass on the
 regression they exist to catch.**
 
-`gloss-head-rejoin-corpus.test.ts` joined the whole built body with a
+`gloss-head-rejoin.corpus.test.ts` joined the whole built body with a
 space separator before testing for `b. h.`. **That separator would have
 supplied the space itself** — a `buildBody` that re-split the two halves
 across adjacent fields would still have matched, which is exactly the
@@ -377,7 +377,7 @@ failure the gate is for. It now asserts within a SINGLE intro-sense
 string. It still passes, so the property is real and was merely being
 tested vacuously.
 
-`see-particle-corpus.test.ts` §5 was titled "the repair, end to end" and
+`see-particle.corpus.test.ts` §5 was titled "the repair, end to end" and
 called the bare `restoreParticle` function. It would have passed with
 the rule mis-registered, in the wrong phase, or absent from `RULES`
 entirely. It now pulls the rule from `RULES` by id and runs it through

@@ -1,7 +1,7 @@
 /**
  * Fixture tier for `rules/paren-boundary.ts`. The corpus tier — the
  * catalogued populations, the per-entry gate stack and the
- * both-orders composition — lives in `paren-boundary-corpus.test.ts`,
+ * both-orders composition — lives in `paren-boundary.corpus.test.ts`,
  * following this module's convention for a tier that reads all 32,512
  * entries.
  */
@@ -477,7 +477,7 @@ describe('toseftaPrimaryHalakha', () => {
 
 /**
  * THE ORDER, demonstrated rather than only asserted in
- * `registry.order.test.ts`. Running `toseftaCloseParen` first destroys
+ * `registry.order.corpus.test.ts`. Running `toseftaCloseParen` first destroys
  * `VARIANT_DISPLAY`'s match and the halakha rule then repairs NOTHING,
  * silently — no throw, no record, an entry returned by reference. This
  * is the failure the registry comment describes, reproduced in two

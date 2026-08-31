@@ -1,13 +1,13 @@
 /**
  * The two Class C deletion rows, FIXTURE TIER. The corpus tier lives
- * in `edge-trim-corpus.test.ts` — split for the same reason
- * `unlink.test.ts` is split across three files, to keep each under the
+ * in `edge-trim.corpus.test.ts` — split for the same reason
+ * `unlink.corpus.test.ts` is split across three files, to keep each under the
  * repo's 300-line ceiling.
  *
  * Both rows are DELETIONS, so neither gets a `stripTags`-equality
  * invariant: the text gate passes any sub-multiset shrink by
  * construction and an equality invariant passes a no-op, which is the
- * failure `punct-seams.test.ts` documents at length. Every corpus-tier
+ * failure `punct-seams.corpus.test.ts` documents at length. Every corpus-tier
  * assertion in the sibling file is therefore a DEFECT-COUNT DELTA or a
  * POPULATION FIGURE, never "nothing changed".
  */

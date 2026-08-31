@@ -14,8 +14,8 @@ import { isEmptySlot, isWholeEntryStub, stubSlot } from './see-particle.ts';
  * rule is now IN that phase — so censusing on it would count the rule's
  * own output. Every empty slot would read as filled and the population
  * would come back 0, exactly the implicit-subject defect batch 7 found
- * in `continuation-marker-corpus.test.ts` and again in
- * `stem-corpus.test.ts`. Here it surfaced as a loud failure (`v.` read
+ * in `continuation-marker.corpus.test.ts` and again in
+ * `stem.corpus.test.ts`. Here it surfaced as a loud failure (`v.` read
  * 6,848 rather than 6,844, the four repairs already applied) rather
  * than as a silent pass, but it is the same class and the same fix:
  * build the stage this rule receives by running the phase with itself

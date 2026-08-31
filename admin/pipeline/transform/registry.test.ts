@@ -229,7 +229,7 @@ describe('checkAdjacency', () => {
 });
 
 /**
- * `entangledClusters` is what `registry.order.test.ts` asserts the
+ * `entangledClusters` is what `registry.order.corpus.test.ts` asserts the
  * live clusters against, so its two failure modes are unit-tested here
  * on synthetic input rather than only exercised through the real
  * catalogue.
@@ -398,7 +398,7 @@ describe('entangledClusters', () => {
  * entanglement touching the registry must produce a validated cluster
  * or a reported problem, never silence.
  *
- * `registry.order.test.ts` runs this against the live catalogue, where
+ * `registry.order.corpus.test.ts` runs this against the live catalogue, where
  * it is currently empty. These four cases are what make that empty
  * result mean something.
  */

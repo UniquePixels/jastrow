@@ -331,7 +331,7 @@ either reproduces the count or does not.
    graph honest; the pairs are derived in the round-4 report. Batch 2
    shipped one of them, the geresh pair; batch 3a shipped the gershayim
    pair, recording the edge in `patterns.jsonl` *before* registering the
-   rules. `registry.order.test.ts` now asserts cluster contiguity
+   rules. `registry.order.corpus.test.ts` now asserts cluster contiguity
    against the live graph rather than against a list.
 
    **Open, and it is catalogue work rather than transform work:** the

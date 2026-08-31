@@ -121,7 +121,7 @@ import type { Rule, TransformRecord, TransformResult } from '../types.ts';
 /**
  * The stem labels, taken from the corpus's own `verbal_stem` field
  * rather than invented: the 70 distinct values it holds, minus the 19
- * that batch 6b enumerated as not binyan names (`stem-corpus.test.ts`
+ * that batch 6b enumerated as not binyan names (`stem.corpus.test.ts`
  * `NOT_A_BINYAN`), minus the six multi-label values (`"Hithpa. a.
  * Nithpa."` and kin), whose heads are a different shape. 45 remain.
  *
@@ -137,7 +137,7 @@ import type { Rule, TransformRecord, TransformResult } from '../types.ts';
  *   for await (const e of readSourceEntries()) w(e.content.senses);
  *   console.log(JSON.stringify([...v].sort()))'
  *
- * `stem-section-corpus.test.ts` asserts the vocabulary against a live
+ * `stem-section.corpus.test.ts` asserts the vocabulary against a live
  * re-derivation, so a value appearing or vanishing upstream fails a
  * test rather than quietly changing the population.
  */

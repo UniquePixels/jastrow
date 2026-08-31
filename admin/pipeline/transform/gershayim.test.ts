@@ -8,7 +8,7 @@
  * an attribute delimiter or ordinary punctuation.
  *
  * The corpus tier — the counts, the locus partition and the gates —
- * lives in `rules/gershayim.test.ts`, which has entries to run rules
+ * lives in `rules/gershayim.corpus.test.ts`, which has entries to run rules
  * over.
  */
 import { expect, it } from 'bun:test';
@@ -86,7 +86,7 @@ it('the two loci compose to the whole population, in either order', () => {
 	// The disjointness argument, at the fixture tier: neither repair can
 	// create or destroy the other's occurrences, because the
 	// substitution never writes or removes a `<` or a `>`. Measured over
-	// the whole corpus in `rules/gershayim.test.ts`.
+	// the whole corpus in `rules/gershayim.corpus.test.ts`.
 	const html = `<a data-ref=${Q}Jastrow, אל${Q}ף 1${Q}>אל${Q}ף</a> הקב${Q}ה`;
 	const both = `<a data-ref=${Q}Jastrow, אל${GERSHAYIM}ף 1${Q}>אל${GERSHAYIM}ף</a> הקב${GERSHAYIM}ה`;
 	expect(repairTags(repairText(html))).toBe(both);
