@@ -22,8 +22,8 @@
  * A SEVENTH row reusing the walk should extend this rather than
  * assume it. Its own file rather than an addition to
  * `unlink.corpus.test.ts`, following `unlink-nesting.corpus.test.ts`:
- * the shared walk's properties are tested beside the walk, not inside one row's
- * fixtures.
+ * the shared walk's properties are tested beside the walk, not inside
+ * one row's fixtures.
  */
 import { expect, it } from 'bun:test';
 import type { SourceEntry, SourceSense } from '../../body/types.ts';

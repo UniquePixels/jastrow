@@ -411,12 +411,12 @@ const CORROBORATE = new Set(['tosefta-variant-chapter-halakha-loss']);
  * to every field `fieldsOf` walks, `headword` and `alt_headwords`
  * included, and it composes with `phraseAltHeadwordStub` measurably
  * (`body/pipeline-links.corpus.test.ts` pins the corpus gershayim
- * count moving 2,305 → 2,309 because the phrase rule copies a headword that rule
- * already repaired). The ORDER is free and that is measured, not
- * assumed: both directions give 92 marks over these two fields and 235
- * phrase records, since `gershayimInBody` walks every field and repairs
- * the copy too when it runs second. Converging is not the same as
- * isolated, and this class claims only the former.
+ * count moving 2,305 → 2,309 because the phrase rule copies a headword
+ * that rule already repaired). The ORDER is free and that is measured,
+ * not assumed: both directions give 92 marks over these two fields and
+ * 235 phrase records, since `gershayimInBody` walks every field and
+ * repairs the copy too when it runs second. Converging is not the same
+ * as isolated, and this class claims only the former.
  *
  * What IS ordered is their order among THEMSELVES —
  * `parenthesized-alt-headword` strictly before `phrase-alt-headword-
