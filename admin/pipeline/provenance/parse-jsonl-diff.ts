@@ -34,7 +34,7 @@ function parseJsonlDiff(diffText: string): EditRecord[] {
 			continue;
 		}
 		const isMinus = line.startsWith('-');
-		if (!isMinus && !line.startsWith('+')) {
+		if (!(isMinus || line.startsWith('+'))) {
 			continue;
 		}
 		const body = line.slice(1);

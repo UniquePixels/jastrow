@@ -55,8 +55,8 @@ someone pins the predicate.
 
 | Route | Rows | Instances | What it needs |
 |---|---:|---:|---|
-| **transform** | **66** | **20,144** | deterministic code + tests |
-| judgment | 62 | 16,570 | per-entry reading (Opus pass or maintainer) |
+| **transform** | **61** | **19,726** | deterministic code + tests |
+| judgment | 65 | 16,626 | per-entry reading (Opus pass or maintainer) |
 | blocked | 5 | 4,947 | pin the predicate first |
 
 Phase 1 closed this table at 81 / 46 / 5. Every move since has been a
@@ -206,9 +206,21 @@ is working:
   label out of `senses[0]`, so the opening rule repairs 88 alone and 89
   composed. See [transform-batch-7.md](transform-batch-7.md).
 
-**48.4% of the backlog is deterministic code** (20,144 of 41,661
-instances), 49.6% of it by row. That is the most useful number here —
+**47.8% of the backlog is deterministic code** (19,726 of 41,299
+instances), 46.6% of it by row. That is the most useful number here —
 about half the catalogue does not need judgment at all.
+
+**Batch 8 moved five rows at once, the largest single drop, and it
+also cleared the last BLOCKING row from the transform queue.** Every
+row still marked `blocking` on that route now has a rule; the 12 that
+remain pending are all non-blocking. Two of the five were discarded
+because something upstream already owns them — `plural_form` is not a
+v2 field and `rejoinGlossHead` heals the `b. h.` straddle by
+construction — and three were withdrawn to `judgment`, one for having
+no defect left to name, one for a falsified mechanism, and one because
+its repair would dangle 37 live anchors that the counterpart row, on
+the `judgment` route, will never retarget. See
+[transform-batch-8.md](transform-batch-8.md).
 
 The instance total is now FALLING, and both directions have the same
 cause: a row's count is a claim nobody has checked until someone works
@@ -221,10 +233,10 @@ Cutover gate, cross-cut:
 
 | | Rows | Instances |
 |---|---:|---:|
-| Blocks the v2 cutover | 59 | 14,634 |
-| Launch need not wait | 74 | 27,174 |
+| Blocks the v2 cutover | 55 | 13,992 |
+| Launch need not wait | 76 | 27,307 |
 
-## The transform queue — all 68 rows, largest first
+## The transform queue — all 61 rows, largest first
 
 `⚠ unaudited` marks a row with no `reason` recorded: its count has never
 been derived. That is not a reason to skip it — for a transform row,
@@ -249,7 +261,6 @@ either reproduces the count or does not.
 | `nested-anchor-swallows-punctuation` | 465 | **yes** | — |
 | `tosefta-variant-chapter-halakha-loss` | 391 | no | — |
 | `targum-sheni-never-linked` | 362 | no | ⚠ unaudited |
-| `plural-label-rendering-defeats-capture` | 358 | **yes** | — |
 | `ib-yoma-2a` | 312 | no | — |
 | `holam-migrated-off-mater-vav` | 308 | no | — |
 | `emphasis-run-edge-space` | 304 | no | — |
@@ -264,40 +275,34 @@ either reproduces the count or does not.
 | `latin-token-inside-rtl-span` | 130 | **yes** | — |
 | `trailing-em-dash-tail` | 130 | **yes** | — |
 | `paren-tag-no-space` | 115 | no | — |
-| `sense-number-outside-closed-grammar` | 111 | **yes** | — |
 | `italic-close-paren-nospace` | 95 | no | — |
 | `duplicated-definition-opening-run` | 85 | **yes** | — |
 | `gershayim-breaks-ref-attribute` | 85 | **yes** | — |
-| `empty-lead-sense` | 84 | **yes** | — |
 | `ellipsis-fragment-anchored` | 80 | no | — |
 | `shin-sin-dot-drop` | 77 | no | — |
-| `continuation-marker-em-dash-loss` | 71 | **yes** | — |
-| `adjacent-verbatim-repetition` | 59 | **yes** | — |
+| `adjacent-verbatim-repetition` | 65 | **yes** | — |
 | `anchor-italic-no-space` | 56 | no | — |
 | `plural-to-feminine-final-letter-mislink` | 50 | no | — |
-| `bracketed-gloss-lead-sense` | 49 | **yes** | — |
 | `rabbi-name-linked-as-bible-book` | 42 | no | — |
 | `italic-lone-punctuation` | 28 | no | — |
-| `reversed-hebrew-phrase` | 27 | **yes** | — |
 | `geresh-abbrev-space-loss` | 23 | no | — |
-| `homograph-roman-stranded-in-definition` | 23 | **yes** | — |
 | `containment-fallback-mislink` | 22 | no | — |
+| `continuation-marker-em-dash-loss` | 22 | **yes** | — |
 | `gender-pair-headword-line-collapse` | 22 | **yes** | — |
 | `stem-head-marker-chop` | 18 | **yes** | — |
 | `impossible-dagesh` | 17 | no | — |
 | `translit-italic-space-loss` | 15 | no | — |
 | `citation-number-truncated-outside-anchor` | 14 | **yes** | — |
 | `shuruk-as-yod-display-corruption` | 12 | no | — |
+| `section-break-terminator-loss` | 11 | **yes** | — |
 | `vkh-geresh-loss` | 11 | no | — |
 | `jt-double-wrapped-citation` | 10 | **yes** | — |
-| `section-break-terminator-loss` | 10 | **yes** | — |
 | `trailing-whitespace-definition` | 10 | no | — |
 | `apparatus-cite-linked-as-scripture` | 8 | no | — |
 | `ib-targum-work-loss` | 8 | no | — |
 | `italic-swallows-close-paren` | 8 | no | — |
 | `abbrev-fused-headword` | 7 | **yes** | — |
 | `sifre-ib-resolves-to-yalkut` | 6 | no | — |
-| `b-h-split-across-field-boundary` | 4 | **yes** | ⚠ unaudited |
 | `see-particle-lost` | 4 | **yes** | — |
 | `asterisk-stem-label` | 3 | **yes** | — |
 | `unterminated-href-swallows-closing-tag` | 2 | **yes** | — |
@@ -406,11 +411,16 @@ on, both recorded in `homograph-numeral-mismatch`'s own `reason`:
   A02356, B00407, D00844, E00508, G00675); and B00098's double-space
   `"בַּד  V"`, a one-character repair that makes בַּד V addressable again.
 
-## Judgment queue — 60 rows / 16,437 instances
+## Judgment queue — 65 rows / 16,626 instances
 
-(Heading CORRECTED 2026-08-29: it read "49 rows / 15,754" while the
-catalogue held 60 and 16,437. The table below was current; only the
-count in the heading had gone stale, across batches 4-6b.)
+(Heading CORRECTED 2026-08-29 from "49 rows / 15,754", and again in
+batch 8 from "60 rows / 16,437". **That first correction's claim that
+"the table below was current" was itself false** — the table held 50
+rows against a heading that said 60. Both the heading and the table are
+now generated from `patterns.jsonl` rather than edited, which is why
+they agree: a hand-maintained list of 65 rows goes stale the first time
+a batch moves one, and this one had gone stale twice without anyone
+noticing that the fix for the heading left the table wrong.)
 
 `homograph-numeral-mismatch` (538) and `h-cognate-self-link` (85) are
 the newest members, reclassified out of the transform queue in batch 2
@@ -434,10 +444,16 @@ geresh-free alt at all. Degraded search on those spellings is a
 post-launch quality item, not a cutover gate. That is the only row whose
 `blocking` flag this batch changed.
 
-23 of these block the cutover (5,793 instances). Five rows are 85% of
-that, and four of the five are **one family** —
-paren/bracket integrity and lead-sense structure. Scope them as a single
-pass, not five:
+**31 of these block the cutover (6,400 instances)** — batch 8 moved
+three rows onto this route, `homograph-roman-stranded-in-definition`,
+`reversed-hebrew-phrase` and `sense-number-outside-closed-grammar`, all
+of them blocking. Five rows are 77% of that, and four of the five fall
+into two families — paren/bracket integrity
+(`unmatched-closing-paren` 1,604, `unmatched-opening-paren` 452) and
+lead-sense structure (`etymology-head-pseudo-sense` 1,553,
+`preamble-stranded-lead-sense` 676); the fifth,
+`citation-tail-truncation` (657), is neither. Scope the four as one
+pass rather than four:
 
 | Row | Instances |
 |---|---:|
@@ -456,22 +472,30 @@ Full judgment list, blocking first:
 | `preamble-stranded-lead-sense` | 676 | **yes** |
 | `citation-tail-truncation` | 657 | **yes** |
 | `unmatched-opening-paren` | 452 | **yes** |
+| `empty-stem-section` | 342 | **yes** |
 | `common-gender-inexpressible` | 228 | **yes** |
 | `unnumbered-terminal-homograph` | 129 | **yes** |
 | `doubled-space-as-text-loss-locator` | 108 | **yes** |
+| `stem-head-in-child-sense` | 100 | **yes** |
 | `stranded-open-bracket` | 85 | **yes** |
 | `bracket-paren-mismatch` | 67 | **yes** |
+| `stem-label-not-a-binyan-name` | 66 | **yes** |
 | `gloss-space-loss` | 45 | **yes** |
 | `self-numbered-intext-marker` | 35 | **yes** |
+| `superscript-subsection-contradicts-link-sub-section` | 33 | **yes** |
 | `lost-h-equivalent` | 32 | **yes** |
+| `reversed-hebrew-phrase` | 27 | **yes** |
 | `truncated-read-stub` | 26 | **yes** |
+| `homograph-roman-stranded-in-definition` | 23 | **yes** |
 | `unclosed-editorial-bracket` | 18 | **yes** |
 | `dangling-denom-tail` | 17 | **yes** |
 | `lost-hebrew-after-h-marker` | 13 | **yes** |
 | `verse-paren-false-sense-split` | 13 | **yes** |
 | `inline-inflection-sublist` | 12 | **yes** |
+| `chopped-marker-with-residue` | 10 | **yes** |
 | `continuation-marker-fully-absent` | 9 | **yes** |
 | `contentless-entry` | 6 | **yes** |
+| `sense-number-outside-closed-grammar` | 6 | **yes** |
 | `first-sense-debris-stranding-language-label` | 5 | **yes** |
 | `inflection-sublist-numbering-flattened` | 3 | **yes** |
 | `abbrev-in-alt-headwords` | 2,035 | no |
@@ -487,20 +511,27 @@ Full judgment list, blocking first:
 | `midrash-subsection-link-drift` | 179 | no |
 | `binyan-head-form-mislinked` | 127 | no |
 | `neighbor-rid-mislink` | 109 | no |
-| `stem-head-in-child-sense` | 100 | **yes** |
 | `post-anchor-numeral-mismatch` | 91 | no |
 | `h-cognate-self-link` | 85 | no |
+| `empty-lead-sense` | 84 | no |
 | `initial-niqqud-drop` | 76 | no |
 | `multiword-abbrev-mislink` | 62 | no |
 | `stacked-impossible-niqqud` | 61 | no |
 | `guttural-initial-simple-sheva` | 55 | no |
+| `bracketed-gloss-lead-sense` | 49 | no |
 | `midrash-tehillim-wrong-psalm` | 49 | no |
 | `inflection-abbrev-mislink` | 46 | no |
+| `citation-quote-seam-period` | 43 | no |
 | `targum-cite-to-plain-bible` | 43 | no |
+| `abbrev-headword-stub` | 34 | no |
 | `vocalized-twin-ignored` | 34 | no |
 | `latin-prose-ocr-substitution` | 28 | no |
+| `orphan-gloss-seam-period` | 19 | no |
 | `spurious-name-period` | 19 | no |
 | `alt-headword-collision` | 15 | no |
+| `gloss-head-seam-period-doubling` | 15 | no |
+| `post-anchor-numeral-duplication` | 11 | no |
+| `entry-final-comma` | 10 | no |
 
 ## Blocked queue — 5 rows / 4,947 instances
 
@@ -526,18 +557,25 @@ after launch unless something else forces the issue.
   transform" was arguable — lost-text rows especially — the row was
   marked blocking. Wrong that way costs pre-launch effort; wrong the
   other way ships a baked-in defect.
-- **1 of the 3 unaudited transform rows blocks the cutover, and they
-  carry the least confidence**, having no recorded derivation behind
-  their counts. Recomputed rather than typed:
+- **0 of the 2 unaudited transform rows block the cutover.** They still
+  carry the least confidence, having no recorded derivation behind their
+  counts — `unlinked-v-span` (796) and `targum-sheni-never-linked`
+  (362) — but neither is on the critical path. Recomputed rather than
+  typed:
 
-  > **CORRECTED 2026-08-28 (impl/phase-2-batch-6).** This read *"3 of
-  > the 5"*, itself a 2026-08-26 correction of *"4 of the 9"* (which had
-  > replaced a Phase-1 "8" that three route changes left behind). Batch
-  > 5 wrote a `reason` onto `parenthesized-alt-headword` while writing
-  > its rule, leaving **4 unaudited, 2 of them blocking**. Same figures
-  > as item 4 of "Ordering and open questions", from this same query —
-  > and the reason this note keeps needing a correction is that both
-  > copies are typed rather than generated.
+  > **CORRECTED 2026-08-30 (batch 8)** from *"1 of the 3 … blocks"*.
+  > `b-h-split-across-field-boundary` was the third, and the blocking
+  > one; batch 8 discarded it, so the count falls to 2 and the blocking
+  > count to 0.
+  >
+  > That correction is itself the fourth on this line — 2026-08-28 read
+  > *"3 of the 5"*, a 2026-08-26 correction of *"4 of the 9"*, which had
+  > replaced a Phase-1 "8" that three route changes left behind. **The
+  > reason this line keeps needing correcting is that it is typed rather
+  > than generated**, which is exactly why batch 8 switched the two
+  > queue tables above to being generated from `patterns.jsonl`. This
+  > sentence is the last hand-maintained tally in the document, and it
+  > should go the same way the next time it is wrong.
 
   ```bash
   bun -e 'import {parsePatterns} from "./admin/pipeline/research/patterns.ts";

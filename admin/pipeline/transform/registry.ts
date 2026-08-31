@@ -60,6 +60,7 @@ import {
 	translitItalicSpace,
 } from './rules/seam-space.ts';
 import { sectionBreakTerminator } from './rules/section-break.ts';
+import { seeParticleRestore } from './rules/see-particle.ts';
 import { strandedDashStarMarker } from './rules/sense-marker.ts';
 import { stemHeadMarkerChop } from './rules/stem-head.ts';
 import { asteriskStemStrayPeriod } from './rules/stem-label.ts';
@@ -931,6 +932,40 @@ const RULES: readonly Rule[] = [
 	// that rule a member in any case: it never touches a `definition`.
 	asteriskStemStrayPeriod,
 
+	// ---- batch 8: the lost see-particle ----
+	//
+	// `seeParticleRestore` is the SECOND rule in this registry to mint
+	// text and the FIRST to mint a word. What licenses it is the null
+	// model, not the size: the particle slot in a whole-definition
+	// redirect stub is populated 7,270 times and empty 4, and it is
+	// populated with a RETAINED VOCABULARY — `v.` 6,844, `v. sub` 196,
+	// `read` 29, `pl. of` 29, eight more that bring the head of the
+	// distribution to 7,154, and a tail of 116 rarer particles, several
+	// themselves damaged (`v,` ×4). A slot being normalised away leaves
+	// ONE surviving value; this one kept a dozen and a tail, so the four
+	// empties are loss rather than convention. Ruling: Brian,
+	// 2026-08-30.
+	//
+	// IT CANNOT MEET ANY RULE ABOVE IT, and the exclusion is structural
+	// rather than argued. It fires only when the entry's whole content
+	// is ONE CHILDLESS SENSE whose definition is nothing but a leading
+	// comma and an anchor — no gloss text at all. Every rule above that
+	// rewrites a `definition` needs something this shape does not hold:
+	// `sectionBreakTerminator` a section label, the anaphora rules a
+	// citation run, the paren rules a parenthesis, the geresh and
+	// gershayim rules a Hebrew abbreviation mark in body text. The one
+	// rule that could touch the same bytes is `trailingWhitespaceDefinition`
+	// below, which is why this sits above it.
+	//
+	// IT IS A PURE INSERTION. The particle is spliced at the anchor's own
+	// offset and every other byte is carried through, edge whitespace
+	// included — so it hands `trailingWhitespaceDefinition` (10, still
+	// `PENDING`) neither a new member nor a lost one. The three minted
+	// codepoints are declared in `allows`; the second `.` needs an
+	// allowance of its own because the input's only period is the stub's
+	// terminator and `checkNoNewText` is a multiset test.
+	seeParticleRestore,
+
 	// ---- `trailingWhitespaceDefinition` LAST ----
 	//
 	// Measured 0 / 0 — free, and last by argument. It trims the entry's
@@ -1185,7 +1220,18 @@ const PENDING: readonly string[] = [
 	// A row re-scoped to its true size is the fifth way a row has moved
 	// on this queue, and the reason it is not simply discarded is that
 	// discarding it would leave those 6 surfaced by nothing executable.
-	'sense-number-outside-closed-grammar',
+	// AND IT LEFT THIS LIST IN BATCH 8, WITHDRAWN to `judgment` in
+	// `patterns.jsonl` on Brian's ruling 2026-08-30, so `coverage` no
+	// longer counts it and neither list may hold it. The 6 reproduce
+	// exactly, same rids — and measured on each one's PREDECESSOR they
+	// split three ways with no arm a rule can take. 3 are the FIRST
+	// numbered sibling of their run, where the convention never puts a
+	// dash, so nothing is missing; `A02000` belongs to
+	// `stranded-open-bracket`; and of the last 2 only `A00510` has a
+	// dashed sibling to witness the dash a repair would write. Minting
+	// `M00591`'s on a maintainer's word is what `continuationMarkerDash`
+	// refused. Audit:
+	// `data/patches/catalogue-audit/sense-number-closed-grammar.md` §2.
 	// `bracketed-gloss-lead-sense` (49) left this list in batch 7:
 	// WITHDRAWN to `judgment` in `patterns.jsonl` on Brian's ruling
 	// 2026-08-29 (audit
@@ -1211,9 +1257,37 @@ const PENDING: readonly string[] = [
 	// `parenthesized-alt-headword` and `phrase-alt-headword-stub` left
 	// this list in batch 5: both are registered above, adjacent and
 	// entangled.
-	'b-h-split-across-field-boundary',
+	// `b-h-split-across-field-boundary` left this list in batch 8:
+	// `status: discarded` in `patterns.jsonl` (Brian's ruling
+	// 2026-08-30). NOT withdrawn for want of a mechanism — THE SPLIT
+	// HEALS BY CONSTRUCTION, and `rejoin.ts`'s own header names this
+	// class. `rejoinGlossHead` concatenates the four gloss-head
+	// fragments IN PRINT ORDER and invents no separator, so a
+	// `language_code` of `" ch. = b."` and a first definition of
+	// `" h. מוּג, to melt."` rejoin contiguous. The count reproduces at 4
+	// under a widened predicate (an exact `"= b."` match reads only 2),
+	// and all 4 read `"b. h."` in the BUILT body — verified through
+	// `buildBody`, which calls `rejoinGlossHead` at `dry-run.ts:241`,
+	// rather than through the helper alone. Pinned corpus-wide by
+	// `rules/gloss-head-rejoin-corpus.test.ts`; audit
+	// `data/patches/catalogue-audit/b-h-field-split.md`.
 	'mekhilta-sifra-never-linked',
-	'reversed-hebrew-phrase',
+	// `reversed-hebrew-phrase` left this list in batch 8: WITHDRAWN to
+	// `judgment` in `patterns.jsonl` on Brian's ruling 2026-08-30. THE
+	// ROW'S MECHANISM IS FALSIFIED AND ITS COUNT IS A UNIT ARTIFACT.
+	// Measured at the unit a reader sees — one `<span dir="rtl">` — the
+	// corpus holds 61,539 multi-word Hebrew spans, 17,092 ENDING in the
+	// particle `וכ׳` and **18** beginning with it. The catalogued 27
+	// counts whitespace runs across STRIPPED markup, which merges spans
+	// print separates and splits them at an internal ellipsis. The
+	// damage is a ROTATION, not the reversal the row is named for: full
+	// reversal yields word salad where the English gloss beside it
+	// matches the rotation. What blocks a rule is that the rotated form
+	// is better attested for 1 of 18; the other 17 bodies occur exactly
+	// once corpus-wide, their own damaged instance, so every repair but
+	// one would rest on the aggregate convention with no witness of its
+	// own. Audit:
+	// `data/patches/catalogue-audit/reversed-hebrew-phrase.md`.
 	// `empty-lead-sense` (73 `{}` + 11 whitespace-only = 84) left this
 	// list in batch 7: WITHDRAWN to `judgment` in `patterns.jsonl` on
 	// Brian's ruling 2026-08-29 (audit
@@ -1281,7 +1355,23 @@ const PENDING: readonly string[] = [
 	// the whole row is what keeps 66 live defects ON the queue: a row
 	// reads `registered` the moment any rule claims its id, so a
 	// 3-of-69 rule would have retired the other 66 into silence.
-	'homograph-roman-stranded-in-definition',
+	// `homograph-roman-stranded-in-definition` left this list in batch 8:
+	// WITHDRAWN to `judgment` in `patterns.jsonl` on Brian's ruling
+	// 2026-08-30. The count REPRODUCES EXACTLY at 23 under a stated
+	// predicate, once both false positives the row itself names are
+	// refused. What blocks a rule is the destination: v2 has no homograph
+	// field, so the numeral goes into `headword` — and **17 of the 23
+	// rewrites would dangle 37 live anchors** whose `data-ref` names the
+	// bare headword. That is batch 5's `LINKED_HEADWORDS` finding with
+	// the ratio inverted (2 of 7 refused there, 17 of 23 here), and
+	// [[feedback_headword_is_a_namespace]] is the entry.
+	//
+	// THE COUNTERPART REPAIR IS ON THE OTHER ROUTE. The row itself calls
+	// `homograph-numbering-schism` (186) "the anchor side of the same
+	// superscript schism to this row's entry side", and that row is
+	// `judgment` — so the anchors are never retargeted and the dangle is
+	// permanent. Repairing one side alone makes the corpus worse.
+	// Audit: `data/patches/catalogue-audit/homograph-roman-stranded.md`.
 	'holam-migrated-off-mater-vav',
 	'impossible-dagesh',
 	// `binyan-form-leading-space` (523 occ / 457 ent) and
@@ -1298,7 +1388,22 @@ const PENDING: readonly string[] = [
 	// the last task. The premise is pinned corpus-wide by
 	// `body/binyan-cleanup.corpus.test.ts`; the audit is
 	// `data/patches/catalogue-audit/binyan-form-cleanup.md`.
-	'plural-label-rendering-defeats-capture',
+	// `plural-label-rendering-defeats-capture` left this list in batch 8:
+	// `status: discarded` in `patterns.jsonl` (Brian's ruling
+	// 2026-08-30), the TENTH `plural_form` row to go and the only one
+	// that needed a measurement rather than the shared field argument.
+	// It was held open because its shape is an ABSENCE and it claimed
+	// the plurals "remain present verbatim in the definition text that
+	// v2 does carry" — claimed, never measured. Measured now: **523 of
+	// 523** entries that declare a plural while `plural_form` is empty
+	// or absent have every declared Hebrew run present in the built
+	// `BodyEntry`, compared through `buildBody` itself. The field side
+	// is the siblings' argument unchanged: `plural_form` is not a v2
+	// field. Note the catalogued 358 does NOT reproduce — the same
+	// buckets over all senses read 523 — and the disposition does not
+	// turn on which is right, 523 being a superset at 100% survival.
+	// Pinned by `rules/plural-capture-corpus.test.ts`; audit
+	// `data/patches/catalogue-audit/plural-label-capture.md`.
 	// `continuation-marker-em-dash-loss` left this list in batch 7: it is
 	// registered above for its WITNESSED CORE of 14, and the row is
 	// re-scoped 71 -> **22** in `patterns.jsonl`. The 22 are the dashless
@@ -1361,7 +1466,12 @@ const PENDING: readonly string[] = [
 	// registered above at its CORRECTED size, 11 rather than the
 	// catalogued 10, under a stated predicate — a letter or digit,
 	// optional tags, an em dash, optional tags, a section label.
-	'see-particle-lost',
+	// `see-particle-lost` left this list in batch 8: it is registered
+	// above at the catalogued 4, which REPRODUCED EXACTLY — and only
+	// under the row's own restriction that the anchor be the whole
+	// definition AND the stub be the whole entry. Walking child senses
+	// as well reads 18, and the 14 extra are ordinary cross-reference
+	// sub-senses of large articles rather than damage.
 	// FOUR MORE left this list in batch 3b Task 6, each audited to
 	// `judgment` in `patterns.jsonl` for its own reason — the working is
 	// in data/patches/catalogue-audit/batch-3b-withdrawals.md:

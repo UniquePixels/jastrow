@@ -105,3 +105,86 @@ false for this class, and is corrected in place. The deletion is pinned
 directly instead, in the corpus test §7, and the ordering was chosen to
 match: the rule was registered FIRST, so `unaccountedEdges` reported the
 surviving half-edge in the open before it was removed.
+
+---
+
+# §2 — Batch 8: the remaining 6 are withdrawn to `judgment`
+
+**RULED 2026-08-30 (Brian): WITHDRAWN TO `judgment`,** `route:
+judgment` in `patterns.jsonl`, the id taken out of `PENDING` in
+`admin/pipeline/transform/registry.ts`. `blocking` is left as recorded.
+
+Batch 7 re-scoped this row 111 → 6 and kept it on the transform queue
+rather than discarding it, on the stated ground that "discarding it
+would leave those 6 surfaced by nothing executable". Batch 8 read the 6.
+
+## The 6 reproduce exactly
+
+Measured at the composed stage over all 32,512 entries — a `*N)` in a
+`number` at sibling position > 0 whose previous sibling's definition does
+not end in an em dash — the population is **6**, the same rids batch 7
+named: `A00510`, `A02000`, `B00005`, `M00591`, `N01131`, `P01184`.
+
+## Nothing is broken downstream, and batch 7 established why
+
+`body/labels.ts`'s `LABEL` is
+`/^(?<dash>—)?(?<star>\*)?(?<label>\d+|[a-z])\)$/u`. The star is a
+PARSED FIELD, not a quarantine trigger, and `printLabel` regenerates
+every one of these byte-exactly. None of the 6 quarantines to
+`{unknown}`; none reaches a reader as debris.
+
+So a rule here would not be repairing a parse failure. It would be
+asserting that an em dash is MISSING, and writing one.
+
+## Measured on each predecessor, the 6 split three ways and no arm survives
+
+| rid | marker | predecessor | what it is |
+|---|---|---|---|
+| `B00005` | `*1)` | `number: ""` | first numbered sibling of its run |
+| `N01131` | `*1)` | `number: ""` | first numbered sibling of its run |
+| `P01184` | `*1)` | `number: ""` | first numbered sibling of its run |
+| `A02000` | `*2)` | ends `—[` | `stranded-open-bracket`'s shape |
+| `A00510` | `*3)` | ends `". "` | dash lost; has a dashed sibling |
+| `M00591` | `*2)` | ends `". "` | dash lost; **no** dashed sibling |
+
+**Three are first-in-run.** The corpus convention puts the em dash on
+continuation markers, not on the first — `B00005`, `N01131` and
+`P01184` all have a following `—2)`, which is the shape a correct run
+has. Nothing is missing from them, so there is nothing for a rule to
+write.
+
+**One is another row's.** `A02000`'s predecessor ending `—[` was
+already assigned to `stranded-open-bracket` in §1 above.
+
+**Two are dash-losses, and only one of them is witnessable.**
+`A00510`'s sibling list holds a `—2)`, so a rule could declare its dash
+through `copied` and have the gate verify it against that sibling —
+`continuationMarkerDash`'s exact mechanism. `M00591`'s list is `1)`,
+`*2)`: there is no dashed member, so its dash could only be declared
+through `allows`, which licenses the codepoint across the whole diff on
+a maintainer's word. That is the declaration `continuationMarkerDash`
+deliberately refused, and its reasoning is recorded in
+`rules/continuation-marker.ts`: the mixed-list predicate "is exactly
+what guarantees the witness is there. Drop that requirement and the
+declaration stops being checkable."
+
+A rule for `A00510` alone repairs one entry and leaves five on a
+blocking row, which is not worth a registry entry, an order
+classification and a commutation pair.
+
+## Why `judgment` and not a discard
+
+A discard says something else owns the row. Nothing else owns these 6 —
+`strandedDashStarMarker` refuses them by predicate and
+`stranded-open-bracket` claims only `A02000`. `judgment` says no rule
+can be stated while the question stays visible, which is the accurate
+statement here: the row's remaining question is whether print puts a
+dash on `A00510` and `M00591`, and that is answered by reading the 1903
+edition, not by the corpus.
+
+## What reopens it
+
+Reading those two entries against print. If print shows a continuation
+dash on either, `A00510` is immediately shippable on
+`continuationMarkerDash`'s terms and `M00591` becomes a one-entry
+`allows` with a documented external witness rather than an assertion.
