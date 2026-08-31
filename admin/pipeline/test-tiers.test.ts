@@ -39,10 +39,16 @@
  * failure here.
  *
  * This file necessarily contains every signal it hunts for — a scanner
- * has to name what it scans for — so it skips ITSELF, and by
- * `import.meta.path` rather than a hardcoded name, so that renaming it
- * cannot quietly widen the exemption to some other file.
+ * has to name what it scans for — so it skips ITSELF. The skip is an
+ * EXACT match on `import.meta.path`, which is why the scan is absolute:
+ * a suffix test against relative paths would also exempt any other file
+ * whose relative path happened to end this one's absolute path, and a
+ * hardcoded name would survive a rename and exempt whatever took it.
+ * `node:path` would be the obvious way to resolve instead, and
+ * `biome.json` forbids node modules in `*.test.ts` — the override that
+ * relaxes that rule for `admin/pipeline/**` excludes tests by design.
  */
+
 import { expect, it } from 'bun:test';
 
 /** Directories that are not ours to police. */
@@ -55,13 +61,20 @@ const CORPUS_SIGNALS: ReadonlyArray<readonly [string, RegExp]> = [
 	['names SOURCE_PATH', /\bSOURCE_PATH\b/u],
 ];
 
-/** This file scans test sources for signals it must itself contain. */
+/** This file, absolute — the one path the scan must not report on. */
 const SELF: string = import.meta.path;
 
 async function testFiles(): Promise<string[]> {
 	const glob = new Bun.Glob('**/*.test.ts');
 	const out: string[] = [];
-	for await (const path of glob.scan({ cwd: '.', onlyFiles: true })) {
+	// Absolute, so `path === SELF` is an identity test rather than a
+	// suffix guess. The cost is verbose failure messages, which name a
+	// file the reader can open directly.
+	for await (const path of glob.scan({
+		absolute: true,
+		cwd: '.',
+		onlyFiles: true,
+	})) {
 		if (!IGNORED.test(`/${path}`)) {
 			out.push(path);
 		}
@@ -90,7 +103,7 @@ it('the tier split covers every test file exactly once', async () => {
 it('no unit-tier file loads the corpus — it would re-inflate the fast gate', async () => {
 	const offenders: string[] = [];
 	for (const path of await testFiles()) {
-		if (isCorpusName(path) || path === SELF || SELF.endsWith(`/${path}`)) {
+		if (isCorpusName(path) || path === SELF) {
 			continue;
 		}
 		const signals = await signalsOf(path);
