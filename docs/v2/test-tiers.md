@@ -158,12 +158,23 @@ person does not rediscover them.
    `duplication.corpus.test.ts` are already split would return them to
    the fast gate. It changes no assertion and was left out of this
    change as separable churn.
-2. **CI headroom is now ~30%, not comfortable.** At the ratio PR #58
-   measured (CI 18m27s against ~600 s locally, 1.85×), a 452 s tier is
-   ~14 minutes against the ~20-minute wall. That ratio is itself a
-   single observation carried over from the ruling, not something this
-   work re-measured; the first `Corpus Audit` run on CI is what will
-   settle it. `bun test --shard=1/N`
+2. **CI headroom is ~22%, and the ratio was worse than the ruling
+   estimated.** MEASURED on PR #59's first run: `Corpus Audit` passed in
+   **15m37s** (937 s) against 436 s locally — a ratio of **2.15×**, not
+   the 1.85× carried over from #58. The projection written here before
+   that run said ~14 minutes and was optimistic by a minute and a half.
+   Against the ~20-minute wall that leaves 4m23s.
+
+   `Test` in the same run took 20s wall, nearly all of it checkout and
+   `bun ci`; the tests themselves are half a second.
+
+   The lever, when the tier grows: `bun test --shard=N/M` splits
+   `Corpus Audit` across parallel jobs. Each shard rebuilds the fixture
+   — ~52 s locally, so ~110 s on CI — which makes three shards roughly
+   (937 − 110) / 3 + 110 ≈ 6.5 minutes each, at three times the runner
+   minutes and two extra required checks. Follow-up 1 is the cheaper
+   move and should come first: it takes 274 tests out of this job
+   without touching an assertion. `bun test --shard=1/N`
    exists and would split `Corpus Audit` across parallel jobs, at the
    cost of one fixture build per shard. Reach for it when the tier
    passes ~16 minutes on CI, not before.
