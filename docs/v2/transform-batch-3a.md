@@ -175,7 +175,9 @@ The design's §5 gate is the number the batch rests on: resolve every
 `data-ref` against the set of entry headwords, before and after the
 pass. It ships as a test rather than a probe
 (`admin/pipeline/transform/rules/gershayim.corpus.test.ts`, corpus tier), so a
-narrowed predicate fails `bun qa` rather than a report.
+narrowed predicate fails a gate rather than a report. NOTE 2026-08-31:
+the corpus tier moved out of `bun qa` into `bun run audit:corpus` and
+CI's `Corpus Audit` job — see `docs/v2/test-tiers.md`.
 
 ```bash
 bun test admin/pipeline/transform/rules/gershayim.corpus.test.ts
@@ -1107,8 +1109,9 @@ answers "four rules fire", which sounds alarming and is not.
 | rtl trio → pair vs. pair → rtl trio | **0** of 32,512 |
 | whole registry with the pair last vs. the pair first | **0** of 32,512 |
 
-The first two are tests in `rules/gershayim.corpus.test.ts` and run on every
-`bun qa`; the third was a throwaway four-pass run recorded in the design
+The first two are tests in `rules/gershayim.corpus.test.ts` and ran on
+every `bun qa` when this was written — since 2026-08-31 they run on
+`bun run audit:corpus`; the third was a throwaway four-pass run recorded in the design
 §4.2. This answers the audit's ordering rider — *"if bare-rtl-hebrew
 runs first and wraps its 117, they migrate into this row's scope"* —
 with a measurement: wrapping bare Hebrew in a `<span dir="rtl">` moves
@@ -1230,8 +1233,11 @@ population, in either order.
    That was reasoned, not measured, and it is **false**: `bun test`
    exits 1 on a missing file in both filter and path form. The brief
    did name a nonexistent file (`rules/gershayim.corpus.test.ts`; the
-   corpus tier lives in `rules/gershayim.corpus.test.ts`), but it fails
-   closed.
+   corpus tier lived in `rules/gershayim.test.ts` at the time), but it
+   fails closed. The two names SWAPPED on 2026-08-31, when the corpus
+   tier took the dotted convention: the name the brief invented is the
+   real one now. Left as it stood rather than rewritten, because the
+   finding is about a brief naming a file that did not exist.
 8. **`brokenTopSequences=34` and `startsAtTwo=8`** are unchanged
    pre-existing `migrate-dry` observations, not gate failures, and
    belong to other rows.

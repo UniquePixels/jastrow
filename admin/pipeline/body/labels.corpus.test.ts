@@ -135,12 +135,7 @@ describe('parseLabel/printLabel corpus sweep', () => {
 		// The corpus tier holds one shared copy of the snapshot for the
 		// whole run (`corpus-fixture.ts`), so streaming a second one here
 		// would buy nothing and cost a re-read.
-		const seen = new Map<string, number>();
-		for (const entry of await sourceEntries()) {
-			for (const [raw, count] of tallyLabels([entry])) {
-				seen.set(raw, (seen.get(raw) ?? 0) + count);
-			}
-		}
+		const seen = tallyLabels(await sourceEntries());
 		expect(seen.size).toBeGreaterThan(0);
 		expect(checkAllLabels(seen.keys())).toEqual([]);
 

@@ -293,5 +293,11 @@ describe('the registry commutes except where the catalogue says otherwise', () =
 		// make it 40 × 8 = 320, not 287.
 		expect(stats.composedPairs + stats.crossPhasePairs).toBe(stats.totalPairs);
 		expect(stats.crossPhasePairs).toBe(287);
-	}, 180_000);
+		// MEASURED on CI 2026-08-31, PR #59's first `Corpus Audit` run: this
+		// gate logged 134,141ms against the 180s budget it used to carry —
+		// 75% of it. A runner a third slower fails here, and the message
+		// would name the commutation gate rather than the slow machine.
+		// 600s matches `pipeline-links.corpus.test.ts`'s convention for a
+		// walk of this size. It is a timeout, not an assertion.
+	}, 600_000);
 });

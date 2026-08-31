@@ -189,6 +189,39 @@ person does not rediscover them.
    docstring says so. Moving it is 22 import rewrites and no behaviour
    change.
 
+5. **A local CodeRabbit pass over this branch raised two structural
+   findings in files this change only RENAMED.** Both predate it and
+   both are real; neither was fixed here, because touching them would
+   mean rewriting a corpus file whose only change so far is its name.
+
+   - `rules/continuation-marker.corpus.test.ts` runs its corpus pass at
+     MODULE SCOPE. No `it` timeout covers it, an exception inside it
+     surfaces as a module load error rather than a test failure, and
+     `bun test -t` on any single test in the file still pays the whole
+     cost. `registry.order.corpus.test.ts` states the rule this breaks
+     at its own lines 965-971. The fix is the lazily-awaited cached
+     promise that file already uses.
+   - `registry.order.corpus.test.ts:1412` runs `expect` inside a triple
+     loop — every value, every FIELD rule, every one of 32,512 entries.
+     That single loop is roughly 95% of the corpus tier's 1,090,256
+     matcher calls, and on failure it reports `true !== false` with no
+     rule id, rid or value. Collecting offenders and asserting an empty
+     list once, as the `orphaned` array at line 1263 already does in
+     the same file, is both faster and legible. Note that doing it
+     changes the tier's expect() total by about a million, so re-baseline
+     the figure this document quotes when it happens.
+
+6. **Rewriting file references in dated batch reports has a failure
+   mode**, found the hard way in this change.
+   `docs/v2/transform-batch-3a.md` §1233 recorded that a brief had named
+   a NONEXISTENT file, `rules/gershayim.corpus.test.ts`, when the real
+   one was `rules/gershayim.test.ts`. The mechanical rewrite turned the
+   second into the first and left a sentence naming one path twice. The
+   two names have genuinely swapped, and the passage now says so rather
+   than pretending otherwise. Two other lines in that report claimed the
+   corpus tier runs under `bun qa`, which this change made false; both
+   are corrected in place with the date.
+
 ## 6. Writing a new corpus test
 
 - Name it `*.corpus.test.ts`. The guard fails the build if you do not.
