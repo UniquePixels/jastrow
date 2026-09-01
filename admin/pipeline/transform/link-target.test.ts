@@ -2087,6 +2087,26 @@ it('case 9 refuses a dot standing on an otherwise-bare letter', () => {
 	]);
 });
 
+/** CLAUSE 5 IS SCOPED TO THE DOTS THE CLAIM ADDED, and this is the
+ * corpus case that found it. `A01312`'s `אִישֹׁון` carries a shin dot
+ * on a letter whose only vowel is the holam of the FOLLOWING mater vav
+ * — ordinary Hebrew, and 
+ * the holam rule's repair of it adds no dot at all. A clause stated
+ * over every dot in the target refuses that repair for a mark it never
+ * wrote. */
+it('case 9 licenses a repair past a dot the input already carried', () => {
+	const from = 'Jastrow, אִישֹׁון 1';
+	const to = 'Jastrow, אִישׁוֹן 1';
+	expect(
+		checkLinkTargets(
+			pointedIn(from),
+			pointedIn(to),
+			{ pointed: pointPair(from, to) },
+			HOLAM_RULE,
+		),
+	).toEqual([]);
+});
+
 /** `adds` IS NOT A GENERAL VOWEL ALLOWANCE. Restoring elided pointing
  * is what [[project_no_vowel_inference]] rules out, so the case admits
  * the two dots that identify a LETTER and nothing else. */

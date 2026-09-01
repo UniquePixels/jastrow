@@ -8,7 +8,7 @@ import { repairedEntries } from '../transform/rules/corpus-fixture.ts';
  * `docs/specs/2026-08-28-structural-repairs-design.md` §2.3).
  *
  * `no-lost-text.ts` runs for `structural-repairs` rules only. The
- * reason is here: **11 of the rules in `RULES` delete text**, 4,510
+ * reason is here: **12 of the rules in `RULES` delete text**, 4,523
  * codepoints between them over the 32,512 entries, and turning the
  * gate on globally would mean retrofitting a `removes` declaration
  * onto ten shipped rules in the PR that introduced the gate. (Ten
@@ -20,7 +20,7 @@ import { repairedEntries } from '../transform/rules/corpus-fixture.ts';
  * damaged tag's own bytes.
  *
  * So this file states the boundary instead of implying coverage, the
- * doctrine `link-target.ts`'s blind-spot list established. A TWELFTH
+ * doctrine `link-target.ts`'s blind-spot list established. A THIRTEENTH
  * deleting rule, or an existing one deleting more, fails here — with
  * the rule's name and both counts — rather than passing unremarked
  * because no gate was watching.
@@ -49,6 +49,17 @@ const BASELINE: [string, number, number][] = [
 	// this file exists — a new deleting rule should have to be written
 	// down, including by the batch that adds the gate.
 	['asterisk-stem-label', 3, 6],
+	// THE TWELFTH, batch 10's. `impossibleDagesh` DELETES NOTHING a
+	// reader would call deleted: it swaps ר for ד and ח for ה, and a
+	// codepoint multiset reads a substitution as one deletion plus one
+	// addition. 13 swaps across 12 entries, so 13 codepoints.
+	//
+	// Its three batch-10 siblings are absent from this list and that is
+	// worth as much as its presence. `holamMaterMigration` MOVES a mark,
+	// so the multiset is identical on both sides — this file is the
+	// independent confirmation of the claim its own module doc makes —
+	// and `shinSinDotRestore` and `vkhGereshRestore` only ever add.
+	['impossible-dagesh', 12, 13],
 ];
 
 interface Tally {
@@ -120,7 +131,7 @@ const measured = (): Promise<Map<string, Tally>> => {
 	return pending;
 };
 
-it('finds exactly the eleven text-repairs rules that delete text', async () => {
+it('finds exactly the twelve text-repairs rules that delete text', async () => {
 	const report = await measured();
 	expect([...report.keys()].sort()).toEqual(BASELINE.map(([id]) => id).sort());
 }, 900_000);
@@ -135,11 +146,11 @@ it('holds each of them at its measured deletion', async () => {
 });
 
 // The number the spec quotes, asserted rather than left as prose.
-it('totals 4,510 deleted codepoints', async () => {
+it('totals 4,523 deleted codepoints', async () => {
 	const report = await measured();
 	let total = 0;
 	for (const tally of report.values()) {
 		total += tally.chars;
 	}
-	expect(total).toBe(4510);
+	expect(total).toBe(4523);
 });

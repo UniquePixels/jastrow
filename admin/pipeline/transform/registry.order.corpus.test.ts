@@ -217,6 +217,12 @@ const RETARGET = new Set([
  * `href` or `data-ref` anywhere in 32,512 entries. */
 const NEITHER = new Set([
 	'anchor-italic-no-space',
+	// Batch 10. `impossibleDagesh` swaps the letter under a dagesh that
+	// cannot be there; measured, 0 of its 19 candidates sit inside a tag
+	// and 0 in a headword, so it writes no target and removes no anchor.
+	// `FIELD` is not open to it — it edits definitions, which are full
+	// of tags.
+	'impossible-dagesh',
 	// Batch 6b's structural rule. It edits a `definition` — so `FIELD`,
 	// whose members' fields never hold a tag, is not open to it — and it
 	// removes no anchor and writes no target, which is what this set
@@ -238,6 +244,10 @@ const NEITHER = new Set([
 	// corpus pass below earns. `FIELD` is not open to it for the same
 	// reason as both phase-mates: the field it trims is full of tags.
 	'trailing-em-dash-tail',
+	// Batch 10's other target-free rule. `vkhGereshRestore` mints one
+	// geresh after a bare `וכ`; measured, 0 of its 11 sit inside a tag
+	// and 0 in a headword.
+	'vkh-geresh-loss',
 	// Batch 7's minting rule, and the fourth member from the structural
 	// phase. It writes ONE period before a section head and touches
 	// nothing else — no anchor removed, no `href` or `data-ref` written,
@@ -423,6 +433,30 @@ const CORROBORATE = new Set(['tosefta-variant-chapter-halakha-loss']);
 const VOUCH = new Set(['v-sub-redirect-stub-mislink']);
 
 /**
+ * Rules that repair a link target's POINTING and nothing else —
+ * link-target gate case 9, batch 10. A TENTH class, on the reasoning
+ * that made `VOUCH` a ninth: a differently-shaped declaration earns its
+ * own set rather than stretching a neighbouring one.
+ *
+ * `NEITHER` is false of them — they write a target. `RETARGET` is false
+ * too, and here the call is not close at all: a retarget adopts a
+ * NEIGHBOURING anchor's whole target, while these two rewrite the
+ * anchor's OWN, leaving its consonants byte-identical and moving or
+ * adding a mark.
+ *
+ * **EXEMPT FROM RULE 1, on `GLYPH` and `RESTORE`'s reasoning.** Rule 1
+ * guards against an unlink rule deleting the ANTECEDENT a later rule
+ * reads. These read no neighbour: the repair is a function of the
+ * target's own bytes, so an unlink that removed some other anchor
+ * changes nothing about what they write.
+ *
+ * Membership is EARNED exactly as the four sets above earn theirs: case
+ * 9 licenses such a target only against a `pointed` declaration, so a
+ * rule that writes one and does not declare it is refused by `run.ts`
+ * rather than quietly classified here. */
+const POINT = new Set(['holam-migrated-off-mater-vav', 'shin-sin-dot-drop']);
+
+/**
  * Rules whose object is a FIELD THAT NEVER CARRIES MARKUP — batch 5's
  * headword family, and a seventh class rather than four more members of
  * `NEITHER`.
@@ -470,8 +504,8 @@ const FIELD = new Set([
 	'phrase-alt-headword-stub',
 ]);
 
-/** The nine classifications, named ONCE. Both halves of the
- * classification test read this, so a tenth class added to one half
+/** The ten classifications, named ONCE. Both halves of the
+ * classification test read this, so an eleventh class added to one half
  * and forgotten in the other is not a thing that can happen. */
 const CLASSES: ReadonlySet<string>[] = [
 	UNLINK,
@@ -483,6 +517,7 @@ const CLASSES: ReadonlySet<string>[] = [
 	RESTORE,
 	WRAP,
 	VOUCH,
+	POINT,
 ];
 
 const ids = RULES.map((rule) => rule.id);
@@ -1162,6 +1197,9 @@ function scan(): Promise<void> {
 				if ((out.vouched ?? []).length > 0) {
 					kinds.add('vouched');
 				}
+				if ((out.pointed ?? []).length > 0) {
+					kinds.add('pointed');
+				}
 				if (
 					(NEITHER.has(rule.id) || WRAP.has(rule.id)) &&
 					targetsOf(out.entry) !== before
@@ -1396,6 +1434,17 @@ describe('the classification is earned, not declared', () => {
 	it('exactly the VOUCH rules ever vouch a target from another entry', async () => {
 		await scan();
 		expect(everDeclared('vouched')).toEqual([...VOUCH].toSorted(byId));
+	}, 180_000);
+
+	// `POINT` earned on the same mechanism as the four above it. Case 9's
+	// residue claim — one reachable pair on the move arm, zero on the add
+	// arm — is a claim about the rules that declare it, so a third rule
+	// declaring `pointed` corpus-wide fails HERE. `POINT_DECLARERS`
+	// (link-target.ts) throws in `run.ts` before this set is compared, so
+	// this assertion names the drift and the allowlist stops it.
+	it('exactly the POINT rules ever repair a target’s pointing', async () => {
+		await scan();
+		expect(everDeclared('pointed')).toEqual([...POINT].toSorted(byId));
 	}, 180_000);
 
 	it('no NEITHER or WRAP rule removes an anchor or moves a target', async () => {

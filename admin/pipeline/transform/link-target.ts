@@ -1469,17 +1469,37 @@ function pointFault(
 	) {
 		return `${lead} repoints ${JSON.stringify(claim.from)} beyond the holam fold`;
 	}
-	return bareDotFault(claim.target, lead) ?? spellingFault(value, claim, lead);
+	return (
+		bareDotFault(claim.from, claim.target, lead) ??
+		spellingFault(value, claim, lead)
+	);
 }
 
-/** Whether some shin or sin dot in `target` stands on a letter carrying
- * nothing else — clause 5's last test, and the one that takes the add
- * arm's residue from 2 reachable targets to 0. */
-function bareDotFault(target: string, lead: string): string | undefined {
-	const bare = (target.match(POINTED_LETTER) ?? []).some(
-		(letter) =>
-			LETTER_DOT.test(letter) && !VOWEL_OR_DAGESH.test(letter.slice(1)),
-	);
+/** Whether the claim stood a NEW dot on a letter carrying nothing else
+ * — clause 5's last test, and the one that takes the add arm's residue
+ * from 2 reachable targets to 0.
+ *
+ * SCOPED TO THE DOTS THE CLAIM ADDED, and the scope is not tidiness.
+ * Stated over every dot in `target` it refuses `Jastrow, אִישׁוֹן 1`,
+ * where the shin dot sits on a letter whose only vowel is the holam of
+ * the FOLLOWING mater vav — ordinary Hebrew, and a mark the repair
+ * under judgement did not write. Found by the corpus, not by reading.
+ *
+ * Clause 3 has already settled that `from` and `target` spell the same
+ * letters, so the two walks align index for index and a gained dot is
+ * one this claim is answerable for. */
+function bareDotFault(
+	from: string,
+	target: string,
+	lead: string,
+): string | undefined {
+	const was = from.match(POINTED_LETTER) ?? [];
+	const now = target.match(POINTED_LETTER) ?? [];
+	const bare = now.some((letter, at) => {
+		const marks = letter.slice(1);
+		const gained = LETTER_DOT.test(marks) && !LETTER_DOT.test(was[at] ?? '');
+		return gained && !VOWEL_OR_DAGESH.test(marks);
+	});
 	return bare
 		? `${lead} stands a dot on a letter carrying no vowel`
 		: undefined;
