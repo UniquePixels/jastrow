@@ -179,12 +179,55 @@ asked with a number that meant nothing. See
 only when the predicate is stated, and a predicate that cannot fire is
 the easiest kind to miss.
 
+## 5a. The edge no one could have read
+
+The commutation gate reported an undeclared non-commuting pair before
+the PR existed:
+
+```text
+v-sub-redirect-stub-mislink × holam-migrated-off-mater-vav @ S01645
+```
+
+Nothing in the catalogue connected the two rows, neither module mentions
+the other, and no amount of reading either would have found it. The
+mechanism:
+
+```text
+S01645  ", v. sub <a data-ref="Jastrow, קוּסְדֹּור 1">קִיסְ׳</a>."
+                                    ^^^^^^^^^^^^ carries the migrated holam
+```
+
+`vSubRedirectTwin`'s frozen 50-row table is keyed on the anchor's EXACT
+current target. Run the holam rule first and that key stops matching:
+batch 9's retarget is silently lost, and every per-rule count still
+reads normal.
+
+**The transferable form: a table keyed on damaged bytes is disabled by
+any rule that repairs them.** Batch 9's own registry note calls that key
+fail-closed, and it is — but fail-closed here means a correct repair
+does not happen, not that a wrong one is prevented. Any later batch that
+freezes a table against current corpus bytes inherits this.
+
+The pair is now declared `entangledWith` in `patterns.jsonl`, which puts
+it under rule 2's gap-free-span requirement — so
+`holamMaterMigration` sits directly below `vSubRedirectTwin`, and the
+batch-10 block is ordered around that rather than around the
+letters-before-points preference it was first written with (measured
+free: neither point rule can create or destroy a dagesh). Adjacency is
+direction-blind, so `registry.order.corpus.test.ts` pins the direction
+separately — the FOURTH such pin, and the third the commutation gate
+found.
+
+Pinned constants that moved with it: clusters **7 → 8**, cross-phase
+pairs **294 → 322** (46 text rules × 7 structural).
+
 ## 6. What the gates gained
 
 | Gate | Change |
 |---|---|
 | `link-target.ts` | case 9, `POINT_DECLARERS`, 12 unit tests |
-| `registry.order.corpus.test.ts` | a TENTH class, `POINT`, earned like `VOUCH` |
+| `registry.order.corpus.test.ts` | a TENTH class, `POINT`; two new direction pins; clusters 7 → 8 |
+| `commutation.corpus.test.ts` | cross-phase pairs 294 → 322 |
 | `deletion-baseline.corpus.test.ts` | a TWELFTH row; total 4,510 → **4,523** |
 | `holam-mater.corpus.test.ts` | 6 assertions, incl. the exception re-derived |
 | `shin-sin.corpus.test.ts` | 4, incl. all 23 frozen rows rebuilt |

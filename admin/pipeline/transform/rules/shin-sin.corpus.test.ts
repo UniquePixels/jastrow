@@ -117,9 +117,13 @@ it(
 );
 
 /** §3. THE COMPARATOR: a shin that carries a vowel or a dagesh. 102
- * bare against 32,014 dotted, 99.68%. The raw population — which mixes
- * in the proclitic ש־, dotted about half the time — is 1,269 and must
- * never be reported. */
+ * bare against 32,014 dotted, 99.68%.
+ *
+ * ASSERTED HERE AND NOWHERE ELSE, because a count that mixed
+ * comparators would be meaningless rather than merely large. A shin in
+ * the PROCLITIC position — the relative ש־ before a pointed word —
+ * carries no dot most of the time, and that is free variation, not
+ * damage. Any figure that pools the two says nothing about either. */
 it(
 	'measures 102 bare against 32,014 dotted at the pointed comparator',
 	async () => {
@@ -156,9 +160,7 @@ it(
 it(
 	'repairs 26 of 64 reader-visible occurrences and leaves 38 witnessed by nothing',
 	async () => {
-		const count = async (
-			entries: readonly { rid: string }[],
-		): Promise<number> => {
+		const count = (entries: readonly { rid: string }[]): number => {
 			let bare = 0;
 			for (const entry of entries) {
 				for (const field of fieldsOf(entry as never)) {
@@ -172,8 +174,8 @@ it(
 			}
 			return bare;
 		};
-		expect(await count(await repairedEntries())).toBe(64);
-		expect(await count(await composedEntries())).toBe(38);
+		expect(count(await repairedEntries())).toBe(64);
+		expect(count(await composedEntries())).toBe(38);
 	},
 	TIMEOUT,
 );

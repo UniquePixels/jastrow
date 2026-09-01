@@ -1012,16 +1012,6 @@ const RULES: readonly Rule[] = [
 	// the text one of them might still change. Running them earlier would
 	// make their measured populations claims about a stage no rule
 	// actually receives.
-	//
-	// LETTERS BEFORE POINTS, and that is the order within the block. A
-	// corrected letter changes the word a point rule matches; a moved or
-	// restored point never changes a letter. So a glyph correction that
-	// ran second could invalidate a lookup that had already succeeded,
-	// and one that runs first cannot. Measured, the two directions differ
-	// on 0 entries today — the direction is registered because it is the
-	// fail-closed one, not because the corpus currently exercises it, and
-	// `registry.order.corpus.test.ts` pins it.
-	impossibleDagesh,
 
 	// `holam-migrated-off-mater-vav`, 1,007 occurrences / 457 entries.
 	// The largest population any single batch-10 rule takes, and the only
@@ -1030,13 +1020,25 @@ const RULES: readonly Rule[] = [
 	// gate returns clean whatever the rule does. Its safety lives in
 	// `link-target.ts` case 9 and in `holam-mater.corpus.test.ts`.
 	//
-	// ABOVE `shinSinDotRestore` BECAUSE THE TWIN TABLE IS KEYED ON EXACT
-	// BYTES. A table key holding a migrated holam would be matched
-	// against text this rule has already canonicalised, and would never
-	// fire. None of the 23 keys holds one today — `shin-sin.corpus.
-	// test.ts` re-derives the table at this rule's OWN output stage, so
-	// the day one does, the table is rebuilt rather than silently
-	// missing.
+	// IT SITS DIRECTLY BELOW `vSubRedirectTwin` BECAUSE THE TWO ARE
+	// ENTANGLED, AND THE COMMUTATION GATE IS WHAT FOUND IT — nothing in
+	// the catalogue connected the two rows, and no amount of reading
+	// either module would have. `v-sub-redirect-stub-mislink ×
+	// holam-migrated-off-mater-vav @ S01645`:
+	//
+	//   S01645's stub reads `, v. sub <a data-ref="Jastrow, קוּסְדֹּור 1">`
+	//   and `קוּסְדֹּור` CARRIES THE DEFECT. `vSubRedirectTwin`'s frozen
+	//   table is keyed on that exact target string, so run this rule first
+	//   and the key no longer matches: the retarget is silently lost, and
+	//   every per-rule count still reads normal.
+	//
+	// The pair is now declared `entangledWith` in `patterns.jsonl`, so
+	// rule 2 requires them adjacent — and adjacency is DIRECTION-BLIND,
+	// which is why `registry.order.corpus.test.ts` also pins the
+	// direction. The general lesson is batch 9's rule looking back at
+	// itself: A TABLE KEYED ON DAMAGED BYTES IS DISABLED BY ANY RULE THAT
+	// REPAIRS THEM, and fail-closed here means a correct repair is lost
+	// rather than a wrong one made.
 	holamMaterMigration,
 
 	// `shin-sin-dot-drop`, 52 of 102 — every occurrence whose dotted
@@ -1044,12 +1046,31 @@ const RULES: readonly Rule[] = [
 	// row: restoring a dot with no witness means CHOOSING between שׁ and
 	// שׂ, which is the reconstruction [[project_no_vowel_inference]]
 	// rules out.
+	//
+	// BELOW `holamMaterMigration` BECAUSE THE TWIN TABLE IS KEYED ON
+	// EXACT BYTES — the same hazard one line up, one rule later. A table
+	// key holding a migrated holam would be matched against text that
+	// rule has already canonicalised and would never fire. None of the 23
+	// keys holds one today; `shin-sin.corpus.test.ts` re-derives the
+	// table from the snapshot, so the day one does, the table is rebuilt
+	// rather than silently missing.
 	shinSinDotRestore,
+
+	// `impossible-dagesh`, 13 of 19 — the forte and mappiq arms, where
+	// the mark announces its own correction. It swaps a LETTER, and the
+	// two rules above swap or add a MARK, so on the face of it letters
+	// should come first. Measured, the direction is free: neither point
+	// rule can create or destroy a dagesh, and none of the 23 twin keys
+	// nor any migrated-holam context holds a ר or ח carrying one. The
+	// entanglement above is what fixes the position — `holamMaterMigration`
+	// must touch `vSubRedirectTwin`, and a gap-free span leaves nowhere
+	// else for this rule to go.
+	impossibleDagesh,
 
 	// `vkh-geresh-loss`, 11 of 11 against a null model of 17,254. It
 	// touches no link target and no headword, so it needs neither case 9
 	// nor an exception table, and it is entangled with nothing above it:
-	// the two letters it matches carry no point, so neither point rule
+	// the two letters it matches carry no point, so no rule in this block
 	// can create or destroy one of its members.
 	vkhGereshRestore,
 

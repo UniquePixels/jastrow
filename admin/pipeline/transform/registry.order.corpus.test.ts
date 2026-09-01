@@ -700,6 +700,37 @@ describe('registry order', () => {
 		);
 	});
 
+	// THE FOURTH DIRECTION PIN, and the third the commutation gate found
+	// before anything shipped — `v-sub-redirect-stub-mislink ×
+	// holam-migrated-off-mater-vav @ S01645`. Nothing in the catalogue
+	// connected the two rows and no amount of reading either module
+	// would have.
+	//
+	// `S01645`'s stub points at `Jastrow, קוּסְדֹּור 1`, and that target
+	// CARRIES the migrated holam. `vSubRedirectTwin`'s frozen table is
+	// keyed on the exact current target, so with the holam rule first
+	// the key no longer matches and the retarget is silently lost —
+	// while every per-rule count still reads normal.
+	//
+	// The pair is declared `entangledWith`, so rule 2 requires them
+	// adjacent, and adjacency is direction-blind. This is what holds the
+	// direction.
+	it('vSubRedirectTwin runs STRICTLY BEFORE holamMaterMigration', () => {
+		expect(at('v-sub-redirect-stub-mislink')).toBeLessThan(
+			at('holam-migrated-off-mater-vav'),
+		);
+	});
+
+	// The batch-10 block's own internal direction, for the same hazard
+	// one rule later: `shinSinDotRestore`'s twin table is keyed on exact
+	// bytes, so it must read text whose holams the rule above has
+	// already canonicalised.
+	it('holamMaterMigration runs STRICTLY BEFORE shinSinDotRestore', () => {
+		expect(at('holam-migrated-off-mater-vav')).toBeLessThan(
+			at('shin-sin-dot-drop'),
+		);
+	});
+
 	// Rule 4, UNLINK BEFORE WRAP — see the header for why. Asserted
 	// over the whole of BOTH sets, never over the ids that happen to be
 	// in them today: `at()` throws on an unregistered id, `CLASSES`
@@ -826,6 +857,27 @@ describe('registry order', () => {
 			// requirement — pinned in `rules/headword.corpus.test.ts` in
 			// the shape of the disagreement rather than as the winning
 			// order, so a reorder fails with the reason attached.
+			// SEVEN became EIGHT at batch 10, and this one arrived by the
+			// same route as the two batch-7 pairs: the edge was NEVER IN
+			// THE CATALOGUE, and the commutation gate reported it as
+			// `v-sub-redirect-stub-mislink × holam-migrated-off-mater-vav
+			// @ S01645` before the batch's PR existed. Neither module
+			// mentions the other and no amount of reading them would have
+			// found it.
+			//
+			// `S01645`'s stub points at `Jastrow, קוּסְדֹּור 1`, and that
+			// target CARRIES the migrated holam. `vSubRedirectTwin`'s
+			// frozen table is keyed on the exact current target, so with
+			// the holam rule first the key stops matching and the retarget
+			// is silently lost — while every per-rule count still reads
+			// normal. Its direction is pinned separately above.
+			//
+			// The transferable form is worth keeping: A TABLE KEYED ON
+			// DAMAGED BYTES IS DISABLED BY ANY RULE THAT REPAIRS THEM.
+			// Batch 9 called that table's key fail-closed and it is — but
+			// fail-closed here loses a correct repair rather than
+			// preventing a wrong one.
+			['holam-migrated-off-mater-vav', 'v-sub-redirect-stub-mislink'],
 			['parenthesized-alt-headword', 'phrase-alt-headword-stub'],
 		]);
 	});
@@ -836,7 +888,7 @@ describe('registry order', () => {
 	// there being no clusters at all.
 	it('every derived cluster occupies a gap-free span', () => {
 		const clusters = entangledClusters(catalogue, RULES);
-		expect(clusters).toHaveLength(7);
+		expect(clusters).toHaveLength(8);
 		for (const cluster of clusters) {
 			const span = Math.max(...cluster.at) - Math.min(...cluster.at) + 1;
 			expect(`${cluster.ids.join(', ')} span ${span}`).toBe(
