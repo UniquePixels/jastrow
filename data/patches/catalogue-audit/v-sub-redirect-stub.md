@@ -102,9 +102,9 @@ what the row said and what this pass finally measured.
 
 ## Recommendation
 
-**Re-scope to 50 and ship a retarget rule**, subject to the same
-condition as `containment-fallback.md`: all 50 read individually
-before shipping, as the row's own sample was. The 73 ambiguous and 9
+**Re-scope to 50 and ship a retarget rule.** Brian ruled 2026-08-31 to
+ship it, conditioned on reading the 50 first; that pass is done and
+**all 50 confirm** (see below). The 73 ambiguous and 9
 unresolved join the Phase 4 linker item with the rest of batch 9.
 
 Two open items:
@@ -166,3 +166,33 @@ belongs to this row alone.**
 `scratchpad/batch-9/vsub4.ts` — prefix AND twin, the 53 before
 final-form normalization.
 `scratchpad/batch-9/vsub5.ts` — the same with normalization, the 50.
+
+## ALL 50 READ — 50 CONFIRM
+
+Every one is the same shape, with no exceptions and nothing ambiguous:
+
+- the entry is a whole-entry **STUB** whose only definition is
+  `, v. sub <abbrev>.`
+- the host headword is a plene/defective spelling variant
+- the proposed target is the spelling twin whose skeleton begins with
+  the abbreviated consonants
+- the current target is an unrelated lemma that merely starts nearby
+
+```text
+נִדּוּי     v. sub נִידּ׳   was נִדְבַּךְ I     -> נִידּוּי    N00624
+נִיצְבָא   v. sub נִצְ׳    was נִיצּוּחַ      -> נִצְבָּא     N01099
+קִבּוּץ     v. sub קִיבּ׳   was קְבל IV       -> קִיבּוּץ    S00854
+צִנוֹק     v. sub צִינ׳    was סִנַּבְרַאי    -> צִינוֹק     R00391
+שִׁפּוּל    v. sub שִׁיפּ׳   was שִׁופּוּט     -> שִׁיפּוּל    U01015
+```
+
+**ONE SHAPE THE ROW DID NOT NAME.** `O00864 סִיתְוָא, v. sub סִתְוָ׳`
+currently points at **`סִיתְוָא` — the host itself**. That is a
+self-link, not the "unrelated lemma" the row describes; a stub whose
+whole content is a pointer to itself tells the reader nothing. The
+repair is the same and the target (`סִתְוָא` O01684) is correct, so it
+stays in scope, but the rule's own documentation should say that the
+population includes one self-link rather than claiming every current
+target is unrelated.
+
+**The rule's population is 50.**

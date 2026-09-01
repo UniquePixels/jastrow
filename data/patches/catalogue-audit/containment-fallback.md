@@ -107,9 +107,9 @@ null model is strong in both predicates.
 
 Before writing one, two things must be settled:
 
-1. **Which are defect — now answered mechanically above: 20 of 65.**
-   The 20 still want reading one by one before shipping, but that is
-   confirmation of a derived set, not the open question it was.
+1. **Which are defect — answered, and then CONFIRMED BY READING: 18.**
+   The mechanical split gave 20 of 65; all 20 were then read in
+   context and **two do not survive**, so the rule ships **18**.
 2. **Sequencing with `geresh-abbrev-fixed-sink` — now answered: there
    is nothing to sequence.** That row's predicate requires a geresh
    abbreviation and this census excludes geresh displays outright, so
@@ -124,3 +124,37 @@ Before writing one, two things must be settled:
 `scratchpad/batch-9/ingad.ts` — the two sinks probed directly.
 `scratchpad/batch-9/contain.ts`, `contain2.ts` — the two failed
 predicates, kept because they document the artifacts.
+
+## ALL 20 READ — 18 CONFIRM, 2 EXCLUDED
+
+Brian ruled 2026-08-31 to ship both of batch 9's rules, and this is
+the confirmation pass that ruling was conditioned on.
+
+| Group | N | Verdict |
+|---|---:|---|
+| `נגד -> אִינְגַּד` | 11 | defect |
+| `נִימוֹס -> אַבְנִימוֹס` | 5 | defect |
+| `פַּלְיוֹן -> אַפַּלְיוֹן` (A02690) | 1 | defect |
+| `גַּבְיָא -> מַגַּבְיָא` (C00074) | 1 | defect |
+| `גביא -> מַגַּבְיָא` (M00108) | 1 | **excluded — ambiguous** |
+| `קנתור -> (קנתור)` (S01557) | 1 | **excluded — malformed target** |
+
+Every one of the 11 `נגד` contexts is etymological and none is about
+drawing or pulling in the `אִינְגַּד` sense: `(√גד, v. נגד a. גדל)`,
+`(נגד)`, `forms of גדד a. נגד`, `with נגד or כלפי`,
+`לעמת, מול, נגד, נכח`. `נָגַד` / `נְגַד` / `נֶגֶד` all exist as
+entries. The 5 `נִימוֹס` contexts are all about *nomos* the law —
+`law, v. נִימוֹס`, `cmp. נִימוֹס for νόμος`, `the gentile's nomos` —
+never the proper name Oenomaus.
+
+**M00108 is excluded because the reading changes it.** Its display
+`גביא` is an EDITION'S VARIANT of the host headword — the context is
+`מתקל זוזא מ׳ ג׳ Ar. (ed. גביא, Ms. M. only מגבי)` — so an anchor from
+the variant to the host lemma `מַגַּבְיָא` is defensible rather than a
+mislink. The mechanical test cannot see that; only the context can.
+
+**S01557 is excluded as out of scope**: its target is the literal
+string `(קנתור)`, parentheses included. That is a malformed target and
+belongs to whichever row owns those, not to a containment repair.
+
+**The rule's population is 18.**
