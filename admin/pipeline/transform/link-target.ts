@@ -1315,10 +1315,19 @@ function vouchFault(
 	if (parts === null || parts[1] !== claim.headword) {
 		return `${lead} does not name ${JSON.stringify(claim.headword)}`;
 	}
-	if (!GERESH_END.test(claim.display)) {
+	// TRIMMED FOR THE LINGUISTIC CLAUSES, VERBATIM FOR CLAUSE 4. The two
+	// ask different questions. Clause 4 asks whether the ENTRY SHOWED
+	// this display, so it must compare against `links.ts`'s `displayOf`
+	// byte for byte, and that function does not trim. Clauses 2 and 3
+	// ask whether the display ABBREVIATES the headword, which is a fact
+	// about the letters and not the whitespace around them. Testing the
+	// geresh on the untrimmed value refused a correct repair whose
+	// anchor text merely carried a leading space.
+	const display = claim.display.trim();
+	if (!GERESH_END.test(display)) {
 		return `${lead} cites ${JSON.stringify(claim.display)}, which is not a geresh abbreviation`;
 	}
-	const abbreviation = skeletonOf(claim.display);
+	const abbreviation = skeletonOf(display);
 	if (
 		abbreviation === '' ||
 		!skeletonOf(claim.headword).startsWith(abbreviation)

@@ -124,25 +124,78 @@ const BY_RID = new Map(
 );
 
 /** Hoisted to module scope for `useTopLevelRegex`, as
- * `headword-census.ts` hoists its own. NONE carries `g`: a `g`-flagged
- * literal shared across calls keeps `lastIndex` between `.exec()`s and
- * would return alternating answers for one input. */
-const TARGET_INDEX = /\s(?<index>\d+)$/u;
-const HREF_ATTR = /href="(?<href>[^"]*)"/u;
-const ANCHOR_DISPLAY = /<a\b[^>]*>(?<display>.*?)<\/a>/u;
+ * `headword-census.ts` hoists its own. Only `OPEN_TAG` and `TAGS` carry
+ * `g`, and both are used with `matchAll`/`replace`, neither of which is
+ * stateful across calls the way a shared `.test()`/`.exec()` is. */
+const OPEN_TAG = /<a\b[^>]*>/gu;
+const HREF_ATTR = /href="[^"]*"/u;
 const TAGS = /<[^>]*>/gu;
+const CLOSE_TAG = '</a>';
 
-/** How far back from the `data-ref` the anchor's own `href` may sit.
- * The two are attributes of one opening tag, so a window this wide
- * cannot reach a neighbouring anchor's. */
-const TAG_WINDOW = 200;
+/** The sense index every written target carries.
+ *
+ * FIXED AT 1, NOT INHERITED. An earlier cut parsed it off the OLD
+ * target — the mislink being repaired — which carries the sense index
+ * of an unrelated entry and would write `Jastrow, <twin> 2` for a
+ * twin that may have one sense. Nothing would catch it: case 8's
+ * clause 1 accepts any positive integer and the corpus test checks the
+ * headword's existence, not the index's.
+ *
+ * 1 is what the corpus itself uses. Of the 50 twins, 38 are anchored
+ * somewhere else already, across **111 anchors, every one of them
+ * index 1** — and the 50 old targets are all ` 1` too, so this changes
+ * no written byte today and removes the way it could go wrong later. */
+const SENSE_INDEX = '1';
 
 /** Jastrow's own hrefs spell a self-link as `/Jastrow,_<headword>.<n>`,
  * verified against real anchors (`Jastrow, נִידּוּי 1` carries
  * `/Jastrow,_נִידּוּי.1`). Constructed rather than copied for the 12
  * targets nothing else in the corpus anchors. */
-function hrefFor(headword: string, n: string): string {
-	return `/Jastrow,_${headword}.${n}`;
+function hrefFor(headword: string): string {
+	return `/Jastrow,_${headword}.${SENSE_INDEX}`;
+}
+
+/** The opening tag carrying `refAttr`, with where it sits — or
+ * `undefined` when no anchor does.
+ *
+ * THE WHOLE POINT IS THAT THE REWRITE IS TAG-SCOPED. An earlier cut
+ * checked that the `data-ref` occurred once and then did three more
+ * positional lookups — a backward window for the `href`, a whole-string
+ * `.replace`, and a first-anchor `exec` for the display — each of which
+ * silently assumed the target anchor was the only one. With a
+ * preceding anchor sharing an href value, the `href` was written onto
+ * THAT anchor and the retargeted one kept a stale one. Working inside
+ * the located tag makes all three assumptions unnecessary rather than
+ * merely checked. */
+function tagCarrying(
+	text: string,
+	refAttr: string,
+): { end: number; start: number; tag: string } | undefined {
+	const match = [...text.matchAll(OPEN_TAG)].find((candidate) =>
+		candidate[0].includes(refAttr),
+	);
+	return match === undefined
+		? undefined
+		: {
+				end: match.index + match[0].length,
+				start: match.index,
+				tag: match[0],
+			};
+}
+
+/** The anchor's display as `links.ts` reports it: text tokens only,
+ * and **NOT trimmed**.
+ *
+ * The trim matters and its absence is deliberate. `displayOf`
+ * (`links.ts`) concatenates text tokens verbatim, and gate clause 4
+ * compares this rule's declared display against exactly those values.
+ * An earlier cut trimmed, so an anchor whose text carried surrounding
+ * whitespace declared a display the input provably held and was
+ * refused for it — a correct repair rejected on a whitespace
+ * difference between two sides of one contract. */
+function displayAfter(text: string, end: number): string {
+	const close = text.indexOf(CLOSE_TAG, end);
+	return text.slice(end, close === -1 ? text.length : close).replace(TAGS, '');
 }
 
 /** Rewrite the one `v. sub` anchor's two attributes in `text`, or
@@ -154,23 +207,29 @@ function retarget(
 	text: string,
 	was: string,
 	headword: string,
-): { detail: string; target: string; written: string } | undefined {
+):
+	| { detail: string; display: string; target: string; written: string }
+	| undefined {
 	const refAttr = `data-ref="${was}"`;
 	if (text.split(refAttr).length !== 2) {
 		return;
 	}
-	const n = TARGET_INDEX.exec(was)?.groups?.['index'] ?? '1';
-	const target = `Jastrow, ${headword} ${n}`;
-	const at = text.indexOf(refAttr);
-	const hrefAttr = HREF_ATTR.exec(text.slice(Math.max(0, at - TAG_WINDOW), at))
-		?.groups?.['href'];
-	if (hrefAttr === undefined) {
+	const found = tagCarrying(text, refAttr);
+	if (found === undefined || !HREF_ATTR.test(found.tag)) {
 		return;
 	}
-	const written = text
+	const target = `Jastrow, ${headword} ${SENSE_INDEX}`;
+	// Both replacements are scoped to the one located tag, where each
+	// attribute occurs exactly once.
+	const rewritten = found.tag
 		.replace(refAttr, `data-ref="${target}"`)
-		.replace(`href="${hrefAttr}"`, `href="${hrefFor(headword, n)}"`);
-	return { detail: `${was} -> ${target}`, target, written };
+		.replace(HREF_ATTR, `href="${hrefFor(headword)}"`);
+	return {
+		detail: `${was} -> ${target}`,
+		display: displayAfter(text, found.end),
+		target,
+		written: text.slice(0, found.start) + rewritten + text.slice(found.end),
+	};
 }
 
 /**
@@ -210,10 +269,7 @@ function apply(entry: SourceEntry): TransformResult {
 			ruleId: vSubRedirectTwin.id,
 		});
 		vouched.push({
-			display:
-				ANCHOR_DISPLAY.exec(done.written)
-					?.groups?.['display']?.replace(TAGS, '')
-					.trim() ?? '',
+			display: done.display,
 			headword: twin.headword,
 			rid: twin.twinRid,
 			target: done.target,

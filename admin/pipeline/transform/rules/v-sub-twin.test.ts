@@ -227,3 +227,92 @@ describe('link-target case 8', () => {
 		).toEqual([]);
 	});
 });
+
+/**
+ * One regression per finding from the pre-PR review of 2026-08-31, all
+ * four of them in this rule and three of them one root cause: `retarget`
+ * checked that the `data-ref` occurred once and then made three more
+ * positional assumptions it never checked.
+ *
+ * None was reachable on the corpus of the day — all 50 stubs are
+ * single-anchor with no duplicate hrefs and every old target ends in
+ * ` 1`, measured — so these fixtures are the only thing standing
+ * between the rewrite and a silent return of the same bugs.
+ */
+describe('review regressions', () => {
+	/** A stub preceded by an unrelated anchor that happens to share the
+	 * href value the target anchor carries. */
+	function twoAnchors(): SourceEntry {
+		return {
+			content: {
+				senses: [
+					{
+						definition: `<a dir="rtl" class="refLink" href="/Jastrow,_נִדְבַּךְ I.1" data-ref="Jastrow, אחר 1">x</a>, v. sub ${anchorWith(WAS, DISPLAY)}.`,
+					},
+				],
+			},
+			headword: HOST,
+			rid: 'N00217',
+		} as SourceEntry;
+	}
+
+	it('rewrites the anchor carrying the target, not the first one', () => {
+		const before = twoAnchors();
+		const after = vSubRedirectTwin.apply(before).entry;
+		const written = after.content.senses[0]?.definition ?? '';
+		// The bystander keeps BOTH its attributes, byte for byte.
+		expect(written).toContain(
+			'href="/Jastrow,_נִדְבַּךְ I.1" data-ref="Jastrow, אחר 1"',
+		);
+		// And the retargeted anchor gets both of its own.
+		expect(written).toContain(
+			`href="/Jastrow,_${TWIN}.1" data-ref="${TARGET}"`,
+		);
+	});
+
+	it('the two-anchor repair satisfies the gate', () => {
+		const before = twoAnchors();
+		const result = vSubRedirectTwin.apply(before);
+		expect(checkLinkTargets(before, result.entry, result, RULE_ID)).toEqual([]);
+	});
+
+	it('declares the display of the RETARGETED anchor', () => {
+		const result = vSubRedirectTwin.apply(twoAnchors());
+		// Not "x", which is the first anchor's.
+		expect(result.vouched?.[0]?.display).toBe(DISPLAY);
+	});
+
+	it('declares the display UNTRIMMED, as links.ts reports it', () => {
+		const padded = {
+			content: {
+				senses: [
+					{
+						definition: `, v. sub <a dir="rtl" class="refLink" href="/Jastrow,_נִדְבַּךְ I.1" data-ref="${WAS}"> ${DISPLAY} </a>.`,
+					},
+				],
+			},
+			headword: HOST,
+			rid: 'N00217',
+		} as SourceEntry;
+		const result = vSubRedirectTwin.apply(padded);
+		expect(result.vouched?.[0]?.display).toBe(` ${DISPLAY} `);
+		// And the gate licenses it: clause 4 compares verbatim, clauses
+		// 2 and 3 trim. Before the fix this was refused outright.
+		expect(checkLinkTargets(padded, result.entry, result, RULE_ID)).toEqual([]);
+	});
+
+	it('target and href carry the SAME sense index, and it is 1', () => {
+		// The index used to be parsed off the OLD target — the mislink
+		// being repaired — so it belonged to an unrelated entry. It is
+		// now the `SENSE_INDEX` constant, evidenced by the corpus: the
+		// 38 twins anchored elsewhere carry 111 anchors, every one at
+		// index 1. The behavioural guard over all 50 rows is in
+		// `v-sub-twin.corpus.test.ts`; this pins the pair agreeing,
+		// which is what the gate's clause 1 spelling check requires.
+		const written =
+			vSubRedirectTwin.apply(stubWith(WAS, DISPLAY, HOST)).entry.content
+				.senses[0]?.definition ?? '';
+		expect(written).toContain(`data-ref="Jastrow, ${TWIN} 1"`);
+		expect(written).toContain(`href="/Jastrow,_${TWIN}.1"`);
+	});
+});

@@ -55,18 +55,30 @@ nothing.
    `Jastrow, <headword>` optionally followed by ` <n>`, `n` a positive
    integer. Nothing else is admitted — no second work, no locus of any
    other shape.
-2. **The display abbreviates the headword.** `display` must end in a
-   geresh (`׳`, `'` or `’`), and its skeleton must be a **prefix** of
-   `headword`'s skeleton. Skeleton = combining points, homograph
-   superscripts, a leading `*`, a trailing roman numeral and the
-   geresh removed, and final letters folded to their medial forms.
+2. **The display abbreviates the headword.** `display`, **trimmed**,
+   must end in a geresh (`׳`, `'` or `’`), and its skeleton must be a
+   **prefix** of `headword`'s skeleton. Skeleton = combining points,
+   homograph superscripts, a leading `*`, a trailing roman numeral and
+   the geresh removed, and final letters folded to their medial forms.
+
+   **THE TRIM IS ONLY FOR THIS CLAUSE AND CLAUSE 3, AND CLAUSE 4 MUST
+   NOT HAVE IT.** The two ask different questions. Clauses 2 and 3 ask
+   whether the display ABBREVIATES the headword, which is a fact about
+   the letters; clause 4 asks whether the ENTRY SHOWED this display,
+   which must compare against `links.ts`'s `displayOf` byte for byte —
+   and that function concatenates text tokens without trimming. Getting
+   this backwards costs a correct repair: a first cut trimmed in the
+   rule and compared untrimmed in clause 4, and an anchor whose text
+   carried one leading space was refused for a display the input
+   provably held.
 3. **The headword is a spelling twin of the host.** `headword` and
    this entry's own headword must be **equal** once the matres
    lectionis `י` and `ו` are dropped from both skeletons. This is the
    clause that does the work — see §4.
 4. **`display` is an anchor display this entry's input actually
-   held**, matched like every other case by the claim's `target`
-   against the anchor that carries it.
+   held**, compared VERBATIM (see clause 2), and matched like every
+   other case by the claim's `target` against the anchor that carries
+   it.
 5. **The declaring rule is on the allowlist.** `VOUCH_DECLARERS`,
    today `v-sub-redirect-stub-mislink` alone.
 
@@ -173,6 +185,7 @@ contributes structure and not existence.
 | `vSubRedirectTwin` | new rule, phase `text-repairs`, 50 repairs |
 | Registry | row `v-sub-redirect-stub-mislink` leaves `PENDING` |
 | Corpus test | re-derives the 50 from the live snapshot |
+| Sense index | the written target's index is the constant `SENSE_INDEX`, never parsed off the mislink being repaired — evidenced by the 111 existing anchors to these twins, all at index 1 |
 
 ## 7. Verification
 
