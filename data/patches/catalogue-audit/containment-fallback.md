@@ -3,10 +3,11 @@
 **NOT YET RULED.** This records the measurement; the disposition below
 is a recommendation awaiting Brian.
 
-This is the one row in batch 9 that **retargets an existing anchor**
-rather than minting one, so the objection that sank the never-linked
-family — no gate can witness a minted work name — does not apply here.
-The target is an entry that already exists in this dictionary.
+This row **retargets an existing anchor** rather than minting one, so
+the objection that sank the never-linked family — no gate can witness
+a minted work name — does not apply here. The target is an entry that
+already exists in this dictionary. `v-sub-redirect-stub-mislink` is
+the other row in batch 9 with that property.
 
 ## The row
 
@@ -23,7 +24,8 @@ The target is an entry that already exists in this dictionary.
 
 ## The count differs from the row's, and the predicate is why
 
-The row measured **22**; this measures **60**. Per
+The row measured **22**; this measures **65** (60 before final-form
+normalization was added — see below). Per
 [[feedback_cap_artifact_agreement]], the number is evidence only with
 its predicate stated, so both are stated here.
 
@@ -34,8 +36,8 @@ its predicate stated, so both are stated here.
 The two agree closely on the rate the null model turns on — the row's
 `8,652 of 9,859 = 87.8%` resolve inside their own skeleton against this
 pass's **53,489 of 60,766 = 88.0%** — so containment routing is not the
-corpus's general behaviour on either predicate. Containment is 60 of
-60,766, one tenth of one percent.
+corpus's general behaviour on either predicate. Containment is 65 of
+60,766, one tenth of one percent, and only 20 of those are defect.
 
 ## A matcher artifact worth recording, because it is the third this batch
 
@@ -54,21 +56,6 @@ failed the same way for different reasons — see the vacuous ambient
 rate in `unlinked-v-span.md`, and the superscript `²` that made
 `צִינְּתָא ²` read as "longer than" `צינתא`. **Every one of the three
 returned a plausible number.**
-
-## Every sink, at the broader predicate
-
-```text
-13  אב      -> אַבָּא I
-11  נגד     -> אִינְגַּד
- 8  בית     -> בֵּיתָא I
- 5  נימוס   -> אַבְנִימוֹס
- 3  זוג     -> זוֹגָא
- 2  בורסי   -> בּוּרְסִים
- 2  גביא    -> מַגַּבְיָא
- 2  דמי     -> דָּמִין
- 2  לביא    -> לְבִיאָה
-    …16 further sinks at 1 each
-```
 
 ## Defect and convention separate MECHANICALLY, and the split recovers
 ## the row's own hand reading
@@ -132,7 +119,8 @@ Before writing one, two things must be settled:
 
 ## Reproduce
 
-`scratchpad/batch-9/contain3.ts` — the census above.
+`scratchpad/batch-9/contain3.ts` — the census.
+`scratchpad/batch-9/contain4.ts` — the prefixed/suffixed split.
 `scratchpad/batch-9/ingad.ts` — the two sinks probed directly.
 `scratchpad/batch-9/contain.ts`, `contain2.ts` — the two failed
 predicates, kept because they document the artifacts.
