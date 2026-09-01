@@ -1,4 +1,5 @@
 import type { SourceEntry } from '../../body/types.ts';
+import { stripTags } from '../no-new-text.ts';
 import type { Rule, TransformRecord, TransformResult } from '../types.ts';
 
 /**
@@ -124,12 +125,11 @@ const BY_RID = new Map(
 );
 
 /** Hoisted to module scope for `useTopLevelRegex`, as
- * `headword-census.ts` hoists its own. Only `OPEN_TAG` and `TAGS` carry
- * `g`, and both are used with `matchAll`/`replace`, neither of which is
- * stateful across calls the way a shared `.test()`/`.exec()` is. */
+ * `headword-census.ts` hoists its own. Only `OPEN_TAG` carries `g`, and
+ * it is used with `matchAll`, which is not stateful across calls the
+ * way a shared `.test()`/`.exec()` is. */
 const OPEN_TAG = /<a\b[^>]*>/gu;
 const HREF_ATTR = /href="[^"]*"/u;
-const TAGS = /<[^>]*>/gu;
 const CLOSE_TAG = '</a>';
 
 /** The sense index every written target carries.
@@ -186,6 +186,15 @@ function tagCarrying(
 /** The anchor's display as `links.ts` reports it: text tokens only,
  * and **NOT trimmed**.
  *
+ * `stripTags` rather than a hand-rolled `/<[^>]*>/g`, and the reason is
+ * twofold. It is the SAME OPERATION `displayOf` performs — both
+ * concatenate the tokenizer's text tokens — so this agrees with the
+ * value clause 4 compares against by construction rather than by
+ * coincidence. And a regex strip draws CodeQL's
+ * `js/incomplete-multi-character-sanitization` at HIGH, which is a
+ * required check; batch 8 hit it in two gates and the ruling then was
+ * to prefer the pipeline's own helper even in a test.
+ *
  * The trim matters and its absence is deliberate. `displayOf`
  * (`links.ts`) concatenates text tokens verbatim, and gate clause 4
  * compares this rule's declared display against exactly those values.
@@ -195,7 +204,7 @@ function tagCarrying(
  * difference between two sides of one contract. */
 function displayAfter(text: string, end: number): string {
 	const close = text.indexOf(CLOSE_TAG, end);
-	return text.slice(end, close === -1 ? text.length : close).replace(TAGS, '');
+	return stripTags(text.slice(end, close === -1 ? text.length : close));
 }
 
 /** Rewrite the one `v. sub` anchor's two attributes in `text`, or
