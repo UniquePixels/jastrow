@@ -1906,3 +1906,217 @@ it('case 7’s allowlist refusal is not escaped by a second claim', () => {
 		`corroborated "Tosefta Shabbat 16:6" is declared by "some-later-rule", which case 7's declarer allowlist does not admit`,
 	]);
 });
+
+// ======== CASE 9 — a target repaired at the point level ========
+//
+// Spec docs/specs/2026-09-01-link-target-gate-case-9.md. The two
+// batch-10 point rules rewrite 468 targets between them, and every
+// earlier case refuses them because a repaired target is by
+// construction a string the entry does not hold.
+
+/** `holam-migrated-off-mater-vav`, the move arm's declarer. */
+const HOLAM_RULE = 'holam-migrated-off-mater-vav';
+/** `shin-sin-dot-drop`, the add arm's declarer. */
+const SHIN_RULE = 'shin-sin-dot-drop';
+
+/** A00267's own defect: the holam sits on the nun, the mater vav is
+ * bare. Written out by codepoint so the two spellings cannot be
+ * confused by eye — they differ only in where U+05B9 stands. */
+const P_BAD = 'Jastrow, אַנֹּונָא 1';
+const P_GOOD = 'Jastrow, אַנּוֹנָא 1';
+
+const pointedIn = (ref: string): SourceEntry =>
+	entry(`v. ${A(ref, 'x')} there`);
+
+/** Both spellings of one repaired address — the `data-ref` and the
+ * `href` `A` derives from it. Case 9 is matched by VALUE rather than by
+ * anchor, and `checkValue` judges the two attributes separately, so a
+ * rule declares each spelling rather than leaving the gate to derive
+ * one from the other. */
+const pointPair = (
+	from: string,
+	target: string,
+	adds?: string,
+): { adds?: string; from: string; target: string }[] => {
+	const dot = adds === undefined ? {} : { adds };
+	const href = (ref: string): string => `/${ref.replaceAll(' ', '_')}`;
+	return [
+		{ ...dot, from, target },
+		{ ...dot, from: href(from), target: href(target) },
+	];
+};
+
+it('case 9 licenses a holam moved onto its own mater vav', () => {
+	expect(
+		checkLinkTargets(
+			pointedIn(P_BAD),
+			pointedIn(P_GOOD),
+			{ pointed: pointPair(P_BAD, P_GOOD) },
+			HOLAM_RULE,
+		),
+	).toEqual([]);
+});
+
+it('case 9 refuses a claim from a rule its allowlist does not admit', () => {
+	expect(
+		checkLinkTargets(
+			pointedIn(P_BAD),
+			pointedIn(P_GOOD),
+			{ pointed: [{ from: P_BAD, target: P_GOOD }] },
+			'some-later-rule',
+		),
+	).toEqual([
+		`pointed ${JSON.stringify(P_GOOD)} is declared by "some-later-rule", which case 9's declarer allowlist does not admit`,
+	]);
+});
+
+it('case 9 refuses a from the entry never held', () => {
+	expect(
+		checkLinkTargets(
+			pointedIn(P_BAD),
+			pointedIn(P_GOOD),
+			{ pointed: [{ from: 'Jastrow, ק 1', target: P_GOOD }] },
+			HOLAM_RULE,
+		),
+	).toEqual([
+		`pointed ${JSON.stringify(P_GOOD)} repairs "Jastrow, ק 1", which T00001's input does not hold`,
+	]);
+});
+
+/** CLAUSE 3, THE CONSONANT SIDE. A point-level case that let one letter
+ * change would be a retarget wearing a repair's clothes. */
+it('case 9 refuses a target whose consonants moved', () => {
+	const other = P_GOOD.replace('א 1', 'ה 1');
+	expect(
+		checkLinkTargets(
+			pointedIn(P_BAD),
+			pointedIn(other),
+			{ pointed: [{ from: P_BAD, target: other }] },
+			HOLAM_RULE,
+		),
+	).toEqual([
+		`pointed ${JSON.stringify(other)} does not spell the consonants of ${JSON.stringify(P_BAD)}`,
+	]);
+});
+
+/** CLAUSE 3 IS STATED ON POINTS ALONE, NOT ON `skeletonOf`, and this is
+ * the case that separates them: `skeletonOf` strips the trailing roman
+ * numeral, so a homograph swap shares a skeleton with its source and a
+ * clause phrased that way would license moving a link between two
+ * senses of one spelling. */
+it('case 9 refuses a homograph index change sharing a skeleton', () => {
+	const one = `${P_GOOD.slice(0, -2)}I 1`;
+	const two = `${P_GOOD.slice(0, -2)}II 1`;
+	expect(
+		checkLinkTargets(
+			pointedIn(one),
+			pointedIn(two),
+			{ pointed: [{ from: one, target: two }] },
+			HOLAM_RULE,
+		),
+	).toEqual([
+		`pointed ${JSON.stringify(two)} does not spell the consonants of ${JSON.stringify(one)}`,
+	]);
+});
+
+/** CLAUSE 4. `עַל` and `עֹל` are two
+ * words, not two spellings of one, and they share a consonant run. The
+ * gate's own fold is what separates a holam that MIGRATED from a vowel
+ * that was SWAPPED — measured, multiset equality alone leaves 9 such
+ * pairs corpus-wide and 8 are distinct lemmas. */
+it('case 9 refuses a repointing its normalization does not fold', () => {
+	const kedar = 'Jastrow, קֵדָר 1';
+	const kader = 'Jastrow, קָדֵר 1';
+	expect(
+		checkLinkTargets(
+			pointedIn(kedar),
+			pointedIn(kader),
+			{ pointed: [{ from: kedar, target: kader }] },
+			HOLAM_RULE,
+		),
+	).toEqual([
+		`pointed ${JSON.stringify(kader)} repoints ${JSON.stringify(kedar)} beyond the holam fold`,
+	]);
+});
+
+/** קְשֵי -> קְשֵׁי,
+ * S02254's own repair: the shin dot the token lost, declared verbatim. */
+const S_BAD = 'Jastrow, קְשֵי 1';
+const S_GOOD = 'Jastrow, קְשֵׁי 1';
+
+it('case 9 licenses a declared shin dot on a pointed letter', () => {
+	expect(
+		checkLinkTargets(
+			pointedIn(S_BAD),
+			pointedIn(S_GOOD),
+			{ pointed: pointPair(S_BAD, S_GOOD, 'ׁ') },
+			SHIN_RULE,
+		),
+	).toEqual([]);
+});
+
+it('case 9 refuses an added dot the claim did not declare', () => {
+	expect(
+		checkLinkTargets(
+			pointedIn(S_BAD),
+			pointedIn(S_GOOD),
+			{ pointed: [{ from: S_BAD, target: S_GOOD }] },
+			SHIN_RULE,
+		),
+	).toEqual([
+		`pointed ${JSON.stringify(S_GOOD)} adds "ׁ" to ${JSON.stringify(S_BAD)} undeclared`,
+	]);
+});
+
+/** THE CLAUSE THAT TAKES THE ADD ARM'S RESIDUE TO ZERO. Measured over
+ * all 72,387 distinct targets, a declared dot reaches two other targets
+ * — `Jastrow, ש 1` and `Jastrow, שטי 1` — and in
+ * both the dot would stand on a letter carrying nothing else. */
+it('case 9 refuses a dot standing on an otherwise-bare letter', () => {
+	const bare = 'Jastrow, ש 1';
+	const dotted = 'Jastrow, שׁ 1';
+	expect(
+		checkLinkTargets(
+			pointedIn(bare),
+			pointedIn(dotted),
+			{ pointed: [{ adds: 'ׁ', from: bare, target: dotted }] },
+			SHIN_RULE,
+		),
+	).toEqual([
+		`pointed ${JSON.stringify(dotted)} stands a dot on a letter carrying no vowel`,
+	]);
+});
+
+/** `adds` IS NOT A GENERAL VOWEL ALLOWANCE. Restoring elided pointing
+ * is what [[project_no_vowel_inference]] rules out, so the case admits
+ * the two dots that identify a LETTER and nothing else. */
+it('case 9 refuses a vowel declared through adds', () => {
+	const bare = 'Jastrow, קל 1';
+	const vowelled = 'Jastrow, קָל 1';
+	expect(
+		checkLinkTargets(
+			pointedIn(bare),
+			pointedIn(vowelled),
+			{ pointed: [{ adds: 'ָ', from: bare, target: vowelled }] },
+			SHIN_RULE,
+		),
+	).toEqual([
+		`pointed ${JSON.stringify(vowelled)} declares "ָ", which is not a shin or sin dot`,
+	]);
+});
+
+/** THE CASE ONLY EVER GROWS THE POINT MULTISET. A repair that DROPPED a
+ * point would be a different act with a different argument, and nothing
+ * in batch 10 makes it. */
+it('case 9 refuses a target that lost a point', () => {
+	expect(
+		checkLinkTargets(
+			pointedIn(S_GOOD),
+			pointedIn(S_BAD),
+			{ pointed: [{ from: S_GOOD, target: S_BAD }] },
+			SHIN_RULE,
+		),
+	).toEqual([
+		`pointed ${JSON.stringify(S_BAD)} drops "ׁ" from ${JSON.stringify(S_GOOD)}`,
+	]);
+});
