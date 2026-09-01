@@ -8,7 +8,7 @@ nor `PENDING`.
 This is the **tenth `plural_form` row to leave the transform route**
 and the only one whose disposition needed a measurement rather than the
 argument the other nine share. Standing gate:
-`admin/pipeline/transform/rules/plural-capture-corpus.test.ts`.
+`admin/pipeline/transform/rules/plural-capture.corpus.test.ts`.
 
 ## Why this row was held back from the fold
 

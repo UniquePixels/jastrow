@@ -117,7 +117,7 @@ of its nearest preceding citation anchor:
 | everything else | 1,941 | 62 | 3.2% |
 
 Reusing the shipped rule's own predicates, so this measurement and the
-rule cannot drift apart (`anaphora.test.ts` pins both halves and fails
+rule cannot drift apart (`anaphora.corpus.test.ts` pins both halves and fails
 on a single counterexample):
 
 ```bash
@@ -280,7 +280,7 @@ less:
 
 ```bash
 # over the same 272 gaps the census uses, with gapBetween's masking
-bun test admin/pipeline/transform/rules/anaphora.test.ts \
+bun test admin/pipeline/transform/rules/anaphora.corpus.test.ts \
   -t 'the omitted position-marker cue'
 # → gaps 272, fires 209, marked 178, markedFires 133
 ```
@@ -288,7 +288,7 @@ bun test admin/pipeline/transform/rules/anaphora.test.ts \
 **178 of the 272 gaps carry a position marker, and 133 of the 209
 FIRING members do.** Adding the cue would cost 133 repairs of 209
 (64%) and keep 76. So the trade is 3 same-folio position slips against
-133 correct repairs. The figure is now pinned in `anaphora.test.ts`
+133 correct repairs. The figure is now pinned in `anaphora.corpus.test.ts`
 rather than stated in prose, which is why it was wrong.
 
 ### 3.2 The "different work" cases — 1, not 3 and not 39

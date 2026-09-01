@@ -181,7 +181,7 @@ That is not entry-level disjointness, and saying "0 entries" — as an
 earlier draft here did, measured while the opening rule was still at
 `k = 8` — would be false. At the shipped thresholds the two share
 exactly one entry, `I00509`, which holds a member of each at different
-offsets; `duplication-corpus.test.ts` asserts that single shared entry
+offsets; `duplication.corpus.test.ts` asserts that single shared entry
 by name, and that the two runs differ.
 
 **It also returned 59, the catalogued figure, and that agreement was an
@@ -271,7 +271,7 @@ is not a recorded edge, so this walks past it; only pinning the cluster
 set notices"* — is therefore **false for edges between two unregistered
 rows**, which this one was for the whole of Phase 2. It is corrected in
 place rather than left standing, and the deletion is pinned by a direct
-catalogue assertion in `rules/sense-marker-corpus.test.ts` §7 instead.
+catalogue assertion in `rules/sense-marker.corpus.test.ts` §7 instead.
 
 The ORDER of operations turned out to matter and is worth keeping: the
 rule was registered FIRST and the edge deleted SECOND, so
@@ -416,7 +416,7 @@ second copy never breaks a tag — but it does remove links, and that has
 consequences the row does not mention:
 
 - the rule needs an `unlinks` declaration, not just a deletion;
-- it cannot join `NEITHER` in `registry.order.test.ts`, whose membership
+- it cannot join `NEITHER` in `registry.order.corpus.test.ts`, whose membership
   is EARNED by a corpus pass asserting the rule removes no anchor;
 - `K00081` is already on `migrate-dry`'s `deferred` list ("print sense 5
   label missing and note is unresolved — eyes-on"), so one of the 65 is
@@ -469,7 +469,7 @@ now pinned, because they mean different things: **2,771 raw codepoints
 deleted, 1,799 stripped ones declared** for the adjacent rule; 3,357 and
 939 for the opening one.
 
-**Rules 1 and 4 of `registry.order.test.ts` were phase-blind.** They
+**Rules 1 and 4 of `registry.order.corpus.test.ts` were phase-blind.** They
 assert unlink-before-retarget and unlink-before-wrap by comparing
 registry INDEX, and index is not execution order across phases — a
 `structural-repairs` rule runs after every `text-repairs` rule whatever
@@ -495,7 +495,7 @@ that is asserted in the corpus pass rather than argued in a comment.
 inserted immediately before the em dash.
 
 **The null model is the whole argument**, which is why it is asserted in
-`rules/section-break-corpus.test.ts` rather than quoted in a docstring:
+`rules/section-break.corpus.test.ts` rather than quoted in a docstring:
 the `—<label>` boundary occurs **7,532** times corpus-wide and **7,250**
 already carry their period. The four legitimate non-period enders are
 refused by the predecessor class, not by an exception list — and so are
@@ -544,7 +544,7 @@ both directions.
 the whole structural phase meant the 14 already carried their dash by
 census time, landing in `withDash`, so every assertion read 0 and passed
 for the wrong reason. It now runs the phase with this rule HELD OUT.
-That is 6c's `stem-corpus.test.ts` defect — a test whose subject became
+That is 6c's `stem.corpus.test.ts` defect — a test whose subject became
 implicit once the world grew — recurring within one batch of being
 named.
 
@@ -573,7 +573,7 @@ because `checkAdjacency` is direction-blind. The cluster set goes 5 → 6
 
 ## 18. A test predicted its own failure, and the prediction came true
 
-`stem-corpus.test.ts` asserts that `stemHeadMarkerChop` adds 18 `—2)`
+`stem.corpus.test.ts` asserts that `stemHeadMarkerChop` adds 18 `—2)`
 markers, and its comment reads:
 
 > The assertion is the DELTA, not the total: the total is not this

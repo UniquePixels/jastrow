@@ -1,6 +1,6 @@
 import { expect, it } from 'bun:test';
-import { readSourceEntries } from '../body/source.ts';
 import { fieldsOf } from './no-new-text.ts';
+import { sourceEntries } from './rules/corpus-fixture.ts';
 
 /**
  * The corpus tier for `links.ts` — claims measured over all 32,512
@@ -8,7 +8,7 @@ import { fieldsOf } from './no-new-text.ts';
  *
  * Split out of `links.test.ts` rather than appended to it: that file
  * is already at the `noExcessiveLinesPerFile` limit, and batch 2 made
- * the same call for `rules/unlink-scope.test.ts`. The fixture tier
+ * the same call for `rules/unlink-scope.corpus.test.ts`. The fixture tier
  * stays there; everything that walks the snapshot lives here.
  */
 
@@ -50,7 +50,7 @@ const OPEN_TAG = /<a\b[^<>]*>/giu;
  * from. Shared by the three tests below so none has to nest three
  * loops to reach a tag. */
 async function* openTags(): AsyncGenerator<{ rid: string; tag: string }> {
-	for await (const entry of readSourceEntries()) {
+	for (const entry of await sourceEntries()) {
 		for (const field of fieldsOf(entry)) {
 			for (const [tag] of field.matchAll(OPEN_TAG)) {
 				yield { rid: entry.rid, tag };

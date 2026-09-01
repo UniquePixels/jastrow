@@ -28,8 +28,18 @@ jobs:
             command: bun qa:ci
           - name: Type Check
             command: echo "::add-matcher::.github/matchers/tsc.json" && bun tsc --noEmit --skipLibCheck --pretty false
+          # The fast gate: every test that does not read the pinned
+          # snapshot. Well under a second — see admin/pipeline/test-tiers.test.ts.
           - name: Test
             command: bun qa:test
+          # The slow gate, split out 2026-08-31: every *.corpus.test.ts,
+          # which streams all 32,512 entries of the source snapshot and
+          # runs the transform pipeline over them. It is a separate job
+          # because bundling it with Test put the pair over the runner's
+          # wall clock and cost PR #58 a SIGTERM with every assertion it
+          # reached passing.
+          - name: Corpus Audit
+            command: bun run audit:corpus
     steps:
       - name: Harden runner
         uses: step-security/harden-runner@f808768d1510423e83855289c910610ca9b43176 # v2.17.0

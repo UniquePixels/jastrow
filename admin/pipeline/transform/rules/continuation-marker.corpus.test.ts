@@ -46,7 +46,7 @@ function* levels(
  * Running the full phase would be self-erasing — the 14 members would
  * already carry their dash by census time and land in `withDash`, so
  * every assertion below would read 0 and pass for the wrong reason. That
- * is 6c's `stem-corpus.test.ts` defect, a test whose subject became
+ * is 6c's `stem.corpus.test.ts` defect, a test whose subject became
  * implicit once the world grew, and it showed up here on the first run. */
 const OTHERS = RULES.filter(
 	(rule) => rule.id !== 'continuation-marker-em-dash-loss',

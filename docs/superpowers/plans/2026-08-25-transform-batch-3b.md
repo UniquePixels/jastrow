@@ -14,7 +14,7 @@
 - `biome check .` before every commit. Branch baseline is **116 infos, 0 errors** — a new error or warning is a regression.
 - `Rule.apply` MUST treat `entry` as immutable and return a new object, or the same reference unchanged. `count.ts` freezes the corpus, so an in-place write is a `TypeError`.
 - **No rule may set `allows: [' ']`.** R2 (2026-08-25, Brian): an inserted space is declared per-instance as `copied: [' ']`. `allows` is a SET (`no-new-text.ts:181`) and would uncap the budget.
-- Registry order is load-bearing. Entangled rows must be gap-free adjacent; `registry.order.test.ts` asserts it against the live graph.
+- Registry order is load-bearing. Entangled rows must be gap-free adjacent; `registry.order.corpus.test.ts` asserts it against the live graph.
 - Edit `patterns.jsonl` **surgically** — `renderPatterns()` reformats all 149 rows.
 - Every count written into a `reason` states its unit (occurrences or entries) — spec §2.1.
 - Any predicate that says "first" or "last" sense walks `sense.senses` recursively — spec §2.2.
@@ -34,7 +34,7 @@
 | `admin/pipeline/transform/fields.ts` | `mapFields(entry, fn)` — the one WRITER matching `fieldsOf`'s reader | 0 |
 | `admin/pipeline/transform/fields.test.ts` | field-coverage parity with `fieldsOf`, immutability | 0 |
 | `admin/pipeline/transform/abbrev-vocab.ts` | frozen abbreviation vocabulary + `isLabel()` | 1 |
-| `admin/pipeline/transform/abbrev-vocab.test.ts` | re-derivation from the pinned snapshot | 1 |
+| `admin/pipeline/transform/abbrev-vocab.corpus.test.ts` | re-derivation from the pinned snapshot | 1 |
 | `admin/pipeline/transform/rules/italic-period.ts` | the entangled label pair, two rules, one predicate | 2 |
 | `admin/pipeline/transform/rules/seam-space.ts` | Class B — six space-insertion rules | 3, 6 |
 | `admin/pipeline/transform/rules/punct-seams.ts` | Class A — em-dash and lone-punctuation | 4 |
@@ -334,7 +334,7 @@ git commit -s -m "🌈 improve(transform): one shared field writer"
 
 **Files:**
 - Create: `admin/pipeline/transform/abbrev-vocab.ts`
-- Create: `admin/pipeline/transform/abbrev-vocab.test.ts`
+- Create: `admin/pipeline/transform/abbrev-vocab.corpus.test.ts`
 
 **Acceptance Criteria:**
 - [ ] `ABBREVIATIONS` is a frozen `ReadonlySet<string>` of italic-run bodies proven to be abbreviations by the audit's own test — the token occurs MID-RUN inside an `<i>` elsewhere in the corpus
@@ -344,7 +344,7 @@ git commit -s -m "🌈 improve(transform): one shared field writer"
 - [ ] The frozen set contains all 20 labels the round-4 audit names, asserted individually
 - [ ] The test SKIPS rather than fails when the snapshot hash has moved, matching `count.ts`'s re-baseline policy
 
-**Verify:** `bun test admin/pipeline/transform/abbrev-vocab.test.ts` → PASS; derived set size printed and equal to the frozen size
+**Verify:** `bun test admin/pipeline/transform/abbrev-vocab.corpus.test.ts` → PASS; derived set size printed and equal to the frozen size
 
 **Steps:**
 
@@ -375,7 +375,7 @@ console.log(JSON.stringify([...midRun].sort()));'
 
 - [ ] **Step 2: Write the failing test**
 
-Create `admin/pipeline/transform/abbrev-vocab.test.ts`:
+Create `admin/pipeline/transform/abbrev-vocab.corpus.test.ts`:
 
 ```ts
 import { describe, expect, test } from 'bun:test';
@@ -421,7 +421,7 @@ describe('abbreviation vocabulary', () => {
 
 - [ ] **Step 3: Run and watch it fail**
 
-Run: `bun test admin/pipeline/transform/abbrev-vocab.test.ts`
+Run: `bun test admin/pipeline/transform/abbrev-vocab.corpus.test.ts`
 Expected: FAIL — `Cannot find module './abbrev-vocab.ts'`
 
 - [ ] **Step 4: Write `abbrev-vocab.ts`**
@@ -442,7 +442,7 @@ Paste Step 1's output as `FROZEN`. The module:
  *
  * Rather than widen the rule interface (rejected in batch 2 as bigger
  * than the rows are worth), the fact is computed once and pinned. The
- * pinning is falsifiable: `abbrev-vocab.test.ts` re-derives from the
+ * pinning is falsifiable: `abbrev-vocab.corpus.test.ts` re-derives from the
  * snapshot and requires an exact match, so the list cannot silently
  * drift away from the corpus it claims to describe.
  *
@@ -498,7 +498,7 @@ Import `fieldsOf` from `./no-new-text.ts` and `SourceEntry` from
 
 - [ ] **Step 5: Run the test to verify it passes**
 
-Run: `bun test admin/pipeline/transform/abbrev-vocab.test.ts`
+Run: `bun test admin/pipeline/transform/abbrev-vocab.corpus.test.ts`
 Expected: PASS, 4 tests
 
 If the first test fails with labels missing, the derivation is too narrow — a label like `Saf` may only ever appear run-final. Widen `MID_RUN` to also accept a token followed by `.` and a closing tag, re-derive, and record the widening in the module docstring.
@@ -507,7 +507,7 @@ If the first test fails with labels missing, the derivation is too narrow — a 
 
 ```bash
 biome check .
-git add admin/pipeline/transform/abbrev-vocab.ts admin/pipeline/transform/abbrev-vocab.test.ts
+git add admin/pipeline/transform/abbrev-vocab.ts admin/pipeline/transform/abbrev-vocab.corpus.test.ts
 git commit -s -m "🦄 new(transform): frozen abbreviation vocabulary"
 ```
 
@@ -519,7 +519,7 @@ git commit -s -m "🦄 new(transform): frozen abbreviation vocabulary"
 
 **Files:**
 - Create: `admin/pipeline/transform/rules/italic-period.ts`
-- Create: `admin/pipeline/transform/rules/italic-period.test.ts`
+- Create: `admin/pipeline/transform/rules/italic-period.corpus.test.ts`
 - Modify: `data/patches/patterns.jsonl` — `label-period-outside-italic` count and `reason`
 
 **Acceptance Criteria:**
@@ -531,13 +531,13 @@ git commit -s -m "🦄 new(transform): frozen abbreviation vocabulary"
 - [ ] The `label-period-outside-italic` row's `reason` gains the runnable predicate and states its unit
 - [ ] The 266 `Part. pass.` occurrences ARE moved — the accepted cost of the 2026-08-21 ruling, asserted by a test naming it
 
-**Verify:** `bun test admin/pipeline/transform/rules/italic-period.test.ts && bun transform:count` → PASS; both rows present
+**Verify:** `bun test admin/pipeline/transform/rules/italic-period.corpus.test.ts && bun transform:count` → PASS; both rows present
 
 **Steps:**
 
 - [ ] **Step 1: Write the failing tests**
 
-Create `admin/pipeline/transform/rules/italic-period.test.ts`:
+Create `admin/pipeline/transform/rules/italic-period.corpus.test.ts`:
 
 ```ts
 import { describe, expect, test } from 'bun:test';
@@ -617,7 +617,7 @@ function stripTagsOf(entry: SourceEntry): string {
 
 - [ ] **Step 2: Run and watch it fail**
 
-Run: `bun test admin/pipeline/transform/rules/italic-period.test.ts`
+Run: `bun test admin/pipeline/transform/rules/italic-period.corpus.test.ts`
 Expected: FAIL — `Cannot find module './italic-period.ts'`
 
 - [ ] **Step 3: Write `italic-period.ts`**
@@ -695,7 +695,7 @@ export { italicGlossPeriodOutside, labelPeriodInside };
 
 - [ ] **Step 4: Run the tests to verify they pass**
 
-Run: `bun test admin/pipeline/transform/rules/italic-period.test.ts`
+Run: `bun test admin/pipeline/transform/rules/italic-period.corpus.test.ts`
 Expected: PASS, 8 tests
 
 - [ ] **Step 5: Measure both rows against the corpus**
@@ -752,7 +752,7 @@ because the count you would write back would be measuring the wrong
 thing.
 
 Add this as a permanent corpus-tier test in
-`italic-period.test.ts` rather than leaving it as a one-off command.
+`italic-period.corpus.test.ts` rather than leaving it as a one-off command.
 
 - [ ] **Step 7: Write back the corrected count**
 
@@ -767,7 +767,7 @@ Edit `data/patches/patterns.jsonl` surgically — the `label-period-outside-ital
 ```bash
 biome check .
 bun test admin/pipeline/transform/
-git add admin/pipeline/transform/rules/italic-period.ts admin/pipeline/transform/rules/italic-period.test.ts data/patches/patterns.jsonl
+git add admin/pipeline/transform/rules/italic-period.ts admin/pipeline/transform/rules/italic-period.corpus.test.ts data/patches/patterns.jsonl
 git commit -s -m "🦄 new(transform): the italic period label pair"
 ```
 
@@ -1047,7 +1047,7 @@ git commit -s -m "🦄 new(transform): five tag-seam space repairs"
 
 **Files:**
 - Create: `admin/pipeline/transform/rules/punct-seams.ts`
-- Create: `admin/pipeline/transform/rules/punct-seams.test.ts`
+- Create: `admin/pipeline/transform/rules/punct-seams.corpus.test.ts`
 
 **Acceptance Criteria:**
 - [ ] `emDashSectionBreak` turns `.</i> <i>—</i> ` into the corpus norm `.—` — 278 occ / 270 entries
@@ -1057,7 +1057,7 @@ git commit -s -m "🦄 new(transform): five tag-seam space repairs"
 - [ ] `italicLonePunctuation` reports 28 occurrences against a catalogued 29 — write back if the residue confirms
 - [ ] The Class-A `stripTags` invariant holds for `emDashSectionBreak`
 
-**Verify:** `bun test admin/pipeline/transform/rules/punct-seams.test.ts` → PASS; `bun transform:count` reports both rows
+**Verify:** `bun test admin/pipeline/transform/rules/punct-seams.corpus.test.ts` → PASS; `bun transform:count` reports both rows
 
 **Steps:**
 
@@ -1106,7 +1106,7 @@ describe('italicLonePunctuation', () => {
 
 - [ ] **Step 2: Run and watch it fail**
 
-Run: `bun test admin/pipeline/transform/rules/punct-seams.test.ts`
+Run: `bun test admin/pipeline/transform/rules/punct-seams.corpus.test.ts`
 Expected: FAIL — module not found
 
 - [ ] **Step 3: Write `punct-seams.ts`**
@@ -1170,7 +1170,7 @@ export { emDashSectionBreak, italicLonePunctuation };
 
 - [ ] **Step 4: Run the tests**
 
-Run: `bun test admin/pipeline/transform/rules/punct-seams.test.ts`
+Run: `bun test admin/pipeline/transform/rules/punct-seams.corpus.test.ts`
 Expected: PASS, 4 tests
 
 The `emDashSectionBreak` replacement above produces `.—</i>`, which requires the preceding `</i>` to have been consumed. If the test fails on the exact output string, adjust the replacement to whatever keeps `stripTags` byte-identical AND leaves markup no less well-formed — then update the test to that string. **The invariant, not the literal, is the requirement.**
@@ -1195,7 +1195,7 @@ Expected: 270 and 28.
 ```bash
 biome check .
 bun test admin/pipeline/transform/
-git add admin/pipeline/transform/rules/punct-seams.ts admin/pipeline/transform/rules/punct-seams.test.ts
+git add admin/pipeline/transform/rules/punct-seams.ts admin/pipeline/transform/rules/punct-seams.corpus.test.ts
 git commit -s -m "🦄 new(transform): em-dash and lone-punct seams"
 ```
 
@@ -1568,7 +1568,7 @@ git commit -s -m "🦄 new(transform): route the four escalation rows"
 
 **Files:**
 - Modify: `admin/pipeline/transform/registry.ts` — add the new rules, remove their ids from `PENDING`
-- Modify: `admin/pipeline/transform/registry.order.test.ts` if the cluster assertion needs the new pair
+- Modify: `admin/pipeline/transform/registry.order.corpus.test.ts` if the cluster assertion needs the new pair
 - Create: `docs/v2/transform-batch-3b.md`
 - Modify: `docs/v2/phase-2-triage.md` — route totals recomputed
 - Modify: `docs/specs/2026-08-25-italic-punctuation-transform-design.md` — decision log closed
@@ -1580,7 +1580,7 @@ git commit -s -m "🦄 new(transform): route the four escalation rows"
 - [ ] `emDashSectionBreak` runs before `italicLonePunctuation`, with the double-count reason in a comment
 - [ ] Order freedom is MEASURED for every rule whose placement is claimed free — run it first and last in the registry and assert byte-identical output, as batch 2 did for `shurukAsYodDisplayCorruption`
 - [ ] `bun body:migrate-dry` record count is unchanged from `v2`
-- [ ] `pipeline-links.test.ts` link totals are UNCHANGED — 110 of this batch's seams sit against an anchor's closing tag (57 `</a><i>` + 53 `)</a><i>`; CORRECTED 2026-08-26 from **165**, the pre-decline arithmetic 112 + 53 written before both patterns gained the `(?![.,;:?!])` guard), and batch 3a's headline was a link regression every per-rule measurement missed
+- [ ] `pipeline-links.corpus.test.ts` link totals are UNCHANGED — 110 of this batch's seams sit against an anchor's closing tag (57 `</a><i>` + 53 `)</a><i>`; CORRECTED 2026-08-26 from **165**, the pre-decline arithmetic 112 + 53 written before both patterns gained the `(?![.,;:?!])` guard), and batch 3a's headline was a link regression every per-rule measurement missed
 - [ ] `unaccountedEdges()` reports no dangling endpoint
 - [ ] The batch report states, for every row, the catalogued count, the measured count, and which one the rule reproduces
 
@@ -1651,7 +1651,7 @@ In `registry.ts`, import from the four new modules and append to `RULES` in this
 > **Where the measurements live:** `docs/v2/transform-batch-3b.md` §2
 > (the twelve-row `front / back` table and both constraint write-ups);
 > `admin/pipeline/transform/registry.ts`, batch 3b block (per-rule, at
-> the rule); and `admin/pipeline/transform/registry.order.test.ts`, "the
+> the rule); and `admin/pipeline/transform/registry.order.corpus.test.ts`, "the
 > two rules feeding italic-swallowed-terminal-period precede it", which
 > is where the two constraints are pinned — neither is an
 > `entangledWith` edge, so `checkAdjacency()` is blind to both.
@@ -1713,7 +1713,7 @@ Remove every shipped id from `PENDING`, leaving a comment for each row that WITH
 - [ ] **Step 2: Prove coverage**
 
 ```bash
-bun test admin/pipeline/transform/registry.test.ts admin/pipeline/transform/registry.order.test.ts
+bun test admin/pipeline/transform/registry.test.ts admin/pipeline/transform/registry.order.corpus.test.ts
 ```
 Expected: PASS; `coverage()` 0 unaccounted, 0 duplicated.
 
@@ -1753,7 +1753,7 @@ Expected: all pass; `migrate-dry` record count identical to `v2`'s; every 3b row
 - [ ] **Step 5: Prove the links did not move**
 
 ```bash
-bun test admin/pipeline/body/pipeline-links.test.ts
+bun test admin/pipeline/body/pipeline-links.corpus.test.ts
 ```
 
 Expected: PASS with link totals unchanged. **This is the check batch 3a did not have until it needed one.** If any total moves, a seam rule has edited inside an anchor tag — find it before writing the report.

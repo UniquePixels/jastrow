@@ -337,7 +337,7 @@ reproduces:
 ```text
 68/57  catalogued, reproduced EXACTLY by the skeleton predicate alone
 −3     self-link occurrences (H00796, K00308×2) — 2 entries
-=65/55 pluralToFeminineRaw          (pinned in misc-links.test.ts)
+=65/55 pluralToFeminineRaw          (pinned in misc-links.corpus.test.ts)
 −5     occurrences outside a printed Pl. construct — 5 entries
        (A02980, K01319, Q02197, U00688, U01486)
 =60/50 pluralToFeminineMatch — what the rule fires on, shipped
@@ -357,7 +357,7 @@ declines would hide a discovery defect inside a design decision.
 
 ## 7. Registry order
 
-`admin/pipeline/transform/registry.order.test.ts`, new in this task,
+`admin/pipeline/transform/registry.order.corpus.test.ts`, new in this task,
 asserts three orderings and one exhaustiveness guard.
 
 1. **Every unlink rule precedes every retarget rule.** A retarget rule
@@ -400,11 +400,11 @@ outside a task report.
 | `unlink.ts` docstring: re-derivation is "not a complexity-class change" | Task 4 | **FIXED.** It is — O(n) → O(k·n) in the definition's token count. Corrected to say so, and to say why it is affordable (shipped k is 1 or 2 in almost every member). |
 | `prefixed-geresh-abbrev-mislink`'s `reason` still empty; neither geresh row records that the repair became UNLINK | Task 5 | **FIXED.** Both write-backs made — §6. |
 | `geresh-abbrev-arms.md` arm 3's query omits the resh exclusion, so arms 2/3 are disjoint only empirically | Task 5 | **FIXED.** `m[1] !== 'ר'` added. Measured: overlap is 0 occurrences and the arm is unchanged at 18/18, so the decomposition still sums to 191 — the exclusion makes disjointness structural, not new. |
-| `unlink.ts:180` "neither rule built on this reaches `language_reference`" — now six rules | Task 5 | **FIXED, and pinned.** The sentence is replaced, and the scope claim it was making is now a corpus test (`rules/unlink-scope.test.ts`) over every field `fieldsOf` walks: all three raw populations that had no field-scope pin (517 bare geresh, 185 prefixed, 65 plural) are 100% inside `senses[].definition`, 0 outside. A seventh row reusing the walk must extend it. |
+| `unlink.ts:180` "neither rule built on this reaches `language_reference`" — now six rules | Task 5 | **FIXED, and pinned.** The sentence is replaced, and the scope claim it was making is now a corpus test (`rules/unlink-scope.corpus.test.ts`) over every field `fieldsOf` walks: all three raw populations that had no field-scope pin (517 bare geresh, 185 prefixed, 65 plural) are 100% inside `senses[].definition`, 0 outside. A seventh row reusing the walk must extend it. |
 | Task 7 review finding 6: the "92 of 272" figure in `anaphora.ts` and the audit is not reproducible (reviewer got 178/140/2 three ways) | Task 7 re-review — **queued to `impl-task-7` and never executed** | **FIXED.** The 92 reproduces under no reading, and the true figures make the omission MORE load-bearing, not less: **178 of the 272 gaps** carry a position marker and **133 of the 209 firing members** do, so adding `beg.`/`end.`/`top`/`bot.` as an intervening-citation cue would cost 133 repairs of 209 (64%), not "a third". Corrected in `anaphora.ts` and in `ib-yoma-2a.md`, and pinned by a new corpus test so it cannot drift back into prose. This is the only deferred minor that was a live wrong number in a permanent record. |
-| Fixtures abridge surrounding text; A01423's `-יּוֹת` regression also passes for a second, coincidental reason (it is a self-link too) | Task 6 | **DEFERRED, knowingly.** The reviewer explicitly declined both: the fixtures are real rids with verbatim anchor markup in `geresh.test.ts`'s established style, and the primary reason (final letter ת, not ם/ן) is what the test's own comment documents and what the predicate gates on first. |
+| Fixtures abridge surrounding text; A01423's `-יּוֹת` regression also passes for a second, coincidental reason (it is a self-link too) | Task 6 | **DEFERRED, knowingly.** The reviewer explicitly declined both: the fixtures are real rids with verbatim anchor markup in `geresh.corpus.test.ts`'s established style, and the primary reason (final letter ת, not ם/ן) is what the test's own comment documents and what the predicate gates on first. |
 | Task 8's recommended split of `anaphora.ts` into `rules/anaphora-walk.ts` + three arms | Task 8 §20 | **DEFERRED, knowingly — and it nearly left the record.** Task 8 named the seam symbol by symbol and declined to cut it mid-batch: the split moves symbols three other tasks import, and the docstrings carrying the measurements are the bulk rather than the code. It was recorded only in `task-8-report.md`, which is deleted when the batch closes, so this table's first draft claimed a completeness it did not have. The seam is now written into `anaphora.ts`'s own module docstring — machinery (`usable`, `textBetween`, `gapBetween`, `AntecedentRules`, `antecedentOf`, `Repair`/`Repairer`, `retargetAnaphora`, `retargetOverDefinitions`, ~400 lines) versus the three arms (~850) — with the instruction to cut it BEFORE a fourth arm is added, not after. |
-| `anaphora.test.ts` trips `noExcessiveLinesPerFile` (403 lines against 300) | Task 7 §9(7) | **DEFERRED, knowingly.** Info severity, `bun qa` exits 0, and **18 files in the repository trip this rule**, including `repairs.ts` (604) and `migrate-dry.ts`. Splitting the corpus tier into its own file is a repo-wide refactor decision, not a batch-2 change. `rules/unlink-scope.test.ts` was created as a separate file rather than appended to `unlink.test.ts` partly to avoid adding a nineteenth. |
+| `anaphora.corpus.test.ts` trips `noExcessiveLinesPerFile` (403 lines against 300) | Task 7 §9(7) | **DEFERRED, knowingly.** Info severity, `bun qa` exits 0, and **18 files in the repository trip this rule**, including `repairs.ts` (604) and `migrate-dry.ts`. Splitting the corpus tier into its own file is a repo-wide refactor decision, not a batch-2 change. `rules/unlink-scope.corpus.test.ts` was created as a separate file rather than appended to `unlink.corpus.test.ts` partly to avoid adding a nineteenth. |
 
 **Net biome position: 105 infos, one BELOW the 106 at this task's
 base commit** — the batch's own `useDestructuring` regression is
@@ -543,5 +543,5 @@ tune until the count matches.**
 bun qa                  # format, lint, test, tsc — exit 0
 bun transform:count     # 13 rules; see §3 for the surviving deltas
 bun body:migrate-dry    # §4
-bun test admin/pipeline/transform/registry.order.test.ts
+bun test admin/pipeline/transform/registry.order.corpus.test.ts
 ```

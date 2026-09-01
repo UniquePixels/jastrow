@@ -3,7 +3,7 @@
  * `edge-trim.test.ts`.
  *
  * Neither rule gets a `stripTags`-equality invariant — an equality
- * invariant passes a no-op, which is the failure `punct-seams.test.ts`
+ * invariant passes a no-op, which is the failure `punct-seams.corpus.test.ts`
  * documents at length. Every assertion here is a DEFECT-COUNT DELTA, a
  * POPULATION FIGURE, or a before/after equality on a population the
  * rule must NOT change, and the last kind is always paired with a
@@ -220,7 +220,7 @@ let measured: Promise<EdgeMeasurement> | null = null;
 
 /** The walk above, behind a lazily-awaited cached promise so all
  * seven assertions in this file share ONE pass. Lazy rather than at
- * module scope on `seam-space-corpus.test.ts`'s shape: module
+ * module scope on `seam-space.corpus.test.ts`'s shape: module
  * evaluation is covered by no test timeout, so a slow corpus there
  * fails the suite with nothing naming the cause. Callers read the
  * shared `EdgeMeasurement`; none mutates it. */

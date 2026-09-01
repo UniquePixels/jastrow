@@ -48,7 +48,7 @@
  * `deletion-baseline.corpus.test.ts`'s 4,510 and called it larger —
  * comparing a raw figure to a stripped one. On the baseline's own basis
  * (`textOf`, tags stripped) these two delete **2,738**, well under
- * 4,510. Both figures are pinned in `duplication-corpus.test.ts`.
+ * 4,510. Both figures are pinned in `duplication.corpus.test.ts`.
  *
  * Both also REMOVE ANCHORS, because a duplicated run can contain one:
  * 26 of the 88 opening runs hold 30 anchors between them, and 9 of the

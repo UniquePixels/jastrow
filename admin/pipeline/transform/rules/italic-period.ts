@@ -22,7 +22,7 @@
  * `checkNoNewText` is structurally blind to everything these rules
  * do, and `checkMarkup` is a delta gate that permits pre-existing
  * damage through. The only thing that can see a mistake here is the
- * corpus-tier `stripTags` invariant in `italic-period.test.ts`, which
+ * corpus-tier `stripTags` invariant in `italic-period.corpus.test.ts`, which
  * is ORDER-sensitive where the gate is a multiset. Read that test as
  * part of the rule.
  *
@@ -170,7 +170,7 @@ function moveOutside(text: string): string {
  * boundary, so the text multiset is unchanged by construction and
  * there is nothing to declare — and, for the same reason, nothing for
  * `checkNoNewText` to see. The corpus-tier `stripTags` invariant in
- * `italic-period.test.ts` is the only gate that can, and is part of
+ * `italic-period.corpus.test.ts` is the only gate that can, and is part of
  * the rule rather than a check on it. */
 function build(id: string, move: (text: string) => string): Rule {
 	return {

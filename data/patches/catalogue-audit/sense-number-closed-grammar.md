@@ -6,7 +6,7 @@ not discarded, and the reason it is not is the whole point of the
 re-scope: a discard would leave 6 measured defects surfaced by nothing
 executable.
 
-Gate: `admin/pipeline/transform/rules/sense-marker-corpus.test.ts` §4.
+Gate: `admin/pipeline/transform/rules/sense-marker.corpus.test.ts` §4.
 Batch report: `docs/v2/transform-batch-7.md` §2.
 
 ## The row's name has been false since before Phase 2 opened

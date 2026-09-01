@@ -8,9 +8,9 @@
  * admits K01198's comma-lead variant per the ruling of 2026-08-23).
  */
 import { expect, it } from 'bun:test';
-import { readSourceEntries } from '../../body/source.ts';
 import type { SourceEntry } from '../../body/types.ts';
 import { applyTransforms } from '../run.ts';
+import { sourceEntries } from './corpus-fixture.ts';
 import {
 	apparatusCite,
 	ELLIPSIS_CONVENTION,
@@ -265,7 +265,7 @@ it('leaves a convention ellipsis glossed by the following English alone (D00702)
 it('observes every ellipsis-fragment convention exclusion in the corpus', async () => {
 	const unmatched = await unobservedConvention(
 		ELLIPSIS_CONVENTION,
-		readSourceEntries(),
+		await sourceEntries(),
 		ellipsisRaw,
 	);
 	expect(unmatched).toEqual([]);

@@ -32,10 +32,10 @@
  *   reshuffle; a defect count can.
  */
 import { describe, expect, it } from 'bun:test';
-import { readSourceEntries } from '../../body/source.ts';
 import type { SourceEntry } from '../../body/types.ts';
 import { fieldsOf, stripTags } from '../no-new-text.ts';
 import type { Rule } from '../types.ts';
+import { sourceEntries } from './corpus-fixture.ts';
 import {
 	italicGlossPeriodOutside,
 	labelPeriodInside,
@@ -287,7 +287,7 @@ let scanned: Promise<CorpusScan> | null = null;
  * entries, which is the pairing round 1 lacked when it measured only
  * the 230-member shape and so could not see the new shape its own
  * repair created. Lazy rather than at module scope, on
- * `seam-space-corpus.test.ts`'s shape: module evaluation is covered by
+ * `seam-space.corpus.test.ts`'s shape: module evaluation is covered by
  * no test timeout, so a slow corpus there fails the suite with nothing
  * naming the cause. */
 function scanCorpus(): Promise<CorpusScan> {
@@ -300,7 +300,7 @@ function scanCorpus(): Promise<CorpusScan> {
 			spaced: { after: 0, before: 0 },
 			tight: { after: 0, before: 0 },
 		};
-		for await (const entry of readSourceEntries()) {
+		for (const entry of await sourceEntries()) {
 			if (auditEntry(italicLonePunctuation, entry, scan.loneProblems)) {
 				scan.loneTouched += 1;
 			}

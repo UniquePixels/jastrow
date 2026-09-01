@@ -407,7 +407,7 @@ const LINKED_HEADWORDS: ReadonlySet<string> = new Set([
  * P00132 anchor  data-ref="Jastrow, עָ׳ עַדְיָא 1"       → P00137
  * ```
  *
- * Found by `body/pipeline-links.test.ts`, whose absolute pin fell from
+ * Found by `body/pipeline-links.corpus.test.ts`, whose absolute pin fell from
  * 71,385 to 71,383 while its DIFFERENTIAL assertion — "gains 90, loses
  * none" — stayed green, because the rule sits on both sides of that
  * comparison. The differential could not see it; the absolute pin

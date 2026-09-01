@@ -171,7 +171,7 @@ describe('the two rules together', () => {
 	// `I00509` is the one corpus entry both rules touch. They take
 	// different runs and compose to the same entry in either order —
 	// asserted here on a fixture of the same shape, and on the entry
-	// itself in `duplication-corpus.test.ts`.
+	// itself in `duplication.corpus.test.ts`.
 	it('compose order-independently when one entry holds both', () => {
 		const input = one(`${RUN}${RUN}middle${RUN}${RUN}tail`);
 		const ab = adjacentVerbatimRepeat.apply(

@@ -433,7 +433,7 @@ it('every bare anaphor with a Jerusalem Talmud antecedent lands on Yoma 2a — a
 	}
 	expect(jt).toEqual({ sink: 259, total: 259 });
 	expect(rest).toEqual({ sink: 62, total: 1942 });
-});
+}, 180_000);
 
 /** The control (audit §3): bare anaphors OUTSIDE this population with a
  * citation antecedent. The linker's own resolution agrees with the
@@ -467,7 +467,7 @@ it('the control agrees with the antecedent in 997 of 1,880 outside the populatio
 	}
 	expect(total).toBe(1880);
 	expect(exact).toBe(997);
-});
+}, 180_000);
 
 /** The cost of the cue `INTERVENING_CITATION` deliberately omits, as a
  * number rather than a hedge.
@@ -514,7 +514,7 @@ it('the omitted position-marker cue would trip 178 of the 272 gaps and cost 133 
 	expect(fires).toBe(209);
 	expect(marked).toBe(178);
 	expect(markedFires).toBe(133);
-});
+}, 180_000);
 
 /** Compose is unreachable (audit §6): no member's display carries a
  * locus (true by the population's definition) and no member's FOLLOWING
@@ -553,7 +553,7 @@ it('0 of the 312 carry a locus the display or its following text could supply', 
 	}
 	expect(members).toBe(312);
 	expect(withLocus).toBe(0);
-});
+}, 180_000);
 
 // ------------------------------------------------- sifre-ib-resolves-to-yalkut
 
@@ -857,7 +857,7 @@ it('REF_LOCUS and HREF_LOCUS strip both the plain and the range locus', () => {
  * trains a reader to re-run rather than look.
  *
  * It is a timeout, not an assertion: nothing here is weakened, and the
- * figure matches the convention `registry.order.test.ts` already uses
+ * figure matches the convention `registry.order.corpus.test.ts` already uses
  * for a corpus pass. Found while measuring case 7, where the extra
  * ~17% suite time made it fire more often; it reproduces on this branch
  * point without any of that work.
@@ -1187,7 +1187,7 @@ it('8 of the 9 name a different book from their antecedent — the row’s null 
 		}
 	}
 	expect(differing).toBe(8);
-});
+}, 180_000);
 
 it('the rule moves exactly those 9 anchors corpus-wide, adding and removing none', async () => {
 	const rids = new Set<string>();
@@ -1312,7 +1312,7 @@ it('tolerate is vacuous for ib-yoma-2a — no member skips a usable citation', a
 			.filter((p) => usable(p) && isCitation(p) && !isSpentAnaphor(p)).length;
 	}
 	expect(skippedCitations).toBe(0);
-});
+}, 180_000);
 
 it('the Targum arm skips exactly one anchor corpus-wide, and it is a row member', async () => {
 	// The measurement behind "0 live instances". 8 members skip
@@ -1340,7 +1340,7 @@ it('the Targum arm skips exactly one anchor corpus-wide, and it is a row member'
 	}
 	expect(skipped).toBe(1);
 	expect(excused).toBe(1);
-});
+}, 180_000);
 
 it('the Targum population’s 0 declines is partly definitional — 77 of 86 fall outside it', async () => {
 	// `isTargumMember` alone selects 86; requiring a preceding Targum

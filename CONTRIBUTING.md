@@ -65,9 +65,30 @@ All commits must include a sign-off line (`git commit -s`).
 ## Code Style
 
 - Vanilla JavaScript — no frameworks or bundlers
-- Biome handles linting and formatting (`biome check .`)
+- Biome handles linting and formatting (`bun qa:lint`, `bun qa:format`)
 - Tabs for indentation, single quotes for strings
 - No `var` — use `const` and `let`
+
+## Tests
+
+Tests run in two tiers, split by filename:
+
+| Tier | Files | Command | Cost |
+|---|---|---|---|
+| Unit | `*.test.ts` | `bun qa:test` | sub-second |
+| Corpus | `*.corpus.test.ts` | `bun run audit:corpus` | ~7–8 minutes |
+
+The corpus tier streams the whole 41 MB source snapshot and runs the
+transform pipeline over it, so it is a separate CI job (`Corpus Audit`)
+rather than part of `Test`. `bun qa` runs the unit tier only; run
+`bun run audit:corpus` yourself before opening a PR that touches
+`admin/pipeline/`.
+
+A test that reads the corpus MUST be named `*.corpus.test.ts` and MUST
+take its entries from `admin/pipeline/transform/rules/corpus-fixture.ts`,
+which builds each stage once per run and shares it read-only.
+`admin/pipeline/test-tiers.test.ts` fails the build if the name and the
+behaviour disagree in either direction.
 
 ## Accessibility
 
@@ -80,8 +101,8 @@ focus management, which automated tools don't catch.
 
 - PRs are reviewed by [CodeRabbit](https://coderabbit.ai/) and a
   maintainer
-- All CI checks must pass before merge (`biome check .`, and for data
-  PRs the `validate:data` + size guard)
+- All CI checks must pass before merge (`Lint`, `Type Check`, `Test`,
+  `Corpus Audit`)
 - Keep PRs focused — one feature or fix per PR
 
 ## Developer Certificate of Origin

@@ -26,7 +26,7 @@ import {
  * - `adjacent-verbatim-repetition` recorded one, and the count that
  *   reproduced it was a LENGTH-CAP ARTEFACT. §10 corrects 59 to 65.
  *
- * Explicit timeouts throughout, per `anaphora.test.ts`'s lesson.
+ * Explicit timeouts throughout, per `anaphora.corpus.test.ts`'s lesson.
  */
 
 const composed: readonly SourceEntry[] = await composedEntries();
@@ -133,7 +133,7 @@ it('repairs 65 adjacent runs across 65 entries', () => {
 // the remainder into a child sense, which brings a duplicated run to
 // OFFSET 0 where this rule can see it. On `R00223` that is the entire
 // difference, and it is why the two rows are declared `entangledWith`
-// each other and why `registry.order.test.ts` pins the DIRECTION.
+// each other and why `registry.order.corpus.test.ts` pins the DIRECTION.
 //
 // Pinning both numbers is the point. `bun transform:count` measures
 // every rule ALONE against the pinned snapshot, so it reports 88 and

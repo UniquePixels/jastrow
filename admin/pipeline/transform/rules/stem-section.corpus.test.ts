@@ -28,7 +28,7 @@ import { LABELS, strandedStemHead } from './stem-section.ts';
  * this row is everywhere that matters.
  *
  * ONE WALK, memoised, in the corpus-tier style
- * `stem-corpus.test.ts` records.
+ * `stem.corpus.test.ts` records.
  */
 
 /** The row's own predicate, VERBATIM as `patterns.jsonl`, the spec and

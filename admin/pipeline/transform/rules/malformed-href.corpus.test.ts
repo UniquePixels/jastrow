@@ -3,7 +3,7 @@
  * added 2026-08-27 by `fix/link-target-gate-cases`).
  *
  * Split from `malformed-href.test.ts` on the house pattern
- * (`italic-paren-corpus.test.ts`, `paren-boundary-corpus.test.ts` and
+ * (`italic-paren.corpus.test.ts`, `paren-boundary.corpus.test.ts` and
  * the rest): the fixture tier there is cheap and runs on hand-sliced
  * bytes, this one reads all 32,512 entries and is about the two real
  * entries the row names.

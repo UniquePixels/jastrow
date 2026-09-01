@@ -288,7 +288,7 @@
  * an enclosing antecedent, an unanchored citation in the gap, an
  * anchored rival citation of another work (`tolerate`), and an `href`
  * that does not match its derived prefix. None fires on today's
- * corpus, and `anaphora.test.ts` pins each against a fixture so the
+ * corpus, and `anaphora.corpus.test.ts` pins each against a fixture so the
  * silence stays a measurement rather than an absence of asking.
  *
  * ## Corroboration outside the entry
@@ -372,7 +372,7 @@ const TARGUM_RULE_ID = 'ib-targum-work-loss';
  * thing it takes from the antecedent.
  *
  * This is an enumerated list, so it is LOUD ON DRIFT per the
- * maintainer's 2026-08-23 ruling: `anaphora.test.ts` pins that every
+ * maintainer's 2026-08-23 ruling: `anaphora.corpus.test.ts` pins that every
  * one of the corpus's 45 distinct Targum work-and-book combinations
  * begins with one of these five, so a sixth spelling in a re-fetch
  * fails the suite instead of quietly shrinking the arm.
@@ -414,7 +414,7 @@ const BOOK_LOCUS = /^[^\d]+\s\d+:\d+$/u;
  * A PREFIX, not an enumerated list of works, and the difference is the
  * 2026-08-23 loud-on-drift ruling: the corpus holds exactly two
  * (`Sifrei Devarim`, 402 anchors; `Sifrei Bamidbar`, 193) and
- * `anaphora.test.ts` pins that EVERY `Sifr…` target in the corpus
+ * `anaphora.corpus.test.ts` pins that EVERY `Sifr…` target in the corpus
  * starts with this string. A third work — Sefaria spells the Torat
  * Kohanim `Sifra, …` — appearing in a re-fetch fails that test rather
  * than silently sitting outside an arm that would then under-fire.
@@ -443,7 +443,7 @@ const SIFRE_ANAPHOR = /^[Ii]b\.\s+(?<number>\d+)$/u;
  * The optional `-…` arm is not speculative: 5 of the corpus's 402
  * `Sifrei Devarim` anchors carry a RANGE (`Sifrei Devarim 301:3-4`,
  * `/Sifrei_Devarim.301.3-4`), found by the population pin in
- * `anaphora.test.ts` failing on the narrower pattern. No member's
+ * `anaphora.corpus.test.ts` failing on the narrower pattern. No member's
  * antecedent is one today, and `repairSifreAnaphor` would have
  * DECLINED rather than mis-stripped — but declining there would be a
  * silent under-fire, since a range locus leaves the work half every
@@ -484,7 +484,7 @@ const HREF_LOCUS = /\.\d+(?:\.\d+)*(?:-\d+(?:\.\d+)*)?$/u;
  *   133 of the 209 FIRING members carry one
  *   → adding the cue would cost 133 repairs of 209 (64%), keeping 76
  *
- * `anaphora.test.ts` pins all three on every `bun qa`, so the figure
+ * `anaphora.corpus.test.ts` pins all three on every `bun qa`, so the figure
  * cannot drift back into prose.
  */
 const INTERVENING_CITATION = /[ᵃᵇᶜᵈ]|\b[IVXLC]+,|\bl\.\s?c\.|\bs\.\s*\d/u;
@@ -1180,7 +1180,7 @@ function isTargumMember(lead: string, anchor: Anchor): boolean {
  *    ever one candidate tail, and it is the one the anchor already
  *    points at.
  *
- * `anaphora.test.ts` pins both as invariants over every fire
+ * `anaphora.corpus.test.ts` pins both as invariants over every fire
  * (`written === work + tail` and `head.startsWith(work)`), not as
  * prose.
  *

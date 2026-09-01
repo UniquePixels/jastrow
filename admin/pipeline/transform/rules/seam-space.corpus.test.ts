@@ -91,7 +91,7 @@ let scanned: Promise<Map<string, Tally>> | null = null;
 
 /** One pass over the corpus, applying each rule ALONE to every entry.
  * Behind a lazily-awaited cached promise rather than at module scope,
- * on `registry.order.test.ts`'s shape: module evaluation is covered by
+ * on `registry.order.corpus.test.ts`'s shape: module evaluation is covered by
  * no test timeout, so a slow corpus there fails the suite with nothing
  * naming the cause. */
 function scan(): Promise<Map<string, Tally>> {

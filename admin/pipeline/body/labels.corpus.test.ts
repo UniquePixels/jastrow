@@ -1,7 +1,8 @@
 import { describe, expect, it } from 'bun:test';
+import { sourceEntries } from '../transform/rules/corpus-fixture.ts';
 import { walkSenses } from './census.ts';
 import { parseLabel, printLabel } from './labels.ts';
-import { parseSourceEntry, readSourceEntries } from './source.ts';
+import { parseSourceEntry } from './source.ts';
 import type { SourceEntry } from './types.ts';
 
 describe('parseLabel', () => {
@@ -131,14 +132,10 @@ function checkAllLabels(values: Iterable<string>): string[] {
 
 describe('parseLabel/printLabel corpus sweep', () => {
 	it('round-trips or quarantines every distinct sense.number value in the corpus', async () => {
-		// Tally while streaming — buffering all 32,512 entries would hold
-		// the ~41 MB corpus in memory against source.ts's own contract.
-		const seen = new Map<string, number>();
-		for await (const entry of readSourceEntries()) {
-			for (const [raw, count] of tallyLabels([entry])) {
-				seen.set(raw, (seen.get(raw) ?? 0) + count);
-			}
-		}
+		// The corpus tier holds one shared copy of the snapshot for the
+		// whole run (`corpus-fixture.ts`), so streaming a second one here
+		// would buy nothing and cost a re-read.
+		const seen = tallyLabels(await sourceEntries());
 		expect(seen.size).toBeGreaterThan(0);
 		expect(checkAllLabels(seen.keys())).toEqual([]);
 

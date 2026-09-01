@@ -24,7 +24,7 @@
  * immediately following an anchor's close with no intervening token.
  *
  * **Confined to letters T, U and V.** The catalogue's `reason` claims
- * this; `stranded-tail.test.ts`'s corpus tier ASSERTS it against a
+ * this; `stranded-tail.corpus.test.ts`'s corpus tier ASSERTS it against a
  * fresh walk rather than assuming it, because a claim the row makes
  * about the corpus is exactly the kind of claim this batch exists to
  * test, not inherit. The predicate itself carries no letter check —

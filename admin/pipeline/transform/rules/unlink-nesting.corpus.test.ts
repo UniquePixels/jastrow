@@ -3,8 +3,8 @@
  * 2026-08-23 in `unlinkMatching` (see that function's docstring in
  * `unlink.ts` for the full mechanism, and `links.ts`'s `anchors`
  * docstring for the corpus-wide nesting counts). Split into its own
- * file rather than folded into `unlink.test.ts`: this is a property of
- * the SHARED removal machinery, not any one rule, and `unlink.test.ts`
+ * file rather than folded into `unlink.corpus.test.ts`: this is a property of
+ * the SHARED removal machinery, not any one rule, and `unlink.corpus.test.ts`
  * was already at the file's line budget before these two tests.
  */
 import { expect, it } from 'bun:test';

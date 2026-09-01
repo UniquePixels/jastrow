@@ -364,7 +364,7 @@ allowance is needed.
 > this document did not anticipate: **rewriting a headword invalidates
 > every anchor whose `data-ref` names the old string**, and two do —
 > `K00108` names `'Jastrow, כִּדְ׳ כַּדְבוּבָא 1'`, `P00132` names
-> `'Jastrow, עָ׳ עַדְיָא 1'`. `body/pipeline-links.test.ts`'s ABSOLUTE pin
+> `'Jastrow, עָ׳ עַדְיָא 1'`. `body/pipeline-links.corpus.test.ts`'s ABSOLUTE pin
 > fell 71,385 → 71,383 while its differential assertion ("gains 90,
 > loses none") stayed green, the rule sitting on both sides of that
 > comparison.

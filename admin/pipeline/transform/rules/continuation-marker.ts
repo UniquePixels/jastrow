@@ -28,7 +28,7 @@
  *
  * "After" is the whole `structural-repairs` phase with this rule held
  * out, which is what this rule actually receives and what
- * `continuation-marker-corpus.test.ts` asserts. **The first arm
+ * `continuation-marker.corpus.test.ts` asserts. **The first arm
  * collapses because this same batch repaired it**:
  * `strandedDashStarMarker` and `stemHeadMarkerChop` rejoined 101 of the
  * 109. This row's own population is unaffected either way.

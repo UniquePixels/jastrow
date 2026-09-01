@@ -61,7 +61,7 @@
 **Global Constraints:**
 - Branch `impl/phase-2-batch-4`, off `v2` @ `45d50a4` (rebased 2026-08-26 after the precondition merged as PR #50). Never commit to `main` or `v2`.
 - Every commit signed off (`git commit -s`), subject ≤ 50 chars, format `<emoji> <type>(<scope>): <description>`.
-- `bunx biome check .` before every commit. Branch baseline is **117 infos, 0 errors** — a new error is a regression. (116 before #50; `registry.order.test.ts` now trips `noExcessiveLinesPerFile` at 332 counted lines against a 300 soft max. `bun qa:lint` runs `--error-on-warnings` and still exits 0.)
+- `bunx biome check .` before every commit. Branch baseline is **117 infos, 0 errors** — a new error is a regression. (116 before #50; `registry.order.corpus.test.ts` now trips `noExcessiveLinesPerFile` at 332 counted lines against a 300 soft max. `bun qa:lint` runs `--error-on-warnings` and still exits 0.)
 - Baseline test count on `45d50a4` is **876 pass / 0 fail**. Every task ends with a strictly larger pass count and 0 fail.
 - `Rule.apply` MUST treat `entry` as immutable and return a new object, or the same reference unchanged. `count.ts` recursively freezes the corpus, so an in-place write is a `TypeError`.
 - **No rule in this batch may set `allows`.** Seven markup-repair mechanisms — boundary moves *and* duplicate-layer removals; every output byte is an input byte. A non-empty `allows` here is a design error, not a ruling.
@@ -94,7 +94,7 @@
 | File | Responsibility | Task |
 |---|---|---|
 | ~~`admin/pipeline/transform/commutation.ts`~~ | the commutation gate — **shipped in PR #50**, inherited not written | — |
-| ~~`admin/pipeline/transform/commutation.test.ts`~~ | ditto | — |
+| ~~`admin/pipeline/transform/commutation.corpus.test.ts`~~ | ditto | — |
 | `data/patches/patterns.jsonl` | count, `reason`, `entangledWith` and `route` write-backs | 1, 6 |
 | `admin/pipeline/transform/rules/nested-anchor.ts` | the two nested-layer removals (755, 465 incl. the JT 10) | 2 |
 | `admin/pipeline/transform/rules/paren-boundary.ts` | the tosefta re-split pair + `open-paren-in-anchor-display` | 3 |
@@ -145,7 +145,7 @@ changes `e`, both orders are `e`. 27 rules / 351 pairs / ~35s against a
 `changingRids`, `nonCommutingPairs` and `PairStats`. `PairStats.inertRules`
 names rules that changed no entry — an inert rule satisfies the declaration
 invariant vacuously, so a pair count alone would miss it. The companion pin in
-`registry.order.test.ts` is rule 4, *every unlink rule precedes the rtl wrap
+`registry.order.corpus.test.ts` is rule 4, *every unlink rule precedes the rtl wrap
 trio*; both `UNLINK` and `WRAP` are earned over the corpus rather than id
 literals, and `WRAP`'s coverage signature is position-sensitive.
 
@@ -346,7 +346,7 @@ git commit -s -m "🌈 improve(catalogue): pin batch 4 counts and edges"
 
 **Files:**
 - Create: `admin/pipeline/transform/rules/nested-anchor.ts`
-- Create: `admin/pipeline/transform/rules/nested-anchor.test.ts`
+- Create: `admin/pipeline/transform/rules/nested-anchor.corpus.test.ts`
 - Read for reference: `admin/pipeline/transform/links.ts:202` (`anchors`), `admin/pipeline/transform/fields.ts:129` (`mapFields`), `admin/pipeline/transform/rules/unlink.ts` (the re-derive-after-each-edit loop)
 
 **Acceptance Criteria:**
@@ -357,14 +357,14 @@ git commit -s -m "🌈 improve(catalogue): pin batch 4 counts and edges"
 - [ ] Both refuse any anchor that fails `assertUsable` (malformed, interior, or unclosed) rather than editing it.
 - [ ] Removal loops **re-derive anchors after each edit** — anchors nest, and stale indices are the batch-2 bug this codebase already paid for once.
 
-**Verify:** `bun test admin/pipeline/transform/rules/nested-anchor.test.ts` → PASS; `bun transform:count` → both rows MATCH.
+**Verify:** `bun test admin/pipeline/transform/rules/nested-anchor.corpus.test.ts` → PASS; `bun transform:count` → both rows MATCH.
 
 **Steps:**
 
 - [ ] **Step 1: Write the failing fixture tests**
 
 ```ts
-// admin/pipeline/transform/rules/nested-anchor.test.ts
+// admin/pipeline/transform/rules/nested-anchor.corpus.test.ts
 import { describe, expect, test } from 'bun:test';
 import { dupAnchorLanguageRef, nestedAnchorDuplicate } from './nested-anchor.ts';
 import type { SourceEntry } from '../../body/types.ts';
@@ -427,7 +427,7 @@ describe('nestedAnchorDuplicate', () => {
 
 - [ ] **Step 2: Run to verify it fails**
 
-Run: `bun test admin/pipeline/transform/rules/nested-anchor.test.ts`
+Run: `bun test admin/pipeline/transform/rules/nested-anchor.corpus.test.ts`
 Expected: FAIL — `Cannot find module './nested-anchor.ts'`
 
 - [ ] **Step 3: Implement `nested-anchor.ts`**
@@ -526,7 +526,7 @@ Each rule then walks only its own locus. `dupAnchorLanguageRef` edits `entry.lan
 
 - [ ] **Step 4: Run the fixture tests**
 
-Run: `bun test admin/pipeline/transform/rules/nested-anchor.test.ts`
+Run: `bun test admin/pipeline/transform/rules/nested-anchor.corpus.test.ts`
 Expected: PASS, 8 tests.
 
 - [ ] **Step 5: Add the corpus tier — counts and the trapped-mark census**
@@ -559,14 +559,14 @@ Set `TransformRecord.detail` on the definition rule to the trapped text so this 
 
 - [ ] **Step 6: Run the corpus tier**
 
-Run: `bun test admin/pipeline/transform/rules/nested-anchor.test.ts`
+Run: `bun test admin/pipeline/transform/rules/nested-anchor.corpus.test.ts`
 Expected: PASS. A mismatch here is a **finding**, not a test to relax — record the measured figure and reconcile against the catalogue before proceeding.
 
 - [ ] **Step 7: Commit**
 
 ```bash
 bunx biome check .
-git add admin/pipeline/transform/rules/nested-anchor.ts admin/pipeline/transform/rules/nested-anchor.test.ts
+git add admin/pipeline/transform/rules/nested-anchor.ts admin/pipeline/transform/rules/nested-anchor.corpus.test.ts
 git commit -s -m "🦄 new(transform): drop duplicate anchor layers"
 ```
 
@@ -734,7 +734,7 @@ git commit -s -m "🦄 new(transform): re-split tosefta and paren seams"
 
 **Files:**
 - Create: `admin/pipeline/transform/rules/stranded-tail.ts`
-- Create: `admin/pipeline/transform/rules/stranded-tail.test.ts`
+- Create: `admin/pipeline/transform/rules/stranded-tail.corpus.test.ts`
 
 **Acceptance Criteria:**
 - [ ] `superscriptInsideAnchor` reproduces **182 occurrences / 160 entries** and is confined to letters T, U and V — asserted, not assumed, since the confinement is a corpus claim the row makes.
@@ -743,14 +743,14 @@ git commit -s -m "🦄 new(transform): re-split tosefta and paren seams"
 - [ ] Both rules pass `checkMarkup` with a non-positive well-formedness delta — moving a `<sup>` pair inside an `<a>` is the exact shape a naive splice breaks.
 - [ ] Neither rule sets `allows`.
 
-**Verify:** `bun test admin/pipeline/transform/rules/stranded-tail.test.ts` → PASS; `bun transform:count` → both rows MATCH.
+**Verify:** `bun test admin/pipeline/transform/rules/stranded-tail.corpus.test.ts` → PASS; `bun transform:count` → both rows MATCH.
 
 **Steps:**
 
 - [ ] **Step 1: Write the failing fixture tests**
 
 ```ts
-// admin/pipeline/transform/rules/stranded-tail.test.ts
+// admin/pipeline/transform/rules/stranded-tail.corpus.test.ts
 import { describe, expect, test } from 'bun:test';
 import { superscriptInsideAnchor, truncatedCitationDigit } from './stranded-tail.ts';
 import type { SourceEntry } from '../../body/types.ts';
@@ -800,7 +800,7 @@ describe('truncatedCitationDigit', () => {
 
 - [ ] **Step 2: Run to verify it fails**
 
-Run: `bun test admin/pipeline/transform/rules/stranded-tail.test.ts`
+Run: `bun test admin/pipeline/transform/rules/stranded-tail.corpus.test.ts`
 Expected: FAIL — `Cannot find module './stranded-tail.ts'`
 
 - [ ] **Step 3: Implement `stranded-tail.ts`**
@@ -816,7 +816,7 @@ Document in the module header that `truncatedCitationDigit` leaves the `data-ref
 
 - [ ] **Step 4: Run the fixture tests**
 
-Run: `bun test admin/pipeline/transform/rules/stranded-tail.test.ts`
+Run: `bun test admin/pipeline/transform/rules/stranded-tail.corpus.test.ts`
 Expected: PASS, 6 tests.
 
 - [ ] **Step 5: Add the corpus tier, asserting the letter confinement**
@@ -845,7 +845,7 @@ describe('corpus tier', () => {
 
 ```bash
 bunx biome check .
-git add admin/pipeline/transform/rules/stranded-tail.ts admin/pipeline/transform/rules/stranded-tail.test.ts
+git add admin/pipeline/transform/rules/stranded-tail.ts admin/pipeline/transform/rules/stranded-tail.corpus.test.ts
 git commit -s -m "🦄 new(transform): pull stranded citation tails in"
 ```
 
@@ -1099,7 +1099,7 @@ git commit -s -m "📖 doc(catalogue): audit batch 4's two judgment rows"
 - [x] The commutation gate (inherited from PR #50) passes over ~~all 34 rules~~ **all 33 rules**, and any new non-commuting pair is DECLARED rather than reordered around. **A green gate is not coverage** — it closes two-rule exposure only, so state in the report which placements were argued from a whole-registry both-ways composition and which rest on the pair gate alone.
 - [ ] `bun transform:count` → every batch-4 row MATCH.
 - [ ] `bun body:migrate-dry` → 32,512/32,512, 0 schema failures, 0 quarantines.
-- [ ] `admin/pipeline/body/pipeline-links.test.ts` passes — the composed `applyRepairs` + registry gate 3a added. **Every rule here edits anchors (six of six as shipped), so this is the run that matters.** Link accounting reported as a delta against the +90 / −0 the branch carries.
+- [ ] `admin/pipeline/body/pipeline-links.corpus.test.ts` passes — the composed `applyRepairs` + registry gate 3a added. **Every rule here edits anchors (six of six as shipped), so this is the run that matters.** Link accounting reported as a delta against the +90 / −0 the branch carries.
 - [x] The report states the batch's real population — ~~2,122 distinct, not 2,513 catalogued~~ **2,114 distinct, not 2,515 catalogued** (2,122 and 2,513 are both pre-correction figures the spec §1 retracts) — and why.
 
 **Verify:**
@@ -1140,7 +1140,7 @@ Remove the ten batch-4 ids. For any row Task 6 withdrew, leave a comment in `PEN
 - [ ] **Step 3: Run the registry gates**
 
 ```bash
-bun test admin/pipeline/transform/registry.test.ts admin/pipeline/transform/commutation.test.ts
+bun test admin/pipeline/transform/registry.test.ts admin/pipeline/transform/commutation.corpus.test.ts
 ```
 Expected: PASS. A `checkAdjacency` failure means the order in Step 1 is wrong; an `unaccountedEdges` failure means a deferral is unrecorded.
 
@@ -1149,7 +1149,7 @@ Expected: PASS. A `checkAdjacency` failure means the order in Step 1 is wrong; a
 ```bash
 bun transform:count
 bun body:migrate-dry
-bun test admin/pipeline/body/pipeline-links.test.ts
+bun test admin/pipeline/body/pipeline-links.corpus.test.ts
 ```
 
 Expected: every batch-4 row MATCH; 32,512/32,512, 0 schema failures, 0 quarantines; link accounting reported. **A drift between `transform:count` (rules alone) and `pipeline-links` (composed with `applyRepairs`) is the 3a finding repeating** — a repair and a transform owning one defect. Investigate before proceeding; do not adjust an expectation to make it green.

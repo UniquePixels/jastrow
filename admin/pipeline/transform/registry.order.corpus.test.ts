@@ -118,8 +118,6 @@
  * cannot be earned that way, and the note there says why.
  */
 import { describe, expect, it } from 'bun:test';
-import { applyRepairs } from '../body/repairs.ts';
-import { readSourceEntries } from '../body/source.ts';
 import type { SourceEntry } from '../body/types.ts';
 import { parsePatterns } from '../research/patterns.ts';
 import type { TagToken } from './html.ts';
@@ -132,6 +130,7 @@ import {
 	RULES,
 	unaccountedEdges,
 } from './registry.ts';
+import { composedEntries, sourceEntries } from './rules/corpus-fixture.ts';
 import { applyTransforms } from './run.ts';
 
 const catalogue = parsePatterns(
@@ -205,7 +204,7 @@ const RETARGET = new Set([
  * not one they are trivially incapable of breaking. Batch 3a's
  * headline finding was a link regression that every per-rule
  * measurement missed. The corpus pass below and
- * `body/pipeline-links.test.ts` are the two things that can see it.
+ * `body/pipeline-links.corpus.test.ts` are the two things that can see it.
  *
  * Rule 1 says nothing about where any of the twelve sit, but plenty
  * else does: four measured constraints order them among THEMSELVES,
@@ -271,7 +270,7 @@ const NEITHER = new Set([
 	// they are incapable of breaking. The corpus pass below earns it:
 	// every anchor's parsed
 	// `href`/`data-ref` pair is compared before and after over all
-	// 32,512 entries, and `stranded-tail.test.ts` compares the whole
+	// 32,512 entries, and `stranded-tail.corpus.test.ts` compares the whole
 	// opening-tag multiset besides.
 	'anchor-swallows-close-paren',
 	'ascii-quote-as-gershayim-in-body',
@@ -411,13 +410,13 @@ const CORROBORATE = new Set(['tosefta-variant-chapter-halakha-loss']);
  * DOES read and write these fields, though — `gershayimInBody` is scoped
  * to every field `fieldsOf` walks, `headword` and `alt_headwords`
  * included, and it composes with `phraseAltHeadwordStub` measurably
- * (`body/pipeline-links.test.ts` pins the corpus gershayim count moving
- * 2,305 → 2,309 because the phrase rule copies a headword that rule
- * already repaired). The ORDER is free and that is measured, not
- * assumed: both directions give 92 marks over these two fields and 235
- * phrase records, since `gershayimInBody` walks every field and repairs
- * the copy too when it runs second. Converging is not the same as
- * isolated, and this class claims only the former.
+ * (`body/pipeline-links.corpus.test.ts` pins the corpus gershayim
+ * count moving 2,305 → 2,309 because the phrase rule copies a headword
+ * that rule already repaired). The ORDER is free and that is measured,
+ * not assumed: both directions give 92 marks over these two fields and
+ * 235 phrase records, since `gershayimInBody` walks every field and
+ * repairs the copy too when it runs second. Converging is not the same
+ * as isolated, and this class claims only the former.
  *
  * What IS ordered is their order among THEMSELVES —
  * `parenthesized-alt-headword` strictly before `phrase-alt-headword-
@@ -1095,7 +1094,7 @@ let scanned: Promise<void> | null = null;
 /** The corpus pass itself, run once however many tests await it. */
 function scan(): Promise<void> {
 	scanned ??= (async (): Promise<void> => {
-		for await (const source of readSourceEntries()) {
+		for (const source of await sourceEntries()) {
 			const before = targetsOf(source);
 			const coverage = rtlSpanCoverageOf(source);
 			const text = textOf(source);
@@ -1236,7 +1235,7 @@ describe('the classification is earned, not declared', () => {
 	// 0 fully orphaned in either reading.
 	//
 	// THE TOTAL IS 42 HERE, NOT THE 30 + 11 = 41 THAT
-	// `duplication-corpus.test.ts` reports, and the difference is the
+	// `duplication.corpus.test.ts` reports, and the difference is the
 	// composition. That file measures each rule alone on the entry after
 	// `text-repairs`; this one measures after the preceding
 	// `structural-repairs` rules, where `strandedStemHead` exposes the
@@ -1277,12 +1276,16 @@ describe('the classification is earned, not declared', () => {
 				(rule) => rule.id === 'duplicated-definition-opening-run',
 			),
 		).filter((rule) => rule.phase === 'structural-repairs');
-		for await (const source of readSourceEntries()) {
-			const text = applyTransforms(
-				applyRepairs(source).entry,
-				'text-repairs',
+		// `composedEntries()` IS `applyTransforms(applyRepairs(source).entry,
+		// 'text-repairs')` over the whole corpus — the stage this walk used
+		// to rebuild for itself. Sharing it costs nothing here and saves the
+		// pass; the numbers below are unchanged by the substitution.
+		for (const source of await composedEntries()) {
+			const input = applyTransforms(
+				source,
+				'structural-repairs',
+				earlier,
 			).entry;
-			const input = applyTransforms(text, 'structural-repairs', earlier).entry;
 			for (const rule of structural) {
 				const result = rule.apply(input);
 				if (result.records.length === 0) {
@@ -1397,7 +1400,7 @@ describe('the classification is earned, not declared', () => {
 		const rules = RULES.filter((rule) => FIELD.has(rule.id));
 		expect(rules).toHaveLength(FIELD.size);
 		let checked = 0;
-		for await (const source of readSourceEntries()) {
+		for (const source of await sourceEntries()) {
 			for (const rule of rules) {
 				const after = rule.apply(source).entry;
 				for (const value of [

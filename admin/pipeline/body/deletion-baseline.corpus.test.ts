@@ -1,8 +1,7 @@
 import { expect, it } from 'bun:test';
 import { textOf } from '../transform/no-new-text.ts';
 import { RULES } from '../transform/registry.ts';
-import { applyRepairs } from './repairs.ts';
-import { readSourceEntries } from './source.ts';
+import { repairedEntries } from '../transform/rules/corpus-fixture.ts';
 
 /**
  * What the loss gate does NOT cover, pinned (batch-6b spec
@@ -81,8 +80,12 @@ function lostCount(before: string, after: string): number {
  * and not what measuring each in isolation would report. */
 async function build(): Promise<Map<string, Tally>> {
 	const report = new Map<string, Tally>();
-	for await (const source of readSourceEntries()) {
-		let entry = applyRepairs(source).entry;
+	// `repairedEntries()` is `applyRepairs` over the whole snapshot, built
+	// once for the run. This walk needs the intermediate entry after EACH
+	// rule, so it cannot share `composedEntries()` — but it has no reason
+	// to repeat the repair pass that precedes them.
+	for (const repaired of await repairedEntries()) {
+		let entry = repaired;
 		let text = textOf(entry);
 		for (const rule of RULES) {
 			if (rule.phase !== 'text-repairs') {

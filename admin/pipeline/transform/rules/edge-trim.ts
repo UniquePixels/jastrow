@@ -230,7 +230,7 @@ function strippable(text: string | undefined): text is string {
  * this from becoming the corpus-wide `trimEnd()` the row's audit
  * forbids in capital letters — 2,352 entries, gloss heads welded onto
  * their sense labels. Both figures, and the widen-to-any-sense 2,340
- * that reconciles with them, are pinned in `edge-trim-corpus.test.ts`;
+ * that reconciles with them, are pinned in `edge-trim.corpus.test.ts`;
  * see the module doc for why each is what it is.
  *
  * Returns `changed: false` for a missing sense or one the filter

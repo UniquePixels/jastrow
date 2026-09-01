@@ -407,7 +407,7 @@ transform is the audit.
 > claim was re-measured by running the rule first and last in the
 > shipped registry and comparing all 32,512 entries byte for byte.
 
-Order is load-bearing, and `registry.order.test.ts` can only see one of
+Order is load-bearing, and `registry.order.corpus.test.ts` can only see one of
 these four: it asserts cluster contiguity against the live
 `entangledWith` graph, and three of the four constraints are not
 recorded as edges. They are pinned by explicit assertions in that file
@@ -472,7 +472,7 @@ Per the module spec §5, plus:
 | label vocabulary re-derives from the snapshot unchanged | test |
 | `coverage()` accounts for all 77 rows | `registry.test.ts` |
 | `bun body:migrate-dry` record count unchanged | corpus |
-| `pipeline-links.test.ts` link totals unchanged | corpus |
+| `pipeline-links.corpus.test.ts` link totals unchanged | corpus |
 
 The last one matters more than it looks. 3b touches `</a><i>` and
 `)</a><i>` seams — **110 of them sit directly against an anchor's
@@ -480,7 +480,7 @@ closing tag** (57 + 53). CORRECTED 2026-08-26: this said **165**, which
 was the pre-decline arithmetic (112 + 53), written before both patterns
 gained the `(?![.,;:?!])` guard. See `docs/v2/transform-batch-3b.md` §5.
 Batch 3a's headline finding was a link regression that
-every per-rule measurement missed. `pipeline-links.test.ts` exists
+every per-rule measurement missed. `pipeline-links.corpus.test.ts` exists
 because of it, and this batch is the first to run against it as an
 inherited guard rather than a new one.
 

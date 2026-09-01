@@ -64,7 +64,7 @@
  *
  * Definition scope, recursive through `sense.senses` (senses nest; a
  * flat walk loses about a quarter of a population), anchors read
- * through `links.ts`. `geresh.test.ts`'s header carries the query
+ * through `links.ts`. `geresh.corpus.test.ts`'s header carries the query
  * shape; the exception register and task-5-report.md have the
  * runnable scripts.
  *
@@ -258,7 +258,7 @@ function headLetter(headword: string): string {
 
 /**
  * Whether the BARE defect predicate matches. Exported so
- * `geresh.test.ts` can measure the population corpus-wide
+ * `geresh.corpus.test.ts` can measure the population corpus-wide
  * independently of what the rule then does with it: `transform:count`
  * reports only the ENTRIES a rule touched, and cannot tell a
  * predicate that quietly narrowed from a rule that fired everywhere

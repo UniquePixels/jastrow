@@ -43,7 +43,7 @@ binyan names derived from the corpus's own `verbal_stem` field** — the
 enumeration, minus the six multi-label headings (`"Hithpa. a. Nithpa."`
 and kin). The vocabulary is frozen in `rules/stem-section.ts` in the
 `abbrev-vocab.ts` style, and
-`rules/stem-section-corpus.test.ts` re-derives it live and fails if
+`rules/stem-section.corpus.test.ts` re-derives it live and fails if
 upstream moves.
 
 Deriving the vocabulary from `verbal_stem` rather than inventing it is
@@ -288,7 +288,7 @@ reason on the first.
 
 The real dependency the gate was gesturing at — this rule's population
 depending on `label-period-outside-italic`'s output — is pinned by
-measurement instead, in `rules/stem-section-corpus.test.ts`.
+measurement instead, in `rules/stem-section.corpus.test.ts`.
 
 ## 8. The bracket collision, closed
 

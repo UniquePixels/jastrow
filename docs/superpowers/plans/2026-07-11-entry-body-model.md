@@ -838,7 +838,7 @@ bun qa && git add admin/pipeline/body/grammar.ts admin/pipeline/body/grammar.tes
 
 **Files:**
 - Create: `admin/pipeline/body/labels.ts`
-- Create: `admin/pipeline/body/labels.test.ts`
+- Create: `admin/pipeline/body/labels.corpus.test.ts`
 
 **Acceptance Criteria:**
 - [ ] `parseLabel(raw, position)` → `{ label, star, dash }` or `null` (unparseable)
@@ -846,14 +846,14 @@ bun qa && git add admin/pipeline/body/grammar.ts admin/pipeline/body/grammar.tes
 - [ ] Fixture test: every `number` value in the whole corpus (checked in Task 10's dry-run) either round-trips or lands in the quarantine list — starting assertion here covers all values in `fixtures/*.jsonl`
 - [ ] The ~72 broken-sequence entries parse individually (per-label) — sequence sanity is reported, not "fixed"
 
-**Verify:** `bun test admin/pipeline/body/labels.test.ts` → all pass
+**Verify:** `bun test admin/pipeline/body/labels.corpus.test.ts` → all pass
 
 **Steps:**
 
 - [ ] **Step 1: Failing tests**
 
 ```ts
-// admin/pipeline/body/labels.test.ts
+// admin/pipeline/body/labels.corpus.test.ts
 import { describe, expect, it } from 'bun:test';
 import { parseLabel, printLabel } from './labels.ts';
 
@@ -914,7 +914,7 @@ export function printLabel(p: ParsedLabel): string {
 - [ ] **Step 4: Commit**
 
 ```bash
-bun qa && git add admin/pipeline/body/labels.ts admin/pipeline/body/labels.test.ts && git commit -s -m "🦄 new(pipeline): sense label normalize + regen"
+bun qa && git add admin/pipeline/body/labels.ts admin/pipeline/body/labels.corpus.test.ts && git commit -s -m "🦄 new(pipeline): sense label normalize + regen"
 ```
 
 ---

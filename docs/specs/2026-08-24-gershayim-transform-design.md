@@ -566,7 +566,7 @@ Nothing in the suite would have caught it. The census ran on pristine
 source; `body:migrate-dry` counts records and never scores links. The
 one arrangement that actually ships was the one nothing measured.
 
-So the gate is now `admin/pipeline/body/pipeline-links.test.ts`:
+So the gate is now `admin/pipeline/body/pipeline-links.corpus.test.ts`:
 `applyRepairs` plus the whole registry over all 32,512 entries, the
 pair withheld and then applied, asserting gained 90 / lost 0, plus 0
 `&quot;` and 2,305 `״` in the output — one spelling per address.

@@ -97,7 +97,7 @@ argued:
   both arms (391 + 107 − 5 = 493). So the containment is a STRICT
   subset — 391 of 493 entries — measured rather than asserted, and 391
   is what the arithmetic below subtracts. All five figures are pinned
-  in `paren-boundary-corpus.test.ts`, the disagreeing arm's entry count
+  in `paren-boundary.corpus.test.ts`, the disagreeing arm's entry count
   and the both-arms overlap added there in this branch's last fix wave
   so that no later reader has to re-derive them from prose.
 
@@ -113,7 +113,7 @@ argued:
   > subtracted.
 - `jt-double-wrapped-citation` (10) is the empty-trapped-text arm of
   `nested-anchor-swallows-punctuation`'s 465. Asserted as a sorted rid
-  list in `rules/nested-anchor.test.ts`, and re-derived independently
+  list in `rules/nested-anchor.corpus.test.ts`, and re-derived independently
   from the pipeline in §5.
 
 `2,515 − 391 − 10 = **2,114 distinct entries**`. With
@@ -179,7 +179,7 @@ two blocks**:
 
 | Position | Rules | Why there |
 |---|---|---|
-| 3–4, in the unlink block | `dupAnchorLanguageRef`, `nestedAnchorDuplicate` | they declare `unlinks`, so `registry.order.test.ts` earns them into `UNLINK` from the corpus, and rules 1 and 4 then require them above every retarget and every rtl wrap rule (**corrected 2026-08-26 from "2–3"**: `apparatusCite` and `rabbiName` hold 1–2) |
+| 3–4, in the unlink block | `dupAnchorLanguageRef`, `nestedAnchorDuplicate` | they declare `unlinks`, so `registry.order.corpus.test.ts` earns them into `UNLINK` from the corpus, and rules 1 and 4 then require them above every retarget and every rtl wrap rule (**corrected 2026-08-26 from "2–3"**: `apparatusCite` and `rabbiName` hold 1–2) |
 | 12–15, after the wrap component, before the retargets | `toseftaCloseParen`, `openParenInAnchorDisplay`, `superscriptInsideAnchor`, `truncatedCitationDigit` | they REPAIR anchors that the retargets READ, and they must see the anchor sequence the unlinks leave behind |
 
 The two unlink rows could not join the four: inserting them into the
@@ -195,8 +195,8 @@ state plainly:
 |---|---|
 | all six placements are FREE on today's corpus | **whole-registry, both ways.** Each rule moved to the FRONT and to the BACK of `RULES`, the whole registry composed over all 32,512 entries, final bytes compared per entry: **0 / 0 for all six.** |
 | no new non-commuting pair | **pairwise gate only.** 33 rules, 528 unordered pairs, 528 composed, 8 non-commuting, **0 undeclared** — the same 8 the branch already declared. |
-| the two paren rules do not induce each other's shape | **whole-corpus, both orders, as a shipped assertion** — `paren-boundary-corpus.test.ts`: 0 order-dependent entries, 0 induced close-paren sites, 0 induced open-paren sites. |
-| the two unlink populations are disjoint | **whole-corpus assertion** in `nested-anchor.test.ts`: 755 + 465 = 1,220, 0 shared entries, reproducing the pre-re-scope catalogued figure from the opposite direction. |
+| the two paren rules do not induce each other's shape | **whole-corpus, both orders, as a shipped assertion** — `paren-boundary.corpus.test.ts`: 0 order-dependent entries, 0 induced close-paren sites, 0 induced open-paren sites. |
+| the two unlink populations are disjoint | **whole-corpus assertion** in `nested-anchor.corpus.test.ts`: 755 + 465 = 1,220, 0 shared entries, reproducing the pre-re-scope catalogued figure from the opposite direction. |
 | batch 4 changes no link target | **whole-pipeline**, §5. |
 
 Nothing in this batch rests on the pair gate alone except the negative
@@ -315,7 +315,7 @@ strongest evidence for the `COVERED` record in §6.
 Batch 4's other four rules move **no anchor and no target**: withholding
 all six gives the same 72,593 as withholding the unlink pair alone.
 
-`admin/pipeline/body/pipeline-links.test.ts` still reports **gained 90,
+`admin/pipeline/body/pipeline-links.corpus.test.ts` still reports **gained 90,
 lost 0** on its differential arm. Its ABSOLUTE pin moved 72,593 →
 71,383 — the first use of the clause its own docstring wrote for this
 case ("a new unlink rule will move it legitimately — update the number
@@ -397,7 +397,7 @@ while that rule is registered, so:
 The claim is falsifiable where it was silent. What `COVERED` does NOT
 establish is that the repair is real — no more than a `PENDING` entry
 establishes that a row needs one; the evidence is the sorted rid list
-asserted in `rules/nested-anchor.test.ts` and §5's independent
+asserted in `rules/nested-anchor.corpus.test.ts` and §5's independent
 re-derivation.
 
 ### The two withdrawals
@@ -441,7 +441,7 @@ not conservatism:
    after `text-repairs` in full, so an unlink rule moved there would run
    after every wrap and retarget rule in the registry — the exact
    inversion `fix/rtl-unlink-order` was written to undo, and one that
-   rules 1 and 4 of `registry.order.test.ts` exist to forbid.
+   rules 1 and 4 of `registry.order.corpus.test.ts` exist to forbid.
 2. **It is unwired and fails loudly.** `migrate-dry.ts:294` runs the
    phase as a no-op and `migrate-dry.ts:144` throws the moment any rule
    declares it ("wire it — batch 6"). A rule placed there today halts
@@ -478,7 +478,7 @@ clean run means "no RECORDED entanglement is split", never "no
 entanglement is split".
 
 **Two recorded edges are now reported rather than validated**, and the
-report is pinned in `registry.order.test.ts` with its reason:
+report is pinned in `registry.order.corpus.test.ts` with its reason:
 `anchor-swallows-close-paren ~ tosefta-variant-chapter-halakha-loss`
 and `jt-double-wrapped-citation ~ nested-anchor-swallows-punctuation`.
 Both have one registered endpoint and one that will not have a rule
@@ -494,7 +494,7 @@ multiset), `checkMarkup` (zero delta), `checkLinkTargets` (unchanged
 target) and the anchor count alike. `openParenInAnchorDisplay` would
 produce exactly that from a one-character display and nothing in the
 stack would object. The live population of such displays is 0 and
-`paren-boundary-corpus.test.ts` asserts the stronger property the count
+`paren-boundary.corpus.test.ts` asserts the stronger property the count
 does not give — **the number of anchors with an empty display is itself
 invariant across every edit** — with a fixture demonstrating the hole
 directly (the rule fires on `<a>(</a>)`, every gate passes, the hollow
@@ -594,8 +594,8 @@ bunx biome check .                                   # 122 infos, 0 errors
 bun qa:tsc                                           # exit 0
 bun transform:count                                  # 33 rules, 3 mismatches
 bun body:migrate-dry                                 # entries=32512 repaired=812
-bun test admin/pipeline/body/pipeline-links.test.ts  # 71,383 / +90 / −0
-bun test admin/pipeline/transform/commutation.test.ts
+bun test admin/pipeline/body/pipeline-links.corpus.test.ts  # 71,383 / +90 / −0
+bun test admin/pipeline/transform/commutation.corpus.test.ts
 #   33 rules, 528 pairs, 8 non-commuting, 0 undeclared
 ```
 

@@ -340,7 +340,7 @@ K00108 anchor  data-ref="Jastrow, כִּדְ׳ כַּדְבוּבָא 1"   → K
 P00132 anchor  data-ref="Jastrow, עָ׳ עַדְיָא 1"       → P00137
 ```
 
-`body/pipeline-links.test.ts`'s absolute pin fell from **71,385 to
+`body/pipeline-links.corpus.test.ts`'s absolute pin fell from **71,385 to
 71,383**. Its differential assertion — *"gains exactly 90 resolving
 targets and loses none"* — **stayed green**, because the rule under test
 sits on both sides of that comparison. The absolute pin is the only

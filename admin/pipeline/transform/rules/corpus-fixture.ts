@@ -1,6 +1,10 @@
 /**
- * The composed corpus, built ONCE for every corpus-tier test in this
- * directory.
+ * The composed corpus, built ONCE for every `*.corpus.test.ts` in the
+ * repository — `body/`, `transform/` and `transform/rules/` alike, not
+ * just this directory. It is the corpus tier's single entry point to the
+ * snapshot: `test-tiers.test.ts` treats importing this file as the mark
+ * of a corpus-tier test, and no test should reach
+ * `readSourceEntries()` directly any more.
  *
  * ## Why this exists
  *

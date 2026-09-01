@@ -1,6 +1,6 @@
 /**
  * `italicSwallowsCloseParen`, CORPUS TIER. Fixture tier in
- * `italic-paren.test.ts`, split for the reason `unlink.test.ts` is
+ * `italic-paren.test.ts`, split for the reason `unlink.corpus.test.ts` is
  * split three ways.
  *
  * This row's harm is rendered TYPE, not rendered characters — the
@@ -234,7 +234,7 @@ let measured: Promise<Measurement> | null = null;
 
 /** ONE pass over the corpus, shared by all six assertions below.
  * Behind a lazily-awaited cached promise on
- * `seam-space-corpus.test.ts`'s shape rather than at module scope:
+ * `seam-space.corpus.test.ts`'s shape rather than at module scope:
  * module evaluation is covered by no test timeout, so a slow corpus
  * there fails the suite with nothing naming the cause. Every caller
  * gets the same frozen-by-convention `Measurement`; nothing below

@@ -18,7 +18,7 @@
  * wrong tag fails it even though every codepoint count still balances.
  *
  * The `stripTags` equality runs unconditionally rather than under
- * `it.skipIf(stale)`, unlike `abbrev-vocab.test.ts`'s re-derivation:
+ * `it.skipIf(stale)`, unlike `abbrev-vocab.corpus.test.ts`'s re-derivation:
  * what it asserts is a property of the rules, not a count of today's
  * corpus, so a source re-fetch changes how many entries it inspects
  * and never whether it should hold.
@@ -26,7 +26,7 @@
  * The two POPULATION figures pinned alongside it — 1,567 and 979
  * entries, this batch's two largest catalogue corrections — ARE
  * counts of today's corpus, and are pinned here for the reason
- * `seam-space-corpus.test.ts` pins its five: they are the numbers
+ * `seam-space.corpus.test.ts` pins its five: they are the numbers
  * written back to `patterns.jsonl`, and nothing else in the tree
  * re-measures them, so an uncorrected drift would otherwise be a
  * discovery rather than a test failure. After a source re-fetch a
@@ -34,10 +34,10 @@
  * write the row and the test back together.
  */
 import { describe, expect, it } from 'bun:test';
-import { readSourceEntries } from '../../body/source.ts';
 import type { SourceEntry } from '../../body/types.ts';
 import { fieldsOf, stripTags } from '../no-new-text.ts';
 import type { Rule } from '../types.ts';
+import { sourceEntries } from './corpus-fixture.ts';
 import {
 	italicGlossPeriodOutside,
 	labelPeriodInside,
@@ -283,7 +283,7 @@ describe('corpus tier: the Class A invariant', () => {
 	it('changes no field’s text on any entry either rule touches', async () => {
 		const touched = new Map(PAIR.map((rule) => [rule.id, 0]));
 		const problems: string[] = [];
-		for await (const entry of readSourceEntries()) {
+		for (const entry of await sourceEntries()) {
 			for (const rule of PAIR) {
 				const hit = auditEntry(rule, entry, problems) ? 1 : 0;
 				touched.set(rule.id, (touched.get(rule.id) ?? 0) + hit);
@@ -302,7 +302,7 @@ describe('corpus tier: the Class A invariant', () => {
 			'label-period-outside-italic': 979,
 		});
 		// 180s, matching every other corpus-tier test in the batch
-		// (`seam-space-corpus.test.ts`, `registry.order.test.ts`). This
+		// (`seam-space.corpus.test.ts`, `registry.order.corpus.test.ts`). This
 		// walks all 32,512 entries twice over; under bun's 5s default it
 		// would fail on a cold page cache with a timeout naming nothing,
 		// and a timeout here reads as a broken invariant.

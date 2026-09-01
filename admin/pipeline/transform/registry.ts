@@ -110,7 +110,7 @@ const RULES: readonly Rule[] = [
 	//
 	// It is neither an unlink nor a retarget nor a wrap: it declares no
 	// `unlinks`, and it writes a target only by relocating the bytes
-	// that already spelled it. `registry.order.test.ts` classifies it in
+	// that already spelled it. `registry.order.corpus.test.ts` classifies it in
 	// its own `RESTORE` set, EARNED over the corpus from the `restored`
 	// declaration exactly as `GLYPH` is earned from `glyphCorrected`.
 	unterminatedHref,
@@ -163,7 +163,7 @@ const RULES: readonly Rule[] = [
 	// rule reads the anchor sequence to build a new target, and must
 	// never adopt work from an anchor these rules go on to delete — so
 	// unlinking has to run first, not merely somewhere earlier in the
-	// list. Pinned by `registry.order.test.ts`'s unlink-before-retarget
+	// list. Pinned by `registry.order.corpus.test.ts`'s unlink-before-retarget
 	// assertion, which reads the whole `UNLINK` set.
 	apparatusCite,
 	rabbiName,
@@ -175,7 +175,7 @@ const RULES: readonly Rule[] = [
 	// and `nested-anchor-swallows-punctuation` (475 occ / 465 ent,
 	// `definition`) drop the OUTER layer of a doubled anchor whose two
 	// layers share a target. Both declare `unlinks`, so
-	// `registry.order.test.ts` earns them into `UNLINK` from the corpus
+	// `registry.order.corpus.test.ts` earns them into `UNLINK` from the corpus
 	// rather than from this comment, and rules 1 and 4 then place them:
 	// before every retarget rule, and before every rtl wrap rule. The
 	// batch's other four rules carry no such requirement and sit
@@ -193,8 +193,9 @@ const RULES: readonly Rule[] = [
 	// Order between the two is MEASURED and free, and so is their order
 	// against every rule already here. The two populations are DISJOINT
 	// — 0 entries in both, asserted corpus-wide in
-	// `rules/nested-anchor.test.ts`'s corpus tier, where 755 + 465 = 1,220
-	// reproduces the pre-re-scope catalogued figure — and they are
+	// `rules/nested-anchor.corpus.test.ts`'s corpus tier, where
+	// 755 + 465 = 1,220 reproduces the pre-re-scope catalogued figure —
+	// and they are
 	// separated by locus besides, one walking `language_reference` and
 	// the other `definition`. The whole-registry check is what the
 	// placement actually rests on: moving each rule to the front and to
@@ -304,7 +305,7 @@ const RULES: readonly Rule[] = [
 	// AFTER `text-repairs` in full, so an unlink rule moved there would
 	// run after every wrap rule and every retarget rule in this list —
 	// the exact inversion `fix/rtl-unlink-order` was written to undo,
-	// and one that rules 1 and 4 in `registry.order.test.ts` exist to
+	// and one that rules 1 and 4 in `registry.order.corpus.test.ts` exist to
 	// forbid. The phase is also unwired: `migrate-dry.ts:294` runs it
 	// as a no-op and `migrate-dry.ts:144` throws the moment any rule
 	// declares it ("wire it — batch 6"), so a rule placed there today
@@ -321,7 +322,7 @@ const RULES: readonly Rule[] = [
 	// FOUR rules that move one of an anchor's own tags across the text
 	// beside it. None removes an anchor, none writes a target, and none
 	// changes a single byte of tag-stripped text: each is a pure
-	// relocation of an anchor tag, which is why `registry.order.test.ts`
+	// relocation of an anchor tag, which is why `registry.order.corpus.test.ts`
 	// earns all four into `NEITHER` and why rules 1 and 4 say nothing
 	// about where they sit.
 	//
@@ -386,7 +387,7 @@ const RULES: readonly Rule[] = [
 	// measured and pinned in `paren-boundary.test.ts`) is registered on
 	// THIS line — STRICTLY BEFORE `toseftaCloseParen`, not merely
 	// adjacent to it. The direction is the whole requirement and getting
-	// it backwards is SILENT. `registry.order.test.ts` pins the
+	// it backwards is SILENT. `registry.order.corpus.test.ts` pins the
 	// DIRECTION rather than the adjacency, because `checkAdjacency` sees
 	// the entangled pair and is satisfied by either arrangement.
 	//
@@ -438,7 +439,7 @@ const RULES: readonly Rule[] = [
 	// SPAN comparison behind that is the batch's headline check — 0
 	// intersections, although 9 entries carry both shapes at different
 	// offsets, so a rid-level test would have reported a false
-	// collision. `paren-boundary-corpus.test.ts` composes the pair in
+	// collision. `paren-boundary.corpus.test.ts` composes the pair in
 	// both orders over the whole corpus and asserts 0 order-dependent
 	// entries, 0 induced close-paren sites and 0 induced open-paren
 	// sites, so the pair's freedom is a shipped assertion rather than a
@@ -451,7 +452,7 @@ const RULES: readonly Rule[] = [
 	// Both pull a fragment left outside the anchor back inside it by
 	// moving `</a>`, and neither touches `href` or `data-ref` — the
 	// opening-tag multiset is asserted byte-identical over the whole
-	// corpus in `stranded-tail.test.ts` (`tagDrift`).
+	// corpus in `stranded-tail.corpus.test.ts` (`tagDrift`).
 	//
 	// `truncatedCitationDigit` deliberately leaves `data-ref` reading
 	// the truncated number: resolving the correct Sefaria address is
@@ -516,7 +517,7 @@ const RULES: readonly Rule[] = [
 	// the full registry the rule fires on 209 occurrences / 188 entries,
 	// exactly what it fires on ALONE. No shipped unlink rule removes an
 	// antecedent this rule would have used — their populations are
-	// disjoint from its 209 (`anaphora.test.ts` pins the isolated
+	// disjoint from its 209 (`anaphora.corpus.test.ts` pins the isolated
 	// numbers; task-7-report.md has the composed run). Batch 1's RTL
 	// trio is why that is checked rather than reasoned about: there the
 	// wrong order left 62 entries unfixed with every unit test green.
@@ -639,7 +640,7 @@ const RULES: readonly Rule[] = [
 	// trio, which matters because the audit warned that wrapping bare
 	// Hebrew would migrate 117 occurrences into scope — it does not,
 	// because the predicate reads codepoints and not markup context.
-	// Both measurements are `rules/gershayim.test.ts`'s corpus tier,
+	// Both measurements are `rules/gershayim.corpus.test.ts`'s corpus tier,
 	// re-run on every `bun qa` rather than recorded here once.
 	//
 	// Appended at the END of the list when batch 3a shipped it, which
@@ -771,7 +772,7 @@ const RULES: readonly Rule[] = [
 	//   em-dash-section-break-in-own-italic × label-period-outside-italic   4
 	//
 	// Each was already argued in a block comment here and pinned in
-	// `registry.order.test.ts`; none was ever written into
+	// `registry.order.corpus.test.ts`; none was ever written into
 	// `entangledWith`, so `checkAdjacency()` was blind to all three and
 	// this file was the only thing holding them. They are edges now, and
 	// with the pre-existing period-pair edge the four rules form one
@@ -840,7 +841,7 @@ const RULES: readonly Rule[] = [
 	// CORRECTED 2026-08-26 (fix/rtl-unlink-order). This block ended
 	// "Neither constraint is an `entangledWith` edge, so
 	// `checkAdjacency()` cannot see either one … It lives here, in
-	// `registry.order.test.ts`'s explicit pin, and in the corpus-tier
+	// `registry.order.corpus.test.ts`'s explicit pin, and in the corpus-tier
 	// tests; nowhere else." Both ARE edges now, and so is this rule's
 	// pairing with `labelPeriodInside` — see the component block above.
 	// `checkAdjacency()` still cannot see WHICH WAY ROUND any of them
@@ -878,7 +879,7 @@ const RULES: readonly Rule[] = [
 	// interaction.** `gershayimInBody` is scoped to every field
 	// `fieldsOf` walks — its own row records `headword` 69 and
 	// `alt_headwords` 19 — and it composes with `phraseAltHeadwordStub`
-	// in a way `body/pipeline-links.test.ts` pins: it repairs an ASCII
+	// in a way `body/pipeline-links.corpus.test.ts` pins: it repairs an ASCII
 	// quote in a HEADWORD, the phrase rule then copies that repaired
 	// headword into `alt_headwords`, and the corpus gershayim count
 	// moves 2,305 → 2,309.
@@ -1039,7 +1040,7 @@ const RULES: readonly Rule[] = [
 	// `duplicatedOpeningRun` matches only at offset 0 and
 	// `adjacentVerbatimRepeat` only away from it, so no single run can
 	// be claimed by both — asserted in `duplication.test.ts` and
-	// measured in `duplication-corpus.test.ts`. ONE ENTRY (`I00509`)
+	// measured in `duplication.corpus.test.ts`. ONE ENTRY (`I00509`)
 	// holds one of each, at different offsets, and the two compose to
 	// the same entry in either order.
 	duplicatedOpeningRun,
@@ -1077,7 +1078,7 @@ const RULES: readonly Rule[] = [
 	// continuation-marker-em-dash-loss @ A00337`. Writing `—*3)` onto
 	// a sibling CREATES the witness `continuationMarkerDash` requires,
 	// so this rule must run FIRST or that repair never happens. The
-	// direction is pinned in `registry.order.test.ts`.
+	// direction is pinned in `registry.order.corpus.test.ts`.
 	//
 	// IT MEETS NEITHER RULE ABOVE IT, AND BOTH EXCLUSIONS ARE MEASURED
 	// RATHER THAN ARGUED. `stemHeadMarkerChop` needs a definition
@@ -1269,7 +1270,7 @@ const PENDING: readonly string[] = [
 	// and all 4 read `"b. h."` in the BUILT body — verified through
 	// `buildBody`, which calls `rejoinGlossHead` at `dry-run.ts:241`,
 	// rather than through the helper alone. Pinned corpus-wide by
-	// `rules/gloss-head-rejoin-corpus.test.ts`; audit
+	// `rules/gloss-head-rejoin.corpus.test.ts`; audit
 	// `data/patches/catalogue-audit/b-h-field-split.md`.
 	'mekhilta-sifra-never-linked',
 	// `reversed-hebrew-phrase` left this list in batch 8: WITHDRAWN to
@@ -1339,7 +1340,7 @@ const PENDING: readonly string[] = [
 	// `text-repairs` pass — where one member no longer presents the
 	// shape at all. 18 + 9 = 27 there against 18 + 10 = 28 raw. The row
 	// keeps the raw figure, because that is what it was catalogued from;
-	// `rules/stem-corpus.test.ts` asserts the composed one.
+	// `rules/stem.corpus.test.ts` asserts the composed one.
 	'vkh-geresh-loss',
 	// `tosefta-variant-chapter-halakha-loss` left this list on
 	// 2026-08-27 (fix/link-target-gate-cases): `toseftaPrimaryHalakha`
@@ -1402,7 +1403,7 @@ const PENDING: readonly string[] = [
 	// field. Note the catalogued 358 does NOT reproduce — the same
 	// buckets over all senses read 523 — and the disposition does not
 	// turn on which is right, 523 being a superset at 100% survival.
-	// Pinned by `rules/plural-capture-corpus.test.ts`; audit
+	// Pinned by `rules/plural-capture.corpus.test.ts`; audit
 	// `data/patches/catalogue-audit/plural-label-capture.md`.
 	// `continuation-marker-em-dash-loss` left this list in batch 7: it is
 	// registered above for its WITNESSED CORE of 14, and the row is
@@ -1569,7 +1570,7 @@ const PENDING: readonly string[] = [
  * What it does NOT establish is that the repair is real — no more than
  * a `PENDING` entry establishes that a row still needs one. The
  * evidence for this row is measured and lives elsewhere:
- * `rules/nested-anchor.test.ts` asserts the 20 empty-trapped-text
+ * `rules/nested-anchor.corpus.test.ts` asserts the 20 empty-trapped-text
  * records resolve to exactly the 10 rids the catalogue names, as a
  * sorted list.
  */
@@ -1690,7 +1691,7 @@ interface Cluster {
  * this read 32 / 16 the same day, before batch 4's own catalogue
  * write-back added the mutual JT/nested edge, and 18 / 9 before
  * `fix/rtl-unlink-order` declared seven more; see
- * `registry.order.test.ts` for a stale SPLIT of those totals corrected
+ * `registry.order.corpus.test.ts` for a stale SPLIT of those totals corrected
  * at the same time) — so nothing in the
  * corpus reaches this. That is exactly why it is worth building
  * correctly rather than leaving: this is the code Task 3 added to make
@@ -1869,7 +1870,7 @@ function checkAdjacency(
  * 2. A component with fewer than two registered members is dropped,
  *    which is correct for ORDER and left the rtl 3-clique pinned by
  *    nothing (Task 3; the derived-set assertion in
- *    `registry.order.test.ts` is what closed it).
+ *    `registry.order.corpus.test.ts` is what closed it).
  * 3. A DANGLING endpoint — an id no catalogue row holds — shrinks a
  *    component below two registered members and dropped it silently
  *    (CodeRabbit round 2; `Cluster.stale` above).
@@ -1884,7 +1885,7 @@ function checkAdjacency(
  * What it does NOT replace is the derived-set assertion. An edge
  * DELETED from the catalogue is not a recorded edge, so this walks
  * past it; pinning the cluster set notices — SOMETIMES. Two
- * complementary claims, not one — see `registry.order.test.ts`.
+ * complementary claims, not one — see `registry.order.corpus.test.ts`.
  *
  * CORRECTED 2026-08-29 (batch 7). "Only pinning the cluster set
  * notices" is false for one class of edge, and batch 7 deleted one of
@@ -1902,7 +1903,7 @@ function checkAdjacency(
  * function did report the surviving half-edge, and would report a
  * re-addition. What pins the deletion itself is neither gate but a
  * direct catalogue assertion in
- * `rules/sense-marker-corpus.test.ts` §7.
+ * `rules/sense-marker.corpus.test.ts` §7.
  *
  * Edges between two unregistered rows are excluded rather than
  * missing: execution order cannot be wrong about a rule that does not
@@ -1919,7 +1920,7 @@ function checkAdjacency(
  * on v2 the split is 6 both-registered and 3 neither, never 5 and 4 —
  * and every edge declared here joins two REGISTERED rules, which
  * cannot move the neither-registered count at all. Same stale split as
- * `registry.order.test.ts`'s `unaccountedEdges` block, corrected in
+ * `registry.order.corpus.test.ts`'s `unaccountedEdges` block, corrected in
  * the same pass and by the same measurement.
  *
  * Self-edges are excluded too — `checkEntanglement` owns those, and a

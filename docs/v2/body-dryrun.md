@@ -132,7 +132,7 @@ this task.
 
 ## Finding 4 — label quarantines match Task 7's corpus survey exactly
 
-The 6 quarantined `sense.number` occurrences (`labels.test.ts`'s
+The 6 quarantined `sense.number` occurrences (`labels.corpus.test.ts`'s
 `EXPECTED_QUARANTINE`, confirmed here at full-corpus scale rather than
 just the fixture/corpus-sweep unit tests) are exactly: `D00341`'s `[1)`
 (a bracket where a digit belongs — OCR/transcription damage) and 5

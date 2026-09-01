@@ -19,9 +19,9 @@ import { strandedDashStarMarker } from './sense-marker.ts';
  * raw and **0** here, so a rule written against raw source would have
  * repaired what `applyRepairs` had already fixed.
  *
- * ONE WALK, memoised, in the corpus-tier style `stem-corpus.test.ts`
+ * ONE WALK, memoised, in the corpus-tier style `stem.corpus.test.ts`
  * records. Explicit timeouts throughout: bun's 5,000ms default made
- * `anaphora.test.ts` fail intermittently on a different test each run,
+ * `anaphora.corpus.test.ts` fail intermittently on a different test each run,
  * a false red that trains a reader to re-run rather than look.
  */
 

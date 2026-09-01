@@ -11,8 +11,8 @@
  * between the two is corpus reality and a different (declined)
  * catalogue row.
  *
- * The CORPUS tier lives in `malformed-href-corpus.test.ts`, on the
- * house split (`italic-paren-corpus.test.ts` and friends): it pins the
+ * The CORPUS tier lives in `malformed-href.corpus.test.ts`, on the
+ * house split (`italic-paren.corpus.test.ts` and friends): it pins the
  * population by rid identity and pins `checkLinkTargets`'s verdict on
  * both real entries. Split out 2026-08-27 (fix/link-target-gate-cases)
  * when case 6's assertions pushed this file past its line budget.
@@ -167,7 +167,7 @@ describe('unterminatedHref', () => {
 		expect(result.glyphCorrected).toBeUndefined();
 		// The reconstruction arm relocates nothing, so it claims nothing.
 		// The reordering arm's claim is asserted in full over the real
-		// entry, in `malformed-href-corpus.test.ts`.
+		// entry, in `malformed-href.corpus.test.ts`.
 		expect(result.restored).toBeUndefined();
 	});
 
