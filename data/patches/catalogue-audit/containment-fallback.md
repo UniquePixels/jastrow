@@ -158,3 +158,57 @@ string `(קנתור)`, parentheses included. That is a malformed target and
 belongs to whichever row owns those, not to a containment repair.
 
 **The rule's population is 18.**
+
+## THE HOMOGRAPH PROBLEM — found while specifying gate case 8
+
+Measured 2026-08-31, after Brian ruled to ship this rule and to add a
+corpus-vouched gate case for it. **The gate case can vouch the WORD but
+not the ENTRY, and for this row that is nearly the whole population.**
+
+Case 8's clause for this shape is skeleton equality: the target
+headword's skeleton must equal the anchor's display skeleton. Against
+the 18 confirmed defects:
+
+| | Count |
+|---|---:|
+| target entry **uniquely determined** | **1** |
+| several homographs share the skeleton | **17** |
+
+```text
+11  נגד    -> נָגַד | נְגַד | נֶגֶד
+ 5  נימוס  -> נִימּוֹס | נִימוֹס I | נִימוֹס II
+ 1  גביא   -> גַּבְיָא I | *גַּבְיָא II | גַּבְיָא III
+ 1  פליונ  -> פליון                        <- the only unique one
+```
+
+**And the contexts want different homographs.** `(√גד, v. נגד a.
+גדל)` is an etymological root and wants the verb; `לעמת, מול, נגד,
+נכח` is a list of prepositions and wants `נֶגֶד`. Nothing in the corpus
+distinguishes them mechanically.
+
+**This is the same defect batch 9 already withdrew 347 rows for.**
+`unlinked-v-span.md` withdrew its 347 ambiguous spans precisely
+because homograph disambiguation is not available on the transform
+route, and `homograph-numbering-schism` (186) sits in `judgment` for
+the same reason. Shipping 17 of these while withdrawing those 347
+would be incoherent.
+
+**The counter-argument, which is real.** Per
+[[feedback_rendered_harm_rule]] the classification is what the READER
+sees, and today these anchors point at an unrelated lemma —
+`אִינְגַּד` "go further!" for a host about drawing, `אַבְנִימוֹס` the
+proper name for a host about *nomos*. Retargeting to ANY of the three
+homographs is a strict improvement on that: right word, possibly wrong
+sub-entry. The defect-count delta is favourable even under a blind
+pick.
+
+**Unresolved. Three readings, for Brian:**
+
+1. **Ship 1** (`פליונ` only) — honest, gate-clean, and not worth a rule.
+2. **Ship 18 with a declared pick** — defensible on the reader-harm
+   delta, but the pick has no principle behind it, and case 8 would be
+   vouching a word while the rule silently chooses an entry.
+3. **Withdraw the row**, ship `v-sub` alone (50, residue zero), and
+   send this to the Phase 4 linker with the other homograph work.
+
+Reading 3 is the recommendation, on consistency with the 347.
