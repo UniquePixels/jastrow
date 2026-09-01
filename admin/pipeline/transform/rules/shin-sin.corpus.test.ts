@@ -20,6 +20,7 @@
  * mixes them is meaningless. §3 asserts the first and nothing else.
  */
 import { expect, it } from 'bun:test';
+import type { SourceEntry } from '../../body/types.ts';
 import { fieldsOf, stripTags } from '../no-new-text.ts';
 import { composedEntries, repairedEntries } from './corpus-fixture.ts';
 import { TWINS } from './shin-sin.ts';
@@ -40,10 +41,10 @@ const DOTS = /[ׁׂ]/gu;
 
 /** Every distinct Hebrew word the corpus holds, read the way the rule
  * reads text. */
-function vocabulary(entries: readonly { rid: string }[]): Set<string> {
+function vocabulary(entries: readonly SourceEntry[]): Set<string> {
 	const found = new Set<string>();
 	for (const entry of entries) {
-		for (const field of fieldsOf(entry as never)) {
+		for (const field of fieldsOf(entry)) {
 			for (const word of field.matchAll(WORD)) {
 				found.add(word[0]);
 			}
@@ -54,10 +55,10 @@ function vocabulary(entries: readonly { rid: string }[]): Set<string> {
 
 /** Words holding a shin that carries a vowel or dagesh but no dot,
  * with how many times each occurs. */
-function damaged(entries: readonly { rid: string }[]): Map<string, number> {
+function damaged(entries: readonly SourceEntry[]): Map<string, number> {
 	const found = new Map<string, number>();
 	for (const entry of entries) {
-		for (const field of fieldsOf(entry as never)) {
+		for (const field of fieldsOf(entry)) {
 			for (const word of field.matchAll(WORD)) {
 				const bad = [...word[0].matchAll(SHIN)].some(
 					(shin) => VOWEL.test(shin[1] ?? '') && !DOT.test(shin[1] ?? ''),
@@ -160,10 +161,10 @@ it(
 it(
 	'repairs 26 of 64 reader-visible occurrences and leaves 38 witnessed by nothing',
 	async () => {
-		const count = (entries: readonly { rid: string }[]): number => {
+		const count = (entries: readonly SourceEntry[]): number => {
 			let bare = 0;
 			for (const entry of entries) {
-				for (const field of fieldsOf(entry as never)) {
+				for (const field of fieldsOf(entry)) {
 					for (const shin of stripTags(field).matchAll(SHIN)) {
 						const marks = shin[1] ?? '';
 						if (VOWEL.test(marks) && !DOT.test(marks)) {

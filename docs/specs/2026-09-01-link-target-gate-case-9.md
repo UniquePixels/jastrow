@@ -90,8 +90,19 @@ nothing.
 5. **Additions are declared, are dots, and stand on pointed letters.**
    After clause 4's normalization, `target`'s point multiset must equal
    `from`'s plus exactly the multiset of `adds`; every character of
-   `adds` must be U+05C1 or U+05C2; and in `target`, every shin or sin
-   dot must stand on a letter that also carries a vowel or a dagesh.
+   `adds` must be U+05C1 or U+05C2; and every dot the claim
+   INTRODUCED must stand on a letter that also carries a vowel or a
+   dagesh.
+
+   **The last test is scoped to the INTRODUCED dots, not to every dot
+   in `target`.** Stated over the whole target it refuses
+   `Jastrow, אִישׁוֹן 1`, where the shin dot sits on a letter whose only
+   vowel is the holam of the FOLLOWING mater vav — ordinary Hebrew, and
+   a mark the holam repair did not write. Clause 3 has already settled
+   that `from` and `target` spell the same letters, so the two walks
+   align index for index and a gained dot is one this claim is
+   answerable for. Found by running the phase over the corpus, not by
+   reading.
 
 ## 4. Blast radius, measured
 

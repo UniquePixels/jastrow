@@ -184,8 +184,15 @@ interface TransformResult {
 	 *    a rule cannot parameterize it.
 	 * 5. After that fold, `target`'s point multiset is `from`'s plus
 	 *    exactly `adds`; every character of `adds` is U+05C1 or U+05C2;
-	 *    and every shin or sin dot in `target` stands on a letter that
-	 *    also carries a vowel or a dagesh.
+	 *    and every dot the claim INTRODUCED stands on a letter that also
+	 *    carries a vowel or a dagesh. Scoped to the introduced dots
+	 *    rather than to every dot in `target`, and found that way by the
+	 *    corpus: `Jastrow, אִישׁוֹן 1` carries a shin dot on a letter
+	 *    whose only vowel is the holam of the FOLLOWING mater vav —
+	 *    ordinary Hebrew, and a mark the holam repair never wrote.
+	 *    Clause 3 has settled that the two spell the same letters, so
+	 *    the walks align index for index and a gained dot is one the
+	 *    claim is answerable for.
 	 *
 	 * **CLAUSE 4 IS WHAT MAKES THIS SAFE, AND CLAUSE 3 ALONE WOULD NOT
 	 * BE.** Measured over all 72,387 distinct targets the corpus holds:

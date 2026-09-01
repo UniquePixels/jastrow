@@ -2005,8 +2005,8 @@ it('case 9 refuses a target whose consonants moved', () => {
  * clause phrased that way would license moving a link between two
  * senses of one spelling. */
 it('case 9 refuses a homograph index change sharing a skeleton', () => {
-	const one = `${P_GOOD.slice(0, -2)}I 1`;
-	const two = `${P_GOOD.slice(0, -2)}II 1`;
+	const one = `${P_GOOD.slice(0, -1)}I`;
+	const two = `${P_GOOD.slice(0, -1)}II`;
 	expect(
 		checkLinkTargets(
 			pointedIn(one),

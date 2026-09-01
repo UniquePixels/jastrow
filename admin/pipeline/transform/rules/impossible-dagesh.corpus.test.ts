@@ -10,6 +10,7 @@
  * three assertions apiece.
  */
 import { expect, it } from 'bun:test';
+import type { SourceEntry } from '../../body/types.ts';
 import { fieldsOf, stripTags } from '../no-new-text.ts';
 import { composedEntries, repairedEntries } from './corpus-fixture.ts';
 
@@ -36,14 +37,14 @@ const WHOLE_VKH = /(?<!(?:[א-ת]|\p{Mn}))וכ[׳']/gu;
  * fields hold 216 more because a `data-ref` carries Hebrew too. Using
  * one basis for all of them keeps the deltas comparable. */
 function census(
-	entries: readonly { rid: string }[],
+	entries: readonly SourceEntry[],
 	pattern: RegExp,
 ): { entries: number; occurrences: number } {
 	let occurrences = 0;
 	let hit = 0;
 	for (const entry of entries) {
 		const before = occurrences;
-		for (const field of fieldsOf(entry as never)) {
+		for (const field of fieldsOf(entry)) {
 			occurrences += [...stripTags(field).matchAll(pattern)].length;
 		}
 		if (occurrences > before) {
