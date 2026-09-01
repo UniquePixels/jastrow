@@ -70,6 +70,7 @@ import {
 	truncatedCitationDigit,
 } from './rules/stranded-tail.ts';
 import { apparatusCite, ellipsisFragment, rabbiName } from './rules/unlink.ts';
+import { vSubRedirectTwin } from './rules/v-sub-twin.ts';
 import type { Rule } from './types.ts';
 
 /** Rules in execution order. Entangled rows MUST be adjacent — they own
@@ -967,6 +968,33 @@ const RULES: readonly Rule[] = [
 	// terminator and `checkNoNewText` is a multiset test.
 	seeParticleRestore,
 
+	// ---- `vSubRedirectTwin` — batch 9's only rule ----
+	//
+	// Spec `docs/specs/2026-08-31-link-target-gate-case-8.md`, audit
+	// `data/patches/catalogue-audit/v-sub-redirect-stub.md`. It rewrites
+	// the `data-ref` and `href` of ONE anchor in each of 50 whole-entry
+	// `v. sub` redirect stubs, pointing it at the host's own spelling
+	// twin instead of at an unrelated lemma the abbreviation happened to
+	// reach. It writes no text, deletes none, and removes no anchor.
+	//
+	// DIRECTLY BELOW `seeParticleRestore` BECAUSE THEY SHARE A
+	// POPULATION SHAPE, AND THE OVERLAP IS MEASURED 0. Both act on
+	// whole-definition redirect stubs and batch 8's see-particle
+	// vocabulary counts `v. sub` at 196, so the two look entangled.
+	// They are not: `seeParticleRestore` repairs stubs whose particle
+	// slot is EMPTY (E00226, G00428, H00010, H00021) and every one of
+	// these 50 already spells `v. sub`. Measured over the corpus, the
+	// two rid sets are disjoint.
+	//
+	// The order is nonetheless the safe one rather than the arbitrary
+	// one. Were `seeParticleRestore` ever to widen and mint a `v. sub`
+	// where none stood, it would run first and this rule would simply
+	// not match — its table is keyed on rid AND the anchor's exact
+	// current target, so a stub it has never seen gains no member. The
+	// reverse order would let a retarget change bytes the particle rule
+	// reads. Fail-closed either way, and closed harder this way round.
+	vSubRedirectTwin,
+
 	// ---- `trailingWhitespaceDefinition` LAST ----
 	//
 	// Measured 0 / 0 — free, and last by argument. It trims the entry's
@@ -1434,7 +1462,6 @@ const PENDING: readonly string[] = [
 	// round-3 detector did; uncapped the thresholds run 2 -> 98 entries,
 	// 3 -> 90, 4 -> 85, 6 -> 79, 8 -> 64, 12 -> 47.
 	'shin-sin-dot-drop',
-	'v-sub-redirect-stub-mislink',
 	'midrash-petichta-unanchored',
 	// `adjacent-verbatim-repetition` left this list in batch 7: it is
 	// registered above at its CORRECTED size, 65 rather than the
