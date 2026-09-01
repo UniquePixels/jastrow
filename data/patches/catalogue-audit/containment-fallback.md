@@ -1,7 +1,7 @@
 # Audit — `containment-fallback-mislink` (22 catalogued, 20 defect)
 
-**NOT YET RULED.** This records the measurement; the disposition below
-is a recommendation awaiting Brian.
+**RULED 2026-08-31 (Brian): SHIP THE RULE.** Population 18 after the
+confirmation pass below.
 
 This row **retargets an existing anchor** rather than minting one, so
 the objection that sank the never-linked family — no gate can witness

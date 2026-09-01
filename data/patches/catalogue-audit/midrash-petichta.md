@@ -1,7 +1,7 @@
 # Audit — `midrash-petichta-unanchored` (279 → 13)
 
-**NOT YET RULED.** This records the measurement; the disposition below
-is a recommendation awaiting Brian.
+**RULED 2026-08-31 (Brian): WITHDRAW WHOLE.** Reading 2 below, joining
+the Phase 4 linker item.
 
 ## The row
 

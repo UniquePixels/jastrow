@@ -1,7 +1,7 @@
 # Audit — `v-sub-redirect-stub-mislink` (161 catalogued, 50 determinable)
 
-**NOT YET RULED.** This records the measurement; the disposition below
-is a recommendation awaiting Brian.
+**RULED 2026-08-31 (Brian): SHIP THE RULE**, with the
+`geresh-abbrev-fixed-sink` entanglement declared. Population 50.
 
 Like `containment-fallback.md`, this row **retargets an existing
 anchor** rather than minting one. The destination is an entry that
@@ -88,8 +88,9 @@ same, an abbreviation resolved as a standalone lookup:
 ```
 
 Every one is the plene/defective spelling pair the stub exists to
-point at, and every "was" target is an unrelated lemma that merely
-starts near the abbreviation.
+point at, and every "was" target but one is an unrelated lemma that
+merely starts near the abbreviation. The exception is `O00864`, whose
+current target is the host itself — see the confirmation pass below.
 
 ## A false trail worth recording
 

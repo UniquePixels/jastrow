@@ -1,7 +1,7 @@
 # Audit — `unlinked-v-span` (796 catalogued, 849 measured)
 
-**NOT YET RULED.** This records the measurement; the disposition below
-is a recommendation awaiting Brian.
+**RULED 2026-08-31 (Brian): WITHDRAW WHOLE**, joining the Phase 4
+linker item.
 
 The row is from discovery round 0 and carries **no `reason` field at
 all** — it is the only row in batch 9 with nothing but a one-line

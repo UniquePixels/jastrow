@@ -1,7 +1,7 @@
 # Audit — the never-linked works family (4 rows, 3,117)
 
-**NOT YET RULED.** This records the measurement; the disposition below
-is a recommendation awaiting Brian.
+**RULED 2026-08-31 (Brian): WITHDRAW.** All four rows go to
+`judgment` with one Phase 4 linker item, as recommended below.
 
 | Row | Instances |
 |---|---:|
