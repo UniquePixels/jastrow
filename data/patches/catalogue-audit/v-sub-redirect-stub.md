@@ -112,11 +112,51 @@ Two open items:
 1. The 102 bare `v. sub` stubs have no anchor to retarget. They are an
    `unlinked-v-span`-shaped problem and should go wherever that row
    goes rather than being handled here.
-2. The row states this is a sub-population of `geresh-abbrev-fixed-sink`
-   (24% correct outside `v. sub`, 17% inside). Sequencing with that row
-   is unsettled, exactly as it is for `containment-fallback-mislink`.
-   **Both of batch 9's surviving rules depend on the same unsettled
-   question**, so it should be answered once, for both.
+2. See the entanglement below.
+
+## THE ENTANGLEMENT WITH `geresh-abbrev-fixed-sink`, MEASURED
+
+The row states it is a sub-population of `geresh-abbrev-fixed-sink`
+(970 entries, **`route: judgment`**). That row is therefore not going
+to receive a transform rule, so these 50 are not competing with a
+planned repair — they would be **carving a determinable
+sub-population out of a row routed away from transform**.
+
+Building the sink table — every ≥2-consonant geresh abbreviation
+display in the corpus and the Jastrow targets it reaches (1,000
+distinct abbreviations) — and scoring the 50 against the fixed-sink
+row's own predicate:
+
+| Test | Of the 50 |
+|---|---:|
+| wrong target shared by **≥2 unrelated hosts** | **39** |
+| abbreviation reaches exactly ONE target corpus-wide | 32 |
+
+**39 of the 50 are inside the judgment row's population.** The sinks
+are the deterministic constants that row describes:
+
+```text
+מְיַנּ׳ -> מִנְיָמִין    4 hosts
+מֵינ׳  -> מִנְיָמִין    4 hosts
+חִיסּ׳  -> חֶסֶד ²      5 hosts
+טַוו׳  -> טָוִי        4 hosts
+```
+
+A rule here retargets the ONE `v. sub` host of each sink and leaves
+the others pointing at it. That is defensible on its merits — the
+`v. sub` stub supplies a spelling twin that the other hosts do not
+have, which is precisely what the row meant by "the correct target is
+mechanically determinable HERE and NOWHERE ELSE in that family" — but
+it is a cross-row effect and **must be declared**, not left for a gate
+to discover. Compare batch 7's undeclared edges and batch 8's
+`unnumbered-terminal-homograph` overlap, which no gate could see.
+
+`containment-fallback-mislink` does NOT have this problem, and by
+construction rather than luck: `geresh-abbrev-fixed-sink` requires a
+geresh abbreviation, and the containment census excludes geresh
+displays outright. The two rows are disjoint. **So the shared
+sequencing question the two audits raised is not in fact shared — it
+belongs to this row alone.**
 
 ## Reproduce
 
