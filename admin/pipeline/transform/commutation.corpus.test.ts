@@ -281,18 +281,19 @@ describe('the registry commutes except where the catalogue says otherwise', () =
 		expect(stats.inertRules).toEqual([]);
 		// Every pair is either composed or skipped for the ONE reason
 		// this gate accepts. `crossPhasePairs` is the count `apply.ts`'s
-		// manifest forces — 41 `text-repairs` rules against the 7
+		// manifest forces — 42 `text-repairs` rules against the 7
 		// `structural-repairs` ones — asserted here so the skip cannot
 		// quietly widen into same-phase pairs it has no licence for.
 		// 80 → 280 across batch 7, which registered five structural
-		// rules; 280 → 287 across batch 8, which registered ONE
-		// `text-repairs` rule. The figure is a PRODUCT, so it moves
-		// whenever either phase grows, and re-deriving it is how a
-		// reader checks that the growth was in the phase they expected:
-		// batch 8's rule declaring `structural-repairs` instead would
-		// make it 40 × 8 = 320, not 287.
+		// rules; 280 → 287 across batch 8 and 287 → 294 across batch 9,
+		// each registering ONE `text-repairs` rule. The figure is a
+		// PRODUCT, so it moves whenever either phase grows, and
+		// re-deriving it is how a reader checks that the growth was in
+		// the phase they expected: batch 9's `vSubRedirectTwin`
+		// declaring `structural-repairs` instead would make it
+		// 41 × 8 = 328, not 294.
 		expect(stats.composedPairs + stats.crossPhasePairs).toBe(stats.totalPairs);
-		expect(stats.crossPhasePairs).toBe(287);
+		expect(stats.crossPhasePairs).toBe(294);
 		// MEASURED on CI 2026-08-31, PR #59's first `Corpus Audit` run: this
 		// gate logged 134,141ms against the 180s budget it used to carry —
 		// 75% of it. A runner a third slower fails here, and the message

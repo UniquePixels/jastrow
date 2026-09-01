@@ -392,6 +392,37 @@ const RESTORE = new Set(['unterminated-href-swallows-closing-tag']);
 const CORROBORATE = new Set(['tosefta-variant-chapter-halakha-loss']);
 
 /**
+ * Rules that write a target naming a headword belonging to ANOTHER
+ * ENTRY of the dictionary — link-target gate case 8, batch 9. A NINTH
+ * class, added on the same reasoning that made `RESTORE` a fifth and
+ * `CORROBORATE` a sixth: a differently-shaped declaration earns its own
+ * set rather than stretching a neighbouring one.
+ *
+ * IT IS NOT `RETARGET`, and the distinction is the whole of case 8. A
+ * retarget ADOPTS a target some anchor of this entry already carries.
+ * This names one NO ANCHOR HERE CARRIES and the entry cannot show — a
+ * `v. sub` stub holds only an abbreviation of its target, which is
+ * exactly why every case before 8 reads the completion as a
+ * fabrication. Nor is it `CORROBORATE`: that assembles a target from
+ * two the input holds plus a sibling's printed digits, all of it
+ * evidence inside the entry.
+ *
+ * **EXEMPT FROM RULE 1, on `GLYPH` and `RESTORE`'s reasoning rather
+ * than `RETARGET`'s and `CORROBORATE`'s.** Rule 1's hazard is an unlink
+ * rule deleting the ANTECEDENT a later rule reads, leaving it to read
+ * some other anchor as the antecedent. This rule reads no neighbour at
+ * all: its table is keyed on the entry's rid AND the anchor's exact
+ * current target, so an unlink that removed that anchor makes it match
+ * nothing and no-op. It cannot be handed a wrong address, because it is
+ * not reading an address from the entry.
+ *
+ * Membership is EARNED exactly as `GLYPH`'s, `RESTORE`'s and
+ * `CORROBORATE`'s are: case 8 licenses such a target only against a
+ * `vouched` declaration, so a rule that writes one and does not declare
+ * it is refused by `run.ts` rather than quietly classified here. */
+const VOUCH = new Set(['v-sub-redirect-stub-mislink']);
+
+/**
  * Rules whose object is a FIELD THAT NEVER CARRIES MARKUP — batch 5's
  * headword family, and a seventh class rather than four more members of
  * `NEITHER`.
@@ -439,8 +470,8 @@ const FIELD = new Set([
 	'phrase-alt-headword-stub',
 ]);
 
-/** The eight classifications, named ONCE. Both halves of the
- * classification test read this, so a ninth class added to one half
+/** The nine classifications, named ONCE. Both halves of the
+ * classification test read this, so a tenth class added to one half
  * and forgotten in the other is not a thing that can happen. */
 const CLASSES: ReadonlySet<string>[] = [
 	UNLINK,
@@ -451,6 +482,7 @@ const CLASSES: ReadonlySet<string>[] = [
 	GLYPH,
 	RESTORE,
 	WRAP,
+	VOUCH,
 ];
 
 const ids = RULES.map((rule) => rule.id);
@@ -1127,6 +1159,9 @@ function scan(): Promise<void> {
 				if ((out.corroborated ?? []).length > 0) {
 					kinds.add('corroborated');
 				}
+				if ((out.vouched ?? []).length > 0) {
+					kinds.add('vouched');
+				}
 				if (
 					(NEITHER.has(rule.id) || WRAP.has(rule.id)) &&
 					targetsOf(out.entry) !== before
@@ -1350,6 +1385,17 @@ describe('the classification is earned, not declared', () => {
 		expect(everDeclared('corroborated')).toEqual(
 			[...CORROBORATE].toSorted(byId),
 		);
+	}, 180_000);
+
+	// `VOUCH` earned on the same mechanism, and carrying the same job as
+	// the `CORROBORATE` assertion above: case 8's residue-zero claim
+	// rests on exactly one rule declaring the case, and a second one
+	// appearing corpus-wide fails HERE. `VOUCH_DECLARERS`
+	// (link-target.ts) throws in `run.ts` before this set is compared,
+	// so this assertion names the drift and the allowlist stops it.
+	it('exactly the VOUCH rules ever vouch a target from another entry', async () => {
+		await scan();
+		expect(everDeclared('vouched')).toEqual([...VOUCH].toSorted(byId));
 	}, 180_000);
 
 	it('no NEITHER or WRAP rule removes an anchor or moves a target', async () => {
