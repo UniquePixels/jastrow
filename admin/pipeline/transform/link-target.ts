@@ -1245,15 +1245,24 @@ const HEBREW_POINT = /[֑-ׇ]/gu;
 /** Homograph superscripts and the `*` that marks a reconstructed
  * headword: part of an entry's NAME, not of its consonants. */
 const HOMOGRAPH_MARK = /[¹²³⁴⁵⁶⁷⁸⁹*]/gu;
-/** ANCHORED, and not `g`. Two fixes in one: the old `/\s+[IVX]+\b/gu`
- * was not anchored despite its name, so it stripped ` I` anywhere in a
- * value rather than only a trailing homograph numeral; and SonarCloud
- * flagged it `S8786`, super-linear, because an unanchored `\s+` rescans
- * from every offset. Anchoring bounds it — the match must end at the
- * string end and the two classes are disjoint, so no ambiguous split
- * remains. Measured: 2,870 headwords end in a single space plus a roman
- * numeral and exactly 1 uses more than one space, so `\s+` stays. */
-const TRAILING_ROMAN = /\s+[IVX]+$/u;
+/** ANCHORED, a single `\s`, and not `g`.
+ *
+ * Three problems, two rounds. The original `/\s+[IVX]+\b/gu` was not
+ * anchored despite its name, so it stripped ` I` anywhere in a value
+ * rather than only a trailing homograph numeral. Anchoring fixed that
+ * and **did not** fix `S8786`: `\s+` followed by a required `[IVX]+$`
+ * is still quadratic on an all-whitespace input, because the `+` gives
+ * back one position at a time and the tail re-fails at each. Measured
+ * on `/\s+[IVX]+$/`: **7.6 → 30.1 → 118.3 → 482.6 ms** across
+ * 4k → 32k spaces, a clean quadrupling. JS has no atomic groups, so
+ * the ambiguity has to go rather than be bounded.
+ *
+ * A SINGLE `\s` removes it — same measurement, **flat under 0.03 ms**
+ * at every size — and loses nothing. Of 2,870 headwords ending in a
+ * space plus a roman numeral, exactly ONE uses more than one space
+ * (`B00098 "בַּד  V"`), and it comes out identical anyway because
+ * `skeletonOf` trims: both spellings yield `בד`. */
+const TRAILING_ROMAN = /\s[IVX]+$/u;
 const GERESH = /[׳'’]/gu;
 const GERESH_END = /[׳'’]$/u;
 /** The matres lectionis. Dropping these is what makes a plene and a
