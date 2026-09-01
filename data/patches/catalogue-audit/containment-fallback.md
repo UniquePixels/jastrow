@@ -1,7 +1,11 @@
 # Audit — `containment-fallback-mislink` (22 catalogued, 20 defect)
 
-**RULED 2026-08-31 (Brian): SHIP THE RULE.** Population 18 after the
-confirmation pass below.
+**RULED 2026-08-31 (Brian), TWICE.** First: ship the rule at 18.
+Then, after gate case 8's blast radius showed only 1 of the 18 has a
+uniquely determined target: **WITHDRAW to `judgment`**, joining the
+Phase 4 linker item with batch 9's other homograph work. See the
+homograph section at the end — that finding is why the ruling
+changed.
 
 This row **retargets an existing anchor** rather than minting one, so
 the objection that sank the never-linked family — no gate can witness
@@ -202,7 +206,8 @@ homographs is a strict improvement on that: right word, possibly wrong
 sub-entry. The defect-count delta is favourable even under a blind
 pick.
 
-**Unresolved. Three readings, for Brian:**
+**RULED 2026-08-31 (Brian): reading 3 — WITHDRAW.** Three readings
+were put; the ruling is the third, on consistency with the 347.
 
 1. **Ship 1** (`פליונ` only) — honest, gate-clean, and not worth a rule.
 2. **Ship 18 with a declared pick** — defensible on the reader-harm
@@ -211,4 +216,9 @@ pick.
 3. **Withdraw the row**, ship `v-sub` alone (50, residue zero), and
    send this to the Phase 4 linker with the other homograph work.
 
-Reading 3 is the recommendation, on consistency with the 347.
+Reading 3 was the recommendation and is the ruling. The 18 are a real,
+read, confirmed defect and the measurements above should survive into
+the Phase 4 linker item: the prefixed/suffixed discriminator, the 20/45
+split, and the 18 confirmed contexts are all work that item will need.
+What blocks them is not doubt about the defect — it is that the
+transform route cannot choose between three spellings of one word.
