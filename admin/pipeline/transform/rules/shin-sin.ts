@@ -62,8 +62,13 @@ import { anchors } from '../links.ts';
 import { fieldsOf } from '../no-new-text.ts';
 import type { Rule, TransformResult } from '../types.ts';
 
-/** The shin dot and the sin dot — the only marks this rule writes. */
-const DOT = /[\u05C1\u05C2]/gu;
+/** The shin dot and the sin dot — the only marks this rule writes.
+ * NOT `/g`: `dotsAdded` asks it per character, and a global regex asked
+ * repeatedly answers from wherever the last question left `lastIndex`. */
+const DOT = /[\u05C1\u05C2]/u;
+/** A Hebrew letter with everything attached to it, for the per-letter
+ * walk `dotsAdded` and case 9's clause 5 both need. */
+const LETTER = /[\u05D0-\u05EA][\u0591-\u05C7]*/gu;
 /** A Hebrew letter or point, for the word boundary the table keys are
  * matched at. A key inside a longer word is a different word. */
 const HEBREW = '(?:[\\u05D0-\\u05EA]|\\p{Mn})';
@@ -120,11 +125,31 @@ function restoreShinSin(text: string): string | null {
 }
 
 /** The dots `target` carries beyond `from`, in `target`'s own order —
- * what a case-9 claim declares as `adds`. */
+ * what a case-9 claim declares as `adds`.
+ *
+ * COMPUTED PER LETTER, NOT BY COUNTING. Counting the dots and taking
+ * the last `n - had` of them names the wrong ones the moment a target
+ * holds a repaired key AND an already-dotted word:
+ * `Jastrow, שְכֵב מַשּׂוֹא 1` gains a SHIN dot on the key and already
+ * carried a SIN dot on the second word, and the counting form declares
+ * the sin. The gate then reads a sin lost and a shin gained, refuses a
+ * correct repair, and `run.ts` turns that into a thrown error.
+ *
+ * The repair only ever ADDS marks to letters it leaves in place, so the
+ * two letter walks align index for index — the same alignment case 9's
+ * own clause 5 relies on. */
 function dotsAdded(from: string, target: string): string {
-	const had = (from.match(DOT) ?? []).length;
-	const now = target.match(DOT) ?? [];
-	return now.slice(had).join('');
+	const was = from.match(LETTER) ?? [];
+	const added: string[] = [];
+	for (const [at, letter] of (target.match(LETTER) ?? []).entries()) {
+		const before = was[at] ?? '';
+		for (const mark of letter.slice(1)) {
+			if (DOT.test(mark) && !before.includes(mark)) {
+				added.push(mark);
+			}
+		}
+	}
+	return added.join('');
 }
 
 /** Every `href` and `data-ref` the entry's input holds, deduplicated. */

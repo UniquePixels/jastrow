@@ -53,6 +53,20 @@ describe('repairDagesh', () => {
 		).toBeNull();
 	});
 
+	// A TAG IS NOT A WORD BOUNDARY. Hebrew runs are split by `<i>` and
+	// `<span>` seams all over this corpus, and a mappiq test that read
+	// the next raw character would call `\u05e4\u05bc\u05b4\u05d9\u05d7\u05bc</i>\u05d5\u05bc\u05d7\u05b5\u05d9`
+	// word-final and write a ה into the middle of a word. Not reachable
+	// in today's corpus — all four ח carry no tag after them — which is
+	// exactly why it needs a test rather than a measurement.
+	it('declines a het-dagesh a tag seam only appears to end', () => {
+		expect(
+			repairDagesh(
+				`\u05e4\u05bc\u05b4\u05d9${HET}${DAGESH}</i>\u05d5\u05bc\u05d7\u05b5\u05d9`,
+			),
+		).toBeNull();
+	});
+
 	// THE NULL MODEL IS 1,268 LEGITIMATE MAPPIQS. A \u05d4 carrying one is
 	// ordinary Hebrew and must never be touched.
 	it('leaves a legitimate mappiq alone', () => {

@@ -75,6 +75,22 @@ describe('shinSinDotRestore', () => {
 		]);
 	});
 
+	// THE DECLARED DOT IS THE ONE THE RULE ADDED, and getting that right
+	// needs POSITION rather than a count. A target holding a repaired key
+	// AND an already-dotted word carries two dots afterwards; taking the
+	// last (n - had) of them names the pre-existing one, and the gate's
+	// multiset accounting then reports a sin lost and a shin gained and
+	// refuses a correct repair — which `run.ts` turns into a thrown
+	// error, not a skipped rule.
+	it('declares the dot it added, not a dot that was already there', () => {
+		const SIN_WORD = TWINS.get('תֵּעָשֶה') ?? '';
+		const ref = `Jastrow, ${BAD} ${SIN_WORD} 1`;
+		const out = shinSinDotRestore.apply(
+			stub(`<a href="/x" data-ref="${ref}">y</a>`),
+		);
+		expect(out.pointed?.map((claim) => claim.adds)).toEqual([SHIN_DOT]);
+	});
+
 	it('repairs the definition and records the entry', () => {
 		const out = shinSinDotRestore.apply(stub(`א ${BAD} ב`));
 		expect(defOf(out.entry)).toBe(`א ${GOOD} ב`);

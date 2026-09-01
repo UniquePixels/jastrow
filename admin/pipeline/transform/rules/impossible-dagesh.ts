@@ -80,9 +80,16 @@ const IMPOSSIBLE = /([\u05E8\u05D7])\u05BC/gu;
  * vav; the class is written for the linguistic fact rather than for
  * that coincidence, and `impossible-dagesh.corpus.test.ts` pins 10. */
 const VOWEL_FOLLOWS = /^(?:[\u05B0-\u05BC\u05C7]|\u05D5)/u;
-/** A Hebrew letter or point — what a word-final mark is NOT followed
- * by. */
-const WORD_CONTINUES = /^(?:[\u05D0-\u05EA]|\p{Mn})/u;
+/** A Hebrew letter or point, reachable past any run of TAGS — what a
+ * word-final mark is NOT followed by.
+ *
+ * THE TAG RUN IS THE POINT. Hebrew words are split by `<i>` and
+ * `<span>` seams throughout this corpus, and a test that read the next
+ * RAW character would call a het before a seam word-final and write a
+ * ה into the middle of a word. Not reachable today — none of the four
+ * ח carries a tag after it — so `impossible-dagesh.test.ts` pins it
+ * rather than a corpus count. */
+const WORD_CONTINUES = /^(?:<[^>]*>)*(?:[\u05D0-\u05EA]|\p{Mn})/u;
 const RESH = 'ר';
 const DALET = 'ד';
 const HE = 'ה';
