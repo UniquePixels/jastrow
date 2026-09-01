@@ -61,8 +61,7 @@ rate in `unlinked-v-span.md`, and the superscript `²` that made
 `צִינְּתָא ²` read as "longer than" `צינתא`. **Every one of the three
 returned a plausible number.**
 
-## Defect and convention separate MECHANICALLY, and the split recovers
-## the row's own hand reading
+## Defect and convention separate mechanically, recovering the hand reading
 
 Adding final-form normalization (`ם`→`מ` etc., which pulls in
 `פליונ → אַפַּלְיוֹן`) the census is **65**. One test splits it:

@@ -223,8 +223,12 @@ describe('registry coverage', () => {
 	//
 	//   ONE ROW WENT THE OTHER WAY. `v-sub-redirect-stub-mislink` (161)
 	//   is registered at 50 as `vSubRedirectTwin`, batch 9's only rule,
-	//   and it is a RETARGET rather than a mint — which is exactly why
-	//   it survived when the other seven did not.
+	//   and it retargets an anchor the entry already holds rather than
+	//   minting one — which is exactly why it survived when the other
+	//   seven did not. Note it is classified `VOUCH`, NOT `RETARGET`:
+	//   a retarget adopts a target some anchor of the entry already
+	//   carries, and this names a headword belonging to another entry.
+	//   `registry.order.corpus.test.ts` carries that distinction.
 	//   See data/patches/catalogue-audit/never-linked-works.md,
 	//   midrash-petichta.md, unlinked-v-span.md,
 	//   containment-fallback.md and v-sub-redirect-stub.md.

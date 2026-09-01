@@ -168,7 +168,7 @@ So the verification is in two parts, and both are required:
 | Question | Answered by |
 |---|---|
 | Is the written target structurally a completion of this anchor's abbreviation, and a twin of this host? | `link-target.ts` case 8, per entry |
-| Does an entry with that headword and that rid actually exist? | `v-sub.corpus.test.ts`, over the whole corpus |
+| Does an entry with that headword and that rid actually exist? | `v-sub-twin.corpus.test.ts`, over the whole corpus |
 
 **Neither alone is sufficient and the split must be stated in both
 places**, or a future reader will take the gate's silence about
