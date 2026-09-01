@@ -242,6 +242,34 @@ describe('registry coverage', () => {
 			expect(ids).toContain(id);
 		}
 	});
+
+	// THE SILENCE THIS CLOSES, and it went uncaught through a whole
+	// merged batch. `PENDING` is a standing claim that a row is still
+	// owed a TRANSFORM rule (see its docstring in `registry.ts`), but
+	// `coverage()` counts `pending` over transform-route rows ONLY. So a
+	// row withdrawn to `judgment` and left in `PENDING` is counted by
+	// nothing and reported by nothing: after #60 merged, `PENDING` held
+	// 11 ids while `coverage().pending` read 4, and the seven withdrawn
+	// citation-linking rows sat there claiming a rule was owed that
+	// their own ruling had just said would never come.
+	//
+	// The test above cannot see it — those ids DO exist in the
+	// catalogue, just on another route. `duplicated` cannot either: it
+	// fires on a row named in `PENDING` AND registered, which a
+	// withdrawn row is not. This asserts the property that was missing,
+	// which is not existence but ROUTE.
+	it('every pending id is a transform row, not a withdrawn one', () => {
+		const routeOf = new Map(catalogue.map((row) => [row.id, row.route]));
+		const misrouted = PENDING.filter((id) => routeOf.get(id) !== 'transform');
+		expect(misrouted).toEqual([]);
+	});
+
+	// The other direction of the same reconciliation: the list's length
+	// and the number `coverage()` reports must agree. They diverged
+	// silently for the whole of #60.
+	it('PENDING length equals the pending count coverage reports', () => {
+		expect(PENDING).toHaveLength(coverage(catalogue).pending);
+	});
 });
 
 /** A fully-connected synthetic entanglement group, shared by the two
