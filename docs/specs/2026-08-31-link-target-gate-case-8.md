@@ -103,7 +103,27 @@ address that does not exist, and shipped on attribution plus an
 allowlist. Case 8 licenses one target per anchor and that target names
 an entry with a rid.
 
-### 4.1 What case 8 deliberately does NOT cover
+### 4.1 How much of the corpus already attests these targets
+
+Of the 50 written targets, **38 already appear as a `data-ref`
+somewhere else in the corpus** and **12 do not** — those 12 entries
+would receive their first anchor:
+
+```text
+חִיסּוּלָא  מֵינִיקָה  נִתְקָא  פִּינּוּכָא  פִּיקְעָא  עֵירוּעַ
+פִּירְקוּס  קִיבּוּץ  רִכְסָא  רִיכּוּן  תִּבְלָלָא  שִׁקְמָא
+```
+
+This is worth stating precisely because it is easy to overclaim in
+either direction. For 38 the exact string the rule writes is attested
+elsewhere, though never in the entry being repaired — which is why no
+existing case can license it. For 12 nothing attests the string; what
+is attested is **the entry**, by rid and headword, and that is what
+case 8 vouches. The `href` for those 12 is constructed rather than
+copied, on the convention `/Jastrow,_<headword>.<n>` verified against
+real anchors (`Jastrow, נִידּוּי 1 -> /Jastrow,_נִידּוּי.1`).
+
+### 4.2 What case 8 deliberately does NOT cover
 
 `containment-fallback-mislink` was ruled to ship on the same day and
 then **withdrawn**, because its shape needs a weaker clause — skeleton
