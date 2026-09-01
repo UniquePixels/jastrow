@@ -1145,7 +1145,6 @@ const RULES: readonly Rule[] = [
 const PENDING: readonly string[] = [
 	// `nonsense-dup-anchor` and `nested-anchor-swallows-punctuation`
 	// left this list in batch 4 Task 7: both are registered above.
-	'unlinked-v-span',
 	// `homograph-numeral-mismatch` left this list in batch 2 Task 9:
 	// audited to `judgment` in `patterns.jsonl`. Its 576 occurrences /
 	// 538 entries are three merged defects, the display (Jastrow's print
@@ -1154,7 +1153,6 @@ const PENDING: readonly string[] = [
 	// population already points where print says, the only family model
 	// available scores 87.5% on 3,253 known-correct controls, and gate
 	// case 2 reaches the replacement for 3.5% of the candidate defects.
-	'targum-sheni-never-linked',
 	// `h-cognate-self-link` left this list in batch 2 Task 4: audited to
 	// `judgment` in `patterns.jsonl` (no other article exists for any of
 	// its 87 anchors, and the construct is 3.2% of a corpus-wide linker
@@ -1300,7 +1298,6 @@ const PENDING: readonly string[] = [
 	// rather than through the helper alone. Pinned corpus-wide by
 	// `rules/gloss-head-rejoin.corpus.test.ts`; audit
 	// `data/patches/catalogue-audit/b-h-field-split.md`.
-	'mekhilta-sifra-never-linked',
 	// `reversed-hebrew-phrase` left this list in batch 8: WITHDRAWN to
 	// `judgment` in `patterns.jsonl` on Brian's ruling 2026-08-30. THE
 	// ROW'S MECHANISM IS FALSIFIED AND ITS COUNT IS A UNIT ARTIFACT.
@@ -1450,8 +1447,6 @@ const PENDING: readonly string[] = [
 	// the catalogue: 71; this batch: 36 clean of 283 dashless markers).
 	// Splitting it rather than emptying it keeps the 22 on the queue and
 	// keeps the row's unsettled status honest.
-	'tanhuma-never-linked',
-	'pesikta-drk-never-linked',
 	// `duplicated-definition-opening-run` left this list in batch 7: it
 	// is registered above at 88 occurrences / 85 entries. THE ROW
 	// RECORDED NO PREDICATE, only "the middle and best-argued figure" of
@@ -1462,7 +1457,6 @@ const PENDING: readonly string[] = [
 	// round-3 detector did; uncapped the thresholds run 2 -> 98 entries,
 	// 3 -> 90, 4 -> 85, 6 -> 79, 8 -> 64, 12 -> 47.
 	'shin-sin-dot-drop',
-	'midrash-petichta-unanchored',
 	// `adjacent-verbatim-repetition` left this list in batch 7: it is
 	// registered above at its CORRECTED size, 65 rather than the
 	// catalogued 59. The 59 was not a measurement agreeing with the
@@ -1471,7 +1465,6 @@ const PENDING: readonly string[] = [
 	// the first copy is followed by the second copy's PREFIX, so a
 	// bounded search loses long members rather than shortening them.
 	// The split is exact: 59 members at <= 120 characters, 6 above.
-	'containment-fallback-mislink',
 	// `post-anchor-numeral-duplication` left this list in batch 4 Task 6:
 	// audited to `judgment` in `patterns.jsonl` (Brian's ruling
 	// 2026-08-26), so `coverage` no longer counts its 11 occurrences / 11
@@ -1569,6 +1562,32 @@ const PENDING: readonly string[] = [
 	// on 2026-08-27 to ship anyway. Live exposure is zero because a
 	// gate case is a LICENCE and not an instruction — nothing mints
 	// unless a rule declares it, and no other rule declares case 7.
+	//
+	// SEVEN ROWS LEFT THIS LIST IN BATCH 9 (#60), the whole
+	// citation-linking family bar the one that got a rule:
+	// `tanhuma-never-linked`, `mekhilta-sifra-never-linked`,
+	// `pesikta-drk-never-linked`, `targum-sheni-never-linked`,
+	// `midrash-petichta-unanchored`, `unlinked-v-span` and
+	// `containment-fallback-mislink` — all audited to `judgment` in
+	// `patterns.jsonl` on Brian's rulings of 2026-08-31, so `coverage`
+	// no longer counts them and neither list may hold them. The batch's
+	// finding is one sentence: the transform route can repair a wrong
+	// anchor but cannot build a right one, because building one needs
+	// an address space outside this corpus. Report:
+	// `docs/v2/transform-batch-9.md`; five audits under
+	// `data/patches/catalogue-audit/`.
+	//
+	// THEY WERE LEFT HERE BY MISTAKE WHEN #60 MERGED, and the mistake
+	// is the one this list's own docstring warns about: a row named
+	// here is a STANDING CLAIM THAT A RULE IS OWED, and seven rows
+	// ruled to `judgment` were still making it. **No gate could see
+	// it** — `coverage()` counts `pending` over TRANSFORM-route rows
+	// only, so a withdrawn row named here is counted by nothing and
+	// reported by nothing; `PENDING` read 11 while `coverage().pending`
+	// read 4 and nothing reconciled them. That silence is now closed by
+	// `registry.test.ts`'s "every pending id is a transform row".
+	// `v-sub-redirect-stub-mislink` also left, by the other door: it is
+	// registered above as `vSubRedirectTwin` at 50.
 ];
 
 /**
