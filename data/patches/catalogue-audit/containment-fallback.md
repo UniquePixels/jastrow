@@ -1,4 +1,4 @@
-# Audit — `containment-fallback-mislink` (22 catalogued, 60 measured)
+# Audit — `containment-fallback-mislink` (22 catalogued, 20 defect)
 
 **NOT YET RULED.** This records the measurement; the disposition below
 is a recommendation awaiting Brian.
@@ -70,29 +70,65 @@ returned a plausible number.**
     …16 further sinks at 1 each
 ```
 
-The 38 above the row's 22 are mostly the shape the row itself called
-CONVENTION rather than defect: `אב → אַבָּא I` and `בית → בֵּיתָא I`
-are the Aramaic form of the displayed Hebrew word, which is a
-legitimate redirect, not a mislink. **The extra instances the broader
-predicate finds are largely NOT extra defects**, and any rule must
-exclude them rather than inherit them.
+## Defect and convention separate MECHANICALLY, and the split recovers
+## the row's own hand reading
+
+Adding final-form normalization (`ם`→`מ` etc., which pulls in
+`פליונ → אַפַּלְיוֹן`) the census is **65**. One test splits it:
+
+**does the target carry material BEFORE the display, or only after?**
+
+| Bucket | Count |
+|---|---:|
+| target has material before the display — **prefixed** | **20** |
+| target is display + suffix, display at position 0 | 45 |
+
+```text
+PREFIXED — candidate defect          SUFFIXED — candidate convention
+11  נגד     -> אִינְגַּד             13  אב     -> אַבָּא I
+ 5  נימוס   -> אַבְנִימוֹס            8  בית    -> בֵּיתָא I
+ 2  גביא    -> מַגַּבְיָא             5  טרפ    -> טַרְפָא I
+ 1  פליונ   -> אַפַּלְיוֹן            3  זוג    -> זוֹגָא
+ 1  קנתור   -> (קנתור)              …13 further sinks at 1–2 each
+```
+
+**The two sets are two different linguistic events.** A suffixed
+target is the Aramaic emphatic form of the displayed Hebrew word —
+`אב`/`אַבָּא`, `בית`/`בֵּיתָא` — which is a legitimate redirect and
+exactly the CONVENTION job the row identified. A prefixed target is a
+different lemma that merely happens to contain the display: `אִינְגַּד`
+is `אי` + `נגד`, `אַבְנִימוֹס` is `אב` + `נימוס`.
+
+**This recovers the row's hand reading rather than contradicting it.**
+Its author read 22 and called 16 defect; those 16 are its two named
+sinks, and both land in the prefixed bucket. The mechanical test adds
+4 (`גביא`, `פליונ`, `קנתור`) and correctly sends the rest to
+convention. So the rule's population is **20**, not 22 and not 65,
+and the 45 must be excluded rather than inherited.
+
+`קנתור -> (קנתור)` is a target wrapped in literal parentheses and is
+probably a malformed-target row's business, not this one. It should be
+excluded and referred rather than repaired here.
 
 ## Recommendation
 
-**The only row in batch 9 that can carry a rule.** It retargets, the
+**One of the two rows in batch 9 that can carry a rule**, with
+`v-sub-redirect-stub.md`. It retargets, the
 destination is an existing entry, the two dominant sinks were read in
 full by the row's author and confirmed as impossible readings, and the
 null model is strong in both predicates.
 
 Before writing one, two things must be settled:
 
-1. **Which of the 60 are defect.** The row's own job split was 16
-   defect / 2 convention / 4 ambiguous out of 22. At 60 the convention
-   share grows and has not been read. Every one of the 60 needs
-   reading, as the row's 22 were.
-2. **Sequencing with `geresh-abbrev-fixed-sink`.** The row states this
-   is that row's non-abbreviation arm and that the two should be sized
-   and sequenced together. That has not been done.
+1. **Which are defect — now answered mechanically above: 20 of 65.**
+   The 20 still want reading one by one before shipping, but that is
+   confirmation of a derived set, not the open question it was.
+2. **Sequencing with `geresh-abbrev-fixed-sink` — now answered: there
+   is nothing to sequence.** That row's predicate requires a geresh
+   abbreviation and this census excludes geresh displays outright, so
+   the two are disjoint by construction. The entanglement is real for
+   `v-sub-redirect-stub-mislink` and measured there; it does not
+   reach this row.
 
 ## Reproduce
 
