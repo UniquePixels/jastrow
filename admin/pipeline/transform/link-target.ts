@@ -1245,7 +1245,15 @@ const HEBREW_POINT = /[֑-ׇ]/gu;
 /** Homograph superscripts and the `*` that marks a reconstructed
  * headword: part of an entry's NAME, not of its consonants. */
 const HOMOGRAPH_MARK = /[¹²³⁴⁵⁶⁷⁸⁹*]/gu;
-const TRAILING_ROMAN = /\s+[IVX]+\b/gu;
+/** ANCHORED, and not `g`. Two fixes in one: the old `/\s+[IVX]+\b/gu`
+ * was not anchored despite its name, so it stripped ` I` anywhere in a
+ * value rather than only a trailing homograph numeral; and SonarCloud
+ * flagged it `S8786`, super-linear, because an unanchored `\s+` rescans
+ * from every offset. Anchoring bounds it — the match must end at the
+ * string end and the two classes are disjoint, so no ambiguous split
+ * remains. Measured: 2,870 headwords end in a single space plus a roman
+ * numeral and exactly 1 uses more than one space, so `\s+` stays. */
+const TRAILING_ROMAN = /\s+[IVX]+$/u;
 const GERESH = /[׳'’]/gu;
 const GERESH_END = /[׳'’]$/u;
 /** The matres lectionis. Dropping these is what makes a plene and a
@@ -1312,7 +1320,7 @@ function vouchFault(
 ): string | undefined {
 	const lead = vouchLead(claim.target);
 	const parts = VOUCH_TARGET.exec(claim.target);
-	if (parts === null || parts[1] !== claim.headword) {
+	if (parts?.[1] !== claim.headword) {
 		return `${lead} does not name ${JSON.stringify(claim.headword)}`;
 	}
 	// TRIMMED FOR THE LINGUISTIC CLAUSES, VERBATIM FOR CLAUSE 4. The two

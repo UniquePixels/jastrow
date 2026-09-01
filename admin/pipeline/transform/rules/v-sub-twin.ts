@@ -1,5 +1,6 @@
 import type { SourceEntry } from '../../body/types.ts';
-import { stripTags } from '../no-new-text.ts';
+import { serialize, tokenize } from '../html.ts';
+import { anchors, retarget as retargetAnchor } from '../links.ts';
 import type { Rule, TransformRecord, TransformResult } from '../types.ts';
 
 /**
@@ -124,21 +125,13 @@ const BY_RID = new Map(
 	]),
 );
 
-/** Hoisted to module scope for `useTopLevelRegex`, as
- * `headword-census.ts` hoists its own. Only `OPEN_TAG` carries `g`, and
- * it is used with `matchAll`, which is not stateful across calls the
- * way a shared `.test()`/`.exec()` is. */
-const OPEN_TAG = /<a\b[^>]*>/gu;
-const HREF_ATTR = /href="[^"]*"/u;
-const CLOSE_TAG = '</a>';
-
 /** The sense index every written target carries.
  *
  * FIXED AT 1, NOT INHERITED. An earlier cut parsed it off the OLD
  * target — the mislink being repaired — which carries the sense index
- * of an unrelated entry and would write `Jastrow, <twin> 2` for a
- * twin that may have one sense. Nothing would catch it: case 8's
- * clause 1 accepts any positive integer and the corpus test checks the
+ * of an unrelated entry and would write `Jastrow, <twin> 2` for a twin
+ * that may have one sense. Nothing would catch it: case 8's clause 1
+ * accepts any positive integer and the corpus test checks the
  * headword's existence, not the index's.
  *
  * 1 is what the corpus itself uses. Of the 50 twins, 38 are anchored
@@ -155,89 +148,55 @@ function hrefFor(headword: string): string {
 	return `/Jastrow,_${headword}.${SENSE_INDEX}`;
 }
 
-/** The opening tag carrying `refAttr`, with where it sits — or
- * `undefined` when no anchor does.
+/**
+ * Retarget the one anchor carrying `was`, or `undefined` when this
+ * definition does not hold exactly one.
  *
- * THE WHOLE POINT IS THAT THE REWRITE IS TAG-SCOPED. An earlier cut
- * checked that the `data-ref` occurred once and then did three more
- * positional lookups — a backward window for the `href`, a whole-string
- * `.replace`, and a first-anchor `exec` for the display — each of which
- * silently assumed the target anchor was the only one. With a
- * preceding anchor sharing an href value, the `href` was written onto
- * THAT anchor and the retargeted one kept a stale one. Working inside
- * the located tag makes all three assumptions unnecessary rather than
- * merely checked. */
-function tagCarrying(
-	text: string,
-	refAttr: string,
-): { end: number; start: number; tag: string } | undefined {
-	const match = [...text.matchAll(OPEN_TAG)].find((candidate) =>
-		candidate[0].includes(refAttr),
-	);
-	return match === undefined
-		? undefined
-		: {
-				end: match.index + match[0].length,
-				start: match.index,
-				tag: match[0],
-			};
-}
-
-/** The anchor's display as `links.ts` reports it: text tokens only,
- * and **NOT trimmed**.
+ * **EVERY PART OF THIS IS THE PIPELINE'S OWN.** `tokenize`/`anchors`
+ * find the anchor, `links.ts`'s `retarget` rewrites its two attributes
+ * and leaves every other byte alone, `serialize` puts the stream back,
+ * and `anchor.display` is the very value gate clause 4 compares
+ * against — the same `displayOf` output, not a re-derivation of it.
  *
- * `stripTags` rather than a hand-rolled `/<[^>]*>/g`, and the reason is
- * twofold. It is the SAME OPERATION `displayOf` performs — both
- * concatenate the tokenizer's text tokens — so this agrees with the
- * value clause 4 compares against by construction rather than by
- * coincidence. And a regex strip draws CodeQL's
- * `js/incomplete-multi-character-sanitization` at HIGH, which is a
- * required check; batch 8 hit it in two gates and the ruling then was
- * to prefer the pipeline's own helper even in a test.
+ * THIS REPLACED A HAND-ROLLED VERSION AND THE HISTORY IS THE POINT.
+ * That version checked the `data-ref` occurred once and then made
+ * three more positional assumptions it never checked: a backward
+ * character window for the `href`, a whole-string `.replace`, and a
+ * first-anchor match for the display. With a preceding anchor sharing
+ * an href value it wrote the new href onto THAT anchor. The pre-PR
+ * review caught all three; SonarCloud then flagged two of the regexes
+ * as super-linear (`S8786`). Both problems had one answer, which was
+ * already in the tree. Prefer the pipeline's own parser over a regex —
+ * the same ruling batch 8 recorded for `stripTags`.
  *
- * The trim matters and its absence is deliberate. `displayOf`
- * (`links.ts`) concatenates text tokens verbatim, and gate clause 4
- * compares this rule's declared display against exactly those values.
- * An earlier cut trimmed, so an anchor whose text carried surrounding
- * whitespace declared a display the input provably held and was
- * refused for it — a correct repair rejected on a whitespace
- * difference between two sides of one contract. */
-function displayAfter(text: string, end: number): string {
-	const close = text.indexOf(CLOSE_TAG, end);
-	return stripTags(text.slice(end, close === -1 ? text.length : close));
-}
-
-/** Rewrite the one `v. sub` anchor's two attributes in `text`, or
- * return `undefined` when the expected target is not there exactly
- * once. Fail-closed: a definition that has been reshaped by an earlier
- * rule, or that carries the target twice, is left alone rather than
- * guessed at. */
-function retarget(
+ * Fail-closed on anything other than exactly one carrier: a definition
+ * reshaped by an earlier rule, or one holding the target twice, is
+ * left alone rather than guessed at.
+ */
+function repair(
 	text: string,
 	was: string,
 	headword: string,
 ):
 	| { detail: string; display: string; target: string; written: string }
 	| undefined {
-	const refAttr = `data-ref="${was}"`;
-	if (text.split(refAttr).length !== 2) {
+	const tokens = tokenize(text);
+	const carrying = anchors(tokens).filter(
+		(candidate) => candidate.dataRef === was,
+	);
+	const [anchor] = carrying;
+	if (carrying.length !== 1 || anchor === undefined) {
 		return;
 	}
-	const found = tagCarrying(text, refAttr);
-	if (found === undefined || !HREF_ATTR.test(found.tag)) {
-		return;
-	}
-	const target = `Jastrow, ${headword} ${SENSE_INDEX}`;
-	// Both replacements are scoped to the one located tag, where each
-	// attribute occurs exactly once.
-	const rewritten = found.tag
-		.replace(refAttr, `data-ref="${target}"`)
-		.replace(HREF_ATTR, `href="${hrefFor(headword)}"`);
+	const target = {
+		dataRef: `Jastrow, ${headword} ${SENSE_INDEX}`,
+		href: hrefFor(headword),
+	};
 	return {
-		detail: `${was} -> ${target}`,
-		display: displayAfter(text, found.end),
-		target,
-		written: text.slice(0, found.start) + rewritten + text.slice(found.end),
+		detail: `${was} -> ${target.dataRef}`,
+		display: anchor.display,
+		target: target.dataRef,
+		written: serialize(retargetAnchor(tokens, anchor, target)),
 	};
 }
 
@@ -267,7 +226,7 @@ function apply(entry: SourceEntry): TransformResult {
 		if (changed || typeof text !== 'string') {
 			return sense;
 		}
-		const done = retarget(text, twin.was, twin.headword);
+		const done = repair(text, twin.was, twin.headword);
 		if (done === undefined) {
 			return sense;
 		}
