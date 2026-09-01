@@ -188,8 +188,52 @@ describe('registry coverage', () => {
 	//   See data/patches/catalogue-audit/plural-label-capture.md,
 	//   b-h-field-split.md, reversed-hebrew-phrase.md,
 	//   homograph-roman-stranded.md and sense-number-closed-grammar.md.
-	it('the catalogue still holds 61 transform rows', () => {
-		expect(coverage(catalogue).total).toBe(61);
+	// - SEVEN AT ONCE IN BATCH 9 — 61 to 54, larger than batch 8's drop,
+	//   and the whole citation-linking family in one movement. Ruled by
+	//   Brian 2026-08-31.
+	//
+	//   THEY ALL FAIL THE SAME WAY, and the batch's finding is that one
+	//   sentence: THE TRANSFORM ROUTE CAN REPAIR A WRONG ANCHOR BUT
+	//   CANNOT BUILD A RIGHT ONE, because building one needs an address
+	//   space that lives outside this corpus.
+	//
+	//   Four never-linked rows (`tanhuma` 1137, `mekhilta-sifra` 923,
+	//   `pesikta-drk` 695, `targum-sheni` 362) would MINT a work name
+	//   the corpus attests 0 or 1 times out of 170,184 anchors and
+	//   23,211 distinct work names, with no alias — every work-name list
+	//   was enumerated by initial letter rather than probed by guess.
+	//   `midrash-petichta-unanchored` (279 -> 13) is the near miss: its
+	//   `<Work> Rabbah, Petichta <N>` pattern IS attested 32 times, but
+	//   Sefaria addresses a proem by NUMBER while Jastrow cites it by
+	//   its opening RABBI, so 149 of 288 carry no constructible locus.
+	//
+	//   `unlinked-v-span` (796) fails the other way round and reaches
+	//   the same place: its work name is attested 2,990 times over — all
+	//   its anchored controls are Jastrow self-links — and the LOCUS
+	//   blocks it, 300 spans naming a form the dictionary never heads
+	//   and 347 an ambiguous skeleton, against a witness table covering
+	//   4 of 690.
+	//
+	//   `containment-fallback-mislink` (22) was RULED TO SHIP AND THEN
+	//   WITHDRAWN THE SAME DAY, which is the one worth remembering:
+	//   specifying link-target case 8 showed that skeleton equality
+	//   vouches the WORD but not the ENTRY, and only 1 of its 18
+	//   confirmed defects has a uniquely determined target. Withdrawing
+	//   it is what keeps this batch consistent with the 347 spans above.
+	//
+	//   ONE ROW WENT THE OTHER WAY. `v-sub-redirect-stub-mislink` (161)
+	//   is registered at 50 as `vSubRedirectTwin`, batch 9's only rule,
+	//   and it retargets an anchor the entry already holds rather than
+	//   minting one — which is exactly why it survived when the other
+	//   seven did not. Note it is classified `VOUCH`, NOT `RETARGET`:
+	//   a retarget adopts a target some anchor of the entry already
+	//   carries, and this names a headword belonging to another entry.
+	//   `registry.order.corpus.test.ts` carries that distinction.
+	//   See data/patches/catalogue-audit/never-linked-works.md,
+	//   midrash-petichta.md, unlinked-v-span.md,
+	//   containment-fallback.md and v-sub-redirect-stub.md.
+	it('the catalogue still holds 54 transform rows', () => {
+		expect(coverage(catalogue).total).toBe(54);
 	});
 
 	it('pending ids all exist in the catalogue', () => {

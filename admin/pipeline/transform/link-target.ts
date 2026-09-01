@@ -505,6 +505,18 @@ type Restore = {
 	written: string;
 };
 
+/** One declared vouch (`TransformResult.vouched`). Unlike every other
+ * claim type here, `headword` and `rid` name material the entry under
+ * judgement DOES NOT HOLD — they name another entry of the dictionary.
+ * That is case 8's whole novelty; see `vouchFault` for what this gate
+ * can check about them (structure) and what it cannot (existence). */
+type Vouch = {
+	display: string;
+	headword: string;
+	rid: string;
+	target: string;
+};
+
 /** The gershayim, U+05F4 — the one character case 5 may map back to an
  * ASCII quote.
  *
@@ -609,8 +621,16 @@ function hasStrayGershayim(tag: string): boolean {
 interface Input {
 	claims: readonly Compose[];
 	corroborations: readonly Corroborate[];
+	/** Every anchor display the input held, for case 8's clause 4. A
+	 * set rather than a tally: the clause asks only whether the entry
+	 * showed the reader that abbreviation, not how often. */
+	displays: ReadonlySet<string>;
 	fields: readonly string[];
 	glyphs: readonly GlyphCorrect[];
+	/** The entry's OWN headword, for case 8's clause 3 — the only
+	 * clause in this gate that reads a field outside the walked link
+	 * fields, because a spelling twin is defined against the host. */
+	headword: string;
 	rejoins: readonly Recombine[];
 	restores: readonly Restore[];
 	rid: string;
@@ -618,6 +638,7 @@ interface Input {
 	source: readonly Anchor[];
 	tags: ReadonlyMap<string, number>;
 	targets: ReadonlySet<string>;
+	vouches: readonly Vouch[];
 	written: ReadonlyMap<string, number>;
 }
 
@@ -1190,6 +1211,191 @@ const CORROBORATION_DECLARERS: ReadonlySet<string> = new Set([
 ]);
 
 /**
+ * The rule ids licensed to declare a case-8 vouch. The second and last
+ * allowlist in this gate; `CORROBORATION_DECLARERS` above is the
+ * precedent and its reasoning carries over unchanged — a case that
+ * admits evidence the entry cannot show must name who may reach it, so
+ * that adding an id is a review moment rather than a diff.
+ *
+ * **CASE 8'S RESIDUE IS ZERO, WHERE CASE 7'S IS 29 OF 68.** Clauses 2
+ * and 3 together admit exactly one candidate headword for each of the
+ * 50 repairs; clause 2 alone admits up to 54 (`כֹּר׳` reaches 223
+ * headwords). So this allowlist is not the load-bearing bound it is for
+ * case 7. It is here because zero residue is a property of the CURRENT
+ * clauses measured against the CURRENT corpus, and neither is fixed.
+ *
+ * BEFORE ADDING AN ID, RE-MEASURE THE PREDICATE, not just the name: for
+ * every repair the candidate rule makes, how many headwords satisfy
+ * clauses 2 and 3? More than one anywhere means the RULE is choosing
+ * and this gate is not checking. That is exactly what withdrew
+ * `containment-fallback-mislink` on 2026-08-31 — its shape needs
+ * skeleton equality with no abbreviation and no twin, which reaches 3
+ * candidates (`נגד` admits `נָגַד`, `נְגַד`, `נֶגֶד`) for 17 of its 18
+ * repairs. Do not relax clause 2 or 3 to re-admit it; give it its own
+ * case and its own measurement.
+ */
+const VOUCH_DECLARERS: ReadonlySet<string> = new Set([
+	// Residue measured 0: exactly one candidate headword per repair.
+	'v-sub-redirect-stub-mislink',
+]);
+
+/** Combining points — the vowel and cantillation marks a skeleton
+ * drops. */
+const HEBREW_POINT = /[֑-ׇ]/gu;
+/** Homograph superscripts and the `*` that marks a reconstructed
+ * headword: part of an entry's NAME, not of its consonants. */
+const HOMOGRAPH_MARK = /[¹²³⁴⁵⁶⁷⁸⁹*]/gu;
+/** ANCHORED, a single `\s`, and not `g`.
+ *
+ * Three problems, two rounds. The original `/\s+[IVX]+\b/gu` was not
+ * anchored despite its name, so it stripped ` I` anywhere in a value
+ * rather than only a trailing homograph numeral. Anchoring fixed that
+ * and **did not** fix `S8786`: `\s+` followed by a required `[IVX]+$`
+ * is still quadratic on an all-whitespace input, because the `+` gives
+ * back one position at a time and the tail re-fails at each. Measured
+ * on `/\s+[IVX]+$/`: **7.6 → 30.1 → 118.3 → 482.6 ms** across
+ * 4k → 32k spaces, a clean quadrupling. JS has no atomic groups, so
+ * the ambiguity has to go rather than be bounded.
+ *
+ * A SINGLE `\s` removes it — same measurement, **flat under 0.03 ms**
+ * at every size — and loses nothing. Of 2,870 headwords ending in a
+ * space plus a roman numeral, exactly ONE uses more than one space
+ * (`B00098 "בַּד  V"`), and it comes out identical anyway because
+ * `skeletonOf` trims: both spellings yield `בד`. */
+const TRAILING_ROMAN = /\s[IVX]+$/u;
+const GERESH = /[׳'’]/gu;
+const GERESH_END = /[׳'’]$/u;
+/** The matres lectionis. Dropping these is what makes a plene and a
+ * defective spelling of one word compare equal — clause 3. */
+const MATRES = /[יו]/gu;
+const FINAL_LETTER = /[ךםןףץ]/gu;
+const FINAL_FOLD: ReadonlyMap<string, string> = new Map([
+	['ך', 'כ'],
+	['ם', 'מ'],
+	['ן', 'נ'],
+	['ף', 'פ'],
+	['ץ', 'צ'],
+]);
+/** Clause 1's shape: `Jastrow, <headword>` with an optional ` <n>`. */
+const VOUCH_TARGET = /^Jastrow, (.+?)(?: ([1-9]\d*))?$/u;
+
+/** A Hebrew string reduced to the consonants case 8 compares on.
+ *
+ * FINAL-FORM FOLDING IS LOAD-BEARING, not tidiness: an abbreviation
+ * breaks a word mid-form and so spells a medial letter where the full
+ * headword ends in a final one. `עוּלֵימ׳` abbreviates `עוּלֵים`, and
+ * without the fold clause 2 scores that correct pair a mismatch. */
+function skeletonOf(value: string): string {
+	return value
+		.replace(HEBREW_POINT, '')
+		.replace(HOMOGRAPH_MARK, '')
+		.replace(TRAILING_ROMAN, '')
+		.replace(GERESH, '')
+		.replace(FINAL_LETTER, (letter) => FINAL_FOLD.get(letter) ?? letter)
+		.trim();
+}
+
+/** The skeleton with the matres lectionis dropped — what a plene and a
+ * defective spelling of one word share, and clause 3's whole test. */
+function twinCoreOf(value: string): string {
+	return skeletonOf(value).replace(MATRES, '');
+}
+
+/** The opening of every case-8 refusal, so the five clauses cannot
+ * drift apart in how they name the value under judgement. */
+function vouchLead(value: string): string {
+	return `vouched ${JSON.stringify(value)}`;
+}
+
+/**
+ * Why one declared vouch does not license `value`, or `undefined` when
+ * it does. Clauses run in spec order, each fail-closed.
+ *
+ * **WHAT THIS CANNOT SEE.** Nothing below asks whether an entry with
+ * `claim.headword` and `claim.rid` exists — this gate is entry-local by
+ * construction and has no corpus to ask. It checks that the written
+ * target is structurally a completion of THIS anchor's abbreviation and
+ * a spelling twin of THIS host, which is the whole of its contribution.
+ * Existence is checked by `rules/v-sub-twin.corpus.test.ts`, which
+ * re-derives the rule's frozen table from the live snapshot. Neither
+ * half is sufficient alone (spec §5), and reading this gate's silence
+ * about existence as a guarantee is the mistake
+ * [[feedback_vacuous_gates]] is about.
+ */
+function vouchFault(
+	value: string,
+	claim: Vouch,
+	input: Input,
+): string | undefined {
+	const lead = vouchLead(claim.target);
+	const parts = VOUCH_TARGET.exec(claim.target);
+	if (parts?.[1] !== claim.headword) {
+		return `${lead} does not name ${JSON.stringify(claim.headword)}`;
+	}
+	// TRIMMED FOR THE LINGUISTIC CLAUSES, VERBATIM FOR CLAUSE 4. The two
+	// ask different questions. Clause 4 asks whether the ENTRY SHOWED
+	// this display, so it must compare against `links.ts`'s `displayOf`
+	// byte for byte, and that function does not trim. Clauses 2 and 3
+	// ask whether the display ABBREVIATES the headword, which is a fact
+	// about the letters and not the whitespace around them. Testing the
+	// geresh on the untrimmed value refused a correct repair whose
+	// anchor text merely carried a leading space.
+	const display = claim.display.trim();
+	if (!GERESH_END.test(display)) {
+		return `${lead} cites ${JSON.stringify(claim.display)}, which is not a geresh abbreviation`;
+	}
+	const abbreviation = skeletonOf(display);
+	if (
+		abbreviation === '' ||
+		!skeletonOf(claim.headword).startsWith(abbreviation)
+	) {
+		return `${lead} cites ${JSON.stringify(claim.display)}, which does not abbreviate ${JSON.stringify(claim.headword)}`;
+	}
+	if (twinCoreOf(claim.headword) !== twinCoreOf(input.headword)) {
+		return `${lead} names ${JSON.stringify(claim.headword)}, not a spelling twin of ${input.rid}'s headword ${JSON.stringify(input.headword)}`;
+	}
+	if (!input.displays.has(claim.display)) {
+		return `${lead} cites ${JSON.stringify(claim.display)}, which ${input.rid}'s input does not hold`;
+	}
+	const spellings = [
+		claim.target,
+		`/Jastrow,_${claim.headword}.${parts[2] ?? '1'}`,
+	];
+	return spellings.includes(value)
+		? undefined
+		: `${lead} does not spell ${JSON.stringify(value)}`;
+}
+
+/**
+ * Every reason the declared vouches fail to license `value`, or
+ * `undefined` when one of them does.
+ *
+ * The allowlist is consulted FIRST and refuses on the licence rather
+ * than on a clause, so an otherwise-perfect claim from an unlisted rule
+ * says so plainly instead of reporting a clause that in fact held.
+ */
+function vouchFaults(
+	value: string,
+	anchor: Anchor,
+	input: Input,
+): string[] | undefined {
+	if (input.ruleId === undefined || !VOUCH_DECLARERS.has(input.ruleId)) {
+		return input.vouches.length === 0
+			? []
+			: [
+					`${vouchLead(value)} is declared by ${JSON.stringify(input.ruleId ?? '(unnamed rule)')}, which is not licensed for case 8`,
+				];
+	}
+	const naming = input.vouches.filter(
+		(claim) => claim.target === anchor.dataRef,
+	);
+	const reasons = naming.map((claim) => vouchFault(value, claim, input));
+	return reasons.includes(undefined)
+		? undefined
+		: reasons.filter((reason) => reason !== undefined);
+}
+
+/**
  * Why the rule that produced these claims may not declare case 7 at
  * all, or `undefined` when it may — the allowlist clause of the ruling
  * of 2026-08-27.
@@ -1608,9 +1814,19 @@ function checkValue(
 	if (corroborated === undefined) {
 		return;
 	}
+	const vouched = vouchFaults(value, anchor, input);
+	if (vouched === undefined) {
+		return;
+	}
 	return (
-		[...glyphs, ...restores, ...composed, ...rejoined, ...corroborated][0] ??
-		`target ${JSON.stringify(value)} is not in ${input.rid}'s input`
+		[
+			...glyphs,
+			...restores,
+			...composed,
+			...rejoined,
+			...corroborated,
+			...vouched,
+		][0] ?? `target ${JSON.stringify(value)} is not in ${input.rid}'s input`
 	);
 }
 
@@ -1629,21 +1845,28 @@ function checkValue(
  * allowlist. Grouped rather than passed flat to stay inside
  * `useMaxParams`. */
 function inputOf(
-	ids: { rid: string; ruleId: string | undefined },
+	ids: { headword: string; rid: string; ruleId: string | undefined },
 	fields: readonly string[],
 	walked: { output: readonly Placed[]; source: readonly Anchor[] },
 	result: Pick<
 		TransformResult,
-		'composed' | 'corroborated' | 'glyphCorrected' | 'recombined' | 'restored'
+		| 'composed'
+		| 'corroborated'
+		| 'glyphCorrected'
+		| 'recombined'
+		| 'restored'
+		| 'vouched'
 	>,
 ): Input {
 	const { output, source } = walked;
-	const { rid, ruleId } = ids;
+	const { headword, rid, ruleId } = ids;
 	return {
 		claims: result.composed ?? [],
 		corroborations: result.corroborated ?? [],
+		displays: new Set(source.map((anchor) => anchor.display)),
 		fields,
 		glyphs: result.glyphCorrected ?? [],
+		headword,
 		rejoins: result.recombined ?? [],
 		restores: result.restored ?? [],
 		rid,
@@ -1651,6 +1874,7 @@ function inputOf(
 		source,
 		tags: tally(source),
 		targets: targetsOf(source),
+		vouches: result.vouched ?? [],
 		written: tally(output.map((placed) => placed.anchor)),
 	};
 }
@@ -1700,6 +1924,7 @@ function checkLinkTargets(
 		| 'recombined'
 		| 'restored'
 		| 'unlinks'
+		| 'vouched'
 	>,
 	ruleId?: string,
 ): string[] {
@@ -1710,7 +1935,7 @@ function checkLinkTargets(
 	const output = changed ? placedIn(outputFields) : [];
 	const { rid } = after;
 	const input = inputOf(
-		{ rid, ruleId },
+		{ headword: before.headword ?? '', rid, ruleId },
 		sourceFields,
 		{ output, source },
 		result,

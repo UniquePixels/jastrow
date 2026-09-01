@@ -272,6 +272,60 @@ interface TransformResult {
 	 * either direction — undeclared removal, or a declaration larger
 	 * than what went missing — fails. */
 	unlinks?: number;
+	/** Link targets this call wrote naming **a headword that belongs to
+	 * ANOTHER ENTRY of this dictionary** (link-target gate case 8, spec
+	 * `docs/specs/2026-08-31-link-target-gate-case-8.md`). `target` is
+	 * the `data-ref` written; `headword` is the headword the rule says
+	 * it names; `rid` is the entry that headword belongs to; `display`
+	 * is the anchor display the abbreviation came from.
+	 *
+	 * **THIS IS THE FIRST CASE TO ADMIT EVIDENCE FROM OUTSIDE THE
+	 * ENTRY.** Every other case sources the written target from the
+	 * entry's own input — case 7 mints, so minting is not the line, but
+	 * what it mints is assembled from two input targets and an input
+	 * display. A `v. sub` redirect stub holds only an ABBREVIATION of
+	 * its target (`", v. sub נִידּ׳."` for `Jastrow, נִידּוּי 1`), so
+	 * the completion exists nowhere in the entry and every earlier case
+	 * correctly reads it as a fabrication.
+	 *
+	 * `link-target.ts` accepts the claim only when all five hold:
+	 *
+	 * 1. `target` is exactly `Jastrow, <headword>` with an optional
+	 *    ` <n>`, `n` a positive integer — no other work, no other locus
+	 *    shape.
+	 * 2. `display` ends in a geresh and its skeleton is a PREFIX of
+	 *    `headword`'s skeleton.
+	 * 3. `headword` and this entry's own headword are EQUAL once the
+	 *    matres lectionis `י` and `ו` are dropped from both skeletons.
+	 * 4. `display` is a display the entry's input actually held, matched
+	 *    to its anchor by `target` like every other case.
+	 * 5. The declaring rule id is on `VOUCH_DECLARERS`.
+	 *
+	 * **CLAUSE 3 IS WHAT MAKES THIS SAFE, AND CLAUSE 2 ALONE WOULD NOT
+	 * BE.** Measured over the 50 repairs: clauses 2∧3 admit exactly one
+	 * candidate headword every time, where clause 2 alone admits up to
+	 * 54 (`כֹּר׳` reaches 223 headwords). The residue is zero. Do not
+	 * relax either clause to admit a neighbouring row —
+	 * `containment-fallback-mislink` was withdrawn precisely because
+	 * its shape needs skeleton EQUALITY with no abbreviation and no
+	 * twin, which licenses the word but not the entry (`נגד` admits
+	 * `נָגַד`, `נְגַד`, `נֶגֶד`) and left 17 of its 18 repairs
+	 * undetermined.
+	 *
+	 * **NOTHING HERE CHECKS THAT THE HEADWORD EXISTS.** `link-target.ts`
+	 * is entry-local by construction; it verifies the target's SHAPE
+	 * against this entry's own headword and display, not the corpus.
+	 * Existence is checked by `v-sub-twin.corpus.test.ts`, which
+	 * re-derives the rule's frozen table from the live snapshot. Neither
+	 * half is sufficient alone, and a reader who takes the gate's
+	 * silence about existence for a guarantee has the wrong model — see
+	 * [[feedback_vacuous_gates]]. */
+	vouched?: readonly {
+		display: string;
+		headword: string;
+		rid: string;
+		target: string;
+	}[];
 }
 
 interface Rule {
