@@ -454,6 +454,7 @@ import type { SourceEntry } from '../body/types.ts';
 import { tokenize } from './html.ts';
 import { type Anchor, anchors } from './links.ts';
 import { fieldsOf } from './no-new-text.ts';
+import { byCodeUnit } from './rules/point-claims.ts';
 import type { TransformResult } from './types.ts';
 
 /** One declared composition (`TransformResult.composed`). */
@@ -1417,7 +1418,9 @@ function pointDelta(
 ): { gained: string | undefined; lost: string | undefined } {
 	const after = pointsOf(target);
 	const before = pointsOf(from);
-	const marks = [...new Set([...after.keys(), ...before.keys()])].sort();
+	const marks = [...new Set([...after.keys(), ...before.keys()])].sort(
+		byCodeUnit,
+	);
 	return {
 		gained: marks.find((m) => (after.get(m) ?? 0) > (before.get(m) ?? 0)),
 		lost: marks.find((m) => (after.get(m) ?? 0) < (before.get(m) ?? 0)),

@@ -57,10 +57,8 @@
  */
 import type { SourceEntry } from '../../body/types.ts';
 import { mapFields } from '../fields.ts';
-import { tokenize } from '../html.ts';
-import { anchors } from '../links.ts';
-import { fieldsOf } from '../no-new-text.ts';
 import type { Rule, TransformResult } from '../types.ts';
+import { inputTargets } from './point-claims.ts';
 
 /** The shin dot and the sin dot — the only marks this rule writes.
  * NOT `/g`: `dotsAdded` asks it per character, and a global regex asked
@@ -71,7 +69,7 @@ const DOT = /[\u05C1\u05C2]/u;
 const LETTER = /[\u05D0-\u05EA][\u0591-\u05C7]*/gu;
 /** A Hebrew letter or point, for the word boundary the table keys are
  * matched at. A key inside a longer word is a different word. */
-const HEBREW = '(?:[\\u05D0-\\u05EA]|\\p{Mn})';
+const HEBREW: string = String.raw`(?:[\u05D0-\u05EA]|\p{Mn})`;
 
 /**
  * Every damaged word the corpus attests a UNIQUE dotted twin for, and
@@ -152,26 +150,13 @@ function dotsAdded(from: string, target: string): string {
 	return added.join('');
 }
 
-/** Every `href` and `data-ref` the entry's input holds, deduplicated. */
-function targetsOf(entry: SourceEntry): Set<string> {
-	const found = new Set<string>();
-	for (const field of fieldsOf(entry)) {
-		for (const anchor of anchors(tokenize(field))) {
-			found.add(anchor.dataRef);
-			found.add(anchor.href);
-		}
-	}
-	found.delete('');
-	return found;
-}
-
-/** One case-9 claim per repaired input target, sorted so two runs
- * declare the same list in the same order. */
+/** One case-9 claim per repaired input target, in `inputTargets`'
+ * deterministic order. */
 function claimsFor(
 	entry: SourceEntry,
 ): { adds: string; from: string; target: string }[] {
 	const claims: { adds: string; from: string; target: string }[] = [];
-	for (const from of [...targetsOf(entry)].sort()) {
+	for (const from of inputTargets(entry)) {
 		const target = restoreShinSin(from);
 		if (target !== null) {
 			claims.push({ adds: dotsAdded(from, target), from, target });

@@ -61,10 +61,8 @@
  */
 import type { SourceEntry } from '../../body/types.ts';
 import { mapFields } from '../fields.ts';
-import { tokenize } from '../html.ts';
-import { anchors } from '../links.ts';
-import { fieldsOf } from '../no-new-text.ts';
 import type { Rule, TransformResult } from '../types.ts';
+import { inputTargets } from './point-claims.ts';
 
 /** A consonant, its other marks, the HOLAM, its other marks, then an
  * UNPOINTED vav.
@@ -98,28 +96,14 @@ function migrateHolam(text: string): string | null {
 	return out === text ? null : out;
 }
 
-/** Every `href` and `data-ref` the entry's input holds, deduplicated —
- * the strings a case-9 claim's `from` must come from. */
-function targetsOf(entry: SourceEntry): Set<string> {
-	const found = new Set<string>();
-	for (const field of fieldsOf(entry)) {
-		for (const anchor of anchors(tokenize(field))) {
-			found.add(anchor.dataRef);
-			found.add(anchor.href);
-		}
-	}
-	found.delete('');
-	return found;
-}
-
-/** One case-9 claim for every input target the repair rewrites, sorted
- * so two runs declare the same list in the same order.
+/** One case-9 claim for every input target the repair rewrites, in
+ * `inputTargets`' deterministic order.
  *
  * No `adds`: this rule only ever MOVES a mark, so `target`'s point
  * multiset is `from`'s, and clause 5 has nothing to account for. */
 function claimsFor(entry: SourceEntry): { from: string; target: string }[] {
 	const claims: { from: string; target: string }[] = [];
-	for (const from of [...targetsOf(entry)].sort()) {
+	for (const from of inputTargets(entry)) {
 		const target = migrateHolam(from);
 		if (target !== null) {
 			claims.push({ from, target });
