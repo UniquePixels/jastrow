@@ -2,8 +2,8 @@
 
 **Status: triaged 2026-08-21; totals recomputed from the catalogue
 2026-08-26 after transform batch 4, again 2026-08-29 after batch 7, and
-again 2026-09-01 after batches 9 and 10.** All 131 candidate rows
-routed.
+again 2026-09-02 after batches 9 and 10 and batch 10's catalogue
+write-back.** All 131 candidate rows routed.
 This is the Phase 2 entry point: start here, not in `patterns.jsonl`.
 
 Every count on this page is derived from `patterns.jsonl`, never typed
@@ -56,7 +56,7 @@ someone pins the predicate.
 
 | Route | Rows | Instances | What it needs |
 |---|---:|---:|---|
-| **transform** | **54** | **15,512** | deterministic code + tests |
+| **transform** | **54** | **15,655** | deterministic code + tests |
 | judgment | 72 | 20,840 | per-entry reading (Opus pass or maintainer) |
 | blocked | 5 | 4,947 | pin the predicate first |
 
@@ -207,7 +207,7 @@ is working:
   label out of `senses[0]`, so the opening rule repairs 88 alone and 89
   composed. See [transform-batch-7.md](transform-batch-7.md).
 
-**37.6% of the backlog is deterministic code** (15,512 of 41,299
+**37.8% of the backlog is deterministic code** (15,655 of 41,442
 instances), 41.2% of it by row. **That share has FALLEN** — it read
 47.8% by instance after batch 8 — and not because anything was
 repaired: batch 9 moved seven rows and 4,214 instances onto the
@@ -267,21 +267,37 @@ remainder is recorded in the batch report rather than in `PENDING`,
 because a row named in both `RULES` and `PENDING` reads as
 `duplicated`. See [transform-batch-10.md](transform-batch-10.md).
 
-The instance total is now FALLING, and both directions have the same
+**Batch 10 also corrected two counts, and they reached the catalogue a
+day late.** `holam-migrated-off-mater-vav` goes 558 occurrences / 308
+entries → **1,007 / 457** and `shin-sin-dot-drop` 89 / 77 → **102 /
+71**, while `impossible-dagesh` (19 / 17) and `vkh-geresh-loss` (11 /
+11) reproduce exactly. The batch shipped none of that into
+`patterns.jsonl` — its only catalogue edit was a single `entangledWith`
+edge — and `bun transform:count` is what caught the omission, reading
+**+149** on the holam row against the stale 308. It was **the only
+POSITIVE delta among the twelve the harness was reporting**, and the
+direction is what makes it the one worth chasing: a negative delta is
+a rule declining part of its row, which the row's own `reason` is
+expected to explain, while a positive one means the row UNDERSTATES
+its defect and nothing else in this document was going to notice.
+
+The instance total moves in BOTH directions, and both have the same
 cause: a row's count is a claim nobody has checked until someone works
 it. Batch 3b corrected seven counts upward — `italic-swallowed-terminal-period`
-alone went 1,098 → 1,567 when its rule was written — and batch 6a took
+alone went 1,098 → 1,567 when its rule was written — batch 6a took
 903 instances out at a stroke by measuring two rows' populations *after*
-`applyRepairs` instead of on raw source.
+`applyRepairs` instead of on raw source, and batch 10's write-back put
+143 back in, nearly all of it the one holam row.
 
-Cutover gate, cross-cut — re-derived after batch 10 and **unchanged
-since batch 8**, because batches 9 and 10 moved rows between routes
-without changing any row's `blocking` flag:
+Cutover gate, cross-cut — re-derived after batch 10's write-back. **The
+blocking half has not moved since batch 8**: batches 9 and 10 changed
+no row's `blocking` flag, and both counts batch 10 corrected sit on
+non-blocking rows, so the whole +143 lands in the second line:
 
 | | Rows | Instances |
 |---|---:|---:|
 | Blocks the v2 cutover | 55 | 13,992 |
-| Launch need not wait | 76 | 27,307 |
+| Launch need not wait | 76 | 27,450 |
 
 ## The transform queue — all 54 rows, largest first
 
@@ -322,9 +338,9 @@ for (const r of rows) console.log(`| \`${r.id}\` | ${n(r.corpusCount)} | ${r.blo
 | `anchor-swallows-close-paren` | 493 | no | — |
 | `geresh-letter-numeral-mislink` | 475 | no | — |
 | `nested-anchor-swallows-punctuation` | 465 | **yes** | — |
+| `holam-migrated-off-mater-vav` | 457 | no | — |
 | `tosefta-variant-chapter-halakha-loss` | 391 | no | — |
 | `ib-yoma-2a` | 312 | no | — |
-| `holam-migrated-off-mater-vav` | 308 | no | — |
 | `emphasis-run-edge-space` | 304 | no | — |
 | `stranded-stem-head` | 296 | **yes** | — |
 | `em-dash-section-break-in-own-italic` | 270 | no | — |
@@ -340,7 +356,7 @@ for (const r of rows) console.log(`| \`${r.id}\` | ${n(r.corpusCount)} | ${r.blo
 | `duplicated-definition-opening-run` | 85 | **yes** | — |
 | `gershayim-breaks-ref-attribute` | 85 | **yes** | — |
 | `ellipsis-fragment-anchored` | 80 | no | — |
-| `shin-sin-dot-drop` | 77 | no | — |
+| `shin-sin-dot-drop` | 71 | no | — |
 | `adjacent-verbatim-repetition` | 65 | **yes** | — |
 | `anchor-italic-no-space` | 56 | no | — |
 | `plural-to-feminine-final-letter-mislink` | 50 | no | — |
@@ -383,7 +399,7 @@ for (const r of rows) console.log(`| \`${r.id}\` | ${n(r.corpusCount)} | ${r.blo
    did exactly that** — ten rows, 1,166 catalogued instances, all
    non-blocking, all link-shaped
    ([transform-batch-2.md](transform-batch-2.md)). **Closed by batch
-   10.** 31 such rows sit on the route today (8,009 instances) and
+   10.** 31 such rows sit on the route today (8,152 instances) and
    every one of them is shipped — `PENDING` is empty. There are no
    cheap wins left to take here, only the remainder inside rules that
    already ship, recorded in
@@ -724,7 +740,7 @@ after launch unless something else forces the issue.
    ```
 
    ```text
-   53 rule(s), 12 mismatch(es).
+   53 rule(s), 11 mismatch(es).
    {
      total: 54,
      registered: 54,
@@ -734,9 +750,17 @@ after launch unless something else forces the issue.
 
    `registered` is 54 ROWS against 53 RULES because
    `jt-double-wrapped-citation` sits in `COVERED` rather than owning a
-   rule of its own. The mismatch count is a FINDING and not a
-   regression — `transform:count` says so itself — but it has grown
-   2 → 12 as the registry filled, and no GENERATED tally follows it.
-   This pinned block is the only record, which means it goes stale the
-   way the two queue tables did. It is the next tally that should be
-   generated rather than pinned.
+   rule of its own. **All 11 mismatches are triaged, and every one is
+   a documented decline or a unit mismatch** recorded in its row's own
+   `reason`: four name the delta outright (`ib-yoma-2a` −124,
+   `sifre-ib-resolves-to-yalkut` −5, `parenthesized-alt-headword` −1,
+   `phrase-alt-headword-stub` −8) and seven state the fire/decline
+   split it follows from. The twelfth was the real finding —
+   `holam-migrated-off-mater-vav` reading **+149** against a stale 308
+   — and it is corrected rather than explained. TWO SOFT SPOTS REMAIN:
+   `trailing-em-dash-tail` and `continuation-marker-em-dash-loss` give
+   their shipped figures in senses and members (101, 14) where the
+   harness counts entries (99, 13), so the deltas agree in substance
+   but neither is checkable without re-deriving. This block is still
+   pinned rather than generated, and it is the next tally that should
+   go the way the two queue tables did.
