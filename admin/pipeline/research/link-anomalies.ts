@@ -103,13 +103,7 @@ const GERESH_END = /[׳']\s*$/u;
  * attribute upstream, a systemic extraction artifact, not a mislink. */
 const GERSHAYIM = /["״]/u;
 const ROMAN_NUMERAL = /^[IVXLC]{1,4}$/u;
-/** An open paren immediately before an anchor. With a close paren
- * immediately after it, the anchor is the whole content of its own
- * parenthesis — the parallel-chapter citation `(<a>IV</a>), 1`, where
- * the numeral names a variant edition's chapter and the halakha
- * follows outside. The window is bounded because the test runs once
- * per anchor over a whole definition field. */
-const PAREN_BEFORE = /\(\s*$/u;
+const WHITESPACE_CHAR = /\s/u;
 /** The proclitic particles Aramaic writes onto the following word. A
  * two-letter geresh form opening with one of these is not the generic
  * `ר׳`/`ב׳` but a prefixed one-letter abbreviation of the host entry
@@ -292,6 +286,18 @@ function inflectionHint(
 	};
 }
 
+/** Whether the first non-whitespace character before `at` is an open
+ * paren. Walks the whitespace run rather than testing the whole prefix,
+ * so an anchor late in a long definition costs the same as an early
+ * one, and no fixed look-behind window can clip a wide gap. */
+function openParenBefore(text: string, at: number): boolean {
+	let i = at - 1;
+	while (i >= 0 && WHITESPACE_CHAR.test(text[i] as string)) {
+		i -= 1;
+	}
+	return i >= 0 && text[i] === '(';
+}
+
 /** Bare Roman-numeral displays, over anchors into any corpus.
  *
  * Carve-out (sweep tiering 2.2, 2026-09-02): an anchor that IS its own
@@ -310,10 +316,7 @@ function romanHints(text: string): LinkHint[] {
 			continue;
 		}
 		const at = m.index;
-		const parenthesized =
-			PAREN_BEFORE.test(text.slice(Math.max(0, at - 4), at)) &&
-			text.startsWith(')', at + m[0].length);
-		if (parenthesized) {
+		if (openParenBefore(text, at) && text.startsWith(')', at + m[0].length)) {
 			continue;
 		}
 		hints.push({
