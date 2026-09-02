@@ -18,17 +18,28 @@
  * is the ONLY clean signal — the other candidates, `אפי׳` and `בק׳`,
  * are also real words, so their bare forms carry no information.
  *
- * ## The four refusals, and one of them is the whole of the difference
+ * ## The four refusals, and ONE CLAUSE is the whole of the difference
  *
  * A naive probe returns 17, not 11, and the six it adds are not this
- * defect:
+ * defect. The four clauses do not share that work: the letter, word and
+ * geresh clauses take an unguarded `וכ` probe from **18,667 occurrences
+ * across 7,984 entries** down to **17**, and the COMBINING MARK clause
+ * alone takes **17 to 11**.
  *
- * - **Notarikon.** `K00463`, `K01215`, `K01217`, `K01358` and `S00372`
- *   write `וכ̇` with a combining dot inside an acrostic —
- *   `ז̇ת̇ר̇ וכ̇ר̇כ̇ס`. The dot is the acrostic's own mark and the
- *   word is not an abbreviation.
+ * - **Notarikon — ALL SIX OF THEM.** Every entry the mark clause
+ *   removes is an acrostic whose dot is U+0307 COMBINING DOT ABOVE, a
+ *   mark a Hebrew-range lookaround cannot see. In FOUR the `וכ` opens a
+ *   word, so only the dot AFTER the kaf is there to catch it —
+ *   `K00463`, `K01215`, `K01217`, `K01358`, as in `ז̇ת̇ר̇ וכ̇ר̇כ̇ס`.
+ *   In TWO the `וכ` is interior to the word and the dot stands on BOTH
+ *   sides — `S00372` `נ̇ב̇וכ̇ד̇ נ̇צ̇ר̇` and `U01054` `ב̇וכ̇ין`. The
+ *   dot is the acrostic's own mark and the word is not an abbreviation.
  * - **Longer words**, **an already-correct geresh** and **a preceding
- *   Hebrew letter** account for the rest.
+ *   Hebrew letter** are the other three clauses. They do the 18,667 →
+ *   17 work above and contribute NOTHING to the final six. **An earlier
+ *   revision of this doc said they "account for the rest", named five
+ *   notarikon rather than six, and omitted `U01054` entirely** — all
+ *   three claims are refuted by the measurement above.
  *
  * ## Scope
  *
