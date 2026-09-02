@@ -251,16 +251,18 @@ below is now empty. See [transform-batch-9.md](transform-batch-9.md).
 **Batch 10 shipped the four Hebrew-orthography rows and emptied
 `PENDING`.** `RULES` **53**, `coverage()` **54** total / **54**
 registered / **0** pending, 0 unaccounted, 0 duplicated — every
-catalogued transform row now has a registered rule, and the queue this
-phase opened with is closed. Its finding is that two of the four repair
-the INSIDE of a link target and the corruption is self-consistent on
-both sides: of the 218 anchors whose `data-ref` carries a migrated
-holam, **218 point at a headword carrying the same defect**, so
-repairing either side alone breaks all 218 and no link-integrity check
-can see it either before or after. That took a `link-target.ts`
-case 9. Three of the rules decline part of their own population rather
-than infer a spelling — 50 of 102 for `shin-sin-dot-drop`, 6 for
-`impossible-dagesh`, 1 for `holam-migrated-off-mater-vav` — and that
+catalogued transform row is now accounted for in the registry, 53 of
+them owning a rule and `jt-double-wrapped-citation` sitting in
+`COVERED`, and the queue this phase opened with is closed. Its finding
+is that two of the four repair the INSIDE of a link target and the
+corruption is self-consistent on both sides: of the 218 anchors whose
+`data-ref` carries a migrated holam, **218 point at a headword carrying
+the same defect**, so repairing either side alone breaks all 218 and no
+link-integrity check can see it either before or after. That took a
+`link-target.ts` case 9. Three of the rules decline part of their own
+population rather than infer a spelling — 50 of 102 for
+`shin-sin-dot-drop`, 6 for `impossible-dagesh`, 1 for
+`holam-migrated-off-mater-vav` — and that
 remainder is recorded in the batch report rather than in `PENDING`,
 because a row named in both `RULES` and `PENDING` reads as
 `duplicated`. See [transform-batch-10.md](transform-batch-10.md).
@@ -286,9 +288,10 @@ without changing any row's `blocking` flag:
 `⚠ unaudited` marks a row with no `reason` recorded: its count has never
 been derived. That is not a reason to skip it — for a transform row,
 **writing the transform is the audit**, because a deterministic rule
-either reproduces the count or does not. **The column is currently
-empty**: batch 9 withdrew the last two unaudited rows,
-`unlinked-v-span` and `targum-sheni-never-linked`, to `judgment`.
+either reproduces the count or does not. **No row carries the marker
+today**: batch 9 withdrew the last two unaudited rows,
+`unlinked-v-span` and `targum-sheni-never-linked`, to `judgment`, so
+the column reads `—` throughout.
 
 Heading and table are GENERATED from `patterns.jsonl`, never typed.
 Regenerate both with:
@@ -298,9 +301,10 @@ bun -e 'import {parsePatterns} from "./admin/pipeline/research/patterns.ts";
 const n=(x)=>x.toLocaleString("en-US");
 const rows=parsePatterns(await Bun.file("data/patches/patterns.jsonl").text())
   .filter(r=>r.route==="transform"&&r.status==="candidate")
-  .toSorted((a,b)=>b.corpusCount-a.corpusCount||a.id.localeCompare(b.id));
+  .toSorted((a,b)=>b.corpusCount-a.corpusCount||(a.id<b.id?-1:1));
 const sum=rows.reduce((a,b)=>a+b.corpusCount,0);
-console.log(`heading: all ${rows.length} rows / ${n(sum)} instances`);
+console.log(`heading: all ${rows.length} rows, largest first`);
+console.log(`route total: ${n(sum)} instances`);
 console.log("| Row | Instances | Blocks cutover | Audit |");
 console.log("|---|---:|---|---|");
 for (const r of rows) console.log(`| \`${r.id}\` | ${n(r.corpusCount)} | ${r.blocking===true?"**yes**":"no"} | ${r.reason===undefined?"⚠ unaudited":"—"} |`);'
@@ -543,7 +547,7 @@ bun -e 'import {parsePatterns} from "./admin/pipeline/research/patterns.ts";
 const n=(x)=>x.toLocaleString("en-US");
 const rows=parsePatterns(await Bun.file("data/patches/patterns.jsonl").text())
   .filter(r=>r.route==="judgment"&&r.status==="candidate")
-  .toSorted((a,b)=>Number(b.blocking===true)-Number(a.blocking===true)||b.corpusCount-a.corpusCount||a.id.localeCompare(b.id));
+  .toSorted((a,b)=>Number(b.blocking===true)-Number(a.blocking===true)||b.corpusCount-a.corpusCount||(a.id<b.id?-1:1));
 const sum=rows.reduce((a,b)=>a+b.corpusCount,0);
 console.log(`heading: ${rows.length} rows / ${n(sum)} instances`);
 console.log("| Row | Instances | Blocks cutover |");
@@ -732,6 +736,7 @@ after launch unless something else forces the issue.
    `jt-double-wrapped-citation` sits in `COVERED` rather than owning a
    rule of its own. The mismatch count is a FINDING and not a
    regression — `transform:count` says so itself — but it has grown
-   2 → 12 as the registry filled, and nothing in this document tracks
-   it. It is the next tally that should be generated rather than
-   pinned.
+   2 → 12 as the registry filled, and no GENERATED tally follows it.
+   This pinned block is the only record, which means it goes stale the
+   way the two queue tables did. It is the next tally that should be
+   generated rather than pinned.
