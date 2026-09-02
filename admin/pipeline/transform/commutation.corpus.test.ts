@@ -286,14 +286,14 @@ describe('the registry commutes except where the catalogue says otherwise', () =
 		// quietly widen into same-phase pairs it has no licence for.
 		// 80 → 280 across batch 7, which registered five structural
 		// rules; 280 → 287 across batch 8 and 287 → 294 across batch 9,
-		// each registering ONE `text-repairs` rule. The figure is a
-		// PRODUCT, so it moves whenever either phase grows, and
+		// each registering ONE `text-repairs` rule; 294 → 322 across
+		// batch 10, which registered FOUR of them (46 × 7). The figure is
+		// a PRODUCT, so it moves whenever either phase grows, and
 		// re-deriving it is how a reader checks that the growth was in
-		// the phase they expected: batch 9's `vSubRedirectTwin`
-		// declaring `structural-repairs` instead would make it
-		// 41 × 8 = 328, not 294.
+		// the phase they expected: any one of batch 10's four declaring
+		// `structural-repairs` instead would make it 45 × 8 = 360.
 		expect(stats.composedPairs + stats.crossPhasePairs).toBe(stats.totalPairs);
-		expect(stats.crossPhasePairs).toBe(294);
+		expect(stats.crossPhasePairs).toBe(322);
 		// MEASURED on CI 2026-08-31, PR #59's first `Corpus Audit` run: this
 		// gate logged 134,141ms against the 180s budget it used to carry —
 		// 75% of it. A runner a third slower fails here, and the message

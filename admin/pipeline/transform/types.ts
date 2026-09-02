@@ -150,6 +150,69 @@ interface TransformResult {
 	 *   converting the one stranded inside it, and would otherwise
 	 *   license a tag whose `href` parses to nothing. */
 	glyphCorrected?: readonly { from: string; target: string }[];
+	/** Link targets this call repaired at the POINT level — the Hebrew
+	 * combining marks in U+0591–U+05C7 — and nowhere else (link-target
+	 * gate case 9, spec
+	 * `docs/specs/2026-09-01-link-target-gate-case-9.md`). `from` is a
+	 * target in this entry's INPUT; `target` is the value written;
+	 * `adds` is the points the repair INTRODUCED, verbatim, and its
+	 * absence means it introduced none.
+	 *
+	 * Matched to an anchor by `target === value` rather than by anchor
+	 * identity, alone among the cases that take a declaration. Every
+	 * other one reads evidence off a particular anchor — case 7's
+	 * sibling display, case 8's witness — so it has to say which. This
+	 * case reads nothing but the two strings, so an anchor name would
+	 * add a requirement without adding a check. The two attributes are
+	 * judged separately by `checkValue`, so a rule declares the
+	 * `data-ref` and the `href` spelling as two claims.
+	 *
+	 * `link-target.ts` accepts a claim only when all five hold:
+	 *
+	 * 1. The declaring rule id is on `POINT_DECLARERS`.
+	 * 2. `from` is in this entry's input target set.
+	 * 3. `target` and `from`, with every point removed, are
+	 *    BYTE-IDENTICAL. Stated on points alone rather than through
+	 *    `skeletonOf`, which also strips the trailing roman numeral —
+	 *    `Jastrow, X I` and `Jastrow, X II` share a skeleton, so a
+	 *    clause phrased that way would license moving a link between
+	 *    two senses of one spelling.
+	 * 4. `holamNormal(target) === holamNormal(from)`, the gate's OWN
+	 *    fold of `<consonant, holam, marks> + bare vav` onto
+	 *    `<consonant, marks> + <vav, holam>`. The gate owns the
+	 *    function exactly as case 5 owns the gershayim↔quote mapping;
+	 *    a rule cannot parameterize it.
+	 * 5. After that fold, `target`'s point multiset is `from`'s plus
+	 *    exactly `adds`; every character of `adds` is U+05C1 or U+05C2;
+	 *    and every dot the claim INTRODUCED stands on a letter that also
+	 *    carries a vowel or a dagesh. Scoped to the introduced dots
+	 *    rather than to every dot in `target`, and found that way by the
+	 *    corpus: `Jastrow, אִישׁוֹן 1` carries a shin dot on a letter
+	 *    whose only vowel is the holam of the FOLLOWING mater vav —
+	 *    ordinary Hebrew, and a mark the holam repair never wrote.
+	 *    Clause 3 has settled that the two spell the same letters, so
+	 *    the walks align index for index and a gained dot is one the
+	 *    claim is answerable for.
+	 *
+	 * **CLAUSE 4 IS WHAT MAKES THIS SAFE, AND CLAUSE 3 ALONE WOULD NOT
+	 * BE.** Measured over all 72,387 distinct targets the corpus holds:
+	 * point-stripped equality alone groups 2,063 bare forms with more
+	 * than one pointed spelling, and they are not variants of one word
+	 * — `עַל`/`עֹל`, `אֵם`/`אִם`,
+	 * `תְּפִלָּה`/`תִּפְלָה`. Requiring the point
+	 * multiset as well leaves 9, of which 8 are still distinct lemmas.
+	 * Requiring the fold leaves **1**, and that pair is the defect's own
+	 * two spellings of a single word. Clause 5's pointed-letter
+	 * requirement takes the add arm's residue to **zero** from 2.
+	 *
+	 * **NOTHING HERE CHECKS THAT THE REPAIR IS RIGHT.** The gate
+	 * verifies the CLASS of edit against this entry's own input; whether
+	 * the repaired address resolves, and whether repairing it merges two
+	 * entries, is checked by `holam-mater.corpus.test.ts` and
+	 * `shin-sin.corpus.test.ts`. Neither half is sufficient alone — the
+	 * same split case 8 states, and [[feedback_vacuous_gates]] is about
+	 * mistaking one for both. */
+	pointed?: readonly { adds?: string; from: string; target: string }[];
 	/** Link targets this call REBUILT from two other targets in this
 	 * entry's input (batch-2 link spec §3.2 case 4, ruling of
 	 * 2026-08-23). `head` supplies a leading run of the written

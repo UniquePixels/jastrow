@@ -454,6 +454,7 @@ import type { SourceEntry } from '../body/types.ts';
 import { tokenize } from './html.ts';
 import { type Anchor, anchors } from './links.ts';
 import { fieldsOf } from './no-new-text.ts';
+import { byCodeUnit } from './rules/point-claims.ts';
 import type { TransformResult } from './types.ts';
 
 /** One declared composition (`TransformResult.composed`). */
@@ -504,6 +505,11 @@ type Restore = {
 	removed: string;
 	written: string;
 };
+
+/** One declared point repair (`TransformResult.pointed`). Both members
+ * are attribute VALUES — a `data-ref` or an `href` — and `adds` is the
+ * points the repair introduced, absent when it introduced none. */
+type Point = { adds?: string; from: string; target: string };
 
 /** One declared vouch (`TransformResult.vouched`). Unlike every other
  * claim type here, `headword` and `rid` name material the entry under
@@ -631,6 +637,7 @@ interface Input {
 	 * clause in this gate that reads a field outside the walked link
 	 * fields, because a spelling twin is defined against the host. */
 	headword: string;
+	points: readonly Point[];
 	rejoins: readonly Recombine[];
 	restores: readonly Restore[];
 	rid: string;
@@ -1239,6 +1246,33 @@ const VOUCH_DECLARERS: ReadonlySet<string> = new Set([
 	'v-sub-redirect-stub-mislink',
 ]);
 
+/**
+ * The rule ids licensed to declare a case-9 point repair. Third and
+ * last of this gate's allowlists, and the two above carry the reasoning
+ * — a case that rewrites a target rather than sourcing it must name who
+ * may.
+ *
+ * **CASE 9'S RESIDUE IS ZERO ON THE ADD ARM AND ONE ON THE MOVE ARM,
+ * AND THE ONE IS THE DEFECT ITSELF.** Measured over all 72,387 distinct
+ * targets: the fold of clause 4 groups exactly one pair of distinct
+ * targets, `Jastrow, רִמּוֹן 1` with `Jastrow, רִמֹּון 1`,
+ * two spellings of one word. Clause 5's pointed-letter requirement
+ * takes the add arm from 2 reachable targets to 0.
+ *
+ * BEFORE ADDING AN ID, RE-MEASURE THE FOLD, not just the name. The
+ * bound is a property of the current clauses against the current
+ * corpus, and a rule that repairs a DIFFERENT point-level defect needs
+ * a different fold — clause 4 names one, deliberately, and a second
+ * one gets its own clause and its own measurement rather than reusing
+ * this by analogy.
+ */
+const POINT_DECLARERS: ReadonlySet<string> = new Set([
+	// Move arm. Residue 1, and it is this row's own two spellings.
+	'holam-migrated-off-mater-vav',
+	// Add arm. Residue measured 0 under clause 5.
+	'shin-sin-dot-drop',
+]);
+
 /** Combining points — the vowel and cantillation marks a skeleton
  * drops. */
 const HEBREW_POINT = /[֑-ׇ]/gu;
@@ -1299,6 +1333,225 @@ function skeletonOf(value: string): string {
  * defective spelling of one word share, and clause 3's whole test. */
 function twinCoreOf(value: string): string {
 	return skeletonOf(value).replace(MATRES, '');
+}
+
+/** A consonant, its other marks, a HOLAM, its other marks, then an
+ * UNPOINTED vav — the migrated spelling of a holam male, and the only
+ * shape case 9's clause 4 folds.
+ *
+ * U+05B9 is cut out of both mark classes rather than left to
+ * backtracking. The class it sits in (U+05B0–U+05BC) would otherwise
+ * let a greedy run swallow the holam this pattern is looking for, and a
+ * regex whose correctness rests on backtracking order is one nobody can
+ * read. */
+const MIGRATED_HOLAM =
+	/([\u05D0-\u05EA])([\u05B0-\u05B8\u05BA-\u05BC\u05BF\u05C1\u05C2\u05C7]*)\u05B9([\u05B0-\u05B8\u05BA-\u05BC\u05BF\u05C1\u05C2\u05C7]*)\u05D5(?![\u0591-\u05C7])/gu;
+/** The shin dot and the sin dot — the only points case 9 may ADD. They
+ * identify a LETTER rather than supply a vowel, which is the whole of
+ * why the case admits them and no other mark. */
+const LETTER_DOT = /[\u05C1\u05C2]/u;
+/** A letter with everything attached to it, for clause 5's last test. */
+const POINTED_LETTER = /[\u05D0-\u05EA][\u0591-\u05C7]*/gu;
+/** A vowel or a dagesh — what a dotted letter must ALSO carry. The two
+ * dots are cut out of the class deliberately: a shin standing on
+ * nothing but its own dot is what clause 5's last test refuses. */
+const VOWEL_OR_DAGESH = /[\u05B0-\u05BC\u05BF\u05C7]/u;
+
+/** Both spellings of a holam male folded onto the canonical one:
+ * `<consonant, holam, marks> + bare vav` becomes
+ * `<consonant, marks> + <vav, holam>`.
+ *
+ * THE GATE OWNS THIS, and that is clause 4's whole safety argument. A
+ * fold a rule could name would be a fold a rule could widen, exactly as
+ * case 5 keeps the gershayim↔quote mapping here rather than importing
+ * it from `gershayim.ts`. */
+function holamNormal(value: string): string {
+	return value.replace(
+		MIGRATED_HOLAM,
+		(_match, letter: string, before: string, after: string) =>
+			`${letter}${before}${after}\u05D5\u05B9`,
+	);
+}
+
+/** How many of each point `value` carries. Letters are discarded: the
+ * multiset clause asks what marks are present, and clause 3 has already
+ * settled that the letters are identical. */
+function pointsOf(value: string): Map<string, number> {
+	const counts = new Map<string, number>();
+	for (const mark of value.match(HEBREW_POINT) ?? []) {
+		counts.set(mark, (counts.get(mark) ?? 0) + 1);
+	}
+	return counts;
+}
+
+/** `value` with one occurrence of each character of `adds` removed,
+ * left to right, or `value` untouched when one of them is not there —
+ * an imbalance the multiset clause reports before clause 4 is asked. */
+function withoutAdds(value: string, adds: string): string {
+	let out = value;
+	for (const mark of adds) {
+		const at = out.indexOf(mark);
+		if (at < 0) {
+			return value;
+		}
+		out = out.slice(0, at) + out.slice(at + mark.length);
+	}
+	return out;
+}
+
+/** The opening of every case-9 refusal, so its five clauses cannot
+ * drift apart in how they name the value under judgement. */
+function pointLead(value: string): string {
+	return `pointed ${JSON.stringify(value)}`;
+}
+
+/** The point `target` carries more of than `from`, and the one it
+ * carries fewer of, each the smallest such mark by codepoint so two
+ * runs of the same claim report the same character.
+ *
+ * A MULTISET rather than a set, and per mark rather than in total: a
+ * repair that dropped one dagesh and added another would balance on any
+ * count that did not name the marks. */
+function pointDelta(
+	target: string,
+	from: string,
+): { gained: string | undefined; lost: string | undefined } {
+	const after = pointsOf(target);
+	const before = pointsOf(from);
+	const marks = [...new Set([...after.keys(), ...before.keys()])].sort(
+		byCodeUnit,
+	);
+	return {
+		gained: marks.find((m) => (after.get(m) ?? 0) > (before.get(m) ?? 0)),
+		lost: marks.find((m) => (after.get(m) ?? 0) < (before.get(m) ?? 0)),
+	};
+}
+
+/**
+ * Why one declared point repair does not license `value`, or
+ * `undefined` when it does. Clauses run in the order the spec states
+ * them, each fail-closed.
+ *
+ * THE MULTISET ACCOUNTING IS ASKED BEFORE THE FOLD, and the order is
+ * load-bearing rather than incidental: a swap that both drops and adds
+ * a mark satisfies neither clause, and reporting the fold for it would
+ * send the reader to look for a migration that is not there.
+ */
+function pointFault(
+	value: string,
+	claim: Point,
+	input: Input,
+): string | undefined {
+	const lead = pointLead(claim.target);
+	const adds = claim.adds ?? '';
+	if (!input.targets.has(claim.from)) {
+		return `${lead} repairs ${JSON.stringify(claim.from)}, which ${input.rid}'s input does not hold`;
+	}
+	if (
+		claim.target.replace(HEBREW_POINT, '') !==
+		claim.from.replace(HEBREW_POINT, '')
+	) {
+		return `${lead} does not spell the consonants of ${JSON.stringify(claim.from)}`;
+	}
+	const stray = [...adds].find((mark) => !LETTER_DOT.test(mark));
+	if (stray !== undefined) {
+		return `${lead} declares ${JSON.stringify(stray)}, which is not a shin or sin dot`;
+	}
+	const { gained, lost } = pointDelta(
+		withoutAdds(claim.target, adds),
+		claim.from,
+	);
+	if (lost !== undefined) {
+		return `${lead} drops ${JSON.stringify(lost)} from ${JSON.stringify(claim.from)}`;
+	}
+	if (gained !== undefined) {
+		return `${lead} adds ${JSON.stringify(gained)} to ${JSON.stringify(claim.from)} undeclared`;
+	}
+	if (
+		holamNormal(withoutAdds(claim.target, adds)) !== holamNormal(claim.from)
+	) {
+		return `${lead} repoints ${JSON.stringify(claim.from)} beyond the holam fold`;
+	}
+	return (
+		bareDotFault(claim.from, claim.target, lead) ??
+		spellingFault(value, claim, lead)
+	);
+}
+
+/** Whether the claim stood a NEW dot on a letter carrying nothing else
+ * — clause 5's last test, and the one that takes the add arm's residue
+ * from 2 reachable targets to 0.
+ *
+ * SCOPED TO THE DOTS THE CLAIM ADDED, and the scope is not tidiness.
+ * Stated over every dot in `target` it refuses `Jastrow, אִישׁוֹן 1`,
+ * where the shin dot sits on a letter whose only vowel is the holam of
+ * the FOLLOWING mater vav — ordinary Hebrew, and a mark the repair
+ * under judgement did not write. Found by the corpus, not by reading.
+ *
+ * Clause 3 has already settled that `from` and `target` spell the same
+ * letters, so the two walks align index for index and a gained dot is
+ * one this claim is answerable for. */
+function bareDotFault(
+	from: string,
+	target: string,
+	lead: string,
+): string | undefined {
+	const was = from.match(POINTED_LETTER) ?? [];
+	const now = target.match(POINTED_LETTER) ?? [];
+	const bare = now.some((letter, at) => {
+		const marks = letter.slice(1);
+		const gained = LETTER_DOT.test(marks) && !LETTER_DOT.test(was[at] ?? '');
+		return gained && !VOWEL_OR_DAGESH.test(marks);
+	});
+	return bare
+		? `${lead} stands a dot on a letter carrying no vowel`
+		: undefined;
+}
+
+/** Whether the claim speaks to the value under judgement at all.
+ * `pointFaults` already filters on `target === value`, so this can only
+ * fire through a direct call; it is here so the function is total
+ * rather than relying on its caller. */
+function spellingFault(
+	value: string,
+	claim: Point,
+	lead: string,
+): string | undefined {
+	return claim.target === value
+		? undefined
+		: `${lead} does not spell ${JSON.stringify(value)}`;
+}
+
+/**
+ * Every reason the declared point repairs fail to license `value`, or
+ * `undefined` when one of them does.
+ *
+ * The allowlist is consulted FIRST and refuses on the licence rather
+ * than on a clause, so an otherwise-perfect claim from an unlisted rule
+ * says so plainly — cases 7 and 8 both learned this and it reads the
+ * same way here.
+ *
+ * Matched by VALUE, not by anchor. Case 9 reads nothing off a
+ * particular anchor, so requiring one would add a name without adding a
+ * check; see `TransformResult.pointed`.
+ */
+function pointFaults(value: string, input: Input): string[] | undefined {
+	if (input.ruleId === undefined || !POINT_DECLARERS.has(input.ruleId)) {
+		const named =
+			input.ruleId === undefined
+				? 'no named rule'
+				: JSON.stringify(input.ruleId);
+		return input.points.length === 0
+			? []
+			: [
+					`${pointLead(value)} is declared by ${named}, which case 9's declarer allowlist does not admit`,
+				];
+	}
+	const naming = input.points.filter((claim) => claim.target === value);
+	const reasons = naming.map((claim) => pointFault(value, claim, input));
+	return reasons.includes(undefined)
+		? undefined
+		: reasons.filter((reason) => reason !== undefined);
 }
 
 /** The opening of every case-8 refusal, so the five clauses cannot
@@ -1818,6 +2071,10 @@ function checkValue(
 	if (vouched === undefined) {
 		return;
 	}
+	const pointed = pointFaults(value, input);
+	if (pointed === undefined) {
+		return;
+	}
 	return (
 		[
 			...glyphs,
@@ -1826,6 +2083,7 @@ function checkValue(
 			...rejoined,
 			...corroborated,
 			...vouched,
+			...pointed,
 		][0] ?? `target ${JSON.stringify(value)} is not in ${input.rid}'s input`
 	);
 }
@@ -1853,6 +2111,7 @@ function inputOf(
 		| 'composed'
 		| 'corroborated'
 		| 'glyphCorrected'
+		| 'pointed'
 		| 'recombined'
 		| 'restored'
 		| 'vouched'
@@ -1867,6 +2126,7 @@ function inputOf(
 		fields,
 		glyphs: result.glyphCorrected ?? [],
 		headword,
+		points: result.pointed ?? [],
 		rejoins: result.recombined ?? [],
 		restores: result.restored ?? [],
 		rid,
@@ -1921,6 +2181,7 @@ function checkLinkTargets(
 		| 'composed'
 		| 'corroborated'
 		| 'glyphCorrected'
+		| 'pointed'
 		| 'recombined'
 		| 'restored'
 		| 'unlinks'

@@ -24,6 +24,8 @@ import {
 	parenAltHeadword,
 	phraseAltHeadwordStub,
 } from './rules/headword.ts';
+import { holamMaterMigration } from './rules/holam-mater.ts';
+import { impossibleDagesh } from './rules/impossible-dagesh.ts';
 import { italicSwallowsCloseParen } from './rules/italic-paren.ts';
 import {
 	italicGlossPeriodOutside,
@@ -62,6 +64,7 @@ import {
 import { sectionBreakTerminator } from './rules/section-break.ts';
 import { seeParticleRestore } from './rules/see-particle.ts';
 import { strandedDashStarMarker } from './rules/sense-marker.ts';
+import { shinSinDotRestore } from './rules/shin-sin.ts';
 import { stemHeadMarkerChop } from './rules/stem-head.ts';
 import { asteriskStemStrayPeriod } from './rules/stem-label.ts';
 import { strandedStemHead } from './rules/stem-section.ts';
@@ -71,6 +74,7 @@ import {
 } from './rules/stranded-tail.ts';
 import { apparatusCite, ellipsisFragment, rabbiName } from './rules/unlink.ts';
 import { vSubRedirectTwin } from './rules/v-sub-twin.ts';
+import { vkhGereshRestore } from './rules/vkh-geresh.ts';
 import type { Rule } from './types.ts';
 
 /** Rules in execution order. Entangled rows MUST be adjacent — they own
@@ -995,6 +999,81 @@ const RULES: readonly Rule[] = [
 	// reads. Fail-closed either way, and closed harder this way round.
 	vSubRedirectTwin,
 
+	// ======== BATCH 10 — THE FOUR HEBREW-ORTHOGRAPHY ROWS ========
+	//
+	// The last four rows `PENDING` held. Spec for the gate case the two
+	// point rules need:
+	// `docs/specs/2026-09-01-link-target-gate-case-9.md`; report
+	// `docs/v2/transform-batch-10.md`.
+	//
+	// THEY SIT AT THE END OF `text-repairs` AS A BLOCK, and the reason is
+	// the same for all four: each keys on a Hebrew WORD or MARK, so each
+	// wants to see the text every earlier text rule leaves rather than
+	// the text one of them might still change. Running them earlier would
+	// make their measured populations claims about a stage no rule
+	// actually receives.
+
+	// `holam-migrated-off-mater-vav`, 1,007 occurrences / 457 entries.
+	// The largest population any single batch-10 rule takes, and the only
+	// rule in the registry that `checkNoNewText` CANNOT SEE: it relocates
+	// a codepoint, so the multiset is identical on both sides and that
+	// gate returns clean whatever the rule does. Its safety lives in
+	// `link-target.ts` case 9 and in `holam-mater.corpus.test.ts`.
+	//
+	// IT SITS DIRECTLY BELOW `vSubRedirectTwin` BECAUSE THE TWO ARE
+	// ENTANGLED, AND THE COMMUTATION GATE IS WHAT FOUND IT — nothing in
+	// the catalogue connected the two rows, and no amount of reading
+	// either module would have. `v-sub-redirect-stub-mislink ×
+	// holam-migrated-off-mater-vav @ S01645`:
+	//
+	//   S01645's stub reads `, v. sub <a data-ref="Jastrow, קוּסְדֹּור 1">`
+	//   and `קוּסְדֹּור` CARRIES THE DEFECT. `vSubRedirectTwin`'s frozen
+	//   table is keyed on that exact target string, so run this rule first
+	//   and the key no longer matches: the retarget is silently lost, and
+	//   every per-rule count still reads normal.
+	//
+	// The pair is now declared `entangledWith` in `patterns.jsonl`, so
+	// rule 2 requires them adjacent — and adjacency is DIRECTION-BLIND,
+	// which is why `registry.order.corpus.test.ts` also pins the
+	// direction. The general lesson is batch 9's rule looking back at
+	// itself: A TABLE KEYED ON DAMAGED BYTES IS DISABLED BY ANY RULE THAT
+	// REPAIRS THEM, and fail-closed here means a correct repair is lost
+	// rather than a wrong one made.
+	holamMaterMigration,
+
+	// `shin-sin-dot-drop`, 52 of 102 — every occurrence whose dotted
+	// spelling the corpus attests byte for byte. The other 50 stay on the
+	// row: restoring a dot with no witness means CHOOSING between שׁ and
+	// שׂ, which is the reconstruction [[project_no_vowel_inference]]
+	// rules out.
+	//
+	// BELOW `holamMaterMigration` BECAUSE THE TWIN TABLE IS KEYED ON
+	// EXACT BYTES — the same hazard one line up, one rule later. A table
+	// key holding a migrated holam would be matched against text that
+	// rule has already canonicalised and would never fire. None of the 23
+	// keys holds one today; `shin-sin.corpus.test.ts` re-derives the
+	// table from the snapshot, so the day one does, the table is rebuilt
+	// rather than silently missing.
+	shinSinDotRestore,
+
+	// `impossible-dagesh`, 13 of 19 — the forte and mappiq arms, where
+	// the mark announces its own correction. It swaps a LETTER, and the
+	// two rules above swap or add a MARK, so on the face of it letters
+	// should come first. Measured, the direction is free: neither point
+	// rule can create or destroy a dagesh, and none of the 23 twin keys
+	// nor any migrated-holam context holds a ר or ח carrying one. The
+	// entanglement above is what fixes the position — `holamMaterMigration`
+	// must touch `vSubRedirectTwin`, and a gap-free span leaves nowhere
+	// else for this rule to go.
+	impossibleDagesh,
+
+	// `vkh-geresh-loss`, 11 of 11 against a null model of 17,254. It
+	// touches no link target and no headword, so it needs neither case 9
+	// nor an exception table, and it is entangled with nothing above it:
+	// the two letters it matches carry no point, so no rule in this block
+	// can create or destroy one of its members.
+	vkhGereshRestore,
+
 	// ---- `trailingWhitespaceDefinition` LAST ----
 	//
 	// Measured 0 / 0 — free, and last by argument. It trims the entry's
@@ -1366,7 +1445,13 @@ const PENDING: readonly string[] = [
 	// shape at all. 18 + 9 = 27 there against 18 + 10 = 28 raw. The row
 	// keeps the raw figure, because that is what it was catalogued from;
 	// `rules/stem.corpus.test.ts` asserts the composed one.
-	'vkh-geresh-loss',
+	// `vkh-geresh-loss` left this list in batch 10: `vkhGereshRestore` is
+	// registered above at 11 of 11, against a null model of 17,254 correct
+	// spellings — 99.94%, the same shape `sectionBreakTerminator` shipped
+	// on. A naive probe returns 17; the six it adds are notarikon
+	// acrostics whose combining dot is U+0307, outside the Hebrew block, so
+	// a mark class that stops at U+05C7 reads `וכ̇ר̇` as a bare
+	// abbreviation.
 	// `tosefta-variant-chapter-halakha-loss` left this list on
 	// 2026-08-27 (fix/link-target-gate-cases): `toseftaPrimaryHalakha`
 	// is registered above, STRICTLY BEFORE `toseftaCloseParen`, now that
@@ -1398,8 +1483,28 @@ const PENDING: readonly string[] = [
 	// `judgment` — so the anchors are never retargeted and the dangle is
 	// permanent. Repairing one side alone makes the corpus worse.
 	// Audit: `data/patches/catalogue-audit/homograph-roman-stranded.md`.
-	'holam-migrated-off-mater-vav',
-	'impossible-dagesh',
+	// `holam-migrated-off-mater-vav` left this list in batch 10:
+	// `holamMaterMigration` is registered above at 1,007 occurrences /
+	// 457 entries, against 43,664 correctly-encoded holam males. It is
+	// the FIRST RULE `checkNoNewText` CANNOT SEE — a move preserves the
+	// codepoint multiset, so that gate returns clean whatever the rule
+	// does — and the first to need `link-target.ts` case 9, because 442
+	// of its repairs sit inside a `data-ref` or `href`.
+	//
+	// ONE REPAIR IS REFUSED AND IT IS A HEADWORD. Repairing `T00796`'s
+	// makes it equal `T00795`'s, and two entries spelled alike leave
+	// `Jastrow, רִמּוֹן 1` naming neither. The exception is frozen in
+	// `rules/holam-mater.ts` and re-derived from the snapshot by
+	// `holam-mater.corpus.test.ts`. The entry's other fields are repaired
+	// normally: only the namespace key is held back.
+	// `impossible-dagesh` left this list in batch 10: `impossibleDagesh`
+	// is registered above at **13 of 19**. The other 6 are refused
+	// because the mark announces nothing there, which is the row's own
+	// argument applied honestly — 5 resh-dageshes with no vowel after
+	// them (neither forte nor mappiq) and 1 mid-word het-dagesh. They
+	// stay ON the row, recorded in `docs/v2/transform-batch-10.md` §3
+	// rather than by a second entry here: a row named in `RULES` AND in
+	// this list is `duplicated`, which `registry.test.ts` forbids.
 	// `binyan-form-leading-space` (523 occ / 457 ent) and
 	// `binyan-form-empty-slot` (486 slots / 446 ent) left this list in
 	// batch 6a: both are `status: discarded` in `patterns.jsonl` (Brian's
@@ -1456,7 +1561,20 @@ const PENDING: readonly string[] = [
 	// entries exactly, which is the only evidence available for what the
 	// round-3 detector did; uncapped the thresholds run 2 -> 98 entries,
 	// 3 -> 90, 4 -> 85, 6 -> 79, 8 -> 64, 12 -> 47.
-	'shin-sin-dot-drop',
+	// `shin-sin-dot-drop` left this list in batch 10: `shinSinDotRestore`
+	// is registered above at **52 of 102** — every occurrence whose
+	// dotted spelling the corpus attests BYTE FOR BYTE, 23 distinct words
+	// with exactly one twin each and zero with two. The other 50 stay on
+	// the row, because restoring a dot with no witness means choosing
+	// between שׁ and שׂ and that is the reconstruction
+	// [[project_no_vowel_inference]] rules out.
+	//
+	// THE ROW'S OWN WITNESS CLAIM DOES NOT REPRODUCE and is weaker than
+	// this one: it reads 28 of 89 in anchor displays with 28 of 28
+	// targets carrying the point; re-measured, 22 sit in displays and 15
+	// have a dotted target, and that test is stated on SKELETONS, so it
+	// admits a target whose vowels differ (`שָלַב` reaching
+	// `שְׁלַב`).
 	// `adjacent-verbatim-repetition` left this list in batch 7: it is
 	// registered above at its CORRECTED size, 65 rather than the
 	// catalogued 59. The 59 was not a measurement agreeing with the
