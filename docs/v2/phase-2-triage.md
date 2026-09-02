@@ -1,8 +1,9 @@
 # Phase 2 worklist — the catalogue, routed
 
 **Status: triaged 2026-08-21; totals recomputed from the catalogue
-2026-08-26 after transform batch 4, and again 2026-08-29 after batch
-7.** All 133 candidate rows routed.
+2026-08-26 after transform batch 4, again 2026-08-29 after batch 7, and
+again 2026-09-02 after batches 9 and 10 and batch 10's catalogue
+write-back.** All 131 candidate rows routed.
 This is the Phase 2 entry point: start here, not in `patterns.jsonl`.
 
 Every count on this page is derived from `patterns.jsonl`, never typed
@@ -20,7 +21,7 @@ const b=rows.filter(r=>r.blocking===true); console.log("blocking", b.length, sum
 
 | | |
 |---|---|
-| Catalogue | `data/patches/patterns.jsonl` — 153 rows, 133 candidate (20 discarded) |
+| Catalogue | `data/patches/patterns.jsonl` — 153 rows, 131 candidate (22 discarded) |
 | Queue helpers | `admin/pipeline/research/patterns.ts` — `transformQueue()`, `blockingWork()`, `checkEntanglement()` |
 | Phase spec | `docs/specs/2026-08-17-sweep-tiering-design.md` §4 |
 | Round 4 reconcile | `docs/v2/discovery-round-4.md` |
@@ -55,8 +56,8 @@ someone pins the predicate.
 
 | Route | Rows | Instances | What it needs |
 |---|---:|---:|---|
-| **transform** | **61** | **19,726** | deterministic code + tests |
-| judgment | 65 | 16,626 | per-entry reading (Opus pass or maintainer) |
+| **transform** | **54** | **15,655** | deterministic code + tests |
+| judgment | 72 | 20,840 | per-entry reading (Opus pass or maintainer) |
 | blocked | 5 | 4,947 | pin the predicate first |
 
 Phase 1 closed this table at 81 / 46 / 5. Every move since has been a
@@ -206,14 +207,19 @@ is working:
   label out of `senses[0]`, so the opening rule repairs 88 alone and 89
   composed. See [transform-batch-7.md](transform-batch-7.md).
 
-**47.8% of the backlog is deterministic code** (19,726 of 41,299
-instances), 46.6% of it by row. That is the most useful number here —
-about half the catalogue does not need judgment at all.
+**37.8% of the backlog is deterministic code** (15,655 of 41,442
+instances), 41.2% of it by row. **That share has FALLEN** — it read
+47.8% by instance after batch 8 — and not because anything was
+repaired: batch 9 moved seven rows and 4,214 instances onto the
+judgment route without touching a byte of the corpus. The
+deterministic half was partly a routing guess, and working the rows is
+what tested it.
 
-**Batch 8 moved five rows at once, the largest single drop, and it
-also cleared the last BLOCKING row from the transform queue.** Every
-row still marked `blocking` on that route now has a rule; the 12 that
-remain pending are all non-blocking. Two of the five were discarded
+**Batch 8 moved five rows at once — the largest single drop until
+batch 9 took seven — and it also cleared the last BLOCKING row from
+the transform queue.** Every
+row still marked `blocking` on that route now has a rule; the 12 then
+pending were all non-blocking. Two of the five were discarded
 because something upstream already owns them — `plural_form` is not a
 v2 field and `rejoinGlossHead` heals the `b. h.` straddle by
 construction — and three were withdrawn to `judgment`, one for having
@@ -222,50 +228,121 @@ its repair would dangle 37 live anchors that the counterpart row, on
 the `judgment` route, will never retarget. See
 [transform-batch-8.md](transform-batch-8.md).
 
-The instance total is now FALLING, and both directions have the same
+**Batch 9 withdrew SEVEN rows and shipped one rule — the largest single
+drop the programme has recorded**, past batch 8's five, and the first
+batch whose finding was that a whole family belongs to a later phase.
+`coverage().total` **61 → 54**. The seven moved transform → judgment
+intact, carrying 4,214 instances with them:
+`tanhuma-never-linked` (1,137), `mekhilta-sifra-never-linked` (923),
+`unlinked-v-span` (796), `pesikta-drk-never-linked` (695),
+`targum-sheni-never-linked` (362), `midrash-petichta-unanchored` (279)
+and `containment-fallback-mislink` (22). One sentence disposes of all
+seven: **the transform route can repair a wrong anchor but cannot build
+a right one**, because minting one needs an address space this corpus
+does not hold — across 170,184 anchors and 23,211 distinct work names,
+Tanhuma **0**, Sifra **0**, Pesikta d'Rav Kahana **0**, Targum Sheni
+**0**, Mekhilta **1**. Only `v-sub-redirect-stub-mislink` (161)
+survived, on the 50 targets a spelling-twin test determines uniquely,
+behind a new `link-target.ts` case 8 — the first gate case to admit
+evidence from outside the entry. The batch also took the LAST TWO
+unaudited rows off this route, which is why the `⚠ unaudited` column
+below is now empty. See [transform-batch-9.md](transform-batch-9.md).
+
+**Batch 10 shipped the four Hebrew-orthography rows and emptied
+`PENDING`.** `RULES` **53**, `coverage()` **54** total / **54**
+registered / **0** pending, 0 unaccounted, 0 duplicated — every
+catalogued transform row is now accounted for in the registry, 53 of
+them owning a rule and `jt-double-wrapped-citation` sitting in
+`COVERED`, and the queue this phase opened with is closed. Its finding
+is that two of the four repair the INSIDE of a link target and the
+corruption is self-consistent on both sides: of the 218 anchors whose
+`data-ref` carries a migrated holam, **218 point at a headword carrying
+the same defect**, so repairing either side alone breaks all 218 and no
+link-integrity check can see it either before or after. That took a
+`link-target.ts` case 9. Three of the rules decline part of their own
+population rather than infer a spelling — 50 of 102 for
+`shin-sin-dot-drop`, 6 for `impossible-dagesh`, 1 for
+`holam-migrated-off-mater-vav` — and that
+remainder is recorded in the batch report rather than in `PENDING`,
+because a row named in both `RULES` and `PENDING` reads as
+`duplicated`. See [transform-batch-10.md](transform-batch-10.md).
+
+**Batch 10 also corrected two counts, and they reached the catalogue a
+day late.** `holam-migrated-off-mater-vav` goes 558 occurrences / 308
+entries → **1,007 / 457** and `shin-sin-dot-drop` 89 / 77 → **102 /
+71**, while `impossible-dagesh` (19 / 17) and `vkh-geresh-loss` (11 /
+11) reproduce exactly. The batch shipped none of that into
+`patterns.jsonl` — its only catalogue edit was a single `entangledWith`
+edge — and `bun transform:count` is what caught the omission, reading
+**+149** on the holam row against the stale 308. It was **the only
+POSITIVE delta among the twelve the harness was reporting**, and the
+direction is what makes it the one worth chasing: a negative delta is
+a rule declining part of its row, which the row's own `reason` is
+expected to explain, while a positive one means the row UNDERSTATES
+its defect and nothing else in this document was going to notice.
+
+The instance total moves in BOTH directions, and both have the same
 cause: a row's count is a claim nobody has checked until someone works
 it. Batch 3b corrected seven counts upward — `italic-swallowed-terminal-period`
-alone went 1,098 → 1,567 when its rule was written — and batch 6a took
+alone went 1,098 → 1,567 when its rule was written — batch 6a took
 903 instances out at a stroke by measuring two rows' populations *after*
-`applyRepairs` instead of on raw source.
+`applyRepairs` instead of on raw source, and batch 10's write-back put
+143 back in, nearly all of it the one holam row.
 
-Cutover gate, cross-cut:
+Cutover gate, cross-cut — re-derived after batch 10's write-back. **The
+blocking half has not moved since batch 8**: batches 9 and 10 changed
+no row's `blocking` flag, and both counts batch 10 corrected sit on
+non-blocking rows, so the whole +143 lands in the second line:
 
 | | Rows | Instances |
 |---|---:|---:|
 | Blocks the v2 cutover | 55 | 13,992 |
-| Launch need not wait | 76 | 27,307 |
+| Launch need not wait | 76 | 27,450 |
 
-## The transform queue — all 61 rows, largest first
+## The transform queue — all 54 rows, largest first
 
 `⚠ unaudited` marks a row with no `reason` recorded: its count has never
 been derived. That is not a reason to skip it — for a transform row,
 **writing the transform is the audit**, because a deterministic rule
-either reproduces the count or does not.
+either reproduces the count or does not. **No row carries the marker
+today**: batch 9 withdrew the last two unaudited rows,
+`unlinked-v-span` and `targum-sheni-never-linked`, to `judgment`, so
+the column reads `—` throughout.
+
+Heading and table are GENERATED from `patterns.jsonl`, never typed.
+Regenerate both with:
+
+```bash
+bun -e 'import {parsePatterns} from "./admin/pipeline/research/patterns.ts";
+const n=(x)=>x.toLocaleString("en-US");
+const rows=parsePatterns(await Bun.file("data/patches/patterns.jsonl").text())
+  .filter(r=>r.route==="transform"&&r.status==="candidate")
+  .toSorted((a,b)=>b.corpusCount-a.corpusCount||(a.id<b.id?-1:1));
+const sum=rows.reduce((a,b)=>a+b.corpusCount,0);
+console.log(`heading: all ${rows.length} rows, largest first`);
+console.log(`route total: ${n(sum)} instances`);
+console.log("| Row | Instances | Blocks cutover | Audit |");
+console.log("|---|---:|---|---|");
+for (const r of rows) console.log(`| \`${r.id}\` | ${n(r.corpusCount)} | ${r.blocking===true?"**yes**":"no"} | ${r.reason===undefined?"⚠ unaudited":"—"} |`);'
+```
 
 | Row | Instances | Blocks cutover | Audit |
 |---|---:|---|---|
 | `bare-rtl-hebrew` | 4,189 | **yes** | — |
 | `italic-swallowed-terminal-period` | 1,567 | no | — |
 | `ascii-quote-as-gershayim-in-body` | 1,386 | no | — |
-| `tanhuma-never-linked` | 1,137 | no | — |
 | `label-period-outside-italic` | 979 | no | — |
-| `mekhilta-sifra-never-linked` | 923 | no | — |
-| `unlinked-v-span` | 796 | no | ⚠ unaudited |
 | `nonsense-dup-anchor` | 755 | **yes** | — |
-| `pesikta-drk-never-linked` | 695 | no | — |
 | `parenthesized-alt-headword` | 580 | **yes** | — |
 | `redundant-outer-rtl-span` | 529 | no | — |
 | `anchor-swallows-close-paren` | 493 | no | — |
 | `geresh-letter-numeral-mislink` | 475 | no | — |
 | `nested-anchor-swallows-punctuation` | 465 | **yes** | — |
+| `holam-migrated-off-mater-vav` | 457 | no | — |
 | `tosefta-variant-chapter-halakha-loss` | 391 | no | — |
-| `targum-sheni-never-linked` | 362 | no | ⚠ unaudited |
 | `ib-yoma-2a` | 312 | no | — |
-| `holam-migrated-off-mater-vav` | 308 | no | — |
 | `emphasis-run-edge-space` | 304 | no | — |
 | `stranded-stem-head` | 296 | **yes** | — |
-| `midrash-petichta-unanchored` | 279 | no | — |
 | `em-dash-section-break-in-own-italic` | 270 | no | — |
 | `phrase-alt-headword-stub` | 236 | **yes** | — |
 | `open-paren-in-anchor-display` | 214 | **yes** | — |
@@ -279,14 +356,13 @@ either reproduces the count or does not.
 | `duplicated-definition-opening-run` | 85 | **yes** | — |
 | `gershayim-breaks-ref-attribute` | 85 | **yes** | — |
 | `ellipsis-fragment-anchored` | 80 | no | — |
-| `shin-sin-dot-drop` | 77 | no | — |
+| `shin-sin-dot-drop` | 71 | no | — |
 | `adjacent-verbatim-repetition` | 65 | **yes** | — |
 | `anchor-italic-no-space` | 56 | no | — |
 | `plural-to-feminine-final-letter-mislink` | 50 | no | — |
 | `rabbi-name-linked-as-bible-book` | 42 | no | — |
 | `italic-lone-punctuation` | 28 | no | — |
 | `geresh-abbrev-space-loss` | 23 | no | — |
-| `containment-fallback-mislink` | 22 | no | — |
 | `continuation-marker-em-dash-loss` | 22 | **yes** | — |
 | `gender-pair-headword-line-collapse` | 22 | **yes** | — |
 | `stem-head-marker-chop` | 18 | **yes** | — |
@@ -322,10 +398,12 @@ either reproduces the count or does not.
 2. ~~**Then take the non-blocking audited rows on size.**~~ **Batch 2
    did exactly that** — ten rows, 1,166 catalogued instances, all
    non-blocking, all link-shaped
-   ([transform-batch-2.md](transform-batch-2.md)). There are 37 such
-   rows left (11,074 instances, twenty-four of them already shipped)
-   and they remain the cheapest real wins in the catalogue — predicate
-   known, no cutover pressure, no judgment required.
+   ([transform-batch-2.md](transform-batch-2.md)). **Closed by batch
+   10.** 31 such rows sit on the route today (8,152 instances) and
+   every one of them is shipped — `PENDING` is empty. There are no
+   cheap wins left to take here, only the remainder inside rules that
+   already ship, recorded in
+   [transform-batch-10.md](transform-batch-10.md) §8.
 3. **Respect `entangledWith`.** Four pairs must be fixed in one edit or
    they rewrite the same records twice. `checkEntanglement()` keeps the
    graph honest; the pairs are derived in the round-4 report. Batch 2
@@ -336,13 +414,14 @@ either reproduces the count or does not.
 
    **Open, and it is catalogue work rather than transform work:** the
    adjacency gate reads `entangledWith` and nothing else, so a row
-   carrying no edge is a singleton it cannot judge. **35 of the 38
-   rows in `PENDING` carry no edge at all** (measured 2026-08-26 after
-   batch 4; this read "56 of the 62", the figure at batch 2's close,
-   and 42 of 46 earlier the same day), which makes the gate
-   unfalsifiable by construction for most of the queue — a clean run
-   means "no RECORDED entanglement is split", never "no entanglement is
-   split". Reproduce:
+   carrying no edge is a singleton it cannot judge. **`PENDING` is now
+   empty, so this query returns 0 of 0** (it read "35 of the 38" after
+   batch 4, "56 of the 62" at batch 2's close, and 42 of 46 earlier the
+   same day). **That retires the query, not the concern.** For the whole
+   time the queue held rows the gate was unfalsifiable by construction
+   over most of it — a clean run meant "no RECORDED entanglement is
+   split", never "no entanglement is split" — and every rule now
+   registered was admitted under that reading. Reproduce:
 
    ```bash
    bun -e 'import {parsePatterns} from "./admin/pipeline/research/patterns.ts";
@@ -352,9 +431,10 @@ either reproduces the count or does not.
    const noEdge=[...PENDING].filter(id=>(by.get(id)?.entangledWith??[]).length===0);
    console.log("PENDING:",PENDING.length,"| no edge:",noEdge.length);'
    ```
-4. **3 transform rows are unaudited**, 1 of them blocking (measured
-   2026-08-28 after batch 6b; this read "4 … 2 of them blocking" after
-   6a, "5 … 3" after batch 4, and "9 … 4" before it).
+4. **0 transform rows are unaudited**, 0 of them blocking (measured
+   2026-09-01 after batch 10; this read "3 … 1 of them blocking" after
+   batch 6b, "4 … 2" after 6a, "5 … 3" after batch 4, and "9 … 4"
+   before it).
    **CORRECTED 2026-08-26 (impl/phase-2-batch-4): this cited "the query
    above",** which is the `entangledWith` no-edge query in item 3 and
    measures nothing about auditing. `⚠ unaudited` is a row with no
@@ -367,15 +447,18 @@ either reproduces the count or does not.
    console.log("unaudited transform:",t.length,"| blocking:",t.filter(r=>r.blocking===true).length);'
    ```
 
-   The three are `unlinked-v-span` and `targum-sheni-never-linked`
-   (non-blocking), and `b-h-split-across-field-boundary` (blocking).
+   The last three were `unlinked-v-span` and
+   `targum-sheni-never-linked` (non-blocking), both withdrawn to
+   `judgment` in batch 9, and `b-h-split-across-field-boundary`
+   (blocking), discarded in batch 8.
    `empty-stem-section` left the list in batch 6b, which derived its
    audit and recommended withdrawal.
    `parenthesized-alt-headword` left the list in batch 5, which wrote
-   its rule and its `reason` together. Expect some to reclassify on contact — the routing
-   is a reading of each row, not a measurement, and nine rows have now
-   moved: eight to `judgment` and `ascii-gershayim-outside-body-text`
-   discarded outright.
+   its rule and its `reason` together. Rows kept reclassifying on
+   contact to the end — the routing is a reading of each row, not a
+   measurement, and the route gave ground in every late batch: 68 → 66
+   in batch 7, → 61 in batch 8 (three withdrawn, two discarded), → 54
+   in batch 9.
 
 ## Candidates found in batch 2, recorded and NOT opened
 
@@ -411,20 +494,28 @@ on, both recorded in `homograph-numeral-mismatch`'s own `reason`:
   A02356, B00407, D00844, E00508, G00675); and B00098's double-space
   `"בַּד  V"`, a one-character repair that makes בַּד V addressable again.
 
-## Judgment queue — 65 rows / 16,626 instances
+## Judgment queue — 72 rows / 20,840 instances
 
-(Heading CORRECTED 2026-08-29 from "49 rows / 15,754", and again in
-batch 8 from "60 rows / 16,437". **That first correction's claim that
-"the table below was current" was itself false** — the table held 50
-rows against a heading that said 60. Both the heading and the table are
-now generated from `patterns.jsonl` rather than edited, which is why
-they agree: a hand-maintained list of 65 rows goes stale the first time
-a batch moves one, and this one had gone stale twice without anyone
-noticing that the fix for the heading left the table wrong.)
+(Heading CORRECTED 2026-08-29 from "49 rows / 15,754", again in batch 8
+from "60 rows / 16,437", and again after batch 9, which moved seven rows
+and 4,214 instances onto this route in one go: 65 / 16,626 → 72 /
+20,840. **That first correction's claim that "the table below was
+current" was itself false** — the table held 50 rows against a heading
+that said 60. Both the heading and the table are now generated from
+`patterns.jsonl` rather than edited, which is why they agree: a
+hand-maintained list of 72 rows goes stale the first time a batch moves
+one, and this one had gone stale twice without anyone noticing that the
+fix for the heading left the table wrong.)
 
-`homograph-numeral-mismatch` (538) and `h-cognate-self-link` (85) are
-the newest members, reclassified out of the transform queue in batch 2
-on 2026-08-23 and 2026-08-24. Each failed a DIFFERENT test:
+**The newest members are batch 9's seven** — the whole citation-linking
+family, 4,214 instances, every one of them non-blocking, withdrawn
+because minting an anchor needs a work-name table that lives outside
+this corpus. See [transform-batch-9.md](transform-batch-9.md).
+
+`homograph-numeral-mismatch` (538) and `h-cognate-self-link` (85) were
+the next two after `abbrev-in-alt-headwords`, reclassified out of the
+transform queue in batch 2 on 2026-08-23 and 2026-08-24. Each failed a
+DIFFERENT test:
 `h-cognate-self-link` had no defect to remove (no other article exists
 for any of its 87 anchors), while `homograph-numeral-mismatch` has a
 real defect and no nameable destination. Both audits are published
@@ -444,8 +535,9 @@ geresh-free alt at all. Degraded search on those spellings is a
 post-launch quality item, not a cutover gate. That is the only row whose
 `blocking` flag this batch changed.
 
-**31 of these block the cutover (6,400 instances)** — batch 8 moved
-three rows onto this route, `homograph-roman-stranded-in-definition`,
+**31 of these block the cutover (6,400 instances)** — unchanged by
+batch 9, whose seven are all non-blocking. Batch 8 moved three rows onto
+this route, `homograph-roman-stranded-in-definition`,
 `reversed-hebrew-phrase` and `sense-number-outside-closed-grammar`, all
 of them blocking. Five rows are 77% of that, and four of the five fall
 into two families — paren/bracket integrity
@@ -463,7 +555,21 @@ pass rather than four:
 | `citation-tail-truncation` | 657 |
 | `unmatched-opening-paren` | 452 |
 
-Full judgment list, blocking first:
+Full judgment list, blocking first. Heading and table are GENERATED
+from `patterns.jsonl`, never typed; regenerate both with:
+
+```bash
+bun -e 'import {parsePatterns} from "./admin/pipeline/research/patterns.ts";
+const n=(x)=>x.toLocaleString("en-US");
+const rows=parsePatterns(await Bun.file("data/patches/patterns.jsonl").text())
+  .filter(r=>r.route==="judgment"&&r.status==="candidate")
+  .toSorted((a,b)=>Number(b.blocking===true)-Number(a.blocking===true)||b.corpusCount-a.corpusCount||(a.id<b.id?-1:1));
+const sum=rows.reduce((a,b)=>a+b.corpusCount,0);
+console.log(`heading: ${rows.length} rows / ${n(sum)} instances`);
+console.log("| Row | Instances | Blocks cutover |");
+console.log("|---|---:|---|");
+for (const r of rows) console.log(`| \`${r.id}\` | ${n(r.corpusCount)} | ${r.blocking===true?"**yes**":"no"} |`);'
+```
 
 | Row | Instances | Blocks cutover |
 |---|---:|---|
@@ -501,11 +607,17 @@ Full judgment list, blocking first:
 | `abbrev-in-alt-headwords` | 2,035 | no |
 | `homograph-numeral-blind-default` | 1,358 | no |
 | `homograph-collapse-link` | 1,253 | no |
+| `tanhuma-never-linked` | 1,137 | no |
 | `skeleton-escape-orphan` | 1,065 | no |
 | `geresh-abbrev-fixed-sink` | 970 | no |
+| `mekhilta-sifra-never-linked` | 923 | no |
+| `unlinked-v-span` | 796 | no |
 | `corrigendum-reading-linked` | 771 | no |
+| `pesikta-drk-never-linked` | 695 | no |
 | `homograph-numeral-mismatch` | 538 | no |
 | `unlinked-stub-nonexistent-target` | 451 | no |
+| `targum-sheni-never-linked` | 362 | no |
+| `midrash-petichta-unanchored` | 279 | no |
 | `midrash-section-cite-as-bible-chapter` | 255 | no |
 | `homograph-numbering-schism` | 186 | no |
 | `midrash-subsection-link-drift` | 179 | no |
@@ -526,6 +638,7 @@ Full judgment list, blocking first:
 | `abbrev-headword-stub` | 34 | no |
 | `vocalized-twin-ignored` | 34 | no |
 | `latin-prose-ocr-substitution` | 28 | no |
+| `containment-fallback-mislink` | 22 | no |
 | `orphan-gloss-seam-period` | 19 | no |
 | `spurious-name-period` | 19 | no |
 | `alt-headword-collision` | 15 | no |
@@ -557,12 +670,19 @@ after launch unless something else forces the issue.
   transform" was arguable — lost-text rows especially — the row was
   marked blocking. Wrong that way costs pre-launch effort; wrong the
   other way ships a baked-in defect.
-- **0 of the 2 unaudited transform rows block the cutover.** They still
-  carry the least confidence, having no recorded derivation behind their
-  counts — `unlinked-v-span` (796) and `targum-sheni-never-linked`
-  (362) — but neither is on the critical path. Recomputed rather than
-  typed:
+- **There are no unaudited transform rows left.** The last two carried
+  the least confidence in the catalogue, having no recorded derivation
+  behind their counts — `unlinked-v-span` (796) and
+  `targum-sheni-never-linked` (362) — and batch 9 withdrew both to
+  `judgment`, neither having been on the critical path. The query
+  returns 0 and 0. Recomputed rather than typed:
 
+  > **CORRECTED 2026-09-01 (batch 10)** from *"0 of the 2 … block"*.
+  > Batch 9 withdrew both rows to `judgment`, so the population is empty
+  > and the line above now states the emptiness rather than a count.
+  > **That is the fifth correction to this line, and it is the one the
+  > note below predicted.**
+  >
   > **CORRECTED 2026-08-30 (batch 8)** from *"1 of the 3 … blocks"*.
   > `b-h-split-across-field-boundary` was the third, and the blocking
   > one; batch 8 discarded it, so the count falls to 2 and the blocking
@@ -607,8 +727,8 @@ after launch unless something else forces the issue.
    repair and a transform own the same defect, and a repair and a rule
    that quietly agree on the same bytes without moving a record count
    still slip past it. And it covers only what the registry holds when
-   it runs — **15 of the 77 catalogued transform rows** today, 62
-   pending:
+   it runs — **all 54 of the catalogued transform rows** today, 0
+   pending, where at batch 3a it covered 15 of 77:
 
    ```bash
    bun transform:count | grep 'rule(s)'
@@ -620,10 +740,27 @@ after launch unless something else forces the issue.
    ```
 
    ```text
-   15 rule(s), 2 mismatch(es).
+   53 rule(s), 11 mismatch(es).
    {
-     total: 77,
-     registered: 15,
-     pending: 62,
+     total: 54,
+     registered: 54,
+     pending: 0,
    }
    ```
+
+   `registered` is 54 ROWS against 53 RULES because
+   `jt-double-wrapped-citation` sits in `COVERED` rather than owning a
+   rule of its own. **All 11 mismatches are triaged, and every one is
+   a documented decline or a unit mismatch** recorded in its row's own
+   `reason`: four name the delta outright (`ib-yoma-2a` −124,
+   `sifre-ib-resolves-to-yalkut` −5, `parenthesized-alt-headword` −1,
+   `phrase-alt-headword-stub` −8) and seven state the fire/decline
+   split it follows from. The twelfth was the real finding —
+   `holam-migrated-off-mater-vav` reading **+149** against a stale 308
+   — and it is corrected rather than explained. TWO SOFT SPOTS REMAIN:
+   `trailing-em-dash-tail` and `continuation-marker-em-dash-loss` give
+   their shipped figures in senses and members (101, 14) where the
+   harness counts entries (99, 13), so the deltas agree in substance
+   but neither is checkable without re-deriving. This block is still
+   pinned rather than generated, and it is the next tally that should
+   go the way the two queue tables did.
