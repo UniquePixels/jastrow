@@ -48,7 +48,10 @@
  *   for a word related to neither. The unique-skeleton carve-out used
  *   to license these (letters J, O, Q, R).
  * - `roman-numeral-display` — 31 entries. An anchor whose display is
- *   a bare Roman numeral, naming no citation. Catches A01133.
+ *   a bare Roman numeral, naming no citation. Catches A01133. An
+ *   anchor that is its own parenthesis is carved out: that is the
+ *   parallel-chapter citation and the shape `anchor-swallows-close-
+ *   paren` repairs into, worth 484 entries on the healed corpus.
  *
  * Union of all hint kinds: 4,311 entries, 13.3% of the corpus (4,339,
  * 13.35%, with the Hebrew-side `hebrew-rare-confusable` rule in
@@ -100,6 +103,13 @@ const GERESH_END = /[׳']\s*$/u;
  * attribute upstream, a systemic extraction artifact, not a mislink. */
 const GERSHAYIM = /["״]/u;
 const ROMAN_NUMERAL = /^[IVXLC]{1,4}$/u;
+/** An open paren immediately before an anchor. With a close paren
+ * immediately after it, the anchor is the whole content of its own
+ * parenthesis — the parallel-chapter citation `(<a>IV</a>), 1`, where
+ * the numeral names a variant edition's chapter and the halakha
+ * follows outside. The window is bounded because the test runs once
+ * per anchor over a whole definition field. */
+const PAREN_BEFORE = /\(\s*$/u;
 /** The proclitic particles Aramaic writes onto the following word. A
  * two-letter geresh form opening with one of these is not the generic
  * `ר׳`/`ב׳` but a prefixed one-letter abbreviation of the host entry
@@ -282,17 +292,34 @@ function inflectionHint(
 	};
 }
 
-/** Bare Roman-numeral displays, over anchors into any corpus. */
+/** Bare Roman-numeral displays, over anchors into any corpus.
+ *
+ * Carve-out (sweep tiering 2.2, 2026-09-02): an anchor that IS its own
+ * parenthesis is a parallel-chapter citation, not a mislink. The
+ * catalogue's `anchor-swallows-close-paren` (493) repairs the
+ * extraction that left the close paren inside the display, so its
+ * output — `(<a data-ref="Tosefta Eiruvin 4:1">IV</a>), 1` — is this
+ * shape by construction. Measured over the healed corpus the carve-out
+ * drops 484 entries and keeps all 31 the rule already had, so it
+ * separates the repair's output from the real finds exactly. */
 function romanHints(text: string): LinkHint[] {
 	const hints: LinkHint[] = [];
 	for (const m of text.matchAll(ANY_ANCHOR)) {
 		const display = (m.groups?.['display'] as string).replace(TAG, ' ').trim();
-		if (ROMAN_NUMERAL.test(display)) {
-			hints.push({
-				detail: `anchor display is the bare Roman numeral '${display}', which names no citation — target '${m.groups?.['ref'] as string}'`,
-				kind: 'roman-numeral-display',
-			});
+		if (!ROMAN_NUMERAL.test(display)) {
+			continue;
 		}
+		const at = m.index;
+		const parenthesized =
+			PAREN_BEFORE.test(text.slice(Math.max(0, at - 4), at)) &&
+			text.startsWith(')', at + m[0].length);
+		if (parenthesized) {
+			continue;
+		}
+		hints.push({
+			detail: `anchor display is the bare Roman numeral '${display}', which names no citation — target '${m.groups?.['ref'] as string}'`,
+			kind: 'roman-numeral-display',
+		});
 	}
 	return hints;
 }

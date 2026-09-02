@@ -204,3 +204,50 @@ describe('unvocalized displays made reachable (letters L and I)', () => {
 		expect(kinds(hints)).toContain('niqqud-twin-target');
 	});
 });
+
+describe('roman-numeral-display parallel-chapter carve-out (2.2)', () => {
+	/** A citation anchor into another corpus, the shape the Tosefta and
+	 * Targum rows produce. */
+	function cite(ref: string, display: string): string {
+		return `<a class="refLink" href="/x" data-ref="${ref}">${display}</a>`;
+	}
+
+	it('ignores an anchor that is its own parenthesis (A00152 post-repair)', () => {
+		const hints = entryAnomalyHints(
+			entry(
+				'A00152',
+				`Tosef. Erub. III, 1 (${cite('Tosefta Eiruvin 4:1', 'IV')}), 1 ed. Zuck.`,
+				'אגן',
+			),
+			new Map(),
+			index(['אגן']),
+		);
+		expect(kinds(hints)).not.toContain('roman-numeral-display');
+	});
+
+	it('still fires on a recension numeral linked as a chapter (A01133)', () => {
+		const hints = entryAnomalyHints(
+			entry(
+				'A01133',
+				`Targ. Y. Gen. XIV, 2; ${cite('Targum Jonathan on Genesis 1:27', 'I')} a. e.`,
+				'אדם',
+			),
+			new Map(),
+			index(['אדם']),
+		);
+		expect(kinds(hints)).toContain('roman-numeral-display');
+	});
+
+	it('still fires when the parenthesis holds more than the anchor (A00717)', () => {
+		const hints = entryAnomalyHints(
+			entry(
+				'A00717',
+				`Tosef. Ab. Zar. III, 16 (${cite('Tosefta Avodah Zarah 4', 'IV')}, beg.) ed. Zuck.`,
+				'אונו',
+			),
+			new Map(),
+			index(['אונו']),
+		);
+		expect(kinds(hints)).toContain('roman-numeral-display');
+	});
+});
