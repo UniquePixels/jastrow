@@ -251,6 +251,19 @@ describe('roman-numeral-display parallel-chapter carve-out (2.2)', () => {
 		expect(kinds(hints)).not.toContain('roman-numeral-display');
 	});
 
+	it('sees the close paren across a wide whitespace gap', () => {
+		const hints = entryAnomalyHints(
+			entry(
+				'A00152',
+				`Tosef. Erub. III, 1 (${cite('Tosefta Eiruvin 4:1', 'IV')} \n\t), 1`,
+				'אגן',
+			),
+			new Map(),
+			index(['אגן']),
+		);
+		expect(kinds(hints)).not.toContain('roman-numeral-display');
+	});
+
 	it('still fires when the parenthesis holds more than the anchor (A00717)', () => {
 		const hints = entryAnomalyHints(
 			entry(

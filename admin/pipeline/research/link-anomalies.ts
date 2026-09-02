@@ -298,6 +298,18 @@ function openParenBefore(text: string, at: number): boolean {
 	return i >= 0 && text[i] === '(';
 }
 
+/** Whether the first non-whitespace character at or after `at` is a
+ * close paren. The mirror of `openParenBefore`: whitespace is not
+ * evidence either way, so neither side of the parenthesis should be
+ * decided by it. */
+function closeParenAfter(text: string, at: number): boolean {
+	let i = at;
+	while (i < text.length && WHITESPACE_CHAR.test(text[i] as string)) {
+		i += 1;
+	}
+	return text[i] === ')';
+}
+
 /** Bare Roman-numeral displays, over anchors into any corpus.
  *
  * Carve-out (sweep tiering 2.2, 2026-09-02): an anchor that IS its own
@@ -316,7 +328,7 @@ function romanHints(text: string): LinkHint[] {
 			continue;
 		}
 		const at = m.index;
-		if (openParenBefore(text, at) && text.startsWith(')', at + m[0].length)) {
+		if (openParenBefore(text, at) && closeParenAfter(text, at + m[0].length)) {
 			continue;
 		}
 		hints.push({
