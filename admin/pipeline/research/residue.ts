@@ -31,6 +31,7 @@
 import { applyRepairs } from '../body/repairs.ts';
 import { readSourceEntries } from '../body/source.ts';
 import type { SourceEntry } from '../body/types.ts';
+import { byCodeUnit } from '../transform/rules/point-claims.ts';
 import { applyTransforms } from '../transform/run.ts';
 import {
 	type AnomalyHint,
@@ -127,7 +128,10 @@ if (import.meta.main) {
 	console.log('by kind (entries carrying it), PRE -> POST:');
 	const kinds = [
 		...new Set([...before.entriesByKind.keys(), ...after.entriesByKind.keys()]),
-	].sort();
+		// Code-unit order, not `localeCompare` (Sonar S2871): this table
+		// is committed to a report, so it must not reorder on a machine
+		// carrying different ICU data. Same call batch 10 settled on.
+	].sort(byCodeUnit);
 	for (const kind of kinds) {
 		const a = before.entriesByKind.get(kind) ?? 0;
 		const b = after.entriesByKind.get(kind) ?? 0;
