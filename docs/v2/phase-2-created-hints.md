@@ -15,8 +15,9 @@ It was the detector's tokenizer, which had never matched what a
 reader sees. Fixing it, and the recall gap that turned out to be its
 twin, leaves **67 − 35 = 32 hints on 30 entries** — **37 on 35** once
 the created-hint reading is made consistent, which
-§"The adjudication" settles. All of them are Hebrew-side link
-judgment, and all of them are real.
+§"The adjudication" settles. All of them are link judgment — 36
+Hebrew-side, plus I00311's Roman citation numeral — and all of them
+are real.
 
 The 23 are argued below because they are the shape that names the
 defect. The 12 are the same tokenizer seen once more: a period the
@@ -236,8 +237,10 @@ Net, 2.3's sweep population grows **3,946 → 4,047 entries** (+101,
 **32 hints on 30 entries** as the fixed-table reading counts them —
 **37 on 35** once the reading is made consistent, which
 §"The adjudication" below works through. The composition has changed
-character either way. Every Latin-side kind is gone; what remains is entirely
-Hebrew link judgment.
+character either way. The Latin FREQUENCY kinds are gone — `bare-abbrev`
+and `rare-dotted-variant`, the two the tokenizer was manufacturing —
+and what remains is link judgment: Hebrew headword comparisons, plus
+`roman-numeral-display`'s single Roman citation numeral on I00311.
 
 | Kind | Hints created | On entries new to the kind |
 |---|---:|---:|
@@ -382,9 +385,10 @@ namespace, and a rule rewriting one can break the links that name it.
    to judgment**, not retired. 26 of the 35 are defects the rules
    made visible without changing any link relation; 8 more changed a
    relation on an anchor the hint does not name; U00776 is argued
-   above. All Hebrew-side link decisions —
-   `open-paren-in-anchor-display` at 40.5x on 8 entries and
-   `holam-migrated-off-mater-vav` at 39.4x on 16.
+   above. Link decisions throughout: 36 Hebrew headword comparisons
+   and I00311's Roman numeral. `open-paren-in-anchor-display` at
+   40.5x on 8 entries and `holam-migrated-off-mater-vav` at 39.4x on
+   16 are where to start.
 2. **31 `roman-numeral-display` entries**, unchanged by this pass and
    argued on the residue page.
 3. **The remaining 3,982 entries are the sweep population.**
