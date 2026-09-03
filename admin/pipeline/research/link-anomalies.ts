@@ -66,7 +66,11 @@
  * hebrew-anomalies.ts folded in). Both figures are the pre-carve-out
  * calibration and are kept as written, because
  * `docs/v2/phase-2-residue.md` reproduces them as its positive
- * control; after the `v. sub` carve-out the same union is 4,187.
+ * control; after the `v. sub` carve-out the same union is 4,187, and
+ * after `latinTokens` replaced the Latin tokenizer in anomalies.ts,
+ * 4,216. Each step is a deliberate predicate change, chained in that
+ * page's §"The detector moved three times" so a later reader can tell
+ * one from drift.
  *
  * Scope note (task-9 review, 2026-08-18): `abbrev-mislink` and
  * `inflection-escape-link` both judge a display against `ownForms` in

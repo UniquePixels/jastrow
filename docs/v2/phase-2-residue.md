@@ -1,6 +1,9 @@
 # Phase 2.2 — the detector residue after the rules
 
-**Status: measured 2026-09-02, on `v2` at `e190d8a`.** This closes
+**Status: measured 2026-09-02, on `v2` at `e190d8a`; re-measured the
+same day after 2.3's first pass moved the detector again — see
+[`phase-2-created-hints.md`](phase-2-created-hints.md), and §"The
+detector moved three times" below for the audit chain.** This closes
 sweep tiering [Phase 2.2](../specs/2026-08-17-sweep-tiering-design.md)
 — *"re-run the structural detector after the rules land; measure the
 residue"* — and sizes the population Phase 2.3 has to sweep. The two
@@ -34,10 +37,12 @@ would actually be handed, not a proxy for it.
 | PRE | Source + `applyRepairs`, i.e. `loadPrePatchCorpus()` |
 | POST | PRE + `text-repairs` + `structural-repairs` — all 54 rules, in `migrate-dry.ts`'s phase order |
 
-The detector itself moved once during this work: §"The finding" below
-carves `v. sub` redirect stubs out of `abbrev-mislink`. Every number
-on this page is measured against the detector **after** that carve-out,
-and the pre-carve-out reading is given wherever it is the one another
+The detector itself moved twice. §"The finding" below carves
+`v. sub` redirect stubs out of `abbrev-mislink`; 2.3's first pass then
+replaced the Latin tokenizer, which had been reading a rendered space
+at every tag boundary and no break at all across an em dash. Every
+number on this page is measured against the detector **after both**,
+and the earlier reading is given wherever it is the one another
 document cites.
 
 The detector judges each entry against corpus-wide frequency tables
@@ -50,17 +55,30 @@ and the PRE-tables row isolates the entry-side change from table drift.
 
 | Measurement | Entries | % of 32,512 | Hints |
 |---|---:|---:|---:|
-| PRE (repairs only) | 4,187 | 12.9% | 5,281 |
-| POST (+rules, PRE tables) | 3,928 | 12.1% | 4,935 |
-| **POST (+rules, POST tables)** | **3,946** | **12.1%** | **4,957** |
+| PRE (repairs only) | 4,216 | 13.0% | 5,350 |
+| POST (+rules, PRE tables) | 4,044 | 12.4% | 5,115 |
+| **POST (+rules, POST tables)** | **4,047** | **12.4%** | **5,119** |
 
-**−241 entries, −5.8%.** The 18-entry gap between the two POST rows is
+**−169 entries, −4.0%.** The 3-entry gap between the two POST rows is
 table drift, and reporting both is what keeps a future drift from
 hiding inside a single number.
 
-Before the `v. sub` carve-out the same three rows read 4,339 / 4,064 /
-4,082, so the carve-out is worth 136 entries and 138 hints off the
-population 2.3 is handed.
+### The detector moved three times
+
+Each move is a deliberate predicate change, and the chain is recorded
+so the next reader can tell one from drift.
+
+| Predicate | PRE | POST |
+|---|---:|---:|
+| as calibrated | 4,339 | 4,082 |
+| − `v. sub` carve-out | 4,187 | 3,946 |
+| + `latinTokens` | **4,216** | **4,047** |
+
+The `v. sub` carve-out is worth 136 entries off the population 2.3 is
+handed; `latinTokens` gives 101 back, retiring 130 hints that were
+never defects and exposing a class of abbreviation the tokenizer had
+never been able to see. Its full accounting is in
+[`phase-2-created-hints.md`](phase-2-created-hints.md).
 
 ### Positive control
 
@@ -77,10 +95,11 @@ reproduce would be measuring its own predicate, not the corpus. See
 `docs/v2/discovery-round-1.md` §4 for the calibration that figure came
 from.
 
-The carve-out then moves PRE to 4,187 by design — it changes the
-predicate, which is the one thing that legitimately moves a control.
-Both figures are recorded in that module's docstring so the next
-reader can tell a predicate change from drift.
+The two carve-outs then move PRE to 4,187 and 4,216 by design — they
+change the predicate, which is the one thing that legitimately moves a
+control. Every figure in the chain is recorded in the detector
+modules' docstrings so the next reader can tell a predicate change
+from drift.
 
 ## By kind
 
@@ -95,26 +114,32 @@ reports their sum and shows neither half.
 | Kind | PRE | POST, PRE tables | POST | net | entry | tables |
 |---|---:|---:|---:|---:|---:|---:|
 | `abbrev-mislink` | 584 | 429 | 429 | −155 | −155 | 0 |
-| `bare-abbrev` | 395 | 326 | 345 | −50 | **−69** | **+19** |
 | `inflection-escape-link` | 691 | 645 | 645 | −46 | −46 | 0 |
-| `rare-dotted-variant` | 575 | 539 | 535 | −40 | −36 | −4 |
 | `one-consonant-diverge` | 817 | 801 | 801 | −16 | −16 | 0 |
-| `niqqud-twin-target` | 1,321 | 1,323 | 1,327 | +6 | +2 | +4 |
-| `exact-headword-diverge` | 338 | 343 | 343 | +5 | **+5** | **0** |
+| `bare-abbrev` | 318 | 316 | 316 | −2 | −2 | 0 |
 | `circular-v-ref` | 59 | 59 | 59 | 0 | 0 | 0 |
-| `comma-for-period` | 101 | 101 | 101 | 0 | 0 | 0 |
+| `comma-for-period` | 108 | 108 | 108 | 0 | 0 | 0 |
 | `hebrew-rare-confusable` | 39 | 39 | 39 | 0 | 0 | 0 |
+| `rare-dotted-variant` | 705 | 704 | 704 | −1 | −1 | 0 |
 | `roman-numeral-display` | 31 | 31 | 31 | 0 | 0 | 0 |
 | `truncated-formula` | 22 | 22 | 22 | 0 | 0 | 0 |
+| `exact-headword-diverge` | 338 | 343 | 343 | +5 | **+5** | **0** |
+| `niqqud-twin-target` | 1,321 | 1,323 | 1,327 | +6 | +2 | +4 |
 
 An earlier version of this page read the two small rises as table
 drift — *"a repaired headword changes what the index considers a
 twin"*. The split says otherwise. `exact-headword-diverge` moves +5 on
-the entry side and **0** on the tables, so no part of it is drift;
-`niqqud-twin-target`'s +6 is +2 entry and +4 tables. And `bare-abbrev`,
-which the two-column table showed falling a clean 50, is −69 on the
-entry side with **+19 handed back by the tables** — a rise the net
-delta hid entirely inside a fall.
+the entry side and **0** on the tables, so no part of it is drift, and
+`niqqud-twin-target`'s +6 is +2 entry and +4 tables.
+
+The two Latin kinds are the ones this table no longer has anything to
+say about, and that is the finding rather than the absence of one.
+Against the old tokenizer `bare-abbrev` read 395 → 326 → 345: a net of
+−50 that was −69 on the entry side with **+19 handed back by the
+tables**, a rise the net delta hid entirely inside a fall. It now
+reads −2 / 0, and `rare-dotted-variant` −1 / 0. Both of those columns
+were measuring a period that a tag boundary had moved out of reach of
+the tokenizer, not a transform's effect on the corpus.
 
 ## The finding: a detector that could not see its own repair
 
@@ -168,16 +193,17 @@ artifact of the detail string, not a finding. The table-side move is
 real and is reported where it is measurable, in the `tables` column
 of the by-kind table above.
 
-**96 hints on 94 entries**, measured before the carve-out below; **67
-on 65** after it. The kind-level view sees 49 of the 94; the other 45
-kept every kind they had and changed only which complaint the detector
-makes.
+**96 hints on 94 entries** as first measured; **67 on 65** after the
+`v. sub` carve-out below; **32 on 30** after 2.3's first pass retired
+the two Latin columns as tokenizer artifacts. The kind-level view saw
+49 of the original 94; the other 45 kept every kind they had and
+changed only which complaint the detector makes.
 
 | Kind | Hints created | On entries new to the kind |
 |---|---:|---:|
 | `abbrev-mislink` | 39 → **10** | 4 → **1** |
-| `bare-abbrev` | 23 | 23 |
-| `rare-dotted-variant` | 12 | 11 |
+| `bare-abbrev` | 23 → **0** | 23 → **0** |
+| `rare-dotted-variant` | 12 → **0** | 11 → **0** |
 | `one-consonant-diverge` | 6 | 0 |
 | `exact-headword-diverge` | 5 | 5 |
 | `inflection-escape-link` | 5 | 1 |
@@ -186,6 +212,12 @@ makes.
 
 `one-consonant-diverge` is the shape the net delta cannot see at all:
 6 hints created, 0 entries new to the kind, and a net of −16.
+
+The 35 that left were not adjudicated away one at a time. All 23
+`bare-abbrev` and all 12 `rare-dotted-variant` were one defect —
+`stripTags` rendering an inline tag boundary as a space, so a repair
+that moved a period out of an italic run orphaned it from its word.
+Worked in [`phase-2-created-hints.md`](phase-2-created-hints.md).
 
 ### Enrichment names the rule without opening an entry
 
@@ -212,6 +244,15 @@ After the carve-out `v-sub-redirect-stub-mislink` leaves the table
 entirely: not one of its 50 entries gains a hint. The rest of the
 ranking is unchanged in order, with `open-paren-in-anchor-display` at
 21.0x and `holam-migrated-off-mater-vav` at 19.3x now leading it.
+
+The tokenizer fix then halves the gained set again, to 30, and the
+ranking moves with it: `open-paren-in-anchor-display` 40.5x on 8 and
+`holam-migrated-off-mater-vav` 39.4x on 16. The instrument's own
+diagnostic is `italic-swallowed-terminal-period`, which led the raw
+count at 26 of 94 and 6.8x and now sits at 3 of 30 and 2.4x — the
+distance between those two readings is exactly the 23 hints that were
+never its doing. The current table is in
+[`phase-2-created-hints.md`](phase-2-created-hints.md).
 
 ### The finding: 29 hints are the detector reading a correct repair
 
@@ -326,11 +367,22 @@ committed the spec and the detector modules together, so the gap is not
 detector drift. Treat 4,339 as the baseline and the spec line as
 superseded.
 
-### 2. Two detector calibrations were stale — resolved
+### 2. Two calibrations were stale, and a third thing was worse
 
 `anomalies.ts`'s module docstring records a 2026-08-13 calibration.
 Three of its five counts reproduce exactly against this run; two did
-not, and both are now corrected in the docstring itself.
+not, and both are corrected in the docstring itself.
+
+The audit stopped at the counts, and that was the gap. The docstring
+also names one **entry** per rule as the rule's catch, and 2.3's first
+pass found that `bare-abbrev`'s — A00074, `bot` for `bot.` — has never
+fired: its `bot—V.` binds two tokens across an em dash and the
+tokenizer rejected the whole token. A count that has drifted still
+measures something; a named control that does not fire measures
+nothing. The tokenizer is fixed and A00074 now fires; the counts below
+are the pre-fix readings this audit was run against, and the post-fix
+ones are in
+[`phase-2-created-hints.md`](phase-2-created-hints.md).
 
 | Rule | Docstring was | Measured (PRE) |
 |---|---:|---:|
@@ -366,7 +418,7 @@ number.
 
 ## What this hands 2.3
 
-**3,946 entries carrying 4,957 hints.** The spec's cost-creep
+**4,047 entries carrying 5,119 hints.** The spec's cost-creep
 mitigation — *"the residue is bounded and measured at 2.2 before any
 agent runs"* — is satisfied with a real number.
 
@@ -375,22 +427,29 @@ calibrations are corrected in `anomalies.ts`. The re-check ran, and it
 ran wider than "any kind that rose": the unit is a created hint, not a
 net delta, and the population it found was 96 hints on 94 entries
 rather than the two kinds the net pointed at — 67 on 65 once the
-carve-out those 96 exposed had landed.
+carve-out those 96 exposed had landed, and 32 on 30 once 2.3's first
+pass had taken the tokenizer defect the remaining Latin columns were
+made of.
 
 What it leaves for 2.3, in order:
 
-1. **67 created hints on 65 entries are unadjudicated.** They are not
+1. **32 created hints on 30 entries are unadjudicated.** They are not
    a random sample of the residue: every one sits on an entry a
    transform touched, which is where a rule's own mistakes live. The
    enrichment ranking says where to start —
-   `open-paren-in-anchor-display` at 21.0x on 9 entries and
-   `holam-migrated-off-mater-vav` at 19.3x on 17.
+   `open-paren-in-anchor-display` at 40.5x on 8 entries and
+   `holam-migrated-off-mater-vav` at 39.4x on 16. This began as 67 on
+   65; 2.3's first pass retired 35 of them as one tokenizer defect,
+   in [`phase-2-created-hints.md`](phase-2-created-hints.md).
 2. **31 `roman-numeral-display` entries need judgment, not a
    predicate.** Sized and argued above; nothing deterministic splits
    them.
-3. **The remaining 3,946 − (1) − (2) is the sweep population** the
+3. **The remaining 3,987 entries are the sweep population** the
    spec's 2.3 line describes: *"one targeted Opus pass over the
-   judgment residue only"*.
+   judgment residue only"*. (1) and (2) overlap at I00311 and so
+   subtract as a union of 60, not as a sum of 61 — measured in
+   [`phase-2-created-hints.md`](phase-2-created-hints.md).
 
 The 29 `v. sub` false positives that stood here are carved out and no
-longer reach the sweep.
+longer reach the sweep, and so are the 35 the tokenizer was
+manufacturing.
