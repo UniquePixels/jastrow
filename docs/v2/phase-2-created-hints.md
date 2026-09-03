@@ -13,11 +13,14 @@ items
 not a rule's**: all 23 `bare-abbrev` and all 12 `rare-dotted-variant`.
 It was the detector's tokenizer, which had never matched what a
 reader sees. Fixing it, and the recall gap that turned out to be its
-twin, leaves **67 − 35 = 32 hints on 30 entries** — **37 on 35** once
-the created-hint reading is made consistent, which
-§"The adjudication" settles. All of them are link judgment — 36
-Hebrew-side, plus I00311's Roman citation numeral — and all of them
-are real.
+twin, leaves **67 − 35 = 32 hints on 30 entries**.
+
+Then **32 + 5 = 37, on 35 entries**. The five are hints the
+fixed-table reading cannot see at all, and finding them is the second
+half of this pass; §"The adjudication" works through why a link hint
+has to be measured against a rebuilt headword index. All 37 are link
+judgment — 36 Hebrew-side, plus I00311's Roman citation numeral — and
+all 37 are real.
 
 The 23 are argued below because they are the shape that names the
 defect. The 12 are the same tokenizer seen once more: a period the
