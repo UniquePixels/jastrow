@@ -367,8 +367,7 @@ committed the spec and the detector modules together, so the gap is not
 detector drift. Treat 4,339 as the baseline and the spec line as
 superseded.
 
-### 2. Two detector calibrations were stale — resolved, and a third
-thing was worse
+### 2. Two calibrations were stale, and a third thing was worse
 
 `anomalies.ts`'s module docstring records a 2026-08-13 calibration.
 Three of its five counts reproduce exactly against this run; two did
