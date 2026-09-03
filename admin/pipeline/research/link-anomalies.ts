@@ -48,7 +48,10 @@
  *   for a word related to neither. The unique-skeleton carve-out used
  *   to license these (letters J, O, Q, R).
  * - `roman-numeral-display` — 31 entries. An anchor whose display is
- *   a bare Roman numeral, naming no citation. Catches A01133.
+ *   a bare Roman numeral, naming no citation. Catches A01133. An
+ *   anchor that is its own parenthesis is carved out: that is the
+ *   parallel-chapter citation and the shape `anchor-swallows-close-
+ *   paren` repairs into, worth 484 entries on the healed corpus.
  *
  * Union of all hint kinds: 4,311 entries, 13.3% of the corpus (4,339,
  * 13.35%, with the Hebrew-side `hebrew-rare-confusable` rule in
@@ -100,6 +103,10 @@ const GERESH_END = /[׳']\s*$/u;
  * attribute upstream, a systemic extraction artifact, not a mislink. */
 const GERSHAYIM = /["״]/u;
 const ROMAN_NUMERAL = /^[IVXLC]{1,4}$/u;
+/** One whitespace character. Used to step over a run of it while
+ * looking for the paren on either side of an anchor, which a
+ * look-behind of any fixed width would eventually clip. */
+const WHITESPACE_CHAR = /\s/u;
 /** The proclitic particles Aramaic writes onto the following word. A
  * two-letter geresh form opening with one of these is not the generic
  * `ר׳`/`ב׳` but a prefixed one-letter abbreviation of the host entry
@@ -282,17 +289,55 @@ function inflectionHint(
 	};
 }
 
-/** Bare Roman-numeral displays, over anchors into any corpus. */
+/** Whether the first non-whitespace character before `at` is an open
+ * paren. Walks the whitespace run rather than testing the whole prefix,
+ * so an anchor late in a long definition costs the same as an early
+ * one, and no fixed look-behind window can clip a wide gap. */
+function openParenBefore(text: string, at: number): boolean {
+	let i = at - 1;
+	while (i >= 0 && WHITESPACE_CHAR.test(text[i] as string)) {
+		i -= 1;
+	}
+	return i >= 0 && text[i] === '(';
+}
+
+/** Whether the first non-whitespace character at or after `at` is a
+ * close paren. The mirror of `openParenBefore`: whitespace is not
+ * evidence either way, so neither side of the parenthesis should be
+ * decided by it. */
+function closeParenAfter(text: string, at: number): boolean {
+	let i = at;
+	while (i < text.length && WHITESPACE_CHAR.test(text[i] as string)) {
+		i += 1;
+	}
+	return text[i] === ')';
+}
+
+/** Bare Roman-numeral displays, over anchors into any corpus.
+ *
+ * Carve-out (sweep tiering 2.2, 2026-09-02): an anchor that IS its own
+ * parenthesis is a parallel-chapter citation, not a mislink. The
+ * catalogue's `anchor-swallows-close-paren` (493) repairs the
+ * extraction that left the close paren inside the display, so its
+ * output — `(<a data-ref="Tosefta Eiruvin 4:1">IV</a>), 1` — is this
+ * shape by construction. Measured over the healed corpus the carve-out
+ * drops 484 entries and keeps all 31 the rule already had, so it
+ * separates the repair's output from the real finds exactly. */
 function romanHints(text: string): LinkHint[] {
 	const hints: LinkHint[] = [];
 	for (const m of text.matchAll(ANY_ANCHOR)) {
 		const display = (m.groups?.['display'] as string).replace(TAG, ' ').trim();
-		if (ROMAN_NUMERAL.test(display)) {
-			hints.push({
-				detail: `anchor display is the bare Roman numeral '${display}', which names no citation — target '${m.groups?.['ref'] as string}'`,
-				kind: 'roman-numeral-display',
-			});
+		if (!ROMAN_NUMERAL.test(display)) {
+			continue;
 		}
+		const at = m.index;
+		if (openParenBefore(text, at) && closeParenAfter(text, at + m[0].length)) {
+			continue;
+		}
+		hints.push({
+			detail: `anchor display is the bare Roman numeral '${display}', which names no citation — target '${m.groups?.['ref'] as string}'`,
+			kind: 'roman-numeral-display',
+		});
 	}
 	return hints;
 }

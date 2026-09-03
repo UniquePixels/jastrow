@@ -25,6 +25,7 @@ const b=rows.filter(r=>r.blocking===true); console.log("blocking", b.length, sum
 | Queue helpers | `admin/pipeline/research/patterns.ts` — `transformQueue()`, `blockingWork()`, `checkEntanglement()` |
 | Phase spec | `docs/specs/2026-08-17-sweep-tiering-design.md` §4 |
 | Round 4 reconcile | `docs/v2/discovery-round-4.md` |
+| 2.2 residue | [phase-2-residue.md](phase-2-residue.md) — 4,082 entries / 5,095 hints after the 54 rules |
 | Snapshot | `data/source/jastrow-dictionary.jsonl`, sha256 `4c64ff03…`, pinned in `data/patches/snapshot.lock` |
 
 ```bash
