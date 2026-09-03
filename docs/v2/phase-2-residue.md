@@ -342,6 +342,17 @@ so it separates nothing. What is left is a genuine judgment split:
 Nothing deterministic tells those apart. 31 entries of judgment is the
 right disposition for them, and 2.3 is where it happens.
 
+**Superseded 2026-09-03 by
+[`phase-2-roman-numerals.md`](phase-2-roman-numerals.md).** The
+adjudication ran and the paragraph above is half right. The rejection
+of PR #65's discriminator stands — numeral-equals-chapter is 100%
+saturated and separates nothing. The inference from that rejection to
+the whole class does not: **24 of the 31 are real mislinks, 7 are
+spurious**, and 21 of the 24 fall to a two-clause predicate (bare
+`I`/`II` display, Targum-corpus target) that takes none of the 7. The
+`Targ. Y. II` case above is not one example of a judgment call; it is
+20 of the 31, and the recension marker is why.
+
 The sweep prompt said otherwise. v4's hint table described this kind
 as *"31 corpus-wide, all inspected ones spurious"* — true of what had
 been inspected, false of the class, and a prior that would have had a
