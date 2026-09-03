@@ -21,8 +21,8 @@ recorded go**. Gates (sweep tiering spec, 2026-08-17):
 Prompts: sweep agents use `prompts/sweep-v5.md`, which supersedes
 v4 (the `v. sub` redirect carve-out, and the corrected
 `roman-numeral-display` prior — v4 called the kind "all inspected
-ones spurious" and adjudication found 24 of its 31 real, see
-docs/v2/phase-2-roman-numerals.md). The version is pinned in code as
+ones spurious", and adjudication found 24 real mislinks among its 31
+entries — see docs/v2/phase-2-roman-numerals.md). The version is pinned in code as
 `PROMPT_VERSION` in `research/corpus-inputs.ts` and gated by
 `prompt-version.test.ts`; the code wins over this line. Verification
 uses `prompts/verify-v2.md` (signed 2026-08-14; adds the

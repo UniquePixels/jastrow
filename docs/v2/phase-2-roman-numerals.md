@@ -57,8 +57,13 @@ has no target of its own, so a rule retargeting the family across
 recensions would give it a link where the right output is none. It
 is carried in the family count of 20 because the misreading is
 identical; it is excluded from the 19 rule candidates in
-§"Disposition" because the repair is not. Any rule built from the
-predicate below must exclude it explicitly.
+§"Disposition" because the repair is not.
+
+The predicate below selects **21** anchors: this family's 20 plus
+B00404, whose truncated `Ib.` also opens with a bare `I` over a
+Targum target. Both A01133 and B00404 want their link removed rather
+than retargeted, so **any rule built from that predicate must exclude
+the two of them explicitly** to land on the 19 candidates.
 
 ### B. The numeral is not a numeral — 3 entries
 
@@ -145,7 +150,8 @@ and three sub-shapes want three different repairs:
    primary citation. C00870's `II` → `Targum Jerusalem, Genesis
    28:10`; C00016's `I` → `Targum Jonathan on Genesis 34:31`.
    Both corpus names are already in use — 3,982 entries carry
-   `Targum Jonathan on `, 518 carry `Targum Jerusalem,`.
+   the `Targum Jonathan on` prefix (with its trailing space), 518
+   carry `Targum Jerusalem,`.
 2. **Retarget to the same corpus.** P00569's `Targ. Y. Gen. I, 6
    (I ed. Vien. …)` names recension I where the primary carried no
    marker, so the repair equals the preceding target, not its
