@@ -12,33 +12,48 @@
  *
  * Hints are *hints*: prep attaches them to chunk inputs and the
  * sweep prompt (v3) directs agents to judge each one against the
- * entry. Rules are precision-tuned on the full corpus
- * (2026-08-13 calibration):
+ * entry. Rules are precision-tuned on the full corpus. Counts below
+ * are the current ones, re-measured 2026-09-02; the 2026-08-13
+ * calibration they replace is audited two paragraphs down:
  *
- * - `comma-for-period` — 101 entries corpus-wide; catches the
+ * - `comma-for-period` — 108 entries corpus-wide; catches the
  *   batch-01 misses A00470 (`Ar, ed.`) and A00266 (`in Ar,`).
- * - `bare-abbrev` — 395 entries; catches the pilot-miss shape
+ * - `bare-abbrev` — 319 entries; catches the pilot-miss shape
  *   A00074 (`bot` for `bot.`).
- * - `rare-dotted-variant` — 575 entries; catches `Rab.` where the
+ * - `rare-dotted-variant` — 705 entries; catches `Rab.` where the
  *   corpus formula is `Rabb.` (edit distance 1).
  * - `circular-v-ref` — 59 entries; catches A00571 (`, v. <self>`).
  * - `truncated-formula` — 22 entries; 5 from the `D. S. a.` pattern
  *   that catches A00638 (no ` l.`), 17 from the Roman-numeral
  *   pattern below it.
  *
- * Two of those counts were re-measured on 2026-09-02 against the
- * same corpus, by `residue.ts`'s PRE reading, and the other three
- * reproduced exactly — which is the control that makes the two
- * corrections the docstring's problem and not the measurement's.
- * `truncated-formula` was 5 because the calibration predates the
- * second entry in `TRUNCATED_FORMULAS`, whose own detail line cites
- * a corpus count the module summary never absorbed.
- * `rare-dotted-variant` was 247 and does not reproduce: the figure
- * is not `applyRepairs` drift (source and post-repair corpora both
- * give 575), not a shallower sense walk (top-level senses only give
- * 520), and no pair drawn from maxRare 1-5 x minSibling
- * 100/200/500/1000 lands on it. Treat 247 as superseded, the way
- * `docs/v2/phase-2-residue.md` treats the spec's 3,630 baseline.
+ * Three of those counts moved on 2026-09-02 — `comma-for-period`
+ * 101, `bare-abbrev` 395, `rare-dotted-variant` 575 — because
+ * `latinTokens` replaced a whitespace split that had never matched
+ * what a reader sees. Before it, `bare-abbrev` was 395 and A00074 — the entry this
+ * docstring has named as its catch since 2026-08-13 — **did not
+ * fire**: its `bot—V.` binds two tokens across the corpus's own
+ * sense separator, and the whole token was rejected. A named control
+ * that does not fire is worse than a stale count, so the correction
+ * is the tokenizer and not the line. Measured in
+ * `docs/v2/phase-2-created-hints.md`.
+ *
+ * The 2026-08-13 calibration was audited on 2026-09-02 against the
+ * same corpus, by `residue.ts`'s PRE reading. Three of its five
+ * counts reproduced exactly (`comma-for-period` 101, `bare-abbrev`
+ * 395, `circular-v-ref` 59) — which is the control that makes the
+ * two that did not the docstring's problem and not the
+ * measurement's. `truncated-formula` was 5 because the calibration
+ * predates the second entry in `TRUNCATED_FORMULAS`, whose own
+ * detail line cites a corpus count the module summary never
+ * absorbed. `rare-dotted-variant` was 247 and does not reproduce:
+ * the figure is not `applyRepairs` drift (source and post-repair
+ * corpora both gave 575), not a shallower sense walk (top-level
+ * senses only gave 520), and no pair drawn from maxRare 1-5 x
+ * minSibling 100/200/500/1000 lands on it. Treat 247 as superseded,
+ * the way `docs/v2/phase-2-residue.md` treats the spec's 3,630
+ * baseline. Those three reproducing figures are the pre-`latinTokens`
+ * readings, and the list above carries the post-fix ones.
  *
  * Link-target rules (`abbrev-mislink`, `exact-headword-diverge`,
  * `niqqud-twin-target`, `roman-numeral-display`) live in
@@ -121,7 +136,14 @@ const ANCHOR =
 	/<a [^>]*data-ref="Jastrow, (?<ref>[^"]+)"[^>]*>(?<display>.*?)<\/a>/gu;
 
 const TAG = /<[^>]*>/gu;
-const WHITESPACE = /\s+/u;
+/** Inline tags standing between a word and the punctuation that
+ * terminates it. They render as nothing, so they must tokenize as
+ * nothing. */
+const TAG_BEFORE_PUNCT = /(?<=[A-Za-z])(?:<[^>]*>)+(?=[.,])/gu;
+/** Whitespace, plus the em dash the corpus uses to separate senses.
+ * The hyphen is deliberately absent: it joins a word rather than
+ * separating one (`au-`, `K'doshim`). */
+const SEPARATOR = /[\s\u2014]+/u;
 const TRAILING_SENSE_NUMBER = / \d+$/u;
 const V_ABBREV_BEFORE = /\bv\.\s*$/iu;
 
@@ -129,7 +151,23 @@ function stripTags(s: string): string {
 	return s.replace(TAG, ' ');
 }
 
-/** Fold one raw whitespace-token into the table. */
+/** The Latin tokens the abbreviation rules read, as a reader sees
+ * them rather than as whitespace splits them.
+ *
+ * Two things stand between the two. Every tag in this corpus is
+ * inline (`a`, `span`, `i`, `sup`, `b`, `sub` — it contains no block
+ * element), so a tag boundary renders as nothing; stripping one to a
+ * space orphans a period from the word it terminates, and the healed
+ * `<i>v</i>.` reads as a bare `v`. And an em dash, the corpus's own
+ * sense separator, binds two tokens into one (`bot—V.`) that `WORD`
+ * then rejects whole, so neither side of it is counted or judged.
+ *
+ * Both are measured in `docs/v2/phase-2-created-hints.md`. */
+function latinTokens(def: string): string[] {
+	return stripTags(def.replace(TAG_BEFORE_PUNCT, '')).split(SEPARATOR);
+}
+
+/** Fold one raw token into the table. */
 function countToken(table: AbbrevTable, raw: string): void {
 	const m = WORD.exec(raw);
 	if (m === null) {
@@ -154,7 +192,7 @@ function buildAbbrevTable(entries: Iterable<SourceEntry>): AbbrevTable {
 	const table: AbbrevTable = new Map();
 	for (const entry of entries) {
 		for (const def of entryDefinitions(entry)) {
-			for (const raw of stripTags(def).split(WHITESPACE)) {
+			for (const raw of latinTokens(def)) {
 				countToken(table, raw);
 			}
 		}
@@ -301,7 +339,7 @@ function entryAnomalyHints(
 		linkFields.push(entry.language_reference);
 	}
 	for (const def of entryDefinitions(entry)) {
-		for (const raw of stripTags(def).split(WHITESPACE)) {
+		for (const raw of latinTokens(def)) {
 			hints.push(...tokenHints(raw, table));
 		}
 		hints.push(...formulaHints(def));

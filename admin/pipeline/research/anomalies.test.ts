@@ -338,3 +338,49 @@ describe('entryAnomalyHints — citation comma rule (batch-02 remediation)', () 
 		expect(hints.some((h) => h.kind === 'truncated-formula')).toBe(false);
 	});
 });
+
+/** `latinTokens` — the two ways a whitespace split disagreed with
+ * what a reader sees. Each carve-out is paired with the control that
+ * would catch it over-reaching: an assertion that something no
+ * longer fires means nothing beside one that still does. */
+describe('entryAnomalyHints — tokenization', () => {
+	it('does not read a period across an inline tag as a bare abbreviation', () => {
+		const hints = entryAnomalyHints(
+			entry('X00001', 'at the <i>Ar</i>. page'),
+			calibratedTable(),
+		);
+		expect(hints.some((h) => h.kind === 'bare-abbrev')).toBe(false);
+	});
+
+	it('still flags an abbreviation that is genuinely bare (control)', () => {
+		const hints = entryAnomalyHints(
+			entry('X00001', 'at the <i>Ar</i> page'),
+			calibratedTable(),
+		);
+		expect(hints.some((h) => h.kind === 'bare-abbrev')).toBe(true);
+	});
+
+	it('counts a tag-separated period as dotted, not bare', () => {
+		const table = buildAbbrevTable([entry('X00001', 'see <i>Ar</i>. note')]);
+		expect(table.get('Ar')).toEqual({ bare: 0, comma: 0, dotted: 1 });
+	});
+
+	it("flags A00074's own markup, which the em dash had hidden", () => {
+		const hints = entryAnomalyHints(
+			entry(
+				'A00074',
+				'<a class="refLink" href="x" data-ref="y">Y. Shebu. VI, 37ᵃ</a> Ar—V. <a dir="rtl" class="refLink" href="z" data-ref="w">בּוּן</a>.',
+			),
+			calibratedTable(),
+		);
+		expect(hints.some((h) => h.kind === 'bare-abbrev')).toBe(true);
+	});
+
+	it('does not split on a hyphen, which joins a word (control)', () => {
+		const hints = entryAnomalyHints(
+			entry('X00001', 'the au-Ar form'),
+			calibratedTable(),
+		);
+		expect(hints.some((h) => h.kind === 'bare-abbrev')).toBe(false);
+	});
+});
