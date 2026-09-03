@@ -103,6 +103,9 @@ const GERESH_END = /[׳']\s*$/u;
  * attribute upstream, a systemic extraction artifact, not a mislink. */
 const GERSHAYIM = /["״]/u;
 const ROMAN_NUMERAL = /^[IVXLC]{1,4}$/u;
+/** One whitespace character. Used to step over a run of it while
+ * looking for the paren on either side of an anchor, which a
+ * look-behind of any fixed width would eventually clip. */
 const WHITESPACE_CHAR = /\s/u;
 /** The proclitic particles Aramaic writes onto the following word. A
  * two-letter geresh form opening with one of these is not the generic

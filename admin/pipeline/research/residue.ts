@@ -41,6 +41,9 @@ import {
 import { buildHeadwordIndex } from './headword-index.ts';
 import { buildHebrewTable } from './hebrew-anomalies.ts';
 
+/** The pinned snapshot, read directly rather than through
+ * `corpus-fixture.ts`: this is a script, not a test, so nothing else
+ * in the process shares the memo. */
 const SOURCE = 'data/source/jastrow-dictionary.jsonl';
 
 /** The three corpus-wide comparison tables the detector reads. */
@@ -50,6 +53,10 @@ interface Tables {
 	index: ReturnType<typeof buildHeadwordIndex>;
 }
 
+/** Build all three tables from one corpus state. Taking the whole
+ * corpus at once is the point: each table is a frequency comparison
+ * across every entry, so a table built from a subset would judge an
+ * entry against a different population than the detector does. */
 function buildTables(entries: readonly SourceEntry[]): Tables {
 	return {
 		abbrev: buildAbbrevTable(entries.values()),
@@ -58,6 +65,9 @@ function buildTables(entries: readonly SourceEntry[]): Tables {
 	};
 }
 
+/** One residue reading. Entries and hints are reported separately
+ * because they answer different questions: entries size the sweep's
+ * work queue, hints size what an agent has to read inside it. */
 interface Measurement {
 	/** Entries carrying at least one hint — the residue itself. */
 	entries: number;
@@ -68,6 +78,10 @@ interface Measurement {
 	hints: number;
 }
 
+/** Run the detector over a corpus against a given set of tables.
+ * The two are separate arguments so a POST corpus can be measured
+ * against PRE tables — see the module comment on why both readings
+ * are reported. */
 function measure(corpus: readonly SourceEntry[], tables: Tables): Measurement {
 	const entriesByKind = new Map<string, number>();
 	let entries = 0;
