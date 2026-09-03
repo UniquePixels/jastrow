@@ -18,10 +18,14 @@ recorded go**. Gates (sweep tiering spec, 2026-08-17):
   consecutive rounds add no new systemic pattern class
   (`data/patches/patterns.jsonl`).
 
-Prompts: sweep agents use `prompts/sweep-v4.md` (signed
-2026-08-17; mandatory anchor display-vs-target check, narrowed
-niqqud carve-out, after the batch-02 breach); verification uses
-`prompts/verify-v2.md` (signed 2026-08-14; adds the
+Prompts: sweep agents use `prompts/sweep-v5.md`, which supersedes
+v4 (the `v. sub` redirect carve-out, and the corrected
+`roman-numeral-display` prior — v4 called the kind "all inspected
+ones spurious" and adjudication found 24 of its 31 real, see
+docs/v2/phase-2-roman-numerals.md). The version is pinned in code as
+`PROMPT_VERSION` in `research/corpus-inputs.ts` and gated by
+`prompt-version.test.ts`; the code wins over this line. Verification
+uses `prompts/verify-v2.md` (signed 2026-08-14; adds the
 `catchable`/`labelOnly` verdict fields). Sweep tier Sonnet,
 verification tier Opus. Prep attaches `anomaly_hints` to chunk
 inputs: corpus-frequency findings from `anomalies.ts` plus
@@ -34,7 +38,7 @@ link-target findings from `link-anomalies.ts`.
    Record the go (timestamp) in the tranche's report.
 2. **Prep** — `bun admin/pipeline/research/tranche.ts prep
    <workdir> <count>`: writes per-chunk input JSON (pre-patch
-   entries + precomputed `sense_index`, pin, `promptVersion: v2`)
+   entries + precomputed `sense_index`, pin, `promptVersion: v5`)
    for the next pending chunks; chunk progress lives in
    `data/patches/checkpoints/`.
 3. **Dispatch sweep agents** — one Sonnet agent per chunk (waves
