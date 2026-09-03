@@ -14,6 +14,14 @@ import type { Chunk } from './chunks.ts';
 
 const SOURCE = 'data/source/jastrow-dictionary.jsonl';
 
+/** The sweep prompt every chunk this module builds is written for.
+ * It lives here, beside `ChunkInput.promptVersion`, because the two
+ * paths that set that field used to hold a copy each and a bump had
+ * to land in both. `prompt-version.test.ts` holds it to the version
+ * line of `prompts/sweep-<this>.md`, so a bump that does not move
+ * the document fails rather than mislabelling a tranche. */
+const PROMPT_VERSION = 'v5';
+
 /** One row of the precomputed per-entry sense index the sweep
  * prompt's Input section promises. */
 interface SenseIndexRow {
@@ -99,4 +107,10 @@ async function writeChunkInput(
 }
 
 export type { ChunkInput, SenseIndexRow };
-export { buildChunkInput, loadPrePatchCorpus, senseIndex, writeChunkInput };
+export {
+	buildChunkInput,
+	loadPrePatchCorpus,
+	PROMPT_VERSION,
+	senseIndex,
+	writeChunkInput,
+};

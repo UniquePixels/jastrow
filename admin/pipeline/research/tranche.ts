@@ -53,6 +53,7 @@ import {
 import {
 	buildChunkInput,
 	loadPrePatchCorpus,
+	PROMPT_VERSION,
 	senseIndex,
 	writeChunkInput,
 } from './corpus-inputs.ts';
@@ -66,7 +67,6 @@ import {
 	selectSample,
 } from './verify.ts';
 
-const PROMPT_VERSION = 'v4';
 const SNAPSHOT_LOCK = 'data/patches/snapshot.lock';
 const TRANCHES_DIR = 'data/patches/tranches';
 /** Maintainer thresholds (pilot acceptance, 2026-08-13). */
