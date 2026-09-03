@@ -433,7 +433,8 @@ made of.
 
 What it leaves for 2.3, in order:
 
-1. **32 created hints on 30 entries are unadjudicated.** They are not
+1. **37 created hints on 35 entries need judgment, and all 37 are
+   real.** They are not
    a random sample of the residue: every one sits on an entry a
    transform touched, which is where a rule's own mistakes live. The
    enrichment ranking says where to start —
@@ -444,11 +445,14 @@ What it leaves for 2.3, in order:
 2. **31 `roman-numeral-display` entries need judgment, not a
    predicate.** Sized and argued above; nothing deterministic splits
    them.
-3. **The remaining 3,987 entries are the sweep population** the
+3. **The remaining 3,982 entries are the sweep population** the
    spec's 2.3 line describes: *"one targeted Opus pass over the
    judgment residue only"*. (1) and (2) overlap at I00311 and so
-   subtract as a union of 60, not as a sum of 61 — measured in
-   [`phase-2-created-hints.md`](phase-2-created-hints.md).
+   subtract as a union of 65, not as a sum of 66 — measured in
+   [`phase-2-created-hints.md`](phase-2-created-hints.md), which also
+   raises (1) from 32 hints on 30 entries to **37 on 35**: the
+   fixed-table reading cannot see a hint that a headword repair
+   creates.
 
 The 29 `v. sub` false positives that stood here are carved out and no
 longer reach the sweep, and so are the 35 the tokenizer was

@@ -87,17 +87,28 @@ import {
 	stem,
 } from './headword-index.ts';
 
+/** Every kind these rules emit, as data rather than only as a type.
+ *
+ * `residue.ts` needs the list at runtime: a link hint judges a
+ * display or target against the HEADWORD INDEX, so a rule repairing
+ * a headword moves the comparison itself and these kinds have to be
+ * measured against a rebuilt index rather than a fixed one. Deriving
+ * `LinkHint['kind']` from the array keeps the two from drifting —
+ * a kind added to one is added to both. */
+const LINK_KINDS = [
+	'abbrev-mislink',
+	'exact-headword-diverge',
+	'inflection-escape-link',
+	'niqqud-twin-target',
+	'one-consonant-diverge',
+	'roman-numeral-display',
+] as const;
+
 /** One deterministic link finding. Kind values are a subset of
  * `AnomalyHint['kind']` in anomalies.ts, which owns the union. */
 interface LinkHint {
 	detail: string;
-	kind:
-		| 'abbrev-mislink'
-		| 'exact-headword-diverge'
-		| 'inflection-escape-link'
-		| 'niqqud-twin-target'
-		| 'one-consonant-diverge'
-		| 'roman-numeral-display';
+	kind: (typeof LINK_KINDS)[number];
 }
 
 /** Anchors into the dictionary itself, which the headword rules judge. */
@@ -462,4 +473,4 @@ function linkHints(
 }
 
 export type { LinkHint };
-export { linkHints };
+export { LINK_KINDS, linkHints };
