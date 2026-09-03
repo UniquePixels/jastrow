@@ -195,5 +195,5 @@ not support.
 The sweep prompt is already correct on the narrower point: `sweep-v5.md`
 retired v4's "all inspected ones spurious", and this page's 24/7 split
 is the evidence that retirement was right. **An all-spurious prior
-would have been wrong on 24 of the 31** — it overstates the spurious
-count by 31 to 7.
+would have been wrong on 24 of the 31** — it claims 31 spurious where
+7 are, overstating by 24.
