@@ -127,17 +127,36 @@ both call sites — the table build and the hint pass — so the two can
 no longer drift apart:
 
 ```ts
-const TAG_BEFORE_PUNCT = /(?<=[A-Za-z])(?:<[^>]*>)+(?=[.,])/gu;
-const SEPARATOR = /[\s\u2014]+/u;
+const SEPARATOR = /[\s\u2014]+/gu;
+const SEPARATOR_MARK = '\u0000';
 
 function latinTokens(def: string): string[] {
-	return stripTags(def.replace(TAG_BEFORE_PUNCT, '')).split(SEPARATOR);
+	const marked = def.replace(SEPARATOR, SEPARATOR_MARK);
+	return stripTags(marked)
+		.split(SEPARATOR_MARK)
+		.map((token) => token.replaceAll(' ', ''));
 }
 ```
 
+The order is the whole trick. `stripTags` fills every tag boundary
+with a space of its own, and once it has run, the spaces the source
+wrote and the spaces it invented are indistinguishable — while
+meaning opposite things. Marking the source's separators first keeps
+them apart, so a tag can then contribute *nothing*, which is what it
+renders as, and only a marked separator ends a token.
+
+That also means no second regex reads the markup. An earlier draft
+removed tag runs sitting between a letter and its punctuation, with
+`/(?<=[A-Za-z])(?:<[^>]*>)+(?=[.,])/gu`; CodeQL flagged it HIGH under
+`js/incomplete-multi-character-sanitization`, and it was right to —
+one pass over `<scr<i>ipt>` leaves `<script>` behind. The rule this
+code needs has nothing to do with recognising a tag: a lone period
+belongs to the word in front of it, and whether a boundary lies
+between them is already settled by the marking.
+
 The hyphen is deliberately not a separator: it joins a word rather
-than breaking one (`au-`, `K'doshim`), and a test asserts that it
-still does not split.
+than breaking one (`au-`, `K'doshim`), and a control row asserts that
+it still does not split.
 
 **A00074 now fires**, with `bare 'bot' where the corpus writes 'bot.'
 4618x vs bare 24x`. The other three entries the docstring names —
@@ -160,14 +179,19 @@ as one. It is not equivalent, and the difference is measurable.
 
 | PRE, corpus-wide | current | tags → `''` | `latinTokens` |
 |---|---:|---:|---:|
-| `bare-abbrev` | 395 | 289 | **319** |
-| `rare-dotted-variant` | 575 | 691 | **705** |
-| `comma-for-period` | 101 | 108 | **108** |
+| `bare-abbrev` | 395 | 289 | 289 |
+| `rare-dotted-variant` | 575 | 691 | 691 |
+| `comma-for-period` | 101 | 108 | 108 |
 | `truncated-formula` | 22 | **15** | **22** |
 
-`truncated-formula` is the tell. `stripTags` also feeds
-`formulaHints`, which matches stereotyped citation formulas against
-the stripped string; joining every tag boundary glues `D. S.` to its
+Read the last two columns against each other with the em-dash half
+held back, as above: they are the same tokenization and they agree on
+every Latin count. One column differs, by seven entries, and it is
+the rule that does not read tokens at all.
+
+`stripTags` also feeds `formulaHints`, which matches stereotyped
+citation formulas against the stripped string rather than against
+tokens; joining every tag boundary there glues `D. S.` to its
 neighbours and seven entries stop matching. A change to the tokenizer
 belongs in the tokenizer, where exactly one thing reads it.
 
@@ -177,11 +201,11 @@ Attributing the two halves separately, by PRE entry counts:
 
 | Kind | before | tag boundary | + em dash |
 |---|---:|---:|---:|
-| `bare-abbrev` | 395 | 288 | 319 |
+| `bare-abbrev` | 395 | 289 | 318 |
 | `rare-dotted-variant` | 575 | 691 | 705 |
 | `comma-for-period` | 101 | 108 | 108 |
 | `truncated-formula` | 22 | 22 | 22 |
-| **residue, POST** | **3,946** | **4,019** | **4,049** |
+| **residue, POST** | **3,946** | **4,014** | **4,047** |
 | **hints the rules created** | **67 / 65** | **32 / 30** | **32 / 30** |
 
 The tag-boundary half alone retires all 23 created hints; the em-dash
@@ -201,7 +225,7 @@ context:
 That mix is not new; it is the population the existing 575 already
 were. The change makes it 705.
 
-Net, 2.3's sweep population grows **3,946 → 4,049 entries** (+103,
+Net, 2.3's sweep population grows **3,946 → 4,047 entries** (+101,
 +2.6%) and its unadjudicated created hints shrink **67 → 32**.
 
 ## What is left of the created hints
@@ -249,12 +273,12 @@ citation.
    16 are where to start.
 2. **31 `roman-numeral-display` entries**, unchanged by this pass and
    argued on the residue page.
-3. **The remaining 3,989 entries are the sweep population.**
+3. **The remaining 3,987 entries are the sweep population.**
 
 (1) and (2) are entry sets that overlap, so they subtract as a union
 and not as a sum: I00311 is in both — it is the one created
 `roman-numeral-display` hint *and* one of the 31 — which makes the
-union 30 + 31 − 1 = **60**, and 4,049 − 60 = 3,989. Subtracting them
+union 30 + 31 − 1 = **60**, and 4,047 − 60 = 3,987. Subtracting them
 separately would hand the sweep an entry it had already been told
 was adjudicated.
 

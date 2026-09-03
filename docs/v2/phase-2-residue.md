@@ -55,11 +55,11 @@ and the PRE-tables row isolates the entry-side change from table drift.
 
 | Measurement | Entries | % of 32,512 | Hints |
 |---|---:|---:|---:|
-| PRE (repairs only) | 4,217 | 13.0% | 5,351 |
-| POST (+rules, PRE tables) | 4,046 | 12.4% | 5,117 |
-| **POST (+rules, POST tables)** | **4,049** | **12.5%** | **5,121** |
+| PRE (repairs only) | 4,216 | 13.0% | 5,350 |
+| POST (+rules, PRE tables) | 4,044 | 12.4% | 5,115 |
+| **POST (+rules, POST tables)** | **4,047** | **12.4%** | **5,119** |
 
-**−168 entries, −4.0%.** The 3-entry gap between the two POST rows is
+**−169 entries, −4.0%.** The 3-entry gap between the two POST rows is
 table drift, and reporting both is what keeps a future drift from
 hiding inside a single number.
 
@@ -72,10 +72,10 @@ so the next reader can tell one from drift.
 |---|---:|---:|
 | as calibrated | 4,339 | 4,082 |
 | − `v. sub` carve-out | 4,187 | 3,946 |
-| + `latinTokens` | **4,217** | **4,049** |
+| + `latinTokens` | **4,216** | **4,047** |
 
 The `v. sub` carve-out is worth 136 entries off the population 2.3 is
-handed; `latinTokens` gives 103 back, retiring 130 hints that were
+handed; `latinTokens` gives 101 back, retiring 130 hints that were
 never defects and exposing a class of abbreviation the tokenizer had
 never been able to see. Its full accounting is in
 [`phase-2-created-hints.md`](phase-2-created-hints.md).
@@ -95,7 +95,7 @@ reproduce would be measuring its own predicate, not the corpus. See
 `docs/v2/discovery-round-1.md` §4 for the calibration that figure came
 from.
 
-The two carve-outs then move PRE to 4,187 and 4,217 by design — they
+The two carve-outs then move PRE to 4,187 and 4,216 by design — they
 change the predicate, which is the one thing that legitimately moves a
 control. Every figure in the chain is recorded in the detector
 modules' docstrings so the next reader can tell a predicate change
@@ -116,11 +116,11 @@ reports their sum and shows neither half.
 | `abbrev-mislink` | 584 | 429 | 429 | −155 | −155 | 0 |
 | `inflection-escape-link` | 691 | 645 | 645 | −46 | −46 | 0 |
 | `one-consonant-diverge` | 817 | 801 | 801 | −16 | −16 | 0 |
-| `bare-abbrev` | 319 | 317 | 317 | −2 | −2 | 0 |
+| `bare-abbrev` | 318 | 316 | 316 | −2 | −2 | 0 |
 | `circular-v-ref` | 59 | 59 | 59 | 0 | 0 | 0 |
 | `comma-for-period` | 108 | 108 | 108 | 0 | 0 | 0 |
 | `hebrew-rare-confusable` | 39 | 39 | 39 | 0 | 0 | 0 |
-| `rare-dotted-variant` | 705 | 705 | 705 | 0 | 0 | 0 |
+| `rare-dotted-variant` | 705 | 704 | 704 | −1 | −1 | 0 |
 | `roman-numeral-display` | 31 | 31 | 31 | 0 | 0 | 0 |
 | `truncated-formula` | 22 | 22 | 22 | 0 | 0 | 0 |
 | `exact-headword-diverge` | 338 | 343 | 343 | +5 | **+5** | **0** |
@@ -137,7 +137,7 @@ say about, and that is the finding rather than the absence of one.
 Against the old tokenizer `bare-abbrev` read 395 → 326 → 345: a net of
 −50 that was −69 on the entry side with **+19 handed back by the
 tables**, a rise the net delta hid entirely inside a fall. It now
-reads −2 / 0, and `rare-dotted-variant` 0 / 0. Both of those columns
+reads −2 / 0, and `rare-dotted-variant` −1 / 0. Both of those columns
 were measuring a period that a tag boundary had moved out of reach of
 the tokenizer, not a transform's effect on the corpus.
 
@@ -419,7 +419,7 @@ number.
 
 ## What this hands 2.3
 
-**4,049 entries carrying 5,121 hints.** The spec's cost-creep
+**4,047 entries carrying 5,119 hints.** The spec's cost-creep
 mitigation — *"the residue is bounded and measured at 2.2 before any
 agent runs"* — is satisfied with a real number.
 
@@ -445,7 +445,7 @@ What it leaves for 2.3, in order:
 2. **31 `roman-numeral-display` entries need judgment, not a
    predicate.** Sized and argued above; nothing deterministic splits
    them.
-3. **The remaining 3,989 entries are the sweep population** the
+3. **The remaining 3,987 entries are the sweep population** the
    spec's 2.3 line describes: *"one targeted Opus pass over the
    judgment residue only"*. (1) and (2) overlap at I00311 and so
    subtract as a union of 60, not as a sum of 61 — measured in

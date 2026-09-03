@@ -68,7 +68,7 @@
  * `docs/v2/phase-2-residue.md` reproduces them as its positive
  * control; after the `v. sub` carve-out the same union is 4,187, and
  * after `latinTokens` replaced the Latin tokenizer in anomalies.ts,
- * 4,217. Each step is a deliberate predicate change, chained in that
+ * 4,216. Each step is a deliberate predicate change, chained in that
  * page's §"The detector moved three times" so a later reader can tell
  * one from drift.
  *

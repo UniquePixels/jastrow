@@ -340,24 +340,29 @@ describe('entryAnomalyHints — citation comma rule (batch-02 remediation)', () 
 });
 
 /** `latinTokens` — the two ways a whitespace split disagreed with
- * what a reader sees. Each carve-out is paired with the control that
- * would catch it over-reaching: an assertion that something no
- * longer fires means nothing beside one that still does. */
+ * what a reader sees. Every carve-out row is paired with a control
+ * row that must keep firing: an assertion that something stopped
+ * firing means nothing beside one saying it did not stop too much. */
 describe('entryAnomalyHints — tokenization', () => {
-	it('does not read a period across an inline tag as a bare abbreviation', () => {
+	it.each([
+		[
+			'a tag boundary does not orphan a period',
+			'at the <i>Ar</i>. page',
+			false,
+		],
+		[
+			'a genuinely bare abbreviation still flags',
+			'at the <i>Ar</i> page',
+			true,
+		],
+		['a hyphen joins a word, so it does not split', 'the au-Ar form', false],
+		['an em dash separates, so it does split', 'the page—Ar of it', true],
+	])('%s', (_case, definition, flagged) => {
 		const hints = entryAnomalyHints(
-			entry('X00001', 'at the <i>Ar</i>. page'),
+			entry('X00001', definition),
 			calibratedTable(),
 		);
-		expect(hints.some((h) => h.kind === 'bare-abbrev')).toBe(false);
-	});
-
-	it('still flags an abbreviation that is genuinely bare (control)', () => {
-		const hints = entryAnomalyHints(
-			entry('X00001', 'at the <i>Ar</i> page'),
-			calibratedTable(),
-		);
-		expect(hints.some((h) => h.kind === 'bare-abbrev')).toBe(true);
+		expect(hints.some((h) => h.kind === 'bare-abbrev')).toBe(flagged);
 	});
 
 	it('counts a tag-separated period as dotted, not bare', () => {
@@ -380,13 +385,5 @@ describe('entryAnomalyHints — tokenization', () => {
 			table,
 		);
 		expect(hints.some((h) => h.kind === 'bare-abbrev')).toBe(true);
-	});
-
-	it('does not split on a hyphen, which joins a word (control)', () => {
-		const hints = entryAnomalyHints(
-			entry('X00001', 'the au-Ar form'),
-			calibratedTable(),
-		);
-		expect(hints.some((h) => h.kind === 'bare-abbrev')).toBe(false);
 	});
 });

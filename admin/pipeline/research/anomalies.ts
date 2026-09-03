@@ -18,7 +18,7 @@
  *
  * - `comma-for-period` — 108 entries corpus-wide; catches the
  *   batch-01 misses A00470 (`Ar, ed.`) and A00266 (`in Ar,`).
- * - `bare-abbrev` — 319 entries; catches the pilot-miss shape
+ * - `bare-abbrev` — 318 entries; catches the pilot-miss shape
  *   A00074 (`bot` for `bot.`).
  * - `rare-dotted-variant` — 705 entries; catches `Rab.` where the
  *   corpus formula is `Rabb.` (edit distance 1).
@@ -136,14 +136,19 @@ const ANCHOR =
 	/<a [^>]*data-ref="Jastrow, (?<ref>[^"]+)"[^>]*>(?<display>.*?)<\/a>/gu;
 
 const TAG = /<[^>]*>/gu;
-/** Inline tags standing between a word and the punctuation that
- * terminates it. They render as nothing, so they must tokenize as
- * nothing. */
-const TAG_BEFORE_PUNCT = /(?<=[A-Za-z])(?:<[^>]*>)+(?=[.,])/gu;
-/** Whitespace, plus the em dash the corpus uses to separate senses.
- * The hyphen is deliberately absent: it joins a word rather than
- * separating one (`au-`, `K'doshim`). */
-const SEPARATOR = /[\s\u2014]+/u;
+/** What actually ends a token in the source text: whitespace, plus
+ * the em dash the corpus uses to separate senses. The hyphen is
+ * deliberately absent — it joins a word rather than separating one
+ * (`au-`, `K'doshim`). */
+const SEPARATOR = /[\s\u2014]+/gu;
+/** Stands in for a separator while `stripTags` runs, so that the
+ * spaces the source wrote and the spaces a stripped tag leaves
+ * behind stay distinguishable. They mean opposite things.
+ *
+ * A mark only works if the text cannot already contain it. Measured
+ * on the pinned snapshot: zero raw NUL bytes and zero `\u0000`
+ * escapes across all 32,512 entries. */
+const SEPARATOR_MARK = '\u0000';
 const TRAILING_SENSE_NUMBER = / \d+$/u;
 const V_ABBREV_BEFORE = /\bv\.\s*$/iu;
 
@@ -164,7 +169,15 @@ function stripTags(s: string): string {
  *
  * Both are measured in `docs/v2/phase-2-created-hints.md`. */
 function latinTokens(def: string): string[] {
-	return stripTags(def.replace(TAG_BEFORE_PUNCT, '')).split(SEPARATOR);
+	// Mark the source's own separators first. `stripTags` fills every
+	// tag boundary with a space of its own, and once it has run the
+	// two are indistinguishable — so the marking has to happen while
+	// they still are. A tag then contributes nothing, which is what
+	// it renders as; only a marked separator ends a token.
+	const marked = def.replace(SEPARATOR, SEPARATOR_MARK);
+	return stripTags(marked)
+		.split(SEPARATOR_MARK)
+		.map((token) => token.replaceAll(' ', ''));
 }
 
 /** Fold one raw token into the table. */
