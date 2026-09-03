@@ -159,6 +159,15 @@ and the net reports the difference. The measurement now differences
 the rules created is counted whether or not it changed which kinds an
 entry carries.
 
+This is an **entry-side** count, holding the tables fixed, and it has
+to be: a frequency hint's detail quotes the counts the tables hold
+(*"bare 'v' where the corpus writes 'v.' 36429x vs bare 6x"*), so any
+table shift renames every such hint. Differencing identities across
+the two POST readings reports 400 creations for a net of +22 — an
+artifact of the detail string, not a finding. The table-side move is
+real and is reported where it is measurable, in the `tables` column
+of the by-kind table above.
+
 **96 hints on 94 entries**, measured before the carve-out below; **67
 on 65** after it. The kind-level view sees 49 of the 94; the other 45
 kept every kind they had and changed only which complaint the detector
@@ -350,15 +359,16 @@ number.
 
 ## What this hands 2.3
 
-**4,082 entries carrying 5,095 hints.** The spec's cost-creep
+**3,946 entries carrying 4,957 hints.** The spec's cost-creep
 mitigation — *"the residue is bounded and measured at 2.2 before any
 agent runs"* — is satisfied with a real number.
 
 Both follow-ups this page originally listed are worked. The stale
 calibrations are corrected in `anomalies.ts`. The re-check ran, and it
 ran wider than "any kind that rose": the unit is a created hint, not a
-net delta, and the population is 96 hints on 94 entries rather than
-the two kinds the net pointed at.
+net delta, and the population it found was 96 hints on 94 entries
+rather than the two kinds the net pointed at — 67 on 65 once the
+carve-out those 96 exposed had landed.
 
 What it leaves for 2.3, in order:
 

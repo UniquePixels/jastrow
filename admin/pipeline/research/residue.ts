@@ -67,10 +67,11 @@ function buildTables(entries: readonly SourceEntry[]): Tables {
 
 /** One hint's identity across two readings: its kind and its detail
  * string, joined. The detail is part of the identity because the
- * detector's complaint can change while its kind does not — 28
- * entries keep an `abbrev-mislink` and swap which mislink it is —
- * and a comparison that watched only the kind would call that pair
- * of readings identical. */
+ * detector's complaint can change while its kind does not, and a
+ * comparison watching only the kind calls such a pair of readings
+ * identical. That is not hypothetical: it is how the 29 `v. sub`
+ * false positives hid, on entries that kept an `abbrev-mislink`
+ * throughout and only swapped which mislink it was. */
 type HintKey = string;
 
 function hintKey(hint: AnomalyHint): HintKey {
@@ -244,13 +245,23 @@ if (import.meta.main) {
 		);
 	}
 
-	// Every hint the rules created, whether or not it changed which
-	// kinds an entry carries. This is the population a pre-sweep
-	// re-check has to open: `roman-numeral-display` was a detector
-	// reading `anchor-swallows-close-paren`'s output, and a rise is
-	// the only symptom that defect shows. The kind-level view below
-	// is strictly narrower — an entry that keeps its `abbrev-mislink`
-	// and swaps which mislink it is appears here and not there.
+	// Every hint the rules created ON THE ENTRY SIDE, whether or not
+	// it changed which kinds an entry carries. This is the population
+	// a pre-sweep re-check has to open: `roman-numeral-display` was a
+	// detector reading `anchor-swallows-close-paren`'s output, and a
+	// rise is the only symptom that defect shows. The kind-level view
+	// above is strictly narrower — an entry that keeps its
+	// `abbrev-mislink` and swaps which mislink it is appears here and
+	// not there.
+	//
+	// Deliberately entry-side only. The tables move as well, but a
+	// hint identity cannot measure that move: a frequency hint's
+	// detail quotes the very counts the tables hold ("bare 'v' where
+	// the corpus writes 'v.' 36429x vs bare 6x"), so every such hint
+	// is renamed by any table shift and a hint-level diff of the two
+	// POST readings reports 400 creations for a net of +22. The
+	// table-side move is real and is reported where it is
+	// measurable — the `tables` column of the by-kind table above.
 	const gained = hintGains(before, afterFixedTables);
 	const gainedHints = [...gained.values()].reduce((n, g) => n + g.length, 0);
 	console.log(
