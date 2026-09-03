@@ -308,6 +308,7 @@ describe('abbrev-mislink v. sub redirect carve-out (2.3)', () => {
 		],
 		['reads the phrase across wide whitespace gaps', ', v.\n\tsub \n ', false],
 		['still fires on a bare `sub` with no `v.`', ', sub', true],
+		['still fires when `v.` only ends a longer word', ', adv. sub', true],
 	];
 
 	// The rows expecting `true` are what keep the carve-out rows from

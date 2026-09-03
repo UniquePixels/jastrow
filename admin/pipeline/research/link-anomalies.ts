@@ -119,6 +119,10 @@ const ROMAN_NUMERAL = /^[IVXLC]{1,4}$/u;
  * fixed by a literal. */
 const SUB = 'sub';
 const V_ABBREV = 'v.';
+/** A character that can sit inside a word, in any script the corpus
+ * writes. What must NOT precede the `v.`, so the phrase is matched as
+ * a token rather than as some longer word's tail. */
+const TOKEN_CHAR = /[\p{L}\p{N}]/u;
 /** One whitespace character. Used to step over a run of it while
  * looking for the paren on either side of an anchor, which a
  * look-behind of any fixed width would eventually clip. */
@@ -382,10 +386,15 @@ function vSubBefore(text: string, at: number): boolean {
 	while (i >= 0 && WHITESPACE_CHAR.test(text[i] as string)) {
 		i -= 1;
 	}
-	return (
-		i >= V_ABBREV.length - 1 &&
-		text.startsWith(V_ABBREV, i - V_ABBREV.length + 1)
-	);
+	const start = i - V_ABBREV.length + 1;
+	if (i < V_ABBREV.length - 1 || !text.startsWith(V_ABBREV, start)) {
+		return false;
+	}
+	// `v.` must open a token, not end one. Without this, `adv. sub`
+	// and `rev. sub` match their own last three characters and
+	// suppress a hint on a phrase that is not a redirect at all.
+	const before = text[start - 1];
+	return before === undefined || !TOKEN_CHAR.test(before);
 }
 
 /** Hints for one dictionary anchor. */
