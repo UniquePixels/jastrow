@@ -66,19 +66,21 @@ function buildTables(entries: readonly SourceEntry[]): Tables {
 }
 
 /** One hint's identity across two readings: its kind and its detail
- * string, joined. The detail is part of the identity because the
- * detector's complaint can change while its kind does not, and a
- * comparison watching only the kind calls such a pair of readings
- * identical. That is not hypothetical: it is how the 29 `v. sub`
- * false positives hid, on entries that kept an `abbrev-mislink`
- * throughout and only swapped which mislink it was. */
-type HintKey = string;
-
-function hintKey(hint: AnomalyHint): HintKey {
+ * string, joined on a `|` no kind contains.
+ *
+ * The detail is half the identity because the detector's complaint
+ * can change while its kind does not, and a comparison watching only
+ * the kind calls such a pair of readings identical. That is not
+ * hypothetical: it is how the 29 `v. sub` false positives hid, on
+ * entries that kept an `abbrev-mislink` throughout and only swapped
+ * which mislink it was. */
+function hintKey(hint: AnomalyHint): string {
 	return `${hint.kind}|${hint.detail}`;
 }
 
-function kindOf(key: HintKey): string {
+/** The kind back out of a `hintKey`. First `|`, not last: a detail
+ * may contain one, a kind may not. */
+function kindOf(key: string): string {
 	return key.slice(0, key.indexOf('|'));
 }
 
@@ -93,7 +95,7 @@ function kindOf(key: HintKey): string {
  * a detector reading its own repair. */
 interface Measurement {
 	/** Every hint, keyed by the `rid` carrying it. */
-	byRid: Map<string, Set<HintKey>>;
+	byRid: Map<string, Set<string>>;
 }
 
 /** Run the detector over a corpus against a given set of tables.
@@ -101,7 +103,7 @@ interface Measurement {
  * against PRE tables — see the module comment on why both readings
  * are reported. */
 function measure(corpus: readonly SourceEntry[], tables: Tables): Measurement {
-	const byRid = new Map<string, Set<HintKey>>();
+	const byRid = new Map<string, Set<string>>();
 	for (const entry of corpus) {
 		const found: AnomalyHint[] = entryAnomalyHints(
 			entry,
@@ -154,7 +156,7 @@ function ridsByKind(m: Measurement): Map<string, Set<string>> {
 function hintGains(a: Measurement, b: Measurement): Map<string, string[]> {
 	const out = new Map<string, string[]>();
 	for (const [rid, keys] of b.byRid) {
-		const had = a.byRid.get(rid) ?? new Set<HintKey>();
+		const had = a.byRid.get(rid) ?? new Set<string>();
 		const gained = [...keys].filter((k) => !had.has(k));
 		if (gained.length > 0) {
 			out.set(rid, gained);
