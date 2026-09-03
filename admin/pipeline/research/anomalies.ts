@@ -19,11 +19,26 @@
  *   batch-01 misses A00470 (`Ar, ed.`) and A00266 (`in Ar,`).
  * - `bare-abbrev` — 395 entries; catches the pilot-miss shape
  *   A00074 (`bot` for `bot.`).
- * - `rare-dotted-variant` — 247 entries; catches `Rab.` where the
+ * - `rare-dotted-variant` — 575 entries; catches `Rab.` where the
  *   corpus formula is `Rabb.` (edit distance 1).
  * - `circular-v-ref` — 59 entries; catches A00571 (`, v. <self>`).
- * - `truncated-formula` — 5 entries; catches A00638
- *   (`D. S. a.` with no ` l.`).
+ * - `truncated-formula` — 22 entries; 5 from the `D. S. a.` pattern
+ *   that catches A00638 (no ` l.`), 17 from the Roman-numeral
+ *   pattern below it.
+ *
+ * Two of those counts were re-measured on 2026-09-02 against the
+ * same corpus, by `residue.ts`'s PRE reading, and the other three
+ * reproduced exactly — which is the control that makes the two
+ * corrections the docstring's problem and not the measurement's.
+ * `truncated-formula` was 5 because the calibration predates the
+ * second entry in `TRUNCATED_FORMULAS`, whose own detail line cites
+ * a corpus count the module summary never absorbed.
+ * `rare-dotted-variant` was 247 and does not reproduce: the figure
+ * is not `applyRepairs` drift (source and post-repair corpora both
+ * give 575), not a shallower sense walk (top-level senses only give
+ * 520), and no pair drawn from maxRare 1-5 x minSibling
+ * 100/200/500/1000 lands on it. Treat 247 as superseded, the way
+ * `docs/v2/phase-2-residue.md` treats the spec's 3,630 baseline.
  *
  * Link-target rules (`abbrev-mislink`, `exact-headword-diverge`,
  * `niqqud-twin-target`, `roman-numeral-display`) live in

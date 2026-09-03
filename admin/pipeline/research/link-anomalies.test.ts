@@ -277,3 +277,54 @@ describe('roman-numeral-display parallel-chapter carve-out (2.2)', () => {
 		expect(kinds(hints)).toContain('roman-numeral-display');
 	});
 });
+
+describe('abbrev-mislink v. sub redirect carve-out (2.3)', () => {
+	/** H01354's shape: the host is the defective spelling, the stub
+	 * abbreviates the plene one, and `v-sub-redirect-stub-mislink`
+	 * sends it to the plene twin. Linking away from the host is the
+	 * repair, not a mislink. */
+	const HOST = 'חִסּוּלָא';
+	const TWIN = 'חִיסּוּלָא';
+	const ABBREV = 'חִיסּ׳';
+
+	function stub(lead: string): SourceEntry {
+		return entry('H01354', `${lead} ${anchor(TWIN, ABBREV)}.`, HOST);
+	}
+
+	const idx = index([HOST, TWIN]);
+
+	/** `[name, text before the anchor, whether the hint fires]`.
+	 * One-line tuples rather than a body per case, per
+	 * [[feedback_sonar_duplication_tables]] — five `it` blocks
+	 * differing only in a string and a negation is 43% duplication on
+	 * SonarCloud's 3% gate. */
+	const CASES: readonly (readonly [string, string, boolean])[] = [
+		['fires when no v. sub precedes the anchor', ', cmp.', true],
+		['ignores a v. sub redirect (H01354 post-repair)', ', v. sub', false],
+		[
+			'ignores the `v. sub.` spelling (O00878, 5 of the 50)',
+			', v. sub.',
+			false,
+		],
+		['reads the phrase across wide whitespace gaps', ', v.\n\tsub \n ', false],
+		['still fires on a bare `sub` with no `v.`', ', sub', true],
+		['still fires when `v.` only ends a longer word', ', adv. sub', true],
+	];
+
+	// The rows expecting `true` are what keep the carve-out rows from
+	// being vacuous: with the phrase absent or half-present, the same
+	// markup MUST still fire. Lose them and the `false` rows stop
+	// meaning anything, so the table is held to carrying both.
+	it('the table tests both verdicts, not just the carve-out', () => {
+		expect(new Set(CASES.map(([, , fires]) => fires))).toEqual(
+			new Set([true, false]),
+		);
+	});
+
+	for (const [name, lead, fires] of CASES) {
+		it(name, () => {
+			const hints = entryAnomalyHints(stub(lead), new Map(), idx);
+			expect(kinds(hints).includes('abbrev-mislink')).toBe(fires);
+		});
+	}
+});

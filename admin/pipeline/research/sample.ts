@@ -24,13 +24,13 @@ import { chunkCorpus, loadCheckpoint } from './chunks.ts';
 import {
 	buildChunkInput,
 	loadPrePatchCorpus,
+	PROMPT_VERSION,
 	writeChunkInput,
 } from './corpus-inputs.ts';
 import { buildHeadwordIndex } from './headword-index.ts';
 import { buildHebrewTable } from './hebrew-anomalies.ts';
 
 const SNAPSHOT_LOCK = 'data/patches/snapshot.lock';
-const PROMPT_VERSION = 'v4';
 /** Fixed so a round is reproducible; changing it reshuffles history. */
 const SEED = 20_260_817;
 /** Mersenne prime modulus — keeps the hash inside a safe integer and

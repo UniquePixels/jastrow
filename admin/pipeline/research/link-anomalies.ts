@@ -23,14 +23,22 @@
  * almost exactly. The correct figures are `9bc0e32`'s own commit
  * message:
  *
- * - `abbrev-mislink` — 736 entries. A geresh-abbreviated display
- *   abbreviates one of *this* entry's own forms but links elsewhere.
+ * - `abbrev-mislink` — 584 entries (736 before the `v. sub` carve-out
+ *   below). A geresh-abbreviated display abbreviates one of *this*
+ *   entry's own forms but links elsewhere.
  *   Catches A01486 (`אִסְפַּ׳` under אִיסְפַּקְלַרְיָא, linked to asparagus)
  *   and D00728 (`כד׳`, the particle-prefixed shape, under דִּיר,
  *   linked to כַּדְבָא instead). The `בְּעַע` -> `מַבַּע` case an earlier
  *   draft of this comment cited here is not a catch: `מַבַּע` is the
  *   entry's own participle, `isOwn` rightly suppresses it, and B01058
  *   fires only `one-consonant-diverge`.
+ *   Carve-out (sweep tiering 2.3, 2026-09-02): an anchor preceded by
+ *   `v. sub` or `v. sub.` is the target of a redirect stub, where
+ *   linking away from the host is the entry's whole content. The rule
+ *   read `v-sub-redirect-stub-mislink`'s deliberate spelling-twin
+ *   retarget as a mislink — 29 of the 50 entries that rule touches
+ *   gained a hint from it — and the shape was never a finding on the
+ *   raw corpus either: PRE falls 736 -> 584, POST 565 -> 429.
  * - `exact-headword-diverge` — 338 entries. The display is itself a
  *   corpus headword, but the link targets a consonantally different
  *   one. Catches A00988 (displays אָב, targets אַבָּא I). Redirect-stub
@@ -55,7 +63,10 @@
  *
  * Union of all hint kinds: 4,311 entries, 13.3% of the corpus (4,339,
  * 13.35%, with the Hebrew-side `hebrew-rare-confusable` rule in
- * hebrew-anomalies.ts folded in).
+ * hebrew-anomalies.ts folded in). Both figures are the pre-carve-out
+ * calibration and are kept as written, because
+ * `docs/v2/phase-2-residue.md` reproduces them as its positive
+ * control; after the `v. sub` carve-out the same union is 4,187.
  *
  * Scope note (task-9 review, 2026-08-18): `abbrev-mislink` and
  * `inflection-escape-link` both judge a display against `ownForms` in
@@ -103,6 +114,15 @@ const GERESH_END = /[׳']\s*$/u;
  * attribute upstream, a systemic extraction artifact, not a mislink. */
 const GERSHAYIM = /["״]/u;
 const ROMAN_NUMERAL = /^[IVXLC]{1,4}$/u;
+/** The two halves of the `v. sub` redirect phrase, matched back from
+ * the anchor a piece at a time so the whitespace between them is not
+ * fixed by a literal. */
+const SUB = 'sub';
+const V_ABBREV = 'v.';
+/** A character that can sit inside a word, in any script the corpus
+ * writes. What must NOT precede the `v.`, so the phrase is matched as
+ * a token rather than as some longer word's tail. */
+const TOKEN_CHAR = /[\p{L}\p{N}]/u;
 /** One whitespace character. Used to step over a run of it while
  * looking for the paren on either side of an anchor, which a
  * look-behind of any fixed width would eventually clip. */
@@ -342,6 +362,41 @@ function romanHints(text: string): LinkHint[] {
 	return hints;
 }
 
+/** Whether the anchor at `at` is the target of a `v. sub` redirect —
+ * `, v. sub <a …>נִידּ׳</a>.` — walking back over whitespace only,
+ * because the phrase sits adjacent to the anchor by construction and
+ * a wider search would start matching a `v. sub` from a neighbouring
+ * clause. Character comparison rather than a slice: an anchor late in
+ * a long definition costs the same as an early one. */
+function vSubBefore(text: string, at: number): boolean {
+	let i = at - 1;
+	while (i >= 0 && WHITESPACE_CHAR.test(text[i] as string)) {
+		i -= 1;
+	}
+	// The corpus writes both `v. sub` and `v. sub.`; five of the fifty
+	// entries the transform repairs take the second form, so a
+	// predicate without this line carves out forty-five of them.
+	if (i >= 0 && text[i] === '.') {
+		i -= 1;
+	}
+	if (i < SUB.length - 1 || !text.startsWith(SUB, i - SUB.length + 1)) {
+		return false;
+	}
+	i -= SUB.length;
+	while (i >= 0 && WHITESPACE_CHAR.test(text[i] as string)) {
+		i -= 1;
+	}
+	const start = i - V_ABBREV.length + 1;
+	if (i < V_ABBREV.length - 1 || !text.startsWith(V_ABBREV, start)) {
+		return false;
+	}
+	// `v.` must open a token, not end one. Without this, `adv. sub`
+	// and `rev. sub` match their own last three characters and
+	// suppress a hint on a phrase that is not a redirect at all.
+	const before = text[start - 1];
+	return before === undefined || !TOKEN_CHAR.test(before);
+}
+
 /** Hints for one dictionary anchor. */
 function anchorHints(
 	display: string,
@@ -380,6 +435,14 @@ function headwordHints(
 	for (const m of text.matchAll(JASTROW_ANCHOR)) {
 		const target = baseHeadword(m.groups?.['ref'] as string);
 		const display = (m.groups?.['display'] as string).replace(TAG, ' ').trim();
+		// The `v. sub` carve-out is decided here rather than in
+		// `anchorHints`, because it is the only rule that reads the text
+		// AROUND the anchor and `anchorHints` is handed the anchor alone.
+		// A geresh display is the only shape `abbrevHint` judges, so the
+		// two conditions together skip exactly that rule.
+		if (GERESH_END.test(display) && vSubBefore(text, m.index)) {
+			continue;
+		}
 		hints.push(...anchorHints(display, target, own, index));
 	}
 	return hints;
