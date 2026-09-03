@@ -60,6 +60,11 @@
  *   anchor that is its own parenthesis is carved out: that is the
  *   parallel-chapter citation and the shape `anchor-swallows-close-
  *   paren` repairs into, worth 484 entries on the healed corpus.
+ *   Adjudicated 2026-09-03 (docs/v2/phase-2-roman-numerals.md): of
+ *   the 31, **24 are real mislinks and 7 are correct links**, so this
+ *   rule's precision here is 24/31. A01133 is one of the 24 — the
+ *   named control catches a genuine defect, a Targum recension marker
+ *   read as a chapter. 20 of the 24 are that one shape.
  *
  * Union of all hint kinds: 4,311 entries, 13.3% of the corpus (4,339,
  * 13.35%, with the Hebrew-side `hebrew-rare-confusable` rule in
