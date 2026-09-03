@@ -277,3 +277,47 @@ describe('roman-numeral-display parallel-chapter carve-out (2.2)', () => {
 		expect(kinds(hints)).toContain('roman-numeral-display');
 	});
 });
+
+describe('abbrev-mislink v. sub redirect carve-out (2.3)', () => {
+	/** H01354's shape: the host is the defective spelling, the stub
+	 * abbreviates the plene one, and `v-sub-redirect-stub-mislink`
+	 * sends it to the plene twin. Linking away from the host is the
+	 * repair, not a mislink. */
+	const HOST = 'חִסּוּלָא';
+	const TWIN = 'חִיסּוּלָא';
+	const ABBREV = 'חִיסּ׳';
+
+	function stub(lead: string): SourceEntry {
+		return entry('H01354', `${lead} ${anchor(TWIN, ABBREV)}.`, HOST);
+	}
+
+	const idx = index([HOST, TWIN]);
+
+	// The control that keeps the four carve-out cases from being
+	// vacuous: with the phrase absent, the same markup MUST fire. If
+	// this stops firing, the assertions below stop meaning anything.
+	it('fires on the same anchor when no v. sub precedes it', () => {
+		const hints = entryAnomalyHints(stub(', cmp.'), new Map(), idx);
+		expect(kinds(hints)).toContain('abbrev-mislink');
+	});
+
+	it('ignores the anchor of a v. sub redirect (H01354 post-repair)', () => {
+		const hints = entryAnomalyHints(stub(', v. sub'), new Map(), idx);
+		expect(kinds(hints)).not.toContain('abbrev-mislink');
+	});
+
+	it('ignores the `v. sub.` spelling (O00878, 5 of the 50)', () => {
+		const hints = entryAnomalyHints(stub(', v. sub.'), new Map(), idx);
+		expect(kinds(hints)).not.toContain('abbrev-mislink');
+	});
+
+	it('reads the phrase across wide whitespace gaps', () => {
+		const hints = entryAnomalyHints(stub(', v.\n\tsub \n '), new Map(), idx);
+		expect(kinds(hints)).not.toContain('abbrev-mislink');
+	});
+
+	it('still fires on a bare `sub` with no `v.` before it', () => {
+		const hints = entryAnomalyHints(stub(', sub'), new Map(), idx);
+		expect(kinds(hints)).toContain('abbrev-mislink');
+	});
+});

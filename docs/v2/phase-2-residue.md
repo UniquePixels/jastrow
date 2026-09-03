@@ -34,6 +34,12 @@ would actually be handed, not a proxy for it.
 | PRE | Source + `applyRepairs`, i.e. `loadPrePatchCorpus()` |
 | POST | PRE + `text-repairs` + `structural-repairs` — all 54 rules, in `migrate-dry.ts`'s phase order |
 
+The detector itself moved once during this work: §"The finding" below
+carves `v. sub` redirect stubs out of `abbrev-mislink`. Every number
+on this page is measured against the detector **after** that carve-out,
+and the pre-carve-out reading is given wherever it is the one another
+document cites.
+
 The detector judges each entry against corpus-wide frequency tables
 built **from the corpus**, so a transform moves both sides of the
 comparison at once. Both readings are reported below; the POST-tables
@@ -44,27 +50,37 @@ and the PRE-tables row isolates the entry-side change from table drift.
 
 | Measurement | Entries | % of 32,512 | Hints |
 |---|---:|---:|---:|
-| PRE (repairs only) | 4,339 | 13.3% | 5,435 |
-| POST (+rules, PRE tables) | 4,064 | 12.5% | 5,073 |
-| **POST (+rules, POST tables)** | **4,082** | **12.6%** | **5,095** |
+| PRE (repairs only) | 4,187 | 12.9% | 5,281 |
+| POST (+rules, PRE tables) | 3,928 | 12.1% | 4,935 |
+| **POST (+rules, POST tables)** | **3,946** | **12.1%** | **4,957** |
 
-**−257 entries, −5.9%.** The 18-entry gap between the two POST rows is
+**−241 entries, −5.8%.** The 18-entry gap between the two POST rows is
 table drift, and reporting both is what keeps a future drift from
 hiding inside a single number.
 
+Before the `v. sub` carve-out the same three rows read 4,339 / 4,064 /
+4,082, so the carve-out is worth 136 entries and 138 hints off the
+population 2.3 is handed.
+
 ### Positive control
 
-The PRE figure reproduces the detector's own recorded baseline exactly.
+Run against the detector as it stood before this page's carve-out, the
+PRE figure reproduces the detector's own recorded baseline exactly.
 From `admin/pipeline/research/link-anomalies.ts`:
 
 > Union of all hint kinds: 4,311 entries, 13.3% of the corpus (4,339,
 > 13.35%, with the Hebrew-side `hebrew-rare-confusable` rule in
 > hebrew-anomalies.ts folded in).
 
-A residue measurement whose PRE side did not reproduce would be
-measuring its own predicate, not the corpus. See
+**4,339, exactly.** A residue measurement whose PRE side did not
+reproduce would be measuring its own predicate, not the corpus. See
 `docs/v2/discovery-round-1.md` §4 for the calibration that figure came
 from.
+
+The carve-out then moves PRE to 4,187 by design — it changes the
+predicate, which is the one thing that legitimately moves a control.
+Both figures are recorded in that module's docstring so the next
+reader can tell a predicate change from drift.
 
 ## By kind
 
@@ -78,7 +94,7 @@ reports their sum and shows neither half.
 
 | Kind | PRE | POST, PRE tables | POST | net | entry | tables |
 |---|---:|---:|---:|---:|---:|---:|
-| `abbrev-mislink` | 736 | 565 | 565 | −171 | −171 | 0 |
+| `abbrev-mislink` | 584 | 429 | 429 | −155 | −155 | 0 |
 | `bare-abbrev` | 395 | 326 | 345 | −50 | **−69** | **+19** |
 | `inflection-escape-link` | 691 | 645 | 645 | −46 | −46 | 0 |
 | `rare-dotted-variant` | 575 | 539 | 535 | −40 | −36 | −4 |
@@ -143,13 +159,14 @@ and the net reports the difference. The measurement now differences
 the rules created is counted whether or not it changed which kinds an
 entry carries.
 
-**96 hints on 94 entries.** The kind-level view sees 49 of those
-entries; the other 45 kept every kind they had and changed only which
-complaint the detector makes.
+**96 hints on 94 entries**, measured before the carve-out below; **67
+on 65** after it. The kind-level view sees 49 of the 94; the other 45
+kept every kind they had and changed only which complaint the detector
+makes.
 
 | Kind | Hints created | On entries new to the kind |
 |---|---:|---:|
-| `abbrev-mislink` | 39 | 4 |
+| `abbrev-mislink` | 39 → **10** | 4 → **1** |
 | `bare-abbrev` | 23 | 23 |
 | `rare-dotted-variant` | 12 | 11 |
 | `one-consonant-diverge` | 6 | 0 |
@@ -182,6 +199,11 @@ volume alone puts a common rule at the top of a raw count.
 sits at 6.8x, which is what a broad rule looks like. `bare-rtl-hebrew`
 fires on 15 of the 94 at **1.1x** — that is the null.
 
+After the carve-out `v-sub-redirect-stub-mislink` leaves the table
+entirely: not one of its 50 entries gains a hint. The rest of the
+ranking is unchanged in order, with `open-paren-in-anchor-display` at
+21.0x and `holam-migrated-off-mater-vav` at 19.3x now leading it.
+
 ### The finding: 29 hints are the detector reading a correct repair
 
 `v-sub-redirect-stub-mislink` fires on 50 corpus entries. **29 of them
@@ -208,6 +230,51 @@ of 484, and it is the second instance of a general rule: **a detector
 calibrated on the raw corpus is not calibrated on the healed one.**
 The instrument that found it — enrichment over the created-hint set —
 did not need a rise, a threshold, or an entry read by eye.
+
+### The carve-out
+
+`headwordHints` now skips a geresh display whose anchor is preceded by
+`v. sub` or `v. sub.`, walking back over whitespace by character
+comparison so a late anchor costs what an early one does. The phrase
+is adjacent to the anchor by construction, and a wider search would
+start matching a `v. sub` from a neighbouring clause.
+
+Both spellings are load-bearing: 45 of the 50 entries the transform
+repairs write `v. sub`, and **5 write `v. sub.`** — a predicate
+matching only the first carves out forty-five of them.
+
+| | Before | After |
+|---|---:|---:|
+| `abbrev-mislink`, PRE | 736 | 584 |
+| `abbrev-mislink`, POST | 565 | 429 |
+| Residue, POST | 4,082 | 3,946 |
+| Hints the rules created | 96 | 67 |
+
+The 29 are gone and no other created hint is. The carve-out reaches
+further than them, though, and the extra reach is the honest part to
+state. 225 corpus entries carry the shape, and **155 of them were
+flagged before the carve-out** — 152 lose the kind outright, and 3
+keep it through a second geresh anchor that is not a redirect, which
+is the evidence the carve-out is scoped to the anchor and not to the
+entry.
+
+Of those 155, **only 50 were ever wrong**, and those 50 are the ones
+`v-sub-redirect-stub-mislink` now repairs. The other 105 were correct
+redirects the detector had always misread. Its premise —
+
+> A geresh abbreviation of one of this entry's own forms must link to
+> this entry, not to some other word sharing the opening letters.
+
+— is simply false for an entry whose whole content is "see under X".
+So the carve-out does not trade precision for recall on the healed
+corpus: it drops 105 hints that were never findings, and 50 whose
+finding the transform has already made.
+
+Two positive controls in `link-anomalies.test.ts` keep this from being
+a rule that cannot fail: the same markup with `, cmp.` in front of it
+must still fire, and so must a bare `sub` with no `v.` before it. If
+either stops firing, the four carve-out assertions stop meaning
+anything.
 
 ### `roman-numeral-display` after the carve-out
 
@@ -295,17 +362,18 @@ the two kinds the net pointed at.
 
 What it leaves for 2.3, in order:
 
-1. **29 hints are known false positives** — `abbrev-mislink` reading
-   `v-sub-redirect-stub-mislink`'s deliberate retarget. Carving them
-   out of the detector before the sweep is the same move PR #65 made
-   for the 484, at 1/16th the size. Until it lands, the sweep will be
-   handed them.
-2. **65 created hints are unadjudicated.** They are not a random
-   sample of the residue: every one sits on an entry a transform
-   touched, which is where a rule's own mistakes live.
-3. **31 `roman-numeral-display` entries need judgment, not a
+1. **67 created hints on 65 entries are unadjudicated.** They are not
+   a random sample of the residue: every one sits on an entry a
+   transform touched, which is where a rule's own mistakes live. The
+   enrichment ranking says where to start —
+   `open-paren-in-anchor-display` at 21.0x on 9 entries and
+   `holam-migrated-off-mater-vav` at 19.3x on 17.
+2. **31 `roman-numeral-display` entries need judgment, not a
    predicate.** Sized and argued above; nothing deterministic splits
    them.
+3. **The remaining 3,946 − (1) − (2) is the sweep population** the
+   spec's 2.3 line describes: *"one targeted Opus pass over the
+   judgment residue only"*.
 
-The rest — 4,082 entries less whatever items 1–3 retire — is the
-sweep population the spec's 2.3 line describes.
+The 29 `v. sub` false positives that stood here are carved out and no
+longer reach the sweep.
