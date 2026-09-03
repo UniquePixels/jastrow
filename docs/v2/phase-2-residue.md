@@ -445,9 +445,11 @@ What it leaves for 2.3, in order:
 2. **31 `roman-numeral-display` entries need judgment, not a
    predicate.** Sized and argued above; nothing deterministic splits
    them.
-3. **The remaining 4,049 − (1) − (2) is the sweep population** the
+3. **The remaining 3,989 entries are the sweep population** the
    spec's 2.3 line describes: *"one targeted Opus pass over the
-   judgment residue only"*.
+   judgment residue only"*. (1) and (2) overlap at I00311 and so
+   subtract as a union of 60, not as a sum of 61 — measured in
+   [`phase-2-created-hints.md`](phase-2-created-hints.md).
 
 The 29 `v. sub` false positives that stood here are carved out and no
 longer reach the sweep, and so are the 35 the tokenizer was

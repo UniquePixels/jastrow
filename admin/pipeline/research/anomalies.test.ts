@@ -366,12 +366,18 @@ describe('entryAnomalyHints — tokenization', () => {
 	});
 
 	it("flags A00074's own markup, which the em dash had hidden", () => {
+		// A00074's own token against its own corpus counts, not a
+		// stand-in: the docstring names this entry as `bare-abbrev`'s
+		// catch, and until `latinTokens` it had never fired.
+		const table: AbbrevTable = new Map([
+			['bot', { bare: 24, comma: 0, dotted: 4618 }],
+		]);
 		const hints = entryAnomalyHints(
 			entry(
 				'A00074',
-				'<a class="refLink" href="x" data-ref="y">Y. Shebu. VI, 37ᵃ</a> Ar—V. <a dir="rtl" class="refLink" href="z" data-ref="w">בּוּן</a>.',
+				'<a class="refLink" href="x" data-ref="y">Y. Shebu. VI, 37ᵃ</a> bot—V. <a dir="rtl" class="refLink" href="z" data-ref="w">בּוּן</a>.',
 			),
-			calibratedTable(),
+			table,
 		);
 		expect(hints.some((h) => h.kind === 'bare-abbrev')).toBe(true);
 	});

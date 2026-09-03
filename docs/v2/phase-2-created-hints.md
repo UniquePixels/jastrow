@@ -8,11 +8,18 @@ first of the three items
 > a random sample of the residue: every one sits on an entry a
 > transform touched, which is where a rule's own mistakes live.
 
-— and adjudicates them. **23 of the 67 were one defect, and it was
-not a rule's.** It was the detector's tokenizer, which had never
-matched what a reader sees. Fixing it, and the recall gap that turned
-out to be its twin, leaves **32 hints on 30 entries**, all of them
+— and adjudicates them. **35 of the 67 were one defect, and it was
+not a rule's**: all 23 `bare-abbrev` and all 12 `rare-dotted-variant`.
+It was the detector's tokenizer, which had never matched what a
+reader sees. Fixing it, and the recall gap that turned out to be its
+twin, leaves **67 − 35 = 32 hints on 30 entries**, all of them
 Hebrew-side link judgment.
+
+The 23 are argued below because they are the shape that names the
+defect. The 12 are the same tokenizer seen once more: a period the
+tag boundary had orphaned is a period the frequency table never
+counted as dotted, so a repair that moved one turned a token the
+`rare-dotted-variant` rule could not see into one it could.
 
 Reproduce the residue figures on this page with:
 
@@ -242,7 +249,14 @@ citation.
    16 are where to start.
 2. **31 `roman-numeral-display` entries**, unchanged by this pass and
    argued on the residue page.
-3. **The remaining 4,049 − (1) − (2) is the sweep population.**
+3. **The remaining 3,989 entries are the sweep population.**
+
+(1) and (2) are entry sets that overlap, so they subtract as a union
+and not as a sum: I00311 is in both — it is the one created
+`roman-numeral-display` hint *and* one of the 31 — which makes the
+union 30 + 31 − 1 = **60**, and 4,049 − 60 = 3,989. Subtracting them
+separately would hand the sweep an entry it had already been told
+was adjudicated.
 
 ### The sweep prompt is not re-signed for this
 
