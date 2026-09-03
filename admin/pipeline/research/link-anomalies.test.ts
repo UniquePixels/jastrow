@@ -293,31 +293,37 @@ describe('abbrev-mislink v. sub redirect carve-out (2.3)', () => {
 
 	const idx = index([HOST, TWIN]);
 
-	// The control that keeps the four carve-out cases from being
-	// vacuous: with the phrase absent, the same markup MUST fire. If
-	// this stops firing, the assertions below stop meaning anything.
-	it('fires on the same anchor when no v. sub precedes it', () => {
-		const hints = entryAnomalyHints(stub(', cmp.'), new Map(), idx);
-		expect(kinds(hints)).toContain('abbrev-mislink');
+	/** `[name, text before the anchor, whether the hint fires]`.
+	 * One-line tuples rather than a body per case, per
+	 * [[feedback_sonar_duplication_tables]] — five `it` blocks
+	 * differing only in a string and a negation is 43% duplication on
+	 * SonarCloud's 3% gate. */
+	const CASES: readonly (readonly [string, string, boolean])[] = [
+		['fires when no v. sub precedes the anchor', ', cmp.', true],
+		['ignores a v. sub redirect (H01354 post-repair)', ', v. sub', false],
+		[
+			'ignores the `v. sub.` spelling (O00878, 5 of the 50)',
+			', v. sub.',
+			false,
+		],
+		['reads the phrase across wide whitespace gaps', ', v.\n\tsub \n ', false],
+		['still fires on a bare `sub` with no `v.`', ', sub', true],
+	];
+
+	// The rows expecting `true` are what keep the carve-out rows from
+	// being vacuous: with the phrase absent or half-present, the same
+	// markup MUST still fire. Lose them and the `false` rows stop
+	// meaning anything, so the table is held to carrying both.
+	it('the table tests both verdicts, not just the carve-out', () => {
+		expect(new Set(CASES.map(([, , fires]) => fires))).toEqual(
+			new Set([true, false]),
+		);
 	});
 
-	it('ignores the anchor of a v. sub redirect (H01354 post-repair)', () => {
-		const hints = entryAnomalyHints(stub(', v. sub'), new Map(), idx);
-		expect(kinds(hints)).not.toContain('abbrev-mislink');
-	});
-
-	it('ignores the `v. sub.` spelling (O00878, 5 of the 50)', () => {
-		const hints = entryAnomalyHints(stub(', v. sub.'), new Map(), idx);
-		expect(kinds(hints)).not.toContain('abbrev-mislink');
-	});
-
-	it('reads the phrase across wide whitespace gaps', () => {
-		const hints = entryAnomalyHints(stub(', v.\n\tsub \n '), new Map(), idx);
-		expect(kinds(hints)).not.toContain('abbrev-mislink');
-	});
-
-	it('still fires on a bare `sub` with no `v.` before it', () => {
-		const hints = entryAnomalyHints(stub(', sub'), new Map(), idx);
-		expect(kinds(hints)).toContain('abbrev-mislink');
-	});
+	for (const [name, lead, fires] of CASES) {
+		it(name, () => {
+			const hints = entryAnomalyHints(stub(lead), new Map(), idx);
+			expect(kinds(hints).includes('abbrev-mislink')).toBe(fires);
+		});
+	}
 });
