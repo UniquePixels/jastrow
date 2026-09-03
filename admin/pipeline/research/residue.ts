@@ -26,6 +26,15 @@
  * is small (18 entries at the time of writing) and reporting both is
  * what keeps a future drift from hiding inside one number.
  *
+ * Created hints are reported twice for the same reason. Held at PRE,
+ * the tables isolate the entry-side change — right for a frequency
+ * hint, whose detail quotes the counts a rebuilt table rewrites. It
+ * is wrong for a LINK hint, because there the headword index IS the
+ * comparison: a rule repairing a headword moves both sides at once,
+ * and held at PRE a repaired display resolves to no headword and the
+ * detector goes quiet. So the link kinds get a second, consistent
+ * reading, and the hints only it can see are named.
+ *
  * Run: bun research:residue
  */
 import { applyRepairs } from '../body/repairs.ts';
@@ -40,6 +49,7 @@ import {
 } from './anomalies.ts';
 import { buildHeadwordIndex } from './headword-index.ts';
 import { buildHebrewTable } from './hebrew-anomalies.ts';
+import { LINK_KINDS } from './link-anomalies.ts';
 
 /** The pinned snapshot, read directly rather than through
  * `corpus-fixture.ts`: this is a script, not a test, so nothing else
@@ -64,6 +74,14 @@ function buildTables(entries: readonly SourceEntry[]): Tables {
 		index: buildHeadwordIndex(entries.values()),
 	};
 }
+
+/** The hint kinds that judge a display or target against the headword
+ * INDEX rather than against a frequency table. For these the index is
+ * the comparison, so a rule repairing a headword moves both sides at
+ * once and the tables cannot honestly be held fixed. Read from
+ * link-anomalies.ts rather than restated, so a new link kind cannot
+ * be added there and missed here. */
+const LINK_KIND_SET: ReadonlySet<string> = new Set(LINK_KINDS);
 
 /** One hint's identity across two readings: its kind and its detail
  * string, joined on a `|` no kind contains.
@@ -282,6 +300,48 @@ if (import.meta.main) {
 		console.log(
 			`  ${kind.padEnd(24)}${String(gainsByKind.get(kind)).padStart(4)} hints on entries new to the kind: ${kindGain}`,
 		);
+	}
+
+	// The reading above holds the tables at PRE, and for a LINK kind
+	// that is not a neutral choice: the headword index IS the thing
+	// being compared against, so a rule that repairs a headword moves
+	// the comparison itself. Held at PRE, a repaired display resolves
+	// to no headword at all and the detector goes silent — the
+	// fixed-table reading cannot see a hint such a repair creates.
+	// It is not a hypothetical: five entries gain
+	// `niqqud-twin-target` only here, where a neighbour's corrupt
+	// headword had been hiding a display that names one twin while
+	// the link points at the other.
+	//
+	// Restricted to link kinds on purpose. A frequency hint's detail
+	// quotes the counts the tables hold, so rebuilding them renames
+	// every one and this diff would report the corpus. A link hint's
+	// detail quotes Hebrew, which a table rebuild does not rewrite.
+	const linkGained = hintGains(before, after);
+	const linkOnly = new Map<string, string[]>();
+	for (const [rid, keys] of linkGained) {
+		const kept = keys.filter((k) => LINK_KIND_SET.has(kindOf(k)));
+		if (kept.length > 0) {
+			linkOnly.set(rid, kept);
+		}
+	}
+	// Not named `linkHints`: that is the detector function this list's
+	// kinds come from, and shadowing it here would read as a call.
+	const linkHintCount = [...linkOnly.values()].reduce(
+		(n, g) => n + g.length,
+		0,
+	);
+	console.log(
+		`\nlink hints created (PRE vs POST/POST-tables, the consistent reading): ${linkHintCount} on ${linkOnly.size} entries`,
+	);
+	for (const [rid, keys] of linkOnly) {
+		const had = gained.get(rid) ?? [];
+		for (const k of keys) {
+			if (had.includes(k)) {
+				continue;
+			}
+			console.log(`  only here: ${rid}  ${k.slice(0, 120)}`);
+		}
 	}
 
 	// Which rules fired on the entries that gained a hint. A rule at
