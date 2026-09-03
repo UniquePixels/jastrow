@@ -49,9 +49,16 @@ linked it to Genesis 2 of the *same* corpus — wrong book location and
 wrong recension at once. The reader sees a chapter link where the
 page says "the Fragment Targum reads גלל".
 
-A01133, A03097, B01137, C00016, C00641, C00746, C00792, C00870,
-D00461, D00471, E00341, H00091, H00509, L00086, M01154, M02495,
-O01073, P00569, U01065, V00652.
+A03097, B01137, C00016, C00641, C00746, C00792, C00870, D00461,
+D00471, E00341, H00091, H00509, L00086, M01154, M02495, O01073,
+P00569, U01065, V00652 — **plus A01133, which is this shape but not
+this repair.** Its `I` prefixes the citation that *follows* it and
+has no target of its own, so a rule retargeting the family across
+recensions would give it a link where the right output is none. It
+is carried in the family count of 20 because the misreading is
+identical; it is excluded from the 19 rule candidates in
+§"Disposition" because the repair is not. Any rule built from the
+predicate below must exclude it explicitly.
 
 ### B. The numeral is not a numeral — 3 entries
 
