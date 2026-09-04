@@ -67,6 +67,49 @@ link-target findings from `link-anomalies.ts`.
 7. **Commit** — batch report + tranche JSONL + checkpoint in one
    commit before the next batch starts.
 
+## Phase 2.3 item 3 — the residue sweep
+
+Same seven steps, with a different prep command and a different
+population. `admin/pipeline/research/residue-sweep.ts` carries the
+argument; the operational differences are:
+
+| | Batch path | Residue path |
+|---|---|---|
+| Prep | `tranche.ts prep` | `tranche.ts prep-residue` |
+| Population | all 32,512 entries | the residue, minus the 65 items 1–2 adjudicated |
+| Size | 1,084 chunks | **3,982 entries / 133 chunks** |
+| Corpus state | pre-patch (`applyRepairs` only) | **healed** (+ both transform phases) |
+| Chunk ids | `chunk-00001` | `chunk-r00001` |
+| Tranche ids | `tranche-01` | `residue-01` |
+| Tier | Sonnet | **Opus** (tiering spec §4 Phase 2.3, decision T4) |
+
+**Why the corpus state differs, and why it is not optional.** The
+phase manifest in `patch/apply.ts` is `text-repairs` ->
+`structural-repairs` -> `patch-apply`, so a patch lands on text the
+54 transform rules have already rewritten. **2,093 of the 3,982 —
+52.6% — read differently after the rules.** An agent handed
+pre-patch text authors anchors against a string that does not exist
+at apply time, and re-reports defects the rules already fixed. When
+batches 01 and 02 ran this overlap was near zero, because the rules
+did not exist yet.
+
+**This is not a new contract.** `sweep-v5.md`'s Input table already
+describes the chunk as *"in the exact byte state the patch-apply
+phase will see (after the pipeline's deterministic text/structural
+passes)"*. `prep-residue` makes the code meet the promise the prompt
+has been making; `prep` has been quietly breaking it since the first
+transform rule shipped.
+
+Every chunk input records which state it was built from, in
+`corpusStage` (`pre-patch` | `healed`). `ingest` needs no flag: it
+reads the tranche id out of the input and resolves the matching
+chunking and fingerprint.
+
+Gates: `residue-sweep.test.ts` (unit) and
+`residue-sweep.corpus.test.ts` (corpus). The corpus one re-derives
+the frozen 65 from the detector and pins the 2,093, so a revert to
+the pre-patch corpus fails rather than passing quietly.
+
 ## State
 
 - Pilot (chunks 00001–00007, rids A00000–A00209) accepted and

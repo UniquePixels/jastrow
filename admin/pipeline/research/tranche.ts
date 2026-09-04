@@ -18,6 +18,13 @@ import process from 'node:process';
  *     (entries in pre-patch state + precomputed sense_index) to
  *     <workdir>/inputs/.
  *
+ *   bun admin/pipeline/research/tranche.ts prep-residue <workdir> [count]
+ *     The same, for phase 2.3 item 3: the population is the
+ *     detector's residue minus the 65 entries items 1 and 2 already
+ *     adjudicated, and the entries are written in HEALED state
+ *     (repairs + both transform phases) rather than pre-patch.
+ *     `residue-sweep.ts` argues why both differences are required.
+ *
  *   bun admin/pipeline/research/tranche.ts ingest <workdir>
  *     Validate every <workdir>/out/chunk-*.{patches,manifest}.jsonl
  *     agent output via ingestChunk, renumber ids to corpus-unique,
@@ -32,11 +39,7 @@ import process from 'node:process';
  */
 import type { SourceEntry } from '../body/types.ts';
 import { PATCH_ID, type SemanticPatch } from '../patch/schema.ts';
-import {
-	type AnomalyHint,
-	buildAbbrevTable,
-	entryAnomalyHints,
-} from './anomalies.ts';
+import { type AnomalyHint, entryAnomalyHints } from './anomalies.ts';
 import {
 	buildCheckpoint,
 	buildTranches,
@@ -52,14 +55,23 @@ import {
 } from './chunks.ts';
 import {
 	buildChunkInput,
+	type CorpusStage,
 	loadPrePatchCorpus,
 	PROMPT_VERSION,
 	senseIndex,
 	writeChunkInput,
 } from './corpus-inputs.ts';
-import { buildHeadwordIndex } from './headword-index.ts';
-import { buildHebrewTable } from './hebrew-anomalies.ts';
 import type { EntryResult } from './manifest.ts';
+import {
+	buildTables,
+	healedCorpus,
+	isResidueTranche,
+	residueRids,
+	residueTranches,
+	sweepRids,
+	type Tables,
+	type TrancheSet,
+} from './residue-sweep.ts';
 import {
 	type IngestResult,
 	ingestChunk,
@@ -146,14 +158,15 @@ async function committedPatchIds(): Promise<string[]> {
 	return ids;
 }
 
-/** The first tranche with pending chunks, its checkpoint, and its
- * pending list. */
-async function nextWork(rids: readonly string[]): Promise<{
-	pending: Chunk[];
-	tranche: Tranche;
-}> {
-	const fingerprint = corpusFingerprint(rids);
-	const tranches = buildTranches(chunkCorpus(rids));
+/** The first tranche of a chunking with pending chunks, its
+ * checkpoint, and its pending list. Takes the tranches and their
+ * fingerprint rather than the rids so both populations can use it:
+ * a checkpoint pins the fingerprint of the rid list it was cut from,
+ * and the residue's list is not the corpus's. */
+async function nextPending(
+	tranches: readonly Tranche[],
+	fingerprint: string,
+): Promise<{ pending: Chunk[]; tranche: Tranche }> {
 	for (const tranche of tranches) {
 		const checkpoint =
 			(await loadCheckpoint(tranche.id)) ??
@@ -163,55 +176,146 @@ async function nextWork(rids: readonly string[]): Promise<{
 			return { pending, tranche };
 		}
 	}
-	throw new Error('no pending chunks — the corpus sweep is complete');
+	throw new Error('no pending chunks — this population is fully swept');
 }
 
-async function prep(workdir: string, count: number): Promise<void> {
-	const pin = (await Bun.file(SNAPSHOT_LOCK).text()).split('\n')[0]?.trim();
-	const entries = await loadPrePatchCorpus();
-	const abbrevTable = buildAbbrevTable(entries.values());
-	const headwordIndex = buildHeadwordIndex(entries.values());
-	const hebrewTable = buildHebrewTable(entries.values());
-	const { pending, tranche } = await nextWork([...entries.keys()]);
-	const batch = pending.slice(0, count);
-	for (const chunk of batch) {
+/** The first tranche with pending chunks, its checkpoint, and its
+ * pending list. */
+async function nextWork(rids: readonly string[]): Promise<{
+	pending: Chunk[];
+	tranche: Tranche;
+}> {
+	return await nextPending(
+		buildTranches(chunkCorpus(rids)),
+		corpusFingerprint(rids),
+	);
+}
+
+/** Write one batch of chunk inputs. Shared by both prep paths so the
+ * two cannot drift in what an agent sees — the sweep prompt's Input
+ * section is a contract, and the only thing the paths may differ on
+ * is which corpus state and which population they were handed. */
+async function writeChunks(args: {
+	batch: readonly Chunk[];
+	corpus: Map<string, SourceEntry>;
+	corpusStage: CorpusStage;
+	pin: string;
+	tables: Tables;
+	trancheId: string;
+	workdir: string;
+}): Promise<void> {
+	for (const chunk of args.batch) {
 		const hints: Record<string, AnomalyHint[]> = {};
 		for (const rid of chunk.rids) {
 			const entryHints = entryAnomalyHints(
-				entries.get(rid) as SourceEntry,
-				abbrevTable,
-				headwordIndex,
-				hebrewTable,
+				args.corpus.get(rid) as SourceEntry,
+				args.tables.abbrev,
+				args.tables.index,
+				args.tables.hebrew,
 			);
 			if (entryHints.length > 0) {
 				hints[rid] = entryHints;
 			}
 		}
 		await writeChunkInput(
-			workdir,
+			args.workdir,
 			buildChunkInput({
 				chunk,
-				entries,
+				corpusStage: args.corpusStage,
+				entries: args.corpus,
 				hints,
-				pin: pin as string,
+				pin: args.pin,
 				promptVersion: PROMPT_VERSION,
-				tranche: tranche.id,
+				tranche: args.trancheId,
 			}),
 		);
 		console.log(
-			`${chunk.id} (${tranche.id}): ${chunk.rids[0]}..${chunk.rids.at(-1)}`,
+			`${chunk.id} (${args.trancheId}): ${chunk.rids[0]}..${chunk.rids.at(-1)}`,
 		);
 	}
+}
+
+/** The snapshot pin every chunk input carries. */
+async function readPin(): Promise<string> {
+	return (await Bun.file(SNAPSHOT_LOCK).text())
+		.split('\n')[0]
+		?.trim() as string;
+}
+
+async function prep(workdir: string, count: number): Promise<void> {
+	const pin = await readPin();
+	const entries = await loadPrePatchCorpus();
+	const tables = buildTables([...entries.values()]);
+	const { pending, tranche } = await nextWork([...entries.keys()]);
+	const batch = pending.slice(0, count);
+	await writeChunks({
+		batch,
+		corpus: entries,
+		corpusStage: 'pre-patch',
+		pin,
+		tables,
+		trancheId: tranche.id,
+		workdir,
+	});
 	console.log(
 		`prepared ${batch.length} chunk(s); ${pending.length - batch.length} more pending in ${tranche.id}`,
+	);
+}
+
+/** Phase 2.3 item 3's prep: the residue population, in healed state.
+ * Everything that differs from `prep` is argued in
+ * `residue-sweep.ts`; nothing here decides policy. */
+async function prepResidue(workdir: string, count: number): Promise<void> {
+	const pin = await readPin();
+	const corpus = await healedCorpus();
+	const tables = buildTables([...corpus.values()]);
+	const residue = residueRids(corpus, tables);
+	const rids = sweepRids(residue);
+	const { fingerprint, tranches } = residueTranches(rids);
+	console.log(
+		`residue ${residue.length} entries; ${residue.length - rids.length} adjudicated and excluded; sweeping ${rids.length} in ${tranches.length} tranche(s)`,
+	);
+	const work = await nextPending(tranches, fingerprint);
+	const batch = work.pending.slice(0, count);
+	await writeChunks({
+		batch,
+		corpus,
+		corpusStage: 'healed',
+		pin,
+		tables,
+		trancheId: work.tranche.id,
+		workdir,
+	});
+	console.log(
+		`prepared ${batch.length} chunk(s); ${work.pending.length - batch.length} more pending in ${work.tranche.id}`,
 	);
 }
 
 async function ingest(workdir: string): Promise<void> {
 	const entries = await loadPrePatchCorpus();
 	const rids = [...entries.keys()];
-	const fingerprint = corpusFingerprint(rids);
-	const tranches = buildTranches(chunkCorpus(rids));
+	// Two populations, two chunkings, two fingerprints. A residue
+	// checkpoint pins the fingerprint of the RESIDUE rid list, so
+	// resolving one against the corpus fingerprint would reject every
+	// resume with "the corpus changed". The residue set is built
+	// lazily: an ingest of batch-path output must not pay for the
+	// transform passes.
+	const corpusSet: TrancheSet = {
+		fingerprint: corpusFingerprint(rids),
+		tranches: buildTranches(chunkCorpus(rids)),
+	};
+	let residueSet: TrancheSet | undefined;
+	const setFor = async (trancheId: string): Promise<TrancheSet> => {
+		if (!isResidueTranche(trancheId)) {
+			return corpusSet;
+		}
+		if (residueSet === undefined) {
+			const corpus = await healedCorpus();
+			const tables = buildTables([...corpus.values()]);
+			residueSet = residueTranches(sweepRids(residueRids(corpus, tables)));
+		}
+		return residueSet;
+	};
 	let after = maxPatchNumber(await committedPatchIds());
 	const accepted: SemanticPatch[] = [];
 	const records: EntryResult[] = [];
@@ -305,6 +409,7 @@ async function ingest(workdir: string): Promise<void> {
 			const all = [...existing, ...lines.map((v) => JSON.stringify(v))];
 			await Bun.write(path, all.length > 0 ? `${all.join('\n')}\n` : '');
 		};
+		const { fingerprint, tranches } = await setFor(trancheId);
 		await append(
 			'patches.jsonl',
 			accepted.filter((p) => chunkIds.some((c) => inChunk(tranches, c, p.rid))),
@@ -383,11 +488,13 @@ if (import.meta.main) {
 	const [mode, workdir, countArg] = process.argv.slice(2);
 	if (mode === 'prep' && workdir !== undefined) {
 		await prep(workdir, Number(countArg ?? 25));
+	} else if (mode === 'prep-residue' && workdir !== undefined) {
+		await prepResidue(workdir, Number(countArg ?? 25));
 	} else if (mode === 'ingest' && workdir !== undefined) {
 		await ingest(workdir);
 	} else {
 		console.error(
-			'usage: tranche.ts prep <workdir> [count] | tranche.ts ingest <workdir>',
+			'usage: tranche.ts prep <workdir> [count] | tranche.ts prep-residue <workdir> [count] | tranche.ts ingest <workdir>',
 		);
 		process.exit(1);
 	}
