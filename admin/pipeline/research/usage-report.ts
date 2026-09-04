@@ -32,11 +32,11 @@
  * not billing. Do not multiply these by a rate and present the result
  * as spend — report tokens, and let the usage page report cost.
  *
- * Run:
- *   bun admin/usage-report.ts --mark .usage-mark      # before dispatch
- *   bun admin/usage-report.ts --since @.usage-mark    # after it
- *   bun admin/usage-report.ts --since 2026-09-03T21:00:00Z
- *   bun admin/usage-report.ts --since @mark --project jastrow
+ * Run (`bun usage` is the package script for this file):
+ *   bun usage --mark .usage-mark             # before dispatch
+ *   bun usage --since @.usage-mark           # after it
+ *   bun usage --since 2026-09-03T21:00:00Z
+ *   bun usage --since @mark --project jastrow
  */
 import { homedir } from 'node:os';
 import process from 'node:process';
