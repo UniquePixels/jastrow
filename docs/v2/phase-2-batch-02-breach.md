@@ -146,3 +146,18 @@ Recommended order:
    replacement patch.
 3. Land finding 2 (code) **after** batch 02 commits, since it
    re-chunks and would otherwise discard these 150 entries.
+
+## Outcome (appended 2026-09-04)
+
+`chunk-r00003` was re-swept under the armed class 7, with no mention
+of the failure and the superseded outputs withheld. It returned **0
+patches**: the bad patch is gone and the correct one was not written.
+The batch then passed the error gate at 0.0% on four patches and was
+committed. Full record:
+[`data/patches/tranches/residue-01/report-batch-02.md`](../../data/patches/tranches/residue-01/report-batch-02.md).
+
+A second hazard surfaced during remediation. Ingest renumbers accepted
+patches corpus-unique, so dropping A00475's patch freed `P000080` and
+the next ingest gave that id to the A00878 patch. Carrying the earlier
+verdicts across **by id** reported a 25.0% error rate on a batch whose
+real rate was 0.0%. Carry verdicts by `(rid, op)`, or re-derive them.
