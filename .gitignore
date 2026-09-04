@@ -22,3 +22,6 @@ data/source/body-dryrun-report.json
 data/source/body-migration-report.json
 .superpowers/
 ~$*.docx
+
+# usage-report baseline stamp (RUNBOOK step 1, bun usage --mark)
+.usage-mark
