@@ -291,34 +291,125 @@ async function prepResidue(workdir: string, count: number): Promise<void> {
 	);
 }
 
+/** The residue population's chunking. Separate from the resolver so
+ * the cost is visible: it reads the snapshot and runs both transform
+ * phases, which an ingest of batch-path output must never pay. */
+async function buildResidueSet(): Promise<TrancheSet> {
+	const corpus = await healedCorpus();
+	const tables = buildTables([...corpus.values()]);
+	return residueTranches(sweepRids(residueRids(corpus, tables)));
+}
+
+/** Resolve a tranche id to the chunking and fingerprint of ITS
+ * population, building each at most once.
+ *
+ * Two populations, two chunkings, two fingerprints. A residue
+ * checkpoint pins the fingerprint of the RESIDUE rid list, so
+ * resolving one against the corpus fingerprint would reject every
+ * resume with "the corpus changed". The residue side is lazy for the
+ * reason `buildResidueSet` gives. */
+function trancheResolver(
+	corpusRids: readonly string[],
+): (trancheId: string) => Promise<TrancheSet> {
+	const corpusSet: TrancheSet = {
+		fingerprint: corpusFingerprint(corpusRids),
+		tranches: buildTranches(chunkCorpus(corpusRids)),
+	};
+	let residueSet: TrancheSet | undefined;
+	return async (trancheId: string): Promise<TrancheSet> => {
+		if (!isResidueTranche(trancheId)) {
+			return corpusSet;
+		}
+		residueSet ??= await buildResidueSet();
+		return residueSet;
+	};
+}
+
+/** Which population a tranche id belongs to. */
+type Family = 'corpus' | 'residue';
+
+/** The family of `trancheId`, refusing a workdir that has already
+ * yielded the other one.
+ *
+ * `readEntries` is keyed by rid and every residue rid is also a
+ * corpus rid, so a workdir carrying both prep paths would have the
+ * two corpus states of one entry overwrite each other — silently, in
+ * glob order, which puts `chunk-r00001` after `chunk-00001`. Refused
+ * rather than disambiguated: a mixed workdir is an operating
+ * mistake, and the RUNBOOK gives each batch its own. */
+function familyOf(
+	seen: Family | undefined,
+	trancheId: string,
+	chunkId: string,
+	workdir: string,
+): Family {
+	const family: Family = isResidueTranche(trancheId) ? 'residue' : 'corpus';
+	if (seen !== undefined && seen !== family) {
+		throw new Error(
+			`${workdir} mixes populations: ${chunkId} is ${family} and an earlier chunk was ${seen}. They are built from different corpus states, so one workdir must hold one of them — ingest them separately.`,
+		);
+	}
+	return family;
+}
+
+/** Append this batch's accepted output to one tranche's files and
+ * mark its chunks complete. */
+async function accumulateTranche(args: {
+	accepted: readonly SemanticPatch[];
+	chunkIds: readonly string[];
+	records: readonly EntryResult[];
+	rejects: readonly RejectRecord[];
+	set: TrancheSet;
+	trancheId: string;
+}): Promise<void> {
+	const { fingerprint, tranches } = args.set;
+	const dir = `${TRANCHES_DIR}/${args.trancheId}`;
+	const mine = (rid: string): boolean =>
+		args.chunkIds.some((c) => inChunk(tranches, c, rid));
+	const append = async (
+		file: string,
+		lines: readonly unknown[],
+	): Promise<void> => {
+		const path = `${dir}/${file}`;
+		const existing = await jsonlLines(path);
+		const all = [...existing, ...lines.map((v) => JSON.stringify(v))];
+		await Bun.write(path, all.length > 0 ? `${all.join('\n')}\n` : '');
+	};
+	await append(
+		'patches.jsonl',
+		args.accepted.filter((p) => mine(p.rid)),
+	);
+	await append(
+		'manifest.jsonl',
+		args.records.filter((r) => mine(r.rid)),
+	);
+	await append(
+		'rejects.jsonl',
+		args.rejects.filter((r) => mine(r.rid)),
+	);
+	const tranche = tranches.find((t) => t.id === args.trancheId);
+	if (tranche === undefined) {
+		throw new Error(`unknown tranche ${args.trancheId}`);
+	}
+	let checkpoint =
+		(await loadCheckpoint(args.trancheId)) ??
+		buildCheckpoint(tranche, fingerprint);
+	for (const chunkId of args.chunkIds) {
+		checkpoint = markComplete(checkpoint, chunkId);
+	}
+	await saveCheckpoint(checkpoint);
+	console.log(
+		`${args.trancheId}: +${args.chunkIds.length} chunk(s) complete (${checkpoint.completed.length}/${tranche.chunks.length})`,
+	);
+}
+
 async function ingest(workdir: string): Promise<void> {
 	// Only the rid ORDER is wanted here — the corpus chunking and its
 	// fingerprint. The entries an agent actually read come off the
 	// chunk inputs (`readEntries` below), so nothing in this function
 	// judges a patch against a re-derived corpus any more.
 	const rids = [...(await loadPrePatchCorpus()).keys()];
-	// Two populations, two chunkings, two fingerprints. A residue
-	// checkpoint pins the fingerprint of the RESIDUE rid list, so
-	// resolving one against the corpus fingerprint would reject every
-	// resume with "the corpus changed". The residue set is built
-	// lazily: an ingest of batch-path output must not pay for the
-	// transform passes.
-	const corpusSet: TrancheSet = {
-		fingerprint: corpusFingerprint(rids),
-		tranches: buildTranches(chunkCorpus(rids)),
-	};
-	let residueSet: TrancheSet | undefined;
-	const setFor = async (trancheId: string): Promise<TrancheSet> => {
-		if (!isResidueTranche(trancheId)) {
-			return corpusSet;
-		}
-		if (residueSet === undefined) {
-			const corpus = await healedCorpus();
-			const tables = buildTables([...corpus.values()]);
-			residueSet = residueTranches(sweepRids(residueRids(corpus, tables)));
-		}
-		return residueSet;
-	};
+	const setFor = trancheResolver(rids);
 	let after = maxPatchNumber(await committedPatchIds());
 	const accepted: SemanticPatch[] = [];
 	const records: EntryResult[] = [];
@@ -384,13 +475,7 @@ async function ingest(workdir: string): Promise<void> {
 			console.log(`SKIP ${input.chunkId}: missing agent output`);
 			continue;
 		}
-		const inputFamily = isResidueTranche(input.tranche) ? 'residue' : 'corpus';
-		if (family !== undefined && family !== inputFamily) {
-			throw new Error(
-				`${workdir} mixes populations: ${input.chunkId} is ${inputFamily} and an earlier chunk was ${family}. They are built from different corpus states, so one workdir must hold one of them — ingest them separately.`,
-			);
-		}
-		family = inputFamily;
+		family = familyOf(family, input.tranche, input.chunkId, workdir);
 		for (const entry of input.entries) {
 			readEntries.set(entry.rid, entry);
 		}
@@ -428,43 +513,14 @@ async function ingest(workdir: string): Promise<void> {
 	}
 	// Accumulate per tranche and mark chunks complete.
 	for (const [trancheId, chunkIds] of done) {
-		const dir = `${TRANCHES_DIR}/${trancheId}`;
-		const append = async (
-			file: string,
-			lines: readonly unknown[],
-		): Promise<void> => {
-			const path = `${dir}/${file}`;
-			const existing = await jsonlLines(path);
-			const all = [...existing, ...lines.map((v) => JSON.stringify(v))];
-			await Bun.write(path, all.length > 0 ? `${all.join('\n')}\n` : '');
-		};
-		const { fingerprint, tranches } = await setFor(trancheId);
-		await append(
-			'patches.jsonl',
-			accepted.filter((p) => chunkIds.some((c) => inChunk(tranches, c, p.rid))),
-		);
-		await append(
-			'manifest.jsonl',
-			records.filter((r) => chunkIds.some((c) => inChunk(tranches, c, r.rid))),
-		);
-		await append(
-			'rejects.jsonl',
-			rejects.filter((r) => chunkIds.some((c) => inChunk(tranches, c, r.rid))),
-		);
-		const tranche = tranches.find((t) => t.id === trancheId);
-		if (tranche === undefined) {
-			throw new Error(`unknown tranche ${trancheId}`);
-		}
-		let checkpoint =
-			(await loadCheckpoint(trancheId)) ??
-			buildCheckpoint(tranche, fingerprint);
-		for (const chunkId of chunkIds) {
-			checkpoint = markComplete(checkpoint, chunkId);
-		}
-		await saveCheckpoint(checkpoint);
-		console.log(
-			`${trancheId}: +${chunkIds.length} chunk(s) complete (${checkpoint.completed.length}/${tranche.chunks.length})`,
-		);
+		await accumulateTranche({
+			accepted,
+			chunkIds,
+			records,
+			rejects,
+			set: await setFor(trancheId),
+			trancheId,
+		});
 	}
 	// Verification sample over this batch's output only.
 	const sample = selectSample(records, accepted, SAMPLE_CONFIG);
@@ -554,6 +610,12 @@ if (import.meta.main) {
 	}
 }
 
+// `senseIndex` is re-exported rather than forwarded with
+// `export … from`. SonarCloud's S7763 asks for the forward and
+// Biome's `noBarrelFile` refuses it; Biome is the enforced gate
+// (`bun qa`), S7763 is a MINOR that does not move the quality gate,
+// so the conflict resolves that way. Kept because `tranche.test.ts`
+// imports it from here.
 export {
 	maxPatchNumber,
 	renumber,

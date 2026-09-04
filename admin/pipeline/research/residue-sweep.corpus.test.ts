@@ -149,8 +149,8 @@ describe('the sweep population', () => {
 	// rides the memo.
 	it('is the residue minus the adjudicated, and both numbers hold', async () => {
 		const { corpus, rids, tables } = await healed();
-		expect(residueRids(corpus, tables).length).toBe(RESIDUE);
-		expect(rids.length).toBe(SWEEP);
+		expect(residueRids(corpus, tables)).toHaveLength(RESIDUE);
+		expect(rids).toHaveLength(SWEEP);
 	}, 180_000);
 
 	it('carries a hint on every entry — no chunk is empty work', async () => {
@@ -176,7 +176,7 @@ describe('the sweep population', () => {
 		const { rids } = await healed();
 		const { tranches } = residueTranches(rids);
 		const covered = tranches.flatMap((t) => t.chunks.flatMap((c) => c.rids));
-		expect(covered.length).toBe(rids.length);
+		expect(covered).toHaveLength(rids.length);
 		expect(new Set(covered).size).toBe(rids.length);
 		expect([...covered].sort(byCodeUnit)).toEqual(rids);
 	});
@@ -191,7 +191,7 @@ describe('HEALED IS NOT PRE-PATCH — the regression this module exists to preve
 		const moved = rids.filter(
 			(rid) => pre.get(rid) !== JSON.stringify(corpus.get(rid)),
 		);
-		expect(moved.length).toBe(TOUCHED);
+		expect(moved).toHaveLength(TOUCHED);
 	});
 
 	// The composition itself, against the shared fixture's stages. The
