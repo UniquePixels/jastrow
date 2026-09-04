@@ -12,12 +12,11 @@
   `admin/pipeline/research/anomalies.ts` (anomaly hints). Where
   this document and that code disagree, the code wins — report the
   discrepancy.
-- **Sign-off:** **PENDING — this draft is not signed and must not be
-  dispatched.** Drafted 2026-09-04 from the residue calibration's
-  findings (`data/patches/tranches/residue-01/report-calibration.md`).
-  `PROMPT_VERSION` still reads `v5` and stays there until the
-  maintainer signs. Everything outside the v5 → v6 changelog is v5
-  verbatim, signed 2026-09-02.
+- **Sign-off:** maintainer, 2026-09-04 — approved for dispatch after
+  the residue calibration that produced it
+  (`data/patches/tranches/calibration-2026-09-04/README.md`).
+  Everything outside the v5 → v6 changelog is v5 verbatim, signed
+  2026-09-02.
 
 ## Changelog v5 → v6 (residue calibration, 2026-09-04)
 

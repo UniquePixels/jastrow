@@ -12,8 +12,7 @@
   anomaly-hint rules, repair conventions, never-invent-text
   constraint, and pre-decided inputs bind you exactly as they bind
   the sweep. Read it first.
-- **Sign-off:** **PENDING — this draft is not signed.** Drafted
-  2026-09-04 from the residue calibration. Everything outside the
+- **Sign-off:** maintainer, 2026-09-04. Everything outside the
   v2 -> v3 changelog is v2 verbatim, signed 2026-08-14.
 
 ## Changelog v2 → v3 (residue calibration, 2026-09-04)
