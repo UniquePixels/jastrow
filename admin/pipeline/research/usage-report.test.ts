@@ -1,5 +1,6 @@
 import { describe, expect, it } from 'bun:test';
 import {
+	flagIn,
 	type Row,
 	readTranscript,
 	render,
@@ -135,6 +136,33 @@ describe('resolveSince', () => {
 
 	it('refuses a value it cannot parse rather than reporting the world', async () => {
 		await expect(resolveSince('yesterday')).rejects.toThrow(/ISO instant/u);
+	});
+});
+
+describe('flagIn', () => {
+	it('reads a value that follows the flag', () => {
+		expect(flagIn(['--since', '2026-09-03T12:00:00Z'], 'since')).toBe(
+			'2026-09-03T12:00:00Z',
+		);
+	});
+
+	it('is undefined when the flag is absent', () => {
+		expect(flagIn(['--project', 'jastrow'], 'since')).toBeUndefined();
+	});
+
+	// Absent `--since` means "report everything", so a flag typed
+	// without its value must not read as absent — that would answer a
+	// different question than the one asked, on a spend gate.
+	it('THROWS when the flag is present with no value', () => {
+		expect(() => flagIn(['--since'], 'since')).toThrow(
+			/--since needs a value/u,
+		);
+	});
+
+	it('THROWS when the next argument is another flag', () => {
+		expect(() => flagIn(['--since', '--project', 'x'], 'since')).toThrow(
+			/--since needs a value/u,
+		);
 	});
 });
 

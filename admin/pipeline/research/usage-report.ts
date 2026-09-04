@@ -208,10 +208,29 @@ function render(rows: readonly Row[], since: number): string {
 	return lines.join('\n');
 }
 
-/** Read one flag's value from argv. */
+/** Read one flag's value from `argv`.
+ *
+ * A flag that is PRESENT but has no value throws rather than reading
+ * as absent. That distinction matters here more than usual: absent
+ * `--since` means "report everything", so `bun usage --since` with a
+ * forgotten argument would silently answer a different question than
+ * the one asked — every token ever recorded, presented as a window.
+ * On a spend gate that is the wrong direction to fail in. */
+function flagIn(argv: readonly string[], name: string): string | undefined {
+	const at = argv.indexOf(`--${name}`);
+	if (at === -1) {
+		return;
+	}
+	const value = argv[at + 1];
+	if (value === undefined || value.startsWith('--')) {
+		throw new Error(`--${name} needs a value`);
+	}
+	return value;
+}
+
+/** `flagIn` over this process's arguments. */
 function flag(name: string): string | undefined {
-	const at = process.argv.indexOf(`--${name}`);
-	return at === -1 ? undefined : process.argv[at + 1];
+	return flagIn(process.argv, name);
 }
 
 if (import.meta.main) {
@@ -227,4 +246,4 @@ if (import.meta.main) {
 }
 
 export type { Row, Tokens };
-export { collect, readTranscript, render, resolveSince, totalIn };
+export { collect, flagIn, readTranscript, render, resolveSince, totalIn };
