@@ -13,7 +13,7 @@
   discrepancy.
 - **Sign-off:** maintainer, 2026-09-04 — approved for dispatch after
   residue batch 01, whose report
-  (`data/patches/tranches/residue-01/report-batch-01.md`) lists every
+  (`data/patches/tranches/batch-01-2026-09-04/README.md`) lists every
   defect corrected here. Everything outside the v6 → v7 changelog is
   v6 verbatim.
 
@@ -31,13 +31,26 @@ changes.
    dispatcher input under the code-wins rule. `prompt_version` is an
    unvalidated string in `patch/schema.ts`, so no gate could have
    caught a mislabelled patch.
-2. **Class 10 and the op table both understated the byte
-   constraint.** v5 said the replacement must be "a substring of
-   `find`"; v6 corrected that to bytes the `find` text carries. Both
-   are narrower than the code: `validateNoNewText` pools codepoints
-   from `flattenContent(before)` — morphology plus every sense's
-   number and definition, i.e. **the whole entry** — plus the op's
-   closed-grammar marker allowance.
+2. **Class 10's `replace` wording.** v5 said the replacement must be
+   "a substring of `find`", which forbids the legal reordering. v6
+   corrected it to bytes the `find` text carries.
+
+   **ERRATUM, corrected 2026-09-04 after batch 02 flagged it.** The
+   first draft of this item claimed v6 was still too narrow, because
+   `validateNoNewText` pools `flattenContent(before)` — the whole
+   entry. That inference was wrong and the text it produced was
+   wrong. The pool is whole-entry, but a `replace` cannot draw on it:
+   the untouched remainder of the entry still occupies its own share
+   of the pool in the after-state, so the arithmetic reduces to
+   `replace ⊆ find` + closed-grammar markers. Measured directly
+   against the validator: adding one space that occurs elsewhere in
+   the same entry is REJECTED; a pure reorder within `find` passes.
+
+   v6's wording was right. `ReplacePayload`'s comment in
+   `patch/schema.ts` — "bytes drawn from the find text plus
+   closed-grammar marker tokens" — is also right; two batch-02 agents
+   reported it as stale on the strength of the wrong text here. It is
+   not stale. Do not "fix" it.
 3. **Class 6 prescribed an op that cannot express its own case.**
    `delete`'s segment must occur exactly once, and the defect is an
    adjacent self-overlapping duplicate (`).).`), where every unique
@@ -579,12 +592,14 @@ appears once — only markup is doubled.
 **Repair (in a sense's definition):** one byte-conserving `replace`
 whose replacement uses only bytes the `find` text already carries
 (drop the duplicate tag layer). The constraint is a codepoint
-**multiset** check over the WHOLE ENTRY, not a substring test:
-`validateNoNewText` pools the codepoints of `flattenContent(before)`
-— morphology plus every sense's number and definition — and adds the
-op's closed-grammar marker allowance. A pure reordering of the found
-bytes is legal, and so is a replacement drawing on bytes present
-elsewhere in the same entry. Disposition `repaired`, confidence `high`.
+**multiset** test, not a substring test: the replacement must be a
+sub-multiset of the `find` text plus the op's closed-grammar marker
+allowance. So a pure reordering of the found bytes is legal — that is
+what v5's "substring" wording wrongly forbade — while a byte the
+`find` text does not carry is not, **even when it occurs elsewhere in
+the same entry**. (`validateNoNewText` implements this by pooling the
+whole entry before and after; the untouched remainder consumes its
+own share, which is why borrowing fails.) Disposition `repaired`, confidence `high`.
 
 **In non-sense fields (`language_reference` etc.):** systemic —
 see the script-slated list below. Do NOT escalate per entry.
@@ -877,7 +892,7 @@ chunk id.
 | `retag` | `{ "number": "N)" or "—N)" }` | Sets the sense's `number`; token must be closed-grammar |
 | `move` | `{ "segment", "anchor", "position": "before"\|"after" }` | Segment lifted out (must occur exactly once), reinserted beside anchor (exactly once after lift) |
 | `delete` | `{ "scope": "segment", "segment" }` or `{ "scope": "sense" }` | Removes an exact segment (must occur exactly once — extend with context to disambiguate copies) or the whole sense |
-| `replace` | `{ "find", "replace" }` | Replaces an exact substring (exactly once); replacement bytes must come from the entry's own content — the validator's pool is the whole entry, not the find text — plus closed-grammar markers |
+| `replace` | `{ "find", "replace" }` | Replaces an exact substring (exactly once); the replacement must be a sub-multiset of the find text + closed-grammar markers — reordering yes, borrowing from elsewhere in the entry no |
 
 ### Manifest record — one per input entry, no exceptions
 

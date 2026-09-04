@@ -82,14 +82,21 @@ patch**. Every agent that could report it did; all four emitted `v6`
 from the dispatcher input under the code-wins rule. Author error in
 the v6 draft, not an agent error.
 
-### 2. v6's class-10 correction is still narrower than the code
+### 2. ~~v6's class-10 correction is still narrower than the code~~
 
-v5 said a `replace` replacement must be "a substring of `find`". v6
-corrected that to bytes the `find` text carries. Both understate it:
-`validateNoNewText` pools codepoints from `flattenContent(before)` —
-morphology plus every sense's number and definition, i.e. **the whole
-entry** — plus the op's closed-grammar marker allowance. The op table
-carries the same narrow wording.
+**WITHDRAWN 2026-09-04, after batch 02.** This finding was wrong. It
+read `validateNoNewText`'s whole-entry pooling as licensing a
+`replace` to draw on bytes from elsewhere in the entry. It does not:
+the untouched remainder still occupies its own share of the pool in
+the after-state, so the arithmetic reduces to `replace ⊆ find` plus
+the closed-grammar marker allowance. Measured against the validator —
+adding one space that occurs elsewhere in the same entry is rejected;
+a pure reorder within `find` passes.
+
+v6's wording was correct. Acting on this finding put a wrong rule
+into sweep-v7, and two batch-02 agents then reported the *correct*
+comment in `patch/schema.ts` as stale. The v7 changelog carries the
+erratum.
 
 ### 3. The `alt_headwords` carve-out is vocalization-sensitive
 
