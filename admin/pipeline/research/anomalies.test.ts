@@ -27,6 +27,18 @@ function calibratedTable(): AbbrevTable {
 	]);
 }
 
+/** The corpus's real counts around `Mid.` (measured 2026-09-04):
+ * `Midd.` is the sibling the token abbreviates, and the only one
+ * that falls under minSibling. */
+function middotTable(): AbbrevTable {
+	return new Map([
+		['Mic', { bare: 0, comma: 0, dotted: 111 }],
+		['Mid', { bare: 0, comma: 0, dotted: 3 }],
+		['Midd', { bare: 0, comma: 0, dotted: 97 }],
+		['Midr', { bare: 0, comma: 0, dotted: 1155 }],
+	]);
+}
+
 describe('buildAbbrevTable', () => {
 	it('counts dotted, comma, and bare forms across nested senses', () => {
 		const e: SourceEntry = {
@@ -84,6 +96,32 @@ describe('entryAnomalyHints — abbreviation rules', () => {
 		);
 		const rare = hints.find((h) => h.kind === 'rare-dotted-variant');
 		expect(rare?.detail).toContain("'Rabb.'");
+	});
+
+	it('names a dominant sibling below minSibling (the Mid./Midd. miss)', () => {
+		// A00622, residue calibration 2026-09-04: the detail named
+		// `Midr.` and `Mic.` and omitted `Midd.` — the only sibling the
+		// token actually abbreviates — because 97 sits under
+		// minSibling's round 100. The hint argued the sweep out of a
+		// true positive.
+		const hints = entryAnomalyHints(
+			entry('A00622', 'v. Mid. IV, 6.'),
+			middotTable(),
+		);
+		const rare = hints.find((h) => h.kind === 'rare-dotted-variant');
+		expect(rare?.detail).toContain("'Midd.'");
+	});
+
+	it('does not fire on a sibling that only clears the detail floor', () => {
+		// The guard on the fix above: naming more siblings must not
+		// widen which tokens hint at all. `Xy.` at 70 dominates the
+		// rare `X.` twentyfold but is under minSibling, so no hint.
+		const table: AbbrevTable = new Map([
+			['X', { bare: 0, comma: 0, dotted: 3 }],
+			['Xy', { bare: 0, comma: 0, dotted: 70 }],
+		]);
+		const hints = entryAnomalyHints(entry('X00002', 'v. X. 1'), table);
+		expect(hints.filter((h) => h.kind === 'rare-dotted-variant')).toEqual([]);
 	});
 
 	it('dedupes repeated findings for the same token', () => {

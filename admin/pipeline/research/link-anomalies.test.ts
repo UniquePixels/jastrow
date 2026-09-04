@@ -183,7 +183,10 @@ describe('unvocalized displays made reachable (letters L and I)', () => {
 			index(['אַגָּנָא', 'אָכַל', 'אֲכַל', 'אֹכֶל']),
 		);
 		const hint = hints.find((h) => h.kind === 'niqqud-twin-target');
-		expect(hint?.detail).toContain('3 headwords');
+		// Wording only: the detail counts entries rather than deduped
+		// headwords since 2026-09-04. Here the two agree — three
+		// headwords, three entries, no homograph among them.
+		expect(hint?.detail).toContain('3 entries');
 	});
 
 	it('leaves two-letter function words alone (לא, או, תו)', () => {
@@ -327,4 +330,84 @@ describe('abbrev-mislink v. sub redirect carve-out (2.3)', () => {
 			expect(kinds(hints).includes('abbrev-mislink')).toBe(fires);
 		});
 	}
+});
+
+describe('attested-variant carve-out (residue calibration 2026-09-04)', () => {
+	// sweep-v5 §class 11 licenses "an attested variant recorded in the
+	// target's `alt_headwords`", but no rule consulted the field, so
+	// `one-consonant-diverge` fired hints the prompt then told the
+	// sweep to reject — the calibration's most repeated rejection
+	// (A00892, A00520 among others).
+	it('does not flag an unvocalized display recorded in the target alt_headwords', () => {
+		const olyar = entry('A00671', 'bath attendant', 'אוֹלְיָאר', {
+			alt_headwords: ['אוֹלְיָיר'],
+		});
+		const hints = entryAnomalyHints(
+			entry('A00892', `v. ${anchor('אוֹלְיָאר', 'אוֹלְיָיר')}`, 'אולירין'),
+			new Map(),
+			index(['אולירין'], [olyar]),
+		);
+		expect(kinds(hints)).not.toContain('one-consonant-diverge');
+	});
+
+	it('strips the editorial parens and asterisk off a recorded alt', () => {
+		const gamam = entry('G00100', 'to cut', 'גְּמַם', {
+			alt_headwords: ['*(גומ)'],
+		});
+		const hints = entryAnomalyHints(
+			entry('A00307', `cmp. ${anchor('גְּמַם', 'גומ')}`, 'אגם'),
+			new Map(),
+			index(['אגם'], [gamam]),
+		);
+		expect(kinds(hints)).not.toContain('one-consonant-diverge');
+	});
+
+	// The guard that matters. `אַבָּא I` really does record `אָב` in
+	// alt_headwords while `אָב I` is its own entry, so a carve-out
+	// applied to exactHint would silence the rule's named control.
+	// Measured: it dropped exact-headword-diverge 338 -> 34.
+	it('never applies the carve-out to a display that is itself a headword', () => {
+		const abba = entry('A00017', 'father', 'אַבָּא I', {
+			alt_headwords: ['אָב'],
+		});
+		const hints = entryAnomalyHints(
+			entry('A00988', `v. ${anchor('אַבָּא I', 'אָב')}`, 'אָח'),
+			new Map(),
+			index(['אָב', 'אָח'], [abba]),
+		);
+		expect(kinds(hints)).toContain('exact-headword-diverge');
+	});
+});
+
+describe('niqqud-twin owner count (residue calibration 2026-09-04)', () => {
+	// The detail said "carried by 2 headwords" for a skeleton five
+	// entries share, because bySkeleton dedupes after stripping the
+	// homograph suffix. Homographs are exactly what the display cannot
+	// choose between, so the number understated the ambiguity it exists
+	// to report.
+	const family = [
+		entry('A00001', 'light', 'אוֹר I'),
+		entry('A00002', 'fire', 'אוֹר II'),
+		entry('A00003', 'stable', 'אוּר'),
+	];
+
+	it('counts every entry on the skeleton, homographs included', () => {
+		const hints = entryAnomalyHints(
+			entry('A00520', `v. ${anchor('אוּר', 'אור')}`, 'אוירא'),
+			new Map(),
+			index(['אוירא'], family),
+		);
+		const twin = hints.find((h) => h.kind === 'niqqud-twin-target');
+		expect(twin?.detail).toContain('3 entries');
+		expect(twin?.detail).toContain('אוֹר II');
+	});
+
+	it('still does not fire where one vocalized headword owns the skeleton', () => {
+		const hints = entryAnomalyHints(
+			entry('A00521', `v. ${anchor('אוֹר I', 'אור')}`, 'אוירא'),
+			new Map(),
+			index(['אוירא'], [family[0], family[1]] as SourceEntry[]),
+		);
+		expect(kinds(hints)).not.toContain('niqqud-twin-target');
+	});
 });

@@ -15,12 +15,27 @@ import type { SourceEntry, SourceSense } from '../body/types.ts';
  * form, the niqqud-variant families sharing one skeleton, and the
  * `, v. Y` redirect stubs. */
 interface HeadwordIndex {
+	/** Headword -> the variants its entry records in `alt_headwords`,
+	 * normalized to the form a link display carries. sweep-v5 class 11
+	 * licenses these explicitly ("an attested variant recorded in the
+	 * target's `alt_headwords`"); before the residue calibration
+	 * (2026-09-04) no rule consulted the field, so the diverge rules
+	 * fired hints the prompt then told the sweep to reject. */
+	alts: Map<string, Set<string>>;
 	/** Consonantal skeleton -> the distinct vocalized headwords. */
 	bySkeleton: Map<string, Set<string>>;
 	/** Every headword, homograph suffix (` I`, ` 2`) removed. */
 	exact: Set<string>;
 	/** Headword -> the target of its bare `, v. Y` redirect stub. */
 	redirect: Map<string, string>;
+	/** Consonantal skeleton -> every entry headword carrying it, with
+	 * the homograph suffix KEPT. `bySkeleton` deduping strips that
+	 * suffix, which is right for deciding whether the niqqud carve-out
+	 * applies and wrong for telling an agent how much ambiguity it is
+	 * looking at: `אוֹר I` and `אוֹר II` are two words the display
+	 * cannot choose between, and the calibration found the hint
+	 * reporting them as one (2026-09-04). */
+	skeletonOwners: Map<string, string[]>;
 }
 
 /** One entry's own surface forms, against which a display is judged. */
@@ -72,6 +87,23 @@ function baseHeadword(s: string): string {
 		out = out.replace(HOMOGRAPH, '').trim();
 	} while (out !== previous);
 	return out;
+}
+
+/** Jastrow parenthesizes a recorded variant whose attestation is
+ * indirect — `גְּמַם` records its alt as `(גּוּם)`, and one entry
+ * writes `*(נגד)`. The brackets are editorial, like the asterisk, and
+ * are no part of the word. */
+const EDITORIAL_PARENS = /^\(+|\)+$/gu;
+
+/** One `alt_headwords` string, normalized to the form a link display
+ * would carry. */
+function recordedVariant(s: string): string {
+	return baseHeadword(
+		s
+			.replace(TAG, ' ')
+			.replace(EDITORIAL_ASTERISK, '')
+			.replace(EDITORIAL_PARENS, ''),
+	);
 }
 
 /** Consonantal skeleton: niqqud and geresh removed, matres kept. */
@@ -170,21 +202,35 @@ function ownForms(entry: SourceEntry): OwnForms {
 /** Index the corpus headwords for the link-target rules. */
 function buildHeadwordIndex(entries: Iterable<SourceEntry>): HeadwordIndex {
 	const exact = new Set<string>();
+	const alts = new Map<string, Set<string>>();
 	const bySkeleton = new Map<string, Set<string>>();
 	const redirect = new Map<string, string>();
+	const skeletonOwners = new Map<string, string[]>();
 	for (const entry of entries) {
 		const base = baseHeadword(entry.headword);
 		exact.add(base);
+		for (const raw of entry.alt_headwords ?? []) {
+			const variant = recordedVariant(raw);
+			if (variant === '' || variant === base) {
+				continue;
+			}
+			const recorded = alts.get(base) ?? new Set<string>();
+			recorded.add(variant);
+			alts.set(base, recorded);
+		}
 		const key = skeleton(base);
 		const family = bySkeleton.get(key) ?? new Set<string>();
 		family.add(base);
 		bySkeleton.set(key, family);
+		const owners = skeletonOwners.get(key) ?? [];
+		owners.push(entry.headword.trim().replace(EDITORIAL_ASTERISK, ''));
+		skeletonOwners.set(key, owners);
 		const to = redirectTarget(entry);
 		if (to !== undefined) {
 			redirect.set(base, to);
 		}
 	}
-	return { bySkeleton, exact, redirect };
+	return { alts, bySkeleton, exact, redirect, skeletonOwners };
 }
 
 export type { HeadwordIndex, OwnForms };

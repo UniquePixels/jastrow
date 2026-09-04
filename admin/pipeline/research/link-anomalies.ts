@@ -48,9 +48,14 @@
  *   niqqud-only carve-out cannot decide the case. Catches A01201
  *   (זְמַר vs זָמַר) and, since the calibration, the unvocalized
  *   displays that carve-out silently collapsed onto one homograph.
- * - `one-consonant-diverge` — 817 entries. The display is no corpus
- *   headword but sits one non-final consonant from its target, the
- *   letter-L shape that could never reach `exact-headword-diverge`.
+ * - `one-consonant-diverge` — **750 entries** (was 817 before the
+ *   attested-variant carve-out landed, 2026-09-04). The display is no
+ *   corpus headword but sits one non-final consonant from its target,
+ *   the letter-L shape that could never reach
+ *   `exact-headword-diverge`. The 67 removed are displays the target's
+ *   own `alt_headwords` records, which sweep-v5 class 11 already
+ *   licensed — the sweep was rejecting them by hand, one Opus call at
+ *   a time.
  * - `inflection-escape-link` — 691 entries. The display is one of the
  *   host entry's own inflected forms yet the link leaves the entry
  *   for a word related to neither. The unique-skeleton carve-out used
@@ -207,6 +212,29 @@ function abbrevHint(
 	};
 }
 
+/** The display is a variant the target's own entry records. sweep-v5
+ * class 11 licenses exactly this ("an attested variant recorded in
+ * the target's `alt_headwords`"), so such a hint is noise the sweep
+ * has to talk itself out of — the most repeated rejection of the
+ * 2026-09-04 residue calibration.
+ *
+ * **Only `one-consonant-diverge` may use this, and the restriction is
+ * load-bearing.** The prompt's very next clause excludes "a display
+ * whose own vocalized form is itself a different headword (batch-02
+ * A00988: displays אָב, targets אַבָּא I, while אָב I exists as its
+ * own entry)" — and `אַבָּא I` records `אָב` in `alt_headwords`, so
+ * the carve-out read literally suppresses the rule's own named
+ * control. Applying it to `exactHint` dropped that kind 338 -> 34 and
+ * silenced A00988. `divergeHint` cannot hit the collision: it fires
+ * only where the display is NOT a corpus headword. */
+function isAttestedVariant(
+	base: string,
+	target: string,
+	index: HeadwordIndex,
+): boolean {
+	return index.alts.get(baseHeadword(target))?.has(base) === true;
+}
+
 /** A display that is itself a headword should link to that headword. */
 function exactHint(
 	base: string,
@@ -258,8 +286,14 @@ function twinHint(
 	if (VOCALIZED.test(base) || skeleton(base).length < MIN_DIVERGE_LEN) {
 		return;
 	}
+	// Count and name ENTRIES, not deduped headwords: homographs are
+	// precisely what an unvocalized display cannot choose between, and
+	// reporting `אוֹר I` + `אוֹר II` as one headword understated the
+	// ambiguity (residue calibration 2026-09-04). Firing still keys off
+	// `family`, so the calibrated hint volume is untouched.
+	const owners = index.skeletonOwners.get(skeleton(base)) ?? [...family];
 	return {
-		detail: `unvocalized display '${base}' names a skeleton carried by ${family.size} headwords (${[...family].join(', ')}); the link fixes on ${target} with nothing in the display to choose it`,
+		detail: `unvocalized display '${base}' names a skeleton carried by ${owners.length} entries (${owners.join(', ')}); the link fixes on ${target} with nothing in the display to choose it`,
 		kind: 'niqqud-twin-target',
 	};
 }
@@ -294,7 +328,8 @@ function divergeHint(
 ): LinkHint | undefined {
 	if (
 		index.exact.has(base) ||
-		!oneNonFinalSubstitution(skeleton(base), skeleton(target))
+		!oneNonFinalSubstitution(skeleton(base), skeleton(target)) ||
+		isAttestedVariant(base, target, index)
 	) {
 		return;
 	}

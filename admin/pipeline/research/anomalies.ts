@@ -112,6 +112,10 @@ const ABBREV_THRESHOLDS = {
 	ratio: 20,
 };
 
+/** Cap on siblings named in a `rare-dotted-variant` detail. A long
+ * list is as unreadable as a wrong one. */
+const MAX_NAMED_SIBLINGS = 5;
+
 /** Stereotyped citation formulas whose truncation is a class-8
  * signal. Each regex matches the *defective* (truncated) form. */
 const TRUNCATED_FORMULAS: readonly { detail: string; pattern: RegExp }[] = [
@@ -213,18 +217,21 @@ function buildAbbrevTable(entries: Iterable<SourceEntry>): AbbrevTable {
 	return table;
 }
 
-/** Dominant dotted forms one edit away from `word` (the
- * `Rab.`/`Rabb.` relationship), via deletion-variant matching. */
-function ed1DominantSiblings(word: string, table: AbbrevTable): string[] {
-	const siblings: string[] = [];
+/** Dotted forms one edit away from `word` (the `Rab.`/`Rabb.`
+ * relationship), richest first. Counts come back with them because
+ * firing and naming ask different questions of the same list — see
+ * `abbrevHints`. */
+function ed1Siblings(
+	word: string,
+	table: AbbrevTable,
+): { dotted: number; word: string }[] {
+	const siblings: { dotted: number; word: string }[] = [];
 	for (const [other, counts] of table) {
-		if (other === word || counts.dotted < ABBREV_THRESHOLDS.minSibling) {
-			continue;
-		}
-		if (editDistanceIsOne(word, other)) {
-			siblings.push(other);
+		if (other !== word && editDistanceIsOne(word, other)) {
+			siblings.push({ dotted: counts.dotted, word: other });
 		}
 	}
+	siblings.sort((a, b) => b.dotted - a.dotted);
 	return siblings;
 }
 
@@ -299,10 +306,25 @@ function tokenHints(raw: string, table: AbbrevTable): AnomalyHint[] {
 		m.groups?.['punct'] === '.' &&
 		counts.dotted <= ABBREV_THRESHOLDS.maxRare
 	) {
-		const siblings = ed1DominantSiblings(word, table);
-		if (siblings.length > 0) {
+		const siblings = ed1Siblings(word, table);
+		// Firing is unchanged: one sibling must clear the calibrated
+		// minSibling. Naming is not — A00622 (residue calibration
+		// 2026-09-04) hinted `Mid.` "beside dominant 'Midr.', 'Mic.'"
+		// and omitted `Midd.`, the only sibling it abbreviates, because
+		// 97 sits under minSibling's round 100. The sweep read the two
+		// named siblings, saw that `Mid.` abbreviates neither, and
+		// rejected a true positive. So the detail names every sibling
+		// that dominates the rare token RATIO-fold, which is a relative
+		// bar the firing threshold cannot lower: maxRare caps the rare
+		// count at 5, so the naming bar never exceeds minSibling and a
+		// firing sibling is always named.
+		if (siblings.some((s) => s.dotted >= ABBREV_THRESHOLDS.minSibling)) {
+			const named = siblings
+				.filter((s) => s.dotted >= ABBREV_THRESHOLDS.ratio * counts.dotted)
+				.slice(0, MAX_NAMED_SIBLINGS)
+				.map((s) => s.word);
 			hints.push({
-				detail: `rare '${word}.' (${counts.dotted}x) beside dominant '${siblings.join(".', '")}.'`,
+				detail: `rare '${word}.' (${counts.dotted}x) beside dominant '${named.join(".', '")}.'`,
 				kind: 'rare-dotted-variant',
 			});
 		}
