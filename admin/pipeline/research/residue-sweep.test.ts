@@ -135,6 +135,15 @@ describe('the verification sample reads the entries the agent read', () => {
 		expect(files.clean[0]?.entry).toBeUndefined();
 	});
 
+	it('refuses a workdir mixing both populations', async () => {
+		const src = await Bun.file('admin/pipeline/research/tranche.ts').text();
+		// Behavioural coverage would need a full ingest harness; what
+		// this pins is that the refusal exists and names both families,
+		// because the failure it prevents is silent.
+		expect(src).toContain('mixes populations');
+		expect(src).toContain("? 'residue'");
+	});
+
 	it('carries the whole chain on the entry, not just the sampled patch', () => {
 		const second = { id: 'P2', rid: 'A00018' } as never;
 		const files = sampleFiles(

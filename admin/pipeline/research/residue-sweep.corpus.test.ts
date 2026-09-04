@@ -183,7 +183,7 @@ describe('the sweep population', () => {
 });
 
 describe('HEALED IS NOT PRE-PATCH — the regression this module exists to prevent', () => {
-	it('rewrites 2,137 of the sweep entries, so a revert to pre-patch cannot pass', async () => {
+	it('rewrites 2,093 of the sweep entries, so a revert to pre-patch cannot pass', async () => {
 		const { corpus, rids } = await healed();
 		const pre = new Map(
 			(await repairedEntries()).map((e) => [e.rid, JSON.stringify(e)]),

@@ -332,6 +332,14 @@ async function ingest(workdir: string): Promise<void> {
 	// `loadPrePatchCorpus()` returns. Reading them back off the input
 	// is right for both paths and cannot drift from either.
 	const readEntries = new Map<string, SourceEntry>();
+	// ...and keyed by rid, which is only safe while one workdir holds
+	// ONE population. Every residue rid is also a corpus rid, so a
+	// workdir carrying both prep paths would have the two stages of the
+	// same entry overwrite each other — silently, and in glob order,
+	// which puts `chunk-r00001` after `chunk-00001`. Refused rather
+	// than disambiguated: a mixed workdir is an operating mistake, and
+	// the RUNBOOK gives each batch its own.
+	let family: 'corpus' | 'residue' | undefined;
 	// Chunks already marked complete must not be ingested twice: the
 	// append below is unconditional, so a second run over the same
 	// workdir would duplicate every accepted patch and manifest row.
@@ -376,6 +384,13 @@ async function ingest(workdir: string): Promise<void> {
 			console.log(`SKIP ${input.chunkId}: missing agent output`);
 			continue;
 		}
+		const inputFamily = isResidueTranche(input.tranche) ? 'residue' : 'corpus';
+		if (family !== undefined && family !== inputFamily) {
+			throw new Error(
+				`${workdir} mixes populations: ${input.chunkId} is ${inputFamily} and an earlier chunk was ${family}. They are built from different corpus states, so one workdir must hold one of them — ingest them separately.`,
+			);
+		}
+		family = inputFamily;
 		for (const entry of input.entries) {
 			readEntries.set(entry.rid, entry);
 		}
