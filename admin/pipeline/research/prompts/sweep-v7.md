@@ -512,6 +512,24 @@ legal expression and passes the validator, which is a whole-entry
 codepoint multiset test. Two batch-01 agents reached this
 independently; the shape is 18 entries corpus-wide.
 
+**Punctuation stays OUTSIDE the tag, and the corpus is decisive
+(v7, after batch 02).** A class-7 repair that moves a boundary must
+not create a second boundary error. Batch 02's P000080 pulled a
+terminal period inside the tag; measured on the source snapshot with
+a positive control:
+
+| Shape | Count |
+| --- | --- |
+| `[ᵃᵇ]</a>.` — period outside | 1,820 |
+| `[ᵃᵇ].</a>` — period inside | **0** |
+| `.</a>` anywhere (control) | 6,821 |
+
+The control fires 6,821 times, so the zero is evidence and not a
+dead search. Before emitting a boundary repair, count both candidate
+shapes in `data/source/jastrow-dictionary.jsonl` and take the one
+the corpus writes. Where both occur, prefer the dominant form and
+say so in the rationale.
+
 **Boundary discipline (v3):** the deleted segment must span the
 *entire* duplicated copy — trailing citations and `<a>` anchors
 included. Batch-01 fail P000026 stopped short of the copy's final
