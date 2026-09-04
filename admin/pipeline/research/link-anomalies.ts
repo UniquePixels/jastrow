@@ -82,10 +82,20 @@
  *   vocalized and the display that names it in running text is
  *   usually bare consonants, so exact membership missed the very
  *   cases the carve-out exists for (A00307, A00529).
- * - `inflection-escape-link` — 691 entries. The display is one of the
+ * - `inflection-escape-link` — **560 entries** (691 before the
+ *   target-side check landed, 2026-09-04). The display is one of the
  *   host entry's own inflected forms yet the link leaves the entry
  *   for a word related to neither. The unique-skeleton carve-out used
  *   to license these (letters J, O, Q, R).
+ *   The 131 removed are links where the TARGET records the same form
+ *   in its own `plural_form`/`alt_headwords` — two entries agreeing
+ *   about a word, not an escape. Batch 02 measured the kind's
+ *   premise: a `Pl.` anchor targets a headword other than its host in
+ *   1,021 of 1,349 cases corpus-wide, so escaping is the norm.
+ *   The check reads `formsOf`, NOT `ownForms`: the latter also
+ *   harvests binyan forms from the target's senses, and a verb's
+ *   Af'el routinely coincides with some noun's plural — suppressing
+ *   on that silenced A00301, round 1's named catch for this kind.
  * - `roman-numeral-display` — 31 entries. An anchor whose display is
  *   a bare Roman numeral, naming no citation. Catches A01133. An
  *   anchor that is its own parenthesis is carved out: that is the
@@ -380,6 +390,7 @@ function inflectionHint(
 	base: string,
 	target: string,
 	own: OwnForms,
+	index: HeadwordIndex,
 ): LinkHint | undefined {
 	const form = stem(base);
 	if (
@@ -387,7 +398,10 @@ function inflectionHint(
 		form === stem(own.headword) ||
 		!own.forms.some((f) => stem(f) === form) ||
 		stem(target) === stem(own.headword) ||
-		stem(target) === form
+		stem(target) === form ||
+		// The target records this very form among its own. Two entries
+		// agreeing about a word is not an escape — see `formsOf`.
+		index.formsOf.get(baseHeadword(target))?.has(form) === true
 	) {
 		return;
 	}
@@ -509,7 +523,7 @@ function anchorHints(
 		exactHint(base, target, index),
 		twinHint(base, target, index),
 		divergeHint(base, target, index),
-		inflectionHint(base, target, own),
+		inflectionHint(base, target, own, index),
 	].filter((hint): hint is LinkHint => hint !== undefined);
 }
 

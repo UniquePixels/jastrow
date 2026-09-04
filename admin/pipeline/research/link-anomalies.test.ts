@@ -441,3 +441,60 @@ describe('attested-variant carve-out is skeleton-level (batch 01, 2026-09-04)', 
 		expect(kinds(hints)).toContain('one-consonant-diverge');
 	});
 });
+
+describe('inflection-escape-link consults the target (batch 02, 2026-09-04)', () => {
+	// A00450/A00516: the hint says the target "matches neither the
+	// headword nor the form" while the target records that very form in
+	// its own plural_form and cross-refs back. A verifier measured the
+	// kind's premise — a `Pl.` anchor targets a headword other than its
+	// host in 1,021 of 1,349 cases corpus-wide — so escaping is the
+	// norm, and the target's own forms have to be consulted.
+	it('does not flag an escape to an entry that records the form', () => {
+		const target = entry('A00451', 'a garment', 'אִדְרַבְלִיס', {
+			plural_form: ['אִדְרַבְלִין'],
+		});
+		const hints = entryAnomalyHints(
+			entry('A00450', `Pl. ${anchor('אִדְרַבְלִיס', 'אִדְרַבְלִין')}`, 'אִדְרַבְלָא', {
+				plural_form: ['אִדְרַבְלִין'],
+			}),
+			new Map(),
+			index(['אִדְרַבְלָא'], [target]),
+		);
+		expect(kinds(hints)).not.toContain('inflection-escape-link');
+	});
+
+	it('still flags an escape to an entry that records nothing of the kind', () => {
+		const target = entry('A00302', 'unrelated', 'גְּלֵי');
+		const hints = entryAnomalyHints(
+			entry('A00301', `Pl. ${anchor('גְּלֵי', 'אִגְלֵי')}`, 'אִגְלָא', {
+				plural_form: ['אִגְלֵי'],
+			}),
+			new Map(),
+			index(['אִגְלָא'], [target]),
+		);
+		expect(kinds(hints)).toContain('inflection-escape-link');
+	});
+});
+
+describe('formsOf is narrower than ownForms (batch 02 fix, 2026-09-04)', () => {
+	// The first cut of the target-side check used `ownForms`, which
+	// harvests binyan forms out of the target's senses. C00927 `גְּלֵי`
+	// yields `אגל` that way — which is A00301 `אִגְלָא`'s own plural and
+	// round 1's named catch. Suppressing on it silenced the control.
+	it('still flags when the target carries the form only as a binyan', () => {
+		const verb = entry(
+			'C00927',
+			`Af. ${anchor('גְּלֵי', 'אִגְלֵי')} to reveal`,
+			'גְּלֵי',
+			{ alt_headwords: ['גְּלָא'] },
+		);
+		const hints = entryAnomalyHints(
+			entry('A00301', `Pl. ${anchor('גְּלֵי', 'אִגְלֵי')}`, 'אִגְלָא', {
+				plural_form: ['אִגְלֵי'],
+			}),
+			new Map(),
+			index(['אִגְלָא'], [verb]),
+		);
+		expect(kinds(hints)).toContain('inflection-escape-link');
+	});
+});

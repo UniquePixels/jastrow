@@ -26,6 +26,17 @@ interface HeadwordIndex {
 	bySkeleton: Map<string, Set<string>>;
 	/** Every headword, homograph suffix (` I`, ` 2`) removed. */
 	exact: Set<string>;
+	/** Headword -> the consonantal stems of the forms ITS OWN entry
+	 * records (`plural_form`, `alt_headwords`, `grammar.binyan_form`).
+	 * `ownForms` answers a similar question for the host of an anchor,
+	 * but over a WIDER set — it also harvests binyan forms from the
+	 * entry's senses. This map is deliberately narrower, because a
+	 * verb's Af'el coinciding with a noun's plural is exactly the
+	 * escape `inflection-escape-link` exists to catch. A display that is the host's plural and
+	 * also the target's own recorded form is a link between two
+	 * entries that agree about the word, not an escape (A00450,
+	 * A00516; batch 02, 2026-09-04). */
+	formsOf: Map<string, Set<string>>;
 	/** Headword -> the target of its bare `, v. Y` redirect stub. */
 	redirect: Map<string, string>;
 	/** Consonantal skeleton -> every entry headword carrying it, with
@@ -206,6 +217,7 @@ function buildHeadwordIndex(entries: Iterable<SourceEntry>): HeadwordIndex {
 	const bySkeleton = new Map<string, Set<string>>();
 	const redirect = new Map<string, string>();
 	const skeletonOwners = new Map<string, string[]>();
+	const formsOf = new Map<string, Set<string>>();
 	for (const entry of entries) {
 		const base = baseHeadword(entry.headword);
 		exact.add(base);
@@ -232,12 +244,31 @@ function buildHeadwordIndex(entries: Iterable<SourceEntry>): HeadwordIndex {
 		const owners = skeletonOwners.get(key) ?? [];
 		owners.push(entry.headword.trim().replace(EDITORIAL_ASTERISK, ''));
 		skeletonOwners.set(key, owners);
+		// `plural_form` and `alt_headwords` ONLY — deliberately NOT
+		// `ownForms`, which also harvests binyan forms out of the
+		// entry's senses. A verb's Af'el routinely coincides with some
+		// noun's plural: C00927 `גְּלֵי` contributes `אגל`, which is
+		// A00301 `אִגְלָא`'s own plural and round 1's named catch for
+		// this kind. Suppressing on the wider set silenced it.
+		const recorded = [
+			...(entry.plural_form ?? []),
+			...(entry.alt_headwords ?? []),
+		]
+			.map((f) => stem(recordedVariant(f)))
+			.filter((f) => f.length >= 2);
+		if (recorded.length > 0) {
+			const known = formsOf.get(base) ?? new Set<string>();
+			for (const f of recorded) {
+				known.add(f);
+			}
+			formsOf.set(base, known);
+		}
 		const to = redirectTarget(entry);
 		if (to !== undefined) {
 			redirect.set(base, to);
 		}
 	}
-	return { alts, bySkeleton, exact, redirect, skeletonOwners };
+	return { alts, bySkeleton, exact, formsOf, redirect, skeletonOwners };
 }
 
 export type { HeadwordIndex, OwnForms };

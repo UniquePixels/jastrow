@@ -51,8 +51,8 @@ import {
  * entry records — so the sweep had been paying Opus to reject them
  * one at a time. Original figures, measured on `v2` at f668102:
  * RESIDUE 4047, ADJUDICATED 65, TOUCHED 2093. */
-const RESIDUE: number = 3948;
-const ADJUDICATED_COUNT: number = 63;
+const RESIDUE: number = 3838;
+const ADJUDICATED_COUNT: number = 61;
 const SWEEP: number = RESIDUE - ADJUDICATED_COUNT;
 /** Sweep entries whose TEXT a transform rewrote — 52.9%.
  *
@@ -62,7 +62,7 @@ const SWEEP: number = RESIDUE - ADJUDICATED_COUNT;
  * reader or an agent could see. The bytes are what matters here,
  * because the question this number answers is how much of the
  * population an agent would read differently. */
-const TOUCHED: number = 2055;
+const TOUCHED: number = 1988;
 
 /** One healed corpus, its tables and its sweep list, built once for
  * the whole file, **from the production function**.
@@ -200,7 +200,7 @@ describe('the sweep population', () => {
 });
 
 describe('HEALED IS NOT PRE-PATCH — the regression this module exists to prevent', () => {
-	it('rewrites 2,055 of the sweep entries, so a revert to pre-patch cannot pass', async () => {
+	it('rewrites 1,988 of the sweep entries, so a revert to pre-patch cannot pass', async () => {
 		const { corpus, rids } = await healed();
 		const pre = new Map(
 			(await repairedEntries()).map((e) => [e.rid, JSON.stringify(e)]),
@@ -235,7 +235,7 @@ describe('HEALED IS NOT PRE-PATCH — the regression this module exists to preve
 });
 
 describe('ADJUDICATED re-derives from the detector', () => {
-	it('is exactly the 35 created-hint entries union the 31 roman ones', async () => {
+	it('is exactly the 33 created-hint entries union the 31 roman ones', async () => {
 		// The POST side is the memo's — rebuilding it here would be
 		// three more corpus-wide table passes for an identical result,
 		// on a tier already close to the runner wall.
@@ -264,7 +264,7 @@ describe('ADJUDICATED re-derives from the detector', () => {
 				item2.add(rid);
 			}
 		}
-		expect(item1.size).toBe(35);
+		expect(item1.size).toBe(33);
 		expect(item2.size).toBe(31);
 
 		// The derivation and the exclusion list are computed against
