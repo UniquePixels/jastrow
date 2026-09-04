@@ -93,9 +93,19 @@ async function resolveSince(raw: string | undefined): Promise<number> {
 
 /** Every transcript under `PROJECTS`, optionally narrowed to project
  * slugs containing `filter`. The slug is the project path with its
- * separators replaced, so a substring of the repo name matches it. */
+ * separators replaced, so a substring of the repo name matches it.
+ *
+ * **RECURSIVE, and that is the whole tool.** A subagent does not
+ * append to its parent's session file — it gets its own transcript at
+ * `<project>/<session>/subagents/agent-<id>.jsonl`. A one-level
+ * glob (star slash star dot jsonl — not written literally, it would
+ * close this comment) finds only the parent sessions and silently
+ * reports zero subagent usage, which is exactly the number this
+ * script exists to produce. Measured on this machine while writing it: 32
+ * files at one level, **91 recursively, and the 59 extra hold 6,514
+ * usage records, every one of them `isSidechain`.** */
 async function transcripts(filter: string | undefined): Promise<string[]> {
-	const glob = new Bun.Glob('*/*.jsonl');
+	const glob = new Bun.Glob('**/*.jsonl');
 	const out: string[] = [];
 	for await (const hit of glob.scan({ cwd: PROJECTS })) {
 		if (filter === undefined || hit.includes(filter)) {
@@ -115,6 +125,14 @@ function readTranscript(
 ): void {
 	for (const line of text.split('\n')) {
 		if (line === '') {
+			continue;
+		}
+		// Cheap substring guard BEFORE the parse. A transcript line can
+		// be a megabyte of tool output, and only assistant messages
+		// carry usage — on this machine's largest project that is a few
+		// thousand lines out of hundreds of thousands. Parsing every
+		// line first turned an 83MB read into minutes.
+		if (!line.includes('"input_tokens"')) {
 			continue;
 		}
 		let record: Record<string, unknown>;
