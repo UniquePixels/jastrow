@@ -459,6 +459,12 @@ async function ingest(workdir: string): Promise<void> {
 			promptVersion: string;
 			tranche: string;
 		};
+		// Before any skip: the guard answers "does this WORKDIR hold one
+		// population", and a chunk that is already complete or has no
+		// agent output yet is still evidence about the workdir. Placed
+		// after a `continue`, the check is silently skippable and stops
+		// being the hygiene check it is for.
+		family = familyOf(family, input.tranche, input.chunkId, workdir);
 		if (await alreadyComplete(input.tranche, input.chunkId)) {
 			console.log(
 				`SKIP ${input.chunkId}: already complete in ${input.tranche}`,
@@ -475,7 +481,6 @@ async function ingest(workdir: string): Promise<void> {
 			console.log(`SKIP ${input.chunkId}: missing agent output`);
 			continue;
 		}
-		family = familyOf(family, input.tranche, input.chunkId, workdir);
 		for (const entry of input.entries) {
 			readEntries.set(entry.rid, entry);
 		}
