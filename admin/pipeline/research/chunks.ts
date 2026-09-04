@@ -18,6 +18,14 @@ const CHUNK_SIZE = 30;
 /** Spec §4.5: fixed-size tranches of 2–4K entries. */
 const TRANCHE_SIZE = 3000;
 const CHECKPOINT_DIR = 'data/patches/checkpoints';
+/** Default id prefixes. A caller sweeping a DIFFERENT population —
+ * the 2.3 residue rather than the whole corpus — must pass its own,
+ * because a chunk id names a rid set and two populations sharing
+ * `chunk-00001` would make the checkpoints unreadable side by side.
+ * Both must keep the `chunk-`/`tranche-` stem: `ingest` globs
+ * `chunk-*.json`, and a prefix outside it silently ingests nothing. */
+const CHUNK_PREFIX = 'chunk-';
+const TRANCHE_PREFIX = 'tranche-';
 
 /** One sweep agent's worth of entries. */
 interface Chunk {
@@ -80,6 +88,7 @@ function corpusFingerprint(rids: readonly string[]): string {
 function chunkCorpus(
 	rids: readonly string[],
 	chunkSize: number = CHUNK_SIZE,
+	idPrefix: string = CHUNK_PREFIX,
 ): Chunk[] {
 	if (!Number.isInteger(chunkSize) || chunkSize < 1) {
 		throw new ChunkError(
@@ -96,7 +105,7 @@ function chunkCorpus(
 	for (let at = 0; at < sorted.length; at += chunkSize) {
 		const index = chunks.length + 1;
 		chunks.push({
-			id: `chunk-${String(index).padStart(5, '0')}`,
+			id: `${idPrefix}${String(index).padStart(5, '0')}`,
 			rids: sorted.slice(at, at + chunkSize),
 		});
 	}
@@ -108,6 +117,7 @@ function chunkCorpus(
 function buildTranches(
 	chunks: readonly Chunk[],
 	trancheSize: number = TRANCHE_SIZE,
+	idPrefix: string = TRANCHE_PREFIX,
 ): Tranche[] {
 	if (!Number.isInteger(trancheSize) || trancheSize < 1) {
 		throw new ChunkError(
@@ -121,7 +131,7 @@ function buildTranches(
 		if (current.length > 0) {
 			tranches.push({
 				chunks: current,
-				id: `tranche-${String(tranches.length + 1).padStart(2, '0')}`,
+				id: `${idPrefix}${String(tranches.length + 1).padStart(2, '0')}`,
 			});
 			current = [];
 			count = 0;
@@ -242,6 +252,7 @@ export {
 	buildTranches,
 	byCodeUnit,
 	CHECKPOINT_DIR,
+	CHUNK_PREFIX,
 	CHUNK_SIZE,
 	ChunkError,
 	checkpointPath,
@@ -252,5 +263,6 @@ export {
 	parseCheckpoint,
 	pendingChunks,
 	saveCheckpoint,
+	TRANCHE_PREFIX,
 	TRANCHE_SIZE,
 };

@@ -30,10 +30,22 @@ interface SenseIndexRow {
 	path: string;
 }
 
+/** Which composition of the pipeline the `entries` were built from.
+ *
+ * It is recorded rather than inferred because the two prep paths
+ * disagree and the disagreement is invisible in the entries
+ * themselves. `pre-patch` is source + `applyRepairs`, what the batch
+ * path has always written. `healed` adds both transform phases,
+ * which is the state `patch/apply.ts`'s phase manifest actually
+ * applies a patch to. An agent's anchors are only valid against the
+ * stage it read. */
+type CorpusStage = 'healed' | 'pre-patch';
+
 /** The JSON one sweep agent receives. */
 interface ChunkInput {
 	anomaly_hints: Record<string, AnomalyHint[]>;
 	chunkId: string;
+	corpusStage: CorpusStage;
 	entries: SourceEntry[];
 	pin: string;
 	promptVersion: string;
@@ -73,6 +85,7 @@ async function loadPrePatchCorpus(): Promise<Map<string, SourceEntry>> {
 /** Assemble one chunk's input JSON. */
 function buildChunkInput(args: {
 	chunk: Chunk;
+	corpusStage?: CorpusStage;
 	entries: Map<string, SourceEntry>;
 	hints: Record<string, AnomalyHint[]>;
 	pin: string;
@@ -82,6 +95,10 @@ function buildChunkInput(args: {
 	return {
 		anomaly_hints: args.hints,
 		chunkId: args.chunk.id,
+		// Defaulted, not required: every caller that predates the
+		// residue path builds from `loadPrePatchCorpus`, so omitting it
+		// keeps their output byte-identical apart from the new field.
+		corpusStage: args.corpusStage ?? 'pre-patch',
 		entries: args.chunk.rids.map((rid) => args.entries.get(rid) as SourceEntry),
 		pin: args.pin,
 		promptVersion: args.promptVersion,
@@ -106,7 +123,7 @@ async function writeChunkInput(
 	);
 }
 
-export type { ChunkInput, SenseIndexRow };
+export type { ChunkInput, CorpusStage, SenseIndexRow };
 export {
 	buildChunkInput,
 	loadPrePatchCorpus,
