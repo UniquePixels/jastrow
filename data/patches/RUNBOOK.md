@@ -36,6 +36,21 @@ link-target findings from `link-anomalies.ts`.
 1. **Go/no-go** — maintainer confirms the usage window and batch
    size (chunks of 30 entries; 25 chunks ≈ 3–4× pilot spend).
    Record the go (timestamp) in the tranche's report.
+
+   **Mark the usage baseline before dispatching:**
+
+   ```
+   bun usage --mark .usage-mark        # before step 3
+   bun usage --since @.usage-mark      # after step 4
+   ```
+
+   `admin/pipeline/research/usage-report.ts` reads Claude Code's own per-session
+   transcripts, so a run can be costed from disk afterwards rather
+   than watched live. It reports `main` and `subagent` separately on
+   purpose: sweep agents are `isSidechain` records, and the
+   statusline's window percentage **skips them**, so that figure
+   understates a sweep by whatever the subagent row says. Tokens
+   only — the transcripts carry no billing.
 2. **Prep** — `bun admin/pipeline/research/tranche.ts prep
    <workdir> <count>`: writes per-chunk input JSON (pre-patch
    entries + precomputed `sense_index`, pin, `promptVersion: v5`)
