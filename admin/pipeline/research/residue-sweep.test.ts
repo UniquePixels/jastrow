@@ -9,6 +9,7 @@ import {
 	residueTranches,
 	sweepRids,
 } from './residue-sweep.ts';
+import { sampleFiles } from './tranche.ts';
 
 /** A residue-shaped rid list: the adjudicated ones plus filler, so
  * `sweepRids` has something to keep as well as something to drop. */
@@ -93,6 +94,56 @@ describe('chunkCorpus / buildTranches id prefixes', () => {
 	it('default to the batch path when no prefix is given', () => {
 		expect(chunkCorpus(['A1', 'A2'], 30)[0]?.id).toBe('chunk-00001');
 		expect(buildTranches(chunkCorpus(['A1'], 30))[0]?.id).toBe('tranche-01');
+	});
+});
+
+// The verification sample shows an Opus reviewer a patch beside its
+// entry. A patch's `expected_before` is byte-exact against the state
+// its AUTHOR was handed, so a sample built from a re-derived
+// pre-patch corpus would show the reviewer text the patch cannot
+// match — on the 2,093 residue entries a transform rewrote, which is
+// 53% of the population. It would read as a catastrophic error rate
+// against the one gate the spec kept (T2, substantive errors <= 5%),
+// and nothing else in the suite looks at it.
+describe('the verification sample reads the entries the agent read', () => {
+	const healedEntry = {
+		content: {
+			senses: [{ definition: 'x <span dir="rtl">א׳</span> y' }],
+		},
+		headword: 'a',
+		rid: 'A00018',
+	} as never;
+	const patch = { id: 'P1', rid: 'A00018' } as never;
+	const sample = { clean: ['A00018'], high: [], lowMed: [patch] } as never;
+
+	it('shows the healed entry a residue patch was written against', () => {
+		const files = sampleFiles(
+			sample,
+			[patch],
+			new Map([['A00018', healedEntry]]),
+		);
+		expect(files.patches[0]?.entry).toBe(healedEntry);
+		expect(files.clean[0]?.entry).toBe(healedEntry);
+	});
+
+	// The defect this replaced: `ingest` resolved sample entries
+	// through `loadPrePatchCorpus()`, so a residue patch would have
+	// been reviewed beside text it cannot match.
+	it('reports undefined rather than substituting another corpus state', () => {
+		const files = sampleFiles(sample, [patch], new Map());
+		expect(files.patches[0]?.entry).toBeUndefined();
+		expect(files.clean[0]?.entry).toBeUndefined();
+	});
+
+	it('carries the whole chain on the entry, not just the sampled patch', () => {
+		const second = { id: 'P2', rid: 'A00018' } as never;
+		const files = sampleFiles(
+			sample,
+			[patch, second],
+			new Map([['A00018', healedEntry]]),
+		);
+		expect(files.patches[0]?.chain).toEqual([patch, second]);
+		expect(files.patches[0]?.patchUnderReview).toBe('P1');
 	});
 });
 

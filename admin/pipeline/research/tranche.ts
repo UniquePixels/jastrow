@@ -292,8 +292,11 @@ async function prepResidue(workdir: string, count: number): Promise<void> {
 }
 
 async function ingest(workdir: string): Promise<void> {
-	const entries = await loadPrePatchCorpus();
-	const rids = [...entries.keys()];
+	// Only the rid ORDER is wanted here — the corpus chunking and its
+	// fingerprint. The entries an agent actually read come off the
+	// chunk inputs (`readEntries` below), so nothing in this function
+	// judges a patch against a re-derived corpus any more.
+	const rids = [...(await loadPrePatchCorpus()).keys()];
 	// Two populations, two chunkings, two fingerprints. A residue
 	// checkpoint pins the fingerprint of the RESIDUE rid list, so
 	// resolving one against the corpus fingerprint would reject every
@@ -321,6 +324,14 @@ async function ingest(workdir: string): Promise<void> {
 	const records: EntryResult[] = [];
 	const rejects: RejectRecord[] = [];
 	const done = new Map<string, string[]>();
+	// The entries the AGENTS read, taken from the chunk inputs rather
+	// than re-derived from the corpus. The verification sample below
+	// shows a patch beside its entry, and a patch's `expected_before`
+	// is byte-exact against the state its author was handed — which
+	// for a residue chunk is the healed text, not the pre-patch text
+	// `loadPrePatchCorpus()` returns. Reading them back off the input
+	// is right for both paths and cannot drift from either.
+	const readEntries = new Map<string, SourceEntry>();
 	// Chunks already marked complete must not be ingested twice: the
 	// append below is unconditional, so a second run over the same
 	// workdir would duplicate every accepted patch and manifest row.
@@ -364,6 +375,9 @@ async function ingest(workdir: string): Promise<void> {
 		if (!((await patchesFile.exists()) && (await manifestFile.exists()))) {
 			console.log(`SKIP ${input.chunkId}: missing agent output`);
 			continue;
+		}
+		for (const entry of input.entries) {
+			readEntries.set(entry.rid, entry);
 		}
 		const result = ingestChunk(
 			{
@@ -439,32 +453,57 @@ async function ingest(workdir: string): Promise<void> {
 	}
 	// Verification sample over this batch's output only.
 	const sample = selectSample(records, accepted, SAMPLE_CONFIG);
-	const byRid = new Map(
-		accepted.map((p) => [p.rid, accepted.filter((q) => q.rid === p.rid)]),
-	);
+	const files = sampleFiles(sample, accepted, readEntries);
 	await Bun.write(
 		`${workdir}/sample-patches.json`,
-		JSON.stringify(
-			[...sample.lowMed, ...sample.high].map((p) => ({
-				chain: byRid.get(p.rid) ?? [],
-				entry: entries.get(p.rid),
-				patchUnderReview: p.id,
-			})),
-			null,
-			'\t',
-		),
+		JSON.stringify(files.patches, null, '\t'),
 	);
 	await Bun.write(
 		`${workdir}/sample-clean.json`,
-		JSON.stringify(
-			sample.clean.map((rid) => ({ entry: entries.get(rid) })),
-			null,
-			'\t',
-		),
+		JSON.stringify(files.clean, null, '\t'),
 	);
 	console.log(
 		`SAMPLE lowMed=${sample.lowMed.length} high=${sample.high.length} clean=${sample.clean.length} — thresholds error≤${THRESHOLDS.errorRate * 100}% miss≤${THRESHOLDS.missRate * 100}%`,
 	);
+}
+
+/** One row of `sample-patches.json`: a patch, the whole chain on its
+ * entry, and the entry itself. */
+interface SamplePatchRow {
+	chain: SemanticPatch[];
+	entry: SourceEntry | undefined;
+	patchUnderReview: string;
+}
+
+/** The two verification sample files, built from `entries` — which
+ * MUST be the entries the sweep agents were handed, not a corpus
+ * re-derived here.
+ *
+ * A patch's `expected_before` is byte-exact against the state its
+ * author read. For a residue chunk that is the healed text, and
+ * 2,093 of those entries differ from the pre-patch corpus. Showing a
+ * verifier the pre-patch entry beside a patch written against the
+ * healed one makes every such patch look wrong, which would breach
+ * the substantive-error gate (spec T2) on a batch that is fine.
+ * Extracted from `ingest` so that property has somewhere to be
+ * asserted. */
+function sampleFiles(
+	sample: ReturnType<typeof selectSample>,
+	accepted: readonly SemanticPatch[],
+	entries: ReadonlyMap<string, SourceEntry>,
+): { clean: { entry: SourceEntry | undefined }[]; patches: SamplePatchRow[] } {
+	const byRid = new Map<string, SemanticPatch[]>();
+	for (const patch of accepted) {
+		byRid.set(patch.rid, [...(byRid.get(patch.rid) ?? []), patch]);
+	}
+	return {
+		clean: sample.clean.map((rid) => ({ entry: entries.get(rid) })),
+		patches: [...sample.lowMed, ...sample.high].map((p) => ({
+			chain: byRid.get(p.rid) ?? [],
+			entry: entries.get(p.rid),
+			patchUnderReview: p.id,
+		})),
+	};
 }
 
 /** Whether a rid belongs to a chunk id under the current corpus
@@ -500,4 +539,11 @@ if (import.meta.main) {
 	}
 }
 
-export { maxPatchNumber, renumber, SAMPLE_CONFIG, senseIndex, THRESHOLDS };
+export {
+	maxPatchNumber,
+	renumber,
+	SAMPLE_CONFIG,
+	sampleFiles,
+	senseIndex,
+	THRESHOLDS,
+};
