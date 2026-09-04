@@ -109,6 +109,20 @@ describe('readTranscript', () => {
 		expect(rows.get('main|claude-opus-5')?.input).toBe(7);
 	});
 
+	// `NaN < since` is false, so an unparseable timestamp would fall
+	// through the window test and be counted against this run.
+	it('skips a usage record whose timestamp cannot be placed in time', () => {
+		const rows = read(
+			[
+				line({ input: 5, output: 5, timestamp: 'not-a-date' }),
+				line({ input: 7, output: 7, timestamp: '2026-09-03T12:00:00Z' }),
+			].join('\n'),
+			Date.parse('2026-09-03T00:00:00Z'),
+		);
+		expect(rows.get('main|claude-opus-5')?.input).toBe(7);
+		expect(rows.get('main|claude-opus-5')?.messages).toBe(1);
+	});
+
 	it('skips lines with no usage, and unparseable ones', () => {
 		const rows = read(
 			[

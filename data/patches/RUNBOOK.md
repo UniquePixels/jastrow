@@ -40,8 +40,8 @@ link-target findings from `link-anomalies.ts`.
    **Mark the usage baseline before dispatching:**
 
    ```
-   bun usage --mark .usage-mark        # before step 3
-   bun usage --since @.usage-mark      # after step 4
+   bun usage --mark .usage-mark                      # before step 3
+   bun usage --since @.usage-mark --project jastrow  # after step 4
    ```
 
    `admin/pipeline/research/usage-report.ts` reads Claude Code's own per-session
@@ -51,6 +51,10 @@ link-target findings from `link-anomalies.ts`.
    statusline's window percentage **skips them**, so that figure
    understates a sweep by whatever the subagent row says. Tokens
    only — the transcripts carry no billing.
+
+   `--project` matches a substring of the project slug and is worth
+   passing: without it the report spans **every** project on the
+   machine, so unrelated work lands in the sweep's number.
 2. **Prep** — `bun admin/pipeline/research/tranche.ts prep
    <workdir> <count>`: writes per-chunk input JSON (pre-patch
    entries + precomputed `sense_index`, pin, `promptVersion: v5`)

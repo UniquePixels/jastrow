@@ -131,7 +131,15 @@ function readTranscript(
 			continue;
 		}
 		const stamp = record['timestamp'];
-		if (typeof stamp !== 'string' || Date.parse(stamp) < since) {
+		if (typeof stamp !== 'string') {
+			continue;
+		}
+		// Parse once and reject NaN explicitly. `NaN < since` is FALSE,
+		// so a malformed timestamp would otherwise fall through the
+		// window test and be counted — a record that cannot be placed
+		// in time must not be attributed to this run.
+		const at = Date.parse(stamp);
+		if (Number.isNaN(at) || at < since) {
 			continue;
 		}
 		const origin: Row['origin'] =
