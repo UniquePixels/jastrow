@@ -65,16 +65,27 @@ const TOUCHED: number = 2093;
  * input.
  *
  * A first draft composed the stage here from `composedEntries()` and
- * added a gate comparing the two. That was worse twice over — every
- * other gate in the file was then testing a private reimplementation
- * rather than the shipped function, and it cost **130s against this
- * version's 97s** for the privilege. Paying the read once, in the one
- * file that tests the reader, is both cheaper and the only version
- * where a defect in the shipped function fails here.
+ * added a gate comparing the two. This version replaced it **for the
+ * design reason only, not a cost one**: there, every other gate in
+ * the file tested a private reimplementation rather than the shipped
+ * function. The two cost the same in the tier — each pays exactly one
+ * extra read of the snapshot, the draft in its comparison gate and
+ * this one in its memo. A standalone run makes the draft look 130s to
+ * this one's 97s, but that gap is the shared fixture being cold, and
+ * in the tier it is already warm.
  *
- * Measured on `v2` at f668102: `healedCorpus()` **97.2s**,
- * `buildTables` 1.3s, `residueRids` 4.6s. The snapshot read
- * dominates; the detector passes are noise beside it. */
+ * Stage costs on `v2` at f668102: `healedCorpus()` **97.2s**,
+ * `buildTables` 1.3s, `residueRids` 4.6s — the snapshot read
+ * dominates and the detector passes are noise beside it.
+ *
+ * The tier's own numbers, same machine, same session: 380 tests /
+ * 506.9s without this file, 387 / 637.4s and 387 / 702.7s with it.
+ * **Do not read a delta off those.** The commutation gate does
+ * identical work in all three and moved 88.2s -> 90.9s -> 94.4s
+ * across them, so the run-to-run noise is ~7% and swamps the
+ * difference between the two designs. See the sibling lesson in
+ * `feedback_one_ci_run_is_not_a_ratio`: this file costs roughly one
+ * snapshot read, and that is the honest statement of it. */
 interface Healed {
 	corpus: Map<string, SourceEntry>;
 	rids: string[];
