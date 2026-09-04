@@ -39,13 +39,22 @@ import {
 	sweepRids,
 } from './residue-sweep.ts';
 
-/** The population figures this change was scoped against, measured on
- * `v2` at f668102. A move in any of them is a real change to what
- * item 3 sweeps and must be read, not re-baselined. */
-const RESIDUE: number = 4047;
-const ADJUDICATED_COUNT: number = 65;
+/** The population figures this change was scoped against. A move in
+ * any of them is a real change to what item 3 sweeps and must be
+ * read, not re-baselined.
+ *
+ * Re-baselined ONCE, deliberately, on 2026-09-04: the
+ * `alt_headwords` carve-out in link-anomalies.ts took
+ * `one-consonant-diverge` from 817 entries to 750, and 57 residue
+ * entries lost their only hint with it. Those hints were licensed by
+ * sweep-v5 class 11 — the display is a spelling the target's own
+ * entry records — so the sweep had been paying Opus to reject them
+ * one at a time. Original figures, measured on `v2` at f668102:
+ * RESIDUE 4047, ADJUDICATED 65, TOUCHED 2093. */
+const RESIDUE: number = 3990;
+const ADJUDICATED_COUNT: number = 64;
 const SWEEP: number = RESIDUE - ADJUDICATED_COUNT;
-/** Sweep entries whose TEXT a transform rewrote — 52.6%.
+/** Sweep entries whose TEXT a transform rewrote — 52.9%.
  *
  * The predicate is byte difference, not "a rule fired": 2,137 sweep
  * entries produce a transform record and **2,093 of them come out
@@ -53,7 +62,7 @@ const SWEEP: number = RESIDUE - ADJUDICATED_COUNT;
  * reader or an agent could see. The bytes are what matters here,
  * because the question this number answers is how much of the
  * population an agent would read differently. */
-const TOUCHED: number = 2093;
+const TOUCHED: number = 2076;
 
 /** One healed corpus, its tables and its sweep list, built once for
  * the whole file, **from the production function**.
@@ -98,6 +107,14 @@ async function buildHealed(): Promise<Healed> {
 	const corpus = await healedCorpus();
 	const tables = buildTables([...corpus.values()]);
 	return { corpus, rids: sweepRids(residueRids(corpus, tables)), tables };
+}
+
+/** The residue itself — before `sweepRids` takes the adjudicated out
+ * of it. The re-derivation test needs the unfiltered set to ask
+ * whether a derived rid is still flagged at all. */
+async function residueOnly(): Promise<string[]> {
+	const { corpus, tables } = await healed();
+	return residueRids(corpus, tables);
 }
 
 function healed(): Promise<Healed> {
@@ -183,7 +200,7 @@ describe('the sweep population', () => {
 });
 
 describe('HEALED IS NOT PRE-PATCH — the regression this module exists to prevent', () => {
-	it('rewrites 2,093 of the sweep entries, so a revert to pre-patch cannot pass', async () => {
+	it('rewrites 2,076 of the sweep entries, so a revert to pre-patch cannot pass', async () => {
 		const { corpus, rids } = await healed();
 		const pre = new Map(
 			(await repairedEntries()).map((e) => [e.rid, JSON.stringify(e)]),
@@ -249,8 +266,29 @@ describe('ADJUDICATED re-derives from the detector', () => {
 		}
 		expect(item1.size).toBe(35);
 		expect(item2.size).toBe(31);
-		expect([...new Set([...item1, ...item2])].sort(byCodeUnit)).toEqual([
-			...ADJUDICATED,
-		]);
+
+		// The derivation and the exclusion list are computed against
+		// DIFFERENT corpus states, and since 2026-09-04 they disagree
+		// by exactly one entry. Item 1 asks "did the rules create this
+		// hint", which it answers with the PRE-patch tables; the
+		// residue asks "does the detector still flag this entry",
+		// which `residueRids` answers with the HEALED ones. The
+		// `alt_headwords` carve-out fires only on the healed side, so
+		// `T00173` is derived here and is no longer in the residue.
+		// ADJUDICATED excludes entries FROM THE SWEEP, so it carries
+		// the intersection — an entry the sweep will never reach needs
+		// no exclusion, and `sweepRids` throws if one lingers.
+		//
+		// Naming the straggler rather than filtering it silently is
+		// the point: a second divergence fails this test.
+		const derived = new Set([...item1, ...item2]);
+		const inResidue = new Set(await residueOnly());
+		const outsideResidue = [...derived]
+			.filter((rid) => !inResidue.has(rid))
+			.sort(byCodeUnit);
+		expect(outsideResidue).toEqual(['T00173']);
+		expect(
+			[...derived].filter((rid) => inResidue.has(rid)).sort(byCodeUnit),
+		).toEqual([...ADJUDICATED]);
 	}, 180_000);
 });

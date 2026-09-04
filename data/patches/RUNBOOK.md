@@ -96,7 +96,7 @@ argument; the operational differences are:
 |---|---|---|
 | Prep | `tranche.ts prep` | `tranche.ts prep-residue` |
 | Population | all 32,512 entries | the residue, minus the 65 items 1–2 adjudicated |
-| Size | 1,084 chunks | **3,982 entries / 133 chunks** |
+| Size | 1,084 chunks | **3,926 entries / 131 chunks** (3,982 / 133 before the 2026-09-04 `alt_headwords` carve-out) |
 | Corpus state | pre-patch (`applyRepairs` only) | **healed** (+ both transform phases) |
 | Chunk ids | `chunk-00001` | `chunk-r00001` |
 | Tranche ids | `tranche-01` | `residue-01` |
@@ -105,8 +105,8 @@ argument; the operational differences are:
 **Why the corpus state differs, and why it is not optional.** The
 phase manifest in `patch/apply.ts` is `text-repairs` ->
 `structural-repairs` -> `patch-apply`, so a patch lands on text the
-54 transform rules have already rewritten. **2,093 of the 3,982 —
-52.6% — read differently after the rules.** An agent handed
+54 transform rules have already rewritten. **2,076 of the 3,926 —
+52.9% — read differently after the rules.** An agent handed
 pre-patch text authors anchors against a string that does not exist
 at apply time, and re-reports defects the rules already fixed. When
 batches 01 and 02 ran this overlap was near zero, because the rules
@@ -126,7 +126,7 @@ chunking and fingerprint.
 
 Gates: `residue-sweep.test.ts` (unit) and
 `residue-sweep.corpus.test.ts` (corpus). The corpus one re-derives
-the frozen 65 from the detector and pins the 2,093, so a revert to
+the frozen 64 from the detector and pins the 2,076, so a revert to
 the pre-patch corpus fails rather than passing quietly.
 
 ## State

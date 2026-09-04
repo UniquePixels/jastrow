@@ -90,13 +90,23 @@ const SOURCE = 'data/source/jastrow-dictionary.jsonl';
 const RESIDUE_CHUNK_PREFIX = 'chunk-r';
 const RESIDUE_TRANCHE_PREFIX = 'residue-';
 
-/** The 65 residue entries items 1 and 2 already adjudicated: 35
+/** The 64 residue entries items 1 and 2 already adjudicated: 34
  * carrying a hint the rules created, 31 carrying
- * `roman-numeral-display`, overlapping at I00311 (35 + 31 - 1 = 65).
+ * `roman-numeral-display`, overlapping at I00311 (34 + 31 - 1 = 64).
  *
  * Frozen, and re-derived by the corpus gate. Sweeping them again
- * would spend Opus on 65 entries whose disposition is written down,
- * and would invite an agent to contradict a documented judgment. */
+ * would spend Opus on 64 entries whose disposition is written down,
+ * and would invite an agent to contradict a documented judgment.
+ *
+ * **Was 65 (35 + 31 - 1) until 2026-09-04.** `T00173` left the
+ * residue when the `alt_headwords` carve-out landed in
+ * link-anomalies.ts: its only hint was `הַרְגֵּיז` -> `הַרְגֹּוז`,
+ * and `הַרְגֹּוז` records `הַרְגֵּיז` as one of its own headwords
+ * while nothing else in the corpus claims that string — a licensed
+ * variant, not a mislink. An entry carrying no hint cannot be swept,
+ * so excluding it had become vacuous and `sweepRids`' gate said so.
+ * The residue moved 4,047 -> 3,990 and the sweep population
+ * 3,982 -> 3,926 in the same change. */
 const ADJUDICATED: readonly string[] = [
 	'A00717',
 	'A00722',
@@ -158,7 +168,6 @@ const ADJUDICATED: readonly string[] = [
 	'S00114',
 	'S01082',
 	'S01668',
-	'T00173',
 	'U00776',
 	'U01065',
 	'V00586',
