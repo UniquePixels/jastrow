@@ -41,8 +41,30 @@
  *   raw corpus either: PRE falls 736 -> 584, POST 565 -> 429.
  * - `exact-headword-diverge` — 338 entries. The display is itself a
  *   corpus headword, but the link targets a consonantally different
- *   one. Catches A00988 (displays אָב, targets אַבָּא I). Redirect-stub
- *   resolutions and the editorial `*` are excluded.
+ *   one. Redirect-stub resolutions and the editorial `*` are
+ *   excluded.
+ *
+ *   Catches A00988, and the case is subtler than "displays אָב,
+ *   targets אַבָּא I" — an earlier draft of this line said only that,
+ *   and it reads as though אָב had nothing to do with אַבָּא. It has.
+ *   `אַבָּא I` prints as **`אַבָּא I, אָב`** — two headwords for one
+ *   entry, the first fixing its alphabetical place — so `אָב` really
+ *   is one of its spellings and `alts` records it. The link is wrong
+ *   anyway: the host `אָח I` is Hebrew (`language_code` `(b. h.;`)
+ *   and the anchor sits in its etymology, `cmp. אָב`, where the word
+ *   compared is the Hebrew אָב — its own entry, `אָב II`, which is
+ *   also what `אַבָּא I`'s `language_reference` points back at. The
+ *   linker chose the Aramaic entry.
+ *
+ *   **So do NOT add the `alt_headwords` carve-out to this rule.** It
+ *   looks like it belongs and it silences this control: measured
+ *   2026-09-04, applying it here drops the kind 338 -> 34. Where a
+ *   display is BOTH a recorded spelling of the target AND a headword
+ *   in its own right — 455 anchors over 304 entries — being recorded
+ *   makes the link possible, not correct, and only the context
+ *   decides. The carve-out is scoped to `one-consonant-diverge`,
+ *   which fires only where the display is no corpus headword and so
+ *   can never meet this collision.
  * - `niqqud-twin-target` — 1,321 entries. Display and target share
  *   one consonantal skeleton carrying two or more headwords, so the
  *   niqqud-only carve-out cannot decide the case. Catches A01201
