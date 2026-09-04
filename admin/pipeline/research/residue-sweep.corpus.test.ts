@@ -51,8 +51,8 @@ import {
  * entry records — so the sweep had been paying Opus to reject them
  * one at a time. Original figures, measured on `v2` at f668102:
  * RESIDUE 4047, ADJUDICATED 65, TOUCHED 2093. */
-const RESIDUE: number = 3990;
-const ADJUDICATED_COUNT: number = 64;
+const RESIDUE: number = 3948;
+const ADJUDICATED_COUNT: number = 63;
 const SWEEP: number = RESIDUE - ADJUDICATED_COUNT;
 /** Sweep entries whose TEXT a transform rewrote — 52.9%.
  *
@@ -62,7 +62,7 @@ const SWEEP: number = RESIDUE - ADJUDICATED_COUNT;
  * reader or an agent could see. The bytes are what matters here,
  * because the question this number answers is how much of the
  * population an agent would read differently. */
-const TOUCHED: number = 2076;
+const TOUCHED: number = 2055;
 
 /** One healed corpus, its tables and its sweep list, built once for
  * the whole file, **from the production function**.
@@ -200,7 +200,7 @@ describe('the sweep population', () => {
 });
 
 describe('HEALED IS NOT PRE-PATCH — the regression this module exists to prevent', () => {
-	it('rewrites 2,076 of the sweep entries, so a revert to pre-patch cannot pass', async () => {
+	it('rewrites 2,055 of the sweep entries, so a revert to pre-patch cannot pass', async () => {
 		const { corpus, rids } = await healed();
 		const pre = new Map(
 			(await repairedEntries()).map((e) => [e.rid, JSON.stringify(e)]),
@@ -286,7 +286,7 @@ describe('ADJUDICATED re-derives from the detector', () => {
 		const outsideResidue = [...derived]
 			.filter((rid) => !inResidue.has(rid))
 			.sort(byCodeUnit);
-		expect(outsideResidue).toEqual(['T00173']);
+		expect(outsideResidue).toEqual(['A01672', 'T00173']);
 		expect(
 			[...derived].filter((rid) => inResidue.has(rid)).sort(byCodeUnit),
 		).toEqual([...ADJUDICATED]);

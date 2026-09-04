@@ -70,14 +70,18 @@
  *   niqqud-only carve-out cannot decide the case. Catches A01201
  *   (זְמַר vs זָמַר) and, since the calibration, the unvocalized
  *   displays that carve-out silently collapsed onto one homograph.
- * - `one-consonant-diverge` — **750 entries** (was 817 before the
- *   attested-variant carve-out landed, 2026-09-04). The display is no
- *   corpus headword but sits one non-final consonant from its target,
- *   the letter-L shape that could never reach
- *   `exact-headword-diverge`. The 67 removed are displays the target's
- *   own `alt_headwords` records, which sweep-v5 class 11 already
- *   licensed — the sweep was rejecting them by hand, one Opus call at
- *   a time.
+ * - `one-consonant-diverge` — **696 entries** (817 before the
+ *   attested-variant carve-out landed, 750 while that carve-out was
+ *   still exact-string; both 2026-09-04). The display is no corpus
+ *   headword but sits one non-final consonant from its target, the
+ *   letter-L shape that could never reach `exact-headword-diverge`.
+ *   The 121 removed are displays the target's own `alt_headwords`
+ *   records, which sweep-v5 class 11 already licensed — the sweep was
+ *   rejecting them by hand, one Opus call at a time. The second step
+ *   (750 -> 696) is skeleton comparison: a recorded alt is stored
+ *   vocalized and the display that names it in running text is
+ *   usually bare consonants, so exact membership missed the very
+ *   cases the carve-out exists for (A00307, A00529).
  * - `inflection-escape-link` — 691 entries. The display is one of the
  *   host entry's own inflected forms yet the link leaves the entry
  *   for a word related to neither. The unique-skeleton carve-out used
@@ -254,7 +258,14 @@ function isAttestedVariant(
 	target: string,
 	index: HeadwordIndex,
 ): boolean {
-	return index.alts.get(baseHeadword(target))?.has(base) === true;
+	const recorded = index.alts.get(baseHeadword(target));
+	if (recorded === undefined) {
+		return false;
+	}
+	// Either form: the alt as printed, or its consonantal skeleton. The
+	// display in running text is routinely unvocalized where the
+	// recorded headword is not.
+	return recorded.has(base) || recorded.has(skeleton(base));
 }
 
 /** A display that is itself a headword should link to that headword. */

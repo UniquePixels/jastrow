@@ -47,6 +47,17 @@ interface EntryResult {
 	 * forbidden elsewhere (a repaired/clean entry has nothing
 	 * escalated). */
 	escalation?: string;
+	/** Why the entry's anomaly hints were rejected. Allowed on ANY
+	 * disposition, and that is the point: the sweep prompt requires
+	 * every hint judged "with a reason you could defend to the
+	 * verification tier", but `escalation` is forbidden on clean and
+	 * repaired rows, so until this field a defensible rejection on a
+	 * sound entry had nowhere to live. Batch 01 (2026-09-04) lost
+	 * eight such reasons in one chunk, and the verification tier
+	 * cannot audit hint judgment — where the sweep does most of its
+	 * reasoning — without them. Optional: an entry that received no
+	 * hints has nothing to record. */
+	hint_notes?: string;
 	/** Ids of this entry's patches. `repaired` requires at least one;
 	 * `clean` requires none; `needs_*` may carry confident patches
 	 * alongside the escalated issue. */
@@ -128,6 +139,13 @@ function parseEntryResult(value: unknown, context: string): EntryResult {
 			'escalation is only allowed on needs_* rows — an entry with an unrepaired finding is not clean/repaired',
 		);
 	}
+	if (
+		value['hint_notes'] !== undefined &&
+		(typeof value['hint_notes'] !== 'string' ||
+			value['hint_notes'].trim() === '')
+	) {
+		reasons.push('hint_notes must be a non-empty string when present');
+	}
 	if (value['resolution'] !== undefined) {
 		if (!needs) {
 			reasons.push('resolution is only allowed on needs_* rows');
@@ -164,6 +182,9 @@ function parseEntryResult(value: unknown, context: string): EntryResult {
 	};
 	if (value['escalation'] !== undefined) {
 		result.escalation = value['escalation'] as string;
+	}
+	if (value['hint_notes'] !== undefined) {
+		result.hint_notes = value['hint_notes'] as string;
 	}
 	if (value['resolution'] !== undefined) {
 		result.resolution = value['resolution'] as unknown as MaintainerResolution;

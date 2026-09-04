@@ -216,6 +216,13 @@ function buildHeadwordIndex(entries: Iterable<SourceEntry>): HeadwordIndex {
 			}
 			const recorded = alts.get(base) ?? new Set<string>();
 			recorded.add(variant);
+			// The consonantal form too. A recorded alt is stored the way
+			// print writes it — vocalized — while the display that names
+			// it in running text is usually bare consonants, so exact
+			// membership missed the very cases the carve-out exists for
+			// (A00307, A00529; batch 01, 2026-09-04). Both forms live in
+			// the set so the caller can ask either question.
+			recorded.add(skeleton(variant));
 			alts.set(base, recorded);
 		}
 		const key = skeleton(base);

@@ -90,12 +90,12 @@ const SOURCE = 'data/source/jastrow-dictionary.jsonl';
 const RESIDUE_CHUNK_PREFIX = 'chunk-r';
 const RESIDUE_TRANCHE_PREFIX = 'residue-';
 
-/** The 64 residue entries items 1 and 2 already adjudicated: 34
+/** The 63 residue entries items 1 and 2 already adjudicated: 33
  * carrying a hint the rules created, 31 carrying
- * `roman-numeral-display`, overlapping at I00311 (34 + 31 - 1 = 64).
+ * `roman-numeral-display`, overlapping at I00311 (33 + 31 - 1 = 63).
  *
  * Frozen, and re-derived by the corpus gate. Sweeping them again
- * would spend Opus on 64 entries whose disposition is written down,
+ * would spend Opus on 63 entries whose disposition is written down,
  * and would invite an agent to contradict a documented judgment.
  *
  * **Was 65 (35 + 31 - 1) until 2026-09-04.** `T00173` left the
@@ -106,7 +106,13 @@ const RESIDUE_TRANCHE_PREFIX = 'residue-';
  * variant, not a mislink. An entry carrying no hint cannot be swept,
  * so excluding it had become vacuous and `sweepRids`' gate said so.
  * The residue moved 4,047 -> 3,990 and the sweep population
- * 3,982 -> 3,926 in the same change. */
+ * 3,982 -> 3,926 in the same change.
+ *
+ * **Then 63 (33 + 31 - 1), 2026-09-04 batch 01.** `A01672` left for
+ * the same reason once the carve-out became skeleton-level: its only
+ * hint was `הַרְגִּיז` -> `הַרְגֹּוז`, and that target records
+ * `הַרְגֵּיז` — the same consonants, one vowel apart. Residue
+ * 3,990 -> 3,948, sweep 3,926 -> 3,885. */
 const ADJUDICATED: readonly string[] = [
 	'A00717',
 	'A00722',
@@ -117,7 +123,6 @@ const ADJUDICATED: readonly string[] = [
 	'A01465',
 	'A01548',
 	'A01619',
-	'A01672',
 	'A01839',
 	'A01904',
 	'A01947',

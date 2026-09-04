@@ -411,3 +411,33 @@ describe('niqqud-twin owner count (residue calibration 2026-09-04)', () => {
 		expect(kinds(hints)).not.toContain('niqqud-twin-target');
 	});
 });
+
+describe('attested-variant carve-out is skeleton-level (batch 01, 2026-09-04)', () => {
+	// A00307/A00529: the recorded alt is stored vocalized and the
+	// display is bare consonants, so exact string membership never
+	// matched and the hint fired anyway — while sweep-v6's hint table
+	// asserted the exclusion had already handled it.
+	it('suppresses an unvocalized display of a vocalized recorded alt', () => {
+		const gamam = entry('C01055', 'to cut off', 'גְּמַם', {
+			alt_headwords: ['(גּוּם)'],
+		});
+		const hints = entryAnomalyHints(
+			entry('A00307', `cmp. ${anchor('גְּמַם', 'גום')}`, 'אגם'),
+			new Map(),
+			index(['אגם'], [gamam]),
+		);
+		expect(kinds(hints)).not.toContain('one-consonant-diverge');
+	});
+
+	it('still flags a display the target records no form of', () => {
+		const other = entry('C01056', 'unrelated', 'גְּמַם', {
+			alt_headwords: ['זזז'],
+		});
+		const hints = entryAnomalyHints(
+			entry('A00308', `cmp. ${anchor('גְּמַם', 'גום')}`, 'אגם'),
+			new Map(),
+			index(['אגם'], [other]),
+		);
+		expect(kinds(hints)).toContain('one-consonant-diverge');
+	});
+});
