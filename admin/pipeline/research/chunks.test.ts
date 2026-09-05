@@ -2,12 +2,16 @@ import { describe, expect, it } from 'bun:test';
 import {
 	buildCheckpoint,
 	buildTranches,
+	type Chunk,
 	ChunkError,
+	carryForward,
 	chunkCorpus,
 	corpusFingerprint,
 	markComplete,
 	parseCheckpoint,
 	pendingChunks,
+	resolveCheckpoint,
+	type Tranche,
 } from './chunks.ts';
 
 /** Synthetic rid list: A00001..A000NN. */
@@ -16,6 +20,24 @@ function rids(count: number): string[] {
 		{ length: count },
 		(_, i) => `A${String(i + 1).padStart(5, '0')}`,
 	);
+}
+
+/** The first tranche of a chunking, or a loud fixture failure. */
+function firstTranche(all: readonly string[], size: number): Tranche {
+	const tranche = buildTranches(chunkCorpus(all, size), 100)[0];
+	if (tranche === undefined) {
+		throw new Error('fixture tranche missing');
+	}
+	return tranche;
+}
+
+/** One chunk of a fixture tranche, or a loud fixture failure. */
+function chunkAt(tranche: Tranche, at: number): Chunk {
+	const chunk = tranche.chunks[at];
+	if (chunk === undefined) {
+		throw new Error(`fixture chunk ${at} missing`);
+	}
+	return chunk;
 }
 
 describe('chunkCorpus', () => {
@@ -84,8 +106,8 @@ describe('checkpoints', () => {
 
 	it('resumes mid-tranche: completed chunks are skipped', () => {
 		let checkpoint = buildCheckpoint(tranche, corpus);
-		checkpoint = markComplete(checkpoint, 'chunk-00001');
-		checkpoint = markComplete(checkpoint, 'chunk-00003');
+		checkpoint = markComplete(checkpoint, chunkAt(tranche, 0));
+		checkpoint = markComplete(checkpoint, chunkAt(tranche, 2));
 		const pending = pendingChunks(tranche, checkpoint, corpus);
 		expect(pending.map((c) => c.id)).toEqual([
 			'chunk-00002',
@@ -96,21 +118,21 @@ describe('checkpoints', () => {
 
 	it('markComplete is idempotent', () => {
 		let checkpoint = buildCheckpoint(tranche, corpus);
-		checkpoint = markComplete(checkpoint, 'chunk-00001');
-		checkpoint = markComplete(checkpoint, 'chunk-00001');
+		checkpoint = markComplete(checkpoint, chunkAt(tranche, 0));
+		checkpoint = markComplete(checkpoint, chunkAt(tranche, 0));
 		expect(checkpoint.completed).toEqual(['chunk-00001']);
 	});
 
 	it('round-trips through JSON', () => {
 		const checkpoint = markComplete(
 			buildCheckpoint(tranche, corpus),
-			'chunk-00002',
+			chunkAt(tranche, 1),
 		);
 		expect(parseCheckpoint(JSON.stringify(checkpoint))).toEqual(checkpoint);
 	});
 
 	it('refuses a checkpoint from another tranche', () => {
-		const foreign = { completed: [], corpus, tranche: 'tranche-09' };
+		const foreign = { completed: [], corpus, swept: [], tranche: 'tranche-09' };
 		expect(() => pendingChunks(tranche, foreign, corpus)).toThrow(
 			'checkpoint is for tranche-09',
 		);
@@ -125,10 +147,10 @@ describe('checkpoints', () => {
 	});
 
 	it('refuses completed chunk ids the tranche does not contain', () => {
-		const checkpoint = markComplete(
-			buildCheckpoint(tranche, corpus),
-			'chunk-99999',
-		);
+		const checkpoint = markComplete(buildCheckpoint(tranche, corpus), {
+			id: 'chunk-99999',
+			rids: [],
+		});
 		expect(() => pendingChunks(tranche, checkpoint, corpus)).toThrow(
 			'does not contain: chunk-99999',
 		);
@@ -139,5 +161,86 @@ describe('checkpoints', () => {
 		expect(() => parseCheckpoint('{"tranche": 5}')).toThrow(
 			'checkpoint must be',
 		);
+	});
+});
+
+describe('swept-rid progress', () => {
+	const corpus = corpusFingerprint(rids(100));
+	const tranche = firstTranche(rids(100), 20);
+	const head = chunkAt(tranche, 0);
+
+	it('markComplete records the chunk rids as swept', () => {
+		const checkpoint = markComplete(buildCheckpoint(tranche, corpus), head);
+		expect(checkpoint.swept).toEqual(head.rids);
+	});
+
+	it('carryForward keeps swept rids and clears the chunk ids', () => {
+		const moved = corpusFingerprint(rids(99));
+		const carried = carryForward(
+			markComplete(buildCheckpoint(tranche, corpus), head),
+			moved,
+		);
+		expect(carried.completed).toEqual([]);
+		expect(carried.corpus).toBe(moved);
+		expect(carried.swept).toEqual(head.rids);
+	});
+
+	it('does not re-sweep the head after the population shrinks', () => {
+		const smaller = rids(100).filter((rid) => rid !== 'A00100');
+		const moved = corpusFingerprint(smaller);
+		const recut = firstTranche(smaller, 20);
+		const carried = carryForward(
+			markComplete(buildCheckpoint(tranche, corpus), head),
+			moved,
+		);
+		const pending = pendingChunks(recut, carried, moved);
+		expect(pending.map((c) => c.id)).not.toContain('chunk-00001');
+		expect(pending[0]?.rids[0]).toBe('A00021');
+	});
+
+	it('keeps a chunk only partly covered by swept rids', () => {
+		const recut = firstTranche(rids(100), 30);
+		const carried = carryForward(
+			markComplete(buildCheckpoint(tranche, corpus), head),
+			corpus,
+		);
+		const pending = pendingChunks(recut, carried, corpus);
+		expect(pending.map((c) => c.id)).toContain('chunk-00001');
+	});
+
+	it('reads a legacy checkpoint that has no swept list', () => {
+		const legacy = '{"completed":[],"corpus":"abc","tranche":"tranche-01"}';
+		expect(parseCheckpoint(legacy).swept).toEqual([]);
+	});
+
+	it('rejects a swept list that is not all strings', () => {
+		const bad = '{"completed":[],"corpus":"a","tranche":"t","swept":[5]}';
+		expect(() => parseCheckpoint(bad)).toThrow('checkpoint must be');
+	});
+});
+
+describe('resolveCheckpoint', () => {
+	const corpus = corpusFingerprint(rids(100));
+	const tranche = firstTranche(rids(100), 20);
+	const head = chunkAt(tranche, 0);
+
+	it('builds a fresh checkpoint when none is stored', () => {
+		expect(resolveCheckpoint(undefined, tranche, corpus)).toEqual(
+			buildCheckpoint(tranche, corpus),
+		);
+	});
+
+	it('returns the stored checkpoint when the fingerprint matches', () => {
+		const stored = markComplete(buildCheckpoint(tranche, corpus), head);
+		expect(resolveCheckpoint(stored, tranche, corpus)).toBe(stored);
+	});
+
+	it('carries the rid ledger forward when the fingerprint moved', () => {
+		const stored = markComplete(buildCheckpoint(tranche, corpus), head);
+		const moved = corpusFingerprint(rids(99));
+		const resolved = resolveCheckpoint(stored, tranche, moved);
+		expect(resolved.completed).toEqual([]);
+		expect(resolved.swept).toEqual(head.rids);
+		expect(resolved.corpus).toBe(moved);
 	});
 });

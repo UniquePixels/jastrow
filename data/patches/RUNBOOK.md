@@ -18,7 +18,13 @@ recorded go**. Gates (sweep tiering spec, 2026-08-17):
   consecutive rounds add no new systemic pattern class
   (`data/patches/patterns.jsonl`).
 
-Prompts: sweep agents use `prompts/sweep-v5.md`, which supersedes
+Prompts: the version in force is pinned in code as `PROMPT_VERSION`
+in `research/corpus-inputs.ts` and gated by `prompt-version.test.ts`;
+**the code wins over every prose line in this file.** It currently
+reads `v8`. The paragraph below records what v5 superseded and is
+kept for the history, not as the current instruction.
+
+Sweep agents use `prompts/sweep-v5.md`, which supersedes
 v4 (the `v. sub` redirect carve-out, and the corrected
 `roman-numeral-display` prior — v4 called the kind "all inspected
 ones spurious", and adjudication found 24 real mislinks among its 31
@@ -60,8 +66,11 @@ link-target findings from `link-anomalies.ts`.
    entries + precomputed `sense_index`, pin, `promptVersion: v5`)
    for the next pending chunks; chunk progress lives in
    `data/patches/checkpoints/`.
-3. **Dispatch sweep agents** — one Sonnet agent per chunk (waves
-   of ~7). Each agent: read the signed sweep prompt, read its input
+3. **Dispatch sweep agents** — one agent per chunk (waves of ~7).
+   **Tier depends on the path: Sonnet on the batch path, Opus on the
+   residue path** (tiering spec §4 Phase 2.3, decision T4). Read the
+   tier off the table in the residue section below, not off this
+   line. Each agent: read the signed sweep prompt, read its input
    JSON, write `<workdir>/out/<chunkId>.patches.jsonl` +
    `.manifest.jsonl`. Repo files are never touched by agents, and
    agents judge their own chunk only — keep session notes outside
@@ -128,6 +137,47 @@ Gates: `residue-sweep.test.ts` (unit) and
 `residue-sweep.corpus.test.ts` (corpus). The corpus one re-derives
 the frozen 61 from the detector and pins the 1,988, so a revert to
 the pre-patch corpus fails rather than passing quietly.
+
+## Progress is tracked by rid, not by chunk id
+
+A chunk id is **positional**. `chunkCorpus` sorts the population and
+cuts from the top, so `chunk-r00001` is whatever the first 30 entries
+are *today*. Every detector fix moves the residue, which renumbers
+every chunk, which is why a checkpoint pins a corpus fingerprint and
+`completed` is discarded when it moves.
+
+Discarding `completed` used to discard the progress with it. Three
+consecutive residue runs — the v5 calibration, batch 01 and batch 02 —
+each swept `chunk-r00001..r00005`, and each time that meant the head
+of the corpus:
+
+| Pair | Shared rids |
+| --- | --- |
+| batch 01 ∩ batch 02 | 147 / 150 |
+| calibration ∩ batch 01 | 141 / 150 |
+| calibration ∩ batch 02 | 139 / 150 |
+| **distinct entries, all three runs** | **162** |
+
+450 agent-entries covered 162 of 3,777. The checkpoint now carries a
+second ledger, `swept`, holding **rids**, which are stable across a
+re-cut. `markComplete` writes both; `carryForward` drops `completed`
+and keeps `swept`; `pendingChunks` skips any chunk whose rids are
+*all* swept. `resolveCheckpoint` is the single place that decides
+between resume, carry-forward and fresh, so `prep` and `ingest`
+cannot disagree.
+
+Two consequences worth knowing before reading a batch report:
+
+- **A partly-swept chunk is still dispatched in full.** The rule is
+  deliberately conservative — skipping a chunk that holds even one
+  unswept entry would drop that entry silently. At a boundary this
+  costs up to 29 re-swept entries in one chunk.
+- **The cross-batch comparisons in the archived reports are wrong
+  about their own samples.** Batch 01's README says the re-chunk made
+  these "a different 150 entries"; 141 of them were the same. Read
+  the v5 → v6 → v7 miss-rate movement (26.7% → 13.3% → 20.0%) as a
+  near-controlled comparison on 139 shared entries, which makes v7's
+  regression harder to explain away, not easier.
 
 ## State
 

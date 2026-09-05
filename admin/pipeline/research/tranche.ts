@@ -41,7 +41,6 @@ import type { SourceEntry } from '../body/types.ts';
 import { PATCH_ID, type SemanticPatch } from '../patch/schema.ts';
 import { type AnomalyHint, entryAnomalyHints } from './anomalies.ts';
 import {
-	buildCheckpoint,
 	buildTranches,
 	byCodeUnit,
 	type Chunk,
@@ -50,6 +49,7 @@ import {
 	loadCheckpoint,
 	markComplete,
 	pendingChunks,
+	resolveCheckpoint,
 	saveCheckpoint,
 	type Tranche,
 } from './chunks.ts';
@@ -168,9 +168,15 @@ async function nextPending(
 	fingerprint: string,
 ): Promise<{ pending: Chunk[]; tranche: Tranche }> {
 	for (const tranche of tranches) {
-		const checkpoint =
-			(await loadCheckpoint(tranche.id)) ??
-			buildCheckpoint(tranche, fingerprint);
+		const stored = await loadCheckpoint(tranche.id);
+		const checkpoint = resolveCheckpoint(stored, tranche, fingerprint);
+		// Persist a carry-forward the moment it is decided. `ingest`
+		// resolves the checkpoint again from disk, and if the re-cut
+		// were left unwritten it would append this batch's chunk ids
+		// to the superseded chunking's list.
+		if (stored !== undefined && checkpoint !== stored) {
+			await saveCheckpoint(checkpoint);
+		}
 		const pending = pendingChunks(tranche, checkpoint, fingerprint);
 		if (pending.length > 0) {
 			return { pending, tranche };
@@ -391,11 +397,17 @@ async function accumulateTranche(args: {
 	if (tranche === undefined) {
 		throw new Error(`unknown tranche ${args.trancheId}`);
 	}
-	let checkpoint =
-		(await loadCheckpoint(args.trancheId)) ??
-		buildCheckpoint(tranche, fingerprint);
+	let checkpoint = resolveCheckpoint(
+		await loadCheckpoint(args.trancheId),
+		tranche,
+		fingerprint,
+	);
 	for (const chunkId of args.chunkIds) {
-		checkpoint = markComplete(checkpoint, chunkId);
+		const chunk = tranche.chunks.find((c) => c.id === chunkId);
+		if (chunk === undefined) {
+			throw new Error(`unknown chunk ${chunkId} in ${args.trancheId}`);
+		}
+		checkpoint = markComplete(checkpoint, chunk);
 	}
 	await saveCheckpoint(checkpoint);
 	console.log(

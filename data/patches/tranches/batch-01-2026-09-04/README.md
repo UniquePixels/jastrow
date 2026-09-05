@@ -30,9 +30,18 @@ for the v5 measurement run that produced the fixes behind it.
 
 Missed clean entries: A00911, A00520. Discovery: A00260.
 
-**The two columns are not a controlled comparison.** The detector
+~~**The two columns are not a controlled comparison.** The detector
 fixes moved the residue, which re-cut the chunking, so these are a
-different 150 entries. Read the miss-rate halving as directional.
+different 150 entries. Read the miss-rate halving as directional.~~
+
+**CORRECTED 2026-09-04.** This is wrong. The re-cut renumbered the
+chunks but did not move them: chunk ids are assigned over the
+rid-sorted population from the top, and both runs swept
+`chunk-r00001..r00005`, so both swept the head. **141 of these 150
+entries are the same entries the v5 calibration swept.** The
+comparison is far closer to controlled than this paragraph claims,
+which strengthens the miss-rate halving rather than weakening it.
+See the runbook's "Progress is tracked by rid, not by chunk id".
 
 ## Gates
 

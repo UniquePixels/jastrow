@@ -28,6 +28,16 @@ this report covers the batch as committed.
 
 Missed clean entries: A00644, A00229, A00952. Discovery: A00818.
 
+**CORRECTION 2026-09-04 — the Batch 01 column is the same entries.**
+This batch swept `chunk-r00001..r00005`, and so did batch 01 and the
+v5 calibration; chunk ids are positional over the rid-sorted
+population, so all three swept the head. **147 of these 150 rids are
+batch 01's**, and 139 are also the calibration's. The three columns
+above are a near-controlled v5/v6/v7 comparison on shared entries,
+not three independent samples — so v7's rise to 20.0% is a
+regression on the same entries, not sampling noise. Progress is now
+tracked by rid; see the runbook.
+
 `hint_notes` coverage: **125 of 150 rows**.
 
 ## Gates
