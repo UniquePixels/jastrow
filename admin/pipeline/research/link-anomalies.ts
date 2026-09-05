@@ -147,6 +147,7 @@ const LINK_KINDS = [
 	'inflection-escape-link',
 	'niqqud-twin-target',
 	'one-consonant-diverge',
+	'own-form-escape-link',
 	'roman-numeral-display',
 ] as const;
 
@@ -382,6 +383,71 @@ function divergeHint(
 	};
 }
 
+/** The display is one of the host entry's own inflected forms and the
+ * link leaves the entry for something that does not record that form.
+ *
+ * Adjudication of 20 anchors from the inflection residue (2026-09-05,
+ * docs/v2/phase-2-inflection-gap.md) found 10 real defects, and both
+ * readers independently reached the same discriminator: **does the
+ * target record the displayed form among its own headword,
+ * alt_headwords or plural_form?** It sorted 19 of 20. The correct half
+ * is dominated by Jastrow's own cross-reference stubs — entries whose
+ * whole definition is `, v. X` — which exist precisely to catch an
+ * inflected spelling and do record it. The wrong half lands the reader
+ * on the circus, on dancing, on a personal name.
+ *
+ * Three things this rule does that `inflectionHint` does not, each
+ * because that rule provably misses both named instances:
+ *
+ * 1. It compares with `skeleton`, matres KEPT. `stem` deletes ו and י,
+ *    which collapses a plural onto its own singular headword (A02408
+ *    stops at `inflectionHint`'s clause 2) and a four-letter participle
+ *    below a three-character floor (A01023 stops at clause 1).
+ * 2. It reads `own.prose` as well as `own.skeletons`. 286 of the 362
+ *    residue anchors name their form only in the sense text.
+ * 3. It asks what the TARGET records, not what the target's stems
+ *    resemble.
+ *
+ * Geresh-abbreviated displays never reach here — `anchorHints` routes
+ * them to `abbrevHint` — and that exemption is wanted, not incidental:
+ * the discriminator's one failure in 20 was T00697, where the WRONG
+ * target records the abbreviation too. Those need a sense read. */
+function ownFormEscapeHint(
+	base: string,
+	target: string,
+	own: OwnForms,
+	index: HeadwordIndex,
+): LinkHint | undefined {
+	const form = skeleton(base);
+	const host = skeleton(own.headword);
+	if (
+		form.length < MIN_DIVERGE_LEN ||
+		form === host ||
+		!(own.skeletons.includes(form) || own.prose.includes(form)) ||
+		// The link stays inside the host entry.
+		skeleton(target) === host ||
+		// The target records this very form, so the two entries agree
+		// about the word — the legitimate cross-reference-stub shape.
+		index.recordedSkeletons.get(baseHeadword(target))?.has(form) === true ||
+		// ...or the target is a bare `, v. X` stub that redirects back
+		// to the host. The reader following it lands on the host entry,
+		// so nothing escapes. Both adjudicators named this shape as the
+		// bulk of the correct half, and both of the rule's first-cut
+		// false positives were it: M01430 -> מַכְסַנְיָיא and M02523 ->
+		// מַרְגָּלִי are stubs whose own text sends the reader home,
+		// while recording a DIFFERENT spelling of the form than the one
+		// displayed. Recording the form and redirecting to the host are
+		// two ways of agreeing, and the rule has to accept both.
+		skeleton(index.redirect.get(baseHeadword(target)) ?? '') === host
+	) {
+		return;
+	}
+	return {
+		detail: `display '${base}' is this entry's own inflected form of ${own.headword}, and the link targets ${target}, which does not record it among its own forms`,
+		kind: 'own-form-escape-link',
+	};
+}
+
 /** The display is one of the host entry's own inflected forms (a
  * plural, a construct, a binyan form) but the link leaves the entry
  * for a word related to neither the headword nor the form. The
@@ -524,6 +590,7 @@ function anchorHints(
 		twinHint(base, target, index),
 		divergeHint(base, target, index),
 		inflectionHint(base, target, own, index),
+		ownFormEscapeHint(base, target, own, index),
 	].filter((hint): hint is LinkHint => hint !== undefined);
 }
 

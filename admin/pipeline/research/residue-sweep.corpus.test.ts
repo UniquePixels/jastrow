@@ -52,6 +52,14 @@ import {
  * one at a time. Original figures, measured on `v2` at f668102:
  * RESIDUE 4047, ADJUDICATED 65, TOUCHED 2093.
  *
+ * Re-baselined a THIRD time, 2026-09-05, for the new
+ * `own-form-escape-link` rule (link-anomalies.ts). Previous figures:
+ * RESIDUE 3552, TOUCHED 1825. The rule ADDS 205 entries whose only
+ * hint is the new kind; none had been swept, which is tautological
+ * rather than reassuring — an already-swept entry was already in the
+ * residue, so its hints cannot be only the new kind. The audit that
+ * matters is the adjudicated fixture below, not this count.
+ *
  * Re-baselined a SECOND time, 2026-09-04, for the
  * `rare-dotted-variant` bare-word guard (`maxBareForRare`, see
  * anomalies.ts). Previous figures: RESIDUE 3838, TOUCHED 1988.
@@ -79,10 +87,10 @@ import {
  * population, not merely un-hinted. Separating "worth sweeping" from
  * "has a hint" would keep them, and would mean this file's
  * every-entry-carries-a-hint invariant no longer holds. */
-const RESIDUE: number = 3552;
+const RESIDUE: number = 3757;
 const ADJUDICATED_COUNT: number = 61;
 const SWEEP: number = RESIDUE - ADJUDICATED_COUNT;
-/** Sweep entries whose TEXT a transform rewrote — 52.3% of 3,491.
+/** Sweep entries whose TEXT a transform rewrote — 52.7% of 3,696.
  *
  * The predicate is byte difference, not "a rule fired": 2,137 sweep
  * entries produce a transform record and **2,093 of them come out
@@ -90,7 +98,7 @@ const SWEEP: number = RESIDUE - ADJUDICATED_COUNT;
  * reader or an agent could see. The bytes are what matters here,
  * because the question this number answers is how much of the
  * population an agent would read differently. */
-const TOUCHED: number = 1825;
+const TOUCHED: number = 1946;
 
 /** One healed corpus, its tables and its sweep list, built once for
  * the whole file, **from the production function**.
@@ -228,7 +236,7 @@ describe('the sweep population', () => {
 });
 
 describe('HEALED IS NOT PRE-PATCH — the regression this module exists to prevent', () => {
-	it('rewrites 1,825 of the sweep entries, so a revert to pre-patch cannot pass', async () => {
+	it('rewrites 1,946 of the sweep entries, so a revert to pre-patch cannot pass', async () => {
 		const { corpus, rids } = await healed();
 		const pre = new Map(
 			(await repairedEntries()).map((e) => [e.rid, JSON.stringify(e)]),
@@ -262,6 +270,14 @@ describe('HEALED IS NOT PRE-PATCH — the regression this module exists to preve
 	}, 120_000);
 });
 
+/** Detector kinds that did not exist when phase 2.3 items 1 and 2 were
+ * adjudicated (2026-09-03), and so cannot be part of re-deriving what
+ * was adjudicated. `own-form-escape-link` shipped 2026-09-05 and added
+ * 33 entries to item 1, doubling it to 66 — every one unadjudicated
+ * and belonging IN the sweep, so counting them would have silently
+ * excluded 33 entries nobody has read. */
+const POST_ADJUDICATION = 'own-form-escape-link';
+
 describe('ADJUDICATED re-derives from the detector', () => {
 	it('is exactly the 33 created-hint entries union the 31 roman ones', async () => {
 		// The POST side is the memo's — rebuilding it here would be
@@ -278,8 +294,28 @@ describe('ADJUDICATED re-derives from the detector', () => {
 		// Item 1: hints the rules created. Two readings, because the
 		// fixed-table one cannot see a link hint a headword repair
 		// creates — the argument is in phase-2-created-hints.md.
-		const item1 = new Set(gains(before, fixed).keys());
-		const linkKinds = new Set<string>(LINK_KINDS);
+		// Both clauses read the kinds AS OF THE ADJUDICATION, so a
+		// detector rule written afterwards cannot retroactively enlarge
+		// what was adjudicated. See the note on `linkKinds` below.
+		const item1 = new Set(
+			[...gains(before, fixed)]
+				.filter(([, keys]) => keys.some((k) => kindOf(k) !== POST_ADJUDICATION))
+				.map(([rid]) => rid),
+		);
+		// The link kinds AS OF THE ADJUDICATION (phase 2.3 items 1 and
+		// 2, 2026-09-03), not as of today. This clause asks which hints
+		// the TRANSFORM RULES created, so a detector rule written after
+		// the adjudication cannot have contributed to it — and the 61
+		// entries ADJUDICATED excludes from the sweep were ruled on
+		// without it. `own-form-escape-link` (2026-09-05) added 33
+		// entries here and doubled item 1 to 66; every one of them is
+		// unadjudicated and belongs IN the sweep, so excluding them
+		// would have silently dropped 33 entries nobody has read.
+		// A kind added to LINK_KINDS in future needs a deliberate
+		// decision here, which is why this list is spelled out.
+		const linkKinds = new Set<string>(
+			LINK_KINDS.filter((k) => k !== POST_ADJUDICATION),
+		);
 		for (const [rid, keys] of gains(before, after)) {
 			if (keys.some((k) => linkKinds.has(kindOf(k)))) {
 				item1.add(rid);
@@ -319,4 +355,110 @@ describe('ADJUDICATED re-derives from the detector', () => {
 			[...derived].filter((rid) => inResidue.has(rid)).sort(byCodeUnit),
 		).toEqual([...ADJUDICATED]);
 	}, 180_000);
+});
+
+/** The adjudicated fixture for `own-form-escape-link`.
+ *
+ * 20 anchors from the inflection residue, read by two independent Opus
+ * adjudicators on 2026-09-05, each verdict grounded in the target
+ * entry's own corpus text (docs/v2/phase-2-inflection-gap.md). 10 are
+ * real defects, 10 are correct links.
+ *
+ * This is the only gate on the rule that is not synthetic, and it is
+ * IN-SAMPLE: the discriminator was derived from these same 20, so the
+ * score below is a floor on how badly the rule can regress, not an
+ * estimate of how it performs on unseen anchors. Nothing has measured
+ * that yet. */
+const ADJUDICATED_ANCHORS: readonly [string, string, boolean][] = [
+	['A00277', 'אֵגוֹרִים', true],
+	['B00178', 'בָּהוּל', true],
+	['C00271', 'גּוּבֵּי', true],
+	['C01262', 'גַּרְגְּרָנִיתָא', false],
+	['H00109', 'חֲבֵרוֹת', false],
+	['H01889', 'חֲתִימָתָא', true],
+	['K00055', 'כִּבְשָׁא', false],
+	['K01065', 'כְּפָתַיָּא', true],
+	['M01430', 'מַכְסַנְיָיתָא', false],
+	['M02523', 'מַרְגַּלְיָיתָא', false],
+	['N00891', 'נמרין', false],
+	['O01307', 'סְעָרִין', false],
+	['P00877', 'עַמְרָא', false],
+	['P01484', 'עֲשִׂירִיתָא', false],
+	['Q01030', 'פַּלְטֵירִין', false],
+	['S00652', 'קוּרְקְסַיָּא', true],
+	['T00033', 'רִאשׁוֹנוֹת', true],
+	['T00697', 'רִקּ', true],
+	['U01134', 'שְׁכוּנָן', true],
+	['U02037', 'שָׁרְשִׁין', true],
+];
+
+/** The three anchors the rule is KNOWN not to sort, each for a stated
+ * reason. Pinned so that a change which fixes one, or breaks a fourth,
+ * fails here instead of passing quietly. */
+const KNOWN_FAILURES: ReadonlySet<string> = new Set([
+	// Geresh display: `anchorHints` routes it to `abbrevHint`, and the
+	// exemption is deliberate — the WRONG target רִיקּוּד records רִקּ׳
+	// among its own forms, so the discriminator would answer
+	// "recorded" and clear a real defect.
+	'T00697',
+	// The target records גּוֹבִי, which shares a skeleton with the
+	// host's plural גּוּבֵּי while being a different word. The same
+	// homograph collision as A02408; not decidable from letters.
+	'C00271',
+	// The host's own text says "(v. next w.)" and the link obeys it.
+	// Correct, but for a reason in the HOST's prose that no comparison
+	// of the two entries' forms can see.
+	'M01430',
+]);
+
+describe('own-form-escape-link against the adjudicated 20', () => {
+	it('reproduces every verdict it is known to be able to sort', async () => {
+		const { corpus, tables } = await healed();
+		const disagreed: string[] = [];
+		let sorted = 0;
+		for (const [rid, display, isDefect] of ADJUDICATED_ANCHORS) {
+			const entry = corpus.get(rid);
+			expect(entry).toBeDefined();
+			const fired = entryAnomalyHints(
+				entry as SourceEntry,
+				tables.abbrev,
+				tables.index,
+				tables.hebrew,
+			).some(
+				(h) => h.kind === 'own-form-escape-link' && h.detail.includes(display),
+			);
+			if (KNOWN_FAILURES.has(rid)) {
+				continue;
+			}
+			if (fired === isDefect) {
+				sorted += 1;
+			} else {
+				disagreed.push(
+					`${rid} '${display}' expected ${isDefect}, got ${fired}`,
+				);
+			}
+		}
+		expect(disagreed).toEqual([]);
+		// Asserted, not inferred: a loop that silently matched nothing
+		// would also produce an empty `disagreed`.
+		expect(sorted).toBe(ADJUDICATED_ANCHORS.length - KNOWN_FAILURES.size);
+	});
+
+	it('still fails the three it is known to fail, for the stated reasons', async () => {
+		const { corpus, tables } = await healed();
+		for (const rid of KNOWN_FAILURES) {
+			const row = ADJUDICATED_ANCHORS.find(([r]) => r === rid);
+			expect(row).toBeDefined();
+			const [, display, isDefect] = row as [string, string, boolean];
+			const fired = entryAnomalyHints(
+				corpus.get(rid) as SourceEntry,
+				tables.abbrev,
+				tables.index,
+				tables.hebrew,
+			).some(
+				(h) => h.kind === 'own-form-escape-link' && h.detail.includes(display),
+			);
+			expect(fired).not.toBe(isDefect);
+		}
+	});
 });

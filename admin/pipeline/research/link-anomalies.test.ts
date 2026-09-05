@@ -498,3 +498,85 @@ describe('formsOf is narrower than ownForms (batch 02 fix, 2026-09-04)', () => {
 		expect(kinds(hints)).toContain('inflection-escape-link');
 	});
 });
+
+describe('own-form-escape-link (inflection residue adjudication, 2026-09-05)', () => {
+	// Both adjudicators of the 20-entry sample arrived, independently
+	// and unprompted, at one discriminator: does the TARGET record the
+	// displayed form among its own headword / alt_headwords /
+	// plural_form, matres kept? It sorted 19 of 20 where three
+	// code-derived predicates had sorted none. docs/v2/phase-2-inflection-gap.md.
+
+	it('fires when the target is an independent lemma (A00277 shape)', () => {
+		// Host אֵגוֹר "heap, hill", Pl. אֵגוֹרִים stated in sense prose.
+		// Target אֵגוֹרִי is its own lemma, "fit for storage", whose own
+		// plural is אֵגוֹרִין — it does not record אֵגוֹרִים.
+		const host = entry(
+			'A00277',
+			`a mound rises out of it.—Pl. אֵגוֹרִים ${anchor('אֵגוֹרִי', 'אֵגוֹרִים')}`,
+			'אֵגוֹר',
+		);
+		const target = entry('A00282', 'fit for storage', 'אֵגוֹרִי', {
+			plural_form: ['אֵגוֹרִין'],
+		} as Partial<SourceEntry>);
+		const hints = entryAnomalyHints(host, new Map(), index([], [host, target]));
+		expect(kinds(hints)).toContain('own-form-escape-link');
+	});
+
+	it('stays silent when the target records the displayed form (H00109 shape)', () => {
+		// Host חָבֵר, Pl. חֲבֵרוֹת. Target חֲבֵרָה is the feminine's own
+		// stub and lists חֲבֵרוֹת among its alt_headwords — two entries
+		// agreeing about a word, which is the legitimate shape.
+		const host = entry(
+			'H00109',
+			`Fem. חֲבֵרָה.—Pl. חֲבֵרוֹת ${anchor('חֲבֵרָה', 'חֲבֵרוֹת')}`,
+			'חָבֵר',
+		);
+		const target = entry('H00118', ', v. חָבֵר', 'חֲבֵרָה', {
+			alt_headwords: ['חֲבֵרוֹת'],
+		} as Partial<SourceEntry>);
+		const hints = entryAnomalyHints(host, new Map(), index([], [host, target]));
+		expect(kinds(hints)).not.toContain('own-form-escape-link');
+	});
+
+	it('reaches a form stated only in sense prose (A01023 shape)', () => {
+		// 286 of the 362 residue anchors are this: the form appears as
+		// `Part. pass. X` in the sense text and in no structured field,
+		// so `ownForms` never sees it and every inflection rule is blind.
+		const host = entry(
+			'A01023',
+			`Part. pass. אָחוּי united ${anchor('חוי', 'אָחוּי')}`,
+			'אחי',
+		);
+		const target = entry('H00309', 'Pa. to show; to tell', 'חוי');
+		const hints = entryAnomalyHints(host, new Map(), index([], [host, target]));
+		expect(kinds(hints)).toContain('own-form-escape-link');
+	});
+
+	it('does not fire when the link stays inside the host entry', () => {
+		const host = entry(
+			'X00001',
+			`—Pl. אֵגוֹרִים ${anchor('אֵגוֹר', 'אֵגוֹרִים')}`,
+			'אֵגוֹר',
+		);
+		const hints = entryAnomalyHints(host, new Map(), index([], [host]));
+		expect(kinds(hints)).not.toContain('own-form-escape-link');
+	});
+
+	it('exempts a geresh-abbreviated display, where the test is known to fail', () => {
+		// T00697, the sample's one discriminator failure: host רִיקּוּחַ
+		// "perfume", Pl. רִיקּוּחִים abbreviated רִקּ׳ — and the WRONG
+		// target רִיקּוּד "dancing" records רִקּ׳ among its own forms too,
+		// so the orthographic test says "recorded" and is wrong. These
+		// need a sense read; `abbrev-mislink` already judges the shape.
+		const host = entry(
+			'T00697',
+			`perfume.—Pl. רִיקּוּחִים, רִקּ׳ ${anchor('רִיקּוּד', 'רִקּ׳')}`,
+			'רִיקּוּחַ',
+		);
+		const target = entry('T00695', 'dancing', 'רִיקּוּד', {
+			alt_headwords: ['רִקּ׳'],
+		} as Partial<SourceEntry>);
+		const hints = entryAnomalyHints(host, new Map(), index([], [host, target]));
+		expect(kinds(hints)).not.toContain('own-form-escape-link');
+	});
+});

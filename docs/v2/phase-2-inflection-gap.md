@@ -205,6 +205,58 @@ Three things are worth doing, in this order:
    detector can at best hand it the ownership count, which the
    `niqqud-twin-target` hint already does for a neighbouring shape.
 
+## Shipped: `own-form-escape-link`
+
+The rule landed 2026-09-05 in `link-anomalies.ts`. It differs from
+`inflection-escape-link` in the three ways the funnel above demands:
+it compares with `skeleton` (matres kept), it reads forms stated only
+in sense prose via a new `OwnForms.prose`, and it asks what the target
+**records** rather than what its stems resemble. Geresh displays never
+reach it — `anchorHints` routes them to `abbrevHint` — which is the
+wanted behaviour, not an oversight.
+
+Two exemptions, both from the adjudicated sample:
+
+1. **The target records the displayed form** (matres kept, via a new
+   `HeadwordIndex.recordedSkeletons`). This is the discriminator.
+2. **The target is a bare `, v. X` stub redirecting back to the host.**
+   Added after the first cut: recording the form and redirecting home
+   are two ways of agreeing, and M02523 was a false positive because
+   the stub records a *different* spelling of the form than the one
+   displayed.
+
+### Score on the fixture, and what it is not
+
+**17 of 20**, pinned by a corpus test alongside the three it is known
+to miss. **This is in-sample** — the discriminator was derived from
+these same 20 — so it is a floor on regression, not an estimate of
+performance on unseen anchors. Nothing has measured that.
+
+| Not sorted | Why |
+| --- | --- |
+| T00697 | geresh display, exempted by design; the wrong target records the abbreviation too |
+| C00271 | the target records `גּוֹבִי`, a different word sharing the host plural's skeleton — the A02408 collision again |
+| M01430 | the host's own prose says "(v. next w.)" and the link obeys it; no comparison of the two entries' forms can see that |
+
+### Population
+
+RESIDUE 3,552 → **3,757**; SWEEP **3,696**; TOUCHED 1,825 → **1,946**.
+205 entries enter whose only hint is the new kind. None had been
+swept — which is tautological, not reassuring: an already-swept entry
+was already in the residue, so its hints cannot be *only* the new kind.
+The audit that carries weight is the fixture, not that count.
+
+### A gate caught an interaction I did not anticipate
+
+`ADJUDICATED re-derives from the detector` failed: item 1 doubled from
+33 to 66. Adding a kind to `LINK_KINDS` made the derivation count
+entries the *new rule* hinted as entries the *transform rules* had
+created hints for. Left alone it would have excluded 33 unadjudicated
+entries from the sweep — silently, since ADJUDICATED's own gate would
+still have passed. Both clauses now read the kinds as of the
+adjudication date, with the post-adjudication kind named in a constant
+so the next addition needs a deliberate decision.
+
 ## Provenance
 
 Measurements taken with the production `ownForms`, `stem`, `skeleton`

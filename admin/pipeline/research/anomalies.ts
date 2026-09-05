@@ -86,6 +86,7 @@ interface AnomalyHint {
 		| 'inflection-escape-link'
 		| 'niqqud-twin-target'
 		| 'one-consonant-diverge'
+		| 'own-form-escape-link'
 		| 'rare-dotted-variant'
 		| 'roman-numeral-display'
 		| 'truncated-formula';

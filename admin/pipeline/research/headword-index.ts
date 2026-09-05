@@ -37,6 +37,13 @@ interface HeadwordIndex {
 	 * entries that agree about the word, not an escape (A00450,
 	 * A00516; batch 02, 2026-09-04). */
 	formsOf: Map<string, Set<string>>;
+	/** Headword -> the SKELETONS (matres kept) of the forms its own
+	 * entry records, its headword included. `formsOf` answers the same
+	 * question through `stem`, which deletes matres and so cannot tell
+	 * a plural from its singular. The adjudicated discriminator — does
+	 * the target record the displayed form? — needs the letters
+	 * preserved, so it reads this map. */
+	recordedSkeletons: Map<string, Set<string>>;
 	/** Headword -> the target of its bare `, v. Y` redirect stub. */
 	redirect: Map<string, string>;
 	/** Consonantal skeleton -> every entry headword carrying it, with
@@ -55,9 +62,27 @@ interface OwnForms {
 	forms: string[];
 	/** The entry's headword, homograph suffix and asterisk removed. */
 	headword: string;
+	/** Inflected forms named in the SENSE TEXT (`Pl. X`,
+	 * `Part. pass. X`, `Fem. X`) and in no structured field. 286 of the
+	 * 362 anchors in the adjudicated inflection residue are this shape,
+	 * so a rule that reads only `forms` is blind to four fifths of the
+	 * class. Skeletons, matres KEPT. */
+	prose: string[];
+	/** `forms` with matres KEPT. `forms` runs through `consonants`,
+	 * which deletes ו and י — exactly the letters distinguishing an
+	 * inflected form from its base, so a plural collapses onto its own
+	 * singular (A02408) and a four-letter participle onto two letters
+	 * (A01023). Any rule comparing a form against its base needs this
+	 * one. */
+	skeletons: string[];
 }
 
 const TAG = /<[^>]*>/gu;
+/** How the corpus names an inflected form inside a sense: a stem or
+ * number label, then the Hebrew word. Deliberately a small closed list
+ * — a wider one starts matching ordinary citations. */
+const PROSE_FORM =
+	/\b(?<label>Pl\.|Part\. pass\.|Part\.|Fem\.|Constr\.)\s*(?:<[^>]*>\s*)*(?<form>[\u05d0-\u05ea\u0591-\u05c7]{2,})/gu;
 /** Hebrew niqqud and cantillation. */
 const NIQQUD = /[֑-ׇ]/gu;
 /** Matres lectionis, whose plene/defective alternation is free
@@ -207,7 +232,25 @@ function ownForms(entry: SourceEntry): OwnForms {
 	const forms = raw
 		.map((f) => consonants(baseHeadword(f.replace(TAG, ' '))))
 		.filter((f) => f.length >= 2);
-	return { forms: [...new Set(forms)], headword: baseHeadword(entry.headword) };
+	const skeletons = raw
+		.map((f) => skeleton(baseHeadword(f.replace(TAG, ' '))))
+		.filter((f) => f.length >= 2);
+	const known = new Set(skeletons);
+	const prose = new Set<string>();
+	for (const def of entryDefinitions(entry)) {
+		for (const m of def.replace(TAG, ' ').matchAll(PROSE_FORM)) {
+			const f = skeleton(m.groups?.['form'] as string);
+			if (f.length >= 2 && !known.has(f)) {
+				prose.add(f);
+			}
+		}
+	}
+	return {
+		forms: [...new Set(forms)],
+		headword: baseHeadword(entry.headword),
+		prose: [...prose],
+		skeletons: [...known],
+	};
 }
 
 /** Index the corpus headwords for the link-target rules. */
@@ -218,6 +261,7 @@ function buildHeadwordIndex(entries: Iterable<SourceEntry>): HeadwordIndex {
 	const redirect = new Map<string, string>();
 	const skeletonOwners = new Map<string, string[]>();
 	const formsOf = new Map<string, Set<string>>();
+	const recordedSkeletons = new Map<string, Set<string>>();
 	for (const entry of entries) {
 		const base = baseHeadword(entry.headword);
 		exact.add(base);
@@ -263,12 +307,31 @@ function buildHeadwordIndex(entries: Iterable<SourceEntry>): HeadwordIndex {
 			}
 			formsOf.set(base, known);
 		}
+		const recordedSkel = new Set<string>([skeleton(base)]);
+		for (const f of [
+			...(entry.plural_form ?? []),
+			...(entry.alt_headwords ?? []),
+		]) {
+			const sk = skeleton(recordedVariant(f));
+			if (sk.length >= 2) {
+				recordedSkel.add(sk);
+			}
+		}
+		recordedSkeletons.set(base, recordedSkel);
 		const to = redirectTarget(entry);
 		if (to !== undefined) {
 			redirect.set(base, to);
 		}
 	}
-	return { alts, bySkeleton, exact, formsOf, redirect, skeletonOwners };
+	return {
+		alts,
+		bySkeleton,
+		exact,
+		formsOf,
+		recordedSkeletons,
+		redirect,
+		skeletonOwners,
+	};
 }
 
 export type { HeadwordIndex, OwnForms };
