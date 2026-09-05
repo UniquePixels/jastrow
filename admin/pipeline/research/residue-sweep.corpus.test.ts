@@ -50,11 +50,39 @@ import {
  * sweep-v5 class 11 — the display is a spelling the target's own
  * entry records — so the sweep had been paying Opus to reject them
  * one at a time. Original figures, measured on `v2` at f668102:
- * RESIDUE 4047, ADJUDICATED 65, TOUCHED 2093. */
-const RESIDUE: number = 3838;
+ * RESIDUE 4047, ADJUDICATED 65, TOUCHED 2093.
+ *
+ * Re-baselined a SECOND time, 2026-09-04, for the
+ * `rare-dotted-variant` bare-word guard (`maxBareForRare`, see
+ * anomalies.ts). Previous figures: RESIDUE 3838, TOUCHED 1988.
+ *
+ * The move was audited rather than accepted. Running `residueRids`
+ * twice over one healed corpus — the old behaviour restored by
+ * mutating `ABBREV_THRESHOLDS`, so both populations come from the
+ * production code path — gives **288 dropped, 2 gained**, and
+ * `rare-dotted-variant` was the ONLY hint kind any of the 288 had.
+ * The guard removed exactly the class it was aimed at and nothing
+ * else.
+ *
+ * What the dropouts are worth, measured against the four archived
+ * manifests: 20 of the 288 have been swept at least once. 17 came
+ * back `clean`; the other three (A00446, A01311, A01525) carry real
+ * escalations that are **already recorded**, so no finding is lost by
+ * dropping them. On that sample the class is ~85% clean, which is the
+ * case for the guard.
+ *
+ * The cost is the other 268, which have never been swept. If the 15%
+ * rate holds, roughly 40 of them hold something a sweep would have
+ * found — not from the hint, which was wrong, but from an agent
+ * reading the entry it bought a ticket into. That is a real loss and
+ * it is the reason this comment exists: the entries are gone from the
+ * population, not merely un-hinted. Separating "worth sweeping" from
+ * "has a hint" would keep them, and would mean this file's
+ * every-entry-carries-a-hint invariant no longer holds. */
+const RESIDUE: number = 3552;
 const ADJUDICATED_COUNT: number = 61;
 const SWEEP: number = RESIDUE - ADJUDICATED_COUNT;
-/** Sweep entries whose TEXT a transform rewrote — 52.9%.
+/** Sweep entries whose TEXT a transform rewrote — 52.3% of 3,491.
  *
  * The predicate is byte difference, not "a rule fired": 2,137 sweep
  * entries produce a transform record and **2,093 of them come out
@@ -62,7 +90,7 @@ const SWEEP: number = RESIDUE - ADJUDICATED_COUNT;
  * reader or an agent could see. The bytes are what matters here,
  * because the question this number answers is how much of the
  * population an agent would read differently. */
-const TOUCHED: number = 1988;
+const TOUCHED: number = 1825;
 
 /** One healed corpus, its tables and its sweep list, built once for
  * the whole file, **from the production function**.
@@ -200,7 +228,7 @@ describe('the sweep population', () => {
 });
 
 describe('HEALED IS NOT PRE-PATCH — the regression this module exists to prevent', () => {
-	it('rewrites 1,988 of the sweep entries, so a revert to pre-patch cannot pass', async () => {
+	it('rewrites 1,825 of the sweep entries, so a revert to pre-patch cannot pass', async () => {
 		const { corpus, rids } = await healed();
 		const pre = new Map(
 			(await repairedEntries()).map((e) => [e.rid, JSON.stringify(e)]),

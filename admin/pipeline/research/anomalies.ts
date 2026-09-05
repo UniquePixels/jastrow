@@ -101,13 +101,41 @@ interface AbbrevCounts {
 /** Frequency table over every definition in the corpus. */
 type AbbrevTable = Map<string, AbbrevCounts>;
 
-/** Calibrated thresholds (2026-08-13). A form is anomalous when the
- * dotted form both clears MIN_DOTTED and outnumbers the observed
- * form RATIO-fold; a dotted token is "rare" at or below MAX_RARE
- * with an edit-distance-1 sibling at or above MIN_SIBLING. */
+/** Calibrated thresholds (2026-08-13, recalibrated 2026-09-04 after
+ * residue batch 03). A form is anomalous when the dotted form both
+ * clears MIN_DOTTED and outnumbers the observed form RATIO-fold; a
+ * dotted token is "rare" at or below MAX_RARE with an
+ * edit-distance-1 sibling at or above MIN_SIBLING, and is not a word
+ * the corpus also writes bare (MAX_BARE_FOR_RARE).
+ *
+ * `minDottedBare` is deliberately separate from `minDotted` and lower.
+ * A00931 (`format` for `format.`, 24 dotted against 1 bare) was batch
+ * 03's unhinted catchable miss: it cleared the 20x ratio nearly
+ * 24-fold and was blocked only by the round 50. Measured over the
+ * corpus, dropping the bare arm's floor to 20 moves it from 67
+ * distinct firing tokens to 72 (+7.5%) and admits `format`; dropping
+ * further to 10 admits nothing more, so below 20 the ratio test is
+ * doing all the work. The comma arm keeps 50 because nothing measured
+ * it — a threshold is only as good as the count behind it.
+ *
+ * `maxBareForRare` is the English-word guard. Four consecutive runs
+ * reported agents rejecting `rare-dotted-variant` on gloss words
+ * ending a sentence — `King.`, `dam.`, `hart.`, `dawn.`, `duct.`,
+ * `nut.`, `tub.`, `camp.`, `then.`, `Mars.`, `nets.` and more, ~18
+ * false hints. Measured, the separator is `bare`: `then` is 5 dotted
+ * against 190 bare, `camp` 5 against 35, while every confirmed true
+ * positive never appears bare (`Mid.` 3/0, `Est.` 2/0, `Zepph.` 1/0).
+ * The bar is 1 rather than 0 so one stray bare use cannot silence a
+ * true positive. Corpus-wide this takes the rule from 390 distinct
+ * firing tokens to 219 (-43.8%) and eliminates 11 of the 16 reported
+ * false positives with no measured loss. The 5 survivors (`prow.`,
+ * `Sat.`, `Corr.`, `Ther.`, `Lang.`) are not English words at all —
+ * they are correct but rare abbreviations, a different problem. */
 const ABBREV_THRESHOLDS = {
+	maxBareForRare: 1,
 	maxRare: 5,
 	minDotted: 50,
+	minDottedBare: 20,
 	minSibling: 100,
 	ratio: 20,
 };
@@ -294,7 +322,7 @@ function tokenHints(raw: string, table: AbbrevTable): AnomalyHint[] {
 	}
 	if (
 		m.groups?.['punct'] === undefined &&
-		dominant &&
+		counts.dotted >= ABBREV_THRESHOLDS.minDottedBare &&
 		counts.dotted >= ABBREV_THRESHOLDS.ratio * counts.bare
 	) {
 		hints.push({
@@ -304,7 +332,8 @@ function tokenHints(raw: string, table: AbbrevTable): AnomalyHint[] {
 	}
 	if (
 		m.groups?.['punct'] === '.' &&
-		counts.dotted <= ABBREV_THRESHOLDS.maxRare
+		counts.dotted <= ABBREV_THRESHOLDS.maxRare &&
+		counts.bare <= ABBREV_THRESHOLDS.maxBareForRare
 	) {
 		const siblings = ed1Siblings(word, table);
 		// Firing is unchanged: one sibling must clear the calibrated

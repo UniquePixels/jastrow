@@ -105,7 +105,7 @@ argument; the operational differences are:
 |---|---|---|
 | Prep | `tranche.ts prep` | `tranche.ts prep-residue` |
 | Population | all 32,512 entries | the residue, minus the 65 items 1–2 adjudicated |
-| Size | 1,084 chunks | **3,777 entries / 126 chunks** (3,982 / 133 at first cut; the detector fixes of 2026-09-04 moved it in three steps — 3,926, 3,885, 3,777) |
+| Size | 1,084 chunks | **3,491 entries / 117 chunks** (3,982 / 133 at first cut; the detector fixes of 2026-09-04 moved it in four steps — 3,926, 3,885, 3,777, 3,491) |
 | Corpus state | pre-patch (`applyRepairs` only) | **healed** (+ both transform phases) |
 | Chunk ids | `chunk-00001` | `chunk-r00001` |
 | Tranche ids | `tranche-01` | `residue-01` |
@@ -114,8 +114,8 @@ argument; the operational differences are:
 **Why the corpus state differs, and why it is not optional.** The
 phase manifest in `patch/apply.ts` is `text-repairs` ->
 `structural-repairs` -> `patch-apply`, so a patch lands on text the
-54 transform rules have already rewritten. **1,988 of the 3,777 —
-52.6% — read differently after the rules.** An agent handed
+54 transform rules have already rewritten. **1,825 of the 3,491 —
+52.3% — read differently after the rules.** An agent handed
 pre-patch text authors anchors against a string that does not exist
 at apply time, and re-reports defects the rules already fixed. When
 batches 01 and 02 ran this overlap was near zero, because the rules
@@ -135,8 +135,11 @@ chunking and fingerprint.
 
 Gates: `residue-sweep.test.ts` (unit) and
 `residue-sweep.corpus.test.ts` (corpus). The corpus one re-derives
-the frozen 61 from the detector and pins the 1,988, so a revert to
-the pre-patch corpus fails rather than passing quietly.
+the frozen 61 from the detector and pins the 1,825, so a revert to
+the pre-patch corpus fails rather than passing quietly. Its pinned
+figures have been re-baselined twice, each time with the dropouts
+audited in the constants' own docstring — a move in them is a change
+to what item 3 sweeps, and reading it is the point.
 
 ## Progress is tracked by rid, not by chunk id
 

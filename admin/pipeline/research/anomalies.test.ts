@@ -124,6 +124,45 @@ describe('entryAnomalyHints — abbreviation rules', () => {
 		expect(hints.filter((h) => h.kind === 'rare-dotted-variant')).toEqual([]);
 	});
 
+	it('does not fire rare-dotted-variant on a word the corpus writes bare', () => {
+		// Batch 03 (2026-09-04), fourth run to report this: agents
+		// rejected `King.`, `dam.`, `hart.`, `prow.`, `dawn.`, `duct.`,
+		// `nut.`, `tub.`, `camp.`, `then.` and more as English gloss
+		// words ending a sentence, not truncated abbreviations. Measured
+		// against the corpus, the separator is `bare`: `then` is 5
+		// dotted against 190 bare, while every confirmed true positive
+		// (`Mid.` 3/0, `Est.` 2/0) never appears bare at all.
+		const table: AbbrevTable = new Map([
+			['then', { bare: 190, comma: 12, dotted: 5 }],
+			['than', { bare: 0, comma: 0, dotted: 200 }],
+		]);
+		const hints = entryAnomalyHints(entry('X00003', 'and then. 1'), table);
+		expect(hints.filter((h) => h.kind === 'rare-dotted-variant')).toEqual([]);
+	});
+
+	it('still fires rare-dotted-variant on a token with one stray bare use', () => {
+		// The guard on the fix above: the bar is a small tolerance, not
+		// zero, so one stray bare occurrence cannot silence a true
+		// positive the way `Midd.` was silenced by a round threshold.
+		const table: AbbrevTable = new Map([
+			['Mid', { bare: 1, comma: 0, dotted: 3 }],
+			['Midd', { bare: 0, comma: 0, dotted: 200 }],
+		]);
+		const hints = entryAnomalyHints(entry('X00004', 'v. Mid. IV, 6.'), table);
+		expect(hints.some((h) => h.kind === 'rare-dotted-variant')).toBe(true);
+	});
+
+	it('flags a bare abbreviation whose dotted form is uncommon (A00931)', () => {
+		// A00931, batch 03's unhinted catchable miss: `format` for
+		// `format.` sits at 24 dotted against 1 bare. It clears the 20x
+		// ratio comfortably and was blocked only by minDotted's 50.
+		const table: AbbrevTable = new Map([
+			['format', { bare: 1, comma: 2, dotted: 24 }],
+		]);
+		const hints = entryAnomalyHints(entry('X00005', 'a format; cmp'), table);
+		expect(hints.some((h) => h.kind === 'bare-abbrev')).toBe(true);
+	});
+
 	it('dedupes repeated findings for the same token', () => {
 		const hints = entryAnomalyHints(
 			entry('X00001', 'Ar, once and Ar, twice'),
