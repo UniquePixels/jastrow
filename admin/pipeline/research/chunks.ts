@@ -21,6 +21,11 @@
  * and `pendingChunks` skips chunks it already covers. Without that
  * ledger a re-chunk restarts at the head of the corpus, and three
  * consecutive residue batches swept the same 150 entries.
+ *
+ * Skipping is not enough on its own, because a chunk is skipped only
+ * when the ledger covers ALL of it. `pendingChunks` therefore also
+ * ORDERS what is left by how much of it is unswept; its docstring
+ * carries the measurement that forced this.
  */
 import { createHash } from 'node:crypto';
 
@@ -249,10 +254,29 @@ function resolveCheckpoint(
 	return stored.corpus === corpus ? stored : carryForward(stored, corpus);
 }
 
-/** The chunks still to sweep: everything the checkpoint has not
- * completed. Validates that the checkpoint belongs to this tranche
- * and this exact corpus — a mismatch means the chunking moved under
- * the resume, and continuing would reassign entries. */
+/** The chunks still to sweep, richest in unswept entries first.
+ * Validates that the checkpoint belongs to this tranche and this
+ * exact corpus — a mismatch means the chunking moved under the
+ * resume, and continuing would reassign entries.
+ *
+ * MEMBERSHIP is deliberately conservative: a chunk holding even one
+ * unswept rid is returned, and an agent sweeps it in full, because
+ * skipping it would drop that entry silently.
+ *
+ * ORDER is what stops that conservatism from costing a batch.
+ * Callers slice this list from the head, so positional order spends
+ * the window on whatever the chunker happens to have cut first. A
+ * detector change that interleaves new entries into an
+ * already-swept head leaves every old chunk holding one or two of
+ * them, and each is then dispatched in full: batch 05's prep
+ * offered 150 entries covering **6** unswept ones, with 110
+ * untouched 30-of-30 chunks waiting behind them. Ranking by unswept
+ * count puts the whole chunks first and lets the stragglers
+ * accumulate to the tail, where one later batch pays for them once.
+ *
+ * The sort is stable (ES2019), so chunks with equal coverage — the
+ * ordinary case, where nothing has been swept and every count is
+ * CHUNK_SIZE — keep their positional order. */
 function pendingChunks(
 	tranche: Tranche,
 	checkpoint: Checkpoint,
@@ -277,10 +301,14 @@ function pendingChunks(
 	}
 	const done = new Set(checkpoint.completed);
 	const swept = new Set(checkpoint.swept);
-	return tranche.chunks.filter(
-		(chunk) =>
-			!(done.has(chunk.id) || chunk.rids.every((rid) => swept.has(rid))),
-	);
+	return tranche.chunks
+		.map((chunk) => ({
+			chunk,
+			unswept: chunk.rids.filter((rid) => !swept.has(rid)).length,
+		}))
+		.filter(({ chunk, unswept }) => !(done.has(chunk.id) || unswept === 0))
+		.sort((a, b) => b.unswept - a.unswept)
+		.map(({ chunk }) => chunk);
 }
 
 /** Where a tranche's checkpoint lives. */

@@ -2,6 +2,7 @@ import { describe, expect, it } from 'bun:test';
 import {
 	buildCheckpoint,
 	buildTranches,
+	type Checkpoint,
 	type Chunk,
 	ChunkError,
 	carryForward,
@@ -216,6 +217,73 @@ describe('swept-rid progress', () => {
 	it('rejects a swept list that is not all strings', () => {
 		const bad = '{"completed":[],"corpus":"a","tranche":"t","swept":[5]}';
 		expect(() => parseCheckpoint(bad)).toThrow('checkpoint must be');
+	});
+});
+
+describe('pending order', () => {
+	const corpus = corpusFingerprint(rids(100));
+	const tranche = firstTranche(rids(100), 20);
+
+	/** A checkpoint whose rid ledger holds exactly `covered`. */
+	function withSwept(covered: readonly string[]): Checkpoint {
+		return { ...buildCheckpoint(tranche, corpus), swept: [...covered] };
+	}
+
+	it('puts fully-unswept chunks ahead of partly-swept ones', () => {
+		// One rid swept in each of the first two chunks — the shape a
+		// detector change leaves when it interleaves new entries into
+		// an already-swept head.
+		const pending = pendingChunks(
+			tranche,
+			withSwept(['A00001', 'A00021']),
+			corpus,
+		);
+		expect(pending.map((c) => c.id)).toEqual([
+			'chunk-00003',
+			'chunk-00004',
+			'chunk-00005',
+			'chunk-00001',
+			'chunk-00002',
+		]);
+	});
+
+	it('ranks partly-swept chunks by how much is left in them', () => {
+		const thin = chunkAt(tranche, 0).rids.slice(0, 19);
+		const thick = chunkAt(tranche, 1).rids.slice(0, 5);
+		const pending = pendingChunks(
+			tranche,
+			withSwept([...thin, ...thick]),
+			corpus,
+		);
+		expect(pending.map((c) => c.id).slice(3)).toEqual([
+			'chunk-00002',
+			'chunk-00001',
+		]);
+	});
+
+	it('keeps positional order among chunks with equal coverage', () => {
+		const pending = pendingChunks(
+			tranche,
+			buildCheckpoint(tranche, corpus),
+			corpus,
+		);
+		expect(pending.map((c) => c.id)).toEqual([
+			'chunk-00001',
+			'chunk-00002',
+			'chunk-00003',
+			'chunk-00004',
+			'chunk-00005',
+		]);
+	});
+
+	it('still returns a chunk holding a single unswept rid', () => {
+		const head = chunkAt(tranche, 0);
+		const pending = pendingChunks(
+			tranche,
+			withSwept(head.rids.slice(1)),
+			corpus,
+		);
+		expect(pending.map((c) => c.id)).toContain('chunk-00001');
 	});
 });
 

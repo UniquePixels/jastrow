@@ -175,6 +175,18 @@ Two consequences worth knowing before reading a batch report:
   deliberately conservative — skipping a chunk that holds even one
   unswept entry would drop that entry silently. At a boundary this
   costs up to 29 re-swept entries in one chunk.
+- **Pending chunks are ordered by unswept count, not by position**
+  (2026-09-05). Conservative membership is only affordable if the
+  batch does not have to *start* with the thin chunks. When
+  `own-form-escape-link` shipped it interleaved 205 new entries into
+  an already-swept head, leaving eleven old chunks holding one or two
+  each; batch 05's prep offered 150 entries covering **6** unswept
+  ones while 110 untouched 30-of-30 chunks waited behind them.
+  `pendingChunks` now ranks by how much of a chunk is left, stably,
+  so the whole chunks go first and the stragglers accumulate to the
+  tail for one later batch to pay off. **Read the `never swept`
+  column of a batch report before accepting it** — the ordering makes
+  a thin batch unlikely, not impossible.
 - **The cross-batch comparisons in the archived reports are wrong
   about their own samples.** Batch 01's README says the re-chunk made
   these "a different 150 entries"; 141 of them were the same. Read
