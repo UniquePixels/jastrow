@@ -181,6 +181,19 @@ const SWEEP: number = RESIDUE - ADJUDICATED_COUNT;
  * because the question this number answers is how much of the
  * population an agent would read differently.
  *
+ * 1,930 -> 2,037 on 2026-09-06, for `unlinked-bare-anaphor`. **+107**,
+ * and unlike the +1 below this is a population rather than an entry to
+ * name: the rule mints 2,119 anchors across 1,750 entries corpus-wide,
+ * and 107 of the sweep's entries had been byte-identical to pre-patch
+ * until it ran. The other sweep entries it touches were already moved
+ * by some other rule.
+ *
+ * It is the largest single move this number has made, and it is the
+ * one an agent would most notice: an entry gains an `<a>` around an
+ * `Ib.` that used to be plain text, so an agent re-reading it sees a
+ * resolved citation where it saw none. That is the whole point of this
+ * figure — how much of the population reads differently.
+ *
  * 1,929 -> 1,930 on 2026-09-06, for `geresh-apostrophe-as-gershayim`.
  * The rule touches 20 entries, 8 of them in the sweep, and only ONE
  * moves this number: the other 7 already differed from pre-patch
@@ -190,7 +203,7 @@ const SWEEP: number = RESIDUE - ADJUDICATED_COUNT;
  * entries reproduces the healed entry byte for byte on A02072 and on
  * none of the others, so on those seven the rule is not the whole of
  * the difference. */
-const TOUCHED: number = 1930;
+const TOUCHED: number = 2037;
 
 /** One healed corpus, its tables and its sweep list, built once for
  * the whole file, **from the production function**.
@@ -328,7 +341,7 @@ describe('the sweep population', () => {
 });
 
 describe('HEALED IS NOT PRE-PATCH — the regression this module exists to prevent', () => {
-	it('rewrites 1,929 of the sweep entries, so a revert to pre-patch cannot pass', async () => {
+	it('rewrites 2,037 of the sweep entries, so a revert to pre-patch cannot pass', async () => {
 		const { corpus, rids } = await healed();
 		const pre = new Map(
 			(await repairedEntries()).map((e) => [e.rid, JSON.stringify(e)]),

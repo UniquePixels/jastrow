@@ -7,9 +7,16 @@ This sizes it properly.
 
 **Result in one line:** the population is real and the antecedent walk
 resolves 75.1% of it at 99.9% place-accuracy against a 1,859-case
-control — but the rule **cannot be shipped today**, because
-`link-target.ts` refuses any net increase in anchor count and no
-declaration lifts that.
+control.
+
+**SHIPPED 2026-09-06** as `unlinked-bare-anaphor` — 2,119 anchors
+across 1,750 entries. §5's blocker was real and was lifted rather than
+worked around: `link-target.ts` gained
+[gate case 10](../specs/2026-09-06-link-target-gate-case-10.md), and
+the registry gained an `ORDERED` declaration for the four
+non-commuting pairs the rule turned out to have. Everything below is
+the sizing as it stood before either existed; it is left unedited
+because the measurements are what the rule was built on.
 
 ---
 

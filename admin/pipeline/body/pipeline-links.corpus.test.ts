@@ -411,8 +411,8 @@ describe('the pipeline preserves and repairs link targets', () => {
 			stranded: stranded.slice(0, 5),
 			strandedCount: stranded.length,
 		}).toEqual({
-			anchorsAfter: 168_055,
-			anchorsBefore: 168_055,
+			anchorsAfter: 170_174,
+			anchorsBefore: 170_174,
 			entries: 391,
 			gained: 413,
 			lost: 410,

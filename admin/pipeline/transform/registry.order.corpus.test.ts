@@ -466,6 +466,36 @@ const VOUCH = new Set(['v-sub-redirect-stub-mislink']);
 const POINT = new Set(['holam-migrated-off-mater-vav', 'shin-sin-dot-drop']);
 
 /**
+ * Rules that CREATE an anchor, copying its target whole from a
+ * neighbouring one — link-target gate case 10, 2026-09-06. An
+ * ELEVENTH class, on the reasoning that made `VOUCH` a ninth and
+ * `POINT` a tenth: a differently-shaped declaration earns its own set
+ * rather than stretching a neighbouring one.
+ *
+ * `NEITHER` is false of them — they write a target. `RETARGET` is
+ * false too, and the distinction is the whole of case 10: a retarget
+ * changes an anchor the entry ALREADY HAS, while this adds one the
+ * entry did not have. Every case before 10 refuses that outright, at
+ * the counting invariant rather than at the target, because the target
+ * itself is a plain case-2 copy.
+ *
+ * **SUBJECT TO RULE 1, not exempt from it — unlike `VOUCH` and
+ * `POINT`.** Those two read no neighbour: one is keyed on a frozen
+ * table, the other on the target's own bytes. This rule's whole
+ * mechanism is reading a NEIGHBOURING anchor as the antecedent an
+ * `Ib.` refers back to, so an unlink rule that deleted that anchor
+ * would leave it copying a different one. That is rule 1's hazard
+ * exactly, and it belongs with `RETARGET` and `CORROBORATE` under the
+ * assertion below.
+ *
+ * Membership is EARNED as the five sets above earn theirs: case 10
+ * licenses a created anchor only against a `minted` declaration, and
+ * only from a rule on `MINT_DECLARERS`, so a rule that creates one and
+ * does not declare it is refused by `run.ts` rather than quietly
+ * classified here. */
+const MINT = new Set(['unlinked-bare-anaphor']);
+
+/**
  * Rules whose object is a FIELD THAT NEVER CARRIES MARKUP — batch 5's
  * headword family, and a seventh class rather than four more members of
  * `NEITHER`.
@@ -520,6 +550,7 @@ const CLASSES: ReadonlySet<string>[] = [
 	UNLINK,
 	RETARGET,
 	CORROBORATE,
+	MINT,
 	NEITHER,
 	FIELD,
 	GLYPH,
@@ -633,22 +664,25 @@ describe('registry order', () => {
 		expect(() => at('no-such-rule')).toThrow(/no rule registered/u);
 	});
 
-	// Rule 1, asserted over `RETARGET` AND `CORROBORATE` together. The
-	// corroborating rule reads a NEIGHBOURING anchor for its tail and
-	// its digits, so an unlink rule that deletes that neighbour changes
-	// what it reads — the same hazard, whether the target is adopted
-	// whole or assembled.
+	// Rule 1, asserted over `RETARGET`, `CORROBORATE` and `MINT`
+	// together. The corroborating rule reads a NEIGHBOURING anchor for
+	// its tail and its digits, and the minting rule reads one for the
+	// whole target, so an unlink rule that deletes that neighbour
+	// changes what either reads — the same hazard, whether the target is
+	// adopted whole, assembled, or copied onto an anchor that did not
+	// exist.
 	it('every unlink rule precedes every rule that sources a target from a neighbour', () => {
-		const readers = [...RETARGET, ...CORROBORATE];
+		const readers = [...RETARGET, ...CORROBORATE, ...MINT];
 		const firstReader = Math.min(...readers.map(at));
 		expect(lastWithin(UNLINK, readers)).toBeLessThan(firstReader);
 		// The skip is COUNTED, never silent. A skip nobody counts is the
 		// "silence mistaken for coverage" failure `link-target.ts` names.
-		// The figure is a PRODUCT — 2 structural unlink rules × 4
-		// text-phase readers (3 `RETARGET` + 1 `CORROBORATE`) — so it
-		// moves whenever either side grows, and re-deriving it is how a
-		// reader checks the growth was where they expected.
-		expect(crossPhasePairs(UNLINK, readers)).toBe(8);
+		// The figure is a PRODUCT — 2 structural unlink rules × 5
+		// text-phase readers (3 `RETARGET` + 1 `CORROBORATE` + 1 `MINT`)
+		// — so it moves whenever either side grows, and re-deriving it is
+		// how a reader checks the growth was where they expected. 8 → 10
+		// on 2026-09-06 for the mint.
+		expect(crossPhasePairs(UNLINK, readers)).toBe(10);
 	});
 
 	// THE DIRECTION, AND THE FAILURE IT PREVENTS IS SILENT.

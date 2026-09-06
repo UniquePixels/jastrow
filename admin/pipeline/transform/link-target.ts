@@ -1288,8 +1288,16 @@ const VOUCH_DECLARERS: ReadonlySet<string> = new Set([
  * removable only when the clauses alone bound the licence to one
  * candidate. They do not here, by design (clause 5 is *precedes*, not
  * *nearest*), so this list is permanent rather than transitional.
+ *
+ * `unlinked-bare-anaphor` was admitted 2026-09-06, and the three
+ * measurements above are on its row in `patterns.jsonl` and in
+ * `rules/anaphora-mint.ts`'s docstring: 2,819 sites with a stated
+ * predicate and a `the` = 50,353 control reproduced on two bases;
+ * ~9 targets available per site; and its choice among them scored
+ * against the linker on 1,859 known-answer anaphors, 1,857 naming the
+ * same place.
  */
-const MINT_DECLARERS: ReadonlySet<string> = new Set([]);
+const MINT_DECLARERS: ReadonlySet<string> = new Set(['unlinked-bare-anaphor']);
 
 /** Case 10 clause 2's closed set: the bare anaphor, trimmed. The same
  * displays `anaphora.ts`'s `ANAPHOR` matches on the anchored side —

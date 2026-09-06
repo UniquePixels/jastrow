@@ -338,6 +338,14 @@ why `report-batch-06.md`'s 3,256 / 5,795 is not used.
 - **2026-09-06** — §7 RULED by Brian: yes. Built the same day.
 - **2026-09-06** — `checkMintClauses` exported during the build, for
   the reason §6 records. Not in the drafted design.
-- **PENDING** — whether to write the rule that declares this case.
-  `MINT_DECLARERS` is empty until that is decided, so nothing is
-  licensed in the meantime.
+- **2026-09-06** — the rule was written: `unlinked-bare-anaphor`,
+  2,119 anchors across 1,750 entries. `MINT_DECLARERS` names it.
+- **2026-09-06** — writing it surfaced a gap this spec did not
+  anticipate, in a DIFFERENT gate. The rule produces four
+  non-commuting pairs, and `commutation.corpus.test.ts` had exactly
+  one remedy — `entangledWith`, whose own gate demands ADJACENCY. A
+  rule that must run last cannot be adjacent to four partners spread
+  through the registry. Brian ruled in a second remedy the same day:
+  `ORDERED` in `registry.ts`, a declared DIRECTION rather than a
+  declared cluster, with the registry checked against it and stale
+  entries reported. See that constant's docstring.
