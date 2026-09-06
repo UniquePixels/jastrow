@@ -472,7 +472,19 @@ function inflectionHint(
 		stem(target) === form ||
 		// The target records this very form among its own. Two entries
 		// agreeing about a word is not an escape — see `formsOf`.
-		index.formsOf.get(baseHeadword(target))?.has(form) === true
+		index.formsOf.get(baseHeadword(target))?.has(form) === true ||
+		// ...or the target is a bare `, v. X` stub that redirects back
+		// to the host, so the reader lands on the host anyway and
+		// nothing escapes. `ownFormHint` has carried this exemption
+		// since it shipped; this rule did not, and the asymmetry made
+		// C00064 a structural false positive the batch-06 sweep had to
+		// reject by hand — its display `גְּבוּרָן` is its own plural,
+		// the target C00061 is the stub `, v. גְּבוּרְתָּא`, and the host
+		// records `גְּבוּרָא` among its own alts as well. Compared at
+		// `stem`, which is this rule's level throughout.
+		[...(index.redirect.get(baseHeadword(target)) ?? [])].some(
+			(to) => stem(to) === stem(own.headword),
+		)
 	) {
 		return;
 	}

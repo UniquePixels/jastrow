@@ -111,6 +111,35 @@ import {
  * 7,442 pre-patch, so it was one of the rewritten ones and the -1 is
  * accounted for exactly.
  *
+ * Re-baselined a SIXTH time, 2026-09-06: `inflection-escape-link`
+ * gained the redirect-stub exemption `own-form-escape-link` had
+ * carried since it shipped. Previous figure: RESIDUE 3,758.
+ *
+ * Hint diff over both trees: **52 suppressed, 0 added**, every one
+ * `inflection-escape-link`. The suppression was audited rather than
+ * accepted — for all 49 of the 52 whose target this check could
+ * resolve, **the target's entire content is a bare `, v. X` redirect
+ * stub pointing back at the host**, so the reader lands home and
+ * nothing escapes. Two of the 52 are named controls nobody planted:
+ * batch 05's sweep agents independently reported A03081 and B00062 as
+ * false positives of exactly this shape, and both are suppressed here.
+ *
+ * 29 entries lose their LAST hint and leave the population. Six had
+ * been swept: four came back `clean`, and A01049 and A03081 carry
+ * `needs_print_check` escalations that are ALREADY RECORDED, so no
+ * finding is lost by dropping them. The cost is the other 23, which
+ * have never been swept — the same cost the `rare-dotted-variant`
+ * guard paid above, and it is a real one: the hint was wrong in every
+ * case, but an agent reading the entry found something unrelated in
+ * two of the six.
+ *
+ * TOUCHED goes 1,945 -> 1,929: 16 of the 29 dropouts moved. That was
+ * checked against the TEST's own predicate — whole entry against
+ * `repairedEntries()` — after a first probe comparing only `.content`
+ * against `loadPrePatchCorpus()` returned 13 and looked like a
+ * discrepancy. It was the probe that was wrong. A re-baseline is only
+ * as good as the predicate it reproduces.
+ *
  * Re-baselined a SECOND time, 2026-09-04, for the
  * `rare-dotted-variant` bare-word guard (`maxBareForRare`, see
  * anomalies.ts). Previous figures: RESIDUE 3838, TOUCHED 1988.
@@ -138,7 +167,7 @@ import {
  * population, not merely un-hinted. Separating "worth sweeping" from
  * "has a hint" would keep them, and would mean this file's
  * every-entry-carries-a-hint invariant no longer holds. */
-const RESIDUE: number = 3758;
+const RESIDUE: number = 3729;
 const ADJUDICATED_COUNT: number = 61;
 const SWEEP: number = RESIDUE - ADJUDICATED_COUNT;
 /** Sweep entries whose TEXT a transform rewrote — 52.6% of 3,697.
@@ -151,7 +180,7 @@ const SWEEP: number = RESIDUE - ADJUDICATED_COUNT;
  * population. The bytes are what matters here,
  * because the question this number answers is how much of the
  * population an agent would read differently. */
-const TOUCHED: number = 1945;
+const TOUCHED: number = 1929;
 
 /** One healed corpus, its tables and its sweep list, built once for
  * the whole file, **from the production function**.
@@ -289,7 +318,7 @@ describe('the sweep population', () => {
 });
 
 describe('HEALED IS NOT PRE-PATCH — the regression this module exists to prevent', () => {
-	it('rewrites 1,945 of the sweep entries, so a revert to pre-patch cannot pass', async () => {
+	it('rewrites 1,929 of the sweep entries, so a revert to pre-patch cannot pass', async () => {
 		const { corpus, rids } = await healed();
 		const pre = new Map(
 			(await repairedEntries()).map((e) => [e.rid, JSON.stringify(e)]),

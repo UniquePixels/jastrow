@@ -505,6 +505,41 @@ describe('formsOf is narrower than ownForms (batch 02 fix, 2026-09-04)', () => {
 	});
 });
 
+describe('inflection-escape-link redirect exemption (batch 06, 2026-09-06)', () => {
+	// `own-form-escape-link` exempts "the target is a stub redirecting
+	// back to the host"; `inflection-escape-link` had no such clause,
+	// so the same shape fired there and the sweep rejected it by hand.
+	// C00064 `גְּבוּרְתָּא`: display `גְּבוּרָן` is its own plural, the
+	// target C00061 `גְּבוּרָא` is the bare stub `, v. גְּבוּרְתָּא`, and
+	// the host records `גְּבוּרָא` among its own alts as well — correct
+	// twice over.
+
+	it('does not fire when the target redirects back to the host', () => {
+		const host = entry('C00064', `—Pl. ${anchor('גְּבוּרָא', 'גְּבוּרָן')}`, 'גְּבוּרְתָּא', {
+			alt_headwords: ['גְּבוּרָא'],
+			plural_form: ['גְּבוּרָן'],
+		} as Partial<SourceEntry>);
+		const stub = entry('C00061', `, v. ${anchor('גְּבוּרְתָּא', 'גְּבוּרְתָּא')}`, 'גְּבוּרָא');
+		const hints = entryAnomalyHints(host, new Map(), index([], [host, stub]));
+		expect(kinds(hints)).not.toContain('inflection-escape-link');
+	});
+
+	it('still fires when the stub redirects somewhere else', () => {
+		// The control: a stub is only exempt when it sends the reader
+		// HOME. B00138's shape, kept live for the same reason.
+		const host = entry('C00065', `—Pl. ${anchor('גְּבוּרָא', 'גְּבוּרָן')}`, 'גְּבוּרְתָּא', {
+			plural_form: ['גְּבוּרָן'],
+		} as Partial<SourceEntry>);
+		const stub = entry('C00061', `, v. ${anchor('אַחֵר', 'אַחֵר')}`, 'גְּבוּרָא');
+		const hints = entryAnomalyHints(
+			host,
+			new Map(),
+			index(['אַחֵר'], [host, stub]),
+		);
+		expect(kinds(hints)).toContain('inflection-escape-link');
+	});
+});
+
 describe('own-form-escape-link (inflection residue adjudication, 2026-09-05)', () => {
 	// Both adjudicators of the 20-entry sample arrived, independently
 	// and unprompted, at one discriminator: does the TARGET record the
