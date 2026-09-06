@@ -107,11 +107,42 @@ const GERESH = /[׳']/gu;
  * changed nothing. */
 const HOMOGRAPH = /[\s,]+(?:[IVX]+|[0-9]+|[²³¹⁰-⁹]+),?$/u;
 /** Jastrow's editorial mark on a reconstructed headword. It is stored
- * inside the headword string but is not part of the word, so an anchor
- * displaying the de-asterisked target is a correct link (v2 carries it
- * as the boolean `reconstructed`). Round-1 letters B and J found this
- * independently: 1,339 `*` headwords, 1,412 anchors whose display is
- * exactly the de-asterisked target, all correct. */
+ * inside the headword string but is not part of the word (v2 carries
+ * it as the boolean `reconstructed`).
+ *
+ * Round-1 letters B and J found, independently: 1,339 `*` headwords,
+ * 1,412 anchors whose display is exactly the de-asterisked target,
+ * **"all correct"**.
+ *
+ * THAT LAST CLAIM IS FALSE, and this docstring is why it survived —
+ * `twinHint` returns early on `base === target`, and this pattern is
+ * what makes the two equal, so an anchor displaying `ארז` at target
+ * `*ארז` can never be hinted even when a second, non-asterisked entry
+ * carries the same skeleton.
+ *
+ * Two named counter-examples, found in different batches by readers
+ * who had not seen each other's: **A03269** displays `ארז` for
+ * "male cedar" and lands on A03047 `*ארז`, a verb root glossed "to be
+ * prickly, dry, hard" (the cedar is A03048); **C00849** displays
+ * `גַּלִּין`, the first string in its OWN `plural_form`, and lands on
+ * C00929 `*גַּלִּי`, "galium, bed-straw".
+ *
+ * Sized 2026-09-05: of the 2,210 anchors targeting a `*` headword,
+ * **471** have a de-asterisked skeleton carried by two or more
+ * entries. Twenty of those, sampled systematically and adjudicated by
+ * two independent readers, came back **5 wrong / 13 correct / 2
+ * undecidable** — but the halves split 1-of-10 against 4-of-10, so the
+ * class is established and its magnitude is not.
+ *
+ * A fix must NOT be built around the asterisk: one failure has two
+ * starred owners and is a Roman-numeral mis-target inside the starred
+ * population, which `baseHeadword` flattens identically. Build it
+ * around a skeleton with more than one owner, and prefer the two
+ * corroborators that decided the sample — a reciprocal back-link, and
+ * a citation shared between host and target.
+ *
+ * Full record and the `preced.` gate found alongside it:
+ * docs/v2/phase-2-asterisk-exposure.md. */
 const EDITORIAL_ASTERISK = /^\*+/u;
 /** Everything a bare redirect stub may put before its one anchor,
  * once its citations are removed. A stub may cite the attestation it
