@@ -82,6 +82,35 @@ import {
  * +3 candidates nothing had ever been able to see. Whether those
  * three are real mislinks is the sweep's question, not this file's.
  *
+ * Re-baselined a FIFTH time, 2026-09-06, for the `buildHeadwordIndex`
+ * merge fix (batch 06, chunk-r00023). Previous figure: RESIDUE 3759.
+ *
+ * `recordedSkeletons` and `redirect` were overwriting where four
+ * sibling maps in the same loop merged, so a homograph family
+ * collapsed to one key and the last entry written won. **The
+ * exposure and the effect are very different sizes, and the gap is
+ * the point:** 2,053 base keys carry two or more entries and 2,434
+ * entries were losing their contribution, but only two rules read
+ * these maps and only three hints actually change.
+ *
+ * Measured by differencing hint IDENTITIES (rid + kind + detail), not
+ * counts, over both trees: **3 suppressed, 0 added.** All three are
+ * `own-form-escape-link`, and all three are correct suppressions —
+ * B01237 (the reporting case: five entries base to `בַּר`, B01153
+ * records `בָּרָא`, B01156 was written last) and T00327/T00329, whose
+ * display `רוּחַ` targets a family where T00615 records `רוּחַ` in its
+ * own `alt_headwords` while T00616 is written later and records
+ * nothing. Each was read before being accepted.
+ *
+ * Only T00327 leaves the residue, because an entry leaves only when
+ * it loses its LAST hint. That is why the residue delta is a bad
+ * measure of a detector change and the hint diff is the good one.
+ *
+ * TOUCHED goes 1,946 -> 1,945 for the same single entry, checked
+ * rather than assumed: T00327's healed content is 7,463 bytes against
+ * 7,442 pre-patch, so it was one of the rewritten ones and the -1 is
+ * accounted for exactly.
+ *
  * Re-baselined a SECOND time, 2026-09-04, for the
  * `rare-dotted-variant` bare-word guard (`maxBareForRare`, see
  * anomalies.ts). Previous figures: RESIDUE 3838, TOUCHED 1988.
@@ -109,18 +138,20 @@ import {
  * population, not merely un-hinted. Separating "worth sweeping" from
  * "has a hint" would keep them, and would mean this file's
  * every-entry-carries-a-hint invariant no longer holds. */
-const RESIDUE: number = 3759;
+const RESIDUE: number = 3758;
 const ADJUDICATED_COUNT: number = 61;
 const SWEEP: number = RESIDUE - ADJUDICATED_COUNT;
-/** Sweep entries whose TEXT a transform rewrote — 52.7% of 3,696.
+/** Sweep entries whose TEXT a transform rewrote — 52.6% of 3,697.
  *
- * The predicate is byte difference, not "a rule fired": 2,137 sweep
- * entries produce a transform record and **2,093 of them come out
- * different**, the other 44 recording a claim that changes nothing a
- * reader or an agent could see. The bytes are what matters here,
+ * The predicate is byte difference, not "a rule fired": at the 3,696
+ * cut, 2,137 sweep entries produced a transform record and **2,093
+ * came out different**, the other 44 recording a claim that changes
+ * nothing a reader or an agent could see. That pair has NOT been
+ * recomputed since; only the ratio above tracks the current
+ * population. The bytes are what matters here,
  * because the question this number answers is how much of the
  * population an agent would read differently. */
-const TOUCHED: number = 1946;
+const TOUCHED: number = 1945;
 
 /** One healed corpus, its tables and its sweep list, built once for
  * the whole file, **from the production function**.
@@ -258,7 +289,7 @@ describe('the sweep population', () => {
 });
 
 describe('HEALED IS NOT PRE-PATCH — the regression this module exists to prevent', () => {
-	it('rewrites 1,946 of the sweep entries, so a revert to pre-patch cannot pass', async () => {
+	it('rewrites 1,945 of the sweep entries, so a revert to pre-patch cannot pass', async () => {
 		const { corpus, rids } = await healed();
 		const pre = new Map(
 			(await repairedEntries()).map((e) => [e.rid, JSON.stringify(e)]),

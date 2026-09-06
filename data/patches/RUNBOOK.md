@@ -108,7 +108,7 @@ argument; the operational differences are:
 |---|---|---|
 | Prep | `tranche.ts prep` | `tranche.ts prep-residue` |
 | Population | all 32,512 entries | the residue, minus the 65 items 1–2 adjudicated |
-| Size | 1,084 chunks | **3,696 entries / 124 chunks** (3,982 / 133 at first cut; detector work moved it — 3,926, 3,885, 3,777, 3,491, then UP to 3,696 when `own-form-escape-link` shipped 2026-09-05) |
+| Size | 1,084 chunks | **3,697 entries / 124 chunks** (3,982 / 133 at first cut; detector work moved it — 3,926, 3,885, 3,777, 3,491, UP to 3,696 when `own-form-escape-link` shipped 2026-09-05, then 3,698 and 3,697 as headword normalization was fixed) |
 | Corpus state | pre-patch (`applyRepairs` only) | **healed** (+ both transform phases) |
 | Chunk ids | `chunk-00001` | `chunk-r00001` |
 | Tranche ids | `tranche-01` | `residue-01` |
@@ -117,8 +117,8 @@ argument; the operational differences are:
 **Why the corpus state differs, and why it is not optional.** The
 phase manifest in `patch/apply.ts` is `text-repairs` ->
 `structural-repairs` -> `patch-apply`, so a patch lands on text the
-54 transform rules have already rewritten. **1,946 of the 3,696 —
-52.7% — read differently after the rules.** An agent handed
+54 transform rules have already rewritten. **1,945 of the 3,697 —
+52.6% — read differently after the rules.** An agent handed
 pre-patch text authors anchors against a string that does not exist
 at apply time, and re-reports defects the rules already fixed. When
 batches 01 and 02 ran this overlap was near zero, because the rules

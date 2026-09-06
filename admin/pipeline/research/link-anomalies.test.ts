@@ -635,6 +635,70 @@ describe('own-form-escape-link (inflection residue adjudication, 2026-09-05)', (
 		expect(kinds(hints)).toContain('own-form-escape-link');
 	});
 
+	// Batch 06, chunk-r00023: `buildHeadwordIndex` overwrote
+	// `recordedSkeletons` and `redirect` where four sibling maps in the
+	// same loop merged. `baseHeadword` strips homograph numerals, so a
+	// whole family collapses to one key and the LAST entry written won:
+	// 2,053 base keys carry two or more entries and 2,434 entries lost
+	// their contribution. Both shapes below failed before the merge.
+
+	it('sees a form recorded by a homograph the family does not end with', () => {
+		// B01237: display בָּרָא, target base בַּר, which five entries
+		// share. B01153 records בָּרָא; B01156 `בַּר IV` is written last
+		// and records only its own skeleton, so the key kept nothing
+		// useful and a correct link was hinted.
+		const host = entry('B01237', `—Pl. בָּרָא ${anchor('בַּר', 'בָּרָא')}`, 'בַּרְיָא', {
+			plural_form: ['בָּרָא'],
+		} as Partial<SourceEntry>);
+		const records = entry('B01153', 'son; outside', 'בַּר', {
+			alt_headwords: ['בָּרָא'],
+		} as Partial<SourceEntry>);
+		const later = entry('B01156', 'field', 'בַּר IV');
+		const hints = entryAnomalyHints(
+			host,
+			new Map(),
+			index([], [host, records, later]),
+		);
+		expect(kinds(hints)).not.toContain('own-form-escape-link');
+	});
+
+	it('keeps every redirect stub in a homograph family', () => {
+		// Same collapse, other map: 121 stubs were shadowed by a
+		// same-base sibling. Here the stub that redirects HOME is
+		// written first, so last-wins discarded exactly the one the
+		// exemption needed.
+		const host = entry(
+			'H00001',
+			`—Pl. גְּלָלַיָּא ${anchor('גְּלָל', 'גְּלָלַיָּא')}`,
+			'גַּלָּא',
+			{ plural_form: ['גְּלָלַיָּא'] } as Partial<SourceEntry>,
+		);
+		const home = entry('H00002', `, v. ${anchor('גַּלָּא', 'גַּלָּא')}`, 'גְּלָל');
+		const elsewhere = entry('H00003', `, v. ${anchor('אַחֵר', 'אַחֵר')}`, 'גְּלָל II');
+		const hints = entryAnomalyHints(
+			host,
+			new Map(),
+			index(['אַחֵר'], [host, home, elsewhere]),
+		);
+		expect(kinds(hints)).not.toContain('own-form-escape-link');
+	});
+
+	it('still fires when no homograph in the family records the form', () => {
+		// The control the two tests above need: merging must not exempt
+		// everything that shares a base.
+		const host = entry('H00010', `—Pl. דְּמָמָא ${anchor('דָּם', 'דְּמָמָא')}`, 'דַּמְיָא', {
+			plural_form: ['דְּמָמָא'],
+		} as Partial<SourceEntry>);
+		const one = entry('H00011', 'blood', 'דָּם');
+		const two = entry('H00012', 'likeness', 'דָּם II');
+		const hints = entryAnomalyHints(
+			host,
+			new Map(),
+			index([], [host, one, two]),
+		);
+		expect(kinds(hints)).toContain('own-form-escape-link');
+	});
+
 	it('exempts a geresh-abbreviated display, where the test is known to fail', () => {
 		// T00697, the sample's one discriminator failure: host רִיקּוּחַ
 		// "perfume", Pl. רִיקּוּחִים abbreviated רִקּ׳ — and the WRONG

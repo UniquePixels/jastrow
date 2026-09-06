@@ -44,8 +44,13 @@ interface HeadwordIndex {
 	 * the target record the displayed form? — needs the letters
 	 * preserved, so it reads this map. */
 	recordedSkeletons: Map<string, Set<string>>;
-	/** Headword -> the target of its bare `, v. Y` redirect stub. */
-	redirect: Map<string, string>;
+	/** Headword -> the targets of the bare `, v. Y` redirect stubs
+	 * written under it. A SET, not one target, because the key is
+	 * `baseHeadword` and a homograph family shares it: `גְּלָל` and
+	 * `גְּלָל II` may both be stubs pointing different ways, and the
+	 * question every caller asks is a membership one — does ANY stub
+	 * named X lead here? */
+	redirect: Map<string, Set<string>>;
 	/** Consonantal skeleton -> every entry headword carrying it, with
 	 * the homograph suffix KEPT. `bySkeleton` deduping strips that
 	 * suffix, which is right for deciding whether the niqqud carve-out
@@ -328,7 +333,7 @@ function buildHeadwordIndex(entries: Iterable<SourceEntry>): HeadwordIndex {
 	const exact = new Set<string>();
 	const alts = new Map<string, Set<string>>();
 	const bySkeleton = new Map<string, Set<string>>();
-	const redirect = new Map<string, string>();
+	const redirect = new Map<string, Set<string>>();
 	const skeletonOwners = new Map<string, string[]>();
 	const formsOf = new Map<string, Set<string>>();
 	const recordedSkeletons = new Map<string, Set<string>>();
@@ -387,10 +392,31 @@ function buildHeadwordIndex(entries: Iterable<SourceEntry>): HeadwordIndex {
 				recordedSkel.add(sk);
 			}
 		}
-		recordedSkeletons.set(base, recordedSkel);
+		// MERGE, never replace. `base` is `baseHeadword`, which strips
+		// the homograph numeral, so `בַּר I` … `בַּר IV` are one key and
+		// a plain `.set` keeps whichever entry the corpus happens to
+		// write last. Batch 06 (chunk-r00023) found `own-form-escape-link`
+		// firing on a correct link because of it: five entries base to
+		// `בַּר`, B01153 records `בָּרָא`, and B01156 is written last, so
+		// the key held nothing and the exemption could not see the form
+		// the target really records. 2,053 base keys carry two or more
+		// entries and 2,434 entries were losing their contribution;
+		// `alts`, `bySkeleton`, `skeletonOwners` and `formsOf` above all
+		// merged already, and only these two did not.
+		const seenSkel = recordedSkeletons.get(base);
+		if (seenSkel === undefined) {
+			recordedSkeletons.set(base, recordedSkel);
+		} else {
+			for (const sk of recordedSkel) {
+				seenSkel.add(sk);
+			}
+		}
 		const to = redirectTarget(entry);
 		if (to !== undefined) {
-			redirect.set(base, to);
+			// 121 stubs were shadowed by a same-base sibling.
+			const targets = redirect.get(base) ?? new Set<string>();
+			targets.add(to);
+			redirect.set(base, targets);
 		}
 	}
 	return {

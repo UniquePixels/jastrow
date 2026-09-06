@@ -292,7 +292,10 @@ function exactHint(
 	// to Y: the linker resolved the redirect, which is correct even
 	// though X and Y differ consonantally (the ל״ה/ל״י pairs).
 	const via = index.redirect.get(base);
-	if (via !== undefined && consonants(via) === consonants(target)) {
+	if (
+		via !== undefined &&
+		[...via].some((to) => consonants(to) === consonants(target))
+	) {
 		return;
 	}
 	return {
@@ -438,7 +441,9 @@ function ownFormEscapeHint(
 		// while recording a DIFFERENT spelling of the form than the one
 		// displayed. Recording the form and redirecting to the host are
 		// two ways of agreeing, and the rule has to accept both.
-		skeleton(index.redirect.get(baseHeadword(target)) ?? '') === host
+		[...(index.redirect.get(baseHeadword(target)) ?? [])].some(
+			(to) => skeleton(to) === host,
+		)
 	) {
 		return;
 	}
