@@ -217,6 +217,15 @@ const RETARGET = new Set([
  * `href` or `data-ref` anywhere in 32,512 entries. */
 const NEITHER = new Set([
 	'anchor-italic-no-space',
+	// The residue sweep's rule, 2026-09-06. It replaces a geresh plus an
+	// ASCII apostrophe with one gershayim in DOCUMENT TEXT; measured
+	// over all 32,512 entries, 0 of its 25 occurrences sit inside a
+	// `<…>` interior, so no tag byte moves, no anchor is removed and no
+	// target is written. That is the rule's own docstring claim, and
+	// putting it here is what makes the corpus pass below EARN it
+	// rather than take the docstring's word — which is the whole point
+	// of this set.
+	'geresh-apostrophe-as-gershayim',
 	// Batch 10. `impossibleDagesh` swaps the letter under a dagesh that
 	// cannot be there; measured, 0 of its 19 candidates sit inside a tag
 	// and 0 in a headword, so it writes no target and removes no anchor.

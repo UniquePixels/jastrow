@@ -179,8 +179,18 @@ const SWEEP: number = RESIDUE - ADJUDICATED_COUNT;
  * recomputed since; only the ratio above tracks the current
  * population. The bytes are what matters here,
  * because the question this number answers is how much of the
- * population an agent would read differently. */
-const TOUCHED: number = 1929;
+ * population an agent would read differently.
+ *
+ * 1,929 -> 1,930 on 2026-09-06, for `geresh-apostrophe-as-gershayim`.
+ * The rule touches 20 entries, 8 of them in the sweep, and only ONE
+ * moves this number: the other 7 already differed from pre-patch
+ * under other rules. The one is **A02072** — which is the entry the
+ * residue sweep found the defect in (batch 04). Identified rather
+ * than inferred: running the rule ALONE on each of the 8 pre-patch
+ * entries reproduces the healed entry byte for byte on A02072 and on
+ * none of the others, so on those seven the rule is not the whole of
+ * the difference. */
+const TOUCHED: number = 1930;
 
 /** One healed corpus, its tables and its sweep list, built once for
  * the whole file, **from the production function**.

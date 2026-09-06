@@ -344,7 +344,15 @@ describe('the pipeline preserves and repairs link targets', () => {
 		// Every one of the four is `copied`-declared and verified against
 		// its own entry's post-repair input by `checkNoNewText`, so this
 		// is duplicated text, not invented text.
-		expect(marks).toBe(2309);
+		//
+		// 2,309 became 2,334 on 2026-09-06, and the 25 are NEW WRITES
+		// rather than composition: `geresh-apostrophe-as-gershayim`
+		// replaces a geresh plus an ASCII apostrophe with one gershayim
+		// in document text, 25 occurrences across 20 entries. It is the
+		// third rule to write this mark and the first that does not come
+		// from an ASCII quote, which is why `sourceMarks` staying 0 above
+		// is the line that keeps this figure meaningful.
+		expect(marks).toBe(2334);
 	}, 600_000);
 
 	/**

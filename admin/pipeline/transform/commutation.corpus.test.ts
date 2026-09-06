@@ -287,13 +287,25 @@ describe('the registry commutes except where the catalogue says otherwise', () =
 		// 80 → 280 across batch 7, which registered five structural
 		// rules; 280 → 287 across batch 8 and 287 → 294 across batch 9,
 		// each registering ONE `text-repairs` rule; 294 → 322 across
-		// batch 10, which registered FOUR of them (46 × 7). The figure is
+		// batch 10, which registered FOUR of them (46 × 7); and 322 → 329
+		// on 2026-09-06 for `geresh-apostrophe-as-gershayim`, ONE more
+		// `text-repairs` rule (47 × 7). The figure is
 		// a PRODUCT, so it moves whenever either phase grows, and
 		// re-deriving it is how a reader checks that the growth was in
 		// the phase they expected: any one of batch 10's four declaring
-		// `structural-repairs` instead would make it 45 × 8 = 360.
+		// `structural-repairs` instead would make it 45 × 8 = 360, and
+		// the 2026-09-06 rule declaring it would have made 46 × 8 = 368
+		// rather than 329.
+		//
+		// THIS ASSERTION IS THE CORPUS TIER'S ONLY TRIPWIRE ON ADDING A
+		// RULE, and it fired as designed: `geresh-apostrophe-as-gershayim`
+		// shipped in a commit verified with `bun qa` alone, which is the
+		// unit tier and cannot see this. `bun qa` is the pre-commit gate
+		// CLAUDE.md names; registering a rule additionally needs
+		// `bun run audit:corpus`, and this comment is where a reader
+		// finds that out.
 		expect(stats.composedPairs + stats.crossPhasePairs).toBe(stats.totalPairs);
-		expect(stats.crossPhasePairs).toBe(322);
+		expect(stats.crossPhasePairs).toBe(329);
 		// MEASURED on CI 2026-08-31, PR #59's first `Corpus Audit` run: this
 		// gate logged 134,141ms against the 180s budget it used to carry —
 		// 75% of it. A runner a third slower fails here, and the message
