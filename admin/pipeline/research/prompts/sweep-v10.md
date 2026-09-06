@@ -12,14 +12,14 @@
   `admin/pipeline/research/anomalies.ts` (anomaly hints). Where
   this document and that code disagree, the code wins — report the
   discrepancy.
-- **Sign-off:** **PENDING.** Drafted 2026-09-05 after residue batch
-  05, whose report
+- **Sign-off:** maintainer, 2026-09-05 — approved for dispatch after
+  residue batch 05, whose report
   (`data/patches/tranches/residue-01/report-batch-05.md`) lists the
   findings behind everything added here. `PROMPT_VERSION` in
-  `research/corpus-inputs.ts` still reads `v9` and must not be bumped
-  until a maintainer signs this line — the constant is what a sweep
-  actually runs under, and `prompt-version.test.ts` binds the two.
-  Everything outside the v9 → v10 changelog is v9 verbatim.
+  `research/corpus-inputs.ts` was bumped to `v10` with this sign-off;
+  the constant is what a sweep actually runs under, and
+  `prompt-version.test.ts` binds the two. Everything outside the
+  v9 → v10 changelog is v9 verbatim.
 
 ## Changelog v9 → v10 (residue batches 04 and 05, 2026-09-05)
 

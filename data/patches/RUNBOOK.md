@@ -18,24 +18,27 @@ recorded go**. Gates (sweep tiering spec, 2026-08-17):
   consecutive rounds add no new systemic pattern class
   (`data/patches/patterns.jsonl`).
 
-Prompts: the version in force is pinned in code as `PROMPT_VERSION`
-in `research/corpus-inputs.ts` and gated by `prompt-version.test.ts`;
-**the code wins over every prose line in this file.** It currently
-reads `v8`. The paragraph below records what v5 superseded and is
-kept for the history, not as the current instruction.
+Prompts: **read the version out of the code, never out of this
+file.** The sweep version in force is `PROMPT_VERSION` in
+`research/corpus-inputs.ts`, gated by `prompt-version.test.ts`, and
+the document it names is `prompts/sweep-<PROMPT_VERSION>.md`. The
+code wins over every prose line here.
 
-Sweep agents use `prompts/sweep-v5.md`, which supersedes
-v4 (the `v. sub` redirect carve-out, and the corrected
-`roman-numeral-display` prior — v4 called the kind "all inspected
-ones spurious", and adjudication found 24 real mislinks among its 31
-entries — see docs/v2/phase-2-roman-numerals.md). The version is pinned in code as
-`PROMPT_VERSION` in `research/corpus-inputs.ts` and gated by
-`prompt-version.test.ts`; the code wins over this line. Verification
-uses `prompts/verify-v2.md` (signed 2026-08-14; adds the
-`catchable`/`labelOnly` verdict fields). Sweep tier Sonnet,
-verification tier Opus. Prep attaches `anomaly_hints` to chunk
-inputs: corpus-frequency findings from `anomalies.ts` plus
-link-target findings from `link-anomalies.ts`.
+This paragraph used to name the version, and it was **two bumps
+stale** — it said `v8` while v9 ran, and pointed at `sweep-v5.md`
+while both v8 and v9 were in force. `verify-v3.md` had the identical
+defect in its Companion line and fixed it the same way, by naming the
+pinned source instead of a version. A stale premise in an operating
+document is the expensive kind of error: an agent following it
+correctly still reaches the wrong grounds (v10 changelog, items 2–4).
+
+Verification uses the highest `prompts/verify-vN.md` — currently
+`verify-v3.md`, which added the `catchable`/`labelOnly` verdict
+fields. Nothing gates that one, so check the directory. Prep attaches
+`anomaly_hints` to chunk inputs: corpus-frequency findings from
+`anomalies.ts` plus link-target findings from `link-anomalies.ts`.
+For the tier, read the table in the residue section below — it is
+Sonnet on the batch path and **Opus** on the residue path.
 
 ## Procedure
 
