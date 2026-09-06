@@ -254,7 +254,6 @@ not a routing decision.
 | Class | Scale | Control | Confidence |
 | --- | --- | --- | --- |
 | **`preced.` gate** — anchors displaying exactly `preced.` where `data-ref === host.prev_hw`. **A GATE, NOT A REPAIR**: it locks in 3,051 already-correct links and changes at most 3 entries, so its value is as a regression guard, not as data quality | **3,051 of 3,054**; the 3 residuals (D01034, C01221, C01225) are niqqud/abbreviation normalisation noise | measured by parsing, with control; 62 starred `prev_hw` cases all match | `conf:high` |
-| **Unlinked `Ib.` citations.** No catalogue row — `ib-yoma-2a` (312, registered as `ibAnaphora`) is a different arm, the *anchored* `Ib.` resolving to a fixed daf. Sizing and predicate both still owed | 3,256 unlinked against 5,795 anchored | unlinked `the` = 65,969 | `conf:med` — figure quoted from `report-batch-06.md`, not re-derived here |
 | **`׳'` for gershayim** (geresh + ASCII apostrophe) — **SHIPPED 2026-09-06** as `geresh-apostrophe-as-gershayim` | 25 occurrences / 20 entries, every one a Hebrew acronym; 0 inside a tag, 0 unflanked | raw fields: 65,702 plain gereshes, 1,349,937 ASCII quotes, 943 apostrophes (918 of them Latin, inside ref attributes); U+05F4 occurs 0 times | `conf:high` — re-measured, `transform:count` MATCH at 20 |
 | **`גבר` etymology cluster** — `b. h.` root anchored to Chaldaic `גְּבַר I` instead of Hebrew `גָּבַר` | exactly 4 corpus-wide (C00059, C00062, C00101, C00130), all in one chunk | 4,174 entries carry any `language_reference` data-ref | `conf:high` — one ruling settles all four |
 
@@ -271,7 +270,10 @@ of 32,512 disagree), unlinked `Y. <tractate>` (893 across 768 entries).
 ## 8. Named, sized, and *not* script-slatable
 
 `[sev:high conf:high]` These look scriptable and are not. Each has a
-measured reason.
+measured reason. Two of them arrived here from §7 after being checked
+against `patterns.jsonl` or against the gates — the pattern is that a
+batch report's *count* says nothing about whether a repair is
+expressible.
 
 | Class | Scale | Why a blanket script is wrong |
 | --- | --- | --- |
@@ -282,6 +284,7 @@ measured reason.
 | **`Tanḥ.` → plain Torah book** | 134 of 134 (control: 168,913 anchors parsed) | Re-pointing needs a `Midrash Tanchuma` ref, and that work name occurs **0 times** in 170,184 corpus anchors. Every minting rule in the registry is verified against an in-corpus witness; there is none here. Catalogued `tanhuma-never-linked` (1,137), withdrawn to `judgment` 2026-08-31 |
 | **Fixed-target uniforms** — `בִּי׳`→`בִּדּוּר` 10/10, `בער`→`בְּעַר I` 10/10, `Esth. R. to I, 3` 25/25 | 39 anchors in the wider family | Catalogued `geresh-abbrev-fixed-sink` (970, `route: judgment`). Uniformity of the *observed* target is not evidence the target is right — it is the same fixed-sink behaviour the geresh row above describes |
 | **Unbalanced delimiters** | 1,210 paren-unbalanced and 121 bracket-unbalanced entries against 31,252 balanced | Too heterogeneous for one rule — which is why B00181, B00220 and B00270 were escalated per entry rather than proposed as a row |
+| **Unlinked `Ib.` citations** — SIZED 2026-09-06, `phase-2-unlinked-ib.md` | **2,819 occurrences / 2,179 entries** (not the 3,256 quoted from `report-batch-06.md`, whose control does not reproduce); 2,118 of them resolvable, the walk validated at 99.9% place-accuracy on an 1,859-case control | Not a predicate problem — a GATE problem. The repair **mints an anchor**, and `link-target.ts:2207` refuses any net anchor-count increase outright; `unlinks` reconciles removals only. Needs a new gate case for a minted anchor whose target is copied from a named input anchor. `no-new-text` and `markup` both pass |
 
 ---
 
