@@ -59,6 +59,19 @@ teaches the wrong test.
 
 No defect class, repair convention or pre-decided input changed.
 
+**Correction, 2026-09-06 (batch 06, chunk-r00024).** This document
+shipped with **`v9` still in its body** — the output-contract field
+table, checklist item 7, and both worked-example patch records — while
+its header, Input table and sign-off said `v10`. A sweep agent caught
+it, applied the "code wins" rule, and emitted `v10` correctly, so no
+tranche output is affected. Fixed here.
+
+The irony is recorded rather than hidden: three of the four items above
+are cases of a document arguing from a stale premise, and this
+document shipped with one. v7, v8 and v9 each updated their body
+correctly; the v6 → v7 changelog records the same defect in v6. **When
+cutting vN+1, grep the whole file for `v<N>`, not just the header.**
+
 ## Changelog v8 → v9 (residue batch 03, 2026-09-04)
 
 Two systemic shapes gain script-slated rows. Both were measured by
@@ -941,8 +954,8 @@ Its `sense_index` row: `{ "path": "0", "number": "",
 patches:
 
 ```jsonl
-{"id":"P000001","rid":"X00001","target":"sense[]:56b28a8d","op":"split","expected_before":"first meaning.—2) second meaning.","expected_occurrences":1,"occurrence_index":1,"payload":{"marker":"—2)"},"confidence":"high","rationale":"In-text —2) run with no 1) before it; split the swallowed boundary.","defect_class":"implied-one","snapshot":"sha256:<pin>","prompt_version":"v9"}
-{"id":"P000002","rid":"X00001","target":"sense[]:75f7e275","op":"retag","expected_before":"first meaning.","expected_occurrences":1,"occurrence_index":1,"payload":{"number":"1)"},"confidence":"high","rationale":"Host sense is the implied 1); insert per register #16 convention.","defect_class":"implied-one","snapshot":"sha256:<pin>","prompt_version":"v9"}
+{"id":"P000001","rid":"X00001","target":"sense[]:56b28a8d","op":"split","expected_before":"first meaning.—2) second meaning.","expected_occurrences":1,"occurrence_index":1,"payload":{"marker":"—2)"},"confidence":"high","rationale":"In-text —2) run with no 1) before it; split the swallowed boundary.","defect_class":"implied-one","snapshot":"sha256:<pin>","prompt_version":"v10"}
+{"id":"P000002","rid":"X00001","target":"sense[]:75f7e275","op":"retag","expected_before":"first meaning.","expected_occurrences":1,"occurrence_index":1,"payload":{"number":"1)"},"confidence":"high","rationale":"Host sense is the implied 1); insert per register #16 convention.","defect_class":"implied-one","snapshot":"sha256:<pin>","prompt_version":"v10"}
 ```
 
 `56b28a8d` came from the input `sense_index`; `75f7e275` is the
@@ -1042,7 +1055,7 @@ chunk id.
 | `rationale` | One sentence: why |
 | `defect_class` | Catalog token (or your proposed name for a novel class) |
 | `snapshot` | The provided pin, verbatim |
-| `prompt_version` | `"v9"` |
+| `prompt_version` | `"v10"` |
 
 ### Payloads
 
@@ -1111,7 +1124,7 @@ confidence is what makes the sampling work — do not inflate.
 5. No `needs_*` row without an `escalation`; no `clean` row with
    patches; no escalations for script-slated systemic patterns.
 6. Seed rulings honored; nothing pre-decided re-litigated.
-7. `snapshot` and `prompt_version` (`v9`) on every patch.
+7. `snapshot` and `prompt_version` (`v10`) on every patch.
 8. Every `anomaly_hint` for your entries explicitly judged —
    accepted into a disposition, or rejected with a reason you could
    defend to the verification tier. **Write the rejection reasons
