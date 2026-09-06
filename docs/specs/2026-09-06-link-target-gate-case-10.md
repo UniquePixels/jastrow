@@ -1,7 +1,8 @@
 # Case 10 — an anchor minted around an anaphor, targeted by copy
 
-**Status:** DRAFT 2026-09-06. **Needs one narrow maintainer ruling before
-any code** — see §7, which is smaller than it first looked. Extends [the batch-4 gate
+**Status:** RULED IN by Brian 2026-09-06 and **BUILT the same day**
+with `MINT_DECLARERS` empty, so live exposure is zero until a rule is
+ruled in separately. Extends [the batch-4 gate
 cases](2026-08-27-link-target-gate-cases.md), [case
 8](2026-08-31-link-target-gate-case-8.md) and [case
 9](2026-09-01-link-target-gate-case-9.md). `link-target.ts`'s nine
@@ -220,21 +221,35 @@ blind-spot list already carries: today *any* delete-one/create-one
 pair passes silently; after clause 7 only the anaphor-for-anaphor pair
 does.
 
-## 6. What ships with the case
+## 6. What shipped with the case
 
-1. `TransformResult.minted`, documented in `types.ts` to the standard
+All five, 2026-09-06:
+
+1. `TransformResult.minted` in `types.ts`, documented to the standard
    of `corroborated` and `vouched` — the clauses, what the case cannot
    see, and where the correctness half lives.
 2. `MINT_DECLARERS` in `link-target.ts`, **empty**, with a docstring
-   stating what a reviewer must measure before adding an id.
-3. Clause 6's equation replacing the `removed < 0` branch, plus clause
-   7's anaphor-count reconciliation.
-4. Gate fixtures: one claim per clause, each failing with that clause
-   withheld and passing with it — including a positive control that
-   the equation is byte-identical for a `minted`-free rule.
-5. No rule. The case is a licence, not an instruction, and shipping it
-   with `MINT_DECLARERS` empty means live exposure is zero until a
-   rule is ruled in separately.
+   naming the three things a reviewer must measure before adding an
+   id.
+3. Clause 6's equation replacing the two count branches, and clause
+   7's anaphor reconciliation. `mintCountFault` **preserves both
+   pre-case-10 wordings verbatim** for a mint-free rule; the first cut
+   did not, and four existing fixtures caught it. That is what makes
+   "behaviour for all existing rules is unchanged" a claim about the
+   messages as well as about pass/fail.
+4. Fourteen gate fixtures — one per clause, each asserting the
+   specific message with that clause alone broken, plus a positive
+   control that a well-formed claim clears clauses 2-7 and another
+   that the three pre-case-10 count messages are byte identical.
+5. **No rule.** The case is a licence, not an instruction.
+
+One thing the build added that this spec did not anticipate:
+`checkMintClauses` is **exported**, because an empty
+`MINT_DECLARERS` makes clause 1 the only case-10 behaviour reachable
+through `checkLinkTargets` and no fixture could otherwise reach
+clauses 2-7. The alternative was seeding the allowlist with a test id,
+which widens the licence for a test's benefit. Clause 1 is still
+tested through the public entry point.
 
 ## 7. The body-model question, and the precedent that mostly answers it
 
@@ -287,12 +302,12 @@ only one of them matters:
 > Does the Class 2 approval extend to that population and that
 > resolution method?
 
-A yes makes case 10 buildable. A no retires the unlinked-`Ib.` row and
-the class report's §8 entry becomes final rather than blocked — a
-useful answer too, and cheaper than building this.
-
-Nothing in §§2–6 depends on which way it goes; the design is complete
-and the measurements are recorded either way.
+**RULED 2026-09-06 (Brian): yes — build case 10.** The five precedent
+items took their address from `refs[]`, which v2 drops; the antecedent
+copy is strictly more conservative, being entry-local movement of
+bytes the entry already displays. The gate case is built; the rule is
+a separate decision and `MINT_DECLARERS` stays empty until it is
+made.
 
 ## 8. Verification
 
@@ -320,5 +335,9 @@ why `report-batch-06.md`'s 3,256 / 5,795 is not used.
   produced the "show only what Jastrow linked" line, which was written
   about baseless refs in a different class. The question left is
   narrower than the first draft claimed.
-- **PENDING** — §7's residual: does the Class 2 approval extend to a
-  bare anaphor resolved by antecedent copy? Not mine to make.
+- **2026-09-06** — §7 RULED by Brian: yes. Built the same day.
+- **2026-09-06** — `checkMintClauses` exported during the build, for
+  the reason §6 records. Not in the drafted design.
+- **PENDING** — whether to write the rule that declares this case.
+  `MINT_DECLARERS` is empty until that is decided, so nothing is
+  licensed in the meantime.
