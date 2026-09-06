@@ -93,8 +93,19 @@ const GERESH = /[׳']/gu;
  * these three ways for the same thing — Roman (` I`), ASCII digit
  * (` 2`) and superscript (` ²`) — so all three strip identically
  * (batch-02 A01346 fired a false `exact-headword-diverge` when a
- * display's Roman numeral met its target's superscript). */
-const HOMOGRAPH = /\s+(?:[IVX]+|[0-9]+|[²³¹⁰-⁹]+)$/u;
+ * display's Roman numeral met its target's superscript).
+ *
+ * The separator admits a COMMA, because an entry covering two
+ * homographs writes the run as `I, II` and sometimes closes it with a
+ * trailing comma. Nine of 32,512 headwords are written that way, and
+ * on all nine the old pattern stopped at the comma and left it in the
+ * base — `בִּזְיוּנָא , II` based to `בִּזְיוּנָא ,`, which equals no
+ * link target and no redirect. That was one of batch 05's two
+ * `own-form-escape-link` false positives (B00443), and the sweep
+ * agent's other proposed cause for it was inert: `baseHeadword` strips
+ * `I` and `II` identically, so the stub's data-ref/display mismatch
+ * changed nothing. */
+const HOMOGRAPH = /[\s,]+(?:[IVX]+|[0-9]+|[²³¹⁰-⁹]+),?$/u;
 /** Jastrow's editorial mark on a reconstructed headword. It is stored
  * inside the headword string but is not part of the word, so an anchor
  * displaying the de-asterisked target is a correct link (v2 carries it
@@ -102,8 +113,19 @@ const HOMOGRAPH = /\s+(?:[IVX]+|[0-9]+|[²³¹⁰-⁹]+)$/u;
  * independently: 1,339 `*` headwords, 1,412 anchors whose display is
  * exactly the de-asterisked target, all correct. */
 const EDITORIAL_ASTERISK = /^\*+/u;
-/** Everything a bare redirect stub may put before its one anchor. */
+/** Everything a bare redirect stub may put before its one anchor,
+ * once its citations are removed. A stub may cite the attestation it
+ * is redirecting from — A00926's whole content is
+ * `Targ. I Chr. I, 20, v. אַשְׁלָא` — and that citation is an anchor
+ * element, so `ANCHOR_ELEMENT` takes it out and only punctuation is
+ * left to match. Batch 05's other `own-form-escape-link` false
+ * positive was this shape. Prose is deliberately still refused: a real
+ * definition ending in `, v. X` keeps its words here and fails. */
 const STUB_LEAD = /^[\s,;.]*v\.\s*$/iu;
+/** A whole anchor element, display text included. `TAG` alone strips
+ * the markup and LEAVES the display, which is what a citation's text
+ * is; a lead test has to lose both. */
+const ANCHOR_ELEMENT = /<a\b[^>]*>[\s\S]*?<\/a>/gu;
 /** The `-im`/`-in` plural alternation of Hebrew against Aramaic is
  * free variation in this corpus, so a final mem and a final nun must
  * not read as a consonant change (letter L's one-consonant rule
@@ -177,9 +199,23 @@ function entryDefinitions(entry: SourceEntry): string[] {
 }
 
 /** The target of a bare `, v. Y` redirect stub, if the whole entry is
- * one. 7,332 corpus entries are; 73 of them are displayed by an anchor
- * that links straight through to Y, a correct resolution that used to
- * fire `exact-headword-diverge` (letter P's `lemma-variant-retarget`). */
+ * one. 73 of them are displayed by an anchor that links straight
+ * through to Y, a correct resolution that used to fire
+ * `exact-headword-diverge` (letter P's `lemma-variant-retarget`).
+ *
+ * The population was 7,332 entries while the lead test ran against the
+ * citation text; stripping anchor elements first (see `STUB_LEAD`)
+ * makes it **7,690**, gaining 358 and losing none, measured over
+ * 32,512 healed entries with A00926 asserted present. `redirect` holds
+ * 7,680 of them: it is keyed by base headword, and ten bases carry two
+ * stub entries between them.
+ *
+ * The 73 is NOT a reproduction of the round-1 predicate, which is not
+ * recorded here. Counting anchors whose display bases to a stub whose
+ * redirect is the anchor's own target, over 66,761 Jastrow anchors on
+ * the healed corpus, gives **69**. Two different questions may be
+ * being asked; neither number should be leaned on without restating
+ * its predicate. */
 function redirectTarget(entry: SourceEntry): string | undefined {
 	const senses = entry.content?.senses ?? [];
 	const only = senses.length === 1 ? senses[0] : undefined;
@@ -191,7 +227,10 @@ function redirectTarget(entry: SourceEntry): string | undefined {
 	if (m === undefined) {
 		return;
 	}
-	const lead = only.definition.slice(0, m.index).replace(TAG, ' ');
+	const lead = only.definition
+		.slice(0, m.index)
+		.replace(ANCHOR_ELEMENT, ' ')
+		.replace(TAG, ' ');
 	const tail = only.definition
 		.slice((m.index ?? 0) + m[0].length)
 		.replace(TAG, ' ')

@@ -60,6 +60,28 @@ import {
  * residue, so its hints cannot be only the new kind. The audit that
  * matters is the adjudicated fixture below, not this count.
  *
+ * Re-baselined a FOURTH time, 2026-09-05, for batch 05's two
+ * headword-normalization fixes. Previous figure: RESIDUE 3757.
+ *
+ * The move is +2, and it is four entries, not two. Both residue
+ * populations were computed from the production `residueRids` — one
+ * in a worktree at the pre-fix commit, one here — and the rid sets
+ * differenced, because a count cannot be differenced:
+ *
+ * - **B00443 LEFT.** The `own-form-escape-link` false positive the
+ *   comma fix was aimed at. Its old hint text printed the bug in
+ *   plain sight: `own inflected form of בִּזְיוּנָא ,`.
+ * - **B00017, B00411 and B00457 ENTERED**, each on a NEW
+ *   `exact-headword-diverge`: all three display `בְּזָא` and target
+ *   `בְּזֵי`. They had **zero** hints before. `בְּזָא  I, II,` (B00407)
+ *   used to base to itself, comma and all, so the display was never
+ *   recognized as a headword and the rule could not fire.
+ *
+ * So a malformed base was BLINDING a detector, and the fix is worth
+ * more than the false positive it was written for: -1 wrong hint,
+ * +3 candidates nothing had ever been able to see. Whether those
+ * three are real mislinks is the sweep's question, not this file's.
+ *
  * Re-baselined a SECOND time, 2026-09-04, for the
  * `rare-dotted-variant` bare-word guard (`maxBareForRare`, see
  * anomalies.ts). Previous figures: RESIDUE 3838, TOUCHED 1988.
@@ -87,7 +109,7 @@ import {
  * population, not merely un-hinted. Separating "worth sweeping" from
  * "has a hint" would keep them, and would mean this file's
  * every-entry-carries-a-hint invariant no longer holds. */
-const RESIDUE: number = 3757;
+const RESIDUE: number = 3759;
 const ADJUDICATED_COUNT: number = 61;
 const SWEEP: number = RESIDUE - ADJUDICATED_COUNT;
 /** Sweep entries whose TEXT a transform rewrote — 52.7% of 3,696.

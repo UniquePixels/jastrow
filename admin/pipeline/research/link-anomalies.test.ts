@@ -12,6 +12,12 @@ function anchor(target: string, display: string): string {
 	return `<a class="refLink" href="/Jastrow,_${target}.1" data-ref="Jastrow, ${target}">${display}</a>`;
 }
 
+/** A citation anchor: an anchor whose `data-ref` points OUT of the
+ * dictionary, so the headword rules never judge it. */
+function citation(ref: string, display: string): string {
+	return `<a class="refLink" href="/x" data-ref="${ref}">${display}</a>`;
+}
+
 function entry(
 	rid: string,
 	definition: string,
@@ -560,6 +566,73 @@ describe('own-form-escape-link (inflection residue adjudication, 2026-09-05)', (
 		);
 		const hints = entryAnomalyHints(host, new Map(), index([], [host]));
 		expect(kinds(hints)).not.toContain('own-form-escape-link');
+	});
+
+	// Batch 05 produced this rule's first out-of-sample reading — 30
+	// hints, 28 real, 2 false positives — and BOTH false positives were
+	// the redirect-stub exemption matched too narrowly. Each shape below
+	// is one of them, verified against the corpus rather than against
+	// the reporting agent's diagnosis: the sweep attributed B00443 to a
+	// data-ref/display mismatch as well, and that half is inert, because
+	// `baseHeadword` strips `I` and `II` identically.
+
+	it('exempts a stub that cites its attestation before the `v.`', () => {
+		// A03316 -> A00926. The stub's whole content is
+		// `Targ. I Chr. I, 20, v. אַשְׁלָא` — it redirects straight home,
+		// but the citation ahead of the `v.` defeated a lead pattern
+		// that allowed only punctuation. Reciprocity is exact: the
+		// host's own next clause quotes the same citation back.
+		const host = entry(
+			'A03316',
+			`rope.—Pl. אַשְׁלַיָּא ${anchor('אוּשְׁלַיָּא', 'אַשְׁלַיָּא')}`,
+			'אַשְׁלָא',
+		);
+		const stub = entry(
+			'A00926',
+			`${citation('Targum of I Chronicles 1:20', 'Targ. I Chr. I, 20')}, v. ${anchor('אַשְׁלָא', 'אַשְׁלָא')}`,
+			'אוּשְׁלַיָּא',
+		);
+		const hints = entryAnomalyHints(host, new Map(), index([], [host, stub]));
+		expect(kinds(hints)).not.toContain('own-form-escape-link');
+	});
+
+	it('exempts a stub whose host headword carries a stray comma', () => {
+		// B00443 -> B00450. The stub redirects home and `redirect` holds
+		// it; the comparison failed on the HOST side, because
+		// `baseHeadword('בִּזְיוּנָא , II')` left the comma behind. Nine
+		// of 32,512 headwords are written this way, all of them a
+		// homograph run like `I, II`.
+		const host = entry(
+			'B00443',
+			`slit.—Pl. בִּיזְיָינֵי ${anchor('בִּזְיָינֵי', 'בִּיזְיָינֵי')}`,
+			'בִּזְיוּנָא , II',
+			{ plural_form: ['בִּזֵיוּנֵי', 'בִּיזְיָינֵי'] } as Partial<SourceEntry>,
+		);
+		const stub = entry(
+			'B00450',
+			`, v. ${anchor('בִּזְיוּנָא I', 'בִּזְיוּנָא II')}`,
+			'בִּזְיָינֵי',
+		);
+		const hints = entryAnomalyHints(host, new Map(), index([], [host, stub]));
+		expect(kinds(hints)).not.toContain('own-form-escape-link');
+	});
+
+	it('still fires when the stub redirects to the etymon, not the host', () => {
+		// B00138 -> B00137, the third shape batch 05 met and the one
+		// DECLINED. The stub `, v. בְּדַח` sends the reader to the host's
+		// own etymon rather than to the host, so the two entries have
+		// not agreed about the word — the reader still does not land on
+		// בְּדִיחָא. Widening the exemption to cover it would suppress a
+		// live escalation on an argument nothing has adjudicated.
+		const host = entry(
+			'B00138',
+			`(בדח) joy. Constr. ${anchor('בְּדִיחַ', 'בְּדִיחַת')}`,
+			'בְּדִיחָא',
+			{ plural_form: ['בְּדִיחַת'] } as Partial<SourceEntry>,
+		);
+		const stub = entry('B00137', `, v. ${anchor('בְּדַח', 'בְּדַח')}`, 'בְּדִיחַ');
+		const hints = entryAnomalyHints(host, new Map(), index([], [host, stub]));
+		expect(kinds(hints)).toContain('own-form-escape-link');
 	});
 
 	it('exempts a geresh-abbreviated display, where the test is known to fail', () => {
