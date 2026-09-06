@@ -232,8 +232,13 @@ describe('registry coverage', () => {
 	//   See data/patches/catalogue-audit/never-linked-works.md,
 	//   midrash-petichta.md, unlinked-v-span.md,
 	//   containment-fallback.md and v-sub-redirect-stub.md.
-	it('the catalogue still holds 54 transform rows', () => {
-		expect(coverage(catalogue).total).toBe(54);
+	// 55 since 2026-09-06: `geresh-apostrophe-as-gershayim`, the first
+	// row the RESIDUE SWEEP added rather than a discovery round. Every
+	// prior movement on this number was a departure; this is the first
+	// arrival, so the ledger above reads as thirteen departures and one
+	// addition rather than as a target drifting.
+	it('the catalogue still holds 55 transform rows', () => {
+		expect(coverage(catalogue).total).toBe(55);
 	});
 
 	it('pending ids all exist in the catalogue', () => {

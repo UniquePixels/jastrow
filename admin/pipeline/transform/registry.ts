@@ -17,6 +17,7 @@ import {
 	trailingWhitespaceDefinition,
 } from './rules/edge-trim.ts';
 import { gereshLetterNumeral, prefixedGereshAbbrev } from './rules/geresh.ts';
+import { gereshApostropheGershayim } from './rules/geresh-apostrophe.ts';
 import { gershayimInBody, gershayimRefAttribute } from './rules/gershayim.ts';
 import {
 	abbrevFusedHeadword,
@@ -669,6 +670,28 @@ const RULES: readonly Rule[] = [
 	// working note nobody else can open.
 	gershayimInBody,
 	gershayimRefAttribute,
+
+	// `geresh-apostrophe-as-gershayim` — the THIRD arm of the same
+	// defect, found by the residue sweep (batch 04) and shipped here
+	// beside the pair rather than appended, because a reader looking for
+	// "where does the corpus's gershayim get repaired" should find all
+	// three in one place.
+	//
+	// It is NOT entangled with them and the catalogue does not say it is.
+	// The three predicates are disjoint by construction: the pair reads
+	// an ASCII `"`, this reads the two-codepoint run `׳'`, and neither
+	// substitution can create or destroy the other's occurrence — the
+	// pair writes `״` where a `"` stood and never emits a `׳`, and this
+	// rule writes `״` and never emits a `"`. So no ordering constraint
+	// binds them, and the placement is for legibility.
+	//
+	// The one thing that WOULD bind them is `gershayimRefAttribute`'s
+	// `glyphCorrected` claim, which case 5 refuses outright if its `from`
+	// tag already carries a `״`. That cannot happen: this rule is
+	// document-text only and leaves every `<…>` run byte-identical, which
+	// is measured over the whole corpus (0 of 25 occurrences sit inside a
+	// tag) rather than argued.
+	gereshApostropheGershayim,
 
 	// ======== Batch 3b: italic & punctuation seams ========
 	//
