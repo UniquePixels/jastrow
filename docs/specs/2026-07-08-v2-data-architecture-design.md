@@ -336,15 +336,21 @@ evidence):
    `refs` is dropped from truth (B7); the reference index derives at
    compile (§3).
 5. Slug assignment, once, then frozen (D12).
-6. `page`/`column` carried from the v1 enrichment, with the 107
-   hand edits from main's history applied — the one true replay.
+6. ~~`page`/`column` carried from the v1 enrichment, with the 107
+   hand edits from main's history applied — the one true replay.~~
+   **Superseded 2026-09-06:** `page`/`column` come from the hOCR page
+   index (`data/page-index/entries.jsonl`, all 32,512 entries); the v1
+   locators and the 107 hand edits are a cross-check only. See the
+   [migrate design](2026-09-06-migrate-design.md) §2.5.
 7. Structural: drop `_id`/`parent_lexicon`, keep recursive grammar
    senses, omit empties.
 
 **Blessing gates (all must pass before truth is real):**
 
-- Golden render-diff of all 32,512 entries against v1 output; every
-  difference must be explained by a listed rule.
+- ~~Golden render-diff of all 32,512 entries against v1 output; every
+  difference must be explained by a listed rule.~~ **Replaced
+  2026-09-06** by the text-conservation gate and the sampled evidence
+  doc ([migrate design](2026-09-06-migrate-design.md) §4).
 - Headword round-trip 32,512/32,512; alt round-trip likewise.
 - prev/next chain ↔ rid order agreement (§5).
 - The 88 broken internal targets resolved or explicitly quarantined.
@@ -457,3 +463,4 @@ Measured 2026-07-07/08 against the 2026-07-04 snapshot:
 | 2026-07-08 | Review round 2: `origin` fields proven to be crudely segmented print text that **v1 dropped entirely** — v2 restores it; re-segmentation attempt + round-trip gate in §6.0, rejoin fallback; quotes examination may fold into sense census |
 | 2026-07-08 | Review round 3: §6.0 reframed around the **entry body model** — origin, sense-1 preamble, senses internals, and quotes are fragments of one printed body, reassembled together (Sefaria fields are inputs, not the model); §2.2 rows for those fields marked provisional |
 | 2026-08-05 | **Entry body model consequences folded in** ([design doc](2026-07-11-entry-body-model-design.md) §8, its §6.0 review complete): §2.2 provisional rows resolved — `origin` rejoins the intro gloss (B2), `quotes` dropped (B8), `refs` dropped with the reference index derived at compile (B7); `senses` becomes the `{label?, gloss, units[], senses[]}` tree with `stems` binyan sections and the `grammar` typed index (B3); example JSON updated to the committed schema shape. §2.3: `<ref rid>`/`<cite ref>` merged into one `<cite ref>` (B10, counts summed 164,807); D7/D8 + migration rules 2–4 reworded to match. §2.5 records the B11 schema deliverable (`admin/pipeline/schema/entry.schema.json`). §3: compile gains the derived reference index + corpus categorization (D11). Register: #1 → derived-index completeness lint; #12 closed; #13 ibid linking, #14 POS enrichment added; #11 notes the future forms index |
+| 2026-09-06 | §6 rule 6 and the render-diff blessing gate superseded by the migrate design. |

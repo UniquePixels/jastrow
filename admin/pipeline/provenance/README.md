@@ -63,7 +63,7 @@ the pipeline documents how data is built; this list documents what
 accumulated value rides along:
 
 - **289 print-locator corrections** (182 column + 3 page fixes made
-  before the first commit, plus 107 page fixes in caf242a): applied
-  once during migration by sourcing `page`/`column` from the deployed
-  data rather than `data/raw` and replaying the mined hand edits
-  (data architecture spec §6 rule 6).
+  before the first commit, plus 107 page fixes in caf242a): applied as
+  a **cross-check** against the hOCR page index during migration
+  (migrate design §2.5), not as a source — the index covers every
+  entry with a column and corrected v1's volume-2 page offset.
