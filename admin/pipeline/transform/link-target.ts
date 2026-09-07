@@ -2272,9 +2272,11 @@ function mintCountFault(state: {
 }): string {
 	const { declared, mints, output, removed, rid, source } = state;
 	if (mints.length === 0) {
+		// Pluralize "anchor" only when more than one was removed.
+		const plural = removed === 1 ? '' : 's';
 		return removed < 0
 			? `anchor count grew ${source.length} → ${output.length} in ${rid}`
-			: `removed ${removed} anchor${removed === 1 ? '' : 's'} in ${rid}, declared ${declared}`;
+			: `removed ${removed} anchor${plural} in ${rid}, declared ${declared}`;
 	}
 	return `net anchor change ${removed} in ${rid}, declared ${declared} unlinked and ${mints.length} minted`;
 }

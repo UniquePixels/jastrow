@@ -84,7 +84,7 @@ async function resolveSince(raw: string | undefined): Promise<number> {
 		: raw;
 	const at = Date.parse(text);
 	if (Number.isNaN(at)) {
-		throw new Error(
+		throw new TypeError(
 			`--since wants an ISO instant or @file containing one, got '${text}'`,
 		);
 	}
@@ -112,7 +112,7 @@ async function transcripts(filter: string | undefined): Promise<string[]> {
 			out.push(`${PROJECTS}/${hit}`);
 		}
 	}
-	return out.sort();
+	return out.sort((a, b) => a.localeCompare(b));
 }
 
 /** A usage field read straight off an untyped transcript record. Only
