@@ -378,7 +378,10 @@ interface ConsolidatedCorpus {
  * swept more than once keeps only its LATEST record (`records` is in
  * ingest order — file order matches `TRANCHES`'s ingest order — so
  * later entries for a rid replace earlier ones); only the patches its
- * survivors list are kept. */
+ * survivors list are kept. A patch no record — kept OR superseded —
+ * ever lists is not a Ruling C supersession, it is an ingest bug (a
+ * hand-authored or mis-ingested tranche), and is reported loudly
+ * rather than silently folded into the supersession count. */
 function consolidate(
 	records: readonly EntryResult[],
 	patches: readonly SemanticPatch[],
@@ -390,6 +393,13 @@ function consolidate(
 			supersededRecords++;
 		}
 		latest.set(record.rid, record);
+	}
+	const allIds = new Set(records.flatMap((record) => record.patches));
+	const orphans = patches.filter((patch) => !allIds.has(patch.id));
+	if (orphans.length > 0) {
+		throw new Error(
+			`patch(es) no manifest record lists: ${orphans.map((patch) => patch.id).join(', ')} — an ingest bug, not a Ruling C supersession`,
+		);
 	}
 	const keptRecords = [...latest.values()];
 	const keptIds = new Set(keptRecords.flatMap((record) => record.patches));

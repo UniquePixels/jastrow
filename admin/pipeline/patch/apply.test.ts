@@ -253,6 +253,23 @@ describe('consolidate — Ruling C latest-wins', () => {
 		expect(result.patches).toEqual([p1]);
 		expect(result.superseded).toEqual({ patches: 0, records: 0 });
 	});
+
+	it('throws on a patch no record — kept or superseded — lists', () => {
+		// P000002 is not named by ANY record, so it is not a Ruling C
+		// supersession (a later sweep replacing an earlier one) — it is
+		// an ingest bug, and must fail loudly rather than being folded
+		// into `superseded.patches` as if a record had dropped it.
+		const record: EntryResult = {
+			disposition: 'repaired',
+			patches: ['P000001'],
+			rid: 'A00003',
+		};
+		const p1 = ocrPatch({ id: 'P000001', rid: 'A00003' });
+		const orphan = ocrPatch({ id: 'P000002', rid: 'A00003' });
+		expect(() => consolidate([record], [p1, orphan])).toThrow(
+			'patch(es) no manifest record lists: P000002',
+		);
+	});
 });
 
 describe('applyEntryPatches', () => {
