@@ -16,6 +16,12 @@ interface Translated {
 interface Open {
 	he: boolean;
 	name: string;
+	/** Whether the open branch actually emitted a translated tag (`<he>`
+	 * for an rtl span, `<cite …>` for an anchor with a parsed href). A
+	 * `false` here means the open was passed through raw — a bare span,
+	 * a malformed anchor, a keep-tag, or an unknown tag — so the close
+	 * must also pass through raw rather than assume a translated pair. */
+	translated: boolean;
 }
 
 const KEEP = new Set(['b', 'i', 'sub', 'sup']);
@@ -71,20 +77,23 @@ function translateMarkup(html: string, resolve: RefResolver): Translated {
 				out.push(token.value);
 				continue;
 			}
-			if (token.name === 'span') {
-				out.push('</he>');
-			} else if (token.name === 'a') {
-				out.push(top.he ? '</he></cite>' : '</cite>');
-			} else {
+			if (!top.translated) {
 				out.push(token.value);
+			} else if (token.name === 'span') {
+				out.push('</he>');
+			} else {
+				out.push(top.he ? '</he></cite>' : '</cite>');
 			}
 			continue;
 		}
 		if (token.name === 'span') {
 			if (!DIR_RTL.test(token.value)) {
 				problems.push(`span without dir="rtl": ${token.value}`);
+				open.push({ he: false, name: 'span', translated: false });
+				out.push(token.value);
+				continue;
 			}
-			open.push({ he: false, name: 'span' });
+			open.push({ he: false, name: 'span', translated: true });
 			out.push('<he>');
 			continue;
 		}
@@ -93,7 +102,7 @@ function translateMarkup(html: string, resolve: RefResolver): Translated {
 			const dataRef = DATA_REF.exec(token.value)?.groups?.['v'] ?? '';
 			if (href === undefined) {
 				problems.push(`anchor without href: ${token.value}`);
-				open.push({ he: false, name: 'a' });
+				open.push({ he: false, name: 'a', translated: false });
 				out.push(token.value);
 				continue;
 			}
@@ -102,14 +111,14 @@ function translateMarkup(html: string, resolve: RefResolver): Translated {
 				problems.push(`ref carries a quote: ${ref}`);
 			}
 			const he = DIR_RTL.test(token.value) && !wrappedInRtlSpan(tokens, i);
-			open.push({ he, name: 'a' });
+			open.push({ he, name: 'a', translated: true });
 			out.push(he ? `<cite ref="${ref}"><he>` : `<cite ref="${ref}">`);
 			continue;
 		}
 		if (!KEEP.has(token.name)) {
 			problems.push(`tag outside the vocabulary: ${token.value}`);
 		}
-		open.push({ he: false, name: token.name });
+		open.push({ he: false, name: token.name, translated: false });
 		out.push(token.value);
 	}
 	if (open.length > 0) {

@@ -54,4 +54,36 @@ describe('translateMarkup', () => {
 		const out = translateMarkup(ANCHOR, () => 'bad"ref');
 		expect(out.problems[0]).toMatch(/quote/u);
 	});
+	it('passes a malformed anchor through raw instead of dangling </cite>', () => {
+		const html = '<a href="/Jastrow,_x.1</a>" data-ref="x">Sabb.</a>';
+		const out = translateMarkup(html, resolve);
+		expect(out.text).toBe(html);
+		expect(out.problems.some((p) => p.includes('anchor without href'))).toBe(
+			true,
+		);
+		expect(textOf(out.text)).toBe(textOf(html));
+	});
+	it('reports a bare span and passes it through raw', () => {
+		const html = '<span>x</span>';
+		const out = translateMarkup(html, resolve);
+		expect(out.text).toBe(html);
+		expect(out.problems).toEqual(['span without dir="rtl": <span>']);
+		expect(textOf(out.text)).toBe(textOf(html));
+	});
+	it('still translates an unclosed rtl span, reporting it unclosed', () => {
+		const html = '<span dir="rtl">אב';
+		const out = translateMarkup(html, resolve);
+		expect(out.text).toBe('<he>אב');
+		expect(out.problems).toEqual(['unclosed: span']);
+		expect(textOf(out.text)).toBe(textOf(html));
+	});
+	it('closes the outer cite at the outer </a> around a malformed inner anchor', () => {
+		const html =
+			'<a class="refLink" href="/Shabbat.104a" data-ref="Shabbat 104a">Sabb. <a href="/Jastrow,_x.1</a>" data-ref="y">bad</a> 104a</a>';
+		const out = translateMarkup(html, resolve);
+		expect(out.text).toBe(
+			'<cite ref="Shabbat 104a">Sabb. <a href="/Jastrow,_x.1</a>" data-ref="y">bad</a> 104a</cite>',
+		);
+		expect(textOf(out.text)).toBe(textOf(html));
+	});
 });
