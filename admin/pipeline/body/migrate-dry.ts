@@ -413,7 +413,14 @@ if (import.meta.main) {
 		groups.carryOver.delete(source.rid);
 	}
 	// A patch whose rid never streamed past targets a nonexistent entry.
-	for (const [rid, group] of [...groups.accepted, ...groups.carryOver]) {
+	// `accepted` and `carryOver` are separate maps keyed by the same rid
+	// space — merge before reporting, or a rid present in both would be
+	// reported twice.
+	const missingRids = new Map<string, SemanticPatch[]>(groups.accepted);
+	for (const [rid, group] of groups.carryOver) {
+		missingRids.set(rid, [...(missingRids.get(rid) ?? []), ...group]);
+	}
+	for (const [rid, group] of missingRids) {
 		report.patches.problems.push(
 			`${group[0]?.id ?? rid}: no source entry with rid ${rid}`,
 		);
