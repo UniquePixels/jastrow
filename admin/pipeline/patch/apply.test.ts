@@ -3,15 +3,17 @@ import type { SourceEntry } from '../body/types.ts';
 import type { EntryResult } from '../research/manifest.ts';
 import { parseManifest } from '../research/manifest.ts';
 import {
+	applyCarryOver,
 	applyEntryPatches,
 	consolidate,
 	corpusPreflight,
 	createPhaseTracker,
+	orderedDirs,
 	PhaseViolation,
 	patchesByRid,
 	postApplyAssertions,
 } from './apply.ts';
-import { contentAnchor, type SemanticPatch } from './schema.ts';
+import { applyPatch, contentAnchor, type SemanticPatch } from './schema.ts';
 
 const PIN = `sha256:${'a'.repeat(64)}`;
 
@@ -187,6 +189,38 @@ describe('corpusPreflight — escalations policy (Ruling D)', () => {
 	});
 });
 
+describe('orderedDirs — Ruling E stage filtering', () => {
+	it('keeps every found directory in TRANCHES ingest order when stage is omitted', () => {
+		expect(
+			orderedDirs(['batch-01-2026-09-04', 'tranche-01', 'residue-01']),
+		).toEqual(['tranche-01', 'batch-01-2026-09-04', 'residue-01']);
+	});
+
+	it("filters to 'healed' directories, excluding pre-patch tranche-01", () => {
+		expect(
+			orderedDirs(
+				['tranche-01', 'calibration-2026-09-04', 'batch-01-2026-09-04'],
+				'healed',
+			),
+		).toEqual(['calibration-2026-09-04', 'batch-01-2026-09-04']);
+	});
+
+	it("filters to 'pre-patch', keeping only tranche-01", () => {
+		expect(
+			orderedDirs(['tranche-01', 'calibration-2026-09-04'], 'pre-patch'),
+		).toEqual(['tranche-01']);
+	});
+
+	it('throws on a directory TRANCHES does not name, regardless of stage filter', () => {
+		expect(() => orderedDirs(['tranche-99'])).toThrow(
+			'unordered tranche directory "tranche-99": add it to TRANCHES',
+		);
+		expect(() => orderedDirs(['tranche-99'], 'healed')).toThrow(
+			'unordered tranche directory "tranche-99": add it to TRANCHES',
+		);
+	});
+});
+
 describe('consolidate — Ruling C latest-wins', () => {
 	it('keeps only the later record for a re-swept rid, dropping its patch', () => {
 		const earlier: EntryResult = {
@@ -274,6 +308,52 @@ describe('postApplyAssertions', () => {
 		const { entry, problems } = applyEntryPatches(makeEntry(), [ocrPatch()]);
 		expect(problems).toEqual([]);
 		expect(entry.content.senses[0]?.definition).toContain('1)');
+	});
+});
+
+describe('applyCarryOver — Ruling F', () => {
+	it('absorbs a patch whose pre-state no longer resolves', () => {
+		// Apply the ocr patch for real first — the entry no longer reads
+		// "l) emergency", so the same patch, offered as carry-over, finds
+		// its pre-state already gone (a transform rule got there first, in
+		// the real pipeline).
+		const alreadyHealed = applyPatch(makeEntry(), ocrPatch());
+		const result = applyCarryOver(alreadyHealed, [ocrPatch()]);
+		expect(result.absorbed).toEqual(['P000001']);
+		expect(result.carried).toEqual([]);
+		expect(result.problems).toEqual([]);
+		expect(result.entry).toBe(alreadyHealed);
+	});
+
+	it('carries and applies a patch whose pre-state is still present', () => {
+		const result = applyCarryOver(makeEntry(), [ocrPatch()]);
+		expect(result.absorbed).toEqual([]);
+		expect(result.carried).toEqual(['P000001']);
+		expect(result.problems).toEqual([]);
+		expect(result.entry.content.senses[0]?.definition).toBe(
+			'1) emergency. Nidd. 9b',
+		);
+	});
+
+	it('orders carry-over patches by id regardless of input order, chaining state', () => {
+		const result = applyCarryOver(makeEntry(), [retagPatch(), ocrPatch()]);
+		expect(result.carried).toEqual(['P000001', 'P000002']);
+		expect(result.problems).toEqual([]);
+		expect(result.entry.content.senses[0]?.definition).toBe(
+			'1) emergency. Nidd. 9b',
+		);
+		expect(result.entry.content.senses[1]?.number).toBe('2)');
+	});
+
+	it('records a problem for a carried patch that fails its gate, without absorbing it', () => {
+		const inventing = ocrPatch({
+			payload: { find: 'emergency', replace: 'EMERGENCY!' },
+		});
+		const result = applyCarryOver(makeEntry(), [inventing]);
+		expect(result.absorbed).toEqual([]);
+		expect(result.carried).toEqual(['P000001']);
+		expect(result.problems).toHaveLength(1);
+		expect(result.problems[0]?.reason).toContain('needs_print_check');
 	});
 });
 

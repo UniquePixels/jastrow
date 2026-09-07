@@ -482,6 +482,19 @@ function exactlyOnce(
 	return definition.indexOf(needle);
 }
 
+/** Whether a patch's pre-state target still resolves to its expected
+ * occurrence count against `entry` — the same check `applyPatch` makes
+ * before it will touch anything. Factored out (task-3 addendum-3,
+ * Ruling F) so a caller that needs to know pre-state ahead of applying
+ * (the patch-carry-over pre-check) and `applyPatch`'s own gate share
+ * one formula and cannot drift apart. */
+function preStateResolves(entry: SourceEntry, patch: SemanticPatch): boolean {
+	return (
+		resolveTarget(entry, parseTarget(patch.target)).length ===
+		patch.expected_occurrences
+	);
+}
+
 /** Apply one patch to an entry, returning a repaired deep copy. Pure:
  * the input entry is never mutated. Every assertion — target
  * resolution, occurrence count, expected_before, in-definition
@@ -496,7 +509,7 @@ function applyPatch(entry: SourceEntry, patch: SemanticPatch): SourceEntry {
 	const copy = structuredClone(entry);
 	const target = parseTarget(patch.target);
 	const matches = resolveTarget(copy, target);
-	if (matches.length !== patch.expected_occurrences) {
+	if (!preStateResolves(copy, patch)) {
 		throw new PatchApplyError(
 			patch.id,
 			`target ${patch.target} resolved to ${matches.length} sense(s); expected ${patch.expected_occurrences}`,
@@ -609,6 +622,7 @@ export {
 	parsePatch,
 	parsePatchLine,
 	parseTarget,
+	preStateResolves,
 	RID,
 	resolveTarget,
 	senseTarget,
