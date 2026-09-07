@@ -355,6 +355,25 @@ describe('applyCarryOver — Ruling F', () => {
 		expect(result.problems).toHaveLength(1);
 		expect(result.problems[0]?.reason).toContain('needs_print_check');
 	});
+
+	it('reports a problem — not absorption — for a wrong-count pre-state', () => {
+		// The target still resolves (found=1), just not at the count the
+		// patch declares (expected_occurrences: 2). That is neither "the
+		// defect is gone" (found=0, absorb) nor "the defect is exactly as
+		// declared" (found===expected, carry) — a transform changed the
+		// entry into a third state the carry-over pre-check must not wave
+		// through as absorbed.
+		const mismatched = ocrPatch({ expected_occurrences: 2 });
+		const source = makeEntry();
+		const result = applyCarryOver(source, [mismatched]);
+		expect(result.absorbed).toEqual([]);
+		expect(result.carried).toEqual([]);
+		expect(result.problems).toHaveLength(1);
+		expect(result.problems[0]?.patchId).toBe('P000001');
+		expect(result.problems[0]?.reason).toContain('resolves 1 time(s)');
+		// Never applied, so the untouched entry reference comes back.
+		expect(result.entry).toBe(source);
+	});
 });
 
 describe('patchesByRid', () => {

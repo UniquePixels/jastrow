@@ -133,9 +133,19 @@ function composeEntry(
 			};
 		}
 		const carry = applyCarryOver(afterAccepted.entry, carryGroup);
+		// `carry.problems` mixes two sources: a pre-check problem for a
+		// patch that never joined `carried` at all, and an apply-gate
+		// failure for one that did. Only the second kind should reduce
+		// the carried count — subtracting the whole list can undercount
+		// (or go negative) the moment a pre-check problem exists.
+		const carriedIds = new Set(carry.carried);
+		const carriedFailures = carry.problems.filter(
+			(problem) =>
+				problem.patchId !== undefined && carriedIds.has(problem.patchId),
+		).length;
 		return {
 			absorbed: carry.absorbed,
-			applied: acceptedApplied + carry.carried.length - carry.problems.length,
+			applied: acceptedApplied + carry.carried.length - carriedFailures,
 			carried: carry.carried,
 			entry: carry.entry,
 			problems: [...afterAccepted.problems, ...carry.problems],
