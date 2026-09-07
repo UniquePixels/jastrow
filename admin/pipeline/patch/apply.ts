@@ -18,6 +18,7 @@
  *
  * Run (dry, read-only): bun research:apply
  */
+import { existsSync } from 'node:fs';
 import process from 'node:process';
 import { readSourceEntries } from '../body/source.ts';
 import type { SourceEntry } from '../body/types.ts';
@@ -40,10 +41,33 @@ import {
 } from './schema.ts';
 import { computeSnapshot } from './snapshot.ts';
 
-/** The committed patch corpus and its entry-result manifest
- * (spec §4.4) — absent files mean an empty corpus. */
-const CORPUS_PATH = 'data/patches/patches.jsonl';
-const MANIFEST_PATH = 'data/patches/manifest.jsonl';
+/** The committed patch corpus (spec §4.4): the pilot's files plus every
+ * ingested tranche's, the same set `research/tranche.ts` walks. Absent
+ * files mean an empty corpus. `CORPUS_PATH`/`MANIFEST_PATH` were the
+ * single-file layout nothing ever wrote; kept exported for callers that
+ * pass an explicit path. */
+const PILOT_DIR = 'data/patches/pilot';
+const TRANCHES_DIR = 'data/patches/tranches';
+const CORPUS_PATH = `${PILOT_DIR}/patches.jsonl`;
+const MANIFEST_PATH = `${PILOT_DIR}/manifest.jsonl`;
+
+/** Ingest order of the committed tranches (task-3 addendum, Ruling
+ * C). A rid swept more than once keeps its LATEST record only (class
+ * report §1, "latest sweep per rid"); directory names do not sort
+ * chronologically (`calibration-2026-09-04` ran before
+ * `batch-01-2026-09-04`), so the order is explicit, and a tranche
+ * directory this list does not name is an error rather than a silent
+ * guess. */
+const TRANCHE_ORDER = [
+	'tranche-01',
+	'calibration-2026-09-04',
+	'batch-01-2026-09-04',
+	'batch-02-2026-09-04',
+	'batch-03-2026-09-04',
+	'batch-04-2026-09-05',
+	'batch-05-2026-09-05',
+	'residue-01',
+] as const;
 
 /**
  * The committed ordered phase manifest (spec §5.2). Marker/text
@@ -121,34 +145,85 @@ interface ApplyProblem {
 	rid?: string | undefined;
 }
 
-/** Load the committed patch corpus (empty when the file does not
- * exist yet — no tranche has landed). */
-async function loadCorpus(
-	path: string = CORPUS_PATH,
-): Promise<SemanticPatch[]> {
+/** Every committed file with this basename: the pilot's, then each
+ * tranche's in `TRANCHE_ORDER` (ingest order, not directory-name
+ * order — Ruling C). A tranche directory the glob finds but
+ * `TRANCHE_ORDER` does not name is an ingest bug, not a silent gap. */
+async function corpusFiles(name: string): Promise<string[]> {
+	const files = [`${PILOT_DIR}/${name}`];
+	if (existsSync(TRANCHES_DIR)) {
+		const found = new Set<string>();
+		for await (const hit of new Bun.Glob(`*/${name}`).scan({
+			cwd: TRANCHES_DIR,
+		})) {
+			found.add(hit.slice(0, hit.indexOf('/')));
+		}
+		for (const dir of found) {
+			if (!(TRANCHE_ORDER as readonly string[]).includes(dir)) {
+				throw new Error(
+					`unordered tranche directory "${dir}": add it to TRANCHE_ORDER`,
+				);
+			}
+		}
+		for (const dir of TRANCHE_ORDER) {
+			if (found.has(dir)) {
+				files.push(`${TRANCHES_DIR}/${dir}/${name}`);
+			}
+		}
+	}
+	return files;
+}
+
+async function readLines(path: string): Promise<string[]> {
 	const file = Bun.file(path);
 	if (!(await file.exists())) {
 		return [];
 	}
+	return (await file.text()).split('\n');
+}
+
+/** Load the patch corpus: one explicit file, or (no argument) every
+ * committed file, pilot first then tranches in name order. Every
+ * entry is deep-frozen by `parsePatchLine`. A line number in a
+ * `parsePatchLine` error is per-file, not corpus-wide — the file it
+ * came from is not threaded through the error message. */
+async function loadCorpus(path?: string): Promise<SemanticPatch[]> {
+	const files =
+		path === undefined ? await corpusFiles('patches.jsonl') : [path];
 	const patches: SemanticPatch[] = [];
-	const lines = (await file.text()).split('\n');
-	for (const [index, line] of lines.entries()) {
-		if (line.trim() !== '') {
-			patches.push(parsePatchLine(line, index + 1));
+	for (const file of files) {
+		for (const [index, line] of (await readLines(file)).entries()) {
+			if (line.trim() !== '') {
+				patches.push(parsePatchLine(line, index + 1));
+			}
 		}
 	}
 	return patches;
 }
 
-/** Load the entry-result manifest (empty when absent). */
-async function loadManifest(
-	path: string = MANIFEST_PATH,
-): Promise<EntryResult[]> {
-	const file = Bun.file(path);
-	if (!(await file.exists())) {
-		return [];
+/** Load the entry-result manifest the same way (`parseManifest` wants
+ * a whole file's text, so each file's lines are rejoined before
+ * parsing). */
+async function loadManifest(path?: string): Promise<EntryResult[]> {
+	const files =
+		path === undefined ? await corpusFiles('manifest.jsonl') : [path];
+	const records: EntryResult[] = [];
+	for (const file of files) {
+		const text = (await readLines(file)).join('\n');
+		if (text.trim() !== '') {
+			records.push(...parseManifest(text));
+		}
 	}
-	return parseManifest(await file.text());
+	return records;
+}
+
+/** Preflight policy (task-3 addendum, Ruling D). `block` (default):
+ * unresolved `needs_*` rows are problems — the research-track
+ * contract. `defer`: they are not; the maintainer deferred every
+ * escalation to post-go-live on 2026-09-06 (class report; migrate
+ * spec §8), and migration proceeds without them. */
+interface PreflightOptions {
+	escalations: 'block' | 'defer';
 }
 
 /**
@@ -156,14 +231,16 @@ async function loadManifest(
  * equals the current snapshot hash; (b) the corpus is internally
  * valid (unique ids, no overlapping targets); (c) the manifest lists
  * exactly the corpus patches; (d) the replay gate is open — no
- * unresolved `needs_*` rows. Reports every problem together. The
- * per-patch `expected_before` / occurrence checks live in
- * `applyEntryPatches`, where the entries stream past.
+ * unresolved `needs_*` rows, unless `options.escalations` is
+ * `'defer'`. Reports every problem together. The per-patch
+ * `expected_before` / occurrence checks live in `applyEntryPatches`,
+ * where the entries stream past.
  */
 function corpusPreflight(
 	patches: readonly SemanticPatch[],
 	records: readonly EntryResult[],
 	currentPin: string,
+	options: PreflightOptions = { escalations: 'block' },
 ): ApplyProblem[] {
 	const problems: ApplyProblem[] = [];
 	for (const patch of patches) {
@@ -184,10 +261,63 @@ function corpusPreflight(
 	for (const problem of reconcilePatches(records, patches)) {
 		problems.push({ reason: problem.reason, rid: problem.rids[0] });
 	}
-	for (const problem of replayGate(records)) {
-		problems.push({ reason: `${problem.reason}: ${problem.rids.join(', ')}` });
+	if (options.escalations === 'block') {
+		for (const problem of replayGate(records)) {
+			problems.push({
+				reason: `${problem.reason}: ${problem.rids.join(', ')}`,
+			});
+		}
 	}
 	return problems;
+}
+
+/** The corpus migration applies: every committed record and patch,
+ * consolidated to the latest record per rid (Ruling C). */
+interface AcceptedCorpus {
+	patches: SemanticPatch[];
+	records: EntryResult[];
+	superseded: { patches: number; records: number };
+}
+
+/** Ruling C's latest-wins consolidation, factored out pure so it can
+ * be pinned against hand-built fixtures without touching disk. A rid
+ * swept more than once keeps only its LATEST record (`records` is in
+ * ingest order — file order matches `TRANCHE_ORDER` — so later
+ * entries for a rid replace earlier ones); only the patches its
+ * survivors list are kept. */
+function consolidate(
+	records: readonly EntryResult[],
+	patches: readonly SemanticPatch[],
+): AcceptedCorpus {
+	const latest = new Map<string, EntryResult>();
+	let supersededRecords = 0;
+	for (const record of records) {
+		if (latest.has(record.rid)) {
+			supersededRecords++;
+		}
+		latest.set(record.rid, record);
+	}
+	const keptRecords = [...latest.values()];
+	const keptIds = new Set(keptRecords.flatMap((record) => record.patches));
+	const keptPatches = patches.filter((patch) => keptIds.has(patch.id));
+	return {
+		patches: keptPatches,
+		records: keptRecords,
+		superseded: {
+			patches: patches.length - keptPatches.length,
+			records: supersededRecords,
+		},
+	};
+}
+
+/** Load the accepted corpus: every committed record and patch (the
+ * files `TRANCHE_ORDER` names, in that order), consolidated to the
+ * latest record per rid. `loadCorpus`/`loadManifest` stay raw — the
+ * research tools and the ingest overlap check need every row. */
+async function loadAcceptedCorpus(): Promise<AcceptedCorpus> {
+	const records = await loadManifest();
+	const patches = await loadCorpus();
+	return consolidate(records, patches);
 }
 
 /** Round-trip re-parse assertion (spec §4.3): the patched entry must
@@ -309,12 +439,14 @@ if (import.meta.main) {
 	}
 }
 
-export type { ApplyProblem, PhaseName };
+export type { AcceptedCorpus, ApplyProblem, PhaseName, PreflightOptions };
 export {
 	applyEntryPatches,
 	CORPUS_PATH,
+	consolidate,
 	corpusPreflight,
 	createPhaseTracker,
+	loadAcceptedCorpus,
 	loadCorpus,
 	loadManifest,
 	MANIFEST_PATH,

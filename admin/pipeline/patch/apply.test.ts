@@ -1,8 +1,10 @@
 import { describe, expect, it } from 'bun:test';
 import type { SourceEntry } from '../body/types.ts';
+import type { EntryResult } from '../research/manifest.ts';
 import { parseManifest } from '../research/manifest.ts';
 import {
 	applyEntryPatches,
+	consolidate,
 	corpusPreflight,
 	createPhaseTracker,
 	PhaseViolation,
@@ -155,6 +157,67 @@ describe('corpusPreflight', () => {
 		expect(reasons.some((r) => r.includes('maintenance-track rebase'))).toBe(
 			true,
 		);
+	});
+});
+
+describe('corpusPreflight — escalations policy (Ruling D)', () => {
+	function unresolvedRecord(): EntryResult[] {
+		return parseManifest(
+			JSON.stringify({
+				disposition: 'needs_human_judgment',
+				escalation: 'unresolved finding',
+				patches: [],
+				rid: 'E00002',
+			}),
+		);
+	}
+
+	it('blocks by default on an unresolved needs_* record', () => {
+		const problems = corpusPreflight([], unresolvedRecord(), PIN);
+		expect(problems.some((p) => p.reason.includes('unresolved needs_*'))).toBe(
+			true,
+		);
+	});
+
+	it("reports nothing under {escalations: 'defer'}", () => {
+		const problems = corpusPreflight([], unresolvedRecord(), PIN, {
+			escalations: 'defer',
+		});
+		expect(problems).toEqual([]);
+	});
+});
+
+describe('consolidate — Ruling C latest-wins', () => {
+	it('keeps only the later record for a re-swept rid, dropping its patch', () => {
+		const earlier: EntryResult = {
+			disposition: 'repaired',
+			patches: ['P000001'],
+			rid: 'A00001',
+		};
+		const later: EntryResult = {
+			disposition: 'repaired',
+			patches: ['P000002'],
+			rid: 'A00001',
+		};
+		const p1 = ocrPatch({ id: 'P000001', rid: 'A00001' });
+		const p2 = ocrPatch({ id: 'P000002', rid: 'A00001' });
+		const result = consolidate([earlier, later], [p1, p2]);
+		expect(result.records).toEqual([later]);
+		expect(result.patches.map((p) => p.id)).toEqual(['P000002']);
+		expect(result.superseded).toEqual({ patches: 1, records: 1 });
+	});
+
+	it('leaves a rid with one record untouched', () => {
+		const record: EntryResult = {
+			disposition: 'repaired',
+			patches: ['P000001'],
+			rid: 'A00002',
+		};
+		const p1 = ocrPatch({ id: 'P000001', rid: 'A00002' });
+		const result = consolidate([record], [p1]);
+		expect(result.records).toEqual([record]);
+		expect(result.patches).toEqual([p1]);
+		expect(result.superseded).toEqual({ patches: 0, records: 0 });
 	});
 });
 
