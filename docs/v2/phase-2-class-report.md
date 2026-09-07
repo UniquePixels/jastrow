@@ -332,9 +332,11 @@ all, only by consulting the print edition.
 - Counts are entry-level unless a column says "findings".
 - **No corpus-scale claim in §7 or §8 was re-measured for this report.**
   Each is quoted with the control the originating batch report stated.
-  The two figures worth re-deriving before anyone builds on them are
-  the `preced.` 3,051 and the `Ib.` 3,256, because they are the two
-  largest free wins.
+  The `preced.` 3,051 is independently confirmed in
+  `phase-2-asterisk-exposure.md`. The `Ib.` 3,256 does NOT reproduce —
+  `phase-2-unlinked-ib.md` §1 rejects it and re-derives 2,819 for the
+  same pre-gate predicate, since shipped as `unlinked-bare-anaphor`
+  (2,119 anchors). Do not re-quote 3,256.
 
 ## Provenance
 
