@@ -27,18 +27,21 @@
  * and `rules/gershayim.corpus.test.ts` measures that over all 32,512 entries
  * rather than asserting it.
  *
- * `TAG` here is `<[^<>]*>`, which is deliberately NOT `html.ts`'s
- * tokenizer regex. It is the mask the spec's own scope measurement
- * used, so the counts these functions produce are the counts §2
- * publishes; and it is the conservative reading of the two — a `<`
- * with no `>` before the next `<` is text to it, where the tokenizer's
- * `[^>]*` would swallow across it. The only place the two disagree is
- * the pair of tags whose `href` swallows their own `</a>`, and the
- * corpus tier gates every entry through `checkLinkTargets` precisely
- * so that disagreement cannot become a silent edit inside an
- * attribute.
+ * The tag mask is `html.ts`'s `tagSpans` — the tokenizer's own
+ * quote-aware scanner — and no longer a local `<[^<>]*>`. That local
+ * copy was the mask the spec's own scope measurement used, and it was
+ * the conservative reading on a `<` with no `>` before the next `<`;
+ * but it was blind in the direction that matters here: a `>` inside a
+ * quoted attribute value closed its tag early and handed the rest of
+ * the attribute to `repairText` as document text. Sharing the scanner
+ * means the text locus is exactly the tokenizer's text tokens, and the
+ * two cannot drift. The one shape the two readings ever disagreed on —
+ * the pair of tags whose `href` swallows their own `</a>` — reads as
+ * the tokenizer reads it: the tag runs to the swallowed `</a>`'s `>`,
+ * and the corpus tier gates every entry through `checkLinkTargets` so
+ * that shape cannot become a silent edit inside an attribute.
  */
-import { HEBREW, HEBREW_ATOM } from './html.ts';
+import { HEBREW, HEBREW_ATOM, tagSpans } from './html.ts';
 
 /** U+05F4 HEBREW PUNCTUATION GERSHAYIM — the mark the corpus should
  * have written and the ONLY character this module ever produces. */
@@ -68,10 +71,6 @@ const GERSHAYIM = '״';
  */
 const FLANKED = new RegExp(`(?<=${HEBREW_ATOM})"(?=[${HEBREW}])`, 'gu');
 
-/** A `<…>` run holding no angle bracket of its own. See the module
- * doc on why this is not `html.ts`'s tokenizer regex. */
-const TAG = /<[^<>]*>/gu;
-
 /** Replace every flanked quote in `value`.
  *
  * The `includes` guard is not only a fast path over a 41 MB corpus: it
@@ -89,19 +88,29 @@ function repairText(value: string): string {
 	}
 	let out = '';
 	let at = 0;
-	TAG.lastIndex = 0;
-	let match = TAG.exec(value);
-	while (match !== null) {
-		out += repairAll(value.slice(at, match.index)) + match[0];
-		at = match.index + match[0].length;
-		match = TAG.exec(value);
+	for (const span of tagSpans(value)) {
+		out +=
+			repairAll(value.slice(at, span.start)) +
+			value.slice(span.start, span.end);
+		at = span.end;
 	}
 	return out + repairAll(value.slice(at));
 }
 
 /** Repair `<…>` tag interiors, leaving every text run byte-identical. */
 function repairTags(value: string): string {
-	return value.includes('"') ? value.replace(TAG, repairAll) : value;
+	if (!value.includes('"')) {
+		return value;
+	}
+	let out = '';
+	let at = 0;
+	for (const span of tagSpans(value)) {
+		out +=
+			value.slice(at, span.start) +
+			repairAll(value.slice(span.start, span.end));
+		at = span.end;
+	}
+	return out + value.slice(at);
 }
 
 export { GERSHAYIM, repairTags, repairText };

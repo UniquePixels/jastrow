@@ -11,7 +11,6 @@
  */
 
 // Hoisted per lint/performance/useTopLevelRegex.
-const TAG = /<\/?[a-zA-Z][^>]*>/gu;
 const TAG_NAME = /^<\/?(?<name>[a-zA-Z][a-zA-Z0-9]*)/u;
 /** `dir="rtl"` on a tag's own attributes. Quotes optional and either
  * flavour. Exported because every rule that moves an rtl wrapper needs
@@ -109,6 +108,144 @@ function opensScope(value: string): boolean {
 	return !(value.endsWith('/>') || value.slice(1).includes('<'));
 }
 
+/** A tag's extent in a field, as [start, end) offsets. */
+interface TagSpan {
+	end: number;
+	start: number;
+}
+
+const LT = 0x3c;
+const GT = 0x3e;
+const SLASH = 0x2f;
+const EQUALS = 0x3d;
+const DQUOTE = 0x22;
+const SQUOTE = 0x27;
+
+function isAsciiLetter(code: number): boolean {
+	return (code >= 0x41 && code <= 0x5a) || (code >= 0x61 && code <= 0x7a);
+}
+
+function isTagWhitespace(code: number): boolean {
+	return code === 0x20 || code === 0x09 || code === 0x0a || code === 0x0d;
+}
+
+/** Where an ASCII letter starts a tag NAME after the `<` at `at` —
+ * that is, the offset of the letter, or -1 when `<` is not a tag. */
+function tagNameStart(html: string, at: number): number {
+	const after = html.charCodeAt(at + 1) === SLASH ? at + 2 : at + 1;
+	return isAsciiLetter(html.charCodeAt(after)) ? after : -1;
+}
+
+/**
+ * The offset just past a quoted attribute value beginning at `from`
+ * (the byte after an `=`), following the HTML tokenizer: optional
+ * whitespace, then `"` or `'` opens a value that runs to its matching
+ * quote, a `>` inside it being literal.
+ *
+ * Returns `from` itself when no quote opens there (an unquoted or
+ * empty value — the caller keeps scanning the tag body byte by byte),
+ * and -1 when the value is DAMAGED: it never closes, or a `<` sits
+ * inside it. That `<` is the corpus's one real attribute defect — an
+ * unterminated `href` swallowing its own `</a>` (D00478, J00597) — and
+ * it must keep the reading every gate was measured against, so the
+ * caller falls back to the legacy scan for the whole tag.
+ */
+function quotedValueEnd(html: string, from: number): number {
+	let at = from;
+	while (isTagWhitespace(html.charCodeAt(at))) {
+		at++;
+	}
+	const quote = html.charCodeAt(at);
+	if (quote !== DQUOTE && quote !== SQUOTE) {
+		return from;
+	}
+	for (let i = at + 1; i < html.length; i++) {
+		const code = html.charCodeAt(i);
+		if (code === quote) {
+			return i + 1;
+		}
+		if (code === LT) {
+			return -1;
+		}
+	}
+	return -1;
+}
+
+/** The legacy reading — `<[^>]*>` — for a damaged tag body. */
+function legacyTagEnd(html: string, at: number): number {
+	const gt = html.indexOf('>', at);
+	return gt === -1 ? -1 : gt + 1;
+}
+
+/**
+ * The offset just past the tag opened by the `<` at `at`, or -1 when
+ * that `<` opens no tag (no ASCII letter after it, or no `>` after it
+ * at all — the `<` is then document text, as it was to `<[^>]*>`).
+ *
+ * Quote-aware where the old regex was not: a `>` inside a quoted
+ * attribute value does not end the tag. `[^>]*` stopped at it and
+ * exposed the rest of the attribute as document TEXT, which any
+ * text-repair rule could then edit. 0 corpus tags carry such a `>`
+ * today; the reading is for the re-fetch that might. A quote is a
+ * delimiter only after `=`, as in a browser, so a stray quote in an
+ * attribute name cannot open a value.
+ *
+ * Every other shape reads exactly as `<[^>]*>` read it, by
+ * construction: a value that never closes, or one holding a `<`, sends
+ * the whole tag to `legacyTagEnd` (see `quotedValueEnd`), and a body
+ * with no quoted value scans byte by byte to the first `>`. The corpus
+ * tier measures that equivalence over all 637,648 tags.
+ */
+function tagEnd(html: string, at: number): number {
+	let i = tagNameStart(html, at);
+	if (i === -1) {
+		return -1;
+	}
+	for (; i < html.length; i++) {
+		const code = html.charCodeAt(i);
+		if (code === GT) {
+			return i + 1;
+		}
+		if (code === EQUALS) {
+			const past = quotedValueEnd(html, i + 1);
+			if (past === -1) {
+				return legacyTagEnd(html, at);
+			}
+			// `past - 1` so the loop's own increment lands on `past`.
+			i = past === i + 1 ? i : past - 1;
+		}
+	}
+	return -1;
+}
+
+/**
+ * Every tag in `html` as a [start, end) span, in document order — the
+ * ONE definition of "where a tag is" that `tokenize` and every rule
+ * masking tags out of a field share. A second copy (each of
+ * `gershayim.ts` and `rules/geresh-apostrophe.ts` once carried its own
+ * `<[^<>]*>`) is free to drift, and the drift is what lets a `>` in an
+ * attribute value hand attribute bytes to a text repair.
+ *
+ * Spans never overlap and never nest; the text between consecutive
+ * spans is document text.
+ */
+function tagSpans(html: string): TagSpan[] {
+	const spans: TagSpan[] = [];
+	let from = 0;
+	let start = html.indexOf('<', from);
+	while (start !== -1) {
+		const end = tagEnd(html, start);
+		if (end === -1) {
+			from = start + 1;
+		} else {
+			spans.push({ end, start });
+			from = end;
+		}
+		start = html.indexOf('<', from);
+	}
+	return spans;
+}
+
 /** Split markup into text and tag tokens, resolving `dir="rtl"`
  * ancestry with a tag stack. Unbalanced markup does not throw, which
  * keeps a damaged entry tokenizable — the damage is what the rules are
@@ -131,18 +268,16 @@ function tokenize(html: string): Token[] {
 	const tokens: Token[] = [];
 	const stack: boolean[] = [];
 	let at = 0;
-	TAG.lastIndex = 0;
-	let match = TAG.exec(html);
 	const depth = (): boolean => stack.some(Boolean);
-	while (match !== null) {
-		if (match.index > at) {
+	for (const span of tagSpans(html)) {
+		if (span.start > at) {
 			tokens.push({
 				kind: 'text',
 				rtl: depth(),
-				value: html.slice(at, match.index),
+				value: html.slice(at, span.start),
 			});
 		}
-		const [value] = match;
+		const value = html.slice(span.start, span.end);
 		const close = value.startsWith('</');
 		const name = (TAG_NAME.exec(value)?.groups?.['name'] ?? '').toLowerCase();
 		tokens.push({ close, kind: 'tag', name, rtl: depth(), value });
@@ -151,8 +286,7 @@ function tokenize(html: string): Token[] {
 		} else if (opensScope(value)) {
 			stack.push(DIR_RTL.test(value));
 		}
-		at = match.index + value.length;
-		match = TAG.exec(html);
+		at = span.end;
 	}
 	if (at < html.length) {
 		tokens.push({ kind: 'text', rtl: depth(), value: html.slice(at) });
@@ -244,7 +378,7 @@ function hebrewRuns(value: string): { end: number; start: number }[] {
 	return runs;
 }
 
-export type { TagToken, TextToken, Token };
+export type { TagSpan, TagToken, TextToken, Token };
 export {
 	attributeInterior,
 	DIR_RTL,
@@ -253,5 +387,6 @@ export {
 	hebrewRuns,
 	opensScope,
 	serialize,
+	tagSpans,
 	tokenize,
 };

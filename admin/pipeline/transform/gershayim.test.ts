@@ -102,3 +102,16 @@ it('an unterminated tag does not swallow the rest of the field', () => {
 	);
 	expect(repairTags(`<a href=${Q}x הקב${Q}ה`)).toBe(`<a href=${Q}x הקב${Q}ה`);
 });
+
+it('repairText leaves a flanked quote inside a >-holding value alone', () => {
+	// The mask is `html.ts`'s quote-aware scanner now: a `>` inside a
+	// quoted value no longer closes the tag early and hands the rest of
+	// the attribute to the text locus.
+	const html = `<a data-ref=${Q}x>אל${Q}ף${Q}>אל${Q}ף</a>`;
+	expect(repairText(html)).toBe(
+		`<a data-ref=${Q}x>אל${Q}ף${Q}>אל${GERSHAYIM}ף</a>`,
+	);
+	expect(repairTags(html)).toBe(
+		`<a data-ref=${Q}x>אל${GERSHAYIM}ף${Q}>אל${Q}ף</a>`,
+	);
+});
