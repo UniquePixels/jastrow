@@ -30,6 +30,7 @@ function greenReport(): Report {
 		gates,
 		headwordReview: [],
 		nonHighPages: [],
+		patches: { absorbed: 0, accepted: 0, applied: 0, carried: 0 },
 		quarantine: [],
 		slugCollisions: {},
 		unresolved: [],

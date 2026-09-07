@@ -20,6 +20,7 @@ data/source/baseline-audit-report.json
 data/source/body-census-report.json
 data/source/body-dryrun-report.json
 data/source/body-migration-report.json
+data/source/migration-report.json
 .superpowers/
 ~$*.docx
 

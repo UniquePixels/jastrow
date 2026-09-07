@@ -10,7 +10,7 @@ truth layer, compile truth into serving artifacts on every deploy
 |---|---|---|---|
 | Source acquisition | `fetch.ts` | working | on demand, re-runnable |
 | Print locator index | `page-index/build.ts` | built 2026-08-17, data committed | once (needs the IA hOCR) |
-| Migration (source → truth) | `migrate.ts` | designed, not built | once, then retires |
+| Migration (source → truth) | `migrate.ts` | built, dry-run gated | once, then retires |
 | Compile (truth → serving) | `compile.ts` | designed, not built | every deploy |
 
 Migration and compile are specified in the
@@ -67,7 +67,12 @@ this stage, so `data/source/` is a faithful snapshot of the source.
 `word_form.bson` is cached for later use (search word forms) but not
 yet emitted.
 
-## Stage 2 — Migration (`migrate.ts`, not yet built)
+## Stage 2 — Migration (`migrate.ts`)
+
+```bash
+bun pipeline:migrate           # dry run: report + docs/v2/migration-blessing.md
+bun pipeline:migrate --write   # after blessing: writes data/entries/
+```
 
 One-time transform of the source snapshot into the per-entry truth
 layer (`data/entries/`), per the
