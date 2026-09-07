@@ -112,7 +112,9 @@ more.
 
 **Two classes are 98% of the queue** — 478 of 487 entries cite class 11
 or class 8. 353 are class 11 alone, 66 are class 8 alone, 44 cite both,
-and 9 more pair class 11 with something else.
+9 more pair class 11 with something else, and 6 more pair class 8 with
+something other than 11 (116 − 66 − 44, the same arithmetic that
+closes class 11's own 406 = 353 + 44 + 9).
 
 Classes 1, 3 and 10 are absent because they are *repairable* — an
 entry whose only defect is one of those leaves as `repaired`, not as
@@ -332,9 +334,11 @@ all, only by consulting the print edition.
 - Counts are entry-level unless a column says "findings".
 - **No corpus-scale claim in §7 or §8 was re-measured for this report.**
   Each is quoted with the control the originating batch report stated.
-  The two figures worth re-deriving before anyone builds on them are
-  the `preced.` 3,051 and the `Ib.` 3,256, because they are the two
-  largest free wins.
+  The `preced.` 3,051 is independently confirmed in
+  `phase-2-asterisk-exposure.md`. The `Ib.` 3,256 does NOT reproduce —
+  `phase-2-unlinked-ib.md` §1 rejects it and re-derives 2,819 for the
+  same pre-gate predicate, since shipped as `unlinked-bare-anaphor`
+  (2,119 anchors). Do not re-quote 3,256.
 
 ## Provenance
 

@@ -2144,9 +2144,10 @@ it('case 9 refuses a target that lost a point', () => {
 // ======== Case 10 — a minted anchor around a bare anaphor ========
 //
 // Clause 1 is tested through `checkLinkTargets`, which is the only
-// case-10 behaviour reachable while `MINT_DECLARERS` is empty. Clauses
-// 2-7 go through `checkMintClauses`, which applies every clause BUT
-// the declarer — see its docstring for why that split exists.
+// case-10 behaviour reachable for a rule id `MINT_DECLARERS` does not
+// admit. Clauses 2-7 go through `checkMintClauses`, which applies
+// every clause BUT the declarer — see its docstring for why that
+// split exists.
 //
 // Each clause has a pair: a claim that satisfies it, and the same claim
 // with that clause alone broken. A fixture that only ever passes proves
@@ -2194,8 +2195,8 @@ it('case 10: an undeclared mint still fails the count invariant', () => {
 });
 
 it('case 10: clause 1 refuses a declared mint from an unlisted rule', () => {
-	// The live state: `MINT_DECLARERS` is empty, so no rule is admitted
-	// and the arm is refused as a group before a clause is read.
+	// `'ib-anaphora-mint'` is not the one id `MINT_DECLARERS` admits, so
+	// the arm is refused as a group before a clause is read.
 	expect(
 		checkLinkTargets(
 			mintBefore,
@@ -2234,7 +2235,7 @@ it('case 10: clause 2 refuses a display that is not a bare anaphor', () => {
 	).toContain('minted anchor "and" → "Shabbat 30b" is not a bare anaphor');
 });
 
-it('case 10: clause 2 admits the lowercase form and nothing wider', () => {
+it('case 10: clause 2 refuses `Ibid.`, one form wider than the anaphor', () => {
 	expect(
 		checkMintClauses(mintBefore, mintAfter, mintClaim({ display: 'Ibid.' })).at(
 			0,

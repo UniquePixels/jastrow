@@ -84,7 +84,7 @@ async function resolveSince(raw: string | undefined): Promise<number> {
 		: raw;
 	const at = Date.parse(text);
 	if (Number.isNaN(at)) {
-		throw new Error(
+		throw new TypeError(
 			`--since wants an ISO instant or @file containing one, got '${text}'`,
 		);
 	}
@@ -112,7 +112,16 @@ async function transcripts(filter: string | undefined): Promise<string[]> {
 			out.push(`${PROJECTS}/${hit}`);
 		}
 	}
-	return out.sort();
+	return out.sort((a, b) => a.localeCompare(b));
+}
+
+/** A usage field read straight off an untyped transcript record. Only
+ * `input_tokens` is validated before this point (it gates whether the
+ * record is read at all); the other three fields are cast, not
+ * checked, so a malformed one must not reach `+=` — string
+ * concatenation or `NaN` would corrupt the RUNBOOK's spend gate. */
+function numeric(v: unknown): number {
+	return typeof v === 'number' ? v : 0;
 }
 
 /** Accumulate usage from one transcript into `rows`, keyed by model
@@ -171,10 +180,10 @@ function readTranscript(
 			origin,
 		};
 		row.messages += 1;
-		row.input += usage['input_tokens'] ?? 0;
-		row.output += usage['output_tokens'] ?? 0;
-		row.cacheCreation += usage['cache_creation_input_tokens'] ?? 0;
-		row.cacheRead += usage['cache_read_input_tokens'] ?? 0;
+		row.input += numeric(usage['input_tokens']);
+		row.output += numeric(usage['output_tokens']);
+		row.cacheCreation += numeric(usage['cache_creation_input_tokens']);
+		row.cacheRead += numeric(usage['cache_read_input_tokens']);
 		rows.set(key, row);
 	}
 }

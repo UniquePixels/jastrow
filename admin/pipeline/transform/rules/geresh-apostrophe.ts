@@ -112,7 +112,7 @@ const TAG = /<[^<>]*>/gu;
  * Hebrew (U+05F4 included, so a repaired token reads whole) plus the
  * combining dot `html.ts` admits as a suffix. Used only to name the
  * repaired token in a record. */
-const TOKEN_CHAR = new RegExp(String.raw`[${HEBREW}̇]`, 'u');
+const TOKEN_CHAR = new RegExp(`[${HEBREW}̇]`, 'u');
 
 /**
  * Replace every flanked run in `value`, leaving tag interiors alone.
