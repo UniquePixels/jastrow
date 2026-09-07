@@ -13,11 +13,11 @@ const words = (s: string): string[] => s.split(' ');
 
 describe('ngramHashes', () => {
 	it('produces one hash per window', () => {
-		expect(ngramHashes(words('a b c d e')).length).toBe(5 - NGRAM + 1);
+		expect(ngramHashes(words('a b c d e'))).toHaveLength(5 - NGRAM + 1);
 	});
 
 	it('is empty when the stream is shorter than one window', () => {
-		expect(ngramHashes(words('a b')).length).toBe(0);
+		expect(ngramHashes(words('a b'))).toHaveLength(0);
 	});
 
 	it('gives equal hashes for equal windows', () => {

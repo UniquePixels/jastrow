@@ -110,7 +110,7 @@ const GERESH = /[׳']/gu;
  * agent's other proposed cause for it was inert: `baseHeadword` strips
  * `I` and `II` identically, so the stub's data-ref/display mismatch
  * changed nothing. */
-const HOMOGRAPH = /[\s,]+(?:[IVX]+|[0-9]+|[²³¹⁰-⁹]+),?$/u;
+const HOMOGRAPH = /[\s,]+(?:[IVX]+|\d+|[²³¹⁰-⁹]+),?$/u;
 /** Jastrow's editorial mark on a reconstructed headword. It is stored
  * inside the headword string but is not part of the word (v2 carries
  * it as the boolean `reconstructed`).
@@ -195,7 +195,9 @@ function recordedVariant(s: string): string {
 	return baseHeadword(
 		s
 			.replace(TAG, ' ')
+			.trim()
 			.replace(EDITORIAL_ASTERISK, '')
+			.trim()
 			.replace(EDITORIAL_PARENS, ''),
 	);
 }

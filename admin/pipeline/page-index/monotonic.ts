@@ -22,6 +22,11 @@ function isotonic(
 	weights?: readonly number[],
 ): number[] {
 	const n = values.length;
+	if (weights && weights.length !== n) {
+		throw new Error(
+			`isotonic: weights length ${weights.length} does not match values length ${n}`,
+		);
+	}
 	if (n === 0) {
 		return [];
 	}

@@ -204,6 +204,9 @@ async function* readHocrPages(
 		}
 	}
 	parser.end();
+	while (state.done.length > 0) {
+		yield state.done.shift() as HocrPage;
+	}
 	if (state.page) {
 		yield { ...state.page, index: state.index };
 	}

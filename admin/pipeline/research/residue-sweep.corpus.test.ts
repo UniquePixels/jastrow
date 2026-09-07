@@ -170,7 +170,7 @@ import {
 const RESIDUE: number = 3729;
 const ADJUDICATED_COUNT: number = 61;
 const SWEEP: number = RESIDUE - ADJUDICATED_COUNT;
-/** Sweep entries whose TEXT a transform rewrote — 52.6% of 3,697.
+/** Sweep entries whose TEXT a transform rewrote — 55.5% of 3,668.
  *
  * The predicate is byte difference, not "a rule fired": at the 3,696
  * cut, 2,137 sweep entries produced a transform record and **2,093
@@ -438,12 +438,13 @@ describe('ADJUDICATED re-derives from the detector', () => {
 
 		// The derivation and the exclusion list are computed against
 		// DIFFERENT corpus states, and since 2026-09-04 they disagree
-		// by exactly one entry. Item 1 asks "did the rules create this
-		// hint", which it answers with the PRE-patch tables; the
+		// by exactly two entries. Item 1 asks "did the rules create
+		// this hint", which it answers with the PRE-patch tables; the
 		// residue asks "does the detector still flag this entry",
 		// which `residueRids` answers with the HEALED ones. The
 		// `alt_headwords` carve-out fires only on the healed side, so
-		// `T00173` is derived here and is no longer in the residue.
+		// `T00173` and later `A01672` are derived here and are no
+		// longer in the residue.
 		// ADJUDICATED excludes entries FROM THE SWEEP, so it carries
 		// the intersection — an entry the sweep will never reach needs
 		// no exclusion, and `sweepRids` throws if one lingers.

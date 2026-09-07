@@ -106,9 +106,8 @@ function estimate(
 	const colSecondary = columnAt(columns, secondary);
 	const agree =
 		colPrimary &&
-		colSecondary &&
-		colPrimary.leaf === colSecondary.leaf &&
-		colPrimary.column === colSecondary.column;
+		colPrimary.leaf === colSecondary?.leaf &&
+		colPrimary.column === colSecondary?.column;
 	if (agree) {
 		return { confidence: 'high', distance, ocrPos: primary };
 	}
@@ -169,11 +168,21 @@ function placeAll(input: PlaceInput): Placement[] {
 	}
 	const smoothed = isotonic(filled, weights);
 	console.error(`  monotonic: ${isNonDecreasing(smoothed) ? 'yes' : 'NO'}`);
-	return spine.map((e, i) => ({
-		column: columnAt(columns, Math.round(smoothed[i] as number)),
-		confidence: (estimates[i] as Estimate).confidence,
-		entry: e,
-	}));
+	return spine.map((e, i) => {
+		const est = estimates[i] as Estimate;
+		const column = columnAt(columns, Math.round(smoothed[i] as number));
+		const estColumn =
+			est.ocrPos === null ? null : columnAt(columns, Math.round(est.ocrPos));
+		// Smoothing may move an entry out of the column the anchors agreed on.
+		const moved =
+			column?.leaf !== estColumn?.leaf || column?.column !== estColumn?.column;
+		return {
+			column,
+			confidence:
+				moved && est.confidence === 'high' ? 'medium' : est.confidence,
+			entry: e,
+		};
+	});
 }
 
 /** Concatenate the two volumes into one book-wide block table and stream. */

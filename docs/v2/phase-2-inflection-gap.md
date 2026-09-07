@@ -64,8 +64,15 @@ itself. 3,283 anchors qualify. What happens to them:
 | Target is neither the host nor the form | **510** | **A01023 shape** |
 | Already hinted by `inflection-escape-link` | 317 | detected today |
 
+**The four rows sum to 2,983, not 3,283 — a 300-anchor gap this
+document does not account for.** No bucket above is documented as
+overlapping another, so the gap is not (yet) explained by
+double-counting; it has not been characterized and no claim below
+rests on it closing.
+
 Against 317 currently detected, the undetected surface is roughly
-**1,437 anchors** — but both figures need their caveats stated.
+**1,437 anchors** (927 + 510, not a function of the 300 gap) — but
+both figures need their caveats stated.
 
 ### The 510 (A01023 shape) is an upper bound
 
