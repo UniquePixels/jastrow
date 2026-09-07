@@ -119,7 +119,17 @@ const RESIDUE_TRANCHE_PREFIX = 'residue-';
  * when `inflection-escape-link` began consulting the target's own
  * recorded forms: every suppressed anchor on those two names a form
  * the target records (`אנונית`, `אנונס`, `חַגְוֵי`, `חוֹגְגִים`).
- * Residue 3,948 -> 3,838, sweep 3,885 -> 3,777, 130 -> 126 chunks. */
+ * Residue 3,948 -> 3,838, sweep 3,885 -> 3,777, 130 -> 126 chunks.
+ *
+ * **Still 61, 2026-09-07, but derived as 59 + 2.** When `ownForms`
+ * began stripping editorial parens off a recorded alt, `A01451` and
+ * `A03060` stopped counting as created-hint entries: their
+ * `abbrev-mislink` now fires on the PRE-patch entry too, because the
+ * host records the abbreviated form in brackets and the detector had
+ * only ever matched it after `parenthesized-alt-headword` ran. The
+ * hint itself did not move — same key on both sides, both entries
+ * still in the residue — so the adjudication stands and they stay
+ * here. The corpus gate names them rather than deriving them. */
 const ADJUDICATED: readonly string[] = [
 	'A00717',
 	'A00722',
