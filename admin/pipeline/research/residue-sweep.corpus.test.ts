@@ -170,7 +170,7 @@ import {
 const RESIDUE: number = 3729;
 const ADJUDICATED_COUNT: number = 61;
 const SWEEP: number = RESIDUE - ADJUDICATED_COUNT;
-/** Sweep entries whose TEXT a transform rewrote — 52.6% of 3,697.
+/** Sweep entries whose TEXT a transform rewrote — 55.5% of 3,668.
  *
  * The predicate is byte difference, not "a rule fired": at the 3,696
  * cut, 2,137 sweep entries produced a transform record and **2,093
