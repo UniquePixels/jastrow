@@ -35,7 +35,6 @@ import {
 	PatchFormatError,
 	parsePatchLine,
 	parseTarget,
-	preStateResolves,
 	resolveTarget,
 	type SemanticPatch,
 	validateCorpus,
@@ -300,7 +299,7 @@ function corpusPreflight(
 	patches: readonly SemanticPatch[],
 	records: readonly EntryResult[],
 	currentPin: string,
-	options: PreflightOptions = { escalations: 'block' },
+	options?: PreflightOptions,
 ): ApplyProblem[] {
 	const problems: ApplyProblem[] = [];
 	for (const patch of patches) {
@@ -320,11 +319,11 @@ function corpusPreflight(
 	}
 	for (const problem of reconcilePatches(
 		records,
-		options.reconcileOnly ?? patches,
+		options?.reconcileOnly ?? patches,
 	)) {
 		problems.push({ reason: problem.reason, rid: problem.rids[0] });
 	}
-	if (options.escalations === 'block') {
+	if ((options?.escalations ?? 'block') === 'block') {
 		for (const problem of replayGate(records)) {
 			problems.push({
 				reason: `${problem.reason}: ${problem.rids.join(', ')}`,
@@ -379,7 +378,10 @@ interface ConsolidatedCorpus {
  * swept more than once keeps only its LATEST record (`records` is in
  * ingest order — file order matches `TRANCHES`'s ingest order — so
  * later entries for a rid replace earlier ones); only the patches its
- * survivors list are kept. */
+ * survivors list are kept. A patch no record — kept OR superseded —
+ * ever lists is not a Ruling C supersession, it is an ingest bug (a
+ * hand-authored or mis-ingested tranche), and is reported loudly
+ * rather than silently folded into the supersession count. */
 function consolidate(
 	records: readonly EntryResult[],
 	patches: readonly SemanticPatch[],
@@ -391,6 +393,13 @@ function consolidate(
 			supersededRecords++;
 		}
 		latest.set(record.rid, record);
+	}
+	const allIds = new Set(records.flatMap((record) => record.patches));
+	const orphans = patches.filter((patch) => !allIds.has(patch.id));
+	if (orphans.length > 0) {
+		throw new Error(
+			`patch(es) no manifest record lists: ${orphans.map((patch) => patch.id).join(', ')} — an ingest bug, not a Ruling C supersession`,
+		);
 	}
 	const keptRecords = [...latest.values()];
 	const keptIds = new Set(keptRecords.flatMap((record) => record.patches));
@@ -505,13 +514,19 @@ function applyEntryPatches(
 
 /** Apply one rid's carry-over patches (task-3 addendum-3, Ruling F),
  * in patch id order, after the rid's accepted patches have already
- * landed on `entry`. Each patch is pre-checked with `preStateResolves`
- * — the same resolver/occurrence comparison `applyPatch` uses: if the
- * defect it targets is already gone (a transform rule absorbed it),
- * the patch is recorded as `absorbed` and never applied; if the
- * defect is still present, the patch is `carried` and applied through
- * the normal `applyEntryPatches` gate (round-trip re-parse, no-new-text
- * floor), chaining state like any other apply. */
+ * landed on `entry`. Each patch is pre-checked by resolving its target
+ * directly and comparing the exact count — a zero-match and a
+ * wrong-count match are not the same fact, so a boolean "does it match
+ * `expected_occurrences`" check cannot distinguish them: a zero-match
+ * target means the defect it targets is already gone (a transform rule
+ * absorbed it), so the patch is recorded as `absorbed` and never
+ * applied. A match at the expected count means the
+ * defect is still present, so the patch is `carried` and applied
+ * through the normal `applyEntryPatches` gate (round-trip re-parse,
+ * no-new-text floor), chaining state like any other apply. Any other
+ * count — some but not the expected number of matches — proves neither
+ * absorption nor safety to apply, and is recorded as a problem instead
+ * of silently dropped. */
 function applyCarryOver(
 	entry: SourceEntry,
 	patches: readonly SemanticPatch[],
@@ -527,8 +542,17 @@ function applyCarryOver(
 	const problems: ApplyProblem[] = [];
 	const ordered = [...patches].sort((a, b) => a.id.localeCompare(b.id));
 	for (const patch of ordered) {
-		if (!preStateResolves(current, patch)) {
+		const found = resolveTarget(current, parseTarget(patch.target)).length;
+		if (found === 0) {
 			absorbed.push(patch.id);
+			continue;
+		}
+		if (found !== patch.expected_occurrences) {
+			problems.push({
+				patchId: patch.id,
+				reason: `carry-over pre-state target ${patch.target} resolves ${found} time(s); expected ${patch.expected_occurrences} — neither absorbed nor safe to apply`,
+				rid: patch.rid,
+			});
 			continue;
 		}
 		carried.push(patch.id);

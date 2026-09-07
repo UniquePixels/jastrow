@@ -253,6 +253,23 @@ describe('consolidate — Ruling C latest-wins', () => {
 		expect(result.patches).toEqual([p1]);
 		expect(result.superseded).toEqual({ patches: 0, records: 0 });
 	});
+
+	it('throws on a patch no record — kept or superseded — lists', () => {
+		// P000002 is not named by ANY record, so it is not a Ruling C
+		// supersession (a later sweep replacing an earlier one) — it is
+		// an ingest bug, and must fail loudly rather than being folded
+		// into `superseded.patches` as if a record had dropped it.
+		const record: EntryResult = {
+			disposition: 'repaired',
+			patches: ['P000001'],
+			rid: 'A00003',
+		};
+		const p1 = ocrPatch({ id: 'P000001', rid: 'A00003' });
+		const orphan = ocrPatch({ id: 'P000002', rid: 'A00003' });
+		expect(() => consolidate([record], [p1, orphan])).toThrow(
+			'patch(es) no manifest record lists: P000002',
+		);
+	});
 });
 
 describe('applyEntryPatches', () => {
@@ -354,6 +371,25 @@ describe('applyCarryOver — Ruling F', () => {
 		expect(result.carried).toEqual(['P000001']);
 		expect(result.problems).toHaveLength(1);
 		expect(result.problems[0]?.reason).toContain('needs_print_check');
+	});
+
+	it('reports a problem — not absorption — for a wrong-count pre-state', () => {
+		// The target still resolves (found=1), just not at the count the
+		// patch declares (expected_occurrences: 2). That is neither "the
+		// defect is gone" (found=0, absorb) nor "the defect is exactly as
+		// declared" (found===expected, carry) — a transform changed the
+		// entry into a third state the carry-over pre-check must not wave
+		// through as absorbed.
+		const mismatched = ocrPatch({ expected_occurrences: 2 });
+		const source = makeEntry();
+		const result = applyCarryOver(source, [mismatched]);
+		expect(result.absorbed).toEqual([]);
+		expect(result.carried).toEqual([]);
+		expect(result.problems).toHaveLength(1);
+		expect(result.problems[0]?.patchId).toBe('P000001');
+		expect(result.problems[0]?.reason).toContain('resolves 1 time(s)');
+		// Never applied, so the untouched entry reference comes back.
+		expect(result.entry).toBe(source);
 	});
 });
 

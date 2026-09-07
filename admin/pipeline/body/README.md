@@ -23,6 +23,7 @@ feeding Stage 2 (migration).
 | `dry-run.ts` | Full-corpus dry run report before migration commits (+ `dry-run-verify.ts`, `dry-run-report.ts`) | done |
 | `review.ts` | Eyes-on review docs over dry-run output (`docs/v2/body-review/`) | done |
 | `repairs.ts` | Approved §6.0 migration repair passes (Task 16) | done |
+| `compose.ts` | One entry through text-repairs → structural-repairs → patch-apply; shared by `migrate-dry.ts` and `migrate.ts` | done |
 | `migrate-dry.ts` | Repairs + composition + gates over the healed corpus, migration report | done |
 
 ## Source reader (`source.ts`, `types.ts`)
