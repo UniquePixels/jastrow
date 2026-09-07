@@ -36,6 +36,7 @@ interface EntryPlacement {
 	confidence: string;
 	page: number;
 	rid: string;
+	volume: number;
 }
 
 interface PriorEntry {
@@ -159,7 +160,7 @@ function checkPriorPages(
 		tested++;
 		const d = e.page - p.p;
 		all.set(d, (all.get(d) ?? 0) + 1);
-		const v = byVolume[e.page <= 676 ? 0 : 1] as Map<number, number>;
+		const v = byVolume[e.volume === 1 ? 0 : 1] as Map<number, number>;
 		v.set(d, (v.get(d) ?? 0) + 1);
 	}
 	const exact = all.get(0) ?? 0;
