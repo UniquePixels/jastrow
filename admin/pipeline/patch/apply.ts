@@ -35,7 +35,6 @@ import {
 	PatchFormatError,
 	parsePatchLine,
 	parseTarget,
-	preStateResolves,
 	resolveTarget,
 	type SemanticPatch,
 	validateCorpus,
@@ -505,13 +504,19 @@ function applyEntryPatches(
 
 /** Apply one rid's carry-over patches (task-3 addendum-3, Ruling F),
  * in patch id order, after the rid's accepted patches have already
- * landed on `entry`. Each patch is pre-checked with `preStateResolves`
- * — the same resolver/occurrence comparison `applyPatch` uses: if the
- * defect it targets is already gone (a transform rule absorbed it),
- * the patch is recorded as `absorbed` and never applied; if the
- * defect is still present, the patch is `carried` and applied through
- * the normal `applyEntryPatches` gate (round-trip re-parse, no-new-text
- * floor), chaining state like any other apply. */
+ * landed on `entry`. Each patch is pre-checked by resolving its target
+ * directly (not via `preStateResolves`, which only reports whether the
+ * count matches `expected_occurrences` — a zero-match and a
+ * wrong-count match both read as `false`, and they are not the same
+ * fact): a zero-match target means the defect it targets is already
+ * gone (a transform rule absorbed it), so the patch is recorded as
+ * `absorbed` and never applied. A match at the expected count means the
+ * defect is still present, so the patch is `carried` and applied
+ * through the normal `applyEntryPatches` gate (round-trip re-parse,
+ * no-new-text floor), chaining state like any other apply. Any other
+ * count — some but not the expected number of matches — proves neither
+ * absorption nor safety to apply, and is recorded as a problem instead
+ * of silently dropped. */
 function applyCarryOver(
 	entry: SourceEntry,
 	patches: readonly SemanticPatch[],
@@ -527,8 +532,17 @@ function applyCarryOver(
 	const problems: ApplyProblem[] = [];
 	const ordered = [...patches].sort((a, b) => a.id.localeCompare(b.id));
 	for (const patch of ordered) {
-		if (!preStateResolves(current, patch)) {
+		const found = resolveTarget(current, parseTarget(patch.target)).length;
+		if (found === 0) {
 			absorbed.push(patch.id);
+			continue;
+		}
+		if (found !== patch.expected_occurrences) {
+			problems.push({
+				patchId: patch.id,
+				reason: `carry-over pre-state target ${patch.target} resolves ${found} time(s); expected ${patch.expected_occurrences} — neither absorbed nor safe to apply`,
+				rid: patch.rid,
+			});
 			continue;
 		}
 		carried.push(patch.id);
