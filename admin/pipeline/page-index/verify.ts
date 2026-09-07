@@ -179,6 +179,11 @@ function checkPriorPages(
 	}
 }
 
+/** `key=value`, for one confidence tally. */
+function confEntry([k, v]: readonly [string, number]): string {
+	return `${k}=${v}`;
+}
+
 function reportCoverage(heads: readonly ColumnHead[]): void {
 	const conf = new Map<string, number>();
 	for (const h of heads) {
@@ -186,9 +191,7 @@ function reportCoverage(heads: readonly ColumnHead[]): void {
 	}
 	console.log('\n=== coverage ===');
 	console.log(`  columns indexed : ${heads.length}`);
-	console.log(
-		`  head confidence : ${[...conf].map(([k, v]) => `${k}=${v}`).join(' ')}`,
-	);
+	console.log(`  head confidence : ${[...conf].map(confEntry).join(' ')}`);
 	console.log(`  distinct pages  : ${new Set(heads.map((h) => h.page)).size}`);
 }
 

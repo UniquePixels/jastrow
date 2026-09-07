@@ -29,7 +29,7 @@ function hashToken(tok: string): number {
 	let h = 2_166_136_261;
 	for (let i = 0; i < tok.length; i++) {
 		// biome-ignore lint/suspicious/noBitwiseOperators: FNV-1a mixing step.
-		h ^= tok.charCodeAt(i);
+		h ^= tok.codePointAt(i) ?? 0;
 		h = Math.imul(h, 16_777_619);
 	}
 	// biome-ignore lint/suspicious/noBitwiseOperators: coerce to unsigned 32-bit.

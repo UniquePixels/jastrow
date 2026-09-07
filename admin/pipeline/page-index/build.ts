@@ -106,9 +106,8 @@ function estimate(
 	const colSecondary = columnAt(columns, secondary);
 	const agree =
 		colPrimary &&
-		colSecondary &&
-		colPrimary.leaf === colSecondary.leaf &&
-		colPrimary.column === colSecondary.column;
+		colPrimary.leaf === colSecondary?.leaf &&
+		colPrimary.column === colSecondary?.column;
 	if (agree) {
 		return { confidence: 'high', distance, ocrPos: primary };
 	}

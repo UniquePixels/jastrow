@@ -109,7 +109,7 @@ function resolveBands(
 		}
 		const isFirstLetter = lastLetter === '';
 		lastLetter = letter;
-		if (isFirstLetter || !p.column || p.column.volume !== volume) {
+		if (isFirstLetter || p.column?.volume !== volume) {
 			continue;
 		}
 		const { column, entry } = p;

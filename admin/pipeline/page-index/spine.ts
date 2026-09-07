@@ -40,7 +40,8 @@ function letterForRid(rid: string): string {
 		return '';
 	}
 	const ord =
-		(m.groups?.['letter'] as string).charCodeAt(0) - 'A'.charCodeAt(0);
+		((m.groups?.['letter'] as string).codePointAt(0) ?? 0) -
+		('A'.codePointAt(0) ?? 0);
 	return LETTERS[ord] ?? '';
 }
 
@@ -50,7 +51,7 @@ function ridSortKey(rid: string): readonly [number, number] {
 		return [Number.MAX_SAFE_INTEGER, 0];
 	}
 	return [
-		(m.groups?.['letter'] as string).charCodeAt(0),
+		(m.groups?.['letter'] as string).codePointAt(0) ?? 0,
 		Number(m.groups?.['seq']),
 	];
 }
@@ -65,7 +66,7 @@ function ridSortKey(rid: string): readonly [number, number] {
  */
 function latinTokens(html: string): string[] {
 	const text = html
-		.replace(/<[^>]*>/gu, ' ')
+		.replace(/<[^<>]*>/gu, ' ')
 		.replace(/&[a-z]+;/giu, ' ')
 		.toLowerCase();
 	const out: string[] = [];
