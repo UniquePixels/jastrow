@@ -12,6 +12,12 @@ function anchor(target: string, display: string): string {
 	return `<a class="refLink" href="/Jastrow,_${target}.1" data-ref="Jastrow, ${target}">${display}</a>`;
 }
 
+/** A citation anchor: an anchor whose `data-ref` points OUT of the
+ * dictionary, so the headword rules never judge it. */
+function citation(ref: string, display: string): string {
+	return `<a class="refLink" href="/x" data-ref="${ref}">${display}</a>`;
+}
+
 function entry(
 	rid: string,
 	definition: string,
@@ -183,7 +189,10 @@ describe('unvocalized displays made reachable (letters L and I)', () => {
 			index(['אַגָּנָא', 'אָכַל', 'אֲכַל', 'אֹכֶל']),
 		);
 		const hint = hints.find((h) => h.kind === 'niqqud-twin-target');
-		expect(hint?.detail).toContain('3 headwords');
+		// Wording only: the detail counts entries rather than deduped
+		// headwords since 2026-09-04. Here the two agree — three
+		// headwords, three entries, no homograph among them.
+		expect(hint?.detail).toContain('3 entries');
 	});
 
 	it('leaves two-letter function words alone (לא, או, תו)', () => {
@@ -327,4 +336,419 @@ describe('abbrev-mislink v. sub redirect carve-out (2.3)', () => {
 			expect(kinds(hints).includes('abbrev-mislink')).toBe(fires);
 		});
 	}
+});
+
+describe('attested-variant carve-out (residue calibration 2026-09-04)', () => {
+	// sweep-v5 §class 11 licenses "an attested variant recorded in the
+	// target's `alt_headwords`", but no rule consulted the field, so
+	// `one-consonant-diverge` fired hints the prompt then told the
+	// sweep to reject — the calibration's most repeated rejection
+	// (A00892, A00520 among others).
+	it('does not flag an unvocalized display recorded in the target alt_headwords', () => {
+		const olyar = entry('A00671', 'bath attendant', 'אוֹלְיָאר', {
+			alt_headwords: ['אוֹלְיָיר'],
+		});
+		const hints = entryAnomalyHints(
+			entry('A00892', `v. ${anchor('אוֹלְיָאר', 'אוֹלְיָיר')}`, 'אולירין'),
+			new Map(),
+			index(['אולירין'], [olyar]),
+		);
+		expect(kinds(hints)).not.toContain('one-consonant-diverge');
+	});
+
+	it('strips the editorial parens and asterisk off a recorded alt', () => {
+		const gamam = entry('G00100', 'to cut', 'גְּמַם', {
+			alt_headwords: ['*(גומ)'],
+		});
+		const hints = entryAnomalyHints(
+			entry('A00307', `cmp. ${anchor('גְּמַם', 'גומ')}`, 'אגם'),
+			new Map(),
+			index(['אגם'], [gamam]),
+		);
+		expect(kinds(hints)).not.toContain('one-consonant-diverge');
+	});
+
+	// The guard that matters. `אַבָּא I` really does record `אָב` in
+	// alt_headwords while `אָב I` is its own entry, so a carve-out
+	// applied to exactHint would silence the rule's named control.
+	// Measured: it dropped exact-headword-diverge 338 -> 34.
+	it('never applies the carve-out to a display that is itself a headword', () => {
+		const abba = entry('A00017', 'father', 'אַבָּא I', {
+			alt_headwords: ['אָב'],
+		});
+		const hints = entryAnomalyHints(
+			entry('A00988', `v. ${anchor('אַבָּא I', 'אָב')}`, 'אָח'),
+			new Map(),
+			index(['אָב', 'אָח'], [abba]),
+		);
+		expect(kinds(hints)).toContain('exact-headword-diverge');
+	});
+});
+
+describe('niqqud-twin owner count (residue calibration 2026-09-04)', () => {
+	// The detail said "carried by 2 headwords" for a skeleton five
+	// entries share, because bySkeleton dedupes after stripping the
+	// homograph suffix. Homographs are exactly what the display cannot
+	// choose between, so the number understated the ambiguity it exists
+	// to report.
+	const family = [
+		entry('A00001', 'light', 'אוֹר I'),
+		entry('A00002', 'fire', 'אוֹר II'),
+		entry('A00003', 'stable', 'אוּר'),
+	];
+
+	it('counts every entry on the skeleton, homographs included', () => {
+		const hints = entryAnomalyHints(
+			entry('A00520', `v. ${anchor('אוּר', 'אור')}`, 'אוירא'),
+			new Map(),
+			index(['אוירא'], family),
+		);
+		const twin = hints.find((h) => h.kind === 'niqqud-twin-target');
+		expect(twin?.detail).toContain('3 entries');
+		expect(twin?.detail).toContain('אוֹר II');
+	});
+
+	it('still does not fire where one vocalized headword owns the skeleton', () => {
+		const hints = entryAnomalyHints(
+			entry('A00521', `v. ${anchor('אוֹר I', 'אור')}`, 'אוירא'),
+			new Map(),
+			index(['אוירא'], [family[0], family[1]] as SourceEntry[]),
+		);
+		expect(kinds(hints)).not.toContain('niqqud-twin-target');
+	});
+});
+
+describe('attested-variant carve-out is skeleton-level (batch 01, 2026-09-04)', () => {
+	// A00307/A00529: the recorded alt is stored vocalized and the
+	// display is bare consonants, so exact string membership never
+	// matched and the hint fired anyway — while sweep-v6's hint table
+	// asserted the exclusion had already handled it.
+	it('suppresses an unvocalized display of a vocalized recorded alt', () => {
+		const gamam = entry('C01055', 'to cut off', 'גְּמַם', {
+			alt_headwords: ['(גּוּם)'],
+		});
+		const hints = entryAnomalyHints(
+			entry('A00307', `cmp. ${anchor('גְּמַם', 'גום')}`, 'אגם'),
+			new Map(),
+			index(['אגם'], [gamam]),
+		);
+		expect(kinds(hints)).not.toContain('one-consonant-diverge');
+	});
+
+	it('still flags a display the target records no form of', () => {
+		const other = entry('C01056', 'unrelated', 'גְּמַם', {
+			alt_headwords: ['זזז'],
+		});
+		const hints = entryAnomalyHints(
+			entry('A00308', `cmp. ${anchor('גְּמַם', 'גום')}`, 'אגם'),
+			new Map(),
+			index(['אגם'], [other]),
+		);
+		expect(kinds(hints)).toContain('one-consonant-diverge');
+	});
+});
+
+describe('inflection-escape-link consults the target (batch 02, 2026-09-04)', () => {
+	// A00450/A00516: the hint says the target "matches neither the
+	// headword nor the form" while the target records that very form in
+	// its own plural_form and cross-refs back. A verifier measured the
+	// kind's premise — a `Pl.` anchor targets a headword other than its
+	// host in 1,021 of 1,349 cases corpus-wide — so escaping is the
+	// norm, and the target's own forms have to be consulted.
+	it('does not flag an escape to an entry that records the form', () => {
+		const target = entry('A00451', 'a garment', 'אִדְרַבְלִיס', {
+			plural_form: ['אִדְרַבְלִין'],
+		});
+		const hints = entryAnomalyHints(
+			entry('A00450', `Pl. ${anchor('אִדְרַבְלִיס', 'אִדְרַבְלִין')}`, 'אִדְרַבְלָא', {
+				plural_form: ['אִדְרַבְלִין'],
+			}),
+			new Map(),
+			index(['אִדְרַבְלָא'], [target]),
+		);
+		expect(kinds(hints)).not.toContain('inflection-escape-link');
+	});
+
+	it('still flags an escape to an entry that records nothing of the kind', () => {
+		const target = entry('A00302', 'unrelated', 'גְּלֵי');
+		const hints = entryAnomalyHints(
+			entry('A00301', `Pl. ${anchor('גְּלֵי', 'אִגְלֵי')}`, 'אִגְלָא', {
+				plural_form: ['אִגְלֵי'],
+			}),
+			new Map(),
+			index(['אִגְלָא'], [target]),
+		);
+		expect(kinds(hints)).toContain('inflection-escape-link');
+	});
+});
+
+describe('formsOf is narrower than ownForms (batch 02 fix, 2026-09-04)', () => {
+	// The first cut of the target-side check used `ownForms`, which
+	// harvests binyan forms out of the target's senses. C00927 `גְּלֵי`
+	// yields `אגל` that way — which is A00301 `אִגְלָא`'s own plural and
+	// round 1's named catch. Suppressing on it silenced the control.
+	it('still flags when the target carries the form only as a binyan', () => {
+		const verb = entry(
+			'C00927',
+			`Af. ${anchor('גְּלֵי', 'אִגְלֵי')} to reveal`,
+			'גְּלֵי',
+			{ alt_headwords: ['גְּלָא'] },
+		);
+		const hints = entryAnomalyHints(
+			entry('A00301', `Pl. ${anchor('גְּלֵי', 'אִגְלֵי')}`, 'אִגְלָא', {
+				plural_form: ['אִגְלֵי'],
+			}),
+			new Map(),
+			index(['אִגְלָא'], [verb]),
+		);
+		expect(kinds(hints)).toContain('inflection-escape-link');
+	});
+});
+
+describe('inflection-escape-link redirect exemption (batch 06, 2026-09-06)', () => {
+	// `own-form-escape-link` exempts "the target is a stub redirecting
+	// back to the host"; `inflection-escape-link` had no such clause,
+	// so the same shape fired there and the sweep rejected it by hand.
+	// C00064 `גְּבוּרְתָּא`: display `גְּבוּרָן` is its own plural, the
+	// target C00061 `גְּבוּרָא` is the bare stub `, v. גְּבוּרְתָּא`, and
+	// the host records `גְּבוּרָא` among its own alts as well — correct
+	// twice over.
+
+	it('does not fire when the target redirects back to the host', () => {
+		const host = entry('C00064', `—Pl. ${anchor('גְּבוּרָא', 'גְּבוּרָן')}`, 'גְּבוּרְתָּא', {
+			alt_headwords: ['גְּבוּרָא'],
+			plural_form: ['גְּבוּרָן'],
+		} as Partial<SourceEntry>);
+		const stub = entry('C00061', `, v. ${anchor('גְּבוּרְתָּא', 'גְּבוּרְתָּא')}`, 'גְּבוּרָא');
+		const hints = entryAnomalyHints(host, new Map(), index([], [host, stub]));
+		expect(kinds(hints)).not.toContain('inflection-escape-link');
+	});
+
+	it('still fires when the stub redirects somewhere else', () => {
+		// The control: a stub is only exempt when it sends the reader
+		// HOME. B00138's shape, kept live for the same reason.
+		const host = entry('C00065', `—Pl. ${anchor('גְּבוּרָא', 'גְּבוּרָן')}`, 'גְּבוּרְתָּא', {
+			plural_form: ['גְּבוּרָן'],
+		} as Partial<SourceEntry>);
+		const stub = entry('C00061', `, v. ${anchor('אַחֵר', 'אַחֵר')}`, 'גְּבוּרָא');
+		const hints = entryAnomalyHints(
+			host,
+			new Map(),
+			index(['אַחֵר'], [host, stub]),
+		);
+		expect(kinds(hints)).toContain('inflection-escape-link');
+	});
+});
+
+describe('own-form-escape-link (inflection residue adjudication, 2026-09-05)', () => {
+	// Both adjudicators of the 20-entry sample arrived, independently
+	// and unprompted, at one discriminator: does the TARGET record the
+	// displayed form among its own headword / alt_headwords /
+	// plural_form, matres kept? It sorted 19 of 20 where three
+	// code-derived predicates had sorted none. docs/v2/phase-2-inflection-gap.md.
+
+	it('fires when the target is an independent lemma (A00277 shape)', () => {
+		// Host אֵגוֹר "heap, hill", Pl. אֵגוֹרִים stated in sense prose.
+		// Target אֵגוֹרִי is its own lemma, "fit for storage", whose own
+		// plural is אֵגוֹרִין — it does not record אֵגוֹרִים.
+		const host = entry(
+			'A00277',
+			`a mound rises out of it.—Pl. אֵגוֹרִים ${anchor('אֵגוֹרִי', 'אֵגוֹרִים')}`,
+			'אֵגוֹר',
+		);
+		const target = entry('A00282', 'fit for storage', 'אֵגוֹרִי', {
+			plural_form: ['אֵגוֹרִין'],
+		} as Partial<SourceEntry>);
+		const hints = entryAnomalyHints(host, new Map(), index([], [host, target]));
+		expect(kinds(hints)).toContain('own-form-escape-link');
+	});
+
+	it('stays silent when the target records the displayed form (H00109 shape)', () => {
+		// Host חָבֵר, Pl. חֲבֵרוֹת. Target חֲבֵרָה is the feminine's own
+		// stub and lists חֲבֵרוֹת among its alt_headwords — two entries
+		// agreeing about a word, which is the legitimate shape.
+		const host = entry(
+			'H00109',
+			`Fem. חֲבֵרָה.—Pl. חֲבֵרוֹת ${anchor('חֲבֵרָה', 'חֲבֵרוֹת')}`,
+			'חָבֵר',
+		);
+		const target = entry('H00118', ', v. חָבֵר', 'חֲבֵרָה', {
+			alt_headwords: ['חֲבֵרוֹת'],
+		} as Partial<SourceEntry>);
+		const hints = entryAnomalyHints(host, new Map(), index([], [host, target]));
+		expect(kinds(hints)).not.toContain('own-form-escape-link');
+	});
+
+	it('reaches a form stated only in sense prose (A01023 shape)', () => {
+		// 286 of the 362 residue anchors are this: the form appears as
+		// `Part. pass. X` in the sense text and in no structured field,
+		// so `ownForms` never sees it and every inflection rule is blind.
+		const host = entry(
+			'A01023',
+			`Part. pass. אָחוּי united ${anchor('חוי', 'אָחוּי')}`,
+			'אחי',
+		);
+		const target = entry('H00309', 'Pa. to show; to tell', 'חוי');
+		const hints = entryAnomalyHints(host, new Map(), index([], [host, target]));
+		expect(kinds(hints)).toContain('own-form-escape-link');
+	});
+
+	it('does not fire when the link stays inside the host entry', () => {
+		const host = entry(
+			'X00001',
+			`—Pl. אֵגוֹרִים ${anchor('אֵגוֹר', 'אֵגוֹרִים')}`,
+			'אֵגוֹר',
+		);
+		const hints = entryAnomalyHints(host, new Map(), index([], [host]));
+		expect(kinds(hints)).not.toContain('own-form-escape-link');
+	});
+
+	// Batch 05 produced this rule's first out-of-sample reading — 30
+	// hints, 28 real, 2 false positives — and BOTH false positives were
+	// the redirect-stub exemption matched too narrowly. Each shape below
+	// is one of them, verified against the corpus rather than against
+	// the reporting agent's diagnosis: the sweep attributed B00443 to a
+	// data-ref/display mismatch as well, and that half is inert, because
+	// `baseHeadword` strips `I` and `II` identically.
+
+	it('exempts a stub that cites its attestation before the `v.`', () => {
+		// A03316 -> A00926. The stub's whole content is
+		// `Targ. I Chr. I, 20, v. אַשְׁלָא` — it redirects straight home,
+		// but the citation ahead of the `v.` defeated a lead pattern
+		// that allowed only punctuation. Reciprocity is exact: the
+		// host's own next clause quotes the same citation back.
+		const host = entry(
+			'A03316',
+			`rope.—Pl. אַשְׁלַיָּא ${anchor('אוּשְׁלַיָּא', 'אַשְׁלַיָּא')}`,
+			'אַשְׁלָא',
+		);
+		const stub = entry(
+			'A00926',
+			`${citation('Targum of I Chronicles 1:20', 'Targ. I Chr. I, 20')}, v. ${anchor('אַשְׁלָא', 'אַשְׁלָא')}`,
+			'אוּשְׁלַיָּא',
+		);
+		const hints = entryAnomalyHints(host, new Map(), index([], [host, stub]));
+		expect(kinds(hints)).not.toContain('own-form-escape-link');
+	});
+
+	it('exempts a stub whose host headword carries a stray comma', () => {
+		// B00443 -> B00450. The stub redirects home and `redirect` holds
+		// it; the comparison failed on the HOST side, because
+		// `baseHeadword('בִּזְיוּנָא , II')` left the comma behind. Nine
+		// of 32,512 headwords are written this way, all of them a
+		// homograph run like `I, II`.
+		const host = entry(
+			'B00443',
+			`slit.—Pl. בִּיזְיָינֵי ${anchor('בִּזְיָינֵי', 'בִּיזְיָינֵי')}`,
+			'בִּזְיוּנָא , II',
+			{ plural_form: ['בִּזֵיוּנֵי', 'בִּיזְיָינֵי'] } as Partial<SourceEntry>,
+		);
+		const stub = entry(
+			'B00450',
+			`, v. ${anchor('בִּזְיוּנָא I', 'בִּזְיוּנָא II')}`,
+			'בִּזְיָינֵי',
+		);
+		const hints = entryAnomalyHints(host, new Map(), index([], [host, stub]));
+		expect(kinds(hints)).not.toContain('own-form-escape-link');
+	});
+
+	it('still fires when the stub redirects to the etymon, not the host', () => {
+		// B00138 -> B00137, the third shape batch 05 met and the one
+		// DECLINED. The stub `, v. בְּדַח` sends the reader to the host's
+		// own etymon rather than to the host, so the two entries have
+		// not agreed about the word — the reader still does not land on
+		// בְּדִיחָא. Widening the exemption to cover it would suppress a
+		// live escalation on an argument nothing has adjudicated.
+		const host = entry(
+			'B00138',
+			`(בדח) joy. Constr. ${anchor('בְּדִיחַ', 'בְּדִיחַת')}`,
+			'בְּדִיחָא',
+			{ plural_form: ['בְּדִיחַת'] } as Partial<SourceEntry>,
+		);
+		const stub = entry('B00137', `, v. ${anchor('בְּדַח', 'בְּדַח')}`, 'בְּדִיחַ');
+		const hints = entryAnomalyHints(host, new Map(), index([], [host, stub]));
+		expect(kinds(hints)).toContain('own-form-escape-link');
+	});
+
+	// Batch 06, chunk-r00023: `buildHeadwordIndex` overwrote
+	// `recordedSkeletons` and `redirect` where four sibling maps in the
+	// same loop merged. `baseHeadword` strips homograph numerals, so a
+	// whole family collapses to one key and the LAST entry written won:
+	// 2,053 base keys carry two or more entries and 2,434 entries lost
+	// their contribution. Both shapes below failed before the merge.
+
+	it('sees a form recorded by a homograph the family does not end with', () => {
+		// B01237: display בָּרָא, target base בַּר, which five entries
+		// share. B01153 records בָּרָא; B01156 `בַּר IV` is written last
+		// and records only its own skeleton, so the key kept nothing
+		// useful and a correct link was hinted.
+		const host = entry('B01237', `—Pl. בָּרָא ${anchor('בַּר', 'בָּרָא')}`, 'בַּרְיָא', {
+			plural_form: ['בָּרָא'],
+		} as Partial<SourceEntry>);
+		const records = entry('B01153', 'son; outside', 'בַּר', {
+			alt_headwords: ['בָּרָא'],
+		} as Partial<SourceEntry>);
+		const later = entry('B01156', 'field', 'בַּר IV');
+		const hints = entryAnomalyHints(
+			host,
+			new Map(),
+			index([], [host, records, later]),
+		);
+		expect(kinds(hints)).not.toContain('own-form-escape-link');
+	});
+
+	it('keeps every redirect stub in a homograph family', () => {
+		// Same collapse, other map: 121 stubs were shadowed by a
+		// same-base sibling. Here the stub that redirects HOME is
+		// written first, so last-wins discarded exactly the one the
+		// exemption needed.
+		const host = entry(
+			'H00001',
+			`—Pl. גְּלָלַיָּא ${anchor('גְּלָל', 'גְּלָלַיָּא')}`,
+			'גַּלָּא',
+			{ plural_form: ['גְּלָלַיָּא'] } as Partial<SourceEntry>,
+		);
+		const home = entry('H00002', `, v. ${anchor('גַּלָּא', 'גַּלָּא')}`, 'גְּלָל');
+		const elsewhere = entry('H00003', `, v. ${anchor('אַחֵר', 'אַחֵר')}`, 'גְּלָל II');
+		const hints = entryAnomalyHints(
+			host,
+			new Map(),
+			index(['אַחֵר'], [host, home, elsewhere]),
+		);
+		expect(kinds(hints)).not.toContain('own-form-escape-link');
+	});
+
+	it('still fires when no homograph in the family records the form', () => {
+		// The control the two tests above need: merging must not exempt
+		// everything that shares a base.
+		const host = entry('H00010', `—Pl. דְּמָמָא ${anchor('דָּם', 'דְּמָמָא')}`, 'דַּמְיָא', {
+			plural_form: ['דְּמָמָא'],
+		} as Partial<SourceEntry>);
+		const one = entry('H00011', 'blood', 'דָּם');
+		const two = entry('H00012', 'likeness', 'דָּם II');
+		const hints = entryAnomalyHints(
+			host,
+			new Map(),
+			index([], [host, one, two]),
+		);
+		expect(kinds(hints)).toContain('own-form-escape-link');
+	});
+
+	it('exempts a geresh-abbreviated display, where the test is known to fail', () => {
+		// T00697, the sample's one discriminator failure: host רִיקּוּחַ
+		// "perfume", Pl. רִיקּוּחִים abbreviated רִקּ׳ — and the WRONG
+		// target רִיקּוּד "dancing" records רִקּ׳ among its own forms too,
+		// so the orthographic test says "recorded" and is wrong. These
+		// need a sense read; `abbrev-mislink` already judges the shape.
+		const host = entry(
+			'T00697',
+			`perfume.—Pl. רִיקּוּחִים, רִקּ׳ ${anchor('רִיקּוּד', 'רִקּ׳')}`,
+			'רִיקּוּחַ',
+		);
+		const target = entry('T00695', 'dancing', 'רִיקּוּד', {
+			alt_headwords: ['רִקּ׳'],
+		} as Partial<SourceEntry>);
+		const hints = entryAnomalyHints(host, new Map(), index([], [host, target]));
+		expect(kinds(hints)).not.toContain('own-form-escape-link');
+	});
 });

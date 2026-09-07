@@ -254,3 +254,53 @@ describe('replayGate', () => {
 		expect(replayGate(records)).toEqual([]);
 	});
 });
+
+describe('hint_notes (batch 01, 2026-09-04)', () => {
+	// The sweep checklist requires every anomaly hint judged "with a
+	// reason you could defend to the verification tier", and
+	// `escalation` is forbidden on clean/repaired rows — so a rejected
+	// hint on an otherwise-sound entry had nowhere to be written. Both
+	// repaired entries of batch 01 lost their rejection reasons that
+	// way, and the verification tier cannot audit hint judgment without
+	// them.
+	it('accepts hint_notes on a clean row', () => {
+		const row = parseManifestLine(
+			JSON.stringify({
+				disposition: 'clean',
+				hint_notes: "'Mars.' is the planet, not a rare variant",
+				patches: [],
+				rid: 'A00417',
+			}),
+			1,
+		);
+		expect(row.hint_notes).toBe("'Mars.' is the planet, not a rare variant");
+	});
+
+	it('accepts hint_notes alongside an escalation on a needs_* row', () => {
+		const row = parseManifestLine(
+			JSON.stringify({
+				disposition: 'needs_print_check',
+				escalation: 'lost period after Nican',
+				hint_notes: "'Ther.' rejected: attested",
+				patches: [],
+				rid: 'A00911',
+			}),
+			1,
+		);
+		expect(row.hint_notes).toBe("'Ther.' rejected: attested");
+	});
+
+	it('rejects an empty hint_notes rather than storing a blank', () => {
+		expect(() =>
+			parseManifestLine(
+				JSON.stringify({
+					disposition: 'clean',
+					hint_notes: '   ',
+					patches: [],
+					rid: 'A00417',
+				}),
+				1,
+			),
+		).toThrow(/hint_notes/u);
+	});
+});

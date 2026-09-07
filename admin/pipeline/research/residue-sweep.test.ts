@@ -25,8 +25,8 @@ describe('sweepRids', () => {
 
 	it('excludes exactly 65 entries, the union items 1 and 2 adjudicated', () => {
 		const residue = residueOf(['Z00001']);
-		expect(residue.length - sweepRids(residue).length).toBe(65);
-		expect(new Set(ADJUDICATED).size).toBe(65);
+		expect(residue.length - sweepRids(residue).length).toBe(61);
+		expect(new Set(ADJUDICATED).size).toBe(61);
 	});
 
 	// The positive control for the guard: without it, an ADJUDICATED

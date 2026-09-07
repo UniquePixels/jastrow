@@ -6,7 +6,7 @@ import {
 	nonCommutingPairs,
 	type PairStats,
 } from './commutation.ts';
-import { RULES } from './registry.ts';
+import { ORDERED, RULES } from './registry.ts';
 import { sourceEntries } from './rules/corpus-fixture.ts';
 import type { Rule, TransformResult } from './types.ts';
 
@@ -256,7 +256,21 @@ describe('the registry commutes except where the catalogue says otherwise', () =
 		const pairs = nonCommutingPairs(RULES, corpus, stats);
 		const elapsedMs = performance.now() - start;
 
-		const undeclared = pairs.filter((p) => !declared(p.ids[0], p.ids[1]));
+		// The SECOND justification, added 2026-09-06: a pair whose order
+		// is intended, fixed and argued in `ORDERED`. `entangledWith`
+		// records population collision and its remedy is adjacency;
+		// `ORDERED` records a sequence dependency and its remedy is a
+		// direction. `registry.ts`'s `Ordered` docstring carries why the
+		// first could not be stretched to cover the second.
+		const ordered = (x: string, y: string): boolean =>
+			ORDERED.some(
+				(row) =>
+					(row.before === x && row.after === y) ||
+					(row.before === y && row.after === x),
+			);
+		const undeclared = pairs.filter(
+			(p) => !declared(p.ids[0], p.ids[1]) && !ordered(p.ids[0], p.ids[1]),
+		);
 
 		// The pair counts and wall-clock on stdout are the gate's own
 		// cost, reported rather than claimed — see commutation.ts module
@@ -276,6 +290,21 @@ describe('the registry commutes except where the catalogue says otherwise', () =
 			undeclared.map((p) => `${p.ids[0]} × ${p.ids[1]} @ ${p.sampleRid}`),
 		).toEqual([]);
 
+		// AND THE OTHER DIRECTION, which is what stops `ORDERED` becoming
+		// a suppression list: every declaration must name a pair that is
+		// ACTUALLY non-commuting here. One naming a pair whose two orders
+		// now agree is stale — the dependency it records has gone — and a
+		// stale entry silently exempts a pair that may non-commute again
+		// later for a different reason. Same lesson `unaccountedEdges`
+		// carries for `entangledWith`: a recorded relationship must
+		// produce a validated check or a reported problem, never silence.
+		const live = new Set(pairs.map((p) => [...p.ids].sort().join(' × ')));
+		expect(
+			ORDERED.filter(
+				(row) => !live.has([row.after, row.before].sort().join(' × ')),
+			).map((row) => `${row.before} → ${row.after}`),
+		).toEqual([]);
+
 		// The second invariant — see this suite's docstring. Cause first,
 		// then the symptom it implies.
 		expect(stats.inertRules).toEqual([]);
@@ -287,13 +316,26 @@ describe('the registry commutes except where the catalogue says otherwise', () =
 		// 80 → 280 across batch 7, which registered five structural
 		// rules; 280 → 287 across batch 8 and 287 → 294 across batch 9,
 		// each registering ONE `text-repairs` rule; 294 → 322 across
-		// batch 10, which registered FOUR of them (46 × 7). The figure is
+		// batch 10, which registered FOUR of them (46 × 7); and 322 → 329
+		// on 2026-09-06 for `geresh-apostrophe-as-gershayim`, ONE more
+		// `text-repairs` rule (47 × 7), and 329 → 336 the same day for
+		// `unlinked-bare-anaphor`, one more again (48 × 7). The figure is
 		// a PRODUCT, so it moves whenever either phase grows, and
 		// re-deriving it is how a reader checks that the growth was in
 		// the phase they expected: any one of batch 10's four declaring
-		// `structural-repairs` instead would make it 45 × 8 = 360.
+		// `structural-repairs` instead would make it 45 × 8 = 360, and
+		// the 2026-09-06 rule declaring it would have made 46 × 8 = 368
+		// rather than 329.
+		//
+		// THIS ASSERTION IS THE CORPUS TIER'S ONLY TRIPWIRE ON ADDING A
+		// RULE, and it fired as designed: `geresh-apostrophe-as-gershayim`
+		// shipped in a commit verified with `bun qa` alone, which is the
+		// unit tier and cannot see this. `bun qa` is the pre-commit gate
+		// CLAUDE.md names; registering a rule additionally needs
+		// `bun run audit:corpus`, and this comment is where a reader
+		// finds that out.
 		expect(stats.composedPairs + stats.crossPhasePairs).toBe(stats.totalPairs);
-		expect(stats.crossPhasePairs).toBe(322);
+		expect(stats.crossPhasePairs).toBe(336);
 		// MEASURED on CI 2026-08-31, PR #59's first `Corpus Audit` run: this
 		// gate logged 134,141ms against the 180s budget it used to carry —
 		// 75% of it. A runner a third slower fails here, and the message

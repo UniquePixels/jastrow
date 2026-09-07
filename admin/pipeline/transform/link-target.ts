@@ -451,7 +451,7 @@
  *   redrawing it, and the `untouched` fast path inherits it too.
  */
 import type { SourceEntry } from '../body/types.ts';
-import { tokenize } from './html.ts';
+import { type Token, tokenize } from './html.ts';
 import { type Anchor, anchors } from './links.ts';
 import { fieldsOf } from './no-new-text.ts';
 import { byCodeUnit } from './rules/point-claims.ts';
@@ -520,6 +520,14 @@ type Vouch = {
 	display: string;
 	headword: string;
 	rid: string;
+	target: string;
+};
+
+/** One declared mint (`TransformResult.minted`) — case 10. */
+type Mint = {
+	display: string;
+	field: string;
+	from: number;
 	target: string;
 };
 
@@ -637,6 +645,8 @@ interface Input {
 	 * clause in this gate that reads a field outside the walked link
 	 * fields, because a spelling twin is defined against the host. */
 	headword: string;
+	/** Case 10's declared mints. */
+	mints: readonly Mint[];
 	points: readonly Point[];
 	rejoins: readonly Recombine[];
 	restores: readonly Restore[];
@@ -1245,6 +1255,55 @@ const VOUCH_DECLARERS: ReadonlySet<string> = new Set([
 	// Residue measured 0: exactly one candidate headword per repair.
 	'v-sub-redirect-stub-mislink',
 ]);
+
+/**
+ * Case 10's declarer allowlist — **ONE ID**, and every addition is
+ * measured before it is admitted, the same way this one was.
+ *
+ * A gate case is a LICENCE and not an instruction. This one lifts the
+ * spec's second counting invariant ("anchors never grow"), which
+ * encoded batch 2's *retarget only* scope ruling rather than a safety
+ * property, so live exposure is exactly the rules named here and
+ * `checkLinkTargets` behaves for every other rule in the registry as
+ * it did before.
+ *
+ * **What a reviewer must measure before adding an id**, in the terms
+ * spec §4 sets:
+ *
+ * 1. The candidate rule's mint sites, counted after `applyRepairs`
+ *    with a stated predicate and a positive control.
+ * 2. How many targets clauses 2-5 leave available at each site. For
+ *    the anaphor population that is ~9 (mean 9.1, median 6, max 78);
+ *    a rule whose sites offer materially more is choosing from a
+ *    wider set than this case was ruled in on.
+ * 3. Whether the rule's own choice among them is validated somewhere
+ *    OUTSIDE this gate. `ibAnaphora`'s is: scored against the linker
+ *    on 1,859 known-answer anchored anaphors, 1,857 name the same
+ *    place. A rule with no such control is asking the allowlist to
+ *    carry a correctness claim it cannot hold — see
+ *    [[feedback_vacuous_gates]].
+ *
+ * Same cost `CORROBORATION_DECLARERS` and `VOUCH_DECLARERS` record:
+ * an allowlist licenses NAMED RULES rather than evidence, and it is
+ * removable only when the clauses alone bound the licence to one
+ * candidate. They do not here, by design (clause 5 is *precedes*, not
+ * *nearest*), so this list is permanent rather than transitional.
+ *
+ * `unlinked-bare-anaphor` was admitted 2026-09-06, and the three
+ * measurements above are on its row in `patterns.jsonl` and in
+ * `rules/anaphora-mint.ts`'s docstring: 2,819 sites with a stated
+ * predicate and a `the` = 50,353 control reproduced on two bases;
+ * ~9 targets available per site; and its choice among them scored
+ * against the linker on 1,859 known-answer anaphors, 1,857 naming the
+ * same place.
+ */
+const MINT_DECLARERS: ReadonlySet<string> = new Set(['unlinked-bare-anaphor']);
+
+/** Case 10 clause 2's closed set: the bare anaphor, trimmed. The same
+ * displays `anaphora.ts`'s `ANAPHOR` matches on the anchored side —
+ * restated here rather than imported, because a gate whose predicate
+ * is the rule's cannot catch a rule that widened its own. */
+const MINTABLE_ANAPHOR = /^(?:Ib|ib)\.$/u;
 
 /**
  * The rule ids licensed to declare a case-9 point repair. Third and
@@ -2111,6 +2170,7 @@ function inputOf(
 		| 'composed'
 		| 'corroborated'
 		| 'glyphCorrected'
+		| 'minted'
 		| 'pointed'
 		| 'recombined'
 		| 'restored'
@@ -2126,6 +2186,7 @@ function inputOf(
 		fields,
 		glyphs: result.glyphCorrected ?? [],
 		headword,
+		mints: result.minted ?? [],
 		points: result.pointed ?? [],
 		rejoins: result.recombined ?? [],
 		restores: result.restored ?? [],
@@ -2137,6 +2198,255 @@ function inputOf(
 		vouches: result.vouched ?? [],
 		written: tally(output.map((placed) => placed.anchor)),
 	};
+}
+
+/** How many of these anchors display a bare anaphor — case 10 clause
+ * 7's measure, taken identically on both sides of the rewrite. */
+function anaphorAnchors(list: readonly Anchor[]): number {
+	return list.filter((anchor) => MINTABLE_ANAPHOR.test(anchor.display.trim()))
+		.length;
+}
+
+/** Whether an anchor is one case 10 will copy a target from — the
+ * same three exclusions every editor here applies. */
+function mintable(anchor: Anchor | undefined): anchor is Anchor {
+	return (
+		anchor !== undefined &&
+		!anchor.malformed &&
+		!anchor.interior &&
+		anchor.close !== -1
+	);
+}
+
+/**
+ * Whether `display` occurs in `field` as BARE TEXT that begins after
+ * `after` — case 10's clauses 3 and 5 in one walk, because they are
+ * two halves of one question: is there a place in this field where the
+ * rule could have wrapped this text, and does it come after the anchor
+ * it copied from?
+ *
+ * "Bare" is read the way `gapBetween` reads it — a text token no
+ * usable anchor spans — so text lifted out of an existing anchor
+ * cannot satisfy it and the case stays a MINT rather than a re-wrap.
+ */
+function bareDisplayAfter(
+	tokens: readonly Token[],
+	list: readonly Anchor[],
+	display: string,
+	after: number,
+): boolean {
+	for (const [at, token] of tokens.entries()) {
+		if (at <= after || token.kind !== 'text') {
+			continue;
+		}
+		const inside = list.some(
+			(anchor) => mintable(anchor) && anchor.open < at && anchor.close > at,
+		);
+		if (!inside && token.value.includes(display)) {
+			return true;
+		}
+	}
+	return false;
+}
+
+/**
+ * The one message for a failed count reconciliation.
+ *
+ * THE TWO PRE-CASE-10 WORDINGS ARE PRESERVED EXACTLY, and that is not
+ * cosmetic: a rule that declares no mint must see the diagnosis it saw
+ * before, or "behaviour for all existing rules is unchanged" is a
+ * claim about pass/fail only and the forty shipped rules' failure
+ * messages silently moved under it. Four gate fixtures assert these
+ * strings; they were the ones that caught the first cut of this.
+ *
+ * The third wording appears only when mints are in play, where
+ * "removed −1, declared 0" would read as the wrong diagnosis.
+ */
+function mintCountFault(state: {
+	declared: number;
+	mints: readonly Mint[];
+	output: readonly Placed[];
+	removed: number;
+	rid: string;
+	source: readonly Anchor[];
+}): string {
+	const { declared, mints, output, removed, rid, source } = state;
+	if (mints.length === 0) {
+		// Pluralize "anchor" only when more than one was removed.
+		const plural = removed === 1 ? '' : 's';
+		return removed < 0
+			? `anchor count grew ${source.length} → ${output.length} in ${rid}`
+			: `removed ${removed} anchor${plural} in ${rid}, declared ${declared}`;
+	}
+	return `net anchor change ${removed} in ${rid}, declared ${declared} unlinked and ${mints.length} minted`;
+}
+
+/** The lead every case-10 message shares. */
+function mintLead(claim: Mint): string {
+	return `minted anchor ${JSON.stringify(claim.display)} → ${JSON.stringify(claim.target)}`;
+}
+
+/**
+ * Every fault in one declared mint (case 10, clauses 2-5). Clause 1 is
+ * judged once for the whole arm by the caller, and clauses 6 and 7 are
+ * entry-wide reconciliations rather than per-claim tests.
+ *
+ * Returns EVERY clause the claim fails rather than the first, because
+ * a rule author fixing one at a time is the slow path and the clauses
+ * are independent.
+ */
+function mintFault(
+	claim: Mint,
+	input: Pick<Input, 'fields'>,
+	output: readonly Placed[],
+): string[] {
+	const problems: string[] = [];
+	if (!MINTABLE_ANAPHOR.test(claim.display.trim())) {
+		problems.push(`${mintLead(claim)} is not a bare anaphor`);
+	}
+	if (!input.fields.includes(claim.field)) {
+		problems.push(
+			`${mintLead(claim)} names a field this entry's input does not hold`,
+		);
+		return problems;
+	}
+	const tokens = tokenize(claim.field);
+	const list = anchors(tokens);
+	const source = list.find((anchor) => anchor.open === claim.from);
+	if (!mintable(source)) {
+		problems.push(
+			`${mintLead(claim)} names no usable input anchor at token ${claim.from}`,
+		);
+		return problems;
+	}
+	if (source.dataRef !== claim.target) {
+		problems.push(
+			`${mintLead(claim)} was copied from an anchor carrying ${JSON.stringify(source.dataRef)}`,
+		);
+	}
+	if (!bareDisplayAfter(tokens, list, claim.display, source.close)) {
+		problems.push(
+			`${mintLead(claim)} wraps no bare text following its source anchor`,
+		);
+	}
+	// The href half of clause 4, plus the clause that makes a claim
+	// answerable for a real anchor.
+	//
+	// Matched by the declared `target` AND `display`, ALL-claim: every
+	// output anchor the claim speaks to must carry the source anchor's
+	// own href, so a claim cannot license a data-ref while the href went
+	// somewhere else.
+	//
+	// AND IT MUST SPEAK TO AT LEAST ONE, IN THE FIELD IT NAMED. Without
+	// that, two holes: a claim matching no output anchor at all still
+	// licenses a `+1` through the count equation, and a claim could cite
+	// a bare `Ib.` in one field to license an anchor minted in another.
+	// The field index is `indexOf`, so two byte-identical non-empty
+	// fields would collide — that can only make this MORE permissive,
+	// never wrong, and no entry in the corpus has one.
+	const at = input.fields.indexOf(claim.field);
+	let spoken = 0;
+	for (const placed of output) {
+		const { anchor } = placed;
+		if (anchor.dataRef !== claim.target || anchor.display !== claim.display) {
+			continue;
+		}
+		if (placed.field === at) {
+			spoken += 1;
+		}
+		if (anchor.href !== source.href) {
+			problems.push(
+				`${mintLead(claim)} wrote href ${JSON.stringify(anchor.href)}, not its source's ${JSON.stringify(source.href)}`,
+			);
+		}
+	}
+	if (spoken === 0) {
+		problems.push(
+			`${mintLead(claim)} matches no output anchor in the field it names`,
+		);
+	}
+	return problems;
+}
+
+/**
+ * Every fault across the whole case-10 arm: the declarer, then each
+ * claim, then clause 7's anaphor-count reconciliation.
+ *
+ * The DECLARER is judged first and for the group, like case 7's: an
+ * unlisted rule's claims are refused together, before a clause of any
+ * of them is read. `MINT_DECLARERS` admits exactly `unlinked-bare-
+ * anaphor` today, so that rule's claims reach `mintClauseFaults`
+ * below and every other rule's are refused here.
+ */
+function mintFaults(
+	mints: readonly Mint[],
+	input: Input,
+	output: readonly Placed[],
+): string[] {
+	if (mints.length === 0) {
+		return [];
+	}
+	const { ruleId } = input;
+	if (ruleId === undefined || !MINT_DECLARERS.has(ruleId)) {
+		const named =
+			ruleId === undefined ? 'no named rule' : JSON.stringify(ruleId);
+		return [
+			`${mints.length} minted anchor${mints.length === 1 ? '' : 's'} declared by ${named}, which case 10's declarer allowlist does not admit`,
+		];
+	}
+	return mintClauseFaults(mints, input, output);
+}
+
+/**
+ * Case 10's clauses 2-7, with the declarer clause deliberately NOT
+ * applied — `mintFaults` above judges that first and separately.
+ *
+ * **Exported for the gate's own fixtures, and the split is forced by
+ * `MINT_DECLARERS` admitting only `unlinked-bare-anaphor`.** Clause 1
+ * refuses every OTHER rule's claim; a synthetic fixture wants to
+ * exercise clauses 2-7 against invented mint shapes rather than the
+ * real rule's, and declaring it under the one admitted id would
+ * couple every clause fixture to that rule's actual output instead.
+ * Run through `checkLinkTargets` under any other id, the only
+ * reachable case-10 behaviour is clause 1's refusal, so a fixture
+ * proving clause 4 rejects a target copied from the wrong anchor
+ * could not exist there. The alternative was widening the allowlist
+ * with a second, test-only id, which is a licence hole for the
+ * benefit of a test. This is the smaller cost: one export, no licence
+ * widened, and clause 1 still tested through the public entry point.
+ *
+ * Callers that are not fixtures want `checkLinkTargets`.
+ */
+function mintClauseFaults(
+	mints: readonly Mint[],
+	input: Pick<Input, 'fields' | 'rid' | 'source'>,
+	output: readonly Placed[],
+): string[] {
+	const problems = mints.flatMap((claim) => mintFault(claim, input, output));
+	const grew =
+		anaphorAnchors(output.map((placed) => placed.anchor)) -
+		anaphorAnchors(input.source);
+	if (grew !== mints.length) {
+		problems.push(
+			`anaphor anchors grew by ${grew} in ${input.rid}, declared ${mints.length}`,
+		);
+	}
+	return problems;
+}
+
+/** `mintClauseFaults` over two entries, which is the shape a fixture
+ * has. Walks both sides exactly as `checkLinkTargets` does. */
+function checkMintClauses(
+	before: SourceEntry,
+	after: SourceEntry,
+	mints: readonly Mint[],
+): string[] {
+	const fields = fieldsOf(before);
+	return mintClauseFaults(
+		mints,
+		{ fields, rid: after.rid, source: anchorsIn(fields) },
+		placedIn(fieldsOf(after)),
+	);
 }
 
 /**
@@ -2181,6 +2491,7 @@ function checkLinkTargets(
 		| 'composed'
 		| 'corroborated'
 		| 'glyphCorrected'
+		| 'minted'
 		| 'pointed'
 		| 'recombined'
 		| 'restored'
@@ -2202,17 +2513,30 @@ function checkLinkTargets(
 		result,
 	);
 	const problems: string[] = [];
+	// Case 10 (spec 2026-09-06 §3.6). The invariant used to be two
+	// separate refusals — a growing count outright, then a shortfall
+	// against `unlinks` — and it is now ONE EQUATION with mints on the
+	// other side:
+	//
+	//     source − output === (unlinks ?? 0) − minted.length
+	//
+	// For every rule that declares no mint this reduces to the old
+	// `removed === declared`, INCLUDING the growth case, which now
+	// fails as a count mismatch instead of by its own branch. So the
+	// behaviour of all forty-odd shipped rules is unchanged and none of
+	// them needed re-auditing to land this. The message still names
+	// growth separately, because "declared 0" reads as the wrong
+	// diagnosis for a rule that created a link by accident.
 	const removed = source.length - output.length;
 	const declared = result.unlinks ?? 0;
-	if (removed < 0) {
+	const mints = result.minted ?? [];
+	const expected = declared - mints.length;
+	if (removed !== expected) {
 		problems.push(
-			`anchor count grew ${source.length} → ${output.length} in ${rid}`,
-		);
-	} else if (removed !== declared) {
-		problems.push(
-			`removed ${removed} anchor${removed === 1 ? '' : 's'} in ${rid}, declared ${declared}`,
+			mintCountFault({ declared, mints, output, removed, rid, source }),
 		);
 	}
+	problems.push(...mintFaults(mints, input, output));
 	for (const { anchor, field } of output) {
 		const problem =
 			checkValue(anchor.dataRef, anchor, input, field) ??
@@ -2224,4 +2548,4 @@ function checkLinkTargets(
 	return problems;
 }
 
-export { checkLinkTargets };
+export { checkLinkTargets, checkMintClauses };

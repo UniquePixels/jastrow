@@ -10,6 +10,22 @@
  * one chunk. The checkpoint carries a corpus fingerprint — resuming
  * against a changed corpus fails loudly instead of silently
  * reassigning entries to different chunks.
+ *
+ * Progress is recorded twice, and the second one is the durable one.
+ * `completed` names chunk ids, which are positional: chunk ids are
+ * assigned over the rid-sorted population, so `chunk-00001` is
+ * whatever the first 30 entries happen to be TODAY. Any change to the
+ * population renumbers every chunk, which is why a fingerprint
+ * mismatch invalidates `completed` outright. `swept` names rids, which
+ * are stable, so it survives the re-chunk — `carryForward` keeps it
+ * and `pendingChunks` skips chunks it already covers. Without that
+ * ledger a re-chunk restarts at the head of the corpus, and three
+ * consecutive residue batches swept the same 150 entries.
+ *
+ * Skipping is not enough on its own, because a chunk is skipped only
+ * when the ledger covers ALL of it. `pendingChunks` therefore also
+ * ORDERS what is left by how much of it is unswept; its docstring
+ * carries the measurement that forced this.
  */
 import { createHash } from 'node:crypto';
 
@@ -40,10 +56,12 @@ interface Tranche {
 }
 
 /** A tranche's progress record: which chunks have completed, pinned
- * to the exact corpus (rid list) they were cut from. */
+ * to the exact corpus (rid list) they were cut from, plus the
+ * rid-level ledger of everything ever swept under any chunking. */
 interface Checkpoint {
 	completed: string[];
 	corpus: string;
+	swept: string[];
 	tranche: string;
 }
 
@@ -151,7 +169,7 @@ function buildTranches(
 /** A fresh checkpoint for a tranche cut from the fingerprinted
  * corpus. */
 function buildCheckpoint(tranche: Tranche, corpus: string): Checkpoint {
-	return { completed: [], corpus, tranche: tranche.id };
+	return { completed: [], corpus, swept: [], tranche: tranche.id };
 }
 
 /** Parse checkpoint JSON, failing loudly on any malformed field. */
@@ -171,31 +189,94 @@ function parseCheckpoint(text: string): Checkpoint {
 		typeof raw['tranche'] !== 'string' ||
 		typeof raw['corpus'] !== 'string' ||
 		!Array.isArray(raw['completed']) ||
-		raw['completed'].some((id) => typeof id !== 'string')
+		raw['completed'].some((id) => typeof id !== 'string') ||
+		!isRidList(raw['swept'])
 	) {
 		throw new ChunkError(
-			'checkpoint must be { tranche: string, corpus: string, completed: string[] }',
+			'checkpoint must be { tranche: string, corpus: string, completed: string[], swept?: string[] }',
 		);
 	}
 	return {
 		completed: raw['completed'] as string[],
 		corpus: raw['corpus'],
+		swept: (raw['swept'] as string[] | undefined) ?? [],
 		tranche: raw['tranche'],
 	};
 }
 
-/** Record one chunk as completed (idempotent). */
-function markComplete(checkpoint: Checkpoint, chunkId: string): Checkpoint {
-	if (checkpoint.completed.includes(chunkId)) {
-		return checkpoint;
-	}
-	return { ...checkpoint, completed: [...checkpoint.completed, chunkId] };
+/** Whether a raw field is a usable `swept` list. Absent is allowed:
+ * checkpoints written before the rid ledger existed carry no `swept`,
+ * and reading one as an empty ledger is correct — it claims nothing
+ * has been swept, which costs a re-sweep but never drops an entry. */
+function isRidList(value: unknown): boolean {
+	return (
+		value === undefined ||
+		(Array.isArray(value) && value.every((rid) => typeof rid === 'string'))
+	);
 }
 
-/** The chunks still to sweep: everything the checkpoint has not
- * completed. Validates that the checkpoint belongs to this tranche
- * and this exact corpus — a mismatch means the chunking moved under
- * the resume, and continuing would reassign entries. */
+/** Record one chunk as completed (idempotent). Takes the chunk rather
+ * than its id because both ledgers have to move together: the id for
+ * this chunking, the rids for every chunking after it. */
+function markComplete(checkpoint: Checkpoint, chunk: Chunk): Checkpoint {
+	if (checkpoint.completed.includes(chunk.id)) {
+		return checkpoint;
+	}
+	const swept = new Set([...checkpoint.swept, ...chunk.rids]);
+	return {
+		...checkpoint,
+		completed: [...checkpoint.completed, chunk.id],
+		swept: [...swept].sort(byCodeUnit),
+	};
+}
+
+/** Re-point a checkpoint at a re-cut population. The chunk ids are
+ * discarded — they name positions in a chunking that no longer
+ * exists — and the rid ledger is kept, which is the whole point of
+ * having one. */
+function carryForward(checkpoint: Checkpoint, corpus: string): Checkpoint {
+	return { ...checkpoint, completed: [], corpus };
+}
+
+/** The checkpoint to work from, given whatever was on disk. Absent
+ * means a fresh one; a matching fingerprint means resume as-is; a
+ * moved fingerprint means the population was re-cut under us, so the
+ * chunk ids go and the rid ledger stays. This is the one place that
+ * decides, so `prep` and `ingest` cannot disagree about it. */
+function resolveCheckpoint(
+	stored: Checkpoint | undefined,
+	tranche: Tranche,
+	corpus: string,
+): Checkpoint {
+	if (stored === undefined) {
+		return buildCheckpoint(tranche, corpus);
+	}
+	return stored.corpus === corpus ? stored : carryForward(stored, corpus);
+}
+
+/** The chunks still to sweep, richest in unswept entries first.
+ * Validates that the checkpoint belongs to this tranche and this
+ * exact corpus — a mismatch means the chunking moved under the
+ * resume, and continuing would reassign entries.
+ *
+ * MEMBERSHIP is deliberately conservative: a chunk holding even one
+ * unswept rid is returned, and an agent sweeps it in full, because
+ * skipping it would drop that entry silently.
+ *
+ * ORDER is what stops that conservatism from costing a batch.
+ * Callers slice this list from the head, so positional order spends
+ * the window on whatever the chunker happens to have cut first. A
+ * detector change that interleaves new entries into an
+ * already-swept head leaves every old chunk holding one or two of
+ * them, and each is then dispatched in full: batch 05's prep
+ * offered 150 entries covering **6** unswept ones, with 110
+ * untouched 30-of-30 chunks waiting behind them. Ranking by unswept
+ * count puts the whole chunks first and lets the stragglers
+ * accumulate to the tail, where one later batch pays for them once.
+ *
+ * The sort is stable (ES2019), so chunks with equal coverage — the
+ * ordinary case, where nothing has been swept and every count is
+ * CHUNK_SIZE — keep their positional order. */
 function pendingChunks(
 	tranche: Tranche,
 	checkpoint: Checkpoint,
@@ -219,7 +300,15 @@ function pendingChunks(
 		);
 	}
 	const done = new Set(checkpoint.completed);
-	return tranche.chunks.filter((chunk) => !done.has(chunk.id));
+	const swept = new Set(checkpoint.swept);
+	return tranche.chunks
+		.map((chunk) => ({
+			chunk,
+			unswept: chunk.rids.filter((rid) => !swept.has(rid)).length,
+		}))
+		.filter(({ chunk, unswept }) => !(done.has(chunk.id) || unswept === 0))
+		.sort((a, b) => b.unswept - a.unswept)
+		.map(({ chunk }) => chunk);
 }
 
 /** Where a tranche's checkpoint lives. */
@@ -255,6 +344,7 @@ export {
 	CHUNK_PREFIX,
 	CHUNK_SIZE,
 	ChunkError,
+	carryForward,
 	checkpointPath,
 	chunkCorpus,
 	corpusFingerprint,
@@ -262,6 +352,7 @@ export {
 	markComplete,
 	parseCheckpoint,
 	pendingChunks,
+	resolveCheckpoint,
 	saveCheckpoint,
 	TRANCHE_PREFIX,
 	TRANCHE_SIZE,

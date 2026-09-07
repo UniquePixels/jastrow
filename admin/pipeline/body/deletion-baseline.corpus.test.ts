@@ -60,6 +60,20 @@ const BASELINE: [string, number, number][] = [
 	// independent confirmation of the claim its own module doc makes —
 	// and `shinSinDotRestore` and `vkhGereshRestore` only ever add.
 	['impossible-dagesh', 12, 13],
+	// THE THIRTEENTH, the residue sweep's own, 2026-09-06.
+	// `gereshApostropheGershayim` replaces the TWO codepoints `׳'` with
+	// the ONE codepoint `״`, so a multiset reads each of its 25
+	// occurrences as two deletions and one addition — 20 entries, 50
+	// codepoints. Not a substitution like the twelfth, which loses one
+	// and gains one; this genuinely leaves the text a codepoint shorter
+	// per occurrence, which is why the rule declares `removes` even
+	// though nothing in its phase reads the declaration.
+	//
+	// MEASURED on this file's own COMPOSED walk, not derived from the
+	// substitution: the rule runs after `gershayimInBody`, which also
+	// writes `״`, and only the composed pass says what is left for it
+	// to do.
+	['geresh-apostrophe-as-gershayim', 20, 50],
 ];
 
 interface Tally {
@@ -131,7 +145,7 @@ const measured = (): Promise<Map<string, Tally>> => {
 	return pending;
 };
 
-it('finds exactly the twelve text-repairs rules that delete text', async () => {
+it('finds exactly the thirteen text-repairs rules that delete text', async () => {
 	const report = await measured();
 	expect([...report.keys()].sort()).toEqual(BASELINE.map(([id]) => id).sort());
 }, 900_000);
@@ -146,11 +160,12 @@ it('holds each of them at its measured deletion', async () => {
 });
 
 // The number the spec quotes, asserted rather than left as prose.
-it('totals 4,523 deleted codepoints', async () => {
+// 4,523 → 4,573 on 2026-09-06: the thirteenth rule's 50.
+it('totals 4,573 deleted codepoints', async () => {
 	const report = await measured();
 	let total = 0;
 	for (const tally of report.values()) {
 		total += tally.chars;
 	}
-	expect(total).toBe(4523);
+	expect(total).toBe(4573);
 });

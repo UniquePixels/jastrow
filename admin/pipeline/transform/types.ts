@@ -212,6 +212,76 @@ interface TransformResult {
 	 * `shin-sin.corpus.test.ts`. Neither half is sufficient alone — the
 	 * same split case 8 states, and [[feedback_vacuous_gates]] is about
 	 * mistaking one for both. */
+	/** Anchors this call MINTED around a bare anaphor, targeted by
+	 * COPY (link-target gate case 10, spec
+	 * `docs/specs/2026-09-06-link-target-gate-case-10.md`). `target` is
+	 * the `data-ref` written on the new anchor; `display` is the text it
+	 * now wraps; `field` is one of this entry's own INPUT fields,
+	 * verbatim, and `from` is the token index within that field's own
+	 * input tokenization of the opening tag of the anchor the target was
+	 * copied from.
+	 *
+	 * **THIS IS THE ONLY CASE THAT LETS THE ANCHOR COUNT GROW.** Every
+	 * other case judges a target a rule WROTE onto an anchor the entry
+	 * already had; the spec's second counting invariant — "anchors never
+	 * grow" — refused this shape outright, and it encoded batch 2's
+	 * scope ruling (`2026-08-22-link-transform-design.md` §1, *batch 2
+	 * is retarget only*) rather than a safety property. Ruled in by
+	 * Brian on 2026-09-06, on the precedent that the 2026-08-05 body
+	 * review approved wrapping unlinked ibid citations
+	 * (`docs/v2/body-review/02-orphan-refs.md` class 2, "ALL Approved")
+	 * — the "show only what Jastrow linked" principle was written in
+	 * that review's class 3, about refs with no in-body basis.
+	 *
+	 * `link-target.ts` accepts a claim only when all five hold:
+	 *
+	 * 1. The declaring rule id is on `MINT_DECLARERS`.
+	 * 2. `display`, trimmed, is exactly `Ib.` or `ib.` — the closed set
+	 *    `anaphora.ts`'s `ANAPHOR` matches on the anchored side.
+	 *    `Ibid.` is deliberately excluded: 17 corpus occurrences, none
+	 *    sized, and an unmeasured licence is one not to grant.
+	 * 3. `field` is one of this entry's input fields verbatim, and
+	 *    `display` occurs in it OUTSIDE every anchor of that field —
+	 *    which is what makes this a mint rather than a re-wrap.
+	 * 4. The input anchor at token index `from` of that field exists, is
+	 *    usable, and its `dataRef` is `target` BYTE FOR BYTE. Every
+	 *    output anchor the claim matches must carry that anchor's `href`
+	 *    too. No prefix, no composition, no truncation.
+	 * 5. That anchor CLOSES BEFORE the token holding `display`.
+	 *
+	 * Plus two entry-wide reconciliations: the anchor-count equation
+	 * `source − output === (unlinks ?? 0) − minted.length`, and the
+	 * count of anaphor-display anchors growing by exactly
+	 * `minted.length`.
+	 *
+	 * **CLAUSE 5 IS *PRECEDES*, NOT *NEAREST*, AND THAT IS DELIBERATE.**
+	 * "The nearest preceding anchor that is a citation, is not a
+	 * `Jastrow, …` cross-reference, and has no unanchored citation
+	 * between it and the anaphor" is the RULE's judgement, which
+	 * `anaphora.ts` owns. A gate adopting it would rubber-stamp any
+	 * later widening of it — the failure case 7 records for
+	 * `VARIANT_DISPLAY`. Measured cost (spec §4): the clauses take the
+	 * licence from ~4,300 (span, target) pairs per entry to ~9, and not
+	 * to 1. **What covers the residual nine is ATTRIBUTION, not
+	 * safety**, exactly as in case 7: a wrong mint names the input
+	 * anchor it copied from, cited by field and token index, so it is a
+	 * wrong claim with a rule's name on it. Whether the right one of the
+	 * nine was chosen belongs to the rule and its corpus test — see
+	 * [[feedback_vacuous_gates]].
+	 *
+	 * **WHAT THIS CASE STILL CANNOT SEE.** A rule that unlinks one
+	 * anaphor anchor and mints another nets to zero on BOTH
+	 * reconciliations and passes declaring nothing. That is narrower
+	 * than the delete-one/create-one blind spot already on this gate's
+	 * list — which any anchor pair could satisfy — but it is not
+	 * closed. Closing it needs anchor IDENTITY matching across a
+	 * rewrite, which no case here does. */
+	minted?: readonly {
+		display: string;
+		field: string;
+		from: number;
+		target: string;
+	}[];
 	pointed?: readonly { adds?: string; from: string; target: string }[];
 	/** Link targets this call REBUILT from two other targets in this
 	 * entry's input (batch-2 link spec §3.2 case 4, ruling of

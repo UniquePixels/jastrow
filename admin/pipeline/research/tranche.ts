@@ -41,7 +41,6 @@ import type { SourceEntry } from '../body/types.ts';
 import { PATCH_ID, type SemanticPatch } from '../patch/schema.ts';
 import { type AnomalyHint, entryAnomalyHints } from './anomalies.ts';
 import {
-	buildCheckpoint,
 	buildTranches,
 	byCodeUnit,
 	type Chunk,
@@ -50,6 +49,7 @@ import {
 	loadCheckpoint,
 	markComplete,
 	pendingChunks,
+	resolveCheckpoint,
 	saveCheckpoint,
 	type Tranche,
 } from './chunks.ts';
@@ -168,9 +168,15 @@ async function nextPending(
 	fingerprint: string,
 ): Promise<{ pending: Chunk[]; tranche: Tranche }> {
 	for (const tranche of tranches) {
-		const checkpoint =
-			(await loadCheckpoint(tranche.id)) ??
-			buildCheckpoint(tranche, fingerprint);
+		const stored = await loadCheckpoint(tranche.id);
+		const checkpoint = resolveCheckpoint(stored, tranche, fingerprint);
+		// Persist a carry-forward the moment it is decided. `ingest`
+		// resolves the checkpoint again from disk, and if the re-cut
+		// were left unwritten it would append this batch's chunk ids
+		// to the superseded chunking's list.
+		if (stored !== undefined && checkpoint !== stored) {
+			await saveCheckpoint(checkpoint);
+		}
 		const pending = pendingChunks(tranche, checkpoint, fingerprint);
 		if (pending.length > 0) {
 			return { pending, tranche };
@@ -366,6 +372,21 @@ async function accumulateTranche(args: {
 	const dir = `${TRANCHES_DIR}/${args.trancheId}`;
 	const mine = (rid: string): boolean =>
 		args.chunkIds.some((c) => inChunk(tranches, c, rid));
+	const tranche = tranches.find((t) => t.id === args.trancheId);
+	if (tranche === undefined) {
+		throw new Error(`unknown tranche ${args.trancheId}`);
+	}
+	// Resolve every chunk id BEFORE any file is touched: a request
+	// mixing valid and unknown ids must fail atomically, not append
+	// the valid records and throw, which would leave a retry to
+	// re-append them and duplicate rows.
+	const chunks = args.chunkIds.map((chunkId) => {
+		const chunk = tranche.chunks.find((c) => c.id === chunkId);
+		if (chunk === undefined) {
+			throw new Error(`unknown chunk ${chunkId} in ${args.trancheId}`);
+		}
+		return chunk;
+	});
 	const append = async (
 		file: string,
 		lines: readonly unknown[],
@@ -387,15 +408,13 @@ async function accumulateTranche(args: {
 		'rejects.jsonl',
 		args.rejects.filter((r) => mine(r.rid)),
 	);
-	const tranche = tranches.find((t) => t.id === args.trancheId);
-	if (tranche === undefined) {
-		throw new Error(`unknown tranche ${args.trancheId}`);
-	}
-	let checkpoint =
-		(await loadCheckpoint(args.trancheId)) ??
-		buildCheckpoint(tranche, fingerprint);
-	for (const chunkId of args.chunkIds) {
-		checkpoint = markComplete(checkpoint, chunkId);
+	let checkpoint = resolveCheckpoint(
+		await loadCheckpoint(args.trancheId),
+		tranche,
+		fingerprint,
+	);
+	for (const chunk of chunks) {
+		checkpoint = markComplete(checkpoint, chunk);
 	}
 	await saveCheckpoint(checkpoint);
 	console.log(

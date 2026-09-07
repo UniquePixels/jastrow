@@ -1,7 +1,7 @@
 import { expect, it } from 'bun:test';
 import type { SourceEntry } from '../body/types.ts';
 import { tokenize } from './html.ts';
-import { checkLinkTargets } from './link-target.ts';
+import { checkLinkTargets, checkMintClauses } from './link-target.ts';
 import { anchors } from './links.ts';
 import { fieldsOf } from './no-new-text.ts';
 import { applyTransforms } from './run.ts';
@@ -2139,4 +2139,230 @@ it('case 9 refuses a target that lost a point', () => {
 	).toEqual([
 		`pointed ${JSON.stringify(S_BAD)} drops "ׁ" from ${JSON.stringify(S_GOOD)}`,
 	]);
+});
+
+// ======== Case 10 — a minted anchor around a bare anaphor ========
+//
+// Clause 1 is tested through `checkLinkTargets`, which is the only
+// case-10 behaviour reachable for a rule id `MINT_DECLARERS` does not
+// admit. Clauses 2-7 go through `checkMintClauses`, which applies
+// every clause BUT the declarer — see its docstring for why that
+// split exists.
+//
+// Each clause has a pair: a claim that satisfies it, and the same claim
+// with that clause alone broken. A fixture that only ever passes proves
+// the clause is present, not that it does anything.
+
+/** The input every case-10 fixture starts from: one anchored citation,
+ * then a BARE `Ib.` in the text after it. */
+const mintBefore = entry(`${A('Shabbat 30b', 'Sabb. 30ᵇ')} Ib. and more`);
+/** The same entry with that `Ib.` wrapped, target copied whole. */
+const mintAfter = entry(
+	`${A('Shabbat 30b', 'Sabb. 30ᵇ')} ${A('Shabbat 30b', 'Ib.')} and more`,
+);
+/** The definition field of a fixture entry. `fieldsOf` walks a fixed
+ * six-slot structure (`headword` first, `definition` last), so this is
+ * read by position from the END rather than by a literal index — an
+ * earlier cut hard-coded `[1]`, which is `alt_headwords`, and every
+ * clause fixture failed for the same wrong reason. */
+const defOf = (source: SourceEntry): string => fieldsOf(source).at(-1) ?? '';
+/** The opening-tag token index of that field's first anchor. */
+const firstOpen = (field: string): number =>
+	anchors(tokenize(field)).at(0)?.open ?? -1;
+
+const mintField = defOf(mintBefore);
+const sourceOpen = firstOpen(mintField);
+type MintClaim = Parameters<typeof checkMintClauses>[2][number];
+
+/** The well-formed claim for `mintBefore` → `mintAfter`, with one
+ * field optionally broken so a fixture can withhold exactly one
+ * clause. Named `mintClaim` rather than `claim`, which is a parameter
+ * name already in use above. */
+const mintClaim = (extra: Partial<MintClaim> = {}): MintClaim[] => [
+	{
+		display: 'Ib.',
+		field: mintField,
+		from: sourceOpen,
+		target: 'Shabbat 30b',
+		...extra,
+	},
+];
+
+it('case 10: an undeclared mint still fails the count invariant', () => {
+	expect(checkLinkTargets(mintBefore, mintAfter, result(mintAfter))).toEqual([
+		'anchor count grew 1 → 2 in T00001',
+	]);
+});
+
+it('case 10: clause 1 refuses a declared mint from an unlisted rule', () => {
+	// `'ib-anaphora-mint'` is not the one id `MINT_DECLARERS` admits, so
+	// the arm is refused as a group before a clause is read.
+	expect(
+		checkLinkTargets(
+			mintBefore,
+			mintAfter,
+			result(mintAfter, { minted: mintClaim() }),
+			'ib-anaphora-mint',
+		),
+	).toEqual([
+		'1 minted anchor declared by "ib-anaphora-mint", which case 10\'s declarer allowlist does not admit',
+	]);
+});
+
+it('case 10: clause 1 refuses a mint from no named rule at all', () => {
+	expect(
+		checkLinkTargets(
+			mintBefore,
+			mintAfter,
+			result(mintAfter, { minted: mintClaim() }),
+		),
+	).toEqual([
+		"1 minted anchor declared by no named rule, which case 10's declarer allowlist does not admit",
+	]);
+});
+
+it('case 10: a well-formed claim satisfies clauses 2-7', () => {
+	expect(checkMintClauses(mintBefore, mintAfter, mintClaim())).toEqual([]);
+});
+
+it('case 10: clause 2 refuses a display that is not a bare anaphor', () => {
+	const after = entry(
+		`${A('Shabbat 30b', 'Sabb. 30ᵇ')} ${A('Shabbat 30b', 'and')} more`,
+	);
+	// `Ibid.` is excluded on purpose, and so is anything else.
+	expect(
+		checkMintClauses(mintBefore, after, mintClaim({ display: 'and' })),
+	).toContain('minted anchor "and" → "Shabbat 30b" is not a bare anaphor');
+});
+
+it('case 10: clause 2 refuses `Ibid.`, one form wider than the anaphor', () => {
+	expect(
+		checkMintClauses(mintBefore, mintAfter, mintClaim({ display: 'Ibid.' })).at(
+			0,
+		),
+	).toBe('minted anchor "Ibid." → "Shabbat 30b" is not a bare anaphor');
+});
+
+it('case 10: clause 3 refuses a field the input does not hold', () => {
+	expect(
+		checkMintClauses(
+			mintBefore,
+			mintAfter,
+			mintClaim({ field: 'not a field' }),
+		),
+	).toEqual([
+		'minted anchor "Ib." → "Shabbat 30b" names a field this entry\'s input does not hold',
+	]);
+});
+
+it('case 10: clause 3 refuses text lifted out of an existing anchor', () => {
+	// The display is an anaphor and the target is the source's own, but
+	// the input never carried `Ib.` outside an anchor in this field — so
+	// this is a RE-WRAP, which is what clause 3 exists to refuse.
+	const rewrapBefore = entry(
+		`${A('Shabbat 30b', 'Sabb. 30ᵇ')} ${A('Yoma 2a', 'Ib.')} and more`,
+	);
+	const rewrapAfter = entry(
+		`${A('Shabbat 30b', 'Sabb. 30ᵇ')} ${A('Shabbat 30b', 'Ib.')} ${A('Shabbat 30b', 'Ib.')} and more`,
+	);
+	const field = defOf(rewrapBefore);
+	const open = firstOpen(field);
+	expect(
+		checkMintClauses(rewrapBefore, rewrapAfter, [
+			{ display: 'Ib.', field, from: open, target: 'Shabbat 30b' },
+		]),
+	).toContain(
+		'minted anchor "Ib." → "Shabbat 30b" wraps no bare text following its source anchor',
+	);
+});
+
+it('case 10: clause 4 refuses a target the named anchor does not carry', () => {
+	const after = entry(
+		`${A('Shabbat 30b', 'Sabb. 30ᵇ')} ${A('Yoma 2a', 'Ib.')} and more`,
+	);
+	expect(
+		checkMintClauses(mintBefore, after, mintClaim({ target: 'Yoma 2a' })),
+	).toContain(
+		'minted anchor "Ib." → "Yoma 2a" was copied from an anchor carrying "Shabbat 30b"',
+	);
+});
+
+it('case 10: clause 4 refuses an href that went somewhere else', () => {
+	const after = entry(
+		`${A('Shabbat 30b', 'Sabb. 30ᵇ')} <a class="refLink" href="/Yoma.2a" data-ref="Shabbat 30b">Ib.</a> and more`,
+	);
+	expect(checkMintClauses(mintBefore, after, mintClaim())).toContain(
+		'minted anchor "Ib." → "Shabbat 30b" wrote href "/Yoma.2a", not its source\'s "/Shabbat_30b"',
+	);
+});
+
+it('case 10: clause 4 refuses a token index naming no usable anchor', () => {
+	expect(
+		checkMintClauses(mintBefore, mintAfter, mintClaim({ from: 99 })),
+	).toEqual([
+		'minted anchor "Ib." → "Shabbat 30b" names no usable input anchor at token 99',
+	]);
+});
+
+it('case 10: clause 5 refuses a source anchor that follows the mint', () => {
+	// The bare `Ib.` comes FIRST here, so the only anchor in the input
+	// closes after it and cannot be what an ibidem refers back to.
+	const backwards = entry(`Ib. and ${A('Shabbat 30b', 'Sabb. 30ᵇ')}`);
+	const wrapped = entry(
+		`${A('Shabbat 30b', 'Ib.')} and ${A('Shabbat 30b', 'Sabb. 30ᵇ')}`,
+	);
+	const field = defOf(backwards);
+	const open = firstOpen(field);
+	expect(
+		checkMintClauses(backwards, wrapped, [
+			{ display: 'Ib.', field, from: open, target: 'Shabbat 30b' },
+		]),
+	).toContain(
+		'minted anchor "Ib." → "Shabbat 30b" wraps no bare text following its source anchor',
+	);
+});
+
+it('case 10: clause 7 refuses an anaphor anchor beyond the declaration', () => {
+	// Two anaphors wrapped, one declared — the shape clause 6's equation
+	// alone would let through if the rule also unlinked something.
+	const twoBefore = entry(`${A('Shabbat 30b', 'Sabb. 30ᵇ')} Ib. then Ib.`);
+	const twoAfter = entry(
+		`${A('Shabbat 30b', 'Sabb. 30ᵇ')} ${A('Shabbat 30b', 'Ib.')} then ${A('Shabbat 30b', 'Ib.')}`,
+	);
+	const field = defOf(twoBefore);
+	const open = firstOpen(field);
+	expect(
+		checkMintClauses(twoBefore, twoAfter, [
+			{ display: 'Ib.', field, from: open, target: 'Shabbat 30b' },
+		]),
+	).toContain('anaphor anchors grew by 2 in T00001, declared 1');
+});
+
+it('case 10: clause 6 leaves every mint-free rule byte identical', () => {
+	// The positive control for "nothing was re-audited to land this".
+	// These four messages are the pre-case-10 wordings, asserted above
+	// in this file, and they must survive the equation replacing the
+	// two branches that produced them.
+	const dropped = entry(A('Shabbat 30b', 'Sabb. 30ᵇ'));
+	expect(checkLinkTargets(before, dropped, result(dropped))).toEqual([
+		'removed 1 anchor in T00001, declared 0',
+	]);
+	expect(
+		checkLinkTargets(before, dropped, result(dropped, { unlinks: 2 })),
+	).toEqual(['removed 1 anchor in T00001, declared 2']);
+	expect(checkLinkTargets(mintBefore, mintAfter, result(mintAfter))).toEqual([
+		'anchor count grew 1 → 2 in T00001',
+	]);
+});
+
+it('case 10: a claim matching no output anchor licenses nothing', () => {
+	// Two holes in one clause. Without it, a claim that speaks to no
+	// anchor still licenses its `+1` through the count equation; and a
+	// claim could cite a bare `Ib.` in one field to license an anchor
+	// minted in another.
+	expect(
+		checkMintClauses(mintBefore, mintAfter, mintClaim({ display: 'ib.' })),
+	).toContain(
+		'minted anchor "ib." → "Shabbat 30b" matches no output anchor in the field it names',
+	);
 });

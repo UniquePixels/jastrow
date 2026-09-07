@@ -39,21 +39,171 @@ import {
 	sweepRids,
 } from './residue-sweep.ts';
 
-/** The population figures this change was scoped against, measured on
- * `v2` at f668102. A move in any of them is a real change to what
- * item 3 sweeps and must be read, not re-baselined. */
-const RESIDUE: number = 4047;
-const ADJUDICATED_COUNT: number = 65;
-const SWEEP: number = RESIDUE - ADJUDICATED_COUNT;
-/** Sweep entries whose TEXT a transform rewrote — 52.6%.
+/** The population figures this change was scoped against. A move in
+ * any of them is a real change to what item 3 sweeps and must be
+ * read, not re-baselined.
  *
- * The predicate is byte difference, not "a rule fired": 2,137 sweep
- * entries produce a transform record and **2,093 of them come out
- * different**, the other 44 recording a claim that changes nothing a
- * reader or an agent could see. The bytes are what matters here,
+ * Re-baselined ONCE, deliberately, on 2026-09-04: the
+ * `alt_headwords` carve-out in link-anomalies.ts took
+ * `one-consonant-diverge` from 817 entries to 750, and 57 residue
+ * entries lost their only hint with it. Those hints were licensed by
+ * sweep-v5 class 11 — the display is a spelling the target's own
+ * entry records — so the sweep had been paying Opus to reject them
+ * one at a time. Original figures, measured on `v2` at f668102:
+ * RESIDUE 4047, ADJUDICATED 65, TOUCHED 2093.
+ *
+ * Re-baselined a THIRD time, 2026-09-05, for the new
+ * `own-form-escape-link` rule (link-anomalies.ts). Previous figures:
+ * RESIDUE 3552, TOUCHED 1825. The rule ADDS 205 entries whose only
+ * hint is the new kind; none had been swept, which is tautological
+ * rather than reassuring — an already-swept entry was already in the
+ * residue, so its hints cannot be only the new kind. The audit that
+ * matters is the adjudicated fixture below, not this count.
+ *
+ * Re-baselined a FOURTH time, 2026-09-05, for batch 05's two
+ * headword-normalization fixes. Previous figure: RESIDUE 3757.
+ *
+ * The move is +2, and it is four entries, not two. Both residue
+ * populations were computed from the production `residueRids` — one
+ * in a worktree at the pre-fix commit, one here — and the rid sets
+ * differenced, because a count cannot be differenced:
+ *
+ * - **B00443 LEFT.** The `own-form-escape-link` false positive the
+ *   comma fix was aimed at. Its old hint text printed the bug in
+ *   plain sight: `own inflected form of בִּזְיוּנָא ,`.
+ * - **B00017, B00411 and B00457 ENTERED**, each on a NEW
+ *   `exact-headword-diverge`: all three display `בְּזָא` and target
+ *   `בְּזֵי`. They had **zero** hints before. `בְּזָא  I, II,` (B00407)
+ *   used to base to itself, comma and all, so the display was never
+ *   recognized as a headword and the rule could not fire.
+ *
+ * So a malformed base was BLINDING a detector, and the fix is worth
+ * more than the false positive it was written for: -1 wrong hint,
+ * +3 candidates nothing had ever been able to see. Whether those
+ * three are real mislinks is the sweep's question, not this file's.
+ *
+ * Re-baselined a FIFTH time, 2026-09-06, for the `buildHeadwordIndex`
+ * merge fix (batch 06, chunk-r00023). Previous figure: RESIDUE 3759.
+ *
+ * `recordedSkeletons` and `redirect` were overwriting where four
+ * sibling maps in the same loop merged, so a homograph family
+ * collapsed to one key and the last entry written won. **The
+ * exposure and the effect are very different sizes, and the gap is
+ * the point:** 2,053 base keys carry two or more entries and 2,434
+ * entries were losing their contribution, but only two rules read
+ * these maps and only three hints actually change.
+ *
+ * Measured by differencing hint IDENTITIES (rid + kind + detail), not
+ * counts, over both trees: **3 suppressed, 0 added.** All three are
+ * `own-form-escape-link`, and all three are correct suppressions —
+ * B01237 (the reporting case: five entries base to `בַּר`, B01153
+ * records `בָּרָא`, B01156 was written last) and T00327/T00329, whose
+ * display `רוּחַ` targets a family where T00615 records `רוּחַ` in its
+ * own `alt_headwords` while T00616 is written later and records
+ * nothing. Each was read before being accepted.
+ *
+ * Only T00327 leaves the residue, because an entry leaves only when
+ * it loses its LAST hint. That is why the residue delta is a bad
+ * measure of a detector change and the hint diff is the good one.
+ *
+ * TOUCHED goes 1,946 -> 1,945 for the same single entry, checked
+ * rather than assumed: T00327's healed content is 7,463 bytes against
+ * 7,442 pre-patch, so it was one of the rewritten ones and the -1 is
+ * accounted for exactly.
+ *
+ * Re-baselined a SIXTH time, 2026-09-06: `inflection-escape-link`
+ * gained the redirect-stub exemption `own-form-escape-link` had
+ * carried since it shipped. Previous figure: RESIDUE 3,758.
+ *
+ * Hint diff over both trees: **52 suppressed, 0 added**, every one
+ * `inflection-escape-link`. The suppression was audited rather than
+ * accepted — for all 49 of the 52 whose target this check could
+ * resolve, **the target's entire content is a bare `, v. X` redirect
+ * stub pointing back at the host**, so the reader lands home and
+ * nothing escapes. Two of the 52 are named controls nobody planted:
+ * batch 05's sweep agents independently reported A03081 and B00062 as
+ * false positives of exactly this shape, and both are suppressed here.
+ *
+ * 29 entries lose their LAST hint and leave the population. Six had
+ * been swept: four came back `clean`, and A01049 and A03081 carry
+ * `needs_print_check` escalations that are ALREADY RECORDED, so no
+ * finding is lost by dropping them. The cost is the other 23, which
+ * have never been swept — the same cost the `rare-dotted-variant`
+ * guard paid above, and it is a real one: the hint was wrong in every
+ * case, but an agent reading the entry found something unrelated in
+ * two of the six.
+ *
+ * TOUCHED goes 1,945 -> 1,929: 16 of the 29 dropouts moved. That was
+ * checked against the TEST's own predicate — whole entry against
+ * `repairedEntries()` — after a first probe comparing only `.content`
+ * against `loadPrePatchCorpus()` returned 13 and looked like a
+ * discrepancy. It was the probe that was wrong. A re-baseline is only
+ * as good as the predicate it reproduces.
+ *
+ * Re-baselined a SECOND time, 2026-09-04, for the
+ * `rare-dotted-variant` bare-word guard (`maxBareForRare`, see
+ * anomalies.ts). Previous figures: RESIDUE 3838, TOUCHED 1988.
+ *
+ * The move was audited rather than accepted. Running `residueRids`
+ * twice over one healed corpus — the old behaviour restored by
+ * mutating `ABBREV_THRESHOLDS`, so both populations come from the
+ * production code path — gives **288 dropped, 2 gained**, and
+ * `rare-dotted-variant` was the ONLY hint kind any of the 288 had.
+ * The guard removed exactly the class it was aimed at and nothing
+ * else.
+ *
+ * What the dropouts are worth, measured against the four archived
+ * manifests: 20 of the 288 have been swept at least once. 17 came
+ * back `clean`; the other three (A00446, A01311, A01525) carry real
+ * escalations that are **already recorded**, so no finding is lost by
+ * dropping them. On that sample the class is ~85% clean, which is the
+ * case for the guard.
+ *
+ * The cost is the other 268, which have never been swept. If the 15%
+ * rate holds, roughly 40 of them hold something a sweep would have
+ * found — not from the hint, which was wrong, but from an agent
+ * reading the entry it bought a ticket into. That is a real loss and
+ * it is the reason this comment exists: the entries are gone from the
+ * population, not merely un-hinted. Separating "worth sweeping" from
+ * "has a hint" would keep them, and would mean this file's
+ * every-entry-carries-a-hint invariant no longer holds. */
+const RESIDUE: number = 3729;
+const ADJUDICATED_COUNT: number = 61;
+const SWEEP: number = RESIDUE - ADJUDICATED_COUNT;
+/** Sweep entries whose TEXT a transform rewrote — 55.5% of 3,668.
+ *
+ * The predicate is byte difference, not "a rule fired": at the 3,696
+ * cut, 2,137 sweep entries produced a transform record and **2,093
+ * came out different**, the other 44 recording a claim that changes
+ * nothing a reader or an agent could see. That pair has NOT been
+ * recomputed since; only the ratio above tracks the current
+ * population. The bytes are what matters here,
  * because the question this number answers is how much of the
- * population an agent would read differently. */
-const TOUCHED: number = 2093;
+ * population an agent would read differently.
+ *
+ * 1,930 -> 2,037 on 2026-09-06, for `unlinked-bare-anaphor`. **+107**,
+ * and unlike the +1 below this is a population rather than an entry to
+ * name: the rule mints 2,119 anchors across 1,750 entries corpus-wide,
+ * and 107 of the sweep's entries had been byte-identical to pre-patch
+ * until it ran. The other sweep entries it touches were already moved
+ * by some other rule.
+ *
+ * It is the largest single move this number has made, and it is the
+ * one an agent would most notice: an entry gains an `<a>` around an
+ * `Ib.` that used to be plain text, so an agent re-reading it sees a
+ * resolved citation where it saw none. That is the whole point of this
+ * figure — how much of the population reads differently.
+ *
+ * 1,929 -> 1,930 on 2026-09-06, for `geresh-apostrophe-as-gershayim`.
+ * The rule touches 20 entries, 8 of them in the sweep, and only ONE
+ * moves this number: the other 7 already differed from pre-patch
+ * under other rules. The one is **A02072** — which is the entry the
+ * residue sweep found the defect in (batch 04). Identified rather
+ * than inferred: running the rule ALONE on each of the 8 pre-patch
+ * entries reproduces the healed entry byte for byte on A02072 and on
+ * none of the others, so on those seven the rule is not the whole of
+ * the difference. */
+const TOUCHED: number = 2037;
 
 /** One healed corpus, its tables and its sweep list, built once for
  * the whole file, **from the production function**.
@@ -98,6 +248,14 @@ async function buildHealed(): Promise<Healed> {
 	const corpus = await healedCorpus();
 	const tables = buildTables([...corpus.values()]);
 	return { corpus, rids: sweepRids(residueRids(corpus, tables)), tables };
+}
+
+/** The residue itself — before `sweepRids` takes the adjudicated out
+ * of it. The re-derivation test needs the unfiltered set to ask
+ * whether a derived rid is still flagged at all. */
+async function residueOnly(): Promise<string[]> {
+	const { corpus, tables } = await healed();
+	return residueRids(corpus, tables);
 }
 
 function healed(): Promise<Healed> {
@@ -183,7 +341,7 @@ describe('the sweep population', () => {
 });
 
 describe('HEALED IS NOT PRE-PATCH — the regression this module exists to prevent', () => {
-	it('rewrites 2,093 of the sweep entries, so a revert to pre-patch cannot pass', async () => {
+	it('rewrites 2,037 of the sweep entries, so a revert to pre-patch cannot pass', async () => {
 		const { corpus, rids } = await healed();
 		const pre = new Map(
 			(await repairedEntries()).map((e) => [e.rid, JSON.stringify(e)]),
@@ -217,8 +375,16 @@ describe('HEALED IS NOT PRE-PATCH — the regression this module exists to preve
 	}, 120_000);
 });
 
+/** Detector kinds that did not exist when phase 2.3 items 1 and 2 were
+ * adjudicated (2026-09-03), and so cannot be part of re-deriving what
+ * was adjudicated. `own-form-escape-link` shipped 2026-09-05 and added
+ * 33 entries to item 1, doubling it to 66 — every one unadjudicated
+ * and belonging IN the sweep, so counting them would have silently
+ * excluded 33 entries nobody has read. */
+const POST_ADJUDICATION = 'own-form-escape-link';
+
 describe('ADJUDICATED re-derives from the detector', () => {
-	it('is exactly the 35 created-hint entries union the 31 roman ones', async () => {
+	it('is exactly the 33 created-hint entries union the 31 roman ones', async () => {
 		// The POST side is the memo's — rebuilding it here would be
 		// three more corpus-wide table passes for an identical result,
 		// on a tier already close to the runner wall.
@@ -233,8 +399,28 @@ describe('ADJUDICATED re-derives from the detector', () => {
 		// Item 1: hints the rules created. Two readings, because the
 		// fixed-table one cannot see a link hint a headword repair
 		// creates — the argument is in phase-2-created-hints.md.
-		const item1 = new Set(gains(before, fixed).keys());
-		const linkKinds = new Set<string>(LINK_KINDS);
+		// Both clauses read the kinds AS OF THE ADJUDICATION, so a
+		// detector rule written afterwards cannot retroactively enlarge
+		// what was adjudicated. See the note on `linkKinds` below.
+		const item1 = new Set(
+			[...gains(before, fixed)]
+				.filter(([, keys]) => keys.some((k) => kindOf(k) !== POST_ADJUDICATION))
+				.map(([rid]) => rid),
+		);
+		// The link kinds AS OF THE ADJUDICATION (phase 2.3 items 1 and
+		// 2, 2026-09-03), not as of today. This clause asks which hints
+		// the TRANSFORM RULES created, so a detector rule written after
+		// the adjudication cannot have contributed to it — and the 61
+		// entries ADJUDICATED excludes from the sweep were ruled on
+		// without it. `own-form-escape-link` (2026-09-05) added 33
+		// entries here and doubled item 1 to 66; every one of them is
+		// unadjudicated and belongs IN the sweep, so excluding them
+		// would have silently dropped 33 entries nobody has read.
+		// A kind added to LINK_KINDS in future needs a deliberate
+		// decision here, which is why this list is spelled out.
+		const linkKinds = new Set<string>(
+			LINK_KINDS.filter((k) => k !== POST_ADJUDICATION),
+		);
 		for (const [rid, keys] of gains(before, after)) {
 			if (keys.some((k) => linkKinds.has(kindOf(k)))) {
 				item1.add(rid);
@@ -247,10 +433,138 @@ describe('ADJUDICATED re-derives from the detector', () => {
 				item2.add(rid);
 			}
 		}
-		expect(item1.size).toBe(35);
+		expect(item1.size).toBe(33);
 		expect(item2.size).toBe(31);
-		expect([...new Set([...item1, ...item2])].sort(byCodeUnit)).toEqual([
-			...ADJUDICATED,
-		]);
+
+		// The derivation and the exclusion list are computed against
+		// DIFFERENT corpus states, and since 2026-09-04 they disagree
+		// by exactly two entries. Item 1 asks "did the rules create
+		// this hint", which it answers with the PRE-patch tables; the
+		// residue asks "does the detector still flag this entry",
+		// which `residueRids` answers with the HEALED ones. The
+		// `alt_headwords` carve-out fires only on the healed side, so
+		// `T00173` and later `A01672` are derived here and are no
+		// longer in the residue.
+		// ADJUDICATED excludes entries FROM THE SWEEP, so it carries
+		// the intersection — an entry the sweep will never reach needs
+		// no exclusion, and `sweepRids` throws if one lingers.
+		//
+		// Naming the straggler rather than filtering it silently is
+		// the point: a second divergence fails this test.
+		const derived = new Set([...item1, ...item2]);
+		const inResidue = new Set(await residueOnly());
+		const outsideResidue = [...derived]
+			.filter((rid) => !inResidue.has(rid))
+			.sort(byCodeUnit);
+		expect(outsideResidue).toEqual(['A01672', 'T00173']);
+		expect(
+			[...derived].filter((rid) => inResidue.has(rid)).sort(byCodeUnit),
+		).toEqual([...ADJUDICATED]);
 	}, 180_000);
+});
+
+/** The adjudicated fixture for `own-form-escape-link`.
+ *
+ * 20 anchors from the inflection residue, read by two independent Opus
+ * adjudicators on 2026-09-05, each verdict grounded in the target
+ * entry's own corpus text (docs/v2/phase-2-inflection-gap.md). 10 are
+ * real defects, 10 are correct links.
+ *
+ * This is the only gate on the rule that is not synthetic, and it is
+ * IN-SAMPLE: the discriminator was derived from these same 20, so the
+ * score below is a floor on how badly the rule can regress, not an
+ * estimate of how it performs on unseen anchors. Nothing has measured
+ * that yet. */
+const ADJUDICATED_ANCHORS: readonly [string, string, boolean][] = [
+	['A00277', 'אֵגוֹרִים', true],
+	['B00178', 'בָּהוּל', true],
+	['C00271', 'גּוּבֵּי', true],
+	['C01262', 'גַּרְגְּרָנִיתָא', false],
+	['H00109', 'חֲבֵרוֹת', false],
+	['H01889', 'חֲתִימָתָא', true],
+	['K00055', 'כִּבְשָׁא', false],
+	['K01065', 'כְּפָתַיָּא', true],
+	['M01430', 'מַכְסַנְיָיתָא', false],
+	['M02523', 'מַרְגַּלְיָיתָא', false],
+	['N00891', 'נמרין', false],
+	['O01307', 'סְעָרִין', false],
+	['P00877', 'עַמְרָא', false],
+	['P01484', 'עֲשִׂירִיתָא', false],
+	['Q01030', 'פַּלְטֵירִין', false],
+	['S00652', 'קוּרְקְסַיָּא', true],
+	['T00033', 'רִאשׁוֹנוֹת', true],
+	['T00697', 'רִקּ', true],
+	['U01134', 'שְׁכוּנָן', true],
+	['U02037', 'שָׁרְשִׁין', true],
+];
+
+/** The three anchors the rule is KNOWN not to sort, each for a stated
+ * reason. Pinned so that a change which fixes one, or breaks a fourth,
+ * fails here instead of passing quietly. */
+const KNOWN_FAILURES: ReadonlySet<string> = new Set([
+	// Geresh display: `anchorHints` routes it to `abbrevHint`, and the
+	// exemption is deliberate — the WRONG target רִיקּוּד records רִקּ׳
+	// among its own forms, so the discriminator would answer
+	// "recorded" and clear a real defect.
+	'T00697',
+	// The target records גּוֹבִי, which shares a skeleton with the
+	// host's plural גּוּבֵּי while being a different word. The same
+	// homograph collision as A02408; not decidable from letters.
+	'C00271',
+	// The host's own text says "(v. next w.)" and the link obeys it.
+	// Correct, but for a reason in the HOST's prose that no comparison
+	// of the two entries' forms can see.
+	'M01430',
+]);
+
+describe('own-form-escape-link against the adjudicated 20', () => {
+	it('reproduces every verdict it is known to be able to sort', async () => {
+		const { corpus, tables } = await healed();
+		const disagreed: string[] = [];
+		let sorted = 0;
+		for (const [rid, display, isDefect] of ADJUDICATED_ANCHORS) {
+			const entry = corpus.get(rid);
+			expect(entry).toBeDefined();
+			const fired = entryAnomalyHints(
+				entry as SourceEntry,
+				tables.abbrev,
+				tables.index,
+				tables.hebrew,
+			).some(
+				(h) => h.kind === 'own-form-escape-link' && h.detail.includes(display),
+			);
+			if (KNOWN_FAILURES.has(rid)) {
+				continue;
+			}
+			if (fired === isDefect) {
+				sorted += 1;
+			} else {
+				disagreed.push(
+					`${rid} '${display}' expected ${isDefect}, got ${fired}`,
+				);
+			}
+		}
+		expect(disagreed).toEqual([]);
+		// Asserted, not inferred: a loop that silently matched nothing
+		// would also produce an empty `disagreed`.
+		expect(sorted).toBe(ADJUDICATED_ANCHORS.length - KNOWN_FAILURES.size);
+	});
+
+	it('still fails the three it is known to fail, for the stated reasons', async () => {
+		const { corpus, tables } = await healed();
+		for (const rid of KNOWN_FAILURES) {
+			const row = ADJUDICATED_ANCHORS.find(([r]) => r === rid);
+			expect(row).toBeDefined();
+			const [, display, isDefect] = row as [string, string, boolean];
+			const fired = entryAnomalyHints(
+				corpus.get(rid) as SourceEntry,
+				tables.abbrev,
+				tables.index,
+				tables.hebrew,
+			).some(
+				(h) => h.kind === 'own-form-escape-link' && h.detail.includes(display),
+			);
+			expect(fired).not.toBe(isDefect);
+		}
+	});
 });

@@ -90,13 +90,36 @@ const SOURCE = 'data/source/jastrow-dictionary.jsonl';
 const RESIDUE_CHUNK_PREFIX = 'chunk-r';
 const RESIDUE_TRANCHE_PREFIX = 'residue-';
 
-/** The 65 residue entries items 1 and 2 already adjudicated: 35
- * carrying a hint the rules created, 31 carrying
- * `roman-numeral-display`, overlapping at I00311 (35 + 31 - 1 = 65).
+/** The 61 residue entries items 1 and 2 already adjudicated, carrying
+ * either a hint the rules created or `roman-numeral-display`,
+ * overlapping at I00311. The corpus gate re-derives both sides and
+ * pins the arithmetic; see `residue-sweep.corpus.test.ts`.
  *
  * Frozen, and re-derived by the corpus gate. Sweeping them again
- * would spend Opus on 65 entries whose disposition is written down,
- * and would invite an agent to contradict a documented judgment. */
+ * would spend Opus on 61 entries whose disposition is written down,
+ * and would invite an agent to contradict a documented judgment.
+ *
+ * **Was 65 (35 + 31 - 1) until 2026-09-04.** `T00173` left the
+ * residue when the `alt_headwords` carve-out landed in
+ * link-anomalies.ts: its only hint was `הַרְגֵּיז` -> `הַרְגֹּוז`,
+ * and `הַרְגֹּוז` records `הַרְגֵּיז` as one of its own headwords
+ * while nothing else in the corpus claims that string — a licensed
+ * variant, not a mislink. An entry carrying no hint cannot be swept,
+ * so excluding it had become vacuous and `sweepRids`' gate said so.
+ * The residue moved 4,047 -> 3,990 and the sweep population
+ * 3,982 -> 3,926 in the same change.
+ *
+ * **Then 63 (33 + 31 - 1), 2026-09-04 batch 01.** `A01672` left for
+ * the same reason once the carve-out became skeleton-level: its only
+ * hint was `הַרְגִּיז` -> `הַרְגֹּוז`, and that target records
+ * `הַרְגֵּיז` — the same consonants, one vowel apart. Residue
+ * 3,990 -> 3,948, sweep 3,926 -> 3,885.
+ *
+ * **Then 61, 2026-09-04 batch 02 fixes.** `A02145` and `H00254` left
+ * when `inflection-escape-link` began consulting the target's own
+ * recorded forms: every suppressed anchor on those two names a form
+ * the target records (`אנונית`, `אנונס`, `חַגְוֵי`, `חוֹגְגִים`).
+ * Residue 3,948 -> 3,838, sweep 3,885 -> 3,777, 130 -> 126 chunks. */
 const ADJUDICATED: readonly string[] = [
 	'A00717',
 	'A00722',
@@ -107,11 +130,9 @@ const ADJUDICATED: readonly string[] = [
 	'A01465',
 	'A01548',
 	'A01619',
-	'A01672',
 	'A01839',
 	'A01904',
 	'A01947',
-	'A02145',
 	'A03060',
 	'A03097',
 	'B00289',
@@ -134,7 +155,6 @@ const ADJUDICATED: readonly string[] = [
 	'G00268',
 	'G00549',
 	'H00091',
-	'H00254',
 	'H00509',
 	'H00582',
 	'H00843',
@@ -158,7 +178,6 @@ const ADJUDICATED: readonly string[] = [
 	'S00114',
 	'S01082',
 	'S01668',
-	'T00173',
 	'U00776',
 	'U01065',
 	'V00586',

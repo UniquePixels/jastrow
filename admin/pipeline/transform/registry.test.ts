@@ -2,8 +2,10 @@ import { describe, expect, it } from 'bun:test';
 import { type Pattern, parsePatterns } from '../research/patterns.ts';
 import {
 	checkAdjacency,
+	checkOrdered,
 	coverage,
 	entangledClusters,
+	ORDERED,
 	PENDING,
 	RULES,
 	unaccountedEdges,
@@ -232,8 +234,15 @@ describe('registry coverage', () => {
 	//   See data/patches/catalogue-audit/never-linked-works.md,
 	//   midrash-petichta.md, unlinked-v-span.md,
 	//   containment-fallback.md and v-sub-redirect-stub.md.
-	it('the catalogue still holds 54 transform rows', () => {
-		expect(coverage(catalogue).total).toBe(54);
+	// 56 since 2026-09-06, in two steps and both ARRIVALS:
+	// `geresh-apostrophe-as-gershayim`, the first row the RESIDUE SWEEP
+	// added rather than a discovery round, and `unlinked-bare-anaphor`,
+	// the first row whose rule CREATES an anchor. Every prior movement
+	// on this number was a departure, so the ledger above reads as
+	// thirteen departures and two additions rather than as a target
+	// drifting.
+	it('the catalogue still holds 56 transform rows', () => {
+		expect(coverage(catalogue).total).toBe(56);
 	});
 
 	it('pending ids all exist in the catalogue', () => {
@@ -519,5 +528,52 @@ describe('unaccountedEdges', () => {
 		];
 		expect(unaccountedEdges(catalogueWithGhost, rules(['a']))).toEqual([]);
 		expect(checkAdjacency(catalogueWithGhost, rules(['a']))).toHaveLength(1);
+	});
+});
+
+describe('ORDERED — intended non-commuting pairs', () => {
+	// The direction is VERIFIED against the shipped registry, not taken
+	// on the declaration's word. Without this, `ORDERED` would be a way
+	// to write down an order rather than a way to enforce one.
+	it('every declaration is satisfied by the registry', () => {
+		expect(checkOrdered()).toEqual([]);
+	});
+
+	it('reports a declaration the registry contradicts', () => {
+		const rules = [{ id: 'late' } as Rule, { id: 'early' } as Rule];
+		expect(
+			checkOrdered([{ after: 'late', before: 'early', reason: '' }], rules),
+		).toEqual([
+			'ORDERED says early runs before late, but the registry runs it after',
+		]);
+	});
+
+	it('reports an unregistered id rather than passing vacuously', () => {
+		expect(
+			checkOrdered([{ after: 'ghost', before: 'phantom', reason: '' }], []),
+		).toEqual(['ORDERED names unregistered rule(s): phantom, ghost']);
+	});
+
+	it('every declared id is a registered rule', () => {
+		const ids = new Set(RULES.map((rule) => rule.id));
+		for (const row of ORDERED) {
+			expect(ids).toContain(row.before);
+			expect(ids).toContain(row.after);
+		}
+	});
+
+	// A pair cannot be BOTH: the two declarations describe different
+	// phenomena and different remedies, so recording one pair under both
+	// means one of them is the wrong description.
+	it('no pair is declared both entangled and ordered', () => {
+		const edges = new Map(
+			catalogue.map((row) => [row.id, new Set(row.entangledWith ?? [])]),
+		);
+		const both = ORDERED.filter(
+			(row) =>
+				(edges.get(row.before)?.has(row.after) ?? false) ||
+				(edges.get(row.after)?.has(row.before) ?? false),
+		);
+		expect(both.map((row) => `${row.before} → ${row.after}`)).toEqual([]);
 	});
 });

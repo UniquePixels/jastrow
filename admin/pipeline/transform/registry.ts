@@ -7,6 +7,7 @@
  */
 import type { Pattern } from '../research/patterns.ts';
 import { ibAnaphora, sifreAnaphora, targumAnaphora } from './rules/anaphora.ts';
+import { unlinkedBareAnaphor } from './rules/anaphora-mint.ts';
 import { continuationMarkerDash } from './rules/continuation-marker.ts';
 import {
 	adjacentVerbatimRepeat,
@@ -17,6 +18,7 @@ import {
 	trailingWhitespaceDefinition,
 } from './rules/edge-trim.ts';
 import { gereshLetterNumeral, prefixedGereshAbbrev } from './rules/geresh.ts';
+import { gereshApostropheGershayim } from './rules/geresh-apostrophe.ts';
 import { gershayimInBody, gershayimRefAttribute } from './rules/gershayim.ts';
 import {
 	abbrevFusedHeadword,
@@ -670,6 +672,28 @@ const RULES: readonly Rule[] = [
 	gershayimInBody,
 	gershayimRefAttribute,
 
+	// `geresh-apostrophe-as-gershayim` — the THIRD arm of the same
+	// defect, found by the residue sweep (batch 04) and shipped here
+	// beside the pair rather than appended, because a reader looking for
+	// "where does the corpus's gershayim get repaired" should find all
+	// three in one place.
+	//
+	// It is NOT entangled with them and the catalogue does not say it is.
+	// The three predicates are disjoint by construction: the pair reads
+	// an ASCII `"`, this reads the two-codepoint run `׳'`, and neither
+	// substitution can create or destroy the other's occurrence — the
+	// pair writes `״` where a `"` stood and never emits a `׳`, and this
+	// rule writes `״` and never emits a `"`. So no ordering constraint
+	// binds them, and the placement is for legibility.
+	//
+	// The one thing that WOULD bind them is `gershayimRefAttribute`'s
+	// `glyphCorrected` claim, which case 5 refuses outright if its `from`
+	// tag already carries a `״`. That cannot happen: this rule is
+	// document-text only and leaves every `<…>` run byte-identical, which
+	// is measured over the whole corpus (0 of 25 occurrences sit inside a
+	// tag) rather than argued.
+	gereshApostropheGershayim,
+
 	// ======== Batch 3b: italic & punctuation seams ========
 	//
 	// TWELVE rules, five modules. EVERY ordering claim below was
@@ -1085,6 +1109,45 @@ const RULES: readonly Rule[] = [
 	// the count of space-terminated fields as identical before and
 	// after. That 0 is why the measurement here is 0; running last is
 	// what keeps it the whole answer rather than a claim about one pair.
+
+	// ======== The first rule that CREATES an anchor ========
+	//
+	// `unlinked-bare-anaphor` (2026-09-06). Licensed by link-target gate
+	// case 10, which lifted the spec's second counting invariant for it —
+	// see `docs/specs/2026-09-06-link-target-gate-case-10.md` and Brian's
+	// ruling of the same day. `MINT_DECLARERS` names it and nothing else.
+	//
+	// LAST AMONG THE TEXT RULES THAT DO ANY WORK, and unlike the
+	// gershayim pair's placement this one is CONSTRAINED rather than
+	// free. Three constraints, all directional:
+	//
+	// 1. **It must follow `ibAnaphora`.** That rule retargets the 312
+	//    bare anaphors the linker dropped into the `Yoma 2a` sink. This
+	//    rule copies whatever its antecedent carries, so running first
+	//    would let it copy a target `ibAnaphora` is about to correct.
+	//    `isSpentAnaphor` refuses a `Yoma 2a*` anaphor as an antecedent
+	//    and so would catch that — but by declining, which is a repair
+	//    lost rather than a wrong link written, and following is free.
+	// 2. **It must follow every rule that can create a bare `Ib.`.** One
+	//    exists: the population is 2,819 at the repaired stage and 2,820
+	//    after the phase, so a rule above adds one. Running last is what
+	//    makes that one reachable.
+	//
+	// 3. **It must precede `trailingWhitespaceDefinition`**, which
+	//    `registry.order.corpus.test.ts` pins as the last `text-repairs`
+	//    rule so it sees the deepest-last sense as everything else
+	//    leaves it. A first cut appended this rule to the very end of
+	//    `RULES` and that test caught it — the constraint is real even
+	//    though this rule writes no trailing whitespace, because "last"
+	//    is what makes that rule's measured 0 the whole answer rather
+	//    than a claim about one pair.
+	//
+	// Nothing else constrains it. It writes only inside
+	// `senses[].definition`, and the anchors it adds carry an
+	// antecedent's own bytes, so a later rule reading targets sees
+	// nothing it could not already see.
+	unlinkedBareAnaphor,
+
 	trailingWhitespaceDefinition,
 
 	// ---- THE FIRST `structural-repairs` RULE ----
@@ -1218,6 +1281,123 @@ const RULES: readonly Rule[] = [
 	// a DASHED marker, which this rule's predicate refuses.
 	continuationMarkerDash,
 ];
+
+/**
+ * One intended order dependency: `before` must run before `after`.
+ *
+ * The SECOND way a non-commuting pair may be justified, beside
+ * `entangledWith`, and it exists because the first one does not fit
+ * every shape. Added 2026-09-06 on Brian's ruling, when
+ * `unlinked-bare-anaphor` produced four non-commuting pairs whose
+ * shipped order is demonstrably the right one and which
+ * `entangledWith` cannot record.
+ *
+ * ## Why a second mechanism rather than a wider first one
+ *
+ * The two declarations describe two different phenomena, and
+ * conflating them was what made the first one unusable here:
+ *
+ * - **`entangledWith` is POPULATION COLLISION.** Two rows own the same
+ *   records, so a rule touching one must account for the other or it
+ *   rewrites the same anchors twice. The remedy is ADJACENCY —
+ *   `checkAdjacency` requires the cluster to occupy contiguous slots —
+ *   because what matters is that nothing runs BETWEEN them.
+ * - **`ORDERED` is SEQUENCE DEPENDENCY.** One rule reads what another
+ *   writes. The remedy is a DIRECTION, and adjacency is irrelevant:
+ *   `unlinked-bare-anaphor` reads the antecedent every retarget and
+ *   unlink rule above it leaves, so it must run after all of them and
+ *   can be adjacent to none.
+ *
+ * Declaring the four as `entangledWith` would have demanded a single
+ * contiguous cluster spanning `bare-rtl-hebrew`'s existing 7-rule
+ * cluster, a retarget and an unlink — while the same rule must run
+ * last. Contiguity and "runs last" cannot both hold, which is the
+ * shape that forced this.
+ *
+ * ## What keeps it from being a suppression list
+ *
+ * Three checks, and the middle one is the one that matters:
+ *
+ * 1. Both ids must be registered (`checkOrdered`).
+ * 2. **The registry must actually satisfy the direction**
+ *    (`checkOrdered`). A declaration that does not match the shipped
+ *    order is a false record, not a licence, and is reported.
+ * 3. **The pair must actually be non-commuting**
+ *    (`commutation.corpus.test.ts`). An entry for a pair whose two
+ *    orders agree is STALE — the dependency it records has gone — and
+ *    the gate reports it rather than carrying it forever. This is
+ *    `unaccountedEdges`' lesson for the other declaration: a recorded
+ *    relationship must produce a validated check or a reported
+ *    problem, never silence.
+ *
+ * `reason` is prose for a reader and is checked by nobody. It must say
+ * what the wrong order WRITES, not that an order exists — the four
+ * below were each measured on the named entry before being recorded.
+ */
+interface Ordered {
+	after: string;
+	before: string;
+	reason: string;
+}
+
+/** Non-commuting pairs whose order is intended, fixed and argued. See
+ * `Ordered`. Every one was measured on the entry it names. */
+const ORDERED: readonly Ordered[] = [
+	{
+		after: 'unlinked-bare-anaphor',
+		before: 'rabbi-name-linked-as-bible-book',
+		reason:
+			"I00273: the unlink removes an anchor pointing at `Joshua 2`, a rabbi's name misread as a book. Run the mint first and it copies `Joshua 2` onto the `Ib.`; run the unlink first and the mint reaches the real antecedent, `Kohelet Rabbah 12:7:1`. This is rule 1's hazard in `registry.order.corpus.test.ts` — an unlink deleting the antecedent a reader would otherwise read — and that assertion already pins the direction independently.",
+	},
+	{
+		after: 'unlinked-bare-anaphor',
+		before: 'ib-targum-work-loss',
+		reason:
+			'C00446: the retarget restores the lost work, `Leviticus 9:7` → `Targum Jonathan on Leviticus 9:7`. The mint copies its antecedent whole, so running first copies the unrepaired address. Same direction, same reason as the unlink above: the mint reads what every target-writing rule leaves.',
+	},
+	{
+		after: 'unlinked-bare-anaphor',
+		before: 'bare-rtl-hebrew',
+		reason:
+			'A03092: wrapping the bare Hebrew changes the token stream the antecedent walk reads, and the mint then finds an antecedent (`Exodus 15`) it otherwise misses. The wrong order loses a repair rather than writing a wrong one — a decline, not a mislink — but it is a real difference and the shipped order is the one that repairs more.',
+	},
+	{
+		after: 'unlinked-bare-anaphor',
+		before: 'superscript-subsection-stranded-outside-anchor',
+		reason:
+			'S02235: the superscript rule pulls a stranded `<sup>` inside its anchor. The two orders differ in whether that `<sup>10</sup>` ends up inside or outside, because the mint changes the anchor sequence the superscript rule indexes into. Neither writes a wrong target; the shipped order is the one measured.',
+	},
+];
+
+/**
+ * Problems with `ORDERED` against the registry: an unknown id, or a
+ * declaration the shipped order does not satisfy.
+ *
+ * Every problem is returned rather than throwing on the first, like
+ * `checkAdjacency`'s — the list is checked as a whole.
+ */
+function checkOrdered(
+	declarations: readonly Ordered[] = ORDERED,
+	rules: readonly Rule[] = RULES,
+): string[] {
+	const at = new Map(rules.map((rule, index) => [rule.id, index]));
+	return declarations.flatMap((row) => {
+		const before = at.get(row.before);
+		const after = at.get(row.after);
+		if (before === undefined || after === undefined) {
+			const missing = [
+				before === undefined ? row.before : undefined,
+				after === undefined ? row.after : undefined,
+			].filter((id) => id !== undefined);
+			return [`ORDERED names unregistered rule(s): ${missing.join(', ')}`];
+		}
+		return before < after
+			? []
+			: [
+					`ORDERED says ${row.before} runs before ${row.after}, but the registry runs it after`,
+				];
+	});
+}
 
 /** Catalogued transform rows with no rule yet. Shrinks batch by batch;
  * empty at the end of Phase 2. */
@@ -2117,12 +2297,14 @@ function unaccountedEdges(
 	return [...found].toSorted((a, b) => a.localeCompare(b));
 }
 
-export type { Cluster, Coverage };
+export type { Cluster, Coverage, Ordered };
 export {
 	COVERED,
 	checkAdjacency,
+	checkOrdered,
 	coverage,
 	entangledClusters,
+	ORDERED,
 	PENDING,
 	RULES,
 	unaccountedEdges,

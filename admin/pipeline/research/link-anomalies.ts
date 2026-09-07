@@ -41,20 +41,61 @@
  *   raw corpus either: PRE falls 736 -> 584, POST 565 -> 429.
  * - `exact-headword-diverge` — 338 entries. The display is itself a
  *   corpus headword, but the link targets a consonantally different
- *   one. Catches A00988 (displays אָב, targets אַבָּא I). Redirect-stub
- *   resolutions and the editorial `*` are excluded.
+ *   one. Redirect-stub resolutions and the editorial `*` are
+ *   excluded.
+ *
+ *   Catches A00988, and the case is subtler than "displays אָב,
+ *   targets אַבָּא I" — an earlier draft of this line said only that,
+ *   and it reads as though אָב had nothing to do with אַבָּא. It has.
+ *   `אַבָּא I` prints as **`אַבָּא I, אָב`** — two headwords for one
+ *   entry, the first fixing its alphabetical place — so `אָב` really
+ *   is one of its spellings and `alts` records it. The link is wrong
+ *   anyway: the host `אָח I` is Hebrew (`language_code` `(b. h.;`)
+ *   and the anchor sits in its etymology, `cmp. אָב`, where the word
+ *   compared is the Hebrew אָב — its own entry, `אָב II`, which is
+ *   also what `אַבָּא I`'s `language_reference` points back at. The
+ *   linker chose the Aramaic entry.
+ *
+ *   **So do NOT add the `alt_headwords` carve-out to this rule.** It
+ *   looks like it belongs and it silences this control: measured
+ *   2026-09-04, applying it here drops the kind 338 -> 34. Where a
+ *   display is BOTH a recorded spelling of the target AND a headword
+ *   in its own right — 455 anchors over 304 entries — being recorded
+ *   makes the link possible, not correct, and only the context
+ *   decides. The carve-out is scoped to `one-consonant-diverge`,
+ *   which fires only where the display is no corpus headword and so
+ *   can never meet this collision.
  * - `niqqud-twin-target` — 1,321 entries. Display and target share
  *   one consonantal skeleton carrying two or more headwords, so the
  *   niqqud-only carve-out cannot decide the case. Catches A01201
  *   (זְמַר vs זָמַר) and, since the calibration, the unvocalized
  *   displays that carve-out silently collapsed onto one homograph.
- * - `one-consonant-diverge` — 817 entries. The display is no corpus
+ * - `one-consonant-diverge` — **696 entries** (817 before the
+ *   attested-variant carve-out landed, 750 while that carve-out was
+ *   still exact-string; both 2026-09-04). The display is no corpus
  *   headword but sits one non-final consonant from its target, the
  *   letter-L shape that could never reach `exact-headword-diverge`.
- * - `inflection-escape-link` — 691 entries. The display is one of the
+ *   The 121 removed are displays the target's own `alt_headwords`
+ *   records, which sweep-v5 class 11 already licensed — the sweep was
+ *   rejecting them by hand, one Opus call at a time. The second step
+ *   (750 -> 696) is skeleton comparison: a recorded alt is stored
+ *   vocalized and the display that names it in running text is
+ *   usually bare consonants, so exact membership missed the very
+ *   cases the carve-out exists for (A00307, A00529).
+ * - `inflection-escape-link` — **560 entries** (691 before the
+ *   target-side check landed, 2026-09-04). The display is one of the
  *   host entry's own inflected forms yet the link leaves the entry
  *   for a word related to neither. The unique-skeleton carve-out used
  *   to license these (letters J, O, Q, R).
+ *   The 131 removed are links where the TARGET records the same form
+ *   in its own `plural_form`/`alt_headwords` — two entries agreeing
+ *   about a word, not an escape. Batch 02 measured the kind's
+ *   premise: a `Pl.` anchor targets a headword other than its host in
+ *   1,021 of 1,349 cases corpus-wide, so escaping is the norm.
+ *   The check reads `formsOf`, NOT `ownForms`: the latter also
+ *   harvests binyan forms from the target's senses, and a verb's
+ *   Af'el routinely coincides with some noun's plural — suppressing
+ *   on that silenced A00301, round 1's named catch for this kind.
  * - `roman-numeral-display` — 31 entries. An anchor whose display is
  *   a bare Roman numeral, naming no citation. Catches A01133. An
  *   anchor that is its own parenthesis is carved out: that is the
@@ -106,6 +147,7 @@ const LINK_KINDS = [
 	'inflection-escape-link',
 	'niqqud-twin-target',
 	'one-consonant-diverge',
+	'own-form-escape-link',
 	'roman-numeral-display',
 ] as const;
 
@@ -207,6 +249,36 @@ function abbrevHint(
 	};
 }
 
+/** The display is a variant the target's own entry records. sweep-v5
+ * class 11 licenses exactly this ("an attested variant recorded in
+ * the target's `alt_headwords`"), so such a hint is noise the sweep
+ * has to talk itself out of — the most repeated rejection of the
+ * 2026-09-04 residue calibration.
+ *
+ * **Only `one-consonant-diverge` may use this, and the restriction is
+ * load-bearing.** The prompt's very next clause excludes "a display
+ * whose own vocalized form is itself a different headword (batch-02
+ * A00988: displays אָב, targets אַבָּא I, while אָב I exists as its
+ * own entry)" — and `אַבָּא I` records `אָב` in `alt_headwords`, so
+ * the carve-out read literally suppresses the rule's own named
+ * control. Applying it to `exactHint` dropped that kind 338 -> 34 and
+ * silenced A00988. `divergeHint` cannot hit the collision: it fires
+ * only where the display is NOT a corpus headword. */
+function isAttestedVariant(
+	base: string,
+	target: string,
+	index: HeadwordIndex,
+): boolean {
+	const recorded = index.alts.get(baseHeadword(target));
+	if (recorded === undefined) {
+		return false;
+	}
+	// Either form: the alt as printed, or its consonantal skeleton. The
+	// display in running text is routinely unvocalized where the
+	// recorded headword is not.
+	return recorded.has(base) || recorded.has(skeleton(base));
+}
+
 /** A display that is itself a headword should link to that headword. */
 function exactHint(
 	base: string,
@@ -220,7 +292,10 @@ function exactHint(
 	// to Y: the linker resolved the redirect, which is correct even
 	// though X and Y differ consonantally (the ל״ה/ל״י pairs).
 	const via = index.redirect.get(base);
-	if (via !== undefined && consonants(via) === consonants(target)) {
+	if (
+		via !== undefined &&
+		[...via].some((to) => consonants(to) === consonants(target))
+	) {
 		return;
 	}
 	return {
@@ -258,8 +333,14 @@ function twinHint(
 	if (VOCALIZED.test(base) || skeleton(base).length < MIN_DIVERGE_LEN) {
 		return;
 	}
+	// Count and name ENTRIES, not deduped headwords: homographs are
+	// precisely what an unvocalized display cannot choose between, and
+	// reporting `אוֹר I` + `אוֹר II` as one headword understated the
+	// ambiguity (residue calibration 2026-09-04). Firing still keys off
+	// `family`, so the calibrated hint volume is untouched.
+	const owners = index.skeletonOwners.get(skeleton(base)) ?? [...family];
 	return {
-		detail: `unvocalized display '${base}' names a skeleton carried by ${family.size} headwords (${[...family].join(', ')}); the link fixes on ${target} with nothing in the display to choose it`,
+		detail: `unvocalized display '${base}' names a skeleton carried by ${owners.length} entries (${owners.join(', ')}); the link fixes on ${target} with nothing in the display to choose it`,
 		kind: 'niqqud-twin-target',
 	};
 }
@@ -294,13 +375,81 @@ function divergeHint(
 ): LinkHint | undefined {
 	if (
 		index.exact.has(base) ||
-		!oneNonFinalSubstitution(skeleton(base), skeleton(target))
+		!oneNonFinalSubstitution(skeleton(base), skeleton(target)) ||
+		isAttestedVariant(base, target, index)
 	) {
 		return;
 	}
 	return {
 		detail: `display '${base}' is no corpus headword and differs from its target ${target} by one non-final consonant`,
 		kind: 'one-consonant-diverge',
+	};
+}
+
+/** The display is one of the host entry's own inflected forms and the
+ * link leaves the entry for something that does not record that form.
+ *
+ * Adjudication of 20 anchors from the inflection residue (2026-09-05,
+ * docs/v2/phase-2-inflection-gap.md) found 10 real defects, and both
+ * readers independently reached the same discriminator: **does the
+ * target record the displayed form among its own headword,
+ * alt_headwords or plural_form?** It sorted 19 of 20. The correct half
+ * is dominated by Jastrow's own cross-reference stubs — entries whose
+ * whole definition is `, v. X` — which exist precisely to catch an
+ * inflected spelling and do record it. The wrong half lands the reader
+ * on the circus, on dancing, on a personal name.
+ *
+ * Three things this rule does that `inflectionHint` does not, each
+ * because that rule provably misses both named instances:
+ *
+ * 1. It compares with `skeleton`, matres KEPT. `stem` deletes ו and י,
+ *    which collapses a plural onto its own singular headword (A02408
+ *    stops at `inflectionHint`'s clause 2) and a four-letter participle
+ *    below a three-character floor (A01023 stops at clause 1).
+ * 2. It reads `own.prose` as well as `own.skeletons`. 286 of the 362
+ *    residue anchors name their form only in the sense text.
+ * 3. It asks what the TARGET records, not what the target's stems
+ *    resemble.
+ *
+ * Geresh-abbreviated displays never reach here — `anchorHints` routes
+ * them to `abbrevHint` — and that exemption is wanted, not incidental:
+ * the discriminator's one failure in 20 was T00697, where the WRONG
+ * target records the abbreviation too. Those need a sense read. */
+function ownFormEscapeHint(
+	base: string,
+	target: string,
+	own: OwnForms,
+	index: HeadwordIndex,
+): LinkHint | undefined {
+	const form = skeleton(base);
+	const host = skeleton(own.headword);
+	if (
+		form.length < MIN_DIVERGE_LEN ||
+		form === host ||
+		!(own.skeletons.includes(form) || own.prose.includes(form)) ||
+		// The link stays inside the host entry.
+		skeleton(target) === host ||
+		// The target records this very form, so the two entries agree
+		// about the word — the legitimate cross-reference-stub shape.
+		index.recordedSkeletons.get(baseHeadword(target))?.has(form) === true ||
+		// ...or the target is a bare `, v. X` stub that redirects back
+		// to the host. The reader following it lands on the host entry,
+		// so nothing escapes. Both adjudicators named this shape as the
+		// bulk of the correct half, and both of the rule's first-cut
+		// false positives were it: M01430 -> מַכְסַנְיָיא and M02523 ->
+		// מַרְגָּלִי are stubs whose own text sends the reader home,
+		// while recording a DIFFERENT spelling of the form than the one
+		// displayed. Recording the form and redirecting to the host are
+		// two ways of agreeing, and the rule has to accept both.
+		[...(index.redirect.get(baseHeadword(target)) ?? [])].some(
+			(to) => skeleton(to) === host,
+		)
+	) {
+		return;
+	}
+	return {
+		detail: `display '${base}' is this entry's own inflected form of ${own.headword}, and the link targets ${target}, which does not record it among its own forms`,
+		kind: 'own-form-escape-link',
 	};
 }
 
@@ -312,6 +461,7 @@ function inflectionHint(
 	base: string,
 	target: string,
 	own: OwnForms,
+	index: HeadwordIndex,
 ): LinkHint | undefined {
 	const form = stem(base);
 	if (
@@ -319,7 +469,22 @@ function inflectionHint(
 		form === stem(own.headword) ||
 		!own.forms.some((f) => stem(f) === form) ||
 		stem(target) === stem(own.headword) ||
-		stem(target) === form
+		stem(target) === form ||
+		// The target records this very form among its own. Two entries
+		// agreeing about a word is not an escape — see `formsOf`.
+		index.formsOf.get(baseHeadword(target))?.has(form) === true ||
+		// ...or the target is a bare `, v. X` stub that redirects back
+		// to the host, so the reader lands on the host anyway and
+		// nothing escapes. `ownFormHint` has carried this exemption
+		// since it shipped; this rule did not, and the asymmetry made
+		// C00064 a structural false positive the batch-06 sweep had to
+		// reject by hand — its display `גְּבוּרָן` is its own plural,
+		// the target C00061 is the stub `, v. גְּבוּרְתָּא`, and the host
+		// records `גְּבוּרָא` among its own alts as well. Compared at
+		// `stem`, which is this rule's level throughout.
+		[...(index.redirect.get(baseHeadword(target)) ?? [])].some(
+			(to) => stem(to) === stem(own.headword),
+		)
 	) {
 		return;
 	}
@@ -441,7 +606,8 @@ function anchorHints(
 		exactHint(base, target, index),
 		twinHint(base, target, index),
 		divergeHint(base, target, index),
-		inflectionHint(base, target, own),
+		inflectionHint(base, target, own, index),
+		ownFormEscapeHint(base, target, own, index),
 	].filter((hint): hint is LinkHint => hint !== undefined);
 }
 
