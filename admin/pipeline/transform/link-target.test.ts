@@ -2235,7 +2235,7 @@ it('case 10: clause 2 refuses a display that is not a bare anaphor', () => {
 	).toContain('minted anchor "and" → "Shabbat 30b" is not a bare anaphor');
 });
 
-it('case 10: clause 2 admits the lowercase form and nothing wider', () => {
+it('case 10: clause 2 refuses `Ibid.`, one form wider than the anaphor', () => {
 	expect(
 		checkMintClauses(mintBefore, mintAfter, mintClaim({ display: 'Ibid.' })).at(
 			0,

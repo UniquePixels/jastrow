@@ -195,7 +195,9 @@ function recordedVariant(s: string): string {
 	return baseHeadword(
 		s
 			.replace(TAG, ' ')
+			.trim()
 			.replace(EDITORIAL_ASTERISK, '')
+			.trim()
 			.replace(EDITORIAL_PARENS, ''),
 	);
 }

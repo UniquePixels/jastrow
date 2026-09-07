@@ -112,7 +112,9 @@ more.
 
 **Two classes are 98% of the queue** — 478 of 487 entries cite class 11
 or class 8. 353 are class 11 alone, 66 are class 8 alone, 44 cite both,
-and 9 more pair class 11 with something else.
+9 more pair class 11 with something else, and 6 more pair class 8 with
+something other than 11 (116 − 66 − 44, the same arithmetic that
+closes class 11's own 406 = 353 + 44 + 9).
 
 Classes 1, 3 and 10 are absent because they are *repairable* — an
 entry whose only defect is one of those leaves as `repaired`, not as
