@@ -1,0 +1,134 @@
+[
+	{
+		"column": "a",
+		"letter": "א",
+		"page": 1,
+		"rid": "A00000"
+	},
+	{
+		"column": "a",
+		"letter": "ב",
+		"page": 134,
+		"rid": "B00000"
+	},
+	{
+		"column": "a",
+		"letter": "ג",
+		"page": 201,
+		"rid": "C00000"
+	},
+	{
+		"column": "a",
+		"letter": "ד",
+		"page": 275,
+		"rid": "D00000"
+	},
+	{
+		"column": "a",
+		"letter": "ה",
+		"page": 327,
+		"rid": "E00000"
+	},
+	{
+		"column": "a",
+		"letter": "ו",
+		"page": 371,
+		"rid": "F00000"
+	},
+	{
+		"column": "a",
+		"letter": "ז",
+		"page": 377,
+		"rid": "G00000"
+	},
+	{
+		"column": "a",
+		"letter": "ח",
+		"page": 415,
+		"rid": "H00000"
+	},
+	{
+		"column": "a",
+		"letter": "ט",
+		"page": 515,
+		"rid": "I00000"
+	},
+	{
+		"column": "a",
+		"letter": "י",
+		"page": 559,
+		"rid": "J00000"
+	},
+	{
+		"column": "a",
+		"letter": "כ",
+		"page": 605,
+		"rid": "K00000"
+	},
+	{
+		"column": "a",
+		"letter": "ל",
+		"page": 685,
+		"rid": "L00000"
+	},
+	{
+		"column": "a",
+		"letter": "מ",
+		"page": 721,
+		"rid": "M00000"
+	},
+	{
+		"column": "a",
+		"letter": "נ",
+		"page": 865,
+		"rid": "N00001"
+	},
+	{
+		"column": "a",
+		"letter": "ס",
+		"page": 947,
+		"rid": "O00000"
+	},
+	{
+		"column": "a",
+		"letter": "ע",
+		"page": 1034,
+		"rid": "P00000"
+	},
+	{
+		"column": "a",
+		"letter": "פ",
+		"page": 1130,
+		"rid": "Q00000"
+	},
+	{
+		"column": "a",
+		"letter": "צ",
+		"page": 1256,
+		"rid": "R00000"
+	},
+	{
+		"column": "a",
+		"letter": "ק",
+		"page": 1306,
+		"rid": "S00000"
+	},
+	{
+		"column": "a",
+		"letter": "ר",
+		"page": 1434,
+		"rid": "T00000"
+	},
+	{
+		"column": "a",
+		"letter": "ש",
+		"page": 1505,
+		"rid": "U00000"
+	},
+	{
+		"column": "a",
+		"letter": "ת",
+		"page": 1641,
+		"rid": "V00000"
+	}
+]

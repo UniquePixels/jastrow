@@ -25,3 +25,6 @@ data/source/body-migration-report.json
 
 # usage-report baseline stamp (RUNBOOK step 1, bun usage --mark)
 .usage-mark
+
+# local scratch for the page-index build (large IA downloads)
+.work/

@@ -9,6 +9,7 @@ truth layer, compile truth into serving artifacts on every deploy
 | Stage | Tool | Status | Runs |
 |---|---|---|---|
 | Source acquisition | `fetch.ts` | working | on demand, re-runnable |
+| Print locator index | `page-index/build.ts` | built 2026-08-17, data committed | once (needs the IA hOCR) |
 | Migration (source → truth) | `migrate.ts` | designed, not built | once, then retires |
 | Compile (truth → serving) | `compile.ts` | designed, not built | every deploy |
 
@@ -73,10 +74,9 @@ layer (`data/entries/`), per the
 [data architecture spec](../../docs/specs/2026-07-08-v2-data-architecture-design.md)
 §6: headword decomposition, link typing, markup translation into the
 closed tag vocabulary, refs resolution, slug assignment, and the
-print-locator (`page`/`column`) enrichment — prepopulated from the
-existing locator data and corrected by the
-[preservation obligations](provenance/README.md#preservation-obligations)
-the provenance work identified. Gated by blessing checks (golden
+print-locator (`page`/`column`) enrichment — read from the hOCR page
+index (`data/page-index/entries.jsonl`, all 32,512 entries). Gated by
+blessing checks (golden
 render diffs, round-trips, chain agreement); runs once, then retires
 into repo history.
 
