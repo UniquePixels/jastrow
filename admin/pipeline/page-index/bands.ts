@@ -41,7 +41,7 @@ const ESSAY_MIN_HITS = 4;
 function essayScore(line: string, probe: readonly string[]): number {
 	const words = new Set(latinTokens(line));
 	let hits = 0;
-	for (const t of probe) {
+	for (const t of new Set(probe)) {
 		if (words.has(t)) {
 			hits++;
 		}
@@ -167,4 +167,4 @@ function letterPins(
 }
 
 export type { LetterBand };
-export { bandYs, letterPins, resolveBands };
+export { bandYs, essayScore, findEssayLine, letterPins, resolveBands };
