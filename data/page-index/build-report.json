@@ -1,0 +1,23 @@
+{
+	"anchors": 386354,
+	"letterBandLeaves": 21,
+	"volumeOffsets": {
+		"v1": -23,
+		"v2": 677
+	},
+	"columnsTotal": 3618,
+	"columnsWithHead": 3370,
+	"entriesPlaced": 32512,
+	"entriesTotal": 32512,
+	"headConfidence": {
+		"medium": 680,
+		"high": 2663,
+		"low": 27
+	},
+	"letters": 22,
+	"placementConfidence": {
+		"medium": 1893,
+		"high": 30321,
+		"low": 298
+	}
+}
