@@ -309,7 +309,9 @@ describe('the sweep population', () => {
 		const { corpus, rids, tables } = await healed();
 		expect(residueRids(corpus, tables)).toHaveLength(RESIDUE);
 		expect(rids).toHaveLength(SWEEP);
-	}, 180_000);
+		// 360 s: the file may be first in its shard and pay the fixture
+		// cold start (~110 s on CI) plus its own tables.
+	}, 360_000);
 
 	it('carries a hint on every entry — no chunk is empty work', async () => {
 		const { corpus, rids, tables } = await healed();
@@ -372,7 +374,13 @@ describe('HEALED IS NOT PRE-PATCH — the regression this module exists to preve
 			([rid, entry]) => expected.get(rid) !== JSON.stringify(entry),
 		);
 		expect(wrong.map(([rid]) => rid)).toEqual([]);
-	}, 120_000);
+		// 360 s: verified empirically (2026-09-07 sharded dry run) — under
+		// three-way CPU contention this test alone slowed from well under
+		// 120 s serial to 279 s, timing out. Not one of the five 180_000
+		// caps named by plan, but the same fixture-cold-start-plus-own-cost
+		// risk, worse here because it re-derives `structural-repairs` for
+		// all 32,512 entries on top of `composedEntries()`.
+	}, 360_000);
 });
 
 /** Detector kinds that did not exist when phase 2.3 items 1 and 2 were
@@ -460,7 +468,9 @@ describe('ADJUDICATED re-derives from the detector', () => {
 		expect(
 			[...derived].filter((rid) => inResidue.has(rid)).sort(byCodeUnit),
 		).toEqual([...ADJUDICATED]);
-	}, 180_000);
+		// 360 s: the file may be first in its shard and pay the fixture
+		// cold start (~110 s on CI) plus its own tables.
+	}, 360_000);
 });
 
 /** The adjudicated fixture for `own-form-escape-link`.

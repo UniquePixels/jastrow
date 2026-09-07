@@ -25,3 +25,6 @@ data/source/body-migration-report.json
 
 # usage-report baseline stamp (RUNBOOK step 1, bun usage --mark)
 .usage-mark
+
+# corpus-tier shard logs (admin/pipeline/audit-corpus.sh)
+corpus-shard-*.log
