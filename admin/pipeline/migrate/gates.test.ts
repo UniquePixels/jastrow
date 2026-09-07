@@ -35,8 +35,10 @@ describe('checkChain', () => {
 	it('passes an ordered chain', () => {
 		const t = checkChain(threeEntryChain(), CHAIN_MAP);
 		expect(t.failures).toEqual([]);
-		expect(t.pass).toBe(4);
-		expect(t.total).toBe(4);
+		// The unique-head mark (fix round 1) adds one to both pass and
+		// total over the previous 4/4 baseline.
+		expect(t.pass).toBe(5);
+		expect(t.total).toBe(5);
 	});
 
 	it('fails a chain with a swapped next_hw', () => {
@@ -77,9 +79,58 @@ describe('checkChain', () => {
 			},
 		];
 		const t = checkChain(cyclic, CHAIN_MAP);
-		expect(t.pass).toBe(3);
-		expect(t.total).toBe(4);
+		// The unique-head mark (fix round 1) adds one pass over the
+		// previous 3/4 baseline.
+		expect(t.pass).toBe(4);
+		expect(t.total).toBe(5);
 		expect(t.failures).toEqual(['chain does not terminate: next is A00001']);
+	});
+
+	it('fails a dangling trailing next_hw on the true tail entry', () => {
+		// Finding 1: the tail entry (A00003) names a headword ('PHANTOM')
+		// that headwordMap does not contain. Previously this resolved to
+		// `undefined` exactly like a legitimately absent next_hw and the
+		// chain passed in full; it must now be rejected by name.
+		const dangling: SourceEntry[] = [
+			{ content: { senses: [] }, headword: 'א', next_hw: 'ב', rid: 'A00001' },
+			{
+				content: { senses: [] },
+				headword: 'ב',
+				next_hw: 'ג',
+				prev_hw: 'א',
+				rid: 'A00002',
+			},
+			{
+				content: { senses: [] },
+				headword: 'ג',
+				next_hw: 'PHANTOM',
+				prev_hw: 'ב',
+				rid: 'A00003',
+			},
+		];
+		const t = checkChain(dangling, CHAIN_MAP);
+		expect(t.failures).toContain('A00003: next_hw "PHANTOM" names no headword');
+		expect(t.pass).toBeLessThan(t.total);
+	});
+
+	it('fails head uniqueness when two entries lack prev_hw', () => {
+		// Finding 2: A00001 and A00002 both lack prev_hw, so `find()`
+		// would previously pick A00001 by array position and the walk
+		// would proceed as if nothing were wrong.
+		const twoHeads: SourceEntry[] = [
+			{ content: { senses: [] }, headword: 'א', next_hw: 'ב', rid: 'A00001' },
+			{ content: { senses: [] }, headword: 'ב', next_hw: 'ג', rid: 'A00002' },
+			{ content: { senses: [] }, headword: 'ג', prev_hw: 'ב', rid: 'A00003' },
+		];
+		const t = checkChain(twoHeads, CHAIN_MAP);
+		expect(t.failures).toEqual([
+			'chain has 2 heads: A00001, A00002',
+			'A00001: chain not walked',
+			'A00002: chain not walked',
+			'A00003: chain not walked',
+		]);
+		expect(t.pass).toBe(0);
+		expect(t.total).toBe(4);
 	});
 });
 
@@ -142,8 +193,11 @@ describe('checkTextConservation', () => {
 		const t: Tally = { failures: [], pass: 0, total: 0 };
 		checkTextConservation(body, truth, t);
 		expect(t.failures).toEqual(['A00014: senses[0].gloss']);
-		expect(t.pass).toBe(1);
-		expect(t.total).toBe(2);
+		// The structural count marks (fix round 1) add the top-level
+		// senses-count mark and the stems-count mark (both passing, since
+		// neither side has stems here) over the previous 1/2 baseline.
+		expect(t.pass).toBe(3);
+		expect(t.total).toBe(4);
 	});
 
 	it('fails when truth carries a surplus unit', () => {
@@ -157,8 +211,34 @@ describe('checkTextConservation', () => {
 		const t: Tally = { failures: [], pass: 0, total: 0 };
 		checkTextConservation(body, truth, t);
 		expect(t.failures).toEqual(['A00014: senses[0].units[1]']);
-		expect(t.pass).toBe(2);
-		expect(t.total).toBe(3);
+		// Same two structural count marks as above, both passing, over
+		// the previous 2/3 baseline.
+		expect(t.pass).toBe(4);
+		expect(t.total).toBe(5);
+	});
+
+	it('fails when truth carries a fabricated stem with no sense text', () => {
+		// Finding 3: a stem present only in truth, with `senses: []`,
+		// yields no pairs at all (pairs([], []) is empty) so the content
+		// walk alone never marks it. The stems-count structural mark
+		// must catch it.
+		const body: BodyEntry = {
+			id: 'A00014',
+			senses: [{ gloss: 'm. father', units: ['a'] }],
+			stems: [{ forms: [], senses: [{ gloss: 'y', units: [] }], stem: 'Qal' }],
+		};
+		const truth = minimalTruth({
+			senses: [{ gloss: 'm. father', units: ['a'] }],
+			stems: [
+				{ forms: [], senses: [{ gloss: 'y', units: [] }], stem: 'Qal' },
+				{ forms: [], senses: [], stem: 'Pi.' },
+			],
+		});
+		const t: Tally = { failures: [], pass: 0, total: 0 };
+		checkTextConservation(body, truth, t);
+		expect(t.failures).toEqual(['A00014: stems 1 → 2']);
+		expect(t.total).toBeGreaterThan(0);
+		expect(t.pass).toBe(t.total - 1);
 	});
 });
 

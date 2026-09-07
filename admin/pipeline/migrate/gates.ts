@@ -83,12 +83,21 @@ function* pairs(
 	}
 }
 
-/** Gate 3: tag-stripped text agrees, field by field. */
+/** Gate 3: tag-stripped text agrees, field by field. A structural
+ * count mark guards every array `pairs()` walks: a surplus element
+ * whose own content is empty (e.g. a fabricated stem with `senses:
+ * []`) yields no pairs at all, so without the count check here it
+ * would leave no trace in the tally. */
 function checkTextConservation(
 	body: BodyEntry,
 	truth: TruthEntry,
 	t: Tally,
 ): void {
+	mark(
+		t,
+		body.senses.length === truth.senses.length,
+		`${truth.id}: senses ${body.senses.length} → ${truth.senses.length}`,
+	);
 	for (const [where, before, after] of pairs(
 		body.senses,
 		truth.senses,
@@ -101,13 +110,25 @@ function checkTextConservation(
 	// `truth`, and gate 3 would pass with output-only text in it.
 	const stemsBody = body.stems ?? [];
 	const stemsTruth = truth.stems ?? [];
+	mark(
+		t,
+		stemsBody.length === stemsTruth.length,
+		`${truth.id}: stems ${stemsBody.length} → ${stemsTruth.length}`,
+	);
 	const stemCount = Math.max(stemsBody.length, stemsTruth.length);
 	for (let i = 0; i < stemCount; i++) {
 		const stem = stemsBody[i];
 		const target = stemsTruth[i];
+		const stemSensesBody = stem?.senses ?? [];
+		const stemSensesTruth = target?.senses ?? [];
+		mark(
+			t,
+			stemSensesBody.length === stemSensesTruth.length,
+			`${truth.id}: stems[${i}].senses ${stemSensesBody.length} → ${stemSensesTruth.length}`,
+		);
 		for (const [where, before, after] of pairs(
-			stem?.senses ?? [],
-			target?.senses ?? [],
+			stemSensesBody,
+			stemSensesTruth,
 			`stems[${i}].senses`,
 		)) {
 			mark(t, textOf(before) === textOf(after), `${truth.id}: ${where}`);
@@ -127,8 +148,41 @@ function ridOrder(a: string, b: string): number {
 	);
 }
 
-/** Gate 5: following `next_hw` from the entry with no `prev_hw` visits
- * every rid in rid order. */
+/** One hop of `checkChain`'s walk: resolves `link.next_hw` to the
+ * entry it names, marking a failure (and returning `undefined`, which
+ * halts the walk) when the name resolves to no headword or to a rid
+ * outside the corpus — either would otherwise collapse to `undefined`
+ * exactly like a legitimately absent `next_hw`. */
+function resolveNext(
+	t: Tally,
+	link: SourceEntry,
+	headwordMap: ReadonlyMap<string, string>,
+	byRid: ReadonlyMap<string, SourceEntry>,
+): SourceEntry | undefined {
+	const next = link.next_hw;
+	if (next === undefined) {
+		return;
+	}
+	const rid = headwordMap.get(next);
+	if (rid === undefined) {
+		mark(t, false, `${link.rid}: next_hw "${next}" names no headword`);
+		return;
+	}
+	const resolved = byRid.get(rid);
+	if (resolved === undefined) {
+		mark(
+			t,
+			false,
+			`${link.rid}: next_hw "${next}" names a rid outside the corpus`,
+		);
+		return;
+	}
+	return resolved;
+}
+
+/** Gate 5: exactly one entry has no `prev_hw`, and following `next_hw`
+ * from it visits every rid in rid order. See `resolveNext` for what a
+ * corrupt `next_hw` link is rejected against. */
 function checkChain(
 	entries: readonly SourceEntry[],
 	headwordMap: ReadonlyMap<string, string>,
@@ -136,16 +190,32 @@ function checkChain(
 	const t = tally();
 	const sorted = entries.map((e) => e.rid).sort(ridOrder);
 	const byRid = new Map(entries.map((e) => [e.rid, e]));
-	let current = entries.find((e) => e.prev_hw === undefined);
+	// The head must be unique: `find()` would silently pick whichever
+	// prev_hw-less entry comes first in `entries`, so two of them would
+	// pass by array position instead of failing.
+	const heads = entries.filter((e) => e.prev_hw === undefined);
+	mark(
+		t,
+		heads.length === 1,
+		`chain has ${heads.length} heads: ${heads.map((e) => e.rid).join(', ')}`,
+	);
+	if (heads.length !== 1) {
+		for (const expected of sorted) {
+			mark(t, false, `${expected}: chain not walked`);
+		}
+		return t;
+	}
+	let current: SourceEntry | undefined = heads[0];
 	for (const expected of sorted) {
 		mark(
 			t,
 			current?.rid === expected,
 			`${expected}: chain has ${current?.rid ?? 'nothing'}`,
 		);
-		const next = current?.next_hw;
 		current =
-			next === undefined ? undefined : byRid.get(headwordMap.get(next) ?? '');
+			current === undefined
+				? undefined
+				: resolveNext(t, current, headwordMap, byRid);
 	}
 	// The loop above runs exactly `entries.length` times, so a chain
 	// that revisits an earlier rid before reaching the end passes every
