@@ -505,12 +505,12 @@ function applyEntryPatches(
 /** Apply one rid's carry-over patches (task-3 addendum-3, Ruling F),
  * in patch id order, after the rid's accepted patches have already
  * landed on `entry`. Each patch is pre-checked by resolving its target
- * directly (not via `preStateResolves`, which only reports whether the
- * count matches `expected_occurrences` — a zero-match and a
- * wrong-count match both read as `false`, and they are not the same
- * fact): a zero-match target means the defect it targets is already
- * gone (a transform rule absorbed it), so the patch is recorded as
- * `absorbed` and never applied. A match at the expected count means the
+ * directly and comparing the exact count — a zero-match and a
+ * wrong-count match are not the same fact, so a boolean "does it match
+ * `expected_occurrences`" check cannot distinguish them: a zero-match
+ * target means the defect it targets is already gone (a transform rule
+ * absorbed it), so the patch is recorded as `absorbed` and never
+ * applied. A match at the expected count means the
  * defect is still present, so the patch is `carried` and applied
  * through the normal `applyEntryPatches` gate (round-trip re-parse,
  * no-new-text floor), chaining state like any other apply. Any other
