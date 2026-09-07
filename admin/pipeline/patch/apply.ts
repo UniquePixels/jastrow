@@ -299,7 +299,7 @@ function corpusPreflight(
 	patches: readonly SemanticPatch[],
 	records: readonly EntryResult[],
 	currentPin: string,
-	options: PreflightOptions = { escalations: 'block' },
+	options?: PreflightOptions,
 ): ApplyProblem[] {
 	const problems: ApplyProblem[] = [];
 	for (const patch of patches) {
@@ -319,11 +319,11 @@ function corpusPreflight(
 	}
 	for (const problem of reconcilePatches(
 		records,
-		options.reconcileOnly ?? patches,
+		options?.reconcileOnly ?? patches,
 	)) {
 		problems.push({ reason: problem.reason, rid: problem.rids[0] });
 	}
-	if (options.escalations === 'block') {
+	if ((options?.escalations ?? 'block') === 'block') {
 		for (const problem of replayGate(records)) {
 			problems.push({
 				reason: `${problem.reason}: ${problem.rids.join(', ')}`,

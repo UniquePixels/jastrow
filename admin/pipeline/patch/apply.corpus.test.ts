@@ -56,9 +56,9 @@ const RAW_RECORDS = 2760;
 
 it('loads and consolidates the accepted (healed-stage) corpus, applying it cleanly', async () => {
 	const accepted = await loadAcceptedCorpus();
-	expect(accepted.patches.length).toBe(ACCEPTED_PATCHES);
-	expect(accepted.records.length).toBe(ACCEPTED_RECORDS);
-	expect(accepted.carryOver.length).toBe(CARRY_OVER);
+	expect(accepted.patches).toHaveLength(ACCEPTED_PATCHES);
+	expect(accepted.records).toHaveLength(ACCEPTED_RECORDS);
+	expect(accepted.carryOver).toHaveLength(CARRY_OVER);
 	expect(accepted.superseded).toEqual({
 		patches: SUPERSEDED_PATCHES,
 		records: SUPERSEDED_RECORDS,
@@ -109,7 +109,7 @@ it('carry-over: absorbed patches are dropped, unabsorbed patches carry and apply
 	// measured: nothing unaccounted, and the carried patches apply with
 	// zero problems.
 	const accepted = await loadAcceptedCorpus();
-	expect(accepted.carryOver.length).toBe(CARRY_OVER);
+	expect(accepted.carryOver).toHaveLength(CARRY_OVER);
 	const byRid = new Map(
 		(await composedEntries()).map((entry) => [entry.rid, entry]),
 	);
@@ -141,6 +141,6 @@ it('carry-over: absorbed patches are dropped, unabsorbed patches carry and apply
 });
 
 it('pins the raw (every-stage) corpus and manifest counts', async () => {
-	expect((await loadCorpus()).length).toBe(RAW_PATCHES);
-	expect((await loadManifest()).length).toBe(RAW_RECORDS);
+	expect(await loadCorpus()).toHaveLength(RAW_PATCHES);
+	expect(await loadManifest()).toHaveLength(RAW_RECORDS);
 });
