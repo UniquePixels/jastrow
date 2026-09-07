@@ -298,23 +298,18 @@ function mintOver(definition: string): { mints: Mint[]; text: string } {
 
 /** Every sense's definition, recursively — the shape `anaphora.ts`
  * walks, and the only field this rule touches. */
-function walk(
-	senses: readonly SourceSense[],
-	mints: Mint[],
-	repaired: { count: number },
-): SourceSense[] {
+function walk(senses: readonly SourceSense[], mints: Mint[]): SourceSense[] {
 	return senses.map((sense) => {
 		let next = sense;
 		if (sense.definition !== undefined) {
 			const found = mintOver(sense.definition);
 			if (found.mints.length > 0) {
 				mints.push(...found.mints);
-				repaired.count += found.mints.length;
 				next = { ...next, definition: found.text };
 			}
 		}
 		if (next.senses !== undefined) {
-			next = { ...next, senses: walk(next.senses, mints, repaired) };
+			next = { ...next, senses: walk(next.senses, mints) };
 		}
 		return next;
 	});
@@ -323,8 +318,7 @@ function walk(
 const unlinkedBareAnaphor: Rule = {
 	apply(entry: SourceEntry): TransformResult {
 		const mints: Mint[] = [];
-		const repaired = { count: 0 };
-		const senses = walk(entry.content?.senses ?? [], mints, repaired);
+		const senses = walk(entry.content?.senses ?? [], mints);
 		if (mints.length === 0) {
 			return { entry, records: [] };
 		}
