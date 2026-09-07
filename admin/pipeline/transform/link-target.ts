@@ -1257,15 +1257,15 @@ const VOUCH_DECLARERS: ReadonlySet<string> = new Set([
 ]);
 
 /**
- * Case 10's declarer allowlist — **EMPTY**, and shipping it empty is
- * the point.
+ * Case 10's declarer allowlist — **ONE ID**, and every addition is
+ * measured before it is admitted, the same way this one was.
  *
  * A gate case is a LICENCE and not an instruction. This one lifts the
  * spec's second counting invariant ("anchors never grow"), which
  * encoded batch 2's *retarget only* scope ruling rather than a safety
- * property, so until an id is added here the case's live exposure is
- * exactly zero and `checkLinkTargets` behaves for every rule in the
- * registry as it did before.
+ * property, so live exposure is exactly the rules named here and
+ * `checkLinkTargets` behaves for every other rule in the registry as
+ * it did before.
  *
  * **What a reviewer must measure before adding an id**, in the terms
  * spec §4 sets:
@@ -2372,8 +2372,9 @@ function mintFault(
  *
  * The DECLARER is judged first and for the group, like case 7's: an
  * unlisted rule's claims are refused together, before a clause of any
- * of them is read. With `MINT_DECLARERS` empty that is every claim,
- * which is the intended state until a rule is ruled in.
+ * of them is read. `MINT_DECLARERS` admits exactly `unlinked-bare-
+ * anaphor` today, so that rule's claims reach `mintClauseFaults`
+ * below and every other rule's are refused here.
  */
 function mintFaults(
 	mints: readonly Mint[],
@@ -2399,14 +2400,18 @@ function mintFaults(
  * applied — `mintFaults` above judges that first and separately.
  *
  * **Exported for the gate's own fixtures, and the split is forced by
- * `MINT_DECLARERS` being empty.** Clause 1 refuses every claim from
- * every rule today, which is the intended live state; run through
- * `checkLinkTargets` the only reachable case-10 behaviour is that
- * refusal, so a fixture proving clause 4 rejects a target copied from
- * the wrong anchor could not exist. The alternative was seeding the
- * allowlist with a test id, which is a licence hole for the benefit of
- * a test. This is the smaller cost: one export, no licence widened,
- * and clause 1 still tested through the public entry point.
+ * `MINT_DECLARERS` admitting only `unlinked-bare-anaphor`.** Clause 1
+ * refuses every OTHER rule's claim; a synthetic fixture wants to
+ * exercise clauses 2-7 against invented mint shapes rather than the
+ * real rule's, and declaring it under the one admitted id would
+ * couple every clause fixture to that rule's actual output instead.
+ * Run through `checkLinkTargets` under any other id, the only
+ * reachable case-10 behaviour is clause 1's refusal, so a fixture
+ * proving clause 4 rejects a target copied from the wrong anchor
+ * could not exist there. The alternative was widening the allowlist
+ * with a second, test-only id, which is a licence hole for the
+ * benefit of a test. This is the smaller cost: one export, no licence
+ * widened, and clause 1 still tested through the public entry point.
  *
  * Callers that are not fixtures want `checkLinkTargets`.
  */
