@@ -85,7 +85,7 @@
  */
 import type { SourceEntry } from '../../body/types.ts';
 import { mapFields } from '../fields.ts';
-import { HEBREW, HEBREW_ATOM } from '../html.ts';
+import { HEBREW, HEBREW_ATOM, tagSpans } from '../html.ts';
 import { fieldsOf } from '../no-new-text.ts';
 import type { Rule, TransformRecord, TransformResult } from '../types.ts';
 
@@ -102,12 +102,6 @@ const GERSHAYIM = '״';
  * a vowel before the geresh is matched by the class itself. */
 const FLANKED = new RegExp(`(?<=${HEBREW_ATOM})׳'(?=[${HEBREW}])`, 'gu');
 
-/** A `<…>` run holding no angle bracket of its own — the same mask
- * `gershayim.ts` uses, and deliberately not `html.ts`'s tokenizer
- * regex: it is the conservative reading of the two, treating a `<`
- * with no `>` before the next `<` as text. */
-const TAG = /<[^<>]*>/gu;
-
 /** A character belonging to the abbreviation the mark sits in —
  * Hebrew (U+05F4 included, so a repaired token reads whole) plus the
  * combining dot `html.ts` admits as a suffix. Used only to name the
@@ -117,11 +111,14 @@ const TOKEN_CHAR = new RegExp(`[${HEBREW}̇]`, 'u');
 /**
  * Replace every flanked run in `value`, leaving tag interiors alone.
  *
- * The mask is built by blanking each `<…>` run to spaces of the same
- * length, so offsets in the masked copy are the offsets in `value` and
- * a match found on the mask can be spliced out of the original. Spaces
- * cannot themselves satisfy the lookaround, so nothing inside a tag
- * can match and nothing that spans a tag boundary can either.
+ * The mask is built by blanking each tag — as `html.ts`'s `tagSpans`
+ * reads it, the same quote-aware scanner the tokenizer uses, so a `>`
+ * inside a quoted attribute value cannot end the tag early and expose
+ * the rest of the attribute here — to spaces of the same length, so
+ * offsets in the masked copy are the offsets in `value` and a match
+ * found on the mask can be spliced out of the original. Spaces cannot
+ * themselves satisfy the lookaround, so nothing inside a tag can match
+ * and nothing that spans a tag boundary can either.
  *
  * The `includes` guard is a fast path over a 41 MB corpus, and it also
  * returns the SAME string reference for almost every field — which is
@@ -132,7 +129,14 @@ function repairText(value: string): string {
 	if (!value.includes(`׳'`)) {
 		return value;
 	}
-	const masked = value.replace(TAG, (tag) => ' '.repeat(tag.length));
+	let masked = '';
+	let copied = 0;
+	for (const span of tagSpans(value)) {
+		masked +=
+			value.slice(copied, span.start) + ' '.repeat(span.end - span.start);
+		copied = span.end;
+	}
+	masked += value.slice(copied);
 	let out = '';
 	let read = 0;
 	for (const match of masked.matchAll(FLANKED)) {

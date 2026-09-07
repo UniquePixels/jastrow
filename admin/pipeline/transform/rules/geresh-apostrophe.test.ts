@@ -126,3 +126,13 @@ describe('gereshApostropheGershayim', () => {
 		expect(gereshApostropheGershayim.phase).toBe('text-repairs');
 	});
 });
+
+describe('repairText tag mask', () => {
+	// The mask is `html.ts`'s quote-aware scanner: a `>` inside a quoted
+	// value no longer closes the tag early and exposes the rest of the
+	// attribute as repairable text.
+	it('leaves a run inside a >-holding attribute value alone', () => {
+		const tagged = `<a data-ref="x>א׳'ב">א׳'ב</a>`;
+		expect(repairText(tagged)).toBe(`<a data-ref="x>א׳'ב">א״ב</a>`);
+	});
+});

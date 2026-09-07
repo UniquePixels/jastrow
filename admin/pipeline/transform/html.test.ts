@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'bun:test';
-import { HEBREW, hebrewRuns, serialize, tokenize } from './html.ts';
+import { HEBREW, hebrewRuns, serialize, tagSpans, tokenize } from './html.ts';
 
 describe('tokenize', () => {
 	it('round-trips a nested definition byte-for-byte', () => {
@@ -102,5 +102,73 @@ describe('hebrewRuns', () => {
 
 	it('reports no run for a value with no Hebrew', () => {
 		expect(hebrewRuns('cmp. a. fr.—')).toEqual([]);
+	});
+});
+
+describe('quote-aware tag scanning', () => {
+	// The latent gap named on PR #71: `[^>]*` closed a tag at the first
+	// `>` even inside a quoted attribute value, exposing the rest of the
+	// attribute as document TEXT — where a text-repair rule may edit it.
+	// 0 corpus tags carry a `>` in a value today; a re-fetch could.
+	const texts = (html: string): string[] =>
+		tokenize(html)
+			.filter((t) => t.kind === 'text')
+			.map((t) => t.value);
+
+	it('keeps a tag whole when a double-quoted value holds >', () => {
+		const html = '<a href="/x>y" data-ref="z">t</a>';
+		expect(texts(html)).toEqual(['t']);
+		expect(tokenize(html)[0]?.value).toBe('<a href="/x>y" data-ref="z">');
+	});
+
+	it('keeps a tag whole when a single-quoted value holds >', () => {
+		expect(texts("<a href='/x>y'>t</a>")).toEqual(['t']);
+	});
+
+	// 452 corpus hrefs hold an apostrophe inside a double-quoted value
+	// (`/Tosefta_Ma'asrot.1.4`). It must not open a single-quoted scan.
+	it('reads an apostrophe inside a double-quoted value as literal', () => {
+		expect(texts(`<a href="/Ma'asrot>1" data-ref="x">t</a>`)).toEqual(['t']);
+	});
+
+	// Per the HTML tokenizer, a quote is a delimiter only where a value
+	// starts — after `=`. Elsewhere it is an ordinary tag-body byte.
+	it('opens a quoted value only after =', () => {
+		expect(texts('<a "x>t" y>u</a>')).toEqual(['t" y>u']);
+	});
+
+	// An unterminated value keeps today's reading: the tag ends at the
+	// first `>`. So do the two corpus tags whose value swallowed a `</a>`
+	// (see the malformed cases above) — a `<` inside a value is that
+	// damage, not a literal, and the tokenizer's malformed-tag doctrine
+	// keeps reading it as before.
+	it('falls back to the first > when a quoted value never closes', () => {
+		expect(tokenize('<a href="/x>t</a>').map((t) => t.value)).toEqual([
+			'<a href="/x>',
+			't',
+			'</a>',
+		]);
+	});
+
+	it('round-trips a >-holding attribute byte-for-byte', () => {
+		const html = '<a href="/x>y" data-ref="a>b">t</a> <i>q</i>';
+		expect(serialize(tokenize(html))).toBe(html);
+	});
+});
+
+describe('tagSpans', () => {
+	it('reports each tag as a [start, end) span', () => {
+		expect(tagSpans('a<b>c<i x=">">d')).toEqual([
+			{ end: 4, start: 1 },
+			{ end: 14, start: 5 },
+		]);
+	});
+
+	it('reports no span for a < that never closes', () => {
+		expect(tagSpans('<a href="x ב')).toEqual([]);
+	});
+
+	it('reports no span for a < not followed by a tag name', () => {
+		expect(tagSpans('a < b > c')).toEqual([]);
 	});
 });
