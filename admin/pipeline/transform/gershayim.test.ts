@@ -94,9 +94,11 @@ it('the two loci compose to the whole population, in either order', () => {
 });
 
 it('an unterminated tag does not swallow the rest of the field', () => {
-	// `<[^<>]*>` needs a `>` before the next `<`, so a `<` with no
-	// terminator is text — and the text after it stays repairable rather
-	// than being frozen to the end of the field.
+	// `tagSpans` reports no tag for a `<` with no `>` anywhere after it,
+	// so the `<` is text and the text after it stays repairable. (Had a
+	// later tag supplied a `>`, the `<` would open a tag running to it —
+	// the swallowed-close shape — and the run between would be frozen
+	// inside that tag token: the tokenizer's reading, and the gate's.)
 	expect(repairText(`<a href=${Q}x הקב${Q}ה`)).toBe(
 		`<a href=${Q}x הקב${GERSHAYIM}ה`,
 	);

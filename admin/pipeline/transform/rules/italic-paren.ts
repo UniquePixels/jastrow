@@ -1,5 +1,6 @@
 import type { SourceEntry } from '../../body/types.ts';
 import { mapFields } from '../fields.ts';
+import { tagSpans } from '../html.ts';
 import { stripTags } from '../no-new-text.ts';
 import type { Rule, TransformResult } from '../types.ts';
 
@@ -170,69 +171,51 @@ interface ParenScan {
 
 /** One chunk of a run body: a whole tag, or the text between two of
  * them. `index` is the chunk's offset in the body, which the paren
- * walk reports as the repair site. */
+ * walk reports as the repair site. `tag` says which, rather than the
+ * consumer testing for a leading `<`: a text chunk may START with a
+ * `<` that opens no tag (`a < b`), and its parens still count. */
 interface Segment {
 	chunk: string;
 	index: number;
+	tag: boolean;
 }
 
 /**
  * Tags and text in order, so paren depth is counted over TEXT only: an
  * attribute value may hold a paren and must never close one.
  *
- * A SCANNER rather than the `/<[^>]*>|[^<]+/gu` it replaces, on
- * `typescript:S8786` (SonarCloud, PR #49). That regex is QUADRATIC on
- * a `<` with no `>` after it: `[^>]*` runs to the end of the body,
- * fails to find the `>`, and gives back one character at a time —
- * every give-back futile, since a class excluding `>` never consumed
- * one — and then `matchAll` repeats the whole futile scan one
- * character further on. Measured on JavaScriptCore over `'<'.repeat(n)`
- * for n = 4k/8k/16k/32k: **6.7 / 28.2 / 108.3 / 433.1 ms**, a clean
- * quadrupling per doubling, against **0.01 / 0.01 / 0.03 / 0.06 ms**
- * here. Sonar is right, and it is right about this line rather than
- * about `ITALIC_RUN` above, whose tempered dot the same measurement
- * clears at 0.08 / 0.02 / 0.04 / 0.30 ms.
+ * Tags are wherever `html.ts`'s `tagSpans` says they are — the
+ * tokenizer's own reading, which every gate shares — and text is the
+ * runs between them. This replaced a local scanner with `<[^>]*>`
+ * semantics (itself a linear-time replacement for the quadratic
+ * `/<[^>]*>|[^<]+/gu`, `typescript:S8786`, PR #49). That reading
+ * ended a tag at the first `>` even inside a quoted attribute value,
+ * so a `)` later in the same value counted at depth 0 and
+ * `moveParenOut` wrote `</i>)<i>` into the attribute — the one shape
+ * where "an attribute value may hold a paren and must never close
+ * one" was not true of the code. `tagSpans` agrees with the old
+ * reading on every tag the corpus holds today (0 of 637,648 differ)
+ * and is linear by construction (each `<` is visited once).
  *
- * Identical to that regex BY CONSTRUCTION, not merely on today's
- * corpus — the standard this module already holds `HAS_LETTER` to:
- *
- * - `<[^>]*>` matches a `<` through the FIRST `>` after it, because
- *   the class excludes `>` and so cannot run past one. `indexOf` finds
- *   exactly that offset.
- * - `[^<]+` matches a maximal non-empty run up to the next `<`, which
- *   is the `slice` to `indexOf('<')`.
- * - A `<` with no `>` anywhere after it matches NEITHER alternative,
- *   so the regex emits nothing for it and `lastIndex` steps one
- *   character on. That is the `at += 1` branch — the `<` is dropped,
- *   not re-read as text.
- * - `tagsAhead` latches that last case, and is what keeps the scanner
- *   linear where a bare `indexOf` would repeat the failed search per
- *   `<`: once no `>` remains at or after an offset, none remains at
- *   any later offset either.
- *
- * Checked exhaustively against the regex over all 97,656 strings of
- * length <= 7 in the alphabet `< > a ( )` — every class boundary the
- * pattern can see — comparing chunk text AND offset: 0 disagreements.
+ * One deliberate difference: a `<` that opens no tag is TEXT here,
+ * where the old scanner dropped it from the stream. Its parens are
+ * counted either way; only `Segment.tag` tells the two apart now.
  */
 function* segmentsOf(text: string): Generator<Segment> {
 	let at = 0;
-	let tagsAhead = true;
-	while (at < text.length) {
-		if (text[at] === '<') {
-			const close = tagsAhead ? text.indexOf('>', at) : -1;
-			if (close < 0) {
-				tagsAhead = false;
-				at += 1;
-				continue;
-			}
-			yield { chunk: text.slice(at, close + 1), index: at };
-			at = close + 1;
-			continue;
+	for (const span of tagSpans(text)) {
+		if (span.start > at) {
+			yield { chunk: text.slice(at, span.start), index: at, tag: false };
 		}
-		const next = text.indexOf('<', at);
-		const end = next < 0 ? text.length : next;
-		yield { chunk: text.slice(at, end), index: at };
-		at = end;
+		yield {
+			chunk: text.slice(span.start, span.end),
+			index: span.start,
+			tag: true,
+		};
+		at = span.end;
+	}
+	if (at < text.length) {
+		yield { chunk: text.slice(at), index: at, tag: false };
 	}
 }
 
@@ -270,8 +253,8 @@ function scanText(chunk: string, base: number, scan: ParenScan): boolean {
  */
 function swallowedParenAt(body: string): number {
 	const scan: ParenScan = { anchors: 0, at: -1, depth: 0 };
-	for (const { chunk, index } of segmentsOf(body)) {
-		if (chunk.startsWith('<')) {
+	for (const { chunk, index, tag } of segmentsOf(body)) {
+		if (tag) {
 			scanTag(chunk, scan);
 		} else if (scanText(chunk, index, scan)) {
 			return scan.at;

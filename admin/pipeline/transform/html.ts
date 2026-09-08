@@ -89,9 +89,14 @@ interface TagToken {
 type Token = TagToken | TextToken;
 
 /** Whether an opening tag opens a scope on the stack. Self-closing
- * forms do not. Neither does a visibly malformed tag — a `<` inside the
- * tag body means a swallowed closing tag supplied this tag's `>`, so the
- * element never closes and its `dir` would leak to end of input.
+ * forms do not. Neither does a visibly malformed tag — a `</` inside
+ * the tag body means a swallowed closing tag supplied this tag's `>`,
+ * so the element never closes and its `dir` would leak to end of
+ * input. `</` and not a bare `<`, since the scanner (`valueEnd`) keeps
+ * a tag whole across a bare `<` in a closed value; reading that tag as
+ * malformed here would open an `attributeInterior` region that nothing
+ * closes and freeze the rest of the field. Both corpus malformed tags
+ * hold `</a>`, so the two predicates agree on every tag today.
  *
  * Exported because a rule needs the same predicate — but the two arms
  * differ and must be read apart. After the MALFORMED arm, what follows
@@ -105,7 +110,7 @@ type Token = TagToken | TextToken;
  * here means the tokenizer stays the single authority on what counts
  * as a malformed open tag. */
 function opensScope(value: string): boolean {
-	return !(value.endsWith('/>') || value.slice(1).includes('<'));
+	return !(value.endsWith('/>') || value.includes('</', 1));
 }
 
 /** An extent within one field, as [start, end) offsets — a tag for
@@ -148,23 +153,27 @@ function tagNameStart(html: string, at: number): number {
  * `x=foo="b>c"` re-opened a quoted scan at the inner `="` and pulled
  * the document text after the real `>` into the tag.
  *
- * Returns -1 when a quoted value is DAMAGED, and the caller then falls
- * back to the legacy scan for the whole tag. Two shapes are damage:
+ * A quoted value closes at its quote WHEREVER that quote falls — also
+ * when no whitespace follows it (`"x"data-ref=`, a browser's
+ * missing-whitespace parse error, recovered as two attributes) and
+ * also when the tag has lost a quote and the next one sits in document
+ * text (`dir="rtl>אל"ף בית</span>`). The second reading looks wrong,
+ * and it was tried the other way: closing only before whitespace or
+ * `>`. That kept the Hebrew visible there, but sent the first shape to
+ * the legacy split and wrote attribute bytes into the text locus with
+ * no gate able to see it — the defect this scanner exists to close.
+ * The spec reading instead makes the lost-quote tag run on to the `>`
+ * of its own `</span>`, which is precisely the swallowed-closing-tag
+ * shape `opensScope` already knows: the text is frozen inside a
+ * malformed tag token, the direction every gate here prefers.
  *
- * - A `</` inside the value. That is the corpus's one real attribute
- *   defect — an unterminated `href` swallowing its own `</a>` (D00478,
- *   J00597) — and it must keep the reading every gate was measured
- *   against. Only `</`, not a bare `<`: a bare `<` in a closed value is
- *   not that defect, and treating it as one would send the tag back to
- *   its first `>` and re-open the gap on the NEXT value.
- * - A closing quote that is not followed by whitespace, `/`, `>` or
- *   the end of input — the only places a browser accepts one. A tag
- *   that has LOST a quote (`dir="rtl>אל"ף`) would otherwise borrow the
- *   next quote from document text and swallow a Hebrew run into the
- *   tag token, unseen by every text rule; and the 2,305 ASCII
- *   gershayim in this corpus are exactly that supply of quotes. A
- *   browser does swallow it. This scanner, like `attributeInterior`,
- *   prefers to freeze damage where it is rather than spread it.
+ * Returns -1 when the value is DAMAGED in the one way the corpus holds
+ * — a `</` inside it, an unterminated `href` swallowing its own `</a>`
+ * (D00478, J00597) — and the caller then falls back to the legacy
+ * first-`>` scan for the whole tag, keeping the reading every gate was
+ * measured against. Only `</`, not a bare `<`: a bare `<` in a closed
+ * value is not that defect, and treating it as one would send the tag
+ * back to its first `>` and re-open the gap on the NEXT value.
  */
 function valueEnd(html: string, from: number): number {
 	let at = from;
@@ -185,22 +194,13 @@ function valueEnd(html: string, from: number): number {
 	for (let i = at + 1; i < html.length; i++) {
 		const code = html.charCodeAt(i);
 		if (code === quote) {
-			return closesValue(html.charCodeAt(i + 1)) ? i + 1 : -1;
+			return i + 1;
 		}
 		if (code === LT && html.charCodeAt(i + 1) === SLASH) {
 			return -1;
 		}
 	}
 	return -1;
-}
-
-/** Whether the byte after a closing quote is one a browser accepts
- * there. `NaN` (end of input) passes: the tag then has no `>` and
- * `tagEnd` reports no tag at all. */
-function closesValue(code: number): boolean {
-	return (
-		Number.isNaN(code) || code === GT || code === SLASH || isTagWhitespace(code)
-	);
 }
 
 /** The legacy reading — `<[^>]*>` — for a damaged tag body. */
@@ -219,15 +219,18 @@ function legacyTagEnd(html: string, at: number): number {
  * exposed the rest of the attribute as document TEXT, which any
  * text-repair rule could then edit. 0 corpus tags carry such a `>`
  * today; the reading is for the re-fetch that might. A quote is a
- * delimiter only after an attribute's `=`, as in a browser: a `=`
- * inside the tag name or one preceded by whitespace begins a NAME
- * there, so a stray quote after either cannot open a value.
+ * delimiter only after an attribute's `=`, as in a browser, and a `=`
+ * is an attribute's only once a NAME precedes it: right after the tag
+ * name, or right after a closed value, a `=` begins a name (the HTML
+ * tokenizer's before-attribute-name state), so a quote after such a
+ * `=` cannot open a value. Whitespace on either side of a named
+ * attribute's `=` is skipped, as `DIR_RTL` above already expects.
  *
  * Every other shape reads exactly as `<[^>]*>` read it, by
- * construction: a damaged value (see `valueEnd` for the two shapes)
- * sends the whole tag to `legacyTagEnd`, and an unquoted value ends at
- * whitespace or `>` as it does to a browser. The corpus tier measures
- * that equivalence over all 637,648 tags.
+ * construction: a damaged value (see `valueEnd`) sends the whole tag
+ * to `legacyTagEnd`, and an unquoted value ends at whitespace or `>`
+ * as it does to a browser. The corpus tier measures that equivalence
+ * over all 637,648 tags.
  */
 function tagEnd(html: string, at: number): number {
 	let i = tagNameStart(html, at);
@@ -246,19 +249,28 @@ function tagEnd(html: string, at: number): number {
 		}
 		i++;
 	}
+	// Whether an attribute name has been read since the last value (or
+	// since the tag name), which is what makes the next `=` a value's.
+	let named = false;
 	for (; i < html.length; i++) {
 		const code = html.charCodeAt(i);
 		if (code === GT) {
 			return i + 1;
 		}
-		if (code === EQUALS && !isTagWhitespace(html.charCodeAt(i - 1))) {
+		if (isTagWhitespace(code)) {
+			continue;
+		}
+		if (code === EQUALS && named) {
 			const past = valueEnd(html, i + 1);
 			if (past === -1) {
 				return legacyTagEnd(html, at);
 			}
+			named = false;
 			// `past - 1` so the loop's own increment lands on `past`.
 			i = past - 1;
+			continue;
 		}
+		named = code !== SLASH;
 	}
 	return -1;
 }
@@ -272,13 +284,19 @@ function tagEnd(html: string, at: number): number {
  * value hand attribute bytes to a text repair). Prefer `mapTagsAndText`
  * below over walking these spans by hand.
  *
- * Not yet shared: six rules keep a `<[^>]*>` ATOM inside a larger
- * regex, where a function cannot be called — `abbrev-vocab.ts`,
- * `rules/duplication.ts`, `impossible-dagesh.ts`, `italic-period.ts`,
- * `section-break.ts`, `see-particle.ts`. They agree with this scanner
- * on every one of today's 637,648 tags and disagree only on a `>` in
- * a quoted value, which the corpus does not hold; each would need its
- * pattern rewritten around a pre-masked field to close that.
+ * Not yet shared: four rules keep a `<…[^>]*>` ATOM inside a larger
+ * regex, where a function cannot be called — `rules/duplication.ts`
+ * (anchor count), `impossible-dagesh.ts` (`WORD_CONTINUES`),
+ * `section-break.ts` (`TAG`), `see-particle.ts` — and six corpus
+ * gates carry one of their own (`commutation`, `holam-mater`, `links`,
+ * `plural-capture`, `section-break`, `stem-section`). They agree with
+ * this scanner on every one of today's 637,648 tags and disagree only
+ * on a `>` in a quoted value, which the corpus does not hold; each
+ * would need its pattern rewritten around a pre-masked field to close
+ * that. `rules/malformed-href.ts`'s `[^<>]*` atoms are the damage
+ * FINDER for the swallowed-`</a>` shape and read it on purpose. (The
+ * `<i>(?<body>[^<>]*)</i>` atoms in `abbrev-vocab.ts` and
+ * `italic-period.ts` are not tag readers: `<i>` carries no attributes.)
  *
  * Spans never overlap and never nest; the text between consecutive
  * spans is document text.

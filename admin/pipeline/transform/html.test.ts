@@ -1,5 +1,13 @@
 import { describe, expect, it } from 'bun:test';
-import { HEBREW, hebrewRuns, serialize, tagSpans, tokenize } from './html.ts';
+import {
+	attributeInterior,
+	HEBREW,
+	hebrewRuns,
+	opensScope,
+	serialize,
+	tagSpans,
+	tokenize,
+} from './html.ts';
 
 describe('tokenize', () => {
 	it('round-trips a nested definition byte-for-byte', () => {
@@ -197,28 +205,53 @@ describe('unquoted attribute values', () => {
 	});
 });
 
-describe('damaged quoting keeps the legacy reading', () => {
-	// Review of the first cut: a tag that has LOST a quote must not
-	// borrow one from document text. `dir="rtl>אל"ף` closed its value
-	// at the gershayim of the next word and swallowed the Hebrew run
-	// into the tag token, where no text rule could see it. A closing
-	// quote counts only where a browser expects one — before
-	// whitespace, `/`, `>` or end of input; anywhere else the tag is
-	// damaged and reads as `<[^>]*>` read it.
-	it('does not close a value on a quote inside document text', () => {
-		expect(
-			tokenize('<span dir="rtl>אל"ף בית</span> more').map((t) => t.value),
-		).toEqual(['<span dir="rtl>', 'אל"ף בית', '</span>', ' more']);
+describe('damaged quoting', () => {
+	const texts = (html: string): string[] =>
+		tokenize(html)
+			.filter((t) => t.kind === 'text')
+			.map((t) => t.value);
+
+	// A quoted value closes at its quote, as in a browser, wherever that
+	// quote falls. A tag that has LOST a quote — `dir="rtl>אל"ף בית` —
+	// therefore closes its value at the gershayim of the next word and
+	// runs on to the `>` of its own `</span>`: the shape `opensScope`
+	// already names, an unterminated value swallowing a closing tag.
+	// The swallowed text is frozen inside the tag token rather than
+	// exposed, which is the damage direction every gate here prefers.
+	// (The other reading — a closing quote counts only before
+	// whitespace or `>` — kept the Hebrew visible here but sent the
+	// missing-whitespace case below to the legacy split, writing
+	// attribute bytes into the text locus with no gate able to see it.)
+	it('reads a lost quote as a swallowed closing tag', () => {
+		const tokens = tokenize('<span dir="rtl>אל"ף בית</span> more');
+		expect(tokens.map((t) => t.value)).toEqual([
+			'<span dir="rtl>אל"ף בית</span>',
+			' more',
+		]);
+		expect(opensScope(tokens[0]?.value ?? '')).toBe(false);
+	});
+
+	// `"x"data-ref="…"` is a browser's missing-whitespace-between-
+	// attributes parse error, recovered as two attributes. The value
+	// after it may hold `>` and must stay inside the tag.
+	it('closes a value on its quote even without whitespace after', () => {
+		expect(texts('<a href="/x>אל"ף"data-ref="a>b">t</a>')).toEqual(['t']);
 	});
 
 	// Only a swallowed CLOSING tag (`</`) is the corpus's damage; a bare
-	// `<` in a closed value is not, and must not send the whole tag back
-	// to the first `>` — that would re-open the gap on the NEXT value.
-	it('keeps a tag whole when a closed value holds a bare <', () => {
-		const tokens = tokenize('<a title="a<b" data-x="c>d">t</a>');
-		expect(tokens.filter((t) => t.kind === 'text').map((t) => t.value)).toEqual(
-			['t'],
-		);
+	// `<` in a closed value is not. It must neither send the tag back to
+	// its first `>` (re-opening the gap on the NEXT value) nor read as
+	// malformed downstream, which would open an attribute-interior
+	// region over the rest of the field.
+	it('keeps a tag whole and well-formed on a bare < in a value', () => {
+		const html = '<a title="a<b" dir="rtl" data-x="c>d">א</a> t';
+		const tokens = tokenize(html);
+		expect(texts(html)).toEqual(['א', ' t']);
+		expect(tokens.filter((t) => t.kind === 'text').map((t) => t.rtl)).toEqual([
+			true,
+			false,
+		]);
+		expect(attributeInterior(tokens).size).toBe(0);
 	});
 
 	it('still falls back on a value that swallowed a closing tag', () => {
@@ -233,6 +266,29 @@ describe('damaged quoting keeps the legacy reading', () => {
 		expect(tokenize('<a="x>y">t</a>').map((t) => t.value)).toEqual([
 			'<a="x>',
 			'y">t',
+			'</a>',
+		]);
+	});
+});
+
+describe('whitespace around =', () => {
+	// After an attribute NAME, a browser skips whitespace on both sides
+	// of `=` and then opens the value (`DIR_RTL` in html.ts anticipates
+	// the same shape). Refusing it would send `href = "/x>y"` to the
+	// legacy reading and hand `y">` to the text rules again.
+	it('opens a value after an attribute name, spaces around =', () => {
+		const tokens = tokenize('<a href = "/x>y">t</a>');
+		expect(tokens.filter((t) => t.kind === 'text').map((t) => t.value)).toEqual(
+			['t'],
+		);
+	});
+
+	// But a `=` with no name before it — right after a closed value, or
+	// after the tag name — begins a NAME, as `<a="x>` does above.
+	it('does not open a value from a = that follows a closed value', () => {
+		expect(tokenize('<a x="1" ="y>z">t</a>').map((t) => t.value)).toEqual([
+			'<a x="1" ="y>',
+			'z">t',
 			'</a>',
 		]);
 	});
