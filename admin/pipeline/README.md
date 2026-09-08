@@ -10,7 +10,7 @@ truth layer, compile truth into serving artifacts on every deploy
 |---|---|---|---|
 | Source acquisition | `fetch.ts` | working | on demand, re-runnable |
 | Print locator index | `page-index/build.ts` | built 2026-08-17, data committed | once (needs the IA hOCR) |
-| Migration (source → truth) | `migrate.ts` | built, dry-run gated | once, then retires |
+| Migration (source → truth) | `migrate.ts` | built, awaiting blessing | once, then retires |
 | Compile (truth → serving) | `compile.ts` | designed, not built | every deploy |
 
 Migration and compile are specified in the

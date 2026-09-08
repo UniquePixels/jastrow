@@ -43,7 +43,12 @@ import {
 	sourceEntries,
 } from '../transform/rules/corpus-fixture.ts';
 import { applyTransforms } from '../transform/run.ts';
-import { buildHeadwordMap, type Unresolved } from './cite.ts';
+import {
+	buildHeadwordMap,
+	checkQuarantine,
+	loadQuarantine,
+	type Unresolved,
+} from './cite.ts';
 import { finishEntry } from './finish.ts';
 import {
 	checkChain,
@@ -270,8 +275,12 @@ it('pins every migration gate at corpus scale', async () => {
 	});
 	expect(gates.composition.failures).toEqual([]);
 	expect(gates.markupCarries.length).toBe(MARKUP_CARRIES);
-	// Gate 6's input. The quarantine list itself arrives in Task 13.
+	// Gate 6's input, and the quarantine list seeded from it in Task 13.
 	expect(gates.unresolved.length).toBe(UNRESOLVED);
+	expect(checkQuarantine(gates.unresolved, await loadQuarantine())).toEqual({
+		stale: [],
+		unlisted: [],
+	});
 	expect(gates.nonHighPages.length).toBe(NON_HIGH_PAGES);
 	const perStem = new Map<string, number>();
 	for (const { text } of forms) {
