@@ -172,3 +172,68 @@ describe('tagSpans', () => {
 		expect(tagSpans('a < b > c')).toEqual([]);
 	});
 });
+
+describe('unquoted attribute values', () => {
+	// CodeRabbit on the first cut of this scanner: an unquoted value runs
+	// to whitespace or `>` (HTML tokenizer, "attribute value (unquoted)"
+	// state), and a `=` or `"` inside it is literal. Reopening a quoted
+	// scan at that inner `="` hid the real `>` and pulled document text
+	// into the tag. 0 corpus values are unquoted; the guard is for the
+	// re-fetch.
+	it('does not reopen a quoted scan inside an unquoted value', () => {
+		expect(tokenize('<a x=foo="b>c">t</a>').map((t) => t.value)).toEqual([
+			'<a x=foo="b>',
+			'c">t',
+			'</a>',
+		]);
+	});
+
+	it('ends an unquoted value at whitespace and reads the next attribute', () => {
+		expect(tokenize('<a x=foo y="b>c">t</a>').map((t) => t.value)).toEqual([
+			'<a x=foo y="b>c">',
+			't',
+			'</a>',
+		]);
+	});
+});
+
+describe('damaged quoting keeps the legacy reading', () => {
+	// Review of the first cut: a tag that has LOST a quote must not
+	// borrow one from document text. `dir="rtl>אל"ף` closed its value
+	// at the gershayim of the next word and swallowed the Hebrew run
+	// into the tag token, where no text rule could see it. A closing
+	// quote counts only where a browser expects one — before
+	// whitespace, `/`, `>` or end of input; anywhere else the tag is
+	// damaged and reads as `<[^>]*>` read it.
+	it('does not close a value on a quote inside document text', () => {
+		expect(
+			tokenize('<span dir="rtl>אל"ף בית</span> more').map((t) => t.value),
+		).toEqual(['<span dir="rtl>', 'אל"ף בית', '</span>', ' more']);
+	});
+
+	// Only a swallowed CLOSING tag (`</`) is the corpus's damage; a bare
+	// `<` in a closed value is not, and must not send the whole tag back
+	// to the first `>` — that would re-open the gap on the NEXT value.
+	it('keeps a tag whole when a closed value holds a bare <', () => {
+		const tokens = tokenize('<a title="a<b" data-x="c>d">t</a>');
+		expect(tokens.filter((t) => t.kind === 'text').map((t) => t.value)).toEqual(
+			['t'],
+		);
+	});
+
+	it('still falls back on a value that swallowed a closing tag', () => {
+		expect(
+			tokenize('<a href="/x.1</a>" data-ref="y">t</a>').map((t) => t.value),
+		).toEqual(['<a href="/x.1</a>', '" data-ref="y">t', '</a>']);
+	});
+
+	// `=` right after the tag name begins an attribute NAME in the HTML
+	// tokenizer, not a value.
+	it('does not open a value from a = with no attribute name', () => {
+		expect(tokenize('<a="x>y">t</a>').map((t) => t.value)).toEqual([
+			'<a="x>',
+			'y">t',
+			'</a>',
+		]);
+	});
+});

@@ -85,7 +85,7 @@
  */
 import type { SourceEntry } from '../../body/types.ts';
 import { mapFields } from '../fields.ts';
-import { HEBREW, HEBREW_ATOM, tagSpans } from '../html.ts';
+import { HEBREW, HEBREW_ATOM, mapTagsAndText } from '../html.ts';
 import { fieldsOf } from '../no-new-text.ts';
 import type { Rule, TransformRecord, TransformResult } from '../types.ts';
 
@@ -111,10 +111,8 @@ const TOKEN_CHAR = new RegExp(`[${HEBREW}̇]`, 'u');
 /**
  * Replace every flanked run in `value`, leaving tag interiors alone.
  *
- * The mask is built by blanking each tag — as `html.ts`'s `tagSpans`
- * reads it, the same quote-aware scanner the tokenizer uses, so a `>`
- * inside a quoted attribute value cannot end the tag early and expose
- * the rest of the attribute here — to spaces of the same length, so
+ * The mask is built by blanking each tag (as `html.ts`'s tokenizer
+ * reads it — see `tagSpans` there) to spaces of the same length, so
  * offsets in the masked copy are the offsets in `value` and a match
  * found on the mask can be spliced out of the original. Spaces cannot
  * themselves satisfy the lookaround, so nothing inside a tag can match
@@ -129,14 +127,11 @@ function repairText(value: string): string {
 	if (!value.includes(`׳'`)) {
 		return value;
 	}
-	let masked = '';
-	let copied = 0;
-	for (const span of tagSpans(value)) {
-		masked +=
-			value.slice(copied, span.start) + ' '.repeat(span.end - span.start);
-		copied = span.end;
-	}
-	masked += value.slice(copied);
+	const masked = mapTagsAndText(
+		value,
+		(text) => text,
+		(tag) => ' '.repeat(tag.length),
+	);
 	let out = '';
 	let read = 0;
 	for (const match of masked.matchAll(FLANKED)) {

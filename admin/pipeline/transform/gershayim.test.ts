@@ -106,12 +106,9 @@ it('an unterminated tag does not swallow the rest of the field', () => {
 it('repairText leaves a flanked quote inside a >-holding value alone', () => {
 	// The mask is `html.ts`'s quote-aware scanner now: a `>` inside a
 	// quoted value no longer closes the tag early and hands the rest of
-	// the attribute to the text locus.
-	const html = `<a data-ref=${Q}x>אל${Q}ף${Q}>אל${Q}ף</a>`;
-	expect(repairText(html)).toBe(
-		`<a data-ref=${Q}x>אל${Q}ף${Q}>אל${GERSHAYIM}ף</a>`,
-	);
-	expect(repairTags(html)).toBe(
-		`<a data-ref=${Q}x>אל${GERSHAYIM}ף${Q}>אל${Q}ף</a>`,
-	);
+	// the attribute to the text locus. Single-quoted here so the value
+	// can hold the ASCII gershayim without being a damaged tag.
+	const html = `<a data-ref='x>אל${Q}ף'>אל${Q}ף</a>`;
+	expect(repairText(html)).toBe(`<a data-ref='x>אל${Q}ף'>אל${GERSHAYIM}ף</a>`);
+	expect(repairTags(html)).toBe(`<a data-ref='x>אל${GERSHAYIM}ף'>אל${Q}ף</a>`);
 });

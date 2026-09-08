@@ -27,21 +27,16 @@
  * and `rules/gershayim.corpus.test.ts` measures that over all 32,512 entries
  * rather than asserting it.
  *
- * The tag mask is `html.ts`'s `tagSpans` — the tokenizer's own
- * quote-aware scanner — and no longer a local `<[^<>]*>`. That local
- * copy was the mask the spec's own scope measurement used, and it was
- * the conservative reading on a `<` with no `>` before the next `<`;
- * but it was blind in the direction that matters here: a `>` inside a
- * quoted attribute value closed its tag early and handed the rest of
- * the attribute to `repairText` as document text. Sharing the scanner
- * means the text locus is exactly the tokenizer's text tokens, and the
- * two cannot drift. The one shape the two readings ever disagreed on —
- * the pair of tags whose `href` swallows their own `</a>` — reads as
- * the tokenizer reads it: the tag runs to the swallowed `</a>`'s `>`,
- * and the corpus tier gates every entry through `checkLinkTargets` so
- * that shape cannot become a silent edit inside an attribute.
+ * The tag/text split is `html.ts`'s `mapTagsAndText`, so the text
+ * locus is exactly the tokenizer's text tokens and the two cannot
+ * drift (see `tagSpans` there for why a local mask could). The pair of
+ * tags whose `href` swallows their own `</a>` read as the tokenizer
+ * reads them — the tag runs to the swallowed `</a>`'s `>`, and the
+ * attribute tail after it is text to both — and the corpus tier gates
+ * every entry through `checkLinkTargets` so that tail cannot take a
+ * silent edit.
  */
-import { HEBREW, HEBREW_ATOM, tagSpans } from './html.ts';
+import { HEBREW, HEBREW_ATOM, mapTagsAndText } from './html.ts';
 
 /** U+05F4 HEBREW PUNCTUATION GERSHAYIM — the mark the corpus should
  * have written and the ONLY character this module ever produces. */
@@ -81,36 +76,16 @@ function repairAll(value: string): string {
 	return value.includes('"') ? value.replace(FLANKED, GERSHAYIM) : value;
 }
 
+const same = (s: string): string => s;
+
 /** Repair document text, leaving every `<…>` tag byte-identical. */
 function repairText(value: string): string {
-	if (!value.includes('"')) {
-		return value;
-	}
-	let out = '';
-	let at = 0;
-	for (const span of tagSpans(value)) {
-		out +=
-			repairAll(value.slice(at, span.start)) +
-			value.slice(span.start, span.end);
-		at = span.end;
-	}
-	return out + repairAll(value.slice(at));
+	return value.includes('"') ? mapTagsAndText(value, repairAll, same) : value;
 }
 
 /** Repair `<…>` tag interiors, leaving every text run byte-identical. */
 function repairTags(value: string): string {
-	if (!value.includes('"')) {
-		return value;
-	}
-	let out = '';
-	let at = 0;
-	for (const span of tagSpans(value)) {
-		out +=
-			value.slice(at, span.start) +
-			repairAll(value.slice(span.start, span.end));
-		at = span.end;
-	}
-	return out + value.slice(at);
+	return value.includes('"') ? mapTagsAndText(value, same, repairAll) : value;
 }
 
 export { GERSHAYIM, repairTags, repairText };
