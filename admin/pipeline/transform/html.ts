@@ -261,13 +261,11 @@ function tagEnd(html: string, at: number): number {
 	// Whether an attribute name has been read since the last value (or
 	// since the tag name), which is what makes the next `=` a value's.
 	let named = false;
-	for (let i = tagNameEnd(html, name); i < html.length; i++) {
+	let i = tagNameEnd(html, name);
+	while (i < html.length) {
 		const code = html.codePointAt(i);
 		if (code === GT) {
 			return i + 1;
-		}
-		if (isTagWhitespace(code)) {
-			continue;
 		}
 		if (code === EQUALS && named) {
 			const past = valueEnd(html, i + 1);
@@ -275,11 +273,13 @@ function tagEnd(html: string, at: number): number {
 				return legacyTagEnd(html, at);
 			}
 			named = false;
-			// `past - 1` so the loop's own increment lands on `past`.
-			i = past - 1;
+			i = past;
 			continue;
 		}
-		named = code !== SLASH;
+		if (!isTagWhitespace(code)) {
+			named = code !== SLASH;
+		}
+		i++;
 	}
 	return -1;
 }
