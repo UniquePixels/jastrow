@@ -127,19 +127,40 @@ const EQUALS = 0x3d;
 const DQUOTE = 0x22;
 const SQUOTE = 0x27;
 
-function isAsciiLetter(code: number): boolean {
-	return (code >= 0x41 && code <= 0x5a) || (code >= 0x61 && code <= 0x7a);
+// Both accept `undefined` — what `codePointAt` returns past the end of
+// input — and read it as "not this class", so a scan that runs off the
+// end needs no separate bounds check at each probe.
+function isAsciiLetter(code: number | undefined): boolean {
+	return (
+		code !== undefined &&
+		((code >= 0x41 && code <= 0x5a) || (code >= 0x61 && code <= 0x7a))
+	);
 }
 
-function isTagWhitespace(code: number): boolean {
+function isTagWhitespace(code: number | undefined): boolean {
 	return code === 0x20 || code === 0x09 || code === 0x0a || code === 0x0d;
 }
 
 /** Where an ASCII letter starts a tag NAME after the `<` at `at` —
  * that is, the offset of the letter, or -1 when `<` is not a tag. */
 function tagNameStart(html: string, at: number): number {
-	const after = html.charCodeAt(at + 1) === SLASH ? at + 2 : at + 1;
-	return isAsciiLetter(html.charCodeAt(after)) ? after : -1;
+	const after = html.codePointAt(at + 1) === SLASH ? at + 2 : at + 1;
+	return isAsciiLetter(html.codePointAt(after)) ? after : -1;
+}
+
+/** The offset just past a tag NAME starting at `from`: the first
+ * whitespace, `/` or `>` after it (or the end of input). A `=` inside
+ * the name is a name byte, so the attribute scan starts after it. */
+function tagNameEnd(html: string, from: number): number {
+	let at = from;
+	while (at < html.length) {
+		const code = html.codePointAt(at);
+		if (code === GT || code === SLASH || isTagWhitespace(code)) {
+			break;
+		}
+		at++;
+	}
+	return at;
 }
 
 /**
@@ -177,13 +198,13 @@ function tagNameStart(html: string, at: number): number {
  */
 function valueEnd(html: string, from: number): number {
 	let at = from;
-	while (isTagWhitespace(html.charCodeAt(at))) {
+	while (isTagWhitespace(html.codePointAt(at))) {
 		at++;
 	}
-	const quote = html.charCodeAt(at);
+	const quote = html.codePointAt(at);
 	if (quote !== DQUOTE && quote !== SQUOTE) {
 		while (at < html.length) {
-			const code = html.charCodeAt(at);
+			const code = html.codePointAt(at);
 			if (code === GT || isTagWhitespace(code)) {
 				break;
 			}
@@ -192,11 +213,11 @@ function valueEnd(html: string, from: number): number {
 		return at;
 	}
 	for (let i = at + 1; i < html.length; i++) {
-		const code = html.charCodeAt(i);
+		const code = html.codePointAt(i);
 		if (code === quote) {
 			return i + 1;
 		}
-		if (code === LT && html.charCodeAt(i + 1) === SLASH) {
+		if (code === LT && html.codePointAt(i + 1) === SLASH) {
 			return -1;
 		}
 	}
@@ -233,27 +254,15 @@ function legacyTagEnd(html: string, at: number): number {
  * over all 637,648 tags.
  */
 function tagEnd(html: string, at: number): number {
-	let i = tagNameStart(html, at);
-	if (i === -1) {
+	const name = tagNameStart(html, at);
+	if (name === -1) {
 		return -1;
-	}
-	// The tag name runs to whitespace, `/` or `>`; a `=` inside it is a
-	// name byte, so the attribute loop starts after it.
-	while (i < html.length) {
-		const code = html.charCodeAt(i);
-		if (code === GT) {
-			return i + 1;
-		}
-		if (code === SLASH || isTagWhitespace(code)) {
-			break;
-		}
-		i++;
 	}
 	// Whether an attribute name has been read since the last value (or
 	// since the tag name), which is what makes the next `=` a value's.
 	let named = false;
-	for (; i < html.length; i++) {
-		const code = html.charCodeAt(i);
+	for (let i = tagNameEnd(html, name); i < html.length; i++) {
+		const code = html.codePointAt(i);
 		if (code === GT) {
 			return i + 1;
 		}
