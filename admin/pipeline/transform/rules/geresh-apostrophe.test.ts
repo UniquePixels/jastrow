@@ -2,6 +2,7 @@ import { describe, expect, it } from 'bun:test';
 import type { SourceEntry } from '../../body/types.ts';
 import { checkNoNewText } from '../no-new-text.ts';
 import { gereshApostropheGershayim, repairText } from './geresh-apostrophe.ts';
+import { gershayimInBody } from './gershayim.ts';
 
 /** A minimal entry carrying `definition` as its only interesting
  * field, so a test asserts on the repair and not on the field walk. */
@@ -124,5 +125,35 @@ describe('gereshApostropheGershayim', () => {
 
 	it('runs in the text-repairs phase', () => {
 		expect(gereshApostropheGershayim.phase).toBe('text-repairs');
+	});
+
+	// CodeRabbit PR #71 comment 3951117393: `applyTransforms` feeds
+	// each rule the previous rule's output, and `gershayimInBody` runs
+	// earlier in the same `text-repairs` phase and can already have
+	// written a `״` into this same entry. The old implementation
+	// attributed a record's tokens by rescanning the healed field for
+	// every `״`, so it credited this call with a mark it never wrote.
+	// This reproduces the live composed order rather than running the
+	// rule in isolation.
+	it('does not credit an earlier rule’s gershayim to this one', () => {
+		// `gershayimInBody` runs first and converts `ד"א`'s ASCII quote
+		// to `ד״א`, doing real work before this rule ever sees the
+		// entry — composing exactly as `run.ts` would.
+		const composedInput = entryWith(`ד"א ד׳'א`);
+		const afterGershayim = gershayimInBody.apply(composedInput).entry;
+		// Sanity: the prior rule did write a second, unrelated gershayim
+		// into this entry before ours ever runs.
+		expect(
+			afterGershayim.content?.senses[0]?.definition?.match(/״/gu) ?? [],
+		).toHaveLength(1);
+		const result = gereshApostropheGershayim.apply(afterGershayim);
+		expect(result.records).toEqual([
+			{
+				detail: '1 restored: ד״א',
+				rid: 'A00001',
+				ruleId: 'geresh-apostrophe-as-gershayim',
+			},
+		]);
+		expect(result.removes).toEqual([`׳'`]);
 	});
 });

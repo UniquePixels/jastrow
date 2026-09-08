@@ -1384,7 +1384,9 @@ describe('the classification is earned, not declared', () => {
 	it('exactly the UNLINK rules ever remove an anchor', async () => {
 		await scan();
 		expect(everDeclared('unlinks')).toEqual([...UNLINK].toSorted(byId));
-	}, 180_000);
+		// 360 s: the file may be first in its shard and pay the fixture
+		// cold start (~110 s on CI) plus its own tables.
+	}, 360_000);
 
 	// WHAT EARNS THE CROSS-PHASE SKIP IN RULES 1 AND 4. Those two
 	// assertions can no longer compare a structural unlink rule against
@@ -1605,5 +1607,7 @@ describe('the classification is earned, not declared', () => {
 			}
 		}
 		expect(checked).toBeGreaterThan(32_512 * FIELD.size);
-	}, 180_000);
+		// 360 s: the file may be first in its shard and pay the fixture
+		// cold start (~110 s on CI) plus its own tables.
+	}, 360_000);
 });
