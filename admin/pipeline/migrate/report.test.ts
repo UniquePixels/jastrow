@@ -29,6 +29,7 @@ function greenReport(): Report {
 		entries: 1,
 		gates,
 		headwordReview: [],
+		markupCarries: [],
 		nonHighPages: [],
 		patches: { absorbed: 0, accepted: 0, applied: 0, carried: 0 },
 		quarantine: [],
@@ -74,6 +75,9 @@ describe('renderBlessing', () => {
 	it('renders every required section', () => {
 		const report = greenReport();
 		report.headwordReview = ['A00002: ambiguous vocalization'];
+		report.markupCarries = [
+			'A00002: senses[0].gloss: carried i across a unit boundary',
+		];
 		report.nonHighPages = ['A00003: page confidence low'];
 		report.slugCollisions = { '2': 3 };
 		const quarantine: QuarantineRow[] = [
@@ -93,6 +97,7 @@ describe('renderBlessing', () => {
 		const doc = renderBlessing(report, [sample]);
 		expect(doc).toContain('| Gate |');
 		expect(doc).toContain('## Headword review');
+		expect(doc).toContain('## Markup carried across unit boundaries');
 		expect(doc).toContain('## Page placements needing review');
 		expect(doc).toContain('## Slug collisions');
 		expect(doc).toContain('## Quarantined internal targets');

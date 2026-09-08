@@ -24,6 +24,11 @@ interface Report {
 	entries: number;
 	gates: Record<GateName, Tally>;
 	headwordReview: string[];
+	/** `rid: path: …` lines from `finishEntry` noting an inline tag run
+	 * that crossed a body-unit boundary or was closed at the end of its
+	 * sense sequence (migrate spec §2.2/§4.2, fix round 1). Informational
+	 * — never a gate failure. */
+	markupCarries: string[];
 	nonHighPages: string[];
 	/** Informational patch accounting (Ruling F): the accepted corpus
 	 * size, how many patches applied, and the carry-over split between
@@ -56,6 +61,7 @@ function createReport(): Report {
 		entries: 0,
 		gates,
 		headwordReview: [],
+		markupCarries: [],
 		nonHighPages: [],
 		patches: { absorbed: 0, accepted: 0, applied: 0, carried: 0 },
 		quarantine: [],
@@ -135,6 +141,10 @@ function renderBlessing(report: Report, samples: readonly Sample[]): string {
 		'## Headword review',
 		'',
 		list(report.headwordReview, 'none'),
+		'',
+		'## Markup carried across unit boundaries',
+		'',
+		list(report.markupCarries, 'none'),
 		'',
 		'## Page placements needing review',
 		'',

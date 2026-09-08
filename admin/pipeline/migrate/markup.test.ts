@@ -1,6 +1,6 @@
 import { describe, expect, it } from 'bun:test';
 import { tokenize } from '../transform/html.ts';
-import { translateMarkup } from './markup.ts';
+import { type TagCarry, translateMarkup } from './markup.ts';
 
 const resolve = ({ href }: { dataRef: string; href: string }): string =>
 	href.includes('Jastrow') ? 'A00013' : 'Shabbat 104a';
@@ -76,6 +76,32 @@ describe('translateMarkup', () => {
 		expect(out.text).toBe('<he>אב');
 		expect(out.problems).toEqual(['unclosed: span']);
 		expect(textOf(out.text)).toBe(textOf(html));
+	});
+	it('carries an unclosed tag across a field boundary with a shared carry', () => {
+		const carry: TagCarry = { open: [] };
+		const first = translateMarkup('x <i>a', resolve, carry);
+		expect(first.text).toBe('x <i>a</i>');
+		expect(first.carried).toBe(1);
+		expect(first.problems).toEqual([]);
+		const second = translateMarkup('b</i> y', resolve, carry);
+		expect(second.text).toBe('<i>b</i> y');
+		expect(second.carried).toBe(0);
+		expect(second.problems).toEqual([]);
+	});
+	it('carries an rtl anchor across a field boundary with the same ref', () => {
+		const carry: TagCarry = { open: [] };
+		const first = translateMarkup(
+			'x <a dir="rtl" class="refLink" href="/Jastrow,_אָב.1" data-ref="Jastrow, אָב 1">אָב',
+			resolve,
+			carry,
+		);
+		expect(first.text).toBe('x <cite ref="A00013"><he>אָב</he></cite>');
+		expect(first.carried).toBe(1);
+		expect(first.problems).toEqual([]);
+		const second = translateMarkup('ות</a> y', resolve, carry);
+		expect(second.text).toBe('<cite ref="A00013"><he>ות</he></cite> y');
+		expect(second.carried).toBe(0);
+		expect(second.problems).toEqual([]);
 	});
 	it('closes the outer cite at the outer </a> around a malformed inner anchor', () => {
 		const html =

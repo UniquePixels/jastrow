@@ -70,36 +70,35 @@ const CHAIN_MARKS = 32_514;
 const COMPOSITION_MARKS = 65_024;
 
 /**
- * Gate 9's five red marks, 2026-09-07, and the reason they are named
- * here rather than tolerated as a count.
+ * Gate 9's five red marks from the first dry run (2026-09-07) are
+ * MOSTLY resolved as of fix round 1 (2026-09-08): `translateMarkup`
+ * gained an optional `TagCarry` and `finishEntry` shares one carry
+ * across a sense array's gloss/unit fields IN DOCUMENT ORDER, so a tag
+ * run that crosses a body-model split between siblings (C00869,
+ * H01022, J00603: `<i>`/`<a>` opened in one field and closed in the
+ * next) is reopened rather than reported unclosed, and a run still
+ * open at the end of its sequence (J00597 — a genuinely unbalanced
+ * `<a>` in the snapshot itself, 35 opens against 34 closes) is
+ * force-closed there instead. Four of the five are fully green.
  *
- * Every one is a `translateMarkup` complaint that a body FIELD is not
- * balanced HTML — an open tag with no close, or a close with no open.
- * They fall into two classes, and neither is a defect in any module
- * this task wrote:
- *
- *   A tag run CROSSING A BODY-MODEL SPLIT — C00869, H01022, S02102
- *     (`<i>`) and J00603 (`<a>`). Raw-source tag counts for all four
- *     are balanced (measured: i 15/15, 10/10, 23/23; a 12/12). The
- *     split is `buildTrace`'s: a form-section marker (`Part. pass.`,
- *     `Pl.`) or a unit boundary falls INSIDE an italic or anchor run,
- *     so the open lands in one field and the close in the next. Gate 1
- *     passes because the rejoin is byte-exact, and gate 3 passes
- *     because tag-stripped text is unchanged — the tag seam is exactly
- *     what neither gate can see.
- *
- *   B GENUINELY UNBALANCED SOURCE — J00597 alone: 35 `<a` opens
- *     against 34 `</a>` closes in the snapshot itself. A Sefaria-side
- *     defect; research-track work (a transform rule or a patch), not
- *     migration's.
- *
- * Pinned as an exact rid list, not as `failures.length === 5`: a sixth
- * entry joining the set, or one of these being fixed, must fail HERE
- * and be read, rather than sliding under a tolerance. `migrate.ts`
- * itself is unmoved — gate 9 is red, `isGreen` is false, and `--write`
- * is refused until the list is empty.
+ * S02102 is NOT: it is a different shape from the other four, and the
+ * ruling's own design — "child senses and stems start a fresh carry"
+ * — does not cover it. `senses[2].gloss` opens `<i>` that its own
+ * FIRST CHILD subsense (`senses[2].senses[0].gloss`) closes, not the
+ * next field in `senses[2]`'s own flat gloss/units list. Because a
+ * child sequence starts a fresh carry, that `<i>` is never handed to
+ * `senses[2].senses[0]`; instead it dangles at the end of the
+ * TOP-LEVEL flow (past `senses[3]`, forced closed at
+ * `senses[3].units[2]`, hence the `markupCarries` chain below), while
+ * `senses[2].senses[0].gloss` meets a `</i>` with nothing open and
+ * reports `unbalanced </i>`. Fixing this would mean carrying a
+ * sense's own trailing carry INTO its first child sequence — the
+ * ruling specifies the opposite ("fresh carry"), so this is left as a
+ * genuine residual finding for a follow-up round, not silently
+ * patched around. Gate 9 is pinned at its true measured state: one
+ * failure, named exactly.
  */
-const COMPOSITION_RED = ['C00869', 'H01022', 'J00597', 'J00603', 'S02102'];
+const COMPOSITION_RED = ['S02102: S02102: unbalanced </i>'];
 
 /** Unresolved internal `<cite ref>` targets — gate 6's input. Task 13
  * seeds the quarantine list from exactly this set, so gate 6 itself is
@@ -111,6 +110,12 @@ const NON_HIGH_PAGES = 2191;
 /** Stems more than one headword slugs to — the members of every
  * numbered slug family. 4,407 of 25,293 stems collide. */
 const COLLIDING_STEMS = 4407;
+/** `finishEntry`'s `markupCarries` lines, measured 2026-09-08 (fix
+ * round 1) from the same full dry run that produced `COMPOSITION_RED`
+ * above: 1 from C00869, 1 from H01022, 6 from J00597 (five boundary
+ * carries plus one closed-at-sequence-end), 1 from J00603, and 5 from
+ * S02102 (the dangling `<i>` chain described above). */
+const MARKUP_CARRIES = 14;
 
 interface Composed {
 	body: BodyEntry;
@@ -122,6 +127,7 @@ interface Gates {
 	chain: Tally;
 	composition: Tally;
 	headwordRoundTrip: Tally;
+	markupCarries: string[];
 	nonHighPages: string[];
 	pages: Tally;
 	schema: Tally;
@@ -161,6 +167,7 @@ it('pins every migration gate at corpus scale', async () => {
 		chain: tally(),
 		composition: tally(),
 		headwordRoundTrip: tally(),
+		markupCarries: [],
 		nonHighPages: [],
 		pages: tally(),
 		schema: tally(),
@@ -221,6 +228,7 @@ it('pins every migration gate at corpus scale', async () => {
 			slugs,
 		});
 		gates.unresolved.push(...finished.unresolved);
+		gates.markupCarries.push(...finished.markupCarries);
 		mark(
 			gates.composition,
 			finished.problems.length === 0,
@@ -256,11 +264,10 @@ it('pins every migration gate at corpus scale', async () => {
 		pass: TEXT_FIELDS,
 		total: TEXT_FIELDS,
 	});
-	// Gate 9 is RED by five named entries; see COMPOSITION_RED above.
+	// Gate 9 is RED by one named entry; see COMPOSITION_RED above.
 	expect(gates.composition.total).toBe(COMPOSITION_MARKS);
-	expect(gates.composition.failures.map((f) => f.slice(0, 6)).sort()).toEqual(
-		COMPOSITION_RED,
-	);
+	expect(gates.composition.failures).toEqual(COMPOSITION_RED);
+	expect(gates.markupCarries.length).toBe(MARKUP_CARRIES);
 	// Gate 6's input. The quarantine list itself arrives in Task 13.
 	expect(gates.unresolved.length).toBe(UNRESOLVED);
 	expect(gates.nonHighPages.length).toBe(NON_HIGH_PAGES);
@@ -272,4 +279,4 @@ it('pins every migration gate at corpus scale', async () => {
 	expect([...perStem.values()].filter((n) => n > 1).length).toBe(
 		COLLIDING_STEMS,
 	);
-});
+}, 600_000);

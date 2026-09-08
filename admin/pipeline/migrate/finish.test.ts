@@ -66,4 +66,21 @@ describe('finishEntry', () => {
 		expect(entry.page).toBeUndefined();
 		expect(problems).toEqual(['A00014: no page-index row']);
 	});
+	it('carries an <i> a gloss opens into the unit that closes it', () => {
+		const crossing: BodyEntry = {
+			...body,
+			senses: [{ gloss: 'm. <i>father', units: ['of Abraham</i>.'] }],
+		};
+		const { entry, markupCarries, problems } = finishEntry(
+			source,
+			crossing,
+			context,
+		);
+		expect(entry.senses[0]?.gloss).toBe('m. <i>father</i>');
+		expect(entry.senses[0]?.units[0]).toBe('<i>of Abraham</i>.');
+		expect(problems).toEqual([]);
+		expect(markupCarries).toEqual([
+			'A00014: senses[0].gloss: carried i across a unit boundary',
+		]);
+	});
 });

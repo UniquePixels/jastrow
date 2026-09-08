@@ -252,6 +252,7 @@ function finishAll(
 		// same `finished.entry`, would fail on every respelled headword.
 		const finished = finishEntry(c.entry, c.body, indexes);
 		report.headwordReview.push(...finished.headwordReview);
+		report.markupCarries.push(...finished.markupCarries);
 		report.unresolved.push(...finished.unresolved);
 		mark(
 			report.gates.composition,
@@ -348,7 +349,7 @@ function printGates(report: Report): void {
 		);
 	}
 	console.log(
-		`unresolved=${report.unresolved.length} headwordReview=${report.headwordReview.length} nonHighPages=${report.nonHighPages.length}`,
+		`unresolved=${report.unresolved.length} headwordReview=${report.headwordReview.length} nonHighPages=${report.nonHighPages.length} markupCarries=${report.markupCarries.length}`,
 	);
 	console.log(`report written to ${REPORT_PATH}; evidence to ${BLESSING_PATH}`);
 }
