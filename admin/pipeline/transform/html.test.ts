@@ -293,3 +293,17 @@ describe('whitespace around =', () => {
 		]);
 	});
 });
+
+describe('tagSpans on damaged input', () => {
+	// CodeRabbit on the second cut: with no `>` after an offset, no `<`
+	// after it can open a tag, yet each one scanned to the end of the
+	// field — quadratic on `'<a '.repeat(n)`, the shape whose cousin
+	// Sonar S8786 flagged in italic-paren.ts. A field never scans past
+	// its last `>`.
+	it('stays linear on a field full of < with no >', () => {
+		const html = '<a '.repeat(60_000);
+		const t0 = performance.now();
+		expect(tagSpans(html)).toEqual([]);
+		expect(performance.now() - t0).toBeLessThan(250);
+	});
+});

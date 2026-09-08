@@ -303,9 +303,16 @@ function tagEnd(html: string, at: number): number {
  */
 function tagSpans(html: string): Span[] {
 	const spans: Span[] = [];
+	// No `>` after an offset means no `<` after it can open a tag, and
+	// every scan `tagEnd` starts below this bound ends at some `>`, so
+	// the walk is linear in the field: the total scanned is the spans'
+	// length plus one step per `<` that opens nothing. Without the bound
+	// a field of `<a <a <a …` with no `>` scanned to its end once per
+	// `<` — quadratic, 11 s on 180 KB.
+	const lastGt = html.lastIndexOf('>');
 	let from = 0;
 	let start = html.indexOf('<', from);
-	while (start !== -1) {
+	while (start !== -1 && start < lastGt) {
 		const end = tagEnd(html, start);
 		if (end === -1) {
 			from = start + 1;

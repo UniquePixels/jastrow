@@ -195,7 +195,8 @@ interface Segment {
  * where "an attribute value may hold a paren and must never close
  * one" was not true of the code. `tagSpans` agrees with the old
  * reading on every tag the corpus holds today (0 of 637,648 differ)
- * and is linear by construction (each `<` is visited once).
+ * and is linear: it never scans past the field's last `>`, so a `<`
+ * that opens nothing costs one step, not a walk to the end.
  *
  * One deliberate difference: a `<` that opens no tag is TEXT here,
  * where the old scanner dropped it from the stream. Its parens are
