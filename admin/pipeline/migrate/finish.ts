@@ -49,47 +49,65 @@ function finishEntry(
 		return decomposed.form;
 	};
 
-	/** One flat flow — a sense array's gloss/unit fields, in order,
-	 * sharing ONE `TagCarry` so a tag run open at a unit boundary (or a
-	 * sense boundary within this same array) reopens in the next field
-	 * rather than being reported unclosed. A nested `s.senses` list or a
-	 * stem's `senses` is a SEPARATE flow — `translateSequence` recurses
-	 * into it with a fresh carry, per the ruling that child senses and
-	 * stems are separate flows. */
-	function translateSequence(
+	interface Field {
+		assign: (value: string) => void;
+		html: string;
+		path: string;
+	}
+
+	/** Walk one document FLOW — a `senses` tree in document order: for
+	 * each sense, its gloss, then its units, then each child sense
+	 * recursively (gloss, units, grandchildren…), then the next sibling
+	 * — building the output tree and, in the same order, the flat field
+	 * list that `runFlow` below will translate against ONE shared
+	 * `TagCarry`. Lettered and form-section children were cut from the
+	 * same source definition as their parent (and consecutive top-level
+	 * senses can share a boundary too), so a tag run open at the end of
+	 * a parent's last field must be able to reopen inside its own first
+	 * child rather than starting that child's translation fresh. */
+	function buildSenseTree(
 		sequence: readonly BodySense[],
 		path: string,
+		fields: Field[],
 	): TruthSense[] {
-		const carry: TagCarry = { open: [] };
-		const glossOut: string[] = [];
-		const unitsOut: string[][] = sequence.map((s) => new Array(s.units.length));
-		interface Field {
-			assign: (value: string) => void;
-			html: string;
-			path: string;
-		}
-		const fields: Field[] = [];
-		sequence.forEach((s, i) => {
+		return sequence.map((s, i) => {
+			const sensePath = `${path}[${i}]`;
+			const out: TruthSense = { gloss: '', units: new Array(s.units.length) };
 			fields.push({
 				assign: (value: string): void => {
-					glossOut[i] = value;
+					out.gloss = value;
 				},
 				html: s.gloss,
-				path: `${path}[${i}].gloss`,
+				path: `${sensePath}.gloss`,
 			});
 			s.units.forEach((u, j) => {
 				fields.push({
 					assign: (value: string): void => {
-						const row = unitsOut[i];
-						if (row !== undefined) {
-							row[j] = value;
-						}
+						out.units[j] = value;
 					},
 					html: u,
-					path: `${path}[${i}].units[${j}]`,
+					path: `${sensePath}.units[${j}]`,
 				});
 			});
+			if (s.label !== undefined) {
+				out.label = s.label;
+			}
+			if (s.senses !== undefined && s.senses.length > 0) {
+				out.senses = buildSenseTree(s.senses, `${sensePath}.senses`, fields);
+			}
+			return out;
 		});
+	}
+
+	/** Translate every field of one flow against ONE `TagCarry`, in the
+	 * document order `buildSenseTree` laid them out in. The last field
+	 * of the flow is the only one whose leftover carry is reported as
+	 * "closed at sequence end" rather than "carried … across a unit
+	 * boundary" — a balanced field contributes nothing, so sharing the
+	 * carry further (across sibling top-level senses, or into a child
+	 * sequence) is harmless. */
+	function runFlow(fields: readonly Field[]): void {
+		const carry: TagCarry = { open: [] };
 		fields.forEach((field, index) => {
 			const translated = translateMarkup(field.html, resolve, carry);
 			problems.push(...translated.problems.map((p) => `${source.rid}: ${p}`));
@@ -103,19 +121,18 @@ function finishEntry(
 				);
 			}
 		});
-		return sequence.map((s, i) => {
-			const out: TruthSense = {
-				gloss: glossOut[i] ?? '',
-				units: unitsOut[i] ?? [],
-			};
-			if (s.label !== undefined) {
-				out.label = s.label;
-			}
-			if (s.senses !== undefined && s.senses.length > 0) {
-				out.senses = translateSequence(s.senses, `${path}[${i}].senses`);
-			}
-			return out;
-		});
+	}
+
+	/** One document flow, start to finish: build the output tree and
+	 * field list, then translate the fields against one shared carry. */
+	function translateSequence(
+		sequence: readonly BodySense[],
+		path: string,
+	): TruthSense[] {
+		const fields: Field[] = [];
+		const out = buildSenseTree(sequence, path, fields);
+		runFlow(fields);
+		return out;
 	}
 
 	const slug = context.slugs.get(source.rid);

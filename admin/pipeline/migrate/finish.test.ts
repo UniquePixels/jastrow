@@ -83,4 +83,27 @@ describe('finishEntry', () => {
 			'A00014: senses[0].gloss: carried i across a unit boundary',
 		]);
 	});
+	it('carries an <i> a parent gloss opens into its first child gloss', () => {
+		const crossing: BodyEntry = {
+			...body,
+			senses: [
+				{
+					gloss: 'm. <i>father',
+					senses: [{ gloss: 'of Abraham</i>.', units: [] }],
+					units: [],
+				},
+			],
+		};
+		const { entry, markupCarries, problems } = finishEntry(
+			source,
+			crossing,
+			context,
+		);
+		expect(entry.senses[0]?.gloss).toBe('m. <i>father</i>');
+		expect(entry.senses[0]?.senses?.[0]?.gloss).toBe('<i>of Abraham</i>.');
+		expect(problems).toEqual([]);
+		expect(markupCarries).toEqual([
+			'A00014: senses[0].gloss: carried i across a unit boundary',
+		]);
+	});
 });
