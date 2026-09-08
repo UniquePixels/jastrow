@@ -121,7 +121,7 @@ async function transcripts(filter: string | undefined): Promise<string[]> {
  * checked, so a malformed one must not reach `+=` — string
  * concatenation or `NaN` would corrupt the RUNBOOK's spend gate. */
 function numeric(v: unknown): number {
-	return typeof v === 'number' ? v : 0;
+	return typeof v === 'number' && Number.isFinite(v) ? v : 0;
 }
 
 /** Accumulate usage from one transcript into `rows`, keyed by model

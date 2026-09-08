@@ -225,12 +225,23 @@ function antecedentFor(
 	return INTERVENING_CITATION.test(gap) ? undefined : cite;
 }
 
-/** Whether any usable anchor spans this token — the same masked
- * reading `gapBetween` performs, and what makes the text this rule
- * wraps BARE. */
+/** Whether any anchor spans this token — the same masked reading
+ * `gapBetween` performs, and what makes the text this rule wraps BARE.
+ *
+ * Deliberately WIDER than `usable`: a malformed or unclosed anchor is
+ * refused for editing, not absent from the markup. `usable` excluded
+ * both (and `interior`), so a bare `Ib.` sitting inside one of THOSE
+ * anchors' own span read as unspanned and could be minted, nesting a
+ * fresh `<a>` inside markup neither editor may touch (CodeRabbit PR
+ * #71 comment 3951117375). An unclosed anchor (`close === -1`) has no
+ * upper bound to compare against, so it spans every token from its
+ * open to the end of the field. */
 function spanned(list: readonly Anchor[], at: number): boolean {
 	return list.some(
-		(anchor) => usable(anchor) && anchor.open <= at && anchor.close >= at,
+		(anchor) =>
+			!anchor.interior &&
+			anchor.open <= at &&
+			(anchor.close === -1 || anchor.close >= at),
 	);
 }
 

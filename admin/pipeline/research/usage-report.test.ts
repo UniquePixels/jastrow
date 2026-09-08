@@ -135,6 +135,32 @@ describe('readTranscript', () => {
 		expect(rows.size).toBe(1);
 		expect(rows.get('main|claude-opus-5')?.messages).toBe(1);
 	});
+
+	// CodeRabbit PR #71 comment 3951117344: `1e400` is valid JSON that
+	// `JSON.parse` overflows to `Infinity` — a `number`, so `numeric`'s
+	// old `typeof v === 'number'` check let it through and poisoned the
+	// row's running total. Built by hand rather than through `line()`,
+	// which round-trips a JS number through `JSON.stringify` first and
+	// would already collapse `Infinity` to `null` before it reached
+	// `numeric`.
+	it('treats a non-finite token count as zero', () => {
+		const raw = JSON.stringify({
+			isSidechain: false,
+			message: {
+				model: 'claude-opus-5',
+				usage: {
+					cache_creation_input_tokens: 0,
+					cache_read_input_tokens: 0,
+					input_tokens: 3,
+					output_tokens: 0,
+				},
+			},
+			timestamp: '2026-09-03T12:00:00Z',
+			type: 'assistant',
+		}).replace('"input_tokens":3', '"input_tokens":1e400');
+		const rows = read(raw);
+		expect(rows.get('main|claude-opus-5')?.input).toBe(0);
+	});
 });
 
 describe('resolveSince', () => {

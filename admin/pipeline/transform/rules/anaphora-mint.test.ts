@@ -106,6 +106,37 @@ describe('mintOver', () => {
 		expect(mintOver(already).text).toBe(already);
 	});
 
+	// CodeRabbit PR #71 comment 3951117375: `spanned()` called `usable`,
+	// which excludes malformed and unclosed anchors, so a bare `Ib.`
+	// sitting inside one of THOSE read as unspanned and could be
+	// minted — nesting a fresh `<a>` inside markup neither editor may
+	// touch. Both shapes are D00478's and the `link-target.test.ts`
+	// unclosed-anchor fixture's, reused here.
+
+	it('declines an `Ib.` inside a malformed anchor’s own span', () => {
+		// D00478's shape: an unterminated `href` swallows the closing
+		// tag, so `links.ts` reports the anchor `malformed` and refuses
+		// it — the same reason `checkLinkTargets`/`checkMarkup` refuse to
+		// edit it.
+		const damaged =
+			'<a dir="rtl" href="/Jastrow,_כָּלוּל.1</a>" data-ref="Jastrow, כָּלוּל 1">Ib.</a>.';
+		const { mints, text } = mintOver(
+			`${A('Shabbat 30b', 'Sabb. 30ᵇ')} ${damaged}`,
+		);
+		expect(mints).toEqual([]);
+		expect(text).toBe(`${A('Shabbat 30b', 'Sabb. 30ᵇ')} ${damaged}`);
+	});
+
+	it('declines an `Ib.` inside an anchor that never closes', () => {
+		const unclosed =
+			'lead <a class="refLink" href="/x" data-ref="Nedarim 25a">tail Ib. no close';
+		const { mints, text } = mintOver(
+			`${A('Shabbat 30b', 'Sabb. 30ᵇ')} ${unclosed}`,
+		);
+		expect(mints).toEqual([]);
+		expect(text).toBe(`${A('Shabbat 30b', 'Sabb. 30ᵇ')} ${unclosed}`);
+	});
+
 	it('does not match the `ib.` inside a longer abbreviation', () => {
 		// `\\b` would put a boundary between `.` and a following letter.
 		const { mints } = mintOver(`${A('Shabbat 30b', 'Sabb. 30ᵇ')} Zeib.x more`);

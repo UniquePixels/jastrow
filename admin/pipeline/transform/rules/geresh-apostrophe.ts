@@ -86,7 +86,6 @@
 import type { SourceEntry } from '../../body/types.ts';
 import { mapFields } from '../fields.ts';
 import { HEBREW, HEBREW_ATOM, mapTagsAndText } from '../html.ts';
-import { fieldsOf } from '../no-new-text.ts';
 import type { Rule, TransformRecord, TransformResult } from '../types.ts';
 
 /** U+05F4 HEBREW PUNCTUATION GERSHAYIM — the mark print sets and the
@@ -122,8 +121,24 @@ const TOKEN_CHAR = new RegExp(`[${HEBREW}̇]`, 'u');
  * returns the SAME string reference for almost every field — which is
  * what lets the rule compare with `!==` and hand back the caller's own
  * entry object unchanged.
+ *
+ * When `tokens` is given, the abbreviation surrounding each run this
+ * CALL replaces is pushed onto it, read off the ORIGINAL `value` at
+ * the match's own position — never off the field this rule hands
+ * back, and never by re-scanning for `GERSHAYIM` after the fact.
+ *
+ * That distinction is the fix for CodeRabbit PR #71 comment
+ * 3951117393: `applyTransforms` feeds each rule the previous rule's
+ * output, `gershayimInBody` runs earlier in the same `text-repairs`
+ * phase and routinely leaves `״` behind it, and a field this rule
+ * touches can carry BOTH marks — its own and one already written by
+ * an earlier rule. Attributing a record's tokens by rescanning the
+ * healed field for every `״` credited both to this one call; deriving
+ * them from the matches `FLANKED` itself found is immune to whatever
+ * a prior rule already wrote, because it never looks at that mark at
+ * all.
  */
-function repairText(value: string): string {
+function repairText(value: string, tokens?: string[]): string {
 	if (!value.includes(`׳'`)) {
 		return value;
 	}
@@ -137,50 +152,27 @@ function repairText(value: string): string {
 	for (const match of masked.matchAll(FLANKED)) {
 		const at = match.index;
 		out += value.slice(read, at) + GERSHAYIM;
+		tokens?.push(tokenAround(value, at));
 		read = at + 2;
 	}
 	return out + value.slice(read);
 }
 
-/** The abbreviation surrounding the mark at `at`, for a record's
- * detail. Bounded by `TOKEN_CHAR`, so it stops at the space that ends
- * the word rather than running to the end of the field. */
-function tokenAt(text: string, at: number): string {
+/** The abbreviation surrounding the two-codepoint run at `at` in the
+ * PRE-replacement `value`, with the run itself rendered as the
+ * `GERSHAYIM` it becomes. Bounded by `TOKEN_CHAR`, so it stops at the
+ * space that ends the word rather than running to the end of the
+ * field. */
+function tokenAround(value: string, at: number): string {
 	let start = at;
-	let end = at + 1;
-	while (start > 0 && TOKEN_CHAR.test(text[start - 1] ?? '')) {
+	let end = at + 2;
+	while (start > 0 && TOKEN_CHAR.test(value[start - 1] ?? '')) {
 		start -= 1;
 	}
-	while (end < text.length && TOKEN_CHAR.test(text[end] ?? '')) {
+	while (end < value.length && TOKEN_CHAR.test(value[end] ?? '')) {
 		end += 1;
 	}
-	return text.slice(start, end);
-}
-
-/**
- * Every token this call repaired, read off the OUTPUT alone.
- *
- * `gershayim.ts` compares its two field walks position for position,
- * which is sound only because its substitution is in place. This one
- * shortens the field, so the walks no longer align and that method
- * would name the wrong token. Reading the output is sound instead
- * because of the corpus fact stated in `allows` above and re-asserted
- * by the corpus tier: every `״` in this rule's output is one this call
- * wrote, since no input field can carry one — and if a future
- * composition ever changed that, the count would move and
- * `geresh-apostrophe.corpus.test.ts` would fail rather than the record
- * quietly naming a mark the rule did not touch.
- */
-function repairedTokens(after: readonly string[]): string[] {
-	const found: string[] = [];
-	for (const field of after) {
-		for (let i = 0; i < field.length; i += 1) {
-			if (field[i] === GERSHAYIM) {
-				found.push(tokenAt(field, i));
-			}
-		}
-	}
-	return found;
+	return value.slice(start, at) + GERSHAYIM + value.slice(at + 2, end);
 }
 
 /** The one record this call produces, naming what it repaired. */
@@ -201,11 +193,11 @@ const gereshApostropheGershayim: Rule = {
 	// was removed, so every one in the output is this call's own work.
 	allows: [GERSHAYIM],
 	apply(entry: SourceEntry): TransformResult {
-		const healed = mapFields(entry, repairText);
+		const tokens: string[] = [];
+		const healed = mapFields(entry, (value) => repairText(value, tokens));
 		if (healed === undefined) {
 			return { entry, records: [] };
 		}
-		const tokens = repairedTokens(fieldsOf(healed));
 		return {
 			entry: healed,
 			records: [recordFor(entry, tokens)],

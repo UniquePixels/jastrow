@@ -32,14 +32,6 @@ jobs:
           # snapshot. Well under a second — see admin/pipeline/test-tiers.test.ts.
           - name: Test
             command: bun qa:test
-          # The slow gate, split out 2026-08-31: every *.corpus.test.ts,
-          # which streams all 32,512 entries of the source snapshot and
-          # runs the transform pipeline over them. It is a separate job
-          # because bundling it with Test put the pair over the runner's
-          # wall clock and cost PR #58 a SIGTERM with every assertion it
-          # reached passing.
-          - name: Corpus Audit
-            command: bun run audit:corpus
     steps:
       - name: Harden runner
         uses: step-security/harden-runner@f808768d1510423e83855289c910610ca9b43176 # v2.17.0
@@ -62,6 +54,70 @@ jobs:
         uses: ./.github/actions/setup-env
       - name: ${{ matrix.name }}
         run: ${{ matrix.command }}
+
+  # The slow gate, split out 2026-08-31: every *.corpus.test.ts, which
+  # streams all 32,512 entries of the source snapshot and runs the
+  # transform pipeline over them. It was one job bundling all five
+  # shards as parallel processes, but that put the pair over the
+  # runner's wall clock and cost PR #58 a SIGTERM with every assertion
+  # it reached passing. On 2026-09-08 the shards moved to their own
+  # runners (this job's matrix) because five in-job processes starved
+  # each other on the 4-vCPU runner. corpus-audit below aggregates the
+  # matrix so the required check keeps its name.
+  corpus:
+    name: Corpus Audit (${{ matrix.shard }})
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    strategy:
+      fail-fast: false
+      matrix:
+        shard:
+          - pipeline-links
+          - residue-sweep
+          - commutation
+          - registry.order
+          - rest
+    steps:
+      - name: Harden runner
+        uses: step-security/harden-runner@f808768d1510423e83855289c910610ca9b43176 # v2.17.0
+        with:
+          disable-sudo: true
+          egress-policy: block
+          allowed-endpoints: >
+            api.github.com:443
+            github.com:443
+            mise-versions.jdx.dev:443
+            mise.jdx.dev:443
+            registry.npmjs.org:443
+            release-assets.githubusercontent.com:443
+            tuf-repo-cdn.sigstore.dev:443
+      - name: Checkout repository
+        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
+        with:
+          persist-credentials: false
+      - name: Setup
+        uses: ./.github/actions/setup-env
+      - name: Corpus Audit (${{ matrix.shard }})
+        run: bun run audit:corpus
+        env:
+          CORPUS_SHARD: ${{ matrix.shard }}
+
+  corpus-audit:
+    name: Corpus Audit
+    needs: corpus
+    if: always()
+    runs-on: ubuntu-latest
+    permissions: {}
+    steps:
+      - name: Harden runner
+        uses: step-security/harden-runner@f808768d1510423e83855289c910610ca9b43176 # v2.17.0
+        with:
+          disable-sudo: true
+          egress-policy: block
+      - name: Corpus Audit
+        run: |
+          test "${{ needs.corpus.result }}" = "success"
 
   dependency-review:
     name: Dependency Review
