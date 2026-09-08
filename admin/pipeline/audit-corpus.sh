@@ -19,7 +19,7 @@ heavy_names=(pipeline-links residue-sweep commutation registry.order)
 ignore=()
 for f in "${heavy[@]}"; do ignore+=(--path-ignore-patterns="$f"); done
 
-if [ -n "${CORPUS_SHARD:-}" ]; then
+if [[ -n "${CORPUS_SHARD:-}" ]]; then
   case "$CORPUS_SHARD" in
     pipeline-links) exec bun test admin/pipeline/body/pipeline-links.corpus.test.ts ;;
     residue-sweep) exec bun test admin/pipeline/research/residue-sweep.corpus.test.ts ;;

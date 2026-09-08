@@ -144,9 +144,8 @@ describe('gereshApostropheGershayim', () => {
 		// Sanity: the prior rule did write a second, unrelated gershayim
 		// into this entry before ours ever runs.
 		expect(
-			(afterGershayim.content?.senses[0]?.definition?.match(/״/gu) ?? [])
-				.length,
-		).toBe(1);
+			afterGershayim.content?.senses[0]?.definition?.match(/״/gu) ?? [],
+		).toHaveLength(1);
 		const result = gereshApostropheGershayim.apply(afterGershayim);
 		expect(result.records).toEqual([
 			{
