@@ -295,22 +295,29 @@ function finishAll(
 	return { samples, truths };
 }
 
-/** Gate 6: every unresolved internal target is on the reviewed
- * quarantine list, and every listed pair is still unresolved. */
+/** Gate 6: every unresolved internal target is on the quarantine
+ * list, every listed pair is still unresolved, and every listed pair
+ * has been REVIEWED. A row can fail on more than one count, so the
+ * failing keys are unioned before they are subtracted — counting them
+ * twice would drive `pass` below zero. */
 async function gateQuarantine(report: Report): Promise<void> {
 	report.quarantine = await loadQuarantine();
-	const { stale, unlisted } = checkQuarantine(
+	const { stale, unlisted, unreviewed } = checkQuarantine(
 		report.unresolved,
 		report.quarantine,
 	);
+	const failing = new Set([...stale, ...unreviewed]);
 	report.gates.internalTargets.total = report.quarantine.length;
-	report.gates.internalTargets.pass = report.quarantine.length - stale.length;
+	report.gates.internalTargets.pass = report.quarantine.length - failing.size;
 	report.gates.internalTargets.failures.push(
 		...unlisted.map((u) => `unlisted: ${u}`),
 		...stale.map((s) => `stale: ${s}`),
+		...unreviewed.map((u) => `unreviewed: ${u}`),
 	);
 }
 
+/** The output subdirectory for a rid: its leading letter, so 32,512
+ * files land in 22 directories rather than one. */
 function letterDir(rid: string): string {
 	return rid.charAt(0);
 }
@@ -345,6 +352,8 @@ async function writeAll(
 	console.log(`wrote ${report.written} truth files under ${OUT_DIR}`);
 }
 
+/** The run summary on stdout: every gate, then the four
+ * informational lists, then where the written evidence went. */
 function printGates(report: Report): void {
 	for (const [name, t] of Object.entries(report.gates)) {
 		console.log(
@@ -357,6 +366,11 @@ function printGates(report: Report): void {
 	console.log(`report written to ${REPORT_PATH}; evidence to ${BLESSING_PATH}`);
 }
 
+/** The migrate CLI. Without `--write` it is a dry run: everything is
+ * composed, gated and reported, and nothing is written to the truth
+ * tree. With `--write` it refuses outright unless that tree is empty,
+ * because the migration is a one-shot and a second pass over a
+ * half-written tree would leave a mix of two runs. */
 async function main(): Promise<void> {
 	const write = process.argv.includes('--write');
 	if (write && !(await outputTreeIsEmpty())) {

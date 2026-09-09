@@ -29,6 +29,11 @@ interface Finished {
 	unresolved: Unresolved[];
 }
 
+/** One source entry plus its composed body into a truth entry, with
+ * everything a human or a gate needs to judge the result: the
+ * problems that block a write, the headwords wanting review, the
+ * unresolved citation targets, and the tag runs that crossed a field
+ * boundary. Never throws — a problem is reported, not raised. */
 function finishEntry(
 	source: SourceEntry,
 	body: BodyEntry,
@@ -40,6 +45,10 @@ function finishEntry(
 	const markupCarries: string[] = [];
 	const resolve = createResolver(context.headwordMap, source.rid, unresolved);
 
+	/** A marked headword string into its form object, noting on
+	 * `headwordReview` any string the grammar could not fully account
+	 * for. Closes over the entry's review list, so it is defined here
+	 * rather than at module scope. */
 	const form = (marked: string): FormObject => {
 		const decomposed = decomposeForm(marked);
 		const reason = reviewReason(decomposed);

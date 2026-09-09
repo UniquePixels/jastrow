@@ -1,17 +1,21 @@
 /** Gates 2, 3, 5, 6, 7, 8 of migrate spec §4.1, each a tally. Gate 1
  * (body round-trips), 4 (schema) and 9 (composition failures) live
  * with the composer and the CLI. */
-import type { BodyEntry, BodySense, SourceEntry } from '../body/types.ts';
+import type { BodyEntry, SourceEntry } from '../body/types.ts';
 import { tokenize } from '../transform/html.ts';
 import { regenerateForm } from './headword.ts';
 import type { PagePlacement } from './page.ts';
 import { slugStem } from './slug.ts';
-import type { Tally, TruthEntry, TruthSense } from './types.ts';
+import type { Tally, TruthEntry } from './types.ts';
 
+/** An empty tally: no marks, no failures. */
 function tally(): Tally {
 	return { failures: [], pass: 0, total: 0 };
 }
 
+/** Record one gate mark. Every call moves `total`, so a gate's total
+ * is the count of things actually checked — which is what lets a 0/0
+ * gate be read as "never ran" rather than "nothing was wrong". */
 function mark(t: Tally, ok: boolean, failure: string): void {
 	t.total++;
 	if (ok) {
@@ -21,6 +25,8 @@ function mark(t: Tally, ok: boolean, failure: string): void {
 	}
 }
 
+/** The text a reader sees, tags stripped. Gate 3 compares these, not
+ * the markup, so a translation that only rewrites tags conserves it. */
 function textOf(html: string): string {
 	return tokenize(html)
 		.filter((t) => t.kind === 'text')
@@ -52,28 +58,41 @@ function checkHeadwordRoundTrip(
 	}
 }
 
+/** The three fields `pairs` reads. `BodySense` and `TruthSense` both
+ * satisfy it, so one neutral value can stand in for either side. */
+interface WalkedSense {
+	gloss: string;
+	senses?: readonly WalkedSense[];
+	units: readonly string[];
+}
+
+/** Stands in for an element the other side does not have, so the side
+ * that DOES have it is still walked field by field. */
+const ABSENT: WalkedSense = { gloss: '', senses: [], units: [] };
+
+/** Every comparable text field of two sense trees, as
+ * `[where, body, truth]` triples the caller marks one by one. */
 function* pairs(
-	body: readonly BodySense[],
-	truth: readonly TruthSense[],
+	body: readonly WalkedSense[],
+	truth: readonly WalkedSense[],
 	path: string,
 ): Generator<[string, string, string]> {
+	// A length pair at EVERY depth, not only the two the caller marks.
+	// Without one, an element present on a single side leaves no trace
+	// whenever its own gloss is empty: this walk used to compare the
+	// gloss ALONE for a surplus or missing element, so `['', '']`
+	// passed while that element's `units` and child `senses` — which
+	// is where its text actually lives — were never read at all.
+	yield [`${path} length`, String(body.length), String(truth.length)];
 	// Walked to the LONGER of the two: iterating body.entries() alone
 	// only ever visits truth[0..body.length), so a sense or unit added
 	// to truth with no body counterpart — output-only text — would
 	// never reach a mark() and gate 3 would pass with it in place.
 	const length = Math.max(body.length, truth.length);
 	for (let i = 0; i < length; i++) {
-		const b = body[i];
-		const t = truth[i];
+		const b = body[i] ?? ABSENT;
+		const t = truth[i] ?? ABSENT;
 		const at = `${path}[${i}]`;
-		if (b === undefined) {
-			yield [`${at} surplus`, '', t?.gloss ?? ''];
-			continue;
-		}
-		if (t === undefined) {
-			yield [`${at} missing`, b.gloss, ''];
-			continue;
-		}
 		yield [`${at}.gloss`, b.gloss, t.gloss];
 		const unitLength = Math.max(b.units.length, t.units.length);
 		for (let j = 0; j < unitLength; j++) {
@@ -84,20 +103,17 @@ function* pairs(
 }
 
 /** Gate 3: tag-stripped text agrees, field by field. A structural
- * count mark guards every array `pairs()` walks: a surplus element
- * whose own content is empty (e.g. a fabricated stem with `senses:
- * []`) yields no pairs at all, so without the count check here it
- * would leave no trace in the tally. */
+ * count mark guards every array walked: a surplus element whose own
+ * content is empty (e.g. a fabricated stem with `senses: []`) yields
+ * no text pairs at all, so without a count it would leave no trace in
+ * the tally. `pairs()` emits its own length pair per sense array, at
+ * every depth, so only `stems` — which `pairs()` does not walk — is
+ * counted here. */
 function checkTextConservation(
 	body: BodyEntry,
 	truth: TruthEntry,
 	t: Tally,
 ): void {
-	mark(
-		t,
-		body.senses.length === truth.senses.length,
-		`${truth.id}: senses ${body.senses.length} → ${truth.senses.length}`,
-	);
 	for (const [where, before, after] of pairs(
 		body.senses,
 		truth.senses,
@@ -121,11 +137,6 @@ function checkTextConservation(
 		const target = stemsTruth[i];
 		const stemSensesBody = stem?.senses ?? [];
 		const stemSensesTruth = target?.senses ?? [];
-		mark(
-			t,
-			stemSensesBody.length === stemSensesTruth.length,
-			`${truth.id}: stems[${i}].senses ${stemSensesBody.length} → ${stemSensesTruth.length}`,
-		);
 		for (const [where, before, after] of pairs(
 			stemSensesBody,
 			stemSensesTruth,
@@ -138,6 +149,9 @@ function checkTextConservation(
 
 const RID = /^(?<letter>[A-Z])(?<seq>\d+)$/u;
 
+/** Corpus order for two rids: letter first, then the sequence number
+ * NUMERICALLY, so A00009 precedes A00010 as a plain string sort would
+ * not. A rid that does not parse sorts as letter '' and sequence 0. */
 function ridOrder(a: string, b: string): number {
 	const ma = RID.exec(a)?.groups;
 	const mb = RID.exec(b)?.groups;

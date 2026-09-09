@@ -67,8 +67,14 @@ import type { Tally } from './types.ts';
 const ENTRIES = 32_512;
 /** Forms: 32,512 headwords + 32,512 alt-count marks + 11,080 alts. */
 const HEADWORD_FORMS = 76_104;
-/** Fields and structural length marks, at every sense depth. */
-const TEXT_FIELDS = 186_736;
+/** Fields and structural length marks, at every sense depth. Was
+ * 186,736 until 2026-09-09, when `pairs()` began emitting a length
+ * pair per sense array at EVERY depth and walking a one-sided element
+ * through a neutral stand-in instead of comparing its gloss alone.
+ * All 45,727 added marks pass: the hole was real but this corpus had
+ * nothing hiding in it. The `gates.test.ts` case for a truth-only
+ * subsense carrying text in `units` is the control that fires. */
+const TEXT_FIELDS = 232_463;
 /** 32,512 entries + the head-uniqueness mark + the termination mark. */
 const CHAIN_MARKS = 32_514;
 /** Two marks per entry: patch problems, then finishing problems. */
@@ -277,10 +283,13 @@ it('pins every migration gate at corpus scale', async () => {
 	expect(gates.markupCarries).toHaveLength(MARKUP_CARRIES);
 	// Gate 6's input, and the quarantine list seeded from it in Task 13.
 	expect(gates.unresolved).toHaveLength(UNRESOLVED);
-	expect(checkQuarantine(gates.unresolved, await loadQuarantine())).toEqual({
-		stale: [],
-		unlisted: [],
-	});
+	const quarantine = checkQuarantine(gates.unresolved, await loadQuarantine());
+	expect(quarantine.stale).toEqual([]);
+	expect(quarantine.unlisted).toEqual([]);
+	// Every row is still seeded, so gate 6 is RED and `--write` is
+	// blocked. That is the intended state until a human has read all
+	// 25 and stamped each with a `reviewed` date.
+	expect(quarantine.unreviewed).toHaveLength(UNRESOLVED);
 	expect(gates.nonHighPages).toHaveLength(NON_HIGH_PAGES);
 	const perStem = new Map<string, number>();
 	for (const { text } of forms) {

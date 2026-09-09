@@ -208,6 +208,11 @@ function finishOpen(e: Emit, carry: TagCarry | undefined): number {
 	return e.open.length;
 }
 
+/** One HTML field into the truth vocabulary. Text bytes are never
+ * touched; only tags are rewritten, passed through, or reported. Pass
+ * a `carry` to share one tag stack across the fields of a document
+ * flow, so a run opened in one field and closed in the next survives
+ * the split instead of being reported unbalanced at both ends. */
 function translateMarkup(
 	html: string,
 	resolve: RefResolver,

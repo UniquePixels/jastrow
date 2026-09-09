@@ -65,9 +65,29 @@ describe('quarantine', () => {
 	it('names unlisted and stale rows', () => {
 		const result = checkQuarantine(
 			[{ rid: 'A00001', target: 'x' }],
-			[{ note: 'reviewed', rid: 'A00002', target: 'y' }],
+			[
+				{
+					note: 'a Greek loanword with no headword of its own',
+					reviewed: '2026-09-09',
+					rid: 'A00002',
+					target: 'y',
+				},
+			],
 		);
 		expect(result.unlisted).toEqual(['A00001\tx']);
 		expect(result.stale).toEqual(['A00002\ty']);
+		expect(result.unreviewed).toEqual([]);
+	});
+	it('names a listed row nobody has reviewed', () => {
+		// A seeded row matches on rid and target like any other, so this
+		// is the only thing standing between an unread list and a green
+		// gate 6.
+		const result = checkQuarantine(
+			[{ rid: 'A00001', target: 'x' }],
+			[{ note: 'seeded; not yet reviewed', rid: 'A00001', target: 'x' }],
+		);
+		expect(result.unlisted).toEqual([]);
+		expect(result.stale).toEqual([]);
+		expect(result.unreviewed).toEqual(['A00001\tx']);
 	});
 });

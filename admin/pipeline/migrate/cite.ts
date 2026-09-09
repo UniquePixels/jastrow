@@ -18,6 +18,12 @@ interface Unresolved {
 
 interface QuarantineRow {
 	note: string;
+	/** The date a human accepted this row, `YYYY-MM-DD`. ABSENT until
+	 * someone has actually read it. Gate 6 fails a row without it, so a
+	 * list that is merely seeded — every row saying "not yet reviewed" —
+	 * cannot let `--write` through. Matching `rid` and `target` alone
+	 * would pass such a list, which is the whole hole this closes. */
+	reviewed?: string;
 	rid: string;
 	target: string;
 }
@@ -41,6 +47,10 @@ function internalTarget(href: string): string | undefined {
 		.replaceAll('_', ' ');
 }
 
+/** Headword string to rid, for resolving internal `<cite ref>`
+ * targets. THROWS on a duplicate headword: two entries answering to
+ * one string would make every reference to it ambiguous, and silently
+ * keeping either one would point some citations at the wrong entry. */
 function buildHeadwordMap(
 	entries: Iterable<Pick<SourceEntry, 'headword' | 'rid'>>,
 ): Map<string, string> {
@@ -79,6 +89,8 @@ function createResolver(
 	};
 }
 
+/** The reviewed quarantine list, or an empty one when the file does
+ * not exist yet — the state of a corpus before its first sweep. */
 async function loadQuarantine(
 	path = QUARANTINE_PATH,
 ): Promise<QuarantineRow[]> {
@@ -89,23 +101,29 @@ async function loadQuarantine(
 	return (await file.json()) as QuarantineRow[];
 }
 
+/** Identity of one unresolved pair, for set comparison. Tab-joined
+ * because a target may contain anything else a separator might use. */
 const key = (row: Unresolved): string => `${row.rid}\t${row.target}`;
 
-/** Gate 6, both directions: every unresolved pair is listed, and every
- * listed pair is still unresolved. */
+/** Gate 6, three ways: every unresolved pair is listed, every listed
+ * pair is still unresolved, and every listed pair has been read by a
+ * human. The third is not redundant — the spec calls this the REVIEWED
+ * quarantine list, and without it a freshly seeded list passes at full
+ * marks while nobody has looked at a single row. */
 function checkQuarantine(
 	unresolved: readonly Unresolved[],
 	rows: readonly QuarantineRow[],
-): { stale: string[]; unlisted: string[] } {
+): { stale: string[]; unlisted: string[]; unreviewed: string[] } {
 	const listed = new Set(rows.map(key));
 	const seen = new Set(unresolved.map(key));
+	/** Stable order for a failure list, so a report diff shows what
+	 * changed rather than how a Set happened to iterate. */
+	const sorted = (keys: Iterable<string>): string[] =>
+		[...keys].sort((a, b) => a.localeCompare(b));
 	return {
-		stale: [...listed]
-			.filter((k) => !seen.has(k))
-			.sort((a, b) => a.localeCompare(b)),
-		unlisted: [...seen]
-			.filter((k) => !listed.has(k))
-			.sort((a, b) => a.localeCompare(b)),
+		stale: sorted([...listed].filter((k) => !seen.has(k))),
+		unlisted: sorted([...seen].filter((k) => !listed.has(k))),
+		unreviewed: sorted(rows.filter((r) => r.reviewed === undefined).map(key)),
 	};
 }
 

@@ -66,6 +66,34 @@ describe('finishEntry', () => {
 		expect(entry.page).toBeUndefined();
 		expect(problems).toEqual(['A00014: no page-index row']);
 	});
+	it('reports a missing slug and leaves the slug empty', () => {
+		const { entry, problems } = finishEntry(source, body, {
+			...context,
+			slugs: new Map(),
+		});
+		expect(entry.slug).toBe('');
+		expect(problems).toEqual(['A00014: no slug assigned']);
+	});
+	it('force-closes an <i> still open at the end of a sequence', () => {
+		// The last field of a flow has nowhere to carry to, so its
+		// leftover run is closed there and reported as such. This is
+		// informational: `markupCarries` fails no gate.
+		const dangling: BodyEntry = {
+			...body,
+			senses: [{ gloss: 'm. <i>father', units: [] }],
+			stems: [],
+		};
+		const { entry, markupCarries, problems } = finishEntry(
+			source,
+			dangling,
+			context,
+		);
+		expect(entry.senses[0]?.gloss).toBe('m. <i>father</i>');
+		expect(problems).toEqual([]);
+		expect(markupCarries).toEqual([
+			'A00014: senses[0].gloss: closed at sequence end: i',
+		]);
+	});
 	it('carries an <i> a gloss opens into the unit that closes it', () => {
 		const crossing: BodyEntry = {
 			...body,

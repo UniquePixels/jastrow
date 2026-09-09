@@ -53,6 +53,9 @@ interface Sample {
 	truth: TruthEntry;
 }
 
+/** A report with every gate present and empty. Gates are created up
+ * front so `gateRows` and `isGreen` always see the full set, and a
+ * gate the run never reached shows as 0/0 rather than going missing. */
 function createReport(): Report {
 	const gates = Object.fromEntries(
 		GATE_NAMES.map((name) => [name, tally()]),
@@ -71,6 +74,11 @@ function createReport(): Report {
 	};
 }
 
+/** Whether `--write` may proceed. A gate must have been REACHED, not
+ * merely free of failures: an empty tally is a gate that never ran,
+ * which is not evidence of anything. `internalTargets` is the one
+ * exemption — a corpus with nothing quarantined leaves it legitimately
+ * 0/0 — so its failure list is all that guards it. */
 function isGreen(report: Report): boolean {
 	if (report.entries === 0) {
 		return false;
@@ -82,20 +90,25 @@ function isGreen(report: Report): boolean {
 	});
 }
 
+/** Write the report as tab-indented JSON with a trailing newline. */
 async function writeReport(report: Report, path = REPORT_PATH): Promise<void> {
 	await Bun.write(path, `${JSON.stringify(report, null, '\t')}\n`);
 }
 
+/** One value as a fenced JSON block for the blessing document. */
 function fence(value: unknown): string {
 	return `\`\`\`json\n${JSON.stringify(value, null, '\t')}\n\`\`\``;
 }
 
+/** Markdown bullets, or an italicised `empty` when there are none —
+ * so an empty section still says so rather than rendering blank. */
 function list(lines: readonly string[], empty: string): string {
 	return lines.length === 0
 		? `_${empty}_`
 		: lines.map((l) => `- ${l}`).join('\n');
 }
 
+/** One markdown table row per gate: pass, total, failure count. */
 function gateRows(report: Report): string[] {
 	return GATE_NAMES.map(
 		(name) =>
@@ -103,12 +116,16 @@ function gateRows(report: Report): string[] {
 	);
 }
 
+/** Slug-collision rows, smallest family first. Keys arrive as
+ * strings from the JSON object, so the sort is numeric, not lexical. */
 function collisionRows(report: Report): string[] {
 	return Object.entries(report.slugCollisions)
 		.sort(([a], [b]) => Number(a) - Number(b))
 		.map(([size, count]) => `| ${size} | ${count} |`);
 }
 
+/** A source/truth pair per sample, for eyeballing the migration
+ * against its input without leaving the blessing document. */
 function sampleSections(samples: readonly Sample[]): string[] {
 	return samples.flatMap((s) => [
 		`### ${s.rid}`,
@@ -124,6 +141,9 @@ function sampleSections(samples: readonly Sample[]): string[] {
 	]);
 }
 
+/** The whole blessing document: the evidence a human reads before
+ * accepting a run. Every list renders, empty or not, so a missing
+ * section means a bug rather than a quiet nothing-to-report. */
 function renderBlessing(report: Report, samples: readonly Sample[]): string {
 	return [
 		'# Migration blessing — evidence',

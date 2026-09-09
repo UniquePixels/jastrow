@@ -158,7 +158,7 @@ must hold for `--write` to proceed.
 | 3 | Text conservation | tag-stripped text of the finished entry equals the tag-stripped text of the composed entry, per field | replaces the v1 render-diff |
 | 4 | Schema | 32,512 validate, 0 failures | `entry.schema.json` |
 | 5 | Chain agreement | walking `prev_hw`/`next_hw` from the source equals rid sort order for all 32,512 | spec §5 |
-| 6 | Internal targets | every unresolved `<cite ref>` is on the quarantine list, and every listed pair is still unresolved | spec §6 |
+| 6 | Internal targets | every unresolved `<cite ref>` is on the quarantine list, every listed pair is still unresolved, and every listed row carries a `reviewed` date | spec §6 |
 | 7 | Slugs | 32,512 unique; no collided stem has a bare owner | spec §4 |
 | 8 | Page coverage | 32,512 entries carry `page`; every column is `a` or `b` | §2.5 |
 | 9 | Composition failures | 0 repair failures, 0 transform failures, 0 patch problems | `migrate-dry.ts` |

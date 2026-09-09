@@ -2,12 +2,16 @@ import { describe, expect, it } from 'bun:test';
 import { tokenize } from '../transform/html.ts';
 import { type TagCarry, translateMarkup } from './markup.ts';
 
+/** A stub resolver: anything Jastrow-internal resolves to one rid,
+ * anything else to a fixed external ref. */
 const resolve = ({ href }: { dataRef: string; href: string }): string =>
 	href.includes('Jastrow') ? 'A00013' : 'Shabbat 104a';
 
 const ANCHOR =
 	'<a dir="rtl" class="refLink" href="/Jastrow,_אָב.1" data-ref="Jastrow, אָב 1">אָב</a>';
 
+/** The visible text of a fragment, for asserting that a translation
+ * moved tags without touching bytes. */
 function textOf(html: string): string {
 	return tokenize(html)
 		.filter((t) => t.kind === 'text')

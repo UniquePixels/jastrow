@@ -10,6 +10,7 @@ import {
 } from './report.ts';
 import type { Tally, TruthEntry } from './types.ts';
 
+/** A gate that ran once and passed. */
 function greenTally(): Tally {
 	return { failures: [], pass: 1, total: 1 };
 }
@@ -69,6 +70,19 @@ describe('isGreen', () => {
 		report.gates.schema = { failures: [], pass: 0, total: 0 };
 		expect(isGreen(report)).toBe(false);
 	});
+
+	it('is false when internalTargets is 0/0 but lists a failure', () => {
+		// internalTargets is the one gate exempt from the total > 0
+		// check, so its failure list is the ONLY thing standing between
+		// a quarantine mismatch and a green --write.
+		const report = greenReport();
+		report.gates.internalTargets = {
+			failures: ['unlisted: A00349|אַנְגַּרְמוֹס'],
+			pass: 0,
+			total: 0,
+		};
+		expect(isGreen(report)).toBe(false);
+	});
 });
 
 describe('renderBlessing', () => {
@@ -121,7 +135,12 @@ describe('writeReport', () => {
 			expect(text).toContain('\t"entries": 1');
 			expect(JSON.parse(text)).toEqual(greenReport());
 		} finally {
-			await Bun.file(path).delete();
+			// Swallowed: if writeReport threw before Bun.write created the
+			// file, this delete rejects with ENOENT and that rejection
+			// would replace the failure the test is actually reporting.
+			await Bun.file(path)
+				.delete()
+				.catch(() => {});
 		}
 	});
 });

@@ -52,6 +52,7 @@ interface Decomposed {
 	parsed: boolean;
 }
 
+/** A homograph number as the roman numeral Jastrow prints. */
 function intToRoman(n: number): string {
 	let rest = n;
 	let out = '';
@@ -64,6 +65,9 @@ function intToRoman(n: number): string {
 	return out;
 }
 
+/** A roman numeral back to its number, or NaN when the string is not
+ * one this table can consume whole — the caller treats NaN as "this
+ * did not parse" rather than guessing at a partial reading. */
 function romanToInt(s: string): number {
 	let total = 0;
 	let rest = s;
@@ -76,10 +80,13 @@ function romanToInt(s: string): number {
 	return rest === '' ? total : Number.NaN;
 }
 
+/** A disambiguator as superscript digits. */
 function intToSup(n: number): string {
 	return [...String(n)].map((d) => SUP_DIGITS[Number(d)] ?? '').join('');
 }
 
+/** Superscript digits back to a number, or NaN on any character that
+ * is not one — see `romanToInt` for why a partial read is refused. */
 function supToInt(s: string): number {
 	let out = '';
 	for (const ch of s) {
