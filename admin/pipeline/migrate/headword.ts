@@ -113,7 +113,13 @@ function decomposeForm(marked: string): Decomposed {
 		return unparsed;
 	}
 	const text = groups['text'];
-	if (text === undefined || text.trim() !== text) {
+	// Two guards rather than one `||`: collapsed, the pair reads as an
+	// optional chain (`text?.trim() !== text`) that is FALSE when `text`
+	// is undefined — the opposite of what this guard owes its caller.
+	if (text === undefined) {
+		return unparsed;
+	}
+	if (text.trim() !== text) {
 		return unparsed;
 	}
 	const form: FormObject = { text };
