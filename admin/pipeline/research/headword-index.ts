@@ -307,10 +307,10 @@ function ownForms(entry: SourceEntry): OwnForms {
 	};
 	walk(entry.content?.senses ?? []);
 	const forms = raw
-		.map((f) => consonants(baseHeadword(f.replace(TAG, ' '))))
+		.map((f) => consonants(recordedVariant(f)))
 		.filter((f) => f.length >= 2);
 	const skeletons = raw
-		.map((f) => skeleton(baseHeadword(f.replace(TAG, ' '))))
+		.map((f) => skeleton(recordedVariant(f)))
 		.filter((f) => f.length >= 2);
 	const known = new Set(skeletons);
 	const prose = new Set<string>();
